@@ -9,5 +9,5 @@ relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q1110326" }
-sources: [source/fihrist-ibn-al-nadim]
+sources: [source/fihrist-ibn-al-nadim, source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

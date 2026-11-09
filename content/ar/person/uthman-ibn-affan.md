@@ -53,3 +53,6 @@ translators: []
 - **قضاء البصرة:** [[person/kab-ibn-suwar|كعب بن سور]] ⁦(ثم أعاده ابن عامر حتى قتل يوم الجمل)⁩، ثم [[person/abu-musa-al-ashari|أبو موسى الأشعري]] ⁦(أمره عثمان أن يقضي)⁩ {cite:tarikh-khalifa-umari-1985 p. 179}
 - **قضاء الكوفة:** [[person/shurayh-al-qadi|شريح]] ⁦(حتى قتل عثمان)⁩ {cite:tarikh-khalifa-umari-1985 p. 179}
 - **قضاء اليمن:** [[person/yala-ibn-umayya|يعلى بن أمية]] ⁦(على صنعاء)⁩ {cite:tarikh-khalifa-umari-1985 p. 179}
+
+## من سلسلة «قصة و عبرة» لعمر عبد الكافي
+يذكر في الحلقة الثانية عشرة، في سياق الاستعداد للساعة، أننا لسنا كالحجاج الذي قال لصائم «صم غدًا» فقال «وهل يضمن الأمير لي أن أعيش إلى الغد؟»، بل كعثمان وعمر والصالحين الذين ثبتوا على الحق حتى يأتيهم ملك الموت. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:08:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:09:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:09:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:10:00}

@@ -18,8 +18,9 @@ relations:
   - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 external_ids:
+  nomisma: "murad_iii"
   wikidata: Q159934
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 292-294"

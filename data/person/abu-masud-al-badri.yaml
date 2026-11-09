@@ -15,6 +15,7 @@ wings: [people]
 relations:
   - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam, source/sallabi-ali-vol1], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-rajab-jami-ulum-hikam, source/sallabi-ali-vol1]}
+  - { type: member_of, target: group/ansar, sources: [source/ibn-rajab-jami-ulum-hikam, source/sallabi-ali-vol1]}
 external_ids: { wikidata: "Q26950741" }
 sources:
 - source/ibn-rajab-jami-ulum-hikam

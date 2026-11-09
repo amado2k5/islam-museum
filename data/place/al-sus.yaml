@@ -1,18 +1,33 @@
 id: place/al-sus
 class: place
 kind: city
-label: { ar: "السوس", en: "al-Sus (Shush)" }
+label:
+  ar: السوس
+  en: al-Sus (Shush)
 summary:
-  ar: "السوس مدينة عظيمة من كور الأهواز؛ حاصرها أبو موسى حتى نفد طعام أهلها ففتحها على أمان ثمانين وفيها قتل مرزبانها ووجد في قلعتها جثة دانيال النبي فدفنها في النهر بأمر عمر."
-  en: "al-Sus, the great city of al-Ahwaz; starved out by Abu Musa it fell on an eighty-man aman, its marzban beheaded — and in its citadel was found the prophet Daniel's body, buried in the riverbed on Umar's command."
-regions: [levant-iraq]
-wings: [place]
-coordinates: [30.4, -8.5]
+  ar: السوس مدينة عظيمة من كور الأهواز؛ حاصرها أبو موسى حتى نفد طعام أهلها ففتحها على أمان ثمانين وفيها قتل مرزبانها ووجد
+    في قلعتها جثة دانيال النبي فدفنها في النهر بأمر عمر.
+  en: al-Sus, the great city of al-Ahwaz; starved out by Abu Musa it fell on an eighty-man aman, its marzban beheaded — and
+    in its citadel was found the prophet Daniel's body, buried in the riverbed on Umar's command.
+regions:
+- levant-iraq
+wings:
+- place
+coordinates:
+- 30.4
+- -8.5
 coordinate_precision: approx
-coordinate_note: "Approximate identified/modern location; flagged for gazetteer verification."
-sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer]
-status: { review: draft, completeness: 1 }
+coordinate_note: Approximate identified/modern location; flagged for gazetteer verification.
+sources:
+- source/futuh-buldan-maarif-1407
+- source/geonames-gazetteer
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  generated_by: Devin (SWE-2 High)
+  extraction_flow: Apple Vision OCR -> manual extraction
+external_ids:
+  nomisma: al-sus

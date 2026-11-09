@@ -1,19 +1,36 @@
 id: place/zaranj
 class: place
 kind: city
-label: { ar: "زرنج", en: "Zaranj" }
+label:
+  ar: زرنج
+  en: Zaranj
 summary:
-  ar: "زرنج مدينة سجستان الكبرى؛ حاصرها الربيع بن زياد فصالحه مرزبانها أبرويز على ألف وضيف مع كل وصيف جام من ذهب بعد أن أجلسه على جثة قتيل وكانت ولاية الربيع بها سنتين ونصفاً سبى فيها أربعين ألف رأس ثم حصر ابن سمرة مرزبانها يوم عيدهم فصالحه على ألفي ألف درهم وألفي وصيف."
-  en: "Zaranj, the great city of Sijistan; besieged by al-Rabi' ibn Ziyad its marzban Aparwiz truced for a thousand wadif with gold cups — seated on a corpse — in a two-and-a-half-year governorship that took forty thousand captives; then Ibn Samura besieged its marzban on their feast-day for two million dirhams and two thousand wadif."
-regions: [persia-central-asia]
-coordinates: [30.9607, 61.8603]
+  ar: زرنج مدينة سجستان الكبرى؛ حاصرها الربيع بن زياد فصالحه مرزبانها أبرويز على ألف وضيف مع كل وصيف جام من ذهب بعد أن أجلسه
+    على جثة قتيل وكانت ولاية الربيع بها سنتين ونصفاً سبى فيها أربعين ألف رأس ثم حصر ابن سمرة مرزبانها يوم عيدهم فصالحه على
+    ألفي ألف درهم وألفي وصيف.
+  en: Zaranj, the great city of Sijistan; besieged by al-Rabi' ibn Ziyad its marzban Aparwiz truced for a thousand wadif with
+    gold cups — seated on a corpse — in a two-and-a-half-year governorship that took forty thousand captives; then Ibn Samura
+    besieged its marzban on their feast-day for two million dirhams and two thousand wadif.
+regions:
+- persia-central-asia
+coordinates:
+- 30.9607
+- 61.8603
 coordinate_precision: approx
-coordinate_note: "Approximate location; the exact classical/modern identification or extent is not fixed to the metre."
-wings: [place]
-sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer]
-status: { review: draft, completeness: 1 }
+coordinate_note: Approximate location; the exact classical/modern identification or extent is not fixed to the metre.
+wings:
+- place
+sources:
+- source/futuh-buldan-maarif-1407
+- source/geonames-gazetteer
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  source: "al-Baladhuri, Futuh al-Buldan, Mu'assasat al-Ma'arif ed. (1987), pages.json pp. 555–556 (scan indices)"
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: al-Baladhuri, Futuh al-Buldan, Mu'assasat al-Ma'arif ed. (1987), pages.json pp. 555–556 (scan indices)
+  generated_by: Devin (SWE-2 High)
+  extraction_flow: Apple Vision OCR -> manual extraction
+external_ids:
+  nomisma: zaranj

@@ -1,21 +1,36 @@
 id: place/qazvin
-aliases: [place/qazvin-2]
+aliases:
+- place/qazvin-2
 class: place
 kind: city
-label: { ar: "قزوين" }
+label:
+  ar: قزوين
 summary:
-  ar: "قزوين مدينة في جبال شمال غرب إيران، نشأت من قلعة قديمة، ونقل إليها الشاه طهماسب الصفوي مقره سنة 959هـ. {cite:farghani-elements-astronomy p. 445}"
-wings: [place]
-regions: [persia-central-asia]
-coordinates: [36.28543666666667, 50.0041]
+  ar: قزوين مدينة في جبال شمال غرب إيران، نشأت من قلعة قديمة، ونقل إليها الشاه طهماسب الصفوي مقره سنة 959هـ. {cite:farghani-elements-astronomy
+    p. 445}
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 36.28543666666667
+- 50.0041
 coordinate_precision: approx
-coordinate_note: "Coordinates from Wikidata Q181578; approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q181578" }
-sources: [source/farghani-elements-astronomy, source/wikidata]
+coordinate_note: Coordinates from Wikidata Q181578; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q181578
+  nomisma: qazwin
+sources:
+- source/farghani-elements-astronomy
+- source/wikidata
+- source/nomisma
 provenance:
   layer: own-research
-  source: "Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549"
-  generated_by: "Claude Code"
-  model: "claude-haiku-5-5"
-  run: "farghani-389-577"
-status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }
+  source: Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549
+  generated_by: Claude Code
+  model: claude-haiku-5-5
+  run: farghani-389-577
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code (claude-haiku-5-5)

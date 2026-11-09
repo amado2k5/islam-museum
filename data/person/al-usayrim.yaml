@@ -25,6 +25,7 @@ relations:
   - { type: member_of, target: group/banu-abd-al-ashhal, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
   - { type: participated_in, target: event/battle-of-uhud, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
   - { type: member_of, target: group/sahaba, sources: [source/istiab-alam-2002] }
+  - { type: member_of, target: group/ansar, sources: [source/istiab-alam-2002, source/rawd-unuf-wakil-v6] }
 external_ids:
   wikidata: Q12183492
 sources: [source/rawd-unuf-wakil-v6, source/istiab-alam-2002, source/al-aalam]

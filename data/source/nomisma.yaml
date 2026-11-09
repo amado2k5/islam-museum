@@ -1,0 +1,21 @@
+id: source/nomisma
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "نوميسما ⁦(الأنطولوجيا المترابطة للمفاهيم النقدية)⁩"
+  en: "Nomisma.org (Linked Open Data ontology for numismatic concepts)"
+  ur: "Nomisma.org (numismatic linked-open-data ontology)"
+summary:
+  ar: "الأنطولوجيا التعاونية للبيانات المترابطة المفتوحة للمفاهيم النقدية — مفردات موحدة للعملات والمسكوكات والمدن الضاربة والسلطات الإصدار والمعايير والتصنيفات، أسستها الجمعية الأمريكية لعلم النقود مع تطوير مرتبط بجامعة أكسفورد وبرعاية مجلس التراث غير المادي منذ ٢٠١٠، برخصة الإسناد Creative Commons ٣.٠، وتتضمن نقطة استعلام SPARQL وواجهات برمجية موثقة."
+  en: "The collaborative Linked Open Data ontology for numismatic concepts — a shared vocabulary for coins, mints, issuing authorities, standards and classifications, founded in 2010 by the American Numismatic Society with Oxford-linked development and INC patronage, licensed CC-BY 3.0, with a SPARQL endpoint and documented APIs."
+  ur: "The collaborative Linked Open Data ontology for numismatic concepts — a shared vocabulary for coins, mints, issuing authorities, standards and classifications, founded in 2010 by the American Numismatic Society with Oxford-linked development and INC patronage, licensed CC-BY 3.0, with a SPARQL endpoint and documented APIs."
+title: "Nomisma.org"
+publisher: "American Numismatic Society / Nomisma editors (Oxford-linked development, INC patronage)"
+URL: "https://nomisma.org"
+language: en
+reliability_note: "The reference ontology of numismatics — stable nomisma.org/id/ concept URIs for coin types, mints, issuing authorities, denominations and standards — the machine-readable backbone for Islamic coinage facts that the museum's two kind:coin objects cannot yet carry. Licence: CC-BY 3.0 stated on site (verified 9 Nov 2026); {cite:nomisma <concept-id>} is the attribution. Caveat: Nomisma is an ontology of concepts, not a coin catalogue — dataset records ingested through partner projects carry their own licence statements and stay facts-only until checked per-record. Cite mint → place, issuing authority → person/polity, type/standard → object kind coin; legend text and images are never republished. Harvest channel: SPARQL endpoint + documented APIs; pilot pending — only two kind:coin records exist, so the first pilot targets mint/issuer corroboration for existing place and person records. Verified live 9 November 2026; decision dec-20261109-224 (supersedes engine false-positive dec-20261109-223)."
+sources: [source/nomisma]
+open_access: true
+provenance: { layer: own-research, source: "Muse web-sources lane assessment 2026-11-09 (decision ledger dec-20261109-224)", generated_by: "Devin", model: "SWE-2 Flash High", run: web-sources-explore-registration-2026-11-09 }
+status: { review: published, generated_by: "Devin" }

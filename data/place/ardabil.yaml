@@ -5,8 +5,13 @@ label:
   ar: أردبيل
   en: Ardabil
 summary:
-  ar: أردبيل من ممتلكات أذربيجان عند البلاذري؛ إليها انحازت الخزر بعد وقعة صحراء ورثان فواقعهم الجرّاح على أربعة فراسخ مما يلي أرمينية ثلاثة أيام حتى استشهد ومن معه فسُمّي نهرها نهر الجرّاح ونُسب جسر عليه إليه، وأتاه مسافر القصّاب مستخفياً فخرج معه قوم من الشراة.
-  en: Ardabil, among Adharbayjan's holdings in al-Baladhuri; to it the Khazars withdrew after the Warthan-desert clash, and al-Jarrah fought them four farsakhs from Armenia's edge for three days until he was martyred with those with him — its river being named Nahr al-Jarrah and a bridge ascribed to him; and Musafir al-Qassab came to it in disguise, whence a body of Sharat went out with him.
+  ar: أردبيل من ممتلكات أذربيجان عند البلاذري؛ إليها انحازت الخزر بعد وقعة صحراء ورثان فواقعهم الجرّاح على أربعة فراسخ مما
+    يلي أرمينية ثلاثة أيام حتى استشهد ومن معه فسُمّي نهرها نهر الجرّاح ونُسب جسر عليه إليه، وأتاه مسافر القصّاب مستخفياً فخرج
+    معه قوم من الشراة.
+  en: Ardabil, among Adharbayjan's holdings in al-Baladhuri; to it the Khazars withdrew after the Warthan-desert clash, and
+    al-Jarrah fought them four farsakhs from Armenia's edge for three days until he was martyred with those with him — its
+    river being named Nahr al-Jarrah and a bridge ascribed to him; and Musafir al-Qassab came to it in disguise, whence a
+    body of Sharat went out with him.
 wings:
 - place
 regions:
@@ -18,9 +23,11 @@ coordinate_precision: locality
 coordinate_note: Identified modern location; flagged for gazetteer verification.
 external_ids:
   wikidata: Q180103
+  nomisma: ardabil
 sources:
 - source/futuh-buldan-maarif-1407
 - source/wikidata
+- source/nomisma
 periods:
 - period/umayyad
 relations:
@@ -29,9 +36,14 @@ relations:
   sources:
   - source/futuh-buldan-maarif-1407
   - source/geonames-gazetteer
+- type: site_of
+  target: event/death-of-al-jarrah
+  sources:
+  - source/futuh-buldan-maarif-1407
 status:
   review: draft
   completeness: 1
+  generated_by: Devin (SWE-2 High)
 provenance:
   layer: own-research
   generated_by: Devin

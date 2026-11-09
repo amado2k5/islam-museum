@@ -18,7 +18,8 @@ coordinates:
 coordinate_precision: locality
 provenance:
   layer: own-research
-  source: Recorded against source/geonames-gazetteer, source/rihla-ibn-jubayr-1907; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note.
+  source: Recorded against source/geonames-gazetteer, source/rihla-ibn-jubayr-1907; provenance block added in the person-place
+    geo-enrichment run pending re-verification of the original research note.
   generated_by: Devin
   model: Devin (Cognition)
   run: person-place-geo-b
@@ -26,14 +27,17 @@ provenance:
 external_ids:
   geonames: '99347'
   wikidata: Q243846
+  nomisma: hillah
 sources:
 - source/geonames-gazetteer
 - source/rihla-ibn-jubayr-1907
 - source/wikidata
+- source/nomisma
 status:
   review: draft
   completeness: 1
-  generated_by: Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked
+  generated_by: Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical
+    place to be checked
 coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
 aliases:
 - place/hillah

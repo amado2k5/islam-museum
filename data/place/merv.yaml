@@ -1,28 +1,53 @@
 id: place/merv
 education:
   did_you_know:
-    ar: "مرو عاصمة خراسان القديمة انطلقت منها الدعوة العباسية وأقام بها المأمون قبل بغداد؛ ويعدّد المقدسي من خاصياتها بطيخها الكبير."
-    en: "Merv, ancient capital of Khurasan, saw the Abbasid call begin and housed al-Ma'mun before Baghdad; al-Muqaddasi lists its huge matchless melons among its specialties."
-    ur: "مرو، خراسان کا قدیم دارالحکومت، جہاں سے دعوتِ عباسیہ شروع ہوئی اور مامون بغداد جانے سے پہلے یہاں رہا؛ مقدسی اس کے بڑے بے نظیر خربوزوں کو اس کی خاصیت گنتا ہے۔"
-    sources: [source/ahsan-al-taqasim, source/futuh-buldan-maarif-1407]
+    ar: مرو عاصمة خراسان القديمة انطلقت منها الدعوة العباسية وأقام بها المأمون قبل بغداد؛ ويعدّد المقدسي من خاصياتها بطيخها
+      الكبير.
+    en: Merv, ancient capital of Khurasan, saw the Abbasid call begin and housed al-Ma'mun before Baghdad; al-Muqaddasi lists
+      its huge matchless melons among its specialties.
+    ur: مرو، خراسان کا قدیم دارالحکومت، جہاں سے دعوتِ عباسیہ شروع ہوئی اور مامون بغداد جانے سے پہلے یہاں رہا؛ مقدسی اس کے
+      بڑے بے نظیر خربوزوں کو اس کی خاصیت گنتا ہے۔
+    sources:
+    - source/ahsan-al-taqasim
+    - source/futuh-buldan-maarif-1407
 class: place
 kind: city
-label: { ar: "مرو", en: "Merv" }
+label:
+  ar: مرو
+  en: Merv
 summary:
-  ar: "مدينة قديمة في تركمانستان الحالية، كانت عاصمة خراسان، ومنها انطلقت الدعوة العباسية، وبها أقام المأمون قبل انتقاله إلى بغداد وعند البلاذري تلقى يزدجرد عند حدها ماهويه مرزبانها معظماً وأكرمه نيزك طرخان شهراً ثم تضافرا على قتله فلم تفتح له فدخل بيت طحان على الرغاب فقتل. ويعدّد المقدسي من خاصياتها بطيخ مرو الكبير الذي لا نظير له في أقاليم العجم {cite:ahsan-al-taqasim p. 247}."
-  en: "An ancient city in present-day Turkmenistan; it was the capital of Khurasan, the Abbasid movement set out from it, and al-Ma'mun resided there before moving to Baghdad."
-wings: [place]
-regions: [persia-central-asia]
-coordinates: [37.5938, 61.8303]
+  ar: مدينة قديمة في تركمانستان الحالية، كانت عاصمة خراسان، ومنها انطلقت الدعوة العباسية، وبها أقام المأمون قبل انتقاله إلى
+    بغداد وعند البلاذري تلقى يزدجرد عند حدها ماهويه مرزبانها معظماً وأكرمه نيزك طرخان شهراً ثم تضافرا على قتله فلم تفتح له
+    فدخل بيت طحان على الرغاب فقتل. ويعدّد المقدسي من خاصياتها بطيخ مرو الكبير الذي لا نظير له في أقاليم العجم {cite:ahsan-al-taqasim
+    p. 247}.
+  en: An ancient city in present-day Turkmenistan; it was the capital of Khurasan, the Abbasid movement set out from it, and
+    al-Ma'mun resided there before moving to Baghdad.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 37.5938
+- 61.8303
 coordinate_precision: site
-external_ids: { geonames: "1218667", wikidata: "Q193325"}
-sources: [source/geonames-gazetteer, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/wikidata]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
-
+external_ids:
+  geonames: '1218667'
+  wikidata: Q193325
+  nomisma: marw
+sources:
+- source/geonames-gazetteer
+- source/ahsan-al-taqasim
+- source/farghani-elements-astronomy
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works
 provenance:
-  model: "claude-haiku-5-5"
-  run: "farghani-389-577"
+  model: claude-haiku-5-5
+  run: farghani-389-577
 kids:
-  ar: "مرو عاصمة خراسان الكبرى، كانت من أعظم مدن الشرق حتى جاءت المغول."
-  en: "Merv, capital of great Khurasan — one of the largest cities of the East until the Mongols came."
-  ur: "مرو عظیم خراسان کا دارالحکومت تھا — منگولوں کے آنے تک مشرق کے بڑے شہروں میں تھا۔"
+  ar: مرو عاصمة خراسان الكبرى، كانت من أعظم مدن الشرق حتى جاءت المغول.
+  en: Merv, capital of great Khurasan — one of the largest cities of the East until the Mongols came.
+  ur: مرو عظیم خراسان کا دارالحکومت تھا — منگولوں کے آنے تک مشرق کے بڑے شہروں میں تھا۔

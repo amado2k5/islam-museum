@@ -20,6 +20,7 @@ story_roles:
 relations:
   - { type: lived_in, target: place/medina, sources: [source/mawsuat-a3lam-ulama-adaba, source/sallabi-ali-vol1] }
   - { type: member_of, target: group/sahaba, sources: [source/mawsuat-a3lam-ulama-adaba, source/sallabi-ali-vol1] }
+  - { type: member_of, target: group/ansar, sources: [source/mawsuat-a3lam-ulama-adaba, source/sallabi-ali-vol1] }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/sallabi-ali-vol1]
 status:
   review: published

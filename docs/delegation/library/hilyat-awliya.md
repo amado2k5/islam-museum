@@ -14,7 +14,20 @@
 
 ## Pages read
 - Vol. 1 pp. 1–8, 17, 22–24, 28, and the notice headings to p. 124. Title pages and first/last notice numbers of vols 2, 5, 7, 9 and 10.
+- Batch 2 (run microsd-books-b10): vol. 2 pp. 357–389 (Malik ibn Dinar, notice 200); vol. 5 pp. 364–391 (Ka'b al-Ahbar, notice 325); vol. 7 pp. 367–395 (Ibrahim ibn Adham, notice 394 — last notice of the volume); vol. 9 pp. 254–280 (Abu Sulayman al-Darani, notice 448); vol. 10 pp. 189–226 (Sahl al-Tustari, notice 546).
+
+## Entities (batch 2)
+- `person/ibn-adham-ibrahim`, `person/malik-ibn-dinar-al-khattat`, `person/kab-al-ahbar`, `person/abu-sulayman-al-darani`, `person/sahl-al-tustari`: each gained a trilingual "In Hilyat al-Awliya" section citing `vol/page` (PDF pages), and the source record was added to each `sources` list.
+- Identity resolution: Malik ibn Dinar the ascetic IS `person/malik-ibn-dinar-al-khattat` — the Fihrist entry (mushaf copyist for hire, d. 130 AH, kunyat Abu Yahya, mawla of a woman of Banu Sama) matches the vol. 2 notice 200 ("أبو يحي مالك بن دينار"). The slug keeps the descriptive `al-khattat`; no duplicate record needed.
+- Ahmad ibn Abi al-Hawari remains without a record — still a lead.
+
+## Batch 3 (run microsd-books-b11)
+- `concept/wali` and `concept/karamat-al-awliya`: trilingual sections appended on the introduction's "neat" (نعوت) of the friends of God and its karamat reports — the hadith qudsi on harming a wali (1/4–5), the groups listed pp. 5–17, Dhu al-Nun's description of the elite pp. 13–15 — cited `1/<page>` (vol. 1 printed = PDF page). Hilyat source added to both `sources` lists.
+- Pages read: vol. 1 pp. 4–17 in full.
+
+## Batch 4 (run microsd-books-b12)
+- `person/ahmad-ibn-abi-al-hawari`: trilingual "In Hilyat al-Awliya" section appended — vol. 10, notice 457, PDF pp.5–41 read (the books-thrown-into-the-sea stories, the Jurayj exchange, the traveller's stations, marks of love and contentment). Record already existed (Sifat al-Safwa provenance, status published); hilyat source added to `sources`.
 
 ## Not done / leads
-- The notices themselves (about 600) are not mined. High-value notices with existing person records: Ibrahim ibn Adham (7/367), Abu Sulayman al-Darani (9/254), Ka'b al-Ahbar (5/364), Malik ibn Dinar (vol. 2, no. 200), Sahl al-Tustari. Records are missing for Ahmad ibn Abi al-Hawari and Malik ibn Dinar the ascetic (`person/malik-ibn-dinar-al-khattat` may be him; check before reuse).
-- `concept/wali` and `concept/karamat-al-awliya` could take a section from the introduction (vol. 1 pp. 4–17).
+- The notices themselves (about 600) are not mined; ~589 remain after batch 4.
+- Next high-value notices still unmined: Sufyan al-Thawri (end of vol. 7 per the vol. 7 index — his notice follows Ibrahim ibn Adham? check; actually vol. 7 notice 393–394 area shows Sufyan content in the index), and the vol. 9–10 Sufi shaykhs.

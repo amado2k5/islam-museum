@@ -23,8 +23,8 @@ provenance:
   run: lib-tarikh-khulafa-batch-42
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
-external_ids: { wikidata: "Q285519" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/shadharat-dhahab]
+external_ids: { wikidata: "Q285519", nomisma: "al-salih_'imad_al-din_isma'il" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/shadharat-dhahab, source/nomisma]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: ruler_of, target: place/aleppo, note: "From text: صاحب حلب", sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir, source/shadharat-dhahab], confidence: low }

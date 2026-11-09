@@ -31,3 +31,12 @@ He died in 205 AH; Abu Abd al-Rahman al-Sulami said 215, but the first is more c
 
 ## For young visitors
 Abu Sulayman was an ascetic from the village of Daraya near Damascus who loved to pray at night, and said that a little hunger makes the heart gentle and clear.
+
+## In Hilyat al-Awliya
+His notice in *Hilyat al-Awliya* (volume 9, no. 448) opens: "Abu Sulayman Abd al-Rahman ibn Ahmad ibn Atiyya al-Ansi al-Darani — Daraya is a village of the villages of Damascus" — and transmits his reports mostly through his disciple Ahmad ibn Abi al-Hawari. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/254}
+
+Dhu al-Nun al-Misri is mentioned as having heard him say in intimate supplication: "My Lord, if You call me to account for my secrets I call You to account for Your oneness; if You call me to account for my sins I call You to account for Your generosity; and if You make me one of the people of the Fire I shall tell the people of the Fire of my love for You." {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/255}
+
+Of his sayings: "Whoever does well in his night, his day suffices him," and "Had the path been known, I would have wished to cling to no one and for no one to cling to me." {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/256} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/262}
+
+The notice closes with a report in which Abu Sulayman relays from Alqama ibn Yazid that the people departed from the Prophet's presence keeping his counsel and acting on it, that by God none of that company nor of their children remained but he, and that "only a few days remain, then I die." {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 9/280}
