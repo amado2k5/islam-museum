@@ -18,6 +18,7 @@ story_roles:
   - { role: commander, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه ليجاهد أهل الشرك من قبائل اليمن (ابن هشام ص233-234).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "631~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: traveled_to, target: place/yemen, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/jurash, sources: [source/ibn-hisham-saqqa] }

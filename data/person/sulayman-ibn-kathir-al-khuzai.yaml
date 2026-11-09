@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 regions: [persia-central-asia]
 themes: [sects-and-schools]
+died: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Umam wa-al-Muluk (al-Tabari)" }
 relations:
   - { type: member_of, target: group/abbasid-dawa, role: "نقيب النقباء", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: lived_in, target: place/khorasan, sources: [source/wikidata], confidence: low, note: "Nisba خراساني attested in the record." }

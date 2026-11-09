@@ -12,6 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+died: { edtf: "1706", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani (Mehmed Sureyya)" }
 relations:
   - { type: lived_in, target: place/ottoman-empire, confidence: low, note: "Ottoman-era figure of the Anatolia-Balkans world (regions: anatolia-balkans); no specific city attested in consulted sources.", sources: [source/al-aalam] }
 external_ids:

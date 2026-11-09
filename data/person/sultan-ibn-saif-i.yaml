@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: History of the Imams and Seyyids of Oman (Badger)" }
 relations:
 - { type: ruled_over, target: place/oman, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (oman)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

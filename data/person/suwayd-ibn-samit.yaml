@@ -17,6 +17,7 @@ story_roles:
   - { role: interlocutor, start: { edtf: "0620~" }, status: tradition, note: "عرض عليه النبي الإسلام فأعجب بالقرآن (الرحيق ص132-133).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "لقي النبي وأعجب بالقرآن ثم قتل ببعاث." }
+died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/aws }

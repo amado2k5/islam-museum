@@ -14,6 +14,7 @@ wings: [people]
 themes: [converts-and-leavers]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "400~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~440, Pre-Islamic South Arabian Inscriptions" }
 relations:
   - { type: member_of, target: group/himyar, sources: [source/mubarakpuri-raheeq] }
   - { type: ruler_of, target: place/yemen, sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }

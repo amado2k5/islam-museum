@@ -12,6 +12,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 sources: [source/al-aalam, source/taqrib-al-tahdhib]
+died: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Member of the Medinan family of Ibn Umar; tabi'un of Medina (regions: arabia).", sources: [source/al-aalam, source/taqrib-al-tahdhib] }
 external_ids:

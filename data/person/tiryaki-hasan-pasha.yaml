@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: died_in, target: place/buda, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193478)" }
 sources: [source/dawlat-uthmaniyya-salabi]

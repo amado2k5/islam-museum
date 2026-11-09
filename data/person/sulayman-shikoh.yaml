@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Mughal Empire (Richards)" }
+died: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Mughal Empire (Richards)" }
 relations:
   - { type: born_in, target: place/sultanpur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1021406)" }
   - { type: died_in, target: place/gwalior, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q158467)" }

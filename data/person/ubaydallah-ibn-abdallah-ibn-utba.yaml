@@ -13,6 +13,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q7876440" }
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
   - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }

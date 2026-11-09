@@ -12,6 +12,7 @@ summary:
 roles: [teacher]
 wings: [people, living]
 regions: [americas-oceania]
+born: { edtf: "1983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Islamic scholar bio" }
 relations:
   - { type: lived_in, target: place/canada, sources: [source/listennotes-taimiyyah-zubair, source/podcastapp-taimiyyah-zubair] }
   - { type: child_of, target: person/farhat-hashmi, sources: [source/listennotes-taimiyyah-zubair] }

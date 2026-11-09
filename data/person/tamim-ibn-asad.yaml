@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: victim, toward: group/banu-al-dil, status: tradition, note: "ناداه منبه «اغد يا تميم فوالله لقد تركت لقتيل» فانطلق حتى دخل مكة.", sources: [source/ibn-hisham-saqqa] }
   - { role: poet, status: debated, note: "قصيدة «حلفت ببيت الله إذ نأت ديارهم» تروى لتميم بن أسد الخزاعي ويذكرها ابن هشام أيضًا لحبيب بن عبد الله الأعلم الهذلي — نسبة الشعر مختلفة.", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: member_of, target: group/khuzaa }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: survivor, sources: [source/ibn-hisham-saqqa] }

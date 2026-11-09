@@ -25,6 +25,7 @@ faith:
       value is therefore unknown.
     sources: [source/wikipedia-tan-hooi-ling-en, source/wikidata-tan-hooi-ling]
 external_ids: { wikidata: "Q75732936" }
+born: { edtf: "1983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary corporate biography (Grab)" }
 relations:
   - { type: lived_in, target: place/kuala-lumpur, sources: [source/wikidata], confidence: low, note: "Raised in Kuala Lumpur per the record text." }
 sources: [source/wikipedia-tan-hooi-ling-en, source/wikidata-tan-hooi-ling]

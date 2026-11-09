@@ -12,6 +12,7 @@ wings: [people]
 themes: [family-marriage-kinship, refugees-migrants-diaspora]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: child_of, target: person/amr-ibn-amir-muzayqiya, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/al-azd, sources: [source/mubarakpuri-raheeq] }

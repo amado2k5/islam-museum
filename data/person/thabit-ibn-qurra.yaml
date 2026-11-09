@@ -18,5 +18,7 @@ status:
   review: published
   completeness: 3
 external_ids: { wikidata: Q250568 }
+born: { edtf: "826", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Uyun al-Anba fi Tabaqat al-Atibba (Ibn Abi Usaybi'a)" }
+died: { edtf: "901", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Uyun al-Anba fi Tabaqat al-Atibba (Ibn Abi Usaybi'a)" }
 relations:
   - { type: lived_in, target: place/harran, confidence: low, note: "Association inferred from the nisba 'الحراني'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/kashf-zunun-furqan] }

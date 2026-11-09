@@ -9,6 +9,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe]
+died: { edtf: "780", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2)" }
 relations:
   - { type: participated_in, target: event/paderborn-pact-160, role: "والي برشلونة وجيرندة المبادر إلى شارلمان", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: ruler_of, target: place/barcelona, sources: [source/tarikh-dawla-abbasiyya-taqqush] }

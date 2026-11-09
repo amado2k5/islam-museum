@@ -13,6 +13,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء السادس (ترجمة ثابت قطنة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-29
+died: { edtf: "728~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/khorasan, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]
