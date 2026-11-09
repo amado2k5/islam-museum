@@ -84,7 +84,7 @@ const mapData = wing === "place" ? (() => {
       .filter((place) => place.coordinates && (place.regions ?? []).includes(r.id))
       .sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), "ar"));
     const placed: [number, number][] = [];
-    const minDistance = 44;
+    const minDistance = 58;
     for (const place of regionalPlaces) {
       const base = fitProjection([place.coordinates![1], place.coordinates![0]]) as [number, number];
       const inside = (p: [number, number]) => {
