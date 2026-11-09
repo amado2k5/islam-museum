@@ -12,6 +12,8 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iran, confidence: low, note: "Safavid-era figure (al-A'lam; regions: persia-central-asia).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q119878057
 provenance:

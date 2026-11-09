@@ -13,6 +13,8 @@ regions: [arabia]
 periods: [period/umayyad]
 born: { edtf: "0668~", precision: decade, status: tradition, derived: true }
 died: { edtf: "0729~", precision: decade, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/az-zubayr, confidence: low, note: "Associated with الزبير per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q54861810

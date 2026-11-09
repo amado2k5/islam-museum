@@ -19,3 +19,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 311-312, article 'Ahmad Midhat' (unsigned in the scan) (EI2 enrichment, batch ei2-b003 part 3ck); the bibliography (IA, s.v., by Sabri Esat Siyavusgil) is not reproduced"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: born_in, target: place/istanbul, note: "From text: born in Istanbul", sources: [source/encyclopaedia-of-islam-2] }

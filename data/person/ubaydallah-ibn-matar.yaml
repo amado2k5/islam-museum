@@ -6,6 +6,10 @@ summary:
   en: "Ubaydallah ibn Ma'tar al-Taymi; Ibn Amir's vanguard to Istakhr — met at Bramjard, killed and buried in Bramjard's garden."
 periods: [period/rashidun]
 wings: [people]
+relations:
+  - { type: ruler_of, target: place/bramjard, sources: [source/wikidata], confidence: low, note: "en: 'Ubaydallah ibn Ma'tar al-Taymi; Ibn Amir's vanguard to Istakhr — met at Bramjard, killed and buried in Br" }
+  - { type: ruler_of, target: place/istakhr, sources: [source/wikidata], confidence: low, note: "en: 'Ubaydallah ibn Ma'tar al-Taymi; Ibn Amir's vanguard to Istakhr — met at Bramjard, killed and buried in Br" }
+  - { type: traveled_to, target: place/bramjard, sources: [source/wikidata], confidence: low, note: "ar: 'عبيد الله بن معتر التيمي؛ وجهه ابن عامر على مقدمته إلى أصطخر فاستقبله أهلها ببرامجرد فقاتلهم فقتلوه فدفن " }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

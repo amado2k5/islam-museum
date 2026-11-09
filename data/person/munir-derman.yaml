@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/trabzon, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45301)" }
+  - { type: born_in, target: place/vakf-kebir, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1947455)" }
+  - { type: died_in, target: place/ankara, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3640)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q116616086

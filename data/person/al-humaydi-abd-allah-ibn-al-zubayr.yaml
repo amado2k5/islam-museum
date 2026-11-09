@@ -17,6 +17,7 @@ regions: [arabia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/al-shafii, role: "رحل مع الشافعي إلى مصر ولزمه حتى مات (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/sufyan-ibn-uyayna, role: "أخذ عن ابن عيينة من شيوخ الشافعي (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q12223465" }

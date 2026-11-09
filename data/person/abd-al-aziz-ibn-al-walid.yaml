@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q12328667
 provenance:
@@ -23,3 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/damascus, note: "Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.", sources: [source/kamil-ibn-al-athir], confidence: low }

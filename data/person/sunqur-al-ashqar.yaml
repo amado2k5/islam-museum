@@ -14,7 +14,11 @@ regions: [levant-iraq, egypt-nile]
 faith:
   - value: sunni
     basis: tradition
-relations: []
+relations:
+  - { type: ruled_over, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/syria, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/akka, sources: [source/shadharat-dhahab] }
+
 sources: [source/shadharat-dhahab]
 status:
   review: published

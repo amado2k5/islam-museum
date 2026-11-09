@@ -34,7 +34,9 @@ faith:
     basis: unknown
     note: "No source names a school for him. Wikidata carries Islam as his religion and nothing more specific; his father was Hafiz Ahmed Khan of Peshawar and he spent a year of postgraduate study at Aligarh Muslim University — family background and schooling, which never count. Generic Islam is not a school in this schema, so nothing further is recorded."
     sources: [source/wikidata-habib-tanvir, source/wikipedia-habib-tanvir-en]
-relations: []
+relations:
+  - { type: born_in, target: place/raipur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habib-tanvir] }
+  - { type: died_in, target: place/bhopal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habib-tanvir] }
 summary:
   ar: "مسرحي ومخرج وشاعر وممثل هندي (1923–2009)، وُلد باسم حبيب أحمد خان في رايبور، وأسس فرقة «نايا ثييتر» في بوبال سنة 1959، واشتهر بعمله مع فناني تشاتيسغار القبليين ومسرحيته «شرنداس تشور» (1975)."
   en: "Indian playwright, theatre director, poet and actor (1923–2009), born Habib Ahmed Khan at Raipur, who founded the Naya Theatre company at Bhopal in 1959 and became known for his work with Chhattisgarhi folk performers and his play Charandas Chor (1975)."

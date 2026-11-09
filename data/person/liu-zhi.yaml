@@ -35,6 +35,8 @@ died:
   note: "The English and Urdu articles give his death as circa 1739 and the Arabic article gives 1739 plainly; the year is built at year precision with the circa qualification of the sources preserved. No Hijri year is set, since a bare year spans two Hijri years."
   sources: [source/wikipedia-liu-zhi-en, source/wikipedia-liu-zhi-ar, source/wikipedia-liu-zhi-ur, source/wikidata-liu-zhi]
 
+relations:
+  - { type: lived_in, target: place/china, confidence: low, note: "Qing-dynasty Muslim scholar of Nanjing, China, per the record's own text.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

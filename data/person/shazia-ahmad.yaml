@@ -17,6 +17,10 @@ faith:
     basis: unknown
     note: "No consulted source names a madhhab or sect affiliation for her personally. The SeekersGuidance biography lists the subjects she studied in Damascus and Amman; a course of study is not a personal attestation, so no school is recorded."
     sources: [source/seekersguidance-shazia-ahmad]
+relations:
+  - { type: died_in, target: place/amman, sources: [source/wikidata], confidence: low, note: "She lived in Damascus, Syria for two years studying aqidah, fiqh, tajweed, tafsir and Arabic, completed a Mast" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: low, note: "The SeekersGuidance biography lists the subjects she studied in Damascus and Amman; a course of study is not a" }
+  - { type: lived_in, target: place/damascus, sources: [source/wikidata], confidence: low, note: "She lived in Damascus, Syria for two years studying aqidah, fiqh, tajweed, tafsir and Arabic, completed a Mast" }
 sources: [source/seekersguidance-shazia-ahmad]
 provenance:
   layer: own-research

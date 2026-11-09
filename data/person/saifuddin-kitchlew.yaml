@@ -33,6 +33,7 @@ died:
   sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur, source/wikidata-saifuddin-kitchlew]
 relations:
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur] }
+  - { type: born_in, target: place/amritsar, sources: [source/wikipedia-saifuddin-kitchlew-en, source/wikipedia-saifuddin-kitchlew-ur, source/wikidata-saifuddin-kitchlew] }
 faith:
   - value: unknown
     basis: unknown

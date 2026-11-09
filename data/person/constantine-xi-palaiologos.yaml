@@ -15,6 +15,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/constantinople, confidence: low, note: "Associated with القسطنطينية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "الإمبراطور المدافع", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/mehmed-ii, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

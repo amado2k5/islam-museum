@@ -1,0 +1,21 @@
+id: place/simferopol
+class: place
+kind: city
+label: { ar: "سيمفروبول", en: "Simferopol", ur: "سمفروپول" }
+summary:
+  ar: "مدينة في خانية القرم."
+  en: "City in Crimean Khanate."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [44.948376, 34.100039]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q19566" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q19566 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -20,6 +20,8 @@ born:
 roles: [actor]
 regions: [south-asia]
 wings: [people, living]
+relations:
+  - { type: lived_in, target: place/karachi, confidence: low, note: "Pakistani cricketer educated in Karachi per the record's sources.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

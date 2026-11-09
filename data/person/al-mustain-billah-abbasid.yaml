@@ -22,3 +22,6 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/alexandria, note: "From text: توفي بالإسكندرية شهيداً بالطاعون 833", sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/cairo, note: "From text: caliph of Cairo", sources: [source/shadharat-dhahab] }

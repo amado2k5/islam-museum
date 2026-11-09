@@ -22,3 +22,5 @@ occupations:
     status: historical
     note: "Chief judge (qadi al-qudat) appointed by Harun al-Rashid, who used him to help choose the judges of the cities. The DİA entry records that the chief judge's powers over appointment and dismissal later grew."
     sources: [source/tdv-kadi-atar]
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib, source/kitab-al-kharaj-salafiyya-1392], confidence: low }

@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/hilla, confidence: low, note: "Associated with الحلة per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني (عارضة 39 داخل ترجمة دبيس)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

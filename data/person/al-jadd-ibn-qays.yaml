@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa, source/assabile-tareq-al-suwaidan], confidence: low }
   - { type: participated_in, target: event/al-jadd-ibn-qays-asks-to-stay-behind, role: subject, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"

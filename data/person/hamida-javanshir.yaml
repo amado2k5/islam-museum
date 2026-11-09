@@ -33,6 +33,9 @@ died:
   note: "Died at Baku on 6 February 1955; the English, Azerbaijani and Arabic articles and Wikidata agree, the Russian article giving the year only. The Azerbaijani and Russian articles state she was buried in the Alley of Honours at Baku beside her husband Jalil Mammadguluzadeh. The Hijri year 1374 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
   sources: [source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ru, source/wikidata-hamida-javanshir]
 relations:
+  - { type: died_in, target: place/baku, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamida-javanshir] }
+  - { type: born_in, target: place/b-y-k-k-hrizli, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamida-javanshir] }
+  - { type: buried_in, target: place/alley-of-honor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamida-javanshir] }
   - { type: spouse_of, target: person/jalil-mammadguluzadeh, sources: [source/wikipedia-hamida-javanshir-en, source/wikipedia-hamida-javanshir-az, source/wikipedia-hamida-javanshir-ru] }
 faith:
   - value: unknown

@@ -1,0 +1,21 @@
+id: place/achir
+class: place
+kind: town
+label: { ar: "آشير", en: "Achir" }
+summary:
+  ar: "بلدة في الجزائر."
+  en: "Town in Algeria."
+wings: [place]
+regions: [maghreb]
+coordinates: [35.9375, 3.24]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2401317" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2401317 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

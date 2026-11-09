@@ -1,0 +1,21 @@
+id: place/machinga-district
+class: place
+kind: region
+label: { ar: "مقاطعة ماشينكا", en: "Machinga District", ur: "ماچینجا ضلع" }
+summary:
+  ar: "إقليم في ملاوي."
+  en: "Region in Malawi."
+wings: [place]
+regions: [east-africa]
+coordinates: [-14.916666666667, 35.666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q198585" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q198585 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

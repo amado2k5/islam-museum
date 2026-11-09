@@ -11,6 +11,9 @@ themes: [law-and-courts]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 provenance: { layer: own-research, source: "al-Mas'udi, Muruj al-dhahab, ed. Mar'i (2005)", generated_by: "Claude (Haiku 5.5)" }
+relations:
+  - { type: buried_in, target: place/baghdad, sources: [source/muruj-mari-2005] }
+  - { type: died_in, target: place/baghdad, sources: [source/muruj-mari-2005] }
 sources: [source/muruj-mari-2005]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); single source: Mar'i ed. (2005) juz' cited in summary" }
 occupations:

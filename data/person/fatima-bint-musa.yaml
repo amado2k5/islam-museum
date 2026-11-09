@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/abbasid-early]
+relations:
+  - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/haram-fatima-masuma-qum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
 - { value: shia-twelver, basis: tradition, note: "venerated in the Imami tradition as al-Ma'suma" }
 sources: [source/al-aalam]

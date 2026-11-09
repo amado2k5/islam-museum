@@ -22,6 +22,7 @@ born:
   note: "Born on 3 March 1970 in Multan, Punjab, Pakistan, per the English and Urdu Wikipedia articles and Wikidata. The Hijri year (1389) is derived by tabular conversion."
   sources: [source/wikipedia-inzamam-ul-haq-en, source/wikipedia-inzamam-ul-haq-ur, source/wikidata-inzamam-ul-haq]
 relations:
+  - { type: born_in, target: place/multan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-inzamam-ul-haq] }
   - { type: born_in, target: place/multan, sources: [source/wikipedia-inzamam-ul-haq-en] }
 faith:
   - value: unknown

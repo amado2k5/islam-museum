@@ -12,6 +12,7 @@ gender: male
 roles: [calligrapher]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Mughal calligrapher, son of Kifayat Khan, per the record's own summary.", sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: child_of, target: person/kifayat-khan-calligrapher, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: student_of, target: person/kifayat-khan-calligrapher, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: exemplifies, target: concept/shikasta-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }

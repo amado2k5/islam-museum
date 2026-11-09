@@ -6,6 +6,7 @@ summary:
   en: "Khazim ibn Khuzayma al-Tamimi, al-Mansur's commander; sent with Rawh ibn Hatim against breaching Tabaristan — his mawla Marzuq Abu al-Khasib, namesake of Kufa's Qasr al-Khasib, contrived the city's fall by the false-defection ruse."
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/tabaristan, confidence: low, note: "Associated with طبرستان per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/marzuq-ispahbadh-ruse }
   - { type: child_of, target: person/khuzayma-ibn-khazim }
 wings: [people]

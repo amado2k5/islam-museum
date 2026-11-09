@@ -28,7 +28,8 @@ born:
   note: "Born in London to Pakistani parents. The day and year, 28 November 1969, rest on the English article's lead alone: the article attaches no citation to the date and files him in its categories under date of birth missing, and Wikidata records no date of birth for him at all, so the block is marked debated. The Hijri year 1389 is the tabular conversion of the built date, marked derived. No place entity for London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-asad-ahmad-en, source/wikidata-asad-ahmad]
 
-relations: []
+relations:
+  - { type: lived_in, target: place/britain, note: "From text: British (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-asad-ahmad-en, source/wikidata-asad-ahmad], confidence: low }
 
 faith:
   - value: unknown

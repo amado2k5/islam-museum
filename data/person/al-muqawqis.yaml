@@ -8,6 +8,7 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 relations:
+  - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999], confidence: low }
   - { type: participated_in, target: event/conquest-of-alexandria, role: "صاحب الصلح المرفوض", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

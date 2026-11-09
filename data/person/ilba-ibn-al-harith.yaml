@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/al-qays, confidence: low, note: "Associated with القيس per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/banu-asad-ibn-khuzayma, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:

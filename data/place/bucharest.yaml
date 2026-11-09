@@ -1,0 +1,21 @@
+id: place/bucharest
+class: place
+kind: city
+label: { ar: "بوخارست", en: "Bucharest", ur: "بخارسٹ" }
+summary:
+  ar: "مدينة في الأفلاق."
+  en: "City in Principality of Wallachia."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [44.41336111111111, 26.09777777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q19660" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q19660 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

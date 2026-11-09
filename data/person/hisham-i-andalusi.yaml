@@ -11,6 +11,8 @@ regions: [andalus-europe]
 born: { edtf: "0757~", hijri: "0139-10", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في شوال سنة 139هـ {cite:nafh-tib-maqqari p. 374}." }
 died: { edtf: "0796~", hijri: "0180~", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 180هـ لسبع سنين وتسعة أشهر من إمارته {cite:nafh-tib-maqqari p. 374}." }
 relations:
+  - { type: died_in, target: place/emirate-of-c-rdoba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/alc-zar-de-los-reyes-cristianos, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: ruled_over, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

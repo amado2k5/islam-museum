@@ -13,6 +13,9 @@ regions: [persia-central-asia]
 periods: [period/abbasid-early]
 born: { edtf: "0855", precision: year, status: tradition, derived: true }
 died: { edtf: "0930", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6419122

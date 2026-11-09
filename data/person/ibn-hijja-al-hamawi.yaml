@@ -13,6 +13,8 @@ periods: [period/mongol-post-mongol]
 regions: [levant-iraq, egypt-nile]
 born: { edtf: "1375~", hijri: "0777", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بحماة سنة سبع وسبعين وسبعمائة {cite:shadharat-dhahab p. 219}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1434-03-01~", hijri: "0837-08-15", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بحماة في خامس عشر شعبان 837 {cite:shadharat-dhahab p. 220}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 837)، قراءة آبل فيجن"

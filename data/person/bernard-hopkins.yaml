@@ -25,6 +25,8 @@ born:
   sources: [source/wikipedia-bernard-hopkins-en, source/wikidata-bernard-hopkins]
 gender: male
 roles: [boxer]
+relations:
+  - { type: born_in, target: place/philadelphia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bernard-hopkins] }
 faith:
   - value: unknown
     basis: unknown

@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb, levant-iraq]
 relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: participated_in, target: event/faryani-mahdi-848, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

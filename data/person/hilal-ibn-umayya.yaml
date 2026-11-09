@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with تبوك per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/order-to-the-three-to-separate-from-their-wives, role: "أُذن لزوجته بخدمته", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/repentance-of-the-three-accepted, role: "تيب عليه", sources: [source/ibn-hisham-saqqa] }

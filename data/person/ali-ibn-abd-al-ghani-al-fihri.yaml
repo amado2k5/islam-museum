@@ -27,3 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch55
+relations:
+  - { type: born_in, target: place/al-andalus, note: "From text: ولد بالأندلس", sources: [source/mawsuat-a3lam-ulama-adaba] }

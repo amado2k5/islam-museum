@@ -32,6 +32,8 @@ died:
   note: "Day date (4 February 1871, at Medina) from English Wikipedia and Wikidata's Julian-calendar value. The Arabic article and Britannica both give March 1871 — Britannica with a question mark ('Medina?') — so the month is contested across sources; the day date of the English article and Wikidata is followed and the conflict recorded here. The Hijri year (1287) is derived by tabular conversion."
   sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil, source/wikipedia-imam-shamil-ar, source/britannica-shamil]
 relations:
+  - { type: born_in, target: place/gimry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-imam-shamil] }
+  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-imam-shamil] }
   - { type: died_in, target: place/medina, sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil] }
   - { type: buried_in, target: place/baqi-al-gharqad, sources: [source/wikipedia-imam-shamil-en] }
   - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-imam-shamil-en, source/britannica-shamil] }

@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/karaman-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q482975)" }
+  - { type: born_in, target: place/karaman, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q262579)" }
+  - { type: died_in, target: place/bilecik-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q46763)" }
 sources: [source/dawlat-uthmaniyya-salabi, source/sicill-i-osmani]
 external_ids:
   wikidata: Q3481733

@@ -31,7 +31,10 @@ died:
   derived: true
   note: "Died at the Aga Khan University Hospital, Karachi, in the early morning of 10 August 2017; all four articles and Wikidata agree. She received a state funeral at St Patrick's Cathedral, Karachi, on 19 August 2017 and was buried at the Gora Qabaristan Christian cemetery, Karachi. No died_in or buried_in relation is written: Karachi has no museum place entity. The Hijri year (1438) is derived by tabular conversion."
   sources: [source/wikipedia-ruth-pfau-en, source/wikipedia-ruth-pfau-ar, source/wikipedia-ruth-pfau-ur, source/wikidata-ruth-pfau]
-relations: []
+relations:
+  - { type: born_in, target: place/leipzig, sources: [source/wikidata-ruth-pfau], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2079)" }
+  - { type: died_in, target: place/karachi, sources: [source/wikidata-ruth-pfau], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
+  - { type: lived_in, target: place/germany, sources: [source/wikidata-ruth-pfau], confidence: low, note: "Wikidata P551 residence (Wikidata Q183)" }
 faith:
   - value: christian
     basis: documented

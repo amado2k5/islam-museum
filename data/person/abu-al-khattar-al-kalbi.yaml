@@ -18,3 +18,5 @@ provenance:
   run: lib-nafh-tib-batch-21
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (yamani); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

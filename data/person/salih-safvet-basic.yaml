@@ -31,7 +31,8 @@ faith:
     basis: unknown
     note: "No source names a school for him. The biographies record his Istanbul study, his teaching post at Sarajevo's Sharia school and his two periods at the head of Yugoslavia's Islamic Community — as naib (deputy) in 1936–1938 and as acting reis-ul-ulema in 1942–1947, never formally holding the reis title — and Wikidata gives only Islam. Office, schooling and a deputy's acting tenure never count. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-salih-safvet-basic-bs, source/wikipedia-salih-safvet-basic-hr, source/wikidata-salih-safvet-basic]
-relations: []
+relations:
+  - { type: born_in, target: place/tomislavgrad, sources: [source/wikidata-salih-safvet-basic], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q998961)" }
 summary:
   ar: "مربٍّ وإداري ديني بوسني من دوفنو ⁦(توميسلافغراد)⁩، ترأّس الجماعة الإسلامية في يوغوسلافيا مرتين: نائباً لرئيس العلماء (1936–1938) ثم قائماً بأعمال رئيس العلماء (1942–1947)، دون أن يحمل اللقب رسمياً قط."
   en: "Bosnian pedagogue and religious administrator from Duvno (Tomislavgrad) who twice headed Yugoslavia's Islamic Community — as naib (deputy) in 1936–1938 and as acting reis-ul-ulema in 1942–1947 — without ever formally holding the reis title."

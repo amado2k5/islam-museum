@@ -31,6 +31,8 @@ died:
   note: "Died in 1598: the English, Arabic and Urdu articles and Wikidata agree on the year. Encyclopaedia Iranica (Bregel) states that he died in Samarkand in 1006/1598, at the beginning of his campaign against the Qazaqs — the Hijri year 1006 is Iranica's own pairing, also tabularly consistent, and Wikidata likewise records Samarkand as his place of death. Wikidata's preferred death value is day-precise (4 February 1598), a precision none of the articles read supports, so the record keeps year precision. The English article records his burial at the mausoleum of Bahauddin Naqshbandi near Bukhara."
   sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikipedia-abdullah-khan-ii-ur, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii]
 relations:
+  - { type: died_in, target: place/samarqand, note: "From text: died at Samarkand.", sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikipedia-abdullah-khan-ii-ur, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii] }
+  - { type: ruler_of, target: place/bukhara, note: "From text: khan of Bukhara", sources: [source/wikipedia-abdullah-khan-ii-en, source/wikipedia-abdullah-khan-ii-ar, source/wikipedia-abdullah-khan-ii-ur, source/wikidata-abdullah-khan-ii, source/iranica-abdullah-khan-ii] }
   - { type: died_in, target: place/samarqand, sources: [source/iranica-abdullah-khan-ii, source/wikidata-abdullah-khan-ii] }
   - { type: buried_in, target: place/bukhara, sources: [source/wikipedia-abdullah-khan-ii-en] }
 faith:

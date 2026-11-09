@@ -12,6 +12,8 @@ wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1218)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5261519

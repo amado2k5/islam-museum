@@ -16,6 +16,8 @@ periods: [period/umayyad]
 regions: [andalus-europe]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

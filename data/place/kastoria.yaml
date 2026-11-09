@@ -1,0 +1,16 @@
+id: place/kastoria
+class: place
+kind: city
+label: { en: "Kastoria", ar: "كستورية" }
+summary:
+  en: "City in Macedonia, Greece."
+  ar: "مدينة في اليونان."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [40.5181, 21.2688]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q206954", geonames: "735927" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q206954 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

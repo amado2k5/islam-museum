@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Gregorian date from English and Arabic Wikipedia and Wikidata Q1671. The birthplace is disputed between the sources: the Arabic article gives Mogadishu, Wikidata gives the Gabiley area (Q1016892), and the English article names no town, so no born_in relation is written. The Hijri year (1403) is derived by tabular conversion."
   sources: [source/wikipedia-mo-farah-en, source/wikipedia-mo-farah-ar, source/wikidata-mo-farah]
+relations:
+  - { type: born_in, target: place/gobalka-gabiley, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mo-farah] }
 faith:
   - value: unknown
     basis: unknown

@@ -13,6 +13,9 @@ summary:
 roles: [teacher, writer]
 wings: [people, living]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/london, sources: [source/listennotes-moutasem-al-hameedi, source/islamway-moutasem-al-hameedi, source/tadabburbooks-moutasem-al-hameedi] }
+  - { type: lived_in, target: place/london, sources: [source/listennotes-moutasem-al-hameedi, source/islamway-moutasem-al-hameedi, source/tadabburbooks-moutasem-al-hameedi] }
 faith:
   - value: unknown
     basis: unknown

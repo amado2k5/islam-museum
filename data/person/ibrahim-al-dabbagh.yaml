@@ -36,6 +36,7 @@ faith:
     note: "No source read names a school or order for the man himself. The Arabic biography records his Qur'an schooling at Jaffa, his degree at al-Azhar and, among his works, a treatise on Sufism — study and authorship are not affiliation — and Wikidata gives only Islam. Absence configuration."
     sources: [source/wikipedia-ibrahim-al-dabbagh-ar, source/wikidata-ibrahim-al-dabbagh]
 relations:
+  - { type: born_in, target: place/yafa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-al-dabbagh] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-ibrahim-al-dabbagh-ar] }
 summary:
   ar: "شاعر وصحفي وكاتب فلسطيني وُلد في يافا ودرس في الأزهر، واستقر في القاهرة فعمل بالصحافة وأسّس مجلة «الإنسانية» (1903) وحرّر صحف الحزب الوطني المصري، وجمع ابن أخيه مصطفى مراد الدباغ ديوانه في جزأين بعد وفاته."

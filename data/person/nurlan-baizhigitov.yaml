@@ -8,6 +8,9 @@ summary:
   ur: "نورلان بائی جیگیتوف ⁦(پیدائش 1979ء، جامبیل علاقہ)⁩ قازق امام اور مبلغ ہیں، مئی 2023 سے آستانہ کی یریسکلدی قاجی مسجد کے امامِ اکبر اور عوام میں «ٹک ٹاک امام» کے لقب سے مشہور ہیں۔ ایک محققانہ مطالعے کے مطابق جنوری 2025 میں ان کے انسٹاگرام فالوورز تقریباً 927 ہزار تھے، اور وہ خواتین کے حقوق پر خطبوں اور واشنگٹن کے نیشنل پریئر بریک فاسٹ کی دعوت کے لیے جانے جاتے ہیں۔"
 gender: male
 born: { edtf: "1979-01-01", hijri: "1399", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 1 January 1979 in Merke district of Zhambyl region, per Kazinform; the Hijri year 1399 is derived from the Gregorian date. No place record exists in the tree for Merke, so no born_in relation is written.", sources: [source/kazinform-nurlan-baizhigitov] }
+relations:
+  - { type: lived_in, target: place/astana, sources: [source/millah-kazakh-preachers-2025, source/kazinform-nurlan-baizhigitov] }
+  - { type: lived_in, target: place/kazakhstan, sources: [source/millah-kazakh-preachers-2025, source/kazinform-nurlan-baizhigitov] }
 faith:
   - value: unknown
     basis: unknown

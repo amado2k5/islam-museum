@@ -28,6 +28,8 @@ faith:
 honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2015, sources: [source/wikipedia-king-faisal-prize-en] }
   - { award: award/dubai-islamic-personality-of-the-year, result: honoured, date: { edtf: "2012/2013", hijri: "1434", calendar: gregorian, precision: year, derived: true }, note: "Islamic Personality of the Year, Dubai International Holy Quran Award, 1434 AH (sixteenth session); the Gregorian range is converter-derived", sources: [source/wikipedia-dubai-quran-award-ar] }
+relations:
+  - { type: lived_in, target: place/malay, sources: [source/wikidata], confidence: low, note: "Since 2016 he has lived in Malaysia as a permanent resident; the Indian authorities accuse him of hate speech " }
 sources: [source/wikipedia-zakir-naik-en, source/wikipedia-zakir-naik-ar, source/wikipedia-king-faisal-prize-en]
 provenance:
   layer: own-research

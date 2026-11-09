@@ -17,6 +17,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشية ما قبل الإسلام." }
 relations:
+  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali] }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/marriage-to-khadija, role: "الوسيطة بين الطرفين", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali]

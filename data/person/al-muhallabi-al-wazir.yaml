@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: قدم إلى بغداد قبله فاجتمع بابن شيرزاد ", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6] }
   - { type: patron_of, target: person/ibn-miskawayh, sources: [source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6] }
 provenance:
   layer: own-research

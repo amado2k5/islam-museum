@@ -33,6 +33,8 @@ died:
   note: "Killed at Baghdad on 14 July 1958, in the revolution that overthrew the Hashemite monarchy; all three articles and Wikidata agree. He was buried in the Iraqi Royal Cemetery at Baghdad; no buried_in edge is written because the cemetery has no entity. The Hijri year (1377) is derived from the Gregorian date."
   sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikidata-faisal-ii]
 relations:
+  - { type: died_in, target: place/al-rehab-palace, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-ii] }
+  - { type: buried_in, target: place/iraq-royal-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-ii] }
   - { type: born_in, target: place/baghdad, sources: [source/wikipedia-faisal-ii-en, source/wikidata-faisal-ii] }
   - { type: died_in, target: place/baghdad, sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikidata-faisal-ii] }
 faith:

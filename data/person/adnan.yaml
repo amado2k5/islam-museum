@@ -18,6 +18,7 @@ themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/tarikh-al-tabari, source/rahma-lil-alamin], confidence: low }
   - { type: child_of, target: person/qaydar, note: "من ولد قيدار بن إسماعيل." , sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/tarikh-al-tabari, source/rahma-lil-alamin]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

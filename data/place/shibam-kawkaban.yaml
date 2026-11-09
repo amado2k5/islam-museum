@@ -1,0 +1,21 @@
+id: place/shibam-kawkaban
+class: place
+kind: city
+label: { ar: "شبام كوكبان", en: "Shibam-Kawkaban", ur: "شبام کوکبان" }
+summary:
+  ar: "مدينة في اليمن."
+  en: "City in Yemen."
+wings: [place]
+regions: [arabia]
+coordinates: [15.5102408, 43.9044369]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1570798" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1570798 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

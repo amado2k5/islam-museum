@@ -12,6 +12,8 @@ died:
   precision: year
   status: tradition
   note: "يوم مهران سنة 14 (البلاذري ص 354–355)"
+relations:
+  - { type: died_in, target: place/mihran, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 354–355"

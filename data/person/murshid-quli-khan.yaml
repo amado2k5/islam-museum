@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/deccan-sultanates, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1183649)" }
+  - { type: died_in, target: place/murshidabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017175)" }
+  - { type: buried_in, target: building/katra-masjid, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6377841)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3634642

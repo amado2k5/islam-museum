@@ -1,0 +1,21 @@
+id: place/ruse
+class: place
+kind: city
+label: { ar: "روسه", en: "Ruse", ur: "روسے، بلغاریہ" }
+summary:
+  ar: "مدينة في جمهورية بلغاريا الشعبية."
+  en: "City in People's Republic of Bulgaria."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [43.844532, 25.953907]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q160173" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q160173 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

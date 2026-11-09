@@ -18,6 +18,8 @@ born:
   status: historical
   note: "Both articles and Wikidata record the birth at year precision only, at the village of al-Tah in the Ma'arrat al-Nu'man district of Idlib. A single Hijri year cannot be derived from a year-precision date, so none is recorded."
   sources: [source/wikipedia-hussein-arnous-en, source/wikipedia-hussein-arnous-ar, source/wikidata-hussein-arnous]
+relations:
+  - { type: born_in, target: place/al-tah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hussein-arnous] }
 faith:
   - value: unknown
     basis: unknown

@@ -13,7 +13,10 @@ summary:
   ur: "ہارون الواثق، معتصم کے بیٹے اور نویں عباسی خلیفہ؛ ماخذ ان کی بیعت، حکومت اور سامرا میں وفات کے احوال بیان کرتے ہیں۔ {cite:futuh-buldan-maarif-1407}"
 wings: [people]
 periods: [period/abbasid-early]
-relations: []
+relations:
+  - { type: born_in, target: place/mecca, note: "Wikidata Q5806 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/samarra, note: "Wikidata Q170047 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 220"
@@ -22,5 +25,5 @@ provenance:
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
   model: "SWE-2 Flash High"
 external_ids: { wikidata: "Q284585" }
-sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/tarikh-baghdad-khatib]
+sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/tarikh-baghdad-khatib, source/wikidata]
 status: { review: published, completeness: 3 }

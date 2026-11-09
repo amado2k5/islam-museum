@@ -28,3 +28,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch53
+relations:
+  - { type: lived_in, target: place/khurasan, note: "Shafi'i scholar named after Khubr in the Nishapur district; region-level edge.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

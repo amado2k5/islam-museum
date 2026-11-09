@@ -16,6 +16,7 @@ roles: [munshid, singer]
 born: { edtf: "1948-12-06/1949-12-06", calendar: gregorian, precision: day, status: debated, derived: false, note: "The Arabic article's text gives 6 December 1948; its infobox and Wikidata give 6 December 1949. Born at al-Hawatka village, Manfalut district, Asyut.", sources: [source/wikipedia-yasin-al-tuhami-ar, source/wikidata-yasin-al-tuhami] }
 relations:
   - { type: born_in, target: place/asyut, note: "al-Hawatka village, Manfalut district, Asyut governorate", sources: [source/wikipedia-yasin-al-tuhami-ar] }
+  - { type: born_in, target: place/manfalut, sources: [source/wikipedia-yasin-al-tuhami-ar, source/wikidata-yasin-al-tuhami] }
 faith:
   - value: unknown
     basis: unknown

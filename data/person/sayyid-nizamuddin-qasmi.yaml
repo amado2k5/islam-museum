@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/gaya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q251329)" }
+  - { type: died_in, target: place/patna, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80484)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q123509547

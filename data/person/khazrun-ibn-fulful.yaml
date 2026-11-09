@@ -11,6 +11,8 @@ roles: [military-commander, ruler]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb, andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Associated with قرطبة per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

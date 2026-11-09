@@ -33,3 +33,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-8
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/albania, note: "From text: Albanian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-atifete-jahjaga-en, source/wikipedia-atifete-jahjaga-ar, source/wikipedia-atifete-jahjaga-ur, source/wikidata-atifete-jahjaga], confidence: low }

@@ -25,6 +25,8 @@ born:
   note: "The English and Urdu articles and Wikidata agree on the year 1942, born in Bombay (now Mumbai); no source read gives a day or month, and no Hijri year is recorded for a bare Gregorian year. No place entity for Mumbai exists on main, so no birthplace is recorded in this block."
   sources: [source/wikipedia-habil-khorakiwala-en, source/wikipedia-habil-khorakiwala-ur, source/wikidata-habil-khorakiwala]
 
+relations:
+  - { type: born_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habil-khorakiwala] }
 faith:
   - value: unknown
     basis: unknown

@@ -13,6 +13,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch45
 external_ids: { wikidata: "Q129579066" }
+relations:
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

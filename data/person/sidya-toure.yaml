@@ -37,6 +37,8 @@ faith:
     note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration. The French article's infobox names Islam; the English and Arabic articles have no religion content of any kind, and Wikidata carries no religion value. A single infobox is one family and never counts, so his Muslim identity is unattested in text and no school is named anywhere; under the doubt rule the value stays unknown with the reading preserved here (the single-infobox configuration)."
     sources: [source/wikipedia-sidya-toure-en, source/wikipedia-sidya-toure-ar, source/wikipedia-sidya-toure-fr, source/wikidata-sidya-toure]
 external_ids: { wikidata: "Q324899" }
+relations:
+  - { type: died_in, target: place/paris, sources: [source/wikidata-sidya-toure], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q90)" }
 sources: [source/wikipedia-sidya-toure-en, source/wikipedia-sidya-toure-ar, source/wikipedia-sidya-toure-fr, source/wikidata-sidya-toure]
 provenance:
   layer: own-research

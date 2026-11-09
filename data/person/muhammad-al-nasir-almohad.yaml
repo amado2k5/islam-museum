@@ -9,6 +9,8 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb, andalus-europe]
 relations:
   - { type: child_of, target: person/abu-yusuf-yaqub-almansur, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar] }
+  - { type: traveled_to, target: place/seville, sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab] }
 died: { edtf: "1214-01~", hijri: "0610-08", calendar: julian, precision: month, status: tradition, derived: true, note: "مات بالسكتة في شعبان سنة عشر وستمائة راجعاً إلى مراكش بعد وقعة العقاب؛ ومن سبب الانكسار أن البربر لم يسلوا سلاحاً بل جبنوا وانهزموا غيظاً على تأخير أعطياتهم وثبت السلطان ثباتاً كلياً {cite:shadharat-dhahab p. 51-52}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar] }
 provenance:
   layer: own-research

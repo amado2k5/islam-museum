@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [egypt-nile, levant-iraq]
 relations:
+  - { type: died_in, target: place/baghdad, note: "From text: مات ببغداد في السجن سنة إحدى وثلاثي", sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981, source/tarikh-baghdad-khatib] }
   - { type: student_of, target: person/al-shafii }
 provenance:
   layer: own-research

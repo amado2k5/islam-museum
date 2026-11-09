@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 7 August 1976 in Banda, Central Maluku, attested by the English, Indonesian and Malay articles, by the Jawawa profile and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the month and day fall inside 1396 AH, a year that began in January 1976. No place record for Banda exists on main, so no born_in edge is written."
   sources: [source/wikipedia-bahlil-lahadalia-en, source/wikipedia-bahlil-lahadalia-id, source/wikipedia-bahlil-lahadalia-ms, source/jawawa-bahlil-lahadalia-profile, source/wikidata-bahlil-lahadalia]
+relations:
+  - { type: born_in, target: place/malay, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-bahlil-lahadalia-en, source/wikipedia-bahlil-lahadalia-id, source/wikipedia-bahlil-lahadalia-ms, source/jawawa-bahlil-lahadalia-profile, source/wikidata-bahlil-lahadalia] }
 faith:
   - value: unknown
     basis: unknown

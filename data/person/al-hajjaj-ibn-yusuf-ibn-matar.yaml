@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 themes: [mathematics]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q762418
 provenance:
@@ -24,3 +24,5 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

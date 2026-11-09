@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born at Bungi, Pinrang, South Sulawesi, on 21 December 1973: the Indonesian article states it. The Hijri year 1393 is a tabular conversion of the followed date, marked derived. No place record for Pinrang exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-dasad-latif-id]
+relations:
+  - { type: born_in, target: place/south-sulawesi, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-dasad-latif-id] }
 faith:
   - value: unknown
     basis: unknown

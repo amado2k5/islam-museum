@@ -24,6 +24,7 @@ born:
   sources: [source/wikipedia-sanusi-lamido-sanusi-en, source/wikipedia-sanusi-lamido-sanusi-fr, source/wikidata-sanusi-lamido-sanusi]
 relations:
   - { type: born_in, target: place/kano, sources: [source/wikipedia-sanusi-lamido-sanusi-en] }
+  - { type: ruler_of, target: place/kano, sources: [source/wikipedia-sanusi-lamido-sanusi-en, source/wikipedia-sanusi-lamido-sanusi-fr, source/wikidata-sanusi-lamido-sanusi] }
 faith:
   - value: unknown
     basis: unknown

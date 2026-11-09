@@ -24,3 +24,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/tarim, note: "From text: from Tarim", sources: [source/shadharat-dhahab], confidence: low }

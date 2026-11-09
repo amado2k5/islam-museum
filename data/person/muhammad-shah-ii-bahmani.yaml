@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1350", precision: year, status: tradition, derived: true }
 died: { edtf: "1397", precision: year, status: tradition, derived: true }
+relations:
+  - { type: ruled_over, target: place/bahmani, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3327496

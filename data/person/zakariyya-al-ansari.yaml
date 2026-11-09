@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/al-hilmiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12201430)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/shadharat-dhahab, source/daw-lami-jil-1992]
 external_ids:
   wikidata: Q4117458

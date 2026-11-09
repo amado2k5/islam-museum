@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/wasit, note: "Mustamli (dictation-copyist) of Yazid ibn Harun, the traditionist of Wasit.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
+  - { type: traveled_to, target: place/baghdad, note: "Brought (ushkhisa) to Baghdad among the first seven for the Mihna in 218 and returned.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

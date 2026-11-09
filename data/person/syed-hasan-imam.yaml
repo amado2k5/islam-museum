@@ -36,6 +36,7 @@ faith:
     sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam]
 relations:
   - { type: sibling_of, target: person/syed-ali-imam, sources: [source/wikipedia-syed-hasan-imam-en] }
+  - { type: lived_in, target: place/london, sources: [source/wikidata], confidence: low, note: "Studied law in London per the record text." }
 external_ids: { wikidata: "Q7660338" }
 sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam]
 provenance:

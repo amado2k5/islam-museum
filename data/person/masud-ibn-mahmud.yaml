@@ -7,6 +7,7 @@ gender: male
 died: { edtf: "1040~", hijri: "0432~", calendar: julian, precision: year, status: tradition, derived: true, note: "تملّك بعد أبيه خراسان والهند وغزنة، وجرت له حروب وخطوب مع بني سلجوق وظهروا على عاليته وضعف أمره فقتله أمراؤه؛ أُوردت ترجمته تحت سنة 433 {cite:shadharat-dhahab p. 253}." }
 roles: [sultan]
 relations:
+- { type: lived_in, target: place/ghazna, confidence: low, note: "Associated with غزنة per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 - type: child_of
   target: person/mahmud-ghaznawi
   sources: [source/muntazam-ibn-al-jawzi]

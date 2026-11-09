@@ -32,6 +32,9 @@ died:
   note: "The English article and Wikidata give 17 March 1905 at Hyderabad, after a paralytic stroke, with burial at Dargah Yousufain; the Urdu article gives the year and place. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-dagh-dehlvi-en, source/wikipedia-dagh-dehlvi-ur, source/wikidata-dagh-dehlvi]
 relations:
+  - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dagh-dehlvi] }
+  - { type: born_in, target: place/british-raj, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dagh-dehlvi] }
+  - { type: died_in, target: place/hyderabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dagh-dehlvi] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-dagh-dehlvi-en] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-dagh-dehlvi-en] }
   - { type: died_in, target: place/hyderabad-deccan, sources: [source/wikipedia-dagh-dehlvi-en] }

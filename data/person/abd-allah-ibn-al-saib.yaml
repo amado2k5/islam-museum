@@ -19,6 +19,7 @@ provenance:
   model: claude-haiku-5-5
   run: mawsua-w09-59
 relations:
+ - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status:

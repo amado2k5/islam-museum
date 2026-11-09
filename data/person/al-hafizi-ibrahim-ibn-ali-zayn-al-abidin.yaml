@@ -28,3 +28,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch51
+relations:
+  - { type: lived_in, target: place/alma, note: "From text: of Rijal Alma", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

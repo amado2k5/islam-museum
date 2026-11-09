@@ -12,6 +12,7 @@ wings: [people]
 regions: [anatolia-balkans, egypt-nile]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

@@ -9,6 +9,8 @@ roles: [military]
 wings: [people]
 periods: [period/rashidun]
 regions: [arabia, levant-iraq]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir, source/mustadrak-ilmiyya-ata-v3]
 provenance:
   layer: own-research

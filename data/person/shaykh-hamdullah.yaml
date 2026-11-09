@@ -34,6 +34,7 @@ died:
   sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar]
 relations:
   - { type: died_in, target: place/istanbul, sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar] }
+  - { type: born_in, target: place/amasya, sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar, source/dergipark-shaikh-hamdullah-school] }
 faith:
   - value: unknown
     basis: unknown

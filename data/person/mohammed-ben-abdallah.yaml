@@ -38,9 +38,10 @@ died:
   sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar, source/wikidata-mohammed-ben-abdallah]
 
 relations:
+
   - { type: born_in, target: place/fez, sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar, source/wikidata-mohammed-ben-abdallah] }
   - { type: died_in, target: place/meknes, sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar] }
-
+  - { type: ruler_of, target: place/marrakesh, sources: [source/wikipedia-mohammed-ben-abdallah-en, source/wikipedia-mohammed-ben-abdallah-ar, source/wikipedia-mohammed-ben-abdallah-ur, source/wikidata-mohammed-ben-abdallah] }
 faith:
   - value: unknown
     basis: unknown

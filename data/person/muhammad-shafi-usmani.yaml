@@ -12,6 +12,9 @@ wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
 died: { edtf: "1976", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/deoband, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1017658)" }
+  - { type: died_in, target: place/karachi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q28632

@@ -12,6 +12,8 @@ wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1204~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/marrakesh, confidence: low, note: "Associated with مراكش per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5984322

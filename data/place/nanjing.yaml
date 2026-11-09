@@ -1,0 +1,35 @@
+id: place/nanjing
+class: place
+kind: city
+label:
+  ar: نانجينغ
+  en: Nanjing
+summary:
+  ar: مدينة في الصين.
+  en: Capital city of Jiangsu Province, China, former capital of the Republic of China and China's Ming dynasty.
+wings:
+- place
+regions:
+- china-east-asia
+coordinates:
+- 32.0608
+- 118.7789
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q16666
+  geonames: '1799962'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q16666 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q16666 (labels, coordinates, description)

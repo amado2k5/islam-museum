@@ -1,0 +1,21 @@
+id: place/a-iyan-asri-cemetery
+class: place
+kind: site
+label: { ar: "مقبرة آشيان أسري", en: "Aşiyan Asri Cemetery", ur: "قبرستان آشیان آسری" }
+summary:
+  ar: "موقع في تركيا."
+  en: "Site in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.0825, 29.055277777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4833524" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4833524 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

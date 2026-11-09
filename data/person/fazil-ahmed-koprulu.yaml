@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: lived_in, target: place/vienna, confidence: low, note: "Associated with فيينا per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/koprulu-mehmed-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids: { wikidata: "Q510679" }
 sources: [source/dawlat-uthmaniyya-salabi]

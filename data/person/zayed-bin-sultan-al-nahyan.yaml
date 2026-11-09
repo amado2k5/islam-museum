@@ -41,6 +41,9 @@ faith:
     sources: [source/wikipedia-zayed-bin-sultan-al-nahyan-en, source/wikipedia-zayed-bin-sultan-al-nahyan-ar, source/wikipedia-zayed-bin-sultan-al-nahyan-ur, source/wikidata-zayed-bin-sultan-al-nahyan]
 honours:
   - { award: award/dubai-islamic-personality-of-the-year, result: honoured, date: { edtf: "1999/2000", hijri: "1420", calendar: gregorian, precision: year, derived: true }, note: "Islamic Personality of the Year, Dubai International Holy Quran Award, 1420 AH (third session); the Gregorian range is converter-derived", sources: [source/wikipedia-dubai-quran-award-ar] }
+relations:
+  - { type: born_in, target: place/abu-dhabi, sources: [source/wikidata-zayed-bin-sultan-al-nahyan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1519)" }
+  - { type: buried_in, target: building/shaykh-zayid-mosque, sources: [source/wikidata-zayed-bin-sultan-al-nahyan], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q695604)" }
 sources:
   - source/wikipedia-zayed-bin-sultan-al-nahyan-ar
   - source/wikipedia-zayed-bin-sultan-al-nahyan-en

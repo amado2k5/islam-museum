@@ -9,6 +9,7 @@ gender: male
 died: { hijri: "0102~", precision: year, status: tradition, note: "قدومه سنة 102 وقُتل بعدها (البلاذري ص 324)" }
 relations:
   - { type: participated_in, target: event/killing-of-yazid-ibn-abi-muslim, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: died_in, target: place/ifriqiya, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/salabi-umayyad-state-2020] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"

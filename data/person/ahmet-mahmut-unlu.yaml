@@ -20,6 +20,7 @@ born:
   note: "Date and place (Çarşamba, Fatih, Istanbul) from the English and Turkish Wikipedia articles, which agree."
   sources: [source/wikipedia-ahmet-mahmut-unlu-en, source/wikipedia-ahmet-mahmut-unlu-tr]
 relations:
+  - { type: born_in, target: place/istanbul, note: "From text: born in Istanbul", sources: [source/wikipedia-ahmet-mahmut-unlu-en, source/wikipedia-ahmet-mahmut-unlu-tr] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ahmet-mahmut-unlu-en, source/wikipedia-ahmet-mahmut-unlu-tr] }
 faith:
   - value: sufi

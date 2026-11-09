@@ -15,6 +15,7 @@ relations:
   - { type: member_of, target: group/banu-tamim, sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/farazdaq, note: "جدّه", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/sahaba, sources: [source/mustadrak-ilmiyya-ata-v3] }
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Poet of Banu Mudar who came to the Prophet (al-Kamil, Ansab al-ashraf).", sources: [source/kamil-ibn-al-athir, source/ansab-al-ashraf, source/mustadrak-ilmiyya-ata-v3] }
 sources: [source/kamil-ibn-al-athir, source/ansab-al-ashraf, source/mustadrak-ilmiyya-ata-v3]
 provenance:
   layer: own-research

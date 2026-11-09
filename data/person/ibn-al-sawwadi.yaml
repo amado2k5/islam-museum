@@ -10,6 +10,8 @@ gender: male
 roles: [poet, katib]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/wasit, confidence: low, note: "Associated with Wasit per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة ابن السوادي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

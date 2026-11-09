@@ -33,6 +33,10 @@ died:
   note: "The English article gives 5 December 1957 at Deoband; the Urdu article gives the paired date itself, 13 Jumada al-awwal 1377 AH, so the Hijri year is the sources' own. Wikidata also carries a stray day-precision value of 5 October 1957, which no article supports and which is not followed; the Arabic article's body gives the Hijri year as 1363, contradicting its own lead's 1377 — a typographical error in that article. No place entity exists for Deoband town, so no died_in edge is written."
   sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ur, source/wikidata-husain-ahmad-madani]
 relations:
+  - { type: born_in, target: place/unnao-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husain-ahmad-madani] }
+  - { type: born_in, target: place/uttar-pradesh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husain-ahmad-madani] }
+  - { type: born_in, target: place/british-raj, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husain-ahmad-madani] }
+  - { type: died_in, target: place/deoband, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husain-ahmad-madani] }
   - { type: student_of, target: person/mahmud-hasan-deobandi, sources: [source/wikipedia-husain-ahmad-madani-en, source/wikipedia-husain-ahmad-madani-ar] }
   - { type: student_of, target: person/rashid-ahmad-gangohi, sources: [source/wikipedia-husain-ahmad-madani-ur] }
   - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-husain-ahmad-madani-en] }

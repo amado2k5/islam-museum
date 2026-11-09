@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1916", calendar: gregorian, precision: year, status: historical, note: "Publication of the Bougie study {cite:marcais-poteries-faiences-bougie-1916 p. 1}.", sources: [source/marcais-poteries-faiences-bougie-1916] }
 relations:
+  - { type: lived_in, target: place/algeria, confidence: low, note: "Associated with الجزائر per the record's own summary text; relation type pending review.", sources: [source/marcais-poteries-faiences-bougie-1916] }
   - { type: authored, target: work/marcais-poteries-faiences-bougie, sources: [source/marcais-poteries-faiences-bougie-1916] }
 sources: [source/marcais-poteries-faiences-bougie-1916]
 provenance:

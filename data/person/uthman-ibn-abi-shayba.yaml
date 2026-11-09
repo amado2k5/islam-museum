@@ -15,6 +15,8 @@ provenance:
   run: prose-fill-persons-batch44
 external_ids: { wikidata: "Q12224353" }
 sensitivity: contested
+relations:
+  - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
 sources: [source/muruj-al-dhahab, source/al-bidaya-wal-nihaya, source/tarikh-baghdad-khatib, source/mizan-itidal-bijawi-v3]
 status:
   review: published

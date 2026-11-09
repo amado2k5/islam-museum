@@ -22,7 +22,6 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She is also venerated in Shia tradition; see the group and family contexts." }
 relations:
-  - { type: born_in, target: place/medina }
   - { type: child_of, target: person/ali-ibn-abi-talib }
   - { type: child_of, target: person/fatima }
   - { type: sibling_of, target: person/hasan-ibn-ali }
@@ -31,6 +30,8 @@ relations:
   - { type: member_of, target: group/banu-hashim }
   - { type: participated_in, target: event/karbala, role: survivor-taken-captive, sources: [source/momen-1985] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/damascus, sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985] }
 external_ids:
   wikidata: Q1111208
 sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985, source/nisa-hawl-alrasul]

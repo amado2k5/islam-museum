@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, anatolia-balkans]
 relations:
+  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

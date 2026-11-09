@@ -13,6 +13,10 @@ roles: [ruler]
 traditions: [sunni]
 died: { edtf: "1249-08", hijri: "0647-06-07", calendar: julian, precision: day, status: tradition, derived: true, note: "هلك بظاهر بونة لسبع بقين من جمادى الآخرة سنة 647هـ لاثنتين وعشرين سنة من ولايته، ودفن بجامع بونة ثم نقل شلوه إلى قسطنطينة سنة 666هـ بين يدي حصار النصارى تونس؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- type: ruler_of
+  target: place/tunis
+  note: "From text: ruled Tunis"
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: founder_of
   target: polity/hafsid-dynasty
   sources:

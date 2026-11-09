@@ -9,6 +9,8 @@ gender: male
 died: { hijri: "0110", edtf: "0728~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة عشر ومائة وهو ابن سبع وسبعين سنة (PDF ص47). الملخص أعلاه عن المسعودي يقول ابن إحدى وثمانين؛ الاختلاف في العمر مسجل.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: child_of, target: person/sirin-father-of-ibn-sirin, sources: [source/futuh-buldan-maarif-1407] }
+
+  - { type: lived_in, target: place/ayn-al-tamr, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345"

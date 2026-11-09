@@ -13,6 +13,7 @@ relations:
   - { type: child_of, target: person/baha-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: sibling_of, target: person/jalal-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: successor_of, target: person/sultan-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: lived_in, target: place/daylam, sources: [source/wikidata], confidence: low, note: "Nisba ديلمي attested in the record." }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث ٤١٤–٤١٦)، قراءة آبل فيجن، مسح AAlexandrina-224011"

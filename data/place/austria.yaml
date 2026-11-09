@@ -1,0 +1,20 @@
+id: place/austria
+class: place
+kind: region
+label: { ar: "النمسا", en: "Austria" }
+summary:
+  ar: "دولة في وسط أوروبا."
+  en: "Central European state."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [47.6, 14.1]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q40" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

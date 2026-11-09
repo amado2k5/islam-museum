@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/erci, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q695365)" }
+  - { type: died_in, target: place/ujan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q785364)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q730299

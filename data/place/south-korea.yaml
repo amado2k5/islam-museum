@@ -1,0 +1,21 @@
+id: place/south-korea
+class: place
+kind: region
+label: { ar: "كوريا الجنوبية", en: "South Korea" }
+summary:
+  ar: "إقليم كوريا الجنوبية."
+  en: "Region (South Korea)."
+wings: [place]
+regions: [china-east-asia]
+coordinates: [36.5, 127.9]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q884; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q884" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q884 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

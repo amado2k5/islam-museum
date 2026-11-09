@@ -1,0 +1,21 @@
+id: place/kavaj
+class: place
+kind: city
+label: { ar: "قواية", en: "Kavajë", ur: "کاوایہ" }
+summary:
+  ar: "مدينة في ألبانيا."
+  en: "City in Albania."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.183333333333, 19.55]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q46702" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q46702 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

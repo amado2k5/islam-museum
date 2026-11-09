@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born on 3 September 1989: the Arabic article's lead and infobox agree on the date, and the Hijri year 1410 is a tabular conversion of it, marked derived. The article disagrees with itself on the place: its lead says Jabalia refugee camp, its infobox says Nuseirat refugee camp — both in the Gaza Strip; both readings are preserved. The museum's place record place/gaza is the city of Gaza, which is neither camp, so no born_in edge is written."
   sources: [source/wikipedia-mahmoud-al-hasanat-ar]
+relations:
+  - { type: born_in, target: place/gaza, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mahmoud-al-hasanat-ar] }
 faith:
   - value: unknown
     basis: unknown

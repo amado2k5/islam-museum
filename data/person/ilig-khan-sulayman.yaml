@@ -12,7 +12,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
-- { type: "ruler_of", target: "polity/qarakhanid-dynasty", note: "قاضي الدولة السامانية بدخوله بخارى", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
+  - { type: "ruler_of", target: "polity/qarakhanid-dynasty", note: "قاضي الدولة السامانية بدخوله بخارى", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

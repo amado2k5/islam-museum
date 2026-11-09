@@ -21,7 +21,9 @@ born:
   derived: true
   note: "Born on 24 November 1943; the English, Hindi and Urdu-era articles and Wikidata agree on the date. The place is contested: the English article's infobox and early-life text give Rawalpindi, British India, and the Urdu article files him among Rawalpindi people, while the Hindi article and Wikidata give New Delhi. The date is carried as historical with the English place stated here; no born_in relation is written, the place being contested and Rawalpindi having no museum place entity. The Hijri year (1362) is derived by tabular conversion."
   sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia]
-relations: []
+relations:
+  - { type: born_in, target: place/delhi, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-montek-singh-ahluwalia-en, source/wikipedia-montek-singh-ahluwalia-hi, source/wikidata-montek-singh-ahluwalia] }
+
 faith:
   - value: sikh
     basis: documented

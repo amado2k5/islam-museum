@@ -4,7 +4,7 @@ label:
   ar: عبد الله بن بسر
   en: Abdullah ibn Busr
 names:
-  - { kind: full, lang: ar, value: عبد الله بن بسر }
+ - { kind: full, lang: ar, value: عبد الله بن بسر }
 gender: male
 roles: [companion]
 traditions: [sunni]
@@ -18,6 +18,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-jami-ulum-hikam-batch-18
 relations:
+ - { type: lived_in, target: place/tirmidh, note: "Place association from the person's nisba/name (الترمذي); denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/ibn-rajab-jami-ulum-hikam]}
 sources:
 - source/ibn-rajab-jami-ulum-hikam

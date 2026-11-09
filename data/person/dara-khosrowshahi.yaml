@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born at Tehran on 28 May 1969 — the date and place in the English, Arabic and Persian articles and Wikidata's value. The Hijri year (1389) is derived by tabular conversion. No born_in relation is written: Tehran has no museum place entity."
   sources: [source/wikipedia-khosrowshahi-en, source/wikipedia-khosrowshahi-ar, source/wikipedia-khosrowshahi-fa, source/wikidata-khosrowshahi]
+relations:
+  - { type: born_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

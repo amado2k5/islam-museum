@@ -33,3 +33,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-16
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: born_in, target: place/isfahan, note: "From text: وُلد في همايون شهر قرب أصفهان سنة 1972", sources: [source/wikipedia-asghar-farhadi-en, source/wikidata-asghar-farhadi] }

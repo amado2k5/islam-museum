@@ -20,6 +20,9 @@ died:
   derived: true
   sources: [source/encyclopaedia-of-islam-2]
   note: "EI2 gives death in 401/1010 on the authority of Rida Quli Khan, who gives no source. The only early historical notice (Rahat al-Sudur, c. 601/1204) places him after Tughril's entry into Hamadan in 447/1055, so the date is a tradition rather than a verified fact. The earlier draft gave a decade (1010~); the year is EI2's."
+relations:
+  - { type: born_in, target: place/hawraman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q558486

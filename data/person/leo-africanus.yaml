@@ -41,6 +41,7 @@ died:
   sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar, source/wikidata-leo-africanus]
 
 relations:
+  - { type: born_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-leo-africanus] }
   - { type: born_in, target: place/granada, sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar] }
   - { type: lived_in, target: place/fez, sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar] }
   - { type: died_in, target: place/tunis, sources: [source/wikipedia-leo-africanus-en, source/wikidata-leo-africanus] }

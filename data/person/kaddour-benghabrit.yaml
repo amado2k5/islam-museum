@@ -35,7 +35,10 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. No source read names a school for him personally. The suggestive material is preserved unclassified: he was educated at the Thaalibiya madrasa in Algiers and al-Karaouine in Fez, served a Maliki Muslim milieu throughout his career, and was buried according to the Maliki rite — but schooling, milieu and burial rite are background and circumstance, which never count, and the encyclopedia family's Maliki-rite burial notice is a single family in any case. Wikidata's religion value is Islam in general."
     sources: [source/wikipedia-kaddour-benghabrit-en, source/wikipedia-kaddour-benghabrit-fr, source/wikidata-kaddour-benghabrit]
-relations: []
+relations:
+  - { type: born_in, target: place/sidi-bel-abb-s, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kaddour-benghabrit] }
+  - { type: died_in, target: place/5th-arrondissement-of-paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kaddour-benghabrit] }
+  - { type: buried_in, target: place/grand-mosque-of-paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kaddour-benghabrit] }
 summary:
   ar: "عالم وموظف رفيع جزائري (1868-1954) عمل مترجماً ودبلوماسياً لدى الخارجية الفرنسية وفي خدمة سلطان المغرب، وأسس المعهد الإسلامي ومسجد باريس الكبير وكان أول رئيس له (1926-1954)، وعُرف في الحرب العالمية الثانية بحماية اليهود في المسجد وإصدار شهادات هوية مسلمة لهم."
   en: "Algerian scholar and high official (1868-1954) who served France as interpreter and diplomat and the Sultan of Morocco as head of protocol; he founded the Muslim Institute of the Grand Mosque of Paris and was its first rector (1926-1954), and during the Second World War sheltered Jews at the mosque and issued them Muslim identity certificates."

@@ -22,6 +22,9 @@ born:
   sources: [source/wikipedia-iqra-khalid-en, source/wikipedia-iqra-khalid-ur, source/wikidata-iqra-khalid]
 gender: female
 roles: [lawyer, politician]
+relations:
+  - { type: born_in, target: place/bahawalpur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iqra-khalid] }
+  - { type: lived_in, target: place/mississauga, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iqra-khalid] }
 faith:
   - value: unknown
     basis: unknown

@@ -12,7 +12,7 @@ wings: [people]
 regions: [global]
 periods: [period/modern-era]
 died: { edtf: "1944", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q695730
 provenance:
@@ -24,3 +24,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: lived_in, target: place/krom, note: "Wikidata Q158239 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/brno, note: "Wikidata Q14960 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/olomouc, note: "Wikidata Q81137 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/jerusalem, note: "Wikidata Q1218 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

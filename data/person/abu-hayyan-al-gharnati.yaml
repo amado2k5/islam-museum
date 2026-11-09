@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/granada, note: "Place association from the person's nisba/name (الغرناطي); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993], confidence: low }
   - { type: authored, target: work/irtishaf-al-darab, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research

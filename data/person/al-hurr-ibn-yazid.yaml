@@ -18,3 +18,5 @@ status:
   review: published
   completeness: 3
 
+relations:
+  - { type: lived_in, target: place/karbala, note: "From text: of Karbala", sources: [source/tabari-tarikh-abu-al-fadl, source/bakr-umayyad-state-1134715], confidence: low }

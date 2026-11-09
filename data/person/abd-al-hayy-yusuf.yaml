@@ -22,6 +22,7 @@ born:
   note: "Born in Cairo on 21 Rajab 1384 AH / 25 November 1964, as the Arabic Wikipedia article gives both dates; the Shamela author biography gives the year 1384 AH / 1964 CE. The place is carried in the born_in relation."
   sources: [source/wikipedia-abd-al-hayy-yusuf-ar, source/shamela-abd-al-hayy-yusuf]
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-abd-al-hayy-yusuf-ar, source/shamela-abd-al-hayy-yusuf] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-abd-al-hayy-yusuf-ar] }
 faith:
   - value: unknown

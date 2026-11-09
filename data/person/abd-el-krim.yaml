@@ -38,6 +38,7 @@ faith:
     note: "No article text names a school or order for him personally. The French article's infobox gives his religion as Sunni Maliki Islam — a single infobox, which the doubt rule leaves unclassified. The French text describes the reformist state he promoted in the Rif Republic as inspired by Salafism: a description of his political programme, not a personal madhhab attestation, and the enum has no salafi value in any case. The English, Arabic and Urdu texts name no school; his father's office as qadi of the Ait Ouriaghel is family background; Wikidata gives only Islam."
     sources: [source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikidata-abd-el-krim]
 relations:
+  - { type: lived_in, target: place/cairo, note: "From text: settled in Cairo", sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-ar] }
 external_ids: { wikidata: "Q202650" }

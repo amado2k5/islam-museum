@@ -34,6 +34,7 @@ wings: [people]
 regions: [persia-central-asia]
 roles: [scholar, writer, activist]
 relations:
+  - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: born_in
     target: place/samarqand
     note: "Born in the village of Bakhshitepa on the outskirts of Samarkand, as the English article and the Russian article's lead attest."

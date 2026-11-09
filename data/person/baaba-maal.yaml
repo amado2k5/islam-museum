@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born at Podor, on the Senegal River, Senegal. The date is debated: the Arabic Wikipedia article and Wikidata give 12 November 1953, while the English and French articles give 13 June 1953. The record follows the Arabic article and Wikidata, and states the conflict; the Hijri year (1373) is derived by tabular conversion from the followed date. Podor has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-baaba-maal-ar, source/wikidata-baaba-maal, source/wikipedia-baaba-maal-en, source/wikipedia-baaba-maal-fr]
+relations:
+  - { type: born_in, target: place/podor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-baaba-maal] }
 faith:
   - value: unknown
     basis: unknown

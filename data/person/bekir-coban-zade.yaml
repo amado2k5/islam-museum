@@ -34,6 +34,9 @@ tags: [crimea, crimean-tatars, turkology, great-purge]
 roles: [poet, scholar, writer]
 wings: [people]
 regions: [anatolia-balkans]
+relations:
+  - { type: died_in, target: place/baku, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bekir-coban-zade] }
+  - { type: born_in, target: place/bilohirsk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bekir-coban-zade] }
 faith:
   - value: unknown
     basis: unknown

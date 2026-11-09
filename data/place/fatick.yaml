@@ -1,0 +1,21 @@
+id: place/fatick
+class: place
+kind: city
+label: { ar: "فاتيك", en: "Fatick", ur: "فاتیک" }
+summary:
+  ar: "مدينة في السنغال."
+  en: "City in Senegal."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [14.339277777777777, -16.410416666666666]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q430470" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q430470 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

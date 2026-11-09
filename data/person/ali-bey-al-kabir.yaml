@@ -41,6 +41,8 @@ died:
   sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar, source/wikidata-ali-bey-al-kabir]
 
 relations:
+  - { type: died_in, target: place/cairo, note: "From text: died in Cairo", sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar, source/wikidata-ali-bey-al-kabir] }
+  - { type: ruler_of, target: place/misr, note: "From text: ruler of Ottoman Egypt", sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar, source/wikipedia-ali-bey-al-kabir-ur, source/wikidata-ali-bey-al-kabir] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-ali-bey-al-kabir-en, source/wikipedia-ali-bey-al-kabir-ar] }
   - { type: patron_of, target: person/jazzar-pasha, sources: [source/wikipedia-jazzar-pasha-en] }
 

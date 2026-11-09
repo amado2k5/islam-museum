@@ -1,0 +1,16 @@
+id: place/chuy-region
+class: place
+kind: province
+label: { en: "Chuy Region", ar: "مقاطعة تشوي" }
+summary:
+  en: "Region of Kyrgyzstan."
+  ar: "محافظة في قرغيزستان."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [42.5, 74.5]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q486370", geonames: "1538652" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q486370 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

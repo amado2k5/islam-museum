@@ -37,7 +37,9 @@ faith:
     basis: unknown
     note: "No consulted source names any religion or school for him: the English and Urdu article texts and infoboxes are silent on religion, and Wikidata carries no religion statement. The English article's filing category 'Pakistani critics of religions' is a category, not an attestation, and his judicial office and rulings — including rulings that turned on religious questions — are professional work, which never attests the office-holder's own affiliation. His birth into a Kakkyzai Pashtun family is family background and never counts. Nothing here supports any segment beyond unknown."
     sources: [source/wikipedia-muhammad-munir-en, source/wikipedia-muhammad-munir-ur, source/wikidata-muhammad-munir]
-relations: []
+relations:
+
+  - { type: born_in, target: place/amritsar, sources: [source/wikipedia-muhammad-munir-en, source/wikipedia-muhammad-munir-ur, source/wikidata-muhammad-munir] }
 sources: [source/wikipedia-muhammad-munir-en, source/wikipedia-muhammad-munir-ur, source/wikidata-muhammad-munir]
 provenance:
   layer: own-research

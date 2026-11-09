@@ -21,6 +21,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch73
+relations:
+  - { type: ruler_of, target: place/ajlun, sources: [source/wikidata], confidence: low, note: "ar: 'تقي الدين البلاطنسي الشافعي الحافظ شيخ مشايخ الإسلام؛ ولد يوم الجمعة عاشر رجب سنة إحدى وخمسين وثمانمائة و" }
+  - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab], confidence: low, note: "Friday 10 Rajab 851, of 'a house of piety and learning' per his own pupil; settled in Damascus never taking a " }
 sources: [source/shadharat-dhahab]
 status:
   review: published

@@ -1,0 +1,35 @@
+id: place/kingdom-of-egypt
+class: place
+kind: region
+label:
+  ar: المملكة المصرية
+  en: Kingdom of Egypt
+  ur: مملکت مصر
+summary:
+  ar: إقليم في المملكة المصرية.
+  en: Kingdom of Egypt; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- egypt-nile
+coordinates:
+- 30.05
+- 31.2167
+coordinate_precision: locality
+coordinate_note: Wikidata Q124943 (ID held on the matching polity entity).
+external_ids:
+  wikidata: Q124943
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q124943 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

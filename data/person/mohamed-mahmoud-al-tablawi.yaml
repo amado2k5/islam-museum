@@ -17,6 +17,7 @@ roles: [reciter, judge]
 born: { edtf: "1934-11-14", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata and the English article give 14 November 1934 at Mit Oqba (Giza); the Arabic article gives the date and says he came from the Tala district of Monufia, with family roots in Sharqia and Monufia. No place entity for Mit Oqba exists, so no birthplace relation is written.", sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-ar, source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikidata-mohamed-mahmoud-al-tablawi] }
 died: { edtf: "2020-05-05", hijri: "1441-09-12", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article pairs Tuesday 5 May 2020 with 12 Ramadan 1441; he died at his home district of Agouza after an illness, aged 85.", sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-ar, source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikidata-mohamed-mahmoud-al-tablawi] }
 relations:
+  - { type: died_in, target: place/meet-okba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-mahmoud-al-tablawi] }
   - { type: buried_in, target: place/cairo, note: "Family cemetery at al-Basatin, southern Cairo, 6 May 2020", sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikipedia-mohamed-mahmoud-al-tablawi-ar] }
 faith:
   - value: unknown

@@ -12,6 +12,8 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
 died: { edtf: "1711", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107198264

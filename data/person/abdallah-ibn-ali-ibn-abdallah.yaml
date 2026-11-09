@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/al-sham, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }
   - { type: participated_in, target: event/basra-crowd-abdallah-ibn-ali }
 regions: [levant-iraq]
 provenance:

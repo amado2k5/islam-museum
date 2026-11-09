@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
+  - { type: buried_in, target: building/imam-ali-shrine, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q838359)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q108599404

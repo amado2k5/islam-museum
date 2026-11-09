@@ -13,5 +13,7 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 303–304"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-05
+relations:
+  - { type: lived_in, target: place/ghawr, sources: [source/wikidata], confidence: low, note: "Nisba الغوري attested in the record." }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

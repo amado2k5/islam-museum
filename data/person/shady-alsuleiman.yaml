@@ -40,6 +40,8 @@ faith:
       - source/wikipedia-shady-alsuleiman-en
       - source/wikidata-shady-alsuleiman
       - source/shadialsuleiman-official
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-shady-alsuleiman-en], confidence: low, note: "He received an ijazah with sanad in complete memorisation of the Qur'an in Sindh, Pakistan, and spent six year" }
 sources:
   - source/wikipedia-shady-alsuleiman-en
   - source/wikidata-shady-alsuleiman

@@ -36,6 +36,8 @@ faith:
       - source/wikipedia-malik-kafur-ur
       - source/wikidata-malik-kafur
 relations:
+  - { type: born_in, target: place/khambhat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-malik-kafur] }
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-malik-kafur] }
   - type: died_in
     target: place/delhi
     sources:

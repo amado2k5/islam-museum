@@ -38,6 +38,7 @@ faith:
   basis: tradition
   note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 - type: child_of
   target: person/abu-talib
   sources:

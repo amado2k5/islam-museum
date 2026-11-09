@@ -29,6 +29,8 @@ died:
   derived: true
   note: "Killed in January 1898 outside Dikwa, in the fight that followed his attempted flight from Rabih az-Zubayr's Bornu, attested by the English and French articles; the Hausa article and Wikidata give 1898. No Hijri year is recorded: 1898 spans 1315 and 1316 AH. No place entity exists for Dikwa, so no died_in edge is written."
   sources: [source/wikipedia-hayatu-ibn-said-en, source/wikipedia-hayatu-ibn-said-fr, source/wikipedia-hayatu-ibn-said-ha, source/wikidata-hayatu-ibn-said]
+relations:
+  - { type: lived_in, target: place/al-mahdiyya, confidence: low, note: "Associated with المهدية per the record's own summary text; relation type pending review.", sources: [source/wikipedia-hayatu-ibn-said-en] }
 faith:
   - value: unknown
     basis: unknown

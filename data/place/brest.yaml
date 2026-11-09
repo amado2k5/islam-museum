@@ -1,0 +1,16 @@
+id: place/brest
+class: place
+kind: city
+label: { en: "Brest", ar: "بريست" }
+summary:
+  en: "Port city in the Finistère department, Brittany, France."
+  ar: "مدينة تُعرف بالإنجليزية باسم Brest."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.3906, -4.4861]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q12193", geonames: "3030300" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q12193 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

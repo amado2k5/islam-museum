@@ -16,6 +16,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch122
 relations:
+  - { type: ruler_of, target: place/yemen, note: "From text: sultan of Yemen", sources: [source/wafayat-ayan, source/kamil-ibn-al-athir, source/shadharat-dhahab] }
   - { type: child_of, target: person/al-malik-al-kamil, sources: [source/kamil-ibn-al-athir] }
   - { type: participated_in, target: event/yemeni-sack-mecca-620, role: "صاحب العسكر الناهب", sources: [source/kamil-ibn-al-athir] }
 sources: [source/wafayat-ayan, source/kamil-ibn-al-athir, source/shadharat-dhahab]

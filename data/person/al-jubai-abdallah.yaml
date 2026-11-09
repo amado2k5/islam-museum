@@ -20,6 +20,8 @@ died:
   derived: true
   note: "توفي ثالث جمادى الآخرة سنة خمس وستمائة بأصبهان {cite:shadharat-dhahab p. 24}؛ التحويل مشتق."
 relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: رحل إلى بغداد سنة أربعين وخمسمائة وسمع", sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/hamadan, note: "From text: went to Hamadan", sources: [source/shadharat-dhahab] }
   - { type: student_of, target: person/abd-al-qadir-al-jilani, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

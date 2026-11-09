@@ -10,6 +10,11 @@ gender: male
 roles: [emir]
 traditions: [sunni]
 relations:
+- type: lived_in
+  target: place/maghreb
+  note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
 - type: child_of
   target: person/al-mustansir-hafsi
   sources:

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [west-africa-sahel]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/niger, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q2463812

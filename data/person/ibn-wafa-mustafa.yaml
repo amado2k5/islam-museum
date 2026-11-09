@@ -13,6 +13,8 @@ themes: [spirituality-and-sufism]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 died: { edtf: "1491~", hijri: "0896~", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 896 {cite:shadharat-dhahab p. 359}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 896)، قراءة آبل فيجن"

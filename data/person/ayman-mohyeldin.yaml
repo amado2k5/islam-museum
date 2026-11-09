@@ -29,6 +29,7 @@ born:
   sources: [source/wikipedia-ayman-mohyeldin-en, source/wikipedia-ayman-mohyeldin-ar, source/wikidata-ayman-mohyeldin]
 
 relations:
+  - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/wikipedia-ayman-mohyeldin-en, source/wikipedia-ayman-mohyeldin-ar, source/wikidata-ayman-mohyeldin] }
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-ayman-mohyeldin-en, source/wikipedia-ayman-mohyeldin-ar] }
 
 faith:

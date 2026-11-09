@@ -12,6 +12,7 @@ story_roles:
   - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
 relations:
   - { type: child_of, target: person/yaqub, sources: [source/sahih-al-bukhari] }
+  - { type: lived_in, target: place/misr, confidence: low, note: "Joseph in Egypt per the Qur'anic and biblical tradition.", sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy] }
 provenance:
   layer: "own-research"
   source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR"

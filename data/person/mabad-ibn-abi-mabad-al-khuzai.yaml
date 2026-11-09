@@ -7,5 +7,7 @@ summary:
   ar: "من خزاعة، لقي النبي بحمراء الأسد بعد أحد، وقال إنه عزّ عليهم ما أصابه، وقيل إنه أسلم وقيل بقي على شركه وكان ناصحاً للنبي لحلف خزاعة وبني هاشم ⁦(الرحيق ص285)⁩."
 wings: [people]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 285; the book gives two accounts of his faith, both noted" }

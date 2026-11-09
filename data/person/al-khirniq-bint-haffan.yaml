@@ -12,6 +12,7 @@ themes: [women, literature]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/al-qays, note: "From text: of Qays", sources: [source/alam-al-nisa-kahhala-risala-1984-v1], confidence: low }
   - { type: sibling_of, target: person/tarafa-ibn-al-abd, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
 provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج1 p.352–354", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
 sources: [source/alam-al-nisa-kahhala-risala-1984-v1]

@@ -4,7 +4,7 @@ label:
   ar: "عبد الله بن أم مكتوم"
   en: "Abdallah ibn Umm Maktum"
 names:
-  - { kind: full, lang: ar, value: "عبد الله بن قيس بن زائدة القرشي" }
+ - { kind: full, lang: ar, value: "عبد الله بن قيس بن زائدة القرشي" }
 roles: [companion]
 gender: male
 summary:
@@ -15,6 +15,7 @@ regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]
 relations:
+ - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]}
 external_ids:
   wikidata: Q1111158

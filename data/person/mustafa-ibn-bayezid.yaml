@@ -25,6 +25,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: traveled_to, target: place/ankara, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/manuel-ii-palaiologos, role: "داعمه في رواية الكتاب", sources: [source/dawlat-uthmaniyya-salabi] }

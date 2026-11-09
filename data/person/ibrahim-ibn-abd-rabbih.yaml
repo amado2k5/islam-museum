@@ -13,6 +13,8 @@ themes: [spirituality-and-sufism]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1473-07~", hijri: "0878-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي صفر 878 ودفن بباب جامع الزاهد {cite:shadharat-dhahab p. 324}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/madyan, confidence: low, note: "Associated with مدين per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 878)، قراءة آبل فيجن"

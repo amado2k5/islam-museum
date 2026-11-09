@@ -26,6 +26,8 @@ born:
   derived: true
   note: "Gregorian date and Zagazig birthplace from English Wikipedia, Ain Shams University's profile and the State Information Service report of the US Embassy statement. The Worldwide Cancer Network biography gives 1 January 1938 instead, the Egyptian-Arabic article gives Banha as the birthplace and the Persian article gives Senbellawein; the record follows Zagazig, 2 January — the reading of his university and of the English article — and records the variants here. Zagazig has no place entity in the museum yet, and no person entity exists yet for his brother Osama El-Baz, so no born_in or sibling_of relation is written. The Hijri year (1356) is derived by tabular conversion."
   sources: [source/wikipedia-farouk-el-baz-en, source/ain-shams-farouk-el-baz, source/worldwide-cancer-network-farouk-el-baz]
+relations:
+  - { type: born_in, target: place/zagazig, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farouk-el-baz] }
 faith:
   - value: unknown
     basis: unknown

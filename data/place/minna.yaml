@@ -1,0 +1,21 @@
+id: place/minna
+class: place
+kind: city
+label: { ar: "مينا", en: "Minna", ur: "مینا، نائجیریا" }
+summary:
+  ar: "مدينة في نيجيريا."
+  en: "City in Nigeria."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [9.6138888888889, 6.5569444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q994105" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q994105 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

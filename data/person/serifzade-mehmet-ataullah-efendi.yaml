@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: died_in, target: place/rize, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q201101)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6097466

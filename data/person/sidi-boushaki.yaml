@@ -13,6 +13,13 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/soum-a, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q68169767)" }
+  - { type: born_in, target: place/th-nia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2225013)" }
+  - { type: buried_in, target: place/zawiyet-sidi-boushaki, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q43033365)" }
+  - { type: lived_in, target: place/bejaia, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q59975)" }
+  - { type: lived_in, target: place/algeria, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q262)" }
+  - { type: lived_in, target: place/tunis, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q948)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q19629001

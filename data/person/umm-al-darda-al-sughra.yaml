@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q19573135

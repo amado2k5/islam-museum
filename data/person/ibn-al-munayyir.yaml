@@ -17,6 +17,7 @@ faith:
   - value: sunni-maliki
     basis: tradition
 relations:
+  - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: critic_of, target: work/al-kashshaf, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
   - { type: critic_of, target: person/al-zamakhshari, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
 sources: [source/shadharat-dhahab, source/kashshaf-dar-al-marifa-shiha-2009]

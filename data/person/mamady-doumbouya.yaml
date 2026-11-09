@@ -29,6 +29,9 @@ faith:
     note: "No article text in any language consulted says anything about his religion at all — thinner than the Khan configuration. The Arabic article records his Mandinka ethnic origin, which is not a religion. What exists is filings and structure: the English article files him under Guinean Muslims, and Wikidata carries the single value Islam. Filings never count and one structured value never counts, so there is no text attestation of even his Muslim identity in the sources used, and no school is named anywhere; the value stays unknown with the readings preserved here (the moussa-traore configuration, wave 75 §A)."
     sources: [source/wikipedia-mamady-doumbouya-en, source/wikipedia-mamady-doumbouya-ar, source/wikidata-mamady-doumbouya]
 relations:
+  - { type: born_in, target: place/kankan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamady-doumbouya] }
+  - { type: lived_in, target: place/france, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamady-doumbouya] }
+  - { type: lived_in, target: place/guinea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamady-doumbouya] }
   - { type: successor_of, target: person/alpha-conde, sources: [source/wikipedia-mamady-doumbouya-en] }
 external_ids: { wikidata: "Q108418519" }
 sources: [source/wikipedia-mamady-doumbouya-en, source/wikipedia-mamady-doumbouya-ar, source/wikidata-mamady-doumbouya]

@@ -12,5 +12,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء السابع (الواو والياء)، طبعة إحسان عباس، النص المقروء آلياً من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-8
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "died: { edtf: '0786~', hijri: '0170~', calendar: julian, precision: year, status: debated, derived: true, note" }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

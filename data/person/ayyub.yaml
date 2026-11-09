@@ -18,3 +18,5 @@ sources:
 - source/assabile-yusuf-al-qaradawi
 - source/assabile-muhammad-metwally-al-shaarawy
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/sahih-al-bukhari, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy, source/assabile-yusuf-al-qaradawi, source/assabile-muhammad-metwally-al-shaarawy], confidence: low }

@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch115
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Baghdad reciter circle of Ibn Shanbudh; regions field levant-iraq.", sources: [source/muntazam-ibn-al-jawzi], confidence: medium }
 sources: [source/muntazam-ibn-al-jawzi]
 status:
   review: published

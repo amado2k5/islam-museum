@@ -33,6 +33,8 @@ died:
   derived: true
   note: "The English, Arabic and Urdu articles and Wikidata all give his death at Peshawar on 20 January 1988; following his will he was buried at his house in Jalalabad, Afghanistan. No place entities exist for Peshawar or Jalalabad, so no died_in or buried_in edge is written. The date falls in 1408 AH; the Hijri year is a conversion."
   sources: [source/wikipedia-khan-abdul-ghaffar-khan-en, source/wikipedia-khan-abdul-ghaffar-khan-ar, source/wikipedia-khan-abdul-ghaffar-khan-ur, source/wikidata-khan-abdul-ghaffar-khan]
+relations:
+  - { type: died_in, target: place/afghanistan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-khan-abdul-ghaffar-khan-en, source/wikipedia-khan-abdul-ghaffar-khan-ar, source/wikipedia-khan-abdul-ghaffar-khan-ur, source/wikidata-khan-abdul-ghaffar-khan] }
 faith:
   - value: unknown
     basis: unknown

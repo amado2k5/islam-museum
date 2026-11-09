@@ -1,0 +1,21 @@
+id: place/bulandshahr
+class: place
+kind: city
+label: { ar: "بلندشهر", en: "Bulandshahr" }
+summary:
+  ar: "مدينة بلندشهر."
+  en: "City (Bulandshahr)."
+wings: [place]
+regions: [south-asia]
+coordinates: [28.4, 77.85]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q861248; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q861248" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q861248 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

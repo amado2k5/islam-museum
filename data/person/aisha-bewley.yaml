@@ -47,3 +47,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-142
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/cordoba, note: "Place association from the person's nisba/name (القرطبي); denotes association, not proven residence.", sources: [source/wikipedia-aisha-bewley-en, source/wikipedia-aisha-bewley-ar, source/wikidata-aisha-bewley, source/dar-al-taqwa-islamic-will-bios-1995, source/abhath-bewley-women-translators-2021], confidence: low }

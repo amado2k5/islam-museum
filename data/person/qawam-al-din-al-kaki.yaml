@@ -10,6 +10,9 @@ traditions: [sunni-hanafi]
 periods: [period/gunpowder-empires]
 regions: [persia-central-asia]
 themes: [law-and-courts]
+relations:
+  - { type: lived_in, target: place/mardin, sources: [source/wikidata], confidence: low, note: "قدم القاهرة، ثم أقام بجامع ماردين يفتي ويدرس إلى أن مات سنة تسع وأربعين وسبعمائة." }
+  - { type: traveled_to, target: place/cairo, sources: [source/wikidata], confidence: low, note: "قدم القاهرة، ثم أقام بجامع ماردين يفتي ويدرس إلى أن مات سنة تسع وأربعين وسبعمائة." }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
   layer: own-research

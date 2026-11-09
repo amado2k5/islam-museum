@@ -16,6 +16,7 @@ died:
   status: tradition
   note: مات في حياة أبيه؛ السنة تقريبية.
 relations:
+- { type: lived_in, target: place/bulghar, confidence: low, note: "Associated with بلغار per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: child_of
   target: person/genghis-khan
   sources:

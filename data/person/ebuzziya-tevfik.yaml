@@ -40,6 +40,7 @@ faith:
     note: "No source read names a school for Ebüzziya Tevfik personally. The Turkish infobox has a religion (din) field and leaves it blank, the English article makes no statement of his religion, and Wikidata's only religion value is Islam (Q432), generic - one structured-data value naming no school, which never suffices on its own. His Kufic calligraphy for the Yildiz Hamidiye Mosque and the Zuhtupasa Mosque is his craft, and his Young Ottoman journalism is his work; neither is attestation of a personal affiliation or school."
     sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik]
 relations:
+  - { type: buried_in, target: place/bak-rk-y-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ebuzziya-tevfik] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ebuzziya-tevfik-en, source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik] }
   - { type: died_in, target: place/istanbul, note: "The Turkish infobox specifies Kadikoy, Istanbul.", sources: [source/wikipedia-ebuzziya-tevfik-tr, source/wikidata-ebuzziya-tevfik] }
 external_ids: { wikidata: Q4115430 }

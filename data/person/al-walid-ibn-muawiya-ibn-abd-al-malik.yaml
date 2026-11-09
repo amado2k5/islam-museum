@@ -12,6 +12,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+relations:
+  - { type: lived_in, target: place/damascus, note: "Marwan's man on Damascus.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Killed in the Yaman-Nizar riot during the siege of Damascus.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

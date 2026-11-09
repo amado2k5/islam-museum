@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, persia-central-asia]
 died: { edtf: "1432-02-21~", hijri: "0835-06-18", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي مطعوناً في ثامن عشر جمادى الآخرة 835 {cite:shadharat-dhahab p. 213}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/samarqand, confidence: low, note: "Associated with سمرقند per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 835)، قراءة آبل فيجن"

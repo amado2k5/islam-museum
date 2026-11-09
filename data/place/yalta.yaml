@@ -1,0 +1,16 @@
+id: place/yalta
+class: place
+kind: city
+label: { en: "Yalta", ar: "يالطا" }
+summary:
+  en: "City in Crimea, Ukraine."
+  ar: "مدينة في الإمبراطورية البيزنطية."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [44.4994, 34.1553]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q128499", geonames: "688533" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q128499 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

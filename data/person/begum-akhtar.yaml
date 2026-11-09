@@ -38,7 +38,9 @@ faith:
     basis: unknown
     note: "Absence configuration: no source read names a school for her. Wikidata carries a single religion value, Islam, and the English article files her in its '20th-century Indian Muslims' category — one structured-and-filing family, which is not an attestation of any school. The English article also records that in 1937–38 she met the spiritual master Meher Baba, sang devotional Sufi ghazals for him and became his devotee; devotion to a spiritual master and a devotional repertoire are not a school and were not counted, any more than her teachers or her Lucknow burial count. Under the two-source rule the value stays unknown."
     sources: [source/wikipedia-begum-akhtar-en, source/wikipedia-begum-akhtar-ur, source/wikidata-begum-akhtar]
-relations: []
+relations:
+  - { type: born_in, target: place/faizabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-begum-akhtar] }
+  - { type: died_in, target: place/ahmedabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-begum-akhtar] }
 summary:
   ar: "مغنية هندية (1914–1974)، وُلدت باسم أختري باي فيض آبادي في فيض آباد، ولُقّبت «ملكة الغزل»، وتُعدّ من أعظم مغنيات الغزل والثمري والدادرة؛ مثّلت في أفلام في الثلاثينيات وفي فيلم «روتي» (1942)، ونالت جائزة أكاديمية سانغيت ناتاك (1972) ووسام بادما شري (1968)، ومُنحت بادما بوشان بعد وفاتها."
   en: "Indian singer (1914–1974), born Akhtari Bai Faizabadi at Faizabad, dubbed Mallika-e-Ghazal, 'Queen of Ghazals', and regarded as one of the greatest exponents of ghazal, thumri and dadra; she acted in films in the 1930s and in Mehboob Khan's Roti (1942), received the Sangeet Natak Akademi Award (1972) and the Padma Shri (1968), and was awarded the Padma Bhushan posthumously."

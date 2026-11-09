@@ -18,6 +18,7 @@ died:
   derived: true
   note: "توفي في رجب سنة سبع وثلاثين وخمسمائة وله إحدى وستون سنة {cite:shadharat-dhahab p. 594}؛ التحويل مشتق."
 relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/yusuf-ibn-tashfin, sources: [source/shadharat-dhahab] }
   - { type: ruler_of, target: polity/almoravid-dynasty, sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab] }
 provenance:

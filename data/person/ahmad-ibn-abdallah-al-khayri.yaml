@@ -20,3 +20,5 @@ provenance:
   run: lib-muntazam-258-349-batch33
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: died_in, target: place/al-hira, note: "From text: died at Hira", sources: [source/muntazam-ibn-al-jawzi] }

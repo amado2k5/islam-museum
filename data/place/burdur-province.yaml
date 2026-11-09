@@ -1,0 +1,21 @@
+id: place/burdur-province
+class: place
+kind: region
+label: { ar: "ولاية بردور", en: "Burdur Province", ur: "بوردور صوبہ" }
+summary:
+  ar: "إقليم في تركيا."
+  en: "Region in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [37.423888888889, 30.084444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q80088" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q80088 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

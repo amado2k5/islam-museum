@@ -27,3 +27,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch48
+relations:
+  - { type: born_in, target: place/baghdad, note: "From text: ولد في كرخ بغداد", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: born_in, target: place/al-karkh, note: "From text: born in Karkh", sources: [source/mawsuat-a3lam-ulama-adaba] }

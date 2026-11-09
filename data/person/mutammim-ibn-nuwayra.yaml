@@ -17,6 +17,7 @@ periods:
 regions:
 - arabia
 relations:
+  - { type: traveled_to, target: place/medina, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/killing-of-malik-ibn-nuwayra, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

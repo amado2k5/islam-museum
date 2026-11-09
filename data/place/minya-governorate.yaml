@@ -1,0 +1,16 @@
+id: place/minya-governorate
+class: place
+kind: province
+label: { en: "Minya Governorate", ar: "محافظة المنيا" }
+summary:
+  en: "Egyptian governorate."
+  ar: "محافظة في مصر."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [28.11, 30.11]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q30675", geonames: "360688" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q30675 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

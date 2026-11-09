@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 17 July 1968 in the Hamamönü quarter of Ankara (English article; the Wikidata item gives Ankara). Ankara has no place entity in the museum, so no born_in relation is written. The hijri year 1388 is a tabular derived conversion of the Gregorian date (derived: true)."
   sources: [source/wikipedia-hakan-fidan-en, source/wikipedia-hakan-fidan-tr, source/wikipedia-hakan-fidan-ar, source/wikidata-hakan-fidan]
+relations:
+  - { type: born_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakan-fidan] }
 faith:
   - value: unknown
     basis: unknown

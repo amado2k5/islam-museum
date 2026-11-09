@@ -11,6 +11,11 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/al-ahsa-oasis, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q311341)" }
+  - { type: born_in, target: place/lahsa-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4021032)" }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+  - { type: died_in, target: place/baghdad-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3828224)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q42331396

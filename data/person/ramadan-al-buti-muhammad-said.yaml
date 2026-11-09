@@ -32,6 +32,7 @@ relations:
   - { type: lived_in, target: place/damascus, sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar] }
   - { type: died_in, target: place/damascus, sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti] }
   - { type: buried_in, target: place/damascus, sources: [source/wikipedia-muhammad-said-ramadan-al-buti-ar] }
+  - { type: born_in, target: place/jazirat-ibn-umar, sources: [source/wikipedia-ramadan-al-bouti-en, source/wikipedia-muhammad-said-ramadan-al-buti-ar, source/wikidata-muhammad-said-ramadan-al-bouti] }
 faith:
   - value: sunni-shafii
     basis: documented

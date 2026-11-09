@@ -37,6 +37,8 @@ born:
   sources:
     - source/wikipedia-nawal-al-eid-ar
     - source/ksaency-nawal-al-eid
+relations:
+  - { type: lived_in, target: place/riyadh, sources: [source/wikipedia-nawal-al-eid-ar, source/ksaency-nawal-al-eid, source/website-nawal-al-eid, source/oasis-saudi-women-preachers] }
 faith:
   - value: unknown
     basis: unknown

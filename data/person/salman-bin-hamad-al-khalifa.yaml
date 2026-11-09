@@ -36,6 +36,8 @@ died:
   sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa]
 relations:
   - { type: child_of, target: person/hamad-ibn-isa-al-khalifa, sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa] }
+
+  - { type: lived_in, target: place/bahrayn, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-salman-bin-hamad-al-khalifa-en, source/wikipedia-salman-bin-hamad-al-khalifa-ar, source/wikidata-salman-bin-hamad-al-khalifa] }
 faith:
   - value: unknown
     basis: unknown

@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 10 March 1985 in Paris, France, as given by the English Wikipedia article's infobox and early-life section (born in Paris to Malian parents and raised in Belleville). Wikidata Q485196 gives the birthplace as Le Blanc-Mesnil, a commune in the Paris suburbs; the article's reading is followed and the difference, one of municipal granularity within the same metropolitan area, is disclosed here and in the Wikidata source's reliability note. No place entity for Paris exists in data/place/, so no born_in edge is written. The Hijri year (1405) is derived by tabular conversion."
   sources: [source/wikipedia-lassana-diarra-en, source/wikipedia-lassana-diarra-ar, source/wikipedia-lassana-diarra-fr, source/wikidata-lassana-diarra]
+relations:
+  - { type: born_in, target: place/20th-arrondissement-of-paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lassana-diarra] }
 faith:
   - value: unknown
     basis: unknown

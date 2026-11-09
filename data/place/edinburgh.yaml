@@ -1,0 +1,36 @@
+id: place/edinburgh
+class: place
+kind: city
+label:
+  ar: إدنبرة
+  en: Edinburgh
+  ur: ایڈنبرا
+summary:
+  ar: مدينة في المملكة المتحدة.
+  en: Capital city of Scotland, UK.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 55.9533
+- -3.1892
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q23436
+  geonames: '2650225'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q23436 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q23436 (labels, coordinates, description)

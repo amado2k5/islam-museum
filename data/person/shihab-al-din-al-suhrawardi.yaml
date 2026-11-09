@@ -16,6 +16,10 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
 external_ids: { wikidata: "Q282883" }
+relations:
+  - { type: born_in, target: place/sohrevard, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2627731)" }
+  - { type: died_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q41183)" }
+  - { type: lived_in, target: place/persian-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q83311)" }
 sources: [source/wafayat-ayan]
 status:
   review: published

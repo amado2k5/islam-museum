@@ -24,6 +24,8 @@ regions:
   - maghreb
   - americas-oceania
 relations:
+  - { type: born_in, target: place/casablanca, sources: [source/listennotes-riad-ouarzazi, source/muslimagent-riad-ouarzazi] }
+  - { type: lived_in, target: place/toronto, sources: [source/listennotes-riad-ouarzazi, source/muslimagent-riad-ouarzazi] }
   - type: student_of
     target: person/waleed-basyouni
     note: "Direction: Ouarzazi is the student. The Muslim Central biography records that he studied Aqeedah under Waleed Basyouni; the edge is written once, here in Ouarzazi's own record, as the predicates registry directs. The same biography names Waleed Idrees as his Fiqh teacher; no record for Idrees exists in data/person/, so no second edge is written."

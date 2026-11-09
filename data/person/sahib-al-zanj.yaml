@@ -7,6 +7,10 @@ summary:
   en: "Leader of the Zanj rebellion in southern Iraq, whose forces held towns including Basra and Wasit before al-Muwaffaq's campaign ended his rule. {cite:tabari-tarikh-abu-al-fadl}"
 wings: [people]
 gender: male
+relations:
+  - { type: lived_in, target: place/iraq, sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883] }
+  - { type: ruled_over, target: place/basra, sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883] }
+  - { type: ruled_over, target: place/wasit, sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/tarikh-yaqubi-houtsma-1883]
 provenance: { layer: own-research, source: "Tarikh al-Yaqubi (Houtsma ed., Leiden 1883) and the sources listed", generated_by: "al-Ya'qubi section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-yaqubi-batch-3-2026-10-31; Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 6", sources: [source/tabari-tarikh-abu-al-fadl] , explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}, run: "explorer-fifth-40-stories-2026-11-04", model: "unknown"}
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }

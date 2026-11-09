@@ -9,6 +9,9 @@ roles: [jurist, scholar]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
 themes: [law-and-courts]
+relations:
+  - { type: died_in, target: place/jurjan, sources: [source/wikidata], confidence: low, note: "توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب." }
+  - { type: died_in, target: place/khwarizm, sources: [source/wikidata], confidence: low, note: "توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب." }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance:
   layer: own-research

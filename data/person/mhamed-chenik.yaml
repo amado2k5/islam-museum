@@ -36,6 +36,7 @@ faith:
     note: "No source read names a religion or religious school for Chenik, and Wikidata carries no religion value for him. His Sadiki schooling, his Destour and Neo-Destour party politics and his banking and industrial career attest no school; this is the absence configuration."
     sources: [source/wikipedia-mhamed-chenik-fr, source/wikipedia-mhamed-chenik-ar, source/wikidata-mhamed-chenik]
 relations:
+  - { type: died_in, target: place/rad-s, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mhamed-chenik] }
   - { type: born_in, target: place/tunis, sources: [source/wikipedia-mhamed-chenik-fr, source/wikipedia-mhamed-chenik-en, source/wikidata-mhamed-chenik] }
 summary:
   ar: "سياسي ورجل أعمال تونسي (1889–1976)، تولى الوزارة الكبرى مرتين: في حكومة المنصف باي سنة 1943، ثم في حكومة التفاوض مع فرنسا بين 1950 و1952 في عهد الأمين باي. أسّس سنة 1922 التعاونية التونسية للائتمان، أول بنك تونسي، وترأّس الغرفة التجارية التونسية بين 1921 و1942، وأسّس الشركة التونسية للغزل والنسيج سنة 1939 وأدارها حتى وفاته."

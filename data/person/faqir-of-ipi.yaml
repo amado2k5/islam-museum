@@ -33,6 +33,8 @@ died:
 roles: [activist]
 wings: [people]
 regions: [south-asia]
+relations:
+  - { type: lived_in, target: place/pakistan, confidence: low, note: "Associated with باكستان per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

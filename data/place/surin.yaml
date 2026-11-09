@@ -1,0 +1,21 @@
+id: place/surin
+class: place
+kind: region
+label: { ar: "محافظة سورين", en: "Surin", ur: "سورن صوبہ" }
+summary:
+  ar: "إقليم في تايلاند."
+  en: "Region in Thailand."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [14.88, 103.49]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q380757" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q380757 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

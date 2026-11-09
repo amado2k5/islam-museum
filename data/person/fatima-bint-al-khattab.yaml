@@ -24,6 +24,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/quraysh }
   - { type: child_of, target: person/al-khattab-ibn-nufayl }
   - { type: spouse_of, target: person/said-ibn-zayd }

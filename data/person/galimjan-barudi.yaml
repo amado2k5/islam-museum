@@ -34,6 +34,9 @@ died:
   derived: true
   note: "Died at Moscow on 6 December 1921 — the Tatar article adds that he died on his way to a sitting of the committee for aid to the famine-stricken of the Volga-Ural region — and was buried at the Novo-Tatar cemetery in Kazan; both articles and Wikidata agree. The Hijri year 1340 is the tabular conversion. The museum has no place entity for Moscow, so no died_in edge is written."
   sources: [source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt, source/wikidata-galimjan-barudi]
+relations:
+  - { type: born_in, target: place/kazan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt, source/wikidata-galimjan-barudi] }
+  - { type: died_in, target: place/kazan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-galimjan-barudi-ru, source/wikipedia-galimjan-barudi-tt, source/wikidata-galimjan-barudi] }
 faith:
   - value: unknown
     basis: unknown

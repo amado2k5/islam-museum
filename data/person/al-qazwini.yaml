@@ -19,3 +19,5 @@ provenance:
   run: lib-kashf-zunun-batch-7
 sources: [source/kashf-zunun-furqan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/qazwin, note: "Place association from the person's nisba/name (القزويني); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan], confidence: low }

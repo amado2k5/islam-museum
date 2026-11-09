@@ -44,7 +44,9 @@ wings:
 regions:
   - maghreb
   - anatolia-balkans
-relations: []
+relations:
+  - { type: born_in, target: place/izmir, sources: [source/wikidata-sinan-reis], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35997)" }
+  - { type: died_in, target: place/ottoman-empire, sources: [source/wikidata-sinan-reis], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12560)" }
 sources:
   - source/wikipedia-sinan-reis-en
   - source/wikipedia-sinan-reis-ar

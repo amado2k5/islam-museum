@@ -30,6 +30,8 @@ faith:
     sources: [source/wikipedia-engheta-en, source/wikipedia-engheta-fa, source/wikipedia-engheta-ur, source/wikidata-engheta]
 external_ids:
   wikidata: "Q6957556"
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
 sources: [source/wikipedia-engheta-en, source/wikipedia-engheta-fa, source/wikipedia-engheta-ur, source/wikidata-engheta]
 provenance:
   layer: own-research

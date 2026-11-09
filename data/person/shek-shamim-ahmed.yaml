@@ -21,6 +21,8 @@ wings:
   - living
 regions:
   - andalus-europe
+relations:
+  - { type: lived_in, target: place/united-kingdom, sources: [source/youtube-islamic-guidance, source/gofundme-islamic-guidance] }
 faith:
   - value: unknown
     basis: unknown

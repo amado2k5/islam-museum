@@ -15,6 +15,8 @@ regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/selim-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/selim-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 external_ids:
   nomisma: "murad_iii"
   wikidata: Q159934

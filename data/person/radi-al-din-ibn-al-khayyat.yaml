@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: died_in, target: place/jabala, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1010816)" }
+  - { type: lived_in, target: place/old-city-of-taiz, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q139829337)" }
+  - { type: lived_in, target: place/mecca, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q5806)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q141178140

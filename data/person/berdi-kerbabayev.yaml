@@ -31,6 +31,8 @@ died:
   derived: false
   note: "The article gives his death on 3 March 1974 at Ashkhabad, capital of the Turkmen SSR — his eightieth birthday. No place entity exists for Ashkhabad, so no died_in relation is written. No Hijri pairing is sourced for this date, so the hijri key is omitted."
   sources: [source/wikipedia-berdi-kerbabayev-en]
+relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikipedia-berdi-kerbabayev-en] }
 faith:
   - value: unknown
     basis: unknown

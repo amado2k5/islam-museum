@@ -1,0 +1,37 @@
+id: place/sudan
+class: place
+kind: region
+label:
+  ar: السودان
+  en: Sudan
+  ur: سوڈان
+summary:
+  ar: دولة في حوض النيل شرق أفريقيا.
+  en: Nile-basin state in north-east Africa.
+wings:
+- place
+regions:
+- east-africa
+- egypt-nile
+coordinates:
+- 15.5
+- 32.5
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q1049
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1049 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

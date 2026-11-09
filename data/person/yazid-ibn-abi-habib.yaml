@@ -11,5 +11,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 331–332"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-25
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
 sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

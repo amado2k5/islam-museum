@@ -30,3 +30,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/qalam-abdul-nasir-jangda, source/almaghrib-abdul-nasir-jangda]
+relations:
+  - { type: lived_in, target: place/united-states, note: "From text: American (nationality adjective); broad association, flagged for review.", sources: [source/qalam-abdul-nasir-jangda, source/almaghrib-abdul-nasir-jangda], confidence: low }

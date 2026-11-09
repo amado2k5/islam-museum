@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1472", precision: year, status: tradition, derived: true }
 died: { edtf: "1536", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/harat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45313)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6488051

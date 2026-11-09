@@ -50,6 +50,14 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: lived_in
+  target: place/raqqa
+  note: "From text: أقام بالرقة إلى أن مات في خلافة معاو"
+  sources: [source/ibn-hajar-isaba]
+- type: ruler_of
+  target: place/kufa
+  note: "From text: governor of Kufa"
+  sources: [source/ibn-hajar-isaba]
 - type: sibling_of
   target: person/uthman-ibn-affan
   sources:

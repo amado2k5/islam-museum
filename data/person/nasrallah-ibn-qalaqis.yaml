@@ -15,6 +15,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
+relations:
+  - { type: lived_in, target: place/yemen, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'أبو الفتح نصر الله بن أبي القاسم عبد الله بن علي بن قلاقس الإسكندري الشاعر؛ دخل بلاد اليمن وامتدح بمدينة " }
 sources: [source/wafayat-ayan]
 status:
   review: published

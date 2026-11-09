@@ -15,6 +15,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch122
 relations:
+  - { type: ruler_of, target: place/misr, note: "From text: sultan of Egypt", sources: [source/wafayat-ayan, source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "المقبوض عليه من أمراء دولته", sources: [source/shadharat-dhahab] }
 sources: [source/wafayat-ayan, source/shadharat-dhahab, source/encyclopaedia-of-islam-2, source/nomisma]
 status:

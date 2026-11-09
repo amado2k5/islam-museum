@@ -36,6 +36,8 @@ relations:
   - { type: child_of, target: person/sunan-kalijaga, sources: [source/wikipedia-sunan-muria-en, source/wikipedia-sunan-muria-id] }
   - { type: student_of, target: person/sunan-kalijaga, sources: [source/wikipedia-sunan-muria-id] }
 
+
+  - { type: lived_in, target: place/java, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-sunan-muria-en, source/wikipedia-sunan-muria-id, source/wikipedia-sunan-muria-ar, source/wikidata-sunan-muria] }
 faith:
   - value: unknown
     basis: unknown

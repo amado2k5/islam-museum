@@ -28,6 +28,8 @@ faith:
     note: "No source names a religion for Dhanda himself. The English article's personal-life section says he is of Punjabi Sikh heritage through his father, quoting Sky Sports: his father is Sikh-Punjabi, and his mother is English. A father's religion and a heritage description are family background, which never attests the person's own affiliation. The Urdu article is a bot stub that says nothing about religion, and Wikidata carries no religion value. His faith is therefore recorded as unknown."
     sources: [source/wikipedia-yan-dhanda-en, source/wikipedia-yan-dhanda-ur, source/wikidata-yan-dhanda]
 external_ids: { wikidata: "Q56043350" }
+relations:
+  - { type: born_in, target: place/birmingham, sources: [source/wikidata-yan-dhanda], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2256)" }
 sources: [source/wikipedia-yan-dhanda-en, source/wikipedia-yan-dhanda-ur, source/wikidata-yan-dhanda]
 provenance:
   layer: own-research

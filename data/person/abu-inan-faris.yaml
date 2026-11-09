@@ -11,6 +11,10 @@ roles: [sultan]
 traditions: [sunni]
 died: { edtf: "1358", hijri: "0759", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله وزيره سنة 759هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- type: traveled_to
+  target: place/morocco
+  note: "From text: رحل إلى المغرب وانتحر أباه عند عودته"
+  sources: [source/tarikh-ibn-khaldun-ibar, source/encyclopaedia-of-islam-2]
 - type: child_of
   target: person/abu-al-hasan-al-marini
   sources:

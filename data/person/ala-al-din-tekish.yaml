@@ -13,6 +13,7 @@ roles: [ruler, military]
 periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
 died: { edtf: "1200-07~", hijri: "0596-09", calendar: julian, precision: month, status: tradition, derived: true, note: "وهو الذي أزال دولة بني سلجوق؛ تغيرت نيته للخليفة وعزم على قصد العراق فجاءه الموت فجأة بدهستان في رمضان وحُمل إلى خوارزم، وقام بعده ولده قطب الدين محمد ولُقبوا بلقب أبيه {cite:shadharat-dhahab p. 804}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/iraq, note: "From text: of the Iraq Seljuks", sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/ismoilov-xorazmshohlar-tangalari-2025], confidence: low }
   - { type: spouse_of, target: person/terken-khatun }
   - { type: ruler_of, target: polity/anushtegin-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/ismoilov-xorazmshohlar-tangalari-2025]

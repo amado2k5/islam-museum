@@ -15,6 +15,7 @@ wings: [people, living]
 regions: [levant-iraq]
 born: { edtf: "1981-06-01", hijri: "1401", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born on 1 June 1981 in Mosul, Iraq; the English article's infobox cites the Global Sports Archive for the date and place, and the Arabic article cites National Football Teams. Wikidata carries a second, unsupported birth-date value (12 September 1982), not followed. The Arabic article's categories pair his birth year with 1401 AH.", sources: [source/wikipedia-hawar-mulla-mohammed-en, source/wikipedia-hawar-mulla-mohammed-ar, source/wikidata-hawar-mulla-mohammed] }
 relations:
+  - { type: born_in, target: place/babil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hawar-mulla-mohammed] }
   - { type: born_in, target: place/mosul, sources: [source/wikipedia-hawar-mulla-mohammed-en, source/wikipedia-hawar-mulla-mohammed-ar] }
 faith:
   - value: unknown

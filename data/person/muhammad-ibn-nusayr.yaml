@@ -14,6 +14,7 @@ regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
 relations:
   - { type: founder_of, target: group/nusayriyya, sources: [source/milal-nihal-shahrastani] }
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Ibn Nusayr, active in the Iraqi Shi'i milieu of Samarra-Kufa (al-Milal wa'l-nihal; regions: levant-iraq).", sources: [source/milal-nihal-shahrastani] }
 external_ids: { wikidata: "Q5984245" }
 sources: [source/milal-nihal-shahrastani]
 perspectives:

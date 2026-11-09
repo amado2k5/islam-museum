@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1578", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/gujarat, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: "Q12239889"

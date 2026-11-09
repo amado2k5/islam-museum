@@ -1,0 +1,18 @@
+id: place/marwand
+class: place
+kind: town
+label: { ar: "مروند", en: "Marwand", ur: "مروند" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q6778560)."
+wings: [place]
+regions: [global]
+external_ids: { wikidata: "Q6778560" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6778560 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

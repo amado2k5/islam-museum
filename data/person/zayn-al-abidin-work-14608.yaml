@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
+relations:
+  - { type: lived_in, target: place/qazvin, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q181578)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q18575695

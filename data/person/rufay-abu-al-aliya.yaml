@@ -7,6 +7,8 @@ summary:
 periods: [period/umayyad]
 died: { hijri: "0106", edtf: "0724~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: توفي سنة ست ومائة، وقيل سنة ثلاث وتسعين (PDF ص47). «وقيل» علامة شك.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 wings: [people]
+relations:
+  - { type: lived_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "Nisba شيرازي attested in the record." }
 sources: [source/futuh-buldan-maarif-1407, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -33,6 +33,7 @@ died:
   note: "The English article gives his death in office at Bern on 2 April 1953, citing The Indian Express obituary of 3 April 1953, and its infobox ends his Swiss ambassadorship on 2 April; the Arabic article's lead and Wikidata give 1 April 1953 instead. The record follows the English article's cited obituary and flags the one-day conflict. No place entity exists for Bern, so no died_in edge is written. The Arabic article's categories give his death Hijri year as 1372; the Hijri year is a conversion."
   sources: [source/wikipedia-asaf-ali-en, source/wikipedia-asaf-ali-ar, source/wikidata-asaf-ali]
 relations:
+  - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-asaf-ali-en, source/wikipedia-asaf-ali-ar, source/wikipedia-asaf-ali-ur, source/wikidata-asaf-ali], confidence: low }
   - { type: spouse_of, target: person/aruna-asaf-ali, sources: [source/wikipedia-asaf-ali-en, source/wikipedia-aruna-asaf-ali-en] }
 faith:
   - value: unknown

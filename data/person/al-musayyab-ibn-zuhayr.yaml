@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch31
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Commander of al-Mansur at his court.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

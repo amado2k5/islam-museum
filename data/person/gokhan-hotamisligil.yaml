@@ -23,6 +23,9 @@ born:
 roles: [physician, scientist]
 regions: [anatolia-balkans, americas-oceania]
 wings: [people, living]
+relations:
+  - { type: born_in, target: place/rize, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/boston, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

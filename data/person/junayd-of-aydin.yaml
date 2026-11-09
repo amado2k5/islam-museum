@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/aydin, confidence: low, note: "Associated with آيدين per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/bosworth-new-islamic-dynasties-1996
 - source/encyclopaedia-of-islam-2

@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/devanahalli, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2087756)" }
+  - { type: lived_in, target: place/karnataka, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1185)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q10088

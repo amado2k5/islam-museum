@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Buran, wife of al-Ma'mun, at Baghdad per the record's own summary.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: related_to, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on her entry in Kahhala's A'lam al-Nisa' from source/alam-al-nisa-kahhala-risala-1984-v1 PDF pp. 163"

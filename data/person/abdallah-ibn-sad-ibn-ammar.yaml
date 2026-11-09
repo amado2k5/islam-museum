@@ -16,3 +16,5 @@ provenance:
   run: lib-nafh-tib-batch-40
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: traveled_to, target: place/al-andalus, note: "First of Ammar ibn Yasir's line to enter al-Andalus; amir of the Damascene Yamanis called upon against Abd al-Rahman al-Dakhil.", sources: [source/nafh-tib-maqqari], confidence: medium }

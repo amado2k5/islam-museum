@@ -39,6 +39,8 @@ faith:
     note: "A school reading exists in exactly one text. The Chinese article's lead calls him a leader of the Khufiyya (虎夫耶) 'old teaching' of Islam, resting on the Xinjiang literary and historical materials collection; the English article names no school and no order for him anywhere, calling him a Yunnanese Muslim and a Hui, and Wikidata carries no religion value at all. The Chinese article on Ma Shaowu records an old feud between the Jahriyya and Ma Fuxing's house — his ancestor had helped bring about Ma Hualong's death — without naming any affiliation of Ma Fuxing himself. A leadership descriptor in a single text is one family short of the two-source bar: unknown, flagged."
     sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing]
 relations:
+  - { type: born_in, target: place/yunnan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fuxing] }
+  - { type: died_in, target: place/kashgar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fuxing] }
   - { type: died_in, target: place/kashgar, sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh] }
 external_ids: { wikidata: "Q6720734" }
 sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing]

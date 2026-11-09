@@ -14,6 +14,8 @@ regions: [maghreb]
 relations:
 - { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "ثاني ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "successor_of", target: "person/yaghmurasan-ibn-zayyan", note: "خلف أباه آخر ذي القعدة 682هـ", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: died_in, target: place/tlemcen, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Uthman ibn Yaghmurasan ibn Zayyan, second of the Banu Abd al-Wad kings; when his father died at the end o" }
+- { type: ruler_of, target: place/tlemcen, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "- { type: 'ruler_of', target: 'polity/zayyanid-tlemcen', note: 'ثاني ملوك بني عبد الواد', sources: [source/tar" }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

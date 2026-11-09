@@ -15,5 +15,9 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Companion of Tha'lab at Baghdad.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Died in 345 and buried at Baghdad.", sources: [source/wafayat-ayan], confidence: high }
+  - { type: buried_in, target: place/baghdad, note: "Buried at Baghdad per Wafayat.", sources: [source/wafayat-ayan], confidence: high }
 sources: [source/wafayat-ayan]
 status: { review: published, completeness: 3 }

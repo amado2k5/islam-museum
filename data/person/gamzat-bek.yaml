@@ -36,6 +36,8 @@ wings: [people]
 regions: [anatolia-balkans]
 roles: [emir, scholar]
 relations:
+  - { type: born_in, target: place/avar-khanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gamzat-bek] }
+  - { type: died_in, target: place/khunzakh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gamzat-bek] }
   - { type: successor_of, target: person/ghazi-muhammad, sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru] }
 faith:
   - value: unknown

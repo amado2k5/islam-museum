@@ -12,6 +12,8 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/malta, confidence: low, note: "Associated with مالطة per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids: { wikidata: "Q728324" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

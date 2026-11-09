@@ -1,0 +1,36 @@
+id: place/brooklyn
+class: place
+kind: city
+label:
+  ar: بروكلين
+  en: Brooklyn
+  ur: بروکلن
+summary:
+  ar: مدينة في الولايات المتحدة.
+  en: Borough of New York City, New York, United States.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 40.6508
+- -73.9497
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q18419
+  geonames: '5110302'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q18419 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q18419 (labels, coordinates, description)

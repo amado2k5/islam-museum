@@ -36,6 +36,7 @@ died:
   sources: [source/wikipedia-anusha-khan-en, source/wikipedia-anusha-khan-ru, source/wikidata-anusha-khan]
 
 relations:
+  - { type: ruler_of, target: place/khwarizm, note: "From text: khan of Khwarazm", sources: [source/wikipedia-anusha-khan-en, source/wikipedia-anusha-khan-ru, source/wikidata-anusha-khan] }
   - { type: child_of, target: person/abu-al-ghazi-bahadur, sources: [source/wikipedia-anusha-khan-ru, source/wikipedia-anusha-khan-en] }
   - { type: successor_of, target: person/abu-al-ghazi-bahadur, sources: [source/wikipedia-anusha-khan-ru] }
 

@@ -19,6 +19,8 @@ story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1982, sources: [source/wikipedia-king-faisal-prize-en] }
+relations:
+  - { type: lived_in, target: place/riyadh, confidence: low, note: "Associated with Riyadh per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en]
 status:
   review: published

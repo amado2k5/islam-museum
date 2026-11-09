@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 relations:
+- { type: lived_in, target: place/baghdad, sources: [source/duha-islam] }
 - { type: "related_to", target: "building/bayt-al-hikma", note: "صاحب بيت الحكمة", sources: [source/duha-islam] }
 - { type: "related_to", target: person/abd-allah-al-mamun, note: "في بعثته إلى بلد الروم", sources: [source/duha-islam] }
 sources: [source/duha-islam]

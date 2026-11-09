@@ -21,7 +21,7 @@ regions: []
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q5606393" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 status:
   review: published
   completeness: 3
@@ -37,3 +37,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/cairo, note: "Wikidata Q85 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -33,6 +33,9 @@ died:
   derived: true
   note: "Died on 12 July 1911. The place is split: the Azerbaijani article (he died in his native Shamakhi), the Russian article (buried at the Yeddi Gümbəz cemetery in Shamakhi), the Arabic article's infobox and Wikidata give Shamakhi, and the record follows them. The English article's infobox and text give Baku, although its own narrative records that, ill with a liver condition, he returned to Shamakhi for treatment; that internal tension is disclosed rather than silently resolved. The Hijri year 1329 is the tabular conversion. The museum has no place entity for Shamakhi, so no died_in edge is written."
   sources: [source/wikipedia-mirza-alakbar-sabir-az, source/wikipedia-mirza-alakbar-sabir-ru, source/wikipedia-mirza-alakbar-sabir-ar, source/wikidata-mirza-alakbar-sabir, source/wikipedia-mirza-alakbar-sabir-en]
+relations:
+  - { type: born_in, target: place/shamakhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-alakbar-sabir] }
+  - { type: died_in, target: place/shamakhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-alakbar-sabir] }
 faith:
   - value: unknown
     basis: unknown

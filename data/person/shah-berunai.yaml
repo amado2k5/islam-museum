@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: died_in, target: place/bandar-seri-begawan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q9279)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q31868

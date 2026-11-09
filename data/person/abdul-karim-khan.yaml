@@ -50,3 +50,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-abdul-karim-khan-en, source/wikipedia-abdul-karim-khan-ur]
+relations:
+  - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-abdul-karim-khan-en, source/wikipedia-abdul-karim-khan-ur], confidence: low }

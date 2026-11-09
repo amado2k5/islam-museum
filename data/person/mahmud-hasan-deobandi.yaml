@@ -32,6 +32,8 @@ died:
   note: "The English and Urdu articles and Wikidata give his death at Delhi on 30 November 1920, after an illness treated at the home of Mukhtar Ahmad Ansari at Daryaganj; the Arabic article agrees on the year. The Hijri year (1339) is derived by tabular conversion (17 Rabi' al-Awwal 1339) and matches the Arabic article's own dating of his life (1268–1339 AH). He was buried in the Qasmi cemetery at Deoband, beside his teacher Muhammad Qasim Nanawtawi; neither Deoband nor its cemetery has an entity in the museum yet, so no buried_in relation is written."
   sources: [source/wikipedia-mahmud-hasan-deobandi-en, source/wikipedia-mahmud-hasan-deobandi-ur, source/wikidata-mahmud-hasan-deobandi]
 relations:
+  - { type: born_in, target: place/bareilly, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmud-hasan-deobandi] }
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmud-hasan-deobandi] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-mahmud-hasan-deobandi-en, source/wikidata-mahmud-hasan-deobandi] }
   - { type: student_of, target: person/rashid-ahmad-gangohi, sources: [source/wikipedia-mahmud-hasan-deobandi-en, source/wikipedia-mahmud-hasan-deobandi-ur] }
   - { type: member_of, target: group/deobandiyya, sources: [source/wikipedia-mahmud-hasan-deobandi-en, source/wikipedia-mahmud-hasan-deobandi-ur] }

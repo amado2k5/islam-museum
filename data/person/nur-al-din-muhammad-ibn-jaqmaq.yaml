@@ -15,6 +15,8 @@ born: { edtf: "1413-10~", hijri: "0816-07", calendar: julian, precision: month, 
 died: { edtf: "1444-04-01~", hijri: "0847-12-12", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الاثنين 12 ذي الحجة 847 بالقاهرة {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: child_of, target: person/jaqmaq-al-zahiri, sources: [source/shadharat-dhahab] }
+
+  - { type: lived_in, target: place/cairo, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 847)، قراءة آبل فيجن"

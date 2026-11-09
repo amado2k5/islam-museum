@@ -33,7 +33,8 @@ faith:
     basis: unknown
     note: "No source names a school for him, and his Wikidata item carries no religion value at all. The English biography's remark that he was born into a Muslim family is family background, which never counts; there is nothing to preserve as a reading, so the value is unknown, unflagged."
     sources: [source/wikipedia-avni-rustemi-en, source/wikidata-avni-rustemi]
-relations: []
+relations:
+  - { type: lived_in, target: place/albania, note: "Place association from the person's nisba/name (ألباني); denotes association, not proven residence.", sources: [source/wikipedia-avni-rustemi-en, source/wikipedia-avni-rustemi-sq, source/wikidata-avni-rustemi], confidence: low }
 summary:
   ar: "مدرّس ونائب وناشط ديمقراطي ألباني من ليبوهوفا، اغتال أسعد باشا توبتاني في باريس سنة 1920، وأسّس جمعيتي «أتدهيو» و«باشكيمي»، واغتيل هو نفسه في تيرانا سنة 1924."
   en: "Albanian teacher, deputy and democratic activist from Libohovë who assassinated Essad Pasha Toptani in Paris in 1920, founded the Atdheu and Bashkimi societies, and was himself assassinated in Tirana in 1924."

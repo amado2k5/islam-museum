@@ -11,5 +11,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
+relations:
+  - { type: ruled_over, target: place/ifriqiya, sources: [source/wikidata], confidence: low, note: "en: 'In al-Baladhuri: governor of Ifriqiya after Bishr ibn Safwan al-Kalbi — one copy reads Ubaydallah — then " }
+  - { type: ruled_over, target: place/safwan, sources: [source/wikidata], confidence: low, note: "en: 'In al-Baladhuri: governor of Ifriqiya after Bishr ibn Safwan al-Kalbi — one copy reads Ubaydallah — then " }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

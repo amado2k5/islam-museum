@@ -18,7 +18,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/abyssinia, note: "From text: Ethiopian (nationality adjective); broad association, flagged for review.", sources: [source/tiktok-abubaker-ahmed, source/ena-abubeker-ahmed-gerd-2021], confidence: low }
 sources: [source/tiktok-abubaker-ahmed, source/ena-abubeker-ahmed-gerd-2021]
 provenance:
   layer: own-research

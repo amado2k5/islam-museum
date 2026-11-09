@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 died: { edtf: "0786~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الهادي (البلاذري ص 326). التحويل مشتق." }
 relations:
+  - { type: lived_in, target: place/marw-al-rudh, note: "From text: من أهل مرو الروذ فيمن قدم مع الد", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/death-of-al-aghab, role: "الوالي المصروع الشهيد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

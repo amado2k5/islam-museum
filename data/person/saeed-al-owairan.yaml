@@ -28,6 +28,8 @@ faith:
     note: "No source read for this record names a school or madhhab for Al-Owairan himself, and none states his religion. The English Wikipedia article makes no statement of his religion anywhere in its text; it covers his club and international career only. The Arabic article likewise makes no statement of his religion. Wikidata Q381686 carries no religion value at all. Saudi Arabia's Hanbali tradition is the country's milieu, which under the lane rule may not be inferred onto an individual. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded."
     sources: [source/wikipedia-saeed-al-owairan-en, source/wikipedia-saeed-al-owairan-ar, source/wikidata-saeed-al-owairan]
 external_ids: { wikidata: "Q381686" }
+relations:
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-saeed-al-owairan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/wikipedia-saeed-al-owairan-en, source/wikipedia-saeed-al-owairan-ar, source/wikidata-saeed-al-owairan]
 provenance:
   layer: own-research

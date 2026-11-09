@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من آل عبد المطلب؛ تسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: traveled_to, target: place/medina, note: "From text: returned to Medina", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: child_of, target: person/al-harith-ibn-abd-al-muttalib, note: "ابنة الحارث بن عبد المطلب؛ أخوها لأمها صفية بنت عبد المطلب التي تزوجها النبي {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 32}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: related_to, target: person/abd-al-muttalib, note: "جدّها عبد المطلب بن هاشم، عمّها لأبيها النبي محمد.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: opposed, target: person/muawiya-ibn-abi-sufyan, note: "حاورة معاوية في قصره بعد وفاة علي فأنكرته وعرضت عليه لعنات ثم أعطيت ألفي دينار ستة آلاف {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 32-35}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

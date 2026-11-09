@@ -13,6 +13,8 @@ regions: [maghreb]
 periods: [period/colonial-era]
 born: { edtf: "1750~", precision: decade, status: tradition, derived: true }
 died: { edtf: "1799", precision: year, status: tradition, derived: true }
+relations:
+  - { type: ruled_over, target: place/morocco, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3136493

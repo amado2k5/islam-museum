@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile, levant-iraq]
 relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: child_of, target: person/qalawun, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/qalat-al-rum-691, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ashraf-khalil-murder-693, sources: [source/shadharat-dhahab] }

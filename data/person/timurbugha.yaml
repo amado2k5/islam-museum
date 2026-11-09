@@ -15,6 +15,8 @@ faith: [{ value: sunni, basis: documented }]
 died: { edtf: "1475-04~", hijri: "0879-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بالإسكندرية ذي الحجة 879 جاوز الستين {cite:shadharat-dhahab p. 326}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: participated_in, target: event/qaytbay-accession-872, role: "السلطان المخلوع", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنتا 872 و879)، قراءة آبل فيجن"

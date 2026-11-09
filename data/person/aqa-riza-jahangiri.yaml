@@ -11,6 +11,7 @@ regions: [south-asia, persia-central-asia]
 gender: male
 roles: [artist]
 relations:
+  - { type: lived_in, target: place/mashhad, note: "From text: of Mashhad", sources: [source/beach-grand-mogul-1978], confidence: low }
   - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }
 sources: [source/beach-grand-mogul-1978]
 provenance:

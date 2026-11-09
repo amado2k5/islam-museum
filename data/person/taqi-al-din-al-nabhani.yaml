@@ -28,6 +28,7 @@ regions: [levant-iraq]
 wings: [people]
 relations:
   - { type: related_to, target: person/yusuf-al-nabhani, sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar] }
+  - { type: born_in, target: place/haifa, sources: [source/wikipedia-taqi-al-din-al-nabhani-en, source/wikipedia-taqi-al-din-al-nabhani-ar, source/wikidata-taqi-al-din-al-nabhani] }
 faith:
   - value: unknown
     basis: unknown

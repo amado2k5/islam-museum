@@ -1,0 +1,21 @@
+id: place/atalca
+class: place
+kind: town
+label: { ar: "جتالجة", en: "Çatalca", ur: "چاتالجا" }
+summary:
+  ar: "بلدة في تركيا."
+  en: "Town in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.1425, 28.458333333333332]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q272681" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q272681 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

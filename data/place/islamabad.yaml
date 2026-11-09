@@ -1,0 +1,36 @@
+id: place/islamabad
+class: place
+kind: city
+label:
+  ar: إسلام آباد
+  en: Islamabad
+  ur: اسلام آباد
+summary:
+  ar: مدينة في باكستان.
+  en: Capital city of Pakistan.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 33.6989
+- 73.0369
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1362
+  geonames: '1176615'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1362 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1362 (labels, coordinates, description)

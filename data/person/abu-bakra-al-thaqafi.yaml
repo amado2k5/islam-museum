@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم في حصار الطائف." }
 relations:
+  - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407, source/sahih-al-bukhari], confidence: low }
   - { type: member_of, target: group/thaqif }
   - { type: participated_in, target: event/siege-of-taif, role: freed-slave-convert, sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari] }
   - { type: participated_in, target: event/mughira-adultery-affair, sources: [source/futuh-buldan-maarif-1407] }

@@ -1,0 +1,36 @@
+id: place/kandahar
+class: place
+kind: city
+label:
+  ar: قندهار
+  en: Kandahar
+  ur: قندھار
+summary:
+  ar: مدينة في أفغانستان.
+  en: City in Kandahar Province, Afghanistan.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 31.6207
+- 65.7159
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q45604
+  geonames: '1138336'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q45604 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q45604 (labels, coordinates, description)

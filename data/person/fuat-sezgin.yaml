@@ -36,6 +36,8 @@ roles: [historian, writer]
 regions: [anatolia-balkans]
 wings: [people]
 relations:
+  - { type: born_in, target: place/bitlis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-sezgin-tr, source/wikidata-sezgin] }
 faith:
   - value: unknown

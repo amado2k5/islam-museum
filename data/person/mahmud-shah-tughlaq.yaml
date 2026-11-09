@@ -36,6 +36,7 @@ died:
     - source/wikidata-mahmud-shah-tughlaq
 
 relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "Associated with دلهي per the record's own summary text; relation type pending review.", sources: [source/wikipedia-mahmud-shah-tughlaq-en] }
   - { type: child_of, target: person/muhammad-shah-iii-tughluq, sources: [source/wikipedia-mahmud-shah-tughlaq-en, source/wikipedia-mahmud-shah-tughlaq-ar, source/wikidata-mahmud-shah-tughlaq] }
 
 faith:

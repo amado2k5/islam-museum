@@ -20,6 +20,9 @@ born:
   note: "Year only, from the Arabic article and Wikidata; the article places the birth in Yanbu, Saudi Arabia. No Hijri year is recorded, because the sources give only the Gregorian year."
   sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed]
 relations:
+  - { type: lived_in, target: place/medina, note: "From text: نشأ فيها ثم انتقل إلى المدينة المنور", sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed, source/youtube-alsayyed-ah] }
+  - { type: traveled_to, target: place/medina, note: "From text: انتقل إلى المدينة المنورة", sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed, source/youtube-alsayyed-ah] }
+  - { type: born_in, target: place/yanbu, note: "From text: born in Yanbu", sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed] }
   - { type: born_in, target: place/yanbu, sources: [source/wikipedia-ahmed-elsayed-ar, source/wikidata-ahmed-elsayed] }
   - { type: lived_in, target: place/medina, sources: [source/wikipedia-ahmed-elsayed-ar] }
 faith:

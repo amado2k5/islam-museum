@@ -1,0 +1,36 @@
+id: place/new-orleans
+class: place
+kind: city
+label:
+  ar: نيو أورلينز
+  en: New Orleans
+  ur: نیو اورلینز
+summary:
+  ar: مدينة في الولايات المتحدة.
+  en: Largest city of the state of Louisiana, United States.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 29.9761
+- -90.0783
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q34404
+  geonames: '4335045'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q34404 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q34404 (labels, coordinates, description)

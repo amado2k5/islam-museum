@@ -18,6 +18,7 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1606", hijri: "1014-10", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي بمكة في شوال سنة 1014هـ ودفن بالمعلاة، ونقل اللكنوي أنها 1014 لا 1016 ولا 1044 ولا 1010؛ والتحويل مشتق {cite:jam-wasail-thesis-qwayfili p.36}", sources: [source/jam-wasail-thesis-qwayfili] }
 traditions: [sunni]
 relations:
+  - { type: traveled_to, target: place/mecca, note: "From text: moved to Mecca", sources: [source/al-aalam, source/jam-wasail-thesis-qwayfili] }
   - { type: born_in, target: place/herat, sources: [source/jam-wasail-thesis-qwayfili] }
   - { type: died_in, target: place/mecca, sources: [source/jam-wasail-thesis-qwayfili] }
   - { type: student_of, target: person/ibn-hajar-al-haytami, sources: [source/jam-wasail-thesis-qwayfili] }

@@ -12,7 +12,7 @@ summary:
   en: "Abu Awn Abd Allah ibn Awn ibn Artaban, a client (mawla) of the Muzayna, died in 151 {cite:tabaqat-fuqaha-abbas-1981 p. 48}. Ibn al-Mubarak said of him: 'I have not seen his like' {cite:tabaqat-fuqaha-abbas-1981 p. 48}."
 wings: [people]
 external_ids: { wikidata: "Q19882173" }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+sources: [source/tabaqat-fuqaha-abbas-1981, source/wikidata]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
@@ -28,3 +28,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

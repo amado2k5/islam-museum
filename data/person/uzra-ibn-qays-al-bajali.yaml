@@ -12,5 +12,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 423"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-41
+relations:
+  - { type: ruled_over, target: place/qarmasin, sources: [source/wikidata], confidence: low, note: "ar: 'عزرة بن قيس بن غزية البجلي؛ عند البلاذري خلفه جرير بن عبد الله على حلوان حين مضى نحو الدينور وفتح قرماسين" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

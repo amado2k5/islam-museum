@@ -12,7 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 relations:
-- { type: "founder_of", target: "polity/qutlughkhanid-kirman", note: "مؤسس خانات قطلغ بكرمان 619هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: lived_in, target: place/kerman, confidence: low, note: "Associated with كرمان per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
+  - { type: "founder_of", target: "polity/qutlughkhanid-kirman", note: "مؤسس خانات قطلغ بكرمان 619هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
 sources:
 - source/tarikh-islam-hasan-ibrahim
 provenance:

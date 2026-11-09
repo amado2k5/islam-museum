@@ -27,6 +27,9 @@ faith:
     note: "Aslan names his own tradition in his own words in two independent sources. In a 2013 WNYC interview reported by the Christian Science Monitor he said: 'I'm definitely a Muslim and Sufism is the tradition within Islam that I most closely adhere to.' In a 2019 conversation with The Iranian he answered the question of his religion: 'Muslim. The tradition in Islam I follow is Sufism.' Recorded as sufi on his self-identification. The other attestations are not the basis: he was born into a Twelver Shia family (background, which never counts) and converted to evangelical Christianity at fifteen before returning to Islam; The Guardian's 2005 description of him as 'a Shia by persuasion' is a single journalistic characterization, not his own naming of a branch; and Wikidata's structured religion values (Shia Islam; Evangelicalism) are structured data and are not used."
     sources: [source/csmonitor-aslan-2013, source/iranian-aslan-interview-2019]
 external_ids: { wikidata: "Q2298313" }
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata-reza-aslan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
+  - { type: lived_in, target: place/los-angeles, sources: [source/wikidata-reza-aslan], confidence: low, note: "Wikidata P551 residence (Wikidata Q65)" }
 sources: [source/wikipedia-reza-aslan-en, source/wikipedia-reza-aslan-ar, source/wikidata-reza-aslan, source/csmonitor-aslan-2013, source/iranian-aslan-interview-2019]
 provenance:
   layer: own-research

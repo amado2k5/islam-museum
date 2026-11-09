@@ -21,6 +21,9 @@ relations:
   target: person/kerbogha
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- { type: ruler_of, target: place/al-ruha, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'سقمان بن أرتق بن أكسك؛ ملك مع أخيه أبي الغازي الرها وسروج بعد أبيهما سنة 483هـ، ولما ملك الإفرنج أنطاكية " }
+- { type: ruler_of, target: place/nasibin, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'سقمان بن أرتق بن أكسك؛ ملك مع أخيه أبي الغازي الرها وسروج بعد أبيهما سنة 483هـ، ولما ملك الإفرنج أنطاكية " }
+- { type: ruler_of, target: place/jerusalem, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "en: 'Sukman ibn Artuq ibn Aksak; he and his brother Abu al-Ghazi held al-Ruha and Saruj after their father's d" }
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, anatolia-balkans]

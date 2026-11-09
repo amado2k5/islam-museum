@@ -17,3 +17,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 738-739, entry 'AL-A'SHA, MAYMUN B. KAYS' (signed W. Caskel) (EI2 entry, batch ei2-b013 part 30, seq 366; the general A'sha disambiguation at seq 365 is not written)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/riyadh, note: "From text: of Riyadh", sources: [source/encyclopaedia-of-islam-2], confidence: low }

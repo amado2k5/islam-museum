@@ -22,6 +22,8 @@ born:
   derived: true
   note: "The English article's infobox date template and Wikidata both give 1 June 1969; no other source used gives a birth date — the Hausa article gives none, and the English article is even filed under 'Year of birth missing (living people)' — so the date rests on that one structured family. The queue for this batch gave 1968, which no source supports. The date falls in Rabi' al-awwal 1389 AH; the Hijri year is a conversion. No place entity exists for Yamaltu/Deba or Gombe, so no born_in edge is written."
   sources: [source/wikipedia-kabiru-gombe-en, source/wikidata-kabiru-gombe]
+relations:
+  - { type: lived_in, target: place/saudi-arabia, confidence: low, note: "Associated with السعودية per the record's own summary text; relation type pending review.", sources: [source/wikipedia-kabiru-gombe-en] }
 faith:
   - value: unknown
     basis: unknown

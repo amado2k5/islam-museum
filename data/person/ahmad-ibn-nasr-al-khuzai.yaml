@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: died_in, target: place/abbasid-samarra, note: "Wikidata Q20717633 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: related_to, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
@@ -15,5 +17,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-27
 external_ids: { wikidata: "Q40376188" }
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

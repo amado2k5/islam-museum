@@ -41,6 +41,7 @@ faith:
     note: "No source names a school for him. Wikidata gives his religion (P140) as Islam, with no branch — a single structured value. The English article's text never calls him a Muslim: its religion content is the 2022 King Faisal Prize for Service to Islam, an honour reported also by the Arabic article, and a category filing (Tanzanian Muslims), which never attests; the Urdu article makes no religion statement. The value stays unknown."
     sources: [source/wikidata-ali-hassan-mwinyi, source/wikipedia-ali-hassan-mwinyi-en, source/wikipedia-ali-hassan-mwinyi-ar, source/wikipedia-ali-hassan-mwinyi-ur]
 relations:
+  - { type: lived_in, target: place/zanzibar, note: "From text: worked as a teacher and head teacher in Zanzibar", sources: [source/wikipedia-ali-hassan-mwinyi-en, source/wikipedia-ali-hassan-mwinyi-ar, source/wikipedia-ali-hassan-mwinyi-ur, source/wikidata-ali-hassan-mwinyi, source/wikipedia-king-faisal-prize-en] }
   - type: lived_in
     target: place/zanzibar
     sources: [source/wikipedia-ali-hassan-mwinyi-en]

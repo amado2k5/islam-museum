@@ -13,6 +13,10 @@ regions: [east-africa]
 periods: [period/modern-era]
 born: { edtf: "1852", precision: year, status: tradition, derived: true }
 died: { edtf: "1916", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/comoros, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q970)" }
+  - { type: born_in, target: place/moroni, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3901)" }
+  - { type: died_in, target: place/toamasina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q178067)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7399874

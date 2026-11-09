@@ -15,6 +15,7 @@ died:
   hijri: "0236"
   calendar: julian
 relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Associated with Medina per the record's own summary text; relation type pending review.", sources: [source/tabaqat-shafiiyya-subki] }
   - { type: student_of, target: person/sufyan-ibn-uyayna, sources: [source/tabaqat-shafiiyya-subki] }
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

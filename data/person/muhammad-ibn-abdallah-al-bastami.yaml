@@ -19,3 +19,5 @@ died:
   calendar: julian
 sources: [source/tabaqat-shafiiyya-subki]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/bastam, confidence: low, note: "Association inferred from the nisba 'البسطامي'; specific birthplace or residence is not individually documented.", sources: [source/tabaqat-shafiiyya-subki] }

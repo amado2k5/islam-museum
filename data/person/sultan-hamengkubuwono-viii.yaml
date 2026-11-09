@@ -37,6 +37,7 @@ died:
 relations:
   - { type: ruler_of, target: polity/yogyakarta-sultanate, sources: [source/wikipedia-hamengkubuwono-viii-en, source/wikipedia-hamengkubuwana-viii-id] }
   - { type: parent_of, target: person/hamengkubuwono-ix, sources: [source/wikipedia-hamengkubuwono-ix-en, source/wikidata-hamengkubuwono-ix] }
+  - { type: born_in, target: place/yogyakarta, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7568)" }
 faith:
   - value: unknown
     basis: unknown

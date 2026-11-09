@@ -21,6 +21,8 @@ wings:
   - living
 regions:
   - south-asia
+relations:
+  - { type: lived_in, target: place/indonesia, confidence: low, note: "Associated with Indonesia per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

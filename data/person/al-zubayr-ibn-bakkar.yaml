@@ -14,6 +14,7 @@ provenance:
   run: prose-fill-persons-batch30
 relations:
   - { type: authored, target: work/nasab-quraysh-zubayr, sources: [source/kashf-zunun-furqan] }
+  - { type: lived_in, target: place/mecca, note: "Quraysh's historian-genealogist; Meccan milieu, flagged.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab, source/kashf-zunun-furqan]
 status:
   review: published

@@ -16,6 +16,7 @@ themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/shiraz, note: "From text: درّس فيه الشيرازي", sources: [source/tabaqat-shafiiyya-subki] }
   - { type: student_of, target: person/al-shafii, role: "يتولى القراءة على الشافعي في مجلسه؛ من رواة القديم", sources: [source/tabaqat-shafiiyya-subki] }
 provenance:
   layer: own-research

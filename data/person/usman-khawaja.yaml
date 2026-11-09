@@ -26,6 +26,8 @@ faith:
     note: "NOT RECORDED AS DOCUMENTED — no source names a school for him. The attestations, stated in full: the English article records that on 3 January 2011 he 'became the first Muslim and first Pakistani-born Australian player to play Test cricket for Australia' (cited in the article), and Wikidata's religion claim (P140) gives Islam. These attest a generic Muslim identity for the man himself; none names a school (madhhab). His wife Rachel's conversion to Islam before their April 2018 marriage, also recorded in the article, is a fact about her and not evidence of his school. Practice and a generic Muslim attestation name no school. Under the two-source rule and the founder's doubt rule the value stays unknown."
     sources: [source/wikipedia-usman-khawaja-en, source/wikidata-usman-khawaja]
 external_ids: { wikidata: "Q3524804" }
+relations:
+  - { type: born_in, target: place/islamabad, sources: [source/wikidata-usman-khawaja], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1362)" }
 sources: [source/wikipedia-usman-khawaja-en, source/wikipedia-usman-khawaja-ar, source/wikipedia-usman-khawaja-ur, source/wikidata-usman-khawaja]
 provenance:
   layer: own-research

@@ -1,0 +1,16 @@
+id: place/east-berlin
+class: place
+kind: city
+label: { en: "East Berlin", ar: "برلين الشرقية" }
+summary:
+  en: "Former Soviet sector of Berlin and capital of the GDR."
+  ar: "مدينة في ألمانيا الشرقية."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [52.5186, 13.4044]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q56037" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q56037 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

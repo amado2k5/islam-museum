@@ -38,6 +38,9 @@ died:
   sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar, source/wikidata-fath-ali-shah-qajar]
 
 relations:
+  - { type: born_in, target: place/damghan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fath-ali-shah-qajar] }
+  - { type: buried_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fath-ali-shah-qajar] }
+  - { type: buried_in, target: building/haram-fatima-masuma-qum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fath-ali-shah-qajar] }
   - { type: born_in, target: place/damghan, sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar] }
   - { type: died_in, target: place/isfahan, sources: [source/wikipedia-fath-ali-shah-qajar-ar, source/wikidata-fath-ali-shah-qajar] }
   - { type: successor_of, target: person/agha-muhammad-khan-qajar, sources: [source/wikipedia-fath-ali-shah-qajar-en, source/wikipedia-fath-ali-shah-qajar-ar] }

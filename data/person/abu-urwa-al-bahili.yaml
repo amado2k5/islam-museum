@@ -20,3 +20,5 @@ provenance:
   run: lib-muntazam-258-349-batch32
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }

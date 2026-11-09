@@ -13,6 +13,8 @@ roles: [scholar, jurist, muhaddith]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with Seville per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 faith:
   - value: sunni-shafii
     basis: tradition

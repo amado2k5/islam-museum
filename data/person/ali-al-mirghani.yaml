@@ -43,3 +43,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-8
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/sudan, note: "From text: Sudanese (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-ali-al-mirghani-en, source/wikipedia-ali-al-mirghani-ar, source/wikipedia-ali-al-mirghani-ca, source/wikidata-ali-al-mirghani], confidence: low }

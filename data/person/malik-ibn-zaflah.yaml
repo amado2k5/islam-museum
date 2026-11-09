@@ -16,6 +16,7 @@ regions: [levant-iraq]
 story_roles:
   - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/mutah, confidence: low, note: "Associated with مؤتة per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-mutah, role: allied-arab-commander, sources: [source/ibn-hisham-saqqa] }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 17, 23" }

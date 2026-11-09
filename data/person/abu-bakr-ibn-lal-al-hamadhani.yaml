@@ -15,6 +15,7 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 relations:
+  - { type: lived_in, target: place/merv, note: "Place association from the person's nisba/name (المروزي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "أخذ الفقه عن أبي إسحاق (PDF ص62، بحكاية السبط)", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/abu-ali-ibn-abi-hurayra, role: "أخذ الفقه عن أبي علي بن أبي هريرة (PDF ص62، بحكاية السبط)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]

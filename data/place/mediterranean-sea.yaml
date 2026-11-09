@@ -1,0 +1,21 @@
+id: place/mediterranean-sea
+class: place
+kind: site
+label: { ar: "البحر الأبيض المتوسط", en: "Mediterranean Sea", ur: "بحیرہ روم" }
+summary:
+  ar: "موقع في فرنسا."
+  en: "Site in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [38, 17]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4918" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4918 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,16 @@
+id: place/bihar
+class: place
+kind: province
+label: { en: "Bihar", ar: "بهار" }
+summary:
+  en: "State in eastern India."
+  ar: "محافظة في الهند."
+wings: [place]
+regions: [south-asia]
+coordinates: [25.37, 85.13]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1165", geonames: "1275715" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1165 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

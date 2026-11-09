@@ -15,3 +15,5 @@ regions: [arabia, persia-central-asia]
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 provenance: { layer: own-research, source: "الموسوعة الفقهية الكويتية، ملحق تراجم الفقهاء، ج11 ص5158", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "mawsua-w03-41" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); appendix p.5158" }
+relations:
+  - { type: lived_in, target: place/busra, confidence: low, note: "Association inferred from the nisba 'البصري'; specific birthplace or residence is not individually documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

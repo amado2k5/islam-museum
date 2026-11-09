@@ -1,22 +1,51 @@
 id: place/yemen
 class: place
 kind: region
-label: { en: "Yemen", ar: "اليمن" }
+label:
+  ar: اليمن
+  en: Yemen
 summary:
-  en: "The southwest corner of Arabia, homeland of the Qahtani Arabs and seat of the successive Sabaean, Himyarite, Abyssinian and Persian powers narrated in the sira's prologue."
-  ar: "الركن الجنوبي الغربي من جزيرة العرب، مهد العرب العاربة ⁦(قحطان)⁩ ومسرح ممالك سبأ وحمير ثم الاحتلالين الحبشي والفارسي في مقدمة السيرة."
-wings: [place]
-periods: [period/pre-islamic-arabia]
-regions: [arabia]
-sources: [source/mubarakpuri-raheeq, source/tarikh-ard-al-quran, source/tafhim-al-quran]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+  ar: الركن الجنوبي الغربي من جزيرة العرب، مهد العرب العاربة ⁦(قحطان)⁩ ومسرح ممالك سبأ وحمير ثم الاحتلالين الحبشي والفارسي في مقدمة السيرة.
+  en: The southwest corner of Arabia, homeland of the Qahtani Arabs and seat of the successive Sabaean, Himyarite, Abyssinian and Persian powers narrated in the sira's prologue.
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 15.5
+- 48
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q805; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q805
+sources:
+- source/mubarakpuri-raheeq
+- source/tarikh-ard-al-quran
+- source/tafhim-al-quran
+- source/wikidata
+- source/geonames-gazetteer
+periods:
+- period/pre-islamic-arabia
+education:
+  levels:
+  - sprouts
+  - explorers
+  - scholars
+  flagged_for_kids: true
+  provenance:
+    generated_by: Devin
+    model: Devin (Cognition)
+    run: education-E5-leveled-b1
+    note: Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels.
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  source: "source/mubarakpuri-raheeq, source/tarikh-ard-al-quran, and source/tafhim-al-quran"
-  generated_by: "Devin (original record); Copilot (provenance completion)"
-  model: "unknown"
-  run: "explorer-place-batch-2026-11-03"
-education:
-  levels: [sprouts, explorers, scholars]
-  flagged_for_kids: true
-  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - explorer-place-batch-2026-11-03
+  - explorer-place-batch-2026-11-03
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: source/mubarakpuri-raheeq, source/tarikh-ard-al-quran, and source/tafhim-al-quran

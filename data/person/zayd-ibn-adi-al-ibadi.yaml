@@ -13,6 +13,8 @@ periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
 relations:
   - { type: opposed, target: person/al-numan-ibn-al-mundhir, note: "دبّر الوشاية التي أغضبت كسرى عليه.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+
+  - { type: lived_in, target: place/al-hira, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
 provenance:
   layer: own-research
   source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"

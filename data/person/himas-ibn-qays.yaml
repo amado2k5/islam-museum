@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: military-opponent, status: tradition, note: "قاتل في صفوان وعكرمة بالخندمة ثم فر إلى بيته.", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/al-khandama, confidence: low, note: "Associated with al-Khandama per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-bakr }
   - { type: participated_in, target: event/khandama-skirmish, role: defeated-combatant, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 49–50", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch51" }

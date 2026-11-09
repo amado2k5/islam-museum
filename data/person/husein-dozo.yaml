@@ -27,6 +27,7 @@ roles: [theologian, scholar, teacher]
 regions: [anatolia-balkans]
 wings: [people]
 relations:
+  - { type: died_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-husein-dozo] }
   - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs] }
   - { type: died_in, target: place/sarajevo, sources: [source/wikipedia-husein-dozo-en, source/wikipedia-husein-dozo-bs] }
 faith:

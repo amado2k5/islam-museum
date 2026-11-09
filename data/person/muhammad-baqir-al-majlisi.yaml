@@ -13,6 +13,10 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 faith:
 - { value: shia-twelver, basis: tradition, note: "Safavid Imami scholar and shaykh al-islam per the biographical tradition" }
+relations:
+  - { type: born_in, target: place/isfahan-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1367759)" }
+  - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
+  - { type: buried_in, target: building/jame-masjid-isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1256501)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q755939

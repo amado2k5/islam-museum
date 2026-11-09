@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born in the East Flatbush neighbourhood of Brooklyn, New York City. The Hijri year (1392) is derived by tabular conversion. Brooklyn has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-busta-rhymes-en, source/wikidata-busta-rhymes]
+relations:
+  - { type: born_in, target: place/brooklyn, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-busta-rhymes-en, source/wikidata-busta-rhymes] }
 faith:
   - value: unknown
     basis: unknown

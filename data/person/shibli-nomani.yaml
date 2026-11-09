@@ -32,6 +32,8 @@ died:
   sources: [source/wikipedia-shibli-nomani-en, source/wikipedia-shibli-nomani-ur, source/wikidata-shibli-nomani, source/wikipedia-shibli-nomani-ar]
 relations:
   - { type: student_of, target: person/ahmad-ali-saharanpuri, sources: [source/wikipedia-shibli-nomani-ur, source/wikipedia-shibli-nomani-ar] }
+  - { type: born_in, target: place/azamgarh, sources: [source/wikidata-shibli-nomani, source/wikipedia-shibli-nomani-ur, source/wikipedia-shibli-nomani-en, source/tdv-shibli-nomani] }
+  - { type: died_in, target: place/azamgarh, sources: [source/wikipedia-shibli-nomani-en, source/wikipedia-shibli-nomani-ur, source/wikidata-shibli-nomani, source/wikipedia-shibli-nomani-ar] }
 faith:
   - value: unknown
     basis: unknown

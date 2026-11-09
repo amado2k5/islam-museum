@@ -12,6 +12,11 @@ wings: [people]
 regions: [south-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131350)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+  - { type: died_in, target: place/abbasid-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12536)" }
+  - { type: buried_in, target: place/jannat-al-mualla, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q42004)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7902047

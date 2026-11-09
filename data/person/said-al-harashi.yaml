@@ -9,6 +9,7 @@ periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/maslama-khazar-campaign, role: "أمير المقدمة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/marwan-caucasus-expedition, role: "والي الثغر سنتين بين مسلمة ومروان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: ruler_of, target: place/samarqand, sources: [source/salabi-umayyad-state-2020], confidence: medium, note: "{cite:salabi-umayyad-state-2020 p.435} ويذكر الكتاب أنه تولى خراسان بعد عبد الرحمن بن نعيم، فقضى على انتفاضة ا" }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290–292"

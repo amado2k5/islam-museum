@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1409-11-08~", hijri: "0812-07-05", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في خامس رجب 812 وقد جاوز الخمسين {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 812)، قراءة آبل فيجن"

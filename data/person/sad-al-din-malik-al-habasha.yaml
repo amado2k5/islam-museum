@@ -15,6 +15,8 @@ regions: [east-africa]
 faith:
   - value: sunni
     basis: tradition
+relations:
+  - { type: ruler_of, target: place/abyssinia, sources: [source/wikidata], confidence: low, note: "label: { ar: 'سعد الدين ملك الحبشة', en: 'Sa'd al-Din, king of Abyssinia' }" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

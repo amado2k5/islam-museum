@@ -35,3 +35,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-9
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: born_in, target: place/chennai, note: "From text: born in Madras", sources: [source/wikipedia-a-r-rahman-en, source/britannica-a-r-rahman, source/wikidata-a-r-rahman, source/wikipedia-a-r-rahman-ar] }

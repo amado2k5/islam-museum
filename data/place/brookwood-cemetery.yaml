@@ -1,0 +1,36 @@
+id: place/brookwood-cemetery
+class: place
+kind: site
+label:
+  ar: مقبرة بروكوود
+  en: Brookwood Cemetery
+  ur: بروک ووڈ قبرستان
+summary:
+  ar: موقع في المملكة المتحدة.
+  en: Burial ground in Brookwood, Surrey, England, UK.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 51.2967
+- -0.6333
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q990618
+  geonames: '6290171'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q990618 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q990618 (labels, coordinates, description)

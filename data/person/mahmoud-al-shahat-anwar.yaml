@@ -14,6 +14,8 @@ wings: [people, living]
 regions: [egypt-nile]
 roles: [reciter]
 born: { edtf: "1984-09-10", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Kafr al-Wazir village, Mit Ghamr, Dakahlia (Arabic article; Wikidata gives the same day and Mit Ghamr). No place entity exists for either, so no birthplace relation is written.", sources: [source/wikipedia-mahmoud-al-shahat-anwar-ar, source/wikidata-mahmoud-al-shahat-anwar] }
+relations:
+  - { type: born_in, target: place/mit-ghamr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-al-shahat-anwar] }
 faith:
   - value: unknown
     basis: unknown

@@ -32,6 +32,9 @@ died:
   derived: true
   note: "Died 8 December 1986 in Philadelphia (English article's text and infobox, German article, and Wikidata). His mausoleum (mazar) stands at the Bawa Muhaiyaddeen Fellowship Farm in Chester County near Coatesville, completed in 1987 (English and German articles). Philadelphia and Coatesville have no place entities, so no died_in or buried_in edge is written."
   sources: [source/wikipedia-bawa-muhaiyaddeen-en, source/wikipedia-bawa-muhaiyaddeen-de, source/wikidata-bawa-muhaiyaddeen]
+relations:
+  - { type: born_in, target: place/sri-lanka, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bawa-muhaiyaddeen] }
+  - { type: died_in, target: place/philadelphia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bawa-muhaiyaddeen] }
 faith:
   - value: sufi
     basis: documented

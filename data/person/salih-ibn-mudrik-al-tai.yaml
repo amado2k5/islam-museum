@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [arabia]
 relations:
+  - { type: traveled_to, target: place/al-ajfar, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: participated_in, target: event/yawm-al-ajfar, role: "المعتدي على الحاج", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

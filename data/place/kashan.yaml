@@ -1,0 +1,38 @@
+id: place/kashan
+class: place
+kind: city
+label:
+  ar: كاشان
+  en: Kashan
+  ur: کاشان
+summary:
+  ar: مدينة إيرانية على حافة الصحراء، من مراكز العلم والصوفية.
+  en: Iranian city on the desert edge, a centre of learning and Sufism.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 33.98
+- 51.43
+coordinate_precision: locality
+coordinate_note: Identified location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q240475
+  geonames: '128476'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q240475 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q240475 (labels, coordinates, description)

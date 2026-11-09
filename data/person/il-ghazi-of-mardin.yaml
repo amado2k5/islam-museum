@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, anatolia-balkans]
 died: { edtf: "1122~", hijri: "0516~", calendar: julian, precision: year, status: tradition, derived: true, note: "516هـ {cite:shadharat-dhahab p. 529}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/mardin, confidence: low, note: "Associated with ماردين per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"

@@ -11,6 +11,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/al-jund, confidence: low, note: "Associated with الجند per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: child_of, target: person/baha-al-dawla, sources: [source/shadharat-dhahab] }
   - { type: sibling_of, target: person/musharrif-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: successor_of, target: person/musharrif-al-dawla, sources: [source/muntazam-ibn-al-jawzi] }

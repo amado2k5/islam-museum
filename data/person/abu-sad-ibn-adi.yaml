@@ -6,6 +6,7 @@ wings: [people]
 story_roles: [{ role: ally }]
 themes: [family-marriage-kinship]
 relations:
+  - { type: lived_in, target: place/medina, note: "Abd al-Muttalib's maternal uncle of Banu al-Najjar, a Medinan clan; he rode to Mecca with eighty men.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: medium }
   - { type: member_of, target: group/banu-al-najjar }
   - { type: participated_in, target: event/recovery-of-abd-al-muttalib-rights }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]

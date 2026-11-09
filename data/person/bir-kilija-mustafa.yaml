@@ -14,6 +14,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/badr, confidence: low, note: "Associated with Badr per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/badr-al-din-simawi, role: "من أشهر دعاته وقواده", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

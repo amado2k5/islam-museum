@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/yozgat, confidence: low, note: "Associated with يوزغاد per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

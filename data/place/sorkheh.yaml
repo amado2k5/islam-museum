@@ -1,0 +1,21 @@
+id: place/sorkheh
+class: place
+kind: city
+label: { ar: "سرخه", en: "Sorkheh", ur: "سرخہ، شہرستان سرخہ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q1776167)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [35.463333333333, 53.213888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1776167" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1776167 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

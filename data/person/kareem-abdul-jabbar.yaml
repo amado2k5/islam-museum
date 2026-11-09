@@ -24,6 +24,10 @@ born:
   sources: [source/wikipedia-kareem-abdul-jabbar-en, source/wikidata-kareem-abdul-jabbar]
 gender: male
 roles: [athlete, writer]
+relations:
+  - { type: born_in, target: place/new-york-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kareem-abdul-jabbar] }
+  - { type: lived_in, target: place/new-york-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kareem-abdul-jabbar] }
+  - { type: lived_in, target: place/los-angeles, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kareem-abdul-jabbar] }
 faith:
   - value: sunni
     basis: documented

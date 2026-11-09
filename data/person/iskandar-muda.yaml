@@ -46,6 +46,9 @@ died:
     - source/wikipedia-iskandar-muda-id
     - source/wikidata-iskandar-muda
 
+relations:
+  - { type: born_in, target: place/banda-aceh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iskandar-muda] }
+  - { type: buried_in, target: place/atjeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iskandar-muda] }
 faith:
   - value: unknown
     basis: unknown

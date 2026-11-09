@@ -11,6 +11,7 @@ themes: [law-and-courts]
 died:
   { edtf: "1012-12-05~", hijri: "0403-05-18", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الجمعة 18 جمادى الأولى 403هـ بواقصة؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.264}" }
 relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: teacher_of, target: person/abu-yala-ibn-al-farra, role: "تخرج عليه في الفقه ولزم مجلسه", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

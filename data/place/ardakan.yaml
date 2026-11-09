@@ -1,0 +1,36 @@
+id: place/ardakan
+class: place
+kind: city
+label:
+  ar: أردكان
+  en: Ardakan
+  ur: اردکان، اردکان
+summary:
+  ar: مدينة في إيران.
+  en: City in Yazd Province, Iran.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 32.3094
+- 54.0186
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q580084
+  geonames: '143073'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q580084 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q580084 (labels, coordinates, description)

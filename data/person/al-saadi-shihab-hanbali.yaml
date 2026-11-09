@@ -29,3 +29,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+relations:
+  - { type: died_in, target: place/mecca, note: "From text: died at Mecca Thursday", sources: [source/shadharat-dhahab] }

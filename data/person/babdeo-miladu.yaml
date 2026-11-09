@@ -17,7 +17,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/tanzania, confidence: low, note: "Associated with تنزانيا per the record's own text; relation type pending review.", sources: [source/vidiq-babdeo-miladu] }
 reach:
   - { platform: youtube, metric: subscribers, value: 330000, date: "2026-11-06", note: "@babdeomiladu, per vidIQ page updated 6 November 2026 and read 8 November 2026", sources: [source/vidiq-babdeo-miladu] }
   - { platform: instagram, metric: followers, value: 110000, date: "2025-11-06", note: "@miladu_tv, per the channel's milestone post metadata of 6 November 2025 as read by the wave harvest on 8 November 2026", sources: [source/instagram-miladu-tv] }

@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/samhudi-wafa-al-wafa], confidence: low }
   - { type: member_of, target: group/al-khazraj, sources: [source/samhudi-wafa-al-wafa] }
   - { type: participated_in, target: event/yawm-buath, role: "رئيس الخزرج، قُتل فيها", sources: [source/samhudi-wafa-al-wafa] }
 sources: [source/samhudi-wafa-al-wafa]

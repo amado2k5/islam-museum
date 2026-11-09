@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born in Casablanca, Morocco. The Hijri year (1405) is derived by tabular conversion. Casablanca has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-french-montana-en, source/wikipedia-french-montana-ar, source/wikidata-french-montana]
+relations:
+  - { type: born_in, target: place/casablanca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-french-montana] }
 faith:
   - value: unknown
     basis: unknown

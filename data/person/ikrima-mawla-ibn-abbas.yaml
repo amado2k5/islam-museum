@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 died: { hijri: "0105", edtf: "0723", calendar: julian, precision: year, status: debated, derived: true, note: "المسعودي: سنة خمس ومائة {cite:muruj-al-dhahab p. 376-377}؛ الذهبي: قال جماعة سنة خمس ومائة، وقال الهيثم وغيره سنة ست، وقال جماعة سنة سبع ومائة {cite:mizan-itidal-bijawi-v3 p. 96}. التحويل مشتق.", sources: [source/muruj-al-dhahab, source/mizan-itidal-bijawi-v3] }
 relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
   - { type: student_of, target: person/abdullah-ibn-abbas, sources: [source/mizan-itidal-bijawi-v3] }
 perspectives:
   - tradition: sunni

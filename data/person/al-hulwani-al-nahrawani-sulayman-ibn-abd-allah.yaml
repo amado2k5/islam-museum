@@ -28,3 +28,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch52
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Came to Baghdad as a boy and studied grammar and philology there; d. 493.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: medium }

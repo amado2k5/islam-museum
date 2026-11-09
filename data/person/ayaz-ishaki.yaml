@@ -36,6 +36,7 @@ roles: [writer, politician, journalist]
 wings: [people]
 regions: [anatolia-balkans]
 relations:
+  - { type: buried_in, target: place/istanbul, note: "From text: buried at Istanbul.", sources: [source/wikipedia-ayaz-ishaki-en, source/wikipedia-ayaz-ishaki-ru, source/wikidata-ayaz-ishaki] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-ayaz-ishaki-en, source/wikipedia-ayaz-ishaki-ru] }
 faith:
   - value: unknown

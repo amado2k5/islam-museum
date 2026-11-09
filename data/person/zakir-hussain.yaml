@@ -36,7 +36,9 @@ faith:
     basis: unknown
     note: "Absence configuration: no source read names a school for him. The English, Arabic and Urdu articles carry no religion content for the man himself — they give his parentage, training, career and honours — and Wikidata carries no religion value for him at all. The articles file him in their 'Indian Muslims' categories, which is a filing, not an attestation; his descent from Alla Rakha and his family's Punjab gharana milieu are background. Under the two-source rule the value stays unknown."
     sources: [source/wikipedia-zakir-hussain-en, source/wikidata-zakir-hussain]
-relations: []
+relations:
+  - { type: born_in, target: place/mumbai, sources: [source/wikidata-zakir-hussain], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1156)" }
+  - { type: died_in, target: place/san-francisco, sources: [source/wikidata-zakir-hussain], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q62)" }
 summary:
   ar: "عازف طبلة هندي (1951–2024)، الابن الأكبر لعلا ركها، وُلد في بومباي واستقر منذ أواخر الستينيات في منطقة خليج سان فرانسيسكو؛ من أبرز وجوه الموسيقى العالمية عبر فرقة «شاكتي» وتعاونه مع موسيقى الجاز والتقاليد الكلاسيكية، ونال بادما فيبوشان (2023) وثلاث جوائز غرامي سنة 2024."
   en: "Indian tabla maestro (1951–2024), eldest son of Alla Rakha, born in Bombay and based from the late 1960s in the San Francisco Bay Area; a central figure of world music through Shakti and his collaborations across jazz and classical traditions, he received the Padma Vibhushan (2023) and won three Grammy Awards in 2024."

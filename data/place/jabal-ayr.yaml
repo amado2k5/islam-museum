@@ -7,10 +7,14 @@ summary:
   en: "A large, well-known mountain on the qibla side of Medina near Dhu'l-Hulayfa, the town's miqat; in the haram hadith 'between 'Ayr and Thawr is inviolable' it marks the southern limit of the sanctuary {cite:samhudi-wafa-al-wafa p. 105}."
 wings: [place]
 regions: [arabia]
+coordinates: [24.399444444444445, 39.55694444444445]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q12204887 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: related_to, target: concept/haram-al-madina, note: "الحد الجنوبي للحرم في أكثر الروايات", sources: [source/samhudi-wafa-al-wafa] }
   - { type: located_in, target: place/medina, note: "في جهة قبلتها قرب ذي الحليفة", sources: [source/samhudi-wafa-al-wafa] }
-sources: [source/samhudi-wafa-al-wafa]
+external_ids: { wikidata: "Q12204887" }
+sources: [source/samhudi-wafa-al-wafa, source/wikidata]
 provenance:
   layer: own-research
   source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 105"

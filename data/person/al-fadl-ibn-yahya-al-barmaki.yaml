@@ -40,6 +40,7 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq, persia-central-asia]
 relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/tarikh-dawla-abbasiyya-taqqush, source/tdv-kagit, source/tdv-bermekiler, source/iranica-paper-i], confidence: low }
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: child_of, target: person/yahya-ibn-khalid-al-barmaki, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/killing-of-jafar-and-the-barmakids, role: "سُجن في النكبة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }

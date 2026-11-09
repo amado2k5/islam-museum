@@ -1,15 +1,34 @@
 id: place/tabriz
 class: place
 kind: city
-label: { ar: "تبريز", en: "Tabriz" }
+label:
+  ar: تبريز
+  en: Tabriz
 summary:
-  ar: "مدينة في شمال غرب إيران."
+  ar: مدينة في شمال غرب إيران.
   en: A city in northwestern Iran.
-provenance: { layer: own-research, source: "Yaqut, Mu'jam al-Buldan; Idrisi, Nuzhat al-Mushtaq (2002 ed.)", generated_by: "Claude (Haiku 5.5)" }
-wings: [place]
-regions: [persia-central-asia]
-coordinates: [38.08, 46.2919]
+provenance:
+  layer: own-research
+  source: Yaqut, Mu'jam al-Buldan; Idrisi, Nuzhat al-Mushtaq (2002 ed.)
+  generated_by: Claude (Haiku 5.5)
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 38.08
+- 46.2919
 coordinate_precision: site
-external_ids: { geonames: "113646", nomisma: "tabriz" }
-sources: [source/geonames-gazetteer, source/mujam-al-buldan-yaqut, source/nomisma]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+external_ids:
+  geonames: '113646'
+  wikidata: Q80053
+  nomisma: tabriz
+sources:
+- source/geonames-gazetteer
+- source/mujam-al-buldan-yaqut
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works

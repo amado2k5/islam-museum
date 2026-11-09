@@ -30,6 +30,7 @@ faith:
     note: "No source names a school or branch for Monsef herself. Wikidata gives only Islam (Q432) generically — a single structured-data value. The Persian article's infobox likewise gives 'Islam', citing a Muslim Link list of Muslim MPs elected in 2015. The English article names no religion in its text; it records that she travelled to Iran on pilgrimage visas in 2010, 2013 and 2014 to visit the Imam Reza shrine in Mashhad, which is personal practice and does not attest a school. The Persian article describes her parents as Hazara Afghans; family and ethnic background never counts. Under the two-source rule, and the doubt rule, the value stays unknown."
     sources: [source/wikipedia-maryam-monsef-en, source/wikipedia-maryam-monsef-fa, source/wikidata-maryam-monsef]
 relations:
+  - { type: lived_in, target: place/peterborough, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-maryam-monsef] }
   - { type: born_in, target: place/mashhad }
 wings: [people, living]
 external_ids: { wikidata: Q21162694 }

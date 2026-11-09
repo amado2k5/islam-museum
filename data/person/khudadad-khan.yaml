@@ -48,6 +48,8 @@ roles: [ruler]
 regions: [south-asia]
 wings: [people]
 relations:
+  - { type: born_in, target: place/kalat, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-khudadad-khan-en, source/wikipedia-khudadad-khan-ur, source/wikidata-khudadad-khan, source/iranica-baluchistan-i] }
+  - { type: died_in, target: place/kalat, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/memoranda-indian-states-1921, source/wikipedia-khudadad-khan-en] }
   - type: parent_of
     target: person/azam-jan-khan
     sources: [source/wikipedia-azam-jan-khan-en, source/wikipedia-khudadad-khan-en]

@@ -33,6 +33,9 @@ died:
   sources: [source/wikipedia-clara-muhammad-en, source/wikidata-clara-muhammad]
 gender: female
 roles: [founder, educator]
+relations:
+  - { type: born_in, target: place/macon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-clara-muhammad] }
+  - { type: died_in, target: place/chicago, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-clara-muhammad] }
 faith:
   - value: unknown
     basis: unknown

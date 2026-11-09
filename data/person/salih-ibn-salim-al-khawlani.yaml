@@ -12,6 +12,8 @@ summary:
 gender: male
 roles: [jurist]
 wings: [people]
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status:
   review: published

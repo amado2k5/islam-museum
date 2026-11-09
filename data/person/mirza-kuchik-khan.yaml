@@ -35,6 +35,9 @@ died:
   derived: true
   note: "Died of exposure on 2 December 1921 (11 Azar 1300 Solar Hijri in the Persian article): fleeing toward Khalkhal to seek refuge with Azmat Khanum Fuladlu, he and his companion Gaouk were caught in a snowstorm at the Alaleh Poshteh summer pasture in the Masal highlands of Talesh and froze to death. His body was beheaded by a local landlord, the head displayed at Rasht and sent to Reza Khan at Tehran; after Reza Shah's exile the head was brought back and buried with the body in his tomb at Soleymandarab, Rasht. The Hijri year 1340 is the derived conversion."
   sources: [source/wikipedia-mirza-kuchik-khan-en, source/wikipedia-mirza-kuchik-khan-fa]
+relations:
+  - { type: born_in, target: place/rasht, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-kuchik-khan] }
+  - { type: died_in, target: place/khalkhal-county, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-kuchik-khan] }
 faith:
   - value: unknown
     basis: unknown

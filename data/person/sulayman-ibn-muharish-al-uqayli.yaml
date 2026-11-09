@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: died_in, target: place/iraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q796)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q133693534

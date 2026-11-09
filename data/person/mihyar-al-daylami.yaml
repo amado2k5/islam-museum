@@ -27,6 +27,8 @@ wings:
 - people
 periods:
 - period/buyid-seljuk-fatimid-era
+relations:
+  - { type: lived_in, target: place/daylam, confidence: low, note: "Associated with الديلم per the record's own text; relation type pending review.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: وفيات الأعيان لابن خلكان — الجزء الخامس، طبعة إحسان عباس، النص المقروء آلياً

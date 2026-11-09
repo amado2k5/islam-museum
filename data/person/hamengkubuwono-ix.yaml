@@ -31,6 +31,8 @@ died:
   derived: true
   note: "Died on the evening of 2 October 1988 at the George Washington University Medical Center, Washington, D.C. — the following morning, 3 October, in Indonesia; Wikidata carries both structured dates for this reason, and the local date of death is followed here. No place entity exists for Washington, so no died_in relation is written. The Hijri year (1409) is by tabular conversion."
   sources: [source/wikipedia-hamengkubuwono-ix-en, source/wikipedia-hamengkubuwono-ix-id, source/wikidata-hamengkubuwono-ix]
+relations:
+  - { type: born_in, target: place/yogyakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamengkubuwono-ix] }
 faith:
   - value: unknown
     basis: unknown

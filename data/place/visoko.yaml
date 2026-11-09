@@ -1,0 +1,21 @@
+id: place/visoko
+class: place
+kind: city
+label: { ar: "فيسوكو", en: "Visoko", ur: "ویسوکو" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q193229)."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [43.989444444444, 18.180555555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q193229" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q193229 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

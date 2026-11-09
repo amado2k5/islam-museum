@@ -39,6 +39,8 @@ relations:
   - { type: child_of, target: person/subhan-quli-khan, sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii] }
   - { type: successor_of, target: person/subhan-quli-khan, sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikipedia-subhan-quli-khan-ru] }
 
+  - { type: died_in, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii] }
+  - { type: ruler_of, target: place/bukhara, sources: [source/wikipedia-ubaydullah-khan-ii-ru, source/wikidata-ubaydullah-khan-ii] }
 faith:
   - value: unknown
     basis: unknown

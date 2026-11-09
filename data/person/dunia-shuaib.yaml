@@ -13,6 +13,8 @@ summary:
 roles: [teacher, writer]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "US-based author/speaker per the record's own text.", sources: [source/guidedhearts-dunia-shuaib] }
 faith:
   - value: unknown
     basis: unknown

@@ -37,6 +37,7 @@ relations:
   - { type: child_of, target: person/sikandar-begum, sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ar, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum] }
   - { type: successor_of, target: person/sikandar-begum, sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ur] }
   - { type: spouse_of, target: person/siddiq-hasan-khan, sources: [source/wikipedia-shah-jahan-begum-en, source/wikipedia-shah-jahan-begum-ur, source/wikidata-shah-jahan-begum] }
+  - { type: died_in, target: place/bhopal, sources: [source/wikidata-shah-jahan-begum], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80989)" }
 faith:
   - value: unknown
     basis: unknown

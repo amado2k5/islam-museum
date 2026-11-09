@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: ruled_over, target: place/sulu, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q12499336

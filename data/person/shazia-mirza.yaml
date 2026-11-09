@@ -27,7 +27,8 @@ born:
   note: "Born in Birmingham, England. Her birth date is publicly unsettled: the English article carries no birth date at all — its infobox warns that her date of birth 'has been frequently altered without citation' — and files her under 'Year of birth missing (living people)' and '1970s births'. Wikidata gives 3 October 1972, referenced to a FreeBMD civil-registration record, and the Urdu article's categories file her under 1972 births, so the queue's year 1972 is built at year precision as debated; the day and month are not adopted. No Hijri year is recorded: a bare 1972 spans 1391–1392 AH. No place entity for Birmingham exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-shazia-mirza-en, source/wikipedia-shazia-mirza-ur, source/wikidata-shazia-mirza]
 
-relations: []
+relations:
+  - { type: born_in, target: place/birmingham, sources: [source/wikidata-shazia-mirza], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2256)" }
 
 faith:
   - value: unknown

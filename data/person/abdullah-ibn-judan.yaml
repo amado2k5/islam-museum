@@ -22,6 +22,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "مكي ما قبل الإسلام." }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/hilf-al-fudul, role: "صاحب الدار مجمع الحلف", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi]

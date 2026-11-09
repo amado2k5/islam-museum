@@ -44,6 +44,8 @@ died:
     - source/wikipedia-jahaniyan-jahangasht-ur
     - source/wikidata-jahaniyan-jahangasht
 relations:
+  - { type: born_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jahaniyan-jahangasht] }
+  - { type: died_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jahaniyan-jahangasht] }
   - type: member_of
     target: group/suhrawardiyya
     note: "He received the khirqa of khilafa first from his father Ahmad Kabir and a second from Shaykh Ruknuddin (Shah Rukn-e-Alam), and headed the Suhrawardi line of Uch after his grandfather."

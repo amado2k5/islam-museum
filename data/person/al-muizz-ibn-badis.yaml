@@ -21,3 +21,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-38
 sources: [source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/jurjan, note: "Place association from the person's nisba/name (الجرجاني); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }

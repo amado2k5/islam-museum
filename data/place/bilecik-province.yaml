@@ -1,0 +1,36 @@
+id: place/bilecik-province
+class: place
+kind: province
+label:
+  ar: ولاية بيله جك
+  en: Bilecik Province
+  ur: بیلیجک صوبہ
+summary:
+  ar: محافظة في تركيا.
+  en: Province in northwestern Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 40
+- 30.1667
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q46763
+  geonames: '321122'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q46763 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q46763 (labels, coordinates, description)

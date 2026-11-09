@@ -22,6 +22,8 @@ born:
     a school dropout in Mumbai before he moved to Dubai in 1989. No Hijri
     year is given, as 1958 spans two Hijri years.
   sources: [source/wikipedia-firoz-merchant-en, source/wikidata-firoz-merchant]
+relations:
+  - { type: born_in, target: place/mumbai, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-firoz-merchant-en, source/wikidata-firoz-merchant] }
 faith:
   - value: unknown
     basis: unknown

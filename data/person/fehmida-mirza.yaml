@@ -26,6 +26,8 @@ born:
   derived: true
   note: "Born in Karachi on 20 December 1956 (English article and Wikidata agree). Karachi has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1376) is derived by tabular conversion."
   sources: [source/wikipedia-fehmida-mirza-en, source/wikidata-fehmida-mirza]
+relations:
+  - { type: born_in, target: place/karachi, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fehmida-mirza-en, source/wikidata-fehmida-mirza] }
 faith:
   - value: unknown
     basis: unknown

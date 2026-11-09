@@ -32,6 +32,8 @@ died:
 relations:
   - { type: lived_in, target: place/medina, sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/tafsir-tantawi-wasit] }
   - { type: lived_in, target: place/cairo, sources: [source/tafsir-tantawi-wasit] }
+  - { type: buried_in, target: place/medina, sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi] }
+  - { type: died_in, target: place/riyadh, sources: [source/wikipedia-muhammad-sayyid-tantawi-en, source/wikipedia-muhammad-sayyid-tantawi-ar, source/wikidata-muhammad-sayyid-tantawi] }
 faith:
   - value: sunni
     basis: documented

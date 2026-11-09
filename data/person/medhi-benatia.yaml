@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English, Arabic and French articles and Wikidata (Q462779) all give 17 April 1987, born in Courcouronnes, France; the Arabic article pairs the date with 1407 AH. No museum place entity exists for Courcouronnes, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1407 agrees with the Arabic article's pairing."
   sources: [source/wikipedia-medhi-benatia-en, source/wikipedia-medhi-benatia-ar, source/wikipedia-medhi-benatia-fr, source/wikidata-medhi-benatia]
+relations:
+  - { type: born_in, target: place/courcouronnes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-medhi-benatia] }
 faith:
   - value: unknown
     basis: unknown

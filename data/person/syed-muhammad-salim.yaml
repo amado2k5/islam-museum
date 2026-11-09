@@ -14,6 +14,7 @@ periods: [period/contemporary-era]
 born: { edtf: "1922-09-22", hijri: "1341-01-28", calendar: gregorian, precision: day, status: historical }
 relations:
   - { type: authored, target: work/tarikh-e-khatt-o-khattatin, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
+  - { type: lived_in, target: place/sind, sources: [source/salim-tarikh-khatt-o-khattatin-2001], confidence: low, note: "ar: 'أستاذ ومؤرخ باكستاني، وُلد في تجاره بولاية ألور في 22 أيلول 1922م، درس العربية في عليكره، وعمل في كليات ا" }
 sources: [source/salim-tarikh-khatt-o-khattatin-2001]
 provenance:
   layer: own-research

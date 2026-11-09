@@ -33,6 +33,7 @@ died:
   note: "Died at Istanbul in October 1896 (1314 AH per the Arabic article). Wikidata gives the day both as 10 October and as 13 October, so the day is not recorded. The English article records his burial in the Yahya Efendi cemetery in Besiktas, Istanbul."
   sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar, source/wikidata-abdullah-al-nadim]
 relations:
+  - { type: died_in, target: place/istanbul, note: "From text: died at Istanbul", sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar, source/wikidata-abdullah-al-nadim] }
   - { type: born_in, target: place/alexandria, sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-abdullah-al-nadim-en, source/wikipedia-abdullah-al-nadim-ar] }
   - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-abdullah-al-nadim-en] }

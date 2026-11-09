@@ -1,0 +1,21 @@
+id: place/gonabad
+class: place
+kind: city
+label: { ar: "غناباد", en: "Gonabad", ur: "گناباد" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q721046)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [34.352777777777774, 58.68361111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q721046" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q721046 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

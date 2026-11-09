@@ -10,6 +10,7 @@ themes: [politics-governance-and-authority]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 relations:
+  - { type: ruler_of, target: place/baghdad, note: "From text: ruled Baghdad", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/tajarib-al-umam-surush-v6] }
   - { type: participated_in, target: event/buyid-entry-baghdad-334, sources: [source/tajarib-al-umam-surush-v6] }
   - { type: participated_in, target: event/mustakfi-blinding-334, sources: [source/tajarib-al-umam-surush-v6] }
   - { type: participated_in, target: event/battle-of-baghdad-946, sources: [source/tajarib-al-umam-surush-v6] }

@@ -23,6 +23,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "محدث شافعي المذهب بحسب مصادر تراجمه؛ يُسجَّل ضمن الإطار السني للمتحف." }
 relations:
+  - { type: born_in, target: place/jazirat-ibn-umar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/mosul }
   - { type: born_in, target: place/jazirat-ibn-umar, sources: [source/jami-al-usul-arnaut-2016] }
   - { type: died_in, target: place/mosul, sources: [source/jami-al-usul-arnaut-2016] }

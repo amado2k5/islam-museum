@@ -1,0 +1,16 @@
+id: place/sydney
+class: place
+kind: city
+label: { en: "Sydney", ar: "سيدني", ur: "سڈنی" }
+summary:
+  en: "Largest city of Australia, on its south-eastern coast."
+  ar: "أكبر مدن أستراليا على ساحلها الجنوبي الشرقي."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [-33.87, 151.21]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q3130" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q3130 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

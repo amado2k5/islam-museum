@@ -26,6 +26,8 @@ faith:
     basis: unknown
     note: "The Arabic Wikipedia infobox gives his religion as Islam only and names no school; no second source names a school either. His doctorate in aqida is an academic qualification, not a school attestation. Not recorded as sunni until two independent sources name a school."
     sources: [source/wikipedia-said-bin-misfer-ar]
+relations:
+  - { type: born_in, target: place/abha, sources: [source/wikidata], confidence: low, note: "Born in Abha in 1364 AH per the record text." }
 sources: [source/wikipedia-said-bin-misfer-ar, source/islamweb-said-bin-misfer]
 provenance:
   layer: own-research

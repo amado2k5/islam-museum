@@ -1,0 +1,21 @@
+id: place/komijan
+class: place
+kind: city
+label: { ar: "كميجان", en: "Komijan", ur: "کمیجان، مرکزی" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q2620904)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [34.72138888888889, 49.32666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2620904" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2620904 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

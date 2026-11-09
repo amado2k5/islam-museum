@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q25424293
 provenance:
@@ -23,3 +23,5 @@ provenance:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: died_in, target: place/ukbara, note: "Wikidata Q766309 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

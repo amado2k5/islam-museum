@@ -13,6 +13,9 @@ regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "1050", precision: year, status: tradition, derived: true }
 died: { edtf: "1141", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/khwarizm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/k-ne-rgen, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q90863901

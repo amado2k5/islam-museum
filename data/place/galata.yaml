@@ -1,0 +1,36 @@
+id: place/galata
+class: place
+kind: city
+label:
+  ar: غلطة
+  en: Galata
+  ur: غلطہ
+summary:
+  ar: مدينة في تركيا.
+  en: Neighbourhood of Beyoğlu on the North side of the Golden Horn, often referred to as Pera in the past.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41.0228
+- 28.9736
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q501817
+  geonames: '747059'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q501817 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q501817 (labels, coordinates, description)

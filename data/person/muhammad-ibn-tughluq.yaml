@@ -26,3 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker J)"
   model: "SWE-2 High; claude-opus-5-5"
   run: "wikidata-import-wave2; ocr-harvest-2026-11-04"
+relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-ibn-khaldun-ibar, source/rihla-ibn-battuta-khayriyya-1904] }

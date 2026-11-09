@@ -18,6 +18,8 @@ relations:
   - { type: participated_in, target: event/conquest-of-belgrade-1521, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-mohacs-932, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/capture-of-baghdad-1534, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: born_in, target: place/trabzon, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45301)" }
+  - { type: died_in, target: place/szigetv-r, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q373542)" }
 external_ids:
   wikidata: Q8474
 sources: [source/dawlat-uthmaniyya-salabi, source/assabile-tareq-al-suwaidan]

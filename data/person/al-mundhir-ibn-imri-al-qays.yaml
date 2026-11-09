@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia, levant-iraq]
 relations:
+  - { type: ruler_of, target: place/al-hira, note: "From text: ملك الحيرة", sources: [source/kamil-ibn-al-athir], confidence: low }
   - { type: related_to, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:

@@ -31,6 +31,7 @@ died:
   sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar, source/wikidata-walid-al-muallem]
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-walid-al-muallem-en, source/wikipedia-walid-al-muallem-ar, source/wikidata-walid-al-muallem] }
 faith:
   - value: unknown
     basis: unknown

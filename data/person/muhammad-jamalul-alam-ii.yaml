@@ -41,6 +41,8 @@ relations:
   - { type: child_of, target: person/hashim-jalilul-alam-aqamaddin, sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikipedia-muhammad-jamalul-alam-ii-ar, source/wikidata-muhammad-jamalul-alam-ii] }
   - { type: successor_of, target: person/hashim-jalilul-alam-aqamaddin, sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms] }
   - { type: parent_of, target: person/omar-ali-saifuddien-iii, sources: [source/wikipedia-omar-ali-saifuddien-iii-en, source/wikidata-omar-ali-saifuddien-iii] }
+  - { type: born_in, target: place/brunei, sources: [source/wikidata-muhammad-jamalul-alam-ii], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q921)" }
+  - { type: born_in, target: place/bandar-seri-begawan, sources: [source/wikidata-muhammad-jamalul-alam-ii], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q9279)" }
 external_ids: { wikidata: "Q40110" }
 sources: [source/wikipedia-muhammad-jamalul-alam-ii-en, source/wikipedia-muhammad-jamalul-alam-ii-ms, source/wikipedia-muhammad-jamalul-alam-ii-ar, source/wikipedia-muhammad-jamalul-alam-ii-ur, source/wikidata-muhammad-jamalul-alam-ii]
 status: { review: published }

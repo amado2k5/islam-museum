@@ -12,6 +12,11 @@ traditions: [sunni]
 died: { edtf: "1310", hijri: "0710", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بتازى لجمادى سنة 710هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
 - type: ruler_of
+  target: place/tlemcen
+  note: "From text: صاحب تلمسان"
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
+- type: ruler_of
   target: polity/marinid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar

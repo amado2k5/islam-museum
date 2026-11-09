@@ -34,3 +34,5 @@ perspectives:
     sources: [source/assabile-tareq-al-suwaidan]
 sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruler_of, target: place/al-jund, note: "From text: خليفة بقطع أكثر الجند وأن مصانعة التت", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan] }

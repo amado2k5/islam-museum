@@ -1,0 +1,38 @@
+id: place/algeria
+class: place
+kind: region
+label:
+  ar: الجزائر
+  en: Algeria
+  ur: الجزائر
+summary:
+  ar: أكبر دولة أفريقية مساحة، في المغرب؛ عاصمتها الجزائر.
+  en: Africa's largest state, in the Maghreb; capital Algiers.
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 28.0
+- 2.0
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q262
+  geonames: '2589581'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q262 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q262 (labels, coordinates, description)

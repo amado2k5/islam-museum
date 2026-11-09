@@ -21,6 +21,9 @@ born:
   derived: true
   note: "Gregorian date and Lagos birthplace from English and Arabic Wikipedia, Wikidata Q273256 and the Naismith Memorial Basketball Hall of Fame. Lagos has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1382) is derived by tabular conversion."
   sources: [source/wikipedia-hakeem-olajuwon-en, source/wikidata-hakeem-olajuwon, source/hoophall-hakeem-olajuwon]
+relations:
+  - { type: born_in, target: place/lagos, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakeem-olajuwon] }
+  - { type: lived_in, target: place/amman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hakeem-olajuwon] }
 faith:
   - value: unknown
     basis: unknown

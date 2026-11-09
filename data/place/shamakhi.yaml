@@ -1,0 +1,36 @@
+id: place/shamakhi
+class: place
+kind: city
+label:
+  ar: شماخى
+  en: Shamakhi
+  ur: شماخی
+summary:
+  ar: مدينة في أذربيجان.
+  en: City in Azerbaijan.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 40.6339
+- 48.6392
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q388224
+  geonames: '585156'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q388224 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q388224 (labels, coordinates, description)

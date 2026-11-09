@@ -48,6 +48,7 @@ died:
     - source/wikidata-al-zarqali
 
 relations:
+  - { type: traveled_to, target: place/cordoba, note: "From text: fled to Cordoba", sources: [source/wikipedia-al-zarqali-en, source/wikipedia-al-zarqali-ar, source/wikipedia-al-zarqali-ur, source/wikidata-al-zarqali, source/zarqali-puig-bea, source/zarqaliyya-bir-2020, source/bibalex-astrolabe-949, source/zarqali-mactutor, source/nasa-milankovitch-cycles, source/commons-apogee-psf] }
   - { type: born_in, target: place/tulaytula }
   - { type: died_in, target: place/cordoba }
 

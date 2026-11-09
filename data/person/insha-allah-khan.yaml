@@ -37,6 +37,9 @@ died:
   note: "The English and Urdu articles and Wikidata agree on 19 May 1817, at Lucknow, where he had spent his last years out of favour and in poor health. The Hijri year is derived by tabular conversion of that date. Lucknow has no museum place record yet, so no died_in edge is written."
   sources: [source/wikipedia-insha-allah-khan-en, source/wikipedia-insha-allah-khan-ur, source/wikidata-insha-allah-khan]
 
+relations:
+  - { type: born_in, target: place/murshidabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-insha-allah-khan] }
+  - { type: died_in, target: place/lucknow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-insha-allah-khan] }
 faith:
   - value: unknown
     basis: unknown

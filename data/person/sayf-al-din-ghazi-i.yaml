@@ -14,6 +14,7 @@ regions: [levant-iraq]
 died: { edtf: "1149~", hijri: "0544-06~", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة 544هـ {cite:shadharat-dhahab p. 619}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: child_of, target: person/imad-al-din-zangi }
+  - { type: ruler_of, target: place/mosul, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"

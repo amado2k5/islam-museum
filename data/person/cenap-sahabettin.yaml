@@ -31,6 +31,8 @@ died:
   note: "The English article's infobox, the Turkish article and Wikidata give 12 February 1934 at Istanbul; the English article's own death paragraph says 13 February 1934. The record follows the infobox, Turkish and Wikidata reading. The Hijri year 1352 is the tabular conversion of 12 February 1934."
   sources: [source/wikipedia-cenap-sahabettin-en, source/wikipedia-cenap-sahabettin-tr, source/wikidata-cenap-sahabettin]
 relations:
+  - { type: born_in, target: place/bitola, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cenap-sahabettin] }
+  - { type: buried_in, target: place/bak-rk-y-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cenap-sahabettin] }
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 12 February 1934 (Turkish article and English infobox; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-cenap-sahabettin-en, source/wikipedia-cenap-sahabettin-tr, source/wikidata-cenap-sahabettin] }
 faith:
   - value: unknown

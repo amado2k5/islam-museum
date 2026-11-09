@@ -15,6 +15,8 @@ regions: [arabia]
 died: { hijri: "0130", edtf: "0747~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي (ط. إحسان عباس، PDF ص36): مات أبو الزناد سنة ثلاثين ومائة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 external_ids: { wikidata: "Q12223492" }
 relations:
+  - { type: died_in, target: place/baghdad, note: "From text: توفي ببغداد سنة أربع وسبعين ومائة ول", sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981] }
+  - { type: lived_in, target: place/medina, note: "From text: ملك بحساب ديوان المدينة", sources: [source/fihrist-ibn-al-nadim, source/tabaqat-fuqaha-abbas-1981] }
   - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
 provenance:
   layer: "own-research"

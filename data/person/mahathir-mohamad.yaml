@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Gregorian date and Alor Setar, Kedah birthplace from English and Arabic Wikipedia and Wikidata Q181383. Alor Setar has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1343) is derived by tabular conversion."
   sources: [source/wikipedia-mahathir-mohamad-en, source/wikipedia-mahathir-mohamad-ar, source/wikidata-mahathir-mohamad]
+relations:
+  - { type: born_in, target: place/alor-setar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahathir-mohamad] }
 faith:
   - value: unknown
     basis: unknown

@@ -21,6 +21,8 @@ died:
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

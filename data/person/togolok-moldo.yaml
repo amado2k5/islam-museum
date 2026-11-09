@@ -41,6 +41,8 @@ faith:
     sources: [source/wikipedia-togolok-moldo-en, source/wikipedia-togolok-moldo-ru, source/wikidata-togolok-moldo]
 external_ids:
   wikidata: Q836856
+relations:
+  - { type: born_in, target: place/naryn-region, sources: [source/wikidata-togolok-moldo], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q486375)" }
 sources:
   - source/wikipedia-togolok-moldo-en
   - source/wikipedia-togolok-moldo-ru

@@ -6,6 +6,8 @@ summary:
 wings: [people]
 aliases: [person/buran-bint-kisra]
 gender: female
+relations:
+  - { type: lived_in, target: place/mihran, confidence: low, note: "Associated with مهران per the record's own summary text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 1", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan" }

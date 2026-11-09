@@ -23,3 +23,6 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: born_in, target: place/shiraz, note: "From text: ولد بشيراز وأخذ عن الشيوخ ودخل مكة ", sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mecca, note: "From text: died at Mecca Jumada", sources: [source/shadharat-dhahab] }

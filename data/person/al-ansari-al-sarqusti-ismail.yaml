@@ -26,3 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
+relations:
+  - { type: traveled_to, target: place/misr, note: "From text: moved to Egypt", sources: [source/mawsuat-a3lam-ulama-adaba] }

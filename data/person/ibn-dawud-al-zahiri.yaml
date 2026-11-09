@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/fez, confidence: low, note: "Associated with فاس per the record's own text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الرابع (المحمدون)، طبعة إحسان عباس، النص المقروء آلياً من archive.org"

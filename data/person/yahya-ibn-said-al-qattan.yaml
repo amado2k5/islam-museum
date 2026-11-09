@@ -18,5 +18,8 @@ provenance:
   source: "تاريخ بغداد للخطيب البغدادي (ج11، ترجمة 7461، ص140)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-tarikh-baghdad-tb1
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/tarikh-baghdad-khatib], confidence: low, note: "en: 'Abu Sa'id al-Qattan of Basra — the exacting hadith critic who sat with Shu'ba for twenty years and taught" }
+  - { type: ruled_over, target: place/baghdad, sources: [source/tarikh-baghdad-khatib], confidence: low, note: "سمع الأعمش وسفيان الثوري وشعبة ومالكاً وحماد بن سلمة وثابتاً البناني ومطراً الوراق وغيرهم، وقال عن نفسه إنه لز" }
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -9,6 +9,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
 roles: [ruler, military]
+relations:
+  - { type: lived_in, target: place/bamiyan, confidence: low, note: "Associated with باميان per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -13,6 +13,10 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [levant-iraq, egypt-nile]
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikidata], confidence: low, note: "ولد في بيروت وانتقل إلى القاهرة فكتب مدة عشر سنوات في جريدة «الأهرام» ونشر روايات كثيرة ترجم أكثرها عن الفرنسي" }
+  - { type: died_in, target: place/cairo, sources: [source/al-aalam], confidence: medium, note: "توفي بالقاهرة {cite:al-aalam tarjama}.'" }
+  - { type: lived_in, target: place/cairo, sources: [source/al-aalam], confidence: low, note: "en: 'Najib al-Haddad (1867–1899 CE) — the Beiruti journalist who spent a decade at Cairo's al-Ahram translatin" }
 sources: [source/al-aalam]
 provenance:
   layer: own-research

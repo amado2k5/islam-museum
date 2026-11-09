@@ -26,6 +26,9 @@ faith:
     note: "Two independent sources name the school: the English Wikipedia infobox gives the denomination as Sunni, and the Arabic Wikipedia infobox gives the sect as Ahl al-Sunna wa'l-Jama'a, with Hanbali jurisprudence and an Athari creed. The Hanbali jurisprudence rests on the Arabic article alone, so it is stated here in the note rather than as a compound value. Wikidata gives only Islam."
     sources: [source/wikipedia-omar-suleiman-en, source/wikipedia-omar-suleiman-ar, source/wikidata-omar-suleiman]
 external_ids: { wikidata: "Q28873691" }
+relations:
+  - { type: born_in, target: place/new-orleans, sources: [source/wikidata-omar-suleiman], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q34404)" }
+  - { type: lived_in, target: place/irving, sources: [source/wikidata-omar-suleiman], confidence: low, note: "Wikidata P551 residence (Wikidata Q51690)" }
 sources: [source/wikipedia-omar-suleiman-en, source/wikipedia-omar-suleiman-ar, source/wikidata-omar-suleiman]
 provenance:
   layer: own-research

@@ -21,3 +21,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 337, article 'Ahmad' (Akansus) signed E. Levi-Provencal (EI2 enrichment, batch ei2-b003 part 3cc)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: died_in, target: place/marrakesh, note: "From text: died at Marrakesh", sources: [source/encyclopaedia-of-islam-2] }

@@ -22,6 +22,8 @@ born:
   derived: true
   note: "The English article (citing Xinhua) and Wikidata give his birth on 3 February 1952 at Labé in Guinea; the English infobox places it more precisely at Dalein in the Labé region. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-cellou-dalein-diallo-en, source/wikidata-cellou-dalein-diallo]
+relations:
+  - { type: born_in, target: place/lab, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cellou-dalein-diallo] }
 faith:
   - value: unknown
     basis: unknown

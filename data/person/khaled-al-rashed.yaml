@@ -22,6 +22,7 @@ born:
   note: "English and Arabic Wikipedia both give 1970 (1390 AH), Saudi Arabia. Alkarama's profile of Khalid bin Muhammad bin Hamad Al-Rashed instead gives a birth date of 18 March 1962; the discrepancy is recorded here, not resolved, and the year given by both Wikipedia articles is used."
   sources: [source/wikipedia-khaled-al-rashed-en, source/wikipedia-khaled-al-rashed-ar]
 relations:
+  - { type: born_in, target: place/saudi-arabia, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-khaled-al-rashed-en, source/wikipedia-khaled-al-rashed-ar] }
   - { type: student_of, target: person/ibn-baz-abd-al-aziz, sources: [source/wikipedia-khaled-al-rashed-ar] }
 faith:
   - value: sunni

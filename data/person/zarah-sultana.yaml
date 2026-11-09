@@ -28,7 +28,8 @@ born:
   note: "Born in Birmingham on 31 October 1993; the English and Arabic articles and Wikidata agree. The Hijri year 1414 is the tabular conversion of the built date, marked derived. No place entity for Birmingham exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-zarah-sultana-en, source/wikipedia-zarah-sultana-ar, source/wikidata-zarah-sultana]
 
-relations: []
+relations:
+  - { type: born_in, target: place/birmingham, sources: [source/wikidata-zarah-sultana], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2256)" }
 
 faith:
   - value: unknown

@@ -6,9 +6,8 @@ summary:
   en: "The Khariji of Banu Najiya who broke with Ali after Nahrawan — 'your man's imamate and conduct alike displease me' — fought Ziyad ibn Khasafa's night-battle, rallied the Najiya and Ahwaz tax-resisters, and met Ma'qil ibn Qays's expedition {cite:kamil-ibn-al-athir p. 715-716}."
 gender: male
 relations:
-- type: member_of
-  target: group/khawarij
-  sources: [source/kamil-ibn-al-athir]
+  - { type: traveled_to, target: place/al-ahwaz, note: "Khariji of Banu Najiya who rallied the Najiya and Ahwaz tax-resisters and fought there after Nahrawan.", sources: [source/kamil-ibn-al-athir], confidence: medium }
+  - { type: member_of, target: group/khawarij, sources: [source/kamil-ibn-al-athir] }
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]

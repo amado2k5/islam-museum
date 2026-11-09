@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, arabia]
 relations:
+  - { type: died_in, target: place/medina, note: "From text: died at Medina", sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/medina, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

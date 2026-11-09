@@ -34,6 +34,8 @@ faith:
     note: "Absence configuration: no text in either article names any religion or affiliation for the man, no infobox carries a religion field, and the Wikidata item carries no religion (P140) value at all. The English article records that in 1982 he became a member of the Supreme Muslim Council in Jerusalem — a public office in his career history, which never attests a personal school or affiliation — and his descent from the Husseini family of Jerusalem notables is family background, not attestation. With no reading in any source, there is nothing to weigh; the silence is recorded as it stands."
     sources: [source/wikipedia-faisal-husseini-en, source/wikipedia-faisal-husseini-ar, source/wikidata-faisal-husseini]
 relations:
+  - { type: died_in, target: place/kuwait, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-husseini] }
+  - { type: buried_in, target: building/al-khatuniyya-madrasa-jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-faisal-husseini] }
   - { type: born_in, target: place/baghdad, sources: [source/wikipedia-faisal-husseini-en, source/wikidata-faisal-husseini] }
   - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-faisal-husseini-en] }
 wings: [people]

@@ -23,3 +23,6 @@ provenance:
   run: ocr-harvest-2026-11-04
 sources: [source/jami-al-usul-arnaut-2016]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
+relations:
+  - { type: buried_in, target: place/damascus, note: "From text: دفن بتربة الحقلة في حي الميدان الفوقاني (دمشق)", sources: [source/jami-al-usul-arnaut-2016], confidence: medium }
+  - { type: lived_in, target: place/albania, note: "Place association from the person's nisba/name (الأرناؤوط); denotes association, not proven residence.", sources: [source/jami-al-usul-arnaut-2016], confidence: low }

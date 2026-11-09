@@ -33,6 +33,7 @@ died:
   note: "The French article records his death on Wednesday 15 March 2017 at his residence in Dakar, his succession by his brother Serigne Abdoul Aziz Sy Al-Amin, and his burial, at his own request, in the Ndiandakhoum quarter of Tivaouane, away from the mosques' esplanade; Wikidata agrees on the date. The Hijri year is derived by tabular conversion. Neither Dakar nor Tivaouane has a place entity, so no died_in or buried_in edge is written."
   sources: [source/wikipedia-cheikh-ahmed-tidiane-sy-fr, source/wikidata-cheikh-ahmed-tidiane-sy]
 relations:
+  - { type: born_in, target: place/saint-louis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-cheikh-ahmed-tidiane-sy] }
   - { type: child_of, target: person/serigne-babacar-sy, sources: [source/wikipedia-cheikh-ahmed-tidiane-sy-fr, source/wikidata-cheikh-ahmed-tidiane-sy] }
 faith:
   - value: sufi

@@ -10,6 +10,8 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
   - { type: child_of, target: person/amr-ibn-amir-muzayqiya, sources: [source/samhudi-wafa-al-wafa] }
+
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/samhudi-wafa-al-wafa] }
 sources: [source/samhudi-wafa-al-wafa]
 provenance:
   layer: own-research

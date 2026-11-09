@@ -1,0 +1,21 @@
+id: place/loughborough
+class: place
+kind: town
+label: { ar: "لوفبرا", en: "Loughborough", ur: "لفبرو" }
+summary:
+  ar: "بلدة في المملكة المتحدة."
+  en: "Town in United Kingdom."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [52.7705, -1.2046]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q537323" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q537323 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

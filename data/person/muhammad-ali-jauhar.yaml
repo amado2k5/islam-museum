@@ -35,6 +35,7 @@ died:
 relations:
   - { type: sibling_of, target: person/shaukat-ali, sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-shaukat-ali-en] }
   - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ur] }
+  - { type: died_in, target: place/london, sources: [source/wikipedia-muhammad-ali-jauhar-en, source/wikipedia-muhammad-ali-jauhar-ur, source/wikidata-muhammad-ali-jauhar] }
 faith:
   - value: unknown
     basis: unknown

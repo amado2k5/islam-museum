@@ -29,6 +29,7 @@ faith:
     sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar]
 relations:
   - { type: child_of, target: person/vilayat-inayat-khan, sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar, source/wikidata-pir-zia-inayat-khan] }
+  - { type: born_in, target: place/novato, sources: [source/wikidata-pir-zia-inayat-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q851004)" }
 external_ids: { wikidata: "Q2477253" }
 sources: [source/wikipedia-pir-zia-inayat-khan-en, source/wikipedia-pir-zia-inayat-khan-ar, source/wikidata-pir-zia-inayat-khan]
 provenance:

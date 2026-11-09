@@ -5,6 +5,10 @@ summary:
   ar: "جعله المأمون وليّ عهده في سنة إحدى ومائتين، وأمر الناس بلبس الخضرة {cite:tabari-tarikh-abu-al-fadl j.8 p.554}، وعند السيوطي لقبه المأمون الرضا وضرب الدراهم باسمه وزوجه ابنته وأمر بترك السواد ولبس الخضرة فتوفي سنة ثلاث ومئتين والمأمون في مسيره إلى العراق {cite:tarikh-khulafa-minhaj-1434 p. 487}، وعند المسعودي قبض مسموماً بطوس ودفن هنالك وهو ابن تسع وأربعين سنة وستة أشهر {cite:muruj-al-dhahab p. 399}"
 wings: [people]
 gender: male
+relations:
+  - { type: died_in, target: place/tus, note: "Died poisoned at Tus and buried there per al-Masudi.", sources: [source/muruj-al-dhahab], confidence: high }
+  - { type: buried_in, target: place/tus, note: "Buried at Tus.", sources: [source/muruj-al-dhahab], confidence: high }
+  - { type: traveled_to, target: place/merv, note: "Made heir-apparent at al-Mamun's court at Marw.", sources: [source/tarikh-khulafa-minhaj-1434, source/tabari-tarikh-abu-al-fadl], confidence: low }
 sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 provenance:
   layer: own-research

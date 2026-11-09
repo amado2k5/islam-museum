@@ -14,5 +14,9 @@ provenance:
   run: lib-futuh-buldan-batch-10 + batch-30
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+relations:
+  - { type: died_in, target: place/balanjar, sources: [source/futuh-buldan-maarif-1407], confidence: low, note: "ur: 'الباہلی سپہ سالار جو آرمینیا اور اران کی مہمات اور بلنجر سے وابستہ تھا؛ بلاذری اس کے سفر، معاہدوں اور وفا" }
+  - { type: lived_in, target: place/balanjar, sources: [source/wikidata], confidence: low, note: "ar: 'سلمان بن ربيعة الباهلي؛ عند البلاذري ص 361: غزا الشام مع أبي أمامة الصدي بن عجلان الباهلي فشهد مشاهد المس" }
+  - { type: lived_in, target: place/kufa, sources: [source/wikidata], confidence: low, note: "ar: 'سلمان بن ربيعة الباهلي؛ عند البلاذري ص 361: غزا الشام مع أبي أمامة الصدي بن عجلان الباهلي فشهد مشاهد المس" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

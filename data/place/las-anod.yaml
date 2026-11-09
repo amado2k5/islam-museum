@@ -1,0 +1,20 @@
+id: place/las-anod
+class: place
+kind: city
+label: { ar: "لاس عانود", en: "Las Anod" }
+summary:
+  ar: "مدينة في منطقة سول بالصومال."
+  en: "City in the Sool region, Somalia."
+wings: [place]
+regions: [east-africa]
+coordinates: [8.47556, 47.35833]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q1017223 coordinates; representative point for the city."
+external_ids: { wikidata: "Q1017223", geonames: "400769" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q1017223 and GeoNames; entity created so persons' place relations resolve on the map."

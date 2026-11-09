@@ -28,3 +28,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
   model: "SWE-2 Medium; claude-opus-5-5"
   run: "prose-fill-persons-batch50; ocr-harvest-2026-11-04"
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/mujam-ma-istaajam-bakri], confidence: low }

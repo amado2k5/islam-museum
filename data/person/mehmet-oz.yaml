@@ -20,6 +20,10 @@ born:
   derived: true
   note: "Gregorian date and Cleveland, Ohio birthplace from English and Arabic Wikipedia and Wikidata Q2537149. The Urdu article gives 12 June 1960; the record follows 11 June, given by the English and Arabic articles and Wikidata. Cleveland has no place entity in the museum yet, so no born_in relation is written. The Hijri year (1379) is derived by tabular conversion."
   sources: [source/wikipedia-mehmet-oz-en, source/wikipedia-mehmet-oz-ar, source/wikidata-mehmet-oz, source/wikipedia-mehmet-oz-ur]
+relations:
+  - { type: born_in, target: place/cleveland, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmet-oz] }
+  - { type: lived_in, target: place/cliffside-park, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmet-oz] }
+  - { type: lived_in, target: place/palm-beach, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmet-oz] }
 faith:
   - value: unknown
     basis: unknown

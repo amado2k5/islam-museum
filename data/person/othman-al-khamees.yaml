@@ -26,6 +26,8 @@ faith:
     note: "The English article describes him as a debater of Sunni Muslims against Shia Islam who took part in many debates between Twelver Shiites and Sunni Muslims. The Arabic article independently describes him as a debater of Ahl al-Sunna wa'l-Jama'a against the Shia, the Sunni side's permanent representative in the al-Mustakilla debates, and one of the poles of the Sunni camp. Two sources give the school; Wikidata gives only 'Islam'."
     sources: [source/wikipedia-othman-al-khamees-en, source/wikipedia-othman-al-khamees-ar]
 external_ids: { wikidata: "Q12224381" }
+relations:
+  - { type: born_in, target: place/kuwait-city, sources: [source/wikidata-othman-al-khamees], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35178)" }
 sources: [source/wikipedia-othman-al-khamees-en, source/wikipedia-othman-al-khamees-ar, source/wikidata-othman-al-khamees, source/youtube-othmanalkamees]
 provenance:
   layer: own-research

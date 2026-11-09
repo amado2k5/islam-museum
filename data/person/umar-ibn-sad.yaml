@@ -17,5 +17,8 @@ provenance:
 external_ids: { wikidata: "Q618360" }
 died: { hijri: "0065", edtf: "0685", calendar: julian, precision: year, status: tradition, derived: true, note: "خليفة، كما ينقله الذهبي: قتله المختار سنة خمس وستين {cite:mizan-itidal-bijawi-v3 p. 199}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
 sensitivity: contested
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/mizan-itidal-bijawi-v3]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)" }

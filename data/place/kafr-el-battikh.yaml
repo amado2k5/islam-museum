@@ -1,0 +1,21 @@
+id: place/kafr-el-battikh
+class: place
+kind: site
+label: { ar: "مركز كفر البطيخ", en: "Kafr El Battikh" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q22930813)."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [31.40398, 31.73778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q22930813" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q22930813 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

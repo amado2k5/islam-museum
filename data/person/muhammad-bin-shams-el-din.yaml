@@ -22,6 +22,9 @@ born:
   derived: true
   note: "Al-Siyar, an encyclopedia written by his critics, gives his birth at Deir ez-Zor in 1988 (1408 AH) and adds 'it is also said, about 1989'; no other source consulted publishes a birth date — the Aelm Al-Najah biography says expressly that no precise data on his birth date or age is published. Year precision, single-source, with the variant stated."
   sources: [source/alsiyar-muhammad-bin-shams-el-din]
+relations:
+  - { type: born_in, target: place/syria, sources: [source/alsiyar-muhammad-bin-shams-el-din] }
+  - { type: lived_in, target: place/germany, sources: [source/alsiyar-muhammad-bin-shams-el-din, source/aelmalnjah-muhammad-bin-shams-el-din, source/youtube-mshmsdin] }
 faith:
   - value: unknown
     basis: unknown

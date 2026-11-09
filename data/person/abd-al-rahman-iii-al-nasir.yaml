@@ -27,3 +27,5 @@ sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/nafh
 status:
   review: published
   completeness: 3
+relations:
+  - { type: ruler_of, target: place/al-andalus, note: "From text: صاحب الأندلس", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/nafh-tib-maqqari, source/shadharat-dhahab], confidence: low }

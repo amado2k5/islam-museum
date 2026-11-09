@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/rashidun, period/umayyad]
 relations:
   - { type: child_of, target: person/zubayr-ibn-al-awwam, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on al-Umari's assessment in al-Sira al-Nabawiyya al-Sahiha, source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 53-54"
   layer: own-research

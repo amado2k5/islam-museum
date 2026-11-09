@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/muntazam-ibn-al-jawzi]
+sources: [source/al-aalam, source/muntazam-ibn-al-jawzi, source/wikidata]
 external_ids:
   wikidata: Q5955573
 provenance:
@@ -23,3 +23,5 @@ provenance:
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

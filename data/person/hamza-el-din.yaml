@@ -31,6 +31,7 @@ died:
   note: "Died at a hospital in Berkeley, California, on 22 May 2006, from complications after gallbladder surgery; all three articles and Wikidata agree. The Hijri year (1427) is derived by tabular conversion."
   sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar, source/wikipedia-hamza-el-din-fr, source/wikidata-hamza-el-din]
 relations:
+  - { type: died_in, target: place/berkeley, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-el-din] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-hamza-el-din-en, source/wikipedia-hamza-el-din-ar] }
 faith:
   - value: unknown

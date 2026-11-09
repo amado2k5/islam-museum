@@ -33,7 +33,9 @@ faith:
     basis: unknown
     note: "No consulted source states his religion or school, and his Wikidata item carries no religion value; 'Syed' is a name element and is never used for classification."
     sources: [source/wikipedia-syed-mir-qasim-en, source/wikidata-syed-mir-qasim]
-relations: []
+relations:
+
+  - { type: died_in, target: place/delhi, sources: [source/wikipedia-syed-mir-qasim-en, source/wikidata-syed-mir-qasim] }
 summary:
   ar: "سيد مير قاسم سياسي كشميري شارك في صياغة دستور جامو وكشمير وأسّس حزب المؤتمر في الولاية، وتولّى رئاسة وزرائها من 1971 إلى 1975، ثم استقال ليفسح المجال لعودة الشيخ عبد الله."
   en: "Syed Mir Qasim was a Kashmiri politician who helped draft the Jammu and Kashmir constitution, founded the Congress party in the state, and served as its chief minister from 1971 to 1975, resigning to make way for Sheikh Abdullah's return."

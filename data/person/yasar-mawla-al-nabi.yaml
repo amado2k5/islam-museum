@@ -13,6 +13,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 died: { edtf: "0627~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "قُتل قبل رجوع النبي من ذي قرد (needs_source).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "الراعي المقتول", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 290", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]

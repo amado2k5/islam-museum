@@ -21,6 +21,8 @@ born:
   status: historical
   note: "The English and Malay articles agree he was born in 1945 at Pusing, a small town near Ipoh in Perak; neither gives a day or month, and Wikidata carries no birth-date statement, so the year alone is recorded and no Hijri year is given (1945 spans two Hijri years). The museum has no place entity for Pusing, so no born_in relation is written."
   sources: [source/wikipedia-jeffrey-cheah-en, source/wikipedia-jeffrey-cheah-ms]
+relations:
+  - { type: born_in, target: place/malay, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-jeffrey-cheah-en, source/wikipedia-jeffrey-cheah-ms] }
 faith:
   - value: unknown
     basis: unknown

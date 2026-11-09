@@ -13,6 +13,8 @@ regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1593", precision: year, status: tradition, derived: true }
 died: { edtf: "1700", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/ahmadnagar, confidence: low, note: "Associated with أحمد نكر per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q65041342

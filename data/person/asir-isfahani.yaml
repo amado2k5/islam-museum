@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 756, entry 'ASIR' (the takhallus; the poet entry is signed R. M. Savory) (EI2 entry, batch ei2-b013 part 39, seq 389)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/isfahan, note: "Place association from the person's nisba/name (الأصفهاني); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

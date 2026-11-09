@@ -12,6 +12,7 @@ summary:
 roles: [politician]
 wings: [people, living]
 relations:
+  - { type: born_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lamia-al-hariri] }
   - { type: born_in, target: place/hama, sources: [source/wikipedia-lamia-al-hariri-en, source/wikipedia-lamia-al-hariri-ar] }
 faith:
   - value: unknown

@@ -35,6 +35,7 @@ died:
   sources: [source/wikipedia-saleh-al-sadlan-ar, source/wikidata-saleh-al-sadlan]
 relations:
   - { type: student_of, target: person/ibn-baz-abd-al-aziz }
+  - { type: born_in, target: place/burayda, sources: [source/wikidata-saleh-al-sadlan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q259253)" }
 faith:
   - value: unknown
     basis: unknown

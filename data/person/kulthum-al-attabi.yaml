@@ -7,6 +7,8 @@ summary:
 gender: male
 died: { edtf: "0835~", hijri: "0220", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2], note: "EI2: thought to have died about 220 AH (835), a date given by al-Kutubi; the Fihrist does not give the date {cite:encyclopaedia-of-islam-2 vol. 1 p. 801-802}." }
 wings: [people]
+relations:
+  - { type: lived_in, target: place/qinnasrin, confidence: low, note: "Associated with قنسرين per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 408–410"

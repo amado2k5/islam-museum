@@ -1,0 +1,36 @@
+id: place/city-of-the-dead
+class: place
+kind: site
+label:
+  ar: القرافة
+  en: City of the Dead
+  ur: القرافہ
+summary:
+  ar: موقع جغرافي.
+  en: City of the Dead; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- egypt-nile
+coordinates:
+- 30.0467
+- 31.2764
+coordinate_precision: locality
+coordinate_note: Wikidata Q2066414.
+external_ids:
+  wikidata: Q2066414
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q2066414 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q2066414 (labels, coordinates, description)

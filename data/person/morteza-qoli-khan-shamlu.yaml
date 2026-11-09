@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1591", precision: year, status: tradition, derived: true }
 died: { edtf: "1649", precision: year, status: tradition, derived: true }
+relations:
+  - { type: ruled_over, target: place/herat, sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q6401634

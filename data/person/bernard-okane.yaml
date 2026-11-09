@@ -12,6 +12,7 @@ gender: male
 roles: [scholar, historian]
 periods: [period/contemporary-era]
 relations:
+  - { type: lived_in, target: place/hijr, confidence: low, note: "Associated with الحجر per the record's own summary text; relation type pending review.", sources: [source/okane-monumental-calligraphy-fatimid-egypt] }
   - { type: authored, target: work/monumental-calligraphy-in-fatimid-egypt, sources: [source/okane-monumental-calligraphy-fatimid-egypt] }
 sources: [source/okane-monumental-calligraphy-fatimid-egypt]
 provenance:

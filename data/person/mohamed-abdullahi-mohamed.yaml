@@ -34,6 +34,7 @@ faith:
     note: "No article text attests his religion personally and no text names a school for him. Wikidata carries Islam on the single item and the English, Arabic and Urdu articles file him under Sunni Muslims (with African-American Muslims) — the structured values and the filings are one structured family, which never counts. Structured-only Sunni (the abdou-diouf configuration, wave 78 §A); the value stays unknown with the Sunni reading preserved here."
     sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikipedia-mohamed-abdullahi-mohamed-ar, source/wikipedia-mohamed-abdullahi-mohamed-ur, source/wikidata-mohamed-abdullahi-mohamed]
 relations:
+  - { type: born_in, target: place/mogadishu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-abdullahi-mohamed] }
   - type: successor_of
     target: person/hassan-sheikh-mohamud
     sources: [source/wikipedia-mohamed-abdullahi-mohamed-en, source/wikipedia-hassan-sheikh-mohamud-en]

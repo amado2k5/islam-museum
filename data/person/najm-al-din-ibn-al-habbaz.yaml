@@ -14,6 +14,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch99
+relations:
+  - { type: lived_in, target: place/mosul, sources: [source/wikidata], confidence: low, note: "Nisba الموصلي attested in the record." }
 sources: [source/wafayat-ayan]
 status:
   review: published

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/al-aalam, source/taqrib-al-tahdhib] }
 sources: [source/al-aalam, source/taqrib-al-tahdhib]
 external_ids:
   wikidata: Q3327528

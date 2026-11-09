@@ -30,6 +30,10 @@ died:
   derived: true
   note: "Assassinated on 27 December 2007 after an election rally at Liaquat Bagh, Rawalpindi; buried the following day beside her father in the family mausoleum at Garhi Khuda Bakhsh. Neither Rawalpindi nor Garhi Khuda Bakhsh has a place entity in the museum yet, so no died_in or buried_in relation is written. The Hijri year (1428) is derived by tabular conversion."
   sources: [source/wikipedia-benazir-bhutto-en, source/wikidata-benazir-bhutto]
+relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-benazir-bhutto] }
+  - { type: died_in, target: place/benazir-bhutto-hospital, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-benazir-bhutto] }
+  - { type: buried_in, target: building/bhutto-family-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-benazir-bhutto] }
 faith:
   - value: unknown
     basis: unknown

@@ -28,6 +28,8 @@ faith:
     note: "No source names a school of Islam for Munir El Haddadi. The English article's text makes no statement about his own religion: the religious wording it carries is an El Mundo headline about his father, which calls Munir 'Barça's Muslim hope'; that is a newspaper headline naming no school. The English article's categories file him under 'Spanish Muslims' and the Arabic article's under 'Spanish Muslims' (مسلمون إسبان) — category filings, which never count as attestation. The Arabic article has no religion field and its text is silent. Wikidata (Q15963931) gives Islam (Q432), generic — a single structured value naming no school. His Moroccan descent is background, never an attestation, so the value is unknown."
     sources: [source/wikipedia-munir-el-haddadi-en, source/wikipedia-munir-el-haddadi-ar, source/wikidata-munir-el-haddadi]
 external_ids: { wikidata: "Q15963931" }
+relations:
+  - { type: born_in, target: place/el-escorial, sources: [source/wikidata-munir-el-haddadi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q985269)" }
 sources: [source/wikipedia-munir-el-haddadi-en, source/wikipedia-munir-el-haddadi-ar, source/wikidata-munir-el-haddadi]
 provenance:
   layer: own-research

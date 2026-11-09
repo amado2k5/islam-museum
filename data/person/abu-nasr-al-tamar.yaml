@@ -13,7 +13,7 @@ regions: [levant-iraq]
 periods: [period/abbasid-early]
 born: { edtf: "0754", precision: year, status: tradition, derived: true }
 died: { edtf: "0842", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q106682984
 provenance:
@@ -31,3 +31,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+relations:
+  - { type: born_in, target: place/khorasan, note: "Wikidata Q2352322 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

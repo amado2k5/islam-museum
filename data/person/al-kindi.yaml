@@ -60,3 +60,5 @@ sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kindi-cryp
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name (farghani); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya, source/kindi-drug-degrees-prioreschi-2002], confidence: low }

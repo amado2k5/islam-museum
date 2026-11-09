@@ -19,6 +19,7 @@ wings: [people]
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
+  - { type: lived_in, target: place/al-khalil, confidence: low, note: "Associated with الخليل per the record's own summary text; relation type pending review.", sources: [source/muqaddima-ibn-khaldun] }
   - { type: participated_in, target: event/ibn-khaldun-parents-die-black-death-1349, role: "الابن الذي فقد والديه", sources: [source/britannica-ibn-khaldun] }
   - { type: participated_in, target: event/ibn-khaldun-court-tunis-1352, role: "الموظف في البلاط", sources: [source/britannica-ibn-khaldun] }
   - { type: participated_in, target: event/ibn-khaldun-embassy-seville-1365, role: "المبعوث إلى إشبيلية", sources: [source/britannica-ibn-khaldun] }

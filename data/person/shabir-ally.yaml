@@ -24,6 +24,9 @@ faith:
     basis: unknown
     note: "The English Wikipedia infobox gives his denomination as Sunni and his jurisprudence as Hanafi. The Arabic Wikipedia gives only Islam, and no second independent source names a school — no Wikidata item could be verified through the sources consulted. Not recorded as sunni until a second source confirms it, under the same rule applied to Amr Khaled."
     sources: [source/wikipedia-shabir-ally-en, source/wikipedia-shabir-ally-ar]
+relations:
+  - { type: born_in, target: place/guyana, sources: [source/wikidata], confidence: low, note: "Born in Guyana c.1953 per the record text." }
+  - { type: lived_in, target: place/canada, sources: [source/wikidata], confidence: low, note: "Moved to Canada in 1978 per the record text." }
 sources: [source/wikipedia-shabir-ally-en, source/wikipedia-shabir-ally-ar, source/youtube-let-the-quran-speak]
 provenance:
   layer: own-research

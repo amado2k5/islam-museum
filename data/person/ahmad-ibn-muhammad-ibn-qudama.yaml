@@ -16,6 +16,7 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [scripture-and-its-sciences]
 relations:
+  - { type: lived_in, target: place/jammail, note: "From text: preacher of Jamma'il", sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: lived_in, target: place/jammail, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: lived_in, target: place/damascus, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
 sources: [source/dhayl-tabaqat-hanabila-faqi-v2]

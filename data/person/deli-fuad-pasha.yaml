@@ -34,6 +34,8 @@ died:
   note: "Both articles and Wikidata give his death on 17 April 1931 at Istanbul; the Turkish article specifies the Eyüpsultan district and burial at Eyüp Sultan. The Hijri year 1349 is the tabular conversion of 17 April 1931."
   sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr, source/wikidata-deli-fuad-pasha]
 relations:
+  - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-deli-fuad-pasha] }
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-deli-fuad-pasha] }
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul (Eyüpsultan) on 17 April 1931.", sources: [source/wikipedia-deli-fuad-pasha-en, source/wikipedia-deli-fuad-pasha-tr] }
   - { type: buried_in, target: place/istanbul, note: "The Turkish article places his grave at Eyüp Sultan in Istanbul.", sources: [source/wikipedia-deli-fuad-pasha-tr] }
 faith:

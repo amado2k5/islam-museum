@@ -12,6 +12,8 @@ wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1378", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/deccan-plateau, confidence: low, note: "Associated with الدكن per the record's own text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3017007

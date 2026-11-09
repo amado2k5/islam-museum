@@ -12,6 +12,7 @@ wings: [people]
 themes: [translation-and-transmission]
 regions: [andalus-europe]
 relations:
+  - { type: lived_in, target: place/london, confidence: low, note: "Associated with London per the record's own summary text; relation type pending review.", sources: [source/evliya-narrative-hammer-v1] }
   - { type: wrote_about, target: person/evliya-celebi, sources: [source/evliya-narrative-hammer-v1] }
 sources: [source/evliya-narrative-hammer-v1, source/evliya-narrative-hammer-v2]
 provenance:

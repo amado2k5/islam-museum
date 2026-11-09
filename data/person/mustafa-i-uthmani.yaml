@@ -1,27 +1,50 @@
 id: person/mustafa-i-uthmani
 class: person
 label:
-  ar: "مصطفى الأول"
-  en: "Mustafa I"
+  ar: مصطفى الأول
+  en: Mustafa I
 names:
-  - { kind: full, lang: ar, value: "مصطفى بن محمد الثالث" }
-roles: [sultan]
+- kind: full
+  lang: ar
+  value: مصطفى بن محمد الثالث
+roles:
+- sultan
 gender: male
 summary:
-  ar: "مصطفى الأول، سلطان عثماني خلف أخاه أحمد الأول سنة 1026هـ فعزل بعد ثلاثة أشهر، وأعيد بعد مقتل عثمان الثاني سنة 1031هـ حتى عزل ثانية وتولى مراد الرابع؛ صارت في عهده الحكومة ألعوبة بأيدي الإنكشارية."
-  en: "Mustafa I, Ottoman sultan who succeeded his brother Ahmad I in 1026 AH, was deposed after three months, restored after Osman II's murder in 1031, then deposed again for Murad IV; in his reign the government became a Janissary plaything."
-wings: [people]
-regions: [anatolia-balkans]
-periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
+  ar: مصطفى الأول، سلطان عثماني خلف أخاه أحمد الأول سنة 1026هـ فعزل بعد ثلاثة أشهر، وأعيد بعد مقتل عثمان الثاني سنة 1031هـ
+    حتى عزل ثانية وتولى مراد الرابع؛ صارت في عهده الحكومة ألعوبة بأيدي الإنكشارية.
+  en: Mustafa I, Ottoman sultan who succeeded his brother Ahmad I in 1026 AH, was deposed after three months, restored after
+    Osman II's murder in 1031, then deposed again for Murad IV; in his reign the government became a Janissary plaything.
+wings:
+- people
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+relations:
+- type: born_in
+  target: place/istanbul
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P19 place of birth (Wikidata Q406)
+- type: buried_in
+  target: building/hagia-sophia
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P119 place of burial (Wikidata Q12506)
+sources:
+- source/dawlat-uthmaniyya-salabi
+- source/nomisma
 external_ids:
-  nomisma: "mustafa_i"
   wikidata: Q174798
+  nomisma: mustafa_i
 provenance:
   layer: own-research
-  source: "الصلابي، الدولة العثمانية — مصطفى الأول ص304-305"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
+  source: الصلابي، الدولة العثمانية — مصطفى الأول ص304-305
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
   run: prose-fill-persons-batch12
 status:
   review: published

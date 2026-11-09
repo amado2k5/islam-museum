@@ -1,0 +1,35 @@
+id: place/al-anbar-governorate
+class: place
+kind: region
+label:
+  ar: محافظة الأنبار
+  en: Al Anbar Governorate
+  ur: محافظہ الانبار
+summary:
+  ar: إقليم في العراق.
+  en: Al Anbar Governorate; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 32.9
+- 41.6
+coordinate_precision: locality
+coordinate_note: Wikidata Q187334 (ID held on the matching polity entity).
+external_ids:
+  wikidata: Q187334
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q187334 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

@@ -14,6 +14,8 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: born_in, target: place/manisa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids: { wikidata: "Q171465", nomisma: "mehmed_iii" }

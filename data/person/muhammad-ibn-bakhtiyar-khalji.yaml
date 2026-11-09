@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: lived_in, target: place/ghawr, sources: [source/wikidata], confidence: low, note: "Nisba الغوري attested in the record." }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2698200

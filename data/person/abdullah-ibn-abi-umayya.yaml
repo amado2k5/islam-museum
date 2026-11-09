@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
 relations:
+  - { type: died_in, target: place/taif, note: "From text: استُشهد بسهم في حصار الطائف", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/siege-of-taif, role: martyr, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }

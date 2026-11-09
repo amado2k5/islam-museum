@@ -16,6 +16,7 @@ themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجستاني); denotes association, not proven residence.", sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], confidence: low }
   - { type: student_of, target: person/abu-dawud-al-sijistani, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
 provenance: { layer: own-research, source: "Sunan Abi Dawud, Dar Ibn Hazm 1997 vol. 1 p. 10 (printed)", generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
 sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]

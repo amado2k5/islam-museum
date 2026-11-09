@@ -32,6 +32,10 @@ died:
   derived: true
   note: "Died at Baku. The Russian article gives 28 November 1907; the English article and its Arabic translation print 15 November 1907, which is the same day in the Old Style calendar then in use in the Russian Empire, and Wikidata carries both values. The record gives the New Style date with the calendar split disclosed. The Hijri year 1325 is the tabular conversion. The museum has no place entity for Baku, so no died_in edge is written."
   sources: [source/wikipedia-hasan-bey-zardabi-ru, source/wikipedia-hasan-bey-zardabi-en, source/wikidata-hasan-bey-zardabi]
+relations:
+  - { type: died_in, target: place/baku, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-bey-zardabi] }
+  - { type: buried_in, target: place/alley-of-honor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-bey-zardabi] }
+  - { type: buried_in, target: place/chemberekend-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-bey-zardabi] }
 faith:
   - value: sunni
     basis: documented

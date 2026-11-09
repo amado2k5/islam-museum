@@ -40,6 +40,7 @@ faith:
     note: "No cited source names a school for him personally. Neither article text makes any statement of his religion - the Persian article's only use of the word madhhab concerns a draft constitution's freedom-of-religion clause, not his affiliation - and Wikidata carries no religion value for him at all. His service at the Qajar court is milieu, which does not count. Doubt rule: unclassified."
     sources: [source/wikipedia-mirza-hosein-khan-sepahsalar-en, source/wikipedia-mirza-hosein-khan-sepahsalar-fa, source/wikidata-mirza-hosein-khan-sepahsalar]
 relations:
+  - { type: born_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/qazvin, note: "Born at Qazvin.", sources: [source/wikipedia-mirza-hosein-khan-sepahsalar-en, source/wikipedia-mirza-hosein-khan-sepahsalar-fa, source/wikidata-mirza-hosein-khan-sepahsalar] }
   - { type: died_in, target: place/mashhad, note: "Died at Mashhad on 30 Aban 1260 SH (21 November 1881).", sources: [source/wikipedia-mirza-hosein-khan-sepahsalar-en, source/wikipedia-mirza-hosein-khan-sepahsalar-fa, source/wikidata-mirza-hosein-khan-sepahsalar] }
 external_ids: { wikidata: Q8215953 }

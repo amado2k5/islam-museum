@@ -20,6 +20,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة والشمائل؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: lived_in, target: place/halla, confidence: low, note: "Associated with هالة per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
 - type: child_of
   target: person/khadija
   sources: [source/zad-al-maad]

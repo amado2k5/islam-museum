@@ -14,6 +14,9 @@ story_roles:
 died:
   { edtf: "1006~", hijri: "0397~", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل بعد هزيمته قريباً من سنة 397؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.235}" }
 relations:
+  - { type: traveled_to, target: place/yemen, note: "From text: انتقل إلى مكة ثم اليمن ثم عاد إلى الشام", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: traveled_to, target: place/mecca, note: "From text: moved to Mecca", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: traveled_to, target: place/al-sham, note: "From text: returned to Syria. He", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: opposed, target: person/al-hakim-bi-amr-allah, role: "خرج عليه بلعنه على المنبر ونقش السكة باسمه", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

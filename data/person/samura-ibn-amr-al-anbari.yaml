@@ -21,6 +21,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 123"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-5
+relations:
+  - { type: ruled_over, target: place/bahrayn, sources: [source/futuh-buldan-maarif-1407], confidence: low, note: "ar: 'استخلفه خالد بن الوليد على اليمامة بعد فتحها سنة 12هـ لما سار إلى البحرين مجيباً كتاب أبي بكر بإنجاد العل" }
 sources:
 - source/futuh-buldan-maarif-1407
 status:

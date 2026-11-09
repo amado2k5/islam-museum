@@ -28,7 +28,10 @@ born:
   derived: true
   note: "Born in Khorramshahr, Iran, on 3 November 1981: in his own published Fars interview Helali states he was born on 12 Aban 1360 in Khorramshahr — 12 Aban converts to 3 November — and explains that his birth certificate was backdated into the month of Shahrivar (September) for schooling, which accounts for the 3 September 1981 given in the English Wikipedia infobox against its own prose's 3 November. Persian Wikipedia's infobox likewise gives 12 Aban 1360 in Khorramshahr, though its personal-life section says Abadan, an internal slip noted here; his own statement and the English article's prose agree on Khorramshahr. There is no place record for Khorramshahr, so no born_in edge is written. Hijri year 1402 derived from the Gregorian date."
   sources: [source/parsnews-helali-fars-interview, source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa]
-relations: []
+relations:
+  - { type: born_in, target: place/tehran, note: "From text: وُلد في خرمشهر سنة 1981 ونشأ في طهران", sources: [source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa, source/parsnews-helali-fars-interview, source/instagram-rezahelaliofficial] }
+  - { type: lived_in, target: place/tehran, note: "From text: نشأ في طهران", sources: [source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa, source/parsnews-helali-fars-interview, source/instagram-rezahelaliofficial] }
+  - { type: born_in, target: place/khorramshahr, note: "From text: born in Khorramshahr", sources: [source/parsnews-helali-fars-interview, source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa] }
 sources: [source/wikipedia-abdolreza-helali-en, source/wikipedia-abdolreza-helali-fa, source/parsnews-helali-fars-interview, source/instagram-rezahelaliofficial]
 provenance:
   layer: own-research

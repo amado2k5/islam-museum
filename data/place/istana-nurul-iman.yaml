@@ -1,0 +1,21 @@
+id: place/istana-nurul-iman
+class: place
+kind: site
+label: { ar: "قصر نور الإيمان", en: "Istana Nurul Iman", ur: "قصر نور الایمان" }
+summary:
+  ar: "موقع في بروناي."
+  en: "Site in Brunei."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [4.87203056, 114.92075556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1323932" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1323932 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

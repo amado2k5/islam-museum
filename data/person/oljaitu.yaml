@@ -40,6 +40,7 @@ relations:
   - { type: child_of, target: person/arghun-khan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur] }
   - { type: sibling_of, target: person/ghazan-khan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar] }
   - { type: successor_of, target: person/ghazan-khan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar] }
+  - { type: born_in, target: place/khorasan, sources: [source/wikipedia-oljaitu-en, source/wikipedia-oljaitu-ar, source/wikipedia-oljaitu-ur, source/wikidata-oljaitu, source/tarikh-khulafa-minhaj-1434] }
 faith:
   - value: unknown
     basis: unknown

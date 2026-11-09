@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born 25 May 1985 in Sèvres, France, as given by the English Wikipedia article's infobox and by Wikidata Q296341, which agree; he was born and raised in France and played internationally for Senegal. No place entity for Sèvres exists in data/place/, so no born_in edge is written. The Hijri year (1405) is derived by tabular conversion and agrees with the Arabic article's birth-year category."
   sources: [source/wikipedia-demba-ba-en, source/wikipedia-demba-ba-ar, source/wikidata-demba-ba]
+relations:
+  - { type: born_in, target: place/s-vres, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-demba-ba] }
 faith:
   - value: unknown
     basis: unknown

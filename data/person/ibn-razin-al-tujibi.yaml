@@ -13,6 +13,9 @@ regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1229", precision: year, status: tradition, derived: true }
 died: { edtf: "1293", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/murcia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q5907927

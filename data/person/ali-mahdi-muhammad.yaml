@@ -41,6 +41,7 @@ faith:
     note: "No article text names a school for him. Wikidata carries Islam on the single item — one structured value naming no branch — and the Arabic article's only religious content is family background: he was born into a Sufi family, his father a follower of the Idrisiyya order. Family background never counts as the man's own attestation, and no second source names any affiliation of his own. The value stays unknown, with the family's Sufi background recorded here."
     sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikipedia-ali-mahdi-muhammad-ar, source/wikidata-ali-mahdi-muhammad]
 relations:
+  - { type: died_in, target: place/nairobi, note: "From text: died in Nairobi", sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikidata-ali-mahdi-muhammad] }
   - type: successor_of
     target: person/siad-barre
     sources: [source/wikipedia-ali-mahdi-muhammad-en, source/wikipedia-ali-mahdi-muhammad-ar]

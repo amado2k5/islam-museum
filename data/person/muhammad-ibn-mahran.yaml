@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Early-Abbasid figure (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q106682906
 provenance:

@@ -22,3 +22,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 337, article 'Al-'Akawwak' (unsigned in the scan) (EI2 enrichment, batch ei2-b003 part 3cw)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: born_in, target: place/baghdad, note: "From text: born at Baghdad", sources: [source/encyclopaedia-of-islam-2] }

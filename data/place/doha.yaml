@@ -1,0 +1,39 @@
+id: place/doha
+class: place
+kind: city
+label:
+  ar: الدوحة
+  en: Doha
+  ur: دوحہ
+summary:
+  ar: عاصمة قطر على الخليج؛ مقر حكم آل ثاني ومركز البلاد السياسي والتجاري.
+  en: Capital of Qatar on the Gulf; seat of the Al Thani government and the country's political and commercial centre.
+  ur: خلیج کے ساحل پر قطر کا دارالحکومت؛ آل ثانی حکومت کا مرکز۔
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 25.2854
+- 51.531
+coordinate_precision: locality
+coordinate_note: Wikidata Q3861 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q3861
+  geonames: '290030'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3861 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q3861

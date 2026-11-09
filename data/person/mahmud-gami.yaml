@@ -33,7 +33,8 @@ faith:
     basis: documented
     note: "Settled on two independent attestations of the man himself: his Kashmiri biography styles him in its lead an eighteenth-century Sufi poet, argues from that identity in its body ('since Mahmud Gami was a Sufi poet, his kalaam shows mystical secrets through stories and metaphors'), and dates the beginning of Kashmir's line of Sufi poets from him; and the Kashmir Times feature independently presents him as Dooru's mystic saint-poet whose verse blended Sufi mysticism, quoting Kashmir University's Nissar Nadeem and Shafqat Altaf on his transformation of mystical experience. The English article's infobox filing 'Movement: Sufism' was not counted, and no order (tariqa) is named anywhere, so the value is sufi without an order."
     sources: [source/wikipedia-mahmud-gami-ks, source/kashmir-times-gami-rasul-triad]
-relations: []
+relations:
+  - { type: died_in, target: place/kashmir, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mahmud-gami-ks, source/wikipedia-mahmud-gami-en, source/wikidata-mahmud-gami, source/kashmir-times-gami-rasul-triad] }
 summary:
   ar: "شاعر كشميري صوفي من دورو شاه آباد لُقب بجامي كشمير، أدخل المثنوي والغزل الفارسيين إلى الكشميرية، وألّف «يوسف زليخا» و«ليلى مجنون» و«شيخ صنعان» ضمن إحدى عشرة مثنوية جمعتها كلياته."
   en: "Kashmiri Sufi poet of Doru Shahabad, called the Jami of Kashmir, who brought the Persian mathnavi and ghazal into Kashmiri and wrote Yusuf-Zuleikha, Lael Majnun and Sheikh Sana'n among the eleven mathnavis of his Kulliyat."

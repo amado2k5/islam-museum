@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born 19 December 1987 in Lyon, France, as given by the English Wikipedia article's infobox and early-life section, which records parents of Algerian descent and a childhood in Bron, a suburb of Lyon. No place entity for Lyon or Bron exists in data/place/, so no born_in relation is written. The Hijri year (1408) is derived by tabular conversion."
   sources: [source/wikipedia-karim-benzema-en]
+relations:
+  - { type: lived_in, target: place/leon, confidence: low, note: "Associated with ليون per the record's own summary text; relation type pending review.", sources: [source/wikipedia-karim-benzema-en] }
 faith:
   - value: unknown
     basis: unknown

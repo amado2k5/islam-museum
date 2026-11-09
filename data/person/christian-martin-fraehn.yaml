@@ -13,6 +13,7 @@ roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1817/1826", calendar: gregorian, precision: year, status: historical, note: "Took charge of the Academy's coins in 1817; Recensio published 1826 {cite:fraehn-recensio-numorum-muhammedanorum-1826 p. 10} {cite:fraehn-recensio-numorum-muhammedanorum-1826 p. 18}.", sources: [source/fraehn-recensio-numorum-muhammedanorum-1826] }
 relations:
+  - { type: lived_in, target: place/russia, confidence: low, note: "Associated with روسيا per the record's own text; relation type pending review.", sources: [source/fraehn-recensio-numorum-muhammedanorum-1826] }
   - { type: authored, target: work/fraehn-recensio-numorum-muhammedanorum, sources: [source/fraehn-recensio-numorum-muhammedanorum-1826] }
 sources: [source/fraehn-recensio-numorum-muhammedanorum-1826, source/lavoix-catalogue-monnaies-musulmanes-bn-1887]
 provenance:

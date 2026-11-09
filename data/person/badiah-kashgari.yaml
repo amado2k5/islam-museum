@@ -23,6 +23,7 @@ born:
   note: "The Arabic article gives her birth in Taif in 1954 and pairs the year with 1374 AH in its own lead; the Hijri year is recorded from that pairing. Wikidata agrees on 1954."
   sources: [source/wikipedia-badiah-kashgari-ar, source/wikidata-badiah-kashgari]
 relations:
+  - { type: born_in, target: place/taif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badiah-kashgari] }
   - { type: born_in, target: place/taif, sources: [source/wikipedia-badiah-kashgari-ar, source/wikidata-badiah-kashgari] }
   - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-badiah-kashgari-ar] }
 faith:

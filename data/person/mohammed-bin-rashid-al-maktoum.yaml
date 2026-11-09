@@ -26,6 +26,7 @@ born:
   sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikidata-mohammed-bin-rashid-al-maktoum]
 relations:
   - { type: child_of, target: person/rashid-bin-saeed-al-maktoum, sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikidata-mohammed-bin-rashid-al-maktoum] }
+  - { type: born_in, target: place/dubai, sources: [source/wikipedia-mohammed-bin-rashid-al-maktoum-en, source/wikipedia-mohammed-bin-rashid-al-maktoum-ar, source/wikidata-mohammed-bin-rashid-al-maktoum] }
 faith:
   - value: unknown
     basis: unknown

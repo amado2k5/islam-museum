@@ -1,0 +1,36 @@
+id: place/byzantine-empire
+class: place
+kind: region
+label:
+  ar: الإمبراطورية البيزنطية
+  en: Byzantine Empire
+  ur: بازنطینی سلطنت
+summary:
+  ar: إقليم في الإمبراطورية الرومانية.
+  en: Roman Empire during Late Antiquity and the Middle Ages.
+wings:
+- place
+regions:
+- anatolia-balkans
+- andalus-europe
+coordinates:
+- 41.0125
+- 28.98
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q12544
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q12544 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q12544 (labels, coordinates, description)

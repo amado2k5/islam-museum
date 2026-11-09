@@ -20,6 +20,11 @@ died:
   - source/tarikh-ibn-khaldun-ibar
 relations:
 - type: ruler_of
+  target: place/yemen
+  note: "From text: ملك اليمن وأخذ بدعوة الكامل ب"
+  confidence: low
+  sources: [source/tarikh-ibn-khaldun-ibar]
+- type: ruler_of
   target: polity/rasulid-dynasty
   sources:
   - source/tarikh-ibn-khaldun-ibar

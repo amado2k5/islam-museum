@@ -7,6 +7,8 @@ summary:
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-qazwin }
+
+  - { type: lived_in, target: place/hamadhan, confidence: low, note: "Association inferred from the nisba 'الهمذاني'; specific birthplace or residence is not individually documented.", sources: [source/futuh-buldan-maarif-1407] }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born at Mansoura in the Dakahlia Governorate. Gregorian date from Arabic Wikipedia and Wikidata; the Hijri year (1394) is converted and marked derived."
   sources: [source/wikipedia-hazem-shouman-ar, source/wikidata-hazem-shouman]
+relations:
+  - { type: born_in, target: place/mansoura, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hazem-shouman] }
 faith:
   - value: unknown
     basis: unknown

@@ -22,6 +22,7 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb, andalus-europe]
 relations:
+- { type: died_in, target: place/ashir, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: member_of
   target: group/maghrawa
   note: من آل خزر أمراء مغراوة ومؤسس ملكهم بفاس.

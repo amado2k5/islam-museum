@@ -13,6 +13,9 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: lived_in, target: place/jurjan, note: "From text: أقام بجرجان مرتين مهدياً إلى قابوس ب", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: lived_in, target: place/ghazna, note: "From text: resided at Ghazna", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/bukhara, note: "From text: travelled to Bukhara", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
   - { type: born_in, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/nishapur, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/abu-bakr-al-khwarazmi, sources: [source/encyclopaedia-of-islam-2] }

@@ -25,6 +25,8 @@ faith:
     note: "The English Wikipedia infobox alone gives the denomination as Sunni, the creed as Athari and the jurisprudence as Hanbali — one article only. The Wikidata item records no religion, and The Muslim Voice profile attests ijazat in classical texts including books of Hanbali fiqh, which are study credentials, not an attestation of his own school. Not recorded as sunni until a second source confirms a school."
     sources: [source/wikipedia-uthman-ibn-farooq-en, source/wikidata-uthman-ibn-farooq, source/muslimvoice-uthman-ibn-farooq]
 external_ids: { wikidata: "Q137946357" }
+relations:
+  - { type: born_in, target: place/pakistan, sources: [source/wikidata], confidence: low, note: "Born in Pakistan in 1977 per the record text." }
 sources: [source/wikipedia-uthman-ibn-farooq-en, source/wikidata-uthman-ibn-farooq, source/muslimvoice-uthman-ibn-farooq]
 provenance:
   layer: own-research

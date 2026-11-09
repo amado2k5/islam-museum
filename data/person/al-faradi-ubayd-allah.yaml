@@ -12,6 +12,7 @@ themes: [scripture-and-its-sciences]
 died:
   { edtf: "1016~", hijri: "0406", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 406هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.278}" }
 relations:
+  - { type: died_in, target: place/baghdad, note: "From text: died in Baghdad", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

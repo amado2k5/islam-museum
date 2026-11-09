@@ -10,6 +10,10 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 died: { edtf: "1066~", hijri: "0458-09-19", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في تاسع عشر رمضان سنة 458 عن ثمان وسبعين سنة وكان قد ولي قضاء الحريم {cite:shadharat-dhahab p. 314; kashf-zunun-furqan p. 214}." }
 relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/baghdad-governorate, note: "Wikidata Q191075 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad-governorate, note: "Wikidata Q191075 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: authored, target: work/al-ahkam-al-sultaniyya-abu-yala, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
@@ -17,5 +21,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-11
 external_ids: { wikidata: "Q6534226" }
-sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

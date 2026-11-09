@@ -14,6 +14,8 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الأول (عارضة داخل ترجمة ابن منعة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-18
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/wafayat-ayan], confidence: low, note: "ar: 'رضي الدين أبو داود سليمان بن المظفر بن غانم بن عبد الكريم الجيلي؛ الشافعي المفتي بالمدرسة النظامية ببغداد" }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 occupations:

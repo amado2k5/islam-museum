@@ -10,6 +10,7 @@ roles: [sultan, emir]
 wings: [people]
 periods: [period/mongol-post-mongol]
 relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: participated_in, target: event/lajin-coup-696, role: "قائد الانقلاب", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/lajin-murder-698, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
   - { type: patron_of, target: building/masjid-ibn-tulun, sources: [source/yeomans-islamic-cairo-2006] }

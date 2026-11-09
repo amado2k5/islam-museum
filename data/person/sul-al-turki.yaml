@@ -7,6 +7,7 @@ summary:
 periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/yazid-jurjan-campaign }
+  - { type: ruler_of, target: place/jurjan, sources: [source/wikidata], confidence: low, note: "ar: 'صول التركي ملك سمّته الترك على ملكه بعد أن غلبت على حائط جرجان؛ عرض ليزيد بن المهلب في طريق خراسان فحصره " }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

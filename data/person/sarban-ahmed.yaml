@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/hayrabolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1011282)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q136333935

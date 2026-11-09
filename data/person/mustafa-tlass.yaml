@@ -35,6 +35,10 @@ faith:
     note: "Wikidata gives Sunni Islam. The English Wikipedia article describes the prominent Sunni Muslim family Tlass was born into but gives no school for Tlass himself, and the Arabic article gives none. Not recorded as sunni until a second source gives the school for him personally."
     sources: [source/wikidata-mustafa-tlass, source/wikipedia-mustafa-tlass-en, source/wikipedia-mustafa-tlass-ar]
 external_ids: { wikidata: "Q403707" }
+relations:
+  - { type: born_in, target: place/al-rastan, sources: [source/wikidata-mustafa-tlass], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1867822)" }
+  - { type: born_in, target: place/paris, sources: [source/wikidata-mustafa-tlass], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q90)" }
+  - { type: died_in, target: place/bobigny, sources: [source/wikidata-mustafa-tlass], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q154724)" }
 sources: [source/wikipedia-mustafa-tlass-en, source/wikipedia-mustafa-tlass-ar, source/wikidata-mustafa-tlass]
 provenance:
   layer: own-research

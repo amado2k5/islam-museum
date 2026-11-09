@@ -37,6 +37,8 @@ faith:
     note: "No consulted source states his religion in text. Neither the English nor the Urdu article names any affiliation for him, and Wikidata carries no religion value. The Urdu article records that, after his uncle's teaching, he became a disciple (shagird) of the malang Mian Ahmad Shah, who taught him his knowledge: that is musical tutelage stated in a single text — it names no order, no initiation and no affiliation — and his migration to Pakistan at Partition and his Karachi milieu name no school either. Under the two-source rule the value stays unknown, with the discipleship statement preserved here as the nearest evidence."
     sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur, source/wikidata-bundu-khan]
 relations:
+  - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bundu-khan] }
+  - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bundu-khan] }
   - type: born_in
     target: place/delhi
     sources: [source/wikipedia-bundu-khan-en, source/wikipedia-bundu-khan-ur]

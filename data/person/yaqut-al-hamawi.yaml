@@ -22,8 +22,6 @@ story_roles:
 external_ids:
   wikidata: Q316364
 relations:
-  - { type: born_in, target: place/anatolia, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
-  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/al-ukbari-abu-al-baqa, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/ibn-yaish, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/ibn-al-samani-abd-al-rahim, sources: [source/encyclopaedia-of-islam-2] }
@@ -43,6 +41,11 @@ relations:
   - { type: participated_in, target: event/yaqut-egypt-624, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
   - { type: participated_in, target: event/qifti-shelters-yaqut-625, sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/yaqut-mujam-definitive-625, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: born_in, target: place/anatolia, sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: lived_in, target: place/mosul, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: traveled_to, target: place/damascus, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: traveled_to, target: place/irbil, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }
 provenance:

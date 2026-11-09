@@ -40,6 +40,10 @@ faith:
     sources: [source/wikipedia-said-gabiev-ru, source/wikipedia-said-gabiev-az, source/wikidata-said-gabiev]
 external_ids:
   wikidata: Q4130892
+relations:
+  - { type: born_in, target: place/opochka, sources: [source/wikidata-said-gabiev], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q145906)" }
+  - { type: died_in, target: place/tiflis, sources: [source/wikidata-said-gabiev], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q994)" }
+  - { type: buried_in, target: place/kumukh, sources: [source/wikidata-said-gabiev], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1153296)" }
 sources:
   - source/wikipedia-said-gabiev-ru
   - source/wikipedia-said-gabiev-az

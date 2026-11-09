@@ -32,6 +32,7 @@ died:
   sources: [source/wikipedia-mansur-shah-malacca-en, source/wikipedia-mansur-shah-malacca-ms, source/wikidata-mansur-shah-malacca]
 
 relations:
+  - { type: died_in, target: place/malacca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mansur-shah-malacca] }
   - { type: child_of, target: person/muzaffar-shah-malacca, sources: [source/wikipedia-mansur-shah-malacca-en, source/wikipedia-mansur-shah-malacca-ms, source/wikidata-mansur-shah-malacca] }
 
 faith:

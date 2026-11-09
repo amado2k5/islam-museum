@@ -15,3 +15,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-34
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (الكرخي); denotes association, not proven residence.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }

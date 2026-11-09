@@ -24,3 +24,5 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }

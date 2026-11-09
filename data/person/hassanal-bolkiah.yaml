@@ -24,6 +24,9 @@ born:
   derived: true
   note: "Born on 15 July 1946 at Istana Darussalam, Brunei Town (present-day Bandar Seri Begawan), the eldest son of Omar Ali Saifuddien III and Raja Isteri Pengiran Anak Damit, as the English, Arabic and Urdu articles and Wikidata give. The Hijri year (1365) is by tabular conversion. Bandar Seri Begawan has no place entity, so no born_in relation is written. The filiation is written once, as a parent_of edge in his father's record (person/omar-ali-saifuddien-iii), built in this same wave."
   sources: [source/wikipedia-hassanal-bolkiah-en, source/wikipedia-hassanal-bolkiah-ar, source/wikipedia-hassanal-bolkiah-ur, source/wikidata-hassanal-bolkiah]
+relations:
+  - { type: born_in, target: place/bandar-seri-begawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassanal-bolkiah] }
+  - { type: lived_in, target: place/istana-nurul-iman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassanal-bolkiah] }
 faith:
   - value: unknown
     basis: unknown

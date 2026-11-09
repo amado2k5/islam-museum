@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+relations:
+  - { type: lived_in, target: place/damascus, note: "At Abd al-Malik's court where he worked the reconciliation.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

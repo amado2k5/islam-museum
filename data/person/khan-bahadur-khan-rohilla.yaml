@@ -29,6 +29,8 @@ died:
   derived: true
   note: "Tried, sentenced to death and hanged at the Kotwali police station in Bareilly on 24 February 1860 (English and Urdu articles, both citing The News International, 2016; Wikidata gives the same date and hanging as the cause of death). Bareilly has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-khan-bahadur-khan-rohilla-en, source/wikipedia-khan-bahadur-khan-rohilla-ur, source/wikidata-khan-bahadur-khan-rohilla]
+relations:
+  - { type: died_in, target: place/bareilly, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-khan-bahadur-khan-rohilla-en, source/wikipedia-khan-bahadur-khan-rohilla-ur, source/wikidata-khan-bahadur-khan-rohilla] }
 faith:
   - value: unknown
     basis: unknown

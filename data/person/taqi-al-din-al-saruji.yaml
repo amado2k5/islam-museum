@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/suru, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q917836)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q28713255

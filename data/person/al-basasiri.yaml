@@ -15,3 +15,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-38
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/nuba, note: "Place association from the person's nisba/name (النوبي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434], confidence: low }

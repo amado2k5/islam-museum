@@ -28,6 +28,8 @@ relations:
 - type: opposed
   target: person/ubayd-allah-ibn-ziyad
   sources: *id001
+- { type: ruled_over, target: place/al-qays, sources: [source/alam-zirikli-1927-v2], confidence: low, note: "ar: طواف بن غلاق، من زعماء الخارجين بالبصرة كما يصفه الزركلي، خرج على عبيد الله بن زياد في سبعين رجلاً من بني " }
+- { type: lived_in, target: place/al-jund, sources: [source/alam-zirikli-1927-v2], confidence: low, note: "ar: طواف بن غلاق، من زعماء الخارجين بالبصرة كما يصفه الزركلي، خرج على عبيد الله بن زياد في سبعين رجلاً من بني " }
 sources: *id001
 provenance:
   layer: own-research

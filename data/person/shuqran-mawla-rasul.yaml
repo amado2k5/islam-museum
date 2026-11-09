@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 relations:
   - { type: participated_in, target: event/burial-of-the-prophet, role: "من غسل النبي وصب الماء ونزل القبر ودفن القطيفة", sources: [source/ibn-hisham-saqqa] }
+  - { type: buried_in, target: place/al-qatif, sources: [source/wikidata], confidence: low, note: "- { type: participated_in, target: event/burial-of-the-prophet, role: 'من غسل النبي وصب الماء ونزل القبر ودفن " }
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"

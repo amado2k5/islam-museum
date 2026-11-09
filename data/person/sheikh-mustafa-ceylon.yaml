@@ -13,6 +13,10 @@ regions: [south-asia]
 periods: [period/colonial-era]
 born: { edtf: "1836", precision: year, status: tradition, derived: true }
 died: { edtf: "1888", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/beruwala, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q829211)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+  - { type: buried_in, target: place/jannat-al-mualla, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q42004)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3194675

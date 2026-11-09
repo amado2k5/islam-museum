@@ -10,6 +10,9 @@ gender: male
 wings: [people]
 periods: [period/modern-era]
 external_ids: { wikidata: "Q471046" }
+relations:
+  - { type: born_in, target: place/qalamun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4703072)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/stoddard-arslan-hadir-1923]
 # Verification: one source (Arslan's praise, written by a contemporary and friend, so not neutral). Works and dates need checking against a second source before publication.
 status: { review: draft, completeness: 1 }

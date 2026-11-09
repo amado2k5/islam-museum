@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born in Madison, Wisconsin. The Hijri year (1397) is derived by tabular conversion. Madison has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-brother-ali-en, source/wikidata-brother-ali]
+relations:
+  - { type: born_in, target: place/madison, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-brother-ali] }
 faith:
   - value: unknown
     basis: unknown

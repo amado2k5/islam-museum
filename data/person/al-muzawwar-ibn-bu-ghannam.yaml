@@ -12,6 +12,7 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 relations:
+  - { type: ruler_of, target: place/wahran, note: "From text: حاكم وهران الكونت دي الكوديت م", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: opposed, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: allied_with, target: person/muhammad-al-shaykh-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]

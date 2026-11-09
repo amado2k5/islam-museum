@@ -1,18 +1,42 @@
 id: place/khwarizm
 class: place
 kind: region
-label: { ar: "خوارزم", en: "Khwarizm" }
+label:
+  ar: خوارزم
+  en: Khwarizm
+  ur: خوارزم
 summary:
-  ar: "خوارزم إقليم ما وراء النهر كله ومدينته شرقية؛ سار إليها الأحنف بن قيس بعد بلخ فلم يقدر عليها فانصرف."
-  en: "Khwarizm, the land beyond the river with its eastern city; al-Ahnaf marched on it after Balkh but could not take it."
-regions: [persia-central-asia]
-wings: [place]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+  ar: خوارزم إقليم ما وراء النهر كله ومدينته شرقية؛ سار إليها الأحنف بن قيس بعد بلخ فلم يقدر عليها فانصرف.
+  en: Khwarizm, the land beyond the river with its eastern city; al-Ahnaf marched on it after Balkh but could not take it.
+regions:
+- persia-central-asia
+wings:
+- place
+sources:
+- source/futuh-buldan-maarif-1407
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
 provenance:
   layer: own-research
-  source: "source/futuh-buldan-maarif-1407"
-  generated_by: "Devin (SWE-2 High); Copilot (provenance completion)"
-  model: "SWE-2 High; unknown"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
-  run: "explorer-place-batch-2026-11-03"
+  source: source/futuh-buldan-maarif-1407
+  generated_by: Devin (SWE-2 High); Copilot (provenance completion)
+  model: SWE-2 High; unknown
+  extraction_flow: Apple Vision OCR -> manual extraction
+  run: explorer-place-batch-2026-11-03
+  note: Merged duplicate record place/khwarazm into this entity during consolidation.
+coordinates:
+- 42.3
+- 59.15
+coordinate_precision: locality
+coordinate_note: Wikidata Q182647 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q182647
+aliases:
+- place/khwarazm
+historical_names: []
+jobs: []
+inventions: []
+periods: []

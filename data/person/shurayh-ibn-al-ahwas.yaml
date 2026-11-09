@@ -14,3 +14,5 @@ provenance:
   run: lib-ansab-batch-8
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic Arabian figure (Ansab al-ashraf); no specific town attested.", sources: [source/ansab-al-ashraf] }

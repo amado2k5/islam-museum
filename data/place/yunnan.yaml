@@ -1,0 +1,36 @@
+id: place/yunnan
+class: place
+kind: province
+label:
+  ar: يونان
+  en: Yunnan
+  ur: یوننان
+summary:
+  ar: محافظة في الصين.
+  en: Region in People's Republic of China.
+wings:
+- place
+regions:
+- china-east-asia
+coordinates:
+- 25.0494
+- 102.7089
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q43194
+  geonames: '1785694'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q43194 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q43194 (labels, coordinates, description)

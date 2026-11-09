@@ -1,0 +1,21 @@
+id: place/arles
+class: place
+kind: town
+label: { ar: "آرل", en: "Arles", ur: "آرل" }
+summary:
+  ar: "بلدة في فرنسا."
+  en: "Town in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [43.676944444444, 4.6286111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q48292" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q48292 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

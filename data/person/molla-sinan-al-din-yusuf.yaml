@@ -19,6 +19,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch74
+relations:
+  - { type: lived_in, target: place/wadan, sources: [source/wikidata], confidence: low, note: "Nisba وداني attested in the record." }
 sources: [source/shadharat-dhahab]
 status:
   review: published

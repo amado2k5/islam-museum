@@ -1,0 +1,21 @@
+id: place/jamma-in
+class: place
+kind: town
+label: { ar: "جَمّاعِين", en: "Jamma'in", ur: "جمعان" }
+summary:
+  ar: "بلدة في دولة فلسطين."
+  en: "Town in Palestine."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [32.131111111111, 35.200833333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2896581" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2896581 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

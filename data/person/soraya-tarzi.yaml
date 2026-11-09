@@ -33,8 +33,10 @@ roles: [official]
 wings: [people]
 regions: [persia-central-asia]
 relations:
-  - { type: born_in, target: place/damascus, sources: [source/wikipedia-soraya-tarzi-en, source/wikidata-soraya-tarzi] }
   - { type: spouse_of, target: person/amanullah-khan, sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-amanullah-khan-en] }
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-soraya-tarzi-en, source/wikidata-soraya-tarzi] }
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-soraya-tarzi-ar, source/wikipedia-soraya-tarzi-ur, source/wikidata-soraya-tarzi] }
+  - { type: buried_in, target: place/afghanistan, sources: [source/wikipedia-soraya-tarzi-en, source/wikipedia-soraya-tarzi-ar, source/wikidata-soraya-tarzi] }
 faith:
   - value: unknown
     basis: unknown

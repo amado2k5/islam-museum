@@ -13,6 +13,9 @@ regions: [persia-central-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1895", precision: year, status: tradition, derived: true }
 died: { edtf: "1994", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/arak, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q1942636

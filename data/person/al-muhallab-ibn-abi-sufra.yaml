@@ -14,3 +14,5 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+relations:
+  - { type: lived_in, target: place/basra, note: "From text: أهل البصرة وقائد حروب الأزارق", sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/akhbar-tiwal-amir], confidence: low }

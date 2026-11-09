@@ -25,6 +25,8 @@ born:
   derived: true
   note: "The English and Arabic articles and Wikidata give his birth on 17 March 1943 at Machinga, Nyasaland (present-day Malawi). No place entity for Machinga exists in the museum, so the place is carried in this note and no born_in relation is written. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-bakili-muluzi-en, source/wikipedia-bakili-muluzi-ar, source/wikidata-bakili-muluzi]
+relations:
+  - { type: born_in, target: place/machinga-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bakili-muluzi] }
 faith:
   - value: unknown
     basis: unknown

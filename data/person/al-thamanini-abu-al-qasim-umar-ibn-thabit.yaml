@@ -18,6 +18,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/jazirat-ibn-umar, note: "From Thamanin in the Jazirat Ibn Umar area near Mosul per the record.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

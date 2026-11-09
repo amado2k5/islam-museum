@@ -1,0 +1,21 @@
+id: place/glasgow
+class: place
+kind: city
+label: { ar: "غلاسكو", en: "Glasgow", ur: "گلاسگو" }
+summary:
+  ar: "مدينة في المملكة المتحدة."
+  en: "City in United Kingdom."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [55.861111111111114, -4.25]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4093" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4093 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

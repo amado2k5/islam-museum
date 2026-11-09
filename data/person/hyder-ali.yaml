@@ -39,6 +39,8 @@ died:
   note: "All three articles and Wikidata agree on 7 December 1782; the Arabic article pairs the day with 2 Muharram 1197, the pairing carried here. He died at Chittoor during the Second Anglo-Mysore War and was buried at Srirangapatna; neither place has an entity, so both are carried in this note only."
   sources: [source/wikipedia-hyder-ali-en, source/wikipedia-hyder-ali-ar, source/wikipedia-hyder-ali-ur, source/wikidata-hyder-ali]
 
+relations:
+  - { type: died_in, target: place/chittoor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hyder-ali] }
 faith:
   - value: unknown
     basis: unknown

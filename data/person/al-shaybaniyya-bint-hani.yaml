@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch28
+relations:
+  - { type: traveled_to, target: place/siffin, note: "Present with her husband Ubayd Allah ibn Umar at Siffin.", sources: [source/muruj-al-dhahab], confidence: low }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

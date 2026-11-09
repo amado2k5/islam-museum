@@ -18,6 +18,7 @@ periods:
 regions:
 - arabia
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: child_of, target: person/al-khansa, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/ridda-wars, sources: [source/futuh-buldan-maarif-1407] }
 provenance:

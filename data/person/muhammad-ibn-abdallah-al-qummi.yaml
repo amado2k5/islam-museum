@@ -9,6 +9,9 @@ gender: male
 died: { edtf: "0843~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد عودته إلى أسوان (رواية المقريزي، البلاذري ص 335 هامش). التحويل مشتق." }
 relations:
   - { type: participated_in, target: event/al-qummi-buja-war, role: "الوالي القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: died_in, target: place/aswan, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: lived_in, target: place/aswan, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: lived_in, target: place/baghdad, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 333–335"

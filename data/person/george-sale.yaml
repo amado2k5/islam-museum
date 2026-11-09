@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [global]
 periods: [period/modern-era]
+relations:
+  - { type: lived_in, target: place/london, confidence: low, note: "English Qur'an translator who lived and worked in London.", sources: [source/al-istishraq-wal-khalfiyya-azhar] }
 sources: [source/al-istishraq-wal-khalfiyya-azhar]
 status:
   review: draft

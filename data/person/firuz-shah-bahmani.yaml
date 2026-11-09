@@ -45,6 +45,7 @@ died:
     - source/wikidata-firuz-shah-bahmani
 
 relations:
+  - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/wikipedia-firuz-shah-bahmani-en] }
   - { type: child_of, target: person/dawud-shah-i-bahmani, sources: [source/wikipedia-firuz-shah-bahmani-en, source/wikidata-firuz-shah-bahmani] }
   - { type: sibling_of, target: person/ahmad-shah-i-bahmani, sources: [source/wikipedia-firuz-shah-bahmani-en] }
 

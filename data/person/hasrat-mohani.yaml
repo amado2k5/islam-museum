@@ -32,6 +32,8 @@ died:
   derived: true
   note: "The English, Arabic and Urdu articles all give his death at Lucknow on 13 May 1951; Wikidata carries a second, year-only 1951 death value beside the day value. No place entity exists for Lucknow, so no died_in edge is written. The date falls in Sha'ban 1370 AH; the Hijri year is a conversion."
   sources: [source/wikipedia-hasrat-mohani-en, source/wikipedia-hasrat-mohani-ar, source/wikipedia-hasrat-mohani-ur]
+relations:
+  - { type: died_in, target: place/lucknow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasrat-mohani] }
 faith:
   - value: unknown
     basis: unknown

@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-47
 sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name (الموصلي); denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }

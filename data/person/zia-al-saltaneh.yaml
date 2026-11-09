@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/colonial-era]
 born: { edtf: "1799", precision: year, status: tradition, derived: true }
 died: { edtf: "1893", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7750115

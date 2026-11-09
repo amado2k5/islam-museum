@@ -33,7 +33,10 @@ faith:
     basis: unknown
     note: "No source names a school for him. Wikidata's single structured family gives his religion only as Islam. His bey family background, his Ottoman parliamentary career and his leadership of the Albanian national movement and of the Committee for the National Defence of Kosovo are family background, office and national activity, which never count; there is no reading to preserve, so the value is unknown, unflagged."
     sources: [source/wikipedia-hasan-prishtina-en, source/wikidata-hasan-prishtina]
-relations: []
+relations:
+  - { type: born_in, target: place/vushtrri, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-prishtina] }
+  - { type: died_in, target: place/salonik, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-prishtina] }
+  - { type: buried_in, target: place/kuk-s, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasan-prishtina] }
 summary:
   ar: "سياسي ألباني وُلد باسم حسن بيريشا في فوشتري، نائب عثماني وقائد انتفاضة 1912 في كوسوفو وصاحب النقاط الأربع عشرة، ورئيس وزراء ألبانيا في ديسمبر 1921، واغتيل في سالونيك سنة 1933."
   en: "Albanian politician born Hasan Berisha at Vushtrri: an Ottoman deputy who led the 1912 uprising in Kosovo and framed its Fourteen Points, and prime minister of Albania in December 1921; assassinated at Thessaloniki in 1933."

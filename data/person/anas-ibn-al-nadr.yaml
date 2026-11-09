@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 traditions: [sunni]
 relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari], confidence: low }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/battle-of-uhud, role: "استشهد في أحد بثمانين جرحاً" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]

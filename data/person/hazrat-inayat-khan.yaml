@@ -37,6 +37,8 @@ faith:
     note: "Two independent article texts name his Sufi affiliation personally. The English text states that he was a pioneer of the transmission of Sufism to the West, that he received fourfold training and authorisation — succession in the Chishti, Suhrawardi, Qadiri and Naqshbandi orders — from Sayyid Abu Hashim Madani, and that he founded an order of Sufism in London in 1914. The Arabic text's lead calls him personally a Sufi (متصوف) and founder of the International Sufi Movement; the Urdu text likewise describes him as the founder of Western Sufism who took up the practice of Sufism. No Sunni or Hanafi segment is recorded: Sunni as denomination and Hanafi as jurisprudence appear only in the English article's infobox, and one infobox never counts; Wikidata's religion value is Sufism only, an echo of the texts."
     sources: [source/wikipedia-hazrat-inayat-khan-en, source/wikipedia-hazrat-inayat-khan-ar, source/wikipedia-hazrat-inayat-khan-ur, source/wikidata-hazrat-inayat-khan]
 relations:
+  - { type: born_in, target: place/vadodara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hazrat-inayat-khan] }
+  - { type: died_in, target: place/new-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hazrat-inayat-khan] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-hazrat-inayat-khan-en, source/wikidata-hazrat-inayat-khan] }
   - { type: buried_in, target: place/delhi, sources: [source/wikipedia-hazrat-inayat-khan-en] }
 external_ids: { wikidata: "Q120411" }

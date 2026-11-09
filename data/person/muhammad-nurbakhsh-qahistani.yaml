@@ -13,6 +13,8 @@ regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1392", precision: year, status: tradition, derived: true }
 died: { edtf: "1464", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/qayn, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q720028)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q10513531

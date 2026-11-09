@@ -33,6 +33,11 @@ died:
   note: "He died at Baghdad on 13 February 1935 on the English article's lead and the Arabic article, the Arabic article adding that he was buried in the royal cemetery at Adhamiyah in Baghdad; Wikidata gives 14 February 1935 (place Baghdad, Q1530), one day later — the record follows the two articles and records the item's reading here rather than merging them, so the date is marked debated. The two-sentence Urdu stub gives no dates. The Hijri year (1353) is derived by tabular conversion of 13 February 1935 (9 Dhu al-Qa'da 1353)."
   sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein]
 relations:
+  - { type: born_in, target: place/baghdad, note: "From text: وُلد في مكة سنة 1879 – توفي في بغداد ف", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikipedia-ali-bin-hussein-ur, source/wikidata-ali-bin-hussein] }
+  - { type: traveled_to, target: place/iraq, note: "From text: غادر إلى الهند ثم العراق واستقر في بغدا", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikipedia-ali-bin-hussein-ur, source/wikidata-ali-bin-hussein] }
+  - { type: born_in, target: place/mecca, note: "From text: born at Mecca", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
+  - { type: died_in, target: place/baghdad, note: "From text: died at Baghdad", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
+  - { type: lived_in, target: place/baghdad, note: "From text: settled at Baghdad", sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikipedia-ali-bin-hussein-ur, source/wikidata-ali-bin-hussein] }
   - { type: born_in, target: place/mecca, sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
   - { type: died_in, target: place/baghdad, sources: [source/wikipedia-ali-bin-hussein-en, source/wikipedia-ali-bin-hussein-ar, source/wikidata-ali-bin-hussein] }
   - { type: buried_in, target: place/baghdad, note: "The Arabic article states he was buried in the royal cemetery at Adhamiyah, Baghdad.", sources: [source/wikipedia-ali-bin-hussein-ar] }

@@ -13,6 +13,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch41
 external_ids: { wikidata: "Q12216959" }
+relations:
+  - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

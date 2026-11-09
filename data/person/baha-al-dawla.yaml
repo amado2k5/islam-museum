@@ -9,6 +9,10 @@ gender: male
 died: { edtf: "1012~", hijri: "0403-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بأرجان في جمادى الأولى سنة ثلاث وأربعمائة بعلة الصرع وله اثنتان وأربعون سنة {cite:shadharat-dhahab p. 166}." }
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: ruler_of, target: polity/buyid-dynasty, confidence: low, note: "Buyid emir of Iraq per the record's own summary.", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: ruled_over, target: place/iraq, confidence: low, note: "Buyid emir of Iraq per the record's own summary.", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: died_in, target: place/arrajan, confidence: low, note: "توفي بأرجان سنة ٤٠٣هـ per the record's died note.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"

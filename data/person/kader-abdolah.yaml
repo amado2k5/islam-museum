@@ -24,6 +24,8 @@ born:
   derived: true
   note: "The English article and the Dutch article (the latter citing the Dutch literary database DBNL) give 12 November 1954 in Arak; the Arabic article and Wikidata give 12 December 1954. The record follows November with status debated and the December reading preserved. Both readings fall in the same Hijri year, so the derived Hijri year (1374) is unaffected. Arak has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
   sources: [source/wikipedia-kader-abdolah-en, source/wikipedia-kader-abdolah-nl, source/wikipedia-kader-abdolah-ar, source/wikidata-kader-abdolah]
+relations:
+  - { type: born_in, target: place/arak, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kader-abdolah] }
 faith:
   - value: unknown
     basis: unknown

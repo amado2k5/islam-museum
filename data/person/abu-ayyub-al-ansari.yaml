@@ -27,6 +27,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من أهل بيعة العقبة على المشهور؛ يسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/hijra, role: "أخذ الرحل إلى بيته فكان مضيف النبي بالمدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq, source/sallabi-ali-vol1]}

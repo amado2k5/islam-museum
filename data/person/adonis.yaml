@@ -37,3 +37,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-96
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/wikipedia-adonis-en, source/wikipedia-adonis-ar, source/wikipedia-adonis-ur, source/wikidata-adonis], confidence: low }

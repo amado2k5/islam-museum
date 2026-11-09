@@ -26,6 +26,8 @@ born:
   derived: true
   note: "Born on 16 February 1974 in Oakland, California; the English and Arabic articles, Britannica and Wikidata agree. No place entity for Oakland exists in data/place/, so no born_in relation is written. The Hijri year (1394) is derived by tabular conversion."
   sources: [source/wikipedia-mahershala-ali-en, source/britannica-mahershala-ali, source/wikidata-mahershala-ali]
+relations:
+  - { type: born_in, target: place/oakland, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahershala-ali] }
 faith:
   - value: ahmadiyya
     basis: documented

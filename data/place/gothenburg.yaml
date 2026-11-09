@@ -1,0 +1,16 @@
+id: place/gothenburg
+class: place
+kind: city
+label: { en: "Gothenburg", ar: "غوتنبرغ" }
+summary:
+  en: "Second-largest city in Sweden and capital of the Västra Götaland County."
+  ar: "مدينة تُعرف بالإنجليزية باسم Gothenburg."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [57.7075, 11.9675]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q25287", geonames: "2711537" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q25287 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

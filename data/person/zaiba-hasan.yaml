@@ -12,6 +12,9 @@ summary:
 roles: [writer]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: born_in, target: place/chicago, sources: [source/youtube-mommyingwhilemuslim, source/embracerace-mommying-while-muslim, source/shamelessmom-zaiba-uzma] }
+  - { type: lived_in, target: place/united-states, sources: [source/youtube-mommyingwhilemuslim, source/embracerace-mommying-while-muslim, source/shamelessmom-zaiba-uzma] }
 faith:
   - value: unknown
     basis: unknown

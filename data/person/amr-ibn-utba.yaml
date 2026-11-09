@@ -7,6 +7,7 @@ summary:
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-azerbaijan }
+  - { type: traveled_to, target: place/azerbaijan, note: "Campaigned with Utba ibn Farqad al-Sulami in Azerbaijan.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

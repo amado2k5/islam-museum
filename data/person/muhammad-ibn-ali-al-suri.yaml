@@ -21,3 +21,5 @@ provenance:
   run: prose-fill-persons-batch47
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/sur, confidence: low, note: "Association inferred from the nisba 'الصوري'; specific birthplace or residence is not individually documented.", sources: [source/muntazam-ibn-al-jawzi] }

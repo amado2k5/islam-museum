@@ -25,6 +25,9 @@ faith:
     note: "He is a convert: The Thinking Muslim's episode biography states that he accepted Islam in 2010. Wikidata's only religion value is Islam (Q432), generic, naming no school, and neither the MAC Convention biography nor the Yaqeen appointment coverage consulted names a school for him. His former faith is not recorded (the lane's convert practice), and his school stays unknown until two independent sources name one."
     sources: [source/wikidata-tom-facchine, source/thinking-muslim-tom-facchine, source/macconvention-tom-facchine]
 external_ids: { wikidata: "Q135510030" }
+relations:
+  - { type: born_in, target: place/new-jersey, sources: [source/wikidata-tom-facchine], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1408)" }
+  - { type: lived_in, target: place/utica, sources: [source/wikidata-tom-facchine], confidence: low, note: "Wikidata P937 work location (Wikidata Q2495519)" }
 sources: [source/wikidata-tom-facchine, source/macconvention-tom-facchine, source/thinking-muslim-tom-facchine]
 provenance:
   layer: own-research

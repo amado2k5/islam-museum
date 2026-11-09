@@ -27,6 +27,8 @@ faith:
     note: "None of the English or Turkish articles names a religion for her, and Wikidata records no religion statement. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-yasemin-dalkilic-en, source/wikipedia-yasemin-dalkilic-tr, source/wikidata-yasemin-dalkilic]
 external_ids: { wikidata: "Q8049666" }
+relations:
+  - { type: born_in, target: place/ankara, sources: [source/wikidata-yasemin-dalkilic], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3640)" }
 sources: [source/wikipedia-yasemin-dalkilic-en, source/wikipedia-yasemin-dalkilic-tr, source/wikidata-yasemin-dalkilic]
 provenance:
   layer: own-research

@@ -23,6 +23,9 @@ born:
   derived: true
   note: "Born 5 May 1994 in Selangor (Wikidata's place-of-birth values are Selangor and Ampang Jaya). No place entity for Selangor or Ampang exists, so no born_in relation is written and the birthplace is recorded here and in prose only. The Hijri year 1414 is the tabular conversion of 5 May 1994 and is marked derived."
   sources: [source/wikipedia-hafizh-syahrin-en, source/wikipedia-hafizh-syahrin-ms, source/wikidata-hafizh-syahrin]
+relations:
+  - { type: born_in, target: place/selangor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafizh-syahrin] }
+  - { type: born_in, target: place/ampang-jaya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hafizh-syahrin] }
 faith:
   - value: unknown
     basis: unknown

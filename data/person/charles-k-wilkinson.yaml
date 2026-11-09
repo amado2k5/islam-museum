@@ -11,6 +11,7 @@ born: { edtf: "1897", calendar: gregorian, precision: year, status: historical, 
 wings: [people, today]
 themes: [images-of-islam]
 relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with نيسابور per the record's own summary text; relation type pending review.", sources: [source/wilkinson-nishapur-pottery] }
   - { type: participated_in, target: event/met-excavations-at-nishapur, sources: [source/wilkinson-nishapur-pottery] }
   - { type: authored, target: work/nishapur-pottery-of-the-early-islamic-period, sources: [source/wilkinson-nishapur-pottery] }
 sources: [source/wilkinson-nishapur-pottery]

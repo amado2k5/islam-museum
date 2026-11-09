@@ -17,3 +17,5 @@ provenance:
   run: lib-shadharat-batch-67
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

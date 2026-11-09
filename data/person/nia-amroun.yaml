@@ -12,6 +12,9 @@ summary:
 roles: [artist]
 wings: [people, living]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/london, sources: [source/harpersbazaararabia-nia-amroun, source/famousbirthdays-nia-amroun] }
+  - { type: lived_in, target: place/riyadh, sources: [source/harpersbazaararabia-nia-amroun, source/famousbirthdays-nia-amroun] }
 faith:
   - value: unknown
     basis: unknown

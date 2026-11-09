@@ -14,3 +14,5 @@ provenance:
   run: lib-kamil-batch-11
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir], confidence: low }

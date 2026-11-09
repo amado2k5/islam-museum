@@ -21,6 +21,8 @@ born:
   derived: true
   note: "The English, Arabic, French and Urdu articles and Wikidata (Q42010) all give 10 January 1984, born in Tonneins, France. No museum place entity exists for Tonneins, so the birthplace is carried here and in the prose, with no born_in edge. The Hijri year 1404 is derived from the Gregorian date."
   sources: [source/wikipedia-marouane-chamakh-en, source/wikipedia-marouane-chamakh-ar, source/wikipedia-marouane-chamakh-fr, source/wikipedia-marouane-chamakh-ur, source/wikidata-marouane-chamakh]
+relations:
+  - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/wikipedia-marouane-chamakh-en] }
 faith:
   - value: unknown
     basis: unknown

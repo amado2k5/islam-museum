@@ -34,6 +34,7 @@ died:
 relations:
   - { type: child_of, target: person/mubarak-al-sabah, note: "He was the second son of Mubarak Al-Sabah (English and Arabic articles; Wikidata father Q388730), by Sheikha Duaij Al-Sabah (Arabic article); the edge is written here, in the son's record, and his father's record carries none back.", sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar, source/wikidata-salim-al-mubarak-al-sabah] }
   - { type: member_of, target: group/al-sabah, note: "Ninth ruler of the house and progenitor of its Al-Salim branch, from which the later emirs Abdullah and Sabah came (English article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-salim-al-mubarak-al-sabah-en, source/wikipedia-salim-al-mubarak-al-sabah-ar] }
+  - { type: born_in, target: place/kuwait-city, sources: [source/wikidata-salim-al-mubarak-al-sabah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35178)" }
 faith:
   - value: unknown
     basis: unknown

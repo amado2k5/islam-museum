@@ -17,7 +17,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
-relations: []
+relations:
+  - { type: lived_in, target: place/indonesia, confidence: low, note: "Indonesian public figure per the record's own text.", sources: [source/vidiq-izudin-alwy-ahmed] }
 reach:
   - { platform: youtube, metric: subscribers, value: 193000, date: "2026-11-07", note: "@izudinalwy, per vidIQ page updated 7 November 2026 and read 8 November 2026; ThoughtLeaders FAQ (crawled 6 November 2026) agrees at 193K", sources: [source/vidiq-izudin-alwy-ahmed, source/thoughtleaders-izudin-alwy-ahmed] }
 sources: [source/vidiq-izudin-alwy-ahmed, source/thoughtleaders-izudin-alwy-ahmed, source/youtube-izudin-alwy-ahmed, source/youtube-alhuda-tv-izudin]

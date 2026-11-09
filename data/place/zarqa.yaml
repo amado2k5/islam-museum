@@ -1,0 +1,16 @@
+id: place/zarqa
+class: place
+kind: city
+label: { en: "Zarqa", ar: "الزرقاء" }
+summary:
+  en: "City in Jordan."
+  ar: "مدينة في الأردن."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [32.0833, 36.1]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q148062", geonames: "250090" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q148062 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

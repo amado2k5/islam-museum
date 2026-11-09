@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
+relations:
+  - { type: ruler_of, target: place/sijistan, sources: [source/wikidata], confidence: low, note: "id: person/shahriyar-sijistan" }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

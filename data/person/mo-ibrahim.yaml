@@ -21,6 +21,9 @@ born:
   derived: true
   note: "Born 3 May 1946, attested identically by the English and Arabic articles and by Wikidata; the Arabic article places his birth at Old Halfa (Wadi Halfa) in northern Sudan, and he was raised in Alexandria. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; May 1946 falls inside 1365 AH."
   sources: [source/wikipedia-mo-ibrahim-en, source/wikipedia-mo-ibrahim-ar, source/wikidata-mo-ibrahim]
+relations:
+  - { type: born_in, target: place/sudan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mo-ibrahim] }
+  - { type: lived_in, target: place/monte-carlo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mo-ibrahim] }
 faith:
   - value: unknown
     basis: unknown

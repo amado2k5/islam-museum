@@ -17,6 +17,8 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tunis, sources: [source/shadharat-dhahab] }
 external_ids: { wikidata: "Q6536228" }
 sources: [source/shadharat-dhahab]

@@ -1,0 +1,21 @@
+id: place/gorgan
+class: place
+kind: city
+label: { ar: "جرجان", en: "Gorgan", ur: "گرگان" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q188155)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [36.846666666666664, 54.43]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q188155" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q188155 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

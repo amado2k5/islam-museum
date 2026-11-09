@@ -16,7 +16,8 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [anatolia-balkans]
-relations: []
+relations:
+  - { type: lived_in, target: place/tirana, confidence: low, note: "Associated with تيرانا per the record's own summary text; relation type pending review.", sources: [source/context-cupi-2025] }
 sources: [source/context-cupi-2025, source/wikipedia-elvis-naci-en, source/telegrafi-naci-earthquake-2019]
 provenance:
   layer: own-research

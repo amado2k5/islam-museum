@@ -28,3 +28,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch52
+relations:
+  - { type: lived_in, target: place/kufa, note: "Man of letters of Kufan origin (asluhu min al-Kufa); played a political role through ties with the viziers.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: medium }

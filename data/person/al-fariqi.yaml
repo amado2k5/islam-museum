@@ -18,3 +18,7 @@ sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+relations:
+  - { type: traveled_to, target: place/baghdad, note: "From text: انتقل إلى بغداد فاشتغل على الشيخ أبي إسح", sources: [source/wafayat-ayan, source/shadharat-dhahab] }
+  - { type: died_in, target: place/wasit, note: "From text: توفي بواسط يوم الأربعاء الثاني والعش", sources: [source/wafayat-ayan, source/shadharat-dhahab] }
+  - { type: lived_in, target: place/wasit, note: "From text: qadi of Wasit", sources: [source/wafayat-ayan, source/shadharat-dhahab] }

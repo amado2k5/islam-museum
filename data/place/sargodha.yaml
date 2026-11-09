@@ -1,0 +1,37 @@
+id: place/sargodha
+class: place
+kind: city
+label:
+  ar: سركودا
+  en: Sargodha
+  ur: سرگودھا
+summary:
+  ar: مدينة تُعرف بالإنجليزية باسم Sargodha.
+  en: City in Punjab, Pakistan.
+wings:
+- place
+regions:
+- persia-central-asia
+- south-asia
+coordinates:
+- 32.0836
+- 72.6711
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q855997
+  geonames: '1166000'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q855997 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q855997 (labels, coordinates, description)

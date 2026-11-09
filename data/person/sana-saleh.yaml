@@ -12,6 +12,8 @@ summary:
 roles: [activist, merchant]
 wings: [people, living]
 regions: [americas-oceania]
+relations:
+  - { type: lived_in, target: place/toronto, sources: [source/aboutislam-saleh-family, source/lalahijabs-about-us] }
 faith:
   - value: unknown
     basis: unknown

@@ -1,0 +1,21 @@
+id: place/grand-mosque
+class: place
+kind: city
+label: { ar: "المسجد الكبير", en: "Grand Mosque", ur: "مسجد الکبیر ⁦(کویت)⁩" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q1432832)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [29.369722222222, 47.978333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1432832" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1432832 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

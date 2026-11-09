@@ -15,3 +15,5 @@ periods: [period/modern-era]
 sources: [source/min-qadaya-al-mal-wal-amal-azhar]
 provenance: { layer: own-research, source: "أبو الوفا مصطفى المراغي، من قضايا العمل والمال في الإسلام، مجمع البحوث الإسلامية، الغلاف والصفحة 2", generated_by: "Claude (claude-haiku-5-5)", model: "claude-haiku-5-5", run: "azhar-academy-min-qadaya-al-mal-wal-amal-azhar" }
 status: { review: draft, completeness: 1, generated_by: "Claude (claude-haiku-5-5); the death date is from the cover and needs_source: a second source for 1401 AH / 1981 CE" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/min-qadaya-al-mal-wal-amal-azhar], confidence: low }

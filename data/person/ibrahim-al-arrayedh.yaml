@@ -35,6 +35,9 @@ died:
   derived: true
   note: "Died on 28 May 2002, as Wikidata gives precisely; the English article gives May 2002, at the age of 94, following respiratory complications, and records his burial in the Manama Graveyard beside his daughter Layla (the item's place of death is Manama, Q3882). The Hijri year (1423) is by tabular conversion. Manama has no place entity, so no died_in relation is written."
   sources: [source/wikipedia-ibrahim-al-arrayedh-en, source/wikidata-ibrahim-al-arrayedh]
+relations:
+  - { type: born_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-al-arrayedh] }
+  - { type: died_in, target: place/manama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-al-arrayedh] }
 faith:
   - value: unknown
     basis: unknown

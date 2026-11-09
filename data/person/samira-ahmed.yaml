@@ -28,7 +28,8 @@ born:
   note: "Born in Wandsworth, London, on 15 June 1968; the English and Arabic articles and Wikidata agree, the Arabic article citing her Who's Who entry. The Hijri year 1388 is the tabular conversion of the built date, marked derived. No place entity for London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-samira-ahmed-en, source/wikipedia-samira-ahmed-ar, source/wikidata-samira-ahmed]
 
-relations: []
+relations:
+  - { type: born_in, target: place/london, sources: [source/wikidata-samira-ahmed], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q84)" }
 
 faith:
   - value: unknown

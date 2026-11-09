@@ -8,3 +8,5 @@ wings: [people]
 sources: [source/fihrist-ibn-al-nadim, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 external_ids: { wikidata: Q1881341 }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fihrist-ibn-al-nadim, source/muntazam-ibn-al-jawzi] }

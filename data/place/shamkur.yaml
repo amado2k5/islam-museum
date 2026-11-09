@@ -8,6 +8,8 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [40.831, 46.0172]
+coordinate_precision: locality
 relations:
   - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -15,5 +17,5 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-17
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

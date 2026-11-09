@@ -1,0 +1,21 @@
+id: place/kitchener
+class: place
+kind: city
+label: { ar: "كيتشنر", en: "Kitchener", ur: "کچنر" }
+summary:
+  ar: "مدينة في كندا."
+  en: "City in Canada."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [43.45, -80.483333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q200166" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q200166 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

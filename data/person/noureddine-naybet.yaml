@@ -27,6 +27,8 @@ faith:
     note: "Wikidata (Q137899) gives only generic Islam as Naybet's religion — one structured-data value, which never suffices. The English article files him under the category 'Moroccan Muslims' and the Arabic article under the corresponding Arabic category; category filings never attest. The Arabic article's infobox carries a religion field and leaves it empty, and no article text names a school or affiliation for him personally. The value is therefore unknown."
     sources: [source/wikipedia-noureddine-naybet-en, source/wikipedia-noureddine-naybet-ar, source/wikidata-noureddine-naybet]
 external_ids: { wikidata: "Q137899" }
+relations:
+  - { type: born_in, target: place/casablanca, sources: [source/wikidata-noureddine-naybet], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7903)" }
 sources: [source/wikipedia-noureddine-naybet-en, source/wikipedia-noureddine-naybet-ar, source/wikipedia-noureddine-naybet-fr, source/wikidata-noureddine-naybet]
 provenance:
   layer: own-research

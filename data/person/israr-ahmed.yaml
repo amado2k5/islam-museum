@@ -45,6 +45,8 @@ died:
   - source/wikipedia-israr-ahmed-ur
   - source/wikidata-israr-ahmed
 relations:
+- { type: born_in, target: place/hisar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-israr-ahmed] }
+- { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-israr-ahmed] }
 - type: died_in
   target: place/lahore
   sources:

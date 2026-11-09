@@ -12,6 +12,7 @@ gender: male
 roles: [calligrapher, artist]
 floruit: { edtf: "1763", calendar: gregorian, precision: year, status: historical, note: "رسالة مؤرخة 1176هـ/1763م؛ وتذكر المؤلفة حياته 1737–نحو 1771م {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 49}." }
 relations:
+  - { type: lived_in, target: place/iran, note: "From text: Iranian (nationality adjective); broad association, flagged for review.", sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018], confidence: low }
   - { type: exemplifies, target: concept/shikasta-script, sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018] }
 sources: [source/ekhtiar-how-to-read-islamic-calligraphy-2018]
 provenance:

@@ -1,0 +1,21 @@
+id: place/stolac
+class: place
+kind: town
+label: { ar: "إستولتس", en: "Stolac", ur: "ستولاک" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q1026587)."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [43.083888888889, 17.959166666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1026587" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1026587 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

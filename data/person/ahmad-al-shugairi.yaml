@@ -21,6 +21,7 @@ born:
   note: "Born at Jeddah on 6 June 1973, from the Arabic Wikipedia article and Wikidata Q4119651; the Hijri year (1393) is a converter derivation from that date. An older English profile (Alchetron, mirroring an earlier revision) gives 19 July 1973; the 6 June date is the one carried by the Arabic article and Wikidata and is the date recorded."
   sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi]
 relations:
+  - { type: born_in, target: place/jeddah, note: "From text: born in Jeddah", sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi] }
   - { type: born_in, target: place/jeddah, sources: [source/wikipedia-ahmad-al-shugairi-ar, source/wikidata-ahmad-al-shugairi] }
   - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-ahmad-al-shugairi-ar] }
 faith:

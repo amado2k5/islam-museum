@@ -14,6 +14,7 @@ regions: [egypt-nile]
 born: { edtf: "1330~", hijri: "0730~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي عن نيف وثمانين سنة 812 {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1410-02~", hijri: "0812-10", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في أواخر شوال 812 {cite:shadharat-dhahab p. 112}", sources: [source/shadharat-dhahab] }
 relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
   - { type: teacher_of, target: person/ibn-hajar-al-asqalani, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research

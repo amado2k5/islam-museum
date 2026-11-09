@@ -32,7 +32,8 @@ died:
   derived: true
   note: "Died in Rajab 991 AH (1583 CE) at Buner and was buried at Pacha Killay, where his shrine stands. The two article texts agree on 991 AH/1583 CE; a devotional biography page misprints the Gregorian year of 26 Rajab 991 as 1593, and a Buner district history gives 1575 — both preserved here as minority readings and not followed. Buner has no place entity, so no died_in or buried_in edge is written."
   sources: [source/wikipedia-pir-baba-en, source/wikipedia-pir-baba-simple]
-relations: []
+relations:
+  - { type: lived_in, target: place/khaybar, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-pir-baba-en, source/wikipedia-pir-baba-simple] }
 faith:
   - value: sufi
     basis: documented

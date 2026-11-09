@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  - { type: lived_in, target: place/dabil, note: "From text: of Dabil", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/reconquest-of-armenia, role: "عمّار دبيل والنشوى وبرذعة والبيلقان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: sibling_of, target: person/abdallah-ibn-hatim-al-bahili, sources: [source/futuh-buldan-maarif-1407] }
 provenance:

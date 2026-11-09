@@ -21,3 +21,5 @@ provenance:
   run: lib-muntazam-350-474-batch25
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: settled in Baghdad", sources: [source/muntazam-ibn-al-jawzi] }

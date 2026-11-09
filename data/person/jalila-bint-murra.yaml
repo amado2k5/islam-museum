@@ -12,6 +12,7 @@ themes: [women, literature, family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: spouse_of, target: person/kulayb-ibn-rabia, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: participated_in, target: event/harb-al-basus, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
 provenance: { layer: own-research, source: "أعلام النساء لعمر رضا كحالة، مؤسسة الرسالة، ج1 p.205–207", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }

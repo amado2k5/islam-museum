@@ -22,6 +22,8 @@ relations:
   - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
   - { type: related_to, target: concept/iddah, note: "عدة الحامل المتوفى عنها زوجها تنقضي بوضع الحمل في حديثها {cite:istiab-alam-2002 p. 912}", sources: [source/istiab-alam-2002] }
   - { type: member_of, target: group/sahaba, sources: [source/istiab-alam-2002] }
+  - { type: died_in, target: place/mecca, sources: [source/istiab-alam-2002], confidence: low, note: "en: 'Subay'a bint al-Harith al-Aslamiyya, wife of Sa'd ibn Khawla, who died at Mecca; she gave birth a few nig" }
+  - { type: died_in, target: place/nabil, sources: [source/istiab-alam-2002], confidence: low, note: "en: 'Subay'a bint al-Harith al-Aslamiyya, wife of Sa'd ibn Khawla, who died at Mecca; she gave birth a few nig" }
 provenance:
   layer: own-research
   source: "al-Isti'ab (Dar al-A'lam 2002) pp. 912-913, entry 3348 with the editor's notes"

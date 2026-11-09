@@ -31,6 +31,9 @@ died:
   derived: false
   note: "Stoned to death at Shohimardon on 18 March 1929, the date given by the English, Russian, Uzbek and Arabic articles and by Wikidata. The Urdu article gives the same date but a different account of the killing (shot by Basmachi gunmen), which is not followed. No source consulted gives a Hijri pairing, so no hijri value is recorded."
   sources: [source/wikipedia-hamza-hakimzade-niyazi-en, source/wikipedia-hamza-hakimzade-niyazi-ru, source/wikipedia-hamza-hakimzade-niyazi-uz]
+relations:
+  - { type: born_in, target: place/qo-qon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-hakimzade-niyazi] }
+  - { type: died_in, target: place/shohimardon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-hakimzade-niyazi] }
 faith:
   - value: unknown
     basis: unknown

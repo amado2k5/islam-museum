@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 died: { edtf: "1008-08~", hijri: "0398-06-11", calendar: julian, precision: day, status: tradition, derived: true, note: "11 جمادى الآخرة 398هـ بهراة {cite:shadharat-dhahab p. 159}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/harat, confidence: low, note: "Associated with هراة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"

@@ -45,6 +45,7 @@ faith:
     sources: [source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar]
 relations:
   - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-muhammad-shafee-okarvi-ur] }
+  - { type: buried_in, target: place/karachi, sources: [source/wikidata], confidence: low, note: "Buried at Karachi per the record text." }
 external_ids: { wikidata: "Q4116376" }
 sources: [source/wikipedia-muhammad-shafee-okarvi-en, source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar, source/wikidata-muhammad-shafee-okarvi]
 provenance:

@@ -17,6 +17,8 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: poet, status: tradition, sources: [source/al-mustatraf-abshihi-scan-vol1] }
+relations:
+  - { type: lived_in, target: place/yafa, confidence: low, note: "Associated with يافا per the record's own text; relation type pending review.", sources: [source/al-mustatraf-abshihi-scan-vol1] }
 sources: [source/al-mustatraf-abshihi-scan-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Mustatraf misers chapter, scan p. 205, read on the image)" }
 provenance: { layer: pd, source: "archive.org mustatraf_01, scan p. 205 (checked against the page image)", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-mustatraf-batch-02" }

@@ -17,6 +17,7 @@ periods: [period/colonial-era]
 regions: [levant-iraq]
 themes: [law-and-courts, development-of-law-theology-institutions]
 relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with Damascus per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: authored, target: work/radd-al-muhtar, sources: [source/radd-al-muhtar-scan-v3, source/radd-al-muhtar-bulaq-v4] }
   - { type: authored, target: work/nashr-al-urf, sources: [source/radd-al-muhtar-bulaq-v4] }
   - { type: authored, target: work/tanbih-al-ruqud, sources: [source/radd-al-muhtar-bulaq-v4] }

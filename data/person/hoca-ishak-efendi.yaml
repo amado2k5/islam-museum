@@ -35,6 +35,9 @@ died:
   note: "Died at Suez and was buried there, returning from the Medina restoration mission on which court intrigue had sent him. The TDV entry, the Turkish article and the German article give 1836; the English article gives the return in 1834 or 1835 and Wikidata gives 1835; the monograph tradition in the Springer literature gives 1834. All three readings are preserved and 1836 is built on the TDV entry and the Turkish article. The year spans 1251–1252 AH, so no Hijri year is built."
   sources: [source/dia-ishak-efendi-bashoca, source/wikipedia-hoca-ishak-efendi-tr, source/wikipedia-hoca-ishak-efendi-en, source/wikidata-hoca-ishak-efendi]
 
+relations:
+  - { type: born_in, target: place/arta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hoca-ishak-efendi] }
+  - { type: died_in, target: place/suways, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hoca-ishak-efendi] }
 faith:
   - value: unknown
     basis: unknown

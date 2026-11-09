@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: traveled_to, target: place/al-yamama, note: "From text: هاجر إلى الحبشة وقُتل يوم اليمامة في خل", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/al-yamama, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }

@@ -19,4 +19,6 @@ provenance:
 sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the death of al-Salih, the regency, Turanshah's killing, the sultanate, her marriage to Aybak and her killing of him are read from al-Maqrizi's Khitat (local scan, pp. 660–661, 1912–1916); her own death keeps its Shadharat citation and is not re-checked locally" }
 relations:
+  - { type: ruled_over, target: place/misr, sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006] }
+  - { type: lived_in, target: place/cairo, sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006] }
   - { type: built, target: building/shajarat-al-durr-tomb, sources: [source/yeomans-islamic-cairo-2006] }

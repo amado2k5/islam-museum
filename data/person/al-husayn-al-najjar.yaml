@@ -6,5 +6,7 @@ summary:
   en: "Al-Husayn al-Najjar — the mujbir theologian whose fatal debate with al-Nazzam is proverbial {cite:fihrist-ibn-al-nadim}"
 wings: [people]
 external_ids: { wikidata: "Q16435706" }
-sources: [source/fihrist-ibn-al-nadim]
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: born_in, target: place/bamm, note: "Wikidata Q106636 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }

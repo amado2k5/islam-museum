@@ -32,6 +32,8 @@ died:
   sources: [source/wikipedia-lady-abdullah-haroon-en, source/wikidata-lady-abdullah-haroon]
 relations:
   - { type: spouse_of, target: person/abdullah-haroon, sources: [source/wikipedia-lady-abdullah-haroon-en, source/wikipedia-abdullah-haroon-en, source/wikidata-lady-abdullah-haroon, source/wikidata-abdullah-haroon] }
+  - { type: born_in, target: place/iran, sources: [source/wikipedia-lady-abdullah-haroon-en], confidence: low, note: "Sindhi activist born in Iran per the record text." }
+  - { type: lived_in, target: place/karachi, sources: [source/wikipedia-lady-abdullah-haroon-en], confidence: low, note: "Settled in Karachi per the record text." }
 roles: [activist]
 wings: [people]
 regions: [south-asia]

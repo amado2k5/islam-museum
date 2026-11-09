@@ -1,0 +1,21 @@
+id: place/upper-mesopotamia
+class: place
+kind: region
+label: { ar: "الجزيرة الفراتية", en: "Upper Mesopotamia", ur: "جزیرہ فرات" }
+summary:
+  ar: "إقليم في العراق."
+  en: "Region in Iraq."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [36.46666666666667, 42.1]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q311819" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q311819 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

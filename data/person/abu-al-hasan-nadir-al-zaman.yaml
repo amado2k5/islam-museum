@@ -12,6 +12,7 @@ gender: male
 roles: [artist]
 born: { edtf: "1588/1589", hijri: "0997", calendar: gregorian, precision: year, status: historical, derived: false, note: "مستنتج من رسم مؤرخ 1009هـ «في سنتي الثالثة عشرة» {cite:beach-grand-mogul-1978 p. 84}." }
 relations:
+  - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/beach-grand-mogul-1978], confidence: low }
   - { type: child_of, target: person/aqa-riza-jahangiri, sources: [source/beach-grand-mogul-1978] }
   - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }
 sources: [source/beach-grand-mogul-1978]

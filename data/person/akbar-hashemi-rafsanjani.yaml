@@ -33,6 +33,8 @@ died:
   note: "Died at Tajrish in Tehran on 8 January 2017, of a heart attack; the English infobox gives Tajrish and the Arabic infobox Tehran, and Wikidata agrees on the date. Tehran has no place entity, so no died_in edge is written. The Hijri year (1438) is derived by tabular conversion."
   sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-ar, source/wikidata-rafsanjani]
 relations:
+  - { type: lived_in, target: place/burujird, note: "From text: درس في حوزة قم على يد بروجردي والخمين", sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-fa, source/wikipedia-rafsanjani-ar, source/wikipedia-rafsanjani-ur, source/wikidata-rafsanjani] }
+  - { type: died_in, target: place/tehran, note: "From text: died in Tehran", sources: [source/wikipedia-rafsanjani-en, source/wikipedia-rafsanjani-ar, source/wikidata-rafsanjani] }
   - { type: successor_of, target: person/ali-khamenei, sources: [source/wikipedia-rafsanjani-ar, source/wikipedia-rafsanjani-ur] }
   - { type: student_of, target: person/ruhollah-khomeini, sources: [source/wikipedia-rafsanjani-fa] }
 faith:

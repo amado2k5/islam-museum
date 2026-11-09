@@ -14,6 +14,8 @@ regions: [levant-iraq, persia-central-asia]
 died: { edtf: "1417~", hijri: "0820", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 820 {cite:shadharat-dhahab p. 153}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: participated_in, target: event/hurufi-execution-820, sources: [source/shadharat-dhahab] }
+
+  - { type: lived_in, target: place/tabriz, confidence: low, note: "Association inferred from the nisba 'التبريزي'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 820)، قراءة آبل فيجن"

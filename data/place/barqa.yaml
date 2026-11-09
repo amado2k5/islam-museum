@@ -12,7 +12,10 @@ regions: [maghreb]
 relations:
   - { type: site_of, target: event/sulh-barqa, sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/uqba-zawila-appointment, sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
+coordinates: [32.4, 21.2]
+coordinate_precision: approx
+coordinate_note: "Approximate identified/modern location; flagged for gazetteer verification."
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut, source/geonames-gazetteer]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research

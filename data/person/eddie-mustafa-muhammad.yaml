@@ -24,6 +24,8 @@ born:
   derived: true
   note: "Born Edward Dean Gregory on 30 April 1952 in Brooklyn, New York. The English article gives the middle name Dean, citing The Boxing Register (Roberts and Skutt, 2006); BoxRec gives Edward Lee Gregory instead — both are recorded here and in the names list the English article's form is used. The date and place are agreed by the English and Arabic articles, BoxRec and Wikidata. Brooklyn has no place entity in the museum, so the birthplace is carried here only. The Hijri year 1371 is derived from the Gregorian date on the tabular calendar."
   sources: [source/wikipedia-eddie-mustafa-muhammad-en, source/wikipedia-eddie-mustafa-muhammad-ar, source/boxrec-eddie-mustafa-muhammad, source/wikidata-eddie-mustafa-muhammad]
+relations:
+  - { type: born_in, target: place/brooklyn, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-eddie-mustafa-muhammad] }
 faith:
   - value: unknown
     basis: unknown

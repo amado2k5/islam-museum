@@ -33,9 +33,10 @@ died:
   note: "Both articles and Wikidata give 23 August 1927, at Cairo. The English article gives his resting place as the Mausoleum of Saad Zaghloul in Cairo, where he is buried with his wife Safiya in their mausoleum, Bayt al-Umma (House of the Nation). The Hijri year 1346 is the derived conversion of August 1927."
   sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar, source/wikidata-saad-zaghloul]
 relations:
+  - { type: sibling_of, target: person/ahmad-fathi-zaghlul, sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-saad-zaghloul-en] }
-  - { type: sibling_of, target: person/ahmad-fathi-zaghlul, sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar] }
+  - { type: lived_in, target: place/malta, sources: [source/wikipedia-saad-zaghloul-en, source/wikipedia-saad-zaghloul-ar, source/wikidata-saad-zaghloul] }
 faith:
   - value: unknown
     basis: unknown

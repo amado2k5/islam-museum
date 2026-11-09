@@ -40,6 +40,8 @@ died:
   note: "Died at Kartarpur on the Ravi, the settlement he founded; the place has no entity in the graph, so the death place is prose-only. The Sikh records date the death to the tenth day of Asauj, Samvat 1596, corresponding to 22 September 1539, at the stated age of 70 years, 5 months and 7 days, which fits the April 1469 birth. Britannica notes the tradition divided between 1538 and 1539, with 1539 the more likely; Wikidata carries three death values — 22 September 1538, 7 May 1539 and 22 September 1539 — all preserved here, with 22 September 1539 the value built. The Hijri year is derived from the date."
   sources: [source/wikipedia-guru-nanak-en, source/wikipedia-guru-nanak-ur, source/britannica-guru-nanak, source/wikidata-guru-nanak]
 
+relations:
+  - { type: born_in, target: place/nankana-sahib, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-guru-nanak] }
 faith:
   - value: sikh
     basis: documented

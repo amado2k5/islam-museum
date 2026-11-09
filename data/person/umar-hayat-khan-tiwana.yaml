@@ -40,7 +40,8 @@ faith:
     basis: unknown
     note: "No consulted source names any religion or school for him: the English article's text and infobox are silent on religion, and Wikidata carries no religion statement. His election in December 1913 as one of the seventeen officers of the All-India Muslim League is political office, his Tiwana family background is lineage, and neither attests a personal school or affiliation. Nothing here supports any segment beyond unknown."
     sources: [source/wikipedia-umar-hayat-khan-tiwana-en, source/wikidata-umar-hayat-khan-tiwana]
-relations: []
+relations:
+  - { type: lived_in, target: place/tibat, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-umar-hayat-khan-tiwana-en, source/wikidata-umar-hayat-khan-tiwana] }
 external_ids: { wikidata: "Q5907820" }
 sources: [source/wikipedia-umar-hayat-khan-tiwana-en, source/wikidata-umar-hayat-khan-tiwana]
 provenance:

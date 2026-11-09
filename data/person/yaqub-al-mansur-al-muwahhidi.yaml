@@ -19,5 +19,8 @@ provenance:
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
 external_ids: { wikidata: "Q455739" }
+relations:
+  - { type: born_in, target: place/almohad-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q199688)" }
+  - { type: died_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q101625)" }
 sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 3 }

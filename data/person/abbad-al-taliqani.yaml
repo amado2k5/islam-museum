@@ -14,6 +14,7 @@ regions: [persia-central-asia]
 died:
   { edtf: "0995~", hijri: "0385", calendar: julian, precision: year, status: tradition, derived: true, note: "أدرجت ترجمته في وفيات سنة 385؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.184}", sources: [source/muntazam-ibn-al-jawzi] }
 relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: parent_of, target: person/sahib-ibn-abbad, sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research

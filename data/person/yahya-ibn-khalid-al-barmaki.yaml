@@ -13,6 +13,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
 relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: child_of, target: person/khalid-ibn-barmak, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: member_of, target: group/barmakids, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/tarikh-dawla-abbasiyya-taqqush]

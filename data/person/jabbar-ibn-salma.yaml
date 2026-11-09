@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-amir-ibn-sasaa, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "من رؤساء الوفد؛ لا يُذكر له دور في التدبير", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 213", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }

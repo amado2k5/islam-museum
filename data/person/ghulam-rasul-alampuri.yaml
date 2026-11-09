@@ -33,6 +33,8 @@ died:
   derived: true
   note: "Died at Alampur in 1892, aged 43. The English article and Wikidata give 7 March 1892, which the record follows; the Urdu article gives 5 March 1892. His shrine stands at Alampur. Alampur has no place entity, so no died_in or buried_in edge is written. The Hijri year is a conversion."
   sources: [source/wikipedia-ghulam-rasul-alampuri-en, source/wikipedia-ghulam-rasul-alampuri-ur, source/wikidata-ghulam-rasul-alampuri]
+relations:
+  - { type: born_in, target: place/hoshiarpur, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ghulam-rasul-alampuri-en, source/wikidata-ghulam-rasul-alampuri] }
 faith:
   - value: unknown
     basis: unknown

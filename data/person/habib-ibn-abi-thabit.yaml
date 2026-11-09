@@ -8,6 +8,8 @@ summary:
   ar: "أبو يحيى حبيب بن أبي ثابت من فقهاء التابعين؛ مات سنة سبع عشرة ومائة {cite:tabaqat-fuqaha-abbas-1981 p. 44}. وقال أبو بكر بن عياش: ثلاثة ليس لهم رابع: حبيب بن أبي ثابت، والحكم بن عتيبة، وحماد بن أبي سليمان."
 wings: [people]
 died: { hijri: "0117", edtf: "0735~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة سبع عشرة ومائة (PDF ص44).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Associated with شيراز per the record's own text; relation type pending review.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance:
   layer: "own-research"

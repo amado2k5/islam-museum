@@ -21,6 +21,8 @@ roles:
 wings:
   - people
   - living
+relations:
+  - { type: lived_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatima-barkatulla] }
 faith:
   - value: unknown
     basis: unknown

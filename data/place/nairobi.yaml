@@ -1,0 +1,37 @@
+id: place/nairobi
+class: place
+kind: city
+label:
+  ar: نيروبي
+  en: Nairobi
+  ur: نیروبی
+summary:
+  ar: عاصمة كينيا وأكبر مدنها.
+  en: Capital and largest city of Kenya.
+wings:
+- place
+regions:
+- east-africa
+coordinates:
+- -1.28639
+- 36.81722
+coordinate_precision: locality
+coordinate_note: Wikidata Q3870 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q3870
+  geonames: '184745'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3870 (labels, coordinates, description)

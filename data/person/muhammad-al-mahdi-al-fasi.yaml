@@ -67,3 +67,5 @@ provenance:
   run: "modern-figures-wave-176m"
 
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/fes, confidence: low, note: "Association inferred from the nisba 'الفاسي'; specific birthplace or residence is not individually documented.", sources: [source/wikipedia-muhammad-al-mahdi-al-fasi-en, source/wikipedia-muhammad-al-mahdi-al-fasi-ar, source/igi-muhammad-al-mahdi-al-fasi, source/wikidata-muhammad-al-mahdi-al-fasi] }

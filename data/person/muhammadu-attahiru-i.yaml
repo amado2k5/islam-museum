@@ -31,6 +31,7 @@ faith:
     sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i]
 relations:
   - { type: ruler_of, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammadu-attahiru-i-en] }
+  - { type: ruler_of, target: place/sokoto, sources: [source/wikidata], confidence: low, note: "Sultan of Sokoto per the record text." }
 sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i]
 external_ids:
   wikidata: "Q6932914"

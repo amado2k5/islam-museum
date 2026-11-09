@@ -23,6 +23,8 @@ born:
   note: "Born at Shangla, North-West Frontier Province (now Khyber Pakhtunkhwa), Pakistan, on 20 April 1969; the English article gives the day, citing Time magazine. Wikidata carries only a month-precision value (January 1969) and the Arabic article only the year 1969; the article's cited day-precision date is the one carried. The Hijri year (1389) is derived by tabular conversion. No born_in relation is written: Shangla has no museum place entity."
   sources: [source/wikipedia-ziauddin-yousafzai-en, source/wikipedia-ziauddin-yousafzai-ar, source/wikidata-ziauddin-yousafzai]
 relations:
+  - { type: born_in, target: place/pakistan, sources: [source/wikipedia-ziauddin-yousafzai-en, source/wikipedia-ziauddin-yousafzai-ar, source/wikidata-ziauddin-yousafzai] }
+  - { type: lived_in, target: place/pakistan, sources: [source/wikipedia-ziauddin-yousafzai-en, source/wikipedia-ziauddin-yousafzai-ar, source/wikipedia-ziauddin-yousafzai-ur, source/wikidata-ziauddin-yousafzai] }
   - { type: parent_of, target: person/malala-yousafzai, sources: [source/wikipedia-ziauddin-yousafzai-en] }
 faith:
   - value: unknown

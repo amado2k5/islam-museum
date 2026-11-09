@@ -18,3 +18,5 @@ provenance:
 sources: [source/shadharat-dhahab]
 external_ids: { wikidata: "Q12177831" }
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/merv, note: "Place association from the person's nisba/name (المروزي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

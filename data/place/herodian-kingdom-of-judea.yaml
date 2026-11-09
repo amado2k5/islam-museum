@@ -1,0 +1,21 @@
+id: place/herodian-kingdom-of-judea
+class: place
+kind: region
+label: { ar: "المملكة الهيرودية", en: "Herodian Kingdom of Judea", ur: "ہیرودیسی سلطنت" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q16000109)."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [31.783333333333335, 35.21666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q16000109" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q16000109 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

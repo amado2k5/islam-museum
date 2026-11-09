@@ -16,3 +16,6 @@ provenance:
   run: lib-wafayat-batch-24
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+
+  - { type: died_in, target: place/basra, sources: [source/wafayat-ayan] }

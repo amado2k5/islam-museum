@@ -12,6 +12,9 @@ relations:
 - type: allied_with
   target: person/masud-ibn-zammam
   sources: [source/kamil-ibn-al-athir]
+- { type: ruler_of, target: place/al-mahdiyya, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'قراقوش مملوك تقي الدين عمر ابن أخي صلاح الدين يوسف بن أيوب؛ سار بطائفة من الترك من ديار مصر إلى جبال نفوس" }
+- { type: ruler_of, target: place/gabes, sources: [source/kamil-ibn-al-athir], confidence: low, note: "en: 'Qaraqush, mamluk of Taqi al-Din Umar ibn Ayyub (Saladin's nephew) — led a Turkish corps out of Egypt to t" }
+- { type: ruled_over, target: place/ifriqiya, sources: [source/kamil-ibn-al-athir], confidence: low, note: "en: 'Qaraqush, mamluk of Taqi al-Din Umar ibn Ayyub (Saladin's nephew) — led a Turkish corps out of Egypt to t" }
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb, egypt-nile]

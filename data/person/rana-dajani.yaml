@@ -32,6 +32,8 @@ faith:
     note: "Wikidata records no religion for her at all. The English article describes her advocacy of biological evolution 'in relation to the religion of Islam' and her book Five Scarves, but no source consulted names a school of Islam. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-rana-dajani-en, source/wikidata-rana-dajani]
 external_ids: { wikidata: "Q20415099" }
+relations:
+  - { type: born_in, target: place/dhahran, sources: [source/wikidata-rana-dajani], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q268915)" }
 sources: [source/wikipedia-rana-dajani-en, source/wikipedia-rana-dajani-ar, source/wikipedia-rana-dajani-ur, source/wikidata-rana-dajani, source/unesco-we-love-reading, source/rana-dajani-cv]
 provenance:
   layer: own-research

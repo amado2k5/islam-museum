@@ -30,7 +30,9 @@ died:
   derived: true
   note: "Died at Hobyo in 1911, the article's lead giving the day as 14 August 1911 and its infobox giving the year 1911 and the place Hobyo; his reign is given as April 1878 – 28 September 1911 and his successor as his son Ali Yusuf. The Hijri year (1329) is derived by tabular conversion (14 August 1911 falls in Sha'ban 1329). Hobyo has no place entity in the museum yet, so no died_in relation is written. The queue's death year 1929 is attested by no source read."
   sources: [source/wikipedia-yusuf-ali-kenadid-en]
-relations: []
+relations:
+
+  - { type: lived_in, target: place/yemen, sources: [source/wikipedia-yusuf-ali-kenadid-en, source/wikipedia-sultanate-of-hobyo-en] }
 faith:
   - value: unknown
     basis: unknown

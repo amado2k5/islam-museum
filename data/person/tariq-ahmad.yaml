@@ -29,7 +29,8 @@ born:
   note: "Born in Lambeth, London on 3 April 1968; the English and Arabic articles and Wikidata agree (Wikidata also carries the date at month precision). The Hijri year 1388 is the tabular conversion of the built date, marked derived. No place entity for Lambeth or London exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-tariq-ahmad-en, source/wikipedia-tariq-ahmad-ar, source/wikidata-tariq-ahmad]
 
-relations: []
+relations:
+  - { type: born_in, target: place/london, sources: [source/wikidata-tariq-ahmad], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q84)" }
 
 faith:
   - value: ahmadiyya

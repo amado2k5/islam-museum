@@ -1,0 +1,21 @@
+id: place/velefique
+class: place
+kind: town
+label: { ar: "بلفيق", en: "Velefique", ur: "ویلیفیکے" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q980597)."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [37.1939294, -2.4029018]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q980597" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q980597 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

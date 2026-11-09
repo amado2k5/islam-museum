@@ -27,7 +27,8 @@ born:
   derived: true
   note: "Born in Karachi, Pakistan, on 14 October 1974, given on his official website as 27 Ramadan 1394 AH; the date rests on that primary source (the same date is repeated by Dawat-e-Islami's own course pages, a single source family) and is flagged as such in the wave report. There is no place record for Karachi, so no born_in edge is written."
   sources: [source/abdulhabibattari-abdul-habib-attari]
-relations: []
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (مدني); denotes association, not proven residence.", sources: [source/abdulhabibattari-abdul-habib-attari, source/vidiq-abdul-habib-attari], confidence: low }
 sources: [source/abdulhabibattari-abdul-habib-attari, source/vidiq-abdul-habib-attari]
 provenance:
   layer: own-research

@@ -1,0 +1,38 @@
+id: place/qatar
+class: place
+kind: region
+label:
+  ar: قطر
+  en: Qatar
+  ur: قطر
+summary:
+  ar: شبه جزيرة قطر على الساحل الغربي للخليج؛ ساحل للغوص على اللؤلؤ تحت حكم آل ثاني، محمية بريطانية حتى 1971م ثم إمارة مستقلة.
+  en: The Qatari peninsula on the western Gulf; a pearling coast under Al Thani rule, a British protectorate until 1971, and an independent emirate since.
+  ur: مغربی خلیج میں قطر کا جزیرہ نما؛ آل ثانی کی ریاست اور 1971ء سے آزاد امارت۔
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 25.3
+- 51.2
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q846
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q846 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q846; regional centroid

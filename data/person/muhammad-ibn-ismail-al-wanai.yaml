@@ -21,3 +21,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: lived_in, target: place/al-sham, confidence: medium, note: "Twice held the judgeship of al-Sham per the fiqh encyclopaedia.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: lived_in, target: place/misr, confidence: medium, note: "Taught at the Salihiyya beside Imam al-Shafi'i's tomb in Cairo per the fiqh encyclopaedia.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

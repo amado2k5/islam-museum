@@ -16,6 +16,8 @@ summary:
 wings: [people]
 themes: [literature]
 regions: [anatolia-balkans]
+relations:
+  - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/juha-nawadir-kubra-djuwaydi] }
 sources: [source/juha-nawadir-kubra-djuwaydi]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Juha book, scan p. 159, from the claims file; not image-checked)" }
 provenance: { layer: copyrighted-reference, source: "archive.org civ-3027, scan p. 159", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-juha-people" }

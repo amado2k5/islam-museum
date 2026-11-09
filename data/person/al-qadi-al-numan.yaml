@@ -14,6 +14,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch93
+relations:
+  - { type: lived_in, target: place/ifriqiya, note: "Served the Fatimid al-Muizz in Ifriqiya.", sources: [source/wafayat-ayan], confidence: high }
+  - { type: lived_in, target: place/misr, note: "Entered the Egyptian lands with al-Muizz.", sources: [source/wafayat-ayan], confidence: high }
+  - { type: died_in, target: place/misr, note: "Died at Misr in 363; al-Muizz prayed over him.", sources: [source/wafayat-ayan], confidence: high }
 sources: [source/wafayat-ayan]
 status:
   review: published

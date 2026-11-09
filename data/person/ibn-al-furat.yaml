@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [arabia, egypt-nile]
 died: { edtf: "1447~", hijri: "0851", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 851 {cite:shadharat-dhahab p. 269-270}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/al-furat-city, confidence: low, note: "Associated with الفرات per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 851)، قراءة آبل فيجن"

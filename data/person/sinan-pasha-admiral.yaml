@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11194)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: building/mihrimah-sultan-mosque-uskudar, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2537376)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1378425

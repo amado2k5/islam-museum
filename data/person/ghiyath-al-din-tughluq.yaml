@@ -24,6 +24,7 @@ died:
   note: "The English article's lead and Wikidata give his death as 1 February 1325, when the wooden pavilion raised for his reception on the return from Bengal collapsed, killing him and his second son Mahmud Khan. The English article's body places the collapse at Kara-Manikpur; the Arabic article places it at Afghanpur and dates it to July 1325 (725 AH). Both readings are preserved. Ibn Battuta claimed the collapse was a conspiracy against him. No text read gives a birth year — Wikidata carries only c. 1250 at century precision — so no born block is written."
   sources: [source/wikipedia-ghiyath-al-din-tughluq-en, source/wikipedia-ghiyath-al-din-tughluq-ar, source/wikidata-ghiyath-al-din-tughluq]
 relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "Associated with دلهي per the record's own summary text; relation type pending review.", sources: [source/wikipedia-ghiyath-al-din-tughluq-en] }
   - { type: predecessor_of, target: person/muhammad-ibn-tughluq, sources: [source/wikipedia-ghiyath-al-din-tughluq-en, source/wikipedia-ghiyath-al-din-tughluq-ar] }
 faith:
   - value: unknown

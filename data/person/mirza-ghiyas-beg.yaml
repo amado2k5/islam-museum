@@ -45,6 +45,10 @@ died:
     - source/wikipedia-mirza-ghiyas-beg-en
     - source/wikidata-mirza-ghiyas-beg
 
+relations:
+  - { type: born_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-ghiyas-beg] }
+  - { type: buried_in, target: building/itimad-ud-daulah-tomb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-ghiyas-beg] }
+  - { type: buried_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mirza-ghiyas-beg] }
 faith:
   - value: unknown
     basis: unknown

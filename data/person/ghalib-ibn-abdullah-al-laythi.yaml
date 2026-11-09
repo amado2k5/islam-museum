@@ -12,6 +12,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/al-kudayd, confidence: low, note: "Associated with al-Kudayd per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/kinana, note: "من كلب بن عوف بن ليث", sources: [source/ibn-hisham-saqqa] }

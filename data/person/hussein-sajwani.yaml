@@ -27,6 +27,8 @@ born:
   note: "The English and Arabic articles and Wikidata agree on the birth year 1953. The Arabic article and Wikidata's birthplace statement place his birth in Dubai; no place entity for Dubai exists on main, so no birthplace is recorded in this block. A bare year 1953 spans the two Hijri years 1372 and 1373, so no Hijri year is recorded."
   sources: [source/wikipedia-hussein-sajwani-en, source/wikipedia-hussein-sajwani-ar, source/wikidata-hussein-sajwani]
 
+relations:
+  - { type: lived_in, target: place/united-states, confidence: low, note: "Associated with الولايات المتحدة per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:
   - value: unknown
     basis: unknown

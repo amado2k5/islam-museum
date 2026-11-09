@@ -32,6 +32,7 @@ died:
   note: "The English article gives his death at Damascus on 2 January 1962, citing Sami Moubayed's 'Steel & Silk' (2006); Wikidata agrees. The Hijri year (1381) is derived from the Gregorian date."
   sources: [source/wikipedia-fares-al-khoury-en, source/wikidata-fares-al-khoury]
 relations:
+  - { type: born_in, target: place/beirut-vilayet, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fares-al-khoury] }
   - { type: died_in, target: place/damascus, sources: [source/wikipedia-fares-al-khoury-en, source/wikidata-fares-al-khoury] }
 faith:
   - value: christian

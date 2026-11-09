@@ -19,6 +19,7 @@ died:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 relations:
+- { type: died_in, target: place/tawawis, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
 - type: child_of
   target: person/tutush
   sources:

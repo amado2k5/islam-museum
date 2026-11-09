@@ -21,6 +21,10 @@ died:
 relations:
 - type: died_in
   target: place/jerusalem
+  note: "From text: died in Jerusalem"
+  sources: [source/tarikh-ibn-khaldun-ibar]
+- type: died_in
+  target: place/jerusalem
   sources:
   - source/tarikh-ibn-khaldun-ibar
 wings: [people]

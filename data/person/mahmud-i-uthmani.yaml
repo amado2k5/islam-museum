@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: born_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: successor_of, target: person/ahmed-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids: { wikidata: "Q199481" }
 sources: [source/dawlat-uthmaniyya-salabi]

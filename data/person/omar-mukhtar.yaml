@@ -31,6 +31,8 @@ died:
   sources: [source/wikipedia-omar-mukhtar-en, source/wikipedia-omar-mukhtar-ar, source/wikidata-omar-mukhtar]
 relations:
   - { type: student_of, target: person/muhammad-al-mahdi-al-sanusi, sources: [source/wikipedia-omar-mukhtar-en] }
+
+  - { type: lived_in, target: place/manf, confidence: low, note: "Association inferred from the nisba 'المنفي'; specific birthplace or residence is not individually documented.", sources: [source/wikipedia-omar-mukhtar-en, source/wikipedia-omar-mukhtar-ar, source/wikidata-omar-mukhtar, source/omar-mukhtar-sallabi] }
 faith:
   - value: sunni
     basis: documented

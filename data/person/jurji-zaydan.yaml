@@ -32,6 +32,7 @@ died:
   note: "Died at Cairo on 21 July 1914 (both articles and Wikidata; the Arabic article pairs the date with 27 Sha'ban 1332 AH and says he died suddenly among his books and papers)."
   sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar, source/wikidata-jurji-zaydan]
 relations:
+  - { type: born_in, target: place/bayrut, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jurji-zaydan] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-jurji-zaydan-en, source/wikipedia-jurji-zaydan-ar] }
 faith:
   - value: unknown

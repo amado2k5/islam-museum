@@ -14,6 +14,7 @@ wings: [people]
 born: { hijri: "0202", edtf: "0818~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد سنة اثنتين ومائتين (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 died: { hijri: "0270", edtf: "0884~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة سبعين ومائتين (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
   - { type: student_of, target: person/ishaq-ibn-rahwayh, role: "أخذ العلم عن إسحاق بن راهويه (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/abu-thawr-al-kalbi, role: "أخذ العلم عن أبي ثور (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]

@@ -27,6 +27,8 @@ faith:
     note: "No source gives any religion content for him. The English article's text, infobox and categories name none; the Urdu stub, derived from the English article, names none; the Bengali article names none; Wikidata carries no religion value. His visiting professorship at the Islamic University of Technology is a professional post and attests nothing about him. Absence configuration: recorded unknown, unflagged."
     sources: [source/wikipedia-mubarak-ahmad-khan-en, source/wikipedia-mubarak-ahmad-khan-ur, source/wikidata-mubarak-ahmad-khan]
 external_ids: { wikidata: "Q56907915" }
+relations:
+  - { type: born_in, target: place/dhaka-division, sources: [source/wikidata], confidence: low, note: "Born in Manikganj, Dhaka Division per the record text." }
 sources: [source/wikipedia-mubarak-ahmad-khan-en, source/wikipedia-mubarak-ahmad-khan-ur, source/wikidata-mubarak-ahmad-khan]
 provenance:
   layer: own-research

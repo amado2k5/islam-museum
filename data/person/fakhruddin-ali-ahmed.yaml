@@ -33,6 +33,8 @@ died:
   note: "Died on 11 February 1977 at New Delhi, of a heart attack, in office as president, as the English article and Wikidata give; he was buried, after a state funeral, in a mosque near Parliament House. The Hijri year (1397) is by tabular conversion."
   sources: [source/wikipedia-fakhruddin-ali-ahmed-en, source/wikidata-fakhruddin-ali-ahmed]
 relations:
+  - { type: born_in, target: place/old-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fakhruddin-ali-ahmed] }
+  - { type: died_in, target: place/new-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fakhruddin-ali-ahmed] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-fakhruddin-ali-ahmed-en] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-fakhruddin-ali-ahmed-en] }
 faith:

@@ -10,6 +10,8 @@ roles: [poet]
 wings: [people, words]
 periods: [period/abbasid-early]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with al-Andalus per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

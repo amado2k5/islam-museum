@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/hotat-bani-tamim-governorate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3543425)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q107290274

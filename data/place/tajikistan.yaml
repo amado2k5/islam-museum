@@ -1,0 +1,36 @@
+id: place/tajikistan
+class: place
+kind: region
+label:
+  ar: طاجيكستان
+  en: Tajikistan
+summary:
+  ar: جمهورية في وسط آسيا الناطقة بالفارسية.
+  en: Persian-speaking Central Asian republic.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 38.9
+- 71.0
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q863
+  geonames: '1220409'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q863 (labels, coordinates, description)

@@ -26,6 +26,8 @@ faith:
     note: "No article read names a school for Nur Misuari. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. His founding and leadership of the Moro National Liberation Front is movement leadership, which never counts. Under the two-source rule and the doubt rule his school stays unknown. No school reading exists anywhere, so the value is unknown and unflagged."
     sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
 external_ids: { wikidata: "Q2005240" }
+relations:
+  - { type: born_in, target: place/jolo, sources: [source/wikidata-nur-misuari], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q156024)" }
 sources: [source/wikipedia-nur-misuari-en, source/wikipedia-nur-misuari-ar, source/wikidata-nur-misuari]
 provenance:
   layer: own-research

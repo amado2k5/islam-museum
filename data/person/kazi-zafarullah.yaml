@@ -23,6 +23,8 @@ born:
   derived: true
   note: "Born in April 1947, per the English Wikipedia article (infobox and early-life text), the eldest son of Kazi Mahbubullah and Begum Zebunnessa. The article states no birthplace for him, so no born_in edge is written. A celebrity-listing claim of 1 April 1949 is a content-farm error and is not used. The Hijri year 1366 is derived from the Gregorian date."
   sources: [source/wikipedia-kazi-zafarullah-en]
+relations:
+  - { type: lived_in, target: place/bangladesh, confidence: low, note: "Associated with بنغلاديش per the record's own text; relation type pending review.", sources: [source/wikipedia-kazi-zafarullah-en] }
 faith:
   - value: unknown
     basis: unknown

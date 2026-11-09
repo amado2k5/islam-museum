@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/samarra, note: "Dream-interpreter at al-Wathiq's court; the caliphal seat of that period was Samarra. Inferred.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: related_to, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

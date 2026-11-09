@@ -34,6 +34,10 @@ roles: [ruler]
 wings: [people]
 regions: [persia-central-asia]
 relations:
+  - { type: born_in, target: place/tashkent, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habibullah-khan] }
+  - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habibullah-khan] }
+  - { type: died_in, target: place/afghanistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habibullah-khan] }
+  - { type: buried_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-habibullah-khan] }
   - { type: parent_of, target: person/amanullah-khan, sources: [source/wikipedia-habibullah-khan-en, source/wikipedia-amanullah-khan-en] }
 faith:
   - value: unknown

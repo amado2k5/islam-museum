@@ -9,6 +9,12 @@ regions: [egypt-nile]
 wings: [place]
 coordinates: [31.03408, 30.46823]
 coordinate_precision: locality
+provenance:
+  layer: own-research
+  source: "Recorded against source/geonames-gazetteer, source/rihla-ibn-battuta-1958; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
 external_ids: { geonames: "318207" }
 sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }

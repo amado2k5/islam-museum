@@ -11,6 +11,7 @@ roles: [sultan]
 traditions: [sunni]
 died: { edtf: "1354-10-07", hijri: "0755-10-01", calendar: julian, precision: day, status: tradition, derived: true, note: "هلك يوم الفطر سنة 755هـ بمصلى العيد؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- { type: ruler_of, target: place/granada, sources: [source/tarikh-ibn-khaldun-ibar] }
 - type: ruler_of
   target: polity/emirate-of-granada
   sources:

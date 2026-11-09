@@ -30,6 +30,8 @@ born:
   - source/nwu-sooliman-2021
   - source/mandela-university-sooliman-2016
   - source/wikidata-imtiaz-sooliman
+relations:
+  - { type: lived_in, target: place/south-africa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-imtiaz-sooliman] }
 faith:
 - value: unknown
   basis: unknown

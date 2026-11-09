@@ -12,6 +12,9 @@ wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1353", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/ghazni-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/rohtasgarh-fort, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q15227753

@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/colonial-era]
+relations:
+  - { type: born_in, target: place/qadian, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
   - { value: ahmadiyya, basis: self-identified }
 sources: [source/duha-islam]

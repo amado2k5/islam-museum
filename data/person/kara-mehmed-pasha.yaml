@@ -12,6 +12,10 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 died: { edtf: "1619", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3820159

@@ -11,6 +11,7 @@ regions: [levant-iraq]
 died: { edtf: "1521~", hijri: "0927", calendar: julian, precision: year, status: tradition, derived: true, note: "نص كشف الظنون: سبع وعشرين وتسع مئة؛ والمحفوظ عند محققيه ٩٢٨هـ {cite:kashf-zunun-furqan p. 649}." }
 relations:
   - { type: authored, target: work/al-uns-al-jalil, sources: [source/kashf-zunun-furqan] }
+  - { type: ruler_of, target: place/yemen, sources: [source/kashf-zunun-furqan], confidence: low, note: "ar: 'القاضي مجير الدين أبو اليمن عبد الرحمن العليمي الحنبلي المتوفى سنة ٩٢٧هـ؛ صاحب الأنس الجليل بتاريخ القدس " }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 649-650 مدخل 1868"

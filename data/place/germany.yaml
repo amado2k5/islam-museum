@@ -1,0 +1,38 @@
+id: place/germany
+class: place
+kind: region
+label:
+  ar: ألمانيا
+  en: Germany
+  ur: جرمنی
+summary:
+  ar: دولة في وسط أوروبا.
+  en: Country in Central Europe.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 51
+- 10
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q183
+  geonames: '2921044'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q183 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q183 (labels, coordinates, description)

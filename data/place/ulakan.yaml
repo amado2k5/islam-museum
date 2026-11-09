@@ -1,0 +1,21 @@
+id: place/ulakan
+class: place
+kind: town
+label: { ar: "أولاكان", en: "Ulakan" }
+summary:
+  ar: "بلدة أولاكان."
+  en: "Town (Ulakan)."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [-0.689, 100.2]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q14753590; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q14753590" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q14753590 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

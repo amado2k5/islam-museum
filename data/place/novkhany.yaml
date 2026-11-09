@@ -1,0 +1,21 @@
+id: place/novkhany
+class: place
+kind: town
+label: { ar: "نوخاني ⁦(بلدية)⁩", en: "Novkhany", ur: "نوخانی" }
+summary:
+  ar: "بلدة في أذربيجان."
+  en: "Town in Azerbaijan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [40.539167771175755, 49.78354901067837]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2059406" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2059406 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

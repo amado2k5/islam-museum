@@ -33,6 +33,8 @@ died:
 roles: [politician]
 wings: [people]
 regions: [south-asia]
+relations:
+  - { type: born_in, target: place/jalandhar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-chaudhry-muhammad-ali] }
 faith:
   - value: unknown
     basis: unknown

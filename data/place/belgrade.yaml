@@ -9,7 +9,8 @@ wings: [place]
 regions: [anatolia-balkans]
 coordinates: [44.804, 20.465]
 coordinate_precision: site
-sources: [source/geonames-gazetteer]
+external_ids: { wikidata: "Q3711" }
+sources: [source/geonames-gazetteer, source/wikidata]
 provenance:
   layer: own-research
   source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map"

@@ -11,6 +11,10 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+relations:
+  - { type: born_in, target: place/yafa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q180294)" }
+  - { type: died_in, target: place/zarqa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q148062)" }
+  - { type: buried_in, target: place/jordan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q810)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q125886811

@@ -35,7 +35,8 @@ faith:
     basis: unknown
     note: "No fetched text names a school for Syed Ali Imam himself, and Wikidata carries no religion statement for him. His younger brother Hasan Imam is described in his own article as a Shia Muslim; a brother's attested faith is family background and never counts for this man, so the value stays unknown."
     sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam]
-relations: []
+relations:
+  - { type: lived_in, target: place/al-haditha, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam] }
 external_ids: { wikidata: "Q102226904" }
 sources: [source/wikipedia-syed-ali-imam-en, source/wikipedia-syed-ali-imam-ur, source/wikidata-syed-ali-imam]
 provenance:

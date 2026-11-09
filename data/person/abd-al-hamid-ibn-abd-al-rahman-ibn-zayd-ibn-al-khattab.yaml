@@ -14,3 +14,5 @@ provenance:
   source: "salabi-umayyad-state-2020 p. 387"
   generated_by: "Claude (Haiku 5.5, subagent)"
 status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (subagent), extracted from salabi-umayyad-state-2020 p. 387; the book cites Siyar A'lam al-Nubala' for the description" }
+relations:
+  - { type: ruler_of, target: place/kufa, note: "From text: amir of Kufa. The", sources: [source/salabi-umayyad-state-2020] }

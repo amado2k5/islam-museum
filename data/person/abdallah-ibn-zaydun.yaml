@@ -16,3 +16,5 @@ provenance:
   run: lib-wafayat-batch-17
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: buried_in, target: place/cordoba, note: "From text: buried at Cordoba", sources: [source/wafayat-ayan] }

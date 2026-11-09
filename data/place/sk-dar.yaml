@@ -1,0 +1,36 @@
+id: place/sk-dar
+class: place
+kind: city
+label:
+  ar: أسكدار
+  en: Üsküdar
+  ur: اسکودار
+summary:
+  ar: مدينة في تركيا.
+  en: District of İstanbul, northwestern Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41.0167
+- 29.0167
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q326339
+  geonames: '738329'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q326339 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q326339 (labels, coordinates, description)

@@ -1,0 +1,38 @@
+id: place/iran
+class: place
+kind: region
+label:
+  ar: إيران
+  en: Iran
+  ur: ایران
+summary:
+  ar: بلد في غرب آسيا، قلب الحضارة الفارسية الإسلامية؛ عُرف تاريخياً بفارس.
+  en: Country in western Asia, heartland of Persianate Islamic civilisation; historic Persia.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 32
+- 53
+coordinate_precision: locality
+coordinate_note: Wikidata Q794 coordinates; representative point for the region.
+external_ids:
+  wikidata: Q794
+  geonames: '130758'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q794 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q794 (labels, coordinates, description)

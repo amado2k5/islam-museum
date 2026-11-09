@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/sawar, confidence: low, note: "Associated with سوار per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني (عارضة 49 داخل ترجمة شاور)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"

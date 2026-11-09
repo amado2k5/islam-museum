@@ -13,6 +13,8 @@ themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 died: { edtf: "1451-03-13~", hijri: "0855-02-05", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة الاثنين وقت أذان العشاء 5 صفر 855 ودفن بالقرافة {cite:shadharat-dhahab p. 285}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 855)، قراءة آبل فيجن"

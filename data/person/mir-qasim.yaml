@@ -30,6 +30,8 @@ died:
   note: "The English and Arabic infoboxes and Wikidata give 8 May 1777; the English narrative marks its Kotwal details citation-needed, and Banglapedia independently gives his death in obscurity near Delhi in 1777. The Hijri year 1191 is converted from the Gregorian date. No born block is built: no source consulted attests any birth year for Mir Qasim — the English article files him under 'Year of birth unknown', Wikidata records no birth value at all, and the Arabic infobox leaves the birth field blank. The century queue's 1730 is attested in no source read and is not built."
   sources: [source/wikipedia-mir-qasim-en, source/wikipedia-mir-qasim-ar, source/wikidata-mir-qasim, source/banglapedia-mir-qasim]
 
+relations:
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-qasim] }
 faith:
   - value: unknown
     basis: unknown

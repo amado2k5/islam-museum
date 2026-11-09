@@ -19,6 +19,8 @@ died:
   status: tradition
   derived: true
   note: "توفي سنة إحدى وثمانين بحران {cite:shadharat-dhahab p. 749}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/buhran, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

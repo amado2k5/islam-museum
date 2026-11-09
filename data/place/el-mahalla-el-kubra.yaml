@@ -1,0 +1,36 @@
+id: place/el-mahalla-el-kubra
+class: place
+kind: city
+label:
+  ar: المحلة الكبرى
+  en: El Mahalla El Kubra
+  ur: المحلہ الکبری
+summary:
+  ar: مدينة في مصر.
+  en: City (Wikidata Q312723).
+wings:
+- place
+regions:
+- egypt-nile
+coordinates:
+- 30.9667
+- 31.1667
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q312723
+  geonames: '360829'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q312723 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q312723 (labels, coordinates, description)

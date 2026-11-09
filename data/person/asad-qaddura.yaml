@@ -33,6 +33,8 @@ faith:
     note: "No source read names a religious school for Qaddura himself. Wikidata's structured religion value gives Islam only — a single structured family. His posts (mufti of Safed in the First World War; sharia judge for Nazareth, Acre and Safed under the Mandate) are offices, and his study at al-Azhar under Muhammad Abduh is education, none of which counts."
     sources: [source/wikipedia-asad-qaddura-ar, source/wikidata-asad-qaddura]
 relations:
+  - { type: lived_in, target: place/damascus, note: "From text: studied at Damascus", sources: [source/wikipedia-asad-qaddura-ar, source/wikidata-asad-qaddura] }
+  - { type: traveled_to, target: place/damascus, note: "From text: fled to Damascus", sources: [source/wikipedia-asad-qaddura-ar, source/wikidata-asad-qaddura] }
   - { type: died_in, target: place/damascus, sources: [source/wikipedia-asad-qaddura-ar] }
 summary:
   ar: "عالم دين فلسطيني من صفد (1880–1959)، درس في دمشق ثم في الأزهر على يد محمد عبده، وأسّس مدرسة وطنية في الجامع الأحمر بصفد، وكان مفتي صفد في الحرب العالمية الأولى وقاضيًا شرعيًا على الناصرة وعكا وصفد في عهد الانتداب، وشارك في الحركة الوطنية وفي مؤتمرات علماء فلسطين، ونزح بعد نكبة 1948 إلى دمشق حيث توفي."

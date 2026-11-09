@@ -40,6 +40,9 @@ faith:
     note: "His affiliation is contested in the sources and is not recorded. English Wikipedia's text makes no statement of his religion, though the article is filed under the category 'Iranian atheists' - a category is not an attestation. The Persian infobox hedges 'Islam at first, probably later godless', citing a single 2023 web article whose title poses the question ('Iraj Mirza: atheist poet or believer'); the Persian article's religious-views section sets his devotional verse - a na't of the Prophet, Ashura elegies, verses in praise of Ali - against an inference of unbelief drawn from his anti-clerical satire and the alleged deliberate weakness of his three religious odes. Encyclopaedia Iranica says nothing of his personal belief, and Wikidata carries no religion value. Verse is repertoire and counts in neither direction, and the unbelief claim rests on one tradition plus inference from the satire, below the bar for atheist-or-sceptic."
     sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/iranica-iraj-mirza, source/wikidata-iraj-mirza]
 relations:
+  - { type: born_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iraj-mirza] }
+  - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iraj-mirza] }
+  - { type: buried_in, target: place/zahir-od-dowleh-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iraj-mirza] }
   - { type: born_in, target: place/tabriz, sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/iranica-iraj-mirza] }
 external_ids: { wikidata: Q983413 }
 sources: [source/wikipedia-iraj-mirza-en, source/wikipedia-iraj-mirza-fa, source/wikidata-iraj-mirza, source/iranica-iraj-mirza]

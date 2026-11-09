@@ -42,6 +42,8 @@ faith:
     note: "No source names a school of Islam for him. The Indonesian infobox gives his religion as Islam and leaves its school (mazhab) field empty; the English article (and its Arabic translation) names none; Wikidata gives Islam in general (Q432). His father Muhammad Amrullah was a Naqshbandi sheikh — the father's affiliation, family background, which never counts. His study under Ahmad Khatib al-Minangkabawi is his formation, and his son Hamka's affiliation is Hamka's own; neither attests his."
     sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikidata-abdul-karim-amrullah]
 relations:
+  - { type: died_in, target: place/jakarta, note: "From text: died at Jakarta", sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah] }
+  - { type: lived_in, target: place/mecca, note: "From text: studied at Mecca", sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikidata-abdul-karim-amrullah] }
   - { type: student_of, target: person/ahmad-khatib-al-minangkabawi, sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id] }
 external_ids: { wikidata: "Q4665472" }

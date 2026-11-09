@@ -25,6 +25,7 @@ born:
   note: "Born at Sorkheh in Semnan province on 12 November 1948; the English article (under his birth name Hassan Fereydoun), the Persian article (21 Aban 1327) and Wikidata agree. The Hijri year is derived by tabular conversion from the Gregorian date."
   sources: [source/wikipedia-rouhani-en, source/wikipedia-rouhani-fa, source/wikidata-rouhani]
 relations:
+  - { type: born_in, target: place/sorkheh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: successor_of
     target: person/mahmoud-ahmadinejad
     note: "He succeeded Mahmoud Ahmadinejad as president of Iran in August 2013; the presidency dates are given by the Arabic article, and the English Ahmadinejad article names him as successor in its infobox."

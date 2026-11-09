@@ -41,6 +41,8 @@ faith:
     note: "Only one source speaks to his religion at all, and it does not name a school: the English article's early-life text states, with no citation attached to the sentence, that unlike his father he was a religious person and 'is believed to be a follower of Sufism'. The Urdu article is silent, Wikidata carries no religion statement, and the category filings (including '20th-century Indian Muslims') attest nothing. One uncited belief statement in a single article is one source short of documenting a Sufi affiliation, and no source names a Sunni school either, so the value stands unknown with the Sufi reading preserved here in full."
     sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana]
 relations:
+  - { type: born_in, target: place/punjab, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana] }
+  - { type: died_in, target: place/united-states, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana] }
   - { type: child_of, target: person/umar-hayat-khan-tiwana, sources: [source/wikipedia-khizar-hayat-tiwana-en] }
 external_ids: { wikidata: "Q6743589" }
 sources: [source/wikipedia-khizar-hayat-tiwana-en, source/wikipedia-khizar-hayat-tiwana-ur, source/wikidata-khizar-hayat-tiwana]

@@ -41,6 +41,9 @@ faith:
     note: "No source names any religion or school for him personally. Neither article's text or infobox (English or Russian) has a religion field or statement, and Wikidata carries no religion value at all: an absence configuration. His father's office as mullah of the Asyanovo mahalla is family background, his own study at the Ğəliyə madrasa in Ufa is formation, and the titles of his poems 'Mulla' and 'To a Muslim' (1917) are works, not attestation. The value therefore stays unknown, unflagged."
     sources: [source/wikipedia-shaikhzada-babich-en, source/wikipedia-shaikhzada-babich-ru, source/wikidata-shaikhzada-babich]
 external_ids: { wikidata: "Q1048691" }
+relations:
+  - { type: born_in, target: place/asyanovo, sources: [source/wikidata-shaikhzada-babich], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1060472)" }
+  - { type: died_in, target: place/zilair, sources: [source/wikidata-shaikhzada-babich], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2026647)" }
 sources:
   - source/wikipedia-shaikhzada-babich-en
   - source/wikipedia-shaikhzada-babich-ru

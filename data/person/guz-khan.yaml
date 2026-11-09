@@ -30,7 +30,8 @@ born:
   note: "Born in Coventry, Warwickshire, England. The English article gives 24 January 1986, citing CoventryLive for his birth name; Wikidata gives the year 1986 at year precision, agreeing. The Hijri year 1406 is the tabular conversion of the built date, marked derived. No place entity for Coventry exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-guz-khan-en, source/wikidata-guz-khan]
 
-relations: []
+relations:
+  - { type: born_in, target: place/coventry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-guz-khan] }
 
 faith:
   - value: unknown

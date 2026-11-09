@@ -42,6 +42,9 @@ died:
   sources: [source/wikipedia-kamal-al-din-behzad-fa, source/wikipedia-kamal-al-din-behzad-en, source/iranica-behzad, source/wikidata-kamal-al-din-behzad]
 
 relations:
+  - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamal-al-din-behzad] }
+  - { type: died_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamal-al-din-behzad] }
+  - { type: lived_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamal-al-din-behzad] }
   - { type: born_in, target: place/herat, sources: [source/wikipedia-kamal-al-din-behzad-en, source/wikipedia-kamal-al-din-behzad-fa, source/wikipedia-kamal-al-din-behzad-ar] }
   - { type: lived_in, target: place/tabriz, sources: [source/wikipedia-kamal-al-din-behzad-en, source/iranica-behzad] }
   - { type: student_of, target: person/mirak-naqqash, sources: [source/wikipedia-kamal-al-din-behzad-en, source/iranica-behzad] }

@@ -1,25 +1,49 @@
 id: person/suwayd-ibn-al-numan
 class: person
-label: { ar: "سويد بن النعمان", en: "Suwayd ibn al-Nu'man" }
-roles: [companion]
-traditions: [sunni]
-themes: [scripture-and-its-sciences]
-periods: [period/prophetic-era]
-regions: [arabia]
+label:
+  ar: سويد بن النعمان
+  en: Suwayd ibn al-Nu'man
+roles:
+- companion
+traditions:
+- sunni
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+regions:
+- arabia
 gender: male
-wings: [people]
+wings:
+- people
 summary:
-  ar: "سويد بن النعمان بن مالك بن عائد بن مجدعة، الأوسي الأنصاري المدني، شهد أحدا وما بعدها من المشاهد مع النبي، وكان ممن بايع تحت الشجرة. روى عن النبي في المضمضة من السويق، وعنه بشير بن يسار. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3488}"
-  en: "Suwayd ibn al-Nu'man ibn Malik, an Ansari of Medina of the Aws, who witnessed Uhud and the later campaigns with the Prophet and was among those who pledged under the tree. He narrated from the Prophet on rinsing the mouth after eating sawiq, and Bashir ibn Yasar narrated from him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3488}"
+  ar: سويد بن النعمان بن مالك بن عائد بن مجدعة، الأوسي الأنصاري المدني، شهد أحدا وما بعدها من المشاهد مع النبي، وكان ممن بايع
+    تحت الشجرة. روى عن النبي في المضمضة من السويق، وعنه بشير بن يسار. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3488}
+  en: Suwayd ibn al-Nu'man ibn Malik, an Ansari of Medina of the Aws, who witnessed Uhud and the later campaigns with the
+    Prophet and was among those who pledged under the tree. He narrated from the Prophet on rinsing the mouth after eating
+    sawiq, and Bashir ibn Yasar narrated from him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3488}
 relations:
-  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
-  - { type: member_of, target: group/ansar, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+- type: member_of
+  target: group/sahaba
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- type: ruler_of
+  target: place/al-shajara
+  sources:
+  - source/wikidata
+  confidence: low
+  note: 'ar: ''سويد بن النعمان بن مالك بن عائد بن مجدعة، الأوسي الأنصاري المدني، شهد أحدا وما بعدها من المشاهد مع النبي،'
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
+sources:
+- source/fiqh-mawsua-kuwaitiyya-noor-v3
 provenance:
   layer: own-research
-  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3488"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
+  source: Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3488
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
   run: prose-fill-persons-batch71
 status:
   review: published

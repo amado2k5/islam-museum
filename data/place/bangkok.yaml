@@ -1,0 +1,16 @@
+id: place/bangkok
+class: place
+kind: city
+label: { en: "Bangkok", ar: "بانكوك" }
+summary:
+  en: "Capital of Thailand."
+  ar: "مدينة في تايلاند."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [13.75, 100.5167]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1861", geonames: "1609350" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1861 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

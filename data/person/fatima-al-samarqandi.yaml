@@ -18,6 +18,7 @@ themes: [law-and-courts, women]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
+  - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
   - { type: student_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
   - { type: died_in, target: place/aleppo, sources: [source/badai-sanai-ilmiyya-v1] }

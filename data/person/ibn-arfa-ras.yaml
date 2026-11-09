@@ -19,6 +19,8 @@ died:
   status: tradition
   derived: true
   note: "توفي سنة أربع وتسعين {cite:shadharat-dhahab p. 797}؛ التحويل مشتق."
+relations:
+  - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

@@ -30,4 +30,6 @@ status:
   completeness: 2
   generated_by: "Claude Code (OCR-harvest worker A); merge of Devin records"
 relations:
+  - { type: lived_in, target: place/medina, note: "From text: preacher of Medina", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/kashf-zunun-furqan] }
+  - { type: died_in, target: place/cairo, note: "From text: died in Cairo", sources: [source/kashf-zunun-furqan, source/shadharat-dhahab] }
   - { type: authored, target: work/alfiyya-al-iraqi, sources: [source/kashf-zunun-furqan] }

@@ -14,3 +14,5 @@ provenance:
   run: lib-kamil-batch-2
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: ruled_over, target: place/sijistan, note: "Samanid prince appointed governor of Sistan after its conquest in 298.", sources: [source/kamil-ibn-al-athir], confidence: medium }

@@ -37,6 +37,8 @@ faith:
     sources: [source/wikidata-nazia-hassan, source/wikipedia-nazia-hassan-en]
 relations:
   - { type: sibling_of, target: person/zoheb-hassan, sources: [source/wikipedia-nazia-hassan-en, source/wikipedia-nazia-hassan-ar, source/wikipedia-nazia-hassan-ur] }
+  - { type: born_in, target: place/karachi, sources: [source/wikidata-nazia-hassan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8660)" }
+  - { type: died_in, target: place/london, sources: [source/wikidata-nazia-hassan], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q84)" }
 summary:
   ar: "مغنية وكاتبة أغاني باكستانية (1965–2000) لُقّبت بـ«ملكة البوب في جنوب آسيا»؛ نالت الشهرة في الخامسة عشرة بأغنية «آپ جیسا کوئی» في الفيلم الهندي «قرباني» (1980)، وباعت مع أخيها زوهيب، في ثنائي «نازية وزوهيب»، أكثر من 65 مليون أسطوانة حول العالم؛ توفيت بسرطان الرئة في لندن عن 35 عامًا، ومُنحت وسام فخر الأداء بعد وفاتها سنة 2002."
   en: "Pakistani singer and songwriter (1965–2000), the 'Queen of South Asian Pop'. She shot to fame at fifteen with 'Aap Jaisa Koi' in the Indian film Qurbani (1980), and with her brother Zoheb, as the duo Nazia and Zoheb, sold over 65 million records worldwide; she died of lung cancer in London aged 35 and received the Pride of Performance posthumously in 2002."

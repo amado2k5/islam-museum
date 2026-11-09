@@ -14,6 +14,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch82
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Grammarian of the Baghdad scholarly line; flagged for review.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]
 status:
   review: published

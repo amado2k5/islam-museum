@@ -28,6 +28,8 @@ faith:
     note: "Neither the English nor the Arabic article names a religion for him, and Wikidata records no religion (P140) statement. His family's founding of a bank is family background and attests nothing about his own faith. Recorded as unknown on absence of attestation; no school is asserted."
     sources: [source/wikipedia-yazeed-al-rajhi-en, source/wikipedia-yazeed-al-rajhi-ar, source/wikidata-yazeed-al-rajhi]
 external_ids: { wikidata: "Q3137270" }
+relations:
+  - { type: born_in, target: place/riyadh, sources: [source/wikidata-yazeed-al-rajhi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3692)" }
 sources: [source/wikipedia-yazeed-al-rajhi-en, source/wikipedia-yazeed-al-rajhi-ar, source/wikidata-yazeed-al-rajhi]
 provenance:
   layer: own-research

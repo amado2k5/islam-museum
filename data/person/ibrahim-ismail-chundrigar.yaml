@@ -33,6 +33,10 @@ died:
 roles: [politician, jurist]
 wings: [people]
 regions: [south-asia]
+relations:
+  - { type: born_in, target: place/ahmedabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-ismail-chundrigar] }
+  - { type: died_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-ismail-chundrigar] }
+  - { type: buried_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-ismail-chundrigar] }
 faith:
   - value: unknown
     basis: unknown

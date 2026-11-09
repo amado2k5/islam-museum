@@ -32,7 +32,8 @@ faith:
     basis: unknown
     note: "No consulted source names a school or an order for him, and his Wikidata item carries no religion value. He is styled 'Peer' (Pir) in the article titles — an honorific of Sufi saints, which is not an attestation — and Abdul Ahad Azad's much-quoted judgement, carried in both encyclopedia articles, is about his verse: when Maqbool writes tasawwuf, Azad says, he seems a Sufi of high rank, and when he preaches, a fiery mullah on the pulpit. Title and verse character are both preserved here and neither counts, so the value stays unknown."
     sources: [source/wikipedia-maqbool-shah-kralawari-en, source/wikidata-maqbool-shah-kralawari]
-relations: []
+relations:
+  - { type: lived_in, target: place/kashmir, confidence: low, note: "Associated with كشمير per the record's own text; relation type pending review.", sources: [source/wikidata] }
 summary:
   ar: "شاعر كشميري من القرن التاسع عشر تعلّم الأدب الفارسي، تُوجت شهرته بمثنويه «گلریز» المقتبس من رومانسية فارسية لضياء الدين نخشبي، وجمع محمد يوسف تينغ أكثر شعره في مجلدين ⁦(1972، 1978)⁩."
   en: "Nineteenth-century Kashmiri poet educated in Persian literature, whose fame rests on his mathnavi Gulrez, a free rendering of a Persian romance by Zia-ud-Din Nakhshabi; Mohammad Yousuf Taing collected most of his poetry in two volumes (1972, 1978)."

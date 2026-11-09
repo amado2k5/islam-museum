@@ -44,6 +44,7 @@ relations:
   - { type: successor_of, target: person/abdulaziz-ibn-muhammad, sources: [source/wikipedia-saud-ibn-abdulaziz-en, source/wikipedia-saud-ibn-abdulaziz-ar] }
   - { type: student_of, target: person/muhammad-ibn-abd-al-wahhab, sources: [source/wikipedia-saud-ibn-abdulaziz-ar, source/wikipedia-saud-ibn-abdulaziz-en] }
 
+  - { type: born_in, target: place/diriyah, sources: [source/wikidata-saud-ibn-abdulaziz], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q277505)" }
 faith:
   - value: unknown
     basis: unknown

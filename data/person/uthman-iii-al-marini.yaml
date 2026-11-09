@@ -12,6 +12,9 @@ wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1420", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/marinid-dynasty, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q582861)" }
+  - { type: died_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80985)" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q2688156

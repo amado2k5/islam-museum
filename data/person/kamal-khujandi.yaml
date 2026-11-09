@@ -51,6 +51,8 @@ died:
     - source/wikidata-kamal-khujandi
 
 relations:
+  - { type: born_in, target: place/khujand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamal-khujandi] }
+  - { type: died_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kamal-khujandi] }
   - { type: died_in, target: place/tabriz, sources: [source/iranica-kamal-kojandi, source/wikipedia-kamal-khujandi-en] }
 
 faith:

@@ -38,6 +38,8 @@ faith:
     sources: [source/wikipedia-sadir-palwan-ru, source/wikipedia-sadir-palwan-kk, source/wikipedia-sadir-palwan-zh, source/wikidata-sadir-palwan]
 external_ids:
   wikidata: Q4404933
+relations:
+  - { type: born_in, target: place/yining, sources: [source/wikidata-sadir-palwan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q866021)" }
 sources:
   - source/wikipedia-sadir-palwan-ru
   - source/wikipedia-sadir-palwan-kk

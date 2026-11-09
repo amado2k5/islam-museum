@@ -37,6 +37,9 @@ died:
   note: "The English article and the Wikidata item both give 13 January 1287; the Arabic article independently pairs his death with the end of 685 AH, which that day (21 Dhu al-Hijja 685) falls inside. The Hijri year is derived from the built date by the tabular conversion and corroborated by the Arabic pairing. The Urdu article gives his reign as ending in 1286, a year-level variant noted here."
   sources: [source/wikipedia-ghiyas-ud-din-balban-en, source/wikidata-ghiyas-ud-din-balban, source/wikipedia-ghiyas-ud-din-balban-ar]
 
+relations:
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghiyas-ud-din-balban] }
+  - { type: buried_in, target: building/tomb-of-balban, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghiyas-ud-din-balban] }
 faith:
   - value: unknown
     basis: unknown

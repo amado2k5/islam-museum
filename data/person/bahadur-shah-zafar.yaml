@@ -32,6 +32,9 @@ died:
   note: "The English article and Wikidata agree on 7 November 1862; he died in exile at Rangoon in British Burma and was buried there the same day. The Hijri year is derived by tabular conversion. Rangoon has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-bahadur-shah-zafar-en, source/wikidata-bahadur-shah-zafar]
 relations:
+  - { type: born_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bahadur-shah-zafar] }
+  - { type: died_in, target: place/yangon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bahadur-shah-zafar] }
+  - { type: buried_in, target: place/yangon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bahadur-shah-zafar] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-bahadur-shah-zafar-en] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-bahadur-shah-zafar-en] }
   - { type: student_of, target: person/mirza-ghalib, sources: [source/wikipedia-ghalib-en] }

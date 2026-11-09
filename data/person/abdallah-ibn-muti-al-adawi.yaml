@@ -17,3 +17,5 @@ status:
   review: published
   completeness: 3
 
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: أهل المدينة", sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715], confidence: low }

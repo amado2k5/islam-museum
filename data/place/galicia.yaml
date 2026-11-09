@@ -1,0 +1,16 @@
+id: place/galicia
+class: place
+kind: region
+label: { en: "Galicia", ar: "جليقية", ur: "گالیسیا" }
+summary:
+  en: "Region in the north-west of the Iberian Peninsula."
+  ar: "منطقة في شمال غرب شبه الجزيرة الإيبيرية."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [42.75, -8.1]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q3908" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q3908 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -16,3 +16,5 @@ provenance:
   run: prose-fill-persons-batch48
 sources: [source/nafh-tib-maqqari]
 status: { review: published, completeness: 3 }
+relations:
+  - { type: ruler_of, target: place/sarqusta, note: "From text: صاحب سرقسطة", sources: [source/nafh-tib-maqqari], confidence: low }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: died_in, target: place/haskovo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186254)" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q7108893

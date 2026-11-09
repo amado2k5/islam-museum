@@ -41,6 +41,11 @@ faith:
     note: "His Muslim identity and upbringing are well attested but no source names a school for him. The English article states that he was born to Muslim parents, that he was named after the Eid al-Adha holiday on which he was born, and that he memorised the Quran as a boy at Semuto and Bombo; the Arabic article records that his father converted to Islam in 1910. Upbringing, formation and practice never name a school, and Wikidata sets his religion (P140) explicitly to no value. The value stays unknown."
     sources: [source/wikipedia-idi-amin-en, source/wikipedia-idi-amin-ar, source/wikidata-idi-amin]
 relations:
+  - { type: born_in, target: place/kampala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idi-amin] }
+  - { type: died_in, target: place/king-faisal-specialist-hospital-and-research-centre, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idi-amin] }
+  - { type: died_in, target: place/saudi-arabia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idi-amin] }
+  - { type: buried_in, target: place/jeddah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idi-amin] }
+  - { type: lived_in, target: place/jeddah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-idi-amin] }
   - type: died_in
     target: place/jeddah
     sources: [source/wikipedia-idi-amin-en]

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+relations:
+  - { type: born_in, target: place/erzincan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q136217)" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q6581122

@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/founding-of-tarsus, role: "المقترح والمستكشف", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

@@ -21,7 +21,7 @@ regions: [andalus-europe]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q4170233" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 status:
   review: published
   completeness: 3
@@ -31,3 +31,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch52
+relations:
+  - { type: born_in, target: place/majorca, note: "Wikidata Q8828 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/al-andalus, note: "Wikidata Q123559 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

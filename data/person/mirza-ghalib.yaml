@@ -34,6 +34,10 @@ died:
   note: "The English and Arabic articles and Wikidata agree on 15 February 1869, at Delhi; he is buried there in the family enclosure near the shrine quarter of Nizamuddin. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-ghalib-en, source/wikipedia-ghalib-ar, source/wikidata-ghalib]
 relations:
+  - { type: born_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/old-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/old-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/agra, sources: [source/wikipedia-ghalib-en] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-ghalib-en] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-ghalib-en] }

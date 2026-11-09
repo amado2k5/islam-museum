@@ -27,3 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
+relations:
+  - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

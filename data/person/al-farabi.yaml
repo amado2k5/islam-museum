@@ -12,6 +12,7 @@ regions: [persia-central-asia]
 born: { edtf: "0878~", precision: year, status: tradition, derived: true, note: "born c. 878 in Turkistan per Britannica", sources: [source/britannica-al-farabi] }
 died: { edtf: "0950~", hijri: "0339", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 339هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 290}." }
 relations:
+  - { type: lived_in, target: place/medina, note: "From text: أهل المدينة الفاضلة {cite:kas", sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi], confidence: low }
   - { type: participated_in, target: event/al-farabi-moves-to-baghdad, role: "الفيلسوف", sources: [source/britannica-al-farabi] }
   - { type: participated_in, target: event/al-farabi-at-sayf-al-dawla-court, role: "الفيلسوف المقيم", sources: [source/britannica-al-farabi] }
   - { type: authored, target: work/ara-ahl-al-madina-al-fadila, sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi] }

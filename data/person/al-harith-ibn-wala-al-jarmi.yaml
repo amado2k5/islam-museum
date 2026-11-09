@@ -20,3 +20,5 @@ story_roles:
 sources: [source/hamasa-abu-tammam-ed-1916]
 status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "ديوان الحماسة، طبعة 1916 (أرقام الصفحات المطبوعة)", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hamasa-4" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/hamasa-abu-tammam-ed-1916], confidence: low }

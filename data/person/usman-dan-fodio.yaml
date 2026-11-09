@@ -46,6 +46,8 @@ relations:
   - { type: student_of, target: person/jibril-ibn-umar, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio] }
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-ar] }
 
+  - { type: born_in, target: place/gobir, sources: [source/wikidata-usman-dan-fodio], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1533541)" }
+  - { type: died_in, target: place/sokoto, sources: [source/wikidata-usman-dan-fodio], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q336350)" }
 faith:
   - value: sunni-maliki
     basis: documented

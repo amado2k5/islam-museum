@@ -11,6 +11,9 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/al-aalam, source/taqrib-al-tahdhib]
 external_ids:
   wikidata: Q78804111

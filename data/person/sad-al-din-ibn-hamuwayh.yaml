@@ -12,6 +12,8 @@ roles: [mystic, scholar]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia, egypt-nile]
+relations:
+  - { type: traveled_to, target: place/misr, sources: [source/shadharat-dhahab] }
 faith:
   - value: sunni
     basis: tradition

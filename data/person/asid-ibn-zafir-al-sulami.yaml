@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/marwan-caucasus-expedition, role: "الدليل بباب اللان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/bab-al-lan, note: "Guided Marwan ibn Muhammad into the Khazar land by way of Bab al-Lan.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292"

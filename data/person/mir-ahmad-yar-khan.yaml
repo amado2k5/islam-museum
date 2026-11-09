@@ -44,6 +44,9 @@ died:
 roles: [ruler, politician]
 regions: [south-asia]
 wings: [people]
+relations:
+  - { type: born_in, target: place/khanate-of-kalat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-ahmad-yar-khan] }
+  - { type: died_in, target: place/kalat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mir-ahmad-yar-khan] }
 faith:
   - value: unknown
     basis: unknown

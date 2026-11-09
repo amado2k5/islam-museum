@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+relations:
+  - { type: traveled_to, target: place/misr, note: "Killed Marwan ibn Muhammad at Busir in Egypt.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]
 status:
   review: published

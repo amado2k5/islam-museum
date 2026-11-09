@@ -22,6 +22,7 @@ born:
   note: "Born 21 September 1965 in Jakarta, attested by the English, Indonesian and Malay articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the month and day fall inside 1385 AH, a year that began in May 1965."
   sources: [source/wikipedia-gita-wirjawan-en, source/wikipedia-gita-wirjawan-id, source/wikipedia-gita-wirjawan-ms, source/wikidata-gita-wirjawan]
 relations:
+  - { type: born_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gita-wirjawan] }
   - { type: born_in, target: place/jakarta, sources: [source/wikipedia-gita-wirjawan-en, source/wikipedia-gita-wirjawan-id] }
 faith:
   - value: unknown

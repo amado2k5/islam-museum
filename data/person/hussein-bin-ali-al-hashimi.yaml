@@ -33,6 +33,7 @@ died:
   note: "He died at Amman on 4 June 1931, on the English article's narrative (stated twice), the French article, the Arabic article and Wikidata (place Amman, Q3805); the English article's own lead parenthesis prints '4 July 1931', an internal inconsistency of that article which the record states here rather than merging. He was buried at Jerusalem, in the Arghuniyya building on the Haram al-Sharif, the French article naming the madrasa and both articles the compound. The Hijri year (1350) is derived by tabular conversion of the date (17 Muharram 1350)."
   sources: [source/wikipedia-hussein-bin-ali-en, source/wikipedia-hussein-bin-ali-ar, source/wikipedia-hussein-bin-ali-fr, source/wikidata-hussein-bin-ali]
 relations:
+  - { type: buried_in, target: building/al-aqsa-mosque, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-hussein-bin-ali-en, source/wikipedia-hussein-bin-ali-fr, source/wikidata-hussein-bin-ali] }
   - { type: died_in, target: place/amman, sources: [source/wikipedia-hussein-bin-ali-en, source/wikipedia-hussein-bin-ali-fr, source/wikidata-hussein-bin-ali] }
   - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-hussein-bin-ali-en, source/wikipedia-hussein-bin-ali-fr] }

@@ -39,6 +39,7 @@ faith:
     sources: [source/wikipedia-noor-inayat-khan-ar, source/wikipedia-noor-inayat-khan-ur, source/wikipedia-noor-inayat-khan-en, source/wikidata-noor-inayat-khan]
 relations:
   - { type: child_of, target: person/hazrat-inayat-khan, sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikidata-noor-inayat-khan] }
+  - { type: born_in, target: place/moscow, sources: [source/wikidata-noor-inayat-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q649)" }
 external_ids: { wikidata: "Q464957" }
 sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikipedia-noor-inayat-khan-ur, source/wikidata-noor-inayat-khan]
 provenance:

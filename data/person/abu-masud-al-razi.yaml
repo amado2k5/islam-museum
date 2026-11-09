@@ -17,6 +17,9 @@ regions: [persia-central-asia]
 periods: [period/abbasid-early]
 themes: [scripture-and-its-sciences]
 relations:
+  - { type: died_in, target: place/isbahan, note: "From text: توفي بأصبهان في شعبان سنة 258هـ على ", sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: died_in, target: place/isfahan, note: "From text: died in Isfahan", sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: lived_in, target: place/isfahan, note: "From text: settled in Isfahan", sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: lived_in, target: place/isfahan, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: died_in, target: place/isfahan, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: traveled_to, target: place/damascus, sources: [source/tarikh-dimashq-amrawi-v5] }

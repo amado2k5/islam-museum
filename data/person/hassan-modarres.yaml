@@ -40,6 +40,9 @@ faith:
     note: "Two independent article texts name his affiliation for him personally: the English lead calls him 'an Iranian Twelver Shi'a cleric', naming the branch directly, and the Persian lead calls him a Shia mojtahed; his seminary formation at Isfahan and Najaf in the Usuli tradition supplies the Twelver branch context, so the mapping is stated here rather than assumed. Wikidata's two religion values (Islam; Shia Islam) are unreferenced and form one source family; they are not counted."
     sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa]
 relations:
+  - { type: born_in, target: place/isfahan-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-modarres] }
+  - { type: died_in, target: place/kashmar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-modarres] }
+  - { type: buried_in, target: building/hassan-modarres-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hassan-modarres] }
   - { type: lived_in, target: place/isfahan, note: "He studied at the Isfahan seminary and later taught there before entering the Majlis.", sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa] }
 external_ids: { wikidata: Q589068 }
 sources: [source/wikipedia-hassan-modarres-en, source/wikipedia-hassan-modarres-fa, source/wikidata-hassan-modarres]

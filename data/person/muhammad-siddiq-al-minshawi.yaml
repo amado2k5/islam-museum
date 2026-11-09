@@ -39,6 +39,9 @@ faith:
     note: "The English infobox gives his denomination as Sunni and the Arabic and Urdu infoboxes give his creed as Ahl al-Sunna wa-l-Jama'a, their madhhab fields blank; the infoboxes are one structured tradition, no article's text names a school or affiliation for him personally, and Wikidata gives only Islam. No madhhab is named in any source. Recorded unknown on the infobox-alone rule."
     sources: [source/wikipedia-muhammad-siddiq-al-minshawi-en, source/wikipedia-muhammad-siddiq-al-minshawi-ar, source/wikipedia-muhammad-siddiq-al-minshawi-ur, source/wikidata-muhammad-siddiq-al-minshawi]
 external_ids: { wikidata: "Q3959320" }
+relations:
+  - { type: born_in, target: place/al-munsha-h, sources: [source/wikidata-muhammad-siddiq-al-minshawi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q22932672)" }
+  - { type: born_in, target: place/ptolemais-hermiou, sources: [source/wikidata-muhammad-siddiq-al-minshawi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1302772)" }
 sources: [source/wikipedia-muhammad-siddiq-al-minshawi-en, source/wikipedia-muhammad-siddiq-al-minshawi-ar, source/wikipedia-muhammad-siddiq-al-minshawi-ur, source/wikipedia-muhammad-siddiq-al-minshawi-fr, source/wikidata-muhammad-siddiq-al-minshawi]
 status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }
 provenance:

@@ -12,8 +12,13 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-7
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 external_ids: { wikidata: "Q4120028" }
 aliases: [person/abu-al-qasim-ibn-ruh-al-nawbakhti]
 
+relations:
+  - { type: born_in, target: place/sawa, note: "Wikidata Q765518 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-nawbakhti-shrine, note: "Wikidata Q132675093 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

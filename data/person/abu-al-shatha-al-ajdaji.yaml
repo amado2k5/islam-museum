@@ -20,3 +20,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 226-227 (EI2 enrichment, batch ei2-b003 part 3ax)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/basra, note: "EI2 states he lived mainly in Basra (aqama akthara umrihi bi'l-Basra).", sources: [source/encyclopaedia-of-islam-2], confidence: high }

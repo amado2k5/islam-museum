@@ -21,6 +21,8 @@ story_roles:
 faith:
   - { value: christian, basis: documented, note: "Byzantine emperor and defender of Chalcedonian Orthodoxy.", sources: [source/kaegi-2003] }
 relations:
+  - { type: born_in, target: place/cappadocia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: ruler_of, target: polity/byzantine-empire, start: { edtf: "0610" }, end: { edtf: "0641" }, sources: [source/kaegi-2003] }
   - { type: corresponded_with, target: person/muhammad, note: "The tradition preserves the Prophet's letter summoning him to Islam.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: polity/sasanian-empire, start: { edtf: "0622" }, end: { edtf: "0628" }, note: "His victorious counter-invasion ended the Byzantine-Sasanian war.", sources: [source/kaegi-2003] }

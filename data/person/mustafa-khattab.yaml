@@ -10,6 +10,9 @@ gender: male
 roles: [translator, scholar]
 regions: [egypt-nile, americas-oceania]
 wings: [people, living]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-khattab-en, source/wikipedia-khattab-ar, source/wikidata-khattab, source/cik-khattab-bio] }
+  - { type: lived_in, target: place/canada, sources: [source/wikipedia-khattab-en, source/wikipedia-khattab-ar, source/wikidata-khattab, source/cik-khattab-bio] }
 faith:
   - value: unknown
     basis: unknown

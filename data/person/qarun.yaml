@@ -16,3 +16,5 @@ story_roles:
 sources: [source/assabile-omar-abdelkafy, source/tanzil-quran]
 provenance: { layer: copyrighted-reference, source: "Assabile, al-naba-al-safi (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-al-naba-1 }
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); run omar-abdelkafy-al-naba-1; needs_source annotations in prose" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Qarun, of the people of Moses in Egypt per the Qur'anic account.", sources: [source/assabile-omar-abdelkafy, source/tanzil-quran] }

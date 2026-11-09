@@ -8,6 +8,7 @@ wings: [people]
 gender: male
 died: { hijri: "0080", precision: year, status: tradition, note: "سنة 80هـ (البلاذري ص 330)" }
 relations:
+  - { type: lived_in, target: place/rudis, confidence: low, note: "Associated with رودس per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-rhodes, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-arwad, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/conquest-of-iqritish, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }

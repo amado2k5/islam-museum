@@ -20,6 +20,7 @@ regions:
 - arabia
 - levant-iraq
 relations:
+  - { type: lived_in, target: place/amwas, confidence: low, note: "Associated with عمواس per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/plague-of-amwas, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hajar-isaba]}
 provenance:

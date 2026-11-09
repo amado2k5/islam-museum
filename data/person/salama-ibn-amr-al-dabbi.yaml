@@ -7,6 +7,8 @@ summary:
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-rayy-qumis }
+  - { type: ruled_over, target: place/damaghan, sources: [source/wikidata], confidence: low, note: "ar: 'سلمة بن عمرو بن ضرار الضبي ويقال البراء بن عازب؛ بعثه حذيفة بن اليمان على جيش الري بعد انصراف عروة ووجّهه" }
+  - { type: ruled_over, target: place/damghan, sources: [source/wikidata], confidence: low, note: "ar: 'سلمة بن عمرو بن ضرار الضبي ويقال البراء بن عازب؛ بعثه حذيفة بن اليمان على جيش الري بعد انصراف عروة ووجّهه" }
 wings: [people]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

@@ -1,0 +1,21 @@
+id: place/ampang-jaya
+class: place
+kind: site
+label: { ar: "أمفغ جايا", en: "Ampang Jaya", ur: "امپانگ، سلنگور" }
+summary:
+  ar: "موقع في ماليزيا."
+  en: "Site in Malaysia."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [3.15, 101.77]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1202476" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1202476 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

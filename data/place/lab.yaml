@@ -1,0 +1,21 @@
+id: place/lab
+class: place
+kind: city
+label: { ar: "ابي", en: "Labé", ur: "لابے" }
+summary:
+  ar: "مدينة في غينيا."
+  en: "City in Guinea."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [11.316666666667, -12.283333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1020384" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1020384 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

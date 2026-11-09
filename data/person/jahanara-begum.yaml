@@ -36,6 +36,8 @@ died:
   sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikipedia-jahanara-begum-ur, source/wikidata-jahanara-begum]
 
 relations:
+  - { type: born_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jahanara-begum] }
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jahanara-begum] }
   - { type: child_of, target: person/shah-jahan-mughal, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikidata-jahanara-begum] }
   - { type: sibling_of, target: person/roshanara-begum, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ur] }
   - { type: sibling_of, target: person/aurangzeb-mughal, sources: [source/wikipedia-jahanara-begum-en, source/wikipedia-jahanara-begum-ar, source/wikipedia-jahanara-begum-ur] }

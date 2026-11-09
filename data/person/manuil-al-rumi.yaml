@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 relations:
+  - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/roman-recapture-of-alexandria, role: "قائد الحملة المقتول", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

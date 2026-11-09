@@ -22,6 +22,8 @@ born:
   derived: true
   note: "Born 22 December 1975 in Abu Dhabi (no place entity for Abu Dhabi exists in the graph, so the birthplace is recorded here and in prose only). The Hijri year 1395 is the tabular conversion of 22 December 1975 and is marked derived."
   sources: [source/wikipedia-khaled-al-qubaisi-en, source/wikipedia-khaled-al-qubaisi-ar, source/wikidata-khaled-al-qubaisi]
+relations:
+  - { type: born_in, target: place/abu-dhabi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-khaled-al-qubaisi] }
 faith:
   - value: unknown
     basis: unknown

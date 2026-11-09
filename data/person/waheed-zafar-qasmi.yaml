@@ -28,6 +28,8 @@ faith:
     note: "No source read names a school for him. The Urdu and Bengali articles name none, and Wikidata carries no religion value at all. His nisba Qasmi and his family's descent from Hafiz Muhammad Ahmad — the line of Qasim Nanawtawi's circle — are lineage and family background, which never attest; his brothers' and teachers' affiliations would not transfer either. Not recorded as any school until two independent sources name one."
     sources: [source/wikipedia-waheed-zafar-qasmi-ur, source/wikipedia-waheed-zafar-qasmi-bn, source/wikidata-waheed-zafar-qasmi]
 external_ids: { wikidata: "Q7266831" }
+relations:
+  - { type: born_in, target: place/uttar-pradesh, sources: [source/wikidata-waheed-zafar-qasmi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1498)" }
 sources: [source/wikipedia-waheed-zafar-qasmi-ur, source/wikipedia-waheed-zafar-qasmi-bn, source/wikidata-waheed-zafar-qasmi]
 provenance:
   layer: own-research

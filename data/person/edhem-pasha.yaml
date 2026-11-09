@@ -35,6 +35,8 @@ died:
   note: "The Turkish article, citing the TDV İslâm Ansiklopedisi, gives his death on 17 December 1909 in Egypt, whither he had gone for his health after two weeks as Minister of War, and his burial at Eyüp Cemetery in Istanbul; the English article's text agrees that he died in Egypt and was buried at Constantinople in 1909, though its infobox gives Constantinople as the death place against its own text, and Wikidata's death-place value is likewise Istanbul. Egypt has no place entity in the museum, so no died_in edge is written. The Hijri year 1327 is the tabular conversion of 17 December 1909."
   sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr, source/wikidata-edhem-pasha]
 relations:
+  - { type: born_in, target: place/trabzon, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-edhem-pasha] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-edhem-pasha] }
   - { type: buried_in, target: place/istanbul, note: "His body was brought from Egypt and buried at Eyüp Cemetery in Istanbul.", sources: [source/wikipedia-edhem-pasha-en, source/wikipedia-edhem-pasha-tr] }
 faith:
   - value: unknown

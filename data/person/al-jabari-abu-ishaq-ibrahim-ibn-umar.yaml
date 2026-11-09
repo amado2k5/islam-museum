@@ -30,3 +30,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch52
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Qur'an reader known in Baghdad as Taqi al-Din; d. 732.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: medium }

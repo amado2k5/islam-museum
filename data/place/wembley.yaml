@@ -1,0 +1,16 @@
+id: place/wembley
+class: place
+kind: city
+label: { en: "Wembley", ar: "ويمبلي" }
+summary:
+  en: "Area in the London Borough of Brent."
+  ar: "مدينة في المملكة المتحدة."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.556, -0.3042]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q146858", geonames: "2634549" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q146858 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born 29 December 1958 in Mascara, Algeria, as given by the English Wikipedia article's infobox, the Arabic article and Wikidata Q176426, which all agree. No place entity for Mascara exists in data/place/, so no born_in edge is written. The Hijri year (1378) is derived by tabular conversion."
   sources: [source/wikipedia-lakhdar-belloumi-en, source/wikipedia-lakhdar-belloumi-ar, source/wikidata-lakhdar-belloumi]
+relations:
+  - { type: born_in, target: place/mascara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lakhdar-belloumi] }
 faith:
   - value: unknown
     basis: unknown

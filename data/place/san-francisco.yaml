@@ -1,0 +1,16 @@
+id: place/san-francisco
+class: place
+kind: city
+label: { en: "San Francisco", ar: "سان فرانسيسكو" }
+summary:
+  en: "City and county in California, United States."
+  ar: "مدينة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [37.775, -122.4194]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q62", geonames: "5391959" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q62 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

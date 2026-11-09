@@ -17,3 +17,5 @@ provenance:
   model: "claude-haiku-5-5"
   run: person-rukana
 status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/marifat-sahaba-abu-nuaym, source/ibn-hajar-isaba] }

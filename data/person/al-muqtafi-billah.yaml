@@ -12,5 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 666–675"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-41
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Abbasid caliph 530-555 at Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Died in Rabi I 555.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

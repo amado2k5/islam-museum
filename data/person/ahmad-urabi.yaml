@@ -32,6 +32,7 @@ died:
   note: "All sources agree he died in Cairo on 21 September 1911, a decade after his return from exile. The Hijri year (1329) is derived by tabular conversion (27 Ramadan 1329)."
   sources: [source/wikipedia-ahmad-urabi-en, source/wikipedia-ahmad-urabi-ar, source/britannica-ahmad-urabi, source/wikidata-ahmad-urabi]
 relations:
+  - { type: died_in, target: place/cairo, note: "From text: died in Cairo", sources: [source/wikipedia-ahmad-urabi-en, source/wikipedia-ahmad-urabi-ar, source/britannica-ahmad-urabi, source/wikidata-ahmad-urabi] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-ahmad-urabi-en, source/britannica-ahmad-urabi] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-ahmad-urabi-en, source/wikipedia-ahmad-urabi-ar, source/britannica-ahmad-urabi, source/wikidata-ahmad-urabi] }
 faith:

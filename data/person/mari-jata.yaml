@@ -20,6 +20,12 @@ relations:
   target: polity/mali-empire
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- type: ruled_over
+  target: place/mali
+  confidence: low
+  note: "Founder and king of the Mali empire per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods:
 - period/mongol-post-mongol

@@ -20,6 +20,8 @@ born:
   derived: true
   note: "Born in Swabi, Khyber Pakhtunkhwa, Pakistan. DATE CONFLICT, recorded in full: the English Wikipedia article (current revision 1381926605, read 25 October 2026) gives 10 March 1979, and this record follows it; Wikidata (Q5438693) gives 5 February 1982, the year the century-additions queue also carried. The conflict is flagged in the run's BRIEF CORRECTIONS for the lane to settle. No place entity for Swabi exists in data/place/, so no born_in relation is written. The Hijri year (1399) is derived by tabular conversion from the recorded Gregorian date."
   sources: [source/wikipedia-fawad-ahmed-en, source/wikipedia-fawad-ahmed-ur, source/wikidata-fawad-ahmed]
+relations:
+  - { type: born_in, target: place/pakistan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fawad-ahmed-en, source/wikipedia-fawad-ahmed-ur, source/wikidata-fawad-ahmed] }
 faith:
   - value: unknown
     basis: unknown

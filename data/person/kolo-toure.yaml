@@ -27,6 +27,7 @@ faith:
     note: "No source read names a school or madhhab for Touré personally. The English Wikipedia article's personal life section states that “Touré is Muslim” and that he observes fasting during Ramadan, quoting his own words on belief; its categories file him under “Ivorian Muslims”. The Arabic article states that his religion is Islam and that he is observant in performing the prayers, and notes the Ramadan arrangements made for Muslim players at Arsenal. The French article makes no statement of his religion. Wikidata Q147589 gives his religion as Islam (Q432), generically. Generic identifications joined to practice (fasting, prayer), a category filing and a generic structured value are not two independent sources naming a school. Under the two-source rule and the doubt rule, no faith value beyond unknown is recorded, with what each source gives documented here and in the prose."
     sources: [source/wikipedia-kolo-toure-en, source/wikipedia-kolo-toure-fr, source/wikipedia-kolo-toure-ar, source/wikidata-kolo-toure]
 relations:
+  - { type: lived_in, target: place/manchester, confidence: low, note: "Associated with مانشستر per the record's own summary text; relation type pending review.", sources: [source/wikipedia-kolo-toure-en] }
   - type: sibling_of
     target: person/yaya-toure
     note: "Elder brother of Yaya Touré (person/yaya-toure, built in wave 44); the edge is written once, here in Kolo Touré's own record, as the predicates registry directs."

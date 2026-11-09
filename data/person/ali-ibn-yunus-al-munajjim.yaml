@@ -40,3 +40,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan]
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor], confidence: low }

@@ -23,6 +23,8 @@ born:
   sources: [source/wikipedia-belal-muhammad-en, source/wikipedia-belal-muhammad-ar, source/wikidata-belal-muhammad]
 gender: male
 roles: [mixed martial artist]
+relations:
+  - { type: born_in, target: place/chicago, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-belal-muhammad] }
 faith:
   - value: unknown
     basis: unknown

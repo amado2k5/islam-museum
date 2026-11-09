@@ -29,6 +29,8 @@ died:
   derived: true
   note: "Died in the crash of PIA Flight 661 near Havelian; Gregorian date from English and Arabic Wikipedia and Wikidata; the Hijri year is converter-derived."
   sources: [source/wikipedia-junaid-jamshed-en, source/wikipedia-junaid-jamshed-ar, source/wikidata-junaid-jamshed]
+relations:
+  - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-junaid-jamshed] }
 faith:
   - value: unknown
     basis: unknown

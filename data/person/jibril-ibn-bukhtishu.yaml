@@ -6,6 +6,8 @@ names:
 gender: male
 roles: [physician]
 traditions: []
+relations:
+  - { type: lived_in, target: place/jundishapur, confidence: low, note: "Associated with جنديسابور per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 faith:
   - value: christian
     basis: documented

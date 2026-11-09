@@ -46,3 +46,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-82
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+relations:
+  - { type: lived_in, target: place/peshawar, note: "From text: of Peshawar", sources: [source/wikipedia-abdur-rab-nishtar-en, source/wikipedia-abdur-rab-nishtar-ur, source/wikipedia-abdur-rab-nishtar-ar, source/wikidata-abdur-rab-nishtar], confidence: low }

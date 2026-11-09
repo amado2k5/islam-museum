@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/umayyad]
 relations:
   - { type: participated_in, target: event/treaty-with-jarajima, role: "قاتل قائد الروم بالمكيدة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/suhaym, sources: [source/wikidata], confidence: low, note: "label: { ar: 'سحيم بن المهاجر', en: 'Suhaym ibn al-Muhajir' }" }
+  - { type: traveled_to, target: place/jabal-al-lakkam, sources: [source/wikidata], confidence: low, note: "ar: 'سحيم بن المهاجر، من رجال عبد الملك بن مروان؛ عند البلاذري: لما خرجت خيل الروم إلى جبل اللكام ثم لبنان في " }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 219"

@@ -24,3 +24,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-41
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab], confidence: low }

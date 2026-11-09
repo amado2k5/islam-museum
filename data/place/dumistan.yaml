@@ -1,0 +1,21 @@
+id: place/dumistan
+class: place
+kind: town
+label: { ar: "دمستان", en: "Dumistan", ur: "دمستان" }
+summary:
+  ar: "بلدة في البحرين."
+  en: "Town in Bahrain."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [26.124, 50.468]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q18208052" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q18208052 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

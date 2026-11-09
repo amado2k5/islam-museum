@@ -34,7 +34,9 @@ faith:
     basis: documented
     note: "Recorded as sufi on two independent texts attesting his own adherence, not his family's. (1) The Persian article states in its lead that he 'was a follower of the Suhrawardi Sufi order' (از پیروان طریقت صوفیه سهروردیه بود). (2) The English article independently calls him 'a Sufi scholar' in its own lead. His descent from Umar Suhrawardi, which both articles also mention, is family background and is not the basis. Wikidata's structured religion statement gives Twelver Shiism; structured data never settles faith in this museum, and no fetched text attests a Shia identity for the man himself, so no Shia segment is recorded."
     sources: [source/wikipedia-adib-peshawari-fa, source/wikipedia-adib-peshawari-en, source/wikidata-adib-peshawari]
-relations: []
+relations:
+  - { type: lived_in, target: place/kabul, note: "From text: studied at Kabul", sources: [source/wikipedia-adib-peshawari-en, source/wikipedia-adib-peshawari-fa, source/wikipedia-adib-peshawari-ar, source/wikipedia-adib-peshawari-ur, source/wikidata-adib-peshawari] }
+  - { type: lived_in, target: place/tehran, note: "From text: settled in Tehran. His", sources: [source/wikipedia-adib-peshawari-en, source/wikipedia-adib-peshawari-fa, source/wikipedia-adib-peshawari-ar, source/wikipedia-adib-peshawari-ur, source/wikidata-adib-peshawari] }
 external_ids: { wikidata: "Q5959909" }
 sources: [source/wikipedia-adib-peshawari-en, source/wikipedia-adib-peshawari-fa, source/wikipedia-adib-peshawari-ar, source/wikipedia-adib-peshawari-ur, source/wikidata-adib-peshawari]
 provenance:

@@ -33,6 +33,7 @@ died:
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-necip-fazil-kisakurek-en] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-necip-fazil-kisakurek-en] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-necip-fazil-kisakurek-en, source/wikidata-necip-fazil-kisakurek] }
 faith:
   - value: unknown
     basis: unknown

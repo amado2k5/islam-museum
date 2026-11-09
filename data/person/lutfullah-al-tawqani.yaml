@@ -16,6 +16,8 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 story_roles:
   - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/tokat, confidence: low, note: "Associated with Tokat per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

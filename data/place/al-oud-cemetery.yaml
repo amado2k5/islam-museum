@@ -1,0 +1,35 @@
+id: place/al-oud-cemetery
+class: place
+kind: site
+label:
+  ar: مقبرة العود
+  en: Al Oud cemetery
+  ur: مقبرہ العود
+summary:
+  ar: موقع في السعودية.
+  en: Site (Wikidata Q4165313).
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 24.6231
+- 46.7278
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q4165313
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q4165313 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q4165313 (labels, coordinates, description)

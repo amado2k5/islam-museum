@@ -35,6 +35,8 @@ gender: male
 roles: [imam, scholar]
 relations:
   - { type: child_of, target: person/clara-muhammad, sources: [source/wikipedia-warith-deen-mohammed-en, source/wikidata-warith-deen-mohammed] }
+  - { type: born_in, target: place/hamtramck, sources: [source/wikidata-warith-deen-mohammed], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1013717)" }
+  - { type: died_in, target: place/chicago, sources: [source/wikidata-warith-deen-mohammed], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1297)" }
 faith:
   - value: sunni
     basis: documented

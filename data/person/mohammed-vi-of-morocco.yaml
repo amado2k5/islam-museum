@@ -25,6 +25,10 @@ born:
 relations:
   - { type: child_of, target: person/hassan-ii-of-morocco, sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar] }
   - { type: successor_of, target: person/hassan-ii-of-morocco, sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar] }
+
+  - { type: born_in, target: place/rabat, note: "Born in Rabat, 21 August 1963 (Moroccan Foreign Ministry; LC authority n00029052; Oxford Reference).", sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar, source/wikipedia-mohammed-vi-of-morocco-ur, source/wikidata-mohammed-vi-of-morocco] }
+
+  - { type: ruler_of, target: place/morocco, note: "King of Morocco since 23 July 1999.", sources: [source/wikipedia-mohammed-vi-of-morocco-en, source/wikipedia-mohammed-vi-of-morocco-ar, source/wikipedia-mohammed-vi-of-morocco-ur, source/wikidata-mohammed-vi-of-morocco] }
 faith:
   - value: unknown
     basis: unknown

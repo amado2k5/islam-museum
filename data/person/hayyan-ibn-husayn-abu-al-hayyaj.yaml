@@ -17,6 +17,8 @@ regions:
 - levant-iraq
 periods:
 - period/umayyad
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with Kufa per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
 provenance:

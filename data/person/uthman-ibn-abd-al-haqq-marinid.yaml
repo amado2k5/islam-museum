@@ -22,6 +22,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
+- { type: ruled_over, target: place/morocco, sources: [source/tarikh-ibn-khaldun-ibar] }
 - { type: "child_of", target: "person/abd-al-haqq-ibn-mahyu", sources: [source/tarikh-ibn-khaldun-ibar] }
 sources:
 - source/tarikh-ibn-khaldun-ibar

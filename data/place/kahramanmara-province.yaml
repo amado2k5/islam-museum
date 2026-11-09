@@ -1,0 +1,21 @@
+id: place/kahramanmara-province
+class: place
+kind: region
+label: { ar: "ولاية قهرمان مرعش", en: "Kahramanmaraş Province", ur: "قہرمان مرعش صوبہ" }
+summary:
+  ar: "إقليم في تركيا."
+  en: "Region in Turkey."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [37.898333333333, 36.971111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q482834" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q482834 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

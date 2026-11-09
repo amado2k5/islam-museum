@@ -12,6 +12,8 @@ summary:
 roles: [preacher]
 wings: [people, living]
 regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/jordan, confidence: low, note: "Associated with الأردن per the record's own summary text; relation type pending review.", sources: [source/hassan-badran-official-website] }
 faith:
   - value: unknown
     basis: unknown

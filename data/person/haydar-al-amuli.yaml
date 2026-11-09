@@ -12,6 +12,10 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
 themes: [spirituality-and-sufism]
+relations:
+  - { type: born_in, target: place/amol, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/najaf, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/haydar-amuli-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q3128841

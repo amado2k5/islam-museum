@@ -37,6 +37,7 @@ roles: [scholar, political leader, poet]
 regions: [maghreb, west-africa-sahel]
 wings: [people]
 relations:
+  - { type: lived_in, target: place/france, confidence: low, note: "Associated with فرنسا per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - type: child_of
     target: person/ma-al-aynayn
     note: "His father Shaykh Ma al-'Aynayn (Q2520973), whose record is on main; the French biography calls him the shaykh's son in its first lines, the Arabic biography names him the twelfth of his sons, and Wikidata names the same father. His sibling_of edge to Ahmed al-Hiba is written once in the elder brother's record, per house convention, and is not repeated here."

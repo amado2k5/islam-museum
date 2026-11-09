@@ -18,3 +18,5 @@ provenance:
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch48
 status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/basra, note: "From text: settled at Basra", sources: [source/muntazam-ibn-al-jawzi] }

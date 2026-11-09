@@ -1,0 +1,36 @@
+id: place/comoros
+class: place
+kind: region
+label:
+  ar: جزر القمر
+  en: Comoros
+summary:
+  ar: أرخبيل في المحيط الهندي، أهله مسلمون منذ قرون.
+  en: Sovereign state situated on an archipelago in the Indian Ocean off the eastern coast of Africa.
+wings:
+- place
+regions:
+- east-africa
+coordinates:
+- -12.3
+- 43.7
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q970
+  geonames: '921929'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q970 (labels, coordinates, description)

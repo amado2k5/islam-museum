@@ -25,6 +25,7 @@ faith:
 labelled:
   - { label: { en: "Ra'is al-munafiqin (chief of the hypocrites)", ar: "رئيس المنافقين" }, by: "Sunni tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: ruler_of, target: place/medina, note: "From text: king of Medina", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan] }
   - { type: born_in, target: place/medina }
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/khazraj }

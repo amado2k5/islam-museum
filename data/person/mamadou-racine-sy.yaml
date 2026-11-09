@@ -30,6 +30,9 @@ died:
   derived: true
   note: "Died at Kita, in present-day Mali, on 24 February 1902, per the French article and Wikidata, while on a railway recruitment mission entrusted to him by the governor-general because of his prestige. Kita has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion (24 February 1902 falls in Dhu al-Qa'da 1319)."
   sources: [source/wikipedia-mamadou-racine-fr, source/wikidata-mamadou-racine-sy]
+relations:
+  - { type: born_in, target: place/podor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamadou-racine-sy] }
+  - { type: died_in, target: place/kita, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamadou-racine-sy] }
 faith:
   - value: unknown
     basis: unknown

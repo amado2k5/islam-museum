@@ -13,6 +13,9 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/mashhad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q121157)" }
+  - { type: died_in, target: place/damghan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q720053)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q197884

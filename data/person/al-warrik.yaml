@@ -26,3 +26,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 876-877, entry 'AL-WARRIK' (queue seq 470, batch ei2-b019)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (فارسي); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

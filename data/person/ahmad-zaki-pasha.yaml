@@ -12,6 +12,7 @@ wings: [people, today]
 themes: [libraries-paper-and-the-book]
 regions: [egypt-nile]
 relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/umari-masalik-1924], confidence: low }
   - { type: wrote_about, target: work/masalik-al-absar, sources: [source/umari-masalik-1924] }
 sources: [source/umari-masalik-1924]
 provenance:

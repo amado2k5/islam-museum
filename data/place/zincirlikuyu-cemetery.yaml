@@ -1,0 +1,21 @@
+id: place/zincirlikuyu-cemetery
+class: place
+kind: site
+label: { ar: "مقبرة زنجيرلي قويو", en: "Zincirlikuyu Cemetery", ur: "زنجیرلی قویو قبرستان" }
+summary:
+  ar: "موقع في تركيا."
+  en: "Site in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.0738, 29.0079]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q29635" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q29635 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

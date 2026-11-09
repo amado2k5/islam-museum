@@ -11,6 +11,8 @@ roles: [military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/khwarizm, confidence: low, note: "Associated with خوارزم per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

@@ -9,6 +9,8 @@ died: { edtf: "1071~", hijri: "0463", calendar: julian, precision: year, status:
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Associated with قرطبة per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

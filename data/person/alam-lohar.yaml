@@ -35,6 +35,7 @@ faith:
     note: "No source names a school for him. The English biography says he was born into a Punjabi Muslim family of Lohars (blacksmiths) — family background, which never counts — and Wikidata gives Islam (P140) only; the Sufi poetry (Sufiana Kalaam) he read as a child and sang all his life is repertoire, which never counts. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-alam-lohar-en, source/wikipedia-alam-lohar-ur, source/wikidata-alam-lohar]
 relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-alam-lohar-en, source/wikipedia-alam-lohar-ur, source/wikidata-alam-lohar, source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur], confidence: low }
   - { type: parent_of, target: person/arif-lohar, sources: [source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur] }
 summary:
   ar: "مغنّي البنجاب الشعبي الباكستاني (1928–1979) من قرية آچھ في منطقة غوجرات، وُلد في أسرة حدّادين، ابتكر وشهر فنّ «جغني» القصصي، وأعاد تقديم «هير» وارث شاه بصوته العالي مصحوباً بالچمٹا، وسيطر على الغناء الشعبي في باكستان من الخمسينيات حتى وفاته في حادث سير؛ وهو والد عارف لوهار."

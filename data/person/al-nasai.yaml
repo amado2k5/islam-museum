@@ -18,6 +18,8 @@ themes: [scripture-and-its-sciences]
 periods: [period/abbasid-early, period/abbasid-fragmentation]
 regions: [persia-central-asia, egypt-nile, levant-iraq]
 relations:
+  - { type: lived_in, target: place/misr, note: "From text: settled in Egypt", sources: [source/sunan-al-nasai, source/tabaqat-shafiiyya-subki, source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi, source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: traveled_to, target: place/damascus, note: "From text: moved to Damascus", sources: [source/sunan-al-nasai, source/tabaqat-shafiiyya-subki, source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi, source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
   - { type: born_in, target: place/nasa, sources: [source/wafayat-ayan] }
   - { type: died_in, target: place/ramla, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
   - { type: student_of, target: person/qutayba-ibn-said, sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }

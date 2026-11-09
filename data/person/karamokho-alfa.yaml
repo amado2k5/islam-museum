@@ -38,6 +38,9 @@ died:
   note: "The English article gives his death as around 1751; the French article gives 1751, at Labé, and adds that he was buried behind the great mosque of Labé, where a mausoleum holds him and some of his descendants; Wikidata gives 1751. The year 1751 spans the Hijri years 1164 and 1165, so no Hijri year is recorded. No place entity for Labé exists in the museum, so the place of death is carried in this note only."
   sources: [source/wikipedia-karamokho-alfa-en, source/wikipedia-karamokho-alfa-fr, source/wikidata-karamokho-alfa]
 
+relations:
+  - { type: born_in, target: place/lab, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-karamokho-alfa-fr, source/wikidata-karamokho-alfa] }
+  - { type: died_in, target: place/lab, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-karamokho-alfa-en, source/wikipedia-karamokho-alfa-fr, source/wikidata-karamokho-alfa] }
 faith:
   - value: unknown
     basis: unknown

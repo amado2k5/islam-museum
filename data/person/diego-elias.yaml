@@ -21,6 +21,8 @@ born:
   derived: true
   note: "Born 19 November 1996 in Lima (the English, Arabic and Urdu articles and Wikidata agree; the English and Urdu articles give his full name as Diego Elías Chehab). The Hijri year 1417 is the tabular conversion of 19 November 1996 and is marked derived. Lima has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose."
   sources: [source/wikipedia-diego-elias-en, source/wikipedia-diego-elias-ar, source/wikipedia-diego-elias-ur, source/wikidata-diego-elias]
+relations:
+  - { type: born_in, target: place/lima, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-diego-elias] }
 faith:
   - value: unknown
     basis: unknown

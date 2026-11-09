@@ -21,6 +21,9 @@ born:
   derived: true
   note: "Born at Merseburg, East Germany (now Saxony-Anhalt, Germany), on 28 October 1979; the English article and Wikidata agree. The Hijri year (1399) is derived by tabular conversion. No born_in relation is written: Merseburg has no museum place entity."
   sources: [source/wikipedia-jawed-karim-en, source/wikidata-jawed-karim]
+relations:
+  - { type: born_in, target: place/merseburg, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jawed-karim] }
+  - { type: lived_in, target: place/palo-alto, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jawed-karim] }
 faith:
   - value: unknown
     basis: unknown

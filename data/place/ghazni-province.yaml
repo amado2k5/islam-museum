@@ -1,0 +1,21 @@
+id: place/ghazni-province
+class: place
+kind: region
+label: { ar: "ولاية غزني", en: "Ghazni Province", ur: "صوبہ غزنی" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q180415)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [33.5, 68]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q180415" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q180415 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

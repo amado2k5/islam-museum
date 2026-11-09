@@ -33,6 +33,8 @@ died:
   note: "Died on 14 March 1980 at Jakarta and was buried at Tanah Kusir cemetery in the same city, as the articles and Wikidata give. The Hijri year (1400) is by tabular conversion."
   sources: [source/wikipedia-mohammad-hatta-en, source/wikipedia-mohammad-hatta-ar, source/wikipedia-mohammad-hatta-ur, source/wikidata-mohammad-hatta]
 relations:
+  - { type: born_in, target: place/bukittinggi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-hatta] }
+  - { type: died_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohammad-hatta] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-mohammad-hatta-en, source/wikidata-mohammad-hatta] }
 faith:
   - value: unknown

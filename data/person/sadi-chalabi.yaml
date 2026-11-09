@@ -20,6 +20,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch81
+relations:
+  - { type: born_in, target: place/constantinople, sources: [source/shadharat-dhahab], confidence: low, note: "en: 'Sa'di Chalabi — Kastamonu-born, trained in Constantinople to al-Samuni's service; Mahmud Pasha madrasa, t" }
+  - { type: ruler_of, target: place/bursa, sources: [source/shadharat-dhahab], confidence: low, note: "en: 'Sa'di Chalabi — Kastamonu-born, trained in Constantinople to al-Samuni's service; Mahmud Pasha madrasa, t" }
+  - { type: lived_in, target: place/constantinople, sources: [source/shadharat-dhahab], confidence: low, note: "ar: 'المولى سعد الدين عيسى بن أميز خان الحنفي المعروف بسعدي جلبي، أحد موالي الروم المشهورين بالعلم والدين والر" }
 sources: [source/shadharat-dhahab]
 status:
   review: published

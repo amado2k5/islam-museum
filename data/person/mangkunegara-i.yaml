@@ -36,6 +36,8 @@ died:
   note: "The English and Indonesian articles and Wikidata agree on 28 December 1795, at Surakarta; he was buried in the Mangadeg royal cemetery at Matesih. The English article's category files him under 1796 deaths against its own text — a filing error, not a rival date. Surakarta has no museum place record, so no died_in edge is written."
   sources: [source/wikipedia-mangkunegara-i-en, source/wikipedia-mangkunegara-i-id, source/wikidata-mangkunegara-i]
 
+relations:
+  - { type: died_in, target: place/surakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mangkunegara-i] }
 faith:
   - value: unknown
     basis: unknown

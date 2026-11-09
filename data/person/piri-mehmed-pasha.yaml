@@ -29,3 +29,5 @@ occupations:
     status: historical
     note: "The SADRAZAM entry says there was unrest at the appointment of Piri Mehmed Pasha (d. 939 AH / 1532), because some claimed the grand vizierate belonged to men of devshirme origin."
     sources: [source/tdv-sadrazam]
+relations:
+  - { type: lived_in, target: place/lipari, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }

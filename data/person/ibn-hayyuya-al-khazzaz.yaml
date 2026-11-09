@@ -17,6 +17,8 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: transmitter, status: tradition, note: "من رواة كتاب الزهد لابن المبارك برواية المروزي", sources: [source/zuhd-ibn-mubarak-azami-scan] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
 provenance:
   layer: own-research
   source: "تراجم رواة نسخة المروزي في مقدمة أحمد فريد لكتاب الزهد ص 99-101؛ أسانيد نسخة الأعظمي ص 1-2، 304"

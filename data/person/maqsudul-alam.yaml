@@ -32,6 +32,8 @@ died:
   derived: true
   note: "Died on 20 December 2014 at the Queen's Medical Center, Honolulu, Hawaii, of cirrhosis of the liver, and was buried at Hawaii Memorial Park Cemetery, per the English Wikipedia article citing Prothom Alo and the Daily Star; its infobox gives the resting place as 'Hawaii General Park', and the text is followed. Honolulu has no place entity, so no died_in or buried_in edge is written. The Hijri year 1436 is derived from the Gregorian date."
   sources: [source/wikipedia-maqsudul-alam-en]
+relations:
+  - { type: born_in, target: place/pakistan, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-maqsudul-alam-en] }
 faith:
   - value: unknown
     basis: unknown

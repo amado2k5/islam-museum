@@ -32,6 +32,8 @@ faith:
 wings: [people, living]
 regions: [andalus-europe]
 external_ids: { wikidata: "Q1355898" }
+relations:
+  - { type: born_in, target: place/sheffield, sources: [source/wikidata-naseem-hamed], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42448)" }
 sources: [source/wikipedia-naseem-hamed-en, source/wikipedia-naseem-hamed-ar, source/wikidata-naseem-hamed]
 provenance: { layer: own-research, source: "English Wikipedia (revision 1381509755 of 23 October 2026), Arabic Wikipedia (revision 74723701 of 25 May 2026) and Wikidata Q1355898, consulted directly 26 Oct 2026. No Urdu Wikipedia article exists.", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-34" }
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

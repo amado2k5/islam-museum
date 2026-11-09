@@ -10,6 +10,7 @@ periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
   - { type: related_to, target: person/sulayman-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: born_in, target: place/baysan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q152368)" }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 371–372"

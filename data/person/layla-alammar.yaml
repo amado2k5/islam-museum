@@ -13,6 +13,8 @@ summary:
 roles: [writer, professor]
 wings: [people, living]
 regions: [arabia]
+relations:
+  - { type: lived_in, target: place/kuwait, confidence: low, note: "Associated with الكويت per the record's own summary text; relation type pending review.", sources: [source/harperreach-pact-we-made] }
 faith:
   - value: unknown
     basis: unknown

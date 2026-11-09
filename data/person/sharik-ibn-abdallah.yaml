@@ -18,6 +18,10 @@ provenance:
   source: "تاريخ بغداد للخطيب البغدادي (ج9، ترجمة 4838، ص280)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-tarikh-baghdad-tb1
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: low, note: "ar: 'أبو عبد الله شريك بن عبد الله بن أبي شريك، وهو الحارث بن أوس بن الحوث بن ذهل بن وهيب بن سعد بن مالك بن ال" }
+  - { type: ruler_of, target: place/kufa, sources: [source/wikidata], confidence: low, note: "ar: 'أبو عبد الله شريك بن عبد الله بن أبي شريك، وهو الحارث بن أوس بن الحوث بن ذهل بن وهيب بن سعد بن مالك بن ال" }
+  - { type: ruled_over, target: place/al-qadisiyya, sources: [source/wikidata], confidence: low, note: "ar: 'أبو عبد الله شريك بن عبد الله بن أبي شريك، وهو الحارث بن أوس بن الحوث بن ذهل بن وهيب بن سعد بن مالك بن ال" }
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
 occupations:

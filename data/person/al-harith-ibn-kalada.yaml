@@ -7,9 +7,13 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 external_ids: { wikidata: "Q2056226" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wikidata]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+relations:
+  - { type: born_in, target: place/taif, note: "Wikidata Q182640 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/rashidun-caliphate, note: "Wikidata Q12490507 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

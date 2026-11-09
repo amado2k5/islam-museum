@@ -31,6 +31,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0624~" }, note: "صحابي بدري وأمين سر رسول الله." }
 relations:
+  - { type: died_in, target: place/al-madain, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/death-of-habib-ibn-maslama, role: "خلفه على ثغر أرمينية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }

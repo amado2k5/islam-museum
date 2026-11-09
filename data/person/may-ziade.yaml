@@ -33,6 +33,7 @@ died:
   note: "Died at Cairo on 17 October 1941 (English and Urdu articles and Wikidata; the Arabic article gives the year 1941)."
   sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ur, source/wikidata-may-ziade]
 relations:
+  - { type: born_in, target: place/nazareth, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-may-ziade] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-may-ziade-en, source/wikipedia-may-ziade-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-may-ziade-en] }
 faith:

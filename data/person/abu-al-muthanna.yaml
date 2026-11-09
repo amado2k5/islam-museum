@@ -14,3 +14,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-33
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Qadi appointed over the judiciary in Ibn al-Mu'tazz's one-day caliphate of 296 in Baghdad; fled when the coup collapsed.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }

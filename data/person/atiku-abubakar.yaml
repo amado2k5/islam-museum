@@ -42,3 +42,5 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-atiku-abubakar-en, source/wikipedia-atiku-abubakar-ar, source/wikidata-atiku-abubakar]
+relations:
+  - { type: lived_in, target: place/africa, note: "Place association from the person's nisba/name (الأفريقي); denotes association, not proven residence.", sources: [source/wikipedia-atiku-abubakar-en, source/wikipedia-atiku-abubakar-ar, source/wikidata-atiku-abubakar], confidence: low }

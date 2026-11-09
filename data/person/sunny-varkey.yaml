@@ -49,6 +49,9 @@ faith:
 
 external_ids: { wikidata: "Q17130621" }
 
+relations:
+  - { type: born_in, target: place/kerala, sources: [source/wikidata-sunny-varkey], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1186)" }
+  - { type: lived_in, target: place/united-arab-emirates, sources: [source/wikidata-sunny-varkey], confidence: low, note: "Wikidata P551 residence (Wikidata Q878)" }
 sources:
   - source/wikipedia-sunny-varkey-en
   - source/wikipedia-sunny-varkey-ar

@@ -35,6 +35,9 @@ faith:
     note: "The texts of all three articles attest his membership of the Muslim Brotherhood and his chairmanship of its Freedom and Justice Party — a movement affiliation, which never names a school. FLAGGED for the founder (movement-without-school family): the Sunni reading rests on a single infobox family — the Arabic article's infobox religion field ('Muslim Sunni') — while the Urdu infobox gives Islam in general, the English article carries no religion field and names no school, and the Wikidata religion value is Islam in general (Q432), not Sunni. One infobox never attests a school on its own. The reading is preserved here for the founder's ruling."
     sources: [source/wikipedia-mohamed-morsi-en, source/wikipedia-mohamed-morsi-ar, source/wikipedia-mohamed-morsi-ur, source/wikidata-mohamed-morsi]
 relations:
+  - { type: born_in, target: place/el-adwah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-morsi] }
+  - { type: died_in, target: place/tora-prison, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-morsi] }
+  - { type: buried_in, target: place/nasr-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-morsi] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-mohamed-morsi-en] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-mohamed-morsi-en] }
 wings: [people]

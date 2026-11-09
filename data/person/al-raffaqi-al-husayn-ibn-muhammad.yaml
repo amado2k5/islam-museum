@@ -17,6 +17,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/raqqa, note: "A man of letters from al-Rafiqa per the record.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: high }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 status:
   review: published

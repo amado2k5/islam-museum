@@ -32,9 +32,11 @@ died:
   sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said]
 relations:
   - { type: child_of, target: person/said-bin-sultan, note: "He was a son of Sultan Said bin Sultan (English and Arabic articles; Wikidata father Q506193), by an Ethiopian mother (English article: an Ethiopian concubine); the edge is written here, in the son's record, and his father's record carries none back.", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikidata-turki-bin-said] }
+  - { type: member_of, target: group/al-bu-said, note: "Sultan of Muscat and Oman of the Al Bu Said dynasty (English article's house field and the Arabic article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar] }
   - { type: born_in, target: place/muscat, note: "He was born at Muscat in 1832 (English article); Wikidata's birthplace item is the polity 'Muscat and Oman' (Q157734) where the article names the city itself.", sources: [source/wikipedia-turki-bin-said-en] }
   - { type: died_in, target: place/muscat, note: "He died at Muscat on 4 June 1888 (English and Arabic articles; Wikidata place of death Muscat, Q3826).", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikidata-turki-bin-said] }
-  - { type: member_of, target: group/al-bu-said, note: "Sultan of Muscat and Oman of the Al Bu Said dynasty (English article's house field and the Arabic article); the edge is written to the house group as the museum models it.", sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar] }
+  - { type: ruler_of, target: place/muscat, sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said] }
+  - { type: ruler_of, target: place/sohar, sources: [source/wikipedia-turki-bin-said-en, source/wikipedia-turki-bin-said-ar, source/wikipedia-turki-bin-said-ur, source/wikidata-turki-bin-said] }
 faith:
   - value: unknown
     basis: unknown

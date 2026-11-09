@@ -18,6 +18,9 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch77
+relations:
+  - { type: ruled_over, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: ruled_over, target: place/aleppo, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:
   review: published

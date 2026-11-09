@@ -68,6 +68,7 @@ relations:
     sources:
       - source/wikipedia-taimur-bin-feisal-en
       - source/wikidata-taimur-bin-feisal
+  - { type: ruler_of, target: place/oman, sources: [source/wikipedia-taimur-bin-feisal-en, source/wikipedia-taimur-bin-feisal-ar, source/wikipedia-taimur-bin-feisal-ur, source/wikidata-taimur-bin-feisal] }
 sources:
   - source/wikipedia-taimur-bin-feisal-en
   - source/wikipedia-taimur-bin-feisal-ar

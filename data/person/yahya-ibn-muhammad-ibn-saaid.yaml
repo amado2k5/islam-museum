@@ -26,3 +26,5 @@ provenance:
   run: ocr-harvest-2026-11-04
 sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Association inferred from the nisba 'البغدادي'; specific birthplace or residence is not individually documented.", sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan] }

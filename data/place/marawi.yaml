@@ -1,0 +1,20 @@
+id: place/marawi
+class: place
+kind: city
+label: { ar: "مدينة مراوي", en: "Marawi" }
+summary:
+  ar: "مدينة في جزيرة مينداناو بالفلبين، مركز مسلمي ميراناو."
+  en: "City on Mindanao, Philippines, centre of the Maranao Muslims."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [8.00306, 124.285]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q592338 coordinates; representative point for the city."
+external_ids: { wikidata: "Q592338", geonames: "1701053" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q592338 and GeoNames; entity created so persons' place relations resolve on the map."

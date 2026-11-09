@@ -12,6 +12,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
 relations:
   - { type: child_of, target: person/al-mustansir-billah-egypt, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

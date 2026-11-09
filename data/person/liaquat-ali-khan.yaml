@@ -33,6 +33,11 @@ died:
   derived: true
   note: "Assassinated on 16 October 1951: shot twice in the chest while addressing a gathering at Company Bagh, Rawalpindi, as the English article states citing Dawn and the Express Tribune; the assassin, Said Akbar Babrak, was shot dead by police at the scene. Rawalpindi has no place entity, so no died_in edge is written; he was buried at Mazar-e-Quaid in Karachi, and Karachi has no place entity either, so no buried_in edge is written. The Hijri year is a conversion."
   sources: [source/wikipedia-liaquat-ali-khan-en, source/wikipedia-liaquat-ali-khan-ur, source/wikipedia-liaquat-ali-khan-ar, source/wikidata-liaquat-ali-khan]
+relations:
+  - { type: born_in, target: place/karnal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-liaquat-ali-khan] }
+  - { type: died_in, target: place/rawalpindi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-liaquat-ali-khan] }
+  - { type: died_in, target: place/west-pakistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-liaquat-ali-khan] }
+  - { type: buried_in, target: place/mazar-e-quaid, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-liaquat-ali-khan] }
 faith:
   - value: unknown
     basis: unknown

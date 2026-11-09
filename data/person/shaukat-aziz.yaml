@@ -30,6 +30,8 @@ faith:
     note: "FLAGGED: Sunni is named only in structured data. Wikidata's religion claim is Sunni Islam (Q483654); neither article names a religion or school for him — the English article has no religion field and no religion text (his reported remark after the 2004 assassination attempt, that it reinforced his resolve to serve Pakistan and the Islamic world, is public rhetoric, not an attestation), and the Arabic article's infobox has no religion field, its only Islam mention being his party's name. On the wave-114 Ayub Khan and wave-115 Shehbaz Sharif configuration (Sunni named only in structured data) the value stays unknown."
     sources: [source/wikipedia-shaukat-aziz-en, source/wikipedia-shaukat-aziz-ar, source/wikidata-shaukat-aziz]
 external_ids: { wikidata: "Q223555" }
+relations:
+  - { type: born_in, target: place/karachi, sources: [source/wikidata-shaukat-aziz], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8660)" }
 sources:
   - source/wikipedia-shaukat-aziz-en
   - source/wikipedia-shaukat-aziz-ar

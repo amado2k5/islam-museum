@@ -9,6 +9,8 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 relations:
   - { type: related_to, target: person/salah-al-din-yusuf-ibn-ayyub, role: "ابن أخيه", sources: [source/kamil-ibn-al-athir] }
+
+  - { type: lived_in, target: place/ramla, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 32، 85"

@@ -39,6 +39,8 @@ inventions:
     note: "In Books 1 and 6 of the Kitab al-Manazir he used light entering a dark room through a small hole to prove that light travels in straight lines and that the lights of several candles cross at one hole without mixing; TDV calls this dark-room experiment the basis of today's photographic camera."
     sources: [source/manazir-sabra-1983, source/tdv-ibnul-heysem]
 relations:
+  - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/basra, sources: [source/britannica-ibn-al-haytham] }
   - { type: died_in, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
   - { type: participated_in, target: event/ibn-al-haytham-summoned-to-cairo, role: "العالم المستدعى", sources: [source/britannica-ibn-al-haytham] }

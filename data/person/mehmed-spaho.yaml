@@ -34,6 +34,8 @@ faith:
     note: "No source names a school for him. The Bosnian biography's infobox gives his religion as Islam and Wikidata likewise gives only Islam. The biographies present a Vienna-trained doctor of law who led the Yugoslav Muslim Organization and bargained for Muslim religious autonomy and landowners' compensation — the leadership of a confessional party and his father's Sharia scholarship are party office and family background, never an attestation of a school for the man himself. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs, source/wikidata-mehmed-spaho]
 relations:
+  - { type: born_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmed-spaho] }
+  - { type: died_in, target: place/belgrade, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehmed-spaho] }
   - { type: born_in, target: place/sarajevo, sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs] }
   - { type: died_in, target: place/belgrade, sources: [source/wikipedia-mehmed-spaho-en, source/wikipedia-mehmed-spaho-bs] }
 summary:

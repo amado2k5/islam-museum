@@ -13,6 +13,8 @@ periods: [period/prophetic-era, period/rashidun]
 relations:
   - { type: member_of, target: group/murad, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-zubayd, role: "أبى أن يذهب مع عمرو إلى النبي وسفّه رأيه ثم أوعده", sources: [source/ibn-hisham-saqqa] }
+
+  - { type: lived_in, target: place/al-qadisiyya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa] }
 regions: [levant-iraq, arabia]
 provenance:
   layer: own-research

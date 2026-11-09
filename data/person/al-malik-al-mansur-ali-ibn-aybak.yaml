@@ -16,6 +16,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
   - { type: successor_of, target: person/izz-al-din-aybak, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/aybak-murder-655, role: "المسلطن بعد أبيه", sources: [source/shadharat-dhahab] }

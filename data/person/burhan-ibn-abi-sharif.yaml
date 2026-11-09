@@ -15,6 +15,9 @@ summary:
   en: "Shaykh mashayikh al-Islam, 'the recourse of elite and commoner' — b. Jerusalem 833; Egypt's chief qadi 906–910, then shaykh of the Ghuriyya qubba until 919, when he ruled that a coerced adultery confession could be retracted: al-Ghuri had the pair beaten to death and hanged at his door, dismissing him and all four chief judges. He withdrew home, living off a Jerusalem soap-factory, and 'people said all that befell al-Ghuri was by the shaykh's secret'. Author of the four-volume Sharh al-Minhaj; died dawn Friday 2 Muharram 923, buried beside Imam al-Shafi'i {cite:shadharat-dhahab p. 519-520}."
 born: { edtf: "1429/1430", hijri: "0833", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقدس 833 {cite:shadharat-dhahab p. 519}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1517-01-26~", hijri: "0923-01-02", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي فجر الجمعة 2 المحرم 923 ودُفن غربي ضريح الشافعي {cite:shadharat-dhahab p. 520}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: born_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 923)، قراءة آبل فيجن"

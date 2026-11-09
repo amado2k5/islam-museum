@@ -38,6 +38,9 @@ roles: [scholar, activist]
 wings: [people]
 regions: [levant-iraq]
 relations:
+  - { type: born_in, target: place/jabala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-izz-ad-din-al-qassam] }
+  - { type: died_in, target: place/nazlet-zeid, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-izz-ad-din-al-qassam] }
+  - { type: buried_in, target: place/al-qassam-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-izz-ad-din-al-qassam] }
   - type: lived_in
     target: place/haifa
     note: "Based in Haifa from the early 1920s until his death in 1935: imam of the al-Istiqlal Mosque, a waqf official and marriage registrar, and president of the Haifa branch of the Young Men's Muslim Association {cite:wikipedia-izz-ad-din-al-qassam-en} {cite:wikipedia-izz-ad-din-al-qassam-ar}."

@@ -40,6 +40,10 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+- { type: died_in, target: place/al-shaykh-saad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q4703239)" }
+- { type: died_in, target: place/hauran, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1589883)" }
+- { type: lived_in, target: place/syria, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q858)" }
 - type: member_of
   target: group/ansar
   sources:

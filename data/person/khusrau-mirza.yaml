@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Mughal prince, son of Jahangir, per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q26177

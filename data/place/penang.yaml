@@ -1,0 +1,16 @@
+id: place/penang
+class: place
+kind: province
+label: { en: "Penang", ar: "بينانق" }
+summary:
+  en: "Malaysian state."
+  ar: "محافظة في ماليزيا."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [5.4025, 100.365]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q188096", geonames: "1733047" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q188096 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

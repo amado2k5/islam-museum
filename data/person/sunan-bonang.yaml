@@ -53,6 +53,7 @@ relations:
   - { type: student_of, target: person/sunan-ampel, sources: [source/wikipedia-sunan-bonang-id, source/wikipedia-sunan-bonang-en] }
   - { type: sibling_of, target: person/sunan-drajat, sources: [source/wikipedia-sunan-drajat-en, source/wikipedia-sunan-drajat-id] }
 
+  - { type: born_in, target: place/surabaya, sources: [source/wikidata-sunan-bonang], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11462)" }
 faith:
   - value: unknown
     basis: unknown

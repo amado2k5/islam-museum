@@ -1,0 +1,38 @@
+id: place/malaysia
+class: place
+kind: region
+label:
+  ar: ماليزيا
+  en: Malaysia
+  ur: ملائیشیا
+summary:
+  ar: دولة اتحادية في جنوب شرق آسيا، عاصمتها كوالالمبور.
+  en: Federal state in Southeast Asia; capital Kuala Lumpur.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 4.0
+- 102.0
+coordinate_precision: approx
+coordinate_note: Identified location / approximate regional centre; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q833
+  geonames: '1733045'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q833 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q833 (labels, coordinates, description)

@@ -13,5 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch49
+relations:
+  - { type: lived_in, target: place/tabariyya, sources: [source/muntazam-ibn-al-jawzi], confidence: low, note: "وعند ابن الجوزي ظهر أخوه الحسين — صاحب الشامة — بعده فأُسر سنة إحدى وتسعين وأُعدم على دكة بالمصلى العتيق، ثم ظ" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: published, completeness: 3 }

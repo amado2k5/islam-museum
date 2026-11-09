@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [global]
 periods: [period/modern-era]
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Associated with الروم per the record's own text; relation type pending review.", sources: [source/al-istishraq-wal-khalfiyya-azhar] }
 sources: [source/al-istishraq-wal-khalfiyya-azhar]
 status:
   review: draft

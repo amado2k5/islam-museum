@@ -1,0 +1,20 @@
+id: place/britain
+class: place
+kind: island
+label: { ar: "بريطانيا", en: "Britain" }
+summary:
+  ar: "جزيرة في شمال أوروبا، عليها المملكة المتحدة."
+  en: "North European island holding the United Kingdom."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [54.0, -2.0]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q23666" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

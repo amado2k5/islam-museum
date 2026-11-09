@@ -15,6 +15,8 @@ regions: [arabia]
 relations:
   - { type: member_of, target: group/banu-tamim, note: "نسبتها إلى تميم مستفادة من سياق الخبر لا من نص صريح", sources: [source/ibn-hisham-saqqa] }
   - { type: authored, target: work/salma-bint-attab-verses-on-banu-al-anbar, sources: [source/ibn-hisham-saqqa] }
+
+  - { type: lived_in, target: place/al-anbar, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 270"

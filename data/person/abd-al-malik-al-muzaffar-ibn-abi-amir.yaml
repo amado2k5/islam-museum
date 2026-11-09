@@ -10,6 +10,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
 relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (andalus-europe) is attested; broad-region edge flagged for review.", sources: [source/nafh-tib-maqqari], confidence: low }
   - { type: child_of, target: person/al-mansur-ibn-abi-amir, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

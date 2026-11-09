@@ -35,10 +35,12 @@ died:
   note: "The TDV entry and the Arabic article pair his death with 885 AH / 1480 CE; the Turkish article and Wikidata give 1480. The older annalistic tradition carried by the Shadharat al-Dhahab gives 886 AH (1481/82), and the English article gives 1480-81, possibly October 1480. He died at Istanbul and was carried to Bursa for burial."
   sources: [source/tdv-molla-husrev, source/wikipedia-molla-husrev-ar, source/wikidata-molla-husrev, source/shadharat-dhahab]
 relations:
+  - { type: student_of, target: person/molla-yegan, sources: [source/tdv-molla-husrev, source/wikipedia-molla-husrev-en] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-molla-husrev-en, source/wikipedia-molla-husrev-tr] }
   - { type: died_in, target: place/istanbul, sources: [source/tdv-molla-husrev, source/wikipedia-molla-husrev-tr] }
   - { type: buried_in, target: place/bursa, sources: [source/tdv-molla-husrev, source/wikipedia-molla-husrev-en] }
-  - { type: student_of, target: person/molla-yegan, sources: [source/tdv-molla-husrev, source/wikipedia-molla-husrev-en] }
+  - { type: lived_in, target: place/bursa, sources: [source/wikipedia-molla-husrev-en, source/wikipedia-molla-husrev-tr, source/wikipedia-molla-husrev-ar, source/wikidata-molla-husrev, source/tdv-molla-husrev, source/shadharat-dhahab] }
+  - { type: lived_in, target: place/edirne, sources: [source/wikipedia-molla-husrev-en, source/wikipedia-molla-husrev-tr, source/wikipedia-molla-husrev-ar, source/wikidata-molla-husrev, source/tdv-molla-husrev, source/shadharat-dhahab] }
 faith:
   - value: sunni-hanafi
     basis: documented

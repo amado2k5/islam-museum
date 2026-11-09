@@ -26,6 +26,8 @@ born:
   sources: [source/wikipedia-mike-tyson-en, source/wikidata-mike-tyson]
 gender: male
 roles: [boxer]
+relations:
+  - { type: born_in, target: place/brooklyn, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mike-tyson] }
 faith:
   - value: unknown
     basis: unknown

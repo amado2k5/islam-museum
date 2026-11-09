@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q107344361
 provenance:
@@ -23,3 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+relations:
+  - { type: born_in, target: place/mamluk-egypt, note: "Wikidata Q3973997 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/cairo, note: "Wikidata Q85 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/city-of-the-dead, note: "Wikidata Q2066414 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

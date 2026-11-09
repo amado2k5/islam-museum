@@ -1,0 +1,21 @@
+id: place/richmond
+class: place
+kind: town
+label: { ar: "ريتشموند", en: "Richmond", ur: "رچمنڈ، کوازولو-ناٹال" }
+summary:
+  ar: "بلدة في جنوب إفريقيا."
+  en: "Town in South Africa."
+wings: [place]
+regions: [global]
+coordinates: [-29.866666666667, 30.266666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q985819" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q985819 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

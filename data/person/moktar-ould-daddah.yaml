@@ -39,6 +39,10 @@ faith:
     note: "No article text names his school. What exists is one structured family plus background: the Arabic article's infobox names his religion 'Sunni Muslim' (مسلم سني), the French article's infobox names Islam, and Wikidata carries the single value Sunni Islam, plausibly the Arabic infobox's echo; infoboxes and one structured item are one family. The English text gives only his birth into a marabout family and his schooling at Islamic academies — family background and formation, which never count — and his 'Islamic socialism' was a state programme, not a personal attestation; both articles file him under Muslim socialists, and filings never count. The Sunni reading thus stands one full family short of sunni/documented (the moussa-traore and josh-malihabadi configuration); the value stays unknown with the reading preserved here."
     sources: [source/wikipedia-moktar-ould-daddah-en, source/wikipedia-moktar-ould-daddah-ar, source/wikipedia-moktar-ould-daddah-ur, source/wikipedia-moktar-ould-daddah-fr, source/wikidata-moktar-ould-daddah]
 external_ids: { wikidata: "Q345385" }
+relations:
+  - { type: born_in, target: place/boutilimit, sources: [source/wikidata-moktar-ould-daddah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q895292)" }
+  - { type: died_in, target: place/paris, sources: [source/wikidata-moktar-ould-daddah], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q90)" }
+  - { type: buried_in, target: place/mauritania, sources: [source/wikidata-moktar-ould-daddah], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1025)" }
 sources: [source/wikipedia-moktar-ould-daddah-en, source/wikipedia-moktar-ould-daddah-ar, source/wikipedia-moktar-ould-daddah-ur, source/wikipedia-moktar-ould-daddah-fr, source/wikidata-moktar-ould-daddah]
 provenance:
   layer: own-research

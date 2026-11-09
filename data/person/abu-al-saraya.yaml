@@ -9,3 +9,5 @@ gender: male
 sources: [source/tabari-tarikh-abu-al-fadl, source/encyclopaedia-of-islam-2]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 5", source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 168 (EI2 enrichment, batch ei2-b003 part 3z; the entry is headed SHAYBANI in the queue)", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "From text: from Kufa", sources: [source/tabari-tarikh-abu-al-fadl, source/encyclopaedia-of-islam-2], confidence: low }

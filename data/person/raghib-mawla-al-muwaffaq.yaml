@@ -11,6 +11,7 @@ periods: [period/abbasid-early]
 regions: [levant-iraq, anatolia-balkans]
 relations:
   - { type: allied_with, target: person/abu-ahmad-al-muwaffaq, role: "مولى", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: lived_in, target: place/baghdad, confidence: medium, note: "Mawla of the caliph al-Muwaffaq, active in the Abbasid capital (Muntazam; regions: levant-iraq).", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 285)، قراءة آبل فيجن"

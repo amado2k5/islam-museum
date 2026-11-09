@@ -18,6 +18,8 @@ born:
   status: historical
   note: "The Spanish article's lead and Wikidata give 1965. The article's authority-control tag carries 1962, and the queue year 1966 appears in no source read; neither variant is adopted. A bare 1965 spans two Hijri years (1384 and 1385), so no Hijri year is recorded. She was born in Beirut, for which the museum has no place entity, so no born_in edge is written."
   sources: [source/wikipedia-maha-akhtar-es, source/wikidata-maha-akhtar]
+relations:
+  - { type: born_in, target: place/bayrut, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-maha-akhtar-es, source/wikidata-maha-akhtar] }
 faith:
   - value: unknown
     basis: unknown

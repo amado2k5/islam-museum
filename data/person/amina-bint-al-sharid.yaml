@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من شيعة علي بن أبي طالب ومناصريه عند كحالة؛ تسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: died_in, target: place/homs, note: "From text: توفيت بالطاعون في حمص في خلافة معاوية", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: spouse_of, target: person/umar-ibn-al-humq-al-khuzai, note: "زوجها عمر بن الحمق الخزاعي الذي فرّ من طلب معاوية فقتله عبد الرحمن بن الحكم، وأُرسل رأسه إلى آمنة في السجن {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 15}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: opposed, target: person/muawiya-ibn-abi-sufyan, note: "حاورت معاوية في مجلسه بعد إطلاقها من السجن فأنكرته وعرضت عليه لعنات، وأشار إليها بالبنان أن تخرج {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 16-17}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
 sources: [source/alam-al-nisa-kahhala-risala-1984-v1]

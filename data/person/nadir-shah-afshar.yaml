@@ -13,6 +13,12 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/dastgerd, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5226890)" }
+  - { type: died_in, target: place/quchan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q765793)" }
+  - { type: buried_in, target: place/nader-shah-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5957084)" }
+  - { type: lived_in, target: place/afsharid-iran, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q63149558)" }
+  - { type: lived_in, target: place/persian-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q83311)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q192868

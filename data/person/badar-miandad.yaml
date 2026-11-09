@@ -15,6 +15,9 @@ regions: [south-asia]
 roles: [sufi-singer, composer]
 born: { edtf: "1960-02-17/1962-02-17", calendar: gregorian, precision: day, status: debated, derived: false, note: "The English article's text and Wikidata give 17 February 1962; its infobox gives 17 February 1960. Born at Pakpattan, Punjab. Both are kept.", sources: [source/wikipedia-badar-miandad-en, source/wikidata-badar-miandad] }
 died: { edtf: "2007-03-02", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Lahore of a heart attack after two years of illness, aged 47 (English article, citing Dawn of 3 March 2007; Wikidata gives the day and Lahore).", sources: [source/wikipedia-badar-miandad-en, source/wikidata-badar-miandad] }
+relations:
+  - { type: born_in, target: place/pakpattan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badar-miandad] }
+  - { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badar-miandad] }
 faith:
   - value: unknown
     basis: unknown

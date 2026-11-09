@@ -1,0 +1,38 @@
+id: place/canada
+class: place
+kind: region
+label:
+  ar: كندا
+  en: Canada
+  ur: کینیڈا
+summary:
+  ar: دولة في أمريكا الشمالية.
+  en: Country in North America.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 56
+- -109
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q16
+  geonames: '6251999'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q16 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q16 (labels, coordinates, description)

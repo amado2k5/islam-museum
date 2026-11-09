@@ -15,6 +15,12 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch118
+relations:
+  - { type: lived_in, target: place/shahrazur, note: "Al-Shahrazuri al-Kurdi of the Kurdish shaykhs; flagged.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: lived_in, target: place/mosul, note: "Settled at Mosul for study.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "Entered Baghdad and studied there under Sharaf al-Din Ibn Abi Asrun.", sources: [source/wafayat-ayan], confidence: low }
+  - { type: died_in, target: place/aleppo, note: "Died at Aleppo in 618.", sources: [source/wafayat-ayan], confidence: high }
+  - { type: buried_in, target: place/aleppo, note: "Buried outside Bab al-Arba'in in the turba of Shaykh Ali ibn Muhammad al-Farisi.", sources: [source/wafayat-ayan], confidence: high }
 sources: [source/wafayat-ayan]
 status:
   review: published

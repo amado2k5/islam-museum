@@ -30,6 +30,9 @@ died:
   derived: true
   note: "The English, Arabic and Albanian articles give his death at Perugia on 26 January 1919, which the record follows; Wikidata gives 24 January 1919. The Hijri year is derived by tabular conversion (January 1919 falls in 1337 AH)."
   sources: [source/wikipedia-ismail-qemali-en, source/wikipedia-ismail-qemali-ar, source/wikipedia-ismail-qemali-sq, source/wikidata-ismail-qemali]
+relations:
+  - { type: born_in, target: place/vlor, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-qemali] }
+  - { type: died_in, target: place/perugia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ismail-qemali] }
 faith:
   - value: unknown
     basis: unknown

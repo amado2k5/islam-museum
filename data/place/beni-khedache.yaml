@@ -1,0 +1,21 @@
+id: place/beni-khedache
+class: place
+kind: town
+label: { ar: "بني خداش", en: "Beni Khedache" }
+summary:
+  ar: "بلدة في تونس."
+  en: "Town in Tunisia."
+wings: [place]
+regions: [maghreb]
+coordinates: [33.2514, 10.1994]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2555642" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2555642 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

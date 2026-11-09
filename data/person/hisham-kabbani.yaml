@@ -37,6 +37,9 @@ faith:
     note: "Two independent article texts name his Sufi affiliation personally. The English lead calls him a Sunni Sufi Muslim scholar belonging to the Naqshbandi Haqqani Sufi order. The Arabic text calls him a scholar and Sufi shaykh from Lebanon and states that he holds an ijaza from Shaykh Nazim al-Haqqani to teach the Naqshbandi order. No sunni segment is recorded: 'Sunni' is named only by the English lead and by the Urdu lead, which is a translation of the English article, so the two are one source family; the Arabic text names no school for him, and Wikidata gives his religion as Islam generically."
     sources: [source/wikipedia-hisham-kabbani-en, source/wikipedia-hisham-kabbani-ar]
 relations:
+  - { type: born_in, target: place/bayrut, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hisham-kabbani] }
+  - { type: died_in, target: place/fenton, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hisham-kabbani] }
+  - { type: lived_in, target: place/united-states, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hisham-kabbani] }
   - { type: born_in, target: place/bayrut, sources: [source/wikipedia-hisham-kabbani-en, source/wikidata-hisham-kabbani] }
   - { type: student_of, target: person/nazim-al-haqqani, sources: [source/wikipedia-hisham-kabbani-ar, source/wikipedia-hisham-kabbani-en] }
 external_ids: { wikidata: "Q2744388" }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+relations:
+  - { type: died_in, target: place/constantinople, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16869)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]
 external_ids:
   wikidata: Q2822167

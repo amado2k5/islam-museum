@@ -35,6 +35,9 @@ died:
   note: "The articles divide against themselves. The English and Arabic leads give 1671 while their bodies say he died in Kashmir in 1666; the Urdu lead gives 1666 while its body gives his death in Kashmir in 1081 AH / 1671. The year 1671 is built — the reading of both leads, of the Urdu body with its Hijri pairing, and of Wikidata's statement — with the 1666 reading preserved here. Kashmir has no place entity on main, so no died_in edge is written."
   sources: [source/wikipedia-inayat-khan-historian-en, source/wikipedia-inayat-khan-historian-ar, source/wikipedia-inayat-khan-historian-ur, source/wikidata-inayat-khan-historian]
 
+relations:
+  - { type: born_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-inayat-khan-historian] }
+  - { type: died_in, target: place/kashmir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-inayat-khan-historian] }
 faith:
   - value: unknown
     basis: unknown

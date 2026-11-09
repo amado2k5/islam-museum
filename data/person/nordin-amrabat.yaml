@@ -23,6 +23,8 @@ born:
   sources: [source/wikipedia-nordin-amrabat-en, source/wikipedia-nordin-amrabat-ar, source/wikidata-nordin-amrabat]
 relations:
   - { type: sibling_of, target: person/sofyan-amrabat, sources: [source/wikipedia-nordin-amrabat-en] }
+
+  - { type: lived_in, target: place/athens, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-nordin-amrabat-en, source/wikipedia-nordin-amrabat-ar, source/wikidata-nordin-amrabat] }
 faith:
   - value: unknown
     basis: unknown

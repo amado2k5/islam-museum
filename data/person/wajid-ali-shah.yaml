@@ -37,7 +37,9 @@ died:
   note: "The English article's lead and infobox and the Arabic article give 1 September 1887, the Arabic article pairing it with 13 Dhu al-Hijja 1304 AH; Wikidata gives 21 September 1887. The two articles' date is built and the split recorded here. He died at Metiabruz, Calcutta, and was buried in the Sibtainabad Imambara there. Calcutta has no museum place record yet, so no died_in edge is written."
   sources: [source/wikipedia-wajid-ali-shah-en, source/wikipedia-wajid-ali-shah-ar, source/wikidata-wajid-ali-shah]
 
-relations: []
+relations:
+  - { type: born_in, target: place/lucknow, sources: [source/wikidata-wajid-ali-shah], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47916)" }
+  - { type: died_in, target: place/kolkata, sources: [source/wikidata-wajid-ali-shah], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1348)" }
 
 faith:
   - value: shia-twelver

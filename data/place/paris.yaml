@@ -1,0 +1,38 @@
+id: place/paris
+class: place
+kind: city
+label:
+  ar: باريس
+  en: Paris
+  ur: پیرس
+summary:
+  ar: عاصمة فرنسا وأكبر مدنها.
+  en: Capital and most populous city in France.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 48.85667
+- 2.35222
+coordinate_precision: locality
+coordinate_note: Wikidata Q90 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q90
+  geonames: '2968815'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q90 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q90 (labels, coordinates, description)

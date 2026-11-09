@@ -16,6 +16,7 @@ faith:
   - value: sunni
     basis: tradition
 relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/al-malik-al-salih-ayyub, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status:

@@ -1,0 +1,16 @@
+id: place/novato
+class: place
+kind: city
+label: { en: "Novato", ar: "نوفاتو" }
+summary:
+  en: "City in Marin County, California, United States."
+  ar: "مدينة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [38.1075, -122.5697]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q851004", geonames: "5378044" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q851004 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

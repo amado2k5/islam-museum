@@ -9,7 +9,8 @@ wings: [place]
 regions: [anatolia-balkans]
 coordinates: [41.008, 28.978]
 coordinate_precision: site
-sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: "Q16869" }
+sources: [source/geonames-gazetteer, source/encyclopaedia-of-islam-2, source/wikidata]
 provenance:
   layer: own-research
   source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map; summary cited to Encyclopaedia of Islam, 2nd ed., vol. 5.1, art. 'al-Kustantiniyya', PDF pp. 570-571"

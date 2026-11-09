@@ -8,6 +8,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: traveled_to, target: place/tabuk, sources: [source/ibn-hisham-saqqa, source/rijal-hawl-al-rasul-muqattam-1994] }
   - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 323-331"

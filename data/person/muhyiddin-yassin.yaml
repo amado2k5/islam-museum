@@ -27,6 +27,10 @@ faith:
     note: "No article read names a school for Muhyiddin Yassin. Wikidata's religion value is Islam in general (Q432), a structured value from a single structured family, which never counts on its own, and no second, independent source naming a school for the man himself was found among the articles read. His father was an Islamic theologian and cleric at Muar — family background, which never counts — and his strengthening of Johor's religious schools and sharia courts as Menteri Besar is public office, which never counts. Under the two-source rule and the doubt rule his school stays unknown, and since no school reading exists anywhere, the value is unknown and unflagged."
     sources: [source/wikipedia-muhyiddin-yassin-en, source/wikipedia-muhyiddin-yassin-id, source/wikidata-muhyiddin-yassin]
 external_ids: { wikidata: "Q1060949" }
+relations:
+  - { type: born_in, target: place/muar, sources: [source/wikidata-muhyiddin-yassin], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1832744)" }
+  - { type: lived_in, target: place/bukit-damansara, sources: [source/wikidata-muhyiddin-yassin], confidence: low, note: "Wikidata P551 residence (Wikidata Q4986889)" }
+  - { type: lived_in, target: place/putrajaya, sources: [source/wikidata-muhyiddin-yassin], confidence: low, note: "Wikidata P937 work location (Wikidata Q182378)" }
 sources: [source/wikipedia-muhyiddin-yassin-en, source/wikipedia-muhyiddin-yassin-ar, source/wikipedia-muhyiddin-yassin-ur, source/wikipedia-muhyiddin-yassin-id, source/wikidata-muhyiddin-yassin]
 provenance:
   layer: own-research

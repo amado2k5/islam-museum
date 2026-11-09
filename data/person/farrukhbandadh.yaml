@@ -7,6 +7,7 @@ summary:
 wings: [people]
 gender: male
 relations:
+  - { type: lived_in, target: place/baniqya, confidence: low, note: "Associated with بانقيا per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/baniqya-sulh, role: "أمير الخيل المقتول", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

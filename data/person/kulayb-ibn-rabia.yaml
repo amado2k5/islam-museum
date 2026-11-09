@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
   - { type: sibling_of, target: person/al-muhalhil, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
