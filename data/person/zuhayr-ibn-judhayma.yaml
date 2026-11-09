@@ -12,6 +12,7 @@ provenance:
   source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-7
+died: { edtf: "575~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
 relations:
   - { type: lived_in, target: place/najd, sources: [source/ansab-al-ashraf] }
 sources: [source/ansab-al-ashraf]

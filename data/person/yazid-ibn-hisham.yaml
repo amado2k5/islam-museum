@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [arabia]
 provenance: { layer: own-research, source: "salabi-umayyad-state-2020 p. 470", generated_by: "Claude (Haiku 5.5), extracted from salabi-umayyad-state-2020 p.470" }
+died: { edtf: "744~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: traveled_to, target: place/mecca, sources: [source/salabi-umayyad-state-2020] }
 sources: [source/salabi-umayyad-state-2020]

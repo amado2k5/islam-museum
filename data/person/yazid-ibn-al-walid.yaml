@@ -6,6 +6,8 @@ summary:
 wings: [people]
 gender: male
 external_ids: { wikidata: "Q128413" }
+born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
+died: { edtf: "744", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/khudari-umayyad-state, source/tarikh-khalifa-umari-1985]

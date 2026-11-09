@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1184", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
 sources: [source/al-aalam]

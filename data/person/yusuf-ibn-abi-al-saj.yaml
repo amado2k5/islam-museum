@@ -12,6 +12,7 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-4
+died: { edtf: "928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
 relations:
   - { type: traveled_to, target: place/wasit, sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir] }
   - { type: traveled_to, target: place/kufa, sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir] }

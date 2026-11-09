@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "676", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of Byzantium" }
+died: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of Byzantium" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Association inferred from the nisba 'الدمشقي'; specific birthplace or residence is not individually documented.", sources: [source/tarikh-islam-hasan-ibrahim] }

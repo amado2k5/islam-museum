@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1420", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi)" }
+died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw al-Lami (al-Sakhawi)" }
 relations:
   - { type: born_in, target: place/al-hilmiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12201430)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }

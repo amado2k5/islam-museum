@@ -17,6 +17,7 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+died: { edtf: "791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani (Abu al-Faraj al-Isfahani)" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]

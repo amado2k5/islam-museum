@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}

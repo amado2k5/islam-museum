@@ -38,6 +38,8 @@ provenance:
   generated_by: Claude Code
   model: claude-sonnet-5-5
   run: poetry-muallaqat-4
+born: { edtf: "520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (Abu al-Faraj al-Isfahani)" }
+died: { edtf: "609~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (Abu al-Faraj al-Isfahani)" }
 relations:
 - type: lived_in
   target: place/hijaz

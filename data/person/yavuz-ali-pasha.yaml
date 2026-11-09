@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, egypt-nile]
 periods: [period/gunpowder-empires]
+died: { edtf: "1604", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani (Mehmed Sureyya)" }
 relations:
   - { type: died_in, target: place/belgrade, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3711)" }
 sources: [source/dawlat-uthmaniyya-salabi]

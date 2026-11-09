@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/al-madain, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fihrist-ibn-al-nadim] }

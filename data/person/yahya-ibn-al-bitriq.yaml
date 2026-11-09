@@ -10,6 +10,7 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim)" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/duha-islam] }
 sources: [source/duha-islam]

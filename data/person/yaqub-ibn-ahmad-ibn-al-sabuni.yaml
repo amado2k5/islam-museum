@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam]
+born: { edtf: "1223", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+died: { edtf: "1292", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/al-sham, confidence: low, note: "Nisba al-Sabuni of the Syrian milieu (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
 external_ids:

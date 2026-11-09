@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, role: "بانٍ للمسجد", sources: [source/ibn-hisham-saqqa] }

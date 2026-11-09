@@ -34,6 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
 - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 - type: sibling_of

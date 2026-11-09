@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+born: { edtf: "1506", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil (al-Hurr al-Amili)" }
+died: { edtf: "1558", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil (al-Hurr al-Amili)" }
 relations:
   - { type: lived_in, target: place/jabal-amel, sources: [source/al-aalam] }
 sources: [source/al-aalam]

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1096", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Shafi'iyya al-Kubra (al-Subki)" }
+died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Shafi'iyya al-Kubra (al-Subki)" }
 relations:
   - { type: died_in, target: place/dhi-as-sufal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q20302206)" }
 sources: [source/al-aalam]

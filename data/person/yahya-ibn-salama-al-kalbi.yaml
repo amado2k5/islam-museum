@@ -14,6 +14,7 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-20
+died: { edtf: "728~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib (al-Maqqari)" }
 relations:
   - { type: ruler_of, target: place/ifriqiya, sources: [source/wikidata], confidence: low, note: "en: 'First of the governors al-Andalus received from the amirs of Ifriqiya; sent by Bishr b." }
 sources: [source/nafh-tib-maqqari]

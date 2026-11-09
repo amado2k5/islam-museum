@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch49
+died: { edtf: "916", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam (al-Dhahabi)" }
 relations:
   - { type: ruler_of, target: place/ifriqiya, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "en: 'The last Aghlabid amir of Ifriqiya; he fled the Ubaydid Mahdi to Egypt then Iraq — and the Maghreb left t" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
