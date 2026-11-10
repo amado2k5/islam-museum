@@ -12,6 +12,7 @@ date:
   start: { edtf: "1711-07~", hijri: "1123-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة ١١٢٣هـ {cite:dawlat-uthmaniyya-salabi p. 310}." }
 relations:
   - { type: had_participant, target: person/ahmed-iii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310"

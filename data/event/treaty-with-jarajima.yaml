@@ -16,6 +16,7 @@ relations:
   - { type: related_to, target: person/abd-al-malik-ibn-marwan, role: "صالحهم على ألف دينار كل جمعة في أيام ابن الزبير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/suhaym-ibn-al-muhajir, role: "القائد الذي قتل صاحب الروم بالتقية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/dhimma, note: "صلح خدمة لا جزية — نموذج ثالث بين الذمة والفدية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 217–219"

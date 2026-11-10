@@ -12,6 +12,7 @@ date:
   start: { edtf: "1718", hijri: "1130", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: had_participant, target: person/ahmed-iii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 311"
