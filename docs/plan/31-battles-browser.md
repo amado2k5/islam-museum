@@ -119,3 +119,7 @@ Everything is build-time SSG over the compiled graph; no runtime calls and no AI
 - Confirm the eleven-kind military set in §1; `massacre`, `expulsion`, `persecution` and `attack` stay out of the kind list (they are atrocities and acts, not engagements) though their records may carry a `battles` theme and stay findable.
 - Confirm `ready: false` on the Explore entry until a human review pass, and the landing card as «قيد الإعداد».
 - The enrichment lane's first wave order: ghazawat and saraya first (the smallest, most-read set), then Rashidun conquests, then the rest by era.
+
+## 10 · Acceptance
+
+The testable requirements spec — routes, counts, API shape, search, register rows and the production checks to run for each — lives in `docs/engineering/20-battles-browser-requirements.md`. Use it to verify the browser on production after each deploy.

@@ -27,3 +27,7 @@ Progress file: [`docs/delegation/battles-progress.md`](../../delegation/battles-
 
 - Describe, never glorify; casualty figures carry `status` and a source; colonial and civil-war records keep neutral phrasing; no blocked organisation is ever named (`docs/agents/content-safety.md` — the hard block is checked by `npm run validate`).
 - Dates: EDTF + Hijri string + precision; never invent a date. No honorifics. Arabic parentheses isolated (U+2066/U+2069). AI prose stays `status.review: draft` with provenance. CANARY entry each commit.
+
+## Acceptance
+
+`docs/engineering/20-battles-browser-requirements.md` is the testable spec for this browser — run its checks on production to validate the work of this lane.
