@@ -13,6 +13,10 @@ date:
   end: { edtf: "0748", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الوالي الأموي", en: "The Umayyad governor's forces" }
+    participants: [person/marwan-ibn-muhammad]
+  - label: { ar: "ثوار جرجان", en: "The Jurjan rebels" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q138573238
