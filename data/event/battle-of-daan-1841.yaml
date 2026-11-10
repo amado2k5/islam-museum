@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1841", precision: year, status: tradition, derived: true }
   end: { edtf: "1841", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q10934839

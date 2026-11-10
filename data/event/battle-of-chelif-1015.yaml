@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1015-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1015-10", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q127326210
