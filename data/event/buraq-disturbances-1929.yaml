@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/jerusalem }
   - { type: caused, target: event/western-wall-commission-1930 }
+  - { type: during_reign, target: person/muhammadu-mai-turare, sources: [source/wikidata] }
 sources: [source/al-quds-bayn-al-yahudiyya-wal-islam-azhar]
 provenance:
   layer: own-research

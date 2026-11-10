@@ -20,6 +20,7 @@ relations:
   target: person/muawiya-ibn-abi-sufyan
   role: "مرسل السرية"
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 wings: [time]
 periods: [period/rashidun]
 regions: [arabia]
