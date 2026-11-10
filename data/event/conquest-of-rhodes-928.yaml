@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/rudis }
   - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 201"
