@@ -1,0 +1,20 @@
+id: place/yarkon-river
+class: place
+kind: river
+label: { ar: "نهر العوجا", en: "Yarkon River" }
+summary:
+  ar: "نهر."
+  en: "River in central Israel."
+wings: [place]
+coordinates: [32.09722222222222, 34.791666666666664]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q927016" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q927016 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

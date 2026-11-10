@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0737", precision: year, status: tradition, derived: true }
   end: { edtf: "0737", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [32.467965694444, 57.251331194444]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0737"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نهر الفولغا ⁦(٧٣٧)⁩", en: "Battle of Volga River (737)" }, at: [32.467965694444, 57.251331194444], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/volga }
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+    participants: [polity/umayyad-caliphate]
+  - label: { en: "Khazar Khaganate", ar: "خانية الخزر" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138683992
 provenance:

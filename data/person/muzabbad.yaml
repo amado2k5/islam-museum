@@ -20,3 +20,7 @@ story_roles:
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 26-27, from helper claims file; not yet image-checked)" }
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 26-27", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (Abu al-Faraj al-Isfahani)" }
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (Abu al-Faraj al-Isfahani)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Recorded as Muzabbad al-Madani in Fawat al-Wafayat (entry 522) and al-Nuwayri anecdotes.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }

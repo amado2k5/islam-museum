@@ -11,7 +11,14 @@ regions: [maghreb]
 date:
   start: { edtf: "0742-05", precision: year, status: tradition, derived: true }
   end: { edtf: "0742-05", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-al-tabari]
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Berbers", ar: "الأمازيغ" }
+    participants: [group/berbers]
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+    participants: [polity/umayyad-caliphate]
+sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q22690035
 provenance:

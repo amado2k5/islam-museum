@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "993", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1029", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with الري per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

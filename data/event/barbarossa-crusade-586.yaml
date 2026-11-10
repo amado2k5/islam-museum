@@ -14,10 +14,24 @@ date:
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/frederick-barbarossa, role: "ملك الألمان الغارق", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 586، ص 193–194"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-04
+sides:
+  - label: { ar: "حملة فريدريك بربروسا", en: "Frederick Barbarossa's crusade" }
+    commanders: [person/frederick-barbarossa]
+  - label: { ar: "الجيش الأيوبي", en: "The Ayyubid army" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.8713, 32.4846]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة ملك الألمان وغرقه", en: "The German King's Campaign and His Drowning" }, at: [37.8713, 32.4846], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); occurred_at Konya added by Devin (SWE-2 Medium)" }

@@ -17,5 +17,20 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-59
 external_ids: { wikidata: "Q28501135" }
+map:
+  kind: campaign
+  precision: locality
+  center: [-0.8833, 41.65]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1118"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط سرقسطة", en: "The fall of Zaragoza" }, at: [-0.8833, 41.65], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
+relations:
+- { type: occurred_at, target: place/sarqusta }
+sides:
+  - label: { ar: "المسيحيون بقيادة بيتر الأول", en: "The Christians under Peter I" }
+  - label: { ar: "أهل الثغر الأعلى", en: "The people of the Upper March" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

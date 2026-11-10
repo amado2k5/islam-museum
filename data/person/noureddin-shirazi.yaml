@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1588", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tadhkira-yi Ulama-yi Hind" }
+died: { edtf: "1663", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tadhkira-yi Ulama-yi Hind" }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'الشيرازي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

@@ -11,6 +11,19 @@ regions: [arabia]
 date:
   start: { edtf: "1972-07-19", precision: year, status: tradition, derived: true }
   end: { edtf: "1972-07-19", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [54.6922, 16.9914]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1972"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرباط", en: "Battle of Mirbat" }, at: [54.6922, 16.9914], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/mirbat }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2889338

@@ -19,10 +19,20 @@ relations:
   - { type: had_participant, target: person/malik-ibn-kab, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/mikhnaf-ibn-sulaym, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch05
+map:
+  kind: campaign
+  precision: locality
+  center: [32.5681, 43.4878]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية النعمان بن بشير إلى عين التمر", en: "al-Nuʿmān ibn Bashīr's raid on ʿAyn al-Tamr (39 AH)" }, at: [32.5681, 43.4878], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

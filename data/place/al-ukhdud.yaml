@@ -10,11 +10,13 @@ regions: [arabia]
 relations:
   - { type: related_to, target: event/massacre-of-najran, note: "موضع خندق أصحاب الأخدود.", sources: [source/umari-masalik-1924] }
   - { type: related_to, target: place/najran, note: "يعدّه العمري بنجران.", sources: [source/umari-masalik-1924] }
-coordinate_note: "لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed."
 provenance:
   layer: own-research
   source: "مسالك الأبصار (ط 1924) ص 232"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-geo-umari-2
+coordinates: [17.4756, 44.1794]
+coordinate_precision: site
+coordinate_note: "Al-Ukhdud, ancient and early Islamic site of Najran, Saudi Arabia (geocoding pass, Gemini-assisted)"
 sources: [source/umari-masalik-1924]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

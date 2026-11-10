@@ -7,12 +7,27 @@ summary:
   en: "Draft card for the Siege of Ceuta in 1790–91, Mulay Yazid's siege of the Spanish-held city; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/ceuta, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 wings: [time]
 periods: [period/colonial-era]
 regions: [maghreb]
 date:
   start: { edtf: "1790-09-25", precision: year, status: tradition, derived: true }
   end: { edtf: "1791-09-14", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات سليم الثالث", en: "The forces of None" }
+    participants: [person/selim-iii-uthmani]
+  - label: { ar: "حامية سبتة", en: "The defenders of Ceuta" }
+    participants: [place/ceuta]
+map:
+  kind: siege
+  precision: locality
+  center: [35.88919, -5.32042]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سبتة ⁦(١٧٩٠)⁩", en: "Siege of Ceuta" }, at: [35.88919, -5.32042], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q28088235

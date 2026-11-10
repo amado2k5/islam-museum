@@ -11,7 +11,23 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1614", precision: year, status: tradition, derived: true }
   end: { edtf: "1625", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [110.0044, -7.4917]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1614"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح سورابايا الماتارامي", en: "Mataram conquest of Surabaya" }, at: [110.0044, -7.4917], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/java }
+sides:
+  - label: { en: "Mataram Sultanate", ar: "سلطنة ماتارام" }
+    participants: [polity/mataram-sultanate]
+  - label: { en: "Duchy of Surabaya", ar: "دوقية سورابايا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q27958661
 provenance:

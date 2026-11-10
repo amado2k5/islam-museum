@@ -3,6 +3,7 @@ class: person
 label:
   ar: كعب بن عجرة
   en: Ka'b ibn Ujra
+  ur: "كعب بن عجرة"
 names:
 - kind: full
   lang: ar
@@ -20,6 +21,7 @@ summary:
     أو اثنتين أو ثلاث وخمسين.
   en: An ally of the Ansar from Bali of Quda'a (al-Waqidi claimed he was an Ansari and Ibn Sa'd rejected it); he was on the umra of al-Hudaybiyya, and the ruling on redemption was revealed over him when the Prophet passed him in ihram with lice
     falling on his face and told him to shave his head and feed six poor people; he settled in Kufa and died in Medina in 51, 52 or 53 AH by different accounts.
+  ur: "قضاعہ کے بلی سے انصار کا حلیف — واقدی اسے انصاری کہتا ہے مگر ابن سعد نے رد کیا — حدیبیہ کی عمرہ میں تھا۔"
 wings: [people]
 themes:
 - scripture-and-its-sciences
@@ -39,11 +41,25 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0671", hijri: "0051", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina; reports give 51, 52, 53 or 77 AH and an age of seventy-seven (al-Isaba p. 1279); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/kufa
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1279"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1279"
+  sources: [source/ibn-hajar-isaba]
+- type: lived_in
+  target: place/kufa
+  note: "settled at Kufa (al-Isaba p. 1279)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 7489، ص 1279

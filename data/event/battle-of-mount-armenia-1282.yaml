@@ -11,7 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1282", precision: year, status: tradition, derived: true }
   end: { edtf: "1282", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Kayı tribe", ar: "قبيلة قايى" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12809451
 provenance:

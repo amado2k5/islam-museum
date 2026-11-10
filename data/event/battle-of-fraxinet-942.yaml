@@ -11,7 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0942", precision: year, status: tradition, derived: true }
   end: { edtf: "0942", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [6.4638888888889, 43.321388888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0942"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة فركسينيه", en: "Battle of Fraxinet (942)" }, at: [6.4638888888889, 43.321388888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/fraxinetum }
+sides:
+  - label: { en: "Fraxinetum", ar: "فرخشنيط" }
+  - label: { en: "Principality of Hungary", ar: "إمارة المجر" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q29075810
 provenance:

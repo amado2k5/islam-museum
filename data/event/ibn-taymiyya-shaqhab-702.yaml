@@ -20,6 +20,16 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-taymiyya, role: "المفتي للمقاتلين بالإفطار", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+map:
+  kind: battle
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ابن تيمية في نصر شقحب، ٧٠٢هـ/١٣٠٣م", en: "Ibn Taymiyya at the victory of Shaqhab, 702/1303" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
 provenance:
   layer: own-research

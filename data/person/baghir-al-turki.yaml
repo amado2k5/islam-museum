@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
 relations:
   - { type: lived_in, target: place/samarra, confidence: low, note: "Associated with سامراء per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

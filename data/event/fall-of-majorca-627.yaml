@@ -16,5 +16,11 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 473–475"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-59
+relations:
+- { type: during_reign, target: person/al-muhtadid-yahya-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "أرغون بقيادة جيمس الأول", en: "Aragon under James I" }
+  - label: { ar: "مسلمو منورقة", en: "The Muslims of Majorca" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

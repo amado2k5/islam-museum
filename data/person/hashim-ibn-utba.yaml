@@ -3,6 +3,7 @@ class: person
 label:
   ar: هاشم بن عتبة المرقال
   en: Hashim ibn Utba al-Mirqal
+  ur: "هاشم بن عتبة المرقال"
 names:
   - { kind: full, lang: ar, value: هاشم بن عتبة بن أبي وقاص الزهري }
   - { kind: laqab, lang: ar, value: المرقال }
@@ -12,12 +13,14 @@ traditions: [sunni]
 summary:
   ar: "زهري يعرف بالمرقال، من بني أبي وقاص؛ ذهبت عينه يوم اليرموك فيما ذهبت فيه أعين الأشعث بن قيس وقيس بن مكشوح. وعليه مدد الشام إلى القادسية في خمسة آلاف فارس من ربيعة ومضر وألف من اليمن ومعهم القعقاع بن عمرو بعد فتح دمشق بشهر على ما ذكر المسعودي {cite:muruj-al-dhahab p. 609}، وعند المسعودي قتل بصفين هو وذو الكلاع صاحب راية حمير، وتناول ابنه اللواء حين قتل وكر في العجاج، ووقف علي على مصرعه ومصرع من صرع حوله من الأسلميين فترحم عليهم وأنشد جزى الله خيراً عصبة أسلمية صباح الوجوه صرعوا حول هاشم {cite:muruj-al-dhahab p. 674-675}"
   en: "A Zuhri known as al-Mirqal, of Banu Abi Waqqas; he lost an eye on the day of the Yarmuk, among those whose eyes were lost that day with al-Ash'ath ibn Qays and Qays ibn Makshuh."
+  ur: "زہری، المرقال کہلاتا، بنو ابی وقاص سے؛ یرموک کے دن ایک آنکھ کھوئی، اس دن ابو عبیدہ وغیرہ کے ساتھ آنکھ کھونے والوں میں۔"
 wings: [people]
 periods:
 - period/rashidun
 regions:
 - arabia
 - levant-iraq
+died: { edtf: "0657", hijri: "0037", calendar: julian, precision: year, status: tradition, derived: true, note: "al-Mirqal — killed fighting for Ali at Siffin, 37 AH (al-Isaba p. 1531); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/siffin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -25,6 +28,9 @@ relations:
   - { type: lived_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/battle-of-yarmuk, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: member_of, target: group/quraysh, note: "Zuhri, nephew of Sa'd ibn Abi Waqqas (al-Isaba p. 1531)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-siffin, note: "al-Isaba p. 1531", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 185"
@@ -33,6 +39,7 @@ provenance:
 external_ids: { wikidata: "Q124773809" }
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wala', in the language, comes from wali, a root meaning nearness; the word is used for nearness of place, of kinship, of religion, of friendship, of support and of belief. Wala' and tawali both mean following one another without a gap between. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17833}
 

@@ -11,6 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "1638", precision: year, status: tradition, derived: true }
   end: { edtf: "1639", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [72.834022222222, 20.416938888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1638"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار دامان ⁦(١٦٣٨–١٦٣٩)⁩", en: "Siege of Daman (1638–39)" }, at: [72.834022222222, 20.416938888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/daman }
+sides:
+  - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
+    participants: [person/murad-iv-uthmani]
+  - label: { ar: "حامية دامان", en: "The defenders of Daman" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q116310444

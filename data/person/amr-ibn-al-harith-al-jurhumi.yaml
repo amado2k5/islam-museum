@@ -18,6 +18,8 @@ wings: [people]
 themes: [sacred-space-and-pilgrimage]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akhbar Makka (al-Azraqi)" }
+died: { edtf: "250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akhbar Makka (al-Azraqi)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: from Mecca", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab], confidence: low }
   - { type: member_of, target: group/jurhum, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }

@@ -1,0 +1,20 @@
+id: place/kanpur
+class: place
+kind: city
+label: { ar: "كانبور", en: "Kanpur" }
+summary:
+  ar: "مدينة."
+  en: "City in Uttar Pradesh, India."
+wings: [place]
+coordinates: [26.4725, 80.331111111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q66568" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q66568 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

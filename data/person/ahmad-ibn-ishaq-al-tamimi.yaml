@@ -21,5 +21,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Qur'an reciter (muqri') hearing Abu Tahir al-Mukhallis and Abu al-Qasim al-Saydalani; the recitation-transmission milieu referenced is Baghdad. Inferred.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

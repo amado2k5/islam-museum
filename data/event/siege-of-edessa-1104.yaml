@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1104", precision: year, status: tradition, derived: true }
   end: { edtf: "1104", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [38.79, 37.16]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1104"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الرها ⁦(١١٠٤)⁩", en: "Siege of Edessa (1104)" }, at: [38.79, 37.16], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/al-ruha }
+sides:
+  - label: { ar: "قوات المستظهر بالله أحمد بن المقتدي", en: "The forces of al-Mustazhir bi'llah Ahmad ibn al-Muqtadi" }
+    participants: [person/al-mustazhir-billah]
+  - label: { ar: "حامية الرها", en: "The defenders of Edessa" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q11794862

@@ -1,0 +1,17 @@
+id: polity/habsburg-monarchy
+class: polity
+kind: state
+label: { ar: "ملكية هابسبورغ", en: "Habsburg monarchy" }
+summary:
+  ar: "ملكية في أوروبا ⁦(١٢٨٢–١٩١٨)⁩."
+  en: "A monarchy in Europe (1282–1918)."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q153136" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q153136 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

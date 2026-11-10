@@ -11,7 +11,24 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1493", precision: year, status: tradition, derived: true }
   end: { edtf: "1493", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-0.0447, 16.2717]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1493"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أنفاو ⁦(١٤٩٣)⁩", en: "Battle of Anfao (1493)" }, at: [-0.0447, 16.2717], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/gao }
+sides:
+  - label: { en: "Askia", ar: "سلالة أسكيا" }
+    participants: [group/askia-dynasty]
+  - label: { en: "Songhai Empire", ar: "سلطنة صنغاي" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q49764712
 provenance:

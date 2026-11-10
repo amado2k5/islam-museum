@@ -16,6 +16,7 @@ translations:
   en: { text: "And Who sendeth down water from the sky in (due) measure, and We revive a dead land therewith. Even so will ye be brought forth;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جس نے ایک اندازے کے ساتھ آسمان سے پانی نازل کیا۔ پھر ہم نے اس سے شہر مردہ کو زندہ کیا۔ اسی طرح تم زمین سے نکالے جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rain, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

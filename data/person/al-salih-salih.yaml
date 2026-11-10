@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1337", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+died: { edtf: "1360", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
 relations:
   - { type: ruler_of, target: place/misr, note: "From text: sultan of Egypt", sources: [source/bosworth-new-islamic-dynasties-1996, source/tarikh-khulafa-minhaj-1434] }

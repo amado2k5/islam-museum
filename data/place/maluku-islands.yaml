@@ -1,0 +1,20 @@
+id: place/maluku-islands
+class: place
+kind: island
+label: { ar: "جزر الملوك", en: "Maluku Islands" }
+summary:
+  ar: "جزيرة."
+  en: "Archipelago in eastern Indonesia, also called the Spice Islands."
+wings: [place]
+coordinates: [-2, 128]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3827" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3827 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

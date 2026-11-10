@@ -1,0 +1,20 @@
+id: place/fada
+class: place
+kind: city
+label: { ar: "فادا", en: "Fada" }
+summary:
+  ar: "مدينة."
+  en: "City in Chad."
+wings: [place]
+coordinates: [17.183333333333, 21.583333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q985562" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q985562 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

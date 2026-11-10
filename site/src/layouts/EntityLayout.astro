@@ -4,6 +4,7 @@ import DepthDial from "../components/DepthDial.svelte";
 import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
+import ConnCard from "../components/ConnCard.astro";
 import JourneyPlayer from "../components/JourneyPlayer.astro";
 import Pathway from "../components/Pathway.astro";
 import PageHeader from "../components/PageHeader.astro";
@@ -14,7 +15,7 @@ import InventionSections from "../components/InventionSections.astro";
 import CareerStrip from "../components/CareerStrip.astro";
 import ModernStrips from "../components/ModernStrips.astro";
 import { JOB_NOT_YET } from "../lib/jobs";
-import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT } from "../lib/graph";
+import { byId, href, labelOf, summaryOf, summaryRaw, related, updatedOn, REPO, SITE, SEGMENT, nodes } from "../lib/graph";
 import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { recordingRef } from "../lib/recordings";
@@ -134,10 +135,18 @@ const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w)
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
 const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: updatedOn(n, lang) });
 const relatedIds = related(n.id).filter((r) => byId.has(r));
+// --- Education Browser (course) data
+const courseChildren = n.class === "course"
+  ? nodes.filter((m) => m.data?.part_of === n.id || (d.lessons ?? []).includes(m.id)).sort((a, b) => (a.data?.order ?? 99) - (b.data?.order ?? 99))
+  : [];
+const connCards = (pos: string) => (d.connections ?? []).filter((c: any) => (c.position ?? "within") === pos);
+const parentNode = n.class === "course" && d.part_of ? byId.get(d.part_of) : undefined;
 const crumbs = [
   { label: T.entity.breadcrumb, href: `/${lang}/` },
   ...(wingChips[0] ? [{ label: T.nav[wingChips[0]], href: wingHref(lang, wingChips[0] as any) }] : []),
-  { label: T.class[n.class] },
+  ...(n.class === "course" ? [{ label: T.nav.learn, href: `/${lang}/learn/` }] : []),
+  { label: T.class[n.class] ?? n.class },
+  ...(parentNode ? [{ label: labelOf(parentNode, lang), href: href(lang, parentNode.id) }] : []),
 ];
 // the constellation link only where export-api wrote a neighbourhood (a lone verse has none of its own)
 const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" && n.degree < 2);
@@ -211,6 +220,30 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         <script src="../scripts/mytour.ts"></script>
         <Extras node={n} lang={lang} />
         {n.class === "invention" && <InventionSections node={n} lang={lang} />}
+
+        {n.class === "course" && d.expectations?.length > 0 && (
+          <section class="panel ui" aria-labelledby="expectations" style="margin-block:1.5rem">
+            <h2 id="expectations" style="font-size:1rem;margin:0 0 8px">{T.syllabus.expectations}</h2>
+            <ul style="margin:0;padding-inline-start:20px">
+              {d.expectations.map((e: any) => <li style="margin-block:4px"><code class="ltr" dir="ltr">{e.code}</code> — {e.text[lang] ?? e.text.en}</li>)}
+            </ul>
+          </section>
+        )}
+
+        {n.class === "course" && courseChildren.length > 0 && (
+          <section class="sec" aria-labelledby="course-children" style="margin-block:1.5rem">
+            <h2 id="course-children">{d.kind === "unit" ? T.syllabus.lessons : T.syllabus.units}</h2>
+            <ul class="grid-cards" style="list-style:none;padding:0">
+              {courseChildren.map((m) => (
+                <li><a class="card" href={href(lang, m.id)}><b>{labelOf(m, lang)}</b><span>{summaryOf(m, lang)}</span></a></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {n.class === "course" && connCards("before").length > 0 && (
+          <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("before").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>
+        )}
         <ModernStrips node={n} lang={lang} />
 
         {untranslated && (
@@ -220,21 +253,30 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         <div class="prose" lang={proseLang ?? lang} dir={(proseLang ?? lang) === "en" ? "ltr" : "rtl"} data-pagefind-ignore={untranslated || undefined}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
           <LevelSwitcher lang={lang} levels={levelHtml} kidsHref={kidsReadHref} shelfId={n.id}>
-          {sectionHtml.filter((s) => s !== jobNotYet).map((s) =>
-            s.role === "kids" || s.role === "scholars" ? (
-              <details data-role={s.role} class="sec" style="margin-block:1rem">
-                <summary style="cursor:pointer;font-weight:600"><span class="ui">{s.heading}</span></summary>
-                <div set:html={s.html} />
-              </details>
-            ) : (
-              <section data-role={s.role} class="sec">
-                <h2>{s.heading}</h2>
-                <div set:html={s.html} />
-              </section>
-            ),
-          )}
+          {sectionHtml.filter((s) => s !== jobNotYet).map((s, i) => (
+            <>
+              {s.role === "kids" || s.role === "scholars" ? (
+                <details data-role={s.role} class="sec" style="margin-block:1rem">
+                  <summary style="cursor:pointer;font-weight:600"><span class="ui">{s.heading}</span></summary>
+                  <div set:html={s.html} />
+                </details>
+              ) : (
+                <section data-role={s.role} class="sec">
+                  <h2>{s.heading}</h2>
+                  <div set:html={s.html} />
+                </section>
+              )}
+              {i === 0 && connCards("within").length > 0 && (
+                <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("within").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>
+              )}
+            </>
+          ))}
           </LevelSwitcher>
         </div>
+
+        {n.class === "course" && connCards("after").length > 0 && (
+          <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("after").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>
+        )}
 
         {n.class === "job" && <JobSections node={n} lang={lang} notYet={jobNotYet?.html} />}
 

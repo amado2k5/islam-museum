@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1358", precision: year, status: tradition, derived: true }
   end: { edtf: "1358", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.655, 38.089722222222]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1358"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار غواردامار ⁦(١٣٥٨)⁩", en: "Siege of Guardamar (1358)" }, at: [-0.655, 38.089722222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/guardamar-del-segura }
+sides:
+  - label: { ar: "قوات المعتضد بالله أبو الفتح أبو بكر بن المستكفي", en: "The forces of al-Mu'tadid bi'llah Abu'l-Fath Abu Bakr ibn al-Mustakfi" }
+    participants: [person/al-mutadid-billah-cairo]
+  - label: { ar: "حامية غواردامار", en: "The defenders of Guardamar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18008016

@@ -3,18 +3,26 @@ class: person
 label:
   ar: "خبيب بن إساف"
   en: "Khubayb ibn Issaf"
+  ur: "خبيب بن إساف"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخبيب بن إساف، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khubayb ibn Issaf, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي خزرجي يكنى أبا خرشة؛ تأخر إسلامه حتى خرج النبي إلى بدر فلحقه في الطريق وأسلم وشهد بدراً وأحداً والخندق والمشاهد كلها، وهو الذي قتل أمية بن خلف يوم بدر، وتزوج حبيبة بنت خارجة بعد أبي بكر، ومات في خلافة عثمان."
+  en: "A Khazraji Companion known as Abu Kharasha; his Islam came so late he caught the Prophet on the road to Badr, then witnessed Badr, Uhud, the Trench and every battle. He killed Umayya ibn Khalaf at Badr, married Habiba bint Kharija after Abu Bakr, and died in Uthman's caliphate."
+  ur: "خزرجی صحابی ابو خراشہ کہلاتا؛ اس کا اسلام اتنا دیر میں آیا کہ وہ بدر کے راستے میں نبی سے ملا، پھر بدر، احد اور بعد کی مہمات میں شریک رہا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "0650~", hijri: "0030~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Uthman's caliphate (al-Waqidi, al-Istiab p. 210); CE year approximated to 30 AH within that reign", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/al-khazraj, note: "al-Istiab p. 210", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: member_of, target: group/ansar, note: "al-Istiab p. 210", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Istiab p. 210", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Istiab p. 210", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-the-trench, note: "al-Istiab p. 210", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q12210263
 provenance:

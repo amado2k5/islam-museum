@@ -7,12 +7,27 @@ summary:
   en: "Draft card for Siege of Basra (1775); its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [levant-iraq]
 date:
   start: { edtf: "1775", precision: year, status: tradition, derived: true }
   end: { edtf: "1776", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عبد الحميد الأول", en: "The forces of Abd al-Hamid I" }
+    participants: [person/abd-al-hamid-i-uthmani]
+  - label: { ar: "حامية البصرة", en: "The defenders of Basra" }
+    participants: [place/basra]
+map:
+  kind: siege
+  precision: locality
+  center: [30.5085, 47.7804]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار البصرة ⁦(١٧٧٥)⁩", en: "Siege of Basra (1775)" }, at: [30.5085, 47.7804], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q141376638

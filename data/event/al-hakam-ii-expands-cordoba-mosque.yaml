@@ -15,6 +15,8 @@ date:
 relations:
   - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/al-mustansir-hakam, role: "الموسع", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-hakam-ii, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]
 provenance:
   layer: own-research

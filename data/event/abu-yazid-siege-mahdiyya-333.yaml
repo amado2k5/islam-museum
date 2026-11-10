@@ -16,10 +16,16 @@ relations:
   - { type: had_participant, target: person/al-qaim-fatimid, role: "المحصور في المهدية", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ziri-ibn-manad, role: "قائد صنهاجة المنجد", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/mahdiyya, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-qaim-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط دار الكتاب العربي، بيروت) ج 6 ص 318–321"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-296-batch-1
+sides:
+  - label: { ar: "قوات القائم بأمر الله محمد بن المهدي", en: "The forces of al-Qa'im bi-Amr Allah Muhammad ibn al-Mahdi" }
+    participants: [person/al-qaim-fatimid]
+  - label: { ar: "حامية المهدية", en: "The defenders of al-Mahdiyya" }
+    participants: [place/mahdiyya]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

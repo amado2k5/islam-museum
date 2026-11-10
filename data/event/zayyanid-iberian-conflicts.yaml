@@ -11,6 +11,20 @@ regions: [maghreb]
 date:
   start: { edtf: "1250", precision: year, status: tradition, derived: true }
   end: { edtf: "1550", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [9.6817138888889, 30.440741666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1250"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراعات الزيانية الإيبيرية", en: "Zayyanid–Iberian conflicts" }, at: [9.6817138888889, 30.440741666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: during_reign, target: person/abd-al-wahid-ii-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/north-africa }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q134375832

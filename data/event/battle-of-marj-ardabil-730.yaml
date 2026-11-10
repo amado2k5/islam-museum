@@ -11,6 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0730", precision: year, status: tradition, derived: true }
   end: { edtf: "0730", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [48.3, 38.25]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0730"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرج أردبيل", en: "Battle of Marj Ardabil" }, at: [48.3, 38.25], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/ardabil }
+sides:
+  - label: { ar: "الجيش الأموي بقيادة الجراح", en: "The Umayyad army under al-Jarrah" }
+    commanders: [person/al-jarrah-ibn-abdallah-al-hakami]
+  - label: { ar: "الخزر", en: "The Khazars" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q4087410

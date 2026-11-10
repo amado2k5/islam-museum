@@ -13,10 +13,24 @@ relations:
   - { type: had_participant, target: person/sad-ibn-abi-waqqas, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/zuhra-ibn-hawiyya, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hashim-ibn-utba, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch02
+sides:
+  - label: { ar: "جيش سعد بن أبي وقاص", en: "Sad ibn Abi Waqqas's army" }
+    commanders: [person/sad-ibn-abi-waqqas]
+  - label: { ar: "المدائن", en: "al-Mada'in" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.1, 44.58]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح المدائن — بهرسير", en: "Conquest of al-Mada'in: Bahurasir (15 AH)" }, at: [33.1, 44.58], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

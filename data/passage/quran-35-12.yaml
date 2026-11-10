@@ -16,6 +16,8 @@ translations:
   en: { text: "And the two seas are not alike: this, fresh, sweet, good to drink, this (other) bitter, salt. And from them both ye eat fresh meat and derive the ornament that ye wear. And thou seest the ship cleaving them with its prow that ye may seek of His bounty, and that haply ye may give thanks.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور دونوں دریا (مل کر) یکساں نہیں ہوجاتے۔ یہ تو میٹھا ہے پیاس بجھانے والا۔ جس کا پانی خوشگوار ہے اور یہ کھاری ہے کڑوا۔ اور سب سے تم تازہ گوشت کھاتے ہو اور زیور نکالتے ہو جسے پہنتے ہو۔ اور تم دریا میں کشتیوں کو دیکھتے ہو کہ (پانی کو) پھاڑتی چلی آتی ہیں تاکہ تم اس کے فضل سے (معاش) تلاش کرو اور تاکہ شکر کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/fish, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/sea-game, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

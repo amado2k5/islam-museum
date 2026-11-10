@@ -13,10 +13,18 @@ summary:
   en: "Al-Tabari records Marwan ibn Muhammad's caliphate, his defeat at the Zab in 132 AH and his subsequent killing. {cite:umayyad-birth-to-fall-2006}"
 wings: [people]
 gender: male
+roles: [caliph]
+born: { edtf: "691", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "750", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
+  - { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/ibrahim-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: born_in, target: place/al-sham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/abusir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q128371" }
 sources: [source/umayyad-birth-to-fall-2006, source/fihrist-ibn-al-nadim, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/tarikh-khalifa-umari-1985]
 provenance: { source: "Sources cited in the record (umayyad-birth-to-fall-2006, fihrist-ibn-al-nadim, tabari-tarikh-abu-al-fadl, muruj-al-dhahab, khudari-umayyad-state, bakr-umayyad-state-1134715, tarikh-khalifa-umari-1985); officials table from Tarikh Khalifa (al-Umari ed. 1985)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 4", sources: [source/tabari-tarikh-abu-al-fadl], run: "lib-tarikh-khalifa-batch-2-2026-10-31 (enrichment)" , explorer_metadata: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-sixth-40-stories-2026-11-04","source":"Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research."}}
+importance: 2
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+story_roles:
+  - { role: ruler, toward: polity/umayyad-caliphate, start: { edtf: "744", calendar: julian, precision: year }, end: { edtf: "750", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

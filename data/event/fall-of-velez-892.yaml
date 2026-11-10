@@ -13,10 +13,15 @@ date:
   start: { edtf: "1487-04-29~", hijri: "0892-05-10~", calendar: julian, precision: day, status: tradition, derived: true, note: "عاشر جمادى الأولى سنة 892؛ التحويل مشتق {cite:nafh-tib-maqqari p. 524}." }
 relations:
   - { type: had_participant, target: person/al-zaghal, role: "صاحب غرناطة قائد جيش الإغاثة", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 523–524"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-56
+sides:
+  - label: { ar: "قوات المتوكل على الله الثاني عبد العزيز بن يعقوب", en: "The forces of al-Mutawakkil ala Allah II, Abd al-Aziz ibn Ya'qub" }
+    participants: [person/al-mutawakkil-ala-llah-ii]
+  - label: { ar: "حامية بلش مالقة والانهزام قبل الالتحام", en: "The defenders of Velez-Malaga and the rout before contact" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

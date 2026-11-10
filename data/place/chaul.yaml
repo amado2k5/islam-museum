@@ -1,0 +1,20 @@
+id: place/chaul
+class: place
+kind: town
+label: { ar: "شاول", en: "Chaul" }
+summary:
+  ar: "بلدة."
+  en: "Village in Maharashtra, India."
+wings: [place]
+coordinates: [18.5461, 72.9272]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1068374" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1068374 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib); al-Dhahabi" }
+died: { edtf: "718", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib); al-Dhahabi" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/taqrib-al-tahdhib], confidence: low }

@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1543", precision: year, status: tradition, derived: true }
   end: { edtf: "1543", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [18.740277777778, 47.785555555556]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1543"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار إسترغوم", en: "Siege of Esztergom" }, at: [18.740277777778, 47.785555555556], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/esztergom }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية إسترغوم", en: "The defenders of Esztergom" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4207737

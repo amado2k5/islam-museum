@@ -1,6 +1,6 @@
 id: person/hasana-umm-shurahbil
 class: person
-label: { en: "Hasana, Umm Shurahbil", ar: "حسنة أم شرحبيل" }
+label: { en: "Hasana, Umm Shurahbil", ar: "حسنة أم شرحبيل", ur: "حسنة أم شرحبيل" }
 names:
   - { kind: full, lang: ar, value: "حسنة" }
   - { kind: kunya, lang: ar, value: "أم شرحبيل" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   ar: "زوجة سفيان بن معمر الجمحي وأم جنادة وجابر ولأمهما شرحبيل بن حسنة، هاجرت إلى الحبشة."
   en: Wife of Sufyan ibn Ma'mar al-Jumahi and mother of Junada and Jabir, and mother of Shurahbil ibn Hasana; she emigrated to Abyssinia.
+  ur: "سفیان بن معمر الجمحی کی بیوی اور جنادہ اور جابر کی والدہ، اور شرحبیل بن حسنہ کی والدہ؛ حبشہ ہجرت کی۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -18,6 +19,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: spouse_of, target: person/sufyan-ibn-mamar-jumahi, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }

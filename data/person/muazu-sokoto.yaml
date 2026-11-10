@@ -1,0 +1,18 @@
+id: person/muazu-sokoto
+class: person
+label: { ar: "معاذ", en: "Mu'azu", ur: "معاذ" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "معاذ، خليفة سوكوتو ؛ حكم من 1877م إلى 1881م. {cite:wikidata}"
+  en: "Mu'azu, the caliph of the Sokoto caliphate, ruling 1877–1881 CE. {cite:wikidata}"
+  ur: "معاذ، سوکوتو خلافت کے خلیفہ؛ 1877ء سے 1881۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1877", calendar: julian, precision: year }, end: { edtf: "1881", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/abubakar-ii-sokoto, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

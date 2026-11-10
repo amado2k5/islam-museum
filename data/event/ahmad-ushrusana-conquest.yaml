@@ -12,6 +12,19 @@ relations:
   - { type: had_participant, target: person/haydar-ibn-kawus, role: "الدليل على الطريق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/ushrusana }
 wings: [time]
+sides:
+  - label: { ar: "جيش أحمد بن أبي خالد الأحول", en: "Ahmad ibn Abi Khalid al-Ahwal's army" }
+    commanders: [person/ahmad-ibn-abi-khalid]
+  - label: { ar: "أشروسنة", en: "Ushrusana" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.7667, 68.8]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أشروسنة على يد أحمد بن أبي خالد", en: "Ahmad ibn Abi Khalid's Conquest of Ushrusana" }, at: [39.7667, 68.8], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

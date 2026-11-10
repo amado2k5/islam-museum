@@ -11,6 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1764", precision: year, status: tradition, derived: true }
   end: { edtf: "1764", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [76.386, 30.62511]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1764"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سرهند", en: "Battle of Sirhind (1764)" }, at: [76.386, 30.62511], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/sirhind }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q21244908

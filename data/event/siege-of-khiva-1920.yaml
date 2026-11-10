@@ -11,7 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [60.3641, 41.3856]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار خيوة", en: "Siege of Khiva" }, at: [60.3641, 41.3856], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/khiva }
+sides:
+  - label: { en: "Khanate of Khiva", ar: "خانية خيوة" }
+    participants: [polity/khanate-of-khiva]
+  - label: { en: "Red Army", ar: "الجيش الأحمر" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q136762848
 provenance:

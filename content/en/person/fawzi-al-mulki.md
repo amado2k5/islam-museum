@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Fawzi al-Mulki (1910 – 10 January 1962) was a Jordanian politician and diplomat from Irbid, educated at the American University of Beirut and at Cambridge, where he read veterinary medicine and then law, political science and economics.{cite:wikipedia-fawzi-al-mulki-ar}{cite:wikipedia-fawzi-al-mulki-en} Returning to Jordan in 1943, he rose through the veterinary service and wartime economic administration to the posts of consul-general in Cairo, minister to Egypt and foreign minister, and was minister of defence in Tawfiq Abu al-Huda's wartime cabinet.{cite:wikipedia-fawzi-al-mulki-en}{cite:wikipedia-fawzi-al-mulki-ar}
 

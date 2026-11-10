@@ -1,0 +1,21 @@
+id: passage/nasai-0450
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "450"
+label:
+  ar: "النسائي 450 — المعراج وفرض الصلوات: أمضيت فريضتي وخففت عن عبادي"
+  en: "Nasa'i 450 — The Ascension and the prayers: I have upheld My command and lightened it for My servants"
+  ur: "نسائی 450 — معراج اور نمازوں کی فرضیت: میں نے اپنا فریضہ نافذ کیا اور بندوں پر تخفیف کی"
+text: "أتيت بدابة فوق الحمار ودون البغل خطوها عند منتهى طرفها فركبت ومعي جبريل فسرت فقال انزل فصل . ففعلت فقال أتدري أين صليت صليت بطيبة وإليها المهاجر ثم قال انزل فصل . فصليت فقال أتدري أين صليت صليت بطور سيناء …"
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 450: المعراج وفرض الصلوات: أمضيت فريضتي وخففت عن عبادي. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 450: The Ascension and the prayers: I have upheld My command and lightened it for My servants. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 450: معراج اور نمازوں کی فرضیت: میں نے اپنا فریضہ نافذ کیا اور بندوں پر تخفیف کی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-al-miraj-wal-salawat]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 450; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

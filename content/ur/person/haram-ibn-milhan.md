@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
+## خلاصہ
 
 حرام بن ملحان بن خالد انصاری نجاری خزرجی، بدری صحابی اور بہادر جنگجو، اور انس بن مالک کے ماموں۔ {cite:mubarakpuri-raheeq}
 

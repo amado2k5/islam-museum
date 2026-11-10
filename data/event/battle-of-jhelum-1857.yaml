@@ -11,6 +11,18 @@ regions: [south-asia]
 date:
   start: { edtf: "1857-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1857-07", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [73.7333, 32.9333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1857"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة جهلم ⁦(١٨٥٧)⁩", en: "Battle of Jhelum (1857)" }, at: [73.7333, 32.9333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/jhelum }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q27628085

@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1408", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: died_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/kur-amir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+born: { edtf: "1745", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bassam (Ulama Najd)" }
+died: { edtf: "1832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bassam (Ulama Najd)" }
 relations:
   - { type: born_in, target: place/thadig, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97295632)" }
 sources: [source/al-aalam]

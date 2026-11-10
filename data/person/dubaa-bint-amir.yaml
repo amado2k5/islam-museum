@@ -1,6 +1,6 @@
 id: person/dubaa-bint-amir
 class: person
-label: { en: "Dubaa bint Amir", ar: "ضباعة بنت عامر القشيرية" }
+label: { en: "Dubaa bint Amir", ar: "ضباعة بنت عامر القشيرية", ur: "ضباعة بنت عامر القشيرية" }
 names:
   - { kind: full, lang: ar, value: "ضباعة بنت عامر بن قرط بن سلمة بن قشير بن كعب بن ربيعة بن عامر بن صعصعة" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابية من بني عامر بن صعصعة أسلمت مبكراً بمكة؛ عُرفت بشجاعتها حين صاحت بقومها دفاعاً عن النبي بعكاظ حين غمز بجر بن فراس شاكلة ناقته فقفصت به، وصبرت على أذى قومها في سبيل دينها."
   en: "A Companion of Banu Amir ibn Sa'sa'a who embraced Islam early at Mecca; remembered for crying out to her clan in defence of the Prophet at Ukaz when Bajr ibn Firas spooked his camel so it threw him, and for enduring her people's persecution."
+  ur: "بنو عامر بن صعصعہ کی صحابیہ جو مکہ میں جلد مسلمان ہوئی؛ احد میں نبی کے دفاع میں اپنے قوم پر چلانے کے لیے یاد کی جاتی ہے۔"
 wings: [people]
 themes: [women]
 periods: [period/prophetic-era]
@@ -18,6 +19,7 @@ story_roles:
   - { role: convert, start: { edtf: "0610~" }, status: tradition, note: "أسلمت مبكراً بمكة قبل الهجرة (نساء حول الرسول ص300).", sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/mecca }
   - { type: member_of, target: group/banu-amir }

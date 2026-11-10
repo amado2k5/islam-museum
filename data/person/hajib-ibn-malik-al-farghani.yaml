@@ -9,6 +9,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+born: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "890~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Associated with العراق per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

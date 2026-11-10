@@ -16,5 +16,6 @@ provenance:
   run: lib-nafh-tib-batch-20
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Andalus' governors; d. 112 AH)" }
 relations:
   - { type: lived_in, target: place/ifriqiya, note: "From text: of Ifriqiya", sources: [source/nafh-tib-maqqari], confidence: low }

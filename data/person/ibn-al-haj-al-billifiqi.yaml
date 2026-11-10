@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1301", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ihata (Ibn al-Khatib)" }
+died: { edtf: "1372", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ihata (Ibn al-Khatib)" }
 relations:
   - { type: born_in, target: place/velefique, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/almeria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

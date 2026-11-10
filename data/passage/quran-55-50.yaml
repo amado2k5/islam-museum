@@ -16,6 +16,7 @@ translations:
   en: { text: "Wherein are two fountains flowing.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ان میں دو چشمے بہہ رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rivers-springs, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

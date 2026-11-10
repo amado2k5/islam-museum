@@ -15,6 +15,7 @@ provenance:
   generated_by: "Claude (Haiku 5.5, subagent)"
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 48–49" }
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 p. 36; the book cites Siyar A'lam al-Nubala' for the anecdote" }
 occupations:
   - job: job/faqih
@@ -22,5 +23,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/salabi-umayyad-state-2020]
+born: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: أهل مكة", sources: [source/salabi-umayyad-state-2020, source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }

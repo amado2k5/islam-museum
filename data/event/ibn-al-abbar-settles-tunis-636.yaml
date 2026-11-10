@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/tunis, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-al-abbar, role: "المهاجر المستقر", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/abu-zakariya-al-hafsi, role: "السلطان المضيف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

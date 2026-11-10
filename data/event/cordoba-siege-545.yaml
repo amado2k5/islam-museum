@@ -13,10 +13,26 @@ date:
   start: { edtf: "1150~", hijri: "0545~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 545؛ التحويل مشتق {cite:nafh-tib-maqqari p. 382}." }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-zafir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 382"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
+sides:
+  - label: { ar: "قوات الظافر بالله إسماعيل بن الحافظ", en: "The forces of al-Zafir bi-Llah Isma'il ibn al-Hafiz" }
+    participants: [person/al-zafir-fatimid]
+  - label: { ar: "حامية قرطبة", en: "The defenders of Cordoba" }
+    participants: [place/cordoba]
+map:
+  kind: siege
+  precision: locality
+  center: [37.8916, -4.7728]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الأذفونش قرطبة ودخولها في طاعة الموحدين", en: "Alfonso's Siege of Cordoba and Its Submission to the Almohads" }, at: [37.8916, -4.7728], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

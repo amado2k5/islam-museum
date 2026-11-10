@@ -17,6 +17,8 @@ faith:
     basis: unknown
     note: "No consulted source names a school of law for him. Al-Daleel Online's biography of his father presents him only as the shaykh's son and a narrator from him; the mirrored biography of Muhammad Husayn Yaqub lists him as a teacher and head of the Tafsir Department at the Islamic University of Madinah; a student's notes record his tafsir lessons. His father's school is family background and never counts, and holding a university chair never counts."
     sources: [source/aldaleelonline-muhammad-al-amin-al-shinqiti, source/univanet-yaqub-biography, source/alukah-abdullah-al-shanqeeti-luqman]
+born: { edtf: "1927", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Shanqiti Scholarly Heritage" }
+died: { edtf: "2014", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Shanqiti Scholarly Heritage" }
 relations:
   - { type: ruler_of, target: place/bayan, note: "From text: صاحب «أضواء البيان»", sources: [source/aldaleelonline-muhammad-al-amin-al-shinqiti, source/univanet-yaqub-biography, source/alukah-abdullah-al-shanqeeti-luqman], confidence: low }
   - type: child_of

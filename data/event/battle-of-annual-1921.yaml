@@ -11,6 +11,21 @@ regions: [maghreb]
 date:
   start: { edtf: "1921", precision: year, status: tradition, derived: true }
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-3.5804604, 35.1276485]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1921"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أنوال", en: "Battle of Annual" }, at: [-3.5804604, 35.1276485], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/annual }
+sides:
+  - label: { ar: "قبائل الريف بقيادة عبد الكريم الخطابي", en: "The Rif tribes under Abd al-Karim" }
+  - label: { ar: "الجيش الإسباني", en: "The Spanish army" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1138460

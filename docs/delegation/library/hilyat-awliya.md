@@ -28,6 +28,9 @@
 ## Batch 4 (run microsd-books-b12)
 - `person/ahmad-ibn-abi-al-hawari`: trilingual "In Hilyat al-Awliya" section appended — vol. 10, notice 457, PDF pp.5–41 read (the books-thrown-into-the-sea stories, the Jurayj exchange, the traveller's stations, marks of love and contentment). Record already existed (Sifat al-Safwa provenance, status published); hilyat source added to `sources`.
 
+## Batch 5 (run microsd-books-b13)
+- `person/sufyan-al-thawri`: trilingual "In Hilyat al-Awliya" section appended — notice 387 spans vol. 6 pp.356-393 + vol. 7 pp.3-144 ("بقية ترجة (٤)"). Mined: opening portrait, testimony of Ibn al-Mubarak/Shu'ba/Sufyan ibn Uyayna, the letter to Ubbad ibn Abbad (6/376-377), the Basra flight and lineage-adjuration story (7/4-5), Umm Hassan al-Asadiyya (7/9-10), zuhd definition and Abu Hanifa's death (7/16), fainting at the Kaaba and tears at al-Fatiha (7/17), imamate ordering and al-Mahdi (7/31), deathbed purse and grave visitor (7/62), Abu Nu'aym's closing "رواياته كالبحر" (7/125). Record already existed with rich non-Hilyat sources; hilyat source added to `sources`.
+
 ## Not done / leads
-- The notices themselves (about 600) are not mined; ~589 remain after batch 4.
-- Next high-value notices still unmined: Sufyan al-Thawri (end of vol. 7 per the vol. 7 index — his notice follows Ibrahim ibn Adham? check; actually vol. 7 notice 393–394 area shows Sufyan content in the index), and the vol. 9–10 Sufi shaykhs.
+- The notices themselves (about 600) are not mined; ~588 remain after batch 5.
+- Next high-value notices still unmined: the vol. 9–10 Sufi shaykhs (e.g. continuing from Ahmad ibn Abi al-Hawari vol.10 notice 457 onward, Sahl al-Tustari notice 546 already partially mined), and vol. 7's remaining notices 388–391 (Shu'ba, Masmar ibn Kaddam, Sufyan ibn Uyayna, al-Layth ibn Sa'd — all hadith imams, possibly better left to hadith lanes).

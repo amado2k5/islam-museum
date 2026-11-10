@@ -13,6 +13,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Runciman (Fall of Constantinople)" }
 relations:
   - { type: lived_in, target: place/constantinople, confidence: low, note: "Associated with القسطنطينية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد المدافعين", sources: [source/dawlat-uthmaniyya-salabi] }

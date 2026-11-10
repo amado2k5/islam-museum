@@ -17,10 +17,20 @@ relations:
   - { type: occurred_at, target: place/krak-des-chevaliers, sources: [source/shadharat-dhahab] }
   - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (سنة 669)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   run: main-repair-orphan-prose
+map:
+  kind: campaign
+  precision: locality
+  center: [34.757, 36.296]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "افتتاح بيبرس حصن الأكراد وحصن عكار 669هـ", en: "Baybars takes Krak des Chevaliers and Akkar, 669 AH" }, at: [34.757, 36.296], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

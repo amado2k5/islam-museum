@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dict. Byzantium" }
+died: { edtf: "1425", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dict. Byzantium" }
 relations:
   - { type: lived_in, target: place/nicea, confidence: low, note: "Associated with نيقية per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/colonial-era]
+born: { edtf: "1831", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1890", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/shamakhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q388224)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "833~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "833~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: participated_in, target: event/mihna-of-the-quran, role: "الممتحَن", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/baghdad, note: "Mihna jurist questioned before al-Ma'mun; Baghdad court context.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

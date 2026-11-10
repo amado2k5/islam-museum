@@ -3,15 +3,18 @@ class: person
 label:
   ar: "يزيد بن حرام"
   en: "Yazid ibn Haram"
+  ur: "يزيد بن حرام"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية ليزيد بن حرام، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yazid ibn Haram, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي يذكره ابن حجر عند هذا الاسم ويحيل ترجمته إلى باب ابن خدام."
+  en: "A Companion listed by Ibn Hajar under this name; his entry is treated under Ibn Khuddam."
+  ur: "صحابی جسے ابن حجر نے اسی نام کے تحت درج کیا؛ اس کا ترجمہ ابن خدام کے تحت دیکھا جاتا ہے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in Ibn Hajar's Isaba (regions: arabia).", sources: [source/al-aalam, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}

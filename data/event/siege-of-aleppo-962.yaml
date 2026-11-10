@@ -7,12 +7,27 @@ summary:
   en: "Draft card for Siege of Aleppo; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 date:
   start: { edtf: "0962", precision: year, status: tradition, derived: true }
   end: { edtf: "0962", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات المطيع لله الفضل بن المقتدر", en: "The forces of al-Muti li-llah al-Fadl ibn al-Muqtadir" }
+    participants: [person/al-muti-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
+map:
+  kind: siege
+  precision: locality
+  center: [36.2012, 37.1612]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار حلب", en: "Siege of Aleppo" }, at: [36.2012, 37.1612], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4337353

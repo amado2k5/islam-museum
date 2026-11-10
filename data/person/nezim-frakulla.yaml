@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Robert Elsie (Albanian Literature)" }
+died: { edtf: "1760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Robert Elsie (Albanian Literature)" }
 relations:
   - { type: born_in, target: place/fier, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q190897)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

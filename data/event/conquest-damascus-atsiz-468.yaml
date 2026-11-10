@@ -14,10 +14,25 @@ relations:
   - { type: occurred_at, target: place/damascus }
   - { type: had_participant, target: person/atsiz-ibn-uwaq, role: "القائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/malikshah, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 33"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-11
+sides:
+  - label: { ar: "جيش أتسز بن أوق الخوارزمي", en: "Atsiz ibn Uwaq's army" }
+    commanders: [person/atsiz-ibn-uwaq, person/malikshah]
+  - label: { ar: "دمشق", en: "Damascus" }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط دمشق بيد أتسز", en: "Fall of Damascus to Atsiz" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

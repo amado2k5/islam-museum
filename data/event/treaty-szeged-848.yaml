@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/murad-ii-uthmani, role: "الطرف العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/hunyadi-janos, role: "قائد الطرف المجري", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: event/battle-varna-848, role: "نُقضت فكانت وارنه", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

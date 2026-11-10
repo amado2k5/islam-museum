@@ -3,16 +3,22 @@ class: person
 label:
   ar: "الحارث بن نوفل"
   en: "al-Harith ibn Nawfal"
+  ur: "الحارث بن نوفل"
 names:
   - { kind: full, lang: ar, value: "الحارث بن نوفل" }
 roles: [companion]
 summary:
-  ar: "بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك لا تُذكر هنا تواريخ ولا أحداث."
-  en: "Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked on the page, so no dates or events are given."
+  ar: "صحابي هاشمي؛ وُلي بعض أعمال مكة، ثم نزل البصرة فمات بها في أواخر خلافة عثمان."
+  en: "A Hashimite Companion who governed a district of Mecca, then settled at Basra and died there late in the caliphate of Uthman."
+  ur: "ہاشمی صحابی جو مکہ کے ایک ضلع کا حاکم رہا، پھر بصرہ میں رہا اور عثمان کی خلافت کے آخر میں وہیں فوت ہوا۔"
 wings: [people]
-sources: [source/isaba-matba-al-saada-1328]
+sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]
+died: { edtf: "0656~", hijri: "0035", calendar: julian, precision: year, status: tradition, derived: true, note: "Settled at Basra and died there late in Uthman's caliphate, about 35 AH (al-Isaba p. 272); the earlier ~71 AH enrichment date from al-Mizzi is not corroborated by the Isaba entry; CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
+  - { type: member_of, target: group/banu-hashim, note: "al-Isaba p. 272", sources: [source/ibn-hajar-isaba] }
+  - { type: lived_in, target: place/basra, note: "al-Isaba p. 272", sources: [source/ibn-hajar-isaba] }
+  - { type: died_in, target: place/basra, note: "al-Isaba p. 272", sources: [source/ibn-hajar-isaba] }
   - { type: lived_in, target: place/mecca, note: "Qurashi Companion of the Banu Abd Manaf; Meccan milieu, flagged for review.", sources: [source/isaba-matba-al-saada-1328], confidence: low }
 external_ids:
   wikidata: Q12186046

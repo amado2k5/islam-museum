@@ -1,6 +1,6 @@
 id: person/irbad-ibn-sariya-al-fazari
 class: person
-label: { en: Irbad ibn Sariya al-Fazari, ar: "عرباض بن سارية الفزاري" }
+label: { en: Irbad ibn Sariya al-Fazari, ar: "عرباض بن سارية الفزاري", ur: "عرباض بن سارية الفزاري" }
 names:
   - { kind: full, lang: ar, value: "عرباض بن سارية الفزاري" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "سابع البكائين، من فزارة؛ ذكره ابن إسحاق فيمن استحملوا النبي في غزوة تبوك فلم يجد ما يحملهم عليه."
   en: The seventh of the Weepers, of Fazara; Ibn Ishaq lists him among those who begged the Prophet for mounts on the Tabuk campaign when he found nothing to carry them on.
+  ur: "روینے والوں میں ساتویں، فزارہ سے؛ ابن اسحاق انہیں تبوک مہم میں نبی سے سواری مانگنے والوں میں گناتے ہیں۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص161)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with تبوك per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/the-weepers-al-bakkaun, role: weeper, sources: [source/ibn-hisham-saqqa] }

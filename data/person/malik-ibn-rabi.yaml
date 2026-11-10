@@ -1,6 +1,6 @@
 id: person/malik-ibn-rabi
 class: person
-label: { en: Malik ibn Rabi'a, ar: "مالك بن ربيعة" }
+label: { en: Malik ibn Rabi'a, ar: "مالك بن ربيعة", ur: "مالك بن ربيعة" }
 names:
   - { kind: full, lang: ar, value: "مالك بن ربيعة بن قيس بن عبد شمس" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي من بني عامر بن لؤي، هاجر إلى الحبشة مع امرأته عمرة وقدم في السفينتين."
   en: A Companion of Banu Amir ibn Lu'ayy; he emigrated to Abyssinia with his wife Umra and arrived in the two ships.
+  ur: "بنو عامر بن لوی کا صحابی؛ بیوی عمرہ کے ساتھ حبشہ ہجرت کیا اور دو کشتیوں میں پہنچا۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,19 +18,22 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص5)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "0680", hijri: "0060", calendar: julian, precision: year, status: debated, derived: true, note: "Died 60 AH aged seventy-eight to eighty — the last of the Badriyya to die (al-Waqidi); other reports give 40 or 30 AH in Uthman's caliphate, a very wide disagreement (al-Isaba p. 1315); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/banu-amir, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/amra-bint-al-saadi, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-badr, note: "last of the Badriyya to die (al-Isaba p. 1315)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 5"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch39
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

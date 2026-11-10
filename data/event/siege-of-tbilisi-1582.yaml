@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1582", precision: year, status: tradition, derived: true }
   end: { edtf: "1582", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.7925, 41.7225]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1582"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تبليسي", en: "Siege of Tbilisi (1582)" }, at: [44.7925, 41.7225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tiflis }
+sides:
+  - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
+    participants: [person/murad-iii-uthmani]
+  - label: { ar: "حامية تبليسي", en: "The defenders of Tbilisi" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6054041

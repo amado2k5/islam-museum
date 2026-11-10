@@ -18,14 +18,29 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "باني المدينة أولاً", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muhammad-ibn-marwan, role: "أمير الصائفة 74–75", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-abbas-ibn-al-walid, role: "معمِّرها وحاصلها وباني جامعها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/salih-ibn-ali, role: "بانيها في خلافة المنصور", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mahdi, role: "مكثِّر شحنتها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/salih-ibn-ali, role: "بانيها في خلافة المنصور", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mahdi, role: "مكثِّر شحنتها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/sufyan-ibn-awf-al-ghamidi, role: "غازي سنة 30 راحلاً من قبلها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 265–266"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 external_ids: { wikidata: "Q586338" }
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية مرعش", en: "The defenders of Mar'ash (Germanikeia)" }
+    participants: [place/marash]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.5875, 36.945277777778]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح مرعش وعمارتها", en: "The Taking and Settling of Mar'ash" }, at: [37.5875, 36.945277777778], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

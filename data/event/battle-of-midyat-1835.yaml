@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1835", precision: year, status: tradition, derived: true }
   end: { edtf: "1835", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [41.353055555556, 37.416666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1835"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مديات ⁦(١٨٣٥)⁩", en: "Battle of Midyat (1835)" }, at: [41.353055555556, 37.416666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/midyat }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Soran Emirate", ar: "سورانيون" }
+    participants: [polity/soran-emirate]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139442645
 provenance:

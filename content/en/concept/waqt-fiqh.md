@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Waqt, lexically, is a fixed measure of time set for a matter, or the end of the time fixed for an act, as in the miqat of the pilgrimage; technically it is a measure of time, or of time fixed for a thing or an act. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17573}
 

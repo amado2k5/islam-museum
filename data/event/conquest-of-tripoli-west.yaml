@@ -11,12 +11,27 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/tarabulus-gharb, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/amr-ibn-al-as, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch6
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية طرابلس ⁦(الغرب)⁩", en: "The defenders of Tripoli (al-Gharb)" }
+    participants: [place/tarabulus-gharb]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.8752, 13.1875]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طرابلس الغرب وبرقة", en: "Conquest of Tripoli and Barqa (22 AH)" }, at: [32.8752, 13.1875], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

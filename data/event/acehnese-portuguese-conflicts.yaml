@@ -11,7 +11,23 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1519", precision: year, status: tradition, derived: true }
   end: { edtf: "1639", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [102.0, 0.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1519"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراعات الأتشية البرتغالية", en: "Acehnese–Portuguese Conflicts" }, at: [102.0, 0.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/sumatra }
+sides:
+  - label: { en: "Aceh Sultanate", ar: "سلطنة آتشيه" }
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+    participants: [polity/portuguese-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q97348258
 provenance:

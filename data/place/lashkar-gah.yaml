@@ -1,0 +1,20 @@
+id: place/lashkar-gah
+class: place
+kind: province
+label: { ar: "لشكر غاه", en: "Lashkar Gah" }
+summary:
+  ar: "مقاطعة."
+  en: "Capital of Helmand Province, Afghanistan."
+wings: [place]
+coordinates: [31.593819444444446, 64.37161111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q476800" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q476800 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

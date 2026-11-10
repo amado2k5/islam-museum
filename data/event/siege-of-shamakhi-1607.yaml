@@ -11,6 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1607", precision: year, status: tradition, derived: true }
   end: { edtf: "1607", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [48.6392, 40.6339]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1607"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شماخي ⁦(١٦٠٧)⁩", en: "Siege of Shamakhi (1607)" }, at: [48.6392, 40.6339], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/shamakhi }
+sides:
+  - label: { ar: "قوات أحمد الأول", en: "The forces of Ahmed I" }
+    participants: [person/ahmad-i-uthmani]
+  - label: { ar: "حامية شماخي", en: "The defenders of Shamakhi" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q20477215

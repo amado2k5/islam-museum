@@ -8,10 +8,14 @@ text: "بينا أنا عند البيت بين النائم واليقظان ف
 summary:
   ar: "في كتاب الصلاة؛ حديث مالك بن صعصعة الطويل في الإسراء والمعراج وفيه شق الصدر الثاني عند البيت وغسل القلب بماء زمزم قبل العروج، ثم ركوب البراق والمرور على الأنبياء في السماوات وفرض الصلاة. من أطول أحاديث الصحيح وأشهرها في وصف الرحلة."
 relations:
+  - { type: mentions, target: concept/buraq, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/alamat-al-saaa-al-kubra, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: event/isra-and-miraj, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: event/shaqq-al-sadr, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
   - { type: mentions, target: place/mecca, sources: [source/sahih-al-bukhari] }
+tags: [hadith-qudsi, qudsi-al-miraj-wal-salawat]
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3207 (كتاب الصلاة)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
 sources: [source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -32,6 +32,8 @@ periods:
 regions:
 - levant-iraq
 - egypt-nile
+born: { edtf: "1439", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1516", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/tripoli-greece, confidence: low, note: "Associated with طرابلس per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 provenance:

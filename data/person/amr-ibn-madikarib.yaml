@@ -4,6 +4,7 @@ aliases: [person/amr-ibn-madi-karib]
 label:
   ar: عمرو بن معد يكرب
   en: Amr ibn Ma'dikarib
+  ur: "عمرو بن معد يكرب"
 names:
 - kind: full
   lang: ar
@@ -20,6 +21,7 @@ summary:
   ar: الشاعر الفارس المشهور من زبيد؛ قدم على النبي في وفد زبيد فأسلم في رواية ابن إسحاق، وارتد بعد وفاة النبي ثم أُسر وعاد إلى الإسلام، وأبلى في القادسية؛ واختُلف هل لقي النبي.
   en: The famous poet and horseman of Zubayd; in Ibn Ishaq's account he came to the Prophet with the delegation of Zubayd and embraced Islam, he left Islam after the Prophet's death, was captured and returned to it, and fought well at al-Qadisiyya;
     whether he met the Prophet is disputed.
+  ur: "زبید کا مشہور شاعر اور سوار؛ ابن اسحاق کے مطابق وہ زبید کے وفد کے ساتھ نبی کے پاس آیا اور مسلمان ہوا، پھر واپس آیا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -59,6 +61,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "642", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
 - type: lived_in
   target: place/zabid

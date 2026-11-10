@@ -11,6 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0952", precision: year, status: tradition, derived: true }
   end: { edtf: "0952", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [16.216666666667, 38.266666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0952"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة جراس ⁦(٩٥٢)⁩", en: "Battle of Gerace (952)" }, at: [16.216666666667, 38.266666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/gerace }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139741035

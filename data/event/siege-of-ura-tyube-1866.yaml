@@ -12,6 +12,18 @@ date:
   start: { edtf: "1866", precision: year, status: tradition, derived: true }
   end: { edtf: "1866", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [69.006388888889, 39.910833333333]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1866"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أورا توبه ⁦(١٨٦٦)⁩", en: "Siege of Ura-Tyube (1866)" }, at: [69.006388888889, 39.910833333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/istaravshan }
 external_ids:
   wikidata: Q113407997
 provenance:

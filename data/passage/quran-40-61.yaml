@@ -16,6 +16,7 @@ translations:
   en: { text: "Allah it is Who hath appointed for you night that ye may rest therein, and day for seeing. Lo! Allah is a Lord of bounty for mankind, yet most of mankind give not thanks.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "خدا ہی تو ہے جس نے تمہارے لئے رات بنائی کہ اس میں آرام کرو اور دن کو روشن بنایا (کہ اس میں کام کرو) بےشک خدا لوگوں پر فضل کرنے والا ہے۔ لیکن اکثر لوگ شکر نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/night-day, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

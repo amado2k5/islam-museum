@@ -11,7 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1164", precision: year, status: tradition, derived: true }
   end: { edtf: "1164", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Principality of Antioch", ar: "إمارة أنطاكية" }
+  - label: { en: "Zengid dynasty", ar: "الدولة الزنكية" }
+    participants: [polity/zengid-dynasty]
+map:
+  kind: battle
+  precision: locality
+  center: [36.945277777778, 37.5875]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1164"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرعش", en: "Battle of Marash" }, at: [36.945277777778, 37.5875], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/marash }
+- { type: during_reign, target: person/al-mustanjid-billah }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135688892
 provenance:

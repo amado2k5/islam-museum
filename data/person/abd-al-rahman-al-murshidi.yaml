@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1568", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH)" }
+died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH)" }
 relations:
   - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (حجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

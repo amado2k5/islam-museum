@@ -1,0 +1,21 @@
+id: passage/muslim-0182
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "182"
+label:
+  ar: "مسلم 182 — رؤية الله يوم القيامة وآخر من يدخل الجنة"
+  en: "Muslim 182 — Seeing God on the Day of Resurrection, and the last to enter Paradise"
+  ur: "مسلم 182 — قیامت کے دن اللہ کا دیدار اور جنت میں سب سے آخر میں داخل ہونے والا"
+text: "هل تضارون في رؤية القمر ليلة البدر . قالوا لا يا رسول الله . قال هل تضارون في الشمس ليس دونها سحاب . قالوا لا يا رسول الله . قال فإنكم ترونه كذلك يجمع الله الناس يوم القيامة فيقول من …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 182: رؤية الله يوم القيامة وآخر من يدخل الجنة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 182: Seeing God on the Day of Resurrection, and the last to enter Paradise. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 182: قیامت کے دن اللہ کا دیدار اور جنت میں سب سے آخر میں داخل ہونے والا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-ruyat-allah-akhir-ahl-al-janna]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 451; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

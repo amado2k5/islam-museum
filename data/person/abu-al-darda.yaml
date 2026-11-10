@@ -3,6 +3,7 @@ class: person
 label:
   ar: أبو الدرداء عويمر
   en: Abu al-Darda' (Uwaymir)
+  ur: "أبو الدرداء عويمر"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: عويمر الأنصاري الخزرجي، مشهور بكنيته؛ قيل أسلم يوم بدر وشهد أحداً وأبلى فيها، وقال له النبي يوم أحد «نعم الفارس عويمر» ووصفه بـ«حكيم أمتي»، وكان تاجراً قبل البعث؛ توفي سنة 32هـ في قول الواقدي وجماعة، والأصح عند أهل الحديث أنه في خلافة عثمان.
   en: Uwaymir al-Ansari al-Khazraji, known by his kunya; it is said he embraced Islam the day of Badr, he fought well at Uhud, where the Prophet said 'what a fine horseman Uwaymir is' and called him the wise man of his community; he had been
     a merchant before the mission; he died in 32 AH on the account of al-Waqidi and others, and hadith scholars hold it was in Uthman's caliphate.
+  ur: "عویمر الانصاری الخزرجی، اپنی کنیت سے مشہور؛ کہا جاتا ہے کہ وہ بدر کے دن مسلمان ہوئے اور احد میں خوب لڑے جہاں نبی نے ان کی تعریف کی۔"
 wings: [people]
 themes:
 - scripture-and-its-sciences
@@ -37,6 +39,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "580", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "652", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
 - type: lived_in
   target: place/medina
@@ -60,6 +64,7 @@ provenance:
 external_ids: { wikidata: "Q1112739" }
 sources:
 - source/ibn-hajar-isaba
+importance: 2
 status:
   review: published
   completeness: 3

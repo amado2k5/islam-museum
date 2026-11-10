@@ -11,7 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1236", precision: year, status: tradition, derived: true }
   end: { edtf: "1236", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+    participants: [polity/mongol-empire]
+  - label: { en: "Kingdom of Artsakh", ar: "مملكة أرتساخ" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q132821236
 provenance:

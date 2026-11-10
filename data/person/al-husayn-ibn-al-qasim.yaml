@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam; d. 329 AH)" }
 relations:
   - { type: died_in, target: place/raqqa, note: "Late vizier of al-Muqtadir, killed at al-Raqqa.", sources: [source/muruj-al-dhahab], confidence: medium }

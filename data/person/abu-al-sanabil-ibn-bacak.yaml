@@ -4,6 +4,7 @@ gender: male
 label:
   ar: أبو السنابل بن بعكك العبدري
   en: Abu al-Sanabil ibn Ba'kak al-Abdari (Companion)
+  ur: "أبو السنابل بن بعكك العبدري"
 summary:
   ar: صحابي من بني عبد الدار من قريش، قيل اسمه عمرو وقيل عبيد ربه؛ روى عن النبي، وروى عنه زفر بن أوس بن الحدثان والأسود بن يزيد النخعي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7834}
   en: A Companion of the Prophet from Quraysh, of Banu Abd al-Dar; his name is given as Amr or Ubayd Rabbih; he transmitted from the Prophet and was transmitted by Zufar ibn Aws and al-Aswad ibn Yazid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7834}
@@ -35,5 +36,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar, al-Isaba; Ibn Abd al-Barr, al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Companion of the Prophet from Quraysh of Banu Abd al-Dar, a Meccan clan; residence inferred from clan and era.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

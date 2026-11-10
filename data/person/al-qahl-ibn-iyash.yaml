@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch100
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: died_in, target: place/iraq, note: "Killed Yazid ibn al-Muhallab and died of the wound; the encounter was in Iraq.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]

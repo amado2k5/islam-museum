@@ -14,6 +14,10 @@ date:
   start: { edtf: "1538", hijri: "0945", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 945هـ/1538م على الصلابي", sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: had_participant, target: person/sulayman-pasha-khadim, role: "القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "العثمانيون بقيادة سليمان باشا الخادم", en: "The Ottomans under Sulayman Pasha al-Khadim" }
+  - label: { ar: "البرتغاليون في الهند", en: "The Portuguese in India" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

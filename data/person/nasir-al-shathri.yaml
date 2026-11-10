@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
+born: { edtf: "1928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Saudi Biographical Notices" }
+died: { edtf: "2021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Saudi Biographical Notices" }
 relations:
   - { type: born_in, target: place/hotat-bani-tamim-governorate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3543425)" }
 sources: [source/al-aalam]

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1698", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama" }
 relations:
   - { type: born_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/karbala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

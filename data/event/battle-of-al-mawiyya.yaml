@@ -11,6 +11,24 @@ regions: [arabia]
 date:
   start: { edtf: "1951", precision: year, status: tradition, derived: true }
   end: { edtf: "1951", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [46.0, 23.0]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1951"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الماوية", en: "Battle of al-Mawiyya" }, at: [46.0, 23.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/arabian-peninsula }
+sides:
+  - label: { en: "First Saudi State", ar: "الدولة السعودية الأولى" }
+    participants: [polity/first-saudi-state]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124296290

@@ -34,6 +34,8 @@ inventions:
     role: improver
     note: "Decimal-angle/function/table application in Jarida/Tashil, not invention of decimals or claim that sexagesimal Sidra is decimal."
     sources: [source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid]
+born: { edtf: "1526", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1585", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
@@ -50,6 +52,7 @@ provenance:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b67", source: "Add sourced seconds-reading observation-clock tie and trilingual extension; existing pump/decimal work,original fields/prose/attribution preserved." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b63", source: "Add six-cylinder-pump tie from actual selected Arabic1976/complete2021 study; preserve original fields, identity basis, attribution, occupation and decimal-table tie." }
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b55", source: "Read authored BEA/TDV and selected Tekeli. Replaced preliminary summary with sourced account, added documented religious/judicial basis and separately labelled Sunni default and one decimal-table tie; original Devin attribution, identifier and existing occupations retained. Al-A'lam entry still not read, exact life dates deliberately not added from conflicting older accounts." }
+importance: 2
 status:
   review: published
   completeness: 3

@@ -21,11 +21,26 @@ relations:
   - { type: had_participant, target: person/nusayr-father-of-musa, role: "من سبي الكنيسة على رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-farwa-abd-al-rahman, role: "من السبي على رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/mawali, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345–347"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-28
+sides:
+  - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { ar: "أبو فروة عبد الرحمن بن الأسود", en: "Abu Farwa Abd al-Rahman ibn al-Aswad" }
+    participants: [person/abu-farwa-abd-al-rahman, person/humran-ibn-aban, person/murra-abu-ubayd, person/nusayr-father-of-musa, person/sirin-father-of-ibn-sirin, person/yasar-mawla-qays]
+map:
+  kind: siege
+  precision: locality
+  center: [32.5681, 43.4878]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار عين التمر وسبي كنيستها", en: "The Siege of Ayn al-Tamr and Its Church Captives" }, at: [32.5681, 43.4878], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
 

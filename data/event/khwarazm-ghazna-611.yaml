@@ -19,5 +19,14 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch06
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5539, 68.4209]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك خوارزم شاه غزنة وأعمالها", en: "Khwarazmshah takes Ghazna and its dependencies" }, at: [33.5539, 68.4209], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

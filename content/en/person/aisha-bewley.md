@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Aisha Abdurrahman Bewley is an American-born translator of classical Islamic texts, born in the United States in 1948 and formed by the universities of two continents: a BA in French and an MA in Near Eastern Languages from the University of California, Berkeley, and fellowship study at the American University in Cairo{cite:wikipedia-aisha-bewley-en}{cite:wikipedia-aisha-bewley-ar}{cite:wikidata-aisha-bewley}. She converted to Islam in 1968 and married Shaykh Abdalhaqq Bewley, with whom she has translated many of the central books of the tradition and raised three children{cite:wikipedia-aisha-bewley-en}.
 

@@ -12,6 +12,8 @@ gender: male
 roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1947", calendar: gregorian, precision: year, status: historical, note: "Early Islamic Pottery published 1947 {cite:lane-early-islamic-pottery-1947 p. 7}.", sources: [source/lane-early-islamic-pottery-1947] }
+born: { edtf: "1909", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ODNB" }
+died: { edtf: "1963", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ODNB" }
 relations:
   - { type: lived_in, target: place/france, note: "Place association from the person's nisba/name (الفرنسي); denotes association, not proven residence.", sources: [source/lane-early-islamic-pottery-1947], confidence: low }
   - { type: authored, target: work/lane-early-islamic-pottery, sources: [source/lane-early-islamic-pottery-1947] }

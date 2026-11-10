@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 In the seventh year of the Hijra the Prophet went out with four hundred — or seven hundred — of his Companions to Najd to discipline parties of Banu Tha'laba and Muharib of Ghatafan; the expedition was named Dhat al-Riqa' ("she of the rags") for the rags the Companions bound round their feet, worn through by the rough stones until their nails dropped, as [[person/abu-musa-al-ashari|Abu Musa al-Ash'ari]] relates. {cite:sahih-al-bukhari}
 
 When the two armies met, each side feared the other; no fighting took place, and instead the Prophet led the Muslims in the prayer of fear for the first time, in its Qur'anic form, in Najd. {cite:mubarakpuri-raheeq}

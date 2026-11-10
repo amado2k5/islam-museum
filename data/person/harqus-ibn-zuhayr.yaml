@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Nahrawan)" }
 relations:
   - { type: lived_in, target: place/basra, confidence: low, note: "Associated with البصرة per the record's own summary text; relation type pending review.", sources: [source/sallabi-ali-vol2] }
   - { type: participated_in, target: event/battle-of-nahrawan, role: "قائد رجالة الخوارج، قُتل في الوقعة", sources: [source/sallabi-ali-vol2] }

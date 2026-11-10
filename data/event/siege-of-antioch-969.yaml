@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0969", precision: year, status: tradition, derived: true }
   end: { edtf: "0971", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.161, 36.201]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0969"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أنطاكية ⁦(٩٦٩–٩٧١)⁩", en: "Siege of Antioch (969–971)" }, at: [36.161, 36.201], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/antioch }
+sides:
+  - label: { ar: "قوات المطيع لله الفضل بن المقتدر", en: "The forces of al-Muti li-llah al-Fadl ibn al-Muqtadir" }
+    participants: [person/al-muti-billah]
+  - label: { ar: "حامية أنطاكية", en: "The defenders of Antioch" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131359760

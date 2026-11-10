@@ -14,5 +14,7 @@ provenance:
   run: lib-kamil-batch-12
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "949", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Kamil fi al-Tarikh (Ibn al-Athir)" }
+died: { edtf: "979", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Kamil fi al-Tarikh (Ibn al-Athir)" }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/kamil-ibn-al-athir] }

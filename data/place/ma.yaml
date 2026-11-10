@@ -1,0 +1,20 @@
+id: place/ma
+class: place
+kind: city
+label: { ar: "ماون، جزر البليار", en: "Maó" }
+summary:
+  ar: "مدينة."
+  en: "Capital city of the island of Menorca, Spain."
+wings: [place]
+coordinates: [39.889444444444, 4.2641666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q49550" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q49550 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

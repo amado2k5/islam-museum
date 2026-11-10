@@ -1,0 +1,20 @@
+id: place/rueda
+class: place
+kind: province
+label: { ar: "روضة ⁦(بلد الوليد)⁩", en: "Rueda" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain."
+wings: [place]
+coordinates: [41.413888888889, -4.9597222222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q987366" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q987366 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

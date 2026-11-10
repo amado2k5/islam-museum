@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [32.5, 34.8917]
+coordinate_precision: site
+coordinate_note: "Caesarea Maritima, coastal Palestine (Arabic Qaysariyya) (geocoding pass, Gemini-assisted)"
 relations:
   - { type: part_of, target: place/jerusalem, note: "من أعمال جند فلسطين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/conquest-of-caesarea, sources: [source/futuh-buldan-maarif-1407] }
@@ -16,5 +19,6 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 191–195"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
+external_ids: { wikidata: "Q1615560" }
 sources: [source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

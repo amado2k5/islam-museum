@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1914", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [44.0, 36.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1914"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورات الأكراد في الحرب العالمية", en: "Kurdish Rebellions during World War I" }, at: [44.0, 36.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/iraqi-kurdistan }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمد الخامس رشاد", en: "The authorities of Mehmed V Resad" }
+    participants: [person/mehmed-v-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q85775124

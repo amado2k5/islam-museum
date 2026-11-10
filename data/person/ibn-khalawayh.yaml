@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+died: { edtf: "980", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/aleppo, confidence: low, note: "Associated with Aleppo per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

@@ -30,3 +30,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/balancedmuslima-website]
+relations:
+  - { type: lived_in, target: place/sheffield, note: "Based in Sheffield per workshop listings." }
+  - { type: traveled_to, target: place/tarim, note: "Documented travel to Tarim, Hadhramaut, per Balanced Muslima biography." }

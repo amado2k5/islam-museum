@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1830", precision: year, status: tradition, derived: true }
   end: { edtf: "1830", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [46.7072956124677, 42.54567207642907]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1830"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة خونزاخ ⁦(١٨٣٠)⁩", en: "Battle of Khunzakh (1830)" }, at: [46.7072956124677, 42.54567207642907], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/khunzakh }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4871428

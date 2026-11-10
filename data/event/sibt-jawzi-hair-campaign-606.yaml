@@ -17,10 +17,20 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: occurred_at, target: place/nablus, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/sibt-ibn-al-jawzi, role: "الواعظ المحض على الجهاد", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-122
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "موكب سبط ابن الجوزي وشعور النساء إلى نابلس سنة 606", en: "Sibt Ibn al-Jawzi's procession of women's hair and the march to Nablus, 606" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

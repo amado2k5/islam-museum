@@ -11,7 +11,14 @@ regions: [south-asia]
 date:
   start: { edtf: "1659", precision: year, status: tradition, derived: true }
   end: { edtf: "1659", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Aurangzeb", ar: "أورنكزيب عالمكير" }
+    participants: [person/aurangzeb-mughal]
+  - label: { en: "Dara Shikoh", ar: "دارا شكوه" }
+    participants: [person/dara-shikoh]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111765788
 provenance:

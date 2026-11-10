@@ -10,10 +10,22 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
   start: { edtf: "0870~", hijri: "0257~", calendar: julian, precision: year, status: tradition, derived: true, note: "بين 256 و270؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 564}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [47.7804, 30.5085]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0870"
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول الزنج البصرة وإخربتها", en: "The Zanj Enter Basra and Lay It Waste" }, at: [47.7804, 30.5085], precision: locality, source: source/tarikh-khulafa-minhaj-1434 }
+  sources: [source/tarikh-khulafa-minhaj-1434]
 relations:
   - { type: had_participant, target: person/sahib-al-zanj, role: "قائد الزنج", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "أمير العسكر", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/basra, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muhtadi, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 564–567"

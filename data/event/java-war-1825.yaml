@@ -11,7 +11,12 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1825", precision: year, status: tradition, derived: true }
   end: { edtf: "1830", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Javanese", ar: "جاويون" }
+    participants: [group/javanese]
+  - label: { en: "Dutch Empire", ar: "الإمبراطورية الهولندية" }
+    participants: [polity/dutch-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q2045508
 provenance:

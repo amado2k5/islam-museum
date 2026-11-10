@@ -1,0 +1,20 @@
+id: place/al-jawa
+class: place
+kind: site
+label: { ar: "الجواء", en: "al-Jawa", ur: "الجواء" }
+summary:
+  ar: "موضع في نجد بمنطقة القصيم."
+  en: "A locality in Najd, in the Qassim region."
+wings: [place]
+regions: [arabia]
+coordinates: [26.0, 43.8]
+coordinate_precision: approx
+coordinate_note: "Approximate position for the Najdi locality of al-Jawa in Qassim, pending a gazetteer check."
+sources: [source/kamil-ibn-al-athir, source/futuh-buldan-maarif-1407]
+provenance:
+  layer: own-research
+  source: "Named in al-Kamil fi al-Tarikh and Futuh al-Buldan as the destination of Turayfa ibn Hajiza; coordinates approximate."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: residual-person-places
+status: { review: draft, completeness: 1, generated_by: "Devin" }

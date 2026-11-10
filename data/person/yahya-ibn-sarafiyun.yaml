@@ -15,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch19
+died: { edtf: "875~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim)" }
 relations:
   - { type: lived_in, target: place/al-sham, confidence: low, note: "Yahya ibn Sarafiyun (Serapion), Syrian Christian physician (al-Fihrist).", sources: [source/fihrist-ibn-al-nadim] }

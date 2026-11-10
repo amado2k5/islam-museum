@@ -1,0 +1,21 @@
+id: passage/bukhari-5352
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5352"
+label:
+  ar: "البخاري 5352 — أنفق أنفق عليك"
+  en: "Bukhari 5352 — Spend, and I shall spend on you"
+  ur: "بخاری 5352 — خرچ کرو، میں تم پر خرچ کروں گا"
+text: "قال الله أنفق يا ابن آدم أنفق عليك ."
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 5352: أنفق أنفق عليك. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 5352: Spend, and I shall spend on you. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 5352: خرچ کرو، میں تم پر خرچ کروں گا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-anfiq-unfiq-alayk]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5352; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

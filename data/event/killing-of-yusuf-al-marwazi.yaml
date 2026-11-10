@@ -18,10 +18,25 @@ relations:
   - { type: had_participant, target: person/buqrat-ibn-ashut, role: "بطريق خلاط المحمول إلى سر من رأى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hasan-ibn-ali-al-badhaghisi, role: "ولي الثغر للمعتصم المهمل للبطارقة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/isha-ibn-ismail-ibn-shuayb, role: "المستولي على جرزان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 296–297"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "جيش يوسف بن محمد بن يوسف المروزي", en: "Yusuf ibn Muhammad ibn Yusuf al-Marwazi's army" }
+    commanders: [person/yusuf-ibn-muhammad-al-marwazi]
+  - label: { ar: "أرمينية", en: "Armenia" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.383333, 44.95]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "قتل البطارقة يوسف المروزي", en: "The Patrikioses' Killing of Yusuf al-Marwazi" }, at: [40.383333, 44.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

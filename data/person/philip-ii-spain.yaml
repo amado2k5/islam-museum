@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/gunpowder-empires]
+born: { edtf: "1527", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of National Biography" }
+died: { edtf: "1598", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Dictionary of National Biography" }
 relations:
   - { type: ruled_over, target: place/spain, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruled_over, target: place/portugal, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -25,4 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: salabi-uthmani-batch12
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

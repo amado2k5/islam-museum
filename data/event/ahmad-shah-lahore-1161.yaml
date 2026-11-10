@@ -17,6 +17,20 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-shah-durrani, role: "الغازي المحتل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "جيش أحمد شاه الدراني", en: "Ahmad Shah Durrani's army" }
+    commanders: [person/ahmad-shah-durrani]
+  - label: { ar: "لاهور", en: "Lahore" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.558, 74.3507]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أحمد شاه دراني يحتل لاهور، المحرم ١١٦١هـ/يناير ١٧٤٨م", en: "Ahmad Shah Durrani occupies Lahore, Muharram 1161/January 1748" }, at: [31.558, 74.3507], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

@@ -18,6 +18,21 @@ relations:
   target: person/abu-hammu-musa-ii
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتضد بالله أبو الفتح أبو بكر بن المستكفي", en: "The forces of al-Mu'tadid bi'llah Abu'l-Fath Abu Bakr ibn al-Mustakfi" }
+    participants: [person/al-mutadid-billah-cairo]
+  - label: { ar: "حامية تلمسان", en: "The defenders of Tlemcen" }
+    participants: [place/tlemcen]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8783, -1.315]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد أبي حمو تلمسان", en: "Abu Hammu's recovery of Tlemcen" }, at: [34.8783, -1.315], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

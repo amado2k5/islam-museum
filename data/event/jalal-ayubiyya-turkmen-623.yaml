@@ -11,6 +11,16 @@ wings: [time]
 sides:
   - label: { ar: "المسلمون وخصومهم" }
   - label: { ar: "الطرف الآخر" }
+map:
+  kind: campaign
+  precision: locality
+  center: [46.3, 38.25]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1226"
+  features:
+    - { type: point, role: event_point, label: { ar: "إيقاع جلال الدين بالتركمان الأيوية", en: "Jalal al-Din's blow on the Ayubiyya Turkmen" }, at: [46.3, 38.25], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: occurred_at, target: place/azerbaijan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المُوقع", sources: [source/kamil-ibn-al-athir] }

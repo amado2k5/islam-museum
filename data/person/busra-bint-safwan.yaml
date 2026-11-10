@@ -3,6 +3,7 @@ class: person
 label:
   ar: بسرة بنت صفوان
   en: Busra bint Safwan
+  ur: "بسرة بنت صفوان"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: قرشية أسدية بنت أخي ورقة بن نوفل، قال الشافعي إن لها سابقة قديمة وهجرة؛ روت عن النبي وروى عنها مروان بن الحكم وعروة وسعيد بن المسيب، ومن مروياتها الحديث في الوضوء من مس الذكر.
   en: A Qurashi woman of Banu Asad, niece of Waraqa ibn Nawfal; al-Shafi'i said she had an early precedence and an emigration; she narrated from the Prophet and Marwan ibn al-Hakam, Urwa and Sa'id ibn al-Musayyib narrated from her; among her
     hadith is the one on ablution after touching the private part.
+  ur: "بنو اسد کی قریشی خاتون، ورقہ بن نوفل کی بھتیجی؛ شافعی نے کہا کہ ان کو ابتدائی فضیلت اور ہجرت حاصل تھی؛ نبی سے روایت کیا۔"
 wings: [people]
 themes:
 - women
@@ -39,6 +41,11 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/muhajirun
+  note: "one of the emigrant women per Ibn Hibban (al-Isaba p. 1829)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 10984، ص 1829

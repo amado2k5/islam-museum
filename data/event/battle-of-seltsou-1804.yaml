@@ -11,7 +11,14 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1804", precision: year, status: tradition, derived: true }
   end: { edtf: "1804", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Souliotes", ar: "السوليون" }
+    participants: [group/souliotes]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q55235075
 provenance:

@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1181", precision: year, status: tradition, derived: true }
   end: { edtf: "1181", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-7.9072222222222, 38.5725]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1181"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار يابرة ⁦(١١٨١)⁩", en: "Siege of Évora (1181)" }, at: [-7.9072222222222, 38.5725], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/evora }
+sides:
+  - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
+    participants: [person/abu-yaqub-yusuf-almohad]
+  - label: { ar: "حامية يابرة", en: "The defenders of Évora" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130270158

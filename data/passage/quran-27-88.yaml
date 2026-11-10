@@ -16,6 +16,7 @@ translations:
   en: { text: "And thou seest the hills thou deemest solid flying with the flight of clouds: the doing of Allah Who perfecteth all things. Lo! He is Informed of what ye do.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور تم پہاڑوں کو دیکھتے ہو تو خیال کرتے ہو کہ (اپنی جگہ پر) کھڑے ہیں مگر وہ (اس روز) اس طرح اُڑے پھریں گے جیسے بادل۔ (یہ) خدا کی کاریگری ہے جس نے ہر چیز کو مضبوط بنایا۔ بےشک وہ تمہارے سب افعال سے باخبر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

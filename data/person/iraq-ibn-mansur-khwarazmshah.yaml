@@ -12,6 +12,8 @@ gender: male
 roles: [ruler]
 periods: [period/abbasid-fragmentation]
 floruit: { edtf: "0893/0894", hijri: "0280", calendar: julian, precision: year, status: historical, derived: true, note: "Fulus dated 280 AH {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 48}; CE conversion derived.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+born: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Athar al-Baqiya / al-Biruni" }
+died: { edtf: "1017~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Athar al-Baqiya / al-Biruni" }
 relations:
   - { type: ruler_of, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: ruled_over, target: place/khwarizm, confidence: low, note: "Afrighid ruler of Khwarazm per the record's own summary.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }

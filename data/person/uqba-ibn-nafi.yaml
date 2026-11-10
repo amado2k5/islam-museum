@@ -7,6 +7,8 @@ summary:
   ur: "عمرو بن عاص نے انہیں مغرب کی ذمہ داری دی؛ زویلہ تک پہنچے، پھر افریقیہ کی مہم چلائی، قیروان کی بنیاد رکھی اور اس کی جامع مسجد بنوائی، جیسا کہ موجودہ عربی روایت میں بیان ہے۔ {cite:umayyad-birth-to-fall-2006}"
 wings: [people]
 periods: [period/rashidun]
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Islam (al-Dhahabi)" }
+died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Islam (al-Dhahabi)" }
 relations:
   - { type: participated_in, target: event/uqba-zawila-appointment, role: "المولّى المغرب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/quraysh, sources: [source/futuh-buldan-maarif-1407] }
@@ -27,4 +29,5 @@ provenance:
     source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 external_ids: { wikidata: "Q423772" }
 sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/khudari-umayyad-state, source/futuh-misr-amir-1999]
+importance: 2
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

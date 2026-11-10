@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
   - { type: lived_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q12560)" }

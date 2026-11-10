@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafhat al-Rayhana (al-Muhibbi); al-A'lam (al-Zirikli: 1111–1180 AH)" }
+died: { edtf: "1766", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafhat al-Rayhana (al-Muhibbi); al-A'lam (al-Zirikli: 1111–1180 AH)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

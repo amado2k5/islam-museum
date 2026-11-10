@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Nader Shah Afshar)" }
+died: { edtf: "1747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Nader Shah Afshar)" }
 relations:
   - { type: born_in, target: place/dastgerd, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5226890)" }
   - { type: died_in, target: place/quchan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q765793)" }

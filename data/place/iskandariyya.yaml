@@ -1,0 +1,19 @@
+id: place/iskandariyya
+class: place
+kind: site
+label: { ar: "الإسكندرية", en: "Iskandariyya" }
+summary:
+  ar: "Alexandria, Egypt."
+  en: "Alexandria, Egypt."
+wings: [place]
+coordinates: [31.2001, 29.9187]
+coordinate_precision: locality
+coordinate_note: "Alexandria, Egypt (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

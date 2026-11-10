@@ -19,5 +19,18 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed., vol. 7: MUHAMMAD b. SAM p. 461 and MULTĀN p. 603 (PDF pages)"
   generated_by: "Devin (SWE-2 Medium)"
   run: explorer-multan-1
+sides:
+  - label: { ar: "جيش شهاب الدين الغوري", en: "Shihab al-Din al-Ghuri's army" }
+    commanders: [person/shihab-al-din-ghuri]
+  - label: { ar: "ملتان", en: "Multan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.1968, 71.4782]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استخلاص معز الدين الغوري الملتان من أيدي القرامطة", en: "Mu'izz al-Din wrests Multan from the Qarmatians" }, at: [30.1968, 71.4782], precision: locality, source: source/fihrist-ibn-al-nadim }
+  sources: [source/fihrist-ibn-al-nadim]
 sources: [source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

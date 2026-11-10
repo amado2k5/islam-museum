@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1278", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/hilla, confidence: low, note: "Association inferred from the nisba in the name 'Safi al-Din al-Hilli'; specific residence not individually documented.", sources: [source/al-aalam] }

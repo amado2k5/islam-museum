@@ -14,6 +14,18 @@ date:
   start: { edtf: "1097", hijri: "0490", calendar: julian, precision: year, status: historical, derived: true, note: "مرور الصليبيين بقونية سنة 1097م {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 287}؛ السنة الهجرية تحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "جيش الحملة الصليبية الأولى", en: "The First Crusade army" }
+  - label: { ar: "البيزنطيون", en: "The Byzantines" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.8713, 32.4846]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الصليبيون يعبرون قونية سنة ٤٩٠هـ", en: "The First Crusade passes Konya, 490/1097" }, at: [37.8713, 32.4846], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

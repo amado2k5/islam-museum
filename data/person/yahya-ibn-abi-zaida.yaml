@@ -12,6 +12,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam, source/taqrib-al-tahdhib]
+born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Kufan qadi and traditionist (al-Taqrib; regions: levant-iraq).", sources: [source/al-aalam, source/taqrib-al-tahdhib] }
 external_ids:

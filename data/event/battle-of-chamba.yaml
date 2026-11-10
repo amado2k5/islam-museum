@@ -11,7 +11,11 @@ regions: [south-asia]
 date:
   start: { edtf: "1800", precision: year, status: tradition, derived: true }
   end: { edtf: "1900", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kurds", ar: "كرد" }
+    participants: [group/kurds]
+  - label: { en: "Tyari", ar: "تياري" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q134984389
 provenance:

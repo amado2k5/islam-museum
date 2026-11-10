@@ -11,7 +11,13 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0899", precision: year, status: tradition, derived: true }
   end: { edtf: "0899", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Arabs", ar: "عرب" }
+    participants: [group/arabs]
+  - label: { en: "Muladi", ar: "مولدون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q112181341
 provenance:

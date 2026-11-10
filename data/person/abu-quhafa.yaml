@@ -1,6 +1,6 @@
 id: person/abu-quhafa
 class: person
-label: { en: "Abu Quhafa Uthman ibn Amir", ar: "أبو قحافة عثمان بن عامر" }
+label: { en: "Abu Quhafa Uthman ibn Amir", ar: "أبو قحافة عثمان بن عامر", ur: "أبو قحافة عثمان بن عامر" }
 names:
   - { kind: full, lang: ar, value: "عثمان بن عامر بن عمرو بن كعب بن سعد بن تيم" }
   - { kind: kunya, lang: ar, value: "أبو قحافة" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   en: "The father of Abu Bakr al-Siddiq; an old, blind man who watched the Muslim army enter Mecca from Mount Abu Qubays and was brought by his son to the Prophet at Dhu Tuwa to profess Islam."
   ar: "والد أبي بكر الصديق؛ شيخ كبير كفيف أشرف يوم الفتح من جبل أبي قبيس مع ابنته ينظر قدوم الجيش، فأتى به ابنه أبو بكر إلى النبي بذي طوى حتى أسلم."
+  ur: "ابو بکر صدیق کے والد؛ بزرگ نابینا شخص جو کوہ ابو قبیس سے مسلمان لشکر کو مکہ داخل ہوتے دیکھا اور بیٹے کے ذریعے نبی کے پاس لایا گیا۔"
 wings: [people]
 themes: [converts-and-leavers, the-elderly]
 periods: [period/prophetic-era]
@@ -18,12 +19,16 @@ story_roles:
   - { role: convert, status: tradition, note: "أسلم يوم فتح مكة بذي طوى حين جاء به ابنه أبو بكر، فقال النبي: «هلا تركت الشيخ في بيته حتى نكون نحن نأتيه»، وأمر بتغيير شيبه.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح (8هـ)." }
+born: { edtf: "544~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Hajar (al-Isaba)" }
+died: { edtf: "0635", hijri: "0014", calendar: julian, precision: year, status: tradition, derived: true, note: "Died 14 AH aged ninety-seven; the first man to inherit a caliph and first to have his hair dyed in Islam (al-Isaba p. 1008); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/jabal-abi-qubays, note: "From text: from Mount Abu Qubays", sources: [source/ibn-hisham-saqqa, source/assabile-ahmed-abdussalam], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/abu-quhafa-conversion, role: convert, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "of Banu Taym, father of Abu Bakr (al-Isaba p. 1007)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "embraced Islam on the day of the conquest (al-Isaba p. 1007)", sources: [source/ibn-hajar-isaba] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 48", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch51" }
 external_ids: { wikidata: "Q7902721" }
-sources: [source/ibn-hisham-saqqa, source/assabile-ahmed-abdussalam]
+sources: [source/ibn-hisham-saqqa, source/assabile-ahmed-abdussalam, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

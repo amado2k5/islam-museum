@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 میر سید جلال الدین حسین نقوی بخاری، جو مخدوم جہانیاں جہانگشت کے نام سے مشہور ہیں، اوچ میں 14 شعبان 707ھ کو پیدا ہوئے؛ عیسوی دن کی تعیین میں اختلاف ہے (7، 8 یا 9 فروری 1308ء) مگر سال پر اتفاق ہے۔{cite:wikipedia-jahaniyan-jahangasht-ur}{cite:wikipedia-jahaniyan-jahangasht-en}{cite:khan-constructing-islam-on-the-indus-2016} ان کے والد احمد کبیر، جلال الدین سرخ پوش بخاری کے سب سے چھوٹے بیٹے اور جانشین تھے۔{cite:wikipedia-jahaniyan-jahangasht-en}
 

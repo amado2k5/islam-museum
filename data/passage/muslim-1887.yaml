@@ -1,0 +1,23 @@
+id: passage/muslim-1887
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1887"
+label:
+  ar: "مسلم 1887 — أرواح الشهداء في جوف طير خضر: أنا أبلغهم عنكم"
+  en: "Muslim 1887 — The souls of the martyrs in green birds: I shall tell them about you"
+  ur: "مسلم 1887 — شہیدوں کی روحیں سبز پرندوں میں: میں تمہاری طرف سے انہیں خبر دوں گا"
+text: "أرواحهم في جوف طير خضر لها قناديل معلقة بالعرش تسرح من الجنة حيث شاءت ثم تأوي إلى تلك القناديل فاطلع إليهم ربهم اطلاعة فقال هل تشتهون شيئا قالوا أى شىء نشتهي ونحن نسرح من الجنة حيث شئنا ففعل ذلك بهم …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 1887: أرواح الشهداء في جوف طير خضر: أنا أبلغهم عنكم. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 1887: The souls of the martyrs in green birds: I shall tell them about you. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 1887: شہیدوں کی روحیں سبز پرندوں میں: میں تمہاری طرف سے انہیں خبر دوں گا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-arwah-al-shuhada]
+relations:
+  - { type: mentions, target: concept/birds, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4885; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

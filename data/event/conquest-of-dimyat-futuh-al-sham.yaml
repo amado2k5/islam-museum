@@ -20,11 +20,21 @@ relations:
   - { type: occurred_at, target: place/dimyat, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: occurred_at, target: place/tinnis, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "قائد الأربعين في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
-  - { type: had_participant, target: person/dirar-ibn-al-azwar, role: "من الأربعين في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: related_to, target: person/dirar-ibn-al-azwar, role: "من الأربعين في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "باعث السرية في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: had_participant, target: person/shata-of-dimyat, role: "المقتول في قتال أبي ثوب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: part_of, target: event/conquest-of-egypt, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: related_to, target: question/attribution-of-futuh-al-sham-waqidi, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.416666666666668, 31.82138888888889]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح دمياط وتنيس في رواية «فتوح الشام» المنسوب إلى الواقدي", en: "The conquest of Damietta and Tinnis as told in the Futuh al-Sham ascribed to al-Waqidi" }, at: [31.416666666666668, 31.82138888888889], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-al-sham-ilmiyya-1997-v2]
 provenance:
   layer: own-research

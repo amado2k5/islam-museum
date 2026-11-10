@@ -11,7 +11,26 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1798", precision: year, status: tradition, derived: true }
   end: { edtf: "1801", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [17.0, 38.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1798"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الفرنسية العثمانية ⁦(١٧٩٨–١٨٠١)⁩", en: "Franco-Turkish War (1798–1801)" }, at: [17.0, 38.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mediterranean-sea }
+- { type: occurred_at, target: place/egypt-eyalet }
+sides:
+  - label: { en: "French First Republic", ar: "الجمهورية الفرنسية الأولى" }
+    participants: [polity/french-first-republic]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118957424
 provenance:

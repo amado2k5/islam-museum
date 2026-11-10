@@ -1,0 +1,21 @@
+id: person/hasan-dan-muazu
+class: person
+label: { ar: "حسن بن معاذ سلطان سوكوتو", en: "Hasan dan Mu'azu", ur: "حسن بن معاذ سوکوتو" }
+roles: [caliph]
+summary:
+  ar: "حسن بن معاذ، سلطان سوكوتو ⁦(١٩٣١–١٩٣٨م)⁩ في عهد الحماية البريطانية؛ عُيّن بعد إبعاد محمد تمباري وظل في المنصب حتى وفاته فخلفه صديق أبو بكر الثالث. {cite:britannica-usman-dan-fodio}"
+  en: "Hasan dan Mu'azu, Sultan of Sokoto (1931–1938) under British colonial rule; appointed after Muhammadu Tambari's deposition and exile, holding the seat until his death, when Siddiq Abubakar III succeeded. {cite:britannica-usman-dan-fodio}"
+  ur: "حسن بن معاذ، برطانوی نوآبادیاتی دور کے سوکوتو سلطان ⁦(1931–1938ء)⁩؛ محمد تمباری کی برطرفی کے بعد تعینات، وفات تک منصب پر فائز رہے؛ صدیق ابوبکر سوم جانشین ہوئے۔ {cite:britannica-usman-dan-fodio}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1931", calendar: julian, precision: year }, end: { edtf: "1938", calendar: julian, precision: year }, status: historical, sources: [source/britannica-usman-dan-fodio] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/britannica-usman-dan-fodio] }
+  - { type: successor_of, target: person/muhammadu-tambari, sources: [source/britannica-usman-dan-fodio] }
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "EI2/Encyclopaedia Britannica Sokoto lists — Gemini historian-check batch 2"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: khulafa-gemini-corrections-b2
+sources: [source/britannica-usman-dan-fodio]

@@ -16,7 +16,9 @@ translations:
   en: { text: "Have they not seen the birds above them spreading out their wings and closing them? Naught upholdeth them save the Beneficent. Lo! He is Seer of all things.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا انہوں نے اپنے سروں پر اڑتے ہوئے جانوروں کو نہیں دیکھا جو پروں کو پھیلائے رہتے ہیں اور ان کو سکیڑ بھی لیتے ہیں۔ خدا کے سوا انہیں کوئی تھام نہیں سکتا۔ بےشک وہ ہر چیز کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/birds, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-67 }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

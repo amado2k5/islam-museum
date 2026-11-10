@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1077", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Yaqut al-Hamawi, Mu'jam al-Udaba" }
+died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Yaqut al-Hamawi, Mu'jam al-Udaba" }
 relations:
   - { type: lived_in, target: place/bayhaq, note: "Place association from the person's nisba/name (bayhaqi); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

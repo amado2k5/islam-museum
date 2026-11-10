@@ -1,0 +1,20 @@
+id: place/sarakusta
+class: place
+kind: city
+label: { ar: "سرقسطة", en: "Sarakusta" }
+summary:
+  ar: "مدينة."
+  en: "(714–1118) ancient muslim city, name of the current city of Zaragoza during the Muslim domination of the Iberian Peninsula."
+wings: [place]
+coordinates: [41.654366145269556, -0.8775636491620948]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q11947752" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q11947752 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

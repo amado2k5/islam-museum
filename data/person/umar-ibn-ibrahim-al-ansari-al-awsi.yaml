@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1390~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~1410, GAL (Brockelmann); al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/al-andalus, sources: [source/al-aalam] }
 sources: [source/al-aalam]

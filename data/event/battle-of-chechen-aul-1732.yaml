@@ -11,7 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1732-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1732-07", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Chechens", ar: "شيشانيون" }
+  - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }
+    participants: [polity/russian-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q113017198
 provenance:

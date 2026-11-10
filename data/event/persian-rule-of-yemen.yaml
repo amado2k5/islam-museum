@@ -18,5 +18,21 @@ relations:
   - { type: had_participant, target: person/badhan, role: "آخر ولاة فارس وأسلم سنة 638م", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: polity/sasanian-empire, role: "القوة التي أعانت ثم استولت", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/pre-islamic-arabia }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "قوات أبو بكر الصديق", en: "The forces of Abu Bakr al-Siddiq" }
+    participants: [person/abu-bakr]
+  - label: { ar: "حامية اليمن", en: "The defenders of Yemen" }
+    participants: [place/yemen]
+map:
+  kind: campaign
+  precision: locality
+  center: [15.5, 48]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "تحرير اليمن والولاية الفارسية", en: "Liberation and Persian Rule of Yemen" }, at: [15.5, 48], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

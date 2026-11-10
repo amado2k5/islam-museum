@@ -16,5 +16,10 @@ provenance:
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 581، ص 136"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-03
+relations:
+- { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+  - label: { ar: "متمردو الأتراك والأكراد", en: "The Turkmen and Kurdish mutineers" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

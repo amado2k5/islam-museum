@@ -3,18 +3,26 @@ class: person
 label:
   ar: "ثابت بن عمرو"
   en: "Thabit ibn Amr"
+  ur: "ثابت بن عمرو"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لثابت بن عمرو، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Thabit ibn Amr, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "ثابت بن عمرو الأنصاري النجاري، شهد بدراً واستشهد يوم أحد."
+  en: "Thabit ibn Amr al-Ansari of Banu al-Najjar fought at Badr and was killed at Uhud."
+  ur: "بنو نجار کا انصاری ثابت بن عمرو؛ بدر میں لڑا اور احد میں مارا گیا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "0625-03", hijri: "0003-10", calendar: julian, precision: month, status: tradition, derived: true, note: "Killed at Uhud, after Ibn Ishaq (al-Isaba p. 179); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion-era figure of the Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 179", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 179", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 179", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 179", sources: [source/ibn-hajar-isaba] }
+  - { type: died_in, target: place/uhud, note: "al-Isaba p. 179", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q61075729
 provenance:

@@ -3,18 +3,25 @@ class: person
 label:
   ar: "خراش بن الصمة"
   en: "Kharash ibn al-Simma"
+  ur: "خراش بن الصمة"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخراش بن الصمة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Kharash ibn al-Simma, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "خراش بن الصمة الأنصاري السلمي، شهد بدراً ومعه فرسان، وجُرح يوم أحد عشر جراحات، وكان من الرماة المذكورين."
+  en: "Kharash ibn al-Simma al-Ansari of Banu Salima fought at Badr with two horses, took ten wounds at Uhud and was one of the noted archers."
+  ur: "بنو سلیمہ کا انصاری خراش بن صمہ؛ بدر میں دو گھوڑوں کے ساتھ لڑا، احد میں دس زخم لگے اور وہ مشہور تیراندازوں میں تھا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba p. 389", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 389", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 389", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 389; with two horses", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 389; wounded ten times", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12210459
 provenance:

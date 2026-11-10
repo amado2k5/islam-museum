@@ -20,6 +20,7 @@ story_roles:
   - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر (ابن هشام 4/212).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
+died: { edtf: "0645~", hijri: "0025~", calendar: julian, precision: year, status: debated, derived: true, note: "Struck down at al-Jawzjan in Uthman's time on Abdallah ibn Amir's Khurasan expedition; Ibn al-Kalbi instead has him killed at al-Yarmuk with ten sons (al-Isaba p. 79); CE year approximated to 25 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "دفع عن محلّم لمكانه من خندف، ثم حمل قيساً على قبول الدية", sources: [source/ibn-hisham-saqqa] }
@@ -33,7 +34,7 @@ relations:
   - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 206-212", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }
 
 education:

@@ -12,15 +12,29 @@ date:
   start: { edtf: "0865~", hijri: "0251", calendar: julian, precision: year, status: tradition, derived: true, note: "حركة قم وإعادة فتحها في عهد المعتز {cite:futuh-buldan-maarif-1407}; سنة مشتقة." }
 relations:
   - { type: occurred_at, target: place/qumm }
-  - { type: had_participant, target: person/ali-ibn-hisham-al-marwazi, role: "المعاقب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/ali-ibn-hisham-al-marwazi, role: "المعاقب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/yahya-ibn-imran, role: "رئيسها المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/musa-ibn-bugha, role: "فاتحها عنوة", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة الموجه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abd-allah-al-mamun, role: "الخليفة الموجه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mutazz, role: "خليفة الغزو الثاني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 440"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-45
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المستعين بالله", en: "The authorities of al-Musta'in bi'llah" }
+    participants: [person/al-mustain]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.6416, 50.8746]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حركة قم وإعادة فتحها", en: "Qumm's Revolt and Re-Conquest" }, at: [34.6416, 50.8746], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

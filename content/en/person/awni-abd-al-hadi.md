@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Awni Abd al-Hadi (1889 – 15 March 1970) was a Palestinian politician from Nablus, educated in Beirut, Istanbul and at the Sorbonne in Paris.{cite:wikipedia-awni-abd-al-hadi-en}{cite:wikipedia-awni-abd-al-hadi-ar} In 1911 he co-founded the Paris-based al-Fatat society, helped organize the Arab Congress of 1913, and in 1921 became the first chief of the Amiri Diwan in Transjordan.{cite:wikipedia-awni-abd-al-hadi-en}
 

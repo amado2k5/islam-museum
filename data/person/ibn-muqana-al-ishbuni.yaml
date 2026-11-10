@@ -11,6 +11,8 @@ roles: [poet]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+born: { edtf: "1050~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhakhira" }
+died: { edtf: "1090~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhakhira" }
 relations:
   - { type: lived_in, target: place/malaga, confidence: low, note: "Associated with Malaga per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:

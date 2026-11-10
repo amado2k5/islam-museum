@@ -1,0 +1,21 @@
+id: passage/muslim-2577d
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2577d"
+label:
+  ar: "مسلم 2577d — يا عبادي إني حرمت الظلم على نفسي"
+  en: "Muslim 2577d — My servants, I have forbidden injustice for Myself"
+  ur: "مسلم 2577d — اے میرے بندو، میں نے ظلم کو اپنے اوپر حرام کیا ہے"
+text: "إني حرمت على نفسي الظلم وعلى عبادي فلا تظالموا . وساق الحديث بنحوه وحديث أبي إدريس الذي ذكرناه أتم من هذا ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2577d: يا عبادي إني حرمت الظلم على نفسي. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2577d: My servants, I have forbidden injustice for Myself. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2577d: اے میرے بندو، میں نے ظلم کو اپنے اوپر حرام کیا ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-ya-ibadi-inni-harramtu-al-zulm]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6575; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

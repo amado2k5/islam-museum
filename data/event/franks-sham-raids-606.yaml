@@ -14,10 +14,20 @@ sides:
 relations:
   - { type: occurred_at, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch06
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8, 37.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارات الفرنج بالشام", en: "Frankish raids on Syria" }, at: [34.8, 37.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

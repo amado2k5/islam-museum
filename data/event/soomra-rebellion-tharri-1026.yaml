@@ -11,6 +11,21 @@ regions: [south-asia]
 date:
   start: { edtf: "1026", precision: year, status: tradition, derived: true }
   end: { edtf: "1026", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [68.65568, 25.04312]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1026"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة السومرة في ثاري ⁦(١٠٢٦)⁩", en: "Soomra Rebellion of Tharri (1026)" }, at: [68.65568, 25.04312], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/matli }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "السلطات", en: "The authorities" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q141303555

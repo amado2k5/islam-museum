@@ -13,6 +13,21 @@ date:
   start: { edtf: "1413", hijri: "0816", calendar: julian, precision: year, status: tradition, derived: true, note: "1413م {cite:freely-ottoman-architecture-2011 p. 38}؛ الهجري مشتق." }
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستعين ⁦(القاهرة)⁩", en: "The forces of al-Musta'in (Cairo)" }
+    participants: [person/al-mustain-cairo]
+  - label: { ar: "حامية بورصة", en: "The defenders of Bursa" }
+    participants: [place/bursa]
+map:
+  kind: siege
+  precision: locality
+  center: [40.1956, 29.0601]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار القرمانيين لبورصة", en: "The Karamanid siege of Bursa" }, at: [40.1956, 29.0601], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/freely-ottoman-architecture-2011]
 provenance:
   layer: "own-research"

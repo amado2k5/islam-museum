@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1265", precision: year, status: tradition, derived: true }
   end: { edtf: "1265", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    participants: [person/baybars]
+    commanders: [person/baybars]
+  - label: { ar: "حامية حيفا الصليبية", en: "The Crusader garrison of Haifa" }
+map:
+  kind: siege
+  precision: locality
+  center: [34.99916666666667, 32.81916666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1265"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط حيفا ⁦(١٢٦٥)⁩", en: "Fall of Haifa (1265)" }, at: [34.99916666666667, 32.81916666666667], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
+relations:
+- { type: occurred_at, target: place/haifa }
 sources: [source/shadharat-dhahab]
 external_ids:
   wikidata: Q5432154

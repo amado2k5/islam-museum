@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "598", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Sa'sa'a ibn Suhan al-Abdi, companion and orator of Ali's Kufa (Muruj al-dhahab).", sources: [source/muruj-al-dhahab] }

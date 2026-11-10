@@ -11,7 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0692", precision: year, status: tradition, derived: true }
   end: { edtf: "0692", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-al-tabari]
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+    participants: [polity/umayyad-caliphate]
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q2237769
 provenance:

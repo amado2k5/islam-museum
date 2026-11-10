@@ -55,6 +55,8 @@ export const BUDGETS: Budget[] = [
   // a mid-size section 295 KB. A section of more than 300 records renders compact rows (name, year, kind; no summary; styles as
   // classes, not inline) in every one of its lists, which keeps the largest section (figures, 1,467 rows, 1.3 MB with summaries)
   // under the 700 KB ceiling the budget table allows. JS is the shared layout plus the name filter.
+  { family: "browser home", route: "/ar/companions/", html: 400 * KB, js: 14 * KB },
+  { family: "browser listing", route: "/ar/companions/women/", html: 200 * KB, js: 14 * KB },
   { family: "browser home", route: "/ar/modern/", html: 170 * KB, js: 14 * KB },
   { family: "browser listing", route: "/ar/modern/figures/", html: 700 * KB, js: 14 * KB },
   { family: "browser section", route: "/ar/modern/film/", html: 400 * KB, js: 14 * KB },

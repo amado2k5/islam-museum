@@ -1,0 +1,20 @@
+id: place/syrmia
+class: place
+kind: region
+label: { ar: "سرم", en: "Syrmia" }
+summary:
+  ar: "إقليم."
+  en: "Geographical region of the Pannonian Plain."
+wings: [place]
+coordinates: [45.17, 19.288]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1309492" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1309492 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

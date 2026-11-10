@@ -7,5 +7,6 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "1390~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Farhun, al-Dibaj al-Mudhahhab" }
 relations:
   - { type: lived_in, target: place/al-ahwaz, note: "Place association from the person's nisba/name (الأهوازي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

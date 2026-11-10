@@ -17,6 +17,22 @@ relations:
   - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "من أبناء الصحابة المرسلين؛ الكتاب يذكر ابن الزبير", sources: [source/sallabi-ali-vol1] }
   - { type: caused_by, target: event/forged-letter-affair, sources: [source/sallabi-ali-vol1] }
   - { type: caused, target: event/murder-of-uthman, sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "قوات عثمان بن عفان", en: "The forces of Uthman ibn Affan" }
+    participants: [person/uthman-ibn-affan]
+  - label: { ar: "حامية المدينة المنورة", en: "The defenders of Medina" }
+    participants: [place/medina]
+map:
+  kind: siege
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "موقف علي من حصار عثمان", en: "Ali's stance during the siege of Uthman" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 165-167" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 165-167", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

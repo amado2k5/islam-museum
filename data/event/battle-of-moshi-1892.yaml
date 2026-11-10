@@ -11,7 +11,22 @@ regions: [east-africa]
 date:
   start: { edtf: "1892", precision: year, status: tradition, derived: true }
   end: { edtf: "1892", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [37.340380555556, -3.3348833333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1892"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة موشي ⁦(١٨٩٢)⁩", en: "Battle of Moshi (1892)" }, at: [37.340380555556, -3.3348833333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/moshi }
+sides:
+  - label: { en: "German East Africa", ar: "شرق إفريقيا الألمانية" }
+  - label: { en: "Chagga states", ar: "دول الشاغا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q119438344
 provenance:

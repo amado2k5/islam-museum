@@ -12,6 +12,7 @@ summary:
 roles: [scholar, jurist, teacher]
 wings: [people, living]
 regions: [andalus-europe, levant-iraq]
+born: { edtf: "1971", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MRDF records" }
 relations:
   - { type: lived_in, target: place/london, confidence: low, note: "Associated with لندن per the record's own summary text; relation type pending review.", sources: [source/wikipedia-haitham-al-haddad-en] }
 external_ids: { wikidata: Q1832022 }

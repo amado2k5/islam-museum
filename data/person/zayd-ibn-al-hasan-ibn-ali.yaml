@@ -7,6 +7,8 @@ summary:
   ar: "ذكر الكتاب أنه كتب من المدينة إلى الوليد بن عبد الملك موافقته على خلع سليمان خوفاً من الوليد، فلما استُخلف سليمان أمر واليه بالمدينة أن يسأله عن الكتاب، فلما اعترف به أمر سليمان بضربه مئة سوط وإمشائه حافياً، فحبس عمر بن عبد العزيز الرسول وقال إنه لا يخرج حتى يكلّم الخليفة، فمرض سليمان، وأفضى الأمر إلى عمر فمزّق الكتاب {cite:salabi-umayyad-state-2020 p.182-183}."
 wings: [people]
 periods: [period/umayyad]
+born: { edtf: "650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/salabi-umayyad-state-2020] }
 sources: [source/salabi-umayyad-state-2020]

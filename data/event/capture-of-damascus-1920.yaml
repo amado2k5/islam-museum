@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1920", precision: year, status: tradition, derived: true }
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2913, 33.5102]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1920"
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول دمشق ⁦(١٩٢٠)⁩", en: "Capture of Damascus" }, at: [36.2913, 33.5102], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/damascus }
+sides:
+  - label: { ar: "قوات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The forces of السلطان وحيد الدين ⁦(محمد السادس)⁩" }
+    participants: [person/muhammad-vi-uthmani]
+  - label: { ar: "حامية دخول دمشق", en: "The defenders of Damascus" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7509962

@@ -14,6 +14,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: victim, status: tradition, note: "أهدر دمها مع ابن خطل لهجائهما النبي (ابن هشام 4/52).", sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah)" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: proscribed-singer, sources: [source/ibn-hisham-saqqa] }

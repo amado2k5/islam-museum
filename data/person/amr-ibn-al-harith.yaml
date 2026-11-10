@@ -11,6 +11,8 @@ summary:
 wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [egypt-nile]
+born: { edtf: "710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/marthad-ibn-abd-allah-al-yazani, sources: [source/tabaqat-fuqaha-abbas-1981] }

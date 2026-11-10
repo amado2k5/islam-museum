@@ -3,6 +3,7 @@ class: person
 label:
   ar: أسماء بنت مرثد
   en: Asma' bint Marthad
+  ur: "أسماء بنت مرثد"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: أنصارية من بني حارثة؛ ذكرها أبو عمر وقال إن حديثها لا يصح لانفراد حرام بن عثمان به وهو ضعيف عندهم جميعاً؛ ويذكر ابن سعد أنها أسلمت وبايعت وأن زوجها الضحاك بن خليفة.
   en: An Ansari woman of Banu Haritha; Abu Umar mentions her and says her hadith is not sound because Haram ibn Uthman, who is weak in everyone's view, is alone in narrating it; Ibn Sa'd says she embraced Islam and pledged and that her husband
     was al-Dahhak ibn Khalifa.
+  ur: "بنو حارثہ کی انصاری خاتون؛ ابو عمر ان کا ذکر کرتے ہیں اور کہتے ہیں کہ ان کی حدیث صحیح نہیں کیونکہ حرام بن عثمان سب کی نظر میں کمزور ہے۔"
 wings: [people]
 themes:
 - women
@@ -34,6 +36,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
 - type: lived_in
   target: place/medina
@@ -44,6 +48,11 @@ relations:
   target: group/ansar
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "of Banu Haritha; she pledged allegiance (al-Isaba p. 1812)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 10859، ص 1812

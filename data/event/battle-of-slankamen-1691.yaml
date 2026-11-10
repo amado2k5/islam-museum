@@ -11,6 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1691", precision: year, status: tradition, derived: true }
   end: { edtf: "1691", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [20.2575, 45.142777777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1691"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سلنكمان", en: "Battle of Slankamen" }, at: [20.2575, 45.142777777778], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/stari-slankamen }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q690481

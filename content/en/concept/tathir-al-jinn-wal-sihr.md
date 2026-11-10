@@ -52,3 +52,6 @@ The presenter said he had told the director and management from the start of his
 :::
 
 The medical and therapeutic statements on this page are attributed to those who made them in the episode; they are not medical information from the museum.
+
+## In the context of the unseen
+The effect of jinn and sorcery is real by God's leave; protection is Ayat al-Kursi, the mu'awwidhatayn and morning remembrances.

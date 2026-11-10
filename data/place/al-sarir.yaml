@@ -10,11 +10,13 @@ periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
   - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407] }
-coordinate_note: "لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292–293"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+coordinates: [42.5564, 46.7219]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

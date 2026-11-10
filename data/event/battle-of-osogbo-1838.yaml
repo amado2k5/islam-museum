@@ -11,6 +11,8 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1838", precision: year, status: tradition, derived: true }
   end: { edtf: "1838", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abu-bakr-atiku, sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130288419

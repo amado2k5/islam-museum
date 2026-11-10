@@ -8,8 +8,8 @@ summary:
 wings: [place]
 regions: [arabia]
 coordinates: [21.4225, 39.8262]
-external_ids: { wikidata: Q5806, geonames: "104515", nomisma: "mecca" }
-sources: [source/bakr-umayyad-state-1134715, source/rihla-ibn-battuta-1958, source/apd, source/nomisma]
+external_ids: { wikidata: Q5806, geonames: "104515", nomisma: "mecca", idai: "2283160" }
+sources: [source/bakr-umayyad-state-1134715, source/rihla-ibn-battuta-1958, source/apd, source/nomisma, source/idai-gazetteer]
 education:
   did_you_know:
     ar: "مكة في الحجاز مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي."
@@ -19,6 +19,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
 provenance:
   layer: own-research

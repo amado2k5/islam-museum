@@ -22,6 +22,19 @@ relations:
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
+sides:
+  - label: { ar: "جيش داود بن عيسى أمير مكة", en: "Dawud ibn Isa, amir of Mecca's army" }
+    commanders: [person/dawud-ibn-isa]
+  - label: { ar: "مكة المكرمة", en: "Mecca" }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتنة مكة وعزل مكثر بن عيسى", en: "The Mecca fitna and deposition of Mukaththir (571 AH)" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

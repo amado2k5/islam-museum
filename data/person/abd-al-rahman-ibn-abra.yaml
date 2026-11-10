@@ -12,5 +12,7 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: ruled_over, target: place/khurasan, note: "In Abu Ubayda's account, Ali's first agent over Khurasan, before Ja'da ibn Hubayra.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

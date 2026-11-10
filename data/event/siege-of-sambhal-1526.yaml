@@ -11,6 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "1526", precision: year, status: tradition, derived: true }
   end: { edtf: "1526", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [78.570932, 28.585197]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1526"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سمبهل ⁦(١٥٢٦)⁩", en: "Siege of Sambhal (1526)" }, at: [78.570932, 28.585197], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/sambhal }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية سمبهل", en: "The defenders of Sambhal" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7510369

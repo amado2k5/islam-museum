@@ -3,14 +3,17 @@ class: person
 label:
   ar: "محجن بن الأدرع"
   en: "Mihjan ibn al-Adra'"
+  ur: "محجن بن الأدرع"
 names:
   - { kind: full, lang: ar, value: "محجن بن الأدرع" }
 roles: [companion]
 summary:
   ar: "محجن بن الأدرع الأسلمي، صحابي من كبار الرماة، مختط مسجد الصبرة، روى خمسة أحاديث؛ توفي سنة 60هـ ⁦(680م)⁩."
   en: "Mihjan ibn al-Adra' al-Aslami (d. 60/680), Companion and famed archer who founded the mosque of al-Sabra."
+  ur: "مہجان بن الادرع الاسلمی، صحابی اور مشہور تیرانداز جس نے مسجد الصبرہ بنائی۔"
 wings: [people]
 sources: [source/isaba-matba-al-saada-1328]
+died: { edtf: "0680", hijri: "0060", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at the end of Mu'awiya's caliphate (Abu Umar, al-Isaba p. 1339); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/adra, confidence: low, note: "Associated with Adra per the record's own summary text; relation type pending review.", sources: [source/isaba-matba-al-saada-1328] }
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328] }

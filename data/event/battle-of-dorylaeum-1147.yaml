@@ -11,7 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1147", precision: year, status: tradition, derived: true }
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [30.516666666667, 39.783333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1147"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ضورليم الثانية", en: "Second Battle of Dorylaeum" }, at: [30.516666666667, 39.783333333333], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/dorylaeum }
+sides:
+  - label: { en: "Holy Roman Empire", ar: "الإمبراطورية الرومانية المقدسة" }
+    participants: [polity/holy-roman-empire]
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q1678637
 provenance:

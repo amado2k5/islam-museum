@@ -11,6 +11,21 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1916", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [33.0167, 31.0]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1916"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بئر العبد", en: "Battle of Bir el Abd" }, at: [33.0167, 31.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/bir-al-abd }
+sides:
+  - label: { ar: "القوات البريطانية", en: "The British forces" }
+  - label: { ar: "الحملة العثمانية على القناة", en: "The Ottoman Canal expedition" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q16834835

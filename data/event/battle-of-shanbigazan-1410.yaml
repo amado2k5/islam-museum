@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1410", precision: year, status: tradition, derived: true }
   end: { edtf: "1410", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [46.2919, 38.08]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1410"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سانبيغازان ⁦(١٤١٠)⁩", en: "Battle of Şənbi-Qazan (1410)" }, at: [46.2919, 38.08], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tabriz }
+sides:
+  - label: { en: "Jalayirid Sultanate", ar: "الدولة الجلائرية" }
+  - label: { en: "Qara Qoyunlu", ar: "قره قويونلو" }
+    participants: [polity/qara-qoyunlu]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12849776
 provenance:

@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan], note: "نزل بزقاق القناديل بمصر {cite:tarikh-islam-dhahabi p. 106}" }
   - { type: had_participant, target: person/al-nasai, role: "المحدّث المقيم", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan]
 provenance:
   layer: own-research

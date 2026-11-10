@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1150", precision: year, status: tradition, derived: true }
   end: { edtf: "1150", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [30.11, 28.11]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1150"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة دالاس ⁦(١١٥٠)⁩", en: "Battle of Dalas (1150)" }, at: [30.11, 28.11], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/minya-governorate }
+- { type: during_reign, target: person/al-zafir-fatimid }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16531481

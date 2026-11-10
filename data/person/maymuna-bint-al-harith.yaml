@@ -9,6 +9,7 @@ class: person
 label:
   ar: ميمونة بنت الحارث
   en: Maymuna bint al-Harith
+  ur: "ميمونة بنت الحارث"
 names:
 - kind: full
   lang: ar
@@ -22,6 +23,7 @@ summary:
   ar: أم المؤمنين، أخت أم الفضل لبابة؛ كان اسمها برة فسماها النبي ميمونة، وتزوجها في عمرة القضاء سنة 7هـ، وقال ابن سعد إنها آخر امرأة تزوجها ممن دخل بها؛ واختُلف هل كان النبي محرماً حين العقد.
   en: A Mother of the Believers and sister of Umm al-Fadl Lubaba; she was named Barra and the Prophet called her Maymuna; he married her at the 'umrat al-qada' in 7 AH, and Ibn Sa'd says she was the last wife he took whom he consummated with;
     whether he was in ihram at the contract is disputed.
+  ur: "ام المؤمنین اور ام الفضل لبابہ کی بہن؛ نام برہ تھا اور نبی نے میمونہ کہا؛ عمرۃ القضاء میں ان سے شادی کی۔"
 wings: [people]
 themes:
 - women
@@ -40,6 +42,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "594~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0671", hijri: "0051", calendar: julian, precision: year, status: debated, derived: true, note: "Ya'qub ibn Sufyan fixes 51 AH — the soundest; other reports give 63 or 66, both unproven (al-Isaba p. 1965); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -130,6 +134,7 @@ sources:
 - source/ibn-hajar-isaba
 - source/mubarakpuri-raheeq
 - source/nisa-hawl-alrasul
+importance: 2
 status:
   review: published
   completeness: 3

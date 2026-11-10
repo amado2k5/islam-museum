@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/al-qarada }
   - { type: had_participant, target: person/zayd-ibn-haritha, role: "قائد السرية", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/safwan-ibn-umayya, role: "قائد قافلة قريش الهارب عند مباغتة المسلمين", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
-  - { type: had_participant, target: person/furat-ibn-hayyan, role: "دليل القافلة الأسير الذي أسلم بالمدينة", sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/furat-ibn-hayyan, role: "دليل القافلة الأسير الذي أسلم بالمدينة", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/salit-ibn-al-numan, role: "ناقل خبر خطة سير القافلة إلى النبي", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }

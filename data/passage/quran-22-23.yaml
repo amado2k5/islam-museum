@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! Allah will cause those who believe and do good works to enter Gardens underneath which rivers flow, wherein they will be allowed armlets of gold, and pearls, and their raiment therein will be silk.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو لوگ ایمان لائے اور عمل نیک کرتے رہے خدا ان کو بہشتوں میں داخل کرے گا جن کے تلے نہریں بہہ رہیں ہیں۔ وہاں ان کو سونے کے کنگن پہنائے جائیں گے اور موتی۔ اور وہاں ان کا لباس ریشمی ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/gold-silver, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

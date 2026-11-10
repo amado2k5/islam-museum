@@ -44,5 +44,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch48-fixup
+born: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: عالم من زبيد في اليمن", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

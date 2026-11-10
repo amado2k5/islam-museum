@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/baghdad, note: "دار القطن محلة ببغداد", sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-daraqutni, role: "المولود", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi, source/shadharat-dhahab]
 provenance:
   layer: own-research

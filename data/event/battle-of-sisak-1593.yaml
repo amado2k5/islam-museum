@@ -11,7 +11,26 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1593", precision: year, status: tradition, derived: true }
   end: { edtf: "1593", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: battle
+  precision: locality
+  center: [16.37611111111111, 45.48722222222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1593"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سيساك", en: "Battle of Sisak" }, at: [16.37611111111111, 45.48722222222222], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: part_of, target: event/ottoman-habsburg-long-war }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: occurred_at, target: place/sisak }
+sides:
+  - label: { en: "Holy Roman Empire", ar: "الإمبراطورية الرومانية المقدسة" }
+    participants: [polity/holy-roman-empire]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q701335
 provenance:

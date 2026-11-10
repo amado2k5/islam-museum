@@ -1,0 +1,21 @@
+id: passage/nasai-0666
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "666"
+label:
+  ar: "النسائي 666 — يعجب ربك من راعي غنم يؤذن ويصلي"
+  en: "Nasa'i 666 — Your Lord delights in a shepherd who calls the adhan and prays"
+  ur: "نسائی 666 — تمہارا رب اس چرواہے پر خوش ہوتا ہے جو اذان دیتا اور نماز پڑھتا ہے"
+text: "يعجب ربك من راعي غنم في رأس شظية الجبل يؤذن بالصلاة ويصلي فيقول الله عز وجل انظروا إلى عبدي هذا يؤذن ويقيم الصلاة يخاف مني قد غفرت لعبدي وأدخلته الجنة ."
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 666: يعجب ربك من راعي غنم يؤذن ويصلي. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 666: Your Lord delights in a shepherd who calls the adhan and prays. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 666: تمہارا رب اس چرواہے پر خوش ہوتا ہے جو اذان دیتا اور نماز پڑھتا ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-rai-al-ghanam]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 666; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

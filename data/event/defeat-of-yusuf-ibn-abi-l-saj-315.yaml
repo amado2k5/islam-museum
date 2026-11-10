@@ -13,10 +13,14 @@ date:
 relations:
   - { type: had_participant, target: person/yusuf-ibn-abi-al-saj, role: "قائد جيش الخليفة الأسير", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "الغازي الظافر", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-4
+sides:
+  - label: { ar: "القوات العباسية", en: "The Abbasid forces" }
+  - label: { ar: "القرامطة بقيادة أبي طاهر", en: "The Qarmatians under Abu Tahir" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

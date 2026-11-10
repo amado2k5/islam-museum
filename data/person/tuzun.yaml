@@ -13,6 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
+died: { edtf: "945", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam (al-Dhahabi)" }
 relations:
   - { type: lived_in, target: place/sind, sources: [source/wikidata], confidence: low, note: "Nisba السندي attested in the record." }
 sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]

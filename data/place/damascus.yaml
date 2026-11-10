@@ -9,8 +9,8 @@ wings: [place]
 regions: [levant-iraq]
 coordinates: [33.5102, 36.2913]
 coordinate_precision: site
-external_ids: { wikidata: "Q3766", geonames: "170654", pleiades: "678106", nomisma: "damascus" }
-sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/rihla-ibn-battuta-1958, source/nomisma]
+external_ids: { wikidata: "Q3766", geonames: "170654", pleiades: "678106", nomisma: "damascus", idai: "2280221" }
+sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/rihla-ibn-battuta-1958, source/nomisma, source/idai-gazetteer]
 education:
   did_you_know:
     ar: "كانت دمشق عاصمة الدولة الأموية ⁦(٦٦١–٧٥٠م)⁩ وفيها الجامع الأموي."
@@ -20,6 +20,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
 provenance:
   layer: own-research

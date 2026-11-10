@@ -39,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0634", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama, 12 AH — the orator of the Ansar whose armour was claimed in a dream and whose bequest Abu Bakr ratified (al-Isaba p. 180); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: died_in, target: place/al-yamama, sources: [source/ibn-hajar-isaba, source/ibn-hisham-saqqa] }
 - type: member_of
@@ -54,6 +55,19 @@ relations:
   role: خطيب المسلمين؛ أجاب عطارد بن حاجب بأمر النبي
   sources:
   - source/ibn-hisham-saqqa
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 180"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 180"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-yamama
+  note: "al-Isaba p. 180"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 914، ص 180

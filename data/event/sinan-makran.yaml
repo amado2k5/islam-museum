@@ -12,6 +12,20 @@ relations:
   - { type: had_participant, target: person/hakim-ibn-jabala, role: "الفاتح في رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/makran }
 wings: [time]
+sides:
+  - label: { ar: "جيش سنان بن سلمة بن المحبق الهذلي", en: "Sinan ibn Salama ibn al-Muhabbiq al-Hudhali's army" }
+    commanders: [person/sinan-ibn-salama, person/hakim-ibn-jabala]
+  - label: { ar: "راشد بن عمرو الجديدي", en: "Rashid ibn Amr al-Judaydi" }
+    participants: [person/rashid-ibn-amr]
+map:
+  kind: campaign
+  precision: locality
+  center: [25.509495, 64.1443776]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح مكران على يد سنان بن سلمة", en: "Sinan ibn Salama's Conquest of Makran" }, at: [25.509495, 64.1443776], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

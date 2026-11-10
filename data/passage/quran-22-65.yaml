@@ -16,6 +16,8 @@ translations:
   en: { text: "Hast thou not seen how Allah hath made all that is in the earth subservient unto you? And the ship runneth upon the sea by His command, and He holdeth back the heaven from falling on the earth unless by His leave. Lo! Allah is, for mankind, Full of Pity, Merciful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا تم نہیں دیکھتے کہ جتنی چیزیں زمین میں ہیں (سب) خدا نے تمہارے زیرفرمان کر رکھی ہیں اور کشتیاں (بھی) جو اسی کے حکم سے دریا میں چلتی ہیں۔ اور وہ آسمان کو تھامے رہتا ہے کہ زمین پر (نہ) گڑ پڑے مگر اس کے حکم سے۔ بےشک خدا لوگوں پر نہایت شفقت کرنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ships, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

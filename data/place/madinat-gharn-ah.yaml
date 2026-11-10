@@ -1,0 +1,20 @@
+id: place/madinat-gharn-ah
+class: place
+kind: city
+label: { ar: "غرﻧﺎﻃﺔ", en: "Madinat Gharnāṭah" }
+summary:
+  ar: "مدينة."
+  en: "Appellation of the Spanish city of Granada during the Muslim rule."
+wings: [place]
+coordinates: [37.188630555555555, -3.5907805555555554]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5115696" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5115696 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

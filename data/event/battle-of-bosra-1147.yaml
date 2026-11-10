@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1147", precision: year, status: tradition, derived: true }
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.48, 32.52]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1147"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بصرى ⁦(١١٤٧)⁩", en: "Battle of Bosra" }, at: [36.48, 32.52], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/busra }
+sides:
+  - label: { ar: "الصليبيون", en: "The Crusaders" }
+  - label: { ar: "جيش دمشق", en: "The Damascus army" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q4870532

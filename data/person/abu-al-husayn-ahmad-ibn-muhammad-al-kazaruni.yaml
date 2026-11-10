@@ -11,6 +11,8 @@ summary:
   en: "Abu al-Husayn Ahmad ibn Muhammad ibn Yusuf al-Kazaruni, who took the science of inheritance (al-fara'id) from Ibn al-Labban; in his time there was no one more learned in inheritance or more skilled in reckoning than him {cite:tabaqat-fuqaha-abbas-1981 p. 63}. Al-Shirazi does not mention his death."
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Dhahabi, Siyar" }
+died: { edtf: "1024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abu-al-husayn-ibn-al-labban-al-basri, role: "أخذ الفرائض عن ابن اللبان (PDF ص63)", sources: [source/tabaqat-fuqaha-abbas-1981] }

@@ -15,6 +15,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1857", precision: year, status: tradition, derived: true }
   end: { edtf: "1857", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش محمد بهادر شاه", en: "Bahadur Shah Zafar's army" }
+    commanders: [person/bahadur-shah-zafar]
+  - label: { ar: "دلهي", en: "Delhi" }
+map:
+  kind: siege
+  precision: locality
+  center: [28.6519, 77.2315]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار دلهي ⁦(١٨٥٧)⁩", en: "Siege of Delhi" }, at: [28.6519, 77.2315], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2343263

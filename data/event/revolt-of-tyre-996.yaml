@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0996", precision: year, status: tradition, derived: true }
   end: { edtf: "0998", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.2, 33.266666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0996"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة صور", en: "Revolt of Tyre" }, at: [35.2, 33.266666666667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tyre }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات القادر بالله أحمد بن إسحاق بن المقتدر", en: "The authorities of al-Qadir bi-llah Ahmad ibn Ishaq ibn al-Muqtadir" }
+    participants: [person/al-qadir-billah]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q17028780

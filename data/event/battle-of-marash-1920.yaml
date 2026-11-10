@@ -11,6 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1920", precision: year, status: tradition, derived: true }
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.945277777778, 37.5875]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1920"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرعش ⁦(١٩٢٠)⁩", en: "Battle of Marash" }, at: [36.945277777778, 37.5875], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: part_of, target: event/franco-turkish-war-1918 }
+  - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: occurred_at, target: place/marash }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4810343

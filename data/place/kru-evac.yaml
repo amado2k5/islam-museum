@@ -1,0 +1,20 @@
+id: place/kru-evac
+class: place
+kind: city
+label: { ar: "كروشيفاتس", en: "Kruševac" }
+summary:
+  ar: "مدينة في صربيا."
+  en: "City in Serbia."
+wings: [place]
+coordinates: [43.583333333333, 21.326666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q201442" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q201442 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

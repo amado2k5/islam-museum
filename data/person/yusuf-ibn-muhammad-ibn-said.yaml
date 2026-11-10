@@ -12,6 +12,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/contemporary-era]
 sources: [source/al-aalam]
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/saudi-arabia, confidence: low, note: "Contemporary-era Arabian figure (al-A'lam; regions: arabia).", sources: [source/al-aalam] }
 external_ids:

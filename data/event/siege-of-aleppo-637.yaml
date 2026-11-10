@@ -7,12 +7,27 @@ summary:
   en: "Draft card for the conquest of Aleppo in 637, the city's surrender to Abu Ubayda after its citadel in the conquest of al-Sham; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 wings: [time]
 periods: [period/rashidun]
 regions: [levant-iraq]
 date:
   start: { edtf: "0637", precision: year, status: tradition, derived: true }
   end: { edtf: "0637", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
+map:
+  kind: siege
+  precision: locality
+  center: [36.2012, 37.1612]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح حلب", en: "Conquest of Aleppo" }, at: [36.2012, 37.1612], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q2563208

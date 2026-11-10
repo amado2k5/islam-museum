@@ -11,6 +11,19 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1946-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1946-04", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [98.67388888888888, 3.589444444444444]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1946"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ميدان ⁦(١٩٤٦)⁩", en: "Battle of Medan" }, at: [98.67388888888888, 3.589444444444444], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/medan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16208784

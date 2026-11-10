@@ -18,6 +18,20 @@ relations:
   - { type: occurred_at, target: place/barqa, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-abbas-ibn-ahmad-ibn-tulun, role: "الولي العاصي", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الوالد العائد القاهر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المعتمد على الله", en: "The authorities of al-Mu'tamid ala Allah" }
+    participants: [person/al-mutamid]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.4, 21.2]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "عصيان العباس بن أحمد بن طولون وفراره إلى برقة، ٢٦٥هـ/٨٧٩م", en: "Al-Abbas ibn Ahmad ibn Tulun's revolt and flight to Barqa, 265/879" }, at: [32.4, 21.2], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

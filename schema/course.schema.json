@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "course.schema.json",
+  "title": "Museum entity: course",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "course"
+    },
+    "kind": {
+      "enum": [
+        "jurisdiction",
+        "grade",
+        "subject",
+        "unit",
+        "lesson"
+      ]
+    },
+    "part_of": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$"
+    },
+    "region": {
+      "type": "string"
+    },
+    "board": {
+      "type": "string"
+    },
+    "language_of_instruction": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "grade_number": {
+      "type": "integer"
+    },
+    "subject_name": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "curriculum_ref": {
+      "type": "string"
+    },
+    "expectations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "text"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "text": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          }
+        }
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "title",
+          "text"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "position": {
+            "enum": [
+              "before",
+              "within",
+              "after"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "reflection",
+              "story",
+              "scholar",
+              "invention",
+              "career",
+              "quran",
+              "hadith",
+              "place",
+              "object"
+            ]
+          },
+          "entity": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "ref": {
+            "type": "string"
+          },
+          "title": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "text": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

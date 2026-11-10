@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+born: { edtf: "1610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zebrowski (Deccani Painting)" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Painter at the Bijapur court of Ibrahim Adil Shah II per the record's own summary.", sources: [source/zebrowski-deccani-painting-1983] }
   - { type: patronized_by, target: person/ibrahim-adil-shah-ii, sources: [source/zebrowski-deccani-painting-1983] }

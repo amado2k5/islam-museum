@@ -1,6 +1,6 @@
 id: person/huwaytib-ibn-abd-al-uzza
 class: person
-label: { en: "Huwaytib ibn Abd al-Uzza", ar: "حويطب بن عبد العزى" }
+label: { en: "Huwaytib ibn Abd al-Uzza", ar: "حويطب بن عبد العزى", ur: "حويطب بن عبد العزى" }
 names:
   - { kind: full, lang: ar, value: "حويطب بن عبد العزى بن أبي قيس العامري القرشي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A Meccan nobleman of Banu Amir ibn Lu'ayy who witnessed the Treaty of al-Hudaybiyya on Quraysh's side; he embraced Islam at the conquest of Mecca, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, and lived to a very advanced age."
   ar: "شريف قرشي من بني عامر بن لؤي شهد صلح الحديبية مع قريش؛ أسلم عام فتح مكة وأعطاه النبي مئة من الإبل بالجعرانة في المؤلفة قلوبهم، وعُمّر حتى تجاوز مائة سنة."
+  ur: "بنو عامر بن لوی کا مکی سردار جو حدیبیہ معاہدے میں قریش کی طرف موجود تھا؛ فتح مکہ پر مسلمان ہوا۔"
 wings: [people]
 themes: [converts-and-leavers, the-elderly]
 periods: [period/prophetic-era, period/rashidun, period/umayyad]
@@ -17,11 +18,15 @@ story_roles:
   - { role: convert, status: tradition, note: "أسلم عام الفتح وأعطاه النبي مائة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
+born: { edtf: "564~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "0674", hijri: "0054", calendar: julian, precision: year, status: tradition, derived: true, note: "Al-Waqidi reports 54 AH (al-Isaba p. 356); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/hudaybiyya, confidence: low, note: "Associated with Hudaybiyya per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "Became Muslim at the conquest of Mecca (al-Isaba p. 356)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-hunayn, note: "al-Isaba p. 356", sources: [source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 136", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

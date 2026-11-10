@@ -11,6 +11,8 @@ roles: [writer]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
+born: { edtf: "1321", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ihata (Ibn al-Khatib)" }
+died: { edtf: "1357", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ihata (Ibn al-Khatib)" }
 relations:
   - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 external_ids: { wikidata: "Q3773066" }

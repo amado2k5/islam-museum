@@ -11,6 +11,23 @@ regions: [arabia]
 date:
   start: { edtf: "1633", precision: year, status: tradition, derived: true }
   end: { edtf: "1633", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [55.95, 25.783333333333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1633"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ جلفار ⁦(١٦٣٣)⁩", en: "Capture of Julfar (1633)" }, at: [55.95, 25.783333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ras-al-khaimah }
+sides:
+  - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
+    participants: [person/murad-iv-uthmani]
+  - label: { ar: "حامية جلفار", en: "The defenders of Julfar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q121296921

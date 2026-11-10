@@ -28,6 +28,15 @@ sides:
   - label: { en: "Sallam ibn Abi al-Huqayq and guards", ar: "سلام بن أبي الحقيق وحرسه" }
     participants: [person/sallam-ibn-abi-al-huqayq]
     commanders: [person/sallam-ibn-abi-al-huqayq]
+map:
+  kind: campaign
+  precision: locality
+  center: [25.7, 39.29]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مقتل أبي رافع سلام بن أبي الحقيق", en: "The Mission of Abu Rafi' (Sallam ibn Abi al-Huqayq)" }, at: [25.7, 39.29], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 319–321" }
 provenance:

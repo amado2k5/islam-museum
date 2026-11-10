@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1897", precision: year, status: tradition, derived: true }
   end: { edtf: "1897", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [23.0, 38.5]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1897"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية اليونانية ⁦(١٨٩٧)⁩", en: "Greco-Turkish War of 1897" }, at: [23.0, 38.5], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/greece }
+sides:
+  - label: { en: "Kingdom of Greece", ar: "مملكة اليونان" }
+    participants: [polity/kingdom-of-greece]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q657055
 provenance:

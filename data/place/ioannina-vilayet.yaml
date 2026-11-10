@@ -1,0 +1,20 @@
+id: place/ioannina-vilayet
+class: place
+kind: province
+label: { ar: "ولاية يانينة", en: "Ioannina vilayet" }
+summary:
+  ar: "مقاطعة."
+  en: "Ottoman province."
+wings: [place]
+coordinates: [39.666666666667, 20.85]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3558382" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3558382 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

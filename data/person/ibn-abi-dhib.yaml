@@ -6,6 +6,8 @@ summary:
   en: "Muhammad ibn 'Abd al-Rahman Abu'l-Harith, dead at Kufa in 159 {cite:muruj-al-dhahab p. 313}."
 gender: male
 wings: [people]
+born: { edtf: "699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with Kufa per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:

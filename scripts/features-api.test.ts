@@ -19,15 +19,20 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
   const poem = makeNode("work/poem-x", "work", { kind: "poem", authors: ["person/poet"], metre: "tawil" });
   const film = makeNode("screen/film-x", "screen", { format: "film", relevance: "primary", released: { edtf: "1976" }, countries: ["lb"] });
   const book = makeNode("work/book-x", "work", { kind: "book" });
+  const qudsi = { ...makeNode("passage/muslim-2577", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "2577", text: "يا عبادي" }), tags: ["hadith-qudsi", "qudsi-zulm"], themes: ["ethics-and-character"] };
+  const plainHadith = makeNode("passage/muslim-0001", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "1" });
   const compiled: Compiled = {
     generated: "2026-11-06T00:00:00Z", commit: null, coverage,
-    nodes: [job, holder, fatwa, sermon, poem, film, book],
+    nodes: [job, holder, fatwa, sermon, poem, film, book, qudsi, plainHadith],
     edges: [{ from: "work/fatwa-x", to: "person/mufti", type: "issued_by", inverse: true }],
   };
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["fatwa.json", "jobs.json", "khutab.json", "poetry.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["asma.json", "battles.json", "companions.json", "fatwa.json", "ghayb.json", "jobs.json", "khulafa.json", "khutab.json", "nature.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
+    expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
+    expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
     expect(data["jobs.json"].items[0]).toMatchObject({ id: "job/scribe", domain: "court-administration", hirfa: false, holders: ["person/katib"], prose: ["ar"] });
     expect(data["fatwa.json"].items[0]).toMatchObject({ id: "work/fatwa-x", publisher: "group/dar-al-ifta", connections: [{ type: "issued_by", to: "person/mufti", inverse: true }] });
     expect(data["khutab.json"].items[0]).toMatchObject({ id: "work/khutba-x", delivered: { by: "person/khatib" }, order: 2 });

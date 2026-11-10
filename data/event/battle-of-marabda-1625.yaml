@@ -11,7 +11,14 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1625", precision: year, status: tradition, derived: true }
   end: { edtf: "1625", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Kingdom of Kartli", ar: "مملكة كارتلي" }
+    participants: [polity/kingdom-of-kartli]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4871672
 provenance:

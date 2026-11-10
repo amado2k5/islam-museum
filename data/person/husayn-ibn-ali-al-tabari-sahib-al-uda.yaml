@@ -12,6 +12,7 @@ traditions: [sunni-shafii]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [arabia]
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kahhala (Mu'jam)" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:

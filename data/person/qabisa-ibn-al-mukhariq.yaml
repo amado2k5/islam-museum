@@ -4,9 +4,11 @@ gender: male
 label:
   ar: "قبيصة بن المخارق"
   en: "Qabisa ibn al-Mukhariq"
+  ur: "قبيصة بن المخارق"
 summary:
   ar: "قبيصة بن المخارق بن عبد الله بن شداد بن معاوية، أبو بشر الهلالي البصري. وفد على النبي. قال البخاري وابن أبي حاتم وابن حبان: له صحبة. روى عنه ولده قطن وكنانة بن نعيم وأبو عثمان النهدي وغيرهم. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15416}"
   en: "Qabisa ibn al-Mukhariq ibn Abd Allah ibn Shaddad ibn Mu'awiya, Abu Bishr al-Hilali of Basra. He came to the Prophet as a delegate. Al-Bukhari, Ibn Abi Hatim and Ibn Hibban say that he had companionship. His son Qatn, Kinana ibn Na'im and Abu Uthman al-Nahdi transmitted from him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15416}"
+  ur: "قبیصہ بن مخارق بن عبد اللہ بن شداد بن معاویہ، ابو بشر الہلالی البصری؛ وفد کے طور پر نبی کے پاس آیا؛ اور بخاری نے ان سے روایت کیا۔"
 roles: [companion]
 traditions: [sunni]
 wings: [people]
@@ -18,6 +20,8 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w09-60
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
 

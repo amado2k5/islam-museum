@@ -12,6 +12,8 @@ wings: [people]
 themes: [development-of-law-theology-institutions]
 regions: [egypt-nile]
 periods: [period/modern-era]
+born: { edtf: "1893", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / EI2" }
+died: { edtf: "1963", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / EI2" }
 relations:
   - { type: lived_in, target: place/al-buhayra, confidence: low, note: "Associated with البحيرة per the record's own summary text; relation type pending review.", sources: [source/al-islam-aqida-wa-shariah-azhar] }
 sources: [source/al-islam-aqida-wa-shariah-azhar]

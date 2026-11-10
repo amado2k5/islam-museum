@@ -7,7 +7,7 @@ names:
   - { kind: kunya, lang: ar, value: أم سلمة }
 gender: female
 born: { edtf: "059X", calendar: julian, precision: decade, status: tradition, note: "Year not recorded precisely.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0680~", calendar: julian, precision: year, status: tradition, note: "Reports differ between about 59 and 62 AH; she lived to be the last surviving wife of the Prophet in some accounts.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0682~", hijri: "0063~", calendar: julian, precision: year, status: debated, derived: true, note: "Al-Waqidi gives 63 AH; Ibn Hajar weighs reports placing her death before Sa'd ibn Zayd (50-52) but prefers the later reading — she outlived the Harra, 63 (al-Isaba pp. 2004-2006); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [companion, scholar]
 traditions: [sunni]
 summary:
@@ -42,6 +42,7 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
   - { type: member_of, target: group/muhajirun, sources: [source/ibn-hisham-saqqa]}
 external_ids: { wikidata: "Q42104" }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-omar-abdelkafy, source/assabile-mustafa-hosny, source/assabile-tareq-al-suwaidan]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-omar-abdelkafy, source/assabile-mustafa-hosny, source/assabile-tareq-al-suwaidan, source/ibn-hajar-isaba]
 provenance: { layer: own-research, source: "Ibn Hisham juz' 4 pp. 10-11 (ibn-hisham batch 5c); Assabile, wa-nafsun-ma-sawaha ep06 (section added by Claude Code, claude-opus-5-5, run omar-abdelkafy-wa-nafsun-1)", generated_by: "Devin; Claude Sonnet 5.5; Claude Code (claude-opus-5-5)" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}, run: "explorer-fourth-40-stories-2026-11-04", model: "unknown"}
+importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; merged with the duplicate person/umm-salama-bint-abi-umayya (ibn-hisham batch 5c, Ibn Hisham juz' 4 pp. 10-11) by Claude Sonnet 5.5" }

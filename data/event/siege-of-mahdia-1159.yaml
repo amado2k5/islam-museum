@@ -11,6 +11,25 @@ regions: [maghreb]
 date:
   start: { edtf: "1159", precision: year, status: tradition, derived: true }
   end: { edtf: "1160", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [11.0622, 35.5047]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1159"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار المهدية ⁦(١١٥٩–١١٦٠)⁩", en: "Siege of Mahdia (1159–1160)" }, at: [11.0622, 35.5047], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-faiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/al-mahdiyya }
+sides:
+  - label: { ar: "قوات الفائز بنصر الله عيسى بن الظافر", en: "The forces of al-Fa'iz bi-Nasr Allah Isa ibn al-Zafir" }
+    participants: [person/al-faiz-fatimid]
+  - label: { ar: "حامية المهدية", en: "The defenders of Mahdia" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q109285073

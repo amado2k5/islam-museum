@@ -14,12 +14,22 @@ sides:
 relations:
   - { type: occurred_at, target: place/sayda, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch2
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5606, 35.3758]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خروج الفرنج إلى الشام وعمارة صيدا", en: "Frankish expedition to Syria; Sidon refortified" }, at: [33.5606, 35.3758], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

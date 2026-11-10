@@ -18,10 +18,20 @@ relations:
   - { type: had_participant, target: person/jada-ibn-hubayra, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/khulayd-ibn-qurra, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch05
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2133, 58.7957]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "بعث جعدة بن هبيرة إلى خراسان وامتناع نيسابور", en: "Jaʿda ibn Hubayra's Khurāsān mission and Naysābūr's defiance (37 AH)" }, at: [36.2133, 58.7957], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

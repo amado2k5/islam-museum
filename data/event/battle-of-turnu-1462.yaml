@@ -11,7 +11,14 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1462", precision: year, status: tradition, derived: true }
   end: { edtf: "1462", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Principality of Wallachia", ar: "الأفلاق" }
+    participants: [polity/principality-of-wallachia]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138545197
 provenance:

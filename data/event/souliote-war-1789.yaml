@@ -11,7 +11,14 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1789", precision: year, status: tradition, derived: true }
   end: { edtf: "1793", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Pashalik of Yanina", ar: "بشلك يانينة" }
+  - label: { en: "Souliotes", ar: "السوليون" }
+    participants: [group/souliotes]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q55633531
 provenance:

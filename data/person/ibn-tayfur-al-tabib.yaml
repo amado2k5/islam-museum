@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "862~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with الري per the record's own text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

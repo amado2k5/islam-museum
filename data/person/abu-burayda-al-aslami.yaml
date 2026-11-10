@@ -1,6 +1,6 @@
 id: person/abu-burayda-al-aslami
 class: person
-label: { en: "Abu Burayda al-Aslami", ar: "أبو بريدة الأسلمي" }
+label: { en: "Abu Burayda al-Aslami", ar: "أبو بريدة الأسلمي", ur: "أبو بريدة الأسلمي" }
 names:
   - { kind: full, lang: ar, value: "أبو بريدة الأسلمي، رئيس قومه" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A tribal chief who rode out hunting the Quraysh bounty on the Prophet's head, but on meeting him embraced Islam on the spot with seventy of his people, and raised his turban on his spear as a banner of safe-conduct."
   ar: "رئيس قومه خرج في طلب النبي رجاء مكافأة قريش؛ فلما لقيه وكلّمه أسلم مكانه مع سبعين رجلاً من قومه، ثم نزع عمامته وعقدها برمحه راية تعلن بأن ملك الأمن والسلام قد جاء."
+  ur: "قبائلی سردار جو نبی کے سر پر قریش کے انعام کے شکار نکلا، مگر ان سے ملاقات پر ستر افراد کے ساتھ اسی وقت مسلمان ہوا۔"
 wings: [people]
 themes: [refugees-migrants-diaspora, converts-and-leavers]
 periods: [period/prophetic-era]
@@ -18,6 +19,7 @@ story_roles:
   - { role: convert, start: { edtf: "0622" }, status: tradition, note: "أسلم عند اللقاء مع سبعين من قومه.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622" }, note: "أسلم في طريق الهجرة؛ يسجَّل في الإطار السني للمتحف." }
+died: { edtf: "682~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar, al-Isaba; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/early-muslims }

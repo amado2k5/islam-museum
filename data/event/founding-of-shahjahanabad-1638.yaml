@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/asher-mughal-india-1992] }
   - { type: had_participant, target: person/shah-jahan-mughal, role: "المؤسس", sources: [source/asher-mughal-india-1992] }
+  - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/asher-mughal-india-1992]
 provenance:
   layer: own-research

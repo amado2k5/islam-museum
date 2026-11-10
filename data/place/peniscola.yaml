@@ -1,0 +1,20 @@
+id: place/peniscola
+class: place
+kind: province
+label: { ar: "بنشكلة", en: "Peníscola" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain."
+wings: [place]
+coordinates: [40.358472222222225, 0.4068333333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q845424" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q845424 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

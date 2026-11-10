@@ -11,6 +11,18 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1539", precision: year, status: tradition, derived: true }
   end: { edtf: "1600", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [96.0, 21.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1539"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراعات البرتغالية البرمية", en: "Burmese–Portuguese conflicts" }, at: [96.0, 21.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/myanmar }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131986088

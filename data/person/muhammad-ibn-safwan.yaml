@@ -3,6 +3,7 @@ class: person
 label:
   ar: محمد بن صفوان الأنصاري
   en: Muhammad ibn Safwan al-Ansari
+  ur: "محمد بن صفوان الأنصاري"
 names:
 - kind: full
   lang: ar
@@ -18,12 +19,15 @@ summary:
     Muhammad ibn Safwan to be correct, and Ibn Abd al-Barr says Safwan ibn Muhammad is the more common form. Ibn Abi Khaythama
     did not know which Ansari clan he belonged to; al-Askari says he was of Banu Malik of the Aws. {cite:fiqh-mawsua-kuwaitiyya-noor-v3
     p.3137}
+  ur: "محمد بن صفوان، ابو مرحب الانصاری، صحابی؛ بعض صفوان بن محمد کہتے ہیں؛ طبری محمد بن صفوان کو درست مانتا ہے۔"
 wings:
 - people
 regions:
 - arabia
 periods:
 - period/prophetic-era
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
 - type: member_of
   target: group/sahaba

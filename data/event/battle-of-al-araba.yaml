@@ -14,10 +14,15 @@ relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: had_participant, target: person/abu-umama-al-bahili, role: "أمير السرية التي هزمت قواد الروم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "وجّهه إلى الجمع بأمره العام", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 151–152"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
+sides:
+  - label: { ar: "المسلمون بقيادة أبي أمامة السدي", en: "The Muslims under Abu Umama al-Sudayy" }
+  - label: { ar: "الروم", en: "The Byzantines" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

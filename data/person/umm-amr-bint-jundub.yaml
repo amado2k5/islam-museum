@@ -3,15 +3,18 @@ class: person
 label:
   ar: "أم عمرو بنت جندب"
   en: "Umm Amr bint Jundub"
+  ur: "أم عمرو بنت جندب"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأم عمرو بنت جندب، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Umm Amr bint Jundub, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابية أنصارية لها رواية في السنن."
+  en: "An Ansari woman Companion with narrations in the Sunan works."
+  ur: "انصاری صحابیہ جس کی روایات سنن کی کتابوں میں ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~665, Nasab Quraysh (al-Zubayri)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion-era figure of the Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

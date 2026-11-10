@@ -17,6 +17,7 @@ story_roles:
   - { role: opponent, toward: person/muhammad, start: { edtf: "0627" }, end: { edtf: "0627" }, status: historical, note: "نقض عهده مع المسلمين وظاهر الأحزاب (الرحيق ص308–310، 315–317).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: jewish, basis: documented, note: "سيد يهود بني قريظة بيثرب." }
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sirat Ibn Hisham" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/banu-qurayza }

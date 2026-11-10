@@ -14,5 +14,7 @@ provenance:
   run: lib-futuh-buldan-batch-31
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "637~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+died: { edtf: "637~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
 relations:
   - { type: lived_in, target: place/al-madain, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

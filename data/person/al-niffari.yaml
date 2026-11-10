@@ -18,6 +18,7 @@ regions: [levant-iraq]
 sensitivity: contested
 story_roles:
   - { role: saint, status: historical, note: "يسميه مصطفى محمود «الصوفي» و«الإمام العارف» (رأيت الله ص 13، 20)", sources: [source/mm-raaytu-allah-maarif-1976] }
+died: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/mm-raaytu-allah-maarif-1976], confidence: low }
   - { type: authored, target: work/al-mawaqif-wal-mukhatabat, sources: [source/mm-raaytu-allah-maarif-1976] }

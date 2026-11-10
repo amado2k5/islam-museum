@@ -3,6 +3,7 @@ class: person
 label:
   ar: السكران بن عمرو
   en: Al-Sakran ibn Amr
+  ur: "السكران بن عمرو"
 names:
 - kind: full
   lang: ar
@@ -15,6 +16,7 @@ traditions:
 summary:
   ar: قرشي عامري، أخو سهيل بن عمرو؛ ذكره موسى بن عقبة وابن إسحاق في مهاجرة الحبشة، وتزوج النبي زوجته سودة بنت زمعة بعد موته؛ واختُلف هل مات بمكة مسلماً أم تنصّر بالحبشة.
   en: A Qurashi of Amir ibn Luayy and brother of Suhayl ibn Amr; Musa ibn Uqba and Ibn Ishaq list him among the emigrants to Abyssinia, and the Prophet married his widow Sawda bint Zam'a. Where and in what faith he died is disputed.
+  ur: "عامر بن لوی کے قریشی اور سہیل بن عمرو کے بھائی؛ موسی بن عقبہ اور ابن اسحاق انہیں حبشہ ہجرت کرنے والوں میں گناتے ہیں اور نبی نے ان سے شادی کی۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -32,6 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0620~", calendar: julian, precision: year, status: tradition, derived: true, note: "Returned from Abyssinia to Mecca and died there before the Prophet married his widow Sawda bint Zam'a; Abu Ubayda has him apostatize in Abyssinia and al-Baladhuri prefers the first (al-Isaba p. 591)", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/mecca
@@ -50,6 +53,15 @@ relations:
   target: event/first-migration-to-abyssinia
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Amir ibn Lu'ayy, brother of Suhayl ibn Amr (al-Isaba p. 591)"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/muhajirun
+  note: "emigrated to Abyssinia (Musa ibn Uqba and Ibn Ishaq, al-Isaba p. 591)"
+  sources: [source/ibn-hajar-isaba]
+
 issue:
   ar: أين مات السكران بن عمرو وعلى أي دين؟
   en: Where, and in what faith, did al-Sakran ibn Amr die?

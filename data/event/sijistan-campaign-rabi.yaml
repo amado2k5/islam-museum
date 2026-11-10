@@ -12,6 +12,19 @@ relations:
   - { type: had_participant, target: person/al-hasan-al-basri, role: "الكاتب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sijistan }
 wings: [time]
+sides:
+  - label: { ar: "جيش الربيع بن زياد الحارثي", en: "al-Rabi' ibn Ziyad al-Harithi's army" }
+    commanders: [person/al-rabi-ibn-ziyad-al-harithi, person/aparwiz]
+  - label: { ar: "سجستان", en: "Sijistan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31, 61.5]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة الربيع بن زياد إلى سجستان", en: "al-Rabi' ibn Ziyad's Sijistan Campaign" }, at: [31, 61.5], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

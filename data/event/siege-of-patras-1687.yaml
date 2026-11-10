@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1687", precision: year, status: tradition, derived: true }
   end: { edtf: "1687", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.7349, 38.2464]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1687"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار باتراس ⁦(١٦٨٧)⁩", en: "Siege of Patras (1687)" }, at: [21.7349, 38.2464], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/patras }
+sides:
+  - label: { ar: "قوات محمد الرابع", en: "The forces of محمد الرابع" }
+    participants: [person/mehmed-iv-uthmani]
+  - label: { ar: "حامية باتراس", en: "The defenders of Patras" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q12883582

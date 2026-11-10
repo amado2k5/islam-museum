@@ -5,6 +5,8 @@ summary: { ar: "عم عبد المطلب الذي وثب على أركاحه ب�
 wings: [people]
 story_roles: [{ role: rival-claimant }]
 themes: [family-marriage-kinship]
+born: { edtf: "500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sira al-Nabawiyya)" }
+died: { edtf: "550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sira al-Nabawiyya)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: child_of, target: person/abd-manaf-ibn-qusayy }

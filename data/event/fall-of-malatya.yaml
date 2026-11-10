@@ -13,10 +13,26 @@ date:
 relations:
   - { type: occurred_at, target: place/malatya }
   - { type: had_participant, target: person/constantine-v, role: "قائد الحملة الهادِمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 262–263"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
+sides:
+  - label: { ar: "قوات مروان بن محمد بن مروان", en: "The forces of Marwan ibn Muhammad ibn Marwan" }
+    participants: [person/marwan-ibn-muhammad]
+  - label: { ar: "حامية ملطية", en: "The defenders of Malatya (Melitene)" }
+    participants: [place/malatya]
+map:
+  kind: siege
+  precision: locality
+  center: [38.35062, 38.3094]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط ملطية وهدمها سنة 133", en: "The Fall and Demolition of Malatya, 133" }, at: [38.35062, 38.3094], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

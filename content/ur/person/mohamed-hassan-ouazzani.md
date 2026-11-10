@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 محمد بن الحسن الوزانی (1910–1978) مغربی صحافی اور سیاست دان تھے، جو 17 جنوری 1910ء کو فاس میں شرفائے وزانی کے خاندان میں پیدا ہوئے۔ انھوں نے فاس کے ایک مکتب میں قرآن حفظ کیا اور عربی سیکھی، پھر جدید تعلیم حاصل کی، اور 1927ء میں پیرس جا کر سیاسیات، مشرقی زبانوں اور صحافت کی تعلیم حاصل کی۔{cite:wikipedia-mohamed-hassan-ouazzani-ar}{cite:wikipedia-mohamed-hassan-ouazzani-fr}{cite:wikidata-mohamed-hassan-ouazzani}
 

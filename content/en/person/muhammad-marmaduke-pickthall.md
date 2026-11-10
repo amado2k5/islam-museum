@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muhammad Marmaduke Pickthall (7 April 1875 – 19 May 1936), born Marmaduke William Pickthall in London, was a novelist esteemed by D. H. Lawrence, H. G. Wells and E. M. Forster, and a scholar of the Middle East who had travelled widely in Ottoman lands and defended the Ottoman cause in print.{cite:wikipedia-muhammad-marmaduke-pickthall-en}
 

@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1517", precision: year, status: tradition, derived: true }
   end: { edtf: "1517", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [44.58527778, 40.02]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1517"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة دابيل ⁦(١٥١٧)⁩", en: "Battle of Dabil (1517)" }, at: [44.58527778, 40.02], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/dvin }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131105805

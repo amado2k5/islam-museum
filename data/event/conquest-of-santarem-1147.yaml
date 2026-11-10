@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1147", precision: year, status: tradition, derived: true }
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-8.686944444444444, 39.23916666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1147"
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة شنترين", en: "Conquest of Santarém" }, at: [-8.686944444444444, 39.23916666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/santarem }
+sides:
+  - label: { ar: "قوات عبد المؤمن بن علي القمي", en: "The forces of Abd al-Mu'min ibn Ali al-Qumi" }
+    participants: [person/abd-al-mumin-ibn-ali]
+  - label: { ar: "حامية غزوة شنترين", en: "The defenders of Santarém" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5162445

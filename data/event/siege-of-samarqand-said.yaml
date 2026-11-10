@@ -12,6 +12,19 @@ relations:
   - { type: had_participant, target: person/khatun-of-bukhara, role: "المعينة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/samarqand }
 wings: [time]
+sides:
+  - label: { ar: "جيش سعيد بن عثمان بن عفان", en: "Sa'id ibn Uthman ibn Affan's army" }
+    commanders: [person/said-ibn-uthman]
+  - label: { ar: "سمرقند", en: "Samarqand" }
+map:
+  kind: siege
+  precision: locality
+  center: [39.6546, 66.9644]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سمرقند في أيام سعيد بن عثمان", en: "Sa'id ibn Uthman's Siege of Samarqand" }, at: [39.6546, 66.9644], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

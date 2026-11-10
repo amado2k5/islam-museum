@@ -11,6 +11,22 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1480-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1480-08", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [38.791666666667, 37.158333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1480"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الرها ⁦(١٤٨٠)⁩", en: "Battle of Urfa (1480)" }, at: [38.791666666667, 37.158333333333], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/anl-urfa }
+sides:
+  - label: { ar: "الدولة الآق قويونلو بقيادة أوزون حسن", en: "The Aq Qoyunlu under Uzun Hasan" }
+  - label: { ar: "المماليك", en: "The Mamluks" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q55702594

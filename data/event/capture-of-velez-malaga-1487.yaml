@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1487", precision: year, status: tradition, derived: true }
   end: { edtf: "1487", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-4.1025, 36.781]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1487"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح ملقا", en: "Capture of Velez-Malaga (1487)" }, at: [-4.1025, 36.781], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/velez-malaga }
+sides:
+  - label: { ar: "قوات المتوكل على الله الثاني عبد العزيز بن يعقوب", en: "The forces of al-Mutawakkil ala Allah II, Abd al-Aziz ibn Ya'qub" }
+    participants: [person/al-mutawakkil-ala-llah-ii]
+  - label: { ar: "حامية ملقا", en: "The defenders of Velez-Malaga" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q85878593

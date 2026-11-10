@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1707", precision: year, status: tradition, derived: true }
   end: { edtf: "1707", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [56.0975, 53.741666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1707"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة يوركطاو", en: "Battle of Yuraktau" }, at: [56.0975, 53.741666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/yuraktau }
+sides:
+  - label: { en: "Bashkir people", ar: "باشكير" }
+  - label: { en: "Tsardom of Russia", ar: "روسيا القيصرية" }
+    participants: [polity/tsardom-of-russia]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q121548549
 provenance:

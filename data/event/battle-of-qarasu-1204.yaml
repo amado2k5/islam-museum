@@ -11,6 +11,21 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1204", precision: year, status: tradition, derived: true }
   end: { edtf: "1204", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الدولة الخوارزمية", en: "The Khwarizmian state" }
+  - label: { ar: "قرا خيتاي", en: "The Qara Khitai" }
+map:
+  kind: battle
+  precision: locality
+  center: [59.1530707, 42.3261336]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1204"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة قارا سو ⁦(١٢٠٤)⁩", en: "Battle of Qarasu (1204)" }, at: [59.1530707, 42.3261336], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/k-ne-rgen }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q140306624

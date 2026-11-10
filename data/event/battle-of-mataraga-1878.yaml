@@ -11,7 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1878", precision: year, status: tradition, derived: true }
   end: { edtf: "1878", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Georgios Laios", ar: "جورجيوس لايوس" }
+  - label: { en: "Modern Ottoman Army", ar: "الجيش العثماني" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q114352863
 provenance:

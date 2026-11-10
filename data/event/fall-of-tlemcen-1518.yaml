@@ -7,12 +7,25 @@ summary:
   en: "Draft card for the Fall of Tlemcen in 1518, Aruj Barbarossa's capture of the Zayyanid capital and his death that year; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/tlemcen, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [maghreb]
 date:
   start: { edtf: "1518", precision: year, status: tradition, derived: true }
   end: { edtf: "1518", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات العثمانية بقيادة عروج", en: "The Ottoman forces under Oruç" }
+  - label: { ar: "الدولة الزيانية", en: "The Zayyanid state" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8783, -1.315]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط تلمسان ⁦(١٥١٨)⁩", en: "Fall of Tlemcen" }, at: [34.8783, -1.315], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q4090268

@@ -11,6 +11,19 @@ regions: [arabia]
 date:
   start: { edtf: "1929", precision: year, status: tradition, derived: true }
   end: { edtf: "1929", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [45.5, 23.0]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1929"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سبلة", en: "Battle of Sabilla" }, at: [45.5, 23.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/muhammadu-mai-turare, sources: [source/wikidata] }
+- { type: occurred_at, target: place/riyadh-province }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3636603

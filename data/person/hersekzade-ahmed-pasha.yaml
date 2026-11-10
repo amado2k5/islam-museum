@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1459", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1517", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/herceg-novi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/marash, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

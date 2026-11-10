@@ -11,6 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1585-09-23", precision: year, status: tradition, derived: true }
   end: { edtf: "1585-09-25", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [46.2919, 38.08]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1585"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ تبريز ⁦(١٥٨٥)⁩", en: "Capture of Tabriz" }, at: [46.2919, 38.08], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tabriz }
+sides:
+  - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
+    participants: [person/murad-iii-uthmani]
+  - label: { ar: "حامية تبريز", en: "The defenders of Tabriz" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q119167853

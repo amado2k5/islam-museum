@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+died: { edtf: "1600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: born_in, target: place/tulkarm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q985531)" }
 sources: [source/al-aalam]

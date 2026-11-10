@@ -9,6 +9,7 @@ class: person
 label:
   ar: أبو العاص بن الربيع
   en: Abu al-As ibn al-Rabi'
+  ur: "أبو العاص بن الربيع"
 names:
 - kind: full
   lang: ar
@@ -25,6 +26,7 @@ summary:
   ar: ابن هالة بنت خويلد أخت خديجة، لقبه «جرو البطحاء» ويقال له «الأمين»؛ زوج زينب بنت النبي الكبرى، شهد بدراً مع المشركين وأُسر ففادته زينب، ثم أسلم بعد الهجرة وردّ النبي إليه ابنته؛ وتختلف الروايات في كيفية أسره الثاني وإسلامه.
   en: A son of Hala bint Khuwaylid, Khadija's sister, nicknamed 'the cub of al-Batha' and called 'the trustworthy'; husband of the Prophet's eldest daughter Zaynab, he fought at Badr with the polytheists and was captured, Zaynab ransomed him,
     then he embraced Islam after the Hijra and the Prophet returned his daughter to him; the reports differ on how he was captured the second time and became Muslim.
+  ur: "ہالہ بنت خویلد — خدیجہ کی بہن — کے فرزند، «بطحاء کا شیر» اور «امین» کہلائے؛ نبی کی بڑی بیٹی زینب کے شوہر۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -43,6 +45,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0634", hijri: "0012", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Dhu'l-Hijja 12 AH in Abu Bakr's caliphate (Ibrahim ibn al-Mundhir, Ibn Sa'd and Ibn Ishaq); Abu Ubayd gives 13 AH and Ibn Manda has him killed at al-Yamama (al-Isaba p. 1714); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab
@@ -59,6 +62,11 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-zuhra
+  note: "al-Isaba p. 1714"
   sources:
   - source/ibn-hajar-isaba
 issue:

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
+died: { edtf: "858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/samarra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

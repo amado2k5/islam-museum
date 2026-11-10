@@ -13,6 +13,8 @@ date:
 relations:
   - { type: had_participant, target: person/al-muizz-li-din-allah, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-aziz-fatimid, role: "الخليفة من بعده", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-muizz-li-din-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-aziz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"

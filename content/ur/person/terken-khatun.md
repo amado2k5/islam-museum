@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 ترکان خاتون قبیلۂ قانقلی کی قبچاق شہزادی تھیں، سلطان علاء الدین تکش کی زوجہ اور سلطان علاء الدین محمد خوارزم شاہ کی والدہ۔{cite:wikipedia-terken-khatun-ar}{cite:wikipedia-terken-khatun-en} ان کی پیدائش کا سال ثابت نہیں: بعض فہرستیں 1155ء دیتی ہیں اور ویکی ڈیٹا 1150ء اور 1151ء۔{cite:wikidata-terken-khatun}
 

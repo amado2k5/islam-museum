@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "778", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
   - { type: lived_in, target: place/mosul, confidence: low, note: "Associated with Mosul per the record's own summary text; relation type pending review.", sources: [source/duha-islam] }
 sources: [source/duha-islam]

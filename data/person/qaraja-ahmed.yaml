@@ -12,6 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 sources: [source/al-aalam]
+born: { edtf: "1300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Karaca Ahmed)" }
+died: { edtf: "1350~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Karaca Ahmed)" }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Karaca Ahmed, dervish-saint of Anatolia, tomb at Uskudar (regions: anatolia-balkans).", sources: [source/al-aalam] }
 external_ids:

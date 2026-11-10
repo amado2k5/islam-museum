@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1177~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Najm-al-Din Razi)" }
+died: { edtf: "1256", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Najm-al-Din Razi)" }
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "Association inferred from the nisba in the name 'Najm al-Din Razi'; specific residence not individually documented.", sources: [source/al-aalam] }

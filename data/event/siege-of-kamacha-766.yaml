@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0766", precision: year, status: tradition, derived: true }
   end: { edtf: "0767", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [39.035555555556, 39.602777777778]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0766"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كماخ", en: "Siege of Kamacha" }, at: [39.035555555556, 39.602777777778], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/kemah }
+sides:
+  - label: { ar: "قوات أبو جعفر المنصور", en: "The forces of Abu Ja'far al-Mansur" }
+    participants: [person/al-mansur]
+  - label: { ar: "حامية كماخ", en: "The defenders of Kamacha" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3485906

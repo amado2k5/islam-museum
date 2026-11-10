@@ -18,10 +18,20 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-afdal-ali, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "المحصور", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch04
+map:
+  kind: siege
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصر الأفضل دمشق وعوده عنها", en: "al-Afdal besieges Damascus and turns back" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

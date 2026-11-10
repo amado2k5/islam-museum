@@ -1,6 +1,6 @@
 id: person/abu-layla-abd-al-rahman-ibn-kab
 class: person
-label: { en: Abu Layla Abd al-Rahman ibn Ka'b, ar: "أبو ليلى عبد الرحمن بن كعب" }
+label: { en: Abu Layla Abd al-Rahman ibn Ka'b, ar: "أبو ليلى عبد الرحمن بن كعب", ur: "أبو ليلى عبد الرحمن بن كعب" }
 names:
   - { kind: full, lang: ar, value: "أبو ليلى عبد الرحمن بن كعب" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "ثالث البكائين، أخو بني مازن بن النجار؛ ذكره ابن إسحاق فيمن استحملوا النبي في غزوة تبوك فلم يجد ما يحملهم عليه."
   en: The third of the Weepers, brother of Banu Mazin ibn al-Najjar; Ibn Ishaq lists him among those who begged the Prophet for mounts on the Tabuk campaign when he found nothing to carry them on.
+  ur: "روینے والوں میں تیسرے، بنو مازن بن نجار کے بھائی؛ ابن اسحاق انہیں تبوک مہم میں نبی سے سواری مانگنے والوں میں شمار کرتے ہیں۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص161)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/the-weepers-al-bakkaun, role: weeper, sources: [source/ibn-hisham-saqqa] }

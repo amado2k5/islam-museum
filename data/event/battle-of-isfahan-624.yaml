@@ -16,5 +16,17 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-47
+sides:
+  - label: { ar: "الخوارزمية بقيادة جلال الدين", en: "The Khwarizmians under Jalal al-Din" }
+  - label: { ar: "التتار", en: "The Tatars" }
+map:
+  kind: battle
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملحمة أصبهان سنة 624هـ", en: "Battle of Isfahan in 624 AH" }, at: [32.6546, 51.668], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

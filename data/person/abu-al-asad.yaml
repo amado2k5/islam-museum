@@ -14,5 +14,6 @@ provenance:
   run: lib-futuh-buldan-batch-38
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani)" }
 relations:
   - { type: lived_in, target: place/basra, note: "Al-Mansur's mawla-commander sent to Basra; he dug Nahr Abi al-Asad at the Batayih while camped there.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

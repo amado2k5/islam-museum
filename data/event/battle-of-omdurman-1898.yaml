@@ -11,6 +11,21 @@ regions: [east-africa]
 date:
   start: { edtf: "1898", precision: year, status: tradition, derived: true }
   end: { edtf: "1898", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [32.462887, 15.683517]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1898"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كرري ⁦(أم درمان)⁩", en: "Battle of Omdurman" }, at: [32.462887, 15.683517], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/omdurman }
+sides:
+  - label: { ar: "الجيش البريطاني المصري بقيادة كتشنر", en: "The Anglo-Egyptian army under Kitchener" }
+  - label: { ar: "الدولة المهدية", en: "The Mahdist state" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1137302

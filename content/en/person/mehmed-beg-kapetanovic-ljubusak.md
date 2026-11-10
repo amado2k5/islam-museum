@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mehmed-beg Kapetanović Ljubušak (19 December 1839 – 29 July 1902) was a Bosnian writer and public official from Vitina near Ljubuški, who wrote under the pen name Muhibi.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} Schooled at the Ljubuški madrasa and in Turkish, Arabic and Persian, he served the Ottoman administration as kaymakam in several towns, settled in Sarajevo in 1878, and in 1893 succeeded Mustafa Fadilpašić as the city's second mayor.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} His mayoralty gave Sarajevo electric street lighting and one of Europe's first electric tram services on 1 May 1895; a stroke in July 1898 began the decline that forced his resignation in April 1899.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
 

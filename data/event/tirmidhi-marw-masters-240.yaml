@@ -17,8 +17,9 @@ date:
 relations:
   - { type: occurred_at, target: place/marw, sources: [source/mawsuat-a3lam-ulama-adaba], note: "الثلاثة مروزيون {cite:mawsuat-a3lam-ulama-adaba p. 451}" }
   - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "السامع", sources: [source/mawsuat-a3lam-ulama-adaba] }
-  - { type: had_participant, target: person/mahmud-ibn-ghaylan, role: "الشيخ", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: related_to, target: person/mahmud-ibn-ghaylan, role: "الشيخ", sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: had_participant, target: person/abd-ibn-humayd-al-kissi, role: "الشيخ", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 provenance:
   layer: own-research

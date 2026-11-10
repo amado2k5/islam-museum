@@ -10,5 +10,6 @@ wings: [people]
 sources: [source/sallabi-ali-vol1]
 provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 303", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp301-350" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 303; the reason for burning is the book's conjecture" }
+died: { edtf: "663", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh); Ibn al-Athir" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Companion of Ali of Banu Ijl of the Basran milieu (al-Sallabi).", sources: [source/sallabi-ali-vol1] }

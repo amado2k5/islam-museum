@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/abdullah-ibn-al-zubayr, role: "من النساخ", sources: [source/sahih-al-bukhari] }
   - { type: had_participant, target: person/said-ibn-al-as, role: "من النساخ", sources: [source/sahih-al-bukhari] }
   - { type: had_participant, target: person/abd-al-rahman-ibn-al-harith, role: "من النساخ", sources: [source/sahih-al-bukhari] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4987-4988", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
 sources: [source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

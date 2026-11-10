@@ -15,6 +15,8 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/colonial-era]
 regions: [south-asia]
+born: { edtf: "1857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
+died: { edtf: "1911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
 relations:
   - { type: lived_in, target: place/patna, sources: [source/sunan-daraqutni-ibn-hazm-2011] }
   - { type: authored, target: work/al-taliq-al-mughni, sources: [source/sunan-daraqutni-ibn-hazm-2011] }

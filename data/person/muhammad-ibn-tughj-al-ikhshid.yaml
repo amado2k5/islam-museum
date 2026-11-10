@@ -26,6 +26,8 @@ provenance:
   generated_by: Devin (SWE-2 Medium)
   model: SWE-2 Medium
   run: prose-fill-persons-batch31
+born: { edtf: "882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Khallikan (Wafayat al-A'yan)" }
+died: { edtf: "946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Khallikan (Wafayat al-A'yan)" }
 relations:
 - type: ruler_of
   target: place/farghana

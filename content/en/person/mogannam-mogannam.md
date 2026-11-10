@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mogannam Mogannam (died 1945) was a Palestinian Christian lawyer and political activist raised in Jerusalem.{cite:encyclopedia-mogannam-mogannam-ilyas} He emigrated to the United States before the First World War, studied law there, and in the early 1920s married Matiel Mogannam and returned with her to Jerusalem, moving to Ramallah in 1938.{cite:encyclopedia-mogannam-mogannam-ilyas}{cite:wikipedia-matiel-mogannam-en}
 

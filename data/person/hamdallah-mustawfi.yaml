@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1349", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: born_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

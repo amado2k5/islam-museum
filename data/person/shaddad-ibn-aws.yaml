@@ -3,6 +3,7 @@ class: person
 label:
   ar: شداد بن أوس
   en: Shaddad ibn Aws
+  ur: "شداد بن أوس"
 names:
 - kind: full
   lang: ar
@@ -18,6 +19,7 @@ traditions:
 summary:
   ar: صحابي من بني النجار ابن أخي حسان بن ثابت؛ وصفه عبادة بن الصامت بأنه ممن أوتي العلم والحلم، وسكن حمص ثم فلسطين، ودُفن ببيت المقدس سنة 58هـ على الراجح.
   en: A Companion of Banu al-Najjar and nephew of Hassan ibn Thabit; Ubada ibn al-Samit described him as one given both knowledge and forbearance; he lived in Homs and then Palestine and was buried in Jerusalem, most likely in 58 AH.
+  ur: "بنو نجار کا صحابی اور حسان بن ثابت کا بھانجا؛ عبادہ بن صامت نے اسے علم اور بہادری دونوں دینے والا بتایا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -36,6 +38,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "678", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
 - { type: buried_in, target: place/jerusalem, sources: [source/ibn-hajar-isaba] }
 - type: member_of

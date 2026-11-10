@@ -7,13 +7,28 @@ summary:
   en: "Draft card for the 1729 Battle of Herat, Nader's victory over the Abdalis; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/herat, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 wings: [time]
 periods: [period/colonial-era]
 regions: [persia-central-asia]
 date:
   start: { edtf: "1729", precision: year, status: tradition, derived: true }
   end: { edtf: "1729", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [34.3529, 62.204]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة هراة ⁦(١٧٢٩)⁩", en: "Battle of Herat" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Durrani", ar: "دراني" }
+    participants: [group/qabilat-durrani]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q25212290
 provenance:

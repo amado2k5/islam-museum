@@ -14,5 +14,6 @@ provenance:
   run: mawsua-w06-51
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix biography read on p.10351; the source gives no dates; footnote citations omitted; printed folios not checked against page images" }
+died: { edtf: "775~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mizzi (Tahdhib al-Kamal 7/133; active mid-2nd c. AH)" }
 relations:
   - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

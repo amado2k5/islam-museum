@@ -11,6 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1634-10-15", precision: year, status: tradition, derived: true }
   end: { edtf: "1634-10-15", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [74.95194444444445, 30.213333333333335]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1634"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة لاهيرا ⁦(١٦٣٤)⁩", en: "Battle of Lahira" }, at: [74.95194444444445, 30.213333333333335], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/bathinda }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q39050091

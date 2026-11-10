@@ -15,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch17
+died: { edtf: "1520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun)" }
 relations:
   - { type: lived_in, target: place/daylam, note: "Place association from the person's nisba/name (الديلمي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

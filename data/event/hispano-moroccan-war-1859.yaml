@@ -11,6 +11,18 @@ regions: [maghreb]
 date:
   start: { edtf: "1859", precision: year, status: tradition, derived: true }
   end: { edtf: "1860", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-6.0, 32.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1859"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الإسبانية المغربية ⁦(١٨٥٩–١٨٦٠)⁩", en: "Hispano-Moroccan War" }, at: [-6.0, 32.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/morocco }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1540737

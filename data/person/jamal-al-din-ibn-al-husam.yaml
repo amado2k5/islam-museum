@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+died: { edtf: "1395", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Inba al-Ghumr / Ibn Hajar" }
 relations:
   - { type: born_in, target: place/majdal-selem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/majdal-selem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

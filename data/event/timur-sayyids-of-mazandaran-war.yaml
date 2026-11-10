@@ -10,7 +10,23 @@ periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 date:
   start: { edtf: "", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [53.0588, 36.5656]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب تيمور والسادة المرعشيين", en: "War between Timur and the Sayyids of Mazandaran" }, at: [53.0588, 36.5656], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/mazandaran-province }
+sides:
+  - label: { en: "Mar'ashis", ar: "مرعشيون" }
+    participants: [polity/marashi-dynasty]
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+    participants: [polity/timurid-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q110425535
 provenance:

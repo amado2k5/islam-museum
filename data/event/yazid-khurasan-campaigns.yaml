@@ -13,6 +13,11 @@ relations:
   - { type: had_participant, target: person/al-ruqad-al-mutakki, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mufaddal-ibn-al-muhallab, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
 wings: [time]
+sides:
+  - label: { ar: "جيش يزيد بن المهلب", en: "يزيد بن المهلب's army" }
+    commanders: [person/yazid-ibn-al-muhallab, person/al-mufaddal-ibn-al-muhallab]
+  - label: { ar: "الرقاد المتكي", en: "al-Ruqad al-Mutakki" }
+    participants: [person/al-ruqad-al-mutakki]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

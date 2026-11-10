@@ -11,7 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1796", precision: year, status: tradition, derived: true }
   end: { edtf: "1796", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Pashalik of Scutari", ar: "باشاليك سكوتاري" }
+  - label: { en: "Prince-Bishopric of Montenegro", ar: "إمارة-أسقفية مونتينيغرو" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4871599
 provenance:

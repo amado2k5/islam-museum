@@ -19,6 +19,8 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker G)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "715~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Companion of Abd Allah ibn Masud; Kufan circle, flagged.", sources: [source/zuhd-ahmad-dkim-1983], confidence: medium }
 sources: [source/zuhd-ahmad-dkim-1983]

@@ -11,7 +11,25 @@ regions: [maghreb]
 date:
   start: { edtf: "1359", precision: year, status: tradition, derived: true }
   end: { edtf: "1359", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-1.9114, 34.6867]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1359"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة وجدة ⁦(١٣٥٩)⁩", en: "Battle of Oujda (1359)" }, at: [-1.9114, 34.6867], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+  - { type: part_of, target: event/marinid-zayyanid-wars }
+  - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/oujda }
+sides:
+  - label: { en: "Kingdom of Tlemcen", ar: "مملكة تلمسان" }
+  - label: { en: "Marinid dynasty", ar: "الدولة المرينية" }
+    participants: [polity/marinid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111207484
 provenance:

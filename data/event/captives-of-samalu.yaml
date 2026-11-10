@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/harun-al-rashid, role: "أمير الصائفة وعاقد الأمان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mahdi, role: "المغزي — وقيل صاحب الحكم في إنزالهم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/baghdad, note: "أنزلوا على باب الشماسية فسمي الموضع سمالو", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 234"

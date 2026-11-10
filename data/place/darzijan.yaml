@@ -1,0 +1,19 @@
+id: place/darzijan
+class: place
+kind: site
+label: { ar: "درزيجان", en: "Darzijan" }
+summary:
+  ar: "Medieval town on the Tigris south of Baghdad near al-Madain, Iraq."
+  en: "Medieval town on the Tigris south of Baghdad near al-Madain, Iraq."
+wings: [place]
+coordinates: [33.1, 44.52]
+coordinate_precision: approx
+coordinate_note: "Medieval town on the Tigris south of Baghdad near al-Madain, Iraq (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

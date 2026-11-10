@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1169-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1169-05-21", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-6.9707, 38.8794]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1169"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بطليوس ⁦(١١٦٩)⁩", en: "Siege of Badajoz (1169)" }, at: [-6.9707, 38.8794], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/batlyus }
+sides:
+  - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
+    participants: [person/abu-yaqub-yusuf-almohad]
+  - label: { ar: "حامية بطليوس", en: "The defenders of Badajoz" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q48854974

@@ -17,6 +17,7 @@ story_roles:
   - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, status: historical, note: "قائد مقاتلة خيبر المقتول في المبارزة (الرحيق ص370).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
 faith:
   - { value: jewish, basis: documented, note: "فارس وقائد يهود خيبر." }
+died: { edtf: "628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: born_in, target: place/khaybar }
   - { type: member_of, target: group/jews-of-khaybar }

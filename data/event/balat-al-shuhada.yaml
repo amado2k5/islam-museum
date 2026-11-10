@@ -19,6 +19,7 @@ date:
 relations:
   - { type: occurred_at, target: place/balat-al-shuhada, sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/abd-al-rahman-al-ghafiqi, role: "أمير الأندلس", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
@@ -26,5 +27,18 @@ provenance:
   run: lib-nafh-tib-batch-20
 external_ids:
   wikidata: Q173077
+sides:
+  - label: { ar: "جيش الأندلس بقيادة عبد الرحمن الغافقي", en: "The Andalusi army under al-Ghafiqi" }
+    commanders: [person/abd-al-rahman-al-ghafiqi]
+  - label: { ar: "الفرنج بقيادة شارل مارتل", en: "The Franks under Charles Martel" }
+map:
+  kind: battle
+  precision: locality
+  center: [46.7586, 0.5114]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة بلاط الشهداء", en: "Battle of Balat al-Shuhada" }, at: [46.7586, 0.5114], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020, source/al-ishaat-al-kadhiba-azhar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

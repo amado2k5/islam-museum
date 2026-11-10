@@ -11,6 +11,21 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1219", precision: year, status: tradition, derived: true }
   end: { edtf: "1219", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المغولي بقيادة جنكيز خان", en: "The Mongol army under Chinggis Khan" }
+  - label: { ar: "حامية أترار بقيادة إينالجق", en: "The Otrar garrison under Inalchuq" }
+map:
+  kind: siege
+  precision: locality
+  center: [68.303, 42.8515]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1219"
+  features:
+    - { type: point, role: event_point, label: { ar: "كارثة أترار", en: "Otrar Catastrophe" }, at: [68.303, 42.8515], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/otrar }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q111943842

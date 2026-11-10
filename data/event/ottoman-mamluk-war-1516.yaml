@@ -11,6 +11,20 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1516", precision: year, status: tradition, derived: true }
   end: { edtf: "1517", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [29.0, 27.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1516"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية المملوكية", en: "Ottoman–Mamluk War of 1516–17" }, at: [29.0, 27.0], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/misr }
+- { type: occurred_at, target: place/anatolia }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q4338038

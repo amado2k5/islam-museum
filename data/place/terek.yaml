@@ -1,0 +1,20 @@
+id: place/terek
+class: place
+kind: river
+label: { ar: "تيريك", en: "Terek" }
+summary:
+  ar: "نهر."
+  en: "River in Georgia and Russia."
+wings: [place]
+coordinates: [42.6215, 44.2474]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q82776" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q82776 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -15,6 +15,7 @@ map: { kind: siege, precision: locality, center: [37.2700, 37.8400] }
 date: { start: { edtf: "1292-06~", hijri: "0691-07", calendar: julian, precision: month, status: tradition, derived: true, note: "فتحت في رجب سنة إحدى وتسعين وستمائة بعد خمسة وعشرين يوماً {cite:shadharat-dhahab p. 729}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/qalat-al-rum, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 691)، قراءة آبل فيجن"

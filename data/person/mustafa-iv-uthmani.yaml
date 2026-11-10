@@ -1,0 +1,18 @@
+id: person/mustafa-iv-uthmani
+class: person
+label: { ar: "مصطفى الرابع", en: "Mustafa IV", ur: "مصطفى الرابع" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "مصطفى الرابع، خليفة العثمانية ؛ حكم من 1807م إلى 1808م. {cite:sicill-i-osmani}"
+  en: "Mustafa IV, the caliph of the Ottoman caliphate, ruling 1807–1808 CE. {cite:sicill-i-osmani}"
+  ur: "مصطفى الرابع، عثمانی خلافت کے خلیفہ؛ 1807ء سے 1808۔ {cite:sicill-i-osmani}"
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1807", calendar: julian, precision: year }, end: { edtf: "1808", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }
+relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+sources: [source/sicill-i-osmani]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

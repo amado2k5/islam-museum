@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1582", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Murshid al-Mu'in; al-A'lam (al-Zirikli: 990–1040 AH)" }
+died: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Murshid al-Mu'in; al-A'lam (al-Zirikli: 990–1040 AH)" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

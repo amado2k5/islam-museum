@@ -1,0 +1,18 @@
+id: person/abubakar-ii-sokoto
+class: person
+label: { ar: "أبو بكر الثاني", en: "Abubakar II", ur: "أبو بكر الثاني" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "أبو بكر الثاني، خليفة سوكوتو ؛ حكم من 1873م إلى 1877م. {cite:wikidata}"
+  en: "Abubakar II, the caliph of the Sokoto caliphate, ruling 1873–1877 CE. {cite:wikidata}"
+  ur: "أبو بكر الثاني، سوکوتو خلافت کے خلیفہ؛ 1873ء سے 1877۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1873", calendar: julian, precision: year }, end: { edtf: "1877", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/ahmad-al-rufai, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

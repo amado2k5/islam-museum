@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
 sources: [source/al-aalam]

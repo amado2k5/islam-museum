@@ -11,6 +11,18 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1101-08", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.4644, 40.8717]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1101"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرزيفون", en: "Battle of Mersivan" }, at: [35.4644, 40.8717], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/merzifon }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q9173248

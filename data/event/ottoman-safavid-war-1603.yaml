@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1603", precision: year, status: tradition, derived: true }
   end: { edtf: "1618", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [46.3, 38.25]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1603"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الصفوية ⁦(١٦٠٣–١٦١٨)⁩", en: "Ottoman–Safavid War of 1603–1618" }, at: [46.3, 38.25], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/azerbaijan }
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2578094
 provenance:

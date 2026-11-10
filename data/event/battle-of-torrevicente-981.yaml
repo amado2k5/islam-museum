@@ -11,6 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0981-07-09", precision: year, status: tradition, derived: true }
   end: { edtf: "0981-07-09", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-2.9413888888889, 41.335277777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0981"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة طوربيثنتي", en: "Battle of Torrevicente" }, at: [-2.9413888888889, 41.335277777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/torrevicente }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4872578

@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1148", precision: year, status: tradition, derived: true }
   end: { edtf: "1148", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.2913, 33.5102]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1148"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار دمشق ⁦(١١٤٨)⁩", en: "Siege of Damascus (1148)" }, at: [36.2913, 33.5102], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/damascus }
+sides:
+  - label: { ar: "الحملة الصليبية الثانية بقيادة لويس السابع وكونراد", en: "The Second Crusade under Louis VII and Conrad III" }
+  - label: { ar: "جيش دمشق بقيادة مجير الدين", en: "The Damascus army under Mujir al-Din" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q382967

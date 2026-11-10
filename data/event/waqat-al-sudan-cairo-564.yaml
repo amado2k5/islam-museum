@@ -23,10 +23,23 @@ relations:
 - type: occurred_at
   target: place/cairo
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 themes: [crusades]
+sides:
+  - label: { ar: "جنود السودان في القاهرة", en: "The Sudanese troops of Cairo" }
+  - label: { ar: "رجال الصلاحية", en: "The Salahiyya regiments" }
+map:
+  kind: battle
+  precision: locality
+  center: [30.0626, 31.2497]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة السودان بين القصرين", en: "The battle of the Sudan between the two palaces" }, at: [30.0626, 31.2497], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

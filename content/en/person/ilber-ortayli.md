@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 İlber Ortaylı was a Turkish historian of Crimean Tatar origin, born on 21 May 1947 in a refugee camp at Bregenz, Austria, where his parents had fled Stalin's deportation of the Crimean Tatars; the family immigrated to Turkey when he was two{cite:wikipedia-ortayli-en}{cite:wikipedia-ortayli-tr}. He studied in Istanbul and Ankara and at the University of Vienna, took his master's degree at the University of Chicago under Halil İnalcık, and received his doctorate from Ankara University in 1978 with a thesis on local administration in the Tanzimat period{cite:wikipedia-ortayli-en}.
 

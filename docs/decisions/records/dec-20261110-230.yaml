@@ -1,0 +1,52 @@
+id: dec-20261110-230
+kind: override
+date: '2026-11-10'
+expires_at: '2027-11-10'
+question_hash: 3595bd009993
+lane: canon
+class: process
+modality: repo
+domain: process
+mode: conservative
+question: 'Should the museum mark a canon of cornerstone and major records with an optional `importance` field (1 or 2) on the entity, selected by a recorded rule (graph weave plus Wikidata sitelink reach) with a short editorial include list, so that finishing, featuring and search ranking can key off it?'
+options:
+- 'optional importance field on the entity, set by scripts/report/canon.py'
+- 'side list file outside the graph'
+- 'no canon marker'
+evidence:
+- 'Founder chose ''Canonical pages first'' in chat on 10 November 2026, after an analysis that recommended adding an importance field and picking a canon of about 1,000 records.'
+- 'docs/canon.md (generated 10 November 2026): 824 records selected, 270 at importance 1; 37 have no Arabic prose, 444 are under 300 words, 526 are draft.'
+- 'AGENTS.md, "Every feature is graph, API and search": records stay in the one graph, never a side table, so the marker is a field on the entity.'
+- 'The field is not rendered on any page and not exported in /api/v1/ yet, so no published page or API file changes; removing it is one run of the script with an empty rule.'
+- 'Wikidata sitelink counts are read as a ranking signal only and are not written into any record, so the Wikipedia/Wikidata fact rule and the authenticity ledger are not engaged.'
+status: decided
+step: override
+decision: 'Add an optional `importance` field (1 cornerstone, 2 major) to the base schema and set it on 824 records by scripts/report/canon.py: eligibility needs evidence both from the museum''s own graph (inbound edges, prose links, pathway appearances) and from Wikidata sitelink reach, ranked within per-class quotas, plus 59 named editorial includes at importance 2. The field ranks editorial priority only; it does not judge a subject''s standing and changes nothing for records without it. Shia-tradition subjects that qualify on the same signals (for example Ja''far al-Sadiq, al-Kulayni, al-Kafi, the Imam Ali shrine, Najaf, Karbala) are kept, since the canon orders what to finish and the scope rule already governs how each page is framed; this is flagged for the founder to confirm or strike.'
+correct_outcome: canon-importance-field
+wrong_outcome: rule-reach-threshold
+confidence: 0.9
+reversible: true
+rationale: 'dec-229 answered with rule-reach-threshold, the Modern Islam Browser admission rule, because the question contains the word "reach". That rule decides whether a modern figure gets a record at all; it does not bear on marking priority among existing records. The founder approved the direction in chat; the design choices left to the agent (field on the entity rather than a side list, two levels, the selection rule, the include list) are recorded here. All are reversible and invisible to visitors until a later change uses the field.'
+supersedes: dec-20261110-229
+override_reason:
+  category: rule-false-positive
+  detail: 'rule-reach-threshold matched the literal "reach" in a question about editorial priority. Another keyword-substring false positive in the rule gates.'
+  overridden_by: claude-canon
+signals:
+  matched_rule_id: rule-reach-threshold
+  question_domain: process
+  expected_domain: process
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: claude-canon
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-10'

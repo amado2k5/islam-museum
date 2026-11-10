@@ -1,6 +1,6 @@
 id: person/hisham-ibn-abi-hudhayfa
 class: person
-label: { en: Hisham ibn Abi Hudhayfa, ar: "هشام بن أبي حذيفة" }
+label: { en: Hisham ibn Abi Hudhayfa, ar: "هشام بن أبي حذيفة", ur: "هشام بن أبي حذيفة" }
 names:
   - { kind: full, lang: ar, value: "هشام بن أبي حذيفة بن المغيرة" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني مخزوم، ذكره ابن إسحاق في مهاجرة الحبشة؛ ويذكر ابن عبد البر في هامش المحققين أن الواقدي يقول «هاشم بن أبي حذيفة»."
   en: Of Banu Makhzum; Ibn Ishaq names him among the emigrants to Abyssinia. Ibn Abd al-Barr, cited in the editors' margin, reports that al-Waqidi says 'Hashim ibn Abi Hudhayfa'.
+  ur: "بنو مخزوم کے؛ ابن اسحاق انہیں حبشہ ہجرت کرنے والوں میں گناتے ہیں؛ واقدی ہاشم کہتے ہیں۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,18 +18,21 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص7)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: member_of, target: group/banu-makhzum, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia per Ibn Ishaq; al-Waqidi reads Hashim (al-Isti'ab p. 742)", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch117
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/isti-ab-ibn-abd-al-barr]
 status:
   review: published
   completeness: 3

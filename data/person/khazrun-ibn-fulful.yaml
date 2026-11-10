@@ -11,6 +11,8 @@ roles: [military-commander, ruler]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb, andalus-europe]
+born: { edtf: "976~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar (Ibn Khaldun)" }
+died: { edtf: "979~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar (Ibn Khaldun)" }
 relations:
   - { type: lived_in, target: place/cordoba, confidence: low, note: "Associated with قرطبة per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:

@@ -9,6 +9,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/umayyad]
 regions: [maghreb]
+died: { edtf: "735~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hulla al-Siyara" }
 relations:
   - { type: ruler_of, target: place/morocco, note: "From text: ملك سلطنة المغرب الأقصى وعبد ", sources: [source/nafh-tib-maqqari], confidence: low }
   - { type: child_of, target: person/musa-ibn-nusayr, sources: [source/nafh-tib-maqqari] }

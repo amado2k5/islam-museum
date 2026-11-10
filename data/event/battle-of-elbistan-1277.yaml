@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1277", precision: year, status: tradition, derived: true }
   end: { edtf: "1277", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [37.183333333333, 38.2]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1277"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة البستان", en: "Battle of Elbistan" }, at: [37.183333333333, 38.2], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/elbistan }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    commanders: [person/baybars]
+  - label: { ar: "الجيش المغولي", en: "The Mongol army" }
+    participants: [person/abaga-ibn-hulagu]
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q2628082

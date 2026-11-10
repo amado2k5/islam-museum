@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+died: { edtf: "1492", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami')" }
 relations:
   - { type: born_in, target: place/gaziantep, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q93338)" }
   - { type: died_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q41183)" }

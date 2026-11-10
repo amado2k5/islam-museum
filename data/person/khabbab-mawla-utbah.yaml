@@ -3,18 +3,22 @@ class: person
 label:
   ar: "خباب مولى عتبة"
   en: "Khabbab, mawla of Utba"
+  ur: "خباب مولى عتبة"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخباب مولى عتبة بن غزوان، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khabbab, mawla of Utba ibn Ghazwan, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "خباب مولى عتبة بن غزوان، يكنى أبا يحيى، شهد بدراً، ومات في خلافة عمر سنة تسع عشرة وصلى عليه عمر."
+  en: "Khabbab, the freedman of Utba ibn Ghazwan, known as Abu Yahya, fought at Badr and died in 19 AH in the caliphate of Umar, who led his funeral prayer."
+  ur: "عتبہ بن غزوان کا آزاد کردہ خباب، ابو یحییٰ کہلاتا؛ بدر میں لڑا اور 19 ہجری میں عمر کی خلافت میں فوت ہوا، جنازہ عمر نے پڑھایا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "0640~", hijri: "0019", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in the caliphate of Umar, who prayed over him, after Abu Nu'aym (al-Isaba p. 383); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 383; Ibn Ishaq, among the allies of Banu Nawfal", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12210215
 provenance:

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ibrahim-beg Bašagić (died 8 November 1902) was a Bosnian official and politician from Nevesinje, of the Redžepagić family whose Sarajevo branch took its name from his father Lutfullah-beg, called Bašaga.{cite:wikipedia-ibrahim-beg-basagic-cs} Educated in the Islamic sciences at the Travnik madrasa, he entered Ottoman service as a junior official and rose to district governor (kaymakam), serving at Travnik, Nevesinje, Piva and Foča, and briefly sat in the Ottoman parliament at Istanbul, where he received the Order of Osmanieh.{cite:wikipedia-ibrahim-beg-basagic-cs} His birth year is disputed even within his one biography: its infobox and Wikidata give 25 May 1830, while its family paragraph dates him 1841–1902.{cite:wikipedia-ibrahim-beg-basagic-cs}{cite:wikidata-ibrahim-beg-basagic}
 

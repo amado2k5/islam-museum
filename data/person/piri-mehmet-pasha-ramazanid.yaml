@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1567", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Ramazanogullari)" }
 relations:
   - { type: died_in, target: place/adana, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q38545)" }
 sources: [source/dawlat-uthmaniyya-salabi]

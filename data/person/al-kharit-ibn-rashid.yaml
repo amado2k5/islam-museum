@@ -3,18 +3,22 @@ class: person
 label:
   ar: "الخريت بن راشد"
   en: "al-Kharit ibn Rashid"
+  ur: "الخريت بن راشد"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية للخريت بن راشد الناجي، من أهل القرن الأول ارتبطت به روايات متنازع فيها، توفي سنة ٦٥٨م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Kharit ibn Rashid al-Naji, the first-century figure associated with contested reports, d. 658; the source entry is not yet checked on the page."
+  ar: "صحابي شامي كان رئيس قومه؛ له إدراك، شهد مع علي حروبه ثم فارقه لما وقع التحكيم، فأرسل إليه علي معقلاً الرياحي فأوقع بهم."
+  en: "A Syrian Companion who was chief of his people; he met the Prophet, fought alongside Ali, then parted from him when the arbitration was agreed, whereupon Ali sent Ma'qil al-Riyahi, who defeated them."
+  ur: "شامی صحابی جو اپنے قوم کا سردار تھا؛ نبی سے ملا، علی کے ساتھ لڑا، پھر حکمین کے فیصلے پر ان سے الگ ہوا۔"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/ibn-hajar-isaba]
+died: { edtf: "0658~", hijri: "0038~", calendar: julian, precision: year, status: debated, derived: true, note: "Fought all Ali's battles then broke away at the arbitration and was struck down by Ma'qil al-Riyahi on Ali's orders (al-Zubayr ibn Bakkar, al-Isaba p. 390); CE year approximated to 38 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: died_in, target: place/al-ahwaz, note: "Wikidata Q170366 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/arbitration-of-siffin, note: "fought with Ali then left him when the arbitration was agreed; Ali sent Ma'qil al-Riyahi against his people (al-Isaba p. 390)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12186975
 provenance:

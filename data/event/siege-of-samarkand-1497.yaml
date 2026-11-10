@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1497", precision: year, status: tradition, derived: true }
   end: { edtf: "1497", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [66.9644, 39.6546]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1497"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سمرقند", en: "Siege of Samarkand" }, at: [66.9644, 39.6546], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/samarqand }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q7510367

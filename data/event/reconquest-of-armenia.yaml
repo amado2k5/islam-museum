@@ -15,10 +15,24 @@ relations:
   - { type: had_participant, target: person/muhammad-ibn-marwan, role: "الوالي المسترد والمعاقب للنبلاء بالكنائس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-al-aziz-ibn-hatim-al-bahili, role: "عمّار دبيل والنشوى وبرذعة والبيلقان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdallah-ibn-hatim-al-bahili, role: "واليها لمعاوية ميت بها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 288–289"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-17
+sides:
+  - label: { ar: "جيش محمد بن مروان", en: "Muhammad ibn Marwan's army" }
+    commanders: [person/muhammad-ibn-marwan]
+  - label: { ar: "أرمينية", en: "Armenia" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.383333, 44.95]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد محمد بن مروان لأرمينية", en: "Muhammad ibn Marwan's Recovery of Armenia" }, at: [40.383333, 44.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

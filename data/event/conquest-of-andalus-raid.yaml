@@ -11,10 +11,24 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/al-andalus, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch04
+sides:
+  - label: { ar: "جيش عثمان بن عفان", en: "Uthman ibn Affan's army" }
+    commanders: [person/uthman-ibn-affan]
+  - label: { ar: "الأندلس", en: "al-Andalus" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37, -4]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة الأندلس الأولى", en: "the first raid on al-Andalus (27 AH)" }, at: [37, -4], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

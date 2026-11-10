@@ -3,6 +3,7 @@ class: person
 label:
   ar: أسامة بن زيد
   en: Usama ibn Zayd
+  ur: "أسامة بن زيد"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: «الحِب ابن الحِب» ابن مولى النبي زيد وأمه أم أيمن حاضنة النبي؛ وُلد في الإسلام ومات النبي وله عشرون سنة، وأمّره النبي على جيش عظيم فمات قبل أن يتوجه فأنفذه أبو بكر، واعتزل الفتن بعد قتل عثمان.
   en: '''The beloved son of the beloved'', son of the Prophet''s freedman Zayd and of Umm Ayman who had nursed the Prophet; born in Islam, he was twenty when the Prophet died; the Prophet put him in command of a great army, which Abu Bakr then
     sent out after the Prophet''s death; he withdrew from the strife after Uthman''s killing.'
+  ur: "«محبوب کا محبوب بیٹا»، نبی کے آزاد کردہ زید اور ام ایمن کا بیٹا جس نے نبی کی پرورش کی؛ اسلام میں پیدا ہوا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -37,6 +39,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "614", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal" }
+died: { edtf: "0674~", hijri: "0054", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at al-Jurf near Medina late in the caliphate of Mu'awiya; Ibn Abd al-Barr held 54 AH correct (al-Isaba p. 43); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 
 - { type: lived_in, target: place/ayman, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba, source/ibn-hisham-saqqa, source/fadail-sahaba-ahmad-wasi-allah-1999] }
@@ -55,6 +59,7 @@ relations:
   sources:
   - source/mubarakpuri-raheeq
   - source/sahih-al-bukhari
+- { type: died_in, target: place/al-jurf, note: "al-Isaba p. 43", sources: [source/ibn-hajar-isaba] }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
   layer: own-research
@@ -67,6 +72,7 @@ sources:
 - source/ibn-hajar-isaba
 - source/ibn-hisham-saqqa
 - source/fadail-sahaba-ahmad-wasi-allah-1999
+importance: 2
 status:
   review: published
   completeness: 2

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband Obituaries" }
+died: { edtf: "2024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband Obituaries" }
 relations:
   - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -11,6 +11,18 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1478", precision: year, status: tradition, derived: true }
   end: { edtf: "1479", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [19.512138, 42.068132]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1478"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار إشقودرة", en: "Siege of Shkodra" }, at: [19.512138, 42.068132], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/shkod-r }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q7510403

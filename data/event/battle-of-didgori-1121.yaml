@@ -11,7 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1121", precision: year, status: tradition, derived: true }
   end: { edtf: "1121", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
+    participants: [polity/kingdom-of-georgia]
+  - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
+    participants: [polity/seljuk-empire]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q1192616
 provenance:

@@ -15,10 +15,14 @@ relations:
   - { type: had_participant, target: person/tughril-iii, role: "السلطان المقتول", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ala-al-din-tekish, role: "خوارزم شاه الغالب", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-nasir-billah, role: "الخليفة الذي سير الخلع السلطانية", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 590، ص 232–233"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-05
+sides:
+  - label: { ar: "السلاجقة بقيادة طغرل الثالث", en: "The Seljuks under Tughril III" }
+  - label: { ar: "الخوارزمية بقيادة تكش", en: "The Khwarizmians under Tekish" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -11,6 +11,8 @@ wings: [people]
 themes: [women, literature, civil-wars-and-revolts]
 periods: [period/rashidun, period/umayyad]
 regions: [levant-iraq]
+born: { edtf: "657~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aqd al-Farid / Ibn Abd Rabbih" }
+died: { edtf: "675~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aqd al-Farid / Ibn Abd Rabbih" }
 relations:
   - { type: lived_in, target: place/siffin, confidence: low, note: "Associated with Siffin per the record's own summary text; relation type pending review.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "وفدت عليه", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

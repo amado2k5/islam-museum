@@ -11,7 +11,15 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1399", precision: year, status: tradition, derived: true }
   end: { edtf: "1399", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: building/alinja-tower }
+sides:
+  - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
+    participants: [polity/kingdom-of-georgia]
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+    participants: [polity/timurid-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q126936039
 provenance:

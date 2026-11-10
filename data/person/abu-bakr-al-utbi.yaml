@@ -14,5 +14,6 @@ provenance:
   run: lib-tarikh-khulafa-batch-30
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Farhun, al-Dibaj al-Mudhahhab; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/medina, note: "Author of the Utbiyya responsa in Malik's madhhab, d. in al-Mu'tazz's days; the Maliki teaching circle was Medina. Inferred.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }

@@ -10,11 +10,13 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 relations:
   - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
-coordinate_note: "لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed."
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
+coordinates: [36.7339, -3.6906]
+coordinate_precision: locality
+coordinate_note: "Almunecar, coastal town in Granada, Spain (geocoding pass, Gemini-assisted)"
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

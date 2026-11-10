@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1771-08-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1771-08-07", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [25.966666666667, 43.9]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1771"
+  features:
+    - { type: point, role: event_point, label: { ar: "اقتحام جورجيو ⁦(١٧٧١)⁩", en: "Storming of Giurgiu" }, at: [25.966666666667, 43.9], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/giurgiu }
+sides:
+  - label: { ar: "قوات مصطفى الثالث", en: "The forces of مصطفى الثالث" }
+    participants: [person/mustafa-iii-uthmani]
+  - label: { ar: "حامية جورجيو", en: "The defenders of Giurgiu" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q131468287

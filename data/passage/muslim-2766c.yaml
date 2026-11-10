@@ -1,0 +1,21 @@
+id: passage/muslim-2766c
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2766c"
+label:
+  ar: "مسلم 2766c — قاتل المائة والقرية الصالحة"
+  en: "Muslim 2766c — The man who killed a hundred and the righteous town"
+  ur: "مسلم 2766c — سو آدمیوں کا قاتل اور نیک بستی"
+text: "فأوحى الله إلى هذه أن تباعدي وإلى هذه أن تقربي ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2766c: قاتل المائة والقرية الصالحة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2766c: The man who killed a hundred and the righteous town. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2766c: سو آدمیوں کا قاتل اور نیک بستی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-qatil-al-mia]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7010; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

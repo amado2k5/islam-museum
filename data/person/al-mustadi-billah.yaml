@@ -5,15 +5,23 @@ summary:
   ar: "خليفة عباسي [٥٦٦–٥٧٥هـ]، أبو محمد الحسن بن المستنجد، ولد سنة ست وثلاثين وخمس مئة وأمه أم ولد أرمنية اسمها غضة، بويع يوم موت أبيه، وقال ابن الجوزي نادى برفع المكوس ورد المظالم وأظهر من العدل والكرم ما لم نره في أعمارنا وفرق مالاً عظيماً على الهاشميين والعلويين والعلماء والمدارس والربط وفصل خياط المخزن ألفاً وثلاث مئة قباء إبريسم، وفي خلافته انقضت دولة بني عبيد وخطب له بمصر وضربت السكة باسمه وخطب له باليمن وبرقة وتوزر ومصر إلى أسوان ودانت الملوك بطاعته، ومات في سلخ شوال سنة خمس وسبعين {cite:tarikh-khulafa-minhaj-1434 p. 681-685}، وعهد إلى ابنه أحمد الناصر {cite:tarikh-khulafa-minhaj-1434 p. 685}. وفي سنة ست وستين استوزر أبا محمد عبد الله بن رئيس الرؤساء فانتقم من الوزير أبي جعفر بن اللذي وقتله وألقي في دجلة {cite:shadharat-dhahab p. 696-697}."
   en: "Abbasid caliph [566–575], born 536 to an Armenian umm walad; Ibn al-Jawzi: 'he proclaimed the lifting of tolls and the righting of wrongs, showed a justice and largesse we never saw in our days' — 1,300 silk robes cut in his first khil'a. In his reign the Ubaydid state ended and the khutba ran his name from Yemen to Aswan; he died at Shawwal's end, 575 {cite:tarikh-khulafa-minhaj-1434 p. 681-685}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 675–685"
+  source: "تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 675–685"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-42
 external_ids: { wikidata: "Q293646" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1142", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/yemen, note: "From text: from Yemen", sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1170", calendar: julian, precision: year }, end: { edtf: "1180", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

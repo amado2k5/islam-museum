@@ -11,6 +11,12 @@ regions: [south-asia]
 date:
   start: { edtf: "1571", precision: year, status: tradition, derived: true }
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات سليم الثاني", en: "The forces of Selim II" }
+    participants: [person/selim-ii-uthmani]
+  - label: { ar: "حامية هوناور", en: "The defenders of Honavar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q127868069

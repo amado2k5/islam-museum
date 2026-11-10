@@ -8,7 +8,7 @@ names:
   lang: ar
   value: محمد بن هارون الرشيد الأمين
 roles:
-- caliph
+  - caliph
 gender: male
 summary:
   ar: بطاقة أولية لمحمد الأمين، سادس خلفاء بني العباس وخصم المأمون في الفتنة، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم
@@ -39,10 +39,15 @@ provenance:
   generated_by: Devin (SWE-2 High)
   model: SWE-2 High
   run: wikidata-import-0006, lib-tarikh-khalifa-batch-2-2026-10-31
+importance: 2
 status:
   review: published
   completeness: 2
+born: { edtf: "787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "813", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
+- { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: successor_of, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 - type: born_in
   target: place/al-rusafa
   note: Wikidata Q2271341 (P19); corroboration recommended.
@@ -64,3 +69,5 @@ relations:
   - source/encyclopaedia-of-islam-2
   - source/tarikh-khalifa-umari-1985
   confidence: low
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "809", calendar: julian, precision: year }, end: { edtf: "813", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

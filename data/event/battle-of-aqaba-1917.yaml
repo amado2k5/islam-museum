@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1917", precision: year, status: tradition, derived: true }
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.00611111111111, 29.532222222222224]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1917"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة العقبة", en: "Battle of Aqaba" }, at: [35.00611111111111, 29.532222222222224], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/aqaba }
+sides:
+  - label: { ar: "جيش الثورة العربية", en: "The Arab Revolt army" }
+  - label: { ar: "حامية العقبة العثمانية", en: "The Ottoman garrison of Aqaba" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2081944

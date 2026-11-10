@@ -1,0 +1,18 @@
+id: person/muhammad-iii-al-mustakfi
+class: person
+label: { ar: "محمد الثالث المستكفي", en: "Muhammad III al-Mustakfi", ur: "محمد الثالث المستكفي" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "محمد الثالث المستكفي، خليفة الأموية في الأندلس ؛ حكم من 1024م إلى 1025م. {cite:bayan-mughrib-idhari}"
+  en: "Muhammad III al-Mustakfi, the caliph of the Umayyad of Cordoba caliphate, ruling 1024–1025 CE. {cite:bayan-mughrib-idhari}"
+  ur: "محمد الثالث المستكفي، اموی قرطبہ خلافت کے خلیفہ؛ 1024ء سے 1025۔ {cite:bayan-mughrib-idhari}"
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "1024", calendar: julian, precision: year }, end: { edtf: "1025", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }
+relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/abd-al-rahman-v-mustazhir, sources: [source/bayan-mughrib-idhari] }
+sources: [source/bayan-mughrib-idhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

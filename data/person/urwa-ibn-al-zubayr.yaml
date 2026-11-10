@@ -6,6 +6,8 @@ summary:
   en: "Urwa ibn al-Zubayr ibn al-Awwam; al-Waqidi reports through Abd al-Hamid ibn Ja'far from his father: I heard Urwa say 'I dwelt seven years in Egypt and married there, and found its people fighters bearing more than their strength — for Amr conquered it only by treaty, covenant and a levy fixed upon them'."
 wings: [people]
 periods: [period/rashidun, period/umayyad]
+born: { edtf: "644~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: child_of, target: person/zubayr-ibn-al-awwam, sources: [source/futuh-buldan-maarif-1407] }
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
@@ -17,4 +19,5 @@ provenance:
   run: lib-futuh-buldan-batch-19
 external_ids: { wikidata: "Q423774" }
 sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/sahih-sira-umari-ulum-hikam-1994]
+importance: 1
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

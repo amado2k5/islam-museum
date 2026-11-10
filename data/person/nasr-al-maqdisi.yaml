@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1012", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala); al-A'lam" }
+died: { edtf: "1096", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala); al-A'lam" }
 relations:
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
   - { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }

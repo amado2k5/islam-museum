@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1867", precision: year, status: tradition, derived: true }
   end: { edtf: "1867", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-aziz-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عبد العزيز", en: "The authorities of Abd al-Aziz (Ottoman)" }
+    participants: [person/abd-al-aziz-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q58895491

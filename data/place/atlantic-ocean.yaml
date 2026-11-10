@@ -1,0 +1,20 @@
+id: place/atlantic-ocean
+class: place
+kind: sea
+label: { ar: "المحيط الأطلسي", en: "Atlantic Ocean" }
+summary:
+  ar: "بحر."
+  en: "Ocean between Europe, Africa and the Americas."
+wings: [place]
+coordinates: [0, -30]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q97" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q97 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

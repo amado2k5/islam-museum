@@ -11,7 +11,13 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1559", precision: year, status: tradition, derived: true }
   end: { edtf: "1559", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { en: "Adal Sultanate", ar: "سلطنة عدل" }
+    participants: [place/adal-sultanate]
+  - label: { en: "Oromo people", ar: "شعب أورومو" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q107026908
 provenance:

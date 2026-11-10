@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1425", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/aydin, confidence: low, note: "Associated with آيدين per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:

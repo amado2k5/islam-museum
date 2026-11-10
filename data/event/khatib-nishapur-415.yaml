@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الراحل الطالب", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-barqani-ahmad-ibn-muhammad, role: "المستشار والموصي", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-nuaym-al-asbahani-ahmad, role: "المكتوب إليه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

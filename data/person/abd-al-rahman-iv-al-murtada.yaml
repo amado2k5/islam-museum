@@ -1,0 +1,18 @@
+id: person/abd-al-rahman-iv-al-murtada
+class: person
+label: { ar: "عبد الرحمن الرابع المرتضى", en: "Abd al-Rahman IV al-Murtada", ur: "عبد الرحمن الرابع المرتضى" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "عبد الرحمن الرابع المرتضى، خليفة الأموية في الأندلس ؛ حكم من 1018م إلى 1018م. {cite:bayan-mughrib-idhari}"
+  en: "Abd al-Rahman IV al-Murtada, the caliph of the Umayyad of Cordoba caliphate, ruling 1018–1018 CE. {cite:bayan-mughrib-idhari}"
+  ur: "عبد الرحمن الرابع المرتضى، اموی قرطبہ خلافت کے خلیفہ؛ 1018ء سے 1018۔ {cite:bayan-mughrib-idhari}"
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "1018", calendar: julian, precision: year }, end: { edtf: "1018", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }
+relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }
+sources: [source/bayan-mughrib-idhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

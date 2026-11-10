@@ -11,6 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "1569", precision: year, status: tradition, derived: true }
   end: { edtf: "1569", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [9.1817, 36.7256]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1569"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة باجة ⁦(١٥٦٩)⁩", en: "Battle of Béja (1569)" }, at: [9.1817, 36.7256], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/baja }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118946681

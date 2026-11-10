@@ -20,10 +20,20 @@ relations:
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الفاتح", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/izz-al-din-masud, role: "قائد المواصلة المهزومين عند قرون حماة", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/ibn-asakir, role: "الحاضر الشاهد", sources: [source/encyclopaedia-of-islam-2], note: "شهد وفاة نور الدين وحضر دخول صلاح الدين دمشق {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}" }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-118
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول صلاح الدين دمشق بلا قتال سنة 570", en: "Salah al-Din enters Damascus without fighting in 570" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

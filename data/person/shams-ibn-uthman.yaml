@@ -3,19 +3,25 @@ class: person
 label:
   ar: "شماس بن عثمان"
   en: "Shams ibn Uthman"
+  ur: "شماس بن عثمان"
 roles: [companion]
 gender: male
 summary:
   ar: "شماس بن عثمان المخزومي، صحابي بدر وشهيد أحد، كان يذبّ عن النبي بسيفه؛ رثاه حسان؛ استشهد سنة 3هـ ⁦(625م)⁩."
   en: "Shamas ibn 'Uthman al-Makhzumi (593–625), Companion of Badr, killed shielding the Prophet at Uhud."
+  ur: "شماس بن عثمان المخزومی، بدر کا صحابی، احد میں نبی کی ڈھال بنتے ہوئے مارا گیا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+born: { edtf: "594~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Uhud — carried to Medina alive a day and died at Umm Salama's, the only Uhud casualty buried at al-Baqi' (al-Waqidi, al-Isaba p. 670); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
   - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
   - { type: died_in, target: place/uhud, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1436040)" }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 670", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q7487697
 provenance:

@@ -1,0 +1,22 @@
+id: passage/ibnmajah-3225
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3225"
+label:
+  ar: "ابن ماجه 3225 — نبي قرصته نملة: فهلا نملة واحدة"
+  en: "Ibn Majah 3225 — A prophet stung by an ant: why not just the one ant"
+  ur: "ابن ماجہ 3225 — ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں"
+text: "إن نبيا من الأنبياء قرصته نملة فأمر بقرية النمل فأحرقت فأوحى الله عز وجل إليه في أن قرصتك نملة أهلكت أمة من الأمم تسبح . حدثنا محمد بن يحيى، حدثنا أبو صالح، حدثني الليث، عن يونس، عن ابن شهاب، بإسناده …"
+summary:
+  ar: "حديث قدسي في سنن ابن ماجه، رقم 3225: نبي قرصته نملة: فهلا نملة واحدة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan Ibn Majah, no. 3225: A prophet stung by an ant: why not just the one ant. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن ابن ماجہ میں حدیثِ قدسی، نمبر 3225: ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-qarsat-namla]
+relations:
+  - { type: mentions, target: concept/ant, sources: [source/sunan-ibn-majah] }
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3225; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

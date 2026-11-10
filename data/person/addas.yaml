@@ -1,6 +1,6 @@
 id: person/addas
 class: person
-label: { en: "Addas the Christian", ar: "عداس النينوي" }
+label: { en: "Addas the Christian", ar: "عداس النينوي", ur: "عداس النينوي" }
 names:
   - { kind: full, lang: ar, value: "عداس النينوي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A Christian slave from Nineveh serving Utba and Shayba ibn Rabi'a in their orchard at al-Ta'if; upon offering grapes to the Prophet and hearing the name of Jonah (Yunus), he embraced Islam and kissed the Prophet's head, hands, and feet."
   ar: "غلام نصراني من أهل نينوى كان يعمل في كرم عتبة وشيبة ابني ربيعة بالطائف؛ قدّم عنباً للنبي فسمع تسميته وذكره ليونس بن متى، فأسلم وقبّل رأس النبي ويديه وقدميه."
+  ur: "نینوی کا مسیحی غلام جو طائف میں عتبہ اور شیبہ بن ربیعہ کے باغ میں خدمت کرتا تھا؛ نبی کو انگور پیش کرنے اور نام سننے پر ان سے متاثر ہوا۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -19,6 +20,8 @@ story_roles:
 faith:
   - { value: christian, basis: tradition, end: { edtf: "0619~" } }
   - { value: sunni, basis: tradition, start: { edtf: "0619~" }, note: "أسلم لما عرف خبر يونس بن متى؛ مسجل في الإطار السني للمتحف." }
+born: { edtf: "619~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: born_in, target: place/nineveh }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0619~" }, sources: [source/mubarakpuri-raheeq] }

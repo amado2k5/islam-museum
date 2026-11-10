@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [35.1264, 33.4299]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: site_of, target: event/first-raid-on-cyprus, sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/second-raid-on-cyprus, sources: [source/futuh-buldan-maarif-1407] }
@@ -16,5 +19,6 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 208–215"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-11
+external_ids: { wikidata: "Q644636" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

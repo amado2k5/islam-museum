@@ -37,13 +37,16 @@ external_ids:
   geonames: '99135'
   wikidata: Q186234
   nomisma: al-kufa
+  idai: "2733318"
 sources:
 - source/muntazam-ibn-al-jawzi
 - source/geonames-gazetteer
 - source/muruj-al-dhahab
 - source/bakr-umayyad-state-1134715
+- source/idai-gazetteer
 - source/wikidata
 - source/nomisma
+importance: 1
 status:
   review: draft
   completeness: 1
@@ -55,7 +58,7 @@ provenance:
   model: unknown
   run: education-E3-facts-batch9
 founded:
-  edtf: '0638'
+  edtf: "0638"
   precision: year
   status: historical
   sources:

@@ -18,5 +18,6 @@ provenance:
 external_ids: { wikidata: "Q334882" }
 sources: [source/wafayat-ayan]
 status: { review: published, completeness: 3 }
+died: { edtf: "1087", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Zar', Rawd al-Qirtas; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan], confidence: low }

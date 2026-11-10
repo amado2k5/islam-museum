@@ -15,6 +15,8 @@ provenance:
   run: prose-fill-persons-batch44
 sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status: { review: published, completeness: 3 }
+born: { edtf: "766", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "786", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "In al-Baladhuri he dwelt at Madinat al-Salam (Baghdad).", sources: [source/futuh-buldan-maarif-1407], confidence: high }
   - { type: died_in, target: place/baghdad, note: "Died at Madinat al-Salam per al-Baladhuri.", sources: [source/futuh-buldan-maarif-1407], confidence: high }

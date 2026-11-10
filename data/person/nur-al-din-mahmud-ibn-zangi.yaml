@@ -34,6 +34,7 @@ relations:
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
   - { type: buried_in, target: building/nur-al-din-madrasa-damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q7070003)" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/assabile-tareq-al-suwaidan]
+importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 
 education:

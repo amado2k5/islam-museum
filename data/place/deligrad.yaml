@@ -1,0 +1,20 @@
+id: place/deligrad
+class: place
+kind: town
+label: { ar: "ديليقراد", en: "Deligrad" }
+summary:
+  ar: "بلدة."
+  en: "Village in Nišava, Serbia."
+wings: [place]
+coordinates: [43.6147, 21.5794]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2720854" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2720854 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

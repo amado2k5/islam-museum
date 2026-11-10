@@ -16,6 +16,7 @@ sides:
 map: { kind: campaign, precision: approximate, center: [23.0225, 72.5714] }
 relations:
   - { type: had_participant, target: person/jalal-al-din-akbar, role: "الغازي الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 980)، قراءة آبل فيجن"

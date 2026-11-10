@@ -1,0 +1,20 @@
+id: place/roncevaux-pass
+class: place
+kind: mountain
+label: { ar: "ممر رونسفال", en: "Roncevaux Pass" }
+summary:
+  ar: "جبل."
+  en: "Mountain pass."
+wings: [place]
+coordinates: [43.01972222, -1.32416667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1305618" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1305618 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,12 +1,17 @@
 id: person/yazid-ibn-muawiya
 class: person
+roles: [caliph]
 label: { ar: "يزيد بن معاوية", en: "Yazid ibn Mu'awiya" }
 summary:
   ar: "يزيد بن معاوية بن أبي سفيان، ثاني خلفاء بني أمية؛ عند البلاذري: لما توفي معاوية وولي بعده ابنه يزيد أقفل جند قبرس الذين رتّبهم أبوه بالجزيرة وأمر بهدم مدينتهم — وروى محمد بن مصفى أنه رُشي مالاً عظيماً حتى أقفلهم فهدم أهل قبرس مدينتهم ومساجدهم —؛ وهو الذي وضع الخراج على أراضي السامرة بالأردن وجعل على رأس كل امرئ منهم خمسة دنانير. وعند المسعودي دخل منزله فلم يظهر للناس ثلاثاً حتى خرج أشعث أغبر فخطب وقال كان معاوية حبلاً من حبال الله مده الله ما شاء أن يمده ثم قطعه حين شاء أن يقطعه وكان دون من كان قبله وخير من بعده، وكان صاحب طرب وجوارح وكلاب وقرود وفهود ومنادمة على الشراب، وكان له قرد يكنى بأبي قيس يحمله على أتان وحشية بسرج ولجام ويسابق بها الخيل يوم الحلبة، وفي أيامه ظهر الغناء بمكة والمدينة واستعملت الملاهي {cite:muruj-al-dhahab p. 63-66} ولما أخرج أهل المدينة عامله عثمان بن محمد بن أبي سفيان وبني أمية سنة ثلاث وستين سير إليهم مسلم بن عقبة المري فأخافها ونهبها وبايعهم على أنهم عبيد، ومن هدم الكعبة بمجانيق الحصين بن نمير قبل وفاته بأحد عشر يوماً {cite:muruj-al-dhahab p. 66-69}"
   en: "Yazid ibn Mu'awiya ibn Abi Sufyan, second Umayyad caliph; in al-Baladhuri: when Mu'awiya died and his son Yazid succeeded, he withdrew the garrison his father had stationed in Cyprus and ordered their city demolished — Muhammad ibn Musaffa's report holds he was bribed with great wealth to withdraw them, whereupon the Cypriots demolished their city and mosques; it was he who laid kharaj on the Samaritans' lands in the Jordan, at five dinars on every man's head."
 wings: [people]
 periods: [period/umayyad]
+born: { edtf: "646", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
 relations:
+  - { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: child_of, target: person/muawiya-ibn-abi-sufyan, sources: [source/futuh-buldan-maarif-1407] }
   - { type: child_of, target: person/maysun-bint-bahdal, sources: [source/bakr-umayyad-state-1134715] }
   - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
@@ -15,9 +20,12 @@ relations:
   - { type: lived_in, target: place/qubrus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 209، 216"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 209، 216"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-11, lib-tarikh-khalifa-batch-2-2026-10-31
 sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state, source/tarikh-khalifa-umari-1985, source/assabile-tareq-al-suwaidan]
+importance: 1
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 external_ids: { wikidata: Q217442 }
+story_roles:
+  - { role: ruler, toward: polity/umayyad-caliphate, start: { edtf: "680", calendar: julian, precision: year }, end: { edtf: "683", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

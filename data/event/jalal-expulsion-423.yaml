@@ -19,11 +19,21 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/jalal-al-dawla, role: "الملك المطرود", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-kalijar, role: "مدعوّ للملك", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٣)، قراءة آبل فيجن، مسح AAlexandrina-224011"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-batch23
+map:
+  kind: battle
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "طرد الغلمان جلال الدولة من بغداد ٤٢٣", en: "The ghilman's expulsion of Jalal al-Dawla from Baghdad, 423" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/muntazam-ibn-al-jawzi]
 status:
   review: draft

@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-A'lam" }
+died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-A'lam" }
 relations:
   - { type: born_in, target: place/naraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q644686)" }
   - { type: died_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168193)" }

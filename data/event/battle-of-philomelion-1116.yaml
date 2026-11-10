@@ -11,7 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1116", precision: year, status: tradition, derived: true }
   end: { edtf: "1116", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q2549350
 provenance:

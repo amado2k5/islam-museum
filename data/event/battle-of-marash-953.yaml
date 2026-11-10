@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0953", precision: year, status: tradition, derived: true }
   end: { edtf: "0953", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.945277777778, 37.5875]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0953"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرعش ⁦(٩٥٣)⁩", en: "Battle of Marash" }, at: [36.945277777778, 37.5875], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/marash }
+- { type: during_reign, target: person/al-muti-billah }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2889228

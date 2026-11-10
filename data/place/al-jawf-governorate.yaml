@@ -1,0 +1,20 @@
+id: place/al-jawf-governorate
+class: place
+kind: province
+label: { ar: "محافظة الجوف", en: "Al Jawf Governorate" }
+summary:
+  ar: "مقاطعة."
+  en: "Governorate of Yemen."
+wings: [place]
+coordinates: [16.783333333333, 45.516666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q328128" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q328128 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

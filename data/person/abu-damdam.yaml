@@ -19,5 +19,7 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b002-part2a
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

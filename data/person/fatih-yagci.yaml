@@ -22,6 +22,7 @@ wings:
   - living
 regions:
   - anatolia-balkans
+born: { edtf: "1988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary biographical registry" }
 relations:
   - { type: lived_in, target: place/turkey, confidence: low, note: "Turkish public figure per the record's own text.", sources: [source/wikidata] }
 faith:

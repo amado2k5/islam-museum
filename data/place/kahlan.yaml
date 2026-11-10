@@ -1,0 +1,19 @@
+id: place/kahlan
+class: place
+kind: site
+label: { ar: "كهلان", en: "Kahlan" }
+summary:
+  ar: "Kuhlan Affar (historical fortress of Kahlan), Hajjah, Yemen."
+  en: "Kuhlan Affar (historical fortress of Kahlan), Hajjah, Yemen."
+wings: [place]
+coordinates: [15.7333, 43.7]
+coordinate_precision: locality
+coordinate_note: "Kuhlan Affar (historical fortress of Kahlan), Hajjah, Yemen (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

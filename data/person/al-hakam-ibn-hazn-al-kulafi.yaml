@@ -1,16 +1,19 @@
 id: person/al-hakam-ibn-hazn-al-kulafi
 class: person
-label: { ar: "الحكم بن حزن الكُلَفي", en: "al-Hakam ibn Hazn al-Kulafi" }
+label: { ar: "الحكم بن حزن الكُلَفي", en: "al-Hakam ibn Hazn al-Kulafi", ur: "الحكم بن حزن الكُلَفي" }
 names:
   - { value: "الحكم بن حزن بن كلفة بن حنظلة بن مالك الكُلَفي", kind: full }
 summary:
   ar: "صحابي من بني كُلَف، بطن من تميم، وفد على النبي. روى حديثه أبو داود وأبو يعلى وغيرهما من طريق شعيب بن زريق الطائفي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5146} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5147}"
   en: "A Companion of the Kulaf, a branch of Tamim, who came as a delegation to the Prophet. Abu Dawud, Abu Ya'la and others narrated his report through Shu'ayb ibn Zurayq al-Ta'ifi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5146} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5147}"
+  ur: "تمیم کی شاخ کلاف کے صحابی جو وفد کے طور پر نبی کے پاس آئے؛ ابو داؤد، ابو یعلیٰ و دیگر نے ان کی روایت نقل کی۔"
 gender: male
 roles: [companion]
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الطائفي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}

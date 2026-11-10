@@ -1,0 +1,104 @@
+---
+// A single divine name's page (docs/plan/29-asma-browser.md): the name, its transliteration and
+// meaning, then its stories grouped from the graph — Qur'an passages, hadith, seerah events,
+// Companions and the righteous — plus its curated prose and the canonical entity record. Every
+// section is computed from edges at build time and hidden when empty; the page works without JS.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, summaryOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { renderProse, newHonState } from "../../../lib/markdown";
+import { asmaNodes, asmaBySlug, sectionsOf } from "../../../lib/asma";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => asmaNodes.map((n) => ({ params: { lang, slug: n.slug }, props: { lang, node: n } })));
+}
+const { lang, node: n } = Astro.props as { lang: Lang; node: (typeof asmaNodes)[number] };
+const T = ui(lang);
+const A = T.asma;
+const label = (x: { label: any; slug: string }) => labelOf(x as any, lang);
+const S = sectionsOf(n.id);
+const meta = (n.data as any).name_meta ?? {};
+const proseLang = n.prose?.[lang] ? lang : n.prose?.ar ? "ar" : n.prose?.en ? "en" : null;
+const prose = proseLang ? n.prose![proseLang] : null;
+const hon = newHonState();
+// citation numbers are per-section in renderProse; re-number globally and collect them for the footnote list
+const citeList: { source: string; locator?: string }[] = [];
+const citeIndex = (c: { source: string; locator?: string }) => {
+  let i = citeList.findIndex((x) => x.source === c.source && x.locator === c.locator);
+  if (i < 0) { citeList.push(c); i = citeList.length - 1; }
+  return i + 1;
+};
+const renumberR = (r: { html: string; cites: { n: number; source: string; locator?: string }[] }) => {
+  const map = new Map(r.cites.map((c) => [c.n, citeIndex(c)]));
+  return (h: string) =>
+    h.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => {
+      const g = map.get(Number(k))!;
+      return `<sup class="cite"><a href="#note-${g}">${g}</a></sup>`;
+    });
+};
+const sections = (prose?.sections ?? []).map((s: any) => {
+  const r = renderProse(s.markdown, lang, hon);
+  return { heading: s.heading, html: renumberR(r)(r.html) };
+});
+const groups: { key: keyof typeof S; title: string }[] = [
+  { key: "quran", title: A.sec_quran },
+  { key: "hadith", title: A.sec_hadith },
+  { key: "seerah", title: A.sec_seerah },
+  { key: "sahaba", title: A.sec_sahaba },
+  { key: "saliheen", title: A.sec_saliheen },
+];
+---
+<BaseLayout lang={lang} title={`${n.label.ar} — ${label(n)}`} description={summaryOf(n, lang)} path={`/${lang}/asma/${n.slug}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/asma/`}>{A.title}</a> › {n.label.ar}</nav>
+    <div data-pagefind-body>
+      <header style="text-align:center;padding-block:1rem 1.5rem">
+        <p class="ui muted" style="margin:0">{A.order_label.replace("{n}", num(n.data.order, lang))}</p>
+        <h1 lang="ar" dir="rtl" style="font-size:3.2rem;margin:.4rem 0 .2rem">{n.label.ar}</h1>
+        {meta.transliteration && <p class="ui muted" style="margin:0;font-size:1.1rem">{meta.transliteration}</p>}
+        <p style="font-size:1.15rem;max-width:var(--measure);margin:.8rem auto 0">{summaryOf(n, lang)}</p>
+      </header>
+
+      {sections.length > 0 && (
+        <article class="prose" style="max-width:var(--measure);margin:0 auto">
+          {sections.map((s) => (<section><h2>{s.heading}</h2><div set:html={s.html} /></section>))}
+        </article>
+      )}
+
+      {groups.map(({ key, title }) => S[key].length > 0 && (
+        <section style="max-width:var(--measure);margin:1.5rem auto">
+          <h2>{title}</h2>
+          <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+            {S[key].map((t) => (
+              <li><a class="chip" href={href(lang, t.id)}>{key === "quran" || key === "hadith" ? (t.data.ref ?? label(t)) : label(t)}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {S.paired.length > 0 && (
+        <section style="max-width:var(--measure);margin:1.5rem auto">
+          <h2>{A.sec_paired}</h2>
+          <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+            {S.paired.map((t) => <li><a class="chip" href={`/${lang}/asma/${t.slug}/`}>{label(t)}</a></li>)}
+          </ul>
+        </section>
+      )}
+
+      {citeList.length > 0 && (
+        <section class="sec ui" aria-labelledby="src" style="max-width:var(--measure);margin:1.5rem auto">
+          <h2 id="src">{T.entity.sources}</h2>
+          <ol style="padding-inline-start:1.4rem;font-size:.92rem">
+            {citeList.map((c, i) => {
+              const s = byId.get(c.source);
+              return <li id={`note-${i + 1}`}>{s ? labelOf(s as any, lang) : c.source}{c.locator ? `, ${c.locator}` : ""}</li>;
+            })}
+          </ol>
+        </section>
+      )}
+
+      <p class="ui" style="max-width:var(--measure);margin:2rem auto 0"><a href={href(lang, n.id)}>{A.record_link} ←</a></p>
+    </div>
+  </div>
+</BaseLayout>

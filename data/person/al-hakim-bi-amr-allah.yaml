@@ -6,11 +6,12 @@ summary:
   en: "Mansur ibn al-Aziz, sixth Ubaydid caliph, titled al-Hakim bi-Amr Allah {cite:tarikh-khulafa-minhaj-1434 p. 636}. Al-Maqrizi says he disappeared in Shawwal 411 AH, and prefers the account of a man who confessed to killing him in 415 AH {cite:khitat-maqrizi-1998 p.2041}."
   ur: "منصور بن العزیز، چھٹے عبیدی خلیفہ، جن کا لقب الحاکم بامر اللہ تھا؛ مقریزی 411ھ میں ان کے غائب ہونے کا ذکر کرتے ہیں۔ {cite:khitat-maqrizi-1998}"
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  source: "تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 626–636"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-37
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
@@ -22,7 +23,13 @@ status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; t
 education:
   levels: [scholars]
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+born: { edtf: "985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hakim bi-Amr Allah' / Heinz Halm)" }
+died: { edtf: "1021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hakim bi-Amr Allah' / Heinz Halm)" }
 relations:
+  - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-aziz-fatimid, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
   - { type: ruler_of, target: place/misr, note: "Sixth Ubaydid (Fatimid) caliph ruling from Cairo.", sources: [source/tarikh-khulafa-minhaj-1434, source/khitat-maqrizi-1998, source/shadharat-dhahab], confidence: high }
   - { type: built, target: building/mosque-of-al-hakim, sources: [source/yeomans-islamic-cairo-2006] }
 sensitivity: contested
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "996", calendar: julian, precision: year }, end: { edtf: "1021", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }

@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0985", precision: year, status: tradition, derived: true }
   end: { edtf: "0985", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [2.0080555555556, 41.561111111111]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0985"
+  features:
+    - { type: point, role: event_point, label: { ar: "غزو روفيرانس", en: "Battle of Rovirans" }, at: [2.0080555555556, 41.561111111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/terrassa }
+sides:
+  - label: { ar: "قوات هشام المؤيد بالله", en: "The forces of هشام المؤيد بالله" }
+    participants: [person/hisham-ii-al-muayyad]
+  - label: { ar: "حامية روفيرانس", en: "The defenders of Rovirans" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q8244418

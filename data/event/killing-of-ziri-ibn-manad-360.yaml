@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/ziri-ibn-manad, role: "المقتول", sources: [source/shadharat-dhahab] }
   - { type: occurred_at, target: place/ashir, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-muizz-li-din-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

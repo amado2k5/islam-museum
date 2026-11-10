@@ -1,0 +1,17 @@
+id: polity/kingdom-of-france
+class: polity
+kind: kingdom
+label: { ar: "مملكة فرنسا", en: "Kingdom of France" }
+summary:
+  ar: "دولة ملكية حكمت فرنسا ⁦(٩٨٧–١٧٩٢ ثم ١٨١٤–١٨٤٨)⁩."
+  en: "The monarchic state that ruled France from 987 to 1792, and again from 1814 to 1848."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q70972" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q70972 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1837", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "1908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
 relations:
   - { type: born_in, target: place/estahban, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q888711)" }
 sources: [source/al-aalam]

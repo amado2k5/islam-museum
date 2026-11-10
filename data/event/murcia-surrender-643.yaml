@@ -12,11 +12,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1243~", hijri: "0641~", calendar: julian, precision: year, status: debated, derived: true, note: "ورد الخبر في تتابع ضياع المدن بعد كورة مرسية عن ابن هود 626 وقبل فتح إشبيلية 646، ولم يصرح النص المنقول بالسنة؛ اليوم 'الخميس العاشر من شوال' {cite:nafh-tib-maqqari p. 476}." }
 relations:
-  - { type: had_participant, target: person/ibn-hud-al-judhami, role: "سلمها ابن واليها أحمد بن محمد بن هود", sources: [source/nafh-tib-maqqari] }
+  - { type: related_to, target: person/ibn-hud-al-judhami, role: "سلمها ابن واليها أحمد بن محمد بن هود", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 476"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-59
+sides:
+  - label: { ar: "قوات السعيد المعتضد الموحدي", en: "The forces of al-Said al-Mu'tadid, Almohad caliph" }
+    participants: [person/said-al-mutadid-almohad]
+  - label: { ar: "حامية تمليك مرسية للعدو صلحاً", en: "The defenders of Murcia handed to the enemy by treaty" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

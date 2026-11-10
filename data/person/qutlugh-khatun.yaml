@@ -11,6 +11,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Qotlogh Tarkan Katun)" }
 relations:
 - { type: "ruler_of", target: "polity/qutlughkhanid-kirman", note: "حكمت كرمان 655-681هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
 - { type: ruler_of, target: place/kirman, sources: [source/tarikh-islam-hasan-ibrahim], confidence: low, note: "- { type: 'ruler_of', target: 'polity/qutlughkhanid-kirman', note: 'حكمت كرمان 655-681هـ', sources: [source/ta" }

@@ -1,0 +1,19 @@
+id: person/al-mustamsik-cairo
+class: person
+label: { ar: "المستمسك", en: "al-Mustamsik", ur: "المستمسك" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "المستمسك، خليفة العباسية في القاهرة ؛ حكم من 1497م إلى 1517م. {cite:tarikh-khulafa-minhaj-1434}"
+  en: "al-Mustamsik, the caliph of the Abbasid of Cairo caliphate, ruling 1497–1517 CE. {cite:tarikh-khulafa-minhaj-1434}"
+  ur: "المستمسك، عباسی قاہرہ خلافت کے خلیفہ؛ 1497ء سے 1517۔ {cite:tarikh-khulafa-minhaj-1434}"
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1497", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1516", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/suluk-maqrizi] }
+relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

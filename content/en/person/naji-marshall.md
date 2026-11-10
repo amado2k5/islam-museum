@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Naji Marshall (born 24 January 1998) is an American basketball forward from Atlantic City, New Jersey. A star at Xavier, he went undrafted in 2020 and earned his place in the NBA with the New Orleans Pelicans, playing four seasons there before signing with the Dallas Mavericks in 2024.{cite:wikipedia-naji-marshall-en}{cite:wikidata-naji-marshall}
 

@@ -11,7 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1388", precision: year, status: tradition, derived: true }
   end: { edtf: "1388", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Kingdom of Bosnia", ar: "مملكة البوسنة" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q700874
 provenance:

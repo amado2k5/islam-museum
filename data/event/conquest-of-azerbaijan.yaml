@@ -14,6 +14,19 @@ relations:
   - { type: had_participant, target: person/said-ibn-al-as, role: "الوالي الغازي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/azerbaijan }
 wings: [time]
+sides:
+  - label: { ar: "جيش حذيفة بن اليمان", en: "Hudhayfa ibn al-Yaman's army" }
+    commanders: [person/hudhayfa-ibn-al-yaman, person/utba-ibn-farqad, person/said-ibn-al-as]
+  - label: { ar: "أذربيجان", en: "Azerbaijan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.25, 46.3]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أذربيجان", en: "Conquest of Azerbaijan" }, at: [38.25, 46.3], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

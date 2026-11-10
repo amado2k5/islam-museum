@@ -11,7 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "1813", precision: year, status: tradition, derived: true }
   end: { edtf: "1813", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [72.689027777778, 33.819486111111]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1813"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة حسن عبدال ⁦(١٨١٣)⁩", en: "Battle of Hasan Abdal (1813)" }, at: [72.689027777778, 33.819486111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/hasan-abdal }
+sides:
+  - label: { en: "Durrani Empire", ar: "الدولة الدرانية" }
+    participants: [polity/durrani-empire]
+  - label: { en: "Sikh Empire", ar: "إمبراطورية السيخ" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118313075
 provenance:

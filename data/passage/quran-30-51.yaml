@@ -16,6 +16,7 @@ translations:
   en: { text: "And if We sent a wind and they beheld it yellow, they verily would still continue in their disbelief.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اگر ہم ایسی ہوا بھیجیں کہ وہ (اس کے سبب) کھیتی کو دیکھیں (کہ) زرد (ہو گئی ہے) تو اس کے بعد وہ ناشکری کرنے لگ جائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/wind, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

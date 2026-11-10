@@ -11,7 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1485", precision: year, status: tradition, derived: true }
   end: { edtf: "1485", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Principality of Moldavia", ar: "إمارة ملداوة" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2435832
 provenance:

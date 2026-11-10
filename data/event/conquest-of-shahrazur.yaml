@@ -11,6 +11,19 @@ relations:
   - { type: had_participant, target: person/uzra-ibn-qays, role: "العاجز قبله", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/shahrazur }
 wings: [time]
+sides:
+  - label: { ar: "جيش عتبة بن فرقد السلمي", en: "Utba ibn Farqad al-Sulami's army" }
+    commanders: [person/utba-ibn-farqad]
+  - label: { ar: "شهرزور", en: "Shahrazur" }
+map:
+  kind: campaign
+  precision: locality
+  center: [45.32, 35.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح شهرزور والصامغان ودراباذ", en: "Conquest of Shahrazur, al-Samaghan and Darabadh" }, at: [45.32, 35.5], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

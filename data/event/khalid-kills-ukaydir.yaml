@@ -15,10 +15,25 @@ relations:
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قتله وفتح دومة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ukaydir-ibn-abd-al-malik, role: "نقض العهد ومنع الصدقة فقُتل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-bakr, role: "أمر خالداً بالمسير إلى أكيدر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 83–84"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-3
+sides:
+  - label: { ar: "قوات أبو بكر الصديق", en: "The forces of Abu Bakr al-Siddiq" }
+    participants: [person/abu-bakr]
+  - label: { ar: "حامية دُومة الجندل", en: "The defenders of Dumat al-Jandal" }
+    participants: [place/dumat-al-jandal]
+map:
+  kind: campaign
+  precision: locality
+  center: [29.8114, 39.8683]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "قتل أكيدر وفتح دومة الجندل", en: "Khalid Kills Ukaydir and Takes Dumat al-Jandal" }, at: [29.8114, 39.8683], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

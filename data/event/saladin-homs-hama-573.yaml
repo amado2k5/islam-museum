@@ -12,10 +12,25 @@ relations:
   - { type: occurred_at, target: place/homs, sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/hama, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch02
+sides:
+  - label: { ar: "قوات المستضيء بأمر الله الحسن بن المستنجد", en: "The forces of al-Mustadi bi-Amr Allah al-Hasan ibn al-Mustanjid" }
+    participants: [person/al-mustadi-billah]
+  - label: { ar: "حامية حمص", en: "The defenders of Hims (Emesa)" }
+    participants: [place/homs]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.733333333333, 36.716666666667]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك صلاح الدين حمص وحماة", en: "Saladin takes Homs and Hama" }, at: [34.733333333333, 36.716666666667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

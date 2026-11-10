@@ -13,6 +13,19 @@ relations:
   - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "حامل البشرى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/rayshahr }
 wings: [time]
+sides:
+  - label: { ar: "جيش الحكم بن أبي العاص الثقفي", en: "al-Hakam ibn Abi al-As al-Thaqafi's army" }
+    commanders: [person/al-hakam-ibn-abi-al-as]
+  - label: { ar: "ريشهر", en: "Rayshahr" }
+map:
+  kind: battle
+  precision: locality
+  center: [28.9056, 50.8256]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة ريشهر ومقتل شهرك", en: "Battle of Rayshahr and Shahrak's Death" }, at: [28.9056, 50.8256], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -3,6 +3,7 @@ class: person
 label:
   ar: زياد بن لبيد البياضي
   en: Ziyad ibn Labid al-Bayadi
+  ur: "زياد بن لبيد البياضي"
 names:
 - kind: full
   lang: ar
@@ -17,6 +18,7 @@ summary:
     ما كان يتولى من حضرموت.
   en: An Ansari Companion; al-Baladhuri's transmitters agree the Prophet appointed him over Hadramawt, and Abu Bakr on succeeding
     wrote him into the governorship of Kinda and al-Sadif in addition to what he held of Hadramawt.
+  ur: "انصاری صحابی؛ بلاذری کے راوی متفق ہیں کہ نبی نے اسے حضرموت پر مقرر کیا اور ابو بکر نے جانشینی میں اسے اسی عہدے پر رکھا۔"
 wings:
 - people
 periods:
@@ -29,6 +31,7 @@ provenance:
   source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 93
   generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-futuh-buldan-batch-4
+died: { edtf: "661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
 - type: participated_in
   target: event/dispatch-of-sadaqa-collectors

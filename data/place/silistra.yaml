@@ -1,0 +1,20 @@
+id: place/silistra
+class: place
+kind: city
+label: { ar: "سيليسترا", en: "Silistra" }
+summary:
+  ar: "مدينة."
+  en: "City in Silistra municipality, Silistra oblast, Bulgaria."
+wings: [place]
+coordinates: [44.109238, 27.265381]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q182428" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q182428 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

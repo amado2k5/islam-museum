@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0837", precision: year, status: tradition, derived: true }
   end: { edtf: "0837", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتصم بالله", en: "The forces of al-Mu'tasim" }
+    participants: [person/al-mutasim]
+  - label: { ar: "حامية أرسموساطة", en: "The defenders of Arsamosata" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139892624

@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1432", precision: year, status: tradition, derived: true }
   end: { edtf: "1432", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [10.8833, 33.7837]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1432"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار جربة ⁦(١٤٣٢)⁩", en: "Siege of Djerba (1432)" }, at: [10.8833, 33.7837], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/djerba }
+sides:
+  - label: { ar: "قوات المعتضد بالله داود بن المتوكل", en: "The forces of al-Mu'tadid bi-llah Dawud ibn al-Mutawakkil" }
+    participants: [person/al-mutadid-billah-ii-cairo]
+  - label: { ar: "حامية جربة", en: "The defenders of Djerba" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q17605482

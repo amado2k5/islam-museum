@@ -1,0 +1,20 @@
+id: place/albelda-de-iregua
+class: place
+kind: province
+label: { ar: "البيضاء", en: "Albelda de Iregua" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain."
+wings: [place]
+coordinates: [42.3575, -2.472777777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1623553" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1623553 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

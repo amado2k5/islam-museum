@@ -3,6 +3,7 @@ class: person
 label:
   ar: الحكم بن كيسان
   en: Al-Hakam ibn Kaysan
+  ur: "الحكم بن كيسان"
 names:
 - kind: full
   lang: ar
@@ -15,6 +16,7 @@ traditions:
 summary:
   ar: مولى لبني مخزوم أُسر في سرية عبد الله بن جحش ⁦(نخلة)⁩، فأسلم عند النبي وقُتل شهيداً ببئر معونة؛ وكان حجّاماً في ما رواه الهيثم بن عدي.
   en: A client (mawla) of the Banu Makhzum, taken captive on the expedition of Abd Allah ibn Jahsh (Nakhla); he accepted Islam in the Prophet's presence and was killed at Bi'r Ma'una. Al-Haytham ibn Adi reports that he was a cupper by trade.
+  ur: "بنو مخزوم کے مولیٰ جو عبد اللہ بن جحش کی مہم ⁦(نخلہ)⁩ میں قیدی بنے؛ نبی کے حضور اسلام لائے اور فدک میں رہے۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0625", hijri: "0004", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Bi'r Ma'una, 4 AH (al-Isaba p. 335); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab

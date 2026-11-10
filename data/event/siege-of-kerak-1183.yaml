@@ -11,6 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1183", precision: year, status: tradition, derived: true }
   end: { edtf: "1183", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.70138889, 31.18055556]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1183"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الكرك ⁦(١١٨٣)⁩", en: "Siege of Kerak" }, at: [35.70138889, 31.18055556], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/kerak-castle }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "حامية الكرك بقيادة رينو", en: "The Kerak garrison under Reynald" }
+    participants: [person/raynald-de-chatillon]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q815156

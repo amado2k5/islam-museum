@@ -15,6 +15,7 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+died: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجستاني); denotes association, not proven residence.", sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1], confidence: low }
   - { type: student_of, target: person/abu-dawud-al-sijistani, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }

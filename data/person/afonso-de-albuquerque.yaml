@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/gunpowder-empires]
+born: { edtf: "1453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1515", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/portugal, note: "Place association from the person's nisba/name (البرتغالي); denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: opposed, target: polity/safavid-iran, sources: [] }

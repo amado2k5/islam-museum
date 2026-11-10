@@ -6,6 +6,8 @@ summary:
   en: "Muhammad ibn al-Qasim al-Thaqafi, conqueror of Sind in al-Walid ibn Abd al-Malik's caliphate; in al-Baladhuri: al-Walid transferred to Antioch a company of the Sindhi Zutt whom Muhammad ibn al-Qasim had assigned to al-Hajjaj, who sent them on to Syria — as Mu'awiya had earlier, in year 49 or 50, moved companies of Basra's Zutt and Sayabija to the coasts, settling some at Antioch."
 wings: [people]
 periods: [period/umayyad]
+born: { edtf: "695", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Baladhuri (Futuh al-Buldan)" }
+died: { edtf: "715", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Baladhuri (Futuh al-Buldan)" }
 relations:
   - { type: participated_in, target: event/conquest-of-sind-89, role: "القائد الفاتح", sources: [source/umayyad-birth-to-fall-2006] }
   - { type: born_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182640)" }
@@ -18,4 +20,5 @@ provenance:
   run: lib-futuh-buldan-batch-12
 external_ids: { wikidata: "Q32991" }
 sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

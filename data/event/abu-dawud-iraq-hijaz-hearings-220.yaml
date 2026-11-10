@@ -22,6 +22,7 @@ relations:
   - { type: had_participant, target: person/al-qanabi, role: "الشيخ بمكة", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/sulayman-ibn-harb, role: "الشيخ بمكة", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/affan-ibn-muslim, role: "المتوفَّى المصلَّى عليه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

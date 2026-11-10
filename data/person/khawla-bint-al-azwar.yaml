@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, battles, conquest-and-its-debates]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "639~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Sham (al-Waqidi)" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
   - { type: sibling_of, target: person/dirar-ibn-al-azwar, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }

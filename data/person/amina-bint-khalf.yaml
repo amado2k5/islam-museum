@@ -1,6 +1,6 @@
 id: person/amina-bint-khalf
 class: person
-label: { en: Amina bint Khalf, ar: "أمينة بنت خلف" }
+label: { en: Amina bint Khalf, ar: "أمينة بنت خلف", ur: "أمينة بنت خلف" }
 names:
   - { kind: full, lang: ar, value: "أمينة بنت خلف بن أسعد" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "زوجة خالد بن سعيد بن العاص، هاجرت معه إلى الحبشة وولدت له هناك سعيداً وأمة."
   en: Wife of Khalid ibn Sa'id ibn al-As; she emigrated with him to Abyssinia and bore him Sa'id and Ama there.
+  ur: "خالد بن سعید بن العاص کی بیوی؛ ان کے ساتھ حبشہ ہجرت کی اور وہیں سعید اور آما کو جنم دیا۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -22,13 +23,15 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia with her husband Khalid ibn Sa'id — Ibn Ishaq (al-Isaba p. 1823)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 3"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch110
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

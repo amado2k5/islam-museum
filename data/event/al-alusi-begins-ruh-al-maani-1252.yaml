@@ -16,6 +16,7 @@ date:
   start: { edtf: "1836-11-26", hijri: "1252-08-16", calendar: gregorian, precision: day, status: historical, derived: true, note: "«وكان الشروع في الليلة السادسة عشرة من شعبان المبارك من السنة المذكورة» {cite:ruh-al-maani-ilmiyya-1994-v1 p.5}؛ التحويل جدولي مشتق." }
 relations:
   - { type: had_participant, target: person/mahmud-al-alusi, role: "المؤلف", sources: [source/ruh-al-maani-ilmiyya-1994-v1] }
+  - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/ruh-al-maani-ilmiyya-1994-v1]
 provenance:
   layer: own-research

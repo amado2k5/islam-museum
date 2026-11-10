@@ -17,6 +17,7 @@ map: { kind: route, precision: approximate, center: [30.5, 43.5] }
 relations:
   - { type: had_participant, target: person/ali-ibn-mazyad, role: "القائد الذي لاحق بني خفاجة وأسر أبا فليتة", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/fakhr-al-mulk-ibn-khalaf, role: "الوزير الآمر بإنقاذ الناجين وتوجيه ابن مزيد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 403)، قراءة آبل فيجن"

@@ -3,6 +3,7 @@ class: person
 label:
   ar: أم سنبلة الأسلمية
   en: Umm Sunbula al-Aslamiyya
+  ur: "أم سنبلة الأسلمية"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: 'صحابية من أسلم؛ روت عنها عائشة أنها أهدت إلى النبي لبناً وهو في بيت عائشة، وقالت عائشة إن النبي نهى عن طعام الأعراب، فقال: «ليسوا بأعراب، هم أهل باديتنا ونحن أهل حاضرتهم، إذا دعوناهم أجابوا».'
   en: A Companion of Aslam about whom Aisha related that she brought the Prophet milk as a gift; Aisha remarked he had forbidden eating from bedouin, and he said 'They are not bedouin; they are the people of our desert and we are the people of
     their town, and when we call them they answer.'
+  ur: "اسلم کی صحابیہ جس کے بارے میں عائشہ نے روایت کیا کہ وہ نبی کو تحفے میں دودھ لائی؛ عائشہ نے کہا کہ انہوں نے کھانے سے منع کیا تھا۔"
 wings: [people]
 themes:
 - women
@@ -33,6 +35,7 @@ story_roles:
   note: مذكور في الإصابة ترجمة رقم 12125 (ص 2008).
   sources:
   - source/ibn-hajar-isaba
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, al-Isaba; Usd al-Ghaba" }
 relations:
   - { type: lived_in, target: place/hijaz, sources: [source/ibn-hajar-isaba] }
 faith:

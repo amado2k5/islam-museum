@@ -1,6 +1,6 @@
 id: person/amra-bint-al-saadi
 class: person
-label: { en: Umra bint al-Sa'di, ar: "عمرة بنت السعدي" }
+label: { en: Umra bint al-Sa'di, ar: "عمرة بنت السعدي", ur: "عمرة بنت السعدي" }
 names:
   - { kind: full, lang: ar, value: "عمرة بنت السعدي بن وقدان بن عبد شمس" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "زوجة مالك بن ربيعة، من بني عامر بن لؤي، هاجرت معه إلى الحبشة."
   en: Wife of Malik ibn Rabi'a, of Banu Amir ibn Lu'ayy; she emigrated with him to Abyssinia.
+  ur: "مالک بن ربیعہ کی بیوی، بنو عامر بن لوی سے؛ ان کے ساتھ حبشہ ہجرت کی۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,19 +18,23 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص5)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: member_of, target: group/banu-amir, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/malik-ibn-rabi, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia with her husband Malik ibn Qays (Ibn Ishaq, al-Isaba p. 1926)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 5"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch39
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

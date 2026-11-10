@@ -11,7 +11,15 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0879", precision: year, status: tradition, derived: true }
   end: { edtf: "0879", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: building/loulon }
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+    participants: [polity/abbasid-caliphate]
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137462183
 provenance:

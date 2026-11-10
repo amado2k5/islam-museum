@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/gunpowder-empires]
+born: { edtf: "1440", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/russia, confidence: low, note: "Grand Prince of Moscow in the land of Rus; an earlier ruler_of edge to the Ottoman Empire misread the source and was removed.", sources: [source/dawlat-uthmaniyya-salabi, source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi]

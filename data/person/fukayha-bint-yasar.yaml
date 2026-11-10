@@ -1,6 +1,6 @@
 id: person/fukayha-bint-yasar
 class: person
-label: { en: Fukayha bint Yasar, ar: "فكيهة بنت يسار" }
+label: { en: Fukayha bint Yasar, ar: "فكيهة بنت يسار", ur: "فكيهة بنت يسار" }
 names:
   - { kind: full, lang: ar, value: "فكيهة بنت يسار" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "زوجة حطاب بن الحارث الجمحي، هاجرت إلى الحبشة وقدمت في إحدى السفينتين بعد هلاك زوجها هناك."
   en: Wife of Hattab ibn al-Harith al-Jumahi; she emigrated to Abyssinia and arrived in one of the ships after her husband died there.
+  ur: "حطاب بن حارث الجمحی کی بیوی؛ حبشہ ہجرت کی اور شوہر کے وہاں فوت ہونے کے بعد ایک کشتی میں پہنچی۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,19 +18,23 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/hattab-ibn-al-harith, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "an early Muslim of Mecca who pledged allegiance and made both migrations (Ibn Ishaq and Ibn Sa'd, al-Isaba p. 1945)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

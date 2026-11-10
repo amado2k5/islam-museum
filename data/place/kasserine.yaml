@@ -1,0 +1,20 @@
+id: place/kasserine
+class: place
+kind: town
+label: { ar: "القصرين", en: "Kasserine" }
+summary:
+  ar: "بلدة."
+  en: "Tunisian town."
+wings: [place]
+coordinates: [35.166666666667, 8.8333333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q852735" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q852735 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

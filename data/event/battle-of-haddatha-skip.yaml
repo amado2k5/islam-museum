@@ -12,6 +12,18 @@ date:
   start: { edtf: "2024", precision: year, status: tradition, derived: true }
   end: { edtf: "2024", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [35.38333333, 33.16666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2024"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة حداثا", en: "Battle of Haddatha" }, at: [35.38333333, 33.16666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/haddatha }
 external_ids:
   wikidata: Q139975243
 provenance:

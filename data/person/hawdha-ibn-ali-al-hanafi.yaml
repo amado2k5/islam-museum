@@ -11,6 +11,7 @@ roles: [emir]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/al-yamama, sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/banu-hanifa, sources: [source/kamil-ibn-al-athir] }

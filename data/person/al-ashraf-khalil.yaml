@@ -9,6 +9,8 @@ roles: [sultan]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile, levant-iraq]
+born: { edtf: "1262", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ashraf Khalil)" }
+died: { edtf: "1293", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ashraf Khalil)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434], confidence: low }
   - { type: child_of, target: person/qalawun, sources: [source/shadharat-dhahab] }

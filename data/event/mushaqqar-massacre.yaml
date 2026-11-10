@@ -13,7 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/al-mukabbir-azad-firuz, role: "عامل كسرى بالبحرين، صاحب المذبحة", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-tamim, role: "المقتولون", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/sasaa-ibn-najiya, role: "الحاث على أخذ الأموال", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/sasaa-ibn-najiya, role: "الحاث على أخذ الأموال", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hawdha-ibn-ali-al-hanafi, role: "وسط الكسرى واستوهب مائة أسير", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:

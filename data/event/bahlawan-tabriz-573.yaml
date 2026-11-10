@@ -11,11 +11,24 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/tabriz, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/bahlawan-ildigizi, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/shams-al-din-ildigiz, role: "أبوه", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/shams-al-din-ildigiz, role: "أبوه", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch02
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية تبريز", en: "The defenders of Tabriz" }
+    participants: [place/tabriz]
+map:
+  kind: campaign
+  precision: locality
+  center: [38.08, 46.2919]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك البهلوان مدينة تبريز", en: "al-Bahlawān takes Tabrīz" }, at: [38.08, 46.2919], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

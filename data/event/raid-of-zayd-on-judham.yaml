@@ -33,6 +33,15 @@ sides:
   - label: { ar: "جذام بحرة الرجلاء ووادي مدان", en: "Judham at Harrat al-Rajla' and Wadi Madan" }
     participants: [group/judham, group/banu-dubayb, group/banu-dula]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 260-265", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.5, 37.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة زيد بن حارثة إلى جذام وردّ النبي ما أُخذ منهم", en: "Zayd ibn Haritha's raid on Judham and the Prophet's restitution" }, at: [31.5, 37.5], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 260-265; date single-source" }
 

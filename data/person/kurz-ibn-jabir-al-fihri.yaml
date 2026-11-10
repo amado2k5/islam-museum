@@ -1,6 +1,6 @@
 id: person/kurz-ibn-jabir-al-fihri
 class: person
-label: { en: "Kurz ibn Jabir al-Fihri", ar: "كرز بن جابر الفهري" }
+label: { en: "Kurz ibn Jabir al-Fihri", ar: "كرز بن جابر الفهري", ur: "كرز بن جابر الفهري" }
 names:
   - { kind: full, lang: ar, value: "كرز بن جابر بن وهب بن حبيب بن هلال الفهري" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A Companion from Banu Muharib ibn Fihr; in the conquest of Mecca he rode in Khalid ibn al-Walid's cavalry, strayed off the main road with Khunays ibn Khalid, and was killed defending his fallen comrade at al-Khandama."
   ar: "صحابي من بني محارب بن فهر؛ سار في خيل خالد بن الوليد يوم فتح مكة فشذّ مع خنيس بن خالد عن الطريق فلقيا المقاتلين بالخندمة، فقُتل وهو يدافع عن خنيس راجزًا."
+  ur: "بنو محارب بن فہر کا صحابی؛ فتح مکہ میں خالد بن ولید کی سواری میں تھا اور خناس کے ساتھ مرکزی راستے سے ہٹا۔"
 wings: [people]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: martyr, status: tradition, note: "استشهد يوم فتح مكة بالخندمة مدافعًا عن خنيس بن خالد وهو يرتجز: «لأضربن اليوم عن أبي صخر…».", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي شهيد يوم الفتح." }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "أمير الطلب؛ لحق القوم وأتى بهم", sources: [source/ibn-hisham-saqqa] }

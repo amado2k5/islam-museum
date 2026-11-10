@@ -12,6 +12,18 @@ date:
   start: { edtf: "1146", precision: year, status: tradition, derived: true }
   end: { edtf: "1146", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [-4.78, 37.89]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1146"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قرطبة ⁦(١١٤٦)⁩", en: "Siege of Córdoba (1146)" }, at: [-4.78, 37.89], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/c-rdoba }
 external_ids:
   wikidata: Q131459792
 provenance:

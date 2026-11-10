@@ -14,10 +14,18 @@ date:
 relations:
   - { type: had_participant, target: person/abdallah-ibn-muawiya-ibn-abdallah-ibn-jafar, role: "المدعو له", sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/abdallah-ibn-umar-ibn-abd-al-aziz, role: "عامل الكوفة", sources: [source/tabari-khayyat-part2] }
+  - { type: during_reign, target: person/al-walid-ibn-yazid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/yazid-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/ibrahim-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 127، ص 607–611"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tabari-96-130-03
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات الوليد بن يزيد بن عبد الملك", en: "The authorities of al-Walid ibn Yazid ibn Abd al-Malik" }
+    participants: [person/al-walid-ibn-yazid]
 sources: [source/tabari-khayyat-part2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

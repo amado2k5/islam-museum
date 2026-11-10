@@ -16,5 +16,6 @@ sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab], confidence: low }

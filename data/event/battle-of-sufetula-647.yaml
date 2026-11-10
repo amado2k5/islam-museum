@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "0647", precision: year, status: tradition, derived: true }
   end: { edtf: "0647", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [9.1203194444444, 35.240380555556]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0647"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سبيطلة", en: "Battle of Sufetula" }, at: [9.1203194444444, 35.240380555556], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/sufetula }
+sides:
+  - label: { ar: "قوات عثمان بن عفان", en: "The forces of Uthman ibn Affan" }
+    participants: [person/uthman-ibn-affan]
+  - label: { ar: "حامية سبيطلة", en: "The defenders of Sufetula" }
 sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]
 external_ids:
   wikidata: Q12244179

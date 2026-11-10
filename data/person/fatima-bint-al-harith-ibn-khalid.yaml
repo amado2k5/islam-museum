@@ -1,6 +1,6 @@
 id: person/fatima-bint-al-harith-ibn-khalid
 class: person
-label: { en: Fatima bint al-Harith ibn Khalid, ar: "فاطمة بنت الحارث بن خالد" }
+label: { en: Fatima bint al-Harith ibn Khalid, ar: "فاطمة بنت الحارث بن خالد", ur: "فاطمة بنت الحارث بن خالد" }
 names:
   - { kind: full, lang: ar, value: "فاطمة بنت الحارث بن خالد بن صخر" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "ابنة الحارث بن خالد وريطة، وُلدت بأرض الحبشة، وهي الوحيدة التي بقيت من ولد ريطة."
   en: Daughter of al-Harith ibn Khalid and Rayta, born in the land of Abyssinia; she is the only one of Rayta's children who survived.
+  ur: "حارث بن خالد اور ریطہ کی بیٹی، حبشہ میں پیدا ہوئی؛ ریطہ کی اولاد میں سے واحد جو بچی۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص11)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/abyssinia, confidence: low, note: "Associated with الحبشة per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tahm, sources: [source/ibn-hisham-saqqa] }
@@ -24,13 +26,15 @@ relations:
   - { type: child_of, target: person/rayta-bint-al-harith, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: born-in-abyssinia, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "Taymiyya, daughter of Ra'ita the Abyssinia emigrant (al-Isaba p. 1935)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 11"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch117
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

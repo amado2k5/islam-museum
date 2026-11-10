@@ -16,7 +16,10 @@ translations:
   en: { text: "By the snorting courses,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ان سرپٹ دوڑنے والے گھوڑوں کی قسم جو ہانپ اٹھتےہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/horse, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-100 }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

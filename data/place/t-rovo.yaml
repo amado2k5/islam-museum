@@ -1,0 +1,20 @@
+id: place/t-rovo
+class: place
+kind: town
+label: { ar: "شتوروفو", en: "Štúrovo" }
+summary:
+  ar: "بلدة في سلوفاكيا."
+  en: "Town in Slovakia."
+wings: [place]
+coordinates: [47.799166666667, 18.718055555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q60038" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q60038 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

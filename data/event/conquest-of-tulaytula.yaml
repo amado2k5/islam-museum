@@ -21,5 +21,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
+sides:
+  - label: { ar: "جيش طارق بن زياد", en: "طارق بن زياد's army" }
+    commanders: [person/tariq-ibn-ziyad]
+  - label: { ar: "طليطلة", en: "Toledo" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.8581, -4.0226]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طليطلة", en: "The Conquest of Toledo" }, at: [39.8581, -4.0226], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/tabari-tarikh-abu-al-fadl, source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

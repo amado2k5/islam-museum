@@ -22,8 +22,15 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0005
+importance: 2
 status:
   review: draft
   completeness: 1
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/samarra, note: "From text: of Samarra", sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "833", calendar: julian, precision: year }, end: { edtf: "842", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

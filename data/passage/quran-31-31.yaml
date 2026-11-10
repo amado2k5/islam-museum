@@ -16,6 +16,7 @@ translations:
   en: { text: "Hast thou not seen how the ships glide on the sea by Allah's grace, that He may show you of His wonders? Lo! therein indeed are portents for every steadfast, grateful (heart).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا تم نے نہیں دیکھا کہ خدا ہی کی مہربانی سے کشتیاں دریا میں چلتی ہیں۔ تاکہ وہ تم کو اپنی کچھ نشانیاں دکھائے۔ بیشک اس میں ہر صبر کرنے والے (اور) شکر کرنے والے کے لئے نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

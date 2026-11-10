@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1721", precision: year, status: tradition, derived: true }
   end: { edtf: "1727", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-5.32042, 35.88919]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1721"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سبتة", en: "Siege of Ceuta" }, at: [-5.32042, 35.88919], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ceuta }
+sides:
+  - label: { ar: "قوات أحمد الثالث", en: "The forces of Ahmed III" }
+    participants: [person/ahmed-iii-uthmani]
+  - label: { ar: "حامية سبتة", en: "The defenders of Ceuta" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q71169633

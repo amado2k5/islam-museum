@@ -13,10 +13,25 @@ date:
   start: { edtf: "1526", hijri: "0932", calendar: julian, precision: year, status: tradition, derived: true, note: "سقوط اللنكاه ١٥٢٦م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN, p. 603 (PDF pages) — the Arghuns defeat the Langahs 1526; Multan a Mughal suba capital"
   generated_by: "Devin (SWE-2 Medium)"
   run: explorer-multan-1
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of None" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية ملتان", en: "The defenders of Multan" }
+    participants: [place/multan]
+map:
+  kind: campaign
+  precision: locality
+  center: [30.1968, 71.4782]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ الأرغون الملتان ودخولها في مُلك المغول ١٥٢٦م", en: "The Arghuns take Multan into the Mughal orbit, 1526" }, at: [30.1968, 71.4782], precision: locality, source: source/fihrist-ibn-al-nadim }
+  sources: [source/fihrist-ibn-al-nadim]
 sources: [source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Golestan-e Honar" }
 relations:
   - { type: died_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

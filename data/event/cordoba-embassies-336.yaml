@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/abd-al-rahman-iii-al-nasir, role: "المحتفل بالسفراء", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/mundhir-ibn-said-al-balluti, role: "الخطيب الفائز بفخر المجلس", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/madinat-al-zahra, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 400–402"

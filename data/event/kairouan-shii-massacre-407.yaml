@@ -10,9 +10,20 @@ periods: [period/abbasid-fragmentation]
 regions: [maghreb]
 date:
   start: { edtf: "1016~", hijri: "0407~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول ولاية المعز ٤٠٦؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1634}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [10.0963, 35.6781]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1016"
+  features:
+    - { type: point, role: event_point, label: { ar: "واقعة القيروان ضد الرافضة أيام المعز بن باديس", en: "Kairouan incident against the Rafida under al-Mu'izz ibn Badis" }, at: [10.0963, 35.6781], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
   - { type: occurred_at, target: place/qayrawan, sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: had_participant, target: person/al-muizz-ibn-badis, role: "السلطان", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"

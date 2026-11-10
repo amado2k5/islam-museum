@@ -17,5 +17,7 @@ sources: [source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+born: { edtf: "1131", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica; EI2" }
+died: { edtf: "1166", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica; EI2" }
 relations:
   - { type: lived_in, target: place/siqilliya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wafayat-ayan] }

@@ -10,9 +10,20 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
   start: { edtf: "0962-12~", hijri: "0351", calendar: julian, precision: month, status: tradition, derived: true, note: "351؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 400}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.1612, 36.2012]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0962"
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك الروم مدينة حلب", en: "Byzantine capture of Aleppo" }, at: [37.1612, 36.2012], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/sayf-al-dawla, role: "صاحب حلب المهزوم", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"

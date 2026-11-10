@@ -22,6 +22,19 @@ relations:
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية زبيد", en: "The defenders of Zabid" }
+    participants: [place/zabid]
+map:
+  kind: campaign
+  precision: locality
+  center: [14.1951, 43.3152]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك شمس الدولة زبيد ودخول اليمن", en: "Turanshah's conquest of Zabid (569 AH)" }, at: [14.1951, 43.3152], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

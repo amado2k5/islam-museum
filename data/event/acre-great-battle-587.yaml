@@ -16,12 +16,22 @@ sides:
 relations:
   - { type: occurred_at, target: place/akka, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch3
+map:
+  kind: battle
+  precision: locality
+  center: [32.93, 35.08]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الوقعة الكبرى على عكا", en: "the great battle at Acre — the sieges fiercest day" }, at: [32.93, 35.08], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

@@ -11,7 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1177", precision: year, status: tradition, derived: true }
   end: { edtf: "1177", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [29.828055555556, 38.215277777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1177"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة هيليون وليموشير", en: "Battle of Hyelion and Leimocheir" }, at: [29.828055555556, 38.215277777778], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/great-menderes-river }
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q1391966
 provenance:

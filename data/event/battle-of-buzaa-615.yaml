@@ -26,6 +26,16 @@ relations:
   - { type: occurred_at, target: place/buzaa, sources: [source/mirat-al-zaman-risala-2013-v22] }
   - { type: occurred_at, target: place/aleppo, sources: [source/mirat-al-zaman-risala-2013-v22] }
   - { type: related_to, target: place/manbij, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+map:
+  kind: battle
+  precision: locality
+  center: [36.38083, 37.565]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "كسر الأشرف ملك الروم كيكاووس قرب بزاعة سنة 615هـ", en: "Al-Ashraf defeats Kaykawus of Rum near Buza'a, 615 AH (1218)" }, at: [36.38083, 37.565], precision: locality, source: source/wikidata }
+  sources: [source/wikidata]
 sources: [source/mirat-al-zaman-risala-2013-v22]
 provenance:
   layer: own-research

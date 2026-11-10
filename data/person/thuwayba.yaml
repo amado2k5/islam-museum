@@ -16,6 +16,7 @@ story_roles:
   - { role: family-of-the-prophet, status: tradition, note: "رضاعة النبي تربطها بالأسرة؛ أسلمت واعتقها أبو لاحب يوم الإثنين لبشارتها بموته في بعض الروايات — خارج هذا القسم.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: unknown, basis: unknown, note: "لم يذكر الكتاب إسلامها في هذا الموضع." }
+died: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/mukhtasar-sirat-al-rasul-al-najdi, source/assabile-abla-al-kahlawi] }
   - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: "أول مرضعة بعد الأم", sources: [source/mubarakpuri-raheeq] }

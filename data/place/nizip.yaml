@@ -1,0 +1,20 @@
+id: place/nizip
+class: place
+kind: province
+label: { ar: "نزب", en: "Nizip" }
+summary:
+  ar: "مقاطعة."
+  en: "District in Gaziantep Province, Turkey."
+wings: [place]
+coordinates: [37.0104, 37.798523055555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1012831" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1012831 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

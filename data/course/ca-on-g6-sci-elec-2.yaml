@@ -1,0 +1,59 @@
+id: course/ca-on-g6-sci-elec-2
+class: course
+kind: lesson
+label:
+  en: Current electricity and circuits
+  ar: الكهرباء التيارية والدوائر
+  ur: 'جاری بجلی اور سرکٹ'
+summary:
+  en: 'Cells, wires, switches, series and parallel: making charge go where you want, when you want.'
+  ar: 'الخلايا والأسلاك والمفاتيح والتوالي والتوازي: إيصال الشحنة حيث تريد وقتما تريد.'
+  ur: 'سیل، تاریں، سوئچ، سلسلہ وار اور متوازی: چارج کو آپ کی مرضی کی جگہ اور وقت پر پہنچانا۔'
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+part_of: course/ca-on-g6-sci-electricity
+expectations:
+- code: D2.4
+  text:
+    en: Identify components of simple circuits
+    ar: Identify components of simple circuits
+    ur: 'Identify components of simple circuits'
+- code: D2.5
+  text:
+    en: Construct series and parallel circuits
+    ar: Construct series and parallel circuits
+    ur: 'Construct series and parallel circuits'
+connections:
+- position: within
+  kind: invention
+  title:
+    en: Machines that ran themselves
+    ar: آلات تدير نفسها
+    ur: 'مشینیں جو خود چلتی تھیں'
+  text:
+    en: Long before electric switches, the Banu Musa brothers catalogued a hundred clever devices in Kitab al-Hiyal — fountains that alternated shapes, lamps that trimmed their own wicks. Control means
+      making a mechanism respond to conditions; circuits are our era's way of doing it.
+    ar: قبل المفاتيح الكهربائية بزمن طويل، صنّف بنو موسى مئة آلة بارعة في كتاب الحيل — نوافير تتبدل أشكالها وقناديل تتهذب فتائلها بنفسها. التحكم يعني جعل الآلية تستجيب للأحوال، والدوائر طريقة عصرنا في ذلك.
+    ur: 'برقی سوئچوں سے بہت پہلے بنو موسیٰ نے کتاب الحیل میں سو چالاک آلات درج کیے — ایسے فوّارے جو شکلیں بدلتے اور چراغ جو اپنی بتی خود ترتیب دیتے۔ کنٹرول کا مطلب ہے مشینری کو حالات کے مطابق چلانا؛ سرکٹ ہمارے زمانے کا طریقہ ہے۔'
+  entity: work/kitab-al-hiyal
+  sources:
+  - source/hill-1993
+- position: within
+  kind: scholar
+  title:
+    en: The engineer who wrote it down
+    ar: المهندس الذي دوّنه
+    ur: 'انجینئر جس نے لکھ کر رکھ دیا'
+  text:
+    en: Al-Jazari's Book of Knowledge of Ingenious Mechanical Devices (1206) drew each machine so precisely that modern engineers rebuild them from his pages — a reminder that a good circuit diagram is
+      a gift to whoever comes next.
+    ar: رسم الجزري في كتابه «الجامع بين العلم والعمل النافع في صناعة الحيل» ⁦(1206م)⁩ كل آلة بدقة تسمح لمهندسي اليوم بإعادة بنائها من صفحاته — تذكرة بأن مخطط الدائرة الجيد هدية لمن يأتي بعدك.
+    ur: 'الجزری نے «الجامع بین العلم والعمل النافع فی صناعة الحیل» ⁦(1206ء)⁩ میں ہر مشین اتنی درستگی سے بنائی کہ آج کے انجینئر اس کے صفحات سے وہ مشینیں دوبارہ بنا سکتے ہیں — یادگار کہ اچھا سرکٹ خاکہ آنے والوں کے لیے تحفہ ہے۔'
+  entity: person/al-jazari
+  sources:
+  - source/hill-1993
+order: 2

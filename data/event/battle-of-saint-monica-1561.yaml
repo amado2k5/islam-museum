@@ -11,7 +11,14 @@ regions: [maghreb]
 date:
   start: { edtf: "1561", precision: year, status: tradition, derived: true }
   end: { edtf: "1561", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { en: "Hispanic Monarchy", ar: "الملكية الإسبانية ⁦(كيان سياسي)⁩" }
+    participants: [polity/hispanic-monarchy]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q129262043
 provenance:

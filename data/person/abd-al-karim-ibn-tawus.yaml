@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din" }
+died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Riyad al-Ulama (al-Afandi: Ghiyath al-Din" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

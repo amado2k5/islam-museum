@@ -3,6 +3,7 @@ class: person
 label:
   ar: جابر بن سمرة
   en: Jabir ibn Samura
+  ur: "جابر بن سمرة"
 aliases: [person/jabir-ibn-samra]
 names:
 - kind: full
@@ -20,6 +21,7 @@ summary:
   ar: صحابي من بني سواءة حليف بني زهرة، أمه خالدة بنت أبي وقاص أخت سعد؛ له ولأبيه صحبة، وأخرج له أصحاب الصحيح، ونزل الكوفة وتوفي بها سنة 74هـ.
   en: A Companion of Banu Sawa'a, ally of Banu Zuhra, whose mother Khalida was the sister of Sa'd ibn Abi Waqqas; he and his father were Companions, the authors of the sound collections narrate from him, and he settled in Kufa and died there
     in 74 AH.
+  ur: "بنو سواعہ کا صحابی، بنو زہرہ کا حلیف، جس کی والدہ خالدہ سعد بن ابی وقاص کی بہن تھیں؛ وہ اور اس کا باپ دونوں صحابی۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -38,6 +40,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0693~", hijri: "0074", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Kufa in the governorship of Bishr over Iraq, after Ibn al-Sakan (al-Isaba p. 194); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/kufa
@@ -47,6 +50,7 @@ relations:
   target: group/banu-zuhra
   sources:
   - source/ibn-hajar-isaba
+- { type: died_in, target: place/kufa, note: "al-Isaba p. 194", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 1022، ص 194

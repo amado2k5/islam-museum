@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani); EI2" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani); EI2" }
 relations:
   - { type: lived_in, target: place/al-hira, note: "From text: شاعر الحيرة النصراني", sources: [source/muruj-al-dhahab], confidence: low }

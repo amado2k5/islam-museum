@@ -16,6 +16,7 @@ translations:
   en: { text: "On the day when We shall summon all men with their record, whoso is given his book in his right hand - such will read their book and they will not be wronged a shred.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جس دن ہم سب لوگوں کو ان کے پیشواؤں کے ساتھ بلائیں گے۔ تو جن (کے اعمال) کی کتاب ان کے داہنے ہاتھ میں دی جائے گی وہ اپنی کتاب کو (خوش ہو ہو کر) پڑھیں گے اور ان پر دھاگے برابر بھی ظلم نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/al-hisab, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

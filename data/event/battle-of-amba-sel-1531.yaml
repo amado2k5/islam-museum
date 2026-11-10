@@ -11,6 +11,12 @@ regions: [east-africa]
 date:
   start: { edtf: "1531-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1531-10", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "سلطنة عدل بقيادة أحمد غراغ", en: "The Adal Sultanate under Ahmad Gragn" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "إمبراطورية الحبشة", en: "The Ethiopian Empire" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2887837

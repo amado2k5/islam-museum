@@ -26,6 +26,20 @@ date:
 relations:
   - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
   - { type: had_participant, target: person/abeid-karume, role: "كان في البر ليلة الثورة ثم دُعي لرئاسة الجمهورية", sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
+  - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات صديق أبو بكر الثالث", en: "The authorities of Siddiq Abubakar III" }
+    participants: [person/siddiq-abubakar-iii]
+map:
+  kind: campaign
+  precision: locality
+  center: [-6.1639, 39.1979]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة زنجبار", en: "Zanzibar Revolution" }, at: [-6.1639, 39.1979], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar]
 provenance:
   layer: own-research

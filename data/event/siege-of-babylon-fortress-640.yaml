@@ -50,6 +50,15 @@ sides:
   commanders:
   - person/al-muqawqis
   - person/al-uayrij
+map:
+  kind: siege
+  precision: locality
+  center: [30.0061, 31.2297]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار حصن بابليون ⁦(٦٤٠)⁩", en: "Siege of Babylon Fortress" }, at: [30.0061, 31.2297], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources:
 - source/futuh-misr-amir-1999
 - source/futuh-buldan-maarif-1407
@@ -121,3 +130,4 @@ relations:
   role: قائد الروم في القصر
   sources:
   - source/futuh-misr-amir-1999
+- { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }

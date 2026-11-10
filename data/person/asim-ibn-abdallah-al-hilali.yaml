@@ -12,5 +12,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "735~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
 relations:
   - { type: ruler_of, target: place/khurasan, note: "From text: governor of Khurasan", sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020] }

@@ -11,7 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0971", precision: year, status: tradition, derived: true }
   end: { edtf: "0971", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [36.1733, 36.5872]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0971"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الإسكندرونة ⁦(٩٧١)⁩", en: "Battle of Alexandretta" }, at: [36.1733, 36.5872], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/i-skenderun }
+sides:
+  - label: { en: "Fatimid Caliphate", ar: "الدولة الفاطمية" }
+    participants: [polity/fatimid-caliphate]
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q20638753
 provenance:

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; Tarikh al-Islam" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/al-aalam]

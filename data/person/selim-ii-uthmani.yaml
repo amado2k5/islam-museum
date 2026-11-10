@@ -4,7 +4,7 @@ label: { ar: "سليم الثاني" , ur: "سلیم دوم", en: "Selim II"}
 names:
   - { kind: full, lang: ar, value: "سليم الثاني بن سليمان القانوني" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 born: { edtf: "1524~", calendar: julian, precision: year, status: tradition, note: "مشتق؛ تولى ٩ ربيع الأول ٩٧٤هـ." }
 died: { edtf: "1574-12-15~", hijri: "0982-09-07", calendar: julian, precision: day, status: tradition, derived: true, note: "في شذرات الذهب: توفي في سابع رمضان سنة 982؛ التحويل مشتق {cite:shadharat-dhahab}", sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab] }
 summary:
@@ -15,6 +15,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: child_of, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
@@ -24,9 +25,12 @@ external_ids:
 sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 277-285"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 277-285"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-4
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1566", calendar: julian, precision: year }, end: { edtf: "1574", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

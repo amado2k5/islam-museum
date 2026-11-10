@@ -3,6 +3,7 @@ class: person
 label:
   ar: الشفاء بنت عبد الله
   en: al-Shifa' bint Abdullah
+  ur: "الشفاء بنت عبد الله"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: من المهاجرات الأول، أسلمت قبل الهجرة وبايعت؛ كانت من عقلاء النساء وفضلائهن، وكان النبي يزورها ويقيل عندها، وعلّمت حفصة الكتابة، وكان عمر يقدمها في الرأي وربما ولاها شيئاً من أمر السوق.
   en: One of the first emigrants, she embraced Islam before the Hijra and gave her pledge; counted among the wise and virtuous of women, the Prophet visited her and took his midday rest at her house, she taught Hafsa to write, and Umar valued
     her opinion and at times put her in charge of something in the market.
+  ur: "پہلی مہاجروں میں سے، ہجرت سے پہلے مسلمان ہوئیں اور بیعت کی؛ عقلمند اور نیک خواتین میں شمار ہوتی تھیں اور نبی ان سے ملتے تھے۔"
 wings: [people]
 themes:
 - women
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
 relations:
 - type: lived_in
   target: place/medina

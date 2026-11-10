@@ -17,6 +17,19 @@ date:
   end: { edtf: "1044", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية لاهور", en: "The defenders of Lahore" }
+    participants: [place/lahore]
+map:
+  kind: siege
+  precision: locality
+  center: [31.558, 74.3507]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار لاهور من ائتلاف الأمراء الهنود، ٤٣٥هـ/١٠٤٣–١٠٤٤م", en: "Confederate Hindu princes' siege of Lahore, 435/1043-4" }, at: [31.558, 74.3507], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q135287688

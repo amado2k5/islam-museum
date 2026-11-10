@@ -11,6 +11,27 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0866", precision: year, status: tradition, derived: true }
   end: { edtf: "0896", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [42.1, 36.46666666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0866"
+  features:
+    - { type: point, role: event_point, label: { ar: "الثورة الخارجية ⁦(٨٦٦)⁩", en: "Kharijite Rebellion of 866–896" }, at: [42.1, 36.46666666666667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-muhtadi, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/upper-mesopotamia }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المستعين بالله", en: "The authorities of al-Musta'in bi'llah" }
+    participants: [person/al-mustain]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q16852130

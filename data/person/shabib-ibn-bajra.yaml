@@ -5,6 +5,7 @@ summary:
   ar: "ذكر الطبري أن ابن ملجم أتى رجلاً من أشجع يقال له شبيب بن بجرة في سياق الإعداد لاغتيال علي {cite:tabari-tarikh-abu-al-fadl j.5 p.144}. وعند المسعودي لقّبه ابن ملجم فقال هل لك في شرف الدنيا والآخرة تساعدني على قتل علي فقال ثكلتك أمك قد عرفت غناءه في الإسلام فأقنعه بقتل إخوانهم المصلين فضرب يومئذ فوقعت ضربته بعتبة الباب، وهرب إلى رحله فقتله ابن عمه عبد الله بن نجدة {cite:muruj-al-dhahab p. 702}"
 wings: [people]
 gender: male
+died: { edtf: "661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/aden, sources: [source/wikidata], confidence: low, note: "Nisba عدني attested in the record." }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab]

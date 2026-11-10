@@ -16,6 +16,7 @@ story_roles:
   - { role: commander, start: { edtf: "0586~" }, status: tradition, note: "قائد قريش وكنانة في الفجار (الرحيق ص59).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشي ما قبل الإسلام." }
+died: { edtf: "595~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah)" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/quraysh }

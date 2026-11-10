@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1102", precision: year, status: tradition, derived: true }
   end: { edtf: "1102", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.7531, 32.0522]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1102"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة يافا ⁦(١١٠٢)⁩", en: "Battle of Jaffa" }, at: [34.7531, 32.0522], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/yafa }
+sides:
+  - label: { ar: "الصليبيون بقيادة بلدوين الأول", en: "The Crusaders under Baldwin I" }
+    participants: [person/baldwin-i-jerusalem]
+  - label: { ar: "الجيش الفاطمي", en: "The Fatimid army" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q122787476

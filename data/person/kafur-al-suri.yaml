@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1020~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
 relations:
   - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

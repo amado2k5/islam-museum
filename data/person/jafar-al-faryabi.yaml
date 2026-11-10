@@ -9,6 +9,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq, persia-central-asia]
+born: { edtf: "822", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala / al-Dhahabi" }
+died: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala / al-Dhahabi" }
 relations:
   - { type: lived_in, target: place/dinawar, confidence: low, note: "Associated with الدينور per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

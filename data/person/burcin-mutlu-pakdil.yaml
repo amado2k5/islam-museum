@@ -13,6 +13,7 @@ summary:
 roles: [scientist]
 wings: [people, living]
 regions: [anatolia-balkans, americas-oceania]
+born: { edtf: "1989", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary academic record" }
 relations:
   - { type: lived_in, target: place/chicago, confidence: low, note: "Associated with Chicago per the record's own summary text; relation type pending review.", sources: [source/wikipedia-burcin-mutlu-pakdil-en] }
 faith:

@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الحاج السامع", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/karima-al-marwaziyya, role: "المقرئة", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-qudai-muhammad-ibn-ahmad, role: "الملاقى بمكة", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

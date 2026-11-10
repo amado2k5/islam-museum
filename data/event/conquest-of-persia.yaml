@@ -12,6 +12,21 @@ date:
   start: { edtf: "0633", precision: year, status: tradition, derived: true }
   end: { edtf: "0651", precision: year, status: tradition, derived: true }
 sources: [source/futuh-buldan-maarif-1407]
+map:
+  kind: campaign
+  precision: locality
+  center: [53.0, 32.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0633"
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح الإسلامي لفارس", en: "Muslim conquest of Persia" }, at: [53.0, 32.0], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: occurred_at, target: place/sasanian-empire }
+- { type: occurred_at, target: place/azerbaijan }
+- { type: occurred_at, target: place/makran }
+- { type: occurred_at, target: place/khorasan }
 external_ids:
   wikidata: Q887684
 provenance:

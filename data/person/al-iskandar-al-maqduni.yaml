@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "-356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Classical Dictionary ('Alexander the Great')" }
+died: { edtf: "-323", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Classical Dictionary ('Alexander the Great')" }
 relations:
   - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

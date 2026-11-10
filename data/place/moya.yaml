@@ -1,0 +1,20 @@
+id: place/moya
+class: place
+kind: province
+label: { ar: "مويا", en: "Moya" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in the province of Cuenca, Spain."
+wings: [place]
+coordinates: [39.948333333333, -1.3652777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1902680" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1902680 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

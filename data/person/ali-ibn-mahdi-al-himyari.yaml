@@ -11,6 +11,7 @@ roles: [ruler, preacher]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [arabia]
+died: { edtf: "1159", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umara al-Yamani" }
 relations:
 - { type: lived_in, target: place/zabid, note: "From text: من أهل العثر من سواحل زبيد", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 - { type: "founder_of", target: "polity/dawlat-bani-mahdi-yemen", note: "دعا فقامت دولته باليمن", sources: [source/tarikh-ibn-khaldun-ibar] }

@@ -11,6 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0634", precision: year, status: tradition, derived: true }
   end: { edtf: "0635", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.2913, 33.5102]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0634"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح دمشق", en: "Conquest of Damascus" }, at: [36.2913, 33.5102], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/damascus }
+sides:
+  - label: { ar: "قوات أبو بكر الصديق", en: "The forces of Abu Bakr al-Siddiq" }
+    participants: [person/abu-bakr]
+  - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q639827

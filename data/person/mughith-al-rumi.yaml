@@ -9,6 +9,7 @@ roles: [commander]
 wings: [people]
 periods: [period/umayyad]
 regions: [andalus-europe]
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
 relations:
   - { type: participated_in, target: event/conquest-of-cordoba-92, role: "الفاتح", sources: [source/nafh-tib-maqqari] }
 

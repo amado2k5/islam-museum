@@ -11,6 +11,22 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1573", precision: year, status: tradition, derived: true }
   end: { edtf: "1573", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [102.2405, 2.196]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1573"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ملقا ⁦(١٥٧٣)⁩", en: "Siege of Malacca (1573)" }, at: [102.2405, 2.196], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/malacca }
+sides:
+  - label: { ar: "سلطنة آتشه", en: "The Aceh Sultanate" }
+  - label: { ar: "حامية ملقا البرتغالية", en: "The Portuguese garrison of Malacca" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q129165070

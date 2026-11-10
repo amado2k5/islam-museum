@@ -6,6 +6,8 @@ summary:
   en: "Awn ibn Jamda ibn Hubayra al-Makhzumi; in Abu Mikhnaf's account Ali's man to Sijistan, killed by the Ta'i bandit Buhadali on the Iraq road."
 periods: [period/rashidun]
 wings: [people]
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Jamharat Ansab" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Jamharat Ansab" }
 relations:
   - { type: traveled_to, target: place/sijistan, note: "Sent by Ali to Sijistan per Abu Mikhnaf.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: died_in, target: place/iraq, note: "Killed by the bandit Buhadali on the Iraq road.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

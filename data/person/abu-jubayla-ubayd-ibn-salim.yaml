@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia, levant-iraq]
+died: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Isfahani, Kitab al-Aghani" }
 relations:
   - { type: member_of, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
   - { type: lived_in, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }

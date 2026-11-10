@@ -7,12 +7,27 @@ summary:
   en: "Draft card for the Siege of Nishapur in 1755, Ahmad Shah Durrani's siege of the Khorasan city; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/uthman-iii-uthmani, sources: [source/sicill-i-osmani] }
 wings: [time]
 periods: [period/colonial-era]
 regions: [persia-central-asia]
 date:
   start: { edtf: "1755", precision: year, status: tradition, derived: true }
   end: { edtf: "1755", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عثمان الثالث", en: "The forces of Osman III" }
+    participants: [person/uthman-iii-uthmani]
+  - label: { ar: "حامية نيسابور", en: "The defenders of Nishapur" }
+    participants: [place/nishapur]
+map:
+  kind: siege
+  precision: locality
+  center: [36.2133, 58.7957]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نيسابور", en: "Siege of Nishapur" }, at: [36.2133, 58.7957], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q132175133

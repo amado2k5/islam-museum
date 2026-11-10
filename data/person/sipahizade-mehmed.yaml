@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1589", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q40738)" }
   - { type: died_in, target: place/izmir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35997)" }

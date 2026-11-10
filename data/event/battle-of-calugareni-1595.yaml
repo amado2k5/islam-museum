@@ -11,7 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1595", precision: year, status: tradition, derived: true }
   end: { edtf: "1595", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: part_of, target: event/ottoman-habsburg-long-war }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Principality of Wallachia", ar: "الأفلاق" }
+    participants: [polity/principality-of-wallachia]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2540658
 provenance:

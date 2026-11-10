@@ -14,10 +14,23 @@ date:
 relations:
   - { type: occurred_at, target: place/tulaytula, role: "على وادي سليطة بالقرب منها", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/muhammad-i-andalusi, role: "أكمن لهم فأوقع بهم", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 386"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-63
+map:
+  kind: battle
+  precision: locality
+  center: [39.8581, -4.0226]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة وادي سليطة ⁦(نحو 240هـ)⁩", en: "The Battle of Wadi Salit (c. 240 AH)" }, at: [39.8581, -4.0226], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+sides:
+  - label: { ar: "جيش الأمير محمد الأول", en: "The army of Emir Muhammad I" }
+  - label: { ar: "ثوار طليطلة وقوات غاليسيا والباسك", en: "Rebel Toledo with the forces of Galicia and the Basques" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

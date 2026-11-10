@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch29
+born: { edtf: "250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: lived_in, target: place/marib, note: "Held the leadership over Qahtan's sons until he left Marib after the Arim flood.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]

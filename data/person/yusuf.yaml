@@ -13,6 +13,7 @@ story_roles:
 relations:
   - { type: child_of, target: person/yaqub, sources: [source/sahih-al-bukhari] }
   - { type: lived_in, target: place/misr, confidence: low, note: "Joseph in Egypt per the Qur'anic and biblical tradition.", sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy] }
+  - { type: exemplifies, target: concept/asma-al-latif, sources: [source/tanzil-quran] }
 provenance:
   layer: "own-research"
   source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR"
@@ -20,6 +21,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch121
 sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy]
+importance: 2
 status:
   review: published
   completeness: 3

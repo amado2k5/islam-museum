@@ -11,7 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1821", precision: year, status: tradition, derived: true }
   end: { edtf: "1821", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Qajar Iran", ar: "الدولة القاجارية" }
+    participants: [polity/qajar-iran]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q132820720
 provenance:

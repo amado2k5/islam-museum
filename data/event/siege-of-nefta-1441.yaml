@@ -11,7 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1441", precision: year, status: tradition, derived: true }
   end: { edtf: "1441", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Hafsid dynasty", ar: "الدولة الحفصية" }
+    participants: [polity/hafsid-dynasty]
+  - label: { en: "Maghrebi Arabs", ar: "العرب المغاربيون" }
+map:
+  kind: siege
+  precision: locality
+  center: [7.8816, 33.8722]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1441"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نفطة ⁦(١٤٤١)⁩", en: "Siege of Nefta (1441)" }, at: [7.8816, 33.8722], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/nafta }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139505672
 provenance:

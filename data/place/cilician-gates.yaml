@@ -1,0 +1,20 @@
+id: place/cilician-gates
+class: place
+kind: mountain
+label: { ar: "بوابات قيليقية", en: "Cilician Gates" }
+summary:
+  ar: "جبل في جنوب تركيا."
+  en: "Mountain pass in southern Turkey."
+wings: [place]
+coordinates: [37.28527777777778, 34.78611111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q128884" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q128884 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

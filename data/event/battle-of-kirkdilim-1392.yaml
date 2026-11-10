@@ -11,7 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1392", precision: year, status: tradition, derived: true }
   end: { edtf: "1392", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Beylik of Kadi Burhan al-Din", ar: "بيليك كادي برهان الدين" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q6049704
 provenance:

@@ -11,6 +11,19 @@ relations:
   - { type: had_participant, target: person/harim-ibn-hayyan, role: "المقيم عليها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/jur }
 wings: [time]
+sides:
+  - label: { ar: "جيش عبد الله بن عامر", en: "Abd Allah ibn Amir's army" }
+    commanders: [person/abd-allah-ibn-amir]
+  - label: { ar: "جور", en: "Jur" }
+map:
+  kind: campaign
+  precision: locality
+  center: [28.8536, 52.5706]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح جور", en: "Conquest of Jur" }, at: [28.8536, 52.5706], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

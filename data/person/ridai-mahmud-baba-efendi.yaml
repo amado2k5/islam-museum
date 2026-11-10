@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1836", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Osmanli Muellifleri" }
 relations:
   - { type: born_in, target: place/plovdiv, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q459)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

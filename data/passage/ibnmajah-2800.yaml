@@ -1,0 +1,21 @@
+id: passage/ibnmajah-2800
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2800"
+label:
+  ar: "ابن ماجه 2800 — كلم الله أبا جابر كفاحا: تمن علي أعطك"
+  en: "Ibn Majah 2800 — God spoke to Jabir's father face to face: wish, and I shall give"
+  ur: "ابن ماجہ 2800 — اللہ نے جابر کے والد سے روبرو کلام کیا: تمنا کرو، میں دوں گا"
+text: "يا جابر ألا أخبرك ما قال الله عز وجل لأبيك . قلت بلى . قال ما كلم الله أحدا إلا من وراء حجاب وكلم أباك كفاحا . فقال يا عبدي تمن على أعطك . قال يا رب تحييني فأقتل فيك …"
+summary:
+  ar: "حديث قدسي في سنن ابن ماجه، رقم 2800: كلم الله أبا جابر كفاحا: تمن علي أعطك. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan Ibn Majah, no. 2800: God spoke to Jabir's father face to face: wish, and I shall give. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن ابن ماجہ میں حدیثِ قدسی، نمبر 2800: اللہ نے جابر کے والد سے روبرو کلام کیا: تمنا کرو، میں دوں گا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-abd-allah-ibn-amr-ibn-haram]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2800; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

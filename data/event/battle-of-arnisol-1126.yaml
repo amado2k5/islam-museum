@@ -11,7 +11,14 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1126-03", precision: year, status: tradition, derived: true }
   end: { edtf: "1126-03", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: building/castillo-anzur }
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "Kingdom of Aragon", ar: "مملكة أرغون" }
+    participants: [polity/kingdom-of-aragon]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q11908711
 provenance:

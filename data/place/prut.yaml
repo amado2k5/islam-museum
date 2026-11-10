@@ -1,0 +1,20 @@
+id: place/prut
+class: place
+kind: river
+label: { ar: "بروت", en: "Prut" }
+summary:
+  ar: "نهر."
+  en: "River in Eastern Europe."
+wings: [place]
+coordinates: [48.1627, 24.5543]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q182445" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q182445 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,6 +1,6 @@
 id: person/khawla-bint-thalaba
 class: person
-label: { en: "Khawla bint Tha'laba", ar: "خولة بنت ثعلبة" }
+label: { en: "Khawla bint Tha'laba", ar: "خولة بنت ثعلبة", ur: "خولة بنت ثعلبة" }
 names:
   - { kind: full, lang: ar, value: "خولة بنت ثعلبة بن أصرم بن فهر بن ثعلبة بن غنم بن أوف بن غنم بن مالك بن النجار" }
   - { kind: alternate, lang: ar, value: "صاحبة المجادلة" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   ar: "صحابية أنصارية نجدية اشتكت للنبي ظهار زوجها أوس بن الصامت منها وأبانت حالها وحال أولادها، فنزلت في شأنها مطالع سورة المجادلة حتى ورد التشريع بكفارة الظهار؛ ومن حديثها قصة كفارة أم المنذر بنت قيس، وسلّم عليها عمر بن الخطاب يوماً وعَرّف الناس بها قائلاً إنها التي سمع الله شكواها من فوق سبع سماوات."
   en: "An Ansari Companion who complained to the Prophet of her husband Aws ibn al-Samit's zihar and laid out her case and her children's, so the opening verses of Surat al-Mujadila were revealed concerning her, carrying the expiation ruling; Umar ibn al-Khattab once greeted her and told the people she was the woman whose plea God heard from above seven heavens."
+  ur: "انصاریہ صحابیہ جنہوں نے اپنے شوہر اوس بن صامت کی ظہار کی شکایت نبی سے کی اور اپنا اور بچوں کا مقدمہ رکھا۔"
 wings: [people]
 themes: [women, scripture-and-its-sciences]
 periods: [period/prophetic-era]
@@ -18,6 +19,8 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba" }
 relations:
   - { type: lived_in, target: place/medina }
   - { type: member_of, target: group/ansar, note: "من بني مالك بن النجار من الخزرج (نساء حول الرسول ص304)." }

@@ -14,6 +14,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, levant-iraq]
+died: { edtf: "652~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "From text: lived in Syria. Al-Hakim", sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: member_of, target: group/banu-sulaym, sources: [source/mustadrak-ilmiyya-ata-v3] }

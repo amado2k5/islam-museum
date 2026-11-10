@@ -17,6 +17,7 @@ translations:
   ur: { text: "خدا نے کسی آدمی کے پہلو میں دو دل نہیں بنائے۔ اور نہ تمہاری عورتوں کو جن کو تم ماں کہہ بیٹھتے ہو تمہاری ماں بنایا اور نہ تمہارے لے پالکوں کو تمہارے بیٹے بنایا۔ یہ سب تمہارے منہ کی باتیں ہیں۔ اور خدا تو سچی بات فرماتا ہے اور وہی سیدھا رستہ دکھاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

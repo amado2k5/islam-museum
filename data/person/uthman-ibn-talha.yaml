@@ -3,6 +3,7 @@ class: person
 label:
   ar: عثمان بن طلحة
   en: Uthman ibn Talha
+  ur: "عثمان بن طلحة"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: حاجب الكعبة؛ قُتل أبوه وعمه بأحد، ثم أسلم في هدنة الحديبية وهاجر مع خالد بن الوليد، وشهد الفتح فأعطاه النبي مفتاح الكعبة، ودخل معه الكعبة؛ وتوفي بالمدينة سنة 42هـ على الراجح.
   en: The keeper of the Kaaba; his father and uncle were killed at Uhud, then he embraced Islam during the truce of al-Hudaybiyya and emigrated with Khalid ibn al-Walid; he was at the conquest, where the Prophet handed him the key of the Kaaba
     and entered it with him; he died in Medina in 42 AH on the sounder view.
+  ur: "کعبہ کا نگران؛ اس کے والد اور چچا احد میں مارے گئے، پھر وہ حدیبیہ کی جنگ بندی میں مسلمان ہوا اور ہجرت کر کے آیا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0662", hijri: "0042", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina, 42 AH (al-Waqidi and Ibn al-Barqi); the report of martyrdom at Ajnadayn is called baseless by al-Askari (al-Isaba pp. 1006-1007); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: died_in, target: place/medina, sources: [source/ibn-hajar-isaba] }
 - type: member_of

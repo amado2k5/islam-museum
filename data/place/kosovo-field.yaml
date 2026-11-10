@@ -1,0 +1,20 @@
+id: place/kosovo-field
+class: place
+kind: region
+label: { ar: "سهل كوسوفو", en: "Kosovo Field" }
+summary:
+  ar: "إقليم في كوسوفو."
+  en: "Karst field in Kosovo."
+wings: [place]
+coordinates: [42.7175, 21.085]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q20988473" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q20988473 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

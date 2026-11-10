@@ -3,7 +3,7 @@ class: person
 label:
   ar: "السعيد المعتضد الموحدي"
   en: "al-Said al-Mu'tadid, Almohad caliph"
-roles: [ruler]
+roles: [ruler, caliph]
 gender: male
 summary:
   ar: "بطاقة أولية لأبي الحسن السعيد المعتضد الموحدي، خليفة الدولة الموحدية الذي عزل بإشبيلية سنة ١٢٤٢م وخلع سنة ١٢٤٨م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
@@ -23,5 +23,10 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1248", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
   - { type: lived_in, target: place/seville, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1242", calendar: julian, precision: year }, end: { edtf: "1248", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

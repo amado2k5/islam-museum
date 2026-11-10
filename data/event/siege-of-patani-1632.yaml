@@ -11,6 +11,12 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1632", precision: year, status: tradition, derived: true }
   end: { edtf: "1632", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
+    participants: [person/murad-iv-uthmani]
+  - label: { ar: "حامية باتاني", en: "The defenders of Patani" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q134883054

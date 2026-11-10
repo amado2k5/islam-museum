@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-sufyan-makhzumi
 class: person
-label: { en: Abdullah ibn Sufyan al-Makhzumi, ar: "عبد الله بن سفيان المخزومي" }
+label: { en: Abdullah ibn Sufyan al-Makhzumi, ar: "عبد الله بن سفيان المخزومي", ur: "عبد الله بن سفيان المخزومي" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن سفيان بن عبد الأسد" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني مخزوم، أخو هبار بن سفيان، هاجر إلى الحبشة؛ يذكر ابن إسحاق أنه قُتل عام اليرموك ويشكّ فيه."
   en: Of Banu Makhzum, brother of Habbar ibn Sufyan; he emigrated to Abyssinia. Ibn Ishaq says he was killed in the year of the Yarmuk, while expressing doubt about it.
+  ur: "بنو مخزوم کے صحابی، ہبار بن سفیان کے بھائی؛ حبشہ ہجرت کیے؛ ابن اسحاق کہتا ہے کہ وہ یرموک کے سال مارے گئے، البتہ شک بھی ظاہر کیا گیا ہے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -25,13 +26,16 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "al-Isaba p. 888", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-makhzum, note: "al-Isaba p. 888", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia in the second migration (Ibn Sa'd, al-Isaba p. 888)", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch117
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

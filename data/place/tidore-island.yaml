@@ -1,0 +1,20 @@
+id: place/tidore-island
+class: place
+kind: city
+label: { ar: "تيدور", en: "Tidore Island" }
+summary:
+  ar: "مدينة."
+  en: "Island in Tidore Islands City, North Maluku Province, Indonesia."
+wings: [place]
+coordinates: [0.686389, 127.410831]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q12506955" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q12506955 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

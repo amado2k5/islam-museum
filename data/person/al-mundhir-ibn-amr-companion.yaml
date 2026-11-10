@@ -3,15 +3,18 @@ class: person
 label:
   ar: "المنذر بن عمرو الأنصاري"
   en: "al-Mundhir ibn Amr"
+  ur: "المنذر بن عمرو الأنصاري"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية للمنذر بن عمرو الساعدي الأنصاري، سيد الأنصار وصحابي القرن السابع، قتل يوم بئر معونة؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Mundhir ibn Amr al-Sa'idi al-Ansari, the seventh-century Ansari chieftain killed at the well of Ma'una; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري يعرف بسيف بدر؛ أمير سرية بئر معونة فاستشهد بها."
+  en: "An Ansari Companion known as Sayf al-Badr; he commanded the expedition of Bi'r Ma'una and was martyred there."
+  ur: "انصاری صحابی، سیف البدر کے نام سے مشہور؛ بئر معونہ کی مہم کے سردار اور وہیں شہید ہوئے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat al-Kubra 3/515; martyred Bir Ma'una 4 AH)" }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

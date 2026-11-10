@@ -13,6 +13,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1220-11", precision: year, status: tradition, derived: true }
   end: { edtf: "1221-04", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية نيسابور", en: "The defenders of Nishapur" }
+    participants: [place/nishapur]
+map:
+  kind: siege
+  precision: locality
+  center: [36.2133, 58.7957]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نيسابور ⁦(١٢٢١)⁩", en: "Siege of Nishapur" }, at: [36.2133, 58.7957], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5961259

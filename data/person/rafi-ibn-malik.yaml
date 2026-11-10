@@ -3,6 +3,7 @@ class: person
 label:
   ar: رافع بن مالك بن العجلان
   en: Rafi' ibn Malik ibn al-Ajlan
+  ur: "رافع بن مالك بن العجلان"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: أنصاري من بني زريق، شهد العقبة وكان أحد النقباء، وقال سعد بن عبد الحميد إنه أول من أسلم من الخزرج؛ ويُروى أنه أول من قدم المدينة بسورة يوسف وأن مسجد بني زريق أول مسجد قُرئ فيه القرآن؛ واختُلف هل شهد بدراً.
   en: An Ansari of Banu Zurayq, he was at al-Aqaba and one of the naqibs, and Sa'd ibn Abd al-Hamid said he was the first of the Khazraj to embrace Islam; it is reported he was the first to bring the sura of Yusuf to Medina and that the mosque
     of Banu Zurayq was the first in which the Qur'an was recited; whether he was at Badr is disputed.
+  ur: "بنو زریق کا انصاری، عقبہ میں تھا اور نقباء میں سے؛ سعد بن عبد الحمید کہتا ہے کہ وہ خزرج میں پہلا مسلمان تھا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -33,6 +35,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
 - { type: traveled_to, target: place/mecca, sources: [source/ibn-hajar-isaba] }
 - type: member_of
@@ -43,6 +46,19 @@ relations:
   target: event/pledges-of-aqaba
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 449"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "of Banu Zurayq (al-Isaba p. 449)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/second-pledge-of-aqaba
+  note: "brought the revelation of the first ten years to his people, who built Medina's earliest mosque (al-Isaba p. 449)"
+  sources: [source/ibn-hajar-isaba]
+
 issue:
   ar: هل شهد رافع بن مالك بدراً؟
   en: Was Rafi' ibn Malik at Badr?

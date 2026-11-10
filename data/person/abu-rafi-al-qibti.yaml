@@ -1,18 +1,20 @@
 id: person/abu-rafi-al-qibti
 class: person
-label: { ar: "أبو رافع القبطي", en: "Abu Rafi al-Qibti" }
+label: { ar: "أبو رافع القبطي", en: "Abu Rafi al-Qibti", ur: "ابو رافع قبطی" }
 names:
   - { kind: full, lang: ar, value: أبو رافع القبطي }
 gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  ar: "مولى رسول الله، يقال إن اسمه إبراهيم، وقيل سنان، وقيل يسار، وأشهر ما قيل في اسمه أسلم، وقد مات في عهد علي بن أبي طالب. يذكره الصلابي في الصحابة الذين رووا عن علي ⁦(ص 70)⁩ نقلاً عن ابن عبد البر."
+  ar: "مولى رسول الله، يقال إن اسمه إبراهيم، وقيل سنان، وقيل يسار، وأشهر ما قيل في اسمه أسلم، وقد مات في عهد علي بن أبي طالب. يذكره الصلابي في الصحابة الذين رووا عن علي ⁦⁦(ص 70)⁩⁩ نقلاً عن ابن عبد البر."
   en: "Freedman of the Prophet, named Ibrahim, Sinan or Yasar in various reports, though the best known name is Aslam; he died in Ali's time and al-Sallabi lists him among those who narrated from Ali (p. 70)."
+  ur: "نبی کے آزاد کردہ غلام، جس کا نام بعض روایات میں ابراہیم، سنان یا یسار آیا ہے، مگر سب سے مشہور نام اسلم ہے؛ وہ علی بن ابی طالب کے عہد میں فوت ہوا اور صلابی نے اسے علی سے روایت کرنے والے صحابہ میں شمار کیا ⁦(ص 70)⁩۔"
 wings: [people]
+died: { edtf: "0656~", hijri: "0035~", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina shortly before or after Uthman (al-Waqidi); Ibn Hibban places it in Ali's caliphate (al-Isaba p. 1668); CE year approximated to 35 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, note: "Coptic freedman (mawla) of the Prophet; the Medinan household setting is inferred, flagged for review.", sources: [source/sallabi-ali-vol1], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/sallabi-ali-vol1]}
-sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 70; the name is disputed in the sources" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 70", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-p41-74" }

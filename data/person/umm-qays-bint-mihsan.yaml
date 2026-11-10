@@ -3,6 +3,7 @@ class: person
 label:
   ar: أم قيس بنت محصن
   en: Umm Qays bint Mihsan
+  ur: "أم قيس بنت محصن"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: أخت عكاشة بن محصن، أسلمت قديماً بمكة وبايعت وهاجرت؛ روت أحاديث في الصحيحين منها حديث ولدها الصغير الذي لم يأكل الطعام، وقال النبي في إحدى القصص «ما لها طال عمرها»، فقيل إنه لا يُعلم امرأة عمّرت ما عمّرت.
   en: A sister of Ukkasha ibn Mihsan, she embraced Islam early at Mecca, gave her pledge and emigrated; she narrated hadith in the two collections, including the one about her small son who had not yet eaten food, and in one story the Prophet
     said 'May her life be long', after which it was said no woman was known to have lived as long as she did.
+  ur: "عکاشہ بن محصن کی بہن، مکہ میں جلد مسلمان ہوئی، بیعت کی اور ہجرت کی؛ دونوں صحیحین میں حدیث روایت کی۔"
 wings: [people]
 themes:
 - women
@@ -37,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "655~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Isaba" }
 relations:
 
 - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba] }
@@ -44,6 +47,19 @@ relations:
   target: group/banu-asad
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 2027"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/banu-al-najjar
+  note: "of Banu Mazin ibn al-Najjar (al-Isaba p. 2027)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-khaybar
+  note: "witnessed Khaybar and others — Ibn Sa'd (al-Isaba p. 2027)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12254، ص 2027

@@ -16,10 +16,25 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المعين بألفي مقاتل مرابطة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: "الآمر بالغزو", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/khazars, role: "من أمداد جيش بطريق أرميناقس: اللان وأفخاز وسمنْدر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 277–280"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
+sides:
+  - label: { ar: "جيش عثمان بن عفان", en: "Uthman ibn Affan's army" }
+    commanders: [person/uthman-ibn-affan]
+  - label: { ar: "الخزر", en: "The Khazars" }
+    participants: [group/khazars]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.9043, 41.2679]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قاليقلا وبدء فتوح أرمينية", en: "The Taking of Qaliqala and the Opening of Armenia" }, at: [39.9043, 41.2679], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -3,15 +3,19 @@ class: person
 label:
   ar: "أبو أسيد الساعدي"
   en: "Abu Usayd al-Sa'idi"
+  ur: "أبو أسيد الساعدي"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي أسيد مالك بن ربيعة الساعدي الأنصاري، صحابي بدر في القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Usayd Malik ibn Rabi'a al-Sa'idi al-Ansari, the seventh-century Companion of Badr; the biographical entry is not yet checked on the page."
+  ar: "صحابي ساعدي يعرف بكنيته، اسمه مالك بن ربيعة؛ يحيله ابن حجر إلى ترجمته في الأسماء."
+  en: "A Sa'idi Companion known by his kunya, named Malik ibn Rabi'a; Ibn Hajar treats his biography under the names."
+  ur: "ساعدی صحابی جو اپنی کنیت سے مشہور ہیں، نام مالک بن ربیعہ؛ ابن حجر نے ان کا ترجمہ ناموں کے تحت دیا ہے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+born: { edtf: "583~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi" }
+died: { edtf: "670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi" }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

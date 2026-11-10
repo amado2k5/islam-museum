@@ -13,14 +13,30 @@ date:
 relations:
   - { type: occurred_at, target: place/tikrit }
   - { type: occurred_at, target: place/ukbara, sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hudhayfa-ibn-mihsan, role: "شريك الغارة والأمان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khurzad-ibn-mahibandadh, role: "الموكل المهزوم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/utba-ibn-farqad, role: "منفذ أمان تكريت", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348–349"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-29
+sides:
+  - label: { ar: "قوات أبو بكر الصديق", en: "The forces of Abu Bakr al-Siddiq" }
+    participants: [person/abu-bakr]
+  - label: { ar: "حامية تكريت", en: "The defenders of Tikrit" }
+    participants: [place/tikrit]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.6158, 43.6789]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة النسير وحذيفة إلى تكريت", en: "al-Nusayr and Hudhayfa's Raid toward Tikrit" }, at: [34.6158, 43.6789], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

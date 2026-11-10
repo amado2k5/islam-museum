@@ -11,6 +11,24 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1674", precision: year, status: tradition, derived: true }
   end: { edtf: "1680", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [118.0, -2.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1674"
+  features:
+    - { type: point, role: event_point, label: { ar: "تمرد تروناجايا", en: "Trunajaya Rebellion" }, at: [118.0, -2.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/indonesia }
+- { type: occurred_at, target: place/java }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمد الرابع", en: "The authorities of محمد الرابع" }
+    participants: [person/mehmed-iv-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q28136838

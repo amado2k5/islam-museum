@@ -15,6 +15,7 @@ relations:
 - type: occurred_at
   target: place/medina
   sources: [source/mubarakpuri-raheeq]
+- { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: الرحيق المختوم، البيت النبوي، ص 475

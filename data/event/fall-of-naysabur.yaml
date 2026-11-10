@@ -11,6 +11,19 @@ relations:
   - { type: had_participant, target: person/qays-ibn-al-haytham, role: "أول وال", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/nishapur }
 wings: [time]
+sides:
+  - label: { ar: "جيش عبد الله بن عامر", en: "Abd Allah ibn Amir's army" }
+    commanders: [person/abd-allah-ibn-amir]
+  - label: { ar: "نيسابور", en: "Nishapur" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2133, 58.7957]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح نيسابور", en: "The Conquest of Naysabur" }, at: [36.2133, 58.7957], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

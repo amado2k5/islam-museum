@@ -18,6 +18,7 @@ relations:
   - { type: had_participant, target: person/aisha, role: "روت رواية أن النبي أراد أن يكتب لأبي بكر", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/medina }
   - { type: part_of, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "ماذا أراد النبي بالكتاب، ولماذا لم يُكتب؟", en: "What did the Prophet intend by the writing, and why was it not made?" }
 perspectives:
   - tradition: sunni

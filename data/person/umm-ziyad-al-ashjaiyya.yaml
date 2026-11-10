@@ -3,6 +3,7 @@ class: person
 label:
   ar: أم زياد الأشجعية
   en: Umm Ziyad al-Ashja'iyya
+  ur: "أم زياد الأشجعية"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: 'صحابية أشجعية خرجت مع النبي في غزوة خيبر مع خمس نسوة أخريات، فسألهن النبي: «بإذن من خرجتن؟» فأجبن أنهن خرجن لمداواة الجرحى ومناولة السهام وسقي السويق، فقُسم لهن من التمر.'
   en: A Companion of Ashja' who went out with the Prophet on the Khaybar campaign with five other women; the Prophet asked 'With whose leave did you come out?' and they answered that they had come to treat the wounded, hand out arrows and give
     out barley drink, and dates were apportioned to them.
+  ur: "اشجع کی صحابیہ جو خیبر کی مہم میں پانچ دیگر عورتوں کے ساتھ نبی کے ساتھ گئی؛ نبی نے پوچھا «کس کی اجازت سے نکلیں»۔"
 wings: [people]
 themes:
 - women
@@ -37,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, Tahdhib al-Kamal; al-Isaba" }
 relations:
 
 - { type: lived_in, target: place/khaybar, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba] }
@@ -44,6 +47,11 @@ relations:
   target: event/battle-of-khaybar
   sources:
   - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-khaybar
+  note: "went out to Khaybar in the sixth group of women, treating the wounded (al-Isaba p. 2000)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12073، ص 2000

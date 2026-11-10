@@ -19,5 +19,7 @@ provenance:
   run: lib-nafh-tib-batch-34
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Khatib al-Baghdadi, Tarikh Baghdad" }
+died: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Khatib al-Baghdadi, Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name (الهروي); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

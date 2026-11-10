@@ -4,7 +4,7 @@ label: { ar: "عبد العزيز", en: "Abd al-Aziz (Ottoman)" }
 names:
   - { kind: full, lang: ar, value: "عبد العزيز بن محمود الثاني" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 born: { edtf: "1830~", calendar: julian, precision: year, status: tradition, note: "مشتق." }
 died: { edtf: "1876", hijri: "1293", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "عُزل ثم قُتل عام ١٢٩٣هـ/١٨٧٦م." }
 summary:
@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -21,10 +22,13 @@ external_ids: { wikidata: "Q151500", nomisma: "abdulaziz" }
 sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 394-395"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 394-395"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch112
+importance: 2
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1861", calendar: julian, precision: year }, end: { edtf: "1876", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

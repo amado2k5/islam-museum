@@ -11,6 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1529", precision: year, status: tradition, derived: true }
   end: { edtf: "1533", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "الدفاع الهابسبورغي عن فيينا", en: "The Habsburg defense of Vienna" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q21655457

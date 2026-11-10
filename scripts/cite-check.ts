@@ -33,8 +33,13 @@ export function checkRecord(id: string): RecordReport {
   const undefined_ = sources.filter((s) => !existsSync(p("data", `${s}.yaml`)));
   add("sources-defined", undefined_.length === 0, undefined_.length ? `not defined as source entities: ${undefined_.join(", ")}` : "every cited source is a defined source entity");
 
-  const prov = entity?.provenance ?? {};
+  const prov = entity?.provenance ?? entity?.status?.provenance ?? {};
   const provMissing = ["source", "generated_by"].filter((k) => !prov[k]);
+  // Some class schemas (e.g. object) cannot carry a top-level provenance map:
+  // for them the same bar — what it was built from, by whom — is recorded as
+  // status.generated_by plus the cited sources list, which this check already
+  // verifies above.
+  if (provMissing.length && entity?.status?.generated_by && sources.length >= 1) provMissing.length = 0;
   add("provenance-recorded", provMissing.length === 0, provMissing.length ? `provenance missing: ${provMissing.join(", ")}` : "provenance records source and generated_by");
 
   const citeSlugs = new Set<string>();

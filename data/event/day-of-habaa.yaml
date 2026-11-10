@@ -11,11 +11,14 @@ regions: [arabia]
 date:
   start: { edtf: "0600~", calendar: julian, precision: century, status: tradition, derived: true, note: "قبيل الإسلام؛ بدء حرب داحس والغبراء {cite:ansab-al-ashraf p. 15}." }
 relations:
-  - { type: had_participant, target: person/hudhayfa-ibn-badr, role: "المقتول", sources: [source/ansab-al-ashraf] }
+  - { type: related_to, target: person/hudhayfa-ibn-badr, role: "المقتول", sources: [source/ansab-al-ashraf] }
 provenance:
   layer: own-research
   source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-7
+sides:
+  - label: { ar: "بنو عبس", en: "Banu Abs" }
+  - label: { ar: "بنو فزارة بقيادة هذيفة بن بدر", en: "Banu Fazara under Hudhayfa ibn Badr" }
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

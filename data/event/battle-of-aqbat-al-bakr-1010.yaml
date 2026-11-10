@@ -11,6 +11,20 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1010", precision: year, status: tradition, derived: true }
   end: { edtf: "1010", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-5.0204062, 38.1877196]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1010"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة عقبة البقر", en: "Battle of Aqbat al-Bakr" }, at: [-5.0204062, 38.1877196], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: during_reign, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/espiel }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3302805

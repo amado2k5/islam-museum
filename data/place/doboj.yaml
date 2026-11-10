@@ -1,0 +1,20 @@
+id: place/doboj
+class: place
+kind: city
+label: { ar: "دوبوي", en: "Doboj" }
+summary:
+  ar: "مدينة في البوسنة والهرسك."
+  en: "City in Bosnia and Herzegovina."
+wings: [place]
+coordinates: [44.733333333333, 18.133333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q169247" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q169247 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

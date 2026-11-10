@@ -16,6 +16,7 @@ translations:
   en: { text: "Unto Allah belong the East and the West, and whithersoever ye turn, there is Allah's Countenance. Lo! Allah is All-Embracing, All-Knowing.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور مشرق اور مغرب سب خدا ہی کا ہے۔ تو جدھر تم رخ کرو۔ ادھر خدا کی ذات ہے۔ بے شک خدا صاحبِ وسعت اور باخبر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/east-west, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

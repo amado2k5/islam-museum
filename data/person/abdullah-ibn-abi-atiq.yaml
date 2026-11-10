@@ -22,5 +22,6 @@ story_roles:
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4, humour chapter, scan p. 7, checked on the image; the anecdote's ending is on p. 8, not yet read)" }
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), scan p. 7, checked on the page image", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-05" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }

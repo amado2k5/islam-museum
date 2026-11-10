@@ -1,0 +1,20 @@
+id: place/pe-n-de-v-lez-de-la-gomera
+class: place
+kind: island
+label: { ar: "جزيرة قميرة", en: "Peñón de Vélez de la Gomera" }
+summary:
+  ar: "جزيرة."
+  en: "Spanish tidal island in North Africa."
+wings: [place]
+coordinates: [35.172222222222224, -4.299722222222222]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q191146" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q191146 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

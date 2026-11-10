@@ -1,0 +1,19 @@
+id: place/naogaon
+class: place
+kind: site
+label: { ar: "ناؤگاؤں", en: "Naogaon" }
+summary:
+  ar: "Naogaon, Rajshahi Division, Bangladesh."
+  en: "Naogaon, Rajshahi Division, Bangladesh."
+wings: [place]
+coordinates: [24.8042, 88.9481]
+coordinate_precision: locality
+coordinate_note: "Naogaon, Rajshahi Division, Bangladesh (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

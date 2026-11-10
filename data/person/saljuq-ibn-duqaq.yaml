@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1007~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: died_in, target: place/jand, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820453)" }
 sources: [source/kamil-ibn-al-athir]

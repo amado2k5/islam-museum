@@ -11,7 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1133", precision: year, status: tradition, derived: true }
   end: { edtf: "1133", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [36.376655, 34.93287]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1133"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الرافنية ⁦(١١٣٣)⁩", en: "Battle of Rafaniyya (1133)" }, at: [36.376655, 34.93287], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/rhaphanaea }
+sides:
+  - label: { en: "County of Tripoli", ar: "كونتية طرابلس" }
+  - label: { en: "Zengid dynasty", ar: "الدولة الزنكية" }
+    participants: [polity/zengid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q113554878
 provenance:

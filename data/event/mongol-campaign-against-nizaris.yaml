@@ -12,6 +12,21 @@ date:
   start: { edtf: "1253", precision: year, status: tradition, derived: true }
   end: { edtf: "1256", precision: year, status: tradition, derived: true }
 sources: [source/kamil-ibn-al-athir]
+map:
+  kind: campaign
+  precision: locality
+  center: [59.22, 33.25]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1253"
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة المغول ضد النزاريين", en: "Mongol Campaign against the Nizaris" }, at: [59.22, 33.25], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/quhistan }
+- { type: occurred_at, target: place/alamut }
+- { type: occurred_at, target: place/khorasan }
+- { type: occurred_at, target: place/qumis }
 external_ids:
   wikidata: Q92987578
 provenance:

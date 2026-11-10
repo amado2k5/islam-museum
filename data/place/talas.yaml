@@ -1,0 +1,20 @@
+id: place/talas
+class: place
+kind: town
+label: { ar: "تالاس", en: "Talas" }
+summary:
+  ar: "بلدة في قرغيزستان."
+  en: "Town in Kyrgyzstan."
+wings: [place]
+coordinates: [42.516666666667, 72.233333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q643955" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q643955 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

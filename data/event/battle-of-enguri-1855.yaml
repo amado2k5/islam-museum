@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1855-11", precision: year, status: tradition, derived: true }
   end: { edtf: "1855-11", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: battle
+  precision: locality
+  center: [43.0849, 42.9547]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1855"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة إنغوري ⁦(١٨٥٥)⁩", en: "Battle of Enguri (1855)" }, at: [43.0849, 42.9547], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/enguri }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }
+    participants: [polity/russian-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q12864139
 provenance:

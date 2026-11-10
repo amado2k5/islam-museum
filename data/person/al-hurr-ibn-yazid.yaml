@@ -18,5 +18,6 @@ status:
   review: published
   completeness: 3
 
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh 5/429; martyred Karbala 61 AH)" }
 relations:
   - { type: lived_in, target: place/karbala, note: "From text: of Karbala", sources: [source/tabari-tarikh-abu-al-fadl, source/bakr-umayyad-state-1134715], confidence: low }

@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1646", precision: year, status: tradition, derived: true }
   end: { edtf: "1646", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [24.4739, 35.3689]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1646"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ريثمنو ⁦(١٦٤٦)⁩", en: "Siege of Rethymno (1646)" }, at: [24.4739, 35.3689], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/rethymno }
+sides:
+  - label: { ar: "قوات إبراهيم الأول", en: "The forces of إبراهيم الأول" }
+    participants: [person/ibrahim-i-uthmani]
+  - label: { ar: "حامية ريثمنو", en: "The defenders of Rethymno" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118929980

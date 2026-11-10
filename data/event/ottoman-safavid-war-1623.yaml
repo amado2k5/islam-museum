@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1623", precision: year, status: tradition, derived: true }
   end: { edtf: "1639", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [43.5, 33.7]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1623"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الصفوية ⁦(١٦٢٣–١٦٣٩)⁩", en: "Ottoman–Safavid War of 1623–1639" }, at: [43.5, 33.7], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/mesopotamia }
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q163476
 provenance:

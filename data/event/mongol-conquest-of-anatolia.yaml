@@ -11,6 +11,18 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1241", precision: year, status: tradition, derived: true }
   end: { edtf: "1335", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.0, 39.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1241"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزو المغولي للأناضول", en: "Mongol conquest of Anatolia" }, at: [35.0, 39.0], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/anatolia }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q4301653

@@ -5,6 +5,7 @@ summary:
   ar: "بطليميوس الغريب كان يتوالى أرسطاليس وينشر محاسنه، وله كتاب أخبار أرسطاليس ووفاته ومراتب كتبه {cite:fihrist-ibn-al-nadim p. 357}."
   en: "Ptolemy the Foreigner — Aristotle's biographer {cite:fihrist-ibn-al-nadim}"
 wings: [people]
+died: { edtf: "350~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hein (Pseudo-Aristoteles/Batlimyus)" }
 relations:
   - { type: lived_in, target: place/greece, confidence: low, note: "Associate of Aristotle and author of his biography per the record's cited Fihrist passage.", sources: [source/fihrist-ibn-al-nadim] }
 provenance: { layer: own-research, source: "fihrist-ibn-al-nadim", generated_by: "Devin (SWE-2 Medium) prose enrichment batch 17", run: "prose-enrichment-100-devin-b17" }

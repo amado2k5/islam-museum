@@ -8,6 +8,8 @@ wings: [people]
 external_ids: { wikidata: "Q337009" }
 sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "709~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Mizan al-I'tidal)" }
+died: { edtf: "774~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Mizan al-I'tidal)" }
 relations:
   - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/contemporary-era]
+born: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Tunisian religious scholar" }
 relations:
   - { type: born_in, target: place/sfax, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

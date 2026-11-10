@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Evelyn Cobbold (17 July 1867 – 25 January 1963), born Evelyn Murray in Edinburgh, eldest daughter of the 7th Earl of Dunmore, spent her childhood winters in Algiers and Cairo among Muslim nurses and grew up fluent in Arabic, feeling, as she later wrote, "a little Moslem at heart".{cite:wikipedia-evelyn-cobbold-en}{cite:facey-taylor-cobbold-introduction}
 

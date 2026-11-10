@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1825", precision: year, status: tradition, derived: true }
   end: { edtf: "1826", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.42888888888889, 38.368611111111115]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1825"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ميسولونغي الثالث", en: "Third Siege of Missolonghi" }, at: [21.42888888888889, 38.368611111111115], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/missolonghi }
+sides:
+  - label: { ar: "قوات محمود الثاني", en: "The forces of محمود الثاني" }
+    participants: [person/mahmud-ii-uthmani]
+  - label: { ar: "حامية ميسولونغي الثالث", en: "The defenders of Missolonghi" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q650567

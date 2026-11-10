@@ -14,6 +14,8 @@ date:
   end: { edtf: "1028~", precision: year, status: historical, derived: true, note: "composed during his Cairo years after 1021; year approximate" }
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-zahir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/britannica-ibn-al-haytham]
 provenance:
   layer: own-research

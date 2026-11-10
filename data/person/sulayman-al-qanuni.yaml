@@ -4,7 +4,7 @@ label: { ar: "سليمان القانوني" }
 names:
   - { kind: full, lang: ar, value: "سليمان بن سليم الأول" }
 gender: male
-roles: [ruler, military]
+roles: [ruler, military, caliph]
 born: { edtf: "1494~", hijri: "0900~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بطرابزون سنة 900هـ تقريباً {cite:dawlat-uthmaniyya-salabi}", sources: [source/dawlat-uthmaniyya-salabi] }
 died: { edtf: "1566", hijri: "0974", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 summary:
@@ -14,6 +14,8 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+  - { type: successor_of, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
   - { type: child_of, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/conquest-of-belgrade-1521, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-mohacs-932, role: "السلطان القائد", sources: [source/dawlat-uthmaniyya-salabi] }
@@ -25,10 +27,11 @@ external_ids:
 sources: [source/dawlat-uthmaniyya-salabi, source/assabile-tareq-al-suwaidan]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 200-202"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 200-202"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch49
+importance: 1
 status: { review: published, completeness: 3 }
 
 education:
@@ -39,3 +42,5 @@ kids:
   ar: "سليمان القانوني عاشر السلاطين العثمانيين، بلغت دولته أوسعها في عهده."
   en: "Sulayman the Magnificent, tenth Ottoman sultan — under him the empire reached its widest borders."
   ur: "سلیمان قانونی دسواں عثمانی سلطان تھا — اس کے عہد میں سلطنت اپنی وسعت پر پہنچی۔"
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1520", calendar: julian, precision: year }, end: { edtf: "1566", calendar: julian, precision: year }, status: historical, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }

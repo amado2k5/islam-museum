@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1683", precision: year, status: tradition, derived: true }
   end: { edtf: "1683", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [18.718055555556, 47.799166666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1683"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة باركاني", en: "Battle of Párkány" }, at: [18.718055555556, 47.799166666667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/t-rovo }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q694911

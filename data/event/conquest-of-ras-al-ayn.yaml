@@ -16,10 +16,24 @@ relations:
   - { type: had_participant, target: person/umayr-ibn-sad, role: "الفاتح عنوة ثم المصالح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أمر إياداً بتوجيهه إليها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-musa-al-ashari, role: "الغازي عند هيثم بن عدي — ضعّفه البلاذري", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 242–243"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-14
+sides:
+  - label: { ar: "جيش عمير بن سعد الأنصاري", en: "Umayr ibn Sa'd al-Ansari's army" }
+    commanders: [person/umayr-ibn-sad, person/abu-musa-al-ashari]
+  - label: { ar: "رأس العين", en: "Ra's al-Ayn" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.85, 40.0667]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح رأس العين", en: "The Conquest of Ra's al-Ayn" }, at: [36.85, 40.0667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

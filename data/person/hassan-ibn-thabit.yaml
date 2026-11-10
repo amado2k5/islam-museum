@@ -29,6 +29,8 @@ story_roles:
   - { role: poet, toward: person/muhammad, start: { edtf: "0622~" }, status: historical, note: "شاعر النبي الذي كان ينفح عنه بالمسجد.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي وشاعر النبي." }
+born: { edtf: "563~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "0674~", hijri: "0054", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Hisham gives 54 AH; Khalifa gives before 40, others 40 or 50 (al-Isaba p. 312); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/hassan-elegy-for-the-prophet, sources: [source/ibn-hisham-saqqa] }
@@ -47,6 +49,7 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira, source/ibn-hisham-saqqa]}
 external_ids: { wikidata: "Q2315457" }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/sahih-muslim, source/assabile-omar-abdelkafy]
+importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }
 provenance:
   layer: own-research

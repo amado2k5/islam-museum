@@ -1,0 +1,20 @@
+id: place/rohtas-fort
+class: place
+kind: site
+label: { ar: "حصن روهتاس", en: "Rohtas Fort" }
+summary:
+  ar: "موقع أثري."
+  en: "Fort in Punjab, Pakistan."
+wings: [place]
+coordinates: [32.965277777778, 73.576416666667]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q155188" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q155188 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

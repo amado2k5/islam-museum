@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1290", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar: 689–769 AH)" }
+died: { edtf: "1368", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar: 689–769 AH)" }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -11,6 +11,18 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1822", precision: year, status: tradition, derived: true }
   end: { edtf: "1822", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.7349, 38.2464]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1822"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار باتراس", en: "Siege of Patras (1822)" }, at: [21.7349, 38.2464], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/patras }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q52481422

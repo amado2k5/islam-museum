@@ -11,7 +11,15 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }
+    participants: [polity/united-kingdom-great-britain-ireland]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q13565998
 provenance:

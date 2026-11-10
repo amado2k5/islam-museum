@@ -11,7 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0633", precision: year, status: tradition, derived: true }
   end: { edtf: "0633", precision: year, status: tradition, derived: true }
-sources: [source/futuh-buldan-maarif-1407]
+map:
+  kind: battle
+  precision: locality
+  center: [43.5, 33.7]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0633"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة النهر", en: "Battle of the River" }, at: [43.5, 33.7], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/mesopotamia }
+sides:
+  - label: { en: "Rashidun Caliphate", ar: "الخلافة الراشدة" }
+    participants: [polity/rashidun-caliphate]
+  - label: { en: "Sasanian Empire", ar: "الإمبراطورية الساسانية" }
+    participants: [polity/sasanian-empire]
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 external_ids:
   wikidata: Q2671590
 provenance:

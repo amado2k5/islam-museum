@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-al-jawzi, role: "المدرّس الخَلَف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

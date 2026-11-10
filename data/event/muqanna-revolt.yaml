@@ -13,7 +13,11 @@ date:
   end: { edtf: "0778", hijri: "0161", calendar: julian, precision: year, status: tradition, derived: true }
 relations:
   - { type: had_participant, target: person/al-muqanna, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
-  - { type: had_participant, target: person/said-al-harashi, role: "قائد النصر عليهم", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: related_to, target: person/said-al-harashi, role: "قائد النصر عليهم", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "أتباع المقنع الخراساني", en: "The followers of al-Muqanna' al-Khurasani" }
+  - label: { ar: "العباسيون بقيادة سعيد الحرشي", en: "The Abbasids under Sa'id al-Harashi" }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research

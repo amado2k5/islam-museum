@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Kyrie Irving (born 23 March 1992) is an American basketball guard born in Melbourne, Australia, and raised in New Jersey. The first overall pick of the 2011 draft, he won the 2016 NBA championship with Cleveland and has since played for Boston, Brooklyn and Dallas.{cite:wikipedia-kyrie-irving-en}{cite:wikidata-kyrie-irving}
 

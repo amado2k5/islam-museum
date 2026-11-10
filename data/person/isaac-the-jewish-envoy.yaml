@@ -9,6 +9,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [andalus-europe, levant-iraq]
+born: { edtf: "797~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Annales Regni Francorum" }
+died: { edtf: "802~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Annales Regni Francorum" }
 relations:
   - { type: lived_in, target: place/rashid, confidence: low, note: "Associated with Rashid per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: participated_in, target: event/rashid-charlemagne-embassies, role: "مترجم البعثة الأولى", sources: [source/tarikh-dawla-abbasiyya-taqqush] }

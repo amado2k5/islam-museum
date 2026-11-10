@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+born: { edtf: "1005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
+died: { edtf: "1068", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
 relations:
   - { type: ruler_of, target: place/al-andalus, note: "From text: ملك بطليوس من غرب الأندلس من بني ال", sources: [source/nafh-tib-maqqari, source/tarikh-ibn-khaldun-ibar] }
   - { type: authored, target: work/al-muzaffari, sources: [source/nafh-tib-maqqari] }

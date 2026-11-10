@@ -16,7 +16,10 @@ translations:
   en: { text: "And he placed his parents on the dais and they fell down before him prostrate, and he said: O my father! This is the interpretation of my dream of old. My Lord hath made it true, and He hath shown me kindness, since He took me out of the prison and hath brought you from the desert after Satan had made strife between me and my brethren. Lo! my Lord is tender unto whom He will. He is the Knower, the Wise.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اپنے والدین کو تخت پر بٹھایا اور سب یوسفؑ کے آگے سجدہ میں گر پڑے اور (اس وقت) یوسف نے کہا ابا جان یہ میرے اس خواب کی تعبیر ہے جو میں نے پہلے (بچپن میں) دیکھا تھا۔ میرے پروردگار نے اسے سچ کر دکھایا اور اس نے مجھ پر (بہت سے) احسان کئے ہیں کہ مجھ کو جیل خانے سے نکالا۔ اور اس کے بعد کہ شیطان نے مجھ میں اور میرے بھائیوں میں فساد ڈال دیا تھا۔ آپ کو گاؤں سے یہاں لایا۔ بےشک میرا پروردگار جو چاہتا ہے تدبیر سے کرتا ہے۔ وہ دانا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/taabir-al-ruya, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-12 }
+  - { type: mentions, target: concept/asma-al-alim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-hakim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

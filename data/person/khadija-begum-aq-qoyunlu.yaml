@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1470~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/aq-qoyunlu, confidence: low, note: "Associated with Aq Qoyunlu per the record's own summary text; relation type pending review.", sources: [source/bosworth-new-islamic-dynasties-1996] }
 sources: [source/bosworth-new-islamic-dynasties-1996]

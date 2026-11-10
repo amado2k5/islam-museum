@@ -14,5 +14,6 @@ provenance:
   run: lib-futuh-buldan-batch-42
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (qurashi); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

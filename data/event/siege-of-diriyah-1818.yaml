@@ -11,6 +11,18 @@ regions: [arabia]
 date:
   start: { edtf: "1818", precision: year, status: tradition, derived: true }
   end: { edtf: "1818", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [46.5756, 24.7333]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1818"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الدرعية", en: "Siege of Diriyah" }, at: [46.5756, 24.7333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/diriyah }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3656346

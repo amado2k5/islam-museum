@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1592", precision: year, status: tradition, derived: true }
   end: { edtf: "1592", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [15.869166666666667, 44.81472222222222]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1592"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بيهاتش", en: "Siege of Bihać" }, at: [15.869166666666667, 44.81472222222222], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/biha }
+sides:
+  - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
+    participants: [person/murad-iii-uthmani]
+  - label: { ar: "حامية بيهاتش", en: "The defenders of Bihać" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q20526199

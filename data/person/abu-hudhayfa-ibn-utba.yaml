@@ -3,6 +3,7 @@ class: person
 label:
   ar: أبو حذيفة بن عتبة
   en: Abu Hudhayfa ibn Utba
+  ur: "أبو حذيفة بن عتبة"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: من السابقين إلى الإسلام، هاجر الهجرتين وصلى إلى القبلتين وشهد بدراً؛ أسلم بعد ثلاثة وأربعين إنساناً، وتبنى سالماً مولاه، واستشهد يوم اليمامة وهو ابن ست وخمسين سنة؛ اختُلف في اسمه ⁦(مهشم أو هشيم أو هاشم أو قيس)⁩.
   en: One of the earliest to embrace Islam, he made both emigrations, prayed towards both qiblas and fought at Badr; he became Muslim after forty-three others, adopted his freed slave Salim, and was killed at al-Yamama aged fifty-six; his name
     is disputed (Muhshim, Hushaym, Hashim or Qays).
+  ur: "سب سے پہلے اسلام لانے والوں میں سے، دونوں ہجرتیں کیں، دونوں قبلوں کی طرف نماز پڑھی اور بدر میں لڑے؛ تینتالیسویں یا اس کے قریب مسلمان ہوئے۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -37,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama, aged fifty-six (al-Isaba p. 1649); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/mecca
@@ -49,6 +52,26 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Abd Shams ibn Abd Manaf (al-Isaba p. 1649)"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/muhajirun
+  note: "al-Isaba p. 1649"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 1649"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-yamama
+  note: "al-Isaba p. 1649"
   sources:
   - source/ibn-hajar-isaba
 provenance:

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+died: { edtf: "1930~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Libiya" }
 relations:
   - { type: born_in, target: place/tripoli-al-sham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tripoli-al-sham, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

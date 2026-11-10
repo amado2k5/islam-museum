@@ -12,6 +12,7 @@ provenance:
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-3
+died: { edtf: "1048~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Ibn Khaldun" }
 relations:
   - { type: ruled_over, target: place/qayrawan, sources: [source/tarikh-ibn-khaldun-ibar], confidence: low, note: "ar: 'رئيس كدالة من لمتونة؛ خرج حاجاً في رؤساء من قومه في سني أربعين وأربعمائة فلقوا في منصرفهم بالقيروان شيخ ا" }
 sources: [source/tarikh-ibn-khaldun-ibar]

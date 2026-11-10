@@ -12,10 +12,14 @@ date:
   start: { edtf: "1275~", hijri: "0674", calendar: julian, precision: year, status: tradition, derived: true, note: "674؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 728}." }
 relations:
   - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47, lib-futuh-misr-batch-6-2026-10-31
+sides:
+  - label: { ar: "المماليك بقيادة بيبرس", en: "The Mamluks under Baybars" }
+  - label: { ar: "نوبيّة ودنقلة", en: "Nubia and Dunqula" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/futuh-misr-amir-1999]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

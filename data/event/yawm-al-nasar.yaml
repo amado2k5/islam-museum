@@ -15,6 +15,9 @@ relations:
   - { type: had_participant, target: group/banu-asad-ibn-khuzayma, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-tamim, role: "المدَّعون بالعمومة المنهزمون مع عامر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "أمداد تميم، استحر بهم القتل", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "تميم", en: "Tamim" }
+  - label: { ar: "ضبة وربياب وأسد وغطفان", en: "Dabba, the Rabab, Asad and Ghatafan" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

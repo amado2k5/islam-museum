@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+died: { edtf: "816", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Nishapur" }
 relations:
   - { type: buried_in, target: building/imamzadeh-muhammad-al-mahruq, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3583062)" }
   - { type: buried_in, target: place/aleppo, confidence: low, note: "His imamzadeh stands in Aleppo (Wikidata Q3583062 / P119); regions: levant-iraq.", sources: [source/al-aalam] }

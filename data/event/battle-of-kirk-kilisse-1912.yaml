@@ -11,7 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1912", precision: year, status: tradition, derived: true }
   end: { edtf: "1912", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Kingdom of Bulgaria", ar: "قيصرية بلغاريا" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2720985
 provenance:

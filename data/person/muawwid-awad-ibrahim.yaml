@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
+born: { edtf: "1912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Azhar portal" }
+died: { edtf: "2019", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Azhar portal" }
 relations:
   - { type: born_in, target: place/dakahlia-governorate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q31068)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }

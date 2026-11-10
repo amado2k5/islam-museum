@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-abi-hadrad
 class: person
-label: { en: "Abdullah ibn Abi Hadrad al-Aslami", ar: "عبد الله بن أبي حدرد الأسلمي" }
+label: { en: "Abdullah ibn Abi Hadrad al-Aslami", ar: "عبد الله بن أبي حدرد الأسلمي", ur: "عبد الله بن أبي حدرد الأسلمي" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن أبي حدرد الأسلمي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A Companion of Banu Aslam dispatched by the Prophet as an undercover scout to Hawazin's camp at Awtas before Hunayn; he stayed among them, overheard Malik ibn Awf's orders, and brought vital intelligence back to Medina's army."
   ar: "صحابي من بني أسلم بعثه النبي عيناً متخفياً إلى عسكر هوازن بأوطاس قبل حنين؛ فأقام فيهم حتى سمع مقالة مالك بن عوف وخطته الحربية، ثم رجع إلى النبي فأخبره."
+  ur: "بنو اسلم کے صحابی؛ نبی نے انہیں حنین سے پہلے اوطاس میں ہوازن کے لشکر میں چھپ کر جاسوس بنایا؛ وہ ان کے درمیان رہے اور مالک بن عوف کی بات اور منصوبہ سن کر واپس آئے۔"
 wings: [people]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "عين النبي واستخباراته بأوطاس قبل حنين.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من بني أسلم." }
+died: { edtf: "0691", hijri: "0071", calendar: julian, precision: year, status: tradition, derived: true, note: "Died 71 AH aged eighty-one (al-Mada'ini, al-Waqidi, Yahya ibn Sa'id and Ibn Sa'd, al-Isaba p. 860); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-al-ghaba, role: "قتل رفاعة بن قيس؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
@@ -25,5 +27,5 @@ relations:
   - { type: participated_in, target: event/battle-of-hunayn, role: scout, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 83–84", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch51" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

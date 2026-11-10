@@ -12,6 +12,7 @@ provenance:
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-batch-1
+died: { edtf: "875", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muntazam" }
 relations:
   - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 sources: [source/muntazam-ibn-al-jawzi]

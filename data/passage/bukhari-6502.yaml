@@ -1,0 +1,22 @@
+id: passage/bukhari-6502
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6502"
+label:
+  ar: "البخاري 6502 — من عادى لي وليا فقد آذنته بالحرب"
+  en: "Bukhari 6502 — Whoever shows enmity to a friend of Mine, I declare war on him"
+  ur: "بخاری 6502 — جس نے میرے کسی ولی سے دشمنی کی، میں اس سے اعلانِ جنگ کرتا ہوں"
+text: "إن الله قال من عادى لي وليا فقد آذنته بالحرب، وما تقرب إلى عبدي بشىء أحب إلى مما افترضت عليه، وما يزال عبدي يتقرب إلى بالنوافل حتى أحبه، فإذا أحببته كنت سمعه الذي يسمع به، وبصره الذي يبصر به، ويده …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 6502: من عادى لي وليا فقد آذنته بالحرب. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 6502: Whoever shows enmity to a friend of Mine, I declare war on him. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 6502: جس نے میرے کسی ولی سے دشمنی کی، میں اس سے اعلانِ جنگ کرتا ہوں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [spirituality-and-sufism]
+tags: [hadith-qudsi, qudsi-man-ada-li-waliyyan]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6502; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

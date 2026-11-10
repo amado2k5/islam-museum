@@ -13,6 +13,20 @@ relations:
   - { type: had_participant, target: person/tarkhun, role: "المدد ثم المستنجد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tirmidh }
 wings: [time]
+sides:
+  - label: { ar: "جيش موسى بن نصير", en: "Musa ibn Nusayr's forces" }
+    participants: [person/musa-ibn-nusayr]
+    commanders: [person/musa-ibn-nusayr]
+  - label: { ar: "أهل ترمذ", en: "The people of Tirmidh" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.2242, 67.2783]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حروب موسى من الترمذ", en: "Musa's Wars from Tirmidh" }, at: [37.2242, 67.2783], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

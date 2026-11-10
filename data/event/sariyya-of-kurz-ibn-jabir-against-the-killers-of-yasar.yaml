@@ -37,5 +37,21 @@ perspectives:
     summary: { ar: "تناقش الدراسات الحديثة اختلاف روايات الخبر في نسبة القوم وفي صفة العقوبة وفي علاقته بآية الحرابة، وتقرأه في سياق أمن المدينة المبكرة؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 290", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية كرز بن جابر", en: "Kurz ibn Jabir's expedition" }
+    commanders: [person/kurz-ibn-jabir-al-fihri]
+    strength: { value: 70, status: tradition, note: "سبعون راكباً في المشهور", sources: [source/ibn-hisham-saqqa] }
+  - label: { ar: "العرنيين القتلة", en: "The Urayna killers" }
+    participants: [group/bajila]
+    strength: { value: 8, status: tradition, note: "ثمانية نفر في صحيح البخاري", sources: [source/sahih-al-bukhari] }
+map:
+  kind: campaign
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية كرز بن جابر لقتل البجليين الذين قتلوا يساراً", en: "Kurz ibn Jabir's detachment against the men of Bajila who killed Yasar" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 290; Tier A" }

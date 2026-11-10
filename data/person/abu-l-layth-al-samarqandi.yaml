@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar" }
+died: { edtf: "983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar" }
 relations:
   - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name (السمرقندي); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "1373", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shawkani (al-Badr al-Tali')" }
+died: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shawkani (al-Badr al-Tali')" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Association inferred from the nisba 'الدمشقي'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

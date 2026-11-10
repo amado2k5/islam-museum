@@ -12,6 +12,18 @@ date:
   start: { edtf: "1096", precision: year, status: tradition, derived: true }
   end: { edtf: "1096", precision: year, status: tradition, derived: true }
 sources: [source/kamil-ibn-al-athir]
+map:
+  kind: siege
+  precision: locality
+  center: [29.804166666667, 40.3925]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1096"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كسري كوردون", en: "Siege of Xerigordon" }, at: [29.804166666667, 40.3925], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/xerigordos }
 external_ids:
   wikidata: Q3656607
 provenance:

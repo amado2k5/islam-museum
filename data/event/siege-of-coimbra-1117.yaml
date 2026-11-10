@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1117", precision: year, status: tradition, derived: true }
   end: { edtf: "1117", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "County of Portugal", ar: "كونتية البرتغال" }
+    participants: [polity/county-of-portugal]
+map:
+  kind: siege
+  precision: locality
+  center: [-8.4289, 40.2111]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1117"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قلمرية ⁦(١١١٧)⁩", en: "Siege of Coimbra" }, at: [-8.4289, 40.2111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/qalimriyya }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q121065824
 provenance:

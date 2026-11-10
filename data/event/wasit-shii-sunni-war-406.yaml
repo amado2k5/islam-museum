@@ -11,6 +11,12 @@ wings: [time]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 themes: [sects-and-schools, civil-wars-and-revolts]
+relations:
+- { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "سلطات القادر بالله أحمد بن إسحاق بن المقتدر", en: "The authorities of al-Qadir bi-llah Ahmad ibn Ishaq ibn al-Muqtadir" }
+    participants: [person/al-qadir-billah]
 sources: [source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research

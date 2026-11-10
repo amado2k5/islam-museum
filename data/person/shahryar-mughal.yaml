@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1605", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: born_in, target: place/agra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42941)" }
   - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }

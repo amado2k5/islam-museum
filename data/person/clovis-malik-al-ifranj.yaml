@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [andalus-europe]
+born: { edtf: "466", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Gregory of Tours" }
+died: { edtf: "511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Gregory of Tours" }
 relations:
   - { type: lived_in, target: place/jarbida, confidence: low, note: "Associated with جربدة per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:

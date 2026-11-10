@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1789", precision: year, status: tradition, derived: true }
   end: { edtf: "1789", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [20.465, 44.804]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1789"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بلغراد ⁦(١٧٨٩)⁩", en: "Siege of Belgrade" }, at: [20.465, 44.804], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/belgrade }
+sides:
+  - label: { ar: "قوات عبد الحميد الأول", en: "The forces of Abd al-Hamid I" }
+    participants: [person/abd-al-hamid-i-uthmani]
+  - label: { ar: "حامية بلغراد", en: "The defenders of Belgrade" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q7509870

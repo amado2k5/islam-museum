@@ -3,6 +3,7 @@ class: person
 label:
   ar: سهل بن حنيف
   en: Sahl ibn Hunayf
+  ur: "سهل بن حنيف"
 names:
 - kind: full
   lang: ar
@@ -10,16 +11,17 @@ names:
 roles:
 - companion
 summary:
-  ar: بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك
-    لا تُذكر هنا تواريخ ولا أحداث.
-  en: Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked
-    on the page, so no dates or events are given.
+  ar: "صحابي أوسي بدري من أهل بدر؛ ثبت يوم أحد حين انكشف الناس ونضح عن النبي بالنبل، وشهد الخندق والمشاهد كلها، واستخلفه علي على البصرة بعد الجمل ومات بالكوفة سنة ثمان وثلاثين."
+  en: "An Awsi Badri Companion; he stood firm at Uhud when the ranks broke and shielded the Prophet with his arrows, witnessed the Trench and all the battles, governed Basra for Ali after the Camel, and died at Kufa in 38 AH."
+  ur: "اوسی بدری صحابی؛ احد میں صفوف ٹوٹنے پر ثابت قدم رہے اور نبی کو اپنے تیروں سے ڈھال بنایا؛ خندق میں شریک۔"
 wings:
 - people
 sources:
 - source/isaba-matba-al-saada-1328
 - source/sallabi-ali-vol1
 - source/taqrib-al-tahdhib
+- source/ibn-hajar-isaba
+died: { edtf: "0658", hijri: "0038", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Kufa, 38 AH; Ali prayed over him with five or six takbirs — a Badri (al-Waqidi and al-Mada'ini, al-Isaba p. 624); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: member_of
   target: group/sahaba
@@ -41,6 +43,35 @@ relations:
   target: group/ansar
   sources:
   - source/isaba-matba-al-saada-1328
+- type: member_of
+  target: group/al-aws
+  note: "al-Isaba p. 624"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 624"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "al-Isaba p. 624"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  note: "al-Isaba p. 624"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 624"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 624"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12177673
 provenance:

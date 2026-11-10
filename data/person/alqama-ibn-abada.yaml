@@ -20,5 +20,6 @@ story_roles:
 sources: [source/mufaddaliyyat-rahmaniyya-1926]
 status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "المفضليات، المطبعة الرحمانية 1926، ص 186", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-mufaddaliyyat-3" }
+died: { edtf: "603~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Jamharat Ash'ar al-Arab" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mufaddaliyyat-rahmaniyya-1926], confidence: low }

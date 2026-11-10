@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1400", precision: year, status: tradition, derived: true }
   end: { edtf: "1401", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.2913, 33.5102]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1400"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار دمشق ⁦(١٤٠٠)⁩", en: "Siege of Damascus" }, at: [36.2913, 33.5102], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/damascus }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q9389452

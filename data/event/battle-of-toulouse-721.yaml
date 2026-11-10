@@ -11,6 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0721", precision: year, status: tradition, derived: true }
   end: { edtf: "0721", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [1.4433333333333334, 43.60444444444445]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0721"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة تولوز", en: "Battle of Toulouse" }, at: [1.4433333333333334, 43.60444444444445], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/toulouse }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q652320

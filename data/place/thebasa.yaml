@@ -1,0 +1,20 @@
+id: place/thebasa
+class: place
+kind: site
+label: { ar: "ثيباسا", en: "Thebasa" }
+summary:
+  ar: "موقع أثري."
+  en: "Fortified place in Asia Minor."
+wings: [place]
+coordinates: [37.293682, 33.836559]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7777605" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7777605 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

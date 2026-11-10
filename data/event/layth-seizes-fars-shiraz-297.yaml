@@ -17,7 +17,7 @@ relations:
   - { type: occurred_at, target: place/shiraz, sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/fars, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-layth-ibn-ali-al-saffar, role: "أمير الصفارية المستولي", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/subkari-al-saffari, role: "عامل فارس الهارب ثم العائد مع مؤنس", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/subkari-al-saffari, role: "عامل فارس الهارب ثم العائد مع مؤنس", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/muanis-al-muzaffar, role: "قائد جيش المقتدر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muqtadir-billah, role: "الخليفة الآمر بالنجدة", sources: [source/kamil-ibn-al-athir] }
 map: { kind: locator, precision: approximate, center: [29.6103, 52.5311] }

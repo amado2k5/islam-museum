@@ -11,7 +11,23 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1862", precision: year, status: tradition, derived: true }
   end: { edtf: "1862", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-4.55, 13.9]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1862"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كاياوال ⁦(١٨٦٢)⁩", en: "Battle of Cayawal (1862)" }, at: [-4.55, 13.9], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/djenn }
+sides:
+  - label: { en: "Empire Peul", ar: "سلطنة تكرور" }
+    participants: [polity/empire-peul]
+  - label: { en: "Massina Empire", ar: "إمبراطورية المسينة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q130251353
 provenance:

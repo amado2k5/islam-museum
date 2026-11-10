@@ -9,7 +9,10 @@ gender: male
 external_ids: { wikidata: "Q172862" }
 sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/fihrist-ibn-al-nadim, source/talbis-iblis-muniriyya-1928]
 provenance: { layer: own-research, source: "Tabari batch 8; تلبيس إبليس ط. المنيرية 1928 (PDF pp. 174-176, 388-389)", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 8; enriched by Claude Code (OCR-harvest worker G)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, sources: [source/tabari-tarikh-abu-al-fadl, source/talbis-iblis-muniriyya-1928] }
+importance: 2
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5); enriched by Claude Code (OCR-harvest worker G)" }
+born: { edtf: "858~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Louis Massignon (The Passion of al-Hallaj); EI2" }
+died: { edtf: "922", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Louis Massignon (The Passion of al-Hallaj); EI2" }
 relations:
   - { type: lived_in, target: place/hijr, note: "From text: أقام بها سنين في الحجر لا يستظل تحت ", sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/fihrist-ibn-al-nadim, source/talbis-iblis-muniriyya-1928] }
   - { type: traveled_to, target: place/mecca, note: "From text: went to Mecca", sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/fihrist-ibn-al-nadim, source/talbis-iblis-muniriyya-1928] }

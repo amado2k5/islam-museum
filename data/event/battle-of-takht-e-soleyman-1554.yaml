@@ -11,7 +11,25 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1554", precision: year, status: tradition, derived: true }
   end: { edtf: "1554", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [47.23416666666667, 36.60472222222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1554"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة تخت سليمان ⁦(١٥٥٤)⁩", en: "Battle of Takht-e Soleyman (1554)" }, at: [47.23416666666667, 36.60472222222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/takht-e-soleyman }
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118946489
 provenance:

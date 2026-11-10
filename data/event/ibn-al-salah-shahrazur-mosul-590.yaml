@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/ibn-al-salah, role: "الطالب", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
   - { type: had_participant, target: person/salah-al-din-al-nasri, role: "والده وشيخه الأول", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-imad-ibn-yunus, role: "شيخه بالموصل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

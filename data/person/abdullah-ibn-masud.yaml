@@ -11,7 +11,7 @@ names:
   - { kind: full, lang: ar, value: "عبد الله بن مسعود بن غافل الهذلي" }
 gender: male
 born: { edtf: "0594~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0653~", calendar: julian, precision: year, status: tradition, note: "Died in Medina about 32 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0653~", hijri: "0032", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Medina in 32 AH (~652/653 CE) under Uthman (al-Isaba); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [companion, scholar]
 traditions: [sunni]
 summary:
@@ -38,9 +38,11 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: lived_in, target: place/kufa, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-the-bridge, note: "al-Isaba p. 944", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q423557
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-hajar-isaba]
+importance: 2
 status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"

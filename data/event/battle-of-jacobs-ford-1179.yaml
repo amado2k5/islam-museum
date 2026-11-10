@@ -11,6 +11,13 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1179", precision: year, status: tradition, derived: true }
   end: { edtf: "1179", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "الصليبيون بقيادة بلدوين الرابع", en: "The Crusaders under Baldwin IV" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2236782

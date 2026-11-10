@@ -1,0 +1,19 @@
+id: place/groningen
+class: place
+kind: city
+label: { ar: "خرونينغن", en: "Groningen", ur: "خرونینگن" }
+summary:
+  ar: "مدينة في شمال هولندا."
+  en: "City in the northern Netherlands."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [53.2194, 6.5665]
+coordinate_precision: locality
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "General geographic knowledge (Groningen, Netherlands), added for person-place edges resolved in the residual-location run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: residual-person-places
+status: { review: draft, completeness: 1, generated_by: "Devin" }

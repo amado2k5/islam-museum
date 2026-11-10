@@ -8,6 +8,7 @@ gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+died: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tha'alibi (Yatima)" }
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "Associated with شيراز per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 sources: [source/muntazam-ibn-al-jawzi]

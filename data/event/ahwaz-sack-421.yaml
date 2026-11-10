@@ -15,9 +15,20 @@ sides:
   - label: { ar: "أهل الأهواز" }
 date:
   start: { edtf: "1030-03~", hijri: "0421-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ورد كتاب الجلالة إلى بغداد في ١١ ربيع الآخر ٤٢١ {cite:muntazam-ibn-al-jawzi j.8 p.388}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [48.67, 31.32]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1030"
+  features:
+    - { type: point, role: event_point, label: { ar: "نهب الأهواز ٤٢١", en: "The sack of al-Ahwaz, 421" }, at: [48.67, 31.32], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: occurred_at, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/jalal-al-dawla, role: "صاحب الحملة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢١)، قراءة آبل فيجن، مسح AAlexandrina-224011"

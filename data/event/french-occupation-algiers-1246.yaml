@@ -17,5 +17,18 @@ provenance:
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 369"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-9
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية الجزائر", en: "The defenders of Algiers" }
+    participants: [place/algiers]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.73225, 3.08746]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "احتلال فرنسا الجزائر", en: "The French Occupation of Algiers" }, at: [36.73225, 3.08746], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

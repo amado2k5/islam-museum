@@ -10,12 +10,29 @@ periods: [period/gunpowder-empires]
 regions: [maghreb]
 date:
   start: { edtf: "1578-08-04", hijri: "0986-06-30", calendar: gregorian, precision: day, status: tradition, derived: true, sources: [source/dawlat-uthmaniyya-salabi] }
+map:
+  kind: battle
+  precision: locality
+  center: [-5.8998397, 34.9990773]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1578"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة وادي المخازن ⁦(٩٨٦هـ/١٥٧٨م)⁩", en: "Battle of Wadi al-Makhazin (986/1578)" }, at: [-5.8998397, 34.9990773], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: had_participant, target: person/abd-al-malik-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/muhammad-ii-mutawakkil-saadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/abu-al-mahasin-yusuf-al-fasi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: occurred_at, target: place/ksar-el-kebir }
+sides:
+  - label: { ar: "السعديون بقيادة عبد الملك", en: "The Saadians under Abd al-Malik" }
+    commanders: [person/abd-al-malik-al-sadi, person/ahmad-al-mansur-al-sadi]
+  - label: { ar: "البرتغال بقيادة سبستيان ومحمد المتوكل", en: "The Portuguese under Sebastian and al-Mutawakkil" }
+    commanders: [person/sebastian-i-portugal, person/muhammad-ii-mutawakkil-saadi]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1121532

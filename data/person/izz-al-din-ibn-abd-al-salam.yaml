@@ -12,6 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-46
+born: { edtf: "1181", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala / al-Dhahabi" }
+died: { edtf: "1262", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala / al-Dhahabi" }
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -12,6 +12,7 @@ summary:
 roles: [teacher, writer]
 wings: [people, living]
 regions: [americas-oceania, andalus-europe]
+born: { edtf: "1980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Islamic author/educator" }
 relations:
   - { type: born_in, target: place/trinidad-and-tobago, sources: [source/muslimacoaching-about, source/islamqa-naielah-ackbarali, source/inspiredmuslimwomen-counseling] }
   - { type: lived_in, target: place/florida, sources: [source/muslimacoaching-about, source/islamqa-naielah-ackbarali, source/inspiredmuslimwomen-counseling] }

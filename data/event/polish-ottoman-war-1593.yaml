@@ -11,7 +11,15 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1593", precision: year, status: tradition, derived: true }
   end: { edtf: "1595", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Polish–Lithuanian Commonwealth", ar: "الكومنولث البولندي الليتواني" }
+    participants: [polity/polish-lithuanian-commonwealth]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q1178498
 provenance:

@@ -1,6 +1,6 @@
 id: person/al-dahhak-ibn-sufyan
 class: person
-label: { en: "al-Dahhak ibn Sufyan al-Kilabi", ar: "الضحاك بن سفيان الكلابي" }
+label: { en: "al-Dahhak ibn Sufyan al-Kilabi", ar: "الضحاك بن سفيان الكلابي", ur: "الضحاك بن سفيان الكلابي" }
 names:
   - { kind: full, lang: ar, value: "الضحاك بن سفيان الكلابي" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion]
 summary:
   en: "A companion of Banu Kilab appointed sadaqa collector over his people in 9 AH; when a clan of them refused the call to Islam and fought, he led the expedition that routed them in Rabi' al-Awwal of that year."
   ar: "صحابي من بني كلاب؛ ولّاه النبي الصدقة على قومه سنة 9هـ، ولما أبوا الإجابة للإسلام وقاتلوا أمره على سرية إليهم في ربيع الأول سنة 9هـ فهزمهم."
+  ur: "بنو کلاب کے صحابی جنہیں 9 ہجری میں اپنے قوم پر صدقہ جمع کرنے والا بنایا گیا؛ جب ایک قبیلے نے اسلام سے انکار کیا اور لڑا، انہوں نے مہم کی قیادت کی۔"
 wings: [people]
 themes: [skirmishes-raids-expeditions, converts-and-leavers]
 periods: [period/prophetic-era]
@@ -16,6 +17,7 @@ story_roles:
   - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى بني كلاب ثم قائد السرية إليهم (الرحيق ص424، ص426).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq], confidence: low }
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-banu-kilab, sources: [source/mubarakpuri-raheeq] }

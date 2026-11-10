@@ -6,6 +6,8 @@ wings: [people]
 faith: [{ value: arabian-polytheism, basis: tradition }]
 story_roles: [{ role: founder }]
 themes: [tradition-versus-culture]
+born: { edtf: "250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+died: { edtf: "300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
 relations:
   - { type: member_of, target: group/khuzaa }
   - { type: made, target: object/hubal }

@@ -1,6 +1,6 @@
 id: person/al-harith-ibn-hisham
 class: person
-label: { en: "al-Harith ibn Hisham", ar: "الحارث بن هشام المخزومي" }
+label: { en: "al-Harith ibn Hisham", ar: "الحارث بن هشام المخزومي", ur: "الحارث بن هشام المخزومي" }
 names:
   - { kind: full, lang: ar, value: "الحارث بن هشام بن المغيرة المخزومي القرشي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A prominent nobleman of Banu Makhzum and brother of Abu Jahl; after fierce opposition to Islam at Badr and Uhud, he embraced Islam on the day of the conquest of Mecca, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, and fell as a martyr in the conquest of Syria."
   ar: "شريف من سادات بني مخزوم وأخو أبي جهل بن هشام؛ حارب المسلمين ببدر وأحد ثم أسلم يوم فتح مكة وحسن إسلامه، وأعطاه النبي مئة بعير بالجعرانة، واستُشهد في فتوح الشام."
+  ur: "بنو مخزوم کے ممتاز سردار اور ابو جہل کے بھائی؛ بدر اور احد میں اسلام کی سخت مخالفت کے بعد فتح مکہ کے دن مسلمان ہوئے۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
@@ -17,11 +18,15 @@ story_roles:
   - { role: convert, status: tradition, note: "أسلم يوم فتح مكة وأعطاه النبي مائة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
+died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 1/268; d. 13 or 18 AH)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "of Banu Makhzum, brother of Abu Jahl (al-Isaba p. 273)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-makhzum, note: "al-Isaba p. 273", sources: [source/ibn-hajar-isaba] }
+
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 136", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

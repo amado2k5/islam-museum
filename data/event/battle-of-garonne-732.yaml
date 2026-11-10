@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0732", precision: year, status: tradition, derived: true }
   end: { edtf: "0732", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-0.57944444444444, 44.837777777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0732"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بوردو", en: "Battle of the Garonne" }, at: [-0.57944444444444, 44.837777777778], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/bordeaux }
+sides:
+  - label: { ar: "جيش الأندلس بقيادة عبد الرحمن الغافقي", en: "The Andalusi army under al-Ghafiqi" }
+    commanders: [person/abd-al-rahman-al-ghafiqi]
+  - label: { ar: "أهل الأكيتين بقيادة إيد", en: "The Aquitainians under Odo" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q2524627

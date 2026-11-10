@@ -3,6 +3,7 @@ class: person
 label:
   ar: عبد الله بن زيد بن عاصم
   en: Abdullah ibn Zayd ibn Asim
+  ur: "عبد الله بن زيد بن عاصم"
 names:
   - { kind: full, lang: ar, value: عبد الله بن زيد بن عاصم من بني مبذول من بني النجار }
 gender: male
@@ -11,17 +12,21 @@ traditions: [sunni]
 summary:
   ar: "أنصاري من بني مبذول من بني النجار؛ أخو حبيب بن زيد الذي قطع مسيلمة يديه ورجليه، وأمهما نسيبة بنت كعب التي قاتلت يوم اليمامة وجرحت؛ وقال بعض الرواة عند البلاذري إنه قاتل مسيلمة في حديقة الموت."
   en: "An Ansari of Banu Mabdhul of Banu al-Najjar; brother of Habib ibn Zayd whose hands and feet Musaylima cut off, their mother Nusayba bint Ka'b who fought at al-Yamama and came away wounded; some of al-Baladhuri's transmitters name him as Musaylima's slayer in the Garden of Death."
+  ur: "بنو مبذول بنو نجار کے انصاری؛ حبیب بن زید کے بھائی جن کے ہاتھ پاؤں مسیلمہ نے کاٹے، اور ان کی والدہ نصیبہ بنت کعب جو احد میں لڑیں۔"
 wings: [people]
 periods:
 - period/prophetic-era
 - period/rashidun
 regions:
 - arabia
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed on the day of al-Harra, 63 AH (al-Isaba p. 879); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (أنصاري); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/battle-of-yamama, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
   - { type: member_of, target: group/ansar, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 879", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-yamama, note: "shared with Wahshi ibn Harb in killing Musaylima (al-Isaba p. 879)", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 121 و125–126"
@@ -29,6 +34,7 @@ provenance:
   run: lib-futuh-buldan-batch-5
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1

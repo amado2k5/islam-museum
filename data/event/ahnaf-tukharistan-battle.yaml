@@ -10,6 +10,19 @@ relations:
   - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "الأمير الظافر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/marw-al-rudh }
 wings: [time]
+sides:
+  - label: { ar: "جيش الأحنف بن قيس", en: "al-Ahnaf ibn Qays's army" }
+    commanders: [person/al-ahnaf-ibn-qays]
+  - label: { ar: "مرو الروذ", en: "Marw al-Rudh" }
+map:
+  kind: battle
+  precision: locality
+  center: [35.35, 63.2]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة الأحنف بطخارستان", en: "al-Ahnaf's Battle in Tukharistan" }, at: [35.35, 63.2], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

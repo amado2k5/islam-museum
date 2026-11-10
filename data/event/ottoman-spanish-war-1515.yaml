@@ -11,6 +11,18 @@ regions: [maghreb]
 date:
   start: { edtf: "1515", precision: year, status: tradition, derived: true }
   end: { edtf: "1577", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [17.0, 38.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1515"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الإسبانية ⁦(١٥١٥–١٥٧٧)⁩", en: "Ottoman–Spanish War (1515–77)" }, at: [17.0, 38.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/mediterranean-sea }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118929718

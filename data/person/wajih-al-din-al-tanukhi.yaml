@@ -15,6 +15,8 @@ wings:
 - people
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1166", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam; al-Dhayl ala Tabaqat al-Hanabila" }
+died: { edtf: "1248", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam; al-Dhayl ala Tabaqat al-Hanabila" }
 relations:
   - { type: died_in, target: place/damascus, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low, note: "He studied at Damascus with Sharaf al-Islam Abd al-Wahhab ibn al-Hanbali, and at Baghdad with Shaykh Abd al-Qa" }
 sources:

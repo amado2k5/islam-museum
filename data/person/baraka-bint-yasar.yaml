@@ -1,6 +1,6 @@
 id: person/baraka-bint-yasar
 class: person
-label: { en: Baraka bint Yasar, ar: "بركة بنت يسار" }
+label: { en: Baraka bint Yasar, ar: "بركة بنت يسار", ur: "بركة بنت يسار" }
 names:
   - { kind: full, lang: ar, value: "بركة بنت يسار" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "مولاة أبي سفيان بن حرب، امرأة قيس بن عبد الله الأسدي؛ كانت ظِئراً لعبيد الله بن جحش وأم حبيبة، وهاجرت معهما إلى الحبشة."
   en: Freedwoman of Abu Sufyan ibn Harb, wife of Qays ibn Abdullah al-Asadi; she was a foster-nurse to Ubaydullah ibn Jahsh and Umm Habiba and emigrated with them to Abyssinia.
+  ur: "ابو سفیان بن حرب کی آزاد کردہ لونڈی، قیس بن عبد اللہ الاسدی کی بیوی؛ عبید اللہ بن جحش اور ام حبیبہ کی دایہ اور ان کے ساتھ ہجرت کی۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,18 +18,21 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص6)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "695~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
 relations:
   - { type: spouse_of, target: person/qays-ibn-abdullah-asadi, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia with her husband Qays ibn Abdallah — she is the Kindi ally of Banu Abd al-Dar, not the Abyssinian Baraka (al-Isaba p. 1828)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 6"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch110
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

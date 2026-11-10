@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muqtabis" }
+died: { edtf: "1020~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muqtabis" }
 relations:
   - { type: born_in, target: place/siqilliya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

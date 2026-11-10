@@ -1,0 +1,20 @@
+id: place/al-baghuz-fawqani
+class: place
+kind: town
+label: { ar: "الباغوز فوقاني", en: "Al-Baghuz Fawqani" }
+summary:
+  ar: "بلدة في سوريا."
+  en: "Village in Syria."
+wings: [place]
+coordinates: [34.45861111, 40.95055556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q20391665" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q20391665 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

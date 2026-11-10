@@ -16,6 +16,8 @@ relations:
   - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة المتوفى", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة الجديد", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-sharif-al-murtada, role: "أول المبايعين", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"

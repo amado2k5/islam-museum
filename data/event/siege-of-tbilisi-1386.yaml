@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1386-10-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1386-11-22", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
+    participants: [polity/kingdom-of-georgia]
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+    participants: [polity/timurid-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [44.7925, 41.7225]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1386"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تبليسي ⁦(١٣٨٦)⁩", en: "Siege of Tbilisi" }, at: [44.7925, 41.7225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tiflis }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q21481366
 provenance:

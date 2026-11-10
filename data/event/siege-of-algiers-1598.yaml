@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1598", precision: year, status: tradition, derived: true }
   end: { edtf: "1598", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [3.08746, 36.73225]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1598"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الجزائر ⁦(١٥٩٨)⁩", en: "Siege of Algiers (1598)" }, at: [3.08746, 36.73225], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/algiers }
+sides:
+  - label: { ar: "قوات محمد الثالث", en: "The forces of محمد الثالث" }
+    participants: [person/mehmed-iii-uthmani]
+  - label: { ar: "حامية الجزائر", en: "The defenders of Algiers" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q19951625

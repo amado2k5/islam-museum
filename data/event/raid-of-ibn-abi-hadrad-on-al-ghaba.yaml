@@ -20,5 +20,19 @@ relations:
   - { type: had_participant, target: group/banu-jusham, role: "بطن عظيم منهم نزل بالغابة", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 278-279", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية ابن أبي حدراد", en: "Ibn Abi Hadrad's expedition" }
+    commanders: [person/abdullah-ibn-abi-hadrad]
+  - label: { ar: "بنو جشم بالغابة", en: "Banu Jusham at al-Ghaba" }
+    participants: [group/banu-jusham]
+map:
+  kind: campaign
+  precision: locality
+  center: [24.58, 39.52]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة ابن أبي حدرد الغابة ومقتل رفاعة بن قيس الجشمي", en: "Ibn Abi Hadrad's raid on al-Ghaba and the killing of Rifa'a ibn Qays al-Jushami" }, at: [24.58, 39.52], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 278-279" }

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Din Muhammad was a judge of the Punjab High Court who sat on the Punjab Boundary Commission, the panel charged in the summer of 1947 with dividing the Punjab between India and Pakistan. He and Muhammad Munir were the Muslim League's two nominees, facing Mehr Chand Mahajan and Teja Singh for the Congress, under the chairmanship of Cyril Radcliffe.{cite:sikh-encyclopedia-punjab-boundary-commission} The commission's membership is likewise carried in the account of the Radcliffe Line.{cite:wikipedia-radcliffe-line-en}
 

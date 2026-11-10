@@ -17,6 +17,7 @@ regions:
 - levant-iraq
 periods:
 - period/buyid-seljuk-fatimid-era
+died: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shaqa'iq al-Numaniyya" }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with Damascus per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:

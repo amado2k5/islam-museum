@@ -21,5 +21,14 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v1-batch03
+map:
+  kind: battle
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الفجار الثاني للأنصار — قتل عمرو بن النعمان رهن قريظة والنضير", en: "the second Fijār — ʿAmr ibn al-Nuʿmān slaughters the Qurayẓa–Naḍīr hostages" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

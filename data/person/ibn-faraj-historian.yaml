@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik" }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

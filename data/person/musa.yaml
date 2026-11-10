@@ -22,6 +22,7 @@ relations:
   - { type: died_in, target: place/mount-nebo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q680161)" }
   - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q79)" }
   - { type: lived_in, target: place/sinai-peninsula, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q36755)" }
+  - { type: exemplifies, target: concept/asma-al-mujib, sources: [source/tanzil-quran] }
 sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/tafsir-tabari-shakir-v02]
 education:
   did_you_know:
@@ -32,6 +33,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status:
   review: published
   completeness: 3

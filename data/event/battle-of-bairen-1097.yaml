@@ -12,6 +12,18 @@ date:
   start: { edtf: "1097", precision: year, status: tradition, derived: true }
   end: { edtf: "1097", precision: year, status: tradition, derived: true }
 sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [-0.18222222222222, 38.966666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1097"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بايرين", en: "Battle of Bairén" }, at: [-0.18222222222222, 38.966666666667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/gandia }
 external_ids:
   wikidata: Q2888093
 provenance:

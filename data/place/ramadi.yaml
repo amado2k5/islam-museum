@@ -1,0 +1,20 @@
+id: place/ramadi
+class: place
+kind: city
+label: { ar: "الرمادي", en: "Ramadi" }
+summary:
+  ar: "مدينة."
+  en: "City in Al Anbar Governorate, Iraq."
+wings: [place]
+coordinates: [33.42583333333334, 43.299166666666665]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q192961" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q192961 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

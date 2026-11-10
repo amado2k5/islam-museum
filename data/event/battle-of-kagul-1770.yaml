@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1770", precision: year, status: tradition, derived: true }
   end: { edtf: "1770", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [28.194444444444, 45.9075]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1770"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كاغول", en: "Battle of Kagul" }, at: [28.194444444444, 45.9075], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/cahul }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q700218

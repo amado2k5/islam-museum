@@ -12,6 +12,18 @@ date:
   start: { edtf: "1918-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1918-11", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [38.0, 55.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة داغستان ⁦(١٩١٨)⁩", en: "Dagestan Campaign" }, at: [38.0, 55.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/russia }
 external_ids:
   wikidata: Q124811443
 provenance:

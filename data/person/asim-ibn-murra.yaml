@@ -14,5 +14,7 @@ provenance:
   run: lib-futuh-buldan-batch-44
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hibban (al-Thiqat)" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hibban (al-Thiqat)" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

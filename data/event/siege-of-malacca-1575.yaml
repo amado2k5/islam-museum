@@ -11,6 +11,23 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1575", precision: year, status: tradition, derived: true }
   end: { edtf: "1575", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [102.2405, 2.196]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1575"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ملقا ⁦(١٥٧٥)⁩", en: "Siege of Malacca (1575)" }, at: [102.2405, 2.196], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/malacca }
+sides:
+  - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
+    participants: [person/murad-iii-uthmani]
+  - label: { ar: "حامية ملقا", en: "The defenders of Malacca" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130199743

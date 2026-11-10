@@ -11,6 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1609", precision: year, status: tradition, derived: true }
   end: { edtf: "1610", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [53.0, 32.0]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1609"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار دمدم", en: "Siege of Dimdim" }, at: [53.0, 32.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/iran }
+- { type: occurred_at, target: building/dimdim-castle }
+sides:
+  - label: { ar: "قوات أحمد الأول", en: "The forces of Ahmed I" }
+    participants: [person/ahmad-i-uthmani]
+  - label: { ar: "حامية دمدم", en: "The defenders of Dimdim" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2236880

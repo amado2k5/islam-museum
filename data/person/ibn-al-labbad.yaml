@@ -17,6 +17,8 @@ regions:
 - maghreb
 periods:
 - period/buyid-seljuk-fatimid-era
+born: { edtf: "864", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
+died: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
 relations:
   - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with Qayrawan per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 sources:

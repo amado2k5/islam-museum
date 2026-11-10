@@ -1,0 +1,20 @@
+id: place/ihtiman
+class: place
+kind: city
+label: { ar: "إختيمان", en: "Ihtiman" }
+summary:
+  ar: "مدينة."
+  en: "City in Ihtiman municipality, Sofia oblast, Bulgaria."
+wings: [place]
+coordinates: [42.44, 23.815]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q405712" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q405712 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

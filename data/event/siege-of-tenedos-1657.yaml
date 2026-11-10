@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1657", precision: year, status: tradition, derived: true }
   end: { edtf: "1657", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمد الرابع", en: "The forces of محمد الرابع" }
+    participants: [person/mehmed-iv-uthmani]
+  - label: { ar: "حامية تينيدوس", en: "The defenders of Tenedos" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q31193302

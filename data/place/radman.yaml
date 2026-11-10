@@ -8,7 +8,6 @@ summary:
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
-coordinate_note: "لم تُحدَّد الإحداثيات بعد؛ الموضع باليمن."
 relations:
   - { type: located_in, target: place/yemen, sources: [source/mubarakpuri-raheeq] }
 provenance:
@@ -17,5 +16,8 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-5a"
+coordinates: [14.4333, 45.2833]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 50" }

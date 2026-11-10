@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical register of Algerian Ulama (1322–1405 AH)" }
+died: { edtf: "1984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical register of Algerian Ulama (1322–1405 AH)" }
 relations:
   - { type: lived_in, target: place/nuba, note: "Place association from the person's nisba/name (نوبي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

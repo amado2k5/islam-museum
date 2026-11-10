@@ -1,6 +1,6 @@
 id: person/alqama-ibn-mujazziz
 class: person
-label: { en: "Alqama ibn Mujazziz al-Mudliji", ar: "علقمة بن مجزز المدلجي" }
+label: { en: "Alqama ibn Mujazziz al-Mudliji", ar: "علقمة بن مجزز المدلجي", ur: "علقمة بن مجزز المدلجي" }
 names:
   - { kind: full, lang: ar, value: "علقمة بن مجزز المدلجي" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion]
 summary:
   en: "A companion whom the Prophet sent in Rabi' al-Akhir 9 AH with three hundred men against Abyssinian raiders gathered for piracy near the Jeddah coast; he crossed the sea to their island and they fled before him."
   ar: "صحابي مدلجي؛ أمره النبي على ثلاثمائة إلى رجال من الحبشة اجتمعوا قرب سواحل جدة للقرصنة على أهل مكة في ربيع الآخر سنة 9هـ، فخاض البحر إلى جزيرتهم فهربوا."
+  ur: "وہ صحابی جنہیں نبی نے ربیع الآخر 9 ہجری میں تین سو آدمیوں کے ساتھ جدہ کے ساحل کے قریب جمع حبشی لٹیروں کے خلاف بھیجا۔"
 wings: [people]
 themes: [skirmishes-raids-expeditions]
 periods: [period/prophetic-era]
@@ -16,6 +17,7 @@ story_roles:
   - { role: commander, toward: event/sariyya-of-alqama-to-jeddah, start: { edtf: "0631" }, status: tradition, note: "قائد سرية سواحل جدة (الرحيق ص426).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/sariyya-of-alqama-to-jeddah, role: raid-commander, sources: [source/mubarakpuri-raheeq] }

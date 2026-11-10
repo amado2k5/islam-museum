@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
+born: { edtf: "1313", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun" }
+died: { edtf: "1374", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun" }
 relations:
   - { type: born_in, target: place/loja, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

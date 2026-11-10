@@ -1,6 +1,6 @@
 id: person/umayr-ibn-adi-al-khatmi
 class: person
-label: { ar: "عمير بن عدي الخطمي", en: "Umayr ibn Adi al-Khatmi" }
+label: { ar: "عمير بن عدي الخطمي", en: "Umayr ibn Adi al-Khatmi", ur: "عمير بن عدي الخطمي" }
 names:
   - { kind: full, lang: ar, value: "عمير بن عدي الخطمي" }
   - { kind: laqab, lang: ar, value: "القارئ" }
@@ -9,6 +9,7 @@ roles: [companion]
 summary:
   ar: "أول من أسلم من بني خطمة ويُدعى القارئ؛ سمع النبي يقول: ألا آخذ لي من ابنة مروان؟ فسرى على عصماء بنت مروان في بيتها ليلاً فقتلها، فقال له النبي: نصرت الله ورسوله يا عمير؛ ثم تحدّى قومه بني خطمة أن يكيدوه، فكان ذلك اليوم أول ما عزّ الإسلام فيهم."
   en: "The first of Banu Khatma to accept Islam, called 'the Reciter'; he heard the Prophet say 'is there no one to deal with the daughter of Marwan for me?', went to Asma' bint Marwan's house that night and killed her, and the Prophet told him 'you have helped God and His Messenger, Umayr'; he then defied his people, Banu Khatma, to take revenge, and that day Islam first became strong among them."
+  ur: "بنو خطمہ کا پہلا مسلمان، «قاری» کہلاتا؛ اس نے نبی کو کہتے سنا «کوئی نہیں ہے جو بنو نضیر کی بیٹیوں سے نمٹے»۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -16,6 +17,7 @@ regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
   - { role: convert, status: tradition, note: "أول من أسلم من بني خطمة عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "624~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~630, al-Tabaqat al-Kubra (Ibn Sa'd); al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-khatma, sources: [source/ibn-hisham-saqqa] }

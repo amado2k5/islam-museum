@@ -11,13 +11,28 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 date:
   start: { edtf: "1483-04~", hijri: "0888-03~", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول سنة 888؛ التحويل مشتق {cite:nafh-tib-maqqari p. 519}." }
+map:
+  kind: battle
+  precision: locality
+  center: [-4.4852, 37.4088]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1483"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة لشانة وأسر أبي عبد الله", en: "Battle of Lucena and the capture of Abu Abd Allah" }, at: [-4.4852, 37.4088], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 relations:
   - { type: had_participant, target: person/boabdil-muhammad-xii, role: "أسير", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/lucena }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-55
 external_ids: { wikidata: "Q20768628" }
+sides:
+  - label: { ar: "القشتاليون", en: "The Castilians" }
+  - label: { ar: "جيش غرناطة بقيادة أبو عبد الله", en: "Granada's army under Abu Abd Allah" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

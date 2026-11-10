@@ -11,6 +11,21 @@ regions: [south-asia]
 date:
   start: { edtf: "1687-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1687-09-22", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [78.4, 17.38]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1687"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار غولكوندا", en: "Siege of Golconda" }, at: [78.4, 17.38], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/golconda }
+sides:
+  - label: { ar: "الجيش المغولي بقيادة أورنكزيب", en: "The Mughal army under Aurangzeb" }
+  - label: { ar: "الدولة القطبشاهية", en: "The Qutb Shahi state" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16931432

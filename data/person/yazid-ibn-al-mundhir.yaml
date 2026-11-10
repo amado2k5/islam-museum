@@ -3,13 +3,14 @@ class: person
 label:
   ar: يزيد بن المنذر
   en: Yazid ibn al-Mundhir
+  ur: "يزيد بن المنذر"
 roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية ليزيد بن المنذر، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Yazid ibn al-Mundhir, a figure of the early community; the biographical entry is not yet checked on the
-    page.
+  ar: "صحابي أنصاري خزرجي سلمي من بني غنم بن كعب بن سلمة؛ ذكره ابن إسحاق فيمن شهد العقبة."
+  en: "An Ansari Companion of the Khazraj, of Banu Ghanm of Banu Salima; Ibn Ishaq names him among those who witnessed the pledge of al-Aqaba."
+  ur: "خزرج کا انصاری صحابی، بنو سلیمہ کے بنو غنم سے؛ ابن اسحاق اسے اہل عقبہ میں گنتا ہے۔"
 wings:
 - people
 regions:
@@ -19,6 +20,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
 - type: lived_in
   target: place/medina
@@ -37,6 +39,34 @@ relations:
   sources:
   - source/al-aalam
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1600"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-salima
+  note: "al-Isaba p. 1600"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  note: "al-Isaba p. 1600"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "Khazraji Sulami (al-Isaba p. 1600)"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/banu-salima
+  note: "al-Isaba p. 1600"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/second-pledge-of-aqaba
+  note: "Ibn Ishaq (al-Isaba p. 1600)"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12251772
 provenance:

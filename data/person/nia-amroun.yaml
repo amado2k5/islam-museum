@@ -12,6 +12,7 @@ summary:
 roles: [artist]
 wings: [people, living]
 regions: [arabia]
+born: { edtf: "1985~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Algerian/British academic writer" }
 relations:
   - { type: lived_in, target: place/london, sources: [source/harpersbazaararabia-nia-amroun, source/famousbirthdays-nia-amroun] }
   - { type: lived_in, target: place/riyadh, sources: [source/harpersbazaararabia-nia-amroun, source/famousbirthdays-nia-amroun] }

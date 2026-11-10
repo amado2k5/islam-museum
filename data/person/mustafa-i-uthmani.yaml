@@ -8,6 +8,7 @@ names:
   lang: ar
   value: مصطفى بن محمد الثالث
 roles:
+- caliph
 - sultan
 gender: male
 summary:
@@ -21,7 +22,11 @@ regions:
 - anatolia-balkans
 periods:
 - period/gunpowder-empires
+born: { edtf: "1592", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Mustafa I); TDV Islam Ansiklopedisi" }
+died: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Mustafa I); TDV Islam Ansiklopedisi" }
 relations:
+- { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+- { type: successor_of, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
 - type: born_in
   target: place/istanbul
   sources:
@@ -46,6 +51,10 @@ provenance:
   generated_by: Devin (SWE-2 Medium)
   model: SWE-2 Medium
   run: prose-fill-persons-batch12
+importance: 2
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1617", calendar: julian, precision: year }, end: { edtf: "1623", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1622", calendar: julian, precision: year }, end: { edtf: "1623", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

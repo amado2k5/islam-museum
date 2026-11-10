@@ -1,0 +1,22 @@
+id: passage/muslim-0395
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "395"
+label:
+  ar: "مسلم 395 — قسمت الصلاة بيني وبين عبدي نصفين"
+  en: "Muslim 395 — I have divided the prayer between Myself and My servant in two halves"
+  ur: "مسلم 395 — میں نے نماز کو اپنے اور اپنے بندے کے درمیان دو حصوں میں بانٹا"
+text: "من صلى صلاة لم يقرأ فيها بأم القرآن فهى خداج - ثلاثا - غير تمام . فقيل لأبي هريرة إنا نكون وراء الإمام . فقال اقرأ بها في نفسك فإني سمعت رسول الله يقول قال الله تعالى قسمت الصلاة بيني …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 395: قسمت الصلاة بيني وبين عبدي نصفين. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 395: I have divided the prayer between Myself and My servant in two halves. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 395: میں نے نماز کو اپنے اور اپنے بندے کے درمیان دو حصوں میں بانٹا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [worship-and-the-pillars]
+tags: [hadith-qudsi, qudsi-qasamtu-al-salat]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 878; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

@@ -10,6 +10,7 @@ periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: opponent, status: tradition, note: "أظهر عداوته للإسلام بعد الهجرة؛ سمّاه النبي الفاسق." }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Ishaq / Ibn Hisham, al-Sira al-Nabawiyya; Ibn Hajar, al-Isaba" }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة فراراً بدينه وإليه تنسب", sources: [source/samhudi-wafa-al-wafa] }
   - { type: died_in, target: place/uhud, note: "From text: fell at Uhud.", sources: [source/samhudi-wafa-al-wafa] }

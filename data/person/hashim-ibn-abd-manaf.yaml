@@ -11,6 +11,8 @@ wings: [people]
 themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "464~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "497~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: died_in, target: place/gaza }
   - { type: spouse_of, target: person/salma-bint-amr }

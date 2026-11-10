@@ -1,6 +1,6 @@
 id: person/habbar-ibn-sufyan
 class: person
-label: { en: Habbar ibn Sufyan, ar: "هبار بن سفيان" }
+label: { en: Habbar ibn Sufyan, ar: "هبار بن سفيان", ur: "هبار بن سفيان" }
 names:
   - { kind: full, lang: ar, value: "هبار بن سفيان بن عبد الأسد" }
 gender: male
@@ -9,11 +9,12 @@ traditions: [sunni]
 summary:
   ar: "من بني مخزوم، هاجر إلى الحبشة وقُتل بأجنادين في خلافة أبي بكر."
   en: Of Banu Makhzum; he emigrated to Abyssinia and was killed at Ajnadayn in Abu Bakr's caliphate.
+  ur: "بنو مخزوم کے؛ حبشہ ہجرت کیے اور ابو بکر کی خلافت میں اجنادین پر مارے گئے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
 regions: [arabia, east-africa]
-died: { edtf: "0632/0634", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: قُتل بأجنادين من أرض الشام في خلافة أبي بكر؛ التاريخ مشتق من مدة الخلافة ويحتاج مصدراً ثانياً", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at Ajnadayn, 13 AH per al-Hasan ibn Uthman and al-Waqidi (preferred by Ibn Abd al-Barr); Mu'ta also reported (al-Isti'ab p. 745); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص7)", sources: [source/ibn-hisham-saqqa] }
 faith:
@@ -24,6 +25,8 @@ relations:
   - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia (al-Isti'ab p. 745)", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
-sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/isti-ab-ibn-abd-al-barr]
 status: { review: published, completeness: 3 }

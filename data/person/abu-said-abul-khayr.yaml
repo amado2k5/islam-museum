@@ -25,5 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "967", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2" }
+died: { edtf: "1049", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; EI2" }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (الخراساني); denotes association, not proven residence.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

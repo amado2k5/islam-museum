@@ -14,5 +14,7 @@ provenance:
   run: lib-futuh-buldan-batch-35
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/futuh-buldan-maarif-1407], confidence: low }

@@ -8,6 +8,8 @@ summary:
   en: "Dr Abd al-Rahman Ra'fat al-Basha, author of Suwar min Hayat al-Sahaba, published by Dar al-Nafa'is, Beirut, in 1412/1992."
 wings: [people]
 periods: [period/contemporary-era]
+born: { edtf: "1920", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suwar min Hayat al-Sahaba; al-A'lam (1338–1406 AH)" }
+died: { edtf: "1986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suwar min Hayat al-Sahaba; al-A'lam (1338–1406 AH)" }
 relations:
   - { type: lived_in, target: place/bayrut, note: "Contemporary author whose Suwar min Hayat al-Sahaba was published by Dar al-Nafa'is of Beirut; association inferred from the publishing milieu.", sources: [source/suwar-min-hayat-al-sahaba-nafais-1992], confidence: low }
   - { type: authored, target: work/suwar-min-hayat-al-sahaba, sources: [source/suwar-min-hayat-al-sahaba-nafais-1992] }

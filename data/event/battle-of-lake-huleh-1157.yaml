@@ -11,7 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1157", precision: year, status: tradition, derived: true }
   end: { edtf: "1157", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [35.609166666667, 33.103333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1157"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بانياس ⁦(١١٥٧)⁩", en: "Battle of Lake Huleh" }, at: [35.609166666667, 33.103333333333], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hula-valley }
+sides:
+  - label: { en: "Kingdom of Jerusalem", ar: "مملكة بيت المقدس" }
+  - label: { en: "Zengid dynasty", ar: "الدولة الزنكية" }
+    participants: [polity/zengid-dynasty]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q2890906
 provenance:

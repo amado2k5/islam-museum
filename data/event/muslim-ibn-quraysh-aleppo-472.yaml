@@ -13,10 +13,25 @@ date:
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/muslim-ibn-quraysh, role: "الآخذ", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 323"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-1
+sides:
+  - label: { ar: "قوات المقتدي بأمر الله عبد الله بن محمد بن القائم", en: "The forces of al-Muqtadi bi-Amr Allah Abdullah ibn Muhammad ibn al-Qa'im" }
+    participants: [person/al-muqtadi-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2012, 37.1612]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ مسلم بن قريش العقيلي حلب", en: "Muslim ibn Quraysh al-Uqayli takes Aleppo" }, at: [36.2012, 37.1612], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

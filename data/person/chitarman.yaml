@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+born: { edtf: "1640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Milo Beach (Mughal Painting)" }
 relations:
   - { type: lived_in, target: place/darabjird, confidence: low, note: "Associated with دارا per the record's own text; relation type pending review.", sources: [source/beach-grand-mogul-1978] }
   - { type: patronized_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }

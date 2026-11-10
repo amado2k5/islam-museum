@@ -9,6 +9,8 @@ gender: male
 wings: [people]
 themes: [politics-governance-and-authority]
 regions: [global]
+born: { edtf: "1856", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/al-haditha, confidence: low, note: "Associated with الحديثة per the record's own summary text; relation type pending review.", sources: [source/assabile-tareq-al-suwaidan] }
 sources: [source/assabile-tareq-al-suwaidan]

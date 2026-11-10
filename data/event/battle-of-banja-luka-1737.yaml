@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1737", precision: year, status: tradition, derived: true }
   end: { edtf: "1737", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: battle
+  precision: locality
+  center: [17.1925, 44.7725]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1737"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بانيا لوكا", en: "Battle of Banja Luka" }, at: [17.1925, 44.7725], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/banja-luka }
+sides:
+  - label: { en: "Holy Roman Empire", ar: "الإمبراطورية الرومانية المقدسة" }
+    participants: [polity/holy-roman-empire]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4833104
 provenance:

@@ -11,10 +11,24 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/tabaristan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/said-ibn-al-as, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch04
+sides:
+  - label: { ar: "جيش سعيد بن العاص بن سعيد بن العاص بن أمية", en: "Sa'id ibn al-As ibn Sa'id ibn al-As ibn Umayya's army" }
+    commanders: [person/said-ibn-al-as]
+  - label: { ar: "طبرستان", en: "Tabaristan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.56, 52.6]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزو سعيد بن العاص طبرستان", en: "Sa'id ibn al-'As's Tabaristan campaign (30 AH)" }, at: [36.56, 52.6], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }

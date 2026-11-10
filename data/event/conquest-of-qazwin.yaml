@@ -12,6 +12,19 @@ relations:
   - { type: had_participant, target: person/tulayha-ibn-khuwaylid, role: "على الخمسمائة المرتبين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qazwin }
 wings: [time]
+sides:
+  - label: { ar: "جيش البراء بن عازب", en: "al-Bara' ibn Azib's army" }
+    commanders: [person/al-bara-ibn-azib]
+  - label: { ar: "قزوين", en: "Qazwin" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2797, 50.0049]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قزوين", en: "Conquest of Qazwin" }, at: [36.2797, 50.0049], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

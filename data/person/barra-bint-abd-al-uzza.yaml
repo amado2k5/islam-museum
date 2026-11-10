@@ -9,6 +9,7 @@ wings: [people]
 story_roles: [{ role: family-of-the-prophet }]
 themes: [family-marriage-kinship, women]
 periods: [period/pre-islamic-arabia]
+died: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Ansab al-Ashraf)" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Qurayshi grandmother of the Prophet at Mecca per the record's own text.", sources: [source/ansab-al-ashraf] }
 provenance:

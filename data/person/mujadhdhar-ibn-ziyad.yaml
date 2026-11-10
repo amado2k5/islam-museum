@@ -3,18 +3,24 @@ class: person
 label:
   ar: "المجذر بن زياد"
   en: "Mujadhdhar ibn Ziyad"
+  ur: "المجذر بن زياد"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية للمجذر بن زياد، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mujadhdhar ibn Ziyad, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري؛ استشهد بأحد ودفن هو وعبادة بن الخشخاش والنعمان بن مالك في قبر واحد."
+  en: "An Ansari Companion; he was martyred at Uhud and buried in one grave with Ubada ibn al-Khashkhash and al-Nu'man ibn Malik (al-Isaba pp. 769-770)."
+  ur: "انصاری صحابی؛ احد میں شہید ہوا اور عبادہ بن الخشخاش اور نعمان بن مالک کے ساتھ ایک قبر میں دفن ہوا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in the Prophet-era Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/ansar, note: "Balawi, ally of the Ansar (al-Isti'ab p. 701)", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-badr, note: "killed Abu al-Bakhtari there (al-Isti'ab p. 701)", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 external_ids:
   wikidata: Q12192299
 provenance:

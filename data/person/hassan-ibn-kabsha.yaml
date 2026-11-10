@@ -10,6 +10,7 @@ summary:
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "575~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: lived_in, target: place/jabala, confidence: low, note: "Associated with جبلة per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }

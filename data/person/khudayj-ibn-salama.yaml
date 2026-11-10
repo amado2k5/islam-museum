@@ -3,18 +3,21 @@ class: person
 label:
   ar: "خديج بن سلامة"
   en: "Khudayj ibn Salama"
+  ur: "خديج بن سلامة"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخديج بن سلامة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khudayj ibn Salama, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "خديج بن سلامة البلوي، حليف بني حرام من الأنصار، يكنى أبا شباث، شهد العقبة الثانية ولم يشهد بدراً ولا أحداً."
+  en: "Khudayj ibn Salama al-Balawi, an ally of Banu Haram of the Ansar known as Abu Shibath, was at the second pledge of Aqaba but fought at neither Badr nor Uhud."
+  ur: "خدیج بن سلامہ البلوی، بنو حرام انصار کا حلیف ابو شبث کہلاتا؛ دوسری عقبہ میں تھا مگر نہ بدر نہ احد میں لڑا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/second-pledge-of-aqaba, note: "al-Isaba p. 388; Musa ibn Uqba and al-Tabari; he did not fight at Badr or Uhud", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12210297
 provenance:

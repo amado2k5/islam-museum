@@ -3,6 +3,7 @@ class: person
 label:
   ar: أمامة بنت أبي العاص
   en: Umama bint Abi al-As
+  ur: "أمامة بنت أبي العاص"
 names:
 - kind: full
   lang: ar
@@ -15,6 +16,7 @@ traditions:
 summary:
   ar: حفيدة النبي من ابنته زينب، كان النبي يحملها على عاتقه في الصلاة؛ تزوجها علي بن أبي طالب بعد فاطمة، ثم المغيرة بن نوفل.
   en: A granddaughter of the Prophet through his daughter Zaynab, whom he used to carry on his shoulder in prayer; she married Ali ibn Abi Talib after Fatima, and then al-Mughira ibn Nawfal.
+  ur: "نبی کی بیٹی زینب کے ذریعے نواسی، جسے وہ نماز میں کندھے پر اٹھاتے تھے؛ علی بن ابی طالب سے شادی ہوئی۔"
 wings: [people]
 themes:
 - women
@@ -33,6 +35,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
 - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 - { type: died_in, target: place/jeddah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q374365)" }

@@ -8,6 +8,16 @@ summary:
   ar: "فيها غزا معاوية الصائفة ومعه عبادة بن الصامت وأبو أيوب الأنصاري، وفتح معاوية عسقلان على صلح {cite:kamil-ibn-al-athir p. 455}."
   en: "Mu'awiya's summer expedition — with 'Ubada ibn al-Samit and Abu Ayyub al-Ansari in his ranks — ended with Ascalon taken on terms {cite:kamil-ibn-al-athir p. 455}."
 wings: [time]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.54611111111111, 31.661944444444444]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0644"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح عسقلان", en: "the conquest of Ascalon (24 AH)" }, at: [34.54611111111111, 31.661944444444444], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: occurred_at, target: place/ascalon, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "القائد", sources: [source/kamil-ibn-al-athir] }
@@ -18,5 +28,9 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch04
+sides:
+  - label: { ar: "جيش معاوية بن أبي سفيان", en: "Mu'awiya ibn Abi Sufyan's army" }
+    commanders: [person/muawiya-ibn-abi-sufyan]
+  - label: { ar: "عسقلان", en: "Ascalon" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

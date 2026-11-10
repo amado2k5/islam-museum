@@ -1,0 +1,20 @@
+id: place/macta
+class: place
+kind: river
+label: { ar: "المقطع", en: "Macta" }
+summary:
+  ar: "نهر."
+  en: "River of Algeria."
+wings: [place]
+coordinates: [35.78194444, -0.11833333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3275040" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3275040 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

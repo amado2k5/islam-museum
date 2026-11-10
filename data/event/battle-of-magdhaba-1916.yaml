@@ -11,7 +11,25 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1916", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }
+    participants: [polity/united-kingdom-great-britain-ireland]
+map:
+  kind: battle
+  precision: locality
+  center: [34.0, 29.5]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1916"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مغضبة", en: "Battle of Magdhaba" }, at: [34.0, 29.5], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/sinai-peninsula }
+- { type: during_reign, target: person/mehmed-v-uthmani }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2889191
 provenance:

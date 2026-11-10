@@ -13,10 +13,15 @@ date:
 relations:
   - { type: had_participant, target: person/al-mansur, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/khazim-ibn-khuzayma, role: "قائد جيش المنصور", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 425–426"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-15
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات أبو جعفر المنصور", en: "The authorities of Abu Ja'far al-Mansur" }
+    participants: [person/al-mansur]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

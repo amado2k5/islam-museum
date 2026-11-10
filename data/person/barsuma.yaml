@@ -17,6 +17,7 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+died: { edtf: "458", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Chabot (Chronique de Michel le Syrien)" }
 relations:
   - { type: lived_in, target: place/rashid, confidence: low, note: "Associated with Rashid per the record's own summary text; relation type pending review.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]

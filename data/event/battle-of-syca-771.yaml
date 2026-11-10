@@ -11,7 +11,14 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0771", precision: year, status: tradition, derived: true }
   end: { edtf: "0771", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+    participants: [polity/abbasid-caliphate]
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140321125
 provenance:

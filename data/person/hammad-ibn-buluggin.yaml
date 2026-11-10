@@ -11,6 +11,7 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
+died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: died_in, target: place/tazmalt, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q12208658" }

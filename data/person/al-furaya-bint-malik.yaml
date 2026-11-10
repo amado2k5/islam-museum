@@ -3,6 +3,7 @@ class: person
 label:
   ar: "الفريعة بنت مالك"
   en: "al-Furay'a bint Malik, sister of Abu Sa'id al-Khudri"
+  ur: "الفريعة بنت مالك"
 roles:
 - companion
 gender: female
@@ -11,6 +12,7 @@ traditions:
 summary:
   ar: "الفريعة بنت مالك بن سنان الخدرية الأنصارية، أخت أبي سعيد الخدري، ويقال لها الفارعة. شهدت بيعة الرضوان مع النبي، وروى لها أصحاب السنن الأربعة. لم يتضح في عنوان المدخل تاريخ وفاتها، إذ ورد بصيغة ⁦(؟ - ٢)⁩. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17457}"
   en: "al-Furay'a bint Malik ibn Sinan al-Khudriyya al-Ansariyya, sister of Abu Sa'id al-Khudri; she is also called al-Fari'a. She took part in the Pledge of al-Ridwan with the Prophet, and the four books of the Sunan transmitted for her. The heading gives her death date as unclear (? - 2), which is not read as a date here. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17457}"
+  ur: "فریعہ بنت مالک بن سنان الخدریہ الانصاریہ، ابو سعید الخدری کی بہن؛ انہیں فریعہ بھی کہا جاتا ہے؛ انہوں نے بیعت میں شرکت کی۔"
 wings:
 - people
 regions: [arabia]
@@ -18,6 +20,7 @@ periods: [period/prophetic-era]
 sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
 - source/great-women-of-islam-ghadanfar-darussalam
+- source/ibn-hajar-isaba
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on her chapter in Ghadanfar's Great Women of Islam, source/great-women-of-islam-ghadanfar-darussalam PDF pp. 218-223"
   layer: own-research
@@ -29,5 +32,9 @@ status:
   review: published
   completeness: 1
   generated_by: "Claude Haiku 5.5; full entry on scan p.17457 of the jurist appendix; no existing data/person entry under this name at the time of the check"
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/great-women-of-islam-ghadanfar-darussalam], confidence: low }
+  - { type: member_of, target: group/al-khazraj, note: "of Banu Awf ibn al-Khazraj (al-Isaba p. 1943)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1943", sources: [source/ibn-hajar-isaba] }

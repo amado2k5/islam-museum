@@ -16,6 +16,8 @@ translations:
   en: { text: "And for the moon We have appointed mansions till she return like an old shrivelled palm-leaf.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور چاند کی بھی ہم نے منزلیں مقرر کردیں یہاں تک کہ (گھٹتے گھٹتے) کھجور کی پرانی شاخ کی طرح ہو جاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/moon, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/night-day, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

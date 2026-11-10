@@ -15,13 +15,28 @@ relations:
   - { type: had_participant, target: person/umayr-ibn-al-habab, role: "صعد السور وحده ففُتح له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "أمير الغزو سنة 59", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: "فتحه بعد غلبة الروم", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-abbas-ibn-muhammad-ibn-ali, role: "أمير حصار سنة 149", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-abbas-ibn-muhammad-ibn-ali, role: "أمير حصار سنة 149", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hasan-ibn-qahtaba, role: "في مقدمة غزاة سنة 149", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abd-allah-ibn-tahir, role: "فتحه في خلافة المأمون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abd-allah-ibn-tahir, role: "فتحه في خلافة المأمون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259–261"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
+sides:
+  - label: { ar: "قوات معاوية بن أبي سفيان", en: "The forces of Mu'awiya ibn Abi Sufyan" }
+    participants: [person/muawiya-ibn-abi-sufyan]
+  - label: { ar: "حامية حصن كَمْخ", en: "The defenders of Hisn Kamkh (Kamacha)" }
+    participants: [place/hisn-kamkh]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.6025, 39.0358]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح حصن كَمْخ", en: "The Taking of Hisn Kamkh" }, at: [39.6025, 39.0358], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -11,6 +11,26 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0752", precision: year, status: tradition, derived: true }
   end: { edtf: "0759", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.716666666667, 34.733333333333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0752"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورات جبل لبنان ⁦(٧٥٢–٧٥٩)⁩", en: "Mount Lebanon revolts (752–59)" }, at: [36.716666666667, 34.733333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/homs }
+- { type: occurred_at, target: place/hama }
+- { type: occurred_at, target: place/mount-lebanon }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات أبو العباس السفاح", en: "The authorities of Abu al-Abbas al-Saffah" }
+    participants: [person/abu-al-abbas-al-saffah]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q116245470

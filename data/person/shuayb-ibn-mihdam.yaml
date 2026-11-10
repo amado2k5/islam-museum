@@ -17,5 +17,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic Arabian figure (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }

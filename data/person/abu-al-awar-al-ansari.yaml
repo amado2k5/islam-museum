@@ -3,15 +3,18 @@ class: person
 label:
   ar: "أبو الأعور الأنصاري"
   en: "Abu al-A'war al-Ansari"
+  ur: "أبو الأعور الأنصاري"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الأعور الأنصاري، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-A'war al-Ansari, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري ورد اسمه في كتب التراجم."
+  en: "An Ansari Companion named in the biographical works."
+  ur: "سیرت کی کتابوں میں مذکور انصاری صحابی۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

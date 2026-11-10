@@ -18,6 +18,7 @@ status:
   review: published
   completeness: 3
 
+died: { edtf: "904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/ray, note: "Wikidata Q636188 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

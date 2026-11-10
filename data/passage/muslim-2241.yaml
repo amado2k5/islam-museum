@@ -1,0 +1,22 @@
+id: passage/muslim-2241
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2241"
+label:
+  ar: "مسلم 2241 — نبي قرصته نملة: فهلا نملة واحدة"
+  en: "Muslim 2241 — A prophet stung by an ant: why not just the one ant"
+  ur: "مسلم 2241 — ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں"
+text: "أن نملة قرصت نبيا من الأنبياء فأمر بقرية النمل فأحرقت فأوحى الله إليه أفي أن قرصتك نملة أهلكت أمة من الأمم تسبح ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2241: نبي قرصته نملة: فهلا نملة واحدة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2241: A prophet stung by an ant: why not just the one ant. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2241: ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-qarsat-namla]
+relations:
+  - { type: mentions, target: concept/ant, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5849; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

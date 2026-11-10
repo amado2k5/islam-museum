@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [artist]
+born: { edtf: "1595~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mughal Painters and Their Works (Beach)" }
+died: { edtf: "1655~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mughal Painters and Their Works (Beach)" }
 relations:
   - { type: patronized_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }
 

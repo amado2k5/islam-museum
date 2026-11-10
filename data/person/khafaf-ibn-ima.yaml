@@ -12,6 +12,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/hudaybiyya, confidence: low, note: "Associated with الحديبية per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

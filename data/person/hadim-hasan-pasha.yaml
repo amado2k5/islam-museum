@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, egypt-nile]
 periods: [period/gunpowder-empires]
+died: { edtf: "1598", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

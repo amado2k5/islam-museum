@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1212", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
+died: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

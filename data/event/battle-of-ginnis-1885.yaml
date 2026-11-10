@@ -11,6 +11,19 @@ regions: [east-africa]
 date:
   start: { edtf: "1885-12-30", precision: year, status: tradition, derived: true }
   end: { edtf: "1885-12-30", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [32.5, 15.5]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1885"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة جينيس ⁦(١٨٨٥)⁩", en: "Battle of Ginnis" }, at: [32.5, 15.5], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+  - { type: part_of, target: event/mahdist-war }
+  - { type: occurred_at, target: place/sudan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2888625

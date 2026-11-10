@@ -7,7 +7,7 @@ education:
     sources: [source/ibn-hisham-sira, source/sahih-al-bukhari]
 class: person
 aliases: [person/abd-allah-ibn-haram]   # same person; merged from the Raheeq lane's spelling so existing references resolve
-label: { en: "Abdullah ibn Amr ibn Haram", ar: "عبد الله بن عمرو بن حرام" }
+label: { en: "Abdullah ibn Amr ibn Haram", ar: "عبد الله بن عمرو بن حرام", ur: "عبد الله بن عمرو بن حرام" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن عمرو بن حرام السلمي الخزرجي" }
   - { kind: kunya, lang: ar, value: "أبو جابر" }
@@ -17,6 +17,7 @@ traditions: [sunni]
 summary:
   en: "A prominent chief of Banu Salima of the Khazraj, father of Jabir ibn Abdullah; he embraced Islam and took the Second Pledge of Aqaba where he was appointed a naqib; he fought at Badr and was the first Muslim martyred at the battle of Uhud, where the Prophet spoke of God speaking to him without a veil."
   ar: "سيد بني سلمة ووالد الصحابي جابر بن عبد الله؛ أسلم وشهد بيعة العقبة الثانية وكان أحد النقباء، وشهد بدراً واستشهد بأحد فكان أول قتيل من المسلمين فيها، وكلمه الله كفاحاً بلا حجاب. وفي الصحيح دعا جابراً من الليل قبل أحد فقال «ما أراني إلا مقتولاً في أول من يقتل من أصحاب رسول الله» فأصبح فكان أول قتيل، فاستخرجه ابنه بعد ستة أشهر فإذا هو كيوم وضع إلا أذنه {cite:sahih-al-bukhari 1351}، وقال النبي لجابر حين رفع «ما زالت الملائكة تظله بأجنحتها» {cite:sahih-al-bukhari 4080}."
+  ur: "بنو سلیمہ خزرج کے ممتاز سردار اور جابر بن عبد اللہ کے والد؛ اسلام لائے اور دوسری بیعت عقبہ میں شریک ہوئے جہاں انہیں نقش بنایا گیا۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era]
@@ -26,6 +27,7 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد أحد ونقيب من الأنصار." }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud — the father of Jabir whose body was found untouched when the graves were moved forty-six years later (al-Isaba p. 921); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
@@ -34,8 +36,10 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
   - { type: sibling_of, target: person/hind-bint-amr-ibn-haram, sources: [source/rijal-hawl-al-rasul-muqattam-1994], note: "أخت عبد الله بن عمرو بن حرام، وزوجها عمرو بن الجموح صهره" }
   - { type: related_to, target: person/amr-ibn-al-jamuh, sources: [source/rijal-hawl-al-rasul-muqattam-1994], note: "صهره: زوج أخته هند بنت عمرو؛ دُفنا معاً في قبر واحد بأحد" }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 921", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 921", sources: [source/ibn-hajar-isaba] }
 external_ids: { wikidata: "Q12223557" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/rijal-hawl-al-rasul-muqattam-1994]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/rijal-hawl-al-rasul-muqattam-1994, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 148, 152" }
 provenance:
   layer: own-research

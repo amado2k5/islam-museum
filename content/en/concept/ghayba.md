@@ -17,3 +17,6 @@ For the people of the Sunna, the belief in a hidden imam who was designated by e
 
 ## The Imami view
 The belief as transmitted by al-Kulayni: an imam who withdraws in his time and then appears like a blazing meteor. {cite:duha-islam p.857}
+
+## In the context of the unseen
+Backbiting is a sin of the tongue, not unseen knowledge — do not confuse it with the ghayb this browser opens.

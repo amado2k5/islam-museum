@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Samad Mir (1893 – 9 January 1959) was a Kashmiri Sufi poet, born at Alam Sahib Narwara in Srinagar to Khaliq Mir and Noor Khaliq Mir, dervish followers from Nambalhar in Budgam; his father, also a Sufi poet, died within a year of his birth.{cite:wikipedia-samad-mir-en}{cite:wikipedia-samad-mir-ar} Avtar Mota's portrait, drawn on Moti Lal Saqi's Sahitya Akademi monograph, gives the birth instead as 1894 at Sekidafar.{cite:chinar-shade-samad-mir} Mir worked as a labourer at the Hari Niwas Palace in Srinagar, married and raised three sons and a daughter, and in adulthood returned to his ancestral village.{cite:wikipedia-samad-mir-en}
 

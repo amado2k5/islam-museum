@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1676", precision: year, status: tradition, derived: true }
   end: { edtf: "1676", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [24.2856428, 49.2580366]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1676"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة جورافنو", en: "Battle of Żurawno" }, at: [24.2856428, 49.2580366], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/zhuravno }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4809918

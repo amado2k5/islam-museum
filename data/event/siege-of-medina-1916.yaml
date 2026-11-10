@@ -11,6 +11,18 @@ regions: [arabia]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1919", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [39.6142, 24.4686]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1916"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار المدينة ⁦(١٩١٦–١٩١٩)⁩", en: "Siege of Medina" }, at: [39.6142, 24.4686], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/medina }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2089011

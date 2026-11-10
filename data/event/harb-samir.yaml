@@ -13,7 +13,10 @@ date:
 relations:
   - { type: had_participant, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/al-mundhir-ibn-haram, role: "الحكم في الوقعة", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/al-mundhir-ibn-haram, role: "الحكم في الوقعة", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "بنو عمرو بن عوف", en: "Banu Amr ibn Awf" }
+  - label: { ar: "بقية قبائل الأنصار", en: "The other clans of the Ansar" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 Bishr ibn al-Bara' ibn Ma'rur al-Salami al-Khazraji, a noble Badri Companion of the Ansar's great chiefs, son of the naqib al-Bara' ibn Ma'rur. {cite:mubarakpuri-raheeq}
 
 He witnessed the second Aqaba pledge with his father, and witnessed Badr, Uhud, the Trench, the Ridwan pledge and Khaybar; he was a brave archer and a constant companion of the Messenger of God. {cite:mubarakpuri-raheeq}

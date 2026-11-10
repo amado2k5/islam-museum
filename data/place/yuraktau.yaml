@@ -1,0 +1,20 @@
+id: place/yuraktau
+class: place
+kind: mountain
+label: { ar: "يوركتاو", en: "Yuraktau" }
+summary:
+  ar: "جبل."
+  en: "Mountain in Bashkiria, Russia."
+wings: [place]
+coordinates: [53.741666666667, 56.0975]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4534744" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4534744 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -13,6 +13,21 @@ date:
 relations:
   - { type: had_participant, target: person/selim-i-ottoman, role: "الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/cairo, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutawakkil-iii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش السلطان سليم شاه بن عثمان", en: "Selim I's army" }
+    commanders: [person/selim-i-ottoman]
+  - label: { ar: "القاهرة", en: "Cairo" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.0626, 31.2497]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ القاهرة ⁦(١٥١٧)⁩", en: "Capture of Cairo" }, at: [30.0626, 31.2497], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 provenance:
   layer: own-research

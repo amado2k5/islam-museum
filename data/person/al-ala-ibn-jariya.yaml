@@ -1,6 +1,6 @@
 id: person/al-ala-ibn-jariya
 class: person
-label: { en: "al-Ala ibn Jariya al-Thaqafi", ar: "العلاء بن جارية الثقفي" }
+label: { en: "al-Ala ibn Jariya al-Thaqafi", ar: "العلاء بن جارية الثقفي", ur: "العلاء بن جارية الثقفي" }
 names:
   - { kind: full, lang: ar, value: "العلاء بن جارية بن أسيد بن معتب الثقفي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A leader of Thaqif allied to Banu Zuhra; he embraced Islam after the fall of Mecca and was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum to reconcile his tribe."
   ar: "سيد من ثقيف وحليف بني زهرة بن كلاب؛ أسلم بعد فتح مكة وأعطاه النبي مئة من الإبل بالجعرانة في سهم المؤلفة قلوبهم لتأليف حلفائه وقومه."
+  ur: "ثقیف کے قائد، بنو زہرہ کے حلیف؛ مکہ گرنے کے بعد مسلمان ہوئے اور جعرانہ میں مؤلفہ قلوب میں سو اونٹ دیے گئے۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: convert, status: tradition, note: "أعطاه النبي مئة بعير بالجعرانة في المؤلفة قلوبهم (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح." }
+died: { edtf: "655~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/thaqif }

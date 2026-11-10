@@ -15,10 +15,26 @@ relations:
 - type: occurred_at
   target: place/bejaia
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 themes: [civil-wars-and-revolts]
+sides:
+  - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
+    participants: [person/abu-yaqub-yusuf-almohad]
+  - label: { ar: "حامية بجاية", en: "The defenders of Béjaïa" }
+    participants: [place/bejaia]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.75587, 5.08433]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك ابن غانية بجاية", en: "Ibn Ghaniya's seizure of Béjaïa (580 AH)" }, at: [36.75587, 5.08433], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

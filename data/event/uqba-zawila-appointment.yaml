@@ -20,5 +20,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 315"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-20
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية زويلة", en: "The defenders of Zawila" }
+    participants: [place/zawila]
+map:
+  kind: campaign
+  precision: locality
+  center: [26.1667, 15.1167]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ولاية عقبة بن نافع على زويلة وما بينها وبرقة", en: "Uqba ibn Nafi's Charge over Zawila and the Marches to Barqa" }, at: [26.1667, 15.1167], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

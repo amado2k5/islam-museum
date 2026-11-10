@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq, egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1099~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Damascene Chronicle / Ibn al-Qalanisi" }
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Damascene Chronicle / Ibn al-Qalanisi" }
 relations:
   - { type: lived_in, target: place/hisar, confidence: low, note: "Associated with حصار per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

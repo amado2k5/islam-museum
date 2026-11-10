@@ -11,6 +11,12 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1210", precision: year, status: tradition, derived: true }
   end: { edtf: "1210", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/muhammad-al-nasir-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "قوات محمد الناصر بن المنصور الموحدي", en: "The forces of محمد الناصر بن المنصور الموحدي" }
+    participants: [person/muhammad-al-nasir-almohad]
+  - label: { ar: "حامية الداموس", en: "The defenders of Al-Damus" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q4890612

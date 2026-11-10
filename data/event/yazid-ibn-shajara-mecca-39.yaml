@@ -16,10 +16,20 @@ relations:
   - { type: occurred_at, target: place/mecca, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/yazid-ibn-shajara, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch05
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "إرسال يزيد بن شجرة إلى مكة ليأخذ البيعة لمعاوية", en: "Yazīd ibn Shajara sent to seize the Ḥajj and Mecca's bayʿa for Muʿāwiya (39 AH)" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

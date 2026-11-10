@@ -18,6 +18,7 @@ faith:
 roles: [preacher]
 wings: [people, living]
 regions: [east-africa]
+born: { edtf: "1939", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary academic/mufti bios" }
 relations:
   - { type: lived_in, target: place/abyssinia, note: "From text: Ethiopian (nationality adjective); broad association, flagged for review.", sources: [source/tiktok-abubaker-ahmed, source/ena-abubeker-ahmed-gerd-2021], confidence: low }
 sources: [source/tiktok-abubaker-ahmed, source/ena-abubeker-ahmed-gerd-2021]

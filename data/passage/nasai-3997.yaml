@@ -1,0 +1,22 @@
+id: passage/nasai-3997
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3997"
+label:
+  ar: "النسائي 3997 — يا رب هذا قتلني: فيقول الله لم قتلته"
+  en: "Nasa'i 3997 — My Lord, this man killed me: God asks why he killed him"
+  ur: "نسائی 3997 — اے رب اس نے مجھے قتل کیا: اللہ پوچھتا ہے تم نے اسے کیوں قتل کیا"
+text: "يجيء الرجل آخذا بيد الرجل فيقول يا رب هذا قتلني . فيقول الله له لم قتلته فيقول قتلته لتكون العزة لك . فيقول فإنها لي . ويجيء الرجل آخذا بيد الرجل فيقول إن هذا قتلني . فيقول الله له لم …"
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 3997: يا رب هذا قتلني: فيقول الله لم قتلته. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 3997: My Lord, this man killed me: God asks why he killed him. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 3997: اے رب اس نے مجھے قتل کیا: اللہ پوچھتا ہے تم نے اسے کیوں قتل کیا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [crime-and-punishment]
+tags: [hadith-qudsi, qudsi-qatil-bi-ghayr-haqq]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3997; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

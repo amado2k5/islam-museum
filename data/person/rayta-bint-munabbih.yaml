@@ -3,18 +3,24 @@ class: person
 label:
   ar: "ريطة بنت منبه"
   en: "Rayta bint Munabbih"
+  ur: "ريطة بنت منبه"
 roles: [companion]
 gender: female
 summary:
-  ar: "بطاقة أولية لريطة بنت منبه، زوجة عمرو بن العاص، من نساء الصدر الأول؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Rayta bint Munabbih, wife of Amr ibn al-As, a woman of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابية سهمية، والدة عبد الله بن عمرو بن العاص؛ أسلمت وبايعت، وذكر ابن سعد أن إسلامها كان يوم الفتح."
+  en: "A Sahmiyya Companion, mother of Abd Allah ibn Amr ibn al-As; she embraced Islam and gave the pledge, and Ibn Sa'd reports her conversion on the day of the conquest of Mecca."
+  ur: "سہمیہ صحابیہ، عبد اللہ بن عمرو بن العاص کی والدہ؛ مسلمان ہوئیں اور بیعت کی اور ابن سعد نے ان کے اسلام کی خبر دی۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+born: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion-era figure of the Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-sahm, note: "al-Isaba p. 1878", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "Ibn Sa'd reports she became Muslim on the day of the conquest, in a chain containing al-Waqidi (al-Isaba p. 1878)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q25545439
 provenance:

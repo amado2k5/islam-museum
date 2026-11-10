@@ -37,6 +37,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "581~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
+died: { edtf: "638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
 relations:
 - { type: lived_in, target: place/abyssinia, sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994] }
 - { type: ruler_of, target: place/basra, sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994] }
@@ -68,6 +70,7 @@ external_ids: { wikidata: "Q1145321" }
 sources:
 - source/ibn-hajar-isaba
 - source/rijal-hawl-al-rasul-muqattam-1994
+importance: 2
 status:
   review: published
   completeness: 2

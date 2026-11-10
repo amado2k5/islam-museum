@@ -1,6 +1,6 @@
 id: person/al-abbas-ibn-ubada
 class: person
-label: { en: "al-Abbas ibn Ubada", ar: "العباس بن عبادة" }
+label: { en: "al-Abbas ibn Ubada", ar: "العباس بن عبادة", ur: "العباس بن عبادة" }
 names:
   - { kind: full, lang: ar, value: "العباس بن عبادة بن نضلة الأنصاري الخزرجي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A zealous leader of the Khazraj who attended both Pledges of Aqaba; at the Second Pledge he stood to impress upon the Yathribites the gravity of their covenant, declaring their readiness to face war against all mankind; after the meeting he offered to strike the Quraysh encampment at Mina if ordered; he was martyred at the battle of Uhud."
   ar: "فارس أنصاري من السابقين؛ شهد بيعتي العقبة، وقام في الثانية يؤكد لقومه خطورة البيعة وأنهم يبايعون على حرب الأحمر والأسود، ولما صرخ الشيطان بالعقبة عرض أن يميل بأسيافهم على أهل منى، واستشهد يوم أحد."
+  ur: "خزرج کے جوشیلی قائد جو دونوں بیعت عقبہ میں شریک ہوئے؛ دوسری بیعت میں کھڑے ہو کر یثرب والوں کو ذمہ داری کی سنگینی یاد دلائی۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -18,13 +19,17 @@ story_roles:
   - { role: companion, start: { edtf: "0621~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0621~" }, note: "صحابي شهد العقبتين واستشهد بأحد." }
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat)" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "الذي استوثق من خطورة البيعة وعرض ضرب قريش", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 772", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "stayed at Mecca then emigrated with the Prophet — an Ansari Muhajiri, martyred (al-Isaba p. 772)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/pledges-of-aqaba, note: "spoke at the second Aqaba (al-Isaba p. 772)", sources: [source/ibn-hajar-isaba] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143, 150, 153" }
 provenance:
   layer: own-research

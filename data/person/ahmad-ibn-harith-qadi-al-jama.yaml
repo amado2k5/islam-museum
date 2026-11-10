@@ -14,5 +14,6 @@ provenance:
   run: mawsua-w06-52
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix biography read on pp.10360-10361; the dates in the heading are printed reversed (592-513) and read here as 513-592 AH; footnote citations omitted; printed folios not checked against page images" }
+died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Qudat Qurtuba" }
 relations:
   - { type: lived_in, target: place/jaen, note: "Place association from the person's nisba/name (الجياني); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

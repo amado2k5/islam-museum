@@ -8,6 +8,17 @@ summary:
 wings: [time]
 date:
   start: { hijri: "0037", precision: year, status: historical, note: "فهرس الجزء الخامس ص627 وص48", sources: [source/tabari-tarikh-abu-al-fadl] }
+map:
+  kind: battle
+  precision: locality
+  center: [38.63, 35.86]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة صفين", en: "Battle of Siffin" }, at: [38.63, 35.86], precision: locality, source: source/sallabi-ali-vol2 }
+  sources: [source/sallabi-ali-vol2]
+relations:
+- { type: occurred_at, target: place/siffin }
 external_ids: { wikidata: "Q735876" }
 perspectives:
   - tradition: sunni
@@ -22,6 +33,14 @@ perspectives:
       ar: "الرأي الأكاديمي الحديث عن صفين لم يُعرض بعد من هذا المجلد؛ يُضاف عند توفر مصدر أكاديمي."
       en: "The academic view of Siffin is not yet set out from this volume; to be added from an academic source."
     sources: []
+sides:
+  - label: { ar: "جيش علي بن أبي طالب", en: "Ali ibn Abi Talib's army" }
+    participants: [person/ali-ibn-abi-talib, person/malik-al-ashtar]
+    commanders: [person/ali-ibn-abi-talib]
+  - label: { ar: "جيش معاوية بن أبي سفيان", en: "Mu'awiya ibn Abi Sufyan's army" }
+    participants: [person/amr-ibn-al-as]
+    commanders: [person/muawiya-ibn-abi-sufyan]
 sources: [source/sallabi-ali-vol2, source/sallabi-ali-tawzi-2004, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/tarikh-khalifa-umari-1985]
 provenance: { source: "Sources cited in the record (sallabi-ali-vol2, sallabi-ali-tawzi-2004 printed pp. 558-562 / PDF pp. 562-566, tabari-tarikh-abu-al-fadl, muruj-al-dhahab, tarikh-khalifa-umari-1985)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 2", sources: [source/tabari-tarikh-abu-al-fadl], run: "lib-tarikh-khalifa-batch-3-2026-10-31 (enrichment), lib-wave-21-khulafa-rashidun-salabi-3" }
+importance: 1
 status: { review: published, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan (printed page = scan page)" }

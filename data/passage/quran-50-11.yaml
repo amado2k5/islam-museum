@@ -16,6 +16,8 @@ translations:
   en: { text: "Provision (made) for men; and therewith We quicken a dead land. Even so will be the resurrection of the dead.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(یہ سب کچھ) بندوں کو روزی دینے کے لئے (کیا ہے) اور اس (پانی) سے ہم نے شہر مردہ (یعنی زمین افتادہ) کو زندہ کیا۔ (بس) اسی طرح (قیامت کے روز) نکل پڑنا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rain, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/date-palm, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

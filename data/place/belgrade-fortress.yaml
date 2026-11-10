@@ -1,0 +1,20 @@
+id: place/belgrade-fortress
+class: place
+kind: site
+label: { ar: "قلعة بلغراد", en: "Belgrade Fortress" }
+summary:
+  ar: "موقع أثري في صربيا."
+  en: "Fortress in Serbia."
+wings: [place]
+coordinates: [44.8236, 20.4503]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1409017" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1409017 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

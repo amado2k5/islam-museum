@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1525~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Banu); TDV Islam Ansiklopedisi" }
+died: { edtf: "1583", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Banu); TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/paros, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q201272)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

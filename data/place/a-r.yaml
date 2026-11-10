@@ -1,0 +1,20 @@
+id: place/a-r
+class: place
+kind: city
+label: { ar: "أغرة", en: "Ağrı" }
+summary:
+  ar: "مدينة."
+  en: "Central district and city in Ağrı Province, Turkey."
+wings: [place]
+coordinates: [39.7225, 43.054444444444]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q199575" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q199575 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -15,6 +15,19 @@ date:
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/uthman-i-uthmani, role: "المُفتَتِح في رواية الصلابي", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "العثمانيون بقيادة أورخان", en: "The Ottomans under Orhan" }
+  - label: { ar: "حامية بورصة البيزنطية", en: "The Byzantine garrison of Bursa" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.1956, 29.0601]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بورصة", en: "Conquest of Bursa" }, at: [40.1956, 29.0601], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q1099263

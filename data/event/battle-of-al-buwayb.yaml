@@ -25,5 +25,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 354–355"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-30, lib-akhbar-tiwal-batch-3-2026-10-31
+sides:
+  - label: { ar: "المسلمون بقيادة خالد بن الوليد", en: "The Muslims under Khalid ibn al-Walid" }
+    participants: [person/khalid-ibn-al-walid]
+  - label: { ar: "جيش مهران الفارسي", en: "Mihran's Persian army" }
+map:
+  kind: battle
+  precision: locality
+  center: [31.95, 44.4]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم مهران وهو يوم البويب", en: "The Day of Mihran, Being the Day of al-Buwayb" }, at: [31.95, 44.4], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/akhbar-tiwal-amir]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High)" }

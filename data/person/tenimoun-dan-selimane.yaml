@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [west-africa-sahel]
 periods: [period/gunpowder-empires]
+died: { edtf: "1884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Niger (Decalo)" }
 relations:
   - { type: lived_in, target: place/niger, sources: [source/al-aalam] }
 sources: [source/al-aalam]

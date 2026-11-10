@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
+born: { edtf: "1497", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira (al-Ghazzi)" }
+died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira (al-Ghazzi)" }
 relations:
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
 sources: [source/al-aalam]

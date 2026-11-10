@@ -3,18 +3,22 @@ class: person
 label:
   ar: "مدلاج بن عمرو السلمي"
   en: "Madlaj ibn Amr al-Sulami"
+  ur: "مدلاج بن عمرو السلمي"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لمدلاج بن عمرو السلمي، من أهل القرن الأول، توفي نحو سنة ٦٧٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Madlaj ibn Amr al-Sulami, a figure of the early centuries, d. c. 670; the biographical entry is not yet checked on the page."
+  ar: "صحابي سلمي، حليف بني عبد شمس؛ شهد بدراً هو وأخواه مالك وثقف، وشهد سائر المشاهد، وتوفي سنة خمسين."
+  en: "A Sulami Companion, an ally of Banu Abd Shams; he witnessed Badr with his brothers Malik and Thaqf and every later battle, and died in 50 AH."
+  ur: "سلمی صحابی، بنو عبد شمس کا حلیف؛ اپنے بھائیوں مالک اور ثقف کے ساتھ بدر اور ہر بعد کی لڑائی میں شریک رہا اور 50 ہجری میں فوت ہوا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "0670", hijri: "0050", calendar: julian, precision: year, status: tradition, derived: true, note: "Died 50 AH (al-Istiab p. 703); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Istiab p. 703", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q106677894
 provenance:

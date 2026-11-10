@@ -19,6 +19,7 @@ relations:
   - { type: built, target: building/kaaba, note: "رفع القواعد من البيت مع ابنه إسماعيل في رحلته الثالثة المحفوظة.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: lived_in, target: place/palestine, note: "اتخذ فلسطين قاعدة لدعوته بعد هجرته من أور وحرّان.", sources: [source/mubarakpuri-raheeq] }
   - { type: traveled_to, target: place/mecca, note: "أربع رحلات محفوظة إلى مكة: الإسكان، الذبح، واختبار الزوجتين، وبناء البيت.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: exemplifies, target: concept/asma-al-salam, sources: [source/tanzil-quran] }
 sensitivity: contested
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sifr-al-takwin, source/tafsir-sharawi-khawatir-scan-pp-501-1000, source/assabile-omar-abdelkafy, source/tafsir-tabari-shakir-v03]
 education:
@@ -30,6 +31,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Claude Code", model: "Claude Fable 5.1 (claude-fable-5-1)", run: "education-E2-fixtures", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review (Urdu flagged)." }
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
 provenance:
   layer: copyrighted-reference

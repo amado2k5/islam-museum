@@ -15,6 +15,7 @@ story_roles:
   - { role: interlocutor, start: { edtf: "0616~" }, status: tradition, note: "وفد قريش إلى النجاشي (الرحيق ص94-97).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أسلم لاحقاً على المشهور؛ في الوفادة كان على دين قومه.", sources: [source/ibn-hisham-sira] }
+died: { edtf: "658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira], confidence: low }
   - { type: member_of, target: group/quraysh }

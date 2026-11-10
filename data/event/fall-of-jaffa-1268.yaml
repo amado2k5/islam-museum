@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1268", precision: year, status: tradition, derived: true }
   end: { edtf: "1268", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    participants: [person/baybars]
+    commanders: [person/baybars]
+  - label: { ar: "حامية يافا الصليبية", en: "The Crusader garrison of Jaffa" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.7531, 32.0522]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1268"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط يافا ⁦(١٢٦٨)⁩", en: "Fall of Jaffa (1268)" }, at: [34.7531, 32.0522], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/yafa }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q137739278

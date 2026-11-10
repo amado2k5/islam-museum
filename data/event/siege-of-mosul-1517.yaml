@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1517-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1517-04", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [43.1189, 36.335]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1517"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الموصل ⁦(١٥١٧)⁩", en: "Siege of Mosul" }, at: [43.1189, 36.335], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mosul }
+sides:
+  - label: { ar: "قوات سليم الأول", en: "The forces of Selim I Yavuz" }
+    participants: [person/selim-i-uthmani]
+  - label: { ar: "حامية الموصل", en: "The defenders of Mosul" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q112075364

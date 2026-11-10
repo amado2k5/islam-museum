@@ -29,5 +29,6 @@ occupations:
     status: historical
     note: "The SADRAZAM entry names him among the devshirme-origin grand viziers (Mahmud, Rum Mehmed, Ishak and Gedik Ahmed) whom Mehmed II appointed before Karamani Mehmed Pasha."
     sources: [source/tdv-sadrazam]
+died: { edtf: "1474", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/constantinople, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }

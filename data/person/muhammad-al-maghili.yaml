@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1440~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/tlemcen, confidence: low, note: "Association inferred from the nisba 'التلمساني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

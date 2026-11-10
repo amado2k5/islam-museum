@@ -11,7 +11,13 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1585", precision: year, status: tradition, derived: true }
   end: { edtf: "1585", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Sennar Sultanate", ar: "سلطنة سنار" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q130283806
 provenance:

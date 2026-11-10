@@ -11,6 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1983-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1984-01-16", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "قوات صديق أبو بكر الثالث", en: "The forces of Siddiq Abubakar III" }
+    participants: [person/siddiq-abubakar-iii]
+  - label: { ar: "حامية أرغون", en: "The defenders of Urgun" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3485830

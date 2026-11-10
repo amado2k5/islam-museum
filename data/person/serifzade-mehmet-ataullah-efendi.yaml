@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1811", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/rize, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q201101)" }
 sources: [source/al-aalam]

@@ -18,6 +18,8 @@ sensitivity: contested
 story_roles:
   - { role: apologist, status: historical, note: "يدافع عن الإيمان في حوار مع ملحد ويعرض قراءة علمية للقرآن (حوار مع صديقي الملحد؛ القرآن محاولة لفهم عصري)", sources: [source/mm-hiwar-ma-sadiqi-al-mulhid-awda-1986, source/mm-quran-muhawala-digital] }
   - { role: physician, status: historical, note: "تخرج في كلية الطب بالقصر العيني 1953 وتخصص في الصدر", sources: [source/mm-allah-wal-insan-1957] }
+born: { edtf: "1921", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Enc. Modern Middle East" }
+died: { edtf: "2009", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Enc. Modern Middle East" }
 relations:
   - { type: authored, target: work/allah-wal-insan, sources: [source/mm-allah-wal-insan-1957] }
   - { type: authored, target: work/rihlati-min-al-shakk-ila-al-iman, sources: [source/mm-rihla-min-al-shakk-maarif] }

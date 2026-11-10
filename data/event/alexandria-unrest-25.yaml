@@ -11,10 +11,24 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/alexandria, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch04
+sides:
+  - label: { ar: "جيش عمرو بن العاص", en: "Amr ibn al-As's army" }
+    commanders: [person/amr-ibn-al-as]
+  - label: { ar: "الإسكندرية", en: "Alexandria" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.2018, 29.9158]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خلاف أهل الإسكندرية واستردادها", en: "the Alexandria rising and its recovery (25 AH)" }, at: [31.2018, 29.9158], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

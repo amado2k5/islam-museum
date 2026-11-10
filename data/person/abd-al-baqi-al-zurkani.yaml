@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khulasat al-Athar (al-Muhibbi: 1020–1099 AH)" }
+died: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khulasat al-Athar (al-Muhibbi: 1020–1099 AH)" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }

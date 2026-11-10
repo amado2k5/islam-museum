@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1144", precision: year, status: tradition, derived: true }
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-4.0, 37.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1144"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة الأندلس ضد المرابطين ⁦(١١٤٤–١١٤٧)⁩", en: "Andalusi revolt against the Almoravids (1144–1147)" }, at: [-4.0, 37.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/al-andalus }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عبد المؤمن بن علي القمي", en: "The authorities of Abd al-Mu'min ibn Ali al-Qumi" }
+    participants: [person/abd-al-mumin-ibn-ali]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q11945453

@@ -1,0 +1,20 @@
+id: place/jordan-river
+class: place
+kind: river
+label: { ar: "نهر الأردن", en: "Jordan River" }
+summary:
+  ar: "نهر في غرب آسيا المتجه إلى البحر الميت."
+  en: "River in West Asia which flows to the Dead Sea."
+wings: [place]
+coordinates: [33.186666666667, 35.619166666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q40059" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q40059 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

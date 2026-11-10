@@ -16,6 +16,7 @@ translations:
   en: { text: "Then turneth it to russet stubble.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر اس کو سیاہ رنگ کا کوڑا کر دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/pasture, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-87 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

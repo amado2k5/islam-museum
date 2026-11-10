@@ -18,5 +18,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 430–431"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-43
+sides:
+  - label: { ar: "جيش أبو موسى الأشعري", en: "Abu Musa al-Ashari's army" }
+    commanders: [person/abu-musa-al-ashari]
+  - label: { ar: "الدينور", en: "al-Dinawar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.5892, 47.4394]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الدينور وماسبذان ومهرجانقذف", en: "The Conquest of al-Dinawar, Masabadhan and Mihrajanqadhaf" }, at: [34.5892, 47.4394], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

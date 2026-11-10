@@ -1,0 +1,20 @@
+id: place/near-east
+class: place
+kind: region
+label: { ar: "الشرق الأدنى", en: "Near East" }
+summary:
+  ar: "إقليم."
+  en: "Geographical term that roughly encompasses Western Asia, and in some definitions parts of the Balkans."
+wings: [place]
+coordinates: [32.8, 35.6]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q48214" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q48214 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

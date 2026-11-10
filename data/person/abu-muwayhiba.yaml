@@ -1,6 +1,6 @@
 id: person/abu-muwayhiba
 class: person
-label: { ar: "أبو مويهبة مولى النبي", en: "Abu Muwayhiba, client of the Prophet" }
+label: { ar: "أبو مويهبة مولى النبي", en: "Abu Muwayhiba, client of the Prophet", ur: "أبو مويهبة مولى النبي" }
 names:
   - { kind: kunya, lang: ar, value: "أبو مويهبة" }
   - { kind: nisba, lang: ar, value: "مولى رسول الله" }
@@ -10,11 +10,14 @@ traditions: [sunni]
 summary:
   ar: "مولى النبي؛ أيقظه النبي من جوف الليل ليرافقه إلى البقيع، فاستغفر لأهله، ثم أخبره أنه أُوتي مفاتيح خزائن الدنيا والخلد ثم الجنة فخُيّر فاختار لقاء ربه؛ ويروي خبره ابن إسحاق عن عبد الله بن عمرو بن العاص."
   en: "A client of the Prophet, whom he woke in the middle of the night to accompany him to al-Baqi'; the Prophet asked forgiveness for its people, then told him he had been given the keys of the treasures of this world and eternity and the Garden, but had chosen to meet his Lord; Ibn Ishaq narrates it through Abdullah ibn Amr ibn al-As."
+  ur: "نبی کے مولیٰ جنہیں آدھی رات بقیع جانے کے لیے جگایا؛ نبی نے وہاں کے اہل کے لیے مغفرت مانگی پھر انہیں خبر دی۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/night-supplication-at-al-baqia, role: "رافق النبي إلى البقيع", sources: [source/ibn-hisham-saqqa] }

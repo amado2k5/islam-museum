@@ -12,6 +12,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
+died: { edtf: "927~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Tenth-century jurist; regions field levant-iraq, flagged.", sources: [source/al-aalam], confidence: low }
 sources: [source/al-aalam]

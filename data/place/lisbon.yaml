@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
+coordinates: [38.722, -9.139]
+coordinate_precision: site
+coordinate_note: "Lisbon (al-Ushbuna), Portugal (geocoding pass, Gemini-assisted)"
 relations:
   - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
 provenance:
@@ -15,5 +18,6 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 186–187"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
+external_ids: { wikidata: "Q597" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

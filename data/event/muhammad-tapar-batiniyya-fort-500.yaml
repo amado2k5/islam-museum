@@ -24,5 +24,14 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-110
+map:
+  kind: siege
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ السلطان محمد بن ملكشاه قلعة الباطنية بأصبهان وقتل ابن عطاش سنة 500", en: "Sultan Muhammad ibn Malikshah takes the Batiniyya fortress at Isfahan and kills Ibn Attash in 500" }, at: [32.6546, 51.668], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

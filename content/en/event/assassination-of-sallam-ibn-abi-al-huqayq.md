@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 When the Muslims had finished with Banu Qurayza, the champions of the Khazraj moved to kill Sallam ibn Abi al-Huqayq (Abu Rafi') at Khaybar; Abu Rafi' was a merchant of the Hijaz and one of the great chiefs of the Jews of al-Nadir who had rallied the Confederates against Medina and supplied them with ample funds. {cite:mubarakpuri-raheeq}
 
 Five horsemen of the Khazraj asked the Prophet's leave to kill him — in rivalry with the Aws, who had killed Ka'b ibn al-Ashraf — and the Prophet gave them leave and appointed over them [[person/abdullah-ibn-atik|Abdullah ibn Atik]], forbidding them to kill women or children. {cite:sahih-al-bukhari}

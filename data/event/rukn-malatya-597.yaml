@@ -12,12 +12,27 @@ relations:
   - { type: occurred_at, target: place/malatya, sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/erzurum, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/sulayman-shah-ii-rum, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch3
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية ملطية", en: "The defenders of Malatya (Melitene)" }
+    participants: [place/malatya]
+map:
+  kind: campaign
+  precision: locality
+  center: [38.35062, 38.3094]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك ركن الدين ملطية من أخيه وأرزن الروم", en: "Rukn al-Din takes Malatya from his brother — and Erzurum" }, at: [38.35062, 38.3094], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

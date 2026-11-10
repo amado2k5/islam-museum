@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1309", precision: year, status: tradition, derived: true }
   end: { edtf: "1309", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-2.46, 36.84]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1309"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار المرية", en: "Siege of Almería" }, at: [-2.46, 36.84], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/almeria }
+sides:
+  - label: { ar: "قوات المستكفي", en: "The forces of al-Mustakfi I" }
+    participants: [person/al-mustakfi-i-cairo]
+  - label: { ar: "حامية المرية", en: "The defenders of Almería" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q56276309

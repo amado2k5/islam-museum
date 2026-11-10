@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/prophetic-era]
 regions: [arabia]
+coordinates: [24.4694, 39.6075]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
   - { type: site_of, target: event/saqifa, sources: [source/samhudi-wafa-al-wafa] }

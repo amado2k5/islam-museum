@@ -11,6 +11,8 @@ roles: [scholar, poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
+born: { edtf: "970", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+died: { edtf: "1015", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
   - { type: sibling_of, target: person/al-sharif-al-murtada }

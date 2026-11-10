@@ -3,6 +3,7 @@ class: person
 label:
   ar: أبو عبس بن جبر
   en: Abu Abs ibn Jabr
+  ur: "أبو عبس بن جبر"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: أنصاري أوسي من بني حارثة، قيل كان اسمه في الجاهلية عبد العزى وقيل معبد فسماه النبي عبد الرحمن؛ ذكره موسى بن عقبة فيمن شهد بدراً، وعدّه ابن الكلبي فيمن قتل كعب بن الأشرف، ومات سنة أربع وثلاثين وصلى عليه عثمان.
   en: An Ansari of the Aws, from the Banu Haritha; his pre-Islamic name is reported as Abd al-Uzza or Ma'bad and the Prophet is said to have named him Abd al-Rahman. Musa ibn Uqba lists him among the Badr fighters, Ibn al-Kalbi counts him among
     the killers of Ka'b ibn al-Ashraf, and he died in 34 AH with Uthman leading the funeral prayer.
+  ur: "اوس کے انصاری، بنو حارثہ سے؛ جاہلیت کا نام عبد العزیٰ یا معبد بتایا جاتا ہے اور نبی نے انہیں عبد الرحمٰن کہا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -37,6 +39,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "590", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+died: { edtf: "654", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
 - type: lived_in
   target: place/medina
@@ -53,6 +57,16 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/killing-of-kab-ibn-al-ashraf
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1724"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "a Badri whom Uthman visited in illness (al-Isaba p. 1724)"
   sources:
   - source/ibn-hajar-isaba
 provenance:

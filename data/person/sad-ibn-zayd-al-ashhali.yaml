@@ -1,6 +1,6 @@
 id: person/sad-ibn-zayd-al-ashhali
 class: person
-label: { en: "Sa'd ibn Zayd al-Ashhali", ar: "سعد بن زيد الأشهلي" }
+label: { en: "Sa'd ibn Zayd al-Ashhali", ar: "سعد بن زيد الأشهلي", ur: "سعد بن زيد الأشهلي" }
 names:
   - { kind: full, lang: ar, value: "سعد بن زيد بن وديعة الأشهلي الأوسي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A noble Companion from Banu Abd al-Ashhal of the Aws; Badri veteran who was entrusted by the Prophet with the mission to demolish the ancient idol Manat at al-Mushallal in Ramadan 8 AH."
   ar: "صحابي بدري وفارس من أشراف بني عبد الأشهل من الأوس؛ شهد بدراً وأحداً والخندق والمشاهد كلها، وأمّره النبي في رمضان 8هـ على سرية في عشرين فارساً لهدم صنم مناة بالمشلل الذي كانت تعظمه الأوس والخزرج وغسان."
+  ur: "بنو عبد الاشہل اوس کا معزز صحابی؛ بدری جسے نبی نے قدیمی بت گرانے کی مہم سونپی۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
@@ -18,6 +19,7 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري من الأنصار." }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }

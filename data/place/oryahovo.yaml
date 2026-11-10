@@ -1,0 +1,20 @@
+id: place/oryahovo
+class: place
+kind: city
+label: { ar: "أورياهوفو", en: "Oryahovo" }
+summary:
+  ar: "مدينة."
+  en: "City in Oryahovo municipality, Vratsa oblast, Bulgaria."
+wings: [place]
+coordinates: [43.738869, 23.961178]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q407296" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q407296 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

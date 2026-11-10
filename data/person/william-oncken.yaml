@@ -15,5 +15,7 @@ regions: [global]
 sources: [source/assabile-tareq-al-suwaidan]
 provenance: { layer: copyrighted-reference, source: "Assabile, administrative-processus-abilities ep03 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Devin (SWE-2 High)", model: swe-2-high, run: devin-tareq-al-suwaidan-admin-3 }
 status: { review: published, generated_by: "Devin (SWE-2 High); run devin-tareq-al-suwaidan-admin-3" }
+born: { edtf: "1912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Library of Congress Authorities" }
+died: { edtf: "1988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Library of Congress Authorities" }
 relations:
   - { type: lived_in, target: place/united-states, confidence: low, note: "American management writer (regions: global).", sources: [source/assabile-tareq-al-suwaidan] }

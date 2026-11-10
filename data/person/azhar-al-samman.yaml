@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch36
+born: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+died: { edtf: "802", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
 relations:
   - { type: lived_in, target: place/basra, note: "Al-Mansur's study-friend, sent for from Basra.", sources: [source/muruj-al-dhahab], confidence: medium }
 sources: [source/muruj-al-dhahab]

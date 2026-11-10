@@ -17,6 +17,20 @@ date:
 relations:
   - { type: occurred_at, target: place/homs, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-mutanabbi, role: "قائد الفتنة فالسجين", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمد القاهر بالله", en: "The authorities of Muhammad al-Qahir bi-llah" }
+    participants: [person/al-qahir-billah]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.733333333333, 36.716666666667]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتنة المتنبي وسجنه بحمص، ٣٢٢هـ/٩٣٣م", en: "Al-Mutanabbi's rising and his imprisonment at Hims, 322/933" }, at: [34.733333333333, 36.716666666667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

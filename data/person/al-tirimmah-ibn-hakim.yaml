@@ -20,5 +20,6 @@ story_roles:
 sources: [source/hamasa-abu-tammam-ed-1916]
 status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "ديوان الحماسة، طبعة 1916 (أرقام الصفحات المطبوعة)", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hamasa-4" }
+died: { edtf: "728~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/al-sham, note: "From text: grew up in Syria", sources: [source/hamasa-abu-tammam-ed-1916] }

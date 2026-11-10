@@ -12,6 +12,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wafayat al-A'yan / Ibn Khallikan" }
+died: { edtf: "1245", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wafayat al-A'yan / Ibn Khallikan" }
 relations:
   - { type: born_in, target: place/xois, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -16,6 +16,10 @@ translations:
   en: { text: "Therewith He causeth crops to grow for you, and the olive and the date-palm and grapes and all kinds of fruit. Lo! herein is indeed a portent for people who reflect.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اسی پانی سے وہ تمہارے لیے کھیتی اور زیتون اور کھجور اور انگور (اور بےشمار درخت) اُگاتا ہے۔ اور ہر طرح کے پھل (پیدا کرتا ہے) غور کرنے والوں کے لیے اس میں (قدرتِ خدا کی بڑی) نشانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/grapevine, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/olive, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/date-palm, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

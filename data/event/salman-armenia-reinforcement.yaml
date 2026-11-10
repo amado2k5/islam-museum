@@ -16,10 +16,25 @@ relations:
   - { type: had_participant, target: person/habib-ibn-maslama, role: "المغالظ له في أمر الغنيمة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/said-ibn-al-as, role: "عامل الكوفة المأمور بالإمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-walid-ibn-uqba, role: "في الرواية الأخرى: بحديثة الموصل سنة 25", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 278–279"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
+sides:
+  - label: { ar: "قوات عثمان بن عفان", en: "The forces of Uthman ibn Affan" }
+    participants: [person/uthman-ibn-affan]
+  - label: { ar: "حامية قاليقلا", en: "The defenders of Qaliqala (Theodosiopolis/Erzurum)" }
+    participants: [place/qaliqala]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.9043, 41.2679]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "إمداد سلمان الخيل وأمر الغنيمة", en: "Salman al-Khayl's Reinforcement and the Spoils Dispute" }, at: [39.9043, 41.2679], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -16,7 +16,10 @@ provenance:
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
 external_ids: { wikidata: "Q767220" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Afdal" }
+died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Afdal" }
 relations:
   - { type: born_in, target: place/cairo, note: "Wikidata Q85 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/sumaysat, note: "Wikidata Q1026347 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

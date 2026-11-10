@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1739", precision: year, status: tradition, derived: true }
   end: { edtf: "1739", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [20.716666666667, 44.666666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1739"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة غروتسكا", en: "Battle of Grocka" }, at: [20.716666666667, 44.666666666667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/grocka-city-municipality }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q700866

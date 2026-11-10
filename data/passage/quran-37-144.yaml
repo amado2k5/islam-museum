@@ -16,6 +16,7 @@ translations:
   en: { text: "He would have tarried in its belly till the day when they are raised;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو اس روز تک کہ لوگ دوبارہ زندہ کئے جائیں گے اسی کے پیٹ میں رہتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/whale-of-yunus, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -18,6 +18,9 @@ provenance:
   model: "unknown"
 external_ids: { wikidata: "Q335620" }
 sources: [source/nafh-tib-maqqari]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar)" }
+died: { edtf: "1351", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun (Kitab al-Ibar)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

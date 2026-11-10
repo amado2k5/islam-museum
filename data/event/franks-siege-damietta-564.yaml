@@ -19,10 +19,24 @@ relations:
 - type: occurred_at
   target: place/dimyat
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 themes: [crusades]
+sides:
+  - label: { ar: "الجيش الأيوبي", en: "The Ayyubid army" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub, person/nur-al-din-mahmud-ibn-zangi]
+  - label: { ar: "الفرنج والحملة الصليبية الثانية", en: "The Franks and the Second Crusade" }
+map:
+  kind: siege
+  precision: locality
+  center: [31.416666666666668, 31.82138888888889]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصر الفرنج دمياط سنة ٥٦٤", en: "The Frankish siege of Damietta (564 AH)" }, at: [31.416666666666668, 31.82138888888889], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

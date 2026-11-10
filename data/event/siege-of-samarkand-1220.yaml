@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1220", precision: year, status: tradition, derived: true }
   end: { edtf: "1220", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+    participants: [polity/mongol-empire]
+  - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
+    participants: [polity/khwarazmian-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [66.9644, 39.6546]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1220"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سمرقند ⁦(١٢٢٠)⁩", en: "Siege of Samarkand" }, at: [66.9644, 39.6546], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/samarqand }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q7510363
 provenance:

@@ -10,6 +10,7 @@ themes: [prophets]
 periods: [period/pre-islamic-arabia]
 relations:
   - { type: lived_in, target: place/jerusalem, confidence: low, note: "Maryam of Bayt al-Maqdis per the shared biblical and Islamic narrative; precise locality pending review.", sources: [source/sahih-al-bukhari] }
+  - { type: exemplifies, target: concept/asma-al-razzaq, sources: [source/tanzil-quran] }
 provenance:
   layer: "own-research"
   source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR"
@@ -17,6 +18,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch121
 sources: [source/sahih-al-bukhari, source/sahih-muslim, source/assabile-yusuf-al-qaradawi, source/assabile-tareq-al-suwaidan]
+importance: 2
 status:
   review: published
   completeness: 3

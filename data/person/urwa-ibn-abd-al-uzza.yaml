@@ -1,6 +1,6 @@
 id: person/urwa-ibn-abd-al-uzza
 class: person
-label: { en: Urwa ibn Abd al-Uzza, ar: "عروة بن عبد العزى" }
+label: { en: Urwa ibn Abd al-Uzza, ar: "عروة بن عبد العزى", ur: "عروة بن عبد العزى" }
 names:
   - { kind: full, lang: ar, value: "عروة بن عبد العزى بن حرثان بن عوف بن عبيد بن عويج بن عدي بن كعب" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني عدي بن كعب، هاجر إلى الحبشة وهلك بها."
   en: Of Banu Adi ibn Ka'b; he emigrated to Abyssinia and died there.
+  ur: "بنو عدي بن کعب کے؛ حبشہ ہجرت کیے اور وہیں فوت ہوئے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص9)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~610, Nasab Quraysh; Ansab al-Ashraf" }
 relations:
   - { type: member_of, target: group/banu-adi, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }

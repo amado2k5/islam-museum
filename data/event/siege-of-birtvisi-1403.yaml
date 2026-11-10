@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1403", precision: year, status: tradition, derived: true }
   end: { edtf: "1403", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية بيرتفيسي", en: "The defenders of Birtvisi" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q25302937

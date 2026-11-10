@@ -11,6 +11,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 338"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-26
+born: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
 relations:
   - { type: ruled_over, target: place/al-khurayba, sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407]

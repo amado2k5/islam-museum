@@ -1,0 +1,20 @@
+id: place/ano-doliana
+class: place
+kind: town
+label: { ar: "أنو دوليانا", en: "Ano Doliana" }
+summary:
+  ar: "بلدة."
+  en: "Village in Arcadia, Greece."
+wings: [place]
+coordinates: [37.386604, 22.498588]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q12872300" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q12872300 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

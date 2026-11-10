@@ -11,12 +11,15 @@ regions: [arabia]
 date:
   start: { edtf: "0580~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبيل الإسلام {cite:ansab-al-ashraf p. 30}." }
 relations:
-  - { type: had_participant, target: person/laqit-ibn-zurara, role: "المقتول", sources: [source/ansab-al-ashraf] }
+  - { type: related_to, target: person/laqit-ibn-zurara, role: "المقتول", sources: [source/ansab-al-ashraf] }
   - { type: had_participant, target: person/shurayh-ibn-al-ahwas, role: "الطاعن", sources: [source/ansab-al-ashraf] }
 provenance:
   layer: own-research
   source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-8
+sides:
+  - label: { ar: "تميم وربياب", en: "Tamim and the Rabab" }
+  - label: { ar: "كلاب وحلفاؤها", en: "Kilab and its allies" }
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

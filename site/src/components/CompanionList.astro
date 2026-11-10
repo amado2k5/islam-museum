@@ -1,0 +1,41 @@
+---
+// One list of Companions for the Companions Browser: every name links to its record, with the Hijri death year and,
+// when given, the role on the event. Optional name filter; the full list is in the HTML.
+import { ui, type Lang } from "../lib/i18n";
+import { byId, href, labelOf } from "../lib/graph";
+import { deathText } from "../lib/companions";
+
+interface Props { lang: Lang; ids: string[]; filter?: boolean; roles?: Map<string, string>; id?: string }
+const { lang, ids, filter = false, roles, id = "companion-list" } = Astro.props as Props;
+const C = ui(lang).companions;
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+---
+<div data-companion-list>
+  {filter && (
+    <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+      <label for={`${id}-filter`}>{C.filter_label}</label>
+      <input id={`${id}-filter`} type="search" data-companion-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+    </p>
+  )}
+  <ul role="list" class="clist">
+    {ids.map((x) => {
+      const n = byId.get(x)!;
+      const d = deathText(x, lang);
+      const role = roles?.get(x);
+      return (
+        <li data-companion-row data-search={searchText(n)}>
+          <a href={href(lang, x)}>{labelOf(n, lang)}</a>
+          {role && <span class="chip">{role}</span>}
+          {d && <span class="ui muted">{d}</span>}
+        </li>
+      );
+    })}
+  </ul>
+  {filter && <p class="panel ui" data-companion-none hidden>{C.filter_none}</p>}
+  {ids.length === 0 && <p class="panel ui">{C.empty}</p>}
+</div>
+<style>
+  .clist { list-style: none; padding: 0; margin: 0; }
+  .clist li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .clist a { font-weight: 600; }
+</style>

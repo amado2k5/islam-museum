@@ -17,6 +17,8 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "268~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / EI" }
+died: { edtf: "295~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / EI" }
 relations:
   - { type: ruler_of, target: place/al-hira, start: { edtf: "0268~" }, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/banu-lakhm }

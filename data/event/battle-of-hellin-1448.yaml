@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1448", precision: year, status: tradition, derived: true }
   end: { edtf: "1448", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-1.7033333333333, 38.512222222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1448"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة إيين ⁦(١٤٤٨)⁩", en: "Battle of Hellín (1448)" }, at: [-1.7033333333333, 38.512222222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hell-n }
+sides:
+  - label: { en: "Emirate of Granada", ar: "مملكة غرناطة" }
+    participants: [polity/emirate-of-granada]
+  - label: { en: "Crown of Castile", ar: "تاج قشتالة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131765081
 provenance:

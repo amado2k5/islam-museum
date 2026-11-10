@@ -11,6 +11,7 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
+died: { edtf: "1235", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Barak Hadjib)" }
 relations:
   - { type: lived_in, target: place/kerman, confidence: low, note: "Associated with كرمان per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: "founder_of", target: "polity/qutlughkhanid-kirman", note: "مؤسس خانات قطلغ بكرمان 619هـ", sources: [source/tarikh-islam-hasan-ibrahim] }

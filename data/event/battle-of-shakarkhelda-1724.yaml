@@ -11,6 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1724", precision: year, status: tradition, derived: true }
   end: { edtf: "1724", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [76.182777777778, 20.532777777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1724"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة شكر خلدة ⁦(١٧٢٤)⁩", en: "Battle of Shakarkhelda (1724)" }, at: [76.182777777778, 20.532777777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/buldhana-district }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q11908768

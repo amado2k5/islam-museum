@@ -11,7 +11,25 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1801", precision: year, status: tradition, derived: true }
   end: { edtf: "1801", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+map:
+  kind: battle
+  precision: locality
+  center: [30.07, 31.31]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1801"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أبو قير الثانية", en: "Second Battle of Abukir" }, at: [30.07, 31.31], precision: locality, source: source/al-aalam }
+  sources: [source/al-aalam]
+relations:
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/abukir }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }
+    participants: [polity/united-kingdom-great-britain-ireland]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q2510511
 provenance:

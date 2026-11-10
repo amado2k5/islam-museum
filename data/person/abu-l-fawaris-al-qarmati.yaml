@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "985~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Tabari (continuators)" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Qarmatian brought from the Kufa side; mutilated and crucified on al-Mu'tadid's order in Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }

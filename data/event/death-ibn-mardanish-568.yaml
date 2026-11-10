@@ -12,6 +12,7 @@ relations:
   - { type: occurred_at, target: place/al-andalus, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ibn-mardanish, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/yusuf-ibn-abd-al-mumin, role: "الوارث", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

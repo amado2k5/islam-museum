@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd Rabbih (al-Iqd)" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd Rabbih (al-Iqd)" }
 relations:
   - { type: ruler_of, target: place/al-safa, note: "From text: ملك في صفات الجواري", sources: [source/muruj-al-dhahab] }

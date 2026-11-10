@@ -11,7 +11,13 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1448", precision: year, status: tradition, derived: true }
   end: { edtf: "1448", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Emirate of Granada", ar: "مملكة غرناطة" }
+    participants: [polity/emirate-of-granada]
+  - label: { en: "Crown of Castile", ar: "تاج قشتالة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131765083
 provenance:

@@ -11,6 +11,26 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.29785, 32.702102777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مجدو", en: "Battle of Megiddo" }, at: [35.29785, 32.702102777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/nazareth }
+- { type: occurred_at, target: place/ghawr }
+- { type: occurred_at, target: place/palestine }
+sides:
+  - label: { ar: "الجيش البريطاني بقيادة ألنبي", en: "The British army under Allenby" }
+  - label: { ar: "جيش البرق العثماني", en: "The Ottoman Yildirim army" }
+    participants: [person/mehmed-v-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q199371

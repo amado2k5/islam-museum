@@ -17,6 +17,8 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+died: { edtf: "798", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Singer mentioned in the Abbasid-era chapter on Muti' ibn Iyas per the record's cited source.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]

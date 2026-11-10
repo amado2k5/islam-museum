@@ -10,6 +10,19 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-sawar, role: "صاحب الثغر المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qiqan }
 wings: [time]
+sides:
+  - label: { ar: "الغزاة", en: "The raiders" }
+  - label: { ar: "حامية القيقان", en: "The defenders of al-Qiqan" }
+    participants: [place/qiqan]
+map:
+  kind: campaign
+  precision: locality
+  center: [28.8986, 66.6264]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "شأن عبد الله بن سوار بالقيقان", en: "Abdallah ibn Sawar at Qiqan" }, at: [28.8986, 66.6264], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1221", precision: year, status: tradition, derived: true }
   end: { edtf: "1221", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [67.83, 34.82]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1221"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار باميان ⁦(١٢٢١)⁩", en: "Siege of Bamyan" }, at: [67.83, 34.82], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/bamiyan }
+sides:
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+    participants: [polity/mongol-empire]
+  - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
+    participants: [polity/khwarazmian-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4548218
 provenance:

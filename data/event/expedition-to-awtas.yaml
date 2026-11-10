@@ -26,5 +26,14 @@ sides:
     commanders: [person/durayd-ibn-al-simma]
 casualties: { value: 1, status: tradition, note: "استشهد قائد السرية أبو عامر الأشعري، وقُتل دريد بن الصمة وجمع من مقاتلي هوازن.", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 97–101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4333, 40.35]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية أوطاس", en: "The expedition to Awtas" }, at: [21.4333, 40.35], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 97–101" }

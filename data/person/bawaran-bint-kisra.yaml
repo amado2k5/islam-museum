@@ -6,6 +6,7 @@ summary:
 wings: [people]
 aliases: [person/buran-bint-kisra]
 gender: female
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Boran)" }
 relations:
   - { type: lived_in, target: place/mihran, confidence: low, note: "Associated with مهران per the record's own summary text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]

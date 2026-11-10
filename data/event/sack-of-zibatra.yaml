@@ -13,12 +13,26 @@ date:
 relations:
   - { type: occurred_at, target: place/zibatra }
   - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "المغتاظ الغازي إلى عمورية", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abd-allah-al-mamun, role: "آمر مرمّتها وتحصينها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abd-allah-al-mamun, role: "آمر مرمّتها وتحصينها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: caused, target: event/conquest-of-amorium, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 270"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
+sides:
+  - label: { ar: "جيش المعتصم بالله أبو إسحاق بن الرشيد", en: "al-Mu'tasim Abu Ishaq ibn al-Rashid's army" }
+    commanders: [person/al-mutasim-abi-ishaq]
+  - label: { ar: "زبطرة", en: "Zibatra" }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.0931, 37.8825]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خراب زبطرة وغزوة المعتصم", en: "The Sack of Zibatra and al-Mu'tasim's Retaliation" }, at: [38.0931, 37.8825], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

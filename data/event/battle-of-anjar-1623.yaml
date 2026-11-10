@@ -11,6 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1623-11-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1623-11-01", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.929722222222225, 33.725833333333334]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1623"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة عنجر ⁦(١٦٢٣)⁩", en: "Battle of Anjar" }, at: [35.929722222222225, 33.725833333333334], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/anjar }
+sides:
+  - label: { ar: "الدروز بقيادة فخر الدين الثاني", en: "The Druze under Fakhr al-Din II" }
+  - label: { ar: "جيش ولاية دمشق العثماني", en: "The Damascus eyalet's army" }
+    participants: [person/mustafa-i-uthmani, person/murad-iv-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4870306

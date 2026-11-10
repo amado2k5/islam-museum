@@ -11,7 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "1686", precision: year, status: tradition, derived: true }
   end: { edtf: "1690", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "East India Company", ar: "شركة الهند الشرقية" }
+  - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+    participants: [polity/mughal-empire]
+map:
+  kind: campaign
+  precision: locality
+  center: [76.9702, 22.2078]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1686"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الإنجليزية المغولية", en: "Child's War" }, at: [76.9702, 22.2078], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/indian-subcontinent }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4122573
 provenance:

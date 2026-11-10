@@ -11,6 +11,7 @@ wings: [people]
 themes: [women, literature, civil-wars-and-revolts]
 periods: [period/rashidun, period/umayyad]
 regions: [levant-iraq]
+died: { edtf: "675~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd Rabbih (al-Iqd al-Farid)" }
 relations:
   - { type: lived_in, target: place/siffin, confidence: low, note: "Associated with Siffin per the record's own summary text; relation type pending review.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
   - { type: participated_in, target: event/battle-of-siffin, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }

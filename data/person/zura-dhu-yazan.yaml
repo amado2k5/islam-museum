@@ -18,6 +18,8 @@ story_roles:
   - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كتب بإسلامه مقدم النبي من تبوك (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "631~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "631~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: ruled_over, target: place/yemen, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/himyar, sources: [source/ibn-hisham-saqqa] }

@@ -14,13 +14,15 @@ regions:
 relations:
 - type: part_of
   target: place/uhud
-coordinate_note: "لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed."
 provenance:
   layer: own-research
   source: الرحيق المختوم (source/mubarakpuri-raheeq) p.253
   generated_by: gemma-4
   model: gemma-4
   run: raheeq-batch-11a
+coordinates: [24.4889, 39.6225]
+coordinate_precision: site
+coordinate_note: "Al-Shaykhan, campsite on the Medina-Uhud road (al-Mustarah), Saudi Arabia (geocoding pass, Gemini-assisted)"
 sources:
 - source/mubarakpuri-raheeq
 - source/samhudi-wafa-al-wafa

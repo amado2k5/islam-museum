@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Watan, lexically, is a dwelling or the place where a person stays and settles; the folds of sheep, cattle and camels are also called watan. Technically it is the place where a person lives and settles, whether or not he was born there. The mahalla, the quarter where a people lives, is narrower than watan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17527}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17528}
 

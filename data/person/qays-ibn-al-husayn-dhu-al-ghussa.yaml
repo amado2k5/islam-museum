@@ -1,6 +1,6 @@
 id: person/qays-ibn-al-husayn-dhu-al-ghussa
 class: person
-label: { ar: "قيس بن الحصين ذو الغصة", en: "Qays ibn al-Husayn Dhu al-Ghussa" }
+label: { ar: "قيس بن الحصين ذو الغصة", en: "Qays ibn al-Husayn Dhu al-Ghussa", ur: "قيس بن الحصين ذو الغصة" }
 names:
   - { kind: full, lang: ar, value: "قيس بن الحصين ذو الغصة" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من وفد بني الحارث بن كعب الذي قدم مع خالد بن الوليد سنة 10هـ؛ أمّره النبي على بني الحارث بن كعب، ويذكر المحققون أنه سُمّي ذا الغصة لأنه كان إذا تكلم أصابه كالغصص."
   en: "A member of the Banu al-Harith ibn Ka'b delegation that came with Khalid ibn al-Walid in 10 AH; the Prophet appointed him over Banu al-Harith, and the editors explain he was called Dhu al-Ghussa because he seemed to choke when he spoke."
+  ur: "بنو حارث بن کعب کے اس وفد کا رکن جو 10 ہجری میں خالد بن ولید کے ساتھ آیا؛ نبی نے اسے بنو حارث پر مقرر کیا۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -17,6 +18,8 @@ story_roles:
   - { role: convert, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "أسلم مع بني الحارث بن كعب على يدي خالد سنة 10هـ وقدم في وفدهم (ابن هشام ص240).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
+died: { edtf: "657~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-al-harith-ibn-kab, sources: [source/ibn-hisham-saqqa] }

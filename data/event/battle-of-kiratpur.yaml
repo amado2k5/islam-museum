@@ -11,7 +11,13 @@ regions: [south-asia]
 date:
   start: { edtf: "1638", precision: year, status: tradition, derived: true }
   end: { edtf: "1638", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Akal Sena", ar: "أكال سينا" }
+  - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+    participants: [polity/mughal-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118896808
 provenance:

@@ -11,7 +11,14 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0950", precision: year, status: tradition, derived: true }
   end: { edtf: "0950", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Hamdanid emirate of Aleppo", ar: "إمارة حمدانية في حلب" }
+    participants: [polity/hamdanid-emirate-of-aleppo]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141376751
 provenance:

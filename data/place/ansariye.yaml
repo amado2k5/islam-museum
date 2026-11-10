@@ -1,0 +1,20 @@
+id: place/ansariye
+class: place
+kind: town
+label: { ar: "الأنصارية", en: "Ansariye" }
+summary:
+  ar: "بلدة."
+  en: "Human settlement."
+wings: [place]
+coordinates: [33.4125, 35.27916667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1664366" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1664366 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/lafa-ruug
+class: place
+kind: town
+label: { ar: "لافاروغ", en: "Lafa-Ruug" }
+summary:
+  ar: "بلدة."
+  en: "Village in Sahil, Somaliland."
+wings: [place]
+coordinates: [10.009166666666667, 44.775277777777774]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q117075257" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q117075257 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

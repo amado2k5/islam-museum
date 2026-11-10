@@ -13,7 +13,21 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1510", precision: year, status: tradition, derived: true }
   end: { edtf: "1510", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [37.5938, 61.8303]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرو ⁦(١٥١٠)⁩", en: "Battle of Merv" }, at: [37.5938, 61.8303], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Khanate of Bukhara", ar: "خانية بخارى" }
+    participants: [polity/khanate-of-bukhara]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4132831
 provenance:

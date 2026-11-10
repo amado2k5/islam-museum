@@ -14,6 +14,19 @@ relations:
   - { type: had_participant, target: person/uruj-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids: { wikidata: "Q649647" }
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية الجزائر", en: "The defenders of Algiers" }
+    participants: [place/algiers]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.73225, 3.08746]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول عروج بربروسة الجزائر ⁦(٩٢٢هـ/١٥١٦م)⁩", en: "Aruj Barbarossa enters Algiers (1516)" }, at: [36.73225, 3.08746], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

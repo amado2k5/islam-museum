@@ -1,6 +1,6 @@
 id: person/malik-ibn-al-namt
 class: person
-label: { ar: "مالك بن النمط الهمداني ذو المشعار", en: "Malik ibn al-Namat al-Hamdani, Dhu al-Mish'ar" }
+label: { ar: "مالك بن النمط الهمداني ذو المشعار", en: "Malik ibn al-Namat al-Hamdani, Dhu al-Mish'ar", ur: "مالك بن النمط الهمداني ذو المشعار" }
 names:
   - { kind: full, lang: ar, value: "مالك بن النمط الهمداني" }
   - { kind: laqab, lang: ar, value: "ذو المشعار" }
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   ar: "وافد همدان على النبي مرجعه من تبوك، ارتجز بالقوم ثم قام بين يدي النبي فقال: نصية من همدان من كل حاضر وباد أتوك على قلص نواجٍ متصلة بحبائل الإسلام، فكتب له النبي كتاباً لمخلاف خارف وأهل جناب الهضب وحقاف الرمل بأن لهم فراع أرضهم ووهاطها ما أقاموا الصلاة وآتوا الزكاة؛ وقال في ذلك شعراً يذكر فيه أنه ذكر رسول الله في فحمة الدجى. والمصادر المتأخرة تقول إن النبي أمّره على من أسلم من همدان."
   en: "The envoy of Hamdan who met the Prophet on his return from Tabuk, chanted rajaz before the company, then stood before the Prophet and said that the pick of Hamdan, settled and nomad, had come on swift camels bound to the ropes of Islam; the Prophet wrote him a letter for the district of Kharif and the people of the highland slopes and sand dunes granting them their heights and lowlands while they prayed and paid zakat, and he composed verses recalling the Messenger in the blackness of night. Later sources say the Prophet set him over the Muslims of Hamdan."
+  ur: "ہمدان کا قاصد جو تبوک سے واپسی پر نبی سے ملا، مجلس میں رجز پڑھا، پھر نبی کے سامنے کھڑا ہو کر کہا۔"
 wings: [people]
 themes: [converts-and-leavers, literature]
 periods: [period/prophetic-era]
@@ -21,6 +22,7 @@ story_roles:
   - { role: official, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه (الرحيق ص449).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: lived_in, target: place/hamadan, confidence: low, note: "Associated with همدان per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }

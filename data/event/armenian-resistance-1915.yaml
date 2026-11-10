@@ -11,6 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1914", precision: year, status: tradition, derived: true }
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "المدافعون الأرمن", en: "The Armenian defenders" }
+  - label: { ar: "القوات العثمانية", en: "The Ottoman forces" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q23303392

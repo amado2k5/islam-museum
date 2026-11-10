@@ -1,6 +1,6 @@
 id: person/farwa-ibn-musayk
 class: person
-label: { ar: "فروة بن مسيك المرادي", en: "Farwa ibn Musayk al-Muradi" }
+label: { ar: "فروة بن مسيك المرادي", en: "Farwa ibn Musayk al-Muradi", ur: "فروة بن مسيك المرادي" }
 names:
   - { kind: full, lang: ar, value: "فروة بن مسيك المرادي" }
   - { kind: kunya, lang: ar, value: "أبو عمير (في هجاء عمرو بن معدي كرب له)" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   ar: "سيد من مراد وشاعر؛ قدم على النبي مفارقاً لملوك كندة فأسلم، وسأله النبي عن يوم الردم الذي أثخنت فيه همدان قومه، واستعمله على مراد وزبيد ومذحج كلها وبعث معه خالد بن سعيد على الصدقة؛ وارتد عليه عمرو بن معدي كرب بعد وفاة النبي وهجاه. ويذكر البلاذري أن النبي بعثه مع قيس بن المكشوح إلى اليمن لقتال الأسود العنسي."
   en: "A chief of Murad and poet; he came to the Prophet breaking with the kings of Kinda and embraced Islam, the Prophet asked him about the Day of al-Radm on which Hamdan had crushed his people, and set him over Murad, Zubayd and all Madhhij with Khalid ibn Sa'id sent with him over the sadaqa; after the Prophet's death Amr ibn Ma'dikarib rebelled against him and satirised him. Al-Baladhuri adds that the Prophet sent him with Qays ibn al-Makshuh to Yemen against al-Aswad al-Ansi."
+  ur: "مراد کا سردار اور شاعر؛ کندہ کے بادشاہوں سے بغاوت کر کے نبی کے پاس آیا اور مسلمان ہوا، نبی نے اس سے قیامت کے دن کے بارے میں پوچھا۔"
 wings: [people]
 themes: [converts-and-leavers, literature]
 periods: [period/prophetic-era, period/rashidun]
@@ -20,6 +21,7 @@ story_roles:
   - { role: poet, status: tradition, note: "شعره في يوم الردم وفي مسيره إلى النبي (ابن هشام ص228-229).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم على يد النبي (ابن هشام ص229).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/hamadan, confidence: low, note: "Associated with همدان per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/murad, sources: [source/ibn-hisham-saqqa] }

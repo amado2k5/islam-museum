@@ -11,6 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1469", precision: year, status: tradition, derived: true }
   end: { edtf: "1469", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.379166666667, 45.048888888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1469"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كفة ⁦(١٤٦٩)⁩", en: "Siege of Caffa (1469)" }, at: [35.379166666667, 45.048888888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/feodosiia }
+sides:
+  - label: { ar: "قوات المستنجد بالله يوسف بن المتوكل", en: "The forces of al-Mustanjid bi'llah Yusuf ibn al-Mutawakkil" }
+    participants: [person/al-mustanjid-billah-egypt]
+  - label: { ar: "حامية كفة", en: "The defenders of Caffa" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118946260

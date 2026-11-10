@@ -8,6 +8,8 @@ summary:
   en: "An Ansari whom the book lists as Ali's governor of al-Jund {cite:sallabi-ali-vol1 p. 358}. The passage does not say which jund is meant, nor give the dates of his office."
 periods: [period/rashidun]
 wings: [people]
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: ruler_of, target: place/al-jund, sources: [source/sallabi-ali-vol1] }
 sources: [source/sallabi-ali-vol1]

@@ -3,15 +3,18 @@ class: person
 label:
   ar: "مالك بن هبيرة السكوني"
   en: "Malik ibn Hubayra al-Sakuni"
+  ur: "مالك بن هبيرة السكوني"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لمالك بن هبيرة السكوني، صحابي وقائد القرن الأول، توفي سنة ٦٨٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Malik ibn Hubayra al-Sakuni, the Companion and first-century commander, d. 685; the biographical entry is not yet checked on the page."
+  ar: "صحابي سكوني؛ من حديثه صلاة الجنازة على من صلى عليه مائة من المسلمين في صحيح مسلم."
+  en: "A Sakuni Companion; his hadith in Sahih Muslim includes the funeral prayer of a hundred Muslims."
+  ur: "سکونی صحابی؛ صحیح مسلم میں ان کی حدیث میں سو مسلمانوں کی نماز جنازہ کا واقعہ ہے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

@@ -16,10 +16,25 @@ relations:
   - { type: had_participant, target: person/hassan-ibn-al-numan, role: "الوالي والقاتل لها في الثانية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-kahina, role: "ملكة البربر المهزِمة ثم المقتولة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-al-aziz-ibn-marwan, role: "المُهدى إليه السبي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
+sides:
+  - label: { ar: "جيش حسان بن النعمان الغساني", en: "Hassan ibn al-Nu'man al-Ghassani's army" }
+    commanders: [person/hassan-ibn-al-numan-al-ghassani, person/hassan-ibn-al-numan]
+  - label: { ar: "الكاهنة ملكة البربر", en: "Al-Kahina, Queen of the Berbers" }
+    participants: [person/al-kahina, person/abd-al-aziz-ibn-marwan]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة حسان بن النعمان للكاهنة", en: "Hassan ibn al-Nu'man's Campaigns against al-Kahina" }, at: [35.6781, 10.0963], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

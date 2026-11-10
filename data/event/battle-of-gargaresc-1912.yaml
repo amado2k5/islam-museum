@@ -11,7 +11,12 @@ regions: [maghreb]
 date:
   start: { edtf: "1912", precision: year, status: tradition, derived: true }
   end: { edtf: "1912", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kingdom of Italy", ar: "مملكة إيطاليا" }
+    participants: [polity/kingdom-of-italy]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137785847
 provenance:

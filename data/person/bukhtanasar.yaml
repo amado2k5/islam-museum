@@ -18,6 +18,7 @@ wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq, arabia]
+died: { edtf: "-562", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica (Nebuchadnezzar II)" }
 relations:
   - { type: lived_in, target: place/babil, confidence: low, note: "Associated with بابل per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
 provenance:

@@ -11,6 +11,18 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1803", precision: year, status: tradition, derived: true }
   end: { edtf: "1837", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [102.0, 0.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1803"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب البادري", en: "Padri War" }, at: [102.0, 0.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/sumatra }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2725993

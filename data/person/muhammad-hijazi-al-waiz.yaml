@@ -29,5 +29,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+died: { edtf: "1626", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Hijazi al-Wa'iz'; specific residence not individually documented.", sources: [source/al-aalam] }

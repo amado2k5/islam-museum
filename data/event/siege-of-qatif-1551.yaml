@@ -11,6 +11,23 @@ regions: [arabia]
 date:
   start: { edtf: "1551-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1551-08", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [50.008851, 26.568483]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1551"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار القطيف ⁦(١٥٥١)⁩", en: "Siege of Qatif (1551)" }, at: [50.008851, 26.568483], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/qatif-governorate }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية القطيف", en: "The defenders of Qatif" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q115517267

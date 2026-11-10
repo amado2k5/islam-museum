@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1630-11", precision: year, status: tradition, derived: true }
   end: { edtf: "1630-12", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.4009, 33.3406]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1630"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بغداد ⁦(١٦٣٠)⁩", en: "Siege of Baghdad (1630)" }, at: [44.4009, 33.3406], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/baghdad }
+sides:
+  - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
+    participants: [person/murad-iv-uthmani]
+  - label: { ar: "حامية بغداد", en: "The defenders of Baghdad" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q97648660

@@ -13,6 +13,19 @@ relations:
   - { type: had_participant, target: person/dawud-ibn-yazid-ibn-hatim, role: "الوالي الثالث", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qandahar }
 wings: [time]
+sides:
+  - label: { ar: "جيش هشام بن عمرو التغلبي", en: "Hisham ibn Amr al-Taghlibi's army" }
+    commanders: [person/hisham-ibn-amr-al-taghlibi, person/al-mansur, person/umar-ibn-hafs-hazarmard, person/dawud-ibn-yazid-ibn-hatim]
+  - label: { ar: "القندهار", en: "al-Qandahar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.3, 72.85]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ولاية هشام بن عمرو التغلبي السند", en: "Hisham ibn Amr al-Taghlibi's Sind" }, at: [22.3, 72.85], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

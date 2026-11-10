@@ -11,6 +11,21 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1345", precision: year, status: tradition, derived: true }
   end: { edtf: "1396", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.0, 42.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1345"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحروب البلغارية العثمانية", en: "Bulgarian–Ottoman wars" }, at: [22.0, 42.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/balkans }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "الإمبراطورية البلغارية", en: "The Bulgarian Empire" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3622689

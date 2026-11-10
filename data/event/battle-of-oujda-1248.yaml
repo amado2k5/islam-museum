@@ -11,6 +11,20 @@ regions: [maghreb]
 date:
   start: { edtf: "1248", precision: year, status: tradition, derived: true }
   end: { edtf: "1248", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-1.9114, 34.6867]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1248"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة وجدة", en: "Battle of Oujda" }, at: [-1.9114, 34.6867], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/oujda }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q111915115

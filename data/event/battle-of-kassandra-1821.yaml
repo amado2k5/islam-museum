@@ -11,7 +11,11 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1821", precision: year, status: tradition, derived: true }
   end: { edtf: "1821", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Greeks", ar: "يونانيون" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q53004507
 provenance:

@@ -11,6 +11,18 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1120", precision: year, status: tradition, derived: true }
   end: { edtf: "1120", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-1.6333, 41.35]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1120"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قلعة أيوب ⁦(١١٢٠)⁩", en: "Siege of Calatayud (1120)" }, at: [-1.6333, 41.35], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/qalat-ayyub }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q132175295

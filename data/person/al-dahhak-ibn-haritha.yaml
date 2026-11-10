@@ -3,18 +3,25 @@ class: person
 label:
   ar: "الضحاك بن حارثة"
   en: "al-Dahhak ibn Haritha"
+  ur: "الضحاك بن حارثة"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لالضحاك بن حارثة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Dahhak ibn Haritha, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي خزرجي أنصاري؛ ذكره موسى بن عقبة في البدريين وذكره عروة في أهل العقبة، ووصفه أبو حاتم بأنه عقّبي بدري."
+  en: "A Khazraji Ansari Companion; Musa ibn Uqba names him among the Badriyya and Urwa among the people of al-Aqaba — Abu Hatim describes him as Aqabi and Badri."
+  ur: "خزرجی انصاری صحابی؛ موسی بن عقبہ انہیں بدریوں میں اور عروہ اہل عقبہ میں گناتے ہیں — ابو حاتم انہیں عقبی اور بدری کہتے ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 708", sources: [source/ibn-hajar-isaba] }
+ - { type: member_of, target: group/ansar, note: "al-Isaba p. 708", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/pledges-of-aqaba, note: "al-Isaba p. 708", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 708", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q28147326
 provenance:

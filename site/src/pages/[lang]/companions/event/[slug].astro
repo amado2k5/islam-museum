@@ -1,0 +1,15 @@
+---
+// A Companions Browser event page: the Companions recorded as taking part in one event.
+import CompanionFacetPage from "../../../../components/CompanionFacetPage.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { byId, labelOf } from "../../../../lib/graph";
+import { companions, eventFacets, collatedBy } from "../../../../lib/companions";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => eventFacets.map((id) => ({ params: { lang, slug: byId.get(id)!.slug }, props: { lang, id } })));
+}
+const { lang, id } = Astro.props as { lang: Lang; id: string };
+const n = byId.get(id)!;
+const ids = companions.events.get(id)!.map((x) => x.id).sort(collatedBy(lang));
+---
+<CompanionFacetPage lang={lang} title={labelOf(n, lang)} note={ui(lang).companions.event_note} path={`/${lang}/companions/event/${n.slug}/`} ids={ids} record={id} />

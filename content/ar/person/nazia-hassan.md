@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 نازيه حسن ⁦(3 أبريل 1965 – 13 أغسطس 2000)⁩ مغنية وكاتبة أغاني باكستانية عُرفت بـ«ملكة البوب في جنوب آسيا». وُلدت في كراتشي ونشأت بين كراتشي ولندن، ونالت الشهرة في الخامسة عشرة حين غنّت «آپ جیسا کوئی» في الفيلم الهندي «قرباني» (1980).{cite:wikipedia-nazia-hassan-en}{cite:wikipedia-nazia-hassan-ur}{cite:wikidata-nazia-hassan}
 

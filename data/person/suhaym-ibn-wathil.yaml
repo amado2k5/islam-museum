@@ -13,6 +13,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch100
+born: { edtf: "596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khizanat al-Adab" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khizanat al-Adab" }
 relations:
   - { type: traveled_to, target: place/kufa, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]

@@ -1,6 +1,6 @@
 id: person/uwaymir-al-ajlani
 class: person
-label: { en: "Uwaymir al-Ajlani", ar: "عُوَيْمِر العجلاني" }
+label: { en: "Uwaymir al-Ajlani", ar: "عُوَيْمِر العجلاني", ur: "عُوَيْمِر العجلاني" }
 names:
   - { kind: full, lang: ar, value: "عويمر العجلاني" }
 gender: male
@@ -8,6 +8,7 @@ roles: [companion]
 summary:
   en: "A companion of Banu Ujlan of the Ansar who accused his wife before the Prophet after the return from Tabuk; the Prophet administered the mutual oath of condemnation (li'an) between them and separated them."
   ar: "صحابي من بني عجلان من الأنصار؛ رمى امرأته بعد قدوم النبي من تبوك فتلاعنا عند النبي وفرّق بينهما، وكانت واقعة اللعان المشهورة سنة 9هـ."
+  ur: "انصار کے بنو عجلان کا صحابی جس نے تبوک سے واپسی کے بعد نبی کے سامنے اپنی بیوی پر الزام لگایا؛ نبی نے لعان کا طریقہ نافذ کیا۔"
 wings: [people]
 themes: [family-marriage-kinship]
 periods: [period/prophetic-era]
@@ -16,6 +17,7 @@ story_roles:
   - { role: companion, toward: person/muhammad, status: tradition, note: "صاحب واقعة اللعان سنة 9هـ (الرحيق ص439).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~640, Tahdhib al-Kamal; al-Isaba" }
 relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/lian-between-uwaymir-and-his-wife, role: accuser-in-the-lian, sources: [source/mubarakpuri-raheeq] }

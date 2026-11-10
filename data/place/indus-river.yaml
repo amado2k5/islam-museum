@@ -1,0 +1,20 @@
+id: place/indus-river
+class: place
+kind: river
+label: { ar: "نهر السند", en: "Indus River" }
+summary:
+  ar: "نهر."
+  en: "River in Asia."
+wings: [place]
+coordinates: [23.9944, 67.4308]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7348" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7348 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

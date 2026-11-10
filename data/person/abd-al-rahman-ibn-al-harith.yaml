@@ -1,17 +1,20 @@
 id: person/abd-al-rahman-ibn-al-harith
 class: person
-label: { ar: "عبد الرحمن بن الحارث بن هشام", en: "Abd al-Rahman ibn al-Harith ibn Hisham" }
+label: { ar: "عبد الرحمن بن الحارث بن هشام", en: "Abd al-Rahman ibn al-Harith ibn Hisham", ur: "عبد الرحمن بن الحارث بن هشام" }
 gender: male
 summary:
   ar: "قرشي مخزومي من قراء أهل مكة؛ ضمه عثمان إلى لجنة نسخ المصاحف مع زيد بن ثابت وعبد الله بن الزبير وسعيد بن العاص، وهو أحد القرشيين الثلاثة المأمورين بكتابة المختلف فيه بلسان قريش {cite:sahih-al-bukhari 4987}."
   en: "A Qurashi of Makhzum among Mecca's readers; one of the three Qurashis on Uthman's committee ordered to write the contested text in the tongue of Quraysh {cite:sahih-al-bukhari 4987}."
+  ur: "قریش مخزوم کے مکہ کے قراء میں سے؛ عثمان کی مصاحف لکھنے والی کمیٹی کے تین قریشیوں میں سے ایک۔"
 wings: [people]
 story_roles:
   - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+born: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 1–43 AH)" }
+died: { edtf: "0664", hijri: "0043", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Hibban gives 43 AH (al-Isaba p. 785); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (قرشي); denotes association, not proven residence.", sources: [source/sahih-al-bukhari], confidence: low }
   - { type: participated_in, target: event/uthman-standardizes-mushaf, sources: [source/sahih-al-bukhari] }
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4987", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
 external_ids: { wikidata: "Q22688793" }
-sources: [source/sahih-al-bukhari]
+sources: [source/sahih-al-bukhari, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 0, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

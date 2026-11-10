@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: born_in, target: place/akhmim, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -19,4 +21,5 @@ provenance:
   run: lib-tarikh-khulafa-batch-28
 external_ids: { wikidata: "Q981803" }
 sources: [source/fihrist-ibn-al-nadim, source/tarikh-khulafa-minhaj-1434]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

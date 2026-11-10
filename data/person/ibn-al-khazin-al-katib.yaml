@@ -8,6 +8,8 @@ gender: male
 roles: [katib, calligrapher, poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1078", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1124", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:

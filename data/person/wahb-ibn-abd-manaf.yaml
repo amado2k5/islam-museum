@@ -13,6 +13,7 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 story_roles:
   - { role: family-of-the-prophet, status: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~560, Nasab Quraysh; Sirat Ibn Hisham" }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: member_of, target: group/banu-zuhra, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }

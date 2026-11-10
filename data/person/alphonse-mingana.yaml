@@ -11,6 +11,8 @@ regions: [levant-iraq, andalus-europe]
 gender: male
 roles: [scholar]
 periods: [period/colonial-era]
+born: { edtf: "1878", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ODNB" }
+died: { edtf: "1937", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ODNB" }
 relations:
   - { type: lived_in, target: place/mosul, note: "From text: from Mosul", sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914], confidence: low }
   - { type: authored, target: work/leaves-from-three-ancient-qurans, sources: [source/mingana-lewis-leaves-from-three-ancient-qurans-1914] }

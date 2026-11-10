@@ -1,6 +1,6 @@
 id: person/rifaa-ibn-zayd-al-judhami
 class: person
-label: { ar: "رفاعة بن زيد الجذامي", en: "Rifa'a ibn Zayd al-Judhami" }
+label: { ar: "رفاعة بن زيد الجذامي", en: "Rifa'a ibn Zayd al-Judhami", ur: "رفاعة بن زيد الجذامي" }
 names:
   - { kind: full, lang: ar, value: "رفاعة بن زيد الجذامي ثم الضبيبي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من جذام ثم من الضبيب؛ قدم على النبي في هدنة الحديبية قبل خيبر فأهدى له غلاماً وأسلم فحسن إسلامه، وحمل كتاب النبي إلى قومه يدعوهم فأسلموا ونزلوا حرة الرجلاء."
   en: "Of Judham, of the Dubayb; he came to the Prophet during the Hudaybiyya truce before Khaybar, gave him a slave and became a good Muslim, and carried the Prophet's letter inviting his people, who converted and settled Harrat al-Rajla'."
+  ur: "جذام کے ضبیب سے؛ حدیبیہ کی جنگ بندی میں خیبر سے پہلے نبی کے پاس آیا، غلام پیش کیا اور نیک مسلمان ہوا۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -18,6 +19,8 @@ story_roles:
   - { role: missionary, toward: group/judham, start: { edtf: "0628~" }, status: tradition, note: "حمل كتاب النبي إلى قومه فأسلموا (ابن هشام ص243).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "ركب إلى النبي بكتابه فردّ على قومه ما أُخذ", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/judham, sources: [source/ibn-hisham-saqqa] }

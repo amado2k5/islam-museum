@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
+died: { edtf: "919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/al-ruwayan, sources: [source/wikidata], confidence: low, note: "Nisba الروياني attested in the record." }
 sources: [source/al-aalam]

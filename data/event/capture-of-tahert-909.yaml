@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "0909", precision: year, status: tradition, derived: true }
   end: { edtf: "0909", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [1.3166666666667, 35.366666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0909"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ تاهرت ⁦(٩٠٩)⁩", en: "Capture of Tahert (909)" }, at: [1.3166666666667, 35.366666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ubayd-allah-al-mahdi, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/tiaret }
+sides:
+  - label: { ar: "قوات عبيد الله المهدي", en: "The forces of عبيد الله المهدي" }
+    participants: [person/ubayd-allah-al-mahdi]
+  - label: { ar: "حامية تاهرت", en: "The defenders of Tahert" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q116824628

@@ -1,6 +1,6 @@
 id: person/abu-mulayh-ibn-urwa
 class: person
-label: { ar: "أبو مليح بن عروة الثقفي", en: "Abu Mulayh ibn Urwa al-Thaqafi" }
+label: { ar: "أبو مليح بن عروة الثقفي", en: "Abu Mulayh ibn Urwa al-Thaqafi", ur: "أبو مليح بن عروة الثقفي" }
 names:
   - { kind: full, lang: ar, value: "أبو مليح بن عروة بن مسعود الثقفي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من ثقيف، ابن عروة بن مسعود الذي قُتل بعد دعوته قومه إلى الإسلام؛ قدم مع قارب بن الأسود يريدان فراق ثقيف، فأسلما، ثم سأل النبي أن يقضي عن أبيه ديناً من مال اللات."
   en: "Of Thaqif, son of Urwa ibn Mas'ud, killed after calling his people to Islam; he came with Qarib ibn al-Aswad, intending to break with Thaqif, and both embraced Islam; he then asked the Prophet to pay his father's debt from the wealth of al-Lat."
+  ur: "ثقیفی، عروہ بن مسعود کے فرزند؛ اپنے قوم کو اسلام کی دعوت دیتے ہوئے مارے گئے؛ قریب بن اسود کے ساتھ آئے اور دونوں کو مارا گیا۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,6 +17,8 @@ story_roles:
   - { role: convert, start: { edtf: "0630~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم مع قارب قبل وفد ثقيف (ابن هشام 4/186)", sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/thaqif, sources: [source/ibn-hisham-saqqa] }

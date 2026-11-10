@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1172", precision: year, status: tradition, derived: true }
   end: { edtf: "1172", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-2.6888888888889, 40.1475]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1172"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ويت ⁦(١١٧٢)⁩", en: "Siege of Huete (1172)" }, at: [-2.6888888888889, 40.1475], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/huete }
+sides:
+  - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
+    participants: [person/abu-yaqub-yusuf-almohad]
+  - label: { ar: "حامية ويت", en: "The defenders of Huete" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q17606690

@@ -1,21 +1,25 @@
 id: person/usama-ibn-sharik
 class: person
-label: { ar: "أسامة بن شريك", en: "Usama ibn Sharik" }
+label: { ar: "أسامة بن شريك", en: "Usama ibn Sharik", ur: "أسامة بن شريك" }
 names:
   - { value: "أسامة بن شريك الذبياني الثعلبي", kind: full }
 summary:
   ar: "صحابي من بني ثعلبة، روى حديثه أصحاب السنن وأحمد وابن خزيمة وابن حبان والحاكم، ومن حديثه الأمر بالتداوي، إذ إن الله لم يضع داء إلا وضع له دواء إلا الهرم. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5144}"
   en: "A Companion from the Banu Tha'laba. Authors of the Sunan collections, Ahmad, Ibn Khuzayma, Ibn Hibban and al-Hakim narrated his report, which includes the instruction to seek treatment, since God has not sent a disease without sending a remedy for it except old age. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.5144}"
+  ur: "بنو ثعلبہ کا صحابی؛ سنن والوں، احمد، ابن خزیمہ، ابن حبان اور حاکم نے اس کی روایت نقل کی۔"
 gender: male
 roles: [companion]
 wings: [people, living]
 periods: [period/prophetic-era]
 regions: [arabia]
 themes: [health-body-death]
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~660, Tahdhib al-Kamal; al-Isaba" }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion named in the fiqh encyclopaedia's sahaba lists (regions: arabia).", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+  - { type: participated_in, target: event/farewell-pilgrimage, note: "went out with the Prophet on the Farewell Pilgrimage (al-Isaba p. 43)", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan p.5144. Dates are not given in the source and are not supplied. The hadith is paraphrased, not quoted." }
 provenance:
   layer: own-research

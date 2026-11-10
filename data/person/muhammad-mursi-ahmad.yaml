@@ -12,6 +12,8 @@ floruit: { edtf: "1937/1939", calendar: gregorian, precision: year, status: hist
 wings: [people, today]
 themes: [mathematics, education]
 regions: [egypt-nile]
+born: { edtf: "1908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Egyptian Academy of Scientific Research" }
+died: { edtf: "1989", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Egyptian Academy of Scientific Research" }
 relations:
   - { type: wrote_about, target: work/al-jabr-wal-muqabala, sources: [source/khwarizmi-jabr-cairo-1939] }
 

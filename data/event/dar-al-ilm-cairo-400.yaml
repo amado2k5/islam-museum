@@ -12,6 +12,7 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
 relations:
   - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "الآمر" }
+  - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"

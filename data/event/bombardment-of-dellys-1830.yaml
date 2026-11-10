@@ -11,7 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1830-05-15", precision: year, status: tradition, derived: true }
   end: { edtf: "1830-05-15", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Bourbon Restoration in France", ar: "استعراش آل بوربون" }
+  - label: { en: "Regency of Algiers", ar: "إيالة الجزائر" }
+    participants: [polity/regency-of-algiers]
+map:
+  kind: battle
+  precision: locality
+  center: [3.8833, 36.9167]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1830"
+  features:
+    - { type: point, role: event_point, label: { ar: "قصف دلس ⁦(١٨٣٠)⁩", en: "Bombardment of Dellys (1830)" }, at: [3.8833, 36.9167], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/tadlis }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q105821649
 provenance:

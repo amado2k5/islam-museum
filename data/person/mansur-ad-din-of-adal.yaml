@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [east-africa]
 periods: [period/gunpowder-empires]
+died: { edtf: "1452", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Habasha" }
 relations:
   - { type: ruler_of, target: polity/adal, confidence: low, note: "Ruler of Adal per the record's own summary; dates pending review.", sources: [source/al-aalam] }
   - { type: ruled_over, target: place/adal-sultanate, confidence: low, note: "Ruler of Adal per the record's own summary.", sources: [source/wikidata] }

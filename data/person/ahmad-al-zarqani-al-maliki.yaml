@@ -22,5 +22,7 @@ status:
   review: draft
   completeness: 1
   generated_by: "Claude Haiku 5.5; full entry on scan p.16641 of the jurist appendix; no existing data/person entry under this name at the time of the check. Footnote citations not checked against printed folios."
+born: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar); al-Zirikli" }
+died: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar); al-Zirikli" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

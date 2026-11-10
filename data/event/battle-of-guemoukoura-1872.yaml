@@ -11,6 +11,12 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1872", precision: year, status: tradition, derived: true }
   end: { edtf: "1872", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/ahmad-al-rufai, sources: [source/wikidata] }
+sides:
+  - label: { en: "Bambara", ar: "بمبارة" }
+  - label: { en: "Empire Peul", ar: "سلطنة تكرور" }
+    participants: [polity/empire-peul]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139558952

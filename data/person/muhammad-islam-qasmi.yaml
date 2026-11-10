@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/contemporary-era]
+born: { edtf: "1953", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary / Darul Uloom Deoband" }
+died: { edtf: "2021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary / Darul Uloom Deoband" }
 relations:
   - { type: died_in, target: place/deoband, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017658)" }
 sources: [source/al-aalam]

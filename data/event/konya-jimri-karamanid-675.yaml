@@ -16,6 +16,21 @@ date:
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: polity/qaramanid-beylik, role: "المحتل المنصِّب لجمري", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
+    participants: [person/al-hakim-bi-amr-illah]
+  - label: { ar: "حامية قونية", en: "The defenders of Konya" }
+    participants: [place/konya]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.8713, 32.4846]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "القرمانيون يحتلون قونية وينصّبون جمري، ٦٧٥هـ", en: "The Karamanids occupy Konya and install Jimri, 675/1277" }, at: [37.8713, 32.4846], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

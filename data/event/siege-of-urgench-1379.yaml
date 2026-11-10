@@ -11,7 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1379", precision: year, status: tradition, derived: true }
   end: { edtf: "1379", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Sufi dynasty", ar: "سلالة الصوفية" }
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+    participants: [polity/timurid-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [59.1530707, 42.3261336]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1379"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كورغانج ⁦(١٣٧٩)⁩", en: "Siege of Urgench (1379)" }, at: [59.1530707, 42.3261336], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/k-ne-rgen }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138863129
 provenance:

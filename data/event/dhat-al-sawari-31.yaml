@@ -16,5 +16,10 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط دار الكتب) ج٢ ص 488–490"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-v2-batch-1, lib-futuh-misr-batch-6-2026-10-31
+relations:
+- { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "المسلمون بقيادة عبد الله بن سعد", en: "The Muslims under Abd Allah ibn Sa'd" }
+  - label: { ar: "البيزنطيون بقيادة قسطنطين", en: "The Byzantines under Constans" }
 sources: [source/umayyad-birth-to-fall-2006, source/kamil-ibn-al-athir, source/futuh-misr-amir-1999]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -14,6 +14,7 @@ relations:
   target: place/fez
   sources:
   - source/tarikh-ibn-khaldun-ibar
+- { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [maghreb, west-africa-sahel]

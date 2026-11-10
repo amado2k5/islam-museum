@@ -3,6 +3,7 @@ class: person
 label:
   ar: عياش بن أبي ربيعة
   en: Ayyash ibn Abi Rabi'a
+  ur: "عياش بن أبي ربيعة"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: لقبه «ذو الرمحين»، من بني مخزوم وابن عم خالد بن الوليد؛ من السابقين الأولين وهاجر الهجرتين، ثم خدعه أبو جهل حتى رجع إلى مكة فحبسوه، وكان النبي يدعو له في القنوت كما في الصحيحين؛ مات بالشام سنة 15هـ في قول، وقيل استشهد باليمامة أو باليرموك.
   en: Nicknamed 'the man of the two spears', of Banu Makhzum and a cousin of Khalid ibn al-Walid; one of the earliest Muslims who made both emigrations, until Abu Jahl tricked him into returning to Mecca where he was held, and the Prophet prayed
     for him in the qunut as the two collections report; he died in Syria in 15 AH on one account, and others say he fell at al-Yamama or al-Yarmuk.
+  ur: "دو نیزوں والے کے نام سے مشہور، بنو مخزوم سے اور خالد بن ولید کے چچا زاد؛ ابتدائی مسلمانوں میں سے جنہوں نے دونوں ہجرتیں کیں۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Syria 15 AH in Umar's caliphate (Ibn Qani' and al-Qurab); other reports have him martyred at al-Yamama or al-Yarmuk (al-Isaba p. 1162); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: died_in
   target: place/al-sham
@@ -43,6 +46,11 @@ relations:
   target: group/banu-makhzum
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Sahm, brother of Abu Jahl (al-Isaba p. 1162)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 6906، ص 1162

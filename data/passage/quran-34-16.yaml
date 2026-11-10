@@ -16,6 +16,8 @@ translations:
   en: { text: "But they were froward, so We sent on them the flood of 'Iram, and in exchange for their two gardens gave them two gardens bearing bitter fruit, the tamarisk and here and there a lote-tree.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو انہوں نے (شکرگزاری سے) منہ پھیر لیا پس ہم نے ان پر زور کا سیلاب چھوڑ دیا اور انہیں ان کے باغوں کے بدلے دو ایسے باغ دیئے جن کے میوے بدمزہ تھے اور جن میں کچھ تو جھاؤ تھا اور تھوڑی سی بیریاں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/tamarisk, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/lote-tree, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/flood-of-al-aram }
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred

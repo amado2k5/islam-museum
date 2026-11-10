@@ -11,6 +11,23 @@ regions: [arabia]
 date:
   start: { edtf: "1934", precision: year, status: tradition, derived: true }
   end: { edtf: "1934", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [44.1167, 23.7167]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1934"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب السعودية اليمنية", en: "Saudi–Yemeni War" }, at: [44.1167, 23.7167], precision: locality, source: source/al-aalam }
+  sources: [source/al-aalam]
+relations:
+- { type: during_reign, target: person/muhammadu-tambari, sources: [source/wikidata] }
+- { type: occurred_at, target: place/saudi-arabia }
+sides:
+  - label: { en: "Saudi Arabia", ar: "السعودية" }
+    participants: [place/saudi-arabia]
+  - label: { en: "Kingdom of Yemen", ar: "المملكة المتوكلية اليمنية" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q1367731

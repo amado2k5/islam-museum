@@ -8,6 +8,8 @@ gender: male
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+born: { edtf: "840~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khurradadhbih" }
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khurradadhbih" }
 relations:
   - { type: participated_in, target: event/sallam-sadd-expedition, role: "المبعوث الوحيد الذي اختاره الواثق لمعاينة السد", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
   - { type: ruled_over, target: place/armenia, sources: [source/masalik-mamalik-ibn-khurdadhbih], confidence: low, note: "en: 'Sallam the Interpreter — fluent in thirty tongues, and the only man al-Wathiq judged fit when a dream uns" }

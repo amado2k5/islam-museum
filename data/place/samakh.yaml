@@ -1,0 +1,20 @@
+id: place/samakh
+class: place
+kind: town
+label: { ar: "سمخ", en: "Samakh" }
+summary:
+  ar: "بلدة."
+  en: "Former village on the south end of Lake Tiberias."
+wings: [place]
+coordinates: [32.70486389, 35.58756944]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2908710" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2908710 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

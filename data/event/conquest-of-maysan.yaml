@@ -11,6 +11,20 @@ relations:
   - { type: had_participant, target: person/al-hasan-al-basri, role: "من السبي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/maysan }
 wings: [time]
+sides:
+  - label: { ar: "جيش المغيرة بن شعبة", en: "al-Mughira ibn Shu'ba's army" }
+    commanders: [person/al-mughira-ibn-shuba]
+  - label: { ar: "أبو الحسن البصري", en: "Abu al-Hasan al-Basri" }
+    participants: [person/al-hasan-al-basri]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.8333, 47.15]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح ميسان", en: "Conquest of Maysan" }, at: [31.8333, 47.15], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

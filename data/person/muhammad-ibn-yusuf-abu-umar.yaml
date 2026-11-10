@@ -9,6 +9,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+born: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: allied_with, target: person/yusuf-ibn-yaqub-al-qadi, role: "ابن", sources: [source/muntazam-ibn-al-jawzi] }

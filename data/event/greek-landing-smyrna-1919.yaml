@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1919", precision: year, status: tradition, derived: true }
   end: { edtf: "1919", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [28.25, 38.06]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1919"
+  features:
+    - { type: point, role: event_point, label: { ar: "الإنزال اليوناني في إزمير", en: "Greek landing at Smyrna" }, at: [28.25, 38.06], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/aydin-vilayet }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5601971

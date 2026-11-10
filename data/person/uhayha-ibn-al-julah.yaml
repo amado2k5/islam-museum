@@ -11,6 +11,7 @@ roles: [emir]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (al-Isfahani)" }
 relations:
   - { type: member_of, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
 

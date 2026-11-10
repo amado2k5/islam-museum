@@ -11,7 +11,12 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1130", precision: year, status: tradition, derived: true }
   end: { edtf: "1130", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
+    participants: [polity/castile]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q130265619
 provenance:

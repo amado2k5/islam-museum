@@ -11,7 +11,14 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1826-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1826-06", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+  - { type: part_of, target: event/java-war-1825 }
+sides:
+  - label: { en: "Javanese", ar: "جاويون" }
+    participants: [group/javanese]
+  - label: { en: "United Kingdom of the Netherlands", ar: "مملكة الأراضي المنخفضة المتحدة" }
+    participants: [polity/united-kingdom-of-the-netherlands]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q112665913
 provenance:

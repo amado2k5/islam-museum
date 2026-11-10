@@ -11,7 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1920-09", precision: year, status: tradition, derived: true }
   end: { edtf: "1920-09", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [43.3436, 35.9911]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1920"
+  features:
+    - { type: point, role: event_point, label: { ar: "دفاع جوجار ⁦(١٩٢٠)⁩", en: "Defence of Jujar (1920)" }, at: [43.3436, 35.9911], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/great-zab }
+sides:
+  - label: { en: "Assyrians", ar: "آشوريون/سريان/كلدان" }
+    participants: [group/assyrians]
+  - label: { en: "Kurds", ar: "كرد" }
+    participants: [group/kurds]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q134126719
 provenance:

@@ -13,6 +13,8 @@ sides:
   - label: { ar: "أهل إشبيلية المسلمون" }
 relations:
   - { type: occurred_at, target: place/seville, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 date:
   start: { edtf: "1248-11-23~", hijri: "0646-08-05", calendar: julian, precision: day, status: tradition, derived: true, note: "الاثنين 5 شعبان 646؛ مشتق {cite:nafh-tib-maqqari p. 477}." }
 provenance:
@@ -20,5 +22,14 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-14
+map:
+  kind: campaign
+  precision: locality
+  center: [37.3828, -5.9732]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط إشبيلية صلحاً", en: "The fall of Seville by treaty" }, at: [37.3828, -5.9732], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

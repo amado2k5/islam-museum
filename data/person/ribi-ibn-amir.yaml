@@ -3,15 +3,18 @@ class: person
 label:
   ar: "ربعي بن عامر التميمي"
   en: "Rib'i ibn Amir al-Tamimi"
+  ur: "ربعي بن عامر التميمي"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لربعي بن عامر التميمي، صحابي فاوّه رسولاً إلى رستم قبل القادسية في القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Rib'i ibn Amir al-Tamimi, the seventh-century Companion sent as envoy to Rustam before Qadisiyya; the biographical entry is not yet checked on the page."
+  ar: "صحابي تميمي؛ رسول المسلمين إلى رستم قبل القادسية، ومن كلماته المشهورة في محاورته."
+  en: "A Tamimi Companion; the Muslims' envoy to Rustam before al-Qadisiyya, whose words in that exchange are celebrated."
+  ur: "تمیمی صحابی؛ قادسیہ سے پہلے رستم کے پاس مسلمانوں کا قاصد جس کی اس مکالمے کی باتیں مشہور ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
 relations:
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
 

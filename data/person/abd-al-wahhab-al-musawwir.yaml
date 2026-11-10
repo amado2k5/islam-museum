@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1510~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Welch (Persian Painting)" }
+died: { edtf: "1525~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Welch (Persian Painting)" }
 relations:
   - { type: lived_in, target: place/iran, note: "From text: Persian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

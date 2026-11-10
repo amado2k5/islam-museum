@@ -1,0 +1,20 @@
+id: place/veliko-tarnovo
+class: place
+kind: city
+label: { ar: "ترنوة", en: "Veliko Tarnovo" }
+summary:
+  ar: "مدينة."
+  en: "City in Veliko Tarnovo municipality, Veliko Tarnovo oblast, Bulgaria."
+wings: [place]
+coordinates: [43.078652, 25.628291]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q173474" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q173474 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

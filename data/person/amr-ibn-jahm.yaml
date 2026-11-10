@@ -1,6 +1,6 @@
 id: person/amr-ibn-jahm
 class: person
-label: { en: Amr ibn Jahm, ar: "عمرو بن جهم" }
+label: { en: Amr ibn Jahm, ar: "عمرو بن جهم", ur: "عمرو بن جهم" }
 names:
   - { kind: full, lang: ar, value: "عمرو بن جهم" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "ابن جهم بن قيس، رافق أباه إلى الحبشة وقدم معه في السفينتين."
   en: Son of Jahm ibn Qays; he accompanied his father to Abyssinia and arrived with him in the two ships.
+  ur: "جہم بن قیس کے فرزند؛ اپنے والد کے ساتھ حبشہ گئے اور دو کشتیوں میں پہنچے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,8 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص5)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: member_of, target: group/banu-abd-dar, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/jahm-ibn-qays, sources: [source/ibn-hisham-saqqa] }
@@ -24,13 +27,16 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "of Banu Abd al-Dar (al-Isaba p. 1093)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "Ibn Ishaq names him among the Abyssinia emigrants (al-Isaba p. 1093)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 5"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch110
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

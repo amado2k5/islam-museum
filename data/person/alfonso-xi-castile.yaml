@@ -11,6 +11,8 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
+born: { edtf: "1311", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Cronica de Alfonso XI" }
+died: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Cronica de Alfonso XI" }
 relations:
 - type: lived_in
   target: place/portugal

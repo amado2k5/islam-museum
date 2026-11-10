@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
+died: { edtf: "765~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

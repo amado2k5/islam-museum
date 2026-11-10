@@ -12,10 +12,15 @@ date:
   start: { edtf: "0853~", hijri: "0238", calendar: julian, precision: year, status: tradition, derived: true, note: "238؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 540}." }
 relations:
   - { type: had_participant, target: person/al-mutawakkil, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 538–541"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-28
+sides:
+  - label: { ar: "قوات المتوكل على الله", en: "The forces of al-Mutawakkil ala Allah" }
+    participants: [person/al-mutawakkil]
+  - label: { ar: "حامية كبسة الروم دمياط", en: "The defenders of Damietta" }
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

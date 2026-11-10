@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1359", precision: year, status: tradition, derived: true }
   end: { edtf: "1359", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.9469, 38.0856]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1359"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أوريويلة", en: "Siege of Orihuela (1359)" }, at: [-0.9469, 38.0856], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/uriyula }
+sides:
+  - label: { ar: "قوات المعتضد بالله أبو الفتح أبو بكر بن المستكفي", en: "The forces of al-Mu'tadid bi'llah Abu'l-Fath Abu Bakr ibn al-Mustakfi" }
+    participants: [person/al-mutadid-billah-cairo]
+  - label: { ar: "حامية أوريويلة", en: "The defenders of Orihuela" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q47196781

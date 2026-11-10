@@ -1,0 +1,20 @@
+id: place/carthage
+class: place
+kind: town
+label: { ar: "قرطاج", en: "Carthage" }
+summary:
+  ar: "بلدة."
+  en: "Tunisian town."
+wings: [place]
+coordinates: [36.855, 10.330555555555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q28151514" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q28151514 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

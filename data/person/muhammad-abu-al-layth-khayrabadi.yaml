@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
+born: { edtf: "1957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: IIUM directory" }
 relations:
   - { type: born_in, target: place/azamgarh-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q793553)" }
 sources: [source/al-aalam]

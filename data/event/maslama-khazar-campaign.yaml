@@ -19,10 +19,25 @@ relations:
   - { type: had_participant, target: person/marwan-ibn-muhammad, role: "المقاتل معه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/khazars, role: "المحاصَرون في القلعة والمنصرفون", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/isha-ibn-muslim-al-uqayli, role: "في المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290–292"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "جيش إسحاق بن مسلم العقيلي", en: "Ishaq ibn Muslim al-Uqayli's army" }
+    commanders: [person/isha-ibn-muslim-al-uqayli, person/said-al-harashi, person/maslama-ibn-abd-al-malik, person/hisham-ibn-abd-al-malik]
+  - label: { ar: "الخزر", en: "The Khazars" }
+    participants: [group/khazars]
+map:
+  kind: campaign
+  precision: locality
+  center: [42.0578, 48.2892]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة مسلمة بن عبد الملك للخزر وفتح الباب", en: "Maslama ibn Abd al-Malik's Khazar Campaign and the Taking of al-Bab" }, at: [42.0578, 48.2892], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

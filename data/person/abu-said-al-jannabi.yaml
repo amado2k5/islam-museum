@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/bahrayn, note: "From text: of Bahrayn", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0880", precision: year, status: tradition, derived: true }
   end: { edtf: "0880", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [4.8747222222222, 45.525555555556]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0880"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار فيين", en: "Siege of Vienne (880)" }, at: [4.8747222222222, 45.525555555556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/vienne }
+sides:
+  - label: { ar: "قوات المعتمد على الله", en: "The forces of al-Mu'tamid ala Allah" }
+    participants: [person/al-mutamid]
+  - label: { ar: "حامية فيين", en: "The defenders of Vienne" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q60674936

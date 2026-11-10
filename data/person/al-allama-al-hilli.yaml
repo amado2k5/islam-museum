@@ -19,6 +19,8 @@ wings: [people]
 regions: [levant-iraq, persia-central-asia]
 periods: [period/mongol-post-mongol]
 themes: [sects-and-schools, creed]
+born: { edtf: "1250", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+died: { edtf: "1325", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (levant-iraq) is attested; broad-region edge flagged for review.", sources: [source/minhaj-sunna-shamela, source/al-aalam], confidence: low }
   - { type: authored, target: work/minhaj-al-karamah, sources: [source/minhaj-sunna-shamela] }

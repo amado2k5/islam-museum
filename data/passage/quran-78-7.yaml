@@ -16,6 +16,8 @@ translations:
   en: { text: "And the high hills bulwarks?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور پہاڑوں کو (ا س کی) میخیں (نہیں ٹھہرایا؟)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-78 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

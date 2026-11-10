@@ -13,6 +13,7 @@ summary:
 roles: [writer, traveler]
 wings: [people, living]
 regions: [andalus-europe]
+born: { edtf: "1985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Academic Faculty Directory" }
 relations:
   - { type: lived_in, target: place/united-kingdom, confidence: low, note: "Associated with المملكة المتحدة per the record's own summary text; relation type pending review.", sources: [source/travelmassive-elena-nikolova] }
 faith:

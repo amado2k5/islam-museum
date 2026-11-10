@@ -17,5 +17,6 @@ provenance:
   run: lib-tarikh-baghdad-tb3
 sources: [source/tarikh-baghdad-khatib]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zubaydi (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/basra, note: "From text: من أهل البصرة قدم بغداد فمدح هار", sources: [source/tarikh-baghdad-khatib], confidence: low }

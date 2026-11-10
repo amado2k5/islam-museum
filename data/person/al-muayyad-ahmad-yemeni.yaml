@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'ayyad bi'llah'; Zaydi imam; 333–411 AH)" }
+died: { edtf: "1020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'ayyad bi'llah'; Zaydi imam; 333–411 AH)" }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (yemeni); denotes association, not proven residence.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

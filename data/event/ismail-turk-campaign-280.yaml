@@ -11,11 +11,15 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0893", hijri: "0280", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 280؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 146}." }
 relations:
-  - { type: had_participant, target: person/ismail-ibn-ahmad, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/ismail-ibn-ahmad, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-batch-6
+sides:
+  - label: { ar: "الدولة السامانية بقيادة إسماعيل بن أحمد", en: "The Samanid state under Isma'il ibn Ahmad" }
+  - label: { ar: "الأتراك", en: "The Turks" }
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

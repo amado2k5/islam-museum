@@ -11,6 +11,14 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1903-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1903-02", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/muhammadu-attahiru-i, sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i] }
+- { type: during_reign, target: person/muhammadu-attahiru-ii, sources: [source/wikidata] }
+sides:
+  - label: { en: "British Empire", ar: "الإمبراطورية البريطانية" }
+    participants: [polity/british-empire]
+  - label: { en: "Sokoto Caliphate", ar: "خلافة صكتو" }
+    participants: [polity/sokoto-caliphate]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18162693

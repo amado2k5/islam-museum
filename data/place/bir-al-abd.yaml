@@ -1,0 +1,20 @@
+id: place/bir-al-abd
+class: place
+kind: town
+label: { ar: "بئر العبد", en: "Bir al-Abd" }
+summary:
+  ar: "بلدة."
+  en: "Town in North Sinai Governorate, Egypt."
+wings: [place]
+coordinates: [31, 33.0167]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5605018" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5605018 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1597", precision: year, status: tradition, derived: true }
   end: { edtf: "1597", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمد الثالث", en: "The forces of محمد الثالث" }
+    participants: [person/mehmed-iii-uthmani]
+  - label: { ar: "حامية تاتا", en: "The defenders of Tata" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q52259637

@@ -3,15 +3,18 @@ class: person
 label:
   ar: "خولة بنت جعفر الحنفية"
   en: "Khawla al-Hanafiyya"
+  ur: "خولة بنت جعفر الحنفية"
 roles: [companion]
 gender: female
 summary:
-  ar: "بطاقة أولية لخولة بنت جعفر الحنفية، زوجة علي بن أبي طالب وأم محمد بن الحنفية؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Khawla bint Ja'far al-Hanafiyya, the wife of Ali ibn Abi Talib and mother of Muhammad ibn al-Hanafiyya; the biographical entry is not yet checked on the page."
+  ar: "صحابية من بني حنيفة، والدة محمد بن الحنفية."
+  en: "A woman Companion of Banu Hanifa, mother of Muhammad ibn al-Hanafiyya."
+  ur: "بنو حنیفہ کی صحابیہ، محمد بن حنفیہ کی والدہ۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

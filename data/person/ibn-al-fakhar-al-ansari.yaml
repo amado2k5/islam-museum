@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1120", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
+died: { edtf: "1192", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
 relations:
   - { type: born_in, target: place/malaga, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/marrakesh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

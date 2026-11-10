@@ -16,7 +16,10 @@ provenance:
   explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
 external_ids: { wikidata: "Q369981" }
+born: { edtf: "1009", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari)" }
+died: { edtf: "1106", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari)" }
 relations:
   - { type: died_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q101625)" }
 sources: [source/wafayat-ayan, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

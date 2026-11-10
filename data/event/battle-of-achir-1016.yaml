@@ -11,7 +11,25 @@ regions: [maghreb]
 date:
   start: { edtf: "1016-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1016-06", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [3.24, 35.9375]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1016"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أشير ⁦(١٠١٦)⁩", en: "Battle of Achir (1016)" }, at: [3.24, 35.9375], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/achir }
+sides:
+  - label: { en: "Hammadid dynasty", ar: "بنو حماد" }
+    participants: [polity/hammadid-dynasty]
+  - label: { en: "Zirid Dynasty", ar: "زيريون" }
+    participants: [polity/zirid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q126415847
 provenance:

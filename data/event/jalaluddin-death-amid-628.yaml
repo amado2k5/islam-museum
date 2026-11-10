@@ -14,5 +14,10 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج5، سنة 628)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-51
+relations:
+- { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "التتار والمغول", en: "The Tatars and Mongols" }
+  - label: { ar: "الخوارزمية بقيادة جلال الدين", en: "The Khwarizmians under Jalal al-Din" }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

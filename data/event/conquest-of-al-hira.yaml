@@ -23,5 +23,19 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 337–341"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-26
+sides:
+  - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { ar: "أزاذبه", en: "أزاذبه" }
+    participants: [person/azadhbih]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.89, 44.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "صلح الحيرة", en: "The Peace of al-Hira" }, at: [31.89, 44.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

@@ -11,6 +11,18 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1440-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1441-06-27", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.433333333333, 42.6]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1440"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نوفو بردو", en: "Siege of Novo Brdo" }, at: [21.433333333333, 42.6], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/novo-brdo }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q12756961

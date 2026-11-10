@@ -12,6 +12,8 @@ gender: male
 roles: [ruler]
 periods: [period/abbasid-fragmentation]
 floruit: { edtf: "0967", hijri: "0356", calendar: julian, precision: year, status: historical, derived: true, note: "Fals dated 356 AH {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 69}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+born: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: C.E. Bosworth (The Ghaznavids)" }
+died: { edtf: "1017~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: C.E. Bosworth (The Ghaznavids)" }
 relations:
   - { type: ruler_of, target: place/jurjaniyya, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
   - { type: ruler_of, target: polity/mamunid-dynasty-khwarazm, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }

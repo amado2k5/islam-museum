@@ -11,7 +11,25 @@ regions: [maghreb]
 date:
   start: { edtf: "1015", precision: year, status: tradition, derived: true }
   end: { edtf: "1015", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [9.1817, 36.7256]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1015"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ الحماديين لبجاية ⁦(١٠١٥)⁩", en: "Hammadid Capture of Béja (1015)" }, at: [9.1817, 36.7256], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/baja }
+sides:
+  - label: { en: "Hammadid dynasty", ar: "بنو حماد" }
+    participants: [polity/hammadid-dynasty]
+  - label: { en: "Zirid Dynasty", ar: "زيريون" }
+    participants: [polity/zirid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125552181
 provenance:

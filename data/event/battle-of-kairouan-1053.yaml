@@ -7,13 +7,28 @@ summary:
   en: "Draft card for Battle of Kairouan (1053); its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/qayrawan, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
 date:
   start: { edtf: "1053", precision: year, status: tradition, derived: true }
   end: { edtf: "1053", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة القيروان ⁦(١٠٥٣)⁩", en: "Battle of Kairouan (1053)" }, at: [35.6781, 10.0963], precision: locality, source: source/umayyad-birth-to-fall-2006 }
+  sources: [source/umayyad-birth-to-fall-2006]
+sides:
+  - label: { en: "Banu Hilal", ar: "بنو هلال" }
+    participants: [group/banu-hilal]
+  - label: { en: "Zirid Dynasty", ar: "زيريون" }
+    participants: [polity/zirid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q132690183
 provenance:

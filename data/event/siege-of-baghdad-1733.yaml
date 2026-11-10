@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1733", precision: year, status: tradition, derived: true }
   end: { edtf: "1733", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.4009, 33.3406]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1733"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بغداد ⁦(١٧٣٣)⁩", en: "Siege of Baghdad" }, at: [44.4009, 33.3406], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/baghdad }
+sides:
+  - label: { ar: "قوات محمود الأول", en: "The forces of محمود الأول" }
+    participants: [person/mahmud-i-uthmani]
+  - label: { ar: "حامية بغداد", en: "The defenders of Baghdad" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18358461

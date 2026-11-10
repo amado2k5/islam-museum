@@ -1,0 +1,20 @@
+id: place/bing-l-province
+class: place
+kind: province
+label: { ar: "ولاية بنكل", en: "Bingöl Province" }
+summary:
+  ar: "مقاطعة في شرق تركيا."
+  en: "Province in east Turkey."
+wings: [place]
+coordinates: [39.041111111111, 40.675833333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q79760" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q79760 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

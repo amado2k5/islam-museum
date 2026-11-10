@@ -1,0 +1,20 @@
+id: place/balkans
+class: place
+kind: region
+label: { ar: "البلقان", en: "Balkans" }
+summary:
+  ar: "إقليم."
+  en: "Geopolitical and cultural region of Southeast Europe."
+wings: [place]
+coordinates: [42, 22]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q23522" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q23522 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

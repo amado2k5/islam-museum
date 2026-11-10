@@ -10,13 +10,30 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1529", hijri: "0935", calendar: julian, precision: year, status: tradition, derived: true, note: "١٥٢٩م {cite:dawlat-uthmaniyya-salabi p. 202}." }
+map:
+  kind: siege
+  precision: locality
+  center: [16.3725, 48.2083]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1529"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار فيينا الأول", en: "The first siege of Vienna" }, at: [16.3725, 48.2083], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد المحاصر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+  - { type: occurred_at, target: place/vienna }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 202"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-2
 external_ids: { wikidata: "Q207576" }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية فيينا الأول", en: "The defenders of Vienna" }
 sources: [source/dawlat-uthmaniyya-salabi]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,6 +1,6 @@
 id: person/salit-ibn-amr
 class: person
-label: { en: Salit ibn Amr, ar: "سليط بن عمرو" }
+label: { en: Salit ibn Amr, ar: "سليط بن عمرو", ur: "سليط بن عمرو" }
 names:
   - { kind: full, lang: ar, value: "سليط بن عمرو بن عبد شمس بن عبدود بن نصر بن مالك بن حسل بن عامر" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني عامر بن لؤي، هاجر إلى الحبشة؛ يصفه ابن إسحاق برسول رسول الله إلى هوذة بن علي الحنفي باليمامة. وعند البلاذري بعثه إلى هوذة بن علي الحنفي في سنة سبع {cite:ansab-al-ashraf p. 531}"
   en: Of Banu Amir ibn Lu'ayy; he emigrated to Abyssinia. Ibn Ishaq describes him as the Messenger of God's envoy to Hawdha ibn Ali al-Hanafi in al-Yamama.
+  ur: "بنو عامر بن لوی کے؛ حبشہ ہجرت کیے؛ ابن اسحاق انہیں نبی کا ہوذہ بن علی الحنفی کے پاس قاصد کہتے ہیں۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -18,12 +19,15 @@ story_roles:
   - { role: official, toward: person/muhammad, status: tradition, note: "وصفه ابن إسحاق برسول رسول الله (ص9)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud (Ibn A'idh, al-Isaba p. 604); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/banu-amir, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: corresponded_with, target: person/hawdha-ibn-ali-al-hanafi, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 604", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 9"

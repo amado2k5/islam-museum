@@ -13,6 +13,8 @@ summary:
 roles: [teacher, scholar]
 wings: [people, living]
 regions: [americas-oceania]
+born: { edtf: "2015~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary registers" }
+died: { edtf: "2026~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary registers" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/youtube-themaryamamir] }
 faith:

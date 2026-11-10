@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+born: { edtf: "815", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+died: { edtf: "904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
 relations:
   - { type: debated_with, target: person/al-mubarrad, sources: [source/duha-islam] }
 

@@ -11,6 +11,16 @@ periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 date:
   start: { edtf: "1064", hijri: "0456", calendar: julian, precision: year, status: tradition, derived: true, note: "456؛ التحويل مشتق {cite:nafh-tib-maqqari p. 449}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [0.1269, 42.0353]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1064"
+  features:
+    - { type: point, role: event_point, label: { ar: "حادثة بربشتر", en: "The Barbastro incident" }, at: [0.1269, 42.0353], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 relations:
   - { type: occurred_at, target: place/barbastro, sources: [source/nafh-tib-maqqari] }
 provenance:

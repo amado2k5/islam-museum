@@ -25,5 +25,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304–305"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-19
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية عين شمس", en: "The defenders of Ayn Shams" }
+    participants: [place/ayn-shams]
+map:
+  kind: campaign
+  precision: locality
+  center: [30.13, 31.28]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "توجيهات عمرو الأربعة لقرى مصر", en: "Amr's Four Lieutenants Carry the Fustat Terms through Egypt" }, at: [30.13, 31.28], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

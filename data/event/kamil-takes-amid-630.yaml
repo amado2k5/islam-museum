@@ -17,6 +17,16 @@ relations:
   - { type: occurred_at, target: place/amid }
   - { type: had_participant, target: person/al-malik-al-kamil, role: "الفاتح", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-malik-al-masud-amid, role: "المستسلم المعذب", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.23, 37.91]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ الملك الكامل آمد سنة 630", en: "Al-Malik al-Kamil takes Amid, 630" }, at: [40.23, 37.91], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2 }
 provenance:

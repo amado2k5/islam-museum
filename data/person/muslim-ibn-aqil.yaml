@@ -9,5 +9,6 @@ external_ids: { wikidata: "Q6943009" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 2", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Muslim b. 'Akil); al-Tabari" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715] }

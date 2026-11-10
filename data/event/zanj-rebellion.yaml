@@ -11,6 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0869", precision: year, status: tradition, derived: true }
   end: { edtf: "0883", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [48.67, 31.32]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0869"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة الزنج", en: "The Zanj Rebellion" }, at: [48.67, 31.32], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
+relations:
+- { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-muhtadi, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/al-ahwaz }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المعتز بالله", en: "The authorities of al-Mu'tazz bi-llah" }
+    participants: [person/al-mutazz]
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q759988

@@ -11,6 +11,11 @@ regions: [south-asia]
 date:
   start: { edtf: "1971-11-20", precision: year, status: tradition, derived: true }
   end: { edtf: "1971-11-21", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "الجيش الهندي وموكتي باهيني", en: "The Indian army and Mukti Bahini" }
+  - label: { ar: "الجيش الباكستاني", en: "The Pakistani army" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4871079

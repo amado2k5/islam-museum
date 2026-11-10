@@ -520,6 +520,14 @@ ruled_over:
   inverse_label: { en: "Under the rule of", ar: "تحت حكم" }
   temporal: true
 
+during_reign:
+  inverse: reign_saw
+  domain: [event,building,work,invention]
+  range: [person,polity]
+  label: { en: "During the reign of", ar: "في عهد" }
+  inverse_label: { en: "His reign saw", ar: "شهد عهده" }
+  temporal: false
+
 split_from:
   inverse: split_into
   domain: [group]

@@ -11,7 +11,24 @@ regions: [maghreb]
 date:
   start: { edtf: "1514", precision: year, status: tradition, derived: true }
   end: { edtf: "1514", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-8.06111111, 32.8625]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1514"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة القايدس ⁦(١٥١٤)⁩", en: "Battle of the Alcaides (1514)" }, at: [-8.06111111, 32.8625], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/boulaouane }
+sides:
+  - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
+    participants: [polity/kingdom-of-portugal]
+  - label: { en: "Wattasid dynasty", ar: "الدولة الوطاسية" }
+    participants: [polity/wattasid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125398640
 provenance:

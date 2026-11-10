@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
 relations:
   - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name (الموصلي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

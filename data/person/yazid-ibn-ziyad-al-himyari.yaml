@@ -12,5 +12,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "695~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Umayyad-era figure in the Iraqi conquest narratives (Futuh al-buldan).", sources: [source/futuh-buldan-maarif-1407] }

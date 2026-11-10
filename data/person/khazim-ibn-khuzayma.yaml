@@ -5,6 +5,7 @@ summary:
   ar: "خازم بن خزيمة التميمي أمير المنصور؛ وجّهه المنصور مع روح بن حاتم المهلبي إلى طبرستان حين نقض أهلها وقتلوا المسلمين ومعهما مولاه مرزوق أبو الخصيب الذي احتال للفتح ونسب إليه قصر الخصيب بالكوفة."
   en: "Khazim ibn Khuzayma al-Tamimi, al-Mansur's commander; sent with Rawh ibn Hatim against breaching Tabaristan — his mawla Marzuq Abu al-Khasib, namesake of Kufa's Qasr al-Khasib, contrived the city's fall by the false-defection ruse."
 periods: [period/abbasid-early]
+died: { edtf: "785", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/tabaristan, confidence: low, note: "Associated with طبرستان per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/marzuq-ispahbadh-ruse }

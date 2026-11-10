@@ -20,5 +20,7 @@ story_roles:
 sources: [source/mufaddaliyyat-rahmaniyya-1926]
 status: { review: published, completeness: 1 }
 provenance: { layer: own-research, source: "المفضليات، المطبعة الرحمانية 1926، ص 46", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-mufaddaliyyat-3" }
+born: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic poet of Banu Sa'd (al-Mufaddaliyyat); no specific town attested.", sources: [source/mufaddaliyyat-rahmaniyya-1926] }

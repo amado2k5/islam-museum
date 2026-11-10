@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1912", precision: year, status: tradition, derived: true }
   end: { edtf: "1912", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [21.554166666667, 41.346388888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1912"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بريليب", en: "Battle of Prilep" }, at: [21.554166666667, 41.346388888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/prilep }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3393985

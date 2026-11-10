@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0827", precision: year, status: tradition, derived: true }
   end: { edtf: "0827", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [2.8166666666667, 41.983333333333]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0827"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار جرندة ⁦(٨٢٧)⁩", en: "Siege of Girona (827)" }, at: [2.8166666666667, 41.983333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/girona }
+sides:
+  - label: { ar: "قوات عبد الله المأمون بن هارون الرشيد", en: "The forces of Abd Allah al-Ma'mun ibn Harun al-Rashid" }
+    participants: [person/abd-allah-al-mamun]
+  - label: { ar: "حامية جرندة", en: "The defenders of Girona" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18008014

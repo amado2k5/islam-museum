@@ -24,15 +24,7 @@ born:
   status: tradition
   sources:
   - source/ibn-sad-tabaqat-bewley
-died:
-  edtf: "0636~"
-  calendar: julian
-  precision: year
-  status: tradition
-  note: Killed at the Yarmuk (or at Ajnadayn in some accounts), 15 AH / ~636 CE.
-  sources:
-  - source/ibn-sad-tabaqat-bewley
-  - source/tabari-donner-1993
+died: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at al-Yarmuk or Ajnadayn, without issue (al-Isaba p. 1050); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles:
 - general
 - companion
@@ -163,6 +155,11 @@ relations:
     edtf: "0630"
   sources:
   - source/ibn-sad-tabaqat-bewley
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Makhzum, son of Abu Jahl (al-Isaba p. 1050)"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q565522
 sources:
@@ -171,6 +168,8 @@ sources:
 - source/tabari-donner-1993
 - source/mubarakpuri-raheeq
 - source/ibn-hisham-saqqa
+- source/ibn-hajar-isaba
+importance: 2
 status:
   review: draft
   completeness: 2

@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0719", precision: year, status: tradition, derived: true }
   end: { edtf: "0719", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [3.0036111111111, 43.184722222222]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0719"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ناربون ⁦(٧١٩)⁩", en: "Siege of Narbonne (719)" }, at: [3.0036111111111, 43.184722222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/narbonne }
+sides:
+  - label: { ar: "قوات عمر بن عبد العزيز", en: "The forces of Umar ibn Abd al-Aziz" }
+    participants: [person/umar-ibn-abd-al-aziz]
+  - label: { ar: "حامية ناربون", en: "The defenders of Narbonne" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16169254

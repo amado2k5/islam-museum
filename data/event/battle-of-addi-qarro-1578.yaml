@@ -11,6 +11,19 @@ regions: [east-africa]
 date:
   start: { edtf: "1578", precision: year, status: tradition, derived: true }
   end: { edtf: "1578", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.0875, 13.575]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1578"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة أدي قارو ⁦(١٥٧٨)⁩", en: "Battle of Addi Qarro (1578)" }, at: [39.0875, 13.575], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tigray-region }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130724598

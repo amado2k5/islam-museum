@@ -11,8 +11,11 @@ regions: [arabia]
 date:
   start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام." }
 relations:
-  - { type: had_participant, target: person/zuhayr-ibn-janab-al-kalbi, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/zuhayr-ibn-janab-al-kalbi, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/ghatafan, role: "المقاتَلون", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "زهير بن جناب", en: "Zuhayr ibn Janab" }
+  - label: { ar: "بنو بغيد وبنو مرة بن عوف من غطفان", en: "Banu Bughayd and Banu Murra ibn Awf of Ghatafan" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -14,6 +14,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
   - { role: victim, status: tradition, note: "خرج تاجرًا فلما توسط أرض خزاعة عدوا عليه فقتلوه وأخذوا ماله؛ كان حلفه إلى بني الأسود بن رزن.", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "738~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
 relations:
   - { type: member_of, target: group/banu-al-hadrami }
   - { type: allied_with, target: group/banu-al-aswad-b-razn, note: "حلف الحضرمي يومئذ إلى الأسود بن رزن.", sources: [source/ibn-hisham-saqqa] }

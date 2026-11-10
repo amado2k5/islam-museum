@@ -17,6 +17,8 @@ date:
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/al-qurtubi, role: "المهاجر", sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
+  - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2, source/siyar-alam-nubala]
 provenance:
   layer: own-research

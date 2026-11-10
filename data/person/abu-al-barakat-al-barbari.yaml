@@ -12,6 +12,7 @@ roles: [preacher]
 wings: [people, place]
 themes: [converts-and-leavers, sects-and-schools]
 regions: [maghreb, south-asia]
+died: { edtf: "1160~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Battuta (Rihla)" }
 relations:
   - { type: traveled_to, target: place/maldives, sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987] }
 sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987]

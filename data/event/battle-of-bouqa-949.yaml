@@ -11,7 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0949", precision: year, status: tradition, derived: true }
   end: { edtf: "0949", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [36.36153, 36.354349]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0949"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بوقة ⁦(٩٤٩)⁩", en: "Battle of Bouqa (949)" }, at: [36.36153, 36.354349], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/amik-valley }
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Hamdanid emirate of Aleppo", ar: "إمارة حمدانية في حلب" }
+    participants: [polity/hamdanid-emirate-of-aleppo]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141447274
 provenance:

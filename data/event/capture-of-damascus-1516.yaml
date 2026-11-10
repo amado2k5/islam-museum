@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1516-09-27", precision: year, status: tradition, derived: true }
   end: { edtf: "1516-10-03", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.2913, 33.5102]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1516"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ دمشق ⁦(١٥١٦)⁩", en: "Capture of Damascus" }, at: [36.2913, 33.5102], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/damascus }
+sides:
+  - label: { ar: "قوات سليم الأول", en: "The forces of Selim I Yavuz" }
+    participants: [person/selim-i-uthmani]
+  - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q118946843

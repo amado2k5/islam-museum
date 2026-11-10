@@ -6,6 +6,8 @@ summary:
   en: "Abu 'Abd Allah Ja'far al-Sadiq, the Alid imam — through him Mas'udi transmits Ali's long death-morning wasiyya to his sons {cite:muruj-al-dhahab p. 713-714}."
 gender: male
 wings: [people]
+born: { edtf: "702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -18,6 +20,7 @@ provenance:
   run: prose-fill-persons-batch41
 external_ids: { wikidata: "Q170046" }
 sources: [source/muruj-al-dhahab, source/duha-islam]
+importance: 1
 status:
   review: published
   completeness: 3

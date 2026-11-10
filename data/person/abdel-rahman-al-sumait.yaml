@@ -17,5 +17,7 @@ honours:
 sources: [source/assabile-tareq-al-suwaidan, source/wikipedia-king-faisal-prize-en]
 provenance: { layer: copyrighted-reference, source: "Assabile, administrative-processus-abilities ep05 (transcript pass5-qwen; engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Devin (SWE-2 High)", model: swe-2-high, run: devin-tareq-al-suwaidan-admin-5 }
 status: { review: published, generated_by: "Devin (SWE-2 High); run devin-tareq-al-suwaidan-admin-5" }
+born: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary / Al-Sumait Vita" }
+died: { edtf: "2013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary / Al-Sumait Vita" }
 relations:
   - { type: lived_in, target: place/kuwait-city, note: "From text: Kuwaiti (nationality adjective); broad association, flagged for review.", sources: [source/assabile-tareq-al-suwaidan, source/wikipedia-king-faisal-prize-en], confidence: low }

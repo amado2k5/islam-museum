@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "891", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Ibn al-Athir)" }
+died: { edtf: "977", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil (Ibn al-Athir)" }
 relations:
   - { type: lived_in, target: place/al-ahsa, confidence: low, note: "Associated with الأحساء per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 provenance:

@@ -1,0 +1,20 @@
+id: place/petrovaradin
+class: place
+kind: city
+label: { ar: "بتروفارادين", en: "Petrovaradin" }
+summary:
+  ar: "مدينة."
+  en: "Settlement in the City of Novi Sad, Serbia."
+wings: [place]
+coordinates: [45.25, 19.866666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q19429" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q19429 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

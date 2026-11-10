@@ -14,5 +14,6 @@ provenance:
   run: lib-futuh-buldan-batch-41
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab], confidence: low }

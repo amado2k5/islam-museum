@@ -19,6 +19,16 @@ relations:
   - { type: had_participant, target: polity/mongol-empire, role: "الغازون المتراجعون", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-mustansir-billah, role: "الخليفة المجهز للعساكر", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/muzaffar-al-din-kokburi, role: "صاحب أربل المنضم إليه العسكر", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+map:
+  kind: campaign
+  precision: locality
+  center: [45.32, 35.5]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة التتار إلى شهرزور سنة 629", en: "The Tatar Raid on Shahrazur in 629 AH" }, at: [45.32, 35.5], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2 }
 provenance:

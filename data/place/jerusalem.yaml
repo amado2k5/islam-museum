@@ -10,8 +10,8 @@ regions: [levant-iraq]
 coordinates: [31.78, 35.24]
 coordinate_precision: site
 coordinate_note: "Agrees with GeoNames within 2.5 km."
-external_ids: { wikidata: "Q1218", geonames: "281184", pleiades: "687928", nomisma: "jerusalem" }
-sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/ahsan-al-taqasim, source/nomisma]
+external_ids: { wikidata: "Q1218", geonames: "281184", pleiades: "687928", nomisma: "jerusalem", idai: "2090049" }
+sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/ahsan-al-taqasim, source/nomisma, source/idai-gazetteer]
 education:
   did_you_know:
     ar: "كانت القدس أولى القبلتين للمسلمين نحو ست عشرة شهراً قبل أن تُحوَّل القبلة إلى الكعبة."
@@ -21,6 +21,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }
 provenance:
   layer: own-research

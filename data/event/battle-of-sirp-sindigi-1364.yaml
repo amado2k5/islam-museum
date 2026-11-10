@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1364", precision: year, status: tradition, derived: true }
   end: { edtf: "1364", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: battle
+  precision: locality
+  center: [23.59588888888889, 42.16480555555555]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1364"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سيرب سنديقي", en: "Battle of Sırp Sındığı" }, at: [23.59588888888889, 42.16480555555555], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/maritsa }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Principality of Wallachia", ar: "الأفلاق" }
+    participants: [polity/principality-of-wallachia]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4844238
 provenance:

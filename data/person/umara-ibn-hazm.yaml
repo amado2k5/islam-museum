@@ -1,6 +1,6 @@
 id: person/umara-ibn-hazm
 class: person
-label: { en: Umara ibn Hazm, ar: "عمارة بن حزم" }
+label: { en: Umara ibn Hazm, ar: "عمارة بن حزم", ur: "عمارة بن حزم" }
 names:
   - { kind: full, lang: ar, value: "عمارة بن حزم" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "عقبي بدري كان عند النبي حين ضلت ناقته، وطرد من رحله زيد بن اللصيت لما علم بمقالته."
   en: An Aqaba Companion who fought at Badr; he was with the Prophet when his she-camel strayed, and he drove Zayd ibn al-Lusayt from his litter when he learned what he had said.
+  ur: "عقبہ کا صحابی جو بدر میں لڑا؛ نبی کے ساتھ تھا جب ان کی اونٹنی بھٹکی اور اس نے زید بن لصیت کو ان کے پڑوس سے نکالا۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص166-167)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr); al-Isaba" }
 relations:
   - { type: traveled_to, target: place/badr, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/the-prophets-she-camel-strays, role: host-of-the-speaker, sources: [source/ibn-hisham-saqqa] }

@@ -14,8 +14,19 @@ sides:
   - label: { ar: "دولة طغتكين وأهل دمشق" }
     commanders: [person/tughtigin-atabeg]
   - label: { ar: "المرميون بعقيدة الإسماعيلية بدمشق وأتباع بهرام الأستراباذي" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2913, 33.5102]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1129"
+  features:
+    - { type: point, role: event_point, label: { ar: "مقتلة الإسماعيلية بدمشق سنة 523", en: "The Massacre of the Ismailis in Damascus in 523" }, at: [36.2913, 33.5102], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

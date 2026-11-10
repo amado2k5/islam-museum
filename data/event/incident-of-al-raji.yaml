@@ -17,6 +17,22 @@ relations:
   - { type: had_participant, target: person/safwan-ibn-umayya, role: "اشترى زيد بن الدثنة وقتله بأبيه", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/quraysh, role: "المشترون للأسرى للانتقام لقتلى بدر", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "سرية القراء", en: "The mission of the reciters" }
+    commanders: [person/asim-ibn-thabit]
+    strength: { value: 6, status: tradition, note: "ستة في قول ابن إسحاق وقيل عشرة", sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+  - label: { ar: "هذيل وبنو لحيان", en: "Hudhayl and Banu Lihyan" }
+    participants: [group/hudhayl]
+    strength: { value: 100, status: tradition, note: "نحو مائة رجل في المشهور", sources: [source/ibn-hisham-sira] }
+map:
+  kind: battle
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية الرجيع", en: "The Incident of al-Raji'" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 291–293" }
 

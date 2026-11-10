@@ -11,7 +11,13 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1092", precision: year, status: tradition, derived: true }
   end: { edtf: "1092", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: building/alamut-castle }
+sides:
+  - label: { en: "Nizari Ismaili state", ar: "الدولة الإسماعيلية النزارية" }
+  - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
+    participants: [polity/seljuk-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q85966858
 provenance:

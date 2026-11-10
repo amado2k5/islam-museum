@@ -12,11 +12,14 @@ date:
   start: { edtf: "0590~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام بجيل؛ لا تاريخ محقق {cite:ansab-al-ashraf p. 40}." }
 relations:
   - { type: had_participant, target: person/al-ahwas-ibn-jafar, role: "قائد بني عامر", sources: [source/ansab-al-ashraf] }
-  - { type: had_participant, target: person/mabad-ibn-zurara, role: "الأسير", sources: [source/ansab-al-ashraf] }
+  - { type: related_to, target: person/mabad-ibn-zurara, role: "الأسير", sources: [source/ansab-al-ashraf] }
 provenance:
   layer: own-research
   source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ansab-batch-7
+sides:
+  - label: { ar: "بنو عامر بن صعصعة", en: "Banu Amir ibn Sa'sa'a" }
+  - label: { ar: "دارم من تميم", en: "The Darim of Tamim" }
 sources: [source/ansab-al-ashraf]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

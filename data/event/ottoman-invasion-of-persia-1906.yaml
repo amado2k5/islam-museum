@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1906", precision: year, status: tradition, derived: true }
   end: { edtf: "1907", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Qajar Iran", ar: "الدولة القاجارية" }
+    participants: [polity/qajar-iran]
+map:
+  kind: campaign
+  precision: locality
+  center: [53.0, 32.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1906"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزو العثماني لبلاد فارس", en: "Ottoman Invasion of Persia" }, at: [53.0, 32.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/iran }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q77458574
 provenance:

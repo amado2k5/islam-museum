@@ -11,7 +11,24 @@ regions: [maghreb]
 date:
   start: { edtf: "1500", precision: year, status: tradition, derived: true }
   end: { edtf: "1600", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Oruç Reis", ar: "عروج بربروس" }
+    participants: [person/uruj-barbarossa]
+  - label: { en: "Hispanic Monarchy", ar: "الملكية الإسبانية ⁦(كيان سياسي)⁩" }
+    participants: [polity/hispanic-monarchy]
+map:
+  kind: siege
+  precision: locality
+  center: [5.08433, 36.75587]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1500"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بجاية", en: "Siege of Béjaïa" }, at: [5.08433, 36.75587], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/bejaia }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q20106308
 provenance:

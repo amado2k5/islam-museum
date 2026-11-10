@@ -11,6 +11,19 @@ regions: [east-africa]
 date:
   start: { edtf: "1586", precision: year, status: tradition, derived: true }
   end: { edtf: "1589", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.0, -9.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1586"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغارات العثمانية على شرق أفريقيا", en: "Ottoman–Portuguese Conflicts of 1586–1589" }, at: [39.0, -9.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/swahili-coast }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q898763

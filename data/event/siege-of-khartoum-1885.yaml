@@ -11,6 +11,21 @@ regions: [east-africa]
 date:
   start: { edtf: "1884", precision: year, status: tradition, derived: true }
   end: { edtf: "1885", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش المهدية بقيادة المهدي", en: "The Mahdist army under the Mahdi" }
+  - label: { ar: "حامية الخرطوم بقيادة غوردون", en: "The Khartoum garrison under Gordon" }
+map:
+  kind: siege
+  precision: locality
+  center: [32.5265, 15.6031]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1884"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الخرطوم", en: "Siege of Khartoum" }, at: [32.5265, 15.6031], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/khartoum }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q815159

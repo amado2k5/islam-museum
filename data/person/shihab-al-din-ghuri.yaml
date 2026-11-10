@@ -24,4 +24,5 @@ relations:
   - { type: died_in, target: place/dhamiak, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5268827)" }
   - { type: buried_in, target: place/sohawa-tehsil, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3249571)" }
 sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

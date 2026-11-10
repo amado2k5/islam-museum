@@ -11,7 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0956", precision: year, status: tradition, derived: true }
   end: { edtf: "0956", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [39.761666666667, 38.269166666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0956"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أرغانة ⁦(٩٥٦)⁩", en: "Battle of Arghana (956)" }, at: [39.761666666667, 38.269166666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/ergani }
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Hamdanid emirate of Aleppo", ar: "إمارة حمدانية في حلب" }
+    participants: [polity/hamdanid-emirate-of-aleppo]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139855008
 provenance:

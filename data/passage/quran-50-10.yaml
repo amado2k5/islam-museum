@@ -16,6 +16,8 @@ translations:
   en: { text: "And lofty date-palms with ranged clusters,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور لمبی لمبی کھجوریں جن کا گابھا تہہ بہ تہہ ہوتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rain, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/date-palm, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

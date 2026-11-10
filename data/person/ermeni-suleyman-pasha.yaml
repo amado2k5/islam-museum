@@ -13,6 +13,8 @@ roles: [ruler, military-leader]
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
+born: { edtf: "1607", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/malatya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

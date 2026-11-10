@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1110", precision: year, status: tradition, derived: true }
   end: { edtf: "1110", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-8.686944444444444, 39.23916666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1110"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة فاتالاندي ⁦(١١١٠)⁩", en: "Battle of Vatalandi (1110)" }, at: [-8.686944444444444, 39.23916666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/santarem }
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "County of Portugal", ar: "كونتية البرتغال" }
+    participants: [polity/county-of-portugal]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q9651130
 provenance:

@@ -11,6 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1000", precision: year, status: tradition, derived: true }
   end: { edtf: "1000", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-3.4900871906261486, 41.942020160705525]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1000"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ثربيرة", en: "Battle of Cervera" }, at: [-3.4900871906261486, 41.942020160705525], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/pe-a-cervera }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q4870698

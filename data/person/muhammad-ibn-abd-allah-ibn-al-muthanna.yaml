@@ -12,6 +12,8 @@ wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "830", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Umayyad-era figure (regions: arabia); no specific town attested.", sources: [source/al-aalam] }
 external_ids:

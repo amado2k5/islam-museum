@@ -4,6 +4,7 @@ lang: en
 source_lang: en
 translators: []
 ---
+## Summary
 BADJ is the Arabicised form of the Persian bäsh from the Islamic period {cite:encyclopaedia-of-islam-2 vol. 1 p. 917}.
 The phrase bazh u säw is not infrequent and the expression bazh-i rüm is used in reference to the tribute and indemnity paid to the victorious Persians by the rulers of the Eastern Roman empire {cite:encyclopaedia-of-islam-2 vol. 1 p. 917}.
 The Chaznawid poet Bahråmi uses bash while the 15th-century poet Babā Fighäni uses bădi {cite:encyclopaedia-of-islam-2 vol. 1 p. 917}.

@@ -1,6 +1,6 @@
 id: person/amr-ibn-humam-ibn-al-jamuh
 class: person
-label: { en: Amr ibn Humam ibn al-Jamuh, ar: "عمرو بن حمام بن الجموح" }
+label: { en: Amr ibn Humam ibn al-Jamuh, ar: "عمرو بن حمام بن الجموح", ur: "عمرو بن حمام بن الجموح" }
 names:
   - { kind: full, lang: ar, value: "عمرو بن حمام بن الجموح" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "رابع البكائين، أخو بني سلمة؛ ذكره ابن إسحاق فيمن استحملوا النبي في غزوة تبوك فلم يجد ما يحملهم عليه."
   en: The fourth of the Weepers, brother of Banu Salama; Ibn Ishaq lists him among those who begged the Prophet for mounts on the Tabuk campaign when he found nothing to carry them on.
+  ur: "روینے والوں میں چوتھے، بنو سلمہ کے بھائی؛ ابن اسحاق انہیں تبوک مہم میں نبی سے سواری مانگنے والوں میں گناتے ہیں۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,17 +17,20 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص161)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at Uhud per Abu Musa, though confusion with Amr ibn al-Jamuh and Umayr ibn al-Humam is noted (al-Isaba p. 1096); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/the-weepers-al-bakkaun, role: weeper, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1096", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 161"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch75
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

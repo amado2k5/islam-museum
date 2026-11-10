@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tusi (al-Fihrist)" }
+died: { edtf: "970~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tusi (al-Fihrist)" }
 relations:
   - { type: born_in, target: place/sari, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168843)" }
 sources: [source/al-aalam]

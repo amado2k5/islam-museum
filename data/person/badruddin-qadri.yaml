@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
+died: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Storey (Persian Literature)" }
 relations:
   - { type: born_in, target: place/phulwari-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/phulwari-sharif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

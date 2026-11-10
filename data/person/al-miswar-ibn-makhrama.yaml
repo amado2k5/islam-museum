@@ -3,6 +3,7 @@ class: person
 label:
   ar: المسور بن مخرمة
   en: al-Miswar ibn Makhrama
+  ur: "المسور بن مخرمة"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: "صحابي صغير من بني زهرة، وُلد بعد الهجرة بسنتين وقدم المدينة بعد الفتح وهو غلام؛ ابن أخت عبد الرحمن بن عوف، حفظ حديث خطبة علي بنت أبي جهل، وكان مع ابن الزبير ومات بحجر منجنيق في الحصار الأول سنة 64هـ. وفي الصحيح عرض على علي بن الحسين حين قدم المدينة من عند يزيد أن يعطيه سيف رسول الله خوفاً أن يغلبه القوم عليه، وحلف أن لا يُخلَص إليهم حتى تُبلَغ نفسه {cite:sahih-al-bukhari 3110}."
   en: A young Companion of Banu Zuhra, born two years after the Hijra, who came to Medina as a boy after the conquest; a nephew of Abd al-Rahman ibn Awf, he preserved the hadith about Ali's proposal to the daughter of Abu Jahl, and he was with
     Ibn al-Zubayr, dying from a catapult stone in the first siege in 64 AH.
+  ur: "بنو زہرہ کا نوجوان صحابی، ہجرت کے دو سال بعد پیدا ہوا، فتح کے بعد لڑکا ہو کر مدینہ آیا؛ عبد الرحمٰن بن عوف کا بھانجا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -37,6 +39,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 3/390; 2–64 AH)" }
+died: { edtf: "0684", hijri: "0064", calendar: julian, precision: year, status: debated, derived: true, note: "Killed by a mangonel stone in the first siege of Ibn al-Zubayr, the army sent by Yazid ibn Mu'awiya — 64 or 65 AH; the 73 AH report is an error (al-Isaba p. 1415); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/mecca

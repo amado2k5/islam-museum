@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/qutuz, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/baybars, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (سنة 658)، قراءة آبل فيجن"

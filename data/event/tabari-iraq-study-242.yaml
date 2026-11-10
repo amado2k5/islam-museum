@@ -17,6 +17,7 @@ date:
   start: { edtf: "0856~", hijri: "0242", calendar: julian, precision: year, status: historical, derived: true, note: "نص الموسوعة: توجه إلى جنوب العراق بحلول ٢٤٢هـ/٨٥٦-٨٥٧م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

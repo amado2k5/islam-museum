@@ -13,10 +13,13 @@ date:
 relations:
   - { type: had_participant, target: group/bakr-ibn-wail, role: "أحد الفريقين", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-taghlib, role: "أحد الفريقين", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/kulayb-ibn-rabia, role: "القتيل الذي اندلعت بسببه", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/kulayb-ibn-rabia, role: "القتيل الذي اندلعت بسببه", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jasas-ibn-murra, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muhalhil, role: "طالب الثأر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-basus-bint-munqidh, role: "صاحبة الناقة التي سميت بها الحرب", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "بنو بكر بقيادة جساس بن مرة", en: "Banu Bakr under Jasas ibn Murra" }
+  - label: { ar: "بنو تغلب بقيادة كلاب بن ربيعة", en: "Banu Taghlib under Kulayb ibn Rabi'a" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

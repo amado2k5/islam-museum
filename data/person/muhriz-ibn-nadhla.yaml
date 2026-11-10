@@ -3,15 +3,19 @@ class: person
 label:
   ar: "محرز بن نضلة"
   en: "Muhriz ibn Nadhla"
+  ur: "محرز بن نضلة"
 roles: [companion]
 gender: male
 summary:
   ar: "محرز بن نضلة «الأخرم الأسدي»، صحابي بدري من بني غنم، قتله الفزاري في غزوة ذي قرد سنة 6هـ ⁦(627م)⁩."
   en: "Muhriz ibn Nadhla al-Asadi (d. 6/627), Companion present at Badr, killed at Dhu Qarad."
+  ur: "محرز بن نذلہ الاسدی، صحابی، بدر میں حاضر، ذو قرد میں مارا گیا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd" }
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd" }
 relations:
   - { type: traveled_to, target: place/badr, sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }

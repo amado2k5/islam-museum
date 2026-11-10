@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0694", precision: year, status: tradition, derived: true }
   end: { edtf: "0694", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [36.945277777778, 37.5875]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0694"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مرعش ⁦(٦٩٤)⁩", en: "Battle of Marash (694)" }, at: [36.945277777778, 37.5875], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/marash }
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+    participants: [polity/umayyad-caliphate]
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139257624
 provenance:

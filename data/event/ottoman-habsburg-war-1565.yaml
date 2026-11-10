@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1565", precision: year, status: tradition, derived: true }
   end: { edtf: "1568-02-17", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.0, 42.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1565"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الهابسبورغية ⁦(١٥٦٥)⁩", en: "Ottoman-Habsburg War of 1565–1568" }, at: [22.0, 42.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/balkans }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "إمبراطورية هابسبورغ", en: "The Habsburg Empire" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q21655930

@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0713", precision: year, status: tradition, derived: true }
   end: { edtf: "0713", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-5.992388888888889, 37.38611111111111]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0713"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح إشبيلية", en: "Capture of Seville by the Umayyads (713)" }, at: [-5.992388888888889, 37.38611111111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/ishbiliya }
+sides:
+  - label: { ar: "قوات الوليد بن عبد الملك", en: "The forces of al-Walid ibn Abd al-Malik" }
+    participants: [person/al-walid-ibn-abd-al-malik]
+  - label: { ar: "حامية إشبيلية", en: "The defenders of Seville" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125627656

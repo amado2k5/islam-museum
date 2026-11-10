@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
+born: { edtf: "1402", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami' / al-Sakhawi" }
+died: { edtf: "1478", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami' / al-Sakhawi" }
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

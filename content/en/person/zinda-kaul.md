@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Zinda Kaul (August 1884 – 1965), known to generations of students as Masterji, was a Kashmiri poet, writer and teacher. Born at Habbakadal in Srinagar into a Kashmiri Pandit family, he taught in schools for years, worked as a clerk, and retired in 1939 as a translator in the Kashmir publicity office.{cite:wikipedia-zinda-kaul-en} Braj B. Kachru's profile styles him Pandit Zinda Koul and records the same arc from classroom to clerkship.{cite:koshur-zinda-koul}
 

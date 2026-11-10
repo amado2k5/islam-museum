@@ -15,7 +15,22 @@ relations:
   - { type: had_participant, target: person/charles-v, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/hasan-aga-al-tushi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 external_ids: { wikidata: "Q2502863" }
+sides:
+  - label: { ar: "الحملة الإمبراطورية بقيادة شارل الخامس", en: "Charles V's imperial expedition" }
+    commanders: [person/charles-v]
+  - label: { ar: "حامية الجزائر بقيادة حسن آغا", en: "The Algiers garrison under Hasan Agha" }
+    commanders: [person/hasan-aga-al-tushi, person/sulayman-al-qanuni]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.73225, 3.08746]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة شارل الخامس على الجزائر ⁦(٩٤٨هـ/١٥٤١م)⁩", en: "Charles V's Algiers expedition (1541)" }, at: [36.73225, 3.08746], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

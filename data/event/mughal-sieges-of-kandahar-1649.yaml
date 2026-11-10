@@ -11,6 +11,22 @@ regions: [south-asia]
 date:
   start: { edtf: "1649", precision: year, status: tradition, derived: true }
   end: { edtf: "1653", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [65.7159, 31.6207]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1649"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصارات قندهار المغولية ⁦(١٦٤٩–١٦٥٣)⁩", en: "Mughal Sieges of Kandahar (1649–53)" }, at: [65.7159, 31.6207], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kandahar }
+sides:
+  - label: { ar: "الجيش المغولي بقيادة أورنكزيب", en: "The Mughal army under Aurangzeb" }
+  - label: { ar: "حامية قندهار الصفوية", en: "The Safavid garrison of Kandahar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q60791585

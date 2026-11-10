@@ -14,5 +14,6 @@ provenance:
   run: lib-kamil-batch-6
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil)" }
 relations:
   - { type: traveled_to, target: place/dabil, note: "Byzantine Domestic who marched on Dabil with siege-towers and naphtha-tubes in 315.", sources: [source/kamil-ibn-al-athir], confidence: medium }

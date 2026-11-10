@@ -20,6 +20,8 @@ faith:
     basis: documented
     note: "Individual Muslim basis: actual Filaha biography specifically reports his pilgrimage to Hijaz through Anonymous Botanist testimony; synopsis10 identifies pilgrimage to Mecca. Not inferred from name, country, court or TDV's Hajj-epithet argument. Sunni separately is the default frame of docs/scope.md for documented Andalusian milieu; no contrary personal tradition in read biographies, no personal madhhab certificate."
     sources: [source/ibn-bassal-filaha-profile, source/tdv-ibn-bassal]
+born: { edtf: "1070~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/tulaytula, sources: [source/tdv-ibn-bassal, source/ibn-bassal-filaha-profile] }
   - { type: lived_in, target: place/seville, sources: [source/tdv-ibn-bassal, source/ibn-bassal-filaha-profile] }

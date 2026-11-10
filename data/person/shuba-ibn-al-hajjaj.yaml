@@ -17,5 +17,7 @@ sources: [source/muruj-al-dhahab, source/assabile-abu-ishaq-alheweny]
 status:
   review: published
   completeness: 3
+born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "776", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/bastam, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab, source/assabile-abu-ishaq-alheweny] }

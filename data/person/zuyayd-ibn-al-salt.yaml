@@ -18,6 +18,8 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w09-59
+born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "656~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

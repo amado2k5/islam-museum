@@ -15,6 +15,7 @@ relations:
   - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-ashraf-inal, role: "السلطان الخالع", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/khushqadam, role: "الأتابك المستولي", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 865)، قراءة آبل فيجن"

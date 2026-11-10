@@ -14,10 +14,23 @@ relations:
   - { type: occurred_at, target: place/ardabil }
   - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "المستشهد ومن معه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/khazars, role: "الجيش الجائش عابر الرس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "القوات الأموية بقيادة الجراح بن عبد الله", en: "The Umayyad forces under al-Jarrah" }
+  - label: { ar: "الخزر", en: "The Khazars" }
+map:
+  kind: battle
+  precision: locality
+  center: [38.25, 48.3]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استشهاد الجرّاح بأردبيل", en: "The Death of al-Jarrah at Ardabil" }, at: [38.25, 48.3], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

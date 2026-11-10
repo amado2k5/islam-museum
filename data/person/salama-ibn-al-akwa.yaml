@@ -1,6 +1,6 @@
 id: person/salama-ibn-al-akwa
 class: person
-label: { en: "Salama ibn al-Akwa'", ar: "سلمة بن الأكوع" }
+label: { en: "Salama ibn al-Akwa'", ar: "سلمة بن الأكوع", ur: "سلمة بن الأكوع" }
 names:
   - { kind: full, lang: ar, value: "سلمة بن عمرو بن الأكوع الأسلمي" }
   - { kind: kunya, lang: ar, value: "أبو مسلم" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   en: "A famed Companion celebrated as the swiftest runner and premier foot-archer among the Muslims; hero of the Expedition of Dhu Qarad where he pursued the raiders on foot and recovered the captured camels; fought valiantly at Khaybar, Hunayn, and the Ridwan Pledge."
   ar: "صحابي جليل من شجعان العرب وفرسان المشاة المشهورين بسرعة العدو؛ بايع تحت الشجرة ثلاثاً، وبطل معركة ذي قرد حين طارد مغيري غطفان بمفرده عدواً على قدميه حتى استنقذ لقاح النبي، وقال فيه النبي: «خير رجالتنا سلمة بن الأكوع»."
+  ur: "مشہور صحابی جو مسلمانوں میں سب سے تیز رفتار اور بہترین پیادہ تیرانداز شمار ہوتا تھا؛ ذو قرد کی مہم کا ہیرو۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
@@ -19,6 +20,8 @@ story_roles:
   - { role: commander, toward: group/early-muslims, start: { edtf: "0628" }, status: tradition, note: "فارس ورامي المسلمين في ذي قرد وخيبر (الرحيق ص362–364).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0627~" }, note: "صحابي من أبطال الرضوان وخيبر." }
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "693~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "أصاب بنت أم قرفة", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/medina }

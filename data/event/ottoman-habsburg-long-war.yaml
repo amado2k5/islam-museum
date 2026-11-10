@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1593", precision: year, status: tradition, derived: true }
   end: { edtf: "1606", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [19.5, 47.2]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1593"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الطويلة ⁦(١٥٩٣–١٦٠٦)⁩", en: "The Long War" }, at: [19.5, 47.2], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/hungary }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "إمبراطورية هابسبورغ", en: "The Habsburg Empire" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q690361
@@ -20,4 +38,5 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

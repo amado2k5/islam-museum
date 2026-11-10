@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad 7/331; 180–271 AH)" }
+died: { edtf: "884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad 7/331; 180–271 AH)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Record regions field is levant-iraq.", sources: [source/al-aalam], confidence: low }
 sources: [source/al-aalam]

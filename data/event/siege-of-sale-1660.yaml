@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1660", precision: year, status: tradition, derived: true }
   end: { edtf: "1664", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-6.816667, 34.05]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1660"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سلا ⁦(١٦٦٠)⁩", en: "Siege of Sale (1660)" }, at: [-6.816667, 34.05], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/sal }
+sides:
+  - label: { ar: "قوات محمد الرابع", en: "The forces of محمد الرابع" }
+    participants: [person/mehmed-iv-uthmani]
+  - label: { ar: "حامية سلا", en: "The defenders of Sale" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q21083888

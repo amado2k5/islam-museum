@@ -3,15 +3,18 @@ class: person
 label:
   ar: "عبد الله بن علي بن أبي طالب"
   en: "Abd Allah ibn Ali ibn Abi Talib"
+  ur: "عبد الله بن علي بن أبي طالب"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن علي بن أبي طالب، من بني هاشم الذين قتلوا بكربلاء سنة ٦٨٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Ali ibn Abi Talib, of the Banu Hashim killed at Karbala in 680; the biographical entry is not yet checked on the page."
+  ar: "صحابي، ابن علي بن أبي طالب."
+  en: "A Companion, a son of Ali ibn Abi Talib."
+  ur: "صحابی، علی بن ابی طالب کے فرزند۔"
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 sources: [source/al-aalam]
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (al-Isfahani: killed at Karbala 61 AH)" }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

@@ -11,7 +11,25 @@ regions: [maghreb]
 date:
   start: { edtf: "1502", precision: year, status: tradition, derived: true }
   end: { edtf: "1502", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-5.834, 35.7595]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1502"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة طنجة ⁦(١٥٠٢)⁩", en: "Battle of Tangier (1502)" }, at: [-5.834, 35.7595], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tanja }
+sides:
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+    participants: [polity/portuguese-empire]
+  - label: { en: "Wattasid dynasty", ar: "الدولة الوطاسية" }
+    participants: [polity/wattasid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q109312780
 provenance:

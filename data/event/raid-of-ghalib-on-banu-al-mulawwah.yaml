@@ -25,5 +25,14 @@ sides:
   - label: { ar: "بنو الملوح بالكديد", en: "Banu al-Mulawwah at al-Kudayd" }
     participants: [group/banu-al-mulawwah]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.25, 39.2833]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة غالب بن عبد الله الليثي بني الملوح بالكديد", en: "Ghalib ibn Abdullah al-Laythi's raid on Banu al-Mulawwah at al-Kudayd" }, at: [22.25, 39.2833], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-259; date single-source" }

@@ -20,5 +20,18 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 359–360"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-3
+sides:
+  - label: { ar: "جيش عبد الرحمن الناصر لدين الله الأموي", en: "Abd al-Rahman al-Nasir li-Din Allah al-Umawi's army" }
+    commanders: [person/abd-al-rahman-iii-al-nasir]
+  - label: { ar: "سمورة", en: "Samura" }
+map:
+  kind: battle
+  precision: locality
+  center: [41.5035, -5.7468]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة سمورة ⁦(٣٢٧هـ)⁩", en: "The battle of Samura (327 AH)" }, at: [41.5035, -5.7468], precision: locality, source: source/muruj-al-dhahab }
+  sources: [source/muruj-al-dhahab]
 sources: [source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

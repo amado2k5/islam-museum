@@ -10,6 +10,21 @@ date:
   start: { edtf: "0896~", hijri: "0283", calendar: julian, precision: year, status: historical, derived: true, note: "ج10 ص45؛ التحويل الميلادي مشتق", sources: [source/tabari-tarikh-abu-al-fadl] }
 relations:
   - { type: occurred_at, target: place/constantinople, sources: [source/tabari-tarikh-abu-al-fadl] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتضد بالله", en: "The forces of al-Mu'tadid bi-llah" }
+    participants: [person/al-mutadid]
+  - label: { ar: "حامية القسطنطينية", en: "The defenders of Constantinople" }
+    participants: [place/constantinople]
+map:
+  kind: siege
+  precision: locality
+  center: [41.008, 28.978]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصر الصقالبة القسطنطينية", en: "The Saqaliba siege of Constantinople" }, at: [41.008, 28.978], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tabari-tarikh-abu-al-fadl]
 provenance: { layer: own-research, source: "Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), j.10 p. 45", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 7", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }

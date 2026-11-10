@@ -10,6 +10,18 @@ relations:
   - { type: had_participant, target: person/masmala-ibn-hubayra, role: "الأمير الهالك", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tabaristan }
 wings: [time]
+sides:
+  - label: { ar: "جيش مصملة بن حبيرة الأموي", en: "Masmala ibn Hubayra's Umayyad army" }
+  - label: { ar: "أهل طبرستان", en: "The people of Tabaristan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.56, 52.6]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هلاك مصقلة بطبرستان", en: "Masmala's Destruction in Tabaristan" }, at: [36.56, 52.6], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

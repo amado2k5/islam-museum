@@ -29,6 +29,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/shadharat-dhahab]
+died: { edtf: "1541", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila" }
 relations:
   - { type: born_in, target: place/uyayna, note: "Wikidata Q4166503 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/al-jubayliyah, note: "Wikidata Q30970845 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

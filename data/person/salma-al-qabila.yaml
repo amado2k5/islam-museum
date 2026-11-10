@@ -1,6 +1,6 @@
 id: person/salma-al-qabila
 class: person
-label: { en: "Salma al-Qabila", ar: "سلمى القابلة" }
+label: { en: "Salma al-Qabila", ar: "سلمى القابلة", ur: "سلمى القابلة" }
 names:
   - { kind: full, lang: ar, value: "سلمى القابلة زوجة أبي رافع" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابية زوجة أبي رافع مولى النبي؛ كانت قابلة بيت النبوة فولّدت فاطمة بنت النبي أولادها الحسن والحسين وزينب وأم كلثوم، وكانت قبل ذلك من خدم خديجة، وامتد بها العمر إلى ما بعد وفاة النبي."
   en: "A Companion, wife of Abu Rafi' the Prophet's freedman; she was the household midwife who delivered Fatima's children — al-Hasan, al-Husayn, Zaynab and Umm Kulthum — having earlier served Khadija, and lived on after the Prophet's death."
+  ur: "صحابیہ، نبی کے آزاد کردہ ابو رافع کی بیوی؛ وہ گھر کی دائی تھی جس نے فاطمہ کے بچوں — حسن وغیرہ — کی پیدائش کرائی۔"
 wings: [people]
 themes: [women, medicine]
 periods: [period/prophetic-era]
@@ -17,6 +18,8 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina }
   - { type: spouse_of, target: person/abu-rafi, note: "زوجها أبو رافع مولى رسول الله (نساء حول الرسول ص383).", sources: [source/nisa-hawl-alrasul] }

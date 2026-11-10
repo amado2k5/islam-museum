@@ -14,10 +14,25 @@ date:
 relations:
   - { type: occurred_at, target: place/hama, sources: [source/kamil-ibn-al-athir] }
   - { type: part_of, target: event/battle-of-ramla-573, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 573، ص 86–87"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-01
+sides:
+  - label: { ar: "قوات المستضيء بأمر الله الحسن بن المستنجد", en: "The forces of al-Mustadi bi-Amr Allah al-Hasan ibn al-Mustanjid" }
+    participants: [person/al-mustadi-billah]
+  - label: { ar: "حامية حماة", en: "The defenders of Hama" }
+    participants: [place/hama]
+map:
+  kind: siege
+  precision: locality
+  center: [35.1318, 36.7578]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الفرنج حماة", en: "Frankish siege of Hama" }, at: [35.1318, 36.7578], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

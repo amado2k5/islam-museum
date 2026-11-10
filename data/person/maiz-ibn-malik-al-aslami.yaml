@@ -16,6 +16,7 @@ story_roles:
   - { role: companion, status: tradition, note: "الاستيعاب ترجمة 2407 ص 686", sources: [source/istiab-alam-2002] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: member_of, target: group/aslam, sources: [source/istiab-alam-2002] }
   - { type: lived_in, target: place/medina, sources: [source/istiab-alam-2002] }

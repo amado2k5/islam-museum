@@ -11,6 +11,19 @@ relations:
   - { type: had_participant, target: person/abu-musa-al-ashari, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sabur }
 wings: [time]
+sides:
+  - label: { ar: "جيش عثمان بن أبي العاص", en: "Uthman ibn Abi al-As's army" }
+    commanders: [person/uthman-ibn-abi-al-as, person/abu-musa-al-ashari]
+  - label: { ar: "سابور", en: "Sabur (Bishapur)" }
+map:
+  kind: campaign
+  precision: locality
+  center: [29.7781, 51.5706]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح سابور", en: "Conquest of Sabur" }, at: [29.7781, 51.5706], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

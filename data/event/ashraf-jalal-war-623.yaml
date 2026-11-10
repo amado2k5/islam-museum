@@ -15,12 +15,23 @@ relations:
   - { type: occurred_at, target: place/jazira, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-ashraf, role: "طرف", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "طرف", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-zahir-billah }
+  - { type: during_reign, target: person/al-mustansir-billah }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch1
+map:
+  kind: campaign
+  precision: locality
+  center: [36.5, 41]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب بين عسكر الأشرف وعسكر جلال الدين", en: "War between al-Ashraf's and Jalal al-Din's armies" }, at: [36.5, 41], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

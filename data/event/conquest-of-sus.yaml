@@ -12,12 +12,27 @@ relations:
   - { type: occurred_at, target: place/sus-khuzistan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/safi-ibn-sayyad, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-musa-al-ashari, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch6
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية السوس ⁦(خوزستان)⁩", en: "The defenders of Sus (Khuzistan)" }
+    participants: [place/sus-khuzistan]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.1906, 48.2579]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح السوس", en: "Conquest of al-Sus (17 AH)" }, at: [32.1906, 48.2579], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

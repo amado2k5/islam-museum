@@ -29,6 +29,19 @@ relations:
   role: باعث السرية
   sources:
   - source/futuh-misr-amir-1999
+sides:
+  - label: { ar: "جيش عمرو بن العاص", en: "Amr ibn al-As's army" }
+    commanders: [person/amr-ibn-al-as]
+  - label: { ar: "الفسطاط", en: "Al-Fustat" }
+map:
+  kind: campaign
+  precision: locality
+  center: [29.31, 30.84]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الفيوم", en: "Conquest of al-Fayyum" }, at: [29.31, 30.84], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: &id001
 - source/futuh-misr-amir-1999
 provenance:

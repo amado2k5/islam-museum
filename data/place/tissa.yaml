@@ -1,0 +1,20 @@
+id: place/tissa
+class: place
+kind: town
+label: { ar: "تيسة", en: "Tissa" }
+summary:
+  ar: "بلدة في فاس-مكناس في المغرب."
+  en: "Town in Fès-Meknès, Morocco."
+wings: [place]
+coordinates: [34.28333333, -4.66666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2436732" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2436732 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

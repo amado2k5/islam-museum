@@ -11,6 +11,8 @@ summary:
 wings: [people]
 periods: [period/modern-era]
 regions: [south-asia]
+born: { edtf: "1857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
+died: { edtf: "1907", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
 relations:
   - { type: lived_in, target: place/patna, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

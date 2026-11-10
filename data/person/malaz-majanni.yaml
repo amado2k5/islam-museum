@@ -21,6 +21,8 @@ wings:
   - living
 regions:
   - americas-oceania
+born: { edtf: "2015~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary catalogues" }
+died: { edtf: "2026~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary catalogues" }
 relations:
   - { type: lived_in, target: place/united-states, confidence: low, note: "US-based media figure per the record's own text.", sources: [source/wikidata] }
 faith:

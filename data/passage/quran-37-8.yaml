@@ -16,6 +16,8 @@ translations:
   en: { text: "They cannot listen to the Highest Chiefs for they are pelted from every side,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہ اوپر کی مجلس کی طرف کان نہ لگاسکیں اور ہر طرف سے (ان پر انگارے) پھینکے جاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/meteors, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/stars, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

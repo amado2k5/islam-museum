@@ -13,6 +13,19 @@ relations:
   - { type: had_participant, target: person/muhammad-ibn-harun, role: "الملتحق المتوفى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/makran }
 wings: [time]
+sides:
+  - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
+    commanders: [person/muhammad-ibn-al-qasim, person/jahm-ibn-zahr, person/al-walid-ibn-abd-al-malik]
+  - label: { ar: "مكران", en: "Makran" }
+map:
+  kind: campaign
+  precision: locality
+  center: [25.509495, 64.1443776]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "تجهيز محمد بن القاسم إلى السند", en: "The Fitting-out of Muhammad ibn al-Qasim" }, at: [25.509495, 64.1443776], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

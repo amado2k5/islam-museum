@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab, source/salabi-umayyad-state-2020]
 status:
   review: published
   completeness: 3
+born: { edtf: "654~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "725~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab, source/salabi-umayyad-state-2020] }

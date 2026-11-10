@@ -1,0 +1,20 @@
+id: place/amfissa
+class: place
+kind: city
+label: { ar: "أمفيسا", en: "Amfissa" }
+summary:
+  ar: "مدينة في وسط اليونان."
+  en: "Greek city in central Greece."
+wings: [place]
+coordinates: [38.525277777778, 22.375277777778]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q470481" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q470481 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,6 +11,12 @@ wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 themes: [civil-wars-and-revolts]
+relations:
+- { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "سلطات الناصر لدين الله أحمد بن المستضيء", en: "The authorities of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

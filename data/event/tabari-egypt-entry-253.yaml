@@ -17,6 +17,7 @@ date:
   start: { edtf: "0867", hijri: "0253", calendar: julian, precision: year, status: historical, derived: true, note: "تنص الموسوعة على أن دخوله مصر يثبت على التقريب سنة ٢٥٣هـ/٨٦٧م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
 relations:
   - { type: occurred_at, target: place/al-fustat, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim]
 provenance:
   layer: own-research

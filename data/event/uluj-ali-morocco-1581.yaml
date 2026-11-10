@@ -17,6 +17,21 @@ relations:
   - { type: had_participant, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مراد الثالث", en: "The forces of None" }
+    participants: [person/murad-iii-uthmani]
+  - label: { ar: "حامية الجزائر", en: "The defenders of Algiers" }
+    participants: [place/algiers]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.73225, 3.08746]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مسعى قلج علي لضم المغرب ⁦(٩٨٩هـ/١٥٨١م)⁩", en: "Uluj Ali's bid to annex Morocco (989/1581)" }, at: [36.73225, 3.08746], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

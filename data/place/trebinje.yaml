@@ -1,0 +1,19 @@
+id: place/trebinje
+class: place
+kind: site
+label: { ar: "تريبيني", en: "Trebinje" }
+summary:
+  ar: "Trebinje, Bosnia and Herzegovina."
+  en: "Trebinje, Bosnia and Herzegovina."
+wings: [place]
+coordinates: [42.7119, 18.3436]
+coordinate_precision: locality
+coordinate_note: "Trebinje, Bosnia and Herzegovina (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -42,7 +42,7 @@ const CE = lang === "en" ? "" : ERA[lang].ce;
       ); })}
     </defs>
     {eras.map((e, i) => <g><rect x={left(e.a, e.b)} y="0" width={w(e.a, e.b)} height={H} fill={i % 2 ? "var(--wing-place)" : "var(--wing-time)"} opacity=".1" /></g>)}
-    {ticks.map((t) => <g><line x1={x(t)} x2={x(t)} y1="0" y2={H} stroke="currentColor" opacity=".12" stroke-width=".25" /><text x={x(t)} y={H + 5.5} font-size="2.6" text-anchor="middle" fill="currentColor" opacity=".6">{t}{CE}</text></g>)}
+    {ticks.map((t) => { const tx = x(t); const clamped = Math.min(97, Math.max(3, tx)); const anchor = tx < 6 ? "start" : tx > 94 ? "end" : "middle"; return <g><line x1={tx} x2={tx} y1="0" y2={H} stroke="currentColor" opacity=".12" stroke-width=".25" /><text x={clamped} y={H + 5.5} font-size="2.6" text-anchor={anchor} fill="currentColor" opacity=".6">{t}{CE}</text></g>; })}
     {rows.map((r, i) => {
       const bx = left(r.span.earliest, r.span.latest), bw = w(r.span.earliest, r.span.latest);
       const fuzzy = r.a || r.b;

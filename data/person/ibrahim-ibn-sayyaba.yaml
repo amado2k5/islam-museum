@@ -17,6 +17,8 @@ wings: [people]
 themes: [literature]
 story_roles:
   - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
+born: { edtf: "775~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
+died: { edtf: "814~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
 relations:
   - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with نيسابور per the record's own summary text; relation type pending review.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
 sources: [source/nihayat-al-arab-nuwayri-vol4-scan]

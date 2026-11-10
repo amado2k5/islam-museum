@@ -15,10 +15,14 @@ relations:
   - { type: had_participant, target: person/al-rushati, role: "استشهد فيها", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/ibn-hubaysh-hafiz, role: "في القلعة يوم الاستيلاء", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/ibn-mardanish, role: "حارب الموحدين خارجها ثم ارتحل مستعيراً", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 466–467"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-58
+sides:
+  - label: { ar: "القشتاليون والجنويون بقيادة ألفونسو السابع", en: "The Castilians and Genoese under Alfonso VII" }
+  - label: { ar: "حاميات المسلمين في المرية", en: "The Muslim garrison of Almeria" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

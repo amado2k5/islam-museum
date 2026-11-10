@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! Those who chose the calf (for worship), terror from their Lord and humiliation will come upon them in the life of the world. Thus do We requite those who invent a lie.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(خدا نے فرمایا کہ) جن لوگوں نے بچھڑے کو (معبود) بنا لیا تھا ان پر پروردگار کا غضب واقع ہوگا اور دنیا کی زندگی میں ذلت (نصیب ہوگی) اور ہم افتراء پردازوں کو ایسا ہی بدلہ دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/golden-calf, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

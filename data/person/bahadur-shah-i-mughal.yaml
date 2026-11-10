@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1643", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bahadur Shah I)" }
+died: { edtf: "1712", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bahadur Shah I)" }
 relations:
   - { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/moti-masjid-mehrauli, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

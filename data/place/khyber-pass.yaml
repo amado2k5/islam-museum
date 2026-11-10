@@ -1,0 +1,20 @@
+id: place/khyber-pass
+class: place
+kind: mountain
+label: { ar: "ممر خيبر", en: "Khyber Pass" }
+summary:
+  ar: "جبل."
+  en: "Mountain pass connecting Afghanistan and Pakistan."
+wings: [place]
+coordinates: [34.11, 71.111666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q191333" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q191333 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

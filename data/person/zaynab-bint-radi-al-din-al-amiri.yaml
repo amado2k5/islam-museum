@@ -23,3 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1380~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+relations:
+  - { type: born_in, target: place/damascus, note: "Zaynab bint al-Ghazzi al-Amiri al-Dimashqi; born in Damascus per al-A'lam.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/damascus, note: "Lived in Damascus per al-A'lam.", sources: [source/al-aalam] }
+  - { type: died_in, target: place/damascus, note: "Died in Damascus 980 AH per al-A'lam.", sources: [source/al-aalam] }

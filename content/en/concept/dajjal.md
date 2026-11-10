@@ -15,3 +15,6 @@ He says that believers in that time will be inspired with glorification, praise,
 
 ## Many trials, and reliance on God
 The Sheikh says the Dajjal's trial is not the only one, since there are many impostors, and that God protects the believers from it (his view). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}
+
+## In the context of the unseen
+The greatest trial from Adam to the Hour; a one-eyed claimant of lordship who tests people with paradise and fire until Isa kills him at the gate of Ludd.

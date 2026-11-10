@@ -7,12 +7,27 @@ summary:
   en: "Draft card for the Siege of Karbala in 1843, Najib Pasha's storming of the city to restore Ottoman rule; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/karbala, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
 wings: [time]
 periods: [period/modern-era]
 regions: [levant-iraq]
 date:
   start: { edtf: "1843-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1843-01", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عبد المجيد الأول", en: "The forces of Abd al-Majid I" }
+    participants: [person/abd-al-majid-i-uthmani]
+  - label: { ar: "حامية كربلاء", en: "The defenders of Karbala" }
+    participants: [place/karbala]
+map:
+  kind: siege
+  precision: locality
+  center: [32.61603, 44.02488]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كربلاء ⁦(١٨٤٣)⁩", en: "Siege of Karbala (1843)" }, at: [32.61603, 44.02488], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q136400265

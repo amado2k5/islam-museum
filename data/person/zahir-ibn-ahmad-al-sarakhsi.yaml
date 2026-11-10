@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "1000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
 relations:
   - { type: lived_in, target: place/sarakhs, confidence: low, note: "Association inferred from the nisba 'السرخسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

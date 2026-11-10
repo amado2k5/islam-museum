@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
+born: { edtf: "1914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuqush-e-Raftagan (Tazkirah Scholars of Pakistan)" }
+died: { edtf: "2004", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuqush-e-Raftagan (Tazkirah Scholars of Pakistan)" }
 relations:
   - { type: born_in, target: place/chakwal, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1251473)" }
 sources: [source/al-aalam]

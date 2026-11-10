@@ -12,10 +12,14 @@ date:
   start: { edtf: "0954", hijri: "0343", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 343؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 668}." }
 relations:
   - { type: had_participant, target: person/sayf-al-dawla, role: "المنتصر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-batch-15
+sides:
+  - label: { ar: "الدولة الحمدانية بقيادة سيف الدولة", en: "The Hamdanid state under Sayf al-Dawla" }
+  - label: { ar: "البيزنطيون بقيادة الدومستيك", en: "The Byzantines under the Domesticus" }
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

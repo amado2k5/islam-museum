@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
+born: { edtf: "1850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Bukhara" }
+died: { edtf: "1890~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Bukhara" }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

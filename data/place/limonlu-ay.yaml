@@ -1,0 +1,20 @@
+id: place/limonlu-ay
+class: place
+kind: province
+label: { ar: "نهر ليمونلو", en: "Limonlu Çayı" }
+summary:
+  ar: "مقاطعة."
+  en: "River in Mersin province, Turkey."
+wings: [place]
+coordinates: [36.558055555556, 34.247222222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3775655" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3775655 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

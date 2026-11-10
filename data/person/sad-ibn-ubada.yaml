@@ -39,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0637", hijri: "0016", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Syria — his grave is shown at al-Manihah in the Damascus Ghuta, though Sa'id ibn Abd al-Aziz places his death at Busra, the first Syrian town conquered (al-Isaba p. 559); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 - { type: died_in, target: place/al-shaykh-saad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q4703239)" }
@@ -56,6 +57,15 @@ relations:
   target: event/saqifa
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 558"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 558"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 3236، ص 558
@@ -70,6 +80,7 @@ provenance:
 external_ids: { wikidata: "Q1370750" }
 sources:
 - source/ibn-hajar-isaba
+importance: 2
 status:
   review: draft
   completeness: 3

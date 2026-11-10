@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أمير جند اليمن", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "خطب في الناس", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abu-said-al-khudri, role: "راوي الخطبة", sources: [source/ibn-hisham-saqqa] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "كيف يُقرأ خبر شكوى جند علي وقول النبي فيه؟", en: "How is the complaint of Ali's troops and the Prophet's words read?" }
 perspectives:
   - tradition: sunni

@@ -11,6 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1230", precision: year, status: tradition, derived: true }
   end: { edtf: "1230", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.7578, 35.1318]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1230"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة حماة ⁦(١٢٣٠)⁩", en: "Battle of Hama (1230)" }, at: [36.7578, 35.1318], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hama }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q141304699

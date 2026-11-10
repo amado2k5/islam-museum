@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 In Dhu al-Qa'da of the seventh year after the hijra, the Prophet set out with two thousand of his Companions — those who had witnessed the Hudaybiyya peace — carrying a rider's arms and sixty sacrificial camels, bound for Mecca to make up their umra as the Hudaybiyya terms prescribed. {cite:mubarakpuri-raheeq}
 
 When the Muslims drew near Mecca, Quraysh came out of their houses and climbed the hilltops — Jabal Qu'ayqi'an and Abu Qubays — to watch them; they had spread word that Yathrib's fever had stricken and worn out the Muslims. The Prophet ordered his companions to jog in the first three circuits and to bare the shoulder, showing sturdiness and strength, saying: "God have mercy on a man who shows them strength in himself today." {cite:sahih-al-bukhari}

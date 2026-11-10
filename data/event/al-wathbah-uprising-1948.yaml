@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1948", precision: year, status: tradition, derived: true }
   end: { edtf: "1948", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [44.3833, 33.3333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1948"
+  features:
+    - { type: point, role: event_point, label: { ar: "انتفاضة الوثبة", en: "al-Wathbah Uprising" }, at: [44.3833, 33.3333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/kingdom-of-iraq }
+sides:
+  - label: { ar: "متظاهرو الوثبة العراقيون", en: "The al-Wathbah demonstrators" }
+  - label: { ar: "الحكومة العراقية", en: "The Iraqi government" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4703337

@@ -12,6 +12,7 @@ summary:
 wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [levant-iraq]
+died: { edtf: "684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 4/152; d. 65 AH)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "From text: من فقهاء الكوفة", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
   - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }

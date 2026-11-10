@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Nizamuddin Ahmed Pasa)" }
 relations:
   - { type: born_in, target: place/anatolia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q51614)" }
 sources: [source/dawlat-uthmaniyya-salabi]

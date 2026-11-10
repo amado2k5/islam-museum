@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abu Abd Allah Muhammad ibn Yusuf al-Surayhi, known as Ibn Zamrak, was among the greatest poets and secretaries of al-Andalus. He was born in 733 AH / 1333 CE in the Rawd al-Bayyazin quarter of Granada, of humble origin, and studied under the qadi Abu al-Qasim al-Sharif al-Gharnati and under [[person/ibn-al-khatib|Ibn al-Khatib]].{cite:wikipedia-ibn-zamrak-ar}{cite:wikipedia-ibn-zamrak-es} His teacher introduced him at the Nasrid court; he accompanied Sultan Muhammad V into exile in Morocco, and when Muhammad was restored to the throne in 1361 he made Ibn Zamrak his private secretary and designated him court poet.{cite:wikipedia-ibn-zamrak-ar}{cite:wikipedia-ibn-zamrak-es}
 

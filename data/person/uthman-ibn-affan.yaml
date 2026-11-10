@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "Third caliph (644–656); the early community married him to two of the Prophet's daughters in succession. Under him the Qur'an was standardized into a single recension; he was killed by rebels in Medina, opening the first civil war. Abu Nu'aym's Ma'rifat entry on his lineage gives him as Uthman ibn Affan ibn Abi al-As ibn Umayya ibn Abd Shams ibn Abd Manaf, his mother Arwa bint Kurayz ibn Rabi'a ibn Habib ibn Abd Shams, whose mother was Umm Hakim bint Abd al-Muttalib known as al-Bayda' {cite:marifat-sahaba-abu-nuaym p.58}."
   ar: "ثالث الخلفاء الراشدين ⁦(644–656م)⁩؛ تزوج اثنتين من بنات النبي تباعًا. في عهده جُمع القرآن في مصحف معتمد؛ وقُتل على يد ثائرين في المدينة فافتُتحت الفتنة الأولى. وكان في نهاية الجود فسلك عماله طريقته، وخلف عند خازنه خمسين ومائة ألف دينار وألف ألف درهم وضياعاً بوادي القرى وحنين بمائة ألف دينار، ودفن بحش كوكب وكان ابن اثنتين وثمانين سنة {cite:muruj-al-dhahab p. 627-628}. ودافع ابن عمر عنه في الصحيح: أما فراره يوم أحد فالله قد عفا عنه، وأما تغيبه عن بدر فكانت تحته رقية بنت النبي مريضة فقال له «إن لك أجر رجل ممن شهد بدراً وسهمه»، وأما تغيبه عن بيعة الرضوان فلو كان أعزّ ببطن مكة منه لبعثه رسولاً {cite:sahih-al-bukhari 3699}. وعند مسلم جلس النبي لدخوله فسوّى ثيابه وقال لعائشة «ألا أستحي من رجل تستحي منه الملائكة» {cite:sahih-muslim 2401}، وتذكر «معرفة الصحابة» لأبي نعيم في ترجمة نسبه أن اسمه عثمان بن عفان بن أبي العاص بن أمية بن عبد شمس بن عبد مناف، وأن أمه أروى بنت كريز بن ربيعة بن حبيب بن عبد شمس وأمها أم حكيم بنت عبد المطلب المعروفة بالبيضاء {cite:marifat-sahaba-abu-nuaym p.58}."
+  ur: "تیسرے خلیفہ (644–656)؛ ابتدائی جماعت نے ان سے نبی کی دو بیٹیوں سے باری باری شادی کی؛ ان کے عہد میں قرآن معیار ہوا۔"
 wings: [people]
 themes: [scripture-and-its-sciences, civil-wars-and-revolts, development-of-law-theology-institutions]
 periods: [period/prophetic-era, period/rashidun]
@@ -26,6 +27,7 @@ faith:
 labelled:
   - { label: { en: "Dhu al-Nurayn (Possessor of the Two Lights)", ar: "ذو النورين" }, by: "Islamic tradition, for marrying two daughters of the Prophet in succession", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: ruled_over, target: polity/rashidun-caliphate, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: born_in, target: place/taif }
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/banu-umayya }
@@ -40,6 +42,7 @@ relations:
   - { type: commissioned, target: work/mushaf-uthmani, note: "The standard recension of the Qur'an produced under his caliphate.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/murder-of-uthman, role: victim, sources: [source/watt-1956-medina] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira] }
+  - { type: exemplifies, target: concept/asma-al-karim, sources: [source/ibn-sad-tabaqat-bewley] }
 issue: { ar: "كيف تُقيَّم خلافة عثمان بن عفان ومقتله؟", en: "How is Uthman ibn Affan's caliphate and his killing assessed?" }
 perspectives:
   - tradition: sunni
@@ -65,6 +68,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status: { review: published, completeness: 3, generated_by: "Devin; 2026-10-11" }
 external_ids: { wikidata: Q37731 }
 provenance:

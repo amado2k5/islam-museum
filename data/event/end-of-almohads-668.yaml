@@ -12,10 +12,14 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 relations:
   - { type: had_participant, target: person/al-wathiq-abu-dabus }
+  - { type: during_reign, target: person/abd-al-wahid-ii-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-3
+sides:
+  - label: { ar: "المرينيون", en: "The Marinids" }
+  - label: { ar: "الموحدون بقيادة الواثق أبو دابس", en: "The Almohads under al-Wathiq Abu Dabus" }
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

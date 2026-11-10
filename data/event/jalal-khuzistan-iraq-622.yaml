@@ -14,12 +14,23 @@ sides:
 relations:
   - { type: occurred_at, target: place/khuzistan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "الواصل", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-zahir-billah }
+  - { type: during_reign, target: person/al-nasir-billah }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch2
+map:
+  kind: campaign
+  precision: locality
+  center: [31.3183, 48.6706]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وصول جلال الدين إلى خوزستان والعراق", en: "Jalal al-Din reaches Khuzistan and Iraq" }, at: [31.3183, 48.6706], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

@@ -1,17 +1,18 @@
 id: person/khalid-ibn-al-walid
 class: person
-label: { en: "Khalid ibn al-Walid", ar: "خالد بن الوليد" }
+label: { en: "Khalid ibn al-Walid", ar: "خالد بن الوليد", ur: "خالد بن الوليد" }
 names:
   - { kind: full, lang: ar, value: "خالد بن الوليد بن المغيرة المخزومي" }
   - { kind: laqab, lang: ar-Latn, value: "Sayf Allah (the Sword of God)" }
 gender: male
 born: { edtf: "0585~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0642", calendar: julian, precision: year, status: debated, note: "Died in 21 AH (642 CE); sources differ between Homs and Medina as the place. Al-Umari states decisively that Umar dismissed him from Homs and he died in Medina, and that the famous tomb outside Homs is Khalid ibn Yazid ibn Mu'awiya's {cite:umari-masalik-1924 p. 219}.", sources: [source/ibn-sad-tabaqat-bewley, source/umari-masalik-1924] }
+died: { edtf: "0642", hijri: "0021", calendar: julian, precision: year, status: debated, derived: true, note: "Died 21 AH; most reports place him at Homs, though the funeral detail suggests Medina (al-Isaba p. 378); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [companion, general]
 traditions: [sunni]
 summary:
   en: "The great commander on both sides of the early wars: the cavalry leader who turned the day at Uhud for the Meccans, then converted in 629 and led the Muslim armies at Mu'ta, in the Ridda wars and at the Yarmuk. Al-Isaba's entry (no. 2236) has him among Quraysh's notables in the Jahiliyya holding their horse-reins, fighting with the Meccans up to the Hudaybiyya 'umra, and embracing Islam in year seven after Khaybar on one report {cite:ibn-hajar-isaba p. 379}."
   ar: "القائد العسكري الأبرز في جانبي الحروب الأولى: قائد خيل مكة الذي حوّل يوم أُحد، ثم أسلم سنة 629م فقاد جيوش المسلمين في مؤتة وحروب الردة واليرموك. وفي صحيح البخاري أن النبي قال يوم نعي قادة مؤتة «حتى أخذ الراية سيف من سيوف الله» — وبه اشتهر لقبه «سيف الله» {cite:sahih-al-bukhari 4262}، وتذكر الإصابة في ترجمته رقم ٢٢٣٦ أنه كان أحد أشراف قريش في الجاهلية وإليه أعنة الخيل، وشهد مع كفار قريش الحروب إلى عمرة الحديبية، ثم أسلم في سنة سبع بعد خيبر على قول وقيل قبلها {cite:ibn-hajar-isaba p. 379}."
+  ur: "دونوں طرف ابتدائی جنگوں کا عظیم سردار: احد میں مکیوں کے لیے دن پلٹنے والا سواریوں کا قائد، پھر 629ء میں مسلمان ہوا اور فاتح شام بنا۔"
 wings: [people]
 themes: [wars-and-campaigns, battles, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -48,6 +49,8 @@ relations:
   - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: persecuted, target: person/malik-ibn-nuwayra, note: "The affair of Malik ibn Nuwayra — killed by Khalid's troops in the Ridda wars — is contested in the sources.", sources: [source/tabari-donner-1993] }
   - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/quraysh, note: "of Banu Makhzum (al-Isaba p. 378)", sources: [source/ibn-hajar-isaba] }
+
 issue: { ar: "كيف يُقدَّر خالد بن الوليد، وكيف تُروى واقعة مالك بن نويرة؟", en: "How is Khalid ibn al-Walid assessed, and how is the Malik ibn Nuwayra episode told?" }
 perspectives:
   - tradition: sunni
@@ -75,6 +78,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status: { review: published, completeness: 3, generated_by: "Devin; 2026-10-11" }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"

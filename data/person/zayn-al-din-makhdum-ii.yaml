@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1531", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-Mujahidin" }
+died: { edtf: "1583", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-Mujahidin" }
 relations:
   - { type: born_in, target: place/mah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q277480)" }
 sources: [source/al-aalam]

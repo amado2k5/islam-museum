@@ -16,6 +16,7 @@ translations:
   en: { text: "Allah hath not appointed anything in the nature of a Bahirah or a Sa'ibah or a Wasilah or a Hami, but those who disbelieve invent a lie against Allah. Most of them have no sense.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "خدا نے نہ تو بحیرہ کچھ چیز بنایا ہے اور نہ سائبہ اور نہ وصیلہ اور نہ حام بلکہ کافر خدا پر جھوٹ افترا کرتے ہیں اور یہ اکثر عقل نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/camel, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: concept/sacred-livestock-jahiliyya }
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred

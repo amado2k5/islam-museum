@@ -11,7 +11,14 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1832", precision: year, status: tradition, derived: true }
   end: { edtf: "1832", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Assyrians", ar: "آشوريون/سريان/كلدان" }
+    participants: [group/assyrians]
+  - label: { en: "Soran Emirate", ar: "سورانيون" }
+    participants: [polity/soran-emirate]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q134238599
 provenance:

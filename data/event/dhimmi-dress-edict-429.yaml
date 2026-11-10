@@ -15,7 +15,8 @@ date:
   start: { edtf: "1038-04~", hijri: "0429-07", calendar: julian, precision: month, status: tradition, derived: true, note: "سلخ رجب ٤٢٩ {cite:muntazam-ibn-al-jawzi j.8 p.438}" }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
-  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة صاحب التوقيع", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/al-qadir-billah, role: "الخليفة صاحب التوقيع", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٩)، قراءة آبل فيجن، مسح AAlexandrina-224011"

@@ -1,6 +1,6 @@
 id: person/amr-ibn-salim
 class: person
-label: { en: "Amr ibn Salim al-Khuza'i", ar: "عمرو بن سالم الخزاعي" }
+label: { en: "Amr ibn Salim al-Khuza'i", ar: "عمرو بن سالم الخزاعي", ur: "عمرو بن سالم الخزاعي" }
 names:
   - { kind: full, lang: ar, value: "عمرو بن سالم الخزاعي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A man of Banu Ka'b of Khuza'a who stood before the Prophet in the Medina mosque and recited his famous plea for help after the al-Watir attack — 'that which stirred the conquest of Mecca', in Ibn Ishaq's words."
   ar: "رجل من بني كعب من خزاعة وقف على النبي في مسجد المدينة يناشده حلف الآباء بعد اعتداء الوتير، فكانت أبياته — بقول ابن إسحاق — «مما هاج فتح مكة»."
+  ur: "خزاعہ کے بنو کعب کا شخص جو مدینہ کی مسجد میں نبی کے سامنے کھڑا ہو کر وطیر کے حملے کے بعد اپنے مشہور استغاثہ پڑھا۔"
 wings: [people]
 themes: [literature, battles]
 periods: [period/prophetic-era]
@@ -18,6 +19,7 @@ story_roles:
   - { role: poet, status: tradition, note: "استغاثة بالنبي في مسجد المدينة بأبياته الشهيرة بعد التبييت على الوتير.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "استغاثته بالنبي وقوله «أسلمنا» في قصيدته." }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca'", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-kab-ibn-khuzaa }

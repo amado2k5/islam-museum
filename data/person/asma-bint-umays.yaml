@@ -21,6 +21,7 @@ story_roles:
   - { role: witness, status: tradition, note: "زوجة جعفر بن أبي طالب، شهدت يوم استشهاده.", sources: [source/ibn-hisham-saqqa-1936] }
 faith:
   - { value: sunni, basis: tradition }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: died_in, target: place/mutah, note: "From text: was killed at Mu'tah", sources: [source/ibn-hisham-saqqa-1936, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/sallabi-ali-vol1, source/assabile-tareq-al-suwaidan] }
   - { type: member_of, target: group/khathum }
@@ -34,6 +35,7 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 external_ids: { wikidata: "Q2739346" }
 sources: [source/ibn-hisham-saqqa-1936, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/muruj-al-dhahab, source/sallabi-ali-vol1, source/assabile-tareq-al-suwaidan]
+importance: 2
 status:
   review: draft
   completeness: 1

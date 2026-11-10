@@ -24,6 +24,15 @@ sides:
     commanders: [person/muhammad]
   - label: { en: "Ghatafan clans", ar: "جموع غطفان وثعلبة ومحارب" }
     participants: [group/ghatafan]
+map:
+  kind: campaign
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة ذات الرقاع", en: "The Expedition of Dhat al-Riqa'" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 380–383" }
 

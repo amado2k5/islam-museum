@@ -1,6 +1,6 @@
 id: person/umm-habiba-bint-abi-sufyan
 class: person
-label: { en: "Umm Habiba Ramlah bint Abi Sufyan", ar: "أم حبيبة رملة بنت أبي سفيان" }
+label: { en: "Umm Habiba Ramlah bint Abi Sufyan", ar: "أم حبيبة رملة بنت أبي سفيان", ur: "أم حبيبة رملة بنت أبي سفيان" }
 names:
   - { kind: full, lang: ar, value: "رملة بنت أبي سفيان بن حرب بن أمية" }
   - { kind: given, lang: ar, value: "رملة" }
@@ -11,6 +11,7 @@ traditions: [sunni]
 summary:
   en: "A daughter of Abu Sufyan ibn Harb and a wife of the Prophet — one of the Mothers of the Believers. When her father came to Medina to renew the truce she folded away the Prophet's bedding rather than let him sit on it."
   ar: "بنت أبي سفيان بن حرب وإحدى أمهات المؤمنين؛ هاجرت إلى الحبشة مع زوجها عبيد الله بن جحش وابنتها حبيبة، وكان اسمها رملة، ثم تنصّر زوجها بالحبشة بحسب ابن إسحاق وتزوجها النبي بعده. ولما جاء أبوها المدينة يستأنف العقد طوت فراش النبي دونه، فقال: أبالفراش بي رغبت أم بي؟ فقالت: هو فراش رسول الله وأنت رجل مشرك نجس، فلم أحب أن تجلس عليه."
+  ur: "ابو سفیان بن حرب کی بیٹی اور نبی کی بیوی — ام المؤمنین میں سے؛ جب ان کے والد مدینہ آئے تو ان کے واقعات مشہور ہیں۔"
 wings: [people]
 themes: [women, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -20,6 +21,8 @@ story_roles:
   - { role: family-of-the-prophet, start: { edtf: "0628~" }, end: { edtf: "0632" }, status: tradition, note: "زواجها بالنبي بعقد أنجزه النجاشي في الحبشة بحضور جعفر بن أبي طالب؛ كانت قريش قد بعثت عمرو بن العاص وعبد الله بن أبي ربيعة لطلب ردها.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "من المهاجرات إلى الحبشة وأمهات المؤمنين." }
+born: { edtf: "594~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; al-Isaba" }
+died: { edtf: "664", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; al-Isaba" }
 relations:
   - { type: member_of, target: group/banu-umayya }
   - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet." }
@@ -36,6 +39,7 @@ relations:
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 38–39", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 external_ids: { wikidata: "Q2138599" }
 sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/assabile-tareq-al-suwaidan]
+importance: 1
 status: { review: published, completeness: 3 }
 
 education:

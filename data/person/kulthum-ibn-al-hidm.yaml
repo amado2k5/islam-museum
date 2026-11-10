@@ -1,6 +1,6 @@
 id: person/kulthum-ibn-al-hidm
 class: person
-label: { en: "Kulthum ibn al-Hidm", ar: "كلثوم بن الهدم" }
+label: { en: "Kulthum ibn al-Hidm", ar: "كلثوم بن الهدم", ur: "كلثوم بن الهدم" }
 names:
   - { kind: full, lang: ar, value: "كلثوم بن الهدم الأنصاري" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "The Ansari of Banu Amr ibn Awf who hosted the Prophet at Quba — the better-attested report, though Sa'd ibn Khaythama is also named — and hosted Ali again when he caught up from Mecca."
   ar: "أنصاري من بني عمرو بن عوف نزل عليه النبي بقباء — وهو الأثبت وقيل سعد بن خيثمة — ونزل عليه علي بن أبي طالب كذلك لما لحق بهما من مكة."
+  ur: "بنو عمرو بن عوف کا انصاری جس نے قباء میں نبی کی میزبانی کی — زیادہ صحیح روایت، اگرچہ سعد بن خثیمہ کا نام بھی آتا ہے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -18,12 +19,15 @@ story_roles:
   - { role: host, start: { edtf: "0622-09" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري؛ يسجَّل في الإطار السني للمتحف." }
+died: { edtf: "0623", hijri: "0001", calendar: julian, precision: year, status: debated, derived: true, note: "The first of the Prophet's Companions to die at Medina per al-Tabari and Ibn Qutayba, before As'ad ibn Zurara (al-Isaba pp. 1288-1289); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/quba, confidence: low, note: "Associated with Quba per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/quba-sojourn, role: "مضيف النبي بقباء", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1288", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 171-172" }
 provenance:
   layer: own-research

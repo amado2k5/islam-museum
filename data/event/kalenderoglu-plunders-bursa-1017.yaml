@@ -13,6 +13,21 @@ date:
   start: { edtf: "1608", hijri: "1017", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 1017هـ/1608م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}." }
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات أحمد الأول", en: "The forces of Ahmed I" }
+    participants: [person/ahmad-i-uthmani]
+  - label: { ar: "حامية بورصة", en: "The defenders of Bursa" }
+    participants: [place/bursa]
+map:
+  kind: campaign
+  precision: locality
+  center: [40.1956, 29.0601]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "كلندر أوغلو ينهب بورصة", en: "Kalenderoğlu plunders Bursa" }, at: [40.1956, 29.0601], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: "own-research"

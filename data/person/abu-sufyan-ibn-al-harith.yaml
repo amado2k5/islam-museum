@@ -6,7 +6,7 @@ education:
     ur: "ابو سفیان بن حارث، نبی کے چچا زاد اور رضاعی بھائی، ان کے ساتھ بنوسعد میں حلیمہ کے پاس دودھ پیا اور ان کی گود میں رہا؛ پہلی دشمنی کے بعد وہ اسلام کے شاعروں میں شمار ہوا۔"
     sources: [source/tabaqat-ibn-sad, source/ibn-hisham-sira]
 class: person
-label: { en: "Abu Sufyan ibn al-Harith", ar: "أبو سفيان بن الحارث" }
+label: { en: "Abu Sufyan ibn al-Harith", ar: "أبو سفيان بن الحارث", ur: "أبو سفيان بن الحارث" }
 names:
   - { kind: full, lang: ar, value: "أبو سفيان بن الحارث بن عبد المطلب الهاشمي" }
 gender: male
@@ -15,6 +15,7 @@ traditions: [sunni]
 summary:
   en: "The Prophet's paternal cousin and milk-brother, fostered with him in Banu Sa'd under Halima's care; he later became one of the poets of Islam after initially opposing it."
   ar: "ابن عم النبي وأخوه من الرضاعة؛ رُضع معه في بني سعد عند حليمة — وكان يحضنه — وصار لاحقاً من شعراء الإسلام بعد خصومة أولى."
+  ur: "نبی کے چچا زاد اور رضاعی بھائی، حلیمہ کی نگرانی میں بنو سعد میں ان کے ساتھ پلے؛ بعد میں مکہ پر اپنے زہد کے بعد اسلام کے شاعروں میں ہوئے۔"
 wings: [people]
 themes: [family-marriage-kinship, literature]
 periods: [period/prophetic-era]
@@ -23,13 +24,16 @@ story_roles:
   - { role: family-of-the-prophet, status: tradition, note: "ابن عمه ورضيعه في بني سعد (الرحيق ص55).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم لاحقاً قرب فتح مكة على المشهور؛ قبل ذلك كان على دين قومه.", sources: [source/tabaqat-ibn-sad] }
+died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad, source/rijal-hawl-al-rasul-muqattam-1994], confidence: low }
   - { type: member_of, target: group/banu-hashim }
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/sahaba, sources: [source/tabaqat-ibn-sad] }
+  - { type: member_of, target: group/quraysh, note: "son of al-Harith ibn Abd al-Muttalib (al-Isaba p. 1687)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-hashim, note: "al-Isaba p. 1687", sources: [source/ibn-hajar-isaba] }
 external_ids: { wikidata: "Q1146625" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad, source/rijal-hawl-al-rasul-muqattam-1994]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/tabaqat-ibn-sad, source/rijal-hawl-al-rasul-muqattam-1994, source/ibn-hajar-isaba]
 status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 55" }
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 545-548"

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muridiyya Historical Records" }
+died: { edtf: "1991", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muridiyya Historical Records" }
 relations:
   - { type: lived_in, target: place/bilad-al-sudan, note: "Only the record-level region (west-africa-sahel) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -11,13 +11,28 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
 date:
   start: { edtf: "1344-03~", hijri: "0744~", calendar: julian, precision: year, status: tradition, derived: true, note: "وقع ضمن أخبار أبي الحسن وكتابه وصل مصر شعبان 745؛ التحويل مشتق {cite:nafh-tib-maqqari p. 390}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [-5.453, 36.1315]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1344"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط الجزيرة الخضراء وكسرة الأسطول", en: "The fall of al-Jazira al-Khadra and the breaking of the fleet" }, at: [-5.453, 36.1315], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 relations:
   - { type: had_participant, target: person/abu-al-hasan-al-marini, role: "أجاب الاستنفار فمُنع العبور واستنكرت مراكبه", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/jazirat-al-khadra }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 389–390"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-61
 external_ids: { wikidata: "Q3066445" }
+sides:
+  - label: { ar: "المرينيون بقيادة أبي الحسن", en: "The Marinids under Abu al-Hasan" }
+  - label: { ar: "المسيحيون", en: "The Christians" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

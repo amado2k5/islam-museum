@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1494", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Brunschvig (La Berberie orientale)" }
 relations:
 - { type: ruled_over, target: place/ifriqiya, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (ifriqiya)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

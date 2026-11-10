@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0930", precision: year, status: tradition, derived: true }
   end: { edtf: "0932", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-4.0226, 39.8581]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0930"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار طليطلة ⁦(٩٣٠–٩٣٢)⁩", en: "Siege of Toledo (930–32)" }, at: [-4.0226, 39.8581], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/tulaytula }
+sides:
+  - label: { ar: "قوات عبد الرحمن الناصر لدين الله الأموي", en: "The forces of Abd al-Rahman al-Nasir li-Din Allah al-Umawi" }
+    participants: [person/abd-al-rahman-iii-al-nasir]
+  - label: { ar: "حامية طليطلة", en: "The defenders of Toledo" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124022690

@@ -15,6 +15,19 @@ relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/murad-i-uthmani, role: "السلطان الذي تم الفتح في عهده", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/lala-shahin-pasha, role: "قائد الجيش الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "جيش مراد الأول", en: "Murad I's army" }
+    commanders: [person/murad-i-uthmani, person/lala-shahin-pasha]
+  - label: { ar: "أدرنة", en: "Edirne" }
+map:
+  kind: campaign
+  precision: locality
+  center: [41.6772, 26.556]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أدرنة", en: "Ottoman conquest of Edirne" }, at: [41.6772, 26.556], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi, source/freely-ottoman-architecture-2011]
 provenance:
   layer: own-research

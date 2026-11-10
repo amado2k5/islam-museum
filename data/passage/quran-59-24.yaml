@@ -17,6 +17,11 @@ translations:
   ur: { text: "وہی خدا (تمام مخلوقات کا) خالق۔ ایجاد واختراع کرنے والا صورتیں بنانے والا اس کے سب اچھے سے اچھے نام ہیں۔ جتنی چیزیں آسمانوں اور زمین میں ہیں سب اس کی تسبیح کرتی ہیں اور وہ غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
+  - { type: mentions, target: concept/asma-al-khaliq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-bari, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-musawwir, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-aziz, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-hakim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -11,6 +11,18 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1249", precision: year, status: tradition, derived: true }
   end: { edtf: "1250", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [31.82138888888889, 31.416666666666668]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1249"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار دمياط ⁦(١٢٤٩)⁩", en: "Siege of Damietta" }, at: [31.82138888888889, 31.416666666666668], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/dimyat }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q1876031

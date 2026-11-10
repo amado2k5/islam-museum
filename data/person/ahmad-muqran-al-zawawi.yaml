@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1853", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: allied_with, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }

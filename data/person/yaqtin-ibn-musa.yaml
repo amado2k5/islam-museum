@@ -12,6 +12,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch43
+born: { edtf: "714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+died: { edtf: "801", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
 relations:
   - { type: traveled_to, target: place/khorasan, sources: [source/muruj-al-dhahab] }
 sources: [source/muruj-al-dhahab]

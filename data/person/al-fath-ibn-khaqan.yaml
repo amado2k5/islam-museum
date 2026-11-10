@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "817", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "861", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: died_in, target: place/samarra, note: "Al-Mutawakkil's vizier, slain with him in the night-murder by five Turks on 5 Shawwal 247 at Samarra.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: medium }
   - { type: related_to, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -12,12 +12,27 @@ relations:
   - { type: occurred_at, target: place/qazvin, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-bara-ibn-azib, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-mughira-ibn-shuba, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch6
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية قزوين", en: "The defenders of None" }
+    participants: [place/qazvin]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.28543666666667, 50.0041]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قزوين وزنجان", en: "Conquest of Qazvin and Zanjan (22 AH)" }, at: [36.28543666666667, 50.0041], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

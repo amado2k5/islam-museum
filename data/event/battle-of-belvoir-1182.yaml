@@ -11,6 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1182", precision: year, status: tradition, derived: true }
   end: { edtf: "1182", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.521388888889, 32.595555555556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1182"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كوكب الهوا", en: "Battle of Belvoir Castle" }, at: [35.521388888889, 32.595555555556], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/belvoir-fortress }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "الصليبيون", en: "The Crusaders" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q1836863

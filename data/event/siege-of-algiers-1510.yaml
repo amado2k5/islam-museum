@@ -11,7 +11,22 @@ regions: [maghreb]
 date:
   start: { edtf: "1510", precision: year, status: tradition, derived: true }
   end: { edtf: "1510", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Catholic Monarchy", ar: "الملكية الكاثوليكية" }
+  - label: { en: "Thaaliba", ar: "الثعالبة" }
+map:
+  kind: siege
+  precision: locality
+  center: [3.08746, 36.73225]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1510"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الجزائر ⁦(١٥١٠)⁩", en: "Siege of Algiers (1510)" }, at: [3.08746, 36.73225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/algiers }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q28497078
 provenance:

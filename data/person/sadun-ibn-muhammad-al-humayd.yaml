@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+died: { edtf: "1723", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Unwan al-Majd" }
 relations:
   - { type: died_in, target: place/jandal-yat-jah-m, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q32126307)" }
 sources: [source/al-aalam]

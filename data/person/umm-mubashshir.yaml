@@ -3,6 +3,7 @@ class: person
 label:
   ar: أم مبشر بنت البراء بن معرور
   en: Umm Mubashshir bint al-Bara' ibn Ma'rur
+  ur: "أم مبشر بنت البراء بن معرور"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: أنصارية بنت البراء بن معرور؛ روى عنها جابر بن عبد الله حديثاً في أن أصحاب الشجرة لا يدخلون النار، وذُكر حديثها في مرض النبي حين قالت إنها لا تتهم بابنها بشر إلا الشاة المسمومة التي أكل معه.
   en: An Ansari woman, daughter of al-Bara' ibn Ma'rur; Jabir ibn Abdullah narrated from her the hadith that none of the people of the tree will enter the Fire, and her words are recorded at the Prophet's last illness, where she said she blamed
     her son Bishr's death only on the poisoned sheep he had eaten with the Prophet.
+  ur: "انصاری خاتون، براء بن معرور کی بیٹی؛ جابر بن عبد اللہ نے ان سے وہ حدیث روایت کی کہ اہل عقبہ میں سے کوئی جنت سے محروم نہیں۔"
 wings: [people]
 themes:
 - women
@@ -37,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, Tahdhib al-Kamal; al-Isaba" }
 relations:
 
 - { type: lived_in, target: place/al-shajara, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba] }
@@ -48,6 +51,15 @@ relations:
   target: group/ansar
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 2035"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/banu-al-najjar
+  note: "daughter of al-Bara' ibn Ma'rur (al-Isaba p. 2035)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12285، ص 2035

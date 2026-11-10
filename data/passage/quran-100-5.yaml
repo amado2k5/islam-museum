@@ -16,6 +16,7 @@ translations:
   en: { text: "Cleaving, as one, the centre (of the foe),", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر اس وقت دشمن کی فوج میں جا گھستے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/horse, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-100 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

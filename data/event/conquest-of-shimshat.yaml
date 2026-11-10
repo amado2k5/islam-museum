@@ -17,10 +17,24 @@ relations:
   - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "أحد الفاتحَين ثم أوطنها وتوفي بها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "الأمِر بالغزو والي الجزيرة والثغور", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: "جامع الولاية لمعاوية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
+sides:
+  - label: { ar: "جيش حبيب بن مسلمة الفهري", en: "Habib ibn Maslama al-Fihri's army" }
+    commanders: [person/habib-ibn-maslama, person/safwan-ibn-al-muattal]
+  - label: { ar: "شمشاط", en: "Shimshat (Arsamosata)" }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.68, 39.22]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح شمشاط", en: "The Conquest of Shimshat" }, at: [38.68, 39.22], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

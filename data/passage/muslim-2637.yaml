@@ -8,9 +8,11 @@ text: "قال رسول الله: «إن الله إذا أحب عبداً دعا
 summary:
   ar: "رواية أبي هريرة في باب إذا أحب الله عبداً حببه إلى عباده من كتاب البر في صحيح مسلم؛ تدرج المحبة من الله إلى جبريل إلى أهل السماء إلى قبول الأرض — وفسر به سهيل بن أبي صالح محبة الناس لعمر بن عبد العزيز في الموسم."
 relations:
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/jibril, sources: [source/sahih-muslim] }
+tags: [hadith-qudsi, qudsi-hubb-allah-lil-abd]
 provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب إذا أحب الله عبداً حببه إلى عباده (طبعة دار التأصيل، الحديث ٢٧٢٦؛ ترقيم عبد الباقي المعروف 2637)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
 sources: [source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

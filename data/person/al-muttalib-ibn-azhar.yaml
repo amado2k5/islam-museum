@@ -1,6 +1,6 @@
 id: person/al-muttalib-ibn-azhar
 class: person
-label: { en: Al-Muttalib ibn Azhar, ar: "المطلب بن أزهر" }
+label: { en: Al-Muttalib ibn Azhar, ar: "المطلب بن أزهر", ur: "المطلب بن أزهر" }
 names:
   - { kind: full, lang: ar, value: "المطلب بن أزهر بن عبد عوف بن عبد بن الحارث بن زهرة" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني زهرة، هاجر إلى الحبشة مع امرأته رملة بنت أبي عوف وهلك بها، وولد له هناك عبد الله."
   en: Of Banu Zuhra; he emigrated to Abyssinia with his wife Ramla bint Abi Awf and died there, and his son Abdullah was born to him there.
+  ur: "بنو زہرہ کے؛ بیوی رملہ بنت ابی عوف کے ساتھ حبشہ ہجرت کیے اور وہیں فوت ہوئے، اور ان کا بیٹا عبد اللہ وہیں پیدا ہوا۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص7)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة مع امرأته رملة بنت أبي ", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-zuhra, sources: [source/ibn-hisham-saqqa] }
@@ -24,13 +26,16 @@ relations:
   - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "Zuhri Qurashi (al-Isaba p. 1422)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia in the second migration and died there — his son Abdullah was the first heir in Islam (al-Isaba p. 1422)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch117
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

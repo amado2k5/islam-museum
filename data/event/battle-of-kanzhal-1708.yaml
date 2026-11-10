@@ -11,7 +11,14 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1708-09-18", precision: year, status: tradition, derived: true }
   end: { edtf: "1708-09-18", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+    participants: [polity/crimean-khanate]
+  - label: { en: "Kabardia", ar: "قبارديا" }
+    participants: [polity/kabardia]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4212420
 provenance:

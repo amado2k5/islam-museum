@@ -1,0 +1,20 @@
+id: place/black-sea-region
+class: place
+kind: region
+label: { ar: "منطقة البحر الأسود", en: "Black Sea Region" }
+summary:
+  ar: "إقليم."
+  en: "Geographical region of Turkey."
+wings: [place]
+coordinates: [41, 36]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q155533" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q155533 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

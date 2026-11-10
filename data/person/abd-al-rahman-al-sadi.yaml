@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1594", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Sudan; EI2 (b. 1004 AH" }
+died: { edtf: "1656~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Sudan; EI2 (b. 1004 AH" }
 relations:
   - { type: lived_in, target: place/timbuktu, note: "From text: of Timbuktu", sources: [source/al-aalam], confidence: low }

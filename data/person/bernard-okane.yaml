@@ -11,6 +11,7 @@ regions: [egypt-nile]
 gender: male
 roles: [scholar, historian]
 periods: [period/contemporary-era]
+born: { edtf: "1946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Academic directories/AUC faculty" }
 relations:
   - { type: lived_in, target: place/hijr, confidence: low, note: "Associated with الحجر per the record's own summary text; relation type pending review.", sources: [source/okane-monumental-calligraphy-fatimid-egypt] }
   - { type: authored, target: work/monumental-calligraphy-in-fatimid-egypt, sources: [source/okane-monumental-calligraphy-fatimid-egypt] }

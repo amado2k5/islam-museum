@@ -36,6 +36,15 @@ sides:
       status: tradition
       note: "سيدهم عمرو بن مخشي الضمري؛ وادعهم النبي وعقد معهم معاهدة حلف"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [23.1064, 39.0886]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة الأبواء ⁦(ودان)⁩", en: "Expedition of al-Abwa (Waddan)" }, at: [23.1064, 39.0886], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira, source/muhammad-qaid-al-aala-azhar]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 198" }
 

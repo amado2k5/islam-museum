@@ -15,6 +15,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/gunpowder-empires]
+born: { edtf: "1500", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1558", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/france, confidence: low, note: "Associated with فرنسا per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -29,6 +31,7 @@ provenance:
   model: "SWE-2 Medium"
   run: lib-salabi-uthmani-batch-8
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+importance: 2
 status:
   review: draft
   completeness: 2

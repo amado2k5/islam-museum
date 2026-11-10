@@ -13,6 +13,7 @@ roles: [ruler, military-leader]
 wings: [people]
 periods: [period/colonial-era]
 regions: [anatolia-balkans]
+died: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/sicill-i-osmani] }
 sources: [source/sicill-i-osmani]

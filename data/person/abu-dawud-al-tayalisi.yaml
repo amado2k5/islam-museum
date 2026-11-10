@@ -17,6 +17,8 @@ sources: [source/muruj-al-dhahab, source/wikidata]
 status:
   review: published
   completeness: 3
+born: { edtf: "751", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
 relations:
   - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

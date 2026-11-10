@@ -17,6 +17,7 @@ translations:
   ur: { text: "لیکن جب وہ ان کو نجات دے دیتا ہے تو ملک میں ناحق شرارت کرنے لگتے ہیں۔ لوگو! تمہاری شرارت کا وبال تمہاری ہی جانوں پر ہوگا تم دنیا کی زندگی کے فائدے اُٹھا لو۔ پھر تم کو ہمارے پاس لوٹ کر آنا ہے۔ اس وقت ہم تم کو بتائیں گے جو کچھ تم کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v15]

@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0707", precision: year, status: tradition, derived: true }
   end: { edtf: "0709", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.611111111111114, 37.848055555555554]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0707"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طوانة", en: "Siege of Tyana" }, at: [34.611111111111114, 37.848055555555554], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tyana }
+sides:
+  - label: { ar: "قوات الوليد بن عبد الملك", en: "The forces of al-Walid ibn Abd al-Malik" }
+    participants: [person/al-walid-ibn-abd-al-malik]
+  - label: { ar: "حامية طوانة", en: "The defenders of Tyana" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q815221

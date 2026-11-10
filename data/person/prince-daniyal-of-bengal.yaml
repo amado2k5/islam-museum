@@ -9,6 +9,7 @@ wings: [people]
 themes: [architecture, politics-governance-and-authority]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
+died: { edtf: "1500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: History of Bengal (Jadunath Sarkar)" }
 relations:
   - { type: lived_in, target: place/bengal, sources: [source/welch-india-art-and-culture-1985] }
   - { type: child_of, target: person/alauddin-husain-shah-bengal, sources: [source/welch-india-art-and-culture-1985] }

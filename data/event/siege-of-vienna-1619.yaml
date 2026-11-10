@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1619", precision: year, status: tradition, derived: true }
   end: { edtf: "1619", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [16.3725, 48.2083]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1619"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار فيينا", en: "Siege of Vienna (1619)" }, at: [16.3725, 48.2083], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/uthman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/vienna }
+sides:
+  - label: { ar: "قوات مصطفى الأول", en: "The forces of Mustafa I" }
+    participants: [person/mustafa-i-uthmani]
+  - label: { ar: "حامية فيينا", en: "The defenders of Vienna" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130803598

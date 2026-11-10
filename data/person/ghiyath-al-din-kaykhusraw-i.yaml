@@ -9,6 +9,7 @@ roles: [ruler]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
+died: { edtf: "1211", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/konya, confidence: low, note: "Associated with قونية per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

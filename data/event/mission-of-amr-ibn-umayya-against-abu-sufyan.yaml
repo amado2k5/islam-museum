@@ -18,10 +18,24 @@ relations:
   - { type: had_participant, target: person/amr-ibn-umayya-al-damri, role: "المبعوث وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/jabbar-ibn-sakhr, role: "صاحبه الأنصاري", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "المقصود بالقتل؛ لم يُصل إليه", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/khubayb-ibn-adi, role: "أُنزلت خشبته", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/khubayb-ibn-adi, role: "أُنزلت خشبته", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-al-dil, role: "الشيخ الأعور المقتول منهم", sources: [source/ibn-hisham-saqqa] }
   - { type: caused_by, target: event/incident-of-al-raji, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 282-284", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "عمرو بن أمية وصاحبه", en: "Amr ibn Umayya and his companion" }
+    commanders: [person/amr-ibn-umayya-al-damri, person/jabbar-ibn-sakhr]
+  - label: { ar: "أبو سفيان وحرسه", en: "Abu Sufyan and his guard" }
+    commanders: [person/abu-sufyan-ibn-harb]
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "بعث عمرو بن أمية الضمري لقتل أبي سفيان وما صنع في طريقه", en: "The dispatch of Amr ibn Umayya al-Damri to kill Abu Sufyan, and what he did on the way" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 282-284" }

@@ -13,6 +13,8 @@ themes: [women, spirituality-and-sufism]
 regions: [arabia]
 faith:
   - { value: sunni, basis: tradition, note: "مذكورة بين العابدات في صفة الصفوة لابن الجوزي؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/sifat-al-safwa-tartusi-2012] }
+born: { edtf: "730~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Hatim (al-Jarh)" }
+died: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Hatim (al-Jarh)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/sifat-al-safwa-tartusi-2012] }
   - { type: child_of, target: person/muhammad-ibn-al-munkadir, sources: [source/sifat-al-safwa-tartusi-2012] }

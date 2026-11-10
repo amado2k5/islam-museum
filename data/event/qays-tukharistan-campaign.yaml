@@ -10,6 +10,19 @@ relations:
   - { type: had_participant, target: person/qays-ibn-al-haytham, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/siminjan }
 wings: [time]
+sides:
+  - label: { ar: "جيش قيس بن الهيثم السلمي", en: "Qays ibn al-Haytham al-Sulami's army" }
+    commanders: [person/qays-ibn-al-haytham]
+  - label: { ar: "سمنجان", en: "Siminjan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2644, 68.0158]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سيرة قيس بن الهيثم بطخارستان", en: "Qays ibn al-Haytham's Tukharistan March" }, at: [36.2644, 68.0158], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

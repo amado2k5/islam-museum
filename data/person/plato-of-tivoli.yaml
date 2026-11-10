@@ -13,6 +13,8 @@ floruit: { edtf: "1136", calendar: julian, precision: year, status: historical, 
 wings: [people]
 themes: [translation-and-transmission, astronomy-and-timekeeping]
 regions: [andalus-europe]
+born: { edtf: "1134", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dictionary of Scientific Biography" }
+died: { edtf: "1145", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dictionary of Scientific Biography" }
 relations:
   - { type: lived_in, target: place/barcelona, sources: [source/nallino-albatenii-opus-astronomicum] }
   - { type: authored, target: work/de-motu-stellarum-plato-tiburtinus, role: "مترجم", sources: [source/nallino-albatenii-opus-astronomicum] }

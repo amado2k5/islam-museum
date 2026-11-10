@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abdul Ahad Dar (1903 – 4 April 1948), known by his final pen name Azad, was a Kashmiri poet, historian and literary critic from Rangar village in Chadoora, Budgam. Educated in a madrassa by his father Muhammad Sultan Dar and qualified through the Punjab University's Munshi Alim examination, he earned his living as a government schoolteacher of Arabic, posted to Zowhama and then Tral.{cite:wikipedia-abdul-ahad-azad-en}{cite:wikipedia-abdul-ahad-azad-ks} He is regarded as the first revolutionary poet of Kashmiri literature and the founder of its literary criticism, and his three-volume Kashmiri Zaban aur Shairi, published posthumously by the Jammu and Kashmir Academy of Art, Culture and Languages (1959–1963), is the first history of the Kashmiri language and its poetry.{cite:wikipedia-abdul-ahad-azad-en}
 

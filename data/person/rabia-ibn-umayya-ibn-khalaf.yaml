@@ -1,6 +1,6 @@
 id: person/rabia-ibn-umayya-ibn-khalaf
 class: person
-label: { en: "Rabi'a ibn Umayya ibn Khalaf", ar: "ربيعة بن أمية بن خلف" }
+label: { en: "Rabi'a ibn Umayya ibn Khalaf", ar: "ربيعة بن أمية بن خلف", ur: "ربيعة بن أمية بن خلف" }
 names:
   - { kind: full, lang: ar, value: "ربيعة بن أمية بن خلف الجمحي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "Qurashi Companion with a powerful voice who stood at Arafat relaying the Prophet's Farewell Sermon phrase by phrase to the vast crowd."
   ar: "صحابي قرشي جمهوري الصوت، وقف بعرفة يصرخ في الناس بقول النبي في خطبة الوداع ينقلها مقطعاً مقطعاً إلى الجمع الغفير."
+  ur: "بلند آواز والا قریشی صحابی جو عرفات میں نبی کے خطبۃ حجۃ الوداع کو جملہ جملہ عوام تک پہنچاتا تھا۔"
 wings: [people]
 themes: [pilgrimages-and-mass-gatherings]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "الذي كان يصرخ في الناس بقول رسول الله بعرفة.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: sunni, basis: tradition }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 relations:
   - { type: member_of, target: group/banu-jumah }
   - { type: participated_in, target: event/farewell-sermon-at-arafat, role: "المبلّغ صوت النبي إلى الناس", sources: [source/mubarakpuri-raheeq] }

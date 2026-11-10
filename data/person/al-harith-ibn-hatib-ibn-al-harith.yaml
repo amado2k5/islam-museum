@@ -1,6 +1,6 @@
 id: person/al-harith-ibn-hatib-ibn-al-harith
 class: person
-label: { en: Al-Harith ibn Hatib, ar: "الحارث بن حاطب" }
+label: { en: Al-Harith ibn Hatib, ar: "الحارث بن حاطب", ur: "الحارث بن حاطب" }
 names:
   - { kind: full, lang: ar, value: "الحارث بن حاطب بن الحارث" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "ابن حاطب بن الحارث وفاطمة بنت المجلل، قدم مع أمه وأخيه في إحدى السفينتين."
   en: Son of Hatib ibn al-Harith and Fatima bint al-Mujallal; he arrived with his mother and brother in one of the ships.
+  ur: "حاطب بن حارث اور فاطمہ بنت مجلل کے فرزند؛ والدہ اور بھائی کے ساتھ ایک کشتی میں پہنچے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص7)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "686~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mizzi (Tahdhib al-Kamal 5/214; d. ~66 AH)" }
 relations:
   - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/hatib-ibn-al-harith-jumahi, sources: [source/ibn-hisham-saqqa] }

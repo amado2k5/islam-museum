@@ -6,7 +6,10 @@ summary:
   en: "In al-Baladhuri: succeeded al-Mufarraj ibn Sallam in the Great Land and sent his envoy to al-Mutawakkil asking patent and letter of appointment; al-Mutawakkil died before the envoy reached him — one copy reads 'Sudan' — and the contract stayed until Wasif the caliph's mawla contracted and dispatched it in al-Musta'in's time."
 wings: [people]
 gender: male
+born: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+died: { edtf: "866~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
 relations:
+  - { type: ruler_of, target: place/bari, note: "Sawdan (Sawran), third Emir of Bari, per Futuh al-Buldan vol. 1 p. 277.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/al-mufarraj-fortresses, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

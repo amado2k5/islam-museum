@@ -12,6 +12,8 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14]
+born: { edtf: "1355", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+died: { edtf: "1418", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14], confidence: low }
   - { type: authored, target: work/subh-al-asha, sources: [source/subh-al-asha-cairo-v1] }

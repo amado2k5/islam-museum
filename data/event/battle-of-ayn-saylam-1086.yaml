@@ -11,7 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1086", precision: year, status: tradition, derived: true }
   end: { edtf: "1086", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [37.1612, 36.2012]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1086"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة عين سيلم", en: "Battle of Ayn Saylam" }, at: [37.1612, 36.2012], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/aleppo }
+sides:
+  - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
+    participants: [polity/seljuk-empire]
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q9172722
 provenance:

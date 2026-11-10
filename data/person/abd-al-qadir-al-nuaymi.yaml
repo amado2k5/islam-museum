@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "1442", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daris fi Tarikh al-Madaris; al-Daw' al-Lami (845–927 AH)" }
+died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daris fi Tarikh al-Madaris; al-Daw' al-Lami (845–927 AH)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "From text: مؤرخ دمشق ومحدثها الشافعي", sources: [source/shadharat-dhahab], confidence: low }

@@ -15,5 +15,6 @@ provenance:
   run: lib-tabari-96-130-04
 sources: [source/tabari-khayyat-part2, source/ush-kanz-umm-hajara-1972]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/kufa, note: "From text: عمل على الكوفة ملحان الشيباني ثم المثن", sources: [source/tabari-khayyat-part2, source/ush-kanz-umm-hajara-1972] }

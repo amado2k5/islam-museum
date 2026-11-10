@@ -14,6 +14,21 @@ date:
   end: { edtf: "1913", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمد الخامس رشاد", en: "The forces of Mehmed V Resad" }
+    participants: [person/mehmed-v-uthmani]
+  - label: { ar: "حامية أدرنة", en: "The defenders of Edirne" }
+    participants: [place/edirne]
+map:
+  kind: siege
+  precision: locality
+  center: [41.6772, 26.556]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أدرنة", en: "Siege of Adrianople" }, at: [41.6772, 26.556], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2887868

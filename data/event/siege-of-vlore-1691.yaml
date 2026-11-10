@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1691", precision: year, status: tradition, derived: true }
   end: { edtf: "1691", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [19.483333333333, 40.45]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1691"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أفلورة ⁦(١٦٩١)⁩", en: "Siege of Vlorë (1691)" }, at: [19.483333333333, 40.45], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/vlor }
+sides:
+  - label: { ar: "قوات سليمان الثاني", en: "The forces of سليمان الثاني" }
+    participants: [person/sulayman-ii-uthmani]
+  - label: { ar: "حامية أفلورة", en: "The defenders of Vlorë" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118929976

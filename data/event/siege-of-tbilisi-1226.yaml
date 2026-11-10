@@ -11,7 +11,26 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1226", precision: year, status: tradition, derived: true }
   end: { edtf: "1226", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
+    participants: [polity/khwarazmian-empire]
+  - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
+    participants: [polity/kingdom-of-georgia]
+map:
+  kind: siege
+  precision: locality
+  center: [44.7925, 41.7225]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1226"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تفليس ⁦(١٢٢٦)⁩", en: "Siege of Tbilisi (1226)" }, at: [44.7925, 41.7225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tiflis }
+- { type: during_reign, target: person/al-zahir-billah }
+- { type: during_reign, target: person/al-mustansir-billah }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q116769199
 provenance:

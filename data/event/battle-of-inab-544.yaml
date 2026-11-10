@@ -11,6 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1149", precision: year, status: tradition, derived: true }
   end: { edtf: "1149", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.95361111, 36.51805556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1149"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة عناب", en: "Battle of Inab" }, at: [36.95361111, 36.51805556], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/inab }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q1328380

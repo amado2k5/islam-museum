@@ -9,6 +9,21 @@ wings: [time]
 date:
   start: { hijri: "0223", precision: year, status: debated, note: "ج9 ص57: 223هـ؛ وقيل 224هـ أو 222هـ في تاريخ الشخوص", sources: [source/tabari-tarikh-abu-al-fadl] }
 external_ids: { wikidata: "Q1669285" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.2892, 39.0206]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح عمورية", en: "Conquest of Amorium" }, at: [31.2892, 39.0206], precision: locality, source: source/tabari-tarikh-abu-al-fadl }
+  sources: [source/tabari-tarikh-abu-al-fadl]
+relations:
+- { type: occurred_at, target: place/ammuriyya }
+sides:
+  - label: { ar: "الجيش العباسي بقيادة المعتصم", en: "The Abbasid army under al-Mu'tasim" }
+  - label: { ar: "البيزنطيون", en: "The Byzantines" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 15", sources: [source/tabari-tarikh-abu-al-fadl] }
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read; cites juz'/page of the scan" }

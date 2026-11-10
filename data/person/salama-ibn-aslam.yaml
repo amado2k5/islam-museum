@@ -3,19 +3,26 @@ class: person
 label:
   ar: "سلمة بن أسلم"
   en: "Salama ibn Aslam"
+  ur: "سلمة بن أسلم"
 roles: [companion]
 gender: male
 summary:
   ar: "سلمة بن أسلم الخزرجي، صحابي بدري أحدي، استشهد في موقعة الجسر سنة 14هـ ⁦(635م)⁩."
   en: "Salama ibn Aslam al-Ansari (575–635), Companion of Badr, martyred at the Bridge of Abu 'Ubayd."
+  ur: "سلامہ بن اسلم الانصاری، بدر کا صحابی، ابو عبید کے پل پر شہید ہوا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed on the day of Abu Ubayd's bridge (Abu Hatim, al-Isaba p. 596); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: traveled_to, target: place/badr, sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
   - { type: member_of, target: group/ansar, sources: [source/al-aalam] }
+  - { type: member_of, target: group/ansar, note: "Harithi Khazraji (al-Isaba p. 596)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "Ibn Ishaq names him among the Badriyya (al-Isaba p. 596)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-the-bridge, note: "al-Isaba p. 596", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12216553
 provenance:

@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [sultan, poet, patron]
+born: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Firishta (Tarikh-i Firishta)" }
+died: { edtf: "1612", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Firishta (Tarikh-i Firishta)" }
 relations:
   - { type: lived_in, target: place/hyderabad-deccan, sources: [source/zebrowski-deccani-painting-1983] }
 sources: [source/zebrowski-deccani-painting-1983]

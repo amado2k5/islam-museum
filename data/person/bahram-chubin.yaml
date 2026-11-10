@@ -11,6 +11,7 @@ roles: [general]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [persia-central-asia]
+died: { edtf: "591", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Bahram VI Cobin)" }
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/hormizd-iv-ibn-khosrow-i, note: "قائده ثم خلعه", sources: [source/kamil-ibn-al-athir] }

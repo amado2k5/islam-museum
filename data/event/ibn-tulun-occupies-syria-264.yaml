@@ -18,6 +18,20 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الفاتح المُضِمّ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/lulu-al-tuluni, role: "النائب على حمص وحلب وقنسرين وديار مضر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش أحمد بن طولون", en: "Ahmad ibn Tulun's army" }
+    commanders: [person/ahmad-ibn-tulun]
+  - label: { ar: "دمشق", en: "Damascus" }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ابن طولون يضم الشام إلى مصر، ٢٦٤هـ/٨٧٨م", en: "Ibn Tulun annexes Syria to Egypt, 264/878" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

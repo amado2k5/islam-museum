@@ -3,6 +3,7 @@ class: person
 label:
   ar: ثوبان مولى النبي
   en: Thawban, freedman of the Prophet
+  ur: "ثوبان مولى النبي"
 names:
 - kind: full
   lang: ar
@@ -15,6 +16,7 @@ traditions:
 summary:
   ar: صحابي مشهور يقال إنه من حكم بن سعد حمير وقيل من السراة؛ اشتراه النبي ثم أعتقه فخدمه إلى أن مات، ثم سكن الرملة ثم حمص وتوفي بها سنة 54هـ.
   en: A well-known Companion said to be of the Hakam ibn Sa'd of Himyar, or from the Sarat; the Prophet bought and freed him, and he served him until his death, then lived in al-Ramla and Homs, where he died in 54 AH.
+  ur: "مشہور صحابی، حمیر کے حکم بن سعد سے یا سراة سے کہا جاتا ہے؛ نبی نے خریدا اور آزاد کیا اور وہ خدمت کرتا رہا۔"
 wings: [people]
 themes:
 - slavery-and-freedom
@@ -45,5 +47,7 @@ sources:
 status:
   review: published
   completeness: 3
+died: { edtf: "0674~", hijri: "0054", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Homs in 54 AH, after Ibn Sa'd (al-Isaba p. 191); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/ramla, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba, source/assabile-mustafa-hosny] }
+  - { type: died_in, target: place/homs, note: "al-Isaba p. 191", sources: [source/ibn-hajar-isaba] }

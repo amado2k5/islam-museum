@@ -3,18 +3,25 @@ class: person
 label:
   ar: "قريبة الصغرى بنت أبي أمية"
   en: "Qurayba al-Sughra bint Abi Umayya"
+  ur: "قريبة الصغرى بنت أبي أمية"
 roles: [companion]
 gender: female
 summary:
-  ar: "بطاقة أولية لقريبة الصغرى بنت أبي أمية بن المغيرة المخزومية، صحابية القرن السابع؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Qurayba al-Sughra bint Abi Umayya ibn al-Mughira al-Makhzumiyya, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "صحابية قرشية ورد اسمها في كتب التراجم."
+  en: "A Qurashi woman Companion named in the biographical works."
+  ur: "سیرت کی کتابوں میں مذکور قریشی صحابیہ۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}
  - { type: born_in, target: place/hijaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q169977)" }
+ - { type: member_of, target: group/quraysh, note: "Makhzumiyya, sister of Umm Salama (al-Isaba p. 1946)", sources: [source/ibn-hajar-isaba] }
+ - { type: member_of, target: group/banu-makhzum, note: "al-Isaba p. 1946", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q24952486
 provenance:

@@ -4,9 +4,11 @@ gender: male
 label:
   ar: "عبد الله بن يزيد بن حصن الأوسي"
   en: "Abd Allah ibn Yazid ibn Hisn al-Awsi (Abu Musa)"
+  ur: "عبد الله بن يزيد بن حصن الأوسي"
 summary:
   ar: "عبد الله بن يزيد بن حصن بن عمرو بن الحارث، أبو موسى، الأوسي الأنصاري، صحابي شهد الحديبية وهو ابن سبع عشرة سنة، وشهد بيعة الرضوان، وشهد الجمل وصفين مع علي، وكان أميره على الكوفة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8518}"
   en: "Abd Allah ibn Yazid ibn Hisn ibn Amr ibn al-Harith, Abu Musa, al-Awsi al-Ansari, a Companion who witnessed al-Hudaybiya at the age of seventeen and the pledge of Ridwan. He fought at the Camel and Siffin with Ali, and was Ali's governor at Kufa. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8518} He narrated from the Prophet, Abu Ayyub, Qays ibn Sa'd, Zayd ibn Thabit and al-Bara' ibn Azib; his son Musa, his grandson Adi ibn Thabit and Muhammad ibn Sirin narrated from him. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8518}"
+  ur: "عبد اللہ بن یزید بن حصن بن عمرو بن حارث، ابو موسیٰ، اوسی انصاری؛ سترہ سال کی عمر میں حدیبیہ اور بیعت رضوان میں شریک صحابی۔"
 roles: [companion]
 traditions: [sunni]
 wings: [people]
@@ -18,6 +20,8 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w05-batch18
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}

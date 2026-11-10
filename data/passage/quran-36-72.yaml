@@ -16,6 +16,7 @@ translations:
   en: { text: "And have subdued them unto them, so that some of them they have for riding, some for food?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ان کو ان کے قابو میں کردیا تو کوئی تو ان میں سے ان کی سواری ہے اور کسی کو یہ کھاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/livestock, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -1,6 +1,6 @@
 id: person/hubab-ibn-al-mundhir
 class: person
-label: { en: "al-Hubab ibn al-Mundhir", ar: "الحباب بن المنذر" }
+label: { en: "al-Hubab ibn al-Mundhir", ar: "الحباب بن المنذر", ur: "الحباب بن المنذر" }
 names:
   - { kind: full, lang: ar, value: "الحباب بن المنذر بن الجموح الخزرجي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A Khazraji Companion whose counsel at Badr — to occupy the nearest well, block the others and build a reservoir — the Prophet accepted, giving the Muslim camp control of the water."
   ar: "صحابي خزرجي صاحب مشورة الماء يوم بدر: النزول على أدنى ماء من قريش، وتغوير القُلُب خلفه، وبناء حوض يُشرب منه ولا يُشرب من دونه؛ فأخذ النبي برأيه."
+  ur: "خزرجی صحابی جس کا بدر میں مشورہ — قریب ترین کنواں لینا، باقی بند کرنا اور حوض بنانا — نبی نے قبول کیا۔"
 wings: [people]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -17,12 +18,16 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
+born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "0641", hijri: "0020", calendar: julian, precision: year, status: tradition, derived: true, note: "Al-Isaba (p. 283) reports he died in the caliphate of Umar (13-23 AH); 20 AH falls within it; CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 283", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba p. 283", sources: [source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/battle-of-badr, role: "صاحب مشورة النزول على الماء", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/assabile-tareq-al-suwaidan]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/assabile-tareq-al-suwaidan, source/ibn-hajar-isaba]
 external_ids: { wikidata: "Q4120044" }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (p. 211)" }
 provenance:

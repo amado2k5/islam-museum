@@ -12,6 +12,7 @@ wings: [people]
 themes: [converts-and-leavers, conquest-and-its-debates]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "637~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Sham (al-Waqidi / Pseudo-Waqidi)" }
 relations:
   - { type: ruler_of, target: place/aleppo, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }
   - { type: participated_in, target: event/siege-of-aleppo-637, sources: [source/futuh-al-sham-ilmiyya-1997-v1] }

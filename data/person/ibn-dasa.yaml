@@ -15,6 +15,7 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
+died: { edtf: "957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
   - { type: student_of, target: person/abu-dawud-al-sijistani, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
+died: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
 relations:
   - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }

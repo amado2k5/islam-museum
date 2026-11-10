@@ -3,6 +3,7 @@ class: person
 label:
   ar: أنس بن مالك
   en: Anas ibn Malik
+  ur: "أنس بن مالك"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: "خادم النبي وأحد المكثرين من الرواية عنه؛ قدم النبي المدينة وهو ابن عشر سنين فأتت به أمه أم سليم ليخدمه، وسكن البصرة بعد الفتوح وهو آخر الصحابة موتاً بها، وتُذكر وفاته بين 90 و93هـ. وفي الصحيح أخرج لمريديه زوج نعال جرداوين لهما قبالان حدّث ثابت البناني بعده أنهما نعلا النبي {cite:sahih-al-bukhari 3107}."
   en: The servant of the Prophet and one of the most prolific narrators from him; he was ten when the Prophet reached Medina and his mother Umm Sulaym brought him to serve him; after the conquests he settled in Basra, where he was the last Companion
     to die, with his death given between 90 and 93 AH.
+  ur: "نبی کے خادم اور ان سے سب سے زیادہ روایت کرنے والوں میں سے؛ نبی کے مدینہ پہنچنے پر دس سال کے تھے اور والدہ ام سلیم انہیں لائیں۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -37,6 +39,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "612", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "0712~", hijri: "0093", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Basra; Abu Nu'aym al-Kufi, al-Mada'ini and Khalifa give 93 AH, others 90, 91 or 92 (al-Isaba p. 101); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/basra
@@ -58,6 +62,7 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- { type: died_in, target: place/basra, note: "al-Isaba p. 101", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 430، ص 100
@@ -77,6 +82,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 2
 status:
   review: published
   completeness: 3

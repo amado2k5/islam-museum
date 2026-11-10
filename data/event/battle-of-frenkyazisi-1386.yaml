@@ -11,7 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1386", precision: year, status: tradition, derived: true }
   end: { edtf: "1386", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Karamanids", ar: "إمارة قرمان" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118956780
 provenance:

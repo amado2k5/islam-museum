@@ -13,6 +13,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/quba, note: "كان مؤذناً لأهل قباء {cite:mustadrak-ilmiyya-ata-v3 p. 704}", sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: lived_in, target: place/medina, sources: [source/mustadrak-ilmiyya-ata-v3] }

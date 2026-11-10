@@ -17,5 +17,6 @@ sources: [source/muruj-al-dhahab, source/nihayat-al-arab-nuwayri-vol3-scan]
 status:
   review: published
   completeness: 3
+died: { edtf: "272~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: ruler_of, target: place/al-furat-city, note: "From text: ملك من مشارق الشام إلى الفرات", sources: [source/muruj-al-dhahab, source/nihayat-al-arab-nuwayri-vol3-scan], confidence: low }

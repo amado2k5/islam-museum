@@ -11,6 +11,12 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1979", precision: year, status: tradition, derived: true }
   end: { edtf: "1980", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات صديق أبو بكر الثالث", en: "The authorities of Siddiq Abubakar III" }
+    participants: [person/siddiq-abubakar-iii]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q90723868

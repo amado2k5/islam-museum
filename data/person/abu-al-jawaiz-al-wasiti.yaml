@@ -14,5 +14,6 @@ provenance:
   run: prose-fill-persons-batch9
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; Ibn Hajar, Tahdhib" }
 relations:
   - { type: lived_in, target: place/wasit, note: "Place association from the person's nisba/name (الواسطي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

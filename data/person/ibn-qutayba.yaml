@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "828", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "889", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -21,6 +23,7 @@ provenance:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 51–52" }
 external_ids: { wikidata: "Q984663" }
 sources: [source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/kashf-zunun-furqan, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+importance: 2
 status:
   review: published
   completeness: 3

@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1094", precision: year, status: tradition, derived: true }
   end: { edtf: "1094", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [-9.139, 38.722]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1094"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ لشبونة ⁦(١٠٩٤)⁩", en: "Capture of Lisbon (1094)" }, at: [-9.139, 38.722], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/lisbon }
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
+    participants: [polity/castile]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131686617
 provenance:

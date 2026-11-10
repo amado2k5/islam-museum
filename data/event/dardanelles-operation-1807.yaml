@@ -11,6 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1807", precision: year, status: tradition, derived: true }
   end: { edtf: "1807", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [26.4, 40.2]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1807"
+  features:
+    - { type: point, role: event_point, label: { ar: "عملية الدردنيل ⁦(١٨٠٧)⁩", en: "Dardanelles Operation" }, at: [26.4, 40.2], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/mustafa-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/dardanelles }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1984642

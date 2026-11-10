@@ -24,5 +24,6 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "922~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/sezgin-gas-v-mathematik], confidence: low }

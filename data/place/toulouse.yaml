@@ -1,0 +1,20 @@
+id: place/toulouse
+class: place
+kind: city
+label: { ar: "تولوز", en: "Toulouse" }
+summary:
+  ar: "مدينة."
+  en: "French commune and city in Haute-Garonne, Occitania."
+wings: [place]
+coordinates: [43.60444444444445, 1.4433333333333334]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7880" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7880 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

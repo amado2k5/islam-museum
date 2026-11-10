@@ -13,6 +13,7 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 story_roles:
   - { role: ruler, toward: group/quraysh, status: tradition, note: "صارت له ثم لقريش السيادة التامة والأمر النافذ في مكة.", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "480~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sirat Ibn Hisham" }
 relations:
   - { type: child_of, target: person/kilab-ibn-murrah }
   - { type: member_of, target: group/quraysh }

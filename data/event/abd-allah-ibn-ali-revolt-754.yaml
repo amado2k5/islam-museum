@@ -11,6 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0754", precision: year, status: tradition, derived: true }
   end: { edtf: "0754", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [42.1, 36.46666666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0754"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة عبد الله بن علي ⁦(٧٥٤)⁩", en: "Uprising of Abd Allah ibn Ali (754)" }, at: [42.1, 36.46666666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/upper-mesopotamia }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات أبو العباس السفاح", en: "The authorities of Abu al-Abbas al-Saffah" }
+    participants: [person/abu-al-abbas-al-saffah]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130245253

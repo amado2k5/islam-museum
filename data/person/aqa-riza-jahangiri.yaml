@@ -10,6 +10,8 @@ themes: [arts-of-the-book]
 regions: [south-asia, persia-central-asia]
 gender: male
 roles: [artist]
+born: { edtf: "1565~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: lived_in, target: place/mashhad, note: "From text: of Mashhad", sources: [source/beach-grand-mogul-1978], confidence: low }
   - { type: patronized_by, target: person/jahangir-mughal, sources: [source/beach-grand-mogul-1978] }

@@ -11,6 +11,21 @@ regions: [arabia]
 date:
   start: { edtf: "1058", precision: year, status: tradition, derived: true }
   end: { edtf: "1077", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "السلطات", en: "The authorities" }
+map:
+  kind: campaign
+  precision: locality
+  center: [49.5833, 25.3833]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1058"
+  features:
+    - { type: point, role: event_point, label: { ar: "إسقاط القرامطة", en: "Overthrow of the Qarmatians" }, at: [49.5833, 25.3833], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/eastern-arabia }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q119873362

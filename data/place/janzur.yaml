@@ -1,0 +1,20 @@
+id: place/janzur
+class: place
+kind: city
+label: { ar: "جنزور", en: "Janzur" }
+summary:
+  ar: "مدينة في غرب ليبيا."
+  en: "City in north-western Libya."
+wings: [place]
+coordinates: [32.8172, 13.0111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1995276" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1995276 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1490", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Ibadi Mu'jam" }
+died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Ibadi Mu'jam" }
 relations:
   - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -11,12 +11,27 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/manbij, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-zahir-ghazi, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch3
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية منبج", en: "The defenders of Manbij" }
+    participants: [place/manbij]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.533333333333, 37.95]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك الملك الظاهر منبج وحصره", en: "al-Zahir Ghazi takes Manbij and is besieged" }, at: [36.533333333333, 37.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

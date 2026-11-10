@@ -3,6 +3,7 @@ class: person
 label:
   ar: البراء بن مالك
   en: al-Bara' ibn Malik
+  ur: "البراء بن مالك"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: أخو أنس بن مالك وابن أم سليم، كان حادي النبي في أسفاره، وشهد المشاهد إلا بدراً، ولاقى بلاءً يوم اليمامة، واستُشهد في حصن تستر في خلافة عمر نحو سنة 20هـ.
   en: The brother of Anas ibn Malik and son of Umm Sulaym, he was the Prophet's camel-driver chanting on his journeys, took part in the campaigns except Badr, distinguished himself at al-Yamama, and was killed at the fortress of Tustar in Umar's
     caliphate, around 20 AH.
+  ur: "انس بن مالک کے بھائی اور ام سلیم کے فرزند؛ نبی کے اونٹ چلانے والے اور سفر میں نیت پڑھنے والے، بدر کے سوا مہمات میں شریک رہے۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0641~", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "Killed at the fortress of Tustar in the caliphate of Umar; also given as 23 AH (al-Isaba p. 138); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: died_in
   target: place/tustar
@@ -55,6 +58,7 @@ relations:
   target: event/battle-of-uhud
   sources:
   - source/ibn-hajar-isaba
+- { type: participated_in, target: event/battle-of-yamama, note: "al-Isaba p. 138", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 644، ص 138

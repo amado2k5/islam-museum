@@ -11,7 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0927", precision: year, status: tradition, derived: true }
   end: { edtf: "0927", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Sajids", ar: "بنو الساج" }
+    participants: [polity/sajid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139855010
 provenance:

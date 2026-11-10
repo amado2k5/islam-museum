@@ -11,6 +11,8 @@ regions: [south-asia]
 gender: male
 roles: [calligrapher]
 periods: [period/colonial-era]
+born: { edtf: "1820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Chaghatai (Muslim Calligraphy)" }
+died: { edtf: "1870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Chaghatai (Muslim Calligraphy)" }
 relations:
   - { type: child_of, target: person/hafiz-nurullah-lucknowi, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: student_of, target: person/hafiz-nurullah-lucknowi, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }

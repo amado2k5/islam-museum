@@ -1,0 +1,19 @@
+id: place/ludenscheid
+class: place
+kind: site
+label: { ar: "لودنشايد", en: "Ludenscheid" }
+summary:
+  ar: "Ludenscheid, North Rhine-Westphalia, Germany."
+  en: "Ludenscheid, North Rhine-Westphalia, Germany."
+wings: [place]
+coordinates: [51.2197, 7.6289]
+coordinate_precision: locality
+coordinate_note: "Ludenscheid, North Rhine-Westphalia, Germany (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1945", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Islamic University of Madinah archives (1365–1443 AH)" }
+died: { edtf: "2022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Islamic University of Madinah archives (1365–1443 AH)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

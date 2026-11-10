@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1038", precision: year, status: tradition, derived: true }
   end: { edtf: "1038", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [15.413888888889, 38.1725]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1038"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة روميتا ⁦(١٠٣٨)⁩", en: "Battle of Rometta (1038)" }, at: [15.413888888889, 38.1725], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/rometta }
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Zirid Dynasty", ar: "زيريون" }
+    participants: [polity/zirid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141304225
 provenance:

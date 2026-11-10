@@ -10,6 +10,7 @@ roles: [calligrapher, artist]
 wings: [people]
 themes: [arts-of-the-book]
 regions: [persia-central-asia]
+died: { edtf: "1446~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/titley-persian-miniature-painting-1983] }
   - { type: patronized_by, target: person/ahmad-jalayir, sources: [source/titley-persian-miniature-painting-1983] }

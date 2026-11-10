@@ -1,0 +1,20 @@
+id: place/telagh
+class: place
+kind: town
+label: { ar: "تلاغ", en: "Telagh" }
+summary:
+  ar: "بلدة."
+  en: "Commune and town in Sidi Bel Abbès Province, Algeria."
+wings: [place]
+coordinates: [34.7849064, -0.5731773]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2215476" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2215476 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

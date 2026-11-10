@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1145", precision: year, status: tradition, derived: true }
   end: { edtf: "1145", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.4244, 36.975]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1145"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط سروج ⁦(١١٤٥)⁩", en: "Fall of Saruj (1145)" }, at: [38.4244, 36.975], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/suru }
+sides:
+  - label: { ar: "جيش زنكي", en: "Zengi's army" }
+  - label: { ar: "حامية سروج الصليبية", en: "The Crusader garrison of Saruj" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q113576006

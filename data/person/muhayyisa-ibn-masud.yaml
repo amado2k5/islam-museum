@@ -3,6 +3,7 @@ class: person
 label:
   ar: محيصة بن مسعود الأنصاري
   en: Muhayyisa ibn Masud al-Ansari
+  ur: "محيصة بن مسعود الأنصاري"
 names:
   - { kind: full, lang: ar, value: محيصة بن مسعود الأنصاري }
 gender: male
@@ -11,16 +12,22 @@ traditions: [sunni]
 summary:
   ar: "صحابي أنصاري؛ عند البلاذري بعثه رسول الله منصرفه من خيبر إلى أهل فدك يدعوهم إلى الإسلام فصالحوه على نصف الأرض بتربتها، وذُكر في رواية أخرى أنه ممن مشى بينهم وبين النبي في أمر النزول."
   en: "An Ansari Companion; in al-Baladhuri the Prophet sent him on his return from Khaybar to the people of Fadak to call them to Islam, and they made peace with him for half the land with its soil; in another report he is named among those who went back and forth between them and the Prophet over the capitulation."
+  ur: "انصاری صحابی؛ بلاذری میں نبی نے خیبر سے واپسی پر اسے فدک کے لوگوں کو اسلام کی دعوت کے لیے بھیجا اور انہوں نے قبول کی۔"
 wings: [people]
 periods:
 - period/prophetic-era
 regions:
 - arabia
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: traveled_to, target: place/fadak, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/sulh-of-fadak, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
   - { type: member_of, target: group/ansar, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: member_of, target: group/ansar, note: "Awsi (al-Isaba p. 1375)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-aws, note: "al-Isaba p. 1375", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/killing-of-kab-ibn-al-ashraf, note: "with his brother Huwayyisa (al-Isaba p. 1375)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 41–42"
@@ -28,6 +35,7 @@ provenance:
   run: lib-futuh-buldan-batch-2
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1

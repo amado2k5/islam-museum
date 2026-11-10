@@ -10,6 +10,8 @@ gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, egypt-nile]
+born: { edtf: "1165", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shadharat al-Dhahab" }
+died: { edtf: "1248", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shadharat al-Dhahab" }
 relations:
   - { type: lived_in, target: place/siqilliya, confidence: low, note: "Associated with Sicily per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:

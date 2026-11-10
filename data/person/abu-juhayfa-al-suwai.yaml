@@ -22,6 +22,7 @@ story_roles:
   - { role: companion, status: tradition, note: "الاستيعاب ترجمة 2869 ص 788؛ المستدرك ح 6588-6589", sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+died: { edtf: "693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Ibn Hajar, al-Isaba" }
 relations:
   - { type: lived_in, target: place/kufa, note: "From text: settled in Kufa", sources: [source/istiab-alam-2002, source/mustadrak-ilmiyya-ata-v3, source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: lived_in, target: place/kufa, note: "نزل الكوفة وابتنى بها داراً {cite:istiab-alam-2002 p. 788}", sources: [source/istiab-alam-2002] }

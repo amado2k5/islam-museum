@@ -36,5 +36,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/makany-official-site, source/youtube-makany-world]
+born: { edtf: "1974", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Al-Tibyan Institute Profile" }
 relations:
   - { type: lived_in, target: place/amman, note: "Supervisor of the Makani Center for mental health, which is based in Amman, Jordan.", sources: [source/makany-official-site], confidence: medium }

@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1528", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+died: { edtf: "1590", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Sixteenth-century khatib; the Shinshawr nisba ties him to the Egyptian Delta town of Shinshur.", sources: [source/shadharat-dhahab], confidence: medium }

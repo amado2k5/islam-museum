@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1913", precision: year, status: tradition, derived: true }
   end: { edtf: "1913", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [47.88, 30.46]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1913"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة الفرات", en: "1913 Euphrates Rebellion" }, at: [47.88, 30.46], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/al-furat-city }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمد الخامس رشاد", en: "The authorities of Mehmed V Resad" }
+    participants: [person/mehmed-v-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q87906540

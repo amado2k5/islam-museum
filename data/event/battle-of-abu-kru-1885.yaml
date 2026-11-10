@@ -11,6 +11,8 @@ regions: [east-africa]
 date:
   start: { edtf: "1885-01-19", precision: year, status: tradition, derived: true }
   end: { edtf: "1885-01-19", precision: year, status: tradition, derived: true }
+relations:
+  - { type: part_of, target: event/mahdist-war }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q27627676

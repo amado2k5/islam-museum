@@ -21,6 +21,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch4
+map:
+  kind: campaign
+  precision: locality
+  center: [35.7131, 47.2656]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء خوارزم شاه على بلاد الغورية بخراسان", en: "Khwarazmshah seizes the Ghurid lands in Khurasan" }, at: [35.7131, 47.2656], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

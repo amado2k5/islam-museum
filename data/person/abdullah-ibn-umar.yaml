@@ -38,6 +38,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "0693", hijri: "0073", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Dhu'l-Hijja 73 AH, aged eighty-seven (Damra, Abu Nu'aym, Yahya ibn Bukayr and the majority); al-Fallas gives 74 AH (al-Isaba p. 917); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba, source/sahih-muslim, source/al-masjid-fi-al-islam-azhar, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999], confidence: low }
 - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "راوي الخبر؛ عاشر عشرة في المسجد", sources: [source/ibn-hisham-saqqa] }
@@ -77,6 +79,7 @@ education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+importance: 1
 status:
   review: published
   completeness: 2

@@ -19,6 +19,8 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 story_roles:
   - { role: family-of-the-prophet, status: tradition, sources: [source/mubarakpuri-raheeq] }
+born: { edtf: "530~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sira)" }
+died: { edtf: "590~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sira)" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ansab-al-ashraf] }
   - { type: spouse_of, target: person/abd-al-muttalib, sources: [source/mubarakpuri-raheeq] }

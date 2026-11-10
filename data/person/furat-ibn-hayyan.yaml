@@ -3,6 +3,7 @@ class: person
 label:
   ar: فرات بن حيان
   en: Furat ibn Hayyan
+  ur: "فرات بن حيان"
 names:
 - kind: full
   lang: ar
@@ -17,6 +18,7 @@ summary:
     وأنه هجا النبي ثم مدحه.
   en: An Ijli ally of Banu Sahm who emigrated to the Prophet, settled in Kufa and built a house there; Ibn al-Sakan says he had companionship and Ibn Sa'd lists him in the tier of the people of the Trench; the Prophet said some men of you we
     leave to their iman, among them Furat ibn Hayyan; sources say he was a spy for Abu Sufyan then became Muslim, and that he lampooned the Prophet and later praised him.
+  ur: "بنو سہم کا عجلی حلیف جو نبی کے پاس ہجرت کر کے آیا، کوفہ میں رہا اور وہاں گھر بنایا؛ ابن السکن کے مطابق اسے صحبت حاصل تھی۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -35,6 +37,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
 - type: member_of
   target: group/banu-sahm

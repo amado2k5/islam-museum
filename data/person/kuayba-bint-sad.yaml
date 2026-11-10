@@ -1,6 +1,6 @@
 id: person/kuayba-bint-sad
 class: person
-label: { en: "Ku'ayba bint Sa'd", ar: "كعيبة بنت سعد الأسلمية" }
+label: { en: "Ku'ayba bint Sa'd", ar: "كعيبة بنت سعد الأسلمية", ur: "كعيبة بنت سعد الأسلمية" }
 names:
   - { kind: full, lang: ar, value: "كعيبة بنت سعد الأسلمية" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابية أسلمية من الممرضات اللاتي أكببن على مداواة جرحى المسلمين بعد غزوة أحد؛ عالجت منهم جريحاً أصيب بسهم في ذراعه حتى برأ، وعُدت من خدمة المؤمنين الدؤوبة."
   en: "An Aslami Companion among the women nurses who tended the wounded Muslims after the Battle of Uhud; she treated a man struck by an arrow in the arm until he recovered."
+  ur: "اسلمی صحابیہ، ان نرس خواتین میں سے جنہوں نے احد کے بعد مسلمان زخمیوں کی دیکھ بھال کی؛ اس نے تیر لگے ایک شخص کا علاج کیا۔"
 wings: [people]
 themes: [women, medicine]
 periods: [period/prophetic-era]
@@ -17,12 +18,15 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+died: { edtf: "627~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/medina }
   - { type: member_of, target: group/aslam }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/battle-of-uhud, role: "تمرّض جرحى المسلمين بعد المعركة؛ عالجت جريحاً أصيب بسهم في ذراعه (نساء حول الرسول ص363)", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/sahaba, sources: [source/nisa-hawl-alrasul]}
-sources: [source/nisa-hawl-alrasul]
+  - { type: participated_in, target: event/battle-of-khaybar, note: "witnessed Khaybar and was allotted a man's share — al-Waqidi per Abu Umar; she kept a tent in the mosque treating the wounded where Sa'd ibn Mu'adh was nursed (al-Isaba p. 1952)", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/nisa-hawl-alrasul, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 359-366, lib-nisa-hawl-rasul" }
 provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص359-366؛ ينقل عن الإصابة 8/176 وأسد الغابة 5/387", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

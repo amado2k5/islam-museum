@@ -15,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch21
+died: { edtf: "993", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/iraq, note: "Ibn Wahshiyya's companion and transmitter of his books; the milieu is the Iraqi scholarly world. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

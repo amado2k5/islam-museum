@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1533", precision: year, status: tradition, derived: true }
   end: { edtf: "1533", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-9.62417, 30.42944]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1533"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أكادير ⁦(١٥٣٣)⁩", en: "Siege of Agadir (1533)" }, at: [-9.62417, 30.42944], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kasbah-of-agadir }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية أكادير", en: "The defenders of Agadir" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q126727785

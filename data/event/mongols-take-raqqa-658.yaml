@@ -14,6 +14,21 @@ date:
   end: { edtf: "1260", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/raqqa, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "قوات المرتضى عمر الموحدي", en: "The forces of al-Murtada Umar al-Muwahhidi" }
+    participants: [person/al-murtada-umar-almohad]
+  - label: { ar: "حامية الرقة", en: "The defenders of al-Raqqa" }
+    participants: [place/raqqa]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.95, 39.01]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "المغول يأخذون الرقة", en: "The Mongols take Raqqa" }, at: [35.95, 39.01], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

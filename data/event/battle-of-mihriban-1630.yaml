@@ -11,6 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1630", precision: year, status: tradition, derived: true }
   end: { edtf: "1630", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [46.176111111111, 35.526944444444]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1630"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مهربان ⁦(١٦٣٠)⁩", en: "Battle of Mihriban (1630)" }, at: [46.176111111111, 35.526944444444], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/marivan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q109394293

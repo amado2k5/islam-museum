@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [levant-iraq]
+coordinates: [35.5177, 35.7831]
+coordinate_precision: locality
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: part_of, target: place/homs, note: "كانت من أعمال جند حمص", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -15,5 +18,6 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 180–181"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-9
+external_ids: { wikidata: "Q200030" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -11,7 +11,14 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1571", precision: year, status: tradition, derived: true }
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+    participants: [polity/crimean-khanate]
+  - label: { en: "Kabardia", ar: "قبارديا" }
+    participants: [polity/kabardia]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111936544
 provenance:

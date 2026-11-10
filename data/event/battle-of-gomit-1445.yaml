@@ -11,7 +11,14 @@ regions: [east-africa]
 date:
   start: { edtf: "1445", precision: year, status: tradition, derived: true }
   end: { edtf: "1445", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Adal Sultanate", ar: "سلطنة عدل" }
+    participants: [place/adal-sultanate]
+  - label: { en: "Ethiopian Empire", ar: "الإمبراطورية الإثيوبية" }
+    participants: [polity/ethiopian-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4871123
 provenance:

@@ -26,6 +26,7 @@ relations:
   - { type: died_in, target: place/medina }
   - { type: buried_in, target: place/medina }
   - { type: participated_in, target: event/hijra, role: protagonist }
+  - { type: exemplifies, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
 external_ids: { wikidata: Q9458 }
 sources: [source/mubarakpuri-raheeq, source/ibn-ishaq-guillaume, source/assabile-omar-abdelkafy]
 education:
@@ -43,4 +44,5 @@ provenance:
   generated_by: "Claude Haiku 5.5 (batch 10)"
   model: claude-haiku-5-5
   run: showcase-prose-phase3-batch10
+importance: 1
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; batch 10. Every sentence of the prose is checked against the local copy of al-Raheeq al-Makhtum (20210430, pages.json pages): the lineage (p. 49), the birth and early years (pp. 54-58), youth and marriage (pp. 58-61), character before prophethood (pp. 62, 65), the beginning of revelation (pp. 63-67), the call (pp. 63, 71, 75), the shama'il (pp. 454-460) and the death (pp. 444-446). Removed as not witnessed: the Muslim and Ibn Hisham cross-references, the Muruj and the other classical citations, the 'hadith of the Dhubab' authenticity dispute, the first-day converts, the 'more than forty' count, the Quran 68:4 link, and the 'burial by Ali' claim. Corrected: the age at the Fijar war (twentieth year, not fifteen), the fourth-year chest-opening, and the shroud (three white Yemeni cloths, not two Sahari cloths and a hibra). Source note: the 344-page copy named in the source record is not readable (garbled OCR); this record cites the 460-page copy, and the source record should name it" }

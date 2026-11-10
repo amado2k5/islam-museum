@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "838", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+died: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
 relations:
   - { type: ruled_over, target: place/khurasan, confidence: low, note: "Tahirid governor of Khurasan (al-Fihrist).", sources: [source/fihrist-ibn-al-nadim] }

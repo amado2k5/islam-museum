@@ -1,0 +1,20 @@
+id: place/al-khader
+class: place
+kind: province
+label: { ar: "الخضر، بيت لحم", en: "al-Khader" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in Bethlehem Governorate."
+wings: [place]
+coordinates: [31.692741666667, 35.166441666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1996562" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1996562 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

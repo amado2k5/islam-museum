@@ -12,6 +12,7 @@ wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [mathematics, astronomy-and-timekeeping, chemistry-and-alchemy]
+died: { edtf: "1007~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhabbi (Bughya)" }
 relations:
   - { type: born_in, target: place/majrit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cordoba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -3,15 +3,18 @@ class: person
 label:
   ar: "الحارث الهمداني"
   en: "al-Harith al-Hamdani"
+  ur: "الحارث الهمداني"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية للحارث الهمداني، محدث القرن الأول معاصر للنبي من تابعيي الكوفة؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Harith al-Hamdani, the first-century muhaddith and contemporary of the Prophet among the Kufan Successors; the biographical entry is not yet checked on the page."
+  ar: "صحابي همداني نزيل الكوفة؛ له رواية في كتب الحديث."
+  en: "A Hamdani Companion resident at Kufa, with narrations in the hadith works."
+  ur: "ہمدانی صحابی، کوفہ مقیم، حدیث کی کتابوں میں ان کی روایات ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0680~", hijri: "0060~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at the end of Mu'awiya's days (Ibn Abd al-Barr and Ibn Sa'd, al-Isaba p. 249); CE year approximated from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

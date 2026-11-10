@@ -6,6 +6,7 @@ summary:
   en: "In al-Baladhuri: a man of the Tunis frontier army who gathered a host against Musa al-Hadi's agent al-Aghlab ibn Salim, besieging him at Qayrawan; when al-Aghlab fell dead to an arrow, Harish and his army fled, al-Aghlab's men pursued three days and killed him at Suq al-Ahad — the original also reads 'Nafid' and 'Kharish'."
 wings: [people]
 gender: male
+died: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
 relations:
   - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/death-of-al-aghab, role: "الحاصر المنهزم المقتول", sources: [source/futuh-buldan-maarif-1407] }

@@ -7,6 +7,7 @@ summary:
   en: "In 813 came the great calamity of Fez in the Maghreb, until the city was ruined {cite:shadharat-dhahab p. 100}."
 relations:
   - { type: occurred_at, target: place/fes, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
@@ -16,5 +17,18 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج6، سنة 813)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-64
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "سلطات المستعين ⁦(القاهرة)⁩", en: "The authorities of al-Musta'in (Cairo)" }
+    participants: [person/al-mustain-cairo]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.04333333333334, -5.003333333333333]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حادثة فاس الكبرى سنة 813هـ", en: "The great calamity of Fez, 813 AH" }, at: [34.04333333333334, -5.003333333333333], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

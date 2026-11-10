@@ -12,12 +12,27 @@ relations:
   - { type: occurred_at, target: place/hamadan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/nuaym-ibn-muqarrin, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch6
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية همدان", en: "The defenders of Hamadan" }
+    participants: [place/hamadan]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.7983, 48.5148]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح همذان ووقعة واج روذ", en: "Conquest of Hamadan and Waj Rudh (22 AH)" }, at: [34.7983, 48.5148], precision: locality, source: source/muruj-al-dhahab }
+  sources: [source/muruj-al-dhahab]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

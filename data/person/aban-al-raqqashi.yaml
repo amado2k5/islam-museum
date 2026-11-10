@@ -15,5 +15,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch16
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi); al-A'lam (al-Zirikli: d. c. 200 AH)" }
 relations:
   - { type: lived_in, target: place/raqqa, note: "Nisba al-Raqqashi indicates association with Raqqa; residence not separately attested.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

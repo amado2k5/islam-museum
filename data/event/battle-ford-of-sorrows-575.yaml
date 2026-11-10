@@ -20,10 +20,15 @@ relations:
   target: person/ibn-barzan
   role: "صاحب الرملة ونابلس؛ أُسر وفدى نفسه بمائة ألف وخمسين ألف دينار وألف أسير مسلم"
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 themes: [crusades]
+sides:
+  - label: { ar: "المسلمون بقيادة صلاح الدين", en: "The Muslims under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "الفرنج بقيادة ملكهم", en: "The Franks under their king" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

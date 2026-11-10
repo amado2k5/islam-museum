@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! the likeness of Jesus with Allah is as the likeness of Adam. He created him of dust, then He said unto him: Be! and he is.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "عیسیٰ کا حال خدا کے نزدیک آدم کا سا ہے کہ اس نے (پہلے) مٹی سے ان کا قالب بنایا پھر فرمایا کہ (انسان) ہو جا تو وہ (انسان) ہو گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clay-dust, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-3 }
   - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }

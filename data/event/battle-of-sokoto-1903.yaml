@@ -11,6 +11,25 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1903", precision: year, status: tradition, derived: true }
   end: { edtf: "1903", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [5.2339, 13.0622]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1903"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سوكوتو ⁦(١٩٠٣)⁩", en: "Battle of Sokoto (1903)" }, at: [5.2339, 13.0622], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/muhammadu-attahiru-i, sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i] }
+- { type: during_reign, target: person/muhammadu-attahiru-ii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/sokoto }
+sides:
+  - label: { en: "British Empire", ar: "الإمبراطورية البريطانية" }
+    participants: [polity/british-empire]
+  - label: { en: "Sokoto Caliphate", ar: "خلافة صكتو" }
+    participants: [polity/sokoto-caliphate]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135474658

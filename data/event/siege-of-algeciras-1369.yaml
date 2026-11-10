@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "1369-07-28", precision: year, status: tradition, derived: true }
   end: { edtf: "1369-07-30", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-5.453, 36.1315]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1369"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الجزيرة الخضراء ⁦(١٣٦٩)⁩", en: "Siege of Algeciras" }, at: [-5.453, 36.1315], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/jazirat-al-khadra }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية الجزيرة الخضراء", en: "The defenders of Algeciras" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5019522

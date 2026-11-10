@@ -3,6 +3,7 @@ class: person
 label:
   ar: رافع بن خديج
   en: Rafi' ibn Khadij
+  ur: "رافع بن خديج"
 names:
 - kind: full
   lang: ar
@@ -18,6 +19,7 @@ traditions:
 summary:
   ar: صحابي من الأوس؛ عُرض على النبي يوم بدر فاستصغره وأجازه يوم أحد فشهد ما بعدها، وأصابه سهم يوم أحد انتقض جرحه بعد سنين؛ مات بالمدينة وهو ابن ست وثمانين، واختُلف في سنة وفاته.
   en: A Companion of the Aws; presented to the Prophet at Badr he was judged too young, then allowed at Uhud and fought after; an arrow struck him at Uhud and the wound reopened years later; he died in Medina aged eighty-six, with the year disputed.
+  ur: "اوس کا صحابی؛ بدر میں نبی کے سامنے پیش ہوا تو چھوٹا جانا گیا، پھر احد میں اجازت ملی اور لڑا؛ اسے تیر لگا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -36,6 +38,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "607~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "0655~", hijri: "0035~", calendar: julian, precision: year, status: debated, derived: true, note: "His Uhud wound reopened and he died of it — in Mu'awiya's caliphate per the sounder report, though a gap between the relapse and death is possible (al-Isaba p. 446); CE year approximated to 35 AH", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: died_in, target: place/medina, sources: [source/ibn-hajar-isaba] }
 - type: member_of
@@ -50,6 +54,15 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 446"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "wounded there (al-Isaba p. 446)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 2548، ص 446

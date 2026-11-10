@@ -6,6 +6,8 @@ summary:
   en: "Isma'il ibn Ayyash al-Ansi of Hims, the hadith-master of second-century Syria; in al-Baladhuri: Abd al-Malik ibn Salih wrote consulting him on the people of Cyprus, and he answered that they are 'a humbled, conquered folk whom the Byzantines master over their own lives and women — so it is our duty to defend and protect them' and to keep them on their covenant and dhimma, citing Habib ibn Maslama's own treaty-letter to Taqlis — that an enemy overpowering them while the Muslims are occupied does not break their treaty — and recalling that al-Walid ibn Yazid's exile of them to Syria was denounced by the Muslims and abhorred by the jurists, while Yazid ibn al-Walid's returning them was approved as justice."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "724", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+died: { edtf: "797", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: lived_in, target: place/qubrus, confidence: low, note: "Associated with قبرس per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/fuqaha-consulta-on-cyprus, role: "أفتى بإبقائهم على عهدهم وحمايتهم", sources: [source/futuh-buldan-maarif-1407] }

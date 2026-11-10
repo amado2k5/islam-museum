@@ -13,10 +13,14 @@ date:
 relations:
   - { type: had_participant, target: person/sokollu-mehmed-pasha, role: "الصدر الأعظم المعد للحملة", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/selim-ii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 278-279"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-4
+sides:
+  - label: { ar: "الدولة العثمانية بقيادة الصدر الأعظم سوكولو", en: "The Ottoman Empire under Sokollu" }
+  - label: { ar: "روسيا المسكوفية", en: "Muscovy" }
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

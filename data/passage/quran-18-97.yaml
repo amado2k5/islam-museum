@@ -16,6 +16,7 @@ translations:
   en: { text: "And (Gog and Magog) were not able to surmount, nor could they pierce (it).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر ان میں یہ قدرت نہ رہی کہ اس پر چڑھ سکیں اور نہ یہ طاقت رہی کہ اس میں نقب لگا سکیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/iron, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

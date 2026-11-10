@@ -11,6 +11,22 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1916", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.4914, 39.7464]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1916"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أرزنجان", en: "Battle of Erzincan" }, at: [39.4914, 39.7464], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/erzincan }
+sides:
+  - label: { ar: "الجيش الروسي", en: "The Russian army" }
+  - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q836837

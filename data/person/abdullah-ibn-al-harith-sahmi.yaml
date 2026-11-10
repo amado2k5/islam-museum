@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-al-harith-sahmi
 class: person
-label: { en: Abdullah ibn al-Harith the Poet, ar: "عبد الله بن الحارث الشاعر" }
+label: { en: Abdullah ibn al-Harith the Poet, ar: "عبد الله بن الحارث الشاعر", ur: "عبد الله بن الحارث الشاعر" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن الحارث بن قيس بن عدي بن سعد بن سهم" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني سهم ووصفه ابن إسحاق بـ«الشاعر»؛ هاجر إلى الحبشة وهلك بها."
   en: Of Banu Sahm, whom Ibn Ishaq calls 'the poet'; he emigrated to Abyssinia and died there.
+  ur: "بنو سہم کے صحابی جنہیں ابن اسحاق شاعر کہتے ہیں؛ حبشہ ہجرت کیے اور وہیں فوت ہوئے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -18,6 +19,7 @@ story_roles:
   - { role: poet, status: tradition, note: "نُسب إليه أو وُصف بالشعر في هذا الفصل (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at al-Ta'if per one report, killed at al-Yamama per Ibn Sa'd and al-Marzubani, and Baladhuri has him die in Abyssinia (al-Isaba p. 857); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة وهلك بها", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
@@ -30,7 +32,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

@@ -11,7 +11,25 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1578", precision: year, status: tradition, derived: true }
   end: { edtf: "1578", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: battle
+  precision: locality
+  center: [47.048888888889, 40.77]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1578"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة قويون گئچيدي", en: "Battle of Koyun Gecidi" }, at: [47.048888888889, 40.77], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mingachevir }
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q65557886
 provenance:

@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1343", precision: year, status: tradition, derived: true }
   end: { edtf: "1343", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [2.9833333333333, 39.616666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1343"
+  features:
+    - { type: point, role: event_point, label: { ar: "إعادة ضم مملكة مايورقة ⁦(١٣٤٣)⁩", en: "Reintegration of the Crown of Mallorca (1343)" }, at: [2.9833333333333, 39.616666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/mallorca }
+sides:
+  - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+    participants: [polity/crown-of-aragon]
+  - label: { en: "Crown of Majorca", ar: "تاج مايورقة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131915537
 provenance:

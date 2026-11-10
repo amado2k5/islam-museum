@@ -14,6 +14,18 @@ relations:
   - { type: had_participant, target: person/hassan-ibn-thabit, role: "شاعر الوقعة", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/qays-ibn-al-khatim, role: "محاور حسان بالشعر", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+map:
+  kind: battle
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم السرارة", en: "The Day of al-Sarara" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
+sides:
+  - label: { ar: "بنو عمرو بن عوف", en: "Banu Amr ibn Awf" }
+  - label: { ar: "بنو الأخاث", en: "Banu al-Akhrath" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -3,6 +3,7 @@ class: person
 label:
   ar: هبار بن الأسود
   en: Hubar ibn al-Aswad
+  ur: "هبار بن الأسود"
 names:
 - kind: full
   lang: ar
@@ -17,6 +18,7 @@ summary:
     سبّك».
   en: A Qurashi of Banu Asad; Ibn Ishaq attributes to him the jostling of the Prophet's daughter Zaynab when her husband Abu al-As sent her to Medina, so that she miscarried, and a report says the Prophet ordered him burned if found and then
     forbade punishing by fire; he embraced Islam at al-Ji'rana after Hunayn, and when people cursed him the Prophet told him to curse back whoever cursed him.
+  ur: "بنو اسد کا قریشی؛ ابن اسحاق اس سے نبی کی بیٹی زینب کو دھکا دینے کا واقعہ منسوب کرتا ہے جب اس کے شوہر ابو العاص نے اسے مدینہ بھیجا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -35,6 +37,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
 - { type: lived_in, target: place/medina, confidence: low, note: "Associated with Medina per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: member_of

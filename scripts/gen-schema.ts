@@ -54,7 +54,7 @@ if (JSON.stringify(kinds.award) !== JSON.stringify(awardKinds)) {
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award", "course",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -190,6 +190,9 @@ const base = {
       properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
     },
     kids: { "$ref": "#/$defs/localized", description: "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text." } as any,
+    // The canon (docs/canon.md): editorial priority only. 1 = cornerstone, 2 = major subject; absent on ordinary records.
+    // Set by scripts/report/canon.py, never by hand.
+    importance: { type: "integer", enum: [1, 2], description: "Editorial priority (docs/canon.md): 1 cornerstone, 2 major subject. Absent on ordinary records. Says nothing about a subject's standing." },
     // Modern Islam Browser (docs/plan/26 section 3.4): sourced honours, the subject's footprint elsewhere, dated platform
     // figures and the upcoming horizon. Optional on every class; the validator checks the references and the dates.
     honours: {
@@ -483,7 +486,12 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   concept: {
     properties: { ...kind("concept"), term: { type: "object", additionalProperties: str },
       definitions: { type: "array", items: { type: "object", required: ["text"], properties: { tradition: enm(traditions), text: L, sources: strs } } },
-      parent_concept: entityRef, etymology: L, tensions: { type: "array", items: tension } },
+      parent_concept: entityRef, etymology: L, tensions: { type: "array", items: tension },
+      // divine-name records (docs/plan/29-asma-browser.md): position in the enumeration and the name's lexical data
+      order: intStr,
+      name_meta: { type: "object", additionalProperties: false, properties: {
+        transliteration: str, root: str,
+        enumeration: { type: "array", items: enm(["tirmidhi", "ibn-majah", "other"]) } } } },
     required: ["kind"],
   },
   language: {
@@ -567,6 +575,22 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     properties: { columns: strs, rows_file: str, source: entityRef, license: enm(licenses),
       coverage: { type: "object" }, method_note: str },
     required: ["rows_file", "license"],
+  },
+  course: {
+    properties: {
+      ...kind("course"), part_of: entityRef, order: { type: "integer" },
+      country: { type: "string", pattern: "^[a-z]{2}$" }, region: str, board: str, language_of_instruction: strs,
+      grade_number: { type: "integer" }, subject_name: L, curriculum_ref: str,
+      expectations: { type: "array", items: { type: "object", required: ["code", "text"], additionalProperties: false,
+        properties: { code: str, text: L } } },
+      lessons: entityRefs,
+      connections: { type: "array", items: { type: "object", required: ["kind", "title", "text"], additionalProperties: false,
+        properties: {
+          position: enm(["before", "within", "after"]),
+          kind: enm(["reflection", "story", "scholar", "invention", "career", "quran", "hadith", "place", "object"]),
+          entity: entityRef, ref: str, title: L, text: L, sources: strs } } },
+    },
+    required: ["kind"],
   },
 };
 

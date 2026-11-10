@@ -1,6 +1,6 @@
 id: person/mahmiyya-ibn-al-jaz
 class: person
-label: { en: Mahmiyya ibn al-Jazu', ar: "محميّة بن الجزء" }
+label: { en: Mahmiyya ibn al-Jazu', ar: "محميّة بن الجزء", ur: "محميّة بن الجزء" }
 names:
   - { kind: full, lang: ar, value: "محمية بن الجزء الزبيدي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي من زبيد حليف بني سهم، هاجر إلى الحبشة وقدم في السفينتين، وجعله النبي على خمس المسلمين."
   en: A Companion of Zubayd, ally of Banu Sahm; he emigrated to Abyssinia and arrived in the two ships, and the Prophet put him in charge of the Muslims' fifth.
+  ur: "زبید کا صحابی، بنو سہم کا حلیف؛ حبشہ ہجرت کیا اور دو کشتیوں میں پہنچا اور نبی نے اسے ایک ذمہ داری پر مقرر کیا۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص5)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "645~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-zubayd, sources: [source/ibn-hisham-saqqa] }
@@ -24,13 +26,15 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia, returned late — his first campaign al-Muraysi' (al-Isti'ab p. 706)", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 5"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/isti-ab-ibn-abd-al-barr]
 status:
   review: published
   completeness: 3

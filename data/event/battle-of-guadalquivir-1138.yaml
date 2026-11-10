@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1138", precision: year, status: tradition, derived: true }
   end: { edtf: "1138", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
+    participants: [polity/castile]
+map:
+  kind: battle
+  precision: locality
+  center: [-2.9736, 37.8392]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1138"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الوادي الكبير ⁦(١١٣٨)⁩", en: "Battle of Guadalquivir (1138)" }, at: [-2.9736, 37.8392], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/guadalquivir }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131686321
 provenance:

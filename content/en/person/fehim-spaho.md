@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Fehim Spaho (13 February 1877 – 14 February 1942) was a Bosnian scholar, writer and translator from Sarajevo, the elder brother of Mehmed Spaho, the leader of the Yugoslav Muslim Organization.{cite:wikipedia-fehim-spaho-hr}{cite:wikipedia-fehim-spaho-en} Trained at Sarajevo's Sharia Judges' School, he passed the qadi examination in 1897, served as a qadi and government official, headed the Ministry of Faiths in Belgrade from 1919 to 1920, and from 1936 presided over the Supreme Sharia Court.{cite:wikipedia-fehim-spaho-bs}
 

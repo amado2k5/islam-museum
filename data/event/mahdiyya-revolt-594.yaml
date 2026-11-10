@@ -12,14 +12,19 @@ relations:
   target: person/muhammad-ibn-abd-al-karim
   role: "قائد الجيش بالمهدية الذي تغلب عليها ثم عاد إلى الطاعة"
   sources: [source/kamil-ibn-al-athir]
-- type: had_participant
+- type: related_to
   target: person/ali-ibn-ghaniya
   role: "حليف المتمرد"
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 themes: [civil-wars-and-revolts]
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات يعقوب المنصور الموحدي", en: "The authorities of يعقوب المنصور الموحدي" }
+    participants: [person/yaqub-al-mansur-al-muwahhidi]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

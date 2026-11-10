@@ -1,0 +1,20 @@
+id: place/perpignan
+class: place
+kind: province
+label: { ar: "بربنية", en: "Perpignan" }
+summary:
+  ar: "مقاطعة."
+  en: "French commune in Pyrénées-Orientales, Occitania."
+wings: [place]
+coordinates: [42.6975, 2.8947222222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6730" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6730 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

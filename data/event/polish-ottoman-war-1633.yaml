@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1633", precision: year, status: tradition, derived: true }
   end: { edtf: "1634", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.0, 49.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1633"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب البولندية العثمانية ⁦(١٦٣٣–١٦٣٤)⁩", en: "Polish–Ottoman War of 1633–1634" }, at: [32.0, 49.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ukraine }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Polish–Lithuanian Commonwealth", ar: "الكومنولث البولندي الليتواني" }
+    participants: [polity/polish-lithuanian-commonwealth]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q74302
 provenance:

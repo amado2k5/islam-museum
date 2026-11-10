@@ -1,0 +1,20 @@
+id: place/taloqan
+class: place
+kind: city
+label: { ar: "تالقان", en: "Taloqan" }
+summary:
+  ar: "مدينة."
+  en: "City in Takhar Province, Afghanistan."
+wings: [place]
+coordinates: [36.73583333333333, 69.53472222222223]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q477238" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q477238 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,6 +1,6 @@
 id: person/abdullah-ibn-al-mughaffal-al-muzani
 class: person
-label: { en: Abdullah ibn al-Mughaffal al-Muzani, ar: "عبد الله بن المغفل المزني" }
+label: { en: Abdullah ibn al-Mughaffal al-Muzani, ar: "عبد الله بن المغفل المزني", ur: "عبد الله بن المغفل المزني" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن المغفل المزني" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "خامس البكائين، من مزينة؛ ذكره ابن إسحاق فيمن استحملوا النبي في غزوة تبوك فلم يجد ما يحملهم عليه."
   en: The fifth of the Weepers, of Muzayna; Ibn Ishaq lists him among those who begged the Prophet for mounts on the Tabuk campaign when he found nothing to carry them on.
+  ur: "مزینہ کے پانچویں روینے والوں میں سے؛ ابن اسحاق نے انہیں ان میں گنایا جو تبوک مہم میں نبی سے سواریاں مانگتے رہے جب انہیں کچھ نہ ملا۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,17 +17,19 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص161)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/the-weepers-al-bakkaun, role: weeper, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/expedition-to-tabuk, note: "one of the weepers (al-Bakka'in) at Tabuk (al-Isaba p. 949)", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 161"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch75
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

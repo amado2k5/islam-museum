@@ -6,6 +6,8 @@ summary:
 wings: [people]
 gender: male
 external_ids: { wikidata: "Q207016" }
+born: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "673", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: born_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182640)" }
   - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }

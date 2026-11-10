@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1377", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

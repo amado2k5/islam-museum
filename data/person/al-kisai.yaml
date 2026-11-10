@@ -25,5 +25,7 @@ provenance:
   run: prose-fill-persons-batch30
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 50–51" }
+born: { edtf: "737~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kisa'i' / R. Sellheim; d. 189 AH)" }
+died: { edtf: "805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kisa'i' / R. Sellheim; d. 189 AH)" }
 relations:
   - { type: buried_in, target: place/rayy, note: "From text: buried at Rayy.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/qiraat-inda-al-tabari-thesis-umm-al-qura] }

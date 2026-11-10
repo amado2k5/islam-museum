@@ -6,6 +6,8 @@ summary:
   en: "al-Mu'tasim bi'llah Abu Ishaq Muhammad ibn Harun al-Rashid, eighth caliph of the Abbasids; in al-Baladhuri: in his caliphate the Romans came out to Zibatra, killed its men, captured its women and wrecked it — which grieved and angered him so that he raided them as far as Amorium, having destroyed forts on the way, camped on it, took it, killed the fighters, captured the women and children, demolished it, and ordered Zibatra rebuilt, fortified and garrisoned."
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
   - { type: lived_in, target: place/al-qatul, note: "From text: نزل البراذان ثم القاطول ثم سا", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }
   - { type: participated_in, target: event/sack-of-zibatra, role: "المغتاظ الغازي إلى عمورية", sources: [source/futuh-buldan-maarif-1407] }

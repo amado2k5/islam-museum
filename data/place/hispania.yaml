@@ -1,0 +1,20 @@
+id: place/hispania
+class: place
+kind: province
+label: { ar: "هسبانيا", en: "Hispania" }
+summary:
+  ar: "مقاطعة."
+  en: "Roman province (218 BC - 472 AD)."
+wings: [place]
+coordinates: [40.21, -4.35]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q186513" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q186513 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -12,6 +12,18 @@ date:
   start: { edtf: "0602", precision: year, status: tradition, derived: true }
   end: { edtf: "0628", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-al-tabari]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.0, 39.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0602"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الساسانية البيزنطية ⁦(٦٠٢–٦٢٨)⁩", en: "Byzantine–Sasanian War of 602–628" }, at: [34.0, 39.0], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
+relations:
+- { type: occurred_at, target: place/asia-minor }
 external_ids:
   wikidata: Q2326099
 provenance:

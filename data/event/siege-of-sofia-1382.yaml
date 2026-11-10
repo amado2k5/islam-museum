@@ -12,6 +12,18 @@ date:
   start: { edtf: "1382", precision: year, status: tradition, derived: true }
   end: { edtf: "1382", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: siege
+  precision: locality
+  center: [23.321726, 42.697886]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1382"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار صوفيا ⁦(١٣٨٢)⁩", en: "Siege of Sofia" }, at: [23.321726, 42.697886], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/sofia }
 external_ids:
   wikidata: Q3623233
 provenance:

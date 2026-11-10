@@ -11,12 +11,17 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0909~", hijri: "0296", calendar: julian, precision: year, status: tradition, derived: true, note: "296؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 585}." }
 relations:
-  - { type: had_participant, target: person/ibn-al-mutazz, role: "الخليفة اليوم الواحد", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/ibn-al-mutazz, role: "الخليفة اليوم الواحد", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-muqtadir-billah, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 581–594"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-33
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "سلطات المقتدر بالله", en: "The authorities of al-Muqtadir bi'llah" }
+    participants: [person/al-muqtadir-billah]
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

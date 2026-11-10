@@ -3,18 +3,24 @@ class: person
 label:
   ar: "يزيد بن رقيش"
   en: "Yazid ibn Ruqaysh"
+  ur: "يزيد بن رقيش"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية ليزيد بن رقيش، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yazid ibn Ruqaysh, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أسدي؛ ذكره موسى بن عقبة وابن إسحاق فيمن شهد بدراً."
+  en: "An Asadi Companion; Musa ibn Uqba and Ibn Ishaq name him among those who witnessed Badr."
+  ur: "اسدی صحابی؛ موسی بن عقبہ اور ابن اسحاق اسے بدر میں شریک گناتے ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in Ibn Hajar's Isaba (regions: arabia).", sources: [source/al-aalam, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1588", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "Musa ibn Uqba and Ibn Ishaq (al-Isaba p. 1588)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12251788
 provenance:

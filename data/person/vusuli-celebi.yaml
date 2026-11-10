@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+died: { edtf: "1590", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; Sicill-i Osmani" }
 relations:
   - { type: lived_in, target: place/sawl, sources: [source/wikidata], confidence: low, note: "Nisba صولي attested in the record." }
 sources: [source/al-aalam]

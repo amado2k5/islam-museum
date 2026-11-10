@@ -16,5 +16,7 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+born: { edtf: "821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Khatib al-Baghdadi, Tarikh" }
+died: { edtf: "918", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Khatib al-Baghdadi, Tarikh" }
 relations:
   - { type: died_in, target: place/basra, note: "From text: توفي بالبصرة سنة خمس وثلثمائة {cite:", sources: [source/muruj-al-dhahab] }

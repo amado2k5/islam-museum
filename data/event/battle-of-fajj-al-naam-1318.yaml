@@ -11,7 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1318", precision: year, status: tradition, derived: true }
   end: { edtf: "1318", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [10.0963, 35.6781]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1318"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة فج النعام ⁦(١٣١٨)⁩", en: "Battle of Fajj al-Naam (1318)" }, at: [10.0963, 35.6781], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/qayrawan }
+sides:
+  - label: { en: "Arabs", ar: "عرب" }
+    participants: [group/arabs]
+  - label: { en: "Hafsid dynasty", ar: "الدولة الحفصية" }
+    participants: [polity/hafsid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141601078
 provenance:

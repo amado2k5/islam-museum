@@ -1,0 +1,18 @@
+id: person/ali-babba
+class: person
+label: { ar: "علي بابا بن بلو", en: "Aliyu Babba ibn Bello", ur: "علي بابا بن بلو" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "علي بابا بن بلو، خليفة سوكوتو ؛ حكم من 1842م إلى 1859م. {cite:wikidata}"
+  en: "Aliyu Babba ibn Bello, the caliph of the Sokoto caliphate, ruling 1842–1859 CE. {cite:wikidata}"
+  ur: "علي بابا بن بلو، سوکوتو خلافت کے خلیفہ؛ 1842ء سے 1859۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1842", calendar: julian, precision: year }, end: { edtf: "1859", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/abu-bakr-atiku, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

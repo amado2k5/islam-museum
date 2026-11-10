@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1447", precision: year, status: tradition, derived: true }
   end: { edtf: "1448", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [20.0, 41.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1447"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الألبانية البندقية", en: "Albanian–Venetian War" }, at: [20.0, 41.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/albania }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q60489

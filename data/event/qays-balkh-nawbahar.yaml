@@ -11,6 +11,19 @@ relations:
   - { type: had_participant, target: person/ata-ibn-al-saib, role: "مخرب النوبهار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/balkh }
 wings: [time]
+sides:
+  - label: { ar: "جيش قيس بن الهيثم السلمي", en: "Qays ibn al-Haytham al-Sulami's army" }
+    commanders: [person/qays-ibn-al-haytham]
+  - label: { ar: "بلخ", en: "Balkh" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.76, 66.9]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة قيس على بلخ وخراب النوبهار", en: "Qays's Balkh Campaign and Nawbahar's Ruin" }, at: [36.76, 66.9], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

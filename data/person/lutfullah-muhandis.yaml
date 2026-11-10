@@ -14,6 +14,8 @@ roles: [mathematician, historian, engineer]
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [south-asia]
+born: { edtf: "1635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1681~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Associated with الهند per the record's own text; relation type pending review.", sources: [source/wikipedia-lutfullah-muhandis-en] }
   - { type: child_of, target: person/ustad-ahmad-lahori, sources: [source/wikipedia-lutfullah-muhandis-en, source/wikipedia-lutfullah-muhandis-ar] }

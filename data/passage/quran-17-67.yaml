@@ -16,7 +16,9 @@ translations:
   en: { text: "And when harm toucheth you upon the sea, all unto whom ye cry (for succour) fail save Him (alone), but when He bringeth you safe to land, ye turn away, for man was ever thankless.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جب تم کو دریا میں تکلیف پہنچتی ہے (یعنی ڈوبنے کا خوف ہوتا ہے) تو جن کو تم پکارا کرتے ہو سب اس (پروردگار) کے سوا گم ہوجاتے ہیں۔ پھر جب وہ تم کو (ڈوبنے سے) بچا کر خشکی پر لے جاتا ہے تو تم منہ پھیر لیتے ہو اور انسان ہے ہی ناشکرا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-17 }
+  - { type: mentions, target: concept/asma-al-barr, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

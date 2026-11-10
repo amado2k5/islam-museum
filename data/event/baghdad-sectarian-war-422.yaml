@@ -15,5 +15,12 @@ provenance:
   source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 397-398"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-1
+relations:
+- { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "سلطات القادر بالله أحمد بن إسحاق بن المقتدر", en: "The authorities of al-Qadir bi-llah Ahmad ibn Ishaq ibn al-Muqtadir" }
+    participants: [person/al-qadir-billah]
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

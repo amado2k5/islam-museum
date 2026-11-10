@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a (al-Amin); al-A'lam" }
 relations:
   - { type: lived_in, target: place/hilla, sources: [source/al-aalam] }
 sources: [source/al-aalam]

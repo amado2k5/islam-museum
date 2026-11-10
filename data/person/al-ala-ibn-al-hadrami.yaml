@@ -4,6 +4,7 @@ gender: male
 label:
   ar: العلاء بن الحضرمي
   en: Al-Ala ibn al-Hadrami (Companion, governor of Bahrain)
+  ur: "العلاء بن الحضرمي"
 summary:
   ar: صحابي من حضرموت، سكن أبوه مكة فولد بها العلاء؛ ولاه النبي البحرين وجعل له جباية، وأعطاه كتابا فيه فرائض الصدقة في الإبل والبقر والغنم والثمار والأموال، وأقره أبو بكر ثم عمر؛ روى عنه السائب بن يزيد وأبو هريرة، ويقال إنه أول مسلم ركب البحر للغزو. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7842}
   en: A Companion from Hadramawt, whose father settled in Mecca where al-Ala was born; the Prophet made him governor of Bahrain with the collection of alms and gave him a writing on the rates of zakat for camels, cattle, sheep, fruit and goods; Abu Bakr and Umar confirmed him; al-Sa'ib ibn Yazid and Abu Hurayra transmitted from him; he is said to be the first Muslim to ride the sea for a raid. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7842}
@@ -37,6 +38,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
+died: { edtf: "0635", hijri: "0014", calendar: julian, precision: year, status: debated, derived: true, note: "Died 14 AH; another report gives 21 AH (al-Isaba p. 1051); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: settled in Mecca", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba] }
   - { type: ruler_of, target: place/bahrayn, note: "From text: governor of Bahrain", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba] }

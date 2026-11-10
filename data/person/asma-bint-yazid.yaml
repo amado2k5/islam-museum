@@ -3,6 +3,7 @@ class: person
 label:
   ar: أسماء بنت يزيد بن السكن
   en: Asma' bint Yazid ibn al-Sakan
+  ur: "أسماء بنت يزيد بن السكن"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: صحابية من بني عبد الأشهل ابنة عم معاذ بن جبل، تكنى أم سلمة ويقال لها «خطيبة النساء»؛ بايعت النبي في نسوة، وشهدت اليرموك، وقتلت يومئذ تسعة من الروم بعمود فسطاطها وعاشت بعد ذلك دهراً.
   en: A Companion of Banu Abd al-Ashhal, cousin of Mu'adh ibn Jabal, known by the kunya Umm Salama and called 'the orator of the women'; she gave her pledge to the Prophet among a group of women, was at al-Yarmuk, and killed nine Byzantines with
     a tent pole there and lived on for a long time.
+  ur: "بنو عبد الاشہل کی صحابیہ، معاذ بن جبل کی خالہ زاد، ام سلمہ کنیت اور «خواتین کی خطیبہ» کہلاتی تھیں؛ انہوں نے بیعت کی۔"
 wings: [people]
 themes:
 - women
@@ -37,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab
@@ -47,6 +50,11 @@ relations:
   target: group/ansar
   sources:
   - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-yarmuk
+  note: "witnessed al-Yarmuk and killed nine Byzantines with her tent-pole (al-Isaba p. 1814)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 10861، ص 1814

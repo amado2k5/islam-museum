@@ -13,10 +13,25 @@ date:
   start: { edtf: "0859~", hijri: "0245", calendar: julian, precision: year, status: tradition, derived: true, note: "245؛ التحويل مشتق {cite:nafh-tib-maqqari p. 350}." }
 relations:
   - { type: occurred_at, target: place/seville, role: "سواحل الأندلس", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 350–351"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-54
+sides:
+  - label: { ar: "قوات المتوكل على الله", en: "The forces of al-Mutawakkil ala Allah" }
+    participants: [person/al-mutawakkil]
+  - label: { ar: "حامية إشبيلية", en: "The defenders of Seville" }
+    participants: [place/seville]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.3828, -5.9732]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ظهور مراكب المجوس في الأندلس", en: "Appearance of Majus ships in al-Andalus, 245" }, at: [37.3828, -5.9732], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

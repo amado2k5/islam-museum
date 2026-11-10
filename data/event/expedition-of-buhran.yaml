@@ -33,5 +33,14 @@ sides:
       status: tradition
       note: "حشود ترصدها المسلمون بناحية الفرع ولم يقع قتال"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [23.6, 40.4]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة بحران", en: "Expedition of Buhran" }, at: [23.6, 40.4], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 245 citing Ibn Hisham 2/50–51 and Zad al-Maad 2/91" }

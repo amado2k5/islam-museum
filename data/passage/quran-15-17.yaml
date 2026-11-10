@@ -16,6 +16,7 @@ translations:
   en: { text: "And We have guarded it from every outcast devil,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہر شیطان راندہٴ درگاہ سے اُسے محفوظ کر دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/meteors, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

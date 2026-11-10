@@ -11,7 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1204", precision: year, status: tradition, derived: true }
   end: { edtf: "1261", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [29.0, 38.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1204"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب النيقية السلجوقية", en: "Nicaean–Seljuk war" }, at: [29.0, 38.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/aegean-region }
+sides:
+  - label: { en: "Empire of Nicaea", ar: "إمبراطورية نيقية" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140680824
 provenance:

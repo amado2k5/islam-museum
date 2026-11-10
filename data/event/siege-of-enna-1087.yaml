@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1087", precision: year, status: tradition, derived: true }
   end: { edtf: "1087", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [14.266666666667, 37.566666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1087"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قصر يانع ⁦(١٠٨٧)⁩", en: "Siege of Enna (1087)" }, at: [14.266666666667, 37.566666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/enna }
+sides:
+  - label: { en: "Aghlabids", ar: "الدولة الأغلبية" }
+    participants: [polity/aghlabid-emirate]
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125470166
 provenance:

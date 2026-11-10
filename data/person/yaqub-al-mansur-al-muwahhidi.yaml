@@ -14,13 +14,18 @@ regions: [maghreb, andalus-europe]
 died: { edtf: "1199~", hijri: "0595~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بمراكش", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
-  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء، مخطوط ممسوح)"
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان ⁦(حرف الياء، مخطوط ممسوح)⁩"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch50
 external_ids: { wikidata: "Q455739" }
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
   - { type: born_in, target: place/almohad-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q199688)" }
   - { type: died_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q101625)" }
 sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+importance: 2
 status: { review: published, completeness: 3 }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1184", calendar: julian, precision: year }, end: { edtf: "1199", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

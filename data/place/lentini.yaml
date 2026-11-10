@@ -1,0 +1,20 @@
+id: place/lentini
+class: place
+kind: province
+label: { ar: "لنتيني", en: "Lentini" }
+summary:
+  ar: "مقاطعة."
+  en: "Italian comune."
+wings: [place]
+coordinates: [37.283333333333, 15]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q488240" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q488240 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

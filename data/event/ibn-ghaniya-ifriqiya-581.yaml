@@ -13,10 +13,15 @@ date:
   start: { edtf: "1185~", hijri: "0581", calendar: julian, precision: year, status: tradition, derived: true, note: "581؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 136}." }
 relations:
   - { type: had_participant, target: person/ali-ibn-ghaniya, role: "الملثم الذي لُقب أمير المسلمين", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 581، ص 136–137"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-03
+sides:
+  - label: { ar: "قوات يعقوب المنصور الموحدي", en: "The forces of يعقوب المنصور الموحدي" }
+    participants: [person/yaqub-al-mansur-al-muwahhidi]
+  - label: { ar: "حامية ملك علي بن غانية بلاد إفريقية", en: "The defenders of Ali ibn Ghaniya takes Ifriqiya" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

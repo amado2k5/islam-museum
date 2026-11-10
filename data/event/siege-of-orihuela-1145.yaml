@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1145", precision: year, status: tradition, derived: true }
   end: { edtf: "1145", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+    participants: [polity/almoravid-dynasty]
+  - label: { en: "Taifa of Murcia", ar: "طائفة مرسية" }
+    participants: [polity/taifa-of-murcia]
+map:
+  kind: siege
+  precision: locality
+  center: [-0.9469, 38.0856]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1145"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أوريويلة", en: "Siege of Orihuela (1145)" }, at: [-0.9469, 38.0856], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/uriyula }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q31075375
 provenance:

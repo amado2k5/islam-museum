@@ -3,6 +3,7 @@ class: person
 label:
   ar: ليلى بنت الخطيم
   en: Layla bint al-Khatim
+  ur: "ليلى بنت الخطيم"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: من بني ظفر من الأوس، استدركها أبو علي الجياني على الاستيعاب؛ تذكر الروايات أنها عرضت نفسها على النبي فقبلها ثم استقالته فأقالها، ويعدّها ابن سعد أول امرأة بايعت النبي من الأنصار، وكان يقال لها «أكلة الأسد».
   en: From Banu Zafar of the Aws, added by Abu Ali al-Jayyani as a supplement to al-Isti'ab; reports say she offered herself to the Prophet who accepted and then she asked to be released and he released her; Ibn Sa'd counts her among the first
     women of the Ansar to pledge to the Prophet, and she was called 'the lion's meal'.
+  ur: "اوس کے بنو ظفر سے، ابو علی الجیانی نے الاستیعاب میں اضافہ کیا؛ روایات کہتی ہیں کہ انہوں نے خود کو نبی کے سامنے پیش کیا۔"
 wings: [people]
 themes:
 - women
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
 - { type: lived_in, target: place/zafar, confidence: low, note: "Associated with Zafar per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: member_of

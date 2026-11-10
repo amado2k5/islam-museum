@@ -11,6 +11,15 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1847", precision: year, status: tradition, derived: true }
   end: { edtf: "1879", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/abd-al-aziz-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/murad-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عبد المجيد الأول", en: "The authorities of Abd al-Majid I" }
+    participants: [person/abd-al-majid-i-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q12809191

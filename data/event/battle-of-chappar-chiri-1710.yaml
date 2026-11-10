@@ -11,7 +11,13 @@ regions: [south-asia]
 date:
   start: { edtf: "1710-05-12", precision: year, status: tradition, derived: true }
   end: { edtf: "1710-05-12", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "First Sikh State", ar: "الدولة السيخية الأولى" }
+  - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+    participants: [polity/mughal-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q21244901
 provenance:

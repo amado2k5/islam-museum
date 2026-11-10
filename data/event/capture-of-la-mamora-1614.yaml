@@ -11,7 +11,14 @@ regions: [maghreb]
 date:
   start: { edtf: "1614-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1614-08", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Hispanic Monarchy", ar: "الملكية الإسبانية ⁦(كيان سياسي)⁩" }
+    participants: [polity/hispanic-monarchy]
+  - label: { en: "Saadi dynasty", ar: "الدولة السعدية" }
+    participants: [polity/saadi-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q6148258
 provenance:

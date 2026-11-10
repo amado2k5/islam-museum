@@ -15,13 +15,28 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "أمير الغزوة في خمسمائة مركب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/yazid-ibn-muawiya, role: "أقفل الجند وأمر بهدم المدينة — وقيل برشوة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "زاد على أهلها ألف دينار", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "حطّ الزيادة عنهم", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mansur, role: "ردّهم إلى صلح معاوية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/umar-ibn-abd-al-aziz, role: "حطّ الزيادة عنهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mansur, role: "ردّهم إلى صلح معاوية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: caused_by, target: event/first-raid-on-cyprus, note: "نقض أهلها بإعانة الروم سنة 32", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 209–211"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-11
+sides:
+  - label: { ar: "قوات عثمان بن عفان", en: "The forces of Uthman ibn Affan" }
+    participants: [person/uthman-ibn-affan]
+  - label: { ar: "حامية قبرس", en: "The defenders of Cyprus" }
+    participants: [place/qubrus]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.1264, 33.4299]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة قبرس الثانية", en: "The Second Raid on Cyprus" }, at: [35.1264, 33.4299], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

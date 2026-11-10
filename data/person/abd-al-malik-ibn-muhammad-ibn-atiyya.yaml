@@ -16,5 +16,6 @@ sources: [source/muruj-al-dhahab]
 status:
   review: published
   completeness: 3
+died: { edtf: "765~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari (d. mid-2nd c. AH under early Abbasids)" }
 relations:
   - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (hijazi); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

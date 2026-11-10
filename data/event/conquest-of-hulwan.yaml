@@ -19,5 +19,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 423–424"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-41
+sides:
+  - label: { ar: "جيش جرير بن عبد الله البجلي", en: "جرير بن عبد الله البجلي's army" }
+    commanders: [person/jarir-ibn-abd-allah-al-bajali, person/sad-ibn-abi-waqqas, person/uzra-ibn-qays-al-bajali]
+  - label: { ar: "حلوان", en: "Hulwan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.4608, 45.8622]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح حلوان وقرماسين", en: "The Conquest of Hulwan and Qarmasin" }, at: [34.4608, 45.8622], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

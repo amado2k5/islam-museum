@@ -1,6 +1,6 @@
 id: person/abu-ruhm-al-ghifari
 class: person
-label: { en: Abu Ruhm al-Ghifari, ar: "أبو رهم الغفاري" }
+label: { en: Abu Ruhm al-Ghifari, ar: "أبو رهم الغفاري", ur: "أبو رهم الغفاري" }
 names:
   - { kind: full, lang: ar, value: "أبو رهم كلثوم بن الحصين الغفاري" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي من غفار ممن بايعوا تحت الشجرة بحسب ابن إسحاق؛ روى عن غزوة تبوك سؤال النبي له عن المتخلفين من غفار وأسلم."
   en: A Companion of Ghifar, among those who pledged under the tree, according to Ibn Ishaq; he related of the Tabuk campaign the Prophet's question to him about the men of Ghifar and Aslam who stayed behind.
+  ur: "غفاری صحابی، ابن اسحاق کے مطابق درخت کے نیچے بیعت کرنے والوں میں سے؛ تبوک مہم کا واقعہ روایت کیا۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,18 +17,22 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص172-173)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/tabuk, note: "From text: of the Tabuk", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-ghifar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam, role: narrator, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "shot by an arrow in the throat at Uhud (al-Isaba p. 1673)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/expedition-to-tabuk, note: "went on the Tabuk expedition with the Prophet (al-Isaba p. 1673)", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 172-173"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch75
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

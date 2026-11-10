@@ -11,7 +11,24 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1285", precision: year, status: tradition, derived: true }
   end: { edtf: "1285", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [2.7908333333333, 39.706666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1285"
+  features:
+    - { type: point, role: event_point, label: { ar: "الهجوم على قلعة ألارو ⁦(١٢٨٥)⁩", en: "Assault on Alaro Castle (1285)" }, at: [2.7908333333333, 39.706666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/alaro }
+sides:
+  - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+    participants: [polity/crown-of-aragon]
+  - label: { en: "Kingdom of Majorca", ar: "مملكة مايوركا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q8206120
 provenance:

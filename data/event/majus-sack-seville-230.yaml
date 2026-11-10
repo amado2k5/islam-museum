@@ -14,10 +14,25 @@ date:
 relations:
   - { type: occurred_at, target: place/seville, role: "دخلوها ثم هزمهم المسلمون", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/abd-al-rahman-ii-andalusi, role: "أرسل العساكر وأصلح ما خربوه", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 381–382"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-63
+sides:
+  - label: { ar: "قوات الواثق بالله", en: "The forces of al-Wathiq" }
+    participants: [person/al-wathiq]
+  - label: { ar: "حامية إشبيلية", en: "The defenders of Seville" }
+    participants: [place/seville]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.3828, -5.9732]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نزول المجوس بإشبيلية ⁦(230هـ)⁩", en: "Majus landing at Seville, 230 AH" }, at: [37.3828, -5.9732], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

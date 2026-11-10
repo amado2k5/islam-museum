@@ -18,6 +18,15 @@ relations:
   - { type: occurred_at, target: place/hamadan }
   - { type: occurred_at, target: place/rayy }
   - { type: had_participant, target: polity/mongol-empire, role: "الغازون", sources: [source/shadharat-dhahab] }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.7983, 48.5148]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "عودة التتار إلى الرى وهمدان سنة 621", en: "The Tatars Return to Rayy and Hamadan in 621 AH" }, at: [34.7983, 48.5148], precision: locality, source: source/muruj-al-dhahab }
+  sources: [source/muruj-al-dhahab]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2 }
 provenance:

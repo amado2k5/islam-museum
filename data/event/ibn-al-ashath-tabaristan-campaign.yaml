@@ -11,6 +11,18 @@ relations:
   - { type: had_participant, target: person/ubayd-allah-ibn-ziyad, role: "المولي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tabaristan }
 wings: [time]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.56, 52.6]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة ابن الأشعث طبرستان", en: "Ibn al-Ash'ath's Tabaristan Campaign" }, at: [36.56, 52.6], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+sides:
+  - label: { ar: "محمد بن الأشعث الكندي", en: "Muhammad ibn al-Ash'ath al-Kindi" }
+  - label: { ar: "أهل طبرستان", en: "The people of Tabaristan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

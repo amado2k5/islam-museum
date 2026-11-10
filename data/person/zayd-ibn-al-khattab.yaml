@@ -3,6 +3,7 @@ class: person
 label:
   ar: زيد بن الخطاب
   en: Zayd ibn al-Khattab
+  ur: "زيد بن الخطاب"
 names:
 - kind: full
   lang: ar
@@ -16,6 +17,7 @@ summary:
   ar: 'أخو عمر وأكبر منه وأسلم قبله؛ شهد بدراً والمشاهد، وكانت راية المسلمين معه يوم اليمامة سنة 12هـ فاستُشهد بها؛ وقال عمر لما قُتل: «سبقني إلى الحسنيين أسلم قبلي واستشهد قبلي».'
   en: 'Umar''s older brother, who embraced Islam before him; he fought at Badr and the later campaigns and carried the Muslim banner at al-Yamama in 12 AH, where he was killed; Umar said when he fell: ''He beat me to the two good things: he embraced
     Islam before me and was martyred before me.'''
+  ur: "عمر کا بڑا بھائی جو اس سے پہلے مسلمان ہوا؛ بدر اور بعد کی مہمات میں لڑا اور یمامہ میں مسلمانوں کا پرچم اٹھایا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -34,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama, 12 AH, carrying the banner; Umar grieved him deeply — he became Muslim before me and was martyred before me (al-Isaba p. 515); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 - type: sibling_of
@@ -44,6 +47,11 @@ relations:
   target: event/battle-of-badr
   sources:
   - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-yamama
+  note: "al-Isaba p. 515"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 347-353"
   layer: own-research

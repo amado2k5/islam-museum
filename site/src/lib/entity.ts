@@ -12,7 +12,7 @@ const traditions: any[] = parse(readFileSync(repoPath("schema", "enums", "tradit
 const regions: any[] = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8"));
 
 export const traditionLabel = (id: string, lang: Lang) => traditions.find((t) => t.id === id)?.label[lang] ?? id;
-export const regionLabel = (id: string, lang: Lang) => regions.find((r) => r.id === id)?.label[lang] ?? id;
+export const regionLabel = (id: string, lang: Lang) => { const l = regions.find((r) => r.id === id)?.label; return l?.[lang] ?? l?.en ?? l?.ar ?? id; };
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
 /** Section role by heading (so the depth dial works in every language). */

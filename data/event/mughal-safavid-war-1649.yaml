@@ -11,6 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1649", precision: year, status: tradition, derived: true }
   end: { edtf: "1653", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [66.0, 33.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1649"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب مغول الهند والصفويين", en: "Mughal–Safavid War of 1649–1653" }, at: [66.0, 33.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/afghanistan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16931483

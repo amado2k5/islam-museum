@@ -1,0 +1,13 @@
+---
+// A Companions Browser decade page: the Companions who died in one Hijri decade, in date order.
+import CompanionFacetPage from "../../../../components/CompanionFacetPage.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { companions, decadeFacets, decadeLabel, byDeath } from "../../../../lib/companions";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => decadeFacets.map((k) => ({ params: { lang, n: k }, props: { lang, k } })));
+}
+const { lang, k } = Astro.props as { lang: Lang; k: string };
+const ids = [...companions.decades.get(k)!].sort(byDeath(lang));
+---
+<CompanionFacetPage lang={lang} title={decadeLabel(k, lang)} note={ui(lang).companions.decade_note} path={`/${lang}/companions/decade/${k}/`} ids={ids} />

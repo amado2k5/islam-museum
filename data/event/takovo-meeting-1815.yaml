@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1815", precision: year, status: tradition, derived: true }
   end: { edtf: "1815", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمود الثاني", en: "The authorities of محمود الثاني" }
+    participants: [person/mahmud-ii-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q14833923

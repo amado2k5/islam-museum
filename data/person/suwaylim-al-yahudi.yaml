@@ -12,6 +12,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 faith:
   - { value: jewish, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "وصفه ابن هشام بأنه يهودي (ص160)" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sirah al-Nabawiyya (Ibn Hisham)" }
 relations:
   - { type: lived_in, target: place/jasum, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/burning-of-suwaylims-house, role: house-owner, sources: [source/ibn-hisham-saqqa] }

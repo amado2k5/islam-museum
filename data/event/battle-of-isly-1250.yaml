@@ -11,7 +11,13 @@ regions: [maghreb]
 date:
   start: { edtf: "1250", precision: year, status: tradition, derived: true }
   end: { edtf: "1250", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { en: "Kingdom of Tlemcen", ar: "مملكة تلمسان" }
+  - label: { en: "Marinid dynasty", ar: "الدولة المرينية" }
+    participants: [polity/marinid-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111207483
 provenance:

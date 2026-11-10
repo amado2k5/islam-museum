@@ -1,0 +1,20 @@
+id: place/lviv
+class: place
+kind: city
+label: { ar: "لفيف", en: "Lviv" }
+summary:
+  ar: "مدينة."
+  en: "Capital city of Lviv Oblast in western Ukraine."
+wings: [place]
+coordinates: [49.841952, 24.0315921]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q36036" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q36036 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

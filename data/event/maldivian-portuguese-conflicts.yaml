@@ -11,7 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "1521", precision: year, status: tradition, derived: true }
   end: { edtf: "1650", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [73.5093, 4.1755]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1521"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراعات البرتغالية المالديفية", en: "Maldivian–Portuguese conflicts" }, at: [73.5093, 4.1755], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/maldives }
+sides:
+  - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
+    participants: [polity/kingdom-of-portugal]
+  - label: { en: "Sultanate of the Maldives", ar: "سلطنة المالديف" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q133321437
 provenance:

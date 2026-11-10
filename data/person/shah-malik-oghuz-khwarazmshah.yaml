@@ -12,6 +12,7 @@ gender: male
 roles: [ruler]
 periods: [period/buyid-seljuk-fatimid-era]
 floruit: { edtf: "1039/1043", calendar: julian, precision: year, status: historical, note: "Ismoilov gives 1039–1042 for his rule (p. 11) and 1041–1043 for his Khwarazmshah dirhams (p. 224) {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 11} {cite:ismoilov-xorazmshohlar-tangalari-2025 p. 224}.", sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
+died: { edtf: "1042", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Bayhaqi" }
 relations:
   - { type: member_of, target: group/ghuzz, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
 

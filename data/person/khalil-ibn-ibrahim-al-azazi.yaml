@@ -12,6 +12,7 @@ gender: male
 roles: [scholar]
 periods: [period/colonial-era]
 floruit: { edtf: "1865/1885", hijri: "1282", calendar: gregorian, precision: decade, status: historical, derived: true, note: "Records an observation in 1282 AH in his sundial treatise; died in the last quarter of the 13th century AH {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 19}.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
+died: { edtf: "1708", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Silk al-Durar" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
   - { type: authored, target: work/risalat-al-azazi-fi-al-mazawil, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }

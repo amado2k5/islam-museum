@@ -1,0 +1,20 @@
+id: place/tripolitania-vilayet
+class: place
+kind: province
+label: { ar: "ولاية طرابلس الغرب", en: "Tripolitania vilayet" }
+summary:
+  ar: "مقاطعة."
+  en: "Ottoman province."
+wings: [place]
+coordinates: [32.8875, 13.1875]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1529261" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1529261 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

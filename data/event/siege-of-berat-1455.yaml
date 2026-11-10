@@ -11,6 +11,18 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1455", precision: year, status: tradition, derived: true }
   end: { edtf: "1455", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [19.9497, 40.7049]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1455"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بيرات ⁦(١٤٥٥)⁩", en: "Siege of Berat" }, at: [19.9497, 40.7049], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/berat }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3300177

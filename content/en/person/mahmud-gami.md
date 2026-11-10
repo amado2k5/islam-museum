@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mahmud Gami (c. 1765–1855) was a Kashmiri Sufi poet of Doru Shahabad in Anantnag, born at Aroora — the village now called Mahmudabad after him — and buried there on his death in 1855.{cite:wikipedia-mahmud-gami-ks}{cite:wikidata-mahmud-gami} Popularly known as the Jami of Kashmir, he chose his takhallus Gami, the Kashmiri biography says, to rhyme with Jami and Nizami, the Persian masters whose forms he naturalised.{cite:wikipedia-mahmud-gami-ks}{cite:wikipedia-mahmud-gami-en}
 

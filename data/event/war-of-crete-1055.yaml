@@ -12,10 +12,14 @@ date:
   start: { edtf: "1645", hijri: "1055", calendar: julian, precision: year, status: tradition, derived: true, note: "عام ١٠٥٥هـ/١٦٤٥م {cite:dawlat-uthmaniyya-salabi p. 307}." }
 relations:
   - { type: had_participant, target: person/ibrahim-i-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 307"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-9
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "البندقية", en: "Venice" }
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

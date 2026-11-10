@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/rashidun, period/umayyad]
 regions: [maghreb]
+coordinates: [35.6781, 10.0963]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: site_of, target: event/first-raid-on-ifriqiya, sources: [source/futuh-buldan-maarif-1407] }
   - { type: site_of, target: event/founding-of-qayrawan, sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +21,9 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 317–322"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
+external_ids: { wikidata: "Q622855" }
 sources: [source/futuh-buldan-maarif-1407]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 
 education:

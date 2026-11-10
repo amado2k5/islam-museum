@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Shireen Abu Akleh (3 April 1971 – 11 May 2022) was a Palestinian-American journalist, born in Jerusalem to a Palestinian Arab Christian (Melkite Catholic) family from Bethlehem.{cite:wikipedia-shireen-abu-akleh-en} She studied journalism at Yarmouk University in Jordan and joined Al Jazeera in 1997 as one of its first field correspondents, becoming the face of its coverage of the Palestinian territories through the Second Intifada and the wars on Gaza, and a role model for Arab women journalists.{cite:wikipedia-shireen-abu-akleh-en}{cite:wikipedia-shireen-abu-akleh-ar}
 

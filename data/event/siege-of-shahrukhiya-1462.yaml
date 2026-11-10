@@ -11,6 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1462", precision: year, status: tradition, derived: true }
   end: { edtf: "1463", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستنجد بالله يوسف بن المتوكل", en: "The forces of al-Mustanjid bi'llah Yusuf ibn al-Mutawakkil" }
+    participants: [person/al-mustanjid-billah-egypt]
+  - label: { ar: "حامية شاهرخية", en: "The defenders of Shahrukhiya" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q76995347

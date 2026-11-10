@@ -1,6 +1,6 @@
 id: person/uthman-ibn-mazun
 class: person
-label: { en: "Uthman ibn Maz'un", ar: "عثمان بن مظعون" }
+label: { en: "Uthman ibn Maz'un", ar: "عثمان بن مظعون", ur: "عثمان بن مظعون" }
 names:
   - { kind: full, lang: ar, value: "عثمان بن مظعون بن حبيب الجمحي القرشي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "One of the earliest Muslims of the secret call; he accepted Islam with his brothers Qudama and Abdullah."
   ar: "من أوائل المسلمين في الدعوة السرية؛ أسلم مع أخويه قدامة وعبد الله."
+  ur: "خفیہ دعوت کے ابتدائی مسلمانوں میں سے؛ اپنے بھائیوں قدامہ اور عبد اللہ کے ساتھ اسلام قبول کیا۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,6 +17,7 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Medina in 2 AH; the Prophet kissed him on his bier and called him our righteous predecessor (al-Isaba p. 1011); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخويه", sources: [source/mubarakpuri-raheeq] }
@@ -23,8 +25,11 @@ relations:
   - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
   - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }
   - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }
+  - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia then Medina (al-Isaba p. 1011)", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q1607512" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
+importance: 2
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
 provenance:
   layer: own-research

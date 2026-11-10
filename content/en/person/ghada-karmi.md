@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ghada Karmi (born 1939) is a Palestinian physician and writer, born in Jerusalem to a Muslim family — her father, Hasan Sa'id Karmi, later a BBC Arabic broadcaster, and a Syrian mother.{cite:wikipedia-ghada-karmi-en} The family fled Jerusalem in April 1948, reaching Damascus and then London. She studied medicine at the University of Bristol, graduating in 1964, practised as a physician specialising in the health of ethnic minorities, migrants and asylum seekers, and took a doctorate at the University of London in the history of Arabic medicine.{cite:wikipedia-ghada-karmi-en}{cite:wikipedia-ghada-karmi-ar}
 

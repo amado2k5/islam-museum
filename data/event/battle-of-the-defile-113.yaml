@@ -13,10 +13,14 @@ date:
   start: { edtf: "0731~", hijri: "0113", calendar: julian, precision: year, status: tradition, derived: true, note: "113؛ التحويل مشتق {cite:tabari-khayyat-part2 p. 260}." }
 relations:
   - { type: had_participant, target: person/al-junayd-ibn-abd-al-rahman, role: "أمير خراسان الغازي", sources: [source/tabari-khayyat-part2] }
+  - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 113، ص 260–265"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tabari-96-130-05
+sides:
+  - label: { ar: "القوات الأموية بقيادة الجنيد بن عبد الرحمن", en: "The Umayyad forces under al-Junayd" }
+  - label: { ar: "الأتراك", en: "The Turks" }
 sources: [source/tabari-khayyat-part2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

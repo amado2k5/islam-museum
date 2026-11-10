@@ -3,19 +3,25 @@ class: person
 label:
   ar: "ذو الشمالين بن عبد عمرو"
   en: "Dhu al-Shamalayn"
+  ur: "ذو الشمالين بن عبد عمرو"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لذي الشمالين بن عبد عمرو، صحابي استشهد يوم بدر سنة ٦٢٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Dhu al-Shamalayn ibn Abd Amr, the Companion martyred at Badr in 624; the biographical entry is not yet checked on the page."
+  ar: "صحابي يعرف بذي الشمالين؛ استشهد ببدر، وقيل إن النبي آخى بينه وبين يزيد بن الحارث ابن فسحم."
+  en: "A Companion known as Dhu al-Shamalayn; he was martyred at Badr, and the Prophet is said to have paired him with Yazid ibn al-Harith Ibn Fasham (al-Isaba p. 1586)."
+  ur: "ذو الشمالین کے نام سے مشہور صحابی؛ بدر میں شہید ہوا اور کہا جاتا ہے کہ نبی نے اسے یزید بن حارث بن فشم کا بھائی بنایا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Badr — Umayr ibn Abd Amr the Khuza'i, ally of Banu Zuhra (Musa ibn Uqba and Ibn Ishaq, al-Isaba p. 439); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: died_in, target: place/badr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: member_of, target: group/banu-zuhra, note: "ally of Banu Zuhra (al-Isaba p. 439)", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 439", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12212654
 provenance:

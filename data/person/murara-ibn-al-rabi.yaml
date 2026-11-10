@@ -11,6 +11,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: participated_in, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/boycott-of-the-three, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }

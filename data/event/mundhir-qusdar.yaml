@@ -11,6 +11,19 @@ relations:
   - { type: had_participant, target: person/sinan-ibn-salama, role: "الفاتح الأول المتوفى بها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qusdar }
 wings: [time]
+sides:
+  - label: { ar: "جيش المنذر بن الجارود العبدي", en: "al-Mundhir ibn al-Jarud al-Abdi's army" }
+    commanders: [person/mundhir-ibn-al-jarud, person/sinan-ibn-salama]
+  - label: { ar: "قصدار", en: "Qusdar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [27.8, 66.6167]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قصدار على يد المنذر بن الجارود", en: "al-Mundhir ibn al-Jarud's Conquest of Qusdar" }, at: [27.8, 66.6167], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

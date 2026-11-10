@@ -16,6 +16,7 @@ translations:
   en: { text: "Who made all things good which He created, and He began the creation of man from clay;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جس نے ہر چیز کو بہت اچھی طرح بنایا (یعنی) اس کو پیدا کیا۔ اور انسان کی پیدائش کو مٹی سے شروع کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clay-dust, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

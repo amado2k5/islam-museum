@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1695", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholem (Sabbatai Sevi / Donmeh)" }
+died: { edtf: "1740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholem (Sabbatai Sevi / Donmeh)" }
 relations:
   - { type: born_in, target: place/salonik, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

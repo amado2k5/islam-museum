@@ -8,6 +8,9 @@ summary:
 wings: [place]
 periods: [period/rashidun, period/abbasid-early]
 regions: [persia-central-asia]
+coordinates: [34.6416, 50.8746]
+coordinate_precision: locality
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 434–439"
@@ -16,6 +19,7 @@ provenance:
   extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
 external_ids: { wikidata: "Q170573", nomisma: "qumm" }
 sources: [source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 kids:
   ar: "قم مدينة العلم عند الشيعة منذ العصر الصفوي."

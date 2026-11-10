@@ -11,6 +11,18 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1261", precision: year, status: tradition, derived: true }
   end: { edtf: "1262-07", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [43.1189, 36.335]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1261"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الموصل ⁦(١٢٦١)⁩", en: "Siege of Mosul" }, at: [43.1189, 36.335], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/mosul }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q138037968

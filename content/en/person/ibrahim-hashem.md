@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ibrahim Hashem (1886 – 14 July 1958) was a Jordanian politician and judge from Nablus who took his law degree at Istanbul in 1910, served the Ottoman administration as a prosecutor and judge at Beirut and Jaffa, joined the secret al-Fatat society during the First World War, and taught penal law at Damascus after it.{cite:wikipedia-ibrahim-hashem-en}{cite:wikipedia-ibrahim-hashem-ar} In Transjordan he was repeatedly minister of justice from 1922, and in October 1933 formed the first of his five governments.{cite:wikipedia-ibrahim-hashem-ar}
 

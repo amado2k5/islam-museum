@@ -21,6 +21,18 @@ relations:
   - { type: had_participant, target: person/sad-ibn-muadh, role: "حامل لواء كتيبة الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: caused, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+  - label: { ar: "قريش وأحلافها", en: "Quraysh and their allies" }
+map:
+  kind: campaign
+  precision: locality
+  center: [23.77, 38.79]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "التعبئة قبل بدر: عير أبي سفيان ونفير مكة وخروج النبي", en: "The build-up to Badr: Abu Sufyan's caravan, Mecca's muster and the Prophet's march" }, at: [23.77, 38.79], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/muhammad-qaid-al-aala-azhar]
 provenance:
   layer: own-research

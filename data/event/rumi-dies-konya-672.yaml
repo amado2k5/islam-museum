@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/britannica-rumi] }
   - { type: had_participant, target: person/jalal-al-din-rumi, role: "المتوفى", sources: [source/britannica-rumi] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-rumi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

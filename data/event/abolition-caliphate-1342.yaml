@@ -14,10 +14,12 @@ relations:
   - { type: occurred_at, target: place/istanbul }
   - { type: had_participant, target: person/mustafa-kemal-ataturk, role: "المقرر", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/abd-al-majid-ii, role: "الخليفة المنفي", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/abd-al-majid-ii, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 329، 472-473"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-10
 sources: [source/dawlat-uthmaniyya-salabi]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

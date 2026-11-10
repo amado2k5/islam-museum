@@ -16,5 +16,6 @@ provenance:
   run: prose-fill-persons-batch50
 sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 3 }
+died: { edtf: "775~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani, Kitab al-Aghani; al-Safadi, al-Wafi" }
 relations:
   - { type: lived_in, target: place/sind, note: "Place association from the person's nisba/name (السندي); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2], confidence: low }

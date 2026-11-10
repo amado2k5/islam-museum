@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1223", precision: year, status: tradition, derived: true }
   end: { edtf: "1223", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+    participants: [polity/mongol-empire]
+  - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
+    participants: [polity/khwarazmian-empire]
+map:
+  kind: battle
+  precision: locality
+  center: [54.43, 36.846666666666664]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1223"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة جرجان ⁦(١٢٢٣)⁩", en: "Battle of Gorgan (1223)" }, at: [54.43, 36.846666666666664], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/gorgan }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q136722869
 provenance:

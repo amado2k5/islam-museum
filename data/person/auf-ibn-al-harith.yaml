@@ -3,19 +3,28 @@ class: person
 label:
   ar: "عوف بن الحارث"
   en: "Auf ibn al-Harith"
+  ur: "عوف بن الحارث"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لعوف بن الحارث الأنصاري، صحابي قتل يوم بدر سنة ٦٢٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Auf ibn al-Harith al-Ansari, the Companion killed at Badr in 624; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري من بني النجار، هو عوف بن عفراء أخو معاذ ومعوذ؛ سأل النبي يوم بدر عما يضحك الرب من عبده، فلما أُخبر نزع درعه وقاتل حاسراً حتى قتل شهيداً."
+  en: "An Ansari Companion of Banu al-Najjar — Awf ibn Afra', brother of Mu'adh and Mu'awwadh; at Badr he asked the Prophet what makes the Lord laugh at His servant, then cast off his armour and fought unprotected until he was martyred."
+  ur: "بنو نجار کے انصاری صحابی — عوف بن عفراء، معاذ اور معوذ کے بھائی؛ بدر میں انہوں نے نبی سے پوچھا کہ رب اپنے بندے سے کس بات پر ہنستا ہے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "The Badri of Banu al-Najjar who cast off his armour and fought until martyred — what pleases the Lord is a servant who plunges his arm into the fighting unprotected (al-Isaba p. 1156); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
- - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
- - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
- - { type: member_of, target: group/ansar, sources: [source/al-aalam]}
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/ansar, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 1156", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1156", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1156", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 1156", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1156", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12228812
 provenance:

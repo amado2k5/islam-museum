@@ -11,6 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1570", precision: year, status: tradition, derived: true }
   end: { edtf: "1573", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.4299, 35.1264]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1570"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية البندقية ⁦(١٥٧٠–١٥٧٣)⁩", en: "Ottoman–Venetian War of 1570–1573" }, at: [33.4299, 35.1264], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/qubrus }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q961430

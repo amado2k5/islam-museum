@@ -1,0 +1,17 @@
+id: polity/mahdist-sudan
+class: polity
+kind: state
+label: { ar: "الدولة المهدية", en: "Mahdist Sudan" }
+summary:
+  ar: "دولة قامت في أفريقيا في ثمانينيات القرن التاسع عشر ⁦(١٨٨٠s)⁩."
+  en: "An African state of the 1880s."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q3125368" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q3125368 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

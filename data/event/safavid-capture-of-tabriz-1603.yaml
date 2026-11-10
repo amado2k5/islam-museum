@@ -11,7 +11,24 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1603", precision: year, status: tradition, derived: true }
   end: { edtf: "1603", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+map:
+  kind: battle
+  precision: locality
+  center: [46.2919, 38.08]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1603"
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد تبريز ⁦(١٦٠٣)⁩", en: "Safavid capture of Tabriz" }, at: [46.2919, 38.08], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/tabriz }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q5935848
 provenance:

@@ -11,6 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1794", precision: year, status: tradition, derived: true }
   end: { edtf: "1794", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [57.06777777777778, 30.29111111111111]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1794"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كرمان ⁦(١٧٩٤)⁩", en: "Siege of Kerman" }, at: [57.06777777777778, 30.29111111111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kerman }
+sides:
+  - label: { ar: "قوات سليم الثالث", en: "The forces of سليم الثالث" }
+    participants: [person/selim-iii-uthmani]
+  - label: { ar: "حامية كرمان", en: "The defenders of Kerman" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1268596

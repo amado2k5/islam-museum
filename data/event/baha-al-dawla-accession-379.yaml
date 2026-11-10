@@ -12,6 +12,7 @@ date:
   start: { edtf: "0989-09-21~", hijri: "0379-06-10", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم السبت 10 جمادى الآخرة 379؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.149}", sources: [source/muntazam-ibn-al-jawzi] }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-tai-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 map: { kind: locator, precision: approximate, center: [33.34, 44.39] }
 provenance:
   layer: own-research

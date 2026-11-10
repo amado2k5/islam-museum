@@ -13,6 +13,7 @@ regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
 story_roles:
   - { role: ruler, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+died: { edtf: "1131", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]

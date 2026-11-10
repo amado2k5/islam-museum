@@ -15,10 +15,15 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "ظفر به بحيلة الرماح المشتعلة", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/qays-ibn-al-haytham, role: "ترك له البلاد بالعهد المفتعل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abd-allah-ibn-amir, role: "أقره على خراسان بالفتح", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط دار الكتب) ج٢ ص 507"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-v2-batch-1
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عثمان بن عفان", en: "The authorities of Uthman ibn Affan" }
+    participants: [person/uthman-ibn-affan]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

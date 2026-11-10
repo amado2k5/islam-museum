@@ -12,6 +12,19 @@ relations:
   - { type: had_participant, target: person/jahm-ibn-zahr, role: "فاتح وجاه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/jurjan }
 wings: [time]
+sides:
+  - label: { ar: "جيش يزيد بن المهلب", en: "يزيد بن المهلب's army" }
+    commanders: [person/yazid-ibn-al-muhallab]
+  - label: { ar: "جرجان", en: "Jurjan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.83694, 54.43722]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزو يزيد بن المهلب جرجان", en: "Yazid ibn al-Muhallab's Jurjan Campaign" }, at: [36.83694, 54.43722], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

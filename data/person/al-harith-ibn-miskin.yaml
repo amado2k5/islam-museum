@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "770", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 12/219; 154–250 AH)" }
+died: { edtf: "864", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 12/219; 154–250 AH)" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: qadi of Egypt", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: related_to, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -9,6 +9,7 @@ class: person
 label:
   ar: أروى بنت عبد المطلب
   en: Arwa bint Abd al-Muttalib
+  ur: "أروى بنت عبد المطلب"
 names:
 - kind: full
   lang: ar
@@ -22,6 +23,7 @@ summary:
   ar: عمة النبي، كانت تحت عمير بن وهب فولدت له طليباً، ثم تزوجها كلدة بن عبد مناف فولدت له أروى؛ يذكر ابن إسحاق أنه لم يسلم من عمات النبي إلا صفية، ويتعقبه ابن حجر بقصة أروى وإسلامها بعد إسلام ابنها طليب.
   en: An aunt of the Prophet; she was married to Umayr ibn Wahb and bore Tulayb, then to Kalda ibn Abd Manaf and bore Arwa; Ibn Ishaq says none of the Prophet's aunts embraced Islam except Safiyya, and Ibn Hajar answers with Arwa's story, her
     embracing Islam after her son Tulayb did.
+  ur: "نبی کی خالہ؛ عمیر بن وہب سے شادی ہوئی جس سے طلیب پیدا ہوئے، پھر کلدہ بن عبد مناف سے جن سے عروہ پیدا ہوئی۔"
 wings: [people]
 themes:
 - women
@@ -40,6 +42,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "636~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab
@@ -62,6 +66,11 @@ relations:
   target: person/abu-lahab
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-hashim
+  note: "the Prophet's aunt who mourned him in verse (al-Isaba p. 1807)"
+  sources: [source/ibn-hajar-isaba]
+
 issue:
   ar: هل أسلمت أروى بنت عبد المطلب؟
   en: Did Arwa bint Abd al-Muttalib embrace Islam?

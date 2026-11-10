@@ -23,6 +23,8 @@ regions:
 - arabia
 periods:
 - period/prophetic-era
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba / Ibn al-Athir" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba / Ibn al-Athir" }
 relations:
 - type: lived_in
   target: place/hijaz

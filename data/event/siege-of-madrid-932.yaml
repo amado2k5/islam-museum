@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0932", precision: year, status: tradition, derived: true }
   end: { edtf: "0932", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-3.703333333333333, 40.41694444444445]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0932"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مدريد", en: "Siege of Madrid (932)" }, at: [-3.703333333333333, 40.41694444444445], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/majrit }
+sides:
+  - label: { ar: "قوات عبد الرحمن الناصر لدين الله الأموي", en: "The forces of Abd al-Rahman al-Nasir li-Din Allah al-Umawi" }
+    participants: [person/abd-al-rahman-iii-al-nasir]
+  - label: { ar: "حامية مدريد", en: "The defenders of Madrid" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130638918

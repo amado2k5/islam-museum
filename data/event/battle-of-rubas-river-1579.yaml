@@ -11,7 +11,13 @@ regions: [maghreb]
 date:
   start: { edtf: "1579", precision: year, status: tradition, derived: true }
   end: { edtf: "1579", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Kaitag Utsmiate", ar: "إمارة قايطاغ" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141624747
 provenance:

@@ -1,6 +1,6 @@
 id: person/qays-ibn-al-musakhkhar
 class: person
-label: { ar: "قيس بن المسحّر اليعمري", en: "Qays ibn al-Musahhar al-Ya'muri" }
+label: { ar: "قيس بن المسحّر اليعمري", en: "Qays ibn al-Musahhar al-Ya'muri", ur: "قيس بن المسحّر اليعمري" }
 names:
   - { kind: full, lang: ar, value: "قيس بن المسحّر اليعمري" }
   - { kind: alternate, lang: ar, value: "قيس بن المسخَّر (كذا في بعض المواضع)" }
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   ar: "صحابي شاعر من بني يعمر؛ قتل مسعدة بن حكمة الفزاري في غزوة زيد بن حارثة الثانية لبني فزارة وقال في ذلك شعراً، وأمره زيد بقتل أم قرفة فقتلها؛ وله في مؤتة شعر يعتذر فيه مما جرى ويمدح خالد بن الوليد."
   en: "A Companion and poet of Banu Ya'mar; he killed Mas'ada ibn Hakama al-Fazari in Zayd ibn Haritha's second raid on Fazara and composed verses on it, and on Zayd's order killed Umm Qirfa; he also has verses on Mu'ta excusing what happened and praising Khalid ibn al-Walid."
+  ur: "بنو یعمر کا صحابی اور شاعر؛ زید بن حارثہ کی فزارہ پر دوسری مہم میں مسعدہ بن حکامہ الفزاری کو مارا اور اشعار کہے۔"
 wings: [people]
 themes: [skirmishes-raids-expeditions, literature]
 periods: [period/prophetic-era]
@@ -18,6 +19,7 @@ story_roles:
   - { role: poet, status: tradition, note: "شعره في قتل مسعدة (ص266) وفي مؤتة (ص25).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "من أصحاب النبي في سراياه (ابن هشام ص265).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj)" }
 relations:
   - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "قتل مسعدة ثم أم قرفة بأمر زيد", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-mutah, role: "قال شعراً في الاعتذار مما جرى", sources: [source/ibn-hisham-saqqa] }

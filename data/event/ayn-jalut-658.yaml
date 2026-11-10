@@ -26,6 +26,7 @@ relations:
   - { type: had_participant, target: person/baybars, role: "الشاليش", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/kitbugha, role: "مقدم التتار المقتول", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-malik-al-said-hasan, role: "قاتل مع التتار فأُسر وأُعدم", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
@@ -34,4 +35,5 @@ provenance:
 external_ids:
   wikidata: Q244356
 sources: [source/tarikh-khulafa-minhaj-1434, source/al-ishaat-al-kadhiba-azhar]
+importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

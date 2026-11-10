@@ -3,18 +3,24 @@ class: person
 label:
   ar: "سعد بن عبيد"
   en: "Sa'd ibn Ubayd"
+  ur: "سعد بن عبيد"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لسعد بن عبيد، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sa'd ibn Ubayd, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أوسي أنصاري، أبو زيد القارئ الذي جمع القرآن؛ شهد بدراً وكان يؤم بمسجد قباء في زمن النبي وأبي بكر وعمر، وذكره ابن نمير فيمن استشهد بالقادسية سنة ست عشرة."
+  en: "An Awsi Ansari Companion, Abu Zayd al-Qari who gathered the Qur'an; a Badri who led the prayers at the Quba mosque in the Prophet's, Abu Bakr's and Umar's times. Ibn Numayr reports him martyred at al-Qadisiyya in 16 AH."
+  ur: "اوسی انصاری صحابی، ابو زید القاری جس نے قرآن جمع کیا؛ بدری جو نبی، ابو بکر اور عمر کے زمانے میں مسجد قباء میں نماز پڑھاتا تھا۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0637", hijri: "0016", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Numayr: martyred at al-Qadisiyya, 16 AH; al-Zubayr ibn Bakkar has him die at Medina in Umar's time (al-Isaba p. 559); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in the Prophet-era Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/al-aws, note: "al-Isaba p. 559", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 559", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-al-qadisiyya, note: "al-Isaba p. 559", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12215937
 provenance:

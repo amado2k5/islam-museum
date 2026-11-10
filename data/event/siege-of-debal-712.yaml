@@ -11,6 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "0712", precision: year, status: tradition, derived: true }
   end: { edtf: "0712", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [67.5211, 24.7522]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0712"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ديبال", en: "Siege of Debal" }, at: [67.5211, 24.7522], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
+relations:
+- { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/daybul }
+sides:
+  - label: { ar: "قوات الوليد بن عبد الملك", en: "The forces of al-Walid ibn Abd al-Malik" }
+    participants: [person/al-walid-ibn-abd-al-malik]
+  - label: { ar: "حامية ديبال", en: "The defenders of Debal" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q120496147

@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim] }
   - { type: had_participant, target: person/timur-lang, role: "صاحب الغزو الذي حاصر حفيده المدينة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 external_ids:
   wikidata: Q123739063
 provenance:
@@ -23,5 +24,19 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-multan-1
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية ملتان", en: "The defenders of Multan" }
+    participants: [place/multan]
+map:
+  kind: siege
+  precision: locality
+  center: [30.1968, 71.4782]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بير محمد بن جهانكير الملتان ٨٠١هـ", en: "Pir Muhammad's six-month siege of Multan, 801/1398" }, at: [30.1968, 71.4782], precision: locality, source: source/fihrist-ibn-al-nadim }
+  sources: [source/fihrist-ibn-al-nadim]
 sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

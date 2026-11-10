@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 120–186 AH)" }
+died: { edtf: "802", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: 120–186 AH)" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (بغدادي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

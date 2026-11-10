@@ -17,6 +17,21 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/humayun-mughal, role: "المستعيد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of None" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية لاهور", en: "The defenders of Lahore" }
+    participants: [place/lahore]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.558, 74.3507]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "همايون يستعيد لاهور، ربيع الآخر ٩٦٢هـ/فبراير ١٥٥٥م", en: "Humayun reoccupies Lahore, Rabi' II 962/February 1555" }, at: [31.558, 74.3507], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

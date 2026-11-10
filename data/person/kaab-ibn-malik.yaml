@@ -18,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "شاعر الرسول وشهد المشاهد معه (ابن هشام 4/120).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي أنصاري جليل." }
+died: { edtf: "0660~", hijri: "0040~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Syria in Mu'awiya's caliphate (al-Isaba p. 1285); CE year approximated to 40 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with Tabuk per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khazraj }
@@ -31,7 +32,7 @@ relations:
   - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124, 175–181", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
 external_ids: { wikidata: "Q12234969" }
-sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny, source/assabile-mustafa-hosny]
+sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny, source/assabile-mustafa-hosny, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }
 
 education:

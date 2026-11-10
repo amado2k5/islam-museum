@@ -1,6 +1,6 @@
 id: person/al-harith-ibn-al-harith-sahmi
 class: person
-label: { en: Al-Harith ibn al-Harith al-Sahmi, ar: "الحارث بن الحارث السهمي" }
+label: { en: Al-Harith ibn al-Harith al-Sahmi, ar: "الحارث بن الحارث السهمي", ur: "الحارث بن الحارث السهمي" }
 names:
   - { kind: full, lang: ar, value: "الحارث بن الحارث بن قيس بن عدي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني سهم، هاجر إلى الحبشة؛ يذكره ابن إسحاق بغير مصير."
   en: Of Banu Sahm; he emigrated to Abyssinia. Ibn Ishaq mentions him without recording his fate.
+  ur: "بنو سہم کے؛ حبشہ ہجرت کیے؛ ابن اسحاق نے ان کا ذکر بغیر انجام کے کیا۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,19 +18,24 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at Ajnadayn per Urwa, Abu Hudhayfa al-Bukhari and Ibn Ishaq; Sayf's Futuh has him killed at al-Yarmuk (al-Isaba p. 252); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "al-Isaba p. 252", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-sahm, note: "al-Isaba p. 252", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

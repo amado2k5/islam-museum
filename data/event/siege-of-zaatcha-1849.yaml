@@ -11,6 +11,21 @@ regions: [maghreb]
 date:
   start: { edtf: "1849-07-16", precision: year, status: tradition, derived: true }
   end: { edtf: "1849-11-26", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش الفرنسي", en: "The French army" }
+  - label: { ar: "حامية الزعاطشة", en: "The Zaatcha garrison" }
+map:
+  kind: siege
+  precision: locality
+  center: [5.7333, 34.85]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1849"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الزعاتشة", en: "Siege of Zaatcha" }, at: [5.7333, 34.85], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/biskra }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2890426

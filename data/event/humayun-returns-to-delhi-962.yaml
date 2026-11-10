@@ -15,6 +15,20 @@ date:
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/akbarnama] }
   - { type: had_participant, target: person/humayun-mughal, role: "السلطان العائد", sources: [source/akbarnama] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "جيش همايون بن بابر", en: "Humayun ibn Babur's army" }
+    commanders: [person/humayun-mughal]
+  - label: { ar: "دلهي", en: "Delhi" }
+map:
+  kind: campaign
+  precision: locality
+  center: [28.6519, 77.2315]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "عودة همايون إلى دلهي سنة ٩٦٢هـ", en: "Humayun returns to Delhi, 962 AH" }, at: [28.6519, 77.2315], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/akbarnama]
 provenance:
   layer: own-research

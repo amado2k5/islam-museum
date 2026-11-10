@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-qifti, role: "المُؤوي", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/yaqut-al-hamawi, role: "الهارب من المغول المُعان", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

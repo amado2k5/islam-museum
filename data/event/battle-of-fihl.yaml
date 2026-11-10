@@ -17,10 +17,14 @@ relations:
   - { type: had_participant, target: person/amir-ibn-abi-waqqas, role: "شارك في إمرة أبي عبيدة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/heraclius, role: "استنفر الروم وأهل الجزيرة من أنطاكية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/jizya, note: "الجزية عن الرؤوس والخراج عن الأرض مع بقاء الحيطان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 158"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
+sides:
+  - label: { ar: "المسلمون بقيادة أبي عبيدة بن الجراح", en: "The Muslims under Abu Ubayda ibn al-Jarrah" }
+  - label: { ar: "البيزنطيون", en: "The Byzantines" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

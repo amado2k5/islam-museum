@@ -7,12 +7,29 @@ summary:
   en: "Draft card for the Siege of Granada in 1018, of the Andalusi fitna; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/granada, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/abd-al-rahman-iv-al-murtada, sources: [source/bayan-mughrib-idhari] }
+  - { type: during_reign, target: person/ali-ibn-hammud-al-nasir, sources: [source/bayan-mughrib-idhari] }
+  - { type: during_reign, target: person/al-qasim-ibn-hammud, sources: [source/bayan-mughrib-idhari] }
 wings: [time]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 date:
   start: { edtf: "1018", precision: year, status: tradition, derived: true }
   end: { edtf: "1018", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عبد الرحمن الرابع المرتضى", en: "The forces of Abd al-Rahman IV al-Murtada" }
+    participants: [person/abd-al-rahman-iv-al-murtada]
+  - label: { ar: "حامية غرناطة", en: "The defenders of Granada" }
+    participants: [place/granada]
+map:
+  kind: siege
+  precision: locality
+  center: [37.1882, -3.6067]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار غرناطة ⁦(١٠١٨)⁩", en: "Siege of Granada (1018)" }, at: [37.1882, -3.6067], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111915495

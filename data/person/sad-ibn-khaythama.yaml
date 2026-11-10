@@ -3,6 +3,7 @@ class: person
 label:
   ar: سعد بن خيثمة
   en: Sa'd ibn Khaythama
+  ur: "سعد بن خيثمة"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ summary:
   ar: أنصاري من الأوس، أحد النقباء الاثني عشر ليلة العقبة ونقيب بني عمرو بن عوف؛ كان النبي يجلس للناس في بيته بقباء ويسمى «بيت الغراب»؛ استُشهد ببدر بعد أن خرج سهمه على أبيه، ويرد ابن حجر على أبي نعيم زعمه أنه أبو خيثمة المتخلف عن تبوك.
   en: An Ansari of the Aws, one of the twelve naqibs on the night of al-Aqaba and the naqib of Banu Amr ibn Awf; the Prophet used to sit with people in his house at Quba, called 'the house of the crow'; he was killed at Badr after his lot was
     drawn over his father's, and Ibn Hajar rejects Abu Nu'aym's claim that he was the Abu Khaythama who stayed behind from Tabuk.
+  ur: "اوس کا انصاری، عقبہ کی رات بارہ نقباء میں سے اور بنو عمرو بن عوف کا نقیب؛ نبی لوگوں کے ساتھ اس کے گھر بیٹھتے تھے۔"
 wings: [people]
 themes:
 - battles
@@ -36,6 +38,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
 - { type: died_in, target: place/badr, sources: [source/ibn-hajar-isaba] }
 - type: member_of
@@ -54,6 +57,15 @@ relations:
   target: event/battle-of-badr
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "one of the seven Sa'ds who kept the faith's pillar standing (al-Isaba p. 554)"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-aws
+  note: "al-Isaba p. 554"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 3205، ص 554

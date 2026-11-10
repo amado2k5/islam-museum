@@ -11,7 +11,13 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1582", precision: year, status: tradition, derived: true }
   end: { edtf: "1582", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Tsardom of Russia", ar: "روسيا القيصرية" }
+    participants: [polity/tsardom-of-russia]
+  - label: { en: "Yermak Timofeyevich", ar: "يرماك تيموفيفيتش" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q2723462
 provenance:

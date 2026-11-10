@@ -11,7 +11,13 @@ regions: [south-asia]
 date:
   start: { edtf: "1728-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1728-02", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Asaf Jah I of Hyderabad", ar: "آصف جاه قمر الدين" }
+    participants: [person/asaf-jah-i]
+  - label: { en: "Baji Rao I", ar: "باجي راو الأول" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4871975
 provenance:

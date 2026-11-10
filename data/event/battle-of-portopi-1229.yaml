@@ -11,7 +11,15 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1229", precision: year, status: tradition, derived: true }
   end: { edtf: "1229", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-muhtadid-yahya-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { en: "Almohad Caliphate", ar: "الدولة الموحدية" }
+    participants: [polity/almohad-caliphate]
+  - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+    participants: [polity/crown-of-aragon]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q2792009
 provenance:

@@ -12,6 +12,18 @@ date:
   start: { edtf: "1694", precision: year, status: tradition, derived: true }
   end: { edtf: "1720", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [-5.32042, 35.88919]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1694"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سبتة", en: "Siege of Ceuta" }, at: [-5.32042, 35.88919], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/ceuta }
 external_ids:
   wikidata: Q78358507
 provenance:

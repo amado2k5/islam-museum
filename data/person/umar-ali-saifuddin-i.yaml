@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/gunpowder-empires]
+born: { edtf: "1740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Brunei Darussalam" }
+died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Brunei Darussalam" }
 relations:
   - { type: born_in, target: place/bandar-seri-begawan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q9279)" }
 sources: [source/bosworth-new-islamic-dynasties-1996]

@@ -12,6 +12,20 @@ relations:
   - { type: had_participant, target: person/musa-ibn-kab-al-tamimi, role: "الوالي الفائز", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/al-mansura }
 wings: [time]
+sides:
+  - label: { ar: "جيش موسى بن كعب التميمي", en: "Musa ibn Ka'b al-Tamimi's army" }
+    commanders: [person/musa-ibn-kab-al-tamimi]
+  - label: { ar: "منصور بن جمهور الكلبي", en: "Mansur ibn Jawhur al-Kalbi" }
+    participants: [person/mansur-ibn-jawhur, person/mughallis-al-abdi]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.0409, 31.3785]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مقتل مغلس وغلب موسى بن كعب السند", en: "Mughallis Slain and Musa ibn Ka'b's Sind" }, at: [31.0409, 31.3785], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

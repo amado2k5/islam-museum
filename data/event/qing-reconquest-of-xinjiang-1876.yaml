@@ -11,6 +11,18 @@ regions: [china-east-asia]
 date:
   start: { edtf: "1876", precision: year, status: tradition, derived: true }
   end: { edtf: "1878", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [87.61379, 43.8253]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1876"
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد تشينغ لشينجيانغ", en: "Qing reconquest of Xinjiang" }, at: [87.61379, 43.8253], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/xinjiang }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6140819

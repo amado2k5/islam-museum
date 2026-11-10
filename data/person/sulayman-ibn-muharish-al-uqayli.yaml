@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1079~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh (Ibn al-Athir)" }
 relations:
   - { type: died_in, target: place/iraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q796)" }
 sources: [source/al-aalam]

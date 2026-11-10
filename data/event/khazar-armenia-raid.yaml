@@ -15,5 +15,10 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 461"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-20
+relations:
+- { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الخزر", en: "The Khazars" }
+  - label: { ar: "أرمينية وأهلها", en: "Armenia and its people" }
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

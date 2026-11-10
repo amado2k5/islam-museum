@@ -23,6 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+died: { edtf: "1190", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yaqut al-Hamawi (Mu'jam al-Udaba; d. 586 AH)" }
 relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: buried_in, target: place/al-wardya-cemetery, note: "Wikidata Q29513771 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

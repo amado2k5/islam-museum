@@ -12,6 +12,18 @@ date:
   start: { edtf: "1915", precision: year, status: tradition, derived: true }
   end: { edtf: "1915", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [49.6, 25.383333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1915"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة كنزان ⁦(١٩١٥)⁩", en: "Battle of Kanzan (1915)" }, at: [49.6, 25.383333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/al-ahsa-governorate }
 external_ids:
   wikidata: Q12244195
 provenance:

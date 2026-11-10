@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
+died: { edtf: "933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam (al-Dhahabi)" }
 relations:
   - { type: died_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q839456)" }
 sources: [source/kamil-ibn-al-athir]

@@ -1,0 +1,20 @@
+id: place/senegambia
+class: place
+kind: region
+label: { ar: "سنغامبيا", en: "Senegambia" }
+summary:
+  ar: "إقليم."
+  en: "Region of West Africa."
+wings: [place]
+coordinates: [13.816666666666666, -15.05]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3511003" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3511003 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

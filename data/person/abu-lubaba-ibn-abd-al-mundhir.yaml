@@ -3,6 +3,7 @@ class: person
 label:
   ar: أبو لبابة بن عبد المنذر
   en: Abu Lubaba ibn Abd al-Mundhir
+  ur: "أبو لبابة بن عبد المنذر"
 aliases: [person/abu-lubaba]
 names:
 - kind: full
@@ -20,6 +21,7 @@ summary:
   ar: أنصاري من الأوس من بني عمرو بن عوف؛ اختُلف في اسمه ⁦(بشير، رفاعة، مروان)⁩، وردّه النبي من الطريق إلى بدر واستخلفه على المدينة وضرب له بسهمه وأجره مع أهل بدر؛ ويقال كان من النقباء ليلة العقبة وكانت راية بني عمرو بن عوف معه يوم الفتح.
   en: An Ansari of the Aws, of Banu Amr ibn Awf; his name is disputed (Bashir, Rifa'a or Marwan); the Prophet sent him back on the road to Badr, left him in charge of Medina and gave him a share and the reward of the Badr fighters; it is said
     he was one of the naqibs on the night of al-Aqaba and he carried the banner of Banu Amr ibn Awf at the conquest.
+  ur: "اوس کے انصاری، بنو عمرو بن عوف سے؛ نام متنازع ⁦(بشیر، رفاعہ یا مروان)⁩؛ نبی نے انہیں بدر کے راستے سے واپس بھیجا۔"
 wings: [people]
 themes:
 - converts-and-leavers
@@ -38,6 +40,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0660~", hijri: "0040~", calendar: julian, precision: year, status: debated, derived: true, note: "Said to have died in Ali's caliphate; Khalifa says after Uthman's killing, and another report has him live past 50 AH (al-Isaba p. 1755); CE year approximated to 40 AH", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/medina
@@ -58,6 +61,16 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1755"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  note: "at the conquest with Banu Amr ibn Awf (al-Isaba p. 1755)"
   sources:
   - source/ibn-hajar-isaba
 provenance:

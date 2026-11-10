@@ -1,6 +1,6 @@
 id: person/malik-ibn-ayfa
 class: person
-label: { ar: "مالك بن أيفع الهمداني", en: "Malik ibn Ayfa' al-Hamdani" }
+label: { ar: "مالك بن أيفع الهمداني", en: "Malik ibn Ayfa' al-Hamdani", ur: "مالك بن أيفع الهمداني" }
 names:
   - { kind: full, lang: ar, value: "مالك بن أيفع الهمداني" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من وفد همدان الذين لقوا النبي مرجعه من تبوك مع مالك بن النمط ذي المشعار، كما سمّاهم ابن هشام عن أبي إسحاق السبيعي."
   en: "One of the Hamdan delegation who met the Prophet on his return from Tabuk with Malik ibn al-Namat Dhu al-Mish'ar, as Ibn Hisham names them on the authority of Abu Ishaq al-Sabi'i."
+  ur: "ہمدان کے وفد میں سے جو تبوک سے واپسی پر مالک بن نعط ذو المشعار کے ساتھ نبی سے ملا، جیسا کہ ابن ہشام نے نام لیا۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "من وفد همدان (ابن هشام ص244).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
   - { type: lived_in, target: place/hamadan, confidence: low, note: "Associated with همدان per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }

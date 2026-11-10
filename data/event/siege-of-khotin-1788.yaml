@@ -11,6 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1788", precision: year, status: tradition, derived: true }
   end: { edtf: "1788", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [26.498333333333, 48.521944444444]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1788"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار خوتين ⁦(١٧٨٨)⁩", en: "Siege of Khotin" }, at: [26.498333333333, 48.521944444444], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/khotyn-fortress }
+- { type: occurred_at, target: place/khotyn }
+sides:
+  - label: { ar: "قوات عبد الحميد الأول", en: "The forces of Abd al-Hamid I" }
+    participants: [person/abd-al-hamid-i-uthmani]
+  - label: { ar: "حامية خوتين", en: "The defenders of Khotin" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4337461

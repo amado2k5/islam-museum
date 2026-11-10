@@ -11,6 +11,20 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0634", precision: year, status: tradition, derived: true }
   end: { edtf: "0638", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6, 32.8]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0634"
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح الإسلامي للشام", en: "Muslim conquest of the Levant" }, at: [35.6, 32.8], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/near-east }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q248984

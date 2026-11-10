@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1775", precision: year, status: tradition, derived: true }
   end: { edtf: "1776", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [43.5, 33.7]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1775"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الفارسية ⁦(١٧٧٥–١٧٧٦)⁩", en: "Ottoman–Persian War of 1775–1776" }, at: [43.5, 33.7], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mesopotamia }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "الدولة الزندية بقيادة كريم خان", en: "The Zand state under Karim Khan" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q6077256

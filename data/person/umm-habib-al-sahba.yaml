@@ -15,6 +15,7 @@ periods:
 - period/rashidun
 regions:
 - arabia
+died: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~660, Tarikh al-Tabari; al-Kamil (Ibn al-Athir)" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }

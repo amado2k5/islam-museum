@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Georgius Eutychius" }
+died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Georgius Eutychius" }
 relations:
   - { type: lived_in, target: place/askalan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fihrist-ibn-al-nadim] }

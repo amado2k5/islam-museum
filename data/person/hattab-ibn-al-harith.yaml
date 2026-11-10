@@ -1,6 +1,6 @@
 id: person/hattab-ibn-al-harith
 class: person
-label: { en: Hattab ibn al-Harith, ar: "حطاب بن الحارث" }
+label: { en: Hattab ibn al-Harith, ar: "حطاب بن الحارث", ur: "حطاب بن الحارث" }
 names:
   - { kind: full, lang: ar, value: "حطاب بن الحارث" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من بني جمح، أخو حاطب بن الحارث، هاجر إلى الحبشة مع امرأته فكيهة بنت يسار وهلك هناك مسلماً."
   en: Of Banu Jumah, brother of Hatib ibn al-Harith; he emigrated to Abyssinia with his wife Fukayha bint Yasar and died there a Muslim.
+  ur: "بنو جمع کے، حاطب بن حارث کے بھائی؛ بیوی فکیہہ بنت یاسر کے ساتھ حبشہ ہجرت کیے اور وہیں مسلمان فوت ہوئے۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "0620~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Abyssinia with his brother Hatib (al-Tabarani, al-Isaba pp. 281-282, 329)", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/fukayha-bint-yasar, sources: [source/ibn-hisham-saqqa] }
@@ -24,6 +26,9 @@ relations:
   - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "Jumahi Qurashi (al-Isaba p. 329)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "Musa ibn Uqba, Ibn Ishaq and al-Tabari name him among the Abyssinia emigrants (al-Isaba p. 329)", sources: [source/ibn-hajar-isaba] }
+
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
 sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

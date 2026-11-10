@@ -1,0 +1,19 @@
+id: place/narsingdi
+class: place
+kind: site
+label: { ar: "نارسينغدي", en: "Narsingdi" }
+summary:
+  ar: "Narsingdi, Dhaka Division, Bangladesh."
+  en: "Narsingdi, Dhaka Division, Bangladesh."
+wings: [place]
+coordinates: [23.923, 90.7177]
+coordinate_precision: locality
+coordinate_note: "Narsingdi, Dhaka Division, Bangladesh (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

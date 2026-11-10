@@ -17,6 +17,7 @@ periods:
 - period/rashidun
 regions:
 - maghreb
+died: { edtf: "647", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Gregorius)" }
 relations:
 - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: participated_in

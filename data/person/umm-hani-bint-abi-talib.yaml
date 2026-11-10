@@ -3,6 +3,7 @@ class: person
 label:
   ar: أم هانئ بنت أبي طالب
   en: Umm Hani' bint Abi Talib
+  ur: "أم هانئ بنت أبي طالب"
 names:
 - kind: full
   lang: ar
@@ -19,6 +20,7 @@ traditions:
 summary:
   ar: ابنة عم النبي، واسمها فاختة وقيل فاطمة وقيل هند؛ كانت زوج هبيرة بن عمرو المخزومي الذي هرب إلى نجران يوم فتح مكة، وروت عن النبي أحاديث في الكتب الستة.
   en: A cousin of the Prophet, named Fakhita (also given as Fatima or Hind); wife of Hubayra ibn Amr al-Makhzumi, who fled to Najran on the day Mecca was taken; she narrated hadith found in the six collections.
+  ur: "نبی کی چچا زاد، نام فاختہ ⁦(فاطمہ یا ہند بھی بتایا جاتا ہے)⁩؛ ہبیرہ بن عمرو المخزومی کی بیوی جو فتح کے دن نجران بھاگا۔"
 wings: [people]
 themes:
 - women
@@ -51,6 +53,11 @@ relations:
   target: person/jafar-ibn-abi-talib
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "daughter of Abu Talib (al-Isti'ab p. 967)"
+  sources: [source/isti-ab-ibn-abd-al-barr]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12328، ص 2042 (تراجم النساء)
@@ -61,6 +68,7 @@ external_ids: { wikidata: "Q3738508" }
 sources:
 - source/ibn-hajar-isaba
 - source/nisa-hawl-alrasul
+- source/isti-ab-ibn-abd-al-barr
 status:
   review: published
   completeness: 3

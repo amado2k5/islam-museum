@@ -13,6 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1288~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1340~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
 relations:
   - { type: born_in, target: place/shabestar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765501)" }
   - { type: died_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80053)" }

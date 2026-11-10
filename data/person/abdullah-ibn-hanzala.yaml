@@ -20,5 +20,7 @@ status:
   review: published
   completeness: 3
 
+born: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/medina, note: "From text: أهل المدينة ليزيد سنة ثلاث وس", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }

@@ -11,7 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1074", precision: year, status: tradition, derived: true }
   end: { edtf: "1074", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
+  - label: { en: "Normans", ar: "نورمان" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135732302
 provenance:

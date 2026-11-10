@@ -11,6 +11,7 @@ wings: [people]
 themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+died: { edtf: "500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Isfahani, Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca.", sources: [source/mubarakpuri-raheeq], confidence: low }
   - { type: member_of, target: group/khuzaa }

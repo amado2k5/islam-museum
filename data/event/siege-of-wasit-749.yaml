@@ -11,6 +11,24 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0749", precision: year, status: tradition, derived: true }
   end: { edtf: "0750", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [46.3028, 32.1719]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0749"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار واسط ⁦(٧٤٩)⁩", en: "Siege of Wasit" }, at: [46.3028, 32.1719], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/wasit }
+sides:
+  - label: { ar: "قوات مروان بن محمد بن مروان", en: "The forces of Marwan ibn Muhammad ibn Marwan" }
+    participants: [person/marwan-ibn-muhammad]
+  - label: { ar: "حامية واسط", en: "The defenders of Wasit" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q16931475

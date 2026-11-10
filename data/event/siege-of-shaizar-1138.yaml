@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1138", precision: year, status: tradition, derived: true }
   end: { edtf: "1138", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.5667, 35.2678]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1138"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شيزر", en: "Siege of Shaizar" }, at: [36.5667, 35.2678], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/shaizar }
+sides:
+  - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
+    participants: [person/al-muqtafi-billah]
+  - label: { ar: "حامية شيزر", en: "The defenders of Shaizar" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q7510395

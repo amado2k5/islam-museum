@@ -1,0 +1,20 @@
+id: place/wild-fields
+class: place
+kind: region
+label: { ar: "أراضي الحقول البرية", en: "Wild Fields" }
+summary:
+  ar: "إقليم."
+  en: "Historic Ukrainian region."
+wings: [place]
+coordinates: [48.8063858, 40.263965]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q672600" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q672600 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

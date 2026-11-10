@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghadir (al-Amini)" }
+died: { edtf: "1370", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghadir (al-Amini)" }
 relations:
   - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+died: { edtf: "1273", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Wafayat al-A'yan (Ibn Khallikan)" }
 relations:
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
 sources: [source/al-aalam]

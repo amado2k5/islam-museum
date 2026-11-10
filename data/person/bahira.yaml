@@ -22,6 +22,7 @@ story_roles:
   - { role: interlocutor, start: { edtf: "0583~" }, status: tradition, note: "شهد النبوة مبكراً من منظور التراث الإسلامي (الرحيق ص59).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: christian, basis: documented, note: "راهب ببصرى؛ الكتاب يسميه جرجيس (الرحيق ص58-59).", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "582~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah al-Nabawiyya)" }
 relations:
   - { type: lived_in, target: place/busra }
   - { type: participated_in, target: event/bahira-encounter, role: "عرف النبي بخاتم النبوة", sources: [source/mubarakpuri-raheeq] }

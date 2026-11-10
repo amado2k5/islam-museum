@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sulami (Tabaqat al-Sufiyya); al-Dhahabi" }
+died: { edtf: "983", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sulami (Tabaqat al-Sufiyya); al-Dhahabi" }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

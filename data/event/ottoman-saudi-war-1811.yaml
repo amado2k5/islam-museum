@@ -11,6 +11,18 @@ regions: [arabia]
 date:
   start: { edtf: "1811", precision: year, status: tradition, derived: true }
   end: { edtf: "1818", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [46.0, 23.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1811"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية السعودية", en: "Ottoman–Wahhabi War" }, at: [46.0, 23.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/arabian-peninsula }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1809288

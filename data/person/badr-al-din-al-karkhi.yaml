@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
+born: { edtf: "1495", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+died: { edtf: "1598", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
 relations:
   - { type: born_in, target: place/al-karkh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wazifa, lexically, is what is fixed of food, sustenance or work for a given time; it is also used for the daily litany of the recitation and for an office and a particular service, a later usage, and figuratively for the tithe and the land tax. Mihna is service and work, and wazifa is the wider term. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17534}
 

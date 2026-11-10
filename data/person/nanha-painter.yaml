@@ -17,6 +17,8 @@ regions:
 gender: male
 roles:
 - artist
+born: { edtf: "1582~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mughal Painter Biographies (Grove Art Online)" }
+died: { edtf: "1620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mughal Painter Biographies (Grove Art Online)" }
 relations:
 - type: patronized_by
   target: person/jahangir-mughal

@@ -6,18 +6,19 @@ education:
     ur: "عبداللہ بن سلام، بنو قینقاع کا عالمِ کتاب، نے نبی کی آزمائش کی اور مسلمان ہوا — مدینہ کے مشہور ترین یہودی نو مسلم، جسے سنی روایت جنت کی بشارت پانے والوں میں گنتی ہے۔"
     sources: [source/sahih-al-bukhari, source/tabaqat-ibn-sad]
 class: person
-label: { en: "Abdullah ibn Salam", ar: "عبد الله بن سلام" }
+label: { en: "Abdullah ibn Salam", ar: "عبد الله بن سلام", ur: "عبد الله بن سلام" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن سلام" }
   - { kind: given, lang: ar, value: "الحصين بن سلام" }
 gender: male
 born: { edtf: "0550~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0663~", calendar: julian, precision: year, status: tradition, note: "Died at Medina, ~43 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0664", hijri: "0043", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Medina, 43 AH (al-Tabari, by consensus; also al-Haytham ibn Adi, Ibn Sa'd, Abu Ubayd and al-Baghawi — al-Isaba p. 890); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [scholar]
 traditions: []
 summary:
   en: "A learned rabbi of Banu Qaynuqa' who examined the Prophet, declared him genuine, and became the most famous Jewish convert of Medina — held in Sunni tradition as one promised paradise."
   ar: "حبر عالم من بني قينقاع اختبر النبي فشهد بصدقه وأسلم، فصار أشهر من أسلم من يهود المدينة — ويعدّه التراث السني من المبشرين بالجنة. وفي الصحيح أن النبي لم يقل لأحد يمشي على الأرض إنه من أهل الجنة إلا له {cite:sahih-al-bukhari 3812}، وله رؤيا العمود والعروة الوثقى التي أولها النبي بالإسلام {cite:sahih-al-bukhari 3813}، وتحذيره من هديّة الحمل والجمل على الحق إذ كانت ربا {cite:sahih-al-bukhari 3814}."
+  ur: "بنو قینقاع کے عالم ربانی جنہوں نے نبی کی جانچ کی، انھیں سچا قرار دیا اور مدینہ کے سب سے مشہور یہودی مرد مسلمان بنے — اہل سنت میں عزت پاتے ہیں۔"
 wings: [people]
 themes: [converts-and-leavers, islam-and-judaism, scripture-and-its-sciences]
 periods: [period/prophetic-era]
@@ -47,7 +48,8 @@ perspectives:
     summary: { en: "Historians note the account serves apologetic ends — a Jewish scholar validating the Prophet — while accepting that individual conversions from Medina's Jewish tribes did occur.", ar: "أما المؤرخون فيلاحظون أن الحكاية تخدم غرضًا دفاعيًّا — عالم يهودي يصادق على النبي — وهم يقبلون وقوع حالات إسلام فردية من قبائل يهود المدينة." }
     sources: [source/watt-1956-medina]
 external_ids: { wikidata: "Q307686" }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-ahmad-farid, source/assabile-mosaad-anwar]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-ahmad-farid, source/assabile-mosaad-anwar, source/ibn-hajar-isaba]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
   layer: own-research

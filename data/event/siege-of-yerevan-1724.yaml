@@ -11,6 +11,23 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1724", precision: year, status: tradition, derived: true }
   end: { edtf: "1724", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.514444444444, 40.181388888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1724"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار يريفان ⁦(١٧٢٤)⁩", en: "Siege of Yerevan (1724)" }, at: [44.514444444444, 40.181388888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/yerevan }
+sides:
+  - label: { ar: "قوات أحمد الثالث", en: "The forces of Ahmed III" }
+    participants: [person/ahmed-iii-uthmani]
+  - label: { ar: "حامية يريفان", en: "The defenders of Yerevan" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q119167294

@@ -14,6 +14,8 @@ provenance:
   run: lib-nafh-tib-batch-17
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "1093", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+died: { edtf: "1155", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
 relations:
   - { type: lived_in, target: place/baghdad, note: "From text: أقام ببغداد يعلم الصبيان وخدم السلطا", sources: [source/nafh-tib-maqqari] }
   - { type: died_in, target: place/damascus, note: "From text: died at Damascus", sources: [source/nafh-tib-maqqari] }

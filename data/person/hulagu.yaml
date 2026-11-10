@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1217", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1265", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/tarikh-ibn-khaldun-ibar] }
 provenance:

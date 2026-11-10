@@ -17,6 +17,7 @@ story_roles:
   - { role: interlocutor, start: { edtf: "0619~" }, status: tradition, note: "المحرك الأول لنقض صحيفة المقاطعة (الرحيق ص111).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشي قبل إسلامه لاحقاً." }
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (boycott of Hashim)" }
 relations:
   - { type: born_in, target: place/mecca }
   - { type: member_of, target: group/quraysh }

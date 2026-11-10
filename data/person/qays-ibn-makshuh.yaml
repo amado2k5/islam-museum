@@ -10,6 +10,7 @@ gender: male
 roles: [tribal-leader, commander]
 wings: [people]
 periods: [period/prophetic-era, period/rashidun]
+died: { edtf: "657~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
   - { type: member_of, target: group/murad, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/delegation-of-zubayd, role: "أبى أن يذهب مع عمرو إلى النبي وسفّه رأيه ثم أوعده", sources: [source/ibn-hisham-saqqa] }

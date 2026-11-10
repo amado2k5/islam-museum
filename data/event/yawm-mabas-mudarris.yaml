@@ -19,5 +19,14 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (مكتبة التوفيقية، ج1)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v1-batch02
+map:
+  kind: battle
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم معبس ومضرس — هزيمة الأوس عند الجدارين", en: "the day of Maʿbas and Muḍarris — the Aws driven into their strongholds" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

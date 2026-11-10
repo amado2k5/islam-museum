@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
+born: { edtf: "1108", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+died: { edtf: "1152", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
 relations:
   - { type: died_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 provenance:

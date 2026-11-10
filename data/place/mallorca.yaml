@@ -1,0 +1,20 @@
+id: place/mallorca
+class: place
+kind: island
+label: { ar: "ميورقة", en: "Mallorca" }
+summary:
+  ar: "جزيرة."
+  en: "Island in the Mediterranean Sea."
+wings: [place]
+coordinates: [39.616666666667, 2.9833333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q8828" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q8828 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

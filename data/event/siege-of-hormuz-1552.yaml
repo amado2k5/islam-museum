@@ -11,6 +11,22 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1552", precision: year, status: tradition, derived: true }
   end: { edtf: "1552", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [56.46, 27.0675]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1552"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار هرمز ⁦(١٥٥٢)⁩", en: "Siege of Hormuz (1552)" }, at: [56.46, 27.0675], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/hormuz-island }
+sides:
+  - label: { ar: "القوات العثمانية بقيادة بيري ريس", en: "The Ottoman forces under Piri Reis" }
+  - label: { ar: "حامية هرمز البرتغالية", en: "The Portuguese garrison of Hormuz" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124655726

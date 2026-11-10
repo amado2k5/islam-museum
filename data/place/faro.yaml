@@ -1,0 +1,20 @@
+id: place/faro
+class: place
+kind: province
+label: { ar: "فارو", en: "Faro" }
+summary:
+  ar: "مقاطعة في البرتغال."
+  en: "Municipality in Portugal."
+wings: [place]
+coordinates: [37.01611111111111, -7.9350000000000005]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q159457" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q159457 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

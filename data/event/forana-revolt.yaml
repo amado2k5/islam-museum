@@ -11,6 +11,12 @@ regions: [east-africa]
 date:
   start: { edtf: "1769", precision: year, status: tradition, derived: true }
   end: { edtf: "1769", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات مصطفى الثالث", en: "The authorities of مصطفى الثالث" }
+    participants: [person/mustafa-iii-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q11945454

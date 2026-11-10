@@ -17,5 +17,7 @@ sources: [source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+born: { edtf: "1410", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami' 2/134; 813–893 AH)" }
+died: { edtf: "1488", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami' 2/134; 813–893 AH)" }
 relations:
   - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name (harawi); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1593", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat)" }
+died: { edtf: "1680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat)" }
 relations:
   - { type: born_in, target: place/tulkarm, note: "Wikidata Q985531 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/cairo, note: "Wikidata Q85 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

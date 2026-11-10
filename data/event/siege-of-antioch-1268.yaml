@@ -15,6 +15,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1268", precision: year, status: tradition, derived: true }
   end: { edtf: "1268", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش السلطان الظاهر ركن الدين بيبرس البندقداري", en: "al-Zahir Rukn al-Din Baybars's army" }
+    commanders: [person/baybars]
+  - label: { ar: "أنطاكية", en: "Antioch" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.201, 36.161]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أنطاكية ⁦(١٢٦٨)⁩", en: "Siege of Antioch" }, at: [36.201, 36.161], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q815112

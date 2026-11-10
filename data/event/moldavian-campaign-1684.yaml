@@ -11,7 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1684-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1691-10", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Polish–Lithuanian Commonwealth", ar: "الكومنولث البولندي الليتواني" }
+    participants: [polity/polish-lithuanian-commonwealth]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4300304
 provenance:

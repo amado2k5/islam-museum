@@ -14,6 +14,7 @@ relations:
   - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qadir-billah, role: "الآمر بالاستتابة وأخذ الخطوط", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/mahmud-ghaznawi, role: "السلطان الممتثل للأمر في خراسان", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 408)، قراءة آبل فيجن"

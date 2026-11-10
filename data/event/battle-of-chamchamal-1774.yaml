@@ -11,7 +11,26 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1774", precision: year, status: tradition, derived: true }
   end: { edtf: "1774", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [44.8342, 35.5333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1774"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة چمچمال ⁦(١٧٧٤)⁩", en: "Battle of Chamchamal (1774)" }, at: [44.8342, 35.5333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/chamchamal }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Zand Iran", ar: "الدولة الزندية" }
+    participants: [polity/zand-dynasty]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118929917
 provenance:

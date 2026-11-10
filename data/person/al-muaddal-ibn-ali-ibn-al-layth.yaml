@@ -12,6 +12,7 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-2
+died: { edtf: "911~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: C. E. Bosworth (The History of the Saffarids; r. 910–911)" }
 relations:
   - { type: ruled_over, target: place/sijistan, note: "Last Saffarid amir of Sistan.", sources: [source/kamil-ibn-al-athir], confidence: high }
   - { type: traveled_to, target: place/bukhara, note: "Carried captive to Bukhara in 298.", sources: [source/kamil-ibn-al-athir], confidence: medium }

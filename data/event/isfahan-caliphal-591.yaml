@@ -19,6 +19,19 @@ relations:
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية أصفهان", en: "The defenders of Isfahan" }
+    participants: [place/isfahan]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك عسكر الخليفة أصفهان", en: "The caliphal army's takeover of Isfahan (591 AH)" }, at: [32.6546, 51.668], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

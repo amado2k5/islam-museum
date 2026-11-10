@@ -12,6 +12,18 @@ date:
   start: { edtf: "1911", precision: year, status: tradition, derived: true }
   end: { edtf: "1911", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: battle
+  precision: locality
+  center: [13.1875, 32.8875]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1911"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة شعر الشط", en: "Battle of Shar al-Shatt" }, at: [13.1875, 32.8875], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/tripolitania-vilayet }
 external_ids:
   wikidata: Q25152060
 provenance:

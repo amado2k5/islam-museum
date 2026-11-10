@@ -1,0 +1,20 @@
+id: place/cija
+class: place
+kind: city
+label: { ar: "إستجة", en: "Écija" }
+summary:
+  ar: "مدينة."
+  en: "City and municipality in the province of Seville, Spain."
+wings: [place]
+coordinates: [37.541111111111114, -5.079444444444444]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q273413" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q273413 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

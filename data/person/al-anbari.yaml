@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "885", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
 relations:
   - { type: lived_in, target: place/al-anbar, note: "Place association from the person's nisba/name (anbari); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

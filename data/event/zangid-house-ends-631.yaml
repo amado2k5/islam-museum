@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mosul, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/badr-al-din-lulu, role: "المتسلطن", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:

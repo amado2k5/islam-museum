@@ -1,0 +1,20 @@
+id: place/pidhaitsi
+class: place
+kind: city
+label: { ar: "بيدهايتسي", en: "Pidhaitsi" }
+summary:
+  ar: "مدينة."
+  en: "City of Ukraine."
+wings: [place]
+coordinates: [49.266666666667, 25.133333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q149170" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q149170 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

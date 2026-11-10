@@ -11,7 +11,12 @@ regions: [east-africa]
 date:
   start: { edtf: "1885", precision: year, status: tradition, derived: true }
   end: { edtf: "1885", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mahdist Sudan", ar: "الدولة المهدية" }
+    participants: [polity/mahdist-sudan]
+  - label: { en: "Ethiopian Empire", ar: "الإمبراطورية الإثيوبية" }
+    participants: [polity/ethiopian-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q2888969
 provenance:

@@ -11,6 +11,22 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1366", precision: year, status: tradition, derived: true }
   end: { edtf: "1367", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.0, 42.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1366"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب المجرية العثمانية ⁦(١٣٦٦–١٣٦٧)⁩", en: "Hungarian–Ottoman War (1366–67)" }, at: [22.0, 42.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/balkans }
+sides:
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
+  - label: { ar: "مملكة المجر", en: "The Kingdom of Hungary" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1163209

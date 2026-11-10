@@ -3,18 +3,30 @@ class: person
 label:
   ar: "رفاعة بن عمرو بن زيد"
   en: "Rifa'a ibn Amr ibn Zayd"
+  ur: "رفاعة بن عمرو بن زيد"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لرفاعة بن عمرو بن زيد، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Rifa'a ibn Amr ibn Zayd, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري خزرجي سالمي، أبو الوليد؛ ذكره ابن إسحاق وغيره في البدريين."
+  en: "An Ansari Companion of the Khazraj, of Banu Salim, known as Abu al-Walid; Ibn Ishaq and others name him among the Badriyya."
+  ur: "خزرج کا انصاری صحابی، بنو سلیم سے، ابو الولید کہلاتا؛ ابن اسحاق وغیرہ اسے بدریوں میں گناتے ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion-era figure of the Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 479", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 479", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba p. 479", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 479", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "Khazraji Salimi (al-Isaba p. 479)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 479", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba p. 479", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "Ibn Ishaq names him among the Badriyya (al-Isaba p. 479)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q28147509
 provenance:

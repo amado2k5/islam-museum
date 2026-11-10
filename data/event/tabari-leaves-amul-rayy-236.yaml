@@ -17,6 +17,7 @@ date:
   start: { edtf: "0850~", hijri: "0236", calendar: julian, precision: year, status: historical, derived: true, note: "خرج وله اثنتا عشرة سنة ومولده شتاء ٢٢٤-٢٢٥هـ/٨٣٩م فيكون خروجه نحو سنة ٢٣٦هـ؛ السنة الميلادية تحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
 relations:
   - { type: occurred_at, target: place/rayy, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

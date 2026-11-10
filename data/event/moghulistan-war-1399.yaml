@@ -11,7 +11,25 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1399", precision: year, status: tradition, derived: true }
   end: { edtf: "1400", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [78.0, 43.5]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1399"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب مغولستان ⁦(١٣٩٩–١٤٠٠)⁩", en: "Moghulistan War (1399–1400)" }, at: [78.0, 43.5], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/moghulistan }
+sides:
+  - label: { en: "Moghulistan", ar: "مغولستان" }
+    participants: [place/moghulistan]
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+    participants: [polity/timurid-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q110463135
 provenance:

@@ -15,12 +15,27 @@ relations:
   - { type: occurred_at, target: place/qaysariyya }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "فاتحها بعد حصار سبع سنين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "أول من حاصرها سنة 13", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "وكّل معاوية بها ثم مات مطعوناً بدمشق", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/yazid-ibn-abi-sufyan, role: "وكّل معاوية بها ثم مات مطعوناً بدمشق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "كبّر لفتحها وقسم سبيها على يتامى الأنصار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 191–194"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-10
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية قيسارية", en: "The defenders of Caesarea" }
+    participants: [place/qaysariyya]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.5, 34.8917]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قيسارية", en: "The Conquest of Caesarea" }, at: [32.5, 34.8917], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

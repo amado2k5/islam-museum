@@ -11,6 +11,8 @@ regions: [south-asia]
 gender: male
 roles: [calligrapher]
 periods: [period/colonial-era]
+born: { edtf: "1780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Chaghatai (Muslim Calligraphy)" }
+died: { edtf: "1830~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Chaghatai (Muslim Calligraphy)" }
 relations:
   - { type: lived_in, target: place/lucknow, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }
   - { type: exemplifies, target: concept/nastaliq-script, sources: [source/salim-tarikh-khatt-o-khattatin-2001] }

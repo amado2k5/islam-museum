@@ -3,11 +3,13 @@ class: person
 label:
   ar: "بجير بن أبي بجير"
   en: "Bujayr ibn Abi Bujayr"
+  ur: "بجير بن أبي بجير"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لبجير بن أبي بجير، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Bujayr ibn Abi Bujayr, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "بجير بن أبي بجير العبسي، حليف الأنصار، ذكره موسى بن عقبة وابن إسحاق فيمن شهد بدراً."
+  en: "Bujayr ibn Abi Bujayr al-Absi, an ally of the Ansar; Musa ibn Uqba and Ibn Ishaq list him among those who fought at Badr."
+  ur: "بجیر بن ابی بجیر العبسی، انصار کا حلیف؛ موسی بن عقبہ اور ابن اسحاق انہیں بدر میں لڑنے والوں میں گناتے ہیں۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
@@ -15,6 +17,10 @@ sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 131; Musa ibn Uqba from Ibn Shihab, and Ibn Ishaq", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "Absi, ally of the Ansar (al-Isaba p. 131)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "Musa ibn Uqba per Ibn Shahin and Ibn Ishaq (al-Isaba p. 131)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12196047
 provenance:

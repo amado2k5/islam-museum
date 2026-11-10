@@ -3,19 +3,25 @@ class: person
 label:
   ar: "أبو بردة بن نيار"
   en: "Abu Burda ibn Niyar"
+  ur: "أبو بردة بن نيار"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بردة بن نيار الأنصاري، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Burda ibn Niyar al-Ansari, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري، خال البراء بن عازب؛ اختُلف في اسمه بين هانئ ومالك بن هبيرة والحارث بن عمرو، شهد بدراً وما بعدها وروى عن النبي."
+  en: "An Ansari Companion, maternal uncle of al-Bara' ibn Azib; his given name is reported variously as Hani', Malik ibn Hubayra and al-Harith ibn Amr. He witnessed Badr and the battles after it and narrated from the Prophet."
+  ur: "انصاری صحابی، براء بن عازب کے خالو؛ نام ہانی، مالک بن ہبیرہ یا حارث بن عمرو مختلف روایات میں آیا ہے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam, source/taqrib-al-tahdhib]
+sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba]
+died: { edtf: "0665~", hijri: "0045~", calendar: julian, precision: year, status: debated, derived: true, note: "Died early in Mu'awiya's caliphate having fought all Ali's battles with him; other reports give 41, 42 or 45 AH (Abu Umar, al-Isaba p. 1628); CE year approximated to 45 AH", sources: [source/ibn-hajar-isaba] }
 relations:
- - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam, source/taqrib-al-tahdhib], confidence: low }
- - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/taqrib-al-tahdhib]}
- - { type: member_of, target: group/ansar, sources: [source/al-aalam, source/taqrib-al-tahdhib]}
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam, source/taqrib-al-tahdhib], confidence: low }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/taqrib-al-tahdhib]}
+  - { type: member_of, target: group/ansar, sources: [source/al-aalam, source/taqrib-al-tahdhib]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1628", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1628", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-siffin, note: "fought all Ali's battles (al-Isaba p. 1628)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12186013
 provenance:

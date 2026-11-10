@@ -11,6 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0635", precision: year, status: tradition, derived: true }
   end: { edtf: "0635", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.619166666667, 33.186666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0635"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة فحل", en: "Battle of Fahl" }, at: [35.619166666667, 33.186666666667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/jordan-river }
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+    participants: [person/shurahbil-ibn-hasana]
+    commanders: [person/abu-ubayda-ibn-al-jarrah, person/khalid-ibn-al-walid]
+  - label: { ar: "الروم بقيادة سقلار", en: "The Byzantines under Saqallar" }
+    participants: [person/heraclius]
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q1030249

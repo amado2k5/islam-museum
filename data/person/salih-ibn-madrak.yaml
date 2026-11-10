@@ -12,6 +12,8 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-32
+born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+died: { edtf: "905~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
   - { type: lived_in, target: place/iraq, sources: [source/wikidata], confidence: low, note: "Nisba العراقي attested in the record." }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]

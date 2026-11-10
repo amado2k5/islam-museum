@@ -11,7 +11,25 @@ regions: [east-africa]
 date:
   start: { edtf: "1541", precision: year, status: tradition, derived: true }
   end: { edtf: "1541", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [39.0875, 13.575]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1541"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سحارت", en: "Battle of Sahart" }, at: [39.0875, 13.575], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tigray-region }
+sides:
+  - label: { en: "Adal Sultanate", ar: "سلطنة عدل" }
+    participants: [place/adal-sultanate]
+  - label: { en: "Ethiopian Empire", ar: "الإمبراطورية الإثيوبية" }
+    participants: [polity/ethiopian-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q726829
 provenance:

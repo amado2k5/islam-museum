@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/contemporary-era]
+born: { edtf: "1957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary biographical directories" }
 relations:
   - { type: born_in, target: place/karbala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

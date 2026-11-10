@@ -3,17 +3,21 @@ class: person
 label:
   ar: "سفيان بن عوف"
   en: "Sufyan ibn Awf"
+  ur: "سفيان بن عوف"
 names:
   - { kind: full, lang: ar, value: "سفيان بن عوف" }
 roles: [companion]
 summary:
-  ar: "بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك لا تُذكر هنا تواريخ ولا أحداث."
-  en: "Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked on the page, so no dates or events are given."
+  ar: "صحابي غامدي أزدي، صاحب الصوائف؛ كان له بأس ونجدة وسخاء، أغار على هيت والأنبار في أيام علي، واستعمله معاوية على الصوائف، ومات سنة ثلاث وخمسين على أصح الأقوال."
+  en: "A Ghamidi Azdi Companion, commander of the summer expeditions; a man of valour, hardiness and generosity. He raided Hit and al-Anbar in Ali's days, Mu'awiya put him over the summer campaigns, and he died in 53 AH on the soundest report."
+  ur: "غامدی ازدی صحابی، گرمیوں کی مہمات کا سردار؛ شجاع، مضبوط اور فیاض شخص؛ ہیت اور الانبار پر چھاپے مارے۔"
 wings: [people]
-sources: [source/isaba-matba-al-saada-1328]
+sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]
+died: { edtf: "0673", hijri: "0053", calendar: julian, precision: year, status: debated, derived: true, note: "Died 53 AH (Khalifa); Abu Ubayd gives 52 and al-Waqidi 54 — the Ghamidi of the summer expeditions (al-Isaba p. 588); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
   - { type: lived_in, target: place/al-sham, confidence: low, note: "Sufyan ibn Awf, commander in Muawiya's Syrian service (al-Isaba).", sources: [source/isaba-matba-al-saada-1328] }
+  - { type: participated_in, target: event/conquest-of-syria, note: "witnessed the conquest of Syria (al-Isaba p. 588)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12216211
 provenance:

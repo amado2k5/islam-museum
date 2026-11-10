@@ -13,10 +13,24 @@ relations:
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/yazid-ibn-abi-sufyan, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch02
+sides:
+  - label: { ar: "جيش أبو عبيدة بن الجراح", en: "Abu Ubayda ibn al-Jarrah's army" }
+    commanders: [person/abu-ubayda-ibn-al-jarrah]
+  - label: { ar: "دمشق", en: "Damascus" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة مرج الروم", en: "Battle of Marj al-Rum (15 AH)" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

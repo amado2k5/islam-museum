@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akbarnama; EI2 ('Abd al-Rahim Khan-i Khanan': 964–1036 AH)" }
+died: { edtf: "1627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akbarnama; EI2 ('Abd al-Rahim Khan-i Khanan': 964–1036 AH)" }
 relations:
   - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (hindi); denotes association, not proven residence.", sources: [source/richards-mughal-empire-1993, source/encyclopaedia-of-islam-2], confidence: low }

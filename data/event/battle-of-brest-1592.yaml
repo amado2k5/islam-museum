@@ -11,7 +11,14 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1592", precision: year, status: tradition, derived: true }
   end: { edtf: "1592", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { en: "Habsburg monarchy", ar: "ملكية هابسبورغ" }
+    participants: [polity/habsburg-monarchy]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q17515442
 provenance:

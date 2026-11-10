@@ -11,6 +11,23 @@ regions: [maghreb]
 date:
   start: { edtf: "0963", precision: year, status: tradition, derived: true }
   end: { edtf: "0963", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [15.413888888889, 38.1725]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0963"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار روميتا ⁦(٩٦٣)⁩", en: "Siege of Rometta" }, at: [15.413888888889, 38.1725], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-muizz-li-din-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/rometta }
+sides:
+  - label: { ar: "قوات المعز لدين الله معد بن المنصور", en: "The forces of al-Mu'izz li-Din Allah Ma'add ibn al-Mansur" }
+    participants: [person/al-muizz-li-din-allah]
+  - label: { ar: "حامية روميتا", en: "The defenders of Rometta" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q41374161

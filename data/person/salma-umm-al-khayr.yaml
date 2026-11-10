@@ -3,12 +3,14 @@ class: person
 label:
   ar: سلمى بنت صخر أم الخير
   en: Salma Umm al-Khayr
+  ur: "سلمى بنت صخر أم الخير"
 roles:
 - companion
 gender: female
 summary:
-  ar: بطاقة أولية لسلمى بنت صخر بن عامر أم الخير، والدة أبي بكر الصديق؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد.
-  en: Draft card for Salma bint Sakhr ibn Amir Umm al-Khayr, the mother of Abu Bakr; the biographical entry is not yet checked on the page.
+  ar: "سلمى بنت صخر، أم الخير، والدة أبي بكر الصديق."
+  en: "Salma bint Sakhr, Umm al-Khayr, mother of Abu Bakr al-Siddiq."
+  ur: "سلمہ بنت صخر، ام الخیر، ابو بکر صدیق کی والدہ۔"
 wings:
 - people
 regions:
@@ -17,6 +19,9 @@ periods:
 - period/prophetic-era
 sources:
 - source/al-aalam
+- source/usd-ghaba
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
 - type: member_of
   target: group/sahaba

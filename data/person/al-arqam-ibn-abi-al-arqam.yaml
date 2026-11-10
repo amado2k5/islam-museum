@@ -1,6 +1,6 @@
 id: person/al-arqam-ibn-abi-al-arqam
 class: person
-label: { en: "al-Arqam ibn Abi al-Arqam", ar: "الأرقم بن أبي الأرقم" }
+label: { en: "al-Arqam ibn Abi al-Arqam", ar: "الأرقم بن أبي الأرقم", ur: "الأرقم بن أبي الأرقم" }
 names:
   - { kind: full, lang: ar, value: "الأرقم بن أبي الأرقم المخزومي القرشي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "One of the earliest Muslims of the secret call; his name is tied in the sira to his house, which became the call's centre."
   ar: "من أوائل المسلمين في الدعوة السرية؛ ارتبط اسمه في السيرة بداره التي صارت مركزاً للدعوة."
+  ur: "خفیہ دعوت کے ابتدائی مسلمانوں میں سے؛ سیرت میں ان کا نام ان کے گھر سے جڑا ہے جو دعوت کا مرکز بنا۔"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,13 +17,17 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+died: { edtf: "0675", hijri: "0055", calendar: julian, precision: year, status: debated, derived: true, note: "Died under Mu'awiya; Ibrahim ibn al-Mundhir reports 55 AH, another report gives 53 AH (al-Isaba p. 38); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/banu-makhzum, note: "al-Isaba p. 38", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "al-Isaba p. 38", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 38", sources: [source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira] }
 external_ids: { wikidata: "Q287317" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/encyclopaedia-of-islam-2]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/encyclopaedia-of-islam-2, source/ibn-hajar-isaba]
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 681, entry 'AL-'ARKAM' (signed W. Montgomery Watt) (EI2 entry, batch ei2-b013 part 10, seq 346)"

@@ -16,6 +16,7 @@ translations:
   en: { text: "And the sky He hath uplifted; and He hath set the measure,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اسی نے آسمان کو بلند کیا اور ترازو قائم کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/heavens, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

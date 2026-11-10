@@ -16,6 +16,7 @@ translations:
   en: { text: "And maketh the sun and the moon, constant in their courses, to be of service unto you, and hath made of service unto you the night and the day.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور سورج اور چاند کو تمہارے لیے کام میں لگا دیا کہ دونوں (دن رات) ایک دستور پر چل رہے ہیں۔ اور رات اور دن کو بھی تمہاری خاطر کام میں لگا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sun, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

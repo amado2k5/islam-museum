@@ -13,6 +13,20 @@ relations:
   - { type: occurred_at, target: place/basra }
 wings: [time]
 external_ids: { wikidata: "Q118898707" }
+sides:
+  - label: { ar: "جيش المعتصم بالله أبو إسحاق بن الرشيد", en: "al-Mu'tasim Abu Ishaq ibn al-Rashid's army" }
+    commanders: [person/al-mutasim-abi-ishaq]
+  - label: { ar: "الزط", en: "the Zutt" }
+    participants: [group/zutt]
+map:
+  kind: campaign
+  precision: locality
+  center: [30.5085, 47.7804]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "قطع الزط ومحاربة عجيف لهم", en: "The Zutt Brigandage and Ujayf's War" }, at: [30.5085, 47.7804], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

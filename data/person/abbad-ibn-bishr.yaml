@@ -36,6 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: martyred at Yamama 12 AH)" }
 relations:
 - type: lived_in
   target: place/bukhara
@@ -52,6 +53,21 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/killing-of-kab-ibn-al-ashraf
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 764"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/al-aws
+  note: "al-Isaba p. 764"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-haritha-al-aws
+  note: "led their prayers (al-Isaba p. 764)"
   sources:
   - source/ibn-hajar-isaba
 provenance:

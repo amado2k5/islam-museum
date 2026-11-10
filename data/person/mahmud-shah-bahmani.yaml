@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1470", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Firishta / EI2" }
+died: { edtf: "1518", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Firishta / EI2" }
 relations:
   - { type: ruler_of, target: polity/bahmani-sultanate, confidence: low, note: "Bahmani sultan 1482-1518 per the record's own summary.", sources: [source/bosworth-new-islamic-dynasties-1996] }
   - { type: ruled_over, target: place/deccan-plateau, confidence: low, note: "Bahmani sultan 1482-1518; the Bahmani kingdom lay on the Deccan plateau.", sources: [source/bosworth-new-islamic-dynasties-1996] }

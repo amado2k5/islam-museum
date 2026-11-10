@@ -11,7 +11,25 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1897", precision: year, status: tradition, derived: true }
   end: { edtf: "1897", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [24.893333333333, 35.309722222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1897"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ليفاديا ⁦(١٨٩٧)⁩", en: "Battle of Livadeia (1897)" }, at: [24.893333333333, 35.309722222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/crete }
+sides:
+  - label: { en: "Kingdom of Greece", ar: "مملكة اليونان" }
+    participants: [polity/kingdom-of-greece]
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12880485
 provenance:

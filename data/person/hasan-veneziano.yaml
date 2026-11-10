@@ -13,6 +13,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
+died: { edtf: "1588~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Algiers)" }
 relations:
   - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/kilic-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi], note: "خلَفه قبوداناً للبحر" }

@@ -15,12 +15,22 @@ relations:
   - { type: occurred_at, target: place/khilat, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/shihab-al-din-ghazi-khilat, role: "العاصي", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-ashraf, role: "أخوه", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch2
+map:
+  kind: campaign
+  precision: locality
+  center: [38.754156, 42.487735]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "عصيان شهاب الدين غازي على أخيه الأشرف وأخذه خلاط", en: "Shihab al-Din Ghazi rebels against his brother al-Ashraf and takes Khilat" }, at: [38.754156, 42.487735], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

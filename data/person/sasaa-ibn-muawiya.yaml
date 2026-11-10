@@ -13,6 +13,8 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: member_of, target: group/banu-tamim, sources: [source/mustadrak-ilmiyya-ata-v3] }

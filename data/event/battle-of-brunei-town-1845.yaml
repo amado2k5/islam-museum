@@ -11,6 +11,18 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1845", precision: year, status: tradition, derived: true }
   end: { edtf: "1845", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [114.9167, 4.9167]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1845"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مدينة بروناي ⁦(١٨٤٥)⁩", en: "Battle of Brunei Town (1845)" }, at: [114.9167, 4.9167], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/bandar-seri-begawan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q136451014

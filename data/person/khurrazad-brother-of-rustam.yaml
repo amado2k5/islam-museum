@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/rashidun]
 regions: [levant-iraq]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
 relations:
   - { type: lived_in, target: place/jalula, confidence: low, note: "Associated with جلولاء per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
 provenance:

@@ -7,12 +7,25 @@ summary:
   en: "Draft card for the conquest of Tripoli in 1289, Qalawun's capture of the Crusader county's city; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/tarabulus-sham, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
   start: { edtf: "1289", precision: year, status: tradition, derived: true }
   end: { edtf: "1289", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة قلاوون", en: "The Mamluk army under Qalawun" }
+  - label: { ar: "حامية طرابلس الصليبية", en: "The Crusader garrison of Tripoli" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.4336, 35.8444]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طرابلس الشام", en: "Conquest of Tripoli" }, at: [34.4336, 35.8444], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q5432166

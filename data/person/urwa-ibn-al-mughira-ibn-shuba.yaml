@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
+died: { edtf: "705~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; Siyar A'lam al-Nubala" }
 relations:
   - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
 sources: [source/al-aalam]

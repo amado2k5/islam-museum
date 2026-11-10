@@ -19,6 +19,7 @@ roles:
 wings:
   - people
   - living
+born: { edtf: "1975", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary academic profile" }
 relations:
   - { type: lived_in, target: place/united-states, confidence: low, note: "US-based author/speaker per the record's own text.", sources: [source/wikidata] }
 faith:

@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
+died: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Quds" }
 relations:
   - { type: born_in, target: place/jerusalem, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1218)" }
 sources: [source/al-aalam]

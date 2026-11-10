@@ -1,0 +1,20 @@
+id: place/north-africa
+class: place
+kind: region
+label: { ar: "شمال إفريقيا", en: "North Africa" }
+summary:
+  ar: "إقليم."
+  en: "Northernmost region of the African continent."
+wings: [place]
+coordinates: [30.440741666667, 9.6817138888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q27381" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q27381 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

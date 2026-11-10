@@ -11,6 +11,18 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1087", precision: year, status: tradition, derived: true }
   end: { edtf: "1087", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-1.6067, 42.0653]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1087"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تطيلة ⁦(١٠٨٧)⁩", en: "Siege of Tudela (1087)" }, at: [-1.6067, 42.0653], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tudela }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18210269

@@ -6,6 +6,8 @@ summary:
   en: "Muslim ibn Sa'id; Umar ibn Hubayra's governor, truced by al-Afshin on six thousand heads and his fortress — then, fearing dismissal when Asad was named, he ravaged Farghana and fled the Khaqan three marches in a day."
 periods: [period/umayyad]
 wings: [people]
+born: { edtf: "723~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Governor of Khurasan)" }
+died: { edtf: "725~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Governor of Khurasan)" }
 relations:
   - { type: traveled_to, target: place/farghana, sources: [source/wikidata], confidence: low, note: "ar: 'مسلم بن سعيد؛ استعمله عمر بن هبيرة على خراسان فصالح أفشين على ستة آلاف رأس ودفع إليه قلعته فلما سمع بولاي" }
 sources: [source/futuh-buldan-maarif-1407]

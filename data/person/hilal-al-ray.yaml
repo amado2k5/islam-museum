@@ -12,6 +12,7 @@ traditions: [sunni-hanafi]
 wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+died: { edtf: "820", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 relations:
   - { type: lived_in, target: place/bastam, confidence: low, note: "Associated with بسطام per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
 provenance:

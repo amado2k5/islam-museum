@@ -13,7 +13,20 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1856", precision: year, status: tradition, derived: true }
   end: { edtf: "1856", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.3529, 62.204]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب هراة الثانية", en: "Second Herat War" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
+sides:
+  - label: { en: "Herat (1793-1863)", ar: "إمارة هراة" }
+  - label: { en: "Qajar Iran", ar: "الدولة القاجارية" }
+    participants: [polity/qajar-iran]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q109285838
 provenance:

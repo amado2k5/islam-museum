@@ -3,7 +3,6 @@ class: person
 label:
   ar: "أم موسى القهرمانة"
   en: "Umm Musa al-Qahramana"
-roles: [companion]
 gender: female
 summary:
   ar: "بطاقة أولية لأم موسى القهرمانة، من أهل الصدر الأول؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
@@ -12,9 +11,10 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh (Ibn al-Athir); EI2" }
+died: { edtf: "923~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil fi al-Tarikh (Ibn al-Athir); EI2" }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Abbasid palace stewardess (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
-  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
 external_ids:
   wikidata: Q126118610
 provenance:

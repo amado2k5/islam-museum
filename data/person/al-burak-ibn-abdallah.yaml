@@ -16,5 +16,7 @@ provenance:
   run: lib-tarikh-khulafa-batch-5
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/tabari-tarikh-abu-al-fadl]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/tabari-tarikh-abu-al-fadl], confidence: low }

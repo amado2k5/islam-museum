@@ -1,0 +1,81 @@
+---
+// A caliph's page (docs/plan/30-khulafa-browser.md): reign box in CE, the predecessor/successor
+// strip inside his caliphate, the events his reign saw (during_reign inverses), the realm places,
+// his record's perspectives when the accession is contested, and a link to the full person page.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf, summaryOf, href } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { khulafaNodes, reignOf, neighboursOf, reignEventsOf, chainOf, CLAIM_POLITIES } from "../../../lib/khulafa";
+import { byId } from "../../../lib/graph";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => khulafaNodes.map((n) => ({ params: { lang, slug: n.slug }, props: { lang, node: n } })));
+}
+const { lang, node } = Astro.props as { lang: Lang; node: any };
+const T = ui(lang);
+const K = T.khulafa;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const reign = reignOf(node)!;
+const polity = byId.get(reign.toward)!;
+const { prev, next } = neighboursOf(node.id);
+const events = reignEventsOf(node.id);
+const chain = chainOf(reign.toward);
+const order = chain.findIndex((n) => n.id === node.id) + 1;
+const isClaim = (CLAIM_POLITIES as readonly string[]).includes(reign.toward);
+const roleKey = reign.role === "rival-claimant" ? K.role_claimant : K.role_ruler;
+---
+<BaseLayout lang={lang} title={label(node)} description={summaryOf(node, lang)} path={`/${lang}/khulafa/${node.slug}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/khulafa/`}>{K.title}</a> › {label(node)}</nav>
+    <div data-pagefind-body>
+      <h1>{label(node)}</h1>
+      <p style="font-size:1.15rem;max-width:var(--measure)">{summaryOf(node, lang)}</p>
+    </div>
+
+    <section class="panel" style="max-width:var(--measure);border:1px solid var(--gold);margin:1rem 0" aria-label={K.reign_label}>
+      <p class="ui" style="margin:0;font-size:.9rem">
+        {isClaim ? K.claim_label : K.reign_label} · <a href={href(lang, polity.id)}>{label(polity)}</a>
+        {" · "}{fmt(K.order_label, { n: num(order, lang) })}{" · "}{fmt(K.span_label, { start: reign.start ?? "", end: reign.end ?? K.present })}
+      </p>
+      <p class="ui" style="margin:.4rem 0 0;font-size:.9rem">{roleKey}</p>
+    </section>
+
+    {(prev || next) && (
+      <nav class="ui" aria-label={K.chain_label} style="display:flex;flex-wrap:wrap;gap:10px;margin:0 0 1.5rem;max-width:var(--measure)">
+        {prev ? <a class="panel" style="flex:1;min-width:200px;text-decoration:none" href={`/${lang}/khulafa/${prev.slug}/`}>‹ {K.prev_label}: {label(prev)}</a>
+              : <span class="panel" style="flex:1;min-width:200px;visibility:hidden" />}
+        {next ? <a class="panel" style="flex:1;min-width:200px;text-decoration:none;text-align:end" href={`/${lang}/khulafa/${next.slug}/`}>{K.next_label}: {label(next)} ›</a>
+              : <span class="panel" style="flex:1;min-width:200px;visibility:hidden" />}
+      </nav>
+    )}
+
+    {events.length > 0 && (
+      <section aria-labelledby="events-title" style="margin-top:1rem">
+        <h2 id="events-title">{K.sec_events}</h2>
+        <ul class="grid-cards" role="list" style="list-style:none;padding:0;margin:0">
+          {events.map((e) => (
+            <li><a class="card" href={href(lang, e.id)} style="display:block;height:100%;text-decoration:none">
+              <h3 class="card-title" style="font-size:1.05rem;margin:.1rem 0">{label(e)}</h3>
+              <p class="muted" style="margin:.3rem 0 0;font-size:.85rem">{summaryOf(e, lang)}</p>
+            </a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {node.data.perspectives?.length > 0 && (
+      <section aria-labelledby="persp-title" style="margin-top:1.5rem">
+        <h2 id="persp-title">{K.sec_perspectives}</h2>
+        {node.data.issue?.[lang] && <p class="panel" style="max-width:var(--measure)">{node.data.issue[lang]}</p>}
+        <ul style="max-width:var(--measure)">
+          {node.data.perspectives.map((p: any) => (
+            <li style="margin:.5rem 0"><strong class="ui">{p.tradition}</strong> — {p.summary?.[lang] ?? p.summary?.en}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p class="ui" style="margin-top:2rem"><a href={href(lang, node.id)}>{K.record_link}</a></p>
+  </div>
+</BaseLayout>

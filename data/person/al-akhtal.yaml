@@ -14,5 +14,7 @@ regions: [levant-iraq]
 provenance: { layer: own-research, source: "salabi-umayyad-state-2020 pp. 37-38", generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 37-38" }
 sources: [source/salabi-umayyad-state-2020, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 37-38" }
+born: { edtf: "640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Akhtal)" }
+died: { edtf: "708", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Akhtal)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Christian Taghlibi poet of the Umayyad state who praised the caliphs for some twenty-five years; the court was Damascus.", sources: [source/salabi-umayyad-state-2020, source/encyclopaedia-of-islam-2], confidence: medium }

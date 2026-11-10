@@ -17,5 +17,7 @@ sources: [source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+born: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Taghribirdi (Nujum)" }
+died: { edtf: "1484", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Taghribirdi (Nujum)" }
 relations:
   - { type: lived_in, target: place/al-karak, note: "From text: of the Karak", sources: [source/wafayat-ayan], confidence: low }

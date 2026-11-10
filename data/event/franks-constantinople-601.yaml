@@ -18,5 +18,18 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-44
 external_ids: { wikidata: "Q1750892" }
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية القسطنطينية", en: "The defenders of Constantinople" }
+    participants: [place/constantinople]
+map:
+  kind: campaign
+  precision: locality
+  center: [41.008, 28.978]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء الفرنج على القسطنطينية", en: "The Franks Seize Constantinople" }, at: [41.008, 28.978], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

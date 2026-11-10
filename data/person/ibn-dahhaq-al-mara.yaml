@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1214", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj" }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

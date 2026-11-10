@@ -1,0 +1,20 @@
+id: place/al-zabadani
+class: place
+kind: city
+label: { ar: "الزبداني", en: "Al-Zabadani" }
+summary:
+  ar: "مدينة."
+  en: "City."
+wings: [place]
+coordinates: [33.724722222222, 36.100277777778]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q374768" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q374768 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

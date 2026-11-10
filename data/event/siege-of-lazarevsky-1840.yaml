@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1840-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1840-07", precision: year, status: tradition, derived: true }
+relations:
+  - { type: part_of, target: event/russian-circassian-war }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q98085279

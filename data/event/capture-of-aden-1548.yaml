@@ -7,12 +7,25 @@ summary:
   en: "Draft card for the Ottoman capture of Aden in 1548, Piri Reis's seizure of the Yemeni port from the Portuguese; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/aden, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [arabia]
 date:
   start: { edtf: "1548", precision: year, status: tradition, derived: true }
   end: { edtf: "1548", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات العثمانية بقيادة بيري ريس", en: "The Ottoman forces under Piri Reis" }
+  - label: { ar: "حامية عدن البرتغالية", en: "The Portuguese garrison of Aden" }
+map:
+  kind: campaign
+  precision: locality
+  center: [12.7796, 45.0385]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح العثماني لعدن", en: "Capture of Aden" }, at: [12.7796, 45.0385], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3049873

@@ -17,10 +17,27 @@ relations:
   - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "المتقلد لأمرها عند من قال إنها من ولايته", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "فاتح مآب على مثل صلحها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/jizya, note: "الجزية عن كل حالم: دينار وجريب حنطة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 155–156"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+    participants: [person/yazid-ibn-abi-sufyan, person/abu-ubayda-ibn-al-jarrah]
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { ar: "حامية بصرى والروم", en: "The Busra garrison and the Byzantines" }
+    participants: [person/heraclius]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.52, 36.48]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بصرى", en: "The Conquest of Busra" }, at: [32.52, 36.48], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

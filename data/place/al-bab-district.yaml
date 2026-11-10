@@ -1,0 +1,20 @@
+id: place/al-bab-district
+class: place
+kind: province
+label: { ar: "منطقة الباب", en: "al-Bab District" }
+summary:
+  ar: "مقاطعة."
+  en: "District of Aleppo, Syria."
+wings: [place]
+coordinates: [36.3725, 37.51777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4118360" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4118360 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

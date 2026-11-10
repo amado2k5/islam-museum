@@ -1,6 +1,6 @@
 id: person/nuaym-ibn-yazid-al-tamimi
 class: person
-label: { ar: "نعيم بن يزيد التميمي", en: "Nu'aym ibn Yazid al-Tamimi" }
+label: { ar: "نعيم بن يزيد التميمي", en: "Nu'aym ibn Yazid al-Tamimi", ur: "نعيم بن يزيد التميمي" }
 names:
   - { kind: full, lang: ar, value: "نعيم بن يزيد التميمي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من رجال وفد بني تميم على النبي سنة 9هـ كما سمّاه ابن إسحاق، ولا يذكر عنه أكثر من اسمه؛ أسلم الوفد بعد المفاخرة."
   en: "One of the men of the Banu Tamim delegation to the Prophet in 9 AH, named by Ibn Ishaq without further detail; the delegation embraced Islam after the contest."
+  ur: "9 ہجری میں نبی کے پاس بنو تمیم کے وفد کے آدمیوں میں سے، ابن اسحاق نے بغیر تفصیل نام لیا؛ وفد نے اسلام قبول کیا۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم الوفد كله بعد المفاخرة (ص212).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "ضمن وفد بني تميم الذين أسلموا (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }

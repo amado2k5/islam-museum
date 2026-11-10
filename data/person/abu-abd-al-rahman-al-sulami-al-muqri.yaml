@@ -17,6 +17,8 @@ wings: [people]
 themes: [scripture-and-its-sciences, education]
 periods: [period/rashidun, period/umayyad]
 regions: [levant-iraq]
+born: { edtf: "637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
   - { type: lived_in, target: place/kufa, sources: [source/assabile-abu-ishaq-alheweny] }
   - { type: student_of, target: person/uthman-ibn-affan, sources: [source/assabile-abu-ishaq-alheweny] }

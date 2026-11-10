@@ -1,6 +1,6 @@
 id: person/yazid-ibn-abd-al-madan
 class: person
-label: { ar: "يزيد بن عبد المدان", en: "Yazid ibn Abd al-Madan" }
+label: { ar: "يزيد بن عبد المدان", en: "Yazid ibn Abd al-Madan", ur: "يزيد بن عبد المدان" }
 names:
   - { kind: full, lang: ar, value: "يزيد بن عبد المدان" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "من وفد بني الحارث بن كعب سنة 10هـ؛ هو الذي أجاب النبي في المرة الرابعة: نحن الذين إذا زُجروا استقدموا، وقال له: ما حمدناك ولا حمدنا خالداً، حمدنا الله الذي هدانا بك."
   en: "A member of the Banu al-Harith ibn Ka'b delegation of 10 AH; it was he who answered the Prophet's fourth question, we are the ones who advance when rebuked, and told him they praised neither him nor Khalid but God who had guided them."
+  ur: "10 ہجری کے بنو حارث بن کعب کے وفد کا رکن؛ وہی تھا جس نے نبی کے چوتھے سوال کا جواب دیا۔"
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: convert, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "أسلم مع بني الحارث بن كعب على يدي خالد سنة 10هـ وقدم في وفدهم (ابن هشام ص240).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: traveled_to, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-al-harith-ibn-kab, sources: [source/ibn-hisham-saqqa] }

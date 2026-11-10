@@ -1,0 +1,20 @@
+id: place/nile-delta
+class: place
+kind: river
+label: { ar: "دلتا النيل", en: "Nile Delta" }
+summary:
+  ar: "نهر."
+  en: "Delta formed in Northern Egypt where the Nile River drains into the Mediterranean Sea."
+wings: [place]
+coordinates: [30.9, 31.11666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q179528" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q179528 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

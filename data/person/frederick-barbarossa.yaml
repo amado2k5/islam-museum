@@ -8,6 +8,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 roles: [ruler, military]
+born: { edtf: "1122", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1190", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/constantinople, confidence: low, note: "Associated with القسطنطينية per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
 provenance:

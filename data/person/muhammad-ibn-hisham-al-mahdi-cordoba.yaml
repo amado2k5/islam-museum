@@ -14,6 +14,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-296-batch-1
 external_ids: { wikidata: "Q919257" }
+born: { edtf: "976", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab)" }
+died: { edtf: "1010", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hazm (Jamharat Ansab al-Arab)" }
 relations:
   - { type: born_in, target: place/cordoba, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5818)" }
 sources: [source/kamil-ibn-al-athir]

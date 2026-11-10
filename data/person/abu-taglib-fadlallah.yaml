@@ -14,6 +14,7 @@ provenance:
   run: lib-kamil-batch-15
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "979", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: traveled_to, target: place/misr, note: "From text: went to Egypt", sources: [source/kamil-ibn-al-athir] }
   - { type: ruler_of, target: place/jazira, note: "From text: amir of the Jazira", sources: [source/kamil-ibn-al-athir] }

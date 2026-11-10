@@ -13,10 +13,24 @@ date:
 relations:
   - { type: occurred_at, target: place/antioch, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/sulayman-ibn-qutlumush, role: "الفاتح", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-39
+sides:
+  - label: { ar: "جيش سليمان بن قتلمش السلجوقي", en: "سليمان بن قتلمش السلجوقي's army" }
+    commanders: [person/sulayman-ibn-qutlumush]
+  - label: { ar: "أنطاكية", en: "Antioch" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.201, 36.161]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ سليمان بن قتلمش أنطاكية من الروم", en: "Sulayman ibn Qutlumush takes Antioch from the Romans" }, at: [36.201, 36.161], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

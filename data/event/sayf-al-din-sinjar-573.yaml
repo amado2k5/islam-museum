@@ -19,10 +19,20 @@ relations:
   - { type: had_participant, target: person/sayf-al-din-ghazi-ii, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/imad-al-din-zangi-ii, role: "المحصور", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch02
+map:
+  kind: siege
+  precision: locality
+  center: [36.3209, 41.87656]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصر سيف الدين أخاه عماد الدين بسنجار وانهزامه من صلاح الدين", en: "Sayf al-Dīn besieges his brother ʿImād al-Dīn at Sinjār — then flees before Saladin" }, at: [36.3209, 41.87656], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

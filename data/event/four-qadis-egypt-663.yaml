@@ -11,6 +11,7 @@ regions: [egypt-nile]
 date: { start: { edtf: "1265~", hijri: "0663", calendar: julian, precision: year, status: tradition, derived: true, note: "في آخر سنة ثلاث وستين وستمائة {cite:shadharat-dhahab p. 542}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"

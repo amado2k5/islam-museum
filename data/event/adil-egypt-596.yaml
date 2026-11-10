@@ -17,5 +17,18 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v12-batch04
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية مصر", en: "The defenders of Misr (Egypt)" }
+    participants: [place/misr]
+map:
+  kind: campaign
+  precision: locality
+  center: [27, 29]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك العادل الديار المصرية", en: "al-Adil takes Egypt — the Ayyubid house-war ends" }, at: [27, 29], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

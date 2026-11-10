@@ -1,6 +1,6 @@
 id: person/shayba-ibn-uthman
 class: person
-label: { en: "Shayba ibn Uthman al-Hajabi", ar: "شيبة بن عثمان الحجبي" }
+label: { en: "Shayba ibn Uthman al-Hajabi", ar: "شيبة بن عثمان الحجبي", ur: "شيبة بن عثمان الحجبي" }
 names:
   - { kind: full, lang: ar, value: "شيبة بن عثمان بن أبي طلحة الحجبي العبدري" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A hereditary custodian of the Kaaba from Banu Abd al-Dar who joined the march to Hunayn intending to assassinate the Prophet to avenge his father and uncle slain at Uhud; upon drawing close, he was overcome with awe, and the Prophet placed his hand on his chest and prayed for him, whereupon he embraced Islam and fought loyally."
   ar: "سادن الكعبة من بني عبد الدار؛ خرج مع الجيش إلى حنين مضمرًا قتل النبي ثأرًا لأبيه وعمه المقتولين بأحد، فلما دنا منه حال دونه رعب، فدعاه النبي ووضع يده على صدره فأسلم وحسن إسلامه وقاتل دونه."
+  ur: "بنو عبد الدار کا کعبہ کا میراثی نگران جو حنین کی روانگی میں نبی کو قتل کرنے کا ارادہ لے کر آیا تھا۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era]
@@ -17,6 +18,7 @@ story_roles:
   - { role: convert, status: tradition, note: "أسلم يوم حنين بعد محاولة اغتيال النبي (ابن هشام 4/88).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01~" }, note: "أسلم يوم حنين." }
+died: { edtf: "0679", hijri: "0059", calendar: julian, precision: year, status: debated, derived: true, note: "Died at the end of Mu'awiya's caliphate, 59 AH; also said in Yazid's days — ancestor of the Kaba keepers (al-Isti'ab p. 336); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/battle-of-hunayn, role: convert, sources: [source/ibn-hisham-saqqa] }
@@ -24,5 +26,5 @@ relations:
 
   - { type: lived_in, target: place/wadi-hunayn, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 88", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/isti-ab-ibn-abd-al-barr]
 status: { review: published, completeness: 3 }

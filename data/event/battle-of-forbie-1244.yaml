@@ -11,6 +11,22 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1244", precision: year, status: tradition, derived: true }
   end: { edtf: "1244", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.54635833, 31.60576667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1244"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الفوربية", en: "Battle of Forbie" }, at: [34.54635833, 31.60576667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-mustasim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hiribya }
+sides:
+  - label: { ar: "الخوارزمية وجيش مصر الأيوبي", en: "The Khwarizmians and the Egyptian Ayyubid army" }
+  - label: { ar: "الجيش الصليبي المشترك", en: "The joint Crusader army" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q578201

@@ -20,5 +20,18 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 433"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-43
+sides:
+  - label: { ar: "جيش جرير بن عبد الله البجلي", en: "جرير بن عبد الله البجلي's army" }
+    commanders: [person/jarir-ibn-abd-allah-al-bajali, person/al-mughira-ibn-shuba]
+  - label: { ar: "همذان", en: "Hamadhan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8, 48.516666666667]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح همذان", en: "The Conquest of Hamadhan" }, at: [34.8, 48.516666666667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

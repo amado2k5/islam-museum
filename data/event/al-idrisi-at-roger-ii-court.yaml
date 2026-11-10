@@ -14,6 +14,7 @@ date:
   end: { edtf: "1138~", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/palermo, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
 provenance:
   layer: own-research

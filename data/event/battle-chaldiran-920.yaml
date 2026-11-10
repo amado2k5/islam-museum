@@ -12,6 +12,7 @@ date:
   start: { edtf: "1514-08-23~", hijri: "0920", calendar: julian, precision: month, status: tradition, derived: true, note: "أغسطس ١٥١٤م/٩٢٠هـ {cite:dawlat-uthmaniyya-salabi p. 181}." }
 relations:
   - { type: had_participant, target: person/selim-i-ottoman, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 181"
@@ -19,5 +20,11 @@ provenance:
   run: lib-salabi-uthmani-batch-2
 external_ids:
   wikidata: Q745110
+sides:
+  - label: { ar: "جيش السلطان سليم شاه بن عثمان", en: "Selim I's army" }
+    commanders: [person/selim-i-ottoman]
+  - label: { ar: "إسماعيل الصفوي", en: "Ismail I (Shah Ismail Safavi)" }
+    participants: [person/ismail-i-safavi]
 sources: [source/dawlat-uthmaniyya-salabi]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

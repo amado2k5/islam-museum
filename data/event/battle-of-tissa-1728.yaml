@@ -11,6 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "1728", precision: year, status: tradition, derived: true }
   end: { edtf: "1728", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-4.66666667, 34.28333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1728"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة تيسة ⁦(١٧٢٨)⁩", en: "Battle of Tissa (1728)" }, at: [-4.66666667, 34.28333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tissa }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q137405656

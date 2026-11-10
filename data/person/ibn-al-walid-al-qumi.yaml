@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "954", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
 relations:
   - { type: born_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

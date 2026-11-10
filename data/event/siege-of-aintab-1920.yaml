@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1920", precision: year, status: tradition, derived: true }
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [37.37916666666667, 37.062777777777775]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1920"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار عنتاب", en: "Siege of Aintab" }, at: [37.37916666666667, 37.062777777777775], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/gaziantep }
+sides:
+  - label: { ar: "قوات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The forces of السلطان وحيد الدين ⁦(محمد السادس)⁩" }
+    participants: [person/muhammad-vi-uthmani]
+  - label: { ar: "حامية عنتاب", en: "The defenders of Aintab" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4820796

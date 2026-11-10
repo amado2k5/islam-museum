@@ -9,6 +9,7 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 roles: [military]
+died: { edtf: "1140", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil fi al-Tarikh)" }
 relations:
   - { type: ruler_of, target: place/arafat, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'مجير الدين طاشتكين أمير الحاج العراقي؛ نهى شمس الدين ابن المقدم أمير حاج الشام عن الإفاضة من عرفات قبله س" }
   - { type: ruler_of, target: place/iraq, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'مجير الدين طاشتكين أمير الحاج العراقي؛ نهى شمس الدين ابن المقدم أمير حاج الشام عن الإفاضة من عرفات قبله س" }

@@ -11,7 +11,25 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1503-06-21", precision: year, status: tradition, derived: true }
   end: { edtf: "1503-06-21", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [48.516666666667, 34.8]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1503"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة همدان ⁦(١٥٠٣)⁩", en: "Battle of Hamadan" }, at: [48.516666666667, 34.8], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hamadhan }
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
+  - label: { en: "Aq Qoyunlu", ar: "آق قويونلو" }
+    participants: [place/aq-qoyunlu]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q130279251
 provenance:

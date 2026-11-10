@@ -9,17 +9,18 @@ education:
     ur: "خدیجہ مکہ کی ایک کامیاب تاجر، نبی کی پہلی بیوی اور روایت کے مطابق ان کے پیغام پر ایمان لانے والی پہلی شخص تھیں۔"
     sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: person
-label: { en: Khadija bint Khuwaylid, ar: خديجة بنت خويلد }
+label: { en: Khadija bint Khuwaylid, ar: خديجة بنت خويلد, ur: "خديجة بنت خويلد" }
 names:
   - { kind: full, lang: ar, value: خديجة بنت خويلد بن أسد بن عبد العزى بن قصي }
 gender: female
 born: { edtf: "0555~", calendar: julian, precision: year, status: tradition, note: "Tradition places her birth around 555 CE, about fifteen years before the Prophet; the exact year is not certain.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0619-04~", calendar: julian, precision: month, status: tradition, note: "Traditionally Ramadan, three years before the Hijra (about April 619 CE), in the same period as Abu Talib's death.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0619", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Ramadan of the tenth year of the mission, aged sixty-five, after Banu Hashim left the ravine, and was buried at al-Hujun before the funeral prayer was instituted (al-Waqidi, al-Isaba pp. 1854-1856)", sources: [source/ibn-hajar-isaba] }
 roles: [merchant, companion]
 traditions: [sunni, shia-twelver]
 summary:
   en: "A wealthy Meccan merchant who was the Prophet Muhammad's first wife and, in tradition, the first person to believe in his message. Usd al-Ghaba's entry on her (no. 6877) identifies her as the Prophet's wife and the first woman he married, and reports a group counting her the first of God's creation to embrace Islam by consensus of the Muslims, no man or woman preceding her {cite:usd-ghaba p.1502}."
   ar: "تاجرة مكية ثرية، كانت أول أزواج النبي محمد، وهي في الرواية أول من آمن برسالته؛ فلما رجع من غار حراء يرجف فؤاده قال «زملوني زملوني» فزمّلته وقالت كلمتها المشهورة «كلا والله ما يخزيك الله أبداً، إنك لتصل الرحم وتحمل الكل وتكسب المعدوم وتقري الضيف وتعين على نوائب الحق» ثم انطلقت به إلى ابن عمها ورقة بن نوفل {cite:sahih-al-bukhari 3}. وأمر الله نبيه أن يبشرها ببيت في الجنة من قصب لا صخب فيه ولا نصب {cite:sahih-al-bukhari 3819}، وقال «خير نسائها مريم بنت عمران وخير نسائها خديجة بنت خويلد» {cite:sahih-al-bukhari 3815}، وفي مسلم أتى جبريل النبي فقال له أن بلّغ خديجة سلاماً من ربها ومن جبريل وبشّرها «ببيت في الجنة من قصب لا صخب فيه ولا نصب» {cite:sahih-muslim 2432}. ويذكر أسد الغابة في ترجمتها رقم ٦٨٧٧ أنها زوج النبي وأول امرأة تزوجها، ونقل أن طائفة عدّتها أول خلق الله أسلم بإجماع المسلمين دون تقدم رجل أو امرأة عليها {cite:usd-ghaba p.1502}."
+  ur: "مکی امیر تاجر خاتون جو نبی محمد کی پہلی بیوی تھیں اور روایت میں ان کے پیغام پر ایمان لانے والی پہلی شخص۔"
 wings: [people]
 themes: [women, family-marriage-kinship, trade-and-finance]
 periods: [period/prophetic-era]
@@ -48,7 +49,8 @@ relations:
   - { type: participated_in, target: event/year-of-sorrow }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q42034" }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/sahih-muslim, source/assabile-omar-abdelkafy, source/assabile-abla-al-kahlawi, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/assabile-tareq-al-suwaidan, source/usd-ghaba]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/sahih-muslim, source/assabile-omar-abdelkafy, source/assabile-abla-al-kahlawi, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/assabile-tareq-al-suwaidan, source/usd-ghaba, source/ibn-hajar-isaba]
+importance: 1
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 35-48 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
 provenance:
   layer: own-research

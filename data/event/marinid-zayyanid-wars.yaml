@@ -11,6 +11,12 @@ regions: [maghreb]
 date:
   start: { edtf: "1250", precision: year, status: tradition, derived: true }
   end: { edtf: "1411", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: during_reign, target: person/abd-al-wahid-ii-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "الدولة المرينية", en: "The Marinid state" }
+  - label: { ar: "الدولة الزيانية", en: "The Zayyanid state" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q116658352

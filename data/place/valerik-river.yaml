@@ -1,0 +1,20 @@
+id: place/valerik-river
+class: place
+kind: river
+label: { ar: "نهر فاليريك", en: "Valerik River" }
+summary:
+  ar: "نهر في روسيا."
+  en: "River in Russia."
+wings: [place]
+coordinates: [43.1694, 45.4089]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4102843" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4102843 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -14,6 +14,7 @@ date:
 relations:
   - { type: had_participant, target: person/boabdil-muhammad-xii, role: "آخر سلاطين بني نصر؛ سلّم الحمراء", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/granada, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 529–531"
@@ -21,4 +22,5 @@ provenance:
   run: lib-nafh-tib-batch-54
 external_ids: { wikidata: "Q14150415" }
 sources: [source/nafh-tib-maqqari, source/assabile-tareq-al-suwaidan]
+importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

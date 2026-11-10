@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1318", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ihata fi Akhbar Gharnata (Ibn al-Khatib)" }
+died: { edtf: "1354", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ihata fi Akhbar Gharnata (Ibn al-Khatib)" }
 relations:
   - { type: born_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8810)" }
   - { type: buried_in, target: place/malaga, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q8851)" }

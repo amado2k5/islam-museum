@@ -10,12 +10,27 @@ summary:
 wings: [time]
 relations:
   - { type: occurred_at, target: place/qarqisiya, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch6
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية قرقيسيا", en: "The defenders of Qarqisiya (Circesium)" }
+    participants: [place/qarqisiya]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.1558, 40.4289]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قرقيسيا", en: "Conquest of Qarqisiya (16 AH)" }, at: [35.1558, 40.4289], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

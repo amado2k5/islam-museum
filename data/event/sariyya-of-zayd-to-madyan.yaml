@@ -15,8 +15,22 @@ relations:
   - { type: occurred_at, target: place/madyan, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "نهى عن التفريق في البيع", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/zayd-ibn-haritha, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/dumayra-mawla-ali, role: "خرج مع زيد هو وأخوه", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/dumayra-mawla-ali, role: "خرج مع زيد هو وأخوه", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 284", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية زيد بن حارثة", en: "Zayd ibn Haritha's expedition" }
+    commanders: [person/zayd-ibn-haritha]
+  - label: { ar: "بني جذام بمدين", en: "Banu Judham of Madyan" }
+    participants: [group/judham]
+map:
+  kind: campaign
+  precision: locality
+  center: [28.5019, 35.0169]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية زيد بن حارثة إلى مدين وقصة السبي", en: "Zayd ibn Haritha's detachment to Madyan and the captives" }, at: [28.5019, 35.0169], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 284" }

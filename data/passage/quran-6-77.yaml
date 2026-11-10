@@ -16,6 +16,7 @@ translations:
   en: { text: "And when he saw the moon uprising, he exclaimed: This is my Lord. But when it set, he said: Unless my Lord guide me, I surely shall become one of the folk who are astray.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر جب چاند کو دیکھا کہ چمک رہا ہے تو کہنے لگے یہ میرا پروردگار ہے۔ لیکن جب وہ بھی چھپ گیا تو بول اٹھے کہ میرا پروردگار مجھے سیدھا رستہ نہیں دکھائے گا تو میں ان لوگوں میں ہوجاؤں گا جو بھٹک رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/moon, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

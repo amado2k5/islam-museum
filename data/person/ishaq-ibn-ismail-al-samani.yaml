@@ -9,6 +9,7 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+died: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Bukhara / Narshakhi" }
 relations:
   - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:

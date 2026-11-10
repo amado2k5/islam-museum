@@ -15,6 +15,7 @@ provenance:
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 60-62, 144-149"]
 sources: [source/tarikh-khulafa-minhaj-1434, source/durar-kamina-jil-1993, source/yeomans-islamic-cairo-2006]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "1310", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqrizi (al-Suluk)" }
 relations:
   - { type: lived_in, target: place/al-karak, confidence: low, note: "Associated with الكرك per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: built, target: building/khanqah-of-baybars-al-gashankir, sources: [source/yeomans-islamic-cairo-2006] }

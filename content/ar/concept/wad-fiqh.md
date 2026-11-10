@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 status: draft
 ---
+## موجز
 
 الوعد في اللغة يُستعمل في الخير والشر، والعِدة الوعد. وفي الاصطلاح الإخبار بإيصال الخير في المستقبل. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17543}
 

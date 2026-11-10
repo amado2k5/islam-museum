@@ -19,5 +19,18 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 455–456"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-54
+sides:
+  - label: { ar: "جيش ردريق القنبيطور", en: "ردريق القنبيطور's army" }
+    commanders: [person/el-cid-rodrigo]
+  - label: { ar: "بلنسية", en: "Valencia" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.4699, -0.3763]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء القنبيطور على بلنسية", en: "Capture of Valencia by al-Qanbiyatur (the Campeador)" }, at: [39.4699, -0.3763], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

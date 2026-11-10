@@ -11,7 +11,26 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1225", precision: year, status: tradition, derived: true }
   end: { edtf: "1225", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+    participants: [polity/abbasid-caliphate]
+  - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
+    participants: [polity/khwarazmian-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [48.8483, 32.0497]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1225"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شوشتر ⁦(١٢٢٥)⁩", en: "Siege of Shushtar (1225)" }, at: [48.8483, 32.0497], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tustar }
+- { type: during_reign, target: person/al-zahir-billah }
+- { type: during_reign, target: person/al-nasir-billah }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137125301
 provenance:

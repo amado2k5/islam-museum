@@ -11,7 +11,25 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1833", precision: year, status: tradition, derived: true }
   end: { edtf: "1835", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.0, 39.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1833"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية السورانية ⁦(١٨٣٣)⁩", en: "Ottoman-Soran War" }, at: [35.0, 39.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/anatolia }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Soran Emirate", ar: "سورانيون" }
+    participants: [polity/soran-emirate]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q131412563
 provenance:

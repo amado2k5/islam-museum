@@ -17,6 +17,8 @@ relations:
   - { type: had_participant, target: person/muhammad, role: "الباعث وكاتب العهد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/amr-ibn-hazm, role: "المبعوث معلماً ومصدّقاً", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-al-harith-ibn-kab, sources: [source/ibn-hisham-saqqa] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 241-243", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
 sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 241-243" }

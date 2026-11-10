@@ -16,11 +16,27 @@ relations:
   - { type: had_participant, target: person/kusan-al-armani, role: "محاصرها ومهدمها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-karima, role: "عاملها يوم الحصار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "الفادي للأسرى والبانى سنة 139", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "المنفق خمسمائة ألف درهم على تحصينها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mutasim-abi-ishaq, role: "المنفق خمسمائة ألف درهم على تحصينها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 280"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-16
+sides:
+  - label: { ar: "قوات مروان بن محمد بن مروان", en: "The forces of Marwan ibn Muhammad ibn Marwan" }
+    participants: [person/marwan-ibn-muhammad]
+  - label: { ar: "حامية قاليقلا", en: "The defenders of Qaliqala (Theodosiopolis/Erzurum)" }
+    participants: [place/qaliqala]
+map:
+  kind: siege
+  precision: locality
+  center: [39.9043, 41.2679]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط قاليقلا سنة 133 وعمارتها", en: "The Fall of Qaliqala, 133, and its Rebuilding" }, at: [39.9043, 41.2679], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

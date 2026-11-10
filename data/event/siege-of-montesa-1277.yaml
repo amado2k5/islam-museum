@@ -11,6 +11,12 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1277", precision: year, status: tradition, derived: true }
   end: { edtf: "1277", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
+    participants: [person/al-hakim-bi-amr-illah]
+  - label: { ar: "حامية مونتيسا", en: "The defenders of Montesa" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q20108501

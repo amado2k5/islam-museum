@@ -12,6 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 themes: [architecture]
+died: { edtf: "1570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi]

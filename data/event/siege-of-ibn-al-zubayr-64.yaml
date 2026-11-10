@@ -11,12 +11,27 @@ regions: [arabia]
 date:
   start: { edtf: "0683-10~", hijri: "0064-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 64؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 345}." }
 relations:
-  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المحاصَر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المحاصَر", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abdullah-ibn-al-zubayr, sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 345"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-8, lib-akhbar-tiwal-batch-5-2026-10-31
+sides:
+  - label: { ar: "قوات عبد الله بن الزبير", en: "The forces of 'Abd Allah ibn al-Zubayr" }
+    participants: [person/abdullah-ibn-al-zubayr]
+  - label: { ar: "حامية مكة المكرمة", en: "The defenders of Mecca" }
+    participants: [place/mecca]
+map:
+  kind: siege
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ابن الزبير بمكة", en: "Siege of Ibn al-Zubayr in Mecca" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/umayyad-birth-to-fall-2006, source/tarikh-khulafa-minhaj-1434, source/bakr-umayyad-state-1134715, source/akhbar-tiwal-amir]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

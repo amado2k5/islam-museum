@@ -11,6 +11,22 @@ regions: [south-asia]
 date:
   start: { edtf: "1780", precision: year, status: tradition, derived: true }
   end: { edtf: "1784", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [77.0, 13.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1780"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الأنغلو-ميسورية الثانية", en: "Second Anglo-Mysore War" }, at: [77.0, 13.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/south-india }
+sides:
+  - label: { ar: "شركة الهند الشرقية البريطانية", en: "The British East India Company" }
+  - label: { ar: "مملكة مايسور بقيادة حيدر علي وتيبو", en: "Mysore under Hyder Ali and Tipu" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q233663

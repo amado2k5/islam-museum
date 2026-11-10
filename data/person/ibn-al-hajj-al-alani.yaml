@@ -11,6 +11,7 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1350~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
 relations:
   - { type: born_in, target: place/sardasht, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

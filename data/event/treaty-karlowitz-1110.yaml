@@ -12,6 +12,7 @@ date:
   start: { edtf: "1699", hijri: "1110", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: had_participant, target: person/mustafa-ii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310"

@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1350~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: died_in, target: place/aksehir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q169974)" }
 sources: [source/al-aalam]

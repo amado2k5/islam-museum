@@ -12,10 +12,25 @@ relations:
   - { type: occurred_at, target: place/kufa, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-ubayd-ibn-masud, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muthanna-ibn-haritha, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab }
+  - { type: during_reign, target: person/abu-bakr }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch02
+sides:
+  - label: { ar: "جيش أبو عبيد بن مسعود الثقفي", en: "Abu Ubayd ibn Mas'ud al-Thaqafi's army" }
+    commanders: [person/abu-ubayd-ibn-masud]
+  - label: { ar: "الكوفة", en: "Kufa" }
+map:
+  kind: battle
+  precision: locality
+  center: [32.0511, 44.4402]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة النمارق", en: "Battle of al-Namarq (13 AH)" }, at: [32.0511, 44.4402], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

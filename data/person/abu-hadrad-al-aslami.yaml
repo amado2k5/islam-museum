@@ -3,15 +3,18 @@ class: person
 label:
   ar: "أبو حدرد الأسلمي"
   en: "Abu Hadrad al-Aslami"
+  ur: "أبو حدرد الأسلمي"
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي حدرد الأسلمي، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Hadrad al-Aslami, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أسلمي، والد عبد الله؛ اختُلف في اسمه بين سلامة بن عمير وعبد وعبيد، روى عن النبي وروى عنه ابنه، وقال ابن سعد إنه مات سنة إحدى وسبعين وعقبه مغلطاي بأن التأريخ لترجمة ولده."
+  en: "An Aslami Companion, father of Abdallah; his name is given variously as Salama ibn Umayr, Abd or Ubayd. He narrated from the Prophet and was narrated from by his son; Ibn Sa'd dates his death to 71 AH, which Mughlatai reassigns to the son's entry."
+  ur: "اسلمی صحابی، عبد اللہ کے والد؛ نام سلامہ بن عمیر، عبد یا عبید مختلف روایات میں ہے۔"
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0691", hijri: "0071", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Sa'd dates his death 71 AH per Muzi; Mughaltay objects that the dated entry is his son Abdullah's (al-Isaba pp. 1648-1649); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

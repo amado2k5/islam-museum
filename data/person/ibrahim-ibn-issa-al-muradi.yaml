@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1268", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1342", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
 relations:
   - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

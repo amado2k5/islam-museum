@@ -1,0 +1,20 @@
+id: place/monemvasia
+class: place
+kind: town
+label: { ar: "مونيمفاسيا", en: "Monemvasia" }
+summary:
+  ar: "بلدة."
+  en: "Coastal settlement in Lakonia, Greece."
+wings: [place]
+coordinates: [36.687777777777775, 23.055555555555557]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q654616" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q654616 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

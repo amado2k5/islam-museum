@@ -20,10 +20,26 @@ relations:
   - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "نزل الباب الصغير إلى باب كيسان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-al-darda, role: "على مسلحة ببرزة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/jizya, note: "الجزية شرط الصلح في كتاب خالد؛ معدلاتها لاحقاً جريباً وديناراً ثم طبقات عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 165–172"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-9
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+    participants: [person/amr-ibn-al-as, person/shurahbil-ibn-hasana, person/yazid-ibn-abi-sufyan]
+    commanders: [person/khalid-ibn-al-walid, person/abu-ubayda-ibn-al-jarrah]
+  - label: { ar: "حامية دمشق والروم", en: "The Damascus garrison and the Byzantines" }
+    participants: [person/heraclius]
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح دمشق", en: "The Conquest of Damascus" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

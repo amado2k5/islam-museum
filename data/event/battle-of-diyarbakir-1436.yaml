@@ -11,6 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1436", precision: year, status: tradition, derived: true }
   end: { edtf: "1436", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الدولة الآق قويونلو", en: "The Aq Qoyunlu" }
+  - label: { ar: "الدولة القره قويونلو", en: "The Qara Qoyunlu" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135003813

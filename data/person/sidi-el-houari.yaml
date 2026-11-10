@@ -24,5 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
+died: { edtf: "1439", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
 relations:
   - { type: lived_in, target: place/wahran, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

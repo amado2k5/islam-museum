@@ -23,5 +23,7 @@ provenance:
 status:
   review: published
   completeness: 3
+born: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Sezgin, GAS" }
+died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Sezgin, GAS" }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (خراساني); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik], confidence: low }

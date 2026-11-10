@@ -11,7 +11,24 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1395", precision: year, status: tradition, derived: true }
   end: { edtf: "1397", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [22.3, 37.4]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1395"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزوات العثمانية في المورة", en: "Ottoman raids in the Despotate of the Morea" }, at: [22.3, 37.4], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/peloponnese }
+sides:
+  - label: { en: "Despotate of the Morea", ar: "ديسبوتية المورة" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q98383169
 provenance:

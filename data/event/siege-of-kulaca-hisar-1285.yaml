@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1285", precision: year, status: tradition, derived: true }
   end: { edtf: "1285", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
+    participants: [person/al-hakim-bi-amr-illah]
+  - label: { ar: "حامية كولاجا حصار", en: "The defenders of Kulaca Hisar" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q103813821

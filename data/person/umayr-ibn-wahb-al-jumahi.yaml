@@ -7,6 +7,7 @@ summary:
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
+died: { edtf: "644~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba; al-Isti'ab" }
 relations:
   - { type: traveled_to, target: place/tabuk, sources: [source/ibn-hisham-saqqa, source/rijal-hawl-al-rasul-muqattam-1994] }
   - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }

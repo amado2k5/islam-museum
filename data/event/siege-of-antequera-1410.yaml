@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1410", precision: year, status: tradition, derived: true }
   end: { edtf: "1410", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-4.5612, 37.0194]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1410"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أنتقيرة ⁦(١٤١٠)⁩", en: "Siege of Antequera (1410)" }, at: [-4.5612, 37.0194], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/antequera }
+sides:
+  - label: { ar: "قوات المستعين ⁦(القاهرة)⁩", en: "The forces of al-Musta'in (Cairo)" }
+    participants: [person/al-mustain-cairo]
+  - label: { ar: "حامية أنتقيرة", en: "The defenders of Antequera" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6148223

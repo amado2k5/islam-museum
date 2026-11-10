@@ -11,6 +11,22 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1250", precision: year, status: tradition, derived: true }
   end: { edtf: "1250", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "المسلمون المماليك", en: "The Muslim Mamluk forces" }
+    participants: [person/baybars]
+  - label: { ar: "الحملة الصليبية السابعة بقيادة لويس التاسع", en: "The Seventh Crusade under Louis IX" }
+map:
+  kind: battle
+  precision: locality
+  center: [31.383333333333, 31.05]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1250"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة المنصورة", en: "Battle of Mansurah" }, at: [31.383333333333, 31.05], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/mansoura }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2528398

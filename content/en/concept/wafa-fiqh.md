@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wafa', lexically, is the opposite of betrayal: completion, discharge, and bringing a thing to full measure; 'awfa al-kayl' is to complete the measure. Technically it is keeping to the way of mutual help, keeping covenants and maintaining the forms of affection in private and in public. The scholars explain the verse of sura al-Ma'ida on fulfilling contracts as keeping what the contract requires and acting on its consequences. The jurists use the word for handing over the thing contracted, for judgement and for payment. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17564}
 

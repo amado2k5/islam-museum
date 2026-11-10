@@ -1,0 +1,17 @@
+id: polity/kingdom-of-asturias
+class: polity
+kind: kingdom
+label: { ar: "مملكة أشتوريش", en: "Kingdom of Asturias" }
+summary:
+  ar: "مملكة سابقة على شبه الجزيرة الإيبيرية."
+  en: "A former kingdom on the Iberian Peninsula."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q231392" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q231392 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

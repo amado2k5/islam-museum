@@ -13,10 +13,25 @@ date:
   start: { edtf: "1487", hijri: "0892", calendar: julian, precision: year, status: tradition, derived: true, note: "892؛ التحويل مشتق {cite:nafh-tib-maqqari p. 521}." }
 relations:
   - { type: occurred_at, target: place/malaga, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 520–521"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-54
+sides:
+  - label: { ar: "قوات المتوكل على الله الثاني عبد العزيز بن يعقوب", en: "The forces of al-Mutawakkil ala Allah II, Abd al-Aziz ibn Ya'qub" }
+    participants: [person/al-mutawakkil-ala-llah-ii]
+  - label: { ar: "حامية مالقة", en: "The defenders of Malaga" }
+    participants: [place/malaga]
+map:
+  kind: siege
+  precision: locality
+  center: [36.7213, -4.4214]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مالقة وأسر أهلها", en: "Siege of Malaga and the captivity of its people" }, at: [36.7213, -4.4214], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

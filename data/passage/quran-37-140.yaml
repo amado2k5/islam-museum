@@ -16,6 +16,7 @@ translations:
   en: { text: "When he fled unto the laden ship,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جب بھاگ کر بھری ہوئی کشتی میں پہنچے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/whale-of-yunus, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

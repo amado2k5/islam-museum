@@ -11,6 +11,18 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0842", precision: year, status: tradition, derived: true }
   end: { edtf: "0843", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [15.55256, 38.19394]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0842"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مسينة ⁦(٨٤٢–٨٤٣)⁩", en: "Siege of Messina (842–843)" }, at: [15.55256, 38.19394], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/messina }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125565027

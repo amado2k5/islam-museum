@@ -18,5 +18,7 @@ status:
   review: published
   completeness: 3
 
+born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (Usd al-Ghaba)" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (Usd al-Ghaba)" }
 relations:
   - { type: lived_in, target: place/najd, note: "Last king of Jadis who fled to the tribe of Tayyi' in northern Arabia. Region-level edge.", sources: [source/muruj-al-dhahab], confidence: low }

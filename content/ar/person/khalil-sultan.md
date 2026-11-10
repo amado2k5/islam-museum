@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 وُلد خليل سلطان في هراة في 24 جمادى الثانية 786هـ ⁦(13 أغسطس 1384م)⁩، وهو ابن [[person/miran-shah|ميران شاه]] من زوجته سوين بيك الملقبة بخانزاده، وحفيد [[person/timur-lang|تيمور]] من جهة أبيه.{cite:wikipedia-khalil-sultan-en}{cite:wikidata-khalil-sultan} نال في حياة جده حظوة خاصة، وتميّز في حملة الهند، ومُنح سنة 1402 حكم وادي فرغانة.{cite:wikipedia-khalil-sultan-en}
 

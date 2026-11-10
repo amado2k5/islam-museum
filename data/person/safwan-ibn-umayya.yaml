@@ -39,6 +39,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "0650~", hijri: "0030~", calendar: julian, precision: year, status: debated, derived: true, note: "Died before Uthman per one report; another has him live into Ali's time (al-Isaba p. 696); CE year approximated to 30 AH", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: member_of
   target: group/quraysh
@@ -57,6 +58,11 @@ relations:
   sources:
   - source/ibn-hajar-isaba
 - { type: traveled_to, target: place/mecca, sources: [source/ibn-hajar-isaba], confidence: low, note: "en: A leader of Quraysh from Banu Jumah; his father was killed at Badr as a disbeliever; he fled on the day Me" }
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Jumah (al-Isaba p. 695)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 4129، ص 695 (تراجم الرجال)

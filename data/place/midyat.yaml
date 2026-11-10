@@ -1,0 +1,20 @@
+id: place/midyat
+class: place
+kind: town
+label: { ar: "مديات", en: "Midyat" }
+summary:
+  ar: "بلدة."
+  en: "Town in Midyat District, Mardin Province, Turkey."
+wings: [place]
+coordinates: [37.416666666667, 41.353055555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q743601" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q743601 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -16,10 +16,25 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الباعث", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/salit-ibn-qays, role: "المبعوث معه صاحب النصيحة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المعاون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 350–351"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-29
+sides:
+  - label: { ar: "جيش أبو عبيد بن مسعود الثقفي", en: "Abu Ubayd ibn Mas'ud al-Thaqafi's army" }
+    commanders: [person/abu-ubayd-ibn-masud]
+  - label: { ar: "الحيرة", en: "al-Hira" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.89, 44.5]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "بعثة أبي عبيد إلى العراق", en: "Abu Ubayd's Dispatch to Iraq" }, at: [31.89, 44.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

@@ -3,13 +3,14 @@ class: person
 label:
   ar: يزيد بن عامر بن حديدة
   en: Yazid ibn Amir ibn Hadida
+  ur: "يزيد بن عامر بن حديدة"
 roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية ليزيد بن عامر بن حديدة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Yazid ibn Amir ibn Hadida, a figure of the early community; the biographical entry is not yet checked
-    on the page.
+  ar: "صحابي خزرجي سلمي، أبو المنذر؛ ذكره ابن إسحاق في أهل العقبة وفي البدريين."
+  en: "A Khazraji Salimi Companion known as Abu al-Mundhir; Ibn Ishaq names him among the people of al-Aqaba and among the Badriyya."
+  ur: "خزرجی سلمی صحابی، ابو المنذر کہلاتا؛ ابن اسحاق اسے اہل عقبہ اور بدریوں میں گنتا ہے۔"
 wings:
 - people
 regions:
@@ -19,6 +20,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
 - type: lived_in
   target: place/medina
@@ -37,6 +39,39 @@ relations:
   sources:
   - source/al-aalam
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1593"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-salima
+  note: "al-Isaba p. 1593"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  note: "al-Isaba p. 1593"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 1593"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "Khazraji Abu al-Mundhir (al-Isaba p. 1593)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/second-pledge-of-aqaba
+  note: "Ibn Ishaq (al-Isaba p. 1593)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-badr
+  note: "Ibn Ishaq (al-Isaba p. 1593)"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12251803
 provenance:

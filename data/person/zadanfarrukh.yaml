@@ -12,5 +12,6 @@ provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "697~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri)" }
 relations:
   - { type: died_in, target: place/iraq, confidence: low, note: "Commander of Yazid ibn al-Muhallab, killed in Iraq (Futuh al-buldan).", sources: [source/futuh-buldan-maarif-1407] }

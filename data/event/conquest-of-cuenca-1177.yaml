@@ -11,6 +11,23 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1177-09", precision: year, status: tradition, derived: true }
   end: { edtf: "1177-10", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-2.1344444444444446, 40.071666666666665]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1177"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قونكة ⁦(١١٧٧)⁩", en: "Conquest of Cuenca (1177)" }, at: [-2.1344444444444446, 40.071666666666665], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/cuenca }
+sides:
+  - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
+    participants: [person/abu-yaqub-yusuf-almohad]
+  - label: { ar: "حامية قونكة", en: "The defenders of Cuenca" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16189704

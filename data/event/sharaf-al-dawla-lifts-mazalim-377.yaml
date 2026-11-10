@@ -12,6 +12,7 @@ date:
   start: { edtf: "0987~", hijri: "0377", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 377 {cite:shadharat-dhahab p. 88}." }
 relations:
   - { type: had_participant, target: person/sharaf-al-dawla, role: "السلطان", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-tai-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

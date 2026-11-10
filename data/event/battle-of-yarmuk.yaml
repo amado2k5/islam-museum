@@ -20,8 +20,22 @@ relations:
   - { type: had_participant, target: person/habib-ibn-maslama, role: "عقد له أبو عبيدة على خيل الطلب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "أمير المسلمين فيها", sources: [source/futuh-buldan-maarif-1407] }
 external_ids: { wikidata: "Q194226" }
+sides:
+  - label: { ar: "جيش أبو عبيدة بن الجراح", en: "Abu Ubayda ibn al-Jarrah's army" }
+    commanders: [person/abu-ubayda-ibn-al-jarrah, person/ikrima-ibn-abi-jahl, person/khalid-ibn-al-walid]
+  - label: { ar: "اليرموك", en: "The Yarmuk" }
+map:
+  kind: battle
+  precision: locality
+  center: [32.708986, 35.69325]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة اليرموك", en: "Battle of the Yarmuk" }, at: [32.708986, 35.69325], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985]
 provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", generated_by: "Khalifa ibn Khayyat section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-khalifa-batch-6-2026-10-31; Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1; enriched by Devin (SWE-2 High) from Apple Vision OCR of Futuh al-Buldan (Mu'assasat al-Ma'arif 1407), batch 9", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy] }
+importance: 1
 status: { review: published, completeness: 2, generated_by: "Claude (Haiku 5.5) + Devin (SWE-2 High); cites juz'/page of the scan (printed page = scan page)" }
 
 education:

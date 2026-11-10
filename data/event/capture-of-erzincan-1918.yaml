@@ -11,7 +11,26 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [39.4914, 39.7464]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أرزنجان", en: "Capture of Erzincan (1918)" }, at: [39.4914, 39.7464], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/erzincan }
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
+  - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }
+    participants: [polity/russian-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q85970195
 provenance:

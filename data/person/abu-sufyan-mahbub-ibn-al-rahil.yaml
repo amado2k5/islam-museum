@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Mashayikh" }
+died: { edtf: "830~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Mashayikh" }
 relations:
   - { type: lived_in, target: place/basra, note: "Early Ibadi historian-imam; the early Ibadi scholarly centre was Basra.", sources: [source/al-aalam], confidence: medium }

@@ -20,6 +20,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch4
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب بين أمير مكة وأمير المدينة", en: "War between the amirs of Mecca and Medina" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

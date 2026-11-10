@@ -19,5 +19,18 @@ provenance:
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-9
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية تلمسان", en: "The defenders of Tlemcen" }
+    participants: [place/tlemcen]
+map:
+  kind: siege
+  precision: locality
+  center: [34.8783, -1.315]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أبي يعقوب المريني لتلمسان", en: "Siege of Tlemcen by Abu Ya'qub the Marinid" }, at: [34.8783, -1.315], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

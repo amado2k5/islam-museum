@@ -11,7 +11,11 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1102", precision: year, status: tradition, derived: true }
   end: { edtf: "1102", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "County of Portugal", ar: "كونتية البرتغال" }
+    participants: [polity/county-of-portugal]
+  - label: { en: "Lamego", ar: "لميقة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q9651022
 provenance:

@@ -11,6 +11,21 @@ regions: [east-africa]
 date:
   start: { edtf: "1881", precision: year, status: tradition, derived: true }
   end: { edtf: "1899", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الدولة المهدية", en: "The Mahdist state" }
+  - label: { ar: "بريطانيا ومصر الخديوية", en: "Britain and Khedival Egypt" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.5, 15.5]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1881"
+  features:
+    - { type: point, role: event_point, label: { ar: "الثورة المهدية ⁦(السودان)⁩", en: "The Mahdist War" }, at: [32.5, 15.5], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/sudan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q31944
@@ -20,4 +35,5 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

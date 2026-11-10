@@ -11,7 +11,25 @@ regions: [south-asia]
 date:
   start: { edtf: "1529", precision: year, status: tradition, derived: true }
   end: { edtf: "1756", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [88.7311, 23.9888]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1529"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراعات المغولية البرتغالية", en: "Mughal–Portuguese Conflicts" }, at: [88.7311, 23.9888], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/bengal }
+- { type: occurred_at, target: place/gujarat }
+sides:
+  - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+    participants: [polity/mughal-empire]
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+    participants: [polity/portuguese-empire]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q123824645
 provenance:

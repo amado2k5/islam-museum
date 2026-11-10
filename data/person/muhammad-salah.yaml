@@ -29,6 +29,7 @@ faith:
     sources:
       - source/huda-tv-muhammad-salah
       - source/listennotes-muhammad-salah
+born: { edtf: "1992", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Records" }
 relations:
   - { type: lived_in, target: place/misr, sources: [source/huda-tv-muhammad-salah], confidence: low, note: "Nisba مصري attested in the record." }
 sources:

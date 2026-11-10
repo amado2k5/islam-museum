@@ -15,5 +15,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch19
+born: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/china, note: "Place association from the person's nisba/name (الصيني); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

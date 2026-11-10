@@ -11,6 +11,8 @@ summary:
 wings: [people, today]
 themes: [libraries-paper-and-the-book]
 regions: [egypt-nile]
+born: { edtf: "1867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/umari-masalik-1924], confidence: low }
   - { type: wrote_about, target: work/masalik-al-absar, sources: [source/umari-masalik-1924] }

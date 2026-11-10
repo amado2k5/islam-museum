@@ -11,6 +11,12 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1568", precision: year, status: tradition, derived: true }
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات سليم الثاني", en: "The authorities of Selim II" }
+    participants: [person/selim-ii-uthmani]
 sources: [source/tarikh-ibn-khaldun-ibar, source/assabile-tareq-al-suwaidan]
 external_ids:
   wikidata: Q685757
@@ -20,4 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

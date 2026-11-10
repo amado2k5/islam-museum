@@ -1,0 +1,20 @@
+id: place/caucasus-mountains
+class: place
+kind: mountain
+label: { ar: "جبال القوقاز", en: "Caucasus Mountains" }
+summary:
+  ar: "جبل."
+  en: "Mountain system spanning Eastern Europe and Western Asia."
+wings: [place]
+coordinates: [42.5, 45]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5477" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5477 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -6,6 +6,8 @@ summary:
   en: "The Hasanid refugee to the Maghreb — answered by the people, poisoned by al-Mansur's agent, succeeded by his posthumous son Idris II whose dynasty named the land {cite:muruj-al-dhahab p. 285}."
 gender: male
 wings: [people]
+born: { edtf: "745", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 relations:
   - { type: born_in, target: place/arabian-peninsula, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/meknes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

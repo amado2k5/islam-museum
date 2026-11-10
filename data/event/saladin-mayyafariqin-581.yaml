@@ -11,12 +11,27 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/mayyafariqin, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch4
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية ميافارقين", en: "The defenders of Mayyafariqin" }
+    participants: [place/mayyafariqin]
+map:
+  kind: campaign
+  precision: locality
+  center: [38.136944444444, 41.008055555556]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك صلاح الدين ميافارقين", en: "Saladin takes Mayyafariqin" }, at: [38.136944444444, 41.008055555556], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

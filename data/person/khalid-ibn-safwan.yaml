@@ -7,6 +7,7 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+died: { edtf: "752~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/abyssinia, confidence: low, note: "Associated with الحبشة per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:

@@ -7,12 +7,26 @@ summary:
   en: "Draft card for the Capture of Baghdad in 1534, Suleiman's entry that took the city from the Safavids; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [levant-iraq]
 date:
   start: { edtf: "1534", precision: year, status: tradition, derived: true }
   end: { edtf: "1534", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
+    commanders: [person/sulayman-al-qanuni]
+  - label: { ar: "بغداد", en: "Baghdad" }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بغداد ⁦(١٥٣٤)⁩", en: "Capture of Baghdad" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5036982

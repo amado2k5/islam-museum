@@ -13,6 +13,7 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
 external_ids: { wikidata: "Q3866938" }
+died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
 relations:
   - { type: born_in, target: place/hijaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q169977)" }
 sources: [source/muruj-al-dhahab]

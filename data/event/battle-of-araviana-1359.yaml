@@ -11,7 +11,13 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1359-09-24", precision: year, status: tradition, derived: true }
   end: { edtf: "1359-09-24", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+    participants: [polity/crown-of-aragon]
+  - label: { en: "Crown of Castile", ar: "تاج قشتالة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q3817182
 provenance:

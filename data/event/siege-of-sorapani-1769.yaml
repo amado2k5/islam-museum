@@ -11,6 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1769", precision: year, status: tradition, derived: true }
   end: { edtf: "1769", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مصطفى الثالث", en: "The forces of مصطفى الثالث" }
+    participants: [person/mustafa-iii-uthmani]
+  - label: { ar: "حامية شوراباني", en: "The defenders of Şorapani" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131342525

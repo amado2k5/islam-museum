@@ -11,6 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1431", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Levillain (The Papacy)" }
+died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Levillain (The Papacy)" }
 relations:
   - { type: lived_in, target: place/al-bunduqiyya, note: "From text: أقام بناءً على طلب البنادقة حلفاً ضد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }

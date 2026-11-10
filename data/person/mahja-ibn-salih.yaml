@@ -3,17 +3,21 @@ class: person
 label:
   ar: "مهجع بن صالح"
   en: "Mahja' ibn Salih"
+  ur: "مهجع بن صالح"
 names:
   - { kind: full, lang: ar, value: "مهجع بن صالح" }
 roles: [companion]
 summary:
-  ar: "بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك لا تُذكر هنا تواريخ ولا أحداث."
-  en: "Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked on the page, so no dates or events are given."
+  ar: "صحابي مولى عمر بن الخطاب، من اليمن أو من عك؛ شهد بدراً وكان أول قتيل من المسلمين بين الصفين أصابه سهم غرب."
+  en: "A Companion, mawla of Umar ibn al-Khattab, from Yemen or from Akk; he witnessed Badr and was the first Muslim killed between the two ranks, struck by a stray arrow."
+  ur: "صحابی، عمر بن خطاب کا مولیٰ، یمن یا عک سے؛ بدر میں شریک اور دونوں صفوں کے درمیان مارا جانے والا پہلا مسلمان۔"
 wings: [people]
-sources: [source/isaba-matba-al-saada-1328]
+sources: [source/isaba-matba-al-saada-1328, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "First Muslim killed between the ranks at Badr, by a stray arrow (al-Istiab p. 703); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: died_in, target: place/badr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Istiab p. 703", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q12245938
 provenance:

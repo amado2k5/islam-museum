@@ -11,6 +11,19 @@ date:
   start: { edtf: "1967-06-05", hijri: "", calendar: gregorian, precision: day, status: historical, note: "needs_source: 5 حزيران 1967 كما يطبعه الكتاب في ص 52؛ يحتاج مصدراً ثانياً." }
 relations:
   - { type: occurred_at, target: place/jerusalem }
+  - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "القوات الإسرائيلية", en: "The Israeli forces" }
+  - label: { ar: "القوات الأردنية والفلسطينية", en: "The Jordanian and Palestinian forces" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.78, 35.24]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "احتلال القدس الشرقية (1967)", en: "Occupation of East Jerusalem (1967)" }, at: [31.78, 35.24], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:
   layer: own-research

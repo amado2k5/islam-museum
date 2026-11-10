@@ -1,0 +1,20 @@
+id: place/dvin
+class: place
+kind: town
+label: { ar: "دفين", en: "Dvin" }
+summary:
+  ar: "بلدة."
+  en: "Village in Ararat Province of Armenia."
+wings: [place]
+coordinates: [40.02, 44.58527778]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1774051" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1774051 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

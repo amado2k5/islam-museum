@@ -9,9 +9,24 @@ date:
   start: { hijri: "0588-02-06", edtf: "1192-02-16~", calendar: julian, precision: day, status: tradition, derived: true, note: "السبت سادس صفر 588هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 214}.", sources: [source/kamil-ibn-al-athir] }
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية البصرة", en: "The defenders of Basra" }
+    participants: [place/basra]
+map:
+  kind: campaign
+  precision: locality
+  center: [30.5085, 47.7804]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نهب بني عامر البصرة", en: "The Banu Amir sack of Basra (588 AH)" }, at: [30.5085, 47.7804], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

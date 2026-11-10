@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1570", precision: year, status: tradition, derived: true }
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [33.95, 35.1167]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1570"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار فاماغوستا", en: "Siege of Famagusta" }, at: [33.95, 35.1167], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/famagusta }
+sides:
+  - label: { ar: "قوات سليم الثاني", en: "The forces of Selim II" }
+    participants: [person/selim-ii-uthmani]
+  - label: { ar: "حامية فاماغوستا", en: "The defenders of Famagusta" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1086625

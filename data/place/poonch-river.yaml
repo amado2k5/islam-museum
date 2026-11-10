@@ -1,0 +1,20 @@
+id: place/poonch-river
+class: place
+kind: river
+label: { ar: "نهر بوج", en: "Poonch River" }
+summary:
+  ar: "نهر."
+  en: "River in India and Pakistan."
+wings: [place]
+coordinates: [33.332259, 73.748474]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7228711" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7228711 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -68,7 +68,7 @@ halls:
     stops:
       - id: mecca
         record: place/mecca
-        sources: [source/bakr-umayyad-state-1134715, source/rihla-ibn-battuta-1958, source/apd, source/nomisma]
+        sources: [source/bakr-umayyad-state-1134715, source/rihla-ibn-battuta-1958, source/apd, source/nomisma, source/idai-gazetteer]
         art: masjid-al-haram-kaaba
         label: { ar: "مكة المكرمة", en: "Mecca", ur: "مکہ مکرمہ" }
         desc:
@@ -77,7 +77,7 @@ halls:
           ur: "حجاز کا شہر، نبی محمد کی جائے پیدائش، کعبہ کا مقام اور سالانہ حج کی منزل۔"
       - id: medina
         record: place/medina
-        sources: [source/bakr-umayyad-state-1134715, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/wikidata]
+        sources: [source/bakr-umayyad-state-1134715, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/wikidata, source/idai-gazetteer]
         art: masjid-al-nabawi
         label: { ar: "المدينة المنورة", en: "Medina", ur: "مدینہ منورہ" }
         desc:
@@ -86,7 +86,7 @@ halls:
           ur: "حجاز کا شہر جہاں نبی نے 622ء میں ہجرت کی؛ یہاں مسجد نبوی اور پہلا مسلم معاشرہ ہے۔"
       - id: jerusalem
         record: place/jerusalem
-        sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/ahsan-al-taqasim, source/nomisma]
+        sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/ahsan-al-taqasim, source/nomisma, source/idai-gazetteer]
         art: dome-of-the-rock
         label: { ar: "القدس", en: "Jerusalem", ur: "بیت المقدس" }
         desc:
@@ -95,7 +95,7 @@ halls:
           ur: "یہودیوں، مسیحیوں اور مسلمانوں کے ہاں مقدس شہر، مسلمانوں کا قبلۂ اول، جو 637ء میں مسلمانوں کے سپرد ہوا۔"
       - id: damascus
         record: place/damascus
-        sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/rihla-ibn-battuta-1958, source/nomisma]
+        sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/rihla-ibn-battuta-1958, source/nomisma, source/idai-gazetteer]
         art: umayyad-mosque-damascus
         label: { ar: "دمشق", en: "Damascus", ur: "دمشق" }
         desc:
@@ -104,7 +104,7 @@ halls:
           ur: "اموی خلافت (661–750ء) کا دار الحکومت اور جامع اموی کا شہر۔"
       - id: cairo
         record: place/cairo
-        sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma]
+        sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/tarikh-khulafa-minhaj-1434, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer]
         art: al-azhar-mosque
         label: { ar: "القاهرة", en: "Cairo", ur: "قاہرہ" }
         desc:
@@ -113,7 +113,7 @@ halls:
           ur: "فاطمیوں نے 969ء میں فسطاط کے پہلو میں اسے بسایا؛ یہیں جامع ازہر ہے۔"
       - id: cordoba
         record: place/cordoba
-        sources: [source/nafh-tib-maqqari, source/geonames-gazetteer, source/futuh-buldan-maarif-1407, source/wikidata, source/nomisma]
+        sources: [source/nafh-tib-maqqari, source/geonames-gazetteer, source/futuh-buldan-maarif-1407, source/wikidata, source/nomisma, source/idai-gazetteer]
         art: great-mosque-of-cordoba
         label: { ar: "قرطبة", en: "Cordoba", ur: "قرطبہ" }
         desc:

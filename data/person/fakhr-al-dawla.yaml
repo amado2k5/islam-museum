@@ -7,6 +7,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+born: { edtf: "952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+died: { edtf: "997", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
 relations:
   - { type: lived_in, target: place/hamadhan, confidence: low, note: "Associated with همذان per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

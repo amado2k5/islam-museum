@@ -11,6 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1982-06-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1982-06-07", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.532148, 33.324715]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1982"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة قلعة الشقيف ⁦(١٩٨٢)⁩", en: "Battle of the Beaufort" }, at: [35.532148, 33.324715], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/beaufort-castle }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2904564

@@ -7,5 +7,7 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "665", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya)" }
+died: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya)" }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (makki); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

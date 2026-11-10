@@ -17,6 +17,8 @@ wings: [people]
 themes: [literature]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
+born: { edtf: "590~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }
 sources: [source/nihayat-al-arab-nuwayri-vol3-scan]

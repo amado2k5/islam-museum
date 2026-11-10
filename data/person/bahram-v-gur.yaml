@@ -6,6 +6,8 @@ summary:
 wings: [people]
 gender: male
 aliases: [person/bahram-jur]
+born: { edtf: "406", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Bahram V Gor)" }
+died: { edtf: "438", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Bahram V Gor)" }
 relations:
   - { type: lived_in, target: place/sabur, confidence: low, note: "Associated with سابور per the record's own summary text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407, source/akhbar-tiwal-amir]

@@ -23,6 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "1944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Iraqi Academy of Sciences (1363–1443 AH)" }
+died: { edtf: "2022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Iraqi Academy of Sciences (1363–1443 AH)" }
 relations:
   - { type: born_in, target: place/najaf, note: "Wikidata Q168193 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/najaf, note: "Wikidata Q168193 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

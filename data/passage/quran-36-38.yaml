@@ -16,7 +16,11 @@ translations:
   en: { text: "And the sun runneth on unto a resting-place for him. That is the measuring of the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور سورج اپنے مقرر رستے پر چلتا رہتا ہے۔ یہ (خدائے) غالب اور دانا کا (مقرر کیا ہوا) اندازہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/night-day, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
+  - { type: mentions, target: concept/asma-al-alim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-aziz, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

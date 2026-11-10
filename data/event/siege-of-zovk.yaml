@@ -11,7 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1261", precision: year, status: tradition, derived: true }
   end: { edtf: "1261", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [35.12, 36.985]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1261"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار زوفك", en: "Siege of Zovk" }, at: [35.12, 36.985], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/cilicia }
+sides:
+  - label: { en: "Armenian Principality of Cilicia", ar: "إمارة قيليقية الأرمنية" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131522059
 provenance:

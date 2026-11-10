@@ -12,11 +12,26 @@ date:
   start: { edtf: "0858", hijri: "0244", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة أربع وأربعين ومائتين عند ابن خلدون؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1662}." }
 relations:
   - { type: occurred_at, target: place/nekour, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "ابن خلدون، العبر — بنو صالح بن منصور ملوك نكور (طبعة هيليوبوليس)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: swe-2-high
   run: lib-ibar-east-19
+sides:
+  - label: { ar: "قوات المتوكل على الله", en: "The forces of al-Mutawakkil ala Allah" }
+    participants: [person/al-mutawakkil]
+  - label: { ar: "حامية نكور", en: "The defenders of Nekour" }
+    participants: [place/nekour]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.16, -3.67]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة المجوس على نكور سنة 244", en: "Majus raid on Nekour, 244" }, at: [35.16, -3.67], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

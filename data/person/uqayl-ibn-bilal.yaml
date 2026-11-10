@@ -26,3 +26,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~740, Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/al-yamama, note: "The Banu Jarir house of his son Umara is placed in al-Yamama per biographical notices." }

@@ -16,10 +16,25 @@ relations:
   - { type: had_participant, target: person/asid-ibn-zafir-al-sulami, role: "المدخل به من باب اللان مع ملوك الجبال", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/khazars, role: "خاقانهم المُظهر للإسلام الموادَع على مملكته", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "المولّي للثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292–294"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "الجيش الأموي بقيادة مروان بن محمد", en: "The Umayyad army under Marwan ibn Muhammad" }
+    participants: [person/marwan-ibn-muhammad]
+    commanders: [person/marwan-ibn-muhammad]
+  - label: { ar: "الخزر", en: "The Khazars" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.383333, 44.95]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة مروان بن محمد في بلاد الخزر والجبال", en: "Marwan ibn Muhammad's Expedition through Khazar and Mountain Lands" }, at: [40.383333, 44.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

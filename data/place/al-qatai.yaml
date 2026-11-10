@@ -13,7 +13,9 @@ part_of: place/cairo
 founded: { edtf: "0870", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 29: soon after he arrived in Egypt in 870 Ibn Tulun moved the seat of government from al-Askar to al-Qata'i." }
 relations:
   - { type: part_of, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
-coordinate_note: "لم تُثبَت إحداثيات موثوقة بعد؛ تُرك الموضع بلا إحداثيات بدلاً من تخمينها. / No reliably attested coordinates yet; left blank rather than guessed."
+coordinates: [30.0287, 31.2494]
+coordinate_precision: site
+coordinate_note: "Al-Qatai, Tulunid royal city centered on Ibn Tulun Mosque, Cairo, Egypt (geocoding pass, Gemini-assisted)"
 sources: [source/yeomans-islamic-cairo-2006]
 provenance:
   layer: own-research

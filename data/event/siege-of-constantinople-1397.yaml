@@ -11,6 +11,23 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1397", precision: year, status: tradition, derived: true }
   end: { edtf: "1397", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [28.978, 41.008]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1397"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار القسطنطينية", en: "Siege of Constantinople (1397)" }, at: [28.978, 41.008], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/constantinople }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية القسطنطينية", en: "The defenders of Constantinople" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q61072733

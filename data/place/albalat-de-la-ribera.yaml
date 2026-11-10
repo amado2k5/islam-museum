@@ -1,0 +1,20 @@
+id: place/albalat-de-la-ribera
+class: place
+kind: province
+label: { ar: "ألبالات دي لا ريبيرا", en: "Albalat de la Ribera" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain."
+wings: [place]
+coordinates: [39.201388888889, -0.38666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q749696" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q749696 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

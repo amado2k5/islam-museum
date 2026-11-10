@@ -1,6 +1,6 @@
 id: person/asim-ibn-thabit
 class: person
-label: { en: "Asim ibn Thabit", ar: "عاصم بن ثابت" }
+label: { en: "Asim ibn Thabit", ar: "عاصم بن ثابت", ur: "عاصم بن ثابت" }
 names:
   - { kind: full, lang: ar, value: "عاصم بن ثابت بن أبي الأقلح الأنصاري الأوسي" }
 gender: male
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   en: "A prominent warrior and archer of the Aws who fought at Badr and Uhud; chosen as commander of the ten scouts sent in the Expedition of al-Raji' in 4 AH, where he refused surrender and fought until martyrdom; God sent a swarm of wasps to shield his body from desecration by Quraysh."
   ar: "صحابي بدري وفارس رامٍ من الأوس؛ شهد بدراً وأحداً وكان أمير سرية الرجيع في صفر 4هـ، فقاتل بني لحيان رافضاً الأسر حتى استشهد؛ وقد نذر ألا يمس مشركاً ولا يمسه مشرك، فحمى الله جثمانه بسرب من الدبر فلم تقدر قريش على أخذ شيء منه."
+  ur: "اوس کا ممتاز جنگجو اور تیرانداز جو بدر اور احد میں لڑا؛ 4 ہجری میں رجیع کی مہم میں بھیجے گئے دس جاسوسوں کا سردار چنا گیا۔"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era]
@@ -18,13 +19,16 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد الرجيع." }
+died: { edtf: "0625", hijri: "0004", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Raji', defended by a cloud of bees (al-Isaba p. 743); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/aws }
   - { type: participated_in, target: event/incident-of-al-raji, role: "أمير السرية والشهيد المحمي بالدبر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/suwar-min-hayat-al-sahaba-nafais-1992]
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 743", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/suwar-min-hayat-al-sahaba-nafais-1992, source/ibn-hajar-isaba]
 external_ids: { wikidata: "Q6812181" }
 status: { review: published, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 291–293" }
 provenance:

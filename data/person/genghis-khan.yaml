@@ -8,6 +8,8 @@ summary:
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1162", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
+died: { edtf: "1227", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Britannica" }
 relations:
   - { type: lived_in, target: place/khwarizm, confidence: low, note: "Associated with خوارزم per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:

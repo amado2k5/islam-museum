@@ -11,6 +11,23 @@ regions: [south-asia]
 date:
   start: { edtf: "2006-07", precision: year, status: tradition, derived: true }
   end: { edtf: "2006-09", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [64.0, 31.0]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "2006"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار موسى قلعة ⁦(٢٠٠٦)⁩", en: "Siege of Musa Qala (2006)" }, at: [64.0, 31.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: during_reign, target: person/muhammadu-maccido, sources: [source/wikidata] }
+- { type: occurred_at, target: place/helmand-province }
+sides:
+  - label: { ar: "قوات محمد مجيدو", en: "The forces of Muhammadu Maccido" }
+    participants: [person/muhammadu-maccido]
+  - label: { ar: "حامية موسى قلعة", en: "The defenders of Musa Qala" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7510253

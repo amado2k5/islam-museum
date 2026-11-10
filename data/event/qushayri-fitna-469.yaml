@@ -15,10 +15,15 @@ relations:
   - { type: had_participant, target: person/sharif-abu-jafar, role: "زعيم الحنابلة", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "المناصر للأشعرية", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/fakhr-al-dawla-ibn-jahir, role: "الوزير المصالح", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 305-307"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-1
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "سلطات المقتدي بأمر الله عبد الله بن محمد بن القائم", en: "The authorities of al-Muqtadi bi-Amr Allah Abdullah ibn Muhammad ibn al-Qa'im" }
+    participants: [person/al-muqtadi-billah]
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

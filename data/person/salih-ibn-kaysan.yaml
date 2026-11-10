@@ -7,6 +7,8 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [arabia]
+born: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "757~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/siyar-alam-nubala-ideas-house, source/tahdhib-tahdhib] }
 sources: [source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/siyar-alam-nubala-ideas-house, source/tahdhib-tahdhib]

@@ -11,6 +11,23 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1125", precision: year, status: tradition, derived: true }
   end: { edtf: "1125", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [37.0447, 36.5861]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1125"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أعزاز", en: "Battle of Azaz" }, at: [37.0447, 36.5861], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/azaz }
+sides:
+  - label: { ar: "الصليبيون بقيادة بلدوين الثاني", en: "The Crusaders under Baldwin II" }
+  - label: { ar: "الجيش السلجوقي بقيادة برسقي", en: "The Seljuk army under Bursuqi" }
+    participants: [person/al-mustarshid-billah]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q55504

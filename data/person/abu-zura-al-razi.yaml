@@ -23,5 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
+born: { edtf: "815", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal" }
+died: { edtf: "878", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Tahdhib al-Kamal" }
 relations:
   - { type: lived_in, target: place/rayy, note: "Place association from the person's nisba/name (الرازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

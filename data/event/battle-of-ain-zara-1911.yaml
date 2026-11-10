@@ -11,6 +11,21 @@ regions: [maghreb]
 date:
   start: { edtf: "1911", precision: year, status: tradition, derived: true }
   end: { edtf: "1911", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [13.2697, 32.8133]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1911"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة عين زارة", en: "Battle of Ain Zara" }, at: [13.2697, 32.8133], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/ain-zara }
+sides:
+  - label: { ar: "القوات العثمانية الليبية", en: "The Ottoman-Libyan forces" }
+  - label: { ar: "الجيش الإيطالي", en: "The Italian army" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q16487664

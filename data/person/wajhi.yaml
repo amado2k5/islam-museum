@@ -10,6 +10,7 @@ themes: [arts-of-the-book]
 regions: [south-asia]
 gender: male
 roles: [poet]
+died: { edtf: "1600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~1640, History of Urdu Literature (Saksena)" }
 relations:
   - { type: lived_in, target: place/golconda, sources: [source/zebrowski-deccani-painting-1983] }
   - { type: patronized_by, target: person/muhammad-quli-qutb-shah, sources: [source/zebrowski-deccani-painting-1983] }

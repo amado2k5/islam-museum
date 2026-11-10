@@ -1,0 +1,20 @@
+id: place/apamea
+class: place
+kind: city
+label: { ar: "أفامية", en: "Apamea" }
+summary:
+  ar: "مدينة."
+  en: "Ancient city in Al-Suqaylabiyah, Syria."
+wings: [place]
+coordinates: [35.416666666666664, 36.4]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q617550" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q617550 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

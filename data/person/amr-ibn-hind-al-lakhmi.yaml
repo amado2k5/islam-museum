@@ -12,6 +12,7 @@ roles: [emir]
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
+died: { edtf: "569~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Aghani" }
 relations:
   - { type: lived_in, target: place/al-hira, sources: [source/kamil-ibn-al-athir] }
   - { type: member_of, target: group/banu-lakhm, sources: [source/kamil-ibn-al-athir] }

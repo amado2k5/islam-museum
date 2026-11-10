@@ -12,6 +12,18 @@ date:
   start: { edtf: "1350", precision: year, status: tradition, derived: true }
   end: { edtf: "1355", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-ibn-khaldun-ibar]
+map:
+  kind: campaign
+  precision: locality
+  center: [17.0, 38.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1350"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب المضيق", en: "War of the Straits" }, at: [17.0, 38.0], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/mediterranean-sea }
 external_ids:
   wikidata: Q894486
 provenance:

@@ -13,6 +13,7 @@ provenance:
   run: "jobs-p1-s02"
   enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-kharaj-salafiyya-1392 PDF pp. 1, 5-6"
 sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib, source/kitab-al-kharaj-salafiyya-1392]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 occupations:
   - job: job/qadi
@@ -22,5 +23,7 @@ occupations:
     status: historical
     note: "Chief judge (qadi al-qudat) appointed by Harun al-Rashid, who used him to help choose the judges of the cities. The DİA entry records that the chief judge's powers over appointment and dismissal later grew."
     sources: [source/tdv-kadi-atar]
+born: { edtf: "731", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi; al-Zirikli" }
+died: { edtf: "798", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi; al-Zirikli" }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/tarikh-baghdad-khatib, source/kitab-al-kharaj-salafiyya-1392], confidence: low }

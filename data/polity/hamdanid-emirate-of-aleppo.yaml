@@ -1,0 +1,17 @@
+id: polity/hamdanid-emirate-of-aleppo
+class: polity
+kind: emirate
+label: { ar: "الإمارة الحمدانية في حلب", en: "Hamdanid emirate of Aleppo" }
+summary:
+  ar: "إمارة حمدانية في حلب."
+  en: "The Hamdanid emirate of Aleppo."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q99469759" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q99469759 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

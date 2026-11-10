@@ -16,6 +16,7 @@ translations:
   en: { text: "And the earth, how it is spread?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور زمین کی طرف کہ کس طرح بچھائی گئی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-88 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

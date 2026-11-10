@@ -1,6 +1,6 @@
 id: person/habiba-bint-ubaydullah
 class: person
-label: { en: Habiba bint Ubaydullah, ar: "حبيبة بنت عبيد الله" }
+label: { en: Habiba bint Ubaydullah, ar: "حبيبة بنت عبيد الله", ur: "حبيبة بنت عبيد الله" }
 names:
   - { kind: full, lang: ar, value: "حبيبة بنت عبيد الله بن جحش" }
 gender: female
@@ -9,6 +9,7 @@ traditions: [sunni]
 summary:
   ar: "ابنة عبيد الله بن جحش وأم حبيبة؛ بها كانت أمها تُكنى أم حبيبة، خرجت بها أمها من مكة ورجعت بها معها."
   en: Daughter of Ubaydullah ibn Jahsh and Umm Habiba; her mother was called Umm Habiba after her. Her mother took her out of Mecca and brought her back.
+  ur: "عبید اللہ بن جحش اور ام حبیبہ کی بیٹی؛ ان کی والدہ کو ان کے نام پر ام حبیبہ کہا گیا؛ والدہ انہیں مکہ سے نکال کر لے آئیں۔"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -17,6 +18,8 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص6)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+born: { edtf: "616~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-umayya, sources: [source/ibn-hisham-saqqa] }

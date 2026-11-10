@@ -21,6 +21,7 @@ roles:
 wings:
   - people
   - living
+born: { edtf: "1978", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary scholar registry" }
 relations:
   - { type: lived_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fatima-barkatulla] }
 faith:

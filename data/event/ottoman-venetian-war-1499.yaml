@@ -11,6 +11,21 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1499", precision: year, status: tradition, derived: true }
   end: { edtf: "1503", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [15.426111, 42.775833]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1499"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية البندقية الثانية", en: "Second Ottoman–Venetian War" }, at: [15.426111, 42.775833], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/adriatic-sea }
+- { type: occurred_at, target: place/aegean-sea }
+- { type: occurred_at, target: place/ionian-sea }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1153331

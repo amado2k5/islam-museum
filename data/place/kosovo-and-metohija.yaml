@@ -1,0 +1,20 @@
+id: place/kosovo-and-metohija
+class: place
+kind: province
+label: { ar: "قوصوة ومتوخية", en: "Kosovo and Metohija" }
+summary:
+  ar: "مقاطعة."
+  en: "Autonomous province of Serbia."
+wings: [place]
+coordinates: [42.666666666667, 21.166666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1255" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1255 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

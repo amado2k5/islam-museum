@@ -11,7 +11,11 @@ regions: [east-africa]
 date:
   start: { edtf: "1897-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1897-02", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mahdist Sudan", ar: "الدولة المهدية" }
+    participants: [polity/mahdist-sudan]
+  - label: { en: "Congo Free State", ar: "دولة الكونغو الحرة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q28806159
 provenance:

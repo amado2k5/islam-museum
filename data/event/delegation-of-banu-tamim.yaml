@@ -16,7 +16,7 @@ relations:
   - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "المُفاخَر، أذن لخطيبهم وشاعرهم وأجازهم", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-tamim, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/utarid-ibn-hajib, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/utarid-ibn-hajib, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-aqra-ibn-habis, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: "شاعر الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "أصغر الوفد سناً؛ خُلّف في الإبل", sources: [source/ibn-hisham-saqqa] }
@@ -29,6 +29,7 @@ relations:
   - { type: had_participant, target: person/hassan-ibn-thabit, role: "شاعر المسلمين، أجاب الزبرقان", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-213", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 206-213" }
 
 education:
