@@ -16,7 +16,7 @@ map: { kind: naval, precision: approximate, center: [33.5, 35.5] }
 date:
   start: { edtf: "0898-08~", hijri: "0285-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان ٢٨٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 295}." }
 relations:
-  - { type: had_participant, target: person/raghib-mawla-al-muwaffaq, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/raghib-mawla-al-muwaffaq, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"

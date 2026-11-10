@@ -13,7 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالنقل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/sulayman-ibn-sad-al-khushani, role: "المتولّي للنقل عامل الأردن سنة", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/sarjun-ibn-mansur, role: "كاتب عبد الملك المعروض عليه النقل فعمّه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/sarjun-ibn-mansur, role: "كاتب عبد الملك المعروض عليه النقل فعمّه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/kuttab-al-rum, role: "أهل الصناعة المقطوعة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

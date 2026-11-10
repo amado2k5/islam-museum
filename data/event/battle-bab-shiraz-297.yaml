@@ -15,7 +15,7 @@ sides:
   - label: { ar: "سبكري وعسكره" }
 relations:
   - { type: occurred_at, target: place/shiraz, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/subkari-al-saffari, role: "المدافع عن شيراز ثم الهارب إلى خراسان", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/subkari-al-saffari, role: "المدافع عن شيراز ثم الهارب إلى خراسان", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muqtadir-billah, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
 map: { kind: locator, precision: approximate, center: [29.6103, 52.5311] }
 provenance:
