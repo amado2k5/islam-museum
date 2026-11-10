@@ -18,6 +18,9 @@ open a new block on top with the new version and today's date.
 ### Added
 - **سيرة وحياة · Seerah & Life (`/{lang}/seerah/`).** A new practice-guide page: the Seerah as a method of living, organised by time horizon (daily, weekly, monthly, yearly, life stages) and life domain (worship, Quran & knowledge, money & work, family, neighbours & society, self & time). Twenty-six cards cover morning/evening adhkar, the five prayers and rawatib, the daily Quran portion, Jumu'ah, Monday/Thursday and White Days fasting, the monthly budget and a standing sadaqa, a practical zakat walkthrough, Ramadan and the worship seasons, the annual review, and the life-stage cards (childhood, youth, learning a trade, honest work, marriage and parents, life mission, animals and the environment, volunteering, old age). Every card carries cited ayat linked to their frozen Tanzil passage pages (no verse text typed), cited hadith, numbered action steps and a "big picture" note; relevant cards carry fiqh notes (e.g. women's rulings, zakat nisab verification). Fully readable without JavaScript (each card is a `<details>`); the search box and horizon/domain chips in `site/src/scripts/seerah.ts` are progressive enhancement. The page ships in Arabic, English and Urdu in the same commit — the Urdu card prose is an AI draft awaiting human review. The Explore menu and the landing page gain a "Seerah & Life" card; the header block is Pagefind-indexed per `docs/site/browsers.md` §4.
 
+### Changed
+- **Landing card motif for Seerah & Life.** The landing-page card now carries a custom motif — a gold sun over a winding teal path, the Seerah read as a path of life — in the same abstract, figurative-free style as the other explorer thumbnails, plus a `wing-living` accent colour.
+
 ---
 
 ## v1.9.0 — 2026-11-10
