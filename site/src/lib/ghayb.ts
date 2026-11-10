@@ -7,7 +7,7 @@ import type { Node } from "../../../scripts/build-graph";
 export const GHAYB_TAG = "ghayb-browser";
 /** Section order of the browser; a `ghayb-<id>` tag not listed here sorts last. */
 export const GHAYB_SECTIONS = [
-  "perception", "daily", "time", "heavens", "creations", "barzakh", "signs",
+  "perception", "daily", "time", "heavens", "miracles", "creations", "barzakh", "signs",
 ];
 
 export interface GhaybItem { node: Node; section: string }
