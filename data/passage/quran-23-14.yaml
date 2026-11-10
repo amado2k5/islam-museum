@@ -16,6 +16,9 @@ translations:
   en: { text: "Then fashioned We the drop a clot, then fashioned We the clot a little lump, then fashioned We the little lump bones, then clothed the bones with flesh, and then produced it as another creation. So blessed be Allah, the Best of creators!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر نطفے کا لوتھڑا بنایا۔ پھر لوتھڑے کی بوٹی بنائی پھر بوٹی کی ہڈیاں بنائیں پھر ہڈیوں پر گوشت (پوست) چڑھایا۔ پھر اس کو نئی صورت میں بنا دیا۔ تو خدا جو سب سے بہتر بنانے والا بڑا بابرکت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/nutfa, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/alaqa, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/marahil-al-janin, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
