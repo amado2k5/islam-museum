@@ -14,6 +14,7 @@ date:
   end: { edtf: "1489-12-04~", hijri: "0895-01-10~", calendar: julian, precision: day, status: tradition }
 relations:
   - { type: had_participant, target: person/al-zaghal, role: "صاحب وادي آش المستسلم للقشتاليين بالمرية", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 525–526"
