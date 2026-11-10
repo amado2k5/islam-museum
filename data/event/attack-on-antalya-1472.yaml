@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1472-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1472-08", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q133696197
