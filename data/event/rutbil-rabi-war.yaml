@@ -8,7 +8,7 @@ summary:
 periods: [period/umayyad]
 relations:
   - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "الظافر", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/rutbil, role: "المهزوم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/rutbil, role: "المهزوم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/kabul-shah, role: "مخرج المسلمين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/kabul, sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }

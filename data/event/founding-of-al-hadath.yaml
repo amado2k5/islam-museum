@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-sulayman-ibn-ali, role: "منشئها وهو على الجزيرة وقنسرين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muhammad-ibn-ibrahim-al-hashimi, role: "فارض الفرض ومتمّمها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/harun-al-rashid, role: "معيد بنائها وتحصينها وشحنها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/habib-ibn-maslama, role: "فاتح حصنها الأول أيام عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/habib-ibn-maslama, role: "فاتح حصنها الأول أيام عمر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

@@ -23,7 +23,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: adviser, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/umm-habiba-bint-abi-sufyan, role: daughter-of-envoy, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/fatima, role: silent, sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/budayl-ibn-warqa, role: met-at-usfan, sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/budayl-ibn-warqa, role: met-at-usfan, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 37–39", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 37–39" }

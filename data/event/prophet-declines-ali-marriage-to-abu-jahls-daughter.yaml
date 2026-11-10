@@ -12,9 +12,9 @@ date:
   start: { edtf: "0002/0011", calendar: julian, precision: decade, status: tradition, derived: true, note: "الكتاب لا يؤرخ الخطبة. المدة المدنية مشتقة من ذكر المنبر وزواج فاطمة؛ ثقة منخفضة." }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad, role: "خطب الناس ونهى عن الجمع", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أراد الزواج من بنت أبي جهل", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/fatima, role: "المعنية بالنهي، وأبوها بضعة منه", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/muhammad, role: "خطب الناس ونهى عن الجمع", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/ali-ibn-abi-talib, role: "أراد الزواج من بنت أبي جهل", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/fatima, role: "المعنية بالنهي، وأبوها بضعة منه", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/prophetic-era }
 issue: { ar: "هل نهى النبي عن الجمع تحريماً، أم أخبر بأن الضرتين لا تجتمعان؟", en: "Did the Prophet forbid the marriage as a prohibition, or report that the two would not be together?" }
 perspectives:

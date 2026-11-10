@@ -15,7 +15,7 @@ relations:
   - { type: had_participant, target: person/yazid-ibn-muawiya, role: "ولي العهد", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakra, role: "القائل سنة كسرى وقيصر", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abdullah-ibn-umar, role: "المستدعى للنصيحة", sources: [source/tarikh-khulafa-minhaj-1434] }
-  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "الموصوف بالثعلب الرواغ", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "الموصوف بالثعلب الرواغ", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
