@@ -16,7 +16,7 @@ relations:
   - { type: had_participant, target: person/harthama-ibn-ayan, role: "أمير الصائفة المكلف بعمارتها سنة 171", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/faraj-ibn-sulaym, role: "المتولي لبنائها ومساحتها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/harun-al-rashid, role: "الآمر بعمارتها تحسباً لسبق الروم", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mahdi, role: "الواصي ببنائها بعد الحدث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mahdi, role: "الواصي ببنائها بعد الحدث", sources: [source/futuh-buldan-maarif-1407] }
   - { type: part_of, target: concept/thughur, sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

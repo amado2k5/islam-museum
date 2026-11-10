@@ -14,7 +14,7 @@ relations:
   - { type: occurred_at, target: place/armenia }
   - { type: occurred_at, target: place/baylaqan }
   - { type: occurred_at, target: place/bardhaa }
-  - { type: had_participant, target: person/mushayil-al-armani, role: "رئيس المنتقضين المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/mushayil-al-armani, role: "رئيس المنتقضين المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hasan-ibn-qahtaba, role: "الوالي وقاهر الانتقاضة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "باعث الأمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amir-ibn-ismail, role: "على الأمداد", sources: [source/futuh-buldan-maarif-1407] }

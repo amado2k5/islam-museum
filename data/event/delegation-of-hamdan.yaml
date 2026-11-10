@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: group/banu-hamdan, role: "الوفد", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/malik-ibn-ayfa, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/dimam-ibn-malik-al-salmani, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/dimam-ibn-malik-al-salmani, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/umayra-ibn-malik-al-kharifi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/khalid-ibn-al-walid }
   - { type: had_participant, target: person/ali-ibn-abi-talib }

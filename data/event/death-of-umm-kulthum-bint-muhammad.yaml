@@ -13,7 +13,7 @@ date:
   start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "في سنة 9هـ على عدّ الرحيق في وقائع السنة (ص439).", sources: [source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/umm-kulthum-bint-muhammad, role: deceased, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/umm-kulthum-bint-muhammad, role: deceased, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: widower-called-dhu-al-nurayn, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, role: father-of-the-deceased, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }

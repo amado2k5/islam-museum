@@ -11,7 +11,7 @@ regions: [arabia]
 date:
   start: { edtf: "0683-10~", hijri: "0064-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 64؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 345}." }
 relations:
-  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المحاصَر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المحاصَر", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: during_reign, target: person/abdullah-ibn-al-zubayr, sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997] }
 provenance:

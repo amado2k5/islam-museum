@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/baghdad }
   - { type: part_of, target: period/abbasid-early }
   - { type: had_participant, target: person/al-suli, role: "اللاعب الغالب، النديم الشطرنجي", sources: [source/muruj-al-dhahab] }
-  - { type: had_participant, target: person/al-mawardi-al-laib, role: "اللاعب المغلوب، المقدَّم عند المكتفي", sources: [source/muruj-al-dhahab] }
+  - { type: related_to, target: person/al-mawardi-al-laib, role: "اللاعب المغلوب، المقدَّم عند المكتفي", sources: [source/muruj-al-dhahab] }
   - { type: had_participant, target: person/al-muktafi-billah, role: "الخليفة الحاضر", sources: [source/muruj-al-dhahab] }
   - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/qaysariyya }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "فاتحها بعد حصار سبع سنين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "أول من حاصرها سنة 13", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "وكّل معاوية بها ثم مات مطعوناً بدمشق", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/yazid-ibn-abi-sufyan, role: "وكّل معاوية بها ثم مات مطعوناً بدمشق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "كبّر لفتحها وقسم سبيها على يتامى الأنصار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:

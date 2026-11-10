@@ -16,7 +16,7 @@ relations:
   - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "المُفاخَر، أذن لخطيبهم وشاعرهم وأجازهم", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-tamim, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/utarid-ibn-hajib, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/utarid-ibn-hajib, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-aqra-ibn-habis, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: "شاعر الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "أصغر الوفد سناً؛ خُلّف في الإبل", sources: [source/ibn-hisham-saqqa] }

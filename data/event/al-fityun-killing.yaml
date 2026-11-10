@@ -10,7 +10,7 @@ summary:
 wings: [time]
 relations:
   - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/malik-ibn-al-ajlan, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/malik-ibn-al-ajlan, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-fityun, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research

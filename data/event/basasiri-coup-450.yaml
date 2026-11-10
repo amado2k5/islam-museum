@@ -27,7 +27,7 @@ relations:
   - { type: had_participant, target: person/al-mustansir-fatimid, role: "المخطب له", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/quraysh-ibn-badran, role: "نزل في نحو مائتي فارس على مشرعة باب البصرة واستأمن له الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/ibn-al-muslima, role: "عميد العراق المأسور", sources: [source/muntazam-ibn-al-jawzi] }
-  - { type: had_participant, target: person/miharish-ibn-al-majli, role: "الموكل بالخليفة في الحديثة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/miharish-ibn-al-majli, role: "الموكل بالخليفة في الحديثة", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "من أهل بغداد شهدها ثم استتر وخرج بعدها إلى الشام سنة ٤٥١", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi], note: "خرج منها بعد فتنة البساسيري لتشوش الحال إلى الشام سنة إحدى وخمسين {cite:tarikh-islam-dhahabi p. 92}" }
   - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

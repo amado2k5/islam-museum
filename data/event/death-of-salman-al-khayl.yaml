@@ -11,7 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0653~", hijri: "0033~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد غزو أران في خلافة عثمان (البلاذري ص 287). التحويل مشتق." }
 relations:
-  - { type: had_participant, target: person/salman-ibn-rabi-a, role: "المقتول في أربعة آلاف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/salman-ibn-rabi-a, role: "المقتول في أربعة آلاف", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/khazars, role: "جيش خاقان اللاقي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:

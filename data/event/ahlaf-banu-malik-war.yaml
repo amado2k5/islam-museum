@@ -13,8 +13,8 @@ date:
 relations:
   - { type: had_participant, target: group/thaqif, note: "بطناها المتقاتلان", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/masud-ibn-mutib, role: "سفير الأحلاف إلى يثرب", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/afif-ibn-awf, role: "رأس بني نصر اليربوعيين", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/jundub-ibn-awf, role: "رئيس بني مالك", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/afif-ibn-awf, role: "رأس بني نصر اليربوعيين", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/jundub-ibn-awf, role: "رئيس بني مالك", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/uhayha-ibn-al-julah, role: "الرافض للحلف وصاحب الأطم الأول", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/taif, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]

@@ -11,8 +11,8 @@ periods: [period/rashidun]
 regions: [persia-central-asia, levant-iraq]
 relations:
   - { type: occurred_at, target: place/nihawand }
-  - { type: had_participant, target: person/al-numan-ibn-muqarrin, role: "أمير الجيش أول قتيل", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/dhu-al-hajib-mardanshah, role: "أمير الفرس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-numan-ibn-muqarrin, role: "أمير الجيش أول قتيل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/dhu-al-hajib-mardanshah, role: "أمير الفرس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الموجه بالحملة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "آخذ الراية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hormuzan, role: "صاحب مشورة الرأس والجناحين", sources: [source/futuh-buldan-maarif-1407] }

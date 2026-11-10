@@ -16,7 +16,7 @@ relations:
   - { type: had_participant, target: person/kusan-al-armani, role: "محاصرها ومهدمها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-karima, role: "عاملها يوم الحصار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "الفادي للأسرى والبانى سنة 139", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "المنفق خمسمائة ألف درهم على تحصينها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mutasim-abi-ishaq, role: "المنفق خمسمائة ألف درهم على تحصينها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:

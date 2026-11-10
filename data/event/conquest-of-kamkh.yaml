@@ -15,9 +15,9 @@ relations:
   - { type: had_participant, target: person/umayr-ibn-al-habab, role: "صعد السور وحده ففُتح له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "أمير الغزو سنة 59", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: "فتحه بعد غلبة الروم", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-abbas-ibn-muhammad-ibn-ali, role: "أمير حصار سنة 149", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-abbas-ibn-muhammad-ibn-ali, role: "أمير حصار سنة 149", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hasan-ibn-qahtaba, role: "في مقدمة غزاة سنة 149", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abd-allah-ibn-tahir, role: "فتحه في خلافة المأمون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abd-allah-ibn-tahir, role: "فتحه في خلافة المأمون", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

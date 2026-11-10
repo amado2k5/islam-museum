@@ -12,7 +12,7 @@ date:
   end: { edtf: "0713", hijri: "0094", calendar: julian, precision: year, status: tradition, derived: true, note: "نهاية نافذة الفتح ضمن حملة ٩٢–٩٥هـ/٧١١–٧١٤م {cite:encyclopaedia-of-islam-2 vol. 7 p. 602}.", sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/zaida-ibn-umayr, role: "المبلي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/zaida-ibn-umayr, role: "المبلي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/multan }
   - { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]

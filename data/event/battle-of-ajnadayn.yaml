@@ -14,7 +14,7 @@ relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: occurred_at, target: place/ajnadayn }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "أبلى بلاءً حسناً فيها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "استشهد فيها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "استشهد فيها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/tulayb-ibn-umayr, role: "استشهد بعد قطع يده اليمنى في المبارزة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/salama-ibn-hisham, role: "استشهد فيها عند بعضهم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ikrima-ibn-abi-jahl, role: "استشهد فيها عند بعضهم وقيل بمؤتة", sources: [source/futuh-buldan-maarif-1407] }

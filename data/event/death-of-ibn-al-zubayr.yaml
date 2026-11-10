@@ -11,7 +11,7 @@ regions: [arabia]
 date:
   start: { edtf: "0692-11~", hijri: "0073-05", calendar: julian, precision: month, status: tradition, derived: true, note: "17 جمادى الأولى أو الآخرة 73؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 349}." }
 relations:
-  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "قائد الحصار", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالقتال", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }

@@ -13,7 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/qayrawan }
   - { type: had_participant, target: person/al-aghab-ibn-salim, role: "الوالي المصروع الشهيد", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/harish-al-tunisi, role: "الحاصر المنهزم المقتول بسوق الأحد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/harish-al-tunisi, role: "الحاصر المنهزم المقتول بسوق الأحد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326–327"

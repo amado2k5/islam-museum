@@ -16,7 +16,7 @@ relations:
   - { type: had_participant, target: person/al-mansur, role: "الباني على بناء مدينة السلام", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mahdi, role: "أجرى العمارة وهو ولي عهد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/harun-al-rashid, role: "بنى قصورها وزاد في أسواقها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "مؤسس رصافة هشام المجاورة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/hisham-ibn-abd-al-malik, role: "مؤسس رصافة هشام المجاورة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

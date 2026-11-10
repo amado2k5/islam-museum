@@ -23,7 +23,7 @@ relations:
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abd-al-muttalib, role: "سمّاه وختنه يوم سابعه", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/thuwayba, role: "أول مرضعة بعد أمه", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/halima-al-sadiyya, role: "مرضعته في بني سعد بن بكر", sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/halima-al-sadiyya, role: "مرضعته في بني سعد بن بكر", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
 external_ids: { wikidata: "Q139553080" }
 sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi, source/muhadarat-tarikh-al-umam-al-islamiyya, source/rahma-lil-alamin, source/tabaqat-ibn-sad, source/fiqh-al-sira-al-ghazali, source/dalail-al-nubuwwa-bayhaqi]
