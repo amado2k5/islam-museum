@@ -15,6 +15,9 @@ date:
 relations:
   - { type: occurred_at, target: place/palermo, sources: [source/rihla-ibn-jubayr-1907] }
   - { type: had_participant, target: person/ibn-jubayr-muhammad, role: "المسافر", sources: [source/rihla-ibn-jubayr-1907] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/rihla-ibn-jubayr-1907]
 provenance:
   layer: own-research
