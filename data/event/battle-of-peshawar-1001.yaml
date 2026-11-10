@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1001", precision: year, status: tradition, derived: true }
   end: { edtf: "1001", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Ghaznavid Empire", ar: "الدولة الغزنوية" }
+  - label: { en: "Hindu Shahis", ar: "سلاطين الهندوس" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q4872019
 provenance:

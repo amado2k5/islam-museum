@@ -11,7 +11,10 @@ regions: [east-africa]
 date:
   start: { edtf: "1881-08-12", precision: year, status: tradition, derived: true }
   end: { edtf: "1881-08-12", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Muhammad Ahmad ibn ʿAbdallah", ar: "محمد أحمد المهدي" }
+  - label: { en: "Khedivate of Egypt", ar: "الخديوية المصرية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q18161416
 provenance:

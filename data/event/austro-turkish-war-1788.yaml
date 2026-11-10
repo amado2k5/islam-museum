@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Habsburg monarchy", ar: "ملكية هابسبورغ" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q6542740
 provenance:

@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1847-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1847-07", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Emirate of Abdelkader", ar: "إمارة عبد القادر" }
+  - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q105356832
 provenance:

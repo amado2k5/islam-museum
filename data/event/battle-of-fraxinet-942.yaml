@@ -13,7 +13,10 @@ date:
   end: { edtf: "0942", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Fraxinetum", ar: "فرخشنيط" }
+  - label: { en: "Principality of Hungary", ar: "إمارة المجر" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q29075810
 provenance:

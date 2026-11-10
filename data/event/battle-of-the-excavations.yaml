@@ -11,7 +11,10 @@ regions: [arabia]
 date:
   start: { edtf: "1911", precision: year, status: tradition, derived: true }
   end: { edtf: "1911", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Emirate of Asir", ar: "إمارة عسير" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q22690031
 provenance:

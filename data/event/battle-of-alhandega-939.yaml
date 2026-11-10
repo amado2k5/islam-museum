@@ -13,7 +13,10 @@ date:
   end: { edtf: "0939", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Caliphate of Córdoba", ar: "خلافة قرطبة" }
+  - label: { en: "Kingdom of Leon", ar: "مملكة ليون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125861402
 provenance:

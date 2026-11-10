@@ -13,7 +13,10 @@ date:
   end: { edtf: "1448", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "League of Lezhë", ar: "عصبة ليجه" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q3301210
 provenance:

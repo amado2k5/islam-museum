@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1220", precision: year, status: tradition, derived: true }
   end: { edtf: "1220", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+  - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q7510363
 provenance:

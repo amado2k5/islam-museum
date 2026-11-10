@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Polish–Lithuanian Commonwealth", ar: "الكومنولث البولندي الليتواني" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q9173218
 provenance:

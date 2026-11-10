@@ -13,7 +13,10 @@ date:
   end: { edtf: "0975", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakam-ii, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Caliphate of Córdoba", ar: "خلافة قرطبة" }
+  - label: { en: "Kingdom of Viguera", ar: "مملكة بيغيرا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4870988
 provenance:

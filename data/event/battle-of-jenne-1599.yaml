@@ -13,7 +13,10 @@ date:
   end: { edtf: "1599", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Mali Empire", ar: "مملكة مالي" }
+  - label: { en: "Pashalik of Timbuktu", ar: "باشوية تمبكتو" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q4871323
 provenance:

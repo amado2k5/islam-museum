@@ -13,7 +13,10 @@ date:
   end: { edtf: "0791", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Emirate of Córdoba", ar: "إمارة قرطبة" }
+  - label: { en: "Kingdom of Asturias", ar: "مملكة أشتوريش" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q2888222
 provenance:

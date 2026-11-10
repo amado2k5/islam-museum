@@ -11,7 +11,10 @@ regions: [south-asia]
 date:
   start: { edtf: "1026", precision: year, status: tradition, derived: true }
   end: { edtf: "1026", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Chaulukya dynasty", ar: "سلالة تشولوكيا" }
+  - label: { en: "Ghaznavid Empire", ar: "الدولة الغزنوية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q22934305
 provenance:

@@ -11,7 +11,10 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1613", precision: year, status: tradition, derived: true }
   end: { edtf: "1618", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Taungoo dynasty", ar: "سلالة تاونغو" }
+  - label: { en: "Siam", ar: "سيام" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q1441223
 provenance:

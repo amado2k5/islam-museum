@@ -11,7 +11,10 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1713", precision: year, status: tradition, derived: true }
   end: { edtf: "1744", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Gonja people", ar: "شعب غونجا" }
+  - label: { en: "Mamprusi people", ar: "شعب المامبروسي" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q119682205
 provenance:

@@ -11,7 +11,10 @@ regions: [south-asia]
 date:
   start: { edtf: "1196", precision: year, status: tradition, derived: true }
   end: { edtf: "1196", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ghurid dynasty", ar: "غوريون" }
+  - label: { en: "Jadaun", ar: "جاداون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q121407647
 provenance:

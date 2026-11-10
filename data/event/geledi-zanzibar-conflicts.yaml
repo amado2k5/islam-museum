@@ -11,7 +11,10 @@ regions: [east-africa]
 date:
   start: { edtf: "1650", precision: year, status: tradition, derived: true }
   end: { edtf: "1700", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Geledi Sultanate", ar: "سلطنة غلدي" }
+  - label: { en: "Sultanate of Zanzibar", ar: "سلطنة زنجبار" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141611662
 provenance:

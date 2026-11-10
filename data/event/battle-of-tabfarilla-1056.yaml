@@ -11,7 +11,10 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1056", precision: year, status: tradition, derived: true }
   end: { edtf: "1056", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+  - label: { en: "Godala", ar: "جدالة" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q2890092
 provenance:

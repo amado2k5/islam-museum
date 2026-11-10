@@ -13,7 +13,10 @@ date:
   end: { edtf: "1694", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Regency of Algiers", ar: "إيالة الجزائر" }
+  - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q124202132
 provenance:

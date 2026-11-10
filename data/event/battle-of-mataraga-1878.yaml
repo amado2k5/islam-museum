@@ -13,7 +13,10 @@ date:
   end: { edtf: "1878", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Georgios Laios", ar: "جورجيوس لايوس" }
+  - label: { en: "Modern Ottoman Army", ar: "الجيش العثماني" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q114352863
 provenance:

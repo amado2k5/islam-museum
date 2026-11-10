@@ -13,7 +13,10 @@ date:
   end: { edtf: "1796", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Pashalik of Scutari", ar: "باشاليك سكوتاري" }
+  - label: { en: "Prince-Bishopric of Montenegro", ar: "إمارة-أسقفية مونتينيغرو" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4871599
 provenance:

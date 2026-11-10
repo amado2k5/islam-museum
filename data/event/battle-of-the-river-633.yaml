@@ -13,7 +13,10 @@ date:
   end: { edtf: "0633", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
-sources: [source/futuh-buldan-maarif-1407]
+sides:
+  - label: { en: "Rashidun Caliphate", ar: "الخلافة الراشدة" }
+  - label: { en: "Sasanian Empire", ar: "الإمبراطورية الساسانية" }
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
 external_ids:
   wikidata: Q2671590
 provenance:

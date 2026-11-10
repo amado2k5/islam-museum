@@ -13,7 +13,10 @@ date:
   end: { edtf: "1429", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Inner Austria", ar: "النمسا الداخلية" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12804518
 provenance:

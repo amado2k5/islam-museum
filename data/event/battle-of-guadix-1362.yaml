@@ -11,7 +11,10 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1362-01-15", precision: year, status: tradition, derived: true }
   end: { edtf: "1362-01-15", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Emirate of Granada", ar: "مملكة غرناطة" }
+  - label: { en: "Crown of Castile", ar: "تاج قشتالة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q16840426
 provenance:

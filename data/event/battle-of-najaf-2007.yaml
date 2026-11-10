@@ -11,7 +11,10 @@ regions: [levant-iraq]
 date:
   start: { edtf: "2007-01-28", precision: year, status: tradition, derived: true }
   end: { edtf: "2007-01-29", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Dia Abdul Zahra Kadim", ar: "ضياء عبد الزهرة كاظم" }
+  - label: { en: "Soldiers of Heaven", ar: "جند السماء" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4871848
 provenance:

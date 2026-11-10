@@ -13,7 +13,10 @@ date:
   end: { edtf: "1589", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q128812160
 provenance:

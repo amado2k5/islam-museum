@@ -13,7 +13,10 @@ date:
   end: { edtf: "1664", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Principality of Wallachia", ar: "الأفلاق" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q170113
 provenance:

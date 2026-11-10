@@ -11,7 +11,10 @@ regions: [arabia]
 date:
   start: { edtf: "1891", precision: year, status: tradition, derived: true }
   end: { edtf: "1891", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Second Saudi State", ar: "الدولة السعودية الثانية" }
+  - label: { en: "Emirate of Jabal Shammar", ar: "إمارة آل رشيد" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q133255302
 provenance:

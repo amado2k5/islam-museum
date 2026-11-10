@@ -13,7 +13,10 @@ date:
   end: { edtf: "1498", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Principality of Moldavia", ar: "إمارة ملداوة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139779509
 provenance:

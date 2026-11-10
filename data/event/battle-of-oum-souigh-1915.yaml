@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1915", precision: year, status: tradition, derived: true }
   end: { edtf: "1915", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "French Third Republic", ar: "الجمهورية الفرنسية الثالثة" }
+  - label: { en: "Tunisians", ar: "تونسيون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140157619
 provenance:

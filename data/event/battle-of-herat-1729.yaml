@@ -23,7 +23,10 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "معركة هراة ⁦(١٧٢٩)⁩", en: "Battle of Herat" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
   sources: [source/farghani-elements-astronomy]
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Durrani", ar: "دراني" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q25212290
 provenance:

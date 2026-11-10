@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1378", precision: year, status: tradition, derived: true }
   end: { edtf: "1379", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Khwarazm", ar: "خوارزم" }
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q110425446
 provenance:

@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1730", precision: year, status: tradition, derived: true }
   end: { edtf: "1730", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Hotak dynasty", ar: "الدولة الهوتكية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q18205173
 provenance:

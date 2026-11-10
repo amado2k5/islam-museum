@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1844", precision: year, status: tradition, derived: true }
   end: { edtf: "1844", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "July Monarchy", ar: "ملكية يوليو" }
+  - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q348998
 provenance:

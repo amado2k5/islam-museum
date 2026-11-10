@@ -13,7 +13,10 @@ date:
   end: { edtf: "1688", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Polish–Lithuanian Commonwealth", ar: "الكومنولث البولندي الليتواني" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q136418240
 provenance:

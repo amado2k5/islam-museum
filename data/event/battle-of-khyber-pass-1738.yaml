@@ -13,7 +13,10 @@ date:
   end: { edtf: "1738", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Afsharid Iran", ar: "الدولة الأفشارية" }
+  - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q18124347
 provenance:

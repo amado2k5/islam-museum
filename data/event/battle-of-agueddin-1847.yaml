@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1847-12-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1847-12-12", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Emirate of Abdelkader", ar: "إمارة عبد القادر" }
+  - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q107349282
 provenance:

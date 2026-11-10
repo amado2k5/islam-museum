@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1868-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1868-05", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Emirate of Bukhara", ar: "إمارة بخارى" }
+  - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q25533853
 provenance:

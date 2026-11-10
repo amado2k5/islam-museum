@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1497", precision: year, status: tradition, derived: true }
   end: { edtf: "1497", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Kingdom of Poland", ar: "مملكة بولندا" }
+  - label: { en: "Principality of Moldavia", ar: "إمارة ملداوة" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q946056
 provenance:

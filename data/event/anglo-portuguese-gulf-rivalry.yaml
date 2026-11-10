@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1500", precision: year, status: tradition, derived: true }
   end: { edtf: "1622", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "East India Company", ar: "شركة الهند الشرقية" }
+  - label: { en: "Portuguese India", ar: "الهند البرتغالية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137800629
 provenance:

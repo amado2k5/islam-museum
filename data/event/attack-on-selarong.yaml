@@ -11,7 +11,10 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1826", precision: year, status: tradition, derived: true }
   end: { edtf: "1826", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Javanese", ar: "جاويون" }
+  - label: { en: "United Kingdom of the Netherlands", ar: "مملكة الأراضي المنخفضة المتحدة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q133287944
 provenance:

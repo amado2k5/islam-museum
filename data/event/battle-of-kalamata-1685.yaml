@@ -14,7 +14,10 @@ date:
 relations:
   - { type: part_of, target: event/morean-war-1684 }
   - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Republic of Venice", ar: "جمهورية البندقية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q118154043
 provenance:

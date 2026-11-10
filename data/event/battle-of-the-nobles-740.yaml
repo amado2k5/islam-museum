@@ -13,7 +13,10 @@ date:
   end: { edtf: "0740", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-misr-amir-1999]
+sides:
+  - label: { en: "Berbers", ar: "الأمازيغ" }
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-misr-amir-1999, source/wikidata]
 external_ids:
   wikidata: Q4872968
 provenance:

@@ -11,7 +11,10 @@ regions: [arabia]
 date:
   start: { edtf: "1920", precision: year, status: tradition, derived: true }
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ikhwan", ar: "الإخوان" }
+  - label: { en: "House of Al Sabah", ar: "آل صباح" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4871302
 provenance:

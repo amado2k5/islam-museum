@@ -13,7 +13,10 @@ date:
   end: { edtf: "1659", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Georgians", ar: "جورجيون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q134778270
 provenance:

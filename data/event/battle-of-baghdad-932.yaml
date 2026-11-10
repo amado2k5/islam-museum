@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+  - label: { en: "Mu'nis al-Khadim", ar: "مؤنس الخادم" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q126112148
 provenance:

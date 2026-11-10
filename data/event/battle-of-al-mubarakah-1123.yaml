@@ -11,7 +11,10 @@ regions: [arabia]
 date:
   start: { edtf: "1123", precision: year, status: tradition, derived: true }
   end: { edtf: "1123", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+  - label: { en: "Banu Mazyad", ar: "الإمارة المزيدية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q128811206
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1485", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Principality of Moldavia", ar: "إمارة ملداوة" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2435832
 provenance:

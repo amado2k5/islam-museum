@@ -13,7 +13,10 @@ date:
   end: { edtf: "1666", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Republic of Venice", ar: "جمهورية البندقية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q65128763
 provenance:

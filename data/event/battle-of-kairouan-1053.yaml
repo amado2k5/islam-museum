@@ -23,7 +23,10 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "معركة القيروان ⁦(١٠٥٣)⁩", en: "Battle of Kairouan (1053)" }, at: [35.6781, 10.0963], precision: locality, source: source/umayyad-birth-to-fall-2006 }
   sources: [source/umayyad-birth-to-fall-2006]
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Banu Hilal", ar: "بنو هلال" }
+  - label: { en: "Zirid Dynasty", ar: "زيريون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q132690183
 provenance:

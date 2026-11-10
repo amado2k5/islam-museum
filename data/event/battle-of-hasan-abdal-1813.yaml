@@ -11,7 +11,10 @@ regions: [south-asia]
 date:
   start: { edtf: "1813", precision: year, status: tradition, derived: true }
   end: { edtf: "1813", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Durrani Empire", ar: "الدولة الدرانية" }
+  - label: { en: "Sikh Empire", ar: "إمبراطورية السيخ" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q118313075
 provenance:

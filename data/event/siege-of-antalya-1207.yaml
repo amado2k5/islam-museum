@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1207", precision: year, status: tradition, derived: true }
   end: { edtf: "1207", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Empire of Nicaea", ar: "إمبراطورية نيقية" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q3485813
 provenance:

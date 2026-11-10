@@ -13,7 +13,10 @@ date:
   end: { edtf: "1570", hijri: "", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Tsardom of Russia", ar: "روسيا القيصرية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q631799
 provenance:

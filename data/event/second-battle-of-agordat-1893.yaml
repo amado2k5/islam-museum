@@ -11,7 +11,10 @@ regions: [east-africa]
 date:
   start: { edtf: "1893", precision: year, status: tradition, derived: true }
   end: { edtf: "1893", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mahdist Sudan", ar: "الدولة المهدية" }
+  - label: { en: "Kingdom of Italy", ar: "مملكة إيطاليا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q665983
 provenance:

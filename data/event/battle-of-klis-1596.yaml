@@ -14,7 +14,10 @@ date:
 relations:
   - { type: part_of, target: event/ottoman-habsburg-long-war }
   - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Kingdom of Croatia", ar: "مملكة كرواتيا ⁦(هابسبورغ)⁩" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q49000215
 provenance:

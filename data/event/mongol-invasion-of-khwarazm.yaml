@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1219", precision: year, status: tradition, derived: true }
   end: { edtf: "1221", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Anushtegin dynasty", ar: "سلالة أنوشتكين" }
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q431177
 provenance:

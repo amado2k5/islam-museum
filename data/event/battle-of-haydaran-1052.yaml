@@ -13,7 +13,10 @@ date:
   end: { edtf: "1052-04-14", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Banu Hilal", ar: "بنو هلال" }
+  - label: { en: "Zirid Dynasty", ar: "زيريون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q108757675
 provenance:

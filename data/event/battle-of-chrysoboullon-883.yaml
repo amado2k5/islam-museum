@@ -13,7 +13,10 @@ date:
   end: { edtf: "0883", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140321044
 provenance:

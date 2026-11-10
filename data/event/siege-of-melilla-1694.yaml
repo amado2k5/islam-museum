@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1694", precision: year, status: tradition, derived: true }
   end: { edtf: "1696", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Hispanic Monarchy", ar: "الملكية الإسبانية ⁦(كيان سياسي)⁩" }
+  - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111211641
 provenance:

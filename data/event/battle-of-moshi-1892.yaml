@@ -11,7 +11,10 @@ regions: [east-africa]
 date:
   start: { edtf: "1892", precision: year, status: tradition, derived: true }
   end: { edtf: "1892", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "German East Africa", ar: "شرق إفريقيا الألمانية" }
+  - label: { en: "Chagga states", ar: "دول الشاغا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q119438344
 provenance:

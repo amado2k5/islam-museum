@@ -11,7 +11,10 @@ regions: [global]
 date:
   start: { edtf: "1509", precision: year, status: tradition, derived: true }
   end: { edtf: "1517", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q722713
 provenance:

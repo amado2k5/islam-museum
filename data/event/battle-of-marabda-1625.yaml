@@ -13,7 +13,10 @@ date:
   end: { edtf: "1625", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Kingdom of Kartli", ar: "مملكة كارتلي" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4871672
 provenance:

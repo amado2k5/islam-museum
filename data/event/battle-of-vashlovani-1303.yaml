@@ -13,7 +13,10 @@ date:
   end: { edtf: "1303", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Samtskhe atabegate", ar: "أتابكية صامتسيخه" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q130317008
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1541", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q115518405
 provenance:

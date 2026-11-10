@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1924", precision: year, status: tradition, derived: true }
   end: { edtf: "1924", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Republic of the Rif", ar: "جمهورية الريف" }
+  - label: { en: "Spain under the Restoration", ar: "عودة البوربون إلى إسبانيا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111207488
 provenance:

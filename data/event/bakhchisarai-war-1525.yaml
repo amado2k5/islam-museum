@@ -13,7 +13,10 @@ date:
   end: { edtf: "1525", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Kabardia", ar: "قبارديا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111940658
 provenance:

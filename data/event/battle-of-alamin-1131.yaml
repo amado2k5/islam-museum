@@ -13,7 +13,10 @@ date:
   end: { edtf: "1131", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+  - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131632281
 provenance:

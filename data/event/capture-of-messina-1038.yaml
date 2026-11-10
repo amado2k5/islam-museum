@@ -11,7 +11,10 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1038", precision: year, status: tradition, derived: true }
   end: { edtf: "1038", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+  - label: { en: "Kalbids", ar: "إمارة بني كلب" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141304205
 provenance:

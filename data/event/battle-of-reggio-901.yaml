@@ -13,7 +13,10 @@ date:
   end: { edtf: "0901", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Aghlabids", ar: "الدولة الأغلبية" }
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140243462
 provenance:

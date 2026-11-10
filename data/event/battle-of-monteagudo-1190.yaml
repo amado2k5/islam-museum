@@ -13,7 +13,10 @@ date:
   end: { edtf: "1190", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
+  - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q20616054
 provenance:

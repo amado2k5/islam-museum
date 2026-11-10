@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1514", precision: year, status: tradition, derived: true }
   end: { edtf: "1514", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q118928943
 provenance:

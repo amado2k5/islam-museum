@@ -11,7 +11,10 @@ regions: [arabia]
 date:
   start: { edtf: "0560", precision: year, status: tradition, derived: true }
   end: { edtf: "0560", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Arabs", ar: "عرب" }
+  - label: { en: "Neo-Babylonian Empire", ar: "الإمبراطورية البابلية الحديثة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125496067
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1708-09-18", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Kabardia", ar: "قبارديا" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4212420
 provenance:

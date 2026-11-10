@@ -13,7 +13,10 @@ date:
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Armenian national movement", ar: "حركة التحرر الوطنية الأرمينية" }
+  - label: { en: "Turkish National Movement", ar: "الحركة التركية الوطنية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q13053433
 provenance:

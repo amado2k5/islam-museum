@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1218", precision: year, status: tradition, derived: true }
   end: { edtf: "1218", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Armenian Kingdom of Cilicia", ar: "مملكة أرمينيا الصغرى" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q117528889
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "0954", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+  - label: { en: "Hamdanid dynasty", ar: "الدولة الحمدانية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12186228
 provenance:

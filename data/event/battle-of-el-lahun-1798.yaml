@@ -13,7 +13,10 @@ date:
   end: { edtf: "1798", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "French First Republic", ar: "الجمهورية الفرنسية الأولى" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q9172717
 provenance:

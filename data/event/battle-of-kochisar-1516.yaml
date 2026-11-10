@@ -13,7 +13,10 @@ date:
   end: { edtf: "1516-05", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q85972229
 provenance:

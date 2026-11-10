@@ -13,7 +13,10 @@ date:
   end: { edtf: "1098", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
+  - label: { en: "crusader", ar: "صليبي" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q11688167
 provenance:
