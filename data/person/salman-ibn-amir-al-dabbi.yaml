@@ -14,7 +14,7 @@ wings: [people]
 periods: [period/prophetic-era, period/rashidun]
 regions: [levant-iraq]
 born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "0650~", hijri: "0030~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Uthman's caliphate — the only Companion of Banu Dabba per Muslim (al-Isaba p. 595); CE year approximated to 30 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/banu-dabba, sources: [source/mustadrak-ilmiyya-ata-v3] }
   - { type: lived_in, target: place/basra, note: "نزل البصرة وله دار بحضرة المسجد الجامع {cite:mustadrak-ilmiyya-ata-v3 p. 706}", sources: [source/mustadrak-ilmiyya-ata-v3] }
@@ -26,5 +26,5 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker A)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/mustadrak-ilmiyya-ata-v3]
+sources: [source/mustadrak-ilmiyya-ata-v3, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }
