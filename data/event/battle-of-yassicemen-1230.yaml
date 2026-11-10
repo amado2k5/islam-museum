@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1230", precision: year, status: tradition, derived: true }
   end: { edtf: "1230", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.4914, 39.7464]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1230"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ياسي جمن", en: "Battle of Yassıçemen" }, at: [39.4914, 39.7464], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: occurred_at, target: place/erzincan }
 sources: [source/kamil-ibn-al-athir]

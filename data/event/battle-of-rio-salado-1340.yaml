@@ -12,6 +12,8 @@ date:
   start: { edtf: "1340", precision: year, status: tradition, derived: true }
   end: { edtf: "1340", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/tarifa }
 external_ids:
   wikidata: Q1792643
 provenance:

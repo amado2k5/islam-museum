@@ -11,6 +11,8 @@ regions: [south-asia]
 date:
   start: { edtf: "1222", precision: year, status: tradition, derived: true }
   end: { edtf: "1222", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/punjab }
 sides:
   - label: { ar: "الجيش المغولي", en: "The Mongol army" }
   - label: { ar: "الخوارزمية بقيادة جلال الدين", en: "The Khwarizmians under Jalal al-Din" }

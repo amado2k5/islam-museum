@@ -11,6 +11,16 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1167", precision: year, status: tradition, derived: true }
   end: { edtf: "1167", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [31.2118, 29.987]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1167"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة البابين", en: "Battle of al-Babein" }, at: [31.2118, 29.987], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: occurred_at, target: place/al-jizah }

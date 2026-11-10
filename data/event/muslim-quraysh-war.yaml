@@ -18,6 +18,16 @@ sides:
   - label: { ar: "قريش وحلفاؤها", en: "Quraysh and their allies" }
     participants: [group/quraysh]
     commanders: [person/abu-sufyan-ibn-harb]
+map:
+  kind: campaign
+  precision: locality
+  center: [46.0, 23.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0624"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب المسلمين وقريش", en: "Muslim–Quraysh War" }, at: [46.0, 23.0], precision: locality, source: source/ibn-ishaq-guillaume }
+  sources: [source/ibn-ishaq-guillaume]
 relations:
 - { type: occurred_at, target: place/arabian-peninsula }
 sources: [source/ibn-ishaq-guillaume]

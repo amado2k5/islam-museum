@@ -12,6 +12,8 @@ date:
   start: { edtf: "1463", precision: year, status: tradition, derived: true }
   end: { edtf: "1479", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/euboea }
 external_ids:
   wikidata: Q1154983
 provenance:

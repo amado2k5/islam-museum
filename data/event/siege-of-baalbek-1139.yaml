@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1139", precision: year, status: tradition, derived: true }
   end: { edtf: "1139", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.21, 34.0]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1139"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بعلبك ⁦(١١٣٩)⁩", en: "Siege of Baalbek (1139)" }, at: [36.21, 34.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/baalbek }

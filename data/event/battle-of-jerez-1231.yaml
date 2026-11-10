@@ -13,6 +13,7 @@ date:
   end: { edtf: "1231", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/jerez }
 sides:
   - label: { en: "Crown of Castile", ar: "تاج قشتالة" }
   - label: { en: "Taifa of Murcia", ar: "طائفة مرسية" }

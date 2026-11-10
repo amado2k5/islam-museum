@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1035-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1035-06", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/nasa }
 sides:
   - label: { en: "Ghaznavid Empire", ar: "الدولة الغزنوية" }
     participants: [polity/ghaznavid-empire]

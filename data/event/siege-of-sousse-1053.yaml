@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1053", precision: year, status: tradition, derived: true }
   end: { edtf: "1053", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [10.63699, 35.82539]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1053"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سوسة ⁦(١٠٥٣)⁩", en: "Siege of Sousse (1053)" }, at: [10.63699, 35.82539], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: occurred_at, target: place/sousse }

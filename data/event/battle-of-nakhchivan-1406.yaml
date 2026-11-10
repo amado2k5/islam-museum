@@ -16,6 +16,16 @@ sides:
     participants: [polity/qara-qoyunlu]
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
     participants: [polity/timurid-empire]
+map:
+  kind: battle
+  precision: locality
+  center: [45.4122, 39.2089]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1406"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نخجوان", en: "Battle of Nakhchivan" }, at: [45.4122, 39.2089], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/nakhchivan }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

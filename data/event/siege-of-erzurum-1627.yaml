@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1627", precision: year, status: tradition, derived: true }
   end: { edtf: "1627", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [41.27556, 39.90972]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1627"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أرضروم ⁦(١٦٢٧)⁩", en: "Siege of Erzurum (1627)" }, at: [41.27556, 39.90972], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/erzurum }

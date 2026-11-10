@@ -13,6 +13,7 @@ date:
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/busra }
 sides:
   - label: { ar: "الصليبيون", en: "The Crusaders" }
   - label: { ar: "جيش دمشق", en: "The Damascus army" }

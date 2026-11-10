@@ -13,6 +13,7 @@ date:
   end: { edtf: "1633", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ras-al-khaimah }
 sides:
   - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
     participants: [person/murad-iv-uthmani]

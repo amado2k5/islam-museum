@@ -16,6 +16,16 @@ sides:
     participants: [polity/safavid-iran]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
+map:
+  kind: battle
+  precision: locality
+  center: [46.2919, 38.08]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1514"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ تبريز ⁦(١٥١٤)⁩", en: "Capture of Tabriz" }, at: [46.2919, 38.08], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: occurred_at, target: place/tabriz }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

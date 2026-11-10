@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0627", precision: year, status: tradition, derived: true }
   end: { edtf: "0627", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/nineveh }
 sides:
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
     participants: [place/byzantine-empire]

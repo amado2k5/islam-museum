@@ -11,6 +11,14 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1511", precision: year, status: tradition, derived: true }
   end: { edtf: "1511", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/konya }
+- { type: occurred_at, target: place/manisa }
+- { type: occurred_at, target: place/amasya }
+- { type: occurred_at, target: place/antaliya }
+- { type: occurred_at, target: place/tokat }
+- { type: occurred_at, target: place/izmir }
+- { type: occurred_at, target: place/anatolia }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }

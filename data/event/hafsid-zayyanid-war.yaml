@@ -11,6 +11,9 @@ regions: [maghreb]
 date:
   start: { edtf: "1400", precision: year, status: tradition, derived: true }
   end: { edtf: "1500", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/algiers }
+- { type: occurred_at, target: place/tlemcen }
 sides:
   - label: { en: "Hafsid dynasty", ar: "الدولة الحفصية" }
     participants: [polity/hafsid-dynasty]

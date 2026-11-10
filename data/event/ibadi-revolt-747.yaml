@@ -13,6 +13,7 @@ date:
   end: { edtf: "0748", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hadramawt }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات مروان بن محمد بن مروان", en: "The authorities of Marwan ibn Muhammad ibn Marwan" }

@@ -16,6 +16,16 @@ sides:
     participants: [place/byzantine-empire]
   - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
     participants: [polity/rum-seljuk-sultanate]
+map:
+  kind: battle
+  precision: locality
+  center: [30.538611111111, 38.758055555556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1146"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أكرونوس ⁦(١١٤٦)⁩", en: "Battle of Acroënus (1146)" }, at: [30.538611111111, 38.758055555556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/afyon }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

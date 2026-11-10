@@ -13,6 +13,7 @@ date:
   end: { edtf: "1146-11-01", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/al-ruha }
 sides:
   - label: { ar: "جيش زنكي", en: "Zengi's army" }
   - label: { ar: "حامية الرها الصليبية", en: "The Crusader garrison of Edessa" }

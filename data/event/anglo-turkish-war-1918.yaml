@@ -15,6 +15,9 @@ relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/abd-al-majid-ii, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mosul }
+- { type: occurred_at, target: place/constantinople }
+- { type: occurred_at, target: place/anatolia }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q126959794

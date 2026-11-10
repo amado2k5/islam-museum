@@ -10,6 +10,16 @@ periods: [period/gunpowder-empires]
 regions: [egypt-nile]
 date:
   start: { edtf: "1517-01-22~", hijri: "0923", calendar: julian, precision: month, status: tradition, derived: true, note: "٩٢٣هـ/١٥١٧م {cite:dawlat-uthmaniyya-salabi p. 186-187}." }
+map:
+  kind: battle
+  precision: locality
+  center: [29.0, 27.0]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1517"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة الريدانية وسقوط دولة المماليك", en: "Battle of Ridaniyya and the fall of the Mamluk state" }, at: [29.0, 27.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: had_participant, target: person/selim-i-ottoman, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }

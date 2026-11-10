@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0784", precision: year, status: tradition, derived: true }
   end: { edtf: "0804", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/tabaristan }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }

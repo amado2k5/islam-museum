@@ -16,6 +16,16 @@ sides:
     participants: [polity/ghaznavid-empire]
   - label: { en: "Hindu Shahis", ar: "سلاطين الهندوس" }
     participants: [polity/hindu-shahi]
+map:
+  kind: battle
+  precision: locality
+  center: [71.58, 34.01]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1001"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بيشاور ⁦(١٠٠١)⁩", en: "Battle of Peshawar" }, at: [71.58, 34.01], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: occurred_at, target: place/peshawar }
 sources: [source/kamil-ibn-al-athir, source/wikidata]

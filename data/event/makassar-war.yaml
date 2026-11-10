@@ -13,6 +13,8 @@ date:
   end: { edtf: "1669", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/indonesia }
+- { type: occurred_at, target: place/south-sulawesi }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q134780471

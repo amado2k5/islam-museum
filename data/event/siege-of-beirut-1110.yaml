@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1110-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1110-05-13", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.5018, 33.8938]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1110"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بيروت ⁦(١١١٠)⁩", en: "Siege of Beirut" }, at: [35.5018, 33.8938], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/bayrut }

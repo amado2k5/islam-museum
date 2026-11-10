@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1097", precision: year, status: tradition, derived: true }
   end: { edtf: "1097", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [29.7194, 40.4289]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1097"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نيقية", en: "Siege of Nicaea" }, at: [29.7194, 40.4289], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: occurred_at, target: place/i-znik }
 sources: [source/kamil-ibn-al-athir]

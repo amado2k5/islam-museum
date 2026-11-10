@@ -11,6 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1540", precision: year, status: tradition, derived: true }
   end: { edtf: "1605", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/ghazna }
+- { type: occurred_at, target: place/balochistan }
+- { type: occurred_at, target: place/kandahar }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
     participants: [polity/safavid-iran]

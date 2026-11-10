@@ -10,6 +10,16 @@ periods: [period/rashidun]
 regions: [arabia]
 date:
   start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "من استخلاف أبي بكر سنة 11هـ إلى استتباب الأمر؛ فتح اليمامة في الكتاب سنة 12هـ (ص 123، 131–134). التحويل مشتق." }
+map:
+  kind: campaign
+  precision: locality
+  center: [46.0, 23.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0632"
+  features:
+    - { type: point, role: event_point, label: { ar: "حروب الردة", en: "The Ridda Wars" }, at: [46.0, 23.0], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 relations:
   - { type: had_participant, target: person/abu-bakr, role: "الخليفة الذي عزم على قتال المرتدين ومانعي الزكاة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "عقده أبو بكر على الناس في حروب الردة", sources: [source/futuh-buldan-maarif-1407] }

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1918-03", precision: year, status: tradition, derived: true }
   end: { edtf: "1918-03", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [41.27556, 39.90972]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أرضروم ⁦(١٩١٨)⁩", en: "Battle of Erzurum (1918)" }, at: [41.27556, 39.90972], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }

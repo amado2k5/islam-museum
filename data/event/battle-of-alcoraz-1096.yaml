@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1096", precision: year, status: tradition, derived: true }
   end: { edtf: "1096", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/washqa }
 sides:
   - label: { ar: "المرابطون", en: "The Almoravids" }
   - label: { ar: "مملكة أراغون بقيادة بيدرو الأول", en: "The Kingdom of Aragon under Peter I" }

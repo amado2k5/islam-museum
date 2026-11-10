@@ -13,6 +13,7 @@ date:
   end: { edtf: "1758", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/shiraz }
 sides:
   - label: { ar: "قوات مصطفى الثالث", en: "The forces of مصطفى الثالث" }
     participants: [person/mustafa-iii-uthmani]

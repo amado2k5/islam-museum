@@ -13,6 +13,7 @@ date:
   end: { edtf: "1190-07", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/silves }
 sides:
   - label: { ar: "قوات يعقوب المنصور الموحدي", en: "The forces of يعقوب المنصور الموحدي" }
     participants: [person/yaqub-al-mansur-al-muwahhidi]

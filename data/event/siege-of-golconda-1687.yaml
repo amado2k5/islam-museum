@@ -11,6 +11,8 @@ regions: [south-asia]
 date:
   start: { edtf: "1687-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1687-09-22", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/golconda }
 sides:
   - label: { ar: "الجيش المغولي بقيادة أورنكزيب", en: "The Mughal army under Aurangzeb" }
   - label: { ar: "الدولة القطبشاهية", en: "The Qutb Shahi state" }

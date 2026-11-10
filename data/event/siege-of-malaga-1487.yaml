@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1487", precision: year, status: tradition, derived: true }
   end: { edtf: "1487", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-4.4214, 36.7213]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1487"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ملقة ⁦(١٤٨٧)⁩", en: "Siege of Málaga" }, at: [-4.4214, 36.7213], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/malaga }

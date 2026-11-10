@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1354", precision: year, status: tradition, derived: true }
   end: { edtf: "1354", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [26.6703, 40.4139]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1354"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح جاليبولي", en: "Fall of Gallipoli" }, at: [26.6703, 40.4139], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/gelibolu }

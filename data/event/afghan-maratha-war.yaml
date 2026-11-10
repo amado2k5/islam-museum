@@ -13,6 +13,8 @@ date:
   end: { edtf: "1761", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/delhi }
+- { type: occurred_at, target: place/punjab }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q127257738

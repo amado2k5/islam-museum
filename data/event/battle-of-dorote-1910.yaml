@@ -13,6 +13,7 @@ date:
   end: { edtf: "1910", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-attahiru-ii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/chad }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2984762

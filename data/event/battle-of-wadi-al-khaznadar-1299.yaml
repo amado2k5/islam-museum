@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1299", precision: year, status: tradition, derived: true }
   end: { edtf: "1299", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.716666666667, 34.733333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1299"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة وادي الخزندار", en: "Battle of Wadi al-Khaznadar" }, at: [36.716666666667, 34.733333333333], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/homs }

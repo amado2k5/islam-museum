@@ -12,6 +12,8 @@ date:
   start: { edtf: "1500", precision: year, status: tradition, derived: true }
   end: { edtf: "1600", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/philippines }
 external_ids:
   wikidata: Q135263667
 provenance:

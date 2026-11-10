@@ -13,6 +13,7 @@ date:
   end: { edtf: "0901", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/samura }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q5242957

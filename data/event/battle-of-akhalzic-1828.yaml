@@ -12,6 +12,8 @@ date:
   start: { edtf: "1828", precision: year, status: tradition, derived: true }
   end: { edtf: "1828", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/akhaltsikhe }
 external_ids:
   wikidata: Q3486072
 provenance:

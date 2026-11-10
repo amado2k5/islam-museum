@@ -15,6 +15,8 @@ relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mustafa-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mosul }
+- { type: occurred_at, target: place/sulaymaniyah }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات سليم الثالث", en: "The authorities of سليم الثالث" }

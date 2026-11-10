@@ -13,6 +13,7 @@ date:
   end: { edtf: "0958", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: place/naples }
 sides:
   - label: { ar: "قوات عبد الرحمن الناصر لدين الله الأموي", en: "The forces of Abd al-Rahman al-Nasir li-Din Allah al-Umawi" }
     participants: [person/abd-al-rahman-iii-al-nasir]

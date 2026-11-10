@@ -13,6 +13,7 @@ date:
   end: { edtf: "1554", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tadla }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3636630

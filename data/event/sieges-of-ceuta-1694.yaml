@@ -12,6 +12,8 @@ date:
   start: { edtf: "1694", precision: year, status: tradition, derived: true }
   end: { edtf: "1727", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/ceuta }
 external_ids:
   wikidata: Q18149882
 provenance:

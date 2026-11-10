@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1207", precision: year, status: tradition, derived: true }
   end: { edtf: "1207", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/antaliya }
 sides:
   - label: { en: "Empire of Nicaea", ar: "إمبراطورية نيقية" }
   - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }

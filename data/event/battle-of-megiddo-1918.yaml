@@ -14,6 +14,9 @@ date:
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/nazareth }
+- { type: occurred_at, target: place/ghawr }
+- { type: occurred_at, target: place/palestine }
 sides:
   - label: { ar: "الجيش البريطاني بقيادة ألنبي", en: "The British army under Allenby" }
   - label: { ar: "جيش البرق العثماني", en: "The Ottoman Yildirim army" }
