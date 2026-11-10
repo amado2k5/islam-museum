@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! Allah (it is) Who splitteth the grain of corn and the date-stone (for sprouting). He bringeth forth the living from the dead, and is the bringer-forth of the dead from the living. Such is Allah. How then are ye perverted?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "بے شک خدا ہی دانے اور گٹھلی کو پھاڑ کر (ان سے درخت وغیرہ) اگاتا ہے وہی جاندار کو بے جان سے نکالتا ہے اور وہی بےجان کا جاندار سے نکالنے والا ہے۔ یہی تو خدا ہے۔ پھر تم کہاں بہکے پھرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/seeds-grain, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
   - { type: mentions, target: concept/asma-al-hayy, sources: [source/tanzil-quran] }

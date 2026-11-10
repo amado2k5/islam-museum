@@ -16,6 +16,7 @@ translations:
   en: { text: "Gardens of Eden! They enter them wearing armlets of gold and pearl and their raiment therein is silk.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(ان لوگوں کے لئے) بہشتِ جاودانی (ہیں) جن میں وہ داخل ہوں گے۔ وہاں ان کو سونے کے کنگن اور موتی پہنائے جائیں گے۔ اور ان کی پوشاک ریشمی ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/gold-silver, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

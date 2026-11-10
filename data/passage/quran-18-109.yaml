@@ -16,6 +16,8 @@ translations:
   en: { text: "Say: Though the sea became ink for the Words of my Lord, verily the sea would be used up before the words of my Lord were exhausted, even though We brought the like thereof to help.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہہ دو کہ اگر سمندر میرے پروردگار کی باتوں کے (لکھنے کے) لئے سیاہی ہو تو قبل اس کے کہ میرے پروردگار کی باتیں تمام ہوں سمندر ختم ہوجائے اگرچہ ہم ویسا ہی اور (سمندر) اس کی مدد کو لائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/deep-sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

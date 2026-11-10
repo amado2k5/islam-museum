@@ -16,6 +16,7 @@ translations:
   en: { text: "Verily We created man of potter's clay of black mud altered,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے انسان کو کھنکھناتے سڑے ہوئے گارے سے پیدا کیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clay-dust, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

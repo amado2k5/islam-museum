@@ -16,6 +16,7 @@ translations:
   en: { text: "But the devil whispered to him, saying: O Adam! Shall I show thee the tree of immortality and power that wasteth not away?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو شیطان نے ان کے دل میں وسوسہ ڈالا۔ (اور) کہا کہ آدم بھلا میں تم کو (ایسا) درخت بتاؤں (جو) ہمیشہ کی زندگی کا (ثمرہ دے) اور (ایسی) بادشاہت کہ کبھی زائل نہ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/tree-of-eden, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-20 }
   - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred

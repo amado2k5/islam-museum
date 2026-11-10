@@ -16,6 +16,7 @@ translations:
   en: { text: "When the heaven is cleft asunder,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جب آسمان پھٹ جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/planets, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-82 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }

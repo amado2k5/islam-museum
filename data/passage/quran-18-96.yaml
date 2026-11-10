@@ -16,6 +16,7 @@ translations:
   en: { text: "Give me pieces of iron - till, when he had levelled up (the gap) between the cliffs, he said: Blow! - till, when he had made it a fire, he said: Bring me molten copper to pour thereon.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو تم لوہے کے (بڑے بڑے) تختے لاؤ (چنانچہ کام جاری کردیا گیا) یہاں تک کہ جب اس نے دونوں پہاڑوں کے درمیان (کا حصہ) برابر کر دیا۔ اور کہا کہ (اب اسے) دھونکو۔ یہاں تک کہ جب اس کو (دھونک دھونک) کر آگ کر دیا تو کہا کہ (اب) میرے پاس تانبہ لاؤ اس پر پگھلا کر ڈال دوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/iron, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/yajuj-majuj, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred

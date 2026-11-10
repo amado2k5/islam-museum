@@ -16,6 +16,7 @@ translations:
   en: { text: "(Bright as) glass but (made) of silver, which they (themselves) have measured to the measure (of their deeds).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور شیشے بھی چاندی کے جو ٹھیک اندازے کے مطابق بنائے گئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/gold-silver, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

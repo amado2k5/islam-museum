@@ -15,13 +15,13 @@ composed from `.cache/graph.json` at build time.
 
 ## 2. Records
 
-- 70 `concept` records of the new kind `natural` (one line added to
+- 82 `concept` records of the new kind `natural` (one line added to
   `schema/enums/kinds.yaml`), each with trilingual label and summary written in
   the docent voice, `wings: [living]`, themes from `animals-and-mercy`,
   `water-and-animals`, `environment-and-climate` and `cosmology-and-creation`,
   and `status.review: draft` with a `provenance` block — draft until a human
   reads them (founder ruling of 8 Nov 2026).
-- ~450 `mentions` edges written once on the passage records (Qur'an ayahs with
+- ~543 `mentions` edges written once on the passage records (Qur'an ayahs with
   `source/tanzil-quran`, hadith reports with the passage's own source); the
   concepts see them as computed `mentioned_in` inverses.
 - `related_to` edges from the creature records to the persons, events and
@@ -58,5 +58,8 @@ living organisms, fish/sea, trees, nature).
 ## 6. Status
 
 Built 9 November 2026 (70 records, ~450 edges, pages, i18n, API export, Explore
-entry and landing card). Records are draft-tier until a human reads them; nothing
-goes live until the founder deploys.
+entry and landing card); wave 2 added 12 records (planets, meteors, deep sea,
+fish, lion, moth, seeds and grain, the tree of Eden, fire, dust and clay, gold
+and silver, east and west) and ~93 more edges for 82 records and ~543 edges.
+Records are draft-tier until a human reads them; nothing goes live until the
+founder deploys.

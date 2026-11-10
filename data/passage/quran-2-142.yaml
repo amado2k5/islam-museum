@@ -16,6 +16,7 @@ translations:
   en: { text: "The foolish of the people will say: What hath turned them from the qiblah which they formerly observed? Say: Unto Allah belong the East and the West. He guideth whom He will unto a straight path.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "احمق لوگ کہیں گے کہ مسلمان جس قبلے پر (پہلے سے چلے آتے) تھے (اب) اس سے کیوں منہ پھیر بیٹھے۔ تم کہہ دو کہ مشرق اور مغرب سب خدا ہی کا ہے۔ وہ جس کو چاہتا ہے، سیدھے رستے پر چلاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/east-west, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

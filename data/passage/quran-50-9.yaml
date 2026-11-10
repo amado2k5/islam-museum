@@ -16,6 +16,7 @@ translations:
   en: { text: "And We send down from the sky blessed water whereby We give growth unto gardens and the grain of crops,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور آسمان سے برکت والا پانی اُتارا اور اس سے باغ وبستان اُگائے اور کھیتی کا اناج", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/seeds-grain, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/rain, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred

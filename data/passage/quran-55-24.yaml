@@ -16,6 +16,8 @@ translations:
   en: { text: "His are the ships displayed upon the sea, like banners.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جہاز بھی اسی کے ہیں جو دریا میں پہاڑوں کی طرح اونچے کھڑے ہوتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/deep-sea, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/ships, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred

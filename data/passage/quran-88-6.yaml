@@ -16,6 +16,7 @@ translations:
   en: { text: "No food for them save bitter thorn-fruit", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور خار دار جھاڑ کے سوا ان کے لیے کوئی کھانا نہیں (ہو گا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/zaqqum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-88 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

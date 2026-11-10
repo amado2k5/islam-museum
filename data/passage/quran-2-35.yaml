@@ -16,6 +16,7 @@ translations:
   en: { text: "And We said: O Adam! Dwell thou and thy wife in the Garden, and eat ye freely (of the fruits) thereof where ye will; but come not nigh this tree lest ye become wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے کہا کہ اے آدم تم اور تمہاری بیوی بہشت میں رہو اور جہاں سے چاہو بے روک ٹوک کھاؤ (پیو) لیکن اس درخت کے پاس نہ جانا نہیں تو ظالموں میں (داخل) ہو جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/tree-of-eden, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
   - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred
