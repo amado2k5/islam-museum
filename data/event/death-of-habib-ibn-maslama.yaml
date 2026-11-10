@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/habib-ibn-maslama, role: "المتوفى ابن 35 سنة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "ناقله إلى دمشق وموجّهه لنصرة عثمان سابقاً", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "خلفه على ثغر أرمينية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 287–288"

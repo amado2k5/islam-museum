@@ -16,6 +16,7 @@ participants:
   - { target: person/muhammad-ibn-abd-allah-ibn-tahir, role: "أمير بغداد، صلى عليه" }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-dimashq-amrawi-v5]
 provenance:
   layer: own-research
