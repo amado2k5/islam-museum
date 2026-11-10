@@ -13,6 +13,10 @@ date:
   end: { edtf: "0844", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش ملاطية بقيادة عمر الأقطع", en: "The Malatya army under Umar al-Aqta" }
+    participants: [person/al-wathiq]
+  - label: { ar: "الجيش البيزنطي بقيادة ثيوكتيستوس", en: "The Byzantine army under Theoktistos" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q2028494
