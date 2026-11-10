@@ -16,6 +16,7 @@ translations:
   en: { text: "And verily in the heaven we have set mansions of the stars, and We have beautified it for beholders.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم ہی نے آسمان میں برج بنائے اور دیکھنے والوں کے لیے اُس کو سجا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/meteors, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

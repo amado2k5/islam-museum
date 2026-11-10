@@ -16,6 +16,7 @@ translations:
   en: { text: "But nay! I swear by the Lord of the rising-places and the setting-places of the planets that We verily are Able", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ہمیں مشرقوں اور مغربوں کے مالک کی قسم کہ ہم طاقت رکھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/east-west, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

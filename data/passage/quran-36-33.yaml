@@ -16,6 +16,7 @@ translations:
   en: { text: "A token unto them is the dead earth. We revive it, and We bring forth from it grain so that they eat thereof;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ایک نشانی ان کے لئے زمین مردہ ہے کہ ہم نے اس کو زندہ کیا اور اس میں سے اناج اُگایا۔ پھر یہ اس میں سے کھاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/seeds-grain, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred

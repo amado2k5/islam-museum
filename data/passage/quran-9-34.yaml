@@ -16,6 +16,7 @@ translations:
   en: { text: "O ye who believe! Lo! many of the (Jewish) rabbis and the (Christian) monks devour the wealth of mankind wantonly and debar (men) from the way of Allah. They who hoard up gold and silver and spend it not in the way of Allah, unto them give tidings (O Muhammad) of a painful doom,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "مومنو! (اہل کتاب کے) بہت سے عالم اور مشائخ لوگوں کا مال ناحق کھاتے اور (ان کو) راہ خدا سے روکتے ہیں۔ اور جو لوگ سونا اور چاندی جمع کرتے ہیں اور اس کو خدا کے رستے میں خرچ نہیں کرتے۔ ان کو اس دن عذاب الیم کی خبر سنادو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/gold-silver, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

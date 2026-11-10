@@ -16,6 +16,7 @@ translations:
   en: { text: "Save him who stealeth the hearing, and them doth a clear flame pursue.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ہاں اگر کوئی چوری سے سننا چاہے تو چمکتا ہوا انگارہ اس کے پیچھے لپکتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/meteors, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

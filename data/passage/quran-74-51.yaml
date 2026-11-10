@@ -16,6 +16,7 @@ translations:
   en: { text: "Fleeing from a lion?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(یعنی) شیر سے ڈر کر بھاگ جاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/lion, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

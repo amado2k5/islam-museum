@@ -16,6 +16,7 @@ translations:
   en: { text: "And that thou thirstest not therein nor art exposed to the sun's heat.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور یہ کہ نہ پیاسے رہو اور نہ دھوپ کھاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/tree-of-eden, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

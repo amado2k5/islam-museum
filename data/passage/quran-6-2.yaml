@@ -16,6 +16,7 @@ translations:
   en: { text: "He it is Who hath created you from clay, and hath decreed a term for you. A term is fixed with Him. Yet still ye doubt!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "وہی تو ہے جس نے تم کو مٹی سے پیدا کیا پھر (مرنے کا) ایک وقت مقرر کر دیا اور ایک مدت اس کے ہاں اور مقرر ہے پھر بھی تم (اے کافرو خدا کے بارے میں) شک کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clay-dust, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
