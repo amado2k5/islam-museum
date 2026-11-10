@@ -10,3 +10,7 @@
 ## Next
 
 - `during_reign` edges in waves; `geo/polity/` extents; prose waves; deploy when the founder says.
+
+## Follow-up: residual anachronistic participant edges
+
+A repo-wide audit (born/died vs event dates on every `had_participant` edge) found **182** impossible participations — mostly "dossier" events aggregating later decrees (later acts filed on the dated original event), plus wrong birth/death years and namesake mix-ups (e.g. `al-mustakfi-billah` b.1285 on a 946 event). The 10 edges failing the `time-browser-explorer` gate were fixed in `36b217df96` (re-typed to `related_to` or corrected dates). The rest need a dedicated data-cleanliness wave: re-type later-act edges to `related_to`, split dossier events, or fix dates — list reproducible from the audit script in this session's notes.
