@@ -12,7 +12,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 sources: [source/al-aalam, source/wikidata, source/ibn-hajar-isaba]
-died: { edtf: "0659", hijri: "0038", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed 38 AH (al-Tabari); CE year converted from the Hijri", sources: [source/al-aalam] }
+died: { edtf: "0658~", hijri: "0038~", calendar: julian, precision: year, status: debated, derived: true, note: "Fought all Ali's battles then broke away at the arbitration and was struck down by Ma'qil al-Riyahi on Ali's orders (al-Zubayr ibn Bakkar, al-Isaba p. 390); CE year approximated to 38 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: died_in, target: place/al-ahwaz, note: "Wikidata Q170366 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
