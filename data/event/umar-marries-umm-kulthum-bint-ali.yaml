@@ -15,6 +15,8 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخاطب", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "زوّج ابنته", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/umm-kulthum-bint-ali, role: "المخطوبة", sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 150" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 150", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

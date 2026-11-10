@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "قام ينكر الوفاة، ثم سلّم بكلمة أبي بكر", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abu-bakr, role: "كشف عن وجه النبي وتلا الآية في الإعلام بالوفاة", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "كيف تُقرأ كلمة عمر عند الوفاة، وهل كانت إنكاراً للموت أم جزعاً؟", en: "How is Umar's statement at the Prophet's death to be read: a denial of death or grief?" }
 perspectives:
   - tradition: sunni
