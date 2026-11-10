@@ -28,6 +28,9 @@ relations:
   - { type: participated_in, target: event/pledges-of-aqaba, role: "بايعت مع السبعين هي ونسيبة بنت كعب", sources: [source/nisa-hawl-alrasul] }
   - { type: participated_in, target: event/battle-of-khaybar, note: "وقال ابن سعد إنها شهدت خيبر (نساء حول الرسول ص274).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/sahaba, sources: [source/nisa-hawl-alrasul]}
-sources: [source/nisa-hawl-alrasul]
+  - { type: member_of, target: group/ansar, note: "sister of Jabir ibn Abdullah (al-Isaba p. 2037)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 2037", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/nisa-hawl-alrasul, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 273-278, lib-nisa-hawl-rasul" }
 provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص273-278؛ ينقل عن الإصابة ترجمتي 1520 و49 والطبقات", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }
