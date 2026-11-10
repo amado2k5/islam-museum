@@ -12,12 +12,18 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
+died: { edtf: "0626", hijri: "0004", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at Bi'r Ma'una, 4 AH per Abd Allah ibn Muhammad ibn Umara; al-Waqidi has him live into Uthman's caliphate (al-Isaba p. 103); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
  - { type: member_of, target: group/ansar, sources: [source/al-aalam]}
  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 103", sources: [source/ibn-hajar-isaba] }
  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 103; Musa ibn Uqba, Ibn Ishaq and al-Waqidi", sources: [source/ibn-hajar-isaba] }
+ - { type: member_of, target: group/ansar, note: "Najjari (al-Isaba p. 103)", sources: [source/ibn-hajar-isaba] }
+ - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 103", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "Musa ibn Uqba, Ibn Ishaq and al-Waqidi (al-Isaba p. 103)", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/incident-of-bir-mauna, note: "killed there as martyr (al-Isaba p. 103)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12180829
 provenance:

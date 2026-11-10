@@ -10,7 +10,7 @@ label: { en: "Amir ibn Fuhayra", ar: "عامر بن فهيرة" , ur: "عامر 
 names:
   - { kind: full, lang: ar, value: "عامر بن فهيرة، مولى أبي بكر الصديق" }
 gender: male
-died: { edtf: "0625~", calendar: julian, precision: year, status: tradition, note: "قُتل في بئر معونة على المشهور؛ خارج نطاق هذا القسم.", sources: [source/tabaqat-ibn-sad, source/ibn-hisham-sira] }
+died: { edtf: "0626", hijri: "0004", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Bi'r Ma'una, 4 AH — Abu Bakr's freedman and companion of the Hijra journey (al-Isti'ab p. 514); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -26,13 +26,16 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "مسلم من موالي أبي بكر؛ يسجَّل في الإطار السني للمتحف." }
 relations:
-  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad], confidence: low }
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/isti-ab-ibn-abd-al-barr], confidence: low }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/ghar-thawr, role: "الراعي صاحب المنحة ومعفي الأثر", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: participated_in, target: event/hijra, role: "ارتحل معهما؛ كتب كتاب أمن سراقة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: member_of, target: group/muhajirun, note: "mawla of Abu Bakr, companion of the Hijra (al-Isti'ab p. 514)", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/incident-of-bir-mauna, note: "al-Isti'ab p. 514", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 external_ids: { wikidata: "Q1108685" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/isti-ab-ibn-abd-al-barr]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165-169" }
 provenance:
   layer: own-research
