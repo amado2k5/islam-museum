@@ -17,6 +17,9 @@ open a new block on top with the new version and today's date.
 
 ### Content
 
+- **i18n: `battles.*` block added to Arabic and English.** The Battles, Wars and Conquests Browser strings existed only in Urdu; `i18n/ar.yaml` and `i18n/en.yaml` now carry the full 24-key `battles.*` block (titles, section headings, filters, kind labels singular and plural), so the battles pages render real text in all three UI languages. Fixes the two pre-existing test failures about missing Arabic keys.
+
+
 - **Hadith Qudsi Browser — corpus verified against the printed collection.** Every numbered narration of «الأحاديث القدسية» (Quran and Hadith Committee, Supreme Council for Islamic Affairs, Cairo, 10th ed. 1417/1997) was reconciled against the browser's records. Four hadiths present in the printed corpus but missing from the browser were added — the Fire's complaint, the dream of the Highest Assembly, the folding of the heavens ("I am the King"), and the Basin — as 15 narrations across Bukhari, Abu Dawud, Tirmidhi, Nasa'i and Ibn Majah, bringing the corpus to 117 hadiths in 350 narrations. The printed book is registered as `source/ahadith-qudsiyya-majlis`. Two browser hadiths that the printed corpus does not list (Muslim 2937 and Tirmidhi 2347) were re-read, confirmed as divine first-person speech and kept; the reconciliation notes are in `docs/plan/32-hadith-qudsi-browser.md` §7. All new records are `status.review: draft` until a human reads them.
 
 ## v1.7.0 — 2026-11-10
