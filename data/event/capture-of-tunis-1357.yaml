@@ -13,13 +13,7 @@ date:
   end: { edtf: "1357", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
-external_ids:
-  wikidata: Q111211185
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sides:
+  - label: { ar: "الجيش المريني بقيادة أبي عنان", en: "The Marinid army under Abu Inan" }
+  - label: { ar: "الدولة الحفصية في تونس", en: "The Hafsid state in Tunis" }
+s
