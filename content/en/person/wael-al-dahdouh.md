@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Wael Al-Dahdouh (born 30 April 1970) is a Palestinian journalist from Gaza City and the bureau chief of Al Jazeera in Gaza. He began in journalism in 1998 with the Al-Quds newspaper, worked for Voice of Palestine and Al Arabiya, and joined Al Jazeera in 2004; before that he had spent seven years in Israeli prisons after an intifada-era arrest, taking his journalism degree from the Islamic University of Gaza in 1998 and a master's from Al-Quds University in 2007.{cite:wikipedia-wael-al-dahdouh-en}{cite:wikipedia-wael-al-dahdouh-ar}{cite:wikidata-wael-al-dahdouh}
 

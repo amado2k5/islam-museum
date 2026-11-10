@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Safvet-beg Bašagić (6 May 1870 – 9 April 1934), who wrote poetry as Mirza Safvet, was a Bosnian historian, poet and politician from Nevesinje, described as the father of the Bosnian Renaissance.{cite:wikipedia-safvet-beg-basagic-en} Educated at Mostar, Konjic and Sarajevo, he took a doctorate at the University of Vienna in Arabic and Persian (dissertation defended 1910) and taught Oriental languages; on 1 May 1900 he launched the journal Behar together with Edhem Mulabdić and Osman Nuri Hadžić, in 1903 he founded the cultural society Gajret, and in 1910 he was elected to the Bosnian Diet and, on Ali-beg Firdus's death, became its president.{cite:wikipedia-safvet-beg-basagic-bs}{cite:wikipedia-safvet-beg-basagic-en} After the First World War he served as curator of the National Museum in Sarajevo from 1919 to 1927.{cite:wikipedia-safvet-beg-basagic-bs}
 

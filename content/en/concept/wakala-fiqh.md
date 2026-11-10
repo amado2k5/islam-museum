@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wakala, with its vowel variants, means in the language protection, as in the Divine name al-Wakil meaning the Guardian, and in tawakkul ('we have entrusted our affairs to God'); tawkil is the delegation of a disposal to another. The agent is called wakil because his principal has entrusted him with the conduct of his affair. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17719} The jurists define it in several ways. The Hanafis: setting another in one's place in a lawful, known disposal, out of ease or incapacity. The Malikis: the deputising of a person with a right, who has no command or worship, for another in what is not conditioned on his death. The Shafi'is: the delegation by a person of what he may do and that admits delegation, to another to do it during his life. The Hanbalis: the deputising of a person capable of disposing of property, like himself, in what deputising admits of rights of God and rights of men. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17719} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17720}
 

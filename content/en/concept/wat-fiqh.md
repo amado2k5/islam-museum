@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wat', lexically, is standing over a thing; it is also used for intercourse, the insertion of a male member into a female's sexual organ until the two are as one. The technical sense does not depart from the lexical. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17482}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17483}
 

@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 سليمان التاجي الفاروقي (1882–1958) شاعر وسياسي ومحامٍ فلسطيني من الرملة، لُقّب بمعرّي فلسطين.{cite:wikipedia-sulayman-al-taji-faruqi-ar}{cite:wikidata-sulayman-al-taji-faruqi} فقد بصره في التاسعة من عمره، فأرسله والده إلى الأزهر حيث تلقّى العلم تسع سنوات على يد محمد عبده، ثم نال إجازة الحقوق من إسطنبول سنة 1909 والدكتوراة في الحقوق من مصر سنة 1919.{cite:wikipedia-sulayman-al-taji-faruqi-ar}{cite:wikipedia-sulayman-al-taji-faruqi-en}
 

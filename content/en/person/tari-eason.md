@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Tari Eason (born 10 May 2001) is an American basketball forward from Portsmouth, Virginia. He played college basketball at Cincinnati and LSU and was drafted 17th overall by the Houston Rockets in 2022.{cite:wikipedia-tari-eason-en}{cite:wikidata-tari-eason}
 

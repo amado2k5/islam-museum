@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Nafija Sarajlić (née Hadžikarić; 3 October 1893 – 15 January 1970) was a Bosnian writer, the first prose writer among Bosnian Muslim women.{cite:wikipedia-nafija-sarajlic-en}{cite:wikipedia-nafija-sarajlic-bs} Born in Sarajevo into a craftsman's family, she was one of five daughters whom her father Avdija educated to become teachers — a decision that for months drew confrontation and thrown stones when he entered the Baščaršija — and she herself taught for three years in Sarajevo.{cite:wikipedia-nafija-sarajlic-en}{cite:wikipedia-nafija-sarajlic-bs} Her first story, Rastanak, appeared in the Mostar magazine Zeman in 1912, and the rest of her stories, which she called Teme (Themes), appeared in Biser with the support of its editor Musa Ćazim Ćatić.{cite:wikipedia-nafija-sarajlic-en}
 

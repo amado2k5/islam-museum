@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mohamed Hassan Ouazzani (1910–1978) was a Moroccan journalist and politician, born at Fez on 17 January 1910 into the sharifian Ouazzani family. He memorised the Quran and learned Arabic at a Fez Quranic school before passing to modern education, and in 1927 left for Paris, where he studied political science at the École libre des sciences politiques and attended the School of Oriental Languages and the Institute of Journalism.{cite:wikipedia-mohamed-hassan-ouazzani-ar}{cite:wikipedia-mohamed-hassan-ouazzani-fr}{cite:wikidata-mohamed-hassan-ouazzani}
 

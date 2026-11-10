@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Javed Akhtar (born 17 January 1945) is an Indian poet, lyricist and screenwriter, born at Gwalior into a family of Urdu poets — his father was the lyricist Jan Nisar Akhtar — and first named Jadoo before being renamed Javed.{cite:wikipedia-javed-akhtar-en}{cite:wikipedia-javed-akhtar-ur} With Salim Khan, as the duo Salim–Javed, he rewrote Hindi cinema's screenwriting with Andaz (1971), Zanjeer (1973), Deewaar (1975) and Sholay (1975), creating the "angry young man" era; after the partnership ended in 1982 he became one of the most honoured lyricists in Indian cinema, with five National Film Awards for lyrics and collections of his own verse, Tarkash (1995) and Lava (2012).{cite:wikipedia-javed-akhtar-en}
 

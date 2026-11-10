@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muhammad ibn al-Arabi ibn Muhammad al-Hashimi al-Alawi al-Mudghari (1884–1964), honoured in Morocco with the rare title "Shaykh al-Islam", was a jurist, judge and politician, and the founder of the national Salafiyya in Morocco. He was born at al-Qasr al-Jadid in Midghara, an oasis of the Tafilalt, on 7 Dhu al-Hijja 1301 or 1302 AH — 1884 — according to the Ma'lamat al-Maghrib; other sources give 1880, and the record follows 1884 while preserving the rival year.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-es}{cite:wikidata-mohamed-ben-larbi-al-alaoui}
 

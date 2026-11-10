@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Motaz Azaiza (born 30 January 1999) is a Palestinian photojournalist who was raised in the Deir al-Balah refugee camp in the Gaza Strip. A graduate in English studies of Al-Azhar University in Gaza and an UNRWA employee, he had photographed daily life in Gaza for years; after October 2023 his Instagram documentation of the war — made in a territory closed to foreign journalists — grew from some 25,000 followers to more than eighteen million within three months, and he evacuated to Egypt and Qatar in January 2024 after 108 days of reporting.{cite:wikipedia-motaz-azaiza-en}{cite:wikipedia-motaz-azaiza-ar}{cite:wikidata-motaz-azaiza}
 

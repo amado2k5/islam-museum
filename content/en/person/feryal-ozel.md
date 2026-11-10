@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Feryal Özel is a Turkish-American astrophysicist, born on 27 May 1975 at Istanbul, the daughter of two physicians{cite:wikipedia-ozel-en}{cite:wikipedia-ozel-tr}. She graduated from Üsküdar American Academy, took her BSc in physics and applied mathematics at Columbia University in 1996, summa cum laude, earned an MSc at the Niels Bohr Institute in Copenhagen, and received her PhD from Harvard University in 2002{cite:wikipedia-ozel-en}{cite:wikipedia-ozel-tr}. She was a Hubble Fellow at the Institute for Advanced Study in Princeton, then a professor at the University of Arizona, and in 2022 she became chair and professor of the School of Physics at the Georgia Institute of Technology{cite:wikipedia-ozel-en}.
 

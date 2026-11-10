@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yalamlam (also alamlam or yarmarm) is a mountain of Tihama south of Mecca, two stages away, and the miqat of the people of Yemen. The jurists' sense is the lexical one. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18004}
 

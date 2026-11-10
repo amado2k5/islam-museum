@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muazzez İlmiye Çığ — born Muazzez İlmiye İtil — was a Turkish archaeologist and writer, born on 20 June 1914 at Bursa to Crimean Tatar parents who had immigrated to the Ottoman Empire, a few weeks before the First World War{cite:wikipedia-cig-en}{cite:wikipedia-cig-tr}. She worked as a teacher at Bursa and Eskişehir, then entered Ankara University's Faculty of Language, History and Geography in 1936, studying Hittitology under Hans Gustav Güterbock and Benno Landsberger, German scholars who had fled the Third Reich, and graduated in 1940{cite:wikipedia-cig-en}. The same year she joined Istanbul's Museum of the Ancient Orient, specialising in cuneiform tablets — she copied, catalogued and published synopses of some 3,000 tablets from an archive of 74,000 — and remained there until her retirement in 1972{cite:wikipedia-cig-en}.
 

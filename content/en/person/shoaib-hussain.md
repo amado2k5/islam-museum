@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 # Shoaib Hussain
 
 Shoaib Hussain is a dawah content creator known as The Sunnah Guy. At eighteen, in a period of doubt, he found his way back to practice through lectures by Bilal Assad, whose personal video message — sent through a family connection in Melbourne — he describes as his turning point.{cite:onepath-the-sunnah-guy}

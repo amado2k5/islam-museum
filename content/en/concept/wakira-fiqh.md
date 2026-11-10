@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 The wakira is, in the language, from wakr, a bird's nest; a wakira is a meal that a man makes when he finishes building a house, to which people are invited. In the technical sense it is the meal made on finishing the building of houses and called to. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17829}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17830}
 

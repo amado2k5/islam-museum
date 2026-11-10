@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abu al-Qasim al-Shabi (1909–1934) was a Tunisian poet born at al-Shabiya in the Tozeur region on 24 February 1909, the son of a judge who had trained at the Zaytuna and al-Azhar.{cite:wikipedia-abu-al-qasim-al-shabi-ar}{cite:wikipedia-abu-al-qasim-al-shabi-en} He took his secondary diploma in 1928 and a law diploma from the University of Ez-Zitouna in 1930, married his cousin Chahla and had two sons, and wrote poetry that appeared in the leading Tunisian and Middle Eastern reviews.{cite:wikipedia-abu-al-qasim-al-shabi-en} Nicknamed the Poet of al-Khadra — "the Green", a name for Tunisia — he belonged to the Taht al-Sur circle of Tunis intellectuals who sought to build a national literary culture against colonialism.{cite:wikipedia-abu-al-qasim-al-shabi-en}{cite:wikipedia-abu-al-qasim-al-shabi-ar}
 

@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 يوسف ضياء الدين الخالدي (1842–1906) سياسي وعالم عثماني فلسطيني من القدس، تولّى رئاسة بلديتها مرات عدة ومثّلها في أول برلمان عثماني.{cite:wikipedia-yousef-al-khalidi-en}{cite:wikipedia-yusuf-al-khalidi-ar} تلقّى تعليمه في القدس ومالطا وإسطنبول، ودرّس اللغات السامية في فيينا، ووضع أول معجم كردي-عربي.{cite:wikipedia-yusuf-al-khalidi-ar}
 

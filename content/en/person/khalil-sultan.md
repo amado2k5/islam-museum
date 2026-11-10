@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Khalil Sultan was born at Herat on 24 Jumada II 786 AH (13 August 1384), the son of [[person/miran-shah|Miran Shah]] by his wife Sevin Beg, called Khanzada, and so a grandson of [[person/timur-lang|Timur]].{cite:wikipedia-khalil-sultan-en}{cite:wikidata-khalil-sultan} He enjoyed his grandfather's particular favour, distinguished himself in the Indian campaign, and in 1402 was given rule of the Ferghana Valley.{cite:wikipedia-khalil-sultan-en}
 

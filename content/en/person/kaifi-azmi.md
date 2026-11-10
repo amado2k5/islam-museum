@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Kaifi Azmi (14 January 1919 – 10 May 2002) was an Indian Urdu poet, film lyricist and screenwriter, born Athar Husain Rizvi at Mijwan village in Azamgarh district, the son of a zamindar; "Kaifi" was his pen name and "Azmi" came from Azamgarh.{cite:wikipedia-kaifi-azmi-en}{cite:wikipedia-kaifi-azmi-ur} He wrote his first ghazal at eleven, abandoned his Persian and Urdu studies during the Quit India movement, and in 1943 became a full-time worker of the Communist Party of India, rising within the Progressive Writers' Movement to become one of the defining voices of socially conscious Urdu poetry, in collections from Jhankar (1943) to Awaara Sajde.{cite:wikipedia-kaifi-azmi-en}
 

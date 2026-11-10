@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
+## خلاصہ
 
 ابو جندل العاص بن سہیل بن عمرو العامری القرشی، ایک جلیل القدر صحابی جو مکہ میں جلد اسلام لائے، تو ان کے والد سہیل نے انہیں عذاب دیا اور بیڑیوں میں قید کیا {cite:mubarakpuri-raheeq}.
 

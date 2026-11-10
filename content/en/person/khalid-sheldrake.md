@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Khalid Sheldrake (1888–1947), born Bertram William Sheldrake in London, was the son of a condiment manufacturer and was raised a Roman Catholic. As a schoolboy — in 1903 on the English article's account — he converted to Islam and took the name Khalid.{cite:wikipedia-khalid-sheldrake-en}
 

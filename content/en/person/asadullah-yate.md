@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Asadullah Yate is a British translator of classical Islamic texts. He studied at the University of Cambridge and received his doctorate there in 1987 with a dissertation on Ibn Rushd as a jurist. He studied with Shaykh Abdalqadir as-Sufi and translated books on his behalf, among them Mahmud Shabistari's Secret Garden, and his translation of al-Mawardi's Al-Ahkam as-Sultaniyyah: The Laws of Islamic Governance was published by Ta-Ha Publishers in 1996.{cite:taha-alahkam-yate-bio-1996}
 

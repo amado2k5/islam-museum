@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Asghar Ali Engineer (10 March 1939 – 14 May 2013) was an Indian reformist writer and social activist, internationally known for his work on liberation theology in Islam and as the leader of the Progressive Dawoodi Bohra movement.{cite:wikipedia-asghar-ali-engineer-en} Born Asghar Ali Sheikh Kurban at Salumbar in Rajasthan, the son of a Bohra priest, Shaikh Qurban Hussain, he was trained in Qur'anic tafsir, tawil, fiqh and hadith and learned Arabic, then graduated in civil engineering from Vikram University and served for twenty years in the Bombay Municipal Corporation.{cite:wikipedia-asghar-ali-engineer-en} From 1965 he published under the name "Asghar Ali Engineer", the professional name that stayed with him.{cite:wikipedia-asghar-ali-engineer-en}
 

@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 رونڈے ہولس جیفرسن (پیدائش 3 جنوری 1995) امریکی باسکٹ بال کھلاڑی ہیں جن کا تعلق چیسٹر، پنسلوانیا سے ہے۔ انہوں نے ایریزونا اور 2015ء سے NBA میں کھیلا، پھر بین الاقوامی کیریئر جاری رکھا اور شہریت کے بعد اردن کی نمائندگی کی۔{cite:wikipedia-rondae-hollis-jefferson-en}{cite:wikidata-rondae-hollis-jefferson}
 

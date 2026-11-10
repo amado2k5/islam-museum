@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Hassan Hosni Abdelwaheb (1884–1968) was a Tunisian historian, linguist and writer, born at Tunis on Monday 27 Ramadan 1301 AH / 21 July 1884.{cite:wikipedia-hassan-hosni-abdelwaheb-ar}{cite:wikidata-hassan-hosni-abdelwaheb} He came from a family of tribal dignitaries of the Kef region allied to the Husseinites, the Charni, descended from the Banu Sumadih of al-Andalus; his father Salah, trained at the Zaytuna, was a caïd-governor at Mahdia and translator to General Husseïn.{cite:wikipedia-hassan-hosni-abdelwaheb-fr}{cite:wikipedia-hassan-hosni-abdelwaheb-ar} After a kuttab and the Mahdia primary school, he attended the French school in Tunis, gained the primary certificate in 1899, continued at Sadiki College, and finished his studies at the Paris School of Political Sciences, returning to Tunisia on his father's death in 1904.{cite:wikipedia-hassan-hosni-abdelwaheb-fr}
 

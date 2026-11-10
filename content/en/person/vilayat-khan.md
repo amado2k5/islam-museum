@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Vilayat Khan (28 August 1928 – 13 March 2004) was an Indian sitar player, born at Gouripur in Mymensingh, East Bengal, the son of the sitar and surbahar maestro Enayat Khan and grandson of Imdad Khan, founder of the Imdadkhani (Etawah) gharana.{cite:wikipedia-vilayat-khan-en}{cite:wikidata-vilayat-khan} Orphaned of his father at ten, he was taught within the family, recorded his first disc at eight, and became famed for the gayaki ang, a vocal style of playing on the sitar.{cite:wikipedia-vilayat-khan-en}
 

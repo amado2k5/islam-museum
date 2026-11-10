@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Nasir al-Din Mahmud Shah ibn Muhammad Shah ibn Firuz Shah, known as Mahmud Shah Tughlaq — the English biography titles him Mahmud Shah II — was the last sultan of the Tughlaq dynasty at Delhi. He succeeded his brother Ala al-Din Sikandar Shah on 20 Jumada I 796 AH / 1394 CE; his father [[person/muhammad-shah-iii-tughluq|Nasir al-Din Muhammad Shah III]] had reigned before them both. His relative Nusrat Shah, a grandson of Firuz Shah, contested the throne, and the war of succession lasted three years, Mahmud ruling from Delhi and Nusrat from Firozabad.{cite:wikipedia-mahmud-shah-tughlaq-ar}{cite:wikipedia-mahmud-shah-tughlaq-en}
 

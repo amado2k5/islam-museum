@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Peerzada Ghulam Ahmad (11 August 1887 – 9 April 1952), known by his pen name Mahjoor, was a Kashmiri poet honoured as Shayar-e-Kashmir, the poet of Kashmir. Born at Mitrigam in Pulwama, he was educated at the maktab of Aashiq Trali and in Punjab, where the influence of the Urdu poet Shibli Nomani gave him his takhallus, and he earned his living as a patwari, a revenue official posted across the valley.{cite:wikipedia-mahjoor-en}{cite:wikipedia-mahjoor-ur} The English article gives his birth year as 1885 against the Urdu article's and Wikidata's 1887.{cite:wikipedia-mahjoor-en}{cite:wikidata-mahjoor}
 

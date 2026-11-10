@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yawm al-jumu'a is a compound of day and jumu'a. Al-jumu'a names a day of the week, its last if Saturday is its first, and before Islam it was called the day of al-'Aruba. Al-Suhayli reports that Ka'b ibn Lu'ayy, the Prophet's forebear, first gathered the day of al-'Aruba and first named it al-jumu'a, Quraysh gathering to him that day while he preached and reminded them of the Prophet's coming mission; Salman al-Farisi is reported to have been asked by the Prophet what the day of jumu'a was and answered "the day your father was gathered by," while others say it was named in Islam for the gathering in the mosque. The technical sense does not depart from the lexical one. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18016} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18017}
 

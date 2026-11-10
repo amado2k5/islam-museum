@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Sharif Finch (born 1 October 1995) is an American football defensive lineman from Queens, New York City. At Temple he played 53 career games, tied for the most in the programme's history, and signed with the Tennessee Titans as an undrafted free agent after the 2018 NFL draft; he later passed through the Bengals, Raiders, Bears, Jets and Saints, the XFL's Seattle Sea Dragons and the CFL's Calgary Stampeders.{cite:wikipedia-sharif-finch-en}{cite:wikidata-sharif-finch}
 

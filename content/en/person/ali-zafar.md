@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ali Zafar (born Ali Muhammad Zafar on 18 May 1980) is a Pakistani singer-songwriter, actor and painter, born at Lahore into a Punjabi family; both his parents were professors at the University of Punjab.{cite:wikipedia-ali-zafar-en}{cite:wikipedia-ali-zafar-ar} He graduated from Government College University, Lahore and the National College of Arts as a painter, began as a sketch artist and television actor, and sang Jugnuon Se Bhar De Aanchal for the film Shararat (2003).{cite:wikipedia-ali-zafar-en}{cite:wikipedia-ali-zafar-ur}
 

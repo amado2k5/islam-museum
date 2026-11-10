@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Taj al-Din Firuz Shah, son of [[person/dawud-shah-i-bahmani|Dawud Shah]] and grandson of Ala al-Din Bahman Shah, the founder of the Bahmani Sultanate, was the brother of [[person/ahmad-shah-i-bahmani|Ahmad Shah I]]. He and Ahmad were raised by [[person/muhammad-shah-ii-bahmani|Muhammad Shah II]], who married his daughters to the two brothers and made Firuz heir presumptive — then preferred his own son Ghiyas al-Din. When Ghiyas al-Din was blinded and imprisoned and Shams al-Din installed as a puppet, Firuz and Ahmad marched on Gulbarga and Firuz declared himself sultan in 1397; the nobleman Taghalchin was killed and Shams al-Din blinded.{cite:wikipedia-firuz-shah-bahmani-en}
 

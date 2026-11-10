@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muhammad Alam Lohar (1928 – 3 July 1979) was a Pakistani Punjabi folk singer, born at Achh village near Kotla Arab Ali Khan in Gujrat district into a family of Lohars (blacksmiths).{cite:wikipedia-alam-lohar-en}{cite:wikipedia-alam-lohar-ur} As a child he read Sufiana Kalaam, a collection of Punjabi stories and poetry, and began singing young; he recorded his first album at the age of thirteen.{cite:wikipedia-alam-lohar-en}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ebrahim Moosa (born in South Africa — the English biography's infobox gives 1957, Wikidata 1950, and the year is recorded as debated) is a South African scholar of Islamic thought. He completed his theological training in the early 1980s at Darul Ulum Nadwatul Ulama in Lucknow, India, graduating with a specialisation in the traditional Islamic sciences, and took his doctorate at the University of Cape Town, where he then taught.{cite:wikipedia-moosa-en}{cite:wikidata-moosa}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abu Abd Allah Muhammad ibn Yusuf al-Warraq was an Andalusi historian, geographer and genealogist, born in 904 at Guadalajara — Wadi al-Hijara, 'the valley of stones' — who moved to Kairouan and grew up there, then returned to Cordoba under the caliph al-Hakam II al-Mustansir, at whose court he stood in high favour.{cite:wikipedia-muhammad-ibn-yusuf-al-warraq-ar}{cite:wikipedia-muhammad-ibn-yusuf-al-warraq-en} For al-Mustansir he wrote a large book on the geography of North Africa, 'Ifriqiya and its kingdoms', and many works on the history of its kings and their wars, with accounts of Tahert, Oran, Ténès, Sijilmasa and other places.{cite:wikipedia-muhammad-ibn-yusuf-al-warraq-ar}
 

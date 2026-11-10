@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Syed Mir Qasim (17 March 1921 – 12 December 2004) was a Kashmiri politician who served as chief minister of Jammu and Kashmir from 1971 to 1975.{cite:wikipedia-syed-mir-qasim-en} Born at Dooru Shahabad in Anantnag district, he took part in the Quit Kashmir movement against Dogra rule, helped draft the constitution of Jammu and Kashmir, and founded the state unit of the Indian National Congress.{cite:wikipedia-syed-mir-qasim-en}
 

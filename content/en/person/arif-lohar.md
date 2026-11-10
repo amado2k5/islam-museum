@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Arif Lohar (born 18 April 1966) is a Pakistani Punjabi folk singer, the son of the renowned folk singer Alam Lohar, born in the village of Achh in Gujrat district.{cite:wikipedia-arif-lohar-en}{cite:wikipedia-arif-lohar-ur} Like his father, he sings accompanied by the chimta, and his music represents the traditional folk heritage of Punjab; with his seven brothers he began singing at a young age in a household formed by his father's art.{cite:wikipedia-arif-lohar-en}
 

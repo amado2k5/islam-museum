@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Khalifa Shuja-ud-Din (1887–1955) was a Lahore lawyer and politician, honorary professor at Islamia College, Lahore, in 1906–08 and secretary of the Punjab Muslim League from 1919 to 1936.{cite:iqbal-review-malik-survey-1953} In April 1919, after the Amritsar massacre, he read a speech by Gandhi to a protest crowd of some 25,000–35,000 gathered in the courtyard of the Badshahi Mosque.{cite:wikipedia-badshahi-mosque-en}
 

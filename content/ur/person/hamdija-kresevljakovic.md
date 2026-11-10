@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 حمدیجا کریشیولیاکووچ (16 ستمبر 1888ء – 9 مئی 1959ء) سرائیوو سے تعلق رکھنے والے بوسنیائی مؤرخ تھے، جنھیں بوسنیا و ہرزیگووینا کے اہم ترین مؤرخین میں شمار کیا جاتا ہے۔{cite:wikipedia-hamdija-kresevljakovic-en}{cite:wikipedia-hamdija-kresevljakovic-bs} بوسنیائی اور کروشیائی سوانح ان کی پیدائش کا دن 18 ستمبر بتاتی ہیں، انگریزی سوانح اور وکی ڈیٹا کے برعکس۔{cite:wikipedia-hamdija-kresevljakovic-bs}{cite:wikipedia-hamdija-kresevljakovic-hr} وہ وراتنک محلے میں کریشیوو سے آئے ہوئے تاجر خاندان میں پیدا ہوئے، 1912ء میں مدرسۂ معلمین مکمل کیا اور ابتدائی و تجارتی اسکولوں میں پڑھایا، پھر غازی خسرو بیگ مدرسے کے استاد بنے جہاں 1926ء سے 1945ء تک تدریس کی۔{cite:wikipedia-hamdija-kresevljakovic-en}{cite:wikipedia-hamdija-kresevljakovic-bs}
 

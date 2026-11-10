@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 The child of li'an (walad al-li'an) is the child whose lineage the husband denied after mutual cursing (li'an) with his wife. Li'an is four sworn testimonies from each spouse, the husband's bound to a curse and the wife's to wrath, standing in place of the slander hadd for him and the fornication hadd for her. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17939}
 

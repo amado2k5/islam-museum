@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
+## خلاصہ
 
 عبداللہ بن عتیک بن قیس انصاری سلمی خزرجی، بدری صحابی اور بہادر، جو خیبر کے یہودیوں کی زبان خوب بولتے تھے۔ {cite:mubarakpuri-raheeq}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Tawfiq Abu al-Huda (1894 – 1 July 1956) was a Jordanian statesman of Palestinian origin, born at Acre to a family from Ramla and educated at Ramla, Beirut and Istanbul, where he read law before serving as an Ottoman reserve officer in the First World War.{cite:wikipedia-tawfiq-abu-al-huda-ar}{cite:wikidata-tawfiq-abu-al-huda} Moving to Amman in 1922, he climbed the Transjordanian administration from director of revenues to secretary-general of the government, and in September 1938 formed the first of the twelve governments he would head.{cite:wikipedia-tawfiq-abu-al-huda-ar}{cite:wikipedia-tawfiq-abu-al-huda-en}
 

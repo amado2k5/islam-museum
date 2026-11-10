@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mir Sayyid Jalaluddin Husayn al-Naqvi al-Bukhari, known as Makhdum-i Jahaniyan Jahangasht, was a Suhrawardi shaykh born at Uch in the Punjab on 14 Sha'ban 707 AH; his articles render the day variously as 7, 8 and 9 February 1308 while agreeing on the year and its Hijri counterpart.{cite:wikipedia-jahaniyan-jahangasht-ur}{cite:wikipedia-jahaniyan-jahangasht-en}{cite:khan-constructing-islam-on-the-indus-2016} His father, Ahmad Kabir, was the youngest son and chosen successor of Jalaluddin Surkh-Posh Bukhari, so Jahangasht was born into the headship of Uch's line of the Suhrawardi order.{cite:wikipedia-jahaniyan-jahangasht-en}
 
