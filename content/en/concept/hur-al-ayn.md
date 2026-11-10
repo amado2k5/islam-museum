@@ -30,3 +30,6 @@ The Sheikh says the listeners were stunned that the preacher said the wife of th
 - **The speaker's view (opinion)**: The Sheikh holds that the hur al-ayn are women whom God created with His own hand and that they are unlike the wives of this world {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:31:30}.
 - **Academic and other views (not yet sourced)**: Academic and other views have not yet been sourced.
 :::
+
+## In the context of the unseen
+The spouses of Paradise among the promised unseen creations — described by Qur'an and Prophet without worldly likeness.

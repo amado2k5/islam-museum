@@ -28,3 +28,6 @@ In the third, the four verses describe all believers, Arab and non-Arab, People 
 He also gives Mujahid's report that four verses at the start of al-Baqara describe the believers, two the disbelievers and thirteen the hypocrites, and al-Rabi' ibn Anas's that four are about those who believed and two about the leaders of the factions. {cite:tafsir-tabari-shakir-v01 p. 239} {cite:tafsir-tabari-shakir-v01 p. 240}
 Al-Tabari prefers the first view: those described by belief in the unseen are distinct from those described by belief in what was sent down to Muhammad and earlier messengers. Among his arguments, God goes on to divide the disbelievers into two kinds, one sealed in heart and the other hypocritical, just as He made the believers two kinds at the start of the surah, and then describes each kind and what He prepared for it of reward or punishment. {cite:tafsir-tabari-shakir-v01 p. 240} {cite:tafsir-tabari-shakir-v01 p. 241}
 The question bears on [[passage/quran-2-3|verse 3]] and [[passage/quran-2-4|verse 4]] of al-Baqara.
+
+## In the context of the unseen
+All that lies beyond the senses and is established by truthful report: absolute ghayb known only to God, and relative ghayb revealed to whom He wills.

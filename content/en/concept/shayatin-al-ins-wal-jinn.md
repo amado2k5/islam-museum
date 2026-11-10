@@ -24,3 +24,6 @@ Rida presents both views and says the correct one is what was related from Mujah
 
 ## From Omar Abdelkafy's programme al-Munjiyat
 Omar Abdelkafy says that the human devil is more dangerous than the jinn devil, since the jinn devil slinks away when God is remembered, and counts weakness of certainty and of trust in God among the obstacles on the way to God. {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep08 00:02:30}
+
+## In the context of the unseen
+Enemies of every prophet from men and jinn who inspire one another with adorned deception — corrupting unseen versus revelation.

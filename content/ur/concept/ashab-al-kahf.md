@@ -22,3 +22,6 @@ translators: ["Claude Sonnet, draft translation"]
 
 ## عمر عبد الکافی کے پروگرام «بستان الامل» سے
 شیخ کے نزدیک انسان اپنی تقدیر نہیں چنتا بلکہ اس پر صبر کرتا ہے، اور ہم زندگی جینے کے لیے آئے ہیں سمجھنے کے لیے نہیں؛ وہ نوجوانوں کے اس وصف پر رکتے ہیں کہ اللہ نے ان کے دلوں کو مضبوط کیا، اور ان کے نزدیک سچا مومن وہ ہے جس کا دل یوں مضبوط ہو، اور یہ تب ہوتا ہے جب وہ معاملہ اللہ کے سپرد کر دے جیسے چور ہاتھ اٹھا کر خود کو حوالے کر دیتا ہے؛ غار تنگ، تاریک اور بے وسائل تھا، پھر بھی اللہ نے اس میں ان پر اپنی رحمت پھیلائی، تو خوشی دلوں کی تنگی اور وسعت میں ہے جگہوں کی نہیں؛ وہ ایلیا ابو ماضی کے ایک شعر کا مفہوم بیان کرتے ہیں کہ سکون محلوں سے خالی ہو کر جھونپڑی میں بس سکتا ہے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
+
+## غیب کے تناظر میں
+وہ تین سو نو برس سوئے — زمانے اور بے فساد جلانے پر غیب کی نشانی۔
