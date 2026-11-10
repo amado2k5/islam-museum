@@ -16,6 +16,7 @@ relations:
 - { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Egypt eyalet", ar: "إيالة مصر" }
+    participants: [place/egypt-eyalet]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
