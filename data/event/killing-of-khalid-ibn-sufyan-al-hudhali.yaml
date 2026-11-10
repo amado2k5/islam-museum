@@ -25,5 +25,14 @@ sides:
   - label: { ar: "خالد بن سفيان وأتباعه", en: "Khalid ibn Sufyan and his followers" }
     participants: [group/hudhayl]
     commanders: [person/khalid-ibn-sufyan-al-hudhali]
+map:
+  kind: campaign
+  precision: locality
+  center: [21.5167, 40.0667]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة عبد الله بن أنيس لقتل خالد بن سفيان بن نبيح الهذلي", en: "Abdullah ibn Unays's mission to kill Khalid ibn Sufyan ibn Nubayh al-Hudhali" }, at: [21.5167, 40.0667], precision: locality, source: source/mujam-al-buldan-yaqut }
+  sources: [source/mujam-al-buldan-yaqut]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 267-269; date single-source" }

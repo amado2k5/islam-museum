@@ -19,6 +19,15 @@ sides:
   - label: { ar: "جيش السلطان محمد الفاتح", en: "السلطان محمد الفاتح's army" }
     commanders: [person/mehmed-ii]
   - label: { ar: "أطرابزندة", en: "Ṭrābazanda" }
+map:
+  kind: campaign
+  precision: locality
+  center: [41.005, 39.727]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طرابزون", en: "Conquest of Trebizond" }, at: [41.005, 39.727], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q9366875

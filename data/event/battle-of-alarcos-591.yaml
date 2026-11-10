@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش يعقوب المنصور الموحدي", en: "يعقوب المنصور الموحدي's army" }
     commanders: [person/yaqub-al-mansur-al-muwahhidi]
   - label: { ar: "قرطبة", en: "Cordoba" }
+map:
+  kind: battle
+  precision: locality
+  center: [37.8916, -4.7728]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة الأرك", en: "The battle of al-Arak (Alarcos)" }, at: [37.8916, -4.7728], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

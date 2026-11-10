@@ -21,5 +21,14 @@ sides:
   - label: { ar: "جيش عمرو بن العاص", en: "Amr ibn al-As's army" }
     commanders: [person/amr-ibn-al-as]
   - label: { ar: "الإسكندرية", en: "Alexandria" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.2018, 29.9158]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خلاف أهل الإسكندرية واستردادها", en: "the Alexandria rising and its recovery (25 AH)" }, at: [31.2018, 29.9158], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

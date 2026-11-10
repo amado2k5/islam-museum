@@ -21,6 +21,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch4
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8, 37.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خروج الفرنج بالشام والصلح معهم", en: "Frankish seaborne raid on the coast and the truce" }, at: [34.8, 37.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

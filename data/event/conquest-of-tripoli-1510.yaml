@@ -13,6 +13,15 @@ regions: [maghreb]
 date:
   start: { edtf: "1510", precision: year, status: tradition, derived: true }
   end: { edtf: "1510", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [32.8752, 13.1875]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ طرابلس ⁦(١٥١٠)⁩", en: "Spanish conquest of Tripoli" }, at: [32.8752, 13.1875], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q16543736

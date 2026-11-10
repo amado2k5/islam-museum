@@ -23,6 +23,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية منبج", en: "The defenders of Manbij" }
     participants: [place/manbij]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.533333333333, 37.95]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك الملك الظاهر منبج وحصره", en: "al-Zahir Ghazi takes Manbij and is besieged" }, at: [36.533333333333, 37.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

@@ -15,6 +15,15 @@ sides:
   - label: { ar: "حملة أبي دلف القاسم والأفشين", en: "Abu Dulaf's and al-Afshin's campaign" }
     commanders: [person/abu-dulaf-al-qasim, person/afshin]
   - label: { ar: "أهل الديلم", en: "The people of Daylam" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.85, 49.9]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزو أبي دلف للديلم", en: "Abu Dulaf's Daylam Campaign" }, at: [36.85, 49.9], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

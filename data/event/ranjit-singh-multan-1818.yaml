@@ -21,5 +21,14 @@ provenance:
 sides:
   - label: { ar: "الإمبراطورية السيخية بقيادة رنجيت سينغ", en: "The Sikh Empire under Ranjit Singh" }
   - label: { ar: "حامية ملتان الأفغانية", en: "The Afghan garrison of Multan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.1968, 71.4782]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ رانجيت سينغ الملتان ١٨١٨م", en: "Ranjit Singh's conquest of Multan, 1818" }, at: [30.1968, 71.4782], precision: locality, source: source/fihrist-ibn-al-nadim }
+  sources: [source/fihrist-ibn-al-nadim]
 sources: [source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

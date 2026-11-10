@@ -17,6 +17,15 @@ date:
 sides:
   - label: { ar: "جيش زنكي", en: "Zengi's army" }
   - label: { ar: "كونتية طرابلس الصليبية", en: "The Crusader County of Tripoli" }
+map:
+  kind: battle
+  precision: locality
+  center: [34.4336, 35.8444]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة طرابلس", en: "Battle of Tripoli" }, at: [34.4336, 35.8444], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135903032

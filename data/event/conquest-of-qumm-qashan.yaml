@@ -25,5 +25,14 @@ sides:
   - label: { ar: "جيش أبو موسى الأشعري", en: "Abu Musa al-Ashari's army" }
     commanders: [person/abu-musa-al-ashari]
   - label: { ar: "قم", en: "Qumm" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.6416, 50.8746]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قم وقاشان", en: "The Conquest of Qumm and Qashan" }, at: [34.6416, 50.8746], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

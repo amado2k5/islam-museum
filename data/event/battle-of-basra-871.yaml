@@ -17,6 +17,15 @@ date:
 sides:
   - label: { ar: "جيش الزنج", en: "The Zanj army" }
   - label: { ar: "أهل البصرة", en: "The people of Basra" }
+map:
+  kind: battle
+  precision: locality
+  center: [30.5085, 47.7804]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة البصرة ⁦(٨٧١)⁩", en: "Battle of Basra (871)" }, at: [30.5085, 47.7804], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16822499

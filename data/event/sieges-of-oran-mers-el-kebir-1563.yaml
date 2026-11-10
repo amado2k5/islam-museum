@@ -20,6 +20,15 @@ sides:
     participants: [person/sulayman-al-qanuni]
   - label: { ar: "حامية وهران", en: "The defenders of Wahran" }
     participants: [place/wahran]
+map:
+  kind: siege
+  precision: locality
+  center: [35.6971, -0.6308]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار وهران والمرسى الكبير ⁦(٩٧١هـ/١٥٦٣م)⁩", en: "Siege of Oran and Mers El Kébir (971/1563)" }, at: [35.6971, -0.6308], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

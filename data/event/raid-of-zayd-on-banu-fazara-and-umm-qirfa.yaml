@@ -43,5 +43,14 @@ perspectives:
     summary: { ar: "تناقش الدراسات الحديثة صحة تفاصيل الخبر ومصادره وسياقه في صراع المدينة مع فزارة وغطفان؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 265-266", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+map:
+  kind: campaign
+  precision: locality
+  center: [26.6, 37.92]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة زيد بن حارثة بني فزارة ومقتل أم قرفة", en: "Zayd ibn Haritha's raid on Banu Fazara and the killing of Umm Qirfa" }, at: [26.6, 37.92], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 265-266; Tier A review" }

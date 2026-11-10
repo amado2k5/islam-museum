@@ -23,5 +23,14 @@ provenance:
 sides:
   - label: { ar: "البيزنطيون بقيادة مانوئيل", en: "The Byzantines under Manuel" }
   - label: { ar: "حامية الإسكندرية المسلمة", en: "The Muslim garrison of Alexandria" }
+map:
+  kind: battle
+  precision: locality
+  center: [31.2018, 29.9158]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نقض الإسكندرية واستردادها من منويل", en: "The Roman Recapture of Alexandria and Its Recovery from Manuel" }, at: [31.2018, 29.9158], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -25,5 +25,14 @@ sides:
     participants: [person/al-nasir-billah]
     commanders: [person/salah-al-din-yusuf-ibn-ayyub]
   - label: { ar: "حامية القدس بقيادة باليان", en: "The Jerusalem garrison under Balian" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.78, 35.24]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد صلاح الدين بيت المقدس", en: "Salah al-Din recovers Jerusalem" }, at: [31.78, 35.24], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-khulafa-minhaj-1434, source/assabile-omar-abdelkafy, source/britannica-saladin, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

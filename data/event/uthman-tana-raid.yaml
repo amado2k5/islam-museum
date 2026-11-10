@@ -17,6 +17,15 @@ sides:
   - label: { ar: "جيش عثمان بن أبي العاص", en: "Uthman ibn Abi al-As's army" }
     commanders: [person/uthman-ibn-abi-al-as, person/umar-ibn-al-khattab]
   - label: { ar: "تانه", en: "Tana" }
+map:
+  kind: campaign
+  precision: locality
+  center: [19.197, 72.9781]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة عثمان بن أبي العاص على تانه والهند", en: "Uthman ibn Abi al-As's Raids on Tana and the Indian Coast" }, at: [19.197, 72.9781], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

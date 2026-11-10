@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش إياد بن غنم الفهري", en: "Iyad ibn Ghanm al-Fihri's army" }
     commanders: [person/iyyad-ibn-ghanm]
   - label: { ar: "حران", en: "Harran" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.87083333333333, 39.025]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح حران", en: "The Conquest of Harran" }, at: [36.87083333333333, 39.025], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

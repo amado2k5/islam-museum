@@ -24,6 +24,15 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية الحبشة", en: "The defenders of Abyssinia (Aksum)" }
     participants: [place/abyssinia]
+map:
+  kind: campaign
+  precision: locality
+  center: [9, 39.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "بعث علقمة بن مجزّز إلى الحبشة", en: "Alqama ibn Mujazziz's expedition against Abyssinia (20 AH)" }, at: [9, 39.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

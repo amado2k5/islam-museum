@@ -13,6 +13,15 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1856", precision: year, status: tradition, derived: true }
   end: { edtf: "1856", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.3529, 62.204]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب هراة الثانية", en: "Second Herat War" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q109285838

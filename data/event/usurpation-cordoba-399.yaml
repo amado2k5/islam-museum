@@ -30,5 +30,14 @@ sides:
     commanders: [person/hisham-ii-al-muayyad]
   - label: { ar: "عبد الرحمن شنجول بن المنصور", en: "Abd al-Rahman Shanjul ibn al-Mansur" }
     participants: [person/abd-al-rahman-sanjul]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.8916, -4.7728]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتنة قرطبة وخروج ابن عبد الجبار", en: "The Cordoba Strife and the Rising of Ibn Abd al-Jabbar" }, at: [37.8916, -4.7728], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

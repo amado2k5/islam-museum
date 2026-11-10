@@ -22,5 +22,14 @@ external_ids: { wikidata: "Q12216248" }
 sides:
   - label: { ar: "قشتالة بقيادة فرناندو الثالث", en: "Castile under Ferdinand III" }
   - label: { ar: "حامية قرطبة", en: "The garrison of Cordoba" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.8916, -4.7728]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء العدو على قرطبة", en: "The enemy's capture of Cordoba" }, at: [37.8916, -4.7728], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

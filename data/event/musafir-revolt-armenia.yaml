@@ -30,5 +30,14 @@ sides:
   - label: { ar: "جيش أبو جعفر المنصور", en: "Abu Ja'far al-Mansur's army" }
     commanders: [person/al-mansur]
   - label: { ar: "أرمينية", en: "Armenia" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.383333, 44.95]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خروج مسافر القصّاب بأرمينية", en: "The Rising of Musafir al-Qassab in Armenia" }, at: [40.383333, 44.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

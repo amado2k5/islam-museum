@@ -19,6 +19,15 @@ sides:
     participants: [person/mehmed-iv-uthmani]
   - label: { ar: "حامية مسقط", en: "The defenders of Muscat" }
     participants: [place/muscat]
+map:
+  kind: campaign
+  precision: locality
+  center: [23.5841, 58.4078]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ مسقط ⁦(١٦٤٩)⁩", en: "Capture of Muscat (1649)" }, at: [23.5841, 58.4078], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q121308118

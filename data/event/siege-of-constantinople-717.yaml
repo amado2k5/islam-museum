@@ -15,6 +15,15 @@ sides:
   - { label: { en: "Byzantine defenders", ar: "المدافعون البيزنطيون" }, participants: [polity/byzantine-empire], commanders: [] }
 external_ids:
   wikidata: Q27900
+map:
+  kind: siege
+  precision: locality
+  center: [41.008, 28.978]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار القسطنطينية في عهد سليمان بن عبد الملك", en: "Siege of Constantinople under Sulayman ibn Abd al-Malik" }, at: [41.008, 28.978], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/salabi-umayyad-state-2020]
 provenance: { layer: own-research, source: "salabi-umayyad-state-2020 pp. 46-52", generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 46-52" }
 status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 pp. 46-52" }

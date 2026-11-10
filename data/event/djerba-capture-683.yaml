@@ -23,6 +23,15 @@ sides:
     participants: [person/al-hakim-bi-amr-illah]
   - label: { ar: "حامية جرباء", en: "The defenders of Jarba" }
     participants: [place/jarba]
+map:
+  kind: campaign
+  precision: locality
+  center: [30.334, 35.546]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء أسطول الأرغون على جزيرة جربة", en: "The Aragonese capture of Djerba" }, at: [30.334, 35.546], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

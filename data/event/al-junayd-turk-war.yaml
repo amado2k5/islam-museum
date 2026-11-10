@@ -16,6 +16,15 @@ sides:
   - label: { ar: "جيش الجنيد بن عبد الرحمن المري", en: "al-Junayd ibn Abd al-Rahman al-Murri's army" }
     commanders: [person/al-junayd-ibn-abd-al-rahman, person/hisham-ibn-abd-al-malik, person/asim-ibn-abdallah-al-hilali]
   - label: { ar: "مرو", en: "Marw" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.6631, 62.1925]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ولاية الجنيد بن عبد الرحمن خراسان وحربه الترك", en: "al-Junayd's Khurasan and the Turkish War" }, at: [37.6631, 62.1925], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

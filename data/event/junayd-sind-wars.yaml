@@ -11,6 +11,15 @@ relations:
   - { type: had_participant, target: person/sasa-ibn-dahir, role: "المقتول غدراً", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/daybul }
 wings: [time]
+map:
+  kind: campaign
+  precision: locality
+  center: [24.7522, 67.5211]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حروب الجنيد بالسند", en: "al-Junayd's Sind Wars" }, at: [24.7522, 67.5211], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -19,6 +19,15 @@ sides:
   - label: { ar: "جيش قتيبة بن مسلم الباهلي", en: "قتيبة بن مسلم الباهلي's army" }
     commanders: [person/qutayba-ibn-muslim, person/ghurak]
   - label: { ar: "سمرقند", en: "Samarqand" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.6546, 66.9644]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قتيبة سمرقند", en: "Qutayba's Conquest of Samarqand" }, at: [39.6546, 66.9644], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020, source/akhbar-tiwal-amir]
 status: { review: published, completeness: 1 }
 provenance:

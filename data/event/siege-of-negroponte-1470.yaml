@@ -19,6 +19,15 @@ sides:
   - label: { ar: "جيش السلطان محمد الفاتح", en: "السلطان محمد الفاتح's army" }
     commanders: [person/mehmed-ii]
   - label: { ar: "نجربونت", en: "Negroponte" }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.464, 23.602]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح نجربونت", en: "Siege of Negroponte" }, at: [38.464, 23.602], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3622772

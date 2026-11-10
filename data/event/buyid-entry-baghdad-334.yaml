@@ -31,5 +31,14 @@ sides:
     participants: [person/al-mustakfi-billah]
   - label: { ar: "حامية بغداد", en: "The defenders of Baghdad" }
     participants: [place/baghdad]
+map:
+  kind: campaign
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول بني بويه بغداد وتلقيبهم سنة 334", en: "The Buyids enter Baghdad and receive their titles, 334 AH" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

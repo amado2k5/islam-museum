@@ -23,5 +23,14 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-118
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8167, 36.1167]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نور الدين يأخذ حصن صافيتا من الفرنج سنة 561", en: "Nur al-Din Takes the Fortress of Safita from the Franks in 561" }, at: [34.8167, 36.1167], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

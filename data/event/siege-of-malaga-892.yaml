@@ -24,5 +24,14 @@ sides:
     participants: [person/al-mutawakkil-ala-llah-ii]
   - label: { ar: "حامية مالقة", en: "The defenders of Malaga" }
     participants: [place/malaga]
+map:
+  kind: siege
+  precision: locality
+  center: [36.7213, -4.4214]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مالقة وأسر أهلها", en: "Siege of Malaga and the captivity of its people" }, at: [36.7213, -4.4214], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

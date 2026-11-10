@@ -14,6 +14,15 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1624", precision: year, status: tradition, derived: true }
   end: { edtf: "1629", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.5085, 47.7804]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزوات الصفوية للبصرة ⁦(١٦٢٤–١٦٢٩)⁩", en: "Safavid invasions of Basra (1624–29)" }, at: [30.5085, 47.7804], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q125496718

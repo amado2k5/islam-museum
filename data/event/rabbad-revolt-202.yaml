@@ -24,5 +24,14 @@ sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات عبد الله المأمون بن هارون الرشيد", en: "The authorities of Abd Allah al-Ma'mun ibn Harun al-Rashid" }
     participants: [person/abd-allah-al-mamun]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.8916, -4.7728]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتنة الربض بقرطبة", en: "The Rabad fitna in Cordoba" }, at: [37.8916, -4.7728], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

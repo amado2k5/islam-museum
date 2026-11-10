@@ -27,5 +27,14 @@ sides:
   - label: { ar: "جيش عبد الله بن سعد بن أبي سرح", en: "Abdullah ibn Sa'd ibn Abi Sarh's army" }
     commanders: [person/abdullah-ibn-sad-ibn-abi-sarh, person/uthman-ibn-affan]
   - label: { ar: "إفريقية", en: "Ifriqiya" }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة إفريقية الأولى وقتل بطريقها", en: "The First Raid on Ifriqiya and the Killing of Its Patrikios" }, at: [35.6781, 10.0963], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

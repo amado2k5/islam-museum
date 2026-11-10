@@ -52,6 +52,15 @@ sides:
     value: 30000
     sources:
     - source/akhbar-tiwal-amir
+map:
+  kind: battle
+  precision: locality
+  center: [34.8, 48.516666666667]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعتا همذان وأسداباذ (195)", en: "Battles of Hamadhan and Asadabad (195 AH)" }, at: [34.8, 48.516666666667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: &id001
 - source/akhbar-tiwal-amir
 provenance:

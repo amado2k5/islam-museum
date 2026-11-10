@@ -25,5 +25,14 @@ sides:
     commanders: [person/abu-tahir-al-qarmati]
   - label: { ar: "جعفر بن ورقاء الشيباني", en: "جعفر بن ورقاء الشيباني" }
     participants: [person/jafar-ibn-warqa-al-shaybani]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.0511, 44.4402]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول أبي طاهر القرمطي الكوفة", en: "Abu Tahir al-Qarmati Enters Kufa" }, at: [32.0511, 44.4402], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

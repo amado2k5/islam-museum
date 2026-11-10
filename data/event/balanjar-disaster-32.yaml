@@ -24,5 +24,14 @@ provenance:
 sides:
   - label: { ar: "الجيش الأموي بقيادة عبد الرحمن بن ربيعة", en: "The Umayyad army under Abd al-Rahman ibn Rabi'a" }
   - label: { ar: "الخزر", en: "The Khazars" }
+map:
+  kind: battle
+  precision: locality
+  center: [43.2536, 46.7092]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هزيمة بلنجر ⁦(32هـ)⁩", en: "The Defeat at Balanjar (32 AH)" }, at: [43.2536, 46.7092], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

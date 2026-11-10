@@ -16,6 +16,15 @@ sides:
   - label: { ar: "جيش عبد الله بن عامر", en: "Abd Allah ibn Amir's army" }
     commanders: [person/abd-allah-ibn-amir, person/mahak, person/ubaydallah-ibn-matar]
   - label: { ar: "إصطخر", en: "Istakhr" }
+map:
+  kind: campaign
+  precision: locality
+  center: [29.981666666667, 52.909444444444]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أصطخر عنوة", en: "The Forced Taking of Istakhr" }, at: [29.981666666667, 52.909444444444], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

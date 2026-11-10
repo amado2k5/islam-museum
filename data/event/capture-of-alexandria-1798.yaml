@@ -22,6 +22,15 @@ relations:
   - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: had_participant, target: person/muhammad-kurayyim, role: "رئيس الثغر", sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.2018, 29.9158]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول الفرنسيس الإسكندرية ⁦(محرم 1213هـ / تموز 1798م)⁩", en: "The French take Alexandria (Muharram 1213 / July 1798)" }, at: [31.2018, 29.9158], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/ajaib-al-athar-moreh-v3]
 external_ids:
   wikidata: Q3403790

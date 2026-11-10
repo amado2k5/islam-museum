@@ -22,5 +22,14 @@ sides:
   - label: { ar: "المعارضة", en: "The opposition" }
   - label: { ar: "سلطات المطيع لله الفضل بن المقتدر", en: "The authorities of al-Muti li-llah al-Fadl ibn al-Muqtadir" }
     participants: [person/al-muti-billah]
+map:
+  kind: campaign
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتنة الشيعة والسنة بباب الطاق سنة 348", en: "Sunni-Shi'i Strife at Bab al-Taq in 348" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -16,6 +16,15 @@ sides:
   - label: { ar: "جيش حارثة بن بدر الغداني", en: "Haritha ibn Badr al-Ghudani's army" }
     commanders: [person/haritha-ibn-badr, person/abd-allah-ibn-amir]
   - label: { ar: "سرق", en: "Surraq" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.65, 48.6667]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح سرق", en: "Conquest of Surraq" }, at: [30.65, 48.6667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

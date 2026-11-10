@@ -15,6 +15,15 @@ external_ids: { wikidata: "Q133809034" }
 sides:
   - label: { ar: "الجيش المغولي بقيادة جنكيز خان", en: "The Mongol army under Chinggis Khan" }
   - label: { ar: "حامية بخارى الخوارزمية", en: "The Khwarizmian garrison of Bukhara" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.7747, 64.4286]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بخارى", en: "Conquest of Bukhara" }, at: [39.7747, 64.4286], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/tabari-tarikh-abu-al-fadl]
 provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }

@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش المستظهر بالله أحمد بن المقتدي", en: "al-Mustazhir bi'llah Ahmad ibn al-Muqtadi's army" }
     commanders: [person/al-mustazhir-billah]
   - label: { ar: "المسجد الأقصى", en: "Masjid Al-Aqsa" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.778, 35.236]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء الفرنج على بيت المقدس", en: "The Franks Seize Bayt al-Maqdis (Jerusalem)" }, at: [31.778, 35.236], precision: locality, source: source/wikidata }
+  sources: [source/wikidata]
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

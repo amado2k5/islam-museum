@@ -22,6 +22,15 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية الدينور", en: "The defenders of al-Dinawar" }
     participants: [place/dinawar]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.5892, 47.4394]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الدينور والصيمرة", en: "Conquest of Dinawar and al-Saymara (21 AH)" }, at: [34.5892, 47.4394], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir, source/futuh-buldan-maarif-1407]
 status:
   review: published

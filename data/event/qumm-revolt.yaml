@@ -27,5 +27,14 @@ sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات المستعين بالله", en: "The authorities of al-Musta'in bi'llah" }
     participants: [person/al-mustain]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.6416, 50.8746]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حركة قم وإعادة فتحها", en: "Qumm's Revolt and Re-Conquest" }, at: [34.6416, 50.8746], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

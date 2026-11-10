@@ -20,6 +20,15 @@ relations:
 sides:
   - label: { ar: "المعارضة", en: "The opposition" }
   - label: { ar: "السلطات", en: "The authorities" }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.27, 40.42]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب بين الأحلاف وبني مالك", en: "The war between the Ahlaf and Banu Malik" }, at: [21.27, 40.42], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

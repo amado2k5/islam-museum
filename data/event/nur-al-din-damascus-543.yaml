@@ -22,5 +22,14 @@ provenance:
 sides:
   - label: { ar: "الزنكيون بقيادة نور الدين محمود", en: "The Zengids under Nur al-Din Mahmud" }
   - label: { ar: "الفرنج المحاصرون لدمشق", en: "The Franks besieging Damascus" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نور الدين يفك حصار الفرنج عن دمشق", en: "Nur al-Din Lifts the Frankish Siege of Damascus" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -25,6 +25,15 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية أصفهان", en: "The defenders of Isfahan" }
     participants: [place/isfahan]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أصبهان", en: "Conquest of Isfahan (21 AH)" }, at: [32.6546, 51.668], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

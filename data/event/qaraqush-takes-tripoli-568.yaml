@@ -26,6 +26,15 @@ sides:
   - label: { ar: "المهاجمون", en: "The attackers" }
   - label: { ar: "حامية أطرابلس", en: "The defenders of Tripoli (Libya)" }
     participants: [place/atrabulus]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.9, 13.19]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك قراقوش طرابلس الغرب", en: "Qaraqush's conquest of Tripoli (568 AH)" }, at: [32.9, 13.19], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

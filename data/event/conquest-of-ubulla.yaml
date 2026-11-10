@@ -17,6 +17,15 @@ sides:
   - label: { ar: "جيش عتبة بن غزوان", en: "Utba ibn Ghazwan's army" }
     commanders: [person/utba-ibn-ghazwan]
   - label: { ar: "الأبلة", en: "al-Ubulla" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.4, 48.08]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الأبلة والفرات", en: "Conquest of al-Ubulla and al-Furat" }, at: [30.4, 48.08], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

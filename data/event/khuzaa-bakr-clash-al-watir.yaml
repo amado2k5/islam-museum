@@ -33,6 +33,15 @@ sides:
     note: "تحصنوا بدار بديل بن ورقاء ودار رافع مولاهم بعد الكرّة."
 casualties: { value: 1, status: tradition, note: "أصابت بنو الديل من خزاعة رجلًا يقال له منبه ليلة التبييت؛ ثم تحاوز الفريقان واقتتلا قتالًا لم يُعدّد قتلاه.", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–33", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.3, 39.75]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "القتال بين بني بكر وخزاعة على الوتير", en: "The Bakr–Khuza'a clash at al-Watir" }, at: [21.3, 39.75], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–33" }
 

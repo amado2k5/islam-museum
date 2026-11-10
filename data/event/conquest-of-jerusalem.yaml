@@ -20,6 +20,15 @@ sides:
     commanders: [person/abu-ubayda-ibn-al-jarrah]
   - label: { ar: "أهل إيلياء والبطريرك صفرونيوس", en: "The people of Aelia under Patriarch Sophronius" }
     participants: [person/heraclius]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.78, 35.24]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بيت المقدس", en: "Conquest of Bayt al-Maqdis (Jerusalem)" }, at: [31.78, 35.24], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-al-sham-ilmiyya-1997-v1]
 provenance:
   layer: own-research

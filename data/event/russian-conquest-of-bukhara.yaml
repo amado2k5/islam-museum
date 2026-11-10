@@ -16,6 +16,15 @@ date:
 sides:
   - label: { ar: "الإمبراطورية الروسية", en: "The Russian Empire" }
   - label: { ar: "إمارة بخارى", en: "The Emirate of Bukhara" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.7747, 64.4286]
+  extent_km: 400
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح الروسي لبخارى", en: "Russian Conquest of Bukhara" }, at: [39.7747, 64.4286], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7382025

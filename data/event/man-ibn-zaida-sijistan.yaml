@@ -17,6 +17,15 @@ sides:
   - label: { ar: "جيش معن بن زائدة الشيباني", en: "Ma'n ibn Za'ida al-Shaybani's army" }
     commanders: [person/man-ibn-zaida, person/yazid-ibn-mazyad]
   - label: { ar: "زابلستان", en: "Zabulistan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.5, 66.5]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة معن بن زائدة على رتبيل", en: "Ma'n ibn Za'ida's Campaign on Rutbil" }, at: [32.5, 66.5], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

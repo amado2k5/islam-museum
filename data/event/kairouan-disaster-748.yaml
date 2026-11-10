@@ -29,6 +29,15 @@ relations:
 sides:
   - label: { ar: "المرينيون بقيادة أبو الحسن", en: "The Marinids under Abu al-Hasan" }
   - label: { ar: "أعراب إفريقية بقيادة أحمد بن حمزة", en: "The Ifriqiyan Arabs under Ahmad ibn Hamza" }
+map:
+  kind: battle
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "واقعة القيروان", en: "The Kairouan disaster" }, at: [35.6781, 10.0963], precision: locality, source: source/umayyad-birth-to-fall-2006 }
+  sources: [source/umayyad-birth-to-fall-2006]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

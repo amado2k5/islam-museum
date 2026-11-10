@@ -28,6 +28,15 @@ sides:
     participants: [group/al-khazraj]
     commanders: [person/amr-ibn-al-numan-al-bayadi]
 external_ids: { wikidata: "Q2718136" }
+map:
+  kind: battle
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم بُعاث", en: "The day of Bu'ath" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/samhudi-wafa-al-wafa, source/sahih-al-bukhari]
 provenance:
   layer: own-research

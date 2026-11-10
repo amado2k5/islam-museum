@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش عبد الله بن بديل", en: "Abdallah ibn Budayl's army" }
     commanders: [person/abdallah-ibn-budayl, person/umar-ibn-al-khattab]
   - label: { ar: "أصبهان", en: "Isbahan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أصبهان", en: "The Conquest of Isbahan" }, at: [32.6546, 51.668], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

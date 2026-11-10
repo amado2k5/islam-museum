@@ -17,6 +17,15 @@ relations:
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.0511, 44.4402]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة المختار بن أبي عبيد بالكوفة", en: "The revolt of al-Mukhtar ibn Abi Ubayd in Kufa" }, at: [32.0511, 44.4402], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/bakr-umayyad-state-1134715, source/akhbar-tiwal-amir]
 provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 pp. 194, 206, 209, 220", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220", run: "lib-akhbar-tiwal-batch-5-2026-10-31 (enrichment)" }
 status: { review: published, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220" }

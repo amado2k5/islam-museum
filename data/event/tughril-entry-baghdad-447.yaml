@@ -25,5 +25,14 @@ provenance:
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 28-29"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-11
+map:
+  kind: campaign
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول طغرل بك بغداد", en: "Tughril Beg's Entry into Baghdad" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

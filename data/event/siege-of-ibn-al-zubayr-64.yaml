@@ -24,5 +24,14 @@ sides:
     participants: [person/abdullah-ibn-al-zubayr]
   - label: { ar: "حامية مكة المكرمة", en: "The defenders of Mecca" }
     participants: [place/mecca]
+map:
+  kind: siege
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ابن الزبير بمكة", en: "Siege of Ibn al-Zubayr in Mecca" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/umayyad-birth-to-fall-2006, source/tarikh-khulafa-minhaj-1434, source/bakr-umayyad-state-1134715, source/akhbar-tiwal-amir]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

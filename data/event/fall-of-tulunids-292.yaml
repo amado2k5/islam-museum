@@ -26,6 +26,15 @@ sides:
     participants: [person/al-muktafi-billah]
   - label: { ar: "حامية الفسطاط", en: "The defenders of Al-Fustat" }
     participants: [place/al-fustat]
+map:
+  kind: campaign
+  precision: locality
+  center: [30, 31.23]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط الدولة الطولونية وإحراق القطائع ⁦(292هـ)⁩", en: "Fall of the Tulunid state and burning of al-Qata'i' (292 AH)" }, at: [30, 31.23], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 - source/muntazam-ibn-al-jawzi

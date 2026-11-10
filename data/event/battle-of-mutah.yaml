@@ -36,6 +36,15 @@ relations:
   - { type: has_part, target: event/mutah-return-to-medina, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 15-30", generated_by: "kiro", run: "ibn-hisham-batch-4", enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added al-Sallabi's lessons section from source/sira-nabawiyya-sallabi pp. 734-738" }
 external_ids: { wikidata: "Q1639459" }
+map:
+  kind: battle
+  precision: locality
+  center: [31.0925, 35.6944]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة مؤتة", en: "The Battle of Mu'tah" }, at: [31.0925, 35.6944], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
 status: { review: published, completeness: 2, generated_by: "kiro; extended from Ibn Hisham juz' 4 pp. 15-30 (batch 4)" }
 

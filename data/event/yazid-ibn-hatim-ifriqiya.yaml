@@ -28,5 +28,14 @@ sides:
     commanders: [person/rawh-ibn-hatim, person/yazid-ibn-hatim]
   - label: { ar: "أبو خاتم السدراتي", en: "Abu Khatim al-Saddrati" }
     participants: [person/abu-khatim-al-saddrati]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مسير يزيد بن حاتم إلى إفريقية وقتله أبا خاتم", en: "Yazid ibn Hatim's March to Ifriqiya and His Killing of Abu Khatim" }, at: [35.6781, 10.0963], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

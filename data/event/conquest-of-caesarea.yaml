@@ -28,5 +28,14 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية قيسارية", en: "The defenders of Caesarea" }
     participants: [place/qaysariyya]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.5, 34.8917]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قيسارية", en: "The Conquest of Caesarea" }, at: [32.5, 34.8917], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

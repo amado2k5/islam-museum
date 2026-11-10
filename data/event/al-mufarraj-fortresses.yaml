@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش المفرج بن سلام", en: "al-Mufarraj ibn Sallam's army" }
     commanders: [person/al-mufarraj-ibn-sallam]
   - label: { ar: "بارة", en: "Barah" }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6872, 36.5397]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح المفرج بن سلام أربعة وعشرين حصناً", en: "al-Mufarraj ibn Sallam's Conquest of Twenty-Four Fortresses" }, at: [35.6872, 36.5397], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

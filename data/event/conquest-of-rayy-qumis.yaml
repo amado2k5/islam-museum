@@ -23,5 +23,14 @@ sides:
   - label: { ar: "جيش عروة بن زيد الخيل الطائي", en: "Urwa ibn Zayd al-Khayl al-Ta'i's army" }
     commanders: [person/urwa-ibn-zayd-al-khayl, person/hanzala-ibn-zayd, person/umar-ibn-al-khattab]
   - label: { ar: "الري", en: "Rayy" }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.5935, 51.44]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الري وقومس", en: "The Conquest of Rayy and Qumis" }, at: [35.5935, 51.44], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -23,5 +23,14 @@ sides:
     participants: [person/al-mustazhir-billah]
   - label: { ar: "حامية طرابلس ⁦(الشام)⁩", en: "The defenders of Tripoli (al-Sham)" }
     participants: [place/tarabulus-sham]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.4336, 35.8444]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ الفرنج طرابلس الشام", en: "The Franks Take Tripoli of Syria" }, at: [34.4336, 35.8444], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

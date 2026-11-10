@@ -20,6 +20,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch2
+map:
+  kind: campaign
+  precision: locality
+  center: [31.416666666666668, 31.82138888888889]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ظهور الفرنج بالشام ومسيرهم إلى ديار مصر", en: "The Franks appear in Syria and march on Egypt" }, at: [31.416666666666668, 31.82138888888889], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

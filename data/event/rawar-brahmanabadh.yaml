@@ -15,6 +15,15 @@ sides:
   - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
     commanders: [person/muhammad-ibn-al-qasim]
   - label: { ar: "راور", en: "Rawar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.2656, 56.8056]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح راور وبرهمباذ", en: "The Storming of Rawar and Brahmanabadh" }, at: [31.2656, 56.8056], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

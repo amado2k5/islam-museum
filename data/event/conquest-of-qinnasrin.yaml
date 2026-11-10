@@ -27,5 +27,14 @@ sides:
   - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
     commanders: [person/khalid-ibn-al-walid]
   - label: { ar: "قنسرين", en: "Qinnasrin" }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.9839, 36.9939]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قنسرين", en: "The Conquest of Qinnasrin" }, at: [35.9839, 36.9939], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

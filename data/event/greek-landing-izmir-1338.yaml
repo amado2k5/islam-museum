@@ -22,5 +22,14 @@ provenance:
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 468"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-10
+map:
+  kind: campaign
+  precision: locality
+  center: [38.4192, 27.1287]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "احتلال اليونانيين أزمير", en: "The Greek Occupation of Izmir" }, at: [38.4192, 27.1287], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -29,5 +29,14 @@ sides:
     participants: [person/muawiya-ibn-abi-sufyan]
   - label: { ar: "حامية حصن كَمْخ", en: "The defenders of Hisn Kamkh (Kamacha)" }
     participants: [place/hisn-kamkh]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.6025, 39.0358]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح حصن كَمْخ", en: "The Taking of Hisn Kamkh" }, at: [39.6025, 39.0358], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

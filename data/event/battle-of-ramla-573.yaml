@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش صلاح الدين الأيوبي", en: "Saladin (Salah al-Din Yusuf ibn Ayyub)'s army" }
     commanders: [person/salah-al-din-yusuf-ibn-ayyub]
   - label: { ar: "الرملة", en: "al-Ramla" }
+map:
+  kind: battle
+  precision: locality
+  center: [31.9275, 34.8625]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هزيمة صلاح الدين بالرملة", en: "Saladin's Defeat at Ramla" }, at: [31.9275, 34.8625], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

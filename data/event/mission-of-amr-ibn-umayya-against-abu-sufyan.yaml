@@ -28,5 +28,14 @@ sides:
     commanders: [person/amr-ibn-umayya-al-damri, person/jabbar-ibn-sakhr]
   - label: { ar: "أبو سفيان وحرسه", en: "Abu Sufyan and his guard" }
     commanders: [person/abu-sufyan-ibn-harb]
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "بعث عمرو بن أمية الضمري لقتل أبي سفيان وما صنع في طريقه", en: "The dispatch of Amr ibn Umayya al-Damri to kill Abu Sufyan, and what he did on the way" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 282-284" }

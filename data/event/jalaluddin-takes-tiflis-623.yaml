@@ -23,5 +23,14 @@ sides:
   - label: { ar: "جيش جلال الدين منكبرتي بن خوارزم شاه", en: "جلال الدين منكبرتي بن خوارزم شاه's army" }
     commanders: [person/jalal-al-din-khwarazmshah]
   - label: { ar: "تفليس", en: "Tiflis" }
+map:
+  kind: campaign
+  precision: locality
+  center: [41.7225, 44.7925]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح جلال الدين مدينة تفليس من الكرج", en: "Jalal al-Din takes the city of Tiflis from the Georgians" }, at: [41.7225, 44.7925], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

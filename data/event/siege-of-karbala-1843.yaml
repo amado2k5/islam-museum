@@ -19,6 +19,15 @@ sides:
     participants: [person/abd-al-majid-i-uthmani]
   - label: { ar: "حامية كربلاء", en: "The defenders of Karbala" }
     participants: [place/karbala]
+map:
+  kind: siege
+  precision: locality
+  center: [32.61603, 44.02488]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كربلاء ⁦(١٨٤٣)⁩", en: "Siege of Karbala (1843)" }, at: [32.61603, 44.02488], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q136400265

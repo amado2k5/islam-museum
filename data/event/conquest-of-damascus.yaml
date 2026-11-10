@@ -32,5 +32,14 @@ sides:
     commanders: [person/khalid-ibn-al-walid, person/abu-ubayda-ibn-al-jarrah]
   - label: { ar: "حامية دمشق والروم", en: "The Damascus garrison and the Byzantines" }
     participants: [person/heraclius]
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح دمشق", en: "The Conquest of Damascus" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

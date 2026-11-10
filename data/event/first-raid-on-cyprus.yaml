@@ -30,5 +30,14 @@ sides:
     participants: [person/uthman-ibn-affan]
   - label: { ar: "حامية قبرس", en: "The defenders of Cyprus" }
     participants: [place/qubrus]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.1264, 33.4299]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة قبرس الأولى", en: "The First Raid on Cyprus" }, at: [35.1264, 33.4299], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

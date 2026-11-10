@@ -20,6 +20,15 @@ sides:
   - label: { ar: "جيش عبد الرحمن بن سمرة", en: "Abd al-Rahman ibn Samura's army" }
     commanders: [person/abd-al-rahman-ibn-samura]
   - label: { ar: "كابل", en: "Kabul" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.532777777778, 69.165833333333]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سيرة ابن سمرة إلى كابل", en: "Ibn Samura's March to Kabul" }, at: [34.532777777778, 69.165833333333], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -30,5 +30,14 @@ sides:
   - label: { ar: "جيش المطيع لله الفضل بن المقتدر", en: "al-Muti li-llah al-Fadl ibn al-Muqtadir's army" }
     commanders: [person/al-muti-billah]
   - label: { ar: "بغداد", en: "Baghdad" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خلع معز الدولة المستكفي وسمله", en: "Mu'izz al-Dawla deposes and blinds al-Mustakfi" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/tajarib-al-umam-surush-v6]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

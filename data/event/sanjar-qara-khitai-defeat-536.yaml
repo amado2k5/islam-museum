@@ -23,5 +23,14 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-115
+map:
+  kind: battle
+  precision: locality
+  center: [39.6546, 66.9644]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هزيمة السلطان سنجر أمام الترك وراء النهر سنة 536", en: "Sultan Sanjar's defeat by the Turks beyond the river in 536" }, at: [39.6546, 66.9644], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -16,6 +16,15 @@ sides:
   - label: { ar: "جيش عبد الله بن عامر", en: "Abd Allah ibn Amir's army" }
     commanders: [person/abd-allah-ibn-amir, person/al-ahnaf-ibn-qays]
   - label: { ar: "قوهستان", en: "Quhistan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.25, 59.22]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "افتتاح ابن عامر خراسان", en: "Ibn Amir's Opening of Khurasan" }, at: [33.25, 59.22], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

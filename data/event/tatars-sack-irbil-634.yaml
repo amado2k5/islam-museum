@@ -18,6 +18,15 @@ relations:
   - { type: occurred_at, target: place/irbil, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: polity/mongol-empire, role: "الغازون", sources: [source/shadharat-dhahab] }
   - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+map:
+  kind: campaign
+  precision: locality
+  center: [44.01, 36.19]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ التتار أربل بالسيف سنة 634", en: "The Tatars Take Arbil by the Sword in 634 AH" }, at: [44.01, 36.19], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:

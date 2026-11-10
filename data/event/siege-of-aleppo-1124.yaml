@@ -17,6 +17,15 @@ date:
 sides:
   - label: { ar: "الصليبيون بقيادة بلدوين الثاني", en: "The Crusaders under Baldwin II" }
   - label: { ar: "حامية حلب بقيادة آق سنقر البرسقي", en: "The Aleppo garrison under Aqsunqur al-Bursuqi" }
+map:
+  kind: siege
+  precision: locality
+  center: [36.2012, 37.1612]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار حلب ⁦(١١٢٤)⁩", en: "Siege of Aleppo" }, at: [36.2012, 37.1612], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q60791275

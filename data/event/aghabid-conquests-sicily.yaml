@@ -20,5 +20,14 @@ provenance:
 sides:
   - label: { ar: "الجيوش الأغلبية", en: "The Aghlabid forces" }
   - label: { ar: "صقلية البيزنطية", en: "Byzantine Sicily" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.6, 14.0167]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتوح الأغالبة في صقلية", en: "The Aghlabids' Conquests in Sicily" }, at: [37.6, 14.0167], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; prose checked against the Ma'arif 1407 scan p. 329 in the local harvest workspace (Devin 2026 draft, OCR read by Apple Vision)" }

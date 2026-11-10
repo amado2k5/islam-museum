@@ -17,6 +17,15 @@ relations:
 sides:
   - label: { ar: "أراغون بقيادة خايمي الأول", en: "Aragon under James I" }
   - label: { ar: "حامية بلنسية", en: "The garrison of Valencia" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.4699, -0.3763]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط بلنسية بيد العدو", en: "The fall of Valencia to the enemy" }, at: [39.4699, -0.3763], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

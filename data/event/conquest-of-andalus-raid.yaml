@@ -21,5 +21,14 @@ sides:
   - label: { ar: "جيش عثمان بن عفان", en: "Uthman ibn Affan's army" }
     commanders: [person/uthman-ibn-affan]
   - label: { ar: "الأندلس", en: "al-Andalus" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37, -4]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة الأندلس الأولى", en: "the first raid on al-Andalus (27 AH)" }, at: [37, -4], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

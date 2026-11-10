@@ -23,6 +23,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية الشقيف أرنون", en: "The defenders of Shaqif Arnun (Beaufort)" }
     participants: [place/shaqif-arnun]
+map:
+  kind: campaign
+  precision: locality
+  center: [33.325, 35.5325]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح شقيف أرنون", en: "Shaqif Arnun — Beaufort falls" }, at: [33.325, 35.5325], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

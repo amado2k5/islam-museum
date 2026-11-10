@@ -16,6 +16,15 @@ sides:
   - label: { ar: "جيش مجاشع بن مسعود السلمي", en: "مجاشع بن مسعود السلمي's army" }
     commanders: [person/mujashi-ibn-masud-al-sulami, person/abd-allah-ibn-amir]
   - label: { ar: "كرمان", en: "Kirman" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.2839, 57.0834]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح كرمان", en: "Conquest of Kirman" }, at: [30.2839, 57.0834], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

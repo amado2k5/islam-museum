@@ -27,5 +27,14 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-91
+map:
+  kind: battle
+  precision: locality
+  center: [32.7922, 35.5312]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة الأقحوانة وقتل صالح بن مرداس", en: "The battle of al-Uqhuwana and the killing of Salih ibn Mirdas" }, at: [32.7922, 35.5312], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

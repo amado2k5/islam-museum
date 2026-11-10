@@ -20,6 +20,15 @@ sides:
   - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
   - label: { ar: "حامية لاهور", en: "The defenders of Lahore" }
     participants: [place/lahore]
+map:
+  kind: siege
+  precision: locality
+  center: [31.558, 74.3507]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "المغول يأخذون لاهور ويسلبونها، ٦٣٩هـ/١٢٤١م", en: "The Mongols take and sack Lahore, 639/1241" }, at: [31.558, 74.3507], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q136458748

@@ -13,6 +13,15 @@ regions: [levant-iraq]
 date:
   start: { edtf: "2016-02-11", precision: year, status: tradition, derived: true }
   end: { edtf: "2016-03-05", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.95, 39.01]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هجوم أثريا–الرقة", en: "Ithriyah–Raqqa offensive" }, at: [35.95, 39.01], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q22935616

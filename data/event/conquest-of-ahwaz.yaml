@@ -24,6 +24,15 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية الأهواز", en: "The defenders of al-Ahwaz" }
     participants: [place/al-ahwaz]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.32, 48.67]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الأهواز ومناذر ونهر تيرى", en: "Conquest of al-Ahwaz, Manadhir and Nahr Tiri (16 AH)" }, at: [31.32, 48.67], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

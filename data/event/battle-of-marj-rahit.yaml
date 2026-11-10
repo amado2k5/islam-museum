@@ -17,6 +17,15 @@ sides:
   - label: { ar: "جموع قيس بقيادة الضحاك", en: "The Qays party under al-Dahhak" }
     commanders: [person/al-dahhak-ibn-qays-al-fihri]
   - label: { ar: "جموع اليمن - الكلبيون", en: "The Yemen party (the Kalb)" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "موقعة مرج راهط", en: "Battle of Marj Rahit" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/umayyad-birth-to-fall-2006, source/bakr-umayyad-state-1134715, source/tarikh-khalifa-umari-1985]
 provenance: { layer: own-research, source: "umayyad-birth-to-fall-2006 p. 30", generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 30", run: "lib-tarikh-khalifa-batch-3-2026-10-31 (enrichment)" }
 status: { review: published, completeness: 1, generated_by: "Claude (subagent), extracted from umayyad-birth-to-fall-2006 p. 30; the place relation is inferred from the book's 'east of Damascus'" }

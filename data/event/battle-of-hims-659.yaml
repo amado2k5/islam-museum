@@ -20,5 +20,14 @@ provenance:
 sides:
   - label: { ar: "قوات حماة وحلب بقيادة حسام الدين", en: "The Hamah and Aleppo forces under Husam al-Din" }
   - label: { ar: "بقايا التتار", en: "The Tatar remnants" }
+map:
+  kind: battle
+  precision: locality
+  center: [34.733333333333, 36.716666666667]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة حمص سنة 659هـ", en: "Battle of Homs in 659 AH" }, at: [34.733333333333, 36.716666666667], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
