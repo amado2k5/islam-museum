@@ -50,6 +50,7 @@ open a new block on top with the new version and today's date.
 
 ### Changed
 - **Landing card motif for Seerah & Life.** The landing-page card now carries a custom motif — a gold sun over a winding teal path, the Seerah read as a path of life — in the same abstract, figurative-free style as the other explorer thumbnails, plus a `wing-living` accent colour.
+- **Requirements spec for Seerah & Life.** `docs/engineering/21-seerah-life-planner-requirements.md` records the founder's brief and the full acceptance spec — functional, content, language, surfacing, accessibility and a 17-row production checklist — so any agent can validate the live site against what was asked.
 
 ---
 
