@@ -17,19 +17,21 @@ story_roles:
   - { role: convert, status: tradition, note: "من السابقين الأولين في عدّ الرحيق المختوم ص76.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: sunni, basis: tradition, note: "من أوائل المسلمين؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
-died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "0656", hijri: "0036", calendar: julian, precision: year, status: debated, derived: true, note: "Died 36 AH in Ali's caliphate, aged sixty-eight; Ibn Hibban reports 56 AH (al-Isaba p. 1215); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: sibling_of, target: person/uthman-ibn-mazun, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/banu-jumah, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخيه عثمان", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: participated_in, target: event/battle-of-badr, note: "of the people of Badr (al-Isaba p. 1215)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "الرحيق المختوم ص74–77 نقلاً عن ابن هشام 1/245–262 ورحمة للعالمين 1/50 ومختصر سيرة الرسول للنجدي ص88 وفقه السيرة ص76 وصحيح البخاري 1/530"
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-7b"
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 external_ids: { wikidata: "Q6830647" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 76" }

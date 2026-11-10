@@ -12,7 +12,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
-died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Badr, killed by Ikrima ibn Abi Jahl (al-Isaba p. 449); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Badr, killed by Ikrima ibn Abi Jahl (Musa ibn Uqba and Ibn Ishaq, al-Isaba p. 449); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
@@ -20,6 +20,10 @@ relations:
   - { type: member_of, target: group/ansar, note: "al-Isaba p. 449", sources: [source/ibn-hajar-isaba] }
   - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 449", sources: [source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 449", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 449", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 449", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 449", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12212990
 provenance:
