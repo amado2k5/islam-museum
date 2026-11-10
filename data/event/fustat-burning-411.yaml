@@ -14,6 +14,8 @@ date:
 relations:
   - { type: occurred_at, target: place/al-fustat, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "آمر الجنود", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-zahir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة ٤١١)، قراءة آبل فيجن، مسح AAlexandrina-224011"

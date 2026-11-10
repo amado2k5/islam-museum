@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/farewell-pilgrimage }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "ماذا قصد النبي بقوله «من كنت مولاه فعلي مولاه» في غدير خم؟", en: "What did the Prophet mean at Ghadir Khumm by saying that whoever he was the mawla of, Ali is his mawla?" }
 perspectives:
   - tradition: sunni
