@@ -1,0 +1,17 @@
+---
+// One Education Browser connection card: a scholar, invention, story, verse or career placed beside a curriculum lesson.
+import { byId, href, labelOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+
+interface Props { c: any; lang: Lang }
+const { c, lang } = Astro.props;
+const T = ui(lang);
+const kindLabel = T.learn?.kinds?.[c.kind] ?? c.kind;
+const target = c.entity ? byId.get(c.entity) : undefined;
+---
+<aside class="conn-card" data-kind={c.kind} style="background:var(--bg);padding:12px 16px;border:1px solid var(--line);border-inline-start:4px solid var(--gold);border-radius:10px">
+  <p class="ui" style="font-size:.8rem;margin:0 0 4px;color:var(--muted);letter-spacing:.04em">{kindLabel}{c.ref && <> · <span class="ltr" dir="ltr">{c.ref}</span></>}</p>
+  <h3 style="margin:0 0 6px;font-size:1.05rem">{c.title[lang] ?? c.title.en}</h3>
+  <p style="margin:0;font-size:.95rem;max-width:var(--measure)">{c.text[lang] ?? c.text.en}</p>
+  {target && <p class="ui" style="margin:8px 0 0"><a class={`chip${target.stub ? " stub-link" : ""}`} href={href(lang, c.entity)}>{labelOf(target, lang)}</a></p>}
+</aside>

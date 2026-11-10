@@ -23,7 +23,8 @@ const T = ui(lang);
 
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
     <ul class="grid-cards" style="margin-bottom:3.5rem">
-      {(["questions", "exhibits", "screen", "themes"] as const).map((k) => (
+      <li><a class="card" href={wingHref(lang, "place")}><b style="border-inline-start:4px solid var(--gold);padding-inline-start:10px">{T.entrances.map.title}</b><span>{T.entrances.map.blurb}</span></a></li>
+      {(["questions", "exhibits", "screen", "themes", "learn"] as const).map((k) => (
         <li><a class="card" href={`/${lang}/${k}/`}><b>{T.entrances[k].title}</b><span>{T.entrances[k].blurb}</span></a></li>
       ))}
     </ul>

@@ -4,6 +4,8 @@ import { parse } from "yaml";
 
 // Arabic first (docs/language.md): the site publishes Arabic only through Phase 3. Add "en" here, in astro.config.mjs and in scripts/lib.ts PUBLISHED_LANGS when the English translation ships (Phase 4).
 export const LANGS = ["ar"] as const;
+// The Education Browser (course entities + /learn/ pages) ships English early; the rest of the site stays Arabic until Phase 4.
+export const LEARN_LANGS = ["ar", "en"] as const;
 export const ALL_LANGS = ["ar", "en"] as const;
 export type Lang = "ar" | "en";
 export const other = (l: Lang): Lang => (l === "en" ? "ar" : "en");

@@ -1,11 +1,13 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import DepthDial from "../components/DepthDial.svelte";
+import ConnCard from "../components/ConnCard.astro";
 import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
 import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
-import { ui, other, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, other, fmt, LANGS, LEARN_LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { nodes } from "../lib/graph";
 import { renderProse } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
@@ -79,20 +81,30 @@ const bibliography = (s: Node) => {
   return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, "en")}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
 };
 
-const alternates = Object.fromEntries(LANGS.map((l) => [l, href(l, n.id)]));
+const alternates = Object.fromEntries((n.class === "course" ? LEARN_LANGS : LANGS).map((l) => [l, href(l, n.id)]));
 const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))])].filter((x) => x !== title);
 const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
 const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: buildDate });
 const relatedIds = related(n.id).filter((r) => byId.has(r));
 const reviewStatus = d.status?.review ?? "draft";
+
+// --- Education Browser (course) data
+const courseChildren = n.class === "course"
+  ? nodes.filter((m) => m.data?.part_of === n.id || (d.lessons ?? []).includes(m.id)).sort((a, b) => (a.data?.order ?? 99) - (b.data?.order ?? 99))
+  : [];
+const connCards = (pos: string) => (d.connections ?? []).filter((c: any) => (c.position ?? "within") === pos);
+const connLabel = (k: string) => T.learn?.kinds?.[k] ?? k;
+const parentNode = n.class === "course" && d.part_of ? byId.get(d.part_of) : undefined;
 ---
 <BaseLayout lang={lang} title={title} description={summaryOf(n, lang)} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
   <article id="entity-article" class="wrap" data-depth="standard" data-pagefind-body style="padding-block:10px 20px">
     <nav class="ui muted no-print" aria-label={T.entity.breadcrumb} style="font-size:.88rem;margin-bottom:14px">
       <a href={`/${lang}/`} style="color:inherit">{T.entity.breadcrumb}</a>
       {wingChips[0] && <> › <a href={wingHref(lang, wingChips[0] as any)} style="color:inherit">{T.nav[wingChips[0]]}</a></>}
-      › <span>{T.class[n.class]}</span>
+      {n.class === "course" && <> › <a href={`/${lang}/learn/`} style="color:inherit">{T.nav.learn}</a></>}
+      › <span>{n.class === "course" ? (T.class[n.class] ?? n.class) : T.class[n.class]}</span>
+      {parentNode && <> › <a href={href(lang, parentNode.id)} style="color:inherit">{labelOf(parentNode, lang)}</a></>}
     </nav>
 
     <header style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:12px">
@@ -145,26 +157,59 @@ const reviewStatus = d.status?.review ?? "draft";
 
         <Extras node={n} lang={lang} />
 
+        {n.class === "course" && d.expectations?.length > 0 && (
+          <section class="panel ui" aria-labelledby="expectations" style="margin-block:1.5rem">
+            <h2 id="expectations" style="font-size:1rem;margin:0 0 8px">{T.learn.expectations}</h2>
+            <ul style="margin:0;padding-inline-start:20px">
+              {d.expectations.map((e: any) => <li style="margin-block:4px"><code class="ltr" dir="ltr">{e.code}</code> — {e.text[lang] ?? e.text.en}</li>)}
+            </ul>
+          </section>
+        )}
+
+        {n.class === "course" && courseChildren.length > 0 && (
+          <section class="sec" aria-labelledby="course-children" style="margin-block:1.5rem">
+            <h2 id="course-children">{d.kind === "unit" ? T.learn.lessons : T.learn.units}</h2>
+            <ul class="grid-cards" style="list-style:none;padding:0">
+              {courseChildren.map((m) => (
+                <li><a class="card" href={href(lang, m.id)}><b>{labelOf(m, lang)}</b><span>{summaryOf(m, lang)}</span></a></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {n.class === "course" && connCards("before").length > 0 && (
+          <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("before").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>
+        )}
+
         {untranslated && (
           <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>
         )}
 
         <div class="prose" lang={proseLang ?? lang} dir={proseLang === "ar" ? "rtl" : "ltr"}>
           {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
-          {sectionHtml.map((s) =>
-            s.role === "kids" || s.role === "scholars" ? (
-              <details data-role={s.role} class="sec" style="margin-block:1rem">
-                <summary style="cursor:pointer;font-weight:600"><span class="ui">{s.heading}</span></summary>
-                <div set:html={s.html} />
-              </details>
-            ) : (
-              <section data-role={s.role} class="sec">
-                <h2>{s.heading}</h2>
-                <div set:html={s.html} />
-              </section>
-            ),
-          )}
+          {sectionHtml.map((s, i) => (
+            <>
+              {s.role === "kids" || s.role === "scholars" ? (
+                <details data-role={s.role} class="sec" style="margin-block:1rem">
+                  <summary style="cursor:pointer;font-weight:600"><span class="ui">{s.heading}</span></summary>
+                  <div set:html={s.html} />
+                </details>
+              ) : (
+                <section data-role={s.role} class="sec">
+                  <h2>{s.heading}</h2>
+                  <div set:html={s.html} />
+                </section>
+              )}
+              {i === 0 && connCards("within").length > 0 && (
+                <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("within").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>
+              )}
+            </>
+          ))}
         </div>
+
+        {n.class === "course" && connCards("after").length > 0 && (
+          <div style="display:grid;gap:14px;margin-block:1.5rem">{connCards("after").map((c: any) => <ConnCard c={c} lang={lang} />)}</div>
+        )}
 
         {perspectives.length > 0 && (
           <section data-role="main" class="sec" aria-labelledby="persp">

@@ -22,7 +22,9 @@ export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => n.summary[lan
 export const SEGMENT: Record<string, string> = { question: "questions", exhibit: "exhibits" };
 export const href = (lang: Lang, id: string) => {
   const [cls, slug] = id.split("/");
-  return `/${lang}/${SEGMENT[cls] ?? cls}/${slug}/`;
+  // English is published only for the Education Browser (course/learn) until Phase 4; everything else falls back to Arabic.
+  const l = lang === "en" && cls !== "course" ? "ar" : lang;
+  return `/${l}/${SEGMENT[cls] ?? cls}/${slug}/`;
 };
 
 export const REPO = "https://github.com/amado2k5/islam-museum";

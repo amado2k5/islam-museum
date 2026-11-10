@@ -21,6 +21,8 @@ nav:
   coverage: التغطية
   screen: قاعة العرض
   themes: المحاور
+  map: الخريطة
+  learn: تعلّم
 a11y:
   skip: تخطَّ إلى المحتوى
   theme: تبديل الوضع الداكن
@@ -154,6 +156,7 @@ class:
   source: مصدر
   dataset: مجموعة بيانات
   listing: مُدرَج
+  course: مقرر
 search:
   title: بحث
   placeholder: ابحث في المتحف
@@ -254,7 +257,10 @@ roles:
   victim: ضحية
   witness: شاهد
 entrances:
-  title: أربعة مداخل
+  title: مداخل المتحف
+  map:
+    title: الخريطة
+    blurb: عارض تفاعلي للأماكن والشخصيات والأحداث عبر الزمن.
   questions:
     title: أسئلة
     blurb: إجابات واضحة للقادمين الجدد.
@@ -267,6 +273,9 @@ entrances:
   themes:
     title: المحاور
     blurb: المرأة والحرب والطب والطعام والإحسان ومئة وعشرون محورًا آخر عبر الأجنحة.
+  learn:
+    title: للطلاب
+    blurb: منهجك المدرسي، وقد أُعيد نسج الخيوط الإسلامية فيه.
 themes:
   title: المحاور
   lede: موضوعات تقطع كل الأجنحة، من المرأة والأقليات إلى الحرب والإحسان والطعام والعلم.
@@ -385,3 +394,31 @@ map:
     locality: موضع محلي
     approximate: تقريبي
     schematic: المواقع تخطيطية
+
+learn:
+  title: متصفح التعليم
+  lede: اختر بلدك ومقاطعتك وصفك ومادتك — والقِ العلماء المسلمين والاختراعات والقصص والآيات التي تلتحم بكل درس.
+  country: البلد
+  region: المقاطعة / الولاية
+  board: مجلس المدرسة
+  grade: الصف
+  subject: المادة
+  open: افتح المنهج
+  units: الوحدات
+  lessons: الدروس
+  lesson: درس
+  expectations: توقعات المنهاج
+  part_of: جزء من
+  back_to_picker: اختر مقررًا آخر
+  connections_title: وصلات إسلامية
+  noscript: يحتاج منتقي المقررات إلى جافاسكربت. تصفح المقررات مباشرة أدناه.
+  kinds:
+    reflection: تأمل
+    story: قصة
+    scholar: عالم
+    invention: اختراع
+    career: مهنة
+    quran: قرآن
+    hadith: حديث
+    place: مكان
+    object: أثر

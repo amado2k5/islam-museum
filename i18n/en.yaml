@@ -21,6 +21,7 @@ nav:
   coverage: Coverage
   screen: Screening Room
   themes: Themes
+  learn: Learn
 a11y:
   skip: Skip to content
   theme: Toggle dark mode
@@ -154,6 +155,7 @@ class:
   source: Source
   dataset: Dataset
   listing: Listing
+  course: Course
 search:
   title: Search
   placeholder: Search the museum
@@ -267,6 +269,9 @@ entrances:
   themes:
     title: Themes
     blurb: Women, war, medicine, food, charity and 120 more, across every wing.
+  learn:
+    title: For students
+    blurb: Your school syllabus, with the Muslim threads woven back in.
 themes:
   title: Themes
   lede: Subjects that cut across every wing, from women and minorities to war, charity, food and science.
@@ -385,3 +390,31 @@ map:
     locality: locality
     approximate: approximate
     schematic: positions schematic
+
+learn:
+  title: Education Browser
+  lede: Pick your country, province, grade and subject — and meet the Muslim scholars, inventions, stories and verses that belong beside every lesson.
+  country: Country
+  region: Province / state
+  board: Board
+  grade: Grade
+  subject: Subject
+  open: Open the syllabus
+  units: Units
+  lessons: Lessons
+  lesson: Lesson
+  expectations: Curriculum expectations
+  part_of: Part of
+  back_to_picker: Choose another course
+  connections_title: Muslim connections
+  noscript: The course picker needs JavaScript. Browse the courses directly below.
+  kinds:
+    reflection: Reflection
+    story: Story
+    scholar: Scholar
+    invention: Invention
+    career: Careers
+    quran: "Qur'an"
+    hadith: Hadith
+    place: Place
+    object: Object
