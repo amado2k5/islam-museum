@@ -18,7 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
-died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at al-Harra, 63 AH (Ibn Sa'd and Abu Ahmad al-Hakim); Ibn Hibban has him live sixty-nine years (al-Isaba p. 1425); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: debated, derived: true, note: "Killed on the day of al-Harra, 63 AH (Ibn Sa'd); Ibn Hibban has him live sixty-nine years (al-Isaba p. 1425); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/medina
@@ -49,6 +49,11 @@ relations:
   note: "al-Isaba p. 1425"
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1425"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12243675
 provenance:

@@ -19,14 +19,16 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0612~" }, note: "صحابي بدري من السابقين الأولين." }
 born: { edtf: "600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
-died: { edtf: "655", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0654", hijri: "0034", calendar: julian, precision: year, status: debated, derived: true, note: "Died 34 AH in Uthman's caliphate; another report has him live to Ali's, fight at Siffin and die 37 AH (al-Isaba p. 1402); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/mecca }
   - { type: member_of, target: group/muhajirun }
   - { type: participated_in, target: event/incident-of-the-slander, role: "خاض في الإفك وجُلد ونزل فيه العفو", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: member_of, target: group/quraysh, note: "of Banu al-Muttalib ibn Abd Manaf (al-Isaba p. 1402)", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q6857050" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }
 provenance:
   layer: own-research
