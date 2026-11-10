@@ -15,6 +15,9 @@ died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/medina, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+  - { type: member_of, target: group/ansar, note: "al-Isti'ab p. 943", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: member_of, target: group/muhajirun, note: "of the first emigrant women who gave the pledge (al-Isti'ab p. 943)", sources: [source/isti-ab-ibn-abd-al-barr] }
+
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/isti-ab-ibn-abd-al-barr]
 provenance: { layer: own-research, source: "الموسوعة الفقهية الكويتية، ملحق تراجم الفقهاء، ج11 ص5161", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "mawsua-w03-41" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); appendix p.5161; dates not given in the source" }
