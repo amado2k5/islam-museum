@@ -44,6 +44,19 @@ relations:
   target: event/pledges-of-aqaba
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 449"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "of Banu Zurayq (al-Isaba p. 449)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/second-pledge-of-aqaba
+  note: "brought the revelation of the first ten years to his people, who built Medina's earliest mosque (al-Isaba p. 449)"
+  sources: [source/ibn-hajar-isaba]
+
 issue:
   ar: هل شهد رافع بن مالك بدراً؟
   en: Was Rafi' ibn Malik at Badr?

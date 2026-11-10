@@ -26,13 +26,15 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: lived_in, target: place/abyssinia, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "an early Muslim of Mecca before Dar al-Arqam; emigrated to Abyssinia and bore al-Muttalib ibn Azhar his son Abdullah, first heir in Islam (Ibn Ishaq and Ibn Sa'd, al-Isaba pp. 1875-1876)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch117
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3
