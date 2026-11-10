@@ -443,7 +443,7 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
 
     // ---- references inside structured fields (story roles, sides, tensions, locations ...)
     const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
-      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related",
+      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related", "lessons", "entity",
       "host", "occasion", "moderator", "co_speakers", "who", "by",
       "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice",
       "person", "invention", "via", "examples", "sites", "concepts", "described_in", "image", "diagram", "map",

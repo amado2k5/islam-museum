@@ -270,6 +270,7 @@ class:
   job: "Job"
   invention: Invention
   award: Award
+  course: Course
 modernSections:
   web: 'Websites, apps, games and devices'
   music: 'Music and nasheed'
@@ -3544,3 +3545,30 @@ decisions:
   precedent: "Precedent"
   needs_precedent: "No rule or precedent matched — held at the conservative default until a precedent exists."
   empty: "No decision records yet."
+
+syllabus:
+  title: Syllabus Browser
+  lede: Pick your country, province, grade and subject — and meet the Muslim scholars, inventions, stories and verses that belong beside every lesson.
+  country: Country
+  region: Province / state
+  board: Board
+  grade: Grade
+  subject: Subject
+  open: Open the syllabus
+  units: Units
+  lessons: Lessons
+  lesson: Lesson
+  expectations: Curriculum expectations
+  part_of: Part of
+  back_to_picker: Choose another course
+  noscript: The course picker needs JavaScript. Browse the courses directly below.
+  kinds:
+    reflection: Reflection
+    story: Story
+    scholar: Scholar
+    invention: Invention
+    career: Careers
+    quran: "Qur'an"
+    hadith: Hadith
+    place: Place
+    object: Object

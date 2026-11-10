@@ -1,0 +1,56 @@
+id: course/ca-on-g6-sci-space-3
+class: course
+kind: lesson
+label:
+  en: Mapping the stars
+  ar: رسم خريطة النجوم
+summary:
+  en: Constellations, navigating by the sky, and how astronomers built better models.
+  ar: الأبراج والاهتداء بالسماء، وكيف بنا الفلكيون نماذج أدق.
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+part_of: course/ca-on-g6-sci-space
+expectations:
+- code: E2.4
+  text:
+    en: Describe how people have used the sky for navigation and timekeeping
+    ar: Describe how people have used the sky for navigation and timekeeping
+connections:
+- position: within
+  kind: story
+  title:
+    en: Half the sky speaks Arabic
+    ar: نصف السماء يتكلم العربية
+  text:
+    en: Betelgeuse (bayt al-jawza), Aldebaran (al-dabaran), Algol (al-ghul), Vega (al-nasr al-waqi) — most bright-star names in your textbook are Arabic, fossilized from the era when Muslim astronomers
+      mapped the sky.
+    ar: بيت الجوزاء والدبران والغول والنسر الواقع — معظم أسماء النجوم اللامعة في كتابك عربية الأصل، متحجرة من زمن رسم فيه فلكيو المسلمين السماء.
+  sources:
+  - source/hill-1993
+- position: within
+  kind: scholar
+  title:
+    en: The model Copernicus borrowed
+    ar: النموذج الذي استعاره كوبرنيك
+  text:
+    en: Ibn al-Shatir of Damascus rebuilt planetary models to remove Ptolemy's fudge factors; a century and a half later Copernicus used strikingly similar mathematics. Ideas travel — good ones far.
+    ar: أعاد ابن الشاطر الدمشقي بناء نماذج الكواكب ليزيل الترقيعات البطلمية؛ وبعد نحو قرن ونصف استخدم كوبرنيك رياضيات شديدة الشبه. الأفكار تسافر — والجيدة منها بعيدًا.
+  entity: person/ibn-al-shatir
+  sources:
+  - source/hill-1993
+- position: after
+  kind: place
+  title:
+    en: The observatory mountain
+    ar: جبل المرصد
+  text:
+    en: At Maragha (1259), astronomers worked in a purpose-built observatory — library, instruments, and scholars from several faiths under one dome of sky.
+    ar: في مراغة (1259م) عمل الفلكيون في مرصد بُني لغايته — مكتبة وآلات وعلماء من أديان شتى تحت قبة سماء واحدة.
+  entity: building/maragha-observatory
+  sources:
+  - source/hill-1993
+order: 3

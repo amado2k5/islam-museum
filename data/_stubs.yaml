@@ -1,125 +1,45 @@
-# Wanted entities referenced but not yet written. They render as a gentle 'not yet in the museum' placeholder
-# and feed the coverage map. Move an entry out of here by writing data/<class>/<slug>.yaml.
-- { id: building/avicenna-mausoleum-hamadan, label: { en: "Mausoleum of Ibn Sina, Hamadan" } }
-- { id: person/ala-al-dawla-muhammad, label: { en: "Ala al-Dawla Muhammad" } }
-- { id: person/aristotle, label: { en: "Aristotle" } }
-- { id: person/al-ghazali, label: { en: "al-Ghazali" } }
-- { id: person/thomas-aquinas, label: { en: "Thomas Aquinas" } }
-- { id: concept/logic, label: { en: "Logic (mantiq)" } }
-# Stubs for the al-Raheeq mining, batch 1 (Badr pp. 204–233) — remove each line as the entity is written.
-- { id: person/ibn-umm-maktum, label: { ar: "عبد الله بن أم مكتوم", en: "Abdullah ibn Umm Maktum" } }
-- { id: person/damdam-ibn-amr, label: { ar: "ضمضم بن عمرو الغفاري", en: "Damdum ibn Amr al-Ghifari" } }
-- { id: person/amir-ibn-al-hadrami, label: { ar: "عامر بن الحضرمي", en: "Amir ibn al-Hadrami" } }
-- { id: person/saraqa-ibn-malik, label: { ar: "سراقة بن مالك المدلجي", en: "Suraqa ibn Malik al-Mudliji" } }
-- { id: person/shayba-ibn-rabia, label: { ar: "شيبة بن ربيعة", en: "Shayba ibn Rabi'a" } }
-- { id: person/al-walid-ibn-utba, label: { ar: "الوليد بن عتبة", en: "al-Walid ibn Utba" } }
-- { id: person/al-aswad-ibn-abd-al-asad, label: { ar: "الأسود بن عبد الأسد", en: "al-Aswad ibn Abd al-Asad" } }
-- { id: person/al-mujadhdhar-ibn-ziyad, label: { ar: "المجذر بن زياد البلوي", en: "al-Mujadhdhar ibn Ziyad al-Balawi" } }
-- { id: person/ali-ibn-umayya, label: { ar: "علي بن أمية بن خلف", en: "Ali ibn Umayya ibn Khalaf" } }
-- { id: person/al-as-ibn-hisham, label: { ar: "العاص بن هشام", en: "al-As ibn Hisham" } }
-- { id: person/ukkasha-ibn-mihsan, label: { ar: "عكاشة بن محصن", en: "Ukkasha ibn Mihsan" } }
-- { id: person/abu-aziz-ibn-umayr, label: { ar: "أبو عزيز بن عمير", en: "Abu Aziz ibn Umayr" } }
-- { id: person/al-aswad-ibn-al-muttalib, label: { ar: "الأسود بن المطلب", en: "al-Aswad ibn al-Muttalib" } }
-- { id: person/al-haysuman-al-khuzai, label: { ar: "الحيسمان بن عبد الله الخزاعي", en: "al-Haysuman ibn Abdillah al-Khuza'i" } }
-- { id: person/abu-rafi, label: { ar: "أبو رافع مولى رسول الله", en: "Abu Rafi" } }
-- { id: person/umm-al-fadl, label: { ar: "أم الفضل لبابة الكبرى", en: "Umm al-Fadl Lubaba al-Kubra" } }
-- { id: person/abdullah-ibn-rawaha, label: { ar: "عبد الله بن رواحة", en: "Abdullah ibn Rawaha" } }
-- { id: person/saad-ibn-al-numan, label: { ar: "سعد بن النعمان", en: "Sa'd ibn al-Nu'man" } }
-- { id: person/amr-ibn-abi-sufyan, label: { ar: "عمرو بن أبي سفيان", en: "Amr ibn Abi Sufyan" } }
-- { id: person/al-muttalib-ibn-hantab, label: { ar: "المطلب بن حنطب", en: "al-Muttalib ibn Hantab" } }
-- { id: person/sayfi-ibn-abi-rifaa, label: { ar: "صيفي بن أبي رفاعة", en: "Sayfi ibn Abi Rifa'a" } }
-- { id: person/salama-ibn-salama, label: { ar: "سلمة بن سلامة", en: "Salama ibn Salama" } }
-- { id: person/abdullah-ibn-kaab, label: { ar: "عبد الله بن كعب", en: "Abdullah ibn Ka'b" } }
-- { id: person/bisbas-ibn-amr, label: { ar: "بسباس بن عمرو الجهني", en: "Bisbas ibn Amr al-Juhani" } }
-- { id: person/uday-ibn-abi-al-zaghba, label: { ar: "عدي بن أبي الزغباء الجهني", en: "Uday ibn Abi al-Zaghba" } }
-- { id: person/marthad-ibn-abi-marthad, label: { ar: "مرثد بن أبي مرثد الغنوي", en: "Marthad ibn Abi Marthad al-Ghanawi" } }
-- { id: person/ibn-amir-al-hadrami, label: { ar: "عمرو بن الحضرمي", en: "Amr ibn al-Hadrami" } }
-- { id: place/al-naziya, label: { ar: "النازية", en: "al-Naziya" } }
-- { id: place/madiq-al-safra, label: { ar: "مضيق الصفراء", en: "Madiq al-Safra" } }
-- { id: place/al-asafir, label: { ar: "ثنايا الأصافير", en: "al-Asafir passes" } }
-- { id: place/al-hanan, label: { ar: "الحنان", en: "al-Hanan" } }
-- { id: place/al-udwa-al-quswa, label: { ar: "العدوة القصوى", en: "al-Udwa al-Quswa" } }
-- { id: place/al-udwa-al-dunya, label: { ar: "العدوة الدنيا", en: "al-Udwa al-Dunya" } }
-- { id: place/qadid, label: { ar: "قديد", en: "Qadid" } }
-- { id: place/irq-al-zubya, label: { ar: "عرق الظبية", en: "Irq al-Zubya" } }
-- { id: place/al-hawra, label: { ar: "الحوراء", en: "al-Hawra" } }
-- { id: place/batn-yajij, label: { ar: "بطن يأجج", en: "Batn Ya'juj" } }
-- { id: place/arq-al-dhubya, label: { ar: "عرق الظبية", en: "Arq al-Dhubya" } }
-# Stubs for the Ibn Hisham mining, batch 1a (Fath causes, printed pp. 31–41) — remove each line as the entity is written.
-- { id: person/munabbih, label: { ar: "منبه", en: "Munabbih" } }
-- { id: person/salma-al-dili, label: { ar: "سلمى الديلي", en: "Salma al-Dili" } }
-- { id: person/kulthum-al-dili, label: { ar: "كلثوم الديلي", en: "Kulthum al-Dili" } }
-- { id: person/dhuayb-al-dili, label: { ar: "ذؤيب الديلي", en: "Dhu'ayb al-Dili" } }
-- { id: person/hubayb-ibn-abdullah-al-alam, label: { ar: "حبيب بن عبد الله الأعلم الهذلي", en: "Hubayb ibn Abdullah al-A'lam al-Hudhali" } }
-- { id: person/rafi-mawla-khuzaa, label: { ar: "رافع مولى خزاعة", en: "Rafi', mawla of Khuza'a" } }
-- { id: group/banu-al-hadrami, label: { ar: "بنو الحضرمي", en: "Banu al-Hadrami" } }
-- { id: group/banu-al-aswad-b-razn, label: { ar: "بنو الأسود بن رزن", en: "Banu al-Aswad ibn Razn" } }
-- { id: group/banu-kab-ibn-khuzaa, label: { ar: "بنو كعب بن خزاعة", en: "Banu Ka'b ibn Khuza'a" } }
-- { id: person/abu-mabad, label: { ar: "أبو معبد الخزاعي", en: "Abu Ma'bad al-Khuza'i" } }
-- { id: person/tuayma-ibn-adi, label: { ar: "طعيمة بن عدي", en: "Tu'ayma ibn Adi" } }
-- { id: person/ubayy-ibn-khalaf, label: { ar: "أُبيّ بن خلف", en: "Ubayy ibn Khalaf" } }
-- { id: person/nubayh-ibn-al-hajjaj, label: { ar: "نبيه بن الحجاج", en: "Nubayh ibn al-Hajjaj" } }
-- { id: person/munabbih-ibn-al-hajjaj, label: { ar: "منبه بن الحجاج", en: "Munabbih ibn al-Hajjaj" } }
-- { id: group/banu-mudlij, label: { ar: "بنو مدلج", en: "Banu Mudlij" } }
-- { id: group/banu-salim, label: { ar: "بنو سالم بن عوف", en: "Banu Salim ibn Awf" } }
 
-- { id: person/al-khattab-ibn-nufayl, label: { ar: "الخطاب بن نفيل", en: "al-Khattab ibn Nufayl" }, note: "Father of Umar and Fatima" }
-- { id: person/amr-ibn-nufayl, label: { ar: "عمرو بن نفيل", en: "Amr ibn Nufayl" }, note: "Meccan monotheist" }
-- { id: person/utba-ibn-abi-lahab, label: { ar: "عتبة بن أبي لهب", en: "Utba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Ruqayya" }
-- { id: person/utayba-ibn-abi-lahab, label: { ar: "عتيبة بن أبي لهب", en: "Utayba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Umm Kulthum" }
-- { id: person/al-nahdiyya, label: { ar: "النهدية", en: "al-Nahdiyya" }, note: "Slave woman freed by Abu Bakr with her daughter" }
-- { id: person/umm-anmar, label: { ar: "أم أنمار", en: "Umm Anmar" }, note: "Khabbab's mistress" }
-- { id: person/amar-ibn-al-walid, label: { ar: "عمارة بن الوليد", en: "Amara ibn al-Walid" }, note: "Whom Quraysh offered in exchange" }
-- { id: person/jaria-banu-muammal, label: { ar: "جارية بني مؤمل", en: "Slave girl of Banu Mu'ammal" }, note: "Freed by Abu Bakr" }
-- { id: person/abdullah-ibn-judan-freedwoman, label: { ar: "مولاة عبد الله بن جدعان", en: "Freedwoman of Ibn Jud'an" }, note: "Told Hamza of Abu Jahl's insult" }
-- { id: group/banu-aslam, label: { ar: "بنو أسلم", en: "Banu Aslam" } }
-- { id: group/muzayna, label: { ar: "مزينة", en: "Muzayna" } }
-- { id: person/mansur-ibn-ikrima, label: { ar: "منصور بن عكرمة", en: "Mansur ibn Ikrima" }, note: "الذي كَتَبَ صحيفة مقاطعة بني هاشم فدعا عليه النبي فشُلت يده فيما يروى" }
-- { id: person/ramla-bint-al-harith, label: { ar: "رملة بنت الحارث", en: "Ramla bint al-Harith" }, note: "صاحبة الدار التي أُنزل فيها سبي بني تميم بالمدينة" }
-- { id: group/aws, label: { ar: "الأوس", en: "Banu Aws" }, note: "إحدى قبيلتي الأنصار بيثرب مع الخزرج" }
-# Added by the ibn-hisham lane (batch: return from Abyssinia); restored the file after a commit replaced all earlier stubs with this fragment
-- { id: person/sinan-ibn-abi-sinan-al-asadi, label: { ar: "سنان بن أبي سنان الأسدي", en: "Sinan ibn Abi Sinan al-Asadi" }, note: "صحابي بدري أول من بايع بيعة الرضوان تحت الشجرة" }
-# Added by the raheeq lane (batch 20: hunayn and ta'if, pp. 412-423)
-- { id: person/masud-ibn-amr-al-ghifari, label: { ar: "مسعود بن عمرو الغفاري", en: "Mas'ud ibn Amr al-Ghifari" }, note: "أمين الغنائم المحبوسة بالجعرانة بعد حنين" }
-# Added by the raheeq lane (batch 22: hajj of Abu Bakr and the delegations, pp. 440-457)
-- { id: group/daws, label: { ar: "دوس", en: "Daws" }, note: "قبيلة من الأزد، قوم الطفيل بن عمرو، وفدوا نحو ثمانين بيتاً سنة 7هـ" }
-- { id: group/tajib, label: { ar: "تجيب", en: "Tajib" }, note: "قبيلة قدم وفدها بصدقات قومه ثلاثة عشر رجلاً" }
-- { id: group/udhra, label: { ar: "عذرة", en: "Udhra" }, note: "قبيلة قضاعية من أخوة قصي لأمه، وفدوا اثني عشر رجلاً صفر 9هـ" }
-- { id: group/bali, label: { ar: "بلي", en: "Bali" }, note: "قبيلة قضاعية وفدت ربيع الأول 9هـ وسأل رئيسهم عن الضيافة" }
-- { id: group/fazara, label: { ar: "فزارة", en: "Fazara" }, note: "قبيلة غطفانية شكت للنبي جدب بلادها فاستسقى لهم سنة 9هـ" }
-- { id: group/sadaf, label: { ar: "صداء", en: "Sadaf" }, note: "قبيلة من اليمن ورد وفدها بعد الجعرانة سنة 8هـ" }
-- { id: group/nakh, label: { ar: "نخع", en: "Nakh'" }, note: "قبيلة يمنية، آخر الوفود المدونة؛ توافدت منتصف محرم 11هـ في مائتي رجل" }
-- { id: group/azd, label: { ar: "الأزد", en: "al-Azd" }, note: "من كبرى قبائل اليمن، وردت ضمن وفود عام الوفود" }
-- { id: person/al-ashajj-al-asri, label: { ar: "الأشج العصري", en: "al-Ashajj al-Asri" }, note: "كبير وفد عبد القيس الأول؛ قال فيه النبي: فيك خصلتان يحبهما الله: الحلم والأناة" }
-- { id: person/abd-al-masih-al-aqib, label: { ar: "عبد المسيح العاقب", en: "Abd al-Masih al-Aqib" }, note: "عاقب وفد نجران وصاحب الإمارة والحكومة؛ أسلم بعد رجوعه فيما رووا" }
-- { id: person/al-sayyid-al-ayham, label: { ar: "السيد الأيهم", en: "al-Sayyid al-Ayham" }, note: "سيد وفد نجران وصاحب أمورها الثقافية والسياسية، ويُقال اسمه شرحبيل" }
-- { id: person/ziyad-ibn-al-harith-al-sudai, label: { ar: "زياد بن الحارث الصدائي", en: "Ziyad ibn al-Harith al-Suda'i" }, note: "جاء إلى النبي وافداً عن قومه صداء فردّ جيش الأربعمائة عنهم" }
-- { id: person/zuhayr-ibn-abi-sulma, label: { ar: "زهير بن أبي سلمى", en: "Zuhayr ibn Abi Sulma" }, note: "الشاعر الجاهلي صاحب المعلقة، والد كعب وبجير" }
-- { id: person/abu-al-dubayb, label: { ar: "أبو الضبيب", en: "Abu al-Dubayb" }, note: "رئيس وفد بلي؛ سأل النبي عن أجر الضيافة وضالة الغنم والبعير" }
-- { id: person/hamza-ibn-al-numan, label: { ar: "حمزة بن النعمان", en: "Hamza ibn al-Nu'man" }, note: "من وفد عذرة الاثني عشر صفر 9هـ" }
-- { id: person/amr-ibn-salama, label: { ar: "عمرو بن سلمة", en: "Amr ibn Salama" }, note: "صاحب حديث «اتركوه وقومه»، أمّ قومه بالصلاة وهو غلام لأكثرهم قرآناً" }
-- { id: person/khalid-ibn-jafar, label: { ar: "خالد بن جعفر", en: "Khalid ibn Ja'far" }, note: "من رؤساء وفد بني عامر" }
-- { id: person/jabbar-ibn-aslam, label: { ar: "جبار بن أسلم", en: "Jabbar ibn Aslam" }, note: "من رؤساء وفد بني عامر" }
-# Added by the raheeq lane (batch 23: the Farewell Pilgrimage and the death, pp. 458-472)
-- { id: place/al-baqia, label: { ar: "بقيع الغرقد", en: "al-Baqi'" }, note: "مقبرة المدينة، دفن فيها كثير من الصحابة وأهل البيت" }
-- { id: person/shaqran, label: { ar: "شقران", en: "Shuqran" }, note: "مولى النبي، صبّ الماء مع أسامة عند غسله" }
-- { id: person/abu-talha-zayd-ibn-sahl, label: { ar: "أبو طلحة زيد بن سهل", en: "Abu Talha Zayd ibn Sahl" }, note: "الأنصاري الذي رفع فراش النبي وحفر تحته فجُعل القبر لحداً" }
-- { id: person/sarra-bint-nabhan, label: { ar: "سرّاء بنت نبهان", en: "Sarra' bint Nabhan" }, note: "راوية خطبة يوم الرؤوس في أيام التشريق" }
-- { id: person/abu-juhayfa, label: { ar: "أبو جحيفة", en: "Abu Juhayfa" }, class: person, note: "صحابي روى أوصاف النبي — شمائل" }
-- { id: person/abu-l-as-ibn-al-rabi, label: { ar: "أبو العاص بن الربيع", en: "Abu al-As ibn al-Rabi'" }, class: person, note: "زوج زينب بنت النبي؛ ابن خالة لها" }
-- { id: person/khunays-ibn-hudhafa, label: { ar: "خُنيس بن حذافة", en: "Khunays ibn Hudhafa" }, class: person, note: "زوج حفصة بنت عمر الأول؛ استشهد ببدر أو توفي بعده" }
-- { id: person/kharija-ibn-zayd, label: { ar: "خارجة بن زيد", en: "Kharija ibn Zayd" }, class: person, note: "راوٍ نقل صفة مجلس النبي — شمائل" }
-- { id: person/abu-tufayl-amir-ibn-wathila, label: { ar: "أبو الطفيل عامر بن واثلة", en: "Abu al-Tufayl Amir ibn Wathila" }, class: person, note: "صحابي وصف النبي؛ آخر من رآه موتاً بمكة" }
-- { id: person/kilab-ibn-murrah, label: { ar: "كلاب بن مرة", en: "Kilab ibn Murrah" } }
-- { id: person/murrah-ibn-kaab, label: { ar: "مرة بن كعب", en: "Murrah ibn Ka'b" } }
-- { id: person/kaab-ibn-luayy, label: { ar: "كعب بن لؤي", en: "Ka'b ibn Lu'ayy" } }
-- { id: person/luayy-ibn-ghalib, label: { ar: "لؤي بن غالب", en: "Lu'ayy ibn Ghalib" } }
-- { id: person/ghalib-ibn-fihr, label: { ar: "غالب بن فهر", en: "Ghalib ibn Fihr" } }
-- { id: person/malik-ibn-al-nadr, label: { ar: "مالك بن النضر", en: "Malik ibn al-Nadr" } }
-- { id: person/al-nadr-ibn-kinana, label: { ar: "النضر بن كنانة", en: "al-Nadr ibn Kinana" } }
-- { id: person/kinana-ibn-khuzayma, label: { ar: "كنانة بن خزيمة", en: "Kinana ibn Khuzayma" } }
-- { id: person/khuzayma-ibn-mudrika, label: { ar: "خزيمة بن مدركة", en: "Khuzayma ibn Mudrika" } }
-- { id: person/mudar-ibn-nizar, label: { ar: "مضر بن نزار", en: "Mudar ibn Nizar" } }
-- { id: person/nizar-ibn-maad, label: { ar: "نزار بن معد", en: "Nizar ibn Ma'add" } }
-- { id: person/maad-ibn-adnan, label: { ar: "معد بن عدنان", en: "Ma'add ibn Adnan" } }
-- { id: person/amr-ibn-aidh-makhzumi, label: { ar: "عمرو بن عائذ المخزومي", en: "Amr ibn A'idh al-Makhzumi" }, note: "Father of Fatima, the Prophet's paternal grandmother" }
+# Wanted entities referenced by the Education Browser (Ontario Grade 6 Science pilot); replace with real files over time.
+- { id: person/abbas-ibn-firnas, label: { en: "Abbas ibn Firnas", ar: "عباس بن فرناس" }, note: "9th-century Cordoban polymath; attempted glider flight" }
+- { id: person/al-jahiz, label: { en: "al-Jahiz", ar: "الجاحظ" }, note: "9th-century Basran writer; Kitab al-Hayawan describes animal communities and food chains" }
+- { id: person/ibn-al-baytar, label: { en: "Ibn al-Baytar", ar: "ابن البيطار" }, note: "13th-century Andalusi botanist and pharmacologist" }
+- { id: person/ibn-al-haytham, label: { en: "Ibn al-Haytham", ar: "ابن الهيثم" }, note: "11th-century optician; systematic experiment and observation" }
+- { id: person/al-jazari, label: { en: "al-Jazari", ar: "الجزري" }, note: "12th–13th-century engineer; The Book of Knowledge of Ingenious Mechanical Devices" }
+- { id: person/al-battani, label: { en: "al-Battani", ar: "البتاني" }, note: "9th–10th-century astronomer; refined the solar year" }
+- { id: person/ibn-al-shatir, label: { en: "Ibn al-Shatir", ar: "ابن الشاطر" }, note: "14th-century Damascene astronomer; planetary models echoed in Copernicus" }
+- { id: person/al-khwarizmi, label: { en: "al-Khwarizmi", ar: "الخوارزمي" }, note: "9th-century mathematician; algebra and algorithms carry his name" }
+- { id: person/sultan-bin-salman, label: { en: "Sultan bin Salman Al Saud", ar: "سلطان بن سلمان آل سعود" }, note: "First Muslim in space, STS-51-G, 1985" }
+- { id: group/banu-musa, label: { en: "The Banu Musa brothers", ar: "بنو موسى" }, note: "9th-century Baghdadi engineers and patrons of translation" }
+- { id: work/kitab-al-hayawan, label: { en: "Kitab al-Hayawan (The Book of Animals)", ar: "كتاب الحيوان" }, note: "al-Jahiz's seven-volume compendium of animal life" }
+- { id: work/kitab-al-hiyal, label: { en: "Kitab al-Hiyal (Book of Ingenious Devices)", ar: "كتاب الحيل" }, note: "The Banu Musa brothers' catalogue of automata and mechanisms" }
+- { id: object/astrolabe, label: { en: "The astrolabe", ar: "الأسطرلاب" }, note: "Analog computer of the sky, perfected in the Islamic world" }
+- { id: building/maragha-observatory, label: { en: "Maragha Observatory", ar: "مرصد مراغة" }, note: "13th-century observatory; school of planetary reform" }
+# Wanted entities referenced by merged relations; replace with real files over time.
+- { id: building/avicenna-mausoleum-hamadan, label: { en: "Avicenna Mausoleum, Hamadan", ar: "ضريح ابن سينا بهمدان" }, note: "Tomb of Ibn Sina" }
+- { id: group/aws, label: { en: "Banu Aws", ar: "الأوس" }, note: "One of Medina's two Ansari tribes" }
+- { id: group/banu-al-aswad-b-razn, label: { en: "Banu al-Aswad b. Razn", ar: "بنو الأسود بن رزن" }, note: "Hadhrami clan" }
+- { id: group/banu-al-hadrami, label: { en: "Banu al-Hadrami", ar: "بنو الحضرمي" }, note: "Hadhrami lineage" }
+- { id: group/banu-aslam, label: { en: "Banu Aslam", ar: "بنو أسلم" }, note: "Arabian tribe" }
+- { id: group/banu-kab-ibn-khuzaa, label: { en: "Banu Ka'b b. Khuza'a", ar: "بنو كعب بن خزاعة" }, note: "Clan of Khuza'a" }
+- { id: group/banu-salim, label: { en: "Banu Salim", ar: "بنو سالم" }, note: "Arabian tribe" }
+- { id: group/muzayna, label: { en: "Banu Muzayna", ar: "مزينة" }, note: "Arabian tribe" }
+- { id: person/al-as-ibn-hisham, label: { en: "al-As ibn Hisham", ar: "العاص بن هشام" }, note: "" }
+- { id: person/al-ashajj-al-asri, label: { en: "al-Ashajj al-Asri", ar: "الأشج الأسري" }, note: "" }
+- { id: person/al-ghazali, label: { en: "al-Ghazali", ar: "الغزالي" }, note: "11th–12th-century theologian" }
+- { id: person/al-walid-ibn-utba, label: { en: "al-Walid ibn Utba", ar: "الوليد بن عتبة" }, note: "" }
+- { id: person/ala-al-dawla-muhammad, label: { en: "Ala al-Dawla Muhammad", ar: "علاء الدولة محمد" }, note: "Kakuyid ruler of Isfahan" }
+- { id: person/aristotle, label: { en: "Aristotle", ar: "أرسطو" }, note: "Greek philosopher" }
+- { id: person/ibn-amir-al-hadrami, label: { en: "Ibn Amir al-Hadrami", ar: "ابن عامر الحضرمي" }, note: "" }
+- { id: person/kilab-ibn-murrah, label: { en: "Kilab ibn Murrah", ar: "كلاب بن مرة" }, note: "Qurashi ancestor" }
+- { id: person/masud-ibn-amr-al-ghifari, label: { en: "Mas'ud ibn Amr al-Ghifari", ar: "مسعود بن عمرو الغفاري" }, note: "" }
+- { id: person/munabbih, label: { en: "al-Munabbih", ar: "المنبه" }, note: "" }
+- { id: person/munabbih-ibn-al-hajjaj, label: { en: "al-Munabbih ibn al-Hajjaj", ar: "المنبه بن الحجاج" }, note: "" }
+- { id: person/nubayh-ibn-al-hajjaj, label: { en: "Nubayh ibn al-Hajjaj", ar: "نبه بن الحجاج" }, note: "" }
+- { id: person/shayba-ibn-rabia, label: { en: "Shayba ibn Rabi'a", ar: "شيبة بن ربيعة" }, note: "" }
+- { id: person/sinan-ibn-abi-sinan-al-asadi, label: { en: "Sinan ibn Abi Sinan al-Asadi", ar: "سنان بن أبي سنان الأسدي" }, note: "" }
+- { id: person/thomas-aquinas, label: { en: "Thomas Aquinas", ar: "توما الأكويني" }, note: "13th-century scholastic" }
+- { id: person/tuayma-ibn-adi, label: { en: "Tu'ayma ibn Adi", ar: "تعيمة بن عدي" }, note: "" }
+- { id: place/al-baqia, label: { en: "al-Baqi'", ar: "البقيع" }, note: "Medina's historic cemetery" }
+- { id: person/rafi-mawla-khuzaa, label: { en: "Rafi', mawla of Khuza'a", ar: "رافع مولى خزاعة" }, note: "Companion mentioned in the Khuza'a–Bakr clash accounts" }
+- { id: person/amr-ibn-nufayl, label: { en: "Amr ibn Nufayl", ar: "عمرو بن نفيل" }, note: "" }
+- { id: source/muqaddimat-ibn-khaldun, label: { en: "Muqaddimat Ibn Khaldun", ar: "مقدمة ابن خلدون" }, note: "·《》" }

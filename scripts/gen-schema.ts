@@ -54,7 +54,7 @@ if (JSON.stringify(kinds.award) !== JSON.stringify(awardKinds)) {
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award", "course",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -572,6 +572,22 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     properties: { columns: strs, rows_file: str, source: entityRef, license: enm(licenses),
       coverage: { type: "object" }, method_note: str },
     required: ["rows_file", "license"],
+  },
+  course: {
+    properties: {
+      ...kind("course"), part_of: entityRef, order: { type: "integer" },
+      country: { type: "string", pattern: "^[a-z]{2}$" }, region: str, board: str, language_of_instruction: strs,
+      grade_number: { type: "integer" }, subject_name: L, curriculum_ref: str,
+      expectations: { type: "array", items: { type: "object", required: ["code", "text"], additionalProperties: false,
+        properties: { code: str, text: L } } },
+      lessons: entityRefs,
+      connections: { type: "array", items: { type: "object", required: ["kind", "title", "text"], additionalProperties: false,
+        properties: {
+          position: enm(["before", "within", "after"]),
+          kind: enm(["reflection", "story", "scholar", "invention", "career", "quran", "hadith", "place", "object"]),
+          entity: entityRef, ref: str, title: L, text: L, sources: strs } } },
+    },
+    required: ["kind"],
   },
 };
 
