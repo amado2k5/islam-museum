@@ -14,7 +14,6 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "companions" | "map" | "asma"; href: string; ready: boolean }
 export interface ExplorePage { key: "quran" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
