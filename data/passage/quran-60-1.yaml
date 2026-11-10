@@ -18,6 +18,9 @@ translations:
 relations:
   - { type: part_of, target: passage/quran-60 }
   - { type: revealed_about, target: person/hatib-ibn-abi-baltaa, note: "روى ابن إسحاق أن مطلع سورة الممتحنة نزل في شأن كتاب حاطب بن أبي بلتعة إلى قريش.", sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

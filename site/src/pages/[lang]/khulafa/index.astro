@@ -1,0 +1,59 @@
+// The Khulafa Browser's home (docs/plan/30-khulafa-browser.md): the caliphates in chronological
+// order, each with its numbered chain of reign cards, then the labelled claim lines. Counts are
+// read from the graph at build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf, summaryOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { khulafaNodes, politySections, claimSections, reignOf, CLAIM_POLITIES } from "../../../lib/khulafa";
+const CLAIM_SET = new Set<string>(CLAIM_POLITIES);
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const K = T.khulafa;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const status = fmt(K.status, { caliphs: num(khulafaNodes.length, lang) });
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+const span = (n: any) => { const r = reignOf(n)!; return `${r.start ?? ""}–${r.end ?? K.present}`; };
+---
+<BaseLayout lang={lang} title={K.title} description={K.lede} path={`/${lang}/khulafa/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{K.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {K.title}</nav>
+    <div data-pagefind-body>
+      <h1>{K.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{K.lede}</p>
+      <p class="panel" style="max-width:var(--measure);border:1px solid var(--gold)">{K.note}</p>
+      <p class="panel ui" style="max-width:var(--measure)">{status}</p>
+    </div>
+
+    <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:1.5rem 0">
+      <label for="khulafa-filter">{K.filter_label}</label>
+      <input id="khulafa-filter" type="search" data-khulafa-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+    </p>
+    <p class="panel ui" data-khulafa-empty hidden>{K.filter_none}</p>
+
+    {[...politySections, ...claimSections].map(({ polity, caliphs }) => (
+      <section aria-labelledby={`sec-${polity.slug}`} style="margin-top:2rem" data-khulafa-section>
+        <h2 id={`sec-${polity.slug}`}>
+          {label(polity)}
+          {CLAIM_SET.has(polity.id) && <span class="ui muted" style="font-size:.8rem"> · {K.claim_label}</span>}
+        </h2>
+        <p class="muted" style="max-width:var(--measure)">{summaryOf(polity, lang)}</p>
+        <ol class="grid-cards" role="list" data-pagefind-ignore style="list-style:none;padding:0;margin:0">
+          {caliphs.map((n, i) => (
+            <li data-khulafa-item data-search={searchText(n)}>
+              <a class="card" href={`/${lang}/khulafa/${n.slug}/`} style="display:block;height:100%;text-decoration:none">
+                <span class="ui muted" style="font-size:.8rem">{num(i + 1, lang)} · {span(n)}</span>
+                <h3 class="card-title" style="font-size:1.2rem;margin:.15rem 0">{label(n)}</h3>
+                <p class="muted" style="margin:.35rem 0 0;font-size:.85rem">{summaryOf(n, lang)}</p>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </div>
+  <script src="../../../scripts/khulafa-filter.ts"></script>
+</BaseLayout>

@@ -116,6 +116,15 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (!badge || !html.includes(badge)) errors.push("ar/inventions/ does not render its in-the-making badge");
     if (!html.includes("data-invention-row")) errors.push("ar/inventions/ lists no invention record (no data-invention-row)");
   }
+  // the Companions Browser home (docs/plan/29-companions-browser.md): its title and at least one Companion row
+  const companionsHome = p("dist", "ar", "companions", "index.html");
+  if (!existsSync(companionsHome)) errors.push("missing page: ar/companions/index.html");
+  else {
+    const html = readFileSync(companionsHome, "utf8");
+    const title = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).companions?.title;
+    if (!title || !html.includes(title)) errors.push("ar/companions/ does not render its title");
+    if (!html.includes("data-companion-row")) errors.push("ar/companions/ lists no Companion record (no data-companion-row)");
+  }
   // the Modern Islam Browser home (docs/plan/26 section 4.2): its growing badge, the nineteen section tiles, and at least one row on the figures section
   const modernHome = p("dist", "ar", "modern", "index.html");
   if (!existsSync(modernHome)) errors.push("missing page: ar/modern/index.html");

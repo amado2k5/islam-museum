@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [arabia]
-coordinates: [23.6083, 38.55]
-coordinate_precision: site
-coordinate_note: "Al-Jar, early Islamic Red Sea port of Medina, Saudi Arabia (geocoding pass, Gemini-assisted)"
 relations:
   - { type: site_of, target: event/umar-food-transport-egypt, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -18,5 +15,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 303–304"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-19
+coordinates: [23.6083, 38.55]
+coordinate_precision: site
+coordinate_note: "Al-Jar, early Islamic Red Sea port of Medina, Saudi Arabia (geocoding pass, Gemini-assisted)"
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

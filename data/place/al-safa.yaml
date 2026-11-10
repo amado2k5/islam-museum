@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/prophetic-era]
 regions: [arabia]
-coordinates: [21.4225, 39.8275]
-coordinate_precision: site
-coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: located_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
 provenance:
@@ -19,5 +16,8 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-haiku-5-5"
   run: "raheeq-prose-batch-8a"
+coordinates: [21.4225, 39.8275]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 79, 91–92" }

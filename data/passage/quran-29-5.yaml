@@ -17,6 +17,8 @@ translations:
   ur: { text: "جو شخص خدا کی ملاقات کی اُمید رکھتا ہو خدا کا (مقرر کیا ہوا) وقت ضرور آنے والا ہے۔ اور وہ سننے والا اور جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
+  - { type: mentions, target: concept/asma-al-alim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-sami, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

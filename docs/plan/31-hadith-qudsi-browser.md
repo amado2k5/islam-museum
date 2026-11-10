@@ -1,4 +1,4 @@
-# 29. Hadith Qudsi Browser
+# 31. Hadith Qudsi Browser
 
 Status: **requested by the founder in chat, 9 November 2026** ("create متصفح الأحاديث القدسية ... make it shown on main landing museum page as well as in navigation, work end to end until you have included all the الأحاديث القدسية"). Data, page, API and search ship in one pull request; the records stay `status.review: draft` until a human reads them.
 
@@ -19,7 +19,7 @@ Status: **requested by the founder in chat, 9 November 2026** ("create متصف�
 
 The corpus is the scope of the classic collection «الأحاديث القدسية من الصحاح الستة والموطأ» (Supreme Council for Islamic Affairs, Cairo): Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' al-Tirmidhi, Sunan al-Nasa'i, Sunan Ibn Majah and the Muwatta of Malik. A hadith qudsi is a report in which the Prophet relates speech from God in the first person, in words other than the Qur'an's. The list is checked against the Forty Hadith Qudsi.
 
-"All" means all within that stated scope, as found by the method below. The first build holds 113 hadiths in 335 narrations. A reader who finds a missing or misclassed narration files it as a correction; the list is not a ruling on what is or is not qudsi.
+"All" means all within that stated scope, as found by the method below. The first build holds 113 hadiths in 331 narrations. A reader who finds a missing or misclassed narration files it as a correction; the list is not a ruling on what is or is not qudsi.
 
 ## 3. Method
 
@@ -27,6 +27,7 @@ The corpus is the scope of the classic collection «الأحاديث القدس�
 2. Each hit is read, dropping Qur'an quotations, Companions' words, and reports that only describe God's acts.
 3. Close narrations of one hadith (in one collection or across collections) are joined by text similarity and then by hand into one hadith.
 4. Existing hadith passages are reused: a narration already in the graph (for example `passage/muslim-2577`, `passage/muwatta-1-224`) is tagged in place, never duplicated.
+5. Later compilations are not narrations of the corpus: the four qudsi hadiths of al-Nawawi's Forty (`passage/arbaun-24`, `-37`, `-38`, `-42`) stay untagged, because each is already present here through the Bukhari, Muslim or Tirmidhi narration it quotes. The Forty Hadith Qudsi list was used only as a checklist: every one of its forty that occurs in the seven collections maps to a hadith in the browser.
 
 ## 4. Model
 

@@ -12,6 +12,8 @@ regions: [andalus-europe]
 born: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+  - { type: successor_of, target: person/al-hakam-ii, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with al-Andalus per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
@@ -21,3 +23,5 @@ provenance:
 external_ids: { wikidata: "Q169640" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "976", calendar: julian, precision: year }, end: { edtf: "1013", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }

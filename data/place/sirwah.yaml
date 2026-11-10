@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
-coordinates: [15.4517, 45.0167]
-coordinate_precision: site
-coordinate_note: "Sirwah (ancient Sabaean/early Islamic site), Ma'rib, Yemen (geocoding pass, Gemini-assisted)"
 relations:
   - { type: located_in, target: place/yemen, sources: [source/mubarakpuri-raheeq] }
 provenance:
@@ -19,5 +16,8 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-2a"
+coordinates: [15.4517, 45.0167]
+coordinate_precision: site
+coordinate_note: "Sirwah (ancient Sabaean/early Islamic site), Ma'rib, Yemen (geocoding pass, Gemini-assisted)"
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran ]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 23" }

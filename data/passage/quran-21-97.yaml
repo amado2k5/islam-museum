@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور (قیامت کا) سچا وعدہ قریب آجائے تو ناگاہ کافروں کی آنکھیں کھلی کی کھلی رہ جائیں (اور کہنے لگیں کہ) ہائے شامت ہم اس (حال) سے غفلت میں رہے بلکہ (اپنے حق میں) ظالم تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

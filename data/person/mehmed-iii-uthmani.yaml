@@ -4,7 +4,7 @@ label: { ar: "محمد الثالث" }
 names:
   - { kind: full, lang: ar, value: "محمد خان الثالث بن مراد الثالث" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 born: { edtf: "1566~", hijri: "0974", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 died: { edtf: "1603-12-21~", hijri: "1012-07-18", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "نهار الأحد ١٨ رجب ١٠١٢هـ؛ مدة حكمه تسع سنين وشهران ويومان." }
 summary:
@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: born_in, target: place/manisa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -22,7 +23,9 @@ external_ids: { wikidata: "Q171465", nomisma: "mehmed_iii" }
 sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 295-296"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 295-296"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-4
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1595", calendar: julian, precision: year }, end: { edtf: "1603", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

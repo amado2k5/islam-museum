@@ -17,6 +17,8 @@ translations:
   ur: { text: "جو اہل کتاب میں سے خدا پر ایمان نہیں لاتے اور نہ روز آخرت پر (یقین رکھتے ہیں) اور نہ ان چیزوں کو حرام سمجھتے ہیں جو خدا اور اس کے رسول نے حرام کی ہیں اور نہ دین حق کو قبول کرتے ہیں ان سے جنگ کرو یہاں تک کہ ذلیل ہوکر اپنے ہاتھ سے جزیہ دیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
+  - { type: mentions, target: concept/asma-al-akhir, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

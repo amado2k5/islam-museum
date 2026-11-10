@@ -22,6 +22,7 @@ relations:
   - { type: had_participant, target: group/quraysh }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-the-trench }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/mubarakpuri-raheeq] }
 issue: { ar: "ما قيمة صلح الحديبية ونتيجته في نظر علماء السنة والمؤرخين؟", en: "What is the value and outcome of the Treaty of al-Hudaybiyya in the view of Sunni scholars and historians?" }
 perspectives:
   - tradition: sunni

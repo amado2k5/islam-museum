@@ -18,6 +18,7 @@ names:
   value: معاوية بن أبي سفيان صخر بن حرب بن أمية بن عبد شمس بن عبد مناف القرشي الأموي، أمير المؤمنين
 gender: male
 roles:
+- caliph
 - companion
 traditions:
 - sunni
@@ -37,9 +38,10 @@ periods:
 regions:
 - arabia
 story_roles:
+- { role: ruler, toward: polity/umayyad-caliphate, start: { edtf: "661", calendar: julian, precision: year }, end: { edtf: "680", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
 - role: companion
   status: tradition
-  note: مذكور في الإصابة ترجمة رقم 8366 (ص 1431).
+  note: مذكور في الإصابة ترجمة رقم 8366 ⁦(ص 1431)⁩.
   sources:
   - source/ibn-hajar-isaba
 faith:
@@ -54,6 +56,7 @@ inventions:
 born: { edtf: "602~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
+- { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
 - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }
 - { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }

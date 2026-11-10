@@ -1,4 +1,4 @@
-// The Hadith Qudsi Browser's shared reads (docs/plan/29-hadith-qudsi-browser.md): every hadith passage tagged
+// The Hadith Qudsi Browser's shared reads (docs/plan/31-hadith-qudsi-browser.md): every hadith passage tagged
 // `hadith-qudsi`, gathered into one hadith per `qudsi-<slug>` tag and ordered by the theme of its first narration.
 // Everything comes from the compiled graph at build time; there is no side list.
 import { realNodes } from "./graph";

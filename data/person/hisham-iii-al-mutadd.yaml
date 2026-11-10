@@ -1,0 +1,18 @@
+id: person/hisham-iii-al-mutadd
+class: person
+label: { ar: "هشام الثالث المعتد", en: "Hisham III al-Mutadd", ur: "هشام الثالث المعتد" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "هشام الثالث المعتد، خليفة الأموية في الأندلس ؛ حكم من 1027م إلى 1031م. {cite:bayan-mughrib-idhari}"
+  en: "Hisham III al-Mutadd, the caliph of the Umayyad of Cordoba caliphate, ruling 1027–1031 CE. {cite:bayan-mughrib-idhari}"
+  ur: "هشام الثالث المعتد، اموی قرطبہ خلافت کے خلیفہ؛ 1027ء سے 1031۔ {cite:bayan-mughrib-idhari}"
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "1027", calendar: julian, precision: year }, end: { edtf: "1031", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }
+relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/muhammad-iii-al-mustakfi, sources: [source/bayan-mughrib-idhari] }
+sources: [source/bayan-mughrib-idhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

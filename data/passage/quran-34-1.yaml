@@ -17,6 +17,10 @@ translations:
   ur: { text: "سب تعریف خدا ہی کو (سزاوار) ہے (جو سب چیزوں کا مالک ہے یعنی) وہ کہ جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے سب اسی کا ہے اور آخرت میں بھی اسی کی تعریف ہے۔ اور وہ حکمت والا خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/asma-al-hakim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-khabir, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

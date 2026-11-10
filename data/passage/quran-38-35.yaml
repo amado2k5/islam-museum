@@ -17,6 +17,7 @@ translations:
   ur: { text: "(اور) دعا کی کہ اے پروردگار مجھے مغفرت کر اور مجھ کو ایسی بادشاہی عطا کر کہ میرے بعد کسی کو شایاں نہ ہو۔ بےشک تو بڑا عطا فرمانے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
+  - { type: mentions, target: concept/asma-al-wahhab, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

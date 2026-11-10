@@ -6,12 +6,13 @@ summary:
   en: "Abbasid caliph [381–422], Abu'l-Abbas Ahmad ibn Ishaq ibn al-Muqtadir, born 336; hailed after al-Ta'i's deposition, arriving 10 Ramadan. Al-Khatib: famed for piety and night-prayer, he studied fiqh under Abu Bishr al-Harawi and wrote an usul book — Companions' virtues and takfir of the Mu'tazila — read every Friday at al-Mahdi's mosque; in Shawwal he and Baha' al-Dawla swore mutual fidelity, the caliph granting him all beyond his gate {cite:tarikh-khulafa-minhaj-1434 p. 634}."
   ur: "عباسی خلیفہ، جن کا عہد 381–422ھ تھا۔ سیوطی کے بیان میں وہ ابو بشر ہروی کے شاگرد تھے اور انہوں نے اصول پر ایک کتاب لکھی جو جامع مہدی میں پڑھی جاتی تھی۔ {cite:tarikh-khulafa-minhaj-1434 p. 634}"
 gender: male
+roles: [caliph]
 died: { edtf: "1031~", hijri: "0422-12-11", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الحادي عشر من ذي الحجة سنة اثنتين وعشرين وأربعمائة وكانت خلافته إحدى وأربعين سنة وثلاثة أشهر {cite:shadharat-dhahab p. 221}." }
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  source: "تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 626–636"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-37
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
@@ -23,4 +24,8 @@ education:
   flagged_for_kids: true
   provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
 relations:
-  - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name (الهروي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-tai-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name ⁦(الهروي)⁩; denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "991", calendar: julian, precision: year }, end: { edtf: "1031", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

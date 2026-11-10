@@ -14,6 +14,8 @@ regions: [andalus-europe, maghreb]
 born: { edtf: "959", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
 died: { edtf: "1036", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib" }
 relations:
+- { type: ruled_over, target: polity/hammudid-caliphate, sources: [source/bayan-mughrib-idhari] }
+- { type: successor_of, target: person/ali-ibn-hammud-al-nasir, sources: [source/bayan-mughrib-idhari] }
 - type: ruler_of
   target: place/al-andalus
   note: "From text: خليفة بالأندلس وأحسنا الغناء في ولايت"
@@ -26,7 +28,7 @@ sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — دولة بني حمود، ص1666 (طبعة هيليوبوليس)
+  source: ابن خلدون، العبر — دولة بني حمود، ص1666 ⁦(طبعة هيليوبوليس)⁩
   generated_by: Devin (SWE-2 High) from Apple Vision OCR
   model: swe-2-high
   run: lib-ibar-east-20
@@ -34,3 +36,5 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
+story_roles:
+  - { role: rival-claimant, toward: polity/hammudid-caliphate, start: { edtf: "1018", calendar: julian, precision: year }, end: { edtf: "1023", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

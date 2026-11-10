@@ -4,7 +4,7 @@ label: { ar: "أحمد الثالث", en: "Ahmed III" }
 names:
   - { kind: full, lang: ar, value: "أحمد الثالث بن محمد الرابع" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 summary:
   ar: "السلطان أحمد الثالث ⁦(١١١٥–١١٤٣هـ/١٧٠٣–١٧٣٠م)⁩؛ في عهده ظلت راية الجهاد مرفوعة فأعادت الدولة المورة وآزاق، وحاصر المجاهدون قيصر روسيا بطرس وخليلته ومعهما مئتا ألف كادوا يقعون في الأسر لولا أن رفع الصدر الأعظم بلطه جي باشا الحصار ووقع معاهدة فلكزن ⁦(بروث)⁩ في جمادى الآخرة ١١٢٣هـ فعزله السلطان. وتوسطت هولندا وإنكلترا فوقعت معاهدة أدرنة ١١٢٥هـ وفيها تنازلت روسيا عن سواحل البحر الأسود. وانتصر العثمانيون على البنادقة واستولوا على كريت وجزراً، لكن النمسا انتصرت وسقطت بلغراد عام ١١٢٩هـ/١٧١٧م، فعُقد صلح بساروفتز عام ١١٣٠هـ/١٧١٨م انتزعت به النمسا بلغراد وأكثر الصرب وجزءاً من الأفلاق وعادت المورة للعثمانيين {cite:dawlat-uthmaniyya-salabi p. 310-311}."
   en: "Ahmed III (r. 1115–1143/1703–1730) — recovered the Morea and Azov, nearly captured Peter the Great on the Pruth, then lost Belgrade to Austria and signed Passarowitz (1718): Serbia and part of Wallachia gone, Morea kept {cite:dawlat-uthmaniyya-salabi p. 310-311}."
@@ -14,6 +14,7 @@ regions: [anatolia-balkans]
 born: { edtf: "1673", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 died: { edtf: "1736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/mustafa-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -21,8 +22,10 @@ external_ids: { wikidata: "Q199482" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310-311"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 310-311"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
 status: { review: published, completeness: 3 }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1703", calendar: julian, precision: year }, end: { edtf: "1730", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

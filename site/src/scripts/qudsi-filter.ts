@@ -1,4 +1,4 @@
-// The Hadith Qudsi Browser's filter (docs/plan/29-hadith-qudsi-browser.md): narrows the hadith list as the visitor types,
+// The Hadith Qudsi Browser's filter (docs/plan/31-hadith-qudsi-browser.md): narrows the hadith list as the visitor types,
 // matching the title in any of the three languages and the collection names, ignoring Arabic vowel marks.
 // Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-qudsi-filter]");

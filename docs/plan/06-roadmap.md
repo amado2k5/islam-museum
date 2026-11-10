@@ -40,7 +40,7 @@ The phases below are the founding plan, kept for the record. The museum's mainta
 "what comes next" is the changelog's coming-next section (`/{lang}/changelog/`, rendered
 from `CANARY.md`); this list mirrors it so the plan docs answer the same question:
 
-- **The Hadith Qudsi Browser** (plan 29, requested in chat 9 Nov 2026): every hadith qudsi of the six books and the Muwatta, 113 hadiths in 335 narrations, at `/[lang]/qudsi/` with its API file and search; next is a human read of the draft records and a page-level check against a printed Qudsi collection.
+- **The Hadith Qudsi Browser** (plan 31, requested in chat 9 Nov 2026): every hadith qudsi of the six books and the Muwatta, 113 hadiths in 331 narrations, at `/[lang]/qudsi/` with its API file and search; next is a human read of the draft records and a page-level check against a printed Qudsi collection.
 - **The Tafsir Browser** (plan 27, approved in chat 6 Nov 2026): a separate wing of Qur'an commentaries, the Tabari edition (vols 1 to 16) first, then the other tafsirs in the source records; next is the data model with Tabari vols 1 to 9, then the wing, the API and search.
 - **The Modern Islam Browser** (plan 26, approved 6 Nov 2026): Phase 1 (the `award` class, the
   honours, footprint, reach and horizon blocks, derived sections, the reach index, `/api/v1/modern/*`)
@@ -178,6 +178,7 @@ The front doors over the one graph, with their status, what each has and what it
 | Job Browser | live, 19 jobs | the 184-job taxonomy, occupations on every person, `jobs.json` |
 | Inventions Browser | live, 58 inventions | waves of 100, chains and maps |
 | Modern Islam Browser | Phase 1 done | pilot and first deploy, then waves (plan 26 §6) |
+| Companions Browser | live pages, 606 Companions (plan 29) | sourced enrichment from the Companion dictionaries, batches of 25 |
 | Education | E1 live | E2 to E5 on approval |
 
 ## Risks and mitigations

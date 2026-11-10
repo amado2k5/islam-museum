@@ -1,0 +1,18 @@
+id: person/muhammadu-tambari
+class: person
+label: { ar: "محمد تمباري", en: "Muhammadu Tambari", ur: "محمد تمباري" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "محمد تمباري، خليفة سوكوتو ؛ حكم من 1931م إلى 1938م. {cite:wikidata}"
+  en: "Muhammadu Tambari, the caliph of the Sokoto caliphate, ruling 1931–1938 CE. {cite:wikidata}"
+  ur: "محمد تمباري، سوکوتو خلافت کے خلیفہ؛ 1931ء سے 1938۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1931", calendar: julian, precision: year }, end: { edtf: "1938", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/muhammadu-mai-turare, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }
