@@ -12,7 +12,7 @@ wings: [people]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  source: "تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 626–636"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-37
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
@@ -26,6 +26,6 @@ education:
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-tai-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-  - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name (الهروي); denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
+  - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name ⁦(الهروي)⁩; denotes association, not proven residence.", sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "991", calendar: julian, precision: year }, end: { edtf: "1031", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

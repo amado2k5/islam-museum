@@ -17,7 +17,7 @@ periods:
 - period/abbasid-fragmentation
 provenance:
   layer: own-research
-  source: تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 657–666
+  source: تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 657–666
   generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-tarikh-khulafa-batch-40
 external_ids:
@@ -40,19 +40,19 @@ relations:
   target: place/cairo
   note: Wikidata Q85 (P19); corroboration recommended.
   sources:
-- source/wikidata
+  - source/wikidata
   confidence: medium
 - type: died_in
   target: place/cairo
   note: Wikidata Q85 (P20); corroboration recommended.
   sources:
-- source/wikidata
+  - source/wikidata
   confidence: medium
 - type: lived_in
   target: place/fatimid-caliphate
   note: Wikidata Q160307 (P27); corroboration recommended.
   sources:
-- source/wikidata
+  - source/wikidata
   confidence: medium
 story_roles:
   - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "1101", calendar: julian, precision: year }, end: { edtf: "1130", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

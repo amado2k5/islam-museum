@@ -10,7 +10,7 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 provenance:
   layer: own-research
-  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  source: "كتاب العبر لابن خلدون ⁦(ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-4
 external_ids: { wikidata: "Q307312" }
@@ -20,6 +20,6 @@ born: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
 relations:
   - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
-  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
+  - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name ⁦(القمي)⁩; denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
 story_roles:
   - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1147", calendar: julian, precision: year }, end: { edtf: "1163", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

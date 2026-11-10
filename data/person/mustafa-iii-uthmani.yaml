@@ -40,19 +40,19 @@ relations:
 - type: child_of
   target: person/ahmed-iii-uthmani
   sources:
-- source/dawlat-uthmaniyya-salabi
+  - source/dawlat-uthmaniyya-salabi
 - type: lived_in
   target: place/russia
   confidence: low
   note: The only place named in the record; specific residence or role there is assumed from context but not separately documented.
   sources:
-- source/dawlat-uthmaniyya-salabi
+  - source/dawlat-uthmaniyya-salabi
 sources:
 - source/dawlat-uthmaniyya-salabi
 - source/nomisma
 provenance:
   layer: own-research
-  source: الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 316
+  source: الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 316
   generated_by: Devin (SWE-2 Flash High)
   model: SWE-2 Flash High
   run: prose-fill-persons-batch47

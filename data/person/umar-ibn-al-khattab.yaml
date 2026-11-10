@@ -42,6 +42,7 @@ relations:
   - { type: participated_in, target: event/conquest-of-mecca, sources: [source/ibn-ishaq-guillaume] }
   - { type: successor_of, target: person/abu-bakr, start: { edtf: "0634-08" }, sources: [source/watt-1956-medina] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: exemplifies, target: concept/asma-al-adl, sources: [source/ibn-sad-tabaqat-bewley] }
 issue: { ar: "كيف تُقيَّم شخصية عمر بن الخطاب وخلافته في التقاليد؟", en: "How are Umar ibn al-Khattab and his caliphate assessed in the traditions?" }
 perspectives:
   - tradition: sunni

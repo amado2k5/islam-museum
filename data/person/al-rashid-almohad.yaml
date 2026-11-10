@@ -21,11 +21,11 @@ relations:
 - type: child_of
   target: person/al-mamun-almohad
   sources:
-- source/tarikh-ibn-khaldun-ibar
+  - source/tarikh-ibn-khaldun-ibar
 - type: ruler_of
   target: polity/almohad-caliphate
   sources:
-- source/tarikh-ibn-khaldun-ibar
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
@@ -33,7 +33,7 @@ sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:
   layer: own-research
-  source: ابن خلدون، العبر — دولة الرشيد بن المأمون، ص1684-1685 (المجلد السادس، طبعة هيليوبوليس)
+  source: ابن خلدون، العبر — دولة الرشيد بن المأمون، ص1684-1685 ⁦(المجلد السادس، طبعة هيليوبوليس)⁩
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch43
