@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba; Usd al-Ghaba" }
+died: { edtf: "0635~", hijri: "0014~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died early in Umar's caliphate (Ibn Abi Hatim from his father, al-Isaba p. 1562); CE year approximated from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: traveled_to, target: place/badr, sources: [source/ibn-hajar-isaba] }
 - type: member_of
@@ -49,6 +49,11 @@ relations:
   target: event/battle-of-badr
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Yarbu'i (al-Isaba p. 1562)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 9157، ص 1562

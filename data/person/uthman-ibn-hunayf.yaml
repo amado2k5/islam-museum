@@ -35,7 +35,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "661~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Isaba" }
+died: { edtf: "0670~", hijri: "0050~", calendar: julian, precision: year, status: debated, derived: true, note: "Settled at Kufa and died in Mu'awiya's caliphate (41-60 AH) after being driven from Basra before the Camel (al-Isaba p. 1005); CE year approximated from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: member_of
   target: group/ansar
@@ -45,6 +45,11 @@ relations:
   target: place/kufa
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1005"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 5908، ص 1005
