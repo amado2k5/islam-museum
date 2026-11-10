@@ -12,6 +12,7 @@ date:
   start: { edtf: "0884~", hijri: "0271", calendar: julian, precision: year, status: tradition, derived: true, note: "271؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 81}." }
 relations:
   - { type: occurred_at, target: place/dayr-al-atiq, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"

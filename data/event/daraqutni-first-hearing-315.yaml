@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/abu-al-qasim-al-baghawi, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abdallah-ibn-abi-dawud, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/ismail-al-saffar, role: "الشيخ المملي", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research

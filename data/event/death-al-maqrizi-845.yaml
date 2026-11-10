@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-maqrizi, role: "المتوفَّى", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
 provenance:
   layer: own-research

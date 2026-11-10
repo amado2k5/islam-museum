@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/al-daraqutni, role: "الشيخ المملي", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-barqani-ahmad-ibn-muhammad, role: "الكاتب الناقل", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-mansur-ibn-hamdan, role: "صاحب المجلس", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

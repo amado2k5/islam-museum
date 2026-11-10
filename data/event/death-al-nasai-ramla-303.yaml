@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/ramla, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz], note: "رواية ابن يونس الراجحة؛ ورواية الدارقطني: مكة والدفن بين الصفا والمروة {cite:tarikh-islam-dhahabi p. 109}" }
   - { type: had_participant, target: person/al-nasai, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/wafayat-ayan] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
