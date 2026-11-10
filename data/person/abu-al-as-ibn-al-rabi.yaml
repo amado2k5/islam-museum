@@ -43,7 +43,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+died: { edtf: "0634", hijri: "0012", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Dhu'l-Hijja 12 AH in Abu Bakr's caliphate (Ibrahim ibn al-Mundhir, Ibn Sa'd and Ibn Ishaq); Abu Ubayd gives 13 AH and Ibn Manda has him killed at al-Yamama (al-Isaba p. 1714); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab
@@ -60,6 +60,11 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-zuhra
+  note: "al-Isaba p. 1714"
   sources:
   - source/ibn-hajar-isaba
 issue:

@@ -17,12 +17,14 @@ periods:
 - period/rashidun
 regions:
 - arabia
-died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed on the day of al-Harra, 63 AH (al-Isaba p. 879); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (أنصاري); denotes association, not proven residence.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
   - { type: participated_in, target: event/battle-of-yamama, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
   - { type: member_of, target: group/ansar, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 879", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-yamama, note: "shared with Wahshi ibn Harb in killing Musaylima (al-Isaba p. 879)", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 121 و125–126"
@@ -30,6 +32,7 @@ provenance:
   run: lib-futuh-buldan-batch-5
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1
