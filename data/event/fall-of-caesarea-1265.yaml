@@ -11,6 +11,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1265-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1265-03", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    participants: [person/baybars]
+    commanders: [person/baybars]
+  - label: { ar: "حامية قيسارية الصليبية", en: "The Crusader garrison of Caesarea" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5432147

@@ -13,6 +13,10 @@ date:
   end: { edtf: "1101-05", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الصليبيون بقيادة بلدوين الأول", en: "The Crusaders under Baldwin I" }
+    participants: [person/baldwin-i-jerusalem]
+  - label: { ar: "حامية قيسارية الفاطمية", en: "The Fatimid garrison of Caesarea" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q137785228

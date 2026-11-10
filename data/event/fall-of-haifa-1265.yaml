@@ -11,6 +11,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1265", precision: year, status: tradition, derived: true }
   end: { edtf: "1265", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    participants: [person/baybars]
+    commanders: [person/baybars]
+  - label: { ar: "حامية حيفا الصليبية", en: "The Crusader garrison of Haifa" }
 sources: [source/shadharat-dhahab]
 external_ids:
   wikidata: Q5432154
