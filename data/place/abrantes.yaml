@@ -1,0 +1,20 @@
+id: place/abrantes
+class: place
+kind: province
+label: { ar: "أبرَنتِس", en: "Abrantes" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in Santarém District, Portugal."
+wings: [place]
+coordinates: [39.464444444444, -8.1978194444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q331191" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q331191 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

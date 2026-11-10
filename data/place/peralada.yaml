@@ -1,0 +1,20 @@
+id: place/peralada
+class: place
+kind: town
+label: { ar: "بيريلادا", en: "Peralada" }
+summary:
+  ar: "بلدة."
+  en: "Village in province of Girona, Catalonia, Spain."
+wings: [place]
+coordinates: [42.3085047, 3.0089916]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q11803" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q11803 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/danube-vilayet
+class: place
+kind: province
+label: { ar: "ولاية الطونة", en: "Danube Vilayet" }
+summary:
+  ar: "مقاطعة."
+  en: "Ottoman province."
+wings: [place]
+coordinates: [43, 25]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2302427" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2302427 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

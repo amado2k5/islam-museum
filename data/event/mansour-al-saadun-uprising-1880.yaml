@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1880", precision: year, status: tradition, derived: true }
   end: { edtf: "1880", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [47.816666666667, 30.5]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1880"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة منصور بن راشد السعدون ⁦(١٨٨٠)⁩", en: "Mansour bin Rashid al-Saadun Uprising (1880)" }, at: [47.816666666667, 30.5], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/basra-vilayet }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات عبد الحميد الثاني", en: "The authorities of Abd al-Hamid II" }

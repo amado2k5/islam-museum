@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1464", precision: year, status: tradition, derived: true }
   end: { edtf: "1464", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [22.3673, 37.074]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1464"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ميستراس ⁦(١٤٦٤)⁩", en: "Battle of Mystras (1464)" }, at: [22.3673, 37.074], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/mystras }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

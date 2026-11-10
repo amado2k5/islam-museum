@@ -1,0 +1,20 @@
+id: place/khuzestan-province
+class: place
+kind: province
+label: { ar: "محافظة خوزستان", en: "Khuzestan Province" }
+summary:
+  ar: "مقاطعة."
+  en: "Province of Iran."
+wings: [place]
+coordinates: [31.3273, 48.694]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q241119" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q241119 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

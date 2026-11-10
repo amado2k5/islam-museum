@@ -1,0 +1,20 @@
+id: place/ovac-k
+class: place
+kind: town
+label: { ar: "أواجق", en: "Ovacık" }
+summary:
+  ar: "بلدة."
+  en: "Town and district in Tunceli Province, Turkey."
+wings: [place]
+coordinates: [39.358611111111, 39.216388888889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q963947" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q963947 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

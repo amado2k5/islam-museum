@@ -1,0 +1,20 @@
+id: place/guadiaro
+class: place
+kind: river
+label: { ar: "وادي آره", en: "Guadiaro" }
+summary:
+  ar: "نهر في إسبانيا."
+  en: "River in Spain."
+wings: [place]
+coordinates: [36.2825, -5.2766666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q17952" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q17952 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

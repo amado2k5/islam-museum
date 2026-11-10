@@ -1,0 +1,20 @@
+id: place/ksar-el-kebir
+class: place
+kind: city
+label: { ar: "القصر الكبير", en: "Ksar el-Kebir" }
+summary:
+  ar: "مدينة."
+  en: "City in northwest Morocco."
+wings: [place]
+coordinates: [34.9990773, -5.8998397]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q52603" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q52603 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/southern-thailand
+class: place
+kind: region
+label: { ar: "جنوب تايلاند", en: "Southern Thailand" }
+summary:
+  ar: "إقليم."
+  en: "Region of Thailand."
+wings: [place]
+coordinates: [8.05923, 99.97559]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1069853" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1069853 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

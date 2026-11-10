@@ -1,0 +1,20 @@
+id: place/azougui
+class: place
+kind: region
+label: { ar: "آزوكي", en: "Azougui" }
+summary:
+  ar: "إقليم."
+  en: "Site of the first capital of the Almoravids in the Adrar Region, Mauritania."
+wings: [place]
+coordinates: [20.566194444444445, -13.105472222222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q639003" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q639003 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

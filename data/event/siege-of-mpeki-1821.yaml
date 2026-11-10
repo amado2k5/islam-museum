@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1821", precision: year, status: tradition, derived: true }
   end: { edtf: "1821", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [22.371, 38.896]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1821"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مبيكي ⁦(١٨٢١)⁩", en: "Siege of Mpeki (1821)" }, at: [22.371, 38.896], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/stavros }
 sides:
   - label: { ar: "قوات محمود الثاني", en: "The forces of محمود الثاني" }
     participants: [person/mahmud-ii-uthmani]

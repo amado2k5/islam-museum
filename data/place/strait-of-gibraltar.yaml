@@ -1,0 +1,20 @@
+id: place/strait-of-gibraltar
+class: place
+kind: sea
+label: { ar: "مضيق جبل طارق", en: "Strait of Gibraltar" }
+summary:
+  ar: "بحر."
+  en: "Strait that connects the Atlantic Ocean to the Mediterranean Sea."
+wings: [place]
+coordinates: [35.97388888888889, -5.516111111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q36124" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q36124 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

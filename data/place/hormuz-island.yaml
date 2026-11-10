@@ -1,0 +1,20 @@
+id: place/hormuz-island
+class: place
+kind: island
+label: { ar: "هرمز", en: "Hormuz Island" }
+summary:
+  ar: "جزيرة."
+  en: "Island in Bandar Abbas County, Iran."
+wings: [place]
+coordinates: [27.0675, 56.46]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q695265" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q695265 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

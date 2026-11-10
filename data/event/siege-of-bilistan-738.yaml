@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0738", precision: year, status: tradition, derived: true }
   end: { edtf: "0738", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [46.789166666667, 41.883888888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0738"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بيلستان ⁦(٧٣٨)⁩", en: "Siege of Bilistan (738)" }, at: [46.789166666667, 41.883888888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/samur }
 sides:
   - label: { ar: "قوات هشام بن عبد الملك", en: "The forces of Hisham ibn Abd al-Malik" }
     participants: [person/hisham-ibn-abd-al-malik]

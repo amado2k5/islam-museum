@@ -12,6 +12,18 @@ date:
   start: { edtf: "1845-09-23", precision: year, status: tradition, derived: true }
   end: { edtf: "1845-09-26", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-0.5675, 35.260556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1845"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سيدي إبراهيم ⁦(١٨٤٥)⁩", en: "Battle of Sidi-Brahim" }, at: [-0.5675, 35.260556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/gambetta }
 external_ids:
   wikidata: Q2889977
 provenance:

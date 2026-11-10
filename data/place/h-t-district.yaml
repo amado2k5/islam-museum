@@ -1,0 +1,20 @@
+id: place/h-t-district
+class: place
+kind: province
+label: { ar: "قضاء هيت", en: "Hīt District" }
+summary:
+  ar: "مقاطعة."
+  en: "District in Al Anbar Governorate, Iraq."
+wings: [place]
+coordinates: [33.73482, 42.68228]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4119531" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4119531 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

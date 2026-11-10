@@ -1,0 +1,20 @@
+id: place/cuenca
+class: place
+kind: province
+label: { ar: "قونكة", en: "Cuenca" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality and capital of the province of Cuenca, Spain."
+wings: [place]
+coordinates: [40.071666666666665, -2.1344444444444446]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q15098" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q15098 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

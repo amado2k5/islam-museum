@@ -1,0 +1,20 @@
+id: place/axarqu-a
+class: place
+kind: province
+label: { ar: "الشرقية ⁦(مالقة)⁩", en: "Axarquía" }
+summary:
+  ar: "مقاطعة."
+  en: "Comarca of the province of Malaga, Andalusia, Spain."
+wings: [place]
+coordinates: [36.833333333333, -4.1666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q791881" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q791881 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

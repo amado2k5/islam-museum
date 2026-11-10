@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1513-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1513-04", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [29.653055555556, 40.264444444444]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1513"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة يني شهر ⁦(١٥١٣)⁩", en: "Battle of Yenişehir (1513)" }, at: [29.653055555556, 40.264444444444], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/yeni-ehir }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q85976551

@@ -1,0 +1,20 @@
+id: place/al-wajh
+class: place
+kind: town
+label: { ar: "الوجه", en: "Al Wajh" }
+summary:
+  ar: "بلدة في السعودية."
+  en: "Human settlement in Saudi Arabia."
+wings: [place]
+coordinates: [26.283333333333335, 36.416666666666664]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q97291213" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q97291213 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

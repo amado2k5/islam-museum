@@ -1,0 +1,20 @@
+id: place/pe-a-cervera
+class: place
+kind: mountain
+label: { ar: "صخرة سيرفيرا", en: "Peña Cervera" }
+summary:
+  ar: "جبل في إسبانيا."
+  en: "Mountain in Spain."
+wings: [place]
+coordinates: [41.942020160705525, -3.4900871906261486]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5690500" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5690500 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

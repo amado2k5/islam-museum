@@ -1,0 +1,20 @@
+id: place/elis-regional-unit
+class: place
+kind: region
+label: { ar: "إيليا", en: "Elis Regional Unit" }
+summary:
+  ar: "إقليم."
+  en: "One of the three regional units of the Western Greece Region of Greece."
+wings: [place]
+coordinates: [37.66666667, 21.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1063649" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1063649 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1764", precision: year, status: tradition, derived: true }
   end: { edtf: "1764", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [73.576416666667, 32.965277777778]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1764"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار روهتاس", en: "Siege of Rohtas (1764)" }, at: [73.576416666667, 32.965277777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/rohtas-fort }
 sides:
   - label: { ar: "قوات مصطفى الثالث", en: "The forces of مصطفى الثالث" }
     participants: [person/mustafa-iii-uthmani]

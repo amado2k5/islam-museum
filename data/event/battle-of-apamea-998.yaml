@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0998", precision: year, status: tradition, derived: true }
   end: { edtf: "0998", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.4, 35.416666666666664]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0998"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أفامية ⁦(٩٩٨)⁩", en: "Battle of Apamea" }, at: [36.4, 35.416666666666664], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/apamea }
 sides:
   - label: { en: "Fatimid Caliphate", ar: "الدولة الفاطمية" }
     participants: [polity/fatimid-caliphate]

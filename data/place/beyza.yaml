@@ -1,0 +1,20 @@
+id: place/beyza
+class: place
+kind: city
+label: { ar: "بيضا", en: "Beyza" }
+summary:
+  ar: "مدينة."
+  en: "City in Fars Province, Iran."
+wings: [place]
+coordinates: [30.00878295841332, 52.36029576119794]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4362947" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4362947 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

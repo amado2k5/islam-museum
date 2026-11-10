@@ -1,0 +1,20 @@
+id: place/anjar
+class: place
+kind: town
+label: { ar: "عنجر", en: "Anjar" }
+summary:
+  ar: "بلدة."
+  en: "Lebanese town."
+wings: [place]
+coordinates: [33.725833333333334, 35.929722222222225]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q60977" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q60977 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

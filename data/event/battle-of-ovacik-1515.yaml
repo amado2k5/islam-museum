@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1515", precision: year, status: tradition, derived: true }
   end: { edtf: "1515", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.216388888889, 39.358611111111]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1515"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أوفاجيك", en: "Battle of Ovacık" }, at: [39.216388888889, 39.358611111111], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ovac-k }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
     participants: [polity/safavid-iran]

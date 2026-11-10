@@ -1,0 +1,20 @@
+id: place/ain-zara
+class: place
+kind: town
+label: { ar: "عين زارة", en: "Ain Zara" }
+summary:
+  ar: "بلدة في ليبيا."
+  en: "Town in Libya."
+wings: [place]
+coordinates: [32.8133, 13.2697]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3607155" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3607155 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

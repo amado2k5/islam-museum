@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1393", precision: year, status: tradition, derived: true }
   end: { edtf: "1393", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [25.628291, 43.078652]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1393"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح تارنوفو", en: "Siege of Tarnovo" }, at: [25.628291, 43.078652], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/veliko-tarnovo }
 sides:
   - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
     participants: [person/al-mutawakkil-ala-llah]

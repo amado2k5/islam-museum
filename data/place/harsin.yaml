@@ -1,0 +1,20 @@
+id: place/harsin
+class: place
+kind: city
+label: { ar: "هرسين", en: "Harsin" }
+summary:
+  ar: "مدينة."
+  en: "City in Kermanshah Province, Iran."
+wings: [place]
+coordinates: [34.272222222222, 47.586111111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q889116" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q889116 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

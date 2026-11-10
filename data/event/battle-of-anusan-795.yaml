@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0795", precision: year, status: tradition, derived: true }
   end: { edtf: "0795", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.247222222222, 36.558055555556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0795"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أنوسان ⁦(٧٩٥)⁩", en: "Battle of Anusan (795)" }, at: [34.247222222222, 36.558055555556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/limonlu-ay }
 sides:
   - label: { ar: "الجيش العباسي", en: "The Abbasid army" }
     participants: [person/harun-al-rashid]

@@ -1,0 +1,20 @@
+id: place/avlonas
+class: place
+kind: town
+label: { ar: "أولونا", en: "Avlonas" }
+summary:
+  ar: "بلدة."
+  en: "Town in Attica, Greece."
+wings: [place]
+coordinates: [38.2501, 23.6944]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q389439" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q389439 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

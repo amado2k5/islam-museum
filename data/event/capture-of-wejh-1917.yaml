@@ -12,6 +12,18 @@ date:
   start: { edtf: "1917-01-23", precision: year, status: tradition, derived: true }
   end: { edtf: "1917-01-24", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [36.416666666666664, 26.283333333333335]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1917"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ الوجه ⁦(١٩١٧)⁩", en: "Capture of Wejh" }, at: [36.416666666666664, 26.283333333333335], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/al-wajh }
 external_ids:
   wikidata: Q115819674
 provenance:

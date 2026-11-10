@@ -1,0 +1,20 @@
+id: place/ghaghara-river
+class: place
+kind: river
+label: { ar: "نهر غاغهرا", en: "Ghaghara River" }
+summary:
+  ar: "نهر."
+  en: "Perennial trans-boundary river originating on the Tibetan Plateau near Lake Mansarovar."
+wings: [place]
+coordinates: [30.6619, 80.6985]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q390232" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q390232 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

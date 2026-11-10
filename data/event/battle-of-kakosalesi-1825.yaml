@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1825", precision: year, status: tradition, derived: true }
   end: { edtf: "1825", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [23.6944, 38.2501]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1825"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كاكوساليسي ⁦(١٨٢٥)⁩", en: "Battle of Kakosalesi (1825)" }, at: [23.6944, 38.2501], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/avlonas }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q12880462

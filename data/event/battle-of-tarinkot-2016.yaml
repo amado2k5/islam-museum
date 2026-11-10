@@ -12,6 +12,18 @@ date:
   start: { edtf: "2016", precision: year, status: tradition, derived: true }
   end: { edtf: "2016", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [65.876667, 32.624167]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2016"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ترينكوت ⁦(٢٠١٦)⁩", en: "Battle of Tarinkot (2016)" }, at: [65.876667, 32.624167], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tarinkot }
 external_ids:
   wikidata: Q26832861
 provenance:

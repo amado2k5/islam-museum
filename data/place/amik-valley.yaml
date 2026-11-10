@@ -1,0 +1,20 @@
+id: place/amik-valley
+class: place
+kind: region
+label: { ar: "سهل العمق", en: "Amik Valley" }
+summary:
+  ar: "إقليم."
+  en: "Turkish valley of archaeological interest."
+wings: [place]
+coordinates: [36.354349, 36.36153]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q481670" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q481670 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1175", precision: year, status: tradition, derived: true }
   end: { edtf: "1175", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.519208, 36.207643]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1175"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار حارم ⁦(١١٧٥)⁩", en: "Siege of Harem (1175)" }, at: [36.519208, 36.207643], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/harem }
 sides:
   - label: { ar: "قوات المستضيء بأمر الله الحسن بن المستنجد", en: "The forces of al-Mustadi bi-Amr Allah al-Hasan ibn al-Mustanjid" }
     participants: [person/al-mustadi-billah]

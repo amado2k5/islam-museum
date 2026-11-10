@@ -1,0 +1,20 @@
+id: place/montfort-castle
+class: place
+kind: region
+label: { ar: "قلعة المنتفورت", en: "Montfort Castle" }
+summary:
+  ar: "إقليم."
+  en: "Ruined crusader castle in the Upper Galilee region in northern Israel."
+wings: [place]
+coordinates: [33.04472222222222, 35.22611111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q14201945" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q14201945 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

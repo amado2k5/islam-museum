@@ -12,6 +12,18 @@ date:
   start: { edtf: "1485", precision: year, status: tradition, derived: true }
   end: { edtf: "1503", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [40.263965, 48.8063858]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1485"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب البولندية العثمانية ⁦(١٤٨٥-١٥٠٣)⁩", en: "Polish–Ottoman War of 1485–1503" }, at: [40.263965, 48.8063858], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/wild-fields }
 external_ids:
   wikidata: Q9377322
 provenance:

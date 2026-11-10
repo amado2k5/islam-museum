@@ -11,8 +11,19 @@ regions: [east-africa]
 date:
   start: { edtf: "1276", precision: year, status: tradition, derived: true }
   end: { edtf: "1276", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [30.743888888889, 18.223055555556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1276"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة دنقلة ⁦(١٢٧٦)⁩", en: "Battle of Dongola" }, at: [30.743888888889, 18.223055555556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/old-dongola }
 sides:
   - label: { en: "Kingdom of Makuria", ar: "المقرة" }
   - label: { en: "Mamluk Sultanate of Egypt", ar: "الدولة المملوكية" }

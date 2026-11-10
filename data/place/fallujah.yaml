@@ -1,0 +1,20 @@
+id: place/fallujah
+class: place
+kind: city
+label: { ar: "الفلوجة", en: "Fallujah" }
+summary:
+  ar: "مدينة."
+  en: "City in the province of Al Anbar, Iraq."
+wings: [place]
+coordinates: [33.35, 43.783333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q191170" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q191170 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/samur
+class: place
+kind: river
+label: { ar: "سامور", en: "Samur" }
+summary:
+  ar: "نهر."
+  en: "River in Russia and Azerbaijan, flowing into the Caspian Sea."
+wings: [place]
+coordinates: [41.883888888889, 46.789166666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1342847" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1342847 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

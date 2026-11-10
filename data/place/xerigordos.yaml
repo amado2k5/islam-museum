@@ -1,0 +1,20 @@
+id: place/xerigordos
+class: place
+kind: site
+label: { ar: "كسري كوردون", en: "Xerigordos" }
+summary:
+  ar: "موقع أثري."
+  en: "Castle in Anatolia."
+wings: [place]
+coordinates: [40.3925, 29.804166666667]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q8043784" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q8043784 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

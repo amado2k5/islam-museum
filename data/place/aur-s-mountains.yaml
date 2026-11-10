@@ -1,0 +1,20 @@
+id: place/aur-s-mountains
+class: place
+kind: mountain
+label: { ar: "جبال الأوراس", en: "Aurès Mountains" }
+summary:
+  ar: "سلسلة جبلية في الجزائر."
+  en: "Mountain range in Algeria."
+wings: [place]
+coordinates: [35.318055555556, 6.6369444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q62624" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q62624 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }
