@@ -6,8 +6,8 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخالد بن عقبة بن أبي معيط، من قريش في الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khalid ibn Uqba ibn Abi Mu'ayt, a Qurashi figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "خالد بن عقبة بن أبي معيط الأموي، أخو الوليد، من مسلمة الفتح، نزل الرقة وبها عقبه، وله أثر في حصار عثمان يوم الدار."
+  en: "Khalid ibn Uqba ibn Abi Mu'ayt of the Umayyads, brother of al-Walid, became Muslim at the conquest of Mecca, settled at al-Raqqa where his descendants lived, and had a part in the siege of Uthman's house."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
@@ -16,6 +16,8 @@ died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-umayya, note: "al-Isaba p. 375", sources: [source/ibn-hajar-isaba] }
+  - { type: lived_in, target: place/raqqa, note: "al-Isaba p. 375; settled there; his descendants lived there", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12210034
 provenance:

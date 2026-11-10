@@ -6,17 +6,18 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لالحارث بن عرفجة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Harith ibn Arfaja, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "الحارث بن عرفجة الأنصاري الأوسي، ذكره موسى بن عقبة وابن إسحاق فيمن شهد بدراً."
+  en: "Al-Harith ibn Arfaja al-Ansari of the Aws; Musa ibn Uqba and Ibn Ishaq list him among those who fought at Badr."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
-born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
-died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: member_of, target: group/al-aws, note: "al-Isaba p. 263", sources: [source/ibn-hajar-isaba] }
+ - { type: member_of, target: group/ansar, note: "al-Isaba p. 263", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 263; Musa ibn Uqba and Ibn Ishaq list him among the Badr veterans", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12186008
 provenance:

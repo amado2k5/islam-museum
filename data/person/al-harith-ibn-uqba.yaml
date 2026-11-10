@@ -6,17 +6,18 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لالحارث بن عقبة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Harith ibn Uqba, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "الحارث بن عقبة بن قابوس المزني، قدم هو وعمه وهب بن قابوس المدينة بغنم لهما يوم أحد فأسلما وقاتلا حتى قُتلا."
+  en: "Al-Harith ibn Uqba ibn Qabus of Muzayna; he and his uncle Wahb ibn Qabus reached Medina with their flock on the day of Uhud, became Muslims and fought until both were killed."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
-born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
-died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0625-03", hijri: "0003-10", calendar: julian, precision: month, status: tradition, derived: true, note: "Killed fighting at Uhud, after al-Waqidi's Maghazi (al-Isaba p. 263); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 263", sources: [source/ibn-hajar-isaba] }
+ - { type: died_in, target: place/uhud, note: "al-Isaba p. 263", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12186011
 provenance:

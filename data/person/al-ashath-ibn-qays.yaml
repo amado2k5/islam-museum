@@ -37,7 +37,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "661", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "0661~", hijri: "0040", calendar: julian, precision: year, status: debated, derived: true, note: "Died forty nights after the killing of Ali, and al-Hasan ibn Ali prayed over him, after Khalifa and Abu Nu'aym; others give 42 AH (al-Isaba p. 70); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/kufa

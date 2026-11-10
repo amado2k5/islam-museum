@@ -38,7 +38,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "690", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib)" }
+died: { edtf: "0691~", hijri: "0072", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in the governorship of Mus'ab ibn al-Zubayr; Ibn Hibban dates it to 72 AH (al-Isaba p. 137); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/kufa

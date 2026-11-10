@@ -38,7 +38,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 born: { edtf: "612", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "712", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "0712~", hijri: "0093", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Basra; Abu Nu'aym al-Kufi, al-Mada'ini and Khalifa give 93 AH, others 90, 91 or 92 (al-Isaba p. 101); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/basra
@@ -60,6 +60,7 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- { type: died_in, target: place/basra, note: "al-Isaba p. 101", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 430، ص 100
