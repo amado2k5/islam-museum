@@ -16,6 +16,7 @@ date:
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/tajarib-al-umam-surush-v6] }
   - { type: related_to, target: place/basra, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: during_reign, target: person/al-mustakfi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tajarib-al-umam-surush-v6]
 provenance:
   layer: own-research
