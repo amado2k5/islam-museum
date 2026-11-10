@@ -17,6 +17,7 @@ relations:
   - source/tarikh-ibn-khaldun-ibar
 - { type: had_participant, target: person/muhammad-ibn-sulayman-al-katib, role: "القائد الفاتح", sources: [source/muntazam-ibn-al-jawzi] }
 - { type: had_participant, target: person/harun-ibn-khumarawayh, role: "آخر الأمراء", sources: [source/muntazam-ibn-al-jawzi] }
+- { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/abbasid-fragmentation]
 regions: [egypt-nile]

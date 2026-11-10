@@ -30,6 +30,7 @@ relations:
   - { type: had_participant, target: person/usama-ibn-zayd }
   - { type: part_of, target: event/farewell-pilgrimage }
   - { type: mentions, target: work/farewell-sermon }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 250-253; al-Raheeq al-Makhtum pp. 458-462", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-11" }
 sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/ibn-hisham-saqqa, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 250-253" }

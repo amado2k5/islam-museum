@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/nablus, note: "جبال حميدة بأعمال نابلس تقريباً", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-faryani, role: "مدعي المهدية", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 848)، قراءة آبل فيجن"
