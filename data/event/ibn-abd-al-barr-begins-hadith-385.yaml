@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/ibn-abd-al-barr, role: "الطالب", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-umar-al-talamanki, role: "من شيوخه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

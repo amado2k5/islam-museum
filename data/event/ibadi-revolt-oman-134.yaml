@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/al-julanda-ibn-masud, role: "إمام الثائرين وقُتل فيهم", sources: [source/duha-islam] }
   - { type: had_participant, target: person/khazim-ibn-khuzayma, role: "قائد الجيش العباسي", sources: [source/duha-islam] }
   - { type: occurred_at, target: place/oman, sources: [source/duha-islam] }
+  - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/duha-islam]
 provenance:
   layer: own-research
