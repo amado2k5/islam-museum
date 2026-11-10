@@ -17,7 +17,6 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص6)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
-born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibsar al-Ayn fi Ansar al-Husayn" }
 died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibsar al-Ayn fi Ansar al-Husayn" }
 relations:
   - { type: spouse_of, target: person/baraka-bint-yasar, sources: [source/ibn-hisham-saqqa] }

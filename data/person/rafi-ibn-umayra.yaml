@@ -26,7 +26,6 @@ story_roles:
 faith:
   - { value: christian, basis: tradition, end: { edtf: "0629~" }, note: "بحسب حديثه عن نفسه عند ابن إسحاق: كنت امرأً نصرانياً وسميت سرجس", sources: [source/ibn-hisham-saqqa] }
   - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم قبل غزوة ذات السلاسل؛ يُسجَّل ضمن الإطار السني للمتحف", sources: [source/ibn-hisham-saqqa] }
-born: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
 died: { edtf: "640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
 relations:
   - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "صحب أبا بكر وروى وصيته", sources: [source/ibn-hisham-saqqa] }
