@@ -15,6 +15,7 @@ date:
 relations:
   - { type: had_participant, target: person/selim-i-ottoman, role: "السلطان الجديد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/bayazid-ii, role: "السلطان المتنازل", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 provenance:
   layer: own-research
