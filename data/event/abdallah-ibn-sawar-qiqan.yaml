@@ -10,6 +10,10 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-sawar, role: "صاحب الثغر المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qiqan }
 wings: [time]
+sides:
+  - label: { ar: "الغزاة", en: "The raiders" }
+  - label: { ar: "حامية القيقان", en: "The defenders of al-Qiqan" }
+    participants: [place/qiqan]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

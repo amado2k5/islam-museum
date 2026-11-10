@@ -17,6 +17,9 @@ relations:
   - { type: related_to, target: person/jundub-ibn-awf, role: "رئيس بني مالك", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/uhayha-ibn-al-julah, role: "الرافض للحلف وصاحب الأطم الأول", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/taif, sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "السلطات", en: "The authorities" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

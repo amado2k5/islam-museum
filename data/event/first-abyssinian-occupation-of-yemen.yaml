@@ -25,5 +25,9 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-2a"
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية اليمن", en: "The defenders of Yemen" }
+    participants: [place/yemen]
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 24, 40–41" }

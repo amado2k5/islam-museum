@@ -11,6 +11,9 @@ relations:
   - { type: had_participant, target: person/buna-al-saghir, role: "محاربه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/marand }
 wings: [time]
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "السلطات", en: "The authorities" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

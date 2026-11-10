@@ -13,6 +13,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1837", precision: year, status: tradition, derived: true }
   end: { edtf: "1838", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية هراة", en: "The defenders of هراة" }
+    participants: [place/herat]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7510082

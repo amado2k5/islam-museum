@@ -18,6 +18,9 @@ relations:
   - { type: had_participant, target: person/isa-calabi, role: "المتنازع في بروسة", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/musa-ibn-bayezid, role: "المتنازع المُطلق من الأسر", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/muhammad-i-jalabi, role: "الغالب فيها", sources: [source/dawlat-uthmaniyya-salabi] }
+sides:
+  - label: { ar: "المعارضة", en: "The opposition" }
+  - label: { ar: "السلطات", en: "The authorities" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

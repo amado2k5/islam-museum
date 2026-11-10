@@ -13,6 +13,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1389", precision: year, status: tradition, derived: true }
   end: { edtf: "1389", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية تلمسان", en: "The defenders of Tlemcen" }
+    participants: [place/tlemcen]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111211181

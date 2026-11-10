@@ -14,6 +14,10 @@ relations:
   - { type: had_participant, target: group/thaqif, role: "المستولون", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "المغلوبون", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/taif, sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية الطائف", en: "The defenders of Ta'if" }
+    participants: [place/taif]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

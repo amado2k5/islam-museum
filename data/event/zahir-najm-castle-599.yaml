@@ -18,6 +18,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch3
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية قلعة نجم", en: "The defenders of Qal'at Najm" }
+    participants: [place/qalat-najm]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

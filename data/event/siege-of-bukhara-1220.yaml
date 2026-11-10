@@ -13,6 +13,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1220", precision: year, status: tradition, derived: true }
   end: { edtf: "1220", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية بخارى", en: "The defenders of Bukhara" }
+    participants: [place/bukhara]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q110970851

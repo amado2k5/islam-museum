@@ -13,6 +13,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1220-11", precision: year, status: tradition, derived: true }
   end: { edtf: "1221-04", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية نيسابور", en: "The defenders of Nishapur" }
+    participants: [place/nishapur]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5961259
