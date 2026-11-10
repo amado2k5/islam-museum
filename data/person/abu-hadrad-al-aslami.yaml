@@ -12,7 +12,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
-died: { edtf: "0691", hijri: "0071", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Sa'd dates his death to 71 AH, but Mughlatai holds that date belongs to his son's entry; Khalifa and Yahya ibn Bakir also give it (al-Isaba p. 1649); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0691", hijri: "0071", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Sa'd dates his death 71 AH per Muzi; Mughaltay objects that the dated entry is his son Abdullah's (al-Isaba pp. 1648-1649); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
