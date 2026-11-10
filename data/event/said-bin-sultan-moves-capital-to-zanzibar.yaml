@@ -25,7 +25,7 @@ date:
     sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
 relations:
   - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
-  - { type: had_participant, target: person/said-bin-sultan, role: "نقل عاصمته من مسقط إلى زنجبار", sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
+  - { type: related_to, target: person/said-bin-sultan, role: "نقل عاصمته من مسقط إلى زنجبار", sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan] }
 sources: [source/wikipedia-said-bin-sultan-en, source/britannica-said-ibn-sultan]
 provenance:
   layer: own-research

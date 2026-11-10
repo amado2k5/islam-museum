@@ -13,7 +13,7 @@ date:
   start: { edtf: "0946-01-17", hijri: "0334-06-11", calendar: julian, precision: day, status: historical, derived: true, note: "«يوم السبت لإحدى عشرة ليلة خلت من جمادى الآخرة» سنة 334هـ عند مسكويه (تجارب الأمم 6/114-115)؛ التحويل الميلادي مشتق تقريبي. وعند ابن الجوزي سنة 334 دون اليوم (المنتظم ص632-633).", sources: [source/tajarib-al-umam-surush-v6, source/muntazam-ibn-al-jawzi] }
 relations:
   - { type: had_participant, target: person/muizz-al-dawla, role: "أمير الأمراء", sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6] }
-  - { type: had_participant, target: person/al-mustakfi-billah, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6] }
+  - { type: related_to, target: person/al-mustakfi-billah, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6] }
   - { type: had_participant, target: person/abu-jaafar-ibn-shirzad, role: "أمير بغداد قبله ثم كاتبه", sources: [source/tajarib-al-umam-surush-v6] }
   - { type: had_participant, target: person/al-muhallabi-al-wazir, role: "رسول معز الدولة", sources: [source/tajarib-al-umam-surush-v6] }
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6] }

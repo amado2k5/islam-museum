@@ -15,12 +15,12 @@ relations:
   - { type: occurred_at, target: place/al-yamama }
   - { type: occurred_at, target: place/hadiqat-al-mawt }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قائد الجيش والمصالِح المخدوع", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/musaylima, role: "قُتل في حديقة الموت واختلف في قاتله", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/musaylima, role: "قُتل في حديقة الموت واختلف في قاتله", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/mujjaa-ibn-murara, role: "صالح خالداً عن أهل اليمامة بخدعة التسليح", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/zayd-ibn-al-khattab, role: "من شهدائها؛ أخو عمر", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/thabit-ibn-qays, role: "من شهدائها؛ كان على الأنصار يومئذ", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abu-hudhayfa-ibn-utba, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/salim-mawla-abi-hudhayfa, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/zayd-ibn-al-khattab, role: "من شهدائها؛ أخو عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/thabit-ibn-qays, role: "من شهدائها؛ كان على الأنصار يومئذ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abu-hudhayfa-ibn-utba, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/salim-mawla-abi-hudhayfa, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/nusayba-bint-kab, role: "قاتلت يومئذ وجرحت؛ أم حبيب وعبد الله ابني زيد بن عاصم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/wahshi-ibn-harb, role: "كان يدّعي قتل مسيلمة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdullah-ibn-zayd-ibn-asim, role: "من المرشحين لقتل مسيلمة عند بعض الرواة", sources: [source/futuh-buldan-maarif-1407] }

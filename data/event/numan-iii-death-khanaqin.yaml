@@ -10,8 +10,8 @@ summary:
 wings: [time]
 relations:
   - { type: occurred_at, target: place/khanaqin, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/al-numan-ibn-al-mundhir, role: "قُتل/مات في الطاعون", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/zayd-ibn-adi-al-ibadi, sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/al-numan-ibn-al-mundhir, role: "قُتل/مات في الطاعون", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/zayd-ibn-adi-al-ibadi, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hani-ibn-masud, role: "صاحب الوديعة", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/iyas-ibn-qabisa, role: "خلفه على الحيرة", sources: [source/kamil-ibn-al-athir] }
 provenance:
