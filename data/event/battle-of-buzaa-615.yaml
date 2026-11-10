@@ -26,6 +26,7 @@ relations:
   - { type: occurred_at, target: place/buzaa, sources: [source/mirat-al-zaman-risala-2013-v22] }
   - { type: occurred_at, target: place/aleppo, sources: [source/mirat-al-zaman-risala-2013-v22] }
   - { type: related_to, target: place/manbij, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/mirat-al-zaman-risala-2013-v22]
 provenance:
   layer: own-research
