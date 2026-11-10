@@ -23,6 +23,8 @@ Progress file: [`docs/delegation/asma-progress.md`](../../delegation/asma-progre
 - `related_to` pairing edges (الرحمن/الرحيم، الأول/الآخر، الظاهر/الباطن، …).
 - Ibn Majah enumeration flags (`name_meta.enumeration`) where the list differs.
 
+Requirements: `docs/engineering/19-asma-browser-requirements.md` (ids ASMA-R01–R44, production checklist §7).
+
 ## Rules to remember
 
 - Qur'an text never typed; reference `[[passage/quran-<s>-<a>|label]]`. No honorifics. Arabic parentheses isolated (U+2066/U+2069). AI prose stays `status.review: draft` with provenance. ≤ 25 entities per commit; CANARY entry each commit.
