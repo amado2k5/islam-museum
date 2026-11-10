@@ -16,6 +16,7 @@ translations:
   en: { text: "They are asking thee concerning the Spirit. Say: The Spirit is by command of my Lord, and of knowledge ye have been vouchsafed but little.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور تم سے روح کے بارے میں سوال کرتے ہیں۔ کہہ دو کہ وہ میرے پروردگار کی ایک شان ہے اور تم لوگوں کو (بہت ہی) کم علم دیا گیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/al-nafs-wal-ruh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

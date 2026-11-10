@@ -29,7 +29,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["asma.json", "battles.json", "companions.json", "fatwa.json", "jobs.json", "khulafa.json", "khutab.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["asma.json", "battles.json", "companions.json", "fatwa.json", "ghayb.json", "jobs.json", "khulafa.json", "khutab.json", "poetry.json", "qudsi.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");

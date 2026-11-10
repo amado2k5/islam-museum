@@ -34,6 +34,7 @@ export const GET: APIRoute = () => {
     `- [Khutab and Durus dataset](${SITE}/api/v1/khutab.json) — every sermon, lesson and series with speaker, occasion and order`,
     `- [Poetry dataset](${SITE}/api/v1/poetry.json) — every poem and diwan with poets, language, genre and metre`,
     `- [Screening Room dataset](${SITE}/api/v1/screens.json) — every film, series and programme with format, release, countries and ids`,
+    `- [Ghayb Browser dataset](${SITE}/api/v1/ghayb.json) — every unseen-topic record tagged ghayb-browser with kind, section tag, themes and edges`,
     `- [Asma ul Husna dataset](${SITE}/api/v1/asma.json) — the 99 divine names in enumeration order with transliteration, root and edges`,
     `- [Khulafa dataset](${SITE}/api/v1/khulafa.json) — every caliph with roles and reign story_roles; chains at ${SITE}/api/v1/khulafa/chains.json`,
     `- [Battles dataset](${SITE}/api/v1/battles.json) — every military engagement with kind, date, sides, outcome, casualties and the derived ghazwa flag`,

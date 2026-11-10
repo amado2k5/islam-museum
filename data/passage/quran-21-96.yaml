@@ -16,6 +16,7 @@ translations:
   en: { text: "Until, when Gog and Magog are let loose, and they hasten out of every mound,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "یہاں تک کہ یاجوج ماجوج کھول دیئے جائیں اور وہ ہر بلندی سے دوڑ رہے ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/yajuj-majuj, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-21 }
   - { type: mentions, target: group/yajuj-majuj, sources: [source/tanzil-quran] }
 sensitivity: sacred

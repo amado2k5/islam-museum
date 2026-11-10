@@ -331,6 +331,21 @@
         }
       }
     },
+    "/ghayb.json": {
+      "get": {
+        "operationId": "getQudsi",
+        "summary": "Hadith Qudsi Browser dataset",
+        "description": "The Ghayb Browser dataset: every record tagged ghayb-browser (unseen topics — jinn, angels, the soul, time measures, the Ascent, unseen creations, the barzakh, signs of the Hour) with kind, wings, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every hadith qudsi narration of the six books and the Muwatta with work, ref, matn excerpt, hadith tag, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/qudsi.json": {
       "get": {
         "operationId": "getQudsi",

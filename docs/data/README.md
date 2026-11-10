@@ -47,6 +47,7 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/khutab.json` | Khutab and Durus Explorer: every sermon, lesson and lecture series with speaker, occasion, host, audience, series order and edges |
    | `https://api.islam.museum/api/v1/poetry.json` | Poetry: every poem and diwan with its poets, language, genre, metre and edges |
    | `https://api.islam.museum/api/v1/screens.json` | Screening Room: every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, database ids and edges |
+   | `https://api.islam.museum/api/v1/ghayb.json` | Ghayb Browser (متصفح ما وراء الطبيعة): every unseen-topic record tagged `ghayb-browser` — jinn, angels, the soul, divine time measures, the Ascent, the greatest creations, the barzakh, the signs of the Hour — with kind, wings, themes, section tags and edges |
    | `https://api.islam.museum/api/v1/asma.json` | Asma ul Husna Browser: the 99 divine-name concepts in enumeration order with transliteration, root, enumeration, trilingual labels and edges |
    | `https://api.islam.museum/api/v1/battles.json` | Battles, Wars and Conquests Browser: every military-kind event with date, periods, sides, outcome, casualties, map, edges and the derived `ghazwa` flag |
    | `https://api.islam.museum/api/v1/khulafa.json` | Khulafa Browser: every caliph person record with roles and story_roles reigns |

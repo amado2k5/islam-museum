@@ -40,6 +40,7 @@ The phases below are the founding plan, kept for the record. The museum's mainta
 "what comes next" is the changelog's coming-next section (`/{lang}/changelog/`, rendered
 from `CANARY.md`); this list mirrors it so the plan docs answer the same question:
 
+- **The Ghayb Browser** (plan 33, requested in chat 9 Nov 2026): «متصفح ما وراء الطبيعة» — the unseen topics (jinn and angels, the soul, divine time measures, the Ascent, the greatest creations, the barzakh, the signs of the Hour) as tagged records over the one graph at `/[lang]/ghayb/` with `/api/v1/ghayb.json`; next is a human read of the draft records and curated section prose.
 - **The Hadith Qudsi Browser** (plan 32, requested in chat 9 Nov 2026): every hadith qudsi of the six books and the Muwatta, 117 hadiths in 350 narrations, at `/[lang]/qudsi/` with its API file and search; next is a human read of the draft records and a page-level check against a printed Qudsi collection.
 - **The Tafsir Browser** (plan 27, approved in chat 6 Nov 2026): a separate wing of Qur'an commentaries, the Tabari edition (vols 1 to 16) first, then the other tafsirs in the source records; next is the data model with Tabari vols 1 to 9, then the wing, the API and search.
 - **The Modern Islam Browser** (plan 26, approved 6 Nov 2026): Phase 1 (the `award` class, the
