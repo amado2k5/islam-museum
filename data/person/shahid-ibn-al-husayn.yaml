@@ -1,0 +1,20 @@
+id: person/shahid-ibn-al-husayn
+class: person
+label: { ar: "شهيد بن الحسين", en: "Shahid Ibn Al Husayn" }
+summary:
+  ar: "شهيد بن الحسين يكنى أبا الحسن يجري مجرى فلسفة البلخي في العلم والسكن ولهذا الرجل كتب مصنفة وبينه وبين الرازي مناظرات ولكل واحد منهما نقوض على صاحبه {cite:fihrist-ibn-al-nadim p. 416}."
+  en: "Shahid ibn al-Husayn — al-Razi's philosophical rival and fellow sceptic {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "937", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/balkh, sources: [source/wikidata], confidence: low, note: "Nisba بلخي attested in the record." }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch20

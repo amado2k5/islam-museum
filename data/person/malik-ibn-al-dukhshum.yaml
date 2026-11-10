@@ -1,0 +1,27 @@
+id: person/malik-ibn-al-dukhshum
+class: person
+label: { ar: "مالك بن الدخشم", en: "Malik ibn al-Dukhshum" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن الدُّخشم، أخو بني سالم بن عوف" }
+gender: male
+summary:
+  ar: "أخو بني سالم بن عوف؛ دعاه النبي مع معن بن عدي، أو أخيه عاصم، فانطلقا إلى مسجد الضرار فحرّقاه وهدّماه."
+  en: "Brother of Banu Salim ibn Awf; the Prophet summoned him with Ma'n ibn Adi — or his brother Asim — and they went to Masjid al-Dirar and burned and demolished it."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/demolition-of-masjid-al-dirar, role: "كلّفه النبي بهدم المسجد وإحراقه", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-salim-ibn-awf, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 174"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch123
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,29 @@
+id: person/muhammad-adil-shah-bijapur
+class: person
+label:
+  ar: "محمد عادل شاه البيجابوري"
+  en: "Muhammad Adil Shah of Bijapur"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد عادل شاه، سلطان بيجابور من سنة ١٦٢٧م إلى ١٦٥٦م الذي في عهده بُني غول غمباز؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Adil Shah, the sultan of Bijapur from 1627 to 1656 in whose reign the Gol Gumbaz was built; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1613", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/bijapur-sultanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83821)" }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q2646551
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0025
+status:
+  review: draft
+  completeness: 1

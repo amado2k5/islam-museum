@@ -1,0 +1,21 @@
+id: person/amr-ibn-masada
+class: person
+label: { ar: "عمرو بن مسعدة", en: "'Amr ibn Mas'ada" }
+summary:
+  ar: "من وزراء المأمون سلم عليه برسم الوزارة بعد قتل الفضل بن سهل، مات سنة سبع عشرة ومائتين فعرض المأمون لماله ولم يعرض لمال وزير غيره {cite:muruj-al-dhahab p. 399}."
+  en: "The wazir whose estate alone al-Ma'mun seized at his death in 217 {cite:muruj-al-dhahab p. 399}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+died: { edtf: "832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jahshiyari (Wuzara)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Vizier of al-Ma'mun at his court.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

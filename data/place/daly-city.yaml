@@ -1,0 +1,21 @@
+id: place/daly-city
+class: place
+kind: city
+label: { ar: "دالي سيتي", en: "Daly City", ur: "ڈالی سٹی، کیلیفورنیا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q370925)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [37.686388888889, -122.46833333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q370925" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q370925 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

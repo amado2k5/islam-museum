@@ -1,0 +1,29 @@
+id: person/ubaydallah-ibn-ahmad-sahib-al-ard
+class: person
+label:
+  ar: "عبيد الله بن أحمد صاحب العرض"
+  en: "Ubaydallah ibn Ahmad, Sahib al-Ard"
+roles: [official]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبيد الله بن أحمد المهاجر صاحب العرض، من كبار الموظفين العباسيين، توفي سنة ٩٩٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ubaydallah ibn Ahmad al-Muhajir, sahib al-ard, the senior Abbasid official, d. 993; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+relations:
+  - { type: born_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q48195)" }
+  - { type: died_in, target: place/ard-abd-allah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8076298)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q69785396
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0087
+status:
+  review: draft
+  completeness: 1

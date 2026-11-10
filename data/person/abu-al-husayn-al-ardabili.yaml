@@ -1,0 +1,38 @@
+id: person/abu-al-husayn-al-ardabili
+class: person
+label: { ar: "أبو الحسين الأردبيلي", en: "Abu al-Husayn al-Ardabili" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسين الأردبيلي" }
+gender: male
+roles: [jurist, teacher]
+traditions: [sunni]
+died: { hijri: "0381", edtf: "0991~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: توفي سنة إحدى وثمانين وثلاثمائة (PDF ص64)؛ الترجمة ساقطة من ط. مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو الحسين الأردبيلي، درس ببغداد، وتوفي سنة إحدى وثمانين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 64}. ليس هو فرج بن محمد الأردبيلي ولا يوسف بن إبراهيم الأردبيلي."
+  en: "Abu al-Husayn al-Ardabili, who studied at Baghdad and died in 381 {cite:tabaqat-fuqaha-abbas-1981 p. 64}. He is not Faraj ibn Muhammad al-Ardabili, nor Yusuf ibn Ibrahim al-Ardabili."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch86
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: studied at Baghdad", sources: [source/tabaqat-fuqaha-abbas-1981] }

@@ -1,0 +1,23 @@
+id: event/siege-of-tarnovo-1393
+class: event
+kind: conquest
+label: { ar: "فتح تارنوفو", en: "Siege of Tarnovo" }
+summary:
+  ar: "بطاقة أولية لفتح تارنوفو سنة ١٣٩٣م، سقوط عاصمة بلغاريا الثانية بيد العثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tarnovo in 1393, the fall of the Second Bulgarian capital to the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1393", precision: year, status: tradition, derived: true }
+  end: { edtf: "1393", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3394064
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: person/ibn-nubata-al-misri
+class: person
+label: { ar: "جمال الدين ابن نباتة المصري" }
+summary:
+  ar: "الأديب الشهير جمال الدين ابن نباتة المصري كاتب الإنشاء؛ من إنشائه توقيع السلطان أبي الحسن المريني بمصاحفه الثلاثة الموقوفة على المساجد الثلاثة ومنه: وهو الذي مد يمينه بالسيف والقلم فكتيب في أصحابها وسطر الختمات الشريفة فأيد الله حزبه بما سطر من أحزابها {cite:nafh-tib-maqqari p. 403-404}."
+  en: "Jamal al-Din Ibn Nubata al-Misri, the celebrated secretary of chancery; his insha' includes the waqf titulature for Abu al-Hasan al-Marini's three endowed mushafs — 'who stretched his right hand with sword and pen' {cite:nafh-tib-maqqari p. 403-404}."
+gender: male
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1287", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 403–404"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60, lib-durar-kamina-batch-3-2026-10-31
+external_ids: { wikidata: "Q1655892" }
+sources: [source/nafh-tib-maqqari, source/durar-kamina-jil-1993]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

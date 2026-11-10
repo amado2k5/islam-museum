@@ -1,0 +1,32 @@
+id: event/nasai-rihla-lands-240
+class: event
+kind: other
+label:
+  ar: "رحلات النسائي في طلب الحديث بخراسان والعراق والشام ومصر والحجاز والجزيرة، بعد ٢٤٠هـ"
+  en: "Al-Nasa'i's hadith journeys through Khurasan, Iraq, al-Sham, Egypt, the Hijaz and the Jazira, after 240/854"
+  ur: "نسائی کے طلبِ حدیث کے سفر: خراسان، عراق، شام، مصر، حجاز اور جزیرہ، 240ھ/854ء کے بعد"
+summary:
+  ar: "سمع النسائي خلقاً من الشيوخ بعد الأربعين ومائتين بخراسان والعراق والشام ومصر والحجاز والجزيرة، ورحل إلى مرو ونيسابور وما وراءها، ومن أبرز شيوخه قتيبة بن سعيد وإسحاق بن راهويه وهشام بن عمار وعيسى بن حماد ومحمد بن النضر المروزي وأبو كريب وسويد بن نصر {cite:tarikh-islam-dhahabi p. 106} {cite:tazkirat-al-huffaz j.2 p. 617}؛ ويذكر المستشرقون أنه طاف أسفاراً واسعة في طلب الحديث قبل استقراره بمصر {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}."
+  en: "After 240/854 al-Nasa'i heard from a host of shaykhs in Khurasan, Iraq, al-Sham, Egypt, the Hijaz and the Jazira, travelling to Marw, Nishapur and beyond; his best-known teachers were Qutayba ibn Sa'id, Ishaq ibn Rahwayh, Hisham ibn Ammar, Isa ibn Hammad, Muhammad ibn al-Nadr al-Marwazi, Abu Kurayb and Suwayd ibn Nasr {cite:tarikh-islam-dhahabi p. 106} {cite:tazkirat-al-huffaz j.2 p. 617}; modern scholars describe extensive travels in quest of hadith before he settled in Egypt {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}."
+  ur: "240ھ/854ء کے بعد نسائی نے خراسان، عراق، شام، مصر، حجاز اور جزیرہ میں بے شمار مشائخ سے سماعت کی اور مرو اور نیشاپور تک سفر کیا؛ ان کے نامور مشائخ میں قتیبہ بن سعید، اسحاق بن راہویہ، ہشام بن عمار، عیسیٰ بن حماد، محمد بن نضر مروزی، ابو کریب اور سوید بن نصر ہیں {cite:tarikh-islam-dhahabi p. 106} {cite:tazkirat-al-huffaz j.2 p. 617}؛ محققین کے نزدیک انہوں نے مصر میں سکونت سے پہلے طلبِ حدیث میں وسیع سفر کیے {cite:encyclopaedia-of-islam-2 vol. 7 p. 1023}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia, levant-iraq, egypt-nile, arabia]
+date:
+  start: { edtf: "0860~", hijri: "0245~", calendar: julian, precision: decade, status: tradition, derived: true, note: "سمع بعد الأربعين ومائتين بخراسان والعراق والشام ومصر والحجاز والجزيرة {cite:tarikh-islam-dhahabi p. 106}؛ عُلّق على نحو ٢٤٥هـ تقديراً لعقد الرحلات، والتحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+relations:
+  - { type: occurred_at, target: place/marw, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/hijaz, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: occurred_at, target: place/al-sham, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: had_participant, target: person/al-nasai, role: "الطالب الرحّالة", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: had_participant, target: person/ishaq-ibn-rahwayh, role: "الشيخ", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 303, printed p. 106 (harvest OCR vol. 301-320); Tadhkirat al-Huffaz j.2 printed p. 617 (harvest OCR AAlexandrina-224163); Encyclopaedia of Islam 2nd ed. vol. 7, printed p. 1023"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

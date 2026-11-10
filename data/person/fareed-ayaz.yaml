@@ -1,0 +1,33 @@
+id: person/fareed-ayaz
+class: person
+label: { ar: "فريد أياز", en: "Fareed Ayaz", ur: "فرید ایاز" }
+names:
+  - { value: "غلام فرید الدین ایاز الحسینی", kind: full }
+  - { value: "Ghulam Fariduddin Ayaz Al-Hussaini", kind: full }
+  - { value: "Farid Ayaz", kind: alternate }
+gender: male
+summary:
+  ar: "قوّال باكستاني ⁦(وُلد 1952 في حيدر آباد)⁩ من غرانة قوال بچوں کا دہلی، يقود مع أخيه أبي محمد فرقة القوالي التي تُعدّ أشهر فرق باكستان اليوم، ويؤدي أيضًا الدروبد والخيال والثمري، وغنّى في كوك ستوديو «كنگنا» (2011) وأعمالًا أخرى، ونال وسام حسن الأداء في 2006."
+  en: "Pakistani qawwal (born 1952 in Hyderabad) of the Qawwal Bachon ka Gharana of Delhi, who leads with his brother Abu Muhammad what is considered Pakistan's best-known qawwali party today; he also sings dhrupad, khayal and thumri, performed 'Kangna' (2011) and other pieces for Coke Studio, and received the Pride of Performance in 2006."
+  ur: "پاکستانی قوال ⁦(پیدائش 1952ء، حیدرآباد)⁩ قوال بچوں کے دہلی گھرانے سے، جو اپنے بھائی ابو محمد کے ساتھ اس قوال پارٹی کی قیادت کرتے ہیں جو آج پاکستان کی معروف ترین سمجھی جاتی ہے؛ وہ دھرپد، خیال اور ٹھمری بھی گاتے ہیں، کوک اسٹوڈیو کے لیے «کنگنا» ⁦(2011ء)⁩ اور دوسرے کام پیش کیے، اور 2006ء میں تمغۂ حسنِ کارکردگی پایا۔"
+wings: [people, living]
+regions: [south-asia]
+roles: [sufi-singer, singer]
+born: { edtf: "1952-11-13", calendar: gregorian, precision: day, status: historical, derived: false, note: "The English article gives 13 November 1952 in Hyderabad, India; Wikidata gives 1952. The family moved to Karachi in 1956.", sources: [source/wikipedia-fareed-ayaz-en, source/wikidata-fareed-ayaz] }
+relations:
+  - { type: born_in, target: place/hyderabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fareed-ayaz] }
+  - { type: child_of, target: person/munshi-raziuddin, sources: [source/wikipedia-fareed-ayaz-en, source/wikipedia-munshi-raziuddin-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him; Sufi devotional song is his repertoire, not an attestation (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-fareed-ayaz-en, source/wikidata-fareed-ayaz]
+footprint:
+  wikipedia: { languages: [bn, en, hi, pa, pnb, ur], checked: "2026-11-06", sources: [source/wikidata-fareed-ayaz] }
+  wikidata: "Q5434930"
+honours:
+  - { award: award/pride-of-performance, result: won, year: 2006, note: "Pakistan Day awards of 23 March 2006, under his full name Farid Ayaz Al-Hussaini (Dawn, 24 March 2006)", sources: [source/wikipedia-fareed-ayaz-en] }
+external_ids: { wikidata: "Q5434930" }
+sources: [source/wikipedia-fareed-ayaz-en, source/wikidata-fareed-ayaz]
+provenance: { layer: own-research, source: "English Wikipedia 'Fareed Ayaz' (revision 1383438843, 2 November 2026) and Wikidata Q5434930 (revision 2564662561), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b05 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

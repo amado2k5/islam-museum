@@ -1,0 +1,16 @@
+id: media/diagram-abu-kamil-integers
+class: media
+kind: illustration
+label: { ar: "من شروط الأعداد إلى جميع الأجوبة", en: "From counting constraints to all answers", ur: "گنتی کی شرطوں سے تمام جوابوں تک" }
+summary: { ar: "سلسلة تعليمية، لا جدول أصلي أو حكم في اختلاف أعداد المخطوط.", en: "Teaching chain, not original table or adjudication of manuscript count variants.", ur: "تدریسی زنجیر، اصل جدول یا مخطوطے کی مختلف گنتیوں کا فیصلہ نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/abu-kamil-integer-enumeration]
+alt:
+  ar: "عدد كلي وكلفة ثم معادلتان وقيود صحيحة وتعداد وفحص؛ سلسلة حديثة لا رسم مخطوط."
+  en: "Total count and cost, two equations, integer restrictions, enumeration and checking; modern chain, not manuscript."
+  ur: "کل تعداد و لاگت، دو مساوات، صحیح عددی قید، شمار اور جانچ؛ جدید زنجیر، مخطوطہ نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/tdv-abu-kamil, source/abu-kamil-mactutor]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b83", source: "Generic museum chain, not a copied original table or reconstructed manuscript algorithm." }

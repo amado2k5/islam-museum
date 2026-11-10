@@ -1,0 +1,28 @@
+id: person/zurara-ibn-awfa
+class: person
+label:
+  ar: "زرارة بن أوفى"
+  en: "Zurara ibn Awfa"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لزرارة بن أوفى؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Zurara ibn Awfa; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+died: { edtf: "711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106940341
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3

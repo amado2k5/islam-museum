@@ -1,0 +1,23 @@
+id: event/siege-of-nicaea-1097
+class: event
+kind: siege
+label: { ar: "حصار نيقية", en: "Siege of Nicaea" }
+summary:
+  ar: "بطاقة أولية لحصار نيقية سنة ١٠٩٧م، أولى وقائع الحملة الصليبية الأولى التي سقطت بها عاصمة سلاجقة الروم بيد الفرنج والبيزنطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Nicaea in 1097, the opening action of the First Crusade in which the Seljuk capital fell to the Crusader-Byzantine force; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1097", precision: year, status: tradition, derived: true }
+  end: { edtf: "1097", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q642117
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

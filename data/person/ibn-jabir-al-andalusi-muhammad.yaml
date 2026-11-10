@@ -1,0 +1,31 @@
+id: person/ibn-jabir-al-andalusi-muhammad
+class: person
+label: { ar: "ابن جابر الأندلسي محمد بن أحمد", en: "Ibn Jabir al-Andalusi, Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن أحمد بن علي ابن جابر الأندلسي" }
+gender: male
+roles: [poet, scholar]
+traditions: [sunni]
+born: { edtf: "1298", hijri: "0698", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1378", hijri: "0780", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر أندلسي وعالم بالعربية، من أهل المرية."
+  en: "An Andalusian poet and scholar of Arabic from Almeria."
+wings: [people]
+themes: [literature, linguistics]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/almeria, confidence: low, note: "Associated with المرية per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص7"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch58

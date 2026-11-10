@@ -1,0 +1,21 @@
+id: event/harran-destroyed-670
+class: event
+kind: other
+label: { ar: "خراب حران الأخير سنة 670هـ", en: "Harran's final ruin, 670" }
+summary:
+  ar: "في رمضان سنة سبعين حولت التتار من تبقى من أهل حران إلى المشرق وخربت ودثرت بالكلية — وكان قد أخليت سنة سبع وستين ووصل منها خطيبها ابن تيمية وغيره {cite:shadharat-dhahab p. 577, 564}."
+  en: "Ramadan 670 — the Tatars moved Harran's remaining people east and the city was ruined utterly; it had been emptied three years earlier when its khatib Ibn Taymiyya and others came down to Damascus {cite:shadharat-dhahab p. 577, 564}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+map: { kind: locator, precision: locality, center: [36.8633, 39.0317] }
+date: { start: { edtf: "1272-03~", hijri: "0670-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان سنة سبعين وستمائة {cite:shadharat-dhahab p. 577}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/harran, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 670)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

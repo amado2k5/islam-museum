@@ -1,0 +1,20 @@
+id: person/hanzala-ibn-zayd
+class: person
+label: { ar: "حنظلة بن زيد", en: "Hanzala ibn Zayd" }
+summary:
+  ar: "أخو عروة بن زيد الخيل الطائي؛ عند البلاذري خلفه بالري حين قدم على عمار ثم على عمر بالبشارة."
+  en: "brother of Urwa ibn Zayd; in al-Baladhuri, left in command at Rayy while Urwa bore the victory news to Umar."
+wings: [people]
+periods: [period/rashidun, period/abbasid-early]
+regions: [persia-central-asia]
+born: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+relations:
+  - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with Rayy per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 440–443"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-45
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-25-2292
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2292"
+label: { ar: "الموطأ 2292 — يحيى: المكاتب والجارية الحامل منه قبل الكتابة", en: "Muwatta 2292" }
+summary:
+  ar: "قال يحيى: سمعت مالكا يقول في المكاتب يكاتبه سيده وله جارية بها حمل منه لم يعلم به هو ولا سيده يوم الكتابة: إن الولد لا يتبعه لأنه لم يدخل في الكتابة، وهو لسيده. أما الجارية فهي للمكاتب لأنها من ماله. {cite:muwatta-maruf-1997 p.345}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2292 at PDF p. 345; القضاء في المكاتب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 345; matn excerpt at most 40 words" }

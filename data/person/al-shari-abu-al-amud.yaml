@@ -1,0 +1,22 @@
+id: person/al-shari-abu-al-amud
+class: person
+label: { ar: "أبو العمود الشاري", en: "Abu'l-'Amud al-Shari" }
+summary:
+  ar: "خرج بناحية اليمن والبوازيج والموصل أيام المنتصر فحكم واشتد أمره فيمن انضاف إليه من المحكمة من ربيعة والأكراد، فسرح إليه جيش عليه سما التركي فأسره وحمله فجاد عليه المنتصر بالعفو وأخذ عليه العهد وخلى سبيله، وقال وزيره إن لذة العفو أعذب من لذة التشفي وأقبح أفعال المقتدر الانتقام {cite:muruj-al-dhahab p. 520-521}."
+  en: "The Haruri rebel of Yemen and the Bawazij — captured by Sama's army, pardoned and released by al-Muntasir {cite:muruj-al-dhahab p. 520-521}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/muruj-al-dhahab], confidence: low }

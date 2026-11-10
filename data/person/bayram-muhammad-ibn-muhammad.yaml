@@ -1,0 +1,31 @@
+id: person/bayram-muhammad-ibn-muhammad
+class: person
+label: { ar: "بيرم محمد بن محمد", en: "Bayram, Muhammad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن محمد بن محمد بن حسين بيرم" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1786", hijri: "1201", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1843", hijri: "1259", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم تونسي من أسرة بيرم، ابن بيرم الثاني."
+  en: "A Tunisian scholar of the Bayram family, son of Bayram al-Thani."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/colonial-era]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص257"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55

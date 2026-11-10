@@ -1,0 +1,30 @@
+id: person/shams-al-din-al-dawudi
+class: person
+label:
+  ar: "شمس الدين الداودي المقدسي"
+  en: "Shams al-Din al-Dawudi al-Maqdisi"
+roles: [scholar, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لشمس الدين الداودي المقدسي، عالم وشاعر شامي القرن السادس عشر، توفي سنة ١٥٩٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shams al-Din al-Dawudi al-Maqdisi, the sixteenth-century Levantine scholar and poet, d. 1598; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+died: { edtf: "1538", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1218)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q87706015
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0064
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,48 @@
+id: person/bechir-sfar
+class: person
+label: { ar: "البشير صفر", en: "Béchir Sfar", ur: "بشیر صفر" }
+names:
+  - { value: "البشير صفر", kind: full }
+  - { value: "Béchir Sfar", kind: full }
+gender: male
+summary:
+  ar: "مصلح وقائد وطني تونسي (1856–1917)؛ تخرج في أول دفعة من المدرسة الصادقية ودرس في باريس، ورأس مجلس الحبوس واستقال منه سنة 1898 احتجاجًا على بيع الأوقاف للمستعمرين، وأسس جمعية الخلدونية وجريدة «الحاضرة» (1888)، وشارك علي باش حانبة تأسيس حركة الشباب التونسي سنة 1907، ولُقّب بأبي النهضة التونسية."
+  en: "Tunisian reformer and nationalist leader (1856–1917). In the first graduating class of Sadiki College, he studied in Paris, headed the Habous Council and resigned from it in 1898 in protest at the sale of endowment land to French colonists, founded the Khaldounia association and the newspaper El Hadhira (1888), and co-founded the Young Tunisians with Ali Bach Hamba in 1907; he was called a father of the Tunisian renaissance."
+  ur: "تونسی مصلح اور قوم پرست رہنما (1856–1917)؛ مدرسہ صادقیہ کی پہلی فارغ التحصیل جماعت میں شامل تھے، پیرس میں پڑھا، مجلس حبوس کی صدارت کی اور 1898 میں اوقاف کی زمین فرانسیسی آباد کاروں کو فروخت کے احتجاج میں مستعفی ہوئے، خلدونیہ انجمن اور اخبار «الحاضرہ» (1888) قائم کیا، اور 1907 میں علی باش حانبہ کے ساتھ نوجوان تونسی تحریک کی بنیاد رکھی؛ انھیں تونسی نہضت کا بانی کہا جاتا ہے۔"
+roles: [politician, activist, writer]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1856-02-27"
+  hijri: "1272"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Tunis on 27 February 1856, as the English and French articles and Wikidata agree. The Arabic article's lead gives 27 February 1865 instead — most likely a transposition of the digits, since he was in the first Sadiki graduating class, was sent on a government study mission to Paris in 1880 and was back heading a ministry division by 1882; the 1856 date is followed, with the conflict disclosed. His father Mustafa Sfar, an army commander, was originally from Mahdia. The Hijri year is derived."
+  sources: [source/wikipedia-bechir-sfar-en, source/wikipedia-bechir-sfar-fr, source/wikipedia-bechir-sfar-ar, source/wikidata-bechir-sfar]
+died:
+  edtf: "1917-03-01"
+  hijri: "1335"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Tunis on 1 March 1917. The Hijri year is derived."
+  sources: [source/wikipedia-bechir-sfar-en, source/wikipedia-bechir-sfar-fr, source/wikidata-bechir-sfar]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-bechir-sfar-en, source/wikipedia-bechir-sfar-ar] }
+  - { type: died_in, target: place/tunis, sources: [source/wikipedia-bechir-sfar-en, source/wikipedia-bechir-sfar-fr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source states a religion or school for him. The English article records his call that Tunisians not 'deny their Muslim Arab culture and lose their identity' and his view that national renewal required Islamic culture taught alongside modern sciences — public advocacy about his people's culture, not an attestation of his own school; the Arabic and French articles likewise name none, and Wikidata carries no religion value for him."
+    sources: [source/wikipedia-bechir-sfar-en, source/wikipedia-bechir-sfar-ar, source/wikipedia-bechir-sfar-fr, source/wikidata-bechir-sfar]
+external_ids: { wikidata: "Q2929700" }
+sources: [source/wikipedia-bechir-sfar-en, source/wikipedia-bechir-sfar-ar, source/wikipedia-bechir-sfar-fr, source/wikidata-bechir-sfar]
+provenance:
+  layer: own-research
+  source: "English (revision 1380163630), Arabic (77020332) and French (237265857) Wikipedia articles, each fetched by revision id and asserted, and Wikidata item Q2929700 verified by biography (Tunisian reformer, 1856–1917); existence checks by name fragments, by QID sweep and by biography found no earlier record"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,34 @@
+id: question/is-a-companions-opinion-a-legal-proof
+class: question
+label: { ar: "هل قول الصحابي حجة؟", en: "Is a Companion's opinion a legal proof?", ur: "کیا صحابی کا قول حجت ہے؟" }
+summary:
+  ar: "يحتج ابن قيم الجوزية في «إعلام الموقعين» بوجوب الاقتداء بالصحابة، ويرى قول الصحابي الذي لم يخالفه غيره حجة مقدمة على القياس، ويحكي قول من يرى أنه ليس بحجة، وما يتفرع على القولين إذا خالف قول الصحابي القياس."
+  en: "In I'lam al-Muwaqqi'in, Ibn Qayyim al-Jawziyya argues that following the Companions is obligatory and that a Companion's uncontested opinion is a proof that comes before analogy; he also reports the view that it is not a proof, and how each side treats a Companion's opinion that goes against analogy."
+question: { ar: "هل قول الصحابي حجة؟", en: "Is a Companion's opinion a legal proof?" }
+issue: { ar: "هل يحتج بقول الصحابي إذا لم يُعرف له مخالف، وما منزلته من القياس، وهل يلحق به التابعي؟" }
+short_answer:
+  ar: "ابن القيم ومن وافقه: حجة، وترتيب الأدلة القرآن ثم السنة ثم قول الصحابي ثم القياس؛ وآخرون: ليس بحجة، ولهم في مخالفته القياس قولان."
+  en: "Ibn al-Qayyim and those who agree: it is a proof, and the order of proofs is Qur'an, Sunna, Companion's opinion, then analogy. Others: it is not a proof, and they hold two views when it goes against analogy."
+perspectives:
+  - tradition: sunni-hanbali
+    id: ibn-al-qayyim-ilam
+    standing: main
+    stance: { ar: "قول الصحابي حجة مقدمة على القياس" }
+    summary: { ar: "يسوق ابن القيم وجوهاً كثيرة في إيجاب الاقتداء بالصحابة، منها حديث حذيفة في الاقتداء بأبي بكر وعمر، ويقرر أن قولهم في التفسير مقدم على كل قول، ويذكر أن من يرى قول الصحابي حجة يرتب الأدلة: القرآن ثم السنة ثم قول الصحابي ثم القياس، ويرى قول الصحابي أقوى من القياس الذي يخالفه." }
+    holders: [person/ibn-qayyim-al-jawziyya]
+    evidence: [{ ref: source/ilam-muwaqqiin-ibn-jawzi-v6, note: { ar: "ص 5، 38–40" } }]
+    sources: [source/ilam-muwaqqiin-ibn-jawzi-v6]
+  - tradition: sunni
+    id: not-hujja-as-reported
+    standing: secondary
+    stance: { ar: "قول الصحابي ليس بحجة في نفسه" }
+    summary: { ar: "يحكي ابن القيم أن من يقول إن قول الصحابي ليس بحجة لهم فيما إذا خالف القياس قولان: أنه أولى ألا يكون حجة لأنه خالف حجة شرعية، وأنه حجة حينئذ ويحمل على أنه قاله توقيفاً فيكون بمنزلة المرسل الذي عمل به مرسله؛ ولا يسميهم في هذا الموضع." }
+    evidence: [{ ref: source/ilam-muwaqqiin-ibn-jawzi-v6, note: { ar: "ص 39، بنقل ابن القيم" } }]
+    sources: [source/ilam-muwaqqiin-ibn-jawzi-v6]
+related: [concept/ijtihad, concept/taqlid, work/ilam-al-muwaqqiin]
+wings: [ideas]
+themes: [development-of-law-theology-institutions]
+sensitivity: contested
+sources: [source/ilam-muwaqqiin-ibn-jawzi-v6]
+provenance: { layer: own-research, source: "إعلام الموقعين، دار ابن الجوزي، المجلد السادس ص 5، 38–40", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

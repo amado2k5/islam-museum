@@ -1,0 +1,36 @@
+id: person/ahmad-al-rashidi-al-barzanji
+class: person
+label:
+  ar: "أحمد الرشيدي البرزنجي"
+  en: "Ahmad al-Rashidi al-Barzanji"
+roles: [sufi, jurist, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد الرشيدي البرزنجي، فقيه وصوفي من بيت البرزنجي العلمي الكردي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad al-Rashidi al-Barzanji, the jurist and mystic of the Kurdish Barzanji learned family; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q138680390
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0081
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "1850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: died_in, target: place/mosul-vilayet, note: "Wikidata Q1969497 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

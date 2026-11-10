@@ -1,0 +1,94 @@
+id: person/juwayriya-bint-al-harith
+education:
+  did_you_know:
+    ar: "جويرية بنت الحارث أم المؤمنين ابنة سيد بني المصطلح، تزوجها النبي فأطلق المسلمون ما في أيديهم من سبي قومها تكريماً له."
+    en: "Juwayriya bint al-Harith, a Mother of the Believers and daughter of Banu'l-Mustaliq's chief; her marriage led the Muslims to free their captives of her tribe in honor."
+    ur: "جویریہ بنت حارث، ام المومنین اور بنو المصطلق کے سردار کی بیٹی؛ ان سے نکاح پر مسلمانوں نے ان کے قبیلے کے قیدی عزت میں چھوڑ دیے۔"
+    sources: [source/ibn-hajar-isaba, source/mubarakpuri-raheeq]
+class: person
+aliases:
+  - person/juwayriyya-bint-al-harith
+label:
+  ar: جويرية بنت الحارث
+  en: Juwayriya bint al-Harith
+names:
+  - kind: full
+    lang: ar
+    value: جويرية بنت الحارث بن أبي ضرار بن حبيب بن جذيمة (المصطلق) الخزاعية المصطلقية
+  - kind: alternate
+    lang: ar
+    value: برة
+gender: female
+roles:
+  - companion
+traditions:
+  - sunni
+summary:
+  ar: أم المؤمنين، ابنة سيد بني المصطلق؛ وقعت في السبي يوم المريسيع فكاتبت على نفسها، فأدى النبي كتابتها وتزوجها، فأطلق الناس ما في أيديهم من بني المصطلق، فأعتق الله بها مئة أهل بيت.
+  en: "A Mother of the Believers, daughter of the chief of Banu al-Mustaliq; she fell among the captives at al-Muraysi' and arranged her own manumission, the Prophet paid it and married her, and people released the Mustaliq captives they held, so that a hundred households were freed through her."
+wings: [people]
+themes:
+  - women
+  - family-marriage-kinship
+periods:
+  - period/prophetic-era
+  - period/rashidun
+regions:
+  - arabia
+story_roles:
+  - role: companion
+    status: tradition
+    note: مذكور في الإصابة ترجمة رقم 11056 (ص 1841).
+    sources:
+      - source/ibn-hajar-isaba
+      - source/mubarakpuri-raheeq
+faith:
+  - value: sunni
+    basis: tradition
+    note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "608~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "676", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - type: born_in
+    target: place/mecca
+  - type: member_of
+    target: group/ahl-al-bayt
+  - type: participated_in
+    target: event/expedition-of-banu-al-mustaliq
+    role: "السبية التي تزوجها النبي فأُعتق قومها"
+    sources:
+      - source/mubarakpuri-raheeq
+  - type: spouse_of
+    target: person/muhammad
+    sources:
+      - source/ibn-hajar-isaba
+      - source/mubarakpuri-raheeq
+  - type: spouse_of
+    target: person/musafi-ibn-safwan
+    note: "زوجها الأول مسافع بن صفوان ابن عمها؛ قُتل يوم المريسيع (نساء حول الرسول ص118-120)."
+    sources:
+      - source/nisa-hawl-alrasul
+  - type: member_of
+    target: group/mothers-of-the-believers
+    sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11056، ص 1841
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch111
+external_ids: { wikidata: "Q3595927" }
+sources:
+  - source/ibn-hajar-isaba
+  - source/mubarakpuri-raheeq
+  - source/zad-al-maad
+  - source/ibn-hisham-sira
+  - source/ibn-sad-tabaqat-bewley
+  - source/nisa-hawl-alrasul
+  - source/assabile-tareq-al-suwaidan
+status:
+  review: published
+  completeness: 3

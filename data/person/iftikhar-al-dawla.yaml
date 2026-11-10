@@ -1,0 +1,29 @@
+id: person/iftikhar-al-dawla
+class: person
+label:
+  ar: "افتخار الدولة"
+  en: "Iftikhar al-Dawla"
+roles: [ruler, military]
+gender: male
+summary:
+  ar: "بطاقة أولية لافتخار الدولة، الوالي الفاطمي لبيت المقدس الذي دافع عنها في حصار الفرنج سنة ١٠٩٩م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Iftikhar al-Dawla, the Fatimid governor of Jerusalem who defended the city during the Crusader siege of 1099; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq, egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1099~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Damascene Chronicle / Ibn al-Qalanisi" }
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: The Damascene Chronicle / Ibn al-Qalanisi" }
+relations:
+  - { type: lived_in, target: place/hisar, confidence: low, note: "Associated with حصار per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2604029
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0022
+status:
+  review: draft
+  completeness: 1

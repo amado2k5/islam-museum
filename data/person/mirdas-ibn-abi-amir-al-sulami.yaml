@@ -1,0 +1,22 @@
+id: person/mirdas-ibn-abi-amir-al-sulami
+class: person
+label: { ar: "مرداس بن أبي عامر السلمي", en: "Mirdas ibn Abi Amir" }
+summary:
+  ar: "مرداس بن أبي عامر السلمي أبو العباس بن مرداس، عده المسعودي فيمن قتلته الجن {cite:muruj-al-dhahab p. 474}."
+  en: "Father of al-Abbas ibn Mirdas — counted by al-Mas'udi among the men the jinn killed {cite:muruj-al-dhahab p. 474}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 474"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,26 @@
+id: event/birth-ibn-al-tiqtaqa-660
+class: event
+kind: birth
+label:
+  ar: "مولد ابن الطقطقي بعد سقوط بغداد، نحو ٦٦٠هـ"
+  en: "Birth of Ibn al-Tiqtaqa soon after the fall of Baghdad, c. 660/1262"
+  ur: "ابن طقطقی کی پیدائش بغداد کے سقوط کے فوراً بعد، تقریباً 660ھ/1262ء"
+summary:
+  ar: "وُلد صفي الدين محمد بن علي بن طباطبا المعروف بابن الطقطقي، على ما يظهر، قريباً من فتح المغول بغداد سنة ٦٥٦هـ، وهو لا يذكر أنه شهد الفتح بنفسه؛ وينتهي نسبه إلى الحسن بن علي عن طريق إبراهيم الطباطبا {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  en: "Safi al-Din Muhammad ibn Ali ibn Tabataba, known as Ibn al-Tiqtaqa, was born, it seems, shortly after the Mongol conquest of Baghdad in 656/1258 — he does not mention witnessing it himself — and his line runs back to al-Hasan ibn Ali through Ibrahim al-Tabataba {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  ur: "صفی الدین محمد بن علی بن طباطبا، المعروف ابن طقطقی، غالباً 656ھ/1258ء میں بغداد کی مغول فتح کے فوراً بعد پیدا ہوئے — وہ خود فتح کے مشاہدے کا ذکر نہیں کرتے — اور ان کا نسب ابراہیم طباطبا کے ذریعے حسن بن علی تک پہنچتا ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1262~", hijri: "0660~", calendar: julian, precision: year, status: tradition, derived: true, note: "وُلد قريباً من فتح بغداد ٦٥٦هـ دون تحديد سنة {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التقريب ٦٦٠هـ/١٢٦٢م مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: had_participant, target: person/ibn-al-tiqtaqa, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn al-Tiktaka (F. Rosenthal), printed p. 988 (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-tiqtaqa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

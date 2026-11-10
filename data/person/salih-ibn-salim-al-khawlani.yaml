@@ -1,0 +1,32 @@
+id: person/salih-ibn-salim-al-khawlani
+class: person
+label:
+  ar: "صالح بن سالم الخولاني"
+  en: "Salih ibn Salim al-Khawlani"
+names:
+  - { value: "صالح بن سالم الخولاني", kind: full }
+died: { hijri: "0267", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Death 267 AH as given in the appendix; birth not given." }
+summary:
+  ar: "صالح بن سالم الخولاني، مولى لهم، أبو محمد، من علماء المالكية، كان حافظاً للفقه، تفقه بالشافعي ثم مال إلى مذهب المالكية، وروى عن ابن وهب والشافعي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1630}"
+  en: "Salih ibn Salim al-Khawlani, a freedman of his tribe, known as Abu Muhammad, a Maliki scholar who knew the fiqh by heart. He studied under al-Shafi'i and then turned to the Maliki school, and he transmitted from Ibn Wahb and al-Shafi'i. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1630}"
+gender: male
+roles: [jurist]
+wings: [people]
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1630 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

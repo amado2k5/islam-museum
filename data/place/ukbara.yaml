@@ -1,0 +1,38 @@
+id: place/ukbara
+class: place
+kind: town
+label:
+  ar: عكبراء
+  en: Ukbara
+summary:
+  ar: بلدة على الضفة البرية من دجلة؛ عند البلاذري أتاها النسير فأمّن أهلها وأخرجوا لمن معه طعاماً وعلفاً.
+  en: Town on the Tigris; in al-Baladhuri its people were safe-conducted by al-Nusayr and brought food and fodder to his men.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.783333
+- 44.316667
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q766309; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q766309
+sources:
+- source/futuh-buldan-maarif-1407
+- source/wikidata
+- source/geonames-gazetteer
+periods:
+- period/rashidun
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - lib-futuh-buldan-batch-29
+  - lib-futuh-buldan-batch-29
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348

@@ -1,0 +1,28 @@
+id: event/qifti-shelters-yaqut-625
+class: event
+kind: other
+label:
+  ar: "القفطي يُؤوي ياقوت الحموي بحلب، نحو ٦٢٥هـ"
+  en: "Al-Qifti shelters Yaqut al-Hamawi at Aleppo, c. 625/1228"
+  ur: "قفطی نے یاقوت حموی کو حلب میں پناہ دی، تقریباً 625ھ/1228ء"
+summary:
+  ar: "استغل القفطي منصبه المؤثر في خدمة العلم، فآوى بحلب ياقوتَ الحموي الهارب من المغول وأعانه كثيراً في تأليف معجمه الجغرافي الكبير {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ وذلك في سنوات شغله ديوان المال قبل عزله سنة ٦٢٨هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  en: "Al-Qifti used his influential office to further scholarship: he sheltered at Aleppo Yaqut al-Hamawi, who had fled the Mongols, and gave him much help in the compilation of his great geographical dictionary {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}; this fell within his years over the diwan of finances before his dismissal in 628 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  ur: "قفطی نے اپنے بااثر منصب کو علم کی خدمت میں لگایا: حلب میں منگولوں سے بھاگے یاقوت حموی کو پناہ دی اور ان کے عظیم جغرافیائی معجم کی تصنیف میں کثیر معاونت کی {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ یہ ان کے دیوان مال کے زمانے میں 628ھ کے عزل سے پہلے کا واقعہ ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1228~", hijri: "0625~", calendar: julian, precision: year, status: tradition, derived: true, note: "غير مؤرخ في المصدر؛ داخل مدة شغله ديوان المال (٦١٦–٦٢٨هـ) وإقامة ياقوت بحلب {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التاريخ تقريبي مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "المُؤوي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "الهارب من المغول المُعان", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,26 +1,32 @@
 ---
 id: person/hasan-ibn-ali
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Hasan was the elder grandson of the Prophet, son of [[person/fatima]] and [[person/ali-ibn-abi-talib]]. When his father was killed in 661 he briefly became caliph — then stepped down and gave the leadership to Muawiya, a choice remembered as either peacemaking or defeat.
+Hasan, the elder grandson of the Prophet, son of [[person/fatima|Fatima]] and [[person/ali-ibn-abi-talib|Ali]]. The people gave him the caliphate when his father was killed in 661 CE, and then he ceded it to Mu'awiya. His choice is recorded as a settlement by some and as a defeat by others.
 
 ## Life
-Born in Medina in mid-625 CE {cite:ibn-sad-tabaqat-bewley}, Hasan grew up in the Prophet's household; the traditions describe the Prophet's tenderness toward him and his brother [[person/husayn-ibn-ali]].
+He was born in Medina in the middle of 625 CE {cite:ibn-sad-tabaqat-bewley}. He grew up in the household of prophethood, and traditions tell of the Prophet's tenderness toward him and his brother [[person/husayn-ibn-ali|Husayn]].
 
-When Ali was assassinated in January 661, the people of Kufa pledged to Hasan. Facing Muawiya's stronger Syrian army, and reports of defections in his own camp, he negotiated an abdication later that year on terms that included an amnesty and, in some reports, a stipulation that Muawiya's successor not be appointed {cite:madelung-1997}. He retired to Medina and died there about 670 CE. The tradition that he was poisoned is widely repeated; historians treat it as unproven {cite:madelung-1997}.
-
-:::perspectives
-- **Sunni**: Sunni tradition reveres Hasan as the Prophet's beloved grandson and counts his abdication an act of reconciliation that ended the first civil war — the year remembered as the 'year of unity' {cite:ibn-sad-tabaqat-bewley}.
-- **Academic**: Historians describe a caliphate that lacked the military and political base to continue, so that the abdication was as much a consequence of weakness as of peacemaking {cite:madelung-1997}.
-- **Twelver Shia**: Twelver Shia tradition venerates Hasan as the second Imam, who abdicated under duress to spare his followers, and holds that he was later poisoned at Muawiya's instigation {cite:momen-1985}.
-:::
+When Ali was assassinated in January 661 CE, the people of Kufa pledged allegiance to Hasan. Facing Mu'awiya's Syrian army, which was stronger, and reports of defections in his own camp, he negotiated a concession that year, which included an amnesty. Some accounts also mention a condition that Mu'awiya should not appoint anyone to succeed him {cite:madelung-1997}. He then withdrew to Medina, where he died around 670 CE. It is widely said that he was poisoned, but historians regard this as unestablished {cite:madelung-1997}.
 
 ## Legacy
-His abdication is one of the founding moments of the Sunni–Shia memory of early Islam: the same act read as wisdom by one community and as tragedy by another.
+His abdication is one of the founding moments in the memory of early Islam for Sunnis and Shi'is alike. The same act is read by one community as wisdom, and by another as tragedy.
 
 ## For young visitors
-Hasan had a choice: fight a war he might not win, or give up power to keep the peace. Muslims have been discussing his choice for fourteen hundred years.
+Hasan was given a choice: a war he might not win, or giving up rule to keep the peace. Muslims have been debating his choice for fourteen centuries.
+
+## For Sprouts
+Al-Hasan ibn Ali was the Prophet's elder grandson, son of Fatima and Ali, and one of the masters of the young of Paradise for Muslims. People made him caliph after his father in 661 CE, then he gave it up to Mu'awiya to spare Muslim lives, and lived in Medina until he died.
+
+## For Explorers
+Al-Hasan ibn Ali ibn Abi Talib was born in Medina around 625 CE, the elder of the Prophet's two grandsons. After his father's death in 40 AH (661 CE) the people of Iraq pledged to him as caliph in Kufa, and he marched out against Mu'awiya; but he accepted a treaty giving the caliphate up on conditions the historians name — safety for the people of Iraq and an end to the cursing — and that year was called the Year of Unity. He returned to Medina and died there around 49 or 50 AH, with the sources differing on the cause. Sunnis count him among the rightly guided caliphs and Shia as their second imam.
+
+## For Scholars
+Al-Hasan ibn Ali ibn Abi Talib (c. 3–49/50 AH) was the Prophet's elder grandson, 'his sweet basil' in the hadith, one of the People of the Cloak and, for Sunnis, a master of the young of Paradise. When his father was killed in 40 AH the Iraqis pledged to him in Kufa; he raised an army against Mu'awiya ibn Abi Sufyan, but with his army splintering and himself wounded at al-Mada'in he chose peace: he ceded the caliphate to Mu'awiya on conditions the histories list, among them safety for the people, an end to bloodshed and the removal of his father's cursing from the pulpits — so the historians named 41 AH the Year of Unity (am al-jama'a). He lived in Medina until he died, poisoned on the best-known account, and was buried in al-Baqi after the Umayyads blocked burial beside the Prophet in one telling. For Shia he is the second imam after his father; for Sunnis the man of reconciliation in whose favor the Prophet said 'this son of mine is a master, and through him God may reconcile two great parties'.
+
+## In Abd al-Rahman Mansour's programme 'Ahalina'
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] mentions al-Hasan several times in his programme [[work/ahaleena|'Ahalina']] as evidence of the Prophet's gentleness with children. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep13 00:04:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:09:30} He says that when the Prophet prayed, al-Hasan and al-Husayn would come and ride on his back, and that once while he was giving the Friday sermon al-Hasan and al-Husayn came into the mosque and stumbled, and he came down from the pulpit, carried them, and went back up. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:08:00} From this he argues that a small child should not be scolded for climbing on his father's back in prayer. {cite:assabile-abd-al-rahman-mansour ahaleena/ep07 00:07:30} Under the stern rebuke in upbringing he recalls that al-Hasan took a date from the charity dates to eat, and the Prophet rebuked him, told him to throw it away, and reminded him that they did not eat charity. {cite:assabile-abd-al-rahman-mansour ahaleena/ep13 00:04:30} He mentions too that the Prophet kissed al-Hasan and al-Husayn, and that the two used to sit in his gatherings while still young. {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:06:00}

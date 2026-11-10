@@ -1,0 +1,21 @@
+id: place/purworejo
+class: place
+kind: region
+label: { ar: "منطقة وصاية بوروريجو", en: "Purworejo", ur: "پورووریجو ریجنسی" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q10674)."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [-7.7166666666667, 110.01666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q10674" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q10674 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

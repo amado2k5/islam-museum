@@ -1,0 +1,23 @@
+id: person/yamut-ibn-al-muzarri
+class: person
+label: { ar: "يموت بن المزرع", en: "Yamut ibn al-Muzarri" }
+summary:
+  ar: "محدث وأديب، كان الجاحظ خاله، روى عن مرضه الأخير أنه قال أنا في علة متناقضة من مكانين من الأسقام والدين وأن عمره نيف وسبعون سنة، وكان يموت لا يعود مريضاً خوفاً من أن يتطير باسمه، سكن طبرية من بلاد الأردن بعد الثلثمائة وله ولد مهلهل شاعر مجيد سنة اثنتين وثلاثين وثلثمائة {cite:muruj-al-dhahab p. 569-570}."
+  en: "The Basran littérateur, al-Jahiz's nephew, who never visited the sick lest they take omen from his name 'he dies' {cite:muruj-al-dhahab p. 569-570}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "832", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+died: { edtf: "916", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+relations:
+  - { type: lived_in, target: place/tabariyya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

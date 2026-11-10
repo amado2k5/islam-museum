@@ -1,0 +1,42 @@
+id: person/muhammad-al-tardi-ibn-sawda
+class: person
+label: { ar: "محمد التاردي بن سودة", en: "Muhammad al-Tardi ibn Sawda" }
+names:
+  - { kind: full, lang: ar, value: "محمد التاردي بن الطالب عبد الله بن سودة المري الفاسي" }
+gender: male
+roles: [jurist, muhaddith]
+traditions: [sunni]
+born: { edtf: "1707", hijri: "1118", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1795", hijri: "1209", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه من بيت علم بفاس، ومحدث وصوفي وشيخ."
+  en: "A jurist from a family of scholars in Fez, who was also a hadith scholar and a Sufi."
+wings: [people]
+themes: [development-of-law-theology-institutions, spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص376"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/fes, confidence: low, note: "Association inferred from the nisba 'الفاسي'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

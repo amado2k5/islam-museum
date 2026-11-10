@@ -1,0 +1,19 @@
+id: person/yazid-ibn-abi-habib
+class: person
+label: { ar: "يزيد بن أبي حبيب" }
+summary:
+  ar: "عند البلاذري: راوٍ في إسناد صلح النوبة عن الوليد بن كثير وعن أبي الخير ويروي عنه ابن لهيعة — راوٍ مصري في كتاب فتوح البلدان."
+  en: "In al-Baladhuri: a narrator in the Nubian-peace isnad via al-Walid ibn Kathir and from Abu al-Khayr, and narrated from by Ibn Lahia — an Egyptian narrator in Futuh al-Buldan."
+wings: [people]
+gender: male
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 331–332"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25
+born: { edtf: "673", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
+sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

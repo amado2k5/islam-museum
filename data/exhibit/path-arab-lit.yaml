@@ -1,0 +1,77 @@
+id: exhibit/path-arab-lit
+class: exhibit
+kind: trail
+label:
+  ar: خزانة الأدب
+  en: The Literary Treasury
+summary:
+  ar: 'مسار في كلاسيكيات الأدب: كليلة ودمنة تدخل العربية، وألف ليلة وليلة تدور العالم، والسندباد يبحر
+    سبع مرات.'
+  en: A trail through the classics of adab.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: كليلة ودمنة
+    en: Kalila wa Dimna
+  body:
+    ar: ابن المقفع ينقل الهند إلى العربية.
+    en: ابن المقفع ينقل الهند إلى العربية.
+  features:
+  - work/kalila-wa-dimna
+  - work/kalila-wa-dimna
+- title:
+    ar: ألف ليلة
+    en: The Nights
+  body:
+    ar: 'شهرزاد تحكي ألف ليلة: أشهر كتاب في العالم.'
+    en: 'شهرزاد تحكي ألف ليلة: أشهر كتاب في العالم.'
+  features:
+  - work/alf-layla-wa-layla
+  - place/baghdad
+- title:
+    ar: السندباد
+    en: Sindbad
+  body:
+    ar: 'بحار بغداد: سبع رحلات خيالية.'
+    en: 'بحار بغداد: سبع رحلات خيالية.'
+  features:
+  - work/kitab-al-sindbad
+  - place/basra
+- title:
+    ar: المقامات
+    en: The maqamat
+  body:
+    ar: 'بائع الكلام: فن القصة القصيرة.'
+    en: 'بائع الكلام: فن القصة القصيرة.'
+  features:
+  - work/maqamat-badi-al-zaman
+  - work/maqamat-al-hariri
+- title:
+    ar: حي بن يقظان
+    en: Hayy ibn Yaqzan
+  body:
+    ar: ابن طفيل يكتب فلسفة في قصة.
+    en: ابن طفيل يكتب فلسفة في قصة.
+  features:
+  - work/hayy-ibn-yaqzan
+  - person/ibn-tufayl
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,23 @@
+id: event/battle-of-elbistan-1277
+class: event
+kind: battle
+label: { ar: "معركة البستان", en: "Battle of Elbistan" }
+summary:
+  ar: "بطاقة أولية لمعركة البستان سنة ١٢٧٧م، نصر بيبرس على المغول في أكبر وقائع سلطنته؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Elbistan in 1277, Baybars' great victory over the Ilkhanid army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1277", precision: year, status: tradition, derived: true }
+  end: { edtf: "1277", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2628082
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mamluk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

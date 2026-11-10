@@ -1,0 +1,23 @@
+id: person/jalinus
+class: person
+label: { ar: "جالينوس", en: "Jalinus" }
+summary:
+  ar: "قائد جمع من العجم قاتل أبا عبيدة عند الفرات في وقعة الجسر وانهزم فيها المسلمون بعد قطع الجسر {cite:muruj-al-dhahab p. 604}. وقال عند المسعودي المحبة تقع بين العاقلين لتشاكلهما في العقل ولا تقع بين الأحمقين لأن العقل يجري على ترتيب والحمق لا يجري على ترتيب {cite:muruj-al-dhahab p. 360}"
+  en: "The Persian commander at the Bridge battle where the Muslims, their bridge cut, were routed {cite:muruj-al-dhahab p. 604}."
+gender: male
+wings: [people]
+born: { edtf: "129", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "216", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+relations:
+  - { type: lived_in, target: place/al-furat-city, confidence: low, note: "Associated with الفرات per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

@@ -1,0 +1,86 @@
+id: person/zaynab-bint-jahsh
+class: person
+label:
+  ar: زينب بنت جحش
+  en: Zaynab bint Jahsh
+names:
+- kind: full
+  lang: ar
+  value: زينب بنت جحش الأسدية
+gender: female
+died: { edtf: "0641~", hijri: "0020", calendar: julian, precision: year, status: tradition, note: "توفيت عام 20هـ وكانت أول أزواج النبي لحاقاً به (نساء حول الرسول ص116).", sources: [source/nisa-hawl-alrasul] }
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أم المؤمنين، أمها أميمة بنت عبد المطلب عمة النبي؛ كانت عند زيد بن حارثة ثم تزوجها النبي وفيها نزلت آية في سورة الأحزاب، وتوفيت سنة 20هـ وهي أول نساء النبي موتاً بعده.
+  en: A Mother of the Believers, whose mother Umayma was the Prophet's aunt; she was married to Zayd ibn Haritha and then to the Prophet, and a verse in sura al-Ahzab was revealed about her; she died in 20 AH, the first of his wives to die after
+    him.
+wings: [people]
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11269 (ص 1881).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+- { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }
+- { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }
+- type: child_of
+  target: person/umayma-bint-abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/hamna-bint-jahsh
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/zayd-ibn-haritha
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/marriage-to-zaynab-bint-jahsh
+  role: subject
+  sources: [source/mubarakpuri-raheeq]
+- type: member_of
+  target: group/mothers-of-the-believers
+  sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11269، ص 1881
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch111
+external_ids:
+  wikidata: Q144396
+sources:
+- source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/nisa-hawl-alrasul
+- source/assabile-tareq-al-suwaidan
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/tanner
+    kind: episodic
+    status: tradition
+    note: "The DERI entry (Bozkurt) says she worked leather, sold leather goods and gave the proceeds in charity. The sources it cites were not read, so this is the entry's report."
+    sources: [source/tdv-deri]

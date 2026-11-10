@@ -1,0 +1,31 @@
+id: person/seyyed-ahmad-khosroshahi
+class: person
+label:
+  ar: "سيد أحمد خسروشاهي"
+  en: "Seyyed Ahmad KhosroShahi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسيد أحمد خسروشاهي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Seyyed Ahmad KhosroShahi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/modern-era]
+born: { edtf: "1912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+died: { edtf: "1985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+relations:
+  - { type: born_in, target: place/khosrowshahr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2407931)" }
+  - { type: died_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80053)" }
+  - { type: buried_in, target: place/imam-reza-shrine, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1791841)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5948609
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

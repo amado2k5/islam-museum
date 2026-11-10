@@ -1,0 +1,30 @@
+id: person/husayn-ibn-ali-al-wafai
+class: person
+label:
+  ar: "حسين بن علي الوفائي"
+  en: "Husayn ibn Ali al-Wafa'i"
+roles: [sufi, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لحسين بن علي الوفائي، متصوف وشاعر شامي القرن الثامن عشر، توفي سنة ١٧٤٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Husayn ibn Ali al-Wafa'i, the eighteenth-century Syrian mystic and poet, d. 1743; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1408", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1487", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107247546
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0064
+status:
+  review: draft
+  completeness: 1

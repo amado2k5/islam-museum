@@ -1,0 +1,15 @@
+id: passage/muwatta-5-874
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "874"
+label: { ar: "الموطأ 874 — مالك: المعتكف مشتغل باعتكافه لا يعرض لغيره من التجارات، ولا بأس أن يأمر ببعض حاجته وبيع ماله ومصلحة أهله بما لا يشغله", en: "Muwatta 874" }
+summary:
+  ar: "قول لمالك: المعتكف مشتغل باعتكافه، لا يعرض لغيره مما يشتغل به من التجارات أو غيرها. ولا بأس بأن يأمر المعتكف ببعض حاجته في ضيعته ومصلحة أهله، وأن يأمر ببيع ماله، أو بشيء لا يشغله في نفسه، إذا كان خفيفاً، أن يأمر بذلك من يكفيه إياه. ويذكر المحقق أنه رواه عن مالك أبو مصعب (867–869). {cite:muwatta-maruf-1997 p.421} {cite:muwatta-maruf-1997 p.422}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 874 at PDF p. 421; باب ذكر الاعتكاف", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b01" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 421; matn excerpt at most 40 words" }

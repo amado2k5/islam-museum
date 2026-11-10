@@ -1,0 +1,21 @@
+id: place/bordj-bou-arr-ridj-province
+class: place
+kind: region
+label: { ar: "ولاية برج بوعريريج", en: "Bordj Bou Arréridj Province", ur: "صوبہ برج بو عریریج" }
+summary:
+  ar: "إقليم في الجزائر."
+  en: "Region in Algeria."
+wings: [place]
+regions: [maghreb]
+coordinates: [36.066666666667, 4.7666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q266411" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q266411 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

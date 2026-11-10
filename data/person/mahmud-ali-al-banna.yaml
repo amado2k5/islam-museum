@@ -1,0 +1,33 @@
+id: person/mahmud-ali-al-banna
+class: person
+label: { ar: "محمود علي البنا", en: "Mahmud Ali al-Banna", ur: "محمود علی البنا" }
+names:
+  - { value: "محمود علي البنا", kind: full }
+  - { value: "Mahmud Ali al-Banna", kind: full }
+  - { value: "Mahmoud Ali el-Banna", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري (1926–1985) دخل الإذاعة المصرية في 1948، وقرأ في مسجد السيد البدوي بطنطا (1959–1980) ثم في مسجد الحسين بالقاهرة، وسجّل المصحف مرتلًا ومجودًا، وكان نائب نقيب القراء منذ تأسيس النقابة في 1984."
+  en: "Egyptian Qur'an reciter (1926–1985) who joined Egyptian Radio in 1948, recited at the Ahmad al-Badawi Mosque in Tanta (1959–1980) and then at al-Hussein Mosque in Cairo, recorded the Qur'an in murattal and mujawwad styles, and was deputy head of the reciters' syndicate from its founding in 1984."
+  ur: "مصری قاریِ قرآن ⁦(1926ء–1985ء)⁩، جو 1948ء میں مصری ریڈیو سے وابستہ ہوئے، طنطا کی مسجد احمد البدوی ⁦(1959ء–1980ء)⁩ اور پھر قاہرہ کی مسجد حسین میں قاری رہے، مرتل اور مجود دونوں انداز میں قرآن ریکارڈ کیا، اور 1984ء میں نقابتِ قراء کے قیام سے اس کے نائب سربراہ رہے۔"
+wings: [people]
+regions: [egypt-nile]
+roles: [reciter]
+born: { edtf: "1926-12-17", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at the village of Shubra Bas, Shibin El Kom district, Monufia (English article; Wikidata gives the same day). No place entity for the village exists, so no birthplace relation is written.", sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna] }
+died: { edtf: "1985-07-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Cairo (Wikidata; the English article gives the day and cites al-Ahram's obituary of 21 July 1985, p. 17).", sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna] }
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikidata-mahmud-ali-al-banna, source/wikipedia-mahmud-ali-al-banna-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives religion Islam and denomination Sunni without a reference; Wikidata names no school. One unreferenced value, so his school is not recorded."
+    sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna]
+footprint:
+  wikipedia: { languages: [ar, arz, en, fa, ja, ru, sq, uk], checked: "2026-11-06", sources: [source/wikidata-mahmud-ali-al-banna] }
+  wikidata: "Q12241284"
+honours:
+  - { award: award/order-of-sciences-and-arts-egypt, result: won, year: 1990, note: "posthumously, by President Hosni Mubarak; received by his eldest son", sources: [source/wikipedia-mahmud-ali-al-banna-en] }
+external_ids: { wikidata: "Q12241284" }
+sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna]
+provenance: { layer: own-research, source: "English Wikipedia 'Mahmud Ali al-Banna' (revision 1381355897, 21 October 2026) and Wikidata Q12241284 (revision 2559284497), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b01 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,23 @@
+id: event/battle-of-kose-dag-641
+class: event
+kind: battle
+label: { ar: "معركة جبل كوسه", en: "Battle of Köse Dağ" }
+summary:
+  ar: "بطاقة أولية لمعركة جبل كوسه سنة ١٢٤٣م، الهزيمة السلجوقية الحاسمة أمام المغول التي ألحقت دولة الروم بالمغول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Köse Dağ in 1243, the decisive Seljuk defeat to the Mongols that made the Sultanate of Rum a Mongol dependency; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1243", precision: year, status: tradition, derived: true }
+  end: { edtf: "1243", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q136344
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Seljuk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

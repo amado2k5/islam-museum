@@ -1,0 +1,13 @@
+id: person/azin
+class: person
+label: { ar: "آذين" }
+summary:
+  ar: "قائد بابك، ورد ذكر الوقعة بين أصحاب الأفشين وأصحابه في سنة اثنتين وعشرين ومائتين {cite:tabari-tarikh-abu-al-fadl j.9 p.670}."
+wings: [people]
+gender: male
+died: { edtf: "837", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/azerbaijan, note: "Babak's commander in the Azerbaijan war of 222.", sources: [source/tabari-tarikh-abu-al-fadl], confidence: low }
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance: { layer: own-research, source: "source/tabari-tarikh-abu-al-fadl", run: "prose-enrichment-100-devin-b17", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 14", sources: [source/tabari-tarikh-abu-al-fadl] }
+status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read" }

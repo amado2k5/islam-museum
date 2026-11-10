@@ -1,0 +1,21 @@
+id: place/palm-beach
+class: place
+kind: town
+label: { ar: "بالم بيتش", en: "Palm Beach", ur: "پالم بیچ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Town (Wikidata Q695411)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [26.705555555555556, -80.0363888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q695411" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q695411 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

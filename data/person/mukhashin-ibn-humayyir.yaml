@@ -1,0 +1,26 @@
+id: person/mukhashin-ibn-humayyir
+class: person
+label: { en: Mukhashin ibn Humayyir, ar: "مخشن بن حمير" }
+names:
+  - { kind: full, lang: ar, value: "مخشن بن حمير الأشجعي" }
+gender: male
+summary:
+  ar: "من أشجع حليف لبني سلمة؛ كان في رهط من سخروا من جيش تبوك ثم اعتذروا، ويذكر ابن إسحاق أنه تسمى عبد الرحمن وسأل الله أن يقتل شهيداً لا يُعلم مكانه، فقُتل يوم اليمامة ولم يوجد له أثر."
+  en: "Of Ashja', an ally of Banu Salama; he was in the party that mocked the Tabuk army then made their excuses. Ibn Ishaq records that he took the name Abd al-Rahman and asked God to let him die a martyr whose place is unknown — he was killed on the day of al-Yamama and no trace of him was found."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+relations:
+  - { type: participated_in, target: event/hypocrites-mock-the-army-and-excuse, role: speaker, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/al-yamama, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 168-169"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch75
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

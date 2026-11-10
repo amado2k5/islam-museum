@@ -1,0 +1,29 @@
+id: person/yusuf-ibn-nafis
+class: person
+label:
+  ar: "يوسف بن نفيس"
+  en: "Yusuf ibn Nafis"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية ليوسف بن نفيس، شاعر عراقي القرن الثالث عشر، توفي سنة ١٢٤١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yusuf ibn Nafis, the thirteenth-century Iraqi poet, d. 1241; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1280~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam (al-Dhahabi)" }
+relations:
+  - { type: born_in, target: place/erbil, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q132754)" }
+  - { type: died_in, target: place/mosul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q83317)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28713272
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0061
+status:
+  review: draft
+  completeness: 1

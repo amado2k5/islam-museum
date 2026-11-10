@@ -1,0 +1,36 @@
+id: person/al-samadi-qadiri
+class: person
+label: { ar: "عبد الصمد القادري الدمشقي", en: "'Abd al-Samad al-Samadi al-Qadiri of Damascus" }
+names:
+  - { kind: full, lang: ar, value: "الشيخ عبد الصمد بن محمد الملقب بالصمدي الدمشقي القادري" }
+gender: male
+roles: [mystic, teacher]
+traditions: [sunni]
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq, arabia]
+summary:
+  ar: "الشيخ عبد الصمد الملقب بالصمدي الدمشقي القادري؛ قال في الكواكب: كان عابداً عالماً حافظاً للقرآن والطريق، ولد سنة إحدى عشرة وتسعمائة، ولزم مجالس الذكر والصلاة على النبي وقام في محافظة أهل الفقر، ورحل إلى الحجاز إلى المدينة النبوية وأقام مدة عند أستاذه الشيخ سعد الدين، وسمع بالبيت الحرام على كثيرين وأخذ عنهم، وكان يكثر الذكر ويكثر ختماً كاملاً كل أربعة أيام ويقرأه على شيخه الشيخ عبد الرحمن السقا بحيث حفظ ما عنده من الشيوخ، وخدم في داره العلماء والصالحين، وقرّأ الصبيان وفتح عليه رزقه، وكان مقبولاً عند الناس والأعيان؛ توفي ليلة الجمعة عاشر صفر سنة أربع وتسعين {cite:shadharat-dhahab p. 434}."
+  en: "'Abd al-Samad al-Samadi al-Qadiri — b. 911, devout Qur'an-hafiz of the qadiri path, served at Medina under Sa'd al-Din and read the Shifa' fully on his shaykh 'Abd al-Rahman al-Saqqa; served scholars at his home and taught boys; died Friday eve 10 Safar 994 {cite:shadharat-dhahab p. 434}."
+born: { edtf: "1505~", hijri: "0911", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 911 {cite:shadharat-dhahab p. 434}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1586-02-11~", hijri: "0994-02-10", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الجمعة 10 صفر؛ التحويل مشتق {cite:shadharat-dhahab p. 434}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 994، عن الكواكب)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch79
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+relations:
+  - { type: traveled_to, target: place/medina, note: "From text: رحل إلى الحجاز إلى المدينة النبوية وأق", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/medina, note: "From text: served at Medina", sources: [source/shadharat-dhahab] }

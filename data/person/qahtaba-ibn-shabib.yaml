@@ -1,0 +1,14 @@
+id: person/qahtaba-ibn-shabib
+class: person
+label: { ar: "قحطبة بن شبيب الطائي" }
+summary:
+  ar: "ذكر الطبري هلاكه في سنة اثنتين وثلاثين ومائة {cite:tabari-tarikh-abu-al-fadl j.7 p.412}."
+wings: [people]
+gender: male
+sources: [source/tabari-tarikh-abu-al-fadl, source/akhbar-tiwal-amir]
+provenance: { source: "Sources cited in the record (tabari-tarikh-abu-al-fadl, akhbar-tiwal-amir)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 4", sources: [source/tabari-tarikh-abu-al-fadl], run: "lib-akhbar-tiwal-batch-4-2026-10-31 (enrichment)" }
+status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+died: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
+relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Commander of the Hashimiyya armies from Khurasan (al-Tabari).", sources: [source/tabari-tarikh-abu-al-fadl, source/akhbar-tiwal-amir] }
+  - { type: died_in, target: place/iraq, confidence: low, note: "Killed in Iraq at the end of his westward march (al-Tabari).", sources: [source/tabari-tarikh-abu-al-fadl, source/akhbar-tiwal-amir] }

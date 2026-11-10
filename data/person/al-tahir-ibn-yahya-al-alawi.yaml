@@ -1,0 +1,21 @@
+id: person/al-tahir-ibn-yahya-al-alawi
+class: person
+label: { ar: "الطاهر بن يحيى العلوي الحسيني", en: "al-Tahir ibn Yahya al-'Alawi al-Husayni" }
+summary:
+  ar: "علوي حسيني بمدينة النبي سمع منه المسعودي كتاباً في أنساب آل أبي طالب وفضله على كتاب الزبير بن بكار في هذا الباب {cite:muruj-al-dhahab p. 62}."
+  en: "The Husayni 'Alawi of Medina whose oral recension of the Abu Talib genealogy Mas'udi heard and preferred over al-Zubayr ibn Bakkar's book {cite:muruj-al-dhahab p. 62}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "870~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: of Medina", sources: [source/muruj-al-dhahab], confidence: low }

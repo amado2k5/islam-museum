@@ -1,0 +1,21 @@
+id: person/amr-ibn-anbasa
+class: person
+label: { ar: "عمرو بن عنبسة", en: "'Amr ibn 'Anbasa" }
+summary:
+  ar: "صحابي من السابقين، عدّه قوم ثالث من أسلم بعد أبي بكر وبلال بن حمامة في أحد أقوال أول من أسلم {cite:muruj-al-dhahab p. 575}."
+  en: "The Companion reckoned third to accept Islam — after Abu Bakr and Bilal — in one of the 'first Muslim' views {cite:muruj-al-dhahab p. 575}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+died: { edtf: "652~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "Among the earliest converts at Mecca.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

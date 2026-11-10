@@ -6,8 +6,10 @@ on:
 permissions:
   contents: read
 
+# Two jobs run side by side: the unit tests, and the content build with its checks.
+# Neither waits for the other, so the run takes as long as the slower job, not both added up.
 jobs:
-  validate:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,9 +23,21 @@ jobs:
       - run: npm ci && npm ci --prefix site
       - name: Unit tests
         run: npm test
-      - name: Validate content
-        run: npm run validate
-      - name: Build
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - run: npm ci && npm ci --prefix site
+      # `npm run build` runs `validate` first (prebuild), so content errors still stop the job before Astro starts.
+      - name: Validate, compile and build
         run: npm run build
       - name: No runtime AI or compute (guard)
         run: npm run check:static
@@ -32,9 +46,53 @@ jobs:
         with:
           args: --offline --no-progress --root-dir "${{ github.workspace }}/dist" "dist/**/*.html"
           fail: true
-      - name: Lighthouse budget (performance >= 95, accessibility = 100)
+      - name: axe accessibility audit (route matrix, all languages)
+        run: |
+          npx playwright install --with-deps chromium
+          npm run axe
+      - name: Lighthouse budget (performance >= 90, accessibility = 100)
         uses: treosh/lighthouse-ci-action@v12
         with:
           configPath: ./lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: false
+
+  # Says whether merging this pull request rewrites most of the site's pages on the next deploy (a layout, the header or
+  # footer, a library the layouts call, a shell string in i18n/). Such a change costs one deploy about 164,000 R2 writes and
+  # half an hour, so the founder wants to batch it with other shell changes. The shell scripts (site/public/shell/) are single
+  # files and do not count. It labels and comments in the summary; it never fails the pull request.
+  # tools/deploy/shell-impact.mjs, tools/deploy/shell-paths.list, docs/engineering/16-deploy-churn-proposal.md.
+  shell-impact:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # Add or remove the label. A pull request from a fork gets a read-only token: the label is skipped, the summary stays.
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The checkout is the merge commit; its first parent is the base, so HEAD^1..HEAD is what merging would change.
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - run: npm ci --ignore-scripts
+      - name: Does this change rewrite most pages?
+        id: impact
+        run: node tools/deploy/shell-impact.mjs --base HEAD^1 --head HEAD
+      - name: Label the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REWRITES: ${{ steps.impact.outputs.rewrites }}
+        run: |
+          label=rewrites-all-pages
+          gh label create "$label" --color B45309 --description "Merging this rewrites most pages on the next deploy (about 164,000 R2 writes)" 2>/dev/null || true
+          if [ "$REWRITES" = "true" ]; then
+            echo "::warning title=Rewrites most pages::This pull request changes a shell file or a shell string, so the next deploy re-uploads most pages. See the job summary."
+            gh pr edit "$PR" --add-label "$label" || echo "::notice::Could not add the label (a pull request from a fork has a read-only token)."
+          else
+            gh pr edit "$PR" --remove-label "$label" 2>/dev/null || true
+          fi

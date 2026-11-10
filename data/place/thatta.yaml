@@ -1,0 +1,21 @@
+id: place/thatta
+class: place
+kind: city
+label: { ar: "تتا", en: "Thatta", ur: "ٹھٹہ" }
+summary:
+  ar: "مدينة في باكستان."
+  en: "City in Pakistan."
+wings: [place]
+regions: [south-asia]
+coordinates: [24.746116666667, 67.924336111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q27212" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q27212 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

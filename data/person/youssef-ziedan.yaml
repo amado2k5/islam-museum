@@ -1,0 +1,38 @@
+id: person/youssef-ziedan
+class: person
+label: { ar: "يوسف زيدان", en: "Youssef Ziedan", ur: "یوسف زیدان" }
+names:
+  - { value: "يوسف محمد أحمد زيدان", kind: full }
+  - { value: "Youssef Ziedan", kind: full }
+gender: male
+summary:
+  ar: "كاتب وباحث مصري وُلد في سوهاج سنة 1958 ونشأ في الإسكندرية. متخصص في التراث العربي المخطوط والتصوف وتاريخ الطب العربي، وعمل مديرًا لمركز المخطوطات بمكتبة الإسكندرية؛ نال الدكتوراه سنة 1989 عن دراسة وتحقيق لأعمال عبد القادر الجيلاني. من رواياته «ظل الأفعى» و«عزازيل» التي فازت بالجائزة العالمية للرواية العربية سنة 2009، و«النبطي» و«فردقان»."
+  en: "Egyptian writer and scholar, born in Sohag in 1958 and raised in Alexandria. He specialises in the Arabic manuscript heritage, Sufism and the history of Arabic medicine, and directed the Manuscript Center at the Bibliotheca Alexandrina; his 1989 doctorate was a study and edition of the works of Abd al-Qadir al-Jilani. His novels include Shadow of the Serpent, Azazeel, which won the International Prize for Arabic Fiction in 2009, The Nabatean and Fardeqan."
+  ur: "مصری مصنف اور محقق، 1958 میں سوہاج میں پیدا ہوئے اور اسکندریہ میں پرورش پائی۔ عربی مخطوطاتی ورثے، تصوف اور عرب طب کی تاریخ کے ماہر ہیں اور کتب خانہ اسکندریہ کے مرکز مخطوطات کے مدیر رہے؛ ان کی ڈاکٹریٹ (1989) عبد القادر جیلانی کے آثار کی تحقیق پر تھی۔ ان کے ناولوں میں «ظل الأفعى» اور «عزازیل» شامل ہیں، جس نے 2009 میں عربی فکشن کا عالمی انعام جیتا۔"
+roles: [writer, professor]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1958-06-30"
+  hijri: "1377"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Both articles and Wikidata agree he was born on 30 June 1958 in Sohag; the Arabic article specifies Saqulta, in the village of al-Awamiya. The museum has no place entity for Sohag, so no born_in edge is written; he moved to Alexandria with his grandfather as a small child and was raised and educated there. The Hijri year is derived from the Gregorian date."
+  sources: [source/wikipedia-youssef-ziedan-en, source/wikipedia-youssef-ziedan-ar, source/wikidata-youssef-ziedan]
+relations:
+  - { type: lived_in, target: place/alexandria, sources: [source/wikipedia-youssef-ziedan-en, source/wikipedia-youssef-ziedan-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school or affiliation for Ziedan himself. Sufism and the Qadiriyya are his academic field — his master's thesis treated the Sufi thought of Abd al-Karim al-Jili and his 1989 doctorate the Qadiri order and the poetry of Abd al-Qadir al-Jilani — and scholarship on, or teaching of, a subject is not personal attestation of adherence; the theological themes of his fiction likewise do not count. Wikidata carries no religion statement for him. Recorded as unknown."
+    sources: [source/wikipedia-youssef-ziedan-en, source/wikipedia-youssef-ziedan-ar, source/wikidata-youssef-ziedan]
+external_ids: { wikidata: "Q1342082" }
+sources: [source/wikipedia-youssef-ziedan-en, source/wikipedia-youssef-ziedan-ar, source/wikipedia-youssef-ziedan-ur, source/wikidata-youssef-ziedan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381164139), Arabic Wikipedia (revision 76943666), Urdu Wikipedia (revision 9674749) and Wikidata Q1342082 (item revision 2558360956, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-158a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

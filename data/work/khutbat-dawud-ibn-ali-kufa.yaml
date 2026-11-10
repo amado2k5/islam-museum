@@ -1,0 +1,23 @@
+id: work/khutbat-dawud-ibn-ali-kufa
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/dawud-ibn-ali }
+label: { ar: "خطبة داود بن علي بالكوفة", en: "Dawud ibn Ali's sermon in Kufa", ur: "کوفہ میں داود بن علی کا خطبہ" }
+summary:
+  ar: "خطبة داود بن علي في مسجد الكوفة بعد هزيمة بني أمية، يشكر الله فيها على إهلاك عدوهم ويذكر حق آل البيت في الخلافة. تنقلها كتب التاريخ بروايات متعددة."
+  en: "Dawud ibn Ali's sermon in the Kufa mosque after the Umayyad defeat. He thanks God for destroying the enemy and speaks of the house's right to rule. Histories transmit it in several versions."
+  ur: "بنو امیہ کی شکست کے بعد کوفہ کی مسجد میں داود بن علی کا خطبہ، جس میں وہ اللہ کا شکر ادا کرتے ہیں اور اہل بیت کے حق خلافت کا ذکر کرتے ہیں۔ تاریخی کتابوں میں اس کی کئی روایتیں ملتی ہیں۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/dawud-ibn-ali]
+composed: { hijri: "0132", edtf: "0750", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 7", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-3 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }

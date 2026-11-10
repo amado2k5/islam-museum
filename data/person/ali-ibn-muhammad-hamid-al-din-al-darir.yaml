@@ -1,0 +1,31 @@
+id: person/ali-ibn-muhammad-hamid-al-din-al-darir
+class: person
+label: { ar: "علي بن محمد بن علي، حميد الدين الضرير", en: "Ali ibn Muhammad ibn Ali, Hamid al-Din al-Darir" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+gender: male
+wings: [people]
+summary:
+  ar: "علي بن محمد بن علي، حميد الدين الضرير، من أهل رامش قرية من أعمال بخارى، من علماء الحنفية، إمام فقيه أصولي محدث متقن، تفقه على شمس الأئمة الكردري، وتفقه عليه حافظ الدين النسفي صاحب الكنز، وانتهت إليه رئاسة العلم بما وراء النهر. من تصانيفه «الفوائد» حاشية على الهداية، و«شرح المنظومة النسفية»، و«شرح الجامع الكبير». توفي سنة 667هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2059}"
+  en: "Ali ibn Muhammad ibn Ali, Hamid al-Din al-Darir, from Ramish, a village in the lands of Bukhara, a Hanafi scholar, a jurist, usuli and careful traditionist. He studied with Shams al-A'imma al-Kurdari, and Hafiz al-Din al-Nasafi, author of al-Kanz, studied with him; the leadership of learning beyond the river came to him. His works include 'al-Fawa'id', glosses on the Hidaya, commentaries on the Nasafi poem and on al-Jami' al-kabir. He died in 667 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2059}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2059"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "1268~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Hanafiyya" }
+relations:
+  - { type: lived_in, target: place/nasaf, note: "Place association from the person's nisba/name (النسفي); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

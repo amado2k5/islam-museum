@@ -1,0 +1,31 @@
+id: person/ruqayya-bint-ali
+class: person
+label:
+  ar: "رقية الكبرى بنت علي"
+  en: "Ruqayya al-Kubra bint Ali"
+roles: [companion-family]
+gender: male
+summary:
+  ar: "بطاقة أولية لرقية الكبرى بنت علي بن أبي طالب، من بنات علي غير أم كلثوم وفاطمة؛ لم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Ruqayya al-Kubra, a daughter of Ali ibn Abi Talib; her entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+faith:
+  - { value: sunni, basis: tradition }
+died: { edtf: "681~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a (al-Amin)" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: buried_in, target: building/mausoleum-sayyida-ruqayya-cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12243219)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q13400692
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-audit
+status:
+  review: draft
+  completeness: 1

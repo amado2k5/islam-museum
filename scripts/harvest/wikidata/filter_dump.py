@@ -23,7 +23,10 @@ args = ap.parse_args()
 OUT = Path(args.out); OUT.mkdir(parents=True, exist_ok=True)
 CH = OUT / "chunks"; CH.mkdir(exist_ok=True)
 
-HEAD = re.compile(rb'^\{"type":"(item|property)","id":"([QP])(\d+)"')
+# Items are written {"type":"item","id":"Q31",...} but properties carry their datatype first: {"type":"property","datatype":"string","id":"P1",...}.
+# The first version required "id" right after "type", so no property line ever matched (the synthetic test used that wrong order too).
+HEAD = re.compile(rb'^\{"type":"(item|property)",(?:"datatype":"[^"]*",)?"id":"([QP])(\d+)"')
+PROP_LINE = re.compile(rb'^\{"type":"property"')
 NUMID = re.compile(rb'"numeric-id":(\d+)')
 
 
@@ -95,7 +98,7 @@ def write(table, row):
         f = writers[table] = open(CH / f"{table}.p{args.passno}.0.ndjson", "ab")
     f.write(orjson.dumps(row) + b"\n")
 
-n = k = 0
+n = k = props_seen = unmatched_props = 0
 for raw in sys.stdin.buffer:
     n += 1
     if raw[:1] != b"{":
@@ -103,7 +106,9 @@ for raw in sys.stdin.buffer:
     line = raw.rstrip(b",\r\n")
     m = HEAD.match(line)
     if not m:
+        if PROP_LINE.match(line): unmatched_props += 1
         continue
+    if m.group(1) == b"property": props_seen += 1
     eid = (m.group(2) + m.group(3)).decode()
     take = False
     if args.passno == 1:
@@ -129,4 +134,4 @@ for f in writers.values(): f.close()
 kept_f.write_text("\n".join(sorted(kept)) + "\n")
 if args.passno == 1:
     needed_f.write_text("\n".join(sorted(needed - kept)) + "\n")
-print(f"pass {args.passno} done: read {n:,} lines, kept {k:,}; outgoing neighbours still needed: {len(needed - kept):,}", file=sys.stderr)
+print(f"pass {args.passno} done: read {n:,} lines, kept {k:,}; outgoing neighbours still needed: {len(needed - kept):,}; property lines seen {props_seen:,}, property lines the header regex could not parse {unmatched_props:,}", file=sys.stderr)

@@ -1,0 +1,76 @@
+id: exhibit/path-botany
+class: exhibit
+kind: trail
+label:
+  ar: علم النبات
+  en: Botany
+summary:
+  ar: 'مسار في أطباء الأعشاب: ابن البيطار يجمع الجامع، والزراعة الأندلسية تزدهر — علم النبات المسلم.'
+  en: A trail through the herb physicians.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: ابن البيطار
+    en: Ibn al-Baytar
+  body:
+    ar: 'المالقائي: جامع مفردات الأدوية.'
+    en: 'المالقائي: جامع مفردات الأدوية.'
+  features:
+  - person/ibn-al-baytar
+  - person/ibn-al-baytar
+- title:
+    ar: الأندلس
+    en: Al-Andalus
+  body:
+    ar: 'قرطبة وشريش: مدرسة النبات.'
+    en: 'قرطبة وشريش: مدرسة النبات.'
+  features:
+  - place/cordoba
+  - place/tulaytula
+- title:
+    ar: الجامع
+    en: The compilation
+  body:
+    ar: '1400 مفردة: أكبر موسوعة أدوية.'
+    en: '1400 مفردة: أكبر موسوعة أدوية.'
+  features:
+  - person/ibn-al-baytar
+  - person/ibn-al-baytar
+- title:
+    ar: الزراعة
+    en: Agriculture
+  body:
+    ar: 'ثورة المحاصيل: قصب وقطن وحمضيات.'
+    en: 'ثورة المحاصيل: قصب وقطن وحمضيات.'
+  features:
+  - place/al-andalus
+  - place/damascus
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من الجامع إلى اللاتينية: الدواء يعبر.'
+    en: 'من الجامع إلى اللاتينية: الدواء يعبر.'
+  features:
+  - person/ibn-al-baytar
+  - person/ibn-sina
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

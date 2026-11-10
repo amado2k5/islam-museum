@@ -1,0 +1,71 @@
+id: listing/dow-jones-islamic-market-index
+class: listing
+kind: product
+label:
+  ar: مؤشر داو جونز للسوق الإسلامية
+  en: Dow Jones Islamic Market Index (DJIM)
+  ur: ڈاؤ جونز اسلامک مارکیٹ انڈیکس
+summary:
+  ar: مؤشر لسوق الأسهم أُطلق سنة 1999 للمستثمرين الباحثين عن استثمارات متوافقة مع الشريعة، تديره إس آند بي داو جونز للمؤشرات،
+    وتفحص شركاته هيئة رقابة شرعية مستقلة.
+  en: A stock-market index launched in 1999 for investors seeking Sharia-compliant investments, operated by S&P Dow Jones
+    Indices; an independent Shariah Supervisory Board screens its companies.
+  ur: اسٹاک مارکیٹ کا اشاریہ جو 1999 میں شریعت کے مطابق سرمایہ کاری کے لیے شروع ہوا؛ اسے ایس اینڈ پی ڈاؤ جونز انڈیسز چلاتا
+    ہے، اور ایک آزاد شرعی نگران بورڈ اس کی کمپنیوں کی جانچ کرتا ہے۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- global
+founded:
+  edtf: '1999'
+  hijri: '1419~'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: Founded 1999 (infobox and history, uncited). The Hijri year is converter-derived.
+  sources:
+  - source/wikipedia-djim-en
+made:
+  by_muslims: false
+  basis: documented
+  sources:
+  - source/wikipedia-djim-en
+external_ids:
+  wikidata: Q5302624
+sources:
+- source/wikipedia-djim-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+status_business: active
+location:
+  serves:
+  - global
+links:
+  official: https://www.spglobal.com/spdji/en/indices/equity/dow-jones-islamic-market-world-index/
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - en
+    - ms
+    checked: '2026-11-06'
+    sources:
+    - source/wikipedia-djim-en
+  wikidata: Q5302624
+provenance:
+  layer: own-research
+  source: 'English Wikipedia "Dow Jones Islamic Market Index" (revision 1380578204, 16 October 2026), read in Chrome on the
+    founder''s Mac on 6 November 2026; Wikidata sitelinks read the same day; made.by_muslims false, basis documented: the
+    operator named by the source is S&P Dow Jones Indices'
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b03

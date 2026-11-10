@@ -1,0 +1,31 @@
+id: person/murshid-quli-khan
+class: person
+label:
+  ar: "مرشد قلي خان"
+  en: "Murshid Quli Khan"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لمرشد قلي خان، ديوان البنغال ثم نوابها شبه المستقل الذي نقل العاصمة إلى مرشد آباد، توفي سنة ١٧٢٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Murshid Quli Khan, the diwan then quasi-independent nawab of Bengal who moved the capital to Murshidabad, d. 1727; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Murshid Kuli Khan)" }
+died: { edtf: "1727", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Murshid Kuli Khan)" }
+relations:
+  - { type: born_in, target: place/deccan-sultanates, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1183649)" }
+  - { type: died_in, target: place/murshidabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017175)" }
+  - { type: buried_in, target: building/katra-masjid, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6377841)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3634642
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0021
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,38 @@
+id: person/al-bazmawi-shams-al-din-muhammad
+class: person
+label: { ar: "البزماوي شمس الدين محمد", en: "al-Bazmawi Shams al-Din Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين محمد بن عبد الدائم البزماوي" }
+  - { kind: laqab, lang: ar, value: "شمس الدين" }
+  - { kind: nisba, lang: ar, value: "البزماوي" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+summary:
+  ar: "عالم بالفقه والعربية والفرائض، استقر شيخاً للمدرسة الفخرية بالقاهرة، وتولى التدريس في المدرسة الصلاحية بالقدس، وصنّف منظومات ومختصرات في أصول الفقه والفرائض والعروض، وحج سنة 828هـ."
+  en: "Scholar of law, Arabic grammar and inheritance who was shaykh of the Fakhriyya school in Cairo, taught at the Salahiyya in Jerusalem, and composed verse works on legal theory, inheritance and prosody; he made the Hajj in 828 AH (1424 CE)."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص361-362"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+died: { edtf: "1388", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

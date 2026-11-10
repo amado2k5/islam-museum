@@ -1,0 +1,27 @@
+id: event/ahmad-shah-lahore-1161
+class: event
+kind: conquest
+label:
+  ar: "أحمد شاه دراني يحتل لاهور، المحرم ١١٦١هـ/يناير ١٧٤٨م"
+  en: "Ahmad Shah Durrani occupies Lahore, Muharram 1161/January 1748"
+  ur: "احمد شاہ درانی کا لہور پر قبضہ، محرم 1161ھ/جنوری 1748ء"
+summary:
+  ar: "بعد وفاة والي البنجاب زكريا خان سنة ١١٥٨هـ/١٧٤٥م وتنازع أبنائه السلطة، تمكن الأفغاني أحمد شاه دراني من شن أولى غزواته على البنجاب فاحتل لاهور في المحرم سنة ١١٦١هـ/يناير ١٧٤٨م؛ وعقب معاهدة شتاء ١١٦٥هـ/١٧٥١–١٧٥٢م صارت المدينة ضمن النفوذ الأفغاني {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  en: "After the death of the Punjab governor Zakariyya Khan in 1158/1745 and the ensuing power struggle between his sons, the Afghan Ahmad Shah Durrani launched his first invasion of the Punjab and occupied Lahore in Muharram 1161/January 1748; following a treaty in the winter of 1165/1751-2 the city passed into the Afghan sphere of influence {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+  ur: "پنجاب کے گورنر زکریا خان کی 1158ھ/1745ء میں وفات اور اس کے بیٹوں کے درمیان اقتدار کی کشمکش کے بعد افغان احمد شاہ درانی نے پنجاب پر اپنی پہلی یلغار کی اور محرم 1161ھ/جنوری 1748ء میں لہور پر قبضہ کر لیا؛ 1165ھ/1751–52ء کے موسم سرما کے معاہدے کے بعد شہر افغان دائرہ اثر میں چلا گیا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 38}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1748-01", hijri: "1161", calendar: julian, precision: month, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-shah-durrani, role: "الغازي المحتل", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 38 (LAHAWR, printed p. 598) — Ahmad Shah Durrani occupies Lahore Muharram 1161/January 1748; treaty winter 1165/1751-2"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

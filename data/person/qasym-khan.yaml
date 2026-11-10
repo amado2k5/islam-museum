@@ -1,0 +1,31 @@
+id: person/qasym-khan
+class: person
+label:
+  ar: "قاسم خان"
+  en: "Qasym Khan"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لقاسم خان، خان الخانات القازاقية في القرن السادس عشر الذي وسّعها وكتب «قاسم خاننق قاسقا جولى»، توفي سنة ١٥٢١م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Qasym Khan, the sixteenth-century khan of the Kazakh Khanate who expanded it and authored the law code Qasym Khannyn Qasqa Zholy, d. 1521; the source entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1445~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Kazakhstan" }
+died: { edtf: "1521", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Kazakhstan" }
+relations:
+  - { type: born_in, target: place/uzbek-khanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q15535871)" }
+  - { type: died_in, target: place/kazakh-khanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1433867)" }
+  - { type: buried_in, target: place/saray-j-k, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2996387)" }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q2467956
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0027
+status:
+  review: draft
+  completeness: 1

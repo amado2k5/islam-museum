@@ -1,0 +1,29 @@
+id: person/ibn-manzur
+class: person
+label:
+  ar: "ابن منظور الأنصاري"
+  en: "Ibn Manzur"
+roles: [writer, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن مكرم بن منظور الأنصاري الإفريقي، اللغوي صاحب «لسان العرب»، توفي نحو سنة ١٣١٢م؛ يذكره كشف الظنون ومعاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Mukarram ibn Manzur al-Ansari al-Ifriqi, the lexicographer author of Lisan al-Arab, d. about 1312; Kashf al-Zunun and the biographical dictionaries name him, the page not yet checked."
+wings: [people]
+regions: [maghreb, egypt-nile]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1232", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1311", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/kashf-zunun-furqan] }
+sources: [source/kashf-zunun-furqan, source/al-aalam, source/durar-kamina-jil-1993]
+external_ids:
+  wikidata: Q1397028
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Hajji Khalifa, Kashf al-Zunun — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0013, lib-durar-kamina-batch-3-2026-10-31
+status:
+  review: published
+  completeness: 1

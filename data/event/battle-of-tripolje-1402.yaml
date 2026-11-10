@@ -1,0 +1,23 @@
+id: event/battle-of-tripolje-1402
+class: event
+kind: battle
+label: { ar: "معركة تريبوليه", en: "Battle of Tripolje" }
+summary:
+  ar: "بطاقة أولية لمعركة تريبوليه سنة ١٤٠٢م، فوز العثمانيين على الإمارة الصربية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tripolje in 1402, the Ottoman victory over the Serbian despotate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1402", precision: year, status: tradition, derived: true }
+  end: { edtf: "1402", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3395349
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: place/qadian
+class: place
+kind: city
+label: { ar: "قاديان دارالأمان", en: "Qadian", ur: "قادیان دارالامان" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q1026436)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [31.819166666666668, 75.37638888888888]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1026436" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1026436 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

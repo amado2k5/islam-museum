@@ -1,0 +1,63 @@
+id: invention/biruni-simplified-calendar-gearing
+class: invention
+label: { ar: "تبسيط البيروني المقترح لتعشيق التقويم", en: "Al-Biruni's proposed simplified calendar gearing", ur: "تقویمی دندانوں کی بیرونی کی مجوزہ سادگی" }
+names:
+  - { kind: alternate, lang: en, value: "Four-to-fifty-two-tooth solar reduction proposed in the Moon Box account" }
+summary: { ar: "مقترح تعشيق4/52 في آلة أقدم، تعطي قراءته الهندسية364يوماً، لا اختراع التقويم كله أو آلة دقيقة باقية {cite:hill-biruni-calendar-1985 pp.140,158,163}.", en: "Proposed4/52gearing in an older device, reconstructed364day output, not invention of the whole calendar or a surviving exact machine {cite:hill-biruni-calendar-1985 pp.140,158,163}.", ur: "پرانے آلے میں مجوزہ4/52دندانے، بازتشکیل میں364دن، پورے تقویم کی ایجاد یا باقی درست مشین نہیں {cite:hill-biruni-calendar-1985 pp.140,158,163}۔" }
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, engineering]
+wings: [objects, ideas]
+regions: [persia-central-asia]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "09XX/10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Late10th/11th-century lifetime horizon, not exact composition/build day or invented Hijri. Proposed variant, not proved physical construction."
+    sources: [source/hill-biruni-calendar-1985]
+  status_today: replaced
+origin:
+  place: place/ghazna
+  context: { ar: "سياق سيرة المؤلف، لا ورشة المقترح مثبتة {cite:hill-biruni-calendar-1985 pp.139–140}.", en: "Author's biographical context, not a verified workshop for the proposal {cite:hill-biruni-calendar-1985 pp.139–140}.", ur: "مصنف کا سوانحی سیاق، مجوزہ صورت کی ثابت کارگاہ نہیں {cite:hill-biruni-calendar-1985 pp.139–140}۔" }
+makers:
+  - { person: person/al-biruni-muhammad-ibn-ahmad, role: improver, note: "Hill163explicitly attributes proposed simplification, not unknown original Moon Box inventor or every craftsmen's variant.", sources: [source/hill-biruni-calendar-1985] }
+attribution:
+  status: improvement
+  claim: { ar: "اقتراح تبسيط محدد، لا أول تقويم مسنن.", en: "Specific proposed simplification, not first geared calendar.", ur: "مخصوص مجوزہ سادگی، پہلا دندانہ دار تقویم نہیں۔" }
+  basis: { ar: "ترجمة158 وتفسير163، مع استنتاج بعض التجميع وتعارض360/364 {cite:hill-biruni-calendar-1985 pp.158,163}.", en: "Translation158/commentary163, with inferred assembly and360/364discrepancy {cite:hill-biruni-calendar-1985 pp.158,163}.", ur: "ترجمہ158،شرح163؛ بعض جوڑ اخذ اور360/364اختلاف محفوظ {cite:hill-biruni-calendar-1985 pp.158,163}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-tumer-frame
+      summary: { ar: "إسلام الفرد موثق، والإطار السني وقراءة تومر معلنان؛ النسبتان الشيعية والزيدية المنقولتان تبقيان بلا حسم {cite:tdv-biruni-tumer affiliation}.", en: "Individual Muslim identity documented; Sunni/Tumer frame explicit, reported Shia/Zaydi claims retained without verdict {cite:tdv-biruni-tumer affiliation}.", ur: "فردی مسلم شناخت موثق؛ سنی/تومر فریم واضح، منقول شیعی و زیدی نسبتیں بلا فیصلہ محفوظ {cite:tdv-biruni-tumer affiliation}۔" }
+      sources: [source/tdv-biruni-tumer, source/britannica-al-biruni]
+    - tradition: academic
+      id: proposal-and-reconstruction
+      summary: { ar: "الأصل أقدم ومجهول المخترع في استنتاج هيل؛ المقترح تبسيط لا دقة مضمونة أو أثر باق {cite:hill-biruni-calendar-1985 pp.140,163}.", en: "Hill infers older unknown-inventor antecedents; this proposal is simplification, not guaranteed accuracy or surviving artifact {cite:hill-biruni-calendar-1985 pp.140,163}.", ur: "ہل قدیم نامعلوم موجد اخذ کرتا؛ یہ سادگی کا مقترح ہے، یقینی صحت یا محفوظ اثر نہیں {cite:hill-biruni-calendar-1985 pp.140,163}۔" }
+      sources: [source/hill-biruni-calendar-1985]
+precursors:
+  - external: { ar: "صندوق القمر الأقدم وتقليد التعشيق البيزنطي", en: "Older Moon Box and Byzantine gearing tradition", ur: "قدیم صندوق قمر اور بازنطینی دندانہ روایت" }
+    note: "Hill's attributed origin/transmission inference, not original inventor certified or whole device credited to Biruni."
+    sources: [source/hill-biruni-calendar-1985]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments, mechanics-automata, timekeeping]
+  changed: { ar: "تجريب بساطة النسب في تمثيل حركات وسطية {cite:hill-biruni-calendar-1985 p.163}.", en: "Explored simpler ratios representing mean motions {cite:hill-biruni-calendar-1985 p.163}.", ur: "اوسط حرکت کے لیے آسان نسبتوں کی آزمائش {cite:hill-biruni-calendar-1985 p.163}۔" }
+  history: { ar: "نص هندسي بحدود وشواهد مختلفة، لا خط انتقال أوروبي مثبت {cite:hill-biruni-calendar-1985 pp.140–142,163}.", en: "Technical text with limits and witness variants, not a proved European transmission chain {cite:hill-biruni-calendar-1985 pp.140–142,163}.", ur: "حدوں اور مختلف نسخوں کا فنی متن، ثابت یورپی انتقال نہیں {cite:hill-biruni-calendar-1985 pp.140–142,163}۔" }
+  significance: 3
+  why: "Narrow attributed proposed simplification, distinct from older unknown-maker calendar; reconstruction/text and mean-motion errors remain visible, not manufactured first/accuracy/build claims."
+described_in: [work/biruni-istiab-astrolabe]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شرح نسب وحدود ودقة، لا تقويم رصد مضمون.", en: "Ratio/error explanation, not guaranteed observational calendar.", ur: "نسبت و خطا کی وضاحت، یقینی رصدی تقویم نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لكل حاسوب أو ساعة.", en: "No demonstrated ancestry of every computer or clock.", ur: "ہر کمپیوٹر یا گھڑی کا ثابت نسب نہیں۔" }
+media: { image: media/biruni-gears-context, diagram: media/diagram-biruni-calendar }
+kids: { ar: "الترسان على محور واحد يدوران معاً؛ نسبة الأسنان ليست ضمان الدقة.", en: "Shared-arbor gears turn together; tooth ratio is not guaranteed accuracy.", ur: "مشترک محور کے پہیے ساتھ گھومتے؛ دندانوں کی نسبت یقینی صحت نہیں۔" }
+sources: [source/hill-biruni-calendar-1985, source/tdv-biruni-tumer, source/britannica-al-biruni, source/commons-involute-gears-hugo4]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b85", source: "Actual selected Hill English139–142/156–163 and inspected158/163; actual Commons PD image/rights. Inherited documented/debated individual identity retained. Independent rational ratio/error illustration, not original collation, full Arabic apparatus or physical reconstruction." }

@@ -1,0 +1,31 @@
+id: person/muhammad-ibn-ibrahim-al-sahuli
+class: person
+label:
+  ar: "محمد بن إبراهيم السحولي"
+  en: "Muhammad ibn Ibrahim al-Sahuli"
+roles: [scholar, poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن إبراهيم السحولي، العالم والشاعر اليمني، توفي سنة ١٦٩٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Ibrahim al-Sahuli, the Yemeni scholar and poet, d. 1698; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+died: { edtf: "1650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+relations:
+  - { type: born_in, target: place/tarim, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1014010)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+  - { type: buried_in, target: place/jannat-al-mualla, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q42004)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q88096870
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0088
+status:
+  review: draft
+  completeness: 1

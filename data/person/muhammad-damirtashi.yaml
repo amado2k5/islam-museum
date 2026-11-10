@@ -1,0 +1,29 @@
+id: person/muhammad-damirtashi
+class: person
+label:
+  ar: "محمد دميرتاشي"
+  en: "Muhammed Demirtasi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد دميرتاشي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammed Demirtasi, the Ottoman writer (d. 1523); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1523", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira" }
+relations:
+  - { type: born_in, target: place/k-tahya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188894)" }
+  - { type: died_in, target: place/ayn-shams, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2662725)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136362813
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0096
+status:
+  review: draft
+  completeness: 1

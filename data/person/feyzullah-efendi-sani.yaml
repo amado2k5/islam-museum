@@ -1,0 +1,29 @@
+id: person/feyzullah-efendi-sani
+class: person
+label:
+  ar: "فضل الله أفندي الثاني"
+  en: "Shaykh al-Islam Feyzullah Efendi"
+roles: [shaykh-al-islam]
+gender: male
+summary:
+  ar: "بطاقة أولية لشيخ الإسلام فضل الله أفندي، عالم عثماني القرن الثامن عشر، توفي سنة ١٧٤٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shaykh al-Islam Feyzullah Efendi, the eighteenth-century Ottoman jurist, d. 1745; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1703", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q116615866
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0076
+status:
+  review: draft
+  completeness: 1

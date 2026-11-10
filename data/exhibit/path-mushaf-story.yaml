@@ -1,0 +1,76 @@
+id: exhibit/path-mushaf-story
+class: exhibit
+kind: trail
+label:
+  ar: قصة المصحف
+  en: Story of the Mushaf
+summary:
+  ar: 'مسار في الكتاب المقدس بين دفتين: الجمع بعد اليمامة، ومصاحف عثمان، والمخطوطات الكبرى — المصحف الأزرق
+    ووريقات صنعاء.'
+  en: A trail through the codex between two covers.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الجمع
+    en: The compilation
+  body:
+    ar: 'زيد يروي: كيف جُمع القرآن بعد قتل القراء.'
+    en: 'زيد يروي: كيف جُمع القرآن بعد قتل القراء.'
+  features:
+  - passage/bukhari-4986
+  - person/abu-bakr
+- title:
+    ar: الأحرف
+    en: The ahruf
+  body:
+    ar: 'سبعة أحرف: التيسير الذي وحّده عثمان.'
+    en: 'سبعة أحرف: التيسير الذي وحّده عثمان.'
+  features:
+  - passage/bukhari-2419
+  - concept/al-hadith-al-nabawi
+- title:
+    ar: المصحف الأزرق
+    en: The Blue Qur'an
+  body:
+    ar: 'ذهب على نيلي: فخامة المصاحف الأندلسية.'
+    en: 'ذهب على نيلي: فخامة المصاحف الأندلسية.'
+  features:
+  - object/al-mushaf-al-azraq
+- title:
+    ar: وريقات صنعاء
+    en: Sanaa folios
+  body:
+    ar: 'أقدم رقوق المصحف: من سقف الجامع الكبير.'
+    en: 'أقدم رقوق المصحف: من سقف الجامع الكبير.'
+  features:
+  - place/sanaa
+  - place/sanaa
+- title:
+    ar: فنون الكتاب
+    en: Book arts
+  body:
+    ar: 'خط وزخرفة وتذهيب: المتحف بين الدفتين.'
+    en: 'خط وزخرفة وتذهيب: المتحف بين الدفتين.'
+  features:
+  - question/what-is-calligraphy
+  - object/mushaf-al-jazair
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

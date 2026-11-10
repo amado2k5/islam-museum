@@ -1,0 +1,31 @@
+id: person/uwaymir-al-ajlani
+class: person
+label: { en: "Uwaymir al-Ajlani", ar: "عُوَيْمِر العجلاني" }
+names:
+  - { kind: full, lang: ar, value: "عويمر العجلاني" }
+gender: male
+roles: [companion]
+summary:
+  en: "A companion of Banu Ujlan of the Ansar who accused his wife before the Prophet after the return from Tabuk; the Prophet administered the mutual oath of condemnation (li'an) between them and separated them."
+  ar: "صحابي من بني عجلان من الأنصار؛ رمى امرأته بعد قدوم النبي من تبوك فتلاعنا عند النبي وفرّق بينهما، وكانت واقعة اللعان المشهورة سنة 9هـ."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, toward: person/muhammad, status: tradition, note: "صاحب واقعة اللعان سنة 9هـ (الرحيق ص439).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~640, Tahdhib al-Kamal; al-Isaba" }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/lian-between-uwaymir-and-his-wife, role: accuser-in-the-lian, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq]}
+
+  - { type: lived_in, target: place/tabuk, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), p. 439 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"

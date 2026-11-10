@@ -1,0 +1,29 @@
+id: person/ismail-ibn-abd-al-ghani-al-nabulsi
+class: person
+label:
+  ar: "إسماعيل بن عبد الغني النابلسي"
+  en: "Ismail ibn Abd al-Ghani al-Nabulsi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإسماعيل بن عبد الغني النابلسي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ismail ibn Abd al-Ghani al-Nabulsi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/colonial-era]
+born: { edtf: "1608", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar / al-Muhibbi" }
+died: { edtf: "1652", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar / al-Muhibbi" }
+relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q130300433
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

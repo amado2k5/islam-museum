@@ -1,0 +1,66 @@
+id: exhibit/path-east-africa
+class: exhibit
+kind: trail
+label:
+  ar: شرق أفريقيا
+  en: East Africa
+summary:
+  ar: 'مسار في ساحل السواحلية: الحبشة أول ملجأ، وزنجبار وكلوى، والعربية على شواطئ المحيط.'
+  en: A trail through the Swahili coast.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- east-africa
+rooms:
+- title:
+    ar: الحبشة
+    en: Abyssinia
+  body:
+    ar: 'أول هجرة: النجاشي يؤوي المسلمين قبل المدينة.'
+    en: 'أول هجرة: النجاشي يؤوي المسلمين قبل المدينة.'
+  features:
+  - polity/aksumite-kingdom
+  - exhibit/path-abyssinia-migrations
+  - language/amharic
+- title:
+    ar: الساحل
+    en: The coast
+  body:
+    ar: 'زنجبار وكلوى: قرى الملح والذهب والإيمان.'
+    en: 'زنجبار وكلوى: قرى الملح والذهب والإيمان.'
+  features:
+  - place/zanzibar
+  - language/swahili
+- title:
+    ar: اللغة
+    en: The language
+  body:
+    ar: 'السواحلية: بانتو بلسان عربي وحرف عربي.'
+    en: 'السواحلية: بانتو بلسان عربي وحرف عربي.'
+  features:
+  - language/swahili
+- title:
+    ar: بلال
+    en: Bilal
+  body:
+    ar: الحبشي الذي صار صوت الإسلام الأول.
+    en: الحبشي الذي صار صوت الإسلام الأول.
+  features:
+  - person/bilal-ibn-rabah
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

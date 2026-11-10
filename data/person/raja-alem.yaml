@@ -1,0 +1,38 @@
+id: person/raja-alem
+class: person
+label: { ar: "رجاء عالم", en: "Raja Alem", ur: "رجا عالم" }
+names:
+  - { value: "رجاء محمد عالم", kind: full }
+  - { value: "Raja'a Alem", kind: full }
+  - { value: "Rajaa Alem", kind: alternate }
+gender: female
+summary:
+  ar: "روائية سعودية وُلدت في مكة سنة 1956، درست الأدب الإنجليزي في جامعة الملك عبد العزيز بجدة وبدأت الكتابة في صفحة «حروف وأفكار» بجريدة الرياض، ووثّقت في رواياتها بيئة مكة والحجاز بسرد رمزي ذي ألوان صوفية وغنوصية. فازت روايتها «طوق الحمام» بالجائزة العالمية للرواية العربية سنة 2011 مناصفةً مع محمد الأشعري، ومن أعمالها «خاتم» والمجموعة القصصية «نهر الحيوان» (1994)."
+  en: "Saudi novelist born in Mecca in 1956. She studied English literature at King Abdulaziz University in Jeddah, began writing on Al-Riyadh newspaper's 'Letters and Ideas' page, and works as a tutor at the Center for Training Kindergarten Teachers in Jeddah. Her novels document the Meccan and Hejazi environment in a symbolic narrative mode with Sufi and Gnostic colouring. Her novel The Dove's Necklace (Tawq al-Hamam) shared the 2011 International Prize for Arabic Fiction with Mohammed Achaari; her other works include Khatam and the short-story collection Nahr al-Hayawan (The Animal River, 1994)."
+  ur: "سعودی ناول نگار، 1956 میں مکہ میں پیدا ہوئیں۔ انہوں نے جدہ کی شاہ عبدالعزیز یونیورسٹی میں انگریزی ادب پڑھا اور الریاض اخبار کے صفحۂ «حروف و افکار» سے لکھنے کا آغاز کیا۔ ان کے ناول «طوق الحمام» نے 2011 میں عربی فکشن کا بین الاقوامی انعام محمد الاشعری کے ساتھ مشترکہ طور پر جیتا؛ ان کی دیگر تصانیف میں «خاتم» اور افسانوی مجموعہ «نہر الحیوان» (1994) شامل ہیں۔"
+roles: [writer]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1956"
+  calendar: gregorian
+  precision: year
+  status: debated
+  note: "The English article's lead and the Arabic article give 1956, and the first of Wikidata's two birth-date values agrees. The English article's infobox and short description give 1970, which Wikidata carries as a second value. The record follows 1956, the year carried by both article texts, and marks the birth debated. A bare 1956 spans two Hijri years (1375 and 1376), so no Hijri year is recorded."
+  sources: [source/wikipedia-raja-alem-en, source/wikipedia-raja-alem-ar, source/wikidata-raja-alem]
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-raja-alem-en, source/wikipedia-raja-alem-ar, source/wikidata-raja-alem] }
+  - { type: lived_in, target: place/jeddah, sources: [source/wikipedia-raja-alem-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Alem, and Wikidata carries no religion statement for her. Her novels are written in a symbolic Sufi and Gnostic narrative mode, which is a literary style, not an attestation of personal affiliation. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-raja-alem-en, source/wikipedia-raja-alem-ar, source/wikidata-raja-alem]
+external_ids: { wikidata: "Q459877" }
+sources: [source/wikipedia-raja-alem-en, source/wikipedia-raja-alem-ar, source/wikipedia-raja-alem-ur, source/wikidata-raja-alem]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Raja'a Alem' (revision 1377860059), Arabic Wikipedia (revision 74095578), Urdu Wikipedia (revision 9480125) and Wikidata Q459877 (item revision 2558220786, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-159a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

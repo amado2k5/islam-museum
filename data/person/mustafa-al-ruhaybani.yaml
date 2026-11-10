@@ -1,0 +1,32 @@
+id: person/mustafa-al-ruhaybani
+class: person
+label: { ar: "مصطفى بن سعد بن عبده الرحيباني السيوطي", en: "Mustafa ibn Sa'd ibn Abduh al-Ruhaybani al-Suyuti" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+gender: male
+wings: [people]
+summary:
+  ar: "مصطفى بن سعد بن عبده السيوطي شهرة، الرحيباني مولدا، مفتي الحنابلة بدمشق، فقيه فرضي، أخذ الفقه عن أحمد البعلي ومحمد بن مصطفى اللبدي النابلسي وآخرين، وانتهت إليه رئاسة الفقه، وتولى نظارة الجامع الأموي والإفتاء على مذهب أحمد. من تصانيفه «مطالب أولي النهى في شرح غاية المنتهى» في ثلاثة مجلدات. عاش بين 1164 و1243هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2060}"
+  en: "Mustafa ibn Sa'd ibn Abduh, called al-Suyuti, and al-Ruhaybani by birth, mufti of the Hanbalis in Damascus, a jurist and expert in inheritance. He studied law with Ahmad al-Ba'li and Muhammad ibn Mustafa al-Labdi al-Nabulusi and others; leadership of the law came to him, and he supervised the Umayyad Mosque and gave fatwas on the school of Ahmad ibn Hanbal. His work is 'Matalib uli al-nuha' in three large volumes. He lived from 1164 to 1243 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2060}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2060"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1827", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

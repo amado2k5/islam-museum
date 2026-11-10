@@ -1,0 +1,20 @@
+id: place/harar
+class: place
+kind: city
+label: { ar: "هرر", en: "Harar" }
+summary:
+  ar: "مدينة إثيوبية مسوّرة، من مراكز الإسلام في القرن الأفريقي."
+  en: "Walled Ethiopian city, a centre of Islam in the Horn of Africa."
+wings: [place]
+regions: [east-africa]
+coordinates: [9.31, 42.12]
+coordinate_precision: locality
+coordinate_note: "Identified location; flagged for gazetteer verification."
+external_ids: { wikidata: "Q190404" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Created so person nisba/name associations resolve on the map."

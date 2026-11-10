@@ -1,0 +1,26 @@
+---
+id: work/fatwa-dar-alifta-is-ablution-required-for-remembrances-after-prayer
+lang: en
+source_lang: ar
+translators: []
+---
+
+## Summary
+
+A question whether ritual purity is required for the remembrances after the obligatory prayer, in which [[group/dar-al-ifta-al-misriyya|Dar al-Ifta al-Misriyya]] answered that purity is not a condition of remembrance by the jurists' consensus, so closing the prayer with the remembrances without purity is valid, but keeping purity is the most complete and recommended course because of the greatness of remembrance after prayer. {cite:dar-alifta fatwa 9009}
+
+## The question
+
+The questioner asked: do the remembrances after the obligatory prayer require me to be in a state of ablution? {cite:dar-alifta fatwa 9009}
+
+## The answer
+
+Dar al-Ifta began by explaining that remembrance of God is a worship of lofty standing and great reward, citing [[passage/quran-33-35|al-Ahzab 35]] and [[passage/quran-33-41|al-Ahzab 41–42]] and the hadith of [[person/abu-al-darda|Abu al-Darda]] in al-Tirmidhi that the best and purest of deeds is the remembrance of God; the command to remember God after prayer is given without restriction in [[passage/quran-4-103|al-Nisa 103]], which [[person/ala-al-din-al-samarqandi|Ala al-Din al-Samarqandi]] in his commentary (1/434) explains as remembrance with heart and tongue in whatever state one is, and Thawban's hadith in [[work/sahih-muslim|Sahih Muslim]] reports that when the Prophet finished his prayer he sought forgiveness three times and said 'O God, You are Peace and from You is peace'. {cite:dar-alifta fatwa 9009} It then ruled that purity is not a condition of remembrance after prayer: as soon as one has said the closing salutation, remembrance and glorification without purity are permitted by the jurists' agreement, since the closing remembrances are general remembrance, which consensus allows to one in a state of minor or major impurity; it cited the agreed-upon hadith of [[person/aisha|Aisha]] that the Prophet remembered God at all his times, which Qadi Iyad in Ikmal al-Mu'lim (2/227) takes as proof that one without purity is not barred from remembering God, [[person/ala-al-din-al-kasani|al-Kasani]] in [[work/badai-al-sanai|Bada'i' al-Sana'i']] (1/263) that one in minor or major impurity is not barred from remembering God, and [[person/al-nawawi|al-Nawawi]] in al-Adhkar (p. 11) that the scholars agree on the permissibility of remembrance with heart and tongue for one in minor or major impurity, a menstruating woman and a woman in post-natal bleeding, in glorification, declaring God's oneness, praise, magnification, invoking blessings on the Prophet, supplication and the like. {cite:dar-alifta fatwa 9009}
+
+Dar al-Ifta said that although purity is not obligatory for closing the prayer, keeping it is recommended, by the hadith of al-Muhajir ibn Qunfudh that he greeted the Prophet while he was urinating and the Prophet did not return the greeting until he had performed ablution, then apologised and said he disliked to mention God except in a state of purity, recorded by Abu Dawud, Ibn Hibban and al-Hakim, who graded it authentic; Ibn al-Malak in Sharh Masabih al-Sunna (1/304) says it shows that remembering God in a state of ablution or dry ablution is recommended, and the closing remembrance is an exalted remembrance that befits purity, its reciter closing his prayer with it so that it befits him to share the qualities of those praying, as al-Kasani (1/151) explains the recommendation of purity for the muezzin by the adhan being an exalted remembrance whose performance in purity is closer to reverence. {cite:dar-alifta fatwa 9009} It explained that there is no contradiction between the Prophet's remembering God at all his times and his not returning the greeting on some occasions, because the general permission is qualified for certain states in which remembrance with the tongue is disliked, such as relieving oneself and the state of major impurity as regards reciting the Qur'an, as al-Munawi says in Fayd al-Qadir (5/214) that the hadith is general but excludes one relieving himself and one in major impurity as regards the Qur'an, which is the majority view, and as [[person/ali-al-qari|Ali al-Qari]] says in [[work/mirqat-al-mafatih|Mirqat al-Mafatih]] (2/436) that the hadith 'I disliked to mention God except in purity' concerns remembrance with the tongue, and the dislike means departure from what is best. {cite:dar-alifta fatwa 9009}
+
+Dar al-Ifta concluded that keeping ritual purity when reciting the remembrances that close the prayer is the most complete and recommended course, because of the greatness of remembrance after prayer and because its reciter closes his prayer with it, so that it befits him to share the qualities of those praying; if the worshipper closes his prayer without purity it is valid and there is no blame on him, since purity is not a condition of remembrance. {cite:dar-alifta fatwa 9009}
+
+## About this record
+
+Dar al-Ifta al-Misriyya published this fatwa on dar-alifta.org as no. 9009, dated 1 July 2026, in the category of purity, among the fatwas of the Grand Mufti [[person/nazir-ayyad|Nazir Muhammad Ayyad]]. {cite:dar-alifta fatwa 9009} The museum records this text as a historical document attributed to the body or scholar that issued it; it issues no ruling of its own.

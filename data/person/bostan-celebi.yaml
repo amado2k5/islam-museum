@@ -1,0 +1,28 @@
+id: person/bostan-celebi
+class: person
+label:
+  ar: "بوستان جلبي"
+  en: "Bostan Celebi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لبوستان جلبي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Bostan Celebi, the Ottoman writer (theologian and historian, d. 1570); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Bostan Celebi)" }
+relations:
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136121748
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0095
+status:
+  review: draft
+  completeness: 1

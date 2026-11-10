@@ -1,0 +1,32 @@
+id: polity/walashma-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "سلالة ولشمة"
+  en: "Walashma dynasty"
+summary:
+  ar: "بطاقة أولية لسلالة ولشمة، الأسرة المسلمة التي أسست سلطنة إفات ثم عدل في القرن الأفريقي؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Walashma dynasty, the Muslim house that founded the sultanates of Ifat and Adal in the Horn of Africa; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [east-africa]
+start:
+  edtf: "1285"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1559"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2919791
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Ethiopian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

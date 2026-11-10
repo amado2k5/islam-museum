@@ -1,0 +1,28 @@
+id: event/al-hakim-dar-al-sunna-342
+class: event
+kind: other
+label:
+  ar: "الصبغي يوصي للحاكم بأمور دار السنة، ٣٤٢هـ"
+  en: "Al-Sibghi entrusts Dar al-Sunna to al-Hakim, 342/953"
+  ur: "صبغی نے حاکم کو دار السنہ کا امور سونپے، 342ھ/953ء"
+summary:
+  ar: "اختص الحاكم بصحبة إمام وقته أبي بكر أحمد بن إسحاق الصبغي، فكان الإمام يراجعه في السؤال والجرح والتعديل والعلل، وأوصى إليه في أمور مدرسته دار السنة وفوض إليه تولية أوقافها؛ وتوفي الصبغي في شعبان سنة اثنتين وأربعين {cite:tarikh-islam-dhahabi p. 128} {cite:tarikh-islam-dhahabi p. 256}."
+  en: "Al-Hakim attached himself to the imam of his age, Abu Bakr Ahmad ibn Ishaq al-Sibghi, who consulted him on questions of rijal criticism and 'ilal and, at his death in Sha'ban 342/953, bequeathed to him the management of his school Dar al-Sunna and delegated to him the charge of its endowments {cite:tarikh-islam-dhahabi p. 128} {cite:tarikh-islam-dhahabi p. 256}."
+  ur: "حاکم اپنے زمانے کے امام ابو بکر احمد بن اسحاق صبغی کی خاص صحبت میں رہے، جو انہیں جرح و تعدیل اور علل کے سوالات میں مشورہ دیتے تھے اور شعبان 342ھ/953ء میں وفات کے وقت اپنی مدرسہ دار السنہ کے امور اور اس کے اوقاف کی نگرانی ان کے سپرد کی {cite:tarikh-islam-dhahabi p. 128} {cite:tarikh-islam-dhahabi p. 256}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0953-12~", hijri: "0342-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي الصبغي في شعبان سنة اثنتين وأربعين {cite:tarikh-islam-dhahabi p. 256}؛ والوصية عند وفاته؛ المقابل المشتق نحو ديسمبر ٩٥٣م.", sources: [source/tarikh-islam-dhahabi, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "الموصى إليه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-bakr-al-sibghi, role: "الإمام الموصي", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405 printed p. 128 and s.a. 342 printed p. 256 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

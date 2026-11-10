@@ -1,0 +1,28 @@
+id: person/sawwar-ibn-abdallah-al-qadi
+class: person
+label:
+  ar: سوار بن عبد الله القاضي
+  en: Sawwar ibn 'Abd Allah
+summary:
+  ar: القاضي المشهور بالزهد، مات سنة ست وخمسين ومائة في أيام المنصور {cite:muruj-al-dhahab p. 293}.
+  en: The ascetic qadi, dead in 156 in al-Mansur's day {cite:muruj-al-dhahab p. 293}.
+gender: male
+wings:
+- people
+provenance:
+  layer: own-research
+  source: المسعودي، مروج الذهب وأهل المعاجن
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch30
+sources:
+- source/muruj-al-dhahab
+status:
+  review: published
+  completeness: 3
+died: { edtf: "773", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/muruj-al-dhahab

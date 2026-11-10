@@ -1,0 +1,29 @@
+id: person/najm-al-din-ibn-hamdan
+class: person
+label:
+  ar: "نجم الدين أحمد بن حمدان"
+  en: "Najm al-Din Ibn Hamdan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لنجم الدين أحمد بن حمدان الحراني، فقيه حنبلي وقاضي القرن الثالث عشر، توفي سنة ١٢٩٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Najm al-Din Ahmad ibn Hamdan al-Harrani, the thirteenth-century Hanbali jurist and qadi, d. 1295; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q25451822
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0049
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1206", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina" }
+died: { edtf: "1295", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina" }
+relations:
+  - { type: lived_in, target: place/humdan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

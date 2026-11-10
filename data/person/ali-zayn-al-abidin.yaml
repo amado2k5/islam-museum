@@ -1,0 +1,32 @@
+id: person/ali-zayn-al-abidin
+education:
+  did_you_know:
+    ar: "علي زين العابدين ابن الحسين المعروف بالسجاد؛ بقاه أهل المدينة يوم الحرة فبايعهم على أنهم عبيد ليزيد وأتاه لاذاً بالقبر يدعو."
+    en: "Ali Zayn al-Abidin, son of al-Husayn, called al-Sajjad — when Medina's people were spared at al-Harra he pledged them as Yazid's bondsmen, and they found him clinging to the grave in prayer."
+    ur: "علی زین العابدین، حسین کے بیٹے، سجاد کہلائے — حرہ کے واقعے میں مدینہ کے لوگوں کو بخشا گیا اور یزید کے غلام ہونے کی بیعت لی، اور اسے قبر سے لپٹے دعا کرتے پایا۔"
+    sources: [source/muruj-al-dhahab, source/tarikh-ibn-khaldun-ibar]
+class: person
+label: { ar: "علي بن الحسين السجاد", en: "'Ali ibn al-Husayn, al-Sajjad" }
+summary:
+  ar: "علي بن الحسين بن علي بن أبي طالب المعروف بالسجاد، بقيته يوم الحرة بايع على أنهم عبيد ليزيد فنظر إليه أهل الجيش لاذاً بالقبر يدعو فأتى به إلى مسرف وهو مغتاظ فلما رآه ارتعد وقام له وأقعده إلى جانبه وقال سلني حوائجك فلم يسأله في أحد قدم إلى السيف إلا شفعه فيه، وقال مسرف ما كان ذلك الرأي مني لقد ملئ قلبي منه رعباً {cite:muruj-al-dhahab p. 68}."
+  en: "al-Sajjad, al-Husayn's surviving son — spared the slave-bay'a at the Harra; Musrif who cursed his fathers rose trembling at his prayer, seated him beside himself, and confessed 'my heart was filled with dread of him' {cite:muruj-al-dhahab p. 68}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+external_ids: { wikidata: "Q314978" }
+sources: [source/umayyad-birth-to-fall-2006, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/wikidata]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-baqi, note: "Wikidata Q154204 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

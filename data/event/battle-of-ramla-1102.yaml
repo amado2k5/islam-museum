@@ -1,0 +1,23 @@
+id: event/battle-of-ramla-1102
+class: event
+kind: battle
+label: { ar: "معركة الرملة الثانية", en: "Battle of Ramla" }
+summary:
+  ar: "بطاقة أولية لمعركة الرملة سنة ١١٠٢م، المواجهة الثانية بين بلدوين الأول والمصريين الفاطميين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the second Battle of Ramla in 1102, Baldwin I's second clash with the Fatimid Egyptian army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1102", precision: year, status: tradition, derived: true }
+  end: { edtf: "1102", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q13553978
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

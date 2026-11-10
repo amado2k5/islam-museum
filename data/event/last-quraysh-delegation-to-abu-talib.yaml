@@ -5,7 +5,7 @@ label: { en: "Last Quraysh delegation to Abu Talib", ar: "آخر وفد لقري
 summary:
   en: "A delegation of Quraysh notables visiting Abu Talib on his sickbed to seek a compromise with Muhammad; the Prophet answered by demanding a single word: 'La ilaha illa Allah'."
   ar: "وفادة سادات قريش نحو خمسة وعشرين رجلاً إلى أبي طالب في مرضه الأخير ليعطوه وينصفوه، فطلب منهم النبي كلمة واحدة تملكهم العرب وتدين لهم بها العجم، فأنزل الله فيهم صدر سورة ص."
-wings: [time, people]
+wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
@@ -24,3 +24,19 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 113-114" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/ibn-hisham-sira. Attribution metadata restored only; no new source pages examined."
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 113-114; Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

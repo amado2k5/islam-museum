@@ -1,0 +1,30 @@
+id: person/sayf-al-din-al-mushidd
+class: person
+label:
+  ar: "سيف الدين المشد"
+  en: "Sayf al-Din al-Mushidd"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لسيف الدين المشد، شاعر وكاتب القرن الثالث عشر، توفي سنة ١٢٥٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sayf al-Din al-Mushidd, the thirteenth-century poet and writer, d. 1258; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q27665732
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0061
+status:
+  review: draft
+  completeness: 1

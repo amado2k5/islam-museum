@@ -1,0 +1,16 @@
+id: passage/muslim-2533
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2533"
+label: { ar: "مسلم 2533 — خيركم قرني", en: "Muslim 2533 — The best of you is my generation" }
+text: "سمع عمران بن حصين يحدث أن رسول الله قال: «إن خيركم قرني، ثم الذين يلونهم، ثم الذين يلونهم» — قال عمران: فلا أدري أقال بعد قرنه مرتين أو ثلاثة — «ثم يكون بعدهم قوم يشهدون ولا يستشهدون، ويخونون ولا يؤتمنون، وينذرون ولا يوفون»"
+summary:
+  ar: "رواية عمران بن حصين في فضائل الصحابة من صحيح مسلم؛ فضل القرن النبوي ومن يليه — نص ترتيب الأجيال الأشهر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/imran-ibn-al-husayn, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hubb-al-sahaba, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة (طبعة دار التأصيل، الحديث 6638؛ ترقيم عبد الباقي المعروف 2533)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

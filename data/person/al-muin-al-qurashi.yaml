@@ -1,0 +1,35 @@
+id: person/al-muin-al-qurashi
+class: person
+label: { ar: "المعين القرشي", en: "al-Mu'in al-Qurashi" }
+names:
+  - { value: "المعين القرشي المحدث المتقن أبو إسحاق إبراهيم بن عمر بن عبد العزيز بن الحسن بن القاضي الزكي علي بن محمد بن يحيى", kind: full }
+died: { edtf: "1265-01~", hijri: "0663-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي فجأة في ربيع الأول سنة ثلاث وستين وستمائة {cite:shadharat-dhahab p. 542}." }
+summary:
+  ar: "المحدث المتقن؛ كتب عن ابن صباح وابن اللتي وكريمة فأكثر، وكتب الكثير؛ توفي فجأة في ربيع الأول {cite:shadharat-dhahab p. 542}."
+  en: "The meticulous muhaddith — he wrote much from Ibn Sabbah, Ibn al-Latti and above all from the musnida Karima; died suddenly Rabi' I 663 {cite:shadharat-dhahab p. 542}."
+gender: male
+roles: [muhaddith, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch108
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

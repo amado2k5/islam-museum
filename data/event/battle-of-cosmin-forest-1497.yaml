@@ -1,0 +1,23 @@
+id: event/battle-of-cosmin-forest-1497
+class: event
+kind: battle
+label: { ar: "معركة غابة كوزمين", en: "Battle of the Cosmin Forest" }
+summary:
+  ar: "بطاقة أولية لمعركة غابة كوزمين سنة ١٤٩٧م، كمين إستفان الكبير للجيش البولندي بدعم عثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Cosmin Forest in 1497, Stephen the Great's ambush of the Polish army with Ottoman backing; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1497", precision: year, status: tradition, derived: true }
+  end: { edtf: "1497", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q946056
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Moldavian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

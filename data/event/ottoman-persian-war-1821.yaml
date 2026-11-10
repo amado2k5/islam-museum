@@ -1,0 +1,23 @@
+id: event/ottoman-persian-war-1821
+class: event
+kind: war
+label: { ar: "الحرب العثمانية القاجارية", en: "Ottoman–Persian War of 1821–1823" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية القاجارية من ١٨٢١ إلى ١٨٢٣م، الحرب الحدودية التي أنهاها صلح أرضروم الأول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ottoman–Persian War of 1821–1823, the frontier war ended by the first Treaty of Erzurum; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1821", precision: year, status: tradition, derived: true }
+  end: { edtf: "1823", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2975313
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Qajar histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

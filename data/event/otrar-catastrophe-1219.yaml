@@ -1,0 +1,23 @@
+id: event/otrar-catastrophe-1219
+class: event
+kind: siege
+label: { ar: "كارثة أترار", en: "Otrar Catastrophe" }
+summary:
+  ar: "بطاقة أولية لكارثة أترار سنة ١٢١٩م، سقوط المدينة التي قتل واليها تجار المسلمين ففتح أبواب الغزو المغولي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Otrar catastrophe of 1219, the fall of the city whose governor's killing of Muslim envoys opened the Mongol invasion; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1219", precision: year, status: tradition, derived: true }
+  end: { edtf: "1219", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q111943842
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Khwarazmian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

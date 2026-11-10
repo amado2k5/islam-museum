@@ -1,0 +1,34 @@
+id: person/fudayl-ibn-yasar
+class: person
+label:
+  ar: "فضيل بن يسار"
+  en: "Fudayl ibn Yasar"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لفضيل بن يسار، الراوي التابعي من أهل الكوفة؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Fudayl ibn Yasar, the Kufan transmitter of the Successors; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+died: { edtf: "765~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q26253588
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

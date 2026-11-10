@@ -1,0 +1,28 @@
+id: person/abu-bakr-ibn-lal
+class: person
+label:
+  ar: "أبو بكر بن لال"
+  en: "Abu Bakr ibn Lal"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو بكر بن لال؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Bakr ibn Lal; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107113289
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1007", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

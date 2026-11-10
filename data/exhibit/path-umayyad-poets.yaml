@@ -1,0 +1,76 @@
+id: exhibit/path-umayyad-poets
+class: exhibit
+kind: trail
+label:
+  ar: شعراء الدولة الأموية
+  en: Poets of the Umayyad Court
+summary:
+  ar: 'مسار في عصر النقائض: جرير والفرزدق والأخطل يتنازعون السيادة — الشعر سلاح الدولة وأدبها.'
+  en: A trail through the age of the Naqa'id.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: جرير
+    en: Jarir
+  body:
+    ar: 'شاعر بني كليب: أعنف النقائض.'
+    en: 'شاعر بني كليب: أعنف النقائض.'
+  features:
+  - person/jarir-ibn-atiya
+  - place/basra
+- title:
+    ar: الفرزدق
+    en: Al-Farazdaq
+  body:
+    ar: 'شاعر تميم: الحماسة والفخر.'
+    en: 'شاعر تميم: الحماسة والفخر.'
+  features:
+  - person/farazdaq
+  - place/basra
+- title:
+    ar: الأخطل
+    en: Al-Akhtal
+  body:
+    ar: النصراني في بلاط بني أمية.
+    en: النصراني في بلاط بني أمية.
+  features:
+  - person/al-akhtal
+  - place/damascus
+- title:
+    ar: النقائض
+    en: The naqa'id
+  body:
+    ar: 'هجاء متبادل: شعر يهز البلاط.'
+    en: 'هجاء متبادل: شعر يهز البلاط.'
+  features:
+  - person/jarir-ibn-atiya
+  - person/farazdaq
+- title:
+    ar: البلاط
+    en: The court
+  body:
+    ar: 'دمشق تستمع: الشعر والسياسة.'
+    en: 'دمشق تستمع: الشعر والسياسة.'
+  features:
+  - place/damascus
+  - place/damascus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

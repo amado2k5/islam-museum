@@ -1,0 +1,23 @@
+id: event/first-serbian-uprising
+class: event
+kind: revolt
+label: { ar: "الانتفاضة الصربية الأولى", en: "First Serbian Uprising" }
+summary:
+  ar: "بطاقة أولية للانتفاضة الصربية الأولى ضد الحكم العثماني بقيادة قره جورج من ١٨٠٤ إلى ١٨١٣م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Serbian Uprising against Ottoman rule under Karađorđe from 1804 to 1813; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1804", precision: year, status: tradition, derived: true }
+  end: { edtf: "1813", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q368689
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

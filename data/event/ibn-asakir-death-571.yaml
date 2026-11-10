@@ -1,0 +1,29 @@
+id: event/ibn-asakir-death-571
+class: event
+kind: death
+label:
+  ar: "وفاة ابن عساكر ودفنه بمقبرة باب الصغير، ١١ رجب ٥٧١هـ/٢٥ يناير ١١٧٦م"
+  en: "Ibn 'Asakir dies and is buried at Bab al-Saghir, 11 Rajab 571/25 January 1176"
+  ur: "ابن عساکر کی وفات اور باب الصغیر میں تدفین، 11 رجب 571ھ/25 جنوری 1176ء"
+summary:
+  ar: "قال ابنه أبو محمد القاسم: توفي أبي في حادي عشر رجب، وحضر الصلاة عليه السلطان صلاح الدين، وصلّيت عليه في الجامع والشيخ قطب الدين في الميدان الذي يقابل المصلّى، ودُفن بمقبرة باب الصغير؛ وقبره مشهور يُزار {cite:tarikh-islam-dhahabi p. 82}، وذلك في ٢٥ يناير ١١٧٦م إلى جانب أبيه وسائر أهل بيته {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "His son Abu Muhammad al-Qasim said: my father died on 11 Rajab, the sultan Salah al-Din attended the prayer over him, I prayed over him in the Great Mosque and Shaykh Qutb al-Din led it at the Maydan facing the musalla, and he was buried in the cemetery of Bab al-Saghir where his grave is well known and visited {cite:tarikh-islam-dhahabi p. 82} — 25 January 1176 — beside his father and the other members of his family {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "بیٹے ابو محمد قاسم کہتے ہیں: والد 11 رجب کو فوت ہوئے، سلطان صلاح الدین نمازِ جنازہ میں حاضر ہوا، میں نے جامع میں ان کی نماز پڑھائی اور شیخ قطب الدین نے مصلیٰ کے سامنے میدان میں، اور وہ باب الصغیر کے قبرستان میں دفن ہوئے جہاں ان کا مزار معروف اور متبرک مقامِ زیارت ہے {cite:tarikh-islam-dhahabi p. 82} — 25 جنوری 1176ء — والد اور خاندان کے دیگر افراد کے پہلو میں {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1176-01-25", hijri: "0571-07-11", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في حادي عشر رجب {cite:tarikh-islam-dhahabi p. 82}؛ 11 Rajab 571/25 January 1176 {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "حاضر الصلاة", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qasim-ibn-asakir, role: "المصلّي الابن والراوي", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed p. 82 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

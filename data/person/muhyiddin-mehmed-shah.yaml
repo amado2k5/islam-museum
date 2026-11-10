@@ -1,0 +1,29 @@
+id: person/muhyiddin-mehmed-shah
+class: person
+label:
+  ar: "محي الدين محمد شاه"
+  en: "Muhyiddin Mehmed Shah"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحي الدين محمد شاه؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhyiddin Mehmed Shah, the sixteenth-century Ottoman writer; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/aksaray-q182025, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182025)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q135468894
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0092
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,30 @@
+id: person/sazayi-gulshani
+class: person
+label:
+  ar: "سزائي كولشني"
+  en: "Sezai-yi Gulseni"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لسزائي كولشني؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sezai-yi Gulseni, the Ottoman writer (poet, d. 1738); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1669", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/corinth, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q103011)" }
+  - { type: died_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q43387)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136359143
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0096
+status:
+  review: draft
+  completeness: 1

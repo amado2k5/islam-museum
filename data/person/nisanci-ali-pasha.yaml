@@ -1,0 +1,29 @@
+id: person/nisanci-ali-pasha
+class: person
+label:
+  ar: "علي باشا النيشانجي"
+  en: "Nisanci Ali Pasha"
+roles: [official]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي باشا النيشانجي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nisanci Ali Pasha; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: place/karacaahmet-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q578506)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6091089
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

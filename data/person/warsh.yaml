@@ -1,0 +1,31 @@
+id: person/warsh
+class: person
+label:
+  ar: "ورش"
+  en: "Warsh"
+roles: [quran-reader]
+gender: male
+summary:
+  ar: "عثمان بن سعيد «ورش»، من كبار القراء، مخرج رواية نافع الثانية التي عليها أهل المغرب؛ توفي بمصر سنة 197هـ ⁦(812م)⁩."
+  en: "'Uthman “Warsh” (110–197/728–812), Egyptian master-reader, transmitter of Nafi''s second riwaya."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/abbasid-early]
+born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar" }
+died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar" }
+relations:
+  - { type: born_in, target: place/qift, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q935454)" }
+  - { type: died_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q839456)" }
+  - { type: buried_in, target: place/southern-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q98740785)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12250893
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.205)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

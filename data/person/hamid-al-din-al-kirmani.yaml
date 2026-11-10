@@ -1,0 +1,29 @@
+id: person/hamid-al-din-al-kirmani
+class: person
+label:
+  ar: "حميد الدين الكرماني"
+  en: "Hamid al-Din al-Kirmani"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لحميد الدين الكرماني، داعي الإسماعيلية وفيلسوفها في القرن الحادي عشر صاحب «راحة العقل»، توفي سنة ١٠٢١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hamid al-Din al-Kirmani, the eleventh-century Ismaili da'i and philosopher author of Rahat al-Aql, d. 1021; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "996", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5644672
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0028
+status:
+  review: draft
+  completeness: 1

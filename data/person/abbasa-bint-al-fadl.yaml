@@ -1,0 +1,29 @@
+id: person/abbasa-bint-al-fadl
+class: person
+label:
+  ar: "عباسة بنت الفضل"
+  en: "Abbasa bint al-Fadl"
+roles: [companion]
+gender: female
+summary:
+  ar: "بطاقة أولية لعباسة بنت الفضل، زوجة الإمام أحمد بن حنبل؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Abbasa bint al-Fadl, the wife of Imam Ahmad ibn Hanbal; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata]
+died: { edtf: "835~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jami' li-Ulum al-Imam Ahmad; wife of Ibn Hanbal (d. c. 220 AH)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+external_ids:
+  wikidata: Q133852327
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0091
+status:
+  review: draft
+  completeness: 1

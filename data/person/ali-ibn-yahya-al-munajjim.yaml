@@ -1,0 +1,21 @@
+id: person/ali-ibn-yahya-al-munajjim
+class: person
+label: { ar: "علي بن يحيى المنجم", en: "'Ali ibn Yahya al-Munajjim" }
+summary:
+  ar: "من بني المنجم، حدث عن نفسه أن المنتصر رآه مغموماً لضيعة أحب شراءها ولا قيمة عنده من ثمنها الثلاثين ألف درهم إلا عشرة، فأشار إلى خادمه فصار إلى داره ببغل عليه بدرتان فوفى الثمن ولم يعد المنتصر عليه حرفاً إلى أن فرق الموت بينهما، وقال ما رأيت أحداً أكرم أفعالاً بغير تبجح منه {cite:muruj-al-dhahab p. 521-522}."
+  en: "The Banu'l-Munajjim astrologer — al-Muntasir quietly sent his servant round with the twenty thousand he lacked, never mentioning it again {cite:muruj-al-dhahab p. 521-522}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+died: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+relations:
+  - { type: lived_in, target: place/samarra, note: "Banu'l-Munajjim astrologer at al-Muntasir's Samarra court.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,21 @@
+id: person/umm-kulthum-bint-abi-bakr
+class: person
+label: { ar: "أم كلثوم بنت أبي بكر", en: "Umm Kulthum bint Abi Bakr" }
+summary:
+  ar: "أم كلثوم بنت أبي بكر الصديق؛ أمها زيدة بنت خارجة رجل من الأنصار؛ تزوجها طلحة بن عبيد الله فولدت له زكريا وعائشة ثم قُتل عنها فتزوجها عبد الرحمن بن عبد الله بن أبي ربيعة المخزومي {cite:wafayat-ayan}."
+  en: "Umm Kulthum bint Abi Bakr al-Siddiq — her mother was the Ansari woman Zayda bint Kharija; married Talha b. Ubaydallah (mother of his Zakariyya and A'isha), and after his death married Abd al-Rahman b. Abdallah b. Abi Rabi'a al-Makhzumi {cite:wafayat-ayan}."
+gender: female
+wings: [people]
+periods: [period/prophetic-era, period/rashidun]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الثالث (عارضة 85 داخل ترجمة أبي بكر الصديق)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 High) from djvu OCR text"
+  run: lib-wafayat-batch-15
+external_ids: { wikidata: "Q7881640" }
+born: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Tabaqat al-Kubra" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Tabaqat al-Kubra" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+sources: [source/wafayat-ayan, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,36 @@
+---
+id: event/treaty-of-hudaybiyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/sira-nabawiyya-sallabi pp. 687–694, 714", note: "section added to earlier prose" }
+---
+In Dhu al-Qa'da of the sixth year after the hijra, the Prophet set out from Medina with fourteen hundred of his Companions as umra pilgrims, driving the sacrificial animals and entering ihram at Dhu al-Hulayfa so people would know they sought no fighting; when they reached Usfan word came that Quraysh had mustered its Ahabish to bar the Muslims from the Sacred Mosque. {cite:mubarakpuri-raheeq}
+
+The Prophet took a rough road through the ravines until he halted at al-Hudaybiyya at the sanctuary's edge, where its dry well welled up for them by the blessing of the Prophet's arrow; negotiation envoys came in succession from Quraysh — Budayl ibn Warqa', Urwa ibn Mas'ud al-Thaqafi and al-Hulays ibn Alqama — until Quraysh sent [[person/suhayl-ibn-amr|Suhayl ibn Amr]] to seal the peace. {cite:sahih-al-bukhari}
+
+The treaty's terms set down war between the two parties for ten years; the Muslims were to return home this year and come back the following year as umra pilgrims, staying three days with a rider's arms only; whoever came to the Prophet from Quraysh as a Muslim without his guardian's leave was to be returned to them, while whoever came to Quraysh from the Muslims was not returned; and whoever wished to enter the Prophet's pact entered it, and whoever wished to enter Quraysh's pact entered it. Khuza'a entered the Prophet's alliance and Banu Bakr entered Quraysh's. {cite:mubarakpuri-raheeq}
+
+When the peace was sealed [[person/abu-jandal-ibn-suhayl|Abu Jandal ibn Suhayl]] came dragging his chains, and the Prophet returned him to his father in keeping faith with the treaty, counselling patience; the Muslims slaughtered their sacrificial animals and shaved their heads following the Prophet's lead after [[person/umm-salama|Umm Salama]]'s counsel, and on their return road God sent down Sura al-Fath, giving tidings that it was "a manifest victory", as in [[passage/quran-48-1|Sura al-Fath verse 1]]. {cite:sahih-al-bukhari}
+
+## For Sprouts
+The Prophet set out for Mecca to perform Umrah, and a peace was made with Quraysh at al-Hudaybiyya, which God called a clear victory.
+
+## For Explorers
+The Prophet and his companions set out for Mecca to perform Umrah, and they did not want war. The people of Mecca made peace with them at al-Hudaybiyya, a truce for ten years. The Qur'an calls this treaty a clear victory, although many people did not understand it at first.
+
+## For Scholars
+In Dhu al-Qa'da of the sixth year after the Hijra the Prophet set out with about fourteen hundred companions to perform Umrah, seeking no war. When Quraysh blocked them at al-Hudaybiyya, talks were held through Suhayl ibn Amr and ended in a ten-year truce, with a clause that people coming from Mecca as Muslims without their guardian's permission would be returned. The Qur'an, in surat al-Fath, calls it a clear victory. The reports say some companions objected to its terms at first. This entry presents the treaty as the sources give it, and makes no judgement on what the negotiators felt.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+The speaker recounts Suhayl ibn Amr, the orator of the Arabs, who was writing down the treaty's terms. He objected to the word "the Merciful" in the basmala, said he did not know it, and asked that it be written "in your name, O God" {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:36:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:37:00}.
+
+He recounts a clause on returning people who passed from one side to the other, which he calls an unjust condition. Umar objected to it and left the tent of negotiation, while Abu Bakr stood guard at the tent {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:39:30}.
+
+He recounts that the Prophet said to Umar, "Calm down, O Umar," and Umar, not at peace, went to Abu Bakr for support {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:40:30}.
+
+He says Suhayl ibn Amr later became Muslim. He recounts that Umar had proposed, when Suhayl was a captive, that his front tooth be knocked out so that he could not stand up as an orator against the Prophet; Umar then said the Arabs need an eloquent orator, and that Suhayl might one day have a stand that would matter {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:45:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:45:30}. After the Prophet's death, he says, Suhayl preached in Mecca and brought back those who had wavered into apostasy {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep05 00:46:00}.
+
+## Al-Sallabi's analysis: the lessons of al-Hudaybiya
+[[person/ali-muhammad-al-sallabi|Ali Muhammad al-Sallabi]] holds that al-Hudaybiya was "rich in lessons of creed, law, legal theory and education", and gives examples. {cite:sira-nabawiyya-sallabi p.687} In creed: al-Mughira ibn Shu'ba standing over the Prophet with a sword when the enemy's envoys came; the difference between good omen and evil augury; the hadith of Zayd ibn Khalid al-Juhani on attributing rain to the stars; and al-Shatibi's remark that seeking blessing from relics was never practised by the Companions with anyone after the Prophet. {cite:sira-nabawiyya-sallabi p.687} {cite:sira-nabawiyya-sallabi p.688} {cite:sira-nabawiyya-sallabi p.689} In law: the expiation for an ailment of the head, from the hadith of Ka'b ibn Ujra ([[passage/quran-2-196|al-Baqara 2:196]]); making up a prayer one slept through; and the length of a truce — ten years, longer if in the public interest according to Abu Hanifa, or renewal of the contract according to al-Shafi'i — preferring the first. {cite:sira-nabawiyya-sallabi p.690} {cite:sira-nabawiyya-sallabi p.691} {cite:sira-nabawiyya-sallabi p.692} He states his view that the idea that jihad was legislated only for defence is "an alien idea", citing Sayyid Qutb — a position in a modern debate, attributed to him. {cite:sira-nabawiyya-sallabi p.693} In legal theory, the rule that "the unqualified stays unqualified", from the Prophet's answer to one who asked about the promise of entering Mecca; in education, the story of Umar and the good deeds he did out of fear for what he had said that day. {cite:sira-nabawiyya-sallabi p.693} {cite:sira-nabawiyya-sallabi p.694} He calls the treaty "the herald of the beginning of Islam's expansion" beyond Arabia through the Prophet's letters to rulers. {cite:sira-nabawiyya-sallabi p.714}

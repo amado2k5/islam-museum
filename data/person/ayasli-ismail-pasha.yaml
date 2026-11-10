@@ -1,0 +1,35 @@
+id: person/ayasli-ismail-pasha
+class: person
+label:
+  ar: "أياشلي إسماعيل باشا"
+  en: "Ayaşlı İsmail Pasha"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لأياشلي إسماعيل باشا، الصدر الأعظم العثماني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ayaşlı İsmail Pasha, the Ottoman grand vizier; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1620", precision: year, status: tradition, derived: true }
+died: { edtf: "1690", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3826881
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }

@@ -1,0 +1,38 @@
+id: person/al-husayn-dhi-al-dama
+class: person
+label:
+  ar: "الحسين ذي الدمعة"
+  en: "al-Husayn Dhi al-Dam'a"
+roles: [muhaddith, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية للحسين بن زيد المعروف بذي الدمعة، محدث من أهل القرن الثامن، توفي سنة ٧٥٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Husayn ibn Zayd known as Dhi al-Dam'a, an eighth-century muhaddith, d. 752; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q124506430
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0090
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam 12/125; d. 180 AH)" }
+died: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam 12/125; d. 180 AH)" }
+relations:
+  - { type: born_in, target: place/al-sham, note: "Wikidata Q13415123 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-baqi, note: "Wikidata Q154204 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

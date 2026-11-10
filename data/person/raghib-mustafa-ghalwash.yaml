@@ -1,0 +1,30 @@
+id: person/raghib-mustafa-ghalwash
+class: person
+label: { ar: "راغب مصطفى غلوش", en: "Raghib Mustafa Ghalwash", ur: "راغب مصطفیٰ غلوش" }
+names:
+  - { value: "راغب مصطفى غلوش", kind: full }
+  - { value: "Raghib Mustafa Ghalwash", kind: full }
+  - { value: "Ragheb Moustafa Ghalwash", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري (1938–2016) من برما بالغربية، تلقّى رواية ورش بالمعهد الأحمدي بطنطا، واعتُمد قارئًا بالإذاعة المصرية في 1962 وهو في الثانية والعشرين بعد أن عرفه رواد مسجد الحسين جنديًا يؤذن ويقرأ فيه، وظل يقرأ قرآن الفجر على الهواء من كبرى مساجد مصر."
+  en: "Egyptian Qur'an reciter (1938–2016) from Birma in Gharbia who learned the Warsh reading at the Ahmadi institute in Tanta and was admitted as an Egyptian Radio reciter in 1962, aged 22, after worshippers at al-Hussein Mosque came to know him as a conscript giving the adhan and reciting there; he went on reciting the dawn Qur'an live from Egypt's great mosques."
+  ur: "مصری قاریِ قرآن ⁦(1938ء–2016ء)⁩، غربیہ کے برما سے، جنھوں نے طنطا کے معہدِ احمدی میں روایتِ ورش سیکھی اور 1962ء میں بائیس برس کی عمر میں مصری ریڈیو کے قاری بنے، جب مسجد حسین کے نمازی انھیں فوجی سپاہی کے طور پر وہاں اذان اور تلاوت کرتے جان چکے تھے؛ بعد میں مصر کی بڑی مساجد سے فجر کی تلاوت براہِ راست کرتے رہے۔"
+wings: [people]
+regions: [egypt-nile]
+roles: [reciter, muezzin]
+born: { edtf: "1938-07-05", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Birma village, Tanta district, Gharbia (Arabic article). No place entity for Birma exists, so no birthplace relation is written.", sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+died: { edtf: "2016-02-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died after an illness that took him to hospital, aged 77; the article's infobox places the death in the Tanta district and cites Masrawy and Al-Alam.", sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+  - { type: lived_in, target: place/tanta, sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article names no school for him. It reports, citing al-Mesryoon (15 May 2014), that he recited in Iran every Ramadan for thirty years and once gave the Shia form of the adhan there — a performance on invitation, not an attestation of his own school. Not recorded."
+    sources: [source/wikipedia-raghib-mustafa-ghalwash-ar]
+footprint:
+  wikipedia: { languages: [ar, arz, fa], checked: "2026-11-06", sources: [source/wikipedia-raghib-mustafa-ghalwash-ar] }
+sources: [source/wikipedia-raghib-mustafa-ghalwash-ar]
+provenance: { layer: own-research, source: "Arabic Wikipedia «راغب مصطفى غلوش» (revision 77054570, 24 October 2026), read in Chrome on 6 November 2026; the linked Wikidata item Q6728669 carries another person's labels and is not used", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b01 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

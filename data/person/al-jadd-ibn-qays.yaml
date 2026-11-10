@@ -1,0 +1,26 @@
+id: person/al-jadd-ibn-qays
+class: person
+label: { en: Al-Jadd ibn Qays, ar: "الجد بن قيس" }
+names:
+  - { kind: full, lang: ar, value: "الجد بن قيس" }
+gender: male
+summary:
+  ar: "من بني سلمة؛ سأله النبي عن قتال بني الأصفر فاستأذنه في التخلف خشية الفتنة، ويذكر ابن إسحاق أن آية من سورة التوبة نزلت فيه."
+  en: Of Banu Salima; the Prophet asked him about fighting the Banu al-Asfar and he asked leave to stay behind for fear of temptation. Ibn Ishaq says a verse of Sura al-Tawba was revealed about him.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 1/536; d. caliphate of Umar/Uthman)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa, source/assabile-tareq-al-suwaidan], confidence: low }
+  - { type: participated_in, target: event/al-jadd-ibn-qays-asks-to-stay-behind, role: subject, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 159-160"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch75
+sources: [source/ibn-hisham-saqqa, source/assabile-tareq-al-suwaidan]
+status:
+  review: published
+  completeness: 3

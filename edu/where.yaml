@@ -1,0 +1,88 @@
+# Where am I? — the gentle version (docs/delegation/education-master-plan.md §5 E3, step 6): twelve
+# first-person riddles at /{lang}/sighar/explorers/where/. Two choices, always warm — no answer is
+# ever "wrong"; every reveal is kind and links the record. Each riddle names two real entities.
+rounds:
+  - id: kaaba
+    question:
+      ar: "أقف في المدينة التي وُلد فيها النبي، ويتجه إليّ الناس في صلاتهم. من أكون؟"
+      en: "I stand in the city where the Prophet was born, and people turn toward me when they pray. Who am I?"
+      ur: "میں اس شہر میں کھڑا ہوں جہاں نبی پیدا ہوئے، اور لوگ نماز میں میری طرف رخ کرتے ہیں۔ میں کون ہوں؟"
+    options: [building/kaaba, building/dome-of-the-rock]
+    answer: building/kaaba
+  - id: prophets-mosque
+    question:
+      ar: "بُنيتُ أول الأمر من الطين والنخيل، وفوق قبرٍ كريمٍ عندي قبّة خضراء. من أكون؟"
+      en: "I was first built of mud bricks and palm trunks, and a green dome rises above a blessed resting place beside me. Who am I?"
+      ur: "میں سب سے پہلے مٹی کی اینٹوں اور کھجور کے تنوں سے بنا، اور میرے پاس ایک بابرکت آرام گاہ کے اوپر سبز گنبد ہے۔ میں کون ہوں؟"
+    options: [building/prophets-mosque, building/al-aqsa-mosque]
+    answer: building/prophets-mosque
+  - id: great-mosque-cordoba
+    question:
+      ar: "أقف في قرطبة وتحت سقفي غابة من أعمدة وعقود حمراء وبيضاء. من أكون؟"
+      en: "I stand in Cordoba, and beneath my roof a forest of columns and red-and-white arches grows. Who am I?"
+      ur: "میں قرطبہ میں کھڑا ہوں، اور میری چھت کے نیچے ستونوں اور سرخ و سفید محرابوں کا جنگل ہے۔ میں کون ہوں؟"
+    options: [building/great-mosque-cordoba, building/alhambra]
+    answer: building/great-mosque-cordoba
+  - id: alhambra
+    question:
+      ar: "قصرٌ أنا فوق هضبة غرناطة، تجري في صحوري المياه وعلى جدراني شعرٌ منقوش. من أكون؟"
+      en: "I am a palace above Granada where water runs through courtyards and poetry is carved into my walls. Who am I?"
+      ur: "میں غرناطہ کی پہاڑی پر ایک محل ہوں جہاں صحنوں میں پانی بہتا ہے اور میری دیواروں پر شاعری کندہ ہے۔ میں کون ہوں؟"
+    options: [building/alhambra, building/great-mosque-cordoba]
+    answer: building/alhambra
+  - id: baghdad
+    question:
+      ar: "مدينةٌ مدوّرة أنا بُنيت على دجلة، وفِيَ دارُ الحكمة التي ترجمت علوم الدنيا. من أكون؟"
+      en: "I am a round city built on the Tigris, and my House of Wisdom translated the learning of the world. Who am I?"
+      ur: "میں دجلہ کے کنارے بسا ایک گول شہر ہوں، اور میرے دارالحکمت نے دنیا کے علوم کا ترجمہ کیا۔ میں کون ہوں؟"
+    options: [place/baghdad, place/cairo]
+    answer: place/baghdad
+  - id: timbuktu
+    question:
+      ar: "أقف على حافة الصحراء الكبرى، وحُفظت عندي كتبٌ لا تُحصى في بيوت أهلها. من أكون؟"
+      en: "I stand at the edge of the great desert, and countless books were kept safe in the houses of my people. Who am I?"
+      ur: "میں عظیم صحرا کے کنارے کھڑا ہوں، اور میرے لوگوں کے گھروں میں بے شمار کتابیں محفوظ رہیں۔ میں کون ہوں؟"
+    options: [place/timbuktu, place/fez]
+    answer: place/timbuktu
+  - id: bukhara
+    question:
+      ar: "مدينةٌ قديمة على طريق الحرير، هدى مئذنتي العالية القوافلَ مئاتِ السنين. من أكون؟"
+      en: "I am an old Silk Road city whose tall minaret guided caravans for hundreds of years. Who am I?"
+      ur: "میں شاہراہِ ریشم کا پرانا شہر ہوں جس کا اونچا مینار صدیوں تک قافلوں کی رہنمائی کرتا رہا۔ میں کون ہوں؟"
+    options: [place/bukhara, place/delhi]
+    answer: place/bukhara
+  - id: umayyad-mosque
+    question:
+      ar: "أقف في قلب دمشق القديمة، وفي صحني مآذنُ وقبة النسر. من أكون؟"
+      en: "I stand in the heart of old Damascus; my courtyard holds tall minarets and the Dome of the Eagle. Who am I?"
+      ur: "میں پرانے دمشق کے دل میں کھڑا ہوں؛ میرے صحن میں اونچے مینار اور عقاب کا گنبد ہیں۔ میں کون ہوں؟"
+    options: [building/umayyad-mosque, building/suleymaniye-mosque]
+    answer: building/umayyad-mosque
+  - id: dome-of-the-rock
+    question:
+      ar: "قبّة ذهبية أنا فوق صخرةٍ في القدس، تُرى من كل مكان في البلدة القديمة. من أكون؟"
+      en: "I am a golden dome over a rock in Jerusalem, seen from everywhere in the Old City. Who am I?"
+      ur: "میں یروشلم میں ایک چٹان کے اوپر سنہری گنبد ہوں، جو پرانے شہر کی ہر جگہ سے نظر آتا ہے۔ میں کون ہوں؟"
+    options: [building/dome-of-the-rock, building/al-aqsa-mosque]
+    answer: building/dome-of-the-rock
+  - id: suleymaniye
+    question:
+      ar: "بناني سنان المعمار فوق تلٍّ في إسطنبول، ومن مآذني الأربع ترى البوسفور. من أكون؟"
+      en: "Sinan the architect built me on a hill in Istanbul, and from my four minarets you can see the Bosphorus. Who am I?"
+      ur: "مجھے معمار سنان نے استنبول کی ایک پہاڑی پر بنایا، اور میرے چار میناروں سے باسفورس نظر آتا ہے۔ میں کون ہوں؟"
+    options: [building/suleymaniye-mosque, building/blue-mosque]
+    answer: building/suleymaniye-mosque
+  - id: al-aqsa
+    question:
+      ar: "أنا المسجد الذي صلّى فيه الناس نحو القبلة الأولى، في نهاية الحرم الشريف. من أكون؟"
+      en: "I am the mosque where people prayed toward the first qibla, at the far end of the Noble Sanctuary. Who am I?"
+      ur: "میں وہ مسجد ہوں جہاں لوگ پہلے قبلے کی طرف نماز پڑھتے تھے، حرمِ شریف کے کنارے۔ میں کون ہوں؟"
+    options: [building/al-aqsa-mosque, building/dome-of-the-rock]
+    answer: building/al-aqsa-mosque
+  - id: eyup-sultan
+    question:
+      ar: "على ضفاف القرن الذهبي أقف، واسمي من صاحبٍ كريم آوى النبي في المدينة. من أكون؟"
+      en: "I stand by the Golden Horn, named after a kind Companion who hosted the Prophet in Medina. Who am I?"
+      ur: "میں گولڈن ہورن کے کنارے کھڑا ہوں، اور میرا نام اس مہربان صحابی پر ہے جس نے مدینہ میں نبی کی میزبانی کی۔ میں کون ہوں؟"
+    options: [building/eyup-sultan-mosque, building/prophets-mosque]
+    answer: building/eyup-sultan-mosque

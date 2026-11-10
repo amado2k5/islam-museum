@@ -1,0 +1,23 @@
+id: event/battle-of-zenta-1697
+class: event
+kind: battle
+label: { ar: "معركة زانطة", en: "Battle of Zenta" }
+summary:
+  ar: "بطاقة أولية لمعركة زانطة سنة ١٦٩٧م، هزيمة الجيش العثماني الكبرى أمام يوجين السافوي في الحرب التركية الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Zenta in 1697, the crushing Ottoman defeat by Eugene of Savoy during the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1697", precision: year, status: tradition, derived: true }
+  end: { edtf: "1697", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q517486
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

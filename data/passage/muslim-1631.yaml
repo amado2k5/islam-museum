@@ -1,0 +1,17 @@
+id: passage/muslim-1631
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1631"
+label: { ar: "مسلم 1631 — إذا مات الإنسان انقطع عمله إلا من ثلاث", en: "Muslim 1631 — When a person dies their work ends except through three" }
+text: "قال رسول الله: «إذا مات الإنسان انقطع عنه عمله إلا من ثلاثة: إلا من صدقة جارية، أو علم ينتفع به، أو ولد صالح يدعو له»"
+summary:
+  ar: "رواية أبي هريرة في باب ما يلحق الإنسان من الثواب بعد وفاته من كتاب الوصية في صحيح مسلم؛ الصدقة الجارية والعلم النافع والولد الصالح أبواب الثواب التي تبقى بعد الموت."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ilm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الوصية، باب ما يلحق الإنسان من الثواب بعد وفاته (طبعة دار التأصيل، الحديث 4310؛ ترقيم عبد الباقي المعروف 1631)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,35 @@
+id: person/ahmad-ibn-khalil-al-khui
+class: person
+label:
+  ar: "أحمد بن خليل الخويي"
+  en: "Ahmad ibn Khalil al-Khu'i"
+roles: [scholar, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن خليل الخويي، فقيه وقاضٍ القرن الثالث عشر، توفي سنة ١٢٤٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Khalil al-Khu'i, the thirteenth-century jurist and judge, d. 1240; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57252424
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0062
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "1187", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+died: { edtf: "1239", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

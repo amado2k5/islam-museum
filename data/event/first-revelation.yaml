@@ -5,14 +5,14 @@ label: { en: "The first revelation", ar: "بدء الوحي في غار حراء
 summary:
   en: "The descent of Jibril upon the Prophet in the cave of Hira with the opening verses of surat al-Alaq — on the night of Monday 21 Ramadan in the book's preferred reckoning, corresponding to 10 August 610 CE, when the Prophet was forty lunar years, six months and twelve days old."
   ar: "نزول جبريل على النبي في غار حراء بأوائل سورة العلق — ليلة الإثنين الحادي والعشرين من رمضان في ترجيح الكتاب، الموافق 10 أغسطس 610م، وعمره إذ ذاك أربعون سنة قمرية وستة أشهر واثنا عشر يوماً."
-wings: [time, people]
+wings: [time]
 themes: [scripture-and-its-sciences, prophets]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
   start: { edtf: "0610-08-10", calendar: julian, precision: day, status: debated, hijri: "-0011-09-21", note: "الإثنين ليلة 21 رمضان = 10 أغسطس 610م — ترجيح المؤلف الخاص؛ وقيل 7 أو 17 أو 18 رمضان، وقيل ربيع الأول أو رجب (الرحيق ص66 هامش)." }
 significance:
-  ar: "أول ما بدئ به من الوحي الرؤيا الصالحة ستة أشهر — جزء من ستة وأربعين جزءاً من النبوة — ثم جاءه الملك في رمضان فأنزل الله عليه أوائل العلق (بخاري عن عائشة؛ الرحيق ص66-67)."
+  ar: "أول ما بدئ به من الوحي الرؤيا الصالحة ستة أشهر — جزء من ستة وأربعين جزءاً من النبوة — ثم جاءه الملك في رمضان فأنزل الله عليه أوائل العلق ⁦(بخاري عن عائشة؛ الرحيق ص66-67)⁩."
 relations:
   - { type: occurred_at, target: place/ghar-hira }
   - { type: had_participant, target: person/muhammad }
@@ -20,5 +20,20 @@ relations:
   - { type: had_participant, target: person/waraqa-ibn-nawfal, role: "بشّر بالناموس الأكبر وتوفي بعدها بقليل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: caused, target: event/fatrat-al-wahy }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/sahih-muslim]
-status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 65-68" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/sahih-muslim, source/assabile-abu-ishaq-alheweny]
+education:
+  did_you_know:
+    ar: "نزل الوحي على النبي في غار حراء، وكان أول ما نزل عليه الأمرُ بالقراءة."
+    en: "The revelation came to the Prophet in the cave of Hira; the very first thing revealed to him was the command to read."
+    ur: "نبی پر غارِ حرا میں وحی نازل ہوئی؛ سب سے پہلے جو شے ان پر نازل ہوئی وہ پڑھنے کا حکم تھا۔"
+    sources: [source/ibn-ishaq-guillaume, source/sahih-al-bukhari]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum pp. 65-68 (as the record's earlier upgrade states); Sahih al-Bukhari, hadith of Aisha on the start of revelation; drafted in earlier batches, not re-verified in this pass"
+  generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 65-68"
+  model: claude-sonnet-5-5
+  run: showcase-prose-phase3-batch1
+status: { review: published, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 65-68; Phase 3 batch 2 checked the date and age against al-Raheeq al-Makhtum p. 64 (Monday, 21 Ramadan, 10 August 610 CE, age 40 lunar years, six months and twelve days) and noted its alternative of Monday 11 Ramadan (p. 66), which the date field's debated status already covers" }

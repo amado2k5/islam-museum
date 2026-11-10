@@ -1,0 +1,21 @@
+id: place/jahram
+class: place
+kind: town
+label: { ar: "جهرم", en: "Jahram" }
+summary:
+  ar: "جهرم بلد بفارس؛ اجتمع لعثمان بن أبي العاص جمع بناحيته ففضهم وفتح أرض جهرم."
+  en: "Jahram of Fars; a gathering massed against Uthman near it — he scattered them and took the Jahram land."
+regions: [persia-central-asia]
+wings: [place]
+coordinates: [28.5014092, 53.5695867]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q1020637 by name; coordinates approximate until verified against a gazetteer."
+external_ids: { wikidata: "Q1020637" }
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-prose-b8
+  extraction_flow: "Apple Vision OCR -> manual extraction"

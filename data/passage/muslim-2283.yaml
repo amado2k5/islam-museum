@@ -1,0 +1,15 @@
+id: passage/muslim-2283
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2283"
+label: { ar: "مسلم 2283 — مثلي كمثل النذير العريان", en: "Muslim 2283 — The likeness of the plain warner" }
+text: "قال النبي: إن مثلي ومثل ما بعثني الله به كمثل رجل أتى قومه فقال: يا قوم إني رأيت الجيش بعيني وإني أنا النذير العريان فالنجاء، فأطاعه طائفة من قومه فأدلجوا فنجوا، وكذبت طائفة منهم فأصبحوا مكانهم فصبحهم الجيش فأهلكهم واجتاحهم"
+summary:
+  ar: "رواية أبي موسى الأشعري في باب مثل ما بعث به النبي من الهدى والعلم من كتاب الفضائل في صحيح مسلم؛ مثل من أطاع النبي واتبع ما جاء به ومثل من عصاه وكذبه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب مثل ما بعث به النبي من الهدى والعلم (طبعة دار التأصيل، الحديث 2355؛ ترقيم عبد الباقي المعروف 2283)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

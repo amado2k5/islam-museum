@@ -1,0 +1,21 @@
+id: person/ibn-abi-nuaym
+class: person
+label: { ar: "ابن أبي نعيم", en: "Ibn Abi Nu'aym" }
+summary:
+  ar: "شاعر هجا يحيى بن أكثم بقوله قاض يرى الحد في الزناء ولا يرى على من يلوط من بأس وأميرنا يسترشي وحاكمنا يلوط، فأطرق المأمون خجلاً ثم قال ينفي ابن أبي نعيم إلى السند {cite:muruj-al-dhahab p. 415-416}."
+  en: "The satirist whose 'a judge who sees the hadd for zina but none for liwat' earned him exile to Sind {cite:muruj-al-dhahab p. 415-416}."
+gender: male
+wings: [people]
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib" }
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Associated with السند per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 415–416"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

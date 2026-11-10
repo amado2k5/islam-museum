@@ -1,0 +1,29 @@
+id: person/akhi-zade-yusuf-efendi
+class: person
+label: { ar: "أخي زاده يوسف أفندي", en: "Akhi-zade Yusuf Efendi" }
+names:
+  - { kind: full, lang: ar, value: "يوسف أفندي أخي زاده" }
+  - { kind: laqab, lang: ar, value: "أخي قلبي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "1500", hijri: "0905", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary: { ar: "عالم عثماني من أهل الفقه، يعرف أيضاً بأخي قلبي، توفي في مطلع القرن العاشر الهجري.", en: "An Ottoman scholar, also known as Akhi Qalbi, who died at the start of the tenth century AH." }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص394-394"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

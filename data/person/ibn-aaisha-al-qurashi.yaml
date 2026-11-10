@@ -1,0 +1,22 @@
+id: person/ibn-aaisha-al-qurashi
+class: person
+label: { ar: "ابن عائشة القرشي", en: "Ibn 'A'isha al-Qurashi" }
+summary:
+  ar: "مغني الوليد بن يزيد، غناه إنها رأيت صبيحة النحر حوراً فقال له الوليد أعد بحق عبد شمس فأعاد ثم بحق أمية فأعاد وجعل يتخطى من أب إلى أب حتى بلغ نفسه فقال أعد بحياتي فأعاد، فأكب عليه الوليد ولم يبق عضواً إلا قبله ونزع ثيابه فألقاها عليه وأمر له بألف دينار وحمله على بغلته وقال انصرف فقد تركتني على أحر من جمر الغضى، وقد غنى بهذا الشعر يزيد أباه فأطربه {cite:muruj-al-dhahab p. 203}."
+  en: "al-Walid's Qurashi singer — made to repeat 'I saw maidens on slaughter-morn' through the Umayyad ancestors till the caliph kissed every limb, cast his own clothes on him and gave a thousand dinars {cite:muruj-al-dhahab p. 203}."
+gender: male
+wings: [people]
+died: { edtf: "842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

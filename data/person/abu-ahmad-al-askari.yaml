@@ -1,0 +1,29 @@
+id: person/abu-ahmad-al-askari
+class: person
+label:
+  ar: "أبو أحمد العسكري"
+  en: "Abu Ahmad al-Askari"
+roles: [writer, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي أحمد العسكري، محدث وشاعر وأديب القرن العاشر، توفي سنة ٩٩٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Ahmad al-Askari, the tenth-century muhaddith, poet and literary scholar, d. 993; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5883322
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0062
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "893", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "992", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

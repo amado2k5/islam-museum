@@ -1,0 +1,21 @@
+id: person/said-ibn-humayd
+class: person
+label: { ar: "سعيد بن حميد", en: "Sa'id ibn Humayd" }
+summary:
+  ar: "كاتب ساع للمتوكل على الفتح بن خاقان فنفاه، وكان يتنصب ويظهر الانحراف عن علي بن أبي طالب، وقيل إنه من أبناء المجوس، هجاه الشعراء منهم أبو علي البصير وله معه ومع أبي العيناء معاتبات ومكاتبات {cite:muruj-al-dhahab p. 528-529}."
+  en: "The katib whose tale-bearing broke al-Fath ibn Khaqan — lampooned as 'the zindiq who reviles the Prophet's brother' {cite:muruj-al-dhahab p. 528-529}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 528–529"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "892", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shu'ara" }
+relations:
+  - { type: lived_in, target: place/khaqan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

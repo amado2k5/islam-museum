@@ -1,0 +1,30 @@
+id: person/ibn-al-ayni
+class: person
+label:
+  ar: "ابن العيني"
+  en: "Ibn al-Ayni"
+roles: [grammarian]
+gender: male
+summary:
+  ar: "عبد الرحمن زين الدين «ابن العيني»، فاضل حنفي دمشقي، صاحب «شرح الألفية» و«حل الشاطبية»؛ توفي سنة 893هـ ⁦(1488م)⁩."
+  en: "Zayn al-Din “Ibn al-'Ayni” (1433–1488), Damascene Hanafi grammarian, commentator of the Alfiyya and Shatibiyya."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1434", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+died: { edtf: "1488", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q57259185
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.300)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,61 @@
+id: group/al-fuqaha-al-saba
+class: group
+kind: school
+label:
+  ar: "الفقهاء السبعة"
+  en: "The Seven Jurists of Medina"
+summary:
+  ar: "الفقهاء السبعة من أكابر التابعين بالمدينة، وهم في عدّ أكثر علماء الحجاز: سعيد بن المسيب، والقاسم بن محمد بن أبي بكر، وعروة بن الزبير، وخارجة بن زيد بن ثابت، وأبو سلمة بن عبد الرحمن بن عوف، وعبيد الله بن عبد الله بن عتبة، وسليمان بن يسار. وجعل ابن المبارك سالم بن عبد الله بن عمر بدل أبي سلمة، وجعل أبو الزناد أبا بكر بن عبد الرحمن بدلهما، وعدّهم علي بن المديني اثني عشر {cite:tadrib-rawi-awwama-v5 p. 255-257}."
+  en: "The Seven Jurists are among the greatest Successors of Medina. As most scholars of the Hijaz count them they are Sa'id ibn al-Musayyab, al-Qasim ibn Muhammad ibn Abi Bakr, Urwa ibn al-Zubayr, Kharija ibn Zayd ibn Thabit, Abu Salama ibn Abd al-Rahman ibn Awf, Ubayd Allah ibn Abd Allah ibn Utba and Sulayman ibn Yasar. Ibn al-Mubarak put Salim ibn Abd Allah ibn Umar in place of Abu Salama, Abu al-Zinad put Abu Bakr ibn Abd al-Rahman in place of both, and Ali ibn al-Madini counted twelve."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+themes: [scripture-and-its-sciences]
+active_regions: [arabia]
+relations:
+  - { type: related_to, target: group/tabiun, sources: [source/tadrib-rawi-awwama-v5] }
+  - { type: lived_in, target: place/medina, sources: [source/tadrib-rawi-awwama-v5] }
+perspectives:
+  - tradition: sunni
+    id: sunni-hijaz
+    standing: main
+    stance: { ar: "عدّ أكثر علماء الحجاز", en: "The count of most Hijazi scholars" }
+    summary:
+      ar: "ابن المسيب، والقاسم بن محمد، وعروة، وخارجة بن زيد، وأبو سلمة بن عبد الرحمن، وعبيد الله بن عبد الله بن عتبة، وسليمان بن يسار."
+      en: "Ibn al-Musayyab, al-Qasim ibn Muhammad, Urwa, Kharija ibn Zayd, Abu Salama ibn Abd al-Rahman, Ubayd Allah ibn Abd Allah ibn Utba and Sulayman ibn Yasar."
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-ibn-al-mubarak
+    standing: secondary
+    stance: { ar: "سالم بدل أبي سلمة", en: "Salim instead of Abu Salama" }
+    summary:
+      ar: "جعل عبد الله بن المبارك سالم بن عبد الله بن عمر بدل أبي سلمة."
+      en: "Abd Allah ibn al-Mubarak put Salim ibn Abd Allah ibn Umar in place of Abu Salama."
+    holders: [person/abd-allah-ibn-al-mubarak]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-abu-al-zinad
+    standing: secondary
+    stance: { ar: "أبو بكر بن عبد الرحمن بدل سالم وأبي سلمة", en: "Abu Bakr ibn Abd al-Rahman instead of Salim and Abu Salama" }
+    summary:
+      ar: "جعل أبو الزناد أبا بكر بن عبد الرحمن بدلهما."
+      en: "Abu al-Zinad put Abu Bakr ibn Abd al-Rahman in place of both."
+    holders: [person/abu-al-zinad]
+    sources: [source/tadrib-rawi-awwama-v5]
+  - tradition: sunni
+    id: sunni-ibn-al-madini
+    standing: secondary
+    stance: { ar: "اثنا عشر", en: "Twelve" }
+    summary:
+      ar: "عدّهم علي بن المديني اثني عشر: ابن المسيب، وأبو سلمة، والقاسم، وخارجة وأخوه إسماعيل، وسالم وحمزة وزيد وعبيد الله وبلال بنو عبد الله بن عمر، وأبان بن عثمان، وقبيصة بن ذؤيب."
+      en: "Ali ibn al-Madini counted twelve: Ibn al-Musayyab, Abu Salama, al-Qasim, Kharija and his brother Isma'il, Salim, Hamza, Zayd, Ubayd Allah and Bilal, sons of Abd Allah ibn Umar, Aban ibn Uthman and Qabisa ibn Dhu'ayb."
+    holders: [person/ali-ibn-al-madini]
+    sources: [source/tadrib-rawi-awwama-v5]
+sources: [source/tadrib-rawi-awwama-v5]
+provenance:
+  layer: own-research
+  source: "تدريب الراوي للسيوطي، تحقيق عوامة، المجلد الخامس، النوع الأربعون، ص 255–257"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

@@ -1,0 +1,30 @@
+id: person/subijavi
+class: person
+label:
+  ar: "صوبيجوي"
+  en: "Sobicevi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لصوبيجوي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sobicevi, the Ottoman writer (d. 1748); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosnjacka Bibliografija" }
+died: { edtf: "1894", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosnjacka Bibliografija" }
+relations:
+  - { type: born_in, target: place/tartar-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q6454056 ('Köçərli'), located in Tartar District" }
+  - { type: died_in, target: place/ko-arl-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q4823461 ('Dedeköy'), located in Koçarlı district" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136129608
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0095
+status:
+  review: draft
+  completeness: 1

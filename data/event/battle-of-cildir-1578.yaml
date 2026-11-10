@@ -1,0 +1,23 @@
+id: event/battle-of-cildir-1578
+class: event
+kind: battle
+label: { ar: "معركة شلدير", en: "Battle of Çıldır" }
+summary:
+  ar: "بطاقة أولية لمعركة شلدير سنة ١٥٧٨م، نصر العثمانيين على الصفويين الذي فتح جورجيا للدولة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Çıldır in 1578, the Ottoman victory over the Safavids that opened Georgia to the empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1578", precision: year, status: tradition, derived: true }
+  end: { edtf: "1578", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3652215
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-Safavid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

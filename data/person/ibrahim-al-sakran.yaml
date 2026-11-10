@@ -1,0 +1,28 @@
+id: person/ibrahim-al-sakran
+class: person
+label:
+  ar: "إبراهيم السكران"
+  en: "Ibrahim al-Sakran"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإبراهيم السكران، الباحث الشرعي السعودي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibrahim al-Sakran, the Saudi legal researcher; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+born: { edtf: "1976", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q50280902
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

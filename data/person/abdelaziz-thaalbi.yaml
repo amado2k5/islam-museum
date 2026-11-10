@@ -1,0 +1,49 @@
+id: person/abdelaziz-thaalbi
+class: person
+label: { ar: "عبد العزيز الثعالبي", en: "Abdelaziz Thâalbi", ur: "عبد العزیز ثعالبی" }
+names:
+  - { value: "عبد العزيز الثعالبي", kind: full }
+  - { value: "Abdelaziz Thâalbi", kind: full }
+  - { value: "ʿAbd al-ʿAzīz al-Thaʿalibī", kind: latinized }
+gender: male
+summary:
+  ar: "زعيم سياسي وديني تونسي (1876–1944)؛ درس في الزيتونة وأصدر مجلة «سبيل الرشاد»، وشارك في حركة الشباب التونسي، وأسس الحزب الدستوري سنة 1921 بعد كتابه «تونس الشهيدة» (1920)، ونُفي مرارًا وعاد إلى تونس سنة 1937 حيث توفي."
+  en: "Tunisian political and religious leader (1876–1944). Educated at the Zaytuna, he published the journal Sabil al-Rashid, took part in the Young Tunisians, and in 1921 founded the Destour party after his book La Tunisie martyre (1920); repeatedly exiled, he returned to Tunisia in 1937 and died there."
+  ur: "تونسی سیاسی و مذہبی رہنما (1876–1944)؛ زیتونہ میں تعلیم پائی، مجلہ «سبیل الرشاد» جاری کیا، نوجوان تونسی تحریک میں شریک رہے، اور اپنی کتاب «تونس الشہیدہ» (1920) کے بعد 1921 میں دستور پارٹی قائم کی؛ بار بار جلاوطن ہوئے، 1937 میں تونس واپس آئے اور وہیں انتقال ہوا۔"
+roles: [politician, activist, writer]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1876-09-05"
+  hijri: "1293"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Tunis on 15 Sha'ban 1293 AH / 5 September 1876; his father was a notary whose family had moved from Algeria after the French occupation of 1830. The Arabic article's lead prints the Gregorian year as 1874 beside that Hijri date — inconsistent with the Hijri date itself and with its own biography section, which gives 1876; the English article and one of Wikidata's two birth values give 1876 (the other gives 1879, followed by no article)."
+  sources: [source/wikipedia-abdelaziz-thaalbi-en, source/wikipedia-abdelaziz-thaalbi-ar, source/wikidata-abdelaziz-thaalbi]
+died:
+  edtf: "1944-10-01"
+  hijri: "1363"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Tunis on 1 October 1944. The Hijri year is derived."
+  sources: [source/wikipedia-abdelaziz-thaalbi-en, source/wikipedia-abdelaziz-thaalbi-ar, source/wikidata-abdelaziz-thaalbi]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-abdelaziz-thaalbi-en, source/wikipedia-abdelaziz-thaalbi-ar] }
+  - { type: died_in, target: place/tunis, sources: [source/wikipedia-abdelaziz-thaalbi-en, source/wikipedia-abdelaziz-thaalbi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a legal school for him personally, and the enum holds no value for the orientation the sources do describe. The English article says he 'became learned in Salafiyyah' at the Zaytuna, spent time in Egypt with disciples of Jamal al-Din al-Afghani and Muhammad Abduh, attacked maraboutism and preached a rationalistic reading of the Qur'an; the Arabic article calls him a political and religious leader and a caller to reform and renewal. Salafiyyah as used here is a reform movement, not a madhhab, and movement membership is not a school attestation; the Arabic and French articles name no school, and Wikidata carries no religion value for him."
+    sources: [source/wikipedia-abdelaziz-thaalbi-en, source/wikipedia-abdelaziz-thaalbi-ar, source/wikipedia-abdelaziz-thaalbi-fr, source/wikidata-abdelaziz-thaalbi]
+external_ids: { wikidata: "Q646778" }
+sources: [source/wikipedia-abdelaziz-thaalbi-en, source/wikipedia-abdelaziz-thaalbi-ar, source/wikipedia-abdelaziz-thaalbi-fr, source/wikipedia-abdelaziz-thaalbi-ur, source/wikidata-abdelaziz-thaalbi]
+provenance:
+  layer: own-research
+  source: "English (revision 1327994972), Arabic (76475371), French (240314388) and Urdu (12024624) Wikipedia articles, each fetched by revision id and asserted, and Wikidata item Q646778 verified by biography (Tunisian politician, 1876–1944); existence checks by name fragments, by QID sweep and by biography found no earlier record (the existing al-thaalibi record is the classical exegete, a different man)"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-56
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

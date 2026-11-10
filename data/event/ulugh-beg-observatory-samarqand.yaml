@@ -1,0 +1,23 @@
+id: event/ulugh-beg-observatory-samarqand
+class: event
+kind: founding
+label: { ar: "مرصد أولوغ بك بسمرقند", en: "Ulugh Beg's observatory at Samarkand" }
+summary:
+  ar: "شيّد أولوغ بك حفيد تيمور مرصده العظيم بسمرقند نحو سنة 823هـ/1420م ووضع فيه مع القاضي زادة وعلي قوشجي الجداول السلطانية {cite:mawsuat-a3lam-ulama-adaba}."
+  en: "Ulugh Beg, Timur's grandson, raised his great observatory at Samarkand about 823/1420, producing with Qadizada and Ali Qushji the Sultanic tables {cite:mawsuat-a3lam-ulama-adaba}."
+  ur: "تیمور کے پوتے الغ بیگ نے تقریباً 823ھ/1420ء میں سمرقند میں اپنی عظیم رصد گاہ بنائی اور قاضی زادہ اور علی قوشجی کے ساتھ سلطانی جداول تیار کیے {cite:mawsuat-a3lam-ulama-adaba}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1420~", hijri: "0823", precision: year, status: tradition, derived: true }
+  end: { edtf: "1420~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/samarqand, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Samarkand story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-samarqand
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

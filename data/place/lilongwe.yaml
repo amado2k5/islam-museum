@@ -1,0 +1,21 @@
+id: place/lilongwe
+class: place
+kind: city
+label: { ar: "ليلونغوي", en: "Lilongwe", ur: "لیلونگوے" }
+summary:
+  ar: "مدينة في ملاوي."
+  en: "City in Malawi."
+wings: [place]
+regions: [east-africa]
+coordinates: [-13.98638888888889, 33.768055555555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3876" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3876 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

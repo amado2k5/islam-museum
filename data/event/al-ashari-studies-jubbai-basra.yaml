@@ -1,0 +1,30 @@
+id: event/al-ashari-studies-jubbai-basra
+class: event
+kind: other
+label:
+  ar: "الأشعري تلميذ أبي علي الجبائي بالبصرة ومناظرة الإخوة الثلاثة"
+  en: "Al-Ash'ari, al-Jubba'i's pupil at Basra, and the three brothers debate"
+  ur: "اشعری، ابو علی جبّائی کا شاگرد بصرہ میں، اور تین بھائیوں کی مناظرہ"
+summary:
+  ar: "أخذ أبو الحسن الأشعري علم الكلام عن أبي علي الجبائي شيخ المعتزلة ورئيس المتكلمين في عصره بالبصرة، وكان من أجود تلاميذه حتى كاد يخلفه {cite:wafayat-ayan} {cite:siyar-alam-nubala 15/85} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}. ويحكى عنه في تلك الفترة سؤاله أستاذه عن ثلاثة إخوة مات أحدهم تقياً والثاني كافراً والثالث صغيراً، فلما أجاب الجبائي على مذهب الاعتزال تتبعه الأشعري بالأسئلة حتى انقطع، وكانت هذه المناظرة في عداد مقدمات مفارقته للاعتزال {cite:wafayat-ayan} {cite:siyar-alam-nubala 15/86}."
+  en: "Abu al-Hasan al-Ash'ari learned kalam from Abu Ali al-Jubba'i, shaykh of the Mu'tazila and the leading theologian of his age at Basra, and was one of his best pupils, near to succeeding him {cite:wafayat-ayan} {cite:siyar-alam-nubala 15/85} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}. From this period comes the report of his question to his master about three brothers, one pious, one an unbeliever, and one who died young; when al-Jubba'i answered on Mu'tazilite premises al-Ash'ari pressed him with questions until he was silenced, a debate counted among the preliminaries of his break with the Mu'tazila {cite:wafayat-ayan} {cite:siyar-alam-nubala 15/86}."
+  ur: "ابو الحسن اشعری نے بصرہ میں اپنے عہد کے ممتاز متکلم اور معتزلہ کے شیخ ابو علی جبّائی سے علمِ کلام حاصل کیا اور ان کے بہترین شاگردوں میں تھے، یہاں تک کہ ان کے جانشین بننے کے قریب تھے {cite:wafayat-ayan} {cite:siyar-alam-nubala 15/85} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔ اسی زمانے کی روایت ہے کہ انہوں نے اپنے استاد سے تین بھائیوں کے بارے میں سوال کیا، جن میں سے ایک نیک تھا، دوسرا کافر اور تیسرا بچپن میں فوت ہوا؛ جب جبّائی نے معتزلی اصولوں پر جواب دیا تو اشعری نے مسلسل سوالات کیے اور وہ خاموش ہو گئے۔ یہ مناظرہ ان کی معتزلہ سے علیحدگی کی مقدمات میں شمار ہوتا ہے {cite:wafayat-ayan} {cite:siyar-alam-nubala 15/86}۔"
+wings: [time]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0874/0913", calendar: julian, precision: year, status: tradition, derived: true, note: "المصادر لا تؤرخ التلمذة والمناظرة؛ وقعتا في سني اعتزاله بالبصرة قبل توبته المؤرخة سنة ٣٠٠هـ {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}.", sources: [source/encyclopaedia-of-islam-2, source/wafayat-ayan, source/siyar-alam-nubala] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-ashari, role: "التلميذ", sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-jubbai, role: "الأستاذ شيخ المعتزلة", sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: group/mutazila, role: "المدرسة التي كان ينتسب إليها", sources: [source/encyclopaedia-of-islam-2, source/wafayat-ayan] }
+sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان، ترجمة أبي علي الجبائي (Apple Vision OCR)؛ سير أعلام النبلاء 15/85-86 (ترجمة الجبائي والأشعري)؛ EI2 vol. 1 PDF p. 743 = printed p. 694"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,36 @@
+id: person/ibn-al-baddhukh-umar
+class: person
+label: { ar: "ابن البذوخ عمر بن علي", en: "Ibn al-Baddhukh, Umar ibn Ali" }
+names:
+  - { kind: full, lang: ar, value: "أبو جعفر عمر بن علي بن البذوخ القلعي المغربي" }
+gender: male
+roles: [physician, writer]
+traditions: [sunni]
+died: { edtf: "1180", hijri: "0576", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب وصيدلي وخبير بالأدوية المفردة والمركبة وتحضيرها، وله شعر، من أهل المغرب."
+  en: "A Moroccan physician and pharmacist, expert in simple and compound drugs and their preparation, who also wrote poetry."
+wings: [people]
+themes: [medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص272"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

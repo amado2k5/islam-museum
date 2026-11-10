@@ -1,0 +1,35 @@
+id: person/muhammad-ali-baalwi
+class: person
+label:
+  ar: "محمد بن علي باعلوي"
+  en: "Muhammad Ali Ba'alawi"
+roles: [faqih]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن علي باعلوي، العالم الحضرمي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Ali Ba'alawi, the Hadhrami scholar; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/colonial-era]
+born: { edtf: "1764~", precision: year, status: tradition, derived: true }
+died: { edtf: "1817~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/tarim, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1014010)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q14933250
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

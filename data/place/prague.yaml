@@ -1,0 +1,35 @@
+id: place/prague
+class: place
+kind: town
+label:
+  ar: براغ
+  en: Prague
+  ur: پراگ
+summary:
+  ar: مدينة في جمهورية التشيك.
+  en: Prague; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 50.0875
+- 14.4214
+coordinate_precision: locality
+coordinate_note: Wikidata Q1085.
+external_ids:
+  wikidata: Q1085
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1085 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

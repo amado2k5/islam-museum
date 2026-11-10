@@ -1,0 +1,16 @@
+id: passage/muslim-2706
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2706"
+label: { ar: "مسلم 2706 — أعوذ بك من العجز والكسل والجبن والهرم", en: "Muslim 2706 — Refuge from incapacity, laziness, cowardice, and senility" }
+text: "قال أنس بن مالك: كان رسول الله يقول: اللهم إني أعوذ بك من العجز والكسل، والجبن والهرم"
+summary:
+  ar: "رواية أنس بن مالك في باب التعوذ من العجز والكسل وغيرهما من كتاب الذكر والدعاء في صحيح مسلم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء، باب في التعوذ من العجز والكسل وغيرهما (طبعة دار التأصيل، الحديث 2806؛ ترقيم عبد الباقي المعروف 2706)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,47 @@
+id: person/ahmed-cevdet-oran
+class: person
+label:
+  en: "Ahmet Cevdet Oran"
+  ar: "أحمد جودت أوران"
+summary:
+  ar: "صحفي وناشر عثماني تركي (1862–1935) أسس صحيفة «إقدام» وحرّرها من 1894 إلى 1928، وكان من أوائل الصحفيين الأتراك الذين كتبوا بتركية مبسطة، وعارض جمعية الاتحاد والترقي فنُفي إلى سويسرا وفرنسا، ثم دعم حرب الاستقلال التركية."
+  en: "Ottoman-Turkish journalist and publisher (1862-1935) who founded and edited the newspaper Ikdam from 1894 to 1928, was among the first Turkish journalists to write in a purified Turkish, opposed the Committee of Union and Progress and was exiled to Switzerland and France, and then supported the Turkish War of Independence."
+names:
+  - { value: "Ahmet Cevdet Oran", kind: full }
+  - { value: "أحمد جودت أوران", kind: full }
+  - { value: "Ahmed Cevdet Oran", kind: alternate }
+  - { value: "Ahmet Cevdet", kind: alternate }
+  - { value: "İkdamcı", kind: laqab }
+gender: male
+roles: [writer]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1862"
+  hijri: "1278"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Istanbul; the Turkish article specifies the Aksaray district and names his father as the tobacco merchant Haci Ahmed Efendi, a migrant from Cogullu near Gerede. No source gives a day or month. The Hijri year is a conversion against the recorded year, marked derived."
+  sources: [source/wikipedia-ahmet-cevdet-oran-en, source/wikipedia-ahmet-cevdet-oran-tr, source/wikidata-ahmet-cevdet-oran]
+died:
+  edtf: "1935-05-27"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Ankara, where the Turkish article says he died of a heart attack during the Press Congress and whence he was taken to burial at Eyup Cemetery in Istanbul; there is no place entity for Ankara or for the cemetery, so no died_in or buried_in edge is written. The Hijri year is a conversion, marked derived."
+  sources: [source/wikipedia-ahmet-cevdet-oran-en, source/wikipedia-ahmet-cevdet-oran-tr, source/wikidata-ahmet-cevdet-oran]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read makes any statement of Oran's religion. Neither the English nor the Turkish article mentions a religion or a school for him anywhere in text or infobox, and Wikidata carries no religion value for his item. His newspaper's Turkism and his opposition politics are editorial stances, not attestation. He is a different man from Ahmed Cevdet Pasha (1822-1895), the statesman and historian, whose record and whose religious scholarship belong to that record alone and are not read across to this one."
+    sources: [source/wikipedia-ahmet-cevdet-oran-en, source/wikipedia-ahmet-cevdet-oran-tr, source/wikidata-ahmet-cevdet-oran]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ahmet-cevdet-oran-en, source/wikipedia-ahmet-cevdet-oran-tr, source/wikidata-ahmet-cevdet-oran] }
+external_ids: { wikidata: Q6078986 }
+sources: [source/wikipedia-ahmet-cevdet-oran-en, source/wikipedia-ahmet-cevdet-oran-tr, source/wikidata-ahmet-cevdet-oran]
+provenance: { layer: own-research, source: "Lane brief century-additions-41 (group Z2); grounded from English Wikipedia revision 1371706015, Turkish Wikipedia revision 35496588, and Wikidata item Q6078986 (revision 2507473846), resolved via the Wikipedia API pageprops and Special:EntityData. The English article's own hatnote distinguishes him from Ahmed Cevdet Pasha.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-41 }
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

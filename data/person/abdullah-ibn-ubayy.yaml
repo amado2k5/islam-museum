@@ -1,6 +1,7 @@
 id: person/abdullah-ibn-ubayy
 class: person
-label: { en: "Abdullah ibn Ubayy", ar: "عبد الله بن أبي بن سلول" }
+aliases: [person/abd-allah-ibn-ubayy]   # same person; merged from the Raheeq lane's spelling so existing references resolve
+label: { en: "Abdullah ibn Ubayy", ar: "عبد الله بن أبي بن سلول" , ur: "عبد اللہ بن ابی"}
 names:
   - { kind: full, lang: ar, value: "عبد الله بن أبي بن سلول الخزرجي" }
 gender: male
@@ -10,7 +11,8 @@ roles: [politician]
 traditions: []
 summary:
   en: "The chief of Khazraj who had been preparing to be crowned king of Medina when the Hijra ended his ambition — remembered in the Sunni sources as the leader of the 'hypocrites' who opposed the Prophet from inside the city."
-  ar: "سيد الخزرج الذي كانت يثرب تهيئ لتتويجه ملكًا حين قطعت الهجرة طموحه — يذكره التراث السني زعيمًا للمنافقين الذين عارضوا النبي من داخل المدينة."
+  ar: "سيد الخزرج الذي كانت يثرب تهيئ لتتويجه ملكًا حين قطعت الهجرة طموحه — يذكره التراث السني زعيمًا للمنافقين الذين عارضوا النبي من داخل المدينة. وعند ابن حزم والسمهودي هو من بني الحبلى من الخزرج، وكان له أطم «مزاحم» بين ظهراني بيوت بني الحبلى — قرب دار بني ساعدة — وما وقع في حديث الخلع عند ابن حجر من كونه من بني مغالة من النجار فوهم فيما يرى السمهودي {cite:samhudi-wafa-al-wafa p. 212-213}. وفي الصحيح أن النبي أتى قبره بعدما أدخل حفرته فأمر به فأخرج فوضعه على ركبتيه ونفث عليه من ريقه وألبسه قميصه {cite:sahih-al-bukhari 1350}."
+  ur: "خزرج کے سردار، جن کی مدینہ میں بادشاہت کی تیاری ہجرت کے بعد ختم ہوئی؛ سنی ماخذ انہیں شہر کے اندر نبی کی مخالفت کرنے والے منافقین کے قائد کے طور پر یاد کرتے ہیں۔ {cite:ibn-ishaq-guillaume}"
 wings: [people]
 themes: [factions-splits-schisms, desertions-defections-withdrawals]
 periods: [period/prophetic-era]
@@ -23,19 +25,29 @@ faith:
 labelled:
   - { label: { en: "Ra'is al-munafiqin (chief of the hypocrites)", ar: "رئيس المنافقين" }, by: "Sunni tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: ruler_of, target: place/medina, note: "From text: king of Medina", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan] }
   - { type: born_in, target: place/medina }
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/khazraj }
   - { type: opposed, target: person/muhammad, start: { edtf: "0623" }, end: { edtf: "0631" }, sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
   - { type: deserted, target: event/battle-of-uhud, start: { edtf: "0625" }, note: "Withdrew a third of the army on the eve of the battle.", sources: [source/ibn-ishaq-guillaume] }
-  - { type: revealed_in, target: passage/quran-63-1, note: "Sura al-Munafiqun is read by the tradition as revealed concerning him and his faction.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: revealed_in, target: passage/quran-63-1, note: "تُقرأ سورة المنافقون في التراث على أنها نزلت فيه وفي جماعته.", sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف يُصنَّف عبد الله بن أبي ودوره في المدينة؟", en: "How is Abdullah ibn Ubayy and his role in Medina classified?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "The chief of the munafiqin: outwardly Muslim, inwardly working against the Prophet — the figure around whom sura al-Munafiqun and the slander affair are read. The tradition also records that the Prophet prayed over him and gave him his own shirt for a shroud." }
+    id: sunni
+    summary: { en: "The chief of the munafiqin: outwardly Muslim, inwardly working against the Prophet — the figure around whom sura al-Munafiqun and the slander affair are read. The tradition also records that the Prophet prayed over him and gave him his own shirt for a shroud.", ar: "يسمّيه التراث السني رئيس المنافقين: أظهر الإسلام وعمل في الباطن على تفريق الجماعة — وهو الشخص الذي تُقرأ حوله سورة المنافقون." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
-    summary: { en: "Historians describe a Medinese aristocrat whose political base the Prophet steadily absorbed; 'hypocrite' is the tradition's category for what was also a straightforward contest for power inside Medina." }
+    id: academic
+    summary: { en: "Historians describe a Medinese aristocrat whose political base the Prophet steadily absorbed; 'hypocrite' is the tradition's category for what was also a straightforward contest for power inside Medina.", ar: "أما المؤرخون فيصفون أرستقراطيًّا يثربيًّا يخسر صراعًا صريحًا على السلطة لصالح صعود النبي — و«المنافق» اسم التراث نفسه للمعارضة الداخلية." }
     sources: [source/watt-1956-medina]
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
 sensitivity: contested
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
+provenance: { layer: copyrighted-reference, source: "Assabile, Aadau Al Islam ep01 and ep03 (transcripts pass5-qwen; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2); the record had no provenance block before this addition", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-pilot-qwen-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}}
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

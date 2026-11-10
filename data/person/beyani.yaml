@@ -1,0 +1,30 @@
+id: person/beyani
+class: person
+label:
+  ar: "بياني"
+  en: "Beyani"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لبياني؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Beyani, the Ottoman writer (poet, d. 1597); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1542", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Beyani Mustafa Efendi)" }
+died: { edtf: "1597", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Beyani Mustafa Efendi)" }
+relations:
+  - { type: born_in, target: place/ruse, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136101793
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0094
+status:
+  review: draft
+  completeness: 1

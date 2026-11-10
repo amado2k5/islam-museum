@@ -1,0 +1,29 @@
+id: person/shams-al-din-al-kufi
+class: person
+label:
+  ar: "شمس الدين الكوفي"
+  en: "Shams al-Din al-Kufi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشمس الدين الكوفي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shams al-Din al-Kufi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6407847
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat" }
+died: { edtf: "1276", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Association inferred from the nisba in the name 'Shams al-Din al-Kufi'; specific residence not individually documented.", sources: [source/al-aalam] }

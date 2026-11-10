@@ -1,0 +1,12 @@
+id: person/nasr-al-qushuri
+class: person
+label: { ar: "نصر القشوري", en: "Nasr Al Qushuri" }
+summary:
+  ar: "نصر القشوري من كتبة الحلاج وممن يسميه الشيخ الصالح، وإليه كتاب الدرة من كتب الحلاج {cite:fihrist-ibn-al-nadim p. 271-272}."
+  en: "Nasr al-Qushuri — al-Hallaj's disciple who called him the righteous shaykh {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari; Ibn al-Athir" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Placed in Baghdad in Siyar A'lam al-Nubala vol. 14.", sources: [source/siyar-alam-nubala] }

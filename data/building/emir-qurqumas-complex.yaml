@@ -1,0 +1,29 @@
+id: building/emir-qurqumas-complex
+class: building
+kind: tomb
+label:
+  ar: "مجموعة الأمير قرقماس"
+  en: "Emir Qurqumas Complex, Cairo"
+summary:
+  ar: "بطاقة أولية لمجموعة الأمير قرقماس بقرافة القاهرة، الجامع والخانقاه والضريح المملوكيان؛ لم تُراجع مصادرهما على الصفحة بعد."
+  en: "Draft card for the Emir Qurqumas complex in Cairo's City of the Dead, the Mamluk mosque-khanqah-tomb; its sources are not yet checked on the page."
+wings: [objects]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/tarikh-islam-hasan-ibrahim, source/yeomans-islamic-cairo-2006, source/tei-epigraphie]
+external_ids:
+  tei: "21224"
+  wikidata: Q16835182
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; complex attested in Cairo heritage registers — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 210-217"]
+status:
+  review: published
+  completeness: 1
+built: { edtf: "1506/1507", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 217: complex of Amir Qurqumas (1506-7)." }
+status_now: standing
+location: place/eastern-cemetery-cairo

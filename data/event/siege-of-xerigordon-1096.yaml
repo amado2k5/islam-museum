@@ -1,0 +1,23 @@
+id: event/siege-of-xerigordon-1096
+class: event
+kind: siege
+label: { ar: "حصار كسري كوردون", en: "Siege of Xerigordon" }
+summary:
+  ar: "بطاقة أولية لحصار كسري كوردون سنة ١٠٩٦م، إبادة السلاجقة لطليعة حملة الشعب في أول الحملات الصليبية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Xerigordon in 1096, the Seljuk destruction of the People's Crusade vanguard; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1096", precision: year, status: tradition, derived: true }
+  end: { edtf: "1096", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3656607
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

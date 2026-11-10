@@ -1,0 +1,22 @@
+id: person/bint-al-numan-ibn-bashir
+class: person
+label: { ar: "ابنة النعمان بن بشير زوجة المختار", en: "al-Nu'man ibn Bashir's daughter" }
+summary:
+  ar: "إحدى حرم المختار بن أبي عبيد، لما أتى مصعب بن الزبير بهن فدعاهن إلى البراءة منه أبت وقالت شهادة أرزقها فأتركها آتي مع ابن هند فأتبعه وأترك ابن أبي طالب اللهم اشهد أني متبعة لنبيك وابن بنته وأهل بيته وشيعته فقدمها فقتلت صبراً، وفيها قال الشاعر إن من أعجب الأعاجيب عندي قتل بيضاء حرة عطبول {cite:muruj-al-dhahab p. 93}."
+  en: "al-Mukhtar's wife who refused the sword-point recantation — 'shall I follow Ibn Hind and abandon Ibn Abi Talib? God, I follow Your prophet and his daughter's son' — and was martyred, the elegy mourning 'a noble free woman killed for no crime' {cite:muruj-al-dhahab p. 93}."
+gender: female
+wings: [people]
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Ansab al-Ashraf)" }
+relations:
+  - { type: lived_in, target: place/az-zubayr, confidence: low, note: "Associated with الزبير per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

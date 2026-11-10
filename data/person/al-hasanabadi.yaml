@@ -1,0 +1,20 @@
+id: person/al-hasanabadi
+class: person
+label: { ar: "الحسناباذي", en: "Al Hasanabadi" }
+summary:
+  ar: "الحسناباذي رآه ابن النديم وكان يمضي إليه في جملة أصحابه وكان ينزل بناحية بين القصرين وكان ظريف العمل عجيب المغنى في عبارته وكلامه وما يورده، وخرج إلى أذربيجان لأمر لحقه ببغداد بعد نفى الشير مدي الديلمي فإنه كان يميل به {cite:fihrist-ibn-al-nadim p. 269}."
+  en: "Al-Hasanabadi — the elegant da'i Ibn al-Nadim knew personally {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch17
+died: { edtf: "1520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun)" }
+relations:
+  - { type: lived_in, target: place/daylam, note: "Place association from the person's nisba/name (الديلمي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

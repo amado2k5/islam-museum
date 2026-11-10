@@ -1,0 +1,38 @@
+id: person/badr-al-utaybi
+class: person
+label: { ar: "بدر بن علي بن طامي العتيبي", en: "Badr al-Utaybi", ur: "بدر بن علی بن طامی العتیبی" }
+names:
+  - { value: "بدر بن علي بن طامي بن الحميدي بن حمود المقاطي العتيبي", kind: full, lang: ar }
+  - { value: "Badr ibn Ali ibn Tami ibn al-Humaydi al-Muqati al-Utaybi", kind: full, lang: en }
+  - { value: "أبو عبد الرحمن", kind: kunya, lang: ar }
+  - { value: "بدر العتيبي", kind: alternate, lang: ar }
+gender: male
+summary:
+  ar: "عالم ومحدّث سعودي من الطائف، وُلد فيها سنة 1392هـ، لازم الشيخ عبد العزيز بن باز عشر سنين وقرأ عليه كتب السنة، وحصل على الإجازة الحديثية من أكثر من مائة وخمسين شيخا، ودرّس في مساجد الطائف، وتولى إدارة مركز الدعوة والإرشاد فيها، وله مؤلفات وتحقيقات في التوحيد والحديث."
+  en: "Saudi scholar and hadith specialist from Taif, born there in 1392 AH. He accompanied Sheikh Abd al-Aziz ibn Baz for ten years and read the hadith collections with him, received hadith ijazahs from more than 150 scholars, taught in Taif's mosques, directed the city's Dawah and Guidance Centre, and has written and edited works on tawhid and hadith."
+  ur: "طائف کے سعودی عالم اور محدث، 1392ھ میں وہیں پیدا ہوئے۔ انہوں نے دس برس شیخ عبد العزیز بن باز کی صحبت اختیار کی اور ان سے کتبِ حدیث پڑھیں، ڈیڑھ سو سے زائد شیوخ سے اجازۂ حدیث حاصل کی، طائف کی مساجد میں تدریس کی، وہاں کے مرکزِ دعوت و ارشاد کی ادارت سنبھالی، اور توحید و حدیث پر ان کی تصانیف و تحقیقات ہیں۔"
+roles: [scholar, preacher]
+wings: [people, living]
+born:
+  edtf: "1972"
+  hijri: "1392"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Taif in mid-Jumada al-Akhirah 1392 AH, as his works-site biography gives it; Jumada al-Akhirah 1392 falls in July–August 1972, so the Gregorian year is a conversion and only the year is recorded. The place is carried in the born_in relation."
+  sources: [source/mosannefat-badr-al-utaybi]
+relations:
+  - { type: born_in, target: place/taif, sources: [source/mosannefat-badr-al-utaybi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two independent sources name a school for him. The only attestation found is his own works site's biography, which describes him as 'al-Hanbali al-Athari in creed and in fiqh'; the IslamHouse author directory republishes the same biography without that phrase, so it is one source family, and under the two-source rule and the doubt rule a single attestation does not record a school. His principal teacher Ibn Baz's school never counts, and neither does the Hanbali ijaza chain (musalsal fiqh al-Hanabila) his biography records from Ibrahim ibn Atiq. The Al-Jazirah interview and his channel name no school."
+    sources: [source/mosannefat-badr-al-utaybi, source/aljazirah-badr-al-utaybi, source/youtube-badr-bin-tami]
+sources: [source/mosannefat-badr-al-utaybi, source/aljazirah-badr-al-utaybi, source/youtube-badr-bin-tami]
+provenance:
+  layer: own-research
+  source: "§3 row 89 of the founder's harvest (channel name only: 'Badr Bin Ali Bin Tami'). Built from the biography on his works site Mosannefat (full lineage, birth in Taif in mid-Jumada al-Akhirah 1392 AH, ten years with Ibn Baz, teachers, ijazahs from more than 150 scholars, works, teaching in Taif's mosques), the Al-Jazirah newspaper interview of 16 May 2014 (his post as director of the Taif Dawah and Guidance Centre) and his personal YouTube channel. No Wikipedia article and no Wikidata item were found for him (checked 25 October 2026). Caution recorded: a much-circulated blog biography of 'Dr. Khalid, born 1384 AH' that search results attach to similar names is about Khalid ibn Uthman al-Sabt, a different man, and was not used."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-28
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

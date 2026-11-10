@@ -1,0 +1,30 @@
+id: person/abu-bakr-ibn-al-jaabi
+class: person
+label:
+  ar: "أبو بكر محمد بن عمر ابن الجعابي"
+  en: "Abu Bakr ibn al-Jaabi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو بكر محمد بن عمر ابن الجعابي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Bakr ibn al-Jaabi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q69031730
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "897", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
+died: { edtf: "966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
+relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

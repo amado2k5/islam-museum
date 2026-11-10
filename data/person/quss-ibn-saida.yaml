@@ -1,0 +1,22 @@
+id: person/quss-ibn-saida
+class: person
+label: { ar: "قس بن ساعدة الإيادي", en: "Quss ibn Sa'ida al-Iyadi" }
+summary:
+  ar: "قس بن ساعدة الإيادي ممن دعا إلى الله ونبه قومه على آياته في الفترة بين عيسى ومحمد عند المسعودي، وعده في الموحدين المقرين بالخالق المصدقين بالبعث والنشور {cite:muruj-al-dhahab p. 442}."
+  en: "The Iyadite whom al-Mas'udi counts among the unitarian preachers of the intermission, warning his people of God's signs and affirming the resurrection {cite:muruj-al-dhahab p. 442}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 442"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch39
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani (Abu al-Faraj)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic orator of Banu Iyad, of the Yamama/Najd milieu (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }

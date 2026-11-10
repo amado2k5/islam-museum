@@ -1,0 +1,27 @@
+id: event/taj-al-din-restored-759
+class: event
+kind: other
+label:
+  ar: "إعادة تاج الدين السبكي إلى القضاء، أول شوال ٧٥٩هـ"
+  en: "Taj al-Din al-Subki restored to the judgeship, early Shawwal 759"
+  ur: "تاج الدین سبکی کی بحالی، اول شوال 759ھ"
+summary:
+  ar: "أُعيد تاج الدين السبكي إلى قضاء دمشق في أول شوال سنة ٧٥٩هـ بعد عزله في شعبان منها {cite:durar-kamina-jil-1993 2/425}."
+  en: "Taj al-Din al-Subki was restored to the judgeship of Damascus at the beginning of Shawwal 759, after his dismissal in Sha'ban of the same year {cite:durar-kamina-jil-1993 2/425}."
+  ur: "شعبان 759ھ کی معزولی کے بعد تاج الدین سبکی شوال 759ھ کے آغاز میں دمشق کے قضاء پر بحال ہوئے {cite:durar-kamina-jil-1993 2/425}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1358-09~", hijri: "0759-10", calendar: julian, precision: month, status: historical, derived: true, note: "أعيد في أول شوال سنة ٧٥٩هـ {cite:durar-kamina-jil-1993 2/425}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/taj-al-din-al-subki, role: "القاضي المعاد", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar al-Asqalani, al-Durar al-Kamina (Haidarabad/Jil 1993 print), vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-taj-al-din-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

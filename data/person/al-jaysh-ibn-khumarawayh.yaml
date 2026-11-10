@@ -1,0 +1,22 @@
+id: person/al-jaysh-ibn-khumarawayh
+class: person
+label: { ar: "جيش بن خمارويه", en: "Jaysh ibn Khumarawayh" }
+summary:
+  ar: "ابن أبي الجيش خمارويه بن أحمد بن طولون وبه كان يكنى أبوه، بويع له بالأمر على مصر من الغد لما ورد خبر ذبح أبيه بدمشق يوم الأحد لخمس ليال خلون من ذي الحجة سنة اثنتين وثمانين ومائتين، وخرج يتلقى تابوت أبيه على باب مصر {cite:muruj-al-dhahab p. 611}. وعند المسعودي سار من الشام إلى مصر في جيوشه سنة ثلاث وثمانين فخالفه طغج بدمشق، وفيها كان الشغب بمصر وقتل علي بن أحمد المارداني وقبض على جيش ونصب أخوه هارون مكانه لنقمتهم تقدمه لغلامه نجح المعروف بالطولوني وأخيه سلامة المعروف بالمؤثمن {cite:muruj-al-dhahab p. 620}، وعند ابن الجوزي ولي بعد أبيه خمارويه سنة 282هـ فقتلوه وانتهبوا داره {cite:muntazam-ibn-al-jawzi p. 155}"
+  en: "Khumarawayh's son and successor in Egypt, acclaimed the morning after his father's murder reached Fustat {cite:muruj-al-dhahab p. 611}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muntazam-ibn-al-jawzi, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr); al-Zirikli (al-A'lam 2/135; d. 283 AH)" }
+died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr); al-Zirikli (al-A'lam 2/135; d. 283 AH)" }
+relations:
+  - { type: ruler_of, target: place/misr, note: "Khumarawayh's son and successor in Egypt, acclaimed at Fustat the morning after his father's murder reached it.", sources: [source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi], confidence: medium }

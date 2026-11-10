@@ -1,0 +1,31 @@
+id: person/muhammad-tawfiq-al-bakri
+class: person
+label: { ar: "محمد توفيق البكري", en: "Muhammad Tawfiq al-Bakri" }
+names:
+  - { kind: full, lang: ar, value: "محمد توفيق بن علي بن محمد البكري الصديقي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1870", hijri: "1287", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1932", hijri: "1351", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم وكاتب مصري من أسرة البكري الصديقية، صاحب معجم المطبوعات."
+  en: "An Egyptian scholar and writer from the Bakri al-Siddiqi family, who compiled a dictionary of printed works."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/modern-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص734"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61

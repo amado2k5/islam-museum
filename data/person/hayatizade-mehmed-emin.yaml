@@ -1,0 +1,37 @@
+id: person/hayatizade-mehmed-emin
+class: person
+label:
+  ar: "حياتي زاده محمد أمين أفندي"
+  en: "Hayatizade Mehmed Emin Efendi"
+roles: [scholar, physician]
+gender: male
+themes: [medicine]
+summary:
+  ar: "بطاقة أولية لحياتي زاده محمد أمين أفندي، فقيه وطبيب عثماني، توفي سنة ١٧٤٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hayatizade Mehmed Emin Efendi, the Ottoman jurist and physician, d. 1747; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus-eyalet, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q116615942
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0065
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

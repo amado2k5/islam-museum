@@ -1,4 +1,13 @@
 id: person/khadija
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b2", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "خديجة تاجرة مكية ناجحة وأول أزواج النبي، وهي في الرواية أول من آمن برسالته حين عاد من غار حراء."
+    en: "Khadija was a successful Meccan merchant, the Prophet's first wife, and by the tradition's account the very first to believe in his message when he returned from the cave of Hira."
+    ur: "خدیجہ مکہ کی ایک کامیاب تاجر، نبی کی پہلی بیوی اور روایت کے مطابق ان کے پیغام پر ایمان لانے والی پہلی شخص تھیں۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: person
 label: { en: Khadija bint Khuwaylid, ar: خديجة بنت خويلد }
 names:
@@ -9,8 +18,8 @@ died: { edtf: "0619-04~", calendar: julian, precision: month, status: tradition,
 roles: [merchant, companion]
 traditions: [sunni, shia-twelver]
 summary:
-  en: "A wealthy Meccan merchant who was the Prophet Muhammad's first wife and, in tradition, the first person to believe in his message."
-  ar: "تاجرة مكية ثرية، كانت أول أزواج النبي محمد، وهي في الرواية أول من آمن برسالته."
+  en: "A wealthy Meccan merchant who was the Prophet Muhammad's first wife and, in tradition, the first person to believe in his message. Usd al-Ghaba's entry on her (no. 6877) identifies her as the Prophet's wife and the first woman he married, and reports a group counting her the first of God's creation to embrace Islam by consensus of the Muslims, no man or woman preceding her {cite:usd-ghaba p.1502}."
+  ar: "تاجرة مكية ثرية، كانت أول أزواج النبي محمد، وهي في الرواية أول من آمن برسالته؛ فلما رجع من غار حراء يرجف فؤاده قال «زملوني زملوني» فزمّلته وقالت كلمتها المشهورة «كلا والله ما يخزيك الله أبداً، إنك لتصل الرحم وتحمل الكل وتكسب المعدوم وتقري الضيف وتعين على نوائب الحق» ثم انطلقت به إلى ابن عمها ورقة بن نوفل {cite:sahih-al-bukhari 3}. وأمر الله نبيه أن يبشرها ببيت في الجنة من قصب لا صخب فيه ولا نصب {cite:sahih-al-bukhari 3819}، وقال «خير نسائها مريم بنت عمران وخير نسائها خديجة بنت خويلد» {cite:sahih-al-bukhari 3815}، وفي مسلم أتى جبريل النبي فقال له أن بلّغ خديجة سلاماً من ربها ومن جبريل وبشّرها «ببيت في الجنة من قصب لا صخب فيه ولا نصب» {cite:sahih-muslim 2432}. ويذكر أسد الغابة في ترجمتها رقم ٦٨٧٧ أنها زوج النبي وأول امرأة تزوجها، ونقل أن طائفة عدّتها أول خلق الله أسلم بإجماع المسلمين دون تقدم رجل أو امرأة عليها {cite:usd-ghaba p.1502}."
 wings: [people]
 themes: [women, family-marriage-kinship, trade-and-finance]
 periods: [period/prophetic-era]
@@ -24,15 +33,37 @@ faith:
   - { value: arabian-polytheism, basis: tradition, end: { edtf: "0610~" } }
   - { value: sunni, basis: tradition, start: { edtf: "0610~" }, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She predates the Sunni-Shia division." }
 relations:
+  - { type: buried_in, target: place/jannat-al-mualla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/mecca }
   - { type: child_of, target: person/khuwaylid-ibn-asad }
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0595~" }, end: { edtf: "0619-04~" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: spouse_of, target: person/abu-hala-ibn-zurara, end: { edtf: "059X" }, note: "زوجها الأول أبو هالة بن زرارة التميمي؛ زوّجها إياه والدها وعمرها خمس عشرة سنة، وولدت له هالة وهند (نساء حول الرسول ص36).", sources: [source/nisa-hawl-alrasul] }
+  - { type: spouse_of, target: person/atiq-ibn-aidh, end: { edtf: "059X" }, note: "زوجها الثاني عتيق بن عائذ من بني مخزوم؛ توفي دون ولد (نساء حول الرسول ص36-37).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/banu-hashim, note: "By marriage into the Prophet's household; her own clan was Asad ibn Abd al-Uzza of Quraysh." }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/marriage-to-khadija }
   - { type: participated_in, target: event/first-revelation, role: comforted-the-prophet, note: "Tradition reports she reassured the Prophet after the first revelation.", sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/boycott-of-banu-hashim }
   - { type: participated_in, target: event/year-of-sorrow }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+external_ids: { wikidata: "Q42034" }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/sahih-muslim, source/assabile-omar-abdelkafy, source/assabile-abla-al-kahlawi, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/assabile-tareq-al-suwaidan, source/usd-ghaba]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 35-48 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5; lib-wave-21-usd-ghaba-1"
+kids:
+  ar: "خديجة أول زوجات النبي وأول من آمنت به، ساندته بمالها وقلبها في أصعب الأيام الأولى."
+  en: "Khadija was the Prophet's first wife and the very first person to believe in him — she supported him with her wealth and her heart in the hardest early days."
+  ur: "خدیجہ نبی کی پہلی بیوی تھیں اور سب سے پہلے ان پر ایمان لائیں — مشکل ابتدائی دنوں میں مال اور دل دونوں سے ان کا ساتھ دیا۔"
+occupations:
+  - job: job/merchant
+    kind: primary
+    place: place/mecca
+    status: historical
+    note: "The DİA entry says she traded through partners she trusted, and made a partnership agreement with Muhammad before their marriage, sending him to Syria with her servant Maysara. The entry gives no dates for this trade."
+    sources: [source/tdv-hatice]

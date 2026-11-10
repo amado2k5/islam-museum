@@ -1,0 +1,17 @@
+id: person/dawud-ibn-yazid-ibn-hatim
+class: person
+label: { ar: "داود بن يزيد بن حاتم", en: "Dawud ibn Yazid ibn Hatim" }
+summary:
+  ar: "داود بن يزيد بن حاتم المهلبي؛ ولي ثغر السند بعد عمر بن حفص هزار مرد وكان معه أبو الصمة المتغلب مولى كندة."
+  en: "Dawud ibn Yazid ibn Hatim al-Muhallabi; the Sind thaghr after Umar ibn Hafs — the Kinda-mawla Abu al-Summa al-Mutaghallib in his company."
+periods: [period/abbasid-early]
+wings: [people]
+died: { edtf: "821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Associated with السند per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,39 @@
+id: place/united-arab-emirates
+class: place
+kind: region
+label:
+  ar: الإمارات العربية المتحدة
+  en: United Arab Emirates
+  ur: متحدہ عرب امارات
+summary:
+  ar: إقليم في الإمارات العربية المتحدة.
+  en: Region in United Arab Emirates.
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 24.4
+- 54.3
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q878
+  geonames: '290557'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs. Merged duplicate record place/uae into this entity during consolidation.
+  source: Wikidata item Q878 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q878 (labels, coordinates, description)
+aliases:
+- place/uae

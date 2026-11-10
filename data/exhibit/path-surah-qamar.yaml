@@ -1,0 +1,76 @@
+id: exhibit/path-surah-qamar
+class: exhibit
+kind: trail
+label:
+  ar: سورة القمر
+  en: Surah al-Qamar
+summary:
+  ar: 'مسار في سورة الشق: الشمس والقمر يُحشران، ونوح وعاد وثمود يُذكَّرون — اقتربت الساعة.'
+  en: A trail through the moon-splitting sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الافتتاح
+    en: The opening
+  body:
+    ar: اقتربت الساعة وانشق القمر.
+    en: اقتربت الساعة وانشق القمر.
+  features:
+  - passage/quran-54
+  - passage/quran-54-1
+- title:
+    ar: نوح
+    en: Nuh
+  body:
+    ar: 'السفينة والطوفان: قصة أولى.'
+    en: 'السفينة والطوفان: قصة أولى.'
+  features:
+  - passage/quran-54-9
+  - passage/quran-54-9
+- title:
+    ar: عاد وثمود
+    en: Ad and Thamud
+  body:
+    ar: 'الريح والناقة: إنذار تلو إنذار.'
+    en: 'الريح والناقة: إنذار تلو إنذار.'
+  features:
+  - passage/quran-54-18
+  - passage/quran-54-18
+- title:
+    ar: لوط
+    en: Lut
+  body:
+    ar: 'الصبح الباكر: العذاب يأتي.'
+    en: 'الصبح الباكر: العذاب يأتي.'
+  features:
+  - passage/quran-54-33
+  - passage/quran-54-33
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: إن المتقين في جنات ونهر.
+    en: إن المتقين في جنات ونهر.
+  features:
+  - passage/quran-54-54
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

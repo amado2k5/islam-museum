@@ -1,0 +1,29 @@
+id: person/majbar-al-saqli
+class: person
+label:
+  ar: "مجبر الصقلي"
+  en: "Majbar al-Saqli"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لمجبر الصقلي، شاعر صقلي القرن الثاني عشر، توفي سنة ١١٢٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Majbar al-Saqli, the twelfth-century Sicilian Arabic poet, d. 1120; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muqtabis" }
+died: { edtf: "1020~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muqtabis" }
+relations:
+  - { type: born_in, target: place/siqilliya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q66700165
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0073
+status:
+  review: draft
+  completeness: 1

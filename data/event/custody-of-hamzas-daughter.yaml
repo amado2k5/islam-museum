@@ -1,0 +1,23 @@
+id: event/custody-of-hamzas-daughter
+class: event
+kind: other
+label: { ar: "حضانة ابنة حمزة", en: "The custody of Hamza's daughter" }
+summary:
+  ar: "عند خروج النبي من مكة بعد عمرة القضاء تبعته ابنة حمزة تنادي يا عم، فتناولها علي، واختصم فيها علي وجعفر وزيد، فقضى النبي بها لخالتها، زوجة جعفر، وقال: الخالة بمنزلة الأم."
+wings: [people, time]
+themes: [family-marriage-kinship, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629-03~", hijri: "0007-11", calendar: julian, precision: month, status: tradition, derived: true, note: "الكتاب يذكرها في باب عمرة القضاء سنة 7هـ (ص103) ولا يذكر يوماً." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "تناول الفتاة وطلب حضانتها", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: "طلب حضانتها لأن خالتها زوجته", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "قال إنها ابنة أخيه بالمؤاخاة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "قضى بالحضانة لخالتها", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/fatima, role: "قال لها علي: دونك ابنة عمك", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: event/umrah-of-qada }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 103-104" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 103-104", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }

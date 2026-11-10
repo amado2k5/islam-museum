@@ -1,0 +1,27 @@
+id: event/yaqut-sold-baghdad-580
+class: event
+kind: other
+label:
+  ar: "بِيعُ ياقوتَ الصغير في بغداد للتاجر عسكر الحموي، نحو ٥٨٠هـ/١١٨٤م"
+  en: "The child Yaqut sold in Baghdad to the merchant Askar al-Hamawi, c. 580/1184"
+  ur: "بچہ یاقوت بغداد میں تاجر عسکر حموی کو فروخت، تقریباً 580ھ/1184ء"
+summary:
+  ar: "أُخذ ياقوت أسيراً وهو صغير جداً من بلاد الروم، وحُمل إلى بغداد في الخامسة أو السادسة من عمره، فابتاعه رجل تاجر يكاد لا يقرأ هو عسكر بن النصر الحموي، وسمّاه ياقوتاً على عادة تسمية الموالي بأسماء الجواهر، وجعله في الكتاب وأدّبه لينفعه في تجارته {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}؛ وممن علّمه لاحقاً أبو البقاء العكبري وابن يعيش {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}."
+  en: "Taken captive while still very young in Byzantine territory, Yaqut was carried to Baghdad at the age of five or six and bought by the barely literate merchant Askar ibn al-Nasr al-Hamawi, who named him Yaqut — the customary gemstone name for a mawla — and gave him a Qur'anic schooling so he could serve the business {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}; among his later teachers were Abu al-Baqa' al-Ukbari and Ibn Ya'ish {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}."
+  ur: "یاقوت ابھی بہت چھوٹا تھا کہ بلاد روم سے قیدی بنا کر بغداد لایا گیا، پانچ چھ سال کی عمر میں؛ اسے بمشکل خواندہ تاجر عسکر بن نصر حموی نے خریدا، نام یاقوت رکھا — موالیوں کو جواہر کے نام دینے کی عادت کے مطابق — اور کتب خانے میں ڈالا تاکہ تجارت میں کام آئے {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}؛ بعد کے اساتذہ میں ابو البقاء عکبری اور ابن یعش شامل تھے {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans, levant-iraq]
+date:
+  start: { edtf: "1184~", hijri: "0580~", calendar: julian, precision: year, status: tradition, derived: true, note: "حُمل إلى بغداد في الخامسة أو السادسة بعد ولادته في ٥٧٤ أو ٥٧٥هـ {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}؛ التاريخ تقريبي والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

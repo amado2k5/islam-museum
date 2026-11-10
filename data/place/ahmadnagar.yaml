@@ -1,0 +1,35 @@
+id: place/ahmadnagar
+class: place
+kind: city
+label:
+  en: Ahmadnagar
+  ar: أحمد نكر
+  ur: احمد نگر
+summary:
+  en: Deccan city founded by Ahmad Nizam Shah, seat of his sultanate.
+  ar: مدينة دكنية أسسها أحمد نظام شاه ومقر سلطنته.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 19.09
+- 74.74
+coordinate_precision: locality
+coordinate_note: Representative point.
+external_ids:
+  wikidata: Q403244
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Wikidata item Q403244
+  generated_by: Devin (SWE-2 High)
+  run: person-place-geo-c
+  note: Merged duplicate record place/ahilyanagar into this entity during consolidation.
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High)
+aliases:
+- place/ahilyanagar

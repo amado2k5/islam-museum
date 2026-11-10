@@ -1,0 +1,23 @@
+id: event/cinar-incident-1656
+class: event
+kind: revolt
+label: { ar: "واقعة الجنار", en: "Çınar Incident" }
+summary:
+  ar: "بطاقة أولية لواقعة الجنار سنة ١٦٥٦م، انتفاضة الجنود على البلاط وإراقة الدماء في إستانبول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Çınar Incident of 1656, the soldiers' revolt against the palace with bloodshed in Istanbul; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1656", precision: year, status: tradition, derived: true }
+  end: { edtf: "1656", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q8077838
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

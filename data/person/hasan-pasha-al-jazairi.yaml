@@ -1,0 +1,30 @@
+id: person/hasan-pasha-al-jazairi
+class: person
+label:
+  ar: "حسن باشا بن خير الدين بربروس"
+  en: "Hasan Pasha ibn Khayr al-Din"
+roles: [ruler, military]
+gender: male
+summary:
+  ar: "حسن باشا بن خير الدين بربروسة، بيلربك الجزائر ثم القائد العام للأسطول العثماني؛ حصّن الجزائر وحسم أمر تلمسان بهزيمة السعديين سنة 959هـ، وساس سياسة مستقلة حتى على فرنسا، فاعتقله الإنكشاريون سنة 969هـ، ثم عُيّن قائداً عاماً للأسطول سنة 975هـ."
+  en: "Hasan Pasha son of Khayr al-Din Barbarossa, beylerbey of Algiers then commander-in-chief of the Ottoman fleet; he fortified Algiers, settled Tlemcen by defeating the Sa'dis in 959, pursued an independent policy even toward France until the Janissaries arrested him in 969, and was made fleet commander in 975."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+born: { edtf: "1517~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/algiers, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3128171
+provenance:
+  layer: own-research
+  source: "الصلابي، الدولة العثمانية — المبحث السادس ص230-231، 249"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch13
+status:
+  review: published
+  completeness: 3

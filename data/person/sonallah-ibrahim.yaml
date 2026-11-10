@@ -1,0 +1,49 @@
+id: person/sonallah-ibrahim
+class: person
+label: { ar: "صنع الله إبراهيم", en: "Sonallah Ibrahim", ur: "صنع اللہ ابراہیم" }
+names:
+  - { value: "صنع الله إبراهيم", kind: full }
+  - { value: "Sonallah Ibrahim", kind: full }
+  - { value: "Son'allah Ibrahim", kind: alternate }
+gender: male
+summary:
+  ar: "روائي وقاص مصري (1937–2025)، من أبرز وجوه «جيل الستينيات» في الأدب العربي. سُجن بين 1959 و1964 لانتمائه إلى الحركة الديمقراطية للتحرر الوطني الماركسية، وجعل من سجنه مادة روايته الأولى «تلك الرائحة»؛ ومن أعماله «اللجنة» و«ذات» و«شرف» و«وردة». رفض سنة 2003 تسلُّم جائزة ملتقى القاهرة للإبداع الروائي اعتراضًا على سياسات الحكومة المصرية."
+  en: "Egyptian novelist and short-story writer (1937–2025), a leading figure of the 'Sixties Generation' in Arabic literature. Imprisoned from 1959 to 1964 for his membership in the Marxist Democratic Movement for National Liberation, he drew on his imprisonment in his first book, That Smell; his novels include The Committee, Zaat, Honor and Warda. In 2003 he refused a major state literary prize in protest at the Egyptian government's policies."
+  ur: "مصری ناول نگار اور افسانہ نگار (1937–2025)، عربی ادب کی «ساٹھ کی دہائی کی نسل» کی نمایاں شخصیت۔ مارکسی جمہوری تحریک برائے قومی آزادی سے وابستگی پر 1959 سے 1964 تک قید رہے اور اپنی قید کو اپنی پہلی کتاب «تلک الرائحة» کا موضوع بنایا؛ ان کے ناولوں میں «اللجنة»، «ذات»، «شرف» اور «وردة» شامل ہیں۔ 2003 میں انہوں نے مصری حکومت کی پالیسیوں پر احتجاجاً ایک بڑا سرکاری ادبی ایوارڈ قبول کرنے سے انکار کر دیا۔"
+roles: [writer]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1937-08-03"
+  hijri: "1356"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The English article and Wikidata give 3 August 1937, born in Cairo; the Arabic and Urdu articles give 24 February 1937, pairing it with 13 Dhu al-Hijja 1355. Both traditions agree on Cairo and on the year 1937, so the record follows the English article and Wikidata at day precision under debated status; the Hijri year 1356 is derived from that Gregorian date, while the Arabic pairing of 1355 belongs to the February date and is preserved here."
+  sources: [source/wikipedia-sonallah-ibrahim-en, source/wikipedia-sonallah-ibrahim-ar, source/wikipedia-sonallah-ibrahim-ur, source/wikidata-sonallah-ibrahim]
+died:
+  edtf: "2025-08-13"
+  hijri: "1447"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "All sources agree he died on 13 August 2025, aged 88; the English article gives pneumonia as the cause and the Arabic article places his death in Cairo on 19 Safar 1447 after a struggle with illness, its Hijri pairing agreeing with the derived Hijri year."
+  sources: [source/wikipedia-sonallah-ibrahim-en, source/wikipedia-sonallah-ibrahim-ar, source/wikidata-sonallah-ibrahim]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-sonallah-ibrahim-en, source/wikipedia-sonallah-ibrahim-ar, source/wikidata-sonallah-ibrahim] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-sonallah-ibrahim-ar, source/wikidata-sonallah-ibrahim] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Ibrahim, and none records unbelief in his own words. The articles describe his leftist views and his membership in the Marxist Democratic Movement for National Liberation, for which he was imprisoned from 1959 to 1964; political affiliation is not religious attestation, and the atheist-or-sceptic value requires unbelief stated in the person's own words across two independent sources, which this source set does not contain. Wikidata carries no religion statement for him. Recorded as unknown."
+    sources: [source/wikipedia-sonallah-ibrahim-en, source/wikipedia-sonallah-ibrahim-ar, source/wikidata-sonallah-ibrahim]
+external_ids: { wikidata: "Q3053937" }
+sources: [source/wikipedia-sonallah-ibrahim-en, source/wikipedia-sonallah-ibrahim-ar, source/wikipedia-sonallah-ibrahim-ur, source/wikidata-sonallah-ibrahim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1357031972), Arabic Wikipedia (revision 74198786), Urdu Wikipedia (revision 9031722) and Wikidata Q3053937 (item revision 2558377177, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by slug, name fragments and QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-158a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

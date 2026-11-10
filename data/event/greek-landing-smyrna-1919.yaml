@@ -1,0 +1,23 @@
+id: event/greek-landing-smyrna-1919
+class: event
+kind: battle
+label: { ar: "الإنزال اليوناني في إزمير", en: "Greek landing at Smyrna" }
+summary:
+  ar: "بطاقة أولية للإنزال اليوناني في إزمير سنة ١٩١٩م، احتلال الجيش اليوناني للمدينة الذي فتح الحرب اليونانية التركية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Greek landing at Smyrna in 1919, the occupation that opened the Greco-Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1919", precision: year, status: tradition, derived: true }
+  end: { edtf: "1919", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5601971
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; landing attested in Greco-Turkish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

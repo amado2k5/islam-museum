@@ -1,0 +1,28 @@
+id: person/bishr-al-hafi
+class: person
+label: { ar: "بشر الحافي", en: "Bishr al-Hafi" }
+aliases: [person/bishr-ibn-al-harith]
+summary:
+  ar: "أبو نصر بشر بن الحارث الحافي، من بلاد مرو، مات ببغداد سنة سبع وعشرين ومائتين {cite:muruj-al-dhahab p. 453}. وعند ابن النديم العابد الزاهد وتوفي سنة سبع وعشرين ومائتين وله كتاب الزهد {cite:fihrist-ibn-al-nadim p. 261}."
+  en: "The celebrated barefoot ascetic of Merv — dead at Baghdad in 227 {cite:muruj-al-dhahab p. 453}."
+gender: male
+wings: [people]
+born: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "841", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tustar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/baghdad-cemeteries, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/delgosha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+external_ids: { wikidata: "Q2261664" }
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

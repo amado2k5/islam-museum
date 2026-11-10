@@ -1,0 +1,23 @@
+id: event/malacca-majapahit-conflict
+class: event
+kind: war
+label: { ar: "النزاع بين ملقا وماجاباهيت", en: "Malacca-Majapahit Conflict" }
+summary:
+  ar: "بطاقة أولية لالنزاع بين ملقا وماجاباهيت؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Malacca-Majapahit Conflict; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1505", precision: year, status: tradition, derived: true }
+  end: { edtf: "1505", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q133825724
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

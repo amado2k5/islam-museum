@@ -1,0 +1,34 @@
+id: person/khalaf-ibn-sulayman-ibn-fathun
+class: person
+gender: male
+label:
+  ar: "ابن فتحون ⁦(خلف بن سليمان)⁩"
+  en: "Ibn Fathun (Khalaf ibn Sulayman)"
+summary:
+  ar: "خلف بن سليمان بن خلف بن محمد بن فتحون، أبو القاسم، الأندلسي الأوريولي، فقيه مالكي وأديب وشاعر، ولي قضاء شاطبة ثم دانية. روى عن أبيه وأبي الوليد الباجي وطاهر بن مفوز، وروى عنه ابنه محمد وزياد بن محمد. من تصانيفه كتاب في الشروط لم يسبق إليه. توفي سنة 505 هـ على ما هو مثبت في العنوان. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15810}"
+  en: "Khalaf ibn Sulayman ibn Khalaf ibn Muhammad ibn Fathun, Abu al-Qasim, of Orihuela in al-Andalus, a Maliki jurist, writer and poet. He was judge of Shatiba and then Denia. He related from his father, Abu al-Walid al-Baji and Tahir ibn Mawfaz, and was related from by his son Muhammad and Ziyad ibn Muhammad. His book on contracts was the first of its kind. The header gives 505 AH as his death year. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15810}"
+roles: [jurist]
+traditions: [sunni-maliki]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Ulama al-Andalus" }
+relations:
+  - { type: lived_in, target: place/shatiba, confidence: low, note: "Associated with شاطبة per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15810 من المسح)"
+  scan_pages: [15810]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

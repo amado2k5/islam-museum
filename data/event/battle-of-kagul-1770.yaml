@@ -1,0 +1,23 @@
+id: event/battle-of-kagul-1770
+class: event
+kind: battle
+label: { ar: "معركة كاغول", en: "Battle of Kagul" }
+summary:
+  ar: "بطاقة أولية لمعركة كاغول سنة ١٧٧٠م، النصر الروسي الكبير على الجيش العثماني في حرب ١٧٦٨؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kagul in 1770, the great Russian victory over the Ottoman army in the war of 1768–74; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1770", precision: year, status: tradition, derived: true }
+  end: { edtf: "1770", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q700218
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Russo-Turkish histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

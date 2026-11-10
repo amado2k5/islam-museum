@@ -1,0 +1,24 @@
+id: event/abd-al-rahman-iii-minaret-cordoba
+class: event
+kind: founding
+label: { ar: "صومعة عبد الرحمن الناصر على جامع قرطبة", en: "Al-Nasir's minaret on the mosque" }
+summary:
+  ar: "بنى عبد الرحمن الناصر صومعة جامع قرطبة الشهيرة نحو سنة 951م، وكانت تُصعد بدرجين متخالفين وتحمل تفاحات الذهب والفضة {cite:nafh-tib-maqqari} {cite:umari-masalik-1924 p. 212-214}."
+  en: "Abd al-Rahman al-Nasir built the mosque's celebrated minaret about 951 — climbed by twin staircases meeting only at the top and bearing apples of gold and silver {cite:nafh-tib-maqqari} {cite:umari-masalik-1924 p. 212-214}."
+  ur: "عبد الرحمن الناصر نے تقریباً 951ء میں مسجد کا مشہور مینار بنوایا جس میں دو الگ سیڑھیاں صرف چوٹی پر ملتیں اور سونے چاندی کے سیب لگے تھے {cite:nafh-tib-maqqari} {cite:umari-masalik-1924 p. 212-214}."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0951~", precision: year, status: tradition, derived: true }
+  end: { edtf: "0951~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abd-al-rahman-iii-al-nasir, role: "الباني", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Great Mosque of Cordoba story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-cordoba-mosque
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

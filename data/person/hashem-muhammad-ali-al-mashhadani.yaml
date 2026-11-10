@@ -1,0 +1,30 @@
+id: person/hashem-muhammad-ali-al-mashhadani
+class: person
+label:
+  ar: "هاشم محمد علي المشهداني"
+  en: "Hashem Muhammad Ali al-Mashhadani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لهاشم محمد علي المشهداني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hashem Muhammad Ali al-Mashhadani; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/contemporary-era]
+born: { edtf: "1952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iraqi Biographical Directories" }
+died: { edtf: "2021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iraqi Biographical Directories" }
+relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/doha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106978910
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

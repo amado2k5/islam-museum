@@ -1,0 +1,34 @@
+id: person/badi-ibn-al-diya
+class: person
+label: { ar: "بديع بن الضياء قاضي مكة", en: "Badi' ibn al-Diya, qadi of Mecca" }
+names:
+  - { kind: full, lang: ar, value: "بديع بن الضياء قاضي مكة المشرفة وشيخ الحرم بها" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts]
+periods: [period/gunpowder-empires]
+regions: [arabia, levant-iraq, anatolia-balkans]
+summary:
+  ar: "بديع بن الضياء قاضي مكة المشرفة وشيخ الحرم بها؛ قال ابن طولون: كان من أهل الفضل والرياسة قدم دمشق ثم سافر إلى مصر فبلغه تولية قضاء مكة للشيخ زين الدين عبد اللطيف بن أبي كثير فرجع إلى دمشق وأقام بها مدة، ثم سافر إلى الروم سنة إحدى وأربعين بعد أن حضر عند الشيخ علي الكيزواني تجاه مسجد العفيف بالصالحية وسمع المولد وشرب هو والشيخ علي وجماعته القهوة المتخذة من البن — ولا أعلم أنها شربت في بلدنا هذه يعني دمشق قبل ذلك؛ فلما وصل القاضي بديع إلى الروم أعيد إليه قضاء جدة ثم رجع فتوفي بمدينة بدليس من أطراف ديار بكر {cite:shadharat-dhahab p. 663-664}."
+  en: "Mecca's qadi and shaykh of the Haram — at Damascus in 941 he attended Shaykh 'Ali al-Kizwani's mawlid opposite the 'Afif mosque and drank with him 'the coffee made of bunn — and I do not know that it was drunk in our country, Damascus, before that' (Ibn Tulun's notice); reappointed qadi of Jeddah in Rum, died at Bitlis {cite:shadharat-dhahab p. 663-664}."
+died: { edtf: "1535~", hijri: "0942", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها (942) توفي ببدليس من أطراف ديار بكر {cite:shadharat-dhahab p. 664}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/al-fathel, confidence: low, note: "Associated with الفضل per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 942)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch81
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

@@ -1,0 +1,29 @@
+id: person/kadi-burhaneddin-anevi
+class: person
+label:
+  ar: "برهان الدين آنوى"
+  en: "Kadi Burhaneddin Anevi"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لبرهان الدين آنوى؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Kadi Burhaneddin Anevi; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1280~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/ani, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q31308459
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

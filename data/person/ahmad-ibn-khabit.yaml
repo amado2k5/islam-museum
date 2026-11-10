@@ -1,0 +1,34 @@
+id: person/ahmad-ibn-khabit
+class: person
+label:
+  ar: "أحمد بن خابط"
+  en: "Ahmad ibn Khabit"
+roles: [qadi, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن خابط، متكلم وقاضٍ بصري القرن التاسع، توفي سنة ٨٤٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Khabit, the ninth-century Basran theologian and qadi, d. 845; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q14240400
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0068
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "845~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shahrastani (al-Milal)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (بصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

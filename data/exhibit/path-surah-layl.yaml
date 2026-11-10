@@ -1,0 +1,76 @@
+id: exhibit/path-surah-layl
+class: exhibit
+kind: trail
+label:
+  ar: سورة الليل
+  en: Surah al-Layl
+summary:
+  ar: 'مسار في سورة التناقض: الليل والنهار والذكر والأنثى، والأعطى يُيسر والبخل يُعسر — سورة الطريقين.'
+  en: A trail through the sura of contrasts.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: القسم
+    en: The oath
+  body:
+    ar: والليل إذا يغشى والنهار إذا تجلى.
+    en: والليل إذا يغشى والنهار إذا تجلى.
+  features:
+  - passage/quran-92
+  - passage/quran-92-1
+- title:
+    ar: التيسير
+    en: The ease
+  body:
+    ar: 'الأعطى واتقى: للعسرى يُيسر.'
+    en: 'الأعطى واتقى: للعسرى يُيسر.'
+  features:
+  - passage/quran-92-5
+  - concept/taqwa
+- title:
+    ar: البخل
+    en: The miser
+  body:
+    ar: 'ومن بخل واستغنى: للعسرى يُعسر.'
+    en: 'ومن بخل واستغنى: للعسرى يُعسر.'
+  features:
+  - passage/quran-92-8
+  - passage/quran-92-8
+- title:
+    ar: المال
+    en: Wealth
+  body:
+    ar: وما يغني عنه ماله إذا تردى.
+    en: وما يغني عنه ماله إذا تردى.
+  features:
+  - passage/quran-92-11
+  - concept/akhira
+- title:
+    ar: الأثقل
+    en: The heaviest
+  body:
+    ar: فإن لنا للآخرة والأولى.
+    en: فإن لنا للآخرة والأولى.
+  features:
+  - passage/quran-92-13
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

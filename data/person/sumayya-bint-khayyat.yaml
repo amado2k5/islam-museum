@@ -28,5 +28,11 @@ relations:
   - { type: spouse_of, target: person/yasir-ibn-amir, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: persecuted_by, target: person/abu-jahl, start: { edtf: "0614~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/first-muslim-martyrdom, role: victim, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
+external_ids: { wikidata: "Q2736992" }
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "Generated 2026-10-11, as recorded in this record's status.generated_by (which names no source work); the record rests on Ibn Sa'd's Tabaqat in Bewley's translation (source/ibn-sad-tabaqat-bewley) and Ibn Ishaq's Sira in Guillaume's translation (source/ibn-ishaq-guillaume)"
+  generated_by: "Devin"

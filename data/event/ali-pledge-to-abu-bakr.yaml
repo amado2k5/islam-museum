@@ -1,0 +1,31 @@
+id: event/ali-pledge-to-abu-bakr
+class: event
+kind: other
+label: { en: "Ali's pledge of allegiance to Abu Bakr", ar: "مبايعة علي لأبي بكر" }
+summary:
+  en: "Sallabi holds that Ali and al-Zubayr pledged allegiance to Abu Bakr early, on the day of the Prophet's death, citing an authentic report of Abu Sa'id al-Khudri; he treats the reports of a long delay as unsound, and records a renewal of the pledge after Fatima's death in Ibn Kathir's view."
+  ar: "يرى الصلابي أن علياً والزبير بايعا أبا بكر في أول الأمر يوم وفاة النبي، استناداً إلى خبر صحيح عن أبي سعيد الخدري، ويعد أخبار التأخير الطويل غير صحيحة، ويذكر تجديد البيعة بعد وفاة فاطمة على قول ابن كثير."
+wings: [people, time]
+themes: [reconciliation-and-unity, factions-splits-schisms]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06", hijri: "0011-03", calendar: julian, precision: month, status: tradition, derived: true, note: "الكتاب يقول إن البيعة كانت يوم وفاة النبي (ص 123)، ولا يذكر يوماً ولا شهراً بعينه؛ الشهر مشتق من تاريخ الوفاة الذي يناقشه الكتاب في موضع الدفن (انظر burial-of-the-prophet)، وتجديد البيعة بعد ستة أشهر (ص 124) تقدير ابن كثير." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "بايع أبا بكر في أول الأمر على رواية أبي سعيد الخدري", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/abu-bakr, role: "المبايَع", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "بايع في أول الأمر على الرواية الصحيحة التي يعتمدها الكتاب", sources: [source/sallabi-ali-vol1] }
+  - { type: occurred_at, target: place/medina }
+issue: { ar: "هل تأخر علي عن بيعة أبي بكر، وهل كان في ذلك اعتراض على خلافته؟", en: "Did Ali delay his pledge to Abu Bakr, and did the delay signal an objection to his caliphate?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sallabi's Sunni account: Ali and al-Zubayr pledged early, the reports of delay are weak, and Ali's own words accept Abu Bakr's precedence; Ali renewed the pledge after Fatima's death.", ar: "رواية الكتاب السني: بايع علي والزبير في أول الأمر، وأخبار التأخير ضعيفة، وأقوال علي نفسه تقر بتقدم أبي بكر، وجدد علي البيعة بعد وفاة فاطمة." }
+    sources: [source/sallabi-ali-vol1]
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { en: "Reports cited by the book say Ali withdrew from the pledge and that Abu Bakr was chosen without his consent; the book names these as weak or unsound and does not accept them.", ar: "تروي أخبار ينقلها الكتاب أن علياً تخلف عن البيعة ولم يرضَ بها؛ ويصفها الكتاب بالضعف وعدم الصحة ولا يقبلها." }
+    sources: [source/sallabi-ali-vol1]
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 122-124" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 122-125", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

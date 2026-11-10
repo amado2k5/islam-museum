@@ -1,0 +1,35 @@
+id: work/study-quran
+class: work
+kind: book
+label: { ar: "القرآن الدراسي: ترجمة جديدة وتفسير", en: "The Study Quran: A New Translation and Commentary", ur: "دی اسٹڈی قرآن: نیا ترجمہ اور تفسیر" }
+summary:
+  ar: "ترجمة إنجليزية جديدة للقرآن مع تفسير مفصّل، حرّرها سيد حسين نصر رئيسًا للتحرير مع كانر داغلي وماريا ماسي داكاكي وجوزيف لمبارد محررين عامين ومحمد رستم محررًا مساعدًا، ونشرتها هاربر وَن في الولايات المتحدة سنة 2015 في 2048 صفحة؛ استغرق إعدادها عشر سنوات، وتجمع في حواشيها أقوال تفاسير قديمة كثيرة سنية وشيعية، وتضم مقالات في موضوعات القرآن؛ اشترط نصر أن يكون فريقها مسلمين من طلابه، واستقبلها كثيرون بالترحيب، وتحفّظ عليها آخرون."
+  en: "A new English translation of the Qur'an with extensive commentary, edited by Seyyed Hossein Nasr as editor-in-chief with Caner K. Dagli, Maria Massi Dakake and Joseph E. B. Lumbard as general editors and Mohammed Rustom as assistant editor, published in the United States by HarperOne in 2015 in 2,048 pages; ten years in the making, its notes gather the readings of many classical Sunni and Shia commentaries, and it adds essays on Qur'anic themes; Nasr made it a condition that the team be Muslims and his former students, and it was widely welcomed, with some reservations voiced."
+  ur: "قرآن کا نیا انگریزی ترجمہ مع مفصل تفسیر، مدیرِ اعلیٰ سید حسین نصر، عمومی مدیران کینر داغلی، ماریا ماسی داکاکے اور جوزف لمبارڈ، معاون مدیر محمد رستم؛ ہارپر وَن نے امریکہ میں 2015 میں 2048 صفحات میں شائع کیا؛ دس سال کی محنت، حواشی میں بہت سی قدیم سنی و شیعہ تفاسیر کے اقوال، اور قرآنی موضوعات پر مقالات؛ نصر کی شرط تھی کہ ٹیم مسلمان اور ان کے شاگرد ہوں؛ بہت سوں نے خیرمقدم کیا اور بعض نے تحفظات ظاہر کیے۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, violent-extremism-and-the-muslim-response]
+regions: [americas-oceania]
+genre: [quran-translation, tafsir]
+authors: [person/seyed-hossein-nasr]
+language: language/english
+made: { by_muslims: true, basis: documented, sources: [source/cnn-study-quran-2015] }
+composed: { edtf: "2015-11", hijri: "1437-02", calendar: gregorian, precision: month, status: historical, derived: true, note: "Published by HarperOne in 2015; the CNN report of 27 November 2015 describes copies on their way to bookstores in the days after 13 November 2015. The Hijri month is converter-derived.", sources: [source/wikipedia-study-quran-en, source/cnn-study-quran-2015] }
+editions:
+  - "The Study Quran: A New Translation and Commentary. Seyyed Hossein Nasr, editor-in-chief; Caner K. Dagli, Maria Massi Dakake, Joseph E. B. Lumbard, general editors; Mohammed Rustom, assistant editor. San Francisco: HarperOne, 2015, 2,048 pages, ISBN 978-0061125867; first run 10,000, with 13,000 more printed before sale"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/cnn-study-quran-2015] }
+footprint:
+  wikipedia: { languages: [ar, en, fa, hi], checked: "2026-11-06", sources: [source/wikipedia-study-quran-en] }
+  wikidata: "Q54489061"
+  catalogues: { isbn: ["978-0061125867"] }
+  press:
+    - { source: source/cnn-study-quran-2015, date: { edtf: "2015-11-27", calendar: gregorian, precision: day }, kind: news, lang: en, title: { en: "Could this Quran curb extremism?" } }
+external_ids: { wikidata: "Q54489061" }
+sources: [source/cnn-study-quran-2015, source/wikipedia-study-quran-en]
+provenance:
+  layer: own-research
+  source: "CNN report 'Could this Quran curb extremism?' (Daniel Burke, 27 November 2015, read in the WTKR syndication) for the making, the team, the funding, the print runs and the reception; English Wikipedia 'The Study Quran' (revision 1356389862) and Wikidata Q54489061 (revision 2432184508) for editors, publisher, year, extent, ISBN and sitelinks only; read in Chrome on 6 November 2026."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

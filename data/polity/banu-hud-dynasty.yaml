@@ -1,0 +1,32 @@
+id: polity/banu-hud-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "بنو هود"
+  en: "Banu Hud dynasty"
+summary:
+  ar: "بطاقة أولية لبني هود، أسرة طائفة سرقسطة التي حكمت وادياً أندلسياً من ١٠٣٩ إلى ١١١٠م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Banu Hud, the taifa dynasty of Zaragoza ruling an Andalusian valley from 1039 to 1110; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+start:
+  edtf: "1039"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1110"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q33058
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Andalusian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

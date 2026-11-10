@@ -1,0 +1,34 @@
+id: building/grand-bazaar-istanbul
+class: building
+kind: bazaar
+label:
+  ar: السوق المغطى الكبير
+  en: Grand Bazaar, Istanbul
+summary:
+  ar: أقدم سوق مغطى كبير في العالم (1461) — 61 شارعاً وأربعة آلاف دكان في قلب إسطنبول العثماني.
+  en: The world's oldest great covered market (1461) — 61 streets and four thousand shops in Ottoman Istanbul's heart.
+wings: [objects]
+themes:
+- architecture
+built:
+  edtf: '1461'
+  calendar: gregorian
+  precision: year
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+external_ids:
+  wikidata: Q505954
+sources:
+- source/wikidata
+- source/freely-ottoman-architecture-2011
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (WIT Press 2011), harvest scan"
+  generated_by: "Devin"
+  model: "claude-sonnet-4.5"
+  run: prose-backfill-2-batch14
+status:
+  review: draft
+  completeness: 3

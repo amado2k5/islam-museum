@@ -1,0 +1,28 @@
+id: event/qifti-reappointed-616
+class: event
+kind: other
+label:
+  ar: "الملك العزيز يعيد القفطي إلى ديوان المال، ٦١٦هـ"
+  en: "Al-Malik al-Aziz reappoints al-Qifti over the diwan of finances, 616/1219"
+  ur: "ملک عزیز نے قفطی کو دیوان مال پر بحال کیا، 616ھ/1219ء"
+summary:
+  ar: "أعاد الملك العزيز محمد بن الظاهر القفطيَ إلى منصبه على ديوان المال بعد ثلاث سنين من استقالته، فشغله دون انقطاع حتى سنة ثمان وعشرين وستمائة {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  en: "Three years after his resignation, al-Malik al-Aziz Muhammad ibn al-Zahir appointed al-Qifti to the same post over the diwan of finances, which he then held without interruption until 628/1230 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}."
+  ur: "استعفے کے تین برس بعد ملک عزیز محمد بن ظاہر نے قفطی کو دیوان مال کے اسی منصب پر مقرر کیا جو وہ بلا انقطاع 628ھ/1230ء تک سنبھالتے رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1219", hijri: "0616", calendar: julian, precision: year, status: tradition, derived: true, note: "«بعد ثلاث سنين» من ٦١٣هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "المعاد إلى ديوان المال", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-aziz-ghiyath-al-din-muhammad, role: "صاحب حلب المعيد", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

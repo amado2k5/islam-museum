@@ -1,0 +1,31 @@
+id: person/abu-talib-al-zaynabi
+class: person
+label:
+  ar: "أبو طالب الزينبي"
+  en: "Abu Talib al-Zaynabi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي طالب الزينبي، عالم القرن الثاني عشر، توفي سنة ١١١٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Talib al-Zaynabi, the twelfth-century scholar, d. 1118; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q125098306
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0067
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1003", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "1088", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+relations:
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-khaisaran-cemetery, note: "Wikidata Q12244626 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

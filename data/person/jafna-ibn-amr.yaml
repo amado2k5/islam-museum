@@ -1,0 +1,27 @@
+id: person/jafna-ibn-amr
+class: person
+label: { ar: "جفنة بن عمرو", en: "Jafna ibn Amr" }
+names:
+  - { kind: full, lang: ar, value: "جفنة بن عمرو مزيقياء الأزدي" }
+gender: male
+roles: [tribal-ancestor]
+summary:
+  ar: "الأزدي الذي سار إلى الشام في هجرة الأزد فأقام بها هو وبنوه، وهو أبو الملوك الغساسنة، نسبة إلى ماء في الحجاز يُعرف بغسان نزلوا به قبل تنقلهم إلى الشام، في رواية الرحيق المختوم."
+  en: "The Azdi who went to al-Sham in the Azd migration and settled there with his sons; the forefather of the Ghassanid kings, named after a water in the Hijaz called Ghassan where they had first halted, in al-Raheeq al-Makhtum's account."
+wings: [people]
+themes: [family-marriage-kinship, refugees-migrants-diaspora]
+periods: [period/pre-islamic-arabia]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: child_of, target: person/amr-ibn-amir-muzayqiya, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/al-azd, sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/al-sham, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: founder_of, target: polity/ghassanid-kingdom, note: "أبو الملوك الغساسنة.", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 نقلاً عن قلب جزيرة العرب ص230–235 وتفهيم القرآن 1/553–556 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 17" }

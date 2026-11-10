@@ -1,0 +1,16 @@
+id: passage/bukhari-4330
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4330"
+label: { ar: "البخاري 4330 — الأنصار شعار والناس دثار", en: "Bukhari 4330 — The Ansar are the inner garment, the people the outer" }
+text: "يا معشر الأنصار، ألم أجدكم ضلالاً فهداكم الله بي، وكنتم متفرقين فألفكم الله بي، وعالة فأغناكم الله بي… ألا ترضون أن يذهب الناس بالشاة والبعير وتذهبون بالنبي إلى رحالكم… الأنصار شعار والناس دثار، إنكم ستلقون بعدي أثرة فاصبروا حتى تلقوني على الحوض"
+summary:
+  ar: "في كتاب المغازي؛ رواية عبد الله بن زيد بن عاصم أن النبي خطب الأنصار بعد قسمة غنائم حنين بالجعرانة إذ لم يعطهم منها شيئاً فتكلم بعضهم، فذكّرهم بما كانوا عليه وأخبرهم بأثرة سيلقونها بعده. من أعظم خطب الصحيح في منزلة الأنصار."
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/distribution-of-hunayn-spoils, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/battle-of-hunayn, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4330 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,23 @@
+id: event/battle-of-rymnik-1789
+class: event
+kind: battle
+label: { ar: "معركة رمنيق", en: "Battle of Rymnik" }
+summary:
+  ar: "بطاقة أولية لمعركة رمنيق سنة ١٧٨٩م، النصر النمساوي الروسي الكبير على الجيش العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Rymnik in 1789, the great Austro-Russian victory over the Ottoman army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1789", precision: year, status: tradition, derived: true }
+  end: { edtf: "1789", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2234632
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

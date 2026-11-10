@@ -1,0 +1,46 @@
+id: event/muqasama-of-amr-ibn-al-as
+class: event
+kind: other
+label:
+  ar: مقاسمة عمر بن الخطاب عمرو بن العاص ماله
+  en: Umar's halving of Amr ibn al-As's wealth
+  ur: عمر بن الخطاب کا عمرو بن العاص کے مال کی تقسیم
+summary:
+  ar: بعث عمر بن الخطاب محمد بن مسلمة إلى عمرو بن العاص بمصر ليقاسمه ماله، ضمن مقاسمته عماله، وكان سببها فيما يروي ابن عبد الحكم شعراً بلغ عمر يحثه على محاسبة العمال {cite:futuh-misr-amir-1999 p. 198} {cite:futuh-misr-amir-1999 p. 199} {cite:futuh-misr-amir-1999 p. 200}.
+  en: Umar ibn al-Khattab sent Muhammad ibn Maslama to Amr ibn al-As in Egypt to split his wealth with him, as part of his halving of his governors' wealth; Ibn Abd al-Hakam reports that it was prompted by a poem urging Umar to call his governors to account {cite:futuh-misr-amir-1999 p. 198} {cite:futuh-misr-amir-1999 p. 199} {cite:futuh-misr-amir-1999 p. 200}.
+  ur: عمر بن الخطاب نے محمد بن مسلمہ کو مصر میں عمرو بن العاص کے پاس ان کا مال آدھا آدھا تقسیم کرنے بھیجا، جو عاملوں کے مال کی تقسیم کا حصہ تھا؛ ابن عبد الحکم کے مطابق اس کا سبب ایک نظم تھی جس میں عمر کو عاملوں کے محاسبے پر ابھارا گیا تھا {cite:futuh-misr-amir-1999 p. 198} {cite:futuh-misr-amir-1999 p. 199} {cite:futuh-misr-amir-1999 p. 200}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: had_participant
+  target: person/umar-ibn-al-khattab
+  role: الآمر بالمقاسمة
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/muhammad-ibn-maslama
+  role: المبعوث للمقاسمة
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: العامل المقاسَم
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 198–201
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

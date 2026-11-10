@@ -1,0 +1,23 @@
+id: event/ibn-battuta-journey-to-mali-1352
+class: event
+kind: other
+label: { ar: "ابن بطوطة يرحل إلى مالي", en: "Ibn Battuta travels to Mali", ur: "ابن بطوطہ کا مالی کا سفر" }
+summary:
+  ar: "سنة 1352م خرج ابن بطوطة بأمر السلطان عبر الصحراء إلى السودان الغربي، وأقام سنة في مملكة مالي في عهد منسا سليمان. {cite:britannica-ibn-battuta}"
+  en: "In 1352, at the sultan's command, Ibn Battuta crossed the Sahara to the western Sudan and spent a year in the empire of Mali under Mansa Sulayman."
+  ur: "1352ء میں سلطان کے حکم پر ابن بطوطہ صحرا پار کر کے مغربی سوڈان گئے اور منسا سلیمان کے عہد میں سلطنتِ مالی میں ایک سال رہے۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1352", hijri: "0753~", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Britannica (Ibn Battuta); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: had_participant, target: person/ibn-battuta-muhammad, role: "الرحّالة", sources: [source/britannica-ibn-battuta] }
+sources: [source/britannica-ibn-battuta]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Battuta, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-battuta.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-battuta

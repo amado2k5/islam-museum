@@ -1,0 +1,21 @@
+id: place/palembang-sultanate
+class: place
+kind: region
+label: { ar: "سلطنة فاليمبانغ", en: "Palembang Sultanate" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q3503555)."
+wings: [place]
+regions: [global]
+coordinates: [-2.9909, 104.7566]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q3503555" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3503555 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,29 @@
+id: person/al-kawkabani-1756
+class: person
+label:
+  ar: "الكوكباني"
+  en: "al-Kawkabani"
+roles: [jurist]
+gender: male
+summary:
+  ar: "إبراهيم بن عبد القادر الكوكباني، فقيه زيدي يمني من أهل صنعاء، له رسائل فقهية وشعر؛ توفي سنة 1223هـ ⁦(1808م)⁩."
+  en: "Ibrahim ibn Abd al-Qadir al-Kawkabani (1756–1808), Zaydi jurist of San'a, author of fiqh treatises and tender verse."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q124741715
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.47)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1756", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/183; 1170–1223 AH)" }
+died: { edtf: "1808", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/183; 1170–1223 AH)" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (يمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,21 @@
+id: person/abu-muslim-al-nakhai
+class: person
+label: { ar: "أبو مسلم النخعي", en: "Abu Muslim al-Nakha'i" }
+summary:
+  ar: "صاحب خبر الرؤوس الأربعة في موضع واحد بدار إمارة الكوفة: رأس الحسين بين يدي ابن زياد، ثم رأس ابن زياد بين يدي المختار، ثم رأس المختار بين يدي مصعب، ثم رأس مصعب بين يدي عبد الملك، فوثب عبد الملك وأمر بهدم الطاق الذي على المجلس {cite:muruj-al-dhahab p. 101-102}."
+  en: "Narrator of the four-heads report — Husayn's, Ibn Ziyad's, al-Mukhtar's and Mus'ab's on one spot in Kufa's emir-house, after which Abd al-Malik ordered the vault pulled down {cite:muruj-al-dhahab p. 101-102}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "Narrator of the four-heads report set in Kufa's emir-house; the Nakha'i nisba is Kufan.", sources: [source/muruj-al-dhahab], confidence: medium }

@@ -1,0 +1,20 @@
+id: place/kyrgyzstan
+class: place
+kind: region
+label: { ar: "قيرغيزستان", en: "Kyrgyzstan" }
+summary:
+  ar: "جمهورية جبلية في وسط آسيا."
+  en: "Mountainous Central Asian republic."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [41.5, 74.5]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q813" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

@@ -1,0 +1,29 @@
+id: person/ibn-harbuwayh
+class: person
+label:
+  ar: "ابن حربويه"
+  en: "Ibn Harbuwayh"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لابن حربويه؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibn Harbuwayh; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "862", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q108763982
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,21 @@
+id: person/abu-al-husayn-al-khayyat
+class: person
+label: { ar: "أبو الحسين الخياط", en: "Abu Al Husayn Al Khayyat" }
+summary:
+  ar: "أبو الحسين الخياط المعتزلي الذي نقض على ابن الراوندي كتبه: كتاب الاحتجاج على الرسل وكتاب نعت الحكمة وكتاب الطعن على نظم القرآن وكتاب القضيب الذهب وكتاب الفرند {cite:fihrist-ibn-al-nadim p. 529}."
+  en: "Abu al-Husayn al-Khayyat — the Mu'tazili who refuted Ibn al-Rawandi's books {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch19
+born: { edtf: "835~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed.; al-Zirikli, al-A'lam" }
+died: { edtf: "913~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam 2nd Ed.; al-Zirikli, al-A'lam" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Mu'tazili who refuted Ibn al-Rawandi's books; both belonged to the Baghdad kalam milieu. Association inferred, flagged for review.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

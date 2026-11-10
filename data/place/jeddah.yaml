@@ -9,6 +9,23 @@ wings: [place]
 regions: [arabia]
 coordinates: [21.4901, 39.1862]
 coordinate_precision: site
-external_ids: { geonames: "105343" }
+provenance:
+  layer: own-research
+  source: "Recorded against source/geonames-gazetteer; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+external_ids: { wikidata: "Q374365", geonames: "105343" }
 sources: [source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+
+founded:
+  edtf: "0646"
+  precision: year
+  status: historical
+  sources: [source/britannica-jeddah-saudi-arabia]
+  note: "Caliph Uthman made Jeddah the port for pilgrims crossing the Red Sea in 646 (Britannica, Jeddah article)."
+kids:
+  ar: "جدة باب الحجاز على البحر الأحمر وميناء الحجاج القادمين بحراً."
+  en: "Jeddah, the gateway of the Hijaz on the Red Sea — the port where pilgrims land by sea."
+  ur: "جدہ بحیرہ احمر پر حجاز کا دروازہ — بحری راستے سے آنے والے حجاجوں کا بندرگاہ۔"

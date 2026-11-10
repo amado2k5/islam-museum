@@ -1,0 +1,23 @@
+id: event/third-anglo-mysore-war
+class: event
+kind: war
+label: { ar: "الحرب الأنغلو-ميسورية الثالثة", en: "Third Anglo-Mysore War" }
+summary:
+  ar: "بطاقة أولية للحرب الأنغلو-ميسورية الثالثة من ١٧٩٠ إلى ١٧٩٢م، الحرب التي نزعت نصف مملكة تيبو سلطان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Third Anglo-Mysore War of 1790–1792, the war that stripped Tipu Sultan of half his kingdom; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1790", precision: year, status: tradition, derived: true }
+  end: { edtf: "1792", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q617350
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Indian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

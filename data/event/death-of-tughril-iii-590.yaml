@@ -1,0 +1,24 @@
+id: event/death-of-tughril-iii-590
+class: event
+kind: battle
+label: { ar: "قتل السلطان طغرل الثالث آخر سلاطين السلاجقة بالعراق", en: "Killing of Sultan Tughril III, last Seljuk sultan in Iraq" }
+summary:
+  ar: "في سنة تسعين وخمسمائة قصد السلطان طغرل بن أرسلان بن طغرل السلجوقي بلد الري فأغار على من بها من أصحاب خوارزم شاه علاء الدين تكش، فسار خوارزم شاه من نيسابور إلى الري فتلقاه قتلغ اينانج بن البهلوان بالطاعة، فلما سمع طغرل بوصوله وعساكره متفرقة لم يقف ليجمعها فقيل له إن الذي تفعله ليس برأي والمصلحة أن تجمع العساكر فلم يقبل وكان فيه شجاعة، فالتقى العسكران قريباً من الري فحمل طغرل بنفسه في وسط عسكر خوارزم شاه فأحاطوا به وألقوه عن فرسه وقتلوه في الرابع والعشرين من ربيع الأول، وحمل رأسه إلى خوارزم شاه فسيره إلى بغداد فنصب بها بباب النوبي عدة أيام، وسار خوارزم شاه إلى همذان فملك تلك البلاد جميعها، وسير الخليفة الناصر لدين الله عسكراً لنجدته ومعه الخلع السلطانية مع وزيره مؤيد الدين بن القصاب فدس رسولاً يستدعيه إلى خيمته ليقبض عليه فاحترس خوارزم شاه ودخل إليه قصداً لأخذه فاندفع الوزير هارباً إلى بضع الجبال {cite:kamil-ibn-al-athir p. 232-233}."
+  en: "In the year 590 Sultan Tughril ibn Arslan ibn Tughril al-Saljuqi marched on the city of Rayy and raided those there who belonged to Khwarazm-Shah Ala al-Din Tekish. Khwarazm-Shah set out from Nishapur for Rayy, and Qutlugh Inanj ibn al-Bahlawan met him in submission. When Tughril heard of his approach, with his troops scattered, he did not wait to gather them. He was told that what he was doing was not sound judgement and that the right course was to assemble the armies, but he would not accept this, for he had courage. The two armies met near Rayy, and Tughril charged in person into the middle of Khwarazm-Shah's army; they surrounded him, threw him from his horse, and killed him on the 24th of Rabi' I. His head was sent to Khwarazm-Shah, who had it forwarded to Baghdad, where it was displayed for several days at Bab al-Nawbi. Khwarazm-Shah marched on Hamadhan and took all those lands. The caliph al-Nasir li-Din Allah had sent an army to his aid, with the sultanic robes, under his vizier Muayyad al-Din ibn al-Qassab. The vizier sent a messenger to summon Khwarazm-Shah to his tent in order to seize him, but Khwarazm-Shah was wary and went to him intending to seize him instead, and the vizier fled into the mountain fastnesses {cite:kamil-ibn-al-athir p. 232-233}."
+wings: [time]
+themes: [battles]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+date:
+  start: { edtf: "1194-03~", hijri: "0590-03-24", calendar: julian, precision: day, status: tradition, derived: true, note: "24 ربيع الأول 590؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 233}." }
+relations:
+  - { type: had_participant, target: person/tughril-iii, role: "السلطان المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ala-al-din-tekish, role: "خوارزم شاه الغالب", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "الخليفة الذي سير الخلع السلطانية", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 590، ص 232–233"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

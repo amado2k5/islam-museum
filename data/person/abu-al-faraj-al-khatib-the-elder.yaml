@@ -1,0 +1,28 @@
+id: person/abu-al-faraj-al-khatib-the-elder
+class: person
+label:
+  ar: "أبو الفرج الخطيب ⁦(الجد)⁩"
+  en: "Abu al-Faraj al-Khatib the Elder"
+roles: [scholar]
+gender: male
+summary:
+  ar: "محمد أبو الفرج الخطيب الدمشقي، مفسر من كبار الشافعية في عصره ⁦(١٢٤٤–١٣١١هـ)⁩، صاحب «التنزيل وأسرار التأويل»."
+  en: "Muhammad Abu al-Faraj al-Khatib of Damascus, leading Shafi'i exegete (1244–1311/1828–1913), author of al-Tanzil wa-Asrar al-Ta'wil."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q105324626
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Asakir (Tarikh Dimashq)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

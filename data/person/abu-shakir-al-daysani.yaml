@@ -1,0 +1,21 @@
+id: person/abu-shakir-al-daysani
+class: person
+label: { ar: "أبو شاكر الديصاني", en: "Abu Shakir Al Daysani" }
+summary:
+  ar: "أبو شاكر من رؤساء المنانية المتكلمين الذين يظهرون الإسلام ويبطنون الزندقة عند ابن النديم، وكان يدعي معرفة الحديث، وله وللزنادقة كتب مصنفة في نصرة الاثنين ومذاهب أهلها نقضها المتكلمون {cite:fihrist-ibn-al-nadim p. 473}."
+  en: "Abu Shakir al-Daysani — crypto-Manichee theologian in Ibn al-Nadim's list {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch20
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Milal wa-l-Nihal" }
+died: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Milal wa-l-Nihal" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Crypto-Manichee theologian in Ibn al-Nadim's list; the Baghdad kalam milieu inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

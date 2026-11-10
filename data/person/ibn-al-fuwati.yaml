@@ -1,0 +1,32 @@
+id: person/ibn-al-fuwati
+class: person
+label:
+  ar: "ابن الفوطي"
+  en: "Ibn al-Fuwati"
+roles: [historian]
+gender: male
+summary:
+  ar: "عبد الرزاق «ابن الفوطي»، مؤرخ بغدادي فيلسوف النزعة تلميذ الطوسي صاحب «مجمع الآداب» و«الحوادث الجامعة»؛ توفي سنة 723هـ ⁦(1323م)⁩."
+  en: "Abd al-Razzaq “Ibn al-Fuwati” (1244–1323), Baghdadi historian, pupil of al-Tusi, author of Majma' al-Adab and al-Hawadith al-Jami'a."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1244", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "1323", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q5984303
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.349)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,38 @@
+id: person/al-ansari-al-harawi-abd-allah
+class: person
+label: { ar: "الأنصاري الهروي عبد الله بن محمد", en: "Al-Ansari al-Harawi, Abd Allah ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن محمد بن علي الأنصاري الهروي" }
+gender: male
+roles: [muhaddith, historian, mystic]
+traditions: [sunni]
+born: { edtf: "1005", hijri: "0396", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+died: { edtf: "1088", hijri: "0481", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حافظ ومؤرخ ومحدث وصوفي ومفسر من هراة، حنبلي المذهب، ينتسب إلى أبي أيوب الأنصاري."
+  en: "A memorizer, historian, hadith scholar, Sufi and Qur'an commentator from Herat, a Hanbali who traced his lineage to Abu Ayyub al-Ansari."
+wings: [people]
+themes: [spirituality-and-sufism, scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q558205" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص649"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,37 @@
+id: person/abida-parvin
+class: person
+label: { ar: "عابدة پروين", en: "Abida Parveen", ur: "عابدہ پروین" }
+names:
+  - { value: "عابدہ پروین", kind: full }
+  - { value: "Abida Parveen", kind: full }
+  - { value: "عابدة بروين", kind: alternate }
+  - { value: "Queen of Sufi music", kind: laqab }
+gender: female
+summary:
+  ar: "مغنية وملحنة باكستانية من السند ⁦(وُلدت 1954)⁩، تُلقّب بملكة الموسيقى الصوفية، تغني الكافي والغزل والقوالي بالأردية والسندية والبنجابية والعربية والفارسية من شعر بلھے شاہ وشاه عبد اللطيف وأمير خسرو، انطلقت في إذاعة باكستان في 1973، ونالت أرفع أوسمة باكستان المدنية، نشان امتياز (2021)."
+  en: "Pakistani singer and composer from Sindh (born 1954), called the queen of Sufi music, who sings kafi, ghazal and qawwali in Urdu, Sindhi, Punjabi, Arabic and Persian to the verse of Bulleh Shah, Shah Abdul Latif and Amir Khusrau; she broke through on Radio Pakistan in 1973 and received Pakistan's highest civil award, the Nishan-e-Imtiaz, in 2021."
+  ur: "سندھ کی پاکستانی گلوکارہ اور موسیقار ⁦(پیدائش 1954ء)⁩، جنھیں صوفی موسیقی کی ملکہ کہا جاتا ہے، جو بلھے شاہ، شاہ عبد اللطیف اور امیر خسرو کے کلام پر اردو، سندھی، پنجابی، عربی اور فارسی میں کافی، غزل اور قوالی گاتی ہیں؛ 1973ء میں ریڈیو پاکستان سے شہرت پائی اور 2021ء میں پاکستان کا اعلیٰ ترین سول اعزاز نشانِ امتیاز ملا۔"
+wings: [people, living]
+regions: [south-asia]
+roles: [sufi-singer, singer, composer]
+born: { edtf: "1954-02-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Ali Goharabad, Larkana, Sindh (English article; Wikidata gives the same day). No place entity for Larkana exists.", sources: [source/wikipedia-abida-parvin-en, source/wikidata-abida-parvin] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "The English article states that she declines film offers \"on account of her Sufi faith and the commitments that it requires\" (citing the Deccan Herald, 8 November 2010), that she was raised in a Sindhi Sufi family, and that she took bay'a as a disciple of Najeeb Sultan (that last sentence uncited). Recorded as Sufi with that basis; no madhhab is named. Under docs/scope.md, Sufism within the Sunni frame is the default reading; no other affiliation is stated."
+    sources: [source/wikipedia-abida-parvin-en, source/wikidata-abida-parvin]
+footprint:
+  wikipedia: { languages: [ast, as, az, bh, bn, cy, de, en, eo, es, fa, fr, ha, hi, id, it, ks, ml, mr, nl, or, pa, pnb, sat, sd, skr, sw, ta, te, ur, zh], checked: "2026-11-06", sources: [source/wikidata-abida-parvin] }
+  wikidata: "Q2537790"
+themes: [music, spirituality-and-sufism, women]
+honours:
+  - { award: award/sitara-e-imtiaz, result: won, year: 2005, note: "by President Pervez Musharraf", sources: [source/wikipedia-abida-parvin-en] }
+  - { award: award/hilal-e-imtiaz, result: won, year: 2012, note: "by President Asif Ali Zardari", sources: [source/wikipedia-abida-parvin-en] }
+  - { award: award/nishan-e-imtiaz, result: won, year: 2021, note: "by President Arif Alvi, 23 March 2021", sources: [source/wikipedia-abida-parvin-en] }
+  - { award: award/pride-of-performance, result: won, year: 1984, note: "by the President of Pakistan", sources: [source/wikipedia-abida-parvin-en] }
+external_ids: { wikidata: "Q2537790" }
+sources: [source/wikipedia-abida-parvin-en, source/wikidata-abida-parvin]
+provenance: { layer: own-research, source: "English Wikipedia 'Abida Parveen' (revision 1368221575, 7 August 2026) and Wikidata Q2537790 (revision 2564832412), read in Chrome on 6 November 2026. Rebuilt on 6 November 2026 from a culture-lane draft (Devin, 16 October 2026) that cited only the generic Wikidata source; same id, facts now taken from the recorded revisions below.", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b06 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abida-parvin-en, source/wikidata-abida-parvin], confidence: low }

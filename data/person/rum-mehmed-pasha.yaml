@@ -1,0 +1,34 @@
+id: person/rum-mehmed-pasha
+class: person
+label:
+  ar: "روم محمد باشا"
+  en: "Rum Mehmed Pasha"
+gender: male
+roles: [grand-vizier]
+summary:
+  ar: "روم محمد باشا، من وزراء محمد الفاتح؛ ينقل الصلابي أنه لما ضُمت إمارة القرمان إلى الدولة وأُمر بنقل العمال والصناع إلى القسطنطينية، ظلم روم محمد باشا الناس، ومن بينهم بعض العلماء وأهل الفضل مثل العالم أحمد جلبي بن السلطان أمير علي، فلما علم الفاتح بأمره اعتذر إليه وأعاده إلى وطنه مع رفقائه معززاً مكرماً {cite:dawlat-uthmaniyya-salabi p. 139}."
+  en: "Rum Mehmed Pasha, a vizier of Mehmed II; al-Salabi records that when the Karamanid emirate was annexed and its craftsmen ordered transferred to Constantinople, Rum Mehmed wronged the deportees — among them scholars such as Ahmad Çelebi ibn Amir Ali — and when the sultan learned of it he apologised to the scholar and returned him and his companions home in honour {cite:dawlat-uthmaniyya-salabi p. 139}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q970249
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch112
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "The SADRAZAM entry names him among the devshirme-origin grand viziers (Mahmud, Rum Mehmed, Ishak and Gedik Ahmed) whom Mehmed II appointed before Karamani Mehmed Pasha."
+    sources: [source/tdv-sadrazam]
+died: { edtf: "1474", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: lived_in, target: place/constantinople, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }

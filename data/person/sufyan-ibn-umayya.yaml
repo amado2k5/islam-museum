@@ -1,0 +1,18 @@
+id: person/sufyan-ibn-umayya
+class: person
+label: { ar: "سفيان بن أمية بن عبد شمس", en: "Sufyan ibn Umayya ibn Abd Shams" }
+summary:
+  ar: "من كتبة قريش تعلم الهجاء ثم الخط من بشر بن عبد الملك بمكة."
+  en: "a Qurashi who learned his letters then the script from Bishr ibn Abd al-Malik at Mecca."
+periods: [period/prophetic-era]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nasab Quraysh" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nasab Quraysh" }
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

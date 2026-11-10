@@ -1,0 +1,47 @@
+id: person/abdel-daim-kaheel
+class: person
+label:
+  ar: "عبد الدائم الكحيل"
+  en: "Abdel Daim Kaheel"
+  ur: "عبد الدائم کحیل"
+names:
+  - { value: "عبد الدائم صالح الكحيل", kind: full }
+  - { value: "Abdel Daim Saleh Kaheel", kind: full }
+gender: male
+summary:
+  ar: "مهندس ميكانيك وباحث سوري في الإعجاز العلمي في القرآن والسنة. هو مؤسس «موسوعة الإعجاز العلمي» على الإنترنت (kaheel7.net) وقنواتها ومؤلف موادها، وعضو الهيئة العالمية للإعجاز العلمي في القرآن والسنة، وله أكثر من أربعين كتابا منها «إشراقات الرقم سبعة في القرآن الكريم»."
+  en: "Syrian mechanical engineer and researcher in the scientific miracles (i'jaz) of the Qur'an and Sunnah. He is the founder and author of the online Encyclopedia of Scientific Miracles (kaheel7.net) and its channels, a member of the World Commission on Scientific Miracles in the Qur'an and Sunnah, and the author of more than forty books, among them 'Ishraqat al-Raqm Sab'a' (Radiances of the Number Seven in the Holy Qur'an)."
+  ur: "شامی مکینیکل انجینئر اور قرآن و سنت کے علمی اعجاز کے محقق۔ وہ آن لائن «موسوعہِ اعجازِ علمی» (kaheel7.net) اور اس کے چینلز کے بانی اور مصنف ہیں، عالمی ہیئت برائے علمی اعجاز کے رکن ہیں، اور ان کی چالیس سے زائد کتابیں ہیں جن میں «اشراقات الرقم سبعہ فی القرآن الکریم» شامل ہے۔"
+roles: [engineer, writer]
+wings: [people, living]
+regions: [levant-iraq]
+born:
+  edtf: "1966-05-10"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Wikidata gives 10 May 1966, and the Arabic article's infobox flags his birthplace Homs with the year 1966 while its categories file him under births of 1966; the same article's lead, however, gives his birth as 10 May 1968. Day and month agree in both readings; the year is recorded as 1966 on the weight of Wikidata and the article's own apparatus, and the date is marked debated. The Hijri year is a conversion of the 1966 date; the article also files him under births of 1385 AH, which matches neither Gregorian year."
+  sources: [source/wikidata-abdel-daim-kaheel, source/wikipedia-abdel-daim-kaheel-ar]
+relations:
+  - { type: born_in, target: place/homs, sources: [source/wikipedia-abdel-daim-kaheel-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives his religion as Islam and its school field as 'Ahl al-Sunna wa'l-Jama'a' — a single infobox in a single source. The Urdu article, a translation of the Arabic, gives Islam only, and Wikidata records no religion value for him. No second independent source names a school for him, so nothing is recorded."
+    sources: [source/wikipedia-abdel-daim-kaheel-ar, source/wikipedia-abdel-daim-kaheel-ur, source/wikidata-abdel-daim-kaheel]
+external_ids:
+  wikidata: "Q12222645"
+sources:
+  - source/wikipedia-abdel-daim-kaheel-ar
+  - source/wikipedia-abdel-daim-kaheel-ur
+  - source/wikidata-abdel-daim-kaheel
+  - source/kaheel7-encyclopedia-about
+  - source/youtube-abdel-daim-kaheel
+provenance:
+  layer: own-research
+  source: "§3 harvest row 50 names the project 'Scientific Miracles Encyclopedia' (موسوعة الإعجاز العلمي). Documented chain: the project's own About page (kaheel7.net) is titled 'About the site — Kaheel's Encyclopedia of Scientific Miracles', presents the site as 'the Encyclopedia of Scientific Miracles by Engineer Abdel Daim Kaheel', is signed by him, and names its YouTube channel (youtube.com/@kaheel777) as 'the Scientific Miracles channel'; he is therefore recorded as the project's founder and author. Biography from Arabic Wikipedia at revision 74177820 (6 April 2026), its Urdu translation at revision 9614500 (26 March 2026) and Wikidata item Q12222645 (item revision 2472401675), all read on 26 October 2026. Recorded ambiguity: Muhammad Rateb Al-Nabulsi's official biography also lists a website section named 'Encyclopedia of Scientific Miracles' among his own sites; the row resolves to Kaheel's project, whose own page uses the name for his encyclopedia and channel."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

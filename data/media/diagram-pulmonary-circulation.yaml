@@ -1,0 +1,34 @@
+id: media/diagram-pulmonary-circulation
+class: media
+kind: illustration
+label:
+  ar: "رسم: طريق الدم بين جانبي القلب عند جالينوس وعند ابن النفيس"
+  en: "Diagram: the blood's path between the two sides of the heart, after Galen and after Ibn al-Nafis"
+  ur: "خاکہ: دل کے دونوں حصوں کے درمیان خون کا راستہ، جالینوس اور ابن النفیس کے مطابق"
+summary:
+  ar: "رسم تخطيطي بسيط يرسمه الموقع وقت البناء: في الجانب الأول يعبر الدم الحاجز بين البطينين من مسامّ غير مرئية كما قال جالينوس، وفي الجانب الثاني يذهب من البطين الأيمن إلى الرئة ثم يعود إلى البطين الأيسر كما وصف ابن النفيس."
+  en: "A simple schematic drawn by the site at build time. One side shows blood crossing the wall between the ventricles through invisible pores, as Galen taught; the other shows it going from the right ventricle to the lungs and back to the left ventricle, as Ibn al-Nafis described."
+  ur: "سائٹ کی تعمیر کے وقت بننے والا ایک سادہ خاکہ۔ ایک طرف خون جالینوس کے قول کے مطابق نظر نہ آنے والے مساموں سے دونوں بطینوں کی درمیانی دیوار پار کرتا ہے، دوسری طرف ابن النفیس کے بیان کے مطابق دائیں بطین سے پھیپھڑوں میں جا کر بائیں بطین میں لوٹتا ہے۔"
+license: CC0
+creator: "islam.museum"
+depicts:
+- invention/pulmonary-circulation
+alt:
+  ar: "رسمان متجاوران للقلب. في الأيمن: سهم يعبر الحاجز بين البطينين مباشرة، مكتوب عليه: جالينوس، مسامّ غير مرئية. في الأيسر: سهم يخرج من البطين الأيمن إلى الرئتين ويعود إلى البطين الأيسر، مكتوب عليه: ابن النفيس، عبر الرئة؛ والحاجز مصمت"
+  en: "Two hearts side by side. Left: an arrow passes straight through the wall between the ventricles, labelled Galen, invisible pores. Right: an arrow leaves the right ventricle, goes to the lungs and returns to the left ventricle, labelled Ibn al-Nafis, through the lungs; the wall is solid"
+  ur: "دو دل ساتھ ساتھ۔ ایک میں تیر دونوں بطینوں کی درمیانی دیوار سے سیدھا گزرتا ہے، جس پر لکھا ہے: جالینوس، نظر نہ آنے والے مسام۔ دوسرے میں تیر دائیں بطین سے نکل کر پھیپھڑوں میں جاتا اور بائیں بطین میں لوٹتا ہے، جس پر لکھا ہے: ابن النفیس، پھیپھڑوں کے راستے؛ دیوار ٹھوس ہے"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (inline SVG drawn at build time)"
+  version: "1"
+  date: "2026-11-05"
+sources:
+- source/west-2008-ibn-al-nafis
+status:
+  review: published
+  completeness: 2
+  generated_by: "Copilot SDK in VS Code"
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b01"
+  source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2612469/"

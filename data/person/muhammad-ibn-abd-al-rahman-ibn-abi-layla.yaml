@@ -1,0 +1,40 @@
+id: person/muhammad-ibn-abd-al-rahman-ibn-abi-layla
+class: person
+label: { ar: "محمد بن عبد الرحمن بن أبي ليلى", en: "Muhammad ibn Abd al-Rahman ibn Abi Layla" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الرحمن محمد بن عبد الرحمن بن أبي ليلى الأنصاري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+summary:
+  ar: "محمد بن عبد الرحمن بن أبي ليلى، قاضي الكوفة؛ ولد سنة أربع وسبعين وتوفي سنة ثمان وأربعين ومائة، وهو ابن اثنتين وسبعين سنة {cite:tabaqat-fuqaha-abbas-1981 p. 45}. تفقه بالشعبي والحكم بن عتيبة، وأخذ عنه سفيان الثوري والحسن بن صالح بن حي {cite:tabaqat-fuqaha-abbas-1981 p. 45}. قال سفيان الثوري: فقهاؤنا ابن أبي ليلى وابن شبرمة {cite:tabaqat-fuqaha-abbas-1981 p. 45}."
+wings: [people]
+periods: [period/umayyad]
+born: { hijri: "0074", edtf: "0693~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد سنة أربع وسبعين (PDF ص45).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0148", edtf: "0765~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ثمان وأربعين ومائة. يذكر الكتاب أنه ابن اثنتين وسبعين سنة، وهذا لا يتفق مع سنتي الميلاد والوفاة المذكورتين (74 إلى 148)؛ مصدر ثان مطلوب (PDF ص45).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/al-shaabi, role: "تفقه بالشعبي (PDF ص45)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-hakam-ibn-utayba, role: "تفقه بالحكم بن عتيبة (PDF ص45)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+  - { type: died_in, target: place/dujail, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q988430)" }
+external_ids: { wikidata: "Q28715060" }
+sensitivity: contested
+sources: [source/tabaqat-fuqaha-abbas-1981, source/kitab-al-umm-wafa-v8, source/mizan-itidal-bijawi-v3]
+provenance:
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 613–616 (entry 7825)"
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص45"
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: section from kitab-al-umm-wafa-v8 pp. 217-218"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

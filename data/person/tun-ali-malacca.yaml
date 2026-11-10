@@ -1,0 +1,34 @@
+id: person/tun-ali-malacca
+class: person
+label:
+  ar: "تون علي"
+  en: "Tun Ali of Malacca"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لتون علي، البنداهار الرابع لسلطنة ملقة؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Tun Ali, the fourth bendahara (chief minister) of the Malacca Sultanate; the source entry is not yet checked on the page."
+wings: [people]
+regions: [southeast-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3524192
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0055
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1456", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Melayu" }
+relations:
+  - { type: lived_in, target: place/malacca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

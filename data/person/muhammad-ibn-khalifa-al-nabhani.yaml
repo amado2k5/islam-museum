@@ -1,0 +1,31 @@
+id: person/muhammad-ibn-khalifa-al-nabhani
+class: person
+label:
+  ar: "محمد بن خليفة النبهاني"
+  en: "Muhammad ibn Khalifa al-Nabhani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن خليفة النبهاني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Khalifa al-Nabhani; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/modern-era]
+born: { edtf: "1883", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+  - { type: lived_in, target: place/india, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q668)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q120869794
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

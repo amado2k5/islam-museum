@@ -1,0 +1,26 @@
+id: person/abu-mahmud-khujandi
+class: person
+label:
+  en: Abu Mahmud al-Khujandi
+  ar: أبو محمود الخجندي
+roles:
+- astronomer
+- mathematician
+summary:
+  en: Astronomer and mathematician from Khujand in Transoxiana, of the fourth century AH.
+  ar: عالم فلك ورياضيات من خجند في بلاد ما وراء النهر، من علماء القرن الرابع الهجري.
+wings: [people]
+external_ids:
+  wikidata: Q335123
+sources:
+- source/sezgin-gas-v-mathematik
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
+born: { edtf: "940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Biruni; Encyclopaedia of Islam 2nd Ed." }
+died: { edtf: "1000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Biruni; Encyclopaedia of Islam 2nd Ed." }
+relations:
+  - { type: born_in, target: place/khujand, note: "Wikidata Q373808 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/buyid-dynasty, note: "Wikidata Q273874 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/samanid-empire, note: "Wikidata Q12150341 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

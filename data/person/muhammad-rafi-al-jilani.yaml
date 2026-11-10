@@ -1,0 +1,34 @@
+id: person/muhammad-rafi-al-jilani
+class: person
+label:
+  ar: "محمد رفيع الجيلاني"
+  en: "Muhammad Rafi al-Jilani"
+roles: [muhaddith, poet, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد رفيع الجيلاني، محدث وأديب وشاعر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Rafi al-Jilani, a muhaddith, literary scholar and poet; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12240510
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0078
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
+relations:
+  - { type: lived_in, target: place/gilan, confidence: low, note: "Association inferred from the nisba 'الجيلاني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

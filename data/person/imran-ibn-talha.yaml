@@ -1,0 +1,28 @@
+id: person/imran-ibn-talha
+class: person
+label:
+  ar: "عمران بن طلحة"
+  en: "Imran ibn Talha"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمران بن طلحة؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Imran ibn Talha; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12228500
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch64
+status:
+  review: published
+  completeness: 3

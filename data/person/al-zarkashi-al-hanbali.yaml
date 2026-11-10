@@ -1,0 +1,31 @@
+id: person/al-zarkashi-al-hanbali
+class: person
+label:
+  ar: "شمس الدين الزركشي"
+  en: "al-Zarkashi al-Hanbali"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشمس الدين الزركشي الحنبلي، فقيه القرن الرابع عشر، توفي سنة ١٣٧٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shams al-Din al-Zarkashi al-Hanbali, the fourteenth-century jurist, d. 1370; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q107344361
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0064
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+died: { edtf: "1371", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+relations:
+  - { type: born_in, target: place/mamluk-egypt, note: "Wikidata Q3973997 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/cairo, note: "Wikidata Q85 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/city-of-the-dead, note: "Wikidata Q2066414 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }

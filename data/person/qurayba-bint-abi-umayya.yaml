@@ -1,0 +1,30 @@
+id: person/qurayba-bint-abi-umayya
+class: person
+label:
+  ar: "قريبة الصغرى بنت أبي أمية"
+  en: "Qurayba al-Sughra bint Abi Umayya"
+roles: [companion]
+gender: female
+summary:
+  ar: "بطاقة أولية لقريبة الصغرى بنت أبي أمية بن المغيرة المخزومية، صحابية القرن السابع؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Qurayba al-Sughra bint Abi Umayya ibn al-Mughira al-Makhzumiyya, the seventh-century Companion; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+relations:
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}
+ - { type: born_in, target: place/hijaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q169977)" }
+external_ids:
+  wikidata: Q24952486
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0041
+status:
+  review: draft
+  completeness: 3

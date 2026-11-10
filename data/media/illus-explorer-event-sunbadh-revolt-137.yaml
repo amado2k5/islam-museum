@@ -1,0 +1,48 @@
+id: media/illus-explorer-event-sunbadh-revolt-137
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: حركة سنباذ المجوسي"
+  en: "Time Browser backdrop: The Revolt of Sunbadh the Magian"
+  ur: "ٹائم براؤزر کا پس منظر: مجوسی سنباذ کی بغاوت"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Rayy, with earth-toned historic-style buildings, courtyards and dry surrounding terrain. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ للريّ، بمبانٍ تاريخية الطراز بلون التراب وأفنية وأرض جافة؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: رے کا لوگوں سے خالی تمثیلی منظر، مٹیالے رنگ کی تاریخی طرز کی عمارتوں، صحنوں اور خشک آس پاس کے علاقے کے ساتھ؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/sunbadh-revolt-137
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: 335eaca33928ae7657b9c116d4aa8191e6e5bcef5c0cb3736d25cd461c7603d6
+  inputs_hash: 31028617b247f3f49202a0471b837f9563512923ddfd4e23cf3c833b51730bca
+  adult_prompt_sha256: 9c151ed2dd85182a4738d7b99d426f94f60b68b9f5ecd26b82a2f6349241236e
+  kids_prompt_sha256: 369c4e091808ccdf228546bd4d8e533f7ff956feacc101735e1c2dd9e4f7901c
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-sunbadh-revolt-137.webp
+  kids: media/time-browser/explorer/event-sunbadh-revolt-137-kids.webp
+sources:
+  - source/tarikh-dawla-abbasiyya-taqqush
+provenance:
+  source: event/sunbadh-revolt-137; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; prompts and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; images generated locally with SDXL

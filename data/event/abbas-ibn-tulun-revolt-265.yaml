@@ -1,0 +1,28 @@
+id: event/abbas-ibn-tulun-revolt-265
+class: event
+kind: revolt
+label:
+  ar: "عصيان العباس بن أحمد بن طولون وفراره إلى برقة، ٢٦٥هـ/٨٧٩م"
+  en: "Al-Abbas ibn Ahmad ibn Tulun's revolt and flight to Barqa, 265/879"
+  ur: "عباس بن احمد بن طولون کی بغاوت اور برقہ کی طرف فرار، 265ھ/879ء"
+summary:
+  ar: "لما خرج ابن طولون لفتح الشام استخلف على مصر ابنه البكر العباس، فأُغري باغتنام غيبة أبيه فأفرغ الخزانة وجمع أموالاً عظيمة ومضى بأنصاره إلى الإسكندرية ثم إلى برقة. وفي ٤ رمضان ٢٦٥هـ/٣٠ نيسان ٨٧٩م كتب إليه أبوه يعِده بالعفو ويدعوه إلى الرشاد — نصّ الكتاب محفوظ عند القلقشندي — فأبى، وادّعى أن المعتمد ولّاه إفريقية وزحف بثمانمائة فارس وعشرة آلاف راجل سوداني، فنهب لبدة وحاصر طرابلس حتى هزمه إلياس بن منصور النفوسي بمدد إبراهيم الثاني في وسط ٢٦٧هـ/شتاء ٨٨٠-٨٨١م، فرد إلى مصر فأُسر في وقعة خارج الإسكندرية وأُدخل الفسطاط راكباً بغلة وجُلد وحُبس {cite:encyclopaedia-of-islam-2 vol. 12 p. 10}."
+  en: "When Ibn Tulun marched on Syria he left Egypt to his eldest son and designated heir al-Abbas, who was soon persuaded to exploit his father's absence: he emptied the treasury, gathered great sums and went off with his partisans to Alexandria, then Barqa. On 4 Ramadan 265/30 April 879 his father wrote him a letter — preserved by al-Qalqashandi — promising pardon, but the rebel refused, claimed al-Mu'tamid had named him governor of Ifriqiya, and invaded it with 800 cavalry and 10,000 black infantry; he sacked Labda, besieged Tripoli, and was routed by Ilyas ibn Mansur al-Nafusi with Ibrahim II's reinforcements in mid-267/winter 880-881. Driven back to Egypt, he was captured in battle outside Alexandria, paraded into Fustat on a mule, flogged and imprisoned {cite:encyclopaedia-of-islam-2 vol. 12 p. 10}."
+  ur: "جب ابن طولون شام کی فتح کے لیے نکلا تو اس نے مصر اپنے بڑے بیٹے اور نامزد جانشین عباس کے سپرد کیا؛ اس نے باپ کی غیر موجودگی کا فائدہ اٹھایا، خزانہ خالی کیا اور اپنے ساتھیوں سمیت اسکندریہ پھر برقہ چلا گیا۔ 4 رمضان 265ھ/30 اپریل 879ء کو باپ نے خط لکھا — جس کا متن قلقشندی نے محفوظ کیا — اور معافی کا وعدہ کیا؛ مگر اس نے انکار کر دیا، دعویٰ کیا کہ معتمد نے اسے افریقیہ کا والی بنایا ہے، اور 800 سواروں و 10,000 سیاہ پیادوں کے ساتھ حملہ کیا؛ اس نے لبدہ لوٹا، طرابلس کا محاصرہ کیا، مگر 267ھ/880-881ء کے وسط میں الیاس بن منصور نفوسی نے ابراہیم دوم کی کمک سے اسے شکست دی۔ مصر لوٹتے ہوئے اسکندریہ کے باہر لڑائی میں گرفتار ہوا، فسطاط میں خچر پر گھمایا گیا، کوڑے مارے اور قید کیا گیا {cite:encyclopaedia-of-islam-2 vol. 12 p. 10}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile, maghreb]
+date:
+  start: { edtf: "0879~", hijri: "0265", calendar: julian, precision: year, status: tradition, derived: true, note: "فراره إلى الإسكندرية فبرقة ثم كتاب أبيه في ٤ رمضان ٢٦٥هـ/٣٠ نيسان ٨٧٩م {cite:encyclopaedia-of-islam-2 vol. 12 p. 10}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/barqa, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-abbas-ibn-ahmad-ibn-tulun, role: "الولي العاصي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الوالد العائد القاهر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. Supplement vol. 12 p. 10 art. AL-ABBAS B. AHMAD B. TULUN (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

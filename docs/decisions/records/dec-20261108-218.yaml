@@ -1,0 +1,74 @@
+id: dec-20261108-218
+kind: override
+date: '2026-11-08'
+question_hash: a1d5f14a7dc8
+lane: web-sources
+class: process
+modality: website
+domain: sources
+mode: conservative
+question: Should the Princeton Geniza Project (geniza.princeton.edu — 4,350+ transcribed Cairo Geniza documents with published metadata) be onboarded
+  as a citable source family for Mediterranean trade, Fustat daily life and the Sicily route, and at what tier?
+options:
+- 'Tier 1 citable family, facts-only: cite {cite:princeton-geniza <document-id>}'
+- Tier 2 citable family, facts-only
+- Tier 3 pointer only
+- Do not register
+evidence:
+- 'Assessment 2026-11-08: authority strong (Princeton University, Princeton Geniza Project); citability excellent (stable document ids, shelfmark-style
+  identifiers, per-document pages); terms: open access per project documentation; Zenodo deposit (2025, v1.0.0) publishes the metadata — machine-harvestable;
+  structure: HTML site plus Zenodo metadata dump; coverage fit unique (Geniza documentary evidence for Fatimid/Mamluk Mediterranean trade and
+  Egypt); corroboration high and complementary to APD (different documentary corpus, overlapping period); script coverage includes Arabic, Judaeo-Arabic
+  and other Geniza languages; longevity strong (university host since 1989). robots.txt allows all except /admin.'
+- 'docs/agents/source-families.md Tier 2: ''4,350+ transcribed Cairo Geniza documents — Mediterranean trade, Fustat daily life, the Sicily route
+  — Open access; metadata published on Zenodo (2025, v1.0.0) — machine-harvestable'''
+status: decided
+step: override
+decision: 'Tier 1 citable family, facts-only: cite {cite:princeton-geniza <document-id>}; Zenodo metadata is the machine channel'
+correct_outcome: geniza-tier1-facts-only
+wrong_outcome: register-tier1-facts-only
+confidence: 1
+reversible: true
+rationale: dec-211 answered a source-onboarding question with rule-source-families, whose pattern 'families? of sources?'/'source famil' matched
+  the phrase 'source family' describing the candidate itself. The rule governs how attestations are COUNTED (one family = one attestation), not
+  whether a family may be registered — same substring false-positive class as dec-189->190 and dec-194..200->201..206. The correct ruling applies
+  the eight onboarding criteria in docs/agents/source-families.md; the assessment's recommended tier and posture is adopted (non-commercial or
+  unclear terms => facts-only permanently; robots or login barriers cap the channel, not necessarily the tier).
+supersedes: dec-20261108-211
+override_reason:
+  category: rule-false-positive
+  detail: rule-source-families matched 'source family/families' inside an onboarding question about registering a family, not an attestation-counting
+    question. Needs question-domain or intent gating — third instance of this false-positive class today.
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: rule-source-families
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-08'
+    by: devin-web-sources
+    note: override committed; family registration follows in the same lane commit
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+  - rule-source-families
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

@@ -1,0 +1,21 @@
+id: place/durban
+class: place
+kind: city
+label: { ar: "ديربان", en: "Durban", ur: "ڈربن" }
+summary:
+  ar: "مدينة في جنوب إفريقيا."
+  en: "City in South Africa."
+wings: [place]
+regions: [global]
+coordinates: [-29.858333333333, 31.025]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5468" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5468 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

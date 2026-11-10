@@ -1,0 +1,76 @@
+id: exhibit/path-year-sorrow
+class: exhibit
+kind: trail
+label:
+  ar: عام الحزن
+  en: The Year of Sorrow
+summary:
+  ar: 'مسار في أصعب سنة للنبي: خديجة وأبو طالب يموتان في أسبوعين، والطائف يطرده بالحجارة — الحزن قبل الهجرة.'
+  en: A trail through the hardest year.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: خديجة
+    en: Khadija
+  body:
+    ar: 'أم المؤمنين تموت: أول مؤمنة وأول زوجة.'
+    en: 'أم المؤمنين تموت: أول مؤمنة وأول زوجة.'
+  features:
+  - event/death-of-khadija
+  - person/khadija
+- title:
+    ar: أبو طالب
+    en: Abu Talib
+  body:
+    ar: 'العم الحامي يموت: مكة تفقد سترها.'
+    en: 'العم الحامي يموت: مكة تفقد سترها.'
+  features:
+  - event/death-of-abu-talib
+  - person/abu-talib
+- title:
+    ar: العام
+    en: The year
+  body:
+    ar: 'عام الحزن 619: المصاب المزدوج.'
+    en: 'عام الحزن 619: المصاب المزدوج.'
+  features:
+  - event/year-of-sorrow
+  - event/death-of-khadija
+- title:
+    ar: الطائف
+    en: Ta'if
+  body:
+    ar: 'الطائف تطرده: ثقيف تقفل أبوابها.'
+    en: 'الطائف تطرده: ثقيف تقفل أبوابها.'
+  features:
+  - place/taif
+  - event/year-of-sorrow
+- title:
+    ar: العقبة
+    en: Aqaba
+  body:
+    ar: 'من الحزن إلى المدينة: نور البيعة.'
+    en: 'من الحزن إلى المدينة: نور البيعة.'
+  features:
+  - event/first-pledge-of-aqaba
+  - place/medina
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

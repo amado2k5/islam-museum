@@ -1,0 +1,27 @@
+id: event/muazzam-qadi-zaki-al-din-616
+class: event
+kind: other
+label: { ar: "إلباس المعظم القاضي زكي الدين القباء والكلوتة سنة 616هـ", en: "Al-Mu'azzam forces the qadi Zaki al-Din to wear the qaba' and kalawta, 616 AH (1219)", ur: "616ھ میں معظم کا قاضی زکی الدین کو قبا اور کلوتہ پہنانا" }
+summary:
+  ar: "في سنة 616هـ أرسل الملك المعظم عيسى إلى قاضي دمشق زكي الدين بقجة فيها قباء وكلوتة، وهما من لباس الأجناد، وأمره أن يحكم بين الناس وهما عليه، فلبسهما وحكم بين اثنين، ثم مرض ومات؛ ويرويه سبط ابن الجوزي، وكان من خواص المعظم، ويعدّه «من غلطات المعظم»، ويذكر أسبابه: شكوى المعظم من أن القاضي لا ينفذ الأحكام، وحضوره دار ست الشام بغير إذنه، وضربه جابي المدرسة العزيزية في مجلس الحكم {cite:mirat-al-zaman-risala-2013-v22 p. 239-240}."
+  en: "In 616 AH al-Malik al-Mu'azzam Isa sent the qadi of Damascus, Zaki al-Din, a bundle containing a qaba' and a kalawta — soldiers' dress — and ordered him to sit in judgement wearing them; he put them on and judged between two litigants, then fell ill and died. Sibt ibn al-Jawzi, one of al-Mu'azzam's intimates, tells it, calls it 'one of al-Mu'azzam's blunders', and gives the causes: al-Mu'azzam's complaint that the qadi did not enforce judgements, his visit to Sitt al-Sham's house without leave, and his having the collector of the Aziziyya madrasa beaten in court {cite:mirat-al-zaman-risala-2013-v22 p. 239-240}."
+wings: [time, ideas]
+themes: [law-and-courts, politics-governance-and-authority, dress]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1219/1220", hijri: "0616", calendar: julian, precision: year, status: historical, derived: true, note: "«وفيها أَلْبَسَ المعظمُ زكيَّ الدِّين القاضي القَبَاء والكلوتة» في حوادث سنة 616هـ (مرآة الزمان 22/239)؛ التحويل الميلادي مشتق.", sources: [source/mirat-al-zaman-risala-2013-v22] }
+relations:
+  - { type: had_participant, target: person/al-malik-al-muazzam, role: "الآمر", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/zaki-al-din-al-tahir-ibn-al-zaki, role: "القاضي", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/sibt-ibn-al-jawzi, role: "الراوي والمعاتب للمعظم", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: had_participant, target: person/ibn-unayn, role: "الشاعر الهاجي", sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: occurred_at, target: place/damascus, sources: [source/mirat-al-zaman-risala-2013-v22] }
+sources: [source/mirat-al-zaman-risala-2013-v22]
+provenance:
+  layer: own-research
+  source: "source/mirat-al-zaman-risala-2013-v22 scan pp. 239-240, 283"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

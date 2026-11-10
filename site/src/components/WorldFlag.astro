@@ -1,0 +1,36 @@
+---
+// Simplified SVG national flags for the /world/ page — stylized, text-free (no shahada/takbir/emblem
+// lettering), drawn by hand under the same licence as the site's code.
+interface Props { iso: string }
+const { iso } = Astro.props as Props;
+const star = (cx: number, cy: number, r: number, n = 5) => {
+  const pts: string[] = [];
+  for (let i = 0; i < n * 2; i++) {
+    const a = -Math.PI / 2 + (i * Math.PI) / n;
+    const rr = i % 2 === 0 ? r : r * 0.42;
+    pts.push(`${(cx + rr * Math.cos(a)).toFixed(1)},${(cy + rr * Math.sin(a)).toFixed(1)}`);
+  }
+  return pts.join(" ");
+};
+---
+<svg viewBox="0 0 60 40" class="flag" aria-hidden="true">
+  {iso === "id" && (<><rect width="60" height="20" fill="#e70011"/><rect y="20" width="60" height="20" fill="#fff"/></>)}
+  {iso === "pk" && (<><rect width="60" height="40" fill="#01411c"/><rect width="14" height="40" fill="#fff"/><circle cx="41" cy="16" r="9" fill="#fff"/><circle cx="44" cy="15" r="7.5" fill="#01411c"/><polygon points={star(44, 9, 3.4)} fill="#fff"/></>)}
+  {iso === "in" && (<><rect width="60" height="13.3" fill="#ff9933"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#138808"/><circle cx="30" cy="20" r="5.2" fill="none" stroke="#000080" stroke-width="1.4"/><circle cx="30" cy="20" r="1" fill="#000080"/></>)}
+  {iso === "bd" && (<><rect width="60" height="40" fill="#006a4e"/><circle cx="27" cy="20" r="10.5" fill="#f42a41"/></>)}
+  {iso === "ng" && (<><rect width="60" height="40" fill="#fff"/><rect width="20" height="40" fill="#008751"/><rect x="40" width="20" height="40" fill="#008751"/></>)}
+  {iso === "eg" && (<><rect width="60" height="13.3" fill="#ce1126"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#000"/><rect x="27.5" y="16" width="5" height="8" rx="1.5" fill="#c09300"/></>)}
+  {iso === "ir" && (<><rect width="60" height="13.3" fill="#239f40"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#da0000"/><circle cx="30" cy="20" r="4.2" fill="#da0000"/><circle cx="30" cy="18.4" r="1.2" fill="#fff"/></>)}
+  {iso === "tr" && (<><rect width="60" height="40" fill="#e30a17"/><circle cx="25" cy="20" r="10" fill="#fff"/><circle cx="27.5" cy="20" r="8" fill="#e30a17"/><polygon points={star(35, 20, 4.5)} fill="#fff"/></>)}
+  {iso === "dz" && (<><rect width="30" height="40" fill="#006233"/><rect x="30" width="30" height="40" fill="#fff"/><circle cx="30" cy="20" r="8.5" fill="#d21034"/><circle cx="32.2" cy="20" r="6.8" fill="#fff"/><polygon points={star(32.6, 20, 3.8)} fill="#d21034"/></>)}
+  {iso === "sd" && (<><rect width="60" height="13.3" fill="#d21034"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#000"/><polygon points="0,0 20,20 0,40" fill="#007229"/></>)}
+  {iso === "ma" && (<><rect width="60" height="40" fill="#c1272d"/><polygon points={star(30, 20, 9)} fill="none" stroke="#006233" stroke-width="1.6"/></>)}
+  {iso === "iq" && (<><rect width="60" height="13.3" fill="#ce1126"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#000"/></>)}
+  {iso === "sa" && (<><rect width="60" height="40" fill="#165d31"/><rect x="12" y="26" width="36" height="3" rx="1.5" fill="#fff"/><rect x="14" y="24" width="4" height="2" rx="1" fill="#fff"/></>)}
+  {iso === "ye" && (<><rect width="60" height="13.3" fill="#ce1126"/><rect y="13.3" width="60" height="13.4" fill="#fff"/><rect y="26.7" width="60" height="13.3" fill="#000"/></>)}
+  {iso === "af" && (<><rect width="20" height="40" fill="#000"/><rect x="20" width="20" height="40" fill="#d32011"/><rect x="40" width="20" height="40" fill="#007a36"/></>)}
+  {iso === "my" && (<><rect width="60" height="40" fill="#fff"/>{[0,2,4,6,8,10,12].map(i => <rect y={i*40/14} width="60" height={40/14} fill="#cc0001"/>)}<rect width="28" height="22.9" fill="#010066"/><circle cx="11" cy="11.5" r="6.5" fill="#fc0"/><circle cx="13" cy="11.5" r="5.6" fill="#010066"/><polygon points={star(19.5, 11.5, 4, 14)} fill="#fc0"/></>)}
+  {iso === "uz" && (<><rect width="60" height="12.4" fill="#1eb2e0"/><rect y="14" width="60" height="12" fill="#fff"/><rect y="27.6" width="60" height="12.4" fill="#1eb2e0"/><rect y="12.4" width="60" height="1.6" fill="#d52b1e"/><rect y="26" width="60" height="1.6" fill="#d52b1e"/><circle cx="11" cy="6.2" r="4.6" fill="#fff"/><circle cx="12.7" cy="6.2" r="3.8" fill="#1eb2e0"/><circle cx="19" cy="3" r="1" fill="#fff"/><circle cx="23.5" cy="3" r="1" fill="#fff"/><circle cx="28" cy="3" r="1" fill="#fff"/><circle cx="19" cy="8.5" r="1" fill="#fff"/><circle cx="23.5" cy="8.5" r="1" fill="#fff"/><circle cx="28" cy="8.5" r="1" fill="#fff"/></>)}
+  {iso === "ae" && (<><rect width="15" height="40" fill="#ff0000"/><rect x="15" width="45" height="13.3" fill="#00732f"/><rect x="15" y="13.3" width="45" height="13.4" fill="#fff"/><rect x="15" y="26.7" width="45" height="13.3" fill="#000"/></>)}
+  {iso === "qa" && (<><rect width="60" height="40" fill="#8a1538"/><polygon points="0,0 12,0 20,4.4 12,8.9 20,13.3 12,17.8 20,22.2 12,26.7 20,31.1 12,35.6 20,40 0,40" fill="#fff"/></>)}
+</svg>

@@ -1,0 +1,30 @@
+id: person/rukn-e-alam
+class: person
+label:
+  ar: "ركن عالم ملتان"
+  en: "Rukn-e-Alam"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشيخ ركن الدين أبو الفتح، ولي ملتان السهروردي في القرن الرابع عشر، توفي سنة ١٣٣٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shaykh Rukn al-Din Abu'l-Fath, the fourteenth-century Suhrawardi saint of Multan, d. 1335; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+themes: [spirituality-and-sufism]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q7378885
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0039
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1251", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Rukn-i Alem)" }
+died: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Rukn-i Alem)" }
+relations:
+  - { type: lived_in, target: place/multan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

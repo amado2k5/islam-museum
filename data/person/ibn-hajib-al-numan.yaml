@@ -1,0 +1,23 @@
+id: person/ibn-hajib-al-numan
+class: person
+label: { ar: "ابن حاجب النعمان كاتب الخليفتين", en: "Ibn Hajib al-Nu'man" }
+summary:
+  ar: "علي بن عبد العزيز بن إبراهيم بن بيان أبو الحسن، ولد سنة أربعين وثلاثمائة؛ كتب للطائع ثم للقادر بالله من شوال سنة ٣٨٦ فكتب لخليفتين أربعين سنة، وكان أبوه قد خدم في وزارة أبي عمر المحلّة؛ وكان بليغًا. مات في رجب سنة ٤٢١ ودُفن ببركة زلزل ثم نُقل إلى مقابر قريش سنة ٤٢٥؛ وخلفه ابنه أبو الفضل في الكتابة ثمانية أشهر ثم عُزل لعدم بضاعته {cite:muntazam-ibn-al-jawzi j.8 p.393-394}."
+gender: male
+born: { edtf: "0952~", hijri: "0340", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ٣٤٠ {cite:muntazam-ibn-al-jawzi j.8 p.393}." }
+died: { edtf: "1030-06~", hijri: "0421-07", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في رجب ٤٢١ {cite:muntazam-ibn-al-jawzi j.8 p.393}." }
+wings: [people]
+roles: [writer]
+themes: [arts-of-the-book]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: allied_with, target: person/al-qadir-billah, role: "كاتبه أربعين سنة مع سلفه الطائع", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

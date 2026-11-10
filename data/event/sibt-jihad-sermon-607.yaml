@@ -1,0 +1,24 @@
+id: event/sibt-jihad-sermon-607
+class: event
+kind: gathering
+label: { ar: "مجلس سبط ابن الجوزي بجامع دمشق وخروجه إلى نابلس سنة 607هـ", en: "Sibt ibn al-Jawzi's session in the Damascus mosque and march to Nablus, 607 AH", ur: "607ھ میں جامع دمشق میں سبط ابن الجوزی کی مجلس اور نابلس کی طرف کوچ" }
+summary:
+  ar: "يروي سبط ابن الجوزي أنه جلس بجامع دمشق يوم السبت خامس ربيع الأول سنة 607هـ، وحُزر الناس بثلاثين ألفاً، فحمل إليهم ثلاثمائة شكال لخيل المجاهدين صنعها من شعور اجتمعت عنده، فقطع الناس مثلها، ثم خرج بهم إلى نابلس للغزاة فلقيه الملك المعظم عيسى، وأغاروا على بلاد الفرنج {cite:mirat-al-zaman-risala-2013-v22 p.172} {cite:mirat-al-zaman-risala-2013-v22 p.173}. ويضع ابن العماد الخبر في سنة 606هـ {cite:shadharat-dhahab p. 26}."
+  en: "Sibt ibn al-Jawzi relates that he held a session in the Damascus mosque on Saturday 5 Rabi' I 607 AH, with a crowd estimated at thirty thousand, and had three hundred hobbles for the fighters' horses, made from hair that had been given him, carried in, whereupon people cut off their own hair likewise; he then led them to Nablus for the campaign, where al-Malik al-Mu'azzam Isa met him, and they raided Frankish territory. Ibn al-Imad places the episode in 606 AH."
+wings: [time, people]
+themes: [crusades, wars-and-campaigns, mosques]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1210-08-27", hijri: "0607-03-05", calendar: julian, precision: day, status: debated, derived: true, note: "«جلستُ بجامع دمشق يوم السبت خامس ربيع الأول» في حوادث سنة 607هـ عند سبط ابن الجوزي نفسه (مرآة الزمان 22/172)، وفي شذرات الذهب أنه كان سنة 606هـ؛ التحويل الميلادي مشتق لسنة 607.", sources: [source/mirat-al-zaman-risala-2013-v22, source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: building/umayyad-mosque, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: occurred_at, target: place/nablus, sources: [source/mirat-al-zaman-risala-2013-v22] }
+sources: [source/mirat-al-zaman-risala-2013-v22, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "source/mirat-al-zaman-risala-2013-v22 pp. 172-173; shadharat-dhahab p. 26"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

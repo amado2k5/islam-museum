@@ -1,0 +1,31 @@
+id: person/qutba-ibn-qatada
+class: person
+label: { ar: "قطبة بن قتادة العذري", en: "Qutba ibn Qatada al-Udhri" }
+names:
+  - { kind: full, lang: ar, value: "قطبة بن قتادة العذري المُذري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي من بني عذرة، تولى قيادة الميمنة في جيش مؤتة. حمل على مالك بن زافلة قائد الحلفاء البيزنطيين فقتله، وتغنى بذلك في شعره."
+  en: "Companion from Banu Udhra who commanded the right wing at Mu'tah. He charged and killed Malik ibn Zaflah, commander of the Byzantine-allied Arab forces, and celebrated the deed in verse."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: commander, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, note: "قائد الميمنة في معركة مؤتة.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+born: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+relations:
+  - { type: participated_in, target: event/battle-of-mutah, role: right-wing-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
+
+  - { type: lived_in, target: place/adra, confidence: low, note: "Association inferred from the nisba 'العذري'; specific birthplace or residence is not individually documented.", sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 19, 23" }
+provenance:
+  layer: own-research
+  source: "Ibn Hisham's Sira (source/ibn-hisham-saqqa), juz' 4 pp. 19, 23 — as recorded in this record's status.generated_by"
+  generated_by: "kiro"

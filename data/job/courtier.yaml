@@ -1,0 +1,37 @@
+id: job/courtier
+class: job
+label: { ar: "النديم", en: "Courtier (nadim)", ur: "درباری ⁦(ندیم)⁩" }
+names:
+  - { value: "مصاحب", kind: alternate }
+  - { value: "المُجالس", kind: alternate }
+  - { value: "nedim", kind: latinized, lang: tr }
+summary:
+  ar: "النديم صاحب السلطان في مجلس المنادمة، يونسه بشعر أو غناء أو نكتة، وقد يكلمه في أمر جاد. الكلمة في اللغة نديم الكأس والصديق، وتُستعمل أيضاً للمجالس والمصاحب. والجاحظ ينسب أصول هذا العمل في قصور الأمويين والعباسيين إلى آداب البلاط الساساني. وعند العثمانيين غلب لفظ المصاحب، مع ورود النديم في بعض المصادر."
+  en: "The nadim was the ruler's companion at the drinking gathering. He kept him company with poetry, song or wit, and he might also speak with him on a serious matter. The word means a cup companion and a friend, and mujalis and musahib are used in the same sense. Al-Jahiz traces the rules of this work, as it appears in the Umayyad and Abbasid courts, to Sasanian court custom. The Ottomans more often said musahib, though some of their sources still say nadim."
+  ur: "ندیم بادشاہ کا ساتھی تھا، جو شراب کی محفل میں شعر، گانے یا لطیفے سے اس کا ساتھ دیتا، اور سنجیدہ بات بھی کر سکتا تھا۔ لغت میں یہ پینے کا ساتھی اور دوست ہے، اور مجالس اور مصاحب بھی اسی معنی میں آتے ہیں۔ جاحظ اموی اور عباسی درباروں میں اس کام کے اصول ساسانی دربار کے آداب سے جوڑتا ہے۔ عثمانیوں نے زیادہ تر مصاحب کہا، اگرچہ بعض ماخذوں میں ندیم بھی ملتا ہے۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "The entry says that in the pre-Islamic period Nuaym ibn Masud was the nadim of Banu Qurayza."
+    sources: [source/tdv-nedim]
+regions: [arabia, levant-iraq, persia-central-asia, anatolia-balkans]
+organization:
+  organized: court-office
+training:
+  mode: apprenticeship
+  certification: "The entry says nadims were given a special training before they took up the post. They were taught how to behave in the ruler's presence, and, if they had to warn him, to do it by examples of past rulers rather than directly. It does not describe a school, an examination or a diploma."
+wings: [people]
+periods: [period/pre-islamic-arabia, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/gunpowder-empires]
+sources: [source/tdv-nedim]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'NEDİM' (Nebi Bozkurt, vol. 32, Istanbul 2006, pp. 509–510), web edition read in full on 7 Nov 2026. The entry gives no year for a first appointment. The article MUSÂHİB, to which it points for the Ottoman companion, was not read. Holders are limited to people the entry names who already have a matching person record."
+  generated_by: "Cursor"
+  model: "grok-4.7"
+  run: "jobs-p2-ca12"
+status: { review: published, completeness: 2, generated_by: "Cursor (grok-4.7)" }

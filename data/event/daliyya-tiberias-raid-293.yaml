@@ -1,0 +1,25 @@
+id: event/daliyya-tiberias-raid-293
+class: event
+kind: raid
+label: { ar: "خروج أخي صاحب الشامة ووقعة طبرية", en: "The Rising of the Brother of Sahib al-Shama and the Battle of Tiberias" }
+summary:
+  ar: "في سنة ثلاث وتسعين ومائتين ورد الخبر أن أخا الحسين بن زكرويه المعروف بصاحب الشامة ظهر بالدالية من طريق الفرات واجتمع إليه جماعة من الأعراب والمتلصصة فدعا بتلك الناحية وحارب أهلها فخرج إليه الجند، ثم صار إلى طبرية فامتنعوا من إدخاله فحاربهم حتى دخلها فقتل عامة من بها من الرجال والنساء ونهبها وانصرف إلى ناحية البادية {cite:muntazam-ibn-al-jawzi p. 348-349}."
+  en: "In 293 the brother of al-Husayn ibn Zikrawayh, Sahib al-Shama, appeared at al-Daliyya on the Euphrates road drawing Arabs and footpads; refused entry to Tiberias he fought his way in, killed most of the men and women in it, plundered it and withdrew to the desert {cite:muntazam-ibn-al-jawzi p. 348-349}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "القرامطة" }
+  - label: { ar: "أهل طبرية وجند السلطان" }
+map: { kind: locator, precision: approximate, center: [35.53, 32.79] }
+date:
+  start: { edtf: "0905~", hijri: "0293", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٩٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 348}." }
+relations:
+  - { type: occurred_at, target: place/tabariyya, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 293)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

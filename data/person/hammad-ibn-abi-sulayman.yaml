@@ -1,0 +1,35 @@
+id: person/hammad-ibn-abi-sulayman
+class: person
+label: { ar: "حماد بن أبي سليمان", en: "Hammad ibn Abi Sulayman" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسماعيل حماد بن أبي سليمان، مولى إبراهيم بن أبي موسى الأشعري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو إسماعيل حماد بن أبي سليمان، مولى إبراهيم بن أبي موسى الأشعري، تفقه بإبراهيم النخعي؛ مات سنة تسع عشرة ومائة، وقيل سنة عشرين، وقال إبراهيم حين سُئل من يخلفه: حماد {cite:tabaqat-fuqaha-abbas-1981 p. 44}."
+wings: [people]
+died: { hijri: "0119", edtf: "0737~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: مات سنة تسع عشرة ومائة، وقيل سنة عشرين ومائة (PDF ص44). «وقيل» علامة شك.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: student_of, target: person/ibrahim-al-nakhai, role: "تفقه به (PDF ص44)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+external_ids: { wikidata: "Q12208657" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

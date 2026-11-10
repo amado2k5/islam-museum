@@ -1,0 +1,24 @@
+id: person/murara-ibn-al-rabi
+class: person
+label: { ar: "مرارة بن الربيع العمري", en: "Murara ibn al-Rabi al-Amri" , ur: "مرارہ بن ربیع"}
+names:
+  - { kind: full, lang: ar, value: "مرارة بن الربيع العمري، من بني عمرو بن عوف" }
+gender: male
+summary:
+  ar: "أحد الثلاثة الذين خُلّفوا بعد تبوك؛ من بني عمرو بن عوف؛ لزم بيته أثناء المقاطعة، وذكر كعب أنه قال مثل مقالته."
+  en: One of the three who were left behind after Tabuk; of Banu Amr ibn Awf. He kept to his house during the boycott, and Ka'b relates that he spoke as Ka'b had spoken.
+  ur: "بنو عمرو بن عوف سے تعلق رکھتے تھے اور تبوک کے بعد پیچھے رہ جانے والے تین افراد میں شامل تھے۔ مقاطعے کے دوران اپنے گھر میں رہے۔ {cite:ibn-hisham-saqqa}"
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+relations:
+  - { type: participated_in, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/boycott-of-the-three, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/repentance-of-the-three-accepted, role: "تيب عليه", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-amr-ibn-awf, sources: [source/ibn-hisham-saqqa] }
+
+  - { type: lived_in, target: place/tabuk, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175, 178", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}}
+sources: [source/ibn-hisham-saqqa]
+status: { review: published, completeness: 3 }

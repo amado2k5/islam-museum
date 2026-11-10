@@ -1,0 +1,29 @@
+id: person/musab-ibn-sad-ibn-abi-waqqas
+class: person
+label:
+  ar: "مصعب بن سعد بن أبي وقاص"
+  en: "Mus'ab ibn Sa'd ibn Abi Waqqas"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمصعب بن سعد بن أبي وقاص؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mus'ab ibn Sa'd ibn Abi Waqqas; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+died: { edtf: "721~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
+sources: [source/al-aalam, source/taqrib-al-tahdhib]
+external_ids:
+  wikidata: Q78804111
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 3

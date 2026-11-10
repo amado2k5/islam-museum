@@ -1,0 +1,58 @@
+---
+// Disclaimer: what the museum is, how its content is gathered and checked, what visitors may and may not take from it, and the terms on which it is offered. Plain prose from i18n, no scripts.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { REPO } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const D = T.disclaimer;
+const sections: { id: string; title: string; body: string[] }[] = [
+  { id: "personal", title: D.personal_title, body: [D.personal_1, D.personal_2] },
+  { id: "purpose", title: D.purpose_title, body: [D.purpose_body] },
+  { id: "accuracy", title: D.accuracy_title, body: [D.accuracy_1, D.accuracy_2] },
+  { id: "verify", title: D.verify_title, body: [D.verify_body] },
+  { id: "advice", title: D.advice_title, body: [D.advice_body] },
+  { id: "gathering", title: D.gathering_title, body: [D.gathering_1, D.gathering_2] },
+  { id: "children", title: D.children_title, body: [D.children_1, D.children_2] },
+  { id: "features", title: D.features_title, body: [D.features_body] },
+  { id: "support", title: D.support_title, body: [D.support_body] },
+  { id: "ip", title: D.ip_title, body: [D.ip_body] },
+  { id: "links", title: D.links_title, body: [D.links_body] },
+  { id: "liability", title: D.liability_title, body: [D.liability_body] },
+  { id: "changes", title: D.changes_title, body: [D.changes_body] },
+];
+---
+<BaseLayout lang={lang} title={D.title} description={D.lede} path={`/${lang}/disclaimer/`}>
+  <PageHeader title={D.title} lede={D.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: D.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <p class="ui muted p-updated">{D.updated}</p>
+      {sections.map((s) => (
+        <section aria-labelledby={`${s.id}-h`} class="p-sec">
+          <h2 id={`${s.id}-h`}>{s.title}</h2>
+          {s.body.map((t) => <p>{t}</p>)}
+        </section>
+      ))}
+
+      <section aria-labelledby="more-h" class="p-sec">
+        <h2 id="more-h">{D.more_title}</h2>
+        <p>{D.more_body}</p>
+        <p class="ui p-links">
+          <a href="mailto:discover@islam.museum">{D.contact_cta}</a> ·
+          <a href={`${REPO}/issues/new?template=report-error.yml`} rel="noopener">{D.report_cta}</a>
+        </p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .p-updated { margin: 0 0 1.5rem; font-size: 0.92rem; }
+  .p-sec { margin-block: 2rem 0; }
+  .p-sec h2 { margin-top: 0; }
+  .p-links { margin-top: 0.5rem; }
+</style>

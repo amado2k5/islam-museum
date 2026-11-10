@@ -8,7 +8,7 @@ gender: male
 roles: [tribal-leader]
 summary:
   en: "A Khuza'i leader of the truce years: he sheltered the driven-in Khuza'a in his house, led their complaint delegation to Medina, met Abu Sufyan at Usfan while concealing his own visit, and scouted the Muslim army with him at Marr al-Zahran — where he slipped away to warn the Prophet. As 'Budayl ibn Umm Asram' he answered al-Akhzar's war poem."
-  ar: "سيد خزاعي في سنين الهدنة: آوى خزاعة المحزوة في داره، وقدم المدينة في نفر يخبرون النبي بمظاهرة قريش بني بكر، ولقي أبا سفيان بعسفان فكتم خبره، وتجسس معه الجيش بمر الظهران ثم أفلت فأخبر النبي بعددهم. وبنسبته «بديل بن أم أصرم» أجاب شعر الأخزر بن لعط."
+  ar: "سيد خزاعي في سنين الهدنة: آوى خزاعة المحزوة في داره، وقدم المدينة في نفر يخبرون النبي بمظاهرة قريش بني بكر، ولقي أبا سفيان بعسفان فكتم خبره، وتجسس معه الجيش بمر الظهران ثم أفلت فأخبر النبي بعددهم. وبنسبته «بديل بن أم أصرم» أجاب شعر الأخزر بن لعط. واستشهد ابناه عبد الله وعبد الرحمن بصفين في خلق من خزاعة، وقيل إن أبيات أضربهم ولا أرى معاوية الأخزر العين العظيم الجاوية لبديل قالها في ذلك اليوم {cite:muruj-al-dhahab p. 675-677}"
 wings: [people]
 themes: [battles, literature]
 periods: [period/prophetic-era]
@@ -16,11 +16,13 @@ regions: [arabia]
 story_roles:
   - { role: ally, toward: person/muhammad, status: tradition, note: "آوى خزاعة المحزوة، وقاد وفدهم إلى المدينة، ودلّ النبي على عدد الجيش بمر الظهران حين أفلت من التجسس.", sources: [source/ibn-hisham-saqqa] }
   - { role: victim, toward: group/banu-al-dil, status: tradition, note: "أصابتهم بنو الديل مع خزاعة فتحصن في داره ودار رافع مولاهم.", sources: [source/ibn-hisham-saqqa] }
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar / al-Isaba" }
 relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Associated with Medina per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khuzaa }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: shelter-provider, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/khuzaa-appeal-to-medina, role: envoy, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/abu-sufyan-medina-mission, role: counter-interlocutor-at-usfan, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 33–38, 46", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 33–46" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 33–38, 46", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
+status: { review: published, completeness: 3 }

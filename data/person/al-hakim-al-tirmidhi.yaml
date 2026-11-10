@@ -1,0 +1,30 @@
+id: person/al-hakim-al-tirmidhi
+class: person
+label:
+  ar: "الحكيم الترمذي"
+  en: "al-Hakim al-Tirmidhi"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "محمد بن علي الحكيم الترمذي، صوفي وباحث في الحديث وأصول الدين من أهل ترمذ ⁦(ت نحو ٣٢٠هـ)⁩، نُفي إلى بلخ بعد خلاف حول «ختم الولاية»، واختُلف في سنة وفاته."
+  en: "Muhammad ibn Ali al-Hakim al-Tirmidhi, Sufi hadith scholar of Tirmidh (d. c. 320/932), exiled to Balkh over Khatm al-Wilaya; death year disputed."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+themes: [spirituality-and-sufism]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q1088315
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.6 p.272)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0017
+status:
+  review: published
+  completeness: 3
+born: { edtf: "820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bernd Radtke (Drei Schriften des Theosophen von Tirmid); EI2" }
+died: { edtf: "908~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bernd Radtke (Drei Schriften des Theosophen von Tirmid); EI2" }
+relations:
+  - { type: lived_in, target: place/tirmidh, note: "Place association from the person's nisba/name (الترمذي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,22 @@
+id: person/abu-hashim-al-jafari
+class: person
+label: { ar: "أبو هاشم الجعفري", en: "Abu Hashim al-Ja'fari" }
+summary:
+  ar: "داود بن القاسم بن إسحاق بن عبد الله بن جعفر بن أبي طالب بينه وبين جعفر الطيار ثلاثة آباء، لم يكن يعرف أقعد نسباً في آل أبي طالب وسائر بني هاشم وقريش منه، وكان ذا زهد وورع وعلم صحيح العقل وقبره مشهور، دخل على محمد بن عبد الله بن طاهر في المهنئين بقتل يحيى بن عمر فقال إنك لتهنأ بقتل رجل لو كان رسول الله حياً لعزي به وخرج وهو يقول يا بني طاهر كلوه وبياً إن لحم النبي غير مريء إن وتراً يكون طالبه الله لوتر بالفوت غير حري {cite:muruj-al-dhahab p. 530-531}."
+  en: "The senior-most Ja'farid of his day — who told Ibn Tahir at the congratulations 'you are feted for killing a man the Prophet would have been condoled for' {cite:muruj-al-dhahab p. 530-531}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "794", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Khatib al-Baghdadi, Tarikh" }
+died: { edtf: "875", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Khatib al-Baghdadi, Tarikh" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Senior Ja'farid who addressed Ibn Tahir at the congratulations; the Tahirid court scene is Baghdad. Inferred.", sources: [source/muruj-al-dhahab], confidence: low }

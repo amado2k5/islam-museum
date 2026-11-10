@@ -1,0 +1,21 @@
+id: place/nanauta
+class: place
+kind: town
+label: { ar: "نانوتة", en: "Nanauta" }
+summary:
+  ar: "بلدة نانوتة."
+  en: "Town (Nanauta)."
+wings: [place]
+regions: [south-asia]
+coordinates: [29.7136, 77.4208]
+coordinate_precision: locality
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q2542644" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2542644 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,32 @@
+id: polity/samma-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "السما"
+  en: "Samma dynasty"
+summary:
+  ar: "بطاقة أولية لسلالة السما، أسرة السند التي حكمت من ١٣٥١ إلى ١٥٢٤م قبل الأرغونية؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Samma dynasty, the Sindhi house that ruled from 1351 to 1524 before the Arghuns; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+start:
+  edtf: "1351"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1524"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q27260
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Sindhi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

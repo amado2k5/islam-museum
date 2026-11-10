@@ -1,0 +1,29 @@
+id: work/rohingya-quran-translation
+class: work
+kind: book
+label: { ar: "ترجمة معاني القرآن إلى لغة الروهينغا", en: "The Rohingya translation of the Qur'an", ur: "قرآن کا روہنگیا ترجمہ" }
+summary:
+  ar: "مشروع لترجمة معاني القرآن إلى لغة الروهينغا، المسلمين المضطهدين من إقليم أراكان في ميانمار، بدأه قطب شاه، الباحث الروهينغي في الجامعة الإسلامية العالمية بماليزيا، مع دار «دعوة كورنر» في بيتالينغ جايا؛ أُنجزت أولًا ترجمة صوتية بين أوائل 2021 وأغسطس 2023 بقراءة قطب شاه مع تلاوة محمد أيوب، ونُشرت في تطبيق وموقع ومواقع التواصل، ثم بدأت ترجمة مكتوبة بالخط الحنيفي تغطي حتى الآن السور الخمس الأولى."
+  en: "A project to translate the meanings of the Qur'an into Rohingya, the language of the persecuted Muslims of Arakan in Myanmar, begun by the Rohingya scholar Qutub Shah of the International Islamic University Malaysia with Dakwah Corner Bookstore of Petaling Jaya; a spoken translation came first, made between early 2021 and August 2023 and read by Qutub Shah alongside the recitation of Muhammad Ayyub, released in an app, a website and on social media, followed by a written translation in the Hanifi script that so far covers the first five suras."
+  ur: "روہنگیا زبان میں قرآن کے معانی کے ترجمے کا منصوبہ، یعنی میانمار کے اراکان کے مظلوم مسلمانوں کی زبان، جسے بین الاقوامی اسلامی یونیورسٹی ملائیشیا کے روہنگیا محقق قطب شاہ نے پیٹالنگ جایا کی دعوہ کارنر بک اسٹور کے ساتھ شروع کیا؛ پہلے صوتی ترجمہ ہوا، 2021 کے اوائل سے اگست 2023 تک، جسے قطب شاہ نے محمد ایوب کی تلاوت کے ساتھ پڑھا اور ایپ، ویب سائٹ اور سوشل میڈیا پر جاری کیا، پھر حنیفی رسم الخط میں تحریری ترجمہ شروع ہوا جو اب تک پہلی پانچ سورتوں پر مشتمل ہے۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission, refugees-migrants-diaspora]
+regions: [southeast-asia, south-asia]
+genre: [quran-translation]
+authors: [person/qutub-shah]
+language: language/rohingya
+made: { by_muslims: true, basis: documented, sources: [source/gloqur-rohingya-quran] }
+composed: { edtf: "2021/2023-08", calendar: gregorian, precision: month, status: historical, note: "The spoken translation was made from early 2021 and completed in August 2023; the written translation in the Hanifi script was in progress in May 2025. The interval spans 1442–1445 AH, so no Hijri date is recorded.", sources: [source/gloqur-rohingya-quran] }
+editions:
+  - "Spoken Rohingya translation with the Arabic recitation of Muhammad Ayyub, audio and video, completed August 2023; in the Rohingya Qur'an app (iOS and Android), on rohingyaquran.com and on YouTube and social media"
+  - "Written translation in the Hanifi Rohingya script, first five suras by May 2025; a print run of 2,000 copies planned for Malaysia, Bangladesh and Saudi Arabia"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/gloqur-rohingya-quran] }
+sources: [source/gloqur-rohingya-quran]
+provenance:
+  layer: own-research
+  source: "GloQur post #217 (Johanna Pink, 2 May 2025), read in full in Chrome on the founder's Mac on 7 November 2026, for every fact of the record and its prose; no Wikipedia article or Wikidata item for the work itself was found."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b06
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

@@ -1,0 +1,43 @@
+id: dec-20261108-014
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: f8918e11fe8f
+lane: coverage-programme
+class: process
+modality: repo
+domain: sources
+mode: autonomous
+question: "Wikidata debt measurement for Phase 13: confirm which flag field
+  marks the second-source debt so the 4,199 estimate can be checked against the
+  5,604 flagged files."
+options:
+  - confirm flag field A
+  - confirm flag field B
+  - define new flag
+evidence:
+  - docs/coverage-programme/README.md section 7 decision 7
+status: decided
+step: rule
+decision: "children's content follows the children's wing rulebook:
+  flagged_for_kids marks eligibility, sensitive topics get child_review, and
+  leveled sections are sprouts/explorers/scholars inside the prose file"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-kids-wing):
+  docs/education + E5 leveled batches (founder-approved leveled-200 list)."
+rule: docs/education + E5 leveled batches (founder-approved leveled-200 list)
+rule_id: rule-kids-wing
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-kids-wing
+calibration_log:
+  founder_resolution:
+    verdict: rejected
+    at: 2026-11-08
+    by: founder
+    note: Confirming the reversal; wrong rulebook (already superseded by dec-017)
+kind: decision

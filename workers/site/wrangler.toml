@@ -1,0 +1,15 @@
+# Test deployment of the R2-backed HTML worker. Not routed to islam.museum yet.
+# Cutover (a route on islam.museum/*) is a separate, approved change.
+name = "islam-museum-site"
+main = "src/index.js"
+compatibility_date = "2025-10-11"
+
+[assets]
+directory = "../../dist"
+binding = "ASSETS"
+# Only these paths run the Worker; all other requests are served straight from assets.
+run_worker_first = ["/ar/*", "/en/*", "/ur/*"]
+
+[[r2_buckets]]
+binding = "SITE_BUCKET"
+bucket_name = "islam-museum-search"

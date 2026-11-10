@@ -1,0 +1,18 @@
+id: person/abu-uyayna-ibn-al-muhallab
+class: person
+label: { ar: "أبو عيينة بن المهلب", en: "Abu Uyayna ibn al-Muhallab" }
+summary:
+  ar: "أبو عيينة بن المهلب أخو يزيد؛ وجهه يزيد مع ابنه خالد إلى الأصبهبذ فهزمهما."
+  en: "Abu Uyayna ibn al-Muhallab, Yazid's brother; sent with Khalid against the Ispahbadh and routed with him."
+periods: [period/umayyad]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "715~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "730~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: traveled_to, target: place/khurasan, note: "Sent by his brother Yazid ibn al-Muhallab with Khalid against the Ispahbadh, in the Khurasan campaign.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

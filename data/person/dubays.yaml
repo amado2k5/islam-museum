@@ -1,0 +1,20 @@
+id: person/dubays
+class: person
+label: { ar: "دبيس تلميذ الكندي", en: "Dubays" }
+summary:
+  ar: "دبيس محمد بن يزيد تلميذ الكندي ممن يتعاطى الصناعة وأعمال البرانيات، وله من الكتب كتاب الجامع وكتاب عمل الأصباغ والمداد والحبر {cite:fihrist-ibn-al-nadim p. 506}."
+  en: "Dubays — al-Kindi's pupil and alchemy practitioner {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "1135", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+relations:
+  - { type: lived_in, target: place/dubai, confidence: low, note: "Associated with دبي per the record's own text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch16

@@ -1,0 +1,23 @@
+id: event/siege-of-narbonne-752
+class: event
+kind: siege
+label: { ar: "حصار ناربون", en: "Siege of Narbonne" }
+summary:
+  ar: "بطاقة أولية لحصار ناربون من ٧٥٢ إلى ٧٥٩م، سقوط آخر معاقل المسلمين في الست؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Narbonne of 752–759, the fall of the last Muslim holdout in the Septimanian march; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0752", precision: year, status: tradition, derived: true }
+  end: { edtf: "0759", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q16169269
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

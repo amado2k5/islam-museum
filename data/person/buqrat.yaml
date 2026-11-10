@@ -1,0 +1,22 @@
+id: person/buqrat
+class: person
+label: { ar: "بقراط", en: "Hippocrates" }
+summary:
+  ar: "طبيب اليونان، عند المسعودي قال في العشق هو امتزاج النفسين كما لو امتزج الماء بماء مثله عسر تخليصه، والنفس ألطف من الماء وأرق مسلكاً فلا تزيله الليالي ولا تخلقه الدهور، وابتداء حركته من القلب ثم تسير إلى سائر الأعضاء {cite:muruj-al-dhahab p. 359}."
+  en: "Hippocrates — per Mas'udi, love is two souls fused like water in water; its tremor, pallor and stammer run from the heart outward {cite:muruj-al-dhahab p. 359}."
+gender: male
+wings: [people]
+born: { edtf: "-460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brill / EI (Buqrat)" }
+died: { edtf: "-370~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brill / EI (Buqrat)" }
+relations:
+  - { type: lived_in, target: place/greece, confidence: low, note: "Associated with اليونان per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

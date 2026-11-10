@@ -1,0 +1,26 @@
+id: work/al-mughni-an-haml-al-asfar
+class: work
+kind: book
+label: { ar: "المغني عن حمل الأسفار في الأسفار في تخريج ما في الإحياء من الأخبار", en: "al-Mughni 'an Haml al-Asfar fi al-Asfar", ur: "المغنی عن حمل الاسفار فی الاسفار" }
+summary:
+  ar: "مختصر الحافظ زين الدين العراقي في تخريج أحاديث إحياء علوم الدين: يذكر طرف الحديث وصحابيه ومخرّجه ودرجته؛ أكمل مسودته سنة 751 وأتم تبييض المختصر يوم الاثنين 12 ربيع الأول 790، ويُطبع في حواشي الإحياء أو بذيله {cite:ihya-shamela-dar-al-marifa p. 4} {cite:ihya-shamela-dar-al-marifa p. 5} {cite:ihya-kitab-al-shab-pts13-16 p. 712}."
+  en: "Zayn al-Din al-Iraqi's abridged tracing of the hadith of the Ihya': for each report it gives the opening words, the Companion, the source and the grade; he completed the draft in 751 and finished the fair copy of the abridgement on Monday 12 Rabi' al-Awwal 790; it is printed in the margins or beneath the text of the Ihya' {cite:ihya-shamela-dar-al-marifa p. 4} {cite:ihya-shamela-dar-al-marifa p. 5} {cite:ihya-kitab-al-shab-pts13-16 p. 712}."
+  ur: "حافظ زین الدین عراقی کی احیاء کی احادیث کی مختصر تخریج: ہر روایت کا ابتدائی حصہ، صحابی، مخرج اور درجہ؛ مسودہ 751 میں مکمل ہوا اور مختصر کی صاف نقل پیر 12 ربیع الاول 790 کو پوری ہوئی؛ یہ احیاء کے حواشی یا نیچے چھپتی ہے {cite:ihya-shamela-dar-al-marifa p. 4} {cite:ihya-shamela-dar-al-marifa p. 5} {cite:ihya-kitab-al-shab-pts13-16 p. 712}۔"
+language: language/arabic
+authors: [person/abd-al-rahim-al-iraqi]
+genre: [hadith]
+wings: [words]
+themes: [scripture-and-its-sciences, libraries-paper-and-the-book]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+composed: { edtf: "1388-03~", hijri: "0790-03", calendar: julian, precision: month, status: historical, derived: true, note: "إتمام تبييض المختصر «يوم الاثنين 12 من شهر ربيع الأول سنة 790» كما في خاتمته بطبعة كتاب الشعب ص 712؛ والشهر الميلادي مشتق تقريباً", sources: [source/ihya-kitab-al-shab-pts13-16] }
+relations:
+  - { type: commentary_on, target: work/ihya-ulum-al-din, sources: [source/ihya-shamela-dar-al-marifa, source/ihya-dar-al-marifa-1982-v3] }
+provenance:
+  layer: own-research
+  source: "مقدمة العراقي في حواشي ملف الشاملة للإحياء ص 3-6؛ خاتمته في ط. كتاب الشعب ص 712؛ غلاف ط. دار المعرفة 1982 ج3 ص 5"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/ihya-shamela-dar-al-marifa, source/ihya-kitab-al-shab-pts13-16, source/ihya-dar-al-marifa-1982-v3, source/kashf-zunun-furqan]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

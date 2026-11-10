@@ -1,0 +1,16 @@
+id: place/asaka
+class: place
+kind: city
+label: { en: "Asaka", ar: "آساكا" }
+summary:
+  en: "City in Uzbekistan."
+  ar: "مدينة في أوزبكستان."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [40.6333, 72.2333]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q378393", geonames: "1513271" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q378393 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

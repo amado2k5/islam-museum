@@ -1,0 +1,22 @@
+id: person/afra-bint-uqayl
+class: person
+label: { ar: "عفراء بنت عقال", en: "'Afra bint 'Uqayl" }
+summary:
+  ar: "محبوبة عروة بن حزام العذري، لما نعي إليها قالت بحق نعيتم عروة بن حزام فإن كان حقاً ما تقولون فاعلموا بأن قد نعيتم بدر كل ظلام، ثم صارت إلى قبره فأكبت عليه حتى خرجت نفسها فدفنوها إلى جانبه {cite:muruj-al-dhahab p. 538-539}."
+  en: "'Urwa's beloved — dead stretched upon his grave and buried beside him {cite:muruj-al-dhahab p. 538-539}."
+gender: female
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/hijaz, note: "Banu Udhra of the northern Hijaz; the Udhri love tradition places Urwa and Afra among them; flagged for review.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

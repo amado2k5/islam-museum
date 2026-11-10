@@ -1,0 +1,27 @@
+id: award/vg-lista
+class: award
+kind: chart
+label: { ar: "في جي ليستا ⁦(قائمة النرويج)⁩", en: "VG-lista (Norwegian chart)", ur: "وی جی لِستا ⁦(ناروے کا چارٹ)⁩" }
+summary:
+  ar: "القائمة النرويجية الرئيسة للألبومات والأغاني، تنشرها صحيفة في جي أسبوعيا، وبدأت قائمة ألبوماتها في الأسبوع الأول من 1967؛ بلغ فيها ألبوم يوسف إسلام «An Other Cup» المرتبة السابعة عشرة سنة 2006."
+  en: "Norway's main chart of albums and singles, published weekly in the newspaper VG, whose albums chart began in week 1 of 1967; Yusuf Islam's An Other Cup peaked at number 17 there in 2006."
+  ur: "ناروے کا بنیادی البمز اور سنگلز چارٹ، جو اخبار وی جی ہفتہ وار شائع کرتا ہے؛ 2006 میں «این ادر کپ» سترہویں نمبر تک پہنچا۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: no
+recurs: weekly
+since: { edtf: "1967", calendar: gregorian, precision: year, note: "the albums chart began in week 1 of 1967; the singles chart in 1958", sources: [source/wikipedia-vg-lista-en] }
+footprint:
+  wikipedia: { languages: [ar, az, ca, cs, da, en, es, fa, fi, fr, he, hr, hu, hy, id, is, it, ja, ka, kk, ko, lt, mk, nl, nn, no, pl, pt, ro, ru, sk, sv, tr, uk, vi, zh], checked: "2026-11-07", sources: [source/wikidata-vg-lista] }
+  wikidata: "Q940366"
+external_ids: { wikidata: "Q940366" }
+sources: [source/wikipedia-vg-lista-en, source/wikidata-vg-lista, source/wikipedia-an-other-cup-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'VG-lista' (revision 1312241973) and Wikidata Q940366 (revision 2545325788), read in Chrome on the founder's Mac on 7 November 2026; peaks from the chart tables of the album articles, each row citing the chart's archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b07
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }

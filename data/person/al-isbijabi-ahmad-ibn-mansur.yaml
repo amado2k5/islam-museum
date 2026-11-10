@@ -1,0 +1,36 @@
+id: person/al-isbijabi-ahmad-ibn-mansur
+class: person
+label: { ar: "الإسبيجابي أبو نصر", en: "al-Isbijabi, Abu Nasr" }
+names:
+  - { kind: full, lang: ar, value: "أبو نصر أحمد بن منصور الإسبيجابي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "فقيه حنفي من بلاد ما وراء النهر، عُرف بالورع وحسن الخلق في طلب العلم."
+  en: "Hanafi jurist of Transoxiana, remembered for piety and good character in the pursuit of learning."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص538"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch52
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+died: { edtf: "1087", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 19/27; d. 480 AH)" }
+relations:
+  - { type: lived_in, target: place/transoxiana, note: "From text: of Transoxiana", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

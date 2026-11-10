@@ -1,0 +1,21 @@
+id: person/ibrahim-ibn-adi
+class: person
+label: { ar: "إبراهيم بن عدي", en: "Ibrahim ibn 'Adi" }
+summary:
+  ar: "احتمل الوليد بن عبد الملك حين ضربه يحيى بن سعيد على يده في فتنة قتل عمرو بن سعيد فأدخله بيت القراطيس في المعمعة {cite:muruj-al-dhahab p. 97}."
+  en: "The man who carried the wounded prince al-Walid into the paper-store during the al-Ashdaq melee {cite:muruj-al-dhahab p. 97}."
+gender: male
+wings: [people]
+died: { edtf: "981", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 97"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch41
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

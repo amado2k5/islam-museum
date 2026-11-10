@@ -1,0 +1,77 @@
+id: exhibit/path-walid-age
+class: exhibit
+kind: trail
+label:
+  ar: عصر الوليد
+  en: The Age of al-Walid
+summary:
+  ar: 'مسار في أعز عصور بني أمية: الوليد يبني الجامع الأموي، وقتيبة في الشرق وطارق في الغرب — الإمبراطورية
+    في قمتها.'
+  en: A trail through the Umayyads' proudest age.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الوليد
+    en: Al-Walid
+  body:
+    ar: 'ابن عبد الملك: عشر سنين ذهبية.'
+    en: 'ابن عبد الملك: عشر سنين ذهبية.'
+  features:
+  - person/al-walid-ibn-abd-al-malik
+  - place/damascus
+- title:
+    ar: الجامع
+    en: The mosque
+  body:
+    ar: 'الجامع الأموي 715: فسيفساء العالم.'
+    en: 'الجامع الأموي 715: فسيفساء العالم.'
+  features:
+  - building/umayyad-mosque
+  - place/damascus
+- title:
+    ar: الفتوح
+    en: The conquests
+  body:
+    ar: قتيبة في الشرق وطارق في الغرب.
+    en: قتيبة في الشرق وطارق في الغرب.
+  features:
+  - person/qutayba-ibn-muslim
+  - person/tariq-ibn-ziyad
+- title:
+    ar: الحجاج
+    en: Al-Hajjaj
+  body:
+    ar: 'والي العراق: إصلاح وبناء وعنف.'
+    en: 'والي العراق: إصلاح وبناء وعنف.'
+  features:
+  - person/al-hajjaj-ibn-yusuf
+  - place/kufa
+- title:
+    ar: سليمان
+    en: Sulayman
+  body:
+    ar: 'الأخ يخلف: عهد قصير 715-717.'
+    en: 'الأخ يخلف: عهد قصير 715-717.'
+  features:
+  - person/sulayman-ibn-abd-al-malik
+  - event/siege-of-constantinople-717
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

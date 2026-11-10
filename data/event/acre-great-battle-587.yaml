@@ -1,0 +1,28 @@
+id: event/acre-great-battle-587
+class: event
+kind: battle
+label: { ar: "الوقعة الكبرى على عكا", en: "the great battle at Acre — the sieges fiercest day" }
+date:
+  start: { edtf: "1191~", hijri: "0587", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "كانت الوقعة الكبرى على عكا بين المسلمين والفرنج المحاصرين لها فاقتتلوا قتالًا شديدًا لم يسمع بمثله في تلك الأيام، وجرى فيها للفريقين من الكر والفر والقتل ما لا يحصى {cite:kamil-ibn-al-athir p. 186}."
+  en: "The great battle at Acre — the besieging Franks and the relieving army of Saladin in a slaughter unheard of in those days; charge and counter-charge past counting on both sides {cite:kamil-ibn-al-athir p. 186}."
+wings: [time]
+sides:
+- label: { ar: "عسكر صلاح الدين", en: "Saladin army" }
+  commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+- label: { ar: "الفرنج", en: "the crusader host" }
+
+relations:
+  - { type: occurred_at, target: place/akka, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: "own-research"
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch3
+sources: [source/kamil-ibn-al-athir]
+status:
+  review: published
+  completeness: 3

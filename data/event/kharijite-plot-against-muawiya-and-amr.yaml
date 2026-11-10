@@ -1,0 +1,51 @@
+id: event/kharijite-plot-against-muawiya-and-amr
+class: event
+kind: other
+label:
+  ar: تعاقد ثلاثة من الحرورية على قتل معاوية وعمرو وحبيب بن مسلمة
+  en: Three Kharijites' pact to kill Mu'awiya, Amr and Habib ibn Maslama
+  ur: تین خارجیوں کا معاویہ، عمرو اور حبیب بن مسلمہ کے قتل کا عہد
+summary:
+  ar: رواية الزهري عند ابن عبد الحكم أن ثلاثة نفر من أهل العراق تعاقدوا عند الكعبة على قتل معاوية وعمرو بن العاص وحبيب بن مسلمة بعد بيعة معاوية، فطعن أحدهم معاوية بخنجر في صلاة الفجر بإيلياء، وقتل آخر خارجة بن حذافة يحسبه عمراً {cite:futuh-misr-amir-1999 p. 149} {cite:futuh-misr-amir-1999 p. 150}.
+  en: Al-Zuhri's report in Ibn Abd al-Hakam that three Iraqis made a pact at the Ka'ba to kill Mu'awiya, Amr ibn al-As and Habib ibn Maslama after Mu'awiya's accession; one stabbed Mu'awiya with a dagger at the dawn prayer in Iliya, and another killed Kharija ibn Hudhafa, taking him for Amr {cite:futuh-misr-amir-1999 p. 149} {cite:futuh-misr-amir-1999 p. 150}.
+  ur: ابن عبد الحکم کے ہاں زہری کی روایت کہ عراق کے تین آدمیوں نے معاویہ کی بیعت کے بعد کعبہ کے پاس معاویہ، عمرو بن العاص اور حبیب بن مسلمہ کو قتل کرنے کا عہد کیا؛ ایک نے ایلیاء میں فجر کی نماز میں معاویہ کو خنجر مارا، اور دوسرے نے خارجہ بن حذافہ کو عمرو سمجھ کر قتل کر دیا {cite:futuh-misr-amir-1999 p. 149} {cite:futuh-misr-amir-1999 p. 150}۔
+wings:
+- time
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+relations:
+- type: had_participant
+  target: person/muawiya-ibn-abi-sufyan
+  role: المستهدف، طُعن ونجا
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: المستهدف
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/habib-ibn-maslama
+  role: المستهدف
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/kharija-ibn-hudhafa-al-adawi
+  role: قُتل خطأً مكان عمرو
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 149–151
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-3-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

@@ -1,0 +1,18 @@
+id: passage/bukhari-4987
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4987"
+label: { ar: "البخاري 4987 — نسخ المصاحف في خلافة عثمان", en: "Bukhari 4987 — Uthman's standard copies" }
+text: "إذا اختلفتم أنتم وزيد بن ثابت في شيء من القرآن فاكتبوه بلسان قريش فإنما نزل بلسانهم، ففعلوا حتى إذا نسخوا الصحف في المصاحف رد عثمان الصحف إلى حفصة وأرسل إلى كل أفق بمصحف مما نسخوا وأمر بما سواه من القرآن في كل صحيفة أو مصحف أن يحرق"
+summary:
+  ar: "في كتاب فضائل القرآن؛ إنذار حذيفة من أذربيجان، واستعارة صحف حفصة، ولجنة الأربعة، وأمر قريش بلسانها، وإرسال المصاحف إلى الأمصار وإحراق ما سواها — نص توحيد المصحف كاملاً."
+relations:
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/hudhayfa-ibn-al-yaman, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/hafsa, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/sahih-al-bukhari] }
+  - { type: basis_for, target: event/uthman-standardizes-mushaf, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4987", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

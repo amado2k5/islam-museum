@@ -1,0 +1,23 @@
+id: event/sack-of-maarrat-al-numan-491
+class: event
+kind: siege
+label: { ar: "مذبحة معرة النعمان", en: "Siege of Ma'arra" }
+summary:
+  ar: "بطاقة أولية لسقوط معرة النعمان سنة ١٠٩٨م، الوقعة الشهيرة لجيش الحملة الأولى وفظائعها في المدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fall of Ma'arrat al-Nu'man in 1098, the First Crusade's notorious storming of the city and its atrocities; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1098", precision: year, status: tradition, derived: true }
+  end: { edtf: "1098", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2503775
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

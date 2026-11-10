@@ -1,0 +1,15 @@
+id: passage/muslim-2599
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2599"
+label: { ar: "مسلم 2599 — إني لم أُبعث لعّاناً وإنما بعثت رحمة", en: "Muslim 2599 — I was not sent as a curser; I was sent as a mercy" }
+text: "قيل: يا رسول الله، ادع على المشركين؛ قال: «إني لم أُبعث لعّاناً، وإنما بعثت رحمة»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ رد النبي طلب الدعاء على المشركين بأنه بُعث رحمة لا لعّاناً — من أنصع نصوص الرحمة في بعثته."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة، باب أنه لم يبعث لعاناً (طبعة دار التأصيل، الحديث 6778؛ ترقيم عبد الباقي المعروف 2599)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

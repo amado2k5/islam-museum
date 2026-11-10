@@ -1,0 +1,37 @@
+id: person/ibn-al-jazari-muhammad-ibn-ibrahim
+class: person
+label: { ar: "ابن الجزري محمد بن إبراهيم", en: "Ibn al-Jazari, Muhammad ibn Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين أبو عبد الله محمد بن إبراهيم بن أبي بكر الجزري" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+born: { edtf: "1259", hijri: "0658", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1338", hijri: "0739", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أصله من جزيرة ابن عمر، من أعلام القراءات والحديث في عصره."
+  en: "Originally from Jazirat Ibn Umar, one of the leading authorities on the readings and hadith of his time."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/jazirat-ibn-umar, confidence: low, note: "Associated with جزيرة ابن عمر per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص261"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

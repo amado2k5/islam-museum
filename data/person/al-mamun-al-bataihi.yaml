@@ -1,0 +1,28 @@
+id: person/al-mamun-al-bataihi
+class: person
+label:
+  ar: "المأمون البطائحي"
+  en: "al-Ma'mun al-Bata'ihi"
+roles: [ruler]
+gender: male
+summary:
+  ar: "أبو عبد الله البطائحي الملقب بالمأمون، وزير الخليفة الفاطمي الآمر؛ نشأ فقيراً فرفعه الأفضل من الفراشين إلى الوزارة، وهزم لواتة الغازية ديار مصر، وصلبه الآمر سنة 519هـ لما أعلم أنه أسلّ أخاه جعفراً ليقتله."
+  en: "Abu Abd Allah al-Bata'ihi (al-Ma'mun), vizier of the Fatimid al-Amir; raised from poverty by al-Afdal to the vizierate, he defeated the invading Lawata, and al-Amir crucified him in 519 AH when told he had suborned the caliph's brother Ja'far to kill him."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2829232
+provenance:
+  layer: own-research
+  source: "ابن الأثير، الكامل ج9 ص224-225"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch14
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1128", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Bata'ihi' / G. Wiet; executed 522 AH)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/kamil-ibn-al-athir], confidence: low }

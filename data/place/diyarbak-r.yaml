@@ -1,0 +1,36 @@
+id: place/diyarbak-r
+class: place
+kind: city
+label:
+  ar: ديار بكر
+  en: Diyarbakır
+  ur: دیار بکر
+summary:
+  ar: مدينة في تركيا.
+  en: City in Southeastern Anatolia, Turkey.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 37.9108
+- 40.2367
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q83387
+  geonames: '316541'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q83387 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q83387 (labels, coordinates, description)

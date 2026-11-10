@@ -1,0 +1,15 @@
+id: passage/muwatta-4-813
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "813"
+label: { ar: "الموطأ 813 — مالك: من كان في سفر فعلم أنه داخل على أهله من أول يومه وطلع له الفجر قبل أن يدخل دخل وهو صائم؛ ومن أراد الخروج في رمضان فطلع عليه الفجر بأرضه يصوم ذلك اليوم", en: "Muwatta 813" }
+summary:
+  ar: "قول يرويه يحيى عن مالك: من كان في سفر فعلم أنه داخل على أهله من أول يومه، وطلع له الفجر قبل أن يدخل، دخل وهو صائم. وإذا أراد أن يخرج في رمضان فطلع له الفجر وهو بأرضه قبل أن يخرج فإنه يصوم ذلك اليوم. ويذكر المحقق أنه رواه عن مالك أبو مصعب (800). {cite:muwatta-maruf-1997 p.398}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-04-siyam }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 813 at PDF p. 398; باب ما يفعل من قدم من سفر أو أراده في رمضان", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b02" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 398; matn excerpt at most 40 words" }

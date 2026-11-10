@@ -1,0 +1,23 @@
+id: person/al-akhfash-al-akbar-abd-al-hamid
+class: person
+label: { ar: "الأخفش الأكبر", en: "al-Akhfash al-Akbar" }
+names:
+  - { kind: full, lang: ar, value: "أبو الخطاب عبد الحميد بن عبد المجيد الأخفش الأكبر" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+summary:
+  ar: "نحوي بصري من أوائل النحويين، روى عنه سيبويه وغيره."
+  en: "Early grammarian of Basra; transmitter of Sibawayh's circle."
+wings: [people]
+themes: [linguistics]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 376, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص376", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam; EI2 account added in ei2-b009 part 3db" }
+died: { edtf: "793", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zubaydi (Tabaqat)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (بصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2], confidence: low }

@@ -1,0 +1,38 @@
+id: person/feryal-abdelaziz
+class: person
+label: { ar: "فريال عبد العزيز", en: "Feryal Abdelaziz", ur: "فریال عبد العزیز" }
+names:
+  - { value: "Feryal Ashraf Abdelaziz", kind: full }
+  - { value: "فريال أشرف عبد العزيز", kind: full }
+gender: female
+summary:
+  ar: "لاعبة كاراتيه مصرية، وُلدت في القاهرة سنة 1999. فازت بذهبية الكوميتيه لوزن فوق 61 كجم في أولمبياد طوكيو 2020 فكانت أول مصرية تفوز بميدالية ذهبية أولمبية، ثم أضافت ذهبية فرق العالم 2021 وذهبية ألعاب البحر المتوسط 2022."
+  en: "Egyptian karateka, born in Cairo in 1999. At Tokyo 2020 she won the women's +61 kg kumite title, becoming the first Egyptian woman to win an Olympic gold medal; she later added a world team title in 2021 and a Mediterranean Games title in 2022."
+  ur: "مصری کراٹے کھلاڑی، 1999 میں قاہرہ میں پیدا ہوئیں۔ ٹوکیو 2020 میں خواتین کے +61 کلوگرام کومیتے کا خطاب جیت کر وہ اولمپک طلائی تمغہ جیتنے والی پہلی مصری خاتون بنیں؛ بعد ازاں 2021 میں عالمی ٹیم خطاب اور 2022 میں بحیرہ روم کھیلوں کا خطاب بھی جیتا۔"
+roles: [karate athlete]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1999-02-16"
+  hijri: "1419"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 16 February 1999 (English and Arabic articles; Wikidata). The birthplace, Cairo, is given by the English article's infobox and by Wikidata. The Hijri year 1419 is the tabular conversion of 16 February 1999 and is marked derived."
+  sources: [source/wikipedia-feryal-abdelaziz-en, source/wikipedia-feryal-abdelaziz-ar, source/wikidata-feryal-abdelaziz]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-feryal-abdelaziz-en, source/wikidata-feryal-abdelaziz] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for her, and Wikidata records no religion (P140) statement. Her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-feryal-abdelaziz-en, source/wikipedia-feryal-abdelaziz-ar, source/wikidata-feryal-abdelaziz]
+external_ids: { wikidata: "Q86833068" }
+sources: [source/wikipedia-feryal-abdelaziz-en, source/wikipedia-feryal-abdelaziz-ar, source/wikidata-feryal-abdelaziz]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373245088), Arabic Wikipedia (revision 76428386, under the title Feryal Ashraf) and Wikidata Q86833068 (item revision 2535977268, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed in the Arabic edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-153A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

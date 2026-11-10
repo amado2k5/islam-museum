@@ -1,0 +1,23 @@
+id: person/al-aziz-fakhr-al-din-uthman
+class: person
+label: { ar: "الملك العزيز فخر الدين عثمان", en: "al-Malik al-Aziz Fakhr al-Din Uthman" }
+summary:
+  ar: "الملك العزيز فخر الدين عثمان بن الملك المغيث الأيوبي؛ كان صغير السن فأمره الملك الظاهر بيبرس ولم يزل في خدمته أميراً إلى أن فتح أنطاكية في شهر رمضان سنة ست وستين وستمائة وتوجه من الشام بعد ذلك إلى مصر فلما دخل إليها قبض عليه واعتقله وهو الآن معتقل بقلعة الجبل المذكورة {cite:wafayat-ayan}."
+  en: "Al-Malik al-Aziz Fakhr al-Din Uthman — the boy-prince of the Karak line, raised at Baybars' court, then seized on reaching Egypt after the Antioch campaign (666) and held at Qal'at al-Jabal {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الخامس (عارضة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch122
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Taghribirdi (Nujum)" }
+died: { edtf: "1484", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Taghribirdi (Nujum)" }
+relations:
+  - { type: lived_in, target: place/al-karak, note: "From text: of the Karak", sources: [source/wafayat-ayan], confidence: low }

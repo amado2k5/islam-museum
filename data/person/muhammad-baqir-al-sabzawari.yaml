@@ -1,0 +1,32 @@
+id: person/muhammad-baqir-al-sabzawari
+class: person
+label:
+  ar: "محمد باقر السبزواري"
+  en: "Muhammad Baqir al-Sabzawari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد باقر السبزواري، فقيه القرن السابع عشر، توفي سنة ١٦٧٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Baqir al-Sabzawari, the seventeenth-century jurist, d. 1679; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1608", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+relations:
+  - { type: born_in, target: place/sabzevar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765553)" }
+  - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
+  - { type: buried_in, target: place/mashhad, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q121157)" }
+  - { type: buried_in, target: place/imam-reza-shrine, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1791841)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5727594
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0055
+status:
+  review: draft
+  completeness: 1

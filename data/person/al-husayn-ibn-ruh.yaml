@@ -1,0 +1,25 @@
+id: person/al-husayn-ibn-ruh
+class: person
+label: { ar: "أبو القاسم الحسين بن روح النوبختي", en: "Abu al-Qasim al-Husayn ibn Ruh al-Nawbakhti" }
+summary:
+  ar: "الذي تنسب إليه الإمامية البابية؛ كان على وزارة حامد بن العباس وقد أحدث الشلمغاني بعده مذهباً في حلول الإلهية {cite:kamil-ibn-al-athir p. 218}."
+  en: "The man the Imamis call the Bab; attached to the vizierate of Hamid ibn al-Abbas — after him al-Shalmaghani produced his doctrine of divine indwelling {cite:kamil-ibn-al-athir p. 218}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-7
+sources: [source/kamil-ibn-al-athir, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+external_ids: { wikidata: "Q4120028" }
+aliases: [person/abu-al-qasim-ibn-ruh-al-nawbakhti]
+
+died: { edtf: "937", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Nawbakhti' / W. Madelung; d. 326 AH)" }
+relations:
+  - { type: born_in, target: place/sawa, note: "Wikidata Q765518 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-nawbakhti-shrine, note: "Wikidata Q132675093 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

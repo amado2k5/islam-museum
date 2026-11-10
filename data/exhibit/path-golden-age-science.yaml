@@ -1,0 +1,86 @@
+id: exhibit/path-golden-age-science
+class: exhibit
+kind: trail
+label:
+  ar: العلم في عصره الذهبي
+  en: Science in the Golden Age
+summary:
+  ar: 'مسار في عقول غيّرت العلم: بيت الحكمة، والخوارزمي وجابر والرازي وابن سينا والبيروني، والأسطرلاب
+    في اليد.'
+  en: 'A trail through the minds that changed science: the House of Wisdom, Khwarizmi, Jabir, Razi, Ibn
+    Sina, Biruni, and the astrolabe in hand.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: بيت الحكمة
+    en: The House of Wisdom
+  body:
+    ar: 'بغداد المأمونية: ترجمة وتأليف ورصد في مجمع واحد.'
+    en: 'Mamun''s Baghdad: translation, authorship and observation under one roof.'
+  features:
+  - building/bayt-al-hikma
+  - place/baghdad
+- title:
+    ar: الجبر
+    en: Algebra
+  body:
+    ar: 'الخوارزمي يجعلها علمًا: الجبر والمقابلة وصورة الأرض.'
+    en: 'Khwarizmi makes it a science: algebra and the world map.'
+  features:
+  - person/al-khwarizmi
+- title:
+    ar: الكيمياء
+    en: Alchemy
+  body:
+    ar: 'جابر بن حيان: من الإكسير إلى المختبر.'
+    en: 'Jabir: from elixir to laboratory.'
+  features:
+  - person/jabir-ibn-hayyan
+- title:
+    ar: الطب
+    en: Medicine
+  body:
+    ar: 'الرازي في بغداد وابن سينا في القانون: طب الأمة مرجع العالم.'
+    en: 'Razi and Ibn Sina: the community''s medicine as the world''s reference.'
+  features:
+  - person/al-razi-abu-bakr
+  - person/ibn-sina
+- title:
+    ar: الفلك والجغرافيا
+    en: Astronomy and earth
+  body:
+    ar: البيروني يقيس الأرض ويعقد مقارنة الأمم.
+    en: Biruni measures the earth and compares nations.
+  features:
+  - person/al-biruni-muhammad-ibn-ahmad
+  - object/astrolabe-umar-ibn-yusuf
+- title:
+    ar: المؤرخون
+    en: The historians
+  body:
+    ar: 'الطبري والمسعودي وابن خلدون: تاريخٌ من الأخبار إلى النظر.'
+    en: 'Tabari, Masudi, Ibn Khaldun: history from reports to theory.'
+  features:
+  - person/al-tabari
+  - person/al-masudi
+  - person/ibn-khaldun
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

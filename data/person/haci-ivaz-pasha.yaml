@@ -1,0 +1,36 @@
+id: person/haci-ivaz-pasha
+class: person
+label:
+  ar: "حاجي عوض باشا"
+  en: "Haci Ivaz Pasha"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لحاجي عوض باشا، وزير عثماني القرن الخامس عشر؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Haci Ivaz Pasha, the fifteenth-century Ottoman vizier; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1428", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/tokat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/bursa-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6071757
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0063
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

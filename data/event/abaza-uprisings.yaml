@@ -1,0 +1,23 @@
+id: event/abaza-uprisings
+class: event
+kind: revolt
+label: { ar: "ثورات الأبازة", en: "Abaza Uprisings" }
+summary:
+  ar: "بطاقة أولية لثورات الأبازة في القوقاز في القرن التاسع عشر، انتفاضات الأبازة على الضرائب العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the nineteenth-century Abaza uprisings in Circassia against Ottoman taxation; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1833", precision: year, status: tradition, derived: true }
+  end: { edtf: "1844", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q15094110
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolts attested in Ottoman-Caucasian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

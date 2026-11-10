@@ -1,0 +1,11 @@
+---
+id: person/ahmad-muhammad-shakir
+lang: ur
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-3"]
+---
+
+## ابو اسحاق حوینی کے «اصداف اللؤلؤ» میں
+[[person/abu-ishaq-al-heweny|ابو اسحاق حوینی]] کہتے ہیں کہ احمد شاکر کی تحقیق والی «مسند امام احمد» ان کے بھائی کی لائبریری میں دینی علوم کی دو کتابوں میں سے ایک تھی؛ وہ انہیں 1974 میں ملی، اس وقت اس کی اسانید سمجھ میں نہ آئیں، بعد میں انہوں نے اسے لے لیا، اور پہلی طباعت کا وہی نسخہ ان کی لائبریری میں ہے۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep02 00:21:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep02 00:22:30} وہ بیان کرتے ہیں کہ پرانی کتابوں کے ایک تاجر خربوش نے انہیں احمد شاکر کی ایک کتاب کا نسخہ بیچا جس پر احمد شاکر کی طرف سے [[person/abbas-mahmoud-al-aqqad|عباس محمود العقاد]] کے نام اہدا لکھا تھا، اور اس سے یہ نکتہ نکالتے ہیں کہ اہدا اپنے وقت میں کم قیمت اور بعد میں بہت قیمتی ہو سکتا ہے۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:03:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep07 00:04:00}
+
+وہ احمد شاکر کو «مصر کے محدثین کے آخری اعیان» کہتے ہیں، اور ذکر کرتے ہیں کہ انہوں نے [[person/shuba-ibn-al-hajjaj|شعبہ]] کا دفاع ایک راوی کے نام کی اس غلطی میں کیا جو علما نے ان کی طرف منسوب کی، اور کہتے ہیں کہ ان کے خیال میں اس میں شاکر درست نہیں۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:24:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep23 00:25:30} وہ شافعی کی [[work/al-risala-shafii|«الرسالة»]] پر ان کے مقدمے کی تعریف کرتے ہیں۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep24 00:03:00} وہ ذکر کرتے ہیں کہ احمد شاکر اور ان کے بھائی محمود کی تحقیق والی تفسیر طبری مکمل نہ ہوئی، ان کے خیال میں سورۂ رعد یا ابراہیم پر رک گئی، اور ان کے خیال میں دونوں کا دار المعارف سے اختلاف ہو گیا۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:03:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep28 00:04:00} وہ بتاتے ہیں کہ مصر میں دار المعارف احمد شاکر اور محمد فؤاد عبد الباقی کی کتابیں بہترین معیار پر چھاپتا تھا۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep12 00:27:00} وہ کہتے ہیں کہ محمود محمد شاکر نے علومِ عربیہ میں «دنیا بھر دی»۔ {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep27 00:02:00}

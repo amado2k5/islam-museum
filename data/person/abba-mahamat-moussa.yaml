@@ -1,0 +1,29 @@
+id: person/abba-mahamat-moussa
+class: person
+label:
+  ar: "عبا محمات موسى"
+  en: "Abba Mahamat Moussa"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبا محمات موسى؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abba Mahamat Moussa; the entry is not yet checked on the page."
+wings: [people]
+regions: [west-africa-sahel]
+periods: [period/contemporary-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q130337656
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1955", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sultanate of Kousseri administrative records / Obituary (2018)" }
+died: { edtf: "2018", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sultanate of Kousseri administrative records / Obituary (2018)" }
+relations:
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Only the record-level region (west-africa-sahel) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,21 @@
+id: person/yahya-ibn-watthab
+class: person
+label: { ar: "يحيى بن وثاب الأسدي", en: "Yahya ibn Watthab al-Asadi" }
+summary:
+  ar: "مولى بني كنانة وكان كاهناً كوفياً، ممن مات في أيام يزيد بن عبد الملك {cite:muruj-al-dhahab p. 191}."
+  en: "Banu Kinana's mawla, a Kufan diviner — died under Yazid II {cite:muruj-al-dhahab p. 191}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 191"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+died: { edtf: "721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/kufa, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

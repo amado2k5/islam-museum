@@ -1,0 +1,26 @@
+id: person/amr-ibn-ubayd
+class: person
+label: { ar: "عمرو بن عبيد أبو عثمان" }
+summary:
+  ar: "عمرو بن عبيد بن باب مولى بني تميم، أبو عثمان، من شيوخ المعتزلة وأصحاب واصل بن عطاء، وقال إن عمر بن عبد العزيز أخذ الخلافة بغير حقها كما روي عنه، وله مع المنصور أخبار منها قوله له لما بايع المهدي يا أبا عثمان، ومات في أيام المنصور سنة أربع وأربعين ومائة وقيل سنة خمس وأربعين ومائة {cite:muruj-al-dhahab p. 214-216}. وقال في عمر بن عبد العزيز أخذ الخلافة بغير حقها ولا باستحقاق لها ثم استحقها بالعدل حين أخذها {cite:muruj-al-dhahab p. 184}، وعند ابن الإخشيد أنه لما مات الحسن وجلس قتادة مجلسه اعتزله ونفر معه فسماها قتادة المعتزلة فأظهر تقبله {cite:fihrist-ibn-al-nadim p. 557}، وحكى ابن النديم أنه عاب واصل بن عطاء بطول عنقه فقال له واصل من عاب الصنعة فقد عاب الصانع لتعلق ما بينهما فاسترجع عمرو وقال لا أعود إلى مثلها يا أبا حذيفة ثم ناظره واصل فقطعه {cite:fihrist-ibn-al-nadim supplement p. 525}"
+  en: "Amr ibn Ubayd ibn Bab, mawla of Banu Tamim, Abu Uthman — shaykh of the Mu'tazila beside Wasil ibn Ata'; his exchanges with al-Mansur are recorded, and he died in al-Mansur's reign in 144 or 145 {cite:muruj-al-dhahab p. 214-216}."
+gender: male
+wings: [people]
+periods: [period/umayyad, period/abbasid-early]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 273–280 (entry 6404)"
+external_ids: { wikidata: "Q1048593" }
+sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3, source/wikidata]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+died: { edtf: "761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+relations:
+  - { type: born_in, target: place/balkh, note: "Wikidata Q182159 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

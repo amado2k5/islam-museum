@@ -1,0 +1,28 @@
+id: person/mowlana-maruf-baghdadi
+class: person
+label:
+  ar: "مولانا معروف البغدادي"
+  en: "Mowlana Maruf Baghdadi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمولانا معروف البغدادي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mowlana Maruf Baghdadi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5723646
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1558~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Association inferred from the nisba 'البغدادي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

@@ -1,0 +1,30 @@
+id: person/wadia-ibn-thabit
+class: person
+label: { en: Wadi'a ibn Thabit, ar: "وديعة بن ثابت" }
+names:
+  - { kind: full, lang: ar, value: "وديعة بن ثابت" }
+gender: male
+summary:
+  ar: "ذكره ابن إسحاق في رهط المنافقين الذين سخروا من جيش تبوك ثم اعتذروا بأنهم كانوا يخوضون ويلعبون."
+  en: Ibn Ishaq names him in the party of hypocrites who mocked the Tabuk army and then excused themselves that they had been jesting and playing.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sirat Ibn Hisham; al-Isaba" }
+relations:
+  - { type: participated_in, target: event/hypocrites-mock-the-army-and-excuse, role: speaker, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, role: "بانٍ للمسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/builders-of-masjid-al-dirar, note: "من الاثني عشر الذين سمّاهم ابن إسحاق (ص174)", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-umayya-ibn-zayd, sources: [source/ibn-hisham-saqqa] }
+
+  - { type: lived_in, target: place/tabuk, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 168-169, 174"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch75
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

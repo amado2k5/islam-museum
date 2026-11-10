@@ -1,0 +1,19 @@
+id: person/asha-hamdan
+class: person
+label: { ar: "أعشى همدان", en: "A'sha Hamdan" }
+summary:
+  ar: "أعشى همدان الشاعر؛ كان في الجيش الذي وجهه سلم بن زياد إلى خجنده فهزموا وقال في ذلك أبياته يتأسف فيها على فرسه ويستشهد مصرعه."
+  en: "A'sha Hamdan the poet; in Salm ibn Ziyad's army to Khujanda, defeated — his verses lamenting his horse and his own bloodied fall."
+periods: [period/umayyad]
+wings: [people]
+died: { edtf: "702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: traveled_to, target: place/khujanda, note: "In Salm ibn Ziyad's defeated army to Khujanda.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
+  - { type: lived_in, target: place/basra, note: "Asha Hamdan of the Basran milieu; flagged.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
+sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3 }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 739, entry 'A'SHA HAMDAN' (signed A. J. Wensinck and G. E. von Grunebaum) (EI2 entry, batch ei2-b013 part 30, seq 367); the earlier futuh-buldan draft summary is kept"
+  generated_by: "Devin (SWE-2 High); EI2 section added by Claude Code (claude-haiku-5-5)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

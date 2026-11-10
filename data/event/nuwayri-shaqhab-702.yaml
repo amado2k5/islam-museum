@@ -1,0 +1,28 @@
+id: event/nuwayri-shaqhab-702
+class: event
+kind: battle
+label:
+  ar: "النويري في وقعة ٢٩ شعبان ٧٠٢هـ/١٨ أبريل ١٣٠٣م وشهوده نصر شقحب"
+  en: "Al-Nuwayri fights beside Mughultay, 29 Sha'ban 702/18 April 1303, eyewitness of Shaqhab"
+  ur: "نويری مغلطائی کے ساتھ معرکہ میں، 29 شعبان 702ھ/18 اپریل 1303ء، شقحب کی فتح کے عینی شاہد"
+summary:
+  ar: "شارك النويري في قتال التتار يوم ٢٩ شعبان ٧٠٢هـ/١٨ أبريل ١٣٠٣م إلى جانب الأمير علاء الدين مغلطاي، فوصف الحرب على المغول ونصر شقحب وصف شاهد عيان؛ وفي سنة ٧٠٣هـ جاءت على أملاكه الصغيرة طاعون خيل أهلك عشرة أفراس كانت عنده حتى لم يبق له فرس يركبه {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}."
+  en: "Al-Nuwayri took part in a battle against the Mongols on 29 Sha'ban 702/18 April 1303 alongside the amir Ala' al-Din Mughultay, and so could describe the war against the Mongols and the victory of Shaqhab as an eyewitness; in 703 an equine epidemic destroyed his small fortune — no fewer than ten horses — leaving him without even a mount of his own {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}."
+  ur: "نويری نے 29 شعبان 702ھ/18 اپریل 1303ء کو امیر علاء الدین مغلطائی کے ساتھ منگولوں کے خلاف لڑائی میں حصہ لیا، اسی لیے وہ منگولوں کے خلاف جنگ اور شقحب کی فتح کو عینی شاہد کی حیثیت سے بیان کر سکے؛ 703ھ میں گھوڑوں کی وبا نے ان کی چھوٹی دولت — کم از کم دس گھوڑے — تباہ کر دی یہاں تک کہ سواری کا ایک گھوڑا بھی نہ بچا {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1303-04-18", hijri: "0702-08-29", calendar: julian, precision: day, status: tradition, derived: true, note: "قتال التتار يوم ٢٩ شعبان ٧٠٢هـ/١٨ أبريل ١٣٠٣م {cite:encyclopaedia-of-islam-2 vol. 8 p. 157}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "مقاتل وشاهد عيان", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/alaa-al-din-mughultay, role: "الأمير الذي قاتل إلى جانبه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 157 (harvest OCR Ned-Sam)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,35 @@
+id: person/hayatizade-mustafa-feyzi
+class: person
+label:
+  ar: "حياتي زاده مصطفى فيضي"
+  en: "Hayatizade Mustafa Feyzi"
+roles: [physician, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لحياتي زاده مصطفى فيضي، الطبيب العثماني الكبير، توفي سنة ١٦٩٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hayatizade Mustafa Feyzi, the senior Ottoman physician, d. 1692; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1692", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tekirda, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q130375002
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0090
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

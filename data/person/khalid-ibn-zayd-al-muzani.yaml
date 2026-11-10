@@ -1,0 +1,18 @@
+id: person/khalid-ibn-zayd-al-muzani
+class: person
+label: { ar: "خالد بن زيد المزني", en: "Khalid ibn Zayd al-Muzani" }
+summary:
+  ar: "خالد بن زيد المزني؛ أصيبت عينه بالسوس وروى حصارها وفتحها على أمان المائة وعزل دهقانها نفسه فقتل."
+  en: "Khalid ibn Zayd al-Muzani; he lost an eye at al-Sus and narrates its siege — the hundred-man aman and the dahqan who exempted himself and was killed."
+periods: [period/rashidun]
+wings: [people]
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/khuzistan, confidence: low, note: "Commander who took part in the siege and conquest of al-Sus per the record's cited Futuh al-Buldan passage.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  source: "البلاذري، فتوح البلدان، قراءة آبل فيجن"
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

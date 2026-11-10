@@ -1,0 +1,20 @@
+id: place/bajirwan
+class: place
+kind: region
+label: { ar: "باجروان", en: "Bajirwan" }
+summary:
+  ar: "كورة بأذربيجان؛ كان أهلها في جملة من جمع مرزبان أردبيل من المقاتلة لقتال حذيفة بن اليمان."
+  en: "A district of Azerbaijan; its men stood among the fighters the marzban of Ardabil mustered against Hudhayfa."
+regions: [persia-central-asia]
+coordinates: [36.5333, 39.0667]
+coordinate_precision: approx
+coordinate_note: "Bajarwan, medieval town near Harran, Diyar Mudar, Turkey (geocoding pass, Gemini-assisted)"
+wings: [place]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-prose-b8
+  extraction_flow: "Apple Vision OCR -> manual extraction"

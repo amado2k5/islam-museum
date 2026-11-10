@@ -1,0 +1,30 @@
+id: person/shakir-ibn-mustafa-al-umari
+class: person
+label:
+  ar: "شاكر بن مصطفى العمري"
+  en: "Shakir ibn Mustafa al-Umari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشاكر بن مصطفى العمري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shakir ibn Mustafa al-Umari; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1780", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
+  - { type: buried_in, target: place/the-cemetery-of-dahdah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q16128316)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107195515
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,39 @@
+id: person/ibrahim-ibn-yahya-al-ansari-al-mursi
+class: person
+label: { ar: "إبراهيم بن يحيى الأنصاري المرسي", en: "Ibrahim ibn Yahya al-Ansari al-Mursi" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن يحيى بن محمد بن أحمد بن زكريا الأنصاري" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+  - { kind: nisba, lang: ar, value: "المرسي الغرناطي" }
+gender: male
+roles: [scholar, physician]
+traditions: [sunni]
+born: { edtf: "1278", hijri: "0677", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1350", hijri: "0751", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "النحوي والمقرئ والطبيب أبو إسحاق إبراهيم بن يحيى الأنصاري المرسي، أصله من مرسية وعاش بغرناطة في زمن الدولة النصرية، والمعلومات عنه قليلة."
+  en: "The grammarian, reciter and physician Abu Ishaq Ibrahim ibn Yahya al-Ansari al-Mursi, from Murcia and active at Granada under the Nasrid state; the sources on him are few."
+wings: [people]
+themes: [linguistics, medicine]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/murcia, confidence: low, note: "Associated with مرسية per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص469"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch59
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

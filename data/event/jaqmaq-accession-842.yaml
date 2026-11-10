@@ -1,0 +1,22 @@
+id: event/jaqmaq-accession-842
+class: event
+kind: other
+label: { ar: "خلع العزيز وتولية جقمق", en: "Deposition of al-Aziz and accession of Jaqmaq" }
+summary:
+  ar: "في سنة اثنتين وأربعين وثمانمائة خلع الأمراء الملك العزيز يوسف بن برسباي بعد أن كان له في السلطنة ثلاثة أشهر، وأقيم مكانه الملك الظاهر أبو سعيد جقمق {cite:shadharat-dhahab p. 243}."
+  en: "In 842 the amirs deposed al-Aziz Yusuf ibn Barsbay after a sultanate of three months and installed al-Zahir Abu Sa'id Jaqmaq in his place {cite:shadharat-dhahab p. 243}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1438~", hijri: "0842", calendar: julian, precision: year, status: tradition, derived: true, note: "842هـ {cite:shadharat-dhahab p. 243}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/jaqmaq-al-zahiri, role: "السلطان المُقام", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 842)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

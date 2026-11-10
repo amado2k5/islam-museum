@@ -1,0 +1,26 @@
+id: award/dutch-album-top-100
+class: award
+kind: chart
+label: { ar: "قائمة أفضل مئة ألبوم في هولندا", en: "Dutch Album Top 100", ur: "ڈچ البم ٹاپ 100" }
+summary:
+  ar: "القائمة الأسبوعية لأكثر مئة ألبوم مبيعا في هولندا، يعدها موقع داتش تشارتس؛ يسجّل المتحف أعلى مرتبة بلغها ألبوم، مثل المرتبة التاسعة والستين لألبوم يوسف إسلام «An Other Cup» سنة 2006."
+  en: "The weekly list of the hundred best-selling albums in the Netherlands, compiled by Dutch Charts; the museum records an album's peak, such as number 69 for Yusuf Islam's An Other Cup in 2006."
+  ur: "ہالینڈ میں سب سے زیادہ بکنے والے سو البمز کی ہفتہ وار فہرست؛ جیسے 2006 میں «این ادر کپ» کا انہترواں نمبر۔"
+wings: [today]
+themes: [music]
+regions: [andalus-europe]
+fields: [music]
+country: nl
+recurs: weekly
+footprint:
+  wikipedia: { languages: [en, es, fa, he, id, ko, nl, ru, uk, zh], checked: "2026-11-07", sources: [source/wikidata-dutch-album-top-100] }
+  wikidata: "Q2280058"
+external_ids: { wikidata: "Q2280058" }
+sources: [source/wikipedia-dutch-album-top-100-en, source/wikidata-dutch-album-top-100, source/wikipedia-egypt-youssou-ndour-en, source/wikipedia-an-other-cup-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Dutch Album Top 100' (revision 1246307509) and Wikidata Q2280058 (revision 2538552373), read in Chrome on the founder's Mac on 7 November 2026; peaks from the chart tables of the album articles, each row citing the chart's archive"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b07
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-opus-5-5)" }

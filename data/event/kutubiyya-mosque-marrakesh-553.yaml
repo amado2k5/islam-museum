@@ -1,0 +1,23 @@
+id: event/kutubiyya-mosque-marrakesh-553
+class: event
+kind: founding
+label: { ar: "جامع الكتبية بمراكش", en: "The Kutubiyya mosque at Marrakesh" }
+summary:
+  ar: "شيّد عبد المؤمن علي بن يوسف الموحدي جامع الكتبية بمراكش نحو سنة 553هـ/1158م، وصارت منارته أعظم منائر الغرب الإسلامي {cite:tarikh-ibn-khaldun-ibar}."
+  en: "The Almohad caliph Abd al-Mu'min built the Kutubiyya mosque at Marrakesh about 553/1158 — its minaret the grandest of the Islamic West {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "موحد خلیفہ عبدالمومن نے تقریباً 553ھ/1158ء میں مراکش میں کتبیہ مسجد بنوائی جس کا مینار مغربی اسلام کا عظیم ترین ہے {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1158~", hijri: "0553", precision: year, status: tradition, derived: true }
+  end: { edtf: "1158~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/marrakesh, sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Marrakesh story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-marrakesh
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

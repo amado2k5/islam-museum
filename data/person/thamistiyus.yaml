@@ -1,0 +1,21 @@
+id: person/thamistiyus
+class: person
+label: { ar: "ثامسطيوس", en: "Thamistiyus" }
+summary:
+  ar: "ثامسطيوس مفسر كتب أرسطاليس، وكان كاتب ليوليانوس المرتد إلى مذهب الفلاسفة عن النصرانية بعد جالينوس، وله كتاب إلى ليوليانوس في التدبير وكتاب النفس مقالتان ورسالة إلى ليوليانوس الملك {cite:fihrist-ibn-al-nadim p. 355}."
+  en: "Themistius — Julian's secretary and Aristotle's commentator {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+born: { edtf: "317", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Themistius bio (Late Roman philosophy)" }
+died: { edtf: "388", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Themistius bio (Late Roman philosophy)" }
+relations:
+  - { type: lived_in, target: place/constantinople, sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch19

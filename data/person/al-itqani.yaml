@@ -1,0 +1,32 @@
+id: person/al-itqani
+class: person
+label: { ar: "أبو حنيفة الإتقاني، قوام الدين", en: "Abu Hanifa al-Itqani, Qawam al-Din" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+gender: male
+wings: [people]
+summary:
+  ar: "أمير كاتب بن أمير عمر بن أمير غازي، قوام الدين أبو حنيفة الإتقاني الفارابي، رأس في الحنفية وبارع في الفقه واللغة العربية وغيرها من العلوم، ولي قضاء بغداد، ودرّس بدار الحديث بالظاهرية في دمشق، ثم صار من أعيان العلماء بالقاهرة. من تصانيفه «غاية البيان» شرح الهداية، و«التبيين في أصول المذهب» شرح أصول الأخسيكثي، و«شرح البزدوي». عاش بين 685 و758هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2053} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2054}"
+  en: "Amir Katib ibn Amir Umar ibn Amir Ghazi, Qawam al-Din Abu Hanifa al-Itqani al-Farabi, a leader of the Hanafi school, skilled in law, Arabic and other sciences. He held the judgeship of Baghdad, taught at the Zahiriyya house of hadith in Damascus, and later became a leading scholar in Cairo. His works include 'Ghayat al-bayan', a commentary on the Hidaya, 'al-Tabyin' on the principles of the school, a commentary on al-Akhsikathi, and a commentary on al-Bazdawi. He lived from 685 to 758 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2053} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2054}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2053"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 2/306; 697–758 AH)" }
+died: { edtf: "1357", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 2/306; 697–758 AH)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: درّس بدار الحديث بالظاهرية في دمشق", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

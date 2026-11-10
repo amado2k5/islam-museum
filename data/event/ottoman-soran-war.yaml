@@ -1,0 +1,23 @@
+id: event/ottoman-soran-war
+class: event
+kind: war
+label: { ar: "الحرب العثمانية السورانية", en: "Ottoman-Soran War" }
+summary:
+  ar: "بطاقة أولية لالحرب العثمانية السورانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Ottoman-Soran War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1834", precision: year, status: tradition, derived: true }
+  end: { edtf: "1836", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q135410476
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

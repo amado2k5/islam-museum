@@ -1,0 +1,28 @@
+id: person/molla-muhyiddin
+class: person
+label:
+  ar: "المولى محيي الدين محمد"
+  en: "Molla Muhyi al-Din"
+names:
+  - { kind: full, lang: ar, value: "محيي الدين محمد" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "المولى محيي الدين محمد، من علماء عهد محمد الفاتح؛ ينقل الصلابي أن الوزراء لما عجزوا عن الشفاعة لغلام ضرب قاضي أدرنة التمسوا منه إصلاح الأمر لدى السلطان، فقال للفاتح: «إن النائب بقيامه عن مجلس القضاء بسبب الغضب سقط عن رتبة القضاء، فلم يكن هو عند الضرب قاضياً فلم يلزم تحقير الشرع حتى يحل قتله»، فسكت السلطان محمد خان {cite:dawlat-uthmaniyya-salabi p. 147}."
+  en: "Molla Muhyi al-Din Muhammad, a scholar of Mehmed II's reign; when the viziers' intercession failed for the page who had struck Edirne's qadi, they begged him to make the sultan's peace. He argued: 'the deputy, by rising from the bench in anger, fell from the rank of judge — so at the moment of the blow he was no qadi, and the law's dishonour does not warrant killing.' The sultan fell silent {cite:dawlat-uthmaniyya-salabi p. 147}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch112
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1495", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shaqa'iq al-Numaniyya" }
+relations:
+  - { type: lived_in, target: place/edirne, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }

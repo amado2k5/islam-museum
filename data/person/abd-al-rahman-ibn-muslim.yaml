@@ -1,0 +1,18 @@
+id: person/abd-al-rahman-ibn-muslim
+class: person
+label: { ar: "عبد الرحمن بن مسلم الباهلي", en: "Abd al-Rahman ibn Muslim al-Bahili" }
+summary:
+  ar: "عبد الرحمن بن مسلم الباهلي أخو قتيبة؛ وجهه إلى خرزاد أخي ملك خوارزم فقاتله فقتله وظفر بأربعة آلاف أسير فقتلهم."
+  en: "Abd al-Rahman ibn Muslim al-Bahili, Qutayba's brother; sent against Khurrazad he killed him and slew four thousand captives."
+periods: [period/umayyad]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: traveled_to, target: place/khwarizm, note: "Sent by his brother Qutayba against Khurrazad, brother of the king of Khwarazm; fought and killed him.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

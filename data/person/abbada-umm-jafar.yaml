@@ -1,0 +1,23 @@
+id: person/abbada-umm-jafar
+class: person
+label: { ar: "عبادة أم جعفر البرمكي", en: "'Abbada, Ja'far's mother" }
+summary:
+  ar: "أم جعفر بن يحيى البرمكي، رآها محمد بن عبد الرحمن الهاشمي عند والدته يوم نحر في أثواب رثة متكلمة برزة بعد نكبة بني برمك {cite:muruj-al-dhahab p. 369}."
+  en: "Ja'far al-Barmaki's mother — seen on a feast-day in rags, telling what had befallen her house {cite:muruj-al-dhahab p. 369}."
+gender: female
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
+died: { edtf: "803~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muruj al-Dhahab" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Mother of Ja'far al-Barmaki; the Barmakid household and its fall were centred in Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }

@@ -1,0 +1,25 @@
+id: building/qadam-sharif-mosque-delhi
+class: building
+kind: mosque
+label: { ar: "مسجد القدم الشريف، دلهي", en: "Qadam Sharif Mosque, Delhi", ur: "قدم شریف مسجد، دہلی" }
+summary:
+  ar: "مسجد صغير بناه فيروز شاه تغلق داخل سور ضريح ابنه فتح خان ومقام القدم الشريف في دلهي قرب پهاڑ گنج، على الطراز الفيروزي، وهو اليوم خراب {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 introduction} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 75}."
+  en: "A small mosque built by Firuz Shah Tughluq inside the walled enclosure of his son Fath Khan's tomb and the Qadam Sharif shrine near Paharganj in Delhi, in the Firuzian style, now in ruins {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 introduction} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 75}."
+  ur: "دہلی میں پہاڑ گنج کے قریب فیروز شاہ تغلق کے بیٹے فتح خان کے مقبرے اور قدم شریف کے احاطے میں فیروزی طرز کی چھوٹی مسجد، جو اب کھنڈر ہے {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 introduction} {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 75}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1374", calendar: julian, precision: year, status: historical, note: "The author gives 1374 for the tomb, mosque, madrasa and tank of the Qadam Sharif complex", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+materials: [stone]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+  - { type: related_to, target: building/jami-masjid-firuzabad-delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
+provenance:
+  layer: own-research
+  source: "Seema Khan 2011, printed pp. 75, 95, 111"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

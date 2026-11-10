@@ -1,0 +1,23 @@
+id: event/battle-of-tel-el-khuweilfe-1917
+class: event
+kind: battle
+label: { ar: "معركة تل الخويلفة", en: "Battle of Tel el Khuweilfe" }
+summary:
+  ar: "بطاقة أولية لمعركة تل الخويلفة سنة ١٩١٧م، صد العثمانيين للتقدم البريطاني نحو بئر السبع؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tel el Khuweilfe in 1917, the Ottoman defense before Beersheba; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1917", precision: year, status: tradition, derived: true }
+  end: { edtf: "1917", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16934180
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-9-1398
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/muhammad]
+work: work/muwatta-malik
+ref: "1398"
+label: { ar: "الموطأ 1398 — ابن شهاب: ما نحر رسول الله عنه وعن أهل بيته إلا بدنة واحدة أو بقرة واحدة", en: "Muwatta 1398" }
+summary:
+  ar: "يروي مالك عن ابن شهاب أنه قال ما نحر رسول الله عنه وعن أهل بيته إلا بدنة واحدة أو بقرة واحدة. قال مالك لا أدري أيهما قال ابن شهاب. ويذكر المحقق أن بعضهم رواه عن الزهري عن عمرة عن عائشة، والظاهر أن الزهري لم يسمعه من عمرة. {cite:muwatta-maruf-1997 p.626}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1398 at PDF p. 626; الشركة في الضحايا", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b24" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 626; matn excerpt at most 40 words" }

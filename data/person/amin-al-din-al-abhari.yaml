@@ -1,0 +1,28 @@
+id: person/amin-al-din-al-abhari
+class: person
+label:
+  ar: "أمين الدين الأبهري"
+  en: "Eminuddin Ebheri"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لأمين الدين الأبهري؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Eminuddin Ebheri, the Ottoman writer (astronomer and mathematician, d. 1333); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136333639
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0096
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1333~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shadharat al-Dhahab" }
+relations:
+  - { type: lived_in, target: place/abhar, note: "Place association from the person's nisba/name (الأبهري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

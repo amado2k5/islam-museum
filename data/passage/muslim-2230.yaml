@@ -1,0 +1,14 @@
+id: passage/muslim-2230
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2230"
+label: { ar: "مسلم 2230 — من أتى عرافاً فسأله لم تقبل له صلاة أربعين ليلة", en: "Muslim 2230 — Asking a soothsayer voids forty nights' prayer" }
+text: "عن بعض أزواج النبي عن النبي: من أتى عرافاً فسأله عن شيء لم تقبل له صلاة أربعين ليلة"
+summary:
+  ar: "رواية بعض أزواج النبي في باب من أتى عرافاً لم تقبل له صلاة من كتاب السلام في صحيح مسلم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب السلام، باب من أتى عرافاً (طبعة دار التأصيل، الحديث 2296؛ ترقيم عبد الباقي المعروف 2230)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,23 @@
+id: person/al-ablaq-al-azdi
+class: person
+label: { ar: "الأبلق الأزدي", en: "al-Ablaq al-Azdi" }
+summary:
+  ar: "من عرافي العرب عند المسعودي، والعراف دون الكاهن، ومنهم أيضاً الأحلج الدهري وعروة {cite:muruj-al-dhahab p. 484-485}."
+  en: "One of the Arabs' 'arrafs — the diviner a rank below the kahin — alongside al-Ahlaj al-Dahri and 'Urwa {cite:muruj-al-dhahab p. 484-485}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+born: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
+relations:
+  - { type: lived_in, target: place/arabian-peninsula, note: "One of the Arabs' diviners per al-Masudi; no specific locality attested.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

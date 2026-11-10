@@ -1,0 +1,27 @@
+id: event/ibn-abd-al-barr-birth-368
+class: event
+kind: birth
+label:
+  ar: "ميلاد ابن عبد البر بقرطبة يوم الجمعة لخمس بقين من ربيع الآخر ٣٦٨هـ"
+  en: "Ibn 'Abd al-Barr is born at Cordoba, Friday 25 Rabi' II 368/29 November 978"
+  ur: "ابن عبد البر کی پیدائش قرطبہ میں، جمعہ 25 ربیع الثانی 368ھ/29 نومبر 978ء"
+summary:
+  ar: "وُلد أبو عمر يوسف بن عبد الله بن محمد بن عبد البر النمري القرطبي يوم الجمعة والإمام يخطب لخمس بقين من ربيع الآخر سنة ثمان وستين وثلاثمائة، وهو اليوم التاسع والعشرون من نونبر كما أراه طاهر بن مفوز بخط أبيه {cite:tarikh-islam-dhahabi p. 137}، وقال ابن عبد البر ولدت مع أبي عمران الغفجومي في سنة واحدة {cite:tarikh-islam-dhahabi p. 137}؛ وفي جذوة المقتبس وبغية الملتمس مولده في رجب سنة اثنتين وستين {cite:tarikh-islam-dhahabi p. 137}."
+  en: "Abu 'Amr Yusuf ibn 'Abd Allah ibn Muhammad ibn 'Abd al-Barr al-Namari al-Qurtubi was born on a Friday while the imam was preaching, five days before the end of Rabi' II 368 — 29 November 978 in his father's hand, as Tahir ibn Mufawwiz recorded it {cite:tarikh-islam-dhahabi p. 137}; he said himself he was born the same year as Abu 'Imran al-Ghafjumi {cite:tarikh-islam-dhahabi p. 137}, while al-Judhwa and al-Bughya give Rajab 362 {cite:tarikh-islam-dhahabi p. 137}."
+  ur: "ابو عمر یوسف بن عبد اللہ بن محمد بن عبد البر نمری قرطبی جمعہ کے روز پیدا ہوئے جب امام خطبہ دے رہا تھا، ربیع الثانی 368ھ کے باقی پانچ دنوں میں — والد کے خط میں 29 نومبر 978ء جیسا کہ طاہر بن مفوز نے دکھایا {cite:tarikh-islam-dhahabi p. 137}؛ خود انہوں نے کہا کہ وہ ابو عمران غفجومی کے ساتھ ایک ہی سال پیدا ہوئے {cite:tarikh-islam-dhahabi p. 137}، جبکہ جذوۃ المقتبس اور بغیۃ الملتس میں رجب 362ھ ہے {cite:tarikh-islam-dhahabi p. 137}۔"
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0978-11-29", hijri: "0368-04-25", calendar: julian, precision: day, status: tradition, derived: true, note: "ولدت يوم الجمعة والإمام يخطب لخمس بقين من ربيع الآخر سنة ثمان وستين وثلاثمائة، اليوم التاسع والعشرون من نونبر {cite:tarikh-islam-dhahabi p. 137}؛ التحويل مشتق؛ رواية أخرى رجب ٣٦٢.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-abd-al-barr, role: "المولود", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 463 printed pp. 136-137 (harvest OCR vol 461-470); Ibn Khallikan, Wafayat al-A'yan (ihsan-abbas) v7"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-abd-al-barr-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-alamana-1821
+class: event
+kind: battle
+label: { ar: "معركة الأمانة", en: "Battle of Alamana" }
+summary:
+  ar: "بطاقة أولية لمعركة الأمانة سنة ١٨٢١م، سقوط أثناسيوس دياكوس أمام العثمانيين في أول استقلال اليونان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Alamana in 1821, Athanasios Diakos's stand against the Ottomans at the Greek rising's start; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821", precision: year, status: tradition, derived: true }
+  end: { edtf: "1821", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2570192
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Greek independence histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

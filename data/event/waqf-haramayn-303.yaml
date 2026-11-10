@@ -1,0 +1,22 @@
+id: event/waqf-haramayn-303
+class: event
+kind: other
+label: { ar: "وقف المقتدر على الحرمين", en: "al-Muqtadir's Endowment for the Two Sanctuaries" }
+summary:
+  ar: "في سنة ثلاث وثلاثمائة وقف المقتدر بالله كثيرًا من المستغلات السلطانية على الحرمين، وأحضر القضاة والعدول فأشهدهم على نفسه بذلك {cite:muntazam-ibn-al-jawzi p. 418}."
+  en: "In 303 al-Muqtadir endowed many crown revenues on the two Sanctuaries, summoning the judges and witnesses to record it against himself {cite:muntazam-ibn-al-jawzi p. 418}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٠٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 418}." }
+relations:
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "الواقف", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,32 @@
+id: group/islamic-relief
+class: group
+kind: relief-agency
+aliases: [listing/islamic-relief]
+label: { ar: "الإغاثة الإسلامية عبر العالم", en: "Islamic Relief Worldwide", ur: "اسلامک ریلیف ورلڈ وائیڈ" }
+summary:
+  ar: "منظمة إغاثة وتنمية دولية غير حكومية أسسها هاني البنا وزملاء له من طلاب جامعة برمنغهام سنة 1984، مقرها الدولي برمنغهام، ولها مكاتب وفروع في أكثر من أربعين بلدا؛ بلغ دخلها 275.6 مليون جنيه سنة 2024، وتعرّضت لاتهامات من إسرائيل والإمارات وغيرهما نفتها، وبرّأها تدقيق مستقل من تمويل الإرهاب سنة 2014."
+  en: "An international relief and development NGO founded in 1984 by Hany El-Banna and fellow students of the University of Birmingham, with its international headquarters in Birmingham and offices and branches in more than forty countries; its income was £275.6 million in 2024. It has faced allegations from Israel, the UAE and others, which it denies, and an independent audit in 2014 found no link to terrorism."
+  ur: "بین الاقوامی امدادی اور ترقیاتی غیر سرکاری تنظیم جسے ہانی البنا اور برمنگھم یونیورسٹی کے ان کے ساتھی طلبہ نے 1984 میں قائم کیا؛ بین الاقوامی صدر دفتر برمنگھم میں اور چالیس سے زیادہ ممالک میں دفاتر اور شاخیں ہیں؛ 2024 میں آمدنی 27 کروڑ 56 لاکھ پاؤنڈ رہی۔ اسرائیل، امارات اور دیگر کی جانب سے الزامات لگے جنہیں تنظیم نے مسترد کیا، اور 2014 کے ایک آزاد آڈٹ میں دہشت گردی سے کوئی تعلق نہیں ملا۔"
+wings: [today, made]
+themes: [modern-relief-and-development, humanitarian-principles, zakat-and-sadaqa]
+regions: [andalus-europe, global]
+founded: { edtf: "1984", hijri: "1404~", calendar: gregorian, precision: year, status: historical, derived: true, note: "The Hijri year (1404 to 1405) is converter-derived.", sources: [source/wikipedia-islamic-relief-en] }
+founder: person/hany-el-banna
+scope: international
+countries: [gb, us, de, se, ba, sd, pk, bd, ye, sy, ps, iq, id, jo, af]
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-islamic-relief-en] }
+footprint:
+  wikipedia: { languages: [ar, ceb, de, en, eo, fr, gl, it, nl, ru, sv, ur], checked: "2026-11-06", sources: [source/wikipedia-islamic-relief-en] }
+  wikidata: "Q239714"
+  catalogues: { uk_charity_commission: "328158" }
+relations:
+  - { type: founded_by, target: person/hany-el-banna, note: "with fellow students of the University of Birmingham", sources: [source/wikipedia-islamic-relief-en] }
+external_ids: { wikidata: "Q239714" }
+sources: [source/wikipedia-islamic-relief-en, source/wikidata]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Islamic Relief' (revision 1383866571, 5 November 2026), read in Chrome on the founder's Mac on 6 November 2026; `countries` lists the countries the article names for national offices, member offices or programmes, not an exhaustive list; merges the draft card listing/islamic-relief (Devin, listings lane, via Wikidata, 2026-10-16), now an alias"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-pilot-b03
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

@@ -1,0 +1,10 @@
+---
+id: person/hafiz-ali-korca
+lang: en
+source_lang: ar
+translators: []
+---
+
+Hafiz Ali Korça (5 April 1873 – 7 January 1957) was an Albanian 'alim from Korçë, born into a family of religious scholars; by the age of twelve he had memorised the Qur'an, the achievement behind the honorific by which he is commonly known.{cite:wikipedia-hafiz-ali-korca-en} Educated at Korçë and then at the Çifte Minareli madrasa in Istanbul, he threw himself into the Albanian national movement: he taught without pay at the Albanian boys' school in Korçë, spoke for the Latin alphabet at the Congress of Dibër, and backed the 1909 Congress of Elbasan that laid the foundations of national education.{cite:wikipedia-hafiz-ali-korca-sq} In 1916 he became director of education for Tirana, Durrës and central Albania and, the same year, Grand Mufti of the Upper Sharia Council, a post he held until 1924; he was also a founder and teacher of the Medrese of Tirana, where he reformed the curriculum and wrote textbooks.{cite:wikipedia-hafiz-ali-korca-en}{cite:wikipedia-hafiz-ali-korca-sq}
+
+His pen carried both religious learning and national letters into Albanian: a Mawlid (1900), renderings of Saadi's Gulistan and Bustan (1918) and of Omar Khayyam's Rubaiyat (1930) from the Persian, a commentary on parts of the Qur'an, and a translation of parts of the Qur'an itself, published in 1926.{cite:wikipedia-hafiz-ali-korca-en} In 1925 his Bolshevizma a çkatërrim i njerëzimit (Bolshevism: The Destruction of Humanity) made him the first Albanian to attack communism in print — a stance the communist regime later answered by interning him at Kavajë and keeping him under surveillance into his eighties.{cite:wikipedia-hafiz-ali-korca-en}{cite:wikipedia-hafiz-ali-korca-sq} He died at Kavajë and was buried there; the Albanian biography and Wikidata date the death to 7 January 1957, while the English article gives 31 December 1957.{cite:wikipedia-hafiz-ali-korca-sq}{cite:wikidata-hafiz-ali-korca}{cite:wikipedia-hafiz-ali-korca-en}

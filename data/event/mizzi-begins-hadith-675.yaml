@@ -1,0 +1,27 @@
+id: event/mizzi-begins-hadith-675
+class: event
+kind: other
+label:
+  ar: "المزي يبدأ طلب الحديث، أول سنة ٦٧٥هـ"
+  en: "Al-Mizzi begins the quest for hadith, start of 675/1276"
+  ur: "مزی کا طلبِ حدیث کا آغاز، 675ھ/1276ء کے اوائل میں"
+summary:
+  ar: "طلب المزي الحديث بنفسه في أول سنة خمس وسبعين وستمائة وله نحو إحدى وعشرين سنة، فأكثر عن أصحاب ابن طبرزد وحنبل والكندي وابن الخرستاني ونحوهم، وسمع الكتب الطوال كالكتب الستة والمسند والمعجم الكبير وتاريخ الخطيب {cite:tarikh-islam-dhahabi p. 486} {cite:durar-kamina-jil-1993 4/457}؛ وكان قد انتقل صغيراً مع والديه إلى المزة قرب دمشق حيث تلقى تعليماً تقليدياً في القرآن وبعض الفقه {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}."
+  en: "Al-Mizzi sought hadith on his own initiative at the start of 675/1276, aged about twenty-one, hearing extensively from the pupils of Ibn Tabarzad, Hanbal, al-Kindi, Ibn al-Kharistani and their likes, and hearing the long books — the Six Books, the Musnad, al-Mu'jam al-Kabir and the Tarikh of al-Khatib {cite:tarikh-islam-dhahabi p. 486} {cite:durar-kamina-jil-1993 4/457}; he had moved as a child with his parents to al-Mizza near Damascus, where he received a traditional education in Qur'an and some fiqh {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}."
+  ur: "مزی نے 675ھ/1276ء کے آغاز میں تقریباً اکیس برس کی عمر میں خود حدیث کی طلب شروع کی اور ابن طبرزد، حنبل، کندی اور ابن الخرستانی کے شاگردوں وغیرہ سے کثرت سے سنا، اور طویل کتب — کتبِ ستہ، مسند، المعجم الکبیر اور تاریخ الخطیب — کی سماعت کی {cite:tarikh-islam-dhahabi p. 486} {cite:durar-kamina-jil-1993 4/457}؛ وہ بچپن میں والدین کے ساتھ دمشق کے قریب المزہ منتقل ہوئے جہاں قرآن اور کچھ فقہ کی روایتی تعلیم پائی {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1276~", hijri: "0675", calendar: julian, precision: year, status: tradition, derived: true, note: "«طلب الحديث في أول سنة خمس وسبعين» {cite:tarikh-islam-dhahabi p. 486} {cite:durar-kamina-jil-1993 4/457}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "الطالب المبتدئ", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed p. 486 (harvest OCR); Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 4/457 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi, printed p. 240"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

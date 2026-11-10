@@ -1,0 +1,23 @@
+id: building/sharaf-al-dawla-observatory
+class: building
+kind: observatory
+label:
+  ar: رصد شرف الدولة ببغداد
+  en: Sharaf al-Dawla's observatory at Baghdad
+summary:
+  ar: "الرصد الذي أقامه السلطان البويهي شرف الدولة ببغداد سنة ثمان وسبعين وثلثمائة؛ تقدّم برصد الكواكب السبعة في مسيرها وتنقلها في بروجها على مثل ما كان المأمون فعله في أيامه، فبُني بيت في دار الملكة في آخر البستان محكماً، ورُصد وكُتب به محضر أُخذ فيه بخطوط من يعرف الهندسة بحسن صناعة هذا الموضع لهذا البيت {cite:muntazam-ibn-al-jawzi j.7 p.145}."
+  en: "The observatory the Buyid sultan Sharaf al-Dawla commissioned at Baghdad in 378: he ordered the observation of the seven planets in their courses and zodiacal transits on the model of what al-Ma'mun had done, and a well-built observing house went up at the back of the garden in Dar al-Mamlaka, its sightings written into a register drawn up by those who knew geometry {cite:muntazam-ibn-al-jawzi j.7 p.145}."
+wings: [objects]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [astronomy-and-timekeeping]
+relations:
+- { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+- { type: founded_by, target: person/sharaf-al-dawla, role: "أمر بالرصد على مثل ما فعل المأمون سنة 378هـ", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 378)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

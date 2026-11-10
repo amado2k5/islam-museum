@@ -1,0 +1,21 @@
+id: person/abdallah-ibn-al-kawwa-al-yashkuri
+class: person
+label: { ar: "عبد الله بن الكواء اليشكري", en: "'Abd Allah ibn al-Kawwa' al-Yashkuri" }
+summary:
+  ar: "رجل من بكر بن وائل جعلته الحرورية على صلاتهم حين اعتزلوا إلى حروراء، وكان شبيب بن ريعي على أمرهم، وناظرهم علي فعادوا معه إلى الكوفة {cite:muruj-al-dhahab p. 685}."
+  en: "The Bakri whom the Hururiyya made their prayer-leader at Harura' — part of the secession Ali argued back into Kufa {cite:muruj-al-dhahab p. 685}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "658~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "Hururiyya prayer-leader at Harura' whom Ali argued back and who returned with him to Kufa.", sources: [source/muruj-al-dhahab], confidence: medium }

@@ -1,0 +1,36 @@
+id: person/arwa-bint-al-harith
+class: person
+label: { en: "Arwa bint al-Harith", ar: "أروى بنت الحارث بن عبد المطلب", ur: "ارویٰ بنت الحارث" }
+names:
+  - { kind: full, lang: ar, value: "أروى بنت الحارث بن عبد المطلب الهاشمية" }
+  - { kind: kunya, lang: ar, value: "العمة" }
+gender: female
+roles: [poet]
+traditions: [sunni]
+summary:
+  en: "Aunt of the Prophet, daughter of al-Harith ibn Abd al-Muttalib, remembered as the most eloquent of the Hashimite women at Mu'awiya's court: she rebuked Mu'awiya, Amr ibn al-As and Marwan ibn al-Hakam in turn, extracted six thousand dinars for her grievances, declared that Ali fulfilled the trust while Mu'awiya squandered his, and returned to Medina when Mu'awiya dismissed her."
+  ar: "عمة النبي، ابنة الحارث بن عبد المطلب؛ وصفها كحالة بأنها كانت أغلظ الوافدات على معاوية بن أبي سفيان خطاباً، فأنكرته وعمرو بن العاص ومروان بن الحكم واحداً واحداً، وطلبت منه ستة آلاف دينار لما كانت لها من حق على آل علي، وقالت إن علياً أدى الأمانة وعمل بأمر الله وأنه ضيّع أمانته وخان الله في ماله، ثم عادت إلى المدينة بعد أن أكرمها معاوية."
+wings: [people]
+themes: [women, literature, politics-governance-and-authority]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: poet, status: tradition, note: "تراثيّةً لها أبيات ترثي أباها عبد المطلب عند كحالة.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+faith:
+  - { value: sunni, basis: tradition, note: "من آل عبد المطلب؛ تسجَّل في الإطار السني للمتحف." }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: traveled_to, target: place/medina, note: "From text: returned to Medina", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: child_of, target: person/al-harith-ibn-abd-al-muttalib, note: "ابنة الحارث بن عبد المطلب؛ أخوها لأمها صفية بنت عبد المطلب التي تزوجها النبي {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 32}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/abd-al-muttalib, note: "جدّها عبد المطلب بن هاشم، عمّها لأبيها النبي محمد.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: opposed, target: person/muawiya-ibn-abi-sufyan, note: "حاورة معاوية في قصره بعد وفاة علي فأنكرته وعرضت عليه لعنات ثم أعطيت ألفي دينار ستة آلاف {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 32-35}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: opposed, target: person/amr-ibn-al-as, note: "وبخته «يا ابن اللخناء» على ادعائه غير نسبه {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 32-33}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: opposed, target: person/marwan-ibn-al-hakam, note: "قالت له إنها أشبه بسفيان بن الحارث بن كلدة في زرقة العينين وحمرة الشعر {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 33}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 2, generated_by: "Devin; A'lam al-Nisa' vol. 1 pp. 32-35 (PDF), entry أروى بنت الحارث" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

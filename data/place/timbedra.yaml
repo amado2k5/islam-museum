@@ -1,0 +1,20 @@
+id: place/timbedra
+class: place
+kind: city
+label: { ar: "تمبدغة", en: "Timbédra" }
+summary:
+  ar: "بلدة في ولاية الحوض الشرقي بموريتانيا."
+  en: "Town in Hodh Ech Chargui, Mauritania."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [16.24133, -8.16433]
+coordinate_precision: locality
+coordinate_note: "Wikidata Q986057 coordinates; representative point for the city."
+external_ids: { wikidata: "Q986057", geonames: "2376115" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Coordinates, labels and identifiers from Wikidata Q986057 and GeoNames; entity created so persons' place relations resolve on the map."

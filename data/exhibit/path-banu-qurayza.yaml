@@ -1,0 +1,76 @@
+id: exhibit/path-banu-qurayza
+class: exhibit
+kind: trail
+label:
+  ar: بنو قريظة
+  en: Banu Qurayza
+summary:
+  ar: 'مسار في حصار بني قريظة: النقض والمحاصرة، وحكم سعد بن معاذ، وعاقبة يوم غيرت التاريخ — بطاقة الأحداث.'
+  en: A trail through the siege of Qurayza.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: النقض
+    en: The breach
+  body:
+    ar: 'الخندق وما بعده: التحالف ينكشف.'
+    en: 'الخندق وما بعده: التحالف ينكشف.'
+  features:
+  - event/siege-of-banu-qurayza
+  - place/medina
+- title:
+    ar: الحصار
+    en: The siege
+  body:
+    ar: 'خمسة وعشرون ليلة: الحصار يشتد.'
+    en: 'خمسة وعشرون ليلة: الحصار يشتد.'
+  features:
+  - event/siege-of-banu-qurayza
+  - event/siege-of-banu-qurayza
+- title:
+    ar: الحكم
+    en: The verdict
+  body:
+    ar: 'سعد يحكم: حكم القبيلة على نفسها.'
+    en: 'سعد يحكم: حكم القبيلة على نفسها.'
+  features:
+  - person/sad-ibn-muadh
+  - event/siege-of-banu-qurayza
+- title:
+    ar: العاقبة
+    en: The outcome
+  body:
+    ar: 'الرجال والنساء والأموال: نهاية القبيلة.'
+    en: 'الرجال والنساء والأموال: نهاية القبيلة.'
+  features:
+  - event/siege-of-banu-qurayza
+  - place/medina
+- title:
+    ar: الدرس
+    en: The lesson
+  body:
+    ar: 'بطاقات المتحف: قراءة متوازنة.'
+    en: 'بطاقات المتحف: قراءة متوازنة.'
+  features:
+  - event/siege-of-banu-qurayza
+  - concept/adab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

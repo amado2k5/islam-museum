@@ -1,0 +1,36 @@
+id: person/ibn-abi-usaybia-ahmad
+class: person
+label: { ar: "ابن أبي أصيبعة أحمد بن القاسم", en: "Ibn Abi Usaybi'a, Ahmad ibn al-Qasim" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن القاسم بن خليفة بن يونس السعدي الخزرجي" }
+gender: male
+roles: [physician, historian]
+traditions: [sunni]
+died: { edtf: "1270~", hijri: "0668", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب ومؤرخ للطب من أسرة دمشقية، وصنّف «عيون الأنباء في طبقات الأطباء»."
+  en: "A physician and historian of medicine from a Damascene family, author of ʿUyun al-Anba' fi Tabaqat al-Atibba'."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص131"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch56
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

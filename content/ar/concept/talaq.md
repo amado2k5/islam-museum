@@ -1,0 +1,29 @@
+---
+id: concept/talaq
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+يعرض الشعراوي في تفسير آيات البقرة 228-232 الطلاق المتدرّج مرةً ومرتين، ويرى أنه يفتح للزوجين فرصة الإصلاح، وأن الرجوع بعد انقضاء العدة يحتاج إلى عقد ومهر جديدين ورضا المرأة. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1003}
+
+## قبل الإسلام
+يصف الشعراوي حال المرأة في الجاهلية: كان الرجل يطلق امرأته ويراجعها مراراً دون ضابط، وتُترك معلّقة شهوراً، وتُنفى المرأة بعد وفاة زوجها. ويقول إن الإسلام حسم هذه الفوضى. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1001} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1002}
+
+## الطلاق مرةً ومرتين
+يرى الشعراوي أن الحكمة في جعل الطلاق مرةً ومرتين أن من لم يُصلح في المرة الأولى قد يُصلح في الثانية، فالله أعطى فسحة لتدارك الخطأ الأول. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1003}
+
+## الرجوع بعد العدة
+إذا انقضت العدة ثم أراد الزوجان الرجوع فلا يكون ذلك إلا بعقد ومهر جديدين. ويذكر أن الأهل قد يعطّلون الرجوع خوفاً من تكرار ما حدث، ويقول إن الرضا إذا تحقق فلا يصح أن يقف أحد في طريقه. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1003} {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1004}
+
+## رضا المرأة
+يلفت الشعراوي إلى أن الآية أسندت النكاح إلى النسوة، فقال «أن ينكحن أزواجهن»، وهذا يقتضي رضا المرأة بالعودة إلى زوجها، فلا يصح أن يطلقها ثم لا يكون لها رأي في العودة. {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1003}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى عمر عبد الكافي أن كثرة الطلاق التي تخرب البيوت سببها تبخّر الصبر من الزوجين، وأن «قذائف» الطلاق وطلبه تنطلق من الألسنة متى غاب الصبر، وينصح الزوج إذا استفزّته زوجته في ساعة غضب أن يصبر ولا يطلّق، وهذا رأيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep09 00:06:00}
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يقول [[person/yusuf-al-qaradawi|يوسف القرضاوي]] إن القرآن أقام الأسرة على حدود الله والمعروف، وإن الله أمر الرجال ألا يستجيبوا للعواطف بسرعة فيهدموا البيت عند أول غضب أو نفور. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:01:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:06:30} ويعلّل جعل الطلاق بيد الرجل بأن المرأة في رأيه أكثر عاطفية، وبأن الرجل يُفترض أن يكون أكثر نضجًا وتأملًا في العواقب. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:07:00} ويروي أن رجلًا طلّق امرأته لأنها قالت له إنها لا تحبه، فقال عمر إن البيوت قلّما بُنيت على الحب، وإنما يتعاشر الناس بالإسلام والإحسان. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:09:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep04 00:10:00}
+
+## في برنامج الشعراوي «لقاء الإيمان»
+في الحلقة الثالثة عشرة من [[work/likaa-al-iman|لقاء الإيمان]] يُسأل [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]] عن زوج يهدد زوجته دائماً بأن يذهب بها إلى بيت أبيها. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep13 00:06:00} فيقول إنه لا طلاق في هذا الكلام لأنه ليس فيه لفظ الطلاق: فإن أراد به التهديد لم يقع طلاق، وإن أراد به البينونة كان طلاقاً بائناً لا تحل له بعده إلا بعقد جديد. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep13 00:07:00} ويقسم الطلاق قسمين: صريح يأتي بمادة الطاء واللام والقاف، كقوله «أنتِ طالق» و«مطلقة»، وكناية تُفهم منها رغبته عنها كالمثال المذكور. {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep13 00:07:00} {cite:assabile-muhammad-metwally-al-shaarawy likaa-al-iman/ep13 00:07:30}

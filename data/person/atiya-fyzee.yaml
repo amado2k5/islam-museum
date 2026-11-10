@@ -1,0 +1,51 @@
+id: person/atiya-fyzee
+class: person
+label: { ar: "عطية فيضي", en: "Atiya Fyzee", ur: "عطیہ فیضی" }
+names:
+  - { value: "Atiya Fyzee", kind: full }
+  - { value: "عطية فيضي", kind: full }
+  - { value: "Atiya Fyzee-Rahamin", kind: alternate }
+  - { value: "Atiya Begum", kind: alternate }
+  - { value: "Shahinda", kind: pen }
+gender: female
+summary:
+  ar: "كاتبة ومصلحة اجتماعية وراعية للفنون من بومباي، أول امرأة من جنوب آسيا تدرس في كامبريدج بحسب مقالة ويكيبيديا الإنجليزية. اشتهرت بيومياتها الأردية عن إقامتها في لندن للتدريب على التعليم «زمانه تحصيل» التي نُشرت في مجلة «تہذيب نسوان»، وكتبت كتبًا رائدة في الموسيقى الهندية، وراسلت محمد إقبال وشبلي نعماني، وتزوجت الرسام صموئيل فيضي رحيمين سنة 1912، وانتقلت معه إلى كراتشي سنة 1948 حيث توفيت سنة 1967."
+  en: "Writer, social reformer and patron of the arts from Bombay, described by the English article as the first woman from South Asia to attend the University of Cambridge. She became known for Zamana-i-Tahsil, the Urdu diary of her London teacher-training stay published in Tehzeeb-e-Niswan, wrote pioneering books on Indian music, corresponded with Muhammad Iqbal and Shibli Nomani, married the painter Samuel Fyzee-Rahamin in 1912, and moved with him to Karachi in 1948, where she died in 1967."
+  ur: "بمبئی سے تعلق رکھنے والی مصنفہ، سماجی مصلح اور فنون کی سرپرست، جنہیں انگریزی مقالہ کیمبرج یونیورسٹی میں تعلیم حاصل کرنے والی پہلی جنوبی ایشیائی خاتون قرار دیتا ہے۔ لندن میں اساتذہ کی تربیت کے دوران لکھی گئی ان کی اردو ڈائری «زمانہ تحصیل» «تہذیب نسواں» میں شائع ہو کر ان کی شہرت کا سبب بنی؛ انہوں نے ہندوستانی موسیقی پر اولین کتابیں لکھیں، محمد اقبال اور شبلی نعمانی سے خط کتابت رہی، 1912 میں مصور سموئیل فیضی رحمین سے شادی کی اور 1948 میں ان کے ہمراہ کراچی منتقل ہو گئیں جہاں 1967 میں وفات پائی۔"
+roles: [writer, reformer, patron]
+wings: [people]
+regions: [south-asia]
+born:
+  edtf: "1877-08-01"
+  hijri: "1294"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Constantinople (Istanbul) on 1 August 1877, per the English and Urdu articles and Wikidata Q28018906. No source gives a Hijri pairing, so the Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-atiya-fyzee-en, source/wikipedia-atiya-fyzee-ur, source/wikidata-atiya-fyzee]
+died:
+  edtf: "1967-01-04"
+  hijri: "1386"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Karachi on 4 January 1967, per the English and Urdu articles and Wikidata Q28018906. The Urdu article places her grave beside her husband's in the Sulaimani Bohra enclosure of Karachi's Mewa Shah cemetery. Karachi has no place entity in the museum yet, so no died_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-atiya-fyzee-en, source/wikipedia-atiya-fyzee-ur, source/wikidata-atiya-fyzee]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-atiya-fyzee-en, source/wikipedia-atiya-fyzee-ur] }
+  - { type: spouse_of, target: person/samuel-fyzee-rahamin, sources: [source/wikipedia-atiya-fyzee-en, source/wikipedia-atiya-fyzee-ur, source/wikidata-atiya-fyzee] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article says she was born into an Ismaili Suleimani Bohra family related to the Tyabjis; the Urdu article calls her an Ismaili Bohra of the Tyabji family and places her grave in the Sulaimani Bohra enclosure of Karachi's Mewa Shah cemetery. The two articles are one source family, the English phrasing is family background, and Wikidata records no religion for her, so there is no second independent attestation of her own affiliation: the value stays unknown with the reading preserved here."
+    sources: [source/wikipedia-atiya-fyzee-en, source/wikipedia-atiya-fyzee-ur, source/wikidata-atiya-fyzee]
+external_ids: { wikidata: "Q28018906" }
+sources: [source/wikipedia-atiya-fyzee-en, source/wikipedia-atiya-fyzee-ur, source/wikidata-atiya-fyzee]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Atiya Fyzee' (revision 1365276690), Urdu Wikipedia 'عطیہ فیضی' (revision 12104600) and Wikidata item Q28018906 (item revision 2561029289), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use, and the revision dates re-verified in a second pass on 27 October 2026. No Arabic Wikipedia article exists for her, so the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (atiya, fyzee, faizi), by Arabic label across data/person, by biography and by QID found no prior record for her. The spouse_of edge to Samuel Fyzee-Rahamin is written here, in her record, because his record (century-additions-83) was built first and skipped the edge while hers did not exist. Sibling edges are skipped: her sisters Zehra and Nazli have no person records. The queue line for her sister Zehra was stopped this run over a date contradiction in the brief, reported separately."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-84
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

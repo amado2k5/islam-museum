@@ -1,0 +1,31 @@
+id: event/tusi-succeeds-murtada-436
+class: event
+kind: other
+label:
+  ar: "خلافة الشيخ الطوسي للشريف المرتضى في رئاسة الشيعة، ٤٣٦هـ"
+  en: "Al-Tusi succeeds al-Murtada as head of Baghdad's Shi'a, 436/1044"
+  ur: "طوسی کی جانشینی شریف مرتضیٰ کی، 436ھ/1044ء"
+summary:
+  ar: "عند وفاة الشريف المرتضى سنة ٤٣٦هـ/١٠٤٤م خلفه الطوسي في رئاسة إمامية العاصمة، وإن كان أعلام كبار من تلاميذ المفيد كالنجاشي والكراجكي وأبي يعلى الجعفري أحياء؛ وقد جمع يومئذ مصنفات كثيرة ونال نصرة بويهيين كثيرين وقرّبه الخليفة القائم بأمر الله فجعله على أهم كرسي للكلام بالعاصمة؛ وورث قسماً عظيماً من كبريات مكتبات الإمامية — مكتبة دار العلم التي أسسها صابور بن أردشير وفيها أكثر من مائة ألف كتاب ومكتبة المرتضى وفيها نحو ثمانين ألفاً — وصارت داره بالكرخ أكثر من عشر سنين المركز العلمي الفعلي للإمامية {cite:encyclopaedia-of-islam-2 vol. 10 pp. 744-745}."
+  en: "On al-Sharif al-Murtada's death in 436/1044 he was succeeded by al-Tusi, though eminent former pupils of al-Mufid like al-Najashi, al-Karajaki and Abu Ya'la al-Ja'fari were still alive; by then al-Tusi had already amassed an impressive bibliography and the support of numerous Buyids and of the caliph al-Qa'im, who appointed him to the capital's most prestigious chair of theology. Heir to the great Imami libraries — Sabur ibn Ardashir's Dar al-Ilm of over 100,000 works and al-Murtada's own of nearly 80,000 — he composed some fifty books and his Karkh house was for more than a decade the virtual intellectual centre of Imamism {cite:encyclopaedia-of-islam-2 vol. 10 pp. 744-745}."
+  ur: "شریف مرتضیٰ کی 436ھ/1044ء میں وفات پر طوسی دارالخلافہ کے امامیوں کے جانشین بنے اگرچہ مفید کے بوڑھے شاگرد نجاشی، کراجکی اور ابو یعلیٰ جعفری ابھی زندہ تھے؛ اس وقت تک طوسی نے نمایاں کتب لکھ چکے تھے اور بویہیوں اور خلیفہ قائم کی حمایت حاصل تھی جس نے انہیں دارالخلافہ کی کلام کی بلند ترین کرسی دی؛ دارالعلم کی صابور بن اردشیر والی ایک لاکھ سے زائد جلدوں کی کتب خانہ اور مرتضیٰ کے تقریباً اسی ہزار جلدوں کے وارث بن کر انہوں نے قریب پچاس کتب تصنیف کیں اور ان کا کرخ کا گھر دس برس سے زائد امامیہ کا علمی مرکز رہا {cite:encyclopaedia-of-islam-2 vol. 10 pp. 744-745}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools, cities]
+date:
+  start: { edtf: "1044~", hijri: "0436", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة المرتضى سنة ٤٣٦هـ {cite:encyclopaedia-of-islam-2 vol. 10 p. 744} {cite:muntazam-ibn-al-jawzi j.8 p.461,468}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/al-karkh, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-sharif-al-murtada, role: "المتوفى المخلوف", sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/shaykh-al-tusi, role: "الخليفة في الرئاسة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qaim-bi-amr-illah, role: "الخليفة الذي قرّبه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 art. AL-TUSI printed pp. 744-745 (harvest OCR); al-Muntazam j.8 pp. 461, 468 (s.a. 436)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-shaykh-al-tusi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

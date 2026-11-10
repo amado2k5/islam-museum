@@ -1,0 +1,76 @@
+id: exhibit/path-qajar-iran
+class: exhibit
+kind: trail
+label:
+  ar: إيران القاجارية
+  en: Qajar Iran
+summary:
+  ar: 'مسار في قرن ونصف قاجاري: طهران عاصمة جديدة، والفن القاجاري يزدهر، والدستور يتحرك — إيران على حداثة.'
+  en: A trail through the Qajar century.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الدولة
+    en: The dynasty
+  body:
+    ar: '1789-1925: القاجار يحكمون إيران.'
+    en: '1789-1925: القاجار يحكمون إيران.'
+  features:
+  - polity/qajar-iran
+  - place/isfahan
+- title:
+    ar: طهران
+    en: Tehran
+  body:
+    ar: 'عاصمة جديدة: من قرية إلى مدينة.'
+    en: 'عاصمة جديدة: من قرية إلى مدينة.'
+  features:
+  - polity/qajar-iran
+  - place/rayy
+- title:
+    ar: الفن
+    en: The arts
+  body:
+    ar: الرسم القاجاري والعمارة والصور.
+    en: الرسم القاجاري والعمارة والصور.
+  features:
+  - polity/qajar-iran
+  - place/shiraz
+- title:
+    ar: الدستور
+    en: The constitution
+  body:
+    ar: '1906: المشروطة تولد في طهران.'
+    en: '1906: المشروطة تولد في طهران.'
+  features:
+  - polity/qajar-iran
+  - polity/qajar-iran
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: '1925: بهلوي يخلف القاجار.'
+    en: '1925: بهلوي يخلف القاجار.'
+  features:
+  - polity/qajar-iran
+  - polity/qajar-iran
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

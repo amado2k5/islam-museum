@@ -1,6 +1,6 @@
 id: person/zubayr-ibn-al-awwam
 class: person
-label: { en: "al-Zubayr ibn al-Awwam", ar: "الزبير بن العوام" }
+label: { en: "al-Zubayr ibn al-Awwam", ar: "الزبير بن العوام" , ur: "زبیر بن عوام"}
 names:
   - { kind: full, lang: ar, value: "الزبير بن العوام بن خويلد بن أسد القرشي الأسدي" }
   - { kind: kunya, lang: ar, value: "أبو عبد الله" }
@@ -11,7 +11,8 @@ roles: [companion, commander]
 traditions: [sunni]
 summary:
   en: "One of the earliest converts and a cousin of the Prophet through his mother Safiyya; at Badr he was one of the army's two horsemen, commanded the right wing, and joined the patrol that captured Quraysh's water-bearers."
-  ar: "من السابقين إلى الإسلام، وابن خالة النبي؛ كان يوم بدر أحد فارسَي الجيش وقائد ميمنته، وشارك في دورية الاستطلاع التي أسرَت سقاة قريش."
+  ar: "من السابقين إلى الإسلام، وابن خالة النبي؛ كان يوم بدر أحد فارسَي الجيش وقائد ميمنته، وشارك في دورية الاستطلاع التي أسرَت سقاة قريش. وذكره علي قول النبي له يوم بني بياضة إنك لتقاتلنه وأنت له ظالم فرجع وهو يقول اخترت عاراً على نار مؤججة، فشد في الميمنة ثم الميسرة ثم القلب ثم مضى إلى وادي السباع فلحقه عمرو بن جرموز فقتله في الصلاة وله خمس وسبعون سنة وقبره بالوادي مشهور {cite:muruj-al-dhahab p. 656-659}"
+  ur: "ابتدائی مسلمانوں میں سے اور صفیہ کے بیٹے ہونے کی نسبت سے نبی کے پھوپھی زاد بھائی؛ بدر میں لشکر کے دو سواروں میں شامل تھے اور دائیں بازو کی قیادت کی۔ {cite:ibn-hisham-sira}"
 wings: [people]
 themes: [battles, converts-and-leavers]
 periods: [period/prophetic-era]
@@ -28,5 +29,23 @@ relations:
   - { type: member_of, target: group/muhajirun }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr, role: "قيادة الميمنة؛ من فريق استطلاع الغلامين", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad]
+  - { type: member_of, target: group/sahaba, sources: [source/tabaqat-ibn-sad]}
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+  - { type: buried_in, target: building/zubayr-ibn-al-awwam-mosque-basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q65082165)" }
+external_ids:
+  wikidata: Q293565
+sources: [source/sallabi-ali-vol2, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad, source/muruj-al-dhahab, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar]
+provenance: { layer: own-research, source: "al-Sallabi's Ali (vol. 2), al-Raheeq al-Makhtum, Ibn Hisham, Ibn Sa'd's Tabaqat and al-Mas'udi's Muruj al-Dhahab (earlier record by Devin); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)", generated_by: "Devin (earlier record); Claude Code (claude-opus-5-5) for the Assabile section", model: claude-opus-5-5, run: assabile-egypt-heweny-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 210)" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b3", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+occupations:
+  - job: job/amil
+    kind: episodic
+    status: historical
+    note: "The ÂMİL entry says he, with Jahm ibn Salt, was appointed amil over zakat in general."
+    sources: [source/tdv-amil]

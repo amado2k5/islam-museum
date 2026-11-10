@@ -1,0 +1,25 @@
+id: person/anushirwan-ibn-khalid
+class: person
+label: { ar: "أنوشروان بن خالد", en: "Anushirwan ibn Khalid" }
+died: { edtf: "1138", hijri: "0532", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة اثنتين وثلاثين وخمسمائة {cite:wafayat-ayan}." }
+summary:
+  ar: "الوزير شرف الدين أبو نصر أنوشروان بن خالد بن محمد القاشاني؛ وزير الإمام المسترشد بالله؛ إليه أشار الحريري في خطبة المقامات بقوله «فأشار من إشارته هم وطاعته غم» كما يروى، وإن كان خط الحريري في نسخة كتبها بيده ينص على أنه صنفها للوزير جلال الدين عميد الدولة أبي علي الحسن بن صدقة وزير المسترشد أيضاً؛ وقف على كتاب فيه عجائب فأعجبه وأشار بضم غيره إليه {cite:wafayat-ayan}."
+  en: "Sharaf al-Din Anushirwan b. Khalid al-Qashani (d. 532) — vizier of the caliph al-Mustarshid; al-Hariri addressed the dedicatee of the Maqamat in terms long read as pointing to him, though al-Hariri's own autograph names the vizier Ibn Sadaqa {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (عارضة داخل ترجمة الحريري)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch119
+sources: [source/wafayat-ayan, source/wikidata]
+external_ids: { wikidata: "Q11906149" }
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: born_in, target: place/ray, note: "Wikidata Q636188 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/seljuk-empire, note: "Wikidata Q3708094 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -1,0 +1,76 @@
+id: exhibit/path-mali
+class: exhibit
+kind: trail
+label:
+  ar: إمبراطورية مالي
+  en: The Mali Empire
+summary:
+  ar: 'مسار في أعظم إمبراطوريات أفريقيا: مانسا موسى يحج بالذهب، وتمبكتو جامعة الصحراء، وسونغاي تخلفها.'
+  en: A trail through Africa's greatest empire.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- west-africa-sahel
+rooms:
+- title:
+    ar: مانسا موسى
+    en: Mansa Musa
+  body:
+    ar: 'حج 1324: الذهب يهز أسواق القاهرة.'
+    en: 'حج 1324: الذهب يهز أسواق القاهرة.'
+  features:
+  - person/mansa-musa
+  - place/cairo
+- title:
+    ar: الإمبراطورية
+    en: The empire
+  body:
+    ar: 'من النيجر إلى الأطلسي: ثروة الذهب والملح.'
+    en: 'من النيجر إلى الأطلسي: ثروة الذهب والملح.'
+  features:
+  - polity/mali-empire
+  - place/timbuktu
+- title:
+    ar: تمبكتو
+    en: Timbuktu
+  body:
+    ar: 'مدينة العلم: سانكوري والمخطوطات.'
+    en: 'مدينة العلم: سانكوري والمخطوطات.'
+  features:
+  - place/timbuktu
+  - place/kano
+- title:
+    ar: مانسا سليمان
+    en: Mansa Sulayman
+  body:
+    ar: ابن بطوطة يزور بلاطه 1352.
+    en: ابن بطوطة يزور بلاطه 1352.
+  features:
+  - person/mansa-sulayman
+  - person/ibn-battuta-muhammad
+- title:
+    ar: الإرث
+    en: The legacy
+  body:
+    ar: 'المخطوطات والمدارس: مالي تعيش.'
+    en: 'المخطوطات والمدارس: مالي تعيش.'
+  features:
+  - place/timbuktu
+  - polity/mali-empire
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,25 @@
+id: person/tawus-ibn-kaysan
+class: person
+label: { ar: "طاوس بن كيسان", en: "Tawus ibn Kaysan" }
+summary:
+  ar: "فقيه اليمن، كتب إلى عمر بن عبد العزيز حين استخلف إن أردت أن يكون عملك خيراً كله فاستعمل أهل الخير فقال عمر كفى بها موعظة {cite:muruj-al-dhahab p. 173}. وتوفي سنة أربع ومائة وقيل مات بمكة سنة ست ومائة وصلى عليه هشام بن عبد الملك {cite:muruj-al-dhahab p. 191}"
+  en: "Yemen's jurist — his one-line counsel to the new caliph: 'if you want all your work to be good, employ the people of good' {cite:muruj-al-dhahab p. 173}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+external_ids: { wikidata: "Q7689344" }
+born: { edtf: "653~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+relations:
+  - { type: born_in, target: place/yemen, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q805)" }
+  - { type: died_in, target: place/muzdalifa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1788735)" }
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
+status:
+  review: published
+  completeness: 3
+

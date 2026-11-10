@@ -1,0 +1,29 @@
+id: person/baha-al-din-al-irbili
+class: person
+label:
+  ar: "بهاء الدين الإربلي"
+  en: "Baha al-Din al-Irbili"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "علي بن عيسى الإربلي «بهاء الدين»، منشئ وشاعر خدم بديوان الإنشاء ببغداد، صاحب «كشف الغمة»؛ توفي سنة 692هـ ⁦(1293م)⁩."
+  en: "Ali ibn Isa al-Irbili “Baha' al-Din” (d. 692/1293), chancery prose-writer and poet, author of Kashf al-Ghumma."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1293", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir (al-Bidaya wa'l-Nihaya)" }
+relations:
+  - { type: born_in, target: place/erbil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12199705
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.318)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
+status:
+  review: published
+  completeness: 3

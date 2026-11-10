@@ -1,0 +1,58 @@
+id: exhibit/path-textiles
+class: exhibit
+kind: trail
+label:
+  ar: النسيج واللباس
+  en: Textiles and Dress
+summary:
+  ar: 'مسار في النسيج الإسلامي: كسوة الكعبة، وسجاد أردبيل والصيد، وقماش الطراز المنقوش.'
+  en: A trail through Islamic textiles.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الكسوة
+    en: The Kiswa
+  body:
+    ar: 'أعظم نسيج: ستارة بيت الله تتجدد كل عام.'
+    en: 'أعظم نسيج: ستارة بيت الله تتجدد كل عام.'
+  features:
+  - object/kiswa
+  - building/kaaba
+- title:
+    ar: السجاد
+    en: The carpets
+  body:
+    ar: 'أردبيل والصيد: سجاجيد القصور والمساجد.'
+    en: 'أردبيل والصيد: سجاجيد القصور والمساجد.'
+  features:
+  - object/ardabil-carpet
+  - object/hunting-carpet-poldi
+- title:
+    ar: الطراز
+    en: Tiraz
+  body:
+    ar: 'نسيج الدولة: آيات وأدعية على الأكمام.'
+    en: 'نسيج الدولة: آيات وأدعية على الأكمام.'
+  features:
+  - object/qita-tiraz-9
+  - object/tiraz-zahir
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

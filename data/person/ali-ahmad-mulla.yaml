@@ -1,0 +1,32 @@
+id: person/ali-ahmad-mulla
+class: person
+label: { ar: "علي أحمد ملا", en: "Ali Ahmad Mulla", ur: "علی احمد ملا" }
+names:
+  - { value: "علي أحمد علي ملا", kind: full }
+  - { value: "Ali Ahmed Mullah", kind: full }
+  - { value: "Ali Ahmad Mulla", kind: alternate }
+  - { value: "بلال الحرم", kind: alternate }
+gender: male
+summary:
+  ar: "مؤذن المسجد الحرام وشيخ مؤذنيه ⁦(وُلد بمكة 1366هـ)⁩، من أسرة توارثت الأذان في الحرم، بدأ يؤذن فيه صبيًا في الرابعة عشرة وعُيّن رسميًا في 1975 ⁦(وتقول المقالة الإنجليزية 1984)⁩، ولقّبه بعضهم «بلال الحرم»، وكان أول من أذّن للمغرب بعد فك حصار الحرم في 1979."
+  en: "Muezzin of the Masjid al-Haram and head of its muezzins (born in Mecca, 1366 AH), from a family that has given the call to prayer at the Haram for generations; he first called the adhan there at fourteen and was formally appointed in 1975 (the English article says 1984). Some call him 'the Bilal of the Haram'; he gave the first sunset adhan after the 1979 siege of the mosque ended."
+  ur: "مسجد حرام کے مؤذن اور شیخ المؤذنین ⁦(پیدائش مکہ، 1366ھ)⁩، ایک ایسے خاندان سے جس میں حرم کی اذان نسل در نسل چلی آئی؛ چودہ برس کی عمر میں پہلی بار وہاں اذان دی اور 1975ء میں باقاعدہ مقرر ہوئے ⁦(انگریزی مضمون 1984ء کہتا ہے)⁩۔ بعض انھیں «بلالِ حرم» کہتے ہیں؛ 1979ء میں حرم کا محاصرہ ختم ہونے کے بعد مغرب کی پہلی اذان انھوں نے دی۔"
+wings: [people, living]
+regions: [arabia]
+roles: [muezzin, teacher]
+born: { edtf: "1945/1947", hijri: "1366", calendar: gregorian, precision: year, status: debated, derived: false, note: "The sources differ: Wikidata gives 5 July 1945; the English article 5 July 1947; the Arabic article 1366 AH, paired with 1945 in its text and 1947 in its infobox (1366 AH runs from November 1946 to November 1947). The museum records the range and does not choose.", sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikipedia-ali-ahmad-mulla-en, source/wikidata-ali-ahmad-mulla, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar] }
+relations:
+  - { type: born_in, target: place/mecca, note: "From text: born in Mecca", sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikipedia-ali-ahmad-mulla-en, source/wikidata-ali-ahmad-mulla, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar] }
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikidata-ali-ahmad-mulla] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives denomination Sunni without a reference; the Arabic article gives religion Islam and Wikidata names no school. Not recorded."
+    sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikipedia-ali-ahmad-mulla-en, source/wikidata-ali-ahmad-mulla]
+footprint:
+  wikipedia: { languages: [ar, bn, en, ha, id, ml, ru, sq, ur], checked: "2026-11-06", sources: [source/wikidata-ali-ahmad-mulla] }
+  wikidata: "Q4724579"
+external_ids: { wikidata: "Q4724579" }
+sources: [source/wikipedia-ali-ahmad-mulla-ar, source/wikipedia-ali-ahmad-mulla-en, source/wikidata-ali-ahmad-mulla, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar]
+provenance: { layer: own-research, source: "Arabic Wikipedia «علي أحمد ملا» (revision 76794190, 28 September 2026), English Wikipedia 'Ali Ahmed Mullah' (revision 1359218679, 13 June 2026), Wikidata Q4724579 and the Arabic list of the Haramain muezzins (revision 76685271), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b03 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

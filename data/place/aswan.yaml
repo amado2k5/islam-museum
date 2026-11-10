@@ -1,0 +1,20 @@
+id: place/aswan
+class: place
+kind: town
+label: { ar: "أسوان", en: "Aswan" }
+summary:
+  ar: "مدينة صغيرة عامرة كثيرة الحنطة والبقول واللحوم، وهي آخر ما يُصعد إليه في النيل من أرض مصر، وتقع عند جبل الجنادل، وتبعد عنه نحو اثني عشر مرحلة. وهي من ثغور النوبة. {cite:nuzhat-al-mushtaq-2002 p. 39-40}"
+  en: "A small, prosperous town with plenty of wheat, vegetables and meat. It is the furthest point up the Nile that boats from Egypt reach, lying about twelve stages from the cataract, and is one of the frontier towns of Nubia. {cite:nuzhat-al-mushtaq-2002 p. 39-40}"
+wings: [place]
+regions: [east-africa]
+coordinates: [24.09, 32.9]
+coordinate_precision: locality
+coordinate_note: "Identified modern location; flagged for gazetteer verification."
+sources: [source/nuzhat-al-mushtaq-2002, source/mujam-al-buldan-yaqut, source/geonames-gazetteer]
+status: { review: published, completeness: 2, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+provenance:
+  layer: own-research
+  source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, pp. 39-40 (scan pages); source/mujam-al-buldan-yaqut vols 1-2 scan pp. 252-253"
+  generated_by: "Claude (Haiku 5.5); enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "ocr-harvest-2026-11-04"

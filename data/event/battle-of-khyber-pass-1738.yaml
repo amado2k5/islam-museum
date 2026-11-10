@@ -1,0 +1,23 @@
+id: event/battle-of-khyber-pass-1738
+class: event
+kind: battle
+label: { ar: "معركة ممر خيبر", en: "Battle of Khyber Pass" }
+summary:
+  ar: "بطاقة أولية لمعركة ممر خيبر سنة ١٧٣٨م، فوز نادر شاه على المغول في طريق دلهي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the 1738 Battle of Khyber Pass, Nader Shah's defeat of the Mughal force; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [south-asia]
+date:
+  start: { edtf: "1738", precision: year, status: tradition, derived: true }
+  end: { edtf: "1738", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q18124347
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

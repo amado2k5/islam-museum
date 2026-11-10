@@ -1,0 +1,30 @@
+id: person/abu-bakr-ibn-abi-musa-al-ashari
+class: person
+label:
+  ar: "أبو بكر بن أبي موسى الأشعري"
+  en: "Abu Bakr ibn Abi Musa al-Ash'ari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو بكر بن أبي موسى الأشعري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Bakr ibn Abi Musa al-Ash'ari; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q98034002
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "724", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mizzi, Tahdhib al-Kamal; al-Dhahabi, Siyar" }
+relations:
+  - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

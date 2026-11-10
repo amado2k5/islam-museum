@@ -1,0 +1,23 @@
+id: event/muhammad-ibn-maslama-qisma
+class: event
+kind: other
+label: { ar: "قِسامة محمد بن مسلمة لعمرو بن العاص", en: "Muhammad ibn Maslama's Division of Amr's Wealth" }
+summary:
+  ar: "عند البلاذري: كان عمر بن الخطاب يكتب أموال عمّاله إذا ولّاهم ثم يقاسمهم ما زاد على ذلك وربما أخذه منهم فكتب إلى عمرو بن العاص أنه قد فشت له فاشية من متاع ورقيق وآنية وحيوان لم تكن حين وليت مصر فكتب إليه عمرو أن أرضنا أرض مزدرع ومتجر فنحن نصيب فضلاً عما نحتاج إليه لنفقتنا فكتب إليه إني قد خبرت من عمّال السوء ما كفى وكتابك إليّ كتاب من قد أقلقه الأخذ بالحق وقد سُئت بك ظناً وقد وجّهت إليك محمد بن مسلمة ليقاسمك ما لك فأطلعه طلعة وأخرج إليه ما يطالبك وأعفه من الغلظة عليك فإنه برّح الخفاء فقاسمه ماله؛ وقال عمرو لما قاسمه إن زماناً عاملنا فيه ابن حنتمة هذه المعاملة لزمان سوء لقد كان العاصي يلبس الخزّ بكفاف الديباج فقال محمد مهّ لولا زمان ابن حنتمة هذا الذي تكرهه ألفيتَ ممتقلاً عنزاً بفناء بيتك يسرّك غزرها ويسواك بكودها فقال أنشدك الله أن تخبر عمر بقولي فإن المجالس بالأمانة فقال لا أذكر شيئاً مما جرى بيننا وعمر حيّ."
+  en: "In al-Baladhuri: Umar ibn al-Khattab would record his governors' wealth when appointing them, then share with them whatever grew beyond it, sometimes taking it outright — so he wrote to Amr ibn al-As that goods, slaves, vessels and beasts had flourished for him beyond what he held when given Egypt; Amr wrote back that his was a land of sowing and trade whence they drew surplus beyond their needs, and Umar answered: 'I have learned enough from bad governors; your letter to me is the letter of one unsettled by the taking of his due — I have thought ill of you, and have sent Muhammad ibn Maslama to divide with you what you own; open to him, bring out what he demands, and pardon his harshness upon you, for he spares no concealment' — and he divided his wealth with him; Amr said when he divided it 'a time that treats us so — the time of Ibn Hantama — is an evil time; al-Asi used to wear brocade edging on silk', and Muhammad answered 'hush — but for this time of Ibn Hantama you hate, you would be found dragging a goat in your house's yard, glad of its yarn, its droppings your equal'; Amr said 'I adjure you by God to tell Umar my words, for councils are a trust', and he answered 'I shall mention nothing of what passed between us while Umar lives'."
+wings: [time]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { hijri: "0020~", precision: year, status: tradition, derived: true, note: "في ولاية عمرو على مصر (البلاذري ص 307–308). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الآمر بالقسامة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "المقاسَم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-maslama, role: "الموفَد للقسامة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 307–308"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

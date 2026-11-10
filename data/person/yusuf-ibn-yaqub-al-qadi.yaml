@@ -1,0 +1,23 @@
+id: person/yusuf-ibn-yaqub-al-qadi
+class: person
+label: { ar: "يوسف بن يعقوب القاضي", en: "Yusuf ibn Ya'qub" }
+summary:
+  ar: "ولاه المعتضد القضاء بمدينة السلام سنة ثلاث وثمانين ومائتين وخلع عليه وانتدبه للجانب الشرقي، وهو أبو حازم الذي هجا ولده الشاعر في يوسف بن يعقوب أضحى أهل بغداد منكم في غرور أنتم كلكم فداء أبي حازم {cite:muruj-al-dhahab p. 620,636}."
+  en: "Al-Mu'tadid's qadi of Baghdad for the East Side — Abu Hazim, whose sons the poet lampooned {cite:muruj-al-dhahab p. 620,636}. Ibn al-Jawzi: appointed over the mazalim in 277 with unmatched strictness; invested with the East Side judgeship plus Kufa in 283 after Baghdad had gone three months and eighteen days without a qadi; and supervisor of the Jami' al-Mansur enlargement {cite:muntazam-ibn-al-jawzi p. 105, 143, 163}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+born: { edtf: "823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+died: { edtf: "909", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'ولاه المعتضد القضاء بمدينة السلام سنة ثلاث وثمانين ومائتين وخلع عليه وانتدبه للجانب الشرقي، وهو أبو حازم " }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

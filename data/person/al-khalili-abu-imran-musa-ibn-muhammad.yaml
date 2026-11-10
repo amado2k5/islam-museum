@@ -1,0 +1,39 @@
+id: person/al-khalili-abu-imran-musa-ibn-muhammad
+class: person
+label: { ar: "الخليلي أبو عمران موسى بن محمد", en: "al-Khalili Abu Imran Musa ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عمران شرف الدين موسى بن محمد بن عثمان الخليلي" }
+  - { kind: kunya, lang: ar, value: "أبو عمران" }
+  - { kind: laqab, lang: ar, value: "شرف الدين" }
+  - { kind: nisba, lang: ar, value: "الخليلي" }
+gender: male
+roles: [astronomer]
+traditions: [sunni]
+died: { edtf: "1402", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فلكي نشأ في دمشق، صاحب رسالة في الفلك، وتوفي سنة 1402م."
+  en: "Astronomer who grew up in Damascus and wrote a treatise on astronomy; died 1402 CE."
+wings: [people]
+themes: [astronomy-and-timekeeping]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص494"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch53
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: grew up in Damascus", sources: [source/mawsuat-a3lam-ulama-adaba] }

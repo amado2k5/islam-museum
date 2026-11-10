@@ -1,0 +1,16 @@
+id: passage/muslim-0090
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "90"
+label: { ar: "مسلم 90 — من الكبائر شتم الرجل والديه", en: "Muslim 90 — Among the great sins is a man's reviling his parents" }
+text: "قال رسول الله: «من الكبائر شتم الرجل والديه»، قالوا: يا رسول الله وهل يشتم الرجل والديه؟ قال: «نعم، يسب أبا الرجل فيسب أباه، ويسب أمه فيسب أمه»"
+summary:
+  ar: "رواية عبد الله بن عمرو بن العاص في باب بيان الكبائر من كتاب الإيمان في صحيح مسلم؛ يجعل التسبب في شتم الوالدين كشتمهما."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب بيان الكبائر وأكبرها (النسخة المرقمة هامشياً، الحديث ٢٧٣؛ ترقيم عبد الباقي المعروف 90)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

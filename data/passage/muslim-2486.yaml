@@ -1,0 +1,16 @@
+id: passage/muslim-2486
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2486"
+label: { ar: "مسلم 2486 — اهجهم وجبريل معك", en: "Muslim 2486 — Satirise them, and Jibril is with you" }
+text: "سمعت رسول الله يقول لحسان بن ثابت: «اهجهم — أو هاجهم — وجبريل معك»؛ وفي رواية يوم قريظة: «اهج المشركين فإن جبريل معك»"
+summary:
+  ar: "رواية البراء بن عازب في باب فضائل حسان بن ثابت من صحيح مسلم؛ النبي يأذن لحسان بهجاء المشركين بتأييد جبريل — نص الشعر في نصرة الرسالة، ومنه منبر حسان في المسجد."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/hassan-ibn-thabit, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/al-bara-ibn-azib, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل حسان بن ثابت (طبعة دار التأصيل، الحديث 6543؛ ترقيم عبد الباقي المعروف 2486)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

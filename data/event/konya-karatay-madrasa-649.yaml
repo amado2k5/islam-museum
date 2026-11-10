@@ -1,0 +1,25 @@
+id: event/konya-karatay-madrasa-649
+class: event
+kind: founding
+label: { ar: "بناء مدرسة قرة طاي بقونية، ٦٤٩هـ", en: "The Karatay madrasa is built at Konya, 649/1251", ur: "قونیہ میں قرہ طائے مدرسہ کی تعمیر، 649ھ/1251ء" }
+summary:
+  ar: "بُنيت مدرسة قرة طاي بقونية سنة ٦٤٩هـ/١٢٥١–١٢٥٢م على شهادة كتابتها، وقد بقي منها مدخلها الرخامي الشهير — نظير أناضولي لأسلوب دمشق — وقبتها المرصعة بالنجوم ذات الفتحة العليا فوق بركة صحن الإيوان محمولةً على مقرنصات مبلطة؛ وتضم اليوم مجموعة الخزف السلجوقي {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}."
+  en: "The Karatay Medrese at Konya was built in 649/1251-52, as its inscription records. It retains its famous marble portal — an Anatolian variant of the Damascus style — and the starscape dome with an oculus over the pool of the court-hall, borne on deep fan-shaped tiled pendentives; the monument now houses a collection of Seljuk ceramics {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}."
+  ur: "قونیہ کا قرہ طائے مدرسہ اپنی کتبے کی گواہی سے 649ھ/1251–52ء میں تعمیر ہوا۔ اس کا مشہور سنگِ مرمر کا داخلی دروازہ — دمشقی طرز کی اناطولی قسم — اور ایوان کے صحن کے حوض کے اوپر محرابی چنوتوں پر اٹھی ستاروں سے سجی گنبد ابھی باقی ہے؛ یہ عمارت آج سلجوقی سفال کا عجائب گھر ہے۔"
+wings: [time]
+themes: [architecture]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1251", hijri: "0649", calendar: julian, precision: year, status: historical, derived: true, note: "كتابة المدرسة تؤرخها ٦٤٩هـ/١٢٥١–١٢٥٢م {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: building/karatay-madrasa, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., art. ḲONYA, Monuments, vol. 5.1 PDF p. 289 (harvest OCR, books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_5_1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

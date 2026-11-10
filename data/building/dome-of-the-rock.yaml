@@ -1,0 +1,59 @@
+id: building/dome-of-the-rock
+education:
+  did_you_know:
+    ar: "وصف المقدسي قبة الصخرة نحو سنة ٣٧٥هـ: بيت مثمّن بأربعة أبواب، وداخله ثلاثة أروقة على أعمدة قال إنها أجلّ من الرخام، وقبة ملبسة بالصفر المذهب."
+    en: "Al-Muqaddasi described the Dome of the Rock around 375 AH: an octagon with four doors and, inside, three arcades on columns he deemed nobler than marble, capped by a gilt-brass dome."
+    ur: "مقدسی نے تقریباً 375ھ میں قبۃ الصخرہ بیان کیا: چار دروازوں والا ایک ہشت پہلو عمارت، اندر تین راہداریوں کے ستون جو اس کے نزدیک سنگِ مرمر سے افضل، اور اوپر سونے کا گنبد۔"
+    sources: [source/ahsan-al-taqasim, source/umari-masalik-1924]
+class: building
+kind: shrine
+label:
+  ar: قبة الصخرة
+  en: Dome of the Rock
+built:
+  edtf: "0691"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية. ويؤكده نقش بنائي مؤرخ سنة ٧٢هـ في قاموس النقوش الإسلامية {cite:tei-epigraphie 9}.
+  sources:
+  - source/wikidata
+  - source/tei-epigraphie
+summary:
+  ar: "قبة الصخرة في صحن المسجد الأقصى؛ وصفها المقدسي لعين رأت نحو سنة 375هـ: بيت مثمّن بأربعة أبواب كلها مقابلة مراقي — القبلي وإسرافيل والصور والنساء — وفي وجه كل باب باب ظريف من خشب التوب أمرت به أم المقتدر، وداخله ثلاثة أروقة دائرة على أعمدة معجونة قال إنها أجلّ من الرخام لا نظير لها، وفوق منطقتها طيقان كبار وقبة ملبسة بالصفر المذهب يبلغ طولها مع السقود مائة ذراع، والقبة ثلاث سافات: ألواح مزوقة ثم أعمدة حديد مشبكة لئلا تميلها الرياح ثم خشب عليه الصفائح، قال إذا بزغت عليها الشمس أشرقت وتلألأت المنطقة، ولم ير في الشرق مثلها {cite:ahsan-al-taqasim p. 144}. وفي عهد المماليك ذرعه ابن فضل الله العمري باباً باباً: فالباب الشرقي مضاعف بينهما عقد بفص مذهّب، والشمالي يسمى باب الجنة والغربي على مثالهما، ومصراعاها ملبّسان بالنحاس الأصفر المنقوش، مع مساحة القبة والأروقة والصحن بالأذرع {cite:umari-masalik-1924 pp. 181-186}."
+  en: "The Dome of the Rock in the Aqsa's court as al-Muqaddasi saw it c. 375 AH: an octagon of four gilded doors facing the stairways — Qibli, Israfil, al-Sur, al-Nisa' — ringed by arcades on piers 'nobler than marble, peerless', a hundred-cubit dome sheathed in gilded brass built in three shells (painted boards, an iron lattice against the wind, timber plate), so that sunrise made it blaze; 'I saw nothing like this dome in all the East' {cite:ahsan-al-taqasim p. 144}. In the Mamluk age Ibn Fadl Allah al-Umari measured it again door by door — the eastern gate doubled with a gilded arch between, the northern called Bab al-Janna, the western like it, each leaf sheathed in chased yellow brass, with the cubit-survey of dome, drum and court {cite:umari-masalik-1924 pp. 181-186}."
+wings: [objects]
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+coordinates:
+- 31.77806
+- 35.23528
+relations:
+- type: located_in
+  target: place/jerusalem
+  sources:
+  - source/wikidata
+  note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+external_ids:
+  archnet: "2814"
+  wikidata: Q172077
+  tei: "9"
+sources:
+- source/wikidata
+- source/ahsan-al-taqasim
+- source/umayyad-birth-to-fall-2006
+- source/umari-masalik-1924
+- source/tei-epigraphie
+- source/archnet
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative
+provenance:
+  layer: cc0
+  source: "Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; source/umari-masalik-1924 scan pp. 177-179"
+  generated_by: "Claude (maintainer session); enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-sonnet-5-5; claude-opus-5-5"
+  run: "building-wikidata-1; ocr-harvest-2026-11-04"

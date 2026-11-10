@@ -1,0 +1,30 @@
+id: person/nasr-al-din-tubar
+class: person
+label: { ar: "نصر الدين طوبار", en: "Nasr al-Din Tubar", ur: "نصر الدین طوبار" }
+names:
+  - { value: "نصر الدين طوبار", kind: full }
+  - { value: "Nasreddin Toubar", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ ومنشد مصري (1920–1986) من المنزلة بالدقهلية، دخل الإذاعة بعد ست محاولات، وترك نحو مئتي ابتهال، وسجّل في 1978 المصحف المجود المشترك للإذاعة والتلفزيون السعوديين مع محمود البجيرمي، وقاد فرقة الإنشاد الديني بأكاديمية الفنون من 1980، وأنشد في قاعة ألبرت في لندن."
+  en: "Egyptian reciter and munshid (1920–1986) from al-Manzala in Dakahlia who entered the radio after six failed tests, left some two hundred ibtihalat, recorded in 1978 the joint mujawwad Qur'an for Saudi radio and television with Mahmoud al-Bujayrimi, led the religious-song ensemble of Egypt's Academy of Arts from 1980 and sang at the Royal Albert Hall in London."
+  ur: "دقہلیہ کے المنزلہ سے مصری قاری اور منشد ⁦(1920ء–1986ء)⁩، جو چھ ناکام کوششوں کے بعد ریڈیو میں آئے، تقریباً دو سو ابتہالات چھوڑیں، 1978ء میں محمود البجیرمی کے ساتھ سعودی ریڈیو اور ٹیلی وژن کا مشترکہ مجود مصحف ریکارڈ کیا، 1980ء سے اکیڈمی آف آرٹس کے دینی انشاد کے طائفے کی قیادت کی اور لندن کے رائل البرٹ ہال میں انشاد کیا۔"
+wings: [people]
+regions: [egypt-nile]
+roles: [munshid, reciter]
+born: { edtf: "1920-06-07", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in the al-Manzala district, Dakahlia (Arabic article; Wikidata gives the same day). No place entity for al-Manzala exists.", sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar] }
+died: { edtf: "1986-11-16", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Cairo (Arabic article and Wikidata).", sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar] }
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-nasr-al-din-tubar] }
+  wikidata: "Q12248487"
+external_ids: { wikidata: "Q12248487" }
+sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar]
+provenance: { layer: own-research, source: "Arabic Wikipedia «نصر الدين طوبار» (revision 74812135, 31 May 2026) and Wikidata Q12248487 (revision 2468868977), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

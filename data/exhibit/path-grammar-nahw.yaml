@@ -1,0 +1,75 @@
+id: exhibit/path-grammar-nahw
+class: exhibit
+kind: trail
+label:
+  ar: علم العربية
+  en: The Science of Arabic
+summary:
+  ar: 'مسار في نشأة النحو: سيبويه والخليل والمدرستان البصرية والكوفية.'
+  en: A trail through the birth of grammar.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: البداية
+    en: The beginning
+  body:
+    ar: أبو الأسود الدؤلي يضع أول النحو في البصرة.
+    en: أبو الأسود الدؤلي يضع أول النحو في البصرة.
+  features:
+  - place/basra
+  - person/ali-ibn-abi-talib
+- title:
+    ar: الكتاب
+    en: The Book
+  body:
+    ar: سيبويه يكتب أعظم كتب العربية قاطبة.
+    en: سيبويه يكتب أعظم كتب العربية قاطبة.
+  features:
+  - person/sibawayh
+- title:
+    ar: العروض
+    en: Prosody
+  body:
+    ar: الخليل الفراهيدي يبني بحور الشعر والمعجم.
+    en: الخليل الفراهيدي يبني بحور الشعر والمعجم.
+  features:
+  - person/al-khalil-ibn-ahmad-al-farahidi
+- title:
+    ar: المدرستان
+    en: Two schools
+  body:
+    ar: 'البصرة والكوفة: جدل القياس والسماع.'
+    en: 'البصرة والكوفة: جدل القياس والسماع.'
+  features:
+  - place/basra
+  - place/kufa
+  - work/alfiyya-ibn-malik
+- title:
+    ar: المدونة
+    en: The canon
+  body:
+    ar: 'الألفية وأجرومية: نحو المدارس في كل مكان.'
+    en: 'الألفية وأجرومية: نحو المدارس في كل مكان.'
+  features:
+  - work/alfiyya-ibn-malik
+  - language/arabic
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

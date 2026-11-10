@@ -1,0 +1,30 @@
+id: person/gazi-evrenos-bey
+class: person
+label:
+  ar: "غازي إيفرينوس بك"
+  en: "Gazi Evrenos Bey"
+roles: [military]
+gender: male
+summary:
+  ar: "بطاقة أولية لغازي إيفرينوس بك، أمير الأوجين العثماني الذي فتح غالب مقدونيا وثيساليا في القرن الرابع عشر، توفي سنة ١٤١٧م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Gazi Evrenos Bey, the Ottoman akinci lord who opened most of Macedonia and Thessaly in the fourteenth century, d. 1417; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1288", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1417", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/beylik-of-karasi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/giannitsa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q677097
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0026
+status:
+  review: draft
+  completeness: 1

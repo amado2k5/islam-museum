@@ -1,0 +1,27 @@
+id: event/death-al-mizzi-742
+class: event
+kind: death
+label:
+  ar: "وفاة الحافظ جمال الدين المزي بدمشق، ١٢ صفر ٧٤٢هـ"
+  en: "The hafiz Jamal al-Din al-Mizzi dies at Damascus, 12 Safar 742/1341"
+  ur: "حافظ جمال الدین مزی کی وفات دمشق میں، 12 صفر 742ھ/1341ء"
+summary:
+  ar: "توفي المزي يوم السبت ثاني عشر صفر سنة اثنتين وأربعين وسبعمائة، ودُفن من الغد بمقابر الصوفية {cite:tarikh-islam-dhahabi p. 493}؛ وذكر صهره ابن كثير أنه مرض أياماً يسيرة وأنه مات بين الظهر والعصر وهو يقرأ آية الكرسي، وصلّى عليه من الناس بالجامع ثم خارج باب النصر، ودُفن بمقابر الصوفية بالقرب من ابن تيمية وكان الجمع في جنازته متوفراً جداً {cite:durar-kamina-jil-1993 4/461}."
+  en: "Al-Mizzi died on Saturday 12 Safar 742 and was buried the next day in the Sufi cemetery {cite:tarikh-islam-dhahabi p. 493}; his son-in-law Ibn Kathir relates that he was ill for a few days and died between the zuhr and asr prayers while reciting the Throne Verse; the people prayed over him in the congregational mosque then outside Bab al-Nasr, and he was buried in the Sufi cemetery near Ibn Taymiyya, the funeral gathering being very large {cite:durar-kamina-jil-1993 4/461}."
+  ur: "مزی ہفتہ 12 صفر 742ھ کو فوت ہوئے اور اگلے دن صوفیہ کے قبرستان میں دفن کیے گئے {cite:tarikh-islam-dhahabi p. 493}؛ ان کے داماد ابن کثیر کے مطابق وہ چند دن بیمار رہے اور ظہر اور عصر کے درمیان آیت الکرسی پڑھتے ہوئے فوت ہوئے؛ لوگوں نے جامع میں پھر باب النصر کے باہر ان کا جنازہ پڑھا اور انہیں ابن تیمیہ کے قریب صوفیہ کے قبرستان میں دفن کیا گیا، جنازے میں بہت بڑا مجمع تھا {cite:durar-kamina-jil-1993 4/461}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1341-07-28~", hijri: "0742-02-12", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم السبت ثاني عشر صفر ٧٤٢هـ {cite:tarikh-islam-dhahabi p. 493} {cite:durar-kamina-jil-1993 4/461}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993] }
+sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed p. 493 (harvest OCR); Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 4/461 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi, printed p. 240"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

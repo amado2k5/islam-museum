@@ -1,0 +1,35 @@
+id: person/mahmud-al-daqqauqi
+class: person
+gender: male
+label:
+  ar: "صاحب المطالع ⁦(محمود بن علي الدقوقي)⁩"
+  en: "Author of al-Matali (Mahmud ibn Ali al-Daqqauqi)"
+summary:
+  ar: "محمود بن علي بن محمود بن مقبل بن سليمان بن داود الدقوقي ثم البغدادي، تقي الدين، أبو الثناء، فقيه حنبلي ومحدث حافظ، انتهى إليه علم الحديث والوعظ ببغداد، ولم يكن في وقته أحسن قراءة للحديث منه ومعرفة بلغاته وضبطه، وله مشاركة في الفقه. أجاز له جماعة من أهل الشام والعراق، وتخرج به جماعة في علم الحديث، وسمع منه خلق. من تصانيفه مطالع الأنوار، والكواكب الدرية في المناقب العلوية. توفي سنة 733 هـ، وولد سنة 663 هـ على ما يذكره العنوان. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15821} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15822}"
+  en: "Mahmud ibn Ali ibn Mahmud ibn Muqbil ibn Sulayman ibn Dawud al-Daqqauqi, then al-Baghdadi, Taqi al-Din, Abu al-Thana, a Hanbali jurist and memorising hadith scholar. The knowledge of hadith and preaching in Baghdad ended with him; in his time no one read hadith better or knew its languages and vocalisation more closely, and he had some share in fiqh. Several scholars of Syria and Iraq licensed him, a circle trained in hadith through him, and many heard from him. His works include Matali al-Anwar and al-Kawakib al-Durriyya fi al-Manaqib al-Alawiyya. The header gives his death as 733 AH and his birth as 663 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15821} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15822}"
+roles: [jurist]
+traditions: [sunni-hanbali]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born: { edtf: "1300~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+died: { edtf: "1340~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with Baghdad per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15821 من المسح)"
+  scan_pages: [15821]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

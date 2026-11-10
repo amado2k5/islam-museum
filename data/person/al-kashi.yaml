@@ -1,0 +1,71 @@
+id: person/al-kashi
+class: person
+label:
+  ar: "غياث الدين الكاشي"
+  en: "Jamshid al-Kashi"
+names:
+  - { kind: full, lang: ar, value: "غياث الدين جمشيد بن مسعود الكاشي" }
+roles: [astronomer, mathematician]
+gender: male
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: O'Connor/Robertson MacTutor explicitly identifies al-Kashi as an Islamic mathematician. Sunni separately museum default frame of docs/scope.md in documented Timurid milieu, no contrary personal sect attestation in read scholarly biographies; not name, birth-city or patron inference and not a personal school certificate."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi]
+inventions:
+  - invention: invention/kashi-general-root-extraction
+    role: improver
+    note: "General numerical roots in the Key,with al-Karaji/al-Samawal precedents;not duplicate sine cubic or proof of transfer to Horner."
+    sources: [source/kashi-mactutor, source/iranica-kashi]
+  - invention: invention/kashi-muqarnas-mensuration
+    role: improver
+    note: "Written modular surface-area method with average coefficient and documented limits,not invention of muqarnas or all architecture."
+    sources: [source/dold-samplonius-muqarnas-1992, source/kashi-mactutor]
+  - invention: invention/kashi-conjunction-plate
+    role: inventor
+    note: "Named linear-interpolation instrument distinct from plate of heavens, circumference and sine computations; not invention of all interpolation."
+    sources: [source/schmidl-kashi-bea, source/tdv-kashi-okten]
+  - invention: invention/kashi-sine-one-degree
+    role: improver
+    note: "Iterative numerical sine-one-degree computation; original/completion/commentary accounts distinguished, modern example not a historical reconstruction."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/qadi-zada-mactutor]
+  - invention: invention/al-kashi-pi-calculation
+    role: improver
+    note: "High-precision polygon-based circumference calculation, not first pi or decimals."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi]
+summary:
+  ar: "بطاقة أولية لغياث الدين الكاشي، المنجم الرياضي في مرصد أولوغ بك بسمرقند، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Ghiyath al-Din Jamshid al-Kashi, the astronomer and mathematician of Ulugh Beg's Samarkand observatory, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam, source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/qadi-zada-mactutor, source/schmidl-kashi-bea, source/dold-samplonius-muqarnas-1992]
+external_ids:
+  wikidata: Q115466
+provenance:
+  layer: own-research
+  source: "Wikidata Q115466 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0007
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b77", source: "General-root tie/trilingual append from actual MacTutor/Iranica accounts,not originalrootchapter or unwatchedanimation;four prior ties and original identity/status/attribution/prose retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b74", source: "Actual selected Dold193–196,202–205,209–222andfigure8;modularmuqarnas addition,not full primarybookreading. Original identity/attribution/fields/threeearlierties/proseprefixes preserved." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b66", source: "Specific conjunction-plate tie and trilingual extension from actual Schmidl/Okten; earlier two contributions,fields,biography and attribution retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b61", source: "Add distinct sine-computation tie and trilingual extension; differing Qadi Zada/completion/precision reports attributed. Earlier biography fields/body/attribution retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b60", source: "Add sourced identity/default frame, circumference tie and full trilingual biography. Original fields/status/occupation/provenance retained; earlier unread A'lam/Wikidata claims not newly certified." }
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/astronomer
+    kind: primary
+    place: place/samarqand
+    status: historical
+    note: "The TDV entry on the Samarkand observatory says he was invited to Samarkand for the observatory project and took part in building it and in making its instruments, as he relates it himself in his letters."
+    sources: [source/tdv-semerkant-rasathanesi]
+born: { edtf: "1380~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kashi' / A. P. Youschkevitch & B. A. Rosenfeld)" }
+died: { edtf: "1429", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kashi' / A. P. Youschkevitch & B. A. Rosenfeld)" }
+relations:
+  - { type: lived_in, target: place/samarqand, note: "From text: of Ulugh Beg's Samarkand", sources: [source/al-aalam, source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/qadi-zada-mactutor, source/schmidl-kashi-bea, source/dold-samplonius-muqarnas-1992], confidence: low }

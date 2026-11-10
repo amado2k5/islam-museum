@@ -1,0 +1,20 @@
+id: person/yahya-ibn-muadh-al-razi
+class: person
+label: { ar: "يحيى بن معاذ الرازي", en: "Yahya Ibn Muadh Al Razi" }
+summary:
+  ar: "يحيى بن معاذ الرازي من الزهاد المتهجدين وكان عابدا وله أصحاب وتوفي سنة ست ومائتين وله كتاب المريدين {cite:fihrist-ibn-al-nadim p. 260}."
+  en: "Yahya ibn Mu'adh al-Razi — the preacher of hope, d. 206 {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch21
+died: { edtf: "871", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+relations:
+  - { type: lived_in, target: place/rayy, confidence: low, note: "Association inferred from the nisba in the name 'Yahya Ibn Muadh Al Razi'; specific residence not individually documented.", sources: [source/fihrist-ibn-al-nadim] }

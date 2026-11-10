@@ -1,0 +1,29 @@
+id: person/hashim-baba-jalwati
+class: person
+label:
+  ar: "هاشم بابا"
+  en: "Hasim Baba"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لهاشم بابا؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hasim Baba, the Ottoman writer (founder of the Hashimiyya branch of the Jalwatiyya order, d. 1783); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1718", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1783", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136128803
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0095
+status:
+  review: draft
+  completeness: 1

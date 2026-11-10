@@ -73,6 +73,116 @@
           }
         }
       }
+    },
+    "waypoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "place",
+          "day",
+          "title",
+          "narrative"
+        ],
+        "properties": {
+          "place": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "day": {
+            "type": "integer"
+          },
+          "day_status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "day_note": {
+            "type": "string"
+          },
+          "date": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "title": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "narrative": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "coordinates_note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "job",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "job": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "made-by",
+              "used-by",
+              "built-by",
+              "staffed-by",
+              "reference-for",
+              "body-of",
+              "gathering-of",
+              "produced-by",
+              "workplace-of",
+              "route-of"
+            ]
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

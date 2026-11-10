@@ -1,0 +1,16 @@
+id: passage/bukhari-3443
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3443"
+label: { ar: "البخاري 3443 — أولى الناس بعيسى", en: "Bukhari 3443 — nearest to Isa" }
+text: "أنا أولى الناس بعيسى بن مريم في الدنيا والآخرة، والأنبياء إخوة لعلات، أمهاتهم شتى ودينهم واحد"
+summary:
+  ar: "في كتاب أحاديث الأنبياء باب أخبار عيسى؛ صياغة صلة النبي بعيسى: الأخوة النبوية على دين واحد مع اختلاف الأمهات — متن التواصل النبوي الذي يقوم عليه باب «قصص الأنبياء»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3443", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

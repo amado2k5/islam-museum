@@ -1,0 +1,28 @@
+id: person/jabalah-ibn-suhaym
+class: person
+label:
+  ar: "جبلة بن سهيم"
+  en: "Jabalah ibn Suhaym"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لجبلة بن سهيم؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Jabalah ibn Suhaym; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q109258592
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

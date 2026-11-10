@@ -1,0 +1,30 @@
+id: person/abu-ratib
+class: person
+label: { ar: "أبو راتب", en: "Abu Ratib", ur: "ابو راتب" }
+names:
+  - { value: "محمد مصطفى علي مسقفة", kind: full }
+  - { value: "محمد مصطفى أبو راتب", kind: alternate }
+  - { value: "Abu Ratib", kind: full }
+gender: male
+summary:
+  ar: "منشد سوري ⁦(وُلد 1962 في حلب)⁩ للإنشاد الإسلامي المبني على الشعر العربي الكلاسيكي، اشتهر بكنية أبي راتب، ورأس فرقة الهدى الدولية للإنشاد، ونال في 2006 جائزة الشباب العالمية للعمل الإسلامي في الإنشاد."
+  en: "Syrian munshid (born 1962 in Aleppo) of Islamic song built on classical Arabic poetry, known as Abu Ratib, who led the al-Huda international nasheed ensemble and received the World Youth award for Islamic work in religious song in 2006."
+  ur: "شامی منشد ⁦(پیدائش 1962ء، حلب)⁩، کلاسیکی عربی شاعری پر مبنی اسلامی انشاد کے فنکار، جو ابو راتب کی کنیت سے معروف ہیں، الہدیٰ بین الاقوامی فرقۂ انشاد کے سربراہ رہے، اور 2006ء میں دینی انشاد میں اسلامی کام کا عالمی نوجوان انعام پایا۔"
+wings: [people, living]
+regions: [levant-iraq]
+roles: [munshid, singer]
+born: { edtf: "1962", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in Aleppo (Arabic article and Wikidata; the article's categories also list 1963).", sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib] }
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives religion Islam; neither it nor Wikidata names a school. A movement category on the article is not a sentence of attestation and is not used. Not recorded."
+    sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib]
+footprint:
+  wikipedia: { languages: [ar, arz, en, mzn], checked: "2026-11-06", sources: [source/wikidata-abu-ratib] }
+  wikidata: "Q4670325"
+external_ids: { wikidata: "Q4670325" }
+sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib]
+provenance: { layer: own-research, source: "Arabic Wikipedia «محمد مصطفى أبو راتب» (revision 75979086, 23 July 2026) and Wikidata Q4670325 (revision 2547596079), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

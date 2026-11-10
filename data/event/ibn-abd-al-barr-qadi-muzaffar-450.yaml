@@ -1,0 +1,28 @@
+id: event/ibn-abd-al-barr-qadi-muzaffar-450
+class: event
+kind: gathering
+label:
+  ar: "ابن عبد البر قاضياً في دولة المظفر بن الأفطس، نحو ٤٥٠هـ"
+  en: "Ibn 'Abd al-Barr serves as qadi under al-Muzaffar ibn al-Aftas, about 450/1058"
+  ur: "ابن عبد البر مظفر بن افطس کے دور میں قاضی مقرر، تقریباً 450ھ/1058ء"
+summary:
+  ar: "ذكر غير واحد أن أبا عمر ابن عبد البر ولي القضاء بأشبولة في دولة المظفر بن الأفطس مدة {cite:tarikh-islam-dhahabi p. 141}، وعند بلا في دائرة المعارف أنه كان قاضياً بأشبونة وسنترين في عهده {cite:encyclopaedia-of-islam-2 vol. 3 p. 706}، وألف في تلك الأيام «بهجة المجالس وأنس المجالس» نظماً للمظفر {cite:encyclopaedia-of-islam-2 vol. 3 p. 706}."
+  en: "Several authorities say Abu 'Amr Ibn 'Abd al-Barr held the judgeship of Ashbula for a time in the state of al-Muzaffar ibn al-Aftas {cite:tarikh-islam-dhahabi p. 141}; Pellat in the Encyclopaedia of Islam places his qadiship at Lisbon and Santarém under the same ruler {cite:encyclopaedia-of-islam-2 vol. 3 p. 706}, and it was for al-Muzaffar that he composed the verse adab book Bahjat al-Majalis {cite:encyclopaedia-of-islam-2 vol. 3 p. 706}."
+  ur: "کئی روایات کے مطابق ابو عمر ابن عبد البر مظفر بن افطس کے دور میں کچھ عرصہ اشبولہ کے قاضی رہے {cite:tarikh-islam-dhahabi p. 141}؛ دائرۃ المعارف میں پیلا کے مطابق ان کا قضا لیسبن اور سانترین میں تھا {cite:encyclopaedia-of-islam-2 vol. 3 p. 706}، اور انہی ایام میں انھوں نے مظفر کے لیے منظوم ادبی کتاب «بہجۃ المجالس» تصنیف کی {cite:encyclopaedia-of-islam-2 vol. 3 p. 706}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1056~", hijri: "0448~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولي القضاء بأشبولة في دولة المظفر بن الأفطس مدة {cite:tarikh-islam-dhahabi p. 141}؛ دولة المظفر ٤٣٧–٤٦٠هـ؛ التاريخ تقريبي؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lisbon, sources: [source/encyclopaedia-of-islam-2], note: "قاضياً بأشبونة وسنترين عند بلا؛ وبأشبولة عند غير واحد {cite:tarikh-islam-dhahabi p. 141}" }
+  - { type: had_participant, target: person/ibn-abd-al-barr, role: "القاضي", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-muzaffar-ibn-al-aftas, role: "الأمير", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 463 printed p. 141 (harvest OCR vol 461-470); EI2 vol. 3 art. IBN 'ABD AL-BARR pp. 706-707 (Pellat)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-abd-al-barr-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-17-1841
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1841"
+label: { ar: "الموطأ 1841 — مالك: من استأجر عبدا بعينه، أو اكترى راحلة بعينها إلى أجل، ولم يقبض العبد أو الراحلة إلى ذلك الأجل، فقد عمل بما لا يصلح، لأنه لم يقبض ما اكترى ولا سلف في دين", en: "Muwatta 1841" }
+summary:
+  ar: "قال مالك: ومن استأجر عبدا بعينه أو اكترى راحلة بعينها إلى أجل، يقبض العبد أو الراحلة إلى ذلك الأجل، فقد عمل بما لا يصلح، لا هو قبض ما استكرى أو استأجر، ولا هو سلف في دين يكون ضامنا على صاحبه حتى يستوفيه. {cite:muwatta-maruf-1997 p.155} {cite:muwatta-maruf-1997 p.156}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1841 at PDF p. 155; جامع بيع الثمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 155; matn excerpt at most 40 words" }

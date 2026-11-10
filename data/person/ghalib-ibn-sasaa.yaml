@@ -1,0 +1,23 @@
+id: person/ghalib-ibn-sasaa
+class: person
+label: { ar: "غالب بن صعصعة", en: "Ghalib ibn Sa'sa'a" }
+summary:
+  ar: "غالب بن صعصعة بن ناجية التميمي؛ والد الفرزدق؛ كان من جلّة قومه وسرواتهم وأمه ليلى بنت حابس أخت الأقرع بن حابس؛ ولآبيه مناقب مشهورة ومحامد مأثورة منها أنه أصاب أهل الكوفة مجاعة فكان هو رئيس القوم فعقر لأهله في المنافرة المشهورة مع سحيم بن وثيل الرياحي حتى بلغ مائة ناقة في يوم واحد {cite:wafayat-ayan}."
+  en: "Ghalib b. Sa'sa'a al-Tamimi — al-Farazdaq's father and a chief of his people; his mother was al-Aqra' b. Habis's sister; hero of the famine-year slaughter contest with Suhaym b. Wathil {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/umayyad]
+born: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Jamharat Ansab al-Arab" }
+died: { edtf: "665~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Jamharat Ansab al-Arab" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء السادس (عارضة داخل ترجمة الفرزدق)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch100
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3

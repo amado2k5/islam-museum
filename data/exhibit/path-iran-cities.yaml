@@ -1,0 +1,75 @@
+id: exhibit/path-iran-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن إيران
+  en: Cities of Iran
+summary:
+  ar: 'مسار في مدن فارس: نيسابور الحديث، وأصفهان العمارة، وشيراز الشعر، وتبريز التجارة — بلاد فارس مسلمة.'
+  en: A trail through the cities of Persia.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: نيسابور
+    en: Nishapur
+  body:
+    ar: 'مدينة مسلم والحاكم: عاصمة الحديث.'
+    en: 'مدينة مسلم والحاكم: عاصمة الحديث.'
+  features:
+  - place/nishapur
+  - person/muslim-ibn-al-hajjaj
+- title:
+    ar: أصفهان
+    en: Isfahan
+  body:
+    ar: 'نصف جهان: ميدان نقش جهان الصفوي.'
+    en: 'نصف جهان: ميدان نقش جهان الصفوي.'
+  features:
+  - place/isfahan
+  - person/ibn-sina
+- title:
+    ar: شيراز
+    en: Shiraz
+  body:
+    ar: 'مدينة سعدي وحافظ: الشعر الفارسي.'
+    en: 'مدينة سعدي وحافظ: الشعر الفارسي.'
+  features:
+  - place/shiraz
+- title:
+    ar: تبريز
+    en: Tabriz
+  body:
+    ar: 'بازار تبريز: عقدة طريق الحرير.'
+    en: 'بازار تبريز: عقدة طريق الحرير.'
+  features:
+  - place/tabriz
+  - building/bazaar-tabriz
+- title:
+    ar: خراسان
+    en: Khorasan
+  body:
+    ar: 'بخارى وسمرقند ومرو: الشرق الكبير.'
+    en: 'بخارى وسمرقند ومرو: الشرق الكبير.'
+  features:
+  - place/bukhara
+  - place/nishapur
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,36 @@
+id: place/surakarta
+class: place
+kind: city
+label:
+  ar: سوراكارتا
+  en: Surakarta
+  ur: سوراکارتا
+summary:
+  ar: مدينة في إندونيسيا.
+  en: City in Central Java Province, Indonesia.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- -7.5667
+- 110.8167
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q4803
+  geonames: '1625812'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q4803 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q4803 (labels, coordinates, description)

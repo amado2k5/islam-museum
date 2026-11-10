@@ -1,0 +1,16 @@
+id: place/naryn-region
+class: place
+kind: province
+label: { en: "Naryn Region", ar: "نارين أوبلاستي" }
+summary:
+  en: "Region of Kyrgyzstan."
+  ar: "محافظة في قرغيزستان."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [41.5, 75.5]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q486375", geonames: "1527590" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q486375 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

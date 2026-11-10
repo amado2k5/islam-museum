@@ -1,0 +1,29 @@
+id: person/yahya-al-mutali
+class: person
+label:
+  ar: "يحيى المعتلي بالله"
+  en: "Yahya al-Mu'tali"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية ليحيى بن علي بن حمود المعتلي بالله، الخليفة الحمودي بقرطبة وسفيانا في سنين فتنة الثغراء بعد عزله وعودته، توفي سنة ١٠٣٥م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yahya ibn Ali ibn Hammud, the Hammudid caliph al-Mu'tali of Cordoba in the factional years of the eleventh century, d. 1035; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Nafh al-Tib" }
+died: { edtf: "1035", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Nafh al-Tib" }
+relations:
+  - { type: died_in, target: place/qarmuna, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q63092)" }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q1931590
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0017
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,33 @@
+id: person/akib-ahmed
+class: person
+names:
+  - { kind: full, value: "Akib Ahmed" }
+  - { kind: alternate, value: "আকিব আহমেদ" }
+  - { kind: alternate, value: "Akib Ahemed" }
+  - { kind: alternate, value: "Akib Ahammed" }
+label: { ar: "عاكب أحمد", en: "Akib Ahmed", ur: "عاکب احمد" }
+summary:
+  ar: "ممثل ومخرج وكاتب بنغلاديشي للدراما الأخلاقية الإسلامية القصيرة «ناتوك»؛ قناته الرئيسة «أكيب إسلاميك تي في» (@akibislamictv) بلغت 5,380,000 مشترك بحسب vidIQ كما في 8 نوفمبر 2026، وقناته الثانية (@akibahmed) بلغت 5,130,000 مشترك، وهو يكتب ويمثّل ويخرج غالبًا إنتاجات «كرييتف ميديا» التي تصفها اعتماداتها بأنها رسائل إسلامية مؤثرة في القلب."
+  en: "A Bangladeshi actor, director and writer of Islamic moral short drama (natok); his main channel, Akib Islamic TV (@akibislamictv), counted 5,380,000 subscribers by vidIQ as of 8 November 2026 and his second channel (@akibahmed) 5,130,000, and he writes, stars in and most often directs the Creative Media productions whose credits present them as heart-touching Islamic messages."
+  ur: "بنگلادیشی اداکار، ہدایت کار اور مصنف جو اسلامی اخلاقی مختصر ڈرامے «ناٹک» بناتے ہیں؛ ان کے مرکزی چینل «اکیب اسلامک ٹی وی» (@akibislamictv) کے سبسکرائبر vidIQ کے مطابق 8 نومبر 2026ء کو 5,380,000 تھے اور دوسرے چینل (@akibahmed) کے 5,130,000، اور وہ «کری ایٹو میڈیا» کی ان پروڈکشنز کو لکھتے، ان میں اداکاری کرتے اور اکثر ان کی ہدایت بھی کرتے ہیں جن کے کریڈٹس انہیں دل کو چھونے والے اسلامی پیغامات کے طور پر پیش کرتے ہیں۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school of law or an order for the man himself. His own channel presents him as a content creator and influencer and names no school for him; his work is Islamic-themed scripted drama, which is content, not attestation, and the vidIQ and ThoughtLeaders pages record platform figures and a content profile only. Under this lane's rule (faith only on two independent texts attesting the value for the person himself) his school stays unknown."
+    sources: [source/youtube-akib-islamic-tv, source/vidiq-akib-islamic-tv, source/thoughtleaders-akib-islamic-tv]
+roles: [actor, director, writer]
+wings: [people, living]
+regions: [south-asia]
+born: { edtf: "1990~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Educational Publications" }
+relations: []
+reach:
+  - { platform: youtube, metric: subscribers, value: 5380000, date: "2026-11-08", note: "@akibislamictv (Akib Islamic TV), per vidIQ page updated 8 November 2026 and read 9 November 2026", sources: [source/vidiq-akib-islamic-tv] }
+  - { platform: youtube, metric: subscribers, value: 5130000, date: "2026-11-08", note: "@akibahmed (Akib Ahmed), per vidIQ page updated 8 November 2026 and read 9 November 2026", sources: [source/vidiq-akib-ahmed] }
+sources: [source/vidiq-akib-islamic-tv, source/vidiq-akib-ahmed, source/youtube-akib-islamic-tv, source/thoughtleaders-akib-islamic-tv]
+provenance:
+  layer: own-research
+  source: "Built under the founder's genre ruling of 9 November 2026, which approves person records for creators, directors and primary figures of Islamic moral dramas and scripted short films whose catalog aligns with the museum's cultural and educational mandate, with the individual and their channel catalogued separately; the man was held from wave 197 for exactly this ruling (coordinator checks file, section 5; harvest entry 1 of the wave-197 harvest, 8 November 2026). Researched on 9 November 2026 against: the vidIQ statistics pages for both of his channels (figures as of 8 November 2026, read 9 November 2026); his main channel's own About text and his videos' descriptions and credits (read 9 November 2026); and the ThoughtLeaders channel profile (read 9 November 2026), the one independent third-party profile found. Identity beyond his own channels is thin and is stated as such: searches on 9 November 2026 in English and Bengali found no newspaper or magazine coverage, no Wikipedia article in any language and no Wikidata item for him, so this record rests on his channels plus the ThoughtLeaders profile, as the lane's no-skip ladder permits. His videos' descriptions pin his Instagram (@akib_ahemed) and Facebook ('Stunt Akib Ahemed' page; 'Akib Ahmed' profile), but no dated follower count for either could be read, so no figure is carried for them; a separate Facebook page presenting itself as his ('Akib Ahmed 2.0', 1.4 million followers by the metadata of its November 2026 posts) is not the page his descriptions pin, so it is not used. Name spellings: 'Akib Ahemed' is his own social-media spelling (his Instagram handle and Facebook page name) and 'Akib Ahammed' appears in some of his videos' credits; neither is asserted to be a legal name, and no source read says whether 'Akib Ahmed' is a stage name, so nothing is speculated. No source read gives a birth date, birthplace or education, so no born block is written. The Arabic label is a transliteration of the Bengali name. Relations is empty, following the lane's person models built on a channel (muaz-habib, babdeo-miladu), which carry no edge to a channel group. De-duplicated against the staging tree: no akib-ahmed record exists."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-197"
+status: { review: published, completeness: 2 }

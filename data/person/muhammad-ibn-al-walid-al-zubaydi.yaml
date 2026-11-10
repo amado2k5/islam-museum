@@ -1,0 +1,33 @@
+id: person/muhammad-ibn-al-walid-al-zubaydi
+class: person
+label: { ar: "محمد بن الوليد الزبيدي" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن الوليد بن عامر الزبيدي أبو الهذيل" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء الشام، أبو الهذيل محمد بن الوليد الزبيدي؛ قال محمد بن سالم إنه قرأ القرآن على ابن شهاب بالرصافة، فقال له ابن شهاب إن هذا قد احتوى على ما بين جنبي من العلم {cite:tabaqat-fuqaha-abbas-1981 p. 41}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [levant-iraq]
+died: { hijri: "0148", edtf: "0765~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ثمان وأربعين ومائة. الرقم قُرئ من صورة الصفحة؛ يحتاج إلى مصدر ثان (PDF ص41).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

@@ -1,0 +1,33 @@
+id: person/amr-ibn-adi
+education:
+  did_you_know:
+    ar: "عمرو بن عدي أول ملوك اللخميين على الحيرة، وليها بعد موت جذيمة في عهد كسرى سابور، ولم تزل ملوك اللخم تتوالى عليها حتى ولّى الفرس عاملاً."
+    en: "Amr ibn Adi was the first Lakhmid king over al-Hira, installed after Jadhima's death under Khusraw Sabur; the Lakhmid kings held it in succession until the Persians appointed their own governor."
+    ur: "عمرو بن عدی حیرہ پر پہلا لخمی بادشاہ تھا، جسے جذیمہ کی موت کے بعد خسرو سابور کے زمانے میں بٹھایا گیا؛ لخمی بادشاہوں کی حکومت چلتی رہی یہاں تک کہ فارسیوں نے اپنا حاکم مقرر کیا۔"
+    sources: [source/muruj-al-dhahab, source/tabaqat-ibn-sad]
+class: person
+label: { en: "Amr ibn Adi ibn Nasr al-Lakhmi", ar: "عمرو بن عدي اللخمي" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The first Lakhmid king of al-Hira, appointed after Jadhima al-Abrash’s death in the reign of Shapur son of Ardashir; from him the Lakhmid kings succeeded each other until Khosrow replaced them with Persian governors."
+  ar: "أول ملوك اللخميين على الحيرة؛ وُلي بعد موت جذيمة في عهد كسرى سابور بن أردشير، فلم تزل الملوك من اللخميين تتوالى عليها حتى ولّى الفرس عاملاً فارسياً. وعند المسعودي أنه ابن رقاش بنت مالك أخت جذيمة من عدي بن نصر بن ربيعة اللخمي الذي كان نديم جذيمة وساقيه، فعشقته رقاش فقالت له إذا سقيت القوم فامزج لهم وغدق للملك فإذا أخذت الخمر منه فاخطبني منه، ففعل فتزوجها وهرب عدي وولدت عمرو، فكان أول من نزل من الملوك الحيرة واتخذها دار ملك وإليه تنسب الملوك النصرانية، وكان ملكه مائة سنة {cite:muruj-al-dhahab p. 409-412}"
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+born: { edtf: "268~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / EI" }
+died: { edtf: "295~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / EI" }
+relations:
+  - { type: ruler_of, target: place/al-hira, start: { edtf: "0268~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/banu-lakhm }
+  - { type: successor_of, target: person/jadhima-al-abrash }
+sources: [source/mubarakpuri-raheeq, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

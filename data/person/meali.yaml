@@ -1,0 +1,36 @@
+id: person/meali
+class: person
+label:
+  ar: "معالي"
+  en: "Meali"
+roles: [poet, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لمعالي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Meali, the Ottoman poet and kadi, d. 1535; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1535", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Turk Edebiyati" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/gelibolu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q135472253
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0092
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

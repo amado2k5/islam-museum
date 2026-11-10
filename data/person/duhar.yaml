@@ -1,0 +1,17 @@
+id: person/duhar
+class: person
+label: { ar: "دوهر بن داهر", en: "Duhar ibn Dahir" }
+summary:
+  ar: "دوهر بن داهر؛ خرج إلى محمد بن القاسم بالكيرج فقاتله فانهزم العدو وهرب ويقال قتل ونزل أهل المدينة على حكم محمد فقتل وسبى."
+  en: "Duhar ibn Dahir; he sallied against Muhammad ibn al-Qasim at al-Kiraj, was routed, fled — some say was killed — and the city yielded on terms."
+periods: [period/umayyad]
+wings: [people]
+died: { edtf: "712", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+relations:
+  - { type: lived_in, target: place/al-kiraj, confidence: low, note: "Associated with al-Kiraj per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

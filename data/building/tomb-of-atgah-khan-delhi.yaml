@@ -1,0 +1,26 @@
+id: building/tomb-of-atgah-khan-delhi
+class: building
+kind: tomb
+label: { ar: "ضريح شمس الدين محمد أتكه خان في دلهي", en: "Tomb of Shams al-Din Muhammad Atgah Khan, Delhi", ur: "مقبرۂ شمس الدین محمد اتگہ خان، دہلی" }
+summary:
+  ar: "ضريح مربع صغير بقبة رخامية قرب درگاه نظام الدين أولياء في دلهي، بُني سنة 974هـ/1566–1567م بإشراف الأستاذ خدا قلي، وخطاط نقوشه باقي محمد البخاري، وفيه استعمال واسع للرخام الأبيض والتطعيم والقيشاني {cite:nath-history-of-mughal-architecture-1-1982 p. 190} {cite:nath-history-of-mughal-architecture-1-1982 p. 191}."
+  en: "A small square tomb with a marble dome near the dargah of Nizam al-Din Awliya at Delhi, built in AH 974/1566-67 under the superintendence of Ustad Khuda Quli, its inscriptions written by Baqi Muhammad of Bukhara, with lavish white marble, inlay and glazed tile {cite:nath-history-of-mughal-architecture-1-1982 p. 190} {cite:nath-history-of-mughal-architecture-1-1982 p. 191}."
+  ur: "دہلی میں درگاہِ نظام الدین اولیا کے قریب سنگِ مرمر کے گنبد والا چھوٹا مربع مقبرہ، 974ھ/1566–67ء میں استاد خدا قلی کی نگرانی میں بنا، کتبے باقی محمد بخاری کے لکھے؛ سفید سنگِ مرمر، پچی کاری اور کاشی کی فراوانی {cite:nath-history-of-mughal-architecture-1-1982 p. 191}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+built: { edtf: "1566/1567", hijri: "0974", calendar: gregorian, precision: year, status: historical, note: "Dated 974 in its inscriptions {cite:nath-history-of-mughal-architecture-1-1982 p. 191}." }
+location: place/delhi
+materials: [stone, marble]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+  - { type: related_to, target: building/dargah-nizamuddin, sources: [source/nath-history-of-mughal-architecture-1-1982] }
+sources: [source/nath-history-of-mughal-architecture-1-1982]
+provenance:
+  layer: own-research
+  source: "Nath 1982, printed pp. 190-193, 210"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

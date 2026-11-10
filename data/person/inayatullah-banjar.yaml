@@ -1,0 +1,28 @@
+id: person/inayatullah-banjar
+class: person
+label:
+  ar: "عناية الله"
+  en: "Inayatullah of Banjar"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لعناية الله، سلطان بنجر؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Inayatullah, a Sultan of Banjar; the source entry is not yet checked on the page."
+wings: [people]
+regions: [southeast-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1645~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Banjar / Ras" }
+relations:
+  - { type: lived_in, target: place/indonesia, confidence: low, note: "Sultan of Banjar (Borneo) per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q10965522
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0065
+status:
+  review: draft
+  completeness: 1

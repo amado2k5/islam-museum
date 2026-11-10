@@ -1,0 +1,76 @@
+id: exhibit/path-surah-qasas
+class: exhibit
+kind: trail
+label:
+  ar: سورة القصص
+  en: Surah al-Qasas
+summary:
+  ar: 'مسار في سورة القصة الكبرى: موسى من المهد إلى البحر، وقارون وكنزه، والتوراة تعود — سورة موسى الكاملة.'
+  en: A trail through the great story sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: 'القصص: نتلو عليك من نبأ موسى وفرعون.'
+    en: 'القصص: نتلو عليك من نبأ موسى وفرعون.'
+  features:
+  - passage/quran-28
+  - passage/quran-28
+- title:
+    ar: موسى
+    en: Musa
+  body:
+    ar: 'الصندوق والقصر: الطفل الناجي.'
+    en: 'الصندوق والقصر: الطفل الناجي.'
+  features:
+  - passage/quran-28-7
+  - passage/quran-28-7
+- title:
+    ar: مدين
+    en: Madyan
+  body:
+    ar: 'عشر سنين في مدين: الرعي والزواج.'
+    en: 'عشر سنين في مدين: الرعي والزواج.'
+  features:
+  - passage/quran-28-27
+  - passage/quran-28-27
+- title:
+    ar: فرعون
+    en: Pharaoh
+  body:
+    ar: 'البحر يشق: النجاة والغرق.'
+    en: 'البحر يشق: النجاة والغرق.'
+  features:
+  - passage/quran-28-40
+  - passage/quran-28-40
+- title:
+    ar: قارون
+    en: Qarun
+  body:
+    ar: 'كنوز يعجز عنها الرجال: عبرة المال.'
+    en: 'كنوز يعجز عنها الرجال: عبرة المال.'
+  features:
+  - passage/quran-28-76
+  - passage/quran-28-76
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

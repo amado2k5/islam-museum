@@ -18,11 +18,14 @@ story_roles:
   - { role: poet, status: tradition, note: "استغاثة بالنبي في مسجد المدينة بأبياته الشهيرة بعد التبييت على الوتير.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "استغاثته بالنبي وقوله «أسلمنا» في قصيدته." }
+died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
+  - { type: lived_in, target: place/mecca, note: "From text: of Mecca'", sources: [source/ibn-hisham-saqqa], confidence: low }
   - { type: member_of, target: group/banu-kab-ibn-khuzaa }
   - { type: member_of, target: group/khuzaa }
-  - { type: authored, target: work/amr-ibn-salim-istighatha }
+  - { type: participated_in, target: event/khuzaa-appeal-to-medina, role: reciter, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/khuzaa-appeal-to-medina, role: appellant-poet, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 36–37", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 36–37", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 36–37" }
+status: { review: published, completeness: 3 }

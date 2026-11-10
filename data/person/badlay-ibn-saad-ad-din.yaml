@@ -1,0 +1,28 @@
+id: person/badlay-ibn-saad-ad-din
+class: person
+label:
+  ar: "بادلاي بن سعد الدين"
+  en: "Badlay ibn Sa'ad ad-Din"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لبادلاي بن سعد الدين؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Badlay ibn Sa'ad ad-Din; the entry is not yet checked on the page."
+wings: [people]
+regions: [east-africa]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1445", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Adal)" }
+relations:
+  - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q4841010
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

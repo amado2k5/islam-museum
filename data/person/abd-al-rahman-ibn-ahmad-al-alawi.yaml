@@ -1,0 +1,22 @@
+id: person/abd-al-rahman-ibn-ahmad-al-alawi
+class: person
+label: { ar: "عبد الرحمن بن أحمد العلوي", en: "Abd al-Rahman ibn Ahmad al-Alawi" }
+summary:
+  ar: "خرج ببلاد عك من اليمن في سنة سبع ومائتين يدعو إلى الرضا من آل محمد {cite:tabari-tarikh-abu-al-fadl j.8 p.593}."
+  en: "He rose up in the land of 'Akk in Yemen in 207, calling for al-Rida from the family of Muhammad {cite:tabari-tarikh-abu-al-fadl j.8 p.593}."
+wings: [people]
+gender: male
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "1810", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: Moroccan Sharifian author" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "From text: خرج ببلاد عك من اليمن في سنة س", sources: [source/tabari-tarikh-abu-al-fadl], confidence: low }

@@ -1,0 +1,29 @@
+id: person/abd-al-razzaq-halabi
+class: person
+label:
+  ar: "عبد الرزاق الحلبي"
+  en: "Abd al-Razzaq Halabi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرزاق الحلبي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Razzaq Halabi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12222840
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1925", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Damascus Scholars Registry (1343–1433 AH)" }
+died: { edtf: "2012", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Damascus Scholars Registry (1343–1433 AH)" }
+relations:
+  - { type: lived_in, target: place/aleppo, note: "Place association from the person's nisba/name (الحلبي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

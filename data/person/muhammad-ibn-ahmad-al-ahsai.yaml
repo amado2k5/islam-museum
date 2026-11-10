@@ -1,0 +1,42 @@
+id: person/muhammad-ibn-ahmad-al-ahsai
+class: person
+label:
+  ar: "محمد بن أحمد الأحسائي"
+  en: "Muhammad ibn Ahmad al-Ahsa'i"
+roles: [jurist, teacher]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن أحمد الأحسائي، الفقيه الحنفي الأحسائي، توفي سنة ١٦٧٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Ahmad al-Ahsa'i, the Ahsa'i Hanafi jurist, d. 1672; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+relations:
+  - { type: born_in, target: place/al-ahsa-oasis, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q311341)" }
+  - { type: born_in, target: place/lahsa-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4021032)" }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+  - { type: died_in, target: place/baghdad-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3828224)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q42331396
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0083
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

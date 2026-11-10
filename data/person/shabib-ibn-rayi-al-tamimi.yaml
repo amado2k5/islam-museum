@@ -1,0 +1,22 @@
+id: person/shabib-ibn-rayi-al-tamimi
+class: person
+label: { ar: "شبيب بن ريعي التميمي", en: "Shabib ibn Ray'i al-Tamimi" }
+summary:
+  ar: "أمير الحرورية الأول، جعلوه عليهم حين انحاز اثنا عشر ألفاً من القراء وغيرهم إلى حروراء بعد تحكيم صفين، وخرج علي إليهم فكانت له معهم مناظرات فدخلوا جميعاً الكوفة {cite:muruj-al-dhahab p. 685}."
+  en: "The first commander of the Hururiyya — chosen over the twelve thousand qurra' who withdrew to Harura' after the arbitration, until Ali debated them back into Kufa {cite:muruj-al-dhahab p. 685}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 685"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

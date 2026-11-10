@@ -1,0 +1,17 @@
+id: passage/muslim-2276
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2276"
+label: { ar: "مسلم 2276 — اصطفى الله كنانة من ولد إسماعيل", en: "Muslim 2276 — God chose Kinana from Ismail's line" }
+text: "سمعت رسول الله يقول: «إن الله اصطفى كنانة من ولد إسماعيل، واصطفى قريشاً من كنانة، واصطفى من قريش بني هاشم، واصطفاني من بني هاشم»"
+summary:
+  ar: "رواية واثلة بن الأسقع في كتاب الفضائل من صحيح مسلم؛ سلسلة الاصطفاء النبوية من إسماعيل إلى كنانة فقريش فبني هاشم فالنبي — النص الأشهر في نسب النبي وكرامة سلالته عند أهل السنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ismail, sources: [source/sahih-muslim] }
+  - { type: mentions, target: group/quraysh, sources: [source/sahih-muslim] }
+  - { type: mentions, target: group/banu-hashim, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل (طبعة دار التأصيل، الحديث 2345؛ ترقيم عبد الباقي المعروف 2276)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

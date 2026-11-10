@@ -1,0 +1,27 @@
+id: person/amr-ibn-salama-al-jarmi
+class: person
+label: { ar: "عمرو بن سلمة الجرمي", en: "Amr ibn Salama al-Jarmi" }
+roles: [companion]
+traditions: [sunni]
+themes: [scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+gender: male
+wings: [people]
+summary:
+  ar: "عمرو بن سلمة بن نفيع، وقيل سلمة بن قيس، أبو بريد الجرمي، ويقال أبو يزيد البصري. أدرك النبي، وكان يؤم قومه على عهد النبي لأنه كان أكثرهم حفظا للقرآن. روى عن أبيه، وعنه أبو قلابة الجرمي وعاصم الأحول وأبو الزبير. قال ابن حبان: له صحبة. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3493}"
+  en: "Amr ibn Salama al-Jarmi, Abu Buraid, also called Abu Yazid of Basra, who met the Prophet and led his people in prayer in the Prophet's time because he had the most of the Qur'an by heart. He narrated from his father; Abu Qilaba al-Jarmi, Asim al-Ahwal and Abu al-Zubayr narrated from him. Ibn Hibban held that he had companionship with the Prophet. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3493}"
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
+  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3493"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch71
+status:
+  review: published
+  completeness: 3

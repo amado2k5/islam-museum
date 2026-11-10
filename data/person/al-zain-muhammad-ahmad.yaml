@@ -1,0 +1,30 @@
+id: person/al-zain-muhammad-ahmad
+class: person
+label: { ar: "الزين محمد أحمد", en: "al-Zain Muhammad Ahmad", ur: "الزین محمد احمد" }
+names:
+  - { value: "الزين محمد أحمد الزين", kind: full }
+  - { value: "al-Zain Muhammad Ahmad", kind: full }
+  - { value: "Shaykh al-Zain", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ وإمام سوداني ⁦(وُلد 1982)⁩ من شمال كردفان، حفظ القرآن في خلوة خرسي ببارا وختمه بروايتي الدوري وحفص، ونال إجازة الأزهر على أحمد عيسى المعصراوي في 2008، ويؤمّ مسجد السيدة سنهوري بالخرطوم منذ 2001 فيقصده الآلاف في التراويح والتهجد."
+  en: "Sudanese reciter and imam (born 1982) from North Kordofan who memorised the Qur'an at the Khursi khalwa in Bara in the Duri and Hafs transmissions, received an al-Azhar ijaza from Ahmad Isa al-Ma'sarawi in 2008, and has led the Sayyida Sanhouri Mosque in Khartoum since 2001, drawing thousands to its tarawih and tahajjud."
+  ur: "شمالی کردفان کے سوڈانی قاری اور امام ⁦(پیدائش 1982ء)⁩، جنھوں نے بارا کی خلوہ خرسی میں روایتِ دوری اور حفص میں قرآن حفظ کیا، 2008ء میں احمد عیسیٰ المعصراوی سے ازہر کی اجازت لی، اور 2001ء سے خرطوم کی مسجد السیدہ سنہوری کے امام ہیں جہاں تراویح اور تہجد میں ہزاروں لوگ آتے ہیں۔"
+wings: [people, living]
+regions: [east-africa]
+roles: [reciter, imam]
+born: { edtf: "1982-07", calendar: gregorian, precision: month, status: historical, derived: false, note: "The article's body gives July 1982 at Tendelti, North Kordofan; its lead gives 1982 at al-Buniya village, Umm Dam locality, North Kordofan. Wikidata gives 1982. Both places are reported; no place entity exists for either.", sources: [source/wikipedia-al-zain-muhammad-ahmad-ar, source/wikidata-al-zain-muhammad-ahmad] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-al-zain-muhammad-ahmad-ar, source/wikidata-al-zain-muhammad-ahmad]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-al-zain-muhammad-ahmad] }
+  wikidata: "Q28715915"
+external_ids: { wikidata: "Q28715915" }
+sources: [source/wikipedia-al-zain-muhammad-ahmad-ar, source/wikidata-al-zain-muhammad-ahmad]
+provenance: { layer: own-research, source: "Arabic Wikipedia «الزين محمد أحمد» (revision 74285287, 17 April 2026) and Wikidata Q28715915 (revision 1393234487), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b03 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: lived_in, target: place/sudan, note: "From text: Sudanese (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-al-zain-muhammad-ahmad-ar, source/wikidata-al-zain-muhammad-ahmad], confidence: low }

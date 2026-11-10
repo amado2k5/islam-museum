@@ -1,0 +1,27 @@
+id: event/death-al-baqillani-403
+class: event
+kind: death
+label:
+  ar: "وفاة القاضي أبي بكر الباقلاني ببغداد، ٢٣ ذو القعدة ٤٠٣هـ/٥ يونيو ١٠١٣م"
+  en: "Death of the qadi Abu Bakr al-Baqillani in Baghdad, 23 Dhu'l-Qa'da 403/5 June 1013"
+  ur: "قاضی ابوبکر باقلانی کی وفات، بغداد، 23 ذوالقعدہ 403ھ/5 جون 1013ء"
+summary:
+  ar: "توفي القاضي أبو بكر الباقلاني آخر يوم السبت لسبع بقين من ذي القعدة سنة ثلاث وأربعمائة — أي ٢٣ ذو القعدة ٤٠٣هـ الموافق ٥ يونيو ١٠١٣م — ببغداد، وصلى عليه ابنه الحسن، ودُفن في داره بدرب المجوس ثم نُقل بعد ذلك فدُفن في مقبرة باب حرب؛ ورثاه شعراء عصره {cite:wafayat-ayan} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  en: "The qadi Abu Bakr al-Baqillani died at the end of a Saturday, seven nights before the close of Dhu'l-Qa'da 403 — 23 Dhu'l-Qa'da 403, corresponding to 5 June 1013 — in Baghdad. His son al-Hasan led the funeral prayer; he was buried in his house in Darb al-Majus and later transferred to the Bab Harb cemetery, and poets of the age mourned him {cite:wafayat-ayan} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}."
+  ur: "قاضی ابوبکر باقلانی ہفتے کی آخری وقت، ذوالقعدہ کے سات دن باقی رہتے ہوئے — یعنی 23 ذوالقعدہ 403ھ بمطابق 5 جون 1013ء — بغداد میں وفات پا گئے۔ ان کے بیٹے حسن نے نماز جنازہ پڑھائی؛ پہلے درب مجوس میں اپنے گھر میں دفن ہوئے، پھر باب حرب کے قبرستان منتقل کیے گئے، اور عہد کے شعرا نے ان کا رنج کیا {cite:wafayat-ayan} {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1013-06-05", hijri: "0403-11-23", calendar: julian, precision: day, status: historical, note: "٢٣ ذو القعدة ٤٠٣/٥ يونيو ١٠١٣؛ التاريخان مصرَّحان {cite:encyclopaedia-of-islam-2 vol. 1 p. 1018} {cite:wafayat-ayan}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-baqillani, role: "المتوفَّى", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan, ed. Ihsan Abbas, vol. 4, notice of Abu Bakr al-Baqillani (no. 580); Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), printed pp. 1018-1019, art. al-Bakillani (R. J. McCarthy)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baqillani-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

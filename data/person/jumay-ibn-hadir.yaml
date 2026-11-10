@@ -1,0 +1,17 @@
+id: person/jumay-ibn-hadir
+class: person
+label: { ar: "جميع بن حاضر الباجي", en: "Jumay' ibn Hadir al-Baji" }
+summary:
+  ar: "جميع بن حاضر الباجي؛ نصبه عامل عمر بن عبد العزيز قاضياً في دعوى أهل سمرقند أن قتيبة دخل مدينتهم وأسكنها المسلمين على غدر فحكم بإخراج المسلمين على أن ينابذوهم على سواء فكره أهل المدينة الحرب وأقروا المسلمين."
+  en: "Jumay' ibn Hadir al-Baji; set as qadi over Samarqand's claim that Qutayba planted Muslims on treachery — he ruled they must leave unless the city fight on even terms, and the citizens, loath to fight, confirmed them."
+periods: [period/umayyad]
+wings: [people]
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/samarqand, confidence: low, note: "Associated with سمرقند per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

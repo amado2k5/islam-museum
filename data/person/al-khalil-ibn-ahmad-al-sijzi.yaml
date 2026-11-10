@@ -1,0 +1,29 @@
+id: person/al-khalil-ibn-ahmad-al-sijzi
+class: person
+label:
+  ar: "الخليل بن أحمد السجزي"
+  en: "Al-Khalil ibn Ahmad al-Sijzi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لالخليل بن أحمد السجزي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Al-Khalil ibn Ahmad al-Sijzi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q97143901
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "892", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 16/463; 279–373 AH)" }
+died: { edtf: "984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 16/463; 279–373 AH)" }
+relations:
+  - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجزي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

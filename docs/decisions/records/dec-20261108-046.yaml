@@ -1,0 +1,52 @@
+id: dec-20261108-046
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: b017d72e784a
+lane: seed
+class: uncategorised
+modality: repo
+domain: content
+mode: conservative
+question: Does the game's early passage into Muslim societies establish a
+  qualifying Muslim transmission record?
+options: null
+status: decided
+step: rule
+decision: a person's faith is recorded only on two independent sources attesting
+  it for the person himself; office, headship, descent, movement membership,
+  infobox-only values, teacher lineages and aggregator rows never count; where
+  sources say only 'Shia' and context supports a branch, the founder's mapping
+  gives shia-twelver documented with the mapping stated — otherwise unknown
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-faith-two-source):
+  Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder
+  re-review 1 Nov 2026 ('strict two-source rule restored; branch-only
+  attestation settles nothing')."
+rule: Method page doctrine + founder Shia-mapping rule 24 Oct 2026 + founder
+  re-review 1 Nov 2026 ('strict two-source rule restored; branch-only
+  attestation settles nothing')
+rule_id: rule-faith-two-source
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-faith-two-source
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - rule-faith-two-source
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Matches the two-source faith classification requirement
+  founder_override: false
+  calibration_weight: 1

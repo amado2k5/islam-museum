@@ -1,0 +1,16 @@
+id: passage/muslim-1400
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1400"
+label: { ar: "مسلم 1400 — يا معشر الشباب من استطاع منكم الباءة فليتزوج", en: "Muslim 1400 — Young men, whoever can afford marriage should marry" }
+text: "قال رسول الله: «يا معشر الشباب، من استطاع منكم الباءة فليتزوج؛ فإنه أغض للبصر وأحصن للفرج، ومن لم يستطع فعليه بالصوم؛ فإنه له وجاء»"
+summary:
+  ar: "رواية عبد الله بن مسعود في كتاب النكاح من صحيح مسلم، يرويها علقمة لما عرض عثمان تزويج ابن مسعود جارية شابة؛ أصل الترغيب في المبادرة إلى الزواج."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب النكاح، باب استحباب النكاح لمن تاقت نفسه (طبعة دار التأصيل، الحديث ١٤١٧؛ ترقيم عبد الباقي المعروف 1400)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

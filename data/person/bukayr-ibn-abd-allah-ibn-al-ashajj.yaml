@@ -1,0 +1,33 @@
+id: person/bukayr-ibn-abd-allah-ibn-al-ashajj
+class: person
+label: { ar: "بكير بن عبد الله بن الأشج" }
+names:
+  - { kind: full, lang: ar, value: "بكير بن عبد الله بن الأشج" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "بكير بن عبد الله بن الأشج، ممن انتقل إلى مرثد بن عبد الله اليزني؛ قال ابن وهب: ما ذكر مالك بكيراً إلا قال: كان من العلماء {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+died: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/marthad-ibn-abd-allah-al-yazani, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

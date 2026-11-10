@@ -1,0 +1,15 @@
+id: passage/bukhari-3803
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3803"
+label: { ar: "البخاري 3803 — اهتز العرش لموت سعد بن معاذ", en: "Bukhari 3803 — The Throne shook at Sa'd ibn Mu'adh's death" }
+text: "سمعت النبي يقول: «اهتز عرش الرحمن لموت سعد بن معاذ». وعن الأعمش حدثنا أبو صالح عن جابر عن النبي مثله، فقال رجل لجابر: فإن البراء يقول اهتز السرير؟ فقال: إنه كان بين هذين الحيين ضغائن"
+summary:
+  ar: "في كتاب مناقب الأنصار؛ رواية جابر بسندين عن النبي في موت سيد الأوس بعد حكمه في بني قريظة، وفيه تصحيح جابر لرواية «اهتز السرير» وبيان سببها. من أشهر مناقب الصحابة إطلاقاً."
+relations:
+  - { type: mentions, target: person/sad-ibn-muadh, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3803 (كتاب مناقب الأنصار)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

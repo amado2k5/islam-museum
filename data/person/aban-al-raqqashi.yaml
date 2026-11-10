@@ -1,0 +1,20 @@
+id: person/aban-al-raqqashi
+class: person
+label: { ar: "أبان بن عبد الحميد الرقاشي", en: "Aban Al Raqqashi" }
+summary:
+  ar: "أبان بن عبد الحميد بن لاحق بن عفير الرقاشي شاعر مكثر وأكثر شعره مزدوج، ونقل كتاب كليلة ودمنة إلى الشعر {cite:fihrist-ibn-al-nadim p. 423,182}."
+  en: "Aban al-Raqqashi — who rendered Kalila wa-Dimna into verse {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch16
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi); al-A'lam (al-Zirikli: d. c. 200 AH)" }
+relations:
+  - { type: lived_in, target: place/raqqa, note: "Nisba al-Raqqashi indicates association with Raqqa; residence not separately attested.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

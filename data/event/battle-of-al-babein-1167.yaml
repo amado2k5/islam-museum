@@ -1,0 +1,23 @@
+id: event/battle-of-al-babein-1167
+class: event
+kind: battle
+label: { ar: "معركة البابين", en: "Battle of al-Babein" }
+summary:
+  ar: "بطاقة أولية لمعركة البابين سنة ١١٦٧م، صدام شركوه والصليبيين عند بابين في صعيد مصر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of al-Babein in 1167, the drawn battle of Shirkuh and the Crusaders in Upper Egypt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1167", precision: year, status: tradition, derived: true }
+  end: { edtf: "1167", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4872816
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusade histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

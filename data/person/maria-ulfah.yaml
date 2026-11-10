@@ -1,0 +1,30 @@
+id: person/maria-ulfah
+class: person
+label: { ar: "ماريا أولفا", en: "Maria Ulfah", ur: "ماریہ الفا" }
+names:
+  - { value: "Maria Ulfah", kind: full }
+  - { value: "ماريا أولفا", kind: alternate }
+  - { value: "Hajjah Maria Ulfah", kind: alternate }
+gender: female
+summary:
+  ar: "قارئة قرآن إندونيسية ⁦(وُلدت 1955)⁩، أول امرأة تفوز بجائزة دولية للتلاوة في ماليزيا (1980)، فازت بمسابقتين وطنيتين في إندونيسيا، وتدير معهد تنمية التلاوة وتدرّس في معهد علوم القرآن بجاكرتا، وتُعدّ من كبار معلّمي التلاوة في جنوب شرق آسيا."
+  en: "Indonesian Qur'an reciter (born 1955), the first woman to win an international recitation award in Malaysia (1980), winner of two Indonesian national contests, manager of the central institute for the development of recitation and lecturer at the Institute for Qur'anic Studies in Jakarta, regarded as one of Southeast Asia's leading teachers of recitation."
+  ur: "انڈونیشیائی قاریۂ قرآن ⁦(پیدائش 1955ء)⁩، ملائیشیا میں تلاوت کا بین الاقوامی انعام جیتنے والی پہلی خاتون ⁦(1980ء)⁩، انڈونیشیا کے دو قومی مقابلوں کی فاتح، تلاوت کی ترقی کے مرکزی ادارے کی منتظم اور جکارتہ کے ادارۂ علومِ قرآن میں استاد، جنھیں جنوب مشرقی ایشیا کی ممتاز معلماتِ تلاوت میں شمار کیا جاتا ہے۔"
+wings: [people, living]
+regions: [southeast-asia]
+roles: [reciter, teacher, scholar]
+born: { edtf: "1955-12-21", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in Lamongan Regency, East Java, the ninth of twelve children of Haji Mudhoffar and Hajjah Ruminah (English article, citing her own site; Wikidata gives the same day and place). No place entity for Lamongan exists, so no birthplace relation is written.", sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah] }
+relations:
+  - { type: lived_in, target: place/jakarta, note: "Lecturer at the Institute for Qur'anic Studies in Jakarta", sources: [source/wikipedia-maria-ulfah-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for her (the article files her among Indonesian Muslims). Not recorded."
+    sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah]
+footprint:
+  wikipedia: { languages: [ar, bcl, dag, en, fa, ff, ha, id, ml, ms, skr, ur], checked: "2026-11-06", sources: [source/wikidata-maria-ulfah] }
+  wikidata: "Q6761640"
+external_ids: { wikidata: "Q6761640" }
+sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah]
+provenance: { layer: own-research, source: "English Wikipedia 'Maria Ulfah' (revision 1312555630, 21 September 2025) and Wikidata Q6761640 (revision 2335764692), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b02 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

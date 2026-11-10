@@ -1,0 +1,26 @@
+id: event/warqa-ajfar-raid-303
+class: event
+kind: raid
+label: { ar: "وقعة ورقاء بالأعراب بالأجفر وقتل العامة الأسرى", en: "Warqa's Raid on the Bedouin at al-Ajfar and the Mob's Killing of the Captives" }
+summary:
+  ar: "في سنة ثلاث وثلاثمائة أوقع ورقاء بن نوفل بالأعراب بناحية الأجفر فقتل جماعة وأسر جماعة وقدم بهم إلى بغداد، فوثبت العامة على الأسرى فقتلتهم، وضُرب رجل منهم بالسياط في باب العامة؛ وقيل إنه صاحب حصن الحاجر وإن الحاج استجاروا به {cite:muntazam-ibn-al-jawzi p. 418}."
+  en: "In 303 Warqa' ibn Nawfal fell on the Arabs at al-Ajfar, killed and captured bands and brought them to Baghdad — where the mob fell on the prisoners and killed them, one man flogged at Bab al-'Amma, said to be the lord of Hisn al-Hajir whom pilgrims had sought protection with {cite:muntazam-ibn-al-jawzi p. 418}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "جند السلطان" }
+    commanders: [person/warqa-ibn-nawfal]
+  - label: { ar: "أعراب الأجفر" }
+map: { kind: locator, precision: approximate, center: [43.00, 32.30] }
+date:
+  start: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٠٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 418}." }
+relations:
+  - { type: had_participant, target: person/warqa-ibn-nawfal, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

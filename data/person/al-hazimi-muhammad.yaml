@@ -1,0 +1,29 @@
+id: person/al-hazimi-muhammad
+class: person
+label: { ar: "الهازمي الهمذاني", en: "al-Hazimi" }
+born: { edtf: "1153", hijri: "0548", calendar: julian, precision: year, status: tradition, derived: true, note: "ولادته في سنة ثمان أو تسع وأربعين وخمسمائة بطريق همذان {cite:wafayat-ayan}." }
+died: { edtf: "1188", hijri: "0584", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ببغداد في الثامن والعشرين من جمادى الأولى سنة أربع وثمانين وخمسمائة {cite:wafayat-ayan}." }
+summary:
+  ar: "أبو بكر محمد بن موسى بن عثمان الحازمي الهمذاني الملقب زين الدين؛ أحد الحفاظ المتقنين والعباد الصالحين، سمع بهمذان من عبد الأول بن عيسى السجزي وأبي منصور شهردار الديلمي وابن المقرئ، وتفقه ببغداد على واثق بن فضلان، ثم ارتحل في طلب الحديث إلى بلاد العراق والشام والموصل وفارس وأصبهان وكثير من بلاد أذربيجان؛ من كتبه «الناسخ والمنسوخ» في الحديث و«الفيصل» في مشكلة النسبة و«العجالة» في النسب و«ما اتفق لفظه وافترق مسمّاه» في الأماكن والبلدان المشتبهة في الخط و«سلسلة الذهب» و«شروط الأئمة»، واستوطن بغداد بالجانب الشرقي {cite:wafayat-ayan}."
+  en: "al-Hazimi al-Hamadhani (548/549–584) — the precise hafiz of Baghdad's east side; traveller through Iraq, Syria, Persia and Azerbaijan; author of al-Nasikh wa-l-Mansukh and Shurut al-A'imma {cite:wafayat-ayan}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (ترجمة الهازمي الهمذاني)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch50
+sources: [source/wafayat-ayan]
+status: { review: published, completeness: 3 }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wafayat-ayan]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: تفقه ببغداد على واثق بن فضلان", sources: [source/wafayat-ayan] }
+  - { type: died_in, target: place/baghdad, note: "From text: توفي ببغداد في الثامن والعشرين من جم", sources: [source/wafayat-ayan] }

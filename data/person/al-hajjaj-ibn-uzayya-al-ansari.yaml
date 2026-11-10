@@ -1,0 +1,22 @@
+id: person/al-hajjaj-ibn-uzayya-al-ansari
+class: person
+label: { ar: "الحجاج بن عزية الأنصاري", en: "al-Hajjaj ibn 'Uzayya al-Ansari" }
+summary:
+  ar: "شاعر أنصاري رثى عمار بن ياسر بعد قتله بصفين بأبيات منها ياللرجال لعين دمعها جاري قد هاج حزني أبو اليقظان عمار، وفيه البيت النبوي تقتلك شرذمة سيطت لحمومهم بالبغي فجار {cite:muruj-al-dhahab p. 673-674}."
+  en: "The Ansari poet who elegised 'Ammar after Siffin — 'for men's eyes a flowing tear; Abu'l-Yaqzan 'Ammar has stirred my grief' {cite:muruj-al-dhahab p. 673-674}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

@@ -1,0 +1,21 @@
+id: passage/muwatta-1-248
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/dawud-ibn-al-husayn, person/abu-sufyan-mawla-ibn-abi-ahmad, person/abu-hurayra, person/muhammad]
+work: work/muwatta-malik
+ref: "1.248"
+label: { ar: "الموطأ 248 — ذو اليدين في صلاة العصر: كل ذلك لم يكن", en: "Muwatta 248" }
+text: "كل ذلك لم يكن. فقال: قد كان بعض ذلك يا رسول الله"
+summary:
+  ar: "يرويه مالك عن داود بن الحصين عن أبي سفيان مولى ابن أبي أحمد عن أبي هريرة، في باب ما يفعل من سلم من ركعتين ساهياً: صلى النبي العصر فسلم في ركعتين، فقام ذو اليدين وسأله أقصرت الصلاة أم نسي، فقال: كل ذلك لم يكن، فقال ذو اليدين: قد كان بعض ذلك، فأقبل النبي على الناس وسألهم أصدق ذو اليدين، فقالوا نعم، فأتم ما بقي من الصلاة ثم سجد سجدتين بعد التسليم وهو جالس. ويخرّجه المحقق عند مسلم (2/87) والنسائي (3/22) وابن خزيمة (1037) وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (2/311). {cite:muwatta-maruf-1997 p.148}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/dhu-al-yadayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/dawud-ibn-al-husayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-sufyan-mawla-ibn-abi-ahmad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 248 at PDF p. 148; باب ما يفعل من سلم من ركعتين ساهياً", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 148; matn excerpt at most 40 words" }

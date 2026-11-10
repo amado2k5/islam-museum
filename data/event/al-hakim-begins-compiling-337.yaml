@@ -1,0 +1,27 @@
+id: event/al-hakim-begins-compiling-337
+class: event
+kind: other
+label:
+  ar: "الحاكم النيسابوري يشرع في التصنيف، ٣٣٧هـ"
+  en: "Al-Hakim begins his compilations, 337/948"
+  ur: "حاکم نیشاپوری تصنیف کا آغاز، 337ھ/948ء"
+summary:
+  ar: "شرع الحاكم في التصنيف سنة سبع وثلاثين، فاتفق له من التصانيف ما يبلغ قريباً من ألف جزء من تخريج الصحيحين والعلل والتراجم والأبواب والشيوخ، ثم المجموعات مثل «معرفة علوم الحديث» و«المستدرك على الصحيحين» و«تاريخ النيسابوريين» {cite:tarikh-islam-dhahabi p. 128}."
+  en: "Al-Hakim began writing his compilations in 337/948-9; his output approached a thousand parts — takhridj of the two Sahihs, 'ilal, biographies, chapters and shaykh-collections — besides the large books such as Ma'rifat 'ulum al-hadith, the Mustadrak 'ala al-Sahihayn and Tarikh al-Naysaburiyyin {cite:tarikh-islam-dhahabi p. 128}."
+  ur: "حاکم نے 337ھ/948ء میں تصنیف کا آغاز کیا؛ ان کی تصانیف تقریباً ایک ہزار اجزا تک پہنچیں — صحیحین کی تخریج، علل، تراجم، ابواب اور مشائخ کے مجموعات — پھر معرفۃ علوم الحدیث، المستدرک علی الصحیحین اور تاریخ النیسابوریین جیسی بڑی کتابیں {cite:tarikh-islam-dhahabi p. 128}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0948", hijri: "0337", calendar: julian, precision: year, status: tradition, derived: true, note: "«وقد شرع الحاكم في التصنيف سنة سبع وثلاثين» {cite:tarikh-islam-dhahabi p. 128}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "المصنف", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405, printed p. 128 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

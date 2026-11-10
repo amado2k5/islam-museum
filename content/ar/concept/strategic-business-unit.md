@@ -1,0 +1,23 @@
+---
+id: concept/strategic-business-unit
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+يفرّق طارق السويدان بين مجال العمل (line of business) ووحدة العمل الإستراتيجية (SBU): مجال العمل هو المحور الاستراتيجي أي «ماذا تبيع؟»، ووحدة العمل الإستراتيجية أي جزء من العمل قابل للاستقلال بشرط أن يكون من صلب العمل {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:49:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:01:30}.
+
+## مجالات العمل
+يرى أن الوضع الطبيعي للشركة مجال عمل واحد، وألا تتجاوز ثلاثة مجالات إلا إذا كان بينها ترابط — فالتدريب والاستشارات والتعليم مترابطة، بينما التدريب والأخشاب والمطعم ليست كذلك؛ ويحكي أن شركته اشترت شركة أخشاب رابحة في ماليزيا فخسرتها في سنة لأنها خارج صلب عملهم، فباعوها بخسارة عشرة في المئة ⁦(رأي وتجربة المحاضر)⁩ {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:50:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:52:30}.
+
+## وحدة العمل الإستراتيجية
+يعرّفها بأنها أي جزء من العمل قابل للاستقلال بشرط أن يكون من صلب العمل: فلها خطة مستقلة وإدارة مستقلة وميزانية مستقلة وقرار مستقل، دون أن تستقل استقلالاً تاماً عن التمويل والخطة العامة {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:02:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:03:30}.
+ولا حدّ لعدد الوحدات تحت مجال العمل الواحد، بشرط معاملة كل وحدة كمستقلة؛ أما أقسام تقنية المعلومات والشؤون القانونية والموظفين والمحاسبة فليست من صلب العمل فتُعد «وحدات مساندة» (support units) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:05:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:07:00}.
+وقاعدته في موضع الوحدات المساندة: إن كانت ستشغل الموظف دواماً كاملاً أُلحقت بالوحدة، وإلا بقيت مشتركة أو مركزية — فيجري الفصل لكل خدمة على حدة، فالمحاسبة يومية بينما الاستشارة القانونية تكون بين فترة وأخرى {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:10:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:11:00}.
+
+## الاستقلالية تنمّي العمل
+يقرر أن من أراد لعمل أن يكبر فلا يجعله تابعاً لعمل آخر بل يمنحه استقلالية بإدارة وخطة وميزانية وقرار؛ ويذكر أن شركة «الإبداع الفكري» وصلت إيراداتها في ثلاث أو أربع سنوات إلى إيرادات «الإبداع الخليجي» لأنها لم تُجعل جزءاً منها {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:13:00}.
+ويرى أن الهيكل التنظيمي يتغير كلما تغيرت الخطة — فهو يتشكل ليسند الخطة — وأن تثبيت الهيكل وتغيير الخطة خطأ جسيم في كثير من المنظمات {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:32:30}.
+
+## في «أكاديمية إعداد القادة»: محاور العمل والوحدات
+في دروس التخطيط الاستراتيجي من الأكاديميتين القياديتين المصوّرتين يضع السويدان وحدات العمل الاستراتيجية بعد محور العمل. ⁦([[work/leadership-development-academy-1-program|الأكاديمية الأولى]]، الدرس 14؛ [[work/leadership-development-academy-2-program|الأكاديمية الثانية]]، الجلسة 5)⁩ ومحور العمل محور يضمّ منتجات أو خدمات معينة في المنظمة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep14 00:23:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:28:30} وقاعدته الرئيسية محور واحد لكل منظمة، أو اثنان أو ثلاثة على الأكثر مترابطة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep14 00:29:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:29:30} أما الحكومات والشركات القابضة والحركات الواسعة فيعاملها مظلّات فوق هيئات متخصصة، ويقول إن الشركات القابضة «تملك ولا تحكم». {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:33:00} ويعرّف وحدة العمل الاستراتيجية بأنها «كل منتج أو خدمة، بشرط أنه من صلب العمل، قابل للاستقلال مستقبلاً». {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep14 00:36:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:40:00} ومثاله على متى يصير خطّ المنتج وحدة قاعدة شركة ثري إم في أربعين مليون دولار من المبيعات. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep14 00:39:30} وينصح بأن يُعطى ما يُرجى نموّه وحدته المستقلة من البداية. {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:42:30} ويقول إن الخدمات المساندة لا تُجمع في وحدة مشتركة واحدة، ويعدّ ذلك أسوأ خيار. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep14 00:48:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:43:00} والهيكل ينبع من الوحدات ومحاور العمل، ويُعدَّل ليناسب الخطة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep14 00:52:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:43:00}

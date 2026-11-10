@@ -1,0 +1,23 @@
+id: event/battle-of-svishtov-1877
+class: event
+kind: battle
+label: { ar: "معركة سفيشتوف", en: "Battle of Svishtov" }
+summary:
+  ar: "بطاقة أولية لمعركة سفيشتوف سنة ١٨٧٧م، عبور الروس للدانوب ووقوع المدينة في الحرب العثمانية الروسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Svishtov in 1877, the Russian Danube crossing of the war with the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1877", precision: year, status: tradition, derived: true }
+  end: { edtf: "1877", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2667371
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

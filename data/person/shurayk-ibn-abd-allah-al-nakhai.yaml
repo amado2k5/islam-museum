@@ -1,0 +1,35 @@
+id: person/shurayk-ibn-abd-allah-al-nakhai
+class: person
+label: { ar: "شريك بن عبد الله النخعي", en: "Shurayk ibn Abd Allah al-Nakha'i" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله شريك بن عبد الله بن أبي شريك النخعي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+summary:
+  ar: "أبو عبد الله شريك بن عبد الله بن أبي شريك النخعي، ولد ببخارى سنة خمس وتسعين ومات بالكوفة سنة سبع وسبعين ومائة، وولي القضاء بالكوفة ثم بالأهواز {cite:tabaqat-fuqaha-abbas-1981 p. 46}. قال ابن عيينة: ما أدركت بالكوفة أحضر جواباً من شريك بن عبد الله {cite:tabaqat-fuqaha-abbas-1981 p. 46}."
+wings: [people]
+periods: [period/umayyad]
+born: { hijri: "0095", edtf: "0714~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد ببخارى سنة خمس وتسعين (PDF ص46).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0177", edtf: "0793~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بالكوفة سنة سبع وسبعين ومائة (PDF ص46).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+external_ids:
+  wikidata: Q12218762
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

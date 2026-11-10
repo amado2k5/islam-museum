@@ -1,0 +1,36 @@
+id: person/al-kharaqi-umar-ibn-al-husayn
+class: person
+label: { ar: "الخرقي عمر بن الحسين", en: "Al-Kharaqi, Umar ibn al-Husayn" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم عمر بن الحسين بن عبد الله بن أحمد الخرقي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { edtf: "0945", hijri: "0334", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه حنبلي، صاحب «المختصر» المشهور في الفقه الحنبلي."
+  en: "A Hanbali jurist, author of the widely used Mukhtasar on Hanbali law."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص176"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch53
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/damascus, note: "Hanbali jurist, author of the Mukhtasar; the Kharaqi nisba ties to Kharaq of the Damascus district. Inferred.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,6 +1,15 @@
 id: person/abbas-ibn-abd-al-muttalib
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "العباس عم النبي، أُسر مع المكيين يوم بدر ثم أسلم لاحقاً، ومن نسله قامت الخلافة العباسية."
+    en: "Al-Abbas, the Prophet's uncle, was taken with the Meccans at Badr and later embraced Islam; from his line rose the Abbasid caliphate."
+    ur: "عباس، نبی کے چچا، بدر میں مکیوں کے ساتھ گرفتار ہوئے اور بعد میں مسلمان ہوئے؛ ان کی اولاد سے عباسی خلافت قائم ہوئی۔"
+    sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
-label: { en: al-Abbas ibn Abd al-Muttalib, ar: العباس بن عبد المطلب }
+label: { en: al-Abbas ibn Abd al-Muttalib, ar: العباس بن عبد المطلب , ur: "عباس بن عبد المطلب"}
 names:
   - { kind: full, lang: ar, value: العباس بن عبد المطلب بن هاشم }
   - { kind: kunya, lang: ar-Latn, value: Abu al-Fadl }
@@ -8,10 +17,11 @@ gender: male
 born: { edtf: "0568~", calendar: julian, precision: year, status: tradition, note: "Approximate; sources differ on the year.", sources: [source/ibn-sad-tabaqat-bewley] }
 died: { edtf: "0653~", hijri: "0033~", calendar: julian, precision: year, status: tradition, note: "Died in Medina in 32 or 33 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
 roles: [companion, merchant]
-traditions: [sunni, shia-twelver]
+traditions: [sunni]
 summary:
   en: "An uncle of the Prophet, captured with the Meccan side at Badr and later a Muslim, whose descendants founded the Abbasid caliphate."
   ar: "عمّ النبي، أُسر مع المكيين في بدر ثم أسلم لاحقًا، ومن نسله قامت الخلافة العباسية."
+  ur: "نبی کے چچا؛ بدر میں مکی فریق کے ساتھ قیدی بنے اور بعد میں مسلمان ہوئے۔ {cite:ibn-hisham-saqqa} ان کی نسل سے عباسی خلافت قائم ہوئی۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [family-marriage-kinship, factions-splits-schisms]
 periods: [period/prophetic-era, period/rashidun]
@@ -34,5 +44,22 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, role: captured-on-the-meccan-side, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca }
   - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q293599
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his/her chapter in Ahmad's Fada'il al-Sahaba with the editor's grades, source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1159-1162"
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy]

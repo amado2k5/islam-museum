@@ -1,0 +1,24 @@
+id: event/bira-relief-671
+class: event
+kind: battle
+label: { ar: "إغاثة البيرة وخوض الفرات سنة 671هـ", en: "The Euphrates crossing to relieve al-Bira, 671" }
+summary:
+  ar: "في سنة إحدى وسبعين وصلت التتار إلى حافة الفرات ونازلوا إلبيرة، وكان السلطان بدمشق فأسرع السير وأمر الأمراء بخوض الفرات، فخاض سيف الدين قلاوون وبيسري والسلطان أولاً ثم تبعهم العسكر ووقعوا على التتار فقتلوا منهم مقتلة عظيمة وأسروا مائتين، ولله الحمد {cite:shadharat-dhahab p. 581}."
+  en: "The Tatars came down to the Euphrates bank and invested al-Bira; the sultan raced from Damascus and ordered the ford — Qalawun, Baysari and Baybars himself first across — the army fell on them, made a great slaughter and took two hundred {cite:shadharat-dhahab p. 581}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "المسلمون — جيش الملك الظاهر بيبرس" }
+  - label: { ar: "التتار — الحاصرون" }
+map: { kind: battle, precision: locality, center: [37.0300, 37.9330] }
+date: { start: { edtf: "1272~", hijri: "0671", calendar: julian, precision: year, status: tradition, derived: true, note: "حوادث سنة إحدى وسبعين وستمائة {cite:shadharat-dhahab p. 581}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/baybars, role: "السلطان الغائث", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 671)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

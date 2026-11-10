@@ -1,0 +1,16 @@
+id: place/sinop
+class: place
+kind: city
+label: { en: "Sinop", ar: "سينوب" }
+summary:
+  en: "Central district and city in Sinop Province, Turkey."
+  ar: "مدينة في تركيا."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [42.0267, 35.1511]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q599416", geonames: "739600" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q599416 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,15 @@
+id: passage/muwatta-25-2306
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2306"
+label: { ar: "الموطأ 2306 — مالك: السيد المقاطِع لا يحاص غرماء المكاتب المعتَق", en: "Muwatta 2306" }
+summary:
+  ar: "قال مالك في المكاتب يقاطعه سيده فيعتق، ويكتب عليه ما بقي من القطاعة دينا عليه، ثم يموت المكاتب وعليه دين للناس: إن سيده لا يحاص غرماءه بما بقي عليه من القطاعة، وللغرماء أن يبدؤوا عليه. {cite:muwatta-maruf-1997 p.351}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2306 at PDF p. 351; القطاعة في الكتابة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b71" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 351; matn excerpt at most 40 words" }

@@ -1,0 +1,30 @@
+id: person/ibn-al-abrash-khalaf
+class: person
+label: { ar: "ابن الأبرش خلف بن يوسف", en: "Ibn al-Abrash, Khalaf ibn Yusuf" }
+names:
+  - { kind: full, lang: ar, value: "خلف بن يوسف بن فرتون الشنتريني" }
+gender: male
+roles: [poet, scholar]
+traditions: [sunni]
+died: { edtf: "1138", hijri: "0532", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "نحوي وشاعر أندلسي من شنترين، توفي بقرطبة سنة 532هـ."
+  en: "An Andalusian grammarian and poet from Santarem (Shantarin), who died in Cordoba in 532 AH."
+wings: [people]
+themes: [literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: low, note: "Associated with Cordoba per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص168-174"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch56

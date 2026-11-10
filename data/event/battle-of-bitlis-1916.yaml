@@ -1,0 +1,23 @@
+id: event/battle-of-bitlis-1916
+class: event
+kind: battle
+label: { ar: "معركة بدليس", en: "Battle of Bitlis" }
+summary:
+  ar: "بطاقة أولية لمعركة بدليس سنة ١٩١٦م، أخذ الروس للمدينة العثمانية في حملة القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bitlis in 1916, Russia's capture of the Ottoman city in the Caucasus campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2632850
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

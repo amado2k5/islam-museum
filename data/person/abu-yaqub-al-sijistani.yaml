@@ -1,0 +1,22 @@
+id: person/abu-yaqub-al-sijistani
+class: person
+label: { ar: "أبو يعقوب السجستاني", en: "Abu Yaqub Al Sijistani" }
+summary:
+  ar: "أبو يعقوب خليفة الإمام المقيم وكان بالري، وكان بنو حماد أصحاب الدعوة بالجزيرة وما والاها من قبله، وتنكر على ابن نفيس لأمر بلغه عنه فأنفذ قوما من الأعاجم فقتلوه بالغيلة في كاره {cite:fihrist-ibn-al-nadim p. 268-269}."
+  en: "Abu Ya'qub al-Sijistani — the residing khalifa at Rayy over the Jazira da'is {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+external_ids: { wikidata: "Q1188700" }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch20
+born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani)" }
+died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; Walker (Abu Ya'qub al-Sijistani)" }
+relations:
+  - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجستاني); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

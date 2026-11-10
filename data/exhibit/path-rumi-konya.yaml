@@ -1,0 +1,76 @@
+id: exhibit/path-rumi-konya
+class: exhibit
+kind: trail
+label:
+  ar: الرومي وقونية
+  en: Rumi and Konya
+summary:
+  ar: 'مسار في مولانا: جلال الدين يهاجر بخارى إلى قونية، وشمس يغيره، والمثنوي يكتب — المولوية تدور.'
+  en: A trail through Mawlana.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: جلال الدين
+    en: Jalal al-Din
+  body:
+    ar: 'ابن بهاء الدين: فقيه قونية.'
+    en: 'ابن بهاء الدين: فقيه قونية.'
+  features:
+  - person/jalal-al-din-rumi
+  - place/konya
+- title:
+    ar: شمس
+    en: Shams
+  body:
+    ar: 'تبريزي يدخل قونية 1244: التحول.'
+    en: 'تبريزي يدخل قونية 1244: التحول.'
+  features:
+  - person/jalal-al-din-rumi
+  - place/tabriz
+- title:
+    ar: المثنوي
+    en: The Mathnawi
+  body:
+    ar: 'ستة دواوير: القرآن بالفارسية.'
+    en: 'ستة دواوير: القرآن بالفارسية.'
+  features:
+  - person/jalal-al-din-rumi
+  - concept/tasawwuf
+- title:
+    ar: المولوية
+    en: The Mevlevis
+  body:
+    ar: 'الدارورسن: الدوران السماوي.'
+    en: 'الدارورسن: الدوران السماوي.'
+  features:
+  - place/konya
+  - concept/tasawwuf
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'أكثر شعراء العالم قراءة: قونية تزار.'
+    en: 'أكثر شعراء العالم قراءة: قونية تزار.'
+  features:
+  - place/konya
+  - polity/rum-seljuk-sultanate
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

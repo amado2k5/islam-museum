@@ -1,0 +1,29 @@
+id: person/durmushzade-ahmed-efendi
+class: person
+label:
+  ar: "دورموش زاده أحمد أفندي"
+  en: "Durmuszade Ahmet Efendi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لدورموش زاده أحمد أفندي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Durmuszade Ahmet Efendi, the Ottoman writer (d. 1717); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1717", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136126063
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0095
+status:
+  review: draft
+  completeness: 1

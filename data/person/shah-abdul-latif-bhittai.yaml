@@ -1,0 +1,31 @@
+id: person/shah-abdul-latif-bhittai
+class: person
+label:
+  ar: "شاه عبد اللطيف بهتائي"
+  en: "Shah Abdul Latif Bhittai"
+roles: [poet, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشاه عبد اللطيف بهتائي، شاعر الصوفية السندي الأكبر صاحب «الرسالة» الشاه جو رسالو، توفي سنة ١٧٥١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shah Abdul Latif Bhittai, the greatest Sindhi Sufi poet author of the Shah Jo Risalo, d. 1751; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+themes: [spirituality-and-sufism]
+born: { edtf: "1689", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1752", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/halla, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3250492)" }
+  - { type: died_in, target: place/bhit, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q4901833)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q1396312
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0018
+status:
+  review: draft
+  completeness: 1

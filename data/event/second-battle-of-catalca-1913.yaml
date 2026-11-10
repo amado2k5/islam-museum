@@ -1,0 +1,23 @@
+id: event/second-battle-of-catalca-1913
+class: event
+kind: battle
+label: { ar: "معركة تشاطلجة الثانية", en: "Second Battle of Çatalca" }
+summary:
+  ar: "بطاقة أولية لمعركة تشاطلجة الثانية سنة ١٩١٣م، هجوم البلغار على خط إسطنبول الدفاعي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Battle of Çatalca in 1913, the Bulgarian assault on the Istanbul line; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1913", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6454612
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

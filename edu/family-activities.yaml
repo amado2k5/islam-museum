@@ -1,0 +1,427 @@
+# Family activities for the weekly sheet (docs/delegation/education-master-plan.md §5 E2): one per ISO week, chosen
+# on the device by the week number (/learn/parents/weekly/). Short, concrete, doable at home in under an hour, within
+# the kids' rulebook (no promises, no scores, no fear); Arabic first, English and Urdu from the Arabic. `href` is a site
+# path without the language prefix.
+activities:
+  - week: 1
+    icon: "🌙"
+    title: { ar: "اقرؤوا قصة قبل النوم", en: "Read a bedtime story", ur: "سونے سے پہلے کی ایک کہانی پڑھیں" }
+    text:
+      ar: "اختاروا قصة من قصص ما قبل النوم في جناح الصغار، واقرؤوها بصوت دافئ، ثم اسألوا: أي جزء أحببت أكثر؟"
+      en: "Choose one of the Kids' Wing bedtime stories, read it in a warm voice, then ask: which part did you like most?"
+      ur: "بچوں کے حصے کی کہانیوں میں سے ایک چنیں، نرم آواز میں پڑھیں، پھر پوچھیں: تمہیں کون سا حصہ سب سے زیادہ پسند آیا؟"
+    href: "/sighar/stories/"
+  - week: 2
+    icon: "🕌"
+    title: { ar: "ابنوا مسجدًا من الورق", en: "Build a paper mosque", ur: "کاغذ کی مسجد بنائیں" }
+    text:
+      ar: "ارسموا معًا مسجدًا بأجزائه السبعة على ورقة كبيرة، وسمّوا كل جزء. ما وظيفة المئذنة؟ وما المحراب؟"
+      en: "Draw a mosque together with its seven parts on a big sheet and name each part. What is the minaret for? And the mihrab?"
+      ur: "ایک بڑے کاغذ پر مل کر سات حصوں والی مسجد بنائیں اور ہر حصے کا نام لکھیں۔ مینار کس لیے ہے؟ اور محراب؟"
+    href: "/sighar/mosque/"
+  - week: 3
+    icon: "🌸"
+    title: { ar: "زهرة من حديقة الكلمات", en: "A flower from the Word Garden", ur: "الفاظ کے باغ کا ایک پھول" }
+    text:
+      ar: "افتحوا حديقة الكلمات، واختاروا كلمة واحدة، وابحثوا عنها معًا في ثلاث سور. من يجدها أولًا؟"
+      en: "Open the Word Garden, pick one word, and look for it together in three suras. Who finds it first?"
+      ur: "الفاظ کا باغ کھولیں، ایک لفظ چنیں، اور مل کر تین سورتوں میں اسے ڈھونڈیں۔ پہلے کون پاتا ہے؟"
+    href: "/sighar/garden/"
+  - week: 4
+    icon: "🤲"
+    title: { ar: "عمل طيب صغير", en: "One small good deed", ur: "ایک چھوٹی نیکی" }
+    text:
+      ar: "اختاروا عملًا طيبًا واحدًا من تحدّي الأخلاق وافعلوه معًا هذا الأسبوع، ثم ضعوا ملصقًا على الثلاجة."
+      en: "Pick one good deed from the Kindness Quest and do it together this week, then put a sticker on the fridge."
+      ur: "اخلاق کے چیلنج سے ایک نیکی چنیں اور اس ہفتے مل کر کریں، پھر فرج پر ایک اسٹیکر لگائیں۔"
+    href: "/sighar/kindness/"
+  - week: 5
+    icon: "⏳"
+    title: { ar: "رحلة في آلة الزمن", en: "A ride in the Time Machine", ur: "ٹائم مشین میں ایک سفر" }
+    text:
+      ar: "زوروا عصرًا واحدًا في آلة الزمن الصغيرة، واختاروا حدثًا، وابحثوا عن مكانه على خريطة البيت أو الهاتف."
+      en: "Visit one era in the Little Time Machine, pick an event, and find its place on a map at home or on the phone."
+      ur: "چھوٹی ٹائم مشین میں ایک دور دیکھیں، ایک واقعہ چنیں، اور گھر کے یا فون کے نقشے پر اس کی جگہ ڈھونڈیں۔"
+    href: "/sighar/timemachine/"
+  - week: 6
+    icon: "✍️"
+    title: { ar: "احكِها بكلماتك", en: "Tell it in your own words", ur: "اپنے الفاظ میں سناؤ" }
+    text:
+      ar: "بعد رحلة الأنبياء، اطلبوا من الطفل أن يحكي لكم محطة واحدة بكلماته، من غير الشاشة. اسمعوا حتى النهاية."
+      en: "After the Prophet Quest, ask the child to tell you one stop in their own words, screen off. Listen to the end."
+      ur: "انبیاء کے سفر کے بعد بچے سے کہیں کہ ایک پڑاؤ اپنے الفاظ میں سنائے، اسکرین بند کر کے۔ آخر تک سنیں۔"
+    href: "/sighar/quest/"
+  - week: 7
+    icon: "📓"
+    title: { ar: "خاطرة في الدفتر", en: "A journal line", ur: "ڈائری میں ایک بات" }
+    text:
+      ar: "اكتبوا معًا خاطرة قصيرة في دفتر القيم: شيء جميل حدث هذا الأسبوع، وشيء نشكر الله عليه."
+      en: "Write a short entry together in the Values Journal: something lovely that happened this week, and something to be thankful for."
+      ur: "اقدار کی ڈائری میں مل کر ایک چھوٹی سی بات لکھیں: اس ہفتے جو اچھی بات ہوئی، اور جس پر ہم شکر کرتے ہیں۔"
+    href: "/sighar/journal/"
+  - week: 8
+    icon: "🗺️"
+    title: { ar: "مدينة على الخريطة", en: "A city on the map", ur: "نقشے پر ایک شہر" }
+    text:
+      ar: "اختاروا مدينة من رفّ القراءة (بغداد، قرطبة، تمبكتو…)، واقرؤوا نصّها القصير، ثم جدوها على الخريطة."
+      en: "Choose a city from the reading shelf (Baghdad, Cordoba, Timbuktu…), read its short text, then find it on the map."
+      ur: "پڑھنے کی الماری سے ایک شہر چنیں (بغداد، قرطبہ، تمبکتو…)، اس کا چھوٹا متن پڑھیں، پھر نقشے پر ڈھونڈیں۔"
+    href: "/sighar/explorers/"
+  - week: 9
+    icon: "🃏"
+    title: { ar: "لعبة البطاقات", en: "A card game", ur: "کارڈوں کا کھیل" }
+    text:
+      ar: "افتحوا مجموعة بطاقات مخصّصة للصغار والعبوا «طابق» معًا: من يجمع أزواجًا أكثر في دقيقتين؟"
+      en: "Open a kids' card deck and play Match together: who pairs more cards in two minutes?"
+      ur: "بچوں کے کارڈز کا ایک سیٹ کھولیں اور مل کر «جوڑ ملاؤ» کھیلیں: دو منٹ میں کون زیادہ جوڑے بناتا ہے؟"
+    href: "/cards/lists/"
+  - week: 10
+    icon: "🌙"
+    title: { ar: "أسماء الشهور", en: "The names of the months", ur: "مہینوں کے نام" }
+    text:
+      ar: "تعلّموا أسماء الشهور الهجرية الاثني عشر بالغناء أو بالتصفيق. في أي شهر نحن الآن؟"
+      en: "Learn the twelve Hijri month names by singing or clapping them. Which month is it now?"
+      ur: "بارہ ہجری مہینوں کے نام گا کر یا تالی بجا کر سیکھیں۔ ابھی کون سا مہینہ ہے؟"
+    href: "/cards/list/asma-al-ashhur-al-hijriyya/"
+  - week: 11
+    icon: "🌳"
+    title: { ar: "شجرة من القرآن", en: "A tree from the Qur'an", ur: "قرآن کا ایک درخت" }
+    text:
+      ar: "اختاروا شجرة أو نبتة ذُكرت في القرآن من بطاقات المتحف، وابحثوا عن صورة لها أو عن ثمرتها في المطبخ."
+      en: "Pick a tree or plant mentioned in the Qur'an from the museum cards, and find a picture of it, or its fruit in the kitchen."
+      ur: "میوزیم کارڈز سے قرآن میں ذکر ہونے والا ایک درخت یا پودا چنیں، اور اس کی تصویر یا باورچی خانے میں اس کا پھل ڈھونڈیں۔"
+    href: "/cards/list/ashjar-al-quran/"
+  - week: 12
+    icon: "🧭"
+    title: { ar: "مسار قصير معًا", en: "A short trail together", ur: "مل کر ایک چھوٹا راستہ" }
+    text:
+      ar: "امشوا مسارًا قصيرًا من مسارات المتحف معًا، خطوة واحدة في اليوم، واحكوا كل مساء ما تعلّمتم."
+      en: "Walk one short museum trail together, one step a day, and tell each evening what you learned."
+      ur: "میوزیم کا ایک چھوٹا راستہ مل کر طے کریں، روز ایک مرحلہ، اور ہر شام بتائیں کہ کیا سیکھا۔"
+    href: "/learn/trails/"
+  - week: 13
+    icon: "🖊️"
+    title: { ar: "حرف بالخط العربي", en: "A letter in Arabic calligraphy", ur: "عربی خطاطی میں ایک حرف" }
+    text:
+      ar: "اكتبوا الحرف الأول من اسم الطفل بخط كبير جميل، ولوّنوه، وعلّقوه. انظروا كيف يُكتب في صفحة الخط."
+      en: "Write the first letter of the child's name large and beautiful, colour it, and hang it up. See how it is written on the calligraphy page."
+      ur: "بچے کے نام کا پہلا حرف بڑا اور خوبصورت لکھیں، رنگ بھریں اور لٹکا دیں۔ خطاطی کے صفحے پر دیکھیں کہ یہ کیسے لکھا جاتا ہے۔"
+    href: "/concept/islamic-calligraphy/"
+  - week: 14
+    icon: "⭐"
+    title: { ar: "نجمة ثمانية", en: "An eight-pointed star", ur: "آٹھ کونوں کا ستارہ" }
+    text:
+      ar: "ارسموا مربعين متداخلين لتصنعوا نجمة ثمانية كالتي على جدران المساجد، ثم كرّروها حتى تملأ الورقة."
+      en: "Draw two overlapping squares to make an eight-pointed star like the ones on mosque walls, then repeat it until the page is full."
+      ur: "مسجدوں کی دیواروں جیسا آٹھ کونوں کا ستارہ بنانے کے لیے دو مربع ایک دوسرے پر بنائیں، پھر صفحہ بھرنے تک دہرائیں۔"
+    href: "/concept/girih/"
+  - week: 15
+    icon: "🍽️"
+    title: { ar: "طبق من بلد مسلم", en: "A dish from a Muslim country", ur: "کسی مسلم ملک کا ایک کھانا" }
+    text:
+      ar: "اطبخوا أو تذوّقوا طبقًا من بلد مسلم غير بلدكم، وابحثوا عن مدينته في المتحف."
+      en: "Cook or taste a dish from a Muslim country other than your own, and look its city up in the museum."
+      ur: "اپنے ملک کے سوا کسی مسلم ملک کا ایک کھانا پکائیں یا چکھیں، اور میوزیم میں اس کا شہر ڈھونڈیں۔"
+    href: "/place/"
+  - week: 16
+    icon: "📖"
+    title: { ar: "آية ومعناها", en: "A verse and its meaning", ur: "ایک آیت اور اس کا مطلب" }
+    text:
+      ar: "افتحوا صفحة سورة قصيرة في المتحف، واستمعوا إليها أو اقرؤوها، ثم تحدّثوا عن معنى كلمة واحدة فيها."
+      en: "Open the page of a short sura in the museum, listen to it or read it, then talk about the meaning of one word in it."
+      ur: "میوزیم میں ایک چھوٹی سورت کا صفحہ کھولیں، اسے سنیں یا پڑھیں، پھر اس کے ایک لفظ کے مطلب پر بات کریں۔"
+    href: "/surah/"
+  - week: 17
+    icon: "🧩"
+    title: { ar: "رتّبوا الأنبياء", en: "Put the prophets in order", ur: "انبیاء کو ترتیب دیں" }
+    text:
+      ar: "استعملوا بطاقات ترتيب الأنبياء: اخلطوها ورتّبوها معًا على الطاولة من آدم إلى محمد."
+      en: "Use the prophets-in-order cards: shuffle them and arrange them together on the table from Adam to Muhammad."
+      ur: "انبیاء کی ترتیب والے کارڈ استعمال کریں: انہیں ملائیں اور میز پر آدم سے محمد تک مل کر ترتیب دیں۔"
+    href: "/cards/list/tartib-al-anbiya/"
+  - week: 18
+    icon: "🌍"
+    title: { ar: "من أين جاء هذا؟", en: "Where did this come from?", ur: "یہ کہاں سے آیا؟" }
+    text:
+      ar: "ابحثوا في البيت عن شيء اسمه عربي الأصل (قهوة، سكّر، قطن…)، واحكوا كيف سافرت الكلمة."
+      en: "Look around the home for something whose name is Arabic in origin (coffee, sugar, cotton…), and tell how the word travelled."
+      ur: "گھر میں کوئی ایسی چیز ڈھونڈیں جس کا نام عربی سے آیا ہو (قہوہ، شکر، کپاس…)، اور بتائیں کہ لفظ نے کیسے سفر کیا۔"
+    href: "/language/arabic/"
+  - week: 19
+    icon: "🕯️"
+    title: { ar: "قصة لليلة طويلة", en: "A story for a long night", ur: "لمبی رات کی ایک کہانی" }
+    text:
+      ar: "في ليلة الجمعة اقرؤوا قصة أطول من المعتاد، ودعوا الطفل يختارها، ثم اطفئوا الأنوار واحكوها من الذاكرة."
+      en: "On Thursday night read a longer story than usual, let the child choose it, then turn the lights off and tell it from memory."
+      ur: "جمعرات کی رات معمول سے لمبی کہانی پڑھیں، بچے کو چننے دیں، پھر بتیاں بجھا کر یاد سے سنائیں۔"
+    href: "/sighar/stories/"
+  - week: 20
+    icon: "🤝"
+    title: { ar: "زيارة لأحد الأقارب", en: "A visit to a relative", ur: "کسی رشتہ دار سے ملاقات" }
+    text:
+      ar: "زوروا قريبًا كبيرًا في السن واطلبوا منه حكاية من طفولته: كيف كان يحتفل بالعيد؟"
+      en: "Visit an older relative and ask for a story from their childhood: how did they celebrate the Eid?"
+      ur: "کسی بزرگ رشتہ دار سے ملیں اور ان کے بچپن کی ایک کہانی پوچھیں: وہ عید کیسے مناتے تھے؟"
+    href: "/practice/eid-al-fitr/"
+  - week: 21
+    icon: "🏺"
+    title: { ar: "قطعة من المتحف", en: "An object from the museum", ur: "میوزیم کی ایک چیز" }
+    text:
+      ar: "اختاروا قطعة من المقتنيات (إبريق، أسطرلاب، صفحة مصحف)، وتأمّلوها دقيقة كاملة، ثم ارسموها من الذاكرة."
+      en: "Choose an object from the collection (a ewer, an astrolabe, a Qur'an page), look at it for one full minute, then draw it from memory."
+      ur: "نوادرات میں سے ایک چیز چنیں (ایک صراحی، ایک اسطرلاب، مصحف کا ایک ورق)، ایک پورا منٹ اسے دیکھیں، پھر یاد سے بنائیں۔"
+    href: "/object/"
+  - week: 22
+    icon: "💧"
+    title: { ar: "قبل الصلاة", en: "Before prayer", ur: "نماز سے پہلے" }
+    text:
+      ar: "علّموا الطفل خطوات الوضوء باللعب أمام الحوض، خطوة خطوة، بلا عجلة."
+      en: "Teach the child the steps of wudu playfully at the sink, step by step, without hurry."
+      ur: "بچے کو واش بیسن پر کھیل کھیل میں وضو کے مراحل سکھائیں، ایک ایک قدم، بغیر جلدی کے۔"
+    href: "/practice/wudu/"
+  - week: 23
+    icon: "🌅"
+    title: { ar: "لاحظوا الفجر", en: "Watch the dawn", ur: "فجر دیکھیں" }
+    text:
+      ar: "استيقظوا معًا مرة واحدة قبل الفجر، وراقبوا السماء وهي تتغيّر، وتحدّثوا عن أوقات الصلاة."
+      en: "Wake up together once before dawn, watch the sky change, and talk about the times of prayer."
+      ur: "ایک بار فجر سے پہلے مل کر جاگیں، آسمان کو بدلتے دیکھیں، اور نماز کے اوقات پر بات کریں۔"
+    href: "/practice/salah/"
+  - week: 24
+    icon: "📜"
+    title: { ar: "رسالة بالخط", en: "A letter in fine hand", ur: "خوش خط ایک خط" }
+    text:
+      ar: "اكتبوا رسالة قصيرة لصديق أو جدّ بأجمل خط تستطيعون، وزيّنوا حوافّها بزخرفة نباتية."
+      en: "Write a short letter to a friend or grandparent in the finest hand you can, and decorate its edges with a plant pattern."
+      ur: "کسی دوست یا دادا دادی کو اپنی سب سے اچھی لکھائی میں ایک چھوٹا خط لکھیں، اور اس کے کناروں کو بیل بوٹوں سے سجائیں۔"
+    href: "/concept/arabesque/"
+  - week: 25
+    icon: "🚶"
+    title: { ar: "رحلة ابن بطوطة", en: "Ibn Battuta's journey", ur: "ابن بطوطہ کا سفر" }
+    text:
+      ar: "افتحوا صفحة ابن بطوطة، وتتبّعوا على الخريطة ثلاث مدن زارها. كم سنة سافر؟"
+      en: "Open Ibn Battuta's page and trace three cities he visited on a map. How many years did he travel?"
+      ur: "ابن بطوطہ کا صفحہ کھولیں اور نقشے پر ان تین شہروں کا پیچھا کریں جہاں وہ گیا۔ وہ کتنے سال سفر کرتا رہا؟"
+    href: "/person/ibn-battuta-muhammad/"
+  - week: 26
+    icon: "🧮"
+    title: { ar: "أرقام من بغداد", en: "Numbers from Baghdad", ur: "بغداد کے ہندسے" }
+    text:
+      ar: "اكتبوا الأرقام من 1 إلى 10 بالشكلين العربي والهندي، واحكوا قصة الخوارزمي والحساب."
+      en: "Write the numbers 1 to 10 in both Arabic and Indian forms, and tell the story of al-Khwarizmi and arithmetic."
+      ur: "1 سے 10 تک کے ہندسے عربی اور ہندی دونوں شکلوں میں لکھیں، اور خوارزمی اور حساب کی کہانی سنائیں۔"
+    href: "/person/al-khwarizmi/"
+  - week: 27
+    icon: "🧺"
+    title: { ar: "صدقة الأسبوع", en: "This week's charity", ur: "اس ہفتے کا صدقہ" }
+    text:
+      ar: "اجمعوا معًا ملابس أو ألعابًا لم تعد تُستعمل، وأوصلوها إلى من يحتاجها، وتحدّثوا عن معنى الزكاة."
+      en: "Gather clothes or toys no longer used, take them to someone who needs them, and talk about what zakat means."
+      ur: "مل کر وہ کپڑے یا کھلونے جمع کریں جو اب استعمال نہیں ہوتے، کسی ضرورت مند تک پہنچائیں، اور زکات کے معنی پر بات کریں۔"
+    href: "/practice/zakat/"
+  - week: 28
+    icon: "🌙"
+    title: { ar: "قمر الليلة", en: "Tonight's moon", ur: "آج رات کا چاند" }
+    text:
+      ar: "انظروا إلى القمر الليلة، وارسموا شكله، وقارنوه بعد أسبوع. لماذا يتغيّر؟ وما علاقته بالشهر الهجري؟"
+      en: "Look at the moon tonight, draw its shape, and compare it a week later. Why does it change, and what has it to do with the Hijri month?"
+      ur: "آج رات چاند دیکھیں، اس کی شکل بنائیں، اور ایک ہفتے بعد موازنہ کریں۔ یہ کیوں بدلتا ہے، اور ہجری مہینے سے اس کا کیا تعلق ہے؟"
+    href: "/concept/hijri-calendar/"
+  - week: 29
+    icon: "🎒"
+    title: { ar: "حقيبة المسافر", en: "The traveller's bag", ur: "مسافر کا تھیلا" }
+    text:
+      ar: "تخيّلوا أنكم تسافرون إلى مكة قبل خمسمئة سنة: ماذا تضعون في الحقيبة؟ ارسموها."
+      en: "Imagine travelling to Mecca five hundred years ago: what would you pack? Draw it."
+      ur: "تصور کریں کہ آپ پانچ سو سال پہلے مکہ کا سفر کر رہے ہیں: تھیلے میں کیا رکھیں گے؟ اسے بنائیں۔"
+    href: "/practice/hajj/"
+  - week: 30
+    icon: "🏛️"
+    title: { ar: "بيت الحكمة في البيت", en: "A House of Wisdom at home", ur: "گھر میں بیت الحکمہ" }
+    text:
+      ar: "اصنعوا «بيت حكمة» صغيرًا: رفّ للكتب المفضلة، وبطاقة لكل كتاب تقول لماذا تحبّونه."
+      en: "Make a small 'House of Wisdom': a shelf of favourite books, with a card for each saying why you love it."
+      ur: "ایک چھوٹا «بیت الحکمہ» بنائیں: پسندیدہ کتابوں کی ایک الماری، اور ہر کتاب کے لیے ایک کارڈ جو بتائے کہ وہ کیوں پسند ہے۔"
+    href: "/building/bayt-al-hikma/"
+  - week: 31
+    icon: "🎨"
+    title: { ar: "لوّنوا زخرفة", en: "Colour a pattern", ur: "ایک نقش میں رنگ بھریں" }
+    text:
+      ar: "اطبعوا نمطًا هندسيًا من المتحف أو ارسموه، ولوّنوه معًا بألوان بلاط المساجد: أزرق وفيروزي وأبيض."
+      en: "Print or draw a geometric pattern from the museum and colour it together in mosque-tile colours: blue, turquoise and white."
+      ur: "میوزیم کا ایک ہندسی نقش پرنٹ کریں یا بنائیں، اور مسجد کی ٹائلوں کے رنگوں، نیلے، فیروزی اور سفید، سے مل کر رنگ بھریں۔"
+    href: "/art/"
+  - week: 32
+    icon: "🗣️"
+    title: { ar: "كلمة جديدة كل يوم", en: "A new word every day", ur: "ہر روز ایک نیا لفظ" }
+    text:
+      ar: "اختاروا كلمة عربية جديدة كل يوم من بطاقات المتحف، واستعملوها على المائدة. سبع كلمات في الأسبوع!"
+      en: "Pick a new Arabic word each day from the museum cards and use it at the table. Seven words a week!"
+      ur: "میوزیم کارڈز سے روز ایک نیا عربی لفظ چنیں اور کھانے کی میز پر استعمال کریں۔ ہفتے میں سات لفظ!"
+    href: "/words/"
+  - week: 33
+    icon: "🕊️"
+    title: { ar: "يوم بلا شجار", en: "A day without quarrels", ur: "بغیر جھگڑے کا دن" }
+    text:
+      ar: "تحدّوا أنفسكم: يوم كامل بلا كلمة قاسية في البيت. في المساء احكوا كيف مرّ اليوم."
+      en: "Challenge yourselves: a whole day without a harsh word at home. In the evening, tell how the day went."
+      ur: "خود کو چیلنج کریں: گھر میں پورا دن بغیر کسی سخت لفظ کے۔ شام کو بتائیں کہ دن کیسا گزرا۔"
+    href: "/sighar/kindness/"
+  - week: 34
+    icon: "🌊"
+    title: { ar: "قصة البحر", en: "The story of the sea", ur: "سمندر کی کہانی" }
+    text:
+      ar: "اقرؤوا قصة موسى والبحر من قصص ما قبل النوم، ثم اسألوا: ماذا نفعل حين نخاف؟"
+      en: "Read the story of Musa and the sea from the bedtime stories, then ask: what do we do when we are afraid?"
+      ur: "سونے سے پہلے کی کہانیوں میں سے موسیٰ اور سمندر کی کہانی پڑھیں، پھر پوچھیں: جب ہم ڈرتے ہیں تو کیا کرتے ہیں؟"
+    href: "/sighar/stories/"
+  - week: 35
+    icon: "🧱"
+    title: { ar: "حجر فوق حجر", en: "Stone upon stone", ur: "پتھر پر پتھر" }
+    text:
+      ar: "ابنوا برجًا من المكعبات واحكوا قصة إبراهيم وإسماعيل وهما يرفعان قواعد الكعبة حجرًا فوق حجر."
+      en: "Build a tower of blocks and tell the story of Ibrahim and Ismail raising the Kaaba's foundations stone upon stone."
+      ur: "بلاکوں کا ایک مینار بنائیں اور ابراہیم اور اسماعیل کی کہانی سنائیں جو پتھر پر پتھر رکھ کر کعبہ کی بنیادیں اٹھا رہے تھے۔"
+    href: "/person/ibrahim/"
+  - week: 36
+    icon: "📚"
+    title: { ar: "زيارة المكتبة", en: "A library visit", ur: "لائبریری کا دورہ" }
+    text:
+      ar: "اذهبوا إلى مكتبة الحيّ واستعيروا كتابًا عن بلد مسلم أو عالم مسلم، واقرؤوا منه صفحة كل ليلة."
+      en: "Go to the neighbourhood library, borrow a book about a Muslim country or scholar, and read a page from it each night."
+      ur: "محلے کی لائبریری جائیں اور کسی مسلم ملک یا عالم پر ایک کتاب لیں، اور ہر رات اس کا ایک صفحہ پڑھیں۔"
+    href: "/learn/"
+  - week: 37
+    icon: "🌿"
+    title: { ar: "نبتة على النافذة", en: "A plant on the windowsill", ur: "کھڑکی پر ایک پودا" }
+    text:
+      ar: "ازرعوا بذرة في كوب على النافذة، وراقبوها كل يوم، وتحدّثوا عن الصبر وعن الشجر المذكور في القرآن."
+      en: "Plant a seed in a cup on the windowsill, watch it every day, and talk about patience and about the trees in the Qur'an."
+      ur: "کھڑکی پر ایک کپ میں بیج بوئیں، روز اسے دیکھیں، اور صبر اور قرآن کے درختوں پر بات کریں۔"
+    href: "/cards/list/nabatat-al-quran/"
+  - week: 38
+    icon: "🧭"
+    title: { ar: "اتجاه القبلة", en: "The direction of the qibla", ur: "قبلے کی سمت" }
+    text:
+      ar: "ابحثوا معًا عن اتجاه القبلة في بيتكم بالبوصلة أو بالشمس، وضعوا علامة صغيرة على الجدار."
+      en: "Find the qibla direction in your home together with a compass or the sun, and mark it with a small sign on the wall."
+      ur: "قطب نما یا سورج سے مل کر اپنے گھر میں قبلے کی سمت ڈھونڈیں، اور دیوار پر ایک چھوٹا نشان لگائیں۔"
+    href: "/building/kaaba/"
+  - week: 39
+    icon: "📷"
+    title: { ar: "صورة من مسجد الحيّ", en: "A picture from the local mosque", ur: "محلے کی مسجد کی ایک تصویر" }
+    text:
+      ar: "زوروا مسجد الحيّ في غير وقت الصلاة، وانظروا إلى محرابه ومنبره، وقارنوهما بصور المتحف."
+      en: "Visit the neighbourhood mosque outside prayer time, look at its mihrab and minbar, and compare them with the museum's pictures."
+      ur: "نماز کے وقت کے علاوہ محلے کی مسجد جائیں، اس کے محراب اور منبر کو دیکھیں، اور میوزیم کی تصویروں سے موازنہ کریں۔"
+    href: "/concept/masjid-umum/"
+  - week: 40
+    icon: "🎭"
+    title: { ar: "مسرحية صغيرة", en: "A little play", ur: "ایک چھوٹا ڈرامہ" }
+    text:
+      ar: "مثّلوا معًا مشهد الهجرة: الرحلة الطويلة والوصول إلى المدينة وفرح أهلها. كل فرد له دور."
+      en: "Act out the Hijra together: the long journey, the arrival in Medina and the people's joy. Everyone gets a part."
+      ur: "ہجرت کا منظر مل کر کھیلیں: لمبا سفر، مدینہ پہنچنا اور لوگوں کی خوشی۔ ہر ایک کا ایک کردار۔"
+    href: "/event/hijra/"
+  - week: 41
+    icon: "🧵"
+    title: { ar: "خيط من الحرير", en: "A silk thread", ur: "ریشم کا ایک دھاگا" }
+    text:
+      ar: "احكوا قصة طريق الحرير بخيط طويل على الأرض يمرّ بالمدن: من الصين إلى سمرقند إلى بغداد."
+      en: "Tell the Silk Road story with a long thread on the floor passing through the cities: from China to Samarqand to Baghdad."
+      ur: "فرش پر ایک لمبے دھاگے سے شاہراہِ ریشم کی کہانی سنائیں جو شہروں سے گزرے: چین سے سمرقند اور بغداد تک۔"
+    href: "/exhibits/path-silk-road/"
+  - week: 42
+    icon: "🍵"
+    title: { ar: "ضيافة", en: "Hospitality", ur: "مہمان نوازی" }
+    text:
+      ar: "ادعوا جارًا أو صديقًا إلى شاي، ودعوا الطفل يقدّم الضيافة بنفسه، وتحدّثوا عن إكرام الضيف."
+      en: "Invite a neighbour or friend for tea, let the child serve, and talk about honouring a guest."
+      ur: "کسی پڑوسی یا دوست کو چائے پر بلائیں، بچے کو خود مہمان نوازی کرنے دیں، اور مہمان کے اکرام پر بات کریں۔"
+    href: "/concept/halal-haram/"
+  - week: 43
+    icon: "🔭"
+    title: { ar: "نجوم الليل", en: "Night stars", ur: "رات کے ستارے" }
+    text:
+      ar: "اخرجوا ليلًا وابحثوا عن نجم واحد باسم عربي (الدبران، الطائر…)، واحكوا قصة الأسطرلاب."
+      en: "Go out at night and find one star with an Arabic name (Aldebaran, Altair…), and tell the story of the astrolabe."
+      ur: "رات کو باہر نکلیں اور عربی نام والا ایک ستارہ ڈھونڈیں (الدبران، الطائر…)، اور اسطرلاب کی کہانی سنائیں۔"
+    href: "/object/astrolabe-umar-ibn-yusuf/"
+  - week: 44
+    icon: "✉️"
+    title: { ar: "رسالة شكر", en: "A thank-you note", ur: "شکریے کا خط" }
+    text:
+      ar: "اكتبوا معًا رسالة شكر لمعلّم أو جار أو طبيب، وسلّموها بأيديكم."
+      en: "Write a thank-you note together for a teacher, a neighbour or a doctor, and deliver it by hand."
+      ur: "کسی استاد، پڑوسی یا ڈاکٹر کے لیے مل کر شکریے کا خط لکھیں، اور اپنے ہاتھ سے پہنچائیں۔"
+    href: "/sighar/kindness/"
+  - week: 45
+    icon: "🏙️"
+    title: { ar: "مدينتنا والمدينة", en: "Our city and theirs", ur: "ہمارا شہر اور ان کا" }
+    text:
+      ar: "قارنوا مدينتكم بمدينة من المتحف: ما المشترك (سوق، مدرسة، مكان عبادة) وما المختلف؟ ارسموا جدولًا."
+      en: "Compare your city with a city from the museum: what is shared (a market, a school, a place of worship) and what differs? Draw a table."
+      ur: "اپنے شہر کا میوزیم کے ایک شہر سے موازنہ کریں: کیا مشترک ہے (بازار، اسکول، عبادت گاہ) اور کیا الگ؟ ایک جدول بنائیں۔"
+    href: "/place/baghdad/"
+  - week: 46
+    icon: "🧾"
+    title: { ar: "قائمة الشكر", en: "The thanks list", ur: "شکر کی فہرست" }
+    text:
+      ar: "قبل النوم كل ليلة هذا الأسبوع، اذكر كل فرد شيئًا واحدًا يشكر الله عليه. اكتبوها في ورقة واحدة."
+      en: "Before bed each night this week, each person names one thing to thank God for. Write them all on one sheet."
+      ur: "اس ہفتے ہر رات سونے سے پہلے ہر فرد ایک چیز بتائے جس پر اللہ کا شکر ہے۔ سب ایک کاغذ پر لکھیں۔"
+    href: "/sighar/journal/"
+  - week: 47
+    icon: "🗓️"
+    title: { ar: "يوم في التاريخ", en: "A day in history", ur: "تاریخ کا ایک دن" }
+    text:
+      ar: "افتحوا «اليوم في المتحف» وانظروا ماذا حدث في مثل هذا اليوم. اختاروا حدثًا واحكوه على العشاء."
+      en: "Open 'today in the museum' and see what happened on this day. Pick one event and tell it at dinner."
+      ur: "«آج میوزیم میں» کھولیں اور دیکھیں کہ آج کے دن کیا ہوا۔ ایک واقعہ چنیں اور رات کے کھانے پر سنائیں۔"
+    href: "/calendar/"
+  - week: 48
+    icon: "🥣"
+    title: { ar: "إفطار مشترك", en: "A shared meal", ur: "مشترک کھانا" }
+    text:
+      ar: "حضّروا معًا وجبة بسيطة وتقاسموها مع جار، كما يُتقاسم الإفطار في رمضان، في أي شهر كنتم."
+      en: "Prepare a simple meal together and share it with a neighbour, the way iftar is shared in Ramadan, whatever the month."
+      ur: "مل کر ایک سادہ کھانا تیار کریں اور پڑوسی کے ساتھ بانٹیں، جیسے رمضان میں افطار بانٹا جاتا ہے، چاہے مہینہ کوئی بھی ہو۔"
+    href: "/practice/sawm-ramadan/"
+  - week: 49
+    icon: "🖼️"
+    title: { ar: "معرض البيت", en: "The home gallery", ur: "گھر کی گیلری" }
+    text:
+      ar: "علّقوا رسوم الطفل من هذا الشهر على حبل في الممرّ، وافتتحوا «المعرض» بزيارة عائلية وشرح من الفنان."
+      en: "Hang the child's drawings of this month on a string in the hallway and open 'the gallery' with a family visit and a tour by the artist."
+      ur: "بچے کی اس مہینے کی تصویریں راہداری میں ایک ڈوری پر لٹکائیں اور «گیلری» کا افتتاح خاندانی دورے اور فنکار کے بیان سے کریں۔"
+    href: "/art/"
+  - week: 50
+    icon: "🕰️"
+    title: { ar: "ساعة بلا ساعة", en: "An hour without a clock", ur: "گھڑی کے بغیر ایک گھنٹہ" }
+    text:
+      ar: "قضّوا ساعة بلا شاشات ولا ساعة، وخمّنوا الوقت بالشمس والظلّ كما كان الناس يفعلون قبل الساعات."
+      en: "Spend an hour with no screens and no clock, and guess the time by the sun and the shadows as people did before clocks."
+      ur: "ایک گھنٹہ بغیر اسکرین اور گھڑی کے گزاریں، اور سورج اور سائے سے وقت کا اندازہ لگائیں جیسے گھڑیوں سے پہلے لوگ کرتے تھے۔"
+    href: "/practice/salah/"
+  - week: 51
+    icon: "🛂"
+    title: { ar: "جواز على الثلاجة", en: "A passport on the fridge", ur: "فرج پر پاسپورٹ" }
+    text:
+      ar: "اطبعوا جواز المتحف، وعلّقوه، وضعوا علامة على كل ختم استحقّه الطفل هذا الشهر. احتفلوا بختم واحد على الأقل."
+      en: "Print the museum passport, hang it up, and tick every stamp the child earned this month. Celebrate at least one stamp."
+      ur: "میوزیم کا پاسپورٹ پرنٹ کریں، لٹکائیں، اور اس مہینے بچے کی ہر کمائی ہوئی مہر پر نشان لگائیں۔ کم سے کم ایک مہر کا جشن منائیں۔"
+    href: "/learn/passport/"
+  - week: 52
+    icon: "🎁"
+    title: { ar: "هدية مصنوعة باليد", en: "A handmade gift", ur: "ہاتھ سے بنا تحفہ" }
+    text:
+      ar: "اصنعوا هدية صغيرة بأيديكم لشخص تحبّونه، ولفّوها بورقة زيّنتموها بزخرفة."
+      en: "Make a small gift by hand for someone you love, and wrap it in paper you decorated with a pattern."
+      ur: "کسی پیارے کے لیے اپنے ہاتھ سے ایک چھوٹا تحفہ بنائیں، اور اسے اپنے سجائے ہوئے نقش والے کاغذ میں لپیٹیں۔"
+    href: "/sighar/kindness/"
+status: { review: draft }
+provenance:
+  generated_by: "Claude Code"
+  model: "Claude Fable 5.1 (claude-fable-5-1)"
+  run: "education-E2"
+  note: "Fifty-two family activities drafted in Arabic; English and Urdu translated from it, pending the founder's review."

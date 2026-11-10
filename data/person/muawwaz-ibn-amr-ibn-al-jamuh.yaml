@@ -1,0 +1,34 @@
+id: person/muawwaz-ibn-amr-ibn-al-jamuh
+class: person
+label:
+  ar: "معوذ بن عمرو بن الجموح"
+  en: "Mu'awwaz ibn Amr ibn al-Jamuh"
+roles: [companion]
+gender: male
+faith:
+  - { value: sunni, basis: tradition }
+summary:
+  ar: "بطاقة أولية لمعوذ بن عمرو بن الجموح الأنصاري، شهد بدراً وأصاب مع أخيه معاذ أبا جهل؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mu'awwaz ibn Amr ibn al-Jamuh, the Ansari companion who with his brother Mu'adh struck Abu Jahl at Badr; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+relations:
+- { type: traveled_to, target: place/badr, sources: [source/al-aalam] }
+- type: related_to
+  target: person/muadh-ibn-amr-ibn-al-jamuh
+- { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+- { type: member_of, target: group/ansar, sources: [source/al-aalam]}
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12243678
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; companion attested in sira and biographical works — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-audit
+status:
+  review: draft
+  completeness: 1

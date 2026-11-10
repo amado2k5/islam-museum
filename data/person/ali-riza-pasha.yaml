@@ -1,0 +1,34 @@
+id: person/ali-riza-pasha
+class: person
+label:
+  ar: "علي رضا باشا"
+  en: "Ali Rıza Pasha"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي رضا باشا، الصدر الأعظم العثماني في حكومة إسطنبول أثناء حرب الاستقلال؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ali Rıza Pasha, Ottoman grand vizier of the Istanbul government during the War of Independence; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/modern-era]
+died: { edtf: "1932", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1388930
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+  - { type: lived_in, target: place/istanbul, note: "From text: of the Istanbul", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }

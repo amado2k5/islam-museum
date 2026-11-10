@@ -1,0 +1,55 @@
+id: person/badr-al-din-al-ayni
+class: person
+label:
+  ar: "بدر الدين العيني"
+  en: "Badr al-Din al-Ayni"
+roles: [scholar, writer]
+gender: male
+born:
+  edtf: "1361-07-21"
+  hijri: "0762"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 17 Ramadan 762 AH (21 July 1361) at 'Aynṭab."
+died:
+  edtf: "1451-12-28"
+  hijri: "0855"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 4 Dhu l-Hijja 855 AH (28 December 1451). An earlier unverified draft card gave 1453; that date is not kept as a primary account."
+summary:
+  ar: "بدر الدين محمود بن أحمد العيني، فقيه حنفي وقاضي قضاة الحنفية في القاهرة، ومحتسبها وناظر أحباسها، وصاحب «عمدة القاري» شرح صحيح البخاري، وُلد بعينتاب سنة 762هـ ⁦(1361م)⁩ وتوفي سنة 855هـ ⁦(1451م)⁩ {cite:encyclopaedia-of-islam-2 vol. 1 p. 839-840}."
+  en: "Badr al-Din Mahmud b. Ahmad al-'Ayni, Hanafi scholar, chief Hanafi qadi and muhtasib of Cairo, and author of the commentary on al-Bukhari, 'Umdat al-Qari. Born at 'Aynṭab in 762 AH (1361), he died in 855 AH (1451) {cite:encyclopaedia-of-islam-2 vol. 1 p. 839-840}."
+wings: [people]
+regions: [egypt-nile, levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+relations:
+  - { type: born_in, target: place/gaziantep, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/gaziantep, note: "عين تاب، على ثلاث مراحل من حلب", sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: died_in, target: place/cairo, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: student_of, target: person/abd-al-rahim-al-iraqi, note: "سمع عليه صحيح البخاري بقلعة الجبل سنة 788", sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: student_of, target: person/siraj-al-din-al-bulqini, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: student_of, target: person/ali-ibn-abi-bakr-al-haythami, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/ibn-al-humam, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/qasim-ibn-qutlubugha, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/al-sakhawi, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: teacher_of, target: person/ibn-taghribirdi-yusuf, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: authored, target: work/umdat-al-qari, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: authored, target: work/al-binaya-sharh-al-hidaya, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+  - { type: authored, target: work/nukhab-al-afkar, sources: [source/umdat-qari-ilmiyya-2001-v1] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/daw-lami-jil-1992, source/umdat-qari-ilmiyya-2001-v1]
+external_ids:
+  wikidata: Q257745
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 839-840, entry 'AL-'AYNI' (signed W. Marçais; queue seq 445, batch ei2-b018); earlier Wikidata candidate and Ibn al-Imad, Shadharat al-Dhahab (entry not read on the page)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (claude-haiku-5-5), EI2 vol. 1 pp. 839-840, batch ei2-b018"
+  model: "SWE-2 High"
+  run: wikidata-import-0018, lib-daw-lami-batch-1-2026-10-31
+status: { review: published, completeness: 3 }

@@ -1,0 +1,35 @@
+id: person/fakhr-al-muhaqqiqin-al-hilli
+class: person
+label:
+  ar: "فخر المحققين الحلي"
+  en: "Fakhr al-Muhaqqiqin al-Hilli"
+roles: [jurist, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لفخر المحققين الحلي، ابن العلامة الحلي وفقيه الإمامية ومؤلف «إيضاح الفوائد»، توفي سنة ١٣٦٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Fakhr al-Muhaqqiqin al-Hilli, son of al-Allama al-Hilli, the Imami jurist and author of Idah al-Fawa'id, d. 1369; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghadir (al-Amini)" }
+died: { edtf: "1370", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghadir (al-Amini)" }
+relations:
+  - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5952831
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0085
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

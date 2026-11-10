@@ -1,0 +1,12 @@
+#!/bin/sh
+# Warns (never blocks) when an agent commit lacks attribution trailers.
+# Enable: git config core.hooksPath .githooks   (see docs/agents/workflow.md)
+f="$1"
+missing=""
+for k in AI-Agent AI-Model AI-Editor; do
+  grep -qi "^$k:" "$f" || missing="$missing $k"
+done
+if [ -n "$missing" ] && grep -qiE "co-authored-by:|generated with" "$f"; then
+  echo "warning: agent commit is missing trailer(s):$missing (docs/agents/workflow.md)" >&2
+fi
+exit 0

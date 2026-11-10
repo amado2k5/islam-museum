@@ -1,0 +1,21 @@
+id: person/harb-ibn-abdallah-al-balkhi
+class: person
+label: { ar: "حرب بن عبد الله البلخي", en: "Harb ibn Abdallah al-Balkhi" }
+summary:
+  ar: "عند البلاذري كان على شرطة جعفر بن المنصور بالموصل ونسبت إليه الحربية ببغداد."
+  en: "in al-Baladhuri, head of Ja'far ibn al-Mansur's shurta at Mosul — Baghdad's Harbiyya quarter is named for him."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/al-harbiyya, confidence: low, note: "Associated with الحربية per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 414–417"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch44
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: published, completeness: 3 }

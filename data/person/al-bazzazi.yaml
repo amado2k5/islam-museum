@@ -1,0 +1,28 @@
+id: person/al-bazzazi
+class: person
+label:
+  ar: "البزازي"
+  en: "al-Bazzazi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية للبزازي، فقيه حنفي القرن الخامس عشر صاحب الفتاوى البزازية، توفي سنة ١٤٢٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Bazzazi, the fifteenth-century Central Asian Hanafi jurist author of al-Fatawa al-Bazzaziyya, d. 1424; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12184450
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0066
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1424", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

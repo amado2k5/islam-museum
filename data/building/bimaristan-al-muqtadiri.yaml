@@ -1,0 +1,20 @@
+id: building/bimaristan-al-muqtadiri
+class: building
+kind: bimaristan
+label: { ar: "المارستان المقتدري", en: "al-Bimaristan al-Muqtadiri" }
+summary:
+  ar: "البيمارستان المقتدري ببغداد؛ اتخذه المقتدر بباب الشام سنة 306هـ بإشارة الطبيب سنان بن ثابت {cite:muntazam-ibn-al-jawzi v13 p178}."
+  en: "The Muqtadiri Bimaristan at Baghdad's Bab al-Sham, founded by al-Muqtadir in AH 306 on the advice of the physician Sinan ibn Thabit {cite:muntazam-ibn-al-jawzi v13 p178}."
+wings: [place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: built_by, target: person/al-muqtadir-billah, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 306)، قراءة آبل فيجن; prose-fill-buildings batch5: Muntazam read on harvest text, vol/page cites"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 Medium)" }

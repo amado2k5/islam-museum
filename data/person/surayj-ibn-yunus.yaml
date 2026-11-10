@@ -1,0 +1,35 @@
+id: person/surayj-ibn-yunus
+class: person
+label:
+  ar: "سريج بن يونس"
+  en: "Surayj ibn Yunus"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لسريج بن يونس، المحدث في القرن الثالث الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Surayj ibn Yunus, the third-century hadith scholar; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+died: { edtf: "0849", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/merv, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q193325)" }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106892168
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

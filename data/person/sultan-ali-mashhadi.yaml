@@ -1,0 +1,28 @@
+id: person/sultan-ali-mashhadi
+class: person
+label: { ar: "سلطان علي المشهدي", en: "Sultan Ali Mashhadi", ur: "سلطان علی مشہدی" }
+summary:
+  ar: "خطاط النستعليق الذي بلغ به هذا القلم صورته الكلاسيكية، عمل نحو 1453–1520 في هراة لدى السلطان حسين بايقرا وعلي شير نوائي، وكتب في مشهد سنة 1514 رسالة منظومة في الخط {cite:blair-islamic-calligraphy-2006 p. 320}."
+  en: "The nasta'liq master under whom the script reached its classical form; active c. 1453–1520 at Herat for Sultan Husayn Bayqara and Ali Shir Nava'i, he wrote a verse treatise on calligraphy at Mashhad in 1514 {cite:blair-islamic-calligraphy-2006 p. 320}."
+  ur: "نستعلیق کے وہ استاد جن کے ہاتھوں یہ قلم اپنی کلاسیکی صورت کو پہنچا؛ تقریباً 1453–1520 میں ہرات میں سلطان حسین بایقرا اور علی شیر نوائی کے لیے کام کیا، اور 1514ء میں مشہد میں خطاطی پر ایک منظوم رسالہ لکھا {cite:blair-islamic-calligraphy-2006 p. 320}۔"
+wings: [people]
+themes: [arts-of-the-book]
+regions: [persia-central-asia]
+gender: male
+roles: [calligrapher, writer]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1520", calendar: gregorian, precision: year, status: historical, note: "End of career c. 1453–1520 {cite:blair-islamic-calligraphy-2006 p. 320}." }
+relations:
+  - { type: lived_in, target: place/herat, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: lived_in, target: place/mashhad, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: patronized_by, target: person/husayn-bayqarah, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: patronized_by, target: person/alishir-navai, sources: [source/blair-islamic-calligraphy-2006] }
+  - { type: exemplifies, target: concept/nastaliq-script, sources: [source/blair-islamic-calligraphy-2006] }
+sources: [source/blair-islamic-calligraphy-2006]
+provenance:
+  layer: own-research
+  source: "source/blair-islamic-calligraphy-2006 scan pp. 4, 320, 321, 326, 470"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

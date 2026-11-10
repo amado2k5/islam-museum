@@ -1,0 +1,76 @@
+id: exhibit/path-mecca-fuqaha
+class: exhibit
+kind: trail
+label:
+  ar: فقهاء مكة
+  en: Fuqaha of Mecca
+summary:
+  ar: 'مسار في حلقة الحرم: عطاء مفتي الحجاج، وابن جريج يدوّن، وسفيان بن عيينة يخلف — مكة مدرسة فقه.'
+  en: A trail through the circle of the Haram.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: عطاء
+    en: Ata
+  body:
+    ar: 'ابن أبي رباح: مفتي مكة في موسمها.'
+    en: 'ابن أبي رباح: مفتي مكة في موسمها.'
+  features:
+  - person/ata-ibn-abi-rabah
+  - place/mecca
+- title:
+    ar: ابن جريج
+    en: Ibn Jurayj
+  body:
+    ar: 'مصنف مكة الأول: الكتاب قبل الدواوين.'
+    en: 'مصنف مكة الأول: الكتاب قبل الدواوين.'
+  features:
+  - person/ibn-jurayj
+  - place/mecca
+- title:
+    ar: سفيان بن عيينة
+    en: Ibn Uyayna
+  body:
+    ar: 'من أحداث مكة إلى شيخها: ثمانين سنة.'
+    en: 'من أحداث مكة إلى شيخها: ثمانين سنة.'
+  features:
+  - person/sufyan-ibn-uyayna
+  - place/mecca
+- title:
+    ar: الحرم
+    en: The Haram
+  body:
+    ar: 'حلقة عند الكعبة: الفقه في البيت.'
+    en: 'حلقة عند الكعبة: الفقه في البيت.'
+  features:
+  - place/mecca
+  - practice/hajj
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'فقه الحجاج: مكة تعلم العالم.'
+    en: 'فقه الحجاج: مكة تعلم العالم.'
+  features:
+  - practice/hajj
+  - concept/fiqh
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

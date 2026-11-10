@@ -1,0 +1,76 @@
+id: exhibit/path-mongol-shock
+class: exhibit
+kind: trail
+label:
+  ar: الصدمة المغولية
+  en: The Mongol Shock
+summary:
+  ar: 'مسار في أعظم كارثة في تاريخ الإسلام وتحولها: سقوط بغداد فعين جالوت فإسلام الخانات فالإحياء.'
+  en: 'A trail through the catastrophe and its transformation: Baghdad''s fall, Ayn Jalut, the khanates''
+    conversion.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الزحف
+    en: The advance
+  body:
+    ar: '1219–1256: جنكيز خان وأحفاده يمحون خوارزم وفارس.'
+    en: '1219–1256: Genghis Khan''s heirs erase Khwarazm and Persia.'
+  features:
+  - polity/golden-horde
+- title:
+    ar: سقوط بغداد
+    en: Baghdad falls
+  body:
+    ar: '1258: هولاكو يقتل الخليفة وتنتهي العباسية.'
+    en: '1258: Hulagu kills the caliph; the Abbasid era ends.'
+  features:
+  - event/sack-of-baghdad-656
+  - place/baghdad
+  - building/bayt-al-hikma
+- title:
+    ar: عين جالوت
+    en: Ayn Jalut
+  body:
+    ar: '1260: قطز وبيبرس يوقفان الزحف.'
+    en: '1260: Qutuz and Baybars halt the advance.'
+  features:
+  - event/ayn-jalut-658
+- title:
+    ar: إسلام الخانات
+    en: The khanates convert
+  body:
+    ar: 'بربك وأوزبك وتيمور: الفاتحون يدخلون الدين.'
+    en: 'Berke, Ozbeg, Timur: the conquerors enter the faith.'
+  features:
+  - polity/golden-horde
+  - polity/timurid-empire
+- title:
+    ar: الإحياء
+    en: The revival
+  body:
+    ar: ابن خلدون يقرأ السقوط والقيام في العصبية.
+    en: Ibn Khaldun reads fall and rise in asabiyya.
+  features:
+  - person/ibn-khaldun
+  - work/al-muqaddima
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

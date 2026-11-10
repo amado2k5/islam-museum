@@ -1,0 +1,23 @@
+---
+id: concept/liwat-fiqh
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Liwat, in lexicon, is the verbal noun of the root for acting as the people of Lot did; in technical use it is the insertion of a male's member into the anus of a male or a female {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13710}. The jurists agree it is forbidden and one of the gravest abominations; the Qur'an condemns the people of Lot in surat al-A'raf and surat al-Shu'ara, and a hadith curses one who does their deed {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}. The schools differ on its penalty: most apply the penalty of unlawful intercourse, Abu Hanifa applies discretionary punishment, and the Malikis stone both parties {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711-13712}.
+
+## Related term: unlawful intercourse (zina)
+Zina is lexically debauchery; the Hanafis define it in the wider sense as a man's intercourse with a woman in the front passage outside ownership or its semblance, and the Shafi'is as inserting the male member into a forbidden front passage, free of doubt and naturally desired {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13710}. Liwat and zina agree that both are forbidden intercourse; the difference is that liwat is in the rear passage and zina in the front {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}.
+
+## The ruling
+The jurists agree that liwat is forbidden and among the gravest abominations {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}. God condemns the deed of Lot's people in his book, in surat al-A'raf (7:80-81) and surat al-Shu'ara (26:165-166) {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}, and the Prophet condemned it in the hadith that curses one who does the deed of Lot's people {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}.
+
+## The penalty for the doer
+Most jurists hold that the penalty for the doer is that of the adulterer: the married person is stoned, another is flogged and exiled, since it is zina; they rely on verses and on the hadith of Abu Musa, 'If a man mounts a man, both are adulterers' {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}; the schools add distinctions {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}. Abu Hanifa holds that the hadd is not due for intercourse with a non-wife woman in the rear passage nor for liwat, but discretionary punishment is due; Abu Yusuf and Muhammad say liwat is like zina, flogging if unmarried and stoning if married; in the Hanafi school's preferred view, one who repeats it is killed {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}. For one who does it to his own slave, female slave or wife, the Hanafis agree no hadd is due, only discretionary punishment {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13711}.
+
+## The schools on the penalty
+The Malikis hold that the doer and the one acted upon are both stoned, married or not, if they are legally responsible; Islam and freedom are not required of them. A man's intercourse with his wife or female slave is not hadd, only discretionary punishment {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712}. The Shafi'i school's preferred view is that the hadd of zina applies to the doer; one view is that the doer is killed whether married or not, on the hadith of Ibn Abbas, 'Kill the doer and the one acted upon'; another view is that discretionary punishment alone is due {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712}. The one acted upon, if a minor, insane or coerced, is not liable to hadd; if a responsible free chooser, he is flogged and exiled, married or not, and one view has a married woman stoned {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712}. Intercourse with one's wife or slave-woman in the rear passage carries discretionary punishment if repeated, and none if not repeated {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712-13713}. The Hanbalis hold the hadd for both parties is that of the adulterer, since the rear is a sexual organ like the front; there is no difference between one's own slave and a stranger {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712}. Intercourse with a wife in the rear passage is forbidden and carries no hadd, only discretionary punishment for the sin {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712}.
+
+## Proof of liwat and slander with it
+Liwat is proved by confession or by testimony, and most jurists require the number of witnesses for zina, four men {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13712}. Most jurists hold that if a man says of another that he did the deed of Lot's people, it is slander and the hadd for slander is due {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13713}. Details are under slander {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13713}.

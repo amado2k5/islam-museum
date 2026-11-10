@@ -1,0 +1,28 @@
+id: person/munsi
+class: person
+label:
+  ar: "Münşi"
+  en: "Münşi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لMünşi؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Münşi; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
+  - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q527887)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136121732
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

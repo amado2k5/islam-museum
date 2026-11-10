@@ -1,48 +1,122 @@
 id: person/ibn-sina
 class: person
 aliases: [person/avicenna]
-label: { en: Ibn Sina (Avicenna), ar: ابن سينا, fa: ابن سینا }
+label: { en: Ibn Sina (Avicenna), ar: ابن سينا, fa: ابن سینا, ur: ابن سینا }
 names:
   - { kind: full, lang: ar, value: أبو علي الحسين بن عبد الله بن الحسن بن علي بن سينا }
   - { kind: kunya, lang: ar-Latn, value: Abu Ali }
   - { kind: laqab, lang: ar-Latn, value: al-Shaykh al-Ra'is }
   - { kind: latinized, lang: la, value: Avicenna }
 gender: male
-born: { edtf: "0980~", hijri: "0370~", calendar: julian, precision: year, status: historical, note: "Traditional date; his biography implies 980, some give 973.", sources: [source/gutas-2014] }
-died: { edtf: "1037-06", hijri: "0428-09", calendar: julian, precision: month, status: historical, sources: [source/gutas-2014] }
+born: { edtf: "0980~", hijri: "0370~", calendar: julian, precision: year, status: historical, note: "Traditional date; his biography implies 980, some give 973.", sources: [source/shadharat-dhahab, source/gutas-2014] }
+died: { edtf: "1037-06", hijri: "0428-09", calendar: julian, precision: month, status: historical, sources: [source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar], note: "مات بهمدان يوم جمعة في شهر رمضان سنة ثمان وعشرين وأربعمائة وعاش ثلاثاً وخمسين سنة؛ اغتسل وتاب وتصدّق بما معه على الفقراء ورد المظالم وأعتق مماليكه وجعل يختم في كل ثلاثة أيام ختمة {cite:shadharat-dhahab p. 234}." }
 roles: [physician, philosopher, astronomer, vizier, poet]
 disciplines: [concept/medicine, concept/falsafa, concept/logic]
 traditions: [sunni-hanafi]
+faith:
+  - value: sunni
+    basis: debated
+    note: "Individual Muslim identity explicitly documented by Britannica. Sunni is the declared museum frame and Alper's non-Shia interpretation, not inferred personal sect from father, patron or Hanafi teacher. Alper reports and challenges Corbin/Türker-Küyel Shia/Ismaili readings; see labelled perspectives. Original traditions/status/provenance and earlier disagreements retained."
+    sources: [source/britannica-avicenna, source/tdv-ibn-sina-alper]
 languages: [language/arabic, language/persian]
 summary:
   en: Persian polymath (c. 980–1037) whose Canon of Medicine and Book of Healing shaped medicine and philosophy across the Islamic world and Europe for centuries.
-  ar: عالم موسوعي فارسي (نحو 980–1037م) أثّر كتاباه القانون في الطب والشفاء في الفلسفة في العالم الإسلامي وأوروبا قرونًا.
-wings: [people, ideas]
+  ar: عالم موسوعي فارسي ⁦(نحو 980–1037م)⁩ أثّر كتاباه القانون في الطب والشفاء في الفلسفة في العالم الإسلامي وأوروبا قرونًا.
+  ur: "مسلمان طبیب اور فلسفی، قانون کے مصنف؛ ان کی ذاتی مسلکی نسبت مختلف فیہ ہے اور یہاں متعین آرا کے ساتھ بیان ہوتی ہے {cite:britannica-avicenna opening} {cite:tdv-ibn-sina-alper affiliation-discussion}۔"
+wings: [people]
 themes: [medicine, philosophy-and-logic, golden-age-and-decline]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 relations:
+  - { type: born_in, target: place/afshana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/urgench, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/gorgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/afshana }
   - { type: died_in, target: place/hamadan }
+  - { type: participated_in, target: event/ibn-sina-leaves-for-gurgan-1012, sources: [source/wikipedia-avicenna-en] }
+  - { type: participated_in, target: event/ibn-sina-service-at-rayy-1014, sources: [source/wikipedia-avicenna-en] }
+  - { type: participated_in, target: event/ibn-sina-vizier-hamadan-1015, sources: [source/wikipedia-avicenna-en] }
+  - { type: participated_in, target: event/ibn-sina-to-khuzistan-1030, sources: [source/wikipedia-avicenna-en] }
   - { type: buried_in, target: building/avicenna-mausoleum-hamadan }
   - { type: lived_in, target: place/bukhara, end: { edtf: "1002~" } }
   - { type: lived_in, target: place/isfahan, start: { edtf: "1024~" } }
   - { type: student_of, target: person/abu-abdallah-al-natili, sources: [source/gohlman-1974] }
   - { type: authored, target: work/al-qanun-fi-al-tibb }
   - { type: authored, target: work/kitab-al-shifa }
+  - { type: authored, target: work/al-isharat-wal-tanbihat, sources: [source/kashf-zunun-furqan] }
   - { type: patronized_by, target: person/ala-al-dawla-muhammad, start: { edtf: "1024~" } }
   - { type: influenced_by, target: person/al-farabi }
   - { type: influenced_by, target: person/aristotle }
   - { type: influenced, target: person/al-ghazali, note: "Through critique in Tahafut al-Falasifa." }
   - { type: influenced, target: person/ibn-rushd }
   - { type: influenced, target: person/thomas-aquinas }
+issue: { ar: "ما حكم العلماء على ابن سينا، وما هويته الفكرية والمذهبية؟", en: "What did scholars judge of Ibn Sina, and what was his intellectual and confessional identity?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "Sunni scholars judged him differently: al-Ghazali held that three of his teachings (the eternity of the world, God's knowledge of universals only, and the denial of bodily resurrection) amounted to unbelief, while his medical works were widely used.", ar: "تفاوتت أحكام علماء أهل السنة عليه: فقد رأى الغزالي أن ثلاث مسائل من مذهبه (قِدَم العالم، وعلم الله بالكليات دون الجزئيات، وإنكار حشر الأجساد) تفضي إلى الكفر، بينما شاع الانتفاع بكتبه الطبية." }
+    id: sunni
+    summary: { en: "Sunni scholars judged him differently: al-Ghazali held that three of his teachings (the eternity of the world, God's knowledge of universals only, and the denial of bodily resurrection) amounted to unbelief, while his medical works were widely used.", ar: "تفاوتت أحكام علماء أهل السنة عليه: فقد رأى الغزالي أن ثلاث مسائل من مذهبه ⁦(قِدَم العالم، وعلم الله بالكليات دون الجزئيات، وإنكار حشر الأجساد)⁩ تفضي إلى الكفر، بينما شاع الانتفاع بكتبه الطبية." }
+    sources: [source/gutas-2014]
+  - tradition: sunni
+    id: qualified-frame-and-alper-reading
+    stance: { ar: "الإطار السني وقراءة ألبَر", en: "Sunni frame and Alper's reading", ur: "سنی سیاق اور الپر کی قرأت" }
+    summary:
+      ar: "تسميه بريتانيكا طبيباً مسلماً؛ ويعارض ألبَر نسبته إلى الشيعة مستنداً إلى السيرة المنقولة وتفسير المفاهيم. هذا إطار معلن وقراءة منسوبة، لا يقين بمذهب شخصي مستنتج من الأسرة أو التعليم {cite:britannica-avicenna opening} {cite:tdv-ibn-sina-alper affiliation-discussion}."
+      en: "Britannica calls him a Muslim physician; Alper argues against Shia affiliation from the reported autobiography and interpretation of concepts. This is a declared frame and attributed reading, not certainty about personal sect inferred from family or education {cite:britannica-avicenna opening} {cite:tdv-ibn-sina-alper affiliation-discussion}."
+      ur: "بریٹانیکا انہیں مسلمان طبیب کہتا ہے؛ الپر منقول سوانح اور تصورات کی تعبیر سے شیعی نسبت کے خلاف دلیل دیتے ہیں۔ یہ معلن سیاق اور منسوب قرأت ہے، خاندان یا تعلیم سے اخذ کردہ ذاتی مسلک کا یقین نہیں {cite:britannica-avicenna opening} {cite:tdv-ibn-sina-alper affiliation-discussion}۔"
+    sources: [source/britannica-avicenna, source/tdv-ibn-sina-alper]
+  - tradition: academic
+    id: academic
+    summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers.", ar: "يشير المؤرخون إلى أن والده يُروى أنه كان إسماعيليًّا، وأن انتماء ابن سينا المذهبي نفسه محل خلاف." }
     sources: [source/gutas-2014]
   - tradition: academic
-    summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers." }
-    sources: [source/gutas-2014]
+    id: alper-reported-affiliation-disagreement
+    stance: { ar: "قراءتان منسوبتان لا حكم قاطع", en: "Attributed interpretations, not a verdict", ur: "منسوب تعبیریں، قطعی فیصلہ نہیں" }
+    summary:
+      ar: "قراءة ألبَر غير الشيعية تستند إلى رفض إسماعيلية الأب والأخ المنقول وإلى اختلاف معاني المفاهيم؛ وينقل في المقابل قراءة كوربان وتوركر كويَل الشيعية أو الإسماعيلية. تعرض القراءتان عبر ألبَر المقروء، لا عن قراءة مستقلة لأصولهما، ولا يصير انتماء الأب أو المعلم إقراراً شخصياً {cite:tdv-ibn-sina-alper affiliation-discussion}."
+      en: "Alper's non-Shia reading uses the reported refusal of his father and brother's Ismailism and differences in conceptual meanings; he also reports Corbin's and Türker-Küyel's Shia/Ismaili interpretations. Both readings are attributed through Alper, not independently read originals; a father's or teacher's affiliation is not personal testimony {cite:tdv-ibn-sina-alper affiliation-discussion}."
+      ur: "الپر کی غیر شیعی تعبیر باپ اور بھائی کی اسماعیلیت کے منقول انکار اور اصطلاحات کے مختلف معنی پر قائم ہے؛ وہ کوربان اور تورکر کوییل کی شیعی یا اسماعیلی تعبیریں بھی نقل کرتے ہیں۔ دونوں آرا پڑھے ہوئے الپر کے واسطے سے منسوب ہیں، اصل تحریریں آزادانہ نہیں پڑھی گئیں؛ باپ یا استاد کا مسلک ذاتی اقرار نہیں {cite:tdv-ibn-sina-alper affiliation-discussion}۔"
+    sources: [source/tdv-ibn-sina-alper]
+inventions:
+  - { invention: invention/ibn-sina-seven-drug-assessment-conditions, role: describer, note: "Seven conditions in Canon Book2, not inventor of all experimentation or modern clinical trials.", sources: [source/canon-ibn-sina-print-v1, source/nasser-tibi-savage-smith-canon-rules-2009] }
 external_ids: { wikidata: Q8011, viaf: "31996761" }
-sources: [source/gohlman-1974, source/gutas-2014]
+sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar, source/farghani-elements-astronomy, source/assabile-tareq-al-suwaidan, source/canon-ibn-sina-print-v1, source/nasser-tibi-savage-smith-canon-rules-2009, source/tdv-ibn-sina-alper, source/britannica-avicenna]
+education:
+  did_you_know:
+    ar: "عالج ابن سينا وهو في السادسة عشرة نوحَ بنَ منصور الساماني، فأذن له بمكتبة قصره فقرأها كلها."
+    en: "At sixteen Ibn Sina treated the Samanid prince Nuh ibn Mansur, who opened the palace library to him; he read it all."
+    ur: "سولہ برس میں ابنِ سینا نے سامانی شہزادہ نوح بنِ منصور کا علاج کیا؛ اس نے شاہی کتب خانہ کھول دیا اور انھوں نے وہ سب پڑھ لیا۔"
+    sources: [source/gohlman-1974, source/gutas-2014]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold from docs/plan/02 §10)" }
+
+provenance:
+  source: "farghani/gohlman/gutas/shadharat/azhar sources; assabile al-mubdioune ep27 lecture (2026-10 transcription)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b87", source: "D-129; actual Canon318–319/JRSM78–80, selected Alper and Britannica. Individual Muslim basis, qualified Sunni frame and reported contrary readings appended; all original fields/status/provenance/prose retained." }
+kids:
+  ar: "ابن سينا الفيلسوف والطبيب، كتب القانون في الطب والشفاء في الفلسفة، وكان صغيراً يحفظ القرآن في العاشرة."
+  en: "Ibn Sina (Avicenna), philosopher and physician, wrote the Canon of Medicine and the Healing of philosophy — he memorized the Qur'an as a child of ten."
+  ur: "ابن سینا فلسفی اور معالج تھے — طب میں القانون اور فلسفے میں الشفاء لکھی اور دس برس کی عمر میں قرآن حفظ کیا۔"
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "The DİA entry on medicine names him among physicians who learned the craft without a teacher, and says his Canon (al-Qanun fi al-tibb) had the greatest influence on medicine in the Islamic and Christian worlds."
+    sources: [source/tdv-tip]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar, source/farghani-elements-astronomy, source/assabile-tareq-al-suwaidan]
+  - job: job/vizier
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab, source/min-al-falsafa-al-yunaniyya-azhar, source/farghani-elements-astronomy, source/assabile-tareq-al-suwaidan]

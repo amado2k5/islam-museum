@@ -1,0 +1,28 @@
+id: event/ibn-kathir-ibn-taymiyya-727
+class: event
+kind: gathering
+label:
+  ar: "لزوم ابن كثير شيخ الإسلام ابن تيمية وامتحانه بسببه، نحو ٧٢٦-٧٢٨هـ"
+  en: "Ibn Kathir attaches himself to Ibn Taymiyya and is tried on his account, about 726-728/1326-1328"
+  ur: "ابن کثیر کا ابن تیمیہ سے لگاؤ اور ان کی وجہ سے آزمائش، تقریباً 726-728ھ/1326-1328ء"
+summary:
+  ar: "أخذ ابن كثير عن شيخ الإسلام تقي الدين ابن تيمية فامتلأ بحبه وامتُحن بسببه {cite:durar-kamina-jil-1993 1/374}، وكانت محن ابن تيمية الأخيرة — محاكمات الطلاق والحشو ثم حبسه بالقلعة سنة ٧٢٦هـ — آخِذة على تلاميذه قبل وفاته بدمشق سنة ٧٢٨هـ."
+  en: "Ibn Kathir took knowledge from Shaykh al-Islam Taqi al-Din Ibn Taymiyya, became filled with love for him and was tried on his account {cite:durar-kamina-jil-1993 1/374}; Ibn Taymiyya's last trials — the divorce and creed proceedings and his citadel imprisonment in 726 — bore on his students before his death at Damascus in 728."
+  ur: "ابن کثیر نے شیخ الاسلام تقی الدین ابن تیمیہ سے علم حاصل کیا، ان کی محبت سے بھرپور ہوئے اور ان کی وجہ سے آزمائش اٹھائی {cite:durar-kamina-jil-1993 1/374}؛ ابن تیمیہ کی آخری آزمائشیں — طلاق اور عقیدہ کے مقدمات اور 726ھ میں قلعہ کی قید — 728ھ میں ان کی وفات سے پہلے ان کے شاگردوں پر بھی اثر ڈال رہی تھیں۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1326/1328", calendar: julian, precision: year, status: tradition, derived: true, note: "أخذ عن ابن تيمية فامتلأ بحبه وامتحن بسببه {cite:durar-kamina-jil-1993 1/374}؛ محصور بين حبس ابن تيمية الأخير ٧٢٦هـ ووفاته ٧٢٨هـ؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-kathir, role: "التلميذ الممتَحَن بسبب شيخه", sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "الشيخ", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina 1/374, tarjama 944 (harvest OCR DurarKamina__drkamth1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

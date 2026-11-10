@@ -1,0 +1,36 @@
+id: place/al-baqi
+class: place
+kind: site
+label:
+  ar: البقيع
+  en: Al-Baqi'
+  ur: جنت البقیع
+summary:
+  ar: موقع في السعودية.
+  en: Al-Baqi'; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 24.4669
+- 39.6164
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q154204
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q154204 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q154204 (labels, coordinates, description)

@@ -1,0 +1,45 @@
+# Seasonal packs (docs/delegation/education-master-plan.md §5 E3, step 4): four dated packs at
+# /{lang}/learn/teachers/packs/{id}/. Each pack is a landing page plus a kit list pointing at the
+# museum's existing printables — the sheets named per item are what the kit prints as (8–12 pages).
+# The matching email text for the founder to send lives in docs/outreach/education/<id>.md —
+# the site itself sends nothing.
+packs:
+  - id: heritage-month
+    title: { ar: "حِزمة شهر التراث الإسلامي", en: "Islamic Heritage Month pack", ur: "اسلامی ورثہ ماہ کا پیک" }
+    when: { ar: "شهر التراث الإسلامي في أونتاريو: أكتوبر من كل عام.", en: "Islamic Heritage Month in Ontario: every October.", ur: "انٹاریو میں اسلامی ورثہ ماہ: ہر سال اکتوبر۔" }
+    lede: { ar: "حقائق يومية، درب كامل قابل للطباعة، جواز المتحف وتحدّي اليوم: حقيبة الصف لشهر التراث.", en: "A daily fact, a full printable pathway, the museum passport and the daily challenge: the classroom kit for Heritage Month.", ur: "روز ایک حقیقت، مکمل چھپنے والا راستہ، میوزیم پاسپورٹ اور روزانہ چیلنج: ورثہ ماہ کے لیے کلاس کا سامان۔" }
+    kit:
+      - { title: { ar: "ملصق حقيقة الأسبوع", en: "Fact-of-the-week poster", ur: "ہفتے کی حقیقت کا پوسٹر" }, href: "/learn/facts/poster/", sheets: 1 }
+      - { title: { ar: "دروب المنهج: صفقة الطباعة (صعود الإسلام)", en: "Curriculum pathway print pack (Rise of Islam)", ur: "نصابی راستے کا چھپائی پیک (اسلام کا عروج)" }, href: "/learn/teachers/pathways/g11-chw3m-rise-of-islam/print/", sheets: 4 }
+      - { title: { ar: "جواز المتحف", en: "Museum passport", ur: "میوزیم پاسپورٹ" }, href: "/learn/passport/", sheets: 1 }
+      - { title: { ar: "تحدّي اليوم (أسبوع من الأسئلة)", en: "Daily challenge (a week of rounds)", ur: "روزانہ چیلنج (ایک ہفتے کے سوالات)" }, href: "/learn/daily/", sheets: 1 }
+      - { title: { ar: "أخبرها بكلماتك", en: "Tell it back prompts", ur: "اپنے الفاظ میں سنانے کی مشق" }, href: "/sighar/retell/", sheets: 1 }
+  - id: ramadan
+    title: { ar: "حِزمة رمضان", en: "Ramadan pack", ur: "رمضان کا پیک" }
+    when: { ar: "رمضان 1448هـ: يتوقع تقويم أم القرى أن يبدأ نحو 8 فبراير 2027م، ويبقى بدؤه موقوفًا على رؤية الهلال.", en: "Ramadan 1448: the Umm al-Qura calendar expects it to begin about 8 February 2027; the actual start still depends on the moon sighting.", ur: "رمضان 1448ھ: ام‌القری تقویم کے مطابق متوقع آغاز تقریباً 8 فروری 2027ء؛ اصل آغاز ہلال دیکھنے پر موقوف ہے۔" }
+    lede: { ar: "جدول الأعمال الخيرية، ملصق الحقائق، صحائف العائلة الأسبوعية ودرب قابل للطباعة: حِزمة الصف لرمضان.", en: "The kindness chart, the fact poster, the family weekly sheets and a printable pathway: the classroom kit for Ramadan.", ur: "نیکی کا چارٹ، حقائق کا پوسٹر، خاندانی ہفتہ وار ورقیں اور چھپنے والا راستہ: رمضان کے لیے کلاس کا سامان۔" }
+    kit:
+      - { title: { ar: "ملصق حقيقة الأسبوع", en: "Fact-of-the-week poster", ur: "ہفتے کی حقیقت کا پوسٹر" }, href: "/learn/facts/poster/", sheets: 1 }
+      - { title: { ar: "جدول الكرم ثلاثين يوماً", en: "Kindness Quest 30-day chart", ur: "نیکی کی 30 روزہ چارٹ" }, href: "/sighar/kindness/", sheets: 1 }
+      - { title: { ar: "دروب المنهج: صفقة الطباعة", en: "Curriculum pathway print pack", ur: "نصابی راستے کا چھپائی پیک" }, href: "/learn/teachers/pathways/g11-chw3m-rise-of-islam/print/", sheets: 4 }
+      - { title: { ar: "الصحيفة الأسبوعية للعائلة", en: "Family weekly sheet", ur: "خاندانی ہفتہ وار ورق" }, href: "/learn/parents/weekly/", sheets: 2 }
+      - { title: { ar: "تحدّي اليوم", en: "Daily challenge", ur: "روزانہ چیلنج" }, href: "/learn/daily/", sheets: 1 }
+  - id: back-to-school
+    title: { ar: "حِزمة العودة إلى المدرسة", en: "Back-to-school pack", ur: "اسکول واپسی کا پیک" }
+    when: { ar: "الأسبوع الأول من سبتمبر.", en: "The first week of September.", ur: "ستمبر کا پہلا ہفتہ۔" }
+    lede: { ar: "ابدأ السنة بجواز متحفٍ لكل تلميذ، ملصقٍ للحقائق، دربٍ للصف وبطاقاتٍ للقص والدراسة.", en: "Start the year with a passport for every pupil, a fact poster, a pathway for the class and cards to cut out and study.", ur: "سال کا آغاز ہر شاگرد کے پاسپورٹ، حقائق کے پوسٹر، کلاس کے راستے اور کاٹنے اور پڑھنے کے کارڈ سے کریں۔" }
+    kit:
+      - { title: { ar: "جواز المتحف", en: "Museum passport", ur: "میوزیم پاسپورٹ" }, href: "/learn/passport/", sheets: 1 }
+      - { title: { ar: "ملصق حقيقة الأسبوع", en: "Fact-of-the-week poster", ur: "ہفتے کی حقیقت کا پوسٹر" }, href: "/learn/facts/poster/", sheets: 1 }
+      - { title: { ar: "دروب المنهج: صفقة الطباعة", en: "Curriculum pathway print pack", ur: "نصابی راستے کا چھپائی پیک" }, href: "/learn/teachers/pathways/g11-chw3m-rise-of-islam/print/", sheets: 4 }
+      - { title: { ar: "بطاقات ترتيب الأنبياء للقص", en: "Prophet-order cards to cut out", ur: "انبیاء کی ترتیب کے کاٹنے والے کارڈ" }, href: "/cards/list/tartib-al-anbiya/", sheets: 2 }
+  - id: exam-season
+    title: { ar: "حِزمة موسم الامتحانات", en: "Exam-season pack", ur: "امتحانوں کے موسم کا پیک" }
+    when: { ar: "مايو–يونيو.", en: "May–June.", ur: "مئی تا جون۔" }
+    lede: { ar: "أنماط الدراسة التي تُصحَّح ذاتيًا، أوراق عمل الدروب، تحدّي اليوم وملصق الحقائق: مراجعة الصف قبل الامتحان.", en: "Self-marking study modes, pathway worksheets, the daily challenge and the fact poster: the class's revision kit before exams.", ur: "خود جانچنے والے مطالعہ طریقے، راستوں کی ورک شیٹیں، روزانہ چیلنج اور حقائق کا پوسٹر: امتحان سے پہلے کلاس کی دہرائی کا سامان۔" }
+    kit:
+      - { title: { ar: "بطاقات الدراسة للقص", en: "Study cards to cut out", ur: "مطالعے کے کاٹنے والے کارڈ" }, href: "/cards/list/tartib-al-anbiya/", sheets: 2 }
+      - { title: { ar: "دروب المنهج: صفقة الطباعة (مع ورقة العمل)", en: "Curriculum pathway print pack (with worksheet)", ur: "نصابی راستے کا چھپائی پیک (ورک شیٹ سمیت)" }, href: "/learn/teachers/pathways/g11-chw3m-rise-of-islam/print/", sheets: 4 }
+      - { title: { ar: "ورقة عمل الدرس", en: "Lesson worksheet", ur: "سبق کی ورک شیٹ" }, href: "/sighar/teachers/lessons/quest/", sheets: 2 }
+      - { title: { ar: "تحدّي اليوم", en: "Daily challenge", ur: "روزانہ چیلنج" }, href: "/learn/daily/", sheets: 1 }
+      - { title: { ar: "ملصق حقيقة الأسبوع", en: "Fact-of-the-week poster", ur: "ہفتے کی حقیقت کا پوسٹر" }, href: "/learn/facts/poster/", sheets: 1 }

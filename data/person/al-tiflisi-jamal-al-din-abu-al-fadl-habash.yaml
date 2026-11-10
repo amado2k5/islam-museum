@@ -1,0 +1,44 @@
+id: person/al-tiflisi-jamal-al-din-abu-al-fadl-habash
+class: person
+label: { ar: "التفليسي جمال الدين أبو الفضل حبش بن إبراهيم", en: "al-Tiflisi Jamal al-Din Abu al-Fadl Habash ibn Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "جمال الدين بديع الزمان أبو الفضل حبيش بن إبراهيم بن محمد كمال الدين التفليسي" }
+  - { kind: kunya, lang: ar, value: "أبو الفضل" }
+  - { kind: laqab, lang: ar, value: "جمال الدين" }
+  - { kind: nisba, lang: ar, value: "التفليسي" }
+gender: male
+roles: [physician, astronomer, writer]
+traditions: [sunni]
+died: { edtf: "1231", hijri: "0629", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب ومنجم ولغوي وأديب من تفليس، عاش في أيام السلاجقة وخدمهم في الطب وعلم النجوم، ومعظم مؤلفاته بالفارسية، وتوفي سنة 629هـ ⁦(1231م)⁩."
+  en: "Physician, astrologer, lexicographer and man of letters from Tiflis, who served the Seljuks in medicine and astronomy and wrote mostly in Persian; died 629 AH (1231 CE)."
+wings: [people]
+themes: [medicine, astronomy-and-timekeeping]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص527"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/tiflis, note: "From text: from Tiflis", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

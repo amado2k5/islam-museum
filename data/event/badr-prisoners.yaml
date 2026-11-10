@@ -1,11 +1,20 @@
 id: event/badr-prisoners
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "نظر النبي في أسرى بدر بالفداء على مشورة أبي بكر، فكان من الفدية ألف إلى أربعة آلاف درهم أو تعليم الكتابة لعشرة غلمان."
+    en: "The Prophet settled the Badr captives by ransom on Abu Bakr's counsel — one to four thousand dirhams, or teaching ten boys to write."
+    ur: "نبی نے بدر کے قیدیوں کا معاملہ ابوبکر کے مشورے سے فدیے پر طے کیا — ایک ہزار سے چار ہزار درہم یا دس لڑکوں کو لکھنا سکھانا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: other
 label: { en: "The affair of the Badr prisoners", ar: "قضية أسارى بدر" }
 summary:
   en: "The aftermath decision over the seventy Badr captives: the consultation in which Abu Bakr advised ransom and Umar advised execution, the ransom terms (1000–4000 dirhams, or teaching ten boys to write), the executions of al-Nadr and Uqba, and the exegetical comments in 8:67-68 and 47:4."
-  ar: "ما أعقب بدر من نظر في شأن نحو سبعين أسيراً: مشورة أبي بكر بالفداء وعمر بالقتل، ثم قبول الفداء (من ألف إلى أربعة آلاف درهم أو تعليم عشرة غلمان الكتابة)، وإعدام النضر بن الحارث وعقبة بن أبي معيط، وتعليق آيتَي الأنفال ٦٧-٦٨ ومحمد ٤ على القرار."
-wings: [time, people]
+  ar: "ما أعقب بدر من نظر في شأن نحو سبعين أسيراً: مشورة أبي بكر بالفداء وعمر بالقتل، ثم قبول الفداء ⁦(من ألف إلى أربعة آلاف درهم أو تعليم عشرة غلمان الكتابة)⁩، وإعدام النضر بن الحارث وعقبة بن أبي معيط، وتعليق آيتَي الأنفال ٦٧-٦٨ ومحمد ٤ على القرار."
+wings: [time]
 themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -15,7 +24,7 @@ outcome:
   en: "Ransom adopted; two prisoners executed; some released gratis or exchanged."
   ar: "قُبِل الفداء؛ أُعدم أسيران؛ مُنَّ على بعضهم بلا فداء وبُودل آخر."
 significance:
-  ar: "أول تشريع عملي لأحكام الأسرى في الإسلام؛ علّقت عليه آيات الأنفال ٦٧-٦٨ ومحمد ٤ بالعتاب ثم الحكم (الرحيق ص230-231)."
+  ar: "أول تشريع عملي لأحكام الأسرى في الإسلام؛ علّقت عليه آيات الأنفال ٦٧-٦٨ ومحمد ٤ بالعتاب ثم الحكم ⁦(الرحيق ص230-231)⁩."
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: part_of, target: event/battle-of-badr }
@@ -28,5 +37,11 @@ relations:
   - { type: had_participant, target: person/suhayl-ibn-amr, note: "رُفض اقتراح نزع ثنيتيه احترازاً عن المثلة (الرحيق ص230)", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "من جملة الأسرى المُخرَجين كرهاً", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/musab-ibn-umayr, note: "استلم أخاه الأسير أبا عزيز وأمره بإحكام وثاقه", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sunan-abi-dawud, source/tarikh-umar-ibn-al-jawzi]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sunan-abi-dawud, source/tarikh-umar-ibn-al-jawzi, source/muhammad-qaid-al-aala-azhar, source/sallabi-ali-vol1, source/assabile-ragheb-el-sergani]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 228-231" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch7"

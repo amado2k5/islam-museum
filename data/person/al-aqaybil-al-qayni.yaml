@@ -1,0 +1,29 @@
+id: person/al-aqaybil-al-qayni
+class: person
+label:
+  ar: "الأقيبل القيني"
+  en: "al-Aqaybil al-Qayni"
+roles: [poet]
+gender: male
+summary:
+  ar: "الأقيبل بن نبهان القيني، شاعر إسلامي من قضاعة، هجا الحجاج فعاذ بقبر مروان وأمّنه عبد الملك، توفي نحو ٨٥هـ ⁦(٧٠٤م)⁩."
+  en: "Al-Aqaybil ibn Nabhan al-Qayni, early Islamic poet (d. c. 85/704) who satirized al-Hajjaj and was pardoned by Abd al-Malik."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q42332170
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.2 p.5)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0070
+status:
+  review: published
+  completeness: 3
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,44 @@
+id: event/conquest-of-al-fayyum
+class: event
+kind: conquest
+label:
+  ar: فتح الفيوم
+  en: Conquest of al-Fayyum
+  ur: فیوم کی فتح
+summary:
+  ar: يروي ابن عبد الحكم أن الفيوم بقيت سنة لا يعلم المسلمون بمكانها حتى دلّهم عليها رجل، فأرسل عمرو معه ربيعة بن حبيش الصدفي، فهجموا عليها فلم يكن عند أهلها قتال وألقوا بأيديهم {cite:futuh-misr-amir-1999 p. 227} {cite:futuh-misr-amir-1999 p. 228}.
+  en: Ibn Abd al-Hakam reports that al-Fayyum remained unknown to the Muslims for a year until a man told them of it; Amr sent Rabi'a ibn Hubaysh al-Sadafi with him, and when they came upon it its people offered no fight and surrendered {cite:futuh-misr-amir-1999 p. 227} {cite:futuh-misr-amir-1999 p. 228}.
+  ur: ابن عبد الحکم روایت کرتے ہیں کہ فیوم ایک سال تک مسلمانوں کی نظر سے اوجھل رہا یہاں تک کہ ایک آدمی نے انہیں بتایا؛ عمرو نے اس کے ساتھ ربیعہ بن حبیش صدفی کو بھیجا، اور جب وہ وہاں پہنچے تو اہلِ فیوم نے لڑائی نہ کی اور ہتھیار ڈال دیے {cite:futuh-misr-amir-1999 p. 227} {cite:futuh-misr-amir-1999 p. 228}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: part_of
+  target: event/conquest-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: occurred_at
+  target: place/al-fayyum
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: باعث السرية
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 227–228
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

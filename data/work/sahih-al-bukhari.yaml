@@ -1,0 +1,27 @@
+id: work/sahih-al-bukhari
+education:
+  did_you_know:
+    ar: "«الجامع المسند الصحيح المختصر من أمور رسول الله وسننه وأيامه» لمحمد بن إسماعيل البخاري الجعفي — الاسم الطويل الذي يعرفه كل من فتح الكتاب."
+    en: "'The abridged, chained, authentic compendium of the Messenger's affairs, his sunnas and his days' — al-Bukhari's full title, known to everyone who opens the book."
+    ur: "«رسول اللہ کے امور، سنت اور ایام کا مسلسل، مختصر صحیح مجموعہ» — بخاری کی کتاب کا مکمل نام جو ہر قاری جانتا ہے۔"
+    sources: [source/sahih-al-bukhari, source/encyclopaedia-of-islam-2]
+class: work
+kind: book
+label: { ar: "صحيح البخاري", en: "Sahih al-Bukhari" }
+summary:
+  ar: "الجامع المسند الصحيح المختصر من أمور رسول الله وسننه وأيامه لمحمد بن إسماعيل البخاري الجعفي {cite:sahih-al-bukhari-bugha p.1}."
+  en: "The Jami' al-Musnad al-Sahih of Muhammad ibn Isma'il al-Bukhari al-Ju'fi {cite:sahih-al-bukhari-bugha p.1}."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sahih-al-bukhari] }
+authors: [person/al-bukhari]
+language: language/arabic
+wings: []
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "Sahih al-Bukhari source record (Deoband 1384–1387 AH edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+external_ids:
+  wikidata: Q1023470
+sources: [source/sahih-al-bukhari, source/manhaj-tawthiq-al-sunna-azhar, source/sunnah-com, source/assabile-abu-ishaq-alheweny]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

@@ -1,11 +1,20 @@
 id: event/fatrat-al-wahy
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "انقطع الوحي بعد نزوله الأول بحراء، ويرجّح ابن سعد عن ابن عباس أنه كان أياماً لا سنين، وانتهى بظهور الملك على كرسي بين السماء والأرض ونزول «يا أيها المدثر»."
+    en: "After the first descent at Hira, revelation paused — Ibn Sa'd from Ibn Abbas favours days, not years — ending when the angel appeared seated between sky and earth and 'O you, wrapped one' came down."
+    ur: "حراء میں پہلی آیت کے بعد وحی رک گئی — ابن سعد، ابن عباس سے، دنوں کو ترجیح دیتے ہیں — پھر فرشتہ آسمان اور زمین کے درمیان ظاہر ہوا اور «اے کپڑے اوڑھنے والے» نازل ہوئی۔"
+    sources: [source/tabaqat-ibn-sad, source/mubarakpuri-raheeq]
 class: event
 kind: revelation
 label: { en: "The pause of revelation (Fatra)", ar: "فترة الوحي" }
 summary:
   en: "The pause in revelation after the first descent at Hira — days rather than years in the reading of Ibn Sa'd via Ibn Abbas that the book prefers — ending when Jibril appeared seated on a throne between heaven and earth and surat al-Muddaththir came down with the command to rise and warn."
   ar: "انقطاع الوحي بعد نزوله الأول بحراء، ويرجّح الكتاب أنه كان أياماً لا سنين برواية ابن سعد عن ابن عباس؛ ثم انتهى بظهور الملك قاعداً على كرسي بين السماء والأرض ونزول «يا أيها المدثر» بأمر القيام والإنذار."
-wings: [time, people]
+wings: [time]
 themes: [scripture-and-its-sciences, prophets]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -17,5 +26,11 @@ relations:
   - { type: caused_by, target: event/first-revelation }
   - { type: caused, target: event/al-dawa-al-sirriyya }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/tabaqat-ibn-sad]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/tabaqat-ibn-sad, source/fath-al-bari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 68-70" }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch9"

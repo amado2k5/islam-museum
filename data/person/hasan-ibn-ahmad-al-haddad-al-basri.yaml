@@ -1,0 +1,33 @@
+id: person/hasan-ibn-ahmad-al-haddad-al-basri
+class: person
+label: { ar: "القاضي أبو محمد الحداد البصري" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد الحسن بن أحمد المعروف بالحداد البصري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+summary:
+  ar: "القاضي أبو محمد الحسن بن أحمد المعروف بالحداد البصري، أحد فقهاء الشافعية، لم يذكر الشيرازي على من درس ولا وقت وفاته، وذكر أنه رأى له كتاباً في أدب القضاء يدل على فضل كثير {cite:tabaqat-fuqaha-abbas-1981 p. 63}. ليس هو ابن الحداد المصري (person/ibn-al-haddad-al-misri)."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1025~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1121~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch86
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

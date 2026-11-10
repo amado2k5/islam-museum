@@ -1,0 +1,18 @@
+id: place/lucena
+class: place
+kind: city
+label: { ar: "ليسانة", en: "Lucena" }
+summary:
+  en: "Town south of Córdoba where Ibn Rushd was confined in 1195 during his disgrace."
+  ar: "بلدة جنوب قرطبة حُبس فيها ابن رشد سنة 1195م زمن محنته."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [37.4088, -4.4852]
+coordinate_precision: locality
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Ibn Rushd story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-ibn-rushd
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

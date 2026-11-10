@@ -1,0 +1,29 @@
+id: person/al-zarnuji
+class: person
+label:
+  ar: "برهان الدين الزرنوجي"
+  en: "al-Zarnuji"
+roles: [scholar]
+gender: male
+themes: [education]
+summary:
+  ar: "بطاقة أولية لبرهان الدين الزرنوجي، فقيه حنفي القرن الثالث عشر صاحب «تعليم المتعلم»؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Burhan al-Din al-Zarnuji, the thirteenth-century Hanafi jurist author of Ta'lim al-Muta'allim; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q4703373
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0050
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1223", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

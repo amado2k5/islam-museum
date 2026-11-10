@@ -1,0 +1,29 @@
+id: person/abd-allah-qadri-al-ahdal
+class: person
+label:
+  ar: "عبد الله قادري الأهدل"
+  en: "Abd Allah Qadri al-Ahdal"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الله قادري الأهدل؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd Allah Qadri al-Ahdal; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136556204
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1937", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Umm al-Qura University directory (1356–1443 AH)" }
+died: { edtf: "2022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Obituary; Umm al-Qura University directory (1356–1443 AH)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

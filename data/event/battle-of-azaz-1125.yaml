@@ -1,0 +1,23 @@
+id: event/battle-of-azaz-1125
+class: event
+kind: battle
+label: { ar: "معركة أعزاز", en: "Battle of Azaz" }
+summary:
+  ar: "بطاقة أولية لمعركة أعزاز سنة ١١٢٥م، نصر الفرنج على جيش آقسنقر البرسقي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Azaz in 1125, the Crusaders' victory over Aqsunqur al-Bursuqi's Muslim army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1125", precision: year, status: tradition, derived: true }
+  end: { edtf: "1125", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q55504
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

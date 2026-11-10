@@ -1,0 +1,35 @@
+id: place/abbasid-samarra
+class: place
+kind: town
+label:
+  ar: سامراء العباسية
+  en: Abbasid Samarra
+  ur: عباسی سامراء
+summary:
+  ar: سامراء العباسية.
+  en: Abbasid Samarra; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 34.3617
+- 43.8019
+coordinate_precision: locality
+coordinate_note: Wikidata Q20717633 (ID held on the matching polity entity).
+external_ids:
+  wikidata: Q20717633
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q20717633 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.

@@ -1,0 +1,23 @@
+id: event/battle-of-shimbra-kure-1529
+class: event
+kind: battle
+label: { ar: "معركة شيمبرا كوري", en: "Battle of Shimbra Kure" }
+summary:
+  ar: "بطاقة أولية لمعركة شيمبرا كوري سنة ١٥٢٩م، فوز أحمد كران على جيوش الحبشة في حملته الأولى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Shimbra Kure in 1529, Ahmad Gran's victory over Abyssinia's armies in his first campaign; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [east-africa]
+date:
+  start: { edtf: "1529-03-09", precision: year, status: tradition, derived: true }
+  end: { edtf: "1529-03-09", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2889965
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

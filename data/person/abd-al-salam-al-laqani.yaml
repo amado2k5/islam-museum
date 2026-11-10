@@ -1,0 +1,28 @@
+id: person/abd-al-salam-al-laqani
+class: person
+label:
+  ar: "عبد السلام اللقاني"
+  en: "Abd al-Salam al-Laqani"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد السلام اللقاني، العالم المالكي المصري، توفي سنة ١٦٦٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Salam al-Laqani, the Egyptian Maliki scholar, d. 1668; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q60565006
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0086
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: d. 1078 AH)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

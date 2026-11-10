@@ -1,9 +1,18 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import MiniMap from "../../../components/MiniMap.astro";
+import MapViewer from "../../../components/MapViewer.svelte";
+import PageHeader from "../../../components/PageHeader.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
+import TodayCards from "../../../components/TodayCards.astro";
+import HijriTimeline from "../../../components/HijriTimeline.astro";
 import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
-import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
-import { formatDate } from "../../../lib/dates";
+import { href, labelOf, realNodes, summaryOf, graph, byId } from "../../../lib/graph";
+import { formatDate, timelineKey } from "../../../lib/dates";
+import { readFileSync } from "node:fs";
+import { feature, merge } from "topojson-client";
+import { geoContains, geoNaturalEarth1, geoPath } from "d3-geo";
+import { repoPath } from "../../../lib/paths";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => WINGS.map((w) => ({ params: { lang, hall: WING_PATH[w] }, props: { lang, wing: w } })));
@@ -11,47 +20,237 @@ export function getStaticPaths() {
 const { lang, wing } = Astro.props as { lang: Lang; wing: Wing };
 const T = ui(lang);
 const items = realNodes.filter((n) => n.wings.includes(wing));
-if (wing === "time") items.sort((a, b) => (a.span?.earliest ?? 1e9) - (b.span?.earliest ?? 1e9));
+if (wing === "time") {
+  // Chronological by start date (see timelineKey); the build fails if the rendered sequence is not non-decreasing.
+  const keyed = items.map((n) => ({ n, ...timelineKey(n) })).sort((a, b) => (a.key === b.key ? a.ord - b.ord : a.key < b.key ? -1 : 1));
+  for (let i = 1; i < keyed.length; i++) {
+    if (keyed[i].key < keyed[i - 1].key) throw new Error(`time wing out of order: ${keyed[i - 1].n.id} before ${keyed[i].n.id}`);
+  }
+  // Undated entries (datasets, buildings) sort last: Infinity keys are non-decreasing.
+  items.splice(0, items.length, ...keyed.map((k) => k.n));
+}
 const dateOf = (n: any) => {
   const d = n.data;
   return formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
 };
+// Hub cards show a 110-char teaser (cut at a word boundary) instead of the
+// full summary: /ar/people/ and /ar/time/ are multi-MB pages otherwise.
+// summaryOf already resolves [[wiki-links]] to label text, so no cut can
+// land inside a link. Rendered at build time, so no-JS readers still get text.
+const short = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
 const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinates) : [];
+// Places without surveyed coordinates (small battle sites, valleys, quarters)
+// are drawn at their containing place's position with a small angular offset so
+// every city — and every person attached to it — still appears on the map.
+const allMapPlaces = wing === "place" ? (() => {
+  const coord = new Map(placesWithCoords.map((n) => [n.id, n.coordinates!] as const));
+  const regs = new Map(placesWithCoords.map((n) => [n.id, n.regions ?? []] as const));
+  let k = 0;
+  for (const n of realNodes) {
+    if (n.class !== "place" || coord.has(n.id)) continue;
+    const host = graph.edges.find((e) => !e.inverse && ((e.from === n.id && coord.has(e.to)) || (e.to === n.id && coord.has(e.from))));
+    const hostId = host ? (host.from === n.id ? host.to : host.from) : undefined;
+    const base = hostId ? coord.get(hostId) : undefined;
+    if (!hostId || !base) continue;
+    const a = k++ * 2.4;
+    coord.set(n.id, [base[0] + Math.sin(a) * 0.12, base[1] + Math.cos(a) * 0.12]);
+    regs.set(n.id, regs.get(hostId) ?? []);
+  }
+  return realNodes.filter((n) => n.class === "place" && coord.has(n.id)).map((n) => ({ ...n, coordinates: coord.get(n.id), regions: regs.get(n.id) ?? n.regions }));
+})() : [];
+// The map viewer's world: country outlines projected once at build time, the
+// twelve museum regions merged from them, and every place's precomputed world
+// zoom transform and collision-free position inside each of its regions.
+const mapData = wing === "place" ? (() => {
+  const topo = JSON.parse(readFileSync(repoPath("site", "node_modules", "world-atlas", "countries-110m.json"), "utf8")) as any;
+  const world = feature(topo, topo.objects.countries) as any;
+  const projection = geoNaturalEarth1().fitSize([1000, 560], world);
+  const path = geoPath(projection as any);
+  const worldPaths = (world.features ?? [world]).map((f: any) => path(f)).filter(Boolean) as string[];
+  const placeTransforms: Record<string, string> = {};
+  for (const place of allMapPlaces) {
+    if (!place.coordinates) continue;
+    const [x, y] = projection([place.coordinates[1], place.coordinates[0]])!;
+    const zoomK = 20;
+    placeTransforms[place.id] = `translate(${(500 - x * zoomK).toFixed(2)} ${(270 - y * zoomK).toFixed(2)}) scale(${zoomK})`;
+  }
+  const regionShapes = [
+    { id: "andalus-europe", label: { ar: "الأندلس وأوروبا", en: "al-Andalus and Europe", ur: "اندلس اور یورپ" }, tint: .16, countries: ["Portugal","Spain","France","Italy","United Kingdom","Ireland","Belgium","Netherlands","Luxembourg","Germany","Switzerland","Austria","Czechia","Slovakia","Poland","Denmark","Norway","Sweden","Finland","Iceland","Estonia","Latvia","Lithuania","Belarus","Ukraine","Moldova"] },
+    { id: "maghreb", label: { ar: "المغرب العربي", en: "the Maghreb", ur: "مغرب" }, tint: .22, countries: ["Morocco","W. Sahara","Algeria","Tunisia","Libya","Mauritania"] },
+    { id: "west-africa-sahel", label: { ar: "غرب أفريقيا والساحل", en: "West Africa and the Sahel", ur: "مغربی افریقہ اور ساحل" }, tint: .30, countries: ["Senegal","Gambia","Guinea-Bissau","Guinea","Sierra Leone","Liberia","Côte d'Ivoire","Mali","Burkina Faso","Niger","Nigeria","Chad","Cameroon","Ghana","Togo","Benin"] },
+    { id: "egypt-nile", label: { ar: "مصر ووادي النيل", en: "Egypt and the Nile valley", ur: "مصر اور وادیِ نیل" }, tint: .24, countries: ["Egypt","Sudan","S. Sudan"] },
+    { id: "east-africa", label: { ar: "شرق أفريقيا والساحل السواحلي", en: "East Africa and the Swahili coast", ur: "مشرقی افریقہ اور سواحلی ساحل" }, tint: .28, countries: ["Eritrea","Djibouti","Ethiopia","Somalia","Kenya","Uganda","Rwanda","Burundi","Tanzania","Mozambique"] },
+    { id: "arabia", label: { ar: "الجزيرة العربية", en: "the Arabian peninsula", ur: "جزیرۂ عرب" }, tint: .36, countries: ["Saudi Arabia","Yemen","Oman","United Arab Emirates","Qatar","Kuwait"] },
+    { id: "levant-iraq", label: { ar: "بلاد الشام والعراق", en: "the Levant and Iraq", ur: "شام اور عراق" }, tint: .32, countries: ["Iraq","Syria","Lebanon","Jordan","Israel","Palestine","Cyprus","N. Cyprus"] },
+    { id: "anatolia-balkans", label: { ar: "الأناضول والقوقاز والبلقان", en: "Anatolia, the Caucasus and the Balkans", ur: "اناطولیہ، قفقاز اور بلقان" }, tint: .20, countries: ["Turkey","Georgia","Armenia","Azerbaijan","Greece","Albania","Macedonia","Bulgaria","Romania","Serbia","Kosovo","Montenegro","Bosnia and Herz.","Croatia","Slovenia","Hungary"] },
+    { id: "persia-central-asia", label: { ar: "بلاد فارس وآسيا الوسطى", en: "Persia and Central Asia", ur: "ایران اور وسطی ایشیا" }, tint: .40, countries: ["Iran","Afghanistan","Turkmenistan","Uzbekistan","Kazakhstan","Kyrgyzstan","Tajikistan"] },
+    { id: "south-asia", label: { ar: "جنوب آسيا", en: "South Asia", ur: "جنوبی ایشیا" }, tint: .46, countries: ["Pakistan","India","Bangladesh","Nepal","Bhutan","Sri Lanka"] },
+    { id: "southeast-asia", label: { ar: "جنوب شرق آسيا", en: "Southeast Asia", ur: "جنوب مشرقی ایشیا" }, tint: .34, countries: ["Myanmar","Thailand","Laos","Cambodia","Vietnam","Malaysia","Indonesia","Brunei","Philippines","Timor-Leste"] },
+    { id: "china-east-asia", label: { ar: "الصين وشرق آسيا", en: "China and East Asia", ur: "چین اور مشرقی ایشیا" }, tint: .26, countries: ["China","Mongolia","Taiwan","North Korea","South Korea","Japan"] },
+  ];
+  const geometries = topo.objects.countries.geometries;
+  const placePositions: Record<string, Record<string, [number, number]>> = {};
+  const mapRegions = regionShapes.map((r) => {
+    const selected = geometries.filter((g: any) => r.countries.includes(g.properties.name));
+    const geo = merge(topo, selected as any) as any;
+    const fitProjection = geoNaturalEarth1().fitExtent([[160, 70], [840, 475]], geo);
+    const fitPath = geoPath(fitProjection as any)(geo) ?? "";
+    const [[x0, y0], [x1, y1]] = path.bounds(geo);
+    const zoomK = Math.min(680 / Math.max(x1 - x0, 1), 405 / Math.max(y1 - y0, 1));
+    const worldTransform = `translate(${(500 - ((x0 + x1) / 2) * zoomK).toFixed(2)} ${(270 - ((y0 + y1) / 2) * zoomK).toFixed(2)}) scale(${zoomK.toFixed(4)})`;
+    const [labelX, labelY] = path.centroid(geo);
+    const regionalPlaces = allMapPlaces
+      .filter((place) => place.coordinates && ((place.regions ?? []).includes(r.id) || geoContains(geo, [place.coordinates[1], place.coordinates[0]])))
+      .sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), "ar"));
+    const placed: [number, number][] = [];
+    const minDistance = 58;
+    for (const place of regionalPlaces) {
+      const base = fitProjection([place.coordinates![1], place.coordinates![0]]) as [number, number];
+      const inside = (p: [number, number]) => {
+        const coordinate = fitProjection.invert?.(p);
+        return coordinate ? geoContains(geo, coordinate) : true;
+      };
+      const clear = (p: [number, number]) => placed.every((q) => Math.hypot(p[0] - q[0], p[1] - q[1]) >= minDistance);
+      let chosen = inside(base) && clear(base) ? base : null;
+      for (let radius = 8; !chosen && radius <= 220; radius += 4) {
+        const count = Math.max(12, Math.ceil(radius / 3));
+        for (let step = 0; step < count; step++) {
+          const angle = (step / count) * Math.PI * 2;
+          const candidate = [base[0] + Math.cos(angle) * radius, base[1] + Math.sin(angle) * radius] as [number, number];
+          if (inside(candidate) && clear(candidate)) { chosen = candidate; break; }
+        }
+      }
+      chosen ??= base;
+      placed.push(chosen);
+      (placePositions[place.id] ??= {})[r.id] = chosen;
+    }
+    return { id: r.id, label: (r.label as Record<string, string>)[lang] ?? r.label.ar, tint: r.tint, path: path(geo) ?? "", fitPath, labelX, labelY, worldTransform };
+  });
+  return { worldPaths, mapRegions, placePositions, placeTransforms };
+})() : { worldPaths: [] as string[], mapRegions: [] as any[], placePositions: {}, placeTransforms: {} };
+// The viewer's graph slice: every place with coordinates plus the entities one
+// edge away (people born, events that happened, works written there…), with
+// the real graph edges between them.
+const viewer = wing === "place" ? (() => {
+  const placeIds = new Set(allMapPlaces.map((n) => n.id));
+  const ids = new Set(placeIds);
+  for (const e of graph.edges) {
+    if (e.inverse) continue;
+    if (placeIds.has(e.from)) ids.add(e.to);
+    if (placeIds.has(e.to)) ids.add(e.from);
+  }
+  const useful = new Set(ids);
+  const keepClasses = new Set(["person", "event", "place", "building", "group", "work", "journey", "polity", "object"]);
+  const edges = graph.edges.filter((e) => !e.inverse && useful.has(e.from) && useful.has(e.to) && keepClasses.has(byId.get(e.from)?.class ?? "") && keepClasses.has(byId.get(e.to)?.class ?? ""));
+  const items = [...useful].map((id) => byId.get(id)).filter((n) => n && keepClasses.has(n.class)).map((n) => ({
+    id: n!.id, cls: n!.class, slug: n!.slug, label: labelOf(n!, lang), summary: summaryOf(n!, lang), href: href(lang, n!.id), span: n!.span, coordinates: n!.coordinates, regions: n!.regions, degree: n!.degree, mapPositions: (mapData.placePositions as any)[n!.id] ?? {}, worldTransform: (mapData.placeTransforms as any)[n!.id],
+  }));
+  return { items, links: edges.map((e) => ({ from: e.from, to: e.to, type: e.type })) };
+})() : { items: [], links: [] };
+// Era records carry map region ids plus start/end spans: at the world level the
+// viewer names each region after the era in power at the selected year.
+const mapPeriods = wing === "place" ? realNodes.filter((n) => n.class === "period" && n.span).map((n) => ({ label: labelOf(n, lang), span: n.span, regions: n.regions ?? [] })) : [];
+// Objects hall: depict→media thumbnail index and collections grouping.
+const thumbByObject = new Map<string, { thumb: string; alt: string }>();
+if (wing === "objects") {
+  for (const m of realNodes.filter((n) => n.class === "media" && n.data.kind === "image")) {
+    for (const t of m.data.depicts ?? []) {
+      if (!thumbByObject.has(t) && m.data.thumbnail) {
+        thumbByObject.set(t, { thumb: m.data.thumbnail, alt: m.data.alt?.[lang] ?? m.data.alt?.en ?? labelOf(m, lang) });
+      }
+    }
+  }
+}
+const objectItems = wing === "objects" ? items.filter((n) => n.class === "object") : [];
+const pictured = objectItems.filter((n) => thumbByObject.has(n.id));
+const collections = wing === "objects"
+  ? [...objectItems.reduce((m, n) => {
+      const k = n.data.holding_institution as string | undefined;
+      if (k) m.set(k, (m.get(k) ?? 0) + 1);
+      return m;
+    }, new Map<string, number>()).entries()].sort((a, b) => b[1] - a[1])
+  : [];
 ---
 <BaseLayout lang={lang} title={T.wings[wing].title} description={T.wings[wing].blurb} path={`/${lang}/${WING_PATH[wing]}/`}>
-  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
-    <p class="eyebrow">{T.entity.breadcrumb}</p>
-    <h1 style={`border-inline-start:6px solid var(--wing-${wing});padding-inline-start:16px`}>{T.wings[wing].title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{T.wings[wing].blurb}</p>
-    <p class="muted ui">{items.length ? T.hall.coming : T.hall.empty} <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
-
-    {wing === "place" && placesWithCoords.length > 0 && (
-      <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
-    )}
-
-    <ul class="grid-cards" style="margin-top:1.5rem">
-      {items.map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.08em">{T.class[n.class]}</span><b>{labelOf(n, lang)}</b>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>
-      ))}
-    </ul>
-
+  {wing !== "place" && <PageHeader
+    title={T.wings[wing].title}
+    lede={T.wings[wing].blurb}
+    crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.wings[wing].title }]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing={wing}
+  >
+    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}{wing !== "objects" && <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span>}</p>
+    {wing === "time" && <p class="ui tl-legend" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.timeline.legend}</p>}
+  </PageHeader>}
+  <div class="wrap" style={wing === "place" ? "padding-block:0" : "padding-block:24px 20px"} data-pagefind-ignore>
+    {wing === "time" && <HijriTimeline lang={lang} />}
     {wing === "today" && (
-      <section style="margin-top:2.5rem">
-        <h2>{T.today.title}</h2>
-        <p class="muted">{T.today.lede}</p>
-        <div class="panel ui" id="today-panel" data-g={T.today.gregorian} data-h={T.today.hijri} aria-live="polite"></div>
-        <script is:inline>
-          (function () {
-            var el = document.getElementById("today-panel"); if (!el) return;
-            var l = document.documentElement.lang, loc = l === "ar" ? "ar" : "en-GB", now = new Date();
-            try {
-              var h = new Intl.DateTimeFormat(loc + "-u-ca-islamic-umalqura-nu-latn", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(now);
-              var g = new Intl.DateTimeFormat(loc + "-u-nu-latn", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(now);
-              el.innerHTML = "<p style='margin:0'><b>" + el.dataset.h + ":</b> " + h + "</p><p style='margin:6px 0 0'><b>" + el.dataset.g + ":</b> " + g + "</p>";
-            } catch (e) {}
-          })();
-        </script>
+      <section class="today-page" aria-labelledby="today-h">
+        <TodayCards lang={lang} full={true} />
+        <p class="muted ui" style="margin-top:1.5rem">{T.today.wing_note}</p>
       </section>
     )}
+
+    {wing === "place" && placesWithCoords.length > 0 && (
+      <>
+        <MapViewer items={viewer.items} links={viewer.links} worldPaths={mapData.worldPaths} mapRegions={mapData.mapRegions} mapPeriods={mapPeriods} lang={lang} t={T.map.viewer} fullscreen client:load />
+        <noscript><figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} declutter /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
+          <ul class="grid-cards">{items.filter((n) => labelOf(n, lang)).map((n) => (<li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2></a></li>))}</ul>
+        </noscript>
+      </>
+    )}
+
+    {wing === "words" && (
+      <ul class="grid-cards" style="list-style:none;margin:0 0 8px;padding:0">
+        <li><a class="card" href={`/${lang}/words/quran/`}><h2 class="card-title">{T.reader.title}</h2><span>{T.reader.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/words/hadith/`}><h2 class="card-title">{T.hadith.title}</h2><span>{T.hadith.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/words/poetry/`}><h2 class="card-title">{T.poetry.title}</h2><span>{T.poetry.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/words/revelation/`}><h2 class="card-title">{T.revelation.title}</h2><span>{T.revelation.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/surah/`}><h2 class="card-title">{T.surahmap.title}</h2><span>{T.surahmap.lede}</span></a></li>
+      </ul>
+    )}
+
+    {wing === "objects" && pictured.length > 0 && (
+      <section aria-labelledby="obj-gallery-h">
+        <h2 id="obj-gallery-h" class="ui" style="font-size:1.15rem;margin:1.5rem 0 .6rem">{T.hall.gallery}</h2>
+        <ul class="obj-grid">
+          {pictured.map((n) => {
+            const m = thumbByObject.get(n.id)!;
+            return (
+              <li>
+                <a class="obj-card" href={href(lang, n.id)}>
+                  <img src={m.thumb} alt={m.alt} loading="lazy" decoding="async" />
+                  <span class="obj-cap">
+                    <span class="card-title" style="font-size:.95rem">{labelOf(n, lang)}</span>
+                    <span class="ui" style="font-size:.8rem;color:var(--muted)">
+                      {[n.data.holding_institution, dateOf(n)].filter(Boolean).join(" · ")}
+                    </span>
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )}
+    {wing === "objects" && collections.length > 0 && (
+      <section aria-labelledby="obj-colls-h">
+        <h2 id="obj-colls-h" class="ui" style="font-size:1.15rem;margin:1.8rem 0 .6rem">{T.hall.collections}</h2>
+        <ul class="coll-list">
+          {collections.map(([inst, n]) => (
+            <li><span>{inst}</span><span class="ui" style="color:var(--muted)">{n}</span></li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {wing === "objects" && <h2 class="ui" style="font-size:1.15rem;margin:1.8rem 0 0">{T.hall.index}</h2>}
+    {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
+    {wing !== "place" && <ul class="grid-cards" style="margin-top:1.5rem">
+      {items.filter((n) => labelOf(n, lang)).map((n) => (
+        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{n.wings.filter((w) => WINGS.includes(w as Wing)).length > 1 && <span class="ui" style="display:block;font-size:.8rem">{WINGS.filter((w) => n.wings.includes(w)).map((w) => T.nav[w]).join(" · ")}</span>}{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{short(summaryOf(n, lang))}</span></a></li>
+      ))}
+    </ul>}
+
   </div>
+  {wing !== "place" && <ExploreBar lang={lang} />}
 </BaseLayout>

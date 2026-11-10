@@ -1,0 +1,34 @@
+id: person/ahmad-ibn-husayn-ibn-rislan
+class: person
+label: { ar: "أحمد بن حسين بن رسلان", en: "Ahmad ibn Husayn ibn Rislan" }
+roles: [jurist, scholar]
+traditions: [sunni]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+gender: male
+wings: [people]
+summary:
+  ar: "أحمد بن حسين بن حسن بن علي، أبو العباس الرملي الشافعي، المعروف بابن رسلان، فقيه شافعي ولد بالرملة بفلسطين، وانتقل إلى القدس فتوفي بها سنة 844هـ. لزم الإفتاء والتدريس، وأجازه قاضي القضاة الباعوني بالإفتاء. ومن تصانيفه «صفوة الزبد» في الفقه منظومة، و«شرح سنن أبي داود». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3479}"
+  en: "Ahmad ibn Husayn ibn Rislan, Abu al-Abbas al-Ramli al-Shafi'i (d. 844 AH), a Shafi'i jurist born in Ramla in Palestine who moved to Jerusalem, where he died. He kept to issuing fatwas and teaching, and Qadi al-Qudat al-Ba'uni authorised him to issue fatwas. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3479}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3479"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: mawsua-w02-44
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1371", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
+died: { edtf: "1440", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami'); al-Zirikli" }
+relations:
+  - { type: born_in, target: place/ramla, note: "From text: born in Ramla", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: traveled_to, target: place/jerusalem, note: "From text: moved to Jerusalem", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

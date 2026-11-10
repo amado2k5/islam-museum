@@ -1,0 +1,21 @@
+id: person/ibn-muhriz
+class: person
+label: { ar: "ابن محرز المغني", en: "Ibn Muhriz" }
+summary:
+  ar: "من مغني أيام الوليد بن يزيد حين حمل المغنين من البلدان إليه وجالس الملهين {cite:muruj-al-dhahab p. 201}."
+  en: "One of the singers carried to al-Walid's court {cite:muruj-al-dhahab p. 201}."
+gender: male
+wings: [people]
+died: { edtf: "715~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 201"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

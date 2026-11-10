@@ -1,0 +1,30 @@
+id: person/yaeish-bin-sadaqa-al-furati
+class: person
+label:
+  ar: "يعيش بن صدقة الفراتي"
+  en: "Ya'ish ibn Sadaqa al-Furati"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليعيش بن صدقة الفراتي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ya'ish ibn Sadaqa al-Furati; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "1134", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam; Siyar A'lam al-Nubala" }
+died: { edtf: "1200", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam; Siyar A'lam al-Nubala" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+  - { type: buried_in, target: place/al-wardya-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q29513771)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q65550375
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3

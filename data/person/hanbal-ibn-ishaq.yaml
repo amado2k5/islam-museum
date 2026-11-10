@@ -1,0 +1,29 @@
+id: person/hanbal-ibn-ishaq
+class: person
+label:
+  ar: "حنبل بن إسحاق"
+  en: "Hanbal ibn Ishaq"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "حنبل بن إسحاق الشيباني، حافظ حديث ثقة، ابن عم الإمام أحمد وتلميذه، صاحب «محنة الإمام أحمد»؛ توفي بواسط سنة 273هـ ⁦(886م)⁩."
+  en: "Hanbal ibn Ishaq al-Shaybani (d. 273/886), trustworthy hadith memoriser, cousin and pupil of Imam Ahmad."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+died: { edtf: "886", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q55978646
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.285)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
+status:
+  review: published
+  completeness: 3

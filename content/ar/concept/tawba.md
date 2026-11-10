@@ -1,0 +1,111 @@
+---
+id: concept/tawba
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+في رواية كعب عند ابن إسحاق تُعلن «توبة الله» على الثلاثة بعد المقاطعة، ويعدّ كعب من توبته ما يتصل بماله وصدق حديثه. {cite:ibn-hisham-saqqa 4/180-181}
+
+## في قصة الثلاثة
+أعلن النبي بعد صلاة الفجر توبة الله عليهم، وهنّأه الناس بها: «ليهنك توبة الله عليك»، ⁦([[event/repentance-of-the-three-accepted|الحدث]])⁩. {cite:ibn-hisham-saqqa 4/180}
+
+## ما عدّه كعب من توبته
+قال كعب إن من توبته أن ينخلع من ماله صدقة، فأمره النبي بإمساك بعضه، وإن من توبته ألا يحدّث إلا صدقاً ما حيي ⁦([[event/kaab-offers-his-wealth-and-vows-truthfulness|الحدث]])⁩. {cite:ibn-hisham-saqqa 4/180}
+
+## ملاحظات
+- هذه الصفحة تصف المفهوم كما يظهر في رواية كعب فقط؛ التعريف الشرعي العام للتوبة وأحكامها يحتاج إلى مصادر الفقه والعقيدة (needs_source).
+
+## قول الشعراوي في التوبة والمجتمع
+يرى الشعراوي أن إبراهيم وإسماعيل سألا التوبة لذريتهما لعلمهما أن من يأتي بعدهما سيقع في الذنب، وأن تشريع التوبة وقاية للمجتمع كله، لأن الذنب لو جعل صاحبه خالداً في النار بلا توبة لأيس الناس وتجرأ العصاة. ويستدل بقول النبي: «كل بني آدم خطاء وخير الخطائين التوابون». {cite:tafsir-sharawi-khawatir-scan-pp-501-1000 p.588}
+
+## عند الشيخ عمر عبد الكافي
+يروي الشيخ معنى الحديث أن الله يبسط يده بالليل ليتوب مسيء النهار، وبالنهار ليتوب مسيء الليل. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:04:00} ويقول إن الجنة محفوفة بالمكاره، والنار محفوفة بالشهوات. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:04:30}
+ويفرق بين التائب الذي يثبت على توبته ويُعذر في اللمم، وبين من يتوب بجسده دون قلبه فيعود إلى الذنب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:05:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:05:30}
+ويصف نوعا ثالثا يتجنب التذكير بالله ويهرب من التنبيه على ذنبه ⁦(needs_source: عبارة هذا القسم غير واضحة في النسخة الآلية)⁩. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:06:00}
+ويحذر من تأجيل التوبة، فالموت لا يمهل، ولا يُقدَّم الإنسان ولا يُؤخَّر لحظة. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:00} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:12:30} وينبه إلى أن العمل الصالح وحده ينفع في القبر. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:13:00}
+ويقول إن العبد إذا أذنب ثم ندم ولو طرفة عين سقط عنه الذنب. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:14:30}
+ويقول إن أول ما تطلبه التوبة إعادة الحقوق إلى أصحابها، وإن العودة إلى الحق خير من التمادي في الباطل. {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:16:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep04 00:18:30}
+
+## التوبة في درس الشيخ عمر عبد الكافي ⁦(الحلقتان الثانية والرابعة)⁩
+يذكر الشيخ أن العبد إذا أذنب ثم ندم واستغفر، غفر الله له، وأن الله يغفر لعبده كلما تاب مرة بعد أخرى (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:04:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:05:00} ويقول إن التوبة الحقيقية تبدأ من القلب واللسان معا، وأن من يتوب ثم يعود لا تنفعه كلمة التوبة وحدها ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:05:30}
+ويضرب مثلا بامتحان على باب المسجد: الثبات في التوبة يحتاج إلى وقت، والله يقبل التائب بعد اختبار ⁦(رأيه)⁩. {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:06:00}
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 4)⁩
+يقول الشيخ إن الله لم يكلفنا بما تعجز العقول عن احتماله، ويروي أن رجلا من الصحابة جاء إلى النبي فذكر له أنه فعل فعلا من أبواب الخطأ (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:02:00}. ويقول إن النبي لم يدخل في التفاصيل ولا في دوافع المسألة، بل سأله هل صلى معهم الصبح الآن، فلما أجاب بنعم قال له إن الحسنات تمحو السيئات، فأغلق عليه باب المتاهات وتأنيب الضمير (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:02:30}.
+
+وينقل الشيخ عن بعض كبار العلماء أن من علم أن الله يراه وهو يذنب ثم استغفر غُفر له، ويرى أن هذا العلم دليل انكسار وفهم من العبد، وأنه لا أحد يجهل الذنب نفسه، ويفرق بين من يذنب ومن يذنب ويتحقق منه الندم ⁦(عبارة غير مكتملة في النص)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:03:00}. ويقول إن من صنع ذنبا وندم عليه ولو لحظة سقط عنه الذنب أسرع من طرفة عين، وإن بعض العلماء يقولون إن الندم توبة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:03:30}.
+
+ويرى أن الله لا يعاتب عبده يوم القيامة على ذنوبه التي بينه وبينه، بل يسترها، ويقابل بين حسنات العبد التي يجعلها بينه وبين الناس وملايين الذنوب التي بينه وبين ربه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:04:00}. ويروي أن رجلا سأل أبناءه وهو يحتضر إلى أين هو ذاهب، فقيل له إلى الله، فقال: عند الكريم؟ ثم يشرح الشيخ معنى العفو (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:04:30}. ويقول إن العفو مأخوذ من عفو الريح التي تغطي الأرض بالتراب، فالله يمحو الذنب فلا يظهر، ويقارن بينه وبين عفو الإنسان الذي قد تبقى معه الذاكرة، فيكون العفو عنده كطبقة رقيقة من الغبار تطيرها أي مناسبة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:05:00}. ويقول الشيخ مازحا إن الله إذا عفا نسي الحفظة، حتى كأن الملائكة يصيبها نوع من فقدان الذاكرة، في مقابل البشر الذين يعيدون المشكلة نفسها بعد سنين ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:05:30}. ويضيف أن الله ينسي الشهود من البشر أيضا، من الإخوان والأقارب الذين رأوك في المعصية أو حكيت لهم، بأن يشغلهم بذنوبهم هم، فلا يتتبع أحد زلتك ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:06:30}. ويقول إن الناس يوم القيامة مشغولون بأنفسهم، وبهذا ينسى الحفظة، وهذا هو العفو الرباني، أما العفو الإنساني فمؤقت ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:07:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 6)⁩
+يتخيل الشيخ لو أن الله فتح لأحد نور بصيرته فاطلع على كتاب سيئات من حوله عند الملك الموكّل بها، ويرى أنهم كانوا سيفرّون منه لأن كلا منا معروف بعيوب خفية ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:13:00}. ويدعو إلى تجربة قياس ضغط الدم قبل قراءة سورة يوسف وبعدها بمجرد الوضوء، ويقترح أن يجريها أحد الأبناء الأطباء، ويقول إن النتيجة ستفاجئ صاحبها ⁦(دعوى تحتاج إلى مصدر)⁩ (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep06 00:22:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 7)⁩
+يشرح الشيخ كلمة «مآب» بأنها الرجوع، ويقول إن المرء كلما ابتعد رجع، وكلما أخطأ رجع، آملا أن يأتيه الموت وهو في لحظة التوبة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:40:00}. ويروي معنى حديث مفاده أن العبد يذنب مرة ومرتين وثلاثا ثم يعود، وفي كل مرة يقر بأن له ربا يغفر الذنوب، فيشهد الله ملائكته أنه غفر له، ويقول الشيخ إن الله لا يغلق في وجوهنا باب المغفرة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep07 00:40:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 8)⁩
+يقول الشيخ إن المخرج من الأزمة، في المستوى الخاص أو العام، أقرب إلى المؤمنين في حالتين: حالة استدامة المصيبة وحالة وجود المعصية، ويتوقع أن يستغرب سامعوه ذلك ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:10:30}. وينقل أن كبار أهل العلم قالوا إنهم يشعرون بقرب من الله عند المعصية والتوبة منها أكثر من قربهم منه في حال الطاعة، لأن الشيطان في الطاعة يزين للمرء أنه كأبي بكر أو عثمان ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:11:00}. ويضيف أن المرء في الطاعة يعتمد على عمله وهو معروف بنقصه، أما في المعصية فيعتمد على رحمة الله ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:11:30}. ويقول إن العمل يحتاج إلى الإخلاص وإلى موافقة السنة، وإن المرء لا يستيقن أحدهما، فقد يكون في الطاعة نقص أو خلل، ولذلك ينبغي الاستغفار ⁦(رأيه)⁩ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:12:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 10)⁩
+ينصح الشيخ ألا يوقن المرء 100٪ بأنه قد غُفر له، وأن الاستغفار جاء في الإسلام عقب كل عبادة، ويذكر حديثا عن عرفة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:14:00}. وينقل قولا مفاده أن من ظن أنه وقف بعرفة ثم لم يغفر الله له فقد افترى على الله كذبا، ومع ذلك أُمر الحجاج بالاستغفار بعد الإفاضة، وكذلك الاستغفار بعد السلام في الصلاة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:14:30}. ويشبّه ذلك بالضيف الذي زار مضيفا فيقول له وهو يغادر: استر ما رأيت، لأن المضيف رأى ما فيه من نقص {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:15:00}. ويقول إن هذا كلام الكبار، وإن المصلي مع الله كذلك: إذا انتهت صلاته استغفر الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:15:30}. ويذكر أن زكاة الفطر تأتي في نهاية رمضان تطهيرا، وأن زكاة المال تطهر المال في آخر السنة، وأن الاستغفار يعقب الحج والصلاة، فالمؤمن في معية الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep10 00:16:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 4)⁩
+يروي الشيخ في سؤال وجواب أنه سأل عن حقيقة التوبة، فكان الجواب أن ينسى العبد ذنبه ⁦(needs_source: لفظ السؤال والمجيب غير واضح في النص)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:28:30}.
+ويشرح الشيخ، في الحوار نفسه، أن التوبة انتقال من حال الجفاء، أي البعد وقسوة القلب، إلى حال الوفاء لله ⁦(رأيه)⁩ ⁦(needs_source: بعض ألفاظ النص مضطربة)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:29:30}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يقول الشيخ إن كل عمل يحتاج إلى التوبة، وإن أساس التوبة رد الحقوق إلى أصحابها، وإن العدل والرحمة يشيعان بين الناس بذلك {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep10 00:07:30}. ويشرح التوبة بأنها الرجوع إلى الله، ويقول إن الله يحب التوابين {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:06:30}. ويذكر أن الله يبدل سيئات التائبين حسنات {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:38:30}.
+
+ويقول الشيخ إن الله يغفر الذنوب، ولا يغفر الشرك به، ويغفر ما دون ذلك لمن يشاء {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:08:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep13 00:17:30}.
+
+## التوبة والأوبة والإنابة
+يفرّق الشيخ عمر عبد الكافي بين التوبة والأوبة، فيعرّف التوبة بأنها ترك المعصية خوفا من العذاب، والأوبة بأنها الرجوع طمعا في الثواب. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:05:00} ويقول إن الإقلاع عن الذنب يكون من الخوف، والرجوع عنه يكون من الرجاء، وإن كثير التوبة يطيل التنهد على ذنوبه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:06:30}
+ويعرّف الشيخ في موضع آخر التوبة والأوبة والإنابة، ويقول إن الخوف من العقاب علامة التائب. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:31:30} {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:32:30} ويرى أن الكف عن المعصية خوفا من الله ورجاء ثوابه علامة من رجع إليه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:32:30}
+
+## الندم والعودة إلى الطاعة
+يذكر الشيخ حديثا يجعل الندم توبة، ويقول إن الذنب يُمحى بمجرد الندم عليه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:23:00} ويعدّد مراحل التوبة: ترك الذنب، والندم عليه، والعزم على ألا يعود، وردّ حقوق الناس. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:23:30} ومن علامات قبول التوبة أن يصير الذنب الذي كان حلوا مرا، وأن تصير الطاعة الثقيلة خفيفة. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:28:00} ويصف التائب بأنه يحزن إذا فاتته فرصة معصية، ويفرح بالعبادة. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:29:00}
+ويقول إن التوبة تُجدَّد كل ليلة، فالمؤمن ينام مستودعا نفسه عند ربه ومستغفرا عما مضى. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:36:00} ويعرّف التوبة بأنها العزم على عدم العودة والندم والبدء من جديد، وإن غلبت النفس صاحبها مرة أخرى رجع إلى المغفرة، ويقول إن الشيطان يوسوس بأن التوبة لا تنفع. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:05:30} ويقول إن من ندم على ذنبه بقلبه ولو لحظة غُفر له في الحال. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:08:30}
+
+## الحقوق والمال
+يقول الشيخ إن التوبة الصادقة تقتضي ردّ الحقوق إلى أصحابها، وإن حق الناس أولى ما يُبدأ به، وإن القوي عليه أن يردّ ما أخذ. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:23:30} ويقول إن المجتمع الذي تضيع فيه الحقوق لا بركة فيه، وإنه يحتاج إلى من يردّ الحقوق. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:24:30} ويصف الغيبة بأنها جبن، ويقول إن تداركها بطلب العفو من صاحبها، فإن تعذر ذكره بخير في المواطن التي اغتابه فيها. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:25:30} ويرى أن غياب البركة عن المال يأتي من الكسب المختلط بالحرام، وأن تطهيره بردّه أو التصدق به. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:24:30}
+
+## سعة المغفرة
+يذكر الشيخ قولا أنه لا صغيرة مع الإصرار، ولا كبيرة مع الاستغفار ⁦(needs_source: القول غير مسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:07:00} ويذكر حديثا عن باب التوبة الذي يبقى مفتوحا في كل وقت، ويقول إن الله يعلن قبوله للتائبين. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:07:30} ويذكر ما ورد في القرآن من أن الحسنات تأخذ مكان السيئات لمن تاب. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:27:00} ويذكر حديثا قدسيا أن من أقبل إلى الله تائبا استُقبل من بعيد، ومن ضل نُودي من قريب. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep03 00:32:00}
+ويشبّه المغفرة بالدين: الدائن قد يبقى عنده العتاب بعد أن يُسدَّد دينه، أما الله فلا يعاتب من غفر له. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:06:30} ويذكر حديثا قدسيا أن من يلقى الله بذنوب تملأ ما بين السماء والأرض، ولم يشرك به شيئا، يُقابَل بمغفرة مثلها. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:11:00} ويروي قصة رجل أطاع عشرين سنة ثم عصى عشرين سنة، وما قيل له على لسان موسى ⁦(needs_source: القصة غير مسنَدة في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:07:00} ويذكر قولا لله يتضمن رحمته بخلقه ومحبته للتائبين. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:13:00} ويقول إن الناس كلهم مذنبون، وإن التائب خير من المذنب الذي لا يندم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep24 00:32:30}
+
+## رأي الشيخ: النصيحة للمذنب والحذر من العجب
+يقول الشيخ إن الذنب يضر فاعله ويضر غيره، ويذكر أن العلماء قالوا إن من عاب ذنب غيره قد يُبتلى بمثله. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:11:30} ويضرب مثلا بجار يفوته فجر الصلاة، ويقول لا ينبغي السخرية من ذنوب الناس، لأن الذنب يضر كل من شهده. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep14 00:12:30} ويقول إن التائب لا يُردّ، وإن نظرة الناس إلى المذنب بأنه هالك هي المصيبة الحقيقية. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:34:00} ويقول إن المذنب الذي يتوب خير من العابد المعجب بعمله، ويستشهد بقول مشهور عند العلماء ⁦(needs_source: القول غير مسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:07:30} ويذكر قولا عن الصالحين أن ينام المرء مذنبا تائبا خير من أن يقوم الليل معجبا بنفسه ⁦(needs_source: القول غير مسنَد في التسجيل)⁩. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep16 00:35:00} ويضرب مثلا برجل يشرب الخمر فيُنصح بالتوبة، ويقول إن الرحمة بالمذنب عمل: أن ينصح، ويدعو له بالهداية، ويحافظ على صلته به. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep21 00:10:00} وينتقد من يحاول خداع الله بتسمية المعاصي بغير أسمائها، ووضع الأشياء في غير مواضعها. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep18 00:37:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يجعل الشيخ التوبة أول خطوات مقام اليقين، ويرى أن المؤمن الصادق إذا قيل له متى تتوب قال: الآن، بينما يغضب غيره ويقول: من أي شيء أتوب؟ ويقسم المعاصي إلى معاصي قلب، كالكبر والحقد والحسد والغل والأمن من مكر الله والعجب والرياء، ومعاصي جوارح في العين واللسان والأذن واليدين. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+## الأدوية الخمسة
+يتناول الشيخ من يذنب ثم يتوب ثم يعود، ويرى أن الموت لا ينتظر توبة أحد، فعلى العبد أن يتوب ثم ينتظر الموت. {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:01:00} ويروي أن رجلًا شكا إلى أحد كبار الصالحين «مرض البعد عن الله»، فأعطاه خمسة أدوية: أن يعصي الله في مكان لا يراه فيه، أو لا يأكل من رزقه، أو لا يسكن في داره، أو يقول لملك الموت أخّرني حتى أتوب، أو يرفض الذهاب مع ملائكة العذاب، فعجز عنها كلها وتاب ⁦(needs_source: الخبر كما رواه الشيخ؛ ورواه في «نفحات رمضانية» منسوبًا إلى الحسين بن علي)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:07:00} ويشبّه من يعصي الله في أرضه بضيف يكرمه مضيفه فيكسر الثريا والتلفاز في بيته. {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:04:30}
+
+## رأيه في مسلسلات رمضان
+ينتقد الشيخ ما يُعرض في رمضان من مسلسلات، ويتخيل عمر بن الخطاب أو أبا حنيفة أو ابن تيمية يزورنا فيسأل: أهذه عبادة جديدة أضافها المسلمون إلى رمضان؟ ويرى أن التلفاز وسيلة لنشر الخير صارت تنشر الفساد، ويدعو من ينفقون الملايين عليها أن يستحيوا، ويقول: أحيوا الحق بذكره وأميتوا الباطل بتركه؛ وهذا رأيه. {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep18 00:05:30}
+
+## من برنامج المنجيات ⁦(عمر عبد الكافي)⁩
+يجعل عمر عبد الكافي التوبة موضوع الحلقات الأولى من برنامجه الرمضاني «المنجيات»، ويقول إنها أخطر موضوع يخص كل مسلم لأن كل بني آدم خطّاء. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:01:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:02:00} ويروي قصة قاتل المئة من بني إسرائيل، ويرى فيها أن باب التوبة لا يُغلق، وأن التائب يترك بيئة المعصية. {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:08:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:09:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:10:00} ويعدّ من علامات عدم قبول التوبة أن يظل العبد يفرح بالمعصية إذا ظفر بها، {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:22:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep01 00:22:30} ومن علامات قبولها أن تخفّ عليه الطاعة. {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:14:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep02 00:15:00} ويفرّق بين توبة العوام، وهي الإقلاع ثم الإكثار من الحسنات، وتوبة الخواص، {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:07:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:12:00} ويقول إن من أدرك سرّ التوبة نظر إلى ستر الله عليه. {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:02:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep03 00:03:00}
+
+## في «ضفاف الكوثر» لأبي إسحاق الحويني
+يجعل [[person/abu-ishaq-al-heweny|أبو إسحاق الحويني]] التوبة في حلقة عنوانها «كيف تحافظ على حسناتك» بابًا من أبواب حفظ الحسنات، بعد اجتناب ظلم العباد واجتناب «السيئات الجاريات» التي يبقى أثرها بعد موت صاحبها. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:02:00} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:04:00} وينقل في ذلك قول حبيب أبي محمد إن من سعادة العبد أن تموت ذنوبه يوم يموت، ويقول إن من كتب كتابًا يطعن في عقيدة أهل السنة والجماعة أو يضع أصولًا يُردّ بها السنة يبقى عليه وزره ما بقي كتابه في الأرض. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:04:00} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:05:30}
+
+ويستدل على سعة باب التوبة بالحديث القدسي في المغفرة لمن لقي الله لا يشرك به شيئًا ولو جاء بقُراب الأرض خطايا، ويقول إن الشرك وحده هو الذنب الذي لا يُبقي حسنة. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:09:30} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:11:00} ثم يذكر حديث ابن عمر عند الترمذي في قبول توبة العبد ما لم يبلغ الغرغرة، ويفسر الغرغرة بخروج الروح ومعاينة الملائكة. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:12:00} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:12:30} ويقول إن الجهالة التي ذُكرت في آية التوبة ليست الجهل بتحريم الفعل، فأكثر من يرتكب الكبائر يعلم أنها محرمة، وإنما هي الحمق والطيش والجهل بمقام الرب. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:13:00} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:13:30}
+
+ويذكر صنفين لا تُقبل توبتهما: من يتوب حين يعاين ملك الموت، ومن يموت كافرًا، {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:17:00} ويضرب لذلك مثلًا بتوبة فرعون حين أدركه الغرق، ويقول إن التوبة التي يبعثها اليأس لا قيمة لها. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:18:00} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:19:00} ويفسر التوبة النصوح بالتوبة التامة، ويذهب في اشتقاقها إلى أداة يُرقَع بها الثوب الممزق، فالتوبة عنده ترقع ما خرقته الذنوب؛ وهذا تفسيره. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:19:30} ويقول إن من حيل الشيطان أن يُيئس الإنسان من التوبة ليبقى على ذنبه حتى يموت، {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:21:30} ويروي من الصحيحين من حديث أبي هريرة حديث العبد الذي يذنب ثم يستغفر مرة بعد مرة فيغفر الله له، وينبه إلى أن آخره ليس إذنًا في المعصية، وإنما هو فيمن غلبته المعصية فندم صادقًا وعزم على ألا يعود. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:22:00} {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep01 00:23:00}
+
+وفي [[passage/quran-2-37|الآية 37]] يرى الطبري أن «تلقى آدم كلمات» أخذه كلمات توبة لقّاها الله إياه فتاب عليه، ويروي عن ابن زيد أنها «ربنا ظلمنا أنفسنا»، وعن ابن عباس أنها طلب الرجوع إلى الجنة إن تاب وأصلح. {cite:tafsir-tabari-shakir-v01 p. 541} {cite:tafsir-tabari-shakir-v01 p. 543}
+
+ويعرّف الطبري في تفسير [[passage/quran-2-37|الآية 37]] التوبة بأنها الإنابة إلى الله والأوبة إلى طاعته مما يكره من معصيته، وتوبة الله على عبده أن يرزقه ذلك. {cite:tafsir-tabari-shakir-v01 p. 547}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 8)⁩
+
+يذكر الشيخ «قرار الصعداء»: التحول من معصية إلى طاعة، ومن كذب إلى صدق، ومن جهل إلى علم. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep08 01:10:00}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 10)⁩
+
+يذكر الشيخ وصفة الذين إذا أذنبوا استغفروا وذكروا الله فاستغفروا لذنوبهم. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:32:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

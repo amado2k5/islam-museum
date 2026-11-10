@@ -1,0 +1,69 @@
+id: exhibit/path-medina-school
+class: exhibit
+kind: trail
+label:
+  ar: مدرسة المدينة
+  en: The School of Medina
+summary:
+  ar: 'مسار في دار الهجرة مدرسةً: فقه الصحابة، ومالك والموطأ، والعلم ينتقل منها إلى الأمصار.'
+  en: A trail through Medina as a school.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الصحابة
+    en: The companions
+  body:
+    ar: 'عائشة وابن عباس وأبو هريرة: أول المدرسين.'
+    en: 'عائشة وابن عباس وأبو هريرة: أول المدرسين.'
+  features:
+  - person/aisha
+  - person/abdullah-ibn-abbas
+  - person/abu-hurayra
+- title:
+    ar: التابعون
+    en: The successors
+  body:
+    ar: جيل التدوين بعد الصحابة.
+    en: جيل التدوين بعد الصحابة.
+  features:
+  - person/zayd-ibn-thabit
+  - person/muadh-ibn-jabal
+- title:
+    ar: مالك
+    en: Malik
+  body:
+    ar: 'الموطأ: عمل أهل المدينة مدونًا.'
+    en: 'الموطأ: عمل أهل المدينة مدونًا.'
+  features:
+  - person/malik-ibn-anas
+  - work/muwatta-malik
+- title:
+    ar: المسجد مدرسة
+    en: The mosque-school
+  body:
+    ar: 'حلق العلم في الروضة: من الرواية إلى الإسناد.'
+    en: 'حلق العلم في الروضة: من الرواية إلى الإسناد.'
+  features:
+  - building/prophets-mosque
+  - concept/isnad
+  - practice/ijaza
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,77 @@
+id: exhibit/path-seerah-marches
+class: exhibit
+kind: trail
+label:
+  ar: مسيرات السيرة
+  en: Marches of the Sira
+summary:
+  ar: 'مسار في طرق المعارك: مسير بدر، والطريق إلى أحد، وخيبر، وفتح مكة — جغرافيا السيرة.'
+  en: A trail through the roads of the battles.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: بدر
+    en: Badr
+  body:
+    ar: 'مسير رمضان 2هـ: الوادي ينتظر.'
+    en: 'مسير رمضان 2هـ: الوادي ينتظر.'
+  features:
+  - journey/badr-march
+  - event/battle-of-badr
+- title:
+    ar: أحد
+    en: Uhud
+  body:
+    ar: 'الطريق إلى الجبل: شوال 3هـ.'
+    en: 'الطريق إلى الجبل: شوال 3هـ.'
+  features:
+  - journey/uhud-approach
+  - event/battle-of-uhud
+- title:
+    ar: خيبر
+    en: Khaybar
+  body:
+    ar: 'الطريق إلى الشمال: 7هـ.'
+    en: 'الطريق إلى الشمال: 7هـ.'
+  features:
+  - journey/road-to-khaybar
+  - event/battle-of-khaybar
+- title:
+    ar: الحديبية
+    en: Hudaybiyya
+  body:
+    ar: 'مسير العمرة: 6هـ.'
+    en: 'مسير العمرة: 6هـ.'
+  features:
+  - journey/hudaybiyya-march
+  - event/treaty-of-hudaybiyya
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: 'عشرة آلاف إلى مكة: 8هـ.'
+    en: 'عشرة آلاف إلى مكة: 8هـ.'
+  features:
+  - journey/fath-mecca-march
+  - event/conquest-of-mecca
+  - journey/farewell-pilgrimage-route
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

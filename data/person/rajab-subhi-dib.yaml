@@ -1,0 +1,30 @@
+id: person/rajab-subhi-dib
+class: person
+label:
+  ar: "رجب صبحي ديب"
+  en: "Rajab Subhi Dib"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لرجب صبحي ديب؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Rajab Subhi Dib; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Scholars Obituary Records" }
+died: { edtf: "2016", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Syrian Scholars Obituary Records" }
+relations:
+  - { type: born_in, target: place/al-amara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4702182)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q112749027
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

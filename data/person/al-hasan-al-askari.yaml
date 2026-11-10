@@ -1,0 +1,23 @@
+id: person/al-hasan-al-askari
+class: person
+label: { ar: "الحسن العسكري", en: "al-Hasan al-Askari" }
+summary:
+  ar: "أبو محمد الحسن بن علي بن محمد بن علي بن موسى بن جعفر، قبض بسامرا سنة ستين ومائتين في خلافة المعتمد وهو ابن تسع وعشرين سنة، وهو عند القطعية من الإمامية وهم جمهور الشيعة أبو المهدي المنتظر، وقد افترق هؤلاء في المنتظر من آل النبي بعد وفاته على عشرين فرقة {cite:muruj-al-dhahab p. 571-572}."
+  en: "Abu Muhammad al-Hasan b. 'Ali — died at Samarra in 260, aged 29; father of the awaited Mahdi for the Qat'iyya, whose community split into twenty sects after him {cite:muruj-al-dhahab p. 571-572}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+external_ids: { wikidata: "Q315920" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi)" }
+died: { edtf: "874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi)" }
+relations:
+  - { type: died_in, target: place/samarra, note: "From text: died at Samarra", sources: [source/muruj-al-dhahab] }

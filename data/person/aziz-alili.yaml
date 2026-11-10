@@ -1,0 +1,31 @@
+id: person/aziz-alili
+class: person
+label: { ar: "عزيز عليلي", en: "Aziz Alili", ur: "عزیز علیلی" }
+names:
+  - { value: "Aziz Alili", kind: full }
+  - { value: "Hafiz Aziz Alili", kind: alternate }
+  - { value: "عزيز عليلي", kind: alternate }
+gender: male
+summary:
+  ar: "حافظ وقارئ بوسني من أصل مقدوني ⁦(وُلد 1968)⁩، أتمّ الحفظ قبل العاشرة، ودرس في مدرسة الغازي خسرو بك بسراييفو، وكان مؤذن جامع القيصر (1984–1986) ثم إمام جامع الغازي خسرو بك (1989–1993)، ومثّل البوسنة والهرسك أول مرة في المسابقات الدولية، ويرأس الجماعة الإسلامية في زغرب."
+  en: "Bosnian hafiz and reciter born in North Macedonia (1968), who completed the Qur'an before ten, studied at the Gazi Husrev-beg Madrasa in Sarajevo, was muezzin of the Emperor's Mosque (1984–1986) and then imam of the Gazi Husrev-beg Mosque (1989–1993), was the first reciter to represent Bosnia and Herzegovina at international competitions, and heads the Islamic Community in Zagreb."
+  ur: "شمالی مقدونیہ میں پیدا ہونے والے بوسنیائی حافظ اور قاری ⁦(1968ء)⁩، جنھوں نے دس برس سے پہلے حفظ مکمل کیا، سراییوو کے مدرسہ غازی خسرو بیگ میں پڑھا، شاہی مسجد ⁦(1984ء–1986ء)⁩ کے مؤذن اور پھر غازی خسرو بیگ مسجد ⁦(1989ء–1993ء)⁩ کے امام رہے، بین الاقوامی مقابلوں میں بوسنیا و ہرزیگووینا کی نمائندگی کرنے والے پہلے قاری تھے، اور زغرب میں اسلامی برادری کے سربراہ ہیں۔"
+wings: [people, living]
+regions: [anatolia-balkans]
+roles: [reciter, muezzin, imam]
+born: { edtf: "1968-05-29", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Kumanovo, then in SR Macedonia, Yugoslavia (German article; Wikidata gives the same day and place). No place entity for Kumanovo exists, so no birthplace relation is written.", sources: [source/wikipedia-aziz-alili-de, source/wikidata-aziz-alili] }
+relations:
+  - { type: born_in, target: place/macedonia, note: "From text: born in North Macedonia", sources: [source/wikipedia-aziz-alili-de, source/wikidata-aziz-alili] }
+  - { type: lived_in, target: place/sarajevo, note: "Student of the Gazi Husrev-beg Madrasa; muezzin of the Emperor's Mosque 1984–1986 and imam of the Gazi Husrev-beg Mosque 1989–1993; later lives in Zagreb (no place entity yet)", sources: [source/wikipedia-aziz-alili-de] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the German article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-aziz-alili-de, source/wikidata-aziz-alili]
+footprint:
+  wikipedia: { languages: [de, sq], checked: "2026-11-06", sources: [source/wikidata-aziz-alili] }
+  wikidata: "Q793847"
+external_ids: { wikidata: "Q793847" }
+sources: [source/wikipedia-aziz-alili-de, source/wikidata-aziz-alili]
+provenance: { layer: own-research, source: "German Wikipedia 'Aziz Alili' (revision 222091251, 15 April 2022) and Wikidata Q793847 (revision 2554007944), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b02 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,30 @@
+id: person/balim-sultan
+class: person
+label:
+  ar: "بالم سلطان"
+  en: "Balim Sultan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لبالم سلطان، شيخ البكتاشية ومنظم الطريقة في القرن السادس عشر، توفي سنة ١٥١٧م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Balim Sultan, the sixteenth-century Bektashi shaykh who organised the order, d. 1517; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+themes: [spirituality-and-sufism]
+died: { edtf: "1516~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Balim Sultan)" }
+relations:
+  - { type: born_in, target: place/didymoteicho, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/nev-ehir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4853232
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0033
+status:
+  review: draft
+  completeness: 1

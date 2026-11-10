@@ -1,0 +1,26 @@
+id: person/abu-nuwas
+class: person
+label: { ar: "أبو نواس", en: "Abu Nuwas" }
+summary:
+  ar: "الحسن بن هانئ الحكمي، شاعر العصر العباسي الأول، أتى في وصف الخمر نورها وطعمها وريحها ولونها وشعاعها وفعلها في النفس وظروفها وأدنانها وحال المنادمات عليها والاصطباح والاغتباق بما يكاد يغلق باب الوصف كما ذكر المسعودي، ومنه فكأنها في كفه شمس وراحته قمر، وقال أصبح ولا صبح سوى ضوء العقار {cite:muruj-al-dhahab p. 707-709}."
+  en: "al-Hasan b. Hani' — the poet who nearly closed the door on describing wine {cite:muruj-al-dhahab p. 707-709}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+external_ids: { wikidata: "Q5670" }
+sources: [source/muruj-al-dhahab, source/wikidata]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "756", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "814", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+relations:
+  - { type: born_in, target: place/al-ahwaz, note: "Wikidata Q170366 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

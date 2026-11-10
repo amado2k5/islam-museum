@@ -1,0 +1,17 @@
+id: passage/muslim-0054
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "54"
+label: { ar: "مسلم 54 — لا تدخلون الجنة حتى تؤمنوا ولا تؤمنون حتى تحابوا", en: "Muslim 54 — You will not enter Paradise until you believe and love one another" }
+text: "قال رسول الله: لا تدخلون الجنة حتى تؤمنوا، ولا تؤمنون حتى تحابوا، أولا أدلكم على شيء إذا فعلتموه تحاببتم؟ أفشوا السلام بينكم"
+summary:
+  ar: "رواية أبي هريرة في باب التحريض على إفشاء السلام من كتاب الإيمان في صحيح مسلم؛ ربط دخول الجنة بالإيمان والإيمان بالمحبة، والمفتاح العملي إفشاء السلام."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب التحريض على إفشاء السلام (طبعة دار التأصيل، الحديث 46؛ ترقيم عبد الباقي المعروف 54)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

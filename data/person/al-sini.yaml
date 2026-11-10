@@ -1,0 +1,21 @@
+id: person/al-sini
+class: person
+label: { ar: "الصيني", en: "Al Sini" }
+summary:
+  ar: "حبيش بن موسى الصيني صاحب كتاب الأغاني على حروف المعجم ألفه للمتوكل وذكر فيه أشياء من الأغاني لم يذكرها إسحاق ولا عمرو بن بانة وذكر من أسماء المغنين والمغنيات في الجاهلية والإسلام كل طريف غريب، وله كتاب مجردات المغنين {cite:fihrist-ibn-al-nadim p. 448}."
+  en: "Author of al-Aghani on alphabetical order for al-Mutawakkil {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch19
+born: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/china, note: "Place association from the person's nisba/name (الصيني); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

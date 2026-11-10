@@ -1,0 +1,21 @@
+id: person/suwayd-ibn-ghafla
+class: person
+label: { ar: "سويد بن غفلة", en: "Suwayd ibn Ghafla" }
+summary:
+  ar: "تنوهي عاصر أبا موسى الأشعري، حين حدثه أبو موسى قبل صفين أن هذه الأمة ستبعث حكمين قال له إياك إن أدركت ذلك الزمان أن تكون أحد الحكمين، فكان أبو موسى يخلع قميصه ويقول لا جعل الله لي في السماء مصعداً ولا في الأرض مقعداً، فلقيه بعد ذلك فذكره بمقالته فقال سل ربك العافية {cite:muruj-al-dhahab p. 683}."
+  en: "The Tamimi who warned Abu Musa against ever sitting as one of the two arbitrators — and whose reminder years later drew the evasive 'ask your Lord for wellbeing' {cite:muruj-al-dhahab p. 683}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 683"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+relations:
+  - { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

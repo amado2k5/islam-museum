@@ -1,0 +1,28 @@
+id: person/hamdun-al-qassar
+class: person
+label:
+  ar: "حمدون القصار"
+  en: "Hamdun al-Qassar"
+roles: [sufi]
+gender: male
+summary:
+  ar: "حمدون بن أحمد القصار النيسابوري، شيخ الملامتية بنيسابور وصوفي فقيه ثوري المذهب؛ توفي سنة 271هـ ⁦(884م)⁩."
+  en: "Hamdun al-Qassar (d. 271/884), Sufi shaykh of the Malamatiyya at Nishapur and Thawri-school jurist."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+died: { edtf: "0884", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with Nishapur per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam, source/risala-qushayriyya-minhaj-2017]
+external_ids:
+  wikidata: Q6413816
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.274); al-Risala al-Qushayriyya (Dar al-Minhaj 2017) pp. 152-153"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status:
+  review: published
+  completeness: 3

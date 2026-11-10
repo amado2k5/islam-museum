@@ -1,0 +1,27 @@
+id: event/al-suyuti-begins-study-864
+class: event
+kind: other
+label:
+  ar: "السيوطي يشرع في طلب العلم، ٨٦٤هـ"
+  en: "Al-Suyuti begins his formal studies, 864/1460"
+  ur: "سیوطی کا باقاعدہ طلب علم کا آغاز، 864ھ"
+summary:
+  ar: "شرع السيوطي في الاشتغال بالعلم من ربيع الأول سنة ٨٦٤هـ، وكان قد ختم القرآن وله دون ثمان سنين، ثم حفظ عمدة الأحكام ومنهاج النووي وألفية ابن مالك ومنهاج البيضاوي وعرضها على علماء عصره فأجازوه؛ ولازم دروس العلاء البلقيني من شوال سنة ٨٦٥هـ، ولازم الشرف المناوي حتى مات، وقرأ على المحلي والسيرامي وغيرهما {cite:shadharat-dhahab p. 468-470} {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  en: "Al-Suyuti began his formal study of the religious sciences in Rabiʿ I 864; he had already finished the Qur’an before the age of eight, then memorised ʿUmdat al-Ahkam, al-Nawawi’s Minhaj, Ibn Malik’s Alfiyya and al-Baydawi’s Minhaj and presented them to the scholars of his day, who licensed him. From Shawwal 865 he attended the lessons of ʿAlam al-Din al-Bulqini, kept to Sharaf al-Din al-Munawi until the latter’s death, and read with al-Mahalli and al-Sirami among others {cite:shadharat-dhahab p. 468-470} {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}."
+  ur: "سیوطی نے ربیع الاول 864ھ سے باقاعدہ تحصیل علم کا آغاز کیا؛ وہ آٹھ سال سے پہلے قرآن مکمل کر چکے تھے، پھر عمدۃ الاحکام، منہاج النووی، الفیہ ابن مالک اور منہاج البیضاوی حفظ کیے اور عصر کے علما سے اجازت پائی۔ شوال 865ھ سے وہ علاء الدین بلقینی کے دروس سے جُڑے، شرف الدین مناوی کی وفات تک ان سے ملے رہے، اور محلی، سیرامی وغیرہ سے بھی پڑھا {cite:shadharat-dhahab p. 468-470} {cite:encyclopaedia-of-islam-2 vol. 9 p. 914}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1460~", hijri: "0864", calendar: julian, precision: year, status: historical, derived: true, note: "شرع في الاشتغال بالعلم من ربيع الأول سنة ٨٦٤هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 468-470}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-suyuti, role: "الطالب", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 9 (San-Sze), printed pp. 913-915, art. al-Suyuti (E. Geoffroy); shadharat-dhahab"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-suyuti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

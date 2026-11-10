@@ -1,0 +1,26 @@
+id: person/ahmad-amin
+class: person
+label: { ar: "أحمد أمين", en: "Ahmad Amin" }
+names:
+  - { kind: full, lang: ar, value: "أحمد أمين" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "أحمد أمين، مؤرخ مصري صاحب سلسلة تاريخ الفكر الإسلامي: «فجر الإسلام» و«ضحى الإسلام» و«ظهر الإسلام»؛ يتناول «ضحى الإسلام» الحياة الاجتماعية والثقافات والحركة العلمية والعقائد والمذاهب الدينية في العصر العباسي الأول {cite:duha-islam p. 6-7}."
+  en: "Ahmad Amin — Egyptian historian of Islamic intellectual life, author of the Fajr/Duha/Zuhr al-Islam trilogy; Duha covers social life, cultures, learning and creeds in the first Abbasid era {cite:duha-islam p. 6-7}."
+wings: [people]
+periods: [period/modern-era]
+regions: [egypt-nile]
+born: { edtf: "1886", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Hourani (Arabic Thought in the Liberal Age)" }
+died: { edtf: "1954", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Hourani (Arabic Thought in the Liberal Age)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969], confidence: low }
+  - { type: authored, target: work/duha-al-islam, sources: [source/duha-islam] }
+  - { type: authored, target: work/fajr-al-islam, sources: [source/fajr-al-islam-dar-al-kitab-al-arabi-1969] }
+sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين (ط مؤسسة هنداوي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

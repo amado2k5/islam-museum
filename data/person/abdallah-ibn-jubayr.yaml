@@ -1,0 +1,21 @@
+id: person/abdallah-ibn-jubayr
+class: person
+label: { ar: "عبد الله بن جبير", en: "'Abd Allah ibn Jubayr" }
+summary:
+  ar: "مولى العباس بن عبد المطلب وقيل مولى مولى العباس، توفي سنة خمس ومائة {cite:muruj-al-dhahab p. 191}."
+  en: "al-'Abbas's mawla — died 105 {cite:muruj-al-dhahab p. 191}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Mawla of al-Abbas ibn Abd al-Muttalib; the Abbas household context is Medina/Mecca. Region-level inference.", sources: [source/muruj-al-dhahab], confidence: low }

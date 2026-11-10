@@ -1,0 +1,17 @@
+id: passage/muslim-0028
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "28"
+label: { ar: "مسلم 28 — شهادة التوحيد وأي أبواب الجنة الثمانية", en: "Muslim 28 — The testimony and whichever of Paradise's eight gates" }
+text: "قال عبادة بن الصامت: قال رسول الله: من قال أشهد أن لا إله إلا الله وحده، وأن محمداً عبده ورسوله، وأن عيسى عبد الله وابن أمته وكلمته ألقاها إلى مريم وروح منه، وأن الجنة حق وأن النار حق، أدخله الله من أي أبواب الجنة الثمانية شاء"
+summary:
+  ar: "رواية عبادة بن الصامت في باب دعوة الشهادتين وشرائع الإسلام من كتاب الإيمان في صحيح مسلم؛ الشهادة الواسعة التي تدخل من أي أبواب الجنة الثمانية، وفيها التوصيف الإسلامي لعيسى بن مريم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/tawhid, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب دعوة الشهادتين (طبعة دار التأصيل، الحديث 20؛ ترقيم عبد الباقي المعروف 28)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

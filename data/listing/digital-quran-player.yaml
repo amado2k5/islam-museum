@@ -1,0 +1,43 @@
+id: listing/digital-quran-player
+class: listing
+kind: device
+label:
+  ar: "مشغلات المصحف الرقمي ⁦(أجهزة «إقرأ» وأمثالها)⁩"
+  en: "Digital Qur'an players (Iqra'a and similar devices)"
+  ur: "ڈیجیٹل قرآن پلیئر ⁦(«اقرأ» اور اس جیسے آلات)⁩"
+summary:
+  ar: "أجهزة إلكترونية مخصصة لعرض نص القرآن وتشغيل تلاواته المسجلة متزامنة مع النص، مع ترجمات وأدعية ومواقيت صلاة واتجاه القبلة؛ انتشرت في إندونيسيا خاصة، وذكرت رويترز في سبتمبر 2007 أن كثيرًا منها تصنعه شركة كورية جنوبية باسم «إقرأ» بأسعار بين 900 ألف و1.9 مليون روبية، ثم انتقل الاهتمام إلى تطبيقات الهواتف الذكية."
+  en: "Electronic devices dedicated to showing the text of the Qur'an and playing recorded recitations in step with it, with translations, prayers, prayer times and the qibla; they spread above all in Indonesia, where Reuters reported in September 2007 that many were made by a South Korean company under the brand Iqra'a, priced from 900,000 to 1.9 million rupiah, before attention moved to smartphone apps."
+  ur: "قرآن کا متن دکھانے اور اس کے ساتھ ریکارڈ شدہ تلاوت چلانے کے مخصوص برقی آلات، تراجم، دعاؤں، اوقاتِ نماز اور قبلے کے ساتھ؛ خاص طور پر انڈونیشیا میں پھیلے، جہاں رائٹرز نے ستمبر 2007 میں بتایا کہ ان میں سے بہت سے جنوبی کوریا کی ایک کمپنی «اقرأ» کے نام سے بناتی ہے، قیمت 9 لاکھ سے 19 لاکھ روپیہ؛ بعد میں توجہ سمارٹ فون ایپس کی طرف چلی گئی۔"
+wings: [made, objects]
+categories: [technology]
+regions: [southeast-asia]
+founded:
+  edtf: "2007-09-20"
+  hijri: "1428-09-08"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Not a first-release date: the earliest dated report read, Reuters from Jakarta as carried on 20 September 2007, when such players were already sold widely in Indonesia. The English article says they were first marketed in Indonesia but marks the year '[when?]'. The Hijri date is converter-derived (Umm al-Qura)."
+  sources: [source/ciol-reuters-digital-koran-2007, source/wikipedia-digital-quran-en]
+made: { by_muslims: false, basis: unverified }
+status_business: unknown
+location: { serves: [id] }
+footprint:
+  wikipedia: { languages: [en, hi], checked: "2026-11-06", sources: [source/wikipedia-digital-quran-en] }
+  wikidata: "Q5275965"
+  press:
+    - { source: source/ciol-reuters-digital-koran-2007, date: { edtf: "2007-09-20", calendar: gregorian, precision: day }, kind: news, lang: en, title: { en: "Indonesians tune in to digital Koran" } }
+relations:
+  - { type: related_to, target: person/abdul-rahman-al-sudais, note: "the most popular recitation voice on the players sold in Indonesia in 2007, as the Reuters report says", sources: [source/ciol-reuters-digital-koran-2007] }
+external_ids:
+  wikidata: Q5275965
+sources: [source/ciol-reuters-digital-koran-2007, source/wikipedia-digital-quran-en]
+provenance:
+  layer: own-research
+  source: "Reuters 'Indonesians tune in to digital Koran' (CIOL, 20 September 2007) and English Wikipedia 'Digital Quran' (revision 1342274341, 8 March 2026), read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b06
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

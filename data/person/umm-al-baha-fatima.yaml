@@ -1,0 +1,39 @@
+id: person/umm-al-baha-fatima
+class: person
+label: { ar: "أم البهاء فاطمة" }
+names:
+  - { value: "أم البهاء فاطمة مسندة أصبهان", kind: full }
+summary:
+  ar: "أم البهاء فاطمة مسندة أصبهان؛ سمعت البخاري على العيار وسماعها مشهور، وتوفيت في رمضان سنة تسع وثلاثين وخمسمائة وقد ناهزت أربعاً وتسعين سنة {cite:shadharat-dhahab p. 601}."
+  en: "Umm al-Baha' Fatima, musnida of Isfahan; she heard Bukhari under al-Ayyar — her samā' is famous — and died in Ramadan 539 approaching ninety-four years of age {cite:shadharat-dhahab p. 601}."
+gender: female
+wings: [people]
+roles: [scholar, teacher]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died:
+  edtf: "1145-02~"
+  hijri: "0539-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفيت في رمضان سنة تسع وثلاثين وخمسمائة وقد ناهزت أربعاً وتسعين سنة {cite:shadharat-dhahab p. 601}؛ التحويل مشتق."
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch102
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/isfahan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }

@@ -1,0 +1,29 @@
+id: person/amir-ibn-rabia
+class: person
+label:
+  ar: "عامر بن ربيعة"
+  en: "Amir ibn Rabi'a"
+roles: [companion]
+gender: male
+summary:
+  ar: "بطاقة أولية لعامر بن ربيعة العنزي، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Amir ibn Rabi'a al-'Anzi, the seventh-century Companion; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam, source/taqrib-al-tahdhib]
+died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+ - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/taqrib-al-tahdhib], confidence: low }
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/taqrib-al-tahdhib]}
+external_ids:
+  wikidata: Q6812299
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0047
+status:
+  review: draft
+  completeness: 3

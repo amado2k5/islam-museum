@@ -1,0 +1,24 @@
+id: person/wahb-ibn-munabbih
+class: person
+label: { ar: "وهب بن منبه", en: "Wahb ibn Munabbih" }
+summary:
+  ar: "أبو عبد الله من الأبناء، توفي سنة أربع ومائة وقيل سنة عشر ومائة بصنعاء وهو ابن تسعين سنة، اختلف أصحاب التواريخ في وفاته {cite:muruj-al-dhahab p. 191-192}. وعده ابن خلدون فيمن أدخل على التفسير أخبار بني إسرائيل الموضوعة التي حذر منها الرسول في قوله بلغوا عني ولو آية وحدثوا عن بني إسرائيل ولا حرج {cite:muqaddima-ibn-khaldun p. 27}"
+  en: "Abu 'Abd Allah of the Persian abna' — died at San'a' in 104 or 110, aged ninety; the chronicles disagree {cite:muruj-al-dhahab p. 191-192}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 191–192"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+external_ids: { wikidata: "Q439374" }
+born: { edtf: "654~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
+died: { edtf: "732~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
+relations:
+  - { type: born_in, target: place/dhamar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q955523)" }
+  - { type: died_in, target: place/sanaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2471)" }
+sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/umayyad-birth-to-fall-2006, source/bakr-umayyad-state-1134715]
+status:
+  review: published
+  completeness: 3

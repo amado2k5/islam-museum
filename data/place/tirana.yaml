@@ -1,0 +1,36 @@
+id: place/tirana
+class: place
+kind: city
+label:
+  ar: تيرانا
+  en: Tirana
+  ur: تیرانا
+summary:
+  ar: مدينة في ألبانيا.
+  en: Capital and the largest city of Albania.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 41.3283
+- 19.8181
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q19689
+  geonames: '3183875'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q19689 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q19689 (labels, coordinates, description)

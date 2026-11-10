@@ -1,0 +1,76 @@
+id: exhibit/path-persian-poets
+class: exhibit
+kind: trail
+label:
+  ar: شعراء الفارسية
+  en: Poets of Persian
+summary:
+  ar: 'مسار في شعر إيران الكلاسيكي: من شاهنامه إلى الرباعيات — الفارسية لغة الشعر الثانية في الحضارة.'
+  en: A trail through classical Persian verse.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الشاهنامه
+    en: The Shahnameh
+  body:
+    ar: فردوسي يحفظ تاريخ فارس في شعر.
+    en: فردوسي يحفظ تاريخ فارس في شعر.
+  features:
+  - place/nishapur
+  - place/shiraz
+- title:
+    ar: عمر الخيام
+    en: Omar Khayyam
+  body:
+    ar: 'الرباعيات: الرياضي الشاعر العالمي.'
+    en: 'الرباعيات: الرياضي الشاعر العالمي.'
+  features:
+  - person/umar-khayyam
+  - place/nishapur
+- title:
+    ar: سعدي وحافظ
+    en: Sa'di and Hafiz
+  body:
+    ar: 'شيراز مدينة الشعر: البستان والديوان.'
+    en: 'شيراز مدينة الشعر: البستان والديوان.'
+  features:
+  - place/shiraz
+  - place/shiraz
+- title:
+    ar: الفارسية
+    en: The language
+  body:
+    ar: 'لغة المحاكم والديوان: من الهند إلى الروم.'
+    en: 'لغة المحاكم والديوان: من الهند إلى الروم.'
+  features:
+  - place/isfahan
+  - place/delhi
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من الشيرازي إلى إقبال: سلسلة الشعر.'
+    en: 'من الشيرازي إلى إقبال: سلسلة الشعر.'
+  features:
+  - person/umar-khayyam
+  - place/isfahan
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,20 @@
+id: event/four-qadis-egypt-663
+class: event
+kind: other
+label: { ar: "تعيين أربعة قضاة للمذاهب بمصر سنة 663هـ", en: "Four madhhab qadis appointed in Egypt, 663" }
+summary:
+  ar: "جُرد بديار مصر سنة ثلاث وستين أربعة حكام من المذاهب الأجل — توقف تاج الدين بن بنت الأعز عن تنفيذ كثير من القضايا فتعطلت الأمور، فأشار بذلك جمال الدين آيدغدي العزيزي فأعجب السلطان وفعله في آخر السنة، ثم فعل ذلك بدمشق {cite:shadharat-dhahab p. 542}."
+  en: "The four-madhhab judiciary instituted in Egypt in 663: when Taj al-Din Ibn Bint al-A'azz's sole Shafi'i bench stalled the casework, Jamal al-Din Aydoghdi al-Azizi proposed appointing four qadis, one per madhhab — the sultan approved and enacted it at year's end, then extended it to Damascus {cite:shadharat-dhahab p. 542}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date: { start: { edtf: "1265~", hijri: "0663", calendar: julian, precision: year, status: tradition, derived: true, note: "في آخر سنة ثلاث وستين وستمائة {cite:shadharat-dhahab p. 542}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

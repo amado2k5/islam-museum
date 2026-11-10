@@ -1,0 +1,84 @@
+id: invention/ibn-al-haytham-circular-reflection
+class: invention
+label: { ar: "طريقة ابن الهيثم لتعيين الانعكاس على مرآة دائرية", en: "Ibn al-Haytham's circular-mirror reflection method", ur: "دائروی آئینے پر انعکاس معلوم کرنے کا طریقۂ ابن الہیثم" }
+names:
+  - { kind: alternate, lang: en, value: "Alhazen's problem: geometrical reflection-point construction" }
+  - { kind: alternate, lang: ar, value: "المسألة المعروفة بمسألة ابن الهيثم" }
+summary:
+  ar: "مقدمات هندسية وتطبيقات لتعيين موضع انعكاس يصل بين جسم وعين؛ سوابق وحدود حالات وتبسيطات لاحقة محفوظة {cite:hogendijk-alhazen-lemmas-1996 pp.59–70}."
+  en: "Geometrical lemmas/applications locating reflection between object and eye; precedents, case limits and later simplifications retained {cite:hogendijk-alhazen-lemmas-1996 pp.59–70}."
+  ur: "جسم اور آنکھ کے درمیان انعکاس کی جگہ کے لیے ہندسی تمہیدیں و اطلاق؛ سابق کام، حالتوں کی حدود اور بعد کی تسہیل محفوظ {cite:hogendijk-alhazen-lemmas-1996 pp.59–70}۔"
+domain: optics-physics
+kind: method
+disciplines: [mathematics, optics]
+wings: [ideas]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad eleventh-century documentary context of the Optics, not exact invention/composition date, first reflection law or fabricated Hijri. Hogendijk's particular composition chronology is not imposed on unrelated existing records."
+    sources: [source/hogendijk-alhazen-lemmas-1996]
+  status_today: living
+origin:
+  place: place/cairo
+  context:
+    ar: "سياق المؤلف المصري لا ورشة مرايا أو مكان تجربة موثق {cite:tdv-ibnul-heysem pp.82–87}."
+    en: "Author's Egyptian setting, not a verified mirror workshop or experiment site {cite:tdv-ibnul-heysem pp.82–87}."
+    ur: "مصنف کا مصری سیاق، ثابت آئینہ ساز کارگاہ یا تجربے کی جگہ نہیں {cite:tdv-ibnul-heysem pp.82–87}۔"
+makers:
+  - person: person/ibn-al-haytham
+    role: improver
+    note: "Specific geometric lemmas/reflection applications in BookV; not first reflection law, exhaustive treatment of every case or algebraic quartic formula. Existing individual Muslim basis and explicit Sunni frame retained without invented personal-school testimony."
+    sources: [source/hogendijk-alhazen-lemmas-1996, source/manazir-sabra-1983, source/tdv-ibnul-heysem]
+attribution:
+  status: improvement
+  claim:
+    ar: "تطوير هندسي لمسألة سابقة في الانعكاس لا اختراع المرآة أو كل البصريات."
+    en: "Geometrical development of an earlier reflection problem, not invention of mirrors or all optics."
+    ur: "پہلے مسئلۂ انعکاس کی ہندسی ترقی، آئینے یا تمام بصریات کی ایجاد نہیں۔"
+  basis:
+    ar: "هوخندايك يفصل مقدمات ابن الهيثم عن تبسيطات المؤتمن، ويحفظ نقص بحث بعض الحالات؛ ماث وورلد ينسب السؤال الأقدم لبطليموس {cite:hogendijk-alhazen-lemmas-1996 pp.59–70} {cite:mathworld-alhazen-problem history}."
+    en: "Hogendijk separates Ibn al-Haytham's lemmas from al-Mu'taman's simplifications and preserves incomplete cases; MathWorld attributes the earlier question to Ptolemy {cite:hogendijk-alhazen-lemmas-1996 pp.59–70} {cite:mathworld-alhazen-problem history}."
+    ur: "ہوگنڈائک ابن الہیثم کی تمہیدوں سے مؤتمن کی تسہیل الگ اور نامکمل حالات محفوظ رکھتے؛ میتھ ورلڈ پہلے سوال کو بطلیموس سے منسوب کرتا ہے {cite:hogendijk-alhazen-lemmas-1996 pp.59–70} {cite:mathworld-alhazen-problem history}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "مسألة بطليموس وهندسة القطوع السابقة", en: "Ptolemy's problem and earlier conic geometry", ur: "بطلیموس کا سوال اور پہلے مخروطی قطوع کا ہندسہ" }
+    note: "Pappus/Apollonius/Ahmad ibn Musa/Thabit auxiliary precedents retained through the read historian, not claimed independent reading of all originals."
+    sources: [source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem]
+dependents: []
+spread: []
+impact:
+  fields: [optics-physics, mathematics]
+  changed:
+    ar: "حوّل شرط الزاويتين إلى مسائل إنشاء مترابطة، مع برهان أبسط لبعض الهندسة المساعدة {cite:hogendijk-alhazen-lemmas-1996 pp.62–65,73–75}."
+    en: "Turned the equal-angle condition into linked construction problems, simplifying some auxiliary proof {cite:hogendijk-alhazen-lemmas-1996 pp.62–65,73–75}."
+    ur: "برابر زاویوں کی شرط مربوط تعمیرات میں بدلی، بعض معاون ثبوت سادہ کیے {cite:hogendijk-alhazen-lemmas-1996 pp.62–65,73–75}۔"
+  history:
+    ar: "تلقي المؤتمن ومقارنة النسخ شاهدان محددان، لا انتقال مثبت إلى كل جهاز تصوير {cite:hogendijk-alhazen-lemmas-1996 pp.60–63,70–73}."
+    en: "Al-Mu'taman's reception and textual comparison are bounded witnesses, not ancestry of every imaging device {cite:hogendijk-alhazen-lemmas-1996 pp.60–63,70–73}."
+    ur: "مؤتمن کا اخذ اور نسخوں کا مقابلہ محدود شاہد ہیں، ہر تصویری آلے کا نسب نہیں {cite:hogendijk-alhazen-lemmas-1996 pp.60–63,70–73}۔"
+  significance: 3
+  why: "Actually read historical comparison/construction analysis and explicit limits; distinct from camera obscura/volume sums, with later contributors and modern formulation separated."
+described_in: [work/kitab-al-manazir]
+examples: []
+sites: []
+concepts: [concept/optics]
+today:
+  form:
+    ar: "مسألة رياضية تعليمية؛ التكافؤ مع معادلة رباعية حديث لا صيغة جبرية وضعها ابن الهيثم {cite:hogendijk-alhazen-lemmas-1996 p.70 note7}."
+    en: "Teaching problem; quartic equivalence is modern, not an algebraic formula supplied by Ibn al-Haytham {cite:hogendijk-alhazen-lemmas-1996 p.70 note7}."
+    ur: "تدریسی مسئلہ؛ چوتھے درجے کی مساوات سے یکسانیت جدید ہے، ابن الہیثم کا جبری فارمولا نہیں {cite:hogendijk-alhazen-lemmas-1996 p.70 note7}۔"
+  descendants: { ar: "لا نسب مباشر مثبت لتقنيات التصوير الحديثة.", en: "No demonstrated direct ancestry of modern imaging technology.", ur: "جدید تصویری ٹیکنالوجی کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/alhazen-circular-reflection-context, diagram: media/diagram-ibn-al-haytham-circular-reflection }
+kids:
+  ar: "ارسم دائرة ونقطة عليها وخطاً إلى المركز، ثم قارن زاويتين على الورق؛ بلا شمس أو ليزر أو مرآة تجمع الضوء."
+  en: "Draw a circle, a rim point and its radius; compare paper angles, without sunlight, lasers or focusing mirrors."
+  ur: "دائرہ، کنارے کا نقطہ اور نصف قطر بنا کر کاغذی زاویے ملائیں؛ سورج، لیزر یا روشنی جمع کرنے والا آئینہ نہیں۔"
+sources: [source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem, source/commons-alhazen-problem-hb, source/manazir-sabra-1983, source/tdv-ibnul-heysem, source/britannica-ibn-al-haytham]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b50", source: "Actual Hogendijk selected59–75/inspected59–65, MathWorld full page and actual Commons rights/modern image. No full BookV/Sabra1982 manuscript reading, exhaustive-case claim or medieval quartic algebra; modern45-degree example independently checked." }

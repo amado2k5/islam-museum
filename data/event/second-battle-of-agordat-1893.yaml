@@ -1,0 +1,23 @@
+id: event/second-battle-of-agordat-1893
+class: event
+kind: battle
+label: { ar: "معركة أغردات الثانية", en: "Second Battle of Agordat" }
+summary:
+  ar: "بطاقة أولية لمعركة أغردات الثانية سنة ١٨٩٣م، فوز الإيطاليين على المهديين في إريتريا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Battle of Agordat in 1893, the Italian victory over the Mahdists in Eritrea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1893", precision: year, status: tradition, derived: true }
+  end: { edtf: "1893", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q665983
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

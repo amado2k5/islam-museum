@@ -1,0 +1,30 @@
+id: person/al-jamal-jamal-al-din-al-afandi
+class: person
+label: { ar: "جمال الدين الأفندي محمد بن حميد الدين", en: "Jamal al-Din al-Afandi, Muhammad ibn Hamid al-Din" }
+names:
+  - { kind: full, lang: ar, value: "أبو الفيوضات محمد بن حميد الدين بن محمود بن محمد بن جمال الدين الأفندي" }
+gender: male
+roles: [mystic, scholar]
+traditions: [sunni]
+died: { edtf: "1494", hijri: "0899", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شيخ صوفي من أسرة علمية، من أتباع الطريقة الحلوتية، وعُرف بالأفندي."
+  en: "A Sufi shaykh from a scholarly family, a follower of the Halveti order, known as al-Afandi."
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص401"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch53
+relations:
+  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

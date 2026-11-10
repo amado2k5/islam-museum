@@ -1,0 +1,35 @@
+id: person/karima-bint-al-haqbaq
+class: person
+label: { ar: "كريمة بنت الحقبق", en: "Karima bint al-Haqbaq" }
+names:
+  - { value: "كريمة بنت عبد الوهاب بن علي بن الخضر القرشية الزبيرية أم الفضل المعروفة ببنت الحقبق", kind: full }
+died: { edtf: "1243-11~", hijri: "0641-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفيت في جمادى الآخرة سنة إحدى وأربعين وستمائة ببستانها بالمطور {cite:shadharat-dhahab p. 220}." }
+summary:
+  ar: "مسندة الشام القرشية الزبيرية المعروفة ببنت الحقبق؛ روت عن حسان الزيات وخلق، وأجاز لها أبو الوقت وابن الباغيان ومسعود الثقفي وخلق، وروت شيئاً كثيراً؛ توفيت في جمادى الآخرة ببستانها بالمطور {cite:shadharat-dhahab p. 220}."
+  en: "Musnidat al-Sham (d. Jumada II 641) — the Qurashi-Zubayri woman transmitter known as bint al-Haqbaq; licensed by Abu al-Waqt and Ibn al-Baghyan, she transmitted extensively and died at her orchard {cite:shadharat-dhahab p. 220}."
+gender: female
+roles: [muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+faith:
+  - value: sunni
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 641)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch70
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

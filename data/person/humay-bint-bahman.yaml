@@ -1,0 +1,20 @@
+id: person/humay-bint-bahman
+class: person
+label: { ar: "حماية بنت بهمن", en: "Humay bint Bahman" }
+summary:
+  ar: "حماية بنت بهمن بن اسفنديار من ملوك الفرس، أخرجت البناء العظيم باصطخر وجعلته بيت نار ثم نقلت عنه النار فتخرب وصار يعرف عند الناس بمسجد سليمان {cite:muruj-al-dhahab p. 550}."
+  en: "Humay daughter of Bahman — who converted the great Istakhr building into a fire-temple, whose flame's removal left the ruin folk call Solomon's Mosque {cite:muruj-al-dhahab p. 550}."
+gender: female
+wings: [people]
+relations:
+  - { type: lived_in, target: place/istakhr, confidence: low, note: "Associated with Istakhr per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 550"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch39
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

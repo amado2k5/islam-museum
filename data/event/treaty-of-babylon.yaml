@@ -1,0 +1,60 @@
+id: event/treaty-of-babylon
+class: event
+kind: treaty
+label:
+  ar: صلح عمرو بن العاص والقبط
+  en: Peace between Amr ibn al-As and the Copts
+  ur: عمرو بن العاص اور قبطیوں کی صلح
+summary:
+  ar: الصلح الذي عقده عمرو بن العاص مع المقوقس بعد حصار الحصن، على ديناران على كل قبطي بالغ وضيافة المسلمين ثلاثة أيام، وأن تبقى لهم أرضهم وأموالهم. ويذكر ابن عبد الحكم أن العرفاء أحصوا أكثر من ستة آلاف ألف نفس فكانت فريضتهم اثني عشر ألف ألف دينار في السنة، وفي رواية ثمانية آلاف ألف {cite:futuh-misr-amir-1999 p. 103} {cite:futuh-misr-amir-1999 p. 104}.
+  en: 'The peace Amr ibn al-As made with al-Muqawqis after the siege of the fortress: two dinars on every adult Copt, three days'' hospitality for Muslims, and their land and property left to them. Ibn Abd al-Hakam reports that the headmen counted more than six million persons, giving twelve million dinars a year; another report says eight million were counted {cite:futuh-misr-amir-1999 p. 103} {cite:futuh-misr-amir-1999 p. 104}.'
+  ur: 'وہ صلح جو عمرو بن العاص نے قلعے کے محاصرے کے بعد مقوقس سے کی: ہر بالغ قبطی پر دو دینار، مسلمانوں کے لیے تین دن کی ضیافت، اور ان کی زمین اور مال انہی کے پاس۔ ابن عبد الحکم کے مطابق عرفاء نے ساٹھ لاکھ سے زیادہ افراد گنے، جن سے سالانہ ایک کروڑ بیس لاکھ دینار بنے؛ ایک روایت میں اسی لاکھ گنے گئے {cite:futuh-misr-amir-1999 p. 103} {cite:futuh-misr-amir-1999 p. 104}۔'
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+date:
+  start:
+    hijri: '0019'
+    edtf: '0640~'
+    calendar: julian
+    precision: year
+    status: debated
+    derived: true
+    note: 'ابن عبد الحكم لا يؤرخ هذا الحدث بسنة؛ السنة مستنتجة من سياق الكتاب: قدوم عمرو العريش يوم الأضحى في مسيره سنة ثماني عشرة (ص 80، 85) وفتح الإسكندرية لمستهل المحرم سنة عشرين بعد حصار أربعة عشر شهراً (ص 117)، فالحدث بينهما. التحويل مشتق.'
+    sources:
+    - source/futuh-misr-amir-1999
+relations:
+- type: part_of
+  target: event/conquest-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: occurred_at
+  target: place/babylon-of-egypt
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: عاقد الصلح عن المسلمين
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/al-muqawqis
+  role: عاقد الصلح عن القبط
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 95، 102–106
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-2-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

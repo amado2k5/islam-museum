@@ -1,0 +1,31 @@
+id: person/ali-khader-abbas-al-zind
+class: person
+label:
+  ar: "علي خضر عباس الزند"
+  en: "Ali Khader Abbas al-Zind"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي خضر عباس الزند؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ali Khader Abbas al-Zind; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q6818297
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iraqi Biographical Registers" }
+relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-khaisaran-cemetery, note: "Wikidata Q12244626 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/iraq, note: "Wikidata Q796 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

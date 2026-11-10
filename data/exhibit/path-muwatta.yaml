@@ -1,0 +1,79 @@
+id: exhibit/path-muwatta
+class: exhibit
+kind: trail
+label:
+  ar: الموطأ
+  en: The Muwatta
+summary:
+  ar: 'مسار في أول مدونة حديثية فقهية: مالك يجمع موطأه في المدينة، وأهل المدينة عملٌ وحجة، والكتاب يعيش
+    ثلاث روايات.'
+  en: A trail through the first hadith-fiqh compilation.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: مالك
+    en: Malik
+  body:
+    ar: 'إمام دار الهجرة: الموطأ في أربعين سنة.'
+    en: 'إمام دار الهجرة: الموطأ في أربعين سنة.'
+  features:
+  - person/malik-ibn-anas
+  - work/muwatta-malik
+  - place/medina
+- title:
+    ar: المدينة
+    en: Medina
+  body:
+    ar: 'عمل أهل المدينة: حجة المدرسة المالكية.'
+    en: 'عمل أهل المدينة: حجة المدرسة المالكية.'
+  features:
+  - place/medina
+  - concept/fiqh
+- title:
+    ar: النصوص
+    en: The texts
+  body:
+    ar: غرفة من نصوص الموطأ في المتحف.
+    en: غرفة من نصوص الموطأ في المتحف.
+  features:
+  - passage/muwatta-6-932
+  - concept/isnad
+- title:
+    ar: الانتشار
+    en: The spread
+  body:
+    ar: من المدينة إلى قرطبة والمغرب والسودان.
+    en: من المدينة إلى قرطبة والمغرب والسودان.
+  features:
+  - place/cordoba
+  - place/fez
+  - place/qayrawan
+- title:
+    ar: الشراح
+    en: The commentators
+  body:
+    ar: 'الموطأ بشروحه: قرون من الخدمة.'
+    en: 'الموطأ بشروحه: قرون من الخدمة.'
+  features:
+  - work/muwatta-malik
+  - concept/mustalah-al-hadith
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

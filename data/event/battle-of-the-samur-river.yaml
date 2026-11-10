@@ -1,0 +1,23 @@
+id: event/battle-of-the-samur-river
+class: event
+kind: battle
+label: { ar: "معركة نهر سامور", en: "Battle of the Samur River (1460)" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر سامور؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of the Samur River (1460); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1460", precision: year, status: tradition, derived: true }
+  end: { edtf: "1460", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q31293002
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

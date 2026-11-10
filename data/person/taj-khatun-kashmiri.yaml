@@ -1,0 +1,29 @@
+id: person/taj-khatun-kashmiri
+class: person
+label:
+  ar: "تاج خاتون"
+  en: "Taj Khatun"
+roles: [ruler]
+gender: female
+summary:
+  ar: "بطاقة أولية لتاج خاتون، الملكة الكشميرية القرن الخامس عشر، توفيت سنة ١٤٦٨م؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Taj Khatun, the fifteenth-century Kashmiri empress, d. 1468; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1380~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh-i Kashmir (Baharistan-i Shahi)" }
+relations:
+  - { type: born_in, target: place/kashmir-sultanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q123027565)" }
+  - { type: died_in, target: place/srinagar, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q170115)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q134882244
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0080
+status:
+  review: draft
+  completeness: 1

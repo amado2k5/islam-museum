@@ -1,0 +1,54 @@
+id: person/tarab-abdul-hadi
+class: person
+label:
+  ar: "طرب عبد الهادي"
+  en: "Tarab Abdul Hadi"
+  ur: "طرب عبد الہادی"
+names:
+  - { value: "طرب سليم عبد الهادي", kind: full }
+  - { value: "Tarab Salim Abdul Hadi", kind: full }
+  - { value: "Tarab Abd al-Hadi", kind: alternate }
+gender: female
+born:
+  edtf: "1910"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Jenin in 1910 (both biographies, the Urdu article and Wikidata agree), daughter of Salim al-Ahmad Abd al-Hadi. The year spans the Hijri years 1328–1329, so no hijri value is recorded. Jenin has no place entity on main, so the place is carried here."
+  sources: [source/wikipedia-tarab-abdul-hadi-en, source/wikipedia-tarab-abdul-hadi-ar, source/wikipedia-tarab-abdul-hadi-ur, source/wikidata-tarab-abdul-hadi]
+died:
+  edtf: "1976"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Died at Cairo in 1976, where she had lived with her husband since 1948 (both biographies, the Urdu article and Wikidata agree). The year spans the Hijri years 1396–1397, so no hijri value is recorded."
+  sources: [source/wikipedia-tarab-abdul-hadi-en, source/wikipedia-tarab-abdul-hadi-ar, source/wikipedia-tarab-abdul-hadi-ur, source/wikidata-tarab-abdul-hadi]
+roles: [activist]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religious school for Tarab Abdul Hadi herself. Wikidata's structured religion value gives Islam only — a single structured family — and the Arabic biography's description of her as a Muslim activist likewise names Islam in general and no school; her women's-congress and Arab Women's Association leadership are affiliations, and never count."
+    sources: [source/wikipedia-tarab-abdul-hadi-en, source/wikipedia-tarab-abdul-hadi-ar, source/wikidata-tarab-abdul-hadi]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-tarab-abdul-hadi-en, source/wikipedia-tarab-abdul-hadi-ar, source/wikidata-tarab-abdul-hadi] }
+summary:
+  ar: "ناشطة نسوية فلسطينية من جنين (1910–1976)، شاركت في تأسيس المؤتمر النسائي العربي الفلسطيني سنة 1929، أول منظمة نسائية في فلسطين زمن الانتداب، وكانت من قيادات جمعية السيدات العربيات؛ وهي زوجة السياسي عوني عبد الهادي."
+  en: "Palestinian feminist activist from Jenin (1910–1976). In 1929 she co-founded the Palestine Arab Women's Congress, the first women's organization in Mandate Palestine, and was a leading organizer of the Arab Women's Association; she was the wife of the politician Awni Abd al-Hadi."
+  ur: "جنین سے تعلق رکھنے والی فلسطینی حقوق نسواں کی کارکن (1910–1976)؛ 1929 میں انھوں نے فلسطینی عرب خواتین کانگریس کی مشترکہ بنیاد رکھی، جو انتداب فلسطین کی پہلی خواتین تنظیم تھی، اور عرب خواتین ایسوسی ایشن کی نمایاں منتظم رہیں؛ وہ سیاست دان عونی عبد الہادی کی اہلیہ تھیں۔"
+sources:
+  - source/wikipedia-tarab-abdul-hadi-en
+  - source/wikipedia-tarab-abdul-hadi-ar
+  - source/wikipedia-tarab-abdul-hadi-ur
+  - source/wikidata-tarab-abdul-hadi
+external_ids:
+  wikidata: Q7685176
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia biographies of Tarab Abdul Hadi (Q7685176) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Jenin-born feminist activist of 1910–1976, pinned by biography and QID. Existence checks by name fragments (tarab, abdul-hadi) and by QID across data/person on origin/main found no prior record for her. Her marriage to Awni Abd al-Hadi is written once, as a spouse_of edge in his record (the elder of the pair), per the lane's write-once convention, so no spouse edge appears here; Jenin has no place entity on main, so her birthplace is carried in the born note."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

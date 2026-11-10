@@ -1,0 +1,23 @@
+id: event/battle-of-jarte-1542
+class: event
+kind: battle
+label: { ar: "معركة جارتي", en: "Battle of Jarte" }
+summary:
+  ar: "بطاقة أولية لمعركة جارتي سنة ١٥٤٢م، فوز أحمد بن إبراهيم الغازي على البرتغاليين في الحبشة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Jarte in 1542, Ahmad ibn Ibrahim al-Ghazi's victory over the Portuguese in Ethiopia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [east-africa]
+date:
+  start: { edtf: "1542-04-04", precision: year, status: tradition, derived: true }
+  end: { edtf: "1542-04-16", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q834881
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

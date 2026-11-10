@@ -1,0 +1,29 @@
+id: person/yaqub-ibn-ahmad-ibn-al-sabuni
+class: person
+label:
+  ar: "يعقوب بن أحمد بن السابوني"
+  en: "Ya'qub ibn Ahmad ibn al-Sabuni"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليعقوب بن أحمد بن السابوني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ya'qub ibn Ahmad ibn al-Sabuni; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+born: { edtf: "1223", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+died: { edtf: "1292", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/al-sham, confidence: low, note: "Nisba al-Sabuni of the Syrian milieu (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q12251894
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3

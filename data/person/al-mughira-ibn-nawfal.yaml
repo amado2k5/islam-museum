@@ -1,0 +1,22 @@
+id: person/al-mughira-ibn-nawfal
+class: person
+label: { ar: "المغيرة بن نوفل بن الحارث", en: "al-Mughira ibn Nawfal ibn al-Harith" }
+summary:
+  ar: "ابن الحارث بن عبد المطلب، ضرب وجه ابن ملجم فصرعه حين شد الناس عليه بعد ضربته علياً، وأقبل به إلى الحسن {cite:muruj-al-dhahab p. 702}."
+  en: "The Prophet's cousin who felled Ibn Muljim with a face-blow as the crowd closed on him, and brought him to al-Hasan {cite:muruj-al-dhahab p. 702}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+born: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 6/157; qadi of Medina)" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah 6/157; qadi of Medina)" }
+relations:
+  - { type: traveled_to, target: place/kufa, note: "Present at Kufa when Ibn Muljim was taken and brought to al-Hasan.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

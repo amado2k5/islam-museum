@@ -1,0 +1,39 @@
+id: person/habiba-ghribi
+class: person
+label: { ar: "حبيبة الغريبي", en: "Habiba Ghribi", ur: "حبیبہ غریبی" }
+names:
+  - { value: "Habiba Ghribi", kind: full }
+  - { value: "حبيبة الغريبي", kind: full }
+  - { value: "Bibi", kind: alternate }
+gender: female
+summary:
+  ar: "عدّاءة تونسية متخصصة في سباق 3000 متر موانع، وُلدت في القيروان سنة 1984. أصبحت بطلة العالم في دايغو 2011 وبطلة أولمبياد لندن 2012 بعد استبعاد الروسية يوليا زاريبوفا بسبب المنشطات، فكانت أول تونسية تفوز بميدالية أولمبية، وتحمل الرقم القياسي التونسي 9:05.36 منذ 2015."
+  en: "Tunisian runner specialising in the 3000 metres steeplechase, born in Kairouan in 1984. She became world champion at Daegu 2011 and Olympic champion at London 2012 after the Russian Yuliya Zaripova was disqualified for doping — the first Tunisian woman to win an Olympic medal — and has held the Tunisian record of 9:05.36 since 2015."
+  ur: "تیونس کی دوڑنے والی کھلاڑی جو 3000 میٹر اسٹیپل چیس میں مہارت رکھتی ہیں، 1984 میں قیروان میں پیدا ہوئیں۔ روسی کھلاڑی یولیا زاریپووا کے ڈوپنگ کی وجہ سے نااہل ہونے کے بعد وہ ڈیگو 2011 میں عالمی چیمپئن اور لندن 2012 میں اولمپک چیمپئن بنیں — اولمپک تمغہ جیتنے والی پہلی تیونسی خاتون — اور 2015 سے 9:05.36 کا تیونسی ریکارڈ ان کے پاس ہے۔"
+roles: [long-distance runner]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1984-04-09"
+  hijri: "1404"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 9 April 1984 in Kairouan (English, Arabic and French articles; Wikidata). The Hijri year 1404 is the tabular conversion of 9 April 1984 and is marked derived."
+  sources: [source/wikipedia-habiba-ghribi-en, source/wikipedia-habiba-ghribi-ar, source/wikipedia-habiba-ghribi-fr, source/wikidata-habiba-ghribi]
+relations:
+  - { type: born_in, target: place/qayrawan, sources: [source/wikipedia-habiba-ghribi-en, source/wikipedia-habiba-ghribi-ar, source/wikidata-habiba-ghribi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No article names a religion or a school for her, and Wikidata records no religion (P140) statement. The English and Arabic articles file her in a 'Tunisian Muslims' category; a Wikipedia category filing is an editorial grouping, not a personal attestation of faith, and it names no school in any case, so it is recorded here for transparency and not used as evidence. Her nationality and name are likewise not evidence. Recorded as unknown; no school is asserted."
+    sources: [source/wikipedia-habiba-ghribi-en, source/wikipedia-habiba-ghribi-ar, source/wikipedia-habiba-ghribi-fr, source/wikidata-habiba-ghribi]
+external_ids: { wikidata: "Q257993" }
+sources: [source/wikipedia-habiba-ghribi-en, source/wikipedia-habiba-ghribi-ar, source/wikipedia-habiba-ghribi-fr, source/wikidata-habiba-ghribi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381198290), Arabic Wikipedia (revision 76084875), French Wikipedia (revision 235461982) and Wikidata Q257993 (item revision 2539919743, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; QID grounded from the English article's page property and confirmed in every edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-152A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

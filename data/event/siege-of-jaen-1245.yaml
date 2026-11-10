@@ -1,0 +1,23 @@
+id: event/siege-of-jaen-1245
+class: event
+kind: siege
+label: { ar: "حصار جيان", en: "Siege of Jaén" }
+summary:
+  ar: "بطاقة أولية لحصار جيان من ١٢٤٥ إلى ١٢٤٦م، أخذ فرناندو الثالث للمدينة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Jaén of 1245–1246, Ferdinand III's capture of the city; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1245", precision: year, status: tradition, derived: true }
+  end: { edtf: "1246", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q5708040
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

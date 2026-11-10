@@ -1,0 +1,27 @@
+id: event/yaqut-khwarazm-616
+class: event
+kind: other
+label:
+  ar: "طواف في خراسان ثم خوارزم في شتاءٍ جامد، ٦١٦هـ/١٢١٩م"
+  en: "A circuit of Khurasan, then Khwarazm in a freezing winter, 616/1219"
+  ur: "خراسان کا چکر پھر خوارزم میں سخت سردی، 616ھ/1219ء"
+summary:
+  ar: "في سنة ٦١٦هـ/١٢١٩م اضطر إلى ترك مرو خوفاً من التتر ومعاملتهم الوحشية للعلماء والمكتبات، فطاف خراسان — بلخ ومرو الروذ وهراة — ثم انتقل إلى نسا فخوارزم، فوصل جرجانية أيام الشتاء القارس فاجتهد أن يكتب شيئاً فما كان يمكنه لجمود الدواة حتى يقربها من النار ويذيبها، وكان إذا قرب الشربة من شفتيه التصقت بها لجمودها {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}."
+  en: "In 616/1219 fear of the Mongols and their savage treatment of scholars and libraries forced him out of Marw. He made a circuit of Khurasan — Balkh, Marw al-Rudh, Herat — then moved to Nasa and on to Khwarazm, reaching Jurjaniyya in the bitterest winter. He strained to write, but the inkwell froze until he brought it near the fire to thaw it, and when he brought the drinking cup to his lips it stuck to them, frozen {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}."
+  ur: "616ھ/1219ء میں منگولوں اور علماء و کتب خانوں کے ساتھ ان کے ظالمانہ سلوک کے خوف سے مرو چھوڑنا پڑا۔ خراسان کا چکر لگایا — بلخ، مرو الروذ، ہرات — پھر نسا اور خوارزم گیا، شدید ترین سردی میں جرجانیہ پہنچا۔ کچھ لکھنے کی کوشش کی مگر دوات جم جاتی، آگ کے قریب کر کے پگھلانا پڑتا، اور پیالہ ہونٹوں تک لاتے تو اس سے چمٹ جاتا {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1219", hijri: "0616", calendar: julian, precision: year, status: tradition, derived: true, note: "طواف خراسان ثم مرو–خوارزم سنة ٦١٦هـ/١٢١٩م {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/khwarizm, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

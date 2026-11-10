@@ -1,0 +1,34 @@
+id: person/qudama-ibn-jafar
+class: person
+label: { ar: "قدامة بن جعفر", en: "Qudama ibn Ja'far" }
+names:
+  - { kind: full, lang: ar, value: "أبو الفرج قدامة بن جعفر الكاتب الناقد" }
+  - { kind: kunya, lang: ar, value: "أبو الفرج" }
+  - { kind: laqab, lang: ar, value: "الكاتب" }
+gender: male
+roles: [writer]
+traditions: [sunni]
+born: { edtf: "0888", hijri: "0275", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0948", hijri: "0337", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "كاتب وناقد، جدّه نصراني اعتنق الإسلام، وأبوه كان كاتباً، وتوفي سنة 337هـ ⁦(948م)⁩."
+  en: "Writer and literary critic whose grandfather, a Christian, converted to Islam; his father was a scribe; died 337 AH (948 CE)."
+wings: [people]
+themes: [literature]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q1046622" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/masalik-mamalik-ibn-khurdadhbih]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص321; source/masalik-mamalik-ibn-khurdadhbih scan pp. 192-193, 238, 274"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch61; ocr-harvest-2026-11-04"

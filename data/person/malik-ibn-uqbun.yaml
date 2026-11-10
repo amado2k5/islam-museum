@@ -1,0 +1,21 @@
+id: person/malik-ibn-uqbun
+class: person
+label: { ar: "مالك بن عقبون", en: "Malik ibn Uqbun" }
+summary:
+  ar: "من الصابئة الحرانيين، فسر كتابة مدقة باب مجمعهم بمدينة جران بالسريانية وهي قول لأفلاطون من عرف ذاته تأله، وخاطبه المسعودي ببعض ما بلغه عن أحوالهم فاعترف ببعضه وأنكر بعضاً من ذكر القرابين {cite:muruj-al-dhahab p. 542-543}. ورأى المسعودي على باب مجمع الصابئة بمدينة جرجان مكتوباً على مدقة الباب بالسريانية قولاً لأفلاطون فسره مالك بن عقبون وغيره وهو من عرف ذاته تأله، وقد قال أفلاطون الإنسان نبات سماوي شبيه شجرة منكوسة أصلها إلى السماء وفروعها في الأرض {cite:muruj-al-dhahab p. 546}"
+  en: "A Sabian of Harran who rendered the Syriac inscription on their assembly-house at Jiran — Plato's 'know thyself and become divine' — and to whom al-Mas'udi put questions on their practices {cite:muruj-al-dhahab p. 542-543}."
+gender: male
+wings: [people]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: lived_in, target: place/gorgan, confidence: low, note: "Associated with جرجان per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 542–543"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

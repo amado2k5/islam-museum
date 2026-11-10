@@ -1,0 +1,39 @@
+id: person/candarli-kara-halil-pasha
+class: person
+label:
+  ar: "قرة خليل باشا الجاندرلي"
+  en: "Candarli Kara Halil Hayreddin Pasha"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لقرة خليل حير الدين باشا الجاندرلي، أول من لُقّب بالصدر الأعظم في الدولة العثمانية في عهد مراد الأول، توفي سنة ١٣٨٧م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Candarli Kara Halil Hayreddin Pasha, remembered as the first grand vizier of the Ottoman state under Murad I, d. 1387; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1387", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: died_in, target: place/serres, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1572401
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0015
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/kazasker
+    kind: primary
+    status: historical
+    note: "The DİA entry names Candarli Kara Halil Hayreddin Pasha as the first Ottoman kazasker, appointed in the early reign of Murad I, after the judgeship of Bursa. He later became vizier."
+    sources: [source/tdv-kazasker]
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "The SADRAZAM entry says that when the viziers became more than one under Murad I, he came to the fore and performed a kind of chief vizierate, and that he died in 1387. The formal title vezir-i azam is stated later, in Mehmed II's code."
+    sources: [source/tdv-sadrazam]

@@ -1,0 +1,33 @@
+id: dec-20261108-013
+date: 2026-11-08
+question_hash: 19e093229b80
+lane: coverage-programme
+class: process
+question: "Render-QA crawl for Phase 15: authorise a read-only crawl of the
+  built HTML run locally — building locally is a check, not a deploy."
+options:
+  - authorise local read-only crawl
+  - do not authorise
+status: decided
+step: safe-default
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
+confidence: 0.4
+reversible: true
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
+needs_precedent: true
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08
+expires_at: "2027-11-08"
+domain: unclassified
+mode: conservative
+kind: decision

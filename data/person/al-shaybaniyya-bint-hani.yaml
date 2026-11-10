@@ -1,0 +1,22 @@
+id: person/al-shaybaniyya-bint-hani
+class: person
+label: { ar: "الشيبانية بنت هانئ بن قبيصة", en: "al-Shaybaniyya bint Hani' ibn Qubaysa" }
+summary:
+  ar: "زوجة عبيد الله بن عمر بن الخطاب، امتنعت أن تشد عليه سلاحه يوم خروجه بصفين وقالت لم يتوجه إلى قومي صنديد في جاهلية ولا إسلام وفي رأسه صعر إلا أبادوه، فشجها بقوس ثم قتل كما حذرت، ولما أمر علي بدفع جيفته إليها ألقت إليهم بمطرف خز فأدرجوه فيه ودفعوه إليها فمضت به {cite:muruj-al-dhahab p. 676-677}."
+  en: "'Ubayd Allah ibn 'Umar's wife — alone of his women she refused to arm him at Siffin, warning that every proud champion who faced her tribe fell; wounded by his bow, she outlived her prophecy and carried his wrapped body home {cite:muruj-al-dhahab p. 676-677}."
+gender: female
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+died: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: traveled_to, target: place/siffin, note: "Present with her husband Ubayd Allah ibn Umar at Siffin.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

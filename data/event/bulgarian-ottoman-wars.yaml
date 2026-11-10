@@ -1,0 +1,23 @@
+id: event/bulgarian-ottoman-wars
+class: event
+kind: war
+label: { ar: "الحروب البلغارية العثمانية", en: "Bulgarian–Ottoman wars" }
+summary:
+  ar: "بطاقة أولية للحروب البلغارية العثمانية في القرن الرابع عشر، الحملات التي أخضعت ممالك بلغاريا للدولة العثمانية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the fourteenth-century Bulgarian–Ottoman wars, the campaigns that subjected Bulgaria's kingdoms to Ottoman rule; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1345", precision: year, status: tradition, derived: true }
+  end: { edtf: "1396", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3622689
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; wars attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

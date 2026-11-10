@@ -1,0 +1,27 @@
+id: person/qaydar
+class: person
+label: { ar: "قيدار بن إسماعيل", en: "Qaydar (Kedar) ibn Ismail" }
+names:
+  - { kind: full, lang: ar, value: "قيدار بن إسماعيل بن إبراهيم" }
+gender: male
+roles: [tribal-ancestor]
+summary:
+  ar: "ثاني ولد إسماعيل في سياق الرحيق المختوم؛ لم يزل أبناؤه بمكة يتناسلون حتى كان منه عدنان وولده معد، ومنه حفظت العرب العدنانية أنسابها؛ ويقال إنه ولي مكة بعد أبيه مع أخيه نابت على خلاف في الترتيب."
+  en: "Ismail's second son in al-Raheeq al-Makhtum's list; his descendants remained in Mecca until Adnan and his son Ma'add, from whom the Adnani Arabs kept their genealogy; said to have held Mecca after his father with his brother Nabit, in disputed order."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/ismail, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: child_of, target: person/bint-mudad-al-jurhumi, sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/mecca, confidence: low, note: "ولي نابت ثم قيدار، ويقال العكس.", sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 و27 نقلاً عن قلب جزيرة العرب ص230–235 وتاريخ أرض القرآن 2/78–86 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 20, 27" }

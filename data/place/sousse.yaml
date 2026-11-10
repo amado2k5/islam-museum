@@ -1,0 +1,35 @@
+id: place/sousse
+class: place
+kind: city
+label:
+  ar: سوسة
+  en: Sousse
+summary:
+  ar: مدينة على ساحل تونس، مر بها ابن بطوطة في رحلته.
+  en: A city on the Tunisian coast, which Ibn Battuta passed through on his journey.
+wings:
+- place
+regions:
+- maghreb
+coordinates:
+- 35.82539
+- 10.63699
+coordinate_precision: locality
+external_ids:
+  geonames: '221715'
+  wikidata: Q180717
+sources:
+- source/geonames-gazetteer
+- source/rihla-ibn-battuta-1958
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are not recorded.

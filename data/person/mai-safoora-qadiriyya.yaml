@@ -1,0 +1,28 @@
+id: person/mai-safoora-qadiriyya
+class: person
+label:
+  ar: "مائی صفورہ القادریہ"
+  en: "Mai Safoora Qadiriyya"
+roles: [mystic]
+summary:
+  ar: "بطاقة أولية لمائی صفورہ القادریہ؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mai Safoora Qadiriyya (Punjabi Qadiri mystic, b. 1742); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Punjab Sufi registers" }
+died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Punjab Sufi registers" }
+relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Mai Safoora of the Qadiriyya order in the Punjab region of the Mughal Empire per the record's own text.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5688414
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; biographical/building record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0104
+status:
+  review: draft
+  completeness: 1

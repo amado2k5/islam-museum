@@ -1,0 +1,23 @@
+id: person/urumazd-bishop-of-jarbida
+class: person
+label: { ar: "عرماز أسقف جربدة", en: "Urmazd bishop of Jarbida" }
+summary:
+  ar: "أسقف مدينة جربدة من مدن الإفرنجة، أهدى سنة ثمان وعشرين وثلاثمائة إلى الحكم بن عبد الرحمن ولي عهد أبيه صاحب الأندلس كتاباً فيه أسماء ملوك الإفرنجة من قلودية إلى لذريق بن قارله، وجده المسعودي بفسطاط مصر سنة ست وثلاثين وثلاثمائة {cite:muruj-al-dhahab p. 358-359}."
+  en: "Bishop of Jarbida (Gerona) among the Franks; in 328 he sent al-Hakam, heir of Abd al-Rahman of al-Andalus, a book with the Frankish regnal list from Qaludiya to Ludhriq ibn Qarla — al-Mas'udi found a copy at Fustat in 336 {cite:muruj-al-dhahab p. 358-359}."
+gender: male
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 358–359"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, Chronicle of Seert" }
+relations:
+  - { type: lived_in, target: place/jarbida, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

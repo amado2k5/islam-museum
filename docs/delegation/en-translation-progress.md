@@ -1,0 +1,198 @@
+# English translation lane — progress
+
+**Lane:** `en-translation` (doc: `docs/agents/lanes/en-translation.md`)
+**Sessions:** Devin (SWE-2), 2026-10-12, clone `islam-museum-english`
+
+## Done
+
+- Phase A (publication plumbing): `en` added to `LANGS`, `PUBLISHED_LANGS`, Astro locales + sitemap; 21 missing `i18n/en.yaml` keys translated; per-language search synonyms + Pagefind indexes (`pagefind-ar`, `pagefind-en`); bilingual `llms.txt`; i18n key-parity test. `validate` 0 errors, `test` 44/44, `build` 15,962 pages, `check:site` clean.
+- Phase B (rendered metadata): `label.en` + `summary.en` filled for all entities that lacked them (139 labels, 328 summaries: people 124, events 52, places 50, groups 30, polities 25, buildings 17, works 9, concepts 7, datasets 5, exhibits 5, journeys 2, object 1, source 1); 59 exhibit room titles+bodies; 13 `perspectives[].summary`; 21 stub `label.en`; `map.note` already bilingual.
+- Phase C prose, in progress. `content/en/` written so far:
+  - exhibit/ ×5 (all five trails)
+  - event/ ×201 (ALL events done)
+  - person/ ×472 of 472 — complete (alphabetical by slug, `abaha` through `zuhayr-ibn-sard`)
+  - group/ ×60 of 60 — complete (`adnan` through `thaqif`)
+  - concept/ ×45 of 45, place/ ×27 of 27, source/ ×9 of 9, object/ ×9 of 9, polity/ ×8 of 8, work/ ×11 of 11, building/ ×5 of 5, practice/ ×4 of 4, journey/ ×3 of 3 — ALL prose classes complete; `content/en/` mirrors `content/ar/` exactly (per-class file lists identical)
+
+## Phase D (verification) — done
+
+- `validate` 0 errors / 326 warnings (pre-existing stubs/quality notes), `test` 45/45.
+- `build` 16,018 pages; Pagefind `pagefind-ar` + `pagefind-en` (7,865 pages each); `check:site` 0 errors/0 warnings; `check:static` 0 problems.
+- Fixed: English footnotes showed Arabic bibliographic citations — non-`ar` pages now cite `label.<lang>` (commit `4ac3c1e`).
+- Browser pass on local `dist/`: `/en/` landing, `/en/event/battle-of-badr/`, `/en/person/khadija/`, `/en/concept/tawhid/`, `/en/search/` (289 "Badr" results, `/en/` links) all English; language switcher round-trips `/en/` ↔ `/ar/` on the same entity; `/ar/` unaffected (rtl, full Arabic citations). Remaining Arabic on `en` pages is intentional: `العربية` switcher, bilingual name display, `Alt:` search meta.
+- Pagefind "no `<html>`" notes on `/ar/work/amr-ibn-salim-istighatha/` and `/ar/event/hatib-letter-to-quraysh/` are intentional Astro redirect stubs — not indexed, no action needed.
+
+## Next step
+
+Lane complete. English is published end-to-end; all prose is draft and awaits human review (`status.review` unchanged).
+
+## Conventions
+
+`translators: ["Devin (SWE-2), draft translation"]`; keep `[[id|label]]` ids, `{cite:id loc}` ids (localise `ص` → `p.`), `:::perspectives` order (Sunni first); standard headers used in this lane: `## Summary` (موجز), `## The account` (الرواية/خبر الوقعة), `## Markers of weakness and doubt` (علامات التمريض والشك), `## For young visitors` (للزوار الصغار).
+- person d–h batch 1 (Claude Haiku 5.5): 25 pages, daghful-ibn-al-muqarrij → dirar-ibn-amr (commit b8124662)
+- work batch 1 (25 files, aban-ibn-said-verses-to-khalid-and-amr … al-amthal-al-saira): done by Claude Haiku 5.5, draft
+- person d–h batch 2 (Claude Haiku 5.5): 25 pages, dirar-ibn-damra → fakhr-al-razi… farqad-al-sanji (commit 8b8a1d07)
+- work batch 2 (25 files, al-ansab-samani … al-kamil-fi-al-tarikh): done by Claude Haiku 5.5, draft
+- concept batch 1 (Claude Haiku 5.5): 25 pages, abjad-kings-etymology → al-ilm-fi-l-andalus (commit 9c937da4)
+- concept batch 2 (Claude Haiku 5.5): 25 pages, amir-al-umara → bayyina
+- work batch 3 (25 files, al-kashshaf … alam-al-tubwa): done by Claude Haiku 5.5, draft
+- person d–h batch 3 (Claude Haiku 5.5): 25 pages, farrukhbandadh → ghaylan-al-dimashqi (commit ac283e50)
+- work batch 4 (25 files, alf-layla-wa-layla … azhar-al-rawdatayn): done by Claude Haiku 5.5, draft
+- person d–h batch 4 (Claude Haiku 5.5): 25 pages, ghaylan-ibn-kharasha → hajib-ibn-zurara (commit 3e1b7dee)
+- person i–m batch 1 (25 files, ibn-aaisha-al-qurashi … ibn-al-abrash-khalaf) pushed to main — Claude Haiku 5.5, draft
+- event a–m batch 1 (2026-10-16, claude-haiku-5-5): 25 pages, abbad-qandahar → abu-muslim-enters-marw (EN drafts).
+- person d–h batch 5 (Claude Haiku 5.5): 25 pages, hakim-ibn-jabala → hanzala-ibn-zayd (commit e0890fee)
+- person s–z batch 1 (Claude Code, claude-haiku-5-5): saad-al-aasir … sahib-ibn-abbad, 25 files, commit b4c0bec7.
+- place m–z batch 2: 25 files (majtama-al-anhar.md … manh.md), draft
+- place m–z batch 3: 25 files (manjabari.md … masfahan-island.md), draft
+- place m–z batch 4: 25 files (masharif.md … mihrajanqadhaf.md), draft
+- place m–z batch 5: 25 files (mihran.md … mussisa.md), draft
+- concept batch 3 (Claude Haiku 5.5): 25 pages, bida → fath-sulh (commit 71f085dc)
+- group batch 1 (25 files, abbasid-dawa … banu-al-muttalib): done by Claude Haiku 5.5, draft
+- work batch 5 (25 files, azhar-al-riyad … hazar-afsan): done by Claude Haiku 5.5, draft
+- place m–z batch 6: 25 files (mustaghanim.md … nahr-al-ubulla.md), draft
+- person d–h batch 6 (Claude Haiku 5.5): 25 pages, harb-ibn-salm → hasan-ibn-qatada (commit 371935a9)
+- correction to the lines above: batch 2 covers dirar-ibn-damra → farqad-al-sanji; batch 5 covers hakim-ibn-jabala → harb-ibn-abdallah-al-balkhi (commit e0890fee)
+- person i–m batch 2 (25 files, ibn-al-aftas … ibn-al-faras-qahtani) pushed to main — Claude Haiku 5.5, draft
+- person i–m batch 3 (25 files, ibn-al-habbar … ibn-al-nahhas-al-dimashqi) pushed to main — Claude Haiku 5.5, draft
+- place m–z batch 7: 25 files (nahr-barada.md … narand.md), draft
+- person s–z batch 2 (Claude Code, claude-haiku-5-5): sahl-al-tustari … said-ibn-uthman, 25 files, commit 4cebb75c.
+- event a–m batch 2 (2026-10-16, claude-haiku-5-5): 25 pages, abu-said-qarmati-bahrayn-286 → al-awzai-letter-to-salih (EN drafts).
+- concept batch 4 (Claude Haiku 5.5): 25 pages, fay → husn-al-islam
+- person d–h batch 7 (Claude Haiku 5.5): 25 pages, hasan-ibn-umran-al-batih → hisham-i-andalusi (commit f0e275d7)
+- place m–z batch 8: 25 files (naroa.md … nuba.md), draft
+- work batch 6 (25 files, ihya-ulum-al-din … kitab-al-ayn): done by Claude Haiku 5.5, draft
+- person i–m batch 5 (25 files, ibn-barrajan-abd-al-salam … ibn-hayy-al-tujibi-al-hasan-ibn-muhammad) — Claude Haiku 5.5, draft
+- place m–z batch 9: 25 files (nughayra.md … qalari.md), draft
+- concept batch 5 (Claude Haiku 5.5): 25 pages, ibadat-al-asnam-jahiliyya → jihad-call-of-1914
+- person d–h batch 8 (Claude Haiku 5.5): 25 pages, hisham-ibn-abd-al-malik → hurayth-ibn-jabir-al-jufi (commit ea10e080)
+- group batch 2 (25 files, banu-al-najjar … banu-murra): done by Claude Haiku 5.5, draft
+- work batch 7 (25 files, kitab-al-ibana … masail-tabiiyya-hunayn): done by Claude Haiku 5.5, draft
+- place m–z batch 10: 25 files (qalat-al-balut.md … qantarat-al-sayf.md), draft
+- person i–m batch 6 (25 files, ibn-hayyan-abu-marwan … ibn-khaldun) — Claude Haiku 5.5, draft
+- person s–z batch 3 (Claude Code, claude-haiku-5-5): salih-ibn-al-mansur … sajjada, 25 files, 25 files (said-ibn-yahya … salih-ibn-musarrih).
+- event a–m batch 3 (2026-10-16, claude-haiku-5-5): 25 pages, al-falalij-and-tustar-jaban → ansar-scribes-kamil (EN drafts).
+- place m–z batch 11: 25 files (qantarat-qurra.md … qasr-al-nawashiq.md), draft
+- person i–m batch 7 (25 files, ibn-khalil-al-dimashqi-abu-al-hajjaj-yusuf … ibn-qayyim-al-jawziyya) — Claude Haiku 5.5, draft
+- work batch 8 (25 files, masalik-al-absar … sharh-aqida-tahawiyya): done by Claude Haiku 5.5, draft
+- group batch 3 (25 files, banu-musa … christians-of-najran): done by Claude Haiku 5.5, draft
+- place m–z batch 12: 25 files (qasr-al-numan.md … qift.md), draft
+- concept batch 6 (Claude Haiku 5.5): 25 pages, jizya → madhahib-al-tibb
+- person s–z batch 4 (Claude Code, claude-haiku-5-5): salih-ibn-muslim … salman-ibn-rabi-a, 25 files, 25 files.
+- person i–m batch 8 (25 files, ibn-qudama-al-maqdisi … ibn-zaydun) — Claude Haiku 5.5, draft
+- person d–h batch 9 (Claude Haiku 5.5): 15 pages, hurayth-ibn-qutba → husayn-ibn-yahya-al-ansari (commit 3a4e31e5). Person d–h slice complete.
+- place m–z batch 13: 25 files (qina.md … ramadin.md), draft
+- work batch 9 (25 files, sifat-jazirat-al-arab … wafayat-al-ayan): done by Claude Haiku 5.5, draft
+- person i–m batch 9 (25 files, ibn-zuhr-al-hafid … ibrahim-ibn-yahya-al-ansari-al-mursi) — Claude Haiku 5.5, draft
+- person s–z batch 5 (Claude Code, claude-haiku-5-5): salmawayh-ibn-bunan … sayf-al-din-ghazi-i, 25 files, 25 files.
+- place m–z batch 14: 25 files (ramhurmuz.md … rudhistu.md), draft
+- concept batch 7 (Claude Haiku 5.5): 25 pages, madrasat-al-nahw-al-basriyya-kufiyya → nasab-al-nabi
+- work batch 10 (25 files, zibriqan-boast-poem … zibriqan-second-boast): done by Claude Haiku 5.5, draft
+- group batch 4 (25 files, dajaima … jarudiyya): done by Claude Haiku 5.5, draft
+- person i–m batch 10 (25 files, ibrahim-ismail-al-abyari … inal-khan-utrari) — Claude Haiku 5.5, draft
+- place m–z batch 15: 25 files (rudis.md … safru.md), draft
+- person a–c, batch 2 (abd-al-hamid-ii-uthmani … abd-al-qadir-al-baghdadi): 25 pages, draft (Claude Haiku 5.5).
+- person s–z batch 6 (Claude Code, claude-haiku-5-5): sayf-al-islam-tughrakin … shams-al-din-ildigiz, 25 files, 25 files.
+- person i–m batch 11 (25 files, irbili-ahmad-ibn-musa … ishaq-ibn-ali-murabiti) — Claude Haiku 5.5, draft
+- place m–z batch 16: 25 files (safwan.md … sandan.md), draft
+- concept batch 8 (Claude Haiku 5.5): 25 pages, nasiha → sadaqa
+- group batch 5 (25 files, jewish-tribes-of-hijaz … miknasa): done by Claude Haiku 5.5, draft
+- person s–z batch 7 (Claude Code, claude-haiku-5-5): shapur-dhu-al-aktaf … shurayh-ibn-al-ahwas, 25 files, 25 files.
+- place m–z batch 17: 25 files (sandi-fulat.md … saymara.md), draft
+- person i–m batch 12 (25 files, ishaq-ibn-ayyub-al-anbari … jabal-ibn-yazid) — Claude Haiku 5.5, draft
+- event a–m batch 4 (2026-10-16, claude-haiku-5-5): 25 pages, anti-fatimid-manifesto-444 → ascalon-tiberias-644 (EN drafts).
+- place a–l batch 1 (Haiku 5.5, draft): 25 files, abadan → aghriyimis; 895 remaining at this point.
+- group batch 6 (25 files, mudar-ibn-nizar … saqaliba): done by Claude Haiku 5.5, draft
+- place m–z batch 18: 25 files (sayumur.md … sharma.md), draft
+- concept batch 9 (Claude Haiku 5.5): 25 pages, saltanat-al-kawakib → tolerance-and-intolerance-islam-europe
+- person s–z batch 8 (Claude Code, claude-haiku-5-5): shurayh-ibn-amir-al-sadi … siyawush-ibn-kaykaus, 25 files, 25 files.
+- person i–m batch 13 (25 files, jabala-ibn-salim … jahwar-ibn-marrar) — Claude Haiku 5.5, draft
+- group batch 7 (18 files, sayabija … zutt; group complete): done by Claude Haiku 5.5, draft
+- place m–z batch 19: 25 files (sharshal.md … siminjan.md), draft
+- place a–l batch 2 (Haiku 5.5, draft): 25 files, agra → al-arj; 936 Arabic files in a–l at commit time.
+- person i–m batch 14 (25 files, jahwar-ibn-marrar-al-ijli … jarir-ibn-yazid-al-bajali) — Claude Haiku 5.5, draft
+- concept batch 10 (Claude Haiku 5.5): 18 pages, ukhuwwa → zuyuf (final batch; concept slice complete)
+- person s–z batch 9 (Claude Code, claude-haiku-5-5): sokollu-mehmed-pasha … sulayman-ibn-al-hasan, 25 files, 25 files.
+- place m–z batch 20: 25 files (sind.md … sumaysat.md), draft
+- event a–m batch 5 (2026-10-16, claude-haiku-5-5): 25 pages, ashari-persecution-khurasan-1053 → baghdad-quarter-wars-601 (EN drafts).
+- polity batch 1 (25 files, abbasid-caliphate … fatimid-caliphate): done by Claude Haiku 5.5, draft
+- person i–m batch 15 (25 files, jariya-ibn-qudama … kabul-shah) — Claude Haiku 5.5, draft
+- place a–l batch 3 (Haiku 5.5, draft): 25 files, al-azhar → al-hadath; 936 Arabic files in a–l at commit time.
+- place m–z batch 21: 25 files (sumba.md … tabarqa.md), draft
+- person s–z batch 10 (Claude Code, claude-haiku-5-5): sulayman-ibn-ali … surad-ibn-abdullah-al-azdi, 25 files, 25 files.
+- person i–m batch 16 (25 files, kafur-al-ikhshidi … khalafun-al-barbari) — Claude Haiku 5.5, draft
+- polity batch 2 (25 files, ghana-empire … muzaffarid-dynasty): done by Claude Haiku 5.5, draft
+- place m–z batch 22: 25 files (tabas.md … taqarart.md), draft
+- place a–l batch 4 (Haiku 5.5, draft): 25 files, al-haditha → al-khawarnaq; 936 Arabic files in a–l at commit time.
+- event a–m batch 6 (2026-10-16, claude-haiku-5-5): 25 pages, baghdad-sectarian-war-422 → battle-of-ajnadayn (EN drafts).
+- person s–z batch 11 (Claude Code, claude-haiku-5-5): surama-ibn-abi-anas … tarifa-al-kahina, 25 files, 25 files.
+- person i–m batch 17 (25 files, khalid-al-azhari … kharija-ibn-zayd-ibn-thabit) — Claude Haiku 5.5, draft
+- place m–z batch 23: 25 files (tarabulus-gharb.md … thabun.md), draft
+- polity batch 3 (25 files, najahid-dynasty … wasulid-dynasty): done by Claude Haiku 5.5, draft
+- place a–l batch 5 (Haiku 5.5, draft): 25 files, al-khurayba → al-mudhar; 936 Arabic files in a–l at commit time.
+- polity batch 4 (5 files, zayyanid-tlemcen … zurayid-dynasty; polity complete): done by Claude Haiku 5.5, draft
+- place m–z batch 24: 25 files (thaniyyat-al-mirar.md … trebizond.md), draft
+- person i–m batch 18 (25 files, kharisha-ibn-masud … khuraym-ibn-aws) — Claude Haiku 5.5, draft
+- person s–z batch 12 (Claude Code, claude-haiku-5-5): tariq-ibn-ziyad … thamumma, 25 files, .
+- person s–z batch 12 (Claude Code, claude-haiku-5-5): tariq-ibn-ziyad … thumama-ibn-ashras, 25 files, 25 files.
+- place a–l batch 6 (Haiku 5.5, draft): 25 files, al-mudhayyib → al-raji; 936 Arabic files in a–l at commit time.
+- event a–m batch 7 (2026-10-16, claude-haiku-5-5): 25 pages, battle-of-al-araba → battle-of-hims-659 (EN drafts).
+- place m–z batch 25: 25 files (tudmir-kura.md … uhud.md), draft
+- person i–m batch 19 (25 files, khurrazad … lahiq-ibn-humayd) — Claude Haiku 5.5, draft
+- person s–z batch 13 (Claude Code, claude-haiku-5-5): thuml-al-qahramana … ubayd-allah-ibn-al-hasan-al-sanbari, 25 files, 25 files.
+- place a–l batch 7 (Haiku 5.5, draft): 25 files, al-rami → al-sibayn; 936 Arabic files in a–l at commit time.
+- place m–z batch 26: 25 files (ujj.md … wadi-al-mushaqqaq.md), draft
+- event a–m batch 8 (2026-10-16, claude-haiku-5-5): 25 pages, battle-of-ibn-abi-dulaf-near-hamadhan → battle-of-tawahin (EN drafts).
+- person i–m batch 20 (25 files, lajin … mahmud-shukri-al-alusi) — Claude Haiku 5.5, draft
+- person s–z batch 14 (Claude Code, claude-haiku-5-5): ubayd-allah-ibn-al-husayn-al-jallab … ujayf-ibn-anbasa, 25 files, 25 files.
+- place m–z batch 27: 25 files (wadi-al-qura.md … zabulistan.md), draft
+- place a–l batch 8 (Haiku 5.5, draft): 25 files, al-sirin → al-zurayba; 936 Arabic files in a–l at commit time.
+- event a–m batch 9 (2026-10-16, claude-haiku-5-5): 25 pages, battle-of-the-bridge → bayat-ibn-al-mutazz (EN drafts).
+- place m–z batch 28: 25 files (zafar-yakhsub.md … zuwayla.md), draft
+- person i–m batch 21 (25 files, mahwiya … malik-ibn-zaflah) — Claude Haiku 5.5, draft
+- place m–z batch 29: 1 files (zuzan.md … zuzan.md), draft
+- person s–z batch 15 (Claude Code, claude-haiku-5-5): ukasha-ibn-mihsan … umayr-ibn-dabi, 25 files, 25 files.
+- place a–l batch 9 (Haiku 5.5, draft): 25 files, alamas → anhu; 936 Arabic files in a–l at commit time.
+- place m–z batch 1: 25 files (maadin-al-naqra … majrit), pushed in commit b81294c8 / 432c732a — draft
+- person i–m batch 22 (25 files, mamay-dashti … mardawij-ibn-ziyad) — Claude Haiku 5.5, draft
+- place a–l batch 10 (Haiku 5.5, draft): 25 files, anjiya → armuqastru; 936 Arabic files in a–l at commit time.
+- event a–m batch 10 (2026-10-16, claude-haiku-5-5): 25 pages, bayat-ibrahim-ibn-al-mahdi → byzantine-ransom-296 (EN drafts).
+- person i–m batch 23 (25 files, mari-jata … masud-ibn-al-aswad-mutah) — Claude Haiku 5.5, draft
+- person s–z batch 16 (Claude Code, claude-haiku-5-5): umayr-ibn-sad … umm-sharik-al-dawsiyya, 25 files, 25 files.
+- place a–l batch 11 (Haiku 5.5, draft): 25 files, arqa → astur; 936 Arabic files in a–l at commit time.
+- person i–m batch 24 (25 files, masud-ibn-haritha … midhat-pasha) — Claude Haiku 5.5, draft
+- event a–m batch 11 (2026-10-16, claude-haiku-5-5): 25 pages, byzantine-sack-of-aleppo-351 → conquest-of-al-badhdh-city-of-babak (EN drafts).
+- place a–l batch 12 (Haiku 5.5, draft): 25 files, aswan → azerbaijan; 936 Arabic files in a–l at commit time.
+- person s–z batch 17 (Claude Code, claude-haiku-5-5): umm-ubayda … utban-ibn-malik, 25 files, 25 files.
+- person i–m batch 25 (25 files, midlaj-ibn-amr … muayyid-al-din-ibn-al-qassab) — Claude Haiku 5.5, draft
+- place a–l batch 13 (Haiku 5.5, draft): 25 files, azm → bahirat-basafriya; 936 Arabic files in a–l at commit time.
+- person s–z batch 18 (Claude Code, claude-haiku-5-5): uthman-al-awdi … wahb-ibn-munabbih, 25 files, 25 files.
+- event a–m batch 12 (2026-10-16, claude-haiku-5-5): 25 pages, conquest-of-al-hira → conquest-of-hulwan (EN drafts).
+- place a–l batch 14 (Haiku 5.5, draft): 25 files, bahirat-bidasht-arzan → bandasa; 936 Arabic files in a–l at commit time.
+- person i–m batch 26 (25 files, mudad-ibn-amr … muhammad-farid) — Claude Haiku 5.5, draft
+- place a–l batch 15 (Haiku 5.5, draft): 25 files, bani-zandawi → barsaklafa; 936 Arabic files in a–l at commit time.
+- person s–z batch 19 (Claude Code, claude-haiku-5-5): wahb-ibn-sad-ibn-abi-sarh … yahya-ibn-aktham, 25 files, 25 files.
+- event a–m batch 13 (2026-10-16, claude-haiku-5-5): 25 pages, conquest-of-iqritish → conquest-of-samarkand (EN drafts).
+- person i–m batch 27 (25 files, muhammad-i-andalusi … muhammad-ibn-al-fadl-al-jarjarai) — Claude Haiku 5.5, draft
+- place a–l batch 16 (Haiku 5.5, draft): 25 files, barus → batrani; 936 Arabic files in a–l at commit time.
+- person s–z batch 20 (Claude Code, claude-haiku-5-5): yahya-ibn-al-bitriq … yaqtin-ibn-musa, 25 files, 25 files.
+- place a–l batch 17 (Haiku 5.5, draft): 25 files, batsawa → bilad-al-buja; 936 Arabic files in a–l at commit time.
+- person i–m batch 28 (25 files, muhammad-ibn-al-fudayl … muhammad-ibn-harun) — Claude Haiku 5.5, draft
+- event a–m batch 14 (2026-10-16, claude-haiku-5-5): 25 pages, conquest-of-shahrazur → dar-al-ilm-waqf-382 (EN drafts).
+- person s–z batch 21 (Claude Code, claude-haiku-5-5): yaqub-al-mansur-al-muwahhidi … yazid-ibn-abi-habib, 25 files, 25 files.
+- person i–m batch 29 (25 files, muhammad-ibn-hazim-al-bahili … muhammad-ibn-sirin) — Claude Haiku 5.5, draft
+- place a–l batch 18 (Haiku 5.5, draft): 25 files, bilad-banu-sad → buhayrat-tinnis; 936 Arabic files in a–l at commit time.
+- event a–m batch 15 (2026-10-16, claude-haiku-5-5): 25 pages, dar-al-imara-saga → death-of-al-muktafi (EN drafts).
+- place a–l batch 19 (Haiku 5.5, draft): 25 files, buhayrat-zarra → buwat; 936 Arabic files in a–l at commit time.
+- person s–z batch 22 (Claude Code, claude-haiku-5-5): yazid-ibn-abi-kabsha … yuhanna-ibn-masawayh, 25 files, 25 files.
+- person i–m batch 30 (25 files, muhammad-ibn-sulayman-al-abbasi … muhammad-v-rashad) — Claude Haiku 5.5, draft
+- place a–l batch 20 (Haiku 5.5, draft): 25 files, buwayra → damanhur; 936 Arabic files in a–l at commit time.
+- person i–m batch 31 (25 files, mujahid-ibn-jabr … murad-iii-uthmani) — Claude Haiku 5.5, draft
+- person s–z batch 23 (Claude Code, claude-haiku-5-5): yunus-al-katib … zadhan-furrukh, 25 files, 25 files.
+- event a–m batch 16 (2026-10-16, claude-haiku-5-5): 25 pages, death-of-al-mutamid → death-of-salah-al-din-589 (EN drafts).
+- place a–l batch 21 (Haiku 5.5, draft): 25 files, damascus → dayr-al-jamajim; 936 Arabic files in a–l at commit time.
+- person i–m batch 32 (25 files, murad-v-uthmani … musaddad-ibn-musarhad) — Claude Haiku 5.5, draft
+- place a–l batch 22 (Haiku 5.5, draft): 25 files, dayr-al-jis → dinawar; 936 Arabic files in a–l at commit time.
+- person i–m batch 33 (25 files, musafir-al-qassab … mutarrif-ibn-al-mughira) — Claude Haiku 5.5, draft
+- person i–m batch 34 (final 6 files, mutarrif-ibn-saydan … muzna) — Claude Haiku 5.5, draft; i–m person set complete
+- event n–z batch 1 (nafi-walking-grant … plague-826, 25 files) — pushed 7dbb4873, validate 0 errors.

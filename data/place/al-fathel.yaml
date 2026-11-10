@@ -1,0 +1,21 @@
+id: place/al-fathel
+class: place
+kind: site
+label: { ar: "الفضل", en: "Al-Fathel" }
+summary:
+  ar: "موقع في العراق."
+  en: "Site in Iraq."
+wings: [place]
+regions: [global]
+coordinates: [36.4667, 43.3]
+coordinate_precision: approx
+coordinate_note: "Ambiguous: al-Fadl at Mount Bashiqa, Nineveh (primary candidate) or Banu al-Fadl domain in the Hauran. (gazetteer research pass)"
+external_ids: { wikidata: "Q4702388" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4702388 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,32 @@
+id: person/abd-al-rahman-jaziri
+class: person
+label:
+  ar: "عبد الرحمن الجزيري"
+  en: "Abd al-Rahman Jaziri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحمن الجزيري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Rahman Jaziri; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q12222674
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH)" }
+died: { edtf: "1941", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fiqh ala al-Madhahib al-Arba'a; al-A'lam (1300–1360 AH)" }
+relations:
+  - { type: died_in, target: place/hulwan, note: "Wikidata Q771345 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/sultanate-of-egypt, note: "Wikidata Q370173 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/kingdom-of-egypt, note: "Wikidata Q124943 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -1,0 +1,28 @@
+id: person/ramiz-historian
+class: person
+label:
+  ar: "رامز"
+  en: "Ramiz"
+roles: [historian, poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لرامز، المؤرخ والشاعر العثماني، توفي سنة ١٧٨٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ramiz, the Ottoman historian and poet, d. 1788; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1784", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q135311867
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0091
+status:
+  review: draft
+  completeness: 1

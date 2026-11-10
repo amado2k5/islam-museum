@@ -1,0 +1,28 @@
+id: person/abu-hamza-al-thumali
+class: person
+label:
+  ar: "أبو حمزة الثمالي"
+  en: "Abu Hamza al-Thumali"
+roles: [scholar]
+gender: male
+summary:
+  ar: "ثابت بن دينار الثمالي أبو حمزة، من رجال الحديث الثقات عند الإمامية وروى عنه بعض أهل السنة، توفي ١٥٠هـ ⁦(٧٦٧م)⁩."
+  en: "Thabit ibn Dinar al-Thumali Abu Hamza of Kufa, hadith transmitter trusted by the Imami school and cited by Sunnis (d. 150/767)."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q4117885
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.2 p.97)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0045
+status:
+  review: published
+  completeness: 3
+died: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi, Rijal al-Najashi; al-Tusi, al-Fihrist" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "From text: of Kufa", sources: [source/al-aalam], confidence: low }

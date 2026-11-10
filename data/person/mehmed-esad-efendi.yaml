@@ -1,0 +1,31 @@
+id: person/mehmed-esad-efendi
+class: person
+label:
+  ar: "محمد أسد أفندي"
+  en: "Mehmed Esad Efendi"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد أسد أفندي، شاعر وكاتب عثماني القرن الثامن عشر، توفي سنة ١٧٥٣م؛ تذكره كتب الأدب ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mehmed Esad Efendi, the eighteenth-century Ottoman poet and writer, d. 1753; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1848", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5396668
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0062
+status:
+  review: draft
+  completeness: 1

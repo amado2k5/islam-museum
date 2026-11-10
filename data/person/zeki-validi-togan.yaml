@@ -1,0 +1,59 @@
+id: person/zeki-validi-togan
+class: person
+label:
+  ar: "أحمد زكي وليدي توغان"
+  en: "Zeki Velidi Togan"
+  ur: "احمد زکی ولیدی توغان"
+summary:
+  ar: "مؤرخ باشكيري وقائد حركة التحرر الباشكيرية (1890–1970): أعلن حكم باشكيريا الذاتي سنة 1917، وترأس باشريفكوم سنة 1919–1920، ثم صار من قادة حركة البسمتشي في تركستان قبل هجرته، وقضى بقية حياته أستاذا للتاريخ التركي في إسطنبول، وتوفي ودُفن فيها سنة 1970."
+  en: "Bashkir historian and leader of the Bashkir liberation movement (1890–1970): he declared Bashkir autonomy in 1917, chaired the Bashrevkom in 1919–1920, then became a leader of the Basmachi movement in Turkistan before emigrating, and spent the rest of his life as a professor of Turkish history at Istanbul, where he died and was buried in 1970."
+  ur: "باشقیر مؤرخ اور باشقیر آزادی کی تحریک کے رہنما (1890–1970): 1917 میں باشقیر خودمختاری کا اعلان کیا، 1919–1920 میں باشریفکوم کے صدر رہے، پھر ہجرت سے پہلے ترکستان میں بسمچی تحریک کے رہنما بنے، اور بقیہ زندگی استنبول میں ترک تاریخ کے استاد رہے، جہاں 1970 میں انتقال ہوا اور دفن ہوئے۔"
+names:
+  - { value: "Akhmet-Zaki Akhmetshakhovich Validov", kind: full }
+  - { value: "Ахмет-Заки Ахметшахович Валидов", kind: full }
+  - { value: "Әхмәтзәки Әхмәтшаһ улы Вәлиди", kind: full }
+  - { value: "أحمد زكي وليدي توغان", kind: full }
+  - { value: "Zeki Velidi Togan", kind: latinized }
+  - { value: "Ahmet Zeki Velidi Togan", kind: alternate }
+gender: male
+born:
+  edtf: "1890-12-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 10 December 1890 at the village of Kuzyanovo in Sterlitamak Uyezd, Ufa Governorate, as the English and Turkish articles and Wikidata all give; the Russian article's infobox gives 22 December 1890 instead, a variant left unresolved in the sources and not followed — it may be the Gregorian conversion of the Julian-recorded day. No Hijri pairing is given in any source, so none is recorded. No place entity exists for Kuzyanovo, so no born_in relation is written."
+  sources: [source/wikipedia-zeki-validi-togan-en, source/wikipedia-zeki-validi-togan-ru, source/wikipedia-zeki-validi-togan-tr, source/wikidata-zeki-validi-togan]
+died:
+  edtf: "1970-07-26"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 26 July 1970 at Istanbul (all three articles and Wikidata), and was buried in the Karacaahmet cemetery at Istanbul, as the Russian and Turkish articles and Wikidata's burial value record."
+  sources: [source/wikipedia-zeki-validi-togan-en, source/wikipedia-zeki-validi-togan-ru, source/wikipedia-zeki-validi-togan-tr, source/wikidata-zeki-validi-togan]
+tags: [bashkirs, basmachi, turkology]
+roles: [historian, politician]
+wings: [people]
+regions: [anatolia-balkans]
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-zeki-validi-togan-en, source/wikipedia-zeki-validi-togan-ru, source/wikipedia-zeki-validi-togan-tr] }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikipedia-zeki-validi-togan-ru, source/wikipedia-zeki-validi-togan-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED: the only attestation naming a school for him is structured data of a single family: the Russian article's infobox gives his confession as 'Islam of the Sunni persuasion' and Wikidata gives Islam, generically — an infobox and its structured echo are one source family, not two sources. No article text names a school for him personally: the Russian article records that he came from the Validov family of religious figures and that his father was imam of the Kuzyanovo mosque and founded its madrasa, which is family background; his teaching at Kazan's Qasimiyä madrasa in 1912–1915 and his bureau work for the Duma's Muslim deputies are activity; the English article's category 'Muslims from the Russian Empire' is a category filing. Under the two-source rule and the doubt rule the value therefore stays unknown, with the single-family Sunni attestation preserved here."
+    sources: [source/wikipedia-zeki-validi-togan-en, source/wikipedia-zeki-validi-togan-ru, source/wikipedia-zeki-validi-togan-tr, source/wikidata-zeki-validi-togan]
+external_ids: { wikidata: "Q187282" }
+sources:
+  - source/wikipedia-zeki-validi-togan-en
+  - source/wikipedia-zeki-validi-togan-ru
+  - source/wikipedia-zeki-validi-togan-tr
+  - source/wikidata-zeki-validi-togan
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English, Russian and Turkish Wikipedia articles on Zeki Velidi Togan and his Wikidata item Q187282, all read in full on 27 October 2026; the sole school-naming attestation is the Russian infobox's 'Sunni Islam' with Wikidata's generic Islam value — a single structured family — while the texts give only his clerical family background and his madrasa teaching, so his faith is unknown FLAGGED under the two-source rule. The died_in and buried_in relations to Istanbul are written for his death and his burial in the Karacaahmet cemetery there, attested in the articles; no born_in relation is written, as no place entity exists for Kuzyanovo."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-110

@@ -1,0 +1,29 @@
+id: person/badr-al-din-al-baali
+class: person
+label:
+  ar: "بدر الدين البعلي"
+  en: "Badr al-Din al-Ba'li"
+roles: [mufti, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لبدر الدين البعلي، فقيه ومفتي القرن الرابع عشر، توفي سنة ١٣٧٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Badr al-Din al-Ba'li, the fourteenth-century jurist and mufti, d. 1376; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1376", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
+relations:
+  - { type: born_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q123414264
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0067
+status:
+  review: draft
+  completeness: 1

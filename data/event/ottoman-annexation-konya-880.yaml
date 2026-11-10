@@ -1,0 +1,23 @@
+id: event/ottoman-annexation-konya-880
+class: event
+kind: conquest
+label: { ar: "ضم قونية إلى الدولة العثمانية، ٨٨٠هـ", en: "The Ottoman annexation of Konya, 880/1475", ur: "قونیہ کا عثمانی سلطنت میں ضم، 880ھ/1475ء" }
+summary:
+  ar: "بعد أن احتلها بايزيد يلدرم، ضُمت قونية نهائيًا إلى الدولة العثمانية سنة ٨٨٠هـ/١٤٧٥م مع بقية الدولة القرمانية؛ وتُظهر الوثائق العثمانية أن الأوقاف والمؤسسات السلجوقية والقرمانية بقيت عامرةً عمومًا، غير أن المدينة لم تعد في تلك الإمبراطورية الواسعة سوى مركز إقليمي {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}."
+  en: "After being occupied by Bayezid Yildirim, Konya was definitively annexed to the Ottoman state in 880/1475 together with the remainder of the Karamanid state. Ottoman documentary archives show that its waqfs and Seljuk and Karamanid institutions were in general maintained, but within that vast empire the city could no longer be more than a provincial centre {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}."
+  ur: "بایزید یلدرم کے قبضے کے بعد قونیہ 880ھ/1475ء میں بقیہ کرمانی ریاست کے ساتھ عثمانی سلطنت میں حتمی طور پر شامل کر لیا گیا۔ عثمانی دستاویزات سے معلوم ہوتا ہے کہ وہاں کے اوقاف اور سلجوقی و کرمانی ادارے عموماً قائم رہے، مگر اس وسیع سلطنت میں شہر اب صرف ایک صوبائی مرکز رہ گیا۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1475", hijri: "0880", calendar: julian, precision: year, status: historical, note: "الضم النهائي مع بقية الدولة القرمانية سنة ٨٨٠هـ/١٤٧٥م {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., art. ḲONYA (Cl. Cahen), vol. 5.1 PDF p. 288 (harvest OCR, books/encyclopaedia-of-islam-2/Encyclopaedia_of_Islam_vol_5_1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-konya-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

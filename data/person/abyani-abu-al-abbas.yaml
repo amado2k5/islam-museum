@@ -1,0 +1,36 @@
+id: person/abyani-abu-al-abbas
+class: person
+label: { ar: "أبو العباس عبد الله الأبياني", en: "Abu al-Abbas Abd Allah al-Abyani" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أحمد الأبياني" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+died: { edtf: "0966", hijri: "0355", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من علماء إفريقية في القرن الرابع الهجري، روى عنه الأصيلي وأبو الحسن القابسي وغيرهم، وعاصر نصف قرن من العهد الأغلبي ونصفا من العهد الفاطمي."
+  en: "A scholar of Ifriqiya in the fourth century AH. Al-Asili and Abu al-Hasan al-Qabisi were among those who narrated from him; his lifetime spanned the late Aghlabid and early Fatimid periods."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص236-238"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/asila, note: "Place association from the person's nisba/name (الأصيلي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

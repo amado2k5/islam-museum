@@ -1,0 +1,29 @@
+id: person/ibrahim-bej
+class: person
+label:
+  ar: "إبراهيم بك"
+  en: "Ibrahim Bej"
+roles: [diplomat]
+gender: male
+summary:
+  ar: "بطاقة أولية لإبراهيم بك، رجل دولة ودبلوماسي عثماني من أصل بولندي، توفي سنة ١٥٧١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibrahim Bej, the Ottoman statesman and diplomat of Polish descent, d. 1571; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1816", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q11710904
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0076
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,23 @@
+id: event/qarawiyyin-founded-245
+class: event
+kind: founding
+label: { ar: "فاطمة الفهرية تؤسس جامع القرويين", en: "Fatima al-Fihri founds al-Qarawiyyin" }
+summary:
+  ar: "أوقفت فاطمة بنت محمد الفهري أموالها على بناء جامع القرويين بفاس فافتُتح سنة 245هـ/859م وصار أشهر جامع للعلم في الغرب الإسلامي {cite:tarikh-ibn-khaldun-ibar}."
+  en: "Fatima bint Muhammad al-Fihri endowed her fortune for the al-Qarawiyyin mosque at Fez, opened in 245/859 — the most famous mosque of learning in the Islamic West {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "فاطمہ بنت محمد فہری نے اپنی دولت فاس میں قرویین مسجد کے لیے وقف کی جو 245ھ/859ء میں کھلی — مغربی اسلام کا مشہور علمی مرکز {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+date:
+  start: { edtf: "0859", hijri: "0245", precision: year, status: tradition, derived: true }
+  end: { edtf: "0859", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/fes, sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Fez story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-fes
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

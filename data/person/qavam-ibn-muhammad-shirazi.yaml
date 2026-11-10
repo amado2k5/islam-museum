@@ -1,0 +1,29 @@
+id: person/qavam-ibn-muhammad-shirazi
+class: person
+label:
+  ar: "قوام بن محمد شيرازي"
+  en: "Qavam ibn Muhammad Shirazi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لقوام بن محمد شيرازي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Qavam ibn Muhammad Shirazi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q140184652
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Persian Calligraphers)" }
+died: { edtf: "1650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Persian Calligraphers)" }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'شيرازي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

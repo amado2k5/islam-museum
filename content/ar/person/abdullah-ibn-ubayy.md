@@ -13,11 +13,47 @@ translators: []
 
 وانسحب بثلث الجيش عشية [[event/battle-of-uhud|أحد]]؛ وتُقرأ عليه حادثة الإفك وسورة المنافقون {cite:ibn-sad-tabaqat-bewley}. مات مطلع سنة 631م، ويحفظ التراث أن النبي صلى عليه وألبسه قميصه — نهاية ترويها المصادر دون أن ترقّق الرجل {cite:ibn-sad-tabaqat-bewley}.
 
-:::perspectives
-يسمّيه التراث السني رئيس المنافقين: أظهر الإسلام وعمل في الباطن على تفريق الجماعة — وهو الشخص الذي تُقرأ حوله سورة المنافقون.
-
-أما المؤرخون فيصفون أرستقراطيًّا يثربيًّا يخسر صراعًا صريحًا على السلطة لصالح صعود النبي — و«المنافق» اسم التراث نفسه للمعارضة الداخلية.
-:::
-
 ## للزوار الصغار
 الرجل الذي كاد يصير ملك المدينة فقد تاجه بوصول النبي — وحاربه من داخل المدينة سنين بعدها.
+
+
+## في المدينة عند الهجرة ⁦(الرحيق المختوم ص179)⁩
+كانت الأوس والخزرج قد اجتمعت على سيادته بعد حرب بعاث، ونظموا له الخرز ليتوجوه، فلما جاء النبي انصرف قومه إليه فكان يرى أنه استُلب منه الملك، فأظهر الإسلام بعد بدر وبقي مستبطناً الكفر ⁦([[concept/medina-society-at-hijra|المجتمع في المدينة عند الهجرة]])⁩ {cite:mubarakpuri-raheeq p.179}.
+
+
+## كتاب قريش إليه ⁦(الرحيق المختوم ص194–195)⁩
+كتبت إليه قريش تهدده بالقتال أو الإخراج، فاجتمع هو ومن معه من المشركين ليقاتلوا النبي، فلما جاءهم النبي تفرقوا، فامتنع عن القتال لأنه رأى أن أصحابه لا يثبتون ⁦([[event/quraysh-letter-to-ibn-ubayy|كتاب قريش إلى ابن أبي]])⁩ {cite:mubarakpuri-raheeq p.194}.
+
+## عند الشيخ عمر عبد الكافي
+يصفه الشيخ بأنه زعيم المنافقين في المدينة، ويقول إن النبي لم يأمر أحدا من أصحابه بقتله. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:05:00}
+يروي الشيخ أن ابنه طلب من النبي أن يأذن له بقتل أبيه، فلم يأذن له. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
+ويذكر الشيخ أن النبي عرض على أهل عبد الله بن أبي كفنا ⁦(needs_source: لفظ هذه الجملة غير واضح في النسخة الآلية)⁩. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
+ويذكر أن النبي قال إنه يستغفر له ولو تكرر الاستغفار كثيرا ⁦(needs_source: العدد غير واضح في النسخة الآلية)⁩، ثم نزل النهي عن الصلاة على المنافقين. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
+
+يروي الشيخ أن عبد الله بن أُبيّ لما مات طلب الناس من النبي أن يصلي عليه ⁦(needs_source: رواية يرويها الشيخ دون مصدر في الدرس)⁩. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00}
+
+ويذكر الشيخ آية لم يسمّها، يفهم منها نهيا عن الصلاة على من مات من المنافقين والقيام على قبره. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
+
+:::perspectives
+- **أهل السنة: لم يُصدر بعد (not yet sourced)**: لم يُنسب بعد.
+- **speaker's view (Omar Abdelkafy)**: يذكر الشيخ الرواية والآية التي يفهم منها النهي عن الصلاة على المنافقين إذا ماتوا {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30}.
+- **academic view: not yet sourced**: لم يُنسب بعد.
+- **other view: not yet sourced**: لم يُنسب بعد.
+:::
+
+## للبراعم
+عبد الله بن أبي رجل من خزرج يثرب، كادت قومه يتوّجونه ملكًا قبل وصول النبي ففاته التاج. أظهر الإسلام وبقي يعمل ضد النبي من الداخل، ويذكره التراث السني رئيسًا للمنافقين. مات سنة 631م وصلى عليه النبي وألبسه قميصه.
+
+## للمستكشفين
+عبد الله بن أبي بن سلول الخزرجي. تقول المصادر إن الأوس والخزرج اجتمعت على سيادته بعد حرب بعاث ونظموا له الخرز ليتوجوه، فلما جاء النبي انصرف قومه إليه فرأى أنه استُلب منه الملك، فأظهر الإسلام بعد بدر وبقي مستبطنًا الكفر — ويذكره التراث السني رئيسًا للمنافقين والعدو من الداخل. انسحب بثلث الجيش عشية أحد، وتُقرأ عليه حادثة الإفك وسورة المنافقون. مات مطلع سنة 631م، ويحفظ التراث أن النبي صلى عليه وألبسه قميصه — نهاية ترويها المصادر دون أن ترقّق الرجل.
+
+## للدارسين
+عبد الله بن أبي بن سلول الخزرجي سيدًا في قومه. تقول المصادر إن قبائل يثرب المتنازعة اتفقت على تتويجه بعد حرب بعاث ونظموا له الخرز، فلما وصل النبي تبخّر التاج وانصرف قومه إليه، فرأى أنه استُلب منه الملك، فأظهر الإسلام بعد بدر وبقي مستبطنًا الكفر وعمل ضد النبي من الداخل — ويذكره التراث السني رئيسًا للمنافقين. انسحب بثلث الجيش عشية أحد؛ وتُقرأ عليه حادثة الإفك وسورة المنافقون. مات مطلع سنة 631م، ويحفظ التراث أن النبي صلى عليه وألبسه قميصه — نهاية ترويها المصادر دون أن ترقّق الرجل.
+
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
+يروي عمر عبد الكافي أن عمر لم يحتمل أن يصلي النبي على عبد الله بن أبيّ، فذكر النبي أنه خُيّر، وأنه لو علم أنه إن زاد على السبعين في الاستغفار له غُفر له لزاد. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:25:00} ويذكر أن ابنه وقف له عند مدخل المدينة يمنعه من الدخول حتى يأذن النبي. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:25:30}
+
+## في برنامج طارق السويدان «أسرار القيادة النبوية»
+يتخذ [[person/tariq-al-suwaidan|طارق السويدان]] ابن أبي في برنامجه [[work/asrar-al-qiyada-al-nabawiyya-program|«أسرار القيادة النبوية»]] مثالاً لـ«التابع المكابر»: قدرة قيادية عالية، وتحدٍّ عالٍ، وفاعلية معدومة أو سلبية. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:32:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:46:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:47:00} ويروي أن يوم بعاث، قبل الهجرة بخمس سنين، قتل سادة الأوس والخزرج، فكان ابن أبي ممن يُرشَّح للرئاسة وكان يُهيَّأ له تاج. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:33:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:35:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:35:30} ويرى أن المنافقين عملوا كأنهم «حزب». {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:38:30} ويسرد مواقفه كما يرويها: انسحابه يوم [[event/battle-of-uhud|أحد]] بنحو ثلث الجيش، ووعده بني النضير بالنصرة، وكلمته في غزوة بني المصطلق وردّ أسيد بن حضير عليه. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:39:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:41:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:44:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:45:00} ويتخذ موقفه من بني قينقاع مثالاً لدافع الخوف عند القائد السيئ. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:17:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:20:00} وفي الحلقة العشرين يرى من الإبداع القيادي أن النبي، حين بلغه كلامه، سار بالجيش حتى شغل الناس عنه، وأن ابنه المؤمن وقف له عند مدخل المدينة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep20 00:08:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep20 00:10:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep20 00:12:00} وفي الحلقة الثانية والعشرين يذكر أن ابنه عبد الله عرض أن يقتله فأبى النبي وأحسن صحبته. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep22 00:28:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep22 00:29:30}

@@ -1,0 +1,29 @@
+id: person/naili
+class: person
+label:
+  ar: "نايلي"
+  en: "Naili"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لنايلي، الشاعر والكاتب العثماني، توفي سنة ١٦٦٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Naili, the Ottoman poet and writer, d. 1666; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Naili-i Kadim)" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: died_in, target: place/constantinople, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16869)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6016350
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0085
+status:
+  review: draft
+  completeness: 1

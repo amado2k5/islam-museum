@@ -5,7 +5,7 @@ label: { en: "The Battle of Badr", ar: "غزوة بدر الكبرى" }
 summary:
   en: "The first major battle between the Muslims of Medina and the Quraysh of Mecca, fought at the wells of Badr on 17 Ramadan 2 AH."
   ar: "أول معركة كبرى فاصلة بين مسلمي المدينة وقريش مكة، دارت عند آبار بدر يوم الجمعة 17 رمضان 2هـ؛ بدأت مطاردةً لعير أبي سفيان وانتهت بهزيمة جيش مكة."
-wings: [time, people, place]
+wings: [time]
 themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -15,7 +15,7 @@ outcome:
   en: "Decisive Muslim victory; ~70 Quraysh killed and ~70 captured."
   ar: "نصر حاسم للمسلمين؛ نحو سبعين قتيلاً وسبعين أسيراً من قريش."
 significance:
-  ar: "أول لقاء مسلح بين المسلمين والمشركين؛ رسّخ دولة المدينة وغيّر ميزان القوى في الحجاز (الرحيق ص233)."
+  ar: "أول لقاء مسلح بين المسلمين والمشركين؛ رسّخ دولة المدينة وغيّر ميزان القوى في الحجاز ⁦(الرحيق ص233)⁩."
 casualties:
   value: 154
   status: tradition
@@ -85,7 +85,18 @@ map:
     - { type: line, role: advance, side: 1, from: [23.55, 38.62], to: [23.47, 38.55], label: { ar: "العير بعد تحويلها إلى الساحل", en: "The caravan's escape to the coast" }, precision: schematic, source: source/mubarakpuri-raheeq }
   legend: true
   sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
-  note: { ar: "مواضع تخطيطية مستمدة من خريطة الكتاب (ص214) ومن نص ابن هشام؛ المعسكر الإسلامي على أدنى ماء من بدر في العدوة الدنيا، ومعسكر قريش خلف الكثيب في العدوة القصوى.", en: "Schematic positions drawn from the book's own map (p. 214) and Ibn Hisham; the Muslims camped on the nearest water in al-Udwa al-Dunya, Quraysh behind the dune in al-Udwa al-Quswa." }
+  note: { ar: "مواضع تخطيطية مستمدة من خريطة الكتاب ⁦(ص214)⁩ ومن نص ابن هشام؛ المعسكر الإسلامي على أدنى ماء من بدر في العدوة الدنيا، ومعسكر قريش خلف الكثيب في العدوة القصوى.", en: "Schematic positions drawn from the book's own map (p. 214) and Ibn Hisham; the Muslims camped on the nearest water in al-Udwa al-Dunya, Quraysh behind the dune in al-Udwa al-Quswa." }
 media: { map: media/map-event-battle-of-badr }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 3, generated_by: "Devin; mined from al-Raheeq al-Makhtum pp. 204–233 with the classical citations in its footnotes" }
+external_ids: { wikidata: "Q486124" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/muhammad-qaid-al-aala-azhar, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
+education:
+  did_you_know:
+    ar: "عشية بدر نزل مطرٌ فثبّت الرملَ تحت أقدام المسلمين، وأسروا يومها سبعين رجلًا من قريش."
+    en: "On the eve of Badr rain fell and firmed the sand under the believers' feet; the Muslims took seventy captives from Quraysh that day."
+    ur: "بدر سے پہلے کی رات بارش ہوئی اور ریت مسلمانوں کے قدموں تلے مضبوط ہوگئی؛ اس دن انھوں نے قریش کے ستر آدمی قیدی بنائے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+status: { review: published, completeness: 3, generated_by: "Devin; mined from al-Raheeq al-Makhtum pp. 204–233 with the classical citations in its footnotes" }
+provenance: { layer: own-research, source: "source/assabile-omar-abdelkafy", generated_by: "Claude Code (claude-haiku-5-5)", run: "assabile-omar-abdelkafy-al-dinu-al-qayem-extension", enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added al-Sallabi's analysis section from source/sira-nabawiyya-sallabi" }

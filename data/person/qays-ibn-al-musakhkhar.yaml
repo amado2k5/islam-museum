@@ -1,0 +1,37 @@
+id: person/qays-ibn-al-musakhkhar
+class: person
+label: { ar: "قيس بن المسحّر اليعمري", en: "Qays ibn al-Musahhar al-Ya'muri" }
+names:
+  - { kind: full, lang: ar, value: "قيس بن المسحّر اليعمري" }
+  - { kind: alternate, lang: ar, value: "قيس بن المسخَّر (كذا في بعض المواضع)" }
+gender: male
+roles: [companion, poet]
+traditions: [sunni]
+summary:
+  ar: "صحابي شاعر من بني يعمر؛ قتل مسعدة بن حكمة الفزاري في غزوة زيد بن حارثة الثانية لبني فزارة وقال في ذلك شعراً، وأمره زيد بقتل أم قرفة فقتلها؛ وله في مؤتة شعر يعتذر فيه مما جرى ويمدح خالد بن الوليد."
+  en: "A Companion and poet of Banu Ya'mar; he killed Mas'ada ibn Hakama al-Fazari in Zayd ibn Haritha's second raid on Fazara and composed verses on it, and on Zayd's order killed Umm Qirfa; he also has verses on Mu'ta excusing what happened and praising Khalid ibn al-Walid."
+wings: [people]
+themes: [skirmishes-raids-expeditions, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, note: "شعره في قتل مسعدة (ص266) وفي مؤتة (ص25).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "من أصحاب النبي في سراياه (ابن هشام ص265).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (Abu al-Faraj)" }
+relations:
+  - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "قتل مسعدة ثم أم قرفة بأمر زيد", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-mutah, role: "قال شعراً في الاعتذار مما جرى", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+
+  - { type: lived_in, target: place/mutah, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 25, 265-266"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

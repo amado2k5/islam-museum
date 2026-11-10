@@ -1,0 +1,26 @@
+id: event/death-of-baha-al-din-628
+class: event
+kind: death
+label: { ar: "وفاة بهاء الدين ولد وخِلافة ابنه له", en: "Baha al-Din Walad dies; Rumi succeeds him", ur: "بہاء الدین ولد کی وفات اور رومی کی جانشینی" }
+summary:
+  ar: "سنة ٦٢٨هـ/١٢٣١م توفي [[person/baha-al-din-walad|بهاء الدين ولد]] بقونية فخلفه ابنه جلال الدين في مقام التدريس الذي كان له، وكان في نحو الرابعة والعشرين من عمره {cite:britannica-rumi}."
+  en: "In 628/1231 Baha al-Din Walad died at Konya, and his son Jalal al-Din, then about twenty-four, succeeded him in the teaching post he had held {cite:britannica-rumi}."
+  ur: "628ھ/1231ء میں بہاء الدین ولد کا قونیہ میں انتقال ہوا اور ان کے چوبیس برس کے بیٹے جلال الدین ان کے تدریسی منصب پر جانشین ہوئے۔"
+wings: [time]
+themes: [spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1231", hijri: "0628", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 1231م عند بريتانيكا؛ السنة الهجرية تحويل مشتق {cite:britannica-rumi}." }
+relations:
+  - { type: occurred_at, target: place/konya, sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/baha-al-din-walad, role: "المتوفى", sources: [source/britannica-rumi] }
+  - { type: had_participant, target: person/jalal-al-din-rumi, role: "الابن الخَلَف في التدريس", sources: [source/britannica-rumi] }
+sources: [source/britannica-rumi]
+provenance:
+  layer: own-research
+  source: "Britannica, 'Rumi', 'Early life and travels', read through the Wayback capture of 23 October 2026; ledger docs/authenticity-ledger/pages/britannica-rumi.yaml"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-rumi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

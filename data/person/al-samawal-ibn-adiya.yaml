@@ -1,0 +1,22 @@
+id: person/al-samawal-ibn-adiya
+class: person
+label: { ar: "السموأل بن عادياء", en: "al-Samaw'al ibn 'Adiya" }
+summary:
+  ar: "السموأل بن حسان بن عادياء، له عند المسعودي خبر مشهور وخبر خازن الكاهن حين طرقه ليلاً وانقياده إلى ذمته، وما كان من العير الأقمر والظليم الأحمر والفرس الأشقر والجمل الأزور والشيخ الأحقر، أتى عليه في كتابيه أخبار الزمان والكتاب الأوسط {cite:muruj-al-dhahab p. 500}."
+  en: "Samaw'al ibn 'Adiya — of the famous tale with Khazin the night-knocking kahin and his trust, the grey ass, red ostrich, blond horse, wall-eyed camel and humiliated elder — treated in al-Mas'udi's Akhbar al-Zaman and Middle Book {cite:muruj-al-dhahab p. 500}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+died: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/tayma, note: "The Jewish poet of Tayma and its al-Ablaq castle.", sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq], confidence: medium }
+sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
+status:
+  review: published
+  completeness: 3

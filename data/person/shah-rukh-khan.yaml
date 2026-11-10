@@ -1,0 +1,37 @@
+id: person/shah-rukh-khan
+class: person
+label: { ar: "شاه روخ خان", en: "Shah Rukh Khan", ur: "شاہ رخ خان" }
+names:
+  - { value: "Shahrukh Khan", kind: full }
+  - { value: "شاہ رخ خان", kind: full }
+gender: male
+summary:
+  ar: "ممثل ومنتج هندي، وُلد في نيودلهي سنة 1965؛ من أشهر نجوم السينما الهندية في العالم، إذ هيمن على شاشتها منذ التسعينيات بأدوار الشرير ثم البطل الرومانسي، وحملته أفلام مثل «دلوالي دولهانيا لي جايينغي» (1995) و«اسمي خان» (2010) إلى جمهور عالمي، ثم عاد سنة 2023 بفيلمي «باتهان» و«جوان» إلى قمة شباك التذاكر، ونال عن «جوان» جائزة الفيلم الوطني لأفضل ممثل. يُعرف بـ«الملك خان»."
+  en: "Indian actor and producer, born in New Delhi in 1965 and known as 'King Khan'. He is among the most famous Indian film stars in the world: from the 1990s he dominated the Indian screen first as a villain and then as the defining romantic hero, films such as Dilwale Dulhania Le Jayenge (1995) and My Name Is Khan (2010) carried him to a global audience, and in 2023 Pathaan and Jawan returned him to the top of the box office, Jawan winning him the National Film Award for Best Actor."
+  ur: "ہندوستانی اداکار و فلم ساز، 1965 میں نئی دہلی میں پیدا ہوئے؛ دنیا کے مشہور ترین ہندوستانی فلمی ستاروں میں سے ایک، جنہوں نے نوے کی دہائی سے پہلے منفی کرداروں اور پھر رومانوی ہیرو کے طور پر پردے پر چھا جانے والی شہرت پائی، اور 2023 میں «پٹھان» اور «جوان» سے باکس آفس کی چوٹی پر لوٹے۔ «کنگ خان» کے لقب سے مشہور ہیں۔"
+roles: [actor, producer]
+wings: [people, living]
+born:
+  edtf: "1965-11-02"
+  hijri: "1385"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 2 November 1965 in New Delhi (English, Arabic and Urdu articles, Britannica and Wikidata agree), into a Muslim family. The museum's place/delhi entity grounds the born_in relation. The Hijri year (1385) is derived by tabular conversion."
+  sources: [source/wikipedia-shah-rukh-khan-en, source/britannica-shah-rukh-khan, source/wikidata-shah-rukh-khan]
+relations:
+  - { type: born_in, target: place/delhi, sources: [source/wikipedia-shah-rukh-khan-en, source/wikidata-shah-rukh-khan] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him, and his own recorded position is a personal stance, not a school attestation. The English article records that he was born into a Muslim family in New Delhi, and states his position in these terms: according to Khan, while he strongly believes in Islam, he also values his wife's religion; his children follow both religions, and at his home the Qur'an is situated next to the murti of Hindu deities. Wikidata gives his religion as Islam (Q432) generically. His stance is carried, attributed to him, in the prose; under the counting rule no school segment can be recorded."
+    sources: [source/wikipedia-shah-rukh-khan-en, source/wikidata-shah-rukh-khan]
+external_ids: { wikidata: "Q9535" }
+sources: [source/wikipedia-shah-rukh-khan-en, source/wikipedia-shah-rukh-khan-ar, source/wikipedia-shah-rukh-khan-ur, source/wikidata-shah-rukh-khan, source/britannica-shah-rukh-khan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Shah Rukh Khan' (revision 1380422577 of 15 October 2026), Arabic Wikipedia «شاه روخ خان» (revision 76336847 of 25 August 2026), Urdu Wikipedia «شاہ رخ خان» (revision 12102299 of 5 October 2026), Wikidata Q9535 (confirmed via the Wikidata API: human, born 2 November 1965 at New Delhi, religion Islam generically, spouse Gauri Khan married 25 October 1991) and Encyclopaedia Britannica's entry 'Shah Rukh Khan' (published 29 May 2012), checked 25 October 2026. No earlier record for him existed in data/person/ under any spelling (data/person/shah-rukh.yaml is the Timurid prince); this is a new build, not an enrichment."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-9
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

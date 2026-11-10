@@ -1,0 +1,20 @@
+id: event/baghdad-dragon-wind-378
+class: event
+kind: disaster-relief
+label: { ar: "ريح التنين ببغداد 378هـ", en: "The dragon-wind over Baghdad, 378" }
+summary:
+  ar: "في شعبان سنة ثمان وسبعين وثلثمائة كثرت الرياح العواصف، وجاءت وقت العصر من يوم الخميس لخمس بقين منه ريح شُبّهت بالتنين حتى سُحرت دجلة فبان قعرها وظهرت أرضها من ممر الريح، وهدمت قطعة من المسجد الجامع وأهلكت جماعة من الناس، وغرّقت كثيراً من السفن الكبيرة الملوءة بالأمتعة، واحتملت زورقاً منحدراً فيه دواب وعدة سفن وطرحت ذلك في أرض جوخى فشوهد بعد أيام {cite:muntazam-ibn-al-jawzi j.7 p.145}."
+  en: "In Sha'ban 378 violent gales multiplied over Baghdad; on the Thursday afternoon with five days left in the month came a wind likened to a dragon — it swept the Tigris bare until its bed showed, demolished a part of the congregational mosque, killed people, sank great ships loaded with goods and carried a boat with its beasts inland to the land of Jukha where it was seen days later {cite:muntazam-ibn-al-jawzi j.7 p.145}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0988-11~", hijri: "0378-08", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم الخميس لخمس بقين من شعبان 378؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.145}", sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [33.32, 44.36] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 378)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

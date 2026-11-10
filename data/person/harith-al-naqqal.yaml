@@ -1,0 +1,30 @@
+id: person/harith-al-naqqal
+class: person
+label: { ar: "الحارث بن شريح النقال" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن شريح النقال" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0236", edtf: "0851~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ست وثلاثين ومائتين (PDF ص54).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "الحارث بن شريح النقال، وهو الذي حمل كتاب «الرسالة» إلى عبد الرحمن بن مهدي الإمام {cite:tabaqat-fuqaha-abbas-1981 p. 54}. مات سنة 236هـ {cite:tabaqat-fuqaha-abbas-1981 p. 54}."
+wings: [people]
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Associated with شيراز per the record's own text; relation type pending review.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

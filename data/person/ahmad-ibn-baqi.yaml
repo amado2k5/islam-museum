@@ -1,0 +1,30 @@
+id: person/ahmad-ibn-baqi
+class: person
+label: { ar: "أحمد بن بقي بن مخلد", en: "Ahmad ibn Baqi ibn Makhlid" }
+roles: [judge, scholar]
+gender: male
+summary:
+  ar: "ابن بقي بن مخلد، قاضي القضاة بالأندلس، حدّث وتوفى بها {cite:muntazam-ibn-al-jawzi p. 283}."
+  en: "Son of the great Baqi ibn Makhlid — chief qadi of al-Andalus, where he transmitted and died {cite:muntazam-ibn-al-jawzi p. 283}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 324)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch38
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: published
+  completeness: 3
+
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/muntazam-ibn-al-jawzi]
+died: { edtf: "936~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dibaj (Ibn Farhun)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Chief qadi of al-Andalus, where he transmitted and died (qadi al-qudat bi'l-Andalus, haddatha wa-tawuffa biha).", sources: [source/muntazam-ibn-al-jawzi], confidence: high }

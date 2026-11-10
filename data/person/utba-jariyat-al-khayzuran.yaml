@@ -1,0 +1,21 @@
+id: person/utba-jariyat-al-khayzuran
+class: person
+label: { ar: "عتبة جارية الخيزران", en: "'Utba, al-Khayzuran's maid" }
+summary:
+  ar: "جارية الخيزران التي كثر تشبيب أبي العتاهية بها حتى شكت إلى مولاتها فجلده المهدي، فلما رأته مجلوداً فاض دمعها، ولما همّ المهدي بدفعها إليه قالت مع حرمتي وحقي وخدمتي تدفعني إلى بائع جرار يكتسب بالشعر، وقالت له أما لو كنت عاشقاً لعتبة لشغلت عن العين والورق {cite:muruj-al-dhahab p. 305-306}."
+  en: "Al-Khayzuran's singing-girl whose refusal — 'a jar-seller who lives by verse?' — spurned Abu'l-'Atahiyya before the caliph {cite:muruj-al-dhahab p. 305-306}."
+gender: female
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 305–306"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch43
+died: { edtf: "775~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~805, al-Aghani; al-Iqd al-Farid" }
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,28 @@
+id: person/abu-ishaq-al-shaybani
+class: person
+label:
+  ar: "أبو إسحاق الشيباني"
+  en: "Abu Ishaq al-Shaybani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو إسحاق الشيباني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Ishaq al-Shaybani; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q12216686
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "755", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "Wikidata Q186234 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

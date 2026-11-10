@@ -1,0 +1,20 @@
+id: place/kosovo
+class: place
+kind: region
+label: { ar: "كوسوفو", en: "Kosovo" }
+summary:
+  ar: "إقليم في البلقان غالبية أهله مسلمون."
+  en: "Balkan territory with a Muslim majority."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [42.6, 21.0]
+coordinate_precision: approx
+coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
+external_ids: { wikidata: "Q1246" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Country/region entity so persons substantiated only at country level resolve on the map."

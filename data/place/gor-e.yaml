@@ -1,0 +1,21 @@
+id: place/gor-e
+class: place
+kind: site
+label: { ar: "جزيرة غوريه", en: "Gorée" }
+summary:
+  ar: "موقع في السنغال."
+  en: "Site in Senegal."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [14.666944444444, -17.398333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q244347" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q244347 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,71 @@
+id: invention/khayyam-parallel-quadrilateral
+class: invention
+label: { ar: "تحليل الخيام الرباعي للمتوازيات", en: "Khayyam's quadrilateral analysis of parallels", ur: "متوازی خطوط کا خیام کا چہارضلعی تجزیہ" }
+names:
+  - { kind: alternate, lang: en, value: "Khayyam-Saccheri quadrilateral method in the Euclid commentary" }
+summary: { ar: "إعادة ترتيب بحث المتوازيات برباعي وثماني قضايا وفرضيات معلنة،لا برهان مستقل للمصادرة الخامسة {cite:sep-umar-khayyam sec4.2}.", en: "Reconstructed parallels with a quadrilateral,eight propositions and admitted premises,not an independent fifth-postulate proof {cite:sep-umar-khayyam sec4.2}.", ur: "چہارضلعی،آٹھ قضیوں اور تسلیم مفروضوں سے متوازی بحث کی نئی ترتیب،پانچویں مسلمے کا آزاد برہان نہیں {cite:sep-umar-khayyam sec4.2}۔" }
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1077"
+    hijri: "0470"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Vahabzadeh reports commentary completed470/December1077;year precision retained,no invented Hijri month/day or autograph manufacture."
+    sources: [source/vahabzadeh-khayyam-mathematician]
+  status_today: living
+origin:
+  polity: polity/seljuk-empire
+  context: { ar: "سياق المؤلف السلجوقي،لا مدينة تأليف مثبتة من هذا التاريخ وحده {cite:khayyam-mactutor biography}.", en: "Author's Seljuk setting,not a composition city proven by date alone {cite:khayyam-mactutor biography}.", ur: "مصنف کا سلجوقی سیاق،صرف تاریخ سے ثابت مقام تصنیف نہیں {cite:khayyam-mactutor biography}۔" }
+makers:
+  - person: person/umar-khayyam
+    role: improver
+    note: "Specific quadrilateral reconstruction of parallels,not all geometry,cubics or calendar."
+    sources: [source/vahabzadeh-khayyam-mathematician, source/sep-umar-khayyam]
+attribution:
+  status: improvement
+  claim: { ar: "تحليل الحالات الثلاث للزاويتين العلويتين ضمن ترتيب برهاني جديد.", en: "Analyzed three summit-angle cases within a reconstructed proof sequence.", ur: "نئی برہانی ترتیب میں بالائی زاویوں کی تین صورتوں کا تجزیہ۔" }
+  basis: { ar: "الدراسات تصف رباعياً بساقين متساويين عموديين وثماني قضايا؛الفرضيات الإضافية لا تختفي {cite:vahabzadeh-khayyam-mathematician author-p3}.", en: "Studies describe equal perpendicular legs and eight propositions;additional premises remain explicit {cite:vahabzadeh-khayyam-mathematician author-p3}.", ur: "مطالعات مساوی عمودی ساقیں و آٹھ قضیے بتاتے؛اضافی مفروضے واضح رہتے {cite:vahabzadeh-khayyam-mathematician author-p3}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-declared-frame
+      summary: { ar: "الإطار السني المعلن يحفظ هوية الخيام المسلمة الموثقة وتباين الأخبار عنه؛لا مذهب شخصي مستنتج من الهندسة {cite:sep-umar-khayyam sec2.7}.", en: "Declared Sunni frame retains documented Muslim philosophical voice and disputed reports;geometry does not prove a personal school {cite:sep-umar-khayyam sec2.7}.", ur: "اعلانیہ سنی فریم میں مستند مسلم فلسفیانہ آواز اور مختلف روایات محفوظ؛ہندسہ ذاتی مسلک کا ثبوت نہیں {cite:sep-umar-khayyam sec2.7}۔" }
+      sources: [source/sep-umar-khayyam, source/tdv-omer-hayyam-unat]
+    - tradition: academic
+      id: reconstruction-not-independent-proof
+      summary: { ar: "ستانفورد يشدد على استبدال البداية؛وهاب زاده يشرح برهاناً من مقدمات فلسفية مكافئة. ليس برهاناً من بقية المصادرات وحدها {cite:sep-umar-khayyam sec4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}.", en: "Stanford stresses replacement;Vahabzadeh explains proof from philosophically admitted equivalent premises. Neither yields proof from remaining axioms alone {cite:sep-umar-khayyam sec4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}.", ur: "اسٹینفورڈ نئی ابتدا،وہاب زادہ فلسفیانہ تسلیم مساوی مفروضوں سے برہان سمجھاتا؛باقی مسلموں سے تنہا ثبوت نہیں {cite:sep-umar-khayyam sec4.2} {cite:vahabzadeh-khayyam-mathematician author-p3}۔" }
+      sources: [source/sep-umar-khayyam, source/vahabzadeh-khayyam-mathematician]
+precursors:
+  - external: { ar: "تقليد المتوازيات قبل الخيام", en: "Pre-Khayyam parallel investigations", ur: "خیام سے پہلے متوازی تحقیق" }
+    note: "Euclid,Proclus,Jawhari,Thabit and Ibn al-Haytham discussed by Vahabzadeh,not all original works independently read."
+    sources: [source/vahabzadeh-khayyam-mathematician]
+dependents:
+  - external: { ar: "تلقي ناصر الدين الطوسي ومقارنة ساكيري", en: "Nasir al-Din's reception and Saccheri comparison", ur: "نصیر الدین کی قبولیت اور ساکیری سے تقابل" }
+    note: "Reported textual reuse by Nasir,1733comparison later;not a demonstrated direct European route or modern non-Euclidean-system priority."
+    sources: [source/vahabzadeh-khayyam-mathematician, source/sep-umar-khayyam]
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "جعل الفرضيات ومسار ترتيب المتوازيات موضوع تحليل {cite:sep-umar-khayyam sec4.2}.", en: "Made assumptions and the organization of parallel theory objects of analysis {cite:sep-umar-khayyam sec4.2}.", ur: "مفروضوں اور متوازی نظریے کی ترتیب کو تجزیے کا موضوع بنایا {cite:sep-umar-khayyam sec4.2}۔" }
+  history: { ar: "إسهام محدد في تقويم البناء الإقليدي،لا اختراع كامل للهندسات الحديثة {cite:sep-umar-khayyam sec4.2}.", en: "A contribution to rebuilding Euclidean foundations,not complete invention of modern geometries {cite:sep-umar-khayyam sec4.2}.", ur: "اقلیدسی بنیادوں کی نئی ترتیب میں اضافہ،جدید ہندسوں کی مکمل ایجاد نہیں {cite:sep-umar-khayyam sec4.2}۔" }
+  significance: 3
+  why: "Distinct systematic summit-angle/axiom reconstruction with explicit logical limits and documented textual reception."
+described_in: [work/khayyam-euclid-commentary]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تعليم الفرق بين الرسم والفرضية والبرهان.", en: "Teaching the difference between drawing,assumption and proof.", ur: "رسم،مفروضے اور برہان کا فرق سکھانا۔" }
+  descendants: { ar: "لا نسب مثبت لأينشتاين أو كل هندسة لاحقة.", en: "No demonstrated lineage to Einstein or every later geometry.", ur: "آئن سٹائن یا ہر بعد کی ہندسہ کا ثابت نسب نہیں۔" }
+media: { image: media/khayyam-quadrilateral-context, diagram: media/diagram-khayyam-parallels }
+kids: { ar: "اسأل ماذا افترضنا قبل أن نحكم أن الشكل مستطيل.", en: "Ask what we assumed before deciding the figure is a rectangle.", ur: "مستطیل کا فیصلہ کرنے سے پہلے پوچھیں ہم نے کیا فرض کیا۔" }
+sources: [source/vahabzadeh-khayyam-mathematician, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat, source/khayyam-mactutor, source/commons-saccheri-quads]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b73", source: "Actual selected Vahabzadeh/Stanford4.2/Unat and complete MacTutor;primary commentary/editions not read. Modern coordinate example explicitly assumes Euclidean plane;media lettering distinct." }

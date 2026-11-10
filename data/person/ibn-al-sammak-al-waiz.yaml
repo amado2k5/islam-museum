@@ -1,0 +1,23 @@
+id: person/ibn-al-sammak-al-waiz
+class: person
+label: { ar: "ابن السماك الواعظ البغدادي", en: "Ibn al-Sammak the preacher" }
+summary:
+  ar: "أحمد بن الحسين بن أحمد أبو الحسين الواعظ، ولد سنة ثلاثين وثلاثمائة؛ وعظ في جامع المنصور وجامع المهدي على طريق المتصوفة، ومن نوادره أنه سُئل عن الأبابيل فقال «ألف سخط الأترى». وذُكر فيمن اتُّهم بالكذب في الحديث مع أبي الفتح المصري. مات في ذي الحجة سنة ٤٢٤ ودُفن بباب حرب {cite:muntazam-ibn-al-jawzi j.8 p.418}."
+gender: male
+born: { edtf: "0942~", hijri: "0330", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ٣٣٠ {cite:muntazam-ibn-al-jawzi j.8 p.418}." }
+died: { edtf: "1033-11~", hijri: "0424-12", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في ذي الحجة ٤٢٤ {cite:muntazam-ibn-al-jawzi j.8 p.418}." }
+wings: [people]
+roles: [scholar, mystic]
+themes: [spirituality-and-sufism, humour-and-everyday-life]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: buried_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٤)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch23
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

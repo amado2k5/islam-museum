@@ -1,16 +1,17 @@
 id: person/abu-hurayra
 class: person
-label: { en: "Abu Hurayra", ar: "أبو هريرة" }
+label: { en: "Abu Hurayra", ar: "أبو هريرة" , ur: "ابو ہریرہ"}
 names:
   - { kind: full, lang: ar, value: "عبد الرحمن بن صخر الدوسي" }
 gender: male
 born: { edtf: "0603~", calendar: julian, precision: decade, status: tradition, note: "Born among the tribe of Daws in the Yemeni highlands; date approximate.", sources: [source/ibn-sad-tabaqat-bewley] }
 died: { edtf: "0681~", calendar: julian, precision: year, status: debated, note: "Reports give 57–59 AH (about 678–681 CE).", sources: [source/ibn-sad-tabaqat-bewley] }
 roles: [companion, scholar]
-traditions: [sunni, shia-twelver]
+traditions: [sunni]
 summary:
-  en: "A convert of the Khaybar years who became, by far, the most prolific narrator of hadith in the Sunni collections — a fact celebrated by the tradition and debated by scholars."
-  ar: "ممن أسلم زمن خيبر وصار، بفارق كبير، أكثر رواة الحديث في دواوين السنة — وهي حقيقة يحتفي بها التراث ويناقشها الباحثون."
+  en: "A convert of the Khaybar years who became, by far, the most prolific narrator of hadith in the Sunni collections — a fact celebrated by the tradition and debated by scholars. Al-Isaba's kunya entry (no. 10725) records the dispute over his name and his father's: one report has him named Abd Shams ibn Sakhr in the Jahiliyya until the Prophet named him Abd al-Rahman and gave him the kunya Abu Hurayra for the kitten he carried in his sleeve {cite:ibn-hajar-isaba p. 1786}."
+  ar: "ممن أسلم زمن خيبر وصار، بفارق كبير، أكثر رواة الحديث في دواوين السنة — وهي حقيقة يحتفي بها التراث ويناقشها الباحثون. ويعللها هو في الصحيح بقوله «إني كنت ألزم رسول الله بشبع بطني حتى لا آكل الخمير ولا ألبس الحبير» {cite:sahih-al-bukhari 3708}. وعنده في مسلم حديث «أنا سيد ولد آدم يوم القيامة وأول من ينشق عنه القبر وأول شافع وأول مشفع» {cite:sahih-muslim 2278}، وتذكر الإصابة في ترجمة كنيته رقم ١٠٧٢٥ أن اسمه واسم أبيه مختلف فيهما؛ روي أنه كان اسمه في الجاهلية عبد شمس بن صخر فسماه النبي عبد الرحمن وكناه أبا هريرة لوجد هرة فحملها في كمه {cite:ibn-hajar-isaba p. 1786}."
+  ur: "خیبر کے زمانے میں مسلمان ہونے والے صحابی، جن سے سنی حدیث کے مجموعوں میں سب سے زیادہ روایات منقول ہیں؛ ان کی روایت کی کثرت پر علمی بحث بھی ہوئی ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [scripture-and-its-sciences, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -23,20 +24,43 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: participated_in, target: event/capture-and-islam-of-thumama-ibn-uthal, role: "راوي الخبر عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/early-muslims }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-khaybar, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
+issue: { ar: "كيف يُقدَّر أبو هريرة ورواياته للحديث؟", en: "How is Abu Hurayra and his transmission of hadith assessed?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "Sunni tradition venerates Abu Hurayra as the foremost narrator of hadith: a man who devoted himself to memorizing the Prophet's words, with thousands of reports transmitted through him." }
+    id: sunni
+    summary: { en: "Sunni tradition venerates Abu Hurayra as the foremost narrator of hadith: a man who devoted himself to memorizing the Prophet's words, with thousands of reports transmitted through him.", ar: "تُجِلّه السنة أعلى الرواة — رجلًا وهب نفسه لحفظ كلام النبي." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
-    summary: { en: "Historians and hadith critics note that many reports in his name are later attributions; the sheer volume, produced in about three years of companionship, is treated as a phenomenon of the tradition's growth." }
+    id: academic
+    summary: { en: "Historians and hadith critics note that many reports in his name are later attributions; the sheer volume, produced in about three years of companionship, is treated as a phenomenon of the tradition's growth.", ar: "يشير المؤرخون ونقاد الحديث إلى أن كثيرًا من رواياته إسناد متأخر؛ وحجمه الهائل في ثلاث سنين ظاهرة من نمو التراث." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
-    summary: { en: "Twelver Shia tradition is cautious about Abu Hurayra, accepting his narrations selectively and regarding some as serving later Umayyad interests." }
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition is cautious about Abu Hurayra, accepting his narrations selectively and regarding some as serving later Umayyad interests.", ar: "يتحفظ التراث الإمامي عن أبي هريرة، فيقبل رواياته انتقاءً ويرى بعضها في خدمة مصالح أموية لاحقة." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+external_ids: { wikidata: "Q69326" }
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/ibn-hajar-isaba]
+education:
+  did_you_know:
+    ar: "روى أبو هريرة نحو خمسة آلاف حديث في ثلاث سنين فقط من صحبته."
+    en: "Abu Hurayra narrated about five thousand hadiths in only three years of companionship."
+    ur: "ابوہریرہ نے صرف تین سال کی صحبت میں تقریباً پانچ ہزار احادیث بیان کیں۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance: { layer: copyrighted-reference, source: "Earlier content of this record: provenance was not recorded when it was written (see the record's status line). Section added from Assabile, Tafsir Al Quran Al Qareem (pass5-qwen transcripts; engine Qwen3-ASR, oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: omar-abdelkafy-tafsir-1; lib-wave-21-isaba-1 , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}}
+occupations:
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the second group of Companions, about twenty, whose fatwas make a small book."
+    sources: [source/tdv-fetva]

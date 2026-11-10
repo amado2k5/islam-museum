@@ -1,0 +1,32 @@
+id: person/ahmad-al-sawi
+class: person
+label:
+  ar: "الصاوي"
+  en: "Al-Sawi"
+names:
+  - { value: "الصاوي", kind: full }
+died: { hijri: "1241", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Dates as given in the appendix: 1175-1241 AH." }
+summary:
+  ar: "أحمد بن محمد الخلوتي، الشهير بالصاوي، فقيه مالكي، أخذ عن الدردير والدسوقي، ونسبته إلى «صاء الحجر» في الغربية بمصر، وتوفي بالمدينة المنورة. من مؤلفاته حاشية على تفسير الجلالين، وحاشية على شرح الدردير لأقرب المسالك. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1630}"
+  en: "Ahmad ibn Muhammad al-Khalwati, known as al-Sawi, a Maliki jurist who studied with al-Dardir and al-Dasuqi. His nisba refers to Sa' al-Hajar in the Gharbiyya province of Egypt. He died in Medina. His works include a gloss on the Jalalayn commentary and a gloss on al-Dardir's commentary on Aqrab al-masalik. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1630}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1630 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: died_in, target: place/medina, note: "From text: died in Medina. His", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

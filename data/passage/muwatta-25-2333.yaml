@@ -1,0 +1,15 @@
+id: passage/muwatta-25-2333
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2333"
+label: { ar: "الموطأ 2333 — مالك: عتق المكاتب عبده لا يجوز إلا بإذن سيده", en: "Muwatta 2333" }
+summary:
+  ar: "قال مالك: إن عتق المكاتب عبده غير جائز له إلا بإذن سيده. فإن أجاز السيد ذلك ثم عتق المكاتب كان ولاؤه للمكاتب. وإن مات المكاتب قبل أن يعتق، كان ولاء المعتَق لسيد المكاتب، وإن مات المعتَق قبل أن يعتق المكاتب ورثه سيد المكاتب. {cite:muwatta-maruf-1997 p.361}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2333 at PDF p. 361; ولاء المكاتب إذا أعتق عبده", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b73" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 361; matn excerpt at most 40 words" }

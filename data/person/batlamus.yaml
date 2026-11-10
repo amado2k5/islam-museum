@@ -1,0 +1,23 @@
+id: person/batlamus
+class: person
+label: { ar: "بطليموس", en: "Ptolemy" }
+summary:
+  ar: "بطليموس صاحب كتاب المجسطي وكتاب الجغرافيا الذي عد فيه صاحبه أربعة آلاف مدينة ومائتي مدينة، ذكره المسعودي في أوائل من تقدم في علوم الهيئة قبل من طرأ بعد الإسلام {cite:muruj-al-dhahab p. 519}."
+  en: "Ptolemy — author of the Almagest and the Geography whose 4,200 cities al-Mas'udi cites — first of the astronomers before Islam's own {cite:muruj-al-dhahab p. 519}."
+gender: male
+wings: [people]
+born: { edtf: "100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Toomer (Ptolemy's Almagest)" }
+died: { edtf: "170~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Toomer (Ptolemy's Almagest)" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy]
+status:
+  review: published
+  completeness: 3
+

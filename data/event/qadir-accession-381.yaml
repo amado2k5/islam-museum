@@ -1,0 +1,25 @@
+id: event/qadir-accession-381
+class: event
+kind: other
+label: { ar: "خلع الطائع وبيعة القادر 381هـ", en: "Al-Ta'i' deposed, al-Qadir acclaimed, 381" }
+summary:
+  ar: "في رمضان سنة إحدى وثمانين وثلثمائة قبض بهاء الدولة على الخليفة الطائع لله في داره، فلُفّ في كساء وحُمل إلى الخزانة في دار الملكة، وأُنفذ إليه الكتاب بخلع نفسه وتسليمه الأمر إلى القادر بالله فوقّع بذلك، وأقيمت الخطبة باسم القادر، وحُوّل من دار الخلافة جميع ما فيها من الآلات والثياب والأواني والصاغ والفروش والسلاح والخدم والجواري، وطاف بهاء الدولة دار الخلافة مجلساً مجلساً {cite:muntazam-ibn-al-jawzi j.7 p.160-161}. وكان القادر قد هرب إلى البطيحة عند مهذب الدولة أيام الطائع فأقام بها نحو سنتين حتى أُظهر أمره {cite:muntazam-ibn-al-jawzi j.7 p.147-148, 161}."
+  en: "In Ramadan 381 Baha' al-Dawla's men seized the caliph al-Ta'i' in his palace, wrapped him in a cloak and carried him to the treasury at Dar al-Mamlaka; the deed of self-deposition ceding the rule to al-Qadir was taken to him and he signed it, the khutba was held in al-Qadir's name, and the whole contents of the caliphal palace — vessels, robes, arms, servants and stores — were carried off while Baha' al-Dawla toured it hall by hall. Al-Qadir had himself been a fugitive in the Batiha with Muhdhib al-Dawla for nearly two years under al-Ta'i' {cite:muntazam-ibn-al-jawzi j.7 p.147-148, 160-161}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0991-12~", hijri: "0381-09", calendar: julian, precision: month, status: tradition, derived: true, note: "القبض على الطائع يوم السبت في رمضان 381؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.160}", sources: [source/muntazam-ibn-al-jawzi] }
+sides:
+  - label: { ar: "بهاء الدولة وعسكره" }
+  - label: { ar: "الطائع لله" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+map: { kind: locator, precision: approximate, center: [33.34, 44.39] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 381)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

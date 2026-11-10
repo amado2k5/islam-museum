@@ -1,0 +1,21 @@
+id: person/abu-bakr-ibn-al-harith-ibn-hisham
+class: person
+label: { ar: "أبو بكر بن الحارث بن هشام", en: "Abu Bakr ibn al-Harith ibn Hisham" }
+summary:
+  ar: "قرشي مخزومي نصح الحسين بن علي حين هم بالخروج إلى الكوفة فذكره بما صنعوا بأبيه وأخيه وقال فيقاتلك من وعدك أن ينصرك ويخذلك من أنت أحب إليه ممن ينصره فاذكر الله في نفسك، فقال له الحسين جزاك الله خيراً فقد أجهدك رأيك، فدخل على والي مكة وهو يقول كم نرى ناصحاً يقول فيعصى فقال نصحت له ورب الكعبة {cite:muruj-al-dhahab p. 55}."
+  en: "The Makhzumi cousin whose counsel to al-Husayn survives — 'the one who promised to aid you will fight you; remember God in yourself' — answered with 'may God repay you well; your judgement has exhausted itself' {cite:muruj-al-dhahab p. 55}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "685~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd, al-Tabaqat al-Kubra; al-Mizzi, Tahdhib" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (قرشي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

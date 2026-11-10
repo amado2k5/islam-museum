@@ -1,0 +1,38 @@
+id: place/surabaya
+class: place
+kind: city
+label:
+  ar: سورابايا
+  en: Surabaya
+  ur: سورابایا
+summary:
+  ar: ثاني كبرى مدن إندونيسيا وميناؤها في شرق جاوة.
+  en: Indonesia's second-largest city and main port in East Java.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- -7.24628
+- 112.73777
+coordinate_precision: locality
+coordinate_note: Wikidata Q11462 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q11462
+  geonames: '1625822'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q11462 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q11462 (labels, coordinates, description)

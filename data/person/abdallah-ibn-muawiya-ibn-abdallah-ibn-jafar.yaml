@@ -1,0 +1,23 @@
+id: person/abdallah-ibn-muawiya-ibn-abdallah-ibn-jafar
+class: person
+label: { ar: "عبد الله بن معاوية بن عبد الله بن جعفر", en: "'Abd Allah ibn Mu'awiya ibn Ja'far" }
+summary:
+  ar: "طالبي احتوى على بلاد اصطخر وغيرها من أرض فارس في فتنة آخر بني أمية إلى أن رفع عنها فصار إلى خراسان فقبض عليه أبو مسلم، وله من يقول بإمامته وينقاد إلى دعوته {cite:muruj-al-dhahab p. 229}."
+  en: "The Ja'farid Talibi who held Istakhr and Fars in the last Umayyad fitna, then fled to Khurasan where Abu Muslim seized him — a sect claiming his imamate {cite:muruj-al-dhahab p. 229}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+external_ids: { wikidata: "Q4666114" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: traveled_to, target: place/khurasan, note: "From text: fled to Khurasan", sources: [source/muruj-al-dhahab] }

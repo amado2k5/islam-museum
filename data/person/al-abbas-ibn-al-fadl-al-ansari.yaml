@@ -1,0 +1,34 @@
+id: person/al-abbas-ibn-al-fadl-al-ansari
+class: person
+label:
+  ar: "العباس بن الفضل الأنصاري"
+  en: "Al-Abbas ibn al-Fadl al-Ansari"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لالعباس بن الفضل الأنصاري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Al-Abbas ibn al-Fadl al-Ansari; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q134282968
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "871", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Hatim (al-Jarh)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

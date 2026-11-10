@@ -1,0 +1,29 @@
+id: person/muhammad-al-ghazali-modern
+class: person
+label: { ar: "محمد الغزالي", en: "Muhammad al-Ghazali" }
+aliases: [person/muhammad-al-ghazali-al-misri]
+gender: male
+summary:
+  ar: "الشيخ محمد الغزالي، مؤلف كتاب «الإسلام والمناهج الاشتراكية» الذي يذكر تقديمه أنه ألّفه سنة 1947 تكملة لكتابه «الإسلام والأوضاع الاقتصادية» {cite:islam-wal-manahij-nahdat-misr-2005 p.2}. هذا الغزالي غير أبي حامد الغزالي المتقدم، ولا يُخلط بينهما."
+roles: [scholar, writer]
+wings: [people]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+born: { edtf: "1917", hijri: "1336", calendar: gregorian, precision: year, status: historical, note: "ولدت سنة 1336هـ الموافق سنة 1917م، بقلمه في خطبه ج1 ص 13", sources: [source/khutab-al-ghazali-dar-al-itisam-vol1] }
+died: { edtf: "1996", precision: year, status: tradition, derived: true }
+provenance:
+  layer: own-research
+  source: "الإسلام والمناهج الاشتراكية، نهضة مصر، الطبعة الرابعة، 2005 (صفحة العنوان p2 ودراسة p5). تاريخ الميلاد والوفاة لم يرد في الكتاب ولم يُضف: يحتاج إلى مصدرين."
+  generated_by: "Claude Haiku 5.5 (library-expansion)"
+  model: claude-haiku-5-5
+  run: "lib-exp-batch-1"
+relations:
+  - { type: authored, target: work/khutab-muhammad-al-ghazali, sources: [source/khutab-al-ghazali-dar-al-itisam-vol1] }
+  - { type: born_in, target: place/nekla-el-enab, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12248881)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+sources: [source/islam-wal-manahij-nahdat-misr-2005, source/al-aalam, source/assabile-omar-abdelkafy, source/khutab-al-ghazali-dar-al-itisam-vol1, source/wikipedia-king-faisal-prize-en]
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1989, sources: [source/wikipedia-king-faisal-prize-en] }
+external_ids:
+  wikidata: Q3068445
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }

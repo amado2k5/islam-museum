@@ -1,0 +1,36 @@
+id: person/isa-ibn-abd-al-aziz-al-jaziri
+class: person
+label: { ar: "عيسى بن عبد العزيز الجزولي", en: "Isa ibn Abd al-Aziz al-Jazuli" }
+names:
+  - { kind: full, lang: ar, value: "عيسى بن عبد العزيز بن يلبخت الجزولي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1210", hijri: "0607", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مغربي من أهل البربر، ومعنى اسمه بالبربرية صاحب البخت."
+  en: "A Maghribi jurist of Berber origin. His name means the owner of good fortune in Berber."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص276"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch59
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

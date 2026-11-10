@@ -1,0 +1,31 @@
+id: person/umur-beg
+class: person
+label:
+  ar: "عمر بك الآيدني"
+  en: "Umur Beg of Aydin"
+roles: [ruler, military]
+gender: male
+summary:
+  ar: "عمر بك بن آيدين، أمير الإمارة البحري وحليف يوحنا السادس كانتاكوزينوس، قُتل سنة 1348م وهو يحاول استرداد قلعة إزمير {cite:encyclopaedia-of-islam-2 vol. 1 p. 832}."
+  en: "Umur Beg ibn Aydin, seafaring emir of the Aydın-oghlu and ally of John VI Cantacuzenus, killed in 1348 while trying to retake the fortress of İzmir {cite:encyclopaedia-of-islam-2 vol. 1 p. 832}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1309~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
+died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
+relations:
+  - { type: born_in, target: place/aydin, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170457)" }
+  - { type: died_in, target: place/izmir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35997)" }
+sources:
+- source/bosworth-new-islamic-dynasties-1996
+- source/dawlat-uthmaniyya-salabi
+- source/encyclopaedia-of-islam-2
+external_ids:
+  wikidata: Q717084
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book sources: Bosworth, The New Islamic Dynasties (1996); al-Sallabi, al-Dawla al-Uthmaniyya; Encyclopaedia of Islam, 2nd ed., vol. 1 p. 832, entry AYDIN-OGHLU (queue seq 440)"
+  generated_by: "Devin (SWE-2 High); enriched by Claude Code (claude-haiku-5-5), EI2 vol. 1 pp. 829-832, batch ei2-b018"
+  model: "SWE-2 High"
+  run: wikidata-import-0020
+status: { review: published, completeness: 2 }

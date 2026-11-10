@@ -1,0 +1,23 @@
+id: person/shuayb-ibn-mihdam
+class: person
+label: { ar: "شعيب بن مهدم", en: "Shu'ayb ibn Mihdam" }
+summary:
+  ar: "نبي بعثه الله إلى بني حضورا وهو غير شعيب بن نويل صاحب مدين وبينهما مئون من السنين كما قال المسعودي، فلما اشتد كفرهم وجد في دعائهم وتوعدهم قتلوه من بعد ظهور معجزات كانت له، فلم يضع الله دمه وانتقم له على يد بختنصر {cite:muruj-al-dhahab p. 464}."
+  en: "The prophet sent to Banu Hudura — distinct from Shu'ayb of Madyan by centuries; they killed him after his signs appeared, and Bukhtanassar avenged him at Barkhya's word {cite:muruj-al-dhahab p. 464}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic Arabian figure (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }

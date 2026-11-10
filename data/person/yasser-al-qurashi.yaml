@@ -1,0 +1,40 @@
+id: person/yasser-al-qurashi
+class: person
+label: { ar: "ياسر القرشي", en: "Yasser Al-Qurashi", ur: "یاسر القرشی" }
+names:
+  - { value: "ياسر عبد الله إبراهيم أحمد قريشي", kind: full }
+  - { value: "Yasser Abdullah Ibrahim Ahmed Qureshi", kind: full }
+  - { value: "ياسر قريشي", kind: alternate }
+  - { value: "Yasser Qureshi", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري وُلد سنة 1976 في قرية دير الجنادلة بمحافظة أسيوط. حفظ القرآن في قريته ثم في القاهرة، وحصل على إجازات في رواية حفص والتجويد والقراءات العليا، وكان إمامًا وخطيبًا بمسجد موسى بن نصير بمدينة الشروق في القاهرة، ثم انتقل إلى مسجد في الإمارات؛ وله مصحف مرتل كامل متداول عالميًا."
+  en: "Egyptian Qur'an reciter born in 1976 in the village of Deir Ganadleh in Asyut province. He memorised the Qur'an in his village and then in Cairo, earned ijazas in the Hafs reading, in tajwid and in the higher readings, served as imam and preacher at the Musa ibn Nusayr Mosque in Al-Shorouk City, Cairo, and later joined a mosque in the United Arab Emirates; his complete recorded murattal circulates worldwide."
+  ur: "مصری قاریِ قرآن، جو 1976ء میں صوبہ اسیوط کے گاؤں دیر الجنادلہ میں پیدا ہوئے۔ انھوں نے اپنے گاؤں اور پھر قاہرہ میں قرآن حفظ کیا، روایتِ حفص، تجوید اور قراءاتِ علیا میں اجازات حاصل کیں، قاہرہ کے شہر الشروق میں مسجد موسیٰ بن نصیر کے امام و خطیب رہے، پھر متحدہ عرب امارات کی ایک مسجد سے وابستہ ہوئے؛ ان کا مکمل مرتل مصحف دنیا بھر میں رائج ہے۔"
+roles: [reciter]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1976"
+  hijri: "1396~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year only, from the Assabile biography, which gives his birth in 1976 in the village of Deir Ganadleh in Asyut province, Egypt. The Hijri year is an approximate conversion of the Gregorian year. Deir Ganadleh has no place entity in the museum yet, so the born_in relation uses Asyut, its province."
+  sources: [source/assabile-yasser-qureshi-en]
+relations:
+  - { type: born_in, target: place/asyut, sources: [source/assabile-yasser-qureshi-en] }
+  - { type: lived_in, target: place/cairo, sources: [source/assabile-yasser-qureshi-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The only biographical source read, Assabile's biography, names no school, madhhab or creed for him: it records his memorisation of the Qur'an, his ijaza in the Hafs reading and his imamate, none of which attests a school. Not recorded until a source names a school for him."
+    sources: [source/assabile-yasser-qureshi-en]
+sources: [source/assabile-yasser-qureshi-en]
+provenance:
+  layer: own-research
+  source: "Assabile's English biography 'Yasser Qureshi: full Quran recitation and biography' (assabile.com/yasser-qureshi), read in full on 26 October 2026. No Wikipedia article in any language and no Wikidata item exists for him (Arabic, English, Urdu, Indonesian and Malay Wikipedia and Wikidata searched on 26 October 2026). His identity is grounded on the biography's full name (Yasser Abdullah Ibrahim Ahmed Qureshi), his birth year 1976 and his reciter biography, matching the queue line 'Yasser Al-Qurashi — 1976–Living'; the surname appears as Qureshi (قريشي) in the biography and as Al-Qurashi (القرشي) in the queue and in his recordings' listings, and both spellings are carried in the record's names. His teachers named by the biography (Shaker, Khalaf Hassan, Kamal Omar Ali) have no museum records, so no student_of relations are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-66
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

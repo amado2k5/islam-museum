@@ -1,0 +1,37 @@
+id: person/abu-abd-al-rahman-al-muayti
+class: person
+label:
+  ar: "أبو عبد الرحمن المعيطي"
+  en: "al-Mu'ayti"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي عبد الرحمن المعيطي، المحدث المالكي في المشرق؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Abd al-Rahman al-Mu'ayti, the Maliki hadith scholar in the east; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1041", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q52153331
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: born_in, target: place/misr, note: "Wikidata Q79 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/ketama, note: "Wikidata Q6395311 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

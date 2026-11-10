@@ -1,0 +1,30 @@
+id: person/al-mansur-fakhr-al-din-uthman
+class: person
+label:
+  ar: "المنصور فخر الدين عثمان"
+  en: "al-Mansur Fakhr al-Din Uthman"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية للمنصور فخر الدين عثمان، سلطان المماليك الذي حكم قصيراً سنة ١٤٥٣م بين عهدي عثمان بن إينال وإينال؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Mansur Fakhr al-Din Uthman, the Mamluk sultan who ruled briefly in 1453 between the reigns of Uthman ibn Inal and Inal; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile, levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/nomisma]
+external_ids:
+  nomisma: "al-mansur_fakhr_al-din_'uthman"
+  wikidata: Q2829237
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0022
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Uthman" }
+died: { edtf: "1484", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Uthman" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

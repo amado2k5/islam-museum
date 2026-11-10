@@ -1,0 +1,27 @@
+id: event/yaqut-damascus-incident-613
+class: event
+kind: other
+label:
+  ar: "فتنة دمشق: مناظرة كادت تقتل ياقوت وهروبه من البلد، ٦١٣هـ/١٢١٦م"
+  en: "The Damascus affair: a debate that nearly cost Yaqut his life, and his flight, 613/1216"
+  ur: "دمشق کا واقعہ: مناظرہ جس میں یاقوت کی جان جانے سے بچی اور فرار، 613ھ/1216ء"
+summary:
+  ar: "توجه إلى دمشق سنة ٦١٣هـ/١٢١٦م وقعد في بعض أسواقها، فناظر بغدادياً متعصباً لصحابي وجرى بينهما كلام أدى إلى ذكره بما لا يسوغ، فثار عليه الناس ثورة كادوا يقتلونه، وبلغ الخبر الوالي المعتمد الموصلي فطالبه فلم يقدر عليه، وخرج منهزماً إلى حلب خائفاً يترقب {cite:shadharat-dhahab p. 121} {cite:mawsuat-a3lam-ulama-adaba p. 277}؛ وكان قد اطلع على شيء من كتب الخوارج فعلق في ذهنه منها طرف قوي {cite:shadharat-dhahab p. 121}."
+  en: "He went to Damascus in 613/1216 and sat in one of its markets, where he debated a Baghdadi partisan of a Companion; the exchange led him to speak of the Companion in an impermissible way, the crowd rose and nearly killed him, and when the report reached the governor al-Mu'tamad al-Mawsili he was sought — but had already fled, terrified, to Aleppo {cite:shadharat-dhahab p. 121} {cite:mawsuat-a3lam-ulama-adaba p. 277}. He had earlier read Kharijite books, and a strong streak of them had stuck in his mind {cite:shadharat-dhahab p. 121}."
+  ur: "613ھ/1216ء میں دمشق گیا اور ایک بازار میں بیٹھا جہاں اس نے ایک بغدادی سے مناظرہ کیا جو کسی صحابی کا متعصب تھا؛ گفتگو اس پر منتج ہوئی کہ اس نے صحابی کے بارے میں ناجائز بات کہی، لوگ ان پر چڑھ دوڑے اور قتل ہی کرتے کہ والی معتمد موصلی کو خبر پہنچی، اسے طلب کیا مگر وہ خوف زدہ ہو کر حلب بھاگ آیا {cite:shadharat-dhahab p. 121} {cite:mawsuat-a3lam-ulama-adaba p. 277}. اس نے پہلے خارجیوں کی کتابیں پڑھی تھیں جن کا اثر ذہن میں رہ گیا تھا {cite:shadharat-dhahab p. 121}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1216", hijri: "0613", calendar: julian, precision: year, status: tradition, derived: true, note: "توجه إلى دمشق سنة ثلاث عشرة {cite:shadharat-dhahab p. 121} {cite:mawsuat-a3lam-ulama-adaba p. 277}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

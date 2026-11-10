@@ -1,0 +1,21 @@
+id: place/parepare
+class: place
+kind: city
+label: { ar: "باري باري", en: "Parepare", ur: "پاری پاری" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q14636)."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [-4.0166666666667, 119.62361111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q14636" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q14636 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

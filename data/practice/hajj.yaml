@@ -1,0 +1,67 @@
+id: practice/hajj
+class: practice
+kind: pillar
+label:
+  ar: الحج
+  en: Hajj (the pilgrimage to Mecca)
+summary:
+  ar: قصد البيت الحرام بمكة لأداء مناسك مخصوصة، وهو أحد أركان الإسلام الخمسة؛ فرضه القرآن على الناس «لمن استطاع إليه سبيلاً» وجاء فيه الأمر بالأذان بالحج في الناس. ويذكر الموطأ في أول كتاب الحج أن أسماء بنت عميس ولدت محمد بن أبي بكر بالبيضاء فأمرها أبو بكر أن تغتسل ثم تهلل، وأن عبد الله بن عمر كان يغتسل لإحرامه وقبل دخوله مكة ولوقوفه بعرفة، ويورد خلاف ابن عباس والمسور بن مخرمة في غسل المحرم رأسه {cite:muwatta-maruf-1997 p. 433-435}
+  en: The journey to the Sacred House at Mecca to perform prescribed rites, one of the five pillars; the Qur'an makes it a duty for those who are able to make the way there, and tells of the call to proclaim it to the people. The Muwatta opens its Book of Hajj with Asma bint Umays giving birth to Muhammad ibn Abi Bakr at al-Bayda', whereupon Abu Bakr told her to perform ghusl and then ihram at the Prophet's word; it records that Abdullah ibn Umar used to bathe for his ihram, for entering Mecca and for standing at Arafat, and preserves the dispute between Ibn Abbas and al-Miswar ibn Makhrama over whether the pilgrim in ihram may wash his head {cite:muwatta-maruf-1997 p. 433-435}
+wings: []
+themes:
+- sacred-space-and-pilgrimage
+- worship-and-the-pillars
+periods:
+- period/prophetic-era
+regions:
+- global
+obligation: obligatory
+when:
+  ar: في أشهر الحج، لمن استطاع
+  en: in the pilgrimage season, for those able
+scriptural_basis:
+- passage/quran-3-97
+- passage/quran-22-27
+- passage/quran-2-196
+basis:
+- tradition: sunni
+  value: scriptural
+relations:
+- type: based_on
+  target: passage/quran-3-97
+  sources:
+  - source/tanzil-quran
+- type: based_on
+  target: passage/quran-22-27
+  sources:
+  - source/tanzil-quran
+- type: based_on
+  target: passage/quran-2-196
+  sources:
+  - source/tanzil-quran
+provenance:
+  layer: own-research
+  source: صحيح البخاري 8 و46 و50؛ القرآن
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: core-concepts-1; lib-wave-21-muwatta-malik-1
+external_ids: { wikidata: "Q234915" }
+sources:
+- source/fiqh-mawsua-kuwaitiyya-noor-v3
+- source/sahih-al-bukhari
+- source/tanzil-quran
+- source/assabile-omar-abdelkafy
+- source/muwatta-maruf-1997
+education:
+  did_you_know:
+    ar: "كان الناس يطوفون بالبيت قبل الإسلام أيضاً؛ أعاد حجُّ سنة 9هـ البيتَ إلى توحيد إبراهيم وإسماعيل."
+    en: "People circled the Kaaba even before Islam; the pilgrimage of year 9 AH restored the House to the monotheism of Ibrahim and Ismail."
+    ur: "لوگ اسلام سے پہلے بھی کعبہ کا طواف کرتے تھے؛ 9ھ کے حج نے گھر کو ابراہیم اور اسماعیل کی توحید پر لوٹایا۔"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/sahih-al-bukhari]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 3
+  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text

@@ -1,0 +1,29 @@
+id: person/mirdas-ibn-nahik
+class: person
+label: { ar: "مرداس بن نهيك", en: "Mirdas ibn Nahik" }
+names:
+  - { kind: full, lang: ar, value: "مرداس بن نهيك" }
+  - { kind: nisba, lang: ar, value: "الحُرَقي الجهني" }
+gender: male
+summary:
+  ar: "حليف لبني مرة من الحرقة من جهينة؛ قتله أسامة بن زيد ورجل من الأنصار في غزوة غالب بن عبد الله أرض بني مرة بعدما قال: أشهد أن لا إله إلا الله، فأنكر النبي على أسامة قتله."
+  en: "An ally of Banu Murra from al-Huraqa of Juhayna; killed by Usama ibn Zayd and an Ansari in Ghalib ibn Abdullah's raid on Banu Murra after saying 'I testify there is no god but God', for which the Prophet rebuked Usama."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "قُتل في غزوة غالب أرض بني مرة؛ تاريخها غير مذكور عند ابن إسحاق (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/juhayna, note: "من الحرقة من جهينة", sources: [source/ibn-hisham-saqqa] }
+  - { type: allied_with, target: group/banu-murra, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "المقتول بعد نطقه بالشهادة", sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 271"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

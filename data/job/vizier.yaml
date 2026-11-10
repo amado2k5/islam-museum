@@ -1,0 +1,39 @@
+id: job/vizier
+class: job
+label: { ar: "الوزير", en: "Vizier", ur: "وزیر" }
+summary:
+  ar: "الوزير هو أعلى من يتولّى تدبير الدولة بعد الحاكم في الدول الإسلامية. نشأت الوزارة مؤسسةً منتظمة في العهد العباسي، وكان وزير التفويض نائباً عن الخليفة فيما فوّضه إليه. وفي الدولة العثمانية صار الوزراء أعضاء الديوان الهمايوني يتقدّمهم الصدر الأعظم، ثم صار لقب الوزير بعد الإصلاحات في القرن التاسع عشر رتبةً بروتوكولية."
+  en: "The vizier was the most senior administrator after the ruler in Islamic states. The office became an organised institution in the Abbasid period, when a vizier of delegated powers acted for the caliph in what the caliph entrusted to him. In the Ottoman state the viziers sat in the imperial council under the first vizier, the grand vizier, and after the reforms of the nineteenth century the title became a protocol rank."
+  ur: "وزیر اسلامی ریاستوں میں حکمران کے بعد سب سے بڑا منتظم تھا۔ عباسی دور میں یہ منصب باقاعدہ ادارہ بنا، اور تفویض کا وزیر خلیفہ کی طرف سے سونپے گئے امور میں اس کا نائب تھا۔ عثمانی ریاست میں وزراء دیوانِ ہمایوں کے رکن تھے جن کا سربراہ صدرِ اعظم ہوتا تھا، اور اصلاحات کے بعد یہ لقب ایک پروٹوکول رتبہ رہ گیا۔"
+domain: court-administration
+kind: office
+hirfa: false
+era:
+  origins: early-caliphate
+  first_attested:
+    edtf: "0661/0750"
+    precision: century
+    status: historical
+    note: "The entry places the title under Muawiya (Ziyad ibn Abih) and under Abd al-Malik (Rawh ibn Zinba'), and the first Abbasid vizier, Abu Salama al-Hallal, under the first Abbasid caliph. The passage gives no year for any of them; the range runs from the Umayyad period to the start of the Abbasid caliphate, and the entry does not treat the earlier uses as an office."
+    sources: [source/tdv-vezir]
+  status_today: transformed
+places:
+  - place: place/istanbul
+    note: "The entry places the Ottoman vizierate in the imperial council (Divan-i Humayun) at Istanbul; the council's dome viziers sat there and the outside viziers served in the provinces."
+    sources: [source/tdv-vezir]
+regions: [levant-iraq, persia-central-asia, anatolia-balkans]
+organization:
+  organized: court-office
+training:
+  mode: mixed
+  certification: "No formal training is recorded. The entry says that Abbasid viziers were often drawn from the secretarial class, and that Ottoman viziers came from the military, the chancery or the learned class. Appointment was by the caliph's letter in the Abbasid state and by the sultan's imperial hand-letter in the Ottoman state."
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/gunpowder-empires]
+sources: [source/tdv-vezir, source/tdv-said-halim-pasha, source/tdv-mehmed-emin-pasa-kibrisli]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'VEZİR' (vol. 43, pp. 79–82; F. Y. Ayaz for the origin and the Abbasid part, H. İnalcık for the Ottoman part), read in the web edition on 1 Nov 2026, Karakhanid, Ayyubid, Fatimid, Ilkhanid and Mamluk parts not read; TDV 'MEHMED EMİN PAŞA, Kıbrıslı' (vol. 28, pp. 463–464) and TDV 'SAİD HALİM PAŞA' (vol. 35, pp. 557–560) for the two holders, read the same day. Rewritten by Claude Code. Museum graph at this commit: 135 holders from roles and 268 prose leads, read as census only"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-vizier"
+status: { review: published, completeness: 2 }

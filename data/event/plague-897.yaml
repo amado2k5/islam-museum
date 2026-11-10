@@ -1,0 +1,19 @@
+id: event/plague-897
+class: event
+kind: epidemic
+label: { ar: "الطاعون العام 897هـ", en: "The General Plague of 897" }
+summary:
+  ar: "في شذرات الذهب سنة سبع وتسعين وثمان مئة كان الطاعون العام العجيب الذي لم يسمع بمثله حتى قيل أن ربع أهل الأرض ماتوا {cite:shadharat-dhahab p. 368}."
+  en: "Shadharat registers for 897 'the wondrous general plague, the like of which was unheard, till it was said a quarter of the earth's people died' {cite:shadharat-dhahab p. 368}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [global]
+date:
+  start: { edtf: "1491/1492", hijri: "0897", calendar: julian, precision: year, status: tradition, derived: true, note: "897؛ التحويل مشتق {cite:shadharat-dhahab p. 368}." }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 361, 368"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-76
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

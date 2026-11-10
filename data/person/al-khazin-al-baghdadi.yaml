@@ -1,0 +1,29 @@
+id: person/al-khazin-al-baghdadi
+class: person
+label:
+  ar: "علاء الدين الخازن البغدادي"
+  en: "al-Khazin al-Baghdadi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلاء الدين علي بن محمد الخازن البغدادي، مفسر ومحدث القرن الرابع عشر صاحب «لباب التأويل»، توفي سنة ١٣٤١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ala al-Din Ali ibn Muhammad al-Khazin al-Baghdadi, the fourteenth-century exegete and muhaddith author of Lubab al-Ta'wil, d. 1341; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q17521123
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0044
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1279", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 3/209; d. 741 AH)" }
+died: { edtf: "1341", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi / Ibn Hajar (al-Durar al-Kamina 3/209; d. 741 AH)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,21 @@
+id: person/abu-hazim-al-araj
+class: person
+label: { ar: "أبو حازم الأعرج", en: "Abu Hazim al-A'raj" }
+summary:
+  ar: "الزاهد الواعظ، سأله سليمان بن عبد الملك ما لنا نكره الموت فقال لأنكم عمرتم دنياكم وأخربتم آخرتكم فأنتم تكرهون النقلة من العمران إلى الخراب، وقال كيف القدوم على الله فقال أما المحسن فكالغائب يأتي أهله مسروراً وأما المسيء فكالعبد الآبق يأتي مولاه محزوناً {cite:muruj-al-dhahab p. 167-168}. ويذكر الكتاب أن سليمان بن عبد الملك دعاه حين حج سنة 97هـ، فنصحه أبو حازم بتقوى الله وبأن يعرض عمله على كتاب الله، وأن من أفضل الأعمال أداء الفرائض مع اجتناب المحارم، ورفض عطاءه. {cite:salabi-umayyad-state-2020 p.149-151}"
+  en: "The ascetic whose counsel to Sulayman — 'you loathe death because you built your world and ruined your next; the doer of good arrives like a traveller to his folk rejoicing' {cite:muruj-al-dhahab p. 167-168}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "757", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/medina, note: "The Medinan ascetic who counselled the caliph Sulayman ibn Abd al-Malik.", sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715], confidence: medium }

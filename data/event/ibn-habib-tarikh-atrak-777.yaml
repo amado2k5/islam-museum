@@ -1,0 +1,27 @@
+id: event/ibn-habib-tarikh-atrak-777
+class: event
+kind: other
+label:
+  ar: "ابن حبيب يختم «تاريخ دولة الترك» عند سنة ٧٧٧هـ"
+  en: "Ibn Habib brings his Tarikh Dawlat al-Atrak down to 777/1376"
+  ur: "ابن حبیب نے «تاریخ دولۃ ترک» 777ھ/1376ء تک پہنچائی"
+summary:
+  ar: "أنها ابن حبيب تاريخه «دولة الترك» — وهو «درة الأسلاك في دولة الأتراك» — إلى سنة سبع وسبعين وسبعمائة، وذيّل عليه ولده أبو العز طاهر {cite:nujum-zahira 11/189}؛ وعند الزركلي أنه أرّخ به أخبارهم من سنة ٦٤٨هـ إلى ٧٧٨هـ {cite:al-aalam 2/218-219}."
+  en: "Ibn Habib carried his Tarikh Dawlat al-Atrak — the Durrat al-Aslak fi Dawlat al-Atrak — down to the year 777, and his son Abu al-'Izz Tahir added a continuation {cite:nujum-zahira 11/189}; al-Zirikli describes it as recording their annals from 648 to 778 {cite:al-aalam 2/218-219}."
+  ur: "ابن حبیب نے اپنی «تاریخ دولۃ ترک» — یعنی «درۃ الاسلاک فی دولۃ الاتراک» — سن 777ھ تک پہنچائی، اور بیٹے ابو العز طاہر نے اس پر ذیل لکھی {cite:nujum-zahira 11/189}؛ زرکلی کے مطابق اس نے ان کے واقعات 648ھ سے 778ھ تک درج کیے {cite:al-aalam 2/218-219}."
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1376", hijri: "0777", calendar: julian, precision: year, status: tradition, derived: true, note: "أنهاه إلى سنة سبع وسبعين وسبعمائة {cite:nujum-zahira 11/189}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/nujum-zahira, source/al-aalam] }
+  - { type: had_participant, target: person/ibn-habib-al-halabi, role: "المؤرخ", sources: [source/nujum-zahira, source/al-aalam] }
+sources: [source/nujum-zahira, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Ibn Taghribirdi, al-Nujum al-Zahira 11/189 (archive.org Nojoom_Zahera OCR); al-Zirikli, al-A'lam 2/218-219 (archive.org Al_Alam_Zarkali OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-habib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

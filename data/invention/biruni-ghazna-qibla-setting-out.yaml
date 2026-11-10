@@ -1,0 +1,89 @@
+id: invention/biruni-ghazna-qibla-setting-out
+class: invention
+label: { ar: "تخطيط قبلة غزنة بالدائرة عند البيروني", en: "Al-Biruni's Ghazna qibla setting-out", ur: "بیرونی کا دائرے سے غزنہ کی قبلہ بندی کا طریقہ" }
+names:
+  - { kind: alternate, lang: ar, value: "التقريبان الدائريان للمعماريين بغزنة" }
+  - { kind: alternate, lang: en, value: "Ghazna circle constructions for architects" }
+summary:
+  ar: "نقل الحساب الكروي إلى تخطيط دائري محلي بتقسيم نصف القطر إلى ثلاثة أو ثمانية عشر جزءاً؛ تقريبان لغزنة لا زاوية ثابتة للعالم {cite:biruni-tahdid-ali-translation pp.255–256}."
+  en: "Transfers spherical calculation into local circle setting-out using thirds or eighteenths of a radius; approximations for Ghazna, not a worldwide fixed bearing {cite:biruni-tahdid-ali-translation pp.255–256}."
+  ur: "کروی حساب سے مقامی دائرے کی نشان بندی، نصف قطر کے تین یا اٹھارہ حصوں سے؛ غزنہ کے تقریباً زاویے، دنیا بھر کا مقرر رخ نہیں {cite:biruni-tahdid-ali-translation pp.255–256}۔"
+domain: navigation-geography
+kind: method
+disciplines: [mathematics, geography, astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "1025"
+    hijri: "0416"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "TDV's explicit416/1025 composition date of Tahdid, not a dated building, first qibla calculation or verified first use of circle geometry."
+    sources: [source/tdv-biruni-tumer, source/biruni-tahdid-ali-translation]
+  status_today: transformed
+origin:
+  place: place/ghazna
+  context:
+    ar: "التطبيق منصوص عليه لغزنة؛ لا إحداثيات حديثة مستنتجة من طول تاريخي مختلف المرجع {cite:biruni-tahdid-ali-translation pp.241–242,255–256}."
+    en: "Explicit Ghazna application; no modern coordinates inferred from historical longitude of a different reference system {cite:biruni-tahdid-ali-translation pp.241–242,255–256}."
+    ur: "متن کا صریح غزنہ اطلاق؛ تاریخی طول سے جدید مختصات اخذ نہیں کیے {cite:biruni-tahdid-ali-translation pp.241–242,255–256}۔"
+makers:
+  - person: person/al-biruni-muhammad-ibn-ahmad
+    role: describer
+    place: place/ghazna
+    note: "Documented calculation-to-architectural-setting-out exposition. Earlier astronomers/zij methods acknowledged; not first qibla or all spherical trigonometry. Individual Muslim basis and Sunni-first debated affiliation retained."
+    sources: [source/biruni-tahdid-ali-translation, source/britannica-al-biruni, source/tdv-biruni-tumer]
+attribution:
+  status: improvement
+  claim:
+    ar: "صياغة موثقة لتقريب الاتجاه الحسابي في رسم قابل للتنفيذ، لا أسبقية مطلقة."
+    en: "Documented practical approximation of a calculated direction, not absolute priority."
+    ur: "حسابی رخ کی مستند عملی تقریب، مطلق سبقت نہیں۔"
+  basis:
+    ar: "المتن يقر بالطرق السابقة، ثم يفصل للمعماريين رسمين محليين؛ دور الواصف أدق من مخترع القبلة كلها {cite:biruni-tahdid-ali-translation pp.241,253,255–256}."
+    en: "Text acknowledges earlier methods, then gives architects two local constructions; describer is narrower than inventor of all qibla science {cite:biruni-tahdid-ali-translation pp.241,253,255–256}."
+    ur: "متن سابق طریقے تسلیم کر کے معماروں کے دو مقامی نقشے دیتا ہے؛ موضح کا کردار تمام علم قبلہ کے موجد سے محدود ہے {cite:biruni-tahdid-ali-translation pp.241,253,255–256}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "طرق الفلكيين والأزياج السابقة", en: "Earlier astronomers' and zij methods", ur: "پہلے فلکی ماہرین اور زیجوں کے طریقے" }
+    note: "Acknowledged in the inspected text; no named inventor or direct transmission into each construction fabricated."
+    sources: [source/biruni-tahdid-ali-translation]
+dependents: []
+spread: []
+impact:
+  fields: [navigation-geography, mathematics]
+  changed:
+    ar: "فصل بين الحساب المفصل وتقريب رسام البناء، وربط الاتجاه بجدار المحراب العمودي عليه {cite:biruni-tahdid-ali-translation pp.255–256}."
+    en: "Distinguishes elaborate computation from a builder's approximation and the niche wall perpendicular to the direction {cite:biruni-tahdid-ali-translation pp.255–256}."
+    ur: "مفصل حساب اور معمار کی تقریب الگ، رخ سے محراب کی دیوار کا عمودی تعلق واضح {cite:biruni-tahdid-ali-translation pp.255–256}۔"
+  history:
+    ar: "شاهد على ترجمة المعرفة الجغرافية إلى إجراء مهني؛ لا مبنى منفذ أو سلسلة انتشار مسماة مثبتة هنا {cite:biruni-tahdid-ali-translation pp.255–258}."
+    en: "Witness to translating geographical knowledge into a professional procedure; no executed building or named diffusion chain demonstrated here {cite:biruni-tahdid-ali-translation pp.255–258}."
+    ur: "جغرافیائی علم کو پیشہ ورانہ عمل میں بدلنے کا شاہد؛ یہاں کوئی تعمیر یا نام زد سلسلۂ پھیلاؤ ثابت نہیں {cite:biruni-tahdid-ali-translation pp.255–258}۔"
+  significance: 3
+  why: "Inspected calculation-to-construction workflow with two explicit local approximation levels; numerical and translated-text inconsistencies disclosed, not hidden behind modern accuracy claims."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "تجربة ورقية في التقريب وقراءة المصدر؛ لا أداة فتوى أو تعيين ميداني للقبلة {cite:biruni-tahdid-ali-translation pp.255–256}."
+    en: "Paper study of approximation and source reading, not a religious ruling or field qibla service {cite:biruni-tahdid-ali-translation pp.255–256}."
+    ur: "تقریب اور متن فہمی کی کاغذی مشق، فتویٰ یا میدانی قبلہ خدمت نہیں {cite:biruni-tahdid-ali-translation pp.255–256}۔"
+  descendants:
+    ar: "مقارنة تعليمية لا نسب مثبت لتطبيقات الهواتف أو إسقاطات الخرائط الحديثة."
+    en: "Teaching comparison, not a proven ancestry of phone apps or modern map projections."
+    ur: "تدریسی تقابل، فون ایپس یا جدید نقشہ جاتی اسقاط کا ثابت نسب نہیں۔"
+media: { image: media/biruni-qibla-spherical-context, diagram: media/diagram-biruni-ghazna-qibla }
+kids:
+  ar: "قارن رسمين على الورق: ثلث نصف القطر جنوباً، أو جزء واحد إلى الداخل من ثمانية عشر جزءاً غرباً؛ لا تنقل الزاوية إلى مدينتك."
+  en: "Compare two paper circles: one-third radius south, or one eighteenth inward from west. Do not apply Ghazna's angle to your town."
+  ur: "کاغذ پر دو دائرے ملائیں: ایک تہائی جنوب، یا مغربی سرے سے اٹھارہواں حصہ اندر۔ غزنہ کا زاویہ اپنے شہر پر نہ لگائیں۔"
+sources: [source/biruni-tahdid-ali-translation, source/tdv-biruni-tumer, source/britannica-al-biruni, source/commons-spherical-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b49", source: "Actual English primary241–259; inspected241–247,254–257 and modern PD context image. Unit-circle arithmetic reconstructed independently; printed ratio/longitude-sine inconsistencies disclosed. Neither Arabic manuscript nor built mosque inspected." }

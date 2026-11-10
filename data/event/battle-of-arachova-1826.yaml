@@ -1,0 +1,23 @@
+id: event/battle-of-arachova-1826
+class: event
+kind: battle
+label: { ar: "معركة أراخوفا", en: "Battle of Arachova" }
+summary:
+  ar: "بطاقة أولية لمعركة أراخوفا سنة ١٨٢٦م، نصر كاريسكاكيس على جيش مصطفى بك في حرب اليونان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Arachova in 1826, Karaiskakis's victory over Mustafa Bey's army in the Greek war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1826", precision: year, status: tradition, derived: true }
+  end: { edtf: "1826", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q82703
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Greek-independence histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

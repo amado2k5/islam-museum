@@ -1,0 +1,29 @@
+id: event/khatib-hajj-446
+class: event
+kind: pilgrimage
+label:
+  ar: "حج الخطيب وسماعه بالشام ومكة، ٤٤٦هـ"
+  en: "Al-Khatib's hajj, with hearings in al-Sham and Mecca, 446/1054"
+  ur: "خطیب کا حج اور شام و مکہ میں سماعت، 446ھ/1054ء"
+summary:
+  ar: "رحل الخطيب إلى الشام حاجاً، فسمع بدمشق وصور ومكة، ولقي بمكة أبا عبد الله القضاعي، وقرأ «صحيح البخاري» في خمسة أيام على كريمة المروزية، ثم رجع إلى بغداد؛ وقد ورد في ترجمة الغزال البغدادي أنه لقي ابن برهان بصور وسمع منه عند رجوعه من الحج سنة ست وأربعين وأربعمائة {cite:tarikh-islam-dhahabi pp. 92-93}."
+  en: "Al-Khatib journeyed to al-Sham as a pilgrim and heard at Damascus, Tyre and Mecca; at Mecca he met Abu 'Abd Allah al-Quda'i, and he read the whole of Sahih al-Bukhari in five days upon Karima al-Marwaziyya before returning to Baghdad. His own Tarikh records that he heard Ibn Burhan at Tyre on his way back from the hajj of 446 {cite:tarikh-islam-dhahabi pp. 92-93}."
+  ur: "خطیب حاجی بن کر شام روانہ ہوئے اور دمشق، صور اور مکہ میں سماعت کی؛ مکہ میں ابو عبدالله قضاعی سے ملے اور کریمہ مروزیہ پر صحیح بخاری پانچ دن میں پڑھی، پھر بغداد لوٹے۔ ان کی اپنی تاریخ میں ہے کہ 446ھ کے حج سے واپسی پر صور میں ابن برہان سے سماعت کی {cite:tarikh-islam-dhahabi pp. 92-93}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1054~", hijri: "0446", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل إلى الشام حاجاً فسمع بدمشق وصور ومكة ولقي بها القضاعي وقرأ صحيح البخاري في خمسة أيام على كريمة المروزية {cite:tarikh-islam-dhahabi p. 92}؛ سماعه بصور عند رجوعه من الحج سنة ٤٤٦هـ {cite:tarikh-islam-dhahabi p. 93}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الحاج السامع", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/karima-al-marwaziyya, role: "المقرئة", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-qudai-muhammad-ibn-ahmad, role: "الملاقى بمكة", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 pp. 92-93 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

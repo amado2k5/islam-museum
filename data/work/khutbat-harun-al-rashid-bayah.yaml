@@ -1,0 +1,23 @@
+id: work/khutbat-harun-al-rashid-bayah
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/harun-al-rashid }
+label: { ar: "خطبة هارون الرشيد عند توليه الخلافة", en: "Harun al-Rashid's sermon on accession to the caliphate", ur: "ہارون الرشید کا خلافت سنبھالنے پر خطبہ" }
+summary:
+  ar: "خطبة هارون الرشيد بعد توليه الخلافة، يحمد فيها الله ويشهد بالرسالة، ثم يوصي الناس بتقوى الله ويطلب منهم الوفاء بالبيعة."
+  en: "Harun al-Rashid's sermon after taking the caliphate. He praises God and bears witness to the Prophethood, then urges the people to fear God and to keep their pledge of allegiance."
+  ur: "خلافت سنبھالنے کے بعد ہارون الرشید کا خطبہ۔ وہ اللہ کی حمد کرتے اور رسالت کی گواہی دیتے ہیں، پھر لوگوں کو تقوی اور بیعت کی وفا کی نصیحت کرتے ہیں۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/harun-al-rashid]
+composed: { hijri: "0170~", edtf: "0786~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "بعد وفاة موسى الهادي سنة 170هـ، حسب سياق الصفحة السابقة في الكتاب.", sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 82", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-4 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }

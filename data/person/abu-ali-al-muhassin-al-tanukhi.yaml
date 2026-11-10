@@ -1,0 +1,37 @@
+id: person/abu-ali-al-muhassin-al-tanukhi
+class: person
+label: { ar: "أبو علي المحسن التنوخي", en: "Abu Ali al-Muhassin al-Tanukhi" }
+names:
+  - { kind: full, lang: ar, value: "القاضي أبو علي المحسن بن أبي القاسم علي بن محمد بن أبي الفهم التنوخي" }
+gender: male
+roles: [jurist, writer]
+traditions: [sunni]
+born: { edtf: "0938", hijri: "0327", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0994", hijri: "0384", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "قاضٍ وأديب من تنوخ، وكتب أخبار القضاة والمحسنين."
+  en: "A judge and man of letters from the Tanukh tribe, who compiled reports on judges and on those who did good."
+wings: [people]
+themes: [development-of-law-theology-institutions, literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص658"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Buyid-era judge and man of letters of Tanukh; the judicial-adab milieu of his works is Baghdad. Inferred.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

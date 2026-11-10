@@ -1,0 +1,29 @@
+id: person/muhammad-mayyara
+class: person
+label:
+  ar: "محمد ميارة"
+  en: "Muhammad Mayyara"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد ميارة، فقيه مغربي القرن السابع عشر صاحب الدر الثمين، توفي سنة ١٦٦٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Mayyara, the seventeenth-century Moroccan jurist author of al-Durr al-Thamin, d. 1662; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+born: { edtf: "1591", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
+died: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
+relations:
+  - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6732986
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0063
+status:
+  review: draft
+  completeness: 1

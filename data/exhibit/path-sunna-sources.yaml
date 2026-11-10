@@ -1,0 +1,78 @@
+id: exhibit/path-sunna-sources
+class: exhibit
+kind: trail
+label:
+  ar: مصادر السنة
+  en: Sources of the Sunna
+summary:
+  ar: 'مسار في مكتبة السنة: الستة والموطأ والمسند، والأربعون والرياض — مدخل إلى أمهات كتب الحديث.'
+  en: A trail through the library of the Sunna.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الكتب الستة
+    en: The six books
+  body:
+    ar: 'بخاري ومسلم والسنن الأربعة: أساس المكتبة.'
+    en: 'بخاري ومسلم والسنن الأربعة: أساس المكتبة.'
+  features:
+  - work/sahih-al-bukhari
+  - work/sahih-muslim
+  - work/jami-al-tirmidhi
+- title:
+    ar: الموطأ والمسند
+    en: Muwatta and Musnad
+  body:
+    ar: 'قبل الستة: مالك يدوّن وأحمد يجمع.'
+    en: 'قبل الستة: مالك يدوّن وأحمد يجمع.'
+  features:
+  - work/muwatta-malik
+  - person/ahmad-ibn-hanbal
+- title:
+    ar: المتون
+    en: The manuals
+  body:
+    ar: الأربعون النووية وجامع العلوم والحكم.
+    en: الأربعون النووية وجامع العلوم والحكم.
+  features:
+  - work/arbaun-nawawi
+  - work/jami-ulum-hikam
+- title:
+    ar: العلم
+    en: The science
+  body:
+    ar: 'الإسناد والمصطلح: منهج التوثيق.'
+    en: 'الإسناد والمصطلح: منهج التوثيق.'
+  features:
+  - concept/isnad
+  - concept/mustalah-al-hadith
+- title:
+    ar: النصوص
+    en: The texts
+  body:
+    ar: 'غرفة مختارة: جبريل والنية والمناسك.'
+    en: 'غرفة مختارة: جبريل والنية والمناسك.'
+  features:
+  - passage/muslim-0008
+  - passage/arbaun-01
+  - passage/muslim-1218
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

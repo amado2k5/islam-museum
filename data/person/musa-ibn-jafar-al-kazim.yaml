@@ -1,0 +1,26 @@
+id: person/musa-ibn-jafar-al-kazim
+class: person
+label: { ar: "موسى بن جعفر", en: "Musa ibn Ja'far" }
+summary:
+  ar: "موسى بن جعفر بن محمد، كان محبوساً عند الرشيد فرأى في منامه حبشياً معه حربة يقول له إن لم تخل عن موسى بن جعفر الساعة وإلا نحرتك بهذه الحربة، فبعث إلى عبد الله بن مالك الخزاعي في وقت ما جاءه فيه قط وأمره بالتخلية عنه {cite:muruj-al-dhahab p. 333}. وقبض ببغداد مسموماً لخمس عشرة سنة خلت من ملك الرشيد سنة ست وثمانين ومائة وهو ابن أربع وخمسين سنة {cite:muruj-al-dhahab p. 341-342}"
+  en: "The imprisoned Musa al-Kazim freed by al-Rashid's nightmare — the Abyssinian with the spear at his bed {cite:muruj-al-dhahab p. 333}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+external_ids: { wikidata: "Q315031" }
+born: { edtf: "745", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Musa al-Kazim); al-Dhahabi (Siyar)" }
+died: { edtf: "799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Musa al-Kazim); al-Dhahabi (Siyar)" }
+relations:
+  - { type: born_in, target: place/al-abwa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1051781)" }
+  - { type: died_in, target: place/kadhimiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q311315)" }
+  - { type: buried_in, target: building/al-kadhimiya-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154116)" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

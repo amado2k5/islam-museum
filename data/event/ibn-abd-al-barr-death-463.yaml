@@ -1,0 +1,27 @@
+id: event/ibn-abd-al-barr-death-463
+class: event
+kind: death
+label:
+  ar: "وفاة ابن عبد البر بشاطبة ليلة الجمعة سلخ ربيع الآخر ٤٦٣هـ"
+  en: "Ibn 'Abd al-Barr dies at Shatiba, eve of Friday, end of Rabi' II 463/early 1071"
+  ur: "ابن عبد البر کی وفات شاطبہ میں، جمعہ کی رات، ربیع الثانی 463ھ کے آخر میں/1071ء کے اوائل"
+summary:
+  ar: "توفي الحافظ أبو عمر ابن عبد البر بشاطبة من شرق الأندلس ليلة الجمعة آخر يوم من شهر ربيع الآخر سنة ثلاث وستين وأربعمائة، ودفن يوم الجمعة بعد العصر وصلى عليه صاحبه أبو الحسن طاهر بن مفوز المعافري، وقد استكمل خمساً وتسعين سنة وخمسة أيام {cite:wafayat-ayan p. 71} {cite:tarikh-islam-dhahabi p. 142}؛ وكان أعلى أهل الأندلس إسناداً في وقته ولم يخرج من الأندلس {cite:tarikh-islam-dhahabi p. 142}."
+  en: "The hafiz Abu 'Amr Ibn 'Abd al-Barr died at Shatiba in eastern al-Andalus on the eve of Friday, the last day of Rabi' II 463; he was buried on Friday afternoon and his companion Abu al-Hasan Tahir ibn Mufawwiz al-Mu'afiri led the prayer — he had completed ninety-five years and five days {cite:wafayat-ayan p. 71} {cite:tarikh-islam-dhahabi p. 142}. He was the highest isnad in al-Andalus of his time and never left the peninsula {cite:tarikh-islam-dhahabi p. 142}."
+  ur: "حافظ ابو عمر ابن عبد البر مشرقی اندلس کے شہر شاطبہ میں جمعہ کی رات ربیع الثانی 463ھ کے آخری دن فوت ہوئے؛ جمعہ کے دن عصر کے بعد دفنائے گئے اور ان کے ساتھی ابوالحسن طاہر بن مفوز معافری نے نماز جنازہ پڑھائی — عمر پچھانوے برس اور پانچ دن پوری کی {cite:wafayat-ayan p. 71} {cite:tarikh-islam-dhahabi p. 142}۔ وہ اپنے زمانے میں اندلس کے بلند ترین سند رکھنے والے تھے اور کبھی جزیرہ سے باہر نہیں نکلے {cite:tarikh-islam-dhahabi p. 142}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1071-02~", hijri: "0463-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي ليلة الجمعة آخر يوم من شهر ربيع الآخر سنة ثلاث وستين وأربعمائة بشاطبة ودفن يوم الجمعة بعد العصر {cite:wafayat-ayan p. 71}؛ استكمل خمساً وتسعين سنة وخمسة أيام {cite:tarikh-islam-dhahabi p. 142}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/shatiba, sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-abd-al-barr, role: "المتوفى", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }
+sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan (ihsan-abbas) v7 p. 71 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 463 printed p. 142"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-abd-al-barr-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

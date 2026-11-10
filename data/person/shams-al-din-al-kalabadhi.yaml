@@ -1,0 +1,35 @@
+id: person/shams-al-din-al-kalabadhi
+class: person
+label: { ar: "شمس الدين الكلاباذي الفرضي", en: "Shams al-Din al-Kalabadhi" }
+names:
+  - { value: "الفرضي الإمام الحافظ شمس الدين أبو العلاء محمود بن أبي بكر بن أبي العلاء البخاري الكلاباذي الحنفي الصوفي", kind: full }
+born: { edtf: "1247~", hijri: "0644~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ست وخمسون سنة {cite:shadharat-dhahab p. 798}." }
+died: { edtf: "1300~", hijri: "0700", calendar: julian, precision: year, status: tradition, derived: true, note: "نزل بماردين أشهراً فأدركه أجله بها وله ست وخمسون سنة {cite:shadharat-dhahab p. 798}." }
+summary:
+  ar: "الإمام الحافظ الفرضي البخاري الحنفي الصوفي؛ كان إماماً في الفرائض مصنفاً فيها، وسمع الكثير بخراسان والعراق والشام ومصر، وكتب بخطه الأنيق المتقن الكثير وأوقف أجزاءه، وراح مع التتار من خوف الغلاء فنزل بماردين أشهراً فأدركه أجله بها؛ قال الذهبي: كان صالحاً ديناً سنياً {cite:shadharat-dhahab p. 798}."
+gender: male
+roles: [scholar, jurist, mystic]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, levant-iraq]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 700)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch88
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/bukhara, confidence: low, note: "Association inferred from the nisba 'البخاري'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }

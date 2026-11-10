@@ -1,0 +1,28 @@
+id: person/al-hawshabi
+class: person
+label:
+  ar: "الحوشبي"
+  en: "al-Hawshabi"
+roles: [sultan]
+gender: male
+summary:
+  ar: "علي بن مانع الحوشبي، سلطان الحواشب باليمن، مقيم المسيمير، رآه الريحاني سنة 1340هـ؛ توفي سنة 1922م."
+  en: "Ali ibn Mani' al-Hawshabi, sultan of the Hawashib protectorate in Yemen (d. 1340/1922), seen and described by Amin al-Rihani."
+wings: [people]
+regions: [arabia]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q125098819
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.321)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
+status:
+  review: published
+  completeness: 3
+died: { edtf: "914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baha'i / al-Zirikli (al-A'lam 5/144; d. 302 AH; Ali b. al-Fadl colleague)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

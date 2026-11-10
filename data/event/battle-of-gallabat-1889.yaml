@@ -1,0 +1,23 @@
+id: event/battle-of-gallabat-1889
+class: event
+kind: battle
+label: { ar: "معركة قلابات", en: "Battle of Gallabat (Metemma)" }
+summary:
+  ar: "بطاقة أولية لمعركة قلابات سنة ١٨٨٩م، هجوم الإثيوبيين على المهديين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Gallabat (Metemma) in 1889, the Ethiopian assault on the Mahdists; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1889", precision: year, status: tradition, derived: true }
+  end: { edtf: "1889", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1785947
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

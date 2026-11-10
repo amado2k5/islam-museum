@@ -1,0 +1,22 @@
+id: person/ibn-al-mazyar
+class: person
+label: { ar: "ابن المازيار", en: "Ibn al-Mazyar" }
+summary:
+  ar: "تلميذ أبي معشر المنجم صاحب كتاب المنتخب من كتاب الألوف الذي ذكر فيه البنيان العظيم الذي يحدث في كل ألف عام {cite:muruj-al-dhahab p. 556}."
+  en: "Abu Ma'shar's pupil, author of the Muntakhab of the Kitab al-Uluf on the great buildings raised each millennium {cite:muruj-al-dhahab p. 556}."
+gender: male
+wings: [people]
+born: { edtf: "839", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "840", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 556"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

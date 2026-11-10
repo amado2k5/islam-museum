@@ -1,0 +1,76 @@
+id: exhibit/path-surah-naba
+class: exhibit
+kind: trail
+label:
+  ar: سورة النبأ
+  en: Surah an-Naba'
+summary:
+  ar: 'مسار في سورة السؤال: عمّ يتساءلون، والنبأ العظيم، والقيامة بالصور — أول جزء عم يعلّم الختام.'
+  en: A trail through the sura of the Great News.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السؤال
+    en: The question
+  body:
+    ar: عمّ يتساءلون عن النبأ العظيم.
+    en: عمّ يتساءلون عن النبأ العظيم.
+  features:
+  - passage/quran-78
+  - passage/quran-78-1
+- title:
+    ar: الآيات
+    en: The signs
+  body:
+    ar: الأرض مهادًا والجبال أوتادًا.
+    en: الأرض مهادًا والجبال أوتادًا.
+  features:
+  - passage/quran-78-6
+  - passage/quran-78-6
+- title:
+    ar: الصور
+    en: The trumpet
+  body:
+    ar: 'يوم ينفخ في الصور: الساعة تقع.'
+    en: 'يوم ينفخ في الصور: الساعة تقع.'
+  features:
+  - passage/quran-78-18
+  - concept/akhira
+- title:
+    ar: العقاب
+    en: The requital
+  body:
+    ar: 'جهنم كانت مرصادًا: الحساب.'
+    en: 'جهنم كانت مرصادًا: الحساب.'
+  features:
+  - passage/quran-78-21
+  - concept/akhira
+- title:
+    ar: الجنة
+    en: The reward
+  body:
+    ar: 'إن للمتقين مفازًا: الفوز.'
+    en: 'إن للمتقين مفازًا: الفوز.'
+  features:
+  - passage/quran-78-31
+  - concept/taqwa
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

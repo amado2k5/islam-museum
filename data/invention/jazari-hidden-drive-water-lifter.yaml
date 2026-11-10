@@ -1,0 +1,62 @@
+id: invention/jazari-hidden-drive-water-lifter
+class: invention
+label: { ar: "رافعة الماء ذات المحرك الخفي عند الجزري", en: "Al-Jazari's hidden-drive water lifter", ur: "جزری کا پوشیدہ محرک والا آب کش" }
+names: [{ value: "Water-driven pot-chain display with wooden cow, CategoryV chapter3", kind: alternate, lang: en }]
+summary:
+  ar: "ماء وارد يدير دولاباً مخفياً لرفع بعض الماء بجرار وتحريك بقرة خشبية؛ وصف تركيب لا قوة حيوانية أو حركة دائمة {cite:jazari-hill-1974 pp.182–183,265}."
+  en: "Incoming water turns a hidden wheel, lifting some water in jars and moving a wooden cow; an assembly account, not animal power or perpetual motion {cite:jazari-hill-1974 pp.182–183,265}."
+  ur: "آنے والا پانی پوشیدہ پہیہ گھما کر کچھ پانی کوزوں میں اٹھاتا اور لکڑی کی گائے چلاتا ہے؛ نظام کا بیان، حیوانی طاقت یا دائمی حرکت نہیں {cite:jazari-hill-1974 pp.182–183,265}۔"
+domain: water-agriculture
+kind: device
+disciplines: [engineering]
+wings: [objects, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1204/1206"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Documentary range from Hill introduction1204/1206 versus TDV1205, not a dated first installation. Commons2024 upload not manuscript/invention date; no invented invention Hijri."
+    sources: [source/jazari-hill-1974, source/tdv-cezeri]
+  status_today: replaced
+origin:
+  place: place/amid
+  polity: polity/artuqid-dynasty
+  context: { ar: "سياق خدمة المؤلف الأرتقية، لا موقع تشغيل مثبت لهذه الآلة {cite:tdv-cezeri pp.505–506}.", en: "Author's Artuqid-service context, not a verified installation site for this device {cite:tdv-cezeri pp.505–506}.", ur: "مصنف کی ارتقی خدمت کا ماحول، اس آلے کی ثابت تنصیب نہیں {cite:tdv-cezeri pp.505–506}۔" }
+makers:
+  - { person: person/al-jazari-engineer, role: describer, place: place/amid, sources: [source/jazari-hill-1974] }
+attribution:
+  status: improvement
+  claim: { ar: "تركيب يجمع محركاً مائياً مخفياً وسلسلة جرار وعرض بقرة خشبية، لا اختراع الساقية أو كل دولاب مائي.", en: "Integration of concealed hydraulic drive, jar chain and wooden-cow display, not invention of the saqiya or every water wheel.", ur: "پوشیدہ آبی محرک، کوزوں کی زنجیر اور لکڑی کی گائے کا مربوط نظام، ساقیہ یا ہر آبی پہیے کی ایجاد نہیں۔" }
+  basis: { ar: "الباب يصف التركيب؛ هيل يفصل إعادة البناء والاستعمال الزخرفي المحتمل {cite:jazari-hill-1974 pp.182–183,265}.", en: "Chapter describes the assembly; Hill separates reconstruction and inferred partly decorative use {cite:jazari-hill-1974 pp.182–183,265}.", ur: "باب نظام بتاتا، ہل بازتعمیر اور ممکنہ جزوی آرائشی مصرف الگ رکھتے ہیں {cite:jazari-hill-1974 pp.182–183,265}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "دولاب الجرار المسمى سندياً في الوصف", en: "The jar wheel termed Sindi in the description", ur: "بیان میں سندھی کہلانے والا کوزوں کا پہیہ" }
+    note: "Recognizable wheel tradition; Hill interprets the name geographically, not a documented route or named original inventor established here."
+    sources: [source/jazari-hill-1974]
+dependents:
+  - external: { ar: "نسخ الرسم والتفسير الحديث", en: "Copied image and modern interpretation", ur: "نقشے کی نقل اور جدید تعبیر" }
+    note: "Text/image survival, not a proven industrial lineage or tested historical plant."
+    sources: [source/jazari-hill-1974, source/commons-jazari-hidden-drive]
+spread: []
+impact:
+  fields: [water-agriculture, mechanics-automata]
+  changed: { ar: "ربط رفع الماء بعرض يخفي مصدر الحركة تحت الحوض {cite:jazari-hill-1974 pp.182–183}.", en: "Combines water lifting with a display concealing the drive beneath the pool {cite:jazari-hill-1974 pp.182–183}.", ur: "پانی اٹھانے کو حوض کے نیچے محرک چھپانے والی نمائش سے جوڑتا ہے {cite:jazari-hill-1974 pp.182–183}۔" }
+  history: { ar: "شاهد على فصل القوة الفعلية عن الحركة الظاهرة وحدود قراءة الرسم {cite:jazari-hill-1974 pp.182–183,265}.", en: "Witness to the difference between actual power and apparent motion, and to drawing limitations {cite:jazari-hill-1974 pp.182–183,265}.", ur: "حقیقی طاقت اور ظاہری حرکت کے فرق اور نقشے کی حدود کا ثبوت {cite:jazari-hill-1974 pp.182–183,265}۔" }
+  significance: 3
+  why: "Distinct V.3 water-driven jar-chain/display assembly, not covered V.5 piston pump or a component counted twice; external power, missing associated machine and schematic limits explicit."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "نص ورسم مخطوط وتعليق؛ لا أصل عامل أو اختبار تدفق فحصناه.", en: "Text, manuscript diagram and commentary; no examined working original or flow test.", ur: "متن، مخطوط نقشہ اور تعلیق؛ دیکھی ہوئی چلتی اصل یا بہاؤ کی آزمائش نہیں۔" }
+  descendants: { ar: "لا نسب مثبت إلى كل مضخة أو توربين حديث.", en: "No demonstrated descent of every modern pump or turbine.", ur: "ہر جدید پمپ یا ٹربائن کا ثابت نسب نہیں۔" }
+media: { image: media/jazari-hidden-drive-manuscript, diagram: media/diagram-jazari-hidden-drive-water-lifter }
+kids: { ar: "ورق فقط: أربع بطاقات جرار افتراضية، وحدتان لكل منها تعطيان8؛ واحدة فارغة تجعلها6، لا قياس تدفق أو بناء.", en: "Paper only: four imaginary jar cards of two units each give8; one empty gives6, not measured flow or construction.", ur: "صرف کاغذ: دو دو فرضی اکائی والے چار کوزوں کے کارڈ8 دیتے ہیں؛ ایک خالی ہو تو6، بہاؤ کی پیمائش یا تعمیر نہیں۔" }
+sources: [source/jazari-hill-1974, source/tdv-cezeri, source/commons-jazari-hidden-drive]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b47", source: "Actual selectedV.3 primary182–183/critical265 and182/183/265 images; inspected Commons PD manuscript/rights; own paper capacity game, no physical construction or hydraulic testing" }

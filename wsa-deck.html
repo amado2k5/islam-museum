@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>islam.museum · WSA Submission Deck</title>
+<style>
+/* Brand tokens from site/src/styles/global.css */
+:root {
+  --ivory: #f9f8f6; --ink: #1a1a1a; --lapis: #0a2533; --teal: #113f4e;
+  --gold: #c5a059; --gold-text: #654a15; --sand: #e6d5b8; --muted: #4a4a4a;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #d9d6cf; font-family: var(--sans); color: var(--ink); }
+
+/* Screen: each slide is a 16:9 frame, stacked for review */
+.slide {
+  position: relative; width: min(100vw, calc(100vh * 16 / 9)); height: min(100vh, calc(100vw * 9 / 16));
+  margin: 24px auto; overflow: hidden; background: var(--ivory);
+  display: flex; flex-direction: column; padding: 5.2% 6% 4.2%;
+  box-shadow: 0 10px 40px rgba(10,37,51,.18);
+}
+.slide.dark { background: linear-gradient(160deg, #0a2533 0%, #113f4e 100%); color: var(--ivory); }
+
+/* Print: exactly one 16:9 landscape page per slide */
+@page { size: landscape; margin: 0; }
+@media print {
+  html, body { background: none; }
+  .slide { margin: 0; box-shadow: none; width: 100vw; height: 100vh; page-break-after: always; break-after: page; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* Chrome */
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 12px; font-family: var(--serif); font-weight: 600; font-size: 1.05rem; letter-spacing: .01em; }
+.brand svg { width: 42px; height: 42px; }
+.tag { font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--gold-text); font-weight: 600; }
+.dark .tag { color: var(--gold); }
+.pageno { font-size: .8rem; color: var(--muted); }
+.dark .pageno { color: #c9d3d6; }
+
+h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.8rem, 3.4vw, 2.9rem); line-height: 1.15; margin: .5em 0 .3em; }
+h2 { font-family: var(--serif); font-weight: 500; font-size: clamp(1.5rem, 2.6vw, 2.2rem); line-height: 1.2; margin: .35em 0 .4em; }
+h3 { font-size: .95rem; font-weight: 600; letter-spacing: .02em; margin: 0 0 .35em; }
+.sub { font-family: var(--serif); font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.45; color: var(--muted); max-width: 60ch; margin: 0; }
+.dark .sub { color: #d9e2e4; }
+
+/* Metric cards */
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 2.2%; }
+.metric {
+  background: #fff; border: 1px solid rgba(10,37,51,.12); border-top: 4px solid var(--gold);
+  border-radius: 10px; padding: 16px 16px 14px;
+}
+.metric .num { font-family: var(--serif); font-weight: 600; font-size: clamp(1.6rem, 2.8vw, 2.5rem); color: var(--teal); line-height: 1; }
+.metric .lbl { font-size: .82rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
+.metric.free .num { font-size: clamp(1.1rem, 1.9vw, 1.6rem); padding-top: .25em; }
+.dark .metric { background: rgba(249,248,246,.06); border-color: rgba(230,213,184,.25); border-top-color: var(--gold); }
+.dark .metric .num { color: var(--gold); }
+.dark .metric .lbl { color: #d9e2e4; }
+
+.cards { display: grid; gap: 14px; margin-top: 2.2%; }
+.card { background: #fff; border: 1px solid rgba(10,37,51,.12); border-radius: 10px; padding: 16px 18px; }
+.card p { margin: 0; font-size: .92rem; line-height: 1.5; color: var(--muted); }
+.card code { font-family: var(--sans); font-size: .9rem; color: var(--teal); font-weight: 600; }
+.dark .card { background: rgba(249,248,246,.06); border-color: rgba(230,213,184,.25); }
+.dark .card p { color: #d9e2e4; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.chip { font-size: .8rem; border: 1px solid var(--teal); color: var(--teal); padding: 4px 10px; border-radius: 999px; background: rgba(17,63,78,.04); }
+.license { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 2%; }
+.lic { background: #fff; border: 1px solid rgba(10,37,51,.12); border-left: 4px solid var(--teal); border-radius: 10px; padding: 14px 16px; }
+.lic .k { font-family: var(--serif); font-weight: 600; font-size: 1.1rem; color: var(--teal); }
+.lic .d { font-size: .85rem; color: var(--muted); margin-top: 6px; line-height: 1.4; }
+
+.two { display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px; margin-top: 2.2%; flex: 1; }
+.sdg { display: flex; gap: 12px; align-items: flex-start; margin-top: 2%; }
+.sdg .badge { flex: none; background: var(--teal); color: var(--ivory); font-weight: 700; font-size: .85rem; padding: 6px 10px; border-radius: 6px; }
+.sdg .txt { font-size: .9rem; color: var(--muted); line-height: 1.45; }
+.dark .sdg .txt { color: #d9e2e4; }
+.dark .sdg .badge { background: var(--gold); color: var(--lapis); }
+
+.quote { font-family: var(--serif); font-size: clamp(.95rem, 1.4vw, 1.1rem); line-height: 1.5; border-inline-start: 3px solid var(--gold); padding-inline-start: 14px; margin: 0; color: var(--ink); }
+.foot { margin-top: auto; font-size: .72rem; color: var(--muted); line-height: 1.45; border-top: 1px solid rgba(10,37,51,.14); padding-top: 8px; }
+.dark .foot { color: #c9d3d6; border-top-color: rgba(230,213,184,.25); }
+.dagger { color: var(--gold-text); font-weight: 700; }
+.dark .dagger { color: var(--gold); }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 -->
+<section class="slide dark" aria-labelledby="s1">
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M60 2 L76.07 21.2 L101.01 18.99 L98.8 43.93 L118 60 L98.8 76.07 L101.01 101.01 L76.07 98.8 L60 118 L43.93 98.8 L18.99 101.01 L21.2 76.07 L2 60 L21.2 43.93 L18.99 18.99 L43.93 21.2 Z" fill="#C5A059" stroke="#9A7B38" stroke-width="1.5" stroke-linejoin="round"/><circle cx="60" cy="60" r="36" fill="#113F4E" stroke="#E6D5B8" stroke-width="1"/><path d="M47 74 V58 Q47 42 60 42 Q73 42 73 58 V74" fill="none" stroke="#E6D5B8" stroke-width="3.5" stroke-linecap="round"/><circle cx="60" cy="36" r="2.2" fill="#C5A059"/><path d="M38 80 Q49 75 60 80 Q71 75 82 80 V92 Q71 87 60 92 Q49 87 38 92 Z" fill="#E6D5B8"/><path d="M60 80 V92" stroke="#113F4E" stroke-width="1.5"/></svg>
+      <span>islam.museum</span>
+    </div>
+    <div class="tag">1 · Executive overview &amp; global impact</div>
+  </header>
+
+  <div style="margin-top:2.4%">
+    <h1 id="s1">islam.museum — Open Digital Public Commons for Islamic Civilizational Heritage</h1>
+    <p class="sub">An ad-free, serverless, machine-readable digital knowledge repository making 14 centuries of heritage accessible to humanity and AI.</p>
+  </div>
+
+  <div class="metrics">
+    <div class="metric"><div class="num">19,082</div><div class="lbl">Structured entity records (people, passages, events, places, artifacts)</div></div>
+    <div class="metric"><div class="num">2,150+<span class="dagger">†</span></div><div class="lbl">Verified human unique visitors from 80+ countries<span class="dagger">†</span></div></div>
+    <div class="metric"><div class="num">200,000+<span class="dagger">†</span></div><div class="lbl">Autonomous AI &amp; search engine ingestion visits<span class="dagger">†</span></div></div>
+    <div class="metric free"><div class="num">100% Free &amp; Open</div><div class="lbl">Zero ads, zero cookies, zero paywalls</div></div>
+  </div>
+
+  <div class="sdg" style="margin-top:3%">
+    <span class="badge">SDG 4</span><span class="txt"><strong>Quality Education:</strong> a free, bilingual, source-cited learning resource with guided pathways for newcomers and students.</span>
+  </div>
+  <div class="sdg">
+    <span class="badge">SDG 11.4</span><span class="txt"><strong>Cultural Safeguarding:</strong> strengthens efforts to protect and make accessible the world&rsquo;s cultural and natural heritage.</span>
+  </div>
+
+  <p class="foot"><span class="dagger">†</span> Visitor and ingestion figures supplied by the founder; they are not contained in the project repository. Confirm against the hosting analytics before submission.</p>
+</section>
+
+<!-- SLIDE 2 -->
+<section class="slide" aria-labelledby="s2">
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M60 2 L76.07 21.2 L101.01 18.99 L98.8 43.93 L118 60 L98.8 76.07 L101.01 101.01 L76.07 98.8 L60 118 L43.93 98.8 L18.99 101.01 L21.2 76.07 L2 60 L21.2 43.93 L18.99 18.99 L43.93 21.2 Z" fill="#C5A059" stroke="#9A7B38" stroke-width="1.5" stroke-linejoin="round"/><circle cx="60" cy="60" r="36" fill="#113F4E" stroke="#E6D5B8" stroke-width="1"/><path d="M47 74 V58 Q47 42 60 42 Q73 42 73 58 V74" fill="none" stroke="#E6D5B8" stroke-width="3.5" stroke-linecap="round"/><circle cx="60" cy="36" r="2.2" fill="#C5A059"/><path d="M38 80 Q49 75 60 80 Q71 75 82 80 V92 Q71 87 60 92 Q49 87 38 92 Z" fill="#E6D5B8"/><path d="M60 80 V92" stroke="#113F4E" stroke-width="1.5"/></svg>
+      <span>islam.museum</span>
+    </div>
+    <div class="tag">2 · Technology architecture &amp; open data</div>
+  </header>
+
+  <h2 id="s2" style="margin-top:2.4%">Serverless Static Architecture &amp; Open Science</h2>
+
+  <div class="two">
+    <div class="cards">
+      <div class="card"><h3>Stack</h3><p><code>Astro</code> · <code>Svelte</code> · <code>Tailwind CSS</code> · <code>Pagefind</code> search, hosted on <code>GitHub Pages</code> behind the <code>Cloudflare</code> edge.</p></div>
+      <div class="card"><h3>Privacy &amp; performance</h3><p>Zero server overhead; sub-50&nbsp;ms loading<span class="dagger">†</span>; no database; no tracking scripts or client cookies. Every page is a static file.</p></div>
+      <div class="card"><h3>Machine-readable</h3><p>Entities as YAML data and Markdown prose in git, with a public JSON API at <code>/api/v1/</code> and graph exports.</p></div>
+      <div class="card"><h3>Language support</h3><p>Bilingual core content (Arabic &amp; English) with a trilingual interface (Arabic, English, Urdu).</p></div>
+    </div>
+
+    <div>
+      <h3 style="margin-top:0">Open licensing grid</h3>
+      <div class="cards" style="margin-top:8px">
+        <div class="lic"><div class="k">CC0 1.0</div><div class="d">Public-domain datasets: structured facts, identifiers, relations and schemas.</div></div>
+        <div class="lic"><div class="k">CC BY-SA 4.0</div><div class="d">Prose content in all languages, with citations to the underlying sources.</div></div>
+        <div class="lic"><div class="k">MIT</div><div class="d">Source code for the site, build pipeline and validators.</div></div>
+      </div>
+      <p class="quote" style="margin-top:18px">Every entry is cited to its sources; third-party licences are recorded per item.</p>
+    </div>
+  </div>
+
+  <p class="foot"><span class="dagger">†</span> Loading-time figure supplied by the founder; to be measured on the live site (for example with PageSpeed Insights) before submission. Repository: github.com/amado2k5/islam-museum.</p>
+</section>
+
+<!-- SLIDE 3 -->
+<section class="slide" aria-labelledby="s3">
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M60 2 L76.07 21.2 L101.01 18.99 L98.8 43.93 L118 60 L98.8 76.07 L101.01 101.01 L76.07 98.8 L60 118 L43.93 98.8 L18.99 101.01 L21.2 76.07 L2 60 L21.2 43.93 L18.99 18.99 L43.93 21.2 Z" fill="#C5A059" stroke="#9A7B38" stroke-width="1.5" stroke-linejoin="round"/><circle cx="60" cy="60" r="36" fill="#113F4E" stroke="#E6D5B8" stroke-width="1"/><path d="M47 74 V58 Q47 42 60 42 Q73 42 73 58 V74" fill="none" stroke="#E6D5B8" stroke-width="3.5" stroke-linecap="round"/><circle cx="60" cy="36" r="2.2" fill="#C5A059"/><path d="M38 80 Q49 75 60 80 Q71 75 82 80 V92 Q71 87 60 92 Q49 87 38 92 Z" fill="#E6D5B8"/><path d="M60 80 V92" stroke="#113F4E" stroke-width="1.5"/></svg>
+      <span>islam.museum</span>
+    </div>
+    <div class="tag">3 · Engineering model &amp; lineage</div>
+  </header>
+
+  <h2 id="s3" style="margin-top:2.4%">Solo-Led, AI-Augmented Engineering &amp; Cultural Legacy</h2>
+
+  <div class="two">
+    <div class="cards">
+      <div class="card">
+        <h3>Team &amp; AI ensemble</h3>
+        <p>Solo-led by founder Ahmed Abdel Aal, in active collaboration with an advanced AI coding ensemble:</p>
+        <div class="chips">
+          <span class="chip">Devin</span><span class="chip">Claude</span><span class="chip">Gemini</span><span class="chip">Muse</span><span class="chip">GitHub Copilot</span>
+        </div>
+        <p style="margin-top:10px">Models are used at build time only. Every AI draft is reviewed by a person before it is published.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="card" style="background:var(--teal);border-color:var(--teal);color:var(--ivory)">
+        <h3 style="color:var(--gold)">Family heritage tribute</h3>
+        <p style="color:#e6edef">Conceived as a personal digital public commons, extending the scholarly legacy of the founder&rsquo;s late father, <strong style="color:var(--ivory)">Hamdy Abdel Aal</strong> (Islamic scholar &amp; Dar Al-Qalam author), and his late mother, <strong style="color:var(--ivory)">Fatma Alkawokgy</strong> (lifelong cultural archivist).</p>
+      </div>
+      <p class="quote" style="margin-top:16px">Built in the open: the text is in git, the data is open, and anyone can copy the whole museum.</p>
+    </div>
+  </div>
+
+  <p class="foot">Repository, licences and contributor records: github.com/amado2k5/islam-museum · islam.museum</p>
+</section>
+
+</body>
+</html>

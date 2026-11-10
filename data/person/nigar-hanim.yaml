@@ -1,0 +1,49 @@
+id: person/nigar-hanim
+class: person
+label: { ar: "نكار خانم", en: "Nigâr Hanım", ur: "نگار خانم" }
+names:
+  - { value: "نكار خانم", kind: full }
+  - { value: "Nigâr Hanım", kind: full }
+  - { value: "Nigar Bint-i Osman", kind: alternate }
+gender: female
+summary:
+  ar: "شاعرة عثمانية، وُلدت في إسطنبول وتوفيت فيها سنة 1918، ابنة ماكار عثمان باشا النبيل المجري الأصل. تعلمت في مدرسة فرنسية بقاضي كوي وأتقنت ثماني لغات، وتزوجت في الرابعة عشرة ثم طلقت، وكان ديوانها «إفسوس» أول كتاب شعر غربي الأسلوب تنشره امرأة، فصارت رائدة الشعر النسائي الحديث في أدب التنظيمات وما بعده، وكانت صالونها ملتقى لأهل الأدب والمجتمع."
+  en: "Ottoman poet, born at Istanbul and died there in 1918, daughter of Macar Osman Pasha, a nobleman of Hungarian origin. Educated at the French school in Kadıköy and mistress of eight languages, she was married at fourteen and later divorced; her collection Efsus was the first book of Western-style poetry published by a woman, making her a pioneer of modern women's poetry in post-Tanzimat literature, and her salon was a meeting place of literary society."
+  ur: "عثمانی شاعرہ، استنبول میں پیدا ہوئیں اور 1918ء میں وہیں وفات پائی؛ ہنگری نژاد رئیس ماکار عثمان پاشا کی بیٹی تھیں۔ ان کا دیوان «افسوس» کسی خاتون کی مغربی اسلوب کی شاعری کی پہلی کتاب گنا جاتا ہے۔"
+roles: [poet, writer]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1856"
+  hijri: "1272"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Born at Istanbul in 1856: the English, Turkish and Urdu articles all give the year 1856 at year precision, and one of Wikidata's two birth values is 1 January 1856 (its day precision is not followed, no article giving a day). Wikidata's second birth value is the year 1862 — the harvest queue's year — which no article supports; it is stated here and not followed, and the year is recorded as debated for that reason. The Hijri year 1272 is the tabular conversion of mid-1856 and is marked derived."
+  sources: [source/wikipedia-nigar-hanim-en, source/wikipedia-nigar-hanim-tr, source/wikipedia-nigar-hanim-ur, source/wikidata-nigar-hanim]
+died:
+  edtf: "1918-04-01"
+  hijri: "1336"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Istanbul on 1 April 1918: the English and Turkish articles give this day. Wikidata carries two death values, 1 January 1918 and 1 April 1918; the record follows the articles' 1 April and states the other value here. The Hijri year 1336 is the tabular conversion of 1 April 1918 (19 Jumada al-Akhira 1336) and is marked derived."
+  sources: [source/wikipedia-nigar-hanim-en, source/wikipedia-nigar-hanim-tr, source/wikidata-nigar-hanim]
+relations:
+  - { type: born_in, target: place/istanbul, note: "She was born at Istanbul (English, Turkish and Urdu articles; Wikidata place of birth Istanbul, Q406).", sources: [source/wikipedia-nigar-hanim-en, source/wikidata-nigar-hanim] }
+  - { type: died_in, target: place/istanbul, note: "She died at Istanbul on 1 April 1918 (English and Turkish articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-nigar-hanim-en, source/wikidata-nigar-hanim] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "What each source gives, stated exactly: no source names a school for Nigâr Hanım herself. None of the English, Turkish or Urdu articles carries a religion field or discusses her personal religion, and Wikidata gives her religion (P140) only as the generic item Islam (Q432) — one structured-data value naming no school. Her father Macar Osman Pasha was a Hungarian-born convert (born Adolf Farkas): a father's conversion is family background and never counts for the daughter. Under the two-source rule and the doubt rule her school is therefore left unknown, with these readings preserved here."
+    sources: [source/wikipedia-nigar-hanim-en, source/wikipedia-nigar-hanim-tr, source/wikipedia-nigar-hanim-ur, source/wikidata-nigar-hanim]
+external_ids: { wikidata: "Q7034181" }
+sources: [source/wikipedia-nigar-hanim-en, source/wikipedia-nigar-hanim-tr, source/wikipedia-nigar-hanim-ur, source/wikidata-nigar-hanim]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nigâr Hanım' (revision 1371761136), Turkish Wikipedia 'Nigâr Hanım' (revision 37430936) and Urdu Wikipedia 'نگار خانم' (revision 9658766), read on 26 October 2026, with Wikidata item Q7034181. The harvest queue's years (1862–1918) are NOT followed for the birth: every article gives 1856, and 1862 survives only as Wikidata's second, unsupported birth value; both readings are stated in the born note and the year is debated. Her father Macar Osman Pasha (Wikidata Q12344650) has no museum person record, so no child_of edge is written. No record of this person existed in the museum under any spelling, fragment or QID before this build."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-29
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

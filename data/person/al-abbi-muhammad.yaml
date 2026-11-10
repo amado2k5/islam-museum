@@ -1,0 +1,38 @@
+id: person/al-abbi-muhammad
+class: person
+label: { ar: "الأبي محمد بن خلفة", en: "Al-Abbi, Muhammad ibn Khalfa" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن خلفة بن عمر الوشتاتي المالكي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1344~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1424", hijri: "0828", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أصولي مالكي من علماء المغرب، عُرف بالعلوم العقلية وبالحفظ والتحقيق، ونُسب إلى قرية أبّة في تونس."
+  en: "A Maliki usuli scholar from the Maghrib, known for the rational sciences, memorization and rigorous editing; named after the village of Abba in Tunisia."
+wings: [people]
+themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص222-224"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48
+  # Birth is given as a range (745–747 AH); recorded as an approximate CE year.
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/morocco, note: "From text: من علماء المغرب", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

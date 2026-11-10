@@ -1,0 +1,44 @@
+id: person/sheikh-jamaludin-osman
+class: person
+names:
+  - { kind: full, value: "Sheikh Jamaludin Osman Haji" }
+  - { kind: full, value: "جمال الدين عثمان حاجي" }
+  - { kind: alternate, value: "Jamaludin Osman" }
+label: { ar: "جمال الدين عثمان حاجي", en: "Sheikh Jamaludin Osman Haji", ur: "شیخ جمال الدین عثمان حاجی" }
+summary:
+  ar: "داعية كيني وإمام الجامع الكبير ⁦(جامع جاميا)⁩ في نيروبي منذ مايو 2024، بعد أن كان نائب الإمام منذ أكتوبر 2019؛ وُلد في 20 يوليو 1986 ونشأ وتعلّم في مومباسا، ونال بكالوريوس الحديث من الجامعة الإسلامية بالمدينة المنورة سنة 2014. بلغ حسابه على إنستغرام (@sheikhjamaludinosman) 150,000 متابع بحسب قراءة حصاد الموجة 196 لبيانات منشوراته بتاريخ 8 نوفمبر 2026 — وهي قراءة الحصاد لا قراءة مباشرة من هذا الكاتب، إذ لم تُعطِ محاولة إعادة القراءة المباشرة رقمًا مؤرخًا بديلًا — ويجول بأنحاء كينيا في جولات دعوية، منها جولة وسط كينيا في مايو 2026."
+  en: "Kenyan preacher and Imam of Jamia Mosque, Nairobi, since May 2024, after serving as deputy imam from October 2019; born on 20 July 1986 and raised and schooled in Mombasa, he earned a bachelor's degree in Hadith at the Islamic University of Madinah in 2014. His Instagram account (@sheikhjamaludinosman) counted 150,000 followers by the wave-196 harvest's read of his posts' metadata on 8 November 2026 — the harvest's read, not this writer's own direct read, this writer's fresh re-read attempt yielding no alternative dated figure — and he tours Kenya on da'wah tours, among them the Central Kenya tour of May 2026."
+  ur: "کینیا کے مبلغ اور مئی 2024ء سے نیروبی کی جامع مسجد کے امام، اس سے قبل اکتوبر 2019ء سے نائب امام؛ وہ 20 جولائی 1986ء کو پیدا ہوئے، مومباسا میں پلے بڑھے اور تعلیم حاصل کی، اور 2014ء میں مدینہ کی اسلامی یونیورسٹی سے حدیث میں بیچلر ڈگری حاصل کی۔ ان کے انسٹاگرام اکاؤنٹ (@sheikhjamaludinosman) کے فالوور 150,000 تھے، جیسا کہ موج 196 کے حصول نے 8 نومبر 2026ء کو ان کی پوسٹوں کے میٹا ڈیٹا کو پڑھ کر درج کیا — یہ حصول کی خوانی ہے، اس مصنف کی براہِ راست خوانی نہیں، کیونکہ دوبارہ خوانی کی کوشش سے کوئی متبادل مؤرخ عدد حاصل نہیں ہوا — اور وہ کینیا بھر میں دعوتی دورے کرتے ہیں، جن میں مئی 2026ء کا وسطی کینیا دورہ شامل ہے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a specific school or order for Sheikh Jamaludin Osman himself. His own website styles him 'A Muslim preacher devoted to the community · Imam · Educator' and 'Madinah Trained, BA in Hadith', and states that he 'studied at the Islamic University of Madinah, earning a Bachelor's degree in Hadith'; The Eastleigh Voice likewise records the Madinah diploma in Arabic studies and the 2014 bachelor's degree in Hadith, and Sahifa's tour report names no school. A Madinah degree is formation/education, which under this lane's rules attests nothing about a faith value, and his office as Imam of Jamia Mosque is headship, which likewise never counts. No other text read names a madhhab or tariqa for the man himself, so under the two-text rule his school stays unknown."
+    sources: [source/jamaludinosman-website, source/eastleigh-voice-jamaludin-imam-2024, source/sahifa-jamaludin-central-kenya-tour-2026]
+roles: [preacher, imam]
+wings: [people, living]
+regions: [east-africa]
+born:
+  edtf: "1986-07-20"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Eastleigh Voice biography of 8 May 2024, read in full on 8 November 2026, states verbatim 'Born on July 20, 1986' and places his upbringing and schooling in Mombasa (St Augustine Preparatory, KCPE 2000; among the first students at the Abu Huraira Academy in Mombasa); the wave-196 harvest's press biography likewise gives his birthplace as Mombasa. No place record for Mombasa exists in the tree, so no born_in relation is written. The Hijri year (1406) is derived by tabular conversion from the Gregorian date."
+  sources: [source/eastleigh-voice-jamaludin-imam-2024]
+relations:
+  - { type: born_in, target: place/kenya, sources: [source/eastleigh-voice-jamaludin-imam-2024] }
+  - { type: lived_in, target: place/mombasa, sources: [source/instagram-sheikhjamaludinosman, source/jamaludinosman-website, source/eastleigh-voice-jamaludin-imam-2024, source/sahifa-jamaludin-central-kenya-tour-2026] }
+  - { type: lived_in, target: place/nairobi, sources: [source/instagram-sheikhjamaludinosman, source/jamaludinosman-website, source/eastleigh-voice-jamaludin-imam-2024, source/sahifa-jamaludin-central-kenya-tour-2026] }
+  - { type: lived_in, target: place/medina, sources: [source/instagram-sheikhjamaludinosman, source/jamaludinosman-website, source/eastleigh-voice-jamaludin-imam-2024, source/sahifa-jamaludin-central-kenya-tour-2026] }
+
+reach:
+  - { platform: instagram, metric: followers, value: 150000, date: "2026-11-08", note: "@sheikhjamaludinosman — 150,000 followers by the wave-196 harvest's read of Instagram post metadata on his posts dated 2026-07-11 and 2026-09-04, read on 2026-11-08; this writer's fresh re-read attempt on 2026-11-08 yielded no alternative dated figure, so the harvest's same-day read is carried, disclosed as such", sources: [source/instagram-sheikhjamaludinosman] }
+sources: [source/instagram-sheikhjamaludinosman, source/jamaludinosman-website, source/eastleigh-voice-jamaludin-imam-2024, source/sahifa-jamaludin-central-kenya-tour-2026]
+provenance:
+  layer: own-research
+  source: "The wave-196 harvest entry 7 (Sheikh Jamaludin Osman, Kenya; Instagram @sheikhjamaludinosman), researched on 8 November 2026 against his own website (jamaludinosman.com), The Eastleigh Voice appointment biography of 8 May 2024 and Sahifa Media's Central Kenya Da'wah Tour report, all read in full on that date. COUNT: the main-channel Instagram figure of 150,000 followers rests on the HARVEST's same-day read (8 November 2026) of Instagram post metadata on his posts dated 11 July 2026 and 4 September 2026 — it is NOT this writer's own read. This writer attempted a fresh re-read on 8 November 2026: web searches for a tracker page naming this handle (instastatistics / Social Blade / SocialCounts / ThoughtLeaders routes) surfaced no tracker page for @sheikhjamaludinosman and no alternative dated figure, so the harvest's figure is carried, disclosed as the harvest's read in the record, its source and the prose, following the wave-195 precedent. A search result for his TikTok account under the same handle (@sheikhjamaludinosman, 200.5K followers in a search-index crawl) is not used: it is not the main channel named in the brief and its crawl carries no read date this writer can cite. His X account @JamaludinSheikh (62,000 followers, harvest read) is below the lane's bar and is context only. IDENTITY: verified from the sources read — full name Sheikh Jamaludin Osman Haji (Eastleigh Voice headline and text); born 20 July 1986 (Eastleigh Voice, verbatim); deputy Imam of Jamia Mosque, Nairobi, from October 2019 and Imam from May 2024, succeeding the late Imam Muhammad Swalihu (Eastleigh Voice; his own site and Sahifa confirm the current imamate; Kenya Insights coverage of September 2025, found in search, likewise dates his appointment to May 2024); diploma in Arabic studies and BA in Hadith, Islamic University of Madinah, 2014 (Eastleigh Voice; his own site confirms the BA in Hadith). The Madinah degree is FORMATION and is expressly stated in the faith note to attest nothing. RELATIONS: none written — checks on 8 November 2026 found no place record for Mombasa or Nairobi in data/place/ and no usable building record for Jamia Mosque (the data/building/jamia-mosque-nairobi.yaml file in the staging tree is an empty placeholder, and no predicate in schema/predicates.yaml covers a person's imamate of a building), so edges are omitted rather than invented, per this lane's practice. NO relation is written to person/anwar-yusuf: that record is an Ethiopian Afaan Oromo sheikh (@sheikhanwaryusuf), a different man from the Kenyan Sheikh Anwar Yusuf of this wave and from this record's subject. Searches of the English Wikipedia on 8 November 2026 found no article on him (results returned other men of similar name) and no Wikidata item could be found, so no wikidata id is recorded. De-duplicated against the staging tree: no jamaludin record exists."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-196"
+status: { review: published, completeness: 2 }

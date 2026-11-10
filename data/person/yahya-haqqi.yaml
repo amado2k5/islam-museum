@@ -1,0 +1,35 @@
+id: person/yahya-haqqi
+class: person
+label: { ar: "يحيى حقي", en: "Yahya Haqqi" }
+names:
+  - { kind: full, lang: ar, value: "يحيى حقي" }
+gender: male
+roles: [writer]
+traditions: [sunni]
+born: { edtf: "1905", hijri: "1323", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1992", hijri: "1413", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "كاتب مصري ولد في حي السيدة زينب بالقاهرة في يناير 1905، ونال شهادة الحقوق."
+  en: "An Egyptian writer born in the Sayyida Zaynab district of Cairo in January 1905, who held a law degree."
+wings: [people]
+themes: [literature]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+honours:
+  - { award: award/king-faisal-prize, category: arabic-language-and-literature, result: won, year: 1990, note: "topic: the short novel", sources: [source/wikipedia-king-faisal-prize-en] }
+external_ids:
+  wikidata: Q376678
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص88"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch63
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en] }

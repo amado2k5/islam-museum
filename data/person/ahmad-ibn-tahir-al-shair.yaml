@@ -1,0 +1,21 @@
+id: person/ahmad-ibn-tahir-al-shair
+class: person
+label: { ar: "أحمد بن طاهر الشاعر", en: "Ahmad ibn Tahir" }
+summary:
+  ar: "رثى أبا الحسين يحيى بن عمر بقصيدة طويلة منها سلام على الإسلام فهو مودع إذا ما مضى آل النبي فودعوا وبني طاهر واللؤم منكم سجية وللغدر منكم حاسر ومقنع {cite:muruj-al-dhahab p. 531}."
+  en: "The poet of the great 'peace be upon Islam' elegy for Yahya ibn 'Umar {cite:muruj-al-dhahab p. 531}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "Poet of the great elegy for Yahya ibn Umar, killed at Kufa in 250; the Tahirid-Alid episode context is Kufa. Inferred.", sources: [source/muruj-al-dhahab], confidence: low }

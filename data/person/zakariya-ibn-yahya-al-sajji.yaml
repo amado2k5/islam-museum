@@ -1,0 +1,33 @@
+id: person/zakariya-ibn-yahya-al-sajji
+class: person
+label: { ar: "زكريا بن يحيى الساجي" }
+names:
+  - { kind: full, lang: ar, value: "أبو يحيى زكريا بن يحيى الساجي البصري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0307", edtf: "0920~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بالبصرة سنة سبع وثلاثمائة (PDF ص55).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو يحيى زكريا بن يحيى الساجي البصري، أخذ عن الربيع والمزني، ومات بالبصرة سنة سبع وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 55}. وله كتاب «اختلاف الفقهاء» وكتاب «علل الحديث» {cite:tabaqat-fuqaha-abbas-1981 p. 55}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-rabi-ibn-sulayman-al-muadhdhin, role: "أخذ عن الربيع (PDF ص55)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-muzani, role: "أخذ عن المزني (PDF ص55)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+
+  - { type: lived_in, target: place/busra, confidence: low, note: "Association inferred from the nisba 'البصري'; specific birthplace or residence is not individually documented.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

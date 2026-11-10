@@ -1,50 +1,143 @@
 ---
+// The landing page (Part 3, B): hero with "this day", the pathways, the nine wings, the four explorers, the Hijri-date widget, the stats.
+// Layout, section order and copy follow docs/design/landing-mockup (islam-museum-landing-mockup.html); colours are the site tokens.
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { ui, WINGS, wingHref, type Lang } from "../lib/i18n";
-import { href } from "../lib/graph";
+import Logo from "./Logo.astro";
+import TodayCards from "./TodayCards.astro";
+import ExplorerModule from "./ExplorerModule.astro";
+import GiftShop from "./GiftShop.astro";
+import ArtStrip from "./ArtStrip.astro";
+import FutureStrip from "./FutureStrip.astro";
+import WorldStrip from "./WorldStrip.astro";
+import { ui, fmt, WINGS, wingHref, NUM_LOCALE, ARABIC_SCRIPT, type Lang } from "../lib/i18n";
+import { href, graph, labelOf, summaryOf, realNodes } from "../lib/graph";
+import { wingCountLabel, explorePages, num } from "../lib/nav";
+import { featuredPool } from "../../../scripts/wings";
+import { a11yLd } from "../lib/a11y";
 const { lang, path } = Astro.props as { lang: Lang; path: string };
 const T = ui(lang);
+const L = T.learn;
+const ORDER = ["path-islam-in-30-minutes", "path-meccan-period", "path-abyssinia-migrations", "path-women-around-the-prophet", "path-from-opposition-to-islam"];
+const rank = (id: string) => { const k = ORDER.indexOf(id.replace("exhibit/", "")); return k === -1 ? 99 : k; };
+const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id).startsWith("exhibit/path-")).sort((a: any, b: any) => rank(a.id) - rank(b.id) || String(a.id).localeCompare(String(b.id))).slice(0, 5);
+const PATH_ACC = ["var(--gold)", "var(--wing-ideas)", "var(--wing-place)", "#8e5aa8", "var(--wing-people)"];
+const EXPLORE = explorePages(lang);
+const pages = 2 * realNodes.length;
+// One random entry per wing card, picked in the browser from a small pool fixed at build time (scripts/wings.ts featuredPool).
+const teaser = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
+// A wing with no entry written in the page's language yet borrows from the next language (Urdu: Arabic, then English); the link stays in the page's language.
+const FALLBACK: Record<Lang, Lang[]> = { ar: ["ar", "en"], en: ["en", "ar"], ur: ["ur", "ar", "en"] };
+const featured = Object.fromEntries(WINGS.map((w) => {
+  let src = lang, pool: any[] = [];
+  for (const l of FALLBACK[lang]) { pool = featuredPool(realNodes as any[], w, l); src = l; if (pool.length) break; }
+  return [w, { g: src, x: pool.map((n: any) => ({ h: href(lang, n.id), l: labelOf(n, src), s: teaser(summaryOf(n, src)) })) }];
+})) as Record<string, { g: Lang; x: { h: string; l: string; s: string }[] }>;
+const featLang = (w: string) => featured[w].g === lang ? {} : { lang: featured[w].g, dir: ARABIC_SCRIPT.includes(featured[w].g) ? "rtl" : "ltr" };
+const featJson = JSON.stringify(Object.fromEntries(Object.entries(featured).map(([w, f]) => [w, f.x]))).replace(/</g, "\\u003c");
+const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: num(Math.round(pages / 1000) * 1000, lang) });
 ---
-<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/" }}>
-  <div class="wrap" style="padding-block:4vh 20px">
-    <p class="eyebrow">{T.landing.eyebrow}</p>
-    <h1 class="display" style="max-width:20ch;font-weight:400;font-size:clamp(2.2rem,6vw,4.4rem)">{T.landing.title_pre} <strong style="font-weight:600;color:var(--link)">{T.landing.title_strong}</strong> {T.landing.title_post}</h1>
-    <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
-    <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem;min-height:2em"></p>
-    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
-    <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
+<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/", ...a11yLd(lang) }}>
+  <section class="lhero" aria-labelledby="hero-title">
+    <Logo size={300} class="lhero-star" variant="mono" alt={T.name} />
+    <div class="wrap" style="position:relative">
+      <p class="eyebrow">{T.landing.eyebrow}</p>
+      <h1 id="hero-title" class="display">{T.landing.title_pre} <span class="hl">{T.landing.title_strong}</span> {T.landing.title_post}</h1>
+      <TodayCards lang={lang} />
+    </div>
+  </section>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
-    <ul class="grid-cards" style="margin-bottom:3.5rem">
-      {WINGS.map((w) => (
-        <li><a class="card" href={wingHref(lang, w)}><b style={`border-inline-start:4px solid var(--wing-${w});padding-inline-start:10px`}>{T.wings[w].title}</b><span>{T.wings[w].blurb}</span></a></li>
-      ))}
-    </ul>
+  <section class="block" aria-label={T.time_browser.x_name}>
+    <div class="wrap"><ExplorerModule lang={lang} /></div>
+  </section>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
-    <ul class="grid-cards" style="margin-bottom:3.5rem">
-      <li><a class="card" href={wingHref(lang, "place")}><b style="border-inline-start:4px solid var(--gold);padding-inline-start:10px">{T.entrances.map.title}</b><span>{T.entrances.map.blurb}</span></a></li>
-      {(["questions", "exhibits", "screen", "themes", "learn"] as const).map((k) => (
-        <li><a class="card" href={`/${lang}/${k}/`}><b>{T.entrances[k].title}</b><span>{T.entrances[k].blurb}</span></a></li>
-      ))}
-    </ul>
+  <section class="block" id="tour" aria-labelledby="tour-title">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="tour-title">{T.landing.tour_title}</h2><p class="muted">{T.landing.tour_lede}</p></div>
+      <ul class="paths" role="list">
+        {paths.map((n: any, i: number) => (
+          <li><a class="path" href={href(lang, n.id)} style={`--acc:${PATH_ACC[i]}`}><h3>{labelOf(n, lang)}</h3><p>{summaryOf(n, lang)}</p><span class="meta ui">{(n.data.rooms ?? []).length} {L.steps} · {n.data.duration_minutes} {L.minutes}</span></a></li>
+        ))}
+      </ul>
+      <p class="plan-note ui">{T.landing.plan_note} · <a href={`/${lang}/learn/`}>{T.landing.all_paths} <span class="flip" aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.landing.how}</h2>
-    <ul class="ui muted" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
-      {T.landing.pillars.map((p: string) => <li style="display:flex;gap:8px;align-items:center"><span aria-hidden="true" style="width:6px;height:6px;background:var(--gold);border-radius:50%"></span>{p}</li>)}
-    </ul>
-  </div>
-  <script is:inline>
-    (function () {
-      var el = document.getElementById("today-line");
-      if (!el) return;
-      var l = document.documentElement.lang;
-      try {
-        var now = new Date(), loc = (l === "ar" ? "ar" : "en-GB");
-        var h = new Intl.DateTimeFormat(loc + "-u-ca-islamic-umalqura-nu-latn", { day: "numeric", month: "long", year: "numeric" }).format(now);
-        var g = new Intl.DateTimeFormat(loc + "-u-nu-latn", { day: "numeric", month: "long", year: "numeric" }).format(now);
-        el.textContent = el.dataset.prefix + " " + h + " · " + g;
-      } catch (e) {}
-    })();
-  </script>
+  <section class="block" id="wings" aria-labelledby="wings-title" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="wings-title">{T.landing.wings_title}</h2><p class="muted">{T.landing.wings_lede}</p></div>
+      <ul class="wings" role="list">
+        {WINGS.map((w) => (
+          <li class="wing" data-wing={w} style={`--acc:var(--wing-${w})`}>
+            <a class="wing-head" href={wingHref(lang, w)}><h3>{T.wings[w].title} <span class="flip" aria-hidden="true">→</span></h3><span class="count ui">{wingCountLabel(lang, w)}</span></a>
+            <p>{T.wings[w].blurb}</p>
+            {featured[w].x[0] && <a class="feat" data-feat={w} href={featured[w].x[0].h}><span class="feat-k ui">✦ {T.landing.featured}</span><h4 class="feat-l" {...featLang(w)}><bdi>{featured[w].x[0].l}</bdi></h4><span class="feat-s" {...featLang(w)}>{featured[w].x[0].s}</span></a>}
+          </li>
+        ))}
+      </ul>
+      <script type="application/json" data-feat-pool set:html={featJson} />
+    </div>
+  </section>
+
+  <section class="block" id="explore" aria-labelledby="explore-title" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="explore-title">{T.landing.explore_title}</h2><p class="muted">{T.landing.explore_lede}</p></div>
+      <ul class="xgrid" role="list">
+        {EXPLORE.map((x) => (
+          <li class="xcard">
+            <div class="thumb" aria-hidden="true" data-thumb={x.key}>
+              {x.key === "timeline" && <div class="axis"><div class="line"></div><span class="tick" style="inset-inline-start:8%">1هـ</span><span class="tick" style="inset-inline-start:38%">500هـ</span><span class="tick" style="inset-inline-start:66%">1000هـ</span><span class="tick" style="inset-inline-end:6%">1448هـ</span><div class="play"></div></div>}
+              {x.key === "journeys" && <svg class="dunes" viewBox="0 0 150 150" preserveAspectRatio="xMidYMid slice"><rect width="150" height="150" fill="#e8d9b8"/><path d="M0 110 Q40 80 75 105 T150 95 V150 H0 Z" fill="#dfc99c"/><path class="route" d="M118 118 Q95 100 78 108 T40 92 T18 98"/><circle cx="118" cy="118" r="5" fill="var(--gold)"/><circle cx="40" cy="92" r="4" fill="var(--gold)"/><circle cx="18" cy="98" r="4" fill="var(--lapis)"/></svg>}
+              {x.key === "graph" && <div class="stars"><i style="top:30%;right:25%"></i><i style="top:55%;right:45%"></i><i style="top:25%;right:60%"></i><i style="top:65%;right:70%"></i><i style="top:40%;right:80%"></i><svg style="position:absolute;inset:0" viewBox="0 0 150 150"><path d="M112 45 L82 82 L60 37 M82 82 L45 97 M82 82 L30 60" stroke="#e8c85a" stroke-width="1" opacity=".6" fill="none"/></svg></div>}
+              {x.key === "revelation" && <div class="split"><div></div><div></div></div>}
+              {x.key === "khutab" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M40 118 H110 M48 100 H102 M56 82 H94 M64 64 H86" stroke="#c5a059" stroke-width="5" fill="none"/><path d="M75 22 V52" stroke="#2a7b88" stroke-width="3"/></svg>}
+              {x.key === "jobs" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M75 26 V120 M54 120 H96" stroke="#c5a059" stroke-width="4" fill="none"/><path d="M36 50 H114" stroke="#b27b42" stroke-width="4" fill="none"/><path d="M36 50 L26 84 M36 50 L46 84 M114 50 L104 84 M114 50 L124 84" stroke="#2a7b88" stroke-width="2.5" fill="none"/><path d="M24 84 Q36 98 48 84 Z M102 84 Q114 98 126 84 Z" fill="#b27b42"/><circle cx="75" cy="26" r="6" fill="#c5a059"/></svg>}
+              {x.key === "inventions" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M75 30 a28 28 0 0 1 16 51 v13 h-32 v-13 a28 28 0 0 1 16 -51 Z" fill="none" stroke="#c5a059" stroke-width="4"/><path d="M62 104 H88 M64 113 H86" stroke="#b27b42" stroke-width="4"/><path d="M75 94 V70 M66 62 L75 70 L84 62" stroke="#2a7b88" stroke-width="3" fill="none"/><path d="M30 58 H42 M108 58 H120 M44 26 L52 34 M106 26 L98 34" stroke="#2a7b88" stroke-width="2.5"/></svg>}
+              {x.key === "modern" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M20 118 H130" stroke="#c5a059" stroke-width="4"/><rect x="28" y="88" width="14" height="30" fill="#2a7b88"/><rect x="50" y="70" width="14" height="48" fill="#c5a059"/><rect x="72" y="52" width="14" height="66" fill="#2a7b88"/><rect x="94" y="36" width="14" height="82" fill="#c5a059"/><rect x="116" y="60" width="10" height="58" fill="#b27b42"/><circle cx="121" cy="30" r="9" fill="none" stroke="#b27b42" stroke-width="3"/><path d="M121 24 V30 L125 33" stroke="#b27b42" stroke-width="2.5" fill="none"/></svg>}
+              {x.key === "fatwa" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><rect x="38" y="28" width="74" height="96" rx="6" fill="none" stroke="#c5a059" stroke-width="4"/><path d="M52 52 H98 M52 70 H98 M52 88 H82" stroke="#2a7b88" stroke-width="4" fill="none"/><circle cx="104" cy="112" r="12" fill="#c5a059"/></svg>}
+              {x.key === "map" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><circle cx="75" cy="75" r="52" fill="none" stroke="#c5a059" stroke-width="3"/><path d="M23 75 H127 M75 23 Q96 75 75 127 M75 23 Q54 75 75 127" stroke="#c5a059" stroke-width="2" fill="none"/><circle cx="90" cy="56" r="5" fill="#2a7b88"/><circle cx="57" cy="93" r="4" fill="#c5a059"/></svg>}
+              {x.key === "surahmaps" && <svg viewBox="0 0 150 150" style="position:absolute;inset:0" aria-hidden="true"><path d="M75 12 L75 138" stroke="#c5a059" stroke-width="3" fill="none"/><circle cx="75" cy="30" r="9" fill="#c5a059"/><circle cx="75" cy="62" r="7" fill="#2a7b88"/><circle cx="75" cy="92" r="8" fill="#4d8a4f"/><circle cx="75" cy="120" r="6" fill="#c5a059"/><circle cx="100" cy="62" r="4" fill="#2a7b88"/><circle cx="50" cy="92" r="4" fill="#4d8a4f"/></svg>}
+            </div>
+            <div class="body" style={`--acc:${x.key === "timeline" ? "var(--gold)" : x.key === "journeys" ? "var(--wing-living)" : x.key === "graph" ? "#8e5aa8" : x.key === "surahmaps" ? "var(--gold)" : x.key === "map" ? "var(--gold)" : x.key === "khutab" ? "var(--wing-ideas)" : x.key === "fatwa" ? "var(--wing-words)" : x.key === "jobs" ? "var(--wing-objects)" : x.key === "inventions" ? "var(--wing-ideas)" : x.key === "modern" ? "var(--wing-today)" : "var(--lapis)"}`}>
+              <h3>{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon ui">{T.landing.in_progress}</span>}</h3>
+              <p>{T.explore.pages[x.key].desc}</p>
+              <a class="go ui" href={x.href}>{T.landing.try} <span class="flip" aria-hidden="true">→</span></a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="widget-title">
+    <div class="wrap band-grid">
+      <div>
+        <h2 id="widget-title">{T.landing.widget_title}</h2>
+        <p class="muted" style="margin:0">{T.landing.widget_lede}</p>
+        <form class="row ui" id="hijri-form" data-hijri-widget data-corresponds={T.landing.corresponds} data-none={T.landing.widget_none} data-fail={T.landing.widget_fail}>
+          <label class="sr-only" for="bdate">{T.landing.date_label}</label>
+          <input type="date" id="bdate" name="d" lang={lang} required />
+          <button class="btn btn-lapis" type="submit">{T.landing.calc}</button>
+        </form>
+        <p class="hresult ui" id="hresult" role="status" aria-live="polite" hidden></p>
+      </div>
+      <div style="text-align:center">
+        <p style="font-size:1.15rem">{T.landing.widget_or}</p>
+        <a class="btn btn-outline" href={href(lang, "event/hijra")} style="font-size:1.05rem;padding:.8rem 2rem">{T.landing.start} <span class="flip" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats ui" aria-label={T.landing.coverage}>
+    <div class="wrap">
+      <p class="nums">{stats}</p>
+      <p class="honest muted">{T.landing.honest} — <a href={`/${lang}/coverage/`}>{T.landing.honest_link}</a></p>
+    </div>
+  </section>
+  <WorldStrip lang={lang} />
+  <FutureStrip lang={lang} />
+  <ArtStrip lang={lang} />
+  <GiftShop lang={lang} />
+  <p class="last-upd ui muted" data-last-updated data-tpl={T.landing.last_updated} data-locale={NUM_LOCALE[lang]} hidden></p>
+  <script src="../scripts/hijri-widget.ts"></script>
+  <script src="../scripts/landing-random.ts"></script>
 </BaseLayout>

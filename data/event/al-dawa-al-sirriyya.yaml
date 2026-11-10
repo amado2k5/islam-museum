@@ -1,11 +1,20 @@
 id: event/al-dawa-al-sirriyya
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "دامت الدعوة سراً ثلاث سنين آمن فيها الرعيل الأول — خديجة وعلي وزيد وأبو بكر في اليوم الأول كما يروي الرحيق."
+    en: "The call stayed private for three years, during which the first band believed — Khadija, Ali, Zayd and Abu Bakr on the very first day, as al-Rahiq relates."
+    ur: "دعوت تین سال خفیہ رہی جس میں پہلا گروہ ایمان لایا — پہلے ہی دن خدیجہ، علی، زید اور ابوبکر، جیسا کہ الرحیق بیان کرتا ہے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 kind: other
 label: { en: "The three years of the secret call", ar: "ثلاث سنوات من الدعوة السرية" }
 summary:
   en: "The first stage of the call to Islam — individual and secret for three years — in which the first band believed: Khadija, Ali, Zayd and Abu Bakr on the first day, then those whom Abu Bakr called, then a company Ibn Hisham numbers at over forty from every clan of Quraysh; during it prayer was first prescribed."
   ar: "المرحلة الأولى من مراحل الدعوة: دعوة فردية سرية دامت ثلاث سنين آمن فيها الرعيل الأول — خديجة وعلي وزيد وأبو بكر في أول يوم، ثم من أسلم بدعوة أبي بكر، ثم جماعة عدّها ابن هشام أكثر من أربعين من جميع بطون قريش؛ وفيها فرضت الصلاة أولاً."
-wings: [time, people]
+wings: [time]
 themes: [prophets, worship-and-the-pillars]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -13,7 +22,7 @@ date:
   start: { edtf: "0610~", calendar: julian, precision: year, status: tradition, note: "من بدء الوحي" }
   end: { edtf: "0613~", calendar: julian, precision: year, status: tradition, note: "ثلاث سنين حتى أول إظهار الدعوة (الرحيق ص74-77)" }
 significance:
-  ar: "فيها تكونت جماعة المؤمنين الأولى على الأخوة والتعاون وتبليغ الرسالة سراً؛ وكان المسلمون يصلون في الشعاب مستخفين من قومهم (الرحيق ص76-77؛ ابن هشام 1/247)."
+  ar: "فيها تكونت جماعة المؤمنين الأولى على الأخوة والتعاون وتبليغ الرسالة سراً؛ وكان المسلمون يصلون في الشعاب مستخفين من قومهم ⁦(الرحيق ص76-77؛ ابن هشام 1/247)⁩."
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/muhammad, role: "يجتمع بهم ويرشدهم متخفياً" }
@@ -39,5 +48,11 @@ relations:
   - { type: had_participant, target: person/abu-talib, role: "أمر النبي وعلياً بالثبات على الصلاة حين رآهما", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: caused_by, target: event/fatrat-al-wahy }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/fiqh-al-sira-al-ghazali, source/mukhtasar-sirat-al-rasul-al-najdi, source/muhadarat-tarikh-al-umam-al-islamiyya]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 74-77" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch7"

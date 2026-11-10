@@ -1,0 +1,31 @@
+id: person/aisha-al-bauniyya
+class: person
+label:
+  ar: "عائشة الباعونية"
+  en: "A'isha al-Ba'uniyya"
+roles: [poet, writer, scholar]
+gender: female
+summary:
+  ar: "عائشة بنت يوسف الباعونية، شاعرة أديبة فقيهة دمشقية ⁦(ت ٩٢٢هـ/١٥١٦م)⁩، صاحبة «البديعية» و«الفتح الحقيقي» و«مولد النبي»."
+  en: "A'isha bint Yusuf al-Ba'uniyya, Damascene poetess and jurist (d. 922/1516), author of the Badi'iyya and a celebrated mawlid."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+themes: [spirituality-and-sufism, women]
+sources: [source/al-aalam, source/alam-al-nisa-kahhala-risala-1984-v3, source/wikidata]
+external_ids:
+  wikidata: Q12222083
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on her entry in Kahhala's A'lam al-Nisa' from source/alam-al-nisa-kahhala-risala-1984-v3 PDF pp. 200-201"
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.3 p.240)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0020
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1517", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib)" }
+relations:
+  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

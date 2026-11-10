@@ -1,0 +1,11 @@
+---
+id: passage/muwatta-3-697
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+The first report in the chapter on zakat on livestock. Malik says he read the letter of Umar ibn al-Khattab on zakat and found in it, after the basmala: for twenty-four camels and fewer, sheep, one sheep for every five; for more, up to thirty-five, a she-camel in its second year, or if none, a male camel in its third year; up to forty-five, a she-camel in its third year; up to sixty, a she-camel in its fourth year fit for the stallion; up to seventy-five, a she-camel in its fifth year; up to ninety, two she-camels in their third year; up to one hundred and twenty, two she-camels in their fourth year; beyond that, one she-camel in its third year for every forty and one in its fourth year for every fifty. For grazing sheep: from forty to one hundred and twenty, one sheep; to two hundred, two; to three hundred, three; beyond that, one sheep per hundred. No he-goat, aged animal or defective animal is taken in charity except as the collector chooses; the herd of separate owners is not combined nor the combined herd separated to avoid zakat; and for mixing partners, they settle between them equally. For silver, when it reaches five ounces, a quarter of a tenth. The editor explains the camel ages and silver amounts and notes that Abu Musab transmitted it; that Ahmad, Abu Dawud, Ibn Majah and al-Tirmidhi transmitted the letter through al-Zuhri from Salim from his father, that the Prophet wrote the letter of charity and did not send it to his agents until he died, and that Abu Bakr and Umar acted on it; he considers the mursal version sounder, and the report from Anas about Abu Bakr's letter is in al-Bukhari. {cite:muwatta-maruf-1997 p.349}
+
+## Place in the museum
+Belongs to [[passage/muwatta-kitab-03-zakat|the Muwatta, Book of Zakat]]. Source: [[work/muwatta-malik|the Muwatta]]. Mentions [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]], [[person/malik-ibn-anas|Malik ibn Anas]], [[person/muhammad|Muhammad]], [[person/abu-bakr|Abu Bakr al-Siddiq]], [[person/anas-ibn-malik|Anas ibn Malik]], [[person/salim-ibn-abd-allah-ibn-umar|Salim ibn Abdallah ibn Umar]]. Built on in the chapters on [[practice/zakat|zakat]] and [[concept/nisab|minimum threshold (nisab)]].

@@ -1,0 +1,34 @@
+id: person/abd-al-rahim-anbaran-qalam
+class: person
+label:
+  ar: "عبد الرحیم عنبران قلم"
+  en: "Abd al-Rahim Anbaran Qalam"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحیم عنبران قلم، الخطاط الإيراني في العصر القاجاري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Rahim Anbaran Qalam, the Iranian calligrapher of the Qajar era; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q108329889
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Beach (Grand Mogul)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "From text: Iranian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

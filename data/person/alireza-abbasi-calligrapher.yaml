@@ -1,0 +1,34 @@
+id: person/alireza-abbasi-calligrapher
+class: person
+label:
+  ar: "علي رضا العباسي"
+  en: "Alireza Abbasi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي رضا العباسي، خطاط النستعليق الصفوي في عهد الشاه عباس؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Alireza Abbasi, the Safavid nasta'liq calligrapher of Shah Abbas's reign; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1628~", precision: decade, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6406079
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

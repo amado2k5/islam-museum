@@ -1,0 +1,30 @@
+id: person/mahmoud-al-shahat-anwar
+class: person
+label: { ar: "محمود الشحات أنور", en: "Mahmoud al-Shahat Anwar", ur: "محمود الشحات انور" }
+names:
+  - { value: "محمود الشحات محمد أنور", kind: full }
+  - { value: "Mahmoud El-Shahat Anwar", kind: full }
+  - { value: "الشيخ محمود الشحات", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري ⁦(وُلد 1984)⁩ من ميت غمر بالدقهلية، ابن القارئ الشحات محمد أنور وعليه حفظ القرآن، فاز بالمركز الأول في مسابقة دولية بمصر، وقرأ في إذاعة للقرآن في لندن، وينشر تسجيلاته بنفسه."
+  en: "Egyptian Qur'an reciter (born 1984) from Mit Ghamr in Dakahlia, son of the reciter al-Shahat Muhammad Anwar, under whom he memorised the Qur'an; he won first place at an international competition in Egypt, recited on a Qur'an radio in London and publishes his own recordings."
+  ur: "مصری قاریِ قرآن ⁦(پیدائش 1984ء)⁩، دقہلیہ کے میت غمر سے، قاری الشحات محمد انور کے بیٹے جن سے قرآن حفظ کیا؛ مصر میں ایک بین الاقوامی مقابلے میں اول آئے، لندن کے ایک قرآن ریڈیو پر تلاوت کی اور اپنی ریکارڈنگز خود شائع کرتے ہیں۔"
+wings: [people, living]
+regions: [egypt-nile]
+roles: [reciter]
+born: { edtf: "1984-09-10", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Kafr al-Wazir village, Mit Ghamr, Dakahlia (Arabic article; Wikidata gives the same day and Mit Ghamr). No place entity exists for either, so no birthplace relation is written.", sources: [source/wikipedia-mahmoud-al-shahat-anwar-ar, source/wikidata-mahmoud-al-shahat-anwar] }
+relations:
+  - { type: born_in, target: place/mit-ghamr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-al-shahat-anwar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-mahmoud-al-shahat-anwar-ar, source/wikidata-mahmoud-al-shahat-anwar]
+footprint:
+  wikipedia: { languages: [ar, arz, fa, ha, ms, pnb, ur], checked: "2026-11-06", sources: [source/wikidata-mahmoud-al-shahat-anwar] }
+  wikidata: "Q56697729"
+external_ids: { wikidata: "Q56697729" }
+sources: [source/wikipedia-mahmoud-al-shahat-anwar-ar, source/wikidata-mahmoud-al-shahat-anwar]
+provenance: { layer: own-research, source: "Arabic Wikipedia «محمود الشحات أنور» (revision 76510036, 10 September 2026) and Wikidata Q56697729 (revision 2496211860), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b01 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

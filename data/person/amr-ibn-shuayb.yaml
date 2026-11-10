@@ -1,0 +1,29 @@
+id: person/amr-ibn-shuayb
+class: person
+label:
+  ar: "عمرو بن شعيب"
+  en: "'Amr ibn Shu'ayb"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمرو بن شعيب؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for 'Amr ibn Shu'ayb; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+died: { hijri: "0118", edtf: "0736", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: توفي بالطائف سنة ثمان عشرة ومائة {cite:mizan-itidal-bijawi-v3 p. 268}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+sources: [source/al-aalam, source/tahdhib-tahdhib, source/mizan-itidal-bijawi-v3]
+external_ids:
+  wikidata: Q107380250
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 263–268 (entry 6383)"
+status:
+  review: draft
+  completeness: 3
+relations:
+  - { type: died_in, target: place/taif, note: "From text: توفي بالطائف سنة ثمان عشرة ومائة {ci", sources: [source/al-aalam, source/tahdhib-tahdhib, source/mizan-itidal-bijawi-v3] }

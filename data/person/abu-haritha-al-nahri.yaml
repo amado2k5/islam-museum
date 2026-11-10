@@ -1,0 +1,21 @@
+id: person/abu-haritha-al-nahri
+class: person
+label: { ar: "أبو حارثة النهري", en: "Abu Haritha al-Nahri" }
+summary:
+  ar: "خازن بيوت أموال المهدي، لما فرّق مال أبيه رمى بالمفاتيح بين يديه وقال ما معنى مفاتيح لبيوت فرغ، فلما وردت الأموال وشغل بتصحيحها قال له المهدي أنت أعرابي أحمق فقال إن الحادثة إذا حدثت لم تنتظرك حتى توجه في استخراج الأموال {cite:muruj-al-dhahab p. 302-303}."
+  en: "Al-Mahdi's treasury-keeper who flung down the keys of the emptied vaults — 'accidents do not wait while you send for money' {cite:muruj-al-dhahab p. 302-303}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri, Ansab al-Ashraf" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Treasury-keeper of al-Mahdi; the Abbasid court sat in Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }

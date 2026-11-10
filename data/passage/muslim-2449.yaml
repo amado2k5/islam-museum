@@ -1,0 +1,15 @@
+id: passage/muslim-2449
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2449"
+label: { ar: "مسلم 2449 — إنما فاطمة بضعة مني", en: "Muslim 2449 — Fatima is a part of me" }
+text: "قال رسول الله: «إنما ابنتي بضعة مني، يُريني ما رابها ويؤذيني ما آذاها»، وفي رواية: «إنما فاطمة بضعة مني يؤذيني ما آذاها»"
+summary:
+  ar: "رواية المسور بن مخرمة في باب فضائل فاطمة من صحيح مسلم؛ حديث البضعة — النبي يجعل أذى فاطمة أذاه — من أعمدة نصوص منزلتها عند أهل السنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/fatima, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل فاطمة (طبعة دار التأصيل، الحديث 6461؛ ترقيم عبد الباقي المعروف 2449)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

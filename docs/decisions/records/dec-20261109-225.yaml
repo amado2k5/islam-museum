@@ -1,0 +1,35 @@
+id: dec-20261109-225
+kind: "decision"
+date: "2026-11-09"
+expires_at: "2027-11-09"
+question_hash: 34ac1714a802
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "money-outreach"
+mode: "conservative"
+question: "Should the ANS MANTIS collection database (American Numismatic Society's ~98k-object coin catalogue, ~60,672 records in the Islamic department, ODbL-licensed data with stable accession ids, NUDS/RDF/JSON-LD/Atom APIs, Nomisma-linked authorities) be onboarded as a citable source family for coin objects, and at what tier? Assessment 9 Nov 2026: authority excellent (ANS is the premier US numismatic institution; records carry agency, publication status and maintenance history); citability excellent (stable accession ids like 1917.215.2009, resolvable per-record in NUDS/XML, RDF/XML, Turtle, JSON-LD, KML); terms good — data ODbL, images Public Domain Mark / No Copyright-US; structure excellent (documented REST + Atom feeds + Solr/Lucene queries, per-record serializations); coverage fit excellent and urgent — the graph holds only 2 kind:coin objects while MANTIS carries tens of thousands of Islamic coins spanning the whole timeline, and records already link Nomisma authority/mint URIs matching the museum's external_ids.nomisma; corroboration excellent (primary physical evidence for issuers, mints, denominations, dates, weights); language coverage moderate (legends predominantly in Arabic script, labels English); longevity excellent (institutional database since ~2007, actively maintained)."
+options:
+  - "Tier 1 citable family, facts-only"
+  - "Tier 2 citable family"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Live checks 2026-11-09: numismatics.org/search HTTP 200; /search/apis documents getNuds, getRDF, per-record .xml/.rdf/.ttl/.jsonld/.kml/.geojson; Atom feed /search/feed/?q=department_facet:\"Islamic\" returns 60,672 results; sample record 1917.215.2009 (Gold Sultani of Suleiman I, Algiers 926 H) verified in NUDS/XML with ODbL data licence, Public Domain Mark images, nomisma.org/id/ottomans authority and Wikidata-linked issuer"
+  - "docs/agents/source-families.md explore list: 'Numismatics beyond Nomisma: the ANS MANTIS database, the Tübingen Sylloge Nummorum Arabicorum, the Fitzwilliam and Ashmolean online collections' — Nomisma.org registered Tier 2 same day (dec-20261109-224); MANTIS is its object-level counterpart"
+  - "data/object holds only two kind:coin records (duranir-andalusiyya, umm-hajara-hoard) — MANTIS is the only registered-candidate family that could supply the missing coin object class at scale"
+status: founder-docket
+step: policy-gate
+decision: "external communications, commissions and commitments are founder-only — negation tricks must not disarm this gate"
+confidence: n/a
+reversible: false
+rationale: ""
+gate: "nd-outreach"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-outreach
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["nd-outreach"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

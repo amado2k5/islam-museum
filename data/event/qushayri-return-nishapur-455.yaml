@@ -1,0 +1,29 @@
+id: event/qushayri-return-nishapur-455
+class: event
+kind: other
+label:
+  ar: "عودة القشيري إلى نيسابور في دولة نظام الملك، ٤٥٥هـ"
+  en: "Al-Qushayri's return to Nishapur as Nizam al-Mulk's era dawns, 455/1063"
+  ur: "قشیری کی نظام الملک کے دور کے طلوع پر نیشاپور واپسی، 455ھ/1063ء"
+summary:
+  ar: "لما طلع صبح الدولة الأرسلانية سنة خمس وخمسين وأعاد الوزير نظام الملك التوازن بين الحنفية والشافعية، عاد القشيري من طوس إلى نيسابور فبقي بها عشر سنين مرفّهاً محترماً مطاعاً معظماً حتى وفاته؛ وأحضر نظام الملك من انتزح من أئمة خراسان فأكرمهم {cite:tarikh-islam-dhahabi p. 175} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:shadharat-dhahab p. 310}."
+  en: "When the Arslanian era dawned in 455/1063 and the vizier Nizam al-Mulk restored the balance between Hanafis and Shafi'is, al-Qushayri returned from Tus to Nishapur, where he lived out ten honoured, obeyed and venerated years until his death; Nizam al-Mulk brought back the exiled imams of Khurasan and honoured them {cite:tarikh-islam-dhahabi p. 175} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:shadharat-dhahab p. 310}."
+  ur: "جب 455ھ/1063ء میں ارسلانی دور کا سورج طلوع ہوا اور وزیر نظام الملک نے حنفیوں و شافعیوں کے مابین توازن بحال کیا، تو قشیری طوس سے نیشاپور لوٹے اور وفات تک دس برس عزت و اطاعت و احترام کے ساتھ وہاں رہے؛ نظام الملک نے خراسان کے جلاوطن اماموں کو واپس بلاکر اکرام کیا {cite:tarikh-islam-dhahabi p. 175} {cite:encyclopaedia-of-islam-2 vol. 5 p. 564} {cite:shadharat-dhahab p. 310}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1063", hijri: "0455", calendar: julian, precision: year, status: tradition, derived: true, note: "بقي بطوس حتى طلع صبح النوبة الأرسلانية سنة خمس وخمسين فعاد إلى نيسابور وبقي عشر سنين مرفهاً {cite:tarikh-islam-dhahabi p. 175}؛ وأعاد نظام الملك التوازن بين الحنفية والشافعية فرجع {cite:encyclopaedia-of-islam-2 vol. 5 p. 564}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/tus, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "العائد المكرَّم", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/nizam-al-mulk, role: "الوزير المُعيد للتوازن", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 465, printed p. 175 (harvest OCR, quoting Abd al-Ghafir al-Farisi); Encyclopaedia of Islam 2nd ed. vol. 5.1 p. 564; Ibn al-Imad, Shadharat al-Dhahab 3/310"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qushayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

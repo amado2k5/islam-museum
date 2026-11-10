@@ -1,0 +1,23 @@
+id: event/battle-of-nimla-1809
+class: event
+kind: battle
+label: { ar: "معركة نيملة", en: "Battle of Nimla" }
+summary:
+  ar: "بطاقة أولية لمعركة نيملة، من مصادمات الحروب الأهلية الدرانية بعد وفاة تيمور شاه؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Nimla, a clash of the Durrani civil wars after Timur Shah's death; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1809", precision: year, status: tradition, derived: true }
+  end: { edtf: "1809", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q109567513
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

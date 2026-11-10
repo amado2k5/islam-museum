@@ -1,0 +1,28 @@
+id: work/al-muyassar-fi-gharib-al-quran
+class: work
+kind: book
+label: { ar: "الميسر في غريب القرآن الكريم", en: "al-Muyassar fi Gharib al-Qur'an al-Karim", ur: "المیسر فی غریب القرآن الکریم" }
+summary:
+  ar: "معجم مختصر لغريب القرآن على ترتيب السور، أعده فريق من الباحثين في مركز الدراسات القرآنية بمجمع الملك فهد لطباعة المصحف الشريف على حاشية مصحف المدينة النبوية، ونشره المجمع سنة 1433هـ؛ يختار للفظ وجهاً واحداً من المعاني «قبله الأئمة من أهل التفسير» بعبارة سهلة لعامة الناس، مستفيداً من «التفسير الميسر» {cite:muyassar-gharib-quran-king-fahd-1433 p.3} {cite:muyassar-gharib-quran-king-fahd-1433 p.7} {cite:muyassar-gharib-quran-king-fahd-1433 p.8} {cite:muyassar-gharib-quran-king-fahd-1433 p.9}."
+  en: "A concise glossary of the rare words of the Qur'an in sura order, prepared by a team of researchers at the Centre for Qur'anic Studies of the King Fahd Complex for the Printing of the Holy Qur'an for the margin of the Medina Mushaf, and published by the Complex in 1433 AH; for each word it chooses a single meaning 'accepted by the authoritative commentators', in plain language for the general public, drawing on al-Tafsir al-muyassar."
+authors: [group/king-fahd-complex-for-printing-the-holy-quran]
+language: language/arabic
+genre: [tafsir, lexicon]
+wings: [words]
+themes: [scripture-and-its-sciences, linguistics]
+regions: [arabia]
+periods: [period/contemporary-era]
+structure: "Foreword of the Minister of Islamic Affairs as general supervisor of the Complex (scan pp. 6-7); foreword of the secretary-general (pp. 8-9); introduction on the meaning of gharib, its importance, history and methods (pp. 10-19 ff.); then the glossary sura by sura, e.g. al-Fatiha (item 20220309 p.1)."
+editions:
+  - "Medina, King Fahd Complex for the Printing of the Holy Qur'an, 1433 AH, 632 pp., ISBN 978-603-8095-44-7 (source/muyassar-gharib-quran-king-fahd-1433)"
+relations:
+  - { type: relies_on, target: work/al-tafsir-al-muyassar, sources: [source/muyassar-gharib-quran-king-fahd-1433] }
+  - { type: about, target: concept/gharib-al-quran, sources: [source/muyassar-gharib-quran-king-fahd-1433] }
+sources: [source/muyassar-gharib-quran-king-fahd-1433]
+provenance:
+  layer: own-research
+  source: "source/muyassar-gharib-quran-king-fahd-1433 scan pp. 1-23"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

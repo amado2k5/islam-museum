@@ -1,0 +1,30 @@
+id: person/al-mufaddal-ibn-ghassan
+class: person
+label:
+  ar: "المفضل بن غسان"
+  en: "Al-Mufaddal ibn Ghassan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لالمفضل بن غسان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Al-Mufaddal ibn Ghassan; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q130268456
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "858~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam 18/437; Ibn Ghalab; d. ~244 AH)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Wikidata Q48195 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

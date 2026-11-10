@@ -1,0 +1,20 @@
+id: person/abu-talib-al-zayyat
+class: person
+label: { ar: "أبو طالب الزيات", en: "Abu Talib Al Zayyat" }
+summary:
+  ar: "أحمد بن الحسين بن علي بن أحمد بن محمد بن عبد الملك الزيات صاحب ابن وحشية وهو الذي يروي كتب ابن وحشية عنه وكان حيا في وقت ابن النديم ثم مات قريبا {cite:fihrist-ibn-al-nadim p. 433}."
+  en: "Abu Talib al-Zayyat — Ibn Wahshiyya's companion and transmitter {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch21
+died: { edtf: "993", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Ibn Wahshiyya's companion and transmitter of his books; the milieu is the Iraqi scholarly world. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

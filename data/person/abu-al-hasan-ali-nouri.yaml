@@ -1,0 +1,29 @@
+id: person/abu-al-hasan-ali-nouri
+class: person
+label:
+  ar: "أبو الحسن علي النوري"
+  en: "Abu al-Hasan 'Ali al-Nuri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو الحسن علي النوري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Hasan 'Ali al-Nuri; the entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28715935
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1643", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; Makhluf, Shajarat al-Nur al-Zakiyya" }
+died: { edtf: "1706", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; Makhluf, Shajarat al-Nur al-Zakiyya" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

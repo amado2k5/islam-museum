@@ -1,0 +1,29 @@
+id: person/maulana-muhammad-banten
+class: person
+label:
+  ar: "مولانا محمد"
+  en: "Maulana Muhammad, Sultan of Banten"
+roles: [sultan]
+gender: male
+summary:
+  ar: "بطاقة أولية لمولانا محمد؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Maulana Muhammad, Sultan of Banten; the entry is not yet checked on the page."
+wings: [people]
+regions: [southeast-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Banten chronicles / EI2" }
+relations:
+  - { type: born_in, target: place/banten-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/palembang-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q19729041
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

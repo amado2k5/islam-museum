@@ -1,0 +1,40 @@
+id: person/abd-al-qadir-al-jilani
+class: person
+label: { ar: "عبد القادر الجيلاني", en: "Abd al-Qadir al-Jilani" }
+names:
+  - { kind: full, lang: ar, value: "محيي الدين أبو محمد عبد القادر بن أبي صالح الجيلاني" }
+gender: male
+roles: [mystic, scholar]
+traditions: [sunni]
+born: { edtf: "1078", hijri: "0470", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died:
+  edtf: "1166-02~"
+  hijri: "0561-04"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "مات بعد عتمة ليلة السبت عاشر ربيع الآخر وصلى عليه ولده عبد الوهاب ودفن في رواق مدرسته وبلغ تسعين سنة {cite:shadharat-dhahab p. 682}؛ سنة 561هـ {cite:mawsuat-a3lam-ulama-adaba}؛ التحويل مشتق."
+summary:
+  ar: "من كبار مشايخ التصوف السني، ونُسب إلى جيلان، وكان له أثر كبير في الوعظ والإرشاد."
+  en: "One of the major masters of Sunni Sufism, named after Gilan. He had a large influence on preaching and spiritual guidance."
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids:
+  wikidata: Q307365
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab, source/assabile-tareq-al-suwaidan]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "mawsuat a'lam al-ulama; shadharat; assabile al-mubdioune ep20 lecture (2026-10 transcription)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+relations:
+  - { type: lived_in, target: place/gilan, note: "Place association from the person's nisba/name (الجيلاني); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab, source/assabile-tareq-al-suwaidan], confidence: low }

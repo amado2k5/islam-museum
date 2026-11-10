@@ -1,0 +1,31 @@
+id: person/hamza-namira
+class: person
+label: { ar: "حمزة نمرة", en: "Hamza Namira", ur: "حمزہ نمرہ" }
+names:
+  - { value: "حمزة نمرة", kind: full }
+  - { value: "Hamza Namira", kind: full }
+gender: male
+summary:
+  ar: "مغنٍّ وملحن مصري ⁦(وُلد 1980)⁩ أصدر ثلاثة ألبومات مع أويكنينغ ثم ألبومين من إنتاجه، ولحّن «يا نبي سلام عليك» لماهر زين، وتدور أغانيه على الأمل والغربة والإنسان، ولُقّب بـ«صوت الثورة» في 2011، وقدّم برنامج «ريمكس» عن التراث الموسيقي العربي منذ 2016."
+  en: "Egyptian singer-songwriter (born 1980) who released three albums with Awakening and two of his own, composed Maher Zain's 'Ya Nabi Salam Alayka', sings of hope, alienation and the human condition, was dubbed 'the voice of the revolution' in 2011, and has presented 'Remix', a series on Arab musical heritage, since 2016."
+  ur: "مصری گلوکار اور نغمہ نگار ⁦(پیدائش 1980ء)⁩، جنھوں نے اویکننگ کے ساتھ تین اور اپنے ادارے سے دو البم جاری کیے، ماہر زین کا «یا نبی سلام علیک» کمپوز کیا، امید، اجنبیت اور انسان کے موضوعات پر گاتے ہیں، 2011ء میں «انقلاب کی آواز» کہلائے، اور 2016ء سے عرب موسیقی کے ورثے پر پروگرام «ریمکس» پیش کرتے ہیں۔"
+wings: [people, living]
+regions: [egypt-nile]
+roles: [singer, songwriter, composer]
+born: { edtf: "1980-11-15", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata gives 15 November 1980; the English article gives 1980 and Diriyah, Saudi Arabia, citing Al Arabiya and his own post of 6 March 2022 (which corrects an earlier 'Abha'). He grew up and went to school in Riyadh.", sources: [source/wikipedia-hamza-namira-en, source/wikidata-hamza-namira] }
+relations:
+  - { type: born_in, target: place/diriyah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-namira] }
+  - { type: lived_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-namira] }
+  - { type: lived_in, target: place/alexandria, note: "Studied commerce at Alexandria University, graduating in 2003; played in Nabil Bakly's band 1999–2004", sources: [source/wikipedia-hamza-namira-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him; his statement that he is not affiliated with any political organisation is political, not religious. Not recorded."
+    sources: [source/wikipedia-hamza-namira-en, source/wikidata-hamza-namira]
+footprint:
+  wikipedia: { languages: [ace, ar, arz, azb, bn, ckb, dag, en, fa, id, it, min, ms, mzn, sq, sw, szl, tr, uz], checked: "2026-11-06", sources: [source/wikidata-hamza-namira] }
+  wikidata: "Q1103528"
+external_ids: { wikidata: "Q1103528" }
+sources: [source/wikipedia-hamza-namira-en, source/wikidata-hamza-namira]
+provenance: { layer: own-research, source: "English Wikipedia 'Hamza Namira' (revision 1352087069, 1 May 2026) and Wikidata Q1103528 (revision 2550008062), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

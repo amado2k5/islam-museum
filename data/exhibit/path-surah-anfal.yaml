@@ -1,0 +1,76 @@
+id: exhibit/path-surah-anfal
+class: exhibit
+kind: trail
+label:
+  ar: سورة الأنفال
+  en: Surah al-Anfal
+summary:
+  ar: 'مسار في سورة بدر: أحكام الغنيمة وأسرى المعركة، ويوم الفرقان، وأحكام الجهاد — سورة المعركة الأولى.'
+  en: A trail through the Badr sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: 'يسألونك عن الأنفال: الغنائم لله والرسول.'
+    en: 'يسألونك عن الأنفال: الغنائم لله والرسول.'
+  features:
+  - passage/quran-8
+  - passage/quran-8-1
+- title:
+    ar: الفرقان
+    en: The furqan
+  body:
+    ar: 'يوم بدر: تلاقي الجمعين.'
+    en: 'يوم بدر: تلاقي الجمعين.'
+  features:
+  - passage/quran-8-41
+  - event/battle-of-badr
+- title:
+    ar: الملائكة
+    en: The angels
+  body:
+    ar: 'مدد السماء: ألف يقاتلون في صف.'
+    en: 'مدد السماء: ألف يقاتلون في صف.'
+  features:
+  - passage/quran-8-9
+  - event/battle-of-badr
+- title:
+    ar: الأحكام
+    en: The rulings
+  body:
+    ar: الثبات والإعداد وحرمة الفرار.
+    en: الثبات والإعداد وحرمة الفرار.
+  features:
+  - passage/quran-8-15
+  - passage/quran-8-15
+- title:
+    ar: الدرس
+    en: The lesson
+  body:
+    ar: 'القليل يغلب الكثير: بدر معلما.'
+    en: 'القليل يغلب الكثير: بدر معلما.'
+  features:
+  - event/battle-of-badr
+  - event/battle-of-badr
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

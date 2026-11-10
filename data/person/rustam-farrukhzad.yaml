@@ -1,0 +1,21 @@
+id: person/rustam-farrukhzad
+class: person
+label: { ar: "رستم بن الفرخزاد" }
+summary:
+  ar: "قائد فارسي، كان مع الفيرزان على أهل فارس، وحين قاربت الوقعة طلب الفرس منهما الاجتماع، فقال لهما أهل فارس إنهما إن استمرا في الاختلاف يهلك الفرس {cite:tabari-tarikh-abu-al-fadl j.3 p.477}."
+wings: [people]
+gender: male
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Rustam b. Farrokh-Hormozd)" }
+relations:
+  - { type: lived_in, target: place/fars, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabari-tarikh-abu-al-fadl] }

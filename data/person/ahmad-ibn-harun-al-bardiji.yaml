@@ -1,0 +1,31 @@
+id: person/ahmad-ibn-harun-al-bardiji
+class: person
+label:
+  ar: "أحمد بن هارون البرديجي"
+  en: "Ahmad ibn Harun al-Bardiji"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن هارون البرديجي، محدث القرن العاشر، توفي سنة ٩١٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Harun al-Bardiji, the tenth-century muhaddith, d. 914; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q16378590
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0060
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/bardhaa, note: "Wikidata Q842869 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

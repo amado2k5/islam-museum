@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import ExploreBar from "../../../../components/ExploreBar.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { labelOf, href } from "../../../../lib/graph";
+import { BROWSE_CLASSES, browseSegment, entriesOf } from "../../../../lib/browse";
+import { num } from "../../../../lib/nav";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => BROWSE_CLASSES.map((c) => ({ params: { lang, class: browseSegment(c) }, props: { lang, cls: c } })));
+}
+const { lang, cls } = Astro.props as { lang: Lang; cls: (typeof BROWSE_CLASSES)[number] };
+const T = ui(lang);
+const items = entriesOf(cls).slice().sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang));
+const title = T.class[cls];
+---
+<BaseLayout lang={lang} title={title} description={T.browse.lede} path={`/${lang}/browse/${browseSegment(cls)}/`}>
+  <PageHeader title={title} lede={`${num(items.length, lang)} ${T.browse.count}`} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.browse.title, href: `/${lang}/browse/` }, { label: title }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:24px 20px">
+    {items.length === 0 ? <p class="panel ui">{T.hall.empty}</p> : (
+      <ul class="ui" style="columns:16rem;line-height:1.9">
+        {items.map((n) => <li><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></li>)}
+      </ul>
+    )}
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>

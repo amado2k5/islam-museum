@@ -1,0 +1,21 @@
+id: place/kasur
+class: place
+kind: city
+label: { ar: "قصور", en: "Kasur", ur: "قصور" }
+summary:
+  ar: "مدينة في باكستان."
+  en: "City in Pakistan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [31.116666666667, 74.45]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q989283" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q989283 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

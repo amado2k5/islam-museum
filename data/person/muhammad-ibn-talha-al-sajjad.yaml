@@ -1,0 +1,22 @@
+id: person/muhammad-ibn-talha-al-sajjad
+class: person
+label: { ar: "محمد بن طلحة السجاد", en: "Muhammad ibn Talha al-Sajjad" }
+summary:
+  ar: "ابن طلحة بن عبيد الله الملقب بالسجاد، قتل مع أبيه يوم الجمل فمر به علي فقال هذا رجل قتله بره بأبيه وطاعته له، وتنوزع في كنيته فقال الواقدي أبو سليمان وقال الهيثم بن عدي أبو القاسم، وفي قتله قال قاتله شككت له بالرمح جيب قميصه على غير شيء غير أن ليس تابعاً علياً {cite:muruj-al-dhahab p. 659}."
+  en: "Talha's son 'the Worshipful' — killed beside his father at the Camel, Ali pausing to say 'his filial piety killed him'; his kunya disputed between al-Waqidi and al-Haytham ibn 'Adi {cite:muruj-al-dhahab p. 659}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 659"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+external_ids: { wikidata: "Q3866938" }
+died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+relations:
+  - { type: born_in, target: place/hijaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q169977)" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

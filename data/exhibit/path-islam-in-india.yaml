@@ -1,0 +1,67 @@
+id: exhibit/path-islam-in-india
+class: exhibit
+kind: trail
+label:
+  ar: الإسلام في الهند
+  en: Islam in India
+summary:
+  ar: 'مسار في ثمانية قرون هندية: الغزنويون ودلهي والمغول وتاج محل وإقبال.'
+  en: A trail through eight Indian centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: البوابة الغزنوية
+    en: The Ghaznavid gate
+  body:
+    ar: محمود يفتح لاهور والبنجاب للإسلام.
+    en: Mahmud opens Lahore and the Punjab.
+  features:
+  - polity/ghaznavid-empire
+  - polity/ghurid-dynasty
+- title:
+    ar: سلطنة دلهي
+    en: Delhi Sultanate
+  body:
+    ar: ثلاثة قرون من الممالك والمنارات.
+    en: Three centuries of sultanates.
+  features:
+  - polity/delhi-sultanate
+  - polity/bahmani-sultanate
+- title:
+    ar: المغول
+    en: The Mughals
+  body:
+    ar: 'بابر وأكبر: إمبراطورية الهند العظمى.'
+    en: 'Babur and Akbar: the great empire.'
+  features:
+  - person/jalal-al-din-akbar
+  - building/taj-mahal
+- title:
+    ar: إقبال
+    en: Iqbal
+  body:
+    ar: شاعر الإحياء بالأردية والفارسية.
+    en: Poet of revival in Urdu and Persian.
+  features:
+  - person/muhammad-iqbal
+  - question/who-was-iqbal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

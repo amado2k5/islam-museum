@@ -1,0 +1,21 @@
+id: person/tarifa-al-kahina
+class: person
+label: { ar: "طريفة الكاهنة", en: "Tarifa the diviner" }
+summary:
+  ar: "كاهنة عربية في جملة كهان المسعودي المعروفين مع شق وسطيح وسملقة وزوبعة وسديف بنت هوماس {cite:muruj-al-dhahab p. 484}."
+  en: "An Arab diviner in al-Mas'udi's roster of famous kahins {cite:muruj-al-dhahab p. 484}."
+gender: female
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 484"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic Arabian diviner (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }

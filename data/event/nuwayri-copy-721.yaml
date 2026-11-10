@@ -1,0 +1,28 @@
+id: event/nuwayri-copy-721
+class: event
+kind: other
+label:
+  ar: "نسخته الثانية من «نهاية الأرب»: ثمانية عشر مجلداً في أقل من عشرة أشهر، ٧٢١-٧٢٢هـ"
+  en: "The second copy of the Nihaya: eighteen volumes in under ten months, 721-722/1321-1322"
+  ur: "نہایۃ الارب کا دوسرا نسخہ: دس ماہ سے کم میں اٹھارہ جلدیں، 721-722ھ/1321-1322ء"
+summary:
+  ar: "شرع النويري في نسخة ثانية من موسوعته ففرغ من مجلدها الأول في ٢٠ ذي القعدة ٧٢١هـ/١١ ديسمبر ١٣٢١م، والخامس في ٢٢ جمادى الأولى ٧٢٢هـ/٨ يونيو ١٣٢٢م، والسابع عشر في ٧ رمضان ٧٢٢هـ/١٩ سبتمبر، والثامن عشر في ٢٦ رمضان/٨ أكتوبر — أي ثمانية عشر مجلداً في أقل من عشرة أشهر؛ وقد لاحظ مؤرخوه قدرته على ملء ثلاث كراريس في اليوم، يضاف إلى ما نسخ وباع ثماني نسخ من صحيح البخاري — يكتب النسخة ويملأها وينقل الطبقات والروايات عليها ويبيّضها بالألف — وعُدّ خطاطاً ممتازاً ومجلّد كتب {cite:encyclopaedia-of-islam-2 vol. 8 p. 159} {cite:durar-kamina-jil-1993 1/197}."
+  en: "Al-Nuwayri began a second copy of his encyclopaedia, completing its first volume on 20 Dhu al-Qa'da 721/11 December 1321, the fifth on 22 Jumada I 722/8 June 1322, the seventeenth on 7 Ramadan 722/19 September and the eighteenth on 26 Ramadan/8 October — eighteen volumes in under ten months. His biographers noted his capacity to fill three manuscript notebooks in a day; besides the copies he made and sold there were eight copies of the Sahih of al-Bukhari — he wrote the copy, filled it, carried over its collations and readings and finished it off in a thousand — and he was deemed an excellent calligrapher and bookbinder {cite:encyclopaedia-of-islam-2 vol. 8 p. 159} {cite:durar-kamina-jil-1993 1/197}."
+  ur: "نويری نے اپنے دائرۃ المعارف کا دوسرا نسخہ شروع کیا: پہلی جلد 20 ذیقعدہ 721ھ/11 دسمبر 1321ء کو مکمل، پانچویں 22 جمادی الاولیٰ 722ھ/8 جون 1322ء، سترہویں 7 رمضان 722ھ/19 ستمبر اور اٹھارہویں 26 رمضان/8 اکتوبر کو — دس ماہ سے کم میں اٹھارہ جلدیں۔ مؤرخین نے ایک دن میں تین مسودے بھرنے کی ان کی صلاحیت نوٹ کی؛ جو نسخے انہوں نے بکاؤ کے لیے نقل کیے ان کے علاوہ صحیح بخاری کی آٹھ نسخے بھی ہیں — نسخہ لکھتے، بھر دیتے، اس پر طبقات اور روایتیں نقل کرتے اور ایک دن میں بیاض کرتے — اور وہ ممتاز خطاط اور کتاب مجلد شمار ہوئے {cite:encyclopaedia-of-islam-2 vol. 8 p. 159} {cite:durar-kamina-jil-1993 1/197}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1321-12-11", hijri: "0721-11-20", calendar: julian, precision: day, status: tradition, derived: true, note: "فرغ من مجلد النسخة الثانية الأول في ٢٠ ذي القعدة ٧٢١هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 159}؛ التحويل مشتق." }
+  end: { edtf: "1322-10-08", hijri: "0722-09-26", calendar: julian, precision: day, status: tradition, derived: true, note: "المجلد الثامن عشر في ٢٦ رمضان ٧٢٢هـ {cite:encyclopaedia-of-islam-2 vol. 8 p. 159}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "الناسخ الخطاط", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 159 (harvest OCR Ned-Sam); Durar al-Kamina j.1 p. 197 (harvest DurarKamina__drkamth1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

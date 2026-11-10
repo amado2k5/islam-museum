@@ -1,0 +1,32 @@
+id: work/al-bahir-fi-al-jabr
+class: work
+kind: book
+label: { ar: "الباهر في الجبر للسموأل", en: "Al-Samawal's al-Bahir in algebra", ur: "سموأل کی الباہر فی الجبر" }
+summary:
+  ar: "كتاب بأربعة أقسام، يحفظ في الثاني حساب معاملات القوى المنسوب إلى الكرجي؛ تأليف شبابي مع احتمال مراجعات لاحقة، لا نسخة أصلية للكرجي {cite:samawal-mactutor Biography} {cite:samawal-dsb algebra}."
+  en: "Four-part algebra work whose second part preserves Karaji's attributed coefficient computation; youthful composition with possible later revisions, not Karaji's original manuscript {cite:samawal-mactutor Biography} {cite:samawal-dsb algebra}."
+  ur: "چار حصوں کی جبری کتاب، دوسرے میں کرجی سے منسوب ضریب حساب محفوظ؛ نوجوانی کی تصنیف اور ممکنہ بعد کی مراجعتیں، کرجی کا اصل مخطوطہ نہیں {cite:samawal-mactutor Biography} {cite:samawal-dsb algebra}۔"
+authors: [person/al-samawal-al-maghribi]
+language: language/arabic
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+composed:
+  edtf: "11XX"
+  calendar: julian
+  precision: century
+  status: historical
+  derived: true
+  note: "Biographies place initial composition at age19, before the reported1163 conversion. Exact birth/year not adopted; DSB allows later reworking. Not a copy date or assertion all extant wording predates conversion."
+  sources: [source/samawal-mactutor, source/samawal-dsb]
+structure: "Four parts: operations and roots; unknown quantities, equations and summations including binomial coefficients; irrational magnitudes; classification of problems. Reported by the biographies, not a primary-text collation."
+editions: ["S. Ahmad and R. Rashed, Al-bahir en algèbre d'as-Samawal, Damascus1972 in DSB bibliography,1971 elsewhere in the same entry; discrepancy retained, edition not independently read."]
+inventions:
+  - invention: invention/karaji-binomial-coefficient-recurrence
+    relation: describes
+    sources: [source/samawal-mactutor, source/samawal-dsb]
+relations:
+  - { type: about, target: concept/algebra, sources: [source/samawal-mactutor, source/samawal-dsb] }
+sources: [source/samawal-mactutor, source/samawal-dsb, source/karaji-mactutor]
+provenance: { layer: own-research, generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Actual biographies and DSB bibliography read; no manuscript image,1972 edition or Arabic primary-text inspection. No maker-faith field inferred for youthful composition." }
+status: { review: published, completeness: 3 }

@@ -1,0 +1,21 @@
+id: place/kars
+class: place
+kind: city
+label: { ar: "قارص", en: "Kars", ur: "قارص" }
+summary:
+  ar: "مدينة في تركيا."
+  en: "City in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [40.60777777777778, 43.09583333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q127063" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q127063 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

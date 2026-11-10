@@ -1,0 +1,30 @@
+id: person/muhammad-ibn-abi-bakr-al-shilli
+class: person
+label:
+  ar: "محمد بن أبي بكر الشلي"
+  en: "Muhammad ibn Abi Bakr al-Shilli"
+roles: [scholar, sufi]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن أبي بكر الشلي، العالم والصوفي اليمني، توفي سنة ١٦٨٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Abi Bakr al-Shilli, the Yemeni scholar and Sufi, d. 1682; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+died: { edtf: "1682", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+relations:
+  - { type: born_in, target: place/sanaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2471)" }
+  - { type: died_in, target: place/radaa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2125362)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q88186421
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0088
+status:
+  review: draft
+  completeness: 1

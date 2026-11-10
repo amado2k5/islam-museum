@@ -1,0 +1,77 @@
+id: exhibit/path-sulayman-magnificent
+class: exhibit
+kind: trail
+label:
+  ar: سليمان القانوني
+  en: Suleiman the Magnificent
+summary:
+  ar: 'مسار في أعظم سلاطين آل عثمان: القانوني يحكم 46 سنة، وموهاكس وبغداد والبحر الأحمر — الإمبراطورية
+    في أوجها.'
+  en: A trail through the greatest sultan.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: السلطان
+    en: The sultan
+  body:
+    ar: 'سليمان يتولى 1520: أطول العهود.'
+    en: 'سليمان يتولى 1520: أطول العهود.'
+  features:
+  - person/sulayman-al-qanuni
+  - place/istanbul
+- title:
+    ar: موهاكس
+    en: Mohacs
+  body:
+    ar: '1526: المجر تسقط في ساعتين.'
+    en: '1526: المجر تسقط في ساعتين.'
+  features:
+  - event/battle-mohacs-932
+  - person/sulayman-al-qanuni
+- title:
+    ar: القانون
+    en: The lawgiver
+  body:
+    ar: 'القانوني: الأحكام والإدارة.'
+    en: 'القانوني: الأحكام والإدارة.'
+  features:
+  - person/sulayman-al-qanuni
+  - person/sulayman-al-qanuni
+- title:
+    ar: سنان
+    en: Sinan
+  body:
+    ar: 'المهندس الأعظم: سليمية وسائر إسطنبول.'
+    en: 'المهندس الأعظم: سليمية وسائر إسطنبول.'
+  features:
+  - place/istanbul
+  - place/edirne
+- title:
+    ar: البحرية
+    en: The navy
+  body:
+    ar: 'بربروس وبري ريس: المتوسط تركي.'
+    en: 'بربروس وبري ريس: المتوسط تركي.'
+  features:
+  - person/khayr-al-din-barbarossa
+  - person/pir-reis-ahmad-ibn-muhyi-al-din
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

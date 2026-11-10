@@ -1,0 +1,34 @@
+id: person/sharaf-al-din-manawi
+class: person
+label: { ar: "شرف الدين المناوي", en: "Sharaf al-Din al-Manawi" }
+names:
+  - { value: "قاضي القضاة شرف الدين أبو ذكريا يحيى بن محمد بن محمد بن أحمد بن مخلوف بن عبد السلام المناوي المصري الشافعي", kind: full }
+gender: male
+summary:
+  ar: "قاضي القضاة شرف الدين المناوي المصري الشافعي جد الشيخ عبد الرؤوف المناوي شارح الجامع الصغير؛ قال السيوطي في حسن المحاضرة هو شيخنا شيخ الإسلام، ولد سنة ثمان وتسعين وسبعمائة ولازم الولي العراقي وتخرج به في الفقه والأصول وسمع الحديث عليه وعلى الشرف بن الكويك وتصدر للإقراء والإفتاء وتخرج به الأعيان وولي تدريس الشافعي وقضاء الديار المصرية وله شرح مختصر المزني، قال ابن العماد هو آخر علماء الشافعية ومحققيهم وأرثاه بقولي: قلت لما مات شيخ العصر حقاً باتفاق / حين صار الأمر ما بين جهول وفساق / أيتها الدنيا لك الويل إلى يوم التلاق، توفي ليلة الاثنين ثاني جمادى الآخرة سنة إحدى وسبعين وثمانمائة {cite:shadharat-dhahab p. 312}."
+  en: "Sharaf al-Din al-Manawi (b. 798) — chief qadi of Egypt, 'last of the Shafi'i scholars and verifiers,' grandfather of 'Abd al-Ra'uf al-Manawi the Jami' al-Saghir commentator; al-Suyuti's shaykh al-Islam; died Monday night 2 Jumada II 871 {cite:shadharat-dhahab p. 312}."
+roles: [jurist]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+born: { edtf: "1396~", hijri: "0798", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 798 {cite:shadharat-dhahab p. 312}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1467-01-15~", hijri: "0871-06-02", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الاثنين 2 جمادى الآخرة 871 {cite:shadharat-dhahab p. 312}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 871)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch89
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Association inferred from the nisba 'المصري'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }

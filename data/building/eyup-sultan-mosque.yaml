@@ -1,0 +1,54 @@
+id: building/eyup-sultan-mosque
+class: building
+kind: mosque
+label:
+  ar: جامع أيوب سلطان
+  en: Eyüp Sultan Mosque
+built:
+  edtf: "1458"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+summary:
+  ar: "أقدس موضع إسلامي في إسطنبول عند أعالي القرن الذهبي؛ أقام الفاتح حول قبر أبي أيوب كُلّية بعد الفتح بخمس سنين، والمسجد الحالي من عهد سليم الثالث ⁦(انتهى 1800م)⁩ ومنارتا أحمد الثالث بقيتا من البناء القديم."
+  en: "The holiest Muslim site in Istanbul on the upper Golden Horn; the Conqueror built a külliye around Eyüp's grave five years after 1453, and today's mosque is Selim III's 1800 rebuilding, with Ahmet III's minarets surviving from the earlier building."
+wings: [objects]
+periods:
+- period/mongol-post-mongol
+regions:
+- anatolia-balkans
+coordinates:
+- 41.04795
+- 28.93379
+relations:
+- type: located_in
+  target: place/istanbul
+  sources:
+  - source/wikidata
+  note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+external_ids:
+  wikidata: Q956677
+sources:
+- source/wikidata
+- source/freely-ottoman-architecture-2011
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: building-wikidata-1; prose-backfill-2-batch14 (Freely pp.125-128)
+education:
+  did_you_know:
+    ar: "أول مسجدٍ بناه العثمانيون في إستانبول بعد الفتح؛ أقامه محمد الفاتح عام 862هـ فوق قبر أبي أيوب الأنصاري."
+    en: "The first mosque the Ottomans built in Istanbul after the conquest: Mehmed the Conqueror raised it in 1458 over the tomb of Abu Ayyub al-Ansari."
+    ur: "فتح کے بعد استنبول میں پہلی عثمانی مسجد: محمد فاتح نے 1458ء میں ابوایوب انصاری کے مزار پر بنائی۔"
+    sources: [source/freely-ottoman-architecture-2011, source/wikidata]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 3

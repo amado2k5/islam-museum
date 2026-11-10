@@ -1,0 +1,23 @@
+id: event/ottoman-venetian-war-1463
+class: event
+kind: war
+label: { ar: "الحرب العثمانية البندقية الأولى", en: "First Ottoman–Venetian War" }
+summary:
+  ar: "بطاقة أولية للحرب العثمانية البندقية الأولى من ١٤٦٣ إلى ١٤٧٩م في عهد محمد الفاتح؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Ottoman–Venetian War of 1463–1479 under Mehmed the Conqueror; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1463", precision: year, status: tradition, derived: true }
+  end: { edtf: "1479", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1154983
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,61 @@
+id: invention/karaji-qanat-surveying
+class: invention
+label: { ar: "التسوية وضبط مسار القناة عند الكرجي", en: "Al-Karaji's levelling and tunnel-alignment methods", ur: "کرجی کے تسویہ اور زیرزمین راستے کی سیدھ کے طریقے" }
+names: [{ value: "Surveying in Inbat al-miyah al-khafiya", kind: alternate, lang: en }]
+summary:
+  ar: "موازين وبرهان هندسي وتوجيه نفق ضمن دليل للمياه؛ تحسين موثق لا اختراع القناة القديمة {cite:karaji-ataie-simmons-2020 pp.763–768} {cite:karaji-inbat-ljs399 f.26r}."
+  en: "Levels, geometrical explanation and tunnel alignment within a water manual; documented refinement, not invention of ancient qanats {cite:karaji-ataie-simmons-2020 pp.763–768} {cite:karaji-inbat-ljs399 f.26r}."
+  ur: "آبی رہنما میں تسویہ، ہندسی توضیح اور سرنگ کی سیدھ؛ موثق بہتری، قدیم قنات کی ایجاد نہیں {cite:karaji-ataie-simmons-2020 pp.763–768} {cite:karaji-inbat-ljs399 f.26r}۔"
+domain: water-agriculture
+kind: method
+disciplines: [engineering, mathematics]
+wings: [ideas, objects]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad11th-century text/activity context, not exact composition or first field implementation; current Penn copy completed1674, HESS captions1675. No invented exact1017/life dates/Hijri."
+    sources: [source/karaji-ataie-simmons-2020, source/tdv-kereci]
+  status_today: transformed
+origin:
+  polity: polity/buyid-dynasty
+  context: { ar: "سياق المؤلف البويهي وبغداد ثم عودته إلى إيران بحسب السير؛ لا ورشة أو موقع تنفيذ معين {cite:tdv-kereci pp.277–278} {cite:karaji-ataie-simmons-2020 p.762}.", en: "Author's Buyid/Baghdad and later Iranian context, not a verified workshop or installation site {cite:tdv-kereci pp.277–278} {cite:karaji-ataie-simmons-2020 p.762}.", ur: "مصنف کا بویہی بغداد اور بعد کا ایرانی سیاق؛ ثابت کارگاہ یا تنصیب کا مقام نہیں {cite:tdv-kereci pp.277–278} {cite:karaji-ataie-simmons-2020 p.762}۔" }
+makers:
+  - { person: person/al-karaji, role: improver, sources: [source/karaji-inbat-ljs399, source/karaji-ataie-simmons-2020] }
+attribution:
+  status: improvement
+  claim: { ar: "موازين وطرائق قياس يشرحها ضمن تقليد القنوات، لا أول هندسة مساحة أو نظرية مياه حديثة.", en: "Levels and measurement procedures within inherited qanat practice, not the first surveying or modern groundwater theory.", ur: "سابق قنات روایت میں آلات اور پیمائش، پہلی مساحت یا جدید زیرزمین آبی نظریہ نہیں۔" }
+  basis: { ar: "عنوان26r ينسب ابتكار موازين للمؤلف، ودراسة2020 تميز القناة القديمة من إسهامه {cite:karaji-inbat-ljs399 f.26r} {cite:karaji-ataie-simmons-2020 pp.762–764,766–768}.", en: "Folio26r introduces author-devised levels;2020 study distinguishes inherited qanats from his contribution {cite:karaji-inbat-ljs399 f.26r} {cite:karaji-ataie-simmons-2020 pp.762–764,766–768}.", ur: "26r مصنف کے وضع کردہ میزان متعارف کرتا ہے؛2020 مطالعہ قدیم قنات سے اس کی خدمت الگ کرتا ہے {cite:karaji-inbat-ljs399 f.26r} {cite:karaji-ataie-simmons-2020 pp.762–764,766–768}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "القنوات الجوفية وأعمال القياس الأقدم", en: "Older qanats and surveying practice", ur: "قدیم قنات اور پیمائش کی روایت" }
+    note: "Inherited groundwater delivery; no single origin/date or named ancient inventor asserted here."
+    sources: [source/karaji-ataie-simmons-2020]
+dependents:
+  - external: { ar: "نسخ الكتاب ودراسة أدواته", en: "Copies of the manual and studies of its instruments", ur: "کتاب کی نقلیں اور آلات کا مطالعہ" }
+    note: "Textual survival/interpretation, not proven direct genealogy of modern survey equipment."
+    sources: [source/karaji-inbat-ljs399, source/karaji-ataie-simmons-2020]
+spread: []
+impact:
+  fields: [water-agriculture, navigation-geography]
+  changed: { ar: "ربط ضبط الميل والاتجاه بوصف العمل والصيانة والتسليم {cite:karaji-ataie-simmons-2020 pp.763–768}.", en: "Connected slope/direction checks to construction, maintenance and handover {cite:karaji-ataie-simmons-2020 pp.763–768}.", ur: "ڈھلوان اور سمت کی جانچ کو تعمیر، دیکھ بھال اور حوالگی سے جوڑا {cite:karaji-ataie-simmons-2020 pp.763–768}۔" }
+  history: { ar: "شاهد يجمع الرسم والبرهان والعمل، لا شهادة دقة ميدانية لكل جهاز {cite:karaji-inbat-ljs399 ff.26r,29r,42r,45v}.", en: "Evidence joining diagram, reasoning and work, not a field-accuracy certificate for every device {cite:karaji-inbat-ljs399 ff.26r,29r,42r,45v}.", ur: "نقشہ، دلیل اور کام کا ملاپ، ہر آلے کی میدانی دقت کی سند نہیں {cite:karaji-inbat-ljs399 ff.26r,29r,42r,45v}۔" }
+  significance: 4
+  why: "Attributed surveying refinements and geometrical explanation in a practical water manual; preserve inherited technology, copy history and limits of modern reinterpretation."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "كتاب باق ونسخة مصورة ودراسة تاريخية، لا معيار تنفيذي معاصر.", en: "Surviving text, manuscript images and historical study, not a current construction standard.", ur: "باقی متن، نسخے کی تصاویر اور تاریخی مطالعہ، موجودہ تعمیراتی معیار نہیں۔" }
+  descendants: { ar: "لا نسب مثبت من هذه الأوراق إلى كل جهاز تسوية حديث.", en: "No demonstrated descent from these leaves to every modern level.", ur: "ان اوراق سے ہر جدید میزان کا ثابت نسب نہیں۔" }
+media: { image: media/karaji-level-ljs399-f26r, diagram: media/diagram-karaji-qanat-surveying }
+kids: { ar: "على الورق فقط: فرق0.4م في200م يساوي0.2%؛ لا دخول نفق أو بئر أو شرب ماء تجريبي.", en: "Paper only:0.4m drop over200m is0.2%; no tunnel/well entry or water tasting.", ur: "صرف کاغذ:200 میٹر میں0.4 میٹر فرق0.2% ہے؛ کنویں یا سرنگ میں نہ اتریں، پانی نہ چکھیں۔" }
+sources: [source/karaji-inbat-ljs399, source/karaji-ataie-simmons-2020, source/tdv-kereci, source/karaji-mactutor]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b41", source: "Actual HESS761–769 and Penn catalogue/IIIF selected Arabic26r,29r,42r,45v inspected; identity previously independently documented; own paper-only slope example" }

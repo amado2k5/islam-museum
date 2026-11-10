@@ -1,0 +1,31 @@
+id: person/abu-hafs-ibn-al-wakil
+class: person
+label: { ar: "أبو حفص ابن الوكيل", en: "Abu Hafs Ibn al-Wakil" }
+names:
+  - { kind: full, lang: ar, value: "أبو حفص ابن الوكيل الباب شامي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو حفص ابن الوكيل الباب شامي، مات ببغداد بعد العشر وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 58}. والنسبة إلى باب الشام، إحدى المحال بالجانب الغربي من بغداد ⁦(حاشية المحقق، PDF ص58)⁩."
+  en: "Abu Hafs Ibn al-Wakil al-Bab al-Shami, who died in Baghdad after 310 {cite:tabaqat-fuqaha-abbas-1981 p. 58}. The nisba refers to Bab al-Sham, one of the quarters on the western side of Baghdad (editor's footnote, PDF p. 58)."
+wings: [people]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+died: { edtf: "1316~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir, al-Bidaya wa'l-Nihaya" }
+relations:
+  - { type: died_in, target: place/baghdad, note: "From text: died in Baghdad", sources: [source/tabaqat-fuqaha-abbas-1981] }

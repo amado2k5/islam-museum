@@ -1,0 +1,2 @@
+# Treaties with a participant (P710) or signatory (P3342) whose religion (P140) is Islam or a subclass (Q432). Redesigned 2026-10-12 like q06. Class: treaty Q131569. Tested: 50 items in 28 s. Sparse by nature: Wikidata types few treaties with participants; the sira's own treaties (Hudaybiyya, the Constitution of Medina) are reached through the Companions' and events' neighbours.
+SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q131569 . { ?item wdt:P710 ?p } UNION { ?item wdt:P3342 ?p } . ?p wdt:P140/wdt:P279* wd:Q432 . } LIMIT 20000

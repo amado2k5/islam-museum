@@ -1,0 +1,23 @@
+id: person/abdallah-ibn-yahya-al-kindi
+class: person
+label: { ar: "عبد الله بن يحيى الكندي طالب الحق", en: "'Abd Allah ibn Yahya, Talib al-Haqq" }
+summary:
+  ar: "أباضي المذهب من رؤساء الخوارج، سمى نفسه طالب الحق وخوطب بأمير المؤمنين سنة تسع وعشرين ومائة، دعا إليه أبو حمزة وبلخ بمكة والمدينة، فخرج من صنعاء فالتقى جيش مروان بناحية الطائف وأرض جرش فقتل في حرب عظيمة مع أكثر الأباضية، ولحق بقيتهم بحضرموت فأكثرها أباضية إلى سنة اثنتين وثلاثين وثلثمائة {cite:muruj-al-dhahab p. 229}."
+  en: "The Ibadi Kharijite chief proclaimed Commander of the Faithful as 'Seeker of the Right' in 129 — killed in the Jurash battle, his remnant making Hadramawt Ibadi to Mas'udi's day {cite:muruj-al-dhahab p. 229}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/sanaa, note: "Ibadi Kharijite chief who rose from Sanaa and was proclaimed Commander of the Faithful in 129 AH.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: died_in, target: place/jurash, note: "Killed in the Jurash battle, his remnant making Hadramawt Ibadi.", sources: [source/muruj-al-dhahab], confidence: medium }

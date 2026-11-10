@@ -1,0 +1,22 @@
+id: person/zuhayr-ibn-janab-al-kalbi
+class: person
+label: { ar: "زهير بن جناب الكلبي", en: "Zuhayr ibn Janab al-Kalbi" }
+summary:
+  ar: "فارس كلب الجاهلي، استشهد به صعصعة بن صوحان لابن عباس في صفة الفارس بقوله يرثي ابنه عمراً فارس تكلأ الصحابة منه بحسام يمر مر الحريق لا تراه لدى الوغى في مجال يغفل الطرف {cite:muruj-al-dhahab p. 45-46}."
+  en: "Kalb's Jahili knight — quoted by Sa'sa'a for the definition of the faris, mourning his son 'Amr: 'a rider whose comrades shelter behind a blade flashing like fire' {cite:muruj-al-dhahab p. 45-46}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani (Abu al-Faraj al-Isfahani)" }
+relations:
+  - { type: lived_in, target: place/fars, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

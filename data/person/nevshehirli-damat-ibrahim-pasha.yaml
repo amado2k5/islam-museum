@@ -1,0 +1,29 @@
+id: person/nevshehirli-damat-ibrahim-pasha
+class: person
+label:
+  ar: "داماد إبراهيم باشا النوشهري"
+  en: "Nevsehirli Damat Ibrahim Pasha"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لداماد إبراهيم باشا النوشهري، الصدر الأعظم في عصر الخزامى العثماني الذي أقام الطباعة وأعمار إسطنبول ثم قُتل في فتنة بترونة خليل سنة ١٧٣٠م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nevsehirli Damat Ibrahim Pasha, the grand vizier of the Tulip Era who patronised the first Ottoman printing press and adorned Istanbul, killed in the Patrona Halil revolt in 1730; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1528120
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0016
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1666~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ibrahim Pasha Damad); TDV Islam Ansiklopedisi" }
+died: { edtf: "1730", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ibrahim Pasha Damad); TDV Islam Ansiklopedisi" }
+relations:
+  - { type: lived_in, target: place/istanbul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }

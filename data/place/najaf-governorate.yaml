@@ -1,0 +1,21 @@
+id: place/najaf-governorate
+class: place
+kind: region
+label: { ar: "محافظة النجف", en: "Najaf Governorate", ur: "محافظہ نجف" }
+summary:
+  ar: "إقليم في العراق."
+  en: "Region in Iraq."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [31.116666666667, 43.8]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q192882" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q192882 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

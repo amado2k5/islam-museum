@@ -1,0 +1,18 @@
+id: person/kabul-shah
+class: person
+label: { ar: "كابل شاه", en: "The Kabul Shah" }
+summary:
+  ar: "كابل شاه ملك كابل؛ جمع للمسلمين وأخرج من كان منهم بكابل فجاء رتبيل فغلب على زابلستان والرخج حتى انتهى إلى بست."
+  en: "The Kabul Shah, king of Kabul; he mustered and expelled every Muslim in Kabul, whereupon Rutbil overran Zabulistan and Rukhkhaj as far as Bust."
+periods: [period/umayyad]
+wings: [people]
+born: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+relations:
+  - { type: lived_in, target: place/kabul, confidence: low, note: "Associated with كابل per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

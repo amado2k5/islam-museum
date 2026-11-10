@@ -1,0 +1,30 @@
+id: person/najm-al-din-al-katibi
+class: person
+label:
+  ar: "نجم الدين الكاتبي القزويني"
+  en: "Najm al-Din al-Katibi al-Qazwini"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لنجم الدين علي بن عمر الكاتبي القزويني، منطقي وفلكي القرن الثالث عشر صاحب «حكمة العين» و«الرسالة الشمسية»، توفي سنة ١٢٧٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Najm al-Din Ali ibn Umar al-Katibi al-Qazwini, the thirteenth-century logician and astronomer author of Hikmat al-Ayn and al-Risala al-Shamsiyya, d. 1277; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+themes: [astronomy-and-timekeeping, philosophy-and-logic]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q2669359
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0027
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1204~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Katibi); TDV Islam Ansiklopedisi" }
+died: { edtf: "1276", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Katibi); TDV Islam Ansiklopedisi" }
+relations:
+  - { type: lived_in, target: place/qazvin, confidence: low, note: "Association inferred from the nisba 'القزويني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

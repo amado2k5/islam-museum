@@ -1,0 +1,31 @@
+id: person/yasin-al-tuhami
+class: person
+label: { ar: "ياسين التهامي", en: "Yasin al-Tuhami", ur: "یاسین التہامی" }
+names:
+  - { value: "ياسين التهامي", kind: full }
+  - { value: "Yasin al-Tuhami", kind: full }
+  - { value: "Yassin el-Tohamy", kind: alternate }
+gender: male
+summary:
+  ar: "منشد مصري من الصعيد ⁦(وُلد 1948 أو 1949)⁩ من الحواتكة بأسيوط، درس في المعاهد الأزهرية حتى 1970، ويُعدّ من أعلام الإنشاد في مصر، وملأ دار الأوبرا في حفله في مارس 2024."
+  en: "Egyptian munshid from Upper Egypt (born 1948 or 1949) at al-Hawatka in Asyut, who studied at the Azhari institutes until 1970 and is one of Egypt's best-known religious singers; his March 2024 concert at the Cairo Opera House sold out."
+  ur: "بالائی مصر کے منشد ⁦(پیدائش 1948ء یا 1949ء)⁩ اسیوط کے الحواتکہ سے، جنھوں نے 1970ء تک ازہری اداروں میں پڑھا اور مصر کے معروف ترین منشدین میں شمار ہوتے ہیں؛ مارچ 2024ء میں قاہرہ اوپرا ہاؤس میں ان کی محفل کے سب ٹکٹ فروخت ہوئے۔"
+wings: [people, living]
+regions: [egypt-nile]
+roles: [munshid, singer]
+born: { edtf: "1948-12-06/1949-12-06", calendar: gregorian, precision: day, status: debated, derived: false, note: "The Arabic article's text gives 6 December 1948; its infobox and Wikidata give 6 December 1949. Born at al-Hawatka village, Manfalut district, Asyut.", sources: [source/wikipedia-yasin-al-tuhami-ar, source/wikidata-yasin-al-tuhami] }
+relations:
+  - { type: born_in, target: place/asyut, note: "al-Hawatka village, Manfalut district, Asyut governorate", sources: [source/wikipedia-yasin-al-tuhami-ar] }
+  - { type: born_in, target: place/manfalut, sources: [source/wikipedia-yasin-al-tuhami-ar, source/wikidata-yasin-al-tuhami] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. His Sufi repertoire is performance and is not an attestation (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-yasin-al-tuhami-ar, source/wikidata-yasin-al-tuhami]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-yasin-al-tuhami] }
+  wikidata: "Q12251554"
+external_ids: { wikidata: "Q12251554" }
+sources: [source/wikipedia-yasin-al-tuhami-ar, source/wikidata-yasin-al-tuhami]
+provenance: { layer: own-research, source: "Arabic Wikipedia «ياسين التهامي» (revision 73281080, 31 January 2026) and Wikidata Q12251554 (revision 2534198190), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

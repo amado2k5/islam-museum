@@ -1,0 +1,76 @@
+id: exhibit/path-sharia-law
+class: exhibit
+kind: trail
+label:
+  ar: الشريعة والفقه
+  en: Sharia and Fiqh
+summary:
+  ar: 'مسار في منظومة الأحكام: الشريعة والفقه والأصول، والاجتهاد والإجماع والفتوى، والمذاهب.'
+  en: A trail through the legal system.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الشريعة
+    en: Sharia
+  body:
+    ar: 'الطريق: أحكام الله في كتابه وسنة نبيه.'
+    en: 'الطريق: أحكام الله في كتابه وسنة نبيه.'
+  features:
+  - concept/sharia
+  - question/what-is-sharia
+- title:
+    ar: الفقه
+    en: Fiqh
+  body:
+    ar: فهم الأحكام وتفريعها على الوقائع.
+    en: فهم الأحكام وتفريعها على الوقائع.
+  features:
+  - concept/fiqh
+  - question/what-is-fiqh
+- title:
+    ar: الأصول
+    en: Usul
+  body:
+    ar: 'الاجتهاد والإجماع والفتوى: آلات الفقيه.'
+    en: 'الاجتهاد والإجماع والفتوى: آلات الفقيه.'
+  features:
+  - question/what-is-ijtihad
+  - question/what-is-ijma
+  - question/what-is-fatwa
+- title:
+    ar: المذاهب
+    en: The schools
+  body:
+    ar: أربعة أئمة ومذاهب الأمة.
+    en: أربعة أئمة ومذاهب الأمة.
+  features:
+  - exhibit/path-four-imams
+- title:
+    ar: الأسرة
+    en: Family law
+  body:
+    ar: 'النكاح والطلاق: فقه البيت.'
+    en: 'النكاح والطلاق: فقه البيت.'
+  features:
+  - question/what-is-nikah
+  - question/what-is-talaq
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,30 @@
+---
+id: person/maba-diakhou-ba
+lang: en
+source_lang: ar
+translators: []
+---
+# Maba Diakhou Bâ
+
+## Summary
+Maba Diakhou Bâ (1809 – 18 July 1867), named in the English article's lead as Mamadu Diakhou Bâ and born Amath Ba, was a Senegambian marabout who became Almami of the Rip and of much of Saloum. A Quran teacher of Denianke descent, he was a disciple of the Tijaniyya Sufi brotherhood; in 1846 he met El Hadj Umar Tall, who named him the Tijani leader for the region. From 1861 his jihad overthrew the animist order in the Rip and Saloum, converted the Wolof kings Lat Dior and Alboury Ndiaye, and checked the French at Pathé Badiane in 1865, before he was killed attacking the Serer kingdom of Sine at the battle of Fandane-Thiouthioune on 18 July 1867. {cite:wikipedia-maba-diakhou-ba-en} {cite:wikipedia-maba-diakhou-ba-fr}
+
+## Early life
+A descendant of the Fulani Denianke dynasty, he was born in 1809 in the region of Rip, also known as Badibu (the French article's infobox names Tavacaltou as the birthplace); his grandfather had immigrated from Futa Toro, and his family were all teachers of the Quran. His father Ndiogou Bâ was a marabout from Futa Toro and his mother Diakhou Dieye was of the Jolof royal line. Maba received his Quranic formation in Cayor, at Mbakhol, and then in Jolof, where he founded a school and married a niece of the buurba (king) of Jolof. Returning to Rip around 1850, he spent ten years teaching and preaching in the village of Keur Maba Diakhou near Kaolack, at first peacefully and with the agreement of Saloum's animist sovereigns. In 1846, on a visit to Saloum, El Hadj Umar Tall met him at Kabakoto and encouraged him to launch a holy war in Saloum. {cite:wikipedia-maba-diakhou-ba-en} {cite:wikipedia-maba-diakhou-ba-fr}
+
+## The jihad in the Rip and Saloum
+In the 1850s Maba was court marabout to the weak king of Badibu, making amulets and praying for him while stockpiling weaponry. When the marabouts retaliated against the ceddo (animist) warriors for a raid, the king tried to crush them, but Maba and his talibes (students) defeated them; the success attracted more supporters, and by 1861 Maba controlled all of Rip, which he renamed, and proclaimed himself its Almami. He built tatas (fortifications) across the country and founded the city of Nioro du Rip as his capital, named after Umar Tall's Nioro du Sahel. He then launched his jihad into Serer territory and soon controlled most of Saloum and part of Niumi, enforcing his interpretation of Islam throughout the country, burning and enslaving villages that resisted. In 1863 a group of animist Mandinka chiefs of Rip, assisted by Kiang and Wuli, counter-attacked and defeated the marabout forces at Kwinella. The English article, citing Klein (1968), also records him plainly as a prominent Muslim cleric and slave trader who pillaged non-Muslim states, and preserves his reported answer to a British emissary who warned him that famine would result from his ravaging: "God is our father, and has brought this war. We are in his hands." {cite:wikipedia-maba-diakhou-ba-en} {cite:wikipedia-maba-diakhou-ba-fr}
+
+## Alliances and war with the French
+In May 1864 Lat Dior, the deposed Damel of Cayor, took refuge with Maba, who offered him asylum and converted him and his soldiers from the traditional Tièddo beliefs to Islam; Lat Dior became a powerful ally, and Maba also converted Alboury Ndiaye, the Buur of Jolof — a turning point, the English article says, in the history of Islam among the Wolof. In October 1864 the French recognised Maba as Almamy of Baddibu and Saloum. His forces now numbered up to 11,000 fighting men. When the French governor Pinet-Laprade marched on Saloum with a large force, the marabout forces led by Lat Dior drove the French back towards Kaolack at the battle of Pathé Badiane, outside Nioro, on 30 November 1865. Maba aimed to build alliances with the Emirate of Trarza and the Imamate of Futa Toro and, in the French article's account, to see an Islamic state arise from the Fouta to the Saloum; a rebellion in Rip forced him to leave Jolof in October 1865. {cite:wikipedia-maba-diakhou-ba-en} {cite:wikipedia-maba-diakhou-ba-fr}
+
+As well as converting traditional states and their populations, his movement sought to abolish the traditional caste system of the Wolof and Serer aristocratic states, a centralisation that caused friction, as Mandinka near the Gambia River resented being ruled by Wolof judges from the north. {cite:wikipedia-maba-diakhou-ba-en}
+
+## Death and legacy
+In 1866 he invaded the kingdom of Sine, still led by the animist Serer ruler Kumba Ndoffene Diouf, and captured and burned its capital, Diakhao. On 18 July 1867 the Rip forces faced the Serer armies at the battle of Fandane-Thiouthioune, commonly called the battle of Somb: a rainstorm rendered the Muslim guns useless, Maba's troops were routed, and he himself was killed, having refused Lat Dior's and Alboury's advice to withdraw. He was interred in the village of Fandène (Mbel Fandane), and his tomb, now a listed historic monument, has become a place of pilgrimage. {cite:wikipedia-maba-diakhou-ba-en} {cite:wikipedia-maba-diakhou-ba-fr}
+
+He is an important link in the tradition of Senegalese marabouts who trace their lineage to Umar Tall, a tradition the English article traces through El Hadj Malik Sy of Tivaouane and the Niass family of Kaolack; Tivaouane and Kaolack became the two centres of Tijani teaching in Senegal, both founded, the article says, as a direct result of his short-lived state. In this museum his faith is recorded as Sufi, documented: the English article calls him a disciple of the Tijaniyya Sufi brotherhood, and the French article calls him a member of the Tijani brotherhood — two texts attesting his personal affiliation, not his office alone. No source read names a legal school (madhhab) for him. {cite:wikipedia-maba-diakhou-ba-en} {cite:wikipedia-maba-diakhou-ba-fr} {cite:wikidata-maba-diakhou-ba}
+
+## Sources
+- The defined source entities cited above, recorded in `data/source/`.
+- Revisions of this article must be dated, and must name the source that changed each fact.

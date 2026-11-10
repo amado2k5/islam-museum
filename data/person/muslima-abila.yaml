@@ -1,0 +1,30 @@
+id: person/muslima-abila
+class: person
+label:
+  ar: "مسلمة آبلة"
+  en: "La Mora de Avila (Muslima of Avila)"
+roles: [scholar]
+gender: female
+summary:
+  ar: "بطاقة أولية لمسلمة آبلة، عالمة من مسلمي موريسكوس آبلة في الأندلس؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Muslima of Avila ('La Mora de Avila'), the Morisco woman scholar of Avila; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/gunpowder-empires]
+born: { edtf: "1500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Spanish Morisco historical studies" }
+died: { edtf: "1550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Spanish Morisco historical studies" }
+relations:
+  - { type: born_in, target: place/vila, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q15688)" }
+  - { type: died_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8810)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q100605060
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0074
+status:
+  review: draft
+  completeness: 1

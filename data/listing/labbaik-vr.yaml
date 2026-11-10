@@ -1,0 +1,40 @@
+id: listing/labbaik-vr
+class: listing
+kind: app
+label:
+  ar: "لبيك في آر ⁦(محاكي الحج بالواقع الافتراضي)⁩"
+  en: "Labbaik VR (virtual-reality Hajj simulator)"
+  ur: "لبیک وی آر ⁦(ورچوئل رئیلٹی حج سمیولیٹر)⁩"
+summary:
+  ar: "تطبيق باكستاني لمحاكاة الحج والعمرة بالواقع الافتراضي من شركة في كراتشي، يعرض المشاعر في مكة والمدينة بزاوية 360 درجة اعتمادًا على قياسات دقيقة و80 ألف صورة بدقة 8K، لتدريب الحجاج على المناسك قبل السفر؛ قالت الشركة لعرب نيوز في يوليو 2019 إنها درّبت به 30 ألف حاج مع شركات الحج، وتصفه بأنه «أول محاكٍ للحج والعمرة بالواقع الافتراضي في العالم»."
+  en: "A Pakistani virtual-reality Hajj and Umrah simulator app by a Karachi company, showing the holy sites of Mecca and Medina in 360 degrees from exact measurements and 80,000 8K photographs, to train pilgrims in the rites before they travel; the company told Arab News in July 2019 that it had trained 30,000 pilgrims with it through Hajj operators, and calls it 'the world's first virtual reality Hajj and Umrah simulator'."
+  ur: "کراچی کی کمپنی کی پاکستانی ورچوئل رئیلٹی حج و عمرہ سمیولیٹر ایپ، جو مکہ اور مدینہ کے مقدس مقامات کو 360 درجے میں درست پیمائشوں اور 80 ہزار 8K تصاویر سے دکھاتی ہے تاکہ حاجی سفر سے پہلے مناسک کی تربیت لیں؛ کمپنی نے جولائی 2019 میں عرب نیوز کو بتایا کہ اس نے حج آپریٹرز کے ساتھ 30 ہزار حاجیوں کو تربیت دی، اور اسے «دنیا کا پہلا ورچوئل رئیلٹی حج و عمرہ سمیولیٹر» کہتی ہے۔"
+wings: [made]
+categories: [technology, travel, education]
+regions: [south-asia]
+founded:
+  edtf: "2018"
+  hijri: "1439~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The company had trained pilgrims with it 'since last year', so from 2018, as Arab News reported on 30 July 2019; no launch date is given. The Hijri year (1439 to 1440) is converter-derived."
+  sources: [source/arabnews-labbaik-vr-2019]
+made: { by_muslims: false, basis: unverified }
+status_business: unknown
+location: { serves: [pk] }
+footprint:
+  press:
+    - { source: source/arabnews-labbaik-vr-2019, date: { edtf: "2019-07-30", calendar: gregorian, precision: day }, kind: feature, lang: en, title: { en: "Pakistani startup develops world's first virtual reality Hajj simulator" } }
+relations:
+  - { type: related_to, target: practice/hajj, note: "training in the rites of Hajj and Umrah", sources: [source/arabnews-labbaik-vr-2019] }
+  - { type: related_to, target: building/masjid-al-haram, note: "the tawaf around the Kaaba and the sa'i between Safa and Marwa, reproduced in VR", sources: [source/arabnews-labbaik-vr-2019] }
+sources: [source/arabnews-labbaik-vr-2019]
+provenance:
+  layer: own-research
+  source: "Arab News Pakistan (30 July 2019), read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b07
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

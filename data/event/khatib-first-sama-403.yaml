@@ -1,0 +1,28 @@
+id: event/khatib-first-sama-403
+class: event
+kind: gathering
+label:
+  ar: "أول سماع الخطيب وله إحدى عشرة سنة، نحو ٤٠٣هـ"
+  en: "Al-Khatib's first audition, aged eleven, c. 403/1012"
+  ur: "خطیب کی پہلی سماعت، عمر گیارہ برس، تقریباً 403ھ/1012ء"
+summary:
+  ar: "حضّ أبو الحسن الخطيب ولده أبا بكر على السماع في صغره، فسمع وله إحدى عشرة سنة، أي نحو سنة ثلاث وأربعمائة؛ وكان بذلك من أصغر أهل جيله ممن باكروا الطلب {cite:tarikh-islam-dhahabi p. 87}."
+  en: "Abu al-Hasan al-Khatib pressed his son Abu Bakr to attend hadith auditions while still a child, and he began hearing at eleven years old — about the year 403 — among the earliest beginners of his generation {cite:tarikh-islam-dhahabi p. 87}."
+  ur: "ابوالحسن خطیب نے اپنے بیٹے ابو بکر کو بچپن ہی سے سماعتِ حدیث کی ترغیب دی، اور وہ گیارہ برس کی عمر میں — تقریباً 403ھ — سماعت کرنے لگے، جو اپنے ہم عصر طالبان میں سب سے جلد شروع کرنے والوں میں تھے {cite:tarikh-islam-dhahabi p. 87}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1012~", hijri: "0403~", calendar: julian, precision: year, status: tradition, derived: true, note: "سمع وله إحدى عشرة سنة {cite:tarikh-islam-dhahabi p. 87}؛ السنة محسوبة من مولده ٣٩٢هـ؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "السامع الصغير", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-al-hasan-al-khatib, role: "الوالد المحضّ", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 p. 87 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

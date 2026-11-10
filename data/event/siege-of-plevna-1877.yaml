@@ -1,0 +1,23 @@
+id: event/siege-of-plevna-1877
+class: event
+kind: siege
+label: { ar: "حصار بلفن", en: "Siege of Plevna" }
+summary:
+  ar: "بطاقة أولية لحصار بلفن سنة ١٨٧٧م، صمود عثمان باشا العثماني أشهراً أمام الجيش الروسي في حرب ١٨٧٧؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Plevna in 1877, Osman Pasha's months-long stand against the Russian army in the war of 1877–78; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1877", precision: year, status: tradition, derived: true }
+  end: { edtf: "1877", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q780367
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

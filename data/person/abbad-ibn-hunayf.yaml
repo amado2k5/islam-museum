@@ -1,0 +1,29 @@
+id: person/abbad-ibn-hunayf
+class: person
+label: { en: Abbad ibn Hunayf, ar: "عباد بن حنيف" }
+names:
+  - { kind: full, lang: ar, value: "عباد بن حنيف، أخو سهل بن حنيف، من بني عمرو بن عوف" }
+gender: male
+summary:
+  ar: "أحد الاثني عشر رجلاً الذين بنوا مسجد الضرار بحسب ابن إسحاق؛ نسبه: أخو سهل بن حنيف، من بني عمرو بن عوف."
+  en: "One of the twelve men who built Masjid al-Dirar, according to Ibn Ishaq; his ascription: brother of Sahl ibn Hunayf, of Banu Amr ibn Awf."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Ishaq / al-Isaba" }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Ishaq / al-Isaba" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: participated_in, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, role: "بانٍ للمسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/builders-of-masjid-al-dirar, note: "من الاثني عشر الذين سمّاهم ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-amr-ibn-awf, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173-174"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch123
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

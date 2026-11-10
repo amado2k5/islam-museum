@@ -1,0 +1,76 @@
+id: exhibit/path-cinema-pakistan
+class: exhibit
+kind: trail
+label:
+  ar: السينما الباكستانية
+  en: Pakistani Cinema
+summary:
+  ar: 'مسار في لوليوود: بول المثيرة وخدا کے لیے وJoyland — سينما الإيمان والجدل الباكستانية.'
+  en: A trail through Lollywood.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: خدا کے لیے
+    en: Khuda Kay Liye
+  body:
+    ar: '2007: الدين والتشدد والموسيقى.'
+    en: '2007: الدين والتشدد والموسيقى.'
+  features:
+  - screen/khuda-kay-liye-2007
+  - screen/bol-2011
+- title:
+    ar: بول
+    en: Bol
+  body:
+    ar: 'شعیب منصور: حقوق البنات.'
+    en: 'شعیب منصور: حقوق البنات.'
+  features:
+  - screen/bol-2011
+  - screen/joyland-2022
+- title:
+    ar: جويلاند
+    en: Joyland
+  body:
+    ar: '2022: الجائزة والجدل.'
+    en: '2022: الجائزة والجدل.'
+  features:
+  - screen/joyland-2022
+  - screen/zindagi-tamasha-2019
+- title:
+    ar: الدراما
+    en: The series
+  body:
+    ar: خدا أور محبت ورقص البسمل.
+    en: خدا أور محبت ورقص البسمل.
+  features:
+  - screen/khuda-aur-muhabbat-2011
+  - screen/raqs-al-bismil-2020
+- title:
+    ar: التاريخ
+    en: History
+  body:
+    ar: 'وارث والطير: الذاكرة.'
+    en: 'وارث والطير: الذاكرة.'
+  features:
+  - screen/waris-1979
+  - screen/tayr-al-tin-2002
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

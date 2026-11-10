@@ -1,0 +1,17 @@
+---
+id: person/necati
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+İsa Necati (d. 1509), known as Necati Bey, was the first great lyric poet of Ottoman Turkish literature, an original and eloquent master of the ghazel whose verse his contemporaries and the later tezkire writers placed at the head of his age. {cite:wikipedia-necati-en} Almost nothing certain is known of his beginnings: the TDV İslâm Ansiklopedisi estimates that he was born at Edirne in the first reign years of Mehmed II, 1444–1446, and the English article agrees that he was born a slave there. {cite:tdv-necati-bey} {cite:wikipedia-necati-en} The Turkish article is more cautious, holding his birth date unknown and his birthplace to have been Kastamonu. {cite:wikipedia-necati-tr}
+
+## A slave child in Edirne
+According to the TDV entry, the child was taken as a slave and adopted by an elderly woman of Edirne, and the poet Sailî had a hand in his upbringing; his real name was İsa, though some sources give it as Nuh. {cite:tdv-necati-bey} {cite:wikipedia-necati-tr} The English article remarks that the names İsa and Necati — "he who found refuge" — point to a non-Muslim and non-Turkish ancestry, a point the contemporary tezkire writers themselves never mention. {cite:wikipedia-necati-en} He bought his freedom, made a name in Edirne, and in his youth moved to Kastamonu, where he worked at calligraphy and poetry. {cite:wikipedia-necati-en} It was from Kastamonu that his ghazel with the refrain "döne döne" reached Ahmed Pasha at Bursa and won his admiration. {cite:tdv-necati-bey}
+
+## Secretary to sultans and princes
+About 1480 Necati came to Constantinople and wrote poems for Mehmed II; in the famous anecdote, the sultan's companion Yurgi carried some of his ghazels to a chess game with the sultan, who was so pleased that he appointed the poet a secretary (katib) of the imperial divan. {cite:wikipedia-necati-en} Under Bayezid II he served Prince Abdullah as divan secretary at Karaman, and after the prince's sudden death he entered the household of Prince Mahmud at Manisa, now with the nişancı's post and the style of "Bey", through the mediation of the kazasker Müeyyedzâde Abdurrahman Çelebi. {cite:tdv-necati-bey} When Mahmud too died young, in 1507 or 1508, Necati refused every further appointment and lived in retirement on a pension of 1,000 akçe at his house in the Vefa quarter, holding gatherings of learning and art, until his death. {cite:tdv-necati-bey} {cite:wikipedia-necati-en}
+
+## The Divan and his death
+He died at Istanbul on 25 Zilkade 914, 17 March 1509, and his pupil Sehî Bey built his marble tomb and inscribed it with the chronogram couplet and Necati's own wish for a marble grave; the tomb itself was lost when the Manifaturacılar market was built at Unkapanı, and a marker was later set up again in the Hızır Bey burial ground. {cite:tdv-necati-bey} The Turkish article adds the caution that even the year 1509 is not beyond doubt. {cite:wikipedia-necati-tr} His only surviving work is his Divan, arranged for Müeyyedzâde and edited by Ali Nihad Tarlan from twenty manuscripts (Istanbul 1963) with twenty-five qasidas and 650 ghazels, opening with tevhid, na't and mi'raciye poems. {cite:tdv-necati-bey} Sehî praised his master's ghazels and his Sufi-toned verse; Latîfî credited him with bringing the proverb into poetry and opening a new road in the ghazel; and Ziya Paşa would later name Ahmed Pasha, Necati and Zâtî as the three who "laid the foundation of Turkish speech". {cite:tdv-necati-bey} {cite:wikipedia-necati-tr}

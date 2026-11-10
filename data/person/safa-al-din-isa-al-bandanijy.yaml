@@ -1,0 +1,31 @@
+id: person/safa-al-din-isa-al-bandanijy
+class: person
+label: { ar: "صفاء الدين عيسى البندنيجي", en: "Safa' al-Din Isa al-Bandanijy" }
+names:
+  - { kind: full, lang: ar, value: "أبو الهدى صفاء الدين عيسى بن جلال الدين موسى البندنيجي القادري النقشبندي البغدادي" }
+gender: male
+roles: [mystic, scholar]
+traditions: [sunni]
+born: { edtf: "1788", hijri: "1203", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1866", hijri: "1283", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم صوفي بغدادي من الطريقتين القادرية والنقشبندية، ونُسب إلى بندنيجين."
+  en: "A Sufi scholar of Baghdad from the Qadiri and Naqshbandi orders, named after Bandanijin."
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص129"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch62
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Association inferred from the nisba 'البغدادي'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

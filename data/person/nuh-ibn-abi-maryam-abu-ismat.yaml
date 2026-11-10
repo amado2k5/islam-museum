@@ -1,0 +1,32 @@
+id: person/nuh-ibn-abi-maryam-abu-ismat
+class: person
+label:
+  ar: "أبو عِصمة"
+  en: "Abu Ismat"
+names:
+  - { value: "أبو عِصمة", kind: full }
+died: { hijri: "0173", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Death 173 AH as given in the appendix; birth not given." }
+summary:
+  ar: "نوح بن أبي مريم يزيد بن أبي جعونة، لقب بالجامع، قيل لأنه أول من جمع فقه أبي حنيفة، وقيل لأنه كان جامعاً بين العلوم. أخذ الفقه عن أبي حنيفة وابن أبي ليلى، وروى الحديث عن الزهري وغيره، وولي قضاء مرو. ووصفه أحمد بالشدة على الجهمية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1611}"
+  en: "Nuh ibn Abi Maryam Yazid ibn Abi Ju'una, called al-Jami', either because he was the first to gather the fiqh of Abu Hanifa or because he combined several sciences. He studied law with Abu Hanifa and Ibn Abi Layla, transmitted hadith from al-Zuhri and others, and was appointed judge of Merv. Ahmad described him as severe against the Jahmiyya. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1611}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1611 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

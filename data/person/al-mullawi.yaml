@@ -1,0 +1,35 @@
+id: person/al-mullawi
+class: person
+label:
+  ar: "الملوي"
+  en: "al-Mullawi"
+roles: [jurist]
+gender: male
+summary:
+  ar: "بطاقة أولية للملوي، الفقيه الشافعي المصري صاحب الحاشية المشهورة، توفي سنة ١٧٦٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Mullawi, the Egyptian Shafi'i jurist known for his commentary, d. 1767; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28714945
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0083
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "1686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 1/298; Ahmad al-Mallawi; 1098–1181 AH)" }
+died: { edtf: "1767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 1/298; Ahmad al-Mallawi; 1098–1181 AH)" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

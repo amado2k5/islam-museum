@@ -1,0 +1,27 @@
+id: event/yaqut-trade-journeys-593
+class: event
+kind: other
+label:
+  ar: "أسفار ياقوت التجارية عن مولاه: كيش وعمان والشام، نحو ٥٩٣هـ/١١٩٧م"
+  en: "Yaqut's trading journeys for his master: Kish, Oman and Syria, c. 593/1197"
+  ur: "یاقوت کے مولیٰ کے لیے تجارتی سفر: کیش، عمان اور شام، تقریباً 593ھ/1197ء"
+summary:
+  ar: "شغّل مولاه عسكر ياقوتَ في أسفار تجارته فتردد إلى جزيرة كيش وإلى عُمان — وأكثر أهلها يومئذ خوارج إياضية — وإلى الشام، ومن أسفاره رحلة بغداد–آمد–الشام–بغداد في ٥٩٣–٥٩٤هـ/١١٩٧–١١٩٨م {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 277}، وكان في تلك الأسفار يقرأ ويلتقي بالعلماء حتى تكوّنت له ملكة علمية {cite:mawsuat-a3lam-ulama-adaba p. 277}."
+  en: "His master Askar employed Yaqut on his trading ventures: he shuttled to the island of Kish, to Oman — most of whose people were then Ibadi Kharijis — and to Syria; one itinerary ran Baghdad–Amid–Syria–Baghdad in 593-4/1197-8 {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 277}. On these journeys he read and met scholars until a real scholarly temperament formed in him {cite:mawsuat-a3lam-ulama-adaba p. 277}."
+  ur: "مولیٰ عسکر نے یاقوت کو تجارتی سفروں میں لگایا: جزیرہ کیش، عمان — جہاں اکثر لوگ اباضیہ خارجی تھے — اور شام کے رخ؛ ایک سفر بغداد–آمد–شام–بغداد 593-94ھ/1197-98ء میں ہوا {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 277}. ان سفروں میں وہ مطالعہ کرتا اور علماء سے ملتا، یہاں تک کہ علمی ملکہ پیدا ہوگیا {cite:mawsuat-a3lam-ulama-adaba p. 277}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1197~", hijri: "0593~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحلة بغداد–آمد–الشام–بغداد ٥٩٣–٥٩٤هـ {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}، ورحلتا كيش نحو ٥٨٦هـ و٦٠٦هـ؛ التاريخ تقريبي والتحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/kish, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

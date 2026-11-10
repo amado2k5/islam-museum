@@ -1,14 +1,31 @@
 id: place/istanbul
 class: place
 kind: city
-label: { en: "Istanbul", ar: "إسطنبول" }
+label: { en: "Istanbul", ar: "إسطنبول" , ur: "استنبول"}
 summary:
   en: "City formerly known as Constantinople, conquered by Mehmed II in 1453 and capital of the Ottoman Empire."
   ar: "مدينة كانت تُعرف بالقسطنطينية، فتحها محمد الفاتح سنة 1453م، وكانت عاصمة الدولة العثمانية."
+  ur: "قسطنطنیہ کے نام سے معروف یہ شہر ۱۴۵۳ء میں محمد ثانی نے فتح کیا اور یہ سلطنت عثمانیہ کا دارالحکومت رہا۔ {cite:geonames-gazetteer}"
 wings: [place]
 regions: [anatolia-balkans]
 coordinates: [41.0138, 28.9497]
 coordinate_precision: site
-external_ids: { geonames: "745044" }
-sources: [source/geonames-gazetteer]
+external_ids: { wikidata: "Q406", geonames: "745044", nomisma: "istanbul", idai: "2285315" }
+sources: [source/geonames-gazetteer, source/nomisma, source/idai-gazetteer]
+education:
+  did_you_know:
+    ar: "إسطنبول القسطنطينية سابقاً فتحها محمد الفاتح سنة ١٤٥٣م، فكانت عاصمة الدولة العثمانية."
+    en: "Istanbul, once Constantinople, was taken by Mehmed al-Fatih in 1453 CE and became the Ottoman capital."
+    ur: "استنبول پہلے قسطنطنیہ تھا جسے محمد فاتح نے 1453ء میں فتح کیا اور وہ عثمانی دارالحکومت بنا۔"
+    sources: [source/geonames-gazetteer, source/dawlat-uthmaniyya-salabi]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 3 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch3"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}

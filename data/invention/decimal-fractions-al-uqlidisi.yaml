@@ -1,0 +1,118 @@
+id: invention/decimal-fractions-al-uqlidisi
+class: invention
+label: { ar: "عمليات الكسور العشرية عند الإقليدسي", en: "Al-Uqlidisi's decimal-fraction methods", ur: "الاقلیدسی کے اعشاری کسور کے طریقے" }
+names:
+  - { value: "decimal arithmetic in Kitab al-fusul", kind: alternate, lang: en }
+summary:
+  ar: "معالجة مبكرة مباشرة للكسور العشرية في كتاب مؤلف بدمشق341/952–953، مع علامة للآحاد وعمليات على أجزاء العشرة؛ اكتمال المفهوم محل اختلاف، لا اختراع الأرقام أو النقطة الحديثة {cite:tdv-oklidisi pp. 25–26} {cite:uqlidisi-mactutor Biography}."
+  en: "Early direct decimal-fraction treatment in a Damascus341/952–953 book, with a units sign and operations on tenths; conceptual completeness remains disputed, not invention of numerals or today's decimal point {cite:tdv-oklidisi pp. 25–26} {cite:uqlidisi-mactutor Biography}."
+  ur: "دمشق کی341/952–953 کی کتاب میں اعشاری کسور، اکائی کے نشان اور دس کے حصوں پر ابتدائی براہ راست عملیات؛ مفہوم کی تکمیل مختلف فیہ ہے، ہندسوں یا موجودہ اعشاری نقطے کی ایجاد نہیں {cite:tdv-oklidisi pp. 25–26} {cite:uqlidisi-mactutor Biography}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0952/0953"
+    hijri: "0341"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "TDV's explicit341 AH/952–953 pair dates composition of Kitab al-fusul at Damascus, not a precise invention day, the1157 surviving copy or an uncertain life date; Julian follows museum convention."
+    sources: [source/tdv-oklidisi, source/uqlidisi-mactutor]
+  status_today: transformed
+origin:
+  place: place/damascus
+  context:
+    ar: "كتاب في الحساب الهندي، يجمع طرائق ويشرحها للمتعلمين ويكيف عمليات للورق بدلاً من المحو على لوح الغبار {cite:uqlidisi-mactutor Biography} {cite:uqlidisi-saidan-dsb four parts}."
+    en: "Indian-arithmetic book collecting and explaining methods for learners and adapting operations to paper rather than erasure on a dust board {cite:uqlidisi-mactutor Biography} {cite:uqlidisi-saidan-dsb four parts}."
+    ur: "ہندی حساب کی کتاب جو طریقے جمع اور طالب علموں کو سمجھاتی، تختۂ غبار کے مٹانے کے بجائے کاغذی عملیات بناتی ہے {cite:uqlidisi-mactutor Biography} {cite:uqlidisi-saidan-dsb four parts}۔"
+makers:
+  - person: person/al-uqlidisi-ahmad-ibn-ibrahim
+    role: improver
+    place: place/damascus
+    note: "Early decimal-fraction operations within inherited Indian arithmetic. Muslim basis is MacTutor's explicit named classification quoting Saidan; Sunni is the separately labelled museum default, not personal school evidence."
+    sources: [source/uqlidisi-mactutor, source/tdv-oklidisi, source/uqlidisi-saidan-dsb]
+attribution:
+  status: improvement
+  claim:
+    ar: "تطوير التعامل مع الكسور في الحساب ذي القيمة المكانية؛ لا أول نظام عشري ولا نظرية حديثة كاملة متفق عليها."
+    en: "Developed fractional operations in place-value arithmetic, not the first decimal numeral system or an agreed complete modern theory."
+    ur: "مقامی حساب میں کسری عملیات کی ترقی، پہلا اعشاری نظام ہندسہ یا متفقہ مکمل جدید نظریہ نہیں۔"
+  basis:
+    ar: "يصف سعيدان علامة فوق الآحاد والتنصيف المتكرر من13 إلى0.8125؛ تعرض ماكتوتر وTDV اختلافه مع راشد في عموم الفهم النظري {cite:uqlidisi-saidan-dsb decimal-fraction discussion} {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}."
+    en: "Saidan describes a stroke over units and repeated halving from13 to0.8125; MacTutor and TDV preserve disagreement with Rashed over theoretical completeness {cite:uqlidisi-saidan-dsb decimal-fraction discussion} {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}."
+    ur: "سعیدان اکائی کے اوپر لکیر اور13 سے0.8125 تک مکرر نصف کرنا بتاتے ہیں؛ میک ٹیوٹر و ٹی ڈی وی نظری تکمیل پر راشد کے اختلاف کو محفوظ رکھتے ہیں {cite:uqlidisi-saidan-dsb decimal-fraction discussion} {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "إطار المتحف السني المعلن يحفظ المساهمة المسلمة وسابقيها، ولا يجعل افتراضه شهادة شخصية بمذهب أو حكماً مذهبياً في الخلاف الرياضي {cite:uqlidisi-mactutor Biography}."
+        en: "Explicit Sunni museum frame preserves the Muslim contribution and predecessors, not personal school testimony or a sectarian verdict on the mathematical debate {cite:uqlidisi-mactutor Biography}."
+        ur: "متحف کا واضح سنی فریم مسلم حصہ اور سابقین محفوظ رکھتا ہے، ذاتی مسلک کی شہادت یا ریاضیاتی اختلاف کا مسلکی فیصلہ نہیں {cite:uqlidisi-mactutor Biography}۔"
+      sources: [source/uqlidisi-mactutor]
+    - tradition: academic
+      id: saidan-decimal-understanding
+      standing: main
+      summary:
+        ar: "يرى سعيدان فهماً واضحاً للكسور وعلامتها والعمل بقوى العشرة، لا مجرد تحويل ميكانيكي إلى الستينيات {cite:uqlidisi-saidan-dsb decimal-fraction discussion} {cite:uqlidisi-mactutor Biography}."
+        en: "Saidan sees clear understanding of decimal fractions, their sign and powers-of-ten operations, rather than mechanical conversion to sexagesimals {cite:uqlidisi-saidan-dsb decimal-fraction discussion} {cite:uqlidisi-mactutor Biography}."
+        ur: "سعیدان اعشاری کسور، نشان اور دس کی قوتوں کے عملیات کی واضح سمجھ دیکھتے ہیں، محض ساٹھ کے نظام میں میکانکی تبدیلی نہیں {cite:uqlidisi-saidan-dsb decimal-fraction discussion} {cite:uqlidisi-mactutor Biography}۔"
+      sources: [source/uqlidisi-saidan-dsb, source/uqlidisi-mactutor]
+    - tradition: academic
+      id: rashed-conceptual-limits
+      standing: main
+      summary:
+        ar: "تنقل ماكتوتر عن راشد أن الفهم ضمني دون صياغة إكمال قوى العشرة بمقلوباتها بعد تعريف القوة الصفرية؛ يرى ذلك تمهيداً لا اكتمالاً، دون إنكار أهمية الخطوة {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}."
+        en: "MacTutor reports Rashed's distinction between implicit practice and explicit extension through reciprocal powers after defining the zero power: a preliminary stage, not completeness, without denying its importance {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}."
+        ur: "میک ٹیوٹر راشد کا عملی ضمنی سمجھ اور صفر قوت کے بعد مقلوب قوتوں کی واضح توسیع کا فرق بتاتا ہے: اہم مگر تمہیدی مرحلہ، تکمیل نہیں {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}۔"
+      sources: [source/uqlidisi-mactutor, source/tdv-oklidisi]
+precursors:
+  - invention: invention/algorism
+    note: "Earlier Indian-arithmetic transmission is context, not a claim that al-Uqlidisi invented its numerals or unchanged operations."
+    sources: [source/uqlidisi-saidan-dsb]
+  - external: { ar: "الحساب الهندي والستيني ولوح الغبار", en: "Indian arithmetic, sexagesimal reckoning and the dust board", ur: "ہندی حساب، ساٹھ کا نظام اور تختۂ غبار" }
+    note: "Inherited resources and working media; adaptation is distinguished from originating all positional reckoning."
+    sources: [source/uqlidisi-mactutor, source/uqlidisi-saidan-dsb]
+dependents:
+  - external: { ar: "المباحث اللاحقة عند السموأل والكاشي وستيفن", en: "Later treatments by al-Samawal, al-Kashi and Stevin", ur: "سموأل، کاشی اور سٹیون کے بعد کے مباحث" }
+    note: "Comparative history, not a demonstrated direct reading/transmission chain or a separately established post-conversion invention."
+    sources: [source/uqlidisi-mactutor, source/tdv-oklidisi]
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "إجراء الحساب على أجزاء العشرة مع حفظ منزلة الآحاد؛ فصل قيمة المنزلة عن محو الأرقام على الغبار {cite:uqlidisi-saidan-dsb four parts; decimal-fraction discussion}."
+    en: "Operations on decimal parts while retaining the units position; distinguished place value from dust-board erasure {cite:uqlidisi-saidan-dsb four parts; decimal-fraction discussion}."
+    ur: "اکائی کی جگہ محفوظ رکھتے ہوئے اعشاری حصوں پر حساب؛ منزل کی قیمت اور غبار پر ہندسے مٹانے کا فرق {cite:uqlidisi-saidan-dsb four parts; decimal-fraction discussion}۔"
+  history:
+    ar: "شاهد مبكر مهم غيّر تقدير المؤرخين لتاريخ الكسور، لا برهان على استعمال يومي شامل أو انتقال مباشر إلى أوروبا {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}."
+    en: "An important early witness changing historians' account of decimals, not proof of universal daily use or direct transmission to Europe {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}."
+    ur: "اعشاریات کی تاریخ کا اہم ابتدائی شاہد، عمومی روزمرہ استعمال یا یورپ تک براہ راست منتقلی کا ثبوت نہیں {cite:uqlidisi-mactutor Biography} {cite:tdv-oklidisi pp. 25–26}۔"
+  significance: 4
+  why: "Early direct decimal-fraction practice with a deliberate place marker, preserving the distinction between attested operations and disputed theoretical completeness."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "منازل الأجزاء العشرية قابلة للشرح بلوحة حديثة؛ النقطة فيها ليست علامة الإقليدسي فوق الآحاد {cite:commons-decimal-place-value Description; Licensing} {cite:uqlidisi-saidan-dsb decimal-fraction discussion}."
+    en: "A modern chart explains decimal places; its dot is not al-Uqlidisi's stroke over units {cite:commons-decimal-place-value Description; Licensing} {cite:uqlidisi-saidan-dsb decimal-fraction discussion}."
+    ur: "جدید چارٹ اعشاری منازل سمجھاتا ہے؛ اس کا نقطہ اقلیدسی کی اکائی کے اوپر لکیر نہیں {cite:commons-decimal-place-value Description; Licensing} {cite:uqlidisi-saidan-dsb decimal-fraction discussion}۔"
+  descendants:
+    ar: "المقارنة بالاصطلاح الحديث تعليمية؛ لا يدعي السجل أنه ابتدع كل رمز أو تطبيق لاحق {cite:uqlidisi-mactutor Biography}."
+    en: "Modern comparison is explanatory; no claim that he created every later symbol or application {cite:uqlidisi-mactutor Biography}."
+    ur: "جدید موازنہ توضیحی ہے؛ ہر بعد کے رمز یا اطلاق کی ایجاد کا دعویٰ نہیں {cite:uqlidisi-mactutor Biography}۔"
+media: { image: media/uqlidisi-modern-place-value, diagram: media/diagram-decimal-fractions-al-uqlidisi }
+kids:
+  ar: "النصف يمكن كتابته خمسة أعشار، والربع خمسة وعشرين جزءاً من مئة. تثبيت موضع الواحد يساعدنا على قراءة الأجزاء دون خلطها بالعشرات؛ صورتنا حديثة وليست خط المؤلف."
+  en: "A half is five tenths; a quarter is twenty-five hundredths. Keeping the units place clear helps distinguish pieces from tens. Our picture is modern, not the author's handwriting."
+  ur: "نصف پانچ دسویں اور ربع پچیس سوویں حصے ہیں۔ اکائی کی جگہ واضح ہو تو حصے دہائیوں سے نہیں ملتے۔ تصویر جدید ہے، مصنف کی تحریر نہیں۔"
+sources: [source/uqlidisi-mactutor, source/tdv-oklidisi, source/uqlidisi-saidan-dsb, source/commons-decimal-place-value]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b26", source: "Actual complete MacTutor/TDV and Saidan DSB reproduction; inspected CC0 modern chart. Missing formulae not read; no complete primary treatise, original1966/Rashed reading or direct modern-transmission claim" }

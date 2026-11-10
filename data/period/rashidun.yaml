@@ -5,9 +5,22 @@ label: { en: "The Rashidun Caliphate", ar: "عصر الخلفاء الراشدي
 summary:
   en: "The rule of the first four caliphs after the Prophet, Abu Bakr, Umar, Uthman and Ali, when the community expanded from Arabia into the Levant, Iraq, Egypt and Iran."
   ar: "حكم الخلفاء الأربعة الأوائل بعد النبي: أبو بكر وعمر وعثمان وعلي، حين اتسعت الجماعة من الجزيرة إلى الشام والعراق ومصر وإيران."
-wings: [time]
+wings: []
 regions: [arabia]
 start: { edtf: "0632", hijri: "0011", calendar: julian, precision: year, status: historical }
 end: { edtf: "0661", hijri: "0041", calendar: julian, precision: year, status: historical }
 sources: [source/hodgson-1974, source/hourani-1991]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "The sources cited in this record: [source/hodgson-1974, source/hourani-1991]. Provenance recorded on 28 October 2026 from git history (created in commit 9b048e0ddb)."
+  generated_by: "unknown (created in commit 9b048e0ddb; no agent trailer)"
+kids:
+  ar: "الخلافة الراشدة من أبي بكر حتى علي، ثلاثون سنة من الفتوح والعدل."
+  en: "The Rashidun caliphate — from Abu Bakr to Ali, thirty years of conquest and just rule."
+  ur: "راشدہ خلافت — ابوبکر سے علی تک، فتوحات اور انصاف کے تیس سال۔"

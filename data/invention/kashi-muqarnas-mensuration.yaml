@@ -1,0 +1,65 @@
+id: invention/kashi-muqarnas-mensuration
+class: invention
+label: { ar: "قياس الكاشي المعياري لمساحة المقرنص", en: "Al-Kashi's modular muqarnas mensuration", ur: "مقرنس کی سطح کا کاشی کا اکائی وار حساب" }
+names:
+  - { kind: alternate, lang: en, value: "Surface-area computation in the Key to Arithmetic" }
+summary: { ar: "طريقة لحساب سطوح الخلايا والطبقات بوحدة معيارية ومعامل تقريبي،لا اختراع المقرنص نفسه {cite:dold-samplonius-muqarnas-1992 pp209-221}.", en: "Computed cell/tier surface areas through a module and practical average coefficient,not invention of muqarnas itself {cite:dold-samplonius-muqarnas-1992 pp209-221}.", ur: "معیاری اکائی و عملی اوسط ضریب سے خانوں اور تہوں کی سطح کا حساب،خود مقرنس کی ایجاد نہیں {cite:dold-samplonius-muqarnas-1992 pp209-221}۔" }
+domain: mathematics
+kind: method
+disciplines: [mathematics, architecture]
+wings: [ideas, made]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1427"
+    hijri: "0830"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Reported completion year of the Key,not first building use or invention date of muqarnas;day precision not claimed."
+    sources: [source/dold-samplonius-muqarnas-1992, source/kashi-mactutor]
+  status_today: transformed
+origin:
+  place: place/samarqand
+  context: { ar: "كتاب حساب عملي في المحيط العلمي بسمرقند،لا نسبة كل بناء فيها إلى مؤلفه {cite:kashi-mactutor Key}.", en: "Practical arithmetic in Samarkand's scholarly setting,not authorship of every local building {cite:kashi-mactutor Key}.", ur: "سمرقند کے علمی ماحول میں عملی حساب،ہر مقامی عمارت کی تصنیف نہیں {cite:kashi-mactutor Key}۔" }
+makers:
+  - { person: person/al-kashi, role: improver, note: "Systematic mensuration of an older architectural practice;documented individual Muslim basis and separate default Sunni frame retained.", sources: [source/kashi-mactutor, source/dold-samplonius-muqarnas-1992] }
+attribution:
+  status: improvement
+  claim: { ar: "تنظيم حساب مساحة المقرنص بحسب مقياسه وأجزائه.", en: "Organized muqarnas surface mensuration through module and elements.", ur: "اکائی و اجزا کے ذریعے مقرنس کی سطح کا منظم حساب۔" }
+  basis: { ar: "دولد-سامبلونيوس تشرح الحالات الأربع ومعامل البناء المتوسط وتكشف حدوداً وتناقضات {cite:dold-samplonius-muqarnas-1992 pp209-221}.", en: "Dold-Samplonius explains four cases and an average construction coefficient,with inconsistencies/limits visible {cite:dold-samplonius-muqarnas-1992 pp209-221}.", ur: "ڈولڈ سامپلونیوس چار صورتیں و اوسط تعمیراتی ضریب اور اختلافات و حدیں بتاتی ہے {cite:dold-samplonius-muqarnas-1992 pp209-221}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-frame
+      summary: { ar: "هوية المؤلف المسلمة موثقة،والإطار السني المعلن منفصل عن إثبات مذهبه الشخصي؛لا عقيدة مستخرجة من شكل سقف {cite:kashi-mactutor biography}.", en: "Documented Muslim maker;declared Sunni museum frame separate from a personal-school certificate,no belief inferred from a ceiling {cite:kashi-mactutor biography}.", ur: "مسلم مصنف مستند؛اعلانیہ سنی فریم ذاتی مسلک کی سند سے الگ،سقف سے عقیدہ اخذ نہیں {cite:kashi-mactutor biography}۔" }
+      sources: [source/kashi-mactutor, source/tdv-kashi-okten]
+    - tradition: academic
+      id: practical-approximation
+      summary: { ar: "المعامل متوسط عملي،وبعض القيم المعاد حسابها تختلف،ولا تعرف الباحثة اشتقاق كل قيمة؛ليست دقة مطلقة لكل سطح {cite:dold-samplonius-muqarnas-1992 pp211-221}.", en: "Coefficient is a practical average;some recomputations differ and derivations remain unknown,not universal exact curved-surface measurement {cite:dold-samplonius-muqarnas-1992 pp211-221}.", ur: "ضریب عملی اوسط؛دوبارہ حساب مختلف اور بعض اخذ نامعلوم،ہر خمیدہ سطح کی عین پیمائش نہیں {cite:dold-samplonius-muqarnas-1992 pp211-221}۔" }
+      sources: [source/dold-samplonius-muqarnas-1992]
+precursors:
+  - external: { ar: "المقرنص وصنعة البنائين السابقان للكتاب", en: "Muqarnas and masons' pre-existing craft", ur: "کتاب سے پہلے مقرنس و معماروں کی کاریگری" }
+    note: "Existing practice and panel construction described by scholar;not one named invention of all muqarnas."
+    sources: [source/dold-samplonius-muqarnas-1992]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, architecture-building]
+  changed: { ar: "ربط أشكال معمارية مركبة بحساب الأجزاء والتحويل بين الوحدات {cite:dold-samplonius-muqarnas-1992 pp209-220}.", en: "Linked compound architectural forms to element counting and unit conversion {cite:dold-samplonius-muqarnas-1992 pp209-220}.", ur: "مرکب معماری کو اجزا کے شمار و اکائیوں کی تبدیلی سے جوڑا {cite:dold-samplonius-muqarnas-1992 pp209-220}۔" }
+  history: { ar: "شاهد على كتابة معرفة عملية،لا سلسلة مثبتة لكل مبنى لاحق {cite:dold-samplonius-muqarnas-1992 pp193-194}.", en: "A witness to written practical mathematics,not proven ancestry of every later vault {cite:dold-samplonius-muqarnas-1992 pp193-194}.", ur: "عملی ریاضی کی تحریر کا شاہد،ہر بعد کے سقف کا ثابت نسب نہیں {cite:dold-samplonius-muqarnas-1992 pp193-194}۔" }
+  significance: 3
+  why: "Distinct documented architectural mensuration;module squared conversion,projection limits and average coefficient explicit."
+described_in: [work/miftah-al-hisab-kashi]
+examples: []
+sites: []
+concepts: [concept/muqarnas]
+today:
+  form: { ar: "شرح تاريخي للحساب المعياري،لا مخطط بناء آمن.", en: "Historical explanation of modular calculation,not a structural construction plan.", ur: "اکائی وار حساب کی تاریخی وضاحت،ساختی تعمیر کا نقشہ نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لبرامج التصميم الحاسوبي.", en: "No demonstrated direct ancestry of design software.", ur: "ڈیزائن سافٹ ویئر کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/kashi-muqarnas-context, diagram: media/diagram-kashi-muqarnas }
+kids: { ar: "تكبير الطول مرتين يكبر المساحة أربعاً؛صورة السقف ليست مساحته المنبسطة.", en: "Doubling length quadruples area;a ceiling photograph is not its unfolded surface.", ur: "لمبائی دوگنی تو رقبہ چارگنا؛سقف کی تصویر اس کی کھلی سطح نہیں۔" }
+sources: [source/dold-samplonius-muqarnas-1992, source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/commons-qom-muqarnas]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b74", source: "Actual selected Dold193–196,202–205,209–222 and visualfigure8p213;actual MacTutor/TDV/Iranica. Not full Arabic text/translation/manuscript. Independent plane-area/unit examples;modern context photo not proof of method use." }

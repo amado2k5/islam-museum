@@ -1,0 +1,36 @@
+id: place/berkeley
+class: place
+kind: city
+label:
+  ar: بيركيلي
+  en: Berkeley
+  ur: برکلے
+summary:
+  ar: مدينة تُعرف بالإنجليزية باسم Berkeley.
+  en: City in Alameda County, California, United States.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 37.8703
+- -122.2681
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q484678
+  geonames: '5327684'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q484678 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q484678 (labels, coordinates, description)

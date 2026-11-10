@@ -1,0 +1,24 @@
+id: person/ismail-ibn-abi-hakim
+class: person
+label: { ar: "إسماعيل بن أبي حكيم", en: "Isma'il ibn Abi Hakim", ur: "اسماعیل بن ابی حکیم" }
+names:
+  - { kind: full, lang: ar, value: "إسماعيل بن أبي حكيم المدني" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+summary:
+  ar: "إسماعيل بن أبي حكيم، مولى لبني عدي بن نوفل بن أسد بن عبد العزى، وقيل لآل الزبير، سكن المدينة وكان فاضلاً ثقة حجة فيما روى عند جماعة أهل العلم، كما يقول ابن عبد البر؛ توفي بها سنة ثلاثين ومئة، وقيل اثنتين أو ثلاث وثلاثين ومئة، ولمالك عنه في الموطأ أربعة أحاديث، واحد مسند وثلاثة مرسلة {cite:tamhid-furqan-2017-v1 p. 320}."
+  en: "Isma'il b. Abi Hakim, a client of Banu 'Adi b. Nawfal b. Asad b. 'Abd al-'Uzza — or, it is said, of the family of al-Zubayr — lived in Medina and was, in Ibn 'Abd al-Barr's words, an excellent, trustworthy man and an authority in what he transmitted according to the body of scholars; he died there in 130 AH, or 132 or 133 by other reports, and Malik has four of his reports in the Muwatta', one musnad and three mursal {cite:tamhid-furqan-2017-v1 p. 320}."
+  ur: "اسماعیل بن ابی حکیم، بنو عدی بن نوفل بن اسد بن عبد العزیٰ کے مولیٰ — اور کہا گیا کہ آلِ زبیر کے — مدینہ میں رہے، اور ابن عبد البر کے الفاظ میں فاضل، ثقہ اور جماعتِ اہلِ علم کے نزدیک اپنی روایت میں حجت تھے؛ وہیں 130ھ میں، اور دوسری روایات کے مطابق 132 یا 133ھ میں فوت ہوئے؛ موطأ میں امام مالک کی ان سے چار روایات ہیں، ایک مسند اور تین مرسل {cite:tamhid-furqan-2017-v1 p. 320}۔"
+died: { hijri: "0130", edtf: "0747~", calendar: julian, precision: year, status: debated, derived: true, note: "«توفي بها سنة ثلاثين ومئة، وقيل: سنة اثنتين أو ثلاث وثلاثين ومئة» (التمهيد ط. الفرقان ج1 ص 320)؛ التحويل مشتق.", sources: [source/tamhid-furqan-2017-v1] }
+wings: [people]
+themes: [scripture-and-its-sciences, slavery-and-freedom]
+periods: [period/umayyad]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: died_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
+  - { type: teacher_of, target: person/malik-ibn-anas, sources: [source/tamhid-furqan-2017-v1] }
+provenance: { layer: own-research, source: "al-Tamhid, al-Furqan ed. 2017 vol. 1 pp. 320–321 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/tamhid-furqan-2017-v1]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

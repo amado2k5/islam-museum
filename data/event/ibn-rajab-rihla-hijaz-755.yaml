@@ -1,0 +1,28 @@
+id: event/ibn-rajab-rihla-hijaz-755
+class: event
+kind: other
+label:
+  ar: "رحلة ابن رجب مع أبيه إلى الحجاز وبيت المقدس، نحو ٧٥٥هـ"
+  en: "Ibn Rajab's journey with his father to the Hijaz and Jerusalem, c. 755"
+  ur: "ابن رجب کا والد کے ساتھ حجاز اور بیت المقدس کا سفر، تقریباً 755ھ"
+summary:
+  ar: "رحل أبو ابن رجب به في صغره إلى الحجاز وبيت المقدس لأجل سماع الحديث، كما سمع في مصر؛ ويذكر محقق «جامع العلوم والحكم» أنه رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة {cite:encyclopaedia-of-islam-2 vol. 3 p. 933} {cite:ibn-rajab-jami-ulum-hikam p. 9}."
+  en: "Ibn Rajab's father travelled with him in his youth to the Hijaz and Jerusalem for the sake of hearing hadith, and he also heard hadith in Egypt; the editor lists Egypt, Nablus, the Hijaz, Jerusalem, Mecca and Medina among his journeys for knowledge {cite:encyclopaedia-of-islam-2 vol. 3 p. 933} {cite:ibn-rajab-jami-ulum-hikam p. 9}."
+  ur: "ابن رجب کے والد انہیں کمسنی میں حدیث کی سماعت کے لیے حجاز اور بیت المقدس لے گئے، اور انہوں نے مصر میں بھی سماعت کی؛ محقق ان کے اسفار میں مصر، نابلس، حجاز، بیت المقدس، مکہ اور مدینہ گنواتے ہیں {cite:encyclopaedia-of-islam-2 vol. 3 p. 933} {cite:ibn-rajab-jami-ulum-hikam p. 9}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1355~", hijri: "0755~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحلة الصغر بلا تاريخ محفوظ؛ وضعت بعد قدومه دمشق سنة ٧٤٤هـ؛ تاريخ تقريبي." }
+relations:
+  - { type: occurred_at, target: place/jerusalem, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-rajab, role: "الراحل في طلب الحديث", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-rajab, role: "الوالد المرافق", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/ibn-rajab-jami-ulum-hikam]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 p. 933 (Makdisi): 'travelled with him to the Hidjaz and Jerusalem... studied hadith also in Cairo'; Jami' al-Ulum wal-Hikam introduction p. 9"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-rajab-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

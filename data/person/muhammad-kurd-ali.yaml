@@ -1,0 +1,50 @@
+id: person/muhammad-kurd-ali
+class: person
+label: { ar: "محمد كرد علي", en: "Muhammad Kurd Ali", ur: "محمد کرد علی" }
+names:
+  - { value: "محمد بن عبد الرزاق بن محمد كرد علي", kind: full }
+  - { value: "Muhammad Kurd Ali", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ وأديب وصحفي سوري (1876–1953)، مؤسس مجمع اللغة العربية بدمشق وأول رئيس له (1919) حتى وفاته، وأول وزير للمعارف في سورية؛ أصدر مجلة «المقتبس» في القاهرة ودمشق، ومن أشهر كتبه «خطط الشام» و«الإسلام والحضارة العربية» ومذكراته."
+  en: "Syrian historian, man of letters and journalist (1876–1953), founder of the Academy of the Arabic Language in Damascus and its president from 1919 until his death, and Syria's first minister of education; he published the journal al-Muqtabas in Cairo and Damascus, and his works include Khitat al-Sham, al-Islam wa-l-hadara al-arabiyya and his memoirs."
+  ur: "سوری مؤرخ، ادیب اور صحافی (1876–1953)، دمشق میں عربی زبان اکیڈمی کے بانی اور 1919 سے وفات تک اس کے پہلے صدر، اور شام کے پہلے وزیرِ تعلیم؛ انہوں نے قاہرہ و دمشق میں مجلہ «المقتبس» جاری کیا، اور ان کی مشہور کتب میں «خطط الشام»، «الإسلام والحضارة العربية» اور ان کی یادداشتیں شامل ہیں۔"
+roles: [scholar, historian, writer]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1876"
+  hijri: "1293"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born at Damascus in 1876 (all three articles and Wikidata). The Arabic article pairs the year with 1293 AH."
+  sources: [source/wikipedia-muhammad-kurd-ali-en, source/wikipedia-muhammad-kurd-ali-ar, source/wikidata-muhammad-kurd-ali]
+died:
+  edtf: "1953-04-02"
+  hijri: "1372"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Damascus on Thursday 2 April 1953 (English article; Wikidata carries the same day among its values, alongside year-precision ones) and was buried there beside the tomb of Muawiya ibn Abi Sufyan. The Arabic article pairs his life with 1293–1372 AH."
+  sources: [source/wikipedia-muhammad-kurd-ali-en, source/wikipedia-muhammad-kurd-ali-ar, source/wikidata-muhammad-kurd-ali]
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikipedia-muhammad-kurd-ali-en, source/wikipedia-muhammad-kurd-ali-ar] }
+  - { type: died_in, target: place/damascus, sources: [source/wikipedia-muhammad-kurd-ali-en] }
+  - { type: buried_in, target: place/damascus, sources: [source/wikipedia-muhammad-kurd-ali-en] }
+  - { type: student_of, target: person/tahir-al-jazairi, sources: [source/wikipedia-muhammad-kurd-ali-en, source/wikipedia-muhammad-kurd-ali-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or affiliation for him personally. The English article, citing Rainer Brünner, notes that he was known for writing anti-Shia polemics — a stance toward another community, which does not name his own school — and Wikidata carries no religion value; the Arabic and Urdu articles are likewise silent on his affiliation. The value is unknown."
+    sources: [source/wikipedia-muhammad-kurd-ali-en, source/wikipedia-muhammad-kurd-ali-ar, source/wikidata-muhammad-kurd-ali]
+external_ids: { wikidata: "Q3123742" }
+sources: [source/wikipedia-muhammad-kurd-ali-en, source/wikipedia-muhammad-kurd-ali-ar, source/wikipedia-muhammad-kurd-ali-ur, source/wikidata-muhammad-kurd-ali]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q3123742, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-51
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -16,10 +16,11 @@ died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, 
 story_roles:
   - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "حضر حنين في بني جشم مستشاراً حربياً وقُتل بأوطاس.", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: lived_in, target: place/awtas, confidence: low, note: "Associated with Awtas per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-jusham }
   - { type: member_of, target: group/hawazin }
   - { type: participated_in, target: event/battle-of-hunayn, role: military-adviser, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/expedition-to-awtas, role: killed-leader, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80–82, 93–94", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80–82, 93–94", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 80–94" }
+status: { review: published, completeness: 3 }

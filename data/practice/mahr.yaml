@@ -1,0 +1,54 @@
+id: practice/mahr
+class: practice
+kind: rite_of_passage
+label:
+  ar: المهر
+  en: Mahr (bridal gift)
+  ur: مہر
+summary:
+  ar: "المهر في تفسير الشعراوي حقّ للمرأة وأجر البُضع في عقد الزواج؛ ويفسّر النحلة في آية النساء بأنها وازع دين لا حكم قضاء، ويحذّر الولي من أخذ شيء منه بسبب الحياء {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}."
+  en: "Mahr, the bridal gift, is for al-Sha'rawi a right of the wife and the wage for intimacy in marriage. He reads the word nihla in the Qur'anic verse as a matter of religious conscience rather than a judicial ruling, and warns a guardian against taking any of it out of shame {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}."
+  ur: "شعراوی کے نزدیک مہر عورت کا حق اور نکاح میں بُضع کی اجرت ہے۔ وہ آیت میں نِحلہ کے لفظ کو قضا کا حکم نہیں بلکہ دینی ضمیر کی بات قرار دیتے ہیں، اور ولی کو شرم کی وجہ سے اس میں سے کچھ لینے سے خبردار کرتے ہیں {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}۔"
+wings: [living]
+themes: [family-marriage-kinship]
+obligation: obligatory
+scriptural_basis:
+  - passage/quran-4-4
+relations:
+  - type: based_on
+    target: passage/quran-4-4
+    sources: [source/tafsir-sharawi-khawatir-scan-vol-2, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+issue:
+  ar: "هل المهر حق المرأة أم عطية منها، وما حكم تنازلها عنه؟"
+  en: "Is the mahr the wife's right or a gift from her, and what follows if she waives part of it?"
+perspectives:
+  - tradition: sunni
+    id: sunni-sharawi-right-and-wage
+    stance:
+      ar: "المهر حق للمرأة وأجر البُضع، والتنازل عنه بطيب نفس جائز"
+      en: "The mahr is the wife's right and the wage for intimacy; waiving part of it willingly is permitted"
+    holders: [person/muhammad-mutawalli-al-shaarawi]
+    summary:
+      ar: "يقرر الشعراوي أن المهر حق وأجر بُضع يجب للمرأة، وأن النحلة تفيد الوازع الديني، وأن تنازل الزوجة عنه عن طيب نفس يؤصل العلاقة الزوجية، ويجب الحذر من أخذ الولي منه بسبب الحياء {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}."
+      en: "Sha'rawi holds that the mahr is a right and a wage for intimacy owed to the wife, that the word nihla denotes a religious obligation of conscience, and that a wife's willing waiver strengthens the marriage. A guardian must not take any of it out of shame {cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2009}{cite:tafsir-sharawi-khawatir-scan-vol-2 p. 2010}."
+    sources: [source/tafsir-sharawi-khawatir-scan-vol-2]
+  - tradition: academic
+    id: academic
+    stance:
+      ar: "أحكام المهر في الفقه المقارن لم تُعرض بعد"
+      en: "The comparative fiqh rulings on the mahr are not yet set out"
+    summary:
+      ar: "لم يُعرض في هذا الجزء رأي فقهي مقارن في المهر؛ يحتاج إلى مرجع محدد (needs_source)."
+      en: "This part of the book does not set out comparative fiqh rulings on the mahr; a named source is needed (needs_source)."
+    sources: []
+sources: [source/tafsir-sharawi-khawatir-scan-vol-2]
+provenance:
+  layer: own-research
+  source: "تفسير الشعراوي، مسح ضوئي، الصفحات 2009-2011 (أرقام صفحات المسح)"
+  generated_by: "Claude (Haiku 5.5)"
+  model: "claude-haiku-5-5"
+  run: tafsir-sharawi-2001-2500
+status:
+  review: draft
+  completeness: 3
+  generated_by: "Claude (Haiku 5.5); edition unverified; the honey anecdote has no isnad in this text (needs_source)"

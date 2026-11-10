@@ -1,0 +1,36 @@
+id: place/bal-kesir
+class: place
+kind: city
+label:
+  ar: بالي قصر
+  en: Balıkesir
+  ur: بالیکسیر
+summary:
+  ar: مدينة في تركيا.
+  en: City in Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 39.6511
+- 27.8842
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q199723
+  geonames: '322165'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q199723 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q199723 (labels, coordinates, description)

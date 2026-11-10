@@ -1,0 +1,20 @@
+id: person/salmawayh-ibn-bunan
+class: person
+label: { ar: "سلمويه بن بنان", en: "Salmawayh Ibn Bunan" }
+summary:
+  ar: "سلمويه بن بنان وكان فاضلا متقدما وخدم المعتصم وخص به حتى إن المعتصم قال لممات سلمويه سألحق به لأنه كان يمسك حياتي ويدبر جسدي {cite:fihrist-ibn-al-nadim p. 412-413}."
+  en: "Salmawayh ibn Bunan — the physician al-Mu'tasim said held his life in hand {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "840", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+relations:
+  - { type: lived_in, target: place/samarra, sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch21

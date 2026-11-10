@@ -1,0 +1,29 @@
+id: person/ibrahim-al-madani
+class: person
+label: { ar: "إبراهيم بن عادل المدني", en: "Ibrahim ibn Adil al-Madani", ur: "ابراہیم بن عادل المدنی" }
+names:
+  - { value: "إبراهيم بن عادل بن حمزة المدني", kind: full }
+  - { value: "Ibrahim al-Madani", kind: alternate }
+gender: male
+summary:
+  ar: "مؤذن ومدرّس سعودي (1974–2026) من المدينة المنورة، حمل إجازة جامعية في الدراسات القرآنية، وعُيّن مؤذنًا في المسجد الحرام في مايو 2018 فاشتهر بأذان الفجر والتكبيرات والتبليغ، وتوفي في 21 سبتمبر 2026 ودُفن في المعلاة."
+  en: "Saudi muezzin and teacher (1974–2026) from Medina with a university degree in Qur'anic studies, appointed a muezzin of the Masjid al-Haram in May 2018 and known for the dawn adhan, the takbirat and relaying the imam's calls; he died on 21 September 2026 and was buried at al-Ma'la."
+  ur: "مدینہ کے سعودی مؤذن اور استاد ⁦(1974ء–2026ء)⁩، علومِ قرآن میں یونیورسٹی کی سند رکھتے تھے، مئی 2018ء میں مسجد حرام کے مؤذن مقرر ہوئے اور فجر کی اذان، تکبیرات اور تبلیغ کے لیے معروف ہوئے؛ 21 ستمبر 2026ء کو فوت ہوئے اور جنت المعلیٰ میں دفن ہوئے۔"
+wings: [people]
+regions: [arabia]
+roles: [muezzin, teacher]
+born: { edtf: "1974", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in Medina (Arabic article; its categories give 1393 AH).", sources: [source/wikipedia-ibrahim-al-madani-ar] }
+died: { edtf: "2026-09-21", hijri: "1448-04-10", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died before dawn on Monday 10 Rabi' II 1448 / 21 September 2026, aged about 51; prayed over after the afternoon prayer at the Masjid al-Haram and buried at al-Ma'la cemetery (Arabic article, citing Anadolu, Al Arabiya and Tehama Press).", sources: [source/wikipedia-ibrahim-al-madani-ar] }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikipedia-ibrahim-al-madani-ar] }
+  - { type: buried_in, target: place/mecca, note: "al-Ma'la cemetery", sources: [source/wikipedia-ibrahim-al-madani-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article files him among Saudi Muslims and names no school. Not recorded."
+    sources: [source/wikipedia-ibrahim-al-madani-ar]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikipedia-ibrahim-al-madani-ar] }
+sources: [source/wikipedia-ibrahim-al-madani-ar, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar]
+provenance: { layer: own-research, source: "Arabic Wikipedia «إبراهيم بن عادل المدني» (revision 77015647, 19 October 2026) and the Arabic list of the Haramain muezzins (revision 76685271), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b03 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

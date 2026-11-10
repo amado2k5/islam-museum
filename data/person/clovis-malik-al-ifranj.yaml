@@ -1,0 +1,24 @@
+id: person/clovis-malik-al-ifranj
+class: person
+label: { ar: "قلودية ملك الإفرنجة", en: "Qaludiya king of the Franks" }
+summary:
+  ar: "أول ملوك الإفرنجة في القائمة التي أرسلها عرماز أسقف جربدة إلى الحكم بن عبد الرحمن سنة ثمان وعشرين وثلاثمائة؛ كان مجوسياً فنصرته امرأته غرطلة، ثم ملك بعده ابنه لذريق ثم دقشرت {cite:muruj-al-dhahab p. 358}."
+  en: "First king in the Frankish regnal list Bishop Urmazd sent al-Hakam in 328 — 'a Magian whose wife Ghartala converted him to Christianity', succeeded by his son Ludhriq, then Daqashrat {cite:muruj-al-dhahab p. 358}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [andalus-europe]
+born: { edtf: "466", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Gregory of Tours" }
+died: { edtf: "511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Gregory of Tours" }
+relations:
+  - { type: lived_in, target: place/jarbida, confidence: low, note: "Associated with جربدة per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

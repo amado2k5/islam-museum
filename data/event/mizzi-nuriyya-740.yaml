@@ -1,0 +1,27 @@
+id: event/mizzi-nuriyya-740
+class: event
+kind: other
+label:
+  ar: "المزي يتولى مشيخة النورية بعد ابن أبي الفتح، أوائل ٧٤٠هـ"
+  en: "Al-Mizzi takes the Nuriyya shaykhhood after Ibn Abi al-Fath, early 740/1339"
+  ur: "ابن ابی الفتح کے بعد مزی کا مشیختِ نوریہ سنبھالنا، 740ھ/1339ء کے اوائل میں"
+summary:
+  ar: "توفي الشيخ ابن أبي الفتح بكرة يوم الأحد الرابع من ذي الحجة سنة تسع وثلاثين وسبعمائة عن أربع وسبعين سنة ونصف، «وولي بعده مشيخة النورية شيخنا المزي، ومشيخة القوصية ابن رافع، ومشيخة النفيسية العبد» {cite:tarikh-islam-dhahabi p. 459}."
+  en: "The shaykh Ibn Abi al-Fath died on the morning of Sunday 4 Dhu al-Hijja 739 at the age of seventy-four and a half, and 'after him our shaykh al-Mizzi took the shaykhhood of the Nuriyya, Ibn Raf'a that of the Qawsiyya, and al-Abd that of the Nafisiyya' {cite:tarikh-islam-dhahabi p. 459}."
+  ur: "شیخ ابن ابی الفتح اتوار 4 ذی الحجہ 739ھ کی صبح چوہتر برس کی عمر میں فوت ہوئے، اور «ان کے بعد ہمارے شیخ مزی نے مشیختِ نوریہ، ابن رافع نے قوصیہ اور عبد نے نفیسیہ کی مشیخت سنبھالی» {cite:tarikh-islam-dhahabi p. 459}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1339-07~", hijri: "0740-01~", calendar: julian, precision: month, status: tradition, derived: true, note: "وُلي بعد وفاة ابن أبي الفتح في ٤ ذي الحجة ٧٣٩هـ {cite:tarikh-islam-dhahabi p. 459}؛ عُلّق على أوائل ٧٤٠هـ تقديراً، والتحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "شيخ النورية الجديد", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 739-742 section, printed p. 459 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

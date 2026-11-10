@@ -1,0 +1,34 @@
+---
+id: person/umm-musa
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+This entry sets out the story of Umm Musa as Sheikh Omar Abdelkafy tells it in the series "Al Fawzu Al Moubeen": her command to cast her infant, God's reassurance to her, what was revealed to her, and a question on whether her heart was sound from the start. {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:03:30}
+
+## The story in the lesson
+The Sheikh says that Umm Musa was commanded to cast her infant away, and that God reassured her that she should neither fear nor grieve; he promises to present the stories and draw lessons from them. [[passage/quran-28-7|The verse on Umm Musa's command to cast the infant]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:03:30}
+
+## What was revealed to her
+The Sheikh says that the revelation to Umm Musa included nursing the infant and then casting him into the water without fear or grief. He says that her heart was emptied of everything except fear for the child, and then God steadied her heart. [[passage/quran-28-7|The verse on the revelation to Umm Musa]] [[passage/quran-28-10|The verse on God steadying her heart]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:29:00}
+
+## The infant in an empty place
+The Sheikh retells the story: the infant was in a lonely place with no one near, and God cast love for him upon him so that he would be kept under God's watch (needs_source: the last part of this sentence is garbled in the recording). [[passage/quran-20-39|The verse on the love God cast upon Musa]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:31:00}
+
+## Was her heart sound from the start?
+Asked this question, the Sheikh answers that the heart is called qalb because it turns about, and that Umm Musa was strengthened by God's command from the beginning: she was first commanded to nurse, then to cast, then to neither fear nor grieve. He affirms that the promise that the child would be returned to her is true. [[passage/quran-28-7|The verse on Umm Musa's command and the promise of return]] {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep09 00:32:00}
+
+Her story in these lessons is tied to that of her son [[person/musa|Musa]], and it is told within his story.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh holds that the garment of hardship is cut to the measure of its wearer, as a tailor cuts clothes to his clients' sizes, and gives the example of Musa's mother: Pharaoh decreed the killing of every male born to the Children of Israel and set spies on pregnant women; then Israelite notables agreed with him that he would kill the newborns of one year and spare the next, so Harun was born in the year of safety and Musa in the year of killing. {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:00} He marvels at God's command to her: if she feared for him, to cast him into the river rather than hold and hide him, together with the prohibition of fear and grief, and holds that all psychological illnesses come from these two, fear and grief. {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:05:30}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh dwells on the description of Musa's mother's heart as having become empty, explaining that it was empty of everything but Musa, and likens it to a mother whose small child slips from her hand in a crowded market, who thinks of no adornment, no dress and no quarrel with her husband; he holds that she nearly said 'this is my baby' had God not strengthened her heart, and that the hearts of true believers are empty of everything but love of God, fear of Him and hope in Him. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00}
+
+## From Omar Abdelkafy's programme Al-Munjiyat (episode 15)
+The Sheikh closes with her story in the theme of tranquillity: God revealed to her to suckle him then cast him into the river if she feared for him, and the chest reached Pharaoh's palace; he sees in her tranquillity the first degree. {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:21:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:21:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:22:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep15 00:22:30}
+
+## From Omar Abdelkafy's series "Qissa wa Ibra"
+In episode ten he retells her story from the angle of trial: God revealed to her to nurse Moses then cast him into the river if she feared for him, and the chest reached Pharaoh's palace, which had ordered the killing of the Israelite newborns, yet Moses was raised in his own lap. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:06:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:07:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:11:00} He says a human mother melts if she sees a fly on her child's face — how then a mother commanded to cast her infant — and that it was God's bonding on her heart that made her a believer; at calamities there are two kinds: those with a store of faith from which they draw, and those with none who collapse. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:07:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:07:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:08:30} He illustrates the tug between divine law and human nature in Ramadan: the law says rise and pray at night while nature sleeps, the law says give charity while nature makes excuses. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:09:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:09:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:10:00} And he says the infant went to the enemy of Moses who was God's first scourge, yet Asia loved him after God's favour — in Ibn al-Qayyim's words a child born without a mother — while Pharaoh's calamity bore the grant for Moses. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:10:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep10 00:11:00}

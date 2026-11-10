@@ -1,0 +1,38 @@
+id: person/ali-ibn-muhammad-al-tanukhi
+class: person
+label: { ar: "علي بن محمد التنوخي", en: "Ali ibn Muhammad al-Tanukhi" }
+names:
+  - { kind: full, lang: ar, value: "علي بن محمد بن أبي الفهم أبو القاسم التنوخي" }
+gender: male
+roles: [jurist, writer]
+traditions: [sunni]
+born: { edtf: "0891", hijri: "0278", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0953", hijri: "0342", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من تنوخ، وهو والد أبي علي المحسن بن علي التنوخي، واسم أبيه داود بن إبراهيم بن تميم. وعند المسعودي أنه أبو القاسم علي بن محمد بن داود بن فهم التنوخي الأنطاكي وكان سنة اثنتين وثلاثين وثلاثمائة بالبصرة في جملة البريديين، وعارض ابن دريد في قصيدته المقصورة {cite:muruj-al-dhahab p. 674}"
+  en: "From the Tanukh tribe and father of Abu Ali al-Muhassin al-Tanukhi. His father's name was Dawud ibn Ibrahim ibn Tamim."
+wings: [people]
+themes: [development-of-law-theology-institutions, literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/basra, note: "At Basra in 332 among the Buraydiyya per al-Masudi.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: lived_in, target: place/antioch, note: "Al-Antaki per al-Masudi; flagged for review.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص661"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab]

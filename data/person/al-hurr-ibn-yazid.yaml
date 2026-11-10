@@ -1,0 +1,23 @@
+id: person/al-hurr-ibn-yazid
+class: person
+label: { ar: "الحر بن يزيد التميمي", en: "al-Hurr ibn Yazid al-Tamimi" }
+summary:
+  ar: "ورد في خبر كربلاء سنة 61هـ: صلى الحسين بالحر وأصحابه، ثم انصرف الحر إلى مكانه {cite:tabari-tarikh-abu-al-fadl j.5 p.402}."
+  en: "Mentioned in the account of Karbala, year 61 AH: Husayn led al-Hurr and his companions in prayer, then al-Hurr went back to his place {cite:tabari-tarikh-abu-al-fadl j.5 p.402}."
+wings: [people]
+gender: male
+external_ids: { wikidata: "Q3502947" }
+sources: [source/tabari-tarikh-abu-al-fadl, source/bakr-umayyad-state-1134715]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh 5/429; martyred Karbala 61 AH)" }
+relations:
+  - { type: lived_in, target: place/karbala, note: "From text: of Karbala", sources: [source/tabari-tarikh-abu-al-fadl, source/bakr-umayyad-state-1134715], confidence: low }

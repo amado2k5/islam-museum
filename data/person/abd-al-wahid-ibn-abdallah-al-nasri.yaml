@@ -1,0 +1,28 @@
+id: person/abd-al-wahid-ibn-abdallah-al-nasri
+class: person
+label:
+  ar: "عبد الواحد بن عبد الله النصري"
+  en: "Abd al-Wahid ibn Abdallah al-Nasri"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الواحد بن عبد الله النصري، والي المدينة المنورة في العهد الأموي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Wahid ibn Abdallah al-Nasri, the Umayyad governor of Medina; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22688778
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari (governor under Yazid II" }
+relations:
+  - { type: ruler_of, target: place/medina, note: "From text: governor of Medina", sources: [source/al-aalam] }

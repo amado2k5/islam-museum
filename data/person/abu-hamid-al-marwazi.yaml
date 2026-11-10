@@ -1,0 +1,34 @@
+id: person/abu-hamid-al-marwazi
+class: person
+label:
+  ar: "أبو حامد المروزي"
+  en: "Abu Hamid al-Marwazi"
+roles: [scholar, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي حامد المروزي، فقيه وقاضٍ القرن العاشر، توفي سنة ٩٧٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Hamid al-Marwazi, the tenth-century jurist and qadi, d. 973; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12192865
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0058
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "973", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Dhahabi, Siyar" }
+relations:
+  - { type: lived_in, target: place/merv, note: "Place association from the person's nisba/name (المروزي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

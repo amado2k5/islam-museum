@@ -1,0 +1,21 @@
+id: place/dibbiyeh
+class: place
+kind: town
+label: { ar: "الدبية", en: "Dibbiyeh", ur: "الدبیہ" }
+summary:
+  ar: "بلدة في لبنان."
+  en: "Town in Lebanon."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [33.665852777778, 35.487855555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3026486" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3026486 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

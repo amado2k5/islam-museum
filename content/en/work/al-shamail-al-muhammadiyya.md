@@ -1,0 +1,23 @@
+---
+id: work/al-shamail-al-muhammadiyya
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/shamail-kushak-2012 pp. 2, 6–12, 21, 24–25; source/shamail-bajuri-awwama-2001 pp. 5, 15, 80, 105, 134, 232, 646, 671, 680, 697–700" }
+---
+## Summary
+*Al-Shama'il al-Muhammadiyya* is the book of Imam [[person/al-tirmidhi-muhammad-ibn-isa|Abu Isa Muhammad ibn Isa ibn Sawra al-Tirmidhi]] (209–279 AH) on the Prophet's physical appearance and character and on his conduct in worship, daily life and dealings with others. {cite:shamail-kushak-2012 p.4} {cite:shamail-kushak-2012 p.6} Abd al-Qadir al-Arna'ut, in his foreword, calls it one of the finest books written on the Prophet's qualities. {cite:shamail-kushak-2012 p.6}
+
+## Contents and arrangement
+Its editor Abduh Kushak says the book holds over four hundred hadiths distributed over fifty-six chapters, each with a heading under which one or more hadiths are given. {cite:shamail-kushak-2012 p.9} Al-Tirmidhi opens with hadiths describing the Prophet's physical form, then his outward appearance — dye, kohl, dress, sandals, ring, sword, turban — then his daily life — way of living, food and drink — then his social conduct, such as his use of perfume, speech, laughter, joking and kind companionship. {cite:shamail-kushak-2012 p.9} He then gives reports on his sleep, worship, recitation, weeping, bedding, humility, character, modesty and cupping, then his names, age, death, estate and being seen in dreams, and closes with a saying of [[person/muhammad-ibn-sirin|Muhammad ibn Sirin]] warning against transmitting from liars. {cite:shamail-kushak-2012 p.10}
+
+In Awwama's edition the chapters begin with the Prophet's physical form (p. 15), the seal of prophethood (p. 80) and his hair (p. 105), and end with his death (p. 646), his estate (p. 671) and seeing him in dreams (p. 680). {cite:shamail-bajuri-awwama-2001 p.15} {cite:shamail-bajuri-awwama-2001 p.80} {cite:shamail-bajuri-awwama-2001 p.105} {cite:shamail-bajuri-awwama-2001 p.646} {cite:shamail-bajuri-awwama-2001 p.671} {cite:shamail-bajuri-awwama-2001 p.680} {cite:shamail-bajuri-awwama-2001 p.697}
+
+## Standing
+Kushak notes that al-Tirmidhi was the first to gather the shama'il into a separate book, when they had been scattered through the Sahihs, Sunans and Musnads. {cite:shamail-kushak-2012 p.10} He quotes scholars' praise: Ibn Kathir in *Shama'il al-Rasul*, who counted it among the best compilations; Mulla Ali al-Qari in [[work/jam-wasail-shamail|Jam' al-Wasa'il]], who said its reader "is as if he were looking upon that noble presence"; al-Munawi, who called it "unique in its field, singular in its arrangement and coverage"; and Muhammad ibn Qasim Jassus. {cite:shamail-kushak-2012 p.10} {cite:shamail-kushak-2012 p.11} Al-Kattani listed it among al-Tirmidhi's works as "a precious, well-known, famous book". {cite:shamail-kushak-2012 p.12}
+
+## Commentaries, abridgements and translations
+Kushak says he collected seventy-two commentaries on the Shama'il, arranged alphabetically, among them Ibn Hajar al-Haytami's [[work/ashraf-al-wasail-ila-fahm-al-shamail|Ashraf al-Wasa'il ila Fahm al-Shama'il]], Ali al-Qari's Jam' al-Wasa'il and al-Bajuri's [[work/al-mawahib-al-laduniyya-ala-al-shamail|al-Mawahib al-Laduniyya]]. {cite:shamail-kushak-2012 p.12} {cite:shamail-kushak-2012 p.13} {cite:shamail-kushak-2012 p.21} Al-Arna'ut adds that the editor also gathered fifteen abridgements and that the book has been translated into Turkish, Urdu, Persian, French and English. {cite:shamail-kushak-2012 p.7} Among the translations Kushak names are Aqwam al-Wasa'il in Turkish by Ishaq Khwaja, Anwar-i Muhammadi in Urdu by Karamat Ali Jaunpuri, a French translation by Marwan Gerdali and an English one by Hidayat Husain. {cite:shamail-kushak-2012 p.25} Some scholars wrote separately on the narrators of the Shama'il, such as Ibrahim al-Laqani (d. 1041 AH) and Ibn Allan al-Siddiqi (d. 1057 AH). {cite:shamail-kushak-2012 p.24}
+
+## Manuscripts and editions
+Kushak says he counted twenty-three manuscripts of the book in the Asad Library in Damascus alone, and based his edition on four. {cite:shamail-kushak-2012 p.25} The copy used here carries a note that the editor later corrected the order of some chapters, such as the chapter on the Prophet's way of life, from a manuscript of the Umariyya school. {cite:shamail-kushak-2012 p.2} Awwama's edition prints the text with al-Bajuri's commentary. {cite:shamail-bajuri-awwama-2001 p.5}

@@ -1,0 +1,35 @@
+id: person/qutb-al-din-al-safawi
+class: person
+label:
+  ar: "قطب الدين الصفوي"
+  en: "Qutb al-Din al-Safawi"
+roles: [sufi, jurist, mufassir]
+gender: male
+summary:
+  ar: "بطاقة أولية لقطب الدين الصفوي، الفقيه والصوفي والمفسر الهندي الفارسي، توفي سنة ١٥٤٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Qutb al-Din al-Safawi, the Indian-Persian jurist, Sufi and exegete, d. 1546; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1353~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+relations:
+  - { type: born_in, target: place/gujarat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1061)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57477040
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0085
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

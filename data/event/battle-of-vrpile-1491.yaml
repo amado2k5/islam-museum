@@ -1,0 +1,23 @@
+id: event/battle-of-vrpile-1491
+class: event
+kind: battle
+label: { ar: "معركة فربيل", en: "Battle of Vrpile" }
+summary:
+  ar: "بطاقة أولية لمعركة فربيل سنة ١٤٩١م، كمين الكروات لقوة غزو عثمانية عائدة من كرين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Vrpile in 1491, the Croat ambush of an Ottoman raiding force; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1491", precision: year, status: tradition, derived: true }
+  end: { edtf: "1491", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12627978
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

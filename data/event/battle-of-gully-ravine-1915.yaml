@@ -1,0 +1,23 @@
+id: event/battle-of-gully-ravine-1915
+class: event
+kind: battle
+label: { ar: "معركة وادي الوعر", en: "Battle of Gully Ravine" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي الوعر سنة ١٩١٥م، اشتباك الحلفاء والعثمانيين في جاليبولي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Gully Ravine in 1915, the Allied-Ottoman clash at Gallipoli; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915-06-28", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915-07-05", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q516842
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

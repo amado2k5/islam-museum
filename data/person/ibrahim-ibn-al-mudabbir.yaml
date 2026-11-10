@@ -1,0 +1,21 @@
+id: person/ibrahim-ibn-al-mudabbir
+class: person
+label: { ar: "إبراهيم بن المدبر", en: "Ibrahim ibn al-Mudabbir" }
+summary:
+  ar: "رجل من أهل العلم والأدب والمعرفة كان يسيء الرأي في أبي تمام ويحلف أنه لا يحسن شيئاً قط، فلما قرئت عليه أبياته غير منسوبة أعجبته فلما عرف قائلها سبه ولعنه، وقال له أبو عمرو الطوسي خرق خرق لما اغتذى له بأرجوزته {cite:muruj-al-dhahab p. 461-463}."
+  en: "The scholar whose blind hatred of Abu Tammam was exposed when he praised the same verses unattributed {cite:muruj-al-dhahab p. 461-463}."
+gender: male
+wings: [people]
+died: { edtf: "892", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 461–463"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

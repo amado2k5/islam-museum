@@ -1,0 +1,23 @@
+id: event/shah-ismail-qumm-shrine-914
+class: event
+kind: founding
+label: { ar: "الصفويون يجملون مرقد المعصومة", en: "The Safavids beautify the Ma'suma shrine" }
+summary:
+  ar: "جعلت الدولة الصفوية مرقد المعصومة بقم من أعظم المزارات في عهدها نحو سنة 914هـ/1508م وأعادت عمارة الحرم {cite:tarikh-islam-hasan-ibrahim}."
+  en: "The Safavid state made the Ma'suma shrine at Qumm one of the great sanctuaries of its realm about 914/1508, rebuilding the haram {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "صفوی ریاست نے 914ھ/1508ء میں قم کے مرقد معصومہ کو اپنے دور کے عظیم مزارات میں شمار کیا اور حرم کی تعمیر نو کی {cite:tarikh-islam-hasan-ibrahim}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1508~", hijri: "0914", precision: year, status: tradition, derived: true }
+  end: { edtf: "1508~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/qumm, sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Qumm story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-qumm
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-baku-1918
+class: event
+kind: battle
+label: { ar: "معركة باكو", en: "Battle of Baku" }
+summary:
+  ar: "بطاقة أولية لمعركة باكو سنة ١٩١٨م، استيلاء القوات العثمانية الأذربيجانية على المدينة من قوات البلاشفة والداشناق؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Baku in 1918, the Ottoman-Azerbaijani capture of the city from Bolshevik-Dashnak forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2568851
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Caucasus histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

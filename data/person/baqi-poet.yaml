@@ -1,0 +1,39 @@
+id: person/baqi-poet
+class: person
+label:
+  ar: "باقي"
+  en: "Baki"
+names:
+  - { kind: full, lang: ar, value: "محمود عبد الباقي" }
+roles: [poet, jurist]
+gender: male
+summary:
+  ar: "بطاقة أولية لباقي، شاعر السلاطين الأعظم وملك الشعراء في عهد سليمان القانوني، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Baki, Sultan of Poets in the reign of Suleiman the Magnificent, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1526", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Baki)" }
+died: { edtf: "1600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Baki)" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/edirnekap-martyr-s-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q852738
+provenance:
+  layer: own-research
+  source: "Wikidata Q852738 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0010
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

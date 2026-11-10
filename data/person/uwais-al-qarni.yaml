@@ -1,0 +1,30 @@
+id: person/uwais-al-qarni
+class: person
+label:
+  ar: "أويس القرني"
+  en: "Uwais al-Qarni"
+names:
+  - { kind: full, lang: ar, value: "أويس بن عامر القرني المرادي" }
+roles: [tabii, ascetic]
+gender: male
+summary:
+  ar: "أويس بن عامر القرني، ناسك يمني من سادات التابعين أدرك عصر النبي ولم يره، قُتل بصفين غالباً سنة 37هـ ⁦(657م)⁩."
+  en: "Uways al-Qarni (d. 37/657), Yemeni ascetic among the chief Tabi'in, killed most likely at Siffin."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/isaba-matba-al-saada-1328, source/zuhd-ibn-mubarak-azami-scan]
+external_ids:
+  wikidata: Q1393228
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.32)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/isaba-matba-al-saada-1328, source/zuhd-ibn-mubarak-azami-scan] }

@@ -1,0 +1,24 @@
+id: person/bishr-ibn-ghiyath-al-marisi
+class: person
+label: { ar: "بشر بن غياث المريسي", en: "Bishr al-Marisi" }
+summary:
+  ar: "بشر بن غياث المريسي المتكلم، مات سنة تسع عشرة ومائتين {cite:muruj-al-dhahab p. 442}."
+  en: "The mutakallim Bishr al-Marisi — dead in 219 {cite:muruj-al-dhahab p. 442}."
+gender: male
+wings: [people]
+born: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+external_ids: { wikidata: "Q12198431" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

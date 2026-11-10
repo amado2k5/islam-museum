@@ -1,0 +1,31 @@
+id: person/sayyid-ahmad-al-alavi
+class: person
+label:
+  ar: "أحمد بن زين العابدين العلوي"
+  en: "Sayyid Ahmad al-Alavi"
+roles: [scholar]
+gender: male
+themes: [philosophy-and-logic]
+summary:
+  ar: "بطاقة أولية لأحمد بن زين العابدين العلوي العاملي، فيلسوف صفوي القرن السابع عشر، توفي سنة ١٦٥٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sayyid Ahmad ibn Zayn al-Abidin al-Alavi al-Amili, the seventeenth-century Safavid philosopher, d. 1650; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1650", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+relations:
+  - { type: born_in, target: place/jabal-amel, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1550572)" }
+  - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
+  - { type: buried_in, target: place/takht-e-fulad, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5961894)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22908529
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0049
+status:
+  review: draft
+  completeness: 1

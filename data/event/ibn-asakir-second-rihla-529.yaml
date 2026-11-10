@@ -1,0 +1,33 @@
+id: event/ibn-asakir-second-rihla-529
+class: event
+kind: other
+label:
+  ar: "الرحلة الكبرى الثانية لابن عساكر إلى المشرق، ٥٢٩-٥٣٣هـ/١١٣٥-١١٣٩م"
+  en: "Ibn 'Asakir's second great journey east, 529-533/1135-1139"
+  ur: "ابن عساکر کا مشرق کی طرف دوسرا بڑا سفر، 529-533ھ/1135-1139ء"
+summary:
+  ar: "رحل ابن عساكر سنة تسع وعشرين على أذربيجان إلى جرجان وجال في بلادها ودخل أصبهان وبقي في هذه الرحلة نحو أربع سنين، فسمع أبا عبد الله الفراوي وعبد المنعم بن القشيري وخلقاً {cite:tarikh-islam-dhahabi p. 71}؛ وقطع خراسان وزار أصبهان وسافر في ما وراء النهر وأقام بمرو حيث لقي أبا سعد السمعاني وصحبه إلى نيسابور وهراة، وقد دخل نيسابور قبل السمعاني بنحو شهر في سنة تسع وعشرين واتفق خروجه سنة ثلاث وثلاثين {cite:tarikh-islam-dhahabi p. 76}."
+  en: "In 529 Ibn 'Asakir set out east by way of Azerbaijan to Jurjan, travelled its lands and entered Isfahan, staying on this journey about four years, hearing Abu 'Abdallah al-Furawi, 'Abd al-Mun'im ibn al-Qushayri and many more {cite:tarikh-islam-dhahabi p. 71}. He crossed Khurasan, visited Isfahan, travelled in Transoxiana and stayed at Marw, where he met Abu Sa'd al-Sam'ani and went with him to Nishapur and Herat; he had entered Nishapur about a month before al-Sam'ani in 529 and agreed to leave in 533 {cite:tarikh-islam-dhahabi p. 76}."
+  ur: "529ھ میں ابن عساکر آذربائیجان سے جرجان کی طرف روانہ ہوئے، وہاں کے علاقے پھرے اور اصفہان داخل ہوئے — اس سفر میں تقریباً چار برس لگے — اور ابوعبداللہ فراوی، عبدالمنعم بن قشیری اور بہتوں سے سماعت کی {cite:tarikh-islam-dhahabi p. 71}؛ خراسان سے ہو کر اصفہان آئے، ماوراء النہر میں سفر کیا اور مرو میں قیام کیا جہاں ابو سعد سمعانی سے ملے اور ان کے ساتھ نیشاپور و ہرات گئے؛ وہ 529ھ میں سمعانی سے تقریباً ایک مہینہ پہلے نیشاپور داخل ہوئے اور 533ھ میں روانگی طے پائی {cite:tarikh-islam-dhahabi p. 76}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1135", hijri: "0529", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل سنة تسع وعشرين... وبقي في هذه الرحلة نحو أربع سنين {cite:tarikh-islam-dhahabi p. 71}؛ In 529/1134 he returned to the East {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+  end: { edtf: "1139", hijri: "0533", calendar: julian, precision: year, status: tradition, derived: true, note: "اتفق خروجه في سنة ثلاث وثلاثين {cite:tarikh-islam-dhahabi p. 76}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/jurjan, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/merv, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/herat, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "الطالب الرحّالة", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-samani, role: "الرفيق في نيسابور", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed pp. 71, 76 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

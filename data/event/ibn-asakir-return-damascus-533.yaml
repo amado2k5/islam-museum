@@ -1,0 +1,29 @@
+id: event/ibn-asakir-return-damascus-533
+class: event
+kind: other
+label:
+  ar: "عودة ابن عساكر إلى دمشق وبدؤه الإملاء والتحديث، ٥٣٣-٥٣٥هـ/١١٣٩-١١٤١م"
+  en: "Ibn 'Asakir returns to Damascus and begins public dictation, 533-535/1139-1141"
+  ur: "ابن عساکر کی دمشق واپسی اور املا و تدریس کا آغاز، 533-535ھ/1139-1141ء"
+summary:
+  ar: "مر ابن عساكر ببغداد سنة ثلاث وثلاثين وعاد إلى دمشق بعد سنتين؛ وقد قال بنفسه إنه لما عزم على التحديث استأذن أعيان شيوخه ورؤساء البلد فقال كلهم «ومن أحق بهذا منك» فشرع في ذلك في سنة ثلاث وثلاثين {cite:tarikh-islam-dhahabi p. 79}، ومنذ دولة معين الدين أنر لم يفارق مدينته فتفرغ أربعين سنة للعلم {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "Ibn 'Asakir passed through Baghdad in 533/1139 and reached Damascus two years later {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}. Of his resolve to teach hadith he said: he sought the permission of his senior shaykhs and the notables of the town, and every one answered 'who has a better right to this than you?' — so he began dictating in 533 {cite:tarikh-islam-dhahabi p. 79}. From the days of Mu'in al-Din Anar onward he never again left his native city, devoting forty years to learning {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "ابن عساکر 533ھ/1139ء میں بغداد سے گزرے اور دو برس بعد دمشق پہنچے {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ تدریسِ حدیث کے آزم کے بارے میں فرماتے ہیں کہ بڑے شیوخ اور شہری سرداروں سے اجازت مانی تو سب نے کہا 'تم سے بڑھ کر اہل کون؟' — چنانچہ 533ھ میں املا شروع کیا {cite:tarikh-islam-dhahabi p. 79}؛ معین الدین انر کے زمانے سے وہ پھر کبھی اپنے شہر سے نہ نکلے اور چالیس برس علم کو وقف رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1139", hijri: "0533", calendar: julian, precision: year, status: tradition, derived: true, note: "فشرعت في ذلك في سنة ثلاث وثلاثين {cite:tarikh-islam-dhahabi p. 79}؛ passed Baghdad 533/1139 {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+  end: { edtf: "1141", hijri: "0535", calendar: julian, precision: year, status: tradition, derived: true, note: "returned to Damascus two years later {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "المحدّث المجيز", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed p. 79 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

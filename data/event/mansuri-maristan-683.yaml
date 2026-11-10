@@ -1,0 +1,28 @@
+id: event/mansuri-maristan-683
+class: event
+kind: founding
+label:
+  ar: "استكمال المارستان المنصوري بالقاهرة، ٦٨٣هـ"
+  en: "Completion of the Mansuri maristan in Cairo, 683/1284"
+  ur: "قاہرہ میں مارستانِ منصوری کا تکمّل، 683ھ/1284ء"
+summary:
+  ar: "أُتمّ بالقاهرة بناء المارستان المنصوري الذي وقفه السلطان الملك المنصور قلاوون سنة ٦٨٣هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ وكان ابن النفيس قد انتهت إليه رياسة الطب بالديار المصرية، فلما توفي بعد ذلك بأربع سنين وقف داره وأملاكه وكتبه على هذا المارستان {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:shadharat-dhahab p. 402}."
+  en: "In 683/1284 the Mansuri hospital endowed by sultan al-Malik al-Mansur Qalawun was completed in Cairo {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}. Ibn al-Nafis, to whom the headship of medicine in Egypt had come, died four years later leaving his house, fortune and books as an endowment to this maristan {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:shadharat-dhahab p. 402}."
+  ur: "683ھ/1284ء میں قاہرہ میں سلطان الملک المنصور قلاوون کے وقف کردہ مارستانِ منصوری کی تکمیل ہوئی {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}۔ ابن نفیس، جن کے پاس مصر میں طب کی ریاست منتج ہوئی تھی، چار سال بعد انتقال کر گئے اور اپنا گھر، جائیداد اور کتب اسی مارستان پر وقف کر دیے {cite:tarikh-islam-dhahabi s.a. 687 p. 312} {cite:shadharat-dhahab p. 402}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1284", hijri: "0683", calendar: julian, precision: year, status: historical, derived: true, note: "المارستان المنصوري «اكتمل حديثاً (٦٨٣/١٢٨٤)» {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/qalawun, role: "الواقف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "رئيس أطباء مصر والموقِف عليه لاحقاً", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed p. 897; al-Dhahabi, Tarikh al-Islam s.a. 687, printed p. 312 (harvest OCR 01.-_20240823__51); Ibn al-'Imad, Shadharat al-Dhahab s.a. 687, printed p. 402 (harvest OCR AAlexandrina-001518)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

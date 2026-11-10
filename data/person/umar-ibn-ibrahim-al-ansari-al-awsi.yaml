@@ -1,0 +1,28 @@
+id: person/umar-ibn-ibrahim-al-ansari-al-awsi
+class: person
+label:
+  ar: "أبو حفص عمر بن إبراهيم الأنصاري الأوسي"
+  en: "Abu Hafs Umar ibn Ibrahim al-Ansari al-Awsi"
+roles: [muqri]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي حفص عمر بن إبراهيم الأنصاري الأوسي، مقرئ مالكي أندلسي؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Hafs Umar ibn Ibrahim al-Ansari al-Awsi, the Andalusian Maliki muqri; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1390~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~1410, GAL (Brockelmann); al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q124328540
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0067
+status:
+  review: draft
+  completeness: 1

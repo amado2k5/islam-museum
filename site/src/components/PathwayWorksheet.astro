@@ -1,0 +1,60 @@
+---
+// The student worksheet of a curriculum pathway and, when asked, its answer key: each prompt names the step that
+// answers it, so the key is the step's title, its one-line body and the records it links. Server-rendered; prints
+// with writing lines. No student name is stored anywhere: the name line is ink on paper.
+import { byId, href, labelOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import type { Node } from "../../../scripts/build-graph";
+interface Props { node: Node; lang: Lang; answers?: boolean }
+const { node: n, lang, answers = false } = Astro.props;
+const E = ui(lang).edu;
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+const rooms: any[] = n.data.rooms ?? [];
+const items: { prompt: string; steps: number[] }[] = (n.data.worksheet ?? []).map((w: any) => ({ prompt: loc(w.prompt), steps: w.steps ?? [] }));
+---
+<section class="ws" id="worksheet" aria-labelledby="ws-h">
+  <h2 id="ws-h">{E.tp_worksheet}</h2>
+  <p class="ws-lede">{E.tp_worksheet_lede}</p>
+  <p class="ws-name" aria-hidden="true">{E.tp_name_line}</p>
+  <ol class="ws-list">
+    {items.map((w) => (
+      <li>
+        <p>{w.prompt}</p>
+        <div class="ws-lines" aria-hidden="true"></div>
+      </li>
+    ))}
+  </ol>
+</section>
+{answers && (
+  <section class="ws ws-key" id="answer-key" aria-labelledby="key-h">
+    <h2 id="key-h">{E.tp_answer_key}</h2>
+    <p class="ws-lede">{E.tp_answer_key_note}</p>
+    <ol class="ws-list">
+      {items.map((w) => (
+        <li>
+          <p><b>{w.prompt}</b></p>
+          {w.steps.map((k) => rooms[k] && (
+            <p class="ws-ans"><span class="ws-num">{k + 1}</span> <b>{loc(rooms[k].title)}</b>{loc(rooms[k].body) && <> — {loc(rooms[k].body)}</>}
+              {(rooms[k].features ?? []).map((id: string) => byId.get(id)).filter(Boolean).map((f: Node) => <> · <a href={href(lang, f.id)}>{labelOf(f, lang)}</a></>)}</p>
+          ))}
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
+<style>
+  .ws { border: 1px solid var(--gold); border-radius: 14px; padding: 18px; margin: 0 0 1.2rem; background: var(--panel); break-inside: avoid; }
+  .ws h2 { margin: 0 0 6px; font-size: 1.15rem; }
+  .ws-lede { margin: 0 0 10px; color: var(--muted); font-size: .92rem; }
+  .ws-name { display: none; font-family: var(--sans); font-size: .9rem; margin: 0 0 12px; }
+  .ws-list { margin: 0; padding-inline-start: 1.4rem; }
+  .ws-list > li { margin: 0 0 12px; }
+  .ws-list p { margin: 0 0 6px; }
+  .ws-lines { display: none; height: 7.5em; background: repeating-linear-gradient(to bottom, transparent 0 1.4em, #888 1.4em calc(1.4em + 1px)); }
+  .ws-ans { font-size: .92rem; }
+  .ws-num { display: inline-flex; align-items: center; justify-content: center; min-width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--gold); color: #1d3a6e; font-family: var(--sans); font-size: .85em; font-weight: 700; }
+  @media print {
+    .ws { border: 1px solid #999; page-break-before: always; }
+    .ws-name, .ws-lines { display: block; }
+  }
+</style>

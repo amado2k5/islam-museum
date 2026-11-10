@@ -1,0 +1,20 @@
+id: person/al-hawfazan-ibn-shurayk
+class: person
+label: { ar: "الحوفزان بن شريك", en: "al-Hawfazan ibn Shurayk" }
+summary:
+  ar: "الحوفزان بن شريك الشيباني، الموصوف بالكرم والشجاعة، أخو جدّ مطر بن شريك؛ وإنما قيل له الحوفزان لأن قيس بن عاصم المنقري حفزه بالرمح حين خاف أن يفوته، ومعنى حفزه أي دفعه من خلفه، وقيل إن الذي حفزه بسطام بن قيس الشيباني {cite:wafayat-ayan}."
+  en: "al-Hawfazan b. Shurayk al-Shaybani — the famed generous-and-brave tribesman; nicknamed for being goaded forward by a spear's butt, by Qays b. Asim or Bustam b. Qays {cite:wafayat-ayan}."
+gender: male
+roles: [general]
+wings: [people]
+periods: [period/umayyad]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة الحوفزان بن شريك)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 High) from djvu OCR text"
+  run: lib-wafayat-batch-25
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Asfahani (Kitab al-Aghani; contemporary of Prophet)" }
+relations:
+  - { type: lived_in, target: place/jazira, note: "Pre-Islamic knight-poet of Banu Shayban ibn Bakr, whose homeland was the Jazira (al-Alam entry on al-Hawfazan); flagged.", sources: [source/wafayat-ayan], confidence: low }
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

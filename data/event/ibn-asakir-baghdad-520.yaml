@@ -1,0 +1,29 @@
+id: event/ibn-asakir-baghdad-520
+class: event
+kind: other
+label:
+  ar: "ابن عساكر يرحل إلى بغداد مع أخيه ويقيم بها خمس سنين، ٥٢٠هـ/١١٢٦م"
+  en: "Ibn 'Asakir travels to Baghdad with his brother and stays five years, 520/1126"
+  ur: "ابن عساکر بھائی کے ہمراہ بغداد روانہ اور وہاں پانچ برس قیام، 520ھ/1126ء"
+summary:
+  ar: "دخل ابن عساكر بغداد سنة عشرين فأقام بها خمس سنين، وسمع من أبي القاسم بن الحصين وأبي الحسن الدينوري وأبي العز بن كادش وأبي غالب بن البنا وجماعة كثير، ولازم الدرس والتفقه بالنظامية {cite:tarikh-islam-dhahabi p. 71}؛ وذهب مع أخيه الصائن الذي واظب بالنظامية على دروس أسعد الميهني في الفقه وابن برهان تلميذ الغزالي، وسمع هو أيضاً الحنبلي سعد الخير الأنصاري وشيوخ البرمكي والتنوخي {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "Ibn 'Asakir entered Baghdad in 520 and stayed five years, hearing Abu al-Qasim ibn al-Husayn, Abu al-Hasan al-Dinawari, Abu al-'Izz ibn Kadish, Abu Ghalib ibn al-Banna and many more, and keeping to the lectures and fiqh of the Nizamiyya {cite:tarikh-islam-dhahabi p. 71}. He went with his brother al-Sa'in, who attended Asad al-Mayhani's fiqh and Ibn Burhan's philosophy at the Nizamiyya, while 'Ali also heard the Hanbali Sa'd al-Khayr al-Ansari and the circles of al-Barmaki and al-Tanukhi {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "ابن عساکر 520ھ میں بغداد داخل ہوئے اور پانچ برس مقیم رہے؛ ابوالقاسم بن الحصین، ابوالحسن دینوری، ابوالعز بن کادش، ابوغالب بن بنا اور بہت سے محدثین سے سماعت کی اور نظامیہ کے دروس و فقہ سے لگے رہے {cite:tarikh-islam-dhahabi p. 71}؛ بھائی صائن نظامیہ میں اسد مہینی کے فقہ اور غزالی کے شاگرد ابن برہان کے دروس حاضر ہوتے، اور انہوں نے حنبلی سعد الخیر انصاری اور برمکی و تنوخی کے حلقوں سے بھی استفادہ کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1126", hijri: "0520", calendar: julian, precision: year, status: tradition, derived: true, note: "دخل بغداد سنة عشرين فأقام بها خمس سنين {cite:tarikh-islam-dhahabi p. 71}؛ In 520/1126 he went to Baghdad {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+  end: { edtf: "1131", hijri: "0525", calendar: julian, precision: year, status: tradition, derived: true, note: "خمس سنين؛ عاد إلى دمشق سنة ٥٢٥هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/nizamiyya, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "طالب العلم", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 571, printed p. 71 (harvest OCR); EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

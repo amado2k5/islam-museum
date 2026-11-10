@@ -1,0 +1,49 @@
+id: person/jamal-al-din-vaiz
+class: person
+label: { ar: "جمال الدين الواعظ الإصفهاني", en: "Sayyid Jamal al-Din Va'iz", ur: "سید جمال الدین واعظ اصفہانی" }
+names:
+  - { value: "سید جمال‌الدین واعظ اصفهانی", kind: full }
+  - { value: "Sayyid Jamal al-Din Va'iz Esfahani", kind: full }
+  - { value: "Seyed Jamal Vaez", kind: alternate }
+  - { value: "Va'iz", kind: laqab }
+gender: male
+summary:
+  ar: "واعظ وكاتب دستوري إيراني (1862–1908) من همدان، استقر في إصفهان ثم غدا أشهر وعّاظ طهران الدستوريين، وكتب «لباس التقوى» وشارك في «الرؤيا الصادقة»، ففرّ بعد قصف المجلس سنة 1908 وقُتل في بروجرد بأمر محمد علي شاه، وهو والد الكاتب محمد علي جمال زاده."
+  en: "Iranian constitutional preacher and writer (1862–1908) from Hamadan who settled in Isfahan and became Tehran's most famous constitutional preacher. He wrote Lebas ot-taqva and co-wrote The True Dream, fled after the bombardment of the Majles in 1908, and was killed at Borujerd on Mohammad Ali Shah's order. He was the father of the writer Mohammad Ali Jamalzadeh."
+  ur: "ایرانی آئینی مبلغ و مصنف (1862–1908)، اہل ہمدان، جو اصفہان میں مقیم ہوئے اور تہران کے مشہور ترین آئینی واعظ بنے۔ انہوں نے «لباس التقویٰ» لکھی اور «رؤیای صادقہ» میں شریک رہے؛ 1908 میں مجلس پر گولہ باری کے بعد فرار ہوئے اور محمد علی شاہ کے حکم پر بروجرد میں قتل کیے گئے۔ وہ مصنف محمد علی جمال زادہ کے والد تھے۔"
+roles: [activist, writer]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1862"
+  hijri: "1279"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Hamadan in 1279 AH, as the Persian encyclopedia tradition drawn on by the Persian Wikipedia article records — he was the son of Aqa Sayyed Ali Ameli, settled at Isfahan and took his name Esfahani from that city; English Wikipedia gives the Gregorian year 1862, which agrees with 1279 AH. The Hijri year 1279 is the Persian tradition's own."
+  sources: [source/wikipedia-jamal-al-din-vaiz-fa, source/wikipedia-jamal-al-din-vaiz-en]
+died:
+  edtf: "1908"
+  hijri: "1326"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Killed at Borujerd in 1326 AH (1908). After the bombardment of the Majles he fled Tehran in disguise, heading for Najaf by way of Hamadan, where he took refuge with Mozaffar al-Molk; betrayed by him, he was sent to Borujerd and killed there by its governor on Mohammad Ali Shah's order, as the Persian Wikipedia article recounts; one charge against him was his part in the anti-despotism booklet The True Dream. English Wikipedia gives only the year 1908 and Keddie's statement that the Shah 'had them both killed in 1908', of Va'iz and Malek al-Motakallemin. His grave is recorded by the Persian tradition as remaining at Borujerd."
+  sources: [source/wikipedia-jamal-al-din-vaiz-fa, source/wikipedia-jamal-al-din-vaiz-en]
+relations:
+  - { type: born_in, target: place/hamadan, sources: [source/wikipedia-jamal-al-din-vaiz-fa] }
+  - { type: died_in, target: place/burujird, sources: [source/wikipedia-jamal-al-din-vaiz-fa] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a school for him personally. English Wikipedia quotes one scholarly characterisation, Nikki Keddie's (Modern Iran, Yale University Press, 2003, pp. 179-180): the popular preachers 'were not themselves believers in any usual sense', and Sayyed Jamal ad-Din Esfahani 'was described by his son as a freethinker' — a single tradition, reported at second hand through his son Jamalzadeh, which does not meet the two-independent-traditions bar for atheist-or-sceptic. The same article records that he 'advised the Shia masses' and preached in concepts 'particularly central in Shi'ism, as Justice and Oppression', and the Persian article and encyclopedia tradition present him simply as a Muslim preacher of the constitutional cause, a sayyid and a preacher in Karbala and Najaf as well as across Iran — milieu and practice, not an attestation of school. Under the doubt rule the value stays unknown, with Keddie's wording preserved here in full."
+    sources: [source/wikipedia-jamal-al-din-vaiz-en, source/wikipedia-jamal-al-din-vaiz-fa]
+sources: [source/wikipedia-jamal-al-din-vaiz-en, source/wikipedia-jamal-al-din-vaiz-fa]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Sayyid Jamal al-Din Va'iz' and Persian Wikipedia 'جمال‌الدین واعظ اصفهانی', both read on 26 October 2026; the reading route did not expose revision ids, so consultation dates are recorded in the source files and no revision id is invented. No Wikidata item could be grounded through the available routes, so no Wikidata source or external id is recorded (wave-33 precedent). Birth and death places and the Hijri years come from the Persian article and the Persian encyclopedia tradition it draws on; his faith is unknown — Keddie's single 'freethinker' characterisation is preserved in the faith note, not applied."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-36
+status: { review: published, completeness: 2, generated_by: "Muse (Muse Spark 1.3)" }

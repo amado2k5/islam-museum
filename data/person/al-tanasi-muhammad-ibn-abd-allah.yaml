@@ -1,0 +1,37 @@
+id: person/al-tanasi-muhammad-ibn-abd-allah
+class: person
+label: { ar: "التنسي محمد بن عبد الله", en: "Al-Tanasi, Muhammad ibn Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن عبد الله بن عبد الجليل التنسي التلمساني" }
+gender: male
+roles: [muhaddith, scholar]
+traditions: [sunni]
+born: { edtf: "1417", hijri: "0820", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1494", hijri: "0899", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حافظ من أهل تلمسان، ولد على الأرجح بمدينة مدين."
+  en: "A memorizing scholar from Tlemcen, probably born in Madin."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص645"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch54
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/tlemcen, note: "Place association from the person's nisba/name (التلمساني); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

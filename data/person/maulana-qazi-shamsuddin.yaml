@@ -1,0 +1,29 @@
+id: person/maulana-qazi-shamsuddin
+class: person
+label:
+  ar: "مولانا القاضي شمس الدين"
+  en: "Maulana Qazi Shamsuddin"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمولانا القاضي شمس الدين؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Maulana Qazi Shamsuddin; the entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/modern-era]
+born: { edtf: "1900", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistan Scholars Directory" }
+died: { edtf: "1986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistan Scholars Directory" }
+relations:
+  - { type: born_in, target: place/pindi-gheb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q65280504
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

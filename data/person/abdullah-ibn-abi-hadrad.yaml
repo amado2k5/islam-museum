@@ -17,9 +17,14 @@ story_roles:
   - { role: companion, status: tradition, note: "عين النبي واستخباراته بأوطاس قبل حنين.", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من بني أسلم." }
+died: { edtf: "690", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-al-ghaba, role: "قتل رفاعة بن قيس؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "من السرية وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-aslam }
   - { type: participated_in, target: event/battle-of-hunayn, role: scout, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 83–84", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 83–84", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch51" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 83–84" }
+status: { review: published, completeness: 3 }

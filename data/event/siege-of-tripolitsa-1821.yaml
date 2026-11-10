@@ -1,0 +1,23 @@
+id: event/siege-of-tripolitsa-1821
+class: event
+kind: siege
+label: { ar: "حصار تريبوليتشا", en: "Siege of Tripolitsa" }
+summary:
+  ar: "بطاقة أولية لحصار تريبوليتشا سنة ١٨٢١م، سقوط المدينة العثمانية بيد الثوار اليونانيين ومذبحة أهلها المسلمين واليهود؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Tripolitsa in 1821, the Ottoman city's fall to Greek insurgents and the massacre of its Muslims and Jews; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821", precision: year, status: tradition, derived: true }
+  end: { edtf: "1821", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2590023
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Greek-independence histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

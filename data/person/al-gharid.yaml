@@ -1,0 +1,22 @@
+id: person/al-gharid
+class: person
+label: { ar: "الغريض المغني", en: "al-Gharid the singer" }
+summary:
+  ar: "مغن قتلته الجن بعد أن ظهر غناؤه وحمل عنه، وقد كانت نهته أن يغني بأبيات من الشعر فغناها فقتلته {cite:muruj-al-dhahab p. 474}. وكان من مغني أيام الوليد بن يزيد {cite:muruj-al-dhahab p. 201}"
+  en: "The famed early singer whom the jinn forbade to sing certain verses — he sang them and they killed him {cite:muruj-al-dhahab p. 474}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "716~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Famed early singer among the singers of al-Walid's days; the early Hijazi singing milieu was Medina. Inferred.", sources: [source/muruj-al-dhahab], confidence: low }

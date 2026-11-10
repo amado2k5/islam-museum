@@ -1,0 +1,77 @@
+id: exhibit/path-hunayn
+class: exhibit
+kind: trail
+label:
+  ar: حنين
+  en: Hunayn
+summary:
+  ar: 'مسار في يوم الاغترار بالكثرة: هوازن وثقيف في الوادي، والفرار الأول، والنداء يعيد الجيش — ثم حصار
+    الطائف.'
+  en: A trail through the day of the ambush.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الوادي
+    en: The valley
+  body:
+    ar: 'بعد فتح مكة: هوازن تستعد في حنين.'
+    en: 'بعد فتح مكة: هوازن تستعد في حنين.'
+  features:
+  - event/battle-of-hunayn
+  - place/mecca
+- title:
+    ar: الفرار
+    en: The rout
+  body:
+    ar: 'الجيش يفر أول الأمر: ثم النداء.'
+    en: 'الجيش يفر أول الأمر: ثم النداء.'
+  features:
+  - event/battle-of-hunayn
+  - person/muhammad
+- title:
+    ar: النصر
+    en: The victory
+  body:
+    ar: 'العودة والنصر: غنائم هوازن.'
+    en: 'العودة والنصر: غنائم هوازن.'
+  features:
+  - event/battle-of-hunayn
+  - event/distribution-of-hunayn-spoils
+- title:
+    ar: الغنائم
+    en: The spoils
+  body:
+    ar: 'قسمة حنين: تألف القلوب.'
+    en: 'قسمة حنين: تألف القلوب.'
+  features:
+  - event/distribution-of-hunayn-spoils
+  - place/taif
+- title:
+    ar: الطائف
+    en: Ta'if
+  body:
+    ar: 'حصار ثقيف: ثم إسلامهم بعد حين.'
+    en: 'حصار ثقيف: ثم إسلامهم بعد حين.'
+  features:
+  - place/taif
+  - event/battle-of-hunayn
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

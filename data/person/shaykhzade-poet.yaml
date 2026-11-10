@@ -1,0 +1,28 @@
+id: person/shaykhzade-poet
+class: person
+label:
+  ar: "شيخ زاده"
+  en: "Seyhizade"
+roles: [theologian]
+gender: male
+summary:
+  ar: "عبد الرحيم الأماسي «شيخ زاده»، متصوف من أحناف العثمانيين، صاحب «نظم الفرائد» في خلاف الماتريدية والأشاعرة؛ توفي سنة 944هـ ⁦(1537م)⁩."
+  en: "Abd al-Rahim “Shaykhzade” (d. 944/1537), Ottoman Hanafi Sufi scholar of Amasya."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1532", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136121661
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.347)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,23 @@
+id: event/battle-of-collejares-1406
+class: event
+kind: battle
+label: { ar: "معركة كوليخاريس", en: "Battle of Collejares" }
+summary:
+  ar: "بطاقة أولية لمعركة كوليخاريس سنة ١٤٠٦م، فوز غرناطة على القشتاليين قرب أوبيدا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Collejares in 1406, Granada's win over the Castilians near Úbeda; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1406", precision: year, status: tradition, derived: true }
+  end: { edtf: "1406", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q4870775
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

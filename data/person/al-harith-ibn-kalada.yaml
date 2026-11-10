@@ -1,0 +1,20 @@
+id: person/al-harith-ibn-kalada
+class: person
+label: { ar: "الحارث بن كلدة", en: "al-Harith ibn Kalada" }
+summary:
+  ar: "طبيب العرب المشهور؛ أكل مع أبي بكر خزيرة مسمومة فقال له ارفع يدك إن فيها لسم سنة وأنا وأنت نموت في يوم واحد فماتا معاً عند انقضاء السنة. وعند المسعودي سمت اليهود أبا بكر في شيء من الطعام فأكل معه الحارث بن كلدة فعمي وكان السم لسنة ومرض أبو بكر قبل وفاته بخمسة عشر يوماً {cite:muruj-al-dhahab p. 598}"
+  en: "the famed physician of the Arabs; ate the poisoned khazira with Abu Bakr — 'a year's poison is in it, we die in one day' — and both died in one day at year's end."
+periods: [period/rashidun]
+wings: [people]
+external_ids: { wikidata: "Q2056226" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wikidata]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Harith b. Kalada' / Pellat); Ibn Abi Usaybi'a" }
+relations:
+  - { type: born_in, target: place/taif, note: "Wikidata Q182640 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/rashidun-caliphate, note: "Wikidata Q12490507 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

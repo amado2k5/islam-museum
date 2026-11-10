@@ -1,0 +1,28 @@
+id: person/jalal-al-din-ahsan
+class: person
+label:
+  ar: "جلال الدين أحسن"
+  en: "Jalal al-Din Ahsan"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لجلال الدين أحسن؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Jalal al-Din Ahsan; the entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1340", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+relations:
+  - { type: lived_in, target: place/india, confidence: low, note: "Ruler of Ma'bar (Madurai) per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q11917506
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

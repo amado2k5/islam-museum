@@ -1,0 +1,55 @@
+id: person/ibrahim-al-tarabulusi
+class: person
+gender: male
+roles:
+- jurist
+label:
+  ar: إبراهيم الطرابلسي ⁦(برهان الدين)⁩
+  en: Ibrahim al-Tarabulusi (Burhan al-Din, Hanafi jurist)
+  ur: ابراہیم طرابلسی ⁦(برہان الدین، حنفی فقیہ)⁩
+summary:
+  ar: 'إبراهيم بن موسى بن أبي بكر، برهان الدين الطرابلسي، فقيه حنفي، ولد في طرابلس
+    الشام وأخذ بدمشق عن جماعة، ثم انتقل إلى القاهرة وتوفي بها. {cite:fiqh-mawsua-kuwaitiyya-noor-v3
+    p.7508} من تصانيفه: الإسعاف في أحكام الأوقاف، ومواهب الرحمن في مذهب النعمان، وشرحه
+    المسمى البرهان. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7508} '
+  en: 'Ibrahim ibn Musa ibn Abi Bakr, Burhan al-Din al-Tarabulusi, a Hanafi jurist.
+    Born in Tripoli of the Levant, he studied at Damascus with several masters, then
+    moved to Cairo and died there. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7508} His
+    works include al-Isʿaf on the rules of endowments, Mawahib al-Rahman in the school
+    of al-Nu''man, and its commentary called al-Burhan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3
+    p.7508} '
+  ur: 'ابراہیم بن موسیٰ بن ابی بکر، برہان الدین طرابلسی، حنفی فقیہ۔ طرابلس شام میں
+    پیدا ہوئے، دمشق میں کئی علماء سے پڑھا، پھر قاہرہ منتقل ہوئے اور وہیں وفات پائی۔
+    {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7508} ان کی تصانیف میں «الإسعاف في أحكام
+    الأوقاف»، «مواہب الرحمن في مذهب النعمان» اور اس کی شرح «البرہان» شامل ہیں۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3
+    p.7508} '
+wings:
+- people
+themes:
+- law-and-courts
+periods:
+- period/gunpowder-empires
+regions:
+- levant-iraq
+- egypt-nile
+born: { edtf: "1439", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1516", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/tripoli-greece, confidence: low, note: "Associated with طرابلس per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
+provenance:
+  layer: own-research
+  source: الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 7508 من المسح
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch44
+sources:
+- source/fiqh-mawsua-kuwaitiyya-noor-v3
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

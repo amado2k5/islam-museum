@@ -1,0 +1,34 @@
+id: person/ali-ibn-umar-ibn-abdus
+class: person
+gender: male
+label:
+  ar: "ابن عبدوس الحراني ⁦(علي بن عمر)⁩"
+  en: "Ibn Abdus al-Harrani (Ali ibn Umar)"
+summary:
+  ar: "علي بن عمر بن أحمد بن عبدوس الحراني، أبو الحسن، فقيه حنبلي، سمع ببغداد من ابن ناصر وطبقته، وبرع في الفقه والتفسير والوعظ. قرأ عليه نصر الله بن عبد العزيز، وخاله فخر الدين ابن تيمية، وعمر بن علي القرشي. من تصانيفه تفسير كبير، والمذهب في المذهب، ومجالس وعظية. توفي سنة 559 هـ، وولد سنة 510 هـ على ما يذكر العنوان. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15809}"
+  en: "Ali ibn Umar ibn Ahmad ibn Abdus al-Harrani, Abu al-Hasan, a Hanbali jurist who heard hadith in Baghdad from Ibn Nasir and his circle and excelled in fiqh, exegesis and preaching. Nasr Allah ibn Abd al-Aziz, his maternal nephew Fakhr al-Din Ibn Taymiyya and Umar ibn Ali al-Qurashi studied with him. His works include a large exegesis, al-Mudhhab fi al-madhhab and sermons. The header gives his death as 559 AH and his birth as 510 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15809}"
+roles: [jurist]
+traditions: [sunni-hanbali]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15809 من المسح)"
+  scan_pages: [15809]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "941~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jarh / Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/harran, note: "Place association from the person's nisba/name (الحراني); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

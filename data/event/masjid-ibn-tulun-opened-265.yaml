@@ -1,0 +1,27 @@
+id: event/masjid-ibn-tulun-opened-265
+class: event
+kind: founding
+label:
+  ar: "افتتاح جامع ابن طولون للصلاة، ٢٦٥هـ/٨٧٩م"
+  en: "The mosque of Ibn Tulun opened for prayer, 265/879"
+  ur: "جامع ابن طولون کا نماز کے لیے افتتاح، 265ھ/879ء"
+summary:
+  ar: "في سنة خمس وستين ومائتين فُتح جامع أحمد بن طولون للصلاة في القطائع، ومن أول ما عُيب عليه أن لا موضع للوضوء في صحنه؛ فأجاب الباني أنه تركه عمداً لما يجلبه من النجاسة، ووعد بميضأة خلف الجامع، فشكا الناس خروج الحوض عن الجامع لما ألفوه من دخوله فيه {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}."
+  en: "In 265/879 the mosque of Ahmad ibn Tulun in al-Qata'i' was first opened for prayer. One of the first criticisms was that its sahn had no place for ablution; the builder answered that he had omitted it deliberately, for the uncleanliness it brings, and promised a tank behind the mosque — and people complained that the tank stood outside the mosque proper, contrary to their custom {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}."
+  ur: "265ھ/879ء میں قطائع میں احمد بن طولون کی مسجد نماز کے لیے کھولی گئی۔ سب سے پہلی شکایت یہ ہوئی کہ اس کے صحن میں وضو کی کوئی جگہ نہیں؛ بانی نے جواب دیا کہ اس نے اسے دانستہ خارج کیا کیونکہ وہ نجاست لاتی ہے، اور مسجد کے پیچھے حوض بنانے کا وعدہ کیا — پھر لوگوں نے شکایت کی کہ حوض مسجد سے باہر ہے، خلافِ عادت کے {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0879", hijri: "0265", calendar: julian, precision: year, status: tradition, derived: true, note: "فُتح جامع ابن طولون للصلاة سنة ٢٦٥هـ/٨٧٩م {cite:encyclopaedia-of-islam-2 vol. 3 p. 306}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الباني", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 p. 306 art. HAWD (cistern) (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

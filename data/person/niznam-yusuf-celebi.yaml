@@ -1,0 +1,29 @@
+id: person/niznam-yusuf-celebi
+class: person
+label:
+  ar: "نظنام يوسف جلبي"
+  en: "Niznam Yusuf Celebi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لنظنام يوسف جلبي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Niznam Yusuf Celebi, the Ottoman writer eighteenth-century; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1450~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ottoman bio-bibliographical records" }
+died: { edtf: "1500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ottoman bio-bibliographical records" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136099434
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0093
+status:
+  review: draft
+  completeness: 1

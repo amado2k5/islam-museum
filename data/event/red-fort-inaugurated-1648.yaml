@@ -1,0 +1,24 @@
+id: event/red-fort-inaugurated-1648
+class: event
+kind: founding
+label: { ar: "افتتاح القلعة الحمراء بدلهي", en: "Inauguration of the Red Fort, Delhi" }
+summary:
+  ar: "دخل شاه جهان قصره الجديد بالقلعة الحمراء في شاهجهان آباد سنة 1648م فصارت مقر السلطنة المغولية {cite:asher-mughal-india-1992}."
+  en: "In 1648 Shah Jahan entered his new palace-fortress, the Red Fort of Shahjahanabad, which became the seat of Mughal power {cite:asher-mughal-india-1992}."
+  ur: "1648ء میں شاہ جہان شاہجہان آباد کے نئے محل قلعہ لال قلعہ میں داخل ہوا جو مغل سلطنت کی نشست بنا {cite:asher-mughal-india-1992}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1648", precision: year, status: tradition, derived: true }
+  end: { edtf: "1648", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/asher-mughal-india-1992] }
+  - { type: had_participant, target: person/shah-jahan-mughal, role: "السلطان", sources: [source/asher-mughal-india-1992] }
+sources: [source/asher-mughal-india-1992]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mughal Delhi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mughal-delhi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

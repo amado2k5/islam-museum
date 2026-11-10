@@ -5,7 +5,6 @@ names:
   - { kind: full, lang: ar, value: "سراقة بن مالك بن جعشم المدلجي الكناني" }
 gender: male
 roles: [tribal-leader]
-traditions: [sunni]
 summary:
   en: "A Mudliji horseman who chased the bounty on the fugitives; when his mare sank beneath him twice he sought safe-conduct instead, and spent the rest of the day turning pursuers away — 'the day's beginning against them, its end guarding them'."
   ar: "فارس مدلجي خرج في طلب الجائزة المرصودة للقبض على النبي وأبي بكر؛ فلما ساخت يدا فرسه في الأرض مرتين ناداهم بالأمان وعرض عليهم الزاد، ثم رجع يصرف الطلب عنهما — فكان أول النهار جاهداً عليهما وآخره حارساً لهما."
@@ -18,8 +17,12 @@ story_roles:
   - { role: ally, start: { edtf: "0622" }, end: { edtf: "0622" }, status: tradition, note: "حصل على كتاب أمن وصرف الطلب عنهما (الرحيق ص169).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "على دين قومه وقت المطاردة؛ إسلامه اللاحق خارج نطاق هذا القسم.", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: member_of, target: group/banu-mudlij }
   - { type: participated_in, target: event/hijra, role: "طارد ثم استأمن وصرف الطلب عنهما", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+
+  - { type: lived_in, target: place/fars, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari] }
+external_ids: { wikidata: "Q7645423" }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 168-169" }

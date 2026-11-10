@@ -1,0 +1,43 @@
+id: concept/ata-stipend
+class: concept
+kind: legal
+label:
+  ar: "العطاء"
+  en: "Stipend from the public treasury (ata)"
+issue:
+  ar: "على أي معيار يُفرض العطاء: التسوية بين الناس أم المفاضلة بينهم؟"
+summary:
+  ar: "العطاء عند المؤلف مبالغ سنوية أو شهرية، وربما فورية إذا هبطت موارد كبيرة، تُدفع من فائض بيت مال المصالح لكل فرد أو رب أسرة {cite:usul-iqtisad-islami-0660 p. 326}. وقد اختلف الخلفاء في معياره: سوّى أبو بكر بين الناس، وفاضل عمر بالبلاء والسبق والغَناء والحاجة {cite:usul-iqtisad-islami-0660 p. 327}، وفرض عمر لكل مولود مئة درهم بعد الفطام {cite:usul-iqtisad-islami-0660 p. 328}."
+wings: [ideas]
+themes:
+- trade-and-finance
+- the-poor-and-the-worker
+periods:
+- period/prophetic-era
+regions:
+- global
+perspectives:
+  - tradition: sunni
+    id: abu-bakr-equal-stipend
+    summary:
+      ar: "أبو بكر كان يقسم العطاء بالسوية بين الحر والعبد والكبير والصغير والذكر والأنثى، وقال إن الفضل والسوابق ثوابها على الله، وإن العطاء معاش والتسوية فيه خير من الأثرة {cite:usul-iqtisad-islami-0660 p. 327}."
+    sources: [source/usul-iqtisad-islami-0660]
+  - tradition: sunni
+    id: umar-merit-stipend
+    summary:
+      ar: "عمر فاضل بين الناس بالبلاء في الإسلام والقدم والغَناء والحاجة، وقال إن أبا بكر رأى رأياً وإن له رأياً آخر، وأراد في آخر عمره أن يسوي بين الناس {cite:usul-iqtisad-islami-0660 p. 327} {cite:usul-iqtisad-islami-0660 p. 328}. ويذكر المؤلف أن عثمان وعلياً سوّيا بين الناس {cite:usul-iqtisad-islami-0660 p. 328}."
+    sources: [source/usul-iqtisad-islami-0660]
+relations:
+  - { type: part_of, target: concept/distribution-in-islam, sources: [source/usul-iqtisad-islami-0660] }
+sources:
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: "Rafiq Yunus al-Misri, Usul al-iqtisad al-islami, PDF pp. 301-359 (harvest OCR, outside git)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "econ-0660-usul-pp301-359"
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Code (claude-haiku-5-5); draft from usul-iqtisad-islami-0660 pp. 301-359; English and Urdu translations not yet written"

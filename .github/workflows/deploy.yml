@@ -1,66 +1,46 @@
-name: Deploy to GitHub Pages
+name: Deploy islam.museum to Cloudflare
 
+# PRODUCTION. Manual only: runs when started from the Actions tab (or gh workflow run), by the
+# founder alone (AGENTS.md). Pushes to main do not deploy.
+#
+# The steps live in deploy-env.yml, shared with deploy-uat.yml: the same build artifact, the
+# same procedure, a different GitHub Environment. This file only picks the `production`
+# Environment (bucket islam-museum-search, Worker islam-museum-site, Pages project islam-museum,
+# https://islam.museum). Review a build on https://uat.islam.museum first with
+# "Deploy islam.museum to UAT", then start this workflow with the same build_run_id.
+#
+# A deploy does not build: it downloads the `dist` artifact of a build run (build.yml,
+# "Build islam.museum") and publishes it. Empty build_run_id means the latest successful
+# build of main; a run id redeploys that build (nothing is sent to R2 twice: the manifest
+# diff finds no change but the deploy stamp, api/v1/meta/deploy.json).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main. The five newest successful builds keep their artifacts, so an older run id works only while its artifact still exists."
+        required: false
+        type: string
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  deployments: write
+  # Read another run's artifact.
+  actions: read
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
+  # Keep every waiting run, so each deploy's R2 publish runs in order. Without this,
+  # a newer waiting run replaces an older one and the older content change is never
+  # published. Every deploy publishes; the manifest diff decides what to upload.
+  queue: max
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: |
-            package-lock.json
-            site/package-lock.json
-      - name: Install
-        run: npm ci && npm ci --prefix site
-      - name: Test
-        run: npm test
-      - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
-        run: npm run build
-      - name: No runtime AI or compute (guard)
-        run: npm run check:static
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
-      - name: Purge Cloudflare cache
-        # Needs repository secrets CF_ZONE_ID and CF_API_TOKEN (Zone → Cache Purge). Skipped until they exist.
-        env:
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: |
-          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
-            echo "Cloudflare secrets not set; skipping cache purge."; exit 0
-          fi
-          curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
-            -H "Authorization: Bearer ${CF_API_TOKEN}" -H "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
+  production:
+    uses: ./.github/workflows/deploy-env.yml
+    with:
+      environment: production
+      build_run_id: ${{ inputs.build_run_id }}
+    # Repository secrets (CLOUDFLARE_*, R2_*) reach the shared workflow as they are; the
+    # `production` Environment adds nothing on top of them.
+    secrets: inherit

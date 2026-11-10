@@ -1,0 +1,23 @@
+id: event/french-conquest-of-morocco
+class: event
+kind: conquest
+label: { ar: "الغزو الفرنسي للمغرب", en: "French conquest of Morocco" }
+summary:
+  ar: "بطاقة أولية للغزو الفرنسي للمغرب من ١٩٠٧ إلى ١٩١٢م، الحملات التي انتهت بحماية فاس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the French conquest of Morocco of 1907–1912, the campaigns that ended with the protectorate of Fez; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1907", precision: year, status: tradition, derived: true }
+  end: { edtf: "1934", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2935421
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

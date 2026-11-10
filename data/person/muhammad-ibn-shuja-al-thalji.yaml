@@ -1,0 +1,35 @@
+id: person/muhammad-ibn-shuja-al-thalji
+class: person
+gender: male
+label:
+  ar: "محمد بن شجاع الثلجي"
+  en: "Muhammad ibn Shuja al-Thalji"
+summary:
+  ar: "محمد بن شجاع الثلجي، أبو عبد الله، البغدادي الحنفي، من أصحاب الحسن بن زياد، فقيه أهل العراق في وقته، ومن المقدمين في الفقه والحديث وقراءة القرآن. توفي سنة 266 هـ بحسب ما ذكره الكتاب، وله ميل إلى مذهب المعتزلة. من تصانيفه «المناسك»، و«تصحيح الآثار»، و«النوادر»، وكتاب «المضاربة». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15418}"
+  en: "Muhammad ibn Shuja al-Thalji, Abu Abd Allah, a Baghdadi Hanafi, a companion of al-Hasan ibn Ziyad, the leading jurist of Iraq in his time and eminent in law, hadith and Qur'anic recitation. The book gives 266 AH as his death year. It notes a leaning towards Mu'tazilite views. His works include al-Manasik, Tashih al-athar, al-Nawadir and a book on partnership in trade (mudaraba). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15418}"
+roles: [jurist, scholar]
+traditions: [sunni-hanafi]
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15418 من المسح)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: mawsua-w09-60
+  mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: mizan-itidal-bijawi-v3 printed pp. 577–579 (entry 7664)"
+died: { hijri: "0266-12", edtf: "0880", calendar: julian, precision: month, status: tradition, derived: true, note: "الذهبي: مات سنة ست وستين ومائتين عن ست وثمانين سنة، فجأة في ذي الحجة، ساجداً في صلاة العصر {cite:mizan-itidal-bijawi-v3 p. 578}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/mizan-itidal-bijawi-v3]
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Haiku 5.5; biography read on scan p.15418. Dates as printed in the header or bracket; not verified against a second source. Urdu is a short draft only."
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/mizan-itidal-bijawi-v3] }

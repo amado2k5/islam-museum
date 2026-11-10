@@ -1,0 +1,22 @@
+id: person/said-ibn-salih-al-hajib
+class: person
+label: { ar: "سعيد بن صالح الحاجب", en: "Sa'id al-Hajib" }
+summary:
+  ar: "حاجب بعثه المعتز في شهر رمضان سنة اثنتين وخمسين ومائتين ليلقى المستعين المحمول من واسط فلقيه قرب القاطول فجعل يقنعه بالسوط ثم أضجعه وقعد على صدره واحتز رأسه وحمله إلى المعتز وترك جثته ملقاة على الطريق حتى دفنها العامة، وكان المستعين قد قال لعديله شاهك انظر من رئيس القوم فإن كان سعيد الحاجب فقد هلكت {cite:muruj-al-dhahab p. 545-546}."
+  en: "The chamberlain who flogged the deposed caliph, sat on his chest and took his head to al-Mu'tazz — 'if it is Sa'id, I am dead' {cite:muruj-al-dhahab p. 545-546}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+died: { edtf: "866", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
+relations:
+  - { type: ruled_over, target: place/al-qatul, sources: [source/muruj-al-dhahab], confidence: low, note: "ar: 'حاجب بعثه المعتز في شهر رمضان سنة اثنتين وخمسين ومائتين ليلقى المستعين المحمول من واسط فلقيه قرب القاطول " }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

@@ -1,0 +1,69 @@
+id: person/abu-dujana
+class: person
+label:
+  ar: أبو دجانة
+  en: Abu Dujana
+names:
+- kind: full
+  lang: ar
+  value: سماك بن خرشة الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو دجانة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'اسمه سماك بن خرشة، وقيل: ابن أوس بن خرشة؛ اتُّفق على شهوده بدراً، وأخذ سيف النبي بحقه يوم أحد فضرب به هام المشركين، وذُكر أنه شارك في قتل مسيلمة، وقال علي إنه استُشهد باليمامة.'
+  en: His name was Simak ibn Kharasha, or ibn Aws ibn Kharasha; agreed to have been at Badr; at Uhud he took the Prophet's sword 'with its right' and struck the polytheists' heads with it; it is said he took part in killing Musaylima, and Ali
+    said he was martyred at al-Yamama.
+wings: [people]
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9905 (ص 1662).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
+relations:
+- type: died_in
+  target: place/al-yamama
+  note: "From text: استُشهد باليمامة"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9905، ص 1662
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch111
+external_ids: { wikidata: "Q1108692" }
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: published
+  completeness: 3

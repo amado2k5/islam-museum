@@ -1,0 +1,38 @@
+id: concept/islamization
+class: concept
+kind: social
+label:
+  ar: الأسلمة
+  en: Islamization
+  ur: اسلامی شکل
+summary:
+  ar: "الأسلمة تحول المجتمعات إلى الإسلام اعتناقا ومؤسسات؛ تسجل كتب الفتوح دخول الناس في الإسلام بعد الفتوح، وتصف الدراسة الأكاديمية التحول بالتدريجي عبر القرون {cite:futuh-buldan-maarif-1407} {cite:bulliet-conversion-1979}."
+  en: "Islamization is societies' turning to Islam in belief and institutions; the conquest literature records people entering Islam after the futuh, while academic study describes the transformation as gradual across centuries {cite:futuh-buldan-maarif-1407} {cite:bulliet-conversion-1979}."
+wings: [ideas]
+themes: [converts-and-leavers, politics-governance-and-authority]
+external_ids: { wikidata: "Q931510" }
+sources: [source/futuh-buldan-maarif-1407, source/bulliet-conversion-1979]
+perspectives:
+- tradition: sunni
+  id: classical-futuh
+  stance:
+    ar: دخول في الإسلام جرى عبر الدعوة والفتوح والصلح كما تسجله كتب الفتوح
+    en: Entry into Islam through da'wa, conquest and treaty, as the futuh literature records
+  summary:
+    ar: "يسجل البلاذري في فتوح البلدان أحوال إسلام الأمصار وصلح أهلها وجزيتهم ودخولهم في الإسلام {cite:futuh-buldan-maarif-1407}."
+    en: "Al-Baladhuri's Futuh al-Buldan records how the garrison towns' populations made terms, paid jizya or entered Islam {cite:futuh-buldan-maarif-1407}."
+  sources: [source/futuh-buldan-maarif-1407]
+- tradition: academic
+  id: academic-gradualism
+  stance:
+    en: A gradual centuries-long social conversion, not an immediate post-conquest event
+  summary:
+    en: "Bulliet's quantitative study argues conversion proceeded gradually over centuries through social networks rather than instantly upon conquest {cite:bulliet-conversion-1979}."
+  sources: [source/bulliet-conversion-1979]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q931510; contested: Baladhuri verified + academic (Bulliet) fallback"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,37 @@
+id: person/muhammad-baqir-al-bihbahani
+class: person
+label:
+  ar: "محمد باقر البهبهاني ⁦(الوحيد البهبهاني)⁩"
+  en: "Muhammad Baqir al-Bihbahani"
+roles: [jurist, marja]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد باقر البهبهاني المعروف بالوحيد البهبهاني، مرجع القرن الثامن عشر الذي أعاد بناء الفقه الأصولي الإمامي في العراق؛ توفي نحو ١٧٩١م ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Baqir al-Bihbahani, known as al-Wahid al-Bihbahani, the eighteenth-century marja' who rebuilt Imami usul scholarship in Iraq; he died about 1791 and his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+faith:
+  - { value: shia-twelver, basis: tradition }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q97486447
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-audit
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "Imami (Twelver) jurist. The TDV entry 'FIKIH' credits him with ending the roughly hundred-and-fifty-year dominance of the Akhbari method and restoring the Usuli method of legal reasoning. The office of marja', which the Usuli school made the norm, is described in the article job/faqih and in the entry MERCİ-i TAKLÎD."
+    sources: [source/tdv-fikih]
+born: { edtf: "1706", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

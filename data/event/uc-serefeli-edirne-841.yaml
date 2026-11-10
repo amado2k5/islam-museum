@@ -1,0 +1,26 @@
+id: event/uc-serefeli-edirne-841
+class: event
+kind: founding
+label: { ar: "بناء جامع الشرفات الثلاث بأدرنة", en: "Edirne's Üç Şerefeli Mosque is built", ur: "ادرنہ کی اوچ شرفلی مسجد کی تعمیر" }
+summary:
+  ar: "بنى مراد الثاني جامع الشرفات الثلاث بأدرنة بين سنتي ٨٤١هـ/١٤٣٧-١٤٣٨م و٨٥١هـ/١٤٤٧-١٤٤٨م، وهو أكبر بناء شُيّد في الدولة العثمانية قبل فتح القسطنطينية؛ فناؤه الرخامي أول فناء جامع عثماني، ومئذنته ذات الشرفات الثلاث أول مئذنة عثمانية من هذا النوع {cite:encyclopaedia-of-islam-2 vol. 2 p. 712} {cite:freely-ottoman-architecture-2011 p. 68}."
+  en: "Murad II built Edirne's Üç Şerefeli Mosque between 841/1437-8 and 851/1447-8, the largest edifice erected in the Ottoman Empire before the conquest of Constantinople; its marble-paved courtyard is counted the first Ottoman mosque courtyard, and its three-balconied minaret the first Ottoman minaret of its kind {cite:encyclopaedia-of-islam-2 vol. 2 p. 712} {cite:freely-ottoman-architecture-2011 p. 68}."
+  ur: "مراد ثانی نے 841ھ/1437-38ء سے 851ھ/1447-48ء تک ادرنہ میں اوچ شرفلی مسجد بنوائی، جو فتح قسطنطنیہ سے پہلے عثمانی سلطنت کی سب سے بڑی عمارت تھی؛ اس کا سنگِ مرمر کا صحن پہلا عثمانی مسجد صحن شمار ہوتا ہے اور تین بالکنیوں والا مینار اپنی نوع کا پہلا عثمانی مینار ہے {cite:encyclopaedia-of-islam-2 vol. 2 p. 712} {cite:freely-ottoman-architecture-2011 p. 68}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1437", hijri: "0841", calendar: julian, precision: year, status: tradition, derived: true, note: "بُدئ سنة ٨٤١هـ/١٤٣٧-١٤٣٨م {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}." }
+  end: { edtf: "1447", hijri: "0851", calendar: julian, precision: year, status: tradition, derived: true, note: "اكتمل سنة ٨٥١هـ/١٤٤٧-١٤٤٨م {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}." }
+relations:
+  - { type: occurred_at, target: building/uc-serefeli-mosque, sources: [source/encyclopaedia-of-islam-2, source/freely-ottoman-architecture-2011] }
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "السلطان الآمر بالبناء", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/freely-ottoman-architecture-2011]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 712; Freely, A History of Ottoman Architecture (2011) p. 68 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

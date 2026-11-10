@@ -1,0 +1,31 @@
+id: event/ulama-hijra-nishapur-450
+class: event
+kind: migration
+label:
+  ar: "هجرة العلماء من نيسابور إلى الحجاز، نحو ٤٥٠هـ"
+  en: "The scholars' exodus from Nishapur toward the Hijaz, c. 450/1058"
+  ur: "نیشاپور سے علماء کی ہجرت بطرفِ حجاز، تقریباً 450ھ/1058ء"
+summary:
+  ar: "جاء أمر السلطان طغرل بك بالقبض على القشيري وإمام الحرمين وابن الموفق ونفيهم، فاختفى الجويني وخرج على طريق كرمان إلى الحجاز فسُمّي إمام الحرمين، وحجّ من جملة المهاجرين الحافظ أبو بكر البيهقي والأستاذ أبو القاسم القشيري وخلائق، حتى قيل إن تلك السنة اجتمع أربعمائة قاض من الشافعية والحنفية هاجروا بلادهم بسبب الواقعة {cite:tabaqat-shafiiyya-subki pp. 271-272}."
+  en: "Sultan Tughril Beg's order came to seize al-Qushayri, Imam al-Haramayn and Ibn al-Muwaqqiq and exile them; al-Juwayni hid and left by the Kirman road for the Hijaz — whence his title 'Imam of the two sanctuaries' — while the memorist Abu Bakr al-Bayhaqi and the master Abu al-Qasim al-Qushayri were among those who made the Pilgrimage; it is said that year brought together some four hundred qadis of the Shafi'is and Hanafis driven from their lands by the affair {cite:tabaqat-shafiiyya-subki pp. 271-272}."
+  ur: "سلطان طغرل بیک کا حکم آیا کہ قشیری، امام الحرمین اور ابن الموفق کو گرفتار کر کے جلاوطن کیا جائے؛ جوینی چھپ کر راہِ کرمان سے حجاز چلے گئے جہاں انھیں 'امام الحرمین' کہا گیا، جبکہ حافظ ابو بکر بيهقی اور استاد ابو القاسم قشیری ان مہاجرین میں شامل تھے جنھوں نے حج کیا؛ کہا جاتا ہے اس سال شافعی اور حنفی مذاہب کے تقریباً چار سو قاضی اس واقعے کی وجہ سے اپنے ملک سے نکالے گئے {cite:tabaqat-shafiiyya-subki pp. 271-272}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1058~", hijri: "0450~", calendar: julian, precision: year, status: tradition, derived: true, note: "الهجرة في أثناء فتنة ٤٤٥هـ وقبل وفاة طغرل بك ٤٥٥هـ؛ التاريخ تقريبي مشتق {cite:tabaqat-shafiiyya-subki pp. 271-272}." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: occurred_at, target: place/mecca, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "العالم المهاجر حاجًّا", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "الشيخ المهاجر", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "الشيخ المتواري ثم المهاجر إلى الحرمين", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/tughril-beg, role: "السلطان صاحب أمر النفي", sources: [source/tabaqat-shafiiyya-subki] }
+sources: [source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, printed pp. 271-272 (harvest OCR): 'fimimman hajja al-hafiz Abu Bakr al-Bayhaqi...'"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

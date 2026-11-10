@@ -1,0 +1,35 @@
+id: person/taha-baqir
+class: person
+label: { ar: "طه باقر", en: "Taha Baqir" }
+names:
+  - { kind: full, lang: ar, value: "طه باقر ناصر" }
+gender: male
+roles: [historian, scholar]
+traditions: [sunni]
+born: { edtf: "1912", hijri: "1331", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1984", hijri: "1403", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ وأثري عراقي ولد بالحلة جنوب غرب بغداد، وأسرته معروفة بسعة العلم."
+  en: "An Iraqi historian and archaeologist born in al-Hilla, south-west of Baghdad, from a family known for learning."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids:
+  wikidata: Q6811478
+relations:
+  - { type: born_in, target: place/hilla, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q243846)" }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+  - { type: buried_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q168193)" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص130"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch62

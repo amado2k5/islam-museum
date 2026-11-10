@@ -1,0 +1,24 @@
+id: person/shajar-al-durr
+class: person
+label: { ar: "شجر الدر سلطانة مصر" }
+names:
+  - { value: "شجر الدر أم خليل", kind: full }
+died: { edtf: "1257~", hijri: "0655", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتلت وألقيت تحت قلعة مصر مسلوبة ثم دفنت بتربتها سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 276}. (Not checked against the local scan in the showcase-prose pass: al-Maqrizi's Khitat gives her part in Aybak's death, not her own.)" }
+summary:
+  ar: "زوجة الملك الصالح أيوب وأم ولده خليل. كتمت موته سنة 647هـ حتى حضر توران شاه، ثم بويع لها بالسلطنة بعد قتل توران شاه، وخُطب لها وضُربت السكة باسمها، ثم تزوجها أيبك ونزلت له عن السلطنة، وقتلته في الحمام سنة 655هـ."
+  en: "The wife of al-Malik al-Salih Ayyub and mother of Khalil. She concealed his death in 647 AH until Turanshah came; after Turanshah was killed she was raised to the sultanate, the sermon was given in her name and coins struck with it, and after she married Aybak and ceded the throne to him she killed him in the bath in 655 AH."
+wings: [people]
+periods: [period/mongol-post-mongol]
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 660–661, 1384, 1657, 1912–1916"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane (Khitat sections)"
+  model: "claude-haiku-5-5"
+  run: "lib-tarikh-khulafa-batch-45, lib-shadharat-batch-129, showcase-prose-phase2-egypt-batch2"
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 118-121"]
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the death of al-Salih, the regency, Turanshah's killing, the sultanate, her marriage to Aybak and her killing of him are read from al-Maqrizi's Khitat (local scan, pp. 660–661, 1912–1916); her own death keeps its Shadharat citation and is not re-checked locally" }
+relations:
+  - { type: ruled_over, target: place/misr, sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006] }
+  - { type: lived_in, target: place/cairo, sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006] }
+  - { type: built, target: building/shajarat-al-durr-tomb, sources: [source/yeomans-islamic-cairo-2006] }

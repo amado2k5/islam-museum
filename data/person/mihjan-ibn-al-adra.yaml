@@ -1,0 +1,28 @@
+id: person/mihjan-ibn-al-adra
+class: person
+label:
+  ar: "محجن بن الأدرع"
+  en: "Mihjan ibn al-Adra'"
+names:
+  - { kind: full, lang: ar, value: "محجن بن الأدرع" }
+roles: [companion]
+summary:
+  ar: "محجن بن الأدرع الأسلمي، صحابي من كبار الرماة، مختط مسجد الصبرة، روى خمسة أحاديث؛ توفي سنة 60هـ ⁦(680م)⁩."
+  en: "Mihjan ibn al-Adra' al-Aslami (d. 60/680), Companion and famed archer who founded the mosque of al-Sabra."
+wings: [people]
+sources: [source/isaba-matba-al-saada-1328]
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/adra, confidence: low, note: "Associated with Adra per the record's own summary text; relation type pending review.", sources: [source/isaba-matba-al-saada-1328] }
+  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328] }
+external_ids:
+  wikidata: Q12239289
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.283)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: claude-haiku-5-5
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

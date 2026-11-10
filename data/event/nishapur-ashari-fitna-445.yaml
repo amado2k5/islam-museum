@@ -1,0 +1,31 @@
+id: event/nishapur-ashari-fitna-445
+class: event
+kind: persecution
+label:
+  ar: "فتنة اللعن على المنابر بنيسابور، افتتاح ٤٤٥هـ"
+  en: "The pulpit-cursing ordeal opens at Nishapur, 445/1053"
+  ur: "نیشاپور میں منبروں پر لعن کی فتنہ کا آغاز، 445ھ/1053ء"
+summary:
+  ar: "في مفتتح سنة خمس وأربعين وأربعمائة أمر وزير السلطان طغرل بك، عميد الملك أبو نصر منصور الكندري، بلعن المبتدعة على المنابر فاتخذها ذريعة لذكر الأشعرية وقصدهم بالإهانة والمنع من الوعظ والتدريس والعزل عن خطابة الجامع، فطار شرر الفتنة فملأ خراسان والشام والحجاز والعراق {cite:tabaqat-shafiiyya-subki pp. 269-276}."
+  en: "At the opening of 445/1053 Sultan Tughril Beg's vizier Amid al-Mulk Abu Nasr Mansur al-Kunduri ordered the cursing of innovators from the pulpits and used it as a pretext to name the Ash'arites, subjecting them to insult, exclusion from preaching and teaching, and removal from the mosque pulpit; the ordeal's sparks spread through Khurasan, Syria, the Hijaz and Iraq {cite:tabaqat-shafiiyya-subki pp. 269-276}."
+  ur: "445ھ/1053ء کے آغاز میں سلطان طغرل بیک کے وزیر عمید الملک ابو نصر منصور کندری نے منبروں پر بدعتیوں پر لعن کا حکم دیا اور اسے اشعریوں کے نام لینے کا بہانہ بنایا؛ انھیں اہانت، وعظ و تدریس سے روک اور جامع کے منبر سے عزل کیا گیا؛ فتنے کی چنگاریاں خراسان، شام، حجاز اور عراق تک پھیل گئیں {cite:tabaqat-shafiiyya-subki pp. 269-276}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1053", hijri: "0445", calendar: julian, precision: year, status: tradition, derived: true, note: "في مفتتح سنة خمس وأربعين وأربعمائة بحسب رسالة القشيري {cite:tabaqat-shafiiyya-subki p. 276}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "شاهد العصر والمتضرّر من الفتنة", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الوزير صاحب الأمر باللعن", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/tughril-beg, role: "السلطان الآمر بلعن المبتدعة", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "الشيخ المستهدف بالنفي", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "الشيخ المستهدف بالنفي", sources: [source/tabaqat-shafiiyya-subki] }
+sources: [source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, printed pp. 269-276 (harvest OCR): the fitna narrative and al-Qushayri's risala 'shikayat ahl al-sunna' opening 'في مفتتح سنة خمس وأربعين وأربعمائة'"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

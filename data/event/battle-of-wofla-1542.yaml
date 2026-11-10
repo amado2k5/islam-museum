@@ -1,0 +1,23 @@
+id: event/battle-of-wofla-1542
+class: event
+kind: battle
+label: { ar: "معركة وفلة", en: "Battle of Wofla" }
+summary:
+  ar: "بطاقة أولية لمعركة وفلة سنة ١٥٤٢م، هزيمة أحمد غران للحامية البرتغالية ومقتل كريستوفاو دا غاما في الحبشة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Wofla in 1542, Ahmad Gran's defeat of the Portuguese force and killing of Cristóvão da Gama in Ethiopia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [east-africa]
+date:
+  start: { edtf: "1542", precision: year, status: tradition, derived: true }
+  end: { edtf: "1542", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q835180
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ethiopian and Portuguese histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

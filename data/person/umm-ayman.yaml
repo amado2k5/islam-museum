@@ -1,17 +1,18 @@
 id: person/umm-ayman
 class: person
-label: { en: Umm Ayman (Baraka bint Tha'laba), ar: أم أيمن بركة بنت ثعلبة }
+label: { en: Umm Ayman (Baraka bint Tha'laba), ar: أم أيمن بركة بنت ثعلبة , ur: "ام ایمن، برکہ بنت ثعلبہ"}
 names:
   - { kind: full, lang: ar, value: بركة بنت ثعلبة الحبشية }
   - { kind: kunya, lang: ar, value: أم أيمن }
 gender: female
 born: { edtf: "056X", calendar: julian, precision: decade, status: tradition, note: "Year unknown; she was an Abyssinian woman of the Prophet's parents' household.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "065X", calendar: julian, precision: decade, status: tradition, note: "Reports place her death in the early caliphate; the year is not firmly recorded.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "065X", calendar: julian, precision: decade, status: tradition, note: "Reports place her death in the early caliphate; the year is not firmly recorded. يقول الكتاب إنها مرضت مرضاً شديداً في خلافة عثمان ثم توفيت (نساء حول الرسول ص28).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: [companion]
 traditions: [sunni]
 summary:
   en: "An Abyssinian freedwoman of the Prophet's family who cared for him as a child and again after his mother's death, and is counted among the Companions."
   ar: "مولاة حبشية من بيت أهل النبي، رعت شأنه صغيرًا ثم بعد وفاة أمه، وتُعد من الصحابة."
+  ur: "نبی کے خاندان کی حبشی آزاد کردہ خاتون جنہوں نے بچپن میں اور والدہ کی وفات کے بعد ان کی دیکھ بھال کی؛ صحابہ میں شمار ہوتی ہیں۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [women, slavery-and-freedom, race-colour-ethnicity]
 periods: [period/prophetic-era, period/rashidun]
@@ -27,5 +28,21 @@ relations:
   - { type: lived_in, target: place/medina, start: { edtf: "0622" } }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-uhud, role: tended-the-wounded, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }
+  - { type: spouse_of, target: person/zayd-ibn-haritha, note: "زوجة زيد بن حارثة الذي استشهد بمؤتة (نساء حول الرسول ص26-27).", sources: [source/nisa-hawl-alrasul] }
+  - { type: parent_of, target: person/usama-ibn-zayd, note: "أم أسامة بن زيد (نساء حول الرسول ص26-28).", sources: [source/nisa-hawl-alrasul] }
+  - { type: parent_of, target: person/ayman-ibn-ubayd, note: "أم الشهيد أيمن الذي استشهد بحُنين (نساء حول الرسول ص27-28).", sources: [source/nisa-hawl-alrasul] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+external_ids: { wikidata: "Q1982723" }
+sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi, source/fiqh-al-sira-al-ghazali, source/assabile-omar-abdelkafy, source/assabile-abla-al-kahlawi]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 18-28 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "Existing entry (Devin, 2026-10-11); lecture addition: Assabile, Tafsir Al Quran Al Qareem ep01 (Sheikh Omar Abdelkafy)"
+  generated_by: "Devin; Claude Sonnet (subagent) for the lecture section"
+  model: sonnet
+  run: omar-tafsir-bundle-5
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.

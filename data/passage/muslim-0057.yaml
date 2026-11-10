@@ -1,0 +1,16 @@
+id: passage/muslim-0057
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "57"
+label: { ar: "مسلم 57 — لا يزني الزاني حين يزني وهو مؤمن", en: "Muslim 57 — The adulterer is not a believer while he commits the act" }
+text: "قال رسول الله: «لا يزني الزاني حين يزني وهو مؤمن، ولا يسرق السارق حين يسرق وهو مؤمن، ولا يشرب الخمر حين يشربها وهو مؤمن»"
+summary:
+  ar: "رواية أبي هريرة عن الزهري في باب بيان أن الكبائر تنفي كمال الإيمان من كتاب الإيمان في صحيح مسلم؛ مادة كبرى في خلاف الخوارج والمرجئة وكتب العقيدة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب لا يزني الزاني حين يزني وهو مؤمن (طبعة دار التأصيل، الحديث ٤٩؛ ترقيم عبد الباقي المعروف 57)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

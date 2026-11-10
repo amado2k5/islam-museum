@@ -1,0 +1,19 @@
+id: media/diagram-kashi-circumference
+class: media
+kind: illustration
+label: { ar: "من المضلع إلى حساب المحيط", en: "From polygon to circumference computation", ur: "کثیرالاضلاع سے محیط کے حساب تک" }
+summary:
+  ar: "سلسلة عامة لتراث حسابي وتحسينه؛ لا إعادة إنشاء مخطوط."
+  en: "Generic chain of inherited computation and improvement, not a manuscript reconstruction."
+  ur: "سابق حساب اور بہتری کا عمومی سلسلہ؛ مخطوطے کی تعمیر نو نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/al-kashi-pi-calculation]
+alt:
+  ar: "هندسة الدائرة السابقة، ثم حساب الكاشي في المحيطية، ثم الدراسة والطبعات الحديثة."
+  en: "Earlier circle geometry, al-Kashi's Muhitiyya calculation, then modern editions and study."
+  ur: "سابق ہندسۂ دائرہ، محیطیہ میں کاشی کا حساب، پھر جدید اشاعت و مطالعہ۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/kashi-mactutor, source/iranica-kashi]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b60", source: "Generic build-time conceptual chain, no independently verified direct European genealogy." }

@@ -1,0 +1,27 @@
+id: event/nuwayri-death-733
+class: event
+kind: death
+label:
+  ar: "وفاة النويري بالقاهرة، ٢١ رمضان ٧٣٣هـ/٥ يونيو ١٣٣٣م"
+  en: "Al-Nuwayri's death at Cairo, 21 Ramadan 733/5 June 1333"
+  ur: "نويری کی وفات قاہرہ میں، 21 رمضان 733ھ/5 جون 1333ء"
+summary:
+  ar: "توفي النويري بالقاهرة في ٢١ رمضان ٧٣٣هـ/٥ يونيو ١٣٣٣م وله ست وخمسون سنة، وقد ألف عملاً ضخماً في تسعة آلاف صفحة وإحدى وثلاثين مجلدة سماه «نهاية الأرب في فنون الأدب»، كتبه بين ٧١٤هـ و٧٣١هـ في نحو سبعة عشر عاماً إذ ينتهي تاريخه فيها بسنة ٧٣١هـ قبل وفاته بسنتين؛ وكان حسن الشكل ظريفاً متودداً، وقد بلغ خطّ نسخة منه بيعت بألفي درهم {cite:encyclopaedia-of-islam-2 vol. 8 p. 159} {cite:durar-kamina-jil-1993 1/197}."
+  en: "Al-Nuwayri died at Cairo on 21 Ramadan 733/5 June 1333 at the age of fifty-six, having composed a monumental work of 9,000 pages in thirty-one volumes entitled Nihayat al-Arab fi Funun al-Adab, written between 714 and 731 over some seventeen years — his chronicle closing at 731, two years before his death. He was good-looking, charming and companionable; a copy in his hand sold for two thousand dirhams {cite:encyclopaedia-of-islam-2 vol. 8 p. 159} {cite:durar-kamina-jil-1993 1/197}."
+  ur: "نويری قاہرہ میں 21 رمضان 733ھ/5 جون 1333ء کو چھپن سال کی عمر میں فوت ہوئے؛ انہوں نے نو ہزار صفحات اور اکیس جلدوں کا عظیم الشان کام نہایۃ الارب فی فنون الادب مرتب کیا جو 714ھ سے 731ھ تک تقریباً سترہ برس میں لکھا گیا — ان کی تاریخ 731ھ پر ختم ہوتی ہے، وفات سے دو سال پہلے۔ وہ خوش صورت، ظریف اور متودد تھے؛ ان کے خط کا ایک نسخہ دو ہزار درہم میں بکا {cite:encyclopaedia-of-islam-2 vol. 8 p. 159} {cite:durar-kamina-jil-1993 1/197}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1333-06-05", hijri: "0733-09-21", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في ٢١ شهر رمضان سنة ٧٣٣هـ {cite:durar-kamina-jil-1993 1/197}؛ المقابل ٥ يونيو ١٣٣٣م {cite:encyclopaedia-of-islam-2 vol. 8 p. 159}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/al-nuwayri, role: "المتوفى", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 159; Durar al-Kamina j.1 p. 197 (harvest DurarKamina__drkamth1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

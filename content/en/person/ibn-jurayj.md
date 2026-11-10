@@ -1,0 +1,17 @@
+---
+id: person/ibn-jurayj
+lang: en
+source_lang: ar
+translators: []
+---
+## In brief
+Ibn Jurayj, the imam and memoriser, jurist of the sanctuary, Abu al-Walid — also said Abu Khalid — Abd al-Malik b. Abd al-Aziz b. Jurayj the Byzantine, client of the Umayyads of Mecca, author of compilations and one of the great figures; born in 80 AH, he heard his father, a little from Mujahid, extensively from Ata' b. Abi Rabah, and from Maymun b. Mihran, Amr b. Shu'ayb, Nafi', al-Zuhri, and a great many. {cite:tazkirat-al-huffaz j.1 p.164}
+
+## Transmission and works
+The two Sufyans, Muslim b. Khalid, Ibn Uluyya, Hajjaj b. Muhammad, Abu Asim, Ruh, Waki', Abd al-Razzaq, and hosts besides narrated from him; Ahmad b. Hanbal said "he was among the vessels of knowledge, and he and Ibn Abi Aruba were the first to compile books", Abd al-Razzaq said "I never saw anyone pray better than Ibn Jurayj — seeing him you knew he feared God", Yahya al-Qattan said "Ibn Jurayj was not, for me, below Malik in Nafi'", and Ibn al-Madini said "no one on earth knew Ata' better than Ibn Jurayj"; he practised tadlis. {cite:tazkirat-al-huffaz j.1 p.164-165}
+
+## His death
+Al-Waqidi says Ibn Jurayj died at the opening of Dhu al-Hijja, 150 AH. {cite:tazkirat-al-huffaz j.1 p.165}
+
+## His commentary in al-Tabari's Jami' al-Bayan
+In [[work/jami-al-bayan|Jami' al-Bayan]] the commentary of [[person/ata-ibn-abi-rabah|Ata ibn Abi Rabah]] reaches [[person/al-tabari|al-Tabari]] by way of Ibn Jurayj (d. 150 AH): al-Qasim ibn al-Hasan al-Hamadani, from al-Hasan ibn Dawud al-Massisi (so in the thesis), from Hajjaj ibn Muhammad al-Massisi, from Ibn Jurayj. {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48} {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.49}

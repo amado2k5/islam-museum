@@ -1,0 +1,21 @@
+id: person/abu-malik-al-hadrami
+class: person
+label: { ar: "أبو مالك الحضرمي", en: "Abu Malik al-Hadrami" }
+summary:
+  ar: "خارجي المذهب من الشراة، قال في مجلس يحيى إن العشق نفث السحر وأخفى وأحر من الجمر وله نفوذ في القلب كنفوذ صيب المزن في خلل الرمل {cite:muruj-al-dhahab p. 358}."
+  en: "The Kharijite speaker — 'sorcery's breath, subtler and hotter than embers' — at Yahya's majlis {cite:muruj-al-dhahab p. 358}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bukhari, al-Tarikh al-Kabir; Ibn Hajar, Tahdhib" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "Kharijite speaker bearing the Hadrami nisba; Hadramawt-level association inferred.", sources: [source/muruj-al-dhahab], confidence: low }

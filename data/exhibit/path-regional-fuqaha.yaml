@@ -1,0 +1,77 @@
+id: exhibit/path-regional-fuqaha
+class: exhibit
+kind: trail
+label:
+  ar: فقهاء الأمصار
+  en: Fuqaha of the Garrison Towns
+summary:
+  ar: 'مسار في فقهاء القرن الأول: الأوزاعي في الشام، والليث في مصر، والثوري في الكوفة، وابن جريج في مكة
+    — المدارس قبل الأئمة.'
+  en: A trail through first-century regional fiqh.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الأوزاعي
+    en: Al-Awza'i
+  body:
+    ar: 'إمام الشام: فقيه بيروت وثغرها.'
+    en: 'إمام الشام: فقيه بيروت وثغرها.'
+  features:
+  - person/al-awzai-abd-al-rahman
+  - place/damascus
+- title:
+    ar: الليث بن سعد
+    en: Al-Layth
+  body:
+    ar: 'فقيه مصر: مالك يقرّ له بالفقه.'
+    en: 'فقيه مصر: مالك يقرّ له بالفقه.'
+  features:
+  - person/layth-ibn-sad
+  - place/al-fustat
+- title:
+    ar: سفيان الثوري
+    en: Al-Thawri
+  body:
+    ar: 'أمير المؤمنين في الحديث: الكوفة.'
+    en: 'أمير المؤمنين في الحديث: الكوفة.'
+  features:
+  - person/sufyan-al-thawri
+  - place/kufa
+- title:
+    ar: ابن جريج
+    en: Ibn Jurayj
+  body:
+    ar: 'مكة تدوّن: أول مصنف في الحجاز.'
+    en: 'مكة تدوّن: أول مصنف في الحجاز.'
+  features:
+  - person/ibn-jurayj
+  - place/mecca
+- title:
+    ar: سفيان بن عيينة
+    en: Ibn Uyayna
+  body:
+    ar: 'فقيه مكة بعد عطاء: ثلاثة قرون تسأله.'
+    en: 'فقيه مكة بعد عطاء: ثلاثة قرون تسأله.'
+  features:
+  - person/sufyan-ibn-uyayna
+  - place/mecca
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

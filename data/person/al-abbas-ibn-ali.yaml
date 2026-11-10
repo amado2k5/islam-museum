@@ -1,0 +1,27 @@
+id: person/al-abbas-ibn-ali
+class: person
+label: { ar: "العباس بن علي", en: "al-'Abbas ibn 'Ali" }
+summary:
+  ar: "ابن علي بن أبي طالب من أم البنين بنت حرام الوحيدية، قتل مع أخيه الحسين يوم الطف لعشر خلون من المحرم سنة إحدى وستين، وكان العقب لعلي من خمسة منهم العباس {cite:muruj-al-dhahab p. 60,62}."
+  en: "Ali's son by Umm al-Banin — killed beside al-Husayn on 'Ashura' 61, one of the five sons through whom Ali's line continued {cite:muruj-al-dhahab p. 60,62}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+external_ids: { wikidata: "Q293538" }
+sources: [source/muruj-al-dhahab, source/wikidata]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "647", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/karbala, note: "Wikidata Q199909 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-abbas-mosque, note: "Wikidata Q3250647 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/medina, note: "Wikidata Q35484 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

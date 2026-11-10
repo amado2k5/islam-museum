@@ -1,0 +1,29 @@
+id: person/semiz-ali-pasha
+class: person
+label:
+  ar: "سمز علي باشا"
+  en: "Semiz Ali Pasha"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لسمز علي باشا، الصدر الأعظم العثماني في عهد سليمان القانوني بعد رستم باشا، توفي سنة ١٥٦٥م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Semiz Ali Pasha, Ottoman grand vizier under Suleiman after Rustem Pasha, d. 1565; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: building/eyup-sultan-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q956677)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4893443
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0014
+status:
+  review: draft
+  completeness: 1

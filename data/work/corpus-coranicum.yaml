@@ -1,0 +1,38 @@
+id: work/corpus-coranicum
+class: work
+kind: online-library
+label:
+  ar: "كوربوس كورانيكوم ⁦(مدونة القرآن)⁩"
+  en: "Corpus Coranicum"
+  ur: "کورپس کورانیکم"
+summary:
+  ar: "مشروع بحثي رقمي لأكاديمية برلين-براندنبورغ للعلوم والإنسانيات بين 2007 و2024، أتاح على الشبكة مصادر تاريخ القرآن: صور أقدم مخطوطاته وبياناتها وتأريخ أكثر من أربعين منها بالكربون المشع، وقاعدة للقراءات، ونصوصًا من بيئة القرآن، وتعليقًا أدبيًا؛ قادته أنغيليكا نويفيرت وميخائيل ماركس، وتواصل منذ 2025 في جمعية تحمل اسمه."
+  en: "A digital research project of the Berlin-Brandenburg Academy of Sciences and Humanities from 2007 to 2024 that put online the sources for the history of the Qur'an: images and data of its earliest manuscripts, with radiocarbon dating of more than forty, a database of the readings, texts from the Qur'an's environment and a literary commentary; led by Angelika Neuwirth and Michael Marx, it has continued since 2025 in an association of its name."
+  ur: "برلن-برینڈنبرگ اکیڈمی آف سائنسز اینڈ ہیومینٹیز کا 2007 سے 2024 تک کا ڈیجیٹل تحقیقی منصوبہ جس نے قرآن کی تاریخ کے مآخذ آن لائن کیے: قدیم ترین مخطوطات کی تصاویر اور معلومات، چالیس سے زیادہ کی ریڈیو کاربن تاریخ، قراءات کا ڈیٹا بیس، قرآن کے ماحول کے متون اور ادبی تفسیر؛ قیادت انگیلیکا نوئیورتھ اور میخائیل مارکس نے کی، اور 2025 سے اسی نام کی انجمن میں جاری ہے۔"
+wings: [words, today]
+url: "https://corpuscoranicum.org"
+launched:
+  edtf: "2007"
+  hijri: "1428~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "The project ran from 2007 to 2024 (BBAW Jahrbuch 2007, as the English article cites it); continued from 2025 by Corpus Coranicum e.V. The Hijri year (1427 to 1428) is converter-derived."
+  sources: [source/wikipedia-corpus-coranicum-en]
+languages: [de, en, fr, ar]
+content_type: academic
+relations:
+  - { type: about, target: work/quran, note: "the history of its text, manuscripts and readings; no Qur'anic text is typed here", sources: [source/wikipedia-corpus-coranicum-en] }
+footprint:
+  wikidata: "Q831654"
+external_ids:
+  wikidata: Q831654
+sources: [source/wikipedia-corpus-coranicum-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Corpus Coranicum' (revision 1365852719), read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b13
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

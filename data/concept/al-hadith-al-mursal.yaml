@@ -1,0 +1,37 @@
+id: concept/al-hadith-al-mursal
+class: concept
+kind: term
+label: { ar: "الحديث المرسل", en: "The loosely attributed report (mursal)", ur: "مرسل حدیث" }
+summary:
+  ar: "المرسل عند ابن حجر ما سقط من آخر إسناده من بعد التابعي، بأن يقول التابعي: قال رسول الله كذا؛ ويُردّ للجهل بحال المحذوف، واختلف في الاحتجاج به إذا عُرف أن التابعي لا يرسل إلا عن ثقة: فتوقف جمهور المحدثين، وقبله المالكيون والكوفيون مطلقاً، وقبله الشافعي إذا اعتضد {cite:nuzhat-al-nazar-itr-bushra-2011 p. 78-79}."
+  en: "For Ibn Hajar the loosely attributed report (mursal) is one from whose chain the link after the Successor has dropped, the Successor saying 'The Messenger of God said...'; it is rejected because the omitted narrator is unknown, and scholars differed on using it when the Successor is known to omit only trustworthy narrators: most hadith scholars suspended judgement, the Malikis and Kufans accepted it outright, and al-Shafi'i accepted it when supported {cite:nuzhat-al-nazar-itr-bushra-2011 p. 78-79}."
+  ur: "ابن حجر کے نزدیک مرسل وہ ہے جس کی سند کے آخر سے تابعی کے بعد کا راوی ساقط ہو، یعنی تابعی کہے: 'رسول اللہ نے فرمایا...'؛ محذوف کی حالت نامعلوم ہونے سے یہ رد ہوتا ہے، اور جب معلوم ہو کہ تابعی صرف ثقہ سے ارسال کرتا ہے تو اس سے استدلال میں اختلاف ہے: جمہور محدثین نے توقف کیا، مالکیوں اور کوفیوں نے مطلقاً قبول کیا، اور شافعی نے تائید ملنے پر قبول کیا {cite:nuzhat-al-nazar-itr-bushra-2011 p. 78-79}۔"
+relations:
+  - { type: part_of, target: concept/mustalah-al-hadith, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+  - { type: related_to, target: concept/inqita, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+wings: [ideas, words]
+themes: [scripture-and-its-sciences]
+regions: [global]
+issue: { ar: "هل يُحتج بالمرسل؟", en: "Is the mursal report usable as proof?", ur: "کیا مرسل حدیث سے استدلال ہو سکتا ہے؟" }
+sensitivity: contested
+perspectives:
+  - tradition: sunni
+    id: jumhur-al-muhaddithin-tawaqquf
+    stance: { ar: "التوقف لبقاء الاحتمال", en: "Suspension, since the uncertainty remains", ur: "احتمال باقی رہنے کی وجہ سے توقف" }
+    summary: { ar: "جمهور المحدثين، وهو أحد قولي أحمد: إذا عُرف من عادة التابعي أنه لا يرسل إلا عن ثقة، يُتوقف فيه لبقاء الاحتمال.", en: "Most hadith scholars, and one of Ahmad's two views: even when the Successor is known to omit only trustworthy narrators, judgement is suspended because the uncertainty remains.", ur: "جمہور محدثین، اور احمد کے دو اقوال میں سے ایک: اگر تابعی کی عادت معلوم ہو کہ وہ صرف ثقہ سے ارسال کرتا ہے تب بھی احتمال باقی رہنے کی وجہ سے توقف کیا جاتا ہے۔" }
+    holders: [person/ahmad-ibn-hanbal]
+    sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+  - tradition: sunni
+    id: malikiyya-kufiyyun-qabul
+    stance: { ar: "يُقبل مطلقاً", en: "Accepted outright", ur: "مطلقاً مقبول" }
+    summary: { ar: "المالكيون والكوفيون، وهو القول الثاني لأحمد: يُقبل مطلقاً.", en: "The Malikis and the Kufans, and Ahmad's second view: it is accepted outright.", ur: "مالکی اور کوفی، اور احمد کا دوسرا قول: مطلقاً مقبول ہے۔" }
+    sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+  - tradition: sunni
+    id: shafii-itidad
+    stance: { ar: "يُقبل إن اعتضد", en: "Accepted if supported", ur: "تائید ہو تو مقبول" }
+    summary: { ar: "الشافعي: يُقبل إن اعتضد بمجيئه من وجه آخر يباين الطريق الأولى، مسنداً أو مرسلاً، ليرجح احتمال كون المحذوف ثقة.", en: "Al-Shafi'i: it is accepted if supported by its coming through another route distinct from the first, with a full chain or loosely attributed, making it likelier that the omitted narrator was trustworthy.", ur: "شافعی: اگر کسی دوسرے طریق سے، جو پہلے سے مختلف ہو، مسند یا مرسل آ کر اسے تائید ملے تو مقبول ہے، تاکہ محذوف کے ثقہ ہونے کا احتمال راجح ہو۔" }
+    holders: [person/al-shafii]
+    sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+provenance: { layer: own-research, source: "Nuzhat al-Nazar, ed. 'Itr, al-Bushra 2011, pp. 78-79 (printed)", generated_by: "Claude Code (OCR-harvest worker A)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker A)" }

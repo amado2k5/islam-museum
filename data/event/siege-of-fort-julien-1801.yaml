@@ -1,0 +1,23 @@
+id: event/siege-of-fort-julien-1801
+class: event
+kind: siege
+label: { ar: "حصار حصن جوليان", en: "Siege of Fort Julien" }
+summary:
+  ar: "بطاقة أولية لحصار حصن جوليان سنة ١٨٠١م، الحصار البريطاني العثماني للموقع الفرنسي قرب رشيد؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Fort Julien in 1801, the Anglo-Ottoman siege of the French position near Rosetta; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1801", precision: year, status: tradition, derived: true }
+  end: { edtf: "1801", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q22936434
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

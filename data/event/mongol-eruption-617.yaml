@@ -1,0 +1,23 @@
+id: event/mongol-eruption-617
+class: event
+kind: campaign
+label: { ar: "خروج التتر إلى بلاد الإسلام", en: "The Mongols Erupt into the Lands of Islam" }
+summary:
+  ar: "في سنة سبع عشرة وستمائة ظهر التتر إلى بلاد الإسلام وهم نوع كثير من الترك مساكنهم جبال طمغاج من نحو الصين؛ ويستهل ابن الأثير خبرها بقوله إنه بقي سنين معرضاً عن ذكرها استعظاماً لها: فمن الذي يسهل عليه أن يكتب نعي الإسلام والمسلمين، ويا ليت أمي لم تلدني ويا ليتني مت قبل هذا وكنت نسياً منسياً، ويعدها الحادثة العظمى التي عقت الأيام والليالي عن مثلها، فيقول لو قال قائل إن العالم منذ خلق الله آدم لم يبتلوا بمثلها لكان صادقاً، وما فعله بختنصر ببني إسرائيل من القتل وتخريب بيت المقدس لا يقاس إليه إذ كل مدينة مما خربوه أضعاف بيت المقدس؛ ويصفهم فقوم خرجوا من أطراف الصين فقصدوا بلاد تركستان كاشغر وبلاساغون ثم ما وراء النهر سمرقند وبخارى، ثم عبرت طائفة إلى خراسان فأفرغوها ملكاً وتخريباً ونهباً، ثم الري وهمذان وبلاد الجبل إلى حد العراق ثم أذربيجان وأران، ثم دربند شروان وبلاد اللان واللكز وقبجاق، كل ذلك في أقل من سنة بمقدار مسيرهم لا غير، فيقول إن الإسكندر الذي اتفق المؤرخون على أنه ملك الدنيا لم يملكها إلا في نحو عشر سنين وهؤلاء ملكوا أكثر المعمور في نحو سنة؛ ويصف عادتهم فلا يحتاجون إلى ميرة يتبعهم لأن معهم أغنامهم وبقرهم وخيلهم ودوابهم تحفر الأرض بحوافرها وتأكل عروق النبات لا تعرف الشعير، ويسجدون للشمس عند طلوعها ولا يحرمون من الدواب شيئاً؛ ويعلل تمكنهم بأن خوارزم شاه محمداً كان استولى على البلاد وقتل ملوكها وأفناهم فلما انهزم لم يبق في البلاد مانع ولا حامٍ {cite:kamil-ibn-al-athir p. 399-401}."
+  en: "In 617 the Mongols erupted into the lands of Islam: a large people of Turks whose dwellings were the mountains of Tamghaj, on the side of China. Ibn al-Athir opens their story by saying that he had for years held back from recounting it, out of awe: who could bring himself to write the obituary of Islam and the Muslims, wishing he had died before it and been forgotten? He calls it a calamity such that the days and nights have been barren of its like, and says that had someone claimed no people since Adam had suffered its like, he would have spoken truly; what Nebuchadnezzar did to the Children of Israel, the killing and the wrecking of Jerusalem, is nothing beside it, since every city they ruined was many times Jerusalem. He describes how they came out from the edges of China and made for Turkistan, Kashghar and Balasaghun, then Transoxania, Samarkand and Bukhara; a detachment crossed into Khurasan and left it emptied of rule through ruin and plunder; then Rayy, Hamadan and the Jibal to the borders of Iraq, then Azerbaijan and Arran, then Darband of Shirvan, the lands of the Lan and the Lakz, and the Qipchaq, all in less than a year by the measure of their march alone. Alexander, whom the historians agree ruled the world, held it for about ten years; these took most of the inhabited world in about a year. He describes their way of life: they need no supply train, since their sheep, cattle, horses and mounts dig the earth with their hooves and eat plant roots; they know no barley; they prostrate to the sun at its rising, and they forbid none of the beasts. He explains their success: Khwarazm-shah Muhammad had seized those lands, killing and wiping out their kings, so that once he was beaten nothing stood to bar or defend them {cite:kamil-ibn-al-athir p. 399-401}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1220~", hijri: "0617", calendar: julian, precision: year, status: tradition, derived: true, note: "617؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 399}." }
+relations:
+  - { type: had_participant, target: person/genghis-khan, role: "ملك التتر المسمى تموجين", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "سلطان البلاد الذي أفنى ملوكها قبلهم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 617، ص 399–401"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-07
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

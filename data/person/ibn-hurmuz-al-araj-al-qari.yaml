@@ -1,0 +1,19 @@
+id: person/ibn-hurmuz-al-araj-al-qari
+class: person
+label: { ar: "ابن هرمز الأعرج القارئ", en: "Ibn Hurmuz al-A'raj al-Qari" }
+summary:
+  ar: "ابن هرمز الأعرج القارئ؛ كان يقول خير سواحلكم رباطاً الإسكندرية فخرج إليها من المدينة مرابطاً فمات بها سنة سبع عشرة ومائة."
+  en: "Ibn Hurmuz al-A'raj al-Qari; he used to say 'the best of your coasts for ribat is Alexandria', and went out to it from Medina as a murabit, dying there in year 117."
+wings: [people]
+periods: [period/umayyad]
+regions: [egypt-nile]
+relations:
+  - { type: traveled_to, target: place/iskandariyya, role: "مرابطاً حتى مات بها", sources: [source/futuh-buldan-maarif-1407] }
+died: { hijri: "0117", precision: year, status: tradition, note: "البلاذري ص 313" }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 313"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

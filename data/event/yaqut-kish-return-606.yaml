@@ -1,0 +1,27 @@
+id: event/yaqut-kish-return-606
+class: event
+kind: other
+label:
+  ar: "عودة ياقوت من كيش فيجد مولاه قد مات، فيتجر بالكتب، ٦٠٦هـ/١٢٠٩م"
+  en: "Yaqut returns from Kish to find his former master dead, and takes to the book trade, 606/1209"
+  ur: "یاقوت کیش سے واپس آیا تو مولیٰ کا انتقال ہو چکا تھا، کتابوں کی تجارت شروع کی، 606ھ/1209ء"
+summary:
+  ar: "سفّره مولاه إلى كيش بالمضاربة، فلما عاد سنة ٦٠٦هـ/١٢٠٩م وجد أن عسكراً قد مات، فأعطى أولاده وزوجته ما رضوا به وبقى بيده بقية جعلها رأس ماله وسافر بها، وجعل بعض تجارته كتباً {cite:shadharat-dhahab p. 121} {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}؛ وبدأ بيع الكتب ببغداد مما دفعه إلى الاطلاع على مخطوطات نادرة وسهّل عليه التعرف على كبار علماء العالم الإسلامي {cite:mawsuat-a3lam-ulama-adaba p. 277}."
+  en: "His former master sent him to Kish as a mudarib; on his return in 606/1209 he found Askar dead. He gave the widow and sons their satisfaction, kept the remainder as his capital and travelled with it, making books part of his trade {cite:shadharat-dhahab p. 121} {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}. Selling books in Baghdad drew him to rare manuscripts and introduced him to the leading scholars of the Islamic world {cite:mawsuat-a3lam-ulama-adaba p. 277}."
+  ur: "سابق مولیٰ نے اسے مضاربے پر کیش بھیجا؛ 606ھ/1209ء میں لوٹا تو عسکر فوت کر چکا تھا۔ بیوہ اور بیٹوں کو ان کا حصہ دیا، باقی سرمایہ بنا کر سفر کیا اور تجارت کا کچھ حصہ کتابیں بنا لیا {cite:shadharat-dhahab p. 121} {cite:encyclopaedia-of-islam-2 vol. 11 p. 264}. بغداد میں کتابیں بیچنے سے نایاب مخطوطات دیکھنے اور اسلامی دنیا کے بڑے علماء سے ملنے کا موقع ملا {cite:mawsuat-a3lam-ulama-adaba p. 277}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1209", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true, note: "عودته من كيش وموت عسكر سنة ٦٠٦هـ {cite:encyclopaedia-of-islam-2 vol. 11 p. 264} {cite:shadharat-dhahab p. 121}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/kish, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

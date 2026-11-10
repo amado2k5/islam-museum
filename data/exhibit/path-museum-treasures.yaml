@@ -1,0 +1,87 @@
+id: exhibit/path-museum-treasures
+class: exhibit
+kind: trail
+label:
+  ar: كنوز المتحف
+  en: Treasures of the Museum
+summary:
+  ar: 'مسار في عشرة أعيان من مقتنيات المتحف: محراب سالتنج، وكسوة الكعبة، ومنبر الكتبية، وسجادة أردبيل،
+    والأسطرلابات والمصاحف.'
+  en: 'A trail through ten museum treasures: the Salting Mihrab, the Kiswa, the Kutubiyya minbar, the
+    Ardabil carpet, astrolabes and Qur''an folios.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: محراب سالتنج
+    en: The Salting Mihrab
+  body:
+    ar: 'كاشان نحو 1300: تيجان المحراب باللجورد والذهب.'
+    en: 'Kashan c.1300: the mihrab''s crown of lustre.'
+  features:
+  - object/mihrab-salting
+  - object/mihrab-isfahan
+- title:
+    ar: كسوة البيت
+    en: The Kiswa
+  body:
+    ar: 'ستارة الكعبة: نسيج الهدية السنوية عبر القرون.'
+    en: 'The Kaaba''s covering: an annual gift across centuries.'
+  features:
+  - object/kiswa
+  - building/kaaba
+- title:
+    ar: منبر الكتبية
+    en: The Kutubiyya minbar
+  body:
+    ar: 'قرطبة تصنع لمراكش: أعظم منابر الإسلام.'
+    en: 'Cordoba builds for Marrakesh: Islam''s greatest pulpit.'
+  features:
+  - object/minbar-kutubiyya
+  - object/minbar-mamluki
+- title:
+    ar: سجادة أردبيل
+    en: The Ardabil Carpet
+  body:
+    ar: 'تبريز 946هـ: أشهر سجادة في العالم بقبة ومصباحين.'
+    en: 'Tabriz 1539: the world''s most famous carpet.'
+  features:
+  - object/ardabil-carpet
+  - object/hunting-carpet-poldi
+- title:
+    ar: أسطرلاب عمر بن يوسف
+    en: An astrolabe
+  body:
+    ar: آلة النجوم بين يدي مؤذن مولوي 1235.
+    en: The star-machine of a Mevlevi muezzin, 1235.
+  features:
+  - object/astrolabe-umar-ibn-yusuf
+- title:
+    ar: المصاحف
+    en: The codices
+  body:
+    ar: 'المصحف الأزرق وأوراق القرون: كتاب الله فناً وقراءة.'
+    en: The Blue Qur'an and the centuries' folios.
+  features:
+  - object/al-mushaf-al-azraq
+  - object/awraq-quran-abbasi
+  - object/kursi-quran
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

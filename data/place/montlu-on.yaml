@@ -1,0 +1,21 @@
+id: place/montlu-on
+class: place
+kind: town
+label: { ar: "مونلوسون", en: "Montluçon", ur: "مونٹلوکون" }
+summary:
+  ar: "بلدة في فرنسا."
+  en: "Town in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [46.34, 2.6025]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q193256" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q193256 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

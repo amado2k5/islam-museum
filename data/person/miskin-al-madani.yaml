@@ -1,0 +1,22 @@
+id: person/miskin-al-madani
+class: person
+label: { ar: "مسكين المدني", en: "Miskin al-Madani" }
+summary:
+  ar: "يعرف بأبي صدقة، كان عبداً خياطاً لبعض آل الزبير يدفع ضريبة درهمين في اليوم، اشترى صوتاً من سوداء تحمل جرة بأربعة دراهم على دفعتين فحلق مولاه لحيته ورأسه وضربه خمسين جريدة ثم قال لو كنت قلته أمس لأعتقتك، فغناه للرشيد في محفل المغنين فرفعت الستارة وأمر له بأربعة آلاف دينار كما قالت السوداء {cite:muruj-al-dhahab p. 348-349}."
+  en: "The tailor-slave who bought the jar-girl's tune for four dirhams and a shaved head — and sang it before al-Rashid for four thousand dinars {cite:muruj-al-dhahab p. 348-349}."
+gender: male
+wings: [people]
+died: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/az-zubayr, confidence: low, note: "Associated with الزبير per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

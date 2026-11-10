@@ -1,0 +1,31 @@
+id: person/nergisi
+class: person
+label:
+  ar: "نرجسي"
+  en: "Nergisi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لنرجسي، كاتب عثماني القرن السابع عشر صاحب نهاية المذاق، توفي سنة ١٦٣٥م؛ تذكره كتب الأدب ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nergisi, the seventeenth-century Ottoman writer author of Nihayat al-Madhaq, d. 1635; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1592~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nargisi); TDV Islam Ansiklopedisi" }
+died: { edtf: "1635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nargisi); TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/sarajevo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11194)" }
+  - { type: died_in, target: place/gebze, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q206116)" }
+  - { type: lived_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q12560)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1977944
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0060
+status:
+  review: draft
+  completeness: 1

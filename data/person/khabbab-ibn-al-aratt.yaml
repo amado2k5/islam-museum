@@ -1,6 +1,7 @@
 id: person/khabbab-ibn-al-aratt
 class: person
 label: { en: "Khabbab ibn al-Aratt", ar: "خباب بن الأرت" }
+aliases: [person/habbab-ibn-al-aratt]
 names:
   - { kind: full, lang: ar, value: "خباب بن الأرت التميمي" }
 gender: male
@@ -16,7 +17,17 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+born: { edtf: "586~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
+  - { type: born_in, target: place/najd, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+external_ids: { wikidata: "Q1147560" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 75-76 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"

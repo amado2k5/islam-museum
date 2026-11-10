@@ -1,0 +1,27 @@
+id: event/aqsa-minbar-nur-al-din
+class: event
+kind: other
+label:
+  ar: "منبر نور الدين يُصنع للمسجد الأقصى"
+  en: "Nur al-Din's minbar made for al-Aqsa"
+  ur: "نور الدین کا منبر مسجدِ اقصیٰ کے لیے تیار"
+summary:
+  ar: "أمر نور الدين محمود بن زنكي بصنع منبر للمدينة المقدسة التي كان يأمل استردادها، فصُنع سنة 1169م وهو تحفة النجارة الشامية؛ وجلبه صلاح الدين إلى الأقصى حين أعاد المسجد إلى الإسلام سنة 1187م، وبقي فيه حتى أتت عليه يد مُحرق سنة 1969م قبل أن يُدرس كما ينبغي {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}."
+  en: "Nur al-Din Mahmud ibn Zangi ordered a minbar made in 1169 for the Holy City he hoped to regain; it was a masterpiece of Syrian woodwork. Saladin brought it into the Aqsa when he reconsecrated the mosque in 1187, and it stood there until an arsonist destroyed it in 1969, before it could be fully studied {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}."
+  ur: "نور الدین محمود زنگی نے 1169ء میں اس مقدس شہر کے لیے ایک منبر بنوایا جس کی واپسی کی وہ امید رکھتا تھا؛ یہ شامی نقاشی کا شاہکار تھا۔ صلاح الدین نے 1187ء میں مسجد کی تقدیس بحال کرتے ہوئے اسے مسجدِ اقصیٰ میں نصب کیا اور وہ وہاں 1969ء تک رہا جب ایک آتش زن نے اسے تباہ کر دیا {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1169", hijri: "0564~", calendar: julian, precision: year, status: tradition, derived: true, note: "صُنع المنبر سنة 1169م بأمر نور الدين {cite:encyclopaedia-of-islam-2 vol. 6 p. 735}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "الآمر بصنعه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 6, art. 'al-Masdjid al-Aksa' (O. Grabar), PDF p. 735, Apple Vision OCR (books/encyclopaedia-of-islam-2)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-aqsa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

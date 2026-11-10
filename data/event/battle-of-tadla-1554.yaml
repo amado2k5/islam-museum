@@ -1,0 +1,23 @@
+id: event/battle-of-tadla-1554
+class: event
+kind: battle
+label: { ar: "معركة تادلة", en: "Battle of Tadla" }
+summary:
+  ar: "بطاقة أولية لمعركة تادلة سنة ١٥٥٤م، فوز السعديين على الوطاسيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tadla in 1554, the Saadian victory over the Wattasids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1554", precision: year, status: tradition, derived: true }
+  end: { edtf: "1554", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q3636630
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

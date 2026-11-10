@@ -4,8 +4,8 @@ kind: treaty
 label: { en: "The Pledges of Aqaba", ar: "بيعتا العقبة" }
 summary:
   en: "The First and Second Pledges of Aqaba at Mina in the 12th and 13th years of prophethood (621 and 622 CE), in which delegates from Yathrib pledged allegiance to the Prophet, preparing Medina as the haven of the Hijra."
-  ar: "بيعتا العقبة الأولى (بيعة النساء: 12 رجلاً في سنة 12 نبوية) والثانية (بيعة الحرب: 73 رجلاً وامرأتان في سنة 13 نبوية) عند العقبة بمنى، اللتان مهدتا لهجرة المسلمين وتأسيس دار الإسلام بالمدينة."
-wings: [time, people]
+  ar: "بيعتا العقبة الأولى ⁦(بيعة النساء: 12 رجلاً في سنة 12 نبوية)⁩ والثانية ⁦(بيعة الحرب: 73 رجلاً وامرأتان في سنة 13 نبوية)⁩ عند العقبة بمنى، اللتان مهدتا لهجرة المسلمين وتأسيس دار الإسلام بالمدينة."
+wings: [time]
 themes: [peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -24,5 +24,14 @@ relations:
   - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "حضر ليتوثق لابن أخيه وهو على دين قومه", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/ansar, role: "المبايعون من الأوس والخزرج", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143-154" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 336, unsigned article 'al-'Aqaba' (first entry, the pass at Mina) (EI2 enrichment, batch ei2-b003 part 3cw); earlier sources as listed in sources"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143-154; EI2 account added in part 3cw" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b2", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

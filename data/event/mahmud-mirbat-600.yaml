@@ -1,0 +1,26 @@
+id: event/mahmud-mirbat-600
+class: event
+kind: conquest
+label: { ar: "استيلاء محمود الحميري على مرباط", en: "Mahmud al-Himyari seizes Mirbat in Hadramawt" }
+date:
+  start: { edtf: "1203~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
+summary:
+  ar: "استولى محمود بن محمد الحميري على مدينة مرباط وما والاها من بلاد حضرموت {cite:kamil-ibn-al-athir p. 293}."
+  en: "Mahmud ibn Muhammad al-Himyari seized Mirbat and its Hadramawt coastlands {cite:kamil-ibn-al-athir p. 293}."
+wings: [time]
+sides:
+  - label: { ar: "محمود بن محمد الحميري" }
+  - label: { ar: "أهل مرباط" }
+relations:
+  - { type: occurred_at, target: place/mirbat, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/mahmud-al-himyari-mirbat, role: "المستولي", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: "own-research"
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch4
+sources: [source/kamil-ibn-al-athir]
+status:
+  review: published
+  completeness: 3

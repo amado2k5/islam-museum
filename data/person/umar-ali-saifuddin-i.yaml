@@ -1,0 +1,29 @@
+id: person/umar-ali-saifuddin-i
+class: person
+label:
+  ar: "عمر علي سيف الدين الأول"
+  en: "Omar Ali Saifuddin I"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمر علي سيف الدين الأول، سلطان بروناي في القرن الثامن عشر الذي قادها في حروب سولو، توفي سنة ١٧٩٥م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Omar Ali Saifuddin I, the eighteenth-century sultan of Brunei through the Sulu wars, d. 1795; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [southeast-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Brunei Darussalam" }
+died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical Dictionary of Brunei Darussalam" }
+relations:
+  - { type: born_in, target: place/bandar-seri-begawan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q9279)" }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q40105
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0029
+status:
+  review: draft
+  completeness: 1

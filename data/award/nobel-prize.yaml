@@ -1,0 +1,35 @@
+id: award/nobel-prize
+class: award
+kind: prize
+label: { ar: "جائزة نوبل", en: "Nobel Prize", ur: "نوبل انعام" }
+summary:
+  ar: "الجوائز التي تديرها مؤسسة نوبل وتُمنح منذ 1901 «لمن قدّم أعظم نفع للبشرية» في الفيزياء والكيمياء والطب والأدب والسلام، ومنذ 1969 جائزة العلوم الاقتصادية؛ ميدالية ذهبية وشهادة ومبلغ مالي."
+  en: "The prizes administered by the Nobel Foundation and awarded since 1901 'for the greatest benefit to humankind' in physics, chemistry, physiology or medicine, literature and peace, with the Prize in Economic Sciences added from 1969; a gold medal, a diploma and a monetary award."
+  ur: "نوبل فاؤنڈیشن کے زیرِ انتظام انعامات جو 1901 سے طبیعیات، کیمیا، طب، ادب اور امن میں دیے جاتے ہیں اور 1969 سے معاشیات میں بھی؛ سونے کا تمغہ، سند اور رقم۔"
+wings: [today]
+regions: [andalus-europe]
+awarded_by: group/nobel-foundation
+since: { edtf: "1901-12-10", hijri: "1319", calendar: gregorian, precision: day, status: historical, derived: true, note: "First award ceremony on 10 December 1901; the Hijri year is converter-derived.", sources: [source/wikipedia-nobel-prize-en] }
+fields: [physics, chemistry, physiology-or-medicine, literature, peace, economic-sciences]
+categories:
+  - { id: physics, label: { ar: "الفيزياء", en: "Physics", ur: "طبیعیات" }, since: { edtf: "1901" } }
+  - { id: chemistry, label: { ar: "الكيمياء", en: "Chemistry", ur: "کیمیا" }, since: { edtf: "1901" } }
+  - { id: physiology-or-medicine, label: { ar: "الفسيولوجيا أو الطب", en: "Physiology or Medicine", ur: "فعلیات یا طب" }, since: { edtf: "1901" } }
+  - { id: literature, label: { ar: "الأدب", en: "Literature", ur: "ادب" }, since: { edtf: "1901" } }
+  - { id: peace, label: { ar: "السلام", en: "Peace", ur: "امن" }, since: { edtf: "1901" } }
+  - { id: economic-sciences, label: { ar: "العلوم الاقتصادية", en: "Economic Sciences", ur: "معاشی علوم" }, since: { edtf: "1969" }, note: "Established by Sveriges Riksbank in 1968 and first awarded in 1969." }
+country: se
+recurs: annual
+laureate: true
+links: { website: "https://www.nobelprize.org" }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-06", sources: [source/wikipedia-nobel-prize-en] }
+  wikidata: "Q7191"
+external_ids: { wikidata: "Q7191" }
+sources: [source/wikipedia-nobel-prize-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Nobel Prize' (revision of 17 October 2026), its infobox and lead only, and Wikidata Q7191, checked in Chrome on the founder's Mac on 6 November 2026; the Wikipedia language count records only the article read (the item lists 195 sitelinks), pending a sitelink check"
+  generated_by: "Claude Code (claude-fable-5-1)"
+  run: modern-pilot-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-fable-5-1)" }

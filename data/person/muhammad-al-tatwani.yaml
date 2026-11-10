@@ -1,0 +1,36 @@
+id: person/muhammad-al-tatwani
+class: person
+label: { ar: "محمد التطواني", en: "Muhammad al-Tatwani" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن الحاج أحمد بن محمد داود التطواني الأندلسي" }
+gender: male
+roles: [historian, jurist]
+traditions: [sunni]
+died: { edtf: "1984", hijri: "1405", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه ومؤرخ وصحفي من تطوان، ينتسب إلى الأندلس."
+  en: "A jurist, historian and journalist from Tetouan, of Andalusian descent."
+wings: [people]
+themes: [history-writing-and-social-thought, development-of-law-theology-institutions]
+periods: [period/contemporary-era]
+regions: [maghreb]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص475"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

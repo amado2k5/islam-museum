@@ -1,0 +1,24 @@
+id: event/abd-al-rahman-ii-expands-cordoba-mosque
+class: event
+kind: founding
+label: { ar: "عبد الرحمن الثاني يوسع جامع قرطبة", en: "Abd al-Rahman II enlarges the mosque" }
+summary:
+  ar: "زاد عبد الرحمن الثاني في جامع قرطبة زيادة كبيرة في صحنه وأسواقه في النصف الأول من القرن التاسع، فاتسع لأهل المدينة {cite:nafh-tib-maqqari}."
+  en: "Abd al-Rahman II greatly enlarged the mosque's court and aisles in the first half of the ninth century to take the growing city's congregation {cite:nafh-tib-maqqari}."
+  ur: "عبد الرحمن ثانی نے نویں صدی کے پہلے نصف میں مسجد کے صحن اور سطونوں میں بڑا اضافہ کیا تا کہ بڑھتی ہوئی جماعت سما سکے {cite:nafh-tib-maqqari}."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0840~", precision: year, status: tradition, derived: true, note: "within Abd al-Rahman II's reign (822-852); year approximate" }
+  end: { edtf: "0840~", precision: year, status: tradition, derived: true, note: "within Abd al-Rahman II's reign (822-852); year approximate" }
+relations:
+  - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abd-al-rahman-ii-andalusi, role: "الموسع", sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Great Mosque of Cordoba story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-cordoba-mosque
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

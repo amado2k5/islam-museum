@@ -1,0 +1,22 @@
+id: person/antara-ibn-shaddad
+class: person
+label: { ar: "عنترة العبسي", en: "'Antara al-'Absi" }
+summary:
+  ar: "فارس بني عبس وشاعرها الشهير عبدُ أمه أسود، عدّه عمرو بن معد يكرب عند عمر بن الخطاب فيمن يخشى لقاءه وقال عبداها عنترة العبسي وسليك المناقب مع حرّي العرب عامر بن الطفيل وعيينة بن الحارث التميمي {cite:muruj-al-dhahab p. 621}."
+  en: "'Abs's celebrated slave-born knight-poet — counted by 'Amr ibn Ma'dikarib among the four men he would fear to meet {cite:muruj-al-dhahab p. 621}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+born: { edtf: "525~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Diwan Antara / Aghani" }
+died: { edtf: "608~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Diwan Antara / Aghani" }
+relations:
+  - { type: lived_in, target: place/najd, note: "Knight and poet of Banu Abs of the Najd.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/assabile-omar-abdelkafy]
+status:
+  review: published
+  completeness: 3

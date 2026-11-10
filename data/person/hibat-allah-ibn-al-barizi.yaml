@@ -1,0 +1,36 @@
+id: person/hibat-allah-ibn-al-barizi
+class: person
+label:
+  ar: "هبة الله ابن البارزي"
+  en: "Hibat Allah ibn al-Barizi"
+roles: [qadi, jurist]
+gender: male
+summary:
+  ar: "هبة الله ابن البارزي، قاضي قضاة حماة الشافعي وصاحب التصانيف، انتهت إليه مشيخة المذهب بالشام؛ توفي سنة 738هـ ⁦(1338م)⁩."
+  en: "Hibat Allah Ibn al-Barizi (1247–1338), Shafi'i chief qadi of Hama, at whom the Syrian headship of the school ended."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1247", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: born_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q28716578
+provenance:
+  layer: own-research
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.8 p.208)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch8
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

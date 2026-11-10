@@ -1,0 +1,50 @@
+id: person/ahmad-ibn-abdallah-al-asabi
+class: person
+label:
+  ar: الأصابي، أحمد بن عبد الله السلمي
+  en: Ahmad ibn Abdallah al-Asabi al-Salami
+names:
+- kind: full
+  lang: ar
+  value: أحمد بن عبد الله السلمي
+- kind: nisba
+  lang: ar
+  value: الأصابي
+- kind: laqab
+  lang: ar
+  value: شهاب الدين
+gender: male
+roles: [scholar]
+traditions: [sunni]
+floruit:
+  edtf: '1706'
+  hijri: '1118'
+  calendar: gregorian
+  precision: year
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+summary:
+  ar: عالم من زبيد في اليمن، نسبته إلى ذي أصاب قرب زبيد، درس علومه في زبيد على الشيخ عبد الله المزجاجي.
+  en: A scholar of Zabid in Yemen, named after Dhu Asab near Zabid, who studied his sciences in Zabid under Shaykh Abdallah al-Mizjaji.
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+story_roles:
+- role: scholar
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص73-73
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48-fixup
+born: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "From text: عالم من زبيد في اليمن", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

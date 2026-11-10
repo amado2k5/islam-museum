@@ -1,0 +1,44 @@
+id: person/ahmad-farid
+class: person
+label:
+  ar: "أحمد فريد"
+  en: "Ahmad Farid"
+  ur: "احمد فرید"
+names:
+  - { value: "أحمد فريد", kind: full }
+  - { value: "Ahmed Farid", kind: alternate }
+  - { value: "Farīd, Aḥmad", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وكاتب مصري وُلد سنة 1952 في منيا القمح، طبيب من خرّيجي جامعة الإسكندرية، تعدّه ويكيبيديا العربية من شيوخ السلفية في مصر وعضوًا في مجلس أمناء الدعوة السلفية بالإسكندرية، وله مصنفات في الزهد وتزكية النفوس والعقيدة، منها «البحر الرائق في الزهد والرقائق»، ويحفظ له أرشيف أسابيل سلسلة دروس قصيرة في الإيمان والتقوى."
+  en: "Egyptian preacher and writer born in 1952 in Minya al-Qamh, a physician who graduated from Alexandria University, whom the Arabic Wikipedia counts among the Salafi shaykhs of Egypt and a member of the board of trustees of al-Da'wa al-Salafiyya in Alexandria; author of books on asceticism, the purification of the soul and creed, among them 'al-Bahr al-ra'iq fi al-zuhd wa-l-raqa'iq', and of a series of short lessons on faith and piety kept in the Assabile archive."
+  ur: "مصری داعی اور مصنف، 1952 میں منیا القمح میں پیدا ہوئے، جامعہ اسکندریہ سے فارغ التحصیل طبیب، جنہیں عربی ویکیپیڈیا مصر کے سلفی شیوخ میں اور اسکندریہ میں الدعوۃ السلفیہ کے مجلسِ امنا کا رکن شمار کرتا ہے؛ زہد، تزکیۂ نفس اور عقیدے پر کتابوں کے مصنف، جن میں «البحر الرائق فی الزہد والرقائق» ہے، اور ایمان و تقویٰ پر مختصر دروس کے ایک سلسلے کے مقرر جو اسابیل آرکائیو میں محفوظ ہے۔"
+roles: [preacher, writer, physician]
+wings: [people, today]
+regions: [egypt-nile]
+periods: [period/contemporary-era]
+born:
+  edtf: "1952-07"
+  hijri: "1371-10~"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Born in July 1952 in Minya al-Qamh, as the Arabic article gives; Wikidata gives July 1952 (month precision) and Minya El Qamh as the place. July 1952 falls in Shawwal and Dhu al-Qa'da 1371; the Hijri month given is the derived tabular conversion of the month's start, marked approximate since the day is not known."
+  sources: [source/wikipedia-ahmad-farid-ar, source/wikidata-ahmad-farid]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic Wikipedia article calls him one of the shaykhs of Salafism in Egypt and a member of the board of al-Da'wa al-Salafiyya; Wikidata's religion statement is only Islam, and there is no English article. One source only names a school, so he is not yet recorded as sunni; a second independent source is needed (publication-standard faith rule), following the person/abdul-hamid-kishk precedent."
+    sources: [source/wikipedia-ahmad-farid-ar, source/wikidata-ahmad-farid]
+relations:
+  - { type: lived_in, target: place/alexandria, sources: [source/wikipedia-ahmad-farid-ar] }
+external_ids: { wikidata: "Q6822206", viaf: "64414292" }
+sources: [source/wikipedia-ahmad-farid-ar, source/wikidata-ahmad-farid, source/assabile-ahmad-farid]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «أحمد فريد» (revision 73779172) and Wikidata Q6822206 (revision 2512930853), both read 2 November 2026; the Assabile series page https://www.assabile.com/ahmad-farid/lessons/the-boat and the transcripts of the-boat (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: assabile-egypt-farid-1
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-farid-1" }

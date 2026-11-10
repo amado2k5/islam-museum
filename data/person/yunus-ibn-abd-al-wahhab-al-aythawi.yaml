@@ -1,0 +1,29 @@
+id: person/yunus-ibn-abd-al-wahhab-al-aythawi
+class: person
+label:
+  ar: "يونس بن عبد الوهاب العيثاوي"
+  en: "Yunus ibn Abd al-Wahhab al-'Aythawi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليونس بن عبد الوهاب العيثاوي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yunus ibn Abd al-Wahhab al-'Aythawi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1497", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira (al-Ghazzi)" }
+died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira (al-Ghazzi)" }
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22690895
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

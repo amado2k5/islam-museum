@@ -1,0 +1,21 @@
+id: place/new-julfa
+class: place
+kind: site
+label: { ar: "حي جلفا", en: "New Julfa" }
+summary:
+  ar: "موقع في الدولة الأفشارية."
+  en: "Site in Afsharid Iran."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [32.636330555556, 51.655708333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1711781" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1711781 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

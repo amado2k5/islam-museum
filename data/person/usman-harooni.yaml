@@ -1,0 +1,33 @@
+id: person/usman-harooni
+class: person
+label:
+  ar: "عثمان الهاروني"
+  en: "Usman Harooni"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعثمان الهاروني، شيخ معين الدين الجشتي في القرن الثالث عشر، توفي سنة ١٢٠٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Usman al-Haruni, the thirteenth-century shaykh of Mu'in al-Din Chishti, d. 1207; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [spirituality-and-sufism]
+born: { edtf: "1131", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar al-Awliya; Encyclopaedia of Islam" }
+died: { edtf: "1220", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar al-Awliya; Encyclopaedia of Islam" }
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131350)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+  - { type: died_in, target: place/abbasid-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12536)" }
+  - { type: buried_in, target: place/jannat-al-mualla, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q42004)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q7902047
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0039
+status:
+  review: draft
+  completeness: 1

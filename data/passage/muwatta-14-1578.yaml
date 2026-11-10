@@ -1,0 +1,19 @@
+id: passage/muwatta-14-1578
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/rabiah-ibn-abi-abd-al-rahman]
+work: work/muwatta-malik
+ref: "1578"
+label: { ar: "الموطأ 1578 — ربيعة بن أبي عبد الرحمن: أفتى القاسم وعروة الوليد بن عبد الملك لما قدم المدينة، وقال القاسم طلقها في مجالس شتى", en: "Muwatta 1578" }
+summary:
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن أن القاسم بن محمد وعروة بن الزبير أفتيا الوليد بن عبد الملك، عام قدم المدينة، بذلك، غير أن القاسم بن محمد قال طلقها في مجالس شتى. {cite:muwatta-maruf-1997 p.57}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-14-nikah }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-walid-ibn-abd-al-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1578 at PDF p. 57; جامع النكاح", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 57; matn excerpt at most 40 words" }

@@ -1,0 +1,15 @@
+id: web-qdl-onboarding
+lane: "web-sources"
+class: "process"
+modality: "website"
+question: "Should the Qatar Digital Library (qdl.qa — manuscripts, documents and oral histories from the Islamic world, including dated copies with colophons) be onboarded as a citable source family for work dating and provenance, and at what tier?"
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:qdl <document-id>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: authority strong (Qatar National Library / Qatar Museums); citability good (stable document/shelfmark ids, per-item pages); terms: free public access stated by the project — facts-only posture for record text and page images; structure: web application with search and per-document viewers, no public bulk API confirmed; coverage fit high (colophons, ownership notes, dated copies — the hard facts behind prose-missing works); corroboration high; multilingual interface including Arabic; longevity strong (national library). Access blocker: qdl.qa answers HTTP 403 Cloudflare challenge to non-browser clients on 2026-11-08 (robots.txt itself challenged) — recorded, not bypassed; Wayback snapshots and browser reads are the channel until a machine path is confirmed."
+  - "docs/agents/source-families.md Tier 2 (manuscript catalogues row): 'QDL free; HMML free with registration. Anchor: shelfmark'"
+proposed_action: "register source/qdl facts-only with Wayback/browser channel; pilot on 10 work records once a read path is exercised"
+source: "Muse web-sources lane assessment 2026-11-08"

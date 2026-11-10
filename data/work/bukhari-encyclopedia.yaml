@@ -1,0 +1,40 @@
+id: work/bukhari-encyclopedia
+class: work
+kind: online-library
+label:
+  ar: "موسوعة صحيح البخاري ⁦(موقع)⁩"
+  en: "Sahih al-Bukhari Encyclopedia (website)"
+  ur: "موسوعۂ صحیح بخاری ⁦(ویب سائٹ)⁩"
+summary:
+  ar: "موقع ومكتبة رقمية تعتني بـ«صحيح البخاري» والكتب المؤلفة عليه، تملكه مؤسسة عطاءات العلم؛ بدأ العمل فيه سنة 2003، وأُطلق إصداره الأول أوائل 2016 بنحو ستين كتابًا، والثاني نهاية 2017 بمئة وعشرين، والثالث مطلع 2019؛ يربط الأحاديث بمخطوطاتها وبفروع النسخة اليونينية وبالشروح، ويضم بحسب أرقامه أكثر من 145 كتابًا."
+  en: "A website and digital library devoted to Sahih al-Bukhari and the books written on it, owned by the Ataat al-Ilm Foundation; work began in 2003, its first release came in early 2016 with about sixty books, the second at the end of 2017 with 120, and the third in early 2019; it links each hadith to its manuscripts, to branches of the Yunini recension and to the commentaries, and by its own count holds more than 145 books."
+  ur: "صحیح بخاری اور اس پر لکھی گئی کتابوں کی ویب سائٹ اور ڈیجیٹل لائبریری، مالک مؤسسہ عطاءات العلم؛ کام 2003 میں شروع ہوا، پہلا اجرا 2016 کے آغاز میں تقریباً ساٹھ کتابوں کے ساتھ، دوسرا 2017 کے آخر میں 120 کتابوں کے ساتھ، تیسرا 2019 کے آغاز میں؛ ہر حدیث کو اس کے مخطوطات، یونینی نسخے کی شاخوں اور شروح سے جوڑتی ہے، اور اپنے شمار کے مطابق 145 سے زیادہ کتابیں رکھتی ہے۔"
+wings: [words, today]
+url: "https://www.bukhari-pedia.net"
+launched:
+  edtf: "2016"
+  hijri: "1437~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "First release launched in early 2016 (the launch ceremony album cited by the Arabic article); work had begun in 2003. The Hijri year (1437) is converter-derived."
+  sources: [source/wikipedia-bukhari-encyclopedia-ar]
+languages: [ar]
+publisher: group/ataat-al-ilm-foundation
+content_type: hadith
+relations:
+  - { type: about, target: work/sahih-al-bukhari, note: "the collection the encyclopedia serves, with its manuscripts, commentaries and studies", sources: [source/wikipedia-bukhari-encyclopedia-ar] }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-bukhari-encyclopedia] }
+  wikidata: "Q65232279"
+external_ids:
+  wikidata: Q65232279
+sources: [source/wikipedia-bukhari-encyclopedia-ar, source/wikidata-bukhari-encyclopedia]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «موسوعة صحيح البخاري» (revision 73503774, 13 February 2026) and Wikidata Q65232279, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b05
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

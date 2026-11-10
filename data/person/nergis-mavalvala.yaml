@@ -1,0 +1,37 @@
+id: person/nergis-mavalvala
+class: person
+label: { ar: "نيرجيس مافالفالا", en: "Nergis Mavalvala", ur: "نرگس ماولوالا" }
+names:
+  - { value: "Nergis Mavalvala", kind: full }
+  - { value: "نيرجيس مافالفالا", kind: full }
+  - { value: "نرگس ماولوالا", kind: full }
+gender: female
+summary:
+  ar: "عالمة فيزياء فلكية باكستانية أمريكية، وُلدت في لاهور سنة 1968 ونشأت في كراتشي. تشغل كرسي كورتيس وكاثلين ماربل للفيزياء الفلكية في معهد ماساتشوستس للتكنولوجيا وعمادة كليته للعلوم، واشتُهرت بدورها في أول رصد لموجات الجاذبية ضمن مشروع ليغو وبأعمالها الرائدة في حدود القياس الكمومية. نالت زمالة ماك آرثر سنة 2010."
+  en: "Pakistani-American astrophysicist, born in Lahore in 1968 and raised in Karachi. She holds the Curtis and Kathleen Marble chair of astrophysics at MIT and is dean of its School of Science, known for her role in the first observation of gravitational waves with LIGO and for pioneering work on the quantum limits of measurement. She received a MacArthur Fellowship in 2010."
+  ur: "پاکستانی نژاد امریکی ماہر فلکی طبیعیات، جو 1968ء میں لاہور میں پیدا ہوئیں اور کراچی میں پلی بڑھیں۔ وہ ایم آئی ٹی میں فلکی طبیعیات کی کرٹس اور کیتھلین ماربل پروفیسر اور اس کے اسکول آف سائنس کی ڈین ہیں، اور LIGO کے ذریعے کشش ثقل کی لہروں کے پہلے مشاہدے میں اپنے کردار اور کوانٹم پیمائش کی حدود پر اہم کام کے لیے جانی جاتی ہیں۔ انہیں 2010ء میں میک آرتھر فیلوشپ ملی۔"
+roles: [scientist]
+wings: [people, living]
+regions: [south-asia, americas-oceania]
+born:
+  edtf: "1968"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in 1968 at Lahore, at year precision only: no source read gives a fuller birth date. The hijri key is omitted — the Gregorian year 1968 spans 1387–1388 AH and no source gives a consistent Hijri pairing."
+  sources: [source/wikipedia-nergis-mavalvala-en]
+relations:
+  - { type: born_in, target: place/lahore, sources: [source/wikipedia-nergis-mavalvala-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Recorded unknown, flagged — the two-source bar for a personal attestation is not met, and both readings are preserved for the founder. What the sources give: (1) The News, a Pakistani national daily (August 2020), names her personally in its opening line: 'Nergis Mavalvala, a Zoroastrian born in Lahore, convent educated' — one independent personal attestation. (2) The English Wikipedia text says she was 'Born to a Parsi family that practiced Zoroastrianism', and an earlier revision of the same article said she 'was raised in the Zoroastrian faith' — family practice and upbringing, in one source family. (3) The Arabic Wikipedia infobox carries religion: Zoroastrianism — a lone structured value in one edition of the same Wikipedia family, with no supporting statement in its text. (4) The Urdu Wikipedia text likewise describes only her family's faith, and a Habib University profile speaks of 'the tight-knit Zoroastrian community she grew up inside' — community and upbringing. Family background, upbringing and community never count toward a personal affiliation, and a lone structured value is one source family, so only The News names her personally, and one naming is short of the bar. The faith enum does contain a zoroastrian value (schema/enums/faith.yaml), so nothing but the attestation count stands in the way: if the founder rules that The News together with the Arabic infobox value, or with the upbringing statements, meets the bar, this record becomes zoroastrian, documented, on one word."
+    sources: [source/the-news-mavalvala-2020, source/wikipedia-nergis-mavalvala-en, source/wikipedia-nergis-mavalvala-ar, source/wikipedia-nergis-mavalvala-ur]
+sources: [source/wikipedia-nergis-mavalvala-en, source/wikipedia-nergis-mavalvala-ar, source/wikipedia-nergis-mavalvala-ur, source/the-news-mavalvala-2020]
+provenance:
+  layer: own-research
+  source: "Built 27 October 2026 for wave 110 §A of the century-additions queue from the English, Arabic and Urdu Wikipedia articles and the August 2020 The News article named in the sources list, each read on 27 October 2026 through the browser search/open route. ENVIRONMENT LIMITATION: that route exposes no revision identifiers and no Wikidata item for these articles, so all sources are recorded on the consultation-date precedent (issued 27 October 2026), no Wikidata source file is created and no external_ids are recorded; no revision identifier or QID was invented. Existence checked before building by name-fragment greps (mavalvala, مافالفالا, ماولوالا) across all of data/person/ — no record for her; the QID-grep route could not be run for the reason stated, and a biographical match confirmed the near-name files (nergisi, nergissah-sultan) are different, earlier people. One relation is written: born_in Lahore, whose place entity exists. Her doctoral supervisor Rainer Weiss has no person entity, so no student_of edge is written, and Cambridge, Massachusetts has no place entity, so no lived_in edge is written. Her faith is recorded unknown, flagged, on the configuration set out in the faith note, with the single personal attestation preserved verbatim."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-110
+status: { review: published }

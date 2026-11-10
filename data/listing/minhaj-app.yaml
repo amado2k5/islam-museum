@@ -1,0 +1,47 @@
+id: listing/minhaj-app
+class: listing
+kind: app
+label:
+  ar: "منهاج ⁦(تطبيق رابطة العالم الإسلامي)⁩"
+  en: "Minhaj (Muslim World League app)"
+  ur: "منہاج ⁦(رابطہ عالمِ اسلامی کی ایپ)⁩"
+summary:
+  ar: "تطبيق ومنصة رقمية لرابطة العالم الإسلامي طُوّر مع شركة عِلم ودُشّن في مكة في 27 نوفمبر 2025، بعد أن أجاز المجمع الفقهي الإسلامي فكرته بقراره رقم 23 في 13 شوال 1445هـ؛ يجمع المصحف ومواقيت الصلاة والقبلة والأذكار والاستشارات الشرعية والتعليم وحاسبتي الزكاة والميراث والمجتمعات الافتراضية، بسبع لغات، ويخاطب المسلمين في بلاد الأقليات خاصة."
+  en: "An app and digital platform of the Muslim World League, built with the Elm company and launched in Mecca on 27 November 2025 after the Islamic Fiqh Council approved the idea in its resolution 23 of 13 Shawwal 1445 AH; it gathers the mushaf, prayer times, qibla, adhkar, religious consultations, courses, zakat and inheritance calculators and virtual communities, in seven languages, and addresses Muslims in minority countries in particular."
+  ur: "رابطہ عالمِ اسلامی کی ایپ اور ڈیجیٹل پلیٹ فارم، کمپنی عِلم کے ساتھ تیار کیا گیا اور 27 نومبر 2025 کو مکہ میں افتتاح ہوا، جب مجمع فقہی اسلامی نے 13 شوال 1445ھ کی اپنی قرارداد 23 سے اس کے خیال کی منظوری دی تھی؛ مصحف، اوقاتِ نماز، قبلہ، اذکار، شرعی مشاورت، تعلیم، زکوٰۃ اور میراث کے حساب کار اور ورچوئل برادریاں، سات زبانوں میں، خاص طور پر اقلیتی ممالک کے مسلمانوں کے لیے۔"
+wings: [made, today]
+categories: [technology, education]
+regions: [arabia, global]
+founded:
+  edtf: "2025-11-27"
+  hijri: "1447-06-06"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Launched at a ceremony in the Clock Tower, Mecca, on 27 November 2025 (the League's notice and Arab News, as the article cites them); the idea was approved by the Islamic Fiqh Council's resolution 23 on 13 Shawwal 1445 AH / 22 April 2024. The Hijri date of the launch is converter-derived (Umm al-Qura)."
+  sources: [source/wikipedia-minhaj-app-ar]
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-minhaj-app-ar] }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  play_store: "https://play.google.com/store/apps/details?id=sa.elm.mwl"
+languages: [ar, en, fr, id, fa, es, ur]
+reach:
+  - { platform: play-store, metric: installs, value: 500000, date: "2026-11-06", note: "500K+ band on the Google Play page, Android only; rated 4.7 from about 13,600 reviews that day (the Arabic article read 100K+ and 4.6 from about 10,700 reviews on 24 September 2026)", sources: [source/google-play-minhaj, source/wikipedia-minhaj-app-ar] }
+footprint:
+  wikipedia: { languages: [ar, en], checked: "2026-11-06", sources: [source/wikidata-minhaj-app] }
+  wikidata: "Q141747103"
+relations:
+  - { type: owned_by, target: group/muslim-world-league, note: "the League's platform; listed as developer and publisher on the stores; built with the Elm company", sources: [source/wikipedia-minhaj-app-ar, source/google-play-minhaj] }
+  - { type: related_to, target: place/mecca, note: "launched in Mecca; the League's slogan for it is 'from Mecca to the world'", sources: [source/wikipedia-minhaj-app-ar] }
+external_ids:
+  wikidata: Q141747103
+sources: [source/wikipedia-minhaj-app-ar, source/wikidata-minhaj-app, source/google-play-minhaj]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «منهاج ⁦(تطبيق)⁩» (revision 76794151, 28 September 2026), Wikidata Q141747103 and the Google Play page, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

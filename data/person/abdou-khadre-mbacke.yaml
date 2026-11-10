@@ -1,0 +1,29 @@
+id: person/abdou-khadre-mbacke
+class: person
+label:
+  ar: "الشيخ عبدو خادرة مباكي"
+  en: "Cheikh Abdou Khadre Mbacke"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لالشيخ عبدو خادرة مباكي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Cheikh Abdou Khadre Mbacke; the entry is not yet checked on the page."
+wings: [people]
+regions: [west-africa-sahel]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57045233
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muridiyya Historical Records" }
+died: { edtf: "1991", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Muridiyya Historical Records" }
+relations:
+  - { type: lived_in, target: place/bilad-al-sudan, note: "Only the record-level region (west-africa-sahel) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

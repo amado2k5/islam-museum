@@ -1,0 +1,17 @@
+id: person/ubaydallah-ibn-nabhan
+class: person
+label: { ar: "عبيد الله بن نبهان", en: "Ubaydallah ibn Nabhan" }
+summary:
+  ar: "عبيد الله بن نبهان؛ أغزاه الحجاج إلى الديبل حين أخذ قراصنتها النسوة فقتل."
+  en: "Ubaydallah ibn Nabhan; al-Hajjaj's commander sent on Daybul for the pirated women — killed."
+periods: [period/umayyad]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+relations:
+  - { type: lived_in, target: place/daybul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

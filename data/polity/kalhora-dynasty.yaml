@@ -1,0 +1,32 @@
+id: polity/kalhora-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "أسرة كلهورا"
+  en: "Kalhora dynasty"
+summary:
+  ar: "بطاقة أولية لأسرة كلهورا، الأسرة السندية العباسية التي حكمت السند من ١٧٠١ إلى ١٧٨٣م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Kalhoras, the Sindhi Abbasi house that ruled Sindh from 1701 to 1783; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+start:
+  edtf: "1701"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1783"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6352367
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Sindhi histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

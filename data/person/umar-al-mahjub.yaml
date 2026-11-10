@@ -1,0 +1,30 @@
+id: person/umar-al-mahjub
+class: person
+label:
+  ar: "عمر المحجوب"
+  en: "Umar al-Mahjub"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمر المحجوب؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Umar al-Mahjub; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/modern-era]
+born: { edtf: "1727", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1807", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: born_in, target: place/msaken, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1014928)" }
+  - { type: died_in, target: place/tunis, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3572)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12228476
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

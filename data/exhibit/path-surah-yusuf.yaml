@@ -1,0 +1,77 @@
+id: exhibit/path-surah-yusuf
+class: exhibit
+kind: trail
+label:
+  ar: سورة يوسف
+  en: Surah Yusuf
+summary:
+  ar: 'مسار في أحسن القصص: الرؤيا والبئر والقصر، والعزيز والسجن، والملك والقميص — سورة كاملة لقصة كاملة.'
+  en: A trail through the best of stories.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: 'أحسن القصص: اثنا عشر إخوة ورؤيا.'
+    en: 'أحسن القصص: اثنا عشر إخوة ورؤيا.'
+  features:
+  - passage/quran-12
+  - passage/quran-12-1
+  - passage/quran-12-4
+- title:
+    ar: البئر
+    en: The well
+  body:
+    ar: 'يوسف في غيابة الجب: أول المحن.'
+    en: 'يوسف في غيابة الجب: أول المحن.'
+  features:
+  - passage/quran-12-10
+  - passage/quran-12-4
+- title:
+    ar: القصر والسجن
+    en: Palace and prison
+  body:
+    ar: 'من بيت العزيز إلى السجن: العفة.'
+    en: 'من بيت العزيز إلى السجن: العفة.'
+  features:
+  - passage/quran-12-50
+  - passage/quran-12-50
+- title:
+    ar: الملك
+    en: The throne
+  body:
+    ar: 'يوسف على خزائن مصر: الرؤيا تتحقق.'
+    en: 'يوسف على خزائن مصر: الرؤيا تتحقق.'
+  features:
+  - passage/quran-12-54
+  - passage/quran-12-54
+- title:
+    ar: اللقاء
+    en: Reunion
+  body:
+    ar: 'يوسف ويعقوب: القميص يردّ البصر.'
+    en: 'يوسف ويعقوب: القميص يردّ البصر.'
+  features:
+  - passage/quran-12-90
+  - passage/quran-12-111
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

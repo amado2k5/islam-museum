@@ -1,0 +1,99 @@
+id: invention/frequency-analysis-al-kindi
+class: invention
+label:
+  ar: "تحليل تواتر الحروف عند الكندي"
+  en: "Al-Kindi's letter-frequency cryptanalysis"
+  ur: "کندی کا حروف کی تکرار سے رمز کشائی کا طریقہ"
+names:
+  - { value: "استخراج المعمى", kind: alternate, lang: ar }
+  - { value: "frequency analysis", kind: alternate, lang: en }
+summary:
+  ar: "يعد الكندي حروف نص معلوم اللغة ويرتبها بالكثرة، ثم يقارنها برموز النص المعمى؛ وينبه إلى قصور الرسائل القصيرة ويستعين باقتران الحروف وفواتح الرسائل {cite:kindi-cryptanalysis-1987 pp. 216–218}. تصفه TDV بأنه صاحب أقدم رسالة باقية في هذا المجال، لا مخترع إخفاء الرسائل نفسه {cite:tdv-muamma pp. 319–320}."
+  en: "Al-Kindi counts and ranks letters in a known-language sample, compares ciphertext symbols, warns about short messages and checks adjacency and conventional openings {cite:kindi-cryptanalysis-1987 pp. 216–218}. TDV calls his the earliest surviving treatise in the field, not the invention of concealed messages {cite:tdv-muamma pp. 319–320}."
+  ur: "کندی معلوم زبان کے حروف گن کر ان کی کثرت کا موازنہ معمى کی علامتوں سے کرتے، مختصر پیغام کی حد بتاتے اور جوڑ و آغاز سے جانچتے ہیں {cite:kindi-cryptanalysis-1987 pp. 216–218}۔ ٹی ڈی وی ان کا رسالہ قدیم ترین باقی مثال کہتا ہے، پیغام چھپانے کی ایجاد نہیں {cite:tdv-muamma pp. 319–320}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Ninth-century author/context; no exact composition year established by the pages read. Primary dedication names Abu al-Abbas; editorial identification is not a dated colophon. Do not date invention from the1987 edition."
+    sources: [source/kindi-cryptanalysis-1987, source/tdv-kindi-kaya]
+  status_today: living
+origin:
+  place: place/baghdad
+  context:
+    ar: "سياق المؤلف العباسي في بغداد وطلب مخاطبه أبي العباس؛ لا تحدد المقدمة المقروءة يوم الكتابة أو مكتباً بعينه {cite:kindi-cryptanalysis-1987 pp. 213–214} {cite:tdv-kindi-kaya biography}."
+    en: "The author's Abbasid Baghdad setting and his addressee Abu al-Abbas's request; the opening read establishes no exact writing date or bureau {cite:kindi-cryptanalysis-1987 pp. 213–214} {cite:tdv-kindi-kaya biography}."
+    ur: "مصنف کا عباسی بغداد کا سیاق اور ابو العباس کی درخواست؛ پڑھے آغاز سے خاص تاریخ یا دفتر ثابت نہیں {cite:kindi-cryptanalysis-1987 pp. 213–214} {cite:tdv-kindi-kaya biography}۔"
+makers:
+  - person: person/al-kindi
+    role: describer
+    place: place/baghdad
+    note: "Author of the surviving quantitative/linguistic method, not asserted inventor of all encryption. Muslim basis documented; disputed theological classification is carried on the person record."
+    sources: [source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya]
+attribution:
+  status: original
+  claim:
+    ar: "أقدم وصف باق لتحليل الحروف في استخراج المعمى وفق مرجع TDV؛ الأولوية للنص الباقي لا لكل فعل سابق."
+    en: "Earliest surviving account of letter-based cryptanalysis in TDV's assessment; a surviving-text priority, not proof about every earlier act."
+    ur: "ٹی ڈی وی کے مطابق حروفی رمز کشائی کا قدیم ترین باقی بیان؛ باقی متن کی اولینیت، ہر پہلے عمل کا ثبوت نہیں۔"
+  basis:
+    ar: "تؤيد الرسالة نفسها العد والمقارنة وحدودهما؛ وتفرق الموسوعة بين الإخفاء الأقدم والرسالة الباقية. انتماء المؤلف موضع نقاش معروض لا حكم {cite:kindi-cryptanalysis-1987 pp. 216–218} {cite:tdv-muamma pp. 319–320} {cite:tdv-kindi-kaya Mu'tezile section}."
+    en: "The primary text supports counting, comparison and limits; TDV distinguishes earlier concealment from the surviving treatise. The maker's disputed affiliation is displayed, not adjudicated {cite:kindi-cryptanalysis-1987 pp. 216–218} {cite:tdv-muamma pp. 319–320} {cite:tdv-kindi-kaya Mu'tezile section}."
+    ur: "اصل متن گنتی اور حدیں دکھاتا ہے؛ ٹی ڈی وی پرانے اخفا اور باقی رسالے کو الگ کرتا ہے۔ مصنف کی اختلافی نسبت پیش ہے، فیصلہ نہیں {cite:kindi-cryptanalysis-1987 pp. 216–218} {cite:tdv-muamma pp. 319–320} {cite:tdv-kindi-kaya Mu'tezile section}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "تقاليد إخفاء الرسائل وكتاب المعمى المنسوب للخليل", en: "Earlier concealment and the Muamma book attributed to al-Khalil", ur: "پہلے اخفا کے طریقے اور خلیل سے منسوب کتاب المعمى" }
+    note: "TDV reports an earlier book; no surviving text of that book was read or an exact frequency-analysis prototype inferred."
+    sources: [source/tdv-muamma]
+dependents:
+  - external: { ar: "مصنفات ابن عدلان وابن الدريهم وابن دنينير", en: "Treatises of Ibn Adlan, Ibn al-Durayhim and Ibn Dunaynir", ur: "ابن عدلان، ابن دریہِم اور ابن دنینیر کے رسالے" }
+    note: "Later writing in the field, not a claim that every rule was directly borrowed. The1987 editors compare later witnesses when correcting counts."
+    sources: [source/tdv-muamma, source/kindi-cryptanalysis-1987]
+spread: []
+impact:
+  fields: [mathematics, institutions-systems]
+  changed:
+    ar: "حوّل انتظام اللغة إلى قرائن عددية وكيفية لفحص الرسائل؛ يربط TDV المجال بحاجات المراسلات الرسمية {cite:kindi-cryptanalysis-1987 pp. 216–219} {cite:tdv-muamma pp. 319–320}."
+    en: "Made linguistic regularity quantitative and qualitative evidence for examining messages; TDV connects the field with official correspondence {cite:kindi-cryptanalysis-1987 pp. 216–219} {cite:tdv-muamma pp. 319–320}."
+    ur: "زبان کے نظم کو پیغامات کی عددی و کیفی جانچ بنایا؛ ٹی ڈی وی اسے دفتری خط و کتابت سے جوڑتا ہے {cite:kindi-cryptanalysis-1987 pp. 216–219} {cite:tdv-muamma pp. 319–320}۔"
+  history:
+    ar: "شاهد مبكر باق على منهج قابل للشرح والتحقق، لا قائمة انتصارات استخبارية ولا خط نقل أوروبي مثبت {cite:tdv-muamma pp. 319–320}."
+    en: "An early surviving, explainable and checkable method, not a list of intelligence victories or a proven European transmission route {cite:tdv-muamma pp. 319–320}."
+    ur: "سمجھانے اور جانچنے کے قابل طریقے کی قدیم باقی شہادت، جاسوسی کامیابیوں یا یورپ تک ثابت راستے کی فہرست نہیں {cite:tdv-muamma pp. 319–320}۔"
+  significance: 4
+  why: "Major-method depth: primary quantitative procedure, linguistic cross-checks, failure conditions and textual transmission distinguished."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "يقرأ المنهج في الطبعة العربية المحققة؛ ليست أرقام الجدول المصحح معياراً أبدياً لتواتر العربية {cite:kindi-cryptanalysis-1987 pp. 235–237}."
+    en: "Readable in the critical Arabic edition; its emended table is not an eternal standard of Arabic frequencies {cite:kindi-cryptanalysis-1987 pp. 235–237}."
+    ur: "محقق عربی طباعت میں پڑھا جاتا ہے؛ اصلاح شدہ جدول عربی کی تکرار کا ابدی معیار نہیں {cite:kindi-cryptanalysis-1987 pp. 235–237}۔"
+  descendants:
+    ar: "تاريخ علم التعمية الحديث وتعليمه؛ لا يثبت النص أن عد الحروف يكسر كل تشفير حاسوبي {cite:tdv-muamma pp. 319–320} {cite:kindi-cryptanalysis-1987 pp. 216–218}."
+    en: "Modern cryptologic history and teaching; the text does not establish that counting breaks every computer cipher {cite:tdv-muamma pp. 319–320} {cite:kindi-cryptanalysis-1987 pp. 216–218}."
+    ur: "رمزیات کی تاریخ اور تعلیم؛ متن سے ہر کمپیوٹر رمز کا ٹوٹنا ثابت نہیں {cite:tdv-muamma pp. 319–320} {cite:kindi-cryptanalysis-1987 pp. 216–218}۔"
+media: { image: media/kindi-cryptanalysis-manuscript, diagram: media/diagram-frequency-analysis-al-kindi }
+kids:
+  ar: "قد يخفي تبديل الحروف أسماءها، لكنه يترك تكرارها قرينة. يعد الكندي الحروف ثم يفحص ما يصح أن يجتمع منها؛ ويحذر من قصر الرسالة. التخمين بداية، والتحقق في بقية النص هو العمل."
+  en: "Changing letters' names can leave their repetition as a clue. Al-Kindi counts, then checks which letters fit together, warning about short messages. A guess begins the work; checking the rest matters."
+  ur: "حروف کے نام بدلنے سے ان کی تکرار سراغ رہ سکتی ہے۔ کندی گنتے، پھر جوڑ جانچتے اور مختصر پیغام سے خبردار کرتے ہیں۔ اندازہ آغاز ہے؛ باقی متن میں جانچ اہم ہے۔"
+sources: [source/kindi-cryptanalysis-1987, source/tdv-muamma, source/tdv-kindi-kaya]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  layer: own-research
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b19"
+  source: "Selected actual Arabic primary/editorial pages, visually checked216/236; TDV MUAMMA first section and Kaya's biography/affiliation discussion, 2026-11-06. No unread English cryptology article or popular-source claim used."

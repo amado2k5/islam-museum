@@ -1,0 +1,22 @@
+id: person/malik-ibn-al-haytham
+class: person
+label: { ar: "مالك بن الهيثم", en: "Malik ibn al-Haytham" }
+summary:
+  ar: "من أصحاب أبي مسلم، لما سرح إليه المنصور جريراً البجلي يسترده نهاه مالك عن الرجوع فقال له أبو مسلم ويلك لقد بليت بإبليس وما بليت بمثل هذا قط يعني الجريري {cite:muruj-al-dhahab p. 280}."
+  en: "Abu Muslim's man who saw through Jarir's mission — 'do not go back' — overridden by the caliph's envoy {cite:muruj-al-dhahab p. 280}."
+gender: male
+wings: [people]
+died: { edtf: "776~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / al-A'lam" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

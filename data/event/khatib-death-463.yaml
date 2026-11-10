@@ -1,0 +1,30 @@
+id: event/khatib-death-463
+class: event
+kind: death
+label:
+  ar: "وفاة الخطيب البغدادي ودفنه عند بشر الحافي، ٧ ذو الحجة ٤٦٣هـ"
+  en: "Al-Khatib al-Baghdadi dies and is buried beside Bishr al-Hafi, 7 Dhu al-Hijja 463/1071"
+  ur: "خطیب بغدادی کی وفات اور بشر حافی کے پہلو میں تدفین، 7 ذوالحجہ 463ھ/1071ء"
+summary:
+  ar: "مرض الخطيب ببغداد في نصف رمضان حتى اشتد به الحال في غرة ذي الحجة، وأوصى إلى أبي الفضل بن خيرون ووقف كتبه على يده وفرّق جميع ماله في وجوه البر وعلى المحدثين، وتوفي رابع ساعة من يوم الاثنين سابع ذي الحجة سنة ثلاث وستين وأربعمائة؛ أُخرج بكرة الثلاثاء إلى الجانب الغربي وتقدّم الناسَ القاضي أبو الحسين بن المهتدي بالله فكبّر عليه أربعاً، ودُفن بباب حرب بجنب بشر الحافي في القبر الذي كان أبو بكر بن زهراء الصوفي قد أعدّه لنفسه فأذن فيه؛ وكان ممن حمل جنازته الإمام أبو إسحاق الشيرازي {cite:tarikh-islam-dhahabi pp. 107-108}."
+  en: "Al-Khatib fell ill at Baghdad in mid-Ramadan and worsened at the opening of Dhu al-Hijja; he appointed Abu al-Fadl ibn Khayrun his executor, made his books a waqf in his hands and gave away all his money in charity and to the hadith folk, and died in the fourth hour of Monday 7 Dhu al-Hijja 463. He was carried out the next morning to the west side; the qadi Abu al-Husayn ibn al-Muhtadi bi-llah led the prayer with four takbirs, and he was buried at Bab Harb beside Bishr al-Hafi, in the grave that Abu Bakr ibn Zahra' the Sufi had prepared for himself and yielded; the imam Abu Ishaq al-Shirazi was among those who carried the bier {cite:tarikh-islam-dhahabi pp. 107-108}."
+  ur: "خطیب بغداد میں وسط رمضان سے علیل ہوئے اور ذوالحجہ کی ابتدا میں حال بگڑ گیا؛ انہوں نے ابوالفضل بن خیرون کو وصی بنایا، اپنی کتابیں ان کے ہاتھوں وقف کیں اور ساری دولت خیرات اور محدثین میں بانٹ دی، اور پیر کو 7 ذوالحجہ 463ھ کو دن کے چوتھے پہر فوت ہوئے۔ اگلی صبح انہیں مغربی جانب لے جایا گیا؛ قاضی ابوالحسین بن المھتدی باللہ نے چار تکبیروں سے نماز جنازہ پڑھائی، اور باب حرب میں بشر حافی کے پہلو میں اس قبر میں دفن کیا گیا جو ابو بکر بن زہراء صوفی نے اپنے لیے تیار کی تھی پھر دے دی؛ جنازہ اٹھانے والوں میں امام ابو اسحاق شیرازی بھی تھے {cite:tarikh-islam-dhahabi pp. 107-108}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1071-09-05", hijri: "0463-12-07", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي رابع ساعة من يوم الاثنين سابع ذي الحجة سنة ثلاث وستين وأربعمائة {cite:tarikh-islam-dhahabi p. 107}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-muhtadi-billah-al-qadi, role: "المؤمّ بالجنازة", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "من حملة الجنازة", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-khayrun-abu-al-fadl, role: "الموصى إليه", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 pp. 107-108 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

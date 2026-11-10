@@ -1,0 +1,30 @@
+id: person/sadr-al-din-al-dashtaki
+class: person
+label:
+  ar: "صدر الدين الدشتكي"
+  en: "Sadr al-Din al-Dashtaki"
+roles: [scholar]
+gender: male
+themes: [philosophy-and-logic]
+summary:
+  ar: "بطاقة أولية لصدر الدين محمد الدشتكي الشيرازي، فيلسوف شيراز في القرن الخامس عشر، توفي سنة ١٤٩٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sadr al-Din Muhammad al-Dashtaki al-Shirazi, the fifteenth-century philosopher of Shiraz, d. 1498; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5693640
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0046
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1424", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+died: { edtf: "1498", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

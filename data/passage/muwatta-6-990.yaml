@@ -1,0 +1,16 @@
+id: passage/muwatta-6-990
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "990"
+label: { ar: "الموطأ 990 — بلغ مالكاً أن عثمان بن عفان كان إذا اعتمر لم يحط عن راحلته حتى يرجع", en: "Muwatta 990" }
+summary:
+  ar: "بلاغ يرويه مالك أن عثمان بن عفان كان إذا اعتمر ربما لم يحط عن راحلته حتى يرجع. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1128). {cite:muwatta-maruf-1997 p.466}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 990 at PDF p. 466; جامع ما جاء في العمرة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b04" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 466; matn excerpt at most 40 words" }

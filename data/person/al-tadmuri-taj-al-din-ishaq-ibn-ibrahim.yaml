@@ -1,0 +1,38 @@
+id: person/al-tadmuri-taj-al-din-ishaq-ibn-ibrahim
+class: person
+label: { ar: "التدمري تاج الدين إسحاق بن إبراهيم", en: "al-Tadmuri Taj al-Din Ishaq ibn Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "تاج الدين إسحاق بن إبراهيم بن أحمد التدمري" }
+  - { kind: laqab, lang: ar, value: "تاج الدين" }
+  - { kind: nisba, lang: ar, value: "التدمري" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+died: { edtf: "1430", hijri: "0833", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم ترجمت له كتب طبقات المالكية، وتوفي سنة 833هـ ⁦(1430م)⁩."
+  en: "Scholar included in the Maliki biographical dictionaries; died 833 AH (1430 CE)."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: []
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/tadmur, note: "From the Tadmuri nisba; Maliki jurist, flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص433"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch54
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

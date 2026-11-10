@@ -1,0 +1,32 @@
+id: person/abu-salama-ibn-abd-al-rahman
+class: person
+label: { ar: "أبو سلمة بن عبد الرحمن بن عوف", en: "Abu Salama ibn Abd al-Rahman ibn Awf" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/umayyad]
+regions: [arabia]
+gender: male
+wings: [people]
+summary:
+  ar: "أبو سلمة بن عبد الرحمن بن عوف الزهري، من كبار التابعين بالمدينة، ثقة فقيه كثير الحديث، ولي قضاء المدينة. قيل اسمه عبد الله، وقيل إسماعيل، وقيل اسمه كنيته. توفي سنة 94هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2053}"
+  en: "Abu Salama ibn Abd al-Rahman ibn Awf al-Zuhri, one of the senior Successors in Medina, a trustworthy and learned transmitter of much hadith, who held the judgeship of Medina. His given name is said to have been Abd Allah, or Isma'il, or that he was known only by his kunya. He died in 94 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2053}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/taqrib-al-tahdhib]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2053"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: mawsua-w01-batch-85
+status:
+  review: draft
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/taqrib-al-tahdhib]
+born: { edtf: "643~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib); al-Dhahabi (Siyar)" }
+died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib); al-Dhahabi (Siyar)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: of Medina. His", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/taqrib-al-tahdhib], confidence: low }

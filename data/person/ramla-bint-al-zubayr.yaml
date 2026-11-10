@@ -1,0 +1,33 @@
+id: person/ramla-bint-al-zubayr
+class: person
+label: { en: "Ramla bint al-Zubayr", ar: "رملة بنت الزبير", ur: "رملہ بنت الزبیر" }
+names:
+  - { kind: full, lang: ar, value: "رملة بنت الزبير بن العوام القرشية" }
+gender: female
+roles: []
+traditions: [sunni]
+summary:
+  en: "Daughter of al-Zubayr ibn al-Awwam, remembered for the story of Khalid ibn Yazid ibn Mu'awiya falling in love with her at the Kaaba during the Hajj; she refused Abd al-Malik's suit unless he divorced his wives, and after Ibn al-Zubayr's killing she would not trust herself to the Umayyad caliph."
+  ar: "ابنة الزبير بن العوام؛ اشتهر خبر عشق خالد بن يزيد بن معاوية لها حين رآها تطوف بالبيت في الحج، فخطبها عبد الملك بن مروان فاشترطت عليه طلاق امرأتيه، ولما قُتل أخوها ابن الزبير أبَت أن تأمن نفسها على من قتل أخاها."
+wings: [people]
+themes: [women, family-marriage-kinship, politics-governance-and-authority]
+periods: [period/rashidun, period/umayyad]
+regions: [arabia, levant-iraq]
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: child_of, target: person/zubayr-ibn-al-awwam, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: sibling_of, target: person/musab-ibn-al-zubayr, note: "أخت مصعب لأمه {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 467}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/abdullah-ibn-uthman-ibn-affan, note: "ابنها عبد الله بن عثمان؛ تذكر الترجمة أنه زوج سكينة بنت الحسين وأن أمه رملة بنت الزبير {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 467}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/khalid-ibn-yazid-ibn-muawiya, note: "أعجب بها فخطبها عن نفسه ثم عن أبيه عبد الملك {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 465-466}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/abd-al-malik-ibn-marwan, note: "خطبها عبد الملك فردته، وفي رواية طيفور قال لوسوله إني لا آمن نفسي على من قتل أخي {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 467}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/sakina-bint-al-husayn, note: "حماة سكينة بنت الحسين بن علي — نشزت على زوجها عبد الله بن عثمان ابنها {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 467}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 2, generated_by: "Devin; A'lam al-Nisa' vol. 1 pp. 465-467 (PDF), entry رملة بنت الزبير" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

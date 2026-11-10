@@ -1,0 +1,30 @@
+id: person/al-zubayr-ibn-ahmad-al-basri
+class: person
+label: { ar: "الزبير بن أحمد البصري" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله الزبير بن أحمد بن سليمان بن عبد الله بن عاصم بن المنذر بن الزبير بن العوام البصري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو عبد الله الزبير بن أحمد بن سليمان البصري، من ولد الزبير بن العوام، مات قبل سنة عشرين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 57}. وله مصنفات منها «الكافي» و«ستر العورة» و«الهدية» {cite:tabaqat-fuqaha-abbas-1981 p. 57}."
+wings: [people]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+died: { edtf: "929", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

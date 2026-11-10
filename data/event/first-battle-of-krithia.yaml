@@ -1,0 +1,23 @@
+id: event/first-battle-of-krithia
+class: event
+kind: battle
+label: { ar: "معركة كريثيا الأولى", en: "First Battle of Krithia" }
+summary:
+  ar: "بطاقة أولية لمعركة كريثيا الأولى سنة ١٩١٥م، صد العثمانيين للحلفاء في جاليبولي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of Krithia in 1915, the Ottoman repulse of the Allied advance at Gallipoli; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1230997
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Gallipoli histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

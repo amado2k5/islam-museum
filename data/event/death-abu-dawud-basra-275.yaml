@@ -1,0 +1,27 @@
+id: event/death-abu-dawud-basra-275
+class: event
+kind: death
+label:
+  ar: "وفاة أبي داود السجستاني بالبصرة ١٦ شوال ٢٧٥هـ"
+  en: "Death of Abu Dawud al-Sijistani at Basra, 16 Shawwal 275/Feb 889"
+  ur: "ابو داؤد سجستانی کی بصرہ میں وفات، 16 شوال 275ھ/فروری 889ء"
+summary:
+  ar: "قال أبو عبيد الآجري: توفي في سادس عشر شوال سنة خمس وسبعين {cite:tarikh-islam-dhahabi p. 362}؛ وتعطي الموسوعة الإسلامية شوال 275هـ/فبراير 889م {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. وكان قد استقر بالبصرة وطناً، فأدركت عليه بها الوفاة."
+  en: "Abu Ubayd al-Ajurri said: he died on the sixteenth of Shawwal in the year two hundred and seventy-five {cite:tarikh-islam-dhahabi p. 362}, which the Encyclopaedia of Islam renders as Shawwal 275/February 889 {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. He had made Basra his home, and there death overtook him."
+  ur: "ابو عبید آجری نے کہا: وہ 275ھ میں 16 شوال کو فوت ہوئے {cite:tarikh-islam-dhahabi p. 362}؛ دائرة المعارف الإسلامية اسے شوال 275ھ/فروری 889ء دیتی ہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}۔ انہوں نے بصرہ کو اپنا وطن بنا رکھا تھا اور وہیں وفات آئی۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0889-02-19~", hijri: "0275-10-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سادس عشر شوال سنة خمس وسبعين {cite:tarikh-islam-dhahabi p. 362} = ١٦ شوال ٢٧٥هـ ≈ فبراير ٨٨٩م {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2], note: "استقر بالبصرة وطناً حتى وفاته {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص362 (harvest OCR v20 page 362); Encyclopaedia of Islam 2nd ed. vol. 1, art. Abu Dawud al-Sidjistani, printed p. 133"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

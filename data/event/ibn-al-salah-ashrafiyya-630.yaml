@@ -1,0 +1,28 @@
+id: event/ibn-al-salah-ashrafiyya-630
+class: event
+kind: other
+label:
+  ar: "ابن الصلاح يتولى مشيخة دار الحديث الأشرفية بدمشق ثم الشامية الصغرى، ٦٣٠هـ/١٢٣٣م"
+  en: "Ibn al-Salah takes the mashyakha of the al-Ashrafiyya dar al-hadith, then the Shamiyya al-Sughra, 630/1233"
+  ur: "ابن الصلاح دمشق میں دار الحدیث اشرفیہ کی مشیخت سنبھالتے ہیں، پھر شامیہ صغریٰ، 630ھ/1233ء"
+summary:
+  ar: "وُلي ابن الصلاح سنة ثلاثين وستمائة مشيخة الدار الأشرفية بدمشق، فلما بنى الأشرف دار الحديث فوّض تدريسها إليه، ثم تدريس الشامية الصغرى مدرسة ست الشام التي قبل المارستان النوري، وكان يقوم بوظائف الجهات الثلاث — الرواحية والأشرفية والشامية — من غير إخلال بشيء منها {cite:tarikh-islam-dhahabi p. 186} {cite:shadharat-dhahab p. 230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "In 630/1233 Ibn al-Salah took the mashyakha of the al-Ashrafiyya dar al-hadith in Damascus: when al-Malik al-Ashraf built the dar al-hadith he entrusted its teaching to him, then the Shamiyya al-Sughra — the madrasa of Sitt al-Sham opposite the Nur al-Din bimaristan. He discharged all three posts — Rawahiyya, Ashrafiyya and Shamiyya — without neglecting a single one {cite:tarikh-islam-dhahabi p. 186} {cite:shadharat-dhahab p. 230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "630ھ/1233ء میں ابن الصلاح نے دمشق کی دار الحدیث اشرفیہ کی مشیخت سنبھالی: جب ملک الاشرف نے دار الحدیث بنائی تو اس کی تدریس انھی کے سپرد کی، پھر شامیہ صغریٰ — ست الشام کی مدرسہ جو نور الدین بیمارستان کے سامنے تھی۔ انہوں نے تینوں مناصب — رواحیہ، اشرفیہ اور شامیہ — کی ذمہ داریاں بغیر کسی کوتاہی کے ادا کیں {cite:tarikh-islam-dhahabi p. 186} {cite:shadharat-dhahab p. 230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1232~", hijri: "0630", calendar: julian, precision: year, status: tradition, derived: true, note: "وليّ سنة ثلاثين مشيخة الدار الأشرفية ثم تدريس الشامية الصغرى {cite:tarikh-islam-dhahabi p. 186}؛ opened in 630/1233 {cite:encyclopaedia-of-islam-2 vol. 10 p. 89}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "شيخ دار الحديث", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "باني الدار وموكّل التدريس", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 186 (harvest OCR); Shadharat al-Dhahab s.a. 643, printed p. 230 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

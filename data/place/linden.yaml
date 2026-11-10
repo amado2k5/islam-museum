@@ -1,0 +1,16 @@
+id: place/linden
+class: place
+kind: city
+label: { en: "Linden", ar: "ليندن" }
+summary:
+  en: "City in Union County, New Jersey, United States."
+  ar: "مدينة في الولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [40.6252, -74.2378]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q1004712", geonames: "5100506" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q1004712 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

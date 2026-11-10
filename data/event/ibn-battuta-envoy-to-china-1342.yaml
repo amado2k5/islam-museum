@@ -1,0 +1,24 @@
+id: event/ibn-battuta-envoy-to-china-1342
+class: event
+kind: other
+label: { ar: "ابن بطوطة سفيرًا إلى الصين", en: "Ibn Battuta named envoy to China", ur: "ابن بطوطہ چین کے سفیر مقرر" }
+summary:
+  ar: "سنة 1342م عيّن سلطان دلهي محمد بن تغلق ابنَ بطوطة سفيرًا له إلى إمبراطور الصين، بعد سنوات قضاها في بلاطه. {cite:britannica-ibn-battuta}"
+  en: "In 1342 the Delhi sultan Muhammad ibn Tughluq appointed Ibn Battuta his envoy to the Chinese emperor, after years at his court."
+  ur: "1342ء میں دہلی کے سلطان محمد بن تغلق نے، اپنے دربار میں کئی برس گزارنے کے بعد، ابن بطوطہ کو چینی شہنشاہ کے پاس اپنا سفیر مقرر کیا۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+date:
+  start: { edtf: "1342", hijri: "0742~", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Britannica (Ibn Battuta); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/britannica-ibn-battuta] }
+  - { type: had_participant, target: person/ibn-battuta-muhammad, role: "السفير", sources: [source/britannica-ibn-battuta] }
+sources: [source/britannica-ibn-battuta]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Battuta, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-battuta.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-battuta

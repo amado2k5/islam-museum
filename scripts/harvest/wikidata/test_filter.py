@@ -14,7 +14,7 @@ ents = [
     {"type": "item", "id": "Q2", "labels": {"en": {"language": "en", "value": "Unrelated"}}, "claims": {}},
     {"type": "item", "id": "Q3", "labels": {"en": {"language": "en", "value": "Points at seed"}}, "claims": {"P140": [{"mainsnak": item(1), "rank": "normal"}]}},
     {"type": "item", "id": "Q5", "labels": {"en": {"language": "en", "value": "human"}}, "claims": {}},
-    {"type": "property", "id": "P31", "datatype": "wikibase-item", "labels": {"en": {"language": "en", "value": "instance of"}}, "claims": {}},
+    {"type": "property", "datatype": "wikibase-item", "id": "P31", "labels": {"en": {"language": "en", "value": "instance of"}}, "claims": {}},
 ]
 with tempfile.TemporaryDirectory() as t:
     t = Path(t)

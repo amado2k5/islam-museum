@@ -1,0 +1,47 @@
+id: person/radi-al-din-ibn-al-khayyat
+class: person
+label:
+  ar: "رضي الدين بن الخياط"
+  en: "Radi al-Din ibn al-Khayyat"
+roles: [muhaddith, qadi, teacher]
+gender: male
+summary:
+  ar: "بطاقة أولية لرضي الدين بن الخياط، المحدث والقاضي والمعلم، توفي سنة ١٣٩٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Radi al-Din ibn al-Khayyat, the muhaddith, qadi and teacher, d. 1399; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1202", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
+died: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
+relations:
+  - { type: died_in, target: place/jabala, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1010816)" }
+  - { type: lived_in, target: place/old-city-of-taiz, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q139829337)" }
+  - { type: lived_in, target: place/mecca, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q5806)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q141178140
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0081
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

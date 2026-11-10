@@ -1,0 +1,36 @@
+---
+// Surah maps index: all 114 surahs as cards linking to their interactive thematic maps.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, labelOf, realNodes } from "../../../lib/graph";
+import { listSurahMaps } from "../../../lib/surah-maps";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const SM = T.surahmap;
+const maps = listSurahMaps();
+if (maps.length !== 114) throw new Error(`surah index: expected 114 maps, found ${maps.length}`);
+const cards = maps.map(({ n, slug }) => {
+  const node = byId.get(`passage/quran-${n}`);
+  const verses = realNodes.filter((x) => x.class === "passage" && (x as any).data.unit === "ayah" && (x as any).data.sura === n).length;
+  const place = (node as any)?.data.revelation_place as string | undefined;
+  return { n, slug, name: node ? labelOf(node, lang) : slug, verses, place };
+});
+---
+<BaseLayout lang={lang} title={SM.title} description={SM.lede} path={`/${lang}/surah/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{SM.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{SM.lede}</p>
+    <ul class="grid-cards">
+      {cards.map((c) => (
+        <li>
+          <a class="card" href={`/${lang}/surah/${c.slug}/`}>
+            <h2 class="card-title">{c.name}</h2>
+            <span class="ui">{fmt(T.revelation.verses, { n: String(c.verses) })} · {c.place === "medinan" ? SM.medinan : SM.meccan}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

@@ -1,0 +1,37 @@
+id: person/ibn-ruzgan-muhammad
+class: person
+label: { ar: "ابن رزكان محمد بن محمد", en: "Ibn Ruzgan, Muhammad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن عبد الكريم بن رضوان البعلي الشافعي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1299", hijri: "0699", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1372", hijri: "0774", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شافعي المذهب، بعلي المولد والنشأة، عاش في القرن الثامن الهجري."
+  en: "A Shafi'i born and raised in Baalbek, who lived in the eighth century AH."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/baalbek, confidence: low, note: "Associated with Baalbek per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص599"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch59
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

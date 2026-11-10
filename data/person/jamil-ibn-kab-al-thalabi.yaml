@@ -1,0 +1,23 @@
+id: person/jamil-ibn-kab-al-thalabi
+class: person
+label: { ar: "جميل بن كعب الثعلبي", en: "Jamil ibn Ka'b al-Tha'labi" }
+summary:
+  ar: "من سادات ربيعة وشيعة علي، أسره معاوية فلما أمر بضرب عنقه قال اللهم اشهد أن معاوية لم يقتلني فيك ولا لأنك ترضى قتلي ولكن قتلني على حطام الدنيا، فقال معاوية قاتلك الله لقد سببت فأبلغت ودعوت فبالغت ثم أطلقه وتمثل بأبيات النعمان بن المنذر تعفو الملوك عن الجليل من الأمور بفضلها {cite:muruj-al-dhahab p. 48-49}."
+  en: "A chief of Rabi'a and Ali's partisan — spared at the block by Mu'awiya, who admired his curse-prayer and capped it with al-Nu'man ibn al-Mundhir's verses on royal clemency {cite:muruj-al-dhahab p. 48-49}."
+gender: male
+wings: [people]
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib / Ibn Hajar" }
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib / Ibn Hajar" }
+relations:
+  - { type: lived_in, target: place/oman, confidence: low, note: "Associated with عمان per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

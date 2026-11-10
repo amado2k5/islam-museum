@@ -1,0 +1,30 @@
+id: person/al-azraqi-muhammad-ibn-abd-allah
+class: person
+label: { ar: "الأزرقي", en: "al-Azraqi" }
+names:
+  - { kind: full, lang: ar, value: "أبو الوليد محمد بن عبد الله بن أحمد الأزرقي" }
+gender: male
+roles: [historian]
+traditions: [sunni]
+summary:
+  ar: "مؤرخ مكي من أهل القرن الثالث الهجري، صنّف في أخبار مكة وآثارها."
+  en: "Meccan historian of the third century AH who wrote on the history and monuments of Mecca."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/abbasid-early]
+regions: [arabia]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص526-528"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+died: { edtf: "837", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (مكي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,23 @@
+id: event/second-battle-of-blida-1832
+class: event
+kind: battle
+label: { ar: "معركة المدية الثانية", en: "Second Battle of Blida" }
+summary:
+  ar: "بطاقة أولية لمعركة المدية الثانية، من مقاومة الجزائر للاحتلال الفرنسي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Battle of Blida, part of the Algerian resistance to the French occupation; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1830", precision: year, status: tradition, derived: true }
+  end: { edtf: "1832", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q21009228
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

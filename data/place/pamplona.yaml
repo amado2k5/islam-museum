@@ -1,0 +1,19 @@
+id: place/pamplona
+class: place
+kind: town
+label: { ar: "بنبلونة", en: "Pamplona" }
+summary:
+  ar: "Pamplona (Banbaluna), Navarre, Spain."
+  en: "Pamplona (Banbaluna), Navarre, Spain."
+wings: [place]
+coordinates: [42.8125, -1.6458]
+coordinate_precision: locality
+coordinate_note: "Pamplona (Banbaluna), Navarre, Spain (geocoding pass, Gemini-assisted)"
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Geocoding pass (Gemini-assisted) for the residual unmapped-places list."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: place-geo-residual
+status: { review: draft, completeness: 1, generated_by: "Devin" }

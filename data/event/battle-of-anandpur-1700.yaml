@@ -1,0 +1,23 @@
+id: event/battle-of-anandpur-1700
+class: event
+kind: siege
+label: { ar: "معركة أنندبور", en: "Battle of Anandpur" }
+summary:
+  ar: "بطاقة أولية لحصار أنندبور سنة ١٧٠٠م، جمع ملوك الجبال على حصن كورو ساهب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Anandpur in 1700, the hill rajas' siege of Guru Gobind Singh's fort; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1700", precision: year, status: tradition, derived: true }
+  end: { edtf: "1700", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5452501
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

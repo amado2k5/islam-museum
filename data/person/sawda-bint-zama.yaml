@@ -1,15 +1,25 @@
 id: person/sawda-bint-zama
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "سودة بنت زمعة أم المؤمنين، أسلمت قديماً وهاجرت إلى الحبشة، وهي أول من تزوجها النبي بعد وفاة خديجة سنة ١٠ من النبوة."
+    en: "Sawda bint Zam'a, a Mother of the Believers, an early convert who emigrated to Abyssinia — the first woman the Prophet married after Khadija's death in year ten."
+    ur: "سودہ بنت زمعہ، ام المومنین، اولین مسلمانوں میں سے جو حبشہ ہجرت کی — خدیجہ کی وفات کے بعد نبی کی پہلی زوجہ، نبوت کے دسویں سال۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley]
 class: person
-label: { en: "Sawda bint Zam'a", ar: "سودة بنت زمعة" }
+label: { en: "Sawda bint Zam'a", ar: "سودة بنت زمعة" , ur: "سودہ بنت زمعہ"}
 names:
   - { kind: full, lang: ar, value: "سودة بنت زمعة بن قيس بن عبد شمس العامرية" }
 gender: female
-died: { edtf: "0674~", hijri: "0054~", calendar: julian, precision: year, status: tradition, note: "توفيت في آخر خلافة عمر أو سنة 54 هـ في خلافة معاوية على اختلاف الروايات.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0674~", hijri: "0054~", calendar: julian, precision: year, status: debated, note: "توفيت في آخر خلافة عمر أو سنة 54 هـ في خلافة معاوية على اختلاف الروايات. يسجّل الكتاب الخلاف نفسه: قيل كانت أول نساء النبي لحاقاً به برواية عائشة، وقيل زينب بنت جحش ثم سودة سنة 54هـ في خلافة معاوية (نساء حول الرسول ص58).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: [companion]
 traditions: [sunni]
 summary:
   en: "Mother of the Believers; among the early converts who migrated to Abyssinia, and the first woman the Prophet married after the death of Khadija, in Shawwal of the tenth year of prophethood."
   ar: "أم المؤمنين؛ أسلمت قديماً وهاجرت إلى الحبشة مع زوجها السكران بن عمرو، وأول من تزوجها النبي بعد وفاة خديجة في شوال سنة 10 من النبوة بمكة."
+  ur: "ابتدائی مسلمان خاتون جنہوں نے اپنے شوہر سکران بن عمرو کے ساتھ حبشہ ہجرت کی؛ خدیجہ کی وفات کے بعد نبی نے سب سے پہلے ان سے مکہ میں نبوت کے دسویں سال کے شوال میں نکاح کیا۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [women, family-marriage-kinship]
 periods: [period/prophetic-era, period/rashidun]
@@ -21,11 +31,33 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "مسلمة من المهاجرات؛ مسجلة في الإطار السني للمتحف." }
 relations:
-  - { type: born_in, target: place/mecca }
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0619~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: spouse_of, target: person/al-sakran-ibn-amr, end: { edtf: "0619~" }, note: "زوجها الأول السكران بن عمرو أخو سهيل بن عمرو؛ هاجرت معه إلى الحبشة وتوفي قبل زواجها من النبي (نساء حول الرسول ص58).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: participated_in, target: event/marriage-to-sawda }
   - { type: participated_in, target: event/second-migration-to-abyssinia }
-sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118" }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, note: "ذكرها ابن إسحاق ص11 في مهاجرات الحبشة من بني عامر بن لؤي", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
+  - { type: born_in, target: place/mecca }
+  - { type: lived_in, target: place/abyssinia, sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/ibn-hajar-isaba, source/assabile-mustafa-hosny] }
+external_ids: { wikidata: "Q1943555" }
+sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/ibn-hajar-isaba, source/assabile-mustafa-hosny]
+status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118; Nisa' Hawl al-Rasul pp. 49-58 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+occupations:
+  - job: job/tanner
+    kind: episodic
+    status: tradition
+    note: "The DERI entry (Bozkurt) says she was skilled in Taif-style leatherwork. The sources it cites were not read, so this is the entry's report."
+    sources: [source/tdv-deri]

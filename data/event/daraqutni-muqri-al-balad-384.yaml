@@ -1,0 +1,28 @@
+id: event/daraqutni-muqri-al-balad-384
+class: event
+kind: other
+label:
+  ar: "الدارقطني يتصدر للإقراء ببغداد في آخر أيامه، نحو ٣٨٤هـ"
+  en: "Al-Daraqutni takes the lead in iqra' at Baghdad in his last days, about 384/994"
+  ur: "دارقطنی آخری ایام میں بغداد میں اقراء کے سردار بنتے ہیں، تقریباً 384ھ/994ء"
+summary:
+  ar: "برع الدارقطني في القراءات وتصدر في آخر أيامه للإقراء {cite:tarikh-islam-dhahabi p.104}؛ وقال: كنت أنا والكتاني نسمع الحديث، فكانوا يقولون: يخرج الكتاني محدث البلد ويخرج الدارقطني مقرئ البلد، فخرجت أنا محدثاً والكتاني مقرئاً {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ وقال القاضي أبو الطيب الطبري: الدارقطني أمير المؤمنين في الحديث، وقال الخطيب: كان فريد دهره وقريع عصره ونسيج وحده وإمام وقته، انتهى إليه علم الأثر والمعرفة بعلل الحديث وأسماء الرجال مع الصدق والثقة وصحة الاعتقاد {cite:tarikh-islam-dhahabi pp.102-103}."
+  en: "Al-Daraqutni excelled in the qira'at and in his last days took the lead in the public reading of the Qur'an {cite:tarikh-islam-dhahabi p.104}. He said: al-Kattani and I used to hear hadith together, and people would say 'al-Kattani will come out the muhaddith of the town, al-Daraqutni its muqri' — and I came out the muhaddith and al-Kattani the muqri'' {cite:muntazam-ibn-al-jawzi j.7 p.184}. The qadi Abu al-Tayyib al-Tabari called him Commander of the Faithful in hadith, and al-Khatib said he was the singular one of his age and the imam of his time, to whom the science of transmitted reports, the defects of hadith and the names of its men came to an end, with truthfulness, reliability and sound belief {cite:tarikh-islam-dhahabi pp.102-103}."
+  ur: "دارقطنی قراءات میں ممتاز ہوئے اور آخری ایام میں بغداد میں اقراء کی صدارت اختیار کی {cite:tarikh-islam-dhahabi p.104}؛ ان کا قول ہے: میں اور کتانی ساتھ حدیث سنتے تھے اور لوگ کہتے تھے کتانی شہر کا محدث اور دارقطنی شہر کا مقرئ نکلے گا، مگر میں محدث نکلا اور کتانی مقرئ {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ قاضی ابو الطیب طبری نے انہیں حدیث میں امیرالمومنین کہا اور خطیب نے کہا کہ وہ اپنے دہر کے یکتا، اپنے عصر کے امام تھے، علم آثار، علل حدیث اور اسماء رجال ان ہی پر ختم ہوا، مع صداقت، امانت اور صحت عقیدہ {cite:tarikh-islam-dhahabi pp.102-103}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0994~", hijri: "0384~", calendar: julian, precision: year, status: tradition, derived: true, note: "«تصدّر في آخر أيامه للإقراء» {cite:tarikh-islam-dhahabi p.104}؛ نحو ٣٨٤هـ قبل وفاته ٣٨٥؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-daraqutni, role: "شيخ القراء والمحدثين", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-kattani-ali-ibn-ibrahim, role: "النظير الذي صار مقرئاً", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 385, printed pp. 102-104 (harvest OCR); Ibn al-Jawzi, al-Muntazam (Haydarabad 1357) j.7, printed p. 184 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

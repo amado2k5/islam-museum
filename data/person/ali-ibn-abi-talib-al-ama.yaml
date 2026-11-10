@@ -1,0 +1,22 @@
+id: person/ali-ibn-abi-talib-al-ama
+class: person
+label: { ar: "علي بن أبي طالب الأعمى", en: "the blind 'Ali ibn Abi Talib" }
+summary:
+  ar: "شاعر أعمى، رثى بغداد في حرب الأمين والمأمون بقصيدة أولها تقطعت الأرحام بين العشائر ومنها أبغداد يا دار الملوك ومجتنى صنوف المنى يا جنة الدنيا ويا مطلب الغنى أبيني لنا أين الذين عهدتهم {cite:muruj-al-dhahab p. 385-386}."
+  en: "The blind poet whose elegy for siege-torn Baghdad — 'O Baghdad, house of kings, paradise on earth' — mourns the brother-war {cite:muruj-al-dhahab p. 385-386}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+born: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Blind poet whose elegy mourns siege-torn Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

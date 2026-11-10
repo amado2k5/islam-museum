@@ -1,0 +1,31 @@
+id: person/ali-ibn-musa-ibn-yazdad
+class: person
+label: { ar: "علي بن موسى بن يزداد", en: "Ali ibn Musa ibn Yazdad" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+gender: male
+wings: [people]
+summary:
+  ar: "علي بن موسى بن يزداد، من أهل قم ثم قدم نيسابور، إمام الحنفية في عصره، وله كتب في الرد على أصحاب الشافعي، ومن تصانيفه «كتاب الضحايا». توفي سنة 305هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2066}"
+  en: "Ali ibn Musa ibn Yazdad, from Qum, later of Nishapur, the leading Hanafi of his time, who wrote books refuting the followers of al-Shafi'i; his work includes 'Kitab al-dahaya' on sacrifices. He died in 305 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2066}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2066"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "932~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/nishapur, note: "From text: من أهل قم ثم قدم نيسابور", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

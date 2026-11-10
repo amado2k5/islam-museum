@@ -1,0 +1,23 @@
+id: event/battle-of-mount-tabor-1799
+class: event
+kind: battle
+label: { ar: "معركة جبل الطور", en: "Battle of Mount Tabor" }
+summary:
+  ar: "بطاقة أولية لمعركة جبل الطور سنة ١٧٩٩م، نصر بونابرت على جيش دمشق العثماني في فلسطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mount Tabor in 1799, Bonaparte's victory over the Ottoman Damascene army in Palestine; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1799", precision: year, status: tradition, derived: true }
+  end: { edtf: "1799", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q2420811
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Napoleonic-era histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

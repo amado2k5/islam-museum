@@ -1,0 +1,23 @@
+id: event/battle-of-misrata-1912
+class: event
+kind: battle
+label: { ar: "معركة مصراتة", en: "Battle of Misrata" }
+summary:
+  ar: "بطاقة أولية لمعركة مصراتة سنة ١٩١٢م، احتلال الإيطاليين للمدينة في حرب طرابلس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Misrata in 1912, the Italian capture of the city in the Libyan war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16583508
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

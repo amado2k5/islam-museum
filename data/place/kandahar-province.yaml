@@ -1,0 +1,21 @@
+id: place/kandahar-province
+class: place
+kind: region
+label: { ar: "ولاية قندهار", en: "Kandahar Province", ur: "صوبہ قندھار" }
+summary:
+  ar: "إقليم في الدولة الدرانية."
+  en: "Region in Durrani Empire."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [31, 65.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q173808" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q173808 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

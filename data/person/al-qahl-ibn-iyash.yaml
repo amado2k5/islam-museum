@@ -1,0 +1,22 @@
+id: person/al-qahl-ibn-iyash
+class: person
+label: { ar: "القحل بن عياش", en: "al-Qahl ibn Iyash" }
+summary:
+  ar: "القحل بن عياش بن حسان بن عامر بن شراحيل الكلابي؛ قاتل يزيد بن المهلب؛ لما عطفت خيول أهل الشام على يزيد وأصحابه وثب القحل وقال: يا أهل الشام هذا لعن الله يزيد لأقتلنه أو ليقتلني؛ فحمل هو وأصحابه فضرب كل واحد منهما صاحبه فقتله فأومأ القحل إلى أصحابه يريهم مكان يزيد ومات من وقعته {cite:wafayat-ayan}."
+  en: "Al-Qahl b. Iyash al-Kalabi — killer of Yazid b. al-Muhallab; charged crying 'cursed be Yazid, I shall kill him or he kills me,' and the two slew each other; al-Qahl lived long enough to point out Yazid's body {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/umayyad]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء السادس (عارضة 334 داخل ترجمة يزيد بن المهلب)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch100
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: died_in, target: place/iraq, note: "Killed Yazid ibn al-Muhallab and died of the wound; the encounter was in Iraq.", sources: [source/wafayat-ayan], confidence: low }
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3

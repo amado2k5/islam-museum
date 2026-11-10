@@ -1,0 +1,22 @@
+id: person/adham-ibn-muhriz-al-bahili
+class: person
+label: { ar: "أدهم بن محرز الباهلي", en: "Adham ibn Muhriz al-Bahili" }
+summary:
+  ar: "أحد الأمراء الخمسة الذين انفصلوا على مقدمة عبيد الله بن زياد من الرقة إلى حرب التوابين بعين الوردة {cite:muruj-al-dhahab p. 88}."
+  en: "One of the five commanders of Ibn Ziyad's vanguard from Raqqa against the Penitents {cite:muruj-al-dhahab p. 88}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/raqqa, note: "From text: from Raqqa", sources: [source/muruj-al-dhahab], confidence: low }

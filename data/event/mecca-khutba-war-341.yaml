@@ -1,0 +1,25 @@
+id: event/mecca-khutba-war-341
+class: event
+kind: civil-war
+label: { ar: "حرب الخطبة بمكة بين العلوي والمصريين", en: "The War of the Khutba at Mecca between the Alid and the Egyptians" }
+summary:
+  ar: "في سنة إحدى وأربعين وثلاثمائة ورد الخبر بحرب جرت بين أبي عبد الله أحمد بن عمر بن يحيى العلوي وبين المصريين بمكة وكانت على المصريين وقتل أمير مكة، وتم الحج في هذه السنة على طمأنينة فأقام أهل مصر الخطبة للإخشيدي وقت الظهر يوم عرفة وأقام العلوي الخطبة بعد الظهر لركن الدولة ومعز الدولة؛ وفي سنة اثنتين وأربعين جرت حروب بمكة لأجل الخطبة فانهزم المصريون {cite:muntazam-ibn-al-jawzi p. 663-664}."
+  en: "In 341 war broke out at Mecca between the Alid Abu Abdallah Ahmad ibn 'Umar and the Egyptians — Mecca's amir killed — yet the Hajj passed in calm, the Egyptians holding the khutba for the Ikhshid at noon of 'Arafa while the Alid held an afternoon khutba for Rukn al-Dawla and Mu'izz al-Dawla; in 342 the Egyptians were routed {cite:muntazam-ibn-al-jawzi p. 663-664}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+sides:
+  - label: { ar: "العلوي وأنصاره" }
+  - label: { ar: "المصريون" }
+map: { kind: locator, precision: approximate, center: [39.83, 21.42] }
+date:
+  start: { edtf: "0952~", hijri: "0341", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٤١–٣٤٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 663}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 341–342)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

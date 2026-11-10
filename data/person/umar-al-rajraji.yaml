@@ -1,0 +1,34 @@
+id: person/umar-al-rajraji
+class: person
+gender: male
+label:
+  ar: "الرجراجي ⁦(عمر بن محمد)⁩"
+  en: "Al-Rajraji (Umar ibn Muhammad)"
+summary:
+  ar: "عمر بن محمد، أبو علي وأبو حفص، الرجراجي الفاسي، فقيه مالكي وصفه ابن غازي بالشيخ الصالح المتفق على علمه وصلاحه، وقال السخاوي إنه إمام جامع الأندلس في فاس، وكان الغالب عليه الزهد والورع مع تقدمه في الفقه. أخذ عن جماعة من مشيخة فاس، منهم أبو عمران العبدوسي والقباب والوانغيلي الضرير، وعنه جلة منهم ابن الخطيب القسنطيني وابن علال المصمودي. توفي سنة 810 هـ على ما يذكر العنوان بعلامة الاستفهام. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15817}"
+  en: "Umar ibn Muhammad, Abu Ali and Abu Hafs, al-Rajraji al-Fasi, a Maliki jurist. Ibn Ghazi called him a righteous shaykh whose learning and piety were agreed; al-Sakhawi called him the imam of the Andalusian mosque in Fes, mostly known for asceticism and scrupulousness, and foremost in fiqh. He studied with several Fes teachers, including Abu Imran al-Abdusi, al-Qabbab and the blind al-Wanghili, the mufti of Fes, and was studied with by Ibn al-Khatib al-Qasantini and Ibn Allal al-Masmudi. The header gives 810 AH with a question mark. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15817}"
+roles: [jurist]
+traditions: [sunni-maliki]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15817 من المسح)"
+  scan_pages: [15817]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "1236~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

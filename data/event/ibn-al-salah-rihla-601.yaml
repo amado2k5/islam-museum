@@ -1,0 +1,29 @@
+id: event/ibn-al-salah-rihla-601
+class: event
+kind: other
+label:
+  ar: "رحلة ابن الصلاح الأولى في طلب الحديث: بغداد ودُبَيْس وهمذان، نحو ٦٠١هـ"
+  en: "Ibn al-Salah's first hadith journey at about twenty-four: Baghdad, Dubays and Hamadan, c. 601"
+  ur: "ابن الصلاح کا تقریباً چوبیس برس کی عمر میں پہلا سفرِ حدیث: بغداد، دبیس اور ہمذان، تقریباً 601ھ"
+summary:
+  ar: "رحل ابن الصلاح وله بضع وعشرون سنة إلى بغداد، فسمع بها من أبي أحمد عبد الوهاب ابن سكينة وعمر بن طبرزاد؛ وبدُبَيْس من إسماعيل بن إبراهيم الخباز؛ وبهمذان من أبي الفضل بن المعظم وجماعة {cite:tarikh-islam-dhahabi p. 185}."
+  en: "When he was a little over twenty, Ibn al-Salah set out for Baghdad, where he heard hadith from Abu Ahmad 'Abd al-Wahhab b. Sukayna and 'Umar b. Tabarzad; at Dubays from Isma'il b. Ibrahim al-Khazzaz; and at Hamadan from Abu al-Fadl b. al-Mu'azzim and a group {cite:tarikh-islam-dhahabi p. 185}."
+  ur: "جب وہ بیس برس سے کچھ زیادہ کے تھے، ابن الصلاح بغداد کے لیے روانہ ہوئے، جہاں انہوں نے ابو احمد عبد الوہاب بن سکینہ اور عمر بن طبرزاد سے سماعت کی؛ دبیس میں اسماعیل بن ابراہیم خزاز سے؛ اور ہمذان میں ابو الفضل بن معظم اور دیگر سے {cite:tarikh-islam-dhahabi p. 185}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1204~", hijri: "0601~", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل وله بضع وعشرون سنة إلى بغداد ودبيس وهمذان {cite:tarikh-islam-dhahabi p. 185}؛ ولد ٥٧٧هـ فنحو ٦٠١هـ؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/dubays, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/hamadan, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "رحالة في طلب الحديث", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 185 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

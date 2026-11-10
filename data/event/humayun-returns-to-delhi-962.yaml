@@ -1,0 +1,24 @@
+id: event/humayun-returns-to-delhi-962
+class: event
+kind: conquest
+label: { ar: "عودة همايون إلى دلهي سنة ٩٦٢هـ", en: "Humayun returns to Delhi, 962 AH" }
+summary:
+  ar: "استرد السلطان همايون دلهي من السوريين سنة 962هـ/1555م بعد خمس عشرة سنة من النفي، فعادت العاصمة إلى المغول {cite:akbarnama}."
+  en: "In 962/1555 Sultan Humayun recovered Delhi from the Sur sultans after fifteen years in exile, and the capital was Mughal once more {cite:akbarnama}."
+  ur: "962ھ/1555ء میں سلطان ہمایوں نے پندرہ سالہ جلاوطنی کے بعد سوری سلطنت سے دلی واپس لے لی اور راجدھانی پھر مغلوں کی ہوئی {cite:akbarnama}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1555", hijri: "0962", calendar: julian, precision: year, status: tradition, derived: true, note: "962هـ/1555م؛ التحويل مشتق {cite:akbarnama}" }
+  end: { edtf: "1555", hijri: "0962", calendar: julian, precision: year, status: tradition, derived: true, note: "962هـ/1555م؛ التحويل مشتق {cite:akbarnama}" }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/akbarnama] }
+  - { type: had_participant, target: person/humayun-mughal, role: "السلطان العائد", sources: [source/akbarnama] }
+sources: [source/akbarnama]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mughal Delhi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mughal-delhi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-el-obeid-1883
+class: event
+kind: battle
+label: { ar: "معركة الأبيض", en: "Battle of El Obeid" }
+summary:
+  ar: "بطاقة أولية لمعركة الأبيض سنة ١٨٨٣م، إبادة المهدي لجيش هيكس باشا المصري في كردفان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of El Obeid in 1883, the Mahdi's annihilation of Hicks Pasha's Egyptian army in Kordofan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1883", precision: year, status: tradition, derived: true }
+  end: { edtf: "1883", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q478597
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Mahdist histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

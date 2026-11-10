@@ -1,0 +1,31 @@
+id: person/muhammad-jebril
+class: person
+label: { ar: "محمد جبريل", en: "Muhammad Jebril", ur: "محمد جبریل" }
+names:
+  - { value: "محمد محمد السيد حسنين جبريل", kind: full }
+  - { value: "Muhammad Jebril", kind: full }
+  - { value: "Muhammad Jibreel", kind: alternate }
+  - { value: "Mohamed Gebril", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري ⁦(وُلد 1964)⁩، أمّ التراويح في مسجد عمرو بن العاص بالقاهرة من 1988 إلى 2015 فاجتذب ليالي القدر مئات الآلاف، وأسس دار أبيّ بن كعب لعلوم القرآن في 1996؛ منعته وزارة الأوقاف بعد دعاء قنوت في رمضان 2015، وألغت محكمة القضاء الإداري منعه من السفر، ويقيم في لندن منذ 2015."
+  en: "Egyptian Qur'an reciter (born 1964) who led the tarawih at the Mosque of Amr ibn al-As in Cairo from 1988 to 2015, drawing hundreds of thousands on the Night of Power, and founded the Dar Ubayy ibn Ka'b centre for Qur'anic sciences in 1996; the Ministry of Awqaf barred him after a qunut supplication in Ramadan 2015, an administrative court annulled his travel ban, and he has lived in London since 2015."
+  ur: "مصری قاریِ قرآن ⁦(پیدائش 1964ء)⁩، جنھوں نے 1988ء سے 2015ء تک قاہرہ کی مسجد عمرو بن العاص میں تراویح پڑھائی، جہاں لیلۃ القدر میں لاکھوں نمازی آتے، اور 1996ء میں دار ابی بن کعب برائے علومِ قرآن قائم کیا؛ رمضان 2015ء کی ایک دعائے قنوت کے بعد وزارتِ اوقاف نے ان پر پابندی لگائی، انتظامی عدالت نے سفر کی پابندی منسوخ کی، اور وہ 2015ء سے لندن میں مقیم ہیں۔"
+wings: [people, living]
+regions: [egypt-nile]
+roles: [reciter, imam, presenter]
+born: { edtf: "1964", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born at Tahouria village, Shibin al-Qanatir district, Qalyubia (Arabic article; Wikidata gives 1964 and Shibin al-Qanatir). No place entity exists for either, so no birthplace relation is written.", sources: [source/wikipedia-muhammad-jebril-ar, source/wikidata-muhammad-jebril] }
+relations:
+  - { type: lived_in, target: place/cairo, note: "Cairo until July 2015; London from July 2015 (no London place entity yet)", sources: [source/wikipedia-muhammad-jebril-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives religion Islam; neither it nor Wikidata names a school. Not recorded."
+    sources: [source/wikipedia-muhammad-jebril-ar, source/wikidata-muhammad-jebril]
+footprint:
+  wikipedia: { languages: [ar, arz, en, ru, uk], checked: "2026-11-06", sources: [source/wikidata-muhammad-jebril] }
+  wikidata: "Q12240333"
+external_ids: { wikidata: "Q12240333" }
+sources: [source/wikipedia-muhammad-jebril-ar, source/wikidata-muhammad-jebril]
+provenance: { layer: own-research, source: "Arabic Wikipedia «محمد جبريل ⁦(قارئ)⁩» (revision 73229598, 27 January 2026) and Wikidata Q12240333 (revision 2470599798), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b01 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,30 @@
+id: person/abd-allah-ibn-alawi-al-haddad
+class: person
+label:
+  ar: "عبد الله بن علوي الحداد"
+  en: "Abdullah ibn Alawi al-Haddad"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الله بن علوي الحداد، عالم حضرموت وشيخ الطريقة العلوية في القرن الثامن عشر صاحب «النصائح الدينية»، توفي سنة ١٧٢٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abdullah ibn Alawi al-Haddad, the eighteenth-century scholar of Hadramawt and shaykh of the Alawi path author of al-Nasa'ih al-Diniyya, d. 1720; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+themes: [spirituality-and-sufism]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6003118
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0033
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH)" }
+died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Nafais al-Ulwiyya; EI2 ('al-Haddad': 1044–1132 AH)" }
+relations:
+  - { type: lived_in, target: place/hadramawt, note: "From text: عالم حضرموت وشيخ الطريقة العلو", sources: [source/al-aalam], confidence: low }

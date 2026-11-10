@@ -1,0 +1,23 @@
+id: event/battle-of-iskhabad-940
+class: event
+kind: battle
+label: { ar: "معركة إسخ آباد", en: "Battle of Iskhabad" }
+summary:
+  ar: "بطاقة أولية لمعركة إسخ آباد سنة ٩٤٠م، فوز السامانيين على ماكان بن كاكي والحسن بن فيروزان في طبرستان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Iskhabad in 940, the Samanid victory over Makan ibn Kaki in Tabaristan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0940-12-25", precision: year, status: tradition, derived: true }
+  end: { edtf: "0940-12-25", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-al-tabari]
+external_ids:
+  wikidata: Q16253654
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

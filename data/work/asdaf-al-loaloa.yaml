@@ -1,0 +1,44 @@
+id: work/asdaf-al-loaloa
+class: work
+kind: lecture-series
+label:
+  ar: "أصداف اللؤلؤ"
+  en: "Asdaf al-Lu'lu': Shells of Pearl"
+  ur: "اصداف اللؤلؤ: موتیوں کی سیپیاں"
+summary:
+  ar: "برنامج رمضاني مصوّر من ثلاثين حلقة في بيت أبي إسحاق الحويني: كل حلقة جولة في مكتبته بين رفوف الحديث والفقه والأصول والتاريخ والتفسير، ثم لقاء يروي فيه سيرته العلمية من خلال الكتب، من قراءته الأدبية في صباه وأول كتاب اشتراه، إلى شيوخه والألباني وكشك، ومحنه، وخطابته، ثم مؤلفاته ومشاريعه، ويُختم برثاء صاحبه شكري. لا يُنطق العنوان في الحلقات ولا يُذكر اسم المحاور."
+  en: "A filmed Ramadan programme of thirty episodes in Abu Ishaq al-Heweny's home: each episode tours his library, along the shelves of hadith, fiqh, legal theory, history and tafsir, then an interview in which he tells his scholarly life through books, from his boyhood literary reading and the first book he bought to his teachers, al-Albani and Kishk, his trials and his preaching, then his works and projects, closing with a tribute to his companion Shukri. The title is never spoken and the interviewer is not named."
+  ur: "ابو اسحاق حوینی کے گھر میں تیس اقساط کا ایک رمضانی ویڈیو پروگرام: ہر قسط ان کی لائبریری میں حدیث، فقہ، اصول، تاریخ اور تفسیر کی الماریوں کی سیر ہے، پھر ایک انٹرویو جس میں وہ کتابوں کے حوالے سے اپنی علمی زندگی سناتے ہیں، لڑکپن کے ادبی مطالعے اور پہلی خریدی گئی کتاب سے لے کر اپنے اساتذہ، البانی اور کشک، اپنی آزمائشوں اور خطابت تک، پھر اپنی تصانیف اور منصوبے، اور آخر میں اپنے رفیق شکری کو خراجِ عقیدت۔ اقساط میں عنوان نہیں بولا جاتا اور میزبان کا نام نہیں آتا۔"
+wings: [ideas]
+themes: [scripture-and-its-sciences, education]
+regions: [egypt-nile]
+authors: [person/abu-ishaq-al-heweny]
+delivered: { by: person/abu-ishaq-al-heweny }
+language: language/arabic
+relations:
+  - { type: about, target: person/al-albani-muhammad-nasir-al-din, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/abdul-hamid-kishk, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/ahmad-muhammad-shakir, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/muhammad-najib-al-mutii, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/al-fawaid-al-majmua-fi-al-ahadith-al-mawdua, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/tahdhib-al-kamal, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/sunan-al-nasai, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/sunan-ibn-majah, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/sahih-muslim, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/sahih-al-bukhari, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/al-mughni, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/tafsir-ibn-kathir, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/al-mujam-al-awsat, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/ibn-abi-hatim-al-razi, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/ibn-taymiyya, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/ibn-qayyim-al-jawziyya, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: work/al-risala-shafii, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/shuba-ibn-al-hajjaj, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/al-suyuti, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/abu-awana-yaqub-ibn-ishaq, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: concept/mustalah-al-hadith, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/hamad-al-ansari, sources: [source/assabile-abu-ishaq-alheweny] }
+  - { type: about, target: person/ibn-hazm, sources: [source/assabile-abu-ishaq-alheweny] }
+sources: [source/assabile-abu-ishaq-alheweny]
+provenance: { layer: copyrighted-reference, source: "Assabile, asdaf-al-loaloa ep01-ep30 (speaker page https://www.assabile.com/abu-ishaq-alheweny read 1 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader)", generated_by: "Claude Code (claude-opus-5-5)", model: claude-opus-5-5, run: assabile-egypt-heweny-3 }
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5); run assabile-egypt-heweny-3" }

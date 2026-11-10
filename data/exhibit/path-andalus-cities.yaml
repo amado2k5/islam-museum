@@ -1,0 +1,76 @@
+id: exhibit/path-andalus-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن الأندلس
+  en: Cities of al-Andalus
+summary:
+  ar: 'مسار في حواضر إيبيريا الإسلامية: قرطبة وإشبيلية وطيليطلة وغرناطة وبلنسية ومالقة.'
+  en: A trail through Islamic Iberia's cities.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: 'العاصمة: جامعها ومكتباتها وعصرها.'
+    en: 'العاصمة: جامعها ومكتباتها وعصرها.'
+  features:
+  - place/cordoba
+  - building/jami-qurtuba
+  - place/madinat-al-zahra
+- title:
+    ar: إشبيلية
+    en: Seville
+  body:
+    ar: 'عاصمة الغرب: المعتمد بن عباد وشعرها.'
+    en: 'عاصمة الغرب: المعتمد بن عباد وشعرها.'
+  features:
+  - place/seville
+- title:
+    ar: طيليطلة
+    en: Toledo
+  body:
+    ar: مدينة الأديان الثلاثة والترجمة.
+    en: مدينة الأديان الثلاثة والترجمة.
+  features:
+  - place/tulaytula
+- title:
+    ar: غرناطة
+    en: Granada
+  body:
+    ar: 'آخر الممالك: الحمراء وأبو عبد الله.'
+    en: 'آخر الممالك: الحمراء وأبو عبد الله.'
+  features:
+  - place/granada
+  - building/alhambra
+  - polity/emirate-of-granada
+- title:
+    ar: الساحل
+    en: The coast
+  body:
+    ar: 'بلنسية ومالقة: موانئ المتوسط الإسلامية.'
+    en: 'بلنسية ومالقة: موانئ المتوسط الإسلامية.'
+  features:
+  - place/valencia
+  - place/malaga
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

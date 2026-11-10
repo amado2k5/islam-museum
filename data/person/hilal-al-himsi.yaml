@@ -1,0 +1,12 @@
+id: person/hilal-al-himsi
+class: person
+label: { ar: "هلال الحمصي", en: "Hilal Al Himsi" }
+summary:
+  ar: "هلال بن أبي هلال الحمصي ترجم المقالات الأربع الأولى من كتاب أبلونيوس في المخروطات بين يدي أحمد بن موسى بن شاكر {cite:fihrist-ibn-al-nadim p. 373}."
+  en: "Hilal al-Himsi — translated Conics I-IV for Ahmad ibn Musa {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
+relations:
+  - { type: lived_in, target: place/homs, confidence: low, note: "Associated with حمص per the record's own text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

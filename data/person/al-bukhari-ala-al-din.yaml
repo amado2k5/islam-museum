@@ -1,0 +1,38 @@
+id: person/al-bukhari-ala-al-din
+class: person
+label: { ar: "البخاري علاء الدين", en: "al-Bukhari, Ala al-Din" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن أحمد بن محمد البخاري" }
+  - { kind: kunya, lang: ar, value: "علاء الدين" }
+  - { kind: nisba, lang: ar, value: "البخاري الحنفي" }
+gender: male
+roles: [jurist, theologian]
+traditions: [sunni]
+died: { edtf: "1331", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه حنفي من بخارى، من علماء الحنفية في عصره، وتوفي سنة 1331م."
+  en: "Hanafi jurist from Bukhara; died 1331 CE (the printed Hijri year does not match and is not recorded)."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص214"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

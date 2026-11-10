@@ -1,0 +1,36 @@
+id: person/ibn-abd-al-sami
+class: person
+label:
+  ar: "ابن عبد السميع"
+  en: "Ibn Abd al-Sami'"
+roles: [poet, muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لابن عبد السميع، شاعر ومحدث عراقي القرن الثالث عشر، توفي سنة ١٢٢٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibn Abd al-Sami', the thirteenth-century Iraqi poet, muhaddith and writer, d. 1224; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1144", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1224", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q67196633
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0073
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

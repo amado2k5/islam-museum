@@ -1,0 +1,29 @@
+id: person/ibn-hisham-al-ansari
+class: person
+label:
+  ar: "ابن هشام الأنصاري"
+  en: "Ibn Hisham al-Ansari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لجمال الدين عبد الله بن يوسف ابن هشام الأنصاري، نحوي مصر القرن الرابع عشر صاحب شروح الألفية و«قطر الندى»، توفي سنة ١٣٦٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Jamal al-Din Abd Allah ibn Yusuf Ibn Hisham al-Ansari, the fourteenth-century Egyptian grammarian author of the Alfiyya commentaries and Qatr al-Nada, d. 1360; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1309", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1360", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+external_ids:
+  wikidata: Q6538102
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0036, lib-durar-kamina-batch-1-2-2026-10-31
+status:
+  review: published
+  completeness: 1

@@ -1,0 +1,34 @@
+id: language/arabic
+class: language
+kind: language
+label:
+  ar: العربية
+  en: Arabic
+summary:
+  ar: "لغة القرآن والصلاة؛ لغة شبه الجزيرة العربية التي انتشرت مع الفتح الإسلامي حتى صارت لغة علم ودين وأدب من الأندلس إلى فارس."
+  en: "The language of the Qur'an and prayer; spread from Arabia with the Islamic conquests to become the language of scholarship, religion and letters from Andalusia to Persia."
+wings: [words]
+themes: [linguistics]
+scripts: [arabic]
+speakers_estimate: 360000000
+iso639: "ar"
+external_ids:
+  wikidata: Q55
+sources: [source/wikidata, source/assabile-omar-abdelkafy]
+provenance:
+  layer: own-research
+  source: Wikidata + standard references
+  generated_by: Devin (SWE-2 High), culture/language lane
+education:
+  did_you_know:
+    ar: "العربية لغة القرآن والصلاة، انتشرت مع الفتح حتى صارت لغة علم ودين وأدب من الأندلس إلى فارس."
+    en: "Arabic, the language of Qur'an and prayer, spread with the conquests until it was a language of learning, faith and letters from al-Andalus to Persia."
+    ur: "عربی قرآن اور نماز کی زبان ہے جو فتوحات کے ساتھ پھیلی یہاں تک کہ الاندلس سے فارس تک علم، دین اور ادب کی زبان بنی۔"
+    sources: [source/wikidata, source/encyclopaedia-of-islam-2]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), 2026-10-16; speaker figures are rounded estimates

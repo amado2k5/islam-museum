@@ -1,0 +1,32 @@
+id: polity/karrani-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "السلالة الكرانية"
+  en: "Karrani dynasty"
+summary:
+  ar: "بطاقة أولية للسلالة الكرانية، الأسرة الأفغانية التي حكمت البنغال من ١٥٦٤ إلى ١٥٧٦م آخر سلاطينها؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Karrani house, the Afghan dynasty that ruled Bengal from 1564 to 1576 as its last sultans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+start:
+  edtf: "1564"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1576"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6373352
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Bengali histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

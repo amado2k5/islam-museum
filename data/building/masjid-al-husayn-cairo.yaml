@@ -1,0 +1,26 @@
+id: building/masjid-al-husayn-cairo
+class: building
+kind: mosque
+label:
+  ar: "مسجد الإمام الحسين بالقاهرة"
+  en: "Al-Hussein Mosque, Cairo"
+summary:
+  ar: "مشهد الإمام الحسين بالقاهرة؛ قابله دار الفطرة، وجعل فيه السلطان الناصر حلقة تدريس، ثم بنى الوزير معين الدين ايوان التدريس من أوقافه، واحترق المشهد في الأيام الصالحية ⁦(المقريزي، ص 1178، 1181)⁩."
+  en: "The shrine of al-Husayn in Cairo, opposite Dar al-Fitra; al-Nasir set up a teaching circle in it, and the vizier Mu'in al-Din later built its teaching iwan from its endowments; it burned in the Salihi years (al-Maqrizi, pp. 1178, 1181)."
+wings: [objects]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/khitat-maqrizi-1998, source/yeomans-islamic-cairo-2006]
+external_ids:
+  wikidata: Q2279688
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1178, 1181; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-wave2, showcase-prose-phase2-egypt-batch16
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 66-67"]
+status:
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the Dar al-Fitra opposite the shrine, the teaching circle under al-Nasir, the teaching iwan built from endowments in the vizier's time, and the fire in the Salihi years are read from al-Maqrizi's Khitat (local scan, pp. 1178, 1181). The Duha entry is not read and is not cited; no construction date for the shrine is in these passages"

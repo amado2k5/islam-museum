@@ -1,0 +1,31 @@
+id: person/al-asmar-abd-al-salam
+class: person
+label: { ar: "الأسمر عبد السلام", en: "al-Asmar, Abd al-Salam" }
+names:
+  - { kind: full, lang: ar, value: "عبد السلام الأسمر الفيتوري" }
+gender: male
+roles: [mystic]
+traditions: [sunni]
+summary:
+  ar: "شيخ صوفي ليبي من أهل طرابلس، ذاع صيته بالخلوة التي عُرفت باسمه."
+  en: "Libyan Sufi shaykh of Tripoli whose seclusion (khalwa) became known under his name."
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/modern-era]
+regions: [maghreb]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص670-673"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+born: { edtf: "1475", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl)" }
+died: { edtf: "1573", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl)" }
+relations:
+  - { type: lived_in, target: place/libya, note: "From text: Libyan (nationality adjective); broad association, flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

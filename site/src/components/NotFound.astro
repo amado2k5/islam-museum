@@ -1,0 +1,14 @@
+---
+// The not-found page body, in the language of the URL that missed (workers/site serves /<lang>/404/ for a missing
+// /<lang>/… page and the Arabic /404.html everywhere else).
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { ui, type Lang } from "../lib/i18n";
+const { lang, path, alternates } = Astro.props as { lang: Lang; path: string; alternates: Partial<Record<Lang, string>> };
+const T = ui(lang);
+---
+<BaseLayout lang={lang} title={T.not_found.title} path={path} noindex alternates={alternates}>
+  <div class="wrap" style="padding-block:6vh">
+    <h1>{T.not_found.title}</h1>
+    <p>{T.not_found.body} <a href={`/${lang}/`}>{T.not_found.home}</a></p>
+  </div>
+</BaseLayout>

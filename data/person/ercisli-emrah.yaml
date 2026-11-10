@@ -1,0 +1,28 @@
+id: person/ercisli-emrah
+class: person
+label:
+  ar: "أرجيشلي إمره"
+  en: "Ercisli Emrah"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لأرجيشلي إمره، الشاعر التركي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ercisli Emrah, the Turkish poet; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: died_in, target: place/erci, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6008461
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0085
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,36 @@
+id: person/musa-ibn-ulayy-al-lakhmi
+class: person
+label:
+  ar: "موسى بن علي بن رباح اللخمي"
+  en: "Musa ibn Ulayy al-Lakhmi"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لموسى بن علي بن رباح اللخمي، المحدث من أهل الثغور؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Musa ibn Ulayy ibn Rabah al-Lakhmi, the frontier hadith scholar; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "0708", precision: year, status: tradition, derived: true }
+died: { edtf: "0780", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/ifriqiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q622855)" }
+  - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q97178556
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

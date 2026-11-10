@@ -1,0 +1,32 @@
+id: person/sabri-mudallal
+class: person
+label: { ar: "صبري مدلل", en: "Sabri Mudallal", ur: "صبری مدلل" }
+names:
+  - { value: "صبري مدلل", kind: full }
+  - { value: "Sabri Moudallal", kind: full }
+  - { value: "شيخ المطربين", kind: alternate }
+gender: male
+summary:
+  ar: "منشد ومطرب وملحن حلبي (1918–2006)، تعلّم المقامات والموشحات والقدود على عمر البطش، وكان مؤذنًا في الجامع الأموي بحلب، وغنّى في الإذاعة السورية منذ 1949، وأسس مع حسن الحفار فرقة للإنشاد الديني في 1954، ونشر أسلوب حلب في العالم بأسطوانات «مؤذنو حلب» (1980) وما بعدها."
+  en: "Aleppine munshid, singer and composer (1918–2006) who learned the maqams, muwashshahat and qudud from Omar al-Batsh, served as a muezzin of the Great Mosque of Aleppo, sang on Syrian radio from 1949, founded a religious-song ensemble with Hassan Haffar in 1954, and carried the Aleppine style abroad through records from 'Muezzins d'Alep' (1980) on."
+  ur: "حلب کے منشد، گلوکار اور موسیقار ⁦(1918ء–2006ء)⁩، جنھوں نے عمر البطش سے مقامات، موشحات اور قدود سیکھے، حلب کی جامع اموی کے مؤذن رہے، 1949ء سے شامی ریڈیو پر گایا، 1954ء میں حسن الحفار کے ساتھ دینی انشاد کا طائفہ بنایا، اور «مؤذنینِ حلب» ⁦(1980ء)⁩ سے شروع ہونے والے البموں کے ذریعے حلبی اسلوب کو دنیا تک پہنچایا۔"
+wings: [people]
+regions: [levant-iraq]
+roles: [munshid, muezzin, singer, composer]
+born: { edtf: "1918", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in the al-Jalloum quarter of Aleppo (English article; Wikidata gives 1918 and Aleppo).", sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal] }
+died: { edtf: "2006-08-21", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata gives 21 August 2006 in Aleppo; the English article gives August 2006.", sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal] }
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal] }
+  - { type: died_in, target: place/aleppo, sources: [source/wikidata-sabri-mudallal] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him; his father took him to Sufi dhikr ceremonies, a sourced upbringing kept in the prose, not an attestation. Not recorded."
+    sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal]
+footprint:
+  wikipedia: { languages: [ar, arz, en, fr, mzn], checked: "2026-11-06", sources: [source/wikidata-sabri-mudallal] }
+  wikidata: "Q3460731"
+external_ids: { wikidata: "Q3460731" }
+sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal]
+provenance: { layer: own-research, source: "English Wikipedia 'Sabri Moudallal' (revision 1371593452, 27 August 2026) and Wikidata Q3460731 (revision 2531051735), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,44 @@
+id: practice/wudu
+class: practice
+kind: ritual
+label:
+  ar: الوضوء
+  en: Wudu (ablution)
+summary:
+  ar: "الطهارة المائية الصغرى قبل الصلاة وبعض العبادات: غسل الوجه واليدين ومسح الرأس وغسل الرجلين، وردت في سورة المائدة. ويعرض الموطأ في كتاب الصلاة حديث عبد الله بن زيد بن عاصم الذي يصف فيه كيف كان النبي يتوضأ، فغسل يديه مرتين والتمضمض والاستنشاق ثلاثاً وغسل وجهه ثلاثاً ومسح رأسه ثم غسل رجليه، وأورد قوله «إذا توضأ أحدكم فليجعل في أنفه ماء» {cite:muwatta-maruf-1997 p. 50-51}"
+  en: "The minor water ablution before prayer and some rites: washing face and hands, wiping the head, washing the feet — set out in Sura al-Ma'ida. The Muwatta's Book of Prayer presents the report of Abdullah ibn Zayd ibn Asim describing the Prophet's own ablution — washing the hands twice, rinsing the mouth and nose thrice, washing the face thrice, wiping the head and washing the feet — and records his words that whoever performs wudu should put water in the nose {cite:muwatta-maruf-1997 p. 50-51}"
+wings: []
+themes: [worship-and-the-pillars]
+obligation: obligatory
+when:
+  ar: قبل كل صلاة وعند الحدث الأصغر
+
+scriptural_basis:
+- passage/quran-5-6
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-5-6
+  sources: [source/tanzil-quran]
+external_ids: { wikidata: "Q219466" }
+sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3, source/assabile-omar-abdelkafy, source/muwatta-maruf-1997]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+  run: "lib-wave-21-muwatta-malik-1"
+education:
+  did_you_know:
+    ar: "الوضوء طهارة مائية قبل الصلاة وردت في سورة المائدة: غسل الوجه واليدين ومسح الرأس وغسل الرجلين."
+    en: "Wudu, the ablution before prayer set out in Surat al-Ma'ida: washing the face and hands, wiping the head, and washing the feet."
+    ur: "وضو نماز سے پہلے کی طہارت جو سورۃ مائدہ میں بیان ہوئی: چہرہ اور ہاتھ دھونا، سر کا مسح اور پاؤں دھونا۔"
+    sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 3
+  generated_by: Devin (SWE-2 High), 2026-10-16

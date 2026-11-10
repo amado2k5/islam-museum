@@ -1,0 +1,24 @@
+id: event/jama-masjid-delhi-completed-1656
+class: event
+kind: founding
+label: { ar: "اكتمال الجامع المسجد بدلهي", en: "Completion of the Jama Masjid of Delhi" }
+summary:
+  ar: "اكتمل سنة 1656م بناء الجامع المسجد بشاهجهان آباد، أكبر مساجد الهند بأمر شاه جهان {cite:asher-mughal-india-1992 p. 193}."
+  en: "The Jama Masjid of Shahjahanabad — the largest mosque of India, built on Shah Jahan's order — was completed in 1656 {cite:asher-mughal-india-1992 p. 193}."
+  ur: "شاہ جہان کے حکم پر بننے والا شاہجہان آباد کا جامع مسجد — ہندوستان کی سب سے بڑی مسجد — 1656ء میں مکمل ہوا {cite:asher-mughal-india-1992 p. 193}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1656", precision: year, status: tradition, derived: true }
+  end: { edtf: "1656", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/asher-mughal-india-1992] }
+  - { type: had_participant, target: person/shah-jahan-mughal, role: "الباني", sources: [source/asher-mughal-india-1992] }
+sources: [source/asher-mughal-india-1992]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mughal Delhi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mughal-delhi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

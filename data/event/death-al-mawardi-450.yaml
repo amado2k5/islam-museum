@@ -1,0 +1,27 @@
+id: event/death-al-mawardi-450
+class: event
+kind: death
+label:
+  ar: "وفاة الماوردي ببغداد، ربيع الأول ٤٥٠هـ"
+  en: "Death of al-Mawardi at Baghdad, Rabi' I 450/1058"
+  ur: "ماوردی کی وفات بغداد میں، ربيع الاول 450ھ/1058ء"
+summary:
+  ar: "توفي [[person/al-mawardi|أبو الحسن علي بن محمد الماوردي]] ببغداد في ربيع الأول سنة خمسين وأربعمائة — عند معجم الإسلام في الثلاثين منه ٢٧ مايو 1058م — عن ست وثمانين سنة، ودفن بمقبرة باب حرب {cite:muntazam-ibn-al-jawzi j.8 p.199-200} {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}. وتوفي بعد موت القاضي أبي الطيب الطبري بأحد عشر يومًا، ولم يكن أبرز شيئًا من مصنفاته في حياته حتى أوصى بها عند موته، فخُفي خبرها ثم نشرت {cite:shadharat-dhahab p. 294}."
+  en: "[[person/al-mawardi|Abu al-Hasan Ali ibn Muhammad al-Mawardi]] died at Baghdad in Rabi' I 450 — on its 30th, 27 May 1058 per the EI2 — aged eighty-six, and was buried at the Bab Harb cemetery {cite:muntazam-ibn-al-jawzi j.8 p.199-200} {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}. He died eleven days after the qadi Abu al-Tayyib al-Tabari; none of his works had been brought out in his lifetime — he bequeathed them at his death, and their story came out afterwards {cite:shadharat-dhahab p. 294}."
+  ur: "[[person/al-mawardi|ابوالحسن علی بن محمد ماوردی]] ربيع الاول 450ھ میں بغداد میں فوت ہوئے — دائرۃ المعارفِ اسلام کے مطابق اس کی تیس تاریخ 27 مئی 1058ء — چھیاسی برس کی عمر میں، اور باب حرب کے قبرستان میں دفن ہوئے {cite:muntazam-ibn-al-jawzi j.8 p.199-200} {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}۔ وہ قاضی ابوالطیب طبری کی وفات کے گیارہ دن بعد فوت ہوئے؛ اپنی حیات میں انھوں نے اپنی تصانیف میں سے کچھ ظاہر نہیں کیا تھا بلکہ موت کے وقت ان کی وصیت کی، جس کے بعد ان کا ذکر پھیلا {cite:shadharat-dhahab p. 294}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1058-05-27", hijri: "0450-03-30", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في ربيع الأول سنة خمسين وأربعمائة {cite:muntazam-ibn-al-jawzi j.8 p.199-200}؛ عند معجم الإسلام يوم ٣٠ ربيع الأول ٤٥٠هـ/27 أيار 1058م عن ست وثمانين سنة {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}؛ التحويل مشتق.", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2, source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mawardi, role: "المتوفى", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Ibn al-Jawzi, al-Muntazam j.8 s.a. 450 printed pp. 199-200 (harvest OCR AAlexandrina-224011); Encyclopaedia of Islam 2nd ed. vol. 6, art. al-Māwardī, printed p. 896; Ibn al-Imad, Shadharat al-Dhahab s.a. 450 printed p. 294"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mawardi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

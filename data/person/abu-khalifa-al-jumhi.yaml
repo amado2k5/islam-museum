@@ -1,0 +1,22 @@
+id: person/abu-khalifa-al-jumhi
+class: person
+label: { ar: "أبو خليفة الفضل بن الحباب الجمحي", en: "Abu Khalifa al-Jumhi" }
+summary:
+  ar: "مولى آل جمح من قريش، خطيب البصريين ونديمهم الفصيح الذي لا يتكلف الإعراب بل صار له كالطبع، ورد في وفد أهل البصرة على المعتضد في مراكب بيض مشحمة يشكون الجدب وجور العمال فخطابهم بسجعه المشهور غمر العامر ودثر الظاهر وأناخت علينا المصائب، وأجاب الوزير القاسم بن عبيد الله عن مسألة فرائض الإبل فقال المعتضد هذا شيطان قذف به البحر ومثله فليفد على الملوك فكتب لهم عما يريدون، وولي القضاء بعد ذلك، وتوفي بالبصرة سنة خمس وثلثمائة {cite:muruj-al-dhahab p. 602-604}."
+  en: "The Basran mawla and wit whose rhymed embassy won al-Mu'tadid over — 'a devil the sea cast up; let his like seek audience of kings' — later qadi, died 305 {cite:muruj-al-dhahab p. 602-604}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Khatib al-Baghdadi, Tarikh" }
+died: { edtf: "918", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Khatib al-Baghdadi, Tarikh" }
+relations:
+  - { type: died_in, target: place/basra, note: "From text: توفي بالبصرة سنة خمس وثلثمائة {cite:", sources: [source/muruj-al-dhahab] }

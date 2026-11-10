@@ -1,0 +1,37 @@
+id: person/mutamir-ibn-sulayman
+class: person
+label:
+  ar: معتمر بن سليمان
+  en: Mu'tamir ibn Sulayman
+roles:
+- scholar
+gender: male
+summary:
+  ar: بطاقة أولية لمعتمر بن سليمان؛ لم تُراجع ترجمته على الصفحة بعد.
+  en: Draft card for Mu'tamir ibn Sulayman; the entry is not yet checked on the page.
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+sources:
+- source/al-aalam
+external_ids:
+  wikidata: Q12244018
+provenance:
+  layer: own-research
+  source: Wikidata candidate; entry not yet read on the page in a book source
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3
+born: { edtf: "724", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "803", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/al-aalam

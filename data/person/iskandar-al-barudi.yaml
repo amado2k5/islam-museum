@@ -1,0 +1,37 @@
+id: person/iskandar-al-barudi
+class: person
+label: { ar: "إسكندر البارودي", en: "Iskandar al-Barudi" }
+names:
+  - { kind: full, lang: ar, value: "إسكندر بن نقولا بن سمعان البارودي" }
+gender: male
+roles: [physician, writer, scholar]
+traditions: [sunni]
+born: { edtf: "1856", hijri: "1273", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1921", hijri: "1340", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب وأديب وصحفي ومربٍّ من لبنان، عمل في التربية والتعليم، وفي سلك القضاء."
+  en: "A Lebanese physician, man of letters, journalist and educator, who worked in teaching and in the judiciary."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/modern-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/lebanon, confidence: low, note: "Associated with لبنان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص70"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch59
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

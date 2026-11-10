@@ -1,0 +1,15 @@
+id: passage/bukhari-3326
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3326"
+label: { ar: "البخاري 3326 — خلق آدم", en: "Bukhari 3326 — the creation of Adam" }
+text: "خلق الله آدم وطوله ستون ذراعاً، ثم قال: اذهب فسلم على أولئك من الملائكة فاستمع ما يحيونك، تحيتك وتحية ذريتك، فقال: السلام عليكم، فقالوا: السلام عليك ورحمة الله، فزادوه ورحمة الله"
+summary:
+  ar: "في كتاب بدء الخلق باب خلق آدم وذريته؛ تأسيس تحية الإسلام في قالب الخلقة الأولى، وقاعدة أن الداخل الجنة يكون على صورة آدم — نص آدم في الصحيح."
+relations:
+  - { type: mentions, target: person/adam, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3326", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

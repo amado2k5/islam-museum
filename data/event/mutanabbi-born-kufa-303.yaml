@@ -1,0 +1,27 @@
+id: event/mutanabbi-born-kufa-303
+class: event
+kind: birth
+label:
+  ar: "ولادة المتنبي بالكوفة، ٣٠٣هـ/٩١٥م"
+  en: "Birth of al-Mutanabbi at Kufa, 303/915"
+  ur: "کوفہ میں متنبی کی پیدائش، 303ھ/915ء"
+summary:
+  ar: "ولد أبو الطيب أحمد بن الحسين المتنبي بمحلة كندة في الكوفة سنة ٣٠٣هـ/٩١٥م، وكانت أسرته في حال ضنك وإن ادعت نسباً إلى آل الجُعفي اليمنيين، فنشأ مقتنعاً بتفوق عرب الجنوب على عرب الشمال؛ وتلقى تعليمه الأول في بلدته فتميز بذكائه وذاكرته العجيبة وسبقه إلى الشعر {cite:encyclopaedia-of-islam-2 vol. 7 p. 769}."
+  en: "Abu al-Tayyib Ahmad ibn al-Husayn was born in the Kinda quarter of Kufa in 303/915. His family, though in very humble circumstances, claimed descent from the Yamani clan of al-Ju'fi, and he grew up convinced of the superiority of the southern Arabs; schooled in his native town, he distinguished himself by his intelligence, prodigious memory and precocity as a poet {cite:encyclopaedia-of-islam-2 vol. 7 p. 769}."
+  ur: "ابوالطیب احمد بن الحسین متنبی 303ھ/915ء میں کوفہ کی محلہ کندہ میں پیدا ہوئے۔ خاندان تنگدست تھا مگر یمنی قبیلہ جعفی سے نسب کا دعویٰ کرتا تھا، اور وہ جنوبی عرب کی برتری کے قائل ہوئے؛ ابتدائی تعلیم اپنے ہی شہر میں پائی اور ذہانت، غیر معمولی یادداشت اور قبل از وقت شاعری میں ممتاز ہوئے {cite:encyclopaedia-of-islam-2 vol. 7 p. 769}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0915~", hijri: "0303~", calendar: julian, precision: year, status: tradition, note: "ولد بالكوفة سنة ٣٠٣هـ/٩١٥م {cite:encyclopaedia-of-islam-2 vol. 7 p. 769}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mutanabbi, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (AL-MUTANABBI, Blachere-Pellat), printed pp. 769-771"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mutanabbi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

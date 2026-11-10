@@ -1,0 +1,21 @@
+id: place/golra-sharif
+class: place
+kind: town
+label: { ar: "گولڑه شريف", en: "Golra Sharif" }
+summary:
+  ar: "بلدة گولڑه شريف."
+  en: "Town (Golra Sharif)."
+wings: [place]
+regions: [south-asia]
+coordinates: [33.67388888888889, 72.94888888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q3695133; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3695133" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3695133 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,61 @@
+id: polity/ottoman-empire
+class: polity
+kind: empire
+label:
+  ar: الدولة العثمانية
+  en: Ottoman Empire
+  ur: "عثمانی سلطنت"
+summary:
+  ar: إمبراطورية قامت سنة 1299م وانتهت سنة 1922م، وعاصمتها القسطنطينية.
+  en: An empire established in 1299 CE and ended in 1922 CE; its capital was Constantinople.
+  ur: "1299ء میں قائم ہونے والی سلطنت جو 1922ء میں ختم ہوئی؛ قسطنطنیہ اس کا دارالحکومت تھا۔ {cite:wikidata}"
+wings: []
+periods:
+- period/gunpowder-empires
+regions:
+- anatolia-balkans
+- levant-iraq
+start:
+  edtf: "1299-07-29"
+  calendar: julian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1922-11-17"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+capitals:
+- place: place/constantinople
+external_ids:
+  nomisma: "ottomans"
+  wikidata: Q12560
+sources:
+- source/wikidata
+- source/nomisma
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+education:
+  did_you_know:
+    ar: "الدولة العثمانية من سنة ١٢٩٩م إلى ١٩٢٢م وعاصمتها القسطنطينية."
+    en: "The Ottoman Empire lasted from 1299 to 1922, with its capital at Constantinople."
+    ur: "سلطنتِ عثمانیہ 1299ء سے 1922ء تک رہی اور اس کا دارالحکومت قسطنطنیہ تھا۔"
+    sources: [source/wikidata, source/dawlat-uthmaniyya-salabi]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

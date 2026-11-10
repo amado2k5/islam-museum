@@ -1,0 +1,29 @@
+id: person/eshrefzade-izzeddin-efendi
+class: person
+label:
+  ar: "أشرف زاده عز الدين أفندي"
+  en: "Eshrefzade Izzeddin Efendi"
+roles: [musician, poet, composer]
+gender: male
+summary:
+  ar: "بطاقة أولية لأشرف زاده عز الدين أفندي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Eshrefzade Izzeddin Efendi, the Ottoman musician, poet and composer, d. 1740; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1566", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q135670307
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0092
+status:
+  review: draft
+  completeness: 1

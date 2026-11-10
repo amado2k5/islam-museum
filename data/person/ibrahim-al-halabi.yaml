@@ -1,0 +1,30 @@
+id: person/ibrahim-al-halabi
+class: person
+label:
+  ar: "إبراهيم الحلبي"
+  en: "Ibrahim al-Halabi"
+roles: [jurist]
+gender: male
+summary:
+  ar: "إبراهيم الحلبي، فقيه حنفي استقر بالقسطنطينية، صاحب «ملتقى الأبحر»؛ توفي سنة 956هـ ⁦(1549م)⁩."
+  en: "Ibrahim al-Halabi (d. 956/1549), Hanafi jurist settled at Istanbul, author of Multaqa al-Abhur."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1549", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q4195341
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.66)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,48 @@
+id: place/al-fayyum
+class: place
+kind: region
+label:
+  ar: الفيوم
+  en: Al-Fayyum
+  ur: فیوم
+summary:
+  ar: الفيوم من أعمال مصر العليا؛ وجّه إليها عمرو بن العاص خارجة بن حذافة العدوي مع الأشمونين وإخميم والبشرودات وقرى الصعيد فصالح أهل قراها على مثل حكم الفسطاط.
+  en: Al-Fayyum, among Upper Egypt's districts; Amr ibn al-As sent Kharija ibn Hudhafa al-Adawi to it together with al-Ashmunayn, Ikhmim, al-Bashrudat and the Sa'id's villages — their people compounding on Fustat's terms.
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: site_of
+  target: event/four-lieutenants-egypt
+  sources:
+  - source/futuh-buldan-maarif-1407
+coordinates:
+- 29.31
+- 30.84
+coordinate_precision: locality
+coordinate_note: Identified modern location; flagged for gazetteer verification.
+provenance:
+  layer: own-research
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  run: lib-futuh-buldan-batch-19
+  extra_runs:
+  - farghani-389-577 (claude-haiku-5-5, Claude Code)
+  note: Merged duplicate record place/faiyum into this entity during consolidation.
+sources:
+- source/khitat-maqrizi-1998
+- source/futuh-buldan-maarif-1407
+- source/farghani-elements-astronomy
+- source/geonames-gazetteer
+- source/wikidata
+status:
+  review: draft
+  completeness: 3
+  generated_by: Claude Haiku 5.5; the Joseph tradition and the year of the Fayyum's concealment after the conquest are read from al-Maqrizi's Khitat (local scan, pp. 711, 733); the Futuh and Farghani sentences keep their citations
+external_ids:
+  wikidata: Q203299
+aliases:
+- place/faiyum

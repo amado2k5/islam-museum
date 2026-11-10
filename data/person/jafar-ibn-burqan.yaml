@@ -1,0 +1,28 @@
+id: person/jafar-ibn-burqan
+class: person
+label:
+  ar: "جعفر بن برقان"
+  en: "Ja'far ibn Burqan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لجعفر بن برقان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ja'far ibn Burqan; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/abbasid-early]
+died: { edtf: "771", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106956054
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

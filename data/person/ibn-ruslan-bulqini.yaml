@@ -1,0 +1,33 @@
+id: person/ibn-ruslan-bulqini
+class: person
+label: { ar: "شمس الدين ابن رسلان البلقيني", en: "Shams al-Din ibn Ruslan al-Bulqini" }
+names:
+  - { value: "قاضي الشافعية شمس الدين محمد بن محمد بن عبد الرحمن بن عمر ابن رسلان البلقيني القاهري الشافعي", kind: full }
+gender: male
+summary:
+  ar: "قاضي الشافعية شمس الدين ابن رسلان البلقيني القاهري الإمام العالم الأصيل؛ توفي بالقاهرة سنة تسعين وثمانمائة عن نحو سبعين سنة {cite:shadharat-dhahab p. 349}."
+  en: "Ibn Ruslan al-Bulqini — Cairo's Shafi'i qadi, of the Bulqini scholar house; died at Cairo 890 near seventy {cite:shadharat-dhahab p. 349}."
+roles: [jurist]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+died: { edtf: "1485~", hijri: "0890", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 890 عن نحو 70 {cite:shadharat-dhahab p. 349}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with Cairo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 890)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch74
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

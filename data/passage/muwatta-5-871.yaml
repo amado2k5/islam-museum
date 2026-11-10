@@ -1,0 +1,16 @@
+id: passage/muwatta-5-871
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "871"
+label: { ar: "الموطأ 871 — مالك: الأمر عندنا أنه لا يكره الاعتكاف في كل مسجد يُجمع فيه، ولا في المساجد التي لا تُجمع فيها إلا كراهية أن يخرج المعتكف من مسجده إلى الجمعة", en: "Muwatta 871" }
+summary:
+  ar: "قول لمالك: الأمر عندنا الذي لا اختلاف فيه أنه لا يكره الاعتكاف في كل مسجد يُجمع فيه، ولا يرى أنه كُره الاعتكاف في المساجد التي لا تُجمع فيها إلا كراهية أن يخرج المعتكف من مسجده إلى الجمعة أو يدعها. فإن كان المسجد لا تُجمع فيه الجمعة ولا يجب على صاحبه إتيان الجمعة في مسجد سواه، فلا بأس بالاعتكاف فيه، لقول الله تعالى: وأنتم عاكفون في المسجد [[passage/quran-2-187|البقرة 187]]، فعم الله المساجد كلها. ويذكر المحقق أنه رواه عن مالك أبو مصعب (862) وسويد والشيباني (379). {cite:muwatta-maruf-1997 p.420} {cite:muwatta-maruf-1997 p.421}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-187, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 871 at PDF p. 420; باب ذكر الاعتكاف", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b01" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 420; matn excerpt at most 40 words" }

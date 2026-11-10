@@ -1,0 +1,45 @@
+id: person/abdulwahid-muhammed-salih
+class: person
+names:
+  - { kind: full, value: "Abdulwahid Muhammed Salih" }
+  - { kind: full, value: "عەبدولواحید محەممەد ساڵح" }
+  - { kind: alternate, value: "Abdul Wahid Muhammad Salih" }
+  - { kind: alternate, value: "Dr. Abdulwahid" }
+  - { kind: alternate, value: "عبدالواحد محمد صالح" }
+label: { ar: "عبدالواحد محمد صالح", en: "Abdulwahid Muhammed Salih", ur: "عبدالواحد محمد صالح" }
+summary:
+  ar: "أكاديمي وباحث ومؤلف وداعية وجرّاح عام كردي عراقي، وُلد في 1 يوليو 1973 في السليمانية. هو أستاذ في كلية الطب بجامعة السليمانية ومؤسس «سمارت هيلث تاور»، ويمارس الدعوة منذ سنة 1992 بموازاة عمله الطبي. صفحته على فيسبوك هي منصّته الكبرى وبلغت 1,700,000 متابع بحسب بيانات منشوراتها حتى 10 مارس 2026، وبلغت قناته على يوتيوب 113,000 مشترك و5,627,815 مشاهدة و1,318 مقطعًا بحسب vidIQ كما في 8 نوفمبر 2026، وحسابه على إنستغرام 820,000 متابع بحسب منشورات فبراير ومارس 2026."
+  en: "Kurdish Iraqi academic, researcher, author, Islamic preacher and general surgeon, born on 1 July 1973 in Sulaymaniyah. He is a professor at the College of Medicine, University of Sulaymaniyah and the founder of Smart Health Tower, and he has preached Islam since 1992 alongside his medical career. His Facebook page is his main platform, at 1,700,000 followers by post metadata to 10 March 2026; his YouTube channel counted 113,000 subscribers, 5,627,815 views and 1,318 videos as read by vidIQ on 8 November 2026, and his Instagram account 820,000 followers by posts of February–March 2026."
+  ur: "کرد عراقی عالم، محقق، مصنف، داعی اور جنرل سرجن، جو یکم جولائی 1973ء کو سلیمانیہ میں پیدا ہوئے۔ وہ سلیمانیہ یونیورسٹی کے کالج آف میڈیسن میں پروفیسر اور «سمارٹ ہیلتھ ٹاور» کے بانی ہیں، اور 1992ء سے اپنے طبی کام کے ساتھ ساتھ دعوت کا کام بھی کر رہے ہیں۔ ان کا فیس بک پیج ان کا سب سے بڑا پلیٹ فارم ہے جس کے فالوور 10 مارچ 2026ء تک کی پوسٹ میٹا ڈیٹا کے مطابق 1,700,000 تھے؛ ان کے یوٹیوب چینل کے سبسکرائبر 8 نومبر 2026ء کی vidIQ قرأت کے مطابق 113,000، ویوز 5,627,815 اور ویڈیوز 1,318 تھے، اور انسٹاگرام اکاؤنٹ کے فالوور فروری و مارچ 2026ء کی پوسٹوں کے مطابق 820,000 تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Abdulwahid Muhammed Salih himself. His English Wikipedia infobox's religion field reads simply 'Islam' — a structured field naming no school, and under this lane's doctrine structured data never settles faith; the Sorani Kurdish article's religion field reads the same. Not recorded as any school until two independent texts confirm one."
+    sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikidata-abdulwahid-muhammed-salih]
+roles: [preacher, physician, professor, writer]
+wings: [people, living]
+born:
+  edtf: "1973-07-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Gregorian date and Sulaymaniyah birthplace from the English, Sorani Kurdish and Urdu Wikipedia articles and Wikidata Q123492734. No Hijri date is recorded in the sources used, so none is printed."
+  sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikipedia-abdulwahid-muhammed-salih-ur, source/wikidata-abdulwahid-muhammed-salih]
+regions: [levant-iraq]
+relations:
+  - { type: born_in, target: place/sulaymaniyah, sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikidata-abdulwahid-muhammed-salih] }
+  - { type: lived_in, target: place/sulaymaniyah, sources: [source/wikipedia-abdulwahid-muhammed-salih-en], note: "Professor at the College of Medicine, University of Sulaymaniyah, and founder of Smart Health Tower there." }
+reach:
+  - { platform: facebook, metric: followers, value: 1700000, date: "2026-03-10", note: "His Facebook page 'Dr. Abdul Wahid', linked from his own YouTube channel description: 1,700,000 followers by the post metadata of his posts, the latest dated 10 March 2026, as read by the wave-199 harvest on 9 November 2026. This is his main-channel figure. The figure is a dated platform count resting on the harvest's metadata read, not a direct read in this build run", sources: [source/facebook-abdulwahid-muhammed-salih] }
+  - { platform: youtube, metric: subscribers, value: 113000, date: "2026-11-08", note: "@drabdulwahid (channel ID UC4O5Qi-QMEf8d6yCecIrD7g), started 5 November 2015: 113,000 subscribers, 5,627,815 views and 1,318 videos as read by vidIQ on 8 November 2026; views were still accruing in October–November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-abdulwahid-muhammed-salih, source/youtube-drabdulwahid] }
+  - { platform: instagram, metric: followers, value: 820000, date: "2026-03-10", note: "@dr.abdulwahid.kurdi, the main of two Instagram handles linked from his YouTube channel description (the second is @dr_abdulwahid_official.kurdish): 820,000 followers by his posts dated 19 and 23 February and 10 March 2026, as read by the wave-199 harvest", sources: [source/instagram-abdulwahid-muhammed-salih] }
+external_ids: { wikidata: "Q123492734" }
+sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikipedia-abdulwahid-muhammed-salih-ur, source/wikidata-abdulwahid-muhammed-salih, source/youtube-drabdulwahid, source/vidiq-abdulwahid-muhammed-salih, source/facebook-abdulwahid-muhammed-salih, source/instagram-abdulwahid-muhammed-salih]
+provenance:
+  layer: own-research
+  source: "Built from the wave-199 (Kurdish scene) harvest §2.3 and the wave-199 coordinator checks §5 (researched and checked 9 November 2026), from the English, Sorani Kurdish and Urdu Wikipedia articles, Wikidata Q123492734 and his own channel and pages. Biography per the articles: born 1 July 1973 in Sulaymaniyah; professor at the College of Medicine, University of Sulaymaniyah; a general surgeon in thyroid, breast, head and neck diseases; founder of Smart Health Tower; a preacher of Islam since 1992 — his dawah is a second public career alongside medicine, and the record leads with both, as his sources do. Qualification: he clears the men's bar on every platform — Facebook 1,700,000 followers (post metadata to 10 March 2026, his main channel), YouTube 113,000 subscribers (vidIQ, 8 November 2026) and Instagram 820,000 (posts of February–March 2026), all dated platform figures as read by the harvest. Disclosed imperfection: the numeric revision IDs of the three Wikipedia articles and the Wikidata item's statements could not be retrieved in this run — the Wikipedia API and Wikidata data endpoints were not readable from this environment — so the English article is dated by the harvest's read of about 28 October 2026 (its text was re-read in full at build and matches), the Sorani and Urdu articles and the Wikidata item are dated by their read date, and no Wikidata statement is quoted beyond what the articles state. Identity hygiene: he is kept strictly separate from Shaswar Abdulwahid, the Sulaymaniyah politician and media businessman — a different man who shares only a name element. The coordinator's adjacency screen was run on him in both directions and is documented in the wave-199 coordinator checks file: no verified link, endorsement or financial tie to any designated organisation was found. De-duplicated against the tree: no abdulwahid-muhammed-salih record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-199"
+status: { review: published, completeness: 2 }

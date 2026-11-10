@@ -1,0 +1,31 @@
+id: person/muhammad-ibn-nasr-al-marwazi
+class: person
+label: { ar: "محمد بن نصر المروزي" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن نصر المروزي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+born: { hijri: "0202", edtf: "0818~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: وولد في سنة اثنتين ومائتين (PDF ص56).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0294", edtf: "0907~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ومات سنة أربع وتسعين ومائتين (PDF ص56).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو عبد الله محمد بن نصر المروزي، ولد ببغداد ونشأ بنيسابور واستوطن سمرقند {cite:tabaqat-fuqaha-abbas-1981 p. 56}. كان من أعلم الناس باختلاف الصحابة ومن بعدهم في الأحكام، وصنف كتاباً فيما خالف فيه أبو حنيفة علياً وعبد الله {cite:tabaqat-fuqaha-abbas-1981 p. 56}. وقال أبو بكر الصيرفي: لو لم يصنف إلا كتاب «القسامة» لكان من أفقه الناس {cite:tabaqat-fuqaha-abbas-1981 p. 56}."
+wings: [people]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: lived_in, target: place/samarqand, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabaqat-fuqaha-abbas-1981] }

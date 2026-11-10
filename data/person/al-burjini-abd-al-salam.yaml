@@ -1,0 +1,38 @@
+id: person/al-burjini-abd-al-salam
+class: person
+label: { ar: "البرجيني", en: "al-Burjini" }
+names:
+  - { kind: full, lang: ar, value: "عبد السلام بن عيسى القرشي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: nisba, lang: ar, value: "البرجيني التونسي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1233", hijri: "0630", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي من تونس، من مشاهير فقهاء المالكية في عصره، صحب تلميذ المازري بالمهدية وروى عنه، وتوفي سنة 630هـ."
+  en: "Maliki jurist from Tunisia, among the notable Maliki jurists of his age, who studied with a pupil of al-Mazari at Mahdiya; died 630 AH."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص307"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

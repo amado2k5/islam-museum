@@ -1,0 +1,33 @@
+id: person/khursheed-ahmad
+class: person
+label: { ar: "خورشيد أحمد", en: "Khursheed Ahmad", ur: "خورشید احمد" }
+names:
+  - { value: "الحاج خورشید احمد", kind: full }
+  - { value: "Khurshid Ahmad", kind: alternate }
+  - { value: "Alhaj Khursheed Ahmad", kind: alternate }
+gender: male
+summary:
+  ar: "منشد نعت باكستاني (1956–2007) أنشد آلاف النعوت بالأردية والبنجابية والسرائيكية والبشتوية والسندية، فاز بأول مسابقة للنعت في التلفزيون الباكستاني في 1978، واشتهر بـ«زمين و زمان تمهارے لیے» و«یہ سب تمہارا کرم ہے آقا»، ونال وسام حسن الأداء في 1996، وكان أول نعت خوان باكستاني يُنشد في أنحاء العالم."
+  en: "Pakistani naat reciter (1956–2007) who sang thousands of naats in Urdu, Punjabi, Saraiki, Pashto and Sindhi, won PTV's first naat competition in 1978, became famous for 'Zameen-o-Zaman Tumhare Liye' and 'Yeh Sab Tumhara Karam Hai Aaqa', received the Pride of Performance in 1996 and was the first Pakistani naat khawan to recite around the world."
+  ur: "پاکستانی نعت خواں ⁦(1956ء–2007ء)⁩، جنھوں نے اردو، پنجابی، سرائیکی، پشتو اور سندھی میں ہزاروں نعتیں پڑھیں، 1978ء میں پی ٹی وی کا پہلا نعتیہ مقابلہ جیتا، «زمین و زماں تمہارے لیے» اور «یہ سب تمہارا کرم ہے آقا» سے مشہور ہوئے، 1996ء میں تمغۂ حسنِ کارکردگی پایا، اور دنیا بھر میں نعت پڑھنے والے پہلے پاکستانی نعت خواں تھے۔"
+wings: [people]
+regions: [south-asia]
+roles: [munshid, reciter]
+born: { edtf: "1956-01-01", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Rahim Yar Khan, Punjab; his parents had come from Mandrella near Jaipur (English article, citing Dawn; Wikidata gives the same day). No place entity for Rahim Yar Khan exists.", sources: [source/wikipedia-khursheed-ahmad-en, source/wikidata-khursheed-ahmad] }
+died: { edtf: "2007-08-30", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Karachi of a brain haemorrhage after a week in hospital; buried beside the shrine of Abdullah Shah Ghazi (English article, citing Dawn of 31 August 2007; Wikidata gives the day and Karachi). No place entity for Karachi exists yet.", sources: [source/wikipedia-khursheed-ahmad-en, source/wikidata-khursheed-ahmad] }
+relations:
+  - { type: lived_in, target: place/sind, confidence: low, note: "Associated with السند per the record's own text; relation type pending review.", sources: [source/wikipedia-khursheed-ahmad-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-khursheed-ahmad-en, source/wikidata-khursheed-ahmad]
+footprint:
+  wikipedia: { languages: [ar, bn, en, ur], checked: "2026-11-06", sources: [source/wikidata-khursheed-ahmad] }
+  wikidata: "Q6403132"
+honours:
+  - { award: award/pride-of-performance, result: won, year: 1996, note: "for naat recitation", sources: [source/wikipedia-khursheed-ahmad-en] }
+external_ids: { wikidata: "Q6403132" }
+sources: [source/wikipedia-khursheed-ahmad-en, source/wikidata-khursheed-ahmad]
+provenance: { layer: own-research, source: "English Wikipedia 'Khursheed Ahmad' (revision 1365199785, 20 July 2026) and Wikidata Q6403132 (revision 2468662071), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

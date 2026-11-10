@@ -1,0 +1,21 @@
+id: person/abu-al-awar-al-sulami
+class: person
+label: { ar: "أبو الأعور السلمي", en: "Abu'l-A'war al-Sulami" }
+summary:
+  ar: "أحد قواد معاوية بصفين، وكله بالشريعة على الفرات مع أربعين ألفاً وكان على مقدمته فحال بين جيش علي والماء حتى قال عمرو بن العاص لمعاوية إن علياً لا يموت عطشاً هو وتسعون ألفاً وسيوفهم على عواتقهم فقال معاوية لا والله أو يموتوا عطشاً كما مات عثمان {cite:muruj-al-dhahab p. 667-668}."
+  en: "Mu'awiya's commander holding Siffin's water-gate — forty thousand men blocking Ali's army from the Euphrates until the night-charge broke through {cite:muruj-al-dhahab p. 667-668}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "665~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: traveled_to, target: place/siffin, note: "Mu'awiya's commander holding the Siffin water-gate on the Euphrates with forty thousand men.", sources: [source/muruj-al-dhahab], confidence: medium }

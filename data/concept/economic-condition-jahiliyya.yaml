@@ -1,0 +1,23 @@
+id: concept/economic-condition-jahiliyya
+class: concept
+kind: social
+label: { ar: "الحالة الاقتصادية في العرب قبل الإسلام", en: "The economic condition of the Arabs before Islam" }
+summary:
+  ar: "في عرض الرحيق المختوم تبعت الحالة الاقتصادية الحالة الاجتماعية: التجارة أكبر وسيلة للحصول على حوائج الحياة ولا تتيسر إلا بالأمن المفقود إلا في الأشهر الحرم، وفيها كانت تُعقد أسواق عكاظ وذي المجاز ومجنة؛ الصناعات من الحياكة والدباغة في أهل اليمن والحيرة ومشارف الشام، وفي داخل الجزيرة الزراعة واقتناء الأنعام وغزل النساء، والأمتعة عرضة للحروب، والفقر والجوع والعري عام."
+  en: "In al-Raheeq al-Makhtum's account the economy followed the social condition: trade was the chief means of livelihood and needed a security found only in the sacred months, when the fairs of Ukaz, Dhu al-Majaz and Majanna were held; crafts such as weaving and tanning belonged to Yemen, al-Hira and the Syrian marches, while the interior had farming, herding and women's spinning, goods were prey to war, and poverty, hunger and nakedness were general."
+wings: [ideas]
+themes: [trade-and-finance, the-poor-and-the-worker]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: practiced_in, target: place/ukaz, sources: [source/mubarakpuri-raheeq] }
+  - { type: practiced_in, target: place/dhu-al-majaz, sources: [source/mubarakpuri-raheeq] }
+  - { type: practiced_in, target: place/majanna, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص43–47 نقلاً عن سنن أبي داود (كتاب النكاح، باب وجوه النكاح؛ باب الولد للفراش) ومعلقة عنترة"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-4a"
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 45–46" }

@@ -1,0 +1,20 @@
+id: work/khutbat-abdullah-ibn-masud-kufa
+class: work
+kind: sermon
+sermon_type: jumu'a
+delivered: { by: person/abdullah-ibn-masud }
+label: { ar: "خطبة عبد الله بن مسعود بالكوفة", en: "Abdullah ibn Mas'ud's khutba in Kufa", ur: "عبداللہ بن مسعود کی خطبہ بمقام کوفہ" }
+summary:
+  ar: "من خطب عبد الله بن مسعود بالكوفة في عهد أبي بكر وعمر، كما جمعها صاحب الجمهرة مما رواه أهل العلم."
+  en: "One of Abdullah ibn Mas'ud's khutbas in Kufa under Abu Bakr and Umar, as collected in the Jamhara from the transmitters."
+  ur: "ابوبکر و عمر کے عہد میں کوفہ میں عبداللہ بن مسعود کی منقولہ خطبہ۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/abdullah-ibn-masud]
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: mentions, target: place/kufa }
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v1 p.140", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-1 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

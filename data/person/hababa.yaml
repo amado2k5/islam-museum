@@ -1,0 +1,21 @@
+id: person/hababa
+class: person
+label: { ar: "حبابة", en: "Hababa" }
+summary:
+  ar: "جارية مغنية اشترتها أم سعيد العثمانية جدة يزيد بن عبد الملك احتيالاً عليه فكان في نفسه منها شيء قديماً، فوهب سلامة القس لأم سعيد، وبعثت حبابة إلى الأحوص ومعبد فغناه فما العيش إلا ما تلذ وتشتهي وإن لام فيه ذو الشنان وفند {cite:muruj-al-dhahab p. 185-186}."
+  en: "The singing-girl procured by Yazid's grandmother to displace Salama — she summoned al-Ahwas's verse and Ma'bad's singing: 'life is only what delights you' {cite:muruj-al-dhahab p. 185-186}."
+gender: female
+wings: [people]
+died: { edtf: "724", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Ibn Kathir" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
+status:
+  review: published
+  completeness: 3

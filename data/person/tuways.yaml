@@ -1,0 +1,29 @@
+id: person/tuways
+class: person
+label:
+  ar: طويس المغني
+  en: Tuways
+summary:
+  ar: من مغني أيام الوليد بن يزيد حين غلبت عليه شهوة الغناء وعلى الخاص والعام {cite:muruj-al-dhahab p. 201}.
+  en: One of al-Walid's court singers when the appetite for music seized high and low {cite:muruj-al-dhahab p. 201}.
+gender: male
+wings:
+- people
+provenance:
+  layer: own-research
+  source: مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 201
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch42
+sources:
+- source/muruj-al-dhahab
+status:
+  review: published
+  completeness: 3
+born: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (al-Isfahani)" }
+died: { edtf: "710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (al-Isfahani)" }
+relations:
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/muruj-al-dhahab

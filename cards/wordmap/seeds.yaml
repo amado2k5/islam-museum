@@ -1,0 +1,14 @@
+# Seed words for the corpus-driven word-map generator (scripts/wordmap.ts).
+# Each word must occur in the frozen Tanzil corpus or generation fails.
+# Titles are editorial (typed by hand); verse text is always pulled from the corpus.
+seeds:
+  - word: عذابا
+    slug: adhaban
+    title:
+      ar: «عذابًا» في القرآن — الصيغ والمواضع
+      en: "'Adhaban' in the Quran — forms and occurrences"
+  - word: وبشر
+    slug: wa-bashshir
+    title:
+      ar: «وبشِّر» في القرآن — الصيغ والمواضع
+      en: "'Wa-bashshir' in the Quran — forms and occurrences"

@@ -1,0 +1,16 @@
+id: passage/muslim-0043
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "43"
+label: { ar: "مسلم 43 — ثلاث من كن فيه وجد حلاوة الإيمان", en: "Muslim 43 — Three qualities; whoever has them tastes faith's sweetness" }
+text: "قال رسول الله: «ثلاث من كن فيه وجد بهن حلاوة الإيمان: من كان الله ورسوله أحب إليه مما سواهما، وأن يحب المرء لا يحبه إلا لله، وأن يكره أن يعود في الكفر بعد أن أنقذه الله منه كما يكره أن يقذف في النار»"
+summary:
+  ar: "رواية أنس بن مالك في باب خصال حلاوة الإيمان من كتاب الإيمان في صحيح مسلم؛ حب الله ورسوله والحب في الله وكراهة العودة إلى الكفر — مقاييس ذوق الإيمان."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب خصال من اتصف بهن وجد حلاوة الإيمان (طبعة دار التأصيل، الحديث 174؛ ترقيم عبد الباقي المعروف 43)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

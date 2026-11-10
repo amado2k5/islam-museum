@@ -1,0 +1,29 @@
+id: person/suleiman-donia
+class: person
+label:
+  ar: "سليمان دنيا"
+  en: "Suleiman Donia"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسليمان دنيا؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Suleiman Donia; the entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/modern-era]
+born: { edtf: "1910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q138844844
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

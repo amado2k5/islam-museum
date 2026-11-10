@@ -1,0 +1,21 @@
+id: place/dearborn
+class: place
+kind: city
+label: { ar: "ديربورن", en: "Dearborn" }
+summary:
+  ar: "مدينة ديربورن."
+  en: "City (Dearborn)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [42.32, -83.17]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q793569; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q793569" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q793569 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

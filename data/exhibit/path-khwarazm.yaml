@@ -1,0 +1,77 @@
+id: exhibit/path-khwarazm
+class: exhibit
+kind: trail
+label:
+  ar: الدولة الخوارزمية
+  en: The Khwarazmian Empire
+summary:
+  ar: 'مسار في آخر قوة قبل المغول: خوارزم شاه يملك إيران وخراسان، وجلال الدين يقاوم جنكيز — إمبراطورية
+    عشرين سنة.'
+  en: A trail through the last power before the Mongols.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الدولة
+    en: The empire
+  body:
+    ar: 'خوارزم: من بحر قزوين إلى الخليج.'
+    en: 'خوارزم: من بحر قزوين إلى الخليج.'
+  features:
+  - polity/khwarazmian-empire
+  - place/merv
+- title:
+    ar: الشاه
+    en: The shah
+  body:
+    ar: محمد خوارزم شاه يستفز جنكيز خان.
+    en: محمد خوارزم شاه يستفز جنكيز خان.
+  features:
+  - polity/khwarazmian-empire
+  - polity/khwarazmian-empire
+- title:
+    ar: مرو
+    en: Merv
+  body:
+    ar: 'عروس خراسان تُدمر: مليون قتيل يُروى.'
+    en: 'عروس خراسان تُدمر: مليون قتيل يُروى.'
+  features:
+  - place/merv
+  - place/bukhara
+- title:
+    ar: جلال الدين
+    en: Jalal al-Din
+  body:
+    ar: الابن المنكبر يقاوم عشر سنين.
+    en: الابن المنكبر يقاوم عشر سنين.
+  features:
+  - polity/khwarazmian-empire
+  - place/tabriz
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: '1231: آخر الخوارزمية يسقط.'
+    en: '1231: آخر الخوارزمية يسقط.'
+  features:
+  - polity/khwarazmian-empire
+  - polity/ilkhanate
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

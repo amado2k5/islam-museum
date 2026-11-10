@@ -1,0 +1,27 @@
+id: event/ibn-al-salah-quds-618
+class: event
+kind: other
+label:
+  ar: "ابن الصلاح يدرّس بالمدرسة الصلاحية بالقدس في نوبته الثانية، نحو ٦١٨هـ"
+  en: "Ibn al-Salah teaches at the Salahiyya madrasa in Jerusalem on his second tour, c. 618"
+  ur: "ابن الصلاح اپنے دوسرے سفر میں قدس کی صلاحیہ مدرسہ میں تدریس کرتے ہیں، تقریباً 618ھ"
+summary:
+  ar: "في نوبته الثانية بالشام درّس ابن الصلاح بالقدس بالمدرسة الصلاحية المنسوبة إلى الملك الناصر صلاح الدين يوسف بن أيوب، وأقام بها مدة واشتغل الناس عليه وانتفعوا به {cite:tarikh-islam-dhahabi p. 186} {cite:shadharat-dhahab p. 229-230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "On his second tour of al-Sham, Ibn al-Salah taught in Jerusalem at the Salahiyya madrasa, the school named after al-Malik al-Nasir Salah al-Din Yusuf b. Ayyub; he stayed a while and the people studied under him and benefited {cite:tarikh-islam-dhahabi p. 186} {cite:shadharat-dhahab p. 229-230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "اپنے دوسرے شام کے سفر میں ابن الصلاح نے قدس کی صلاحیہ مدرسہ میں تدریس کی، جو ملک الناصر صلاح الدین یوسف بن ایوب سے منسوب تھی؛ وہ کچھ عرصہ وہاں رہے اور لوگ ان سے پڑھتے اور فائدہ اٹھاتے رہے {cite:tarikh-islam-dhahabi p. 186} {cite:shadharat-dhahab p. 229-230} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1221~", hijri: "0618~", calendar: julian, precision: year, status: tradition, derived: true, note: "في النوبة الثانية درّس بالقدس بالمدرسة الصلاحية، وأقام بها مدة {cite:tarikh-islam-dhahabi p. 186}؛ تقريبي نحو ٦١٨هـ بعد دخوله الشام؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/jerusalem, sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "المدرّس", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 186 (harvest OCR); Shadharat al-Dhahab s.a. 643, printed pp. 229-230 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

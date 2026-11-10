@@ -1,0 +1,21 @@
+id: person/muhammad-ibn-humayd-al-tusi
+class: person
+label: { ar: "محمد بن حميد الطوسي", en: "Muhammad ibn Humayd al-Tusi" }
+summary:
+  ar: "أمير طوسي، حدث مولاه فائق الخادم أن جاريته غنت من وراء الستارة يا قمر القصر متى تطلع فزج غلامه بنفسه من الدار إلى دجلة فهتكت الجارية الستارة ورمت بنفسها على أثره فلم يوجد منهما أحد فقطع محمد الشراب وقام عن مجلسه {cite:muruj-al-dhahab p. 488}."
+  en: "The amir of Tus whose drinking-party ended when his page and singer drowned themselves for love in the Tigris {cite:muruj-al-dhahab p. 488}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 488"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "829", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh al-Rusul wa-l-Muluk)" }
+relations:
+  - { type: lived_in, target: place/tus, confidence: low, note: "Association inferred from the nisba 'الطوسي'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

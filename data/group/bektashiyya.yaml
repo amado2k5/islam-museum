@@ -1,0 +1,39 @@
+id: group/bektashiyya
+class: group
+kind: order
+label:
+  ar: الطريقة البكتاشية
+  en: The Bektashi order
+  ur: بکتاشیہ طریقہ
+summary:
+  ar: "الطريقة البكتاشية طريقة صوفية منسوبة إلى حاجي بكتاش، اشتهرت بصلتها بالإنكشارية العثمانية وبعقائد توليّة خاصة؛ تدرسها المونوغرافيات الأكاديمية بوصفها طريقة ذات تركيبة مميزة {cite:birge-bektashi-1937} {cite:trimingham-sufi-orders-1998}."
+  en: "The Bektashi order is a Sufi order traced to Haji Bektash, famous for its link with the Ottoman Janissaries and its distinctive Alid doctrines; academic monographs treat it as an order with a distinctive composition {cite:birge-bektashi-1937} {cite:trimingham-sufi-orders-1998}."
+wings: [living]
+themes: [sects-and-schools, spirituality-and-sufism]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+external_ids: { wikidata: "Q467692" }
+sources: [source/birge-bektashi-1937, source/trimingham-sufi-orders-1998]
+perspectives:
+- tradition: sunni
+  id: sunni-tariqa
+  stance:
+    ar: طريقة من طرق الصوفية في الحاضرة العثمانية مع ملاحظة غلوية
+    en: One of the Sufi orders of the Ottoman realm, with noted ghulat features
+  summary:
+    en: "Within the Ottoman Sunni frame the Bektashiyya is counted among the tarîqas, while its Alid and saint-venerating doctrines are registered as heterodox features by classical and modern Sunni critics {cite:trimingham-sufi-orders-1998}."
+  sources: [source/trimingham-sufi-orders-1998]
+- tradition: academic
+  id: academic-composition
+  stance:
+    en: A syncretic Anatolian-Balkan order combining Sufi, Alid and local saint traditions
+  summary:
+    en: "Academic study describes the order's formation in Anatolia and its deep Balkan implantation, its Janissary affiliation, and its blend of Sufi, Alid and local saint traditions {cite:birge-bektashi-1937}."
+  sources: [source/birge-bektashi-1937]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q467692; contested: academic sources (Birge, Trimingham) per the wd-deferred fallback"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

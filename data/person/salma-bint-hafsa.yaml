@@ -1,0 +1,20 @@
+id: person/salma-bint-hafsa
+class: person
+label: { ar: "سلمى بنت حفصة", en: "Salma bint Hafsa" }
+summary:
+  ar: "أرملة المثنى بن حارثة الشيباني تزوجها سعد بن أبي وقاص بعده، وهي التي أطلقت أبا محجن الثقفي من محبسه على عهده أن يعيد رجله في القيد ليلة القادسية وأعارته البلقاء، وأخبرت سعداً خبرها فأطلقه، وكان بينها وبين سعد كلام أوجب غضبه عليها لذكرها المثنى عند مختلف القنا فأقامت مغاضبة له حتى صالحته صبيحة ليلة الهرير {cite:muruj-al-dhahab p. 610-612}."
+  en: "al-Muthanna's widow married to Sa'd — who freed Abu Mahjan on his oath, lent him al-Balqa', and told Sa'd the whole story; herself estranged from Sa'd for naming al-Muthanna at the spear-crossing until the eve of the Harir night {cite:muruj-al-dhahab p. 610-612}."
+gender: female
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 610–612"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/al-qadisiyya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

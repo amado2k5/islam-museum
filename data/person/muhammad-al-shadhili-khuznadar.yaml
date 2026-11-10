@@ -1,0 +1,31 @@
+id: person/muhammad-al-shadhili-khuznadar
+class: person
+label: { ar: "محمد الشاذلي خزندار", en: "Muhammad al-Shadhili Khuznadar" }
+names:
+  - { kind: full, lang: ar, value: "محمد الشاذلي خزندار الملقب بشاعر" }
+gender: male
+roles: [poet, writer]
+traditions: [sunni]
+born: { edtf: "1881", hijri: "1299", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1954", hijri: "1373", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر تونسي من ضواحي تونس، لُقّب بشاعر."
+  en: "A Tunisian poet from the suburbs of Tunis, known as al-Sha'ir."
+wings: [people]
+themes: [literature]
+periods: [period/contemporary-era]
+regions: [maghreb]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص252"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

@@ -1,0 +1,57 @@
+id: place/tiflis
+class: place
+kind: town
+label:
+  ar: تفليس
+  en: Tiflis
+  ur: تفلیس
+summary:
+  ar: على الكُرّ من كورة جرزان القرمز؛ كتب حبيب بن مسلمة لأهلها صلحاً بالأمان على الأنفس والبيع والصوامع والدين على دينار
+    عن كل بيت جزية مع شرائط القرى والنصح والإيصال ثم صادق الجرّاح بن عبد الله أمانهم على أرحائهم وكرومهم بمائة درهم في السنة.
+  en: on the Kura in the district of Jurzan al-Qirmiz; Habib ibn Maslama wrote its people a peace securing selves, worship-houses,
+    monasteries and religion for a dinar's jizya per house with terms of quartering, counsel and conveyance, and al-Jarrah
+    ibn Abdallah later ratified their aman over their mills and vineyards at a hundred dirhams a year.
+  ur: دریائے کر کے کنارے شہر؛ بلاذری حبیب بن مسلمہ کی صلح کا ذکر کرتے ہیں، جس میں لوگوں کی جان، مذہب اور عبادت گاہوں کے لیے
+    امان درج تھی۔ {cite:futuh-buldan-maarif-1407}
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- anatolia-balkans
+- levant-iraq
+relations:
+- type: part_of
+  target: place/armenia
+  sources:
+  - source/futuh-buldan-maarif-1407
+sources:
+- source/futuh-buldan-maarif-1407
+- source/mujam-al-buldan-yaqut
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High)
+provenance:
+  layer: own-research
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287; source/mujam-al-buldan-yaqut vols 1-2 scan pp. 800-801
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)
+  model: claude-opus-5-5
+  run: lib-futuh-buldan-batch-17; ocr-harvest-2026-11-04
+  note: Merged duplicate record place/tbilisi into this entity during consolidation.
+coordinates:
+- 41.7225
+- 44.7925
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q994
+  geonames: '611716'
+  nomisma: tiflis
+aliases:
+- place/tbilisi
+historical_names: []
+jobs: []
+inventions: []

@@ -1,0 +1,22 @@
+id: person/al-sukkari
+class: person
+label: { ar: "السكري", en: "Al-Sukkari" }
+died: { edtf: "0890~", hijri: "0275", calendar: julian, precision: year, status: tradition, derived: true, note: "النص المقروء في التاريخ غير واضح؛ المشهور قرابة 275هـ." }
+summary:
+  ar: "الحسن بن سعيد السكري، النحوي المشهور؛ أخذ عن أئمة اللغة وصنف كتاب المختلف والمؤتلف وكتاب الحكم والأمثال وكتاب الزواجر وغيرها {cite:wafayat-ayan}."
+  en: "Al-Sukkari — the grammarian; author of al-Mukhtalif wa-l-Mu'talif, the book of proverbs and judgments, and al-Zawajir {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/abbasid-fragmentation]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch82
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Grammarian of the Baghdad scholarly line; flagged for review.", sources: [source/wafayat-ayan], confidence: low }
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,109 @@
+id: person/al-zarqali
+class: person
+
+label: { ar: "إبراهيم بن يحيى الزرقالي", en: "Al-Zarqali", ur: "ابو اسحاق ابراہیم الزرقالی" }
+
+names:
+  - { value: "أبو إسحاق إبراهيم بن يحيى النقاش التجيبي الزرقالي", kind: full }
+  - { value: "Abu Ishaq Ibrahim ibn Yahya al-Naqqash al-Tujibi al-Zarqali", kind: full }
+  - { value: "أبو إسحاق", kind: kunya }
+  - { value: "al-Zarqali", kind: nisba }
+  - { value: "al-Tujibi", kind: nisba }
+  - { value: "النقاش", kind: laqab }
+  - { value: "Arzachel", kind: latinized }
+  - { value: "Azarquiel", kind: alternate }
+  - { value: "Ibn Zarqala", kind: alternate }
+
+gender: male
+
+summary:
+  ar: "فلكي أندلسي من طليطلة (1029–1100)، نشأ صانع آلات ونقّاشًا، وعمل منذ 1048 في فريق صاعد الأندلسي للمأمون الطليطلي ثم للمعتمد الإشبيلي. أتقن الصفيحة الجامعة ⁦(الصفيحة الزرقالية)⁩ التي حملت اسمه وبقيت أداة الملاحين حتى القرن السادس عشر، وساهم في أزياج طليطلة وصحّح زيج الخوارزمي، وأثبت لأول مرة حركةَ أوج الشمس بمقدار قريب من القيمة الحديثة، وقلّص عرض البحر المتوسط في الجغرافيا البطلمية من 62 درجة إلى 42."
+  en: "Toledan astronomer (1029-1100) who began as a metalsmith and engraver of instruments - his nickname al-Naqqash, 'the engraver', is the origin of his Latin name Arzachel - and worked from 1048 in Sa'id al-Andalusi's team for al-Ma'mun of Toledo and al-Mu'tamid of Seville. He perfected the universal astrolabe plate that bears his name, the safiha zarqaliyya, used by navigators into the 16th century; contributed to the Toledan Tables and revised al-Khwarizmi's; and was the first to demonstrate the motion of the solar apogee, at 12.04 arc-seconds a year against the modern 11.77. When Alfonso VI took Toledo in 1085 he fled the city."
+  ur: "طلیطلہ کے ماہر فلکیات ⁦(1029ء–1100ء)⁩، آغاز میں دھاتی آلات کے کندہ کار تھے — یہی لقب «النقاش» ان کے لاطینی نام Arzachel کی اصل ہے — اور 1048ء سے صاعد الاندلسی کے گروہ میں مامونِ طلیطلہ اور معتمدِ اشبیلیہ کے لیے کام کیا۔ انھوں نے جامع اسطرلابی تختی «صفیحہ زرقالے» کو مکمل کیا جو سولہویں صدی تک ملاحوں کے کام آتی رہی، ازیاجِ طلیطلہ میں حصہ لیا، خوارزمی کے زیج کی تصحیح کی، اور اوجِ شمس کی حرکت کو سب سے پہلے ثابت کیا۔"
+
+roles: [astronomer]
+regions: [andalus-europe]
+wings: [people]
+
+born:
+  edtf: "1029"
+  calendar: julian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born in a village near Toledo (English article). The year 1029 follows the English article (text and infobox, after Samsó's Encyclopaedia of Islam entry and the Biographical Encyclopedia of Astronomers); Wikidata instead gives 1027, preserved here. A bare year spans 420-421 AH, so no Hijri pairing is asserted."
+  sources:
+    - source/wikipedia-al-zarqali-en
+    - source/wikidata-al-zarqali
+
+died:
+  edtf: "1100"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: false
+  note: "The English article and the Britannica notice give his death as 1100 at Cordoba, citing the Biographical Encyclopedia of Astronomers (p. 1258); older references and the founder's queue give 1087, and Wikidata carries both 1087 and 1100. The record follows 1100. Where he died is itself uncertain: the article notes it is unknown whether he fled to Cordoba after Toledo fell in 1085 or died at Mocejón or in a refugee camp. A bare year spans 493-494 AH, so no Hijri pairing is asserted."
+  sources:
+    - source/wikipedia-al-zarqali-en
+    - source/wikidata-al-zarqali
+
+relations:
+  - { type: traveled_to, target: place/cordoba, note: "From text: fled to Cordoba", sources: [source/wikipedia-al-zarqali-en, source/wikipedia-al-zarqali-ar, source/wikipedia-al-zarqali-ur, source/wikidata-al-zarqali, source/zarqali-puig-bea, source/zarqaliyya-bir-2020, source/bibalex-astrolabe-949, source/zarqali-mactutor, source/nasa-milankovitch-cycles, source/commons-apogee-psf] }
+  - { type: born_in, target: place/tulaytula }
+  - { type: died_in, target: place/cordoba }
+
+faith:
+  - value: sunni
+    basis: documented
+    note: "Muslim biographical basis: Bibliotheca Alexandrina's institutional history explicitly includes the named al-Zarqali in 'The Role of Muslim Astronomers in Developing the Astrolabe'. This is a cited classification, not an inference from name, ancestry or court service. Sunni is the default frame of docs/scope.md for the documented Andalusian milieu; no contrary tradition is attested in the museum account or Puig biography read, and neither supplies a personal madhhab declaration. The earlier Wikipedia Islam infobox remains a separately recorded fact, not the new prose source."
+    sources:
+      - source/wikipedia-al-zarqali-en
+      - source/bibalex-astrolabe-949
+      - source/zarqali-puig-bea
+
+inventions:
+  - invention: invention/universal-astrolabe-al-zarqali
+    role: improver
+    place: place/tulaytula
+    note: "Specific universal plate and treatises, not invention of the astrolabe or an exact date for every variant."
+    sources: [source/zarqali-puig-bea, source/zarqaliyya-bir-2020]
+  - invention: invention/equatorium-al-zarqali
+    role: improver
+    note: "Independent two-plate arrangement after Ibn al-Samh; construction/use treatises circa1080–1082, not the universal astrolabe or Kepler's orbital law. Exact construction city not established."
+    sources: [source/zarqali-puig-bea, source/zarqali-mactutor]
+  - invention: invention/zarqali-moving-solar-apogee
+    role: describer
+    place: place/tulaytula
+    note: "Lost solar work probably circa1075–1080: apogee's own motion and variable-eccentricity model. Puig/MacTutor1degree per279years is not numerically identical to12.04arcseconds/year in the earlier attributed summary; no silent reconciliation or modern-accuracy certification."
+    sources: [source/zarqali-puig-bea, source/zarqali-mactutor]
+
+external_ids: { wikidata: "Q11133" }
+
+sources:
+  - source/wikipedia-al-zarqali-en
+  - source/wikipedia-al-zarqali-ar
+  - source/wikipedia-al-zarqali-ur
+  - source/wikidata-al-zarqali
+  - source/zarqali-puig-bea
+  - source/zarqaliyya-bir-2020
+  - source/bibalex-astrolabe-949
+  - source/zarqali-mactutor
+  - source/nasa-milankovitch-cycles
+  - source/commons-apogee-psf
+
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia articles and Wikidata Q11133, all revisions fetched live from the MediaWiki API on 31 Oct 2026; Encyclopaedia of Islam (Samsó) and the Biographical Encyclopedia of Astronomers as cited in the English article. Copilot SDK in VS Code (model unknown), inventions-p3-b21,2026-11-06: directly read the complete Puig BEA biography, Bir et al. pp40–41,46–54 and Bibliotheca Alexandrina catalogue; added the specific plate tie and documented named Muslim classification with explicit Sunni default, not personal school attestation. Earlier Muse authorship retained; no unrelated dates changed."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: "wave 146 B"
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b27", source: "Append distinct equatorium tie and trilingual explanation from Puig/MacTutor; preserve Muse and earlier Copilot attribution, existing universal-plate tie and unrelated life-date fields" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b52", source: "Append distinct solar-model tie and trilingual discussion; preserve every original field, two earlier ties, faith basis, source membership and attribution. Explicitly distinguish read1degree/279years from earlier12.04account, lost work from surviving witnesses and modern comparison from historical knowledge." }
+
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wikipedia-al-zarqali-en, source/wikipedia-al-zarqali-ar, source/wikipedia-al-zarqali-ur, source/wikidata-al-zarqali]

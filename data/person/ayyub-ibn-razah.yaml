@@ -1,0 +1,23 @@
+id: person/ayyub-ibn-razah
+class: person
+label: { ar: "أيوب بن رزاح ⁦(يوتاب)⁩", en: "Ayyub ibn Razah (Yutab)" }
+summary:
+  ar: "يوتاب وهو أيوب بن رزاح، عند المسعودي ثاني من ملك الشام من اليمن بعد فالغ بن يغور، وقد ذكر الله خبره على لسان نبيه، ثم غلبت الروم على ديارهم فتفرقوا في البلاد {cite:muruj-al-dhahab p. 425}."
+  en: "Yutab — Job son of Razah — whom al-Mas'udi lists as second Yemenite king of Syria; after the Romans prevailed over his realm his people scattered through the lands {cite:muruj-al-dhahab p. 425}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
+relations:
+  - { type: ruler_of, target: place/al-sham, note: "From text: king of Syria", sources: [source/muruj-al-dhahab] }

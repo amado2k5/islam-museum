@@ -1,0 +1,29 @@
+id: person/umar-ibn-abd-al-rahman-al-attas
+class: person
+label:
+  ar: "عمر بن عبد الرحمن العطاس"
+  en: "Umar ibn Abd al-Rahman al-Attas"
+roles: [sufi]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمر بن عبد الرحمن العطاس، من علماء آل عطاس الحضرمية، توفي سنة ١٦٦١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Umar ibn Abd al-Rahman al-Attas, of the Hadhrami Al-Attas house, d. 1661; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1584", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli); Mashra' al-Rawi" }
+died: { edtf: "1662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli); Mashra' al-Rawi" }
+relations:
+  - { type: buried_in, target: place/al-huraydah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4702529)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q55392311
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0071
+status:
+  review: draft
+  completeness: 1

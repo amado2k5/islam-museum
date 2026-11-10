@@ -1,0 +1,28 @@
+id: person/hajjaj-ibn-artah
+class: person
+label:
+  ar: "حجاج بن أرطاة"
+  en: "Hajjaj ibn Artah"
+roles: [scholar]
+gender: male
+summary:
+  ar: "حجاج بن أرطاة بن ثور النخعي ⁦(ت 145هـ)⁩، قاضٍ من أهل الكوفة من حفاظ الحديث؛ استُفتي وعمره ست عشرة سنة وولّي قضاء البصرة، وتوفي بخراسان."
+  en: "Hajjaj ibn Artah b. Thawr al-Nakha'i (d. 145 AH), a Kufan qadi and hadith memorizer; he gave fatwas at sixteen, governed the judiciary of Basra, and died in Khurasan."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+died: { edtf: "762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107380598
+provenance:
+  layer: own-research
+  source: "الزركلي، الأعلام — ترجمة خاصة"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch15
+status:
+  review: published
+  completeness: 3

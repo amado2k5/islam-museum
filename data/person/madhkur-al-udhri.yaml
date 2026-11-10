@@ -1,0 +1,15 @@
+id: person/madhkur-al-udhri
+class: person
+label: { ar: "مذكور من بني عذرة", en: "Madhkur of Banu Udhra" }
+gender: male
+roles: [guide]
+summary:
+  ar: "رجل من بني عذرة أخذه النبي دليلاً في غزوة دومة الجندل سنة 5هـ، فسار بالجيش ليلاً وكمن نهاراً حتى فاجأ أهلها ⁦(الرحيق ص300)⁩."
+wings: [people]
+regions: [arabia]
+born: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/adra, confidence: low, note: "Associated with عذرة per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 300" }

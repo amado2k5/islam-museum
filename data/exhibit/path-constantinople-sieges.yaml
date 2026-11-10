@@ -1,0 +1,77 @@
+id: exhibit/path-constantinople-sieges
+class: exhibit
+kind: trail
+label:
+  ar: حصارات القسطنطينية
+  en: Sieges of Constantinople
+summary:
+  ar: 'مسار في ثمانية قرون من الحصار: معاوية 674، وسليمان 717، ثم محمد الفاتح 1453 — المدينة تقاوم ثم
+    تسقط.'
+  en: A trail through eight centuries of sieges.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: الحصار الأول
+    en: The first siege
+  body:
+    ar: 'معاوية يرسل الأسطول: أبو أيوب يموت على الأسوار.'
+    en: 'معاوية يرسل الأسطول: أبو أيوب يموت على الأسوار.'
+  features:
+  - event/arab-siege-of-constantinople-667
+  - person/muawiya-ibn-abi-sufyan
+- title:
+    ar: حصار 717
+    en: The 717 siege
+  body:
+    ar: 'سليمان يحاصر سنة كاملة: الشتاء يهزمه.'
+    en: 'سليمان يحاصر سنة كاملة: الشتاء يهزمه.'
+  features:
+  - event/siege-of-constantinople-717
+  - person/sulayman-ibn-abd-al-malik
+- title:
+    ar: الصور
+    en: The walls
+  body:
+    ar: 'أسوار ثيودوسيوس: ألف عام تدافع.'
+    en: 'أسوار ثيودوسيوس: ألف عام تدافع.'
+  features:
+  - place/istanbul
+  - person/mehmed-ii
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: '1453: المدفع العظيم يفتح الباب.'
+    en: '1453: المدفع العظيم يفتح الباب.'
+  features:
+  - person/mehmed-ii
+  - place/istanbul
+- title:
+    ar: المدينة
+    en: The city
+  body:
+    ar: القسطنطينية تصير إسطنبول.
+    en: القسطنطينية تصير إسطنبول.
+  features:
+  - place/istanbul
+  - polity/ottoman-empire
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -8,7 +8,7 @@ roles: [companion]
 traditions: [sunni]
 summary:
   en: "An early Muslim of the persecuted in Mecca who later recalled that when Umar embraced Islam 'Islam appeared, and we sat around the House in circles and took our share back from those who had been harsh to us.'"
-  ar: "من أوائل المسلمين المبتلين بمكة؛ يروي أنه لما أسلم عمر ظهر الإسلام ودُعي إليه علانية وجلس المسلمون حول البيت حلقاً وانتصفوا ممن غلظ عليهم."
+  ar: "من أوائل المسلمين المبتلين بمكة؛ يروي أنه لما أسلم عمر ظهر الإسلام ودُعي إليه علانية وجلس المسلمون حول البيت حلقاً وانتصفوا ممن غلظ عليهم، وأمره عمر المطعون أن يصلي بالناس ثلاثاً حتى تفرغ الشورى {cite:tarikh-khulafa-minhaj-1434}."
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,7 +16,20 @@ story_roles:
   - { role: companion, status: tradition, note: "شاهد على أثر إسلام عمر (الرحيق ص105؛ ابن الجوزي ص13).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+born: { edtf: "587~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
   - { type: participated_in, target: event/islam-of-umar, role: "شهد أثر إسلامه", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/tarikh-umar-ibn-al-jawzi]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 105" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hajar-isaba, source/fadail-sahaba-ahmad-wasi-allah-1999] }
+
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mubarakpuri-raheeq, source/tarikh-umar-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434, source/ibn-hajar-isaba] }
+external_ids: { wikidata: "Q1112992" }
+sources: [source/mubarakpuri-raheeq, source/tarikh-umar-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434, source/ibn-hajar-isaba, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum p. 105" }
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
+  layer: own-research
+  source: "source/assabile-omar-abdelkafy"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "omar-abdelkafy-al-dinu-al-qayem-person-extension"

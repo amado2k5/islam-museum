@@ -1,0 +1,29 @@
+id: person/muhammad-husayn-kaziruni
+class: person
+label:
+  ar: "محمد حسين كازروني"
+  en: "Muhammad Husayn Kaziruni"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد حسين كازروني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Husayn Kaziruni; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q119854529
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1844", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "1932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+relations:
+  - { type: lived_in, target: place/kazarun, confidence: low, note: "Association inferred from the nisba 'كازروني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

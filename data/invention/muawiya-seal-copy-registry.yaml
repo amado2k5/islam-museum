@@ -1,0 +1,73 @@
+id: invention/muawiya-seal-copy-registry
+class: invention
+label: { ar: "ديوان الخاتم والنسخ المحفوظة في عهد معاوية", en: "Muawiya's seal-and-copy registry", ur: "معاویہ کے دور کا مہر اور محفوظ نقل کا دفتر" }
+names:
+  - { kind: alternate, lang: ar, value: "ضبط المكاتبات بديوان الخاتم" }
+  - { kind: alternate, lang: en, value: "Diwan al-khatim documentary controls" }
+summary:
+  ar: "تنظيم فحص الكتب وختمها وحفظ نسخها، مع سوابق إدارية وخبر تلاعب منقول؛ لا اختراع الختم أو ضمان استحالة التغيير {cite:tdv-divan-duri early-Umayyad}."
+  en: "Organized checking,sealing and retained copies,with precedents and a transmitted alteration story,not invention of seals or impossible tampering {cite:tdv-divan-duri early-Umayyad}."
+  ur: "خطوط کی جانچ، مہر اور محفوظ نقل کی تنظیم، سابقوں اور تبدیلی کی روایت سمیت؛ مہر کی ایجاد یا تحریف کا ناممکن ہونا نہیں {cite:tdv-divan-duri early-Umayyad}۔"
+domain: institutions-systems
+kind: institution
+disciplines: [history]
+wings: [ideas]
+periods: [period/umayyad]
+regions: [levant-iraq]
+era:
+  origins: first-century
+  first_attested:
+    edtf: "0661/0680"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "Source-supplied Muawiya reign661–680 bounds attributed institution,not a dated foundation decree. No source gives exact foundation year/day; no guessed Hijri conversion. Suyuti332 narrative not surviving contemporary warrant."
+    sources: [source/tdv-divan-duri, source/tarikh-khulafa-minhaj-1434]
+  status_today: transformed
+origin:
+  place: place/damascus
+  polity: polity/umayyad-caliphate
+  context: { ar: "إدارة مراسلات الدولة، مع ضبط إقليمي ينسبه الدوري عن البلاذري إلى زياد وتأثير إيراني {cite:tdv-divan-duri early-Umayyad}.", en: "State correspondence,alongside a regional control practice Duri attributes through Baladhuri to Ziyad and Iranian influence {cite:tdv-divan-duri early-Umayyad}.", ur: "سرکاری مراسلت، ساتھ علاقائی ضبط جسے دوری بلاذری سے زیاد اور ایرانی اثر کی طرف منسوب کرتے ہیں {cite:tdv-divan-duri early-Umayyad}۔" }
+makers:
+  - { person: person/muawiya-ibn-abi-sufyan, role: commissioner, place: place/damascus, note: "Institutional commissioning,not first use of seals or sole work of all scribes. Suyuti reports named office-holder but no independently verified complete staff.", sources: [source/tarikh-khulafa-minhaj-1434, source/tdv-divan-duri] }
+attribution:
+  status: improvement
+  claim: { ar: "تنظيم الختم والنسخة في مؤسسة، لا ابتكار كل وسيلة إثبات.", en: "Institutional seal/copy arrangement,not invention of every authentication method.", ur: "ادارہ جاتی مہر و نقل کی ترتیب، ہر طریقہ تصدیق کی ایجاد نہیں۔" }
+  basis: { ar: "رواية السيوطي332 وشرح الدوري للفحص والنسخة والختم {cite:tarikh-khulafa-minhaj-1434 p.332} {cite:tdv-divan-duri early-Umayyad}.", en: "Suyuti332transmission and Duri's checking/copy/sealing account {cite:tarikh-khulafa-minhaj-1434 p.332} {cite:tdv-divan-duri early-Umayyad}.", ur: "سیوطی332کی روایت اور دوری کا جانچ، نقل اور مہر کا بیان {cite:tarikh-khulafa-minhaj-1434 p.332} {cite:tdv-divan-duri early-Umayyad}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "تأسيس منسوب في خبر أدبي", en: "Attributed establishment in literary transmission", ur: "ادبی روایت میں منسوب تاسیس" }
+      summary: { ar: "السيوطي ينقل عن العسكري تكليف معاوية واسم موظف وخبر100000/200000؛ لا سنة محددة أو اسم المستفيد في هذا المقطع {cite:tarikh-khulafa-minhaj-1434 p.332}.", en: "Suyuti transmits al-Askari's Muawiya commissioning,official and100000/200000story; no precise year or recipient name in this passage {cite:tarikh-khulafa-minhaj-1434 p.332}.", ur: "سیوطی عسکری سے معاویہ کا حکم، اہلکار اور100000/200000کا قصہ دیتے ہیں؛ اس حصے میں خاص سال یا مستفید کا نام نہیں {cite:tarikh-khulafa-minhaj-1434 p.332}۔" }
+      sources: [source/tarikh-khulafa-minhaj-1434]
+    - tradition: academic
+      stance: { ar: "آليات متمايزة وسوابق", en: "Distinct controls and precedents", ur: "الگ ضابطے اور سابقے" }
+      summary: { ar: "الدوري يصف النسخ والختم، ثم ينسب آلية ضبط عن البلاذري إلى زياد بتأثير إيراني؛ لا نساوي كل آلية بكل الديوان أو بالبريد {cite:tdv-divan-duri early-Umayyad}.", en: "Duri describes copy/seal,then a Baladhuri-attributed Iranian-influenced control under Ziyad; not every mechanism equals the whole bureau or postal network {cite:tdv-divan-duri early-Umayyad}.", ur: "دوری نقل و مہر، پھر بلاذری سے ایرانی اثر والی زیاد کی جانچ بتاتے ہیں؛ ہر عمل پورے دفتر یا ڈاک کا مترادف نہیں {cite:tdv-divan-duri early-Umayyad}۔" }
+      sources: [source/tdv-divan-duri]
+precursors:
+  - external: { ar: "الكتابة والأختام والإدارة الإقليمية الأقدم", en: "Earlier writing,seals and regional administration", ur: "پہلے کی تحریر، مہریں اور علاقائی انتظامیہ" }
+    note: "Administrative adaptation,not invention of seals; Duri distinguishes Iranian-influenced regional control."
+    sources: [source/tdv-divan-duri, source/tdv-muaviye-aycan]
+dependents: []
+spread: []
+impact:
+  fields: [institutions-systems]
+  changed: { ar: "ربط الوثيقة بفحص ونسخة مرجعية وختم، لا شهادة صدق كل مضمون {cite:tdv-divan-duri early-Umayyad}.", en: "Linked documents to checking,reference copies and sealing,not certification that all contents are true {cite:tdv-divan-duri early-Umayyad}.", ur: "دستاویز کو جانچ، حوالہ نقل اور مہر سے جوڑا، ہر مضمون کے سچا ہونے کی ضمانت نہیں {cite:tdv-divan-duri early-Umayyad}۔" }
+  history: { ar: "تمايز ضبط المراسلات عن نقلها بالبريد وعن كل ديوان مالي {cite:tdv-divan-duri early-Umayyad}.", en: "Distinguished correspondence controls from postal transport and every fiscal bureau {cite:tdv-divan-duri early-Umayyad}.", ur: "مراسلت کی جانچ کو ڈاک کے نقل و حمل اور ہر مالی دفتر سے الگ کیا {cite:tdv-divan-duri early-Umayyad}۔" }
+  significance: 3
+  why: "Specific documentary-control institution with retained copies and attributed transmission; purpose distinguished from absolute security,older precedents and transport."
+described_in: []
+examples: []
+sites: []
+concepts: [concept/diwan-al-khatim]
+today:
+  form: { ar: "موضوع تاريخي للمقارنة بين الختم والفحص والسجل، لا نظام تشفير معاصر.", en: "Historical comparison of seal,checking and register,not modern encryption.", ur: "مہر، جانچ اور رجسٹر کا تاریخی تقابل، جدید رمزنگاری نہیں۔" }
+  descendants: { ar: "تشابه وظيفي لا نسب مباشر لكل توقيع رقمي.", en: "Functional comparison,not direct ancestry of every digital signature.", ur: "فعلی تقابل، ہر ڈیجیٹل دستخط کا براہ راست نسب نہیں۔" }
+media: { image: media/modern-sealed-letters-context, diagram: media/diagram-seal-copy-registry }
+kids:
+  ar: "قارن بطاقة ونسختها وخانة فحص على الورق؛ لا تشعل ناراً أو تتعامل مع شمع ساخن."
+  en: "Compare a paper card,its copy and a checking box; no flames or hot wax."
+  ur: "کاغذی کارڈ، اس کی نقل اور جانچ کا خانہ ملائیں؛ آگ یا گرم موم استعمال نہ کریں۔"
+sources: [source/tarikh-khulafa-minhaj-1434, source/tdv-divan-duri, source/tdv-muaviye-aycan, source/ibn-hajar-isaba, source/commons-sealing-wax-eugster]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b91", source: "D-133; actual Suyuti332,Duri early-Umayyad and Aycan biography; modern licensed context photo. No original artifact,foundation day,guaranteed confidentiality,material reconstruction or cryptographic lineage." }

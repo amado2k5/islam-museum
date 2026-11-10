@@ -1,0 +1,23 @@
+id: event/antioch-earthquake-455
+class: event
+kind: other
+label: { ar: "زلزلة أنطاكية واللاذقية", en: "The earthquake of Antioch and Latakia" }
+summary:
+  ar: "في سنة خمس وخمسين وأربعمائة كانت زلزلة بأنطاكية واللاذقية وقطعة من بلاد الروم، وفي ذي الحجة منها كانت زلزلة بأرض واسط لبثت طويلًا، ووقع الوباء بمضر فكان يخرج منها في اليوم الواحد نحو ألف جنازة {cite:muntazam-ibn-al-jawzi j.8 p.566}."
+  en: "In 455 an earthquake struck Antioch, Latakia and a tract of the Roman lands; in Dhu'l-Hijja Wasit shook for a long while, and plague in Egypt took near a thousand funerals a day {cite:muntazam-ibn-al-jawzi j.8 p.566}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [cities]
+date:
+  start: { edtf: "1063", hijri: "0455", calendar: julian, precision: year, status: tradition, derived: true, note: "455؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/antakiya, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/ladhiqiyya, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 455)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

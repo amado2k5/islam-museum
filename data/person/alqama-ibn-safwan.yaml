@@ -1,0 +1,24 @@
+id: person/alqama-ibn-safwan
+class: person
+label: { ar: "علقمة بن صفوان الكناني", en: "Alqama ibn Safwan" }
+summary:
+  ar: "علقمة بن صفوان بن أمية بن محرّب الكناني، جد مروان بن الحكم لأمه؛ خرج ليلة يريد مالاً له بمكة فانتهى إلى حائط حرمان فظهر له شق الجني فقال علقم إني مقتول وإن لحمي مأكول بالمسلول ضرب غلام مشمول أضربهم رحب الذراع بهلول، فتضاربا فخرا ميتين، ومشهور عند العرب أن علقمة قتلته الجن {cite:muruj-al-dhahab p. 473-474}."
+  en: "Alqama ibn Safwan al-Kinani, Marwan's maternal grandfather — waylaid at the wall of Harman by the half-man jinn Shiqq; they exchanged verse then blows and both fell dead, whence the saying that the jinn killed Alqama {cite:muruj-al-dhahab p. 473-474}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "Kinani of Mecca; Marwan's maternal grandfather.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: died_in, target: place/mecca, note: "Fell dead at the wall of Harman by Mecca fighting the jinn Shiqq.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

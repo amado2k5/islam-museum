@@ -1,0 +1,16 @@
+id: place/hazro
+class: place
+kind: city
+label: { en: "Hazro", ar: "حضرو" }
+summary:
+  en: "Human settlement in Pakistan."
+  ar: "مدينة في باكستان."
+wings: [place]
+regions: [south-asia]
+coordinates: [33.9097, 72.4928]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q3695085", geonames: "1176948" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q3695085 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

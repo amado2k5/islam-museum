@@ -1,0 +1,30 @@
+id: person/sharaf-al-din-al-ansari
+class: person
+label:
+  ar: "شرف الدين الأنصاري"
+  en: "Sharaf al-Din al-Ansari"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "شرف الدين الأنصاري، فاضل مصري حفيد زكريا الأنصاري، صاحب «الطبقات» في شيوخه وعلماء عصره؛ توفي سنة 1092هـ ⁦(1681م)⁩."
+  en: "Sharaf al-Din al-Ansari (1620–1681), Egyptian scholar, grandson of Zakariyya al-Ansari, author of al-Tabaqat."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1190", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1264", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q85)" }
+  - { type: buried_in, target: place/city-of-the-dead, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2066414)" }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q28936372
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.160)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

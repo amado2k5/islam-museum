@@ -1,0 +1,29 @@
+id: person/ali-al-karaki
+class: person
+label:
+  ar: "علي الكركي العاملي"
+  en: "Ali al-Karaki"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية للمحقق علي بن عبد العال الكركي العاملي، فقيه الصفويين الكبير في القرن السادس عشر، توفي سنة ١٥٣٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Muhaqqiq Ali ibn Abd al-Ali al-Karaki al-Amili, the sixteenth-century leading Safavid jurist, d. 1534; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6402302
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0043
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1465", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "1534", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

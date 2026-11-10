@@ -1,0 +1,31 @@
+id: work/ajaib-al-athar
+class: work
+kind: book
+label: { ar: "عجائب الآثار في التراجم والأخبار", en: "Aja'ib al-Athar fi al-Tarajim wa-l-Akhbar", ur: "عجائب الآثار فی التراجم والاخبار" }
+summary:
+  ar: "تاريخ مصر وتراجم رجالها من سنة 1100هـ/1688م إلى سنة 1236–1237هـ/1821م لعبد الرحمن بن حسن الجبرتي، يشمل أواخر العصر المملوكي العثماني والحملة الفرنسية وبداية حكم محمد علي، في أربعة أجزاء {cite:ajaib-al-athar-moreh-2013-v1 p.13} {cite:ajaib-al-athar-moreh-2013-v1 p.18}؛ اعتمد في الجزأين الأولين على مصادر مخطوطة منها معجم شيخه مرتضى الزبيدي، وفي الثالث على كتابه «مظهر التقديس» {cite:ajaib-al-athar-moreh-2013-v1 p.14} {cite:ajaib-al-athar-moreh-2013-v1 p.18}."
+  en: "A history of Egypt and biographies of its men from 1100/1688 to 1236-1237/1821 by Abd al-Rahman ibn Hasan al-Jabarti, covering the late Mamluk-Ottoman period, the French expedition and the beginning of Muhammad Ali's rule, in four parts; for the first two parts he drew on manuscript sources including his teacher Murtada al-Zabidi's dictionary of shaykhs, and for the third on his own Mazhar al-taqdis."
+authors: [person/abd-al-rahman-al-jabarti]
+language: language/arabic
+genre: [history, biography]
+wings: [words, time]
+themes: [history-writing-and-social-thought, politics-governance-and-authority, colonial-wars-and-resistance]
+periods: [period/gunpowder-empires, period/colonial-era]
+regions: [egypt-nile]
+structure: "Author's preface; part 1: 1100-1189 AH (1688-1775), events summarised by year with long obituaries of scholars, Sufis and amirs (contents vol. 1 scan p.11 ff.); part 2: from 1190 AH, events dated by day and month; part 3: 1213-1220 AH (1798-1805), the French occupation and Muhammad Ali's appointment, reworked from Mazhar al-taqdis; part 4: 1221-1236 AH (1806-1821), Muhammad Ali's rule, including the killing of the Mamluk amirs at the Citadel in 1226. Moreh edition: 4 parts and an index volume."
+editions:
+  - "Bulaq, 1879-1880 (first printing, as reported by Moreh)"
+  - "Jerusalem, Hebrew University, ed. Shmuel Moreh, 2013-, 4 parts + indexes (source/ajaib-al-athar-moreh-2013-v1, source/ajaib-al-athar-moreh-2013-v4)"
+relations:
+  - { type: about, target: event/massacre-of-the-citadel-1226, sources: [source/ajaib-al-athar-moreh-2013-v4] }
+  - { type: about, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-2013-v1] }
+  - { type: about, target: person/hassan-al-jabarti, sources: [source/ajaib-al-athar-moreh-2013-v1] }
+  - { type: relies_on, target: work/mazhar-al-taqdis, sources: [source/ajaib-al-athar-moreh-2013-v1] }
+sources: [source/ajaib-al-athar-moreh-2013-v1, source/ajaib-al-athar-moreh-2013-v4]
+provenance:
+  layer: own-research
+  source: "source/ajaib-al-athar-moreh-2013-v1 scan pp. 1-28, 502-524; source/ajaib-al-athar-moreh-2013-v4 scan pp. 176-181"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

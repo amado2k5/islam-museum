@@ -1,0 +1,38 @@
+id: person/abd-al-rahman-ibn-ziyad-ibn-anam
+class: person
+label: { ar: "عبد الرحمن بن زياد بن أنعم", en: "Abd al-Rahman ibn Ziyad ibn An'am" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن زياد بن أنعم المعافري الشعباني" }
+  - { kind: kunya, lang: ar, value: "أبو خالد" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+born: { edtf: "0694", hijri: "0075", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0778", hijri: "0161", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "العالم والمحدّث والقاضي أبو خالد عبد الرحمن بن زياد بن أنعم المعافري الشعباني، يُلقّب في المشرق الإفريقي، وروى الحديث وتولّى القضاء."
+  en: "The scholar, traditionist and judge Abu Khalid Abd al-Rahman ibn Ziyad ibn An'am al-Mu'afiri al-Sha'bani, known in the African East; he transmitted hadith and held judicial office."
+wings: [people]
+themes: [law-and-courts, scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص496"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/ifriqiya, note: "Place association from the person's nisba/name (الإفريقي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

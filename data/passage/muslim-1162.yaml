@@ -1,0 +1,15 @@
+id: passage/muslim-1162
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1162"
+label: { ar: "مسلم 1162 — صيام يوم عرفة يكفر سنتين", en: "Muslim 1162 — The fast of Arafah expiates two years" }
+text: "قال أبو قتادة: سئل النبي عن صومه فأنكره ثم قال: ثلاث من كل شهر ورمضان إلى رمضان فهذا صيام الدهر كله، صيام يوم عرفة أحتسب على الله أن يكفر السنة التي قبله والسنة التي بعده، وصيام يوم عاشوراء أحتسب على الله أن يكفر السنة التي قبله"
+summary:
+  ar: "رواية أبي قتادة الأنصاري في باب فضل صيام ثلاثة أيام من كل شهر ويوم عرفة وعاشوراء ويوم الاثنين من كتاب الصيام في صحيح مسلم؛ وفي لفظ شعبة الإجابة عن صوم الاثنين «ذاك يوم ولدت فيه وبعثت أو أنزل علي فيه»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-qatada-al-ansari, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الصيام، باب فضل صيام ثلاثة أيام من كل شهر ويوم عرفة وعاشوراء ويوم الاثنين (طبعة دار التأصيل، الحديث 1184؛ ترقيم عبد الباقي المعروف 1162)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

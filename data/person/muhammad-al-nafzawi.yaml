@@ -1,0 +1,29 @@
+id: person/muhammad-al-nafzawi
+class: person
+label:
+  ar: "محمد النفزاوي"
+  en: "Muhammad al-Nafzawi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي عبد الله محمد النفزاوي، أديب تونس القرن الخامس عشر صاحب «الروض العاطر»؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Abd Allah Muhammad al-Nafzawi, the fifteenth-century Tunisian litterateur author of al-Rawd al-Atir; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q2962111
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0038
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1410~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1434~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

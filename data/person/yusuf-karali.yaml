@@ -1,0 +1,29 @@
+id: person/yusuf-karali
+class: person
+label:
+  ar: "يوسف كارعلي"
+  en: "Yusuf Karali"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليوسف كارعلي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yusuf Karali; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/modern-era]
+born: { edtf: "1886", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/rize, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q201101)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q130362768
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

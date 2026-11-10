@@ -1,0 +1,28 @@
+id: event/mizzi-dhahabi-hears-694
+class: event
+kind: other
+label:
+  ar: "الذهبي يسمع من المزي «صحيح البخاري»، سنة ٦٩٤هـ"
+  en: "Al-Dhahabi hears Sahih al-Bukhari from al-Mizzi, 694/1294"
+  ur: "ذہبی کا مزی سے «صحیح بخاری» کی سماعت، 694ھ/1294ء"
+summary:
+  ar: "قال الذهبي في شيخه: «سمعت منه سنة أربع وتسعين وأخذت عنه «صحيح البخاري» وغير ذلك»، وكان الذهبي يومئذ ابن نحو إحدى وعشرين سنة {cite:tarikh-islam-dhahabi p. 491}؛ ومن تلاميذ المزي أيضاً الذهبي وعبد الوهاب السبكي وصهره ابن كثير {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}."
+  en: "Al-Dhahabi says of his teacher: 'I heard from him in the year 694 and took from him the Sahih of al-Bukhari and other works', al-Dhahabi then being about twenty-one {cite:tarikh-islam-dhahabi p. 491}; al-Mizzi's students also included al-Dhahabi, Abd al-Wahhab al-Subki and his son-in-law Ibn Kathir {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}."
+  ur: "ذہبی اپنے شیخ کے بارے میں فرماتے ہیں: «میں نے 694 میں ان سے سماعت کی اور ان سے صحیح بخاری وغیرہ لی»، اس وقت ذہبی کی عمر تقریباً اکیس برس تھی {cite:tarikh-islam-dhahabi p. 491}؛ مزی کے شاگردوں میں ذہبی، عبد الوہاب سبکی اور ان کے داماد ابن کثیر شامل ہیں {cite:encyclopaedia-of-islam-2 vol. 7 p. 240}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1294~", hijri: "0694", calendar: julian, precision: year, status: tradition, derived: true, note: "قال الذهبي: «سمعت منه سنة أربع وتسعين» {cite:tarikh-islam-dhahabi p. 491}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-dhahabi, role: "السامع التلميذ", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam (Dhayl) s.a. 742, printed p. 491 (harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 7 art. al-Mizzi, printed p. 240"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mizzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

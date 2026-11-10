@@ -1,0 +1,15 @@
+id: passage/muslim-0533
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "533"
+label: { ar: "مسلم 533 — من بنى مسجداً لله بنى الله له مثله في الجنة", en: "Muslim 533 — Whoever builds a mosque for God, God builds its like for him in Paradise" }
+text: "قال رسول الله: «من بنى مسجداً — يبتغي به وجه الله — بنى الله له مثله في الجنة»"
+summary:
+  ar: "رواية عثمان بن عفان عند بنائه مسجد النبي حين كره الناس تغييره — في باب بناء المساجد من كتاب المساجد في صحيح مسلم؛ النص الذي علّقته المشاريع الوقفية على أعتاب المساجد عبر القرون."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب المساجد ومواضع الصلاة، باب فضل بناء المساجد (طبعة دار التأصيل، الحديث ٣١٠٠؛ ترقيم عبد الباقي المعروف 533)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

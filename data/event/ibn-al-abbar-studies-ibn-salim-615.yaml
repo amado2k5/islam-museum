@@ -1,0 +1,28 @@
+id: event/ibn-al-abbar-studies-ibn-salim-615
+class: event
+kind: other
+label:
+  ar: "ابن الأبار تلميذ أبي الربيع بن سالم ببلنسية، نحو ٦١٥هـ"
+  en: "Ibn al-Abbar becomes the disciple of Abu al-Rabi' ibn Salim at Valencia, ~615/1218"
+  ur: "ابن ابار بلنسیہ میں ابو الربیع بن سالم کے شاگرد ہوئے، ~615ھ/1218ء"
+summary:
+  ar: "نشأ ابن الأبار ببلنسية في أحضان الدروس، وقرأ على جماعة من المشايخ يذكرهم في «معجمه»، ولازم أكثر من عشرين سنة أعلم محدثي الأندلس في زمانه أبا الربيع بن سالم، وهو الذي حمله على إتمام «صلة» ابن بشكوال فخرجت «التكملة» {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}."
+  en: "Ibn al-Abbar grew up at Valencia in study circles, reading under a body of teachers he names in his Mu'jam; for more than twenty years he was the disciple of the most learned traditionist in Spain, Abu al-Rabi' ibn Salim, who persuaded him to complete the Sila of Ibn Bashkuwal — the seed of the Takmila {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}."
+  ur: "ابن ابار نے بلنسیہ میں علمی مجالس میں پرورش پائی اور ان اساتذہ سے قراءت کی جنہیں انہوں نے اپنے «معجم» میں ذکر کیا ہے؛ بیس سال سے زائد عرصہ وہ اپنے زمانے کے جزیرہ نما اسپین کے بڑے محدث ابو الربیع بن سالم کے شاگرد رہے، جنہوں نے انہیں ابن بشکوال کی «صلة» مکمل کرنے پر ابھارا — اور یہی «التکملة» کا آغاز بنا {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1218~", hijri: "0615~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في ربيع الآخر 595/فبراير 1199 ولازم ابن سالم أكثر من عشرين سنة؛ التأريخ التقريبي والتحويل مشتقان {cite:encyclopaedia-of-islam-2 vol. 3 p. 705}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/valencia, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-abbar, role: "التلميذ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/abu-al-rabi-ibn-salim, role: "الشيخ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 printed p. 705 (IBN AL-ABBĀR, M. Ben Cheneb–Ch. Pellat) — Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-abbar-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

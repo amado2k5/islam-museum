@@ -1,0 +1,17 @@
+---
+id: person/rustam-beg
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Rustam Beg Bayandur — in full Abu'l-Muzaffar Sultan Rustam ibn Maqsud ibn Uzun Hasan — was the fifth sultan of the Aq Qoyunlu, ruling from 1492 to 1497 in the dynastic struggle that followed Ya'qub Beg's death. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-ru} Four language editions of Wikipedia and his Wikidata item agree on this identity: son of Maqsud Beg, grandson of the confederation's founder Uzun Hasan, enthroned at Tabriz in 1492, deposed by his cousin Ahmad Beg in 1497. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-tr} {cite:wikidata-rustam-beg} His birth date is not reliably known — the Russian article says so in so many words — so this record carries no birth year: the museum's queue figure of 1465 is attested in no source consulted, and Wikidata's lone structured value of 1477 is unsourced. {cite:wikipedia-rustam-beg-ru} {cite:wikidata-rustam-beg}
+
+## Rise to the throne
+Rustam's father Maqsud, governor of Baghdad, rose against his own brother Sultan Khalil after Uzun Hasan's death and was executed in 1478; Rustam spent some time in hiding and later returned to Tabriz under Sultan Ya'qub. {cite:wikipedia-rustam-beg-ru} He was held in prison at Nakhchivan when his maternal uncle Ayba-Sultan freed him and brought him to Tabriz. {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-en} There, backed also by the Purnak and Qajar tribes, he defeated his cousin Sultan Baysunghur, who was killed in 1493, and was enthroned at the end of May 1492. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-ru}
+
+## Reign
+The Persian article remembers Rustam for stipends assigned to the poor on a scale it calls unprecedented in Aq Qoyunlu rule, and for the generosity that made his name. {cite:wikipedia-rustam-beg-fa} The Darb-e Kushk gate at Isfahan dates to his reign; its inscription, dated 902 AH (1496–97), names him as the ruling sovereign. {cite:wikipedia-rustam-beg-en} In 1494 he campaigned against the Safavids of Ardabil, defeated the young Ismail, son and successor of Shaykh Haydar, and drove him into flight. {cite:wikipedia-rustam-beg-ru}
+
+## Fall and death
+In 1497 his cousin Ahmad Beg — Göde Ahmad — rose against him with Ottoman support and quickly prevailed. {cite:wikipedia-rustam-beg-ru} {cite:wikipedia-rustam-beg-tr} How Rustam died that year is reported three different ways: the English article says he was deposed and executed several months later after a failed attempt to recover the throne; the Persian article says he was defeated and killed at Tabriz in 902 AH and buried at the Imamzadeh Chaharmanar there; the Russian article says he fled to Georgia and died there soon after. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-ru} The year itself, 1497, is unanimous, and Wikidata agrees. {cite:wikidata-rustam-beg} The English and Persian articles' infoboxes both describe him as Sunni, but they rest on an overlapping scholarly base — the Encyclopaedia Iranica entry on the Aq Qoyunlu is cited by both — and no narrative source consulted names a legal school for the man himself, so this record states the attestation and records his faith as unattested rather than settled. {cite:wikipedia-rustam-beg-en} {cite:wikipedia-rustam-beg-fa} {cite:wikipedia-rustam-beg-ru}

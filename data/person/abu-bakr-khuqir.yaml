@@ -1,0 +1,29 @@
+id: person/abu-bakr-khuqir
+class: person
+label:
+  ar: "أبو بكر خوقير"
+  en: "Abu Bakr Khuqir"
+roles: [scholar]
+gender: male
+summary:
+  ar: "أبو بكر خوقير المكي الحنبلي، مفتي الحنابلة سنة ١٣٢٧هـ ⁦(١٢٨٢–١٣٤٩هـ)⁩، حُبس ونُفي في أيام الشريف حسين ثم درّس بالحرم، صاحب «فصل المقال»."
+  en: "Abu Bakr Khuqir of Mecca, Hanbali mufti (1282–1349/1865–1930), imprisoned and exiled under Sharif Husayn, later a sanctuary teacher; author of Fasl al-Maqal."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q68169503
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam" }
+died: { edtf: "1930", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

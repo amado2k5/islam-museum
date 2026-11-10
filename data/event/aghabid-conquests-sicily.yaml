@@ -1,0 +1,21 @@
+id: event/aghabid-conquests-sicily
+class: event
+kind: conquest
+label: { ar: "فتوح الأغالبة في صقلية", en: "The Aghlabids' Conquests in Sicily" }
+summary:
+  ar: "عند البلاذري: فتح آل الأغلب بن سالم الإفريقي من صقلية نيفاً وعشرين مدينة وهي في أيدي المسلمين وفتح أحمد بن محمد بن الأغلب منها في خلافة أمير المؤمنين المتوكل على الله قصر يانة وحصن غليانة."
+  en: "In al-Baladhuri: the house of al-Aghlab ibn Salim al-Ifriqi opened more than twenty cities of Sicily — in Muslim hands — and Ahmad ibn Muhammad ibn al-Aghlab opened of it in al-Mutawakkil's caliphate Qasr Yana and Hisn Ghalyana."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe, maghreb]
+relations:
+  - { type: occurred_at, target: place/siqilliya }
+  - { type: had_participant, target: person/ahmad-ibn-muhammad-al-aghab, role: "فاتح قصر يانة وحصن غليانة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 329"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase1-batch1
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; prose checked against the Ma'arif 1407 scan p. 329 in the local harvest workspace (Devin 2026 draft, OCR read by Apple Vision)" }

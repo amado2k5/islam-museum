@@ -1,0 +1,28 @@
+id: person/habib-ibn-abi-thabit
+class: person
+label: { ar: "حبيب بن أبي ثابت", en: "Habib ibn Abi Thabit" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو يحيى حبيب بن أبي ثابت من فقهاء التابعين؛ مات سنة سبع عشرة ومائة {cite:tabaqat-fuqaha-abbas-1981 p. 44}. وقال أبو بكر بن عياش: ثلاثة ليس لهم رابع: حبيب بن أبي ثابت، والحكم بن عتيبة، وحماد بن أبي سليمان."
+wings: [people]
+died: { hijri: "0117", edtf: "0735~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة سبع عشرة ومائة (PDF ص44).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Associated with شيراز per the record's own text; relation type pending review.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

@@ -1,0 +1,28 @@
+id: person/abdou-filali-ansary
+class: person
+label:
+  ar: "عبدو الفيلالي الأنصاري"
+  en: "Abdou Filali-Ansary"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبدو الفيلالي الأنصاري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abdou Filali-Ansary; the entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/contemporary-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q55231064
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: AKU-ISMC Institute Profile" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

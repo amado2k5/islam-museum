@@ -1,0 +1,30 @@
+id: person/silahdar-damat-mehmet-pasha
+class: person
+label:
+  ar: "صيلحدار داماد محمد باشا"
+  en: "Silahdar Damat Mehmet Pasha"
+roles: [politician]
+gender: male
+summary:
+  ar: "بطاقة أولية لصيلحدار داماد محمد باشا؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Silahdar Damat Mehmet Pasha; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+died: { edtf: "1773", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: died_in, target: place/aleppo-eyalet, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3043596)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6099715
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

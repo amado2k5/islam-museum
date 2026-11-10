@@ -1,0 +1,24 @@
+id: work/tanbih-al-naqqad
+class: work
+kind: treatise
+label: { ar: "تنبيه النقاد على ما في الهيئة المشهورة من الفساد", en: "Tanbih al-naqqad ala ma fi al-hay'a al-mashhura min al-fasad", ur: "تنبیہ النقاد علی ما فی الہیئۃ المشہورۃ من الفساد" }
+summary:
+  ar: "رسالة في نقد الهيئة الشائعة لغرس الدين الحلبي، كتبت سنة 958هـ، فيها فصل في الحركة العرضية للأفلاك ونقد للفلك المعدل للمسير والخارج المركز {cite:heinen-islamic-cosmology p. 31} {cite:heinen-islamic-cosmology p. 32}."
+  en: "Treatise by Gars al-Din al-Halabi criticising the prevailing astronomy, written in 958 AH, with a chapter on the accidental motion of the spheres and a critique of the equant and eccentric deferent {cite:heinen-islamic-cosmology p. 31} {cite:heinen-islamic-cosmology p. 32}."
+  ur: "غرس الدین حلبی کا رائج ہیئت پر تنقیدی رسالہ، 958ھ میں لکھا گیا، جس میں افلاک کی عرضی حرکت پر باب اور معدل المسیر و خارج المرکز پر تنقید ہے {cite:heinen-islamic-cosmology p. 31}."
+wings: [ideas, words]
+themes: [astronomy-and-timekeeping]
+authors: [person/gars-al-din-al-halabi]
+language: language/arabic
+made: { by_muslims: true, basis: documented, sources: [source/heinen-islamic-cosmology] }
+composed: { edtf: "1551", hijri: "0958", calendar: gregorian, precision: year, status: historical, derived: true, note: "بحسب خاتمة النسخة كما ينقل هاينن {cite:heinen-islamic-cosmology p. 31}." }
+relations:
+  - { type: mentions, target: concept/earth-rotation-ship-analogy, sources: [source/heinen-islamic-cosmology] }
+sources: [source/heinen-islamic-cosmology]
+provenance:
+  layer: own-research
+  source: "source/heinen-islamic-cosmology scan pp. 31–32"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 2 }

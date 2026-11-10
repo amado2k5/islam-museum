@@ -1,0 +1,36 @@
+id: place/azamgarh-district
+class: place
+kind: province
+label:
+  ar: منطقة أعظم كره
+  en: Azamgarh district
+  ur: اعظم گڑھ ضلع
+summary:
+  ar: محافظة في الهند.
+  en: District of Uttar Pradesh, India.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 26.06
+- 83.1861
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q793553
+  geonames: '1278084'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q793553 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q793553 (labels, coordinates, description)

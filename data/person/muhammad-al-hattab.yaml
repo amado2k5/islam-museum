@@ -1,0 +1,33 @@
+id: person/muhammad-al-hattab
+class: person
+label:
+  ar: "الحطاب"
+  en: "Al-Hattab"
+names:
+  - { value: "الحطاب", kind: full }
+died: { hijri: "0954", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Dates as given in the appendix: 902-954 AH." }
+summary:
+  ar: "محمد بن محمد بن عبد الرحمن الرُّعيني، المعروف بالحطاب، فقيه مالكي من علماء المتصوفة، أصله من المغرب، ولد واشتهر بمكة، ومات في طرابلس الغرب. من تصانيفه «مواهب الجليل في شرح مختصر خليل» في ستة مجلدات، و«شرح نظم نظائر رسالة القيرواني» لابن غازي، ورسالة في استخراج أوقات الصلاة بالأعمال الفلكية. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1620}"
+  en: "Muhammad ibn Muhammad ibn Abd al-Rahman al-Ru'ayni, known as al-Hattab, a Maliki jurist among the Sufi scholars. Of Moroccan origin, he became known in Mecca and died in Tripoli of the West. His works include Mawahib al-jalil fi sharh Mukhtasar Khalil in six volumes, a commentary on Ibn Ghazi's verse on the Qayrawani risala, and a treatise on finding prayer times by astronomical methods. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1620}"
+gender: male
+roles: [jurist]
+wings: [people]
+relations:
+  - { type: died_in, target: place/tarabulus-gharb, sources: [source/wikidata], confidence: low, note: "ar: 'محمد بن محمد بن عبد الرحمن الرُّعيني، المعروف بالحطاب، فقيه مالكي من علماء المتصوفة، أصله من المغرب، ولد " }
+  - { type: lived_in, target: place/mecca, sources: [source/wikidata], confidence: low, note: "Of Moroccan origin, he became known in Mecca and died in Tripoli of the West." }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1620 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

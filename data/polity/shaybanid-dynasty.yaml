@@ -1,0 +1,32 @@
+id: polity/shaybanid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة الشيبانية"
+  en: "Shaybanid dynasty"
+summary:
+  ar: "بطاقة أولية للدولة الشيبانية، سلالة بني شيبان الأوزبك التي ورثت خوارزم وما وراء النهر وقاتلت الصفويين من ١٥٠٠ إلى ١٥٩٩م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Shaybanid dynasty, the Uzbek house of Banu Shayban ruling Transoxiana and Khwarezm against the Safavids from 1500 to 1599; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+start:
+  edtf: "1500"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1599"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q856361
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Central-Asian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,29 @@
+id: person/abdallah-baalawi
+class: person
+label:
+  ar: "عبد الله باعلوي"
+  en: "Abdallah Ba'alawi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "عبد الله بن جعفر الباعلوي، متصوف شحري أقام بالهند نحو عشرين عامًا ثم استقر بمكة حتى وفاته ١١٦٠هـ ⁦(١٧٤٧م)⁩، صاحب «كشف أسرار علوم المقربين»."
+  en: "Abd Allah ibn Ja'far al-Ba'Alawi, Sufi of al-Shihr who settled in Mecca (d. 1160/1747), author of Kashf Asrar Ulum al-Muqarrabin."
+wings: [people]
+regions: [arabia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q68168737
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.4 p.76)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0073
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1143", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sharji (Tabaqat al-Khawass)" }
+died: { edtf: "1234", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sharji (Tabaqat al-Khawass)" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "From text: settled in Mecca", sources: [source/al-aalam] }

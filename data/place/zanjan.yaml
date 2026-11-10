@@ -1,0 +1,33 @@
+id: place/zanjan
+class: place
+kind: city
+label:
+  ar: زنجان
+  en: Zanjan
+summary:
+  ar: مدينة في نواحي قزوين؛ فتحها البراء بن عازب عنوة بعد صلح قزوين وغزواته في الديلم وجيلان والببر والطيلسان.
+  en: A town in Qazwin's marches; al-Bara' ibn Azib took it by force after Qazwin's treaty and his raids on Daylam, Jilan, al-Babar and al-Taylasan.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 36.6736
+- 48.4787
+coordinate_precision: locality
+coordinate_note: Coordinates from Wikidata Q146699; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q146699
+sources:
+- source/futuh-buldan-maarif-1407
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from: []
+  note: Semantic merge of duplicate records written by parallel enrichment runs.

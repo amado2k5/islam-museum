@@ -1,0 +1,30 @@
+id: person/muhriz-ibn-nadhla
+class: person
+label:
+  ar: "محرز بن نضلة"
+  en: "Muhriz ibn Nadhla"
+roles: [companion]
+gender: male
+summary:
+  ar: "محرز بن نضلة «الأخرم الأسدي»، صحابي بدري من بني غنم، قتله الفزاري في غزوة ذي قرد سنة 6هـ ⁦(627م)⁩."
+  en: "Muhriz ibn Nadhla al-Asadi (d. 6/627), Companion present at Badr, killed at Dhu Qarad."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam]
+born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd" }
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); Ibn Sa'd" }
+relations:
+  - { type: traveled_to, target: place/badr, sources: [source/al-aalam] }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q12239307
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.284)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
+status:
+  review: published
+  completeness: 3

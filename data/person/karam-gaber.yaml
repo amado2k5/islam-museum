@@ -1,0 +1,38 @@
+id: person/karam-gaber
+class: person
+label: { ar: "كرم جابر", en: "Karam Gaber", ur: "کرم جابر" }
+names:
+  - { value: "Karam Ibrahim Gaber", kind: full }
+  - { value: "كرم إبراهيم جابر", kind: full }
+gender: male
+summary:
+  ar: "مصارع مصري في المصارعة الرومانية، وُلد في الإسكندرية سنة 1979. فاز بذهبية وزن 96 كجم في أولمبياد أثينا 2004 — أول ذهبية أولمبية لمصر منذ 1948 — وبفضية أولمبياد لندن 2012، وحمل علم مصر في أولمبياد بكين 2008."
+  en: "Egyptian Greco-Roman wrestler, born in Alexandria in 1979. He won gold in the 96 kg event at the Athens 2004 Olympics — Egypt's first Olympic gold medal since 1948 — and silver at London 2012, and carried Egypt's flag at Beijing 2008."
+  ur: "مصری یونانی رومن پہلوان، 1979 میں اسکندریہ میں پیدا ہوئے۔ انہوں نے ایتھنز 2004 اولمپکس کے 96 کلوگرام مقابلے میں طلائی تمغہ جیتا — 1948 کے بعد مصر کا پہلا اولمپک طلائی تمغہ — اور لندن 2012 میں چاندی کا تمغہ حاصل کیا، اور بیجنگ 2008 میں مصر کا پرچم اٹھایا۔"
+roles: [wrestler]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1979-09-01"
+  hijri: "1399"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 September 1979 (English and Arabic articles; Wikidata). The birthplace, Alexandria, is stated in the Arabic article's text and recorded by Wikidata. The Hijri year 1399 is the tabular conversion of 1 September 1979 and is marked derived."
+  sources: [source/wikipedia-karam-gaber-en, source/wikipedia-karam-gaber-ar, source/wikidata-karam-gaber]
+relations:
+  - { type: born_in, target: place/alexandria, sources: [source/wikipedia-karam-gaber-ar, source/wikidata-karam-gaber] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for him, and Wikidata records no religion (P140) statement. His nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-karam-gaber-en, source/wikipedia-karam-gaber-ar, source/wikidata-karam-gaber]
+external_ids: { wikidata: "Q467841" }
+sources: [source/wikipedia-karam-gaber-en, source/wikipedia-karam-gaber-ar, source/wikidata-karam-gaber]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1381418967), Arabic Wikipedia (revision 77022427) and Wikidata Q467841 (item revision 2559345174, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed in the Arabic edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-153A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

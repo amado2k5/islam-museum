@@ -1,0 +1,23 @@
+id: event/moroccan-ottoman-conflicts
+class: event
+kind: war
+label: { ar: "الصراعات المغربية العثمانية", en: "Moroccan–Ottoman conflicts" }
+summary:
+  ar: "بطاقة أولية للصراعات المغربية العثمانية، نزاعات ديار الجزائر العثمانية والمغرب في القرون الوسطى والحديثة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Moroccan–Ottoman conflicts, the contests between Ottoman Algiers and Morocco; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1550", precision: year, status: tradition, derived: true }
+  end: { edtf: "1795", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q19952188
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

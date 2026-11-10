@@ -1,0 +1,28 @@
+id: event/abu-dawud-sunan-ahmad-240
+class: event
+kind: publication
+label:
+  ar: "تصنيف «السنن» وعرضه على أحمد بن حنبل قبل ٢٤١هـ"
+  en: "The Sunan composed and shown to Ahmad ibn Hanbal, before 241/855"
+  ur: "«سنن» کی تصنیف اور امام احمد بن حنبل پر عرض، 241ھ/855ء سے پہلے"
+summary:
+  ar: "يُقال إن أبا داود صنّف «السنن» فعرضه على الإمام أحمد فاستجاده واستحسنه {cite:tarikh-islam-dhahabi p. 359}؛ وتؤكد الموسوعة الإسلامية الخبر نفسه {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. وقال ابن داسة: سمعت أبا داود يقول: كتبت عن رسول الله خمسمائة ألف حديث وانتخبت منها ما ضمّنته كتاب السنن، جمعت فيه أربعة آلاف وثمانمائة حديث، ذكرت الصحيح وما يشبهه ويقاربه {cite:tarikh-islam-dhahabi p. 360}. وتفقّه بأحمد بن حنبل ولازمه مدة وكان من نجباء أصحابه {cite:tarikh-islam-dhahabi p. 360}؛ وبما أن أحمد توفي سنة ٢٤١هـ فالعرض واقع قبلها."
+  en: "It is said that Abu Dawud composed the Sunan and presented it to the Imam Ahmad, who admired and approved it {cite:tarikh-islam-dhahabi p. 359}, a report the Encyclopaedia of Islam confirms {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}. Ibn Dasa heard him say: I wrote down five hundred thousand traditions from the Messenger of God and selected from them what I placed in the Sunan — four thousand eight hundred traditions — naming the sound ones and those resembling or approaching them {cite:tarikh-islam-dhahabi p. 360}. He read law with Ahmad ibn Hanbal, kept his company for a time and was among the elite of his pupils {cite:tarikh-islam-dhahabi p. 360}; as Ahmad died in 241, the presentation falls before that year."
+  ur: "کہا جاتا ہے کہ ابو داؤد نے «سنن» مرتب کی اور امام احمد کے سامنے پیش کی تو انہوں نے اسے پسند فرمایا {cite:tarikh-islam-dhahabi p. 359}؛ یہی روایت دائرة المعارف الإسلامية بھی دیتی ہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}۔ ابن داسہ نے ان سے سنا: میں نے رسول اللہ سے پانچ لاکھ احادیث لکھیں اور ان میں سے چن کر کتاب السنن میں چار ہزار آٹھ سو حدیثیں جمع کیں، جن میں صحیح اور اس کے مشابہ و قریب ذکر کیے {cite:tarikh-islam-dhahabi p. 360}۔ انہوں نے احمد بن حنبل سے فقہ حاصل کی، مدت ان کی صحبت میں رہے اور ان کے برگزیدہ شاگردوں میں شمار ہوئے {cite:tarikh-islam-dhahabi p. 360}؛ چونکہ احمد 241ھ میں فوت ہوئے، یہ عرض اس سے پہلے واقع ہوا۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0855~", hijri: "0240~", calendar: julian, precision: decade, status: tradition, derived: true, note: "عرضه على أحمد بن حنبل قبل وفاته سنة ٢٤١هـ {cite:tarikh-islam-dhahabi p. 359}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi], note: "أحمد بن حنبل مقيم ببغداد؛ والمحل مشتق من محل إقامة الشيخ" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "المصنّف", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ahmad-ibn-hanbal, role: "الشيخ المعروض عليه", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص359-360 (harvest OCR v20 pages 359-360); Encyclopaedia of Islam 2nd ed. vol. 1, art. Abu Dawud al-Sidjistani, printed p. 133"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

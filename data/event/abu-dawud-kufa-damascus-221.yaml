@@ -1,0 +1,29 @@
+id: event/abu-dawud-kufa-damascus-221
+class: event
+kind: other
+label:
+  ar: "أبو داود بالكوفة ٢٢١هـ وبدمشق ٢٢٢هـ"
+  en: "Abu Dawud at Kufa, 221/836, and Damascus, 222/837"
+  ur: "ابو داؤد کوفہ میں 221ھ/836ء اور دمشق میں 222ھ/837ء"
+summary:
+  ar: "قال أبو عيسى الأزرق: سمعت أبا داود يقول: دخلت الكوفة سنة إحدى وعشرين ومضيت إلى منزل عمر بن حفص فلم يُقضَ لي السماع منه؛ وقال أبو داود: دخلت دمشق سنة اثنتين وعشرين {cite:tarikh-islam-dhahabi pp. 358, 362}. وسمع بالكوفة من الحسن بن الربيع البوراني وأحمد بن يونس اليربوعي وطائفة، وبدمشق من صفوان بن صالح وهشام بن عمار وطائفة {cite:tarikh-islam-dhahabi p. 359}."
+  en: "Abu 'Isa al-Azraq heard him say: I entered Kufa in the year twenty-one and went to 'Umar ibn Hafs's house but was not granted a hearing; and Abu Dawud said: I entered Damascus in the year twenty-two {cite:tarikh-islam-dhahabi pp. 358, 362}. At Kufa he heard al-Hasan ibn al-Rabi' al-Burani, Ahmad ibn Yunus al-Yarbu'i and a circle of others, and at Damascus Safwan ibn Salih, Hisham ibn 'Ammar and a circle of others {cite:tarikh-islam-dhahabi p. 359}."
+  ur: "ابو عیسیٰ ازرق نے ان سے سنا: میں نے 221ھ میں کوفہ داخل ہوا اور عمر بن حفص کے گھر گیا مگر سماعت نہ ہوئی؛ اور ابو داؤد نے کہا: میں 222ھ میں دمشق داخل ہوا {cite:tarikh-islam-dhahabi pp. 358, 362}۔ کوفہ میں انہوں نے حسن بن ربیع بورانی، احمد بن یونس یربوعی اور ایک جماعت سے، اور دمشق میں صفوان بن صالح، ہشام بن عمار اور ایک جماعت سے سماعت کی {cite:tarikh-islam-dhahabi p. 359}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0836~", hijri: "0221", calendar: julian, precision: year, status: tradition, derived: true, note: "دخل الكوفة سنة إحدى وعشرين {cite:tarikh-islam-dhahabi p. 358}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+  end: { edtf: "0837~", hijri: "0222", calendar: julian, precision: year, status: tradition, derived: true, note: "دخل دمشق سنة اثنتين وعشرين {cite:tarikh-islam-dhahabi p. 362}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص358-359, 362 (harvest OCR v20 pages 358-359, 362)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

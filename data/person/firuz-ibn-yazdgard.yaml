@@ -1,0 +1,20 @@
+id: person/firuz-ibn-yazdgard
+class: person
+label: { ar: "فيروز بن يزدجرد الثالث", en: "Firuz son of Yazdgard III" }
+summary:
+  ar: "ابن آخر ملوك الفرس؛ عند البلاذري وقع فيما يزعمون إلى الترك فزوجوه وأقام عندهم."
+  en: "son of the last Sasanian; in al-Baladhuri, fallen to the Turks who married him and kept him among them."
+wings: [people]
+periods: [period/rashidun, period/abbasid-early]
+regions: [persia-central-asia]
+born: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Book of Tang (Peroz III)" }
+died: { edtf: "679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Book of Tang (Peroz III)" }
+relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 440–443"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-45
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

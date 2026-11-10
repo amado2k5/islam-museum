@@ -1,0 +1,38 @@
+id: person/al-jaghmini-mahmud-ibn-muhammad-ibn-umar
+class: person
+label: { ar: "الجغميني محمود بن محمد", en: "al-Jaghmini Mahmud ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "محمود بن محمد بن عمر الجغميني" }
+  - { kind: nisba, lang: ar, value: "الجغميني" }
+gender: male
+roles: [astronomer]
+traditions: [sunni]
+born: { edtf: "1154", hijri: "0549", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1220", hijri: "0618", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أعلام التقدم العلمي في آسيا الصغرى ضمن الحضارة الإسلامية، ينسب إلى قرية جَغْمين، وتوفي سنة 618هـ ⁦(1220م)⁩."
+  en: "Among the scientific pioneers of Anatolia within Islamic civilisation, named after the village of Jaghmin; died 618 AH (1220 CE)."
+wings: [people]
+themes: [astronomy-and-timekeeping]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص332"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch52
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: of Anatolia", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

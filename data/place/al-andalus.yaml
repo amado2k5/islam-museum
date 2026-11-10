@@ -1,0 +1,59 @@
+id: place/al-andalus
+class: place
+kind: region
+label:
+  ar: الأندلس
+  en: al-Andalus
+summary:
+  ar: 'عند البلاذري عن الواقدي: غزاها طارق بن زياد عامل موسى بن نصير أولاً في سنة اثنتين وتسعين فلقيه أليان والي مجازها فآمنه على الحمل في السفن فحاربه أهلها ففتحها وكان ملكها فيما يزعمون من الأشبان وأصلهم من أصبهان.'
+  en: 'In al-Baladhuri via al-Waqidi: Tariq ibn Ziyad, Musa ibn Nusayr''s agent, raided it first in year 92; Alyan, governor of its strait, met him and was granted safety for ferrying him and his companions over in ships — its people fought him and he opened it; its king, they allege, was of the Ashban whose origin is Isfahan.'
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 37
+- -4
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata Q123559; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q123559
+sources:
+- source/futuh-buldan-maarif-1407
+- source/encyclopaedia-of-islam-2
+- source/assabile-tareq-al-suwaidan
+- source/wikidata
+education:
+  did_you_know:
+    ar: عند البلاذري أن طارق بن زياد غزا الأندلس سنة ٩٢هـ ففتحها بعدما حاربه أهلها.
+    en: Al-Baladhuri dates Tariq ibn Ziyad's expedition into al-Andalus to 92 AH; he took it after its people fought him.
+    ur: بلاذری کے نزدیک طارق بن زیاد نے 92ھ میں الاندلس پر چڑھائی کی اور اہلِ علاقہ کے مقابلے کے بعد اسے فتح کیا۔
+    sources:
+    - source/futuh-buldan-maarif-1407
+    - source/nafh-tib-maqqari
+  levels:
+  - sprouts
+  - explorers
+  - scholars
+  flagged_for_kids: true
+  provenance:
+    generated_by: Devin
+    model: gemini-2.5-pro
+    run: education-E2-batch2
+    note: Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels.
+kids:
+  ar: الأندلس الاسم العربي لإسبانيا والبرتغال، عاش فيها الإسلام ثمانية قرون.
+  en: Al-Andalus, the Arabic name for Spain and Portugal — Islam lived there for eight centuries.
+  ur: اندلس اسپین اور پرتگال کا عرب نام — وہاں اسلام آٹھ صدیوں رہا۔
+status:
+  review: draft
+  completeness: 5
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - lib-futuh-buldan-batch-22
+  - lib-futuh-buldan-batch-22
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323

@@ -1,0 +1,36 @@
+id: person/zaki-al-arsuzi
+class: person
+label: { ar: "زكي الأرسوزي", en: "Zaki al-Arsuzi" }
+names:
+  - { kind: full, lang: ar, value: "زكي بن نجيب بن إبراهيم الأرسوزي" }
+gender: male
+roles: [philosopher, writer, activist]
+traditions: [sunni]
+born: { edtf: "1900", hijri: "1318", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1968", hijri: "1388", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مفكر ومعلّم سوري من اللاذقية، نُسب إلى قرية أرسوز في لواء إسكندرون، وكتب في الفلسفة والتربية والفكر القومي العربي."
+  en: "A Syrian thinker and teacher from Latakia, named after the village of Arsuz in the Alexandretta sanjak. He wrote on philosophy, education and Arab nationalist thought."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/modern-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids:
+  wikidata: Q144693
+relations:
+  - { type: born_in, target: place/i-skenderun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q174341)" }
+  - { type: born_in, target: place/ladhiqiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200030)" }
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: buried_in, target: place/the-cemetery-of-dahdah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q16128316)" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص455-459"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch63

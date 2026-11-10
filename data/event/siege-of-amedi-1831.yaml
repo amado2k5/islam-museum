@@ -1,0 +1,23 @@
+id: event/siege-of-amedi-1831
+class: event
+kind: siege
+label: { ar: "حصار العمادية", en: "Siege of Amedi" }
+summary:
+  ar: "بطاقة أولية لحصار العمادية سنة ١٨٣١م، إخضاع العثمانيين لإمارة بهدينان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Amedi in 1831, the Ottoman subjugation of the Bahdinan emirate; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1831", precision: year, status: tradition, derived: true }
+  end: { edtf: "1831", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q136647302
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

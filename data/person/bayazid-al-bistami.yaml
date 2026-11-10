@@ -1,0 +1,33 @@
+id: person/bayazid-al-bistami
+class: person
+label: { ar: "أبو يزيد البسطامي", en: "Bayazid al-Bistami" }
+names:
+  - { kind: full, lang: ar, value: "أبو يزيد طيفور بن عيسى بن سروشان البسطامي" }
+gender: male
+roles: [mystic]
+traditions: [sunni]
+born: { edtf: "0804", hijri: "0188", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0875", hijri: "0261", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من جهابذة التصوف الإسلامي، وكان أثره كبيرا في معاصريه ومن جاء بعده."
+  en: "One of the great figures of Islamic Sufism, whose influence was large on his contemporaries and later generations."
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/bastam, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+external_ids:
+  wikidata: Q380241
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2, source/talbis-iblis-muniriyya-1928, source/luma-sarraj-jadir-dar-al-fath]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص463; تلبيس إبليس ط. المنيرية 1928 (PDF pp. 168, 173, 347-350); اللمع ص 526"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04 (earlier run prose-fill-persons-batch55)

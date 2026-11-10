@@ -1,0 +1,29 @@
+id: person/ikrima-al-barbari
+class: person
+label:
+  ar: "عكرمة البربري"
+  en: "Ikrima al-Barbari"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "عكرمة البربري مولى ابن عباس، تابعي مدني من أعلم الناس بالتفسير والمغازي؛ توفي بالمدينة سنة 105هـ ⁦(723م)⁩."
+  en: "'Ikrima al-Barbari (645–723), Medinan mawla of Ibn 'Abbas, master of tafsir and maghazi."
+wings: [people]
+regions: [arabia, maghreb]
+periods: [period/umayyad]
+born: { edtf: "642~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+died: { edtf: "723~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12227502
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.244)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
+status:
+  review: published
+  completeness: 3

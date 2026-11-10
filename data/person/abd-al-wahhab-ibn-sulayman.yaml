@@ -1,0 +1,35 @@
+id: person/abd-al-wahhab-ibn-sulayman
+class: person
+label:
+  ar: "عبد الوهاب بن سليمان بن علي"
+  en: "Abd al-Wahhab ibn Sulayman"
+roles: [scholar, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الوهاب بن سليمان بن علي، قاضي العيينة في القرن الثامن عشر، توفي سنة ١٧٤٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Wahhab ibn Sulayman ibn Ali, the eighteenth-century qadi of al-Uyayna, d. 1740; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28715584
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0054
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "1674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila (father of Muhammad ibn Abd al-Wahhab" }
+died: { edtf: "1745", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila (father of Muhammad ibn Abd al-Wahhab" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,75 @@
+id: listing/standard-islami-bank
+class: listing
+kind: company
+label:
+  ar: بنك ستاندرد الإسلامي
+  en: Standard Islami Bank
+  ur: اسٹینڈرڈ اسلامی بینک
+summary:
+  ar: بنك تجاري خاص في دكا، أُسس في 3 يونيو 1999 بنكا تقليديا باسم ستاندرد بنك، وتحوّل في ديسمبر 2020 إلى الصيرفة المتوافقة
+    مع الشريعة، وصار اسمه بنك ستاندرد الإسلامي في فبراير 2026.
+  en: A private commercial bank in Dhaka, founded on 3 June 1999 as the conventional Standard Bank, which switched to Shariah-compliant
+    banking in December 2020 and was renamed Standard Islami Bank in February 2026.
+  ur: ڈھاکہ کا نجی تجارتی بینک، جو 3 جون 1999 کو روایتی اسٹینڈرڈ بینک کے طور پر قائم ہوا، دسمبر 2020 میں شریعت کے مطابق بینکاری
+    پر منتقل ہوا اور فروری 2026 میں اس کا نام اسٹینڈرڈ اسلامی بینک ہوا۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- south-asia
+founded:
+  edtf: '1999-06-03'
+  hijri: '1420-02-19'
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Founded 3 June 1999 (Banglapedia, cited by the article); Shariah banking from December 2020; renamed February 2026.
+    The Hijri date is converter-derived (Umm al-Qura).
+  sources:
+  - source/wikipedia-standard-islami-bank-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-standard-islami-bank-en
+external_ids:
+  wikidata: Q28225438
+sources:
+- source/wikipedia-standard-islami-bank-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  place: place/dhaka
+  serves:
+  - bd
+links:
+  official: https://www.standardbankbd.com
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - en
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-standard-islami-bank-en
+  wikidata: Q28225438
+  catalogues:
+    ticker: 'DSE: STANDBANKL'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Standard Bank (Bangladesh)" (revision 1380713260, 17 October 2026), read in Chrome on the founder's
+    Mac on 7 November 2026; Wikidata sitelinks read the same day
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b09

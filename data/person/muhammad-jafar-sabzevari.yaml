@@ -1,0 +1,31 @@
+id: person/muhammad-jafar-sabzevari
+class: person
+label:
+  ar: "محمد جعفر السبزواري"
+  en: "Muhammad Ja'far Sabzevari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد جعفر السبزواري، عالم القرن الثامن عشر، توفي سنة ١٧٢٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Ja'far Sabzevari, the eighteenth-century scholar, d. 1722; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1648", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1722", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: born_in, target: place/safavid-iran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18234383)" }
+  - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
+  - { type: buried_in, target: building/hakim-mosque-isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5377828)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q97219604
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0057
+status:
+  review: draft
+  completeness: 1

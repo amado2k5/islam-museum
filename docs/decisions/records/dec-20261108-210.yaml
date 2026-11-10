@@ -1,0 +1,41 @@
+id: dec-20261108-210
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: ea156a45a187
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "sources"
+mode: "conservative"
+question: "Should the Museum With No Frontiers 'Discover Islamic Art' database (islamicart.museumwnf.org) and the Qantara Mediterranean heritage catalogue (qantara-med.org — object and monument records across the Mediterranean, overlapping the Sicily material) be onboarded as citable source families, and at what tier?"
+options:
+  - "Both Tier 2 citable families, facts-only"
+  - "Both Tier 1 citable families, facts-only"
+  - "Tier 3 pointers only"
+  - "Do not register"
+evidence:
+  - "Assessment 2026-11-08: MWNF — authority good (Museum With No Frontiers, established cultural institution); live 'Discover Islamic Art' portal 200, no robots.txt found; terms to confirm — facts-only posture; object records across the Mediterranean. Qantara — authority good (Qantara Patrimoine méditerranéen project, multilingual ar/en/es/fr site live on www.qantara-med.org; root domain times out); has a dedicated catalogue section and assisted search; legal-notice page exists, reuse terms unclear → facts-only; coverage overlaps Sicily/Andalusia/Maghreb material directly. Neither has a documented public API — polite page reads only."
+  - "docs/agents/source-families.md Tier 2: 'Curated object/monument records across the Mediterranean (overlaps the Sicily material directly) — Terms to confirm at onboarding'"
+status: decided
+step: rule
+decision: "independence is counted by source FAMILIES, not documents: ten mirrors or republications of one family are ONE attestation, not ten; two attestations require two independent families; a copied single-source 'second source' never counts"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-source-families): Muse doctrine §5 (independence is source families) + faith two-family rule."
+rule: "Muse doctrine §5 (independence is source families) + faith two-family rule"
+rule_id: "rule-source-families"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-source-families
+chain:
+  depth: 0
+  root_id: "rule:rule-source-families"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "e4688b5a33bf1212"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-source-families"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

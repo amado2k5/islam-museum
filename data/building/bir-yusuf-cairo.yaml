@@ -1,0 +1,25 @@
+id: building/bir-yusuf-cairo
+class: building
+kind: other
+label: { ar: "بئر يوسف بقلعة القاهرة", en: "Joseph's Well (Bir Yusuf), Cairo Citadel", ur: "بئرِ یوسف، قلعۂ قاہرہ" }
+summary:
+  ar: "بئر مزدوجة الجذع محفورة في الصخر الجيري سبعة وثمانين متراً حتى منسوب الماء في القلعة، تُنسب إلى صلاح الدين، ويُرجّح أنها أقدم ووسّعها هو {cite:yeomans-islamic-cairo-2006 p.108}."
+  en: "A double-shafted well cut 87 metres through the limestone to the water table in the Citadel, attributed to Salah al-Din though probably older and enlarged by him {cite:yeomans-islamic-cairo-2006 p.108}."
+wings: [objects, place]
+themes: [architecture]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1176/1193", calendar: julian, precision: year, status: debated, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 108: attributed to Salah al-Din (reigned to 1193); probably existed in Fatimid times and was enlarged by him. Interval is the span of his works, not a recorded date." }
+patron: person/salah-al-din-yusuf-ibn-ayyub
+location: place/cairo
+status_now: standing
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 107-108"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

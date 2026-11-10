@@ -1,0 +1,31 @@
+id: person/munir-al-baalbaki
+class: person
+label: { ar: "منير البعلبكي", en: "Munir al-Baalbaki" }
+names:
+  - { kind: full, lang: ar, value: "منير البعلبكي" }
+gender: male
+roles: [writer, scholar]
+traditions: [sunni]
+born: { edtf: "1918", hijri: "1337", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1999", hijri: "1420", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أسرة بيروتية مرموقة، ومن أشهر معجميي العربية في القرن العشرين."
+  en: "From a prominent Beirut family, and one of the best-known Arabic lexicographers of the twentieth century."
+wings: [people]
+themes: [linguistics]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص589"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61
+relations:
+  - { type: lived_in, target: place/baalbek, confidence: low, note: "Association inferred from the nisba 'البعلبكي'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

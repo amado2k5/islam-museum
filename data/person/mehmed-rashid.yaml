@@ -1,0 +1,35 @@
+id: person/mehmed-rashid
+class: person
+label:
+  ar: "محمد راشد"
+  en: "Mehmed Rashid"
+roles: [historian, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد راشد، مؤرخ وقاضٍ عثماني القرن الثامن عشر صاحب التاريخ الرشدي، توفي سنة ١٧٣٥م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mehmed Rashid, the eighteenth-century Ottoman historian and judge author of Tarih-i Rashid, d. 1735; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1917295
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0060
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

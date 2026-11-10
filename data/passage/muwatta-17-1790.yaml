@@ -1,0 +1,20 @@
+id: passage/muwatta-17-1790
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/amr-ibn-hazm]
+work: work/muwatta-malik
+ref: "1790"
+label: { ar: "الموطأ 1790 — يحيى عن مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم: أبان بن عثمان وهشام بن إسماعيل كانا يذكران في خطبتهما عهدة الرقيق في الأيام الثلاثة وعهدة السنة", en: "Muwatta 1790" }
+summary:
+  ar: "يروي يحيى عن مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم أن أبان بن عثمان وهشام بن إسماعيل كانا يذكران في خطبتهما عهدة الرقيق، في الأيام الثلاثة من حين يشترى العبد أو الوليدة، وعهدة السنة. {cite:muwatta-maruf-1997 p.134}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aban-ibn-uthman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-ismail, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/uhda, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1790 at PDF p. 134; ما جاء في العهدة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b43" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 134; matn excerpt at most 40 words" }

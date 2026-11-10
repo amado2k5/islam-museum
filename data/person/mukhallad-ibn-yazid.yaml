@@ -1,0 +1,17 @@
+id: person/mukhallad-ibn-yazid
+class: person
+label: { ar: "مخلد بن يزيد", en: "Mukhallad ibn Yazid" }
+summary:
+  ar: "مخلد بن يزيد بن المهلب؛ خلفه أبوه على خراسان حين سار إلى جرجان وحين انصرف إلى سليمان."
+  en: "Mukhallad ibn Yazid ibn al-Muhallab; his father left him over Khurasan when he marched on Jurjan and again when he returned to Sulayman."
+periods: [period/umayyad]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "809", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/jurjan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

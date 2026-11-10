@@ -1,0 +1,46 @@
+id: event/abu-bakr-leads-the-prayers
+education:
+  did_you_know:
+    ar: "لما ثقل على النبي الخروج أمر أبا بكر أن يصلي بالناس، فصلى بهم سبع عشرة صلاة، وخرج إليه النبي مرة فأجلسه عن يساره فكان يقتدي بصلاته."
+    en: "When going out grew heavy for the Prophet he sent word to Abu Bakr to lead the people; he led seventeen prayers, and once the Prophet came out and sat at his left while Abu Bakr followed his prayer."
+    ur: "جب نبی کے لیے باہر نکلنا دشوار ہوا تو ابوبکر کو نماز پڑھانے کا حکم دیا؛ انہوں نے سترہ نمازیں پڑھائیں، اور ایک بار نبی ان کے بائیں بیٹھے تو ابوبکر ان کی نماز کی پیروی کرتے رہے۔"
+    sources: [source/sahih-al-bukhari, source/mubarakpuri-raheeq]
+class: event
+kind: other
+label: { en: "Abu Bakr leads the prayers during the final illness", ar: "إمامة أبي بكر في مرض النبي" }
+summary:
+  en: "When the illness grew too heavy for the Prophet to come out, he sent word that Abu Bakr should lead the people; Abu Bakr led seventeen prayers, the Prophet once joined him sitting at his left, and Sunni tradition reads the appointment as a sign of Abu Bakr's standing."
+  ar: "لما ثقل على النبي الخروج أرسل إلى أبي بكر أن يصلي بالناس، فصلى بهم سبع عشرة صلاة، وخرج إليه النبي مرة فأجلس عن يساره فكان أبو بكر يقتدي بصلاته والناس يسمعون التكبير؛ وتقرأ السنة الإمامة دليلاً على مكانة أبي بكر."
+wings: [time]
+themes: [worship-and-the-pillars, mosques]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-05-26~", hijri: "0011-03-08", calendar: julian, precision: day, status: tradition }
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "صلى بالناس حين لم يحضر أبو بكر، ثم تراجع", sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/aisha }
+  - { type: part_of, target: event/death-of-the-prophet }
+issue: { ar: "ماذا تدل إمامة أبي بكر في الصلاة في مرض النبي؟", en: "What does Abu Bakr's leading of the prayers during the Prophet's illness signify?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sunni tradition counts the appointment — renewed despite Aisha's plea — as an indication of Abu Bakr's precedence.", ar: "تعد السنة تعيين أبي بكر إماماً — رغم مراجعة عائشة — إشارة إلى تقدمه." }
+    sources: [source/sahih-al-bukhari]
+  - tradition: academic
+    id: academic
+    summary: { en: "Historians note the report's role in later legitimation of Abu Bakr's caliphate and treat its narratology cautiously.", ar: "يلاحظ المؤرخون وظيفة الخبر في تسويغ خلافة أبي بكر لاحقاً ويتعاملون مع سرده بحذر." }
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition accepts the report but denies it constitutes a designation of political succession.", ar: "تقبل التقاليد الشيعية الخبر لكنها تنفي أن يكون توليته للصلاة نصاً في الخلافة." }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
+provenance:
+  layer: own-research
+  source: "source/sahih-al-bukhari"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

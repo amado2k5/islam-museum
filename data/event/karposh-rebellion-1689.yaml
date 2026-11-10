@@ -1,0 +1,23 @@
+id: event/karposh-rebellion-1689
+class: event
+kind: revolt
+label: { ar: "انتفاضة كاربوش", en: "Karposh's Rebellion" }
+summary:
+  ar: "بطاقة أولية لانتفاضة كاربوش سنة ١٦٨٩م، الانتفاضة المقدونية المسيحية على العثمانيين بمساندة نمساوية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Karposh's rebellion of 1689, the Christian Macedonian rising against the Ottomans backed by Austria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1689", precision: year, status: tradition, derived: true }
+  end: { edtf: "1689", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q26709211
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; rebellion attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

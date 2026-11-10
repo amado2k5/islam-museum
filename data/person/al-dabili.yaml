@@ -1,0 +1,20 @@
+id: person/al-dabili
+class: person
+label: { ar: "الدبيلي", en: "Al Dabili" }
+summary:
+  ar: "الدبيلي نظير أبي عبد الله ابن نفيس وكانا يتنافسان الرياسة وبقى بعده سنين ولا كتاب له {cite:fihrist-ibn-al-nadim p. 269}."
+  en: "Al-Dabili — Ibn Nafis's rival for the leadership {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch22
+died: { edtf: "939", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
+relations:
+  - { type: lived_in, target: place/dabil, note: "The Dabili nisba ties him to Dabil (Dvin); rival of Ibn Nafis for the leadership.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

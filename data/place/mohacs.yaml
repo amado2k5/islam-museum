@@ -1,0 +1,18 @@
+id: place/mohacs
+class: place
+kind: city
+label: { ar: "موهاج", en: "Mohács" }
+summary:
+  en: "Town in southern Hungary on the Danube; site of the 1526 battle won by Suleiman the Magnificent."
+  ar: "بلدة في جنوب المجر على الدانوب، موقع معركة 1526م التي كسبها سليمان القانوني."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [45.944, 18.654]
+coordinate_precision: locality
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Suleiman story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-sulayman
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

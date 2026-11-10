@@ -1,0 +1,37 @@
+id: person/abdullah-ii
+class: person
+label: { ar: "عبد الله الثاني بن الحسين", en: "Abdullah II of Jordan", ur: "عبداللہ دوم" }
+names:
+  - { value: "عبد الله الثاني بن الحسين", kind: full }
+  - { value: "Abdullah II bin Al-Hussein", kind: full }
+gender: male
+summary:
+  ar: "ملك المملكة الأردنية الهاشمية منذ 7 فبراير 1999، وُلد في عمّان سنة 1962، وهو أكبر أبناء الملك الحسين، خدم ضابطا في القوات المسلحة الأردنية وقائدا لقواتها الخاصة قبل اعتلائه العرش، وعُرف دوليا بدعوته إلى حوار الأديان وبـ«رسالة عمّان» (2004)، وبوصفه وصيا على المقدسات الإسلامية والمسيحية في القدس، وأقدم زعماء العرب الحاليين في الحكم."
+  en: "King of the Hashemite Kingdom of Jordan since 7 February 1999, born in Amman in 1962, the eldest son of King Hussein. He served as an officer in the Jordanian Armed Forces and commander of its Special Forces before succeeding his father, and is known internationally for promoting interfaith dialogue through the Amman Message (2004) and as custodian of the Muslim and Christian holy places in Jerusalem; he is the longest-serving current Arab leader."
+  ur: "اردن کے بادشاہ، جو 7 فروری 1999 سے تخت پر ہیں۔ وہ 1962 میں عمان میں پیدا ہوئے، شاہ حسین کے سب سے بڑے بیٹے ہیں، اور بادشاہ بننے سے پہلے اردنی فوج میں افسر اور خصوصی دستوں کے کمانڈر رہے۔ وہ بین المذاہب مکالمے اور یروشلم کے مقدس مقامات کی نگرانی کی وجہ سے معروف ہیں اور اس وقت سب سے طویل عرصے سے برسرِ اقتدار عرب رہنما ہیں۔"
+roles: [king]
+wings: [people, living]
+born:
+  edtf: "1962-01-30"
+  hijri: "1381"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1381) is converter-derived."
+  sources: [source/wikipedia-abdullah-ii-en, source/wikidata-abdullah-ii]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/wikipedia-abdullah-ii-en, source/wikidata-abdullah-ii] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata gives his religion as Islam. The English and Arabic articles describe his promotion of interfaith dialogue and a moderate understanding of Islam and his dynasty's custodianship of the Jerusalem holy places, but give no school, so none is recorded."
+    sources: [source/wikidata-abdullah-ii, source/wikipedia-abdullah-ii-en]
+external_ids: { wikidata: "Q57464" }
+sources: [source/wikipedia-abdullah-ii-en, source/wikipedia-abdullah-ii-ar, source/wikidata-abdullah-ii]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Abdullah II' (revision of 16 October 2026; the title 'Abdullah II of Jordan' redirects to it), Arabic Wikipedia article «عبد الله الثاني بن الحسين» (revision of 8 September 2026), Wikidata Q57464; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

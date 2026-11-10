@@ -1,0 +1,29 @@
+id: person/siraj-al-din-al-warraq
+class: person
+label:
+  ar: "سراج الدين الوراق"
+  en: "Siraj al-Din al-Warraq"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لسراج الدين الوراق، كاتب وشاعر القرن الثالث عشر، توفي سنة ١٢٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Siraj al-Din al-Warraq, the thirteenth-century writer and poet, d. 1296; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1218", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat" }
+died: { edtf: "1296", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat" }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12215647
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0048
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,21 @@
+id: person/al-yaman-ibn-ribab
+class: person
+label: { ar: "اليمان بن رباب", en: "al-Yaman ibn Ribab" }
+summary:
+  ar: "من علية علماء الخوارج وله كتب مصنفة في مذاهبهم، وأخوه علي بن رباب من علية علماء الرافضة، يجتمعان في كل سنة ثلاثة أيام يتناظران فيها ثم يفترقان ولا يسلم أحدهما على الآخر {cite:muruj-al-dhahab p. 183}."
+  en: "A leading Kharijite scholar with classified works on their madhhabs — his brother 'Ali was a leading Rafidi; they met three days a year to debate and parted without a greeting {cite:muruj-al-dhahab p. 183}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+died: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ash'ari (Maqalat)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Leading Kharijite scholar whose annual debates with his Rafidi brother fit the Basran theological circle; flagged.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

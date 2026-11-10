@@ -1,0 +1,30 @@
+id: person/shuayb-ibn-harb
+class: person
+label:
+  ar: "شعيب بن حرب"
+  en: "Shu'ayb ibn Harb"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشعيب بن حرب؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shu'ayb ibn Harb; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/khorasan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2352322)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+  - { type: lived_in, target: place/al-madain, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1378794)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106245730
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,49 @@
+id: person/tahar-haddad
+class: person
+label: { ar: "الطاهر الحداد", en: "Tahar Haddad", ur: "طاہر حداد" }
+names:
+  - { value: "طاهر بن علي بن بلقاسم الحداد", kind: full }
+  - { value: "Tahar Haddad", kind: full }
+  - { value: "Tahar al-Haddad", kind: alternate }
+gender: male
+summary:
+  ar: "مؤلف ونقابي ومصلح تونسي (1899–1935)؛ درس الشريعة بجامع الزيتونة وتخرج 1920، وكان من مؤسسي الحركة النقابية التونسية مع محمد علي الحامي، واشتهر بكتابه «امرأتنا في الشريعة والمجتمع» (1930) الداعي إلى تعليم المرأة وإصلاح أحوالها، فتعرض لحملة تكفير وتشهير من المؤسسة المحافظة ونُبذ حتى وفاته."
+  en: "Tunisian author, trade unionist and reformer (1899–1935). He studied Islamic law at the Zitouna and graduated in 1920, co-founded the Tunisian labour movement with Mohamed Ali El Hammi, and became known above all for Our Women in the Shari'a and Society (1930), which argued for women's education and legal reform; the conservative establishment answered with takfir fatwas and a smear campaign, and he died ostracised."
+  ur: "تونسی مصنف، مزدور رہنما اور مصلح (1899–1935)؛ جامع زیتونہ سے 1920 میں فارغ التحصیل ہوئے، محمد علی الحامی کے ساتھ تونسی مزدور تحریک کے بانیوں میں سے تھے، اور اپنی کتاب «امرأتنا فی الشریعہ والمجتمع» (1930) سے مشہور ہوئے جس میں خواتین کی تعلیم اور قانونی اصلاح کی وکالت کی گئی؛ قدامت پسند حلقوں نے ان کے خلاف تکفیر اور بہتان کی مہم چلائی اور وہ گوشہ نشینی میں وفات پا گئے۔"
+roles: [writer, activist, scholar]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1899-12-04"
+  hijri: "1317"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Tunis; the French article notes that some sources wrongly give El Hamma in the Gabès region, where his family originated."
+  sources: [source/wikipedia-tahar-haddad-fr, source/wikipedia-tahar-haddad-ar]
+died:
+  edtf: "1935-12-07"
+  hijri: "1354"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The date, 7 December 1935, is agreed by all three articles. The place of death is not established: the English and French texts say he left Tunisia and died in exile, the French article's own categories mark the place of death unknown, and the Arabic article gives no place; the Hijri year is tabular-derived (the Arabic article's lead gives his lifespan as 1317–1353 AH)."
+  sources: [source/wikipedia-tahar-haddad-en, source/wikipedia-tahar-haddad-fr, source/wikipedia-tahar-haddad-ar]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-tahar-haddad-fr, source/wikipedia-tahar-haddad-ar] }
+  - { type: buried_in, target: place/tunis, sources: [source/wikipedia-tahar-haddad-fr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school for him personally, and his own religious position is presented in two opposed ways, both preserved here. The English and French articles present his 1930 book as an argument made from within Islam: a modernist reading of the Qur'an, a call to renewed ijtihad, and proposals drawn, in the French article's account, from what accords with the shari'a; the English article, citing Qantara, calls him an Islamic scholar 'loyal to the Koran'. Against that stand his opponents' verdicts: the same article records that fatwas from the Zitouna establishment declared him a heretic and even an apostate. Those fatwas are judgements by opponents, not a description of his own unbelief, and no two sources describe Haddad himself as having left Islam, so the bar for any other value is not met either. Studying at the Zitouna is not a personal attestation. Under the doubt rule no value is recorded."
+    sources: [source/wikipedia-tahar-haddad-en, source/wikipedia-tahar-haddad-fr]
+external_ids: { wikidata: "Q969533" }
+sources: [source/wikipedia-tahar-haddad-en, source/wikipedia-tahar-haddad-ar, source/wikipedia-tahar-haddad-fr, source/wikidata-tahar-haddad]
+provenance:
+  layer: own-research
+  source: "English, Arabic and French Wikipedia articles on Tahar Haddad, each fetched by its recorded revision id (EN 1364877999, AR 76322650, FR 240657268) with the returned id asserted equal before use, and Wikidata Q969533; existence checks by name fragments (Latin and Arabic) and by QID across data/person and data/source found no prior record"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-57
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

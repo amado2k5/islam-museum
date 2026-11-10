@@ -1,0 +1,67 @@
+id: exhibit/path-math-stars
+class: exhibit
+kind: trail
+label:
+  ar: الحساب والنجوم
+  en: Mathematics and the Stars
+summary:
+  ar: 'مسار في أهل العدد: الخوارزمي يؤسس الجبر، والبيروني يقيس الأرض، وعمر الخيام يصلح التقويم — الرياضيات
+    علم الحضارة.'
+  en: A trail through the people of number.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الخوارزمي
+    en: Al-Khwarizmi
+  body:
+    ar: 'الجبر والمقابلة: علم جديد يولد في بغداد.'
+    en: 'الجبر والمقابلة: علم جديد يولد في بغداد.'
+  features:
+  - person/al-khwarizmi
+  - building/bayt-al-hikma
+- title:
+    ar: البيروني
+    en: Al-Biruni
+  body:
+    ar: 'الآثار الباقية: يقيس محيط الأرض.'
+    en: 'الآثار الباقية: يقيس محيط الأرض.'
+  features:
+  - person/al-biruni-muhammad-ibn-ahmad
+- title:
+    ar: عمر الخيام
+    en: Omar Khayyam
+  body:
+    ar: الجبر والتقويم الجلالي والرباعيات.
+    en: الجبر والتقويم الجلالي والرباعيات.
+  features:
+  - person/umar-khayyam
+  - place/nishapur
+- title:
+    ar: المرصد
+    en: The observatory
+  body:
+    ar: 'نجوم السماء بأدوات الأرض: أسطرلابات المتحف.'
+    en: 'نجوم السماء بأدوات الأرض: أسطرلابات المتحف.'
+  features:
+  - place/baghdad
+  - place/samarra
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

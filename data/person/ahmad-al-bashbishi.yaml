@@ -1,0 +1,33 @@
+id: person/ahmad-al-bashbishi
+class: person
+label: { ar: "أحمد بن عبد اللطيف البشبيشي، شهاب الدين", en: "Ahmad ibn Abd al-Latif al-Bashbishi, Shihab al-Din" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+gender: male
+wings: [people]
+summary:
+  ar: "أحمد بن عبد اللطيف بن القاضي أحمد، شهاب الدين البشبيشي، ولد ببشبيش من أعمال المحلة بالغربية، من علماء الشافعية، محقق حجة ثقة متضلع من فنون كثيرة، لازم أبا الضياء الشبراملسي، وتصدر للإفتاء والتدريس بالجامع الأزهر، ثم أقام بمكة يدرس، وتوفي ببلده. من تصانيفه «التحفة السنية بأجوبة الأسئلة المرضية». عاش بين 1040 و1096هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2054}"
+  en: "Ahmad ibn Abd al-Latif ibn al-Qadi Ahmad, Shihab al-Din al-Bashbishi, born in Bashbish in the Gharbiyya province of Egypt, a Shafi'i scholar, a careful, trustworthy and well-versed authority in many sciences. He studied with Abu al-Diya' al-Shabramallisi, taught and gave fatwas at al-Azhar, taught in Mecca, and died in his town. His work is 'al-Tuhfa al-sunniyya' on questions and answers. He lived from 1040 to 1096 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2054}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2054"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar); al-Zirikli" }
+died: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar); al-Zirikli" }
+relations:
+  - { type: born_in, target: place/al-mahalla, note: "From text: ولد ببشبيش من أعمال المحلة بالغربية", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: lived_in, target: place/mecca, note: "From text: taught in Mecca", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

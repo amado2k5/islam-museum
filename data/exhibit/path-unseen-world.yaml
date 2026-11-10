@@ -1,0 +1,76 @@
+id: exhibit/path-unseen-world
+class: exhibit
+kind: trail
+label:
+  ar: الغيب
+  en: The Unseen World
+summary:
+  ar: 'مسار في عالم الغيب: الملائكة والجن والآخرة والمهدي — ما أخبر به الوحي مما لا نرى.'
+  en: A trail through the unseen.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الملائكة
+    en: Angels
+  body:
+    ar: 'جبريل وميكائيل وإسرافيل: بطاقة الملائكة.'
+    en: 'جبريل وميكائيل وإسرافيل: بطاقة الملائكة.'
+  features:
+  - question/what-are-angels
+  - passage/muslim-0008
+- title:
+    ar: الجن
+    en: Jinn
+  body:
+    ar: 'عالم بين العالمين: بطاقة الجن.'
+    en: 'عالم بين العالمين: بطاقة الجن.'
+  features:
+  - question/what-are-jinn
+  - question/what-are-jinn
+- title:
+    ar: الآخرة
+    en: The hereafter
+  body:
+    ar: الموت والحساب والجنة والنار.
+    en: الموت والحساب والجنة والنار.
+  features:
+  - concept/akhira
+  - passage/quran-55-46
+- title:
+    ar: المهدي
+    en: The Mahdi
+  body:
+    ar: موعود آخر الزمان في كتب الأمة.
+    en: موعود آخر الزمان في كتب الأمة.
+  features:
+  - concept/mahdiyya
+  - concept/akhira
+- title:
+    ar: الإيمان
+    en: Faith
+  body:
+    ar: 'الإيمان بالغيب: ركن الإيمان الثاني.'
+    en: 'الإيمان بالغيب: ركن الإيمان الثاني.'
+  features:
+  - passage/arbaun-02
+  - concept/tawhid
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

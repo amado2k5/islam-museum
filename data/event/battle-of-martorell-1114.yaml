@@ -1,0 +1,23 @@
+id: event/battle-of-martorell-1114
+class: event
+kind: battle
+label: { ar: "معركة مارتوريل", en: "Battle of Martorell" }
+summary:
+  ar: "بطاقة أولية لمعركة مارتوريل سنة ١١١٤م، فوز رامون برنغر الثالث على المرابطين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Martorell in 1114, Ramon Berenguer III's victory over the Almoravids; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1114", precision: year, status: tradition, derived: true }
+  end: { edtf: "1114", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q15895729
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

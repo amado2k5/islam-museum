@@ -1,0 +1,21 @@
+id: person/balakh-ibn-uqba
+class: person
+label: { ar: "بلخ بن عقبة الأزدي", en: "Balakh ibn 'Uqba al-Azdi" }
+summary:
+  ar: "من خوارج اليمن، دخل مع أبي حمزة المختار بن عوف مكة والمدينة سنة تسع وعشرين ومائة يدعوان إلى عبد الله بن يحيى الكندي، وقتل بوادي القرى حين لقي جيش مروان بقيادة عبد الملك بن محمد بن عطية {cite:muruj-al-dhahab p. 228-229}."
+  en: "Abu Hamza's Azdi partner in the Hijazi proclamation for Talib al-Haqq — killed at Wadi al-Qura {cite:muruj-al-dhahab p. 228-229}."
+gender: male
+wings: [people]
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Baladhuri (Ansab al-Ashraf)" }
+relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

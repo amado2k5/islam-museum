@@ -1,0 +1,40 @@
+id: person/al-nujib-al-asqalani
+class: person
+label: { ar: "النجيب أبو العشائر العسقلاني", en: "al-Nujib Abu al-Asha'ir al-Asqalani" }
+names:
+  - { value: "النجيب أبو العشائر فراس بن علي بن زيد الكناني العسقلاني ثم الدمشقي التاجر العدل", kind: full }
+died: { edtf: "1265~", hijri: "0663", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة ثلاث وستين وستمائة {cite:shadharat-dhahab p. 543}." }
+summary:
+  ar: "التاجر العدل؛ روى عن الخشوعي والقاسم بن عساكر وجماعة {cite:shadharat-dhahab p. 543}."
+  en: "The merchant-witness of Ascalon transplanted to Damascus — transmitter from al-Khashshu'i and Ibn Asakir {cite:shadharat-dhahab p. 543}."
+gender: male
+roles: [merchant, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/askalan, note: "Place association from the person's nisba/name (العسقلاني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch108
+occupations:
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

@@ -1,0 +1,31 @@
+id: person/kazim-jawad-al-arada
+class: person
+label: { ar: "كاظم جواد العارضي", en: "Kazim Jawad al-Arada" }
+names:
+  - { kind: full, lang: ar, value: "كاظم جواد عفوان العارضي" }
+gender: male
+roles: [poet, writer]
+traditions: [sunni]
+born: { edtf: "1928", hijri: "1347~", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1984", hijri: "1405", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر وكاتب ومترجم عراقي، ولد في الناصرية جنوب العراق."
+  en: "An Iraqi poet, writer and translator, born in Nasiriyya in southern Iraq."
+wings: [people]
+themes: [literature]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/nasiriyah, confidence: low, note: "Associated with الناصرية per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص504"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60

@@ -1,0 +1,29 @@
+id: person/ahmed-wafqi-efendi
+class: person
+label:
+  ar: "أحمد وفقي أفندي"
+  en: "Ahmed Vefki Efendi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد وفقي أفندي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmed Vefki Efendi, the Ottoman writer (poet, d. 1748); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136332182
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0096
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmed Wefik Pasha)" }
+died: { edtf: "1891", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ahmed Wefik Pasha)" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

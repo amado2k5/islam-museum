@@ -1,0 +1,30 @@
+---
+// Everything in one language in the Modern Islam Browser (docs/plan/26 section 4.1): the languages the records state.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ModernList from "../../../../components/ModernList.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { num } from "../../../../lib/nav";
+import { languageCounts, languageEntries, languageName } from "../../../../lib/modern";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => languageCounts.map(([code]) => ({ params: { lang, code }, props: { lang, code } })));
+}
+const { lang, code } = Astro.props as { lang: Lang; code: string };
+const T = ui(lang);
+const M = T.modern;
+const entries = languageEntries(code);
+const base = `/${lang}/modern`;
+const name = languageName(code, lang);
+---
+<BaseLayout lang={lang} title={`${name} · ${M.title}`} description={fmt(M.language_lede, { l: name })} path={`${base}/language/${code}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`${base}/`}>{M.title}</a> › {name}</nav>
+    <div data-pagefind-body>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{M.title}</p>
+      <h1>{name} <span class="ui muted">{num(entries.length, lang)}</span></h1>
+      <p style="max-width:var(--measure)">{fmt(M.language_lede, { l: name })}</p>
+    </div>
+    <ModernList entries={entries} lang={lang} showSections id={`l-${code}`} />
+  </div>
+  <script src="../../../../scripts/modern-filter.ts"></script>
+</BaseLayout>

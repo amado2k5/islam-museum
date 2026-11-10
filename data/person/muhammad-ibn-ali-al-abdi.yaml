@@ -1,0 +1,21 @@
+id: person/muhammad-ibn-ali-al-abdi
+class: person
+label: { ar: "محمد بن علي العبدي الخراساني", en: "Muhammad ibn Ali al-Abdi" }
+summary:
+  ar: "الخراساني الأخباري، خلي به القاهر فوصف له خلفاء بني العباس من السفاح على نذر من الحياة بعد أن أهوى إليه بالحربة فأخطأه، فعدد في كل خليفة أخلاقه وأوائله من ترجمة الكتب واستعمال الموالي وغير ذلك {cite:muruj-al-dhahab p. 668-670}."
+  en: "The Khurasani chronicler whom al-Qahir forced at spearpoint to describe every Abbasid caliph's character {cite:muruj-al-dhahab p. 668-670}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي ج2 ص 668–670"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/khorasan, confidence: low, note: "Association inferred from the nisba 'الخراساني'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

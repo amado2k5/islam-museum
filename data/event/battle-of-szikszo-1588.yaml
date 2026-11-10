@@ -1,0 +1,23 @@
+id: event/battle-of-szikszo-1588
+class: event
+kind: battle
+label: { ar: "معركة سيكسو", en: "Battle of Szikszó" }
+summary:
+  ar: "بطاقة أولية لمعركة سيكسو سنة ١٥٨٨م، اشتباك المجر والقوات العثمانية في الحرب الطويلة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Szikszó in 1588, the Hungarian clash with Ottoman forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1588-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1588-10", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1298315
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

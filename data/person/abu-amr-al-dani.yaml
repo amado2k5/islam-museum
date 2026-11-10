@@ -1,0 +1,30 @@
+id: person/abu-amr-al-dani
+class: person
+label:
+  ar: "أبو عمرو الداني"
+  en: "Abu Amr al-Dani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "عثمان بن سعيد الداني أبو عمرو، إمام علم القراءات ومن حفاظ الحديث، من دانية بالأندلس ⁦(٣٧١–٤٤٤هـ)⁩، صاحب «التيسير» وأكثر من مئة تصنيف."
+  en: "Uthman ibn Sa'id al-Dani Abu Amr of Denia, master of the Qur'anic readings and hadith (371–444/981–1053), author of al-Taysir and over a hundred works."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam, source/taysir-pretzl-istanbul-1930, source/nashr-dahman-damascus-1345-v1]
+external_ids:
+  wikidata: Q6820659
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.4 p.205)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0043
+  taysir_section: "Claude Code (OCR-harvest worker L), claude-opus-5-5, run ocr-harvest-2026-11-04: taysir-pretzl-istanbul-1930 PDF pp. 10-13; nashr-dahman-damascus-1345-v1 PDF p. 19"
+status:
+  review: published
+  completeness: 3
+born: { edtf: "981", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bashkuwal, al-Sila; al-Dhahabi, Siyar" }
+died: { edtf: "1053", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bashkuwal, al-Sila; al-Dhahabi, Siyar" }
+relations:
+  - { type: lived_in, target: place/dania, note: "Place association from the person's nisba/name (الداني); denotes association, not proven residence.", sources: [source/al-aalam, source/taysir-pretzl-istanbul-1930, source/nashr-dahman-damascus-1345-v1], confidence: low }

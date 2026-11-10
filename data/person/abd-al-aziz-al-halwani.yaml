@@ -1,0 +1,28 @@
+id: person/abd-al-aziz-al-halwani
+class: person
+label:
+  ar: "عبد العزيز الحلواني"
+  en: "Abd al-Aziz al-Halwani"
+roles: [jurist]
+gender: male
+summary:
+  ar: "عبد العزيز بن أحمد الحلواني البخاري «شمس الأئمة»، إمام أهل الرأي ببخارى في عصره، توفي ٤٤٨هـ ⁦(١٠٥٦م)⁩، صاحب «المبسوط» و«النوادر»."
+  en: "Abd al-Aziz al-Hulwani “Shams al-A'imma,” leading Hanafi jurist of ra'y in Bukhara (d. 448/1056), author of al-Mabsut and al-Nawadir."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1060~", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12222959
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,30 @@
+id: person/yunus-ibn-ubayd
+class: person
+label: { ar: "يونس بن عبيد" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله يونس بن عبيد، مولى عبد القيس" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0139", edtf: "0757~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: مات سنة تسع وثلاثين ومائة، وقيل سنة أربعين (PDF ص48). التاريخ الميلادي محسوب من السنة الهجرية.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو عبد الله يونس بن عبيد، مولى عبد القيس، أصله من الكوفة، ذكره الشيرازي في فقهاء البصرة {cite:tabaqat-fuqaha-abbas-1981 p. 48}. مات سنة تسع وثلاثين ومائة، وقيل سنة أربعين {cite:tabaqat-fuqaha-abbas-1981 p. 48}."
+wings: [people]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch125
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabaqat-fuqaha-abbas-1981] }

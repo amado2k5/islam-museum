@@ -1,0 +1,48 @@
+id: job/mufti
+class: job
+label: { ar: "المفتي", en: "Mufti (jurisconsult)", ur: "مفتی" }
+summary:
+  ar: "المفتي هو العالم الذي يجيب عن مسألة فقهية بحكمها الشرعي، ويُسمّى جوابه الفتوى. ولم تكن الفتوى منصباً رسمياً في صدر الإسلام، إذ كان كل من بلغ العلم يفتي، ثم صار للمفتي موضع في الدولة والقضاء في العصور التالية، وفي الدولة العثمانية صار للشيخ الإسلام سلطة الفتوى، وصار للمفتين في الولايات والأقضية دور في الجواب عن أسئلة الناس."
+  en: "The mufti was the scholar who answered a legal question with its ruling, and the answer was called a fatwa. In the early period the fatwa was not an office: anyone with the learning gave one. Later the mufti took a place in the state and the judiciary, and in the Ottoman state the shaykh al-islam held the authority to give fatwas, while muftis in the provinces answered the questions of ordinary people."
+  ur: "مفتی وہ عالم تھا جو کسی فقہی مسئلے کا شرعی حکم بیان کرتا، اور اس جواب کو فتویٰ کہا جاتا تھا۔ صدرِ اسلام میں فتویٰ کوئی منصب نہ تھا، جو علم رکھتا وہ فتویٰ دیتا تھا۔ بعد کے ادوار میں مفتی ریاست اور عدلیہ میں جگہ پاتا، اور عثمانی ریاست میں شیخ الاسلام کو فتویٰ کا اختیار حاصل ہوا جبکہ صوبوں کے مفتی عام لوگوں کے سوالات کے جواب دیتے تھے۔"
+domain: governance-law
+kind: scholarly
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0632"
+    precision: decade
+    status: historical
+    note: "The entry reports that the Prophet answered questions on religious law in the Medinan years, and that the Companions gave answers after him. The word fatwa as a technical term became common in later centuries, so the record uses the Prophet's answers as the first attestation of the practice, not of the office."
+    sources: [source/tdv-fetva]
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "The Prophet answered questions in Medina. The entry says Umar forbade the Companions to leave Medina, so that under the first two caliphs consensus could form there easily."
+    sources: [source/tdv-fetva]
+  - place: place/kufa
+    note: "Under Uthman about two thousand Companions moved to cities such as Kufa, Basra and Damascus, and people there sought fatwas from them. Ibn Masud gave fatwas in Kufa, according to the entry."
+    sources: [source/tdv-fetva]
+  - place: place/damascus
+    note: "Under Uthman some Companions settled in Damascus, and the local people asked them for fatwas, according to the entry."
+    sources: [source/tdv-fetva]
+  - place: place/baghdad
+    note: "Under Harun al-Rashid Abu Yusuf gave fatwas and, with the title qadi al-qudat, also carried out judicial work, according to the entry."
+    sources: [source/tdv-fetva]
+regions: [arabia, levant-iraq, anatolia-balkans]
+organization:
+  organized: mixed
+training:
+  mode: mouth-to-mouth
+  certification: "No licence was needed for the early fatwa. The entry says fiqh was learned in circles around the Companions and later jurists, and in the Ottoman period the shaykh al-islam held the authority to issue fatwas. Jurists later graded the mufti by his learning, and the entry names grades from full mujtahid to the one who only transmits."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-fetva]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'FETVA' (Fahrettin Atar), vol. 12, pp. 486–496, Istanbul 1995; web edition read in full on 3 Nov 2026. Rewritten by Claude Code. Holders recorded from the entry's own account of the Companions, Tabi'un and Ottoman jurists who gave fatwas: Ali, Umar, Abdullah ibn Masud, Abdullah ibn Abbas, Abdullah ibn Umar, Aisha, Abu Bakr, Uthman, Anas ibn Malik, Abu Hurayra, Abu al-Darda, Ubayy ibn Kab, Abu Dhar, Said ibn al-Musayyab, Ibrahim al-Nakha'i, and Dursun Fakih."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p2-gl03"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

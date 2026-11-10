@@ -20,3 +20,8 @@ translators: []
 
 ## للزوار الصغار
 قتلت حربة وحشي بطلًا من أبطال الإسلام — ثم قتلت، بعد أن صار مسلمًا، الرجل الذي ادّعى النبوة كذبًا. وهو من قال ذلك.
+
+## في دروس أبي إسحاق الحويني «مدرسة الحياة»
+يروي [[person/abu-ishaq-al-heweny|أبو إسحاق الحويني]] في خاطرة الفراسة خبرًا يقول إن البخاري أخرجه في كتاب المغازي، وإنه ما كان ليصدقه لولا أنه في الصحيح: خرج جعفر بن عمرو بن أمية الضمري وعبيد الله بن عدي بن الخيار إلى حمص يسألان وحشيًّا عن قتله حمزة، فوجداه شديد السواد كأنه حَمِيت، جالسًا في ظل قصره. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:38:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:39:00} وكان عبيد الله معتجرًا لا تُرى منه إلا عيناه وقدماه، فقال له وحشي إن عدي بن الخيار تزوج أم قتال بنت أبي العيص، وإنه حمل ابنها الرضيع إلى مرضعة بمكة، وإن قدميه تشبهان قدمي ذلك الطفل. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:39:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:40:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:41:00}
+
+ويذكر أن وحشيًّا قتل حمزة ليُعتق، وأنه لما أسلم ولقي النبي سأله: أنت وحشي؟ أنت قتلت حمزة؟ وطلب منه أن يغيّب وجهه عنه، ويرى الحويني في ذلك أن قتل حمزة ظل يؤلم النبي بعد الفتح وإن كان الإسلام يجبّ ما قبله. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:41:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:42:00} ثم خرج وحشي إلى مسيلمة لعله يكافئ به حمزة، وفي رواية عبد الله بن عمر أن جارية صاحت إن العبد الأسود قتله، وكان وحشي يقول إنه قتل خير الناس وشر الناس. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:43:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep09 00:44:00}

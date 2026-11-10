@@ -6,12 +6,12 @@ names:
   - { kind: laqab, lang: ar-Latn, value: "Sayf Allah (the Sword of God)" }
 gender: male
 born: { edtf: "0585~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0642", calendar: julian, precision: year, status: debated, note: "Died in 21 AH (642 CE); sources differ between Homs and Medina as the place.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0642", calendar: julian, precision: year, status: debated, note: "Died in 21 AH (642 CE); sources differ between Homs and Medina as the place. Al-Umari states decisively that Umar dismissed him from Homs and he died in Medina, and that the famous tomb outside Homs is Khalid ibn Yazid ibn Mu'awiya's {cite:umari-masalik-1924 p. 219}.", sources: [source/ibn-sad-tabaqat-bewley, source/umari-masalik-1924] }
 roles: [companion, general]
 traditions: [sunni]
 summary:
-  en: "The great commander on both sides of the early wars: the cavalry leader who turned the day at Uhud for the Meccans, then converted in 629 and led the Muslim armies at Mu'ta, in the Ridda wars and at the Yarmuk."
-  ar: "القائد العسكري الأبرز في جانبي الحروب الأولى: قائد خيل مكة الذي حوّل يوم أُحد، ثم أسلم سنة 629م فقاد جيوش المسلمين في مؤتة وحروب الردة واليرموك."
+  en: "The great commander on both sides of the early wars: the cavalry leader who turned the day at Uhud for the Meccans, then converted in 629 and led the Muslim armies at Mu'ta, in the Ridda wars and at the Yarmuk. Al-Isaba's entry (no. 2236) has him among Quraysh's notables in the Jahiliyya holding their horse-reins, fighting with the Meccans up to the Hudaybiyya 'umra, and embracing Islam in year seven after Khaybar on one report {cite:ibn-hajar-isaba p. 379}."
+  ar: "القائد العسكري الأبرز في جانبي الحروب الأولى: قائد خيل مكة الذي حوّل يوم أُحد، ثم أسلم سنة 629م فقاد جيوش المسلمين في مؤتة وحروب الردة واليرموك. وفي صحيح البخاري أن النبي قال يوم نعي قادة مؤتة «حتى أخذ الراية سيف من سيوف الله» — وبه اشتهر لقبه «سيف الله» {cite:sahih-al-bukhari 4262}، وتذكر الإصابة في ترجمته رقم ٢٢٣٦ أنه كان أحد أشراف قريش في الجاهلية وإليه أعنة الخيل، وشهد مع كفار قريش الحروب إلى عمرة الحديبية، ثم أسلم في سنة سبع بعد خيبر على قول وقيل قبلها {cite:ibn-hajar-isaba p. 379}."
 wings: [people]
 themes: [wars-and-campaigns, battles, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -27,6 +27,11 @@ faith:
 labelled:
   - { label: { en: "Sayf Allah al-Maslul (the Unsheathed Sword of God)", ar: "سيف الله المسلول" }, by: "a saying attributed to the Prophet in the tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: born_in, target: place/kingdom-of-saudi-arabia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/homs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/mashhad-khalid-hims, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: participated_in, target: event/ali-expeditions-to-yemen, role: "أمير جند آخر إلى اليمن؛ الأمير علي إن التقيا", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/mission-of-khalid-to-banu-al-harith, role: "المبعوث داعياً إلى بني الحارث بن كعب سنة 10هـ", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/homs, note: "Sources differ between Homs and Medina.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: child_of, target: person/al-walid-ibn-al-mughira }
@@ -42,16 +47,42 @@ relations:
   - { type: participated_in, target: event/battle-of-yamama, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: persecuted, target: person/malik-ibn-nuwayra, note: "The affair of Malik ibn Nuwayra — killed by Khalid's troops in the Ridda wars — is contested in the sources.", sources: [source/tabari-donner-1993] }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف يُقدَّر خالد بن الوليد، وكيف تُروى واقعة مالك بن نويرة؟", en: "How is Khalid ibn al-Walid assessed, and how is the Malik ibn Nuwayra episode told?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "Sunni tradition remembers Khalid as Sayf Allah, the undefeated commander whose genius served the early community — while also recording that the Prophet and Umar rebuked him over the affair of Malik ibn Nuwayra." }
+    id: sunni
+    summary: { en: "Sunni tradition remembers Khalid as Sayf Allah, the undefeated commander whose genius served the early community — while also recording that the Prophet and Umar rebuked him over the affair of Malik ibn Nuwayra.", ar: "تذكره السنة سيفَ الله، القائد الذي لم يُهزم وخدمت عبقريته الجماعة — مع حفظ عتب النبي وعمر عليه في قضية مالك بن نويرة." }
     sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
   - tradition: academic
-    summary: { en: "Historians regard him as one of the most capable commanders of the early conquests, and treat the Malik ibn Nuwayra episode — a tribal leader killed and his wife taken — as a documented controversy." }
+    id: academic
+    summary: { en: "Historians regard him as one of the most capable commanders of the early conquests, and treat the Malik ibn Nuwayra episode — a tribal leader killed and his wife taken — as a documented controversy.", ar: "يعدّه المؤرخون من أقدر قادة الفتوح الأولى، ويعاملون قضية مالك بن نويرة خلافًا موثقًا." }
     sources: [source/tabari-donner-1993]
   - tradition: shia-twelver
-    summary: { en: "Twelver Shia tradition is broadly critical of Khalid, emphasizing the Malik ibn Nuwayra affair and his earlier role against the Muslims." }
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition is broadly critical of Khalid, emphasizing the Malik ibn Nuwayra affair and his earlier role against the Muslims.", ar: "ينتقده التراث الإمامي إجمالًا مبرزًا قضية مالك بن نويرة ودوره السابق ضد المسلمين." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina]
-status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
+external_ids:
+  wikidata: Q26918
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-hajar-isaba]
+education:
+  did_you_know:
+    ar: "قاد خالد بن الوليد خيل قريش في أحد ضد المسلمين، ثم أسلم فقاد جيوشهم في مؤتة وحروب الردة واليرموك."
+    en: "Khalid led Mecca's cavalry at Uhud against the Muslims, then converted and commanded Muslim armies at Mu'ta, in the Ridda wars and at Yarmuk."
+    ur: "خالد بن ولید احد میں قریش کے سواروں کے سردار تھے، پھر مسلمان ہوئے اور مؤتہ، ردہ اور یرموک میں لشکر کی قیادت کی۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status: { review: published, completeness: 3, generated_by: "Devin; 2026-10-11" }
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  run: "lib-wave-21-isaba-1"
+kids:
+  ar: "خالد بن الوليد سيف الله المسلول، قائد لم يهزم في معركة، قاد اليرموك وفتح شمال العراق."
+  en: "Khalid ibn al-Walid, called the drawn sword of God, a commander who never lost a battle — he led Yarmuk and took northern Iraq."
+  ur: "خالد بن ولید اللہ کی تلوار کہلائے — کبھی کوئی جنگ نہیں ہارے، یرموک کی قیادت کی اور شمالی عراق فتح کیا۔"

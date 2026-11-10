@@ -1,0 +1,16 @@
+id: media/diagram-farisi-amicable
+class: media
+kind: illustration
+label: { ar: "من العوامل إلى مجموع القواسم", en: "From factors to divisor sums", ur: "عوامل سے مقسوم علیہ کے مجموعے تک" }
+summary: { ar: "سلسلة تعليمية، لا البرهان الأصلي.", en: "Teaching chain, not original proof.", ur: "تدریسی زنجیر، اصل برہان نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/farisi-amicable-factorization]
+alt:
+  ar: "عوامل أولية ثم اختيارات أسس وقواسم ومجموع وحذف العدد وفحص الاتجاهين؛ سلسلة حديثة لا نص أصلي."
+  en: "Prime factors, exponent choices, divisors, sum, self-subtraction and both directions; modern chain, not original text."
+  ur: "اولی عوامل، قوتوں کا انتخاب، مقسوم علیہ، مجموعہ، خود عدد نکالنا اور دونوں سمتوں کی جانچ؛ جدید زنجیر۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/farisi-mactutor, source/weisstein-amicable-pair]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b84", source: "Generic museum chain, not copied original factorization proof." }

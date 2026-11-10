@@ -1,0 +1,66 @@
+id: person/umm-hani-bint-abi-talib
+class: person
+label:
+  ar: أم هانئ بنت أبي طالب
+  en: Umm Hani' bint Abi Talib
+names:
+- kind: full
+  lang: ar
+  value: أم هانئ بنت أبي طالب بن عبد المطلب بن هاشم الهاشمية
+- kind: kunya
+  lang: ar
+  value: أم هانئ
+gender: female
+died: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, note: "يذكر الكتاب وفاتها سنة أربعين للهجرة (نساء حول الرسول ص187).", sources: [source/nisa-hawl-alrasul] }
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابنة عم النبي، واسمها فاختة وقيل فاطمة وقيل هند؛ كانت زوج هبيرة بن عمرو المخزومي الذي هرب إلى نجران يوم فتح مكة، وروت عن النبي أحاديث في الكتب الستة.
+  en: A cousin of the Prophet, named Fakhita (also given as Fatima or Hind); wife of Hubayra ibn Amr al-Makhzumi, who fled to Najran on the day Mecca was taken; she narrated hadith found in the six collections.
+wings: [people]
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 12328 (ص 2042).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+- type: child_of
+  target: person/abu-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/ali-ibn-abi-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/jafar-ibn-abi-talib
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12328، ص 2042 (تراجم النساء)
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+external_ids: { wikidata: "Q3738508" }
+sources:
+- source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+status:
+  review: published
+  completeness: 3

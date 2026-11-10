@@ -1,0 +1,30 @@
+id: person/fares-abbad
+class: person
+label: { ar: "فارس عباد", en: "Fares Abbad", ur: "فارس عباد" }
+names:
+  - { value: "فارس عبد ربه محمد عباد", kind: full }
+  - { value: "Fares Abbad", kind: full }
+  - { value: "Faris Abbad", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ وإمام يمني ⁦(وُلد 1980)⁩ تخرّج في حلقات التحفيظ بجامع بلال بن رباح في صنعاء وأمّ فيه التراويح من 1994، وسجّل المصحف كاملًا في اليمن، ويؤمّ منذ 2006 في المنطقة الشرقية بالسعودية، وتُذاع قراءته على قناة المجد للقرآن."
+  en: "Yemeni reciter and imam (born 1980) who came out of the memorisation circles of the Bilal ibn Rabah Mosque in Sanaa, led the tarawih there from 1994, recorded the complete Qur'an in Yemen and has led prayers in Saudi Arabia's Eastern Province since 2006; his recitation is broadcast on Al-Majd Quran channel."
+  ur: "یمنی قاری اور امام ⁦(پیدائش 1980ء)⁩، جو صنعاء کی جامع بلال بن رباح کے حفظ کے حلقوں سے نکلے، 1994ء سے وہاں تراویح پڑھائی، یمن میں مکمل قرآن ریکارڈ کیا اور 2006ء سے سعودی عرب کے مشرقی صوبے میں امامت کر رہے ہیں؛ ان کی تلاوت المجد قرآن چینل پر نشر ہوتی ہے۔"
+wings: [people, living]
+regions: [arabia]
+roles: [reciter, imam]
+born: { edtf: "1980-04-11", calendar: gregorian, precision: day, status: historical, derived: false, note: "Arabic article and Wikidata give the same day; the article places him in Yemen without naming the town.", sources: [source/wikipedia-fares-abbad-ar, source/wikidata-fares-abbad] }
+relations:
+  - { type: lived_in, target: place/sanaa, note: "Studied and led the tarawih at the Bilal ibn Rabah Mosque, Hail Street, Sanaa, from 1994 for seven years", sources: [source/wikipedia-fares-abbad-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives religion Islam; neither it nor Wikidata names a school. Not recorded."
+    sources: [source/wikipedia-fares-abbad-ar, source/wikidata-fares-abbad]
+footprint:
+  wikipedia: { languages: [ar, ru, sq, uk], checked: "2026-11-06", sources: [source/wikidata-fares-abbad] }
+  wikidata: "Q12230070"
+external_ids: { wikidata: "Q12230070" }
+sources: [source/wikipedia-fares-abbad-ar, source/wikidata-fares-abbad]
+provenance: { layer: own-research, source: "Arabic Wikipedia «فارس عباد» (revision 74735696, 26 May 2026) and Wikidata Q12230070 (revision 2424996485), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b02 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

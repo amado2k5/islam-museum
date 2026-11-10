@@ -1,0 +1,39 @@
+id: person/raha-moharrak
+class: person
+label: { ar: "رها محرق", en: "Raha Moharrak", ur: "رہا محرق" }
+names:
+  - { value: "Raha Moharrak", kind: full }
+  - { value: "Raha Hassan Moharrak", kind: full }
+  - { value: "رها حسن محرق", kind: full }
+gender: female
+summary:
+  ar: "متسلقة جبال سعودية، وُلدت في جدة سنة 1986. أصغر عربية وأول سعودية تتسلق قمة إفرست (2013)، وأول سعودية تكمل القمم السبع سنة 2017."
+  en: "Saudi mountaineer, born in Jeddah in 1986. The youngest Arab and the first Saudi woman to climb Mount Everest (2013), she became the first Saudi woman to complete the Seven Summits in 2017."
+  ur: "سعودی کوہ پیما، 1986 میں جدہ میں پیدا ہوئیں۔ سب سے کم عمر عرب اور ماؤنٹ ایورسٹ سر کرنے والی پہلی سعودی خاتون (2013)، وہ 2017 میں سیون سمٹس مکمل کرنے والی پہلی سعودی خاتون بنیں۔"
+roles: [mountaineer]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1986-01-25"
+  hijri: "1406"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Jeddah. Wikidata gives the day-precision date 25 January 1986, which this record follows; the English article gives only c. 1986. The Hijri year 1406 is the tabular conversion of 25 January 1986 and is marked derived."
+  sources: [source/wikipedia-raha-moharrak-en, source/wikipedia-raha-moharrak-ar, source/wikidata-raha-moharrak]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-raha-moharrak-en, source/wikidata-raha-moharrak] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for her, and Wikidata records no religion (P140) statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-raha-moharrak-en, source/wikipedia-raha-moharrak-ar, source/wikidata-raha-moharrak]
+external_ids: { wikidata: "Q16732750" }
+sources: [source/wikipedia-raha-moharrak-en, source/wikipedia-raha-moharrak-ar, source/wikidata-raha-moharrak]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1376447463), Arabic Wikipedia (revision 76891697) and Wikidata Q16732750 (item revision 2543127001, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record); place/jeddah verified in the current-main clone."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

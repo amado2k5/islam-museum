@@ -1,0 +1,28 @@
+id: person/burhan-ibn-al-mabit
+class: person
+label: { ar: "برهان الدين ابن المابط", en: "Burhan al-Din ibn al-Mabit" }
+names:
+  - { kind: full, lang: ar, value: "برهان الدين إبراهيم بن المابط شاعر القاهرة" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+wings: [people]
+themes: [literature]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+summary:
+  ar: "برهان الدين إبراهيم بن المابط شاعر القاهرة؛ من شعره في القهوة: يا عائباً لسواد قهوتنا التي فيها — شفاء أنفس من أمراضها — أوما تراها وهي في فنجانها — تحكي سواد العين وسط بياضها {cite:shadharat-dhahab p. 688}."
+  en: "A Cairo poet — his lines in praise of coffee survive in the Shadharat: 'O you who fault our coffee's blackness — in it is a cure for souls of their ills — do you not see it in its cup — telling of the black of the eye amid its whiteness' {cite:shadharat-dhahab p. 688}."
+died: { edtf: "1541~", hijri: "0948~", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها تقريباً (948)؛ التحويل مشتق {cite:shadharat-dhahab p. 688}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 948 تقريباً)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch81
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3

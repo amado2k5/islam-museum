@@ -1,23 +1,36 @@
 ---
+import A11yPrefs from "../components/A11yPrefs.astro";
 import "../styles/global.css";
-// Preload the Arabic faces used above the fold so the late font swap does not shift the first paint (CLS).
-import naskhWoff2 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
-import amiriWoff2 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url";
-import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, LANGS, WINGS, wingHref, ARABIC_SCRIPT, OG_LOCALE, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import { truncateDesc } from "../lib/meta";
+import { wingCountTemplate, explorePages } from "../lib/nav";
+import { SHOP } from "../lib/links";
+import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
+import Logo from "../components/Logo.astro";
+import SocialLinks from "../components/SocialLinks.astro";
+// Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
+// are preloaded so they fetch in parallel with the CSS instead.
+import naskh400 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
+import amiri400 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url";
+import serif400 from "@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2?url";
+import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
 
-interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
-const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
+interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean; kids?: boolean }
+const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex, kids = false } = Astro.props;
 const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
-const desc = description ?? T.landing.lede;
+const desc = truncateDesc(description ?? T.landing.meta_description ?? T.landing.lede);
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
-const multilingual = Object.keys(alt).length > 1;
-// English is published only for the Education Browser until Phase 4; museum nav links point at Arabic.
-const navLang = lang === "en" ? "ar" : lang;
-const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
+const multilingual = LANGS.length > 1;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
+const fonts = ARABIC_SCRIPT.includes(lang) ? [naskh400, amiri400] : [serif400, inter400];
+// The per-wing counts are not baked into the page: a count in the header would change every one of the 100k+ pages on each
+// content commit (docs/site/README.md, "site-wide numbers"). The HTML carries the template ("{n} events"), the client fills the
+// number from /api/v1/meta/counts.json when the menu is first opened; without JavaScript the menu shows the names and blurbs.
+const wingCount = (w: string) => wingCountTemplate(lang, w);
+const EXPLORE = explorePages(lang);
 ---
 <!doctype html>
 <html lang={lang} dir={T.dir}>
@@ -29,22 +42,36 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <link rel="canonical" href={canonical} />
     {Object.entries(alt).map(([l, h]) => <link rel="alternate" hreflang={l} href={`${SITE}${h}`} />)}
     <link rel="alternate" hreflang="x-default" href={`${SITE}${alt.ar ?? path}`} />
+    <link rel="alternate" type="application/rss+xml" title="islam.museum" href={`${SITE}/feed.xml`} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="islam.museum" />
-    <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:locale" content={OG_LOCALE[lang]} />
+    <meta property="og:image" content={`${SITE}/brand/og-image.jpg`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={`${SITE}/brand/og-image.jpg`} />
     <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0a2533" />
     {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-64.png" sizes="64x64" type="image/png" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href={naskhWoff2} as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href={amiriWoff2} as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {fonts.map((f) => <link rel="preload" href={f} as="font" type="font/woff2" crossorigin />)}
     <script is:inline>
-      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+      document.documentElement.classList.add("js");
+      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); if (localStorage.getItem("font") === "sans") document.documentElement.setAttribute("data-font", "sans");
+        var ts = parseInt(localStorage.getItem("a11y:textsize") || "0", 10); if (ts > 100) document.documentElement.style.fontSize = ts + "%";
+        var P = { leading: "roomy", contrast: "high", motion: "reduce", links: "underline" };
+        for (var k in P) if (localStorage.getItem("a11y:" + k) === P[k]) document.documentElement.setAttribute("data-" + k, P[k]);
+      } catch (e) {}
     </script>
     {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+    <slot name="head" />
   </head>
   <body>
     <svg class="pattern" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -60,51 +87,96 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
       <rect width="100%" height="100%" fill="url(#girih)" />
     </svg>
     <a class="skip" href="#main">{T.a11y.skip}</a>
-    <header class="site wrap" style="padding-block:18px">
-      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px">
-        <a class="ui" href={`/${navLang}/`} style="display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;text-decoration:none;color:var(--fg)">
-          <svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#1F4E8C" /><path d="M32 8l6.5 15.5L54 30l-15.5 6.5L32 52l-6.5-15.5L10 30l15.5-6.5z" fill="#F7F3EA" /></svg>
+    <header class="site topbar">
+      {kids ? (
+        <div class="wrap kids-topbar">
+          <a class="kids-brand" href={`/${lang}/sighar/`}>
+            <span aria-hidden="true">🪶</span> {T.kids.hub_title}
+          </a>
+          <a class="kids-back" href={`/${lang}/`}>
+            <span aria-hidden="true">🏛</span> {T.kids.back_to_museum}
+          </a>
+          <A11yPrefs {T} />
+        </div>
+        <script src="../scripts/classroom.ts"></script>
+      ) : (
+      <div class="wrap nav-row">
+        <a class="ui brand" href={`/${lang}/`}>
+          <Logo size={34} alt={T.name} />
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
-        <div style="display:flex;align-items:center;gap:10px" class="ui">
-          <a class="chip" href={`/${navLang}/search/`}>{T.nav.search}</a>
-          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} style="border:0;cursor:pointer">◐</button>
-          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
+        <button class="menu-btn ui" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">☰ {T.a11y.menu_open}</button>
+        <nav aria-label={T.a11y.menu} class="ui nav-links" id="site-nav">
+          <details class="dd" data-dd>
+            <summary>{T.nav.wings_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w) ? <span data-wing-count={w} data-tpl={wingCount(w)}></span> : `${T.wings.counts[w]} — `}{T.wings[w].blurb}</span></a></li>)}
+            </ul>
+          </details>
+          <details class="dd" data-dd>
+            <summary>{T.nav.explore_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
+              <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+              <li><a href={`/${lang}/time-machine/`}><span class="t">{T.explore.pages.timemachine.title}</span><span class="d">{T.explore.pages.timemachine.menu}</span></a></li>
+              <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>
+              <li><a href={`/${lang}/3d/`}><span class="t"><span aria-hidden="true">🧊</span> {T.tour.nav_label}</span></a></li>
+            </ul>
+          </details>
+          <details class="dd" data-dd>
+            <summary>{T.nav.today}</summary>
+            <ul class="dd-menu" role="list">
+              <li><a href={`/${lang}/today/`}><span class="t">{T.nav.today}</span></a></li>
+              <li><a href={`/${lang}/future/`}><span class="t">{T.nav.future}</span></a></li>
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/art/`}>{T.nav.art}</a>
+          <a class="top-link" href={wingHref(lang, "place")}>{T.nav.map}</a>
+          <a class="top-link" href={`/${lang}/browse/`}>{T.nav.browse}</a>
+          <details class="dd" data-dd>
+            <summary>{T.nav.more}</summary>
+            <ul class="dd-menu" role="list">
+              {[["screen", "screen"], ["exhibits", "exhibits"], ["questions", "questions"], ["themes", "themes"], ["references", "references"], ["coverage", "coverage"], ["foundation", "foundation"]].map(([seg, key]) => <li><a href={`/${lang}/${seg}/`}><span class="t">{T.nav[key]}</span></a></li>)}
+              <li><a href={`/${lang}/support/`}><span class="t">{T.support.title}</span></a></li>
+              <li><a href={SHOP} rel="noopener"><span class="t">{T.nav.gift_shop}</span></a></li>
+            </ul>
+          </details>
+        </nav>
+        <div class="nav-tools ui">
+          <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
+          {multilingual && (
+            <span class="chip lang-switch ltr" dir="ltr" style="border:1px solid var(--line)">
+              {LANGS.map((l, i) => (
+                <>
+                  {i > 0 && <span aria-hidden="true"> | </span>}
+                  {l === lang ? <span aria-current="true" style="font-weight:700">{l.toUpperCase()}</span> : <a href={alt[l] ?? `/${l}/`} hreflang={l} lang={l}>{l.toUpperCase()}</a>}
+                </>
+              ))}
+            </span>
+          )}
+          <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
+          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
+          <A11yPrefs {T} />
         </div>
       </div>
-      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px">
-        <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
-          {WINGS.map((w) => <li><a href={wingHref(navLang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
-          <li style="opacity:.5" aria-hidden="true">·</li>
-          <li><a href={wingHref(navLang, "place")} style="color:var(--fg);text-decoration:none">{T.nav.map}</a></li>
-          <li><a href={`/${navLang}/questions/`} style="color:var(--fg);text-decoration:none">{T.nav.questions}</a></li>
-          <li><a href={`/${navLang}/exhibits/`} style="color:var(--fg);text-decoration:none">{T.nav.exhibits}</a></li>
-          <li><a href={`/${navLang}/screen/`} style="color:var(--fg);text-decoration:none">{T.nav.screen}</a></li>
-          <li><a href={`/${navLang}/themes/`} style="color:var(--fg);text-decoration:none">{T.nav.themes}</a></li>
-          <li><a href={`/${navLang}/wander/`} style="color:var(--fg);text-decoration:none">{T.nav.wander}</a></li>
-          <li><a href={`/${lang}/learn/`} style="color:var(--fg);text-decoration:none">{T.nav.learn}</a></li>
-        </ul>
-      </nav>
+      )}
     </header>
     <main id="main" style="flex:1">
       <slot />
     </main>
-    <footer class="site" style="border-top:1px solid var(--line);margin-top:3rem">
-      <div class="wrap ui" style="padding-block:22px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;font-size:.9rem;color:var(--muted)">
-        <span>islam.museum · {T.footer.open}</span>
-        <span>{T.footer.licenses}</span>
-        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${navLang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
-        <span style="flex-basis:100%">{T.footer.privacy}</span>
+    <footer class="site foot">
+      <div class="wrap ui">
+        <div class="fcols">
+          <div><h2>{T.footer.browse_all}</h2>{BROWSE_CLASSES.map((c) => <a href={`/${lang}/browse/${browseSegment(c)}/`}>{T.class[c]}</a>)}</div>
+          <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href={`/${lang}/trustees/`}>{T.featured_pages.trustees.title}</a><a href={`/${lang}/honor-roll/`}>{T.featured_pages.honor.title}</a><a href={`/${lang}/donors/`}>{T.featured_pages.donors.title}</a><a href={`/${lang}/press/`}>{T.featured_pages.press.title}</a><a href={`/${lang}/volunteer/`}>{T.volunteer.title}</a><a href={`/${lang}/why/`}>{T.why.title}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href="https://app.arcade.software/share/JS3TO4x2sILOT5unIxZ3" rel="noopener">{T.footer.interactive_tour}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href={`/${lang}/words/quran/`}>{T.explore.pages.quran.title}</a><a href={`/${lang}/words/hadith/`}>{T.explore.pages.hadith.title}</a><a href={`/${lang}/tour/`}>{T.mytour.title}</a><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/engineering/01-business-requirements.md" rel="noopener">{T.footer.engineering}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={`/${lang}/network/`}>{T.network.title}</a><a href={`/${lang}/developers/`}>{T.developers.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><a href={`/${lang}/privacy/`}>{T.footer.privacy_policy}</a></div>
+        </div>
+        <p class="fine">islam.museum · <a href={`/${lang}/changelog/`} data-site-version>{T.footer.changelog}</a> · {T.footer.open} · <a href={`/${lang}/licenses/`}>{T.footer.licenses}</a> · <a href={`/${lang}/disclaimer/`}>{T.footer.disclaimer}</a> · <a href={`/${lang}/backstage/`}>{T.footer.backstage}</a> · <a href={`/${lang}/authenticity/`}>{T.footer.authenticity}</a> · <a href={`/${lang}/method/`}>{T.footer.method}</a> · <a href={`/${lang}/accessibility/`}>{T.footer.accessibility}</a> · {T.footer.privacy}</p>
+        <SocialLinks title={T.footer.social_title} />
+        <p class="fine contact"><a href="mailto:discover@islam.museum">{T.footer.contact}</a></p>
       </div>
     </footer>
-    <script is:inline>
-      document.getElementById("theme")?.addEventListener("click", function () {
-        var el = document.documentElement;
-        var dark = el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-        var next = dark ? "light" : "dark";
-        el.setAttribute("data-theme", next);
-        try { localStorage.setItem("theme", next); } catch (e) {}
-      });
-    </script>
+    <script is:inline src="/shell/shell.js" defer></script>
   </body>
 </html>

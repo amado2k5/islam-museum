@@ -1,0 +1,28 @@
+id: person/najm-al-din-al-waied
+class: person
+label:
+  ar: "نجم الدين الواعيد"
+  en: "Najm al-Din al-Wa'ied"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لنجم الدين الواعيد؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Najm al-Din al-Wa'ied; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+died: { edtf: "1350~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12248054
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

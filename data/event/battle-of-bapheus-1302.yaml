@@ -1,0 +1,23 @@
+id: event/battle-of-bapheus-1302
+class: event
+kind: battle
+label: { ar: "معركة بافيوس", en: "Battle of Bapheus" }
+summary:
+  ar: "بطاقة أولية لمعركة بافيوس سنة ١٣٠٢م، أول نصر كبير لعثمان الأول على البيزنطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bapheus in 1302, Osman I's first major victory over the Byzantines; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1302", precision: year, status: tradition, derived: true }
+  end: { edtf: "1302", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1509619
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman-history surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

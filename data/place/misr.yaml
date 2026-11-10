@@ -1,0 +1,51 @@
+id: place/misr
+class: place
+kind: region
+label:
+  ar: مصر
+  en: Misr (Egypt)
+  ur: مصر
+summary:
+  ar: أرض يُروى زرعها من النيل من غير مطر، تتصل حدودها جنوباً ببلاد النوبة، وشمالاً بالبحر، وفيها بساتين وأشجار ونخل وقصب سكر، ويزرع أهلها على ماء الفيضان. {cite:nuzhat-al-mushtaq-2002 p. 322}
+  en: A land watered by the Nile without rain, with Nubia to the south and the sea to the north; it has orchards, trees, palms and sugar cane, and its people plant after the flood. {cite:nuzhat-al-mushtaq-2002 p. 322}
+wings:
+- place
+regions:
+- egypt-nile
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 322 (scan page)
+  generated_by: Claude (Haiku 5.5)
+  note: Merged duplicate record place/egypt into this entity during consolidation.
+sources:
+- source/khitat-maqrizi-1998
+- source/nuzhat-al-mushtaq-2002
+- source/wikidata
+status:
+  review: draft
+  completeness: 3
+  generated_by: Claude Haiku 5.5; the place among the seven climes, the coordinates of Fustat and Cairo, and the desert frontier are read from al-Maqrizi's Khitat (local scan, p. 84); the Idrisi sentences keep their citation
+education:
+  levels:
+  - sprouts
+  - explorers
+  - scholars
+  flagged_for_kids: true
+  provenance:
+    generated_by: Devin
+    model: Devin (Cognition)
+    run: education-E5-leveled-b3
+    note: Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels.
+coordinates:
+- 27
+- 29
+coordinate_precision: approx
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q79
+aliases:
+- place/egypt
+historical_names: []
+jobs: []
+inventions: []
+periods: []

@@ -1,0 +1,69 @@
+id: person/abdullah-ibn-al-zibara
+class: person
+label:
+  ar: عبد الله بن الزبعرى
+  en: Abdullah ibn al-Zib'ara
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن الزبعرى بن قيس بن عدي بن سعيد بن سهم القرشي السهمي
+- kind: kunya
+  lang: ar
+  value: أبو سعد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من أشعر قريش، كان شديداً على المسلمين ثم أسلم في الفتح؛ هرب إلى نجران بعد الفتح فبلغته أبيات حسان بن ثابت فعاد وأسلم وقال شعراً في اعتذاره، وقال المرزباني إن النبي أمر له بحلة لما مدحه.
+  en: One of the finest poets of Quraysh, harsh against the Muslims, who embraced Islam at the conquest; he fled to Najran after the fall of Mecca, verses of Hassan ibn Thabit reached him, he returned and became Muslim and composed verses of
+    apology; al-Marzubani says the Prophet ordered him a robe when he praised him.
+wings: [people]
+themes:
+- converts-and-leavers
+- literature
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5140 (ص 875).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "645~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+- type: traveled_to
+  target: place/najran
+  note: "From text: fled to Najran"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/quraysh
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-sahm
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5140، ص 875
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch41
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: published
+  completeness: 3

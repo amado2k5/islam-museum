@@ -1,0 +1,25 @@
+---
+id: person/ibn-atiyah-al-andalusi
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker B), claude-opus-5-5"]
+---
+## Summary
+The judge Abu Muhammad Abd al-Haqq ibn Ghalib ibn Atiyya al-Muharibi, of al-Andalus and Granada, was a Maliki jurist, exegete and man of letters, born in 481 AH (1088/89) and died at the fortress of [[place/lorca|Lorca]] in mid-Ramadan 541 AH (February 1147) at the age of sixty; he wrote the commentary [[work/tafsir-ibn-atiyya|al-Muharrar al-Wajiz fi Tafsir al-Kitab al-'Aziz]]. {cite:muharrar-wajiz-dar-ibn-hazm p.2} {cite:muharrar-wajiz-dar-ibn-hazm p.3} The title page of another printing of his commentary, by Dar al-Kutub al-Ilmiyya, gives his death as 546 AH, so the date differs between editions.
+
+## Family and upbringing
+The Banu Atiyya, Majd Makki writes in his introduction to the commentary, descend from Atiyya ibn Khalid ibn Khufaf al-Muharibi, one of the soldiers who came for the conquest of al-Andalus and settled at a village in the district of [[place/granada|Granada]]. {cite:muharrar-wajiz-dar-ibn-hazm p.2} His father, the hadith master Abu Bakr [[person/ghalib-ibn-atiyya|Ghalib ibn Abd al-Rahman ibn Atiyya]] (441–518 AH), travelled to the East and made the pilgrimage; his student Ibn Bashkuwal describes him in *al-Sila* as a master of hadith, its chains and hidden flaws, reports that he was said to have gone through Sahih al-Bukhari seven hundred times, and notes that he lost his sight at the end of his life. {cite:muharrar-wajiz-dar-ibn-hazm p.2}
+
+Abd al-Haqq was born two years after the battle of al-Zallaqa and lived in the Almoravid age, when learning flourished in al-Andalus. {cite:muharrar-wajiz-dar-ibn-hazm p.2} He grew up in Granada under his father's care and read hadith, tafsir, fiqh and language with him; al-Dabbi reports in *Bughyat al-Multamis* that his father would sometimes wake him twice in a night, saying: "Get up, my son, and write such-and-such at such-and-such a place in your commentary." {cite:muharrar-wajiz-dar-ibn-hazm p.2} He obtained a licence from Muhammad ibn Abi Ghalib al-Qayrawani when the latter came to Granada in 494 AH, at the age of thirteen, met [[person/abu-ali-al-ghassani-al-jayyani|Abu Ali al-Ghassani]] and received his licence in 495 AH, and before he was twenty travelled to Córdoba, Seville, Murcia, Valencia and Jaén to read with their teachers. {cite:muharrar-wajiz-dar-ibn-hazm p.2}
+
+## Teachers and students
+His teachers included his father; the hadith master Abu Ali al-Ghassani (427–498 AH); the hadith master [[person/al-sadafi|Abu Ali al-Sadafi]] (d. 514 AH); the Qur'an reader [[person/ibn-al-badhish|Ibn al-Badhish]] (444–528 AH); and the jurist [[person/abd-al-rahman-ibn-attab-al-qurtubi|Abu Muhammad Abd al-Rahman ibn Muhammad ibn Attab of Córdoba]] (433–520 AH). {cite:muharrar-wajiz-dar-ibn-hazm p.2} Students travelled to him, among them [[person/ibn-khayr-al-ishbili|Abu Bakr Muhammad ibn Khayr of Seville]] (d. 575 AH); the hadith master [[person/ibn-hubaysh-hafiz|Ibn Hubaysh]] (504–584 AH), who read the whole commentary with him at Almería; the jurist Abu Bakr ibn Abi Jamra of Murcia; and the grammarian [[person/ibn-mada|Ibn Mada']]. {cite:muharrar-wajiz-dar-ibn-hazm p.3} He compiled a *Fahrasa* listing what he transmitted and his teachers, and was a poet. {cite:muharrar-wajiz-dar-ibn-hazm p.3}
+
+## Judgeship and death
+He became judge of [[place/almeria|Almería]] in 529 AH, at the end of Almoravid rule; Ibn Farhun reports in *al-Dibaj* that in office he "sought what was right, judged justly and dignified the post", and he held it for more than ten years. {cite:muharrar-wajiz-dar-ibn-hazm p.3} Al-Nubahi reports in his history of the judges of al-Andalus that he set out for [[place/murcia|Murcia]], having been appointed its judge, was prevented from entering and diverted to Lorca, where he died. {cite:muharrar-wajiz-dar-ibn-hazm p.3}
+
+## His standing
+His biographers agree on the breadth of his learning: Ibn Bashkuwal calls him "wide in knowledge, strong in letters, versed in the sciences"; Ibn Farhun, a jurist learned in tafsir, rulings, hadith, grammar, language and letters; al-Dhahabi in *Siyar A'lam al-Nubala'*, "the master of the commentators" and an imam in fiqh, tafsir and Arabic. {cite:muharrar-wajiz-dar-ibn-hazm p.2} Majd Makki counts him with Ibn al-Arabi among the great Western commentators of the first half of the sixth century AH, alongside al-Zamakhshari and al-Baghawi in the East. {cite:muharrar-wajiz-dar-ibn-hazm p.2}
+
+## His commentary
+Ibn Atiyya began his commentary in the lifetime of his father, who died in 518 AH, when he was about thirty, and worked on it for a long time; in his preface he calls it "the fruit of my existence and the choice of my effort". {cite:muharrar-wajiz-dar-ibn-hazm p.3} {cite:muharrar-wajiz-dar-ibn-hazm p.15} The book and its method are described under [[work/tafsir-ibn-atiyya|al-Muharrar al-Wajiz]], and the dispute over the Mu'tazili leanings attributed to it under [[question/was-ibn-atiyyas-tafsir-mutazili|Does Ibn Atiyya's commentary lean towards the Mu'tazila?]].

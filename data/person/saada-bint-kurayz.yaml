@@ -1,0 +1,30 @@
+id: person/saada-bint-kurayz
+class: person
+label: { en: "Sa'da bint Kurayz", ar: "سعدى بنت كريز", ur: "سعدیٰ بنت کریز" }
+names:
+  - { kind: full, lang: ar, value: "سعدى بنت كريز بن ربيعة بن عبد شمس العبشمية" }
+  - { kind: kunya, lang: ar, value: "بنت الشعري" }
+  - { kind: laqab, lang: ar, value: "خالة عثمان بن عفان" }
+gender: female
+roles: [poet]
+traditions: [sunni]
+summary:
+  en: "A soothsayer and poetess of the Banu Abd Shams — Uthman ibn Affan's maternal aunt — who foretold to Uthman the marriage of Ruqayya to the Prophet, and who composed verses on his Islam and marriage; al-Isaba and Ibn Abd al-Hadi's al-Iqd record her account."
+  ar: "كاهنة من كاهنات العرب وشاعرة من شواعرهم، خالة عثمان بن عفان؛ حدث عنها عثمان أنها تكهنت لقومها، فلما سمع عن زواج رقية بابن عبد المطلب أخبرته بأنها ستتزوج محمداً، وأنشدت أبياتاً في إسلامه وزواجه، وذكرها ابن حجر في الإصابة وابن عبد الهادي في العقد التام."
+wings: [people]
+themes: [women, literature, prophets]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+born: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/mecca, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/uthman-ibn-affan, note: "خالته سعدى بنت كريز؛ حدث عنها عثمان بن عفان في رؤيا إسلامه {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 197}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin; A'lam al-Nisa' vol. 2 p. 197-198 (PDF), entry سعدى بنت كريز" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

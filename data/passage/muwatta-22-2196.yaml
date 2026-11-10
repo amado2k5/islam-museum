@@ -1,0 +1,16 @@
+id: passage/muwatta-22-2196
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2196"
+label: { ar: "الموطأ 2196 — يحيى عن مالك: الأمر المجتمع عليه عندنا أن الهبة إذا تغيرت عند الموهوب له للثواب بزيادة أو نقصان، فإن على الموهوب له أن يعطي صاحبها قيمتها يوم قبضها", en: "Muwatta 2196" }
+summary:
+  ar: "قال يحيى: سمعت مالكا يقول: الأمر المجتمع عليه عندنا، أن الهبة إذا تغيرت عند الموهوب له للثواب، بزيادة أو نقصان، فإن على الموهوب له أن يعطي صاحبها قيمتها يوم قبضها. {cite:muwatta-maruf-1997 p.301}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hiba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2196 at PDF p. 301; القضاء في الهبة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b65" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 301; matn excerpt at most 40 words" }

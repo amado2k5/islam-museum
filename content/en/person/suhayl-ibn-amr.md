@@ -20,3 +20,12 @@ The diplomat of the opposition became the orator of the transition — the story
 
 ## For young visitors
 Suhayl was sent to argue with the Prophet — and later gave the speech that calmed Mecca when the Prophet died.
+
+## For Sprouts
+Suhayl ibn Amr, the orator of Quraysh; taken at Badr and ransomed, he signed the Hudaybiyya truce with the Prophet, entered Islam on the day of the conquest, and died in the plague of Amwas around 639 CE.
+
+## For Explorers
+Suhayl ibn Amr was the orator of Quraysh — the tongue sent out to negotiate. Taken at Badr and ransomed, he stayed among Mecca's public chiefs; when the Prophet came to perform umra in 628 Quraysh sent Suhayl to turn him back — he ended by signing the Hudaybiyya truce, arguing clause by clause. He entered Islam on the day of the conquest; the tradition preserves the Prophet's word on him that day — he is a man you will see in a place that will please you — read as fulfilled when Suhayl steadied Mecca's people with a sermon when the news of the Prophet's death came. He died in the plague of Amwas around 639 CE.
+
+## For Scholars
+Suhayl ibn Amr was the orator of Quraysh — the tongue sent out to negotiate. Taken at Badr and ransomed, he stayed among Mecca's public chiefs: when the Prophet came to perform umra in 628 Quraysh sent Suhayl to turn him back — he ended by signing the Hudaybiyya truce, arguing clause by clause. He entered Islam on the day of the conquest; the tradition preserves the Prophet's word on him that day — he is a man you will see in a place that will please you — read as fulfilled when Suhayl steadied Mecca's people with a sermon when the news of the Prophet's death came. He died in the plague of Amwas around 639 CE.

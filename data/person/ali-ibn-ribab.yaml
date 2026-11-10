@@ -1,0 +1,22 @@
+id: person/ali-ibn-ribab
+class: person
+label: { ar: "علي بن رباب", en: "'Ali ibn Ribab" }
+summary:
+  ar: "من علية علماء الرافضة وأخو اليمان بن رباب عالم الخوارج، يجتمعان ثلاثة أيام في السنة للمناظرة ثم يفترقان {cite:muruj-al-dhahab p. 183}."
+  en: "A leading Rafidi scholar — brother and annual debate-partner of the Kharijite al-Yaman {cite:muruj-al-dhahab p. 183}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+born: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "Leading Rafidi scholar; Kufan milieu, flagged.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

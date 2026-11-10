@@ -1,0 +1,76 @@
+id: exhibit/path-first-muslims
+class: exhibit
+kind: trail
+label:
+  ar: السابقون الأولون
+  en: The First Muslims
+summary:
+  ar: 'مسار في السابقين إلى الإسلام: خديجة وأبو بكر وعلي وزيد، والمستضعفون بلال وعمار وخباب، ومصعب السفير.'
+  en: A trail through the earliest Muslims.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: في البيت
+    en: In the house
+  body:
+    ar: 'خديجة وعلي وزيد: أوائل البيت.'
+    en: 'Khadija, Ali and Zayd: the household firsts.'
+  features:
+  - person/khadija
+  - person/ali-ibn-abi-talib
+  - person/zayd-ibn-haritha
+- title:
+    ar: الصديق
+    en: The friend
+  body:
+    ar: 'أبو بكر: صاحب الهجرة وأول الخلفاء.'
+    en: 'Abu Bakr: companion of the Hijra, first caliph.'
+  features:
+  - person/abu-bakr
+- title:
+    ar: المستضعفون
+    en: The oppressed
+  body:
+    ar: 'بلال وعمار وخباب: صبر العذاب.'
+    en: 'Bilal, Ammar, Khabbab: patience under torture.'
+  features:
+  - person/bilal-ibn-rabah
+  - person/ammar-ibn-yasir
+  - person/khabbab-ibn-al-aratt
+- title:
+    ar: الباحث
+    en: The seeker
+  body:
+    ar: 'سلمان الفارسي: من فارس إلى المدينة طلبًا للحق.'
+    en: 'Salman: from Persia to Medina seeking truth.'
+  features:
+  - person/salman-al-farisi
+- title:
+    ar: السفير
+    en: The envoy
+  body:
+    ar: مصعب بن عمير يفتح المدينة قبل النبي.
+    en: Mus'ab opens Medina before the Prophet.
+  features:
+  - person/musab-ibn-umayr
+  - place/medina
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

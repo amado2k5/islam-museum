@@ -1,0 +1,38 @@
+id: place/mumbai
+class: place
+kind: city
+label:
+  ar: مومباي
+  en: Mumbai
+  ur: ممبئی
+summary:
+  ar: أكبر مدن الهند وميناؤها على بحر العرب؛ عُرفت سابقاً باسم بومباي.
+  en: India's largest city and chief Arabian Sea port; formerly Bombay.
+wings:
+- place
+regions:
+- south-asia
+coordinates:
+- 19.07583
+- 72.8775
+coordinate_precision: locality
+coordinate_note: Wikidata Q1156 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q1156
+  geonames: '1275339'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1156 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1156 (labels, coordinates, description)

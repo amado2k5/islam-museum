@@ -1,0 +1,26 @@
+id: person/bujayr-ibn-bujra
+class: person
+label: { en: Bujayr ibn Bujra, ar: "بجير بن بجرة" }
+names:
+  - { kind: full, lang: ar, value: "بجير بن بجرة" }
+gender: male
+summary:
+  ar: "رجل من طيئ ذكر ابن إسحاق أنه قال أبياتاً في قصة البقر التي دلّت على أكيدر تصديقاً لقول النبي لخالد."
+  en: A man of Tayy; Ibn Ishaq records that he spoke verses on the story of the wild cows that led to Ukaydir, in confirmation of the Prophet's words to Khalid.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/treaty-of-ukaydir, role: poet, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 170"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch75
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,28 @@
+id: person/ubayd-allah-ibn-abd-allah-ibn-umar
+class: person
+label:
+  ar: "عبيد الله بن عبد الله بن عمر"
+  en: "Ubayd Allah ibn Abd Allah ibn Umar"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبيد الله بن عبد الله بن عمر؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ubayd Allah ibn Abd Allah ibn Umar; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam, source/taqrib-al-tahdhib]
+died: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Member of the Medinan family of Ibn Umar; tabi'un of Medina (regions: arabia).", sources: [source/al-aalam, source/taqrib-al-tahdhib] }
+external_ids:
+  wikidata: Q106715490
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 3

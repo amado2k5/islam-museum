@@ -1,0 +1,22 @@
+id: person/abu-karb-al-himyari
+class: person
+label: { ar: "تبع أبو كرب", en: "Tubba' Abu Karib" }
+summary:
+  ar: "تبع أبو كرب الحميري، سار في الأرض ووطئ الممالك وذللها، لقي بأرض العراق قباد ملك الطوائف فهزمه وملك العراق والشام والحجاز وكثيراً من الشرق، وفي أشعاره المنسوبة إليه وصف كسوة البيت الحرام بالملاء المقصب والبرود وطوافه به سبعاً وسبعاً وسجوده عند المقام، وقال المسعودي إنما يسمى ملك اليمن تبعاً حين ينقاد إليه أهل الشحر وحضرموت {cite:muruj-al-dhahab p. 429-430}."
+  en: "The Himyarite conqueror who broke the Partisan king Qubadh and ruled Iraq, Syria and the Hijaz — his verses claim the Ka'ba's striped covering and seventy circuits — while al-Mas'udi glosses the title 'Tubba' as earned only once Shahar and Hadhramawt obeyed {cite:muruj-al-dhahab p. 429-430}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "440~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Robin, The South Arabian Inscriptions; EI2 (Tubba')" }
+relations:
+  - { type: ruler_of, target: place/iraq, note: "From text: ruled Iraq", sources: [source/muruj-al-dhahab] }

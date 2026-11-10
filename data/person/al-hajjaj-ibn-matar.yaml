@@ -1,0 +1,13 @@
+id: person/al-hajjaj-ibn-matar
+class: person
+label: { ar: "الحجاج بن مطر", en: "Al Hajjaj Ibn Matar" }
+summary:
+  ar: "الحجاج بن مطر فسر للمأمون وهو الذي نقل المجسطي وإقليدس، وكان فيمن أخرجه المأمون إلى بلد الروم لجلب الكتب القديمة {cite:fihrist-ibn-al-nadim p. 339-341}. ونقل كتاب إقليدس في أصول الهندسة نقلين أحدهما يعرف بالهاروني وهو الأول والثاني المأموني وعليه يعول {cite:fihrist-ibn-al-nadim p. 371}"
+  en: "Translator of the Almagest and Euclid for al-Ma'mun {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hadjdjadj b. Yusuf b. Matar' / Juan Vernet); Suter" }
+died: { edtf: "833~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hadjdjadj b. Yusuf b. Matar' / Juan Vernet); Suter" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Translator of the Almagest and Euclid for al-Ma'mun, and among those sent by him to Byzantine lands for the old books; the translation project was Baghdad.", sources: [source/fihrist-ibn-al-nadim], confidence: medium }

@@ -1,0 +1,29 @@
+id: person/yazicioglu-mehmed
+class: person
+label:
+  ar: "يازجي أوغلو محمد"
+  en: "Yazicioglu Mehmed"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية ليازجي أوغلو محمد؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yazicioglu Mehmed, the Ottoman writer (poet of the Muhammediyye, d. 1451); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1451", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: died_in, target: place/gelibolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q216907)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136169326
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0095
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,32 @@
+id: person/sulayman-al-bujayrami
+class: person
+label:
+  ar: "البُجَيْرِمي"
+  en: "Al-Bujayrimi"
+names:
+  - { value: "البُجَيْرِمي", kind: full }
+died: { hijri: "1221", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Dates as given in the appendix: 1131-1221 AH." }
+summary:
+  ar: "سليمان بن محمد بن عمر البجيرمي، فقيه شافعي من بُجيرم، قرية بغربية مصر، قدم القاهرة صغيراً وتعلم بالأزهر ودرّس، وكف بصره. له «التجريد» وهو شرح على «المنهج»، و«تحفة الحبيب» وهو حاشية على شرح الخطيب المسمى «الإقناع في حل ألفاظ أبي شجاع». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1615}"
+  en: "Sulayman ibn Muhammad ibn Umar al-Bujayrimi, a Shafi'i jurist from Bujayram, a village in Gharbiyya in Egypt. He came to Cairo as a child, studied and taught at al-Azhar, and lost his sight. His works include al-Tajrid, a commentary on al-Minhaj, and Tuhfat al-habib, a gloss on al-Khatib's commentary Iqna' fi hall alfaz Abi Shuja'. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1615}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1615 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

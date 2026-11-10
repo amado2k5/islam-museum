@@ -1,0 +1,16 @@
+id: media/diagram-shatir-lunar-model
+class: media
+kind: illustration
+label: { ar: "من خلل المسافة إلى فلكي التدوير والمقارنة", en: "Distance problem to double epicycle and comparison", ur: "فاصلے کی مشکل سے دو تدويری دائروں اور تقابل تک" }
+summary: { ar: "سلسلة تعليمية تاريخية لا نسخة من شكل روبرتس.", en: "Historical teaching chain, not a copy of Roberts's figure.", ur: "تاریخی تدریسی سلسلہ، رابرٹس کی شکل کی نقل نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ibn-al-shatir-lunar-model]
+alt:
+  ar: "مسافة قمر مبالغ في تغيرها في النموذج السابق ثم نموذج ابن الشاطر الأرضي ذو فلكي تدوير ثم مقارنة كوبرنيكوس؛ طريق الانتقال غير مثبت هنا."
+  en: "Exaggerated earlier lunar-distance variation, Ibn al-Shatir's Earth-centred double epicycle, then Copernican comparison; transmission route unestablished here."
+  ur: "پہلے نمونے میں قمری فاصلے کا مبالغہ، ابن شاطر کا زمین مرکزی دو تدويری نمونہ، پھر کوپرنیکس سے تقابل؛ انتقال کا راستہ یہاں ثابت نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/roberts-shatir-1957, source/king-ibn-shatir-bea]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b64", source: "Generic bounded chain, no copied historical figure or invented transfer link" }

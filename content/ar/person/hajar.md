@@ -1,0 +1,39 @@
+---
+id: person/hajar
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+هاجر أم [[person/ismail|إسماعيل]]؛ أخدمها فرعون مصر [[person/sara|سارة]] فزوّجتها [[person/ibrahim|إبراهيم]]، ثم أسكنها إبراهيم مع رضيعها بوادي [[place/mecca|مكة]] فتفجرت لهما زمزم، وأذنت [[group/jurhum|لجرهم]] بالنزول {cite:mubarakpuri-raheeq p.18}.
+
+## أصلها
+عرف فرعون مصر ما لسارة من الصلة القوية بالله حتى أخدمها هاجر اعترافاً بفضلها، فزوّجتها سارة إبراهيم {cite:mubarakpuri-raheeq p.18} {cite:sahih-al-bukhari 1/474}. وينقل المؤلف في الحاشية أن المعروف أن هاجر كانت أمة مملوكة، ولكن القاضي محمد سليمان المنصور فوري حقق أنها كانت حرة وأنها ابنة فرعون {cite:mubarakpuri-raheeq p.18} {cite:rahma-lil-alamin 2/36-37}؛ فأصلها محل خلاف بين الرواية المشهورة وتحقيق المنصور فوري.
+
+## إلى وادي مكة
+رزق الله إبراهيم من هاجر إسماعيل، وغارت سارة حتى ألجأت إبراهيم إلى الخروج بهاجر وولدها الصغير، فقدم بهما إلى الحجاز وأسكنهما بوادٍ غير ذي زرع عند البيت المحرم، فوضعهما عند دوحة فوق زمزم في أعلى المسجد، وليس بمكة يومئذ أحد ولا ماء، ووضع عندهما جراباً فيه تمر وسقاءً فيه ماء ورجع إلى فلسطين {cite:mubarakpuri-raheeq p.18} {cite:sahih-al-bukhari 1/474-475}. ولم تمض أيام حتى نفد الزاد والماء، وهناك تفجرت بئر زمزم فصارت قوتاً لهما وبلاغاً إلى حين، والقصة معروفة بطولها {cite:mubarakpuri-raheeq p.18}. انظر [[event/settlement-of-hajar-and-ismail|إسكان هاجر وإسماعيل بمكة]].
+
+## جرهم
+جاءت قبيلة يمانية هي جرهم الثانية فقطنت مكة بإذن من أم إسماعيل، وصرحت رواية البخاري أنهم نزلوا مكة بعد إسكانه وقبل أن يشبّ {cite:mubarakpuri-raheeq p.18} {cite:mubarakpuri-raheeq p.19} {cite:sahih-al-bukhari 1/474-475}.
+
+## وفاتها
+ماتت أم إسماعيل بعد أن شبّ إسماعيل وتزوج من جرهم، وقبل الرحلة الثانية المحفوظة لإبراهيم {cite:mubarakpuri-raheeq p.19} {cite:sahih-al-bukhari 1/475-476}.
+
+## للزوار الصغار
+هاجر أم إسماعيل؛ بقيت في مكة مع رضيعها، فسقاهما الله من بئر زمزم التي لا تزال قائمة.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يستشهد الشيخ بهاجر في التوكل: لما قلّ الماء عندها وعندها رضيعها سعت بين الصفا والمروة سبع مرات، وهذا عنده اتخاذ الأسباب، وكانت قد توكلت على الله يوم علمت أن تركها هناك أمر من الله فقالت إنه لن يضيعهما. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:06:30} ويرى أن الماء لم ينبع عند الصفا ولا عند المروة، وأنها دعت على قدرها فأعطاها الله على قدره، فكانت زمزم التي يشرب منها الحجيج والمعتمرون وأهل مكة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:30}
+وفي حلقة أخرى يذكرها مع رضيعها في وادٍ غير ذي زرع مثلًا على أن الخير قد يكمن فيما يكرهه الإنسان، إذ كان من ذرية إسماعيل خير الخلق. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يقول الشيخ إن هاجر لم تكن أمة كما يقال في بعض كتب التاريخ، بل كانت من سلالة ملوك زالت دولتهم فأُخذت سبية إلى قصر الفرعون، وأُهديت إلى إبراهيم في مصر ⁦(needs_source: هذا قوله)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:02:00} ويروي أنها لما تركها إبراهيم مع رضيعها عند البيت سألته: آلله أمرك بهذا؟ فلما قال نعم قالت: إذن لن يضيّعنا، ويرى في ذلك الفرج الحقيقي، ثم نبعت زمزم وجاءت جرهم فتزوج منهم إسماعيل، ومن ذريته جاء النبي. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:10:00}
+
+## في برنامج مصطفى حسني «عيش اللحظة»
+يذكر [[person/mustafa-hosny|مصطفى حسني]] هاجر في الحلقة الثانية والعشرين من برنامجه [[work/ich-allahda|«عيش اللحظة»]]، عن لحظة المواجهة، ويجعلها أسوة لكل امرأة غاب زوجها أو طلّقها فحملت دور الرجل والمرأة معًا. {cite:assabile-mustafa-hosny ich-allahda/ep22 00:23:30} {cite:assabile-mustafa-hosny ich-allahda/ep22 00:24:00} ويقول إن الله أمر إبراهيم أن يمضي إلى فلسطين ويتركها وطفلها الرضيع في مكان لا إنسان فيه ولا ماء، فسألته إن كان الله قد أمره بذلك، فأومأ أن نعم، فأيقنت أن الله لن يتركهما، ويذكر دعاء إبراهيم عند البيت المحرّم. {cite:assabile-mustafa-hosny ich-allahda/ep22 00:24:00} ويقول إن خيرات مكة كلها جاءت لأنها احتملت تلك اللحظة. {cite:assabile-mustafa-hosny ich-allahda/ep22 00:24:30}
+
+## في برنامج طارق السويدان «نساء خالدات»
+يروي [[person/tariq-al-suwaidan|طارق السويدان]] في الحلقة الثانية عشرة من برنامجه [[work/nesaa-khalidat-program|«نساء خالدات»]] قصة هاجر بعد قصة سارة. يذكر أنها الجارية التي وهبها ملك مصر لسارة، فوهبتها سارة لإبراهيم، ووُلد إسماعيل وإبراهيم ابن ست وثمانين سنة. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:06:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:07:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:08:00} ثم أمر الله إبراهيم أن يأخذها هي والرضيع إلى جزيرة العرب، إلى وادي مكة الخالي من البناء والناس. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:08:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:09:00} فلما سألته أين يتركهم لم يجبها، فلما سألته آلله أمره بهذا فقال نعم، أيقنت أن الله لن يضيّعهم. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:09:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:11:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:11:30}
+
+ولما نفد الماء وبكى الرضيع صعدت الصفا تبحث عن أحد، ثم مشت نحو المروة تجري في بطن الوادي بينهما، وترجع كل مرة لأنها لا تطيق البعد عن ولدها، سبع مرات. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:13:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:14:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:15:30} ويلفت إلى أن سعي الحجاج بين الجبلين يحفظ ذكرى امرأة. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:16:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:17:00} ويروي أن جبريل ضرب الأرض عند إسماعيل فنبعت زمزم، وأن هاجر حوّطت الماء لئلا يسيل، وهو ما ذكره النبي حين قال إنها لو تركته لكان عينًا جارية. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:18:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:19:00} ورأت قبيلة جرهم الطير تحوم فجاءت تستأذن في السكن، فكان ما يدفعونه مقابل الماء معاشها. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:18:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:19:30}

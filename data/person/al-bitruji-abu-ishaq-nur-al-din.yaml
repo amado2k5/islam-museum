@@ -1,0 +1,38 @@
+id: person/al-bitruji-abu-ishaq-nur-al-din
+class: person
+label: { ar: "البطروجي أبو إسحاق نور الدين", en: "al-Bitruji Abu Ishaq Nur al-Din" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق نور الدين البطروجي" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+  - { kind: nisba, lang: ar, value: "البطروجي" }
+gender: male
+roles: [astronomer]
+traditions: [sunni]
+summary:
+  ar: "من أجلّ علماء الفلك العرب، من أصل أندلسي، أصيل بلدة بيدروش قرب قرطبة، وكان حياً في القرن السادس الهجري."
+  en: "Among the great Arab astronomers, of Andalusi origin from Bidrush near Cordoba, active in the sixth century AH."
+wings: [people]
+themes: [astronomy-and-timekeeping]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص563"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Bitruji)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (أندلسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

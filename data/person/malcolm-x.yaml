@@ -1,0 +1,52 @@
+id: person/malcolm-x
+class: person
+label:
+  ar: مالكولم إكس ⁦(الحاج مالك الشباز)⁩
+  en: Malcolm X
+gender: male
+born:
+  edtf: '1925'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+died:
+  edtf: '1965'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+roles:
+- activist
+summary:
+  ar: داعية أمريكي أفريقي تحول من أمة الإسلام إلى الإسلام السني بعد حجه 1964؛ اغتيل في نيويورك وأصبح رمزًا
+    للحقوق المدنية.
+  en: Malcolm X.
+wings:
+- people
+themes:
+- converts-and-leavers
+- muslim-minorities-under-non-muslim-rule
+- race-colour-ethnicity
+regions:
+- americas-oceania
+- arabia
+relations:
+  - { type: born_in, target: place/omaha, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/manhattan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/washington-heights, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources:
+- source/wikidata
+- source/assabile-tareq-al-suwaidan
+external_ids:
+  wikidata: Q43303
+provenance:
+  layer: own-research
+  source: "Original record by Devin (questions lane, via Wikidata, 2026-10-16); the section on Tareq al-Suwaidan's A Story and an Idea (kissa-wa-fikra ep02) added from the Assabile recording, transcript pass5-qwen (Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)"
+  generated_by: "Devin (SWE-2 High); Claude Code (claude-opus-5-5) for the kissa-wa-fikra section"
+  model: claude-opus-5-5
+  run: suwaidan-kissa-wa-fikra-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16

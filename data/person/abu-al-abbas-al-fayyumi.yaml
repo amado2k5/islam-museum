@@ -1,0 +1,28 @@
+id: person/abu-al-abbas-al-fayyumi
+class: person
+label:
+  ar: "أبو العباس الفيومي"
+  en: "Abu al-Abbas al-Fayyumi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي العباس أحمد الفيومي، فقيه ولغوي القرن الرابع عشر صاحب المصباح المنير، توفي سنة ١٣٦٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Abbas Ahmad al-Fayyumi, the fourteenth-century jurist and lexicographer author of al-Misbah al-Munir, d. 1368; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28713201
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0054
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1368", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/al-fayyum, note: "Place association from the person's nisba/name (الفيومي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

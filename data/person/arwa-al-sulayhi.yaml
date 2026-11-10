@@ -1,0 +1,32 @@
+id: person/arwa-al-sulayhi
+class: person
+label:
+  ar: "أروى بنت أحمد الصليحية"
+  en: "Arwa al-Sulayhi"
+  ur: "اروی صلیحیہ"
+roles: [ruler]
+gender: female
+summary:
+  ar: "أروى بنت أحمد بن جعفر الصليحية، الملقبة بالحرة الكاملة وبلقيس الصغرى، ملكة يمانية حازمة مدبرة، نشأت في حجر أسماء بنت شهاب، وتزوجها المكرم فلما فُلج فوّض إليها الأمور، فحكمت من حصنها بذي جبلة، واستمرت في الحكم بعد المكرم وسبأ بن أحمد نحو أربعين سنة، يُخطب لها على منابر اليمن بعد المستنصر الفاطمي، وهي آخر ملوك الصليحيين."
+  en: "Arwa bint Ahmad ibn Ja'far al-Sulayhiyya, called al-Hurra al-Kamila and 'the younger Bilqis', a resolute Yemeni queen raised by Asma' bint Shihab. When her husband al-Mukarram was paralysed he entrusted affairs to her; she ruled from her fortress at Dhu Jibla, continued after al-Mukarram and Saba' ibn Ahmad for some forty years, was named in the Friday sermon after the Fatimid al-Mustansir, and was the last of the Sulayhid rulers."
+wings: [people]
+regions: [arabia]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [women, politics-governance-and-authority]
+born: { edtf: "1048", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umara al-Yamani" }
+died: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umara al-Yamani" }
+relations:
+  - { type: lived_in, target: place/dhu-jibla, sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/al-aalam, source/alam-al-nisa-kahhala-risala-1984-v1]
+external_ids:
+  wikidata: Q444206
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0016
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: entry read in source/alam-al-nisa-kahhala-risala-1984-v1 PDF p. 31 (Kahhala after al-Zirikli); full prose trio"
+status:
+  review: published
+  completeness: 3

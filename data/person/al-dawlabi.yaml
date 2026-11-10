@@ -1,0 +1,21 @@
+id: person/al-dawlabi
+class: person
+label: { ar: "علي بن عبد العزيز الدولابي", en: "Al Dawlabi" }
+summary:
+  ar: "علي بن عبد العزيز بن محمد الدولابي من المتفقهين على مذهب الطبري، وله كتاب الرد على ابن المغلس وكتاب في بسم الله الرحمن الرحيم وكتاب القراءات وكتاب أصول الكلام وكتاب أفعال النبي وكتاب التبصير ورسالته إلى نصر القشوري ورسالته إلى علي بن عيسى وكتاب المسئلة في اقتراض الإماء وكتاب الأصول الأكبر والأصغر والأوسط وكتاب عبارة الرؤيا وكتاب إثبات الرسالة {cite:fihrist-ibn-al-nadim p. 327-328}."
+  en: "Al-Dawlabi — jurisconsult of the Tabari school {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+born: { edtf: "839", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "923", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Jurisconsult of the Tabari school; the school of Ibn Jarir al-Tabari was centred in Baghdad. Inferred.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab], confidence: low }

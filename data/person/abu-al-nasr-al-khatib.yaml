@@ -1,0 +1,29 @@
+id: person/abu-al-nasr-al-khatib
+class: person
+label:
+  ar: "أبو النصر الخطيب"
+  en: "Abu al-Nasr al-Khatib"
+roles: [scholar]
+gender: male
+summary:
+  ar: "محمد بن عبد القادر الخطيب أبو النصر الشافعي، محدث دمشقي ⁦(١٢٥٣–١٣٢٤هـ)⁩، وصفه الكتاني بأنه يحدّث حفظًا متنًا وسندًا، من مدرسي الجامع الأموي."
+  en: "Muhammad ibn Abd al-Qadir al-Khatib Abu al-Nasr, Damascene hadith scholar (1253–1324/1837–1906), praised by al-Kattani for narrating from memory; Umayyad Mosque teacher."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q123663751
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1837", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Bitar, Hilyat al-Bashar" }
+died: { edtf: "1906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Bitar, Hilyat al-Bashar" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (دمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,24 @@
+id: event/founding-of-shahjahanabad-1638
+class: event
+kind: founding
+label: { ar: "تأسيس شاهجهان آباد", en: "Founding of Shahjahanabad" }
+summary:
+  ar: "أمر شاه جهان سنة 1638م ببناء عاصمة جديدة بدلهي سميت شاهجهان آباد، تحيط بها الأسوار وفي قلبها القلعة الحمراء {cite:asher-mughal-india-1992}."
+  en: "In 1638 Shah Jahan ordered a new walled capital at Delhi, named Shahjahanabad, with the Red Fort at its heart {cite:asher-mughal-india-1992}."
+  ur: "1638ء میں شاہ جہان نے دہلی میں شاہجہان آباد نامی نئی محصور راجدھانی بنانے کا حکم دیا جس کے مرکز میں لال قلعہ تھا {cite:asher-mughal-india-1992}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1638", precision: year, status: tradition, derived: true }
+  end: { edtf: "1638", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/delhi, sources: [source/asher-mughal-india-1992] }
+  - { type: had_participant, target: person/shah-jahan-mughal, role: "المؤسس", sources: [source/asher-mughal-india-1992] }
+sources: [source/asher-mughal-india-1992]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mughal Delhi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mughal-delhi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

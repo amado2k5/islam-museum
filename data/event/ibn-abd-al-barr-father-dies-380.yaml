@@ -1,0 +1,28 @@
+id: event/ibn-abd-al-barr-father-dies-380
+class: event
+kind: death
+label:
+  ar: "وفاة والد ابن عبد البر أبي محمد عبد الله في ربيع الآخر ٣٨٠هـ"
+  en: "Ibn 'Abd al-Barr's father Abu Muhammad 'Abd Allah dies, Rabi' II 380/990"
+  ur: "ابن عبد البر کے والد ابو محمد عبد اللہ کی وفات، ربیع الثانی 380ھ/990ء"
+summary:
+  ar: "ذكر أبو عمر ابن عبد البر أن والده أبا محمد عبد الله بن محمد بن عبد البر توفي في شهر ربيع الآخر سنة ثمانين وثلاثمائة وكان مولده سنة ثلاثين وثلاثمائة {cite:wafayat-ayan p. 71}؛ وكان ابن عبد البر يومها ابن اثنتي عشرة سنة."
+  en: "Abu 'Amr Ibn 'Abd al-Barr recorded that his father Abu Muhammad 'Abd Allah ibn Muhammad ibn 'Abd al-Barr died in Rabi' II 380, having been born in 330 {cite:wafayat-ayan p. 71}; Ibn 'Abd al-Barr was then a boy of twelve."
+  ur: "ابو عمر ابن عبد البر نے لکھا کہ ان کے والد ابو محمد عبد اللہ بن محمد بن عبد البر ربیع الثانی 380ھ میں فوت ہوئے اور ان کی پیدائش 330ھ میں ہوئی {cite:wafayat-ayan p. 71}؛ اس وقت ابن عبد البر کی عمر بارہ سال تھی۔"
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0990-07~", hijri: "0380-04", calendar: julian, precision: month, status: tradition, derived: true, note: "والده توفي في شهر ربيع الآخر سنة ثمانين وثلاثمائة ومولده سنة ثلاثين وثلاثمائة {cite:wafayat-ayan p. 71}؛ التحويل مشتق.", sources: [source/wafayat-ayan] }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/ibn-abd-al-barr, role: "الابن", sources: [source/wafayat-ayan] }
+  - { type: had_participant, target: person/abd-allah-ibn-muhammad-ibn-abd-al-barr, role: "المتوفى", sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "Ibn Khallikan, Wafayat al-A'yan (ihsan-abbas) v7, Ibn 'Abd al-Barr entry (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-abd-al-barr-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

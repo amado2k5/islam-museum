@@ -1,0 +1,23 @@
+id: event/battle-of-pente-pigadia-1912
+class: event
+kind: battle
+label: { ar: "معركة بينتي بيغاديا", en: "Battle of Pente Pigadia" }
+summary:
+  ar: "بطاقة أولية لمعركة بينتي بيغاديا سنة ١٩١٢م، هزيمة المدافعين العثمانيين في حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Pente Pigadia in 1912, the Ottoman defeat in the Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1912", precision: year, status: tradition, derived: true }
+  end: { edtf: "1912", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3656759
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

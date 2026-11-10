@@ -1,0 +1,21 @@
+id: person/ibn-aisha-al-abbasi
+class: person
+label: { ar: "ابن عائشة العباسي", en: "Ibn 'A'isha al-'Abbasi" }
+summary:
+  ar: "إبراهيم بن محمد بن عبد الوهاب بن إبراهيم الإمام أخي السفاح والمنصور من ولد العباس بن عبد المطلب، ركب إليه المأمون إلى المطبق بالليل حتى قتله سنة تسع ومائتين وقتل معه محمد بن إبراهيم الأفريقي، وهو أول عباسي صلب في الإسلام {cite:muruj-al-dhahab p. 428}."
+  en: "The Imam Ibrahim's grandson — ridden to al-Mutbaq by night and killed by al-Ma'mun in 209, the first 'Abbasid crucified in Islam {cite:muruj-al-dhahab p. 428}."
+gender: male
+wings: [people]
+died: { edtf: "820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 428"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

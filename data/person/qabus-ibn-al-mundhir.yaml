@@ -1,0 +1,27 @@
+id: person/qabus-ibn-al-mundhir
+class: person
+label:
+  ar: "قابوس بن المنذر"
+  en: "Qabus ibn al-Mundhir"
+  ur: "قابوس بن المنذر"
+names:
+  - { kind: full, lang: ar, value: "قابوس بن المنذر" }
+gender: male
+roles: [king]
+traditions: [sunni]
+summary:
+  ar: "قابوس الثالث اللخمي، من ملوك الحيرة بعد مقتل أخيه عمرو بن هند، قصير المدة؛ تولى نحو 45 ق ه ⁦(582م)⁩."
+  en: "Qabus III al-Lakhmi (r. c.582), Lakhmid king of al-Hira after 'Amr ibn Hind."
+  ur: "عمرو بن المنذر کے بھائی، جاہلیت میں حیرہ کے حکمرانوں میں سے؛ وہ جوان تھے اور تفریح پسند تھے، ان کے پاس طرفہ اور متلمس ٹھہرے۔ {cite:nihayat-al-arab-nuwayri-vol3-scan p. 23}"
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: ruler, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol3-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 23, from OCR; not image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 23", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-pp22-24" }
+died: { edtf: "577", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/al-hira, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }

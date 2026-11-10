@@ -1,0 +1,26 @@
+id: person/burhan-al-din-al-hilli
+class: person
+label: { ar: "برهان الدين الحلي المحدث", en: "Burhan al-Din al-Hilli al-Muhaddith" }
+names:
+  - { value: "برهان الدين أبو إسحاق إبراهيم بن محمد بن خليل الحلي", kind: full }
+gender: male
+summary:
+  ar: "الحافظ برهان الدين أبو إسحاق إبراهيم بن محمد بن خليل الحلي المحدث، توفي سنة أربعين وثمانمائة {cite:shadharat-dhahab p. 237}."
+  en: "The hafiz Burhan al-Din Abu Ishaq Ibrahim b. Muhammad b. Khalil al-Hilli, the traditionist; died 840 {cite:shadharat-dhahab p. 237}."
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+died: { edtf: "1437~", hijri: "0840", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 840 {cite:shadharat-dhahab p. 237}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 840)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch72
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3

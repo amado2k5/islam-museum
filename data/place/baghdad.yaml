@@ -1,14 +1,53 @@
 id: place/baghdad
 class: place
 kind: city
-label: { en: "Baghdad", ar: "بغداد" }
+label: { en: "Baghdad", ar: "بغداد", ur: "بغداد" }
 summary:
   en: "Capital of the Abbasid caliphate, founded by al-Mansur in 762 CE and a great centre of learning."
-  ar: "عاصمة الخلافة العباسية، أسسها المنصور سنة 762م، وكانت مركزًا كبيرًا للعلم."
+  ar: "عاصمة الخلافة العباسية، أسسها المنصور سنة 762م، وكانت مركزًا كبيرًا للعلم. وعند المسعودي بنى المنصور على كل باب من أبواب مدينته الأربعة مجلساً يشرف منه على ما يليه من البلاد وهي شوارع محدقة وطاقات معقودة باقية إلى سنة اثنتين وثلاثين وثلثمائة، أولها باب خراسان وكان يسمى باب الدولة لإقبال الدولة العباسية من خراسان ثم باب الشام فباب الكوفة فباب البصرة، وبينما هو في مجلس باب خراسان سقط بين يديه سهم مكتوب عليه أبيات في الوعظ وهمذان منها رجل مظلوم في حبسك، ففتشوا الحبوس فوجدوا شيخاً موثقاً بالحديد منذ أربعة أعوام أخذ الوالي ضيعته، فأطلقه ورد عليه ضيعته بخراجها وعرض عليه ولاية همذان فأباها وعفا عن الوالي {cite:muruj-al-dhahab p. 276-278}. ووصفها المقدسي نحو 375هـ: «هواء رقيق وعلم دقيق، كل جيد بها وكل حسن فيها وكل حاذق منها وكل ظرف لها وكل قلب إليها وكل حرب عليها وكل ذب عنها» — مع خشيته أن تعود كسامراء إذ هي في كل يوم إلى وراء؛ وروى أن المنصور أمر رجالاً ينامون في موضعها فصول السنة ليعرف شتاءها وصيفها وبقّها قبل أن يبني، وأن أبا حنيفة كان فيمن أحضرهم للاستشارة في خطّها سنة 145 وأنفق عليها أربعة آلاف ألف وثمانمائة وثلاثة وثلاثين درهماً {cite:ahsan-al-taqasim pp. 107-109}"
+  ur: "بغداد، عباسی دارالحکومت؛ منصور کے گول حکومتی مرکز کی762میں تعمیر،763میں حکومتی منتقلی اور766میں تکمیل الگ مرحلے ہیں۔ بعد کا پورا شہر اس دائرے میں محدود نہیں تھا {cite:tdv-bagdat-duri Foundation and plan} {cite:lestrange-baghdad-1900 p.15–16}۔"
 wings: [place]
+inventions:
+  - { invention: invention/karaji-binomial-coefficient-recurrence, relation: site-of, sources: [source/karaji-mactutor, source/tdv-kereci] }
+  - { invention: invention/round-city-baghdad, relation: site-of, sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
+  - { invention: invention/mansur-covered-water-conduits, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
+  - { invention: invention/abu-hanifa-brick-stack-reckoning, relation: site-of, sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
+  - { invention: invention/karkh-market-relocation-zoning, relation: site-of, sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900] }
+  - { invention: invention/khwarizmi-sindhind-tables, relation: site-of, sources: [source/khwarizmi-mactutor, source/tdv-harizmi] }
 regions: [levant-iraq]
 coordinates: [33.3406, 44.4009]
 coordinate_precision: site
-external_ids: { geonames: "98182", pleiades: "893952" }
-sources: [source/geonames-gazetteer]
+external_ids: { wikidata: "Q1530", geonames: "98182", pleiades: "893952", nomisma: "baghdad", idai: "2769425" }
+sources: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim, source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/baladhuri-hitti-1916, source/commons-round-city-lestrange, source/karaji-mactutor, source/tdv-kereci, source/khwarizmi-mactutor, source/tdv-harizmi, source/nomisma, source/idai-gazetteer]
+education:
+  did_you_know:
+    ar: "لُقّبت بغداد بمدينة السلام، وكانت في القرن الثالث الهجري أوسع مدن الدنيا؛ قدّر الجغرافيون أهلها بمئات الألوف."
+    en: "Baghdad, the City of Peace, was the widest of the world's cities in the third Hijri century; geographers counted its people in the hundreds of thousands."
+    ur: "بغداد شہرِ سلامت کہلایا اور تیسری ہجری صدی میں دنیا کا سب سے بڑا شہر تھا؛ جغرافیہ دانوں نے اس کی آبادی لاکھوں میں گنی۔"
+    sources: [source/muruj-al-dhahab, source/ahsan-al-taqasim]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+
+founded:
+  edtf: "0762"
+  precision: year
+  status: historical
+  sources: [source/muruj-al-dhahab]
+  note: "Founded by al-Mansur in 762 CE (muruj al-dhahab p. 276-278; the infobox of the English Wikipedia article gives 30 July 762, not used here)."
+provenance:
+  layer: own-research
+  source: "The sources cited in this record: [source/farghani-elements-astronomy, source/geonames-gazetteer, source/muruj-al-dhahab, source/ahsan-al-taqasim]. Provenance recorded on 28 October 2026 from git history (created in commit f5fbfe41a2)."
+  generated_by: "unknown (created in commit f5fbfe41a2; no agent trailer)"
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Added mathematical-context site tie and prose; no exact workshop, route or lost-text writing location asserted. Prior city accounts/coordinates/dates/provenance preserved." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b94", source: "D-136; actual Duri first article/Le Strange15–29/MapII/Hitti445–446. Additive Urdu metadata,site tie and three sections per language; original coordinates,founded date,accounts,status,provenance and prose preserved." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b95", source: "D-137; added site-of link to covered-conduits arrangement and additive prose sections; preserved earlier fields/status/provenance." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "D-138; added site-of link for reported brick-stack reckoning method and additive prose sections." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b97", source: "D-139; added a site-of link for the reported Karkh market relocation and additive prose while preserving original coordinates, date and prior accounts." }
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b100, source: "D-143; appended the cautious site-of tie for the Sindhind tables and translated location-limit prose; no observatory or writing room is asserted." }
+kids:
+  ar: "بغداد مدينة السلام أسسها المنصور في العهد العباسي، وصارت عاصمة العلم في العالم."
+  en: "Baghdad, the City of Peace founded by al-Mansur in Abbasid times — it became the world's capital of learning."
+  ur: "بغداد شہر سلام جسے عباسی خلیفہ منصور نے بنایا — علم کی عالمی دارالحکومت بنا۔"

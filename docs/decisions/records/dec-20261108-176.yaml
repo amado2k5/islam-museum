@@ -1,0 +1,32 @@
+id: dec-20261108-176
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: 93b564f6fd77
+lane: "coverage-programme"
+class: "process"
+modality: "repo"
+domain: "sources"
+mode: "conservative"
+question: "The authenticity validator requires named_edition (publisher_any + editor_any) for every accept decision. For pre-print canon books whose authenticity rests on manuscript tradition or institutional scans (no print publisher exists or is relevant), should accept still require a named modern edition, or should institutional provenance / a manuscript record satisfy the basis?"
+options:
+  - "accept requires named_edition for all books (current validator)"
+  - "accept allows manuscript/institutional authenticity_basis without named_edition for pre-print works"
+  - "pre-print books get a separate decision path (e.g. accept-manuscript)"
+evidence:
+  - "scripts/check-authenticity.ts line ~52: accept requires named_edition with publisher_any and editor_any"
+  - "docs/delegation/authenticity-policy-proposal.md section 6: authenticity_basis may be a named edition, institutional provenance, or manuscript/primary record"
+  - "docs/delegation/canon-batch-01-proposal.md: 16 accept candidates are all pre-print works held as library scans"
+status: decided
+step: safe-default
+decision: "hold as draft-tier / pointer-only; record question in lane progress file for the next precedent-extraction pass"
+confidence: 0.4
+reversible: true
+rationale: "No rule or precedent matched. Defaulting to the most conservative reversible action per the decision-ledger design."
+needs_precedent: true
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":0,"rule_ids_fired":[],"precedent_distance":0.784,"top_precedent_id":"ruling-docs-agents-audio-video-harvest-md-178","top_precedent_status":"founder-ruled","founder_resolution":null,"founder_override":false,"calibration_weight":1}

@@ -1,0 +1,68 @@
+---
+id: person/al-hasan-al-basri
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+Abu al-Hasan al-Hasan ibn Yasar al-Basri. In one report his father's name was Firuz. {cite:muruj-al-dhahab p.192}
+
+## Upbringing
+He and his brother Sa'id were taken captive from Maysan and came into the possession of an Ansari woman, al-Rabi' daughter of al-Nadr, the paternal aunt of Anas ibn Malik, or it is said the wife of Anas, Jamila. She set them free, and he said: "Our clientage is to her." He was born in Medina two years before the end of the caliphate of [[person/umar-ibn-al-khattab|Umar]]. He left it a year after Siffin, and died in Basra in 110 AH at the age of eighty-nine, though it is said ninety. {cite:muruj-al-dhahab p.192} See [[place/basra|Basra]].
+
+One source in the data records his death at the age of eighty-eight, so the disagreement over his age is recorded in the data.
+
+## His admonition to Ibn Hubayra
+Al-Mas'udi relates that Umar ibn Hubayra sent to him in 103 AH with al-Sha'bi and Ibn Sirin. Al-Hasan said to Ibn Hubayra: "Fear God regarding Yazid, and do not make Yazid fear God." His words imply that there is no obedience to a created being in disobedience to the Creator. {cite:muruj-al-dhahab p.190}
+
+## In Ibn al-Nadim
+Ibn al-Nadim says he wrote for al-Rabi' ibn Ziyad in Khurasan and for Anas ibn Malik in Sabur. He was among those who gave the allegiance to Ibn al-Ash'ath; when that was defeated he went in to al-Hajjaj, who rebuked him and gave him safe conduct, and then he kept out of sight until he died. Among his books is a book on exegesis and a letter to Abd al-Malik ibn Marwan refuting the Qadariyya. {cite:fihrist-ibn-al-nadim p.558-559}
+
+## Al-Hasan al-Basri in Sheikh Omar Abdelkafy's lessons (episodes 2 and 3)
+The Sheikh relates that al-Hasan wept and said that if God tests them He would expose them and tear away their veils (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:00} He quotes his saying that the people of the world ate and we ate, they feared tomorrow and we are safe (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:00}
+
+## From the series Al Fawzu Al Moubeen
+
+The Sheikh relates that al-Hasan preferred reading from the mushaf to reciting from memory, because looking into it gives the eye a share of light, and that the mushaf testifies for the reader and pleads on his behalf (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:32:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
+
+He transmits al-Hasan's comparison between the believers and the people of the world in food, clothing and drink; the Sheikh says the grateful rich man is better than the patient poor man, and that the servant awaits what is with God (needs_source: source of the saying not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
+
+He relates that people saw a light on the face of Muhammad ibn Sirin, and that al-Hasan, who was dark-complexioned, also showed a light. Asked about it, al-Hasan answered that his people had been alone with God in the dark of night, so He clothed them in beauty; the Sheikh concludes that what counts is the purity of the heart (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:05:00}.
+
+He relates that al-Hasan saw small cells and said they would one day be inhabited, and he draws from this a warning about the danger of following the ruler (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
+
+He relates that the household of al-Hasan had only a little egg left, that a girl of the house gave nine eggs in charity to a poor man, and that a rich neighbour then sent a basket of eggs {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:30}.
+
+He relates that al-Hasan visited a sad man and asked whether what was happening to him was in God's sight or far from it, and then compared this to a mother watching over her son {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:36:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
+The Sheikh relays from al-Hasan al-Basri the advice that a person open the mushaf even if he does not read from it and say: I renew my covenant with God, so that his eye falls on a verse; he calls on people to open a page every day before work, and likens this to recording attendance with an eye or hand fingerprint on entering a workplace (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+The Sheikh says that happiness is inside the heart and not in what the eye sees, and that a distressed person who feels the whole earth on his head is not relieved of his worry by money, travel or pleasant surroundings {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:50:30}. He begins to quote a saying of al-Hasan al-Basri to the effect that they had wronged the people of the world, and the wording breaks off in this passage (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:50:30}.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
+The Sheikh mentions that anyone going to Iraq, Kufa or Basra had to attend al-Hasan's session {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}. He says he was called the nursling of Umm Salama, that Umm Salama was eighty years old when she nursed him as a crying child, that God made milk flow in her breast, and he counts this a miracle; he says al-Hasan spoke only wisdom (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}.
+
+He says al-Hasan lived among the Companions and the Followers and studied from them and under them, among them Sa'id ibn al-Musayyib and Ata ibn Abi Rabah, until the matter reached a great elder such as Abu Dharr in the year 36 AH, and he begins to quote a saying of his about the condition of the people (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:00}. He relates that al-Hasan was asked: what do you do with Satan, imam? He replied that obeying him brings no benefit and disobeying him does no harm, and the Sheikh remarks that it is only a matter of an hour's patience (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:35:30}. He calls on people to live their day: yesterday is a cheque already cashed, tomorrow is a postdated cheque whose time has not come, so the believer should not carry tomorrow's worry {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:36:00}.
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy recounts an anecdote about al-Hasan al-Basri and a governor, in which al-Hasan contrasts a petty thief with one who steals public funds {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
+
+He quotes al-Hasan al-Basri's saying that the believers possess a blessing which kings would fight over with swords, and he applies it to the blessing of faith {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:09:00}.
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that al-Hasan al-Basri visited a man who had lost his son and found him calm and composed, and said: the wise man does at once what the ignorant does after ten days; that is, the ignorant calms down after some days, while the wise takes the matter with patience from the start (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30}
+
+## In Abd al-Rahman Mansour's programme 'Ahalina'
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] quotes al-Hasan al-Basri in his programme [[work/ahaleena|'Ahalina']] as saying that shaking hands increases affection, that is, love; he mentions it in the episode on "the keys to hearts", after the report of Anas that the Prophet never withdrew his hand from someone shaking it until the other man withdrew his. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
+
+The Sheikh says al-Hasan al-Basri was asked about his standing with God and answered the asker: how much do you have for God? {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:00:00} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## From Omar Abdelkafy's programme Al-Munjiyat (episode 14)
+The Sheikh mentions that al-Hasan al-Basri was suckled as a baby by Umm Salama, and cites his four sayings that gathered him: he knew his provision would not be taken by another, his work would not be done by another, God watches him at every moment, and the grave awaits him; he sees in them a whole life translated from the fruits of sakina. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:11:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:12:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:13:00}
+He relates that Ibn Taymiyya read the six sakina verses when affairs grew hard on him, and that sakina names three things, among them 'the subtle words spoken on the tongues of truthful people such as al-Hasan al-Basri'. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:09:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:10:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:10:30}
+He cites al-Hasan al-Basri's saying 'if you want to speak to God, pray; if you want God to speak to you, recite the Quran' on the merit of preparing beforehand for prayer. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:16:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:17:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:18:00}

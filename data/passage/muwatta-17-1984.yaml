@@ -1,0 +1,15 @@
+id: passage/muwatta-17-1984
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1984"
+label: { ar: "الموطأ 1984 — مالك: فيما بيع من السلع التي لم يحدث فيها المبتاع شيئا، ثم نفقت وارتفع ثمنها، فإن الغرماء يخيرون بين أن يعطوا رب السلعة الثمن الذي باعها به، وبين أن يسلموا إليه سلعته، وإن نقص ثمنها خير البائع", en: "Muwatta 1984" }
+summary:
+  ar: "قال مالك: فأما ما بيع من السلع التي لم يحدث فيها المبتاع شيئا، إلا أن تلك السلعة نفقت وارتفع ثمنها، فصاحبها يرغب فيها، والغرماء يريدون إمساكها: فإن الغرماء يخيرون بين أن يعطوا رب السلعة الثمن الذي باعها به، ولا ينقصوه شيئا، وبين أن يسلموا إليه سلعته. وإن كانت السلعة قد نقص ثمنها، فالذي باعها بالخيار، إن شاء أن يأخذ سلعته ولا تباعة له في شيء من مال غريمه، فذلك له. وإن شاء أن يكون غريما من الغرماء، يحاص بحقه، ولا يأخذ سلعته، فذلك له. {cite:muwatta-maruf-1997 p.212}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iflas, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1984 at PDF p. 212; ما جاء في إفلاس الغريم", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b53" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 212; matn excerpt at most 40 words" }

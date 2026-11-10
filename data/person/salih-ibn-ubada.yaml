@@ -1,0 +1,17 @@
+id: person/salih-ibn-ubada
+class: person
+label: { ar: "صالح بن عبادة الهمذاني", en: "Salih ibn Ubada al-Hamdani" }
+summary:
+  ar: "صالح بن عبادة الهمذاني؛ كان صاحب رابطة الموصل أيام فتح عتبة بن فرقد."
+  en: "Salih ibn Ubada al-Hamdani; he held Mosul's ribat-post in Utba ibn Farqad's conquest days."
+periods: [period/rashidun]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/hamadhan, confidence: low, note: "Association inferred from the nisba 'الهمذاني'; specific birthplace or residence is not individually documented.", sources: [source/futuh-buldan-maarif-1407] }

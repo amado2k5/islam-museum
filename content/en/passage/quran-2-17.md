@@ -1,0 +1,22 @@
+---
+id: passage/quran-2-17
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Verse 17 of [[passage/quran-2|Surat al-Baqara]], a Medinan surah. {cite:tanzil-quran}
+
+## Place in the museum
+Its place: verse 17 of 286 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## In al-Tabari's commentary: "their likeness is that of one who kindled a fire"
+Al-Tabari raises the question of how a group is likened to a single person in "their likeness is as the likeness of one who kindled a fire". He answers that what is likened is their seeking light through the profession they voiced, one meaning though its bearers differ, so the mention of "seeking light" is dropped and the likeness attached to them, as in the poet's "like the friendship of Abu Marhab". He distinguishes likening actions, which allows this, from likening bodies, which does not. {cite:tafsir-tabari-shakir-v01 p. 318} {cite:tafsir-tabari-shakir-v01 p. 319} {cite:tafsir-tabari-shakir-v01 p. 320}
+He mentions a Basran grammarian's view that "alladhi" here means "alladhina" as in the verse of al-Zumar, and replies that in that verse and in the line of poetry there is a sign of the plural sense, which is absent here, so a word is not moved from its commoner usage without proof. {cite:tafsir-tabari-shakir-v01 p. 320} {cite:tafsir-tabari-shakir-v01 p. 321}
+He then gives the reports. Ibn Abbas: they saw the truth and spoke it, then when they had come out of the darkness of disbelief they put the light out by their disbelief and hypocrisy, and He left them in the darkness of disbelief. Ibn Abbas through Ali ibn Abi Talha: they took pride in Islam, so Muslims married them, inherited from them and shared the spoils with them, and when they died God stripped that honour from them. In al-Suddi's report some people entered Islam when the Prophet came to Medina and then turned hypocrites, the light being belief and the darkness their hypocrisy. In the al-Awfi chain the light is the belief they voice and the darkness their error and disbelief. He also gives a saying of Qatada on the hypocrite. {cite:tafsir-tabari-shakir-v01 p. 321} {cite:tafsir-tabari-shakir-v01 p. 322}
+
+Al-Tabari continues with the reports. Qatada: the fire is "there is no god but God", which lit their way so that they lived in safety, married, and protected their blood until they died, when God took away their light. Al-Dahhak: the light is the belief they voice and the darkness their error and disbelief. Mujahid: the lighting of the fire is their turning to the believers and guidance, and the going of their light their turning to the unbelievers and error. Al-Rabi' ibn Anas: each time the hypocrite speaks the word of sincerity it lights for him, and when he doubts he falls into darkness. Ibn Zayd: they believed until belief lit their hearts, then disbelieved and God took it away. {cite:tafsir-tabari-shakir-v01 p. 322} {cite:tafsir-tabari-shakir-v01 p. 323} {cite:tafsir-tabari-shakir-v01 p. 324}
+Al-Tabari prefers what Qatada and al-Dahhak said and what Ali ibn Abi Talha reports from Ibn Abbas, because the parable was struck for the hypocrites, not those openly disbelieving. He argues that if they had truly believed and then openly disbelieved there would be no deceit, mockery or hypocrisy, and holds that nothing in the outward Book shows they had believed and then apostatised. So the parable is of their seeking light by the profession they voiced, whereby they were given the ruling of Muslims in protection of blood and property, safety of children, marriage and inheritance, until the fire went out and they were left in darkness and bewilderment. {cite:tafsir-tabari-shakir-v01 p. 324} {cite:tafsir-tabari-shakir-v01 p. 325} {cite:tafsir-tabari-shakir-v01 p. 326}
+He ties this to the Day of Resurrection, when they think they will be saved by what saved them in this world, citing the verses of al-Mujadila and al-Hadid: that is when God takes away their light and leaves them in darkness unable to see. {cite:tafsir-tabari-shakir-v01 p. 326}
+
+To the question of what shows that "when it lit what was around him" implies the fire died and went out, al-Tabari replies that the Arabs favour brevity and omission when what is said points to what is left out, citing lines by Abu Dhu'ayb and Dhu al-Rumma; the words "God took away their light and left them in darkness" are enough to indicate what is omitted. {cite:tafsir-tabari-shakir-v01 p. 327} {cite:tafsir-tabari-shakir-v01 p. 328}

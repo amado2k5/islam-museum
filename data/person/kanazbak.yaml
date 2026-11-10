@@ -1,0 +1,17 @@
+id: person/kanazbak
+class: person
+label: { ar: "كنازبك مرزبان طوس", en: "Kanazbak, Marzban of Tus" }
+summary:
+  ar: "كنازبك مرزبان طوس؛ أتى ابن عامر فصالحه عن طوس على ستمائة ألف درهم."
+  en: "Kanazbak, marzban of Tus; he came to Ibn Amir and compounded Tus at six hundred thousand dirhams."
+wings: [people]
+born: { edtf: "651~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+died: { edtf: "652~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+relations:
+  - { type: lived_in, target: place/tus, confidence: low, note: "Associated with طوس per the record's own text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

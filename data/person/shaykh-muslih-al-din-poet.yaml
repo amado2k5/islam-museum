@@ -1,0 +1,29 @@
+id: person/shaykh-muslih-al-din-poet
+class: person
+label:
+  ar: "الشيخ مصلح الدين"
+  en: "Shaykh Muslih al-Din"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية للشيخ مصلح الدين، الشاعر التركي، توفي سنة ١٤٩١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shaykh Muslih al-Din, the Turkish poet, d. 1491; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1292", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+relations:
+  - { type: born_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79857)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q115945877
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0089
+status:
+  review: draft
+  completeness: 1

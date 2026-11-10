@@ -1,0 +1,29 @@
+id: person/salih-ibn-nasrallah
+class: person
+label:
+  ar: "صالح بن نصر الله"
+  en: "Salih ibn Nasrallah"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لصالح بن نصر الله؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Salih ibn Nasrallah, the Ottoman writer (physician, d. 1669); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q41183)" }
+  - { type: died_in, target: place/larissa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q178405)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136109288
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0094
+status:
+  review: draft
+  completeness: 1

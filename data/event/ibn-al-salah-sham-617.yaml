@@ -1,0 +1,34 @@
+id: event/ibn-al-salah-sham-617
+class: event
+kind: other
+label:
+  ar: "ابن الصلاح يدخل الشام في سنة سبع عشرة أو قبلها: دمشق وحلب وحران، ٦١٧هـ/١٢٢٠م"
+  en: "Ibn al-Salah enters al-Sham in 617 or earlier: Damascus, Aleppo and Harran, 617/1220"
+  ur: "ابن الصلاح 617ھ یا اس سے پہلے شام داخل ہوتے ہیں: دمشق، حلب اور حران، 617ھ/1220ء"
+summary:
+  ar: "دخل ابن الصلاح الشام في سنة سبع عشرة وستمائة أو قبلها، فسمع من الموفق شيخ الحنابلة ابن قدامة المقدسي وزين الأمناء وأخيه المفتي فخر الدين؛ وكان قد ورد دمشق قبل ذلك فسمع من القاضي جمال الدين ابن الحرستاني، وسمع بحلب من أبي محمد ابن الأستاذ وبحران من الحافظ عبد القادر {cite:tarikh-islam-dhahabi p. 186}."
+  en: "Ibn al-Salah entered al-Sham in 617/1220 or earlier, hearing from al-Muwaffaq, the shaykh of the Hanbalis Ibn Qudama al-Maqdisi, from Zayn al-Umana' and from al-Muwaffaq's brother the mufti Fakhr al-Din. He had already come to Damascus before, hearing from the qadi Jamal al-Din ibn al-Harastani; at Aleppo he heard Abu Muhammad ibn al-Ustadh, and at Harran the hafiz 'Abd al-Qadir {cite:tarikh-islam-dhahabi p. 186}."
+  ur: "ابن الصلاح 617ھ/1220ء میں یا اس سے پہلے شام داخل ہوئے اور حنابلہ کے شیخ موفق الدین ابن قدامہ مقدسی، زین الامناء اور ان کے بھائی مفتی فخر الدین سے سماعت کی۔ اس سے پہلے بھی وہ دمشق آئے تھے اور قاضی جمال الدین ابن حرستانی سے سماعت کی؛ حلب میں ابو محمد ابن الاستاذ اور حران میں حافظ عبد القادر سے سماعت کی {cite:tarikh-islam-dhahabi p. 186}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1220~", hijri: "0617", calendar: julian, precision: year, status: tradition, derived: true, note: "دخل الشام في سنة سبع عشرة أو قبلها {cite:tarikh-islam-dhahabi p. 186}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/harran, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "رحالة سامع", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-qudama-al-maqdisi, role: "شيخ سمع منه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/zayn-al-umana, role: "شيخ سمع منه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-qudama, role: "شيخ سمع منه (فخر الدين أخو موفق الدين)", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/jamal-al-din-ibn-al-harastani, role: "شيخ سمع منه بدمشق قبل دخوله الشام", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abd-al-qadir-al-rahawi, role: "شيخ سمع منه بحران", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 186 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

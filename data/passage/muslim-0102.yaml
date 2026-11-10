@@ -1,0 +1,16 @@
+id: passage/muslim-0102
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "102"
+label: { ar: "مسلم 102 — من غشنا فليس منا", en: "Muslim 102 — Whoever cheats us is not one of us" }
+text: "مر رسول الله على صبرة طعام فأدخل يده فيها فنالت أصابعه بللاً، فقال: ما هذا يا صاحب الطعام؟ قال: أصابته السماء يا رسول الله؛ قال: «أفلا جعلته فوق الطعام كي يراه الناس؟ من غشني فليس مني»"
+summary:
+  ar: "رواية أبي هريرة في كتاب الإيمان من صحيح مسلم؛ البائع الذي أخفى البلل تحت صبرة الطعام — نص الغش التجاري الأشهر في الدواوين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ihsan, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب قوله من غشنا فليس منا (طبعة دار التأصيل، الحديث 295؛ ترقيم عبد الباقي المعروف 102)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

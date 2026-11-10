@@ -1,0 +1,23 @@
+id: event/battle-of-dubravnica-1381
+class: event
+kind: battle
+label: { ar: "معركة دوبراونتسا", en: "Battle of Dubravnica" }
+summary:
+  ar: "بطاقة أولية لمعركة دوبراونتسا نحو سنة ١٣٨١م، نصر صربيا على طليعة عثمانية قبل مورافا وكوسوفو؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dubravnica around 1381, Serbia's victory over an Ottoman vanguard before Kosovo; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1381", precision: year, status: tradition, derived: true }
+  end: { edtf: "1381", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q700880
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

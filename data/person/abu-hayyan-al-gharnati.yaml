@@ -1,0 +1,23 @@
+id: person/abu-hayyan-al-gharnati
+class: person
+label: { ar: "أبو حيان الغرناطي", en: "Abu Hayyan al-Gharnati" }
+summary:
+  ar: "أثير الدين أبو حيان النحوي، صاحب ارتشاف الضرب من لسان العرب في النحو في مجلدين {cite:kashf-zunun-furqan p. 305}."
+  en: "Athir al-Din Abu Hayyan the grammarian — author of Irtishaf al-Darab min Lisan al-Arab, a two-volume grammar anthology {cite:kashf-zunun-furqan p. 305}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+born: { edtf: "1256", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti, Bughyat al-Wu'at; al-Dhahabi, al-Mu'jam" }
+died: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suyuti, Bughyat al-Wu'at; al-Dhahabi, al-Mu'jam" }
+relations:
+  - { type: lived_in, target: place/granada, note: "Place association from the person's nisba/name (الغرناطي); denotes association, not proven residence.", sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993], confidence: low }
+  - { type: authored, target: work/irtishaf-al-darab, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 305 مدخل 635"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-15, lib-durar-kamina-batch-1-2-2026-10-31
+external_ids: { wikidata: "Q1640082" }
+sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

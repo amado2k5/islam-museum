@@ -1,0 +1,22 @@
+id: event/ibn-ghaniya-ifriqiya-581
+class: event
+kind: conquest
+label: { ar: "ملك علي بن غانية بلاد إفريقية", en: "Ali ibn Ghaniya takes Ifriqiya" }
+summary:
+  ar: "في سنة إحدى وثمانين وخمسمائة سار علي بن إسحاق الملثم بن غانية إلى إفريقية فاجتمع إليه سليم ورياح ومن هناك من العرب وانضاف إليهم الأتراك الذين دخلوا من مصر مع شرف الدين قراقوش، ولقبوه أمير المسلمين، فملكوا إفريقية جميعها شرقاً وغرباً إلا تونس والمهدية حيث أقام الموحدون على خوف وضيق، وخربوا البلاد والحصون والقرى وهتكوا الحرم وقطعوا الأشجار، وقصد جزيرة باشراوهي قرب تونس فأمّن أهلها ثم نهب العسكر أموالها حتى سلب الناس ثيابهم، وقصدوا تونس فكان الضعفاء يستعطون حتى أهلكهم برد الشتاء والوباء فأُحصي الموتى فكانوا اثني عشر ألفاً من وضع واحد، وقطع الملثم خطبة أولاد عبد المؤمن وخطب للخليفة العباسي الناصر لدين الله وأرسل إليه يطلب الخلع والأعلام السود {cite:kamil-ibn-al-athir p. 136-137}."
+  en: "In the year 581, Ali ibn Ishaq al-Mulaththam ibn Ghaniya marched to Ifriqiya. Sulaym, Riyah and other Arab groups gathered to him there, and Turks who had entered from Egypt with Sharaf al-Din Qaraqush joined them. They gave him the title Amir al-Muslimin and together took all of Ifriqiya, east and west, except Tunis and Mahdiya, where the Muwahhidun remained in fear and hardship. They ravaged the lands, fortresses and villages, violated sanctities and cut down trees. They made for the island of Bashrawhi near Tunis, whose people were granted safety, but then the army plundered its wealth until people were stripped of their clothes. They then made for Tunis, where the poor went begging until the winter cold and disease destroyed them; the dead were counted at 12,000 from a single place. Al-Mulaththam ended the khutba for the sons of Abd al-Mu'min, proclaimed the Abbasid caliph al-Nasir li-Din Allah, and sent to him asking for robes of investiture and black banners {cite:kamil-ibn-al-athir p. 136-137}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1185~", hijri: "0581", calendar: julian, precision: year, status: tradition, derived: true, note: "581؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 136}." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-ghaniya, role: "الملثم الذي لُقب أمير المسلمين", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 581، ص 136–137"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

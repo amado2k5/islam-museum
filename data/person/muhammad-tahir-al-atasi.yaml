@@ -1,0 +1,29 @@
+id: person/muhammad-tahir-al-atasi
+class: person
+label:
+  ar: "محمد طاهر الأتاسي"
+  en: "Muhammad Tahir al-Atasi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد طاهر الأتاسي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Tahir al-Atasi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi / al-Zirikli (al-A'lam)" }
+died: { edtf: "1959", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi / al-Zirikli (al-A'lam)" }
+relations:
+  - { type: born_in, target: place/homs, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131301)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q108657265
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

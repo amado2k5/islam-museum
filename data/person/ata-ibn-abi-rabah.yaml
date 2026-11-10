@@ -1,0 +1,28 @@
+id: person/ata-ibn-abi-rabah
+class: person
+label: { ar: "عطاء بن أبي رباح" }
+gender: male
+roles: [jurist]
+summary:
+  ar: "من علماء مكة وفقهائها، ويذكر الكتاب أنه دخل على عبد الملك بن مروان في موسم حجه فوعظه بأن يتقي الله في أبناء المهاجرين والأنصار وأهل الثغور وفي رعيته {cite:salabi-umayyad-state-2020 p.36}. وقد عدّه الكتاب أفقه أهل مكة في الفتوى، وكان المسجد الحرام مقامه عشرين سنة {cite:salabi-umayyad-state-2020 p.36}. ويذكر الكتاب أنه انتهت إليه فتوى أهل مكة، وأنه كان يُنادى في الحج في عهد بني أمية: لا يفتي الناس إلا عطاء. {cite:salabi-umayyad-state-2020 p.281}"
+wings: [people]
+periods: [period/umayyad]
+external_ids: { wikidata: "Q2357291" }
+sources: [source/salabi-umayyad-state-2020, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+provenance:
+  layer: own-research
+  source: "salabi-umayyad-state-2020 p. 36"
+  generated_by: "Claude (Haiku 5.5, subagent)"
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 48–49" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from salabi-umayyad-state-2020 p. 36; the book cites Siyar A'lam al-Nubala' for the anecdote" }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/salabi-umayyad-state-2020]
+born: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "From text: أهل مكة", sources: [source/salabi-umayyad-state-2020, source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }

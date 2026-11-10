@@ -1,0 +1,25 @@
+id: event/fatimid-khutba-iraq-401
+class: event
+kind: declaration
+label: { ar: "خطبة قرواش العقيلي للحاكم بالموصل والكوفة", en: "Qarwash al-Uqayli's khutba for al-Hakim at Mosul and Kufa" }
+summary:
+  ar: "في المحرم سنة إحدى وأربعمائة جمع أبو المنيع قرواش بن المقلد أهل الموصل وأظهر طاعة الحاكم صاحب مصر وأقام له الدعوة بالموصل، ثم انحدر إلى الكوفة والمدائن والقصر فأُقيمت فيها الخطبة للحاكم الفاطمي، فزعمت كتب الخلافة ببغداد وراسل القادر عميد الجيوش وبهاء الدولة وأنفذ إليه القاضي أبا بكر الباقلاني، فأطلق بهاء الدولة مائة ألف دينار لنفقات العسكر وكاتب قرواشاً بالإنذار فاعتذر قرواش ووثق من نفسه بإزالة ذلك وأعاد الخطبة للقادر بالله {cite:muntazam-ibn-al-jawzi j.7 p.249-251}."
+  en: "In Muharram 401 Abu'l-Mani' Qarwash ibn al-Muqallad gathered the people of Mosul, declared obedience to al-Hakim, ruler of Egypt, and established the da'wa for him at Mosul. He then went down to Kufa, al-Mada'in and al-Qasr, where the khutba was read for the Fatimid al-Hakim. The caliphal chancery at Baghdad alleged this, so al-Qadir sent to Amid al-Juyush and Baha al-Dawla, and dispatched to him the judge Abu Bakr al-Baqillani. Baha al-Dawla released a hundred thousand dinars for the army's expenses and wrote to Qarwash with a warning; Qarwash apologised, pledged to remove the matter, and restored the khutba to al-Qadir billah {cite:muntazam-ibn-al-jawzi j.7 p.249-251}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1010-08~", hijri: "0401-01", calendar: julian, precision: month, status: tradition, derived: true, note: "المحرم 401هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.249}" }
+relations:
+  - { type: located_in, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة المطعون في حقه ثم المعادة له الدعوة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "صاحب مصر الذي خطب له بالعراق", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-baqillani, role: "رسول القادر إلى بهاء الدولة في إنكار الخطبة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/baha-al-dawla, role: "أمير الأمراء الذي أنذر قرواشاً بالمال والجيش", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 401)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-22
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,20 @@
+id: concept/sabil-kuttab
+class: concept
+kind: architectural_element
+label: { ar: "السبيل والكتّاب", en: "Sabil-kuttab", ur: "سبیل کتاب" }
+summary:
+  ar: "بناء من طابقين: سبيل لسقي الماء للعامة في الأسفل، وكتّاب لتعليم الصبيان القرآن في الأعلى؛ صار سمة لعمارة الجوامع في القرن الخامس عشر بالقاهرة ثم بناءً مستقلاً {cite:yeomans-islamic-cairo-2006 p.205}."
+  en: "A two-storey structure with a public drinking fountain (sabil) below and a Qur'an school for children (kuttab) above, a feature of fifteenth-century Cairene mosques and later a building in its own right {cite:yeomans-islamic-cairo-2006 p.205}."
+wings: [objects, living]
+themes: [architecture, education, children-and-youth, care-for-the-vulnerable]
+regions: [egypt-nile]
+relations:
+  - { type: practiced_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 205, 214-217"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

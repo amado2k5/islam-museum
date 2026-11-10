@@ -1,0 +1,41 @@
+id: person/dursun-fakih
+class: person
+label:
+  ar: "درسون فقيه"
+  en: "Dursun Fakih"
+roles: [scholar, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لدرسون فقيه، فقيه وخطيب عثماني أوائل القرن الرابع عشر، توفي سنة ١٣٢٦م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Dursun Fakih, the early fourteenth-century Ottoman jurist and preacher, d. 1326; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1326~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/karaman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bilecik, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6088626
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0063
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]
+
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "The entry says Osman Gazi placed him over judicial work, and that after Edebali died he also took up fatwa work."
+    sources: [source/tdv-fetva]

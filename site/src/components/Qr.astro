@@ -1,0 +1,29 @@
+---
+// A QR code for the page it sits on (docs/delegation/education-master-plan.md E1: one on every printable).
+// Rendered at build time; shows small on screen and larger in print, with the address written out beside it.
+import { qrSvg } from "../lib/qr";
+import { SITE } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; path: string; size?: number }
+const { lang, path, size = 96 } = Astro.props;
+const T = ui(lang).edu;
+const url = `${SITE}${path}`;
+const svg = qrSvg(url, size, T.qr_label);
+---
+<figure class="qr-block">
+  <div class="qr-svg" set:html={svg} />
+  <figcaption>
+    <span class="ui qr-url" dir="ltr">{url.replace(/^https?:\/\//, "")}</span>
+    <span class="qr-hint">{T.qr_scan}</span>
+  </figcaption>
+</figure>
+<style>
+  .qr-block { display: flex; align-items: center; gap: 12px; margin: 12px 0; break-inside: avoid; }
+  .qr-svg { flex: none; line-height: 0; }
+  .qr-svg :global(svg) { width: 72px; height: 72px; border: 1px solid #ccc; }
+  figcaption { display: flex; flex-direction: column; gap: 2px; font-size: .9rem; }
+  .qr-url { font-weight: 600; word-break: break-all; }
+  .qr-hint { color: var(--muted, #4a4a4a); font-size: .85rem; }
+  @media print { .qr-svg :global(svg) { width: 96px; height: 96px; } }
+</style>

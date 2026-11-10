@@ -1,0 +1,29 @@
+id: person/maytham-al-tammar
+class: person
+label:
+  ar: "ميثم التمار"
+  en: "Maytham al-Tammar"
+roles: [companion]
+gender: male
+summary:
+  ar: "ميثم التمار، مولى علي بن أبي طالب وأثيره، صلبه عبيد الله بن زياد بالكوفة سنة 60هـ ⁦(680م)⁩."
+  en: "Maytham al-Tammar (d. 60/680), freed client and devotee of Ali ibn Abi Talib, executed at Kufa by Ibn Ziyad."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / al-Kamil" }
+relations:
+  - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q169533
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.336)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
+status:
+  review: published
+  completeness: 3

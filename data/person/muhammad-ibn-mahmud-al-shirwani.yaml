@@ -1,0 +1,34 @@
+id: person/muhammad-ibn-mahmud-al-shirwani
+class: person
+label:
+  ar: "محمد بن محمود الشيرواني"
+  en: "Muhammad ibn Mahmud al-Shirwani"
+roles: [physician, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن محمود الشيرواني؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Mahmud al-Shirwani, the Ottoman physician and writer, d. 1451; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q135458558
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0092
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1485~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun)" }
+relations:
+  - { type: lived_in, target: place/shirwan, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad ibn Mahmud al-Shirwani'; specific residence not individually documented.", sources: [source/al-aalam] }

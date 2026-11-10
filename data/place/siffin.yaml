@@ -1,0 +1,34 @@
+id: place/siffin
+class: place
+kind: site
+label:
+  ar: صِفِّين
+  en: Siffin
+summary:
+  ar: موضع على الفرات بالشمال من الشام، عسكر فيه معاوية أولاً وقطع عن جيش العراق الماء، ثم وصل إليه علي فعسكر مقابله، وجرت فيه وقعة صفين سنة 37هـ {cite:sallabi-ali-vol2 p. 101}.
+  en: A plain on the Euphrates in northern Syria where Muawiya camped first and cut the water from Ali's army; Ali camped opposite, and the battle of Siffin took place there in 37 AH {cite:sallabi-ali-vol2 p. 101}.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 35.86
+- 38.63
+coordinate_precision: site
+external_ids:
+  wikidata: Q3960268
+sources:
+- source/sallabi-ali-vol2
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are not recorded.

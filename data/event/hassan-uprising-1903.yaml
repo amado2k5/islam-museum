@@ -1,0 +1,23 @@
+id: event/hassan-uprising-1903
+class: event
+kind: revolt
+label: { ar: "انتفاضة محمد عبد الله حسان", en: "Hassan Uprising" }
+summary:
+  ar: "بطاقة أولية لانتفاضة حركة الدراويش في الصومال بقيادة محمد عبد الله حسان من ١٩٠٣ إلى ١٩٠٤م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Mohammed Abdullah Hassan's Dervish uprising (1903–04) in Somaliland; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1903-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1904-03", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q5679869
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: passage/muslim-0199
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "199"
+label: { ar: "مسلم 199 — لكل نبي دعوة واختبأت دعوتي شفاعة لأمتي", en: "Muslim 199 — Every prophet has a prayer; mine is saved as intercession for my ummah" }
+text: "قال أبو هريرة: قال رسول الله: لكل نبي دعوة دعا بها في أمته فاستجيب له، وإني أريد إن شاء الله أن أؤخر دعوتي شفاعة لأمتي يوم القيامة"
+summary:
+  ar: "رواية أبي هريرة في باب دعاء النبي لأمته واستبكاره من ذلك من كتاب الإيمان في صحيح مسلم؛ لكل نبي دعوة مستجابة، ودعوة محمد ادُّخرت شفاعةً لأمته يوم القيامة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shafaa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب دعاء النبي لأمته (طبعة دار التأصيل، الحديث 189؛ ترقيم عبد الباقي المعروف 199)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

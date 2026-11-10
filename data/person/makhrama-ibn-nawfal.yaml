@@ -1,0 +1,17 @@
+id: person/makhrama-ibn-nawfal
+class: person
+label: { ar: "مخرمة بن نوفل", en: "Makhrama ibn Nawfal" }
+summary:
+  ar: "مخرمة بن نوفل؛ من ألسن قريش دعاه عمر مع عقيل وجبير لكتابة الناس على منازلهم في الديوان."
+  en: "Makhrama ibn Nawfal; of Quraysh's genealogists summoned with Aqil and Jubayr to write the diwan."
+periods: [period/rashidun]
+wings: [people]
+died: { edtf: "674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Companion of Quraysh, settled at Medina per the record's cited hadith sources.", sources: [source/musnad-ahmad] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

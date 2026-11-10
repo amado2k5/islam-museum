@@ -1,0 +1,49 @@
+id: person/ibn-jawsa
+class: person
+label:
+  ar: "ابن جوصا أحمد بن عمير"
+  en: "Ibn Jawsa, Ahmad ibn Umayr"
+names:
+  - { kind: full, lang: ar, value: "أحمد بن عمير بن يوسف بن موسى بن جوصا، أبو الحسن الدمشقي الحافظ" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
+roles: [scholar]
+gender: male
+summary:
+  ar: "أحمد بن عمير بن يوسف بن موسى بن جوصا، أبو الحسن الدمشقي الحافظ، مولى بني هاشم، يصفه ابن عساكر في «تاريخ دمشق» بشيخ الشام في وقته: رحل وصنّف وذاكر، وروى عنه الطبراني وابن المقرئ وأبو علي النيسابوري وابن عدي وغيرهم. أثنى عليه الطبراني وأبو علي النيسابوري وجعله أبو همام الكرخي بالشام كابن عقدة بالكوفة، وأنكر عليه الرحالة الغرباء زيادة «ابن ثوبان» في إسناد حديث، وقال الدارقطني: تفرد بأحاديث ولم يكن بالقوي، وترك حمزة الكناني الرواية عنه. توفي بدمشق لثلاث بقين من جمادى الأولى سنة 320هـ ودفن بمقابر باب الصغير {cite:tarikh-dimashq-amrawi-v5 p. 109-117}."
+  en: "Ahmad ibn Umayr ibn Yusuf ibn Musa ibn Jawsa, Abu al-Hasan of Damascus, the hafiz, client of Banu Hashim, whom Ibn Asakir's Tarikh Dimashq calls the leading shaykh of Syria in his day: he travelled, wrote, held learned exchanges, and al-Tabarani, Ibn al-Muqri', Abu Ali al-Naysaburi, Ibn Adi and others narrated from him. Al-Tabarani and Abu Ali al-Naysaburi praised him and Abu Hammam al-Karkhi compared him in Syria to Ibn Uqda in Kufa, while visiting scholars objected to his adding 'Ibn Thawban' to a chain; al-Daraqutni said he transmitted some hadiths alone and was not strong, and Hamza al-Kinani stopped narrating from him. He died in Damascus on 27 Jumada I 320 AH and was buried in the Bab al-Saghir cemetery."
+died: { hijri: "0320-05-27", edtf: "0932-06-05", calendar: julian, precision: day, status: tradition, derived: true, note: "ابن زبر: توفي يوم الأربعاء ودفن يوم الخميس لثلاث بقين من جمادى الأولى سنة عشرين وثلاثمائة، وكذا قال عبد الوهاب الكلابي {cite:tarikh-dimashq-amrawi-v5 p. 117}. التحويل مشتق بالحساب الجدولي.", sources: [source/tarikh-dimashq-amrawi-v5] }
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: died_in, target: place/damascus, sources: [source/tarikh-dimashq-amrawi-v5] }
+perspectives:
+  - tradition: sunni
+    id: sunni-imam
+    standing: main
+    stance: { ar: "إمام من أركان الحديث", en: "An imam, a pillar of hadith" }
+    summary:
+      ar: "قال أبو علي النيسابوري: كان من أركان الحديث، وقال للرحالة: هذا إمام من أئمة المسلمين وقد جاز القنطرة؛ وقال الطبراني: كان من ثقات المسلمين وأجلتهم؛ وقال الحاكم: إمام أهل الحديث ورئيس الشام؛ وأثنى عليه أبو مسلم البغدادي، وحسّن فيه أبو أحمد النيسابوري الرأي."
+      en: "Abu Ali al-Naysaburi called him a pillar of hadith and told the visiting scholars: this is one of the imams of the Muslims and has crossed the bridge; al-Tabarani called him among the trustworthy and most eminent Muslims; al-Hakim called him imam of the hadith scholars and head of Syria; Abu Muslim al-Baghdadi praised him and Abu Ahmad al-Naysaburi thought well of him."
+    holders: [person/al-tabarani]
+    sources: [source/tarikh-dimashq-amrawi-v5]
+  - tradition: sunni
+    id: sunni-layyin
+    standing: secondary
+    stance: { ar: "تفرد بأحاديث ولم يكن بالقوي", en: "Alone in some hadiths, not strong" }
+    summary:
+      ar: "أنكر عليه الرحالة بزعامة الزبير بن عبد الواحد الأسداباذي إلحاقه «ابن ثوبان» بخطه في أصل كتابه في حديث «إذا أقيمت الصلاة فلا صلاة إلا المكتوبة»؛ وقال الدارقطني: تفرد بأحاديث ولم يكن بالقوي؛ وقال حمزة الكناني: عندي عنه مائتا جزء ليتها كانت بياضاً، وترك الرواية عنه؛ وامتنع دعلج من التحديث عنه لما رأى في داره جرو كلب صيني."
+      en: "The visiting scholars, led by al-Zubayr ibn Abd al-Wahid al-Asadabadhi, objected that he added 'Ibn Thawban' in his own hand to his original copy in the hadith 'when the prayer is called there is no prayer but the prescribed one'; al-Daraqutni said he was alone in some hadiths and not strong; Hamza al-Kinani said he had two hundred fascicles from him and wished they were blank, and stopped narrating from him; Da'laj refused to narrate from him after seeing a Chinese puppy in his house."
+    holders: [person/al-daraqutni, person/dalaj-ibn-ahmad]
+    sources: [source/tarikh-dimashq-amrawi-v5]
+sensitivity: contested
+sources: [source/tarikh-dimashq-amrawi-v5]
+provenance:
+  layer: own-research
+  source: "تاريخ مدينة دمشق لابن عساكر، تحقيق العمروي، المجلد الخامس، الترجمة 65، ص 109–117"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

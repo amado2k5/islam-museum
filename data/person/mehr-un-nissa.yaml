@@ -1,0 +1,31 @@
+id: person/mehr-un-nissa
+class: person
+label:
+  ar: "مهر النساء بيگم"
+  en: "Mehr-un-Nissa"
+roles: [ruler]
+gender: female
+themes: [women]
+summary:
+  ar: "بطاقة أولية لمهر النساء بيكم، الأميرة المغولية في القرن السابع عشر، توفيت سنة ١٧٠٦م؛ تذكرها كتب التاريخ ولم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Mehr-un-Nissa Begum, the seventeenth-century Mughal princess, d. 1706; the source entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1577", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/aurangabad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q6809706
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0051
+status:
+  review: draft
+  completeness: 1

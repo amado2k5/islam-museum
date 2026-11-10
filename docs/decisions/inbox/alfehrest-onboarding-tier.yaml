@@ -1,0 +1,15 @@
+id: alfehrest-onboarding-tier
+lane: "library"
+class: "process"
+modality: "website"
+question: "Should alfehrest.org (AlFehrest — interactive timeline/map of Islamic civilisation 700-1500 CE: states, rulers, scholars, events) be onboarded as a citable source family, and if not, at what registration tier? Assessment evidence: volunteer project, no institution/editorial board, self-disclaims academic-reference status; stable numeric IDs for states/scholars; Arabic-primary; ~200 scholar bios and polity succession lists derived largely from Ibn Khaldun, al-Dhahabi Siyar, Mu'nis atlas, Ibn Kathir, plus Wikipedia/Hukam.net; GitHub JSON datasets last touched 2018 under informal CC-Share-Alike wording; coverage stops at 1500 CE. Name collision: unrelated to FIHRIST (fihrist.org.uk), the Oxford/Cambridge manuscript union catalogue."
+options:
+  - "Tier 3 pointer/orientation only — discovery and corroboration checklist; every fact re-cited to the underlying source the page names; never a {cite:} target"
+  - "Tier 1/2 citable family with facts-only posture"
+  - "Do not register at all"
+evidence:
+  - "Muse source assessment 2026-11-08: fails authority criterion (criterion 1); scores citability good, Arabic-first strong, corroboration moderate, terms unclear -> facts-only default"
+  - "docs/agents/source-families.md criteria: authority requires university/museum/national-library or named-specialist project"
+  - "Per-page reference lists name the underlying classical sources (Siyar, Ibn Khaldun, Hukam.net) — the durable value is the trail, not the text"
+proposed_action: "register as Tier 3 pointer in docs/agents/source-families.md with FIHRIST name-collision warning; add IDEO Diamond / al-Kindi work-authority database to the explore list as a separate assessment candidate; no data/source entity, no harvest registry entry, no {cite:} use"
+source: "Muse alfehrest.org assessment (user-provided, 2026-11-08)"

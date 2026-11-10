@@ -1,0 +1,31 @@
+id: person/ahmad-nuaina
+class: person
+label: { ar: "أحمد نعينع", en: "Ahmad Nuaina", ur: "احمد نعینع" }
+names:
+  - { value: "أحمد أحمد نعينع", kind: full }
+  - { value: "Ahmad Ahmad Nuaina", kind: full }
+  - { value: "Ahmed Nu'ayna", kind: alternate }
+  - { value: "Ahmed Nainaa", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن وطبيب أطفال مصري ⁦(وُلد 1954)⁩، قارئ معتمد بالإذاعة والتلفزيون المصريين منذ 1979، عُرف بـ«القارئ الطبيب» وبقراءته في احتفالات الرئاسة منذ عهد السادات، وعيّنه وزير الأوقاف في أكتوبر 2025 شيخًا لعموم المقارئ المصرية."
+  en: "Egyptian Qur'an reciter and paediatrician (born 1954), an official reciter of Egyptian Radio and Television since 1979, known as 'the physician reciter' and for reciting at presidential ceremonies from Sadat's time on; in October 2025 the Minister of Awqaf appointed him Chief of Egyptian Quran Recitations."
+  ur: "مصری قاریِ قرآن اور ماہرِ امراضِ اطفال ⁦(پیدائش 1954ء)⁩، 1979ء سے مصری ریڈیو اور ٹیلی وژن کے سرکاری قاری، جو «طبیب قاری» اور سادات کے زمانے سے صدارتی تقریبات میں تلاوت کے لیے معروف ہیں؛ اکتوبر 2025ء میں وزیرِ اوقاف نے انھیں شیخِ عمومِ مقارئِ مصر مقرر کیا۔"
+wings: [people, living]
+regions: [egypt-nile]
+roles: [reciter, physician, judge]
+born: { edtf: "1954-03-15", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Metoubes, Kafr El Sheikh (English article; Wikidata gives the same day and place). No place entity for Metoubes exists, so no birthplace relation is written.", sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina] }
+relations:
+  - { type: lived_in, target: place/alexandria, note: "Studied and practised medicine at Alexandria University; regular reciter at al-Samak Mosque for about ten years", sources: [source/wikipedia-ahmad-nuaina-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him (the article's infobox gives religion Islam only). Not recorded."
+    sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina]
+footprint:
+  wikipedia: { languages: [ar, azb, bn, ckb, en, fa, ms], checked: "2026-11-06", sources: [source/wikidata-ahmad-nuaina] }
+  wikidata: "Q20386256"
+external_ids: { wikidata: "Q20386256" }
+sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina]
+provenance: { layer: own-research, source: "English Wikipedia 'Ahmad Nuaina' (revision 1384026181, 6 November 2026) and Wikidata Q20386256 (revision 2548149152), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b01 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,18 @@
+id: person/ahmad-ibn-al-mudabbir
+class: person
+label: { ar: "أحمد بن المدبر", en: "Ahmad ibn al-Mudabbir" }
+summary:
+  ar: "ولاه المهتدي خراج فلسطين، وكانت له سبعة ندماء لا يأنس بغيرهم كل رجل منهم منفرد بنوع من العلم، وله الخبر المشهور مع ابن دراج الطفيلي الذي دخل مجلسه في زي ندمائه فتعقبه بالشطرنج والنرد والعود والطنبور حتى رمى حاجبه بخمسين بندقة رصاص من قوس بندق {cite:muruj-al-dhahab p. 561-563}."
+  en: "Al-Muhtadi's kharaj governor of Palestine, keeper of seven select boon-companions and target of the famous Ibn Diraj the gatecrasher's wager {cite:muruj-al-dhahab p. 561-563}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي ج2 ص 561–563"
+  generated_by: "al-Ya'qubi section added by Claude Opus 5.5 (claude-opus-5-5), run lib-tarikh-yaqubi-batch-3-2026-10-31; Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muruj-dhahab-batch-103
+sources: [source/muruj-al-dhahab, source/tarikh-yaqubi-houtsma-1883]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+died: { edtf: "884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: ruler_of, target: place/palestine, note: "From text: governor of Palestine", sources: [source/muruj-al-dhahab, source/tarikh-yaqubi-houtsma-1883] }

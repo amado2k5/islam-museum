@@ -1,0 +1,29 @@
+id: person/tabanyassi-mehmed-pasha
+class: person
+label:
+  ar: "تباني ياسي محمد باشا"
+  en: "Tabaniyassi Mehmed Pasha"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لتباني ياسي محمد باشا، الصدر الأعظم العثماني في عهد مراد الرابع ⁦(١٦٣٢–١٦٣٧م)⁩ والي شام وبغداد، توفي سنة ١٦٣٧م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Tabaniyassi Mehmed Pasha, the Ottoman grand vizier under Murad IV (1632–1637), governor of Damascus and Baghdad, d. 1637; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani (Mehmed Sureyya)" }
+relations:
+  - { type: born_in, target: place/drama, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q212841)" }
+  - { type: died_in, target: place/yedikule-fortress, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q632795)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3820443
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0027
+status:
+  review: draft
+  completeness: 1

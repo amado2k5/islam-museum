@@ -1,0 +1,23 @@
+id: event/battle-of-annual-1921
+class: event
+kind: battle
+label: { ar: "معركة أنوال", en: "Battle of Annual" }
+summary:
+  ar: "بطاقة أولية لمعركة أنوال سنة ١٩٢١م، كارثة الجيش الإسباني أمام قوات عبد الكريم الخطابي في الريف؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Annual in 1921, the Spanish army's disaster before Abd el-Krim's Riffian forces; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1921", precision: year, status: tradition, derived: true }
+  end: { edtf: "1921", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q1138460
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Moroccan histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,29 @@
+id: person/bostanzade-yahya-efendi
+class: person
+label:
+  ar: "بستان زاده يحيى أفندي"
+  en: "Bostanzade Yahya Efendi"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لبستان زاده يحيى أفندي، العالم والكاتب العثماني، توفي سنة ١٦٣٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Bostanzade Yahya Efendi, the Ottoman scholar and writer, d. 1639; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Bostanzade Yahya)" }
+died: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Bostanzade Yahya)" }
+relations:
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q25477954
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0083
+status:
+  review: draft
+  completeness: 1

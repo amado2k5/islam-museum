@@ -1,0 +1,26 @@
+id: event/baybars-antioch-666
+class: event
+kind: conquest
+label: { ar: "افتتاح بيبرس يافا وأنطاكية 666هـ", en: "Baybars takes Jaffa and Antioch, 666 AH" }
+summary:
+  ar: "في جمادى الأولى سنة ست وستين وستمائة افتتح الظاهر بيبرس يافا بالسيف وقلعتها بالأمان ثم هدمها، وحاصر الشقيف فأخذها بالأمان، وأغار على أعمال طرابلس، ونزل تحت حصن الأكراد فخضعوا له، ثم ساق إلى أنطاكية فأخذها في أربعة أيام {cite:shadharat-dhahab p.560}."
+  en: "In Jumada I 666 al-Zahir Baybars took Jaffa by the sword and its citadel by safe-conduct and razed it, took al-Shaqif after a ten-day siege by safe-conduct, raided the lands of Tripoli, camped beneath the fortress of the Kurds until they submitted, then marched on Antioch and took it in four days {cite:shadharat-dhahab p.560}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1268", hijri: "0666", precision: year, status: tradition, derived: true, note: "جمادى الأولى 666هـ {cite:shadharat-dhahab p.560}" }
+sides:
+  - label: { ar: "المماليك" }
+  - label: { ar: "الصليبيون" }
+relations:
+  - { type: occurred_at, target: place/antioch, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (سنة 666)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: main-repair-orphan-prose
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

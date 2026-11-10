@@ -1,0 +1,23 @@
+id: event/palestine-arab-revolt-1936
+class: event
+kind: revolt
+label: { ar: "الثورة العربية في فلسطين", en: "The 1936–1939 Arab revolt in Palestine" }
+summary:
+  ar: "بطاقة أولية للثورة العربية الكبرى في فلسطين من ١٩٣٦ إلى ١٩٣٩م، الانتفاضة الشعبية ضد الانتداب البريطاني والهجرة الصهيونية؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the 1936–1939 Arab revolt in Palestine, the popular rising against the British Mandate and Zionist immigration; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1936", precision: year, status: tradition, derived: true }
+  end: { edtf: "1939", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q46057
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; revolt attested in Palestinian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

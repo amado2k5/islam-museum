@@ -1,0 +1,31 @@
+id: person/ibrahim-ibn-husayn-al-biri
+class: person
+label:
+  ar: "إبراهيم بن حسين البيري"
+  en: "Ibrahim ibn Husayn al-Biri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإبراهيم بن حسين البيري، فقيه حجازي عثماني القرن السابع عشر، توفي سنة ١٦٨٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibrahim ibn Husayn al-Biri, the seventeenth-century Hejazi scholar, d. 1688; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1377", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/jannat-al-mualla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107328752
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0075
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,37 @@
+id: person/ibn-rawaha-izz
+class: person
+label: { ar: "عز الدين ابن رواحة", en: "Izz al-Din Ibn Rawaha" }
+names:
+  - { value: "عز الدين أبو القاسم عبد الله بن الحسين بن عبد الله الأنصاري الحاوي الشافعي ابن رواحة", kind: full }
+born: { edtf: "1164", hijri: "0560", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بصقلية وأبواه في الأسر سنة ستين وخمسمائة {cite:shadharat-dhahab p. 242}." }
+died: { edtf: "1248-09~", hijri: "0646-06-08~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في ثامن جمادى الآخرة سنة ست وأربعين وستمائة وله خمس وثمانون سنة {cite:shadharat-dhahab p. 242}." }
+summary:
+  ar: "الشافعي الحاوي؛ ولد بصقلية وأبواه في الأسر سنة ستين وخمسمائة، وأسمعه أبوه بالإسكندرية من السلافي الكبير ومن جماعة؛ توفي في ثامن جمادى الآخرة وله خمس وثمانون سنة {cite:shadharat-dhahab p. 242}."
+  en: "The Shafi'i (b. 560 in Sicily — born while his parents were prisoners of war; d. 8 Jumada II 646 at 85) — his father had him heard by al-Silafi the Elder at Alexandria {cite:shadharat-dhahab p. 242}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, egypt-nile, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/siqilliya, confidence: low, note: "Associated with Sicily per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/al-silafi, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 646)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch70
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

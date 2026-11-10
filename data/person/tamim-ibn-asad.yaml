@@ -15,9 +15,12 @@ regions: [arabia]
 story_roles:
   - { role: victim, toward: group/banu-al-dil, status: tradition, note: "ناداه منبه «اغد يا تميم فوالله لقد تركت لقتيل» فانطلق حتى دخل مكة.", sources: [source/ibn-hisham-saqqa] }
   - { role: poet, status: debated, note: "قصيدة «حلفت ببيت الله إذ نأت ديارهم» تروى لتميم بن أسد الخزاعي ويذكرها ابن هشام أيضًا لحبيب بن عبد الله الأعلم الهذلي — نسبة الشعر مختلفة.", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
 relations:
   - { type: member_of, target: group/khuzaa }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: survivor, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 32–34", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+
+  - { type: lived_in, target: place/al-watir, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 32–34", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 32–34" }
+status: { review: published, completeness: 3 }

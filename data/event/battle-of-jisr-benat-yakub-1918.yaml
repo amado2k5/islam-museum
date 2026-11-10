@@ -1,0 +1,23 @@
+id: event/battle-of-jisr-benat-yakub-1918
+class: event
+kind: battle
+label: { ar: "معركة جسر بنات يعقوب", en: "Battle of Jisr Benat Yakub" }
+summary:
+  ar: "بطاقة أولية لمعركة جسر بنات يعقوب سنة ١٩١٨م، عبور الأستراليين نهر الأردن على الجيش العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Jisr Benat Yakub in 1918, the Australian crossing of the Jordan against the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1918", precision: year, status: tradition, derived: true }
+  end: { edtf: "1918", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4871340
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

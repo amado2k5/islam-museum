@@ -1,0 +1,8 @@
+---
+id: concept/hilf-alliance
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+حلف لغت میں عہد اور باہمی مدد کا معاہدہ ہے؛ جاہلیت میں یہ معاہدے فرد اور قبیلے، دو افراد یا دو قبیلوں کے درمیان ہوتے تھے، جیسے حلفِ مطیبین اور حلفِ فضول۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7251} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7252} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7253} حلیف اپنے حلیف کی حفاظت کرتا اور اس کے جرائم کا بوجھ اٹھاتا تھا، اور اسلام نے باطل پر مدد اور رشتے داروں کے بغیر وراثت کو ختم کیا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7253} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7254} حدیث «لا حلف في الإسلام» کی تعبیر میں بعض نے وراثت اور باطل پر مدد کے حلف کو ممنوع سمجھا، اور بعض نے خیر اور حق کی مدد کے حلف کو جائز رکھا۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7254} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7257} ابتداءً حلف کی وراثت رائج تھی پھر منسوخ ہوئی، اور ناسخ میں اختلاف ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7257} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7258} جمہور کے نزدیک حلف کی وراثت منسوخ ہے، جبکہ حنفیہ، حکم، حماد اور امام احمد کی ایک روایت کے مطابق یہ باقی ہے اور دیگر ورثاء کے بعد آتی ہے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7258} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7259} حنفیہ کے نزدیک حلیف اپنے مولیٰ کی طرف سے دیت ادا کرتا ہے اور اس کی ولاء سے رضامندی کے بغیر نہیں نکل سکتا؛ جمہور کے نزدیک حلف سے عقل (دیت) لازم نہیں آتی۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7260} دو گروہوں کے درمیان حلف کو بعض علماء حق کی مدد اور ظلم دفع کرنے کے لیے جائز کہتے ہیں، اور اکثر علماء ظاہرِ حدیث پر اعتماد کرتے ہوئے ممنوع۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7260} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7261} یہ مدخل p.7261 پر اگلے مدخل «حلق» پر ختم ہوتا ہے۔ 

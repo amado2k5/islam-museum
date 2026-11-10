@@ -1,0 +1,29 @@
+id: person/abu-ali-bayhaqi
+class: person
+label:
+  ar: "أبو علي البيهقي"
+  en: "Abu 'Ali al-Bayhaqi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو علي البيهقي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu 'Ali al-Bayhaqi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q27988475
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1077", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Yaqut al-Hamawi, Mu'jam al-Udaba" }
+died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; Yaqut al-Hamawi, Mu'jam al-Udaba" }
+relations:
+  - { type: lived_in, target: place/bayhaq, note: "Place association from the person's nisba/name (bayhaqi); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

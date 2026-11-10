@@ -1,0 +1,16 @@
+---
+id: person/julaybib
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-opus-5-5), translation from the Arabic, run assabile-egypt-heweny-1"]
+---
+## Summary
+Julaybib was a Companion whom [[person/abu-ishaq-al-heweny|Abu Ishaq al-Heweny]] cites in the reflection "On the friends of God" from [[work/sayd-al-khatir|Sayd al-Khatir]] as evidence that beauty of form is not a condition of being a friend of God: he is certain that Julaybib was one, though he was not handsome. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:10:00} He says the story of his death is in Sahih Muslim, that its first part is given in full in the Musnad of Ahmad with Muslim's chain, and that Ahmad's version is long while Muslim took its end. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:15:00}
+
+## The marriage
+Al-Heweny relates that Julaybib used to joke with women, and that one of the Companions told his wife not to let him in. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:09:30} Then the Prophet asked a man for his daughter's hand, and made clear that he wanted her for Julaybib; the man referred the matter to her mother, who refused, since she had turned away suitors of higher standing. The daughter said from behind the curtain: would you refuse the Messenger of God his command? Give me to him, for he will not let me be lost. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:10:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:11:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:12:00} Al-Heweny links her answer to the verse that it is not for a believing man or woman, when God and His Messenger have decided a matter, to have a choice in it, and says no one knows what good or harm lies beneath the strap of his own sandal. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:12:30} He says one narrator asked Thabit al-Bunani what the Prophet prayed for the bride, and was told of a prayer that good be poured upon her; he calls this part mursal, and says she became one of the most sought-after widows in Medina. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:17:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:17:30}
+
+## His death
+In his telling, after a campaign the Prophet asked three times whether anyone was missing, then said that he missed Julaybib; they found him killed beside seven men he had killed. The Prophet stood over him and said that Julaybib was of him and he of Julaybib, and he had no bier but the Prophet's two forearms. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:15:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:30} From this al-Heweny is certain that he was one of the friends of God. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:16:30} (needs_source: al-Heweny does not name the campaign in which Julaybib was killed, and the museum's page does not yet cite an independent source.)
+
+Episode 7 of the archive repeats the recording of this lesson. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep07 00:02:00}

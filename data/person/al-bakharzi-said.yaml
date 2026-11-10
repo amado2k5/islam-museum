@@ -1,0 +1,35 @@
+id: person/al-bakharzi-said
+class: person
+label: { ar: "الباخرزي سيف الدين سعيد", en: "al-Bakharzi, Sayf al-Din Sa'id" }
+names:
+  - { value: "الباخرزي الإمام القدوة الحافظ العارف سيف الدين أبو المعالي سعيد بن المطهر", kind: full }
+died: { edtf: "1261~", hijri: "0659", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاته في أموات سنة تسع وخمسين وستمائة {cite:shadharat-dhahab p. 306}." }
+summary:
+  ar: "الإمام القدوة الحافظ العارف، صاحب الشيخ نجم الدين الكبرى؛ كان إماماً في السنة رأساً في التصوف، روى عن نجم الدين بن الحباب وعلي بن محمد الموصلي ورشيد الغزالي وخرج أربعين حديثاً {cite:shadharat-dhahab p. 306}."
+  en: "Companion of Shaykh Najm al-Din al-Kubra — 'an imam in the Sunna, a head in tasawwuf'; transmitter of forty hadith {cite:shadharat-dhahab p. 306}."
+gender: male
+roles: [mystic, muhaddith, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name (الموصلي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 659)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch103
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

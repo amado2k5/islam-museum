@@ -1,5 +1,6 @@
 id: person/khosrow-ii
 class: person
+aliases: [person/khosrow-ii-parviz]   # merged from the al-Tabari record (now a section); the id still resolves
 label: { en: "Khosrow II", ar: "كسرى الثاني" }
 names:
   - { kind: full, lang: ar-Latn, value: "Khosrow Parviz (Khosrow the Victorious)" }
@@ -10,7 +11,7 @@ roles: [ruler]
 traditions: []
 summary:
   en: "The last great Sasanian shah (590–628), whose armies took Jerusalem and reached Constantinople's walls before Heraclius broke his empire. The tradition records that he tore up the Prophet's letter — and died within months."
-  ar: "آخر عظام ملوك الساسانيين (590–628م)، أخذت جيوشه القدس وبلغت أسوار القسطنطينية قبل أن يكسر هرقل إمبراطوريته. وتروي الرواية أنه مزّق رسالة النبي — ومات بعد شهور."
+  ar: "آخر عظام ملوك الساسانيين ⁦(590–628م)⁩، أخذت جيوشه القدس وبلغت أسوار القسطنطينية قبل أن يكسر هرقل إمبراطوريته. وتروي الرواية أنه مزّق رسالة النبي — ومات بعد شهور."
 wings: [people]
 themes: [islam-and-zoroastrianism, wars-and-campaigns]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
@@ -24,5 +25,14 @@ relations:
   - { type: ruler_of, target: polity/sasanian-empire, start: { edtf: "0590" }, end: { edtf: "0628" }, sources: [source/tabari-bosworth-1999] }
   - { type: corresponded_with, target: person/muhammad, note: "The tradition reports the Prophet's letter to Kisra and the shah's contemptuous reply.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-bosworth-1999] }
   - { type: fought, target: polity/byzantine-empire, start: { edtf: "0602" }, end: { edtf: "0628" }, note: "The great Byzantine-Sasanian war that exhausted both empires.", sources: [source/kaegi-2003, source/tabari-bosworth-1999] }
-sources: [source/tabari-bosworth-1999, source/kaegi-2003]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+  - { type: ruled_over, target: place/iran, confidence: low, note: "Sasanian shahanshah 590-628 ruling the Persian empire.", sources: [source/tabari-bosworth-1999] }
+  - { type: died_in, target: place/al-madain, confidence: low, note: "Deposed and executed in his son Kavadh II's coup at Ctesiphon (al-Mada'in), February 628.", sources: [source/tabari-bosworth-1999, source/kaegi-2003] }
+external_ids:
+  wikidata: Q212732
+sources: [source/tabari-bosworth-1999, source/kaegi-2003, source/tabari-tarikh-abu-al-fadl, source/akhbar-tiwal-amir]
+status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "al-Tabari, History (Bosworth tr. 1999) and Tarikh al-Rusul wa al-Muluk (Dar al-Maarif); Kaegi 2003; al-Dinawari, al-Akhbar al-Tiwal (Amir ed.)"
+  generated_by: "Devin (2026-10-11); al-Tabari section merged from person/khosrow-ii-parviz by Claude Opus 5.5 (claude-opus-5-5), 31 Oct 2026"
+  run: "fix/library-duplicates-2026-10-31"

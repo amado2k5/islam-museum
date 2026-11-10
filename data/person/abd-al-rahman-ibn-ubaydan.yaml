@@ -1,0 +1,35 @@
+id: person/abd-al-rahman-ibn-ubaydan
+class: person
+gender: male
+label:
+  ar: "ابن عبيدان البعلي ⁦(عبد الرحمن بن محمود)⁩"
+  en: "Ibn Ubaydan al-Ba'li (Abd al-Rahman ibn Mahmud)"
+summary:
+  ar: "عبد الرحمن بن محمود بن عبيدان البعلي، زين الدين، أبو الفرج، فقيه حنبلي، سمع الحديث وتفقه على تقي الدين ⁦(ابن تيمية)⁩ وغيره، وبرع وأفتى، وكان عارفاً بالفقه والأصول والحديث والعربية والتصوف، وتخرج به جماعة منهم عز الدين حمزة بن شيخ السلامية. من تصانيفه المطلع في الأحكام على أبواب المقنع، وشرح قطعة من المقنع، وزوائد الكافي والمحرر على المقنع. توفي سنة 734 هـ، وولد سنة 675 هـ على ما يذكر العنوان. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15809}"
+  en: "Abd al-Rahman ibn Mahmud ibn Ubaydan al-Ba'li, Zayn al-Din, Abu al-Faraj, a Hanbali jurist. He heard hadith, studied fiqh under Taqi al-Din (Ibn Taymiyya) and others, excelled, and gave fatwas. Ibn Rajab says he knew fiqh and its fine points, usul, hadith, grammar and Sufism, and trained a circle including Izz al-Din Hamza ibn Shaykh al-Salamiyya. His works include al-Mutli fi al-ahkam ala abwab al-Muqni, a partial commentary on al-Muqni, and Zawa'id al-Kafi and al-Muharrir on al-Muqni. The header gives his death as 734 AH and his birth as 675 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15809}"
+roles: [jurist]
+traditions: [sunni-hanbali]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15809 من المسح)"
+  scan_pages: [15809]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila (supplement); Ulama al-Hanabila (1898–1978 CE)" }
+died: { edtf: "1398", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila (supplement); Ulama al-Hanabila (1898–1978 CE)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Hanbali jurist who studied fiqh under Taqi al-Din Ibn Taymiyya, whose teaching circle was Damascus.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: medium }

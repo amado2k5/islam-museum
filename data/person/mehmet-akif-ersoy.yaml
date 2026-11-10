@@ -1,0 +1,31 @@
+id: person/mehmet-akif-ersoy
+class: person
+label: { ar: "محمد عاكف إرصوي", en: "Mehmet Akif Ersoy" }
+names:
+  - { kind: full, lang: ar, value: "محمد عاكف بن طاهر إرصوي" }
+gender: male
+roles: [poet, writer]
+traditions: [sunni]
+born: { edtf: "1873", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1936", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر وأديب تركي، ولد في إسطنبول سنة 1873م، وتوفي سنة 1936م."
+  en: "A Turkish poet and man of letters, born in Istanbul in 1873 and died in 1936."
+wings: [people]
+themes: [literature]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/istanbul, confidence: low, note: "Associated with إسطنبول per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص460"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60

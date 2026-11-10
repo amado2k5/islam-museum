@@ -1,0 +1,35 @@
+id: person/najm-al-din-al-rabai
+class: person
+label: { ar: "نجم الدين الربعي", en: "Najm al-Din al-Rab'i" }
+names:
+  - { value: "نجم الدين إبراهيم بن عبد الرحيم بن محمد الربعي المصري الشافعي الكاتب العدل", kind: full }
+died: { edtf: "1270-04~", hijri: "0668-09", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في رمضان سنة ثمان وستين {cite:shadharat-dhahab p. 569}." }
+summary:
+  ar: "الكاتب العدل المصري؛ برع في الفقه والعربية والحساب والهندسة ودرس وأفتى ولم يفته مراسل إلا جرحه؛ توفي في رمضان {cite:shadharat-dhahab p. 569}."
+  en: "Egypt's katib-'adl — brilliant in fiqh, Arabic, arithmetic and geometry, teaching and giving fatwa while 'no letter missed him unless he was wounded'; d. Ramadan 668 {cite:shadharat-dhahab p. 569}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Association inferred from the nisba 'المصري'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 668)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch109
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

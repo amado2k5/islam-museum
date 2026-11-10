@@ -1,0 +1,35 @@
+id: person/abu-al-thana-al-lamishi
+class: person
+label:
+  ar: "أبو الثناء اللامشي"
+  en: "Abu al-Thana' al-Lamishi"
+roles: [faqih]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي الثناء اللامشي، الفقيه الحنفي في ما وراء النهر؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Thana' al-Lamishi, the Hanafi jurist of Transoxiana; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q82380008
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "1050~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya" }
+died: { edtf: "1128~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya" }
+relations:
+  - { type: lived_in, target: place/transoxiana, note: "From text: فقيه الحنفي في ما وراء النهر", sources: [source/al-aalam], confidence: low }

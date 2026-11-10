@@ -1,0 +1,21 @@
+id: person/bashshar-ibn-burd
+class: person
+label: { ar: "بشار بن برد", en: "Bashshar Ibn Burd" }
+summary:
+  ar: "بشار بن برد الشاعر عدّه ابن النديم في الشعراء الذين يظهرون الإسلام ويبطنون الزندقة: من الشعراء بشار بن برد وإسحاق بن خلف وابن سنه وسلم الخاسر وعلي بن الخليل وعلي بن ثابت {cite:fihrist-ibn-al-nadim p. 473}."
+  en: "Bashshar ibn Burd — counted among the zindiq poets {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+born: { edtf: "714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "783", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/al-khalil, confidence: low, note: "Associated with الخليل per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch19

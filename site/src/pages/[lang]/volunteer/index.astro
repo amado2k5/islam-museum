@@ -1,0 +1,50 @@
+---
+// Volunteer: the areas where the museum needs volunteers, and how to join. Plain prose from i18n, no scripts.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const V = T.volunteer;
+const VOLUNTEER = "volunteer@islam.museum";
+const sections: { id: string; title: string; body: string[] }[] = [
+  { id: "about", title: V.about_title, body: [V.about_1, V.about_2] },
+  { id: "outreach", title: V.outreach_title, body: [V.outreach_body] },
+  { id: "development", title: V.development_title, body: [V.development_body] },
+  { id: "review", title: V.review_title, body: [V.review_body] },
+  { id: "planning", title: V.planning_title, body: [V.planning_body] },
+  { id: "education", title: V.education_title, body: [V.education_body] },
+  { id: "media", title: V.media_title, body: [V.media_body] },
+  { id: "support", title: V.support_title, body: [V.support_body] },
+];
+---
+<BaseLayout lang={lang} title={V.title} description={V.lede} path={`/${lang}/volunteer/`}>
+  <PageHeader title={V.title} lede={V.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: V.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      {sections.map((s) => (
+        <section aria-labelledby={`${s.id}-h`} class="p-sec">
+          <h2 id={`${s.id}-h`}>{s.title}</h2>
+          {s.body.map((t) => <p>{t}</p>)}
+        </section>
+      ))}
+
+      <section aria-labelledby="join-h" class="p-sec">
+        <h2 id="join-h">{V.join_title}</h2>
+        <p>{V.join_body}</p>
+        <p class="ui p-links">
+          <a href={`mailto:${VOLUNTEER}`} dir="ltr">{VOLUNTEER}</a>
+        </p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .p-sec { margin-block: 2rem 0; }
+  .p-sec h2 { margin-top: 0; }
+  .p-links { margin-top: 0.5rem; }
+</style>

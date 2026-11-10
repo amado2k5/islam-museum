@@ -1,0 +1,27 @@
+id: event/khatib-return-baghdad-462
+class: event
+kind: migration
+label:
+  ar: "عودة الخطيب إلى بغداد وسماع «التاريخ» بالنظامية، ذو الحجة ٤٦٢هـ"
+  en: "Al-Khatib returns to Baghdad; the Tarikh is heard at the Nizamiyya, Dhu al-Hijja 462/1070"
+  ur: "خطیب کی بغداد واپسی اور نظامیہ میں «تاریخ» کی سماعت، ذوالحجہ 462ھ/1070ء"
+summary:
+  ar: "توجّه الخطيب سنة اثنتين وستين وأربعمائة إلى طرابلس ثم إلى حلب ثم إلى بغداد على الرحبة، وحدّث في طريقه بحلب وغيرها، ودخل بغداد في ذي الحجة {cite:tarikh-islam-dhahabi p. 93}؛ وكان يتمنى أمرين: أن يعود إلى بغداد فيُسمع منه تاريخه على كماله بها، وأن يموت فيها فيُدفن عند بشر، فسمع منه كتابه البغداديون في المدرسة النظامية {cite:tarikh-islam-dhahabi p. 107}."
+  en: "In 462 al-Khatib made for Tripoli, then Aleppo, then Baghdad by way of al-Rahba, dictating hadith at Aleppo and elsewhere on the road, and entered Baghdad in Dhu al-Hijja. He had wished for two things — to return so that his Tarikh might be heard from him complete at Baghdad, and to die there and be buried beside Bishr — and the Baghdadis heard the book from him at the Nizamiyya madrasa {cite:tarikh-islam-dhahabi pp. 93, 107}."
+  ur: "462ھ میں خطیب طرابلس، پھر حلب، پھر رحبہ کے راستے بغداد روانہ ہوئے، راستے میں حلب اور دوسرے مقامات پر حدیث بیان کی، اور ذوالحجہ میں بغداد داخل ہوئے۔ ان کی دو تمناں تھیں: بغداد لوٹ کر اپنی تاریخ وہاں کامل سناؤں اور وہیں فوت ہو کر بشر کے پہلو میں دفن ہوں — بغداد والوں نے مدرسہ نظامیہ میں ان سے کتاب سنی {cite:tarikh-islam-dhahabi pp. 93, 107}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1070-09~", hijri: "0462-12", calendar: julian, precision: month, status: tradition, derived: true, note: "دخل بغداد في ذي الحجة سنة اثنتين وستين وأربعمائة {cite:tarikh-islam-dhahabi p. 93}؛ سمع منه كتابه البغداديون في المدرسة النظامية {cite:tarikh-islam-dhahabi p. 107}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "العائد المسمع", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Tarikh al-Islam al-Dhahabi s.a. 463, printed vol. 31 pp. 93, 107 n.2 citing al-Taqyid p. 155 (harvest OCR 01.-_20240823__31)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-khatib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: event/battle-of-sinhagad-1670
+class: event
+kind: battle
+label: { ar: "معركة سينهاغاد", en: "Battle of Sinhagad" }
+summary:
+  ar: "بطاقة أولية لمعركة سينهاغاد سنة ١٦٧٠م، استرداد المراثة القلعة من المغول؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sinhagad in 1670, the Maratha recapture of the fort from the Mughals; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+date:
+  start: { edtf: "1670", precision: year, status: tradition, derived: true }
+  end: { edtf: "1670", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4872383
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

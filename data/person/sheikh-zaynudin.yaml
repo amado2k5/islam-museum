@@ -1,0 +1,28 @@
+id: person/sheikh-zaynudin
+class: person
+label:
+  ar: "الشيخ زين الدين"
+  en: "Sheikh Zaynudin"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لالشيخ زين الدين؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sheikh Zaynudin; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1583", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-Mujahidin" }
+relations:
+  - { type: died_in, target: place/tashkent, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q269)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q114437536
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,32 @@
+id: person/hamza-shakkur
+class: person
+label: { ar: "حمزة شكور", en: "Hamza Shakkur", ur: "حمزہ شکور" }
+names:
+  - { value: "حمزة شكور", kind: full }
+  - { value: "Hamza Shakkour", kind: alternate }
+  - { value: "شيخ المنشدين", kind: alternate }
+gender: male
+summary:
+  ar: "منشد دمشقي (1944–2009) لُقّب بشيخ المنشدين، منشد الجامع الأموي بدمشق ورئيس رابطة المنشدين في سوريا منذ 1974، أسس في 1983 مع جلال الدين فايس فرقة الكندي التي جالت بالإنشاد الصوفي والمولوية الدمشقية من الهند إلى الولايات المتحدة، وكان كذلك بطلًا لسوريا في كمال الأجسام."
+  en: "Damascene munshid (1944–2009) called 'the shaykh of munshids', singer of the Umayyad Mosque of Damascus and president of Syria's league of munshids from 1974, who founded Ensemble Al-Kindi with Jalal al-Din Weiss in 1983 and toured Damascene Sufi song and Mevlevi performance from India to the United States; he was also a Syrian bodybuilding champion."
+  ur: "دمشق کے منشد ⁦(1944ء–2009ء)⁩، جنھیں «شیخ المنشدین» کہا گیا، جامع اموی دمشق کے منشد اور 1974ء سے شام کی رابطۂ منشدین کے صدر، جنھوں نے 1983ء میں جلال الدین فائس کے ساتھ الکندی ensemble قائم کیا اور دمشقی صوفی انشاد اور مولوی رقص کو ہندوستان سے امریکا تک لے گئے؛ وہ شام کے باڈی بلڈنگ چیمپئن بھی تھے۔"
+wings: [people]
+regions: [levant-iraq]
+roles: [munshid, singer, athlete]
+born: { edtf: "1944", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in the al-Qaboun quarter of Damascus (Arabic article; Wikidata gives 1944 and al-Qaboun).", sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur] }
+died: { edtf: "2009-02-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article and Wikidata give 4 February 2009, aged 65.", sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur] }
+relations:
+  - { type: born_in, target: place/al-qaboun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-shakkur] }
+  - { type: born_in, target: place/damascus, note: "al-Qaboun quarter", sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives his current as Mevlevi and says he grew up in the Rashidiyya, Hashimiyya, Rifa'iyya, Sa'diyya and Naqshbandiyya lodges; this is a sourced upbringing and repertoire, kept in the prose. No sentence of his own attests an affiliation, so no faith value is recorded (prompt.md §5)."
+    sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-hamza-shakkur] }
+  wikidata: "Q12208840"
+external_ids: { wikidata: "Q12208840" }
+sources: [source/wikipedia-hamza-shakkur-ar, source/wikidata-hamza-shakkur]
+provenance: { layer: own-research, source: "Arabic Wikipedia «حمزه شكور» (revision 61657993, 15 March 2023) and Wikidata Q12208840 (revision 2558748164), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

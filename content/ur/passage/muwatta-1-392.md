@@ -1,0 +1,11 @@
+---
+id: passage/muwatta-1-392
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## موجز
+باب ما یجب فیہ قصر الصلاۃ کا پہلا اثر۔ یحییٰ مالک سے، وہ نافع سے روایت کرتے ہیں کہ عبداللہ بن عمر جب حج یا عمرہ کے لیے نکلتے تو ذو الحلیفہ میں نماز قصر کرتے۔ محقق ذکر کرتے ہیں کہ اسے مالک سے ابو مصعب، سوید، عبدالرزاق اور محمد بن الحسن نے روایت کیا۔ {cite:muwatta-maruf-1997 p.210}
+
+## موضعه في المتحف
+یہ [[passage/muwatta-kitab-01-salat|الموطأ، كتاب الصلاۃ]] میں شامل ہے۔ مصدرہ [[work/muwatta-malik|الموطأ]]۔ یذکر [[person/abdullah-ibn-umar|عبداللہ بن عمر بن الخطاب]]، و[[person/nafi-mawla-ibn-umar|نافع مولیٰ ابن عمر]]، و[[place/dhu-al-hulayfa|ذو الحلیفہ]]۔ ویُبنی علیه فی ابواب [[practice/salah|الصلاۃ]]۔

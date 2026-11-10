@@ -16,7 +16,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     `Average sources per entity: **${cv.avgSourcesPerEntity}** · Women share of persons with a recorded gender: **${cv.womenShare === null ? "n/a" : (cv.womenShare * 100).toFixed(1) + "%"}**`, "",
     table("By class", cv.byClass), table("By wing", cv.byWing), table("By period", cv.byPeriod), table("By region", cv.byRegion), table("By theme", cv.byTheme),
     table("By review status", cv.byReview), table("Prose by language", cv.proseByLang),
-    `### Themes with no entries yet (${cv.emptyThemes.length} of 124)\n\n${cv.emptyThemes.map((t) => `\`${t}\``).join(", ")}\n`,
+    `### Themes with no entries yet (${cv.emptyThemes.length} of 132)\n\n${cv.emptyThemes.map((t) => `\`${t}\``).join(", ")}\n`,
     "### Wanted (referenced, not yet written)\n\n" + (cv.wanted.map((w) => `- \`${w}\``).join("\n") || "none"), "",
   ].join("\n");
   writeFileSync(p("docs", "coverage.md"), md);

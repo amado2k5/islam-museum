@@ -1,0 +1,42 @@
+id: dec-20261108-118
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: ecf59fb0a381
+lane: infra
+class: engineering
+modality: repo
+domain: governance
+mode: conservative
+question: I added a Worker route — do I update wrangler.production.toml
+  run_worker_first and the deploy.yml removal lines in the same commit?
+options: null
+status: founder-docket
+step: policy-gate
+decision: deploys are founder-only (cost + control)
+confidence: n/a
+reversible: false
+rationale: ""
+gate: nd-deploy
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - gate:nd-deploy
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 1
+  rule_ids_fired:
+    - nd-deploy
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: Worker routes go into wrangler.production.toml + deploy.yml lists
+  founder_override: false
+  calibration_weight: 1

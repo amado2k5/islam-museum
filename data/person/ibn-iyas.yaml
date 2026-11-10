@@ -1,0 +1,29 @@
+id: person/ibn-iyas
+class: person
+label:
+  ar: "ابن إياس"
+  en: "Ibn Iyas"
+roles: [historian]
+gender: male
+summary:
+  ar: "محمد بن أحمد بن إياس الحنفي، مؤرخ مصري مملوك تلميذ السيوطي، صاحب «بدائع الزهور في وقائع الدهور»؛ توفي نحو 930هـ ⁦(1524م)⁩."
+  en: "Muhammad Ibn Iyas al-Hanafi (1448–c.1524), Egyptian mamluk historian, author of Bada'i' al-Zuhur."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+born: { edtf: "1448~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1524~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q75007
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.4)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
+status:
+  review: published
+  completeness: 3

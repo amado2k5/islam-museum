@@ -1,0 +1,55 @@
+id: person/shireen-abu-akleh
+class: person
+label:
+  ar: "شيرين أبو عاقلة"
+  en: "Shireen Abu Akleh"
+  ur: "شیرین ابو عاقلہ"
+names:
+  - { value: "Shireen Abu Akleh", kind: full }
+  - { value: "شيرين أبو عاقلة", kind: full }
+gender: female
+born:
+  edtf: "1971-04-03"
+  hijri: "1391"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Jerusalem on 3 April 1971: the English and Arabic biographies and Wikidata agree on the day. The Hijri year 1391 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-shireen-abu-akleh-en, source/wikipedia-shireen-abu-akleh-ar, source/wikidata-shireen-abu-akleh]
+died:
+  edtf: "2022-05-11"
+  hijri: "1443"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Shot and killed at Jenin on 11 May 2022 while covering an Israeli military raid, wearing a blue press vest. Investigations by the United Nations High Commissioner for Human Rights, the United States Department of State and several international news organisations concluded that the shots that killed her came from Israeli forces, and the Israeli military later acknowledged a high possibility that she was accidentally killed by its own fire. Jenin has no place entity, so the fact is carried here and no died_in edge is written. The Hijri year 1443 is a tabular conversion of the followed date, marked derived."
+  sources: [source/wikipedia-shireen-abu-akleh-en, source/wikipedia-shireen-abu-akleh-ar, source/wikidata-shireen-abu-akleh]
+roles: [journalist]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: christian
+    basis: documented
+    note: "Settled on two independent families of attestation for Abu Akleh herself. Catholic News Service's funeral report records the funeral Mass celebrated for her at the Melkite Catholic Cathedral of the Annunciation of the Virgin in Jerusalem and her burial beside her parents at the Mount Zion Catholic cemetery, and Catholic outlets of the same days describe her herself as a Catholic Palestinian journalist (National Catholic Register) and as Greek Catholic (National Catholic Reporter). The English biography independently records her birth to a Palestinian Arab Christian (Melkite Catholic) family from Bethlehem and a funeral held at that same Melkite cathedral. Wikidata's structured religion value, Eastern Orthodoxy, conflicts with the Melkite Catholic attestation and is preserved here unadopted. The value recorded is christian; the attested affiliation is Melkite (Greek) Catholic."
+    sources: [source/catholic-news-service-abu-akleh-funeral-2022, source/wikipedia-shireen-abu-akleh-en]
+relations:
+  - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-shireen-abu-akleh-en, source/wikipedia-shireen-abu-akleh-ar] }
+summary:
+  ar: "صحفية فلسطينية أمريكية (1971–2022)، أشهر مراسلي الجزيرة الميدانيين في الأراضي الفلسطينية على مدى 25 عاماً. وُلدت في القدس لعائلة من الروم الملكيين الكاثوليك من بيت لحم، وقُتلت بالرصاص في جنين في 11 أيار 2022 أثناء تغطيتها اقتحاماً إسرائيلياً وهي ترتدي سترة الصحافة؛ وخلصت تحقيقات الأمم المتحدة والولايات المتحدة وكبريات المؤسسات الإخبارية إلى أن النيران التي قتلتها جاءت من القوات الإسرائيلية."
+  en: "Palestinian-American journalist (1971–2022), Al Jazeera's best-known field correspondent in the Palestinian territories for 25 years. Born in Jerusalem to a Melkite Greek Catholic family from Bethlehem, she was shot and killed in Jenin on 11 May 2022 while covering an Israeli raid wearing a press vest; investigations by the UN, the US and major news organisations attributed the fatal fire to Israeli forces."
+  ur: "فلسطینی نژاد امریکی صحافی (1971–2022)، 25 برس تک فلسطینی علاقوں میں الجزیرہ کی معروف ترین فیلڈ رپورٹر۔ وہ قدس میں بیت لحم کے ایک ملکی یونانی کیتھولک خاندان میں پیدا ہوئیں اور 11 مئی 2022ء کو جنین میں اسرائیلی چھاپے کی کوریج کے دوران پریس ویسٹ پہنے ہوئے گولی لگنے سے ہلاک ہو گئیں؛ اقوام متحدہ، امریکہ اور بڑے خبر رساں اداروں کی تحقیقات نے قاتل گولی کو اسرائیلی فورسز سے منسوب کیا۔"
+sources:
+  - source/wikipedia-shireen-abu-akleh-en
+  - source/wikipedia-shireen-abu-akleh-ar
+  - source/wikidata-shireen-abu-akleh
+  - source/catholic-news-service-abu-akleh-funeral-2022
+external_ids:
+  wikidata: Q12219365
+provenance:
+  layer: own-research
+  source: "The English and Arabic Wikipedia biographies of Shireen Abu Akleh, the Wikidata item Q12219365, and Catholic News Service's funeral report of 16 May 2022 (as published by The Catholic Sun), all read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session, asserted, and the Wikidata revision re-asserted against a second live query; the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Al Jazeera correspondent (1971–2022), pinned by biography and QID against the four other Abu Akleh / Husayni-era namesakes — no prior record and no Arabic-label collision exists on main, and the queue's years are confirmed to the day. Her death is carried in the standard terms of the major sources: killed by gunfire in Jenin while reporting, with the UN, US and press investigations attributing the fire to Israeli forces and the IDF's later acknowledgement recorded. Relations written: born_in only — Jenin and Bethlehem have no place entities, and her parents and brother have no person records."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-139
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

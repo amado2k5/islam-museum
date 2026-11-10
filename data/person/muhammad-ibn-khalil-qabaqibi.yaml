@@ -1,0 +1,31 @@
+id: person/muhammad-ibn-khalil-qabaqibi
+class: person
+label:
+  ar: "محمد بن خليل القباقيبي"
+  en: "Muhammad ibn Khalil Qabaqibi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن خليل القباقيبي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Khalil Qabaqibi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1375", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami')" }
+died: { edtf: "1446", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami')" }
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q41183)" }
+  - { type: died_in, target: place/jerusalem, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1218)" }
+  - { type: buried_in, target: place/mamilla-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1383277)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q110732653
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

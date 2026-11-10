@@ -1,0 +1,16 @@
+id: media/diagram-haytham-remainders
+class: media
+kind: illustration
+label: { ar: "من شروط الباقي إلى جواب مفحوص", en: "From remainder constraints to a checked answer", ur: "باقی کی شرطوں سے جانچے ہوئے جواب تک" }
+summary: { ar: "سلسلة تعليمية، لا إعادة إنشاء مخطوط أو الطريقة الثانية.", en: "Teaching chain, not a manuscript or second-method reconstruction.", ur: "تدریسی زنجیر، مخطوطہ یا دوسرے طریقے کی بازتعمیر نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/haytham-factorial-remainders]
+alt:
+  ar: "شروط قسمة ثم حاصل ضرب وإضافة واحد وفحص البواقي؛ عرض حديث لا ترميز المؤلف الأصلي."
+  en: "Division constraints, product, adding one and checking remainders; modern chain, not original notation."
+  ur: "تقسیمی شرطیں، ضرب، ایک کا اضافہ اور باقیوں کی جانچ؛ جدید زنجیر، مصنف کی اصل علامتیں نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/haytham-mactutor, source/weisstein-wilson-theorem]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b82", source: "Generic museum chain; no copied manuscript or claim to recover historical method2." }

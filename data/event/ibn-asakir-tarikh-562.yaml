@@ -1,0 +1,29 @@
+id: event/ibn-asakir-tarikh-562
+class: event
+kind: publication
+label:
+  ar: "عماد الدين الأصبهاني يعاين نسخة «تاريخ مدينة دمشق» في سبعين مجلداً، ٥٦٢هـ/١١٦٧م"
+  en: "Imad al-Din al-Isfahani sees the Tarikh Madinat Dimashq at seventy volumes, 562/1167"
+  ur: "عماد الدین اصفہانی کی «تاريخ مدينہ دمشق» کی ستر جلد والی نسخہ دیکھی، 562ھ/1167ء"
+summary:
+  ar: "بلغ «تاريخ مدينة دمشق» سنة اثنتين وستين وخمسمائة حين قدم عماد الدين الأصبهاني دمشق سبعين مجلداً كل منها عشرة أجزاء، بعد أن كان سبعة وخمسين مجلداً سنة ٥٤٩هـ؛ وصار الكتاب في تمامه ثمانين مجلداً في ثمانمائة جزء كما يذكر ابنه القاسم، وهو أعظم معجم للتراجم رُتّب على الحروف فافتتح بمن اسمه أحمد {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "By 562/1167, when Imad al-Din came to Damascus, the Tarikh Madinat Dimashq ran to seventy books of ten parts each — up from fifty-seven in 549 — and in its final form it reached eighty volumes of eight hundred parts, as the author's son al-Qasim reports; the vast biographical dictionary is arranged alphabetically, opening with all who bore the name Ahmad {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "562ھ/1167ء میں جب عماد الدین اصفہانی دمشق آئے تو «تاريخ مدينہ دمشق» ستر جلدوں پر مشتمل تھی — 549ھ میں سنتاون تھی — اور مکمل صورت میں مصنف کے بیٹے قاسم کے بیان کے مطابق اسی جلدیں یعنی آٹھ سو اجزاء ہوئیں؛ یہ عظیم معجمِ تراجم حروفِ تہجی کے ترتیب پر ہے اور احمد نامی اعلام سے شروع ہوتا ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1167~", hijri: "0562", calendar: julian, precision: year, status: tradition, derived: true, note: "In 562/1167, when Imad al-Din came to Damascus, he saw a copy of 70 books {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/imad-al-din-al-katib-al-isfahani, role: "العائن للنسخة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: mentions, target: work/tarikh-dimashq, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

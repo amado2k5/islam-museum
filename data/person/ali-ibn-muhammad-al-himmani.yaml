@@ -1,0 +1,23 @@
+id: person/ali-ibn-muhammad-al-himmani
+class: person
+label: { ar: "علي بن محمد الحماني العلوي", en: "'Ali al-Himmani" }
+summary:
+  ar: "علي بن محمد بن جعفر العلوي الحماني الشاعر أخو إسماعيل العلوي لأمه، نزل بالكوفة في حمان فأضيف إليهم، رثى يحيى بن عمر وقال يا بقايا السلف الصالح والتجر الربيح، وقعد عن لقائه حين دخل الحسن بن إسماعيل الكوفة {cite:muruj-al-dhahab p. 532-533}."
+  en: "The 'Alawi poet of Himman — elegist of Yahya ibn 'Umar who sat out the fighting {cite:muruj-al-dhahab p. 532-533}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+external_ids: { wikidata: "Q97032407" }
+sources: [source/muruj-al-dhahab, source/wikidata]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "874~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -1,0 +1,31 @@
+id: concept/al-musara-a
+class: concept
+kind: discipline
+label:
+  ar: "المصارعة"
+  en: "Wrestling"
+  ur: "کشتی"
+summary:
+  ar: "روى ابن إسحاق، بسنده عن إسحاق بن يسار، أن النبي دعا ركانة بن عبد يزيد المطلبي إلى الإسلام، فقال له النبي: أرأيت إن صرعتك أتعلم أن ذلك حق؟ فقال: نعم، فصرعه النبي مرتين، وانطلق ركانة يقول: هذا ساحر. {cite:sira-ibn-ishaq-zakkar p.276} وأورد ابن حجر في الإصابة الخبر من طريق أبي جعفر بن محمد بن ركانة عن أبيه، وأن ابن حبان قال في إسناده نظراً، ورجّح ابن حجر أن محمد بن ركانة أسقط حلقة من السند عن أبيه. {cite:ibn-hajar-isaba p.499} {cite:ibn-hajar-isaba p.531} وذكره أبو نعيم في معرفة الصحابة في فهرس أحاديثه بعنوان «أن النبي صارع ركانة»، ولم يُقرأ متنه في النسخة الممسوحة. {cite:marifat-sahaba-abu-nuaym p.682}"
+  en: "Ibn Ishaq narrates, through Ishaq ibn Yasar, that the Prophet invited Rukana ibn Abd Yazid of Banu al-Muttalib to Islam; the Prophet asked whether Rukana would know his claim to be true if he threw him, Rukana agreed, the Prophet threw him twice, and Rukana then said he was a sorcerer. {cite:sira-ibn-ishaq-zakkar p.276} Ibn Hajar, in al-Isaba, gives the bout also through Abu Ja'far ibn Muhammad ibn Rukana from his father; Ibn Hibban found the chain doubtful, and Ibn Hajar judged that Muhammad ibn Rukana most likely dropped a link from the chain. {cite:ibn-hajar-isaba p.499} {cite:ibn-hajar-isaba p.531} Abu Nu'aym lists the bout in his index of Companion reports under the incipit «the Prophet wrestled Rukana»; the body text was not legible in the scan used. {cite:marifat-sahaba-abu-nuaym p.682}"
+  ur: "ابن اسحاق نے اسحاق بن یسار کی سند سے روایت کیا کہ نبی نے رکانہ بن عبد یزید مطلبی کو اسلام کی دعوت دی؛ نبی نے پوچھا کہ اگر میں تمہیں پچھاڑ دوں تو کیا تم جان لو گے کہ میری بات سچ ہے؟ رکانہ نے ہاں کہا، اور نبی نے انہیں دو مرتبہ پچھاڑا۔ {cite:sira-ibn-ishaq-zakkar p.276} ابن حجر نے الاصابہ میں یہ خبر ابو جعفر بن محمد بن رکانہ کی سند سے نقل کی، ابن حبان نے اس کی سند پر اعتراض کیا، اور ابن حجر کے نزدیک قریب تر یہ ہے کہ محمد بن رکانہ نے سند سے ایک کڑی گرا دی۔ {cite:ibn-hajar-isaba p.499} {cite:ibn-hajar-isaba p.531} ابو نعیم نے معرفۃ الصحابہ کے فہرست احادیث میں اسے «أن النبي صارع ركانة» کے عنوان سے درج کیا، تاہم اسکے متن کی عبارت ممسوحہ نسخے میں پڑھی نہیں جا سکی۔ {cite:marifat-sahaba-abu-nuaym p.682}"
+relations:
+  - { type: related_to, target: person/rukana, note: "صاحب خبر المصارعة", sources: [source/sira-ibn-ishaq-zakkar, source/ibn-hajar-isaba] }
+  - { type: related_to, target: person/muhammad, note: "صارع الرجل وصرعه", sources: [source/sira-ibn-ishaq-zakkar] }
+  - { type: related_to, target: concept/sabq-in-islam, note: "المصارعة من المسابقات التي تجوز بلا جعل", sources: [source/usul-iqtisad-islami-0660] }
+sources: [source/sira-ibn-ishaq-zakkar, source/ibn-hajar-isaba, source/marifat-sahaba-abu-nuaym]
+wings: [ideas]
+themes: [games-and-leisure]
+periods: [period/prophetic-era]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "ابن إسحاق، السير (تحقيق زكار) ص 276؛ ابن حجر، الإصابة ص 499 و531 (نسخة المسح)؛ أبو نعيم، معرفة الصحابة، فهرس الأحاديث ص 682 (نسخة المسح)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: "games-early-muslims-wrestling"
+  scan_pages: [276, 499, 531, 682]
+status:
+  review: published
+  completeness: 2
+  generated_by: "Claude Code (claude-haiku-5-5); OCR-checked on the harvest scans; Abu Nu'aym body text not verified"

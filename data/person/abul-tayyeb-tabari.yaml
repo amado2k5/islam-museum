@@ -1,0 +1,35 @@
+id: person/abul-tayyeb-tabari
+class: person
+label:
+  ar: "أبو الطيب الطبري"
+  en: "Abu'l Tayyeb Tabari"
+roles: [faqih]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي الطيب طاهر بن عبد الله الطبري، شيخ الشافعية ومستفتي بغداد؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Tayyib Tahir ibn Abd Allah al-Tabari, shaykh of the Shafi'is and Baghdad's mufti; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "0960", precision: year, status: tradition, derived: true }
+died: { edtf: "1058", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22681280
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Shaykh of the Shafi'is and mufti of Baghdad (mustafti Baghdad).", sources: [source/al-aalam], confidence: high }

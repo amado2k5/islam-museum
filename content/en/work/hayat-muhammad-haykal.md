@@ -1,0 +1,24 @@
+---
+id: work/hayat-muhammad-haykal
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker E), claude-opus-5-5, translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/hayat-muhammad-haykal-hindawi pp. 5–6, 9–20, 23–24, 31, 40–41, 45–46, 81, 167, 481, 537" }
+---
+## Summary
+*Hayat Muhammad* ("The Life of Muhammad") is a modern biography of the Prophet by the Egyptian writer [[person/muhammad-husayn-haykal|Muhammad Husayn Haykal]], dedicated "to those who seek the truth for the sake of the truth alone". {cite:hayat-muhammad-haykal-hindawi p.3} {cite:hayat-muhammad-haykal-hindawi p.9} The Shaykh of al-Azhar [[person/muhammad-mustafa-al-maraghi|Muhammad Mustafa al-Maraghi]] wrote its introduction, dated 15 February 1935. {cite:hayat-muhammad-haykal-hindawi p.20}
+
+## Al-Maraghi's introduction
+Al-Maraghi holds that the Prophet's biography, like those of all great men, has had things added to it that do not belong, and that the aspects of his greatness before and after revelation — as preacher, ruler, commander and judge — deserve study that no single person can complete. {cite:hayat-muhammad-haykal-hindawi p.16} He describes the book as a study of the sira "by the modern method", and likens the scientific method — emptying the mind of prior opinions, then observation, experiment, comparison and inference — to the method of the Qur'an, which made reason the judge and condemned blind imitation. {cite:hayat-muhammad-haykal-hindawi p.17} He adds that this method is old, found in works of kalam, was forgotten in the East and brought to the fore by Westerners, from whom Easterners then took it back. {cite:hayat-muhammad-haykal-hindawi p.18}
+
+## The author's aim and the Orientalists
+Haykal opens his preface by observing that the name of Muhammad has been on millions of lips for nearly fourteen centuries, and surveys the spread of Islam from the East to North Africa and al-Andalus. {cite:hayat-muhammad-haykal-hindawi p.23} {cite:hayat-muhammad-haykal-hindawi p.24} He singles out the French writer [[person/emile-dermenghem|Émile Dermenghem]] and his *Life of Mahomet* and discusses what the Orientalists wrote. {cite:hayat-muhammad-haykal-hindawi p.31} He says he found help from al-Maraghi, that Makram Ubayd lent him Sir William Muir's *Life of Mahomet*, and that Muir, Irving, Sprenger, Weil and other Orientalists each portrayed the sira in his own way. {cite:hayat-muhammad-haykal-hindawi p.40} {cite:hayat-muhammad-haykal-hindawi p.41}
+
+## Editions and their prefaces
+In the preface to the second edition Haykal says the first edition was printed in ten thousand copies, a third of them taken by subscription during printing and the rest within three months of publication, so he revised the book; he takes up remarks made by al-Maraghi and others. {cite:hayat-muhammad-haykal-hindawi p.45} {cite:hayat-muhammad-haykal-hindawi p.46} In the preface to the third edition he says it differs from the second only in some words changed or polished for precision. {cite:hayat-muhammad-haykal-hindawi p.81} In his "Acknowledgements" he records that Muhammad Tal'at Harb, then director of Bank Misr, helped him bring out the first edition quickly, and that a thousand copies were set aside for the Islamic Charitable Society. {cite:hayat-muhammad-haykal-hindawi p.537}
+
+## Structure
+After the prefaces and a list of Arabic and European sources, the book runs to thirty-one chapters, beginning with "Arabia before Islam" and "Mecca, the Ka'ba and Quraysh" and following events: birth, marriage and the mission; then the emigration, Badr, Uhud, the Trench, al-Hudaybiya, Khaybar, Mu'ta, the conquest of Mecca, Hunayn, Tabuk, the year of delegations and the Farewell Pilgrimage; ending with the Prophet's illness, death and burial, followed by a two-part conclusion. {cite:hayat-muhammad-haykal-hindawi p.5} {cite:hayat-muhammad-haykal-hindawi p.6} {cite:hayat-muhammad-haykal-hindawi p.11} Among its chapters are one on "The Prophet's wives" (p. 305) and another on "Ibrahim and the Prophet's wives" (p. 413). {cite:hayat-muhammad-haykal-hindawi p.6}
+
+## Notable positions
+Haykal devotes a chapter to the "story of the cranes" (al-gharaniq), tracing the Orientalists' reliance on it and their chains, and concludes that the chains are weak and that the story is "manifestly false" on examination. {cite:hayat-muhammad-haykal-hindawi p.167} He gives the first part of the conclusion to "Islamic civilisation as the Qur'an portrays it", arguing that the spiritual legacy Muhammad left guided the world's civilisation for centuries because it established religion and laid the foundation of a civilisation in which religion and civilisation are joined. {cite:hayat-muhammad-haykal-hindawi p.481}

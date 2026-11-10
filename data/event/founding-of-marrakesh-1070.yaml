@@ -1,0 +1,23 @@
+id: event/founding-of-marrakesh-1070
+class: event
+kind: founding
+label: { ar: "يوسف بن تاشفين يؤسس مراكش", en: "Yusuf ibn Tashfin founds Marrakesh" }
+summary:
+  ar: "أمر يوسف بن تاشفين الأمير المرابطي ببناء مراكش سنة 462هـ/1070م فصارت عاصمة دولة المرابطين {cite:tarikh-ibn-khaldun-ibar}."
+  en: "The Almoravid amir Yusuf ibn Tashfin ordered Marrakesh built in 462/1070; it became the Almoravid capital {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "مرابط امیر یوسف بن تاشفین نے 462ھ/1070ء میں مراکش بسایا جو مرابطین کا دارالخلافہ بنا {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1070", hijri: "0462", precision: year, status: tradition, derived: true }
+  end: { edtf: "1070", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/marrakesh, sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Marrakesh story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-marrakesh
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,27 @@
+id: event/ibn-al-mulaqqin-damascus-777
+class: event
+kind: other
+label:
+  ar: "رحلة ابن الملقن إلى دمشق وإفتاؤه وتدريسه، ٧٧٧هـ"
+  en: "Ibn al-Mulaqqin's journey to Damascus, teaching and giving fatwa, 777/1375"
+  ur: "ابن ملقن کا دمشق کا سفر، تدریس اور افتا، 777ھ/1375ء"
+summary:
+  ar: "رحل ابن الملقن إلى دمشق في سنة سبع وسبعين فسمع بها من متأخري أصحاب الفخر بن البخاري وبرع، وأفتى ودرّس وأثنى عليه الأئمة ووُصف بالحافظ، ونوّه بذكره القاضي تاج الدين السبكي وكتب له تقريظاً على شرحه للمنهاج {cite:shadharat-dhahab 7/44}."
+  en: "In 777 Ibn al-Mulaqqin journeyed to Damascus, where he heard the last pupils of al-Fakhr Ibn al-Bukhari and outshone; he gave fatwas and taught, the imams praised him and called him a hafiz, and the qadi Taj al-Din al-Subki wrote a commendation on his Sharh al-Minhaj {cite:shadharat-dhahab 7/44}."
+  ur: "777ھ میں ابن ملقن نے دمشق کا سفر کیا اور وہاں فخر بن بخاری کے متاخر شاگردوں سے سماعت کی اور ممتاز ہوئے؛ انہوں نے فتویٰ دیا اور پڑھایا، ائمہ نے تعریف کی اور حافظ کہا، اور قاضی تاج الدین سبکی نے ان کے شرح المنهاج پر تحریری تقریظ لکھی {cite:shadharat-dhahab 7/44}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1375~", hijri: "0777", calendar: julian, precision: year, status: tradition, derived: true, note: "رحل إلى دمشق في سنة سبع وسبعين {cite:shadharat-dhahab 7/44}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-al-mulaqqin, role: "الراحل المحدِّث", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Shadharat al-Dhahab s.a. 804, printed vol. 7 p. 44 quoting al-Manhal (harvest OCR AAlexandrina-223853)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-mulaqqin-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

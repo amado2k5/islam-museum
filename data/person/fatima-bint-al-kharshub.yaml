@@ -1,0 +1,25 @@
+id: person/fatima-bint-al-kharshub
+class: person
+label:
+  ar: "فاطمة بنت الخرشب"
+  en: "Fatima bint al-Kharshub"
+  ur: "فاطمہ بنت الخرشب"
+names:
+  - { kind: full, lang: ar, value: "فاطمة بنت الخرشب" }
+gender: female
+roles: [tribal-figure]
+traditions: [sunni]
+summary:
+  ar: "فاطمة بنت الخرشب الأنمارية، منجبة جاهلية أم الربيع بن زياد وإخوته الكملة، مضروب بها المثل."
+  en: "Fatima bint al-Kharshub al-Anmariyya, proverbial Jahiliyya matriarch, mother of al-Rabi' ibn Ziyad."
+  ur: "جاہلیت میں بنو انمار کی ایک عورت، ربیع بن زیاد کی والدہ؛ اپنے بیٹے سے کہی گئی بات مثل بن گئی: 'برائی کا سننا ہی تمہارے لیے کافی ہے'۔ {cite:nihayat-al-arab-nuwayri-vol3-scan p. 24}"
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+born: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Abu Ubayda (Kitab al-Ayyam)" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/nihayat-al-arab-nuwayri-vol3-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol3-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 3 proverbs, scan p. 24, from OCR; not image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa03 (Nihayat al-Arab vol. 3), scan p. 24", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol3-pp22-24" }

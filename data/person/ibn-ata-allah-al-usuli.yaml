@@ -1,0 +1,34 @@
+id: person/ibn-ata-allah-al-usuli
+class: person
+label:
+  ar: "ابن عطاء الله الإسكندري الأصولي"
+  en: "Ibn Ata Allah al-Iskandari the usuli"
+roles: [scholar, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لابن عطاء الله الإسكندري، أصولي وقاضٍ وفقيه القرن الرابع عشر، توفي سنة ١٣٩٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibn Ata Allah al-Iskandari, the fourteenth-century usuli, qadi and jurist, d. 1398; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136700659
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0068
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

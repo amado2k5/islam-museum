@@ -1,0 +1,40 @@
+id: person/al-tilimsani-al-sharif-muhammad-ibn-ahmad
+class: person
+label: { ar: "التلمساني الشريف محمد بن أحمد", en: "al-Tilimsani al-Sharif Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن أحمد بن علي الحسيني الشريف التلمساني العلوي" }
+  - { kind: laqab, lang: ar, value: "الشريف" }
+  - { kind: nisba, lang: ar, value: "التلمساني" }
+  - { kind: nisba, lang: ar, value: "العلوي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1310", hijri: "0710", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1370", hijri: "0771", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "إمام من أئمة المغرب وعلم من أعلام المذهب المالكي، ولد بتلمسان سنة 710هـ ⁦(1310م)⁩ ونشأ بها، وتوفي سنة 771هـ ⁦(1370م)⁩."
+  en: "Imam of the Maghrib and a leading figure of the Maliki school, born in Tlemcen in 710 AH (1310 CE); died 771 AH (1370 CE)."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص568"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: born_in, target: place/tlemcen, note: "From text: born in Tlemcen", sources: [source/mawsuat-a3lam-ulama-adaba] }

@@ -1,0 +1,35 @@
+id: person/al-dahhak-ibn-makhlad-al-naysaburi
+class: person
+label:
+  ar: "الضحاك بن مخلد النيسابوري"
+  en: "Al-Dahhak ibn Makhlad"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية للضحاك بن مخلد النيسابوري، شيخ البخاري والحافظ؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Dahhak ibn Makhlad of Nishapur, shaykh of al-Bukhari and the memorizer; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+born: { edtf: "0740", precision: year, status: tradition, derived: true }
+died: { edtf: "0828", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q125343966
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name (النيسابوري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

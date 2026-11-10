@@ -1,0 +1,15 @@
+id: passage/muslim-2419
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2419"
+label: { ar: "مسلم 2419 — أمين هذه الأمة أبو عبيدة", en: "Muslim 2419 — Abu Ubayda, the trustworthy of this community" }
+text: "قال رسول الله: «إن لكل أمة أميناً، وإن أميننا أيتها الأمة أبو عبيدة بن الجراح»"
+summary:
+  ar: "رواية أنس في باب فضائل أبي عبيدة بن الجراح من صحيح مسلم؛ شهادة النبوة بأمانة أبي عبيدة أمين الأمة — نص الأمانة الأشهر في فضائله."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-ubayda-ibn-al-jarrah, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل أبي عبيدة بن الجراح (طبعة دار التأصيل، الحديث 6405؛ ترقيم عبد الباقي المعروف 2419)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

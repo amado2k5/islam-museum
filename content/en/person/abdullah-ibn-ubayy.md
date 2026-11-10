@@ -1,23 +1,57 @@
 ---
 id: person/abdullah-ibn-ubayy
 lang: en
-source_lang: en
-translators: []
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Brief
-Abdullah ibn Ubayy was the chief of Khazraj — the man Medina had nearly crowned its king when the Hijra made the Prophet master of his city instead. Sunni tradition remembers him as the chief of the *munafiqin*: the enemy inside.
+Abdullah ibn Ubayy, lord of the Khazraj — the man whom Yathrib was almost ready to crown as king, until the Hijra made the Prophet the master of his city instead of him. Sunni tradition remembers him as the chief of the hypocrites: the enemy from within.
 
 ## Life
-The sources say the feuding tribes of Medina had agreed to crown him before the Prophet arrived and the crown evaporated. He professed Islam, kept his seat in the council — and, in the tradition's telling, worked against the Prophet from within {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}.
+The sources say the feuding tribes of Yathrib agreed to crown him before the Prophet arrived, and the crown evaporated. He then showed Islam, and his seat in the assembly remained — in the tradition's account he worked against the Prophet from within {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}.
 
-He withdrew his third of the army on the eve of [[event/battle-of-uhud|Uhud]]; the slander against Aisha and sura al-Munafiqun are read against him {cite:ibn-sad-tabaqat-bewley}. He died in early 631 CE, and the tradition records that the Prophet prayed over him and gave his own shirt for the shroud — an ending the sources tell without softening the man {cite:ibn-sad-tabaqat-bewley}.
-
-:::perspectives
-Sunni tradition names him chief of the hypocrites: outwardly Muslim, inwardly working to split the community — the figure sura al-Munafiqun is read around.
-
-Historians describe a Medinese aristocrat losing a straightforward contest for power to the Prophet's ascendancy — "hypocrite" being the tradition's own category for the internal opposition.
-:::
+He withdrew a third of the army on the eve of [[event/battle-of-uhud|Uhud]]; the incident of the slander (hadith al-ifk) and the sura al-Munafiqun are read in connection with him {cite:ibn-sad-tabaqat-bewley}. He died in early 631 CE. Tradition records that the Prophet prayed over him and clothed him in his shirt — an ending the sources report without softening the man {cite:ibn-sad-tabaqat-bewley}.
 
 ## For young visitors
-The man who nearly became king of Medina lost his crown to the Prophet's arrival — and fought him from inside the city for years after.
+The man who nearly became ruler of the city lost his crown when the Prophet arrived — and fought him from inside the city for years afterwards.
+
+## In Medina at the Hijra (The Sealed Nectar p.179)
+The Aws and the Khazraj had united under his leadership after the war of Bu'ath, and they had strung beads to make him a crown. When the Prophet came, his people turned to the Prophet, and he felt that kingship had been taken from him. He showed Islam after Badr, but kept disbelief hidden within ([[concept/medina-society-at-hijra|Medina's society at the Hijra]]) {cite:mubarakpuri-raheeq p.179}.
+
+## Quraysh's letter to him (The Sealed Nectar p.194–195)
+Quraysh wrote to him threatening war or expulsion, and he and the pagans with him gathered to fight the Prophet. When the Prophet came to them, they dispersed. He refrained from fighting, because he judged that his companions would not hold firm ([[event/quraysh-letter-to-ibn-ubayy|Quraysh's letter to Ibn Ubayy]]) {cite:mubarakpuri-raheeq p.194}.
+
+## Sheikh Omar Abdelkafy's account
+He calls him the chief of the hypocrites in Medina, and says the Prophet did not order any of his Companions to kill him. {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:04:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep01 00:05:00}
+He recounts that Abdullah ibn Ubayy's son asked the Prophet's permission to kill his father, and was not given it. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:23:00}
+He says the Prophet offered Abdullah ibn Ubayy's family a shroud for him (needs_source: the wording of this sentence is not clear in the automatic transcript). {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:00}
+He says the Prophet said he would ask forgiveness for him, however many times it was asked (needs_source: the number is not clear in the automatic transcript), and then a prohibition on praying over the hypocrites came down. {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:24:30} {cite:assabile-omar-abdelkafy aadau-al-islam/ep03 00:25:30}
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that when Abdullah ibn Ubayy died, people asked the Prophet to pray over him (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00}
+
+He quotes a verse, not named by him, which he presents as a prohibition on praying over the dead among the hypocrites and standing at their graves. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:24:00}
+
+:::perspectives
+- **Sunni view: not yet sourced**: not yet attributed.
+- **speaker's view (Omar Abdelkafy)**: The Sheikh gives the narration and the verse from which he draws a prohibition on praying over the hypocrites who die {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:21:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:23:30}.
+- **academic view: not yet sourced**: not yet attributed.
+- **other view: not yet sourced**: not yet attributed.
+:::
+
+## For Sprouts
+Abdullah ibn Ubayy was a Khazraj man of Yathrib whose people nearly crowned him king before the Prophet arrived and the crown was lost. He professed Islam but kept working against the Prophet from within — the Sunni tradition remembers him as chief of the hypocrites. He died in 631 CE; the Prophet prayed over him and gave him his shirt.
+
+## For Explorers
+Abdullah ibn Ubayy ibn Salul al-Khazraji. The sources say the Aws and Khazraj had agreed on his leadership after the war of Bu'ath and had strung the beads to crown him; when the Prophet came his people turned to him, and he saw his kingship taken — so he professed Islam after Badr while concealing disbelief, and the Sunni tradition remembers him as the hypocrites' chief, the enemy from within. He withdrew with a third of the army on the eve of Uhud; the Ifk affair and Surat al-Munafiqun are read against him. He died early in 631 CE, and the tradition preserves that the Prophet prayed over him and gave him his shirt — an ending the sources tell without softening the man.
+
+## For Scholars
+Abdullah ibn Ubayy ibn Salul al-Khazraji, a chief of his people. The sources say Yathrib's warring tribes had agreed to crown him after the war of Bu'ath and strung the beads for it; when the Prophet arrived the crown evaporated and his people turned to the Prophet, so he saw his kingship wrested from him — he professed Islam after Badr while concealing disbelief, and worked against the Prophet from within; the Sunni tradition names him chief of the hypocrites. He withdrew with a third of the army on the eve of Uhud; the Ifk affair and Surat al-Munafiqun are read against him. He died early in 631 CE, and the tradition preserves that the Prophet prayed over him and gave him his shirt — an ending the sources tell without softening the man.
+
+## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
+Omar Abdelkafy relates that Umar could not bear the Prophet praying over Abdullah ibn Ubayy, and that the Prophet said he had been given the choice, and that had he known that asking forgiveness for him more than seventy times would win it he would have done so. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:25:00} He mentions that Abdullah's own son stood at the entrance of Medina barring his father from entering until the Prophet allowed it. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep11 00:25:30}
+
+## In Tareq al-Suwaidan's programme "Secrets of Prophetic Leadership"
+In his programme [[work/asrar-al-qiyada-al-nabawiyya-program|"Secrets of Prophetic Leadership"]], [[person/tariq-al-suwaidan|Tareq al-Suwaidan]] takes Ibn Ubayy as his example of "the arrogant follower": high leadership ability, high challenge, and nil or negative effectiveness. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:32:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:46:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:47:00} He relates that the day of Bu'ath, five years before the Hijra, killed the chiefs of the Aws and Khazraj, so that Ibn Ubayy was among the candidates for leadership and a crown was being prepared for him. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:33:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:35:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:35:30} In his view the hypocrites worked like a "party". {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:38:30} He goes through Ibn Ubayy's stances as he tells them: his withdrawal at [[event/battle-of-uhud|Uhud]] with about a third of the army; his promise of support to Banu al-Nadir; and his words on the campaign against Banu al-Mustaliq, with Usayd ibn Hudayr's reply. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:39:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:41:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:44:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep08 00:45:00} He takes Ibn Ubayy's stance over Banu Qaynuqa as an instance of fear driving a bad leader. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:17:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep03 00:20:00} In episode 20 he counts it as leadership creativity that the Prophet, on hearing his words, kept the army marching until people's minds were off them, and that his believing son stopped his father at the entrance to Medina. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep20 00:08:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep20 00:10:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep20 00:12:00} In episode 22 he mentions that his son Abdullah offered to kill him and the Prophet refused and treated him kindly. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep22 00:28:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep22 00:29:30}

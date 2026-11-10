@@ -1,0 +1,37 @@
+---
+// Dilemma index for the teen wing (E4 step 4): every card grouped by band.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadDilemmas } from "../../../../lib/dilemmas";
+import { viewBands } from "../../../../lib/edu";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const S = T.shabab;
+const bands = viewBands(lang, T.kids);
+const dilemmas = loadDilemmas();
+const path = `/${lang}/shabab/dilemmas/`;
+---
+<BaseLayout lang={lang} title={S.sb_dilemmas} description={S.sb_dilemmas_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/shabab/`}>{S.sb_title}</a> › {S.sb_dilemmas}</nav>
+    <h1>{S.sb_dilemmas}</h1>
+    <p style="max-width:var(--measure)">{S.sb_dilemmas_lede}</p>
+    {bands.map((b) => (
+      <section aria-labelledby={`dl-${b.id}`}>
+        <h2 id={`dl-${b.id}`} class="ui" style="font-size:1.15rem">{b.name}</h2>
+        <ul class="edu-adult">
+          {dilemmas.filter((d) => d.band === b.id).map((d) => (
+            <li>
+              <a href={`/${lang}/shabab/dilemmas/${d.id}/`}>
+                <span><h3>{d.decision[lang]}</h3><p>{d.context[lang].slice(0, 140)}…</p></span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

@@ -1,0 +1,15 @@
+id: passage/muslim-2888
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2888"
+label: { ar: "مسلم 2888 — إذا تواجه المسلمان بسيفيهما فالقاتل والمقتول في النار", en: "Muslim 2888 — When two Muslims clash with swords" }
+text: "قال أبو بكرة لمن أراد نصر علي: ارجع، فإني سمعت رسول الله يقول: إذا تواجه المسلمان بسيفيهما فالقاتل والمقتول في النار، فقلت: يا رسول الله هذا القاتل فما بال المقتول؟ قال: إنه قد أراد قتل صاحبه"
+summary:
+  ar: "رواية أبي بكرة في باب إذا تواجه المسلمان بسيفيهما من كتاب الفتن في صحيح مسلم؛ قصده هو نفسه الاعتزال عن فتنة القتال بين المسلمين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-bakra-al-thaqafi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفتن، باب إذا تواجه المسلمان بسيفيهما (طبعة دار التأصيل، الحديث 2995؛ ترقيم عبد الباقي المعروف 2888)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

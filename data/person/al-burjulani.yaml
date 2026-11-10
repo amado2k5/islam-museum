@@ -1,0 +1,20 @@
+id: person/al-burjulani
+class: person
+label: { ar: "البرجلاني", en: "Al Burjulani" }
+summary:
+  ar: "البرجلاني واسمه محمد بن الحسين ويكنى أبا جعفر من المصنفين لكتب الزهد والورع وله كتاب الصحبة وكتاب المتيمين وكتاب الجود والكرم وكتاب الهمة وكتاب الصبر وكتاب الطاعة {cite:fihrist-ibn-al-nadim p. 262}."
+  en: "Al-Burjulani — author of the zuhd books {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch17
+died: { edtf: "852", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Author of the zuhd books listed by Ibn al-Nadim; the ascetic-literature milieu inferred as Baghdad.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

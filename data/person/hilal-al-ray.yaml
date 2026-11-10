@@ -1,0 +1,34 @@
+id: person/hilal-al-ray
+class: person
+gender: male
+label:
+  ar: "هلال الرأي ⁦(هلال بن يحيى)⁩"
+  en: "Hilal al-Ra'y (Hilal ibn Yahya)"
+summary:
+  ar: "هلال بن يحيى بن مسلم الرأي البصري، لقب بالرأي لسعة علمه وكثرة فقهه، أخذ الفقه عن أبي يوسف وزفر، ورَوى الحديث عن أبي عوانة وابن مهدي، وأخذ عنه بكار بن قتيبة وعبد الله بن قحطبة والحسن بن أحمد بن بسطام. من تصانيفه كتاب في الشروط كان مقدماً فيه، وكتاب أحكام الوقف الذي تداوله العلماء. توفي سنة 245 هـ على ما يذكره العنوان بعلامة الاستفهام. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15828}"
+  en: "Hilal ibn Yahya ibn Muslim al-Ra'y al-Basri, called al-Ra'y for the breadth of his learning and his abundant fiqh. He learned fiqh from Abu Yusuf and Zufar and related hadith from Abu Awana and Ibn Mahdi; Bakkar ibn Qutayba, Abd Allah ibn Qahtaba and al-Hasan ibn Ahmad ibn Bastam took from him. His book on contracts made him a leader in the subject, and his work Ahkam al-Waqf was passed among scholars. The header gives 245 AH with a question mark. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15828}"
+roles: [jurist]
+traditions: [sunni-hanafi]
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+died: { edtf: "820", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/bastam, confidence: low, note: "Associated with بسطام per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15828 من المسح)"
+  scan_pages: [15828]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

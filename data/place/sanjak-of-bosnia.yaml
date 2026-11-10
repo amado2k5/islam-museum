@@ -1,0 +1,32 @@
+id: place/sanjak-of-bosnia
+class: place
+kind: province
+label:
+  ar: سنجق البوسنة
+  en: Sanjak of Bosnia
+  ur: سنجاق بوسنیا
+summary:
+  ar: محافظة في الدولة العثمانية.
+  en: 1463–1878 Ottoman sanjak in Southeast Europe.
+wings:
+- place
+regions: [global]
+coordinates: [43.8563, 18.4131]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids:
+  wikidata: Q12628176
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q12628176 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q12628176 (labels, coordinates, description)

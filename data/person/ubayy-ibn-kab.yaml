@@ -1,0 +1,86 @@
+id: person/ubayy-ibn-kab
+class: person
+label:
+  ar: أبي بن كعب، وعند ابن النديم أن تأليف السور في قراءته كان بالبصرة في قرية الأنصار عند محمد بن عبد الملك الأنصاري وأن مصحفه مائة وست عشرة سورة فيها سورتا الخلع والحفد وأن جميع آي القرآن في قوله ستة آلاف ومائتان وعشر آيات {cite:fihrist-ibn-al-nadim p. 67-68}
+  en: Ubayy ibn Ka'b
+names:
+- kind: full
+  lang: ar
+  value: أبي بن كعب بن قيس بن عبيد بن زيد بن معاوية بن عمرو بن مالك بن النجار الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو المنذر وأبو الطفيل
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: «سيد القراء» من الأنصار، من أصحاب العقبة الثانية وشهد بدراً والمشاهد كلها؛ قال له النبي إن الله أمره أن يقرأ عليه، وكان عمر يسميه سيد المسلمين؛ وفي تاريخ وفاته أقوال بين سنة 19هـ و32هـ يرجح ابن حجر وأبو نعيم أنها في خلافة عثمان.
+  en: The 'master of the reciters' among the Ansar, present at the second pledge of al-Aqaba, at Badr and in all the campaigns; the Prophet told him that God had commanded him to recite to him, and Umar called him the master of the Muslims; the
+    date of his death is given from 19 AH to 32 AH, and Abu Nu'aym favours the caliphate of Uthman.
+wings: [people]
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 47 (ص 26).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "649~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+relations:
+- { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 47، ص 26
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch41
+external_ids: { wikidata: "Q2743400" }
+sources:
+- source/ibn-hajar-isaba
+- source/assabile-ahmed-abdussalam
+status:
+  review: published
+  completeness: 3
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+occupations:
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the third group of Companions, about 120, of whom few fatwas are recorded."
+    sources: [source/tdv-fetva]

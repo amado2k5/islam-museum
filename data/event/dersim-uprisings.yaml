@@ -1,0 +1,23 @@
+id: event/dersim-uprisings
+class: event
+kind: revolt
+label: { ar: "انتفاضات درسيم", en: "Dersim Uprisings" }
+summary:
+  ar: "بطاقة أولية لانتفاضات درسيم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Dersim Uprisings; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1847", precision: year, status: tradition, derived: true }
+  end: { edtf: "1879", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q12809191
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

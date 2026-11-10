@@ -1,0 +1,24 @@
+id: event/cyprus-library-to-baghdad
+class: event
+kind: other
+label: { ar: "خزانة كتب قبرص إلى بغداد", en: "The Cyprus library comes to Baghdad" }
+summary:
+  ar: "لما هادن المأمون صاحب قبرص طلب منه خزانة كتب اليونان المجموعة عندهم في بيت لا يظهر عليه أحد، فأرسلها إليه وجعل سهل بن هارون خازناً لها {cite:duha-islam p. 426-427}."
+  en: "When al-Maʾmūn made a truce with the lord of Cyprus he asked for the island's collected Greek library — kept in a house no one had opened — and it was sent to him, Sahl ibn Hārūn made its keeper {cite:duha-islam p. 426-427}."
+  ur: "جب مامون نے قبرص کے حاکم سے صلح کی تو اس نے جزیرے کی جمع کردہ یونانی کتب خانہ — جو ایک ایسے گھر میں بند تھا جسے کوئی نہیں کھولتا تھا — مانگا؛ وہ بھیجا گیا اور سہل ابن ہارون اس کا خازن بنا {cite:duha-islam p. 426-427}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0830~", precision: year, status: tradition, derived: true, note: "within al-Ma'mun's caliphate (813-833); year approximate" }
+  end: { edtf: "0830~", precision: year, status: tradition, derived: true, note: "within al-Ma'mun's caliphate (813-833); year approximate" }
+relations:
+  - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/duha-islam] }
+  - { type: had_participant, target: person/sahl-ibn-harun, role: "الخازن", sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer House of Wisdom story from the cited sources"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-bayt-al-hikma
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

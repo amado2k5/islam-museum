@@ -1,0 +1,16 @@
+id: passage/muslim-2708
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2708"
+label: { ar: "مسلم 2708 — أعوذ بكلمات الله التامات من شر ما خلق", en: "Muslim 2708 — I seek refuge in God's perfect words" }
+text: "قالت خولة بنت حكيم السلمية: سمعت رسول الله يقول: من نزل منزلاً ثم قال أعوذ بكلمات الله التامات من شر ما خلق لم يضره شيء حتى يرتحل من منزله ذلك"
+summary:
+  ar: "رواية خولة بنت حكيم السلمية عن سعد بن أبي وقاص في باب التعوذ بكلمات الله التامات من كتاب الذكر والدعاء في صحيح مسلم؛ ورد النازل في منزل."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء، باب في التعوذ من نزل منزلاً بكلمات الله التامات (طبعة دار التأصيل، الحديث 2808؛ ترقيم عبد الباقي المعروف 2708)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

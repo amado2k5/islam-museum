@@ -1,0 +1,24 @@
+id: person/halima-bint-al-harith
+class: person
+label:
+  ar: "حليمة بنت الحارث"
+  en: "Halima bint al-Harith"
+  ur: "حلیمہ بنت الحارث"
+gender: female
+roles: [tribal-figure]
+traditions: [sunni]
+summary:
+  ar: "حليمة بنت الحارث الغساني، من بنات ملوك الجاهلية المنسوب إليها «يوم حليمة» ومثلاها السائران."
+  en: "Halima bint al-Harith al-Ghassani, Jahiliyya princess named in the 'day of Halima' proverbs."
+  ur: "حارث بن ابی شمر غسانی کی بیٹی۔ نویری لکھتے ہیں کہ جب ان کے والد لشکر سے ملنے نکلے تو انہوں نے لشکر کو خوشبو لگائی؛ یہ بات ایک خوشگوار دن پر شعر کے سیاق میں آتی ہے {cite:nihayat-al-arab-nuwayri-vol1-scan p. 174}۔"
+wings: [people]
+themes: [literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+born: { edtf: "500~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Aghani (Yawm Halima)" }
+died: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Aghani (Yawm Halima)" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/nihayat-al-arab-nuwayri-vol1-scan] }
+sources: [source/nihayat-al-arab-nuwayri-vol1-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 1, scan p. 174, from OCR; not image-checked)" }
+provenance: { layer: pd, source: "archive.org nefa01, scan p. 174 (OCR)", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-vol1-time" }

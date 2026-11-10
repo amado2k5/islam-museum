@@ -1,0 +1,21 @@
+id: person/abu-qatada-cousin-of-kaab
+class: person
+label: { ar: "أبو قتادة ⁦(ابن عم كعب بن مالك)⁩", en: "Abu Qatada, cousin of Ka'b ibn Malik" }
+names:
+  - { kind: full, lang: ar, value: "أبو قتادة، ابن عم كعب بن مالك" }
+gender: male
+summary:
+  ar: "ابن عم كعب بن مالك، سلّم عليه كعب في حائطه أثناء المقاطعة فلم يرد، وأجاب في الثالثة: الله ورسوله أعلم."
+  en: "The cousin of Ka'b ibn Malik; Ka'b greeted him over his garden wall during the boycott and he did not answer, and on the third adjuration he replied: God and His Messenger know best."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+born: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: participated_in, target: event/kaab-and-abu-qatada-at-the-garden-wall, role: "صاحب الحائط", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/boycott-of-the-three, role: "من الناس الممتنعين عن الكلام", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 178", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: published, completeness: 3 }

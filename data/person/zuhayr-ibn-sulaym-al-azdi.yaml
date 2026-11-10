@@ -1,0 +1,20 @@
+id: person/zuhayr-ibn-sulaym-al-azdi
+class: person
+label: { ar: "زهير بن سليم الأزدي", en: "Zuhayr ibn Sulaym al-Azdi" }
+summary:
+  ar: "عانق النخيرخان يوم المدائن فسقطا إلى الأرض فأخذ خنجراً كان في وسطه فشق بطنه فقتله."
+  en: "grappled al-Nakhirjan at al-Mada'in, both falling, then slit his belly with the dagger at his own belt."
+wings: [people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 366–371"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-31
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "637~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+died: { edtf: "637~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan" }
+relations:
+  - { type: lived_in, target: place/al-madain, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

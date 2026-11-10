@@ -1,20 +1,32 @@
 id: event/change-of-qibla
+education:
+  did_you_know:
+    ar: "في شعبان من السنة الثانية للهجرة تحوّلت القبلة من بيت المقدس إلى الكعبة، استجابةً لرغبة النبي وتمييزاً للأمة."
+    en: "In Sha'ban of the second year after the Hijra, the prayer direction turned from Jerusalem to the Kaaba — answering the Prophet's wish and marking the community's distinct identity."
+    ur: "ہجرت کے دوسرے سال شعبان میں قبلہ بیت المقدس سے کعبہ کی طرف بدل گیا — نبی کی خواہش کے جواب میں اور امت کی ممیز شناخت کے طور پر۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: event
 kind: other
 label: { en: "The change of the qibla", ar: "تحويل القبلة" }
 summary:
-  en: "The direction of prayer was changed from Jerusalem to the Kaaba in Mecca, about a year and a half after the Hijra."
-  ar: "تحوّل اتجاه الصلاة من بيت المقدس إلى الكعبة بمكة بعد الهجرة بنحو سنة ونصف."
-wings: [time, people]
+  en: "The direction of prayer was changed from Jerusalem to the Kaaba in Mecca, about a year and a half after the Hijra. Al-Samhudi gathers the reports: toward Bayt al-Maqdis sixteen months on al-Bara's account in Muslim (seventeen for Sa'id ibn al-Musayyib), the turn falling in mid-Rajab of year two on the soundest view — at zuhr in the Banu Salama mosque where two rak'as had been prayed, or at fajr in Quba in the Sahihayn's version carried by a runner — while Ibn Hajar makes 'asr the first prayer faced to the Kaaba {cite:samhudi-wafa-al-wafa p. 373-376}."
+  ar: "تحوّل اتجاه الصلاة من بيت المقدس إلى الكعبة بمكة في شعبان سنة 2هـ، استجابةً لرغبة النبي وتمييزاً للأمة الإسلامية وتطهيراً لصفوف المسلمين. ويجمع السمهودي الروايات: الصلاة إلى بيت المقدس ستة عشر شهراً في رواية البراء عند مسلم وسبعة عشر عند سعيد بن المسيب، والتحويل في النصف من رجب سنة ثنتين على الأصح — في الظهر بمسجد بني سلمة بعد ركعتين، أو في الفجر بقباء في رواية الصحيحين — ويحقق ابن حجر أن أول صلاة إلى الكعبة كانت العصر {cite:samhudi-wafa-al-wafa p. 373-376}."
+wings: [time]
 themes: [worship-and-the-pillars, sacred-space-and-pilgrimage]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0624~", hijri: "0002", calendar: julian, precision: year, status: scriptural, note: "Qur'an 2:142-150." }
+  start: { edtf: "0624-02~", hijri: "0002-08", calendar: julian, precision: month, status: scriptural, note: "في شهر شعبان سنة 2هـ بعد ستة عشر أو سبعة عشر شهراً من الهجرة نزل الأمر بتحويل القبلة (الرحيق ص203)" }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "المصلي والمتقلب وجهه في السماء ترقباً للوحي", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/samhudi-wafa-al-wafa, source/tafsir-manar-v02, source/tafsir-sharawi-khawatir-scan-pp-501-1000]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 203 citing Bukhari and Muslim" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

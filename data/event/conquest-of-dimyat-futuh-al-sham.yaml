@@ -1,0 +1,35 @@
+id: event/conquest-of-dimyat-futuh-al-sham
+class: event
+kind: conquest
+label: { ar: "فتح دمياط وتنيس في رواية «فتوح الشام» المنسوب إلى الواقدي", en: "The conquest of Damietta and Tinnis as told in the Futuh al-Sham ascribed to al-Waqidi", ur: "واقدی سے منسوب «فتوح الشام» کی روایت میں دمیاط اور تنیس کی فتح" }
+summary:
+  ar: "في «فتوح الشام» المنسوب إلى الواقدي أن عمرو بن العاص بعث المقداد بن الأسود في أربعين فارساً إلى دمياط وبها البامرك خال المقوقس في اثني عشر ألفاً، فدخلوها من نقب فتحه لهم ابن حكيم قتله البامرك، وأسلم شطا بن البامرك ثم أبوه، ثم دعا شطا صاحب تنيس أبا ثوب إلى الإسلام فأبى وجمع الجموع، فقُتل شطا في قتاله ليلة النصف من شعبان سنة 20هـ فيما يروي الكتاب، وأُسر أبو ثوب على يد يزيد بن عامر ثم أسلم، وجُعلت تلك الليلة موسماً يُزار فيه قبر شطا {cite:futuh-al-sham-ilmiyya-1997-v2 p. 78-88}."
+  en: "In the Futuh al-Sham ascribed to al-Waqidi, Amr ibn al-As sends al-Miqdad ibn al-Aswad with forty horsemen to Damietta, held by al-Bamrak, uncle of the Muqawqis, with twelve thousand men; they enter through a breach opened by the son of a sage al-Bamrak had executed, and Shata son of al-Bamrak embraces Islam, then his father. Shata calls Abu Thawb, lord of Tinnis, to Islam; he refuses and gathers an army, and Shata is killed fighting him on the night of mid-Sha'ban 20 AH, as the book tells it; Abu Thawb is captured by Yazid ibn Amir and later accepts Islam, and that night becomes a yearly season of visiting Shata's grave {cite:futuh-al-sham-ilmiyya-1997-v2 p. 78-88}."
+wings: [time, place]
+themes: [conquest-and-its-debates, sacred-time, local-islams-and-syncretism]
+periods: [period/rashidun]
+regions: [egypt-nile]
+sides:
+  - label: { ar: "المسلمون: المقداد وأصحابه، ثم هلال بن أوس في ألف فارس، ومعهم البامرك وشطا بعد إسلامهما", en: "The Muslims: al-Miqdad and his companions, later Hilal ibn Aws with a thousand horse, joined by al-Bamrak and Shata after their conversion", ur: "مسلمان: مقداد اور ان کے ساتھی، بعد میں ہلال بن اوس ہزار سواروں کے ساتھ، اور اسلام لانے کے بعد بامرک اور شطا" }
+    commanders: [person/al-miqdad-ibn-amr, person/shata-of-dimyat]
+  - label: { ar: "البامرك صاحب دمياط أول الأمر، ثم أبو ثوب صاحب تنيس وجموعه من القبط ومتنصرة العرب", en: "al-Bamrak, lord of Damietta, at first; then Abu Thawb, lord of Tinnis, with his levies of Copts and Christian Arabs", ur: "پہلے دمیاط کا حاکم بامرک؛ پھر تنیس کا حاکم ابو ثوب، قبطیوں اور عیسائی عربوں کی اپنی جمعیت کے ساتھ" }
+    strength: { value: 20000, sources: [source/futuh-al-sham-ilmiyya-1997-v2], status: legend, note: "«فكانوا عشرين ألفًا من الرجال، ومن الخيل خمسمائة فارس» في جيش أبي ثوب، و«اثني عشر ألفاً» عسكر البامرك بدمياط، كما يروي الكتاب (ص79، 85)" }
+date:
+  start: { edtf: "0641-07/0641-08", hijri: "0020-08", calendar: julian, precision: month, status: legend, derived: true, note: "بعث هلال بن أوس «في العشر الأول من شعبان سنة عشرين من الهجرة»، وقتل شطا «في ليلة نصف شعبان» في رواية فتوح الشام (ج2 ص85، 87)؛ التحويل الميلادي مشتق، والتاريخ من رواية الكتاب وحده.", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+relations:
+  - { type: occurred_at, target: place/dimyat, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: occurred_at, target: place/tinnis, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "قائد الأربعين في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: had_participant, target: person/dirar-ibn-al-azwar, role: "من الأربعين في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "باعث السرية في رواية الكتاب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: had_participant, target: person/shata-of-dimyat, role: "المقتول في قتال أبي ثوب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: part_of, target: event/conquest-of-egypt, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: related_to, target: question/attribution-of-futuh-al-sham-waqidi, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+sources: [source/futuh-al-sham-ilmiyya-1997-v2]
+provenance:
+  layer: own-research
+  source: "source/futuh-al-sham-ilmiyya-1997-v2 scan pp. 78-88"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

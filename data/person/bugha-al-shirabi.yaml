@@ -1,0 +1,21 @@
+id: person/bugha-al-shirabi
+class: person
+label: { ar: "بغا الشرابي" }
+summary:
+  ar: "من قادة الجند الأتراك، خرج مع وصيف إلى الجند المطالبين بأرزاقهم سنة ثلاث وخمسين ومائتين {cite:tabari-tarikh-abu-al-fadl j.9 p.374}، وذكر الطبري قتله سنة أربع وخمسين {cite:tabari-tarikh-abu-al-fadl j.9 p.379} {cite:tabari-tarikh-abu-al-fadl j.9 p.380}."
+wings: [people]
+gender: male
+died: { edtf: "868", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: lived_in, target: place/al-jund, confidence: low, note: "Associated with الجند per the record's own summary text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+

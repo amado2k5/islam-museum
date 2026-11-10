@@ -1,0 +1,89 @@
+id: exhibit/path-haramayn
+class: exhibit
+kind: trail
+label:
+  ar: الحرمان الشريفان
+  en: The Two Sanctuaries
+summary:
+  ar: 'مسار في أقدس بقاع الأرض عند المسلمين: المسجد الحرام والكعبة وزمزم وغار حراء، ثم مسجد النبي وقباء
+    وأحد والبقيع.'
+  en: 'A trail through the holiest ground: the Haram, Kaaba, Zamzam, Hira''s cave, then the Prophet''s
+    Mosque, Quba, Uhud and Baqi.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: المسجد الحرام
+    en: The Sacred Mosque
+  body:
+    ar: 'أول بيت وضع للناس: قبلة الصلاة ومحط الحج.'
+    en: 'The first house for people: prayer''s qibla, hajj''s destination.'
+  features:
+  - building/masjid-al-haram
+  - building/kaaba
+  - practice/tawaf
+- title:
+    ar: زمزم
+    en: Zamzam
+  body:
+    ar: 'بئر هاجر وإسماعيل: ماء مبارك منذ أربعة آلاف سنة.'
+    en: 'Hagar and Ishmael''s well: blessed water for four millennia.'
+  features:
+  - place/bir-zamzam
+  - person/ismail
+- title:
+    ar: غار حراء
+    en: Hira's cave
+  body:
+    ar: 'هنا نزل الوحي: اقرأ باسم ربك.'
+    en: 'Here revelation descended: ''Read in your Lord''s name''.'
+  features:
+  - place/ghar-hira
+  - question/how-did-revelation-begin
+- title:
+    ar: مسجد النبي
+    en: The Prophet's Mosque
+  body:
+    ar: هاجر إليها فأسس مسجده ودولته ودفن في حجرته.
+    en: He migrated to it, founded his mosque and state, and lies in its chamber.
+  features:
+  - building/prophets-mosque
+  - place/medina
+  - person/muhammad
+- title:
+    ar: قباء وأحد
+    en: Quba and Uhud
+  body:
+    ar: أول مسجد في الإسلام وجبل يحبنا ونحبه.
+    en: Islam's first mosque and the mountain that loves us.
+  features:
+  - building/masjid-quba
+  - place/uhud
+  - event/battle-of-uhud
+- title:
+    ar: البقيع
+    en: Al-Baqi
+  body:
+    ar: 'مقبرة المدينة: قبور الأزواج والبنات وعثمان والأصحاب.'
+    en: 'Medina''s cemetery: the wives, daughters, Uthman and companions.'
+  features:
+  - place/baqi-al-gharqad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

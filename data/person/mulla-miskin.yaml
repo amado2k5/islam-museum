@@ -1,0 +1,32 @@
+id: person/mulla-miskin
+class: person
+label:
+  ar: "منلا مسكين"
+  en: "Mulla Miskin"
+names:
+  - { value: "منلا مسكين", kind: full }
+died: { hijri: "0954", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Death 954 AH as given in the appendix; birth not given." }
+summary:
+  ar: "معين الدين الهروي، المعروف بمسكين ومنلا مسكين، فقيه حنفي. نقل ابن عابدين عن شرح الأشباه أن كتابه على الكنز من الكتب الغريبة لعدم الاطلاع على حال مؤلفه. من تصانيفه شرح «كنز الدقائق» للنسفي في فروع الفقه الحنفي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1645}"
+  en: "Mu'in al-Din al-Harawi, known as Miskin or Mulla Miskin, a Hanafi jurist. Ibn Abidin, quoting a commentary on al-Ashbah, calls his gloss on the Kanz strange because little is known of its author. His work includes a commentary on al-Nasafi's Kanz al-daqa'iq on Hanafi law. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1645}"
+gender: male
+roles: [jurist]
+wings: [people]
+relations:
+  - { type: lived_in, target: place/nasaf, sources: [source/wikidata], confidence: low, note: "Nisba نسفي attested in the record." }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1645 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

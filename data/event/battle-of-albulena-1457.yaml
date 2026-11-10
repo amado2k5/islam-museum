@@ -1,0 +1,23 @@
+id: event/battle-of-albulena-1457
+class: event
+kind: battle
+label: { ar: "معركة ألبولينا", en: "Battle of Albulena" }
+summary:
+  ar: "بطاقة أولية لمعركة ألبولينا سنة ١٤٥٧م، نصر إسكندر بك الشهير على الجيش العثماني في ألبانيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Albulena in 1457, Skanderbeg's famed victory over the Ottoman army in Albania; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1457", precision: year, status: tradition, derived: true }
+  end: { edtf: "1457", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q74072
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Albanian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

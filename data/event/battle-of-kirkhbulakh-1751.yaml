@@ -1,0 +1,23 @@
+id: event/battle-of-kirkhbulakh-1751
+class: event
+kind: battle
+label: { ar: "معركة قرخبولاغ", en: "Battle of Kirkhbulakh" }
+summary:
+  ar: "بطاقة أولية لمعركة قرخبولاغ سنة ١٧٥١م، معركة خانات القوقاز المتنازعة في أرمينيا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Kirkhbulakh in 1751, fought between the contesting Caucasus khanates; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1751", precision: year, status: tradition, derived: true }
+  end: { edtf: "1751", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q16377676
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,36 @@
+id: person/hizir-bey
+class: person
+label:
+  ar: "خضر بك"
+  en: "Hızır Bey"
+roles: [qadi, poet]
+gender: male
+summary:
+  ar: "خضر بن جلال الدين «خضر بك»، أول قاضٍ لقسطنطينية بعد الفتح، شاعر بثلاث لغات صاحب «جواهر العقائد»؛ توفي سنة 863هـ ⁦(1459م)⁩."
+  en: "Hizir Bey (1407–1459), first Ottoman qadi of Istanbul, trilingual poet, author of Jawahir al-'Aqa'id."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1407", precision: year, status: tradition, derived: true }
+died: { edtf: "1459", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/sivrihisar-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q25452040
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.306)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

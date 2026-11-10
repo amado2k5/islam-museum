@@ -1,0 +1,19 @@
+id: passage/muwatta-1-407
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/safwan-ibn-abdallah-ibn-safwan]
+work: work/muwatta-malik
+ref: "1.407"
+label: { ar: "الموطأ 407 — ابن عمر يعود عبد الله بن صفوان فيصلي بهم ركعتين ثم يتمون", en: "Muwatta 407" }
+summary:
+  ar: "أثر يرويه مالك عن ابن شهاب عن صفوان بن عبد الله بن صفوان، في باب صلاة المسافر إذا كان إماماً أو كان وراء إمام: جاء عبد الله بن عمر يعود عبد الله بن صفوان فصلى بهم ركعتين ثم انصرف، فقاموا فأتموا لأنهم مقيمون. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وابن وهب عند الطحاوي وعبد الرزاق. {cite:muwatta-maruf-1997 p.213} {cite:muwatta-maruf-1997 p.214}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-safwan-al-jumahi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/safwan-ibn-abdallah-ibn-safwan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 407 at PDF p. 213; باب صلاة المسافر إذا كان إماماً أو كان وراء إمام", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b17" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 213; matn excerpt at most 40 words" }

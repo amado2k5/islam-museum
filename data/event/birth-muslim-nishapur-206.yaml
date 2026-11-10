@@ -1,0 +1,27 @@
+id: event/birth-muslim-nishapur-206
+class: event
+kind: birth
+label:
+  ar: "مولد الإمام مسلم بن الحجاج بنيسابور، نحو ٢٠٦هـ"
+  en: "Birth of Imam Muslim ibn al-Hajjaj at Nishapur, c. 206/821"
+  ur: "امام مسلم بن حجاج کی پیدائش نیشاپور میں، تقریباً 206ھ/821ء"
+summary:
+  ar: "وُلد أبو الحسين مسلم بن الحجاج بن مسلم القشيري النيسابوري بنيسابور بعد المائتين، وقيل سنة اثنتين ومائتين، وقال ابن الصلاح إن ظنه أنه قال سنة أربع ومائتين {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}؛ ويحسب ابن خلكان أن مولده سنة ست ومائتين، لأنه مات سنة ٢٦١هـ وعمره خمس وخمسون سنة قمرياً {cite:wafayat-ayan v p. 195}."
+  en: "Abu al-Husayn Muslim ibn al-Hajjaj ibn Muslim al-Qushayri al-Naysaburi was born at Nishapur after the year 200 — one report says 202/817, while Ibn al-Salah is thought to have given 204 {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}; Ibn Khallikan reckons his birth in 206/821 since he died in 261/875 aged fifty-five lunar years {cite:wafayat-ayan v p. 195}."
+  ur: "ابو الحسین مسلم بن حجاج بن مسلم قشیری نیشاپوری 200ھ کے بعد نیشاپور میں پیدا ہوئے — ایک روایت 202ھ/817ء دیتا ہے، جبکہ ابن صلاح سے 204ھ منقول ہے {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}؛ ابن خلكان ان کی پیدائش 206ھ/821ء شمار کرتے ہیں کیونکہ وہ 261ھ/875ء میں پچپن قمری برس کی عمر میں فوت ہوئے {cite:wafayat-ayan v p. 195}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0821~", hijri: "0206~", calendar: julian, precision: year, status: tradition, derived: true, note: "وُلد بعد المائتين؛ الروايات ٢٠٢ و٢٠٤ و٢٠٦هـ، ورجّح ابن خلكان ٢٠٦هـ = ٨٢١م لوفاته عن ٥٥ سنة قمرية {cite:wafayat-ayan v p. 195} {cite:encyclopaedia-of-islam-2 vol. 7 p. 690-691}؛ التحويل مشتق.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المولود", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 7 (Mif-Naz), art. Muslim b. al-Hadjdjadj (G.H.A. Juynboll), printed pp. 690-692; Ibn Khallikan, Wafayat al-A'yan ed. I. Abbas v p. 195 (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-muslim-ibn-al-hajjaj-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

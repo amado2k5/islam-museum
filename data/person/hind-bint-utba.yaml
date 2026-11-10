@@ -1,16 +1,23 @@
 id: person/hind-bint-utba
+education:
+  did_you_know:
+    ar: "هند بنت عتبة أم معاوية أوضح صور السيرة خصومة مكة في أحد، ثم أسلمت يوم الفتح وجاءت تبايع النبي."
+    en: "Hind bint Utba, Mu'awiya's mother, stands in the sirah as the clearest face of Meccan opposition at Uhud; she embraced Islam on the day of the conquest."
+    ur: "ہند بنت عتبہ، معاویہ کی ماں، احد میں مکی مخالفت کی نمایاں شکل تھیں؛ فتح کے دن اسلام لائیں اور بیعت کی۔"
+    sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
 class: person
-label: { en: "Hind bint Utba", ar: "هند بنت عتبة" }
+label: { en: "Hind bint Utba", ar: "هند بنت عتبة" , ur: "ہند بنت عتبہ"}
 names:
   - { kind: full, lang: ar, value: "هند بنت عتبة بن ربيعة" }
 gender: female
 born: { edtf: "0575~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0640~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; reported in the caliphate of Umar.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0640~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; reported in the caliphate of Umar. يقرر الكتاب وفاتها في خلافة عمر ولا يثبت اليوم بيقين (نساء حول الرسول ص358).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: []
 traditions: []
 summary:
   en: "Daughter of the Meccan elder Utba ibn Rabi'a and wife of Abu Sufyan: the sira's most vivid figure of Meccan defiance at Uhud, who converted with the conquest of Mecca; mother of the caliph Mu'awiya."
-  ar: "ابنة شيخ مكة عتبة بن ربيعة وزوجة أبي سفيان: أوضح صور السيرة في التحدي المكي بأحد، وأسلمت يوم الفتح؛ أم الخليفة معاوية."
+  ar: "ابنة شيخ مكة عتبة بن ربيعة وزوجة أبي سفيان: أوضح صور السيرة في التحدي المكي بأحد، وأسلمت يوم الفتح؛ أم الخليفة معاوية. وفي الصحيح جاءت النبي فقالت «ما كان على ظهر الأرض من أهل خباء أحب إلي أن يذلوا من أهل خبائك، ثم ما أصبح اليوم أهل خباء أحب إلي أن يعزوا من أهل خبائك» وسألته عن أبي سفيان «رجل مسيك» فأذن لها بالمعروف {cite:sahih-al-bukhari 3825}."
+  ur: "مکہ کے بزرگ عتبہ بن ربیعہ کی بیٹی، ابو سفیان کی اہلیہ اور معاویہ کی والدہ؛ سیرت میں احد کے موقع پر مخالفت اور پھر فتح مکہ پر ان کے قبول اسلام کا ذکر ہے۔ {cite:ibn-ishaq-guillaume}"
 wings: [people]
 themes: [battles, women]
 periods: [period/prophetic-era]
@@ -24,18 +31,30 @@ faith:
 labelled:
   - { label: { en: "'Akilat al-akbad' (eater of the liver) — a name given her for the Uhud mutilation", ar: "آكلة الأكباد" }, by: "later Muslim tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: born_in, target: place/arabian-peninsula, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: child_of, target: person/utba-ibn-rabia }
   - { type: spouse_of, target: person/abu-sufyan-ibn-harb }
   - { type: member_of, target: group/banu-abd-shams }
   - { type: participated_in, target: event/battle-of-uhud, role: inciting-the-meccan-line, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca, role: convert, sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف تُروى سيرة هند بنت عتبة، وما أثر المصادر في صورتها؟", en: "How is the life of Hind bint Utba told, and how do the sources shape her portrait?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Counted among the women who pledged allegiance and became companions; the tradition records her sharp exchanges with the Prophet at the pledge and her later life in piety." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians note that the Uhud mutilation scene is told in the sira with varying detail and polemical coloring, and treat her as a case study in how the sources shape portraits of enemy women." }
     sources: [source/watt-1956-medina]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+external_ids: { wikidata: "Q1093767" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul, source/bakr-umayyad-state-1134715, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}

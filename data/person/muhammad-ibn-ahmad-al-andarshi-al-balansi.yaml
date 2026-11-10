@@ -1,0 +1,37 @@
+id: person/muhammad-ibn-ahmad-al-andarshi-al-balansi
+class: person
+label: { ar: "محمد بن أحمد الأندرشي البلنسي", en: "Muhammad ibn Ahmad al-Andarshi al-Balansi" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن أحمد الأندرشي البلنسي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
+gender: male
+roles: [physician, scholar]
+traditions: [sunni]
+died: { edtf: "1275", hijri: "0674", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الفقيه الطبيب أبو عبد الله محمد بن أحمد الأندرشي البلنسي، توفي بتونس سنة 674 هـ، وله أرجوزة في الطب ونظم في الأدوية المفردة."
+  en: "The jurist and physician Abu Abd Allah Muhammad ibn Ahmad al-Andarshi al-Balansi, who died at Tunis in 674 AH and wrote a versified medical poem and a verse work on simple drugs."
+wings: [people]
+themes: [medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص413-414"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

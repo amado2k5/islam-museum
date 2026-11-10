@@ -1,0 +1,36 @@
+id: person/abu-muslim-al-khawlani
+class: person
+label:
+  ar: "أبو مسلم الخولاني"
+  en: "Abu Muslim al-Khawlani"
+  ur: "ابو مسلم خولانی"
+names:
+  - { kind: full, lang: ar, value: "أبو مسلم عبد الله بن ثُوَب الخولاني" }
+  - { kind: kunya, lang: ar, value: "أبو مسلم" }
+  - { kind: nisba, lang: ar, value: "الخولاني" }
+roles: [mystic]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أبو مسلم عبد الله بن ثُوَب الخولاني، تابعي مخضرم من زهّاد الشام، ترجمه البخاري في «التاريخ الكبير» وذكر أنه توفي في زمن معاوية، وعدّه ابن الصلاح والسيوطي في المخضرمين الذين لم يذكرهم مسلم. يجمع له أحمد بن حنبل في «الزهد» أخباراً: وعظه معاوية على منبر دمشق، واستسقاءه للناس في القحط، وكثرة ركوعه، وقول كعب: حكيم هذه الأمة أبو مسلم {cite:tarikh-kabir-hyderabad-3-1 p. 58-59} {cite:zuhd-ahmad-dkim-1983 p. 471-474} {cite:muqaddima-ibn-salah-itr p. 304}."
+  en: "Abu Muslim Abd Allah ibn Thuwab al-Khawlani, a mukhadram Successor and one of the renunciants of Syria; al-Bukhari's al-Tarikh al-Kabir records that he died in the time of Mu'awiya, and Ibn al-Salah and al-Suyuti count him among the mukhadramun whom Muslim did not list. Ahmad ibn Hanbal's al-Zuhd gathers reports of him: his admonition of Mu'awiya on the pulpit of Damascus, his prayer for rain in a drought, his many prostrations, and Ka'b's saying: the sage of this community is Abu Muslim {cite:tarikh-kabir-hyderabad-3-1 p. 58-59} {cite:zuhd-ahmad-dkim-1983 p. 471-474} {cite:muqaddima-ibn-salah-itr p. 304}."
+  ur: "ابو مسلم عبد اللہ بن ثُوَب خولانی، مخضرم تابعی اور شام کے زاہدوں میں سے؛ امام بخاری کی «التاریخ الکبیر» کے مطابق وہ معاویہ کے زمانے میں فوت ہوئے، اور ابن الصلاح اور سیوطی انہیں ان مخضرمین میں گنتے ہیں جنہیں امام مسلم نے ذکر نہیں کیا۔ احمد بن حنبل کی «الزہد» ان کے اخبار جمع کرتی ہے: دمشق کے منبر پر معاویہ کو نصیحت، قحط میں بارش کی دعا، کثرتِ رکوع، اور کعب کا قول: اس امت کے حکیم ابو مسلم ہیں {cite:tarikh-kabir-hyderabad-3-1 p. 58-59} {cite:zuhd-ahmad-dkim-1983 p. 471-474} {cite:muqaddima-ibn-salah-itr p. 304}۔"
+died: { edtf: "0661/0680", calendar: julian, precision: decade, status: tradition, derived: true, note: "أبو مسهر عند البخاري: توفي زمن معاوية قبل بسر بن أبي أرطاة {cite:tarikh-kabir-hyderabad-3-1 p. 59}. المدى مشتق من مدة خلافة معاوية (41–60هـ)، ولا سنة محددة في المصدر.", sources: [source/tarikh-kabir-hyderabad-3-1] }
+wings: [people]
+themes: [spirituality-and-sufism]
+regions: [levant-iraq]
+periods: [period/rashidun, period/umayyad]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/zuhd-ahmad-dkim-1983] }
+  - { type: student_of, target: person/awf-ibn-malik-al-ashjai, sources: [source/tarikh-kabir-hyderabad-3-1] }
+  - { type: related_to, target: concept/mukhadram, sources: [source/muqaddima-ibn-salah-itr, source/tadrib-rawi-awwama-v5] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, sources: [source/zuhd-ahmad-dkim-1983] }
+  - { type: related_to, target: concept/zuhd, sources: [source/zuhd-ahmad-dkim-1983] }
+sources: [source/tarikh-kabir-hyderabad-3-1, source/zuhd-ahmad-dkim-1983, source/muqaddima-ibn-salah-itr, source/tadrib-rawi-awwama-v5]
+provenance:
+  layer: own-research
+  source: "التاريخ الكبير للبخاري (حيدر آباد) ج3 ق1 الترجمة 133 ص 58–59؛ الزهد لأحمد (دار الكتب العلمية) PDF ص 471–474؛ مقدمة ابن الصلاح (عتر) ص 304؛ تدريب الراوي ج5 ص 253"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

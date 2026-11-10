@@ -1,0 +1,29 @@
+id: person/numan-al-adhami
+class: person
+label:
+  ar: "نعمان الأعظمي"
+  en: "Nu'man al-A'dhami"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لنعمان الأعظمي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nu'man al-A'dhami; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1936", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12248688
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

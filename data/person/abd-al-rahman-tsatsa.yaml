@@ -1,0 +1,29 @@
+id: person/abd-al-rahman-tsatsa
+class: person
+label:
+  ar: "عبد الرحمن تساتسا"
+  en: "Abd al-Rahman Tsatsa"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحمن تساتسا، عالم نوبي القرن التاسع عشر، توفي نحو سنة ١٨٢٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Rahman Tsatsa, the nineteenth-century Nupe scholar, d. c. 1829; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [west-africa-sahel]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136555452
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0059
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical register of Algerian Ulama (1322–1405 AH)" }
+died: { edtf: "1984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical register of Algerian Ulama (1322–1405 AH)" }
+relations:
+  - { type: lived_in, target: place/nuba, note: "Place association from the person's nisba/name (نوبي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

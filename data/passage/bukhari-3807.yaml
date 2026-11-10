@@ -1,0 +1,20 @@
+id: passage/bukhari-3807
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3807"
+label: { ar: "البخاري 3807 — خير دور الأنصار", en: "Bukhari 3807 — The best houses of the Ansar" }
+text: "قال رسول الله: «خير دور الأنصار بنو النجار، ثم بنو عبد الأشهل، ثم بنو الحارث بن الخزرج، ثم بنو ساعدة، وفي كل دور الأنصار خير». فقال سعد بن عبادة وكان ذا قدم في الإسلام: أرى رسول الله فضل علينا. فقيل له: قد فضلكم على ناس كثير"
+summary:
+  ar: "في كتاب مناقب الأنصار؛ رواية أنس بن مالك عن أبي أسيد في ترتيب بيوتات الأنصار الأربع أفضلية — النجار فعبد الأشهل فالحارث بن الخزرج فساعدة — مع عموم الخير لكل دورهم، وتلقي سعد بن عبادة سيد الخزرج لها."
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: group/banu-al-najjar, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: group/banu-abd-al-ashhal, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: group/banu-al-harith-al-khazraj, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: group/banu-saida, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/sad-ibn-ubada, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3807 (كتاب مناقب الأنصار)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

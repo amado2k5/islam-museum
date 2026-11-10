@@ -1,0 +1,34 @@
+---
+id: award/king-faisal-prize
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+جائزة الملك فيصل، وكانت تُعرف بجائزة الملك فيصل العالمية، جائزة سنوية ترعاها مؤسسة الملك فيصل الخيرية في الرياض وتُمنح «لرجال ونساء مكرّسين تُحدث إسهاماتهم فرقا إيجابيا»، في خمسة فروع: خدمة الإسلام، والدراسات الإسلامية، واللغة العربية والأدب، والعلوم، والطب. {cite:wikipedia-king-faisal-prize-en}
+
+## كيف بدأت
+مُنحت الجائزة أول مرة سنة 1979 للعالم الباكستاني أبي الأعلى المودودي عن خدمة الإسلام، وفي السنة نفسها نال فؤاد سزكين جائزة الدراسات الإسلامية عن دراساته في أثر علماء المسلمين في الحضارة الأوروبية. {cite:wikipedia-king-faisal-prize-en} أضيف فرع الطب سنة 1982 وفرع العلوم سنة 1984، ومُنحت جائزة خدمة الإسلام للملك خالد سنة 1981 وللملك فهد سنة 1984، وتقاسمها أحمد ديدات وروجيه غارودي سنة 1986. {cite:wikipedia-king-faisal-prize-en}
+
+## كيف تُمنح
+تحدد لجان الاختيار كل سنة موضوعات الدراسات الإسلامية والأدب العربي والطب، أما العلوم فتتناوب بين الفيزياء والرياضيات والكيمياء والأحياء. {cite:wikipedia-king-faisal-prize-en} ترشّح المؤسسات الإسلامية والجامعات والفائزون السابقون، ولا تُقبل ترشيحات الأفراد أو الأحزاب؛ ويختار فائزي خدمة الإسلام مباشرة لجنة الاختيار، بينما تمر الفروع الأخرى بتحكيم علمي، وتجتمع لجان دولية متخصصة في مقر المؤسسة بالرياض في يناير من كل سنة للقرار النهائي. {cite:wikipedia-king-faisal-prize-en} تتكون الجائزة من شهادة مكتوبة بالخط الديواني، وميدالية ذهبية من عيار 24 قيراطا تزن 200 غرام، ومبلغ 750 ألف ريال يُقسم بين الفائزين إن تعددوا، وتُسلَّم في حفل بالرياض تحت رعاية ملك السعودية. {cite:wikipedia-king-faisal-prize-en}
+
+## من نالها
+بين فائزي خدمة الإسلام [[person/mahathir-mohamad|مهاتير محمد]] سنة 1997 رئيسا لوزراء ماليزيا، ورجب طيب أردوغان سنة 2010، وزاكر نايك سنة 2015، والملك سلمان سنة 2017؛ وبين فائزي الدراسات الإسلامية محمد ناصر الدين الألباني سنة 1999 عن تحقيق الحديث، ويوسف القرضاوي سنة 1994، وخليل إينالجك سنة 2011. {cite:wikipedia-king-faisal-prize-en} وفي العلوم نال [[person/ahmed-zewail|أحمد زويل]] جائزة الفيزياء سنة 1989 مناصفة مع تيودور هانش، ونال عمر ياغي جائزة الكيمياء سنة 2015 مع مايكل غريتزل. {cite:wikipedia-king-faisal-prize-en} أعلنت جائزة خدمة الإسلام لسنة 2026 في 15 أبريل 2026 مناصفة بين الشيخ عبد اللطيف الفوزان من السعودية والأستاذ محمد محمد أبو موسى من مصر. {cite:wikipedia-king-faisal-prize-en}
+
+تذكر المقالة أن الولايات المتحدة ومصر والسعودية وبريطانيا وألمانيا هي البلدان الأكثر فوزا حتى 2026، وأن سيدني برينر عُدّ أول يهودي يفوز بها سنة 1992. {cite:wikipedia-king-faisal-prize-en}
+
+## اليوم
+الجائزة مستمرة سنويا، وتنشر مؤسسة الملك فيصل فائزيها على موقعها. {cite:wikipedia-king-faisal-prize-en}
+
+## حَمَلته في المتحف
+في خدمة الإسلام: [[person/abul-ala-maududi|أبو الأعلى المودودي]] (1979)، [[person/abu-al-hasan-ali-nadwi|أبو الحسن علي الحسني الندوي]] (1980)، [[person/mohammad-natsir|محمد ناصر]] (1980)، [[person/khalid-bin-abdulaziz|خالد بن عبد العزيز آل سعود]] (1981)، [[person/ibn-baz-abd-al-aziz|ابن باز عبد العزيز بن عبد الله]] (1982)، [[person/hassanein-makhlouf|حسنين محمد مخلوف]] (1983)، [[person/tunku-abdul-rahman|تونكو عبد الرحمن]] (1983)، [[person/fahd-bin-abdulaziz|فهد بن عبد العزيز آل سعود]] (1984)، [[person/ahmed-deedat|أحمد ديدات]] (1986)، [[person/roger-garaudy|روجيه غارودي]] (1986)، [[person/abubakar-gumi|أبو بكر محمود غومي]] (1987)، [[person/ahmad-domocao-alonto|أحمد دوموكاو ألونتو]] (1988)، [[person/muhammad-al-ghazali-modern|محمد الغزالي]] (1989)، [[person/ali-al-tantawi|علي الطنطاوي]] (1990)، [[person/khurshid-ahmad-economist|خورشيد أحمد]] (1990)، [[person/abdullah-omar-nasseef|عبد الله بن عمر نصيف]] (1991)، [[person/alija-izetbegovic|علي عزت بيغوفيتش]] (1993)، [[person/muhammad-ibn-salih-al-uthaymin|محمد بن صالح العثيمين]] (1994)، [[person/jad-al-haqq-ali-jad-al-haqq|جاد الحق بن علي جاد الحق]] (1995)، [[person/abdel-rahman-al-sumait|عبد الرحمن السميط]] (1996)، [[person/mahathir-mohamad|مهاتير محمد]] (1997)، [[person/abdou-diouf|عبدو ضيوف]] (1998)، [[person/sultan-bin-muhammad-al-qasimi|سلطان بن محمد القاسمي]] (2002)، [[person/abdel-rahman-swar-al-dahab|عبد الرحمن سوار الذهب]] (2004)، [[person/mintimer-shaimiev|منتيمير شايمييف]] (2007)، [[person/abdullah-bin-abdulaziz|عبد الله بن عبد العزيز آل سعود]] (2008)، [[person/recep-tayyip-erdogan|رجب طيب أردوغان]] (2010)، [[person/abdullah-ahmad-badawi|عبد الله أحمد بدوي]] (2011)، [[person/ahmed-lemu|شيخ أحمد ليمو]] (2014)، [[person/zakir-naik|ذاكر نايك]] (2015)، [[person/salman-bin-abdulaziz|سلمان بن عبد العزيز آل سعود]] (2017)، [[person/ali-hassan-mwinyi|علي حسن مويني]] (2022)، [[person/hamid-choi|حامد تشوي]] (2023)، [[person/mohammad-al-sammak|محمد السماك]] (2024). {cite:wikipedia-king-faisal-prize-en}
+
+وفي الدراسات الإسلامية: [[person/fuat-sezgin|فؤاد سزكين]] (1979)، [[person/muhammad-mustafa-al-azami|محمد مصطفى الأعظمي]] (1980)، [[person/mustafa-al-zarqa|مصطفى الزرقا]] (1984)، [[person/yusuf-al-qaradawi|يوسف القرضاوي]] (1994)، [[person/sayyid-sabiq|سيد سابق]] (1994)، [[person/akram-diya-al-umari|أكرم ضياء العمري]] (1996)، [[person/al-albani-muhammad-nasir-al-din|الألباني محمد ناصر الدين]] (1999)؛ وفي اللغة العربية والأدب: [[person/mahmud-muhammad-shakir|محمود محمد شاكر]] (1984)، [[person/yahya-haqqi|يحيى حقي]] (1990)، [[person/aisha-abd-al-rahman|عائشة عبد الرحمن ⁦(بنت الشاطئ)⁩]] (1994). {cite:wikipedia-king-faisal-prize-en} {cite:king-faisal-prize-laureates}
+
+وفي العلوم: [[person/ahmed-zewail|أحمد زويل]] (1989). {cite:wikipedia-king-faisal-prize-en}
+
+## المراجع
+- المقالة الإنجليزية في ويكيبيديا عن جائزة الملك فيصل، مراجعة 31 أكتوبر 2026. {cite:wikipedia-king-faisal-prize-en}
+- صفحات الفائزين في الموقع الرسمي للجائزة، صفحة لكل فائز ⁦(الفرع والسنة والمولد ومسوّغ المنح والمستجدات اللاحقة)⁩، قُرئت في 7 نوفمبر 2026. {cite:king-faisal-prize-laureates}

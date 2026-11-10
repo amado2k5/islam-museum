@@ -1,0 +1,29 @@
+id: person/al-udfawi
+class: person
+label:
+  ar: "الأدفوي"
+  en: "al-Udfuwi"
+roles: [historian]
+gender: male
+summary:
+  ar: "جعفر بن ثعلب الأدفوي، مؤرخ وأديب مصري من أهل أدفو، صاحب «الطالع السعيد» في تراجم رجال عصره؛ توفي سنة 748هـ ⁦(1347م)⁩."
+  en: "Ja'far al-Udfawi (1286–1347), Egyptian historian and littérateur of Edfu, author of al-Tali' al-Sa'id."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6718226
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.122)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1286", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+died: { edtf: "1347", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,31 @@
+id: person/umayr-ibn-abi-waqqas
+class: person
+label:
+  ar: "عمير بن أبي وقاص"
+  en: "Umayr ibn Abi Waqqas"
+roles: [companion]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمير بن أبي وقاص الزهري، صحابي بدر وأخ سعد بن أبي وقاص، استشهد سنة ٦٢٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Umayr ibn Abi Waqqas al-Zuhri, the Companion of Badr and brother of Sa'd ibn Abi Waqqas, martyred 624; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam]
+born: { edtf: "608~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra (Ibn Sa'd); al-Isaba" }
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra (Ibn Sa'd); al-Isaba" }
+relations:
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+ - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q97291232)" }
+external_ids:
+  wikidata: Q12228621
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0044
+status:
+  review: draft
+  completeness: 1

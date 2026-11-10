@@ -1,0 +1,40 @@
+---
+id: person/abdul-hamid-kishk
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+عبد الحميد بن عبد العزيز كشك عالم وداعية مصري كفيف، وُلد في شبراخيت بمحافظة البحيرة يوم الجمعة 13 ذي القعدة 1351هـ الموافق 10 مارس 1933م، وتوفي يوم الجمعة 25 رجب 1417هـ الموافق 6 ديسمبر 1996م. {cite:wikipedia-abdul-hamid-kishk-ar} {cite:wikidata-abdul-hamid-kishk} يلقّبه كثيرون بفارس المنابر، وتعدّه المقالة العربية من أشهر خطباء القرن العشرين في العالم العربي والإسلامي، وتذكر أن له أكثر من ألفي خطبة مسجلة وأنه خطب مدة أربعين سنة. {cite:wikipedia-abdul-hamid-kishk-ar} وتصفه المقالة الإنجليزية بأنه عُرف بروح الدعابة وشعبية خطبه وكتبه الدينية وجرأته في نقد الظلم. {cite:wikipedia-abdul-hamid-kishk-en}
+
+## النشأة والتعليم
+حفظ القرآن الكريم صغيرًا، دون العاشرة بحسب المقالة العربية وفي الثامنة بحسب المقالة الإنجليزية، ثم التحق بالمعهد الديني بالإسكندرية، فكلية أصول الدين بجامعة الأزهر. {cite:wikipedia-abdul-hamid-kishk-ar} {cite:wikipedia-abdul-hamid-kishk-en} وتذكر المقالة العربية أنه كان الأول على الجمهورية في الشهادة الثانوية الأزهرية، والأول على كليته طوال سنوات الدراسة، وأن أساتذته كلّفوه بشرح بعض المواد للطلاب، ولا سيما النحو والصرف. {cite:wikipedia-abdul-hamid-kishk-ar} وتذكر المقالة الإنجليزية أن أباه توفي قبل أن يبلغ سن الدراسة. {cite:wikipedia-abdul-hamid-kishk-en}
+
+فقد بصره في صغره: تذكر المقالة العربية أنه فقد إحدى عينيه في الثالثة عشرة والأخرى في السابعة عشرة، وتذكر الإنجليزية أن مرضًا أذهب بصره في صباه، وأن ذلك زاده إقبالًا على العلم. {cite:wikipedia-abdul-hamid-kishk-ar} {cite:wikipedia-abdul-hamid-kishk-en}
+
+## المنبر
+عُيّن معيدًا بكلية أصول الدين سنة 1957م، لكنه لم يُلقِ إلا محاضرة واحدة ثم ترك التدريس الجامعي مؤثرًا المنبر، وكان قد ارتقاه أول مرة في الثانية عشرة حين غاب خطيب مسجد قريته. {cite:wikipedia-abdul-hamid-kishk-ar} ومثّل الأزهر في عيد العلم سنة 1961م، ثم كان إمامًا وخطيبًا بمسجد الطحان ثم بمسجد منوفي في الشرابية بالقاهرة، وتولى سنة 1962م الإمامة والخطابة بمسجد عين الحياة في حدائق القبة، وبقي يخطب فيه نحو عشرين عامًا. {cite:wikipedia-abdul-hamid-kishk-ar} وتنقل المقالة الإنجليزية أن ذروة شهرته كانت بين سنة 1967 وأوائل الثمانينيات، وأن نحو عشرة آلاف مصلٍّ كانوا يحضرون خطبة الجمعة عنده، حتى بنت وزارة الأوقاف ملاحق للمسجد لاستيعابهم. {cite:wikipedia-abdul-hamid-kishk-en}
+
+انتشرت خطبه على أشرطة الكاسيت في مصر والعالم العربي، ومنها أكثر من ألفي خطبة، مع أن الإعلام الرسمي قاطعه في عهد [[person/anwar-sadat|أنور السادات]]. {cite:wikipedia-abdul-hamid-kishk-en} {cite:wikipedia-abdul-hamid-kishk-ar} ويحفظ أرشيف أسابيل سلسلة واحدة له في سبع حلقات طويلة، هي [[work/shorut-kobol-assalat|شروط قبول الصلاة]]. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep01}
+
+## الاعتقال والمنع
+اعتُقل سنة 1965م وبقي في المعتقل عامين ونصفًا، وتنقّل بين معتقلات طرة وأبو زعبل والقلعة والسجن الحربي، وتذكر المقالة العربية أنه تعرّض للتعذيب مع أنه كان كفيفًا. {cite:wikipedia-abdul-hamid-kishk-ar} {cite:wikipedia-abdul-hamid-kishk-en} وتذكر أنه منذ سنة 1976م اصطدم بالسلطة، ولا سيما بعد معاهدة كامب ديفيد، فاعتُقل سنة 1981م ضمن قرارات سبتمبر، ثم أُفرج عنه سنة 1982م ومُنع من العودة إلى مسجده ومن الخطابة والدروس. {cite:wikipedia-abdul-hamid-kishk-ar} وتذكر المقالة الإنجليزية أن [[person/hosni-mubarak|حسني مبارك]] أفرج عنه بشرط أن يترك العمل العام، وأن المسجد الذي كان يخطب فيه حُوّل إلى مركز صحي. {cite:wikipedia-abdul-hamid-kishk-en}
+
+## مواقفه كما تعرضها المصادر
+تذكر المقالتان أنه كان معارضًا في عهد [[person/gamal-abdel-nasser|جمال عبد الناصر]]، فرفض الموافقة على إعدام [[person/sayyid-qutb|سيد قطب]] كما رفض القول بالتوافق بين الإسلام والاشتراكية، وأنه انتقد الأوضاع الاجتماعية في مصر وأكّد في خطبه على التقوى الشخصية. {cite:wikipedia-abdul-hamid-kishk-en} {cite:wikipedia-abdul-hamid-kishk-ar} وتذكر أنه هاجم القانون 44 لسنة 1979 في الأحوال الشخصية، الذي ألزم الزوج بإبلاغ زوجته إن تزوج عليها، ورآه مخالفًا للشريعة. {cite:wikipedia-abdul-hamid-kishk-en} وكتب ردًّا على رواية [[work/awlad-haratina|أولاد حارتنا]] لـ[[person/naguib-mahfouz|نجيب محفوظ]]، اتهمها فيه بانتهاك العقيدة. {cite:wikipedia-abdul-hamid-kishk-en} {cite:wikipedia-abdul-hamid-kishk-ar}
+
+## مؤلفاته
+تذكر المقالة العربية أنه ترك 108 كتب، منها تفسير في عشرة مجلدات سمّاه «في رحاب التفسير»، كتبه بعد منعه من الخطابة، يعرض فيه الجوانب الدعوية في القرآن الكريم، بينما تقول المقالة الإنجليزية إن له نحو ثلاثين كتابًا. {cite:wikipedia-abdul-hamid-kishk-ar} {cite:wikipedia-abdul-hamid-kishk-en}
+
+## وفاته
+تذكر المقالة العربية أنه توفي يوم جمعة وهو يصلي نافلة قبل الذهاب إلى المسجد، ساجدًا في الركعة الثانية، وأنه كان يدعو أن يُتوفّى ساجدًا. {cite:wikipedia-abdul-hamid-kishk-ar}
+
+## في دروسه المسجلة
+تُظهر سلسلة «شروط قبول الصلاة» طريقته في الخطبة: يفتتح بالحمد والصلاة على النبي ومدائح طويلة، ثم يعلن موضوع اليوم، ويمزج الشرح بالقصص والأشعار، ويختم بالدعاء، ثم يقول: قوموا إلى صلاتكم. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:12:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep04 00:13:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep03 01:11:00} ويعلّق فيها على أخبار الأسبوع، فيذكر مثلًا أنه وقف عند ثلاثة أخبار منها خبر نشرته جريدة «أخبار اليوم» عن زوجة شكت زوجها إلى المحكمة. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:43:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep02 00:43:30}
+
+## في «أصداف اللؤلؤ» لأبي إسحاق الحويني
+يروي [[person/abu-ishaq-al-heweny|أبو إسحاق الحويني]] أنه نزل القاهرة في السنة الثالثة الثانوية عند أخيه، وكان مسجد الشيخ كشك، مسجد عين الحياة، على بعد محطتين من سكنه، ولم يكن قد سمع به وهو ابن الريف، فلما صلى عنده سمع لأول مرة خطيبًا بتلك البلاغة وذلك الصوت الحزين الذي يُبكي. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:12:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:12:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep13 00:09:30} ويقول إنه صلى خلفه خمس سنوات، حتى بعد عودته من الجامعة، وإن كشكًا هو الذي أشعل فيه حب الدين ووضع اللبنة الأولى. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep03 00:15:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep16 00:11:30} ويذكر أن كشكًا تكلم في تلك الأيام عن اللحية سنةً، ردًّا على فيلم سخر منها، فأطلق لحيته أول مرة. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:18:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep04 00:19:00}
+
+ثم لما قرأ «سلسلة الأحاديث الضعيفة» للألباني وجد فيها كثيرًا مما سمعه من كشك. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep13 00:11:30} ويحكي أن كشكًا ذكر في خطبة عن فضائل أبي بكر حديثًا في التجلي له خاصة، فبكى الناس وبكى معهم، لكن قلبه لم يطمئن إليه، فبحث في مكتبة بجوار المسجد حتى وجد [[person/ibn-qayyim-al-jawziyya|ابن القيم]] يحكم عليه بالوضع في «المنار المنيف». {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:09:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:10:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:11:30} فوقف في صف المسلّمين على الشيخ بعد الخطبة وهمس له بذلك، فقال له كشك إن ابن القيم مخطئ، وقال: «يا بني تعلّم قبل أن تتكلم». {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:12:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:13:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:13:30} ويقول إن الكلمة آلمته لكنها نفعته، فذهب يطلب شيخًا يعلّمه الحديث فلزم [[person/muhammad-najib-al-mutii|الشيخ المطيعي]]. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:13:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:17:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep14 00:17:30}
+
+ويصف مدرسة كشك بأنها كانت «حضانة» مر بها كثيرون ممن صاروا بعدُ أعلامًا ثم تفرقت بهم السبل، ويقول إنه لم يأخذ منه إلا الحماسة وأن يكون الدرس بعد الخطبة خفيفًا، وأخذ صنعة الخطبة واستنباط المعاني من الكتب. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep21 00:08:00} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep21 00:08:30} {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep21 00:09:00} ويرى أن تفسير كشك أقرب إلى الخطابة منه إلى التفسير؛ وهذا رأيه. {cite:assabile-abu-ishaq-alheweny asdaf-al-loaloa/ep29 00:04:00}

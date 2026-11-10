@@ -13,10 +13,14 @@ export function scan(files: string[]): string[] {
     const src = readFileSync(f, "utf8");
     const file = rel(f);
     for (const m of src.matchAll(/\b(WebSocket|EventSource|XMLHttpRequest)\b|navigator\.sendBeacon/g)) problems.push(`${file}: uses ${m[0]}`);
-    for (const m of src.matchAll(/\bfetch\(\s*([`"'])([^`"']*)\1/g)) {
+    for (const m of src.matchAll(/\bfetch\(\s*([`"'])([^`"']*)\1([^),;]*)/g)) {
+      // A URL built by concatenation ("/search-synonyms." + lang + "_" + shard + ".json") is judged by its first piece
+      // for the origin and by its last string piece for the file type, so the whole URL must still end as a static file.
+      const tail = [...m[3].matchAll(/([`"'])([^`"']*)\1/g)].map((x) => x[2]);
       const url = m[2];
+      const last = tail.length ? tail[tail.length - 1] : url;
       if (/^(https?:)?\/\//.test(url)) problems.push(`${file}: fetch to an external origin: ${url}`);
-      else if (!/\.(json|js|wasm|txt|xml|ndjson|csv|webp|svg|png)(\?|$)/.test(url) && !url.includes("pagefind")) problems.push(`${file}: fetch of a non-static path: ${url}`);
+      else if (!/\.(json|js|wasm|txt|xml|ndjson|csv|webp|svg|png)(\?|$)/.test(last) && !url.includes("pagefind")) problems.push(`${file}: fetch of a non-static path: ${url}`);
     }
     for (const m of src.matchAll(/<script[^>]+src=["'](https?:)?\/\/[^"']+["']/g)) problems.push(`${file}: loads a third-party script: ${m[0].slice(0, 100)}`);
   }

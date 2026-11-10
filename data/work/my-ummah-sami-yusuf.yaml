@@ -1,0 +1,50 @@
+id: work/my-ummah-sami-yusuf
+class: work
+kind: album
+label: { ar: "أمتي", en: "My Ummah", ur: "مائی اُمّہ" }
+summary:
+  ar: "ألبوم الاستوديو الثاني لسامي يوسف، صدر عن أوايكننغ في 6 يوليو 2005 بنسختين موسيقية وإيقاعية، وغنّى فيه بالإنجليزية والعربية والتركية والفارسية والأردية؛ اشتهرت منه «حسبي ربي» و«أمي»، وفيه انتقل من الدف إلى الآلات الغربية بعد ألبومه الأول «المعلم»، وتنسب المصادر إليه مبيعات بين خمسة وثمانية ملايين نسخة."
+  en: "Sami Yusuf's second studio album, released by Awakening on 6 July 2005 in a music version and a percussion version, sung in English, Arabic, Turkish, Persian and Urdu; its best-known songs include 'Hasbi Rabbi' and 'Mother', it marked his turn to Western instrumentation, and its sales are reported at between five and eight million copies."
+  ur: "سامی یوسف کا دوسرا اسٹوڈیو البم، 6 جولائی 2005 کو اویکننگ سے موسیقی اور دف والے دو ورژن میں جاری ہوا، انگریزی، عربی، ترکی، فارسی اور اردو میں؛ «حسبی ربی» اور «مدر» اس کے مشہور گیت ہیں، اور ماخذ اس کی فروخت پانچ سے آٹھ ملین نسخوں کے درمیان بتاتے ہیں۔"
+wings: [today, words]
+themes: [music]
+regions: [andalus-europe]
+genre: [nasheed, religious-pop]
+composed: { edtf: "2005-07-06", hijri: "1426", calendar: gregorian, precision: day, derived: true, note: "Release date from the infoboxes of the English and Arabic articles; recorded 2003–2005. The Hijri year is converter-derived.", sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar, source/wikidata-my-ummah] }
+languages: [en, ar, tr, fa, ur]
+publisher: listing/awakening-records
+duration: 3830   # seconds; 63:50 in the English infobox
+tracks:
+  - { n: 1, title: { en: "My Ummah (intro)", ar: "أمتي ـ المقدمة" }, duration_s: 63, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 2, title: { en: "My Ummah", ar: "أمتي" }, duration_s: 227, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 3, title: { en: "Hasbi Rabbi", ar: "حسبي ربي" }, duration_s: 255, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 4, title: { en: "Ya Rasulallah", ar: "يا رسول الله" }, duration_s: 287, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 5, title: { en: "Try Not to Cry" }, duration_s: 276, performers: [person/sami-yusuf], note: "featuring Outlandish", sources: [source/wikipedia-my-ummah-en] }
+  - { n: 6, title: { en: "Muhammad", ar: "محمد" }, duration_s: 367, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 7, title: { en: "Make a Prayer" }, duration_s: 285, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en] }
+  - { n: 8, title: { en: "Eid Song", ar: "أغنية العيد" }, duration_s: 296, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 9, title: { en: "Free" }, duration_s: 309, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en] }
+  - { n: 10, title: { en: "Munajat", ar: "مناجاة" }, duration_s: 280, lang: ar, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 11, title: { en: "Mother (Arabic)", ar: "أمي" }, duration_s: 284, lang: ar, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 12, title: { en: "Muhammad, Part 2" }, duration_s: 192, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en] }
+  - { n: 13, title: { en: "We Will Never Submit" }, duration_s: 145, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en] }
+  - { n: 14, title: { en: "Du'a", ar: "دعاء" }, duration_s: 280, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar] }
+  - { n: 15, title: { en: "Mother (English and Turkish)" }, duration_s: 284, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en] }
+  - { n: 16, title: { en: "Mother (English and Persian)" }, duration_s: 284, performers: [person/sami-yusuf], sources: [source/wikipedia-my-ummah-en] }
+footprint:
+  wikipedia: { languages: [ar, az, bs, en, fa, fr, id, ms, uz], checked: "2026-11-06", sources: [source/wikidata-my-ummah] }
+  wikidata: "Q3331280"
+relations:
+  - { type: performed_by, target: person/sami-yusuf, sources: [source/wikipedia-my-ummah-en, source/wikidata-my-ummah] }
+  - { type: work_produced_by, target: person/sami-yusuf, sources: [source/wikipedia-my-ummah-ar] }
+  - { type: published_by, target: listing/awakening-records, sources: [source/wikipedia-my-ummah-en, source/wikidata-my-ummah] }
+  - { type: about, target: person/muhammad, note: "'Ya Rasulallah' and the two 'Muhammad' songs are addressed to the Prophet", sources: [source/wikipedia-my-ummah-en] }
+external_ids: { wikidata: "Q3331280" }
+sources: [source/wikipedia-my-ummah-en, source/wikipedia-my-ummah-ar, source/wikidata-my-ummah, source/wikipedia-awakening-music-en, source/guardian-awakening-islamic-singers-2012]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'My Ummah' (revision 1336097958 of 1 February 2026), Arabic Wikipedia «أمتي ⁦(ألبوم)⁩» (revision 77018220 of 19 October 2026) and Wikidata Q3331280 (revision 2209828959), read in Chrome on the founder's Mac on 6 November 2026; track lengths from the English track list; the sales range is attributed to the two sources the English article cites"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-music-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

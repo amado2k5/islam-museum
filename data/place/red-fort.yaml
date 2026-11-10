@@ -1,0 +1,16 @@
+id: place/red-fort
+class: place
+kind: site
+label: { en: "Red Fort", ar: "لال قلعة" }
+summary:
+  en: "Historic fortress in Delhi, India."
+  ar: "موقع في الهند."
+wings: [place]
+regions: [south-asia]
+coordinates: [28.6558, 77.2403]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q45957", geonames: "1258261" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q45957 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

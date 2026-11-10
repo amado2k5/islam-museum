@@ -1,0 +1,36 @@
+id: person/rami-nashashibi
+class: person
+label: { ar: "رامي النشاشيبي", en: "Rami Nashashibi", ur: "رامی نشاشیبی" }
+names:
+  - { value: "Rami Nashashibi", kind: full }
+  - { value: "رامي النشاشيبي", kind: full }
+gender: male
+summary:
+  ar: "ناشط وعالم اجتماع فلسطيني أمريكي، وُلد سنة 1972 في عمّان بالأردن لأبوين فلسطينيين. أسس سنة 1997، وهو طالب دراسات عليا، شبكة عمل المسلمين في المدينة الداخلية (IMAN) في الجانب الجنوبي من شيكاغو، وعمل مديرها التنفيذي سنوات طويلة: تدير الشبكة عيادة صحية مجانية وتدريبًا مهنيًا للسجناء السابقين وبرامج فنية وثقافية. نال زمالة ماك آرثر سنة 2017 وجائزة أوبوس سنة 2018، ونال الدكتوراه في علم الاجتماع من جامعة شيكاغو سنة 2011."
+  en: "Palestinian-American activist and sociologist, born in 1972 in Amman, Jordan, to Palestinian parents. In 1997, while a graduate student, he founded the Inner-City Muslim Action Network (IMAN) on Chicago's South Side and served as its executive director for many years: IMAN runs a free community health clinic, job training and transitional housing for formerly incarcerated men, and arts and cultural programming. He was named a MacArthur Fellow in 2017 and won the Opus Prize in 2018, and took his PhD in sociology at the University of Chicago in 2011."
+  ur: "فلسطینی امریکی کارکن اور ماہرِ سماجیات، 1972 میں عمان، اردن میں فلسطینی والدین کے ہاں پیدا ہوئے۔ انھوں نے 1997 میں، دورانِ تعلیم، شکاگو کے ساؤتھ سائیڈ میں «انر سٹی مسلم ایکشن نیٹ ورک» (IMAN) قائم کی اور برسوں اس کے ایگزیکٹو ڈائریکٹر رہے: یہ ادارہ مفت صحت کلینک، سابق قیدیوں کے لیے پیشہ ورانہ تربیت اور فنی و ثقافتی پروگرام چلاتا ہے۔ وہ 2017 میں میک آرتھر فیلو بنے، 2018 میں اوپس پرائز جیتا، اور 2011 میں یونیورسٹی آف شکاگو سے سماجیات میں پی ایچ ڈی کی۔"
+roles: [activist, scholar, musician]
+wings: [people, living]
+born:
+  edtf: "1972"
+  hijri: "1392"
+  calendar: gregorian
+  precision: year
+  status: debated
+  derived: true
+  note: "Birth year following the founder's queue (1972). No fetched source gives an exact birth date: the English article gives no birth date or birthplace at all, and a 2017 report ages him 44 in October 2017, which is consistent with 1972 or 1973, so the year is carried as debated. Birthplace: the Robert & Ethel Kennedy Human Rights Center profile gives Amman, Jordan; On Being's transcript confirms at country level that he was born in Jordan, to a diplomat father. The Hijri year (1392, the year covering most of 1972) is derived by tabular conversion."
+  sources: [source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi, source/wikipedia-rami-nashashibi-en]
+relations:
+  - { type: born_in, target: place/amman, sources: [source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "NOT RECORDED AS DOCUMENTED — no fetched source names a school for him. The English article records that IMAN is informed by Muslim social ethics and that his scholarship and activism build connections between African American and Muslim immigrant communities; the Chicago Tribune report of his MacArthur Fellowship quotes him saying he is 'very deeply rooted in Muslim sensibilities and Muslim faith values and traditions' while also being broadly informed by other faith practices, and On Being records that he was raised in an areligious Muslim home — his parents' stance, which is family background. None of this names a school or path as his own. Under the two-source rule and the founder's doubt rule the faith is left unknown."
+    sources: [source/wikipedia-rami-nashashibi-en, source/uchicago-magazine-rami-nashashibi, source/onbeing-rami-nashashibi]
+sources: [source/wikipedia-rami-nashashibi-en, source/uchicago-magazine-rami-nashashibi, source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Rami Nashashibi', UChicago Magazine 'Ingenious community organizing earned Rami Nashashibi a MacArthur Fellowship', the Robert & Ethel Kennedy Human Rights Center profile of Dr. Rami Nashashibi, and On Being's programme 'Rami Nashashibi — A New Coming Together', all read on 25 October 2026; the RFK profile gives his University of Chicago PhD as 2010, against the University of Chicago's own 2011, which the record follows. Wikidata was not read directly in this run because Wikimedia returned 403 to this machine, so no Wikidata QID is recorded rather than guessed. No earlier record for him existed in data/person/ under rami-nashashibi or any other spelling checked; this is a new build, not an enrichment. No founder_of relation is written for IMAN, Khan Academy or Interfaith America in this group: no group entity for any of them exists in data/, and an edge is omitted rather than a target invented."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-13
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

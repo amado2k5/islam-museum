@@ -1,0 +1,18 @@
+id: place/negroponte
+class: place
+kind: city
+label: { ar: "نجربونت", en: "Negroponte" }
+summary:
+  en: "Venetian-held city of Chalkis on Euboea, taken by Mehmed II in 1470."
+  ar: "مدينة خالكيذا البندقية على جزيرة إيفيا، فتحها محمد الفاتح سنة 1470م."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [38.464, 23.602]
+coordinate_precision: site
+sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Mehmed II story map"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mehmed-ii
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }

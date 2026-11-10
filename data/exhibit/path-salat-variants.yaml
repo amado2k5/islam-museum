@@ -1,0 +1,76 @@
+id: exhibit/path-salat-variants
+class: exhibit
+kind: trail
+label:
+  ar: صلوات السنة
+  en: Prayers of the Sunna
+summary:
+  ar: 'مسار في صلوات ما وراء الفرائض: الجمعة والوتر والضحى والاستسقاء والكسوف — اليوم المسلم مليء بالصلاة.'
+  en: A trail through prayers beyond the five.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الجمعة
+    en: Jumu'a
+  body:
+    ar: 'صلاة الجماعة الأسبوعية: خطبة وركعتان.'
+    en: 'صلاة الجماعة الأسبوعية: خطبة وركعتان.'
+  features:
+  - practice/salat-al-jumua
+  - practice/adhan
+- title:
+    ar: الوتر
+    en: Witr
+  body:
+    ar: 'خاتمة الليل: ركعة أو ثلاث قبل الفجر.'
+    en: 'خاتمة الليل: ركعة أو ثلاث قبل الفجر.'
+  features:
+  - practice/salat-al-witr
+  - practice/dhikr
+- title:
+    ar: الضحى
+    en: Duha
+  body:
+    ar: 'صلاة الأوابين: شروق إلى قبل الظهر.'
+    en: 'صلاة الأوابين: شروق إلى قبل الظهر.'
+  features:
+  - practice/salat-al-duha
+  - practice/salat
+- title:
+    ar: الاستسقاء
+    en: Istisqa
+  body:
+    ar: 'صلاة المطر: خروج الجماعة للدعاء.'
+    en: 'صلاة المطر: خروج الجماعة للدعاء.'
+  features:
+  - practice/salat-al-istisqa
+  - practice/dua
+- title:
+    ar: الكسوف
+    en: Kusuf
+  body:
+    ar: 'صلاة الخوف الجماعية: آيتان من الله.'
+    en: 'صلاة الخوف الجماعية: آيتان من الله.'
+  features:
+  - practice/salat-al-kusuf
+  - practice/salat
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

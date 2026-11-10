@@ -1,0 +1,113 @@
+---
+// The build-time diagrams of the Inventions Browser: an inline SVG drawn from the record's media.diagram id, with its
+// text taken from i18n and its long description from the media record's alt text. Nothing is fetched at runtime.
+import { byId, labelOf } from "../lib/graph";
+import { inventionNodes } from "../lib/inventions";
+import { ui, type Lang } from "../lib/i18n";
+
+interface Props { id: string; lang: Lang }
+const { id, lang } = Astro.props;
+const m = byId.get(id);
+const D = ui(lang).inventions.diagram;
+const alt: string = m?.data.alt?.[lang] ?? m?.data.alt?.en ?? "";
+const title = m ? labelOf(m, lang).replace(/^[^:：]+[:：]\s*/, "") : "";
+const known = id === "media/diagram-pulmonary-circulation";
+const tent = id === "media/diagram-rufayda-tent";
+// Any other diagram is the record's chain, drawn from its own data: what it was built on, the invention and its
+// maker, and what was built on it.
+const owner = !known && !tent ? inventionNodes.find((n) => n.data.media?.diagram === id) : undefined;
+const linkLabel = (e: any): string =>
+  e.external ? (e.external[lang] ?? e.external.en) : (() => { const t = byId.get(e.invention); return t ? labelOf(t, lang) : e.invention; })();
+const before: string[] = (owner?.data.precursors ?? []).slice(0, 4).map(linkLabel);
+const after: string[] = (owner?.data.dependents ?? []).slice(0, 4).map(linkLabel);
+const makerNames: string[] = (owner?.data.makers ?? []).map((mk: any) => byId.get(mk.person)).filter(Boolean).map((p: any) => labelOf(p, lang));
+const hijri: string = String(owner?.data.era?.first_attested?.hijri ?? "").replace(/^0+/, "");
+const uid = id.replace(/[^a-z0-9]/gi, "-");
+// One heart: right ventricle at x0, left ventricle at x0+110, the septum between them.
+const heart = (x0: number) => `M${x0} 150 h90 v80 h-90 Z M${x0 + 110} 150 h90 v80 h-90 Z`;
+---
+{known && m && (
+  <figure style="margin:0">
+    <svg viewBox="0 0 640 300" role="img" aria-labelledby={`${uid}-t ${uid}-d`} style="width:100%;height:auto;max-width:720px;display:block" font-family="inherit">
+      <title id={`${uid}-t`}>{title}</title>
+      <desc id={`${uid}-d`}>{alt}</desc>
+      <defs>
+        <marker id={`${uid}-a`} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="currentColor" /></marker>
+      </defs>
+      <g fill="none" stroke="currentColor" stroke-width="2">
+        <path d={heart(15)} />
+        <path d={heart(335)} />
+      </g>
+      <g stroke="#9b1c1c" stroke-width="5" fill="none" marker-end={`url(#${uid}-a)`} style="color:#9b1c1c">
+        <path d="M80 190 H190" stroke-dasharray="6 6" />
+        <path d="M395 150 C395 60 535 60 535 145" />
+      </g>
+      <ellipse cx="465" cy="80" rx="60" ry="26" fill="#2a7b88" fill-opacity=".18" stroke="#2a7b88" stroke-width="2" />
+      <g font-size="15" fill="currentColor" text-anchor="middle">
+        <text x="60" y="250">{D.right}</text>
+        <text x="170" y="250">{D.left}</text>
+        <text x="115" y="140" font-size="13">{D.septum}</text>
+        <text x="380" y="250">{D.right}</text>
+        <text x="490" y="250">{D.left}</text>
+        <text x="465" y="85" font-size="14">{D.lung}</text>
+        <text x="115" y="40" font-size="18" font-weight="700">{D.galen}</text>
+        <text x="115" y="64" font-size="14">{D.galen_note}</text>
+        <text x="465" y="20" font-size="18" font-weight="700" dy="6">{D.nafis}</text>
+        <text x="465" y="290" font-size="14">{D.nafis_note}</text>
+      </g>
+      <line x1="320" y1="20" x2="320" y2="290" stroke="currentColor" stroke-opacity=".3" stroke-width="1" />
+    </svg>
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">{title}</figcaption>
+  </figure>
+)}
+
+{tent && m && (
+  <figure style="margin:0">
+    <svg viewBox="0 0 640 300" role="img" aria-labelledby={`${uid}-t ${uid}-d`} style="width:100%;height:auto;max-width:720px;display:block" font-family="inherit">
+      <title id={`${uid}-t`}>{title}</title>
+      <desc id={`${uid}-d`}>{alt}</desc>
+      <defs>
+        <marker id={`${uid}-a`} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="currentColor" /></marker>
+      </defs>
+      <g fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M30 210 h150 M40 210 l10 -14 h90 l10 14" stroke-dasharray="5 5" />
+        <rect x="330" y="80" width="280" height="170" />
+      </g>
+      <path d="M440 210 L500 140 L560 210 Z" fill="#2a7b88" fill-opacity=".18" stroke="#2a7b88" stroke-width="2" />
+      <path d="M190 190 C260 150 330 160 430 185" stroke="#9b1c1c" stroke-width="4" fill="none" marker-end={`url(#${uid}-a)`} style="color:#9b1c1c" />
+      <g font-size="15" fill="currentColor" text-anchor="middle">
+        <text x="105" y="240" font-size="18" font-weight="700">{D.trench}</text>
+        <text x="105" y="262" font-size="13">{D.trench_note}</text>
+        <text x="300" y="140" font-size="13">{D.carried}</text>
+        <text x="470" y="105" font-size="18" font-weight="700">{D.mosque}</text>
+        <text x="500" y="232" font-size="15" font-weight="700">{D.tent}</text>
+        <text x="470" y="275" font-size="13">{D.tent_note}</text>
+        <text x="320" y="40" font-size="14">{D.near}</text>
+      </g>
+    </svg>
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">{title}</figcaption>
+  </figure>
+)}
+
+{owner && m && (
+  <figure style="margin:0">
+    <div role="img" aria-label={`${title}. ${alt}`} class="ui" style="display:grid;grid-template-columns:1fr auto 1.2fr auto 1fr;gap:10px;align-items:center;max-width:760px">
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <strong style="font-size:.85rem">{D.before}</strong>
+        {before.length ? before.map((b) => <span style="border:1px dashed currentColor;border-radius:6px;padding:6px 8px;font-size:.85rem">{b}</span>) : <span class="muted" style="font-size:.85rem">{D.none}</span>}
+      </div>
+      <span aria-hidden="true" style="font-size:1.4rem">→</span>
+      <div style="border:2px solid #2a7b88;background:rgba(42,123,136,.12);border-radius:10px;padding:12px;text-align:center">
+        <strong style="display:block;font-size:1.05rem">{labelOf(owner, lang)}</strong>
+        {makerNames.length > 0 && <span style="display:block;font-size:.85rem;margin-top:4px">{makerNames.join(" · ")}</span>}
+        {hijri && <span class="muted" style="display:block;font-size:.8rem;margin-top:2px">{hijri}{D.ah}</span>}
+      </div>
+      <span aria-hidden="true" style="font-size:1.4rem">→</span>
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <strong style="font-size:.85rem">{D.after}</strong>
+        {after.length ? after.map((b) => <span style="border:1px solid currentColor;border-radius:6px;padding:6px 8px;font-size:.85rem">{b}</span>) : <span class="muted" style="font-size:.85rem">{D.none}</span>}
+      </div>
+    </div>
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">{title}</figcaption>
+  </figure>
+)}

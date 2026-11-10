@@ -1,0 +1,30 @@
+id: person/azhari-muhammad-ibn-ahmad
+class: person
+label: { ar: "الأزهري محمد بن أحمد", en: "Al-Azhari, Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن أحمد بن الأزهر بن طلحة الأزهري الهروي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+died: { edtf: "0981", hijri: "0370", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "لغوي وأديب شافعي المذهب من هراة، عُني بالفقه أولا ثم غلبت عليه اللغة فاشتهر بها، ومن أشهر كتبه «تهذيب اللغة»."
+  en: "A lexicographer and man of letters from Herat, a Shafi'i. He studied jurisprudence first, then became known for the Arabic language; his best-known work is Tahdhib al-Lugha."
+wings: [people]
+themes: [linguistics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص531"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+relations:
+  - { type: lived_in, target: place/herat, note: "Place association from the person's nisba/name (الهروي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

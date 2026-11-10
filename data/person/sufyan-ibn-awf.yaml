@@ -1,0 +1,28 @@
+id: person/sufyan-ibn-awf
+class: person
+label:
+  ar: "سفيان بن عوف"
+  en: "Sufyan ibn Awf"
+names:
+  - { kind: full, lang: ar, value: "سفيان بن عوف" }
+roles: [companion]
+summary:
+  ar: "بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك لا تُذكر هنا تواريخ ولا أحداث."
+  en: "Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked on the page, so no dates or events are given."
+wings: [people]
+sources: [source/isaba-matba-al-saada-1328]
+died: { edtf: "672", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
+  - { type: lived_in, target: place/al-sham, confidence: low, note: "Sufyan ibn Awf, commander in Muawiya's Syrian service (al-Isaba).", sources: [source/isaba-matba-al-saada-1328] }
+external_ids:
+  wikidata: Q12216211
+provenance:
+  layer: own-research
+  source: "Wikidata Q12216211 (companion claim Q188711); book source: al-Isaba, Matba'at al-Sa'ada 1328 AH, entry not yet read on the page"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: wikidata-S7-early-persons
+status:
+  review: draft
+  completeness: 1

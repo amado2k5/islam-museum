@@ -1,0 +1,32 @@
+id: person/ahmad-al-maghribi-al-rashidi
+class: person
+label:
+  ar: "المغربي الرّشيدي"
+  en: "Al-Maghribi al-Rashidi"
+names:
+  - { value: "المغربي الرّشيدي", kind: full }
+died: { hijri: "1096", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Death 1096 AH as given in the appendix; birth not given." }
+summary:
+  ar: "أحمد بن عبد الرزاق بن محمد بن أحمد، المشهور بالمغربي الرشيدي، مغربي الأصل من أهل رشيد بمصر، ولد بها وتوفي فيها. حفظ القرآن ببلده، ثم قدم القاهرة وأخذ عن شيوخ كثيرين بالأزهر، ولازم الشبراملسي، ورجع إلى بلده فصار شيخ الشافعية بها. من مؤلفاته حاشية على شرح المنهاج للرملي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1644} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1645}"
+  en: "Ahmad ibn Abd al-Razzaq ibn Muhammad ibn Ahmad, known as al-Maghribi al-Rashidi, of Moroccan origin from Rashid in Egypt, where he was born and died. He memorised the Qur'an in his town, studied in Cairo at al-Azhar with many teachers, and was a close pupil of al-Shabramallisi. Back home he became the shaykh of the Shafi'is there. His works include a gloss on al-Ramli's commentary on al-Minhaj. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1644} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1645}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1644 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: lived_in, target: place/cairo, note: "From text: studied in Cairo", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

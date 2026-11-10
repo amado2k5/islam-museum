@@ -1,0 +1,17 @@
+id: passage/muwatta-5-883
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "883"
+label: { ar: "الموطأ 883 — مالك في المرأة المعتكفة: إذا حاضت في اعتكافها ترجع إلى بيتها، فإذا طهرت رجعت إلى المسجد أي ساعة طهرت ولا تؤخر، ثم تبني على ما مضى", en: "Muwatta 883" }
+summary:
+  ar: "قول لمالك في المرأة: إذا اعتكفت ثم حاضت في اعتكافها، فإنها ترجع إلى بيتها، فإذا طهرت رجعت إلى المسجد أي ساعة طهرت ولا تؤخر ذلك، ثم تبني على ما مضى من اعتكافها. ويقول مالك: ومثل ذلك المرأة يجب عليها صيام شهرين متتابعين فتحيض ثم تطهر، فتبني على ما مضى من صيامها ولا تؤخر ذلك. ويذكر المحقق أنه رواه عن مالك أبو مصعب (879) و(880). {cite:muwatta-maruf-1997 p.425} {cite:muwatta-maruf-1997 p.426}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hayd, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 883 at PDF p. 425; باب المتطوع في الاعتكاف والذي عليه الاعتكاف", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b02" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 425; matn excerpt at most 40 words" }

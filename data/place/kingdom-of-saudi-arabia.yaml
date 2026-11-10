@@ -1,0 +1,21 @@
+id: place/kingdom-of-saudi-arabia
+class: place
+kind: site
+label: { ar: "المملكة العربية", en: "Kingdom of Saudi Arabia" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q96246887)."
+wings: [place]
+regions: [global]
+coordinates: [24.7136, 46.6753]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q96246887" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q96246887 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

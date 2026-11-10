@@ -1,0 +1,30 @@
+id: person/sulayman-ibn-ubayd
+class: person
+label:
+  ar: "سليمان بن عبيد"
+  en: "Sulayman ibn 'Ubayd"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسليمان بن عبيد؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sulayman ibn 'Ubayd; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
+relations:
+  - { type: born_in, target: place/ral, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97291223)" }
+  - { type: died_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q182640)" }
+  - { type: buried_in, target: place/al-adl-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4703442)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q126934627
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

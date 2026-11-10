@@ -1,0 +1,28 @@
+id: person/muhanna-ibn-sultan-al-yaarubi
+class: person
+label:
+  ar: "مهنا بن سلطان اليعربي"
+  en: "Muhanna ibn Sultan, Ya'rubi"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لمهنا بن سلطان اليعربي، سلطان عمان اليعربي في أوائل القرن الثامن عشر؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhanna ibn Sultan al-Ya'rubi, the Ya'rubi sultan of Oman in the early eighteenth century, d. 1720; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q16859427
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0034
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; J.C. Wilkinson" }
+relations:
+  - { type: lived_in, target: place/oman, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }

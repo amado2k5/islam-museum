@@ -1,0 +1,27 @@
+id: event/thaalibi-ghazna-residence-1017
+class: event
+kind: other
+label:
+  ar: "إقامة الثعالبي بغزنة دار الغزنويين، نحو ٤٠٨هـ"
+  en: "Al-Tha'alibi resides at Ghazna, the Ghaznavid capital, c. 408/1017"
+  ur: "غزنویوں کے دارالحکومت غزنہ میں ثعالبی کا قیام، تقریباً 408ھ/1017ء"
+summary:
+  ar: "انتقل الثعالبي من خوارزم إلى غزنة عاصمة الدولة الغزنوية الحديثة فأقام بها مدة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}؛ وفي هذه البيئة كانت نهضة الفارسية الحديثة تجري حوله في بلاط محمود، وإن خلت مصنفاته عن ذكرها إذ بقي نصيراً متشدداً للعربية وأدبها {cite:encyclopaedia-of-islam-2 vol. 10 p. 452}."
+  en: "From Khwarazm al-Tha'alibi moved on to Ghazna, capital of the recently established Ghaznavid dynasty, and resided there for some time {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}; the flowering of New Persian was unfolding around him at Mahmud's court, yet his works stay silent about it, for he remained a strident champion of Arabic and its literature {cite:encyclopaedia-of-islam-2 vol. 10 p. 452}."
+  ur: "خوارزم سے ثعالبی غزنہ منتقل ہوئے، جو غزنوی سلطنت کا نیا دارالحکومت تھا، اور کچھ عرصہ وہاں رہے {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}؛ محمود کے دربار میں نو فارسی ادب کا عروج ان کے گرد جاری تھا مگر ان کی تصانیف اس پر خاموش ہیں، کیونکہ وہ عربی اور اس کے ادب کے پرجوش حامی رہے {cite:encyclopaedia-of-islam-2 vol. 10 p. 452}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1017~", hijri: "0408~", calendar: julian, precision: year, status: historical, derived: true, note: "بعد بلاط خوارزم وقبل العودة إلى نيسابور؛ تقريبية مشتقة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/ghazna, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "المقيم", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

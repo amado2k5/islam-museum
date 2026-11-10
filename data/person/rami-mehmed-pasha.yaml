@@ -1,0 +1,36 @@
+id: person/rami-mehmed-pasha
+class: person
+label:
+  ar: "رامي محمد باشا"
+  en: "Rami Mehmed Pasha"
+roles: [ruler, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لرامي محمد باشا، الصدر الأعظم العثماني ومفاوض كارلوفيتسا سنة ١٦٩٩م، توفي سنة ١٧٠٦م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Rami Mehmed Pasha, the Ottoman grand vizier and Karlowitz negotiator of 1699, d. 1706; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1655", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1707", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: died_in, target: place/rhodes, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q43048)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3775352
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0029
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "The SADRAZAM entry names him among the grand viziers who came from the scribal service after the Treaty of Karlowitz."
+    sources: [source/tdv-sadrazam]

@@ -1,0 +1,23 @@
+id: person/abu-al-anbas-al-saymari
+class: person
+label: { ar: "أبو العنبس الصيمري", en: "Abu'l-'Anbas al-Saymari" }
+summary:
+  ar: "مضحك المتوكل، عارض قصيدة البحتري عن أي ثغر تبتسم بهجاء فاضح من أي سلح تلتقم حتى ضحك المتوكل واستلقى على قفاه وأمر لكل واحد منهما وللمبرد البصري بعشرة آلاف درهم، ومن خبره حماره الذي مات فأنشده في المنام هام قلبي بأتان عند باب الصيدلاني فأمر المتوكل المغنين أن يغنوا ذلك اليوم بشعر الحمار {cite:muruj-al-dhahab p. 478-480}."
+  en: "Al-Mutawakkil's jester whose obscene counter-ode to al-Buhturi and whose dead donkey's love-elegy set the whole court singing {cite:muruj-al-dhahab p. 478-480}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "816", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+died: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

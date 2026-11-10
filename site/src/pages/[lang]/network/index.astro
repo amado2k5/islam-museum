@@ -1,0 +1,39 @@
+---
+// Network: the museum's affiliates and collaborators — scholars, institutions and communities in exchange with the museum, each listed with thanks. Plain prose from i18n, no scripts.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const N = T.network;
+const entries: { id: string; name: string; desc: string; href: string }[] = [
+  { id: "evolutionofsharia", name: N.e1_name, desc: N.e1_desc, href: "https://evolutionofsharia.com" },
+];
+---
+<BaseLayout lang={lang} title={N.title} description={N.lede} path={`/${lang}/network/`}>
+  <PageHeader title={N.title} lede={N.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: N.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <p>{N.intro}</p>
+      {entries.map((e) => (
+        <section aria-labelledby={`${e.id}-h`} class="p-sec">
+          <h2 id={`${e.id}-h`}>{e.name}</h2>
+          <p>{e.desc}</p>
+          <p class="ui p-links">
+            <a href={e.href} rel="noopener">{N.visit}</a>
+          </p>
+        </section>
+      ))}
+      <p>{N.closing}</p>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .p-sec { margin-block: 2rem 0; }
+  .p-sec h2 { margin-top: 0; }
+  .p-links { margin-top: 0.5rem; }
+</style>

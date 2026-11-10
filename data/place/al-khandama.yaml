@@ -10,7 +10,10 @@ themes: [battles]
 regions: [arabia]
 relations:
   - { type: located_in, target: place/mecca }
-coordinate_note: "Mountain ridge overlooking Mecca."
+coordinates: [21.4019, 39.8397]
+coordinate_precision: site
+coordinate_note: "ويكي بيانات Q30340355 (جبل الخندمة، مكة المكرمة)."
+external_ids: { wikidata: "Q30340355" }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 49–50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 49–50" }
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 49–50; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }

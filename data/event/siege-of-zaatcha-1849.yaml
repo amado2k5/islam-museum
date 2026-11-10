@@ -1,0 +1,23 @@
+id: event/siege-of-zaatcha-1849
+class: event
+kind: siege
+label: { ar: "حصار الزعاتشة", en: "Siege of Zaatcha" }
+summary:
+  ar: "بطاقة أولية لحصار الزعاتشة سنة ١٨٤٩م، أخذ الفرنسيين واحة بوزيان بعد مقاومة أربعة أشهر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Zaatcha in 1849, the French capture of Bou Ziane's oasis after four months of resistance; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1849-07-16", precision: year, status: tradition, derived: true }
+  end: { edtf: "1849-11-26", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2890426
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

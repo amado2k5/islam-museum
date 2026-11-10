@@ -1,0 +1,117 @@
+---
+id: person/umar-ibn-abd-al-aziz
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+[[person/umar-ibn-abd-al-aziz|عمر بن عبد العزيز]] بويع بالخلافة بعد وفاة سليمان بن عبد الملك {cite:tabari-khayyat-part2 مسح 72}، {cite:tabari-khayyat-part2 مسح 73}، وعالج في ولايته أمر الولاة والخوارج، وكان بينه وبين [[person/yazid-ibn-al-muhallab|يزيد بن المهلب]] خلاف {cite:tabari-khayyat-part2 مسح 78}.
+
+## البيعة
+يذكر الطبري أن عمر، حين تفرق الناس عن الكتاب بعد وفاة سليمان، خشي أن يكون قد أُسند إليه شيء من الأمر، فسأل رجاء بن حيوة {cite:tabari-khayyat-part2 مسح 70}. وصلى عليه عمر بعد وفاته، بحسب الرواية {cite:tabari-khayyat-part2 مسح 72}. ولما بلغ عبد العزيز بن الوليد بيعة الناس له، قال عمر: لو بايعت وقمت بالأمر ما نازعتك {cite:tabari-khayyat-part2 مسح 73}.
+
+## الولاة والعمال
+وجّه عمر ابن حاتم بن النعمان الباهلي ضد الترك الذين أغاروا على أذربيجان، فقتلوهم {cite:tabari-khayyat-part2 مسح 74}. وكان عامله على المدينة أبو بكر محمد بن عمرو بن حزم، بحسب الحولية {cite:tabari-khayyat-part2 مسح 74}. وبعث بعهد عبد الرحمن بن نعيم على حرب خراسان وسجستان، مع عبد الله بن صخر القرشي {cite:tabari-khayyat-part2 مسح 85}.
+
+## الخوارج
+كتب عمر إلى عبد الحميد بن عبد الرحمن، عامله على العراق، في خروج الخوارج، يأمره أن يدعوهم إلى العمل بكتاب الله وسنة {cite:tabari-khayyat-part2 مسح 75}.
+
+## يزيد بن المهلب
+كان عمر يبغض يزيد بن المهلب وأهل بيته، ويقول إنهم جبابرة، بحسب رواية هشام عن أبي مخنف {cite:tabari-khayyat-part2 مسح 78}. وقال له إنه لا يجد إلا أن يأخذ منه جميع المال {cite:tabari-khayyat-part2 مسح 79}. ولما أراد نفيه كُلِّم فيه {cite:tabari-khayyat-part2 مسح 87}. وكتب إليه حين ولي الخلافة يقول إن سليمان كان عبداً من عبيد الله، فقال يزيد إن هذا ليس كلام من مضى من أهل بيته {cite:tabari-khayyat-part2 مسح 91}.
+
+## ملاحظات للباحثين
+- أكثر الأخبار "بحسب الرواية"، ينقلها الطبري عن رواة معينين، وأبرزهم أبو مخنف؛ لم تُقابل بعد بمصادر أخرى.
+- الإحالات برقم صفحة المسح، والسنوات لم تُذكر لأن قراءتها في الـOCR غير موثوقة، إلا ما ورد عن الحولية.
+- عبارة الصفحة 91 تُنقل بالمعنى، وينبغي مراجعتها على الصورة قبل الاعتماد.
+- استُبعدت من المادة الأخبار التي فيها تشويش في الـOCR، وتُضاف بعد مراجعة صور الصفحات.
+
+## للبراعم
+خليفة عادل وزاهد، أحب الناس ونشر العدل والرحمة، وعاش حياة بسيطة ليعين الفقراء والمحتاجين.
+
+## للمستكشفين
+عمر بن عبد العزيز هو الخليفة الأموي الزاهد الذي عُد خامس الخلفاء الراشدين لعدله وورعه. تولى الخلافة فبدأ بنفسه وأهل بيته فرد المظالم والأموال إلى بيت المال، وأوقف الجزية عمن أسلم، وعيّن ولاة صالحين، فعم الرخاء والعدل في البلاد حتى لم يجد المنفقون من يأخذ الصدقات.
+
+## للدارسين
+أبو حفص عمر بن عبد العزيز بن مروان بن الحكم الأموي القرشي ⁦(61–101هـ / 681–720م)⁩، ثامن خلفاء بني أمية، والمُجمع على عدله حتى لُقب بخامس الخلفاء الراشدين والمجدد الأول في الإسلام. نشأ في المدينة المنورة وتفقه على علمائها وصحب كبار التابعين. تولى الخلافة سنة 99هـ بعهد من سليمان بن عبد الملك، فنهج مسلكاً إصلاحياً شاملاً؛ رد المظالم وأموال بني أمية غير المشروعة إلى بيت المال، وعزل الولاة الظلمة، وأسقط الجزية عمن أسلم من أهل الذمة، وأمر بالتدوين الرسمي الأول للحديث النبوي الشريف على يد ابن شهاب الزهري، محققاً عدالة اجتماعية ورخاءً عاماً استثنائياً في مدة حكمه الوجيزة.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 09)⁩
+
+يروي الشيخ أن بني أمية دسّوا السم لعمر بن عبد العزيز بعد أن ضاقوا بسيرته معهم، وأنه لما علم أن النهاية قريبة قال لزوجته فاطمة أن تخرج من الغرفة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:18:30}.
+
+ويذكر أنه قال لها إنه يرى في الغرفة وجوها ليست وجوه إنس ولا جن، لا يأكلون ولا يشربون ولا يحبون إلا الريح الطيب وذكر الله، فخرجت فاطمة لكنها لم تشأ أن تفوت تلك اللحظات التاريخية (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:19:00}.
+
+ثم يحكي أن راعيا في الصحراء، وهو لا يدري بوفاة عمر، قال إن الذئاب هاجمت الغنم، ويستنتج الشيخ أن وجود الصالحين تأمين للأرض (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:19:30}.
+
+ويروي أن فاطمة وضعت أذنها على الباب فسمعته يرحّب بآدم أبي البشر ثم بنوح ثم بإبراهيم ثم بموسى واحدا بعد واحد (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:21:00}.
+
+ويضيف أنه رحّب بعيسى وبالنبي، ثم رحّب بملك الموت زائرا أتى على موعد، ثم نطق بالشهادتين وفاضت روحه (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:21:30}.
+
+ويحكي أن عمر بن عبد العزيز وهو داخل المسجد داس على رِجل رجل، فقام الرجل مذعورا وأمسك بتلابيب أمير المؤمنين (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:32:00}.
+
+ويقول إن الرجل سأله: أأنت أعمى؟ فأجاب عمر: لا، فأراد من في حاشيته أن يؤدبوا الرجل، فقال عمر إنه سأله سؤالا فأجابه، ثم ينتقل الشيخ إلى الحسن البصري ويقول إن شهرته طبّقت الآفاق (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:32:30}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد
+
+يروي الشيخ حكاية غلام دخل على عمر بن عبد العزيز، فقال له الخليفة إنه ينبغي أن يترك الكلام لمن هو أكبر منه، فردّ الغلام بأنه لو كان الأمر بالسن لكان في المجلس من هو أكبر من الخليفة وأحق بإمارة المؤمنين ⁦(needs_source: حكاية يرويها الشيخ دون مصدر في الدرس)⁩. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:04:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 01:05:00}
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يذكر الشيخ عمر بن عبد العزيز في عدة مواضع. يروي أنه حين ولي مصر نائبًا عن أبيه أمّن لأهلها دينهم ودنياهم {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:43:30}. ويستشهد برسالته إلى واليه على مصر: «أصلح لهم آخرتهم تصلح لهم دنياهم» {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:25:30}.
+
+يذكر الشيخ مجلس عمر بن عبد العزيز، وكان له في الأسبوع خمسة مجالس، منها مجلس للأدب في الشعر والأمثال، وأنه بكى حين ذُكر أمامه شعر من معلقة طرفة {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:31:00}. ويذكر أنه كان يستمع إلى من ينتقون أطيب الكلام، وكان يجول بالليل بين الناس {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep06 00:32:30}.
+
+يروي الشيخ أن عمر بن عبد العزيز كان يبعث من يجمع الزكاة في إفريقية، فيعود المبعوثون ليقولوا إنهم لم يجدوا فقيرًا يأخذها {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:09:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep11 00:10:00}. ويذكر أنه كان يرد الهدايا التي يقدمها له الموظفون إلى الحكومة، ولا يأخذها لنفسه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:56:00}.
+
+## عماله عند خليفة بن خياط
+يختم [[person/khalifa-ibn-khayyat|خليفة بن خياط]] أخبار هذا العهد بتسمية العمال وأصحاب المناصب. ونقلها هنا على ترتيبه، والأسطر التي استدركها المحقق من مصادر متأخرة منبّه عليها. {cite:tarikh-khalifa-umari-1985 p. 322–324}
+
+- **البصرة:** [[person/adi-ibn-artat|عدي بن أرطاة الفزاري]] ⁦(حتى مات عمر)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
+- **الكوفة:** [[person/abd-al-hamid-ibn-abd-al-rahman-ibn-zayd-ibn-al-khattab|عبد الحميد بن عبد الرحمن بن زيد بن الخطاب]] ⁦(حتى مات عمر)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
+- **خراسان:** [[person/al-jarrah-ibn-abdallah-al-hakami|الجراح بن عبد الله الحكمي]]، ثم عبد الرحمن بن نعيم الغامدي ⁦(استخلفه الجراح)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
+- **سجستان:** [[person/al-jarrah-ibn-abdallah-al-hakami|الجراح بن عبد الله]]، ثم عبد الرحمن بن نعيم ⁦(سنة مائة)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
+- **السند:** عبد الملك بن مسمع بن مالك بن مسمع ⁦(ولاه عدي بن أرطاة ثم عزله)⁩، ثم [[person/amr-ibn-muslim|عمرو بن مسلم الباهلي]] ⁦(حتى مات عمر)⁩ {cite:tarikh-khalifa-umari-1985 p. 322}
+- **البحرين:** صلت بن حريث ⁦(ثم عزله عدي)⁩، ثم عبد الكريم بن المغيرة (أظنه باهلياً ⁦(قول خليفة)⁩) {cite:tarikh-khalifa-umari-1985 p. 322}
+- **عمان:** سعيد بن مسعود المازني ⁦(ولاه عدي)⁩، ثم عمرو بن عبد الله بن أبي طلحة الأنصاري {cite:tarikh-khalifa-umari-1985 p. 323}
+- **اليمامة:** زرارة بن عبد الرحمن {cite:tarikh-khalifa-umari-1985 p. 323}
+- **مكة:** عبد العزيز بن عبد الله بن خالد بن أسيد ⁦(أقره حتى مات)⁩ {cite:tarikh-khalifa-umari-1985 p. 323}
+- **المدينة:** [[person/abu-bakr-ibn-hazm|أبو بكر بن محمد بن عمرو بن حزم]] ⁦(أقره حتى مات)⁩، ثم محمد بن قيس بن مخرمة ⁦(زعم عثمان بن عثمان أنه تولاها)⁩ {cite:tarikh-khalifa-umari-1985 p. 323}
+- **اليمن:** عروة بن محمد ⁦(أقره حتى مات)⁩ {cite:tarikh-khalifa-umari-1985 p. 323}
+- **أرمينية:** [[person/abd-al-aziz-ibn-hatim-al-bahili|عبد العزيز بن حاتم بن النعمان]]، ثم عدي بن عدي {cite:tarikh-khalifa-umari-1985 p. 323}
+- **الجزيرة:** سوادة أبو الصباح بن سوادة الكندي ⁦(استخلفه عدي بن عدي)⁩ {cite:tarikh-khalifa-umari-1985 p. 323}
+- **الأردن:** عبادة بن نسي الكندي {cite:tarikh-khalifa-umari-1985 p. 323}
+- **فلسطين:** النضر بن يريم بن أبرهة بن الصباح {cite:tarikh-khalifa-umari-1985 p. 323}
+- **حمص:** يزيد بن حصين السكوني {cite:tarikh-khalifa-umari-1985 p. 323}
+- **قنسرين:** الوليد بن هشام بن الوليد بن عقبة {cite:tarikh-khalifa-umari-1985 p. 323}
+- **البلقاء:** الحارث بن عمرو الطائي {cite:tarikh-khalifa-umari-1985 p. 323}
+- **مصر:** أيوب بن شرحبيل بن أبرهة بن الصباح {cite:tarikh-khalifa-umari-1985 p. 323}
+- **أفريقية:** عبد الله بن مهاجر الأنصاري مولى لهم ⁦(بعد عزل محمد بن يزيد)⁩، ثم [[person/ismail-ibn-ubayd-allah|إسماعيل بن عبيد الله مولى بني مخزوم]] ⁦(قدمها سنة مائة حتى مات عمر)⁩ {cite:tarikh-khalifa-umari-1985 p. 323}
+- **قضاء البصرة:** [[person/iyas-ibn-muawiya|إياس بن معاوية]] (ولاه عدي بعد مشاورة؛ بين (( )) في الطبعة: أثبته المحقق من نقول المتأخرين عن خليفة)، ثم [[person/al-hasan-al-basri|الحسن بن أبي الحسن]] ⁦(بعد خروج إياس)⁩ {cite:tarikh-khalifa-umari-1985 p. 324}
+- **قضاء الكوفة:** القاسم بن عبد الرحمن بن عبد الله بن مسعود {cite:tarikh-khalifa-umari-1985 p. 324}
+- **قضاء المدينة:** أبو طوالة عبد الله بن عبد الرحمن بن معمر بن حزم ⁦(حتى مات عمر)⁩ {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الصائفة:** الوليد بن هشام ⁦(فرقها بينه وبين عمرو بن قيس)⁩، ثم عمرو بن قيس السكوني {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الشرط:** يزيد بن بشر بن يزيد بن بشر الكلبي {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الكاتب:** ليث بن أبي رقية مولى أم الحكم بنت أبي سفيان {cite:tarikh-khalifa-umari-1985 p. 324}
+- **الخراج والجند:** صالح بن جبير الغداني {cite:tarikh-khalifa-umari-1985 p. 324}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن عمر بن عبد العزيز كان له بضع بنات، فلما حضرته الوفاة سُئل: أتوصي لبناتك بشيء؟ فقال إنه لا يخشى عليهن الفقر وقد علّمهن [[passage/quran-56-1|سورة الواقعة]]، ويقول إنه ما إن مات حتى تزوجت كل بنت من بناته أميرًا من الأمراء ⁦(needs_source: الخبر كما رواه الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep16 00:04:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن رجلًا في طريقه إلى دمشق رأى ثلاثين كلبًا مع قطيع غنم فاستكثرها، فقال صاحب القطيع إنها ذئاب ترعى الغنم منذ تولى عمر بن عبد العزيز، فلما بلغ ذلك عمر قال: نحن قوم أصلحنا ما بيننا وبين ربنا فأصلح الله بين الذئب والغنم؛ ويستخلص للزوجين أن من أصلح ما بينه وبين الله أصلح الله ما بينه وبين زوجه ⁦(needs_source: الخبر كما رواه الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:10:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep25 00:10:30}
+
+## في برنامج «ماذا قدم المسلمون للعالم» لراغب السرجاني
+يذكر [[person/ragheb-al-sergani|راغب السرجاني]] في الحلقة الرابعة عشرة أن عمر بن عبد العزيز كان يكتب إلى ولاته في أطراف الدولة ألا يركض أحدهم فرسه إلا لحاجة، وألا يضرب أحد دابته بعصا في طرفها حديدة، ويرى أن الرفق بالحيوان صار بذلك قضية دولة. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:09:00} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:09:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:10:00} ويروي أنه كتب إلى مصر حين بلغه أنهم يحمّلون الجمال ألف رطل، يتوعد من يحمّلها أكثر من ستمئة رطل بالعقاب. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:10:30} ويروي أنه لما كثر المال في الدولة زوّج العزّاب وقضى الديون حتى لم يبق من يستحق الزكاة، ثم اشترى قمحًا ووضعه على رؤوس الجبال حتى لا تجوع الطيور في بلاد المسلمين. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:22:30} {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep14 00:23:00} وفي الحلقة الحادية عشرة يذكر أنه أعطى الناس ليتزوجوا ويقتنوا الدواب، مثالًا على ما يسميه حق الكفاية. {cite:assabile-ragheb-el-sergani what-did-muslims-bring-to-the-world/ep11 00:25:00} وهذه رواياته دون تسمية مصادرها (needs_source).
+
+## في برنامج طارق السويدان «قصة وفكرة»
+يخصص [[person/tariq-al-suwaidan|طارق السويدان]] الحلقة التاسعة عشرة من برنامجه [[work/kissa-wa-fikra-program|«قصة وفكرة»]] لعمر بن عبد العزيز، تحت فكرة الإصلاح من داخل منظومة الحكم والتدرج في التغيير، ويفتتح به الحلقة الرابعة والعشرين عن المال العام أيضًا. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:01:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep24 00:00:30} وما يلي روايته.
+
+يفتتح بجواب عمر لابنه حين حثّه على إمضاء العدل مهما كلّف: إنه يعالج أمرًا شبّ عليه الصغير وشاب عليه الكبير، فيؤخر الأمر من العدل حتى يقرنه بشيء من الدنيا فيقبله الناس. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:01:00} ويسمّيه الخليفة الراشد الخامس، ويذكر أنه وُلد سنة 61 هـ في المدينة، ونشأ بين بقية الصحابة، وكان التابعون يأتون ليعلّموه فيتعلمون منه. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:01:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:02:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:02:30} وزوّجه [[person/abd-al-malik-ibn-marwan|عبد الملك بن مروان]] ابنته [[person/fatima-bint-abd-al-malik|فاطمة]]. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:02:30} وولّاه [[person/al-walid-ibn-abd-al-malik|الوليد]] المدينة وهو ابن خمس وعشرين على شروطه أن يحكم بالعدل ولا يأخذ إلا الحق، فجمع عشرة من فقهاء المدينة مجلسًا للشورى وطلب منهم أن يرفعوا إليه كل عامل ظالم، وجدّد المسجد النبوي ووسّعه بأمر الوليد. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:04:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:04:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:05:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:05:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:06:00} وابتعد عن عداء بني أمية للعلويين وأكرم آل البيت. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:06:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:07:00} وكان يكره [[person/al-hajjaj-ibn-yusuf|الحجاج]] وطلب ألّا يمر بالمدينة، فتسببت وشاية الحجاج في عزله سنة 93 هـ. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:08:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:09:00}
+
+ولما سأله الوليد هل يُقتل من يسب الخلفاء، سأل عمر هل قتل الرجل أحدًا، فلما قيل لا قال يؤدَّب ولا يُقتل. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:09:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:10:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:10:30} ورفض أن يخلع سليمان من ولاية العهد حين أراد الوليد البيعة لابنه، متمسكًا بالبيعة السابقة. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:11:30} ولما تولى [[person/sulayman-ibn-abd-al-malik|سليمان]] الخلافة سنة 96 هـ صار عمر مستشاره، فعُزل عمال الحجاج وأُفرغت السجون. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:12:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:12:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:13:00} ولما أعجبت سليمانَ كثرةُ الحجيج قال له عمر إنهم رعيتك اليوم وخصماؤك عند الله غدًا. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:14:00}
+
+ولما احتُضر سليمان استشار [[person/raja-ibn-haywa|رجاء بن حيوة]]، فأشار عليه بألّا يولي ابنًا لم يبلغ ولا داود الغائب، فكتب سليمان اسم عمر في كتاب مختوم وبعده يزيد بن عبد الملك. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:16:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:16:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:17:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:17:30} وبايع بنو أمية لمن في الكتاب، وألحّ عمر على رجاء أن يخبره ليستعفي فأبى. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:18:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:18:30} ولما قُرئ الكتاب في مسجد دابق لم يقدر عمر على القيام فحُمل إلى المنبر. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:19:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:20:30} وقال في خطبته الأولى إنه اختير بغير رأيه ولا مشورة من المسلمين، وخلع بيعتهم ليختاروا بحرية، فصاحوا إنهم اختاروه. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:21:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:21:30}
+
+وعُرف عهده بالعدل والرخاء حتى كان الرجل يحمل زكاته فلا يجد فقيرًا يأخذها. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:22:30} وردّ إلى بيت المال ما أُعطي له ولأهله من أرض وهبات، وألزم بني أمية برد العطايا، وعزل الولاة الظلمة، ورفع الجزية عمّن أسلم، وقال لعامل خاف على الخراج إن محمدًا بُعث هاديًا لا جابيًا. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:23:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:23:30} وأمر بتدوين الحديث وجمعه، وحاور زعماء الخوارج فأجابهم في كل شيء إلا ولاية العهد. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:24:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:24:30} وعزم على إعادة الشورى في الخلافة، لكنه توفي سنة 101 هـ قبل أن يحسم الأمر، ولم يبق في سجونه سجين واحد. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:25:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:26:00} ويذكر السويدان أن الروايات اختلفت في مرضه، وأن منها أنه سُمّ، وفي الرواية التي ينقلها سأل عمر الخادم لم سمّه، فقال بألف دينار وعتقه، فوضع المال في بيت المال وأطلقه. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:26:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:26:30}
+
+وفي الحلقة الرابعة والعشرين يروي أن عمر دعا عند موته بنيه الأحد عشر، ولم يترك إلا بضعة عشر دينارًا اشتُري بخمسة منها قبره، وقال إن الصالح يتولاه الله، والفاسق لا يعينه على فسقه. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep24 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep24 00:01:00} ويروي أن عمر، وهو يأكل العدس والبصل، أجاب عمته حين طلبت زيادة عطائها بأن أحمى درهمًا، وقال إنه يُسأل عن كل درهم يوم القيامة. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep24 00:14:00} ودرس الحلقة التاسعة عشرة: الإصلاح من داخل الحكم خير من الإصلاح من خارجه، والإصلاح من الخارج خير من الثورة، والثورة خير من الاستبداد. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:28:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:29:00}

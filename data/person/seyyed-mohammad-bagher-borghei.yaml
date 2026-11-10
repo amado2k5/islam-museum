@@ -1,0 +1,29 @@
+id: person/seyyed-mohammad-bagher-borghei
+class: person
+label:
+  ar: "سيد محمد باقر البرقعي"
+  en: "Seyyed Mohammad Bagher Borghei"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسيد محمد باقر البرقعي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Seyyed Mohammad Bagher Borghei; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/modern-era]
+born: { edtf: "1928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+died: { edtf: "2014", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+relations:
+  - { type: born_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q25757860
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

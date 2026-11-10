@@ -1,0 +1,30 @@
+id: person/sabit-alauddin-uzicanin
+class: person
+label:
+  ar: "ثابت علاء الدين الأوجيتشاني"
+  en: "Sabit Alaeddin Užičanin"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لثابت علاء الدين الأوجيتشاني، الشاعر والكاتب البوسني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sabit Alaeddin Užičanin, the Bosnian poet and writer; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1726", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/u-ice, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q59473)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: lived_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q12560)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12746860
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

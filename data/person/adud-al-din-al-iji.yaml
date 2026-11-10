@@ -1,0 +1,29 @@
+id: person/adud-al-din-al-iji
+class: person
+label:
+  ar: "عضد الدين الإيجي"
+  en: "Adud al-Din al-Iji"
+roles: [theologian, qadi]
+gender: male
+summary:
+  ar: "عبد الرحمن الإيجي «عضد الدين»، متكلم وأصولي وقاضي شيراز صاحب «المواقف»، مات مسجوناً بكرمان سنة 756هـ ⁦(1355م)⁩."
+  en: "'Adud al-Din al-Iji (d. 756/1355), theologian and qadi of Shiraz, author of al-Mawaqif."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q12227337
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.294)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "1355", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/shiraz, note: "From text: qadi of Shiraz", sources: [source/shadharat-dhahab] }

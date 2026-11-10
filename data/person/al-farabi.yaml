@@ -1,0 +1,30 @@
+id: person/al-farabi
+class: person
+label: { ar: "الفارابي", en: "al-Farabi" }
+summary:
+  ar: "أبو نصر محمد بن محمد بن طرخان التركي الفارابي الحكيم المتوفى سنة ٣٣٩هـ، صاحب آراء أهل المدينة الفاضلة {cite:kashf-zunun-furqan p. 290}."
+  en: "Abu Nasr Muhammad ibn Muhammad ibn Tarkhan al-Farabi, d. AH 339 — 'the Second Teacher' after Aristotle, author of Ara' Ahl al-Madina al-Fadila {cite:kashf-zunun-furqan p. 290}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+born: { edtf: "0878~", precision: year, status: tradition, derived: true, note: "born c. 878 in Turkistan per Britannica", sources: [source/britannica-al-farabi] }
+died: { edtf: "0950~", hijri: "0339", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 339هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 290}." }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: أهل المدينة الفاضلة {cite:kas", sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi], confidence: low }
+  - { type: participated_in, target: event/al-farabi-moves-to-baghdad, role: "الفيلسوف", sources: [source/britannica-al-farabi] }
+  - { type: participated_in, target: event/al-farabi-at-sayf-al-dawla-court, role: "الفيلسوف المقيم", sources: [source/britannica-al-farabi] }
+  - { type: authored, target: work/ara-ahl-al-madina-al-fadila, sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi] }
+provenance:
+  layer: own-research
+  source: "kashf al-zunun; assabile al-mubdioune ep26 lecture (2026-10 transcription)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-14
+sources: [source/kashf-zunun-furqan, source/assabile-tareq-al-suwaidan, source/britannica-al-farabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+external_ids: { wikidata: Q160460 }
+kids:
+  ar: "الفارابي المعلّم الثاني بعد أرسطو، جمع الفلسفة والموسيقى والسياسة في كتب كثيرة."
+  en: "Al-Farabi, called the Second Teacher after Aristotle, wrote many books joining philosophy, music and politics."
+  ur: "فارابی کو ارسطو کے بعد دوسرا استاد کہا جاتا ہے — فلسفہ، موسیقی اور سیاست کو ملا کر کئی کتابیں لکھیں۔"

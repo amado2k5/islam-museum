@@ -1,0 +1,23 @@
+id: work/al-sira-al-nabawiyya-al-sahiha-umari
+class: work
+kind: book
+label: { ar: "السيرة النبوية الصحيحة", en: "al-Sira al-Nabawiyya al-Sahiha (The Authentic Prophetic Biography)", ur: "السیرۃ النبویۃ الصحیحہ" }
+summary:
+  ar: "كتاب الدكتور أكرم ضياء العمري في السيرة النبوية، عنوانه الفرعي «محاولة لتطبيق قواعد المحدثين في نقد روايات السيرة النبوية»: يقدّم الروايات الصحيحة ثم الحسنة ثم ما يعتضد من الضعيف، ويتشدد فيما يتعلق بالعقيدة والشريعة ويتساهل في أخبار العمران ووصف المعارك، ويعتمد على كتب الحديث إلى جانب كتب السيرة."
+  en: "Dr Akram Diya' al-Umari's biography of the Prophet, subtitled 'an attempt to apply the hadith scholars' rules to the criticism of the sira reports': it gives sound reports first, then good ones, then weak ones that are corroborated; it is strict where belief and law are concerned and lenient for reports on building and battle description; and it draws on the hadith collections alongside the sira books."
+language: language/arabic
+authors: [person/akram-diya-al-umari]
+genre: [sira]
+made: { by_muslims: true, basis: documented, sources: [source/sahih-sira-umari-ulum-hikam-1994] }
+editions: [source/sahih-sira-umari-ulum-hikam-1994]
+structure: "مقدمة: منهج كتابة تاريخ صدر الإسلام، ملامح التصور الإسلامي للتفسير التاريخي، ضرورة المرونة في تطبيق قواعد المحدثين، مصادر السيرة؛ الفصل الأول: الرسول في مكة؛ الثاني: الرسول في المدينة (خصائص المجتمع المدني وتنظيماته الأولى وإجلاء اليهود، ودستور المدينة)؛ الثالث: الجهاد ضد المشركين من بدر إلى تبوك وحجة الوداع والوفاة؛ الرابع: الرسالة والرسول (فهرس الموضوعات ص689–692)."
+wings: [words, time]
+themes: [prophets, history-writing-and-social-thought]
+periods: [period/contemporary-era]
+relations:
+  - { type: about, target: person/muhammad, sources: [source/sahih-sira-umari-ulum-hikam-1994] }
+  - { type: relies_on, target: work/sahih-al-bukhari, sources: [source/sahih-sira-umari-ulum-hikam-1994] }
+  - { type: relies_on, target: work/sahih-muslim, sources: [source/sahih-sira-umari-ulum-hikam-1994] }
+provenance: { layer: own-research, source: "source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 1–5, 11–14, 40–57, 689–692", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/sahih-sira-umari-ulum-hikam-1994]
+status: { review: published, completeness: 3 }

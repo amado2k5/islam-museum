@@ -1,0 +1,73 @@
+id: invention/abu-hanifa-brick-stack-reckoning
+class: invention
+label: { ar: "تقدير رصّات الآجر بالقياس في بناء بغداد", en: "Measurement-based brick-stack reckoning in Baghdad works", ur: "بغداد کی تعمیر میں پیمائشی اینٹ-ڈھیر اندازہ" }
+names:
+  - { kind: alternate, lang: ar, value: "طريقة عدّ الآجر بالتقدير في إشراف أبي حنيفة" }
+  - { kind: alternate, lang: en, value: "Reported Abu Hanifa brick-count estimation method" }
+summary:
+  ar: "تحسين عملي في إدارة مواد البناء: تقدير عدد الآجر بالقياس في رصّات كبيرة، كما يورده لسترنج عن أعمال بغداد، لا اختراع العدّ أو الهندسة الحجمية نفسها {cite:lestrange-baghdad-1900 p.17}."
+  en: "Practical construction-materials improvement: estimating brick quantities by measured stacks in reports on Baghdad works,not invention of counting or volumetric mathematics itself {cite:lestrange-baghdad-1900 p.17}."
+  ur: "تعمیراتی مواد کے نظم میں عملی بہتری: بڑے ڈھیروں میں پیمائش سے اینٹوں کی مقدار کا اندازہ، جیسا کہ بغداد کے کاموں میں لی اسٹرینج نقل کرتے ہیں؛ یہ شمار یا حجمی ریاضی کی ایجاد نہیں {cite:lestrange-baghdad-1900 p.17}۔"
+domain: mathematics
+kind: method
+disciplines: [history]
+wings: [made, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0762"
+    hijri: "0145"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Reported during early Baghdad-construction phase in Le Strange's transmitted narrative; this is attestation horizon,not a notarized day-level workshop record."
+    sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context: { ar: "ضمن مشروع مدينة تُبنى على نطاق واسع، ظهر احتياج لتقدير المواد بسرعة مع بقاء الرقابة {cite:lestrange-baghdad-1900 p.17}.", en: "Within large-scale city works, material estimation had to be rapid while preserving oversight {cite:lestrange-baghdad-1900 p.17}.", ur: "وسیع شہری تعمیرات میں نگرانی برقرار رکھتے ہوئے مواد کا تیز اندازہ ضروری تھا {cite:lestrange-baghdad-1900 p.17}۔" }
+makers:
+  - { person: person/abu-hanifa, role: improver, place: place/baghdad, note: "Reported supervisory participation and measurement-based reckoning; not sole project architect.", sources: [source/lestrange-baghdad-1900] }
+attribution:
+  status: improvement
+  claim: { ar: "تحويل عدّ الآجر من حصرة مفردة إلى تقدير قياسي لكتل كبيرة.", en: "Shifting brick counting from one-by-one tally to measured estimation of large stacks.", ur: "اینٹ گننے کو انفرادی شمار سے بڑے ڈھیروں کے پیمائشی اندازے کی طرف منتقل کرنا۔" }
+  basis: { ar: "ينقل لسترنج خبر الإشراف واستعمال القياس لتقدير العدد في سياق أعمال بغداد {cite:lestrange-baghdad-1900 p.17}.", en: "Le Strange reports supervision and measurement-based quantity reckoning in Baghdad works context {cite:lestrange-baghdad-1900 p.17}.", ur: "لی اسٹرینج بغداد کے کاموں میں نگرانی اور پیمائش سے تعداد کے اندازے کی روایت دیتے ہیں {cite:lestrange-baghdad-1900 p.17}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "دور مهني منسوب لا حكم فقهي", en: "Attributed technical role,not legal verdict", ur: "منسوب فنی کردار، فقہی حکم نہیں" }
+      summary: { ar: "ورود اسم أبي حنيفة هنا مرتبط بدور إشرافي/حسابي منقول، مع بقاء منزلته الفقهية في سياقها المعروف دون تحويل الخبر إلى تزكية سياسية عامة.", en: "Abu Hanifa's appearance here is tied to a transmitted supervisory/calculation role,while his juristic stature remains in its own context without turning this report into broad political endorsement.", ur: "یہاں ابو حنیفہ کا ذکر منقول نگرانی/حسابی کردار سے متعلق ہے؛ ان کی فقہی منزلت اپنے سیاق میں رہتی ہے اور یہ خبر عمومی سیاسی توثیق میں نہیں بدلی جاتی۔" }
+      sources: [source/lestrange-baghdad-1900, source/tarikh-khulafa-minhaj-1434]
+    - tradition: academic
+      stance: { ar: "رواية إعادة تركيب لا سجل ورشة", en: "Reconstruction narrative,not workshop ledger", ur: "تشکیلی روایت، ورکشاپ رجسٹر نہیں" }
+      summary: { ar: "المعطى مفيد لفهم إدارة مواد البناء، لكنه لا يقدّم جداول قياس أصلية أو عينات حساب موثقة من موقع العمل.", en: "The report is useful for understanding material-management practice but does not provide original measurement tables or audited site notebooks.", ur: "یہ بیان مواد کے نظم کو سمجھنے میں مفید ہے مگر اصل پیمائشی جدول یا تصدیق شدہ موقعی نوٹ بک فراہم نہیں کرتا۔" }
+      sources: [source/lestrange-baghdad-1900]
+precursors:
+  - external: { ar: "العدّ والوزن والقياس في تجارة وحِرف سابقة", en: "Pre-existing counting,weight and measure practices in trade/craft", ur: "تجارت و حرفت میں پہلے سے موجود شمار، وزن اور پیمائش کی روایات" }
+    note: "Improvement applies known measurement logic to large construction provisioning."
+    sources: [source/tdv-bagdat-duri]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, architecture-building]
+  changed: { ar: "خفض كلفة العدّ اليدوي الخالص في أعمال ضخمة، مع إبقاء إمكان المراجعة عبر وحدات قياس معروفة.", en: "Reduced pure hand-tally burden in massive works while retaining review through known measurement units.", ur: "بڑے منصوبوں میں محض ہاتھ سے گنتی کا بوجھ کم کیا اور معروف پیمائشی اکائیوں سے نظرثانی کا امکان رکھا۔" }
+  history: { ar: "مثال مبكرة على تلاقي الفقهاء والإدارة والحرف في مسألة تقنية عملية.", en: "Early example of jurists,administration and crafts meeting on a practical technical problem.", ur: "عملی فنی مسئلے میں فقہا، انتظام اور حرفت کے تقاطع کی ابتدائی مثال۔" }
+  significance: 3
+  why: "Specific reported method-level improvement under source limits,without absolute firstness claims."
+described_in: []
+examples: []
+sites: [place/baghdad]
+concepts: []
+today:
+  form: { ar: "يقارن اليوم مع طرائق أخذ العينات والتقدير في إدارة المخزون، على نحو تاريخي تعليمي.", en: "Today compared with sampling/estimation approaches in inventory management,as historical pedagogy.", ur: "آج اسے ذخیرہ نظم کے نمونہ گیری/اندازے کے طریقوں سے تاریخی تعلیمی تقابل میں پڑھا جاتا ہے۔" }
+  descendants: { ar: "فكرة الانتقال من العدّ المفرد إلى التقدير القياسي تتكرر في سياقات لاحقة، بلا نسب مباشر مثبت لكل تقنية.", en: "The shift from one-by-one tally to measured estimation recurs later,without proven direct lineage for every technique.", ur: "انفرادی شمار سے پیمائشی اندازے کی طرف منتقلی بعد کے ادوار میں بار بار ملتی ہے، مگر ہر تکنیک کا براہِ راست نسب ثابت نہیں۔" }
+media: { image: media/round-city-lestrange-plan, diagram: media/diagram-abu-hanifa-brick-reckoning }
+kids:
+  ar: "جرّب أن ترسم ثلاث رصّات مربعة من مكعبات صغيرة على الورق. عدّ الأولى مكعباً مكعباً، ثم قِس طول ضلع الثانية واستخدمه لتقدير العدد، ثم قارن الزمن. هذه لعبة فهم للتقدير، لا دليل بناء حقيقي."
+  en: "Draw three square stacks of tiny cubes on paper. Count the first cube by cube,then measure one side of the second and estimate total,then compare time. This is an estimation-learning game,not real construction guidance."
+  ur: "کاغذ پر چھوٹے مکعبوں کے تین مربع ڈھیر بنائیں۔ پہلے کو ایک ایک مکعب گنیں، دوسرے کا ایک کنارہ ناپ کر کل کا اندازہ لگائیں، پھر وقت کا موازنہ کریں۔ یہ تخمینے کی تعلیمی سرگرمی ہے، حقیقی تعمیراتی ہدایت نہیں۔"
+sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri, source/baladhuri-hitti-1916, source/tarikh-khulafa-minhaj-1434]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b96", source: "D-138; synthesis grounded in already read Le Strange chapter II page17 plus Baghdad context from Duri/Hitti and existing Abu Hanifa records." }

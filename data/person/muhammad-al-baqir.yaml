@@ -1,0 +1,34 @@
+id: person/muhammad-al-baqir
+class: person
+label: { ar: "محمد بن علي بن الحسين بن علي بن أبي طالب ⁦(الباقر)⁩", en: "Muhammad al-Baqir ibn Ali ibn al-Husayn" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن علي بن الحسين بن علي بن أبي طالب (الباقر)" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من التابعين الفقهاء في المدينة، ذكره الشيرازي في الطبقة الثانية، ويقول مصعب الزبيري إنه مات سنة 114هـ."
+  en: "A Medinan Successor jurist listed by Shirazi in the second generation; Mus'ab al-Zubayri says he died in 114 AH."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+died: { hijri: "0114", edtf: "0732~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي (ط. إحسان عباس، PDF ص35): قال مصعب مات سنة أربع عشرة ومائة، والباقي في الصفحة مقطوع في النسخة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص35–36"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
+external_ids: { wikidata: "Q311153" }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/bakr-umayyad-state-1134715]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/bakr-umayyad-state-1134715]

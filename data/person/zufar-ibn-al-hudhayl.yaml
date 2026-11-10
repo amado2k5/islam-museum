@@ -1,0 +1,25 @@
+id: person/zufar-ibn-al-hudhayl
+class: person
+label: { ar: "زفر بن الهذيل", en: "Zufar ibn al-Hudhayl" }
+summary:
+  ar: "الفقيه صاحب أبي حنيفة النعمان بن ثابت، مات سنة ثمان وخمسين ومائة وهي سنة بيعة المهدي {cite:muruj-al-dhahab p. 313}."
+  en: "Abu Hanifa's companion-jurist, dead in 158 — the year of al-Mahdi's accession {cite:muruj-al-dhahab p. 313}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 313"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch43
+external_ids: { wikidata: "Q228203" }
+born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
+  - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

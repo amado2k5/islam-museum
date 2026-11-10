@@ -1,0 +1,34 @@
+id: place/uyayna
+class: place
+kind: town
+label:
+  ar: العيينة
+  en: '''Uyayna'
+summary:
+  ar: مدينة في السعودية.
+  en: '''Uyayna; a place linked to persons via Wikidata claims.'
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 24.9053
+- 46.3914
+coordinate_precision: locality
+coordinate_note: Wikidata Q4166503.
+external_ids:
+  wikidata: Q4166503
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q4166503 (labels, coordinates, description)

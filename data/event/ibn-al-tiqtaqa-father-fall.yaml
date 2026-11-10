@@ -1,0 +1,30 @@
+id: event/ibn-al-tiqtaqa-father-fall
+class: event
+kind: other
+label:
+  ar: "سقوط والد ابن الطقطقي في الصراع مع الأخوين الجويني"
+  en: "The fall of Ibn al-Tiqtaqa's father in the struggle with the Juwayni brothers"
+  ur: "جوینی بھائیوں سے سیاست میں ابن طقطقی کے والد کی ہلاکت"
+summary:
+  ar: "كان والد ابن الطقطقي، تاج الدين علي بن محمد بن رمضان، نقيباً كبيراً للعلويين وقد نال مالاً واسعاً ونفوذاً، لكنه خسر حياته وماله في لعبة سياسية دبّرها الأخوان علاء الدين وشمس الدين الجويني؛ ويروي ابن عُنبة في «عمدة الطالب» خبر ذلك {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  en: "Ibn al-Tiqtaqa's father, Taj al-Din Ali ibn Muhammad ibn Ramadan, chief naqib of the Alids, had gained great wealth and influence, but in a game of political intrigue against the brothers Ala' al-Din and Shams al-Din al-Juwayni he lost his life and property; Ibn Inaba's 'Umdat al-Talib tells the story {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  ur: "ابن طقطقی کے والد تاج الدین علی بن محمد بن رمضان علویوں کے سرکردہ نقیب تھے جنہیں بڑی دولت اور اثر و رسوخ حاصل ہوا، لیکن علاء الدین اور شمس الدین جوینی بھائیوں کی سیاسی چال میں انہوں نے اپنی جان اور مال کھو دیا؛ ابن عنبہ کی «عمدۃ الطالب» یہ قصہ بیان کرتی ہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1262~", hijri: "0660~", calendar: julian, precision: year, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ وقع في حياة المؤرخ قبل تأليف «الفخري» سنة ٧٠١هـ، فوُضع بين مولده وذلك التاريخ {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1302~", hijri: "0701", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل تأليف «الفخري» سنة ٧٠١هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: had_participant, target: person/taj-al-din-ali-ibn-muhammad-naqib, role: "الواقع عليه الأمر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ala-al-din-ata-malik-al-juwayni, role: "الخصم", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shams-al-din-al-juwayni, role: "الخصم", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-tiqtaqa, role: "ابنه", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn al-Tiktaka (F. Rosenthal), printed p. 988, citing Ibn Inaba, 'Umdat al-Talib (Najaf 1961) p. 180 f. (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-tiqtaqa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

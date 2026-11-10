@@ -1,0 +1,23 @@
+id: person/muhriz-al-mudliji
+class: person
+label: { ar: "محرز المدلجي", en: "Muhriz al-Mudliji" }
+summary:
+  ar: "القائف الذي صدقه النبي محمد بن عبد الله في قيافته فحجت به طائفة من فقهاء الأمصار في الحكم بالقيافة تعجباً من تعجبه منها وتصديقه إياه {cite:muruj-al-dhahab p. 481}. وعند الواقدي قتل يوم الغابة في خمسة أو ستة من المشركين قتلهم النبي بيده في تلك الغزوة على ما حكاه المسعودي {cite:muruj-al-dhahab p. 580}"
+  en: "The tracker of Mudlij whose reading the Prophet confirmed — cited by the jurists who upheld qiyafa as evidence {cite:muruj-al-dhahab p. 481}."
+gender: male
+wings: [people]
+periods: [period/prophetic-era]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch29
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (al-Tabaqat al-Kubra)" }
+relations:
+  - { type: lived_in, target: place/al-ghaba, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

@@ -1,0 +1,35 @@
+id: event/assassination-of-abeid-karume
+class: event
+kind: death
+label:
+  ar: "اغتيال عبيد كرومي"
+  en: "Assassination of Abeid Karume"
+  ur: "عبید کرومی کا قتل"
+summary:
+  ar: "في 7 أبريل 1972 أطلق أربعة مسلحين النار على عبيد كرومي فقتلوه وهو يلعب الباو في مقر حزب أفروشيرازي بمدينة زنجبار."
+  en: "On 7 April 1972 four gunmen shot Abeid Karume dead as he played bao at the Afro-Shirazi Party headquarters in Zanzibar Town."
+  ur: "7 اپریل 1972ء کو چار مسلح افراد نے زنجبار شہر میں افروشیرازی پارٹی کے صدر دفتر میں باؤ کھیلتے ہوئے عبید کرومی کو گولی مار کر ہلاک کر دیا۔"
+wings: [time, place, people]
+periods: [period/modern-era]
+regions: [east-africa]
+date:
+  start:
+    edtf: "1972-04-07"
+    hijri: "1392-02-22"
+    calendar: gregorian
+    precision: day
+    status: historical
+    derived: true
+    note: "7 أبريل 1972 في مدينة زنجبار، وتتفق عليه المقالات الإنجليزية والعربية والأردية وويكيداتا. اليوم الهجري 22 صفر 1392 تحويل جدولي، والسنة توافق ما في بطاقة الشخص (1392)."
+    sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikidata-abeid-karume]
+relations:
+  - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
+  - { type: had_participant, target: person/abeid-karume, role: "الرئيس الذي قُتل", sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
+sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar, source/wikidata-abeid-karume]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia articles on Abeid Karume and Wikidata Q318310, as recorded in person/abeid-karume, read for this story on 1 November 2026."
+  generated_by: "Cursor"
+  model: "Grok 4.7"
+  run: explorer-zanzibar
+status: { review: published, completeness: 2, generated_by: "Cursor (Grok 4.7)" }

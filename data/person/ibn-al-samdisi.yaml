@@ -1,0 +1,34 @@
+id: person/ibn-al-samdisi
+class: person
+label: { ar: "ابن السمديسي", en: "Ibn al-Samdisi" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين محمد ابن السمديسي الشافعي المصري" }
+gender: male
+roles: [judge, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+summary:
+  ar: "شمس الدين ابن السمديسي المصري الشافعي؛ كان قاضياً بالنيابة في القاهرة، واشتغل وناب في القضاء وكان بيته مأوى للطلاب؛ توفي يوم الاثنين سادس عشر جمادى الأولى سنة اثنتين وعشرين وتسعمائة {cite:shadharat-dhahab p. 472}."
+  en: "Cairo deputy qadi whose house sheltered students; d. Monday 16 Jumada I 922 {cite:shadharat-dhahab p. 472}."
+died: { edtf: "1516-06-22~", hijri: "0922-05-16", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي الاثنين 16 جمادى الأولى 922 {cite:shadharat-dhahab p. 472}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with القاهرة per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 922)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch68
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

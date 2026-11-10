@@ -1,0 +1,25 @@
+---
+id: passage/quran-9-73
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Verse 73 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-quran}
+
+## Place in the museum
+Its place: verse 73 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 73 (pp. 357-360)**
+
+Al-Tabari says: "O Prophet, strive against the unbelievers" with the sword and weapons "and the hypocrites". The interpreters differed over the manner of the striving God commanded His Prophet against the hypocrites. Some said He commanded him to strive against them with the hand, the tongue and everything with which he could strive against them. Report 16961, from Ibn Mas'ud, through Ibn Waki', Humayd ibn Abd al-Rahman, Yahya ibn Adam, al-Hasan ibn Salih, Ali ibn al-Aqmar and Amr ibn Abi Jandab: "strive against the unbelievers and the hypocrites", he said, with his hand, and if he cannot then with his tongue, and if he cannot then with his heart, and if he cannot then let him frown in his face. The editor vouches for the men of the chain, notes that al-Suyuti cites the report in al-Durr al-Manthur and attributes it to several compilers, and explains the frown as meeting someone with a tight, sullen face. He refers to earlier explanations of striving and of the hypocrite. {cite:tafsir-tabari-shakir-v14 p. 358}
+
+Others said rather that He commanded him to strive against them with the tongue. Report 16962, from Ibn Abbas, through al-Muthanna, Abu Salih, Mu'awiya and Ali: "O Prophet, strive against the unbelievers and the hypocrites and be harsh with them", and God commanded him to strive against the unbelievers with the sword and the hypocrites with the tongue, and removed gentleness from them; report 16963, from Ibn Abbas, through al-Qasim, al-Husayn, Hajjaj and Ibn Jurayj: the unbelievers by fighting, and the hypocrites by being harsh with them in speech; report 16964, from al-Dahhak, through al-Husayn ibn al-Faraj, Abu Mu'adh and Ubayd ibn Sulayman: strive against the unbelievers with the sword and be harsh with the hypocrites in words, which is striving against them. {cite:tafsir-tabari-shakir-v14 p. 359}
+
+Others said rather that He commanded him to apply the prescribed penalties to them. Report 16965, from al-Hasan, through Muhammad ibn Abd al-A'la, Muhammad ibn Thawr and Ma'mar: strive against the unbelievers with the sword and the hypocrites with the penalties, apply to them God's penalties; report 16966, from Qatada, through Bishr, Yazid and Sa'id: God commanded His Prophet to strive against the unbelievers with the sword and be harsh with the hypocrites in the prescribed penalties. {cite:tafsir-tabari-shakir-v14 p. 359}
+
+Al-Tabari chooses what Ibn Mas'ud said, that God commanded His Prophet, in striving against the hypocrites, with something like what He commanded him in striving against the polytheists. If someone asks how he left them living among his Companions while knowing them, the answer is that God commanded only the fighting of those of them who showed the word of unbelief and then persisted in what they showed. As for one who, when it was found that he had spoken a word of unbelief and he was taken for it, denied it and went back on it and said "I am a Muslim", God's ruling for everyone who shows Islam with his tongue is that his blood and property are protected by it even if he believes otherwise, and He took charge of their inner thoughts Himself and gave the creatures no licence to search them. So the Prophet, though he knew them and God had informed him of their hearts and what their breasts held, let them remain among his Companions and did not follow in striving against them the way of striving against those who had taken up war against him for polytheism, because when one of them was found to have said something in which he disbelieved in God and was then taken for it, he denied it and showed Islam with his tongue, and the Prophet would take him only for what he showed in his presence and when he resolved to carry out judgment on him, not for words spoken before, nor for the belief in his heart, which God allowed no one to take as a ground of judgment and took upon Himself. {cite:tafsir-tabari-shakir-v14 p. 360}
+
+"And be harsh with them" says the Almighty: press them hard with striving, fighting and intimidation; "and their refuge is Hell" means their dwellings are Hell, which is their abode and refuge; "and wretched is the destination" means wretched is the place to which Hell is the journey. The editor notes that the printed text has the intimidation word with the wrong letter, the manuscript being correct, and refers to earlier explanations of harshness, refuge and destination. {cite:tafsir-tabari-shakir-v14 p. 360}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

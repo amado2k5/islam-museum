@@ -1,0 +1,47 @@
+id: person/suharto
+class: person
+label: { ar: "سوهارتو", en: "Suharto", ur: "سہارتو" }
+names:
+  - { value: "Suharto", kind: full }
+  - { value: "سوهارتو", kind: full }
+gender: male
+summary:
+  ar: "عسكري وسياسي إندونيسي، وُلد سنة 1921 في كيميوسوك قرب يوغياكارتا لأبوين جاويين مسلمين. صعد في الجيش، وتولى السلطة بين 1965 و1967 وصار ثاني رئيس لإندونيسيا، فحكم بنظامه «النظام الجديد» حتى استقالته سنة 1998 إثر الأزمة المالية الآسيوية، وتوفي في جاكرتا سنة 2008."
+  en: "Indonesian military officer and politician, born in 1921 at Kemusuk near Yogyakarta to Javanese Muslim parents. He rose through the army, took power in 1965–1967 and became Indonesia's second president, ruling under his 'New Order' until his resignation in 1998 during the Asian financial crisis; he died at Jakarta in 2008."
+  ur: "انڈونیشی فوجی افسر اور سیاست دان، جو 1921ء میں یوگیاکارتا کے قریب کیموسوک میں جاوی مسلمان والدین کے ہاں پیدا ہوئے۔ فوج میں ترقی پائی، 1965ء–1967ء میں اقتدار سنبھالا اور انڈونیشیا کے دوسرے صدر بنے؛ اپنے «نیو آرڈر» کے تحت 1998ء میں ایشیائی مالی بحران کے دوران استعفے تک حکمران رہے، اور 2008ء میں جکارتہ میں انتقال کر گئے۔"
+roles: [politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1921-06-08"
+  hijri: "1339"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 8 June 1921. The English article's text gives Kemusuk, a hamlet near Yogyakarta; its infobox gives Bantul (the regency containing Kemusuk) and Wikidata's place values are Kemusuk, Bantul and Yogyakarta — variants of the same locality, recorded here rather than resolved into one. None of Kemusuk, Bantul or Yogyakarta has a place entity, so no born_in relation is written. The Hijri year (1339) is from the Arabic article's category pairing; tabular conversion agrees."
+  sources: [source/wikipedia-suharto-en, source/wikipedia-suharto-ar, source/wikipedia-suharto-ur, source/wikidata-suharto]
+died:
+  edtf: "2008-01-27"
+  hijri: "1429"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at Jakarta on 27 January 2008, as all three articles and Wikidata give. The Hijri year (1429) is from the Arabic article's category pairing; tabular conversion agrees."
+  sources: [source/wikipedia-suharto-en, source/wikipedia-suharto-ar, source/wikipedia-suharto-ur, source/wikidata-suharto]
+relations:
+  - { type: died_in, target: place/jakarta, sources: [source/wikipedia-suharto-en, source/wikidata-suharto] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "A school is named only by one structured family: Wikidata's religion claim is Sunni Islam (Q483654), the Arabic and Urdu categories file him under Sunni Muslims, and the Arabic article's infobox gives Islam generically (citing Schwarz 1994) — structured values and filings of one family, not texts naming his school. The English article has no religion field and names no school for him: it describes his parents as Javanese Muslims (family background, which never counts), his childhood acquaintance with Darjatmo, a dukun of Javanese mystical arts (his childhood environment), his performance of the Hajj in 1991 and the name 'Mohammad' given him then by King Fahd (a public act and a received name — an act is not a school attestation), and his distaste for Islamic radicalism (politics). Under the two-source rule his faith is recorded as unknown, unflagged, with the structured Sunni value preserved here."
+    sources: [source/wikipedia-suharto-en, source/wikipedia-suharto-ar, source/wikipedia-suharto-ur, source/wikidata-suharto]
+external_ids: { wikidata: "Q44819" }
+sources: [source/wikipedia-suharto-en, source/wikipedia-suharto-ar, source/wikipedia-suharto-ur, source/wikidata-suharto]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Suharto' (revision 1382020543 of 26 October 2026), Arabic Wikipedia «سوهارتو» (revision 75578119 of 18 June 2026), Urdu Wikipedia «سہارتو» (revision 12101110 of 5 October 2026) and Wikidata item Q44819 (item revision 2557927420 of 17 October 2026), preserved from the stopped wave-119 writer's reads of 27 October 2026 and re-verified on 31 October 2026: the English article re-read live (birth 8 June 1921, infobox Bantul and text Kemusuk near Yogyakarta, Javanese Muslim parents, the dukun Darjatmo passage, the 1991 Hajj and the name 'Mohammad' from King Fahd, death 27 January 2008 at Jakarta all as recorded) and the live Wikidata item checked (dates as recorded). Existence checked both directions before building: name fragments (Suharto, Soeharto, سوهارتو, سہارتو) and Q44819 grepped across all data/person files on origin/main with no match, so this is a new build. No born_in edge is written: Kemusuk, Bantul and Yogyakarta have no place entities. No succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-119
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

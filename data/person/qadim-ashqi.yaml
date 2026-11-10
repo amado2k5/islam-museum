@@ -1,0 +1,28 @@
+id: person/qadim-ashqi
+class: person
+label:
+  ar: "قديم عشقي"
+  en: "Kadim Aski"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لقديم عشقي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Kadim Aski, the Ottoman writer (sixteenth-century); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+died: { edtf: "1587~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: lived_in, target: place/ottoman-empire, confidence: low, note: "Ottoman-era figure of the Anatolia-Balkans world (regions: anatolia-balkans); no specific city attested in consulted sources.", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q136109235
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0094
+status:
+  review: draft
+  completeness: 1

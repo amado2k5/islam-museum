@@ -1,0 +1,95 @@
+id: exhibit/path-conquests
+class: exhibit
+kind: trail
+label:
+  ar: الفتوح الكبرى
+  en: The Great Conquests
+summary:
+  ar: 'مسار في معارك غيّرت الخريطة: من بدر إلى اليرموك والقادسية إلى حطين وعين جالوت والقسطنطينية.'
+  en: A trail through battles that redrew the map.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: بدر
+    en: Badr
+  body:
+    ar: 'أول فرقان: 313 ينتصرون في 624.'
+    en: 'The first criterion: 313 victors in 624.'
+  features:
+  - event/badr-battle-day
+  - person/muhammad
+  - person/hamza
+- title:
+    ar: اليرموك
+    en: Yarmuk
+  body:
+    ar: 'خالد يهزم الروم: الشام مفتوحة 636.'
+    en: 'Khalid defeats Byzantium: Syria opens, 636.'
+  features:
+  - event/battle-of-yarmuk
+  - person/khalid-ibn-al-walid
+- title:
+    ar: القادسية
+    en: Qadisiyya
+  body:
+    ar: 'نهاية كسرى: العراق يفتح 636.'
+    en: 'Ctesiphon falls: Iraq opens, 636.'
+  features:
+  - event/battle-of-al-qadisiyya
+  - person/saad-ibn-abi-waqqas
+- title:
+    ar: فتح مكة
+    en: The conquest
+  body:
+    ar: دخول شبه سلمي وعفو عام 630.
+    en: A near-bloodless entry and general pardon, 630.
+  features:
+  - event/fath-mecca-sermon
+  - event/treaty-of-hudaybiyya
+- title:
+    ar: حطين
+    en: Hattin
+  body:
+    ar: صلاح الدين يسترد القدس 1187.
+    en: Saladin retakes Jerusalem, 1187.
+  features:
+  - event/battle-of-hattin-583
+  - person/salah-al-din-yusuf-ibn-ayyub
+  - place/jerusalem
+- title:
+    ar: عين جالوت
+    en: Ayn Jalut
+  body:
+    ar: 'أول هزيمة للمغول: المماليك 1260.'
+    en: 'The Mongols'' first defeat: the Mamluks, 1260.'
+  features:
+  - event/ayn-jalut-658
+- title:
+    ar: القسطنطينية
+    en: Constantinople
+  body:
+    ar: 'البشارة تتحقق: محمد الفاتح 1453.'
+    en: 'The prophecy fulfilled: Mehmed the Conqueror, 1453.'
+  features:
+  - event/conquest-constantinople-857
+  - place/istanbul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

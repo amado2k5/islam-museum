@@ -1,0 +1,24 @@
+id: person/abu-ubayda-mammar
+class: person
+label: { ar: "أبو عبيدة معمر بن المثنى", en: "Abu 'Ubayda Ma'mar ibn al-Muthanna" }
+summary:
+  ar: "مولى آل تيم بن مرة بن كعب بن لؤي النحوي، قيل إنه ألف كتاب الواحدة في مناقب العرب ومثالبها مفردة على لسان المتنازعين في مجلس هشام من الأبرش الكلبي والعباس بن الوليد وخالد بن مسلمة المخزوني والنضر بن مريم الحميري، أو غيره من الشعوبية {cite:muruj-al-dhahab p. 199}."
+  en: "The philologist of Banu Taym's clients — said to have authored the Kitab al-Wahida on Arab merits and flaws, ascribed to the disputants of Hisham's majlis or another Shu'ubi {cite:muruj-al-dhahab p. 199}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+external_ids: { wikidata: "Q4670034" }
+sources: [source/muruj-al-dhahab, source/nihayat-al-arab-nuwayri-vol3-scan, source/wikidata]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+died: { edtf: "824", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Zirikli (al-A'lam)" }
+relations:
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

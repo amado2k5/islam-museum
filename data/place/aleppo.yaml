@@ -4,10 +4,23 @@ kind: city
 label: { ar: "حلب", en: "Aleppo" }
 summary:
   ar: "مدينة في شمال سورية، من أقدم مدن العالم المأهولة، ازدهرت في العهود الحمدانية والأيوبية والمملوكية والعثمانية."
+  en: A city in northern Syria, among the oldest inhabited cities in the world, flourishing under the Hamdanid, Ayyubid, Mamluk and Ottoman eras.
 wings: [place]
 regions: [levant-iraq]
 coordinates: [36.2012, 37.1612]
 coordinate_precision: site
-external_ids: { geonames: "170063", pleiades: "658409" }
-sources: [source/geonames-gazetteer]
+external_ids: { wikidata: "Q41183", geonames: "170063", pleiades: "658409", nomisma: "halab", idai: "2280212" }
+sources: [source/geonames-gazetteer, source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+
+provenance:
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+kids:
+  ar: "حلب مدينة قلعتها الشهيرة في شمال الشام، من أقدم مدن العالم."
+  en: "Aleppo, the citadel city of northern Syria — one of the world's oldest cities."
+  ur: "حلب شمالی شام کا قلعہ والا شہر — دنیا کے قدیم ترین شہروں میں سے۔"

@@ -1,0 +1,66 @@
+id: exhibit/path-astronomy
+class: exhibit
+kind: trail
+label:
+  ar: علم النجوم
+  en: Astronomy
+summary:
+  ar: 'مسار في السماء عند المسلمين: الأسطرلاب، والبيروني يقيس الأرض، والقبلة والأوقات علمًا.'
+  en: A trail through Muslim astronomy.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الأسطرلاب
+    en: The astrolabe
+  body:
+    ar: 'آلة الفلك الشاملة: قياس وحساب وقبلة.'
+    en: 'آلة الفلك الشاملة: قياس وحساب وقبلة.'
+  features:
+  - object/astrolabe-umar-ibn-yusuf
+- title:
+    ar: الخوارزمي والبيروني
+    en: The masters
+  body:
+    ar: جداول الفلك وقياس قطر الأرض.
+    en: جداول الفلك وقياس قطر الأرض.
+  features:
+  - person/al-khwarizmi
+  - person/al-biruni-muhammad-ibn-ahmad
+- title:
+    ar: القبلة والأوقات
+    en: Qibla and hours
+  body:
+    ar: الفلك في خدمة الصلاة.
+    en: الفلك في خدمة الصلاة.
+  features:
+  - question/why-face-mecca-in-prayer
+  - practice/salah
+- title:
+    ar: المراصد
+    en: Observatories
+  body:
+    ar: من بغداد إلى مراغة إلى سمرقند.
+    en: من بغداد إلى مراغة إلى سمرقند.
+  features:
+  - building/bayt-al-hikma
+  - place/samarqand
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

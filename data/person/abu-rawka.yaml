@@ -1,0 +1,29 @@
+id: person/abu-rawka
+class: person
+label:
+  ar: "أبو ركوة"
+  en: "Abu Rawka"
+roles: [military]
+gender: male
+summary:
+  ar: "أبو ركوة واسمه الوليد، متظاهر أموي على الحاكم بأمر الله؛ ملك برقة بأيدي بني قرة وكتامة وهزم عسكر الحاكم وقتل قائده ينالاً، وسار إلى الصعيد باستدعاء أهل مصر فجهز الحاكم نحو اثني عشر ألفاً للقائه."
+  en: "Abu Rawka (al-Walid), an Umayyad pretender against al-Hakim bi-Amr Allah; he took Barqa with Banu Qurra and Kutama, routed the caliph's army and killed its commander Yinal, then marched to Upper Egypt at the Egyptians' call as al-Hakim sent some twelve thousand against him."
+wings: [people]
+regions: [maghreb]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q335243
+provenance:
+  layer: own-research
+  source: "ابن الأثير، الكامل ج8 ص43-44"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch14
+status:
+  review: published
+  completeness: 3
+born: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: ruler_of, target: place/raqqa, note: "From text: ملك برقة بأيدي بني قرة وكتامة وهزم ", sources: [source/kamil-ibn-al-athir] }

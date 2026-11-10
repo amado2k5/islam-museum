@@ -1,0 +1,34 @@
+id: place/amman
+class: place
+kind: city
+label:
+  ar: عمان
+  en: Amman
+summary:
+  ar: مدينة في البلقاء، تبعد عن بيت المقدس يومين، وتقع قرب الغور. {cite:nuzhat-al-mushtaq-2002 p. 363}
+  en: A city in al-Balqa', two days from Jerusalem, near the Ghawr. {cite:nuzhat-al-mushtaq-2002 p. 363}
+wings:
+- place
+regions:
+- levant-iraq
+provenance:
+  layer: own-research
+  source: al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 363 (scan page)
+  generated_by: Claude (Haiku 5.5)
+  run: lib-nuzhat-batch
+external_ids:
+  wikidata: Q3805
+  nomisma: amman
+coordinates:
+- 31.95
+- 35.9333
+coordinate_precision: locality
+coordinate_note: Wikidata Q3805 coordinates.
+sources:
+- source/nuzhat-al-mushtaq-2002
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (Haiku 5.5); page refs are scan indices

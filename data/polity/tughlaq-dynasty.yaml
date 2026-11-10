@@ -1,0 +1,32 @@
+id: polity/tughlaq-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة التغلقية"
+  en: "Tughlaq dynasty"
+summary:
+  ar: "بطاقة أولية للدولة التغلقية، ثالث سلالات سلطنة دلهي من غياث الدين تغلق سنة ١٣٢٠ حتى ١٤١٤م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Tughlaq dynasty, the third ruling house of the Delhi Sultanate under Ghiyath al-Din Tughluq from 1320 to 1414; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+start:
+  edtf: "1320"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1414"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1124402
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Ibn Khaldun and Indian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

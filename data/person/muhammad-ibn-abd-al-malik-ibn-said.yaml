@@ -1,0 +1,28 @@
+id: person/muhammad-ibn-abd-al-malik-ibn-said
+class: person
+label: { ar: "محمد بن عبد الملك بن سعيد" }
+gender: male
+summary:
+  ar: "وزير جليل بعيد الصيت عالي الهمة كثير الأموال؛ ولد عام أربعة عشر وخمسمائة وولي للموحدين أعمالاً كثيرة بمراكش وسلا وإشبيلية وغرناطة واتصلت ولايته على أعمال غرناطة، وذكره السهيلي في شرح السيرة حيث ذكر أنه عاين كتاب رسول الله إلى هرقل مكرماً عند أذفونش، ومدحه الرصافي، وأمر المنصور بالقبض عليه سنة 593هـ ثم رضي عنه وأمره أن يكتب بخطه كل ما أخذ له فصرفه عليه، وتوفي بشعبان سنة تسعة وثمانين وخمسمائة بغرناطة {cite:nafh-tib-maqqari p. 337-338}."
+  en: "The great Almohad wazir of Granada, born 514, who saw the Prophet's letter to Heraclius still honoured at Alfonso's court, whom al-Rusafi praised and al-Mansur briefly arrested in 593; he died at Granada in Sha'ban 589 {cite:nafh-tib-maqqari p. 337-338}."
+roles: [vizier]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-39
+born: { edtf: "1120", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
+died: { edtf: "1193", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib" }
+relations:
+  - { type: lived_in, target: place/granada, sources: [source/nafh-tib-maqqari] }
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/nafh-tib-maqqari]

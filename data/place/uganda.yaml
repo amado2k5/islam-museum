@@ -1,0 +1,36 @@
+id: place/uganda
+class: place
+kind: region
+label:
+  ar: أوغندا
+  en: Uganda
+  ur: یوگنڈا
+summary:
+  ar: منطقة في أوغندا.
+  en: Country in East Africa.
+wings:
+- place
+regions:
+- east-africa
+coordinates:
+- 1.28
+- 32.39
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1036
+  geonames: '226074'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1036 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1036 (labels, coordinates, description)

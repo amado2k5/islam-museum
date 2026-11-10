@@ -1,0 +1,68 @@
+id: person/ali-ibn-muhammad-al-ashmuni
+class: person
+label:
+  ar: الأشموني، علي بن محمد بن عيسى
+  en: Ali ibn Muhammad al-Ashmuni
+names:
+- kind: full
+  lang: ar
+  value: علي بن محمد بن عيسى بن يوسف
+- kind: nisba
+  lang: ar
+  value: الأشموني
+- kind: nisba
+  lang: ar
+  value: القاهري
+gender: male
+roles: [scholar, jurist, teacher]
+traditions: [sunni-shafii]
+born:
+  edtf: 1435~
+  calendar: gregorian
+  precision: year
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+died:
+  edtf: 1524~
+  calendar: gregorian
+  precision: year
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+summary:
+  ar: فقيه شافعي من القاهرة، حفظ المنهاج للنووي وجمع الجوامع للسبكي والخلاصة الألفية لابن مالك، وأخذ عن عدد من شيوخ عصره.
+  en: A Shafi'i jurist of Cairo who memorized al-Nawawi's Minhaj, al-Subki's Jam' al-Jawami' and Ibn Malik's Alfiyya, and studied with many scholars of his age.
+wings: [people]
+themes: [scripture-and-its-sciences, linguistics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+- role: scholar
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+- role: jurist
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+external_ids: { wikidata: "Q27655542" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص65-66
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/cairo, note: "Place association from the person's nisba/name (القاهري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

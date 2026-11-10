@@ -1,0 +1,86 @@
+id: invention/al-kashi-pi-calculation
+class: invention
+label: { ar: "حساب الكاشي الدقيق لمحيط الدائرة", en: "Al-Kashi's high-precision circumference computation", ur: "کاشی کا محیط دائرہ کا دقیق حساب" }
+names:
+  - { kind: alternate, lang: en, value: "Polygon-based pi computation in the Muhitiyya" }
+summary:
+  ar: "تحسين حسابي في المحيطية سنة1424؛ نسبة2pi معطاة في نظامين، لا اكتشاف pi أو اختراع الكسور العشرية {cite:kashi-mactutor Circumference treatise} {cite:tdv-kashi-okten mathematical contributions}."
+  en: "Computational improvement in the1424 Muhitiyya, giving2pi in two numeral systems; not discovery of pi or invention of decimals {cite:kashi-mactutor Circumference treatise} {cite:tdv-kashi-okten mathematical contributions}."
+  ur: "1424 کے محیطیہ میں عددی بہتری، دو نظاموں میں2pi؛ پائی کی دریافت یا اعشاریوں کی ایجاد نہیں {cite:kashi-mactutor Circumference treatise} {cite:tdv-kashi-okten mathematical contributions}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1424"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "MacTutor dates completed treatise to July1424. Year precision only, no guessed day/Hijri conversion or claim to date all prior circle computation."
+    sources: [source/kashi-mactutor]
+  status_today: transformed
+origin:
+  place: place/samarqand
+  context:
+    ar: "المحيط العلمي لأولوغ بك، مع تمييز التأليف من تاريخ بناء المرصد المختلف في الدراسات {cite:kashi-mactutor Samarkand career} {cite:iranica-kashi Life}."
+    en: "Ulugh Beg's scholarly milieu; composition distinct from differing scholarly dates of observatory construction {cite:kashi-mactutor Samarkand career} {cite:iranica-kashi Life}."
+    ur: "الغ بیگ کا علمی ماحول؛ تصنیف اور رصدگاہ کی مختلف تعمیراتی تاریخیں الگ {cite:kashi-mactutor Samarkand career} {cite:iranica-kashi Life}۔"
+makers:
+  - person: person/al-kashi
+    role: improver
+    note: "Named Islamic mathematician in MacTutor; separate default Sunni frame, not birth-city/patron inference. Refines inherited circle computation."
+    sources: [source/kashi-mactutor, source/tdv-kashi-okten]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحسين دقة حساب النسبة عبر هندسة مضلعات وحساب منضبط."
+    en: "Improved ratio precision through polygon geometry and careful computation."
+    ur: "کثیرالاضلاعی ہندسہ اور محتاط حساب سے نسبت کی دقت میں اضافہ۔"
+  basis:
+    ar: "إيرانيكا يصف مضلعات داخلية وخارجية؛ ماكتوتر وTDV يصفان إخراج2pi الستيني والعشري {cite:iranica-kashi As Mathematician and Astronomer} {cite:tdv-kashi-okten mathematics}."
+    en: "Iranica describes inscribed/circumscribed polygons; MacTutor/TDV describe sexagesimal and decimal2pi output {cite:iranica-kashi As Mathematician and Astronomer} {cite:tdv-kashi-okten mathematics}."
+    ur: "ایرانیکا اندرونی و بیرونی کثیرالاضلاع؛ میک ٹیوٹر وTDV ستینی و اعشاری2pi بیان کرتے ہیں {cite:iranica-kashi As Mathematician and Astronomer} {cite:tdv-kashi-okten mathematics}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "هندسة الدائرة والمضلعات وطرق التقريب السابقة", en: "Earlier circle/polygon geometry and approximation", ur: "سابق ہندسۂ دائرہ و کثیرالاضلاع اور تقریب" }
+    note: "Prior geometry/approximations acknowledged, not first pi or polygon construction; no unverified direct lineage to a particular museum record."
+    sources: [source/kashi-mactutor, source/iranica-kashi]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "دقة حسابية عالية مع نقل النتيجة بين نظامي الكسور؛ لا دقة مرصد تساوي تلقائياً كل منزلة {cite:kashi-mactutor mathematics}."
+    en: "High computational precision with output across two fraction systems, not automatic observational accuracy for every digit {cite:kashi-mactutor mathematics}."
+    ur: "دو کسری نظاموں میں نتیجے کے ساتھ دقیق حساب؛ ہر ہندسہ خودکار رصدی صحت نہیں {cite:kashi-mactutor mathematics}۔"
+  history:
+    ar: "تصف الدراسات إنجازاً حسابياً كبيراً وتلقيه البحثي المتأخر، لا انتقالاً أوروبياً مباشراً مثبتاً {cite:kashi-mactutor conclusion}."
+    en: "Scholarship describes a major calculation and later historical study, not established direct European transmission {cite:kashi-mactutor conclusion}."
+    ur: "تحقیق اہم حساب اور بعد کا تاریخی مطالعہ بتاتی ہے، ثابت براہ راست یورپی منتقلی نہیں {cite:kashi-mactutor conclusion}۔"
+  significance: 3
+  why: "Precisely bounded1424 numerical improvement; inherited methods,2pi versus pi, rounding and primary limits explicit. Literal TDV sexagesimal/decimal mismatch disclosed, not guessed corrected."
+described_in: [work/risala-muhitiyya-kashi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "درس ورقي في الحدود والخطأ والدقة، لا ادعاء أن المضلع المحدود يصير دائرة."
+    en: "Paper study of bounds, error and precision, not a claim that a finite polygon becomes a circle."
+    ur: "حد، غلطی اور دقت کا کاغذی مطالعہ؛ محدود کثیرالاضلاع دائرہ نہیں بن جاتا۔"
+  descendants:
+    ar: "مقارنة تعليمية لا نسب مباشر لبرنامج حديث؛ الرسم حديث وسياقي {cite:commons-archimedes-pi-urutseg Description}."
+    en: "Teaching comparison, not direct ancestry of modern software; image is modern context {cite:commons-archimedes-pi-urutseg Description}."
+    ur: "تدریسی تقابل، جدید سافٹ ویئر کا براہ راست نسب نہیں؛ تصویر جدید سیاق ہے {cite:commons-archimedes-pi-urutseg Description}۔"
+media: { image: media/kashi-polygon-context, diagram: media/diagram-kashi-circumference }
+kids:
+  ar: "قارن على الورق مساراً داخل دائرة وآخر حولها؛ خطآن صغيران يحدان الجواب، لكن الرسم ليس قياساً دقيقاً."
+  en: "Compare paper paths inside and around a circle. Two bounds constrain the answer; the drawing is not a precision measurement."
+  ur: "کاغذ پر دائرے کے اندر و باہر راستہ ملائیں۔ دو حدیں جواب گھیرتی ہیں؛ نقش دقیق پیمائش نہیں۔"
+sources: [source/kashi-mactutor, source/tdv-kashi-okten, source/iranica-kashi, source/commons-archimedes-pi-urutseg]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b60", source: "Actual complete scholarly biographies and inspected modern PD-shape image; original Muhitiyya not read. Modern recurrence/bounds are explanatory, not historical transcription." }

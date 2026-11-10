@@ -1,0 +1,22 @@
+id: person/yahya-ibn-said-ibn-al-as
+class: person
+label: { ar: "يحيى بن سعيد بن العاص", en: "Yahya ibn Sa'id ibn al-'As" }
+summary:
+  ar: "أخو عمرو بن سعيد الأشدق، وافى إلى باب دار عبد الملك بمن معه ليكسره حين قتل أخاه، واختلف مع الوليد بن عبد الملك فضربه بالسيف على يده فانصرع، فألقوا رأس عمرو إلى الناس فتفرقوا {cite:muruj-al-dhahab p. 97}."
+  en: "al-Ashdaq's brother — rushed the palace door to break it as his brother was slaughtered, striking the prince al-Walid's hand before the thrown head scattered the crowd {cite:muruj-al-dhahab p. 97}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+died: { edtf: "708~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/balis, sources: [source/wikidata], confidence: low, note: "Nisba بالسي attested in the record." }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

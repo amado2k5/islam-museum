@@ -1,0 +1,29 @@
+id: person/al-firuzabadi
+class: person
+label:
+  ar: "مجد الدين الفيروزابادي"
+  en: "al-Firuzabadi"
+roles: [grammarian]
+gender: male
+summary:
+  ar: "مجد الدين الفيروزابادي، لغوي شافعي علامة صاحب «القاموس المحيط»، رحّال بين كازرون وشيراز وبغداد والقاهرة والهند؛ توفي سنة 817هـ ⁦(1415م)⁩."
+  en: "Majd al-Din al-Firuzabadi (1329–1415), Shafi'i lexicographer, author of al-Qamus al-Muhit."
+wings: [people]
+regions: [persia-central-asia, arabia]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q4115262
+provenance:
+  layer: own-research
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.9 p.185)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch8
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+died: { edtf: "1414", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }

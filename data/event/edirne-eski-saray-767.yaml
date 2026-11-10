@@ -1,0 +1,24 @@
+id: event/edirne-eski-saray-767
+class: event
+kind: founding
+label: { ar: "مراد الأول يبني السراي القديم بأدرنة", en: "Murad I builds the Old Palace at Edirne", ur: "مراد اول کا ادرنہ میں پرانا محل تعمیر کرنا" }
+summary:
+  ar: "وجد مراد الأول قصر التكفور في قلعة أدرنة غير كافٍ بعد الفتح، فبنى قصراً جديداً خارج القلعة انتقل إليه سنة ٧٦٧هـ/١٣٦٥-١٣٦٦م؛ يذكر أوليا جلبي أنه كان قرب جامع السليم في محلة قاواق ميدان، وأنه استُخدم لاحقاً ثكنةً للعجمي أوغلانلار {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  en: "After the conquest Murad I found the tekfür's palace in the citadel inadequate and built a new palace outside the walls, moving into it in 767/1365-6; Evliya Çelebi places it near the Selim mosque in the Kavak Meydanı quarter and says it was later used as barracks for the acemi oğlanları {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}."
+  ur: "فتح کے بعد مراد اول نے قلعے میں تکفور کا محل ناکافی پایا اور قلعے سے باہر نیا محل بنوایا جس میں وہ 767ھ/1365-66ء میں منتقل ہوا؛ اولیا چلبی کے مطابق یہ محل جامع سليم کے قریب قاواق میدان محلے میں تھا اور بعد ازاں عجمی اوغلانوں کے برکس کے طور پر استعمال ہوا {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1365~", hijri: "0767", calendar: julian, precision: year, status: tradition, derived: true, note: "انتقل إلى قصره الجديد سنة ٧٦٧هـ/١٣٦٥-١٣٦٦م {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}." }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/murad-i-uthmani, role: "السلطان الآمر بالبناء", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 711 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

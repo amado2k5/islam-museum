@@ -1,0 +1,22 @@
+id: person/ibn-abi-dhib
+class: person
+label: { ar: "ابن أبي ذئب", en: "Ibn Abi Dhi'b" }
+summary:
+  ar: "محمد بن عبد الرحمن بن المغيرة أبو الحارث، مات بالكوفة سنة تسع وخمسين ومائة في أيام المهدي {cite:muruj-al-dhahab p. 313}."
+  en: "Muhammad ibn 'Abd al-Rahman Abu'l-Harith, dead at Kufa in 159 {cite:muruj-al-dhahab p. 313}."
+gender: male
+wings: [people]
+born: { edtf: "699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with Kufa per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 313"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muruj-dhahab-batch-75
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

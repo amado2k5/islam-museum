@@ -1,0 +1,77 @@
+id: exhibit/path-shrines
+class: exhibit
+kind: trail
+label:
+  ar: الأضرحة والمشاهد
+  en: Shrines and Sanctuaries
+summary:
+  ar: 'مسار في أماكن الزيارة: الحرم الإبراهيمي في الخليل، ومسجد عمر في القدس، والمسجد النبوي — المشاهد
+    المقدسة.'
+  en: A trail through the visited sanctuaries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الإبراهيمي
+    en: Al-Ibrahimi
+  body:
+    ar: 'الخليل: مقام إبراهيم وأسرته.'
+    en: 'الخليل: مقام إبراهيم وأسرته.'
+  features:
+  - building/al-haram-al-ibrahimi
+  - building/al-haram-al-ibrahimi
+- title:
+    ar: مسجد عمر
+    en: Mosque of Omar
+  body:
+    ar: 'القدس: حيث صلى عمر.'
+    en: 'القدس: حيث صلى عمر.'
+  features:
+  - building/mosque-of-omar-jerusalem
+  - person/umar-ibn-al-khattab
+- title:
+    ar: النبوي
+    en: The Nabawi
+  body:
+    ar: 'الروضة والحجرة: أشرف المشاهد.'
+    en: 'الروضة والحجرة: أشرف المشاهد.'
+  features:
+  - building/prophets-mosque
+  - place/medina
+- title:
+    ar: الأقصى
+    en: Al-Aqsa
+  body:
+    ar: 'القبلة الأولى: ثالث الحرمين.'
+    en: 'القبلة الأولى: ثالث الحرمين.'
+  features:
+  - building/al-aqsa-mosque
+  - place/jerusalem
+- title:
+    ar: الكعبة
+    en: The Ka'ba
+  body:
+    ar: 'أول بيت للناس: مقام إبراهيم.'
+    en: 'أول بيت للناس: مقام إبراهيم.'
+  features:
+  - building/kaaba
+  - place/mecca
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

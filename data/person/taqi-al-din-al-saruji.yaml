@@ -1,0 +1,30 @@
+id: person/taqi-al-din-al-saruji
+class: person
+label:
+  ar: "تقي الدين السروجي"
+  en: "Taqi al-Din al-Saruji"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لتقي الدين السروجي، شاعر القرن الثالث عشر، توفي سنة ١٢٩٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Taqi al-Din al-Saruji, the thirteenth-century poet, d. 1294; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1230", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani)" }
+died: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tal'i (al-Shawkani)" }
+relations:
+  - { type: born_in, target: place/suru, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q917836)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28713255
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0061
+status:
+  review: draft
+  completeness: 1

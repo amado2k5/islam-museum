@@ -1,0 +1,27 @@
+id: event/ibn-al-tiqtaqa-travels
+class: event
+kind: other
+label:
+  ar: "رحلات ابن الطقطقي في العراق وأذربيجان ونقابته على العلويين"
+  en: "Ibn al-Tiqtaqa's travels in Iraq and Adharbaydjan and his naqibate over the Alids"
+  ur: "عراق اور آذربائیجان میں ابن طقطقی کے سفر اور علویوں پر نقابت"
+summary:
+  ar: "يظهر أن ابن الطقطقي سافر كثيراً في العراق وأذربيجان، وكان مثل أبيه نقيباً على العلويين، غير أن سلطانه كانت أضيق إقليماً على الأرجح {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  en: "Ibn al-Tiqtaqa appears to have travelled widely in Iraq and Adharbaydjan, and like his father he was a naqib of the Alids, though probably with more regionally limited authority {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}."
+  ur: "ابن طقطقی غالباً عراق اور آذربائیجان میں کثیر سفر کرتے رہے، اور اپنے والد کی طرح علویوں کے نقیب بھی تھے، لیکن غالباً ان کا دائرہ اختیار زیادہ محدود علاقے تک تھا {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1262~", hijri: "0660~", calendar: julian, precision: year, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ وقع في حياة المؤرخ قبل تأليف «الفخري» سنة ٧٠١هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1302~", hijri: "0701", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل تأليف «الفخري» سنة ٧٠١هـ {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: had_participant, target: person/ibn-al-tiqtaqa, role: "الرحّالة النقيب", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn al-Tiktaka (F. Rosenthal), printed p. 988 (harvest OCR scan)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-tiqtaqa-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

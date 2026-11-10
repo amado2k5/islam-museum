@@ -1,0 +1,31 @@
+id: person/ahmad-ibn-yunus-al-aythawi
+class: person
+label:
+  ar: "أحمد بن يونس الأيضاوي"
+  en: "Ahmad ibn Yunus al-'Aythawi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن يونس الأيضاوي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Yunus al-'Aythawi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q106494854
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1519", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat)" }
+died: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat)" }
+relations:
+  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/damascus, note: "Wikidata Q3766 (P937); corroboration recommended.", sources: [source/wikidata], confidence: medium }

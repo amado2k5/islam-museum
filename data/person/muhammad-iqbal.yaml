@@ -1,0 +1,43 @@
+id: person/muhammad-iqbal
+class: person
+label:
+  ar: محمد إقبال
+  en: Muhammad Iqbal
+gender: male
+born:
+  edtf: '1877'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+died:
+  edtf: '1938'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+roles:
+- poet-scholar
+summary:
+  ar: شاعر وفيلسوف من لاهور؛ صاحب دعوة إحياء الذات الإسلامية ويُعد الأب الروحي لفكرة باكستان.
+  en: Muhammad Iqbal.
+wings:
+- people
+themes:
+- renewal-and-reform
+- literature
+- islam-and-the-modern-state
+regions:
+- south-asia
+relations:
+  - { type: born_in, target: place/sialkot, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q643883)" }
+  - { type: died_in, target: place/lahore, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q11739)" }
+  - { type: buried_in, target: place/lahore-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q613720)" }
+sources:
+- source/wikidata
+external_ids:
+  wikidata: Q484141
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16

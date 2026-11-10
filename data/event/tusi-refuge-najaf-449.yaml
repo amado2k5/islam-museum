@@ -1,0 +1,29 @@
+id: event/tusi-refuge-najaf-449
+class: event
+kind: migration
+label:
+  ar: "كبس دار الطوسي بالكرخ ولجوؤه إلى النجف، صفر ٤٤٩هـ"
+  en: "Storming of al-Tusi's Karkh house and his refuge in Najaf, Safar 449/1057"
+  ur: "کرخ میں طوسی کے گھر پر حملہ اور نجف میں پناہ، صفر 449ھ/1057ء"
+summary:
+  ar: "في صفر سنة ٤٤٩هـ كُبست دار أبي جعفر الطوسي متكلم الشيعة بالكرخ فأُخذ ما وُجد فيها من دفاتره وكرسيه الذي كان يجلس عليه للكلام، وأُلحق بها ثلاثة مجانيق بيض كان زوار أهل الكرخ يحملونها معهم إلى زيارة الكوفة، فأُحرق الجميع بسوق الكرخ {cite:muntazam-ibn-al-jawzi j.8 p.521}. ولجأ الطوسي إلى النجف فأقام بها بقية عمره يدرّس حلقة محدودة من التلاميذ بينهم ابنه أبو علي الحسن الذي خلفه {cite:encyclopaedia-of-islam-2 vol. 10 p. 745}، وقيل إنه «كان ينزل بالكرخ ثم انتقل إلى مشهد الكوفة» {cite:tarikh-islam-dhahabi p. 491}."
+  en: "In Safar 449 the Karkh house of Abu Ja'far al-Tusi, the Shi'i's theologian, was stormed: his notebooks, the chair on which he sat to teach, and three white mangonels that Karkh pilgrims used to carry to the Kufa visitation were all taken out and burned in the Karkh market {cite:muntazam-ibn-al-jawzi j.8 p.521}. Al-Tusi took refuge in Najaf and stayed there until his death, teaching a limited circle of disciples including his son Abu Ali al-Hasan, who succeeded him {cite:encyclopaedia-of-islam-2 vol. 10 p. 745}."
+  ur: "صفر 449ھ میں ابو جعفر طوسی متکلمِ شیعہ کے کرخ کے گھر پر چھاپہ مارا گیا: ان کی کتب، کلام کی کرسی اور تین سفید منجنیقیں جو کرخ کے زائرین کوفہ کی زیارت پر لے جاتے تھے، سب نکال کر بازارِ کرخ میں جلائی گئیں {cite:muntazam-ibn-al-jawzi j.8 p.521}۔ طوسی نجف میں پناہ گزین ہوئے اور وہیں وفات تک رہے، محدود حلقے کو پڑھاتے رہے جن میں ان کے جانشین بیٹے ابو علی الحسن بھی تھے {cite:encyclopaedia-of-islam-2 vol. 10 p. 745}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools, cities]
+date:
+  start: { edtf: "1057-03~", hijri: "0449-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر ٤٤٩هـ {cite:muntazam-ibn-al-jawzi j.8 p.521}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/al-karkh, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/najaf, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shaykh-al-tusi, role: "المكبوس داره اللاجئ", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Muntazam j.8 p. 521 (s.a. 449, harvest OCR); Encyclopaedia of Islam 2nd ed. vol. 10 p. 745; Tarikh al-Islam printed p. 491"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-shaykh-al-tusi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

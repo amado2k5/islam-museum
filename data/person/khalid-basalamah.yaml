@@ -1,0 +1,35 @@
+id: person/khalid-basalamah
+class: person
+label: { ar: "خالد باسلمة", en: "Khalid Basalamah", ur: "خالد باسلامہ" }
+names:
+  - { value: "خالد زيد عبد الله باسلمة", kind: full }
+  - { value: "Khalid Zeed Abdullah Basalamah", kind: full }
+gender: male
+summary:
+  ar: "داعية إندونيسي ورجل أعمال، وُلد في ماكاسار سنة 1975، درس في الجامعة الإسلامية بالمدينة المنورة، ويُعد من أبرز وجوه الدعوة السلفية في إندونيسيا، تصل محاضراته إلى ملايين المتابعين عبر يوتيوب ومنصات التواصل."
+  en: "Indonesian preacher and entrepreneur, born in Makassar in 1975. He studied at the Islamic University of Madinah and is a prominent figure of the Salafi movement in Indonesia, whose lectures reach millions of followers on YouTube and social media."
+  ur: "انڈونیشیائی مبلغ اور کاروباری شخصیت، جو 1975 میں مکاسر میں پیدا ہوئے۔ انہوں نے مدینہ منورہ کی اسلامی یونیورسٹی میں تعلیم حاصل کی اور انڈونیشیا میں سلفی تحریک کی نمایاں شخصیات میں سے ہیں؛ ان کے خطبات یوٹیوب اور سوشل میڈیا پر لاکھوں لوگوں تک پہنچتے ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1975-05-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Date and place (Ujung Pandang, now Makassar) from the English Wikipedia article. No place record for Makassar exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-khalid-basalamah-en]
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/wikipedia-khalid-basalamah-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's text calls him a prominent figure in the Salafi movement, and its infobox gives denomination Sunni and movement Salafi. Salafi is a movement label, not a school value in the faith enum, the infobox is structured data, and no text read names a madhhab for the man himself. Not recorded as sunni until two independent texts name a school."
+    sources: [source/wikipedia-khalid-basalamah-en]
+sources: [source/wikipedia-khalid-basalamah-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Khalid Basalamah' (copy read on 18 October 2026), checked 4 November 2026. Platform reach (about 3.31 million YouTube subscribers, vidIQ, 3 November 2026) is recorded in the prose as a dated platform figure. An Indonesian lecturer at the same university system, Syafiq Riza Basalamah, is a different person and is recorded separately; low-quality web sources sometimes merge the two men's biographies, and one Indonesian app source states expressly that the common belief that they are brothers is incorrect, so no family edge between them is written."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

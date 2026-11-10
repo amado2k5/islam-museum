@@ -1,0 +1,28 @@
+id: person/umama-bint-dhi-al-isba
+class: person
+label: { en: "Umama bint Dhi al-Isba'", ar: "أمامة بنت ذي الأصبع", ur: "امامہ بنت ذی الاصبع" }
+names:
+  - { kind: full, lang: ar, value: "أمامة بنت ذي الأصبع" }
+gender: female
+roles: [poet]
+traditions: [sunni]
+summary:
+  en: "A pre-Islamic Arabic poetess of the tribe of Dhi al-Isba' who composed an elegy for her people after their defeat, mourning Fahm and their foes and recalling the glory days when they were kings over the Arabs."
+  ar: "شاعرة من شواعر العرب في الجاهلية من ذي الأصبع؛ رثت قومها بعد هلاكهم بأبيات مشهورة تعدّد قتل فَهْمٍ وعدواتها وتسترجع أيامهم ملوكاً سادة في الورى."
+wings: [people]
+themes: [women, literature]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+faith:
+  - { value: unknown, basis: tradition, note: "شاعرة جاهلية؛ لم يذكر المصدر إسلامها." }
+relations:
+  - { type: member_of, target: group/dhu-al-isba, note: "نسبتها «بنت ذي الأصبع» — عشيرة من كنانة {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 80}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic Arabian diviner of Banu Tamim (Alam al-nisa); no specific town attested.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin; A'lam al-Nisa' vol. 1 p. 80 (PDF), entry أمامة بنت ذي الأصبع" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

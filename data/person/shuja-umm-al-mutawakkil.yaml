@@ -1,0 +1,21 @@
+id: person/shuja-umm-al-mutawakkil
+class: person
+label: { ar: "شجاع أم المتوكل", en: "Shuja' umm al-Mutawakkil" }
+summary:
+  ar: "أم المتوكل، توفيت في شهر ربيع الآخر سنة سبع وأربعين ومائتين وصلى عليها المنتصر، وقتل المتوكل بعد وفاتها بستة أشهر {cite:muruj-al-dhahab p. 504}."
+  en: "Al-Mutawakkil's mother — dead Rabi' II 247, her son murdered six months later {cite:muruj-al-dhahab p. 504}."
+gender: female
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 504"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+died: { edtf: "861", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/samarra, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,27 @@
+id: event/selimiye-edirne-977
+class: event
+kind: founding
+label: { ar: "سنان يبني جامع السليمية بأدرنة", en: "Sinan builds the Selimiye Mosque at Edirne", ur: "معمار سنان کی ادرنہ میں سلیمیہ مسجد کی تعمیر" }
+summary:
+  ar: "بنى المعمار سنان جامع السليمية بأدرنة في الأعوام 1569-1575م للسلطان سليم الثاني الذي توفي قبل سنة من إتمامه، وعدّه سنان نفسه ذروة أعماله متفوقاً حتى على السليمانية بإستانبول {cite:freely-ottoman-architecture-2011 p. 73}. وقبته الكبرى أعلى من قبة آيا صوفيا بستة أذرع {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  en: "The architect Sinan built the Selimiye mosque complex at Edirne in 1569-75 for Selim II, who died the year before it was completed; Sinan himself considered it the crowning achievement of his career, surpassing even the Süleymaniye in Istanbul {cite:freely-ottoman-architecture-2011 p. 73}. Its great dome stands six cubits higher than that of Ayasofya {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}."
+  ur: "معمار سنان نے 1569-75ء میں سلیم ثانی کے لیے ادرنہ میں سلیمیہ مسجد بنائی جو اتمام سے ایک سال پہلے وفات پا گیا؛ سنان نے اسے اپنے فن کی عروج سمجھا یہاں تک کہ استنبول کی سلیمانیہ سے بھی افزیل {cite:freely-ottoman-architecture-2011 p. 73}۔ اس کا عظیم گنبد آیا صوفیا سے چھ ذرع بلند ہے {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}۔"
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1569", hijri: "0977~", calendar: julian, precision: year, status: tradition, derived: true, note: "1569-1575م {cite:freely-ottoman-architecture-2011 p. 73}؛ الهجري مشتق." }
+  end: { edtf: "1575", hijri: "0982", calendar: julian, precision: year, status: tradition, derived: true, note: "اكتمل ٩٨٢هـ/١٥٧٤-١٥٧٥م حسب تأريخ البناء {cite:encyclopaedia-of-islam-2 vol. 2 p. 712}." }
+relations:
+  - { type: occurred_at, target: building/selimiye-mosque, sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/edirne, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/selim-ii-uthmani, role: "السلطان الآمر بالبناء", sources: [source/freely-ottoman-architecture-2011] }
+  - { type: had_participant, target: person/mimar-sinan, role: "المعمار", sources: [source/freely-ottoman-architecture-2011] }
+sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Freely, A History of Ottoman Architecture (2011) p. 73; Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 712 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

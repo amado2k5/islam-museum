@@ -1,0 +1,28 @@
+id: person/qadi-khan
+class: person
+label:
+  ar: "فخر الدين قاضيخان"
+  en: "Qadi Khan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لفخر الدين الحسن بن منصور الأوزجندي الفرغاني قاضيخان، فقيه حنفي القرن الثاني عشر، توفي سنة ١١٩٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Fakhr al-Din al-Hasan ibn Mansur al-Uzjandi al-Farghani 'Qadi Khan', the twelfth-century Hanafi jurist, d. 1196; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1196", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: born_in, target: place/zg-n, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765887)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q25550086
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0045
+status:
+  review: draft
+  completeness: 1

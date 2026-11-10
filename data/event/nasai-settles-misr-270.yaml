@@ -1,0 +1,27 @@
+id: event/nasai-settles-misr-270
+class: event
+kind: other
+label:
+  ar: "استقرار النسائي بمصر وسكناه بزقاق القناديل، نحو ٢٧٠هـ"
+  en: "Al-Nasa'i settles in Egypt, living at Zuqaq al-Qanadil, c. 270/884"
+  ur: "نسائی کا مصر میں استقرار اور زقاق القنادیل میں سکونت، تقریباً 270ھ/884ء"
+summary:
+  ar: "سكن النسائي مصر بعد رحلاته، وكان ينزل بزقاق القناديل، فأخذ عنه الناس وانتشرت بها تصانيفه {cite:tarikh-islam-dhahabi p. 106} {cite:wafayat-ayan i p. 26}؛ ويصف محمد بن المظفر الحافظ اجتهاده في العبادة بالليل والنهار، وأنه خرج إلى الغزو مع أمير مصر فوُصف بشهامته وإقامته السنن المأثورة في فداء المسلمين واحترازه عن مجالس السلطان {cite:tarikh-islam-dhahabi p. 108-109}؛ وقال الدارقطني: كان أفقه مشايخ مصر في عصره وأعلمهم بالحديث والرجال {cite:tarikh-islam-dhahabi p. 109}."
+  en: "After his journeys al-Nasa'i settled in Egypt, lodging at Zuqaq al-Qanadil, where people transmitted from him and his works spread {cite:tarikh-islam-dhahabi p. 106} {cite:wafayat-ayan i p. 26}; Muhammad ibn al-Muzaffar describes his devotion to worship night and day and his going out on campaign with the amir of Egypt, noting his gallantry, his observance of the transmitted practices in ransoming Muslim captives, and his shunning of the sultan's gatherings {cite:tarikh-islam-dhahabi p. 108-109}; al-Daraqutni called him the most learned of Egypt's shaykhs of his age in law, hadith and the science of narrators {cite:tarikh-islam-dhahabi p. 109}."
+  ur: "اپنے سفروں کے بعد نسائی مصر میں رہنے لگے اور زقاق القنادیل میں سکونت اختیار کی، جہاں لوگوں نے ان سے روایت کی اور ان کی تصانیف پھیل گئیں {cite:tarikh-islam-dhahabi p. 106} {cite:wafayat-ayan i p. 26}؛ محمد بن مظفر حافظ نے ان کی رات دن عبادت اور امیرِ مصر کے ساتھ غزو میں شرکت بیان کی، ان کی جوانمردی، مسلم قیدیوں کی رہائی میں سنتوں کی پاسداری اور سلطان کے مجالس سے اجتناب کو نمایاں کیا {cite:tarikh-islam-dhahabi p. 108-109}؛ دارقطنی کے مطابق وہ اپنے عصر کے مصر کے مشائخ میں فقہ، حدیث اور علمِ رجال میں سب سے ماہر تھے {cite:tarikh-islam-dhahabi p. 109}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0884~", hijri: "0270~", calendar: julian, precision: decade, status: tradition, derived: true, note: "سكن مصر بعد رحلاته وقبل خروجه منها في ذي القعدة ٣٠٢هـ {cite:tarikh-islam-dhahabi p. 106, p. 109}؛ عُلّق على نحو ٢٧٠هـ تقديراً، والتحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan], note: "نزل بزقاق القناديل بمصر {cite:tarikh-islam-dhahabi p. 106}" }
+  - { type: had_participant, target: person/al-nasai, role: "المحدّث المقيم", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 303, printed pp. 106-109 (harvest OCR vol. 301-320); Ibn Khallikan, Wafayat al-A'yan i pp. 26-27 (harvest OCR AAlexandrina-154776)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nasai-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

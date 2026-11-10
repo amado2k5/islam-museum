@@ -1,0 +1,16 @@
+id: passage/muslim-0029
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "29"
+label: { ar: "مسلم 29 — وصية عبادة عند الموت: حرم الله عليه النار", en: "Muslim 29 — Ubada's deathbed report: the Fire forbidden for him" }
+text: "قال عبادة بن الصامت في الموت: والله ما من حديث سمعته من رسول الله لكم فيه خير إلا حدثتكموه إلا حديثاً واحداً وسوف أحدثكموه اليوم وقد أحيط بنفسي، سمعت رسول الله يقول: من شهد أن لا إله إلا الله وأن محمداً رسول الله حرم الله عليه النار"
+summary:
+  ar: "رواية عبادة بن الصامت على فراش الموت في باب دعوة الشهادتين من كتاب الإيمان في صحيح مسلم؛ أخرج ما احتفظ به لنفسه أخيراً: الشهادتان تحرّمان النار."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/tawhid, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب دعوة الشهادتين (طبعة دار التأصيل، الحديث 21؛ ترقيم عبد الباقي المعروف 29)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,29 @@
+id: person/mubashir-ibn-abd-al-mundhir
+class: person
+label:
+  ar: "مبشر بن عبد المنذر"
+  en: "Mubashshir ibn Abd al-Mundhir"
+names:
+  - { kind: full, lang: ar, value: "مبشر بن عبد المنذر" }
+roles: [companion]
+summary:
+  ar: "بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك لا تُذكر هنا تواريخ ولا أحداث."
+  en: "Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked on the page, so no dates or events are given."
+wings: [people]
+sources: [source/isaba-matba-al-saada-1328]
+died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328]}
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q27256)" }
+external_ids:
+  wikidata: Q12238553
+provenance:
+  layer: own-research
+  source: "Wikidata Q12238553 (companion claim Q188711); book source: al-Isaba, Matba'at al-Sa'ada 1328 AH, entry not yet read on the page"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: wikidata-S7-early-persons
+status:
+  review: draft
+  completeness: 1

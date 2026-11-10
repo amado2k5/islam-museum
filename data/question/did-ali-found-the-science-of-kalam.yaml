@@ -1,0 +1,35 @@
+id: question/did-ali-found-the-science-of-kalam
+class: question
+label: { ar: "هل علم الكلام مأخوذ عن علي؟", en: "Does the science of kalam go back to Ali?", ur: "کیا علمِ کلام علی سے ماخوذ ہے؟" }
+summary:
+  ar: "ذكر ابن المطهر الحلي في فضائل علي أن علم الكلام أصله من خطبه وأن الناس تلاميذه فيه، فرد ابن تيمية بأن هذا الكلام لم يعرفه الصحابة والتابعون، وأنه ظهر بعد المائة الأولى من جهة الجعد بن درهم والجهم بن صفوان ثم أصحاب عمرو بن عبيد، وأن خطب علي الثابتة ليس فيها شيء من أصول المعتزلة."
+  en: "Among Ali's virtues al-Hilli listed that the science of kalam derives from his sermons and that all people are his pupils in it; Ibn Taymiyya replied that this kalam was unknown to the Companions and Successors, appeared after the first century through al-Ja'd ibn Dirham and al-Jahm ibn Safwan and then the circle of Amr ibn Ubayd, and that Ali's authenticated sermons contain none of the Mu'tazila's principles."
+question: { ar: "هل علم الكلام مأخوذ عن علي؟", en: "Does the science of kalam go back to Ali?" }
+issue: { ar: "من أين نشأ علم الكلام، وهل تصح نسبته إلى علي بن أبي طالب؟" }
+short_answer:
+  ar: "الحلي، كما ينقله ابن تيمية: أصله من علي؛ ابن تيمية: لا، بل ظهر بعد المائة الأولى، وما يُنقل عن علي من أصول المعتزلة كذب عليه."
+  en: "Al-Hilli, as Ibn Taymiyya quotes him: it goes back to Ali. Ibn Taymiyya: no, it appeared after the first century, and any Mu'tazili principle ascribed to Ali is falsely ascribed."
+perspectives:
+  - tradition: sunni-hanbali
+    id: ibn-taymiyya-minhaj
+    standing: main
+    stance: { ar: "الكلام المخالف للكتاب والسنة لم يكن في الصحابة، وظهر بعد المائة الأولى" }
+    summary: { ar: "يقول ابن تيمية إنه لم يكن في الصحابة والتابعين من يستدل على حدوث العالم بحدوث الأجسام ودليل الأعراض، وإن أول ظهور هذا الكلام من جهة الجعد بن درهم والجهم بن صفوان ثم أصحاب عمرو بن عبيد كأبي الهذيل العلاف؛ وإن قدماء المعتزلة لم يكونوا يعظمون علياً، بل كان فيهم من يتوقف في عدالته، وإن قدماء الشيعة كالهشامين كانوا يثبتون الصفات والقدر." }
+    holders: [person/ibn-taymiyya]
+    evidence: [{ ref: source/minhaj-sunna-salim-v8, note: { ar: "منهاج السنة، تحقيق رشاد سالم ج8 ص 5–6" } }, { ref: source/minhaj-sunna-shamela, note: { ar: "متأخرو الإمامية والمعتزلة، نسخة الشاملة ص 59" } }]
+    sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
+  - tradition: shia-twelver
+    id: hilli-minhaj-karama
+    standing: secondary
+    stance: { ar: "علم الكلام أصله من علي، والناس تلاميذه" }
+    summary: { ar: "في نقل ابن تيمية: عدّ الحلي من فضائل علي أن علم الكلام أصله منه، ومن خطبه تعلّم الناس، وكل الناس تلاميذه." }
+    holders: [person/al-allama-al-hilli]
+    evidence: [{ ref: source/minhaj-sunna-salim-v8, note: { ar: "ج8 ص 5" } }]
+    sources: [source/minhaj-sunna-salim-v8]
+related: [concept/ilm-al-kalam, person/ali-ibn-abi-talib, person/jad-ibn-dirham, person/jahm-ibn-safwan, person/amr-ibn-ubayd, group/mutazila, work/minhaj-al-sunnah]
+wings: [ideas]
+themes: [creed, sects-and-schools, philosophy-and-logic]
+sensitivity: contested
+sources: [source/minhaj-sunna-salim-v8, source/minhaj-sunna-shamela]
+provenance: { layer: own-research, source: "منهاج السنة، تحقيق رشاد سالم ج8 ص 5–6؛ نسخة الشاملة ص 59", generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker C)" }

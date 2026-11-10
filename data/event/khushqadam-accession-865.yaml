@@ -1,0 +1,24 @@
+id: event/khushqadam-accession-865
+class: event
+kind: other
+label: { ar: "خلع إينال وتولية خشقدم", en: "Inal's abdication and Khushqadam's accession" }
+summary:
+  ar: "في سنة خمس وستين وثمانمائة خلع السلطان الأشرف إينال نفسه من السلطنة وعقدها لولده الملك المؤيد شهاب الدين أبي الفتح أحمد بن إينال في يوم الأربعاء رابع عشر ليلة خلت من جمادى الأولى، وتوفي إينال بعد ذلك بيوم واحد، ثم خلع أتابكه خشقدم الملك المؤيد بعد خمسة أشهر وخمسة أيام وولي السلطنة الملك الظاهر خشقدم يوم الأحد لإحدى عشرة ليلة بقيت من شهر رمضان {cite:shadharat-dhahab p. 305}."
+  en: "In 865 the sultan al-Ashraf Inal abdicated to his son al-Mu'ayyad Ahmad on Wednesday 14 Jumada I and died a day later; the atabeg Khushqadam deposed the son after five months and five days and took the sultanate as al-Zahir Khushqadam on Sunday 11 Ramadan 865 {cite:shadharat-dhahab p. 305}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1461-03~", hijri: "0865-05-14", calendar: julian, precision: day, status: tradition, derived: true, note: "خلع إينال يوم الأربعاء 14 جمادى الأولى 865؛ خشقدم ولي الأحد 11 رمضان 865 {cite:shadharat-dhahab p. 305}", sources: [source/shadharat-dhahab] }
+  end: { edtf: "1461-07~", hijri: "0865-09-11", calendar: julian, precision: day, status: tradition, derived: true, note: "تولية خشقدم {cite:shadharat-dhahab p. 305}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-ashraf-inal, role: "السلطان الخالع", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/khushqadam, role: "الأتابك المستولي", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 865)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-140
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

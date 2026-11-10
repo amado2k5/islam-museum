@@ -1,0 +1,49 @@
+---
+// One row per record of the Modern Islam Browser (docs/plan/26 section 4.3): the name linked to its page, the year, the
+// kind, the sections it sits in (when the list mixes sections), the countries, and the one-line summary. Plain HTML; the
+// optional name filter (modern-filter.ts) only hides rows. Without JavaScript the whole list is on the page.
+import { href, labelOf, summaryOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import { num } from "../lib/nav";
+import { countryName, kindLabel, sectionLabel, yearText, type ModernEntry } from "../lib/modern";
+
+interface Props { entries: ModernEntry[]; lang: Lang; showSections?: boolean; filterable?: boolean; id?: string; compact?: boolean }
+const props = Astro.props;
+const { entries, lang, showSections = false, filterable = true, id = "modern" } = props;
+const T = ui(lang);
+const M = T.modern;
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+// A long list renders compact rows (name, year, kind; no summary, no countries) so the page stays within its weight budget
+// (scripts/check-weight.ts); a page that splits one long list into groups passes `compact` for the whole. Every record keeps
+// its own page. The row styles are classes, declared once below, not inline, for the same reason.
+const compact = props.compact ?? entries.length > 300;
+---
+{filterable && entries.length > 12 && (
+  <p class="ui no-print" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+    <label for={`${id}-filter`}>{M.filter_label}</label>
+    <input id={`${id}-filter`} type="search" data-modern-filter={id} autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+  </p>
+)}
+<ul role="list" data-modern-list={id} style="list-style:none;padding:0;margin:0">
+  {entries.map((e) => (
+    <li class="mrow" data-modern-row={id} data-search={searchText(e.node)}>
+      <p class="mrow-head">
+        <a href={href(lang, e.node.id)} class="mrow-name">{labelOf(e.node, lang)}</a>
+        {e.year !== undefined && <span class="ui muted">{yearText(e.year, lang)}</span>}
+        {e.kind && <span class="chip">{kindLabel(e.kind, lang)}</span>}
+        {showSections && e.sections.map((s) => <a class="chip" style="background:var(--bg)" href={`/${lang}/modern/${s}/`}>{sectionLabel(s, lang)}</a>)}
+        {e.node.data.horizon && <span class="chip" style="border:1px solid var(--gold)">{T.horizonStages?.[e.node.data.horizon.stage] ?? e.node.data.horizon.stage}</span>}
+        {!compact && e.countries.slice(0, 3).map((cc) => <a class="ui muted" href={`/${lang}/modern/country/${cc}/`}>{countryName(cc, lang)}</a>)}
+      </p>
+      {!compact && summaryOf(e.node, lang) && <p class="ui muted mrow-sum">{summaryOf(e.node, lang)}</p>}
+    </li>
+  ))}
+</ul>
+{filterable && entries.length > 12 && <p class="panel ui" data-modern-none={id} hidden>{M.filter_none}</p>}
+{entries.length === 0 && <p class="panel ui">{M.no_records}</p>}
+<style is:global>
+  .mrow { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .mrow-head { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+  .mrow-name { font-weight: 600; }
+  .mrow-sum { margin: 0; max-width: var(--measure); }
+</style>

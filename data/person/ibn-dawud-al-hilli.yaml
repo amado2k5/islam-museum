@@ -1,0 +1,29 @@
+id: person/ibn-dawud-al-hilli
+class: person
+label:
+  ar: "ابن داود الحلي"
+  en: "Ibn Dawud al-Hilli"
+roles: [scholar]
+gender: male
+summary:
+  ar: "الحسن بن علي ابن داود الحلي، صاحب «الرجال» في علماء الإمامية؛ توفي سنة 740هـ ⁦(1338م)⁩."
+  en: "Al-Hasan Ibn Dawud al-Hilli (1249–1338), author of a rijal book on Imamiyya scholars."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1249~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "1308~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28100701
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.2 p.203)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
+status:
+  review: published
+  completeness: 3

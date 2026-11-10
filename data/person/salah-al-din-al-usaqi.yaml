@@ -1,0 +1,29 @@
+id: person/salah-al-din-al-usaqi
+class: person
+label:
+  ar: "صلاح الدين العصاكي"
+  en: "Salah al-Din al-Usaqi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لصلاح الدين العصاكي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Salah al-Din al-Usaqi; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: lived_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q12560)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q113827947
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

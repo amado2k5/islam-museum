@@ -1,0 +1,35 @@
+id: person/salih-ibn-mahdi-al-maqbali
+class: person
+label:
+  ar: "صالح بن مهدي المقبلي"
+  en: "Salih ibn Mahdi al-Maqbali"
+roles: [sufi, muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لصالح بن مهدي المقبلي، عالم ومحدث وصوفي يمني القرن السابع عشر، توفي سنة ١٦٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Salih ibn Mahdi al-Maqbali, the seventeenth-century Yemeni scholar, muhaddith and Sufi, d. 1696; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
+died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57253851
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0071
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

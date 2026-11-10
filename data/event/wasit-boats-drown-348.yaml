@@ -1,0 +1,22 @@
+id: event/wasit-boats-drown-348
+class: event
+kind: other
+label: { ar: "غرق زوارق الحاج من واسط", en: "The Sinking of the Pilgrim Boats from Wasit" }
+summary:
+  ar: "في سنة ثمان وأربعين وثلاثمائة غرق من الحاج الوارد من واسط بضعة عشر زورقًا كان فيها من الرجال والنساء والصبيان ستمائة نفس؛ وفي جمادى الأولى اشتدت الفتن بين الشيعة والسنة فقُتل بينهم خلق ووقع حريق كثير في باب الطاق {cite:muntazam-ibn-al-jawzi p. 686}."
+  en: "In 348 seventeen boats of pilgrims coming from Wasit sank with six hundred men, women and children aboard; that Jumada I the Shi'i–Sunni fitnas killed people and a great fire took Bab al-Taq {cite:muntazam-ibn-al-jawzi p. 686}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [46.30, 32.20] }
+date:
+  start: { edtf: "0959~", hijri: "0348", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٤٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 686}." }
+relations:
+  - { type: occurred_at, target: place/wasit, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 348)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch30
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

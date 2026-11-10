@@ -1,0 +1,36 @@
+id: person/jafar-tabrizi
+class: person
+label:
+  ar: "جعفر التبريزي"
+  en: "Jafar Tabrizi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لجعفر التبريزي، الخطاط التيموري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Jafar Tabrizi, the Timurid calligrapher; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1410~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1435~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6414838
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

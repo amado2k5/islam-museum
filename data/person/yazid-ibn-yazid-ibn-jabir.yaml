@@ -1,0 +1,32 @@
+id: person/yazid-ibn-yazid-ibn-jabir
+class: person
+label: { ar: "يزيد بن يزيد بن جابر الأزدي الدمشقي", en: "Yazid ibn Yazid ibn Jabir al-Azdi al-Dimashqi" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/umayyad]
+regions: [levant-iraq]
+gender: male
+wings: [people]
+summary:
+  ar: "يزيد بن يزيد بن جابر الأزدي الدمشقي، كان ثقة فقيها عالما حافظا، روى عن مكحول وعبد الرحمن بن أبي عمرة وبسر بن عبيد الله الحضرمي وجماعة، وروى عنه أخوه عبد الرحمن والأوزاعي والسفيانان. توفي سنة 134هـ، وقيل قبل ذلك. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2073}"
+  en: "Yazid ibn Yazid ibn Jabir al-Azdi al-Dimashqi, a trustworthy jurist, scholar and memoriser. He transmitted from Makhul, Abd al-Rahman ibn Abi Amra, Busr ibn Ubayd Allah al-Hadrami and others; his brother Abd al-Rahman, al-Awza'i and the two Sufyans transmitted from him. He died in 134 AH, or earlier by another report. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2073}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2073"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch67
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "751", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+relations:
+  - { type: lived_in, target: place/damascus, confidence: low, note: "Association inferred from the nisba 'الدمشقي'; specific birthplace or residence is not individually documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

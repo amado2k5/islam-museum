@@ -1,0 +1,27 @@
+id: event/tabari-hanbali-summons-309
+class: event
+kind: other
+label:
+  ar: "إحضار الطبري إلى دار الوزير لمناظرة الحنابلة"
+  en: "al-Tabari summoned to the vizier's house to face the Hanbalis"
+  ur: "طبری کو حنابلہ کے مناظرے کے لیے وزیر کے دار میں طلب کیا گیا"
+summary:
+  ar: "أُحضر الطبري إلى دار الوزير علي بن عيسى في ذي القعدة سنة تسع وثلاثمائة/أبريل-مايو ٩٢٢م لمناظرة الحنابلة، فحضر هو ولم يحضروا فعاد إلى منزله؛ وكانوا قد نقموا عليه أشياء، منها كتابه في اختلاف الفقهاء الذي لم يذكر فيه أحمد بن حنبل فقال حين سئل: لم يكن فقيهاً وإنما كان محدثاً، فناصبه بعض الحنابلة على ذلك وشغبوا عليه {cite:muntazam-ibn-al-jawzi p. 449-450} {cite:kamil-ibn-al-athir p. 99-100}."
+  en: "In Dhu al-Qa'da 309/April-May 922 al-Tabari was brought to the house of the vizier Ali ibn Isa for a disputation with the Hanbalis; he attended but they did not appear, so he returned home. They had taken offence at several things, above all his book on the disagreements of the jurists, which did not list Ahmad ibn Hanbal — asked why, he answered that Ibn Hanbal had been a muhaddith, not a faqih, whereupon some Hanbalis turned against him and harassed him {cite:muntazam-ibn-al-jawzi p. 449-450} {cite:kamil-ibn-al-athir p. 99-100}."
+  ur: "ذو القعدہ 309ھ/اپریل-مئی 922ء میں طبری کو وزیر علی بن عیسیٰ کے دار میں حنابلہ کے ساتھ مناظرے کے لیے لایا گیا؛ وہ حاضر ہوئے مگر حنابلہ نہیں آئے تو وہ گھر لوٹ گئے۔ حنابلہ کو چند باتوں پر ناراضی تھی، سب سے بڑھ کر ان کی کتاب اختلاف الفقہاء پر جس میں احمد بن حنبل کا ذکر نہ تھا — پوچھے جانے پر انہوں نے کہا کہ وہ محدث تھے فقیہ نہیں، جس پر بعض حنابلہ ان کے خلاف ہو گئے {cite:muntazam-ibn-al-jawzi p. 449-450} {cite:kamil-ibn-al-athir p. 99-100}."
+wings: [time]
+themes: [scholarly-councils]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0922-04~", hijri: "0309", calendar: julian, precision: month, status: historical, derived: true, note: "قال ابن الجوزي: أُحضر في ذي القعدة سنة تسع وثلاثمائة لمناظرة الحنابلة؛ الشهر الميلادي تحويل مشتق {cite:muntazam-ibn-al-jawzi p. 449-450}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "Ibn al-Jawzi, al-Muntazam (Hyderabad ed., vol. 5 pt. 2), pp. 449-450, Apple Vision OCR of the local harvest copy (books/tareekh/muntazam); Ibn al-Athir, al-Kamil, pp. 99-100 for the Hanbali grievance"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-tabari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

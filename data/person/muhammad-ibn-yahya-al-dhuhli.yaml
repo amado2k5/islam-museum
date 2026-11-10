@@ -1,0 +1,29 @@
+id: person/muhammad-ibn-yahya-al-dhuhli
+class: person
+label:
+  ar: "محمد بن يحيى الذهلي"
+  en: "Muhammad ibn Yahya al-Dhuhli"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن يحيى الذهلي النيسابوري، محدث القرن التاسع من أصحاب البخاري، توفي سنة ٨٧٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Yahya al-Dhuhli al-Nisaburi, the ninth-century muhaddith among al-Bukhari's authorities, d. 872; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+born: { edtf: "788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "880", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: born_in, target: place/nishapur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q131350)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5897714
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0046
+status:
+  review: draft
+  completeness: 1

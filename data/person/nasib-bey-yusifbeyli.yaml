@@ -1,0 +1,52 @@
+id: person/nasib-bey-yusifbeyli
+class: person
+label: { ar: "نصيب بك يوسف بكلي", en: "Nasib bey Yusifbeyli", ur: "نصیب بے یوسف بیلی" }
+names:
+  - { value: "Nasib bey Yusif bey oghlu Yusifbeyli", kind: full }
+  - { value: "Nəsib bəy Yusif bəy oğlu Yusifbəyli", kind: full }
+  - { value: "Nasib bey Usubbeyov", kind: alternate }
+  - { value: "Nasib-bek Usubbekov", kind: alternate }
+gender: male
+summary:
+  ar: "صحفي وسياسي أذربيجاني (1881–1920)، مؤسس حزب الفيدراليين الأتراك الذي اندمج في مساوات، ووزير المالية ثم التعليم في أول حكومة أذربيجانية، ورئيس مجلس الوزراء (1919–1920)؛ قُتل سنة 1920 وهو فارّ من باكو بعد سقوط الجمهورية."
+  en: "Azerbaijani publicist and statesman (1881–1920), founder of the Party of Turkic Federalists that merged into Musavat, finance and then education minister in the first Azerbaijani cabinet, and chairman of the Council of Ministers (1919–1920); killed in 1920 fleeing Baku after the republic's fall."
+  ur: "آذربائیجانی صحافی اور سیاست دان (1881–1920)، ترک وفاقیوں کی جماعت کے بانی جو مساوات میں ضم ہوئی؛ پہلی آذربائیجانی کابینہ میں وزیرِ خزانہ و تعلیم اور بعد ازاں وزیرِ اعظم (1919–1920)؛ 1920 میں باکو سے فرار کے دوران قتل ہوئے۔"
+roles: [politician, journalist]
+wings: [people]
+regions: [persia-central-asia]
+born:
+  edtf: "1881-07-05"
+  hijri: "1298"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Ganja (then Elisavetpol), in the Russian Empire, on 5 July 1881; the English and Russian articles and Wikidata give the day, the Azerbaijani and Arabic articles the year. The Hijri year 1298 is the tabular conversion. The museum has no place entity for Ganja, so no born_in edge is written."
+  sources: [source/wikipedia-nasib-bey-yusifbeyli-en, source/wikipedia-nasib-bey-yusifbeyli-ru, source/wikidata-nasib-bey-yusifbeyli]
+died:
+  edtf: "1920-05-31"
+  hijri: "1338"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Murdered on 31 May 1920 after fleeing Baku ahead of the Bolshevik takeover: the Russian article places his death at Kurdamir, the Arabic article at Qarkhun village in Kurdamir district, and the English infobox says 'outside of Baku'; the Azerbaijani article records that some sources put the killing in early May. The day recorded follows the English and Russian articles and Wikidata. The Hijri year 1338 is the tabular conversion. The museum has no place entity for Kurdamir, so no died_in edge is written."
+  sources: [source/wikipedia-nasib-bey-yusifbeyli-en, source/wikipedia-nasib-bey-yusifbeyli-ru, source/wikipedia-nasib-bey-yusifbeyli-ar, source/wikidata-nasib-bey-yusifbeyli]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No consulted source names a branch or school for Yusifbeyli himself. The English article's text is silent on his religion and its categories file him only under 'Azerbaijani Muslims' generically; the Azerbaijani and Arabic articles are likewise silent. The Russian article's only religion-adjacent statement is that his 1918 portfolio was Minister of Public Education and for Religious Affairs — an office he held, not an attestation of his personal belief. Wikidata's only religion value is Islam (Q432) in the generic, which names no school. His marriage to Shafiga, daughter of Ismail Gasprinsky, is family background, and his years writing for Gasprinsky's Terciman are employment, not attestation. Under the two-source rule and the doubt rule his faith is recorded unknown."
+    sources: [source/wikipedia-nasib-bey-yusifbeyli-en, source/wikipedia-nasib-bey-yusifbeyli-ru, source/wikidata-nasib-bey-yusifbeyli]
+relations:
+  - type: lived_in
+    target: place/istanbul
+    note: "Resident in Istanbul from 1908, where he worked as a publicist and founded the Turkic Society, before returning to Ganja in 1909, per the English article; the Arabic article confirms the Istanbul period and the Society's founding. Direction: this edge is written once, in Yusifbeyli's own record, pointing from him to Istanbul as a place he lived in."
+    sources: [source/wikipedia-nasib-bey-yusifbeyli-en, source/wikipedia-nasib-bey-yusifbeyli-ar]
+external_ids: { wikidata: "Q2660781" }
+sources: [source/wikipedia-nasib-bey-yusifbeyli-en, source/wikipedia-nasib-bey-yusifbeyli-az, source/wikipedia-nasib-bey-yusifbeyli-ru, source/wikipedia-nasib-bey-yusifbeyli-ar, source/wikidata-nasib-bey-yusifbeyli]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nasib bey Yusifbeyli' (revision 1367450564), Azerbaijani Wikipedia 'Nəsib bəy Yusifbəyli' (8809366), Russian Wikipedia 'Усуббеков, Насиб-бек Юсиф оглы' (154227355) and Arabic Wikipedia 'نصيب بك يوسف بكلي' (73095332), all read on 26 October 2026, with Wikidata item Q2660781. The queue gives 1881–1920, confirmed exactly. His premiership is recorded from the English article (14 April 1919 – 1 April 1920); the Arabic article starts it in March 1919 and the Russian article ends it in March 1920 — the variation is disclosed here and in the sources' reliability notes. His faith is recorded unknown: no article attests an affiliation and Wikidata gives only Islam generically, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-33
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

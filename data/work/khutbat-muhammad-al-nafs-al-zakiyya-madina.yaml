@@ -1,0 +1,23 @@
+id: work/khutbat-muhammad-al-nafs-al-zakiyya-madina
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/muhammad-al-nafs-al-zakiyya }
+label: { ar: "خطبة محمد النفس الزكية بالمدينة حين خرج على المنصور", en: "Muhammad al-Nafs al-Zakiyya's sermon in Medina at his revolt against al-Mansur", ur: "محمد النفس الزکیہ کا مدینہ میں منصور کے خلاف بغاوت کے وقت خطبہ" }
+summary:
+  ar: "خطبة محمد بن عبد الله بن الحسن على منبر المدينة حين خرج على المنصور سنة 145هـ، يتهم فيها الخليفة بالظلم والتغيير، ويدعو الناس إلى القيام."
+  en: "Muhammad ibn Abd Allah ibn al-Hasan's sermon from the Medina pulpit when he rose against al-Mansur in 145 AH. He accuses the caliph of injustice and calls the people to rise."
+  ur: "145 ہجری میں منصور کے خلاف اٹھنے پر مدینہ کے منبر سے محمد بن عبداللہ بن حسن کا خطبہ، جس میں وہ خلیفہ پر ظلم اور تبدیلی کا الزام لگاتے ہیں اور لوگوں کو اٹھنے کی دعوت دیتے ہیں۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/muhammad-al-nafs-al-zakiyya]
+composed: { hijri: "0145", edtf: "0762", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 37", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-3 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }

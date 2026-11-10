@@ -11,13 +11,13 @@ export const rel = (f: string) => relative(ROOT, f);
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "course",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award", "course",
 ] as const;
 export type EntityClass = (typeof CLASSES)[number];
 // Languages that have UI strings (i18n/<lang>.yaml); prose may exist in any of them.
-export const LANGS = ["en", "ar"] as const;
-// Languages the site publishes now (docs/language.md): Arabic only through Phase 3; English and others arrive in Phase 4 by translation.
-export const PUBLISHED_LANGS = ["ar"] as const;
+export const LANGS = ["en", "ar", "ur"] as const;
+// Languages the site publishes now (docs/language.md): Arabic canonical, English published as its Phase-4 translation.
+export const PUBLISHED_LANGS = ["ar", "en", "ur"] as const;
 
 export type Localized = Record<string, string>;
 export interface Entity {
@@ -46,29 +46,76 @@ export function loadEnumIds(name: string): string[] {
 }
 
 export interface Stub { id: string; label?: Localized; note?: string }
-export function loadStubs(): Stub[] {
-  // data/_stubs.yaml plus any data/_stubs.d/*.yaml, so parallel contributors never edit the same file
-  const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
-  return files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
+// Parsing ~17,000 entity files and ~2,000 prose files takes seconds, and the pipeline tests load them once
+// per test. The parsed result is kept for the life of the process and handed out as a fresh deep copy, so a
+// caller that mutates its copy cannot change what the next caller sees. A test that edits a data or content
+// file on disk must call clearRepoCache() before it reads the repository again.
+let entityCache: { entity: Entity; file: string }[] | null = null;
+let stubCache: Stub[] | null = null;
+let proseCache: Prose[] | null = null;
+
+export function clearRepoCache(): void {
+  entityCache = null;
+  stubCache = null;
+  proseCache = null;
 }
 
-export function loadEntities(): { entity: Entity; file: string }[] {
-  const out: { entity: Entity; file: string }[] = [];
-  for (const cls of CLASSES) {
-    for (const file of listFiles(p("data", cls), ".yaml")) out.push({ entity: readYaml<Entity>(file), file });
+// `shared: true` returns the cached array itself instead of a copy: the caller promises to only read it and never
+// to change it or anything inside it. Copying ~17,000 entities costs seconds, and a read-only check does not need it.
+export function loadStubs(opts: { shared?: boolean } = {}): Stub[] {
+  // data/_stubs.yaml plus any data/_stubs.d/*.yaml, so parallel contributors never edit the same file
+  if (!stubCache) {
+    const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
+    stubCache = files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
   }
-  return out;
+  return opts.shared ? stubCache : structuredClone(stubCache);
+}
+
+export function loadEntities(opts: { shared?: boolean } = {}): { entity: Entity; file: string }[] {
+  if (!entityCache) {
+    const out: { entity: Entity; file: string }[] = [];
+    for (const cls of CLASSES) {
+      for (const file of listFiles(p("data", cls), ".yaml")) out.push({ entity: readYaml<Entity>(file), file });
+    }
+    entityCache = out;
+  }
+  return opts.shared ? entityCache : structuredClone(entityCache);
+}
+
+/** Read one prose file (content/<lang>/<class>/<slug>.md); null for anything not at that depth (content/<lang>/_pages/*). */
+function readProseFile(file: string): Prose | null {
+  const r = rel(file).split("/"); // content/<lang>/<class>/<slug>.md
+  if (r.length !== 4) return null;
+  const raw = readFileSync(file, "utf8");
+  const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const fm = m ? (parse(m[1]) ?? {}) : {};
+  return { id: `${r[2]}/${r[3].replace(/\.md$/, "")}`, lang: r[1], file, frontmatter: fm, body: m ? m[2] : raw };
 }
 
 export function loadProse(): Prose[] {
+  if (!proseCache) {
+    const out: Prose[] = [];
+    for (const file of listFiles(p("content"), ".md")) {
+      const item = readProseFile(file);
+      if (item) out.push(item);
+    }
+    proseCache = out;
+  }
+  return structuredClone(proseCache);
+}
+
+/** The prose files of just these entity ids, in these languages, read straight from disk (no repository-wide scan). */
+export function loadProseFor(ids: Iterable<string>, langs: readonly string[]): Prose[] {
   const out: Prose[] = [];
-  for (const file of listFiles(p("content"), ".md")) {
-    const r = rel(file).split("/"); // content/<lang>/<class>/<slug>.md
-    if (r.length !== 4) continue; // skips content/<lang>/_pages/*
-    const raw = readFileSync(file, "utf8");
-    const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
-    const fm = m ? (parse(m[1]) ?? {}) : {};
-    out.push({ id: `${r[2]}/${r[3].replace(/\.md$/, "")}`, lang: r[1], file, frontmatter: fm, body: m ? m[2] : raw });
+  for (const id of ids) {
+    if (typeof id !== "string" || !/^[a-z]+\/[a-z0-9-]+$/.test(id)) continue; // only well-formed class/slug ids name a path
+    const [cls, slug] = id.split("/");
+    for (const lang of langs) {
+      const file = p("content", lang, cls, `${slug}.md`);
+      if (!existsSync(file)) continue;
+      const item = readProseFile(file);
+      if (item) out.push(item);
+    }
   }
   return out;
 }
@@ -80,10 +127,20 @@ export function msToYear(ms: number): number {
 }
 export interface Range { earliest: number; latest: number }
 
-/** Parse an EDTF string into a numeric year range; throws on invalid input. */
+/**
+ * Parse an EDTF string into a numeric year range; throws on invalid input.
+ * An open-ended interval ("1079/.." is "1079 or later", "../1079" is "1079 or earlier", "1079/" is "end unknown") has an
+ * infinite or null bound in the EDTF library. A bound that is not a finite number would reach graph.json as null and stop
+ * the build (derive.ts calls toFixed on it, 6 Nov 2026: one record with died "1079/.." failed every build of main), so the
+ * open side takes the known side's value: the range is then the one point we know, and nothing is invented. An interval open
+ * on both sides ("../..") carries no date and throws.
+ */
 export function edtfRange(s: string): Range {
   const d: any = edtf(s);
-  return { earliest: msToYear(d.min), latest: msToYear(d.max) };
+  const lo = Number.isFinite(d.min) ? d.min : d.max;
+  const hi = Number.isFinite(d.max) ? d.max : d.min;
+  if (!Number.isFinite(lo) || !Number.isFinite(hi)) throw new Error(`EDTF "${s}" is open on both sides: it has no date`);
+  return { earliest: msToYear(lo), latest: msToYear(hi) };
 }
 
 export function dateRange(d: any): Range | undefined {
@@ -98,7 +155,7 @@ export function parseRef(ref: string): { cls: string; slug: string } {
 }
 
 // ---------- predicates ----------
-export interface Predicate { inverse: string; domain: string[]; range: string[]; label: Localized; inverse_label: Localized; temporal: boolean }
+export interface Predicate { inverse: string; domain: string[]; range: string[]; label: Localized; inverse_label: Localized; temporal: boolean; derived?: boolean }
 export interface ResolvedPredicate { canonical: string; reversed: boolean; pred: Predicate }
 
 export function loadPredicates(): Record<string, Predicate> {
@@ -113,4 +170,25 @@ export function resolvePredicates(preds: Record<string, Predicate>): Map<string,
     if (!m.has(pred.inverse)) m.set(pred.inverse, { canonical: name, reversed: true, pred });
   }
   return m;
+}
+
+export function resolvePredicate(
+  preds: Record<string, Predicate>,
+  name: string,
+  fromClass: string,
+  toClass: string,
+): ResolvedPredicate | undefined {
+  const candidates: ResolvedPredicate[] = [];
+  for (const [canonical, pred] of Object.entries(preds)) {
+    if (canonical === name) candidates.push({ canonical, reversed: false, pred });
+    else if (pred.inverse === name && pred.inverse !== canonical) candidates.push({ canonical, reversed: true, pred });
+  }
+  const includes = (classes: string[], cls: string) => classes.includes("*") || classes.includes(cls);
+  const matches = (candidate: ResolvedPredicate) => candidate.reversed
+    ? includes(candidate.pred.range, fromClass) && includes(candidate.pred.domain, toClass)
+    : includes(candidate.pred.domain, fromClass) && includes(candidate.pred.range, toClass);
+  const matching = candidates.filter(matches);
+  if (matching.length === 1) return matching[0];
+  if (matching.length > 1 || candidates.length > 1) return undefined;
+  return candidates[0];
 }

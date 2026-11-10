@@ -1,0 +1,15 @@
+---
+id: concept/ikhfa
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Definition
+Ikhfa' (concealment). In the lexicon it is covering and keeping secret; in the Qur'an, «they conceal within themselves what they do not show to you». It is transitive; ikhtifa' meaning to hide oneself is intransitive, the reflexive of ikhfa'. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1935}
+Related terms: al-israr (secrecy), which in the lexicon and as a term is the same, though it sometimes means disclosure, as in «they hid their remorse», meaning they showed it, so it is one of the words with opposite senses; and al-najwa, a private conversation with a companion, which is only speech, while concealment can be of speech or deed; the relation between them is general and particular. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936}
+The general ruling varies with the matter: {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936}
+First, concealing the intention. The Prophet and his Companions did not pronounce the intention, so it is recommended to conceal it, since its place is the heart; some say it is recommended to say it with the tongue. For the hajj and umra the Hanafis and Shafi'is hold it is sunna to utter it; the Hanbalis and a Maliki view hold it recommended to say what one is resolved on, to remove confusion; another Maliki view holds leaving it uttered is better, and another dislikes uttering it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936}
+Second, concealing alms and zakat. Al-Tabari and others report agreement that concealing voluntary alms is better and publishing obligatory alms is better, on the verse «if you conceal them and give them to the poor, it is better for you», and the hadith of the man who gave alms and concealed them until his left hand did not know what his right hand gave. Ibn Atiyya said that in his time concealing obligatory alms (zakat) may be better, since publishing invites display; and it is said that if the giver is someone followed and imitated, publishing is better. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1936} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}
+Third, the concealment of the new moon. If the new moon is hidden by cloud in Sha'ban or Ramadan, the count of the month is completed as thirty days, on the hadith: «fast by seeing it and break by seeing it; if it is hidden from you, complete the count of Sha'ban as thirty». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}
+Fourth, concealing faith. Two views: whoever believes in his heart in what the Messenger brought, and conceals it without uttering it, is a believer; others hold that uttering the two testimonies is a condition of faith or part of it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}
+Fifth, concealing dhikr. The early generations differed on whether silent remembrance is better than remembrance with the tongue; Izz al-Din ibn Abd al-Salam and Ibn Hajar al-Haytami held that the remembrance of the heart is better; al-Qadi Iyad and al-Bulqini preferred the work of the tongue. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1937}

@@ -1,0 +1,44 @@
+id: person/kibrisli-mehmed-emin-pasha
+class: person
+label:
+  ar: "محمد أمين باشا القبرصي"
+  en: "Kıbrıslı Mehmed Emin Pasha"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد أمين باشا القبرصي، الصدر الأعظم العثماني ثلاث مرات في عهد عبد المجيد؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Kıbrıslı Mehmed Emin Pasha, thrice Ottoman grand vizier under Abdülmecid; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/colonial-era]
+died: { edtf: "1871", precision: year, status: tradition, derived: true }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4250585
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    start: { edtf: "1854-05-29", precision: day, status: historical, sources: [source/tdv-mehmed-emin-pasa-kibrisli] }
+    end: { edtf: "1854-11-23", precision: day, status: historical, sources: [source/tdv-mehmed-emin-pasa-kibrisli] }
+    place: place/istanbul
+    status: historical
+    note: "First grand vizierate, from 29 May to 23 November 1854, on the proposal of Mustafa Reşid Pasha. The vizier rank given in 1848 before his London post is a rank and not an office, and is not recorded here. Recorded under vizier as the person's roles state (sadrazam)."
+    sources: [source/tdv-mehmed-emin-pasa-kibrisli]
+  - job: job/vizier
+    kind: primary
+    start: { edtf: "1859-10-18", precision: day, status: historical, sources: [source/tdv-mehmed-emin-pasa-kibrisli] }
+    place: place/istanbul
+    status: historical
+    note: "Second grand vizierate, from 18 October 1859. The end of this stint is not set here, because the entry's account beyond that date was not read for this record."
+    sources: [source/tdv-mehmed-emin-pasa-kibrisli]

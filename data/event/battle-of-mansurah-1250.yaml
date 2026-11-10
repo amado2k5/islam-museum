@@ -1,0 +1,23 @@
+id: event/battle-of-mansurah-1250
+class: event
+kind: battle
+label: { ar: "معركة المنصورة", en: "Battle of Mansurah" }
+summary:
+  ar: "بطاقة أولية لمعركة المنصورة سنة ١٢٥٠م، هزيمة الحملة الصليبية السابعة على النيل وأسر لويس التاسع؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mansurah in 1250, the Seventh Crusade's defeat on the Nile and the capture of Louis IX; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1250", precision: year, status: tradition, derived: true }
+  end: { edtf: "1250", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q2528398
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

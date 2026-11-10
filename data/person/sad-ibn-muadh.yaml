@@ -1,6 +1,15 @@
 id: person/sad-ibn-muadh
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "سعد بن معاذ سيد الأوس وحامل راية الأنصار يوم بدر، وأجاب في مشورة الخروج إليها ببيعة القتال خارج الديار."
+    en: "Sa'd ibn Mu'adh, chief of the Aws and the Ansar's standard-bearer at Badr, pledged on their behalf to fight beyond their homes in the pre-battle council."
+    ur: "سعد بن معاذ، قبیلہ اوس کے سردار اور بدر میں انصار کے علمبردار؛ بدر سے پہلے مشورے میں انہوں نے اپنے گھر سے باہر لڑنے کی بیعت کی۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: person
-label: { en: "Sa'd ibn Mu'adh", ar: "سعد بن معاذ" }
+label: { en: "Sa'd ibn Mu'adh", ar: "سعد بن معاذ" , ur: "سعد بن معاذ"}
 names:
   - { kind: full, lang: ar, value: "سعد بن معاذ بن النعمان بن إمرئ القيس الأوسي" }
   - { kind: kunya, lang: ar, value: "أبو عمرو" }
@@ -10,7 +19,8 @@ roles: [companion, commander]
 traditions: [sunni]
 summary:
   en: "Chief of the Aws and standard-bearer of the Ansar at Badr, where he pledged the Ansar's full support in the war council and proposed building the command shelter; later gave the ruling on Banu Qurayza and died of a wound received then."
-  ar: "سيد الأوس وحامل راية الأنصار يوم بدر؛ أجاب عن الأنصار في المجلس الاستشاري ببيعة القتال خارج ديارهم، واقترح بناء العريش مقراً للقيادة؛ حكم بعدئذ في بني قريظة ومات من جرح أصابه فيها."
+  ar: "سيد الأوس وحامل راية الأنصار يوم بدر؛ أجاب عن الأنصار في المجلس الاستشاري ببيعة القتال خارج ديارهم، واقترح بناء العريش مقراً للقيادة؛ حكم بعدئذ في بني قريظة ومات من جرح أصابه فيها. وكان قد نجا يوم بعاث قبل الإسلام حين خرج فأجاره عمرو بن الجموح الحرامي {cite:samhudi-wafa-al-wafa p. 228}. وفي الصحيح أن النبي قال عند موته «اهتز عرش الرحمن لموت سعد بن معاذ» {cite:sahih-al-bukhari 3803}، ولما نزلت بنو قريظة على حكمه قال «قوموا إلى سيدكم» فحكم بقتل مقاتلتهم وسبي ذراريهم فقال «حكمت بحكم الله» {cite:sahih-al-bukhari 3804}، وللحديث رواية في مسلم عن جابر وجنازة سعد بين أيديهم {cite:sahih-muslim 2466}."
+  ur: "اوس کے سردار اور بدر میں انصار کے علم بردار؛ بنو قریظہ کے بارے میں فیصلہ دیا اور اس دور میں لگنے والے زخم سے وفات پائی۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -22,9 +32,22 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "مسلم أوسي من أهل بيعة العقبة؛ يسجَّل في الإطار السني للمتحف (docs/scope.md)." }
 relations:
+  - { type: child_of, target: person/kabsha-bint-rafi, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr, role: "حامل راية الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/badr-council, role: "أجاب عن الأنصار", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 209, 212)" }
+  - { type: member_of, target: group/sahaba, sources: [source/tabaqat-ibn-sad] }
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+external_ids:
+  wikidata: Q2002479
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hajar-isaba, source/fadail-sahaba-ahmad-wasi-allah-1999, source/great-women-of-islam-ghadanfar-darussalam]
+status: { review: published, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 209, 212)" }
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}

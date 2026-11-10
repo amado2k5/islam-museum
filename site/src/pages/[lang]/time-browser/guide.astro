@@ -1,0 +1,34 @@
+---
+// "What we offer": the Time Browser user guide (DESIGN decision, TB5). Static text from i18n, no AI, no sign-in.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const B = T.time_browser;
+// Lists are kept as one string with "|" between items, so each language reads naturally.
+const items = (s: string) => s.split("|").filter((x) => x.trim().length > 0);
+---
+<BaseLayout lang={lang} title={B.guide_title} description={B.guide_lede} path={`/${lang}/time-browser/guide/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p><a href={`/${lang}/time-browser/`}>{B.guide_back}</a></p>
+    <h1>{B.guide_title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{B.guide_lede}</p>
+
+    <section aria-labelledby="g-feat">
+      <h2 id="g-feat">{B.guide_features_title}</h2>
+      <ul>{items(B.guide_feature_list).map((x) => <li>{x}</li>)}</ul>
+    </section>
+
+    <section aria-labelledby="g-use">
+      <h2 id="g-use">{B.guide_usage_title}</h2>
+      <ul>{items(B.guide_usage_list).map((x) => <li>{x}</li>)}</ul>
+    </section>
+
+    <section aria-labelledby="g-lim">
+      <h2 id="g-lim">{B.guide_limits_title}</h2>
+      <ul>{items(B.guide_limits_list).map((x) => <li>{x}</li>)}</ul>
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,29 @@
+id: person/al-husayn-ibn-al-siddiq-al-ahdal
+class: person
+label:
+  ar: "حسين بن الصديق الأهدل"
+  en: "al-Husayn ibn al-Siddiq al-Ahdal"
+roles: [scholar, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لحسين بن الصديق الأهدل، محدث وفقيه وشاعر يمني القرن الخامس عشر، توفي سنة ١٤٩٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Husayn ibn al-Siddiq al-Ahdal, the fifteenth-century Yemeni muhaddith, jurist and poet, d. 1498; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28713178
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0061
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1447", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/240; 851–909 AH)" }
+died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/240; 851–909 AH)" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (يمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

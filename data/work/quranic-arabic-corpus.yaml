@@ -1,0 +1,39 @@
+id: work/quranic-arabic-corpus
+class: work
+kind: website
+label:
+  ar: "المدونة القرآنية العربية (Quranic Arabic Corpus)"
+  en: "Quranic Arabic Corpus"
+  ur: "قرآنی عربی کارپس"
+summary:
+  ar: "مورد لغوي على الإنترنت يوسم كل كلمة من كلمات القرآن البالغة 77,430 كلمة صرفيًا ونحويًا على إطار الإعراب العربي التقليدي، ويعرض الإعراب في رسوم تبعية، ومعجمًا صرفيًا وفهرسًا بالجذور وترجمة كلمة بكلمة من ترجمات إنجليزية معتمدة؛ يقوده كايس دوكس في جامعة ليدز بإشراف إريك أتويل، وأُطلق في نوفمبر 2009 على corpus.quran.com."
+  en: "An online linguistic resource that tags each of the Qur'an's 77,430 words for morphology and syntax within the framework of traditional Arabic i'rab, showing the grammar as dependency graphs, with a morphological lexicon, a concordance by lemma and a word-by-word translation drawn from accepted English translations; led by Kais Dukes at the University of Leeds under Eric Atwell, it was first released in November 2009 at corpus.quran.com."
+  ur: "آن لائن لسانی وسیلہ جو قرآن کے 77,430 الفاظ میں سے ہر ایک کو روایتی عربی اعراب کے ڈھانچے میں صرفی اور نحوی طور پر نشان زد کرتا ہے، اعراب کو انحصاری خاکوں میں دکھاتا ہے، اور صرفی لغت، مادوں کی فہرست اور معتبر انگریزی تراجم سے لفظ بہ لفظ ترجمہ دیتا ہے؛ جامعہ لیڈز میں کائس ڈیوکس کی قیادت اور ایرک ایٹویل کی نگرانی میں، نومبر 2009 میں corpus.quran.com پر جاری ہوا۔"
+wings: [words]
+url: "https://corpus.quran.com"
+launched:
+  edtf: "2009-11"
+  hijri: "1430~"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Initial release November 2009, by the English article's infobox; the project's papers of 2010 and 2011 describe it. The Hijri year (1430) is converter-derived."
+  sources: [source/wikipedia-quranic-arabic-corpus-en]
+languages: [ar, en]
+content_type: academic
+relations:
+  - { type: about, target: work/quran, note: "the language of the Qur'an, word by word; the text is shown from the corpus, never typed here", sources: [source/wikipedia-quranic-arabic-corpus-en] }
+footprint:
+  wikipedia: { languages: [ar, en, id, ms, ru], checked: "2026-11-06", sources: [source/wikidata-quranic-arabic-corpus] }
+  wikidata: "Q7272925"
+external_ids:
+  wikidata: Q7272925
+sources: [source/wikipedia-quranic-arabic-corpus-en, source/wikidata-quranic-arabic-corpus]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Quranic Arabic Corpus' (revision 1375079606, 15 September 2026) and Wikidata Q7272925, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b06
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

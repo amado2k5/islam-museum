@@ -1,0 +1,23 @@
+id: event/byzantine-ottoman-wars
+class: event
+kind: war
+label: { ar: "الحروب البيزنطية العثمانية", en: "Byzantine–Ottoman wars" }
+summary:
+  ar: "بطاقة أولية للحروب البيزنطية العثمانية، سلسلة الصراعات من قيام الدولة العثمانية حتى سقوط القسطنطينية وما بعدها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Byzantine–Ottoman wars, the long series of conflicts from the rise of the Ottoman state through the fall of Constantinople and beyond; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1299", precision: year, status: tradition, derived: true }
+  end: { edtf: "1463", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q630259
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; wars attested in Byzantine and Ottoman surveys — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

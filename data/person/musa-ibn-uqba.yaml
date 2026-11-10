@@ -1,0 +1,25 @@
+id: person/musa-ibn-uqba
+class: person
+label: { ar: "موسى بن عقبة" }
+names:
+  - { kind: full, lang: ar, value: "موسى بن عقبة" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "موسى بن عقبة، مدني من الطبقة الثانية من كتّاب المغازي، مات سنة ١٤١هـ {cite:duha-islam p. 639}؛ ذاع صيت مغازيه في كتب المتأخرين حتى فضّله بعض أهل الحديث."
+  en: "Musa ibn Uqba — Medinan second-tier maghazi author (d. 141), whose Kitab al-Maghazi won lasting fame in the later tradition {cite:duha-islam p. 639}."
+died: { edtf: "0758", hijri: "0141", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة ١٤١هـ {cite:duha-islam p. 639}." }
+wings: [people]
+periods: [period/umayyad, period/abbasid-early]
+regions: [arabia]
+external_ids: { wikidata: "Q18397639" }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+sources: [source/duha-islam, source/sahih-sira-umari-ulum-hikam-1994]
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on al-Umari's assessment in al-Sira al-Nabawiyya al-Sahiha, source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 41,55-56"
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 639"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-3
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

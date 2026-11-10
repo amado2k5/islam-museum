@@ -1,0 +1,30 @@
+id: person/ibn-al-qawba
+class: person
+label:
+  ar: "ابن القوبع"
+  en: "Ibn al-Qawba'"
+roles: [jurist, physician]
+gender: male
+summary:
+  ar: "محمد الجعفري «ابن القوبع»، فقيه مالكي وحكيم وطبيب وشاعر، من تونس واستقر بالقاهرة؛ توفي سنة 738هـ ⁦(1338م)⁩."
+  en: "Muhammad Ibn al-Qawba' al-Ja'fari (1266–1338), Tunisian Maliki jurist, physician and poet settled at Cairo."
+wings: [people]
+regions: [maghreb]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1266", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1337", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: born_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57749726
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.34)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
+status:
+  review: published
+  completeness: 3

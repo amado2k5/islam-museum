@@ -1,0 +1,41 @@
+id: person/jibril-ibn-bukhtishu
+class: person
+label: { ar: "جبرائيل بن بختيشوع بن جرجيس", en: "Jibril ibn Bukhtishu ibn Jirjis" }
+names:
+  - { kind: full, lang: ar, value: "جبرائيل بن بختيشوع بن جرجيس" }
+gender: male
+roles: [physician]
+traditions: []
+relations:
+  - { type: lived_in, target: place/jundishapur, confidence: low, note: "Associated with جنديسابور per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - value: christian
+    basis: documented
+    note: "TDV's BUHTÎŞÛ‘ entry explicitly describes the medical family as Nestorian Christian and identifies this physician in section 3. This corrects the unsourced Sunni tag; he is credited in the Baghdad hospital story, not listed as a Sunni Muslim maker."
+    sources: [source/tdv-buhtisu]
+died: { edtf: "0830", hijri: "0215", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب درس في بيمارستان جنديسابور، وخدم الخلفاء الرشيد وغيره، ولد وعاش في جنديسابور. وعند المسعودي منع الرشيد عن سمكة أهديت له بالحيرة فجعل في ثلاثة أقداح قطعاً منها وصب على واحد خمراً وعلى الثاني ماءً بثلج وخلط الثالث بألوان الطعام، فلما انتبه الرشيد وجد ما صب عليه الخمر قد تفتت وما في الماء قد ربا وما خالطه الطعام قد تغيرت رائحته وحدثت له سهوكة، فحمل إليه خمسة آلاف دينار وقال من يلومني على محبة هذا الرجل {cite:muruj-al-dhahab p. 332-333}"
+  en: "A physician who studied at the hospital of Gundishapur and served the caliphs including al-Rashid. He was born and lived in Gundishapur."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab, source/tdv-buhtisu]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص227"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/muruj-al-dhahab]

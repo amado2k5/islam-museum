@@ -1,0 +1,29 @@
+---
+id: person/maryam
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+مريم بنت عمران أم عيسى. تذكر بيانات المتحف حديثين من صحيح البخاري عنها. {cite:sahih-al-bukhari 3411}
+
+## في الحديث
+عد النبي مريم في كاملات النساء مع آسية امرأة فرعون. {cite:sahih-al-bukhari 3411}
+
+واستثناها وابنها من طعن الشيطان الذي يلقى كل مولود. {cite:sahih-al-bukhari 3431}
+
+يحتاج إلى مصدر إضافي: بقية سيرتها وسائر ما ورد فيها.
+
+## في دروس يوسف القرضاوي «تأملات قرآنية»
+يحكي [[person/yusuf-al-qaradawi|يوسف القرضاوي]] أن امرأة عمران مات زوجها وفي بطنها جنين ظنته ذكرًا فنذرته لخدمة المعبد، فلما وضعتها أنثى سمّتها مريم على اسم أخت موسى بحسب ما قيل، واستعاذت لها ولذريتها من الشيطان ⁦([[passage/quran-3-35|آل عمران 35]]، [[passage/quran-3-36|36]])⁩. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:03:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:06:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:06:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:07:00} ويقول إن الله تقبّلها وأنبتها نباتًا حسنًا، وكفلها [[person/zakariyya|زكريا]] شيخ الأحبار، وإن الرزق الذي كان يجده عندها كرامة من الله ⁦([[passage/quran-3-37|آل عمران 37]])⁩. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:07:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:08:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:10:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep02 00:11:00} ويقول إن في القرآن سورة باسمها، وليس فيه سورة باسم أم النبي ولا باسم خديجة ولا فاطمة. {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:02:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-1/ep01 00:03:00}
+
+## في برنامج طارق السويدان «نساء خالدات»
+يخصص [[person/tariq-al-suwaidan|طارق السويدان]] الحلقتين الرابعة عشرة والخامسة عشرة من برنامجه [[work/nesaa-khalidat-program|«نساء خالدات»]] لمريم بنت عمران، «لعلها أعظم امرأة في التاريخ». {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:01:00} يذكر حديث الكاملات الأربع والروايات التي تجعلها أفضلهن، ويعدّها من الصدّيقات، وهي المرتبة التي تلي الأنبياء. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:01:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:02:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:02:00} ويقول إن الأنبياء لم يُبعثوا إلا من الرجال، وإن هؤلاء النساء بلغن الكمال البشري الذي بلغه الأنبياء. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:01:30} وكانت أمها عابدة في بيت المقدس في زمن زكريا، فنذرت ما في بطنها لخدمة المعبد، ففوجئت بأنها أنثى، فسمّتها مريم وأعاذتها بالله. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:02:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:05:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:05:30} ويرى في قبول الله لها أنه لا شيء يمنع المرأة من خدمة الدين كما يخدمه الرجل. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:07:30}
+
+ويروي أن الكفلاء ألقوا أقلامهم في نهر، «قيل نهر الأردن»، ليعرفوا من يكفلها، فلم يجرِ عكس التيار إلا قلم زكريا. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:09:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:09:30} وكان زكريا يجد عندها فاكهة في غير أوانها مرة بعد مرة، فتقول إنها من عند الله. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:11:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:12:00} واعتزلت في مكان شرقي بيت المقدس للعبادة حتى بلغت خمس عشرة سنة، ولذلك سُمّيت البتول. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:14:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:15:00} وجاءها جبريل في صورة بشر فحملت. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:19:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep14 00:22:00}
+
+وفي الحلقة الثانية ينقل رواية عن ابن الأثير في حوار بينها وبين ابن عمها يوسف النجار في ولد بلا أب، ويقول «الله أعلم بصحتها». {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:03:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:06:30} واعتزلت في مكان قصي، وولدت وحدها عند جذع نخلة، وتمنّت في شدتها لو ماتت قبل ذلك، ويعدّ من أسمائها الطاهرة والبتول والعذراء. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:07:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:08:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:09:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:10:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:10:30} ويستخلص من هزّها جذع النخلة على ضعفها أن على الإنسان أن يعمل ولو قليلًا، لا أن يكتفي بالدعاء. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:12:30} وحملت الطفل إلى قومها وأشارت إليه فتكلم. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:16:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:19:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:20:00} وخافت عليه، «فقيل» ذهبت به إلى بيت لحم، «وقيل» إلى مصر. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:24:00} ويقول إنها عاشت حتى رُفع عيسى ثم ماتت موتًا طبيعيًا، فهي عنده أعظم نموذج للمرأة العابدة المتبتلة. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:26:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep15 00:27:00}
+
+## من سلسلة «قصة و عبرة» لعمر عبد الكافي
+في الحلقة الثانية يذكر قصتها، فيذكر مخاضها عند جذع النخلة معجزةً، ثم كلام الوليد في المهد بإقراره بعبوديته لله. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep02 00:06:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep02 00:07:00}
+وفي الحلقة التاسعة عشرة يذكر أن الإنسان لا ينظر إلى ظواهر الأسباب فقط بل يتخذها ويتركها؛ فمريم في المحراب لم تُؤمر بترك الأسباب في ساعة العافية لكنها أُمرت في ساعة التعب «وهزّي إليك بجذع النخلة تساقط عليك رطبًا جنيًّا»، فرب الأسباب يهيئ الأسباب. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep19 00:05:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep19 00:06:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep19 00:06:30}

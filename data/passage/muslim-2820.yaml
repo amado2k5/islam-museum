@@ -1,0 +1,16 @@
+id: passage/muslim-2820
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2820"
+label: { ar: "مسلم 2820 — أفلا أكون عبداً شكوراً", en: "Muslim 2820 — Should I not be a thankful servant" }
+text: "صلى النبي حتى انتفخت قدماه، فقيل له: أتكلف هذا وقد غفر الله لك ما تقدم من ذنبك وما تأخر؟ فقال: «أفلا أكون عبداً شكوراً؟»"
+summary:
+  ar: "رواية المغيرة بن شعبة في كتاب صلاة المسافرين/صحيح مسلم؛ قيام النبي الليل حتى تنتفخ قدماه وجوابه «أفلا أكون عبداً شكوراً» — أصل العبادة شكراً لا استجلاباً للمغفرة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/al-mughira-ibn-shuba, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/zuhd, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، باب إكثار الأعمال والاجتهاد في العبادة (طبعة دار التأصيل، الحديث 7303؛ ترقيم عبد الباقي المعروف 2820)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

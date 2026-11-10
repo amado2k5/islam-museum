@@ -1,0 +1,20 @@
+id: hadithbd.com
+kind: website
+url: https://www.hadithbd.com
+tier: T5
+status: not-verified
+allowed_uses: []
+owner: Developer named in the privacy policy (Rokonul Haque); no method page found
+evidence:
+- Lists two Abu Dawud editions with counts (5,274 and 5,184)
+checks:
+- date: '2026-10-25'
+  type: text comparison, 1 row
+  basis: Google snippet of a hadithbd page; not a named edition
+  result: matched
+  valid: false
+history:
+- date: '2026-10-25'
+  event: registered as not verified; no use allowed until a method and editions are
+    checked
+retrieved_on: '2026-10-25'

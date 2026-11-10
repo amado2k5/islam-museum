@@ -1,0 +1,36 @@
+id: person/muhammad-ibn-ibrahim-al-mutatabbib
+class: person
+label: { ar: "محمد بن إبراهيم المتطبب", en: "Muhammad ibn Ibrahim al-Mutatabbib" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن إبراهيم المتطبب" }
+gender: male
+roles: [physician]
+traditions: [sunni]
+died: { edtf: "1620", hijri: "1029", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب خاص للسلطان العثماني أحمد الأول، ارتقى العرش سنة 1603م."
+  en: "Personal physician to the Ottoman sultan Ahmad I, who ascended the throne in 1603."
+wings: [people]
+themes: [medicine]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/constantinople, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص741"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

@@ -1,0 +1,29 @@
+id: person/ali-ahmad-salus
+class: person
+label:
+  ar: "علي أحمد سالوس"
+  en: "Ali Ahmad Salus"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي أحمد سالوس؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ali Ahmad Salus; the entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/contemporary-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12227889
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries" }
+died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary obituaries" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

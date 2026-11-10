@@ -1,0 +1,33 @@
+id: person/ibn-baz-abd-al-aziz
+class: person
+label: { ar: "ابن باز عبد العزيز بن عبد الله", en: "Ibn Baz, Abd al-Aziz ibn Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن عبد الله بن عبد الرحمن بن محمد بن عبد الله آل باز" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1912", hijri: "1330", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1999", hijri: "1420", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم سعودي ولد بالرياض سنة 1330هـ، وأصابه المرض في عينيه أثناء دراسته الأولى."
+  en: "A Saudi scholar born in Riyadh in 1330 AH. He lost his sight during his early studies."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/contemporary-era]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1982, sources: [source/wikipedia-king-faisal-prize-en] }
+relations:
+  - { type: lived_in, target: place/riyadh, confidence: low, note: "Associated with Riyadh per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص86"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch58

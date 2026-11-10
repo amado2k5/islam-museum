@@ -1,0 +1,77 @@
+id: exhibit/path-morocco-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن المغرب الأقصى
+  en: Cities of Morocco
+summary:
+  ar: 'مسار في المغرب الأقصى: فاس إدريس والقرويين، ومراكش يوسف بن تاشفين، والمرابطون والموحدون يتعاقبان.'
+  en: A trail through the far Maghreb.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: فاس
+    en: Fez
+  body:
+    ar: 'مدينة إدريس: القرويين والمدينة العتيقة.'
+    en: 'مدينة إدريس: القرويين والمدينة العتيقة.'
+  features:
+  - place/fez
+  - person/fatima-al-fihri
+- title:
+    ar: مراكش
+    en: Marrakesh
+  body:
+    ar: 'عاصمة المرابطين 1070: المدينة الحمراء.'
+    en: 'عاصمة المرابطين 1070: المدينة الحمراء.'
+  features:
+  - place/marrakesh
+  - polity/almoravid-dynasty
+- title:
+    ar: المرابطون
+    en: The Almoravids
+  body:
+    ar: يوسف بن تاشفين يوحد المغرب والأندلس.
+    en: يوسف بن تاشفين يوحد المغرب والأندلس.
+  features:
+  - polity/almoravid-dynasty
+  - place/marrakesh
+- title:
+    ar: الموحدون
+    en: The Almohads
+  body:
+    ar: 'ابن تومرت وعبد المؤمن: إمبراطورية التوحيد.'
+    en: 'ابن تومرت وعبد المؤمن: إمبراطورية التوحيد.'
+  features:
+  - person/muhammad-ibn-tumart
+  - person/abd-al-mumin-ibn-ali
+  - polity/almohad-caliphate
+- title:
+    ar: الغرب الإسلامي
+    en: The Islamic West
+  body:
+    ar: 'من فاس إلى قرطبة: حضارة واحدة.'
+    en: 'من فاس إلى قرطبة: حضارة واحدة.'
+  features:
+  - place/fez
+  - place/cordoba
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

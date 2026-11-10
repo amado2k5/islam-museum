@@ -1,0 +1,29 @@
+id: person/zayn-al-din-al-amidi
+class: person
+label:
+  ar: "زين الدين الآمدي"
+  en: "Zayn al-Din al-Amidi"
+roles: [jurist]
+gender: male
+summary:
+  ar: "علي بن أحمد «زين الدين الآمدي»، أول صانع للحروف التارزة، من أكابر الحنابلة، كفّ بصره وعرف بالفراسة؛ توفي سنة 714هـ ⁦(1314م)⁩."
+  en: "Zayn al-Din al-Amidi (d. 714/1314), Hanbali of Baghdad, first maker of the 'marking letters' price device."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+themes: [astronomy-and-timekeeping]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3574950
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.257)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch7
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1312", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

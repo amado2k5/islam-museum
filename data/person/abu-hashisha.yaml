@@ -1,0 +1,20 @@
+id: person/abu-hashisha
+class: person
+label: { ar: "أبو حشيشة", en: "Abu Hashisha" }
+summary:
+  ar: "محمد بن علي بن أمية أبو جعفر أبو حشيشة من ولد أبي أمية الكاتب، كان طنبوريا حاذقا في صنعته وزعم جحظة أنه أخذ عنه، وله كتاب المغني المجيد وكتاب أخبار الطنبوريين {cite:fihrist-ibn-al-nadim p. 448-449}."
+  en: "Abbasid tunbur virtuoso, author of the Tunburiyyin book {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch16
+died: { edtf: "890~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani, Kitab al-Aghani; Ibn al-Nadim, al-Fihrist" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Abbasid tunbur virtuoso from whom al-Jahiz learned; the court-music milieu was Baghdad.", sources: [source/fihrist-ibn-al-nadim], confidence: medium }

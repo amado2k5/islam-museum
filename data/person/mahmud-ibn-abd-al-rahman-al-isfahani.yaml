@@ -1,0 +1,31 @@
+id: person/mahmud-ibn-abd-al-rahman-al-isfahani
+class: person
+label:
+  ar: "محمود بن عبد الرحمن الأصفهاني"
+  en: "Mahmud ibn Abd al-Rahman al-Isfahani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمود بن عبد الرحمن الأصفهاني، فقيه فارسي القرن الرابع عشر، توفي سنة ١٣٤٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mahmud ibn Abd al-Rahman al-Isfahani, the fourteenth-century Persian jurist, d. 1349; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1275", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: born_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/city-of-the-dead, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57970695
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0055
+status:
+  review: draft
+  completeness: 1

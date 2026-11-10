@@ -1,0 +1,16 @@
+id: passage/muwatta-29-2468
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2468"
+label: { ar: "الموطأ 2468 — مالك: لا قود بين الصبيان وعمدهم خطأ", en: "Muwatta 2468" }
+summary:
+  ar: "قال مالك: الأمر المجتمع عليه عندنا أنه لا قود بين الصبيان، وأن عمدهم خطأ، ما لم تجب عليهم الحدود ويبلغوا الحلم، وأن قتل الصبي لا يكون إلا خطأ؛ فلو أن صبيا وكبيرا قتلا رجلا حرا خطأ، كان على عاقلة كل واحد منهما نصف الدية. {cite:muwatta-maruf-1997 p.420}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-29-uqul }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qawad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2468 at PDF p. 420; دية الخطأ في القتل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b82" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 420; matn excerpt at most 40 words" }

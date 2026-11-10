@@ -1,0 +1,34 @@
+id: person/abu-al-fadl-al-tabari
+class: person
+label:
+  ar: "أبو الفضل الطبري"
+  en: "Abu al-Fadl al-Tabari"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو الفضل الطبري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Fadl al-Tabari; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q134319454
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1020~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

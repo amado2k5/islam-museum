@@ -1,0 +1,28 @@
+id: person/said-ibn-makhlad
+class: person
+label: { ar: "صاعد بن مخلد" }
+gender: male
+summary:
+  ar: "وزير بني العباس ببغداد الملقب ذا الوزارتين؛ امتثل أحمد بن عبد الملك بن شهيد وزير عبد الرحمن الناصر اسمه فكان أول من تسمى بذو الوزارتين بالأندلس {cite:nafh-tib-maqqari p. 392}."
+  en: "The Abbasid wazir in Baghdad titled Dhu'l-Wizaratayn whose style Ibn Shuhayd emulated as the first so called in al-Andalus {cite:nafh-tib-maqqari p. 392}."
+roles: [vizier]
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-27
+external_ids: { wikidata: "Q7395440" }
+died: { edtf: "889", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/nafh-tib-maqqari]

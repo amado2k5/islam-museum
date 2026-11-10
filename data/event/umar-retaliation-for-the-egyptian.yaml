@@ -1,0 +1,41 @@
+id: event/umar-retaliation-for-the-egyptian
+class: event
+kind: court-ruling
+label:
+  ar: قصاص عمر للمصري من ابن عمرو بن العاص
+  en: Umar's retaliation for the Egyptian against Amr ibn al-As's son
+  ur: عمر کا مصری کے لیے عمرو بن العاص کے بیٹے سے قصاص
+summary:
+  ar: 'خبر يرويه ابن عبد الحكم عن أنس: أن رجلاً من أهل مصر سابق ابن عمرو بن العاص فسبقه، فضربه ابن عمرو بالسوط وهو يقول: أنا ابن الأكرمين، فأقدمهما عمر وأمر المصري فضربه، وقال لعمرو: مذ كم تعبّدتم الناس وقد ولدتهم أمهاتهم أحراراً؟ {cite:futuh-misr-amir-1999 p. 225} {cite:futuh-misr-amir-1999 p. 226}.'
+  en: 'A report Ibn Abd al-Hakam transmits from Anas: an Egyptian raced the son of Amr ibn al-As and beat him, and the son whipped him saying ''I am the son of the noblest''; Umar summoned both and had the Egyptian whip him, and said to Amr: ''Since when have you enslaved people, when their mothers bore them free?'' {cite:futuh-misr-amir-1999 p. 225} {cite:futuh-misr-amir-1999 p. 226}.'
+  ur: 'ایک روایت جو ابن عبد الحکم انس سے نقل کرتے ہیں: ایک مصری نے عمرو بن العاص کے بیٹے سے دوڑ لگائی اور جیت گیا، تو بیٹے نے اسے کوڑے مارے اور کہا: میں سب سے معزز لوگوں کا بیٹا ہوں؛ عمر نے دونوں کو بلایا، مصری سے اسے کوڑے لگوائے، اور عمرو سے کہا: تم نے کب سے لوگوں کو غلام بنا لیا جبکہ ان کی ماؤں نے انہیں آزاد جنا تھا؟ {cite:futuh-misr-amir-1999 p. 225} {cite:futuh-misr-amir-1999 p. 226}۔'
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: had_participant
+  target: person/umar-ibn-al-khattab
+  role: القاضي بالقصاص
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: والي مصر وأبو الضارب
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 224–226
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

@@ -1,0 +1,77 @@
+id: exhibit/path-cinema-saudi
+class: exhibit
+kind: trail
+label:
+  ar: السينما السعودية
+  en: Saudi Cinema
+summary:
+  ar: 'مسار في السينما الجديدة: وجدة الأولى، والمُرشحة المثالية، ورشاش وعمر التلفزيونية — المملكة تكتشف
+    الشاشة.'
+  en: A trail through the kingdom's new cinema.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: عمر
+    en: Umar
+  body:
+    ar: 'مسلسل عمر 2012: الخليفة يُجسد.'
+    en: 'مسلسل عمر 2012: الخليفة يُجسد.'
+  features:
+  - screen/umar-2012
+  - person/umar-ibn-al-khattab
+- title:
+    ar: المرشحة
+    en: The Candidate
+  body:
+    ar: 'وجدان الانتخابات: هيفاء المنصور.'
+    en: 'وجدان الانتخابات: هيفاء المنصور.'
+  features:
+  - screen/al-murashsha-al-mithaliyya-2019
+  - screen/nura-2023
+- title:
+    ar: رشاش
+    en: Rashash
+  body:
+    ar: 'الدراما البوليسية: 2021.'
+    en: 'الدراما البوليسية: 2021.'
+  features:
+  - screen/rashash-2021
+  - screen/mamalik-al-nar-2019
+- title:
+    ar: الوثائقي
+    en: Documentary
+  body:
+    ar: 'رحلة إلى مكة: الحج سينمائي.'
+    en: 'رحلة إلى مكة: الحج سينمائي.'
+  features:
+  - screen/rihla-ila-makka-2009
+  - practice/hajj
+- title:
+    ar: الجديد
+    en: The new wave
+  body:
+    ar: 'المثقلون ونورة: موجة 2023.'
+    en: 'المثقلون ونورة: موجة 2023.'
+  features:
+  - screen/al-mathqalun-2023
+  - screen/wadayan-julia-2023
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,38 @@
+id: person/ines-boubakri
+class: person
+label: { ar: "إيناس بوبكري", en: "Inès Boubakri", ur: "ایناس بوبکری" }
+names:
+  - { value: "Inès Boubakri", kind: full }
+  - { value: "إيناس بوبكري", kind: full }
+gender: female
+summary:
+  ar: "مبارزة تونسية في سلاح الشيش، وُلدت في تونس العاصمة سنة 1988. نالت برونزية أولمبياد ريو 2016 فكانت أول تونسية وأول أفريقية وعربية تفوز بميدالية أولمبية في المبارزة، وشاركت في أربع دورات أولمبية بين 2008 و2020."
+  en: "Tunisian foil fencer, born in Tunis in 1988. Her bronze medal at the Rio 2016 Olympics made her the first Tunisian, and the first African and Arab woman, to win an Olympic medal in fencing; she competed at four Olympic Games between 2008 and 2020."
+  ur: "تیونس کی فوائل فینسر، 1988 میں تیونس شہر میں پیدا ہوئیں۔ ریو 2016 اولمپکس میں ان کے کانسی کے تمغے نے انہیں فینسنگ میں اولمپک تمغہ جیتنے والی پہلی تیونسی اور پہلی افریقی و عرب خاتون بنایا؛ وہ 2008 سے 2020 تک چار اولمپک کھیلوں میں شریک ہوئیں۔"
+roles: [fencer]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1988-12-28"
+  hijri: "1409"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 28 December 1988 in Tunis (English, Arabic and French articles; Wikidata). The Hijri year 1409 is the tabular conversion of 28 December 1988 and is marked derived."
+  sources: [source/wikipedia-ines-boubakri-en, source/wikipedia-ines-boubakri-ar, source/wikipedia-ines-boubakri-fr, source/wikidata-ines-boubakri]
+relations:
+  - { type: born_in, target: place/tunis, sources: [source/wikipedia-ines-boubakri-en, source/wikipedia-ines-boubakri-ar, source/wikidata-ines-boubakri] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or French articles names a religion for her, and Wikidata records no religion (P140) statement. The English article's 'See also' link to the list 'Muslim women in sport' is an editorial list link, not an attestation of her faith, and her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-ines-boubakri-en, source/wikipedia-ines-boubakri-ar, source/wikipedia-ines-boubakri-fr, source/wikidata-ines-boubakri]
+external_ids: { wikidata: "Q1657786" }
+sources: [source/wikipedia-ines-boubakri-en, source/wikipedia-ines-boubakri-ar, source/wikipedia-ines-boubakri-fr, source/wikidata-ines-boubakri]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1363323531), Arabic Wikipedia (revision 75938048), French Wikipedia (revision 231102349) and Wikidata Q1657786 (item revision 2523264750, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 Nov 2026; QID grounded from the English article's page property and confirmed in every edition's page properties; existence checked by name (English and Arabic) and by QID across data/person/ — no prior record."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-152A
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

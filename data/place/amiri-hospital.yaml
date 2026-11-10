@@ -1,0 +1,21 @@
+id: place/amiri-hospital
+class: place
+kind: site
+label: { ar: "المستشفى الأميري", en: "Amiri Hospital" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q4746760)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [29.387777777778, 47.986944444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4746760" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4746760 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

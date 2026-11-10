@@ -1,0 +1,85 @@
+id: exhibit/path-andalus
+class: exhibit
+kind: trail
+label:
+  ar: 'الأندلس: ثمانية قرون'
+  en: 'Al-Andalus: Eight Centuries'
+summary:
+  ar: 'مسار في الأندلس من العبور إلى السقوط: قرطبة الأموية والطوائف والمرابطون والموحدون وغرناطة الأخيرة.'
+  en: A trail through eight Andalusi centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: العبور
+    en: The crossing
+  body:
+    ar: '711: طارق بن زياد يعبر المضيق.'
+    en: '711: Tariq crosses the strait.'
+  features:
+  - place/al-andalus
+- title:
+    ar: قرطبة الأموية
+    en: Umayyad Cordoba
+  body:
+    ar: عبد الرحمن الداخل يؤسس عاصمة الغرب.
+    en: Abd al-Rahman I founds the West's capital.
+  features:
+  - place/cordoba
+  - polity/umayyad-caliphate
+  - building/jami-qurtuba
+- title:
+    ar: الطوائف
+    en: The taifas
+  body:
+    ar: 'سقوط الخلافة 1031: ممالك صغيرة وثغور.'
+    en: 'The caliphate''s fall, 1031: small kingdoms.'
+  features:
+  - place/granada
+- title:
+    ar: المرابطون والموحدون
+    en: The Maghribi waves
+  body:
+    ar: يوسف بن تاشفين ثم الموحدون يعبرون للنجدة.
+    en: Almoravids then Almohads cross to the rescue.
+  features:
+  - polity/almoravid-dynasty
+  - polity/almohad-caliphate
+- title:
+    ar: غرناطة
+    en: Granada
+  body:
+    ar: 'بنو نصر: الحمراء فوق الهضبة قرنين ونصف.'
+    en: 'The Nasrids: the Alhambra for two and a half centuries.'
+  features:
+  - place/granada
+  - building/alhambra
+  - polity/emirate-of-granada
+- title:
+    ar: السقوط
+    en: The fall
+  body:
+    ar: '1492: تسليم المفاتيح ونهاية عصر.'
+    en: '1492: the keys surrendered, an era ends.'
+  features:
+  - place/al-andalus
+  - concept/umma
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

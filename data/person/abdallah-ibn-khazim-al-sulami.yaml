@@ -1,0 +1,17 @@
+id: person/abdallah-ibn-khazim-al-sulami
+class: person
+label: { ar: "عبد الله بن خازم السلمي", en: "Abdallah ibn Khazim al-Sulami" }
+summary:
+  ar: "عبد الله بن خازم بن أسماء بن الصلت السلمي؛ كانت داره بالبصرة لعمته دجاجة أم عبد الله بن عامر فأقطعته إياها وكان مع عبد الرحمن بن سمرة من الأشراف في فتح كابل وضرب فيلاً كان مع المشركين فسقط على الباب الذي خرجوا منه فلم يقدروا على غلقه فدخلها المسلمون عنوة وقال أبو مخنف الذي عقر الفيل المهلب."
+  en: "Abdallah ibn Khazim ibn Asma' ibn al-Salt al-Sulami; his Basra house came as a qati'a from his aunt Dajaja, Abdallah ibn Amir's mother."
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 3 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "692", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "His Basra house came as a qati'a from his aunt Dajaja, Abdallah ibn Amir's mother.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
+  - { type: ruled_over, target: place/khurasan, note: "Seized control of Khurasan after Ziyad's death and ruled it until his fall at Marw.", sources: [source/futuh-buldan-maarif-1407, source/ibn-hajar-isaba], confidence: medium }

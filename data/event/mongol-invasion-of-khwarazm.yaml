@@ -1,0 +1,23 @@
+id: event/mongol-invasion-of-khwarazm
+class: event
+kind: campaign
+label: { ar: "الغزو المغولي للدولة الخوارزمية", en: "Mongol invasion of the Khwarazmian Empire" }
+summary:
+  ar: "بطاقة أولية للغزو المغولي للدولة الخوارزمية وإيران الشرقية من ١٢١٩ إلى ١٢٢١م، حملة جنكيز خان التي أبادت خوارزم وفتحت خراسان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mongol invasion of the Khwarazmian Empire and eastern Iran from 1219 to 1221, Genghis Khan's campaign that destroyed Khwarazm and overran Khurasan; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1219", precision: year, status: tradition, derived: true }
+  end: { edtf: "1221", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q431177
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; campaign attested in Mongol histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

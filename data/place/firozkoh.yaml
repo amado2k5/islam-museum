@@ -1,0 +1,21 @@
+id: place/firozkoh
+class: place
+kind: city
+label: { ar: "فيروزكوه", en: "Firozkoh", ur: "فیروزکوہ" }
+summary:
+  ar: "مدينة في السلطنة الغورية."
+  en: "City in Ghurid Empire."
+wings: [place]
+regions: [global]
+coordinates: [34.3964, 64.5161]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q7856199" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7856199 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

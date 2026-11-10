@@ -1,0 +1,24 @@
+id: person/abu-dawud-al-tayalisi
+class: person
+label: { ar: "أبو داود الطيالسي", en: "Abu Dawud al-Tayalisi" }
+summary:
+  ar: "سليمان بن داود الطيالسي المحدث، مات سنة أربع ومائتين وهو ابن إحدى وتسعين سنة {cite:muruj-al-dhahab p. 418}."
+  en: "The traditionist Sulayman ibn Dawud al-Tayalisi — dead at ninety-one in 204 {cite:muruj-al-dhahab p. 418}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+external_ids: { wikidata: "Q4670117" }
+sources: [source/muruj-al-dhahab, source/wikidata]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "751", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar; al-Mizzi, Tahdhib al-Kamal" }
+relations:
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

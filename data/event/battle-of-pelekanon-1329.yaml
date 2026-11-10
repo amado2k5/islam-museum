@@ -1,0 +1,23 @@
+id: event/battle-of-pelekanon-1329
+class: event
+kind: battle
+label: { ar: "معركة بيليكانون", en: "Battle of Pelekanon" }
+summary:
+  ar: "بطاقة أولية لمعركة بيليكانون سنة ١٣٢٩م، نصر أورخان على أندرونيقوس الثالث الذي فتح الطريق إلى نيقية ونيقوميديا؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Pelekanon in 1329, Orhan's victory over Andronikos III that opened the road to Nicaea and Nicomedia; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1329", precision: year, status: tradition, derived: true }
+  end: { edtf: "1329", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q964226
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Ottoman histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

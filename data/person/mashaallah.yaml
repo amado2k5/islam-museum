@@ -1,0 +1,21 @@
+id: person/mashaallah
+class: person
+label: { ar: "ماشاء الله", en: "Mashaallah" }
+summary:
+  ar: "ماشاء الله اليهودي من أفاضل المنجمين الأقدمين عند ابن النديم، وكان أبو علي الخياط المنجم تلميذه {cite:fihrist-ibn-al-nadim p. 385-386}."
+  en: "Masha'allah — the Jewish astrologer, master of the court astrologers {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/basra, confidence: low, note: "Masha'Allah ibn Athari, astrologer of Basra, per the record's own summary.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch21

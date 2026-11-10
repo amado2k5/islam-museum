@@ -1,0 +1,24 @@
+id: ablibrary.net
+kind: website
+url: https://ablibrary.net
+tier: T3
+status: reference-edition-dependent
+allowed_uses:
+- pointer
+owner: Ahl al-Bayt Digital Library, a non-profit run by a Shia organization (Wikipedia,
+  Arabic)
+evidence:
+- About page https://ablibrary.net/about (some texts machine-extracted and labelled;
+  users can correct texts)
+- About 38 Arabic Wikipedia pages link to it
+checks:
+- date: '2026-10-25'
+  type: text comparison, 2 rows
+  basis: site text, edition not named on the page
+  result: matched
+  valid: false
+history:
+- date: '2026-10-25'
+  event: registered as pointer only; cite the printed edition, label machine-extracted
+    texts
+retrieved_on: '2026-10-25'

@@ -1,0 +1,37 @@
+id: person/ibn-bariq-abu-hafs
+class: person
+label: { ar: "ابن بريق أبو حفص", en: "Ibn Bariq Abu Hafs" }
+names:
+  - { kind: full, lang: ar, value: "أبو حفص عمر بن بريق" }
+  - { kind: kunya, lang: ar, value: "أبو حفص" }
+gender: male
+roles: [physician]
+traditions: [sunni]
+summary:
+  ar: "طبيب أندلسي من القرن الرابع الهجري، رحل إلى القيروان ولازم طبيبها أبا جعفر أحمد بن إبراهيم بن أبي خالد ابن الجزار، ثم عاد إلى الأندلس بكتاب شيخه «زاد المسافر وقوت الحاضر» في الطب والعلاج والمفردات."
+  en: "Andalusi physician of the fourth century AH who studied medicine in Qayrawan with Ibn al-Jazzar and returned to al-Andalus with his teacher's book on medicine and remedies."
+wings: [people]
+themes: [medicine]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe, maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1218", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Takmila (Ibn al-Abbar)" }
+relations:
+  - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص386"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch58
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

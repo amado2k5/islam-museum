@@ -1,0 +1,28 @@
+id: person/sadid-al-din-al-kashghari
+class: person
+label:
+  ar: "سديد الدين الكاشغري"
+  en: "Sadid al-Din al-Kashghari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسديد الدين الكاشغري، فقيه حنفي القرن الثالث عشر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sadid al-Din al-Kashghari, the thirteenth-century Hanafi scholar of Kashghar; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [china-east-asia]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12215635
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0066
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1305~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+relations:
+  - { type: lived_in, target: place/kashgar, confidence: low, note: "Association inferred from the nisba 'الكاشغري'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

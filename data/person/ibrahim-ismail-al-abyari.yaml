@@ -1,0 +1,31 @@
+id: person/ibrahim-ismail-al-abyari
+class: person
+label: { ar: "الأبياري إبراهيم إسماعيل", en: "al-Abyari, Ibrahim Isma'il" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم إسماعيل الأبياري" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1902", hijri: "1320", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1994", hijri: "1414", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محقق ومؤلف مصري، ولد بطنطا، وعمل في تحقيق كتب الأدب والتراث."
+  en: "Egyptian editor and author, born in Tanta, who edited works of adab and the classical heritage."
+wings: [people]
+themes: [libraries-paper-and-the-book]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص225-227"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch59

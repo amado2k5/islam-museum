@@ -1,0 +1,15 @@
+id: passage/muslim-2284
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2284"
+label: { ar: "مسلم 2284 — آخذ بحجزكم وأنتم تقحمون في النار", en: "Muslim 2284 — I hold you back while you plunge into the fire" }
+text: "قال رسول الله: إنما مثلي ومثل أمتي كمثل رجل استوقد ناراً، فجعلت الدواب والفراش يقعن فيه، فأنا آخذ بحجزكم وأنتم تقحمون فيه"
+summary:
+  ar: "رواية أبي هريرة في باب مثل ما بعث به النبي من الهدى والعلم من كتاب الفضائل في صحيح مسلم؛ مثل النبي الذي يمسك أصحابه عن النار والفراش يقع فيها."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب مثل ما بعث به النبي من الهدى والعلم (طبعة دار التأصيل، الحديث 2356؛ ترقيم عبد الباقي المعروف 2284)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

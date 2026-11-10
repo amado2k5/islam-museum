@@ -1,0 +1,35 @@
+id: person/nadir-shah-afshar
+class: person
+label:
+  ar: "نادر شاه الأفشاري"
+  en: "Nader Shah (Afshar)"
+names:
+  - { kind: full, lang: ar, value: "نادر قلي بك الأفشاري" }
+roles: [sultan]
+gender: male
+summary:
+  ar: "بطاقة أولية لنادر شاه الأفشاري، مؤسس الدولة الأفشارية في إيران، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Nader Shah Afshar, founder of the Afsharid state in Iran, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1688", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Nader Shah Afshar)" }
+died: { edtf: "1747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (Nader Shah Afshar)" }
+relations:
+  - { type: born_in, target: place/dastgerd, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5226890)" }
+  - { type: died_in, target: place/quchan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q765793)" }
+  - { type: buried_in, target: place/nader-shah-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5957084)" }
+  - { type: lived_in, target: place/afsharid-iran, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q63149558)" }
+  - { type: lived_in, target: place/persian-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q83311)" }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q192868
+provenance:
+  layer: own-research
+  source: "Wikidata Q192868 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0003
+status:
+  review: draft
+  completeness: 1

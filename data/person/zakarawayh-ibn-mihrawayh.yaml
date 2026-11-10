@@ -1,0 +1,21 @@
+id: person/zakarawayh-ibn-mihrawayh
+class: person
+label: { ar: "زكرويه بن مهرويه القرمطي" }
+summary:
+  ar: "زكرويه بن مهرويه، ويسميه الطبري القرمطي؛ ذكر خبره في سنة أربع وتسعين ومائتين، إذ ارتحل من نهر المثنية يريد الحاج، ثم قتل جماعة من العلافين عند واقصة {cite:tabari-tarikh-abu-al-fadl j.10 p.130}. وعند ابن الجوزي سار إلى فيد فلم يظفر من أهلها فتنحى إلى النباج ثم حفر أبي موسى فلقيه وصيف بن صوارتكين في جند المكتفي على طريق خفان يوم السبت لثمان بقين من ربيع الأول فقُتل أصحابه وضُرب ضربة خالطت دماغه فعاش خمسة أيام ثم مات فشُقّ بطنه وقُدِّم به وبالأسارى فقُتلوا {cite:muntazam-ibn-al-jawzi p. 352}."
+wings: [people]
+gender: male
+sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "907", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
+relations:
+  - { type: lived_in, target: place/khaffan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabari-tarikh-abu-al-fadl, source/muntazam-ibn-al-jawzi] }

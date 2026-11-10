@@ -1,0 +1,36 @@
+id: person/muhammad-mala-fayaq-sharazoori
+class: person
+names:
+  - { kind: full, value: "Muhammad Mala Fayaq Sharazoori" }
+  - { kind: full, value: "م.محمد ملا فائق شارەزووری" }
+  - { kind: alternate, value: "Mullah Mohammad Faeeq Sharazoori" }
+  - { kind: alternate, value: "Muhammad Mulla Faiq Sharazuri" }
+  - { kind: alternate, value: "مامۆستا محمدی مەلا فایەق شارەزوری" }
+label: { ar: "محمد ملا فائق شارەزووری", en: "Muhammad Mala Fayaq Sharazoori", ur: "محمد ملا فائق شارەزوری" }
+summary:
+  ar: "واعظ جمعة كردي سوراني من السليمانية في كردستان العراق، جعلت دراسة محكّمة نُشرت سنة 2025 في مجلة التربية للعلوم الإنسانية ⁦(جامعة صلاح الدين – أربيل)⁩ إحدى خطبه للجمعة ومدتها 33 دقيقة موضوعًا لتحليل استراتيجيات الإقناع فيها، والخطبة مأخوذة من يوتيوب. بدأت قناته الرسمية على يوتيوب في 18 أكتوبر 2013، وبلغت 398,000 مشترك و109,650,837 مشاهدة و11,458 مقطعًا بحسب vidIQ كما في 8 نوفمبر 2026، وبلغ حسابه على إنستغرام 785,800 متابع في إدراج فيدسبوت المحدث في 5 نوفمبر 2026."
+  en: "Sorani Kurdish Friday preacher of Sulaymaniyah in Iraqi Kurdistan. A peer-reviewed study published in 2025 in the Journal of Education for Humanities (Salahaddin University–Erbil) analyses one of his 33-minute Friday sermons — taken from a YouTube video — for its persuasion strategies, and calls him 'a well-known Kurdish preacher'. His official YouTube channel, started on 18 October 2013, counted 398,000 subscribers, 109,650,837 views and 11,458 videos as read by vidIQ on 8 November 2026, and his Instagram account counted 785,800 followers in Feedspot's listing updated on 5 November 2026."
+  ur: "عراقی کردستان کے شہر سلیمانیہ کے سورانی کرد خطیبِ جمعہ۔ جرنل آف ایجوکیشن فار ہیومینٹیز ⁦(صلاح الدین یونیورسٹی – اربیل)⁩ میں 2025ء میں شائع ایک محقق مطالعے نے ان کے 33 منٹ کے ایک خطبۂ جمعہ — جو یوٹیوب ویڈیو سے لیا گیا — کی اقناعی حکمتِ عملیوں کا تجزیہ کیا اور انھیں «ایک معروف کرد واعظ» کہا۔ ان کا سرکاری یوٹیوب چینل 18 اکتوبر 2013ء کو شروع ہوا اور 8 نومبر 2026ء کی vidIQ قرأت کے مطابق اس کے سبسکرائبر 398,000، ویوز 109,650,837 اور ویڈیوز 11,458 تھے، جب کہ ان کے انسٹاگرام اکاؤنٹ کے فالوور 5 نومبر 2026ء کو تازہ شدہ فیڈ اسپاٹ فہرست میں 785,800 تھے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Muhammad Mala Fayaq Sharazoori himself: the 2025 journal study of his Friday sermons names none, his own channel descriptions name none, and no independent biographical text about him was found. Under this lane's two-text rule his school therefore stays unknown."
+    sources: [source/journal-education-humanities-sharazoori-2025, source/youtube-muhammadmalafayaq]
+roles: [khatib, preacher]
+wings: [people, living]
+regions: [levant-iraq]
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Scholars Biographical Compendium" }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Scholars Biographical Compendium" }
+relations:
+  - { type: lived_in, target: place/sulaymaniyah, sources: [source/journal-education-humanities-sharazoori-2025, source/vidiq-muhammad-mala-fayaq-sharazoori], confidence: medium, note: "Sulaymaniyah is his base as the wave-199 harvest identifies him — a Sorani Friday preacher of Sulaymaniyah whose sermons the 2025 journal study took from his YouTube channel." }
+reach:
+  - { platform: youtube, metric: subscribers, value: 398000, date: "2026-11-08", note: "@muhammadmalafayaq, started 18 October 2013: 398,000 subscribers, 109,650,837 views and 11,458 videos as read by vidIQ on 8 November 2026 (an earlier vidIQ read of 30 October 2026 showed 397,000 subscribers — consistent growth). Uploads and Shorts were indexed in late October and early November 2026, so the channel is current. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-muhammad-mala-fayaq-sharazoori] }
+  - { platform: instagram, metric: followers, value: 785800, date: "2026-11-05", note: "@muhammadmalafayaq: 785,800 followers in Feedspot's 'Top Iraq Influencers' listing, page updated 5 November 2026 and crawled 7 November 2026, which reproduces his bio 'The official Instagram account of Muhammad Mala Fayaq'; a Flinque read crawled the same week gave 762,100, and the spread is noted — the Feedspot figure is the filed one", sources: [source/feedspot-muhammad-mala-fayaq] }
+sources: [source/youtube-muhammadmalafayaq, source/vidiq-muhammad-mala-fayaq-sharazoori, source/feedspot-muhammad-mala-fayaq, source/journal-education-humanities-sharazoori-2025]
+provenance:
+  layer: own-research
+  source: "Built from the wave-199 (Kurdish scene) harvest §2.2 and the wave-199 coordinator checks §5 (researched and checked 9 November 2026). He has no Wikipedia article and no Wikidata item; under the lane's channel-queue rule the record is sourced from his own channel plus the independent identifications the harvest filed. The identity anchor is academic: Jiyar Othman Hamadamin's peer-reviewed study 'A Discourse Study of Persuasion Strategies in Kurdish Friday Sermons', Journal of Education for Humanities 5(19), published 1 June 2025 (Salahaddin University–Erbil author; the journal is issued by the University of Mosul), which names 'a well-known Kurdish preacher called Mullah Mohammad Faeeq Sharazoori' and takes its sermon data from his YouTube video. Qualification rests on his own YouTube channel @muhammadmalafayaq: 398,000 subscribers as read by vidIQ on 8 November 2026, and on Instagram at 785,800 followers (Feedspot listing updated 5 November 2026) — dated platform figures above the men's bar; his own video descriptions state that his videos belong only on his own channel and page. NOT USED: a syndicated PressReleaseCC release of 16 January 2023 is a paid, self-promotional biography issued in his name (it gives a 1971 Sulaymaniyah birth, a 1992 BA in Sharia from Baghdad and counts of his Kurdish and Arabic books); because it is promotional and uncorroborated, no fact in this record rests on it, and no birth date, education history or book count is recorded. The coordinator's adjacency screen was run on him in both directions and is documented in the wave-199 coordinator checks file: no verified link, endorsement or financial tie to any designated organisation was found. De-duplicated against the tree: no muhammad-mala-fayaq-sharazoori record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-199"
+status: { review: published, completeness: 2 }

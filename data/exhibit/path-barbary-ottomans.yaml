@@ -1,0 +1,68 @@
+id: exhibit/path-barbary-ottomans
+class: exhibit
+kind: trail
+label:
+  ar: بحرية الجزائر
+  en: The Barbary Corsairs
+summary:
+  ar: 'مسار في الجزائر العثمانية: عروج وخير الدين بربروس يؤسسان الدولة، وأمير البحر العثماني في المتوسط.'
+  en: A trail through Ottoman Algiers.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: عروج
+    en: Oruç
+  body:
+    ar: الأخ الأكبر يأخذ الجزائر 1516.
+    en: الأخ الأكبر يأخذ الجزائر 1516.
+  features:
+  - person/uruj-barbarossa
+  - place/algiers
+- title:
+    ar: خير الدين
+    en: Hayreddin
+  body:
+    ar: 'بربروس: أمير البحر للإمبراطورية كلها.'
+    en: 'بربروس: أمير البحر للإمبراطورية كلها.'
+  features:
+  - person/khayr-al-din-barbarossa
+  - place/algiers
+  - polity/ottoman-empire
+- title:
+    ar: الدولة
+    en: The regency
+  body:
+    ar: 'الجزائر العثمانية: ثلاثة قرون من الدايات.'
+    en: 'الجزائر العثمانية: ثلاثة قرون من الدايات.'
+  features:
+  - place/algiers
+  - place/constantine
+  - place/wahran
+- title:
+    ar: المقاومة
+    en: Resistance
+  body:
+    ar: عبد القادر يقود الجهاد ضد فرنسا.
+    en: عبد القادر يقود الجهاد ضد فرنسا.
+  features:
+  - person/abd-al-qadir-al-jazairi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

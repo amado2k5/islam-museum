@@ -1,0 +1,13 @@
+id: person/utuqiyus
+class: person
+label: { ar: "أوطوقيوس", en: "Utuqiyus" }
+summary:
+  ar: "أوطوقيوس رجل بعسقلان مبرز في علم الهندسة جمع ما قدر عليه من كتاب أبلونيوس في المخروطات فأصلح منه أربع مقالات، قال بنو موسى إن لهذا الرجل كتبا حسنة في الهندسة لم يخرج إلينا منها شيء البتة، وله كتاب شرح المقالة الأولى من كتاب أرشميدس في الكرة والأسطوانة {cite:fihrist-ibn-al-nadim p. 373-374}."
+  en: "Eutocius of Ascalon — who restored four books of the Conics {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Georgius Eutychius" }
+died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Georgius Eutychius" }
+relations:
+  - { type: lived_in, target: place/askalan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fihrist-ibn-al-nadim] }

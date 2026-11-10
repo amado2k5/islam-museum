@@ -1,0 +1,66 @@
+id: invention/haytham-factorial-remainders
+class: invention
+label: { ar: "بناء ابن الهيثم لجواب مسألة البواقي بالمضروب", en: "Ibn al-Haytham's factorial remainder construction", ur: "باقی کے مسئلے کا ابن الہیثم کا ضربی حاصل سے جواب" }
+names:
+  - { kind: alternate, lang: en, value: "Factorial-plus-one construction for simultaneous remainder constraints" }
+summary:
+  ar: "جواب بالمضروب لشروط بواقي، لا أول مبرهنة بواقي صينية أو برهان عام منقول لمبرهنة ويلسون {cite:haytham-mactutor number-theory}."
+  en: "A factorial construction for simultaneous remainders, not the first Chinese remainder theorem or a recovered general Wilson proof {cite:haytham-mactutor number-theory}."
+  ur: "بیک وقت باقیوں کے لیے ضربی تشکیل، پہلا چینی قضیۂ باقی یا برآمد کردہ عمومی برہان ولسن نہیں {cite:haytham-mactutor number-theory}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [egypt-nile, levant-iraq]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "09XX/10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Late10th/early11th-century author-lifetime horizon, not exact composition/first-use date or invented Hijri."
+    sources: [source/haytham-mactutor, source/tdv-ibnul-heysem]
+  status_today: living
+origin:
+  place: place/cairo
+  context: { ar: "سياق المؤلف المصري، لا موضع تأليف المسألة الموثق {cite:tdv-ibnul-heysem biography}.", en: "Author's Egyptian setting, not a verified composition site for the problem {cite:tdv-ibnul-heysem biography}.", ur: "مصنف کا مصری ماحول، مسئلے کا ثابت مقام تصنیف نہیں {cite:tdv-ibnul-heysem biography}۔" }
+makers:
+  - { person: person/ibn-al-haytham, role: improver, note: "Reported particular congruence construction, not first remainder arithmetic, Chinese remainder theorem or factorial notation.", sources: [source/haytham-mactutor] }
+attribution:
+  status: improvement
+  claim: { ar: "تطبيق خاص للمضروب في حل شروط بواقي متزامنة.", en: "A particular factorial application to simultaneous remainder conditions.", ur: "بیک وقت باقیوں کی شرطوں میں ضربی حاصل کا خاص اطلاق۔" }
+  basis: { ar: "ماكتوتر تنقل طريقة تعطي6!+1=721 وتذكر ثانية لكل الحلول من غير عرض تفاصيلها {cite:haytham-mactutor number-theory}.", en: "MacTutor explains a method giving6!+1=721 and reports a second for all solutions without reproducing it {cite:haytham-mactutor number-theory}.", ur: "میک ٹیوٹر6!+1=721 دینے کا طریقہ، اور تفصیل کے بغیر تمام جوابوں کا دوسرا طریقہ بتاتا ہے {cite:haytham-mactutor number-theory}۔" }
+  perspectives:
+    - tradition: sunni
+      id: inherited-individual-frame
+      summary: { ar: "هوية المؤلف الفردية والإطار السني المعلن محفوظان؛ لا مذهب جديد من صحة حساب {cite:tdv-ibnul-heysem biography}.", en: "Existing individual identity basis and declared Sunni frame retained; no denomination inferred from arithmetic {cite:tdv-ibnul-heysem biography}.", ur: "فردی شناخت و معلن سنی فریم محفوظ، حساب سے نیا مسلک اخذ نہیں {cite:tdv-ibnul-heysem biography}۔" }
+      sources: [source/tdv-ibnul-heysem, source/manazir-sabra-1983]
+    - tradition: academic
+      id: bounded-construction-not-priority-verdict
+      summary: { ar: "استعمال أقدم في حساب ماكتوتر، وتسلسل تسمية أوروبي لاحق في ماثوورلد؛ لا طريق انتقال مباشر أو أصل عربي فحصناه {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem history}.", en: "Earlier use in MacTutor versus later European naming in MathWorld; no direct transmission route or Arabic original inspected {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem history}.", ur: "میک ٹیوٹر کا قدیم استعمال اور مَیتھ ورلڈ کی بعد کی یورپی تسمیہ الگ؛ ثابت براہ راست راستہ یا دیکھا عربی اصل نہیں {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem history}۔" }
+      sources: [source/haytham-mactutor, source/weisstein-wilson-theorem]
+precursors:
+  - external: { ar: "تقليد مسائل البواقي ونظرية البواقي الصينية", en: "Remainder-problem tradition and Chinese remainder theorem", ur: "باقی کے مسائل کی روایت اور چینی قضیۂ باقی" }
+    note: "Specific construction, not invention of all congruence arithmetic."
+    sources: [source/haytham-mactutor]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "بناء عدد يفي بعدة شروط، مع فصل جواب واحد عن جميع الحلول {cite:haytham-mactutor number-theory}.", en: "Constructed a number meeting several conditions, distinguishing one answer from all solutions {cite:haytham-mactutor number-theory}.", ur: "کئی شرطیں پوری کرنے والا عدد بنانا، ایک جواب اور سب جواب الگ {cite:haytham-mactutor number-theory}۔" }
+  history: { ar: "مثال في إسهام المؤلف العددي، لا قياس أثر تجاري أو أول اختبار عملي للأولية {cite:haytham-mactutor number-theory}.", en: "Part of the author's number theory, not measured commercial impact or the first practical primality test {cite:haytham-mactutor number-theory}.", ur: "مصنف کی نظریۂ اعداد کی مثال، ثابت تجارتی اثر یا پہلا عملی امتحان اولیت نہیں {cite:haytham-mactutor number-theory}۔" }
+  significance: 3
+  why: "Distinct constructive number theory: factorial candidate, simultaneous constraints and bounded attribution. Modern least-positive/family derivation explicitly separate from the unread historical second method."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "درس في البواقي والأولية والفرق بين جواب وكل الأجوبة.", en: "Lesson in remainders, primality and one answer versus all answers.", ur: "باقی، اولیت اور ایک جواب بمقابلہ تمام جوابوں کا سبق۔" }
+  descendants: { ar: "لا نسب مثبت إلى كل استعمال برمجي أو تشفيري حديث.", en: "No demonstrated direct ancestry for every modern software or cryptographic use.", ur: "ہر جدید پروگرام یا رمز نگاری استعمال کا ثابت براہ راست نسب نہیں۔" }
+media: { image: media/haytham-clock-remainders-context, diagram: media/diagram-haytham-remainders }
+kids: { ar: "افحص كل شرط؛ الجواب الصحيح ليس بالضرورة أصغر جواب.", en: "Check every condition; a correct answer need not be the smallest.", ur: "ہر شرط جانچو؛ درست جواب لازماً سب سے چھوٹا جواب نہیں۔" }
+sources: [source/haytham-mactutor, source/weisstein-wilson-theorem, source/tdv-ibnul-heysem, source/commons-clock-group-spindled]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b82", source: "Actual selected MacTutor and MathWorld passages; inspected Commons current image/rights. Existing individual identity retained. Modern301+420j derivation not claimed as recovered original algorithm2; no original Opuscula/full Rashed reading." }

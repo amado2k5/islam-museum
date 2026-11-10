@@ -1,0 +1,23 @@
+id: event/alemdar-incident-1807
+class: event
+kind: mutiny
+label: { ar: "حادثة العلمدار", en: "Alemdar Incident (1807)" }
+summary:
+  ar: "بطاقة أولية لحادثة العلمدار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Alemdar Incident (1807); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1807", precision: year, status: tradition, derived: true }
+  end: { edtf: "1807", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6100688
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

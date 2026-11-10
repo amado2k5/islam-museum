@@ -1,0 +1,16 @@
+id: passage/muslim-2580
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2580"
+label: { ar: "مسلم 2580 — من كان في حاجة أخيه كان الله في حاجته", en: "Muslim 2580 — Whoever attends to his brother's need, God attends to his" }
+text: "قال رسول الله: «المسلم أخو المسلم لا يظلمه ولا يسلمه، من كان في حاجة أخيه كان الله في حاجته، ومن فرج عن مسلم كربة فرج الله عنه بها كربة من كرب يوم القيامة، ومن ستر مسلماً ستره الله يوم القيامة»"
+summary:
+  ar: "رواية ابن عمر في كتاب البر من صحيح مسلم؛ قضاء حاجة الأخ وتفريج الكربة وستر المسلم — من نصوص التكافل الأشهر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة (طبعة دار التأصيل، الحديث 6744؛ ترقيم عبد الباقي المعروف 2580)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,28 @@
+id: person/radi-al-din-al-sarkhasi
+class: person
+label:
+  ar: "رضي الدين السرخسي"
+  en: "Radi al-Din al-Sarkhasi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لرضي الدين السرخسي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Radi al-Din al-Sarkhasi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6034983
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1149", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/sarakhs, confidence: low, note: "Association inferred from the nisba 'السرخسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

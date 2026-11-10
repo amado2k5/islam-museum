@@ -1,0 +1,33 @@
+id: person/mohamed-mahmoud-al-tablawi
+class: person
+label: { ar: "محمد محمود الطبلاوي", en: "Mohamed Mahmoud al-Tablawi", ur: "محمد محمود الطبلاوی" }
+names:
+  - { value: "محمد محمود الطبلاوي", kind: full }
+  - { value: "Mohamed Mahmoud al-Tablawi", kind: full }
+  - { value: "Mohamed Mahmoud Al-Tablawy", kind: alternate }
+  - { value: "El-Tablawy", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ قرآن مصري (1934–2020) بدأ القراءة في السهرات في الثانية عشرة، وقرأ في الأزهر وفي احتفالات الدولة، وحكّم في المسابقات الدولية، وكان نقيب قراء مصر من 2011 حتى وفاته في 12 رمضان 1441هـ."
+  en: "Egyptian Qur'an reciter (1934–2020) who began reciting at evening gatherings at twelve, recited at al-Azhar and at state ceremonies, judged international competitions and headed the Egyptian Syndicate of Quran Reciters from 2011 until his death on 12 Ramadan 1441."
+  ur: "مصری قاریِ قرآن ⁦(1934ء–2020ء)⁩، جنھوں نے بارہ برس کی عمر میں محفلوں میں تلاوت شروع کی، الازہر اور سرکاری تقریبات میں پڑھا، بین الاقوامی مقابلوں کے منصف رہے اور 2011ء سے 12 رمضان 1441ھ کو اپنی وفات تک مصر کی نقابتِ قراء کے سربراہ رہے۔"
+wings: [people]
+regions: [egypt-nile]
+roles: [reciter, judge]
+born: { edtf: "1934-11-14", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata and the English article give 14 November 1934 at Mit Oqba (Giza); the Arabic article gives the date and says he came from the Tala district of Monufia, with family roots in Sharqia and Monufia. No place entity for Mit Oqba exists, so no birthplace relation is written.", sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-ar, source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikidata-mohamed-mahmoud-al-tablawi] }
+died: { edtf: "2020-05-05", hijri: "1441-09-12", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article pairs Tuesday 5 May 2020 with 12 Ramadan 1441; he died at his home district of Agouza after an illness, aged 85.", sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-ar, source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikidata-mohamed-mahmoud-al-tablawi] }
+relations:
+  - { type: died_in, target: place/meet-okba, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mohamed-mahmoud-al-tablawi] }
+  - { type: buried_in, target: place/cairo, note: "Family cemetery at al-Basatin, southern Cairo, 6 May 2020", sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikipedia-mohamed-mahmoud-al-tablawi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article's infobox gives religion Islam and denomination Sunni without a reference; the Arabic article and Wikidata name no school. One unreferenced value, so his school is not recorded."
+    sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-ar, source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikidata-mohamed-mahmoud-al-tablawi]
+footprint:
+  wikipedia: { languages: [ar, arz, en], checked: "2026-11-06", sources: [source/wikidata-mohamed-mahmoud-al-tablawi] }
+  wikidata: "Q12240983"
+external_ids: { wikidata: "Q12240983" }
+sources: [source/wikipedia-mohamed-mahmoud-al-tablawi-ar, source/wikipedia-mohamed-mahmoud-al-tablawi-en, source/wikidata-mohamed-mahmoud-al-tablawi]
+provenance: { layer: own-research, source: "Arabic Wikipedia «محمد محمود الطبلاوي» (revision 75550111, 16 June 2026), English Wikipedia (revision 1384025484, 6 November 2026) and Wikidata Q12240983 (revision 2564945018), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b01 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

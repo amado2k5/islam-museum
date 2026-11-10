@@ -1,0 +1,39 @@
+id: person/reema-juffali
+class: person
+label: { ar: "ريما الجفالي", en: "Reema Juffali", ur: "ریما جفالی" }
+names:
+  - { value: "Reema Juffali", kind: full }
+  - { value: "Reema Al-Juffali", kind: alternate }
+  - { value: "ريما الجفالي", kind: full }
+gender: female
+summary:
+  ar: "سائقة سباقات سعودية، وُلدت في جدة سنة 1992. أول سائقة سباقات سعودية وأول سعودية تحمل رخصة سباق، وأول سعودية تفوز بسباق دولي؛ أسست فريق «ذيبة موتورسبورت» سنة 2022، وأدرجتها بي بي سي في قائمة 100 امرأة لسنة 2022."
+  en: "Saudi racing driver, born in Jeddah in 1992. The first Saudi Arabian woman racing driver, the first Saudi woman to hold a racing licence and the first to win an international motor race; she founded Theeba Motorsport in 2022 and was named to the BBC 100 Women list of 2022."
+  ur: "سعودی ریسنگ ڈرائیور، 1992 میں جدہ میں پیدا ہوئیں۔ پہلی سعودی خاتون ریسنگ ڈرائیور، ریسنگ لائسنس رکھنے والی پہلی سعودی خاتون اور بین الاقوامی دوڑ جیتنے والی پہلی سعودی خاتون؛ انہوں نے 2022 میں ذیبہ موٹرسپورٹ قائم کی اور بی بی سی کی 2022 کی 100 خواتین کی فہرست میں شامل ہوئیں۔"
+roles: [racing driver]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1992-01-18"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 18 January 1992 in Jeddah. The Hijri year 1412 is the tabular conversion of 18 January 1992 and is marked derived."
+  sources: [source/wikipedia-reema-juffali-en, source/wikipedia-reema-juffali-ar, source/wikipedia-reema-juffali-ur, source/wikidata-reema-juffali]
+relations:
+  - { type: born_in, target: place/jeddah, sources: [source/wikipedia-reema-juffali-en, source/wikidata-reema-juffali] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "None of the English, Arabic or Urdu articles names a religion for her, and Wikidata records no religion (P140) statement. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-reema-juffali-en, source/wikipedia-reema-juffali-ar, source/wikipedia-reema-juffali-ur, source/wikidata-reema-juffali]
+external_ids: { wikidata: "Q76823843" }
+sources: [source/wikipedia-reema-juffali-en, source/wikipedia-reema-juffali-ar, source/wikipedia-reema-juffali-ur, source/wikidata-reema-juffali]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1373161101), Arabic Wikipedia (revision 71497390), Urdu Wikipedia (revision 8422019) and Wikidata Q76823843 (item revision 2519465360, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 31 Oct 2026; existence checked against origin/main (no prior record); place/jeddah verified in the current-main clone."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-wave-150a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

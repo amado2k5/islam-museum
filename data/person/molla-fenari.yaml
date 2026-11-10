@@ -1,0 +1,35 @@
+id: person/molla-fenari
+class: person
+label:
+  ar: "ملا فناري"
+  en: "Molla Fenari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشمس الدين محمد بن حمزة الفناري، أول شيخ إسلام في الدولة العثمانية وفقيهها في القرن الخامس عشر، توفي سنة ١٤٣١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shams al-Din Muhammad ibn Hamza al-Fanari, the first shaykh al-Islam of the Ottoman state and its fifteenth-century jurist, d. 1431; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1431", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q40738)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6896332
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0026
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/shaykh-al-islam
+    kind: secondary
+    status: debated
+    note: "Debated. The DİA entry takes his appointment as mufti of Bursa in 828 AH (1425) as the conventional start of the Ottoman muftiship. Chronicles of the period do not call him shaykh al-islam, and the entry says the sixteenth-century office should not be identified with his post."
+    sources: [source/tdv-seyhulislam]

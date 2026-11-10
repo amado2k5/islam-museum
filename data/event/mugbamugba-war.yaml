@@ -1,0 +1,23 @@
+id: event/mugbamugba-war
+class: event
+kind: war
+label: { ar: "حرب موغباموغبا", en: "Mugbamugba War" }
+summary:
+  ar: "بطاقة أولية لحرب موغباموغبا، حرب النوبه والفلانيين في نيجيريا في القرن التاسع عشر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mugbamugba War, the Nupe–Fulani conflict in nineteenth-century Nigeria; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1824", precision: year, status: tradition, derived: true }
+  end: { edtf: "1841", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q122166745
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,35 @@
+id: person/tayyar-mehmed-pasha
+class: person
+label:
+  ar: "طيار محمد باشا"
+  en: "Tayyar Mehmed Pasha"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لطيار محمد باشا، الصدر الأعظم العثماني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Tayyar Mehmed Pasha, the Ottoman grand vizier; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1600~", precision: decade, status: tradition, derived: true }
+died: { edtf: "1638", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/ladik, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2279679)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q7690360
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

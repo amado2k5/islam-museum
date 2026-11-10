@@ -1,0 +1,20 @@
+id: person/hubaysh-ibn-al-hasan
+class: person
+label: { ar: "حبيش بن الحسن", en: "Hubaysh Ibn Al Hasan" }
+summary:
+  ar: "حبيش بن الحسن ممن كان بنو المنجم يرزقونه مع حنين بن إسحاق وثابت بن قرة نحو خمسمائة دينار في الشهر للنقل والملازمة {cite:fihrist-ibn-al-nadim p. 340}."
+  en: "Translator on the Banu Shakir payroll with Hunayn {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "888~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Translator salaried alongside Hunayn ibn Ishaq in the Baghdad translation circle per the record's own summary.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch16

@@ -1,0 +1,51 @@
+---
+id: concept/huquq-al-abna
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+شیخ عمر عبدالکافی نے «والدین پر اولاد کے حقوق» کے درس میں بیان کیا ہے کہ والد اور والدہ پر بچے کا کیا حق ہے، پیدائش سے پہلے اور بعد میں: نیک ماں کا انتخاب، اچھا نام، عقیقہ اور تحنیک، تربیت، اور قرآن حفظ کرانا۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:01:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:02:00}
+
+## پیدائش سے پہلے
+شیخ کہتے ہیں کہ باپ پر بچے کا پہلا حق یہ ہے کہ وہ اس کے لیے نیک ماں کا انتخاب کرے، اور یہ وہ حق ہے جس کا مطالبہ بچہ قیامت کے دن کرے گا۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:02:00}
+وہ کہتے ہیں کہ نیک بیوی صرف باپ کا حق نہیں بلکہ بچے کا بھی حق ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:02:30}
+
+## باپ، بیٹا اور عمر
+وہ بیان کرتے ہیں کہ ایک شخص نے عمر بن خطاب سے بیٹے کی نافرمانی کی شکایت کی؛ بیٹے نے جواب دیا کہ اس کے باپ نے اس کے لیے اچھی ماں کا انتخاب نہیں کیا۔ عمر نے باپ سے کہا کہ اس نے بیٹے کے ساتھ زیادتی کی، اور بیٹے نے اس کے ساتھ زیادتی نہیں کی۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:03:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:03:30}
+
+## اچھا نام
+شیخ کہتے ہیں کہ نبی نے بہت سے صحابہ کے برے معنی والے نام بدل کر اچھے نام رکھے، اور باپ کو چاہیے کہ بیٹے کے لیے اچھا نام منتخب کرے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:04:30}
+وہ حزن نام کے ایک شخص کا قصہ بیان کرتے ہیں جس نے وہ نام بدلنے سے انکار کیا جو اس کے باپ نے رکھا تھا، اور کہتے ہیں کہ اس کے بعد غم اس کے گھر سے نہ نکلا (needs_source: نام اور تفصیلات تسجیل میں واضح نہیں)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:05:00} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:05:30}
+وہ کہتے ہیں کہ قیامت کے دن آدمی کو اس کے نام اور اس کے باپ کے نام سے پکارا جائے گا، اس لیے نام اچھا رکھنا چاہیے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:06:00}
+
+## عقیقہ اور تحنیک
+شیخ کہتے ہیں کہ عقیقہ ساتویں، چودھویں یا اکیسویں دن ہوتا ہے: لڑکے کے لیے دو بکرے یا دنبے، اور لڑکی کے لیے ایک (needs_source: دن اور عدد تسجیل میں ایک بار آتے ہیں)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:07:00}
+وہ کہتے ہیں کہ لڑکا اپنے عقیقے کے ساتھ رہن ہے، اور بال لڑکے کے منڈوائے جاتے ہیں نہ کہ لڑکی کے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:07:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:08:00}
+وہ ساتویں دن کی تحنیک بیان کرتے ہیں: کھجور چبا کر صاف انگلی سے نومولود کے تالو پر ملی جاتی ہے۔ [[practice/tahnik|تحنیک]] {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:08:30}
+
+## تربیت اور رحمت
+شیخ بچے کی تربیت کے مراحل پر ایک حدیث پیش کرتے ہیں: سات سال کھیل، پھر سات سال تادیب (needs_source: تیسرا مرحلہ تسجیل میں واضح نہیں)۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:09:00}
+وہ بیان کرتے ہیں کہ ایک شخص نے نبی سے کہا کہ اس کے دس بیٹے ہیں (needs_source: عدد تسجیل میں ایک بار آتا ہے) اور اس نے ان میں سے کسی کو کبھی چوما نہیں، تو جواب دیا گیا کہ جو رحم نہیں کرتا اس پر رحم نہیں کیا جاتا۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:09:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:10:00}
+وہ خاص طور پر بیٹیوں پر شفقت کی وصیت کرتے ہیں۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:10:30}
+وہ والد کے بچوں کے لیے بہترین ورثے میں شمار کرتے ہیں کہ وہ قرآن زبانی یاد کریں، اور کہتے ہیں کہ جب بیٹا یا بیٹی قرآن حفظ کرے تو والدین کو عزت دی جاتی ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:11:30} {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:12:00} [[practice/hifz-al-quran|قرآن کا حفظ]]
+وہ کہتے ہیں کہ چودہ سال کی عمر سے (needs_source: عدد تسجیل میں ایک بار آتا ہے) باپ بیٹے کی اور ماں بیٹی کی رہنمائی کرے، اور انہیں بغیر رہنمائی کے ساتھیوں کے حوالے نہ کرے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:12:30}
+وہ حدیث بیان کرتے ہیں کہ جو اچھا طریقہ جاری کرے اسے اس کا اجر اور ان کا اجر ملتا ہے جو اس پر عمل کریں، اور جو برا طریقہ جاری کرے اس پر اس کا بوجھ ہے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:13:00}
+
+## ذمہ داری اور تعلق
+وہ کہتے ہیں کہ ہر راعی اپنی رعیت کا ذمہ دار ہے، مرد اپنے گھر والوں کا راعی ہے اور عورت اپنے گھر کی راعیہ۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:28:00}
+وہ کہتے ہیں کہ نوجوانوں میں تعلق پہلے دین سے شروع ہونا چاہیے، پھر زمین، خاندان اور وطن سے۔ {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:29:00}
+
+## «حقوق» کے دروس سے: بچوں کی تعلیم اور والدین کی ذمہ داری
+شیخ بچوں کے حقوق میں یہ شامل کرتے ہیں کہ انہیں اپنے آباء و اجداد کی تاریخ سکھائی جائے {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:16:30} (needs_source: جزوی طور پر مشوش)۔
+وہ والدین کی ذمہ داریاں اپنے والدین، بیٹوں اور بیٹیوں کے حق میں بیان کرتے ہیں اور اس کی وجہ بتاتے ہیں {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:33:30}۔
+وہ قاہرہ کی ایک جامعہ کی طالبات میں تمباکو نوشی کا ایک سروے ذکر کرتے ہیں جو «ایک جامعہ» سے منسوب ہے، اور کسی مطالعے کا نام نہیں لیا گیا (needs_source: 74 فیصد کا ماخذ معلوم نہیں، دوبارہ سننے سے پہلے اس پر انحصار نہ کیا جائے) {cite:assabile-omar-abdelkafy al-hoquq/ep05 00:38:30}۔
+
+## عمر عبد الکافی کے پروگرام «ونفسٍ وما سواہا» سے
+شیخ کے نزدیک لوگ والدین کے ساتھ حسنِ سلوک پر بہت بات کرتے ہیں مگر کوئی «والدین کے اولاد کے ساتھ حسنِ سلوک» کی بات نہیں کرتا؛ ان کے نزدیک کچھ والدین اپنی اولاد سے زیادتی کرتے ہیں، اور جس باپ نے اپنے والدین کی خدمت نہ کی اسے نافرمان بیٹا مل سکتا ہے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:03:00} ان کے نزدیک بہت سے والدین کی امید یہ ہوتی ہے کہ بچے کو بہترین اسکول اور یونیورسٹی بھیجیں پھر اس کی شادی کریں، جبکہ پہلے سات سالوں میں، جو بنیادی نفسیاتی تشکیل کا دور ہے، اس سے زیادتی کرتے ہیں؛ وہ سات سال کی عمر میں نماز کا حکم دینے اور بستر الگ کرنے کی حدیث ذکر کرتے ہیں۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:04:30}
+وہ بچے کے ساتھ پہلا حسنِ سلوک یہ قرار دیتے ہیں کہ وہ بچپن میں قرآن یاد کرے اور اپنی عمر کے مطابق اس کے کچھ معانی سمجھے، کیونکہ ان کے نزدیک پانچ سے سات سال کا بچہ ایک ساتھ پانچ زبانیں سیکھ سکتا ہے، اور جس نے بچپن میں قرآن یاد کیا وہ بھٹک جائے تو لوٹ آتا ہے؛ پھر اجازت لینے، حلم اور ایثار کے آداب سکھائے جائیں، اور باپ بچے کی عادتوں پر نظر رکھے، بے لگام کو قابو کرے اور اچھی کو مضبوط کرے۔ {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep14 00:08:30} دیکھیے [[practice/hifz-al-quran|حفظِ قرآن]]۔
+
+## عبد الرحمٰن منصور کے پروگرام «اہالینا» میں
+[[person/abd-al-rahman-mansour|عبد الرحمٰن منصور]] اپنے پروگرام [[work/ahaleena|«اہالینا»]] میں دیکھتے ہیں کہ علما، داعی اور مربی اولاد کو بار بار والدین سے حسنِ سلوک کی تلقین کرتے اور نافرمانی سے ڈراتے ہیں، مگر باپوں کو اولاد سے بدسلوکی پر کم ہی متنبہ کرتے ہیں، اور اس پر ایک قسط وقف کرتے ہیں جسے وہ «والدین کے نام خاص پیغام» کہتے ہیں۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:07:00} وہ باپوں کی سختی کی صورتیں گنواتے ہیں: ہر لغزش پر سخت مار، ہر چھوٹی بات پر شدید ڈانٹ، گنجائش کے باوجود خرچ میں تنگی، شفقت اور محبت سے محرومی، عطیے میں ناانصافی، اور بچے کی رائے کی تحقیر اور اسے چپ کرانا۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:02:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:02:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:05:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:05:30} ان کے بقول تنگی بچے کو چوری، بھیک، بری صحبت یا منشیات کی تجارت کی طرف دھکیل سکتی ہے، اور بچے کو میراث سے محروم کرنا شرعاً جائز نہیں چاہے وہ نافرمان ہو، کیونکہ دل اللہ کے ہاتھ میں ہیں۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:02:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:05:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:05:30} ان کے خیال میں ایسی سختی گھر والوں اور معاشرے کے لیے کینہ اور نفرت پیدا کرتی ہے، یہاں تک کہ بچہ صرف بری صحبت پر بھروسا کرتا ہے۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:07:00}
+
+وہ مادی چیزوں، جیسے تحفوں اور عطیوں، میں بچوں کے درمیان انصاف چاہتے ہیں، سوائے بیماری یا معقول عذر کے، اور جذباتی چیزوں، جیسے محبت، ہمدردی اور شفقت، میں بھی۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:09:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:10:00} وہ والدین سے کہتے ہیں کہ کھلے اظہارِ محبت، مسکراہٹ اور تعریف سے «جذباتی ضرورت پوری کریں»، اور کہتے ہیں کہ جس لڑکی کو والدین نے کافی محبت دی ہو وہ گلی میں لڑکوں کی باتوں سے متاثر نہیں ہوتی۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:04:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:04:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:10:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep12 00:10:30} ایک اور قسط میں وہ بچے کے دل میں محبت پیدا کرنے کے «چار قدم» بیان کرتے ہیں: الفاظ اور حرکات سے محبت کا اظہار، اچھی طرح سننا، تحفوں سے زیادہ محبت دینا، اور بچے پر اعتماد، اور کہتے ہیں کہ باپ بیٹے پر جتنا اعتماد ظاہر کرے اتنا ہی اسے سچائی کی طرف دھکیلتا ہے۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:02:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:06:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:09:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:09:30} ان کے نزدیک بچے کا حق یہ بھی ہے کہ گھر کے معاملات میں اس سے مشورہ لیا جائے، اسے بڑوں کی مجلسوں میں لایا جائے تاکہ «ادبی جرأت» سیکھے، اور اسے کچھ ذمہ داریاں دی جائیں۔ {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:08:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:11:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep11 00:12:00}

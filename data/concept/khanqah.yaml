@@ -1,0 +1,20 @@
+id: concept/khanqah
+class: concept
+kind: architectural_element
+label: { ar: "الخانقاه", en: "Khanqah (Sufi lodge)", ur: "خانقاہ" }
+summary:
+  ar: "مؤسسة لإيواء الصوفية وتعليمهم، أنشأ صلاح الدين أولاها في القاهرة، وامتزجت في العصر المملوكي بالمدرسة حتى غمض الحد بينهما {cite:yeomans-islamic-cairo-2006 p.147} {cite:yeomans-islamic-cairo-2006 p.148}."
+  en: "An institution housing and teaching Sufis; Salah al-Din founded Cairo's first, and under the Mamluks it merged with the madrasa until the line between them blurred {cite:yeomans-islamic-cairo-2006 p.147} {cite:yeomans-islamic-cairo-2006 p.148}."
+wings: [objects, ideas, living]
+themes: [architecture, spirituality-and-sufism, waqf]
+regions: [egypt-nile]
+relations:
+  - { type: practiced_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 145-151"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

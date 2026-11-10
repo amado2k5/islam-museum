@@ -1,0 +1,42 @@
+id: dec-20261108-112
+kind: decision
+date: 2026-11-08
+expires_at: 2027-11-08
+question_hash: 77dab7132c1a
+lane: licensing
+class: media
+modality: repo
+domain: media
+mode: conservative
+question: An image is CC BY-NC (non-commercial) — usable on the site given the
+  museum is free, or does NC disqualify it?
+options: null
+status: decided
+step: safe-default
+decision: hold as draft-tier / pointer-only; record question in lane progress
+  file for the next precedent-extraction pass
+confidence: 0.4
+reversible: true
+rationale: No rule or precedent matched. Defaulting to the most conservative
+  reversible action per the decision-ledger design.
+needs_precedent: true
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: 0.868
+  top_precedent_id: D-059
+  top_precedent_status: agent-ruled-delegated
+  founder_resolution:
+    verdict: held
+    at: 2026-11-08
+    by: founder
+    note: CC BY-NC needs non-commercial applicability check for dataset
+      redistribution
+  founder_override: false
+  calibration_weight: 1

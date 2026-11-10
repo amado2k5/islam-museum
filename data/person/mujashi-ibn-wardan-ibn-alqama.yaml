@@ -1,0 +1,20 @@
+id: person/mujashi-ibn-wardan-ibn-alqama
+class: person
+label: { ar: "مجاشع بن وردان بن علقمة", en: "Mujashi' ibn Wardan ibn 'Alqama" }
+summary:
+  ar: "الخارجي الثالث الذي انتدب لقتل علي مع ابن ملجم وشبيب بن بجرة، عصبتهما قطام بحرير في اعتكافها بالمسجد الأعظم وقعدوا لباب السدة، فهرب مجاشع حين وقعت الضربة ونجا بنفسه {cite:muruj-al-dhahab p. 702}."
+  en: "The third accomplice posted at the mosque's door — Qatam bound their heads with silk from her i'tikaf lodge; he alone escaped when the blow fell {cite:muruj-al-dhahab p. 702}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 702"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch41
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Early Arabian figure cited in Muruj al-dhahab; no specific town attested.", sources: [source/muruj-al-dhahab] }

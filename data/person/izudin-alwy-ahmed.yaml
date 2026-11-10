@@ -1,0 +1,30 @@
+id: person/izudin-alwy-ahmed
+class: person
+names:
+  - { kind: full, value: "Izudin Alwy Ahmed" }
+  - { kind: alternate, value: "Izudin Alwy" }
+label: { ar: "عز الدين علوي أحمد", en: "Izudin Alwy Ahmed", ur: "عزالدین علوی احمد" }
+summary:
+  ar: "شيخ كيني يدرّس بالسواحيلية؛ قناته على يوتيوب (@izudinalwy)، المفتوحة منذ 31 أغسطس 2012، بلغت 193,000 مشترك بحسب vidIQ كما في 7 نوفمبر 2026 ⁦(قُرئت في 8 نوفمبر 2026)⁩، وتنشر نحو أربعة مقاطع أسبوعيًا بحسب ThoughtLeaders؛ وتدرجه قناة الهدى التلفزيونية الكينية بين مشايخ برامجها في «منبر الهدى»."
+  en: "Kenyan sheikh teaching in Swahili; his YouTube channel (@izudinalwy), open since 31 August 2012, counted 193,000 subscribers by vidIQ as of 7 November 2026 (read on 8 November 2026) and publishes about four videos a week by ThoughtLeaders' read; Kenya's Al Huda TV names him among the sheikhs of its 'Mimbar ya Al Huda' programming."
+  ur: "کینیائی شیخ جو سواحلی میں درس دیتے ہیں؛ ان کا یوٹیوب چینل (@izudinalwy)، جو 31 اگست 2012ء سے کھلا ہے، vidIQ کے مطابق 7 نومبر 2026ء کو 193,000 سبسکرائبر رکھتا تھا ⁦(8 نومبر 2026ء کو پڑھا گیا)⁩ اور ThoughtLeaders کی خوانی کے مطابق ہفتے میں تقریباً چار ویڈیوز شائع کرتا ہے؛ کینیا کی الہدیٰ ٹی وی انھیں اپنے «منبر الہدیٰ» پروگراموں کے شیوخ میں شمار کرتی ہے۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a specific school for Izudin Alwy Ahmed himself. The closest text is channel metadata: Al Huda TV's programme videos carry a keyword list that includes, verbatim, 'Ahlusunna wal Jamaa' alongside a string of named sheikhs — 'Shk. Mbarak Ahmed Awes, Shk. Izudin Alwy Ahmed, Shk. Othman Maalim, Shk. Hamza Yusuf, Al Habib Ali Jifry, Al Habib Omar Al Hafidh, Shk. Muhammad Ninnowy' — but that is a broadcaster's keyword list covering many men, not a text attesting a school for this man himself, and a channel self-description never settles a person's faith under this lane's rules. His own channel's video read in this run names no madhhab for him, and neither vidIQ nor ThoughtLeaders names one. Under this lane's two-text rule his school therefore stays unknown."
+    sources: [source/vidiq-izudin-alwy-ahmed, source/thoughtleaders-izudin-alwy-ahmed, source/youtube-alhuda-tv-izudin, source/youtube-izudin-alwy-ahmed]
+roles: [preacher]
+wings: [people, living]
+regions: [east-africa]
+relations:
+  - { type: lived_in, target: place/indonesia, confidence: low, note: "Indonesian public figure per the record's own text.", sources: [source/vidiq-izudin-alwy-ahmed] }
+reach:
+  - { platform: youtube, metric: subscribers, value: 193000, date: "2026-11-07", note: "@izudinalwy, per vidIQ page updated 7 November 2026 and read 8 November 2026; ThoughtLeaders FAQ (crawled 6 November 2026) agrees at 193K", sources: [source/vidiq-izudin-alwy-ahmed, source/thoughtleaders-izudin-alwy-ahmed] }
+sources: [source/vidiq-izudin-alwy-ahmed, source/thoughtleaders-izudin-alwy-ahmed, source/youtube-izudin-alwy-ahmed, source/youtube-alhuda-tv-izudin]
+provenance:
+  layer: own-research
+  source: "The wave-196 harvest entry 5 (Izudin Alwy Ahmed, Kenya), researched on 8 November 2026 against vidIQ's channel page, ThoughtLeaders' channel page, a recent video on his own channel and Al Huda TV's programme videos, all read on that date. Counts: the harvest figure of 193,000 subscribers (ThoughtLeaders crawl 6 November 2026) was re-read fresh in this run — vidIQ, page updated 7 November 2026, gives 193,000 subscribers, 31,335,230 views and 6,067 videos, the channel started 31 August 2012 with its country set to Kenya, and ThoughtLeaders' FAQ, read the same day, agrees at 193K (its older descriptive copy of 185,000 is superseded); the fresh figure is carried. Identity is thin beyond the channel, exactly as the brief warned, and the record is built as the lane's minimal honest record: the channel itself (a recent lecture video whose description reads 'SHEIKH IZUDIN ALWY', updated three days before the read) plus one trusted linked profile — Al Huda TV, the Kenyan Islamic broadcaster whose programme keyword lists name 'Shk. Izudin Alwy Ahmed' among its sheikhs on 'Mimbar ya Al Huda' and 'Mawlid ya Mtume' programmes. Searches on 8 November 2026 found no Wikipedia article and no Wikidata item for him, so no wikidata id is recorded and no born block is written — no source read gives a birth date. No relations: no target record for Al Huda TV or any Kenyan place exists in the staging tree, so no edge is written, and no relation is written to person/anwar-yusuf (a different man; see the shared brief). De-duplicated against the snapshot: no izudin-alwy-ahmed record exists."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-196"
+status: { review: published, completeness: 2 }

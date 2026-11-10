@@ -1,0 +1,33 @@
+id: person/mohammad-natsir
+class: person
+label: { ar: "محمد ناصر", en: "Mohammad Natsir", ur: "محمد ناصر" }
+names:
+  - { value: "Mohammad Natsir", kind: full }
+  - { value: "محمد ناصر", kind: alternate }
+  - { value: "M. Natsir", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وسياسي إندونيسي (1908–1993) من سومطرة الغربية، خامس رؤساء وزراء إندونيسيا (1950–1951) وزعيم حزب ماشومي، كتب خمسة وأربعين كتابًا ومئات المقالات في الإسلام والدولة، وسُجن 1962–1964، وأسس المجلس الإندونيسي للدعوة الإسلامية، ونال جائزة الملك فيصل لخدمة الإسلام (1980)، وسُمّي بطلًا قوميًا لإندونيسيا في 2008."
+  en: "Indonesian scholar and politician (1908–1993) from West Sumatra, fifth prime minister of Indonesia (1950–1951) and leader of the Masyumi party, author of forty-five books and hundreds of articles on Islam and the state; imprisoned 1962–1964, founder of the Indonesian Islamic Propagation Council, King Faisal Prize for Service to Islam (1980), and a National Hero of Indonesia since 2008."
+  ur: "مغربی سماٹرا کے انڈونیشیائی عالم اور سیاست دان ⁦(1908ء–1993ء)⁩، انڈونیشیا کے پانچویں وزیرِ اعظم ⁦(1950ء–1951ء)⁩ اور ماشومی پارٹی کے رہنما، اسلام اور ریاست پر پینتالیس کتب اور سیکڑوں مضامین کے مصنف؛ 1962ء–1964ء قید رہے، انڈونیشی اسلامی دعوتی کونسل کے بانی، شاہ فیصل انعام برائے خدمتِ اسلام ⁦(1980ء)⁩، اور 2008ء سے انڈونیشیا کے قومی ہیرو۔"
+wings: [people]
+regions: [southeast-asia]
+roles: [politician, scholar, writer]
+born: { edtf: "1908-07-17", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Solok, West Sumatra, to Mohammad Idris Sutan Saripado and Khadijah (English article; Wikidata gives the same day, at Alahan Panjang).", sources: [source/wikipedia-mohammad-natsir-en, source/wikidata-mohammad-natsir] }
+died: { edtf: "1993-02-06/1993-03-14", calendar: gregorian, precision: day, status: debated, derived: false, note: "The English article's lead and infobox and Wikidata give 6 February 1993, at home in Jakarta; its 'Death and legacy' section gives 14 March 1993. Both are kept.", sources: [source/wikipedia-mohammad-natsir-en, source/wikidata-mohammad-natsir] }
+relations:
+  - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-mohammad-natsir-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article files him among Indonesian Muslims and records his study under Ahmad Hassan of Persatuan Islam; no school is named. Not recorded."
+    sources: [source/wikipedia-mohammad-natsir-en, source/wikidata-mohammad-natsir]
+footprint:
+  wikipedia: { languages: [ar, ban, en, fr, gor, id, ja, jv, ko, mad, min, ml, ms, mzn, nl, ru, su, tr, uk, ur, zh], checked: "2026-11-07", sources: [source/wikidata-mohammad-natsir] }
+  wikidata: "Q2327343"
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1980, note: "shared with Abu al-Hasan Ali Nadwi", sources: [source/wikipedia-king-faisal-prize-en] }
+external_ids: { wikidata: "Q2327343" }
+sources: [source/wikipedia-mohammad-natsir-en, source/wikidata-mohammad-natsir, source/wikipedia-king-faisal-prize-en]
+provenance: { layer: own-research, source: "English Wikipedia 'Mohammad Natsir' (revision 1378335498, 4 October 2026), Wikidata Q2327343 (revision 2565823524) and the King Faisal Prize list (revision 1382965005), read in Chrome on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

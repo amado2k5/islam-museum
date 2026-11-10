@@ -1,0 +1,25 @@
+id: event/dhimmi-dress-edict-429
+class: event
+kind: law-enacted
+label:
+  ar: "توقيع القادر بإلزام أهل الذمة تغيير اللباس"
+  en: "Al-Qadir's rescript imposing distinguishing dress on the dhimmis"
+summary:
+  ar: "في سلخ رجب سنة تسع وعشرين وأربعمائة جُمع الأشراف والقضاة والشهود والفقهاء والوجوه إلى بيت النوبة، واستُدعي جاثليق النصارى ورأس جالوت اليهود، وخرج توقيع الخليفة في أمر العيار وإلزام أهل الذمة إياه: تليت القراءة التي تذكر أن الخلفاء الراشدين فرضوا على أهل الذمة حدودًا معقودة على الاستشعار والإخبات والاستكانة والتفرد عن المسلمين، وأن هذه الطائفة لما تطرّق عليها الإغفال تشبّهت بالمسلمين في زيّهم، فرأى أمير المؤمنين الإيعاز إلى جميع أهل الذمة بتغيير اللباس الظاهر مما يُعرفون به عند المشاهدة {cite:muntazam-ibn-al-jawzi j.8 p.438-439}."
+  en: "At the end of Rajab 429 the ashraf, qadis, witnesses, jurists and notables were assembled at Bayt al-Nawba, the Nestorian katholikos and the Jewish Ra's al-Jalut were summoned, and the caliph's rescript was read: recalling the bounds the Rashidun caliphs had laid on the dhimmis — distinction, humility and separateness from the Muslims — it ordered all dhimmis to alter their outward dress into what would mark them on sight, their neglect having let them assimilate to Muslim dress {cite:muntazam-ibn-al-jawzi j.8 p.438-439}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [law-and-courts, cities]
+date:
+  start: { edtf: "1038-04~", hijri: "0429-07", calendar: julian, precision: month, status: tradition, derived: true, note: "سلخ رجب ٤٢٩ {cite:muntazam-ibn-al-jawzi j.8 p.438}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة صاحب التوقيع", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٩)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

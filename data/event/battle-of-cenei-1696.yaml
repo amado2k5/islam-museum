@@ -1,0 +1,23 @@
+id: event/battle-of-cenei-1696
+class: event
+kind: battle
+label: { ar: "معركة تشيني", en: "Battle of Cenei" }
+summary:
+  ar: "بطاقة أولية لمعركة تشيني سنة ١٦٩٦م، آخر انتصار عثماني كبير على الهابسبورغ في حرب الأتراك الكبرى؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Cenei in 1696, the last major Ottoman victory over the Habsburgs in the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1696", precision: year, status: tradition, derived: true }
+  end: { edtf: "1696", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4870686
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

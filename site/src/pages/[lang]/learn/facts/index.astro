@@ -1,0 +1,64 @@
+---
+// Fact archive «هل تعلم؟» (docs/delegation/education-master-plan.md §5 E3, step 3): every authored,
+// sourced did_you_know fact, with the record it belongs to and its sources. Static; reads and prints
+// without JavaScript.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { byId, href, labelOf } from "../../../../lib/graph";
+import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadFacts, viewFact, factOfDay, factOfWeek } from "../../../../lib/facts";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const path = `/${lang}/learn/facts/`;
+const facts = loadFacts().map((f) => ({ f, v: viewFact(f, lang) }));
+const today = factOfDay();
+const week = factOfWeek();
+const sourceName = (s: string) => { const n = byId.get(s); return n ? labelOf(n, lang) : s; };
+---
+<BaseLayout lang={lang} title={E.fc_title} description={E.fc_lede} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › {E.fc_title}</nav>
+    <section class="edu-hero">
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{E.fc_dyk}</p>
+      <h1>{E.fc_title}</h1>
+      <p>{E.fc_lede}</p>
+      <p class="no-print"><a class="chip" href={`/${lang}/learn/facts/poster/`}>{E.fc_poster}</a></p>
+    </section>
+
+    {today && (
+      <section class="edu-facts-today" aria-labelledby="fc-today">
+        <h2 id="fc-today" class="ui" style="font-size:1.05rem">{E.fc_day}</h2>
+        <p class="fact-strip-text">{viewFact(today, lang).text} — <a href={viewFact(today, lang).href}>{viewFact(today, lang).label}</a></p>
+      </section>
+    )}
+    {week && week.id !== today?.id && (
+      <section aria-labelledby="fc-week">
+        <h2 id="fc-week" class="ui" style="font-size:1.05rem">{E.fc_week}</h2>
+        <p class="fact-strip-text">{viewFact(week, lang).text} — <a href={viewFact(week, lang).href}>{viewFact(week, lang).label}</a></p>
+      </section>
+    )}
+
+    <section aria-labelledby="fc-all">
+      <h2 id="fc-all" class="ui" style="font-size:1.05rem">{fmt(E.fc_count, { n: String(facts.length) })}</h2>
+      <ol class="edu-facts">
+        {facts.map(({ f, v }) => (
+          <li>
+            <p class="fact-text">{v.text} — <a href={v.href}>{v.label}</a></p>
+            <p class="ui fact-src muted">{E.fc_sources}: {f.sources.map((s) => sourceName(s)).join(" · ")}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+  <style>
+    .edu-facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+    .edu-facts > li { border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; background: var(--card); max-width: 46rem; }
+    .edu-facts .fact-text { margin: 0 0 .3rem; line-height: 1.7; }
+    .edu-facts .fact-src { margin: 0; font-size: .85rem; }
+    .fact-strip-text { border-inline-start: 4px solid var(--gold); padding-inline-start: 12px; line-height: 1.7; max-width: 46rem; }
+    @media print { .edu-hero .chip, nav { display: none !important; } }
+  </style>
+</BaseLayout>

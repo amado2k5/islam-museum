@@ -1,0 +1,30 @@
+id: person/umm-aban-bint-utba
+class: person
+label: { en: "Umm Aban bint Utba", ar: "أم أبان بنت عتبة", ur: "ام aban بنت عتبہ" }
+names:
+  - { kind: full, lang: ar, value: "أم أبان بنت عتبة بن ربيعة بن عبد شمس القرشية" }
+gender: female
+died: { edtf: "0753~", hijri: "0135", calendar: julian, precision: year, status: debated, derived: true, note: "توفيت في العصر الأموي على الأرجح؛ لم يضبط لها المصدر تاريخ وفاة، وهذه سنة تقريبية محضة لا تاريخ محقق {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 25}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+roles: []
+traditions: [sunni]
+summary:
+  en: "A Qurashi noblewoman, daughter of Utba ibn Rabi'a, who came to Syria and witnessed the conquest, was widowed when her husband Aban ibn Sa'id fell at Ajnadayn, and is remembered for refusing the proposals of Umar, al-Zubayr and Ali each on her own sharp grounds, and for her verses mourning her sons Mus'ab and Janah."
+  ar: "سيدة قرشية ابنة عتبة بن ربيعة بن عبد شمس؛ قدمت الشام وشهدت الفتح، وتأيمت على زوجها أبان بن سعيد بن العاص حين قُتل يوم أجنادين، وخُطبت من عمر بن الخطاب ثم الزيبر بن العوام ثم علي فردّت كل واحد بحجة، وتُروى لها أبيات ترثي ابنها مصعباً وجناحاً قتلهما بنو تيم."
+wings: [people]
+themes: [women, family-marriage-kinship, politics-governance-and-authority]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [levant-iraq, arabia]
+relations:
+  - { type: child_of, target: person/utba-ibn-rabia, note: "ابنة عتبة بن ربيعة بن عبد شمس؛ نُسبت في الترجمة {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 24}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: spouse_of, target: person/aban-ibn-said-ibn-al-as, note: "زوجها الأول أبان بن سعيد بن العاص بن أمية، قُتل عنها يوم أجنادين {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 24}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, note: "على ما في ترجمتها: قدمت الشام وشهدت الفتح مع أخيها أبي سفيان {cite:alam-al-nisa-kahhala-risala-1984-v1 p. 24}.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+
+  - { type: lived_in, target: place/ajnadayn, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/alam-al-nisa-kahhala-risala-1984-v1] }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v1]
+status: { review: draft, completeness: 2, generated_by: "Devin; A'lam al-Nisa' vol. 1 pp. 24-25 (PDF), entry أم أبان بنت عتبة" }
+provenance:
+  layer: own-research
+  source: "source/alam-al-nisa-kahhala-risala-1984-v1"
+  generated_by: Devin
+  model: "SWE-2 Flash High"
+  run: "microsd-books-batch-1"

@@ -1,0 +1,23 @@
+id: person/faraj-ibn-barquq
+class: person
+label: { ar: "الملك الناصر فرج بن برقوق" }
+summary:
+  ar: "سلطان مملوكي جركسي ابن برقوق، أقيم مكان أبيه في السلطنة لما مات في شوال سنة إحدى وثمان مئة ولقب الناصر فاستمر إلى سادس ربيع الأول سنة ثمان وثمان مئة فخلع وأقيم أخوه عبد العزيز ولقب المنصور ثم خلع في رابع جمادى الآخرة وأعيد الناصر فرج {cite:tarikh-khulafa-minhaj-1434 p. 761}، وخرج لقتال الأمير شيخ فهزم وقتل فبويع الخليفة المستعين بالسلطنة مضافة للخلافة {cite:tarikh-khulafa-minhaj-1434 p. 765}."
+  en: "Barquq's son and heir (801), deposed in 808 for his brother Abd al-Aziz then restored the same year {cite:tarikh-khulafa-minhaj-1434 p. 761}."
+gender: male
+died: { edtf: "1412-05~", hijri: "0815-02", calendar: julian, precision: month, status: tradition, derived: true, note: "قتل في صفر 815 بدمشق بعد أيام من صلاته على جنازة تغري بردي نائب الشام {cite:shadharat-dhahab p. 118}", sources: [source/shadharat-dhahab] }
+wings: [people]
+periods: [period/mongol-post-mongol]
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 753–763"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-49
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 202-208"]
+external_ids: { wikidata: "Q698037", nomisma: "faraj_b_barquq" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/yeomans-islamic-cairo-2006, source/nomisma]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/bab-al-faradis-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: built, target: building/farag-ibn-barquq-complex, sources: [source/yeomans-islamic-cairo-2006] }

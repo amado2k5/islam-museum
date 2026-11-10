@@ -1,0 +1,23 @@
+id: event/battle-of-sheikh-saad-1916
+class: event
+kind: battle
+label: { ar: "معركة الشيخ سعد", en: "Battle of Sheikh Sa'ad" }
+summary:
+  ar: "بطاقة أولية لمعركة الشيخ سعد سنة ١٩١٦م، أولى معارك محاولة إنقاذ كوت العمارة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sheikh Sa'ad in 1916, the first battle of the Kut relief attempt; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2237737
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

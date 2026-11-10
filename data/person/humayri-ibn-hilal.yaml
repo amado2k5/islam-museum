@@ -1,0 +1,18 @@
+id: person/humayri-ibn-hilal
+class: person
+label: { ar: "حميري بن هلال", en: "Humayri ibn Hilal" }
+summary:
+  ar: "حميري بن هلال بن أحوز المازني؛ خاصم بشير بن عبيد الله بن أبي بكرة في المرغاب فغلب عليه بشير وكان عمرو بن يزيد الأسيدي يمنى به ويعينه."
+  en: "Humayri ibn Hilal ibn Ahwaz al-Mazini; he sued Bashir ibn Ubaydallah over the Marghab and lost, Amr ibn Yazid al-Usaydi backing his claim."
+periods: [period/umayyad]
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/al-marghab, confidence: low, note: "Associated with المرغاب per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: child_of, target: person/hilal-ibn-ahwaz }
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,23 @@
+id: event/al-biruni-flees-to-bukhara
+class: event
+kind: other
+label: { ar: "البيروني يلجأ إلى بخارى", en: "Al-Biruni takes refuge at Bukhara" }
+summary:
+  ar: "حين اندلعت الحرب الأهلية في خوارزم نحو 996–998م فرّ البيروني إلى بخارى عاصمة السامانيين طالباً رعايتهم {cite:britannica-al-biruni}."
+  en: "When civil war broke out in Khwārezm about 996–998, al-Bīrūnī fled to the Sāmānid capital Bukhara seeking patronage {cite:britannica-al-biruni}."
+  ur: "جب خوارزم میں تقریباً 996–998ء خانہ جنگی چھڑی تو بیرونی رعایت کے طلبگار سامانی دارالحکومت بخارا چلا گیا {cite:britannica-al-biruni}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0997~", precision: year, status: historical, derived: true, note: "civil war c. 996-998 per Britannica; recorded as circa 997" }
+  end: { edtf: "0997~", precision: year, status: historical, derived: true, note: "civil war c. 996-998 per Britannica; recorded as circa 997" }
+relations:
+  - { type: occurred_at, target: place/bukhara, sources: [source/britannica-al-biruni] }
+sources: [source/britannica-al-biruni]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Biruni story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-biruni
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

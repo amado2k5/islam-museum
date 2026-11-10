@@ -1,0 +1,24 @@
+id: event/ibn-khaldun-embassy-seville-1365
+class: event
+kind: other
+label: { ar: "ابن خلدون في إشبيلية سفيرًا إلى بيدرو الأول", en: "Ibn Khaldun sent to Seville to make peace with Pedro I", ur: "ابن خلدون اشبیلیہ میں پیدرو اول کے پاس" }
+summary:
+  ar: "نحو سنة 1365م أُرسل ابن خلدون من غرناطة إلى إشبيلية لعقد صلح مع بيدرو الأول ملك قشتالة، فرأى فيها آثار أسلافه. {cite:britannica-ibn-khaldun}"
+  en: "Around 1365 Ibn Khaldun was sent from Granada to Seville to conclude a peace treaty with Pedro I of Castile, and saw there the monuments of his ancestors. {cite:britannica-ibn-khaldun}"
+  ur: "1365ء کے لگ بھگ ابن خلدون کو غرناطہ سے اشبیلیہ بھیجا گیا تاکہ قشتالہ کے بادشاہ پیدرو اول کے ساتھ صلح کا معاہدہ کریں؛ وہاں انھوں نے اپنے آبا کی یادگاریں دیکھیں۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1365~", hijri: "0766~", calendar: julian, precision: year, status: historical, derived: true, note: "Derived from Britannica: he reached Granada at about 32 (c. 1364) and was sent to Seville the following year; the Hijri year is converted (approximate, derived)." }
+relations:
+  - { type: occurred_at, target: place/seville, sources: [source/britannica-ibn-khaldun] }
+  - { type: had_participant, target: person/ibn-khaldun, role: "المبعوث إلى إشبيلية", sources: [source/britannica-ibn-khaldun] }
+sources: [source/britannica-ibn-khaldun]
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Khaldūn, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-khaldun.yaml"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: explorer-ibn-khaldun

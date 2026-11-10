@@ -1,25 +1,46 @@
 // Validates data/ and content/: JSON Schema, EDTF + Hijri sanity, link resolution, predicates
 // (domain/range), licence whitelist, alt text, slug rules, duplicate external IDs, prose links.
 // Run: npm run validate [-- --strict]   (--strict turns warnings into failures)
-import { basename, dirname } from "node:path";
+import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import edtf from "edtf";
-import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicates } from "./lib.js";
+import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadProseFor, loadStubs, p, readYaml, rel, resolvePredicate, type Prose } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
+import { inWindow } from "./modern/sections.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
+const INVENTION_HEADINGS: Record<string, string[]> = {
+  ar: ["الموجز", "ما هو", "العالم قبله", "القصة", "المخترع والمخترعون", "كيف يعمل", "الانتشار", "ما بُني عليه", "ما بُني فوقه",
+    "الأثر في الحياة", "كيف غيّر التاريخ", "من اخترعه حقاً؟", "اليوم", "الشواهد الباقية", "في الثقافة", "للصغار", "المراجع"],
+  en: ["Summary", "What it is", "The world before it", "The story", "The maker(s)", "How it works", "The spread", "What it was built on",
+    "What was built on it", "Impact on daily life", "How it changed history", "Who invented it?", "Today", "Surviving examples", "In culture",
+    "For young readers", "References"],
+  ur: ["خلاصہ", "یہ کیا ہے", "اس سے پہلے کی دنیا", "کہانی", "بنانے والے", "یہ کیسے کام کرتا ہے", "پھیلاؤ", "اس کی بنیاد کیا تھی",
+    "اس پر کیا بنایا گیا", "روزمرہ زندگی پر اثر", "اس نے تاریخ کو کیسے بدلا", "اسے حقیقتاً کس نے ایجاد کیا؟", "آج", "باقی ماندہ شواہد",
+    "ثقافت میں", "بچوں کے لیے", "مراجع"],
+};
+
+export function missingInventionHeadings(lang: string, body: string): string[] {
+  const expected = INVENTION_HEADINGS[lang] ?? [];
+  const actual = new Set([...body.matchAll(/^##\s+(.+?)\s*$/gm)].map((match) => match[1]));
+  return expected.filter((heading) => !actual.has(heading));
+}
+
 const CONFLICT_KINDS = new Set(["war", "campaign", "battle", "skirmish", "raid", "siege", "naval-battle", "revolt", "civil-war", "mutiny", "massacre", "conquest"]);
 const SPATIAL_KINDS = new Set(["battle", "siege", "naval-battle", "campaign", "war", "conquest", "treaty", "migration", "revolt", "massacre", "council", "founding", "raid", "skirmish"]);
+// provenance layers of docs/plan/15 §3; they record origin and no longer gate entry (docs/sources-policy.md)
+const KNOWN_LAYERS = new Set(["cc0", "by", "by-sa", "odbl", "nc", "pd", "copyrighted-reference", "link-only", "own-research", "unverified"]);
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
 /** Hijri strings: [-]YYYY[-MM[-DD]] with optional ~ ? markers; month 1-12, day 1-30. */
-export function hijriProblem(h: string): string | null {
+export function hijriProblem(h: any): string | null {
+  if (typeof h !== "string") return `Hijri date must be a quoted string (YAML reads an unquoted 0008 as a number): ${JSON.stringify(h)}`;
   const m = h.match(/^(-?\d{4})(?:-(\d{2})(?:-(\d{2}))?)?[~?%]?$/);
   if (!m) return `malformed Hijri date "${h}" (expected YYYY[-MM[-DD]] with optional ~ or ?)`;
   const mo = m[2] ? Number(m[2]) : 1;
@@ -51,48 +72,286 @@ function* walkDates(node: any, path = ""): Generator<[string, any]> {
   for (const [k, v] of Object.entries(node)) yield* walkDates(v, path ? `${path}.${k}` : k);
 }
 
-export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
+// ﷺ and the spelled-out formulas; no \b because it never matches before a non-word glyph such as ﷺ
+// a "(" ... ")" group containing Arabic script that is not preceded by the left-to-right isolate U+2066
+const ARABIC_PAREN_UNISOLATED = /(?<!\u2066)\([^()\n]*[\u0600-\u06FF][^()\n]*\)/;
+const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
+function* textFields(o: any, path = ""): Generator<[string, string]> {
+  if (typeof o === "string") yield [path, o];
+  else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
+  else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!["provenance", "id", "text", "text_search"].includes(k)) yield* textFields(v, path ? `${path}.${k}` : k);
+}
+
+/** The Qur'an text is frozen (docs/plan/15 §6.3): a passage must equal the committed Tanzil text, character for character. */
+export function frozenQuranTextProblem(ref: string, text: string, tanzil: Map<string, string> | undefined): string | null {
+  if (tanzil && tanzil.get(ref) !== text) return `Qur'an text of ${ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`;
+  return null;
+}
+
+// ---- leveled reading (edu/levels.yaml; docs/delegation/education-master-plan.md §5 E2, decision 3 of §9.1)
+// Three optional sections under fixed headings per language inside the prose file. Each is capped in words, present in
+// all three published languages or in none, declared in the record's `education.levels`, and the two child levels obey
+// the kids' rulebook (docs/agents/kids-content.md §2: no fear, no gore, no shaming, no promises; §3: no perspectives).
+export interface LevelDef { id: string; band: string; child: boolean; max_words: number; heading: Record<string, string> }
+let levelDefs: LevelDef[] | null = null;
+export function loadLevels(): LevelDef[] {
+  if (!levelDefs) levelDefs = (readYaml(p("edu", "levels.yaml")).levels ?? []) as LevelDef[];
+  return levelDefs;
+}
+/** Words a reader sees: links reduced to their label, citation markers removed, whitespace-separated. */
+export const levelWordCount = (md: string): number =>
+  md.replace(/\[\[[^\]|]+\|([^\]]*)\]\]/g, "$1").replace(/\[\[[^\]]+\]\]/g, "").replace(/\{cite:[^}]*\}/g, "").split(/\s+/).filter(Boolean).length;
+// What never enters a child level, whatever the language (kids rulebook §2). Whole words only; names and ordinary
+// story words (battle, journey, sea) are allowed because the rule is about gore and threats, not about events.
+const KIDS_BANNED: { what: string; re: RegExp }[] = [
+  { what: "fear-based language (hell, torment, punishment)", re: /(?<!\p{L})(جهنم|عذاب|يعذب|يعذّب|سيُعذَّب|hell|hellfire|torment|torture|punish(?:ed|ment|es)?|جہنم|دوزخ|عذاب)(?!\p{L})/iu },
+  { what: "graphic battle or death detail", re: /(?<!\p{L})(قُتل|قتلوا|قتلوه|مجزرة|الدماء|دماء|ذُبح|جثث|جثة|killed|slaughtered?|massacre|blood|bloodshed|corpses?|gore|قتل|خون|ذبح|لاشیں|لاش)(?!\p{L})/iu },
+  { what: "moral shaming of the child", re: /(?<!\p{L})(يا للعار|عار عليك|لا تكن جبانًا|لا تكن جبانا|shame on you|naughty|coward|cowardly|شرم کرو|بزدل)(?!\p{L})/iu },
+  { what: "a promise the museum cannot keep", re: /(?<!\p{L})(سيضمن الله|سوف ينجح دائمًا|will always succeed|guarantees? that|always be rewarded|ہمیشہ کامیاب)(?!\p{L})/iu },
+];
+// `subject` is the entities whose own fields are checked (default: all of `loaded`); `loaded` is still where ids are looked up.
+export function checkLeveledReading(prose: Prose[], loaded: { entity: any; file: string }[], subject: { entity: any; file: string }[] = loaded): Issue[] {
+  const issues: Issue[] = [];
+  const err = (file: string, msg: string) => issues.push({ level: "error", file, msg });
+  const levels = loadLevels();
+  const byHeading = new Map<string, { lvl: LevelDef; lang: string }>();
+  for (const l of levels) for (const [lang, h] of Object.entries(l.heading)) byHeading.set(h, { lvl: l, lang });
+  const present = new Map<string, Map<string, Set<string>>>(); // id -> level -> langs
+  const proseFile = new Map<string, string>(); // id:lang -> file
+  for (const pr of prose) {
+    proseFile.set(`${pr.id}:${pr.lang}`, pr.file);
+    let cur: { heading: string; lines: string[] } | null = null;
+    const sections: { heading: string; body: string }[] = [];
+    for (const line of pr.body.split("\n")) {
+      const m = line.match(/^## (.+)$/);
+      if (m) { if (cur) sections.push({ heading: cur.heading, body: cur.lines.join("\n") }); cur = { heading: m[1].trim(), lines: [] }; }
+      else if (cur) cur.lines.push(line);
+    }
+    if (cur) sections.push({ heading: cur.heading, body: cur.lines.join("\n") });
+    for (const sec of sections) {
+      const hit = byHeading.get(sec.heading);
+      if (!hit) continue;
+      const { lvl, lang } = hit;
+      if (lang !== pr.lang) { err(pr.file, `"## ${sec.heading}" is the ${lvl.id} heading for ${lang}; in ${pr.lang} prose write "## ${lvl.heading[pr.lang]}" (edu/levels.yaml)`); continue; }
+      const langs = present.get(pr.id) ?? new Map<string, Set<string>>();
+      present.set(pr.id, langs);
+      if (langs.get(lvl.id)?.has(pr.lang)) err(pr.file, `"## ${sec.heading}" appears twice`);
+      langs.set(lvl.id, (langs.get(lvl.id) ?? new Set()).add(pr.lang));
+      const body = sec.body.trim();
+      if (!body) { err(pr.file, `"## ${sec.heading}" is empty`); continue; }
+      const n = levelWordCount(body);
+      if (n > lvl.max_words) err(pr.file, `"## ${sec.heading}" has ${n} words; the ${lvl.id} level allows at most ${lvl.max_words} (edu/levels.yaml)`);
+      if (lvl.child) {
+        if (/:::perspectives/.test(body)) err(pr.file, `"## ${sec.heading}" is a child level and must not carry a perspectives block (docs/agents/kids-content.md §3)`);
+        for (const b of KIDS_BANNED) { const m = body.match(b.re); if (m) err(pr.file, `"## ${sec.heading}" is a child level and contains ${b.what}: "${m[0]}" (docs/agents/kids-content.md §2)`); }
+      }
+    }
+  }
+  const byId = new Map(loaded.map((x) => [x.entity.id, x]));
+  const all = PUBLISHED_LANGS as readonly string[];
+  for (const [id, langsByLevel] of present) {
+    const ent = byId.get(id);
+    for (const [lvl, langs] of langsByLevel) {
+      const missing = all.filter((l) => !langs.has(l));
+      if (missing.length) err(proseFile.get(`${id}:${[...langs][0]}`) ?? id, `level ${lvl} exists in ${[...langs].sort().join(", ")} but not in ${missing.join(", ")}: a leveled section is present in all three languages or in none`);
+    }
+    if (!ent) continue;
+    const declared: string[] = [...(ent.entity.education?.levels ?? [])].sort();
+    const found = [...langsByLevel.keys()].sort();
+    if (declared.join() !== found.join()) err(ent.file, `education.levels [${declared.join(", ")}] must match the leveled sections in content/ [${found.join(", ")}]`);
+  }
+  for (const { entity, file } of subject) {
+    const edu = entity.education;
+    if (!edu) continue;
+    if (edu.levels?.length && !present.has(entity.id)) err(file, `education.levels [${edu.levels.join(", ")}] declared but content/ has no leveled section for ${entity.id}`);
+    if (edu.flagged_for_kids && !(edu.levels ?? []).includes("explorers")) err(file, "education.flagged_for_kids needs the explorers level: the kids' reader shows the Sprout and Explorer texts");
+    // fact engine (plan §5 E3): authored fact in the three published languages, ≤ 40 words each, ≥ 2 cited sources
+    const fact = edu.did_you_know;
+    if (fact) {
+      for (const l of PUBLISHED_LANGS) {
+        if (!fact[l]) err(file, `education.did_you_know lacks ${l}`);
+        else if (levelWordCount(fact[l]) > 40) err(file, `education.did_you_know.${l} has ${levelWordCount(fact[l])} words; a fact is at most 40 words`);
+      }
+      const fs: string[] = fact.sources ?? [];
+      if (fs.length < 2) err(file, `education.did_you_know needs at least two sources, found ${fs.length}`);
+      for (const s of fs) if (!byId.has(s)) err(file, `education.did_you_know source ${s} does not exist`);
+    }
+  }
+  return issues;
+}
+
+// ---- curriculum pathways (docs/delegation/education-master-plan.md §5 E2): a lesson trail mapped to a jurisdiction's
+// curriculum must be walkable by a class (5 to 15 steps over existing records), addressed to teachers and students,
+// levelled, and explained in the three published languages in the museum's own words.
+// `subject` is the entities whose own fields are checked (default: all of `loaded`); `loaded` is still where ids are looked up.
+export function checkCurriculum(loaded: { entity: any; file: string }[], subject: { entity: any; file: string }[] = loaded): Issue[] {
+  const issues: Issue[] = [];
+  const err = (file: string, msg: string) => issues.push({ level: "error", file, msg });
+  const ids = new Set(loaded.map((x) => x.entity.id));
+  for (const { entity: e, file } of subject) {
+    // mastery check (plan §5 E2): 5 questions, 4 options, one answer, each teaching a step of this trail, in three languages
+    if (e.quiz) {
+      const n = (e.rooms ?? []).length;
+      if (e.class !== "exhibit") err(file, "quiz: only an exhibit carries a mastery check");
+      if (e.quiz.length !== 5) err(file, `quiz: a mastery check has exactly 5 questions, this one has ${e.quiz.length}`);
+      e.quiz.forEach((q: any, i: number) => {
+        if ((q.options ?? []).length !== 4) err(file, `quiz ${i + 1}: four options`);
+        if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) err(file, `quiz ${i + 1}: answer is the index of the right option, 0 to 3`);
+        if (!Number.isInteger(q.teaches) || q.teaches < 0 || q.teaches >= n) err(file, `quiz ${i + 1}: teaches must point to a step of this trail (0 to ${n - 1})`);
+        for (const l of PUBLISHED_LANGS) { if (!q.q?.[l]) err(file, `quiz ${i + 1}: question lacks ${l}`); (q.options ?? []).forEach((o: any, k: number) => { if (!o?.[l]) err(file, `quiz ${i + 1}: option ${k + 1} lacks ${l}`); }); }
+        const en = (q.options ?? []).map((o: any) => o?.en).filter(Boolean);
+        if (new Set(en).size !== en.length) err(file, `quiz ${i + 1}: options repeat`);
+      });
+    }
+    const c = e.curriculum;
+    if (!c) continue;
+    if (e.class !== "exhibit" || e.kind !== "lesson") err(file, "curriculum: only an exhibit of kind lesson carries a curriculum block");
+    const rooms: any[] = e.rooms ?? [];
+    if (rooms.length < 5 || rooms.length > 15) err(file, `curriculum: a pathway has 5 to 15 steps, this one has ${rooms.length}`);
+    for (const a of ["teacher", "student"]) if (!(e.audience ?? []).includes(a)) err(file, `curriculum: audience must include ${a}`);
+    if (!e.level) err(file, "curriculum: a pathway states its level (intro, standard or deep)");
+    if (!e.duration_minutes) err(file, "curriculum: a pathway states its duration_minutes");
+    for (const l of PUBLISHED_LANGS) {
+      if (!c.expectation?.[l]) err(file, `curriculum.expectation lacks ${l}: write the mapping in the museum's words in all three languages`);
+      if (!e.goal?.[l]) err(file, `curriculum: a pathway states its goal in ${l}`);
+    }
+    (e.worksheet ?? []).forEach((w: any, i: number) => {
+      for (const l of PUBLISHED_LANGS) if (!w?.prompt?.[l]) err(file, `worksheet prompt ${i + 1} lacks ${l}`);
+      for (const k of w?.steps ?? []) if (!Number.isInteger(k) || k < 0 || k >= rooms.length) err(file, `worksheet prompt ${i + 1} points to step ${k}, which is not a step of this pathway`);
+    });
+    if (!(e.worksheet ?? []).length) err(file, "curriculum: a pathway ships a worksheet (at least one prompt)");
+    if (!(e.quiz ?? []).length) err(file, "curriculum: a pathway ends with a mastery check (quiz of 5 questions)");
+    rooms.forEach((r, i) => {
+      for (const f of r.features ?? []) if (!ids.has(f)) err(file, `curriculum: step ${i + 1} names ${f}, which is not a record`);
+      if (!(r.features ?? []).length) err(file, `curriculum: step ${i + 1} names no record`);
+    });
+  }
+  return issues;
+}
+
+// Raw HTML and script-scheme URLs have no prose construct (GorillaQA #11): the renderer escapes them,
+// so an author must see the failure here, at authoring time, not silently in the output.
+/** Modern Islam Browser (docs/plan/26 section 3.6): a song's words are never reproduced as a lyric block; three or more
+ * consecutive quoted lines, or a `:::lyrics` block, is treated as one. A 40-word cited quotation in the prose is the limit. */
+export function lyricProblem(body: string): string | null {
+  if (/^:::lyrics/m.test(body)) return "lyrics are never reproduced: remove the :::lyrics block (a 40-word cited quotation at most)";
+  let run = 0;
+  for (const line of body.split("\n")) {
+    if (/^>\s*\S/.test(line)) { run++; if (run >= 3) return "lyrics are never reproduced: three or more consecutive quoted lines read as a lyric block (a 40-word cited quotation at most)"; }
+    else if (!/^>\s*$/.test(line)) run = 0;
+  }
+  return null;
+}
+
+export function proseUnsafeHtml(body: string): string | null {
+  const codeFree = body.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
+  const htmlTag = codeFree.match(/<\/?[a-zA-Z][^>\n]*>/);
+  if (htmlTag) return `raw HTML is not allowed in prose — the renderer escapes it, so it can only show as text: "${htmlTag[0].slice(0, 60)}" (use the prose constructs: wiki-links, {cite:…}, :::perspectives)`;
+  const badUrl = codeFree.match(/\]\(\s*(?:javascript|data|vbscript)\s*:/i) ?? codeFree.match(/href\s*=\s*["']?\s*(?:javascript|data|vbscript)\s*:/i);
+  if (badUrl) return `javascript:/data:/vbscript: URLs are not allowed in prose: "${badUrl[0].slice(0, 60)}"`;
+  return null;
+}
+
+// The schema files do not change while a process runs, and compiling them is repeated work on every
+// validateAll() call (the pipeline tests make one call per test). Build the validator once per process.
+let schemaValidator: Ajv2020 | null = null;
+function getSchemaValidator(): Ajv2020 {
+  if (!schemaValidator) {
+    const a = new Ajv2020({ allErrors: true, strict: false });
+    addFormats(a);
+    a.addSchema(readYamlJson("schema/_base.schema.json"));
+    for (const c of CLASSES) a.addSchema(readYamlJson(`schema/${c}.schema.json`));
+    schemaValidator = a;
+  }
+  return schemaValidator;
+}
+
+// The frozen Tanzil files are read, hashed and split into lines on every call. Keep the parse per file, keyed
+// by size and modification time, so an edited file is read again. The sha256 comparison with the recorded
+// value still runs on every call; only the work that depends on the file's bytes alone is reused.
+interface TanzilParse { key: string; sha256: string; map: Map<string, string>; flat: string[] }
+const tanzilParses = new Map<string, TanzilParse>();
+function parseTanzilFile(path: string): TanzilParse {
+  const st = statSync(path);
+  const key = `${st.size}:${st.mtimeMs}`;
+  const hit = tanzilParses.get(path);
+  if (hit && hit.key === key) return hit;
+  const buf = readFileSync(path);
+  const map = new Map<string, string>();
+  for (const line of buf.toString("utf8").split(/\r?\n/)) { if (!line || line.startsWith("#")) continue; const [s, a, ...t] = line.split("|"); map.set(`${s}:${a}`, t.join("|")); }
+  const parsed: TanzilParse = { key, sha256: createHash("sha256").update(buf).digest("hex"), map, flat: [...map.entries()].flat() };
+  tanzilParses.set(path, parsed);
+  return parsed;
+}
+
+/**
+ * Validate the repository, plus any `extra` entities appended to it.
+ *
+ * `onlyExtra: true` checks just the entities in `extra` (and the prose files of those ids): the repository still
+ * supplies the context they are checked against (which ids, aliases, stubs, sources and external ids exist, and
+ * the entities a fixture refers to), but its own entities and prose files are not checked again. A test that
+ * wants to see what the rules say about one fixture entity uses it; otherwise every such test re-checks tens of
+ * thousands of files and takes tens of seconds. Without it, behaviour is unchanged. In this mode `entityCount`
+ * and `proseCount` count what was checked, and the repository-wide totals (such as the 6,236 ayat) are not checked.
+ */
+export function validateAll(extra: { entity: any; file: string }[] = [], options: { onlyExtra?: boolean } = {}): { issues: Issue[]; entityCount: number; proseCount: number } {
+  const onlyExtra = options.onlyExtra === true;
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
   const warn = (file: string, msg: string) => issues.push({ level: "warn", file: rel(file), msg });
 
   // ---- schemas
-  const ajv = new Ajv2020({ allErrors: true, strict: false });
-  addFormats(ajv);
-  ajv.addSchema(readYamlJson("schema/_base.schema.json"));
-  for (const c of CLASSES) ajv.addSchema(readYamlJson(`schema/${c}.schema.json`));
+  const ajv = getSchemaValidator();
 
-  const predicates = resolvePredicates(loadPredicates());
+  const predicates = loadPredicates();
   const idPatterns = readYaml<Record<string, { pattern: string }>>(p("schema", "external-id-patterns.yaml"));
 
   // ---- load
-  const loaded = [...loadEntities(), ...extra];
-  const stubs = loadStubs();
+  // `repo` is read, never changed, when onlyExtra is set, so the cached copy is shared instead of copied.
+  const repo = loadEntities({ shared: onlyExtra });
+  const loaded = [...repo, ...extra];
+  // `subject` is what gets checked: everything, or only the extra entities. The items are the same objects as in `loaded`.
+  const subject = onlyExtra ? extra : loaded;
+  const inSubject: Set<object> | null = onlyExtra ? new Set<object>(extra) : null;
+  const stubs = loadStubs({ shared: onlyExtra });
   const known = new Set<string>();
+  const entitiesById = new Map<string, any>();
   const stubIds = new Set(stubs.map((s) => s.id));
   const aliasOwner = new Map<string, string>();
   const externalIds = new Map<string, string>();
 
-  for (const { entity, file } of loaded) {
-    if (!entity || typeof entity !== "object") { err(file, "file is empty or not a YAML mapping"); continue; }
+  // The index covers the whole repository (references must resolve against all of it); in onlyExtra mode only
+  // the problems on the extra entities are reported.
+  for (const item of loaded) {
+    const { entity, file } = item;
+    const report = !inSubject || inSubject.has(item);
+    const indexErr = (f: string, msg: string) => { if (report) err(f, msg); };
+    if (!entity || typeof entity !== "object") { indexErr(file, "file is empty or not a YAML mapping"); continue; }
     const dir = basename(dirname(file));
     const slug = basename(file, ".yaml");
-    if (!SLUG.test(slug)) err(file, `slug "${slug}" must be lowercase ASCII words joined by hyphens`);
-    if (entity.id !== `${dir}/${slug}`) err(file, `id "${entity.id}" must equal "${dir}/${slug}" (path decides identity)`);
-    if (entity.class !== dir) err(file, `class "${entity.class}" must match its directory "${dir}"`);
-    if (known.has(entity.id)) err(file, `duplicate id ${entity.id}`);
+    if (!SLUG.test(slug)) indexErr(file, `slug "${slug}" must be lowercase ASCII words joined by hyphens`);
+    if (entity.id !== `${dir}/${slug}`) indexErr(file, `id "${entity.id}" must equal "${dir}/${slug}" (path decides identity)`);
+    if (entity.class !== dir) indexErr(file, `class "${entity.class}" must match its directory "${dir}"`);
+    if (known.has(entity.id)) indexErr(file, `duplicate id ${entity.id}`);
     known.add(entity.id);
+    entitiesById.set(entity.id, entity);
     for (const a of entity.aliases ?? []) {
-      if (aliasOwner.has(a)) err(file, `alias ${a} also claimed by ${aliasOwner.get(a)}`);
+      if (aliasOwner.has(a)) indexErr(file, `alias ${a} also claimed by ${aliasOwner.get(a)}`);
       aliasOwner.set(a, entity.id);
     }
   }
-  for (const id of stubIds) if (known.has(id)) warn(p("data", "_stubs.yaml"), `${id} is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)`);
+  // External ids are collected while checking each entity, so a check of only the extra entities starts from the
+  // ids the repository already uses: a fixture that repeats one is still reported.
+  if (onlyExtra) {
+    for (const { entity } of repo) for (const [k, v] of Object.entries<string>(entity?.external_ids ?? {})) externalIds.set(`${k}:${v}`, entity.id);
+  }
+  const subjectIds: Set<string> | null = onlyExtra ? new Set<string>(subject.map((x) => x.entity?.id)) : null;
+  for (const id of stubIds) if (known.has(id) && (!subjectIds || subjectIds.has(id))) warn(p("data", "_stubs.yaml"), `${id} is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)`);
   const resolves = (id: string) => known.has(id) || stubIds.has(id) || aliasOwner.has(id);
   const classOf = (id: string) => id.split("/")[0];
 
   // ---- per entity
-  for (const { entity, file } of loaded) {
+  for (const { entity, file } of subject) {
     if (!entity?.class || !CLASSES.includes(entity.class)) { err(file, `unknown class "${entity?.class}"`); continue; }
     const validate = ajv.getSchema(`${entity.class}.schema.json`)!;
     if (!validate(entity)) {
@@ -109,6 +368,11 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (!entity.summary?.ar) err(file, "summary.ar is required (Arabic is the primary language, docs/language.md)");
     }
 
+    // honorifics are rendered by the UI: never typed into any label, summary or note (passages hold scripture/hadith text verbatim and are exempt)
+    if (entity.class !== "passage") for (const [path, s] of textFields(entity)) if (HONORIFIC.test(s)) err(file, `${path}: honorifics must not be typed (the UI renders them)`);
+    // Arabic-script parentheticals in right-to-left text must be wrapped in U+2066 ... U+2069 (AGENTS.md)
+    for (const [path, s] of textFields(entity)) if (/(^|\.)(ar|ur)(\.|$)|\[\d+\]\.ar$/.test(path) && ARABIC_PAREN_UNISOLATED.test(s)) err(file, `${path}: wrap Arabic-script parentheses in U+2066 ... U+2069 (AGENTS.md)`);
+
     // dates
     for (const [path, d] of walkDates(entity)) {
       if (d.edtf) { try { edtf(d.edtf); } catch { err(file, `${path}: invalid EDTF "${d.edtf}"`); } }
@@ -124,23 +388,46 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (!REF.test(s) || classOf(s) !== "source") err(file, `sources: "${s}" is not a source/<slug> id`);
       else if (!known.has(s)) err(file, `sources: ${s} does not exist (cited sources must exist)`);
     }
-    if (!["source", "dataset", "question", "passage", "media"].includes(entity.class) && own.size === 0) {
+    if (entity.class === "invention" && own.size === 0) err(file, "invention requires at least one defined source");
+    else if (!["source", "dataset", "question", "passage", "media"].includes(entity.class) && own.size === 0) {
       (entity.status?.review === "draft" ? warn : err)(file, "no sources listed (every entity must cite at least one)");
     }
 
     // simple ref fields
     for (const per of entity.periods ?? []) if (!resolves(per)) err(file, `periods: ${per} does not exist`);
+    for (const c of entity.chain ?? []) if (!resolves(c)) err(file, `chain: ${c} does not exist`);
     for (const f of ["hero"]) {
       const v = entity.media?.[f];
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);
     }
     for (const t of entity.perspectives ?? []) for (const s of t.sources ?? []) if (!known.has(s)) err(file, `perspective source ${s} does not exist`);
+    // traditions[] counts a person as a member of a tradition (docs/agents/content-standards.md 13b): a recorded faith with no Muslim value contradicts a Sunni tag
+    if (entity.class === "person" && (entity.traditions ?? []).some((t: string) => String(t).startsWith("sunni")) && (entity.faith ?? []).length > 0) {
+      const muslim = (v: string) => /^(sunni|shia|ibadi|sufi|ahmadiyya|quranist)/.test(String(v));
+      if (!(entity.faith as any[]).some((f) => muslim(f.value))) warn(file, "traditions lists a Sunni tradition but the recorded faith has no Muslim value: a person who was not Muslim is not counted among a tradition");
+    }
+    // opinions (docs/plan/20-opinions.md): ids unique, holders and evidence resolve, a disagreement states its issue, every opinion cites a source
+    if (entity.perspectives?.length) {
+      const seenIds = new Set<string>();
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.id) { if (seenIds.has(t.id)) err(file, `perspectives[${i}]: duplicate id "${t.id}"`); seenIds.add(t.id); }
+        for (const h of t.holders ?? []) if (!resolves(h)) err(file, `perspectives[${i}].holders: ${h} does not exist`);
+        for (const e of t.evidence ?? []) if (!resolves(e.ref)) err(file, `perspectives[${i}].evidence: ${e.ref} does not exist`);
+        if (!(t.sources ?? []).length) warn(file, `perspectives[${i}] (${t.tradition}) cites no source: every opinion is cited`);
+      });
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.standing === "main" && !String(t.tradition).startsWith("sunni")) err(file, `perspectives[${i}]: standing "main" is for Sunni opinions; "${t.tradition}" is a secondary or other opinion (docs/scope.md)`);
+        if (i === 0 && (t.standing === "secondary" || t.standing === "other")) err(file, `perspectives[0] is the lead opinion and cannot be tagged ${t.standing}`);
+      });
+      if (entity.perspectives.length >= 2 && !entity.issue) warn(file, "two or more opinions but no `issue`: state the question the opinions answer");
+    }
 
     // relations
     entity.relations?.forEach((r: any, i: number) => {
       const where = `relations[${i}]`;
-      const rp = predicates.get(r.type);
+      const rp = resolvePredicate(predicates, r.type, entity.class, String(r.target ?? "").split("/")[0]);
       if (!rp) { err(file, `${where}: unknown predicate "${r.type}" (see schema/predicates.yaml)`); return; }
+      if (rp.pred.derived) { err(file, `${where}: ${r.type} is a derived predicate (generated from invention fields or honours[]) and cannot be written in relations:`); return; }
       if (!REF.test(r.target ?? "")) { err(file, `${where}: target "${r.target}" is not a class/slug id`); return; }
       if (!resolves(r.target)) err(file, `${where}: target ${r.target} does not exist; add the entity or declare it in data/_stubs.yaml`);
       // a relation written with the inverse name has its domain and range swapped
@@ -156,7 +443,11 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
     // ---- references inside structured fields (story roles, sides, tensions, locations ...)
     const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
-      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related", "lessons", "entity"]);
+      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related", "lessons", "entity",
+      "host", "occasion", "moderator", "co_speakers", "who", "by",
+      "job", "under", "trained_under", "polity", "broader", "successor_jobs", "bodies", "tools", "workplaces", "outputs", "pir", "practice",
+      "person", "invention", "via", "examples", "sites", "concepts", "described_in", "image", "diagram", "map",
+      "award", "for", "outlet", "teams", "ceremony", "awarded_by", "performers"]);
     const walkRefs = (node: any, path: string) => {
       if (!node || typeof node !== "object") return;
       if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
@@ -169,10 +460,186 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     };
     walkRefs(entity, "");
 
-    // ---- licence wall (docs/plan/15 §3): only cc0, by or our own cited research may enter data/
+    // ---- job blocks (docs/jobs/schema.md): every cited source exists; targets are of the class their key names; the craft block is present exactly when hirfa is set
+    const clsOf = (id: string) => String(id).split("/")[0];
+    if (entity.class === "job") {
+      if (entity.hirfa && !entity.craft) err(file, "hirfa: true needs a craft block (docs/jobs/schema.md section 1a)");
+      if (!entity.hirfa && entity.craft) err(file, "craft block without hirfa: true");
+    }
+    for (const [i, o] of ((entity.occupations ?? []) as any[]).entries()) {
+      const w = `occupations[${i}]`;
+      for (const s of o.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+      if (o.job && clsOf(o.job) !== "job") err(file, `${w}.job: ${o.job} is not a job`);
+      if (o.under && clsOf(o.under) !== "person") err(file, `${w}.under: ${o.under} is not a person`);
+      if (o.place && clsOf(o.place) !== "place") err(file, `${w}.place: ${o.place} is not a place`);
+      if (o.polity && clsOf(o.polity) !== "polity") err(file, `${w}.polity: ${o.polity} is not a polity`);
+      for (const t of o.trained_under ?? []) if (clsOf(t) !== "person") err(file, `${w}.trained_under: ${t} is not a person`);
+    }
+    for (const [i, j] of ((entity.jobs ?? []) as any[]).entries()) {
+      const w = `jobs[${i}]`;
+      for (const s of j.sources ?? []) if (!known.has(s)) err(file, `${w}: source ${s} does not exist`);
+      if (j.job && clsOf(j.job) !== "job") err(file, `${w}.job: ${j.job} is not a job`);
+    }
+
+    const sourceRefs = (refs: unknown, where: string) => {
+      if (!Array.isArray(refs) || refs.length === 0) {
+        err(file, `${where}: at least one source is required`);
+        return;
+      }
+      for (const source of refs) {
+        if (typeof source !== "string" || classOf(source) !== "source") err(file, `${where}: "${source}" is not a source/<slug> id`);
+        else if (!known.has(source)) err(file, `${where}: ${source} does not exist`);
+      }
+    };
+    const expectedRefClass = (id: unknown, expected: string | string[], where: string) => {
+      if (typeof id !== "string") return;
+      const classes = Array.isArray(expected) ? expected : [expected];
+      if (!classes.includes(classOf(id))) err(file, `${where}: ${id} is not a ${classes.join(" or ")}`);
+    };
+    const list = (value: unknown): any[] => Array.isArray(value) ? value : [];
+    if (entity.class === "invention") {
+      if (!entity.origin?.place && !entity.origin?.polity) err(file, "origin: place or polity is required");
+      if (entity.origin?.place) expectedRefClass(entity.origin.place, "place", "origin.place");
+      if (entity.origin?.polity) expectedRefClass(entity.origin.polity, "polity", "origin.polity");
+      sourceRefs(entity.era?.first_attested?.sources, "era.first_attested.sources");
+
+      for (const [i, maker] of list(entity.makers).entries()) {
+        const where = `makers[${i}]`;
+        expectedRefClass(maker.person, "person", `${where}.person`);
+        sourceRefs(maker.sources, `${where}.sources`);
+        const person = entitiesById.get(maker.person);
+        const faith = Array.isArray(person?.faith) ? person.faith : [];
+        for (const [j, entry] of faith.entries()) {
+          if (entry?.basis) sourceRefs(entry.sources, `${where}.person.faith[${j}].sources`);
+        }
+        const sourcedFaith = faith.filter((entry: any) => entry?.basis && Array.isArray(entry.sources) && entry.sources.length > 0);
+        if (sourcedFaith.length === 0) err(file, `${where}.person: ${maker.person} has no sourced faith basis`);
+        const needsSunniBasis = ["inventor", "co-inventor", "improver", "disputed"].includes(maker.role);
+        if (needsSunniBasis && !sourcedFaith.some((entry: any) => /^sunni(?:-|$)/.test(String(entry.value)))) {
+          err(file, `${where}.person: ${maker.person} has no source-backed Sunni faith entry`);
+        }
+        if (faith.some((entry: any) => entry?.basis === "debated") && !list(person?.perspectives).length) {
+          err(file, `${where}.person: disputed faith needs a sourced perspectives block`);
+        }
+      }
+
+      for (const field of ["precursors", "dependents"] as const) {
+        for (const [i, item] of list(entity[field]).entries()) {
+          const where = `${field}[${i}]`;
+          if (item.invention) expectedRefClass(item.invention, "invention", `${where}.invention`);
+          if (item.external && (!item.external.ar || !item.external.en)) err(file, `${where}.external: both ar and en labels are required`);
+          sourceRefs(item.sources, `${where}.sources`);
+        }
+      }
+      for (const [i, item] of list(entity.spread).entries()) {
+        const where = `spread[${i}]`;
+        expectedRefClass(item.place, "place", `${where}.place`);
+        if (item.via) expectedRefClass(item.via, "journey", `${where}.via`);
+        sourceRefs(item.sources, `${where}.sources`);
+      }
+      for (const [field, expected] of [["described_in", "work"], ["examples", "object"], ["sites", ["building", "place"]], ["concepts", "concept"]] as const) {
+        for (const id of list(entity[field])) expectedRefClass(id, expected, `${field}`);
+      }
+      for (const field of ["image", "diagram", "map"] as const) {
+        const id = entity.media?.[field];
+        if (id) expectedRefClass(id, "media", `media.${field}`);
+      }
+      if (entity.status?.review === "published" && !entity.media?.image) err(file, "media.image is required before an invention can be published");
+      if (entity.spread?.length && !entity.media?.map) err(file, "media.map is required when spread entries exist");
+      if (entity.impact?.significance !== undefined && !entity.impact?.why) err(file, "impact.why is required when impact.significance is set");
+
+      const perspectives = list(entity.attribution?.perspectives);
+      if (["contested", "legend"].includes(entity.attribution?.status) && perspectives.length === 0) {
+        err(file, `attribution.status ${entity.attribution.status} requires sourced perspectives`);
+      }
+      if (entity.attribution?.status === "original" && perspectives.length > 0) {
+        err(file, "attribution.perspectives must be absent or empty when attribution.status is original");
+      }
+      const perspectiveRank = (tradition: string) => (tradition.startsWith("sunni") ? 0 : tradition === "academic" ? 1 : 2);
+      perspectives.forEach((perspective: any, i: number) => {
+        sourceRefs(perspective.sources, `attribution.perspectives[${i}].sources`);
+        if (i === 0 && !String(perspective.tradition).startsWith("sunni")) err(file, "attribution.perspectives must begin with a Sunni perspective");
+        if (i > 0 && perspectiveRank(perspective.tradition) < perspectiveRank(perspectives[i - 1].tradition)) {
+          err(file, `attribution.perspectives[${i}] is out of order: Sunni, academic, then other`);
+        }
+      });
+    }
+    for (const [i, tie] of list(entity.inventions).entries()) {
+      expectedRefClass(tie.invention, "invention", `inventions[${i}].invention`);
+      sourceRefs(tie.sources, `inventions[${i}].sources`);
+    }
+
+    // ---- Modern Islam Browser (docs/plan/26 section 3.6, approved 6 Nov 2026): honours, footprint, reach, horizon,
+    // sports, tracks and the award class; the faith and made-basis rules scoped to the browser's window (D-000)
+    const modern = inWindow(entity);
+    for (const [i, h] of list(entity.honours).entries()) {
+      const where = `honours[${i}]`;
+      if (typeof h.award === "string") {
+        if (classOf(h.award) !== "award") err(file, `${where}.award: ${h.award} is not an award/<slug> id`);
+        else if (!resolves(h.award)) err(file, `${where}.award: ${h.award} does not exist; add the award record or a stub`);
+      }
+      if (h.year === undefined && !h.date) err(file, `${where}: year or date is required`);
+      if (h.position !== undefined && h.result !== "ranked") err(file, `${where}: position is only given with result ranked`);
+      if (h.level !== undefined && h.result !== "certified") err(file, `${where}: level is only given with result certified`);
+      if (h.result === "certified" && h.level === undefined) err(file, `${where}: a certification needs its level`);
+      sourceRefs(h.sources, `${where}.sources`);
+    }
+    for (const [i, pr] of list(entity.footprint?.press).entries()) {
+      const where = `footprint.press[${i}]`;
+      if (typeof pr.source !== "string" || classOf(pr.source) !== "source") err(file, `${where}.source: "${pr.source}" is not a source/<slug> id`);
+      else if (!known.has(pr.source)) err(file, `${where}.source: ${pr.source} does not exist`);
+      if (pr.outlet) expectedRefClass(pr.outlet, ["listing", "group"], `${where}.outlet`);
+    }
+    if (entity.footprint?.wikidata && entity.external_ids?.wikidata && entity.footprint.wikidata !== entity.external_ids.wikidata) {
+      err(file, `footprint.wikidata ${entity.footprint.wikidata} differs from external_ids.wikidata ${entity.external_ids.wikidata}`);
+    }
+    for (const [i, r] of list(entity.reach).entries()) sourceRefs(r.sources, `reach[${i}].sources`);
+    if (entity.horizon) {
+      if (!entity.horizon.expected && !entity.horizon.announced) err(file, "horizon: expected or announced date is required");
+      sourceRefs(entity.horizon.sources, "horizon.sources");
+      if (entity.horizon.by) expectedRefClass(entity.horizon.by, ["group", "person", "polity", "listing"], "horizon.by");
+      const expected = entity.horizon.expected?.edtf ? Number(String(entity.horizon.expected.edtf).slice(0, 4)) : NaN;
+      const staleBefore = new Date(Date.now() - 90 * 86_400_000).getUTCFullYear();
+      if (Number.isFinite(expected) && expected < staleBefore && !["postponed", "cancelled"].includes(entity.horizon.stage)) {
+        warn(file, `horizon: expected ${entity.horizon.expected.edtf} has passed; confirm it happened (remove horizon and record the fact) or set stage postponed or cancelled`);
+      }
+    }
+    for (const [i, sp] of list(entity.sports).entries()) {
+      for (const t of list(sp.teams)) expectedRefClass(t, "group", `sports[${i}].teams`);
+      sourceRefs(sp.sources, `sports[${i}].sources`);
+    }
+    const tracks = list(entity.tracks);
+    tracks.forEach((t: any, i: number) => {
+      if (i > 0 && !(t.n > tracks[i - 1].n)) err(file, `tracks[${i}]: track numbers must be unique and ascending`);
+      if (t.work) expectedRefClass(t.work, "work", `tracks[${i}].work`);
+      for (const pf of list(t.performers)) expectedRefClass(pf, ["person", "group"], `tracks[${i}].performers`);
+    });
+    if (entity.class === "award") {
+      if (entity.awarded_by) expectedRefClass(entity.awarded_by, ["group", "person", "polity", "listing"], "awarded_by");
+      if (entity.ceremony) expectedRefClass(entity.ceremony, "event", "ceremony");
+    }
+    if (entity.made?.by_muslims === true && entity.made?.basis === "unverified") {
+      (modern ? err : warn)(file, "made.by_muslims true needs basis self-identified or documented; unverified is recorded, never shown as by Muslims");
+    }
+    if (entity.class === "person" && Array.isArray(entity.faith)) {
+      const bornYear = Number(String(entity.born?.edtf ?? "").slice(0, 4));
+      const modernPerson = (entity.wings ?? []).includes("living") || (Number.isFinite(bornYear) && bornYear >= 1900);
+      const exempt = new Set(["person/bilal-philips", "person/siraj-wahhaj", "person/qazi-muhammad-isa"]);
+      const MUSLIM_VALUE = /^(sunni|shia|zahiri|alawite|ibadi|sufi|ahmadiyya|quranist)/;
+      entity.faith.forEach((f: any, i: number) => {
+        const n = new Set(f?.sources ?? []).size;
+        if (modernPerson && !exempt.has(entity.id) && f?.value && f.value !== "unknown" && MUSLIM_VALUE.test(String(f.value)) && n < 2) {
+          err(file, `faith[${i}]: a modern person's school or order needs two independent sources (docs/agents/lanes/modern-figures.md, ruling 3); with one it stays unknown with the attestation in the note`);
+        }
+      });
+    }
+
+    // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
+    // from and no longer decides whether it may enter data/. Any source may be read and rewritten with a citation; a layer
+    // other than the open ones must therefore cite the source it was rewritten from.
     const layer = entity.provenance?.layer;
-    if (layer && !["cc0", "by", "own-research"].includes(layer)) err(file, `provenance.layer "${layer}" may not enter data/ (only cc0, by or own-research; see docs/plan/15 §3)`);
-    if (layer === "own-research" && own.size === 0) err(file, "provenance.layer own-research requires cited sources");
+    if (layer && !KNOWN_LAYERS.has(layer)) warn(file, `provenance.layer "${layer}" is not a known layer (${[...KNOWN_LAYERS].join(", ")}; see docs/plan/15 §3)`);
+    if (layer && !["cc0", "by"].includes(layer) && own.size === 0) err(file, `provenance.layer ${layer} requires cited sources (docs/sources-policy.md §3)`);
 
     // ---- conflicts must show both sides (docs/plan/13 and 14): warn when a conflict has fewer than two sides
     if (entity.class === "event" && CONFLICT_KINDS.has(entity.kind) && (entity.sides?.length ?? 0) < 2) {
@@ -234,6 +701,22 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
     if (entity.sensitivity === "polemical" && entity.class === "media") err(file, "polemical material is never reproduced as media");
 
+    // ---- khutab and durus (docs/plan/25): a sermon or lesson records its speaker; a ruler's role beyond "contemporary"
+    // needs a citation; lessons in a series carry an order; YouTube is a pointer, never a media store
+    if (entity.class === "work" && ["sermon", "lecture"].includes(entity.kind)) {
+      if (!entity.delivered?.by) err(file, `kind ${entity.kind} needs delivered.by: every sermon or lesson records its speaker`);
+      if (entity.composed && !entity.delivery_date_status) warn(file, "set delivery_date_status: an upload or broadcast date is never shown as the delivery date");
+      (entity.ruler_at_time ?? []).forEach((r: any, i: number) => {
+        if (r.role !== "contemporary" && !(r.sources ?? []).length) err(file, `ruler_at_time[${i}]: role "${r.role}" needs a citation (only "contemporary" may be derived)`);
+      });
+      const seriesTarget = (entity.relations ?? []).find((r: any) => r.type === "part_of" && loaded.some((x) => x.entity?.id === r.target && x.entity?.kind === "lecture-series"));
+      if (seriesTarget && !Number.isInteger(entity.order)) err(file, `a lesson part_of a lecture-series (${seriesTarget.target}) needs an order number`);
+    }
+    if (entity.class === "media") {
+      const urls = [entity.url, ...Object.values<string>(entity.files ?? {})].filter(Boolean);
+      for (const u of urls) if (/youtube\.com|youtu\.be/.test(u)) err(file, "YouTube is metadata and link only: it is never a media store entry (docs/plan/25; audio-video-harvest.md §2)");
+    }
+
     // external ids
     for (const [k, v] of Object.entries<string>(entity.external_ids ?? {})) {
       const pat = idPatterns[k];
@@ -254,34 +737,45 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
   // ---- the Qur'an text is frozen (docs/plan/15 §6.3): every passage/quran-* must equal the committed Tanzil file, character for character
   const quran = loaded.find((x) => x.entity?.id === "work/quran");
-  if (quran) {
+  // A check of only the extra entities reads the frozen files just when one of them is the Qur'an work or one of its passages.
+  const quranInScope = !onlyExtra || subject.some((x) => x.entity?.id === "work/quran" || (x.entity?.class === "passage" && x.entity.work === "work/quran"));
+  if (quran && quranInScope) {
     const ts = quran.entity.text_source;
     const files: Record<string, string[]> = {};
     for (const f of ts?.files ?? []) {
       const path = p(f.path);
       if (!existsSync(path)) { err(quran.file, `text_source file ${f.path} is missing`); continue; }
-      const buf = readFileSync(path);
-      if (createHash("sha256").update(buf).digest("hex") !== f.sha256) err(quran.file, `${f.path} no longer matches its frozen sha256: the Tanzil source must never be edited`);
-      const m = new Map<string, string>();
-      for (const line of buf.toString("utf8").split(/\r?\n/)) { if (!line || line.startsWith("#")) continue; const [s, a, ...t] = line.split("|"); m.set(`${s}:${a}`, t.join("|")); }
-      files[f.use] = [...m.entries()].flat();
-      (files as any)[`map:${f.use}`] = m;
+      const tz = parseTanzilFile(path);
+      if (tz.sha256 !== f.sha256) err(quran.file, `${f.path} no longer matches its frozen sha256: the Tanzil source must never be edited`);
+      files[f.use] = tz.flat;
+      (files as any)[`map:${f.use}`] = tz.map;
     }
     const mt: Map<string, string> | undefined = (files as any)["map:text"], ms: Map<string, string> | undefined = (files as any)["map:text_search"];
     let ayat = 0, suras = 0;
-    for (const { entity: e, file } of loaded) {
+    for (const { entity: e, file } of subject) {
       if (e?.class !== "passage" || e.work !== "work/quran") continue;
       if (e.unit === "sura") { suras++; continue; }
       ayat++;
-      if (mt && mt.get(e.ref) !== e.text) err(file, `Qur'an text of ${e.ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`);
+      const frozenProblem = frozenQuranTextProblem(e.ref, e.text, mt);
+      if (frozenProblem) err(file, frozenProblem);
       if (ms && ms.get(e.ref) !== e.text_search) err(file, `text_search of ${e.ref} differs from the frozen Tanzil Simple Clean file`);
       if (e.provenance?.layer !== "by") err(file, "Qur'an passages must carry provenance.layer: by (Tanzil attribution)");
     }
-    if (mt && (ayat !== 6236 || suras !== 114 || mt.size !== 6236)) err(quran.file, `expected 114 suras and 6,236 ayat, found ${suras} and ${ayat}`);
+    // the totals are a property of the whole repository, so they are checked only when it is
+    if (!onlyExtra && mt && (ayat !== 6236 || suras !== 114 || mt.size !== 6236)) err(quran.file, `expected 114 suras and 6,236 ayat, found ${suras} and ${ayat}`);
   }
 
   // ---- prose
-  const prose = loadProse();
+  // content/ holds prose only: a data file saved there is silently never rendered (found in the wild: a .yaml under content/ar/event/)
+  // (a repository-wide scan, so it is not repeated for a check of only the extra entities)
+  if (!onlyExtra) {
+    for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
+      if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
+    }
+  }
+  // A check of only the extra entities reads just their own prose files, if they have any.
+  const prose = onlyExtra ? loadProseFor([...subjectIds!], LANGS) : loadProse();
+  const proseByIdLang = new Map(prose.map((item) => [`${item.lang}:${item.id}`, item]));
   const linkRe = /\[\[([a-z]+\/[a-z0-9-]+)(?:\|[^\]]*)?\]\]/g;
   const citeRe = /\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}/g;
   const seen = new Set<string>();
@@ -293,7 +787,15 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     seen.add(`${pr.lang}:${pr.id}`);
     for (const m of pr.body.matchAll(linkRe)) if (!resolves(m[1])) err(pr.file, `unresolved link [[${m[1]}]]`);
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
-    if (/\b(peace be upon him|pbuh|\(saw\)|ﷺ|صلى الله عليه وسلم)/i.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    if (HONORIFIC.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
+    const unsafe = proseUnsafeHtml(pr.body);
+    if (unsafe) err(pr.file, unsafe);
+    const proseEntity = entitiesById.get(pr.id);
+    if (proseEntity?.class === "work" && ["song", "album"].includes(proseEntity.kind)) {
+      const lyric = lyricProblem(pr.body);
+      if (lyric) err(pr.file, lyric);
+    }
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
@@ -308,13 +810,67 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
   }
-  for (const { entity, file } of loaded) {
+  for (const { entity, file } of subject) {
+    if (entity.class !== "invention" || entity.status?.review !== "published") continue;
+    for (const lang of PUBLISHED_LANGS) {
+      const proseFile = proseByIdLang.get(`${lang}:${entity.id}`);
+      if (!proseFile) {
+        err(file, `published invention needs content/${lang}/invention/${entity.id.split("/")[1]}.md`);
+        continue;
+      }
+      const missing = missingInventionHeadings(lang, proseFile.body);
+      if (missing.length) err(proseFile.file, `missing required invention headings: ${missing.join(", ")}`);
+    }
+  }
+  for (const i of checkLeveledReading(prose, loaded, subject)) issues.push(i);
+  for (const i of checkCurriculum(loaded, subject)) issues.push(i);
+  for (const { entity, file } of subject) {
     if (["person", "event"].includes(entity.class) && !seen.has(`ar:${entity.id}`) && entity.status?.completeness >= 2) {
       warn(file, "completeness >= 2 but no Arabic prose in content/ar/");
     }
   }
 
-  return { issues, entityCount: loaded.length, proseCount: prose.length };
+  // Content lint (build-time): no replacement characters, no placeholder digits in dates, no garbled era marks.
+  // "062X" (an EDTF decade) is a legitimate unspecified digit; an X after a hyphen (a month or day) is a placeholder.
+  const PLACEHOLDER_DATE = /-\d*X/;
+  for (const { entity, file } of subject) {
+    for (const [path, s] of textFields(entity)) {
+      if (s.includes("\uFFFD")) err(file, `${path}: contains U+FFFD (replacement character): the text was corrupted`);
+      if (s.includes("ق.م هـ")) err(file, `${path}: "ق.م هـ" is garbled; the BCE Hijri form is "ق.هـ"`);
+    }
+    for (const [path, d] of walkDates(entity)) {
+      for (const v of [d.edtf, d.hijri]) if (typeof v === "string" && PLACEHOLDER_DATE.test(v)) err(file, `${path}: date "${v}" has a placeholder digit; use the intended date or an approximation (~)`);
+    }
+  }
+  for (const pr of prose) {
+    if (pr.body.includes("\uFFFD")) err(pr.file, "prose contains U+FFFD (replacement character)");
+    if (pr.body.includes("ق.م هـ")) err(pr.file, `prose contains "ق.م هـ"; the BCE Hijri form is "ق.هـ"`);
+  }
+
+  // Near-duplicate titles across entity types: the same label under two ids is usually one thing entered twice (docs: merge, keep the other id as an alias).
+  const titleKey = (s: string) => s.normalize("NFKD").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي")
+    .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const homonymsFile = p("data", "_homonyms.yaml");
+  const homonyms = new Set<string>(existsSync(homonymsFile) ? ((readYaml(homonymsFile) ?? {}).namesakes ?? []).flat() : []);
+  const byTitle = new Map<string, { id: string; cls: string; file: string; checked: boolean }[]>();
+  for (const item of loaded) {
+    const { entity, file } = item;
+    const t = entity.label?.ar ? titleKey(entity.label.ar) : "";
+    if (!t) continue;
+    byTitle.set(t, [...(byTitle.get(t) ?? []), { id: entity.id, cls: entity.class, file, checked: !inSubject || inSubject.has(item) }]);
+  }
+  for (const [t, group] of byTitle) {
+    // a check of only the extra entities reports a shared title just when one of them is part of it
+    if (onlyExtra && !group.some((g) => g.checked)) continue;
+    const classes = new Set(group.map((g) => g.cls));
+    // A place and an event can share a name (the pool and the proclamation at it), so this is a review warning, not a failure.
+    if (group.length > 1 && classes.size > 1) warn(group[0].file, `title "${t}" is used by ${group.map((g) => g.id).join(", ")}: if it is one thing, merge it (keep one id, list the other under aliases)`);
+    // Two people under one Arabic name are one person entered twice unless data/_homonyms.yaml says they are namesakes.
+    const people = group.filter((g) => g.cls === "person");
+    if (people.length > 1 && !people.every((g) => homonyms.has(g.id))) err(people[1].file, `person "${t}" exists twice: ${people.map((g) => g.id).join(", ")}. Merge them (keep one id, list the other under aliases) or list both ids in data/_homonyms.yaml if they are different people`);
+  }
+
+  return { issues, entityCount: subject.length, proseCount: prose.length };
 }
 
 function readYamlJson(path: string) {

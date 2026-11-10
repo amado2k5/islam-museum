@@ -1,0 +1,74 @@
+---
+// The family's weekly sheet (docs/delegation/education-master-plan.md §4 and §5 E2): one printable page from the passport.
+// Server-rendered: every stamp row and all 52 activities are in the HTML (hidden), and a few lines of script show the
+// ones that apply on this device; without JavaScript the sheet prints blank to fill in by hand, with week 1's activity.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import Qr from "../../../../components/Qr.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../../lib/i18n";
+import { viewStamps, loadFamilyActivities } from "../../../../lib/edu";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const path = `/${lang}/learn/parents/weekly/`;
+const stamps = viewStamps(lang);
+const acts = loadFamilyActivities();
+const pick = (o: { ar: string; en: string; ur?: string }) => o[lang] ?? o.ar;
+---
+<BaseLayout lang={lang} title={E.wk_title} description={E.wk_lede} path={path}>
+  <div class="wrap edu weekly" style="padding-block:10px 24px" data-weekly>
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/learn/`}>{E.title}</a> › <a href={`/${lang}/learn/parents/`}>{E.parents_title}</a> › {E.wk_title}</nav>
+    <h1 style="margin-bottom:.3rem">{E.wk_title}</h1>
+    <p class="ui muted" style="margin:0 0 .6rem">{E.wk_from_passport} · <span data-week-label data-tpl={E.wk_week}>{fmt(E.wk_week, { n: "1" })}</span></p>
+    <p style="font-size:1.05rem;max-width:var(--measure)">{E.wk_lede}</p>
+    <noscript><p class="panel ui">{E.wk_nojs}</p></noscript>
+    <p class="no-print"><button type="button" class="btn btn-lapis" data-print>{E.wk_print}</button> <a class="chip" href={`/${lang}/learn/passport/`}>{E.passport_title}</a></p>
+
+    <div class="wk-grid">
+      <section class="panel" aria-labelledby="wk-done-h">
+        <h2 id="wk-done-h" class="ui" style="font-size:1rem;margin:0 0 8px">{E.wk_done}</h2>
+        <ul class="stamp-row" style="margin:0 0 6px">
+          {stamps.map((s) => <li data-stamp-row={s.id} hidden><span class="stamp on" aria-hidden="true">{s.icon}</span><span class="lbl" style="display:block;font-size:.85rem">{s.label}</span></li>)}
+        </ul>
+        <p class="ui muted" data-done-none>{E.wk_none}</p>
+        <p class="ui" data-due data-tpl={E.wk_due} hidden></p>
+        <p class="ui muted" data-due-none>{E.wk_due_none}</p>
+      </section>
+      <section class="panel" aria-labelledby="wk-act-h">
+        <h2 id="wk-act-h" class="ui" style="font-size:1rem;margin:0 0 8px">{E.wk_activity}</h2>
+        {acts.map((a) => (
+          <div class="wk-act" data-week={a.week} hidden={a.week !== 1}>
+            <p class="wk-act-t"><span aria-hidden="true">{a.icon}</span> <b>{pick(a.title)}</b></p>
+            <p>{pick(a.text)}</p>
+            {a.href && <p class="no-print"><a class="chip" href={`/${lang}${a.href}`}>{E.wk_go}</a></p>}
+          </div>
+        ))}
+      </section>
+    </div>
+
+    <section class="panel wk-notes" aria-label={E.wk_notes}>
+      <h2 class="ui" style="font-size:1rem;margin:0 0 8px">{E.wk_notes}</h2>
+      <div class="wk-lines" aria-hidden="true"></div>
+    </section>
+
+    <details class="no-print" style="margin:1rem 0">
+      <summary class="ui">{E.wk_all}</summary>
+      <ol class="wk-all">{acts.map((a) => <li><span aria-hidden="true">{a.icon}</span> <b>{pick(a.title)}</b>: {pick(a.text)}</li>)}</ol>
+    </details>
+    <p class="muted" style="max-width:var(--measure)">{E.ph_privacy_text}</p>
+    <Qr lang={lang} path={`/${lang}/learn/passport/`} />
+  </div>
+  <script src="../../../../scripts/weekly.ts"></script>
+  <style>
+    .wk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin: 1rem 0; }
+    .weekly .stamp-row li { display: flex; align-items: center; gap: 8px; }
+    .wk-act-t { font-size: 1.1rem; margin: 0 0 6px; }
+    .wk-notes { margin: 0 0 1rem; }
+    .wk-lines { height: 9em; background: repeating-linear-gradient(to bottom, transparent 0 1.5em, var(--line) 1.5em calc(1.5em + 1px)); }
+    .wk-all { padding-inline-start: 1.4rem; font-size: .92rem; }
+    .wk-all li { margin: 0 0 6px; }
+    @media print { .wk-grid { display: block; } .wk-grid .panel { margin-bottom: 12px; } .wk-lines { background: repeating-linear-gradient(to bottom, transparent 0 1.5em, #888 1.5em calc(1.5em + 1px)); } }
+  </style>
+</BaseLayout>

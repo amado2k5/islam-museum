@@ -1,0 +1,28 @@
+id: event/al-hakim-death-405
+class: event
+kind: death
+label:
+  ar: "وفاة الحاكم النيسابوري، ٣ صفر ٤٠٥هـ"
+  en: "Death of al-Hakim al-Nisaburi, 3 Safar 405/1014"
+  ur: "حاکم نیشاپوری کی وفات، 3 صفر 405ھ/1014ء"
+summary:
+  ar: "دخل الحاكم الحمام واغتسل وخرج ثم قال «آه» فقبضت روحه وهو متزر لم يلبس قميصه بعد، ودفن بعد العصر يوم الأربعاء وصلى عليه القاضي أبو بكر الجيري؛ توفي يوم الثلاثاء ثالث صفر سنة خمس وأربعمائة، وفي تاريخ الإسلام ثامنه، وقال الخليلي سنة ثلاث وأربعمائة وهو وهم {cite:tarikh-islam-dhahabi pp. 129-130} {cite:wafayat-ayan}."
+  en: "Al-Hakim entered the bathhouse, washed and came out, said 'ah' — and his soul was taken while he was still wrapped in his waist-cloth before he had put on his shirt; he was buried after the 'asr prayer on Wednesday and the qadi Abu Bakr al-Jiri led his funeral prayer. He died on Tuesday 3 Safar 405/1014 — Tarikh al-Islam gives the 8th of Safar, and al-Khalili's dating to 403 is an error {cite:tarikh-islam-dhahabi pp. 129-130} {cite:wafayat-ayan}."
+  ur: "حاکم حمام میں گئے، غسل کیا اور نکلے تو «آہ» کہا اور ان کی روح قبض ہو گئی جب وہ ابھی تہبند باندھے ہوئے تھے اور قمیص نہیں پہنی تھی؛ بدھ کو نمازِ عصر کے بعد دفن ہوئے اور قاضی ابو بکر جیری نے نمازِ جنازہ پڑھائی۔ وفات منگل کے روز 3 صفر 405ھ/1014ء ہوئی — تاریخ الاسلام میں 8 صفر مذکور ہے اور خلیلی کی 403ھ والی تاریح غلط ہے {cite:tarikh-islam-dhahabi pp. 129-130} {cite:wafayat-ayan}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1014-08-03", hijri: "0405-02-03", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الثلاثاء ثالث صفر سنة خمس وأربعمائة {cite:wafayat-ayan}؛ وفي تاريخ الإسلام ثامن صفر {cite:tarikh-islam-dhahabi p. 129}؛ وقال الخليلي ٤٠٣هـ وهو وهم {cite:tarikh-islam-dhahabi p. 126}؛ المقابل المشتق نحو ٣ آب ١٠١٤م.", sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "المتوفى", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: had_participant, target: person/abu-bakr-al-jiri, role: "المصلي على الجنازة", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405, printed pp. 129-130 (harvest OCR); Ibn Khallikan, Wafayat al-A'yan j.4 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

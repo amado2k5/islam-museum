@@ -1,0 +1,21 @@
+id: person/amir-ibn-ismail-al-mudhhiji
+class: person
+label: { ar: "عامر بن إسماعيل المذحجي", en: "'Amir ibn Isma'il al-Mudhhiji" }
+summary:
+  ar: "قتل مروان بن محمد ببوصير ليلة الأحد لثلاث بقين من ذي الحجة سنة اثنتين وثلاثين ومائة، ولما أراد الكنيسة التي فيها بنات مروان صدّه خادم شاهر السيف قال أمرني مروان إذا قتل أن أضرب رقاب بناته ونسائه {cite:muruj-al-dhahab p. 233}."
+  en: "The man who killed Marwan at Busir — stayed from the women's church by the servant sworn to behead them as Marwan had ordered {cite:muruj-al-dhahab p. 233}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+died: { edtf: "755~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: traveled_to, target: place/misr, note: "Killed Marwan ibn Muhammad at Busir in Egypt.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

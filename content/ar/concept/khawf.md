@@ -1,0 +1,44 @@
+---
+id: concept/khawf
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+ينقل الشيخ عمر عبد الكافي عن ابن عباس أن الجلوس مع من يخوّفك من الله حتى تجد الأمن يوم القيامة خير من الجلوس مع من يؤمّنك فتجد الخوف يومئذ (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:30}. ويقول إن الله لا يجمع على عبده أمنين ولا خوفين، فمن خاف في الدنيا أمّنه في الآخرة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:30}. ويرى أن الإسلام بسيط وأننا عقّدنا مسائله، ويفسّر عدم رجاء الحساب بعدم الخشية منه {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:50:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 2)⁩
+ينقل الشيخ عن ابن عباس جوابا لمن سأله عن الجلوس مع أناس يخوّفونهم من الله، فقال إن جلوسك مع من يخوّفك حتى تجد الأمن يوم القيامة خير لك من الجلوس مع من يؤمّنك فتجد الخوف يوم القيامة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:30}.
+
+ويقول إن الله لا يجمع على عبده أمنين ولا خوفين، فمن خاف في الدنيا أمّنه الله في الآخرة، ويشير إلى وعد الله لمن خاف مقام ربه بجنتين {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:16:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 4)⁩
+ويرى الشيخ أننا عقّدنا المسائل وأن الحلول أبسط مما نتخيل، ويدعو الله أن يرزقنا فهم كتابه وتطبيق سنة نبيه، ويفسّر قوله تعالى عن قوم إنهم لا يرجون حسابه بأنهم لا يخشون الحساب، ثم يورد حوارا ساخرا يعلن فيه المتحدث أنه لا يخاف من الله {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:50:30}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 1)⁩
+يقول الشيخ إن الخوف قد غلب على الرجاء في زماننا ⁦(رأيه)⁩ ⁦(needs_source: النص مضطرب في هذا الموضع)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep01 00:33:30}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 4)⁩
+يورد الشيخ معنى قول لم يُسمِّ قائله في هذا المقطع ⁦(needs_source: لم يُذكر السند في النص)⁩، ومضمونه أن من خاف النار كما يخاف الفقر نجا من ذلك كله، وأن من خاف الخالق كما يخاف المخلوق سعد في الدنيا والآخرة {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:18:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:19:00}.
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 5)⁩
+يقول الشيخ إن الخوف والرجاء لا يُوجَّهان إلا إلى من بيده الأمر كله، لأن الخلق لا يملكون لأنفسهم ضرا ولا نفعا، والله هو المتصرف في كل شيء ⁦(رأيه)⁩ ⁦(needs_source: يعبّر بلفظ يقارب نص آية لم يسمّها)⁩ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 01:19:00}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يقول الشيخ إن الخوف والرجاء يتوازنان، وإن الخير يأتي بينهما {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:08:00}. ويرى أن المؤمن الذي يستشعر معية الله لا يخاف ممن سواه، وأن الأمن يستقر في داخله بالإيمان {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep02 00:12:00}.
+
+ويرى الشيخ، وهذا رأي شخصي له، أن من يخاف الفصل من عمله حين يحاول أن يأمر بالمعروف وينهى عن المنكر يحتاج إلى الصبر والعزم، ويعدّ ذلك ضريبة لا بد منها {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep04 01:11:00}. ويقول إن الرزق من الله، لا من صاحب العمل ولا من الزوج، فالخوف من فقد العمل في غير موضعه {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 00:23:00}.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يجيب الشيخ عن سؤال يتكرر عليه: هل نعيش على الخوف أم على الرجاء، ولا سيما المكثر من الذنوب؟ ويرى أن القضية توازن. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} ويستشهد بأن [[person/al-khidr|الخضر]] لم يحتمل من موسى ثلاثة اعتراضات فقال: هذا فراق بيني وبينك، والعبد يخطئ في اليوم مع الله مئات المرات ولا يقول له الله ذلك، لأنه حليم لا يعجل بالعقوبة. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:00}
+وينقل تشبيه أهل العلم قلب المؤمن بطائر رأسه المحبة، محبة الله ورسوله والقرآن، وجناحاه الخوف والرجاء: إن قُطع الرأس مات الطائر، وإن كُسر أحد الجناحين لم يطر. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00}
+ويرى أن أكثر ما يخافه الناس دنيوي: طول مرض الولد ونفقاته، أو الموت في عملية جراحية، أو أن تستغني عنه المؤسسة التي يعمل فيها، ويسمّي هذا خوفًا سلبيًا يقل كلما قوي الإيمان، لأن الأجل والرزق بيد الله، والرزق يُكتب والإنسان في بطن أمه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep12 00:08:30}
+والخوف الحقيقي عنده في الحلقة التالية: أن تُحمل ذنوب الناس تحت المجهر وينسى المرء ستر الله عليه، وأن يأتي يوم القيامة بحسنات فيهجم عليه الغرماء ممن أكل ماله أو اغتابه أو أساء إليه أو لم ينصره وهو يستطيع، وأن يستصغر الذنب، وينقل قول العلماء: لا تنظر إلى صغر الذنب ولكن انظر إلى عظمة من تعصي. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep13 00:08:30} انظر أيضًا: [[concept/raja|الرجاء]].
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يذكر الشيخ من صور الخوف الخوف الوهمي المرضي، كمن يخاف الأماكن الضيقة فيصعد أربعين طابقًا ولا يركب المصعد، أو يخاف المرتفعات، ويرى أن من كان في معية الله فهو آمن، ويستشهد بقول النبي لأبي بكر في الغار «لا تحزن إن الله معنا»، ويرى أن الحزن الوجه الآخر للخوف وأنه يضعف «المناعة الإيمانية». {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:02:00}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 10)⁩
+
+يذكر الشيخ أن الخوف من الله يجب أن يتعادل مع الرجاء مع اجتهاد الخوف أكثر، وأن نخاف اليوم ونرجو غدًا خير من أن نرجو اليوم فنخاف. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:22:00}

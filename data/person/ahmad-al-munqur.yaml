@@ -1,0 +1,31 @@
+id: person/ahmad-al-munqur
+class: person
+label:
+  ar: "أحمد بن محمد المنقور"
+  en: "Ahmad al-Munqur"
+roles: [historian]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن محمد المنقور، مؤرخ وفقيه القرن الثامن عشر، توفي سنة ١٧١٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Muhammad al-Munqur, the eighteenth-century historian and jurist, d. 1713; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q12178772
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0066
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bishr (Unwan al-Majd); al-Zirikli" }
+died: { edtf: "1751", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bishr (Unwan al-Majd); al-Zirikli" }
+relations:
+  - { type: born_in, target: place/h-aw-ah-sudayr, note: "Wikidata Q2829341 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/h-aw-ah-sudayr, note: "Wikidata Q2829341 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

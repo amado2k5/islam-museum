@@ -1,0 +1,28 @@
+id: person/abdi-nishapuri
+class: person
+label:
+  ar: "عبدی نیشاپوری"
+  en: "Abdi Nishapuri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبدی نیشاپوری؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abdi Nishapuri; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5876829
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1530~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Safa (Tarikh-i Adabiyyat dar Iran)" }
+relations:
+  - { type: lived_in, target: place/nishapur, note: "Place association from the person's nisba/name (nishapuri); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,36 @@
+id: person/al-abhari-athir-al-din
+class: person
+label: { ar: "الأبهري أثير الدين المفضل بن عمر", en: "Al-Abhari, Athir al-Din al-Mufaddal ibn Umar" }
+names:
+  - { kind: full, lang: ar, value: "المفضل بن عمر بن المفضل السمرقندي الأبهري" }
+gender: male
+roles: [philosopher, astronomer, mathematician]
+traditions: [sunni]
+died: { edtf: "1265", hijri: "0663", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أشهر رجال العلم في الفكر الإسلامي في المنطق والفلك والرياضيات، ونسبته «الأبهري» تُنسب إلى بلدة أبهر، وقد اختُلف في موضع ولادته."
+  en: "One of the best-known scholars of Islamic thought in logic, astronomy and mathematics. The nisba al-Abhari refers to the town of Abhar; his birthplace is not firmly established."
+wings: [people]
+themes: [philosophy-and-logic, astronomy-and-timekeeping]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص187-201"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+occupations:
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
+relations:
+  - { type: lived_in, target: place/abhar, note: "Place association from the person's nisba/name (الأبهري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2], confidence: low }

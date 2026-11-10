@@ -1,0 +1,36 @@
+id: place/bamako
+class: place
+kind: city
+label:
+  ar: باماكو
+  en: Bamako
+  ur: بماکو
+summary:
+  ar: مدينة في مالي.
+  en: City (Wikidata Q3703).
+wings:
+- place
+regions:
+- west-africa-sahel
+coordinates:
+- 12.6458
+- -7.9922
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q3703
+  geonames: '2460594'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3703 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q3703 (labels, coordinates, description)

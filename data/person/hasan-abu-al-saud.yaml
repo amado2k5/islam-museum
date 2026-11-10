@@ -1,0 +1,30 @@
+id: person/hasan-abu-al-saud
+class: person
+label:
+  ar: "حسن أبو السعود"
+  en: "Hasan Abu al-Sa'ud"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لحسن أبو السعود؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hasan Abu al-Sa'ud; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Egyptian Musicians Syndicate" }
+died: { edtf: "2007", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Egyptian Musicians Syndicate" }
+relations:
+  - { type: born_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q125804078
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,32 @@
+id: polity/khalji-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "الدولة الخلجية"
+  en: "Khalji dynasty"
+summary:
+  ar: "بطاقة أولية للدولة الخلجية، ثاني سلالات سلطنة دلهي التي بلغت في عهد علاء الدين خلجي أقصى اتساعها من ١٢٩٠ إلى ١٣٢٠م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Khalji dynasty, the second house of the Delhi Sultanate which under Ala al-Din Khalji reached its greatest extent from 1290 to 1320; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [south-asia]
+start:
+  edtf: "1290"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1320"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q919071
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Ibn Khaldun and Indian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,31 @@
+id: person/omar-al-qazabri
+class: person
+label: { ar: "عمر القزابري", en: "Omar al-Qazabri", ur: "عمر القزابری" }
+names:
+  - { value: "عمر بن أحمد القزابري", kind: alternate }
+  - { value: "Omar al-Qazabri", kind: full }
+  - { value: "Omar Al Kazabri", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ وإمام مغربي ⁦(وُلد 1974)⁩، ختم القرآن في الحادية عشرة على أبيه أحد علماء مراكش، وأمّ في جدة ومكة خمس سنوات، وقرأ العشر في القاهرة على أحمد عيسى المعصراوي، وهو إمام مسجد الحسن الثاني بالدار البيضاء منذ رمضان 2005."
+  en: "Moroccan reciter and imam (born 1974) who completed the Qur'an at eleven under his father, a scholar of Marrakesh, led prayers in Jeddah and Mecca for five years, read the ten readings in Cairo with Ahmad Isa al-Ma'sarawi, and has been imam of the Hassan II Mosque in Casablanca since Ramadan 2005."
+  ur: "مراکشی قاری اور امام ⁦(پیدائش 1974ء)⁩، جنھوں نے گیارہ برس کی عمر میں اپنے والد، جو مراکش ⁦(شہر)⁩ کے ایک عالم تھے، سے قرآن مکمل کیا، پانچ برس جدہ اور مکہ میں امامت کی، قاہرہ میں احمد عیسیٰ المعصراوی سے قراءاتِ عشرہ پڑھیں، اور رمضان 2005ء سے دار البیضاء کی مسجد حسن ثانی کے امام ہیں۔"
+wings: [people, living]
+regions: [maghreb]
+roles: [reciter, imam, khatib]
+born: { edtf: "1974-08-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Arabic article and Wikidata give the same day; neither names the place, though he grew up and studied in Marrakesh.", sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri] }
+relations:
+  - { type: lived_in, target: place/marrakesh, note: "Childhood and schooling (Ibn Yusuf school)", sources: [source/wikipedia-omar-al-qazabri-ar] }
+  - { type: lived_in, target: place/jeddah, note: "About five years from 1997, imam at the al-Mi'mar and al-Jami'a mosques", sources: [source/wikipedia-omar-al-qazabri-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri]
+footprint:
+  wikipedia: { languages: [ar, ur], checked: "2026-11-06", sources: [source/wikidata-omar-al-qazabri] }
+  wikidata: "Q12228390"
+external_ids: { wikidata: "Q12228390" }
+sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri]
+provenance: { layer: own-research, source: "Arabic Wikipedia «عمر القزابري» (revision 77167853, 5 November 2026) and Wikidata Q12228390 (revision 2472580769), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b03 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

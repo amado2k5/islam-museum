@@ -1,0 +1,34 @@
+id: person/abd-al-rahman-ibn-muhammad-ibn-fahd-al-sadhan
+class: person
+label:
+  ar: "عبد الرحمن بن محمد بن فهد السدحان"
+  en: "Abd al-Rahman ibn Muhammad ibn Fahd al-Sadhan"
+roles: [judge]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحمن بن محمد بن فهد السدحان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Rahman ibn Muhammad ibn Fahd al-Sadhan; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q141441230
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "1963", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Faculty of Sharia directory" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

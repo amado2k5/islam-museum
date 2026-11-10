@@ -1,0 +1,60 @@
+id: polity/rashidun-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الخلافة الراشدة
+  en: Rashidun Caliphate
+  ur: "خلافت راشدہ"
+summary:
+  ar: خلافة قامت سنة 632م وانتهت سنة 661م، وعاصمتها الكوفة ثم المدينة المنورة.
+  en: A caliphate established in 632 CE and ended in 661 CE; its capital was Kufa, then Medina.
+  ur: "یہ خلافت 632ء میں قائم ہوئی اور 661ء میں ختم ہوئی۔ {cite:wikidata}"
+wings: []
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+start:
+  edtf: "0632-06"
+  calendar: julian
+  precision: month
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "0661-07-28"
+  calendar: julian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+capitals:
+- place: place/kufa
+- place: place/medina
+external_ids:
+  wikidata: Q12490507
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+  explorer_localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fifth-40-stories-2026-11-04","source":"Missing English/Urdu labels and concise summaries restated from this existing Arabic museum record and its defined sources; no new facts or source-page research."}
+education:
+  did_you_know:
+    ar: "الخلافة الراشدة من سنة ٦٣٢م إلى ٦٦١م، وكانت عاصمتها الكوفة ثم المدينة المنورة."
+    en: "The Rashidun Caliphate ran from 632 to 661 CE, its capital at Kufa then Medina."
+    ur: "راشدہ خلافت 632ء سے 661ء تک رہی اور اس کا دارالحکومت کوفہ پھر مدینہ تھا۔"
+    sources: [source/wikidata, source/encyclopaedia-of-islam-2]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

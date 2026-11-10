@@ -1,0 +1,28 @@
+id: person/al-muhsin-ibn-muhammad-al-bayhaqi
+class: person
+label:
+  ar: "المحسن بن محمد البيهقي ابن كرامة"
+  en: "al-Muhsin ibn Muhammad al-Bayhaqi (Ibn Karama)"
+roles: [scholar]
+summary:
+  ar: "بطاقة أولية لالمحسن بن محمد البيهقي ابن كرامة؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Muhsin ibn Muhammad al-Bayhaqi (Ibn Karama) (jurist and Qur'an exegete, d. 1101); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q55911809
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; biographical/building record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0104
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/288; al-Hakim al-Jishumi; 413–494 AH)" }
+died: { edtf: "1101", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/288; al-Hakim al-Jishumi; 413–494 AH)" }
+relations:
+  - { type: lived_in, target: place/bayhaq, note: "Place association from the person's nisba/name (bayhaqi); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

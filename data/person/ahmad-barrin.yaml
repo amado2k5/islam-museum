@@ -1,0 +1,31 @@
+id: person/ahmad-barrin
+class: person
+label: { ar: "أحمد برين", en: "Ahmad Barrin", ur: "احمد برین" }
+names:
+  - { value: "أحمد برين", kind: full }
+  - { value: "Ahmed Barrein", kind: alternate }
+gender: male
+summary:
+  ar: "منشد ومدّاح مصري كفيف من أسوان (1939–2015)، خرّيج أصول الدين بالأزهر، استقر في الدير بإسنا، وعُرف براوية التراث الشعبي الصعيدي: المديح النبوي والموال وقصص الأنبياء، وكان خال المنشد محمد العجوز وشريكه، وأحيا كذلك ليالي قبطية وأنشد في مولد العذراء بأسيوط."
+  en: "Blind Egyptian munshid and praise singer from Aswan (1939–2015), a graduate in theology from al-Azhar, who settled at al-Dayr near Esna and was known as a bearer of Upper Egyptian folk heritage — praise of the Prophet, the mawwal and stories of the prophets; uncle and partner of the munshid Muhammad al-Agouz, he also sang at Coptic nights and at the Virgin's mawlid in Asyut."
+  ur: "اسوان کے نابینا مصری منشد اور مداح ⁦(1939ء–2015ء)⁩، ازہر سے اصولِ دین کے فاضل، جو اسنا کے قریب الدیر میں بس گئے اور بالائی مصر کے لوک ورثے — نعتِ نبوی، موال اور قصصِ انبیا — کے راوی کے طور پر معروف ہوئے؛ منشد محمد العجوز کے ماموں اور شریک، انھوں نے قبطی محافل اور اسیوط میں مولدِ مریم میں بھی گایا۔"
+wings: [people]
+regions: [egypt-nile]
+roles: [munshid, singer]
+born: { edtf: "1939", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born at Salwa Bahari village, Aswan governorate, to a family of the Ja'afira tribe (Arabic article; Wikidata gives 1939).", sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin] }
+died: { edtf: "2015-07-01", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article gives 1 July 2015, citing al-Shorouk's obituary of that day; its infobox places the death at al-Dayr, Luxor governorate; Wikidata gives 2015.", sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin] }
+relations:
+  - { type: born_in, target: place/aswan, note: "Salwa Bahari village", sources: [source/wikipedia-ahmad-barrin-ar] }
+  - { type: lived_in, target: place/esna, note: "al-Dayr village, Esna", sources: [source/wikipedia-ahmad-barrin-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him; his Coptic and Sufi repertoire is performance, not attestation (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-ahmad-barrin] }
+  wikidata: "Q133521186"
+external_ids: { wikidata: "Q133521186" }
+sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin]
+provenance: { layer: own-research, source: "Arabic Wikipedia «أحمد برين» (revision 73729020, 7 March 2026) and Wikidata Q133521186 (revision 2534198704), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b04 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

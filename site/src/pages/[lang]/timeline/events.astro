@@ -1,0 +1,24 @@
+---
+// Every dated event on the Hijri timeline, as a plain list (no JavaScript). The timeline itself draws a capped set of
+// markers; this page is where the rest are reached.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { timelineModel } from "../../../lib/timeline-model";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const { all, yearLabel } = timelineModel(lang);
+const events = [...all].sort((a, b) => a.y - b.y);
+const path = `/${lang}/timeline/events/`;
+---
+<BaseLayout lang={lang} title={T.timeline.all_events_title} description={T.timeline.all_events_lede} path={path}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb"><a href={`/${lang}/`}>{T.timeline.title}</a> › {T.timeline.all_events_title}</nav>
+    <h1>{T.timeline.all_events_title}</h1>
+    <p style="max-width:var(--measure)">{T.timeline.all_events_lede}</p>
+    <ul>
+      {events.map((e) => <li><a href={e.href}>{e.label}</a> <span class="muted">· {yearLabel(Math.floor(e.y), lang)}</span></li>)}
+    </ul>
+  </div>
+</BaseLayout>

@@ -1,0 +1,48 @@
+id: media/illus-explorer-event-ibn-taymiyya-harran-exodus-667
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: خروج آل تيمية من حران إلى دمشق، ٦٦٧هـ/١٢٦٩م"
+  en: "Time Browser backdrop: The Taymiyya family's flight from Harran to Damascus, 667/1269"
+  ur: "ٹائم براؤزر کا پس منظر: آل تیمیہ کا حران سے دمشق کو رخصتی، 667ھ/1269ء"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Harran, with earth-toned buildings and courtyards on a broad dry plain. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ لحرّان، بمبانٍ بلون التراب وأفنية على سهل جاف واسع؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: حرّان کا لوگوں سے خالی تمثیلی منظر، مٹیالے رنگ کی عمارتوں اور صحنوں کے ساتھ ایک وسیع خشک میدان میں؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/ibn-taymiyya-harran-exodus-667
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: 6248c61131c79883dc08d4cdd58e454961d6e77a8760bbb0e43fbc6c0c6f47c1
+  inputs_hash: 15543d174529ae33bef89912861ddfd2c398139a78ea37105ea3e0cfbe990277
+  adult_prompt_sha256: 53b3cf4fa25baa9ec574f6cb90d92ecfcbd93e244c737d2b7a224a31751c176c
+  kids_prompt_sha256: 65689088863a77bbddff8a02d556debe87d101cb69a05e9f22db4b61aa5594e2
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-ibn-taymiyya-harran-exodus-667.webp
+  kids: media/time-browser/explorer/event-ibn-taymiyya-harran-exodus-667-kids.webp
+sources:
+  - source/encyclopaedia-of-islam-2
+provenance:
+  source: event/ibn-taymiyya-harran-exodus-667; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; prompts and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; images generated locally with SDXL

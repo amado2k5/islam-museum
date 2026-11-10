@@ -1,0 +1,31 @@
+id: person/tawfiq-al-dajani
+class: person
+label:
+  ar: "توفيق الدجاني"
+  en: "Tawfiq al-Dajani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لتوفيق الدجاني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Tawfiq al-Dajani; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1870", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Filastin (al-Awdat)" }
+died: { edtf: "1958", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Filastin (al-Awdat)" }
+relations:
+  - { type: born_in, target: place/yafa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q180294)" }
+  - { type: died_in, target: place/zarqa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q148062)" }
+  - { type: buried_in, target: place/jordan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q810)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q125886811
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

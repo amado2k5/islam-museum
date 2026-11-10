@@ -1,0 +1,21 @@
+id: place/kampar
+class: place
+kind: region
+label: { ar: "مقاطعة كمبار", en: "Kampar", ur: "کامپار ریجنسی" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q7613)."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [0.313609, 101.0185247]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7613" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7613 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

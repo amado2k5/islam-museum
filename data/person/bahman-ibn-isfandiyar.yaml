@@ -1,0 +1,20 @@
+id: person/bahman-ibn-isfandiyar
+class: person
+label: { ar: "بهمن بن اسفنديار", en: "Bahman ibn Isfandiyar" }
+summary:
+  ar: "بهمن بن اسفنديار بن يستاسف من ملوك الفرس الكيانيين، اتخذ بيت النار المسمى كراكر بسجستان على ما حكاه المسعودي {cite:muruj-al-dhahab p. 549}."
+  en: "Bahman son of Isfandiyar of the Kayanians, founder of Sijistan's Karakir fire-temple {cite:muruj-al-dhahab p. 549}."
+gender: male
+wings: [people]
+relations:
+  - { type: lived_in, target: place/karakir-sijistan, confidence: low, note: "Associated with كراكر بسجستان per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

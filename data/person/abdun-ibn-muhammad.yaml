@@ -1,0 +1,28 @@
+id: person/abdun-ibn-muhammad
+class: person
+label:
+  ar: "عبدون بن محمد"
+  en: "Abdun ibn Muhammad"
+roles: [amir]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبدون بن محمد، الأمير الثاني لطائفة أركش في الأندلس، توفي حوالي سنة ١١٠٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abdun ibn Muhammad, the second emir of the Taifa of Arcos, d. c. 1100; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q106193438
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0088
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "912~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar (al-Takmila)" }
+relations:
+  - { type: lived_in, target: place/taifa-of-arcos, note: "Wikidata Q2390604 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

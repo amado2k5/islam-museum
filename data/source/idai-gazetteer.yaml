@@ -1,0 +1,21 @@
+id: source/idai-gazetteer
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "فهرس أماكن المعهد الألماني للآثار (iDAI.gazetteer)"
+  en: "iDAI.gazetteer (German Archaeological Institute place gazetteer)"
+  ur: "iDAI.gazetteer (German Archaeological Institute place gazetteer)"
+summary:
+  ar: "الدليل الجغرافي للأماكن القديمة الصادر عن المعهد الألماني للآثار — سجل شامل لمواضع العالم القديم مع إحداثياتها وأسمائها بعدة لغات منها العربية، وهو معيار مرتبط البيانات في مشروع بليغيوس، وبياناته مرخّصة بموجب Creative Commons Attribution 4.0."
+  en: "The ancient-world place gazetteer of the German Archaeological Institute — a comprehensive register of places with coordinates and multilingual names including Arabic, a Pelagios linked-data standard, licensed CC-BY 4.0."
+  ur: "The ancient-world place gazetteer of the German Archaeological Institute — a comprehensive register of places with coordinates and multilingual names including Arabic, a Pelagios linked-data standard, licensed CC-BY 4.0."
+title: "iDAI.gazetteer"
+publisher: "German Archaeological Institute (DAI) / iDAI"
+URL: "https://gazetteer.dainst.org"
+language: en
+reliability_note: "The scholarly gazetteer of ancient-world places — stable canonical URIs (https://gazetteer.dainst.org/place/<gazId>) with types, coordinates and polygon extents, parent/ancestor hierarchies, ~25-language names including Arabic, per-record identifiers (zenon-systemnr, zenon-thesaurus, GND-ID) and owl:sameAs links to Pleiades, GeoNames and the DAI's own arachne entity store. Licence: the site footer states contents are licensed CC-BY (creativecommons.org/licenses/by/4.0/, verified 9 Nov 2026); the museum's {cite:idai-gazetteer <gazId>} is the attribution. Harvest channel: unauthenticated JSON endpoints — search.json (full-text and fielded queries, facets, bbox), doc/<gazId>.json (full record), suggestions, children, geoSearch — robots policy allows all agents ('User-agent: * / Allow: /'). Citable for place identity, gazetteer type, coordinates, alternate names and hierarchy; gazetteer editorial text is never republished. Tier 2: a shared reference vocabulary for place identity, the gazetteer counterpart of Nomisma for numismatic concepts. Verified live 9 November 2026; decision dec-20261109-228 (supersedes engine false-positive dec-20261109-227)."
+sources: [source/idai-gazetteer]
+open_access: true
+provenance: { layer: own-research, source: "Muse web-sources lane assessment 2026-11-09 (decision ledger dec-20261109-228)", generated_by: "Devin", model: "SWE-2 High", run: web-sources-explore-registration-2026-11-09 }
+status: { review: published, generated_by: "Devin" }

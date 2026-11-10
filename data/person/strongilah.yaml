@@ -1,0 +1,35 @@
+id: person/strongilah
+class: person
+label:
+  ar: "استرونجيلة"
+  en: "Strongilah"
+roles: [merchant]
+gender: female
+themes: [women, non-muslim-minorities-under-muslim-rule]
+summary:
+  ar: "بطاقة أولية لاسترونجيلة ⁦(إستير كيرا)⁩، تاجرة وكيرة يهودية في بلاط إسطنبول العثماني في القرن السادس عشر، أعدمت سنة ١٥٤٨م؛ تذكرها كتب التاريخ ولم تُراجع ترجمتها على الصفحة بعد."
+  en: "Draft card for Strongilah (Esther Kira), the sixteenth-century Jewish merchant and kira in the Ottoman court of Istanbul, executed 1548; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q78360935
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0043
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]
+died: { edtf: "1600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/istanbul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }

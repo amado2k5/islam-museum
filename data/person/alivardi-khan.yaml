@@ -1,0 +1,30 @@
+id: person/alivardi-khan
+class: person
+label:
+  ar: "علي وردي خان"
+  en: "Alivardi Khan"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي وردي خان، نواب بنغال وبيهار وأوريسة من ١٧٤٠م حتى وفاته سنة ١٧٥٦م في عهد الانحلال المغولي؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Alivardi Khan, nawab of Bengal, Bihar and Orissa from 1740 until his death in 1756 amid Mughal decline; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/colonial-era]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/encyclopaedia-of-islam-2]
+external_ids:
+  wikidata: Q2606620
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0012; EI2 account added in ei2-b010 part 3dq (pp. 422, signed Sh. Inayatullah)
+status:
+  review: published
+  completeness: 2
+  generated_by: "EI2 account added in ei2-b010 part 3dq"
+born: { edtf: "1671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar-ul-Mutakherin" }
+died: { edtf: "1756", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar-ul-Mutakherin" }
+relations:
+  - { type: ruler_of, target: place/bengal, note: "From text: nawab of Bengal", sources: [source/bosworth-new-islamic-dynasties-1996, source/encyclopaedia-of-islam-2] }

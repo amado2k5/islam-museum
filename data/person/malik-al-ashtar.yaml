@@ -1,0 +1,22 @@
+id: person/malik-al-ashtar
+class: person
+label: { ar: "مالك الأشتر النخعي", en: "Malik al-Ashtar al-Nakha'i" }
+summary:
+  ar: "مالك بن الحارث الأشتر النخعي، من أصحاب علي وقادته؛ عند البلاذري في اختلاف أول قاطع للدرب: لما وجّه أبو عبيدة ميسرة بن مسروق العبسي فأوقع بالروم ومن معهم من مستعربة غسان وتنوخ وإياد، لحق به مالك الأشتر مدداً من قبل أبي عبيدة وهو بأنطاكية. وعند المسعودي هو مالك بن الحارث النخعي الذي سار من الكوفة في مائتي رجل في جيش الثائرين على عثمان {cite:muruj-al-dhahab p. 637}"
+  en: "Malik ibn al-Harith al-Ashtar al-Nakha'i, companion and commander of Ali; in al-Baladhuri's disputed account of the first crossing of the Darb: when Abu Ubayda sent Maysara ibn Masruq al-Absi who fell upon the Byzantines and their musta'riba of Ghassan, Tanukh and Iyad, Malik al-Ashtar came up to him as reinforcement from Abu Ubayda at Antioch."
+wings: [people]
+periods: [period/rashidun]
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Siyar" }
+relations:
+  - { type: born_in, target: place/yemen-region, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/al-fustat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: participated_in, target: event/first-crossing-of-darb-baghras, role: "المدد اللاحق بميسرة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 224; Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 753, entry AL-ASHTAR (EI2 entry, batch ei2-b013 part 38, seq 388; the Malik al-Ashtar section is cited from it)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+external_ids: { wikidata: "Q1108678" }
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); EI2 section added by Claude Code (claude-haiku-5-5)" }

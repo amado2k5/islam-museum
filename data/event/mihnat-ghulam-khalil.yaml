@@ -1,0 +1,25 @@
+id: event/mihnat-ghulam-khalil
+class: event
+kind: persecution
+label: { ar: "محنة غلام خليل والصوفية ببغداد", en: "Ghulam Khalil's trial of the Sufis in Baghdad", ur: "بغداد میں غلام خلیل کی صوفیہ پر آزمائش" }
+summary:
+  ar: "ما يرويه أبو نصر السراج في اللمع من أن غلام خليل رفع إلى الموفق ببغداد أن أبا الحسين النوري زنديق، وشهد على جماعة من الصوفية منهم سمنون بالزندقة حتى أمر السلطان بضرب أعناقهم ثم نجوا؛ ويروي أن النوري احتج على تهمة قوله في العشق بآية المحبة فبكى الموفق {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 552} {cite:luma-sarraj-jadir-dar-al-fath p. 553}."
+  en: "What Abu Nasr al-Sarraj relates in al-Luma': that Ghulam Khalil reported Abu al-Husayn al-Nuri to al-Muwaffaq in Baghdad as a zindiq and testified against a group of Sufis including Samnun, until the ruler ordered their execution and they were then saved; he relates that al-Nuri answered the charge over his talk of passionate love ('ishq) with the verse of divine love, and al-Muwaffaq wept {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 552} {cite:luma-sarraj-jadir-dar-al-fath p. 553}."
+  ur: "جو ابو نصر سراج اللمع میں بیان کرتے ہیں: کہ غلام خلیل نے بغداد میں موفق کے سامنے ابو الحسین نوری کو زندیق بتایا اور سمنون سمیت صوفیہ کی ایک جماعت کے خلاف زندقہ کی گواہی دی، یہاں تک کہ حاکم نے ان کی گردن زنی کا حکم دیا، پھر وہ بچ گئے؛ اور یہ کہ نوری نے عشق کی بات کے الزام کا جواب آیتِ محبت سے دیا تو موفق رو پڑا {cite:luma-sarraj-jadir-dar-al-fath p. 546} {cite:luma-sarraj-jadir-dar-al-fath p. 552} {cite:luma-sarraj-jadir-dar-al-fath p. 553}۔"
+wings: [time]
+themes: [spirituality-and-sufism, dissent-heresy-freethought, law-and-courts]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/luma-sarraj-jadir-dar-al-fath] }
+  - { type: had_participant, target: person/ghulam-khalil, role: "الشاهد على الصوفية بالزندقة", sources: [source/luma-sarraj-jadir-dar-al-fath] }
+  - { type: had_participant, target: person/abu-al-husayn-al-nuri, role: "المتهم الذي حمل إلى الخليفة", sources: [source/luma-sarraj-jadir-dar-al-fath] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الحاكم الذي رفعت إليه القضية", sources: [source/luma-sarraj-jadir-dar-al-fath] }
+provenance:
+  layer: own-research
+  source: "اللمع للسراج، تحقيق الجادر، ص 546-547 و551-553"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/luma-sarraj-jadir-dar-al-fath]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

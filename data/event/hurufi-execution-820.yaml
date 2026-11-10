@@ -1,0 +1,22 @@
+id: event/hurufi-execution-820
+class: event
+kind: other
+label: { ar: "إعدام شيخ الحروفية نسيم الدين التبريزي بحلب سنة 820هـ", en: "Execution of the Hurufi leader Nasim al-Din al-Tabrizi at Aleppo, 820" }
+summary:
+  ar: "في سنة عشرين وثمانمائة قتل الشيخ نسيم الدين التبريزي نزيل حلب وهو شيخ الحروفية كحلب وقد كثر أتباعه ونشأت بدعته وشاعت فآل أمره إلى أن أمر السلطان بقتله فضربت عنقه وسلخ جلده وصلب {cite:shadharat-dhahab p. 153}."
+  en: "820 — Nasim al-Din al-Tabrizi, head of Aleppo's Hurufis whose following had grown and whose doctrine had spread, was executed on the sultan's order: beheaded, flayed and crucified {cite:shadharat-dhahab p. 153}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [36.2021, 37.1343] }
+date: { start: { edtf: "1417~", hijri: "0820", calendar: julian, precision: year, status: tradition, derived: true, note: "820هـ {cite:shadharat-dhahab p. 153}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/nasim-al-din-al-tabrizi, role: "المعدوم", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 820)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-137
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

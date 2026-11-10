@@ -1,0 +1,32 @@
+id: person/mamosta-sabah-kifri
+class: person
+names:
+  - { kind: full, value: "Mamosta Sabah Kifri" }
+  - { kind: full, value: "مامۆستا صباح کفری" }
+  - { kind: alternate, value: "مامۆستا صباح" }
+label: { ar: "مامۆستا صباح کفری", en: "Mamosta Sabah Kifri", ur: "ماموستا صباح کفری" }
+summary:
+  ar: "واعظ جمعة كردي سوراني في مسجد حاجي فتاح في كفري بمنطقة گرمیان في كردستان العراق، كما تنسب أوصاف مقاطع قناته خطبته إلى ذلك المسجد. منصّته الرئيسة صفحته على فيسبوك، وبلغت 280,000 متابع بحسب بيانات منشوراتها المؤرخة في 13 و21 فبراير و22 أكتوبر 2026 كما قرأها حصاد الموجة 199 في 9 نوفمبر 2026، وخطب جمعته على قناته في يوتيوب مؤرخة في سبتمبر وأكتوبر ونوفمبر 2026. لا يوجد له عدد مؤرخ على يوتيوب أو إنستغرام، فلا يُطبع أيّ رقم سوى رقم فيسبوك المؤرخ."
+  en: "Sorani Kurdish Friday preacher at the Haji Fattah mosque in Kifri, in the Garmian area of Iraqi Kurdistan, as his own channel's video descriptions place his preaching there. His main platform is his Facebook page, which counted 280,000 followers by post metadata on posts dated 13 and 21 February and 22 October 2026, as read by the wave-199 harvest on 9 November 2026; his Friday sermons on his YouTube channel are dated September, October and November 2026. No dated YouTube or Instagram count for him exists in any source read, so no figure other than the dated Facebook count is printed."
+  ur: "عراقی کردستان کے گرمیان علاقے کے شہر کفری کی حاجی فتاح مسجد کے سورانی کرد خطیبِ جمعہ، جیسا کہ ان کے اپنے چینل کی ویڈیو تفصیلات ان کی خطابت کو اسی مسجد سے منسوب کرتی ہیں۔ ان کا اصل پلیٹ فارم ان کا فیس بک پیج ہے جس کے فالوور 13 اور 21 فروری اور 22 اکتوبر 2026ء کی پوسٹوں کی میٹا ڈیٹا کے مطابق 280,000 تھے، جیسا کہ موج 199 کے جائزے نے 9 نومبر 2026ء کو پڑھا؛ ان کے یوٹیوب چینل پر خطباتِ جمعہ ستمبر، اکتوبر اور نومبر 2026ء کی تاریخوں کے ہیں۔ ان کا کوئی مؤرخ یوٹیوب یا انسٹاگرام عدد کسی ماخذ میں نہیں ملا، اس لیے مؤرخ فیس بک عدد کے سوا کوئی رقم درج نہیں کی گئی۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Mamosta Sabah Kifri himself: his own video descriptions and pages name none, and no independent biographical text about him was found. Under this lane's two-text rule his school therefore stays unknown."
+    sources: [source/facebook-mamostasabahkifre, source/youtube-mamostasabah]
+roles: [khatib, preacher]
+wings: [people, living]
+regions: [levant-iraq]
+born: { edtf: "1956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Scholars Register" }
+died: { edtf: "2022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kurdish Scholars Register" }
+relations: []
+reach:
+  - { platform: facebook, metric: followers, value: 280000, date: "2026-10-22", note: "facebook.com/mamostasabahkifre, his main channel: 280,000 followers by the post metadata of his posts dated 13 February, 21 February and 22 October 2026, as read by the wave-199 harvest on 9 November 2026 — the dated figure on which his qualification rests, under the lane's dated-Facebook precedent (waves 195, 196 and 198). No dated YouTube or Instagram count could be pinned in any source read, and none is printed. The figure is a dated platform count resting on the harvest's metadata read, not a direct read in this build run", sources: [source/facebook-mamostasabahkifre] }
+sources: [source/facebook-mamostasabahkifre, source/youtube-mamostasabah]
+provenance:
+  layer: own-research
+  source: "Built from the wave-199 (Kurdish scene) harvest §2.4 and the wave-199 coordinator checks §5 (researched and checked 9 November 2026), under the lane's channel-queue rule: he has no Wikipedia article and no Wikidata item, so the record is sourced from his own pages and channel. His identity and role rest on his own surfaces, cross-linked to each other: his YouTube channel @mamostasabah carries his Friday sermons (dated 11 September, 9 October and 30 October 2026, the last posted about 6 November 2026) and its descriptions place his preaching at the Haji Fattah mosque in Kifri and link his Facebook page and his Instagram account @mamosta__sabah. Qualification rests on the Facebook page alone: 280,000 followers by post metadata on posts dated February–October 2026, read by the harvest on 9 November 2026 — a dated main-platform figure above the men's bar. No mosque relation is recorded because no building record for the Haji Fattah mosque exists in the tree, and no Kifri place relation because no place record for Kifri exists. No birth date and no channel start date are recorded: no source read gives either. The coordinator's adjacency screen was run on him in both directions and is documented in the wave-199 coordinator checks file: no verified link, endorsement or financial tie to any designated organisation was found. De-duplicated against the tree: no mamosta-sabah-kifri record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-199"
+status: { review: published, completeness: 2 }

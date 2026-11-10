@@ -1,0 +1,39 @@
+id: person/al-baghdadi-abu-ishaq-ibrahim-ibn-jabir
+class: person
+label: { ar: "البغدادي أبو إسحاق إبراهيم بن جابر", en: "al-Baghdadi Abu Ishaq Ibrahim ibn Jabir" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن جابر البغدادي" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+  - { kind: nisba, lang: ar, value: "البغدادي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0922", hijri: "0310", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم كبير من علماء المذهب الظاهري الذي ينسب إلى داود بن علي الأصبهاني، وكتب في اختلاف الفقهاء، وتوفي سنة 310هـ ⁦(922م)⁩."
+  en: "Major scholar of the Zahiri legal school, which traces to Dawud ibn Ali al-Isfahani; wrote on the differences among jurists; died 310 AH (922 CE)."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص613"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch50
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

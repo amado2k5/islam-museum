@@ -1,0 +1,34 @@
+id: person/amr-ibn-al-harith
+class: person
+label: { ar: "عمرو بن الحارث أبو أمية" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن الحارث أبو أمية" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو أمية عمرو بن الحارث، ممن انتقل إلى مرثد بن عبد الله اليزني؛ قال ربيعة: لا يزال بذلك المغرب فقه ما دام فيه ذلك القصير، يعني عمرو بن الحارث {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+born: { edtf: "710", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: student_of, target: person/marthad-ibn-abd-allah-al-yazani, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

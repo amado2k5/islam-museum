@@ -1,0 +1,20 @@
+id: passage/muwatta-2-593
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/abdallah-ibn-abi-bakr]
+work: work/muwatta-malik
+ref: "593"
+label: { ar: "الموطأ 593 — أسماء بنت عميس تغسل أبا بكر ثم تسأل المهاجرين: هل علي من غسل؟ فقالوا: لا", en: "Muwatta 593" }
+summary:
+  ar: "يرويه مالك عن عبد الله بن أبي بكر، أن أسماء بنت عميس امرأة أبي بكر الصديق غسلت أبا بكر حين توفي، ثم خرجت فسألت من حضرها من المهاجرين: إني صائمة وإن هذا يوم شديد البرد، فهل علي من غسل؟ فقالوا: لا. ويذكر المحقق أن قوله «امرأة أبي بكر الصديق» سقط من نسخة م، وأنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق (6123) ومحمد بن الحسن الشيباني (304). {cite:muwatta-maruf-1997 p.306}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-02-janaza }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/asma-bint-umays, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/death-of-abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl-al-mayyit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 593 at PDF p. 306; باب ما جاء في غسل الميت", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 306; matn excerpt at most 40 words" }

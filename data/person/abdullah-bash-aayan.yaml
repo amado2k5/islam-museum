@@ -1,0 +1,29 @@
+id: person/abdullah-bash-aayan
+class: person
+label:
+  ar: "عبد الله باش أعيان"
+  en: "Abdullah Bash Aayan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "عبد الله باش أعيان الكوازي البصري الشافعي ⁦(١٢٦٣–١٣٤٠هـ)⁩، فاضل من أسرة باش أعيان، صاحب رحلة «الفتوحات الكوازية»."
+  en: "Abd Allah Bash A'yan al-Kuwazi of Basra, Shafi'i scholar (1263–1340/1847–1921), author of the pilgrimage book al-Futuhat al-Kuwaziyya."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/colonial-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q59138305
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1921", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

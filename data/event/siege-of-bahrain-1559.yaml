@@ -1,0 +1,23 @@
+id: event/siege-of-bahrain-1559
+class: event
+kind: siege
+label: { ar: "حصار البحرين", en: "Siege of Bahrain" }
+summary:
+  ar: "بطاقة أولية لحصار البحرين سنة ١٥٥٩م، صد الحامية العثمانية للبرتغاليين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Bahrain in 1559, the Ottoman garrison's repulse of the Portuguese; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+date:
+  start: { edtf: "1559", precision: year, status: tradition, derived: true }
+  end: { edtf: "1559", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q55633151
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

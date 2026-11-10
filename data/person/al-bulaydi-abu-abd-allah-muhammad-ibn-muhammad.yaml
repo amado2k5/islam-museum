@@ -1,0 +1,33 @@
+id: person/al-bulaydi-abu-abd-allah-muhammad-ibn-muhammad
+class: person
+label: { ar: "البليدي أبو عبد الله محمد بن محمد", en: "al-Bulaydi Abu Abd Allah Muhammad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن محمد البليدي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
+  - { kind: nisba, lang: ar, value: "البليدي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1685", hijri: "1096", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1763", hijri: "1176", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم جزائري المولد، تنقّل بين المغرب والأندلس وتونس، ونُسب إلى بلدة البليدة، وتوفي سنة 1763م."
+  en: "Scholar born in Algeria who moved between the Maghrib, al-Andalus and Tunisia, named after the town of Bulayda; died 1763 CE."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص101"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+relations:
+  - { type: lived_in, target: place/algiers, note: "Place association from the person's nisba/name (جزائري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

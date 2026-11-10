@@ -1,0 +1,21 @@
+id: person/al-mawardi-al-laib
+class: person
+label: { ar: "الماوردي اللاعب", en: "al-Mawardi the chess-player" }
+summary:
+  ar: "لاعب الشطرنج المقدم عند المكتفي المتمكن من قلبه، لعب معه أبو بكر الصولي بحضرة المكتفي لما ذكر له بجودة لعبه فحمل المكتفي حسن رأيه في الماوردي وتقدم الحرمة والألفة على نصرته حتى أدهش الصولي، فلما اتصل اللعب غلبه الصولي غلباً لا يكاد يرد عليه شيئاً فعدل المكتفي عن هواه وقال له صار ماء وردك بولاً {cite:muruj-al-dhahab p. 677}."
+  en: "Al-Muktafi's favorite chess-master until al-Suli crushed him — 'your rose-water has turned to urine' {cite:muruj-al-dhahab p. 677}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suli (Kitab al-Shatranj; chess master to caliphs)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Al-Muktafi's court chess-master at Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

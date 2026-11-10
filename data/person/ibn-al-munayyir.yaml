@@ -1,0 +1,40 @@
+id: person/ibn-al-munayyir
+class: person
+label: { ar: "ابن المنير قاضي الإسكندرية", en: "Ibn al-Munayyir" }
+names:
+  - { value: "ابن المنير العلامة ناصر الدين أحمد بن محمد بن منصور الجذامي الجروي الإسكندراني المالكي", kind: full }
+born: { edtf: "1223~", hijri: "0620", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة عشرين وستمائة {cite:shadharat-dhahab p. 652}." }
+died: { edtf: "1284-06~", hijri: "0683-03-01", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في أول ربيع الأول سنة ثلاث وثمانين {cite:shadharat-dhahab p. 652}." }
+summary:
+  ar: "قاضي الإسكندرية وفاضلها المشهور؛ برع في الفقه والأصول والنظر والعربية والبلاغة، وصنف التصانيف؛ توفي في أول ربيع الأول {cite:shadharat-dhahab p. 652}."
+  en: "Alexandria's famous Maliki qadi (b. 620) — brilliant in fiqh, usul, dialectic, Arabic and rhetoric, with authored works; d. 1 Rabi' I 683 {cite:shadharat-dhahab p. 652}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-maliki
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/alexandria, confidence: low, note: "Associated with الإسكندرية per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+  - { type: critic_of, target: work/al-kashshaf, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+  - { type: critic_of, target: person/al-zamakhshari, sources: [source/kashshaf-dar-al-marifa-shiha-2009] }
+sources: [source/shadharat-dhahab, source/kashshaf-dar-al-marifa-shiha-2009]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 683)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch98
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/kashshaf-dar-al-marifa-shiha-2009 PDF pp. 41–43, 384–385" }
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

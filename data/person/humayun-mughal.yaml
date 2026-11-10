@@ -1,0 +1,30 @@
+id: person/humayun-mughal
+class: person
+label: { ar: "همايون بن بابر", en: "Humayun ibn Babur" }
+names:
+  - { kind: full, lang: ar, value: "السلطان همايون بن بابر شاه" }
+gender: male
+roles: [sultan]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/gunpowder-empires]
+regions: [south-asia]
+summary:
+  ar: "السلطان همايون بن بابر شاه ملك الهند؛ وكان سبب موته سقوطه من سقف، فقال مؤرخاً لوفاته بالفارسي: «همايون بادشاه اربام افتاد» قاله في النور {cite:shadharat-dhahab p. 333-334}."
+  en: "Sultan Humayun b. Babur, king of India — the cause of his death was a fall from a roof; the Persian chronogram of his death ran 'humayun badshah az bam uftad' {cite:shadharat-dhahab p. 333-334}."
+died: { edtf: "1555~", hijri: "0962", calendar: julian, precision: year, status: tradition, derived: true, note: "وفيها (962)؛ مات بسقوطه من سقف؛ التحويل مشتق {cite:shadharat-dhahab p. 333}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: born_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: building/humayun-tomb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 962)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch92
+external_ids: { wikidata: "Q486188" }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3

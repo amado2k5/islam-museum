@@ -1,0 +1,28 @@
+id: person/abu-al-fath-husayni
+class: person
+label:
+  ar: "أبو الفتح الحسيني"
+  en: "Abu al-Fath Husayni"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو الفتح الحسيني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Fath Husayni; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q106704575
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1568", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

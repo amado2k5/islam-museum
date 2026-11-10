@@ -1,0 +1,30 @@
+id: person/muhammad-ibn-arraq-al-sufi
+class: person
+label:
+  ar: "ابن عراق الصوفي"
+  en: "Muhammad ibn Arraq (Ibn 'Iraq al-Sufi)"
+roles: [sufi, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن عراق المعروف بابن عراق الصوفي، الصوفي والكاتب الشامي، توفي سنة ١٥٢٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Arraq, the Levantine Sufi and writer d. 1526; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1473", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira)" }
+died: { edtf: "1526", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghazzi (al-Kawakib al-Sa'ira)" }
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q122802812
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0078
+status:
+  review: draft
+  completeness: 1

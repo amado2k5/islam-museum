@@ -1,0 +1,38 @@
+id: person/ilwad-elman
+class: person
+label: { ar: "إلواد علمان", en: "Ilwad Elman", ur: "الواد علمان" }
+names:
+  - { value: "Ilwad Elman", kind: full }
+  - { value: "Ilwaad Elman", kind: alternate }
+gender: female
+summary:
+  ar: "ناشطة اجتماعية صومالية كندية، وُلدت في مقديشو؛ عادت من كندا إلى الصومال سنة 2010، وتعمل مع أمها فرتون آدن في مركز علمان للسلام وحقوق الإنسان، حيث شاركت في تأسيس «الأخت الصومال» أول مركز أزمات لضحايا العنف الجنسي في البلاد، وصممت برامج لنزع سلاح الأطفال الجنود وإعادة تأهيلهم، وحصلت مع أمها على جائزة رايت ليفليهود سنة 2022."
+  en: "Somali-Canadian social activist, born in Mogadishu. She returned from Canada to Somalia in 2010 and works alongside her mother Fartuun Adan at the Elman Peace and Human Rights Centre, where she co-founded Sister Somalia, the country's first rape crisis centre, and designed programmes for the disarmament and rehabilitation of child soldiers. She and her mother received the Right Livelihood Award in 2022."
+  ur: "صومالی کینیڈین سماجی کارکن، موغادیشو میں پیدا ہوئیں؛ 2010 میں کینیڈا سے صومالیہ واپس آئیں اور اپنی والدہ فرتون عدن کے ساتھ علمان امن و انسانی حقوق مرکز میں کام کرتی ہیں، جہاں انھوں نے ملک کا پہلا عصمت دری بحران مرکز «سسٹر صومالیہ» قائم کرنے میں حصہ لیا اور بچہ فوجیوں کی تخفیفِ اسلحہ و بحالی کے پروگرام بنائے۔ انھیں اور ان کی والدہ کو 2022 میں رائٹ لائیولی ہڈ ایوارڈ ملا۔"
+roles: [activist]
+wings: [people, living]
+born:
+  edtf: "1989-12-22"
+  hijri: "1410"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "The place, Mogadishu, is given by both sources registered here. The exact day follows the Right Livelihood Award's laureate page, which lists her date of birth as 22 December 1989; the English Wikipedia article is less precise, giving '1988 or 1989' in its infobox and 'born between 1989 and 1990' in its text, so the day is carried as debated and the variant range is recorded here rather than suppressed. The founder's queue gives 1989. The Hijri year (1410) is derived by tabular conversion from the December 1989 date followed."
+  sources: [source/right-livelihood-adan-elman, source/wikipedia-ilwad-elman-en]
+relations:
+  - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-ilwad-elman-en, source/right-livelihood-adan-elman] }
+  - { type: lived_in, target: place/mogadishu, sources: [source/wikipedia-ilwad-elman-en] }
+  - { type: child_of, target: person/fartuun-adan, sources: [source/wikipedia-ilwad-elman-en, source/wikipedia-fartuun-adan-en, source/right-livelihood-adan-elman] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this run names a school, madhhab or specific affiliation for Ilwad Elman herself. The English Wikipedia article and the Right Livelihood profile describe her peace and human-rights work and her family, and name no religion or school for her at all; a single web article calling her one of 'two Muslim African women' nominated for the Nobel Peace Prize is a generic, single attestation, not a naming of her own school. Family background and a generic label never count under the lane rules, and any doubt stays unknown, so no faith value is recorded."
+    sources: [source/wikipedia-ilwad-elman-en, source/right-livelihood-adan-elman]
+sources: [source/wikipedia-ilwad-elman-en, source/right-livelihood-adan-elman, source/wikipedia-fartuun-adan-en]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ilwad Elman' and 'Fartuun Adan' and the Right Livelihood Award laureate page 'Fartuun Adan and Ilwad Elman', all read in full on 25 October 2026. No Wikidata QID was verified from a tool result in this run, so no external_ids are recorded. No earlier record for her existed in data/person/ under ilwad-elman, ilwaad-elman or any other spelling checked; this is a new build, not an enrichment. The child_of relation targets person/fartuun-adan, created in this same group (century-additions-14, Z2), so both files must land together."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-14
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

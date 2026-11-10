@@ -1,0 +1,31 @@
+id: person/rafi-ibn-al-mala
+class: person
+label:
+  ar: "رافع بن المعلى"
+  en: "Rafi ibn al-Mala"
+roles: [companion]
+gender: male
+summary:
+  ar: "بطاقة أولية لرافع بن المعلى، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Rafi ibn al-Mala, the seventh-century Companion; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam]
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+relations:
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+ - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q27256)" }
+external_ids:
+  wikidata: Q12212990
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0052
+status:
+  review: draft
+  completeness: 1

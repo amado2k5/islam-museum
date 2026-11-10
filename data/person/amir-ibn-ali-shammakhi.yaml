@@ -1,0 +1,29 @@
+id: person/amir-ibn-ali-shammakhi
+class: person
+label:
+  ar: "أمير بن علي الشماخي"
+  en: "Amir ibn Ali Shammakhi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأمير بن علي الشماخي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Amir ibn Ali Shammakhi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q6820488
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1490", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Ibadi Mu'jam" }
+died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Ibadi Mu'jam" }
+relations:
+  - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

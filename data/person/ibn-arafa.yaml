@@ -1,0 +1,29 @@
+id: person/ibn-arafa
+class: person
+label:
+  ar: "ابن عرفة"
+  en: "Ibn Arafa"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن محمد ابن عرفة الورغمي، إمام تونس المالكي في القرن الرابع عشر صاحب «المختصر»، توفي سنة ١٤٠١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Muhammad Ibn Arafa al-Warghami, the fourteenth-century Maliki imam of Tunis author of the Mukhtasar, d. 1401; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1401", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
+external_ids:
+  wikidata: Q3147436
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0041
+status:
+  review: draft
+  completeness: 1

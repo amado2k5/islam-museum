@@ -1,0 +1,17 @@
+id: passage/muwatta-14-1575
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/zayd-ibn-aslam, person/muhammad]
+work: work/muwatta-malik
+ref: "1575"
+label: { ar: "الموطأ 1575 — زيد بن أسلم: إذا تزوج أحدكم المرأة أو اشترى الجارية فليأخذ بناصيتها وليدع بالبركة، وإذا اشترى البعير فليأخذ بذروة سنامه", en: "Muwatta 1575" }
+text: "فَلْيأْخُذْ بِنَاصِيتَها، وَلَيدْعُ بِالْبَرَكةِ"
+summary:
+  ar: "يروي يحيى عن مالك عن زيد بن أسلم أن رسول الله قال إذا تزوج أحدكم المرأة، أو اشترى الجارية، فليأخذ بناصيتها، وليدع بالبركة، وإذا اشترى البعير فليأخذ بذروة سنامه، وليستعذ بالله من الشيطان. ويذكر المحقق أن ابن عبد البر قال إنه مرسل عند جميع رواة الموطأ، ومعناه يستند من حديث عبد الله بن عمرو بن العاص وأبي لاس الخزاعي. {cite:muwatta-maruf-1997 p.56}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-14-nikah }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1575 at PDF p. 56; جامع النكاح", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 56; matn excerpt at most 40 words" }

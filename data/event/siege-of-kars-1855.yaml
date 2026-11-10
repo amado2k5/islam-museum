@@ -1,0 +1,23 @@
+id: event/siege-of-kars-1855
+class: event
+kind: siege
+label: { ar: "حصار قارص", en: "Siege of Kars" }
+summary:
+  ar: "بطاقة أولية لحصار قارص سنة ١٨٥٥م، صمود الحامية العثمانية البريطانية ثم استسلامها للروس في حرب القرم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Kars in 1855, the Ottoman-British garrison's stand then surrender to Russia in the Crimean War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1855", precision: year, status: tradition, derived: true }
+  end: { edtf: "1855", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q815157
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; siege attested in Crimean War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,54 @@
+id: building/new-mosque-istanbul
+class: building
+kind: mosque
+label:
+  ar: يني جامع
+  en: New Mosque
+built:
+  edtf: "1597"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+summary:
+  ar: مسجد في إسطنبول، يُؤرَّخ بناؤه سنة 1597م.
+  en: A mosque in Istanbul, dated to 1597 CE.
+wings: [objects]
+periods:
+- period/gunpowder-empires
+regions:
+- anatolia-balkans
+coordinates:
+- 41.01687
+- 28.97214
+relations:
+- type: located_in
+  target: place/istanbul
+  sources:
+  - source/wikidata
+  note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+external_ids:
+  wikidata: Q911720
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: building-wikidata-1
+education:
+  did_you_know:
+    ar: "الجامع الجديد بإسطنبول أُرِّخ بناؤه سنة ١٥٩٧م، وهو من مساجد المدينة العثمانية."
+    en: "Istanbul's New Mosque is dated to 1597 CE, one of the city's Ottoman-era mosques."
+    ur: "استنبول کی نئی مسجد 1597ء کی ہے — شہر کی عثمانی دور کی مساجد میں سے۔"
+    sources: [source/wikidata, source/freely-ottoman-architecture-2011]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative

@@ -1,0 +1,29 @@
+id: person/abd-al-wahhab-ibn-bakht
+class: person
+label:
+  ar: "عبد الوهاب بن بخت"
+  en: "Abd al-Wahhab ibn Bakht"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الوهاب بن بخت؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Wahhab ibn Bakht; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q12224123
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "731", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: martyred at Byzantine border 113 AH)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Wikidata Q35484 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

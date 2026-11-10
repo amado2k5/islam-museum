@@ -1,0 +1,29 @@
+id: person/abd-al-rahman-al-alusi
+class: person
+label:
+  ar: "عبد الرحمن الآلوسي"
+  en: "Abd al-Rahman al-Alusi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحمن الآلوسي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Rahman al-Alusi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28715058
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1804", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 1219–1284 AH)" }
+died: { edtf: "1867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli: 1219–1284 AH)" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (الآلوسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

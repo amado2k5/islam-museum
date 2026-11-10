@@ -1,0 +1,22 @@
+id: person/shabba-ibn-aqqal
+class: person
+label: { ar: "شبة بن عقال", en: "Shabba ibn 'Aqqal" }
+summary:
+  ar: "خطيب قام على رأس المهدي حين فرق في عشرة أيام عشرة آلاف ألف درهم فقال وللمهدي أشباه فمنها القمر الزاهر والربيع الباكر والأسد الخادر والبحر الزاخر فأشبه منها حسنه وطيبه وغرته وجوده {cite:muruj-al-dhahab p. 302-303}."
+  en: "The orator whose 'moon, spring, lion, sea' simile-list crowned al-Mahdi's ten-day ten-million largesse {cite:muruj-al-dhahab p. 302-303}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 302–303"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch43
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Early Arabian figure (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }

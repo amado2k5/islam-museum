@@ -1,0 +1,23 @@
+id: event/battle-of-temzezdekt-1327
+class: event
+kind: battle
+label: { ar: "معركة تمززدكت", en: "Battle of Temzezdekt" }
+summary:
+  ar: "بطاقة أولية لمعركة تمززدكت سنة ١٣٢٧م، فوز المرينيين في حصار تلمسان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Temzezdekt in 1327, the Marinid victory in the siege of Tlemcen; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1327", precision: year, status: tradition, derived: true }
+  end: { edtf: "1327", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q109313043
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

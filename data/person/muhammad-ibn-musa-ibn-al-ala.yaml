@@ -1,0 +1,18 @@
+id: person/muhammad-ibn-musa-ibn-al-ala
+class: person
+label: { ar: "محمد بن موسى بن حفص بن عمر بن العلاء", en: "Muhammad ibn Musa ibn Hafs ibn Umar ibn al-Ala'" }
+summary:
+  ar: "محمد بن موسى بن حفص بن عمر بن العلاء؛ افتتح مع مازيار بن قارن جبال شروين من طبرستان وهي أمنع جبالها وأصعبها وأكثرها أشباً وغياضاً في خلافة المأمون."
+  en: "Muhammad ibn Musa ibn Hafs ibn Umar ibn al-Ala'; with Mazyar ibn Qarin he conquered the Shirwin mountains — Tabaristan's most impregnable, thickest in jungle and thicket — under al-Ma'mun."
+periods: [period/abbasid-early]
+wings: [people]
+died: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+relations:
+  - { type: ruled_over, target: place/shirwin, sources: [source/wikidata], confidence: low, note: "en: 'Muhammad ibn Musa ibn Hafs ibn Umar ibn al-Ala'; with Mazyar ibn Qarin he conquered the Shirwin mountains" }
+  - { type: ruled_over, target: place/tabaristan, sources: [source/wikidata], confidence: low, note: "en: 'Muhammad ibn Musa ibn Hafs ibn Umar ibn al-Ala'; with Mazyar ibn Qarin he conquered the Shirwin mountains" }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

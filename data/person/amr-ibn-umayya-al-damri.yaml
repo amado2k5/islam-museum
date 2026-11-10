@@ -1,0 +1,41 @@
+id: person/amr-ibn-umayya-al-damri
+education:
+  did_you_know:
+    ar: "عمرو بن أمية الضمري فارس عيون من بني ضمرة؛ شهد مأساة بئر معونة وأسره عامر بن الطفيل ثم أعتقه عن نذر كان على أمه فحمل نبأ الفاجعة إلى النبي."
+    en: "Amr ibn Umayya al-Damri, the scout of Banu Damra, witnessed the tragedy of Bi'r Ma'una; freed by Amir ibn al-Tufayl for a vow, he bore the dread news to the Prophet."
+    ur: "عمرو بن امیہ ضمری، بنو ضمرہ کے جاسوس، نے بیر معونہ کا سانحہ دیکھا؛ عامر بن طفیل نے انہیں نذر کے عوض آزاد کیا — اور عمرو فجيع خبر نبی تک پہنچائے۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+class: person
+label: { en: "Amr ibn Umayya al-Damri", ar: "عمرو بن أمية الضمري" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن أمية بن خويلد الضمري الكناني" }
+gender: male
+roles: [companion, diplomat]
+traditions: [sunni]
+summary:
+  en: "A prominent scout and courier Companion from Banu Damra; captured at Bi'r Ma'una and freed by Amir ibn al-Tufayl, he brought the tragic news to the Prophet in Medina; later dispatched as the Prophet's diplomatic envoy carrying his letter to the Negus of Abyssinia."
+  ar: "صحابي وفارس عيون من بني ضمرة بن بكر من كنانة؛ شهد مأساة بئر معونة وأسره عامر بن الطفيل ثم جز ناصيته وأعتقه عن نذر كان على أمه، فحمل نبأ الفاجعة إلى النبي بالمدينة، وهو الذي بعثه النبي لاحقاً بكتابه إلى النجاشي ملك الحبشة."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, start: { edtf: "0625~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: official, toward: person/muhammad, start: { edtf: "0628~" }, status: historical, note: "سفير النبي إلى النجاشي (الرحيق ص352).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي وسفير النبي." }
+died: { edtf: "675~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/abyssinia, note: "From text: of Abyssinia.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa], confidence: low }
+  - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المبعوث لقتل أبي سفيان؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "حليف قريش من كنانة" }
+  - { type: participated_in, target: event/incident-of-bir-mauna, role: "الناجي الذي حمل الخبر إلى المدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira, source/ibn-hisham-saqqa]}
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 294, 352" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch14"

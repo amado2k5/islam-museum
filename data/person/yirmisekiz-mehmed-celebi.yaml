@@ -1,0 +1,29 @@
+id: person/yirmisekiz-mehmed-celebi
+class: person
+label:
+  ar: "يرميسكيز محمد الجلبي"
+  en: "Yirmisekiz Mehmed Celebi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية ليرميسكيز محمد الجلبي، سفير العثمانيين إلى فرنسا سنة ١٧٢٠م صاحب «سفارتنامه»؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yirmisekiz Mehmed Celebi, the Ottoman ambassador to France in 1720 author of the Sefaretname, d. 1732; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
+  - { type: died_in, target: place/famagusta, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193190)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q931976
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0028
+status:
+  review: draft
+  completeness: 1

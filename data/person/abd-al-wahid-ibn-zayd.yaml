@@ -1,0 +1,38 @@
+id: person/abd-al-wahid-ibn-zayd
+class: person
+label: { ar: "عبد الواحد بن زيد", en: "Abd al-Wahid ibn Zayd" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبيدة عبد الواحد بن زيد البصري" }
+gender: male
+roles: [mystic, muhaddith]
+traditions: [sunni]
+died: { edtf: "0793", hijri: "0177", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "زاهد وقدوة وواعظ، وشيخ العُبّاد في البصرة، حدّث عن الحسن البصري وعطاء بن أبي رباح."
+  en: "An ascetic, exemplar and preacher, known as the leading worshipper of Basra. He transmitted from al-Hasan al-Basri and Ata' ibn Abi Rabah."
+wings: [people]
+themes: [spirituality-and-sufism, scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص534"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+external_ids: { wikidata: "Q2820906" }
+aliases: [person/abd-al-wahid-ibn-zaid]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,28 @@
+id: event/ibn-al-mulaqqin-birth-723
+class: event
+kind: birth
+label:
+  ar: "ولادة ابن الملقن بالقاهرة، ربيع الأول ٧٢٣هـ"
+  en: "Ibn al-Mulaqqin is born at Cairo, Rabi' I 723/March 1323"
+  ur: "ابن ملقن کی پیدائش قاہرہ میں، ربیع الاول 723ھ/مارچ 1323ء"
+summary:
+  ar: "ولد سراج الدين أبو حفص عمر بن علي بن أحمد بن محمد بن عبد الله الأنصاري الأندلسي ثم القاهري الشافعي، المعروف بابن الملقن، بالقاهرة يوم السبت رابع عشر ربيع الأول سنة ثلاث وعشرين وسبعمائة؛ وكان أبوه نور الدين علي قد رحل من الأندلس إلى بلاد الترك فأقرأ أهلها القرآن وحصل له مال، ثم قدم به إلى القاهرة واستوطنها {cite:shadharat-dhahab 7/44}."
+  en: "Siraj al-Din Abu Hafs 'Umar ibn 'Ali ibn Ahmad al-Ansari, Andalusi by origin then Cairene — the future Ibn al-Mulaqqin — was born at Cairo on Saturday 14 Rabi' I 723. His father Nur al-Din 'Ali had left al-Andalus for the land of the Turks, taught its people the Qur'an and earned good money there before coming with him to settle at Cairo {cite:shadharat-dhahab 7/44}."
+  ur: "سراج الدین ابوحفص عمر بن علی بن احمد انصاری اندلسی، بعد میں قاہری شافعی — آئندہ ابن ملقن — ہفتہ 14 ربیع الاول 723ھ کو قاہرہ میں پیدا ہوئے۔ ان کے والد نور الدین علی اندلس سے ترکوں کے ملک گئے، وہاں کے لوگوں کو قرآن پڑھایا اور اچھی دولت کمائی، پھر بیٹے کو لے کر قاہرہ آ کر بس گئے {cite:shadharat-dhahab 7/44}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1323-03", hijri: "0723-03", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم السبت رابع عشر ربيع الأول سنة ثلاث وعشرين وسبعمائة {cite:shadharat-dhahab 7/44}؛ مولده سنة ثلاث وعشرين {cite:durar-kamina-jil-1993 dhayl p. 123}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-al-mulaqqin, role: "المولود", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/nur-al-din-ali-ibn-al-mulaqqin, role: "الوالد", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Shadharat al-Dhahab s.a. 804, printed vol. 7 p. 44 quoting al-Manhal (harvest OCR AAlexandrina-223853); Dhayl al-Durar s.a. 804 p. 123 (harvest OCR DurarKamina__zdk)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-mulaqqin-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

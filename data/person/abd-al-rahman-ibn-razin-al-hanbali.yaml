@@ -1,0 +1,35 @@
+id: person/abd-al-rahman-ibn-razin-al-hanbali
+class: person
+gender: male
+label:
+  ar: "ابن رزين الحنبلي ⁦(عبد الرحمن بن رزين)⁩"
+  en: "Ibn Razin al-Hanbali (Abd al-Rahman ibn Razin)"
+summary:
+  ar: "عبد الرحمن بن رزين بن عبد العزيز، أبو الفرج، سيف الدين، فقيه حنبلي من أهل حوران ثم دمشق. سمع بدمشق وبغداد، وله تصانيف منها التهذيب في اختصار المغني في مجلدين، والنهاية مختصر الهداية، وتعليقة مختصرة في الخلاف. توفي سنة 656 هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15808}"
+  en: "Abd al-Rahman ibn Razin ibn Abd al-Aziz, Abu al-Faraj, Sayf al-Din, a Hanbali jurist from Hawran and later Damascus. He heard hadith in Damascus and Baghdad, and wrote al-Tahdhib, an abridgment of al-Mughni in two volumes, al-Nihaya, an abridgment of al-Hidaya, and a short gloss on the disputed questions. He died in 656 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15808}"
+roles: [jurist]
+traditions: [sunni-hanbali]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «تراجم الفقهاء» (ص 15808 من المسح)"
+  scan_pages: [15808]
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch124
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1223", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah wa-al-Nihayah (Ibn Kathir: 620–694 AH)" }
+died: { edtf: "1295", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidayah wa-al-Nihayah (Ibn Kathir: 620–694 AH)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: من أهل حوران ثم دمشق", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

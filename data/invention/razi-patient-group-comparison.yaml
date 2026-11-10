@@ -1,0 +1,97 @@
+id: invention/razi-patient-group-comparison
+class: invention
+label: { ar: "مقارنة جماعات المرضى عند الرازي", en: "Al-Razi's reported patient-group comparison", ur: "رازی کا منقول مریض گروہوں کا تقابل" }
+names:
+  - { kind: alternate, lang: en, value: "Al-Razi's treated and untreated comparison" }
+summary:
+  ar: "خبر مقارنة مقصودة بين جماعة عولجت وأخرى لم تتلق التدخل، مع تسجيل الملاحظات وحدود اليقين؛ ليس تجربة عشوائية حديثة أو برهان علاج {cite:razi-pormann-uncertainty-2013 pp.370–372}."
+  en: "A reported intentional treated/untreated comparison, record keeping and qualified uncertainty; not a modern randomized trial or proof of treatment effectiveness {cite:razi-pormann-uncertainty-2013 pp.370–372}."
+  ur: "علاج پانے اور وہ مداخلت نہ پانے والے گروہوں کے ارادی تقابل کی خبر، اندراج اور یقین کی حدود؛ جدید بے ترتیب آزمائش یا مؤثریت کا ثبوت نہیں {cite:razi-pormann-uncertainty-2013 pp.370–372}۔"
+domain: medicine-surgery
+kind: method
+disciplines: [medicine]
+wings: [ideas]
+regions: [levant-iraq, persia-central-asia]
+periods: [period/abbasid-fragmentation]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Tenth-century author/activity context in Pormann/JLL, not an exact comparison date, publication year or surviving-copy date; no fabricated Hijri conversion."
+    sources: [source/razi-pormann-uncertainty-2013, source/tibi-razi-comparison-jll]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context:
+    ar: "بغداد والري سياق العمل الطبي؛ موضع المقارنة المحددة غير ثابت في المقتطف المقروء {cite:razi-pormann-uncertainty-2013 p.370}."
+    en: "Baghdad/Rayy are the medical setting; the selected excerpt does not establish this comparison's precise location {cite:razi-pormann-uncertainty-2013 p.370}."
+    ur: "بغداد اور رے طبی ماحول ہیں؛ پڑھے اقتباس سے اس خاص تقابل کا قطعی مقام ثابت نہیں {cite:razi-pormann-uncertainty-2013 p.370}۔"
+makers:
+  - person: person/al-razi-abu-bakr
+    role: describer
+    note: "Reported intentional comparison in translated Hawi excerpt; existing individual Muslim basis and Sunni-first/academic/other disputed-identity perspectives preserved, no personal-school verdict."
+    sources: [source/tibi-razi-comparison-jll, source/razi-pormann-uncertainty-2013, source/britannica-al-razi, source/sep-abu-bakr-al-razi, source/tdv-razi-ebu-bekir]
+attribution:
+  status: improvement
+  claim:
+    ar: "خبر محدد عن تقييم بالمقارنة داخل تقليد طبي سابق، لا اختراع كل تجربة سريرية."
+    en: "A particular reported comparison within an earlier medical tradition, not invention of every clinical trial."
+    ur: "سابق طبی روایت کے اندر خاص منقول تقابل، ہر کلینیکی آزمائش کی ایجاد نہیں۔"
+  basis:
+    ar: "ترجمة تيبي تنقل قصد المقارنة؛ بورمان يسمي الجماعة الضابطة مع نفي عرض نظرية مستقلة للجماعات {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}."
+    en: "Tibi's translation reports comparative intent; Pormann identifies a control group while noting no separate theoretical group discussion {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}."
+    ur: "تیبی کا ترجمہ تقابل کا ارادہ نقل کرتا ہے؛ پورمان تقابلی گروہ بتاتے مگر الگ نظری بحث نہ ہونے کو بھی کہتے ہیں {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "إطار معلن وهوية مختلف فيها", en: "Declared frame and disputed identity", ur: "اعلان کردہ سیاق، مختلف فیہ شناخت" }
+      summary: { ar: "بريتانيكا تسميه مسلماً؛ الإطار السني ليس إثبات مذهب فردي، والخلاف محفوظ في سجل الشخص.", en: "Britannica calls him Muslim; the Sunni frame is not personal-school proof, and disagreement remains in the person record.", ur: "بریٹانیکا مسلم کہتی ہے؛ سنی سیاق ذاتی مسلک کا ثبوت نہیں، اختلاف شخصی اندراج میں محفوظ ہے۔" }
+      sources: [source/britannica-al-razi, source/sep-abu-bakr-al-razi, source/tdv-razi-ebu-bekir]
+    - tradition: academic
+      stance: { ar: "مقارنة منقولة وحدود الاستنتاج", en: "Reported comparison and inferential limits", ur: "منقول تقابل اور نتیجے کی حدود" }
+      summary: { ar: "بورمان يبرز الجماعة والعدد وعدم اليقين؛ تيبي لا تعد الخبر كافياً لاعتماد التدخل التاريخي. لا أحجام جماعات أو عشوائية مختلقة.", en: "Pormann highlights groups, numbers and uncertainty; Tibi does not treat the report as sufficient to recommend the historical intervention. Group sizes and randomisation are not fabricated.", ur: "پورمان گروہ، عدد اور عدم یقین نمایاں کرتے؛ تیبی خبر کو تاریخی مداخلت تجویز کرنے کے لیے کافی نہیں مانتیں۔ فرضی تعداد یا بے ترتیب تقسیم نہیں۔" }
+      sources: [source/razi-pormann-uncertainty-2013, source/tibi-razi-comparison-jll]
+    - tradition: other
+      stance: { ar: "قراءة قايا للهوية", en: "Kaya's identity interpretation", ur: "شناخت کی قایا والی تعبیر" }
+      summary: { ar: "القراءة الربوبية منسوبة إلى قايا لا حكم المتحف؛ لا تسوية تلقائية مع القراءات الأخرى.", en: "The deist interpretation belongs to Kaya, not the museum; it is not automatically reconciled with the other readings.", ur: "ربوبیت کی تعبیر قایا کی ہے، میوزیم کا فیصلہ نہیں؛ دوسری قرأتوں سے خودکار مصالحت نہیں۔" }
+      sources: [source/tdv-razi-ebu-bekir, source/sep-abu-bakr-al-razi]
+precursors:
+  - external: { ar: "تسجيل الحالات الأبقراطي والخبرة المؤهلة عند جالينوس", en: "Hippocratic case recording and Galenic qualified experience", ur: "بقراطی حالات کا اندراج اور جالینوسی تجربے کی شرطیں" }
+    note: "Predecessors explicitly acknowledged by Pormann; no first-ever observation, experience or patient record claim."
+    sources: [source/razi-pormann-uncertainty-2013]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "إبراز المقارنة والتسجيل وعدّ النتائج المخالفة للتوقع، لا إحصاء حديث مكتمل {cite:razi-pormann-uncertainty-2013 pp.370–372}."
+    en: "Highlighted comparison, records and outcomes contrary to expectation, not a complete modern statistical design {cite:razi-pormann-uncertainty-2013 pp.370–372}."
+    ur: "تقابل، اندراج اور خلاف توقع نتائج کی گنتی؛ مکمل جدید شماریاتی ڈیزائن نہیں {cite:razi-pormann-uncertainty-2013 pp.370–372}۔"
+  history:
+    ar: "تاريخ تداول الحاوي لا يثبت وحده نسب كل تجربة حديثة إلى هذا المقطع {cite:tibi-razi-comparison-jll Hawi-and-conclusion}."
+    en: "The Hawi's circulation alone does not establish descent of every modern trial from this passage {cite:tibi-razi-comparison-jll Hawi-and-conclusion}."
+    ur: "حاوی کی گردش ہر جدید آزمائش کا نسب اس عبارت سے ثابت نہیں کرتی {cite:tibi-razi-comparison-jll Hawi-and-conclusion}۔"
+  significance: 3
+  why: "A bounded reported intentional comparison contextualized by records and acknowledged uncertainty; no absolute-priority, clinical-efficacy or modern-design claim."
+described_in: [work/al-hawi-fi-al-tibb]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "درس في تقييم الخبر وحدوده، لا تشخيص أو إرشاد علاجي أو دعوة لإعادة التجربة {cite:tibi-razi-comparison-jll conclusion}."
+    en: "A lesson in evaluating reports and limits, not diagnosis, treatment guidance or an invitation to repeat the comparison {cite:tibi-razi-comparison-jll conclusion}."
+    ur: "خبر اور حدود کی جانچ کا سبق، تشخیص، علاج کی ہدایت یا تقابل دہرانے کی دعوت نہیں {cite:tibi-razi-comparison-jll conclusion}۔"
+  descendants: { ar: "لا سلسلة انتقال مباشرة مثبتة إلى كل تجربة حديثة.", en: "No direct transmission chain to every modern trial established.", ur: "ہر جدید آزمائش تک براہ راست منتقلی کا سلسلہ ثابت نہیں۔" }
+media:
+  image: media/razi-greenhill-smallpox-title
+  diagram: media/diagram-razi-patient-group-comparison
+kids:
+  ar: "اسأل عن حجم كل جماعة وما الذي قورن؛ استخدم بطاقات أسئلة ورقية فقط، لا مرضى أو أدوية أو تجربة علاج."
+  en: "Ask how large each group was and what was compared; use paper question cards only, never patients, medicines or a treatment experiment."
+  ur: "پوچھیں ہر گروہ کتنا تھا اور تقابل کس بات کا ہوا؛ صرف سوالی کاغذی کارڈ، مریض، دوا یا علاج کا تجربہ نہیں۔"
+sources: [source/razi-pormann-uncertainty-2013, source/tibi-razi-comparison-jll, source/britannica-al-razi, source/sep-abu-bakr-al-razi, source/tdv-razi-ebu-bekir, source/wellcome-razi-greenhill-1848]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "Actual complete Pormann2013 paper/JLL and Tibi commentary/translated excerpt; Arabic image403 not inspected, underlying primaries not fully read. Group/locator/approximate-number limits explicit; existing identity dispute and earlier attribution preserved; licensed image is different-book context only." }

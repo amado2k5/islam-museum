@@ -1,0 +1,32 @@
+id: person/ibn-munim-al-abdari
+class: person
+label: { ar: "ابن منعم العبدري", en: "Ibn Munim al-Abdari", ur: "ابن منعم العبدری" }
+names:
+  - { kind: full, lang: ar, value: "أبو جعفر أحمد بن إبراهيم بن علي بن منعم العبدري" }
+  - { kind: alternate, lang: en, value: "Ahmad ibn Mun'im al-Abdari" }
+gender: male
+roles: [mathematician, physician]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Individual Muslim basis: actual Arrabita book overview explicitly names Ibn Munim among Muslim scholars; prefatory religious self-expression reported in Djebbar pp5–7 corroborates. Sunni separately museum default frame of docs/scope.md, not personal Maliki certificate or patron inference. Author's reported Ibn Tumart/Almohad praise retained and attributed, not suppressed or converted into a detailed personal sect identification."
+    sources: [source/arrabita-fiqh-hisab, source/djebbar-ibn-munim-combinatoire, source/arrabita-ibn-munim-naqr]
+summary:
+  ar: "رياضي أندلسي من دانية علم بمراكش؛ فقه الحساب يعالج التوافيق واللغة؛ ليس سميه الصقلي {cite:arrabita-ibn-munim-naqr sections1–5}."
+  en: "Andalusi mathematician from Denia teaching in Marrakech; Fiqh al-hisab treats combinations and language; distinct from Sicilian namesake {cite:arrabita-ibn-munim-naqr sections1–5}."
+  ur: "دانیہ کے اندلسی ریاضی دان، مراکش میں استاد؛ فقہ الحساب میں توافیق و زبان؛ صقلی ہم نام سے الگ {cite:arrabita-ibn-munim-naqr sections1–5}۔"
+died: { edtf: "1228", hijri: "0626", calendar: julian, precision: year, status: historical, note: "Paired years reported by actual Arrabita biography/book overview; not independently converted, no exact day/birth year.", sources: [source/arrabita-ibn-munim-naqr, source/arrabita-fiqh-hisab] }
+wings: [people]
+regions: [maghreb, andalus-europe]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: lived_in, target: place/marrakesh, sources: [source/arrabita-ibn-munim-naqr] }
+inventions:
+  - invention: invention/combinatorics-ibn-munim
+    role: improver
+    note: "Systematic combination/permutation counting in linguistic setting, not first counting or first arithmetic triangle."
+    sources: [source/djebbar-ibn-munim-combinatoire, source/arrabita-fiqh-hisab]
+sources: [source/djebbar-ibn-munim-combinatoire, source/arrabita-ibn-munim-naqr, source/arrabita-fiqh-hisab]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b62", source: "Actual selected Djebbar and authored/institutional Arrabita accounts. No original biography/manuscript read; no birth or detailed sect invented. Unrelated Abd al-Munim records unchanged." }

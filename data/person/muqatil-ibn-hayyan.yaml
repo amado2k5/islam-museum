@@ -1,0 +1,25 @@
+id: person/muqatil-ibn-hayyan
+class: person
+label: { ar: "مقاتل بن حيان النبطي البلخي", en: "Muqatil ibn Hayyan al-Nabati al-Balkhi" }
+roles: [scholar]
+traditions: [sunni]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+gender: male
+wings: [people]
+summary:
+  ar: "مقاتل بن حيان، أبو بسطام النبطي البلخي الخراساني الخراز، أحد الأعلام، وثقه يحيى بن معين وأبو داود وغيرهما، روى عن الضحاك ومجاهد وعكرمة والشعبي، وروى عنه أخوه مصعب وعلقمة بن مرثد وعبد الله بن المبارك. هرب أيام أبي مسلم إلى كابل ودعا خلقا إلى الإسلام فأسلموا، ومات بكابل قبل سنة 150هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2071}"
+  en: "Muqatil ibn Hayyan, Abu Bistam al-Nabati al-Balkhi al-Khurasani, a leading scholar whom Yahya ibn Ma'in and Abu Dawud and others counted as trustworthy. He transmitted from al-Dahhak, Mujahid, Ikrima and al-Sha'bi, and from him transmitted his brother Mus'ab, Alqama ibn Martad and Abd Allah ibn al-Mubarak. He fled to Kabul in the days of Abu Muslim, called many to Islam who embraced it, and died in Kabul before 150 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2071}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2071"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+died: { edtf: "767~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/balkh, confidence: low, note: "Association inferred from the nisba 'البلخي'; specific birthplace or residence is not individually documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

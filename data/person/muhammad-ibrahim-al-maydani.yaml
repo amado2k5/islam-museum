@@ -1,0 +1,55 @@
+id: person/muhammad-ibrahim-al-maydani
+class: person
+gender: male
+roles:
+- jurist
+label:
+  ar: محمد إبراهيم الميداني الضرير
+  en: Muhammad Ibrahim al-Maydani al-Darir, Hanafi jurist of Nishapur
+  ur: محمد ابراہیم المیدانی الضریر
+summary:
+  ar: 'محمد بن إبراهيم، أبو بكر، الضرير الميداني، نسبة إلى ميدان بنيسابور، قال الذهبي
+    إنه من أئمة الحنفية، وقال اللكنوي إنه شيخ كبير عارف بالمذهب. حدث عن أبي محمد المزني،
+    وعنه ميمون بن علي الميموني، وله مناظرات مع أحمد بن نصر العياضي أخي أبي بكر العياضي.
+    {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7523} {cite:fiqh-mawsua-kuwaitiyya-noor-v3
+    p.7524} '
+  en: 'Muhammad ibn Ibrahim, Abu Bakr, the blind al-Maydani (from Maydan in Nishapur).
+    al-Dhahabi calls him one of the imams of the Hanafis, and al-Lucknawi says he
+    was a great shaykh who knew the school as few did. He narrated from Abu Muhammad
+    al-Muzani, and Maymun ibn Ali al-Maymuni narrated from him; he held disputations
+    with Ahmad ibn Nasr al-Ayyashi, brother of Abu Bakr al-Ayyashi. {cite:fiqh-mawsua-kuwaitiyya-noor-v3
+    p.7523} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7524} '
+  ur: 'محمد بن ابراہیم، ابوبکر، ضریر میدانی ⁦(نیشاپور کے میدان کی نسبت سے)⁩؛ ذہبی نے
+    انہیں حنفی ائمہ میں شمار کیا، اور لکھنوی نے انہیں مذہب کا بڑا عارف کہا۔ ابومحمد
+    المزنی سے روایت کی، اور ان سے میمون بن علی المیمونی نے، اور احمد بن نصر العیاضی
+    سے مناظرے کیے۔ {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7523} {cite:fiqh-mawsua-kuwaitiyya-noor-v3
+    p.7524} '
+wings:
+- people
+themes:
+- law-and-courts
+periods:
+- period/abbasid-fragmentation
+regions:
+- persia-central-asia
+provenance:
+  layer: own-research
+  source: الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 7523-7524
+    من المسح
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch44
+sources:
+- source/fiqh-mawsua-kuwaitiyya-noor-v3
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "1945~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

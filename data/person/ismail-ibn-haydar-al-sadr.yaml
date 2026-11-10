@@ -1,0 +1,29 @@
+id: person/ismail-ibn-haydar-al-sadr
+class: person
+label:
+  ar: "إسماعيل بن حيدر الصدر"
+  en: "Ismail bin Haydar al-Sadr"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإسماعيل بن حيدر الصدر؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ismail bin Haydar al-Sadr; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/contemporary-era]
+born: { edtf: "1842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a / Muhsin al-Amin" }
+died: { edtf: "1920", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a / Muhsin al-Amin" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q139741288
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

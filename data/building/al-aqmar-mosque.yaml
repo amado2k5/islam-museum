@@ -1,0 +1,29 @@
+id: building/al-aqmar-mosque
+class: building
+kind: mosque
+label:
+  ar: "مسجد الأقمر"
+  en: "al-Aqmar Mosque, Cairo"
+summary:
+  ar: "الجامع الأقمر بالقاهرة، في آخر سوق الشماعين قرب الركن المخلق، وأسكفة بابه عليها كتابة ⁦(المقريزي، ص 1063، 1131، 1132)⁩. بناؤه وتاريخه لم يُتحققا محلياً."
+  en: "al-Aqmar Mosque in Cairo, at the end of the candle-makers' market, with inscriptions on its gate threshold (al-Maqrizi, pp. 1063, 1131, 1132). Its founder and date are not checked locally."
+wings: [objects]
+regions: [egypt-nile]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [architecture]
+sources: [source/khitat-maqrizi-1998, source/duha-islam, source/yeomans-islamic-cairo-2006]
+external_ids:
+  wikidata: Q287283
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawa'iz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 1063, 1131, 1132; Wikidata candidate for the identifier"
+  generated_by: "Devin (SWE-2 High); prose by Claude Haiku 5.5 (showcase-prose lane)"
+  model: claude-haiku-5-5
+  run: wikidata-import-0022, showcase-prose-phase2-egypt-batch9
+  extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 62-64"]
+status:
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the site, the gate inscriptions and the Mukhalliq corner are read from al-Maqrizi's Khitat (local scan, pp. 1063, 1131, 1132). The founder and the 1125 date in the Wikidata candidate are not confirmed locally and are not used"
+built: { edtf: "1125", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 62: al-Aqmar (1125)." }
+status_now: standing

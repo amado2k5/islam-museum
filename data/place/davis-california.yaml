@@ -1,0 +1,21 @@
+id: place/davis-california
+class: place
+kind: city
+label: { ar: "دافيس", en: "Davis, California" }
+summary:
+  ar: "مدينة دافيس."
+  en: "City (Davis, California)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [38.553888888889, -121.73805555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q668546; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q668546" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q668546 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

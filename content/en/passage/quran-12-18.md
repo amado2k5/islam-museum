@@ -1,0 +1,33 @@
+---
+id: passage/quran-12-18
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Verse 18 of [[passage/quran-12|Surat Yusuf]], a Meccan surah. {cite:tanzil-quran}
+
+## Place in the museum
+Its place: verse 18 of 111 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 18 (pp. 579-586)**
+
+On [[passage/quran-12-18|12:18]] al-Tabari says: 'they brought his shirt with false blood'; God called it false because those who brought the shirt with the blood on it lied and told Jacob it was Joseph's blood, when it was not his but the blood of a kid, it was said. Report 18843, from Mujahid: kid's blood, the editor giving notes on a narrator of the chain; reports 18844, 18845 and 18846, from Mujahid: the blood of a kid, a sheep. {cite:tafsir-tabari-shakir-v15 p. 579}
+
+Report 18847, from Mujahid: the blood was false, not Joseph's; 18848, from Ibn Jurayj from Mujahid, and 18849, from Ibn Abbas: kid's blood; 18850, from al-Suddi: they slaughtered a kid of the goats, smeared the shirt with its blood, and came to their father; Jacob said, if this wolf was merciful, how did it eat his flesh and not tear his shirt? Oh my son, Joseph, what the sons of slave women did to you; 18851, 18852 and 18853, from Ibn Abbas: had a beast eaten him it would have torn the shirt; 18854, from al-Hasan: Joseph's shirt was brought to Jacob and he looked at it and saw the trace of blood {cite:tafsir-tabari-shakir-v15 p. 580}
+
+and no tear in it, and said, my son, I never knew the wolf to be forbearing; reports 18855 and 18856, from al-Hasan, similar, adding that he turned it over saying, I never knew the wolf to be forbearing, it ate my son and spared his shirt; 18857, from Qatada: when they brought God's prophet Jacob his shirt, he said, I see no trace of a beast, nor a stab, nor a tear; 18858, from Qatada: the false blood was not Joseph's blood; 18859, from al-Sha'bi: they slaughtered a kid and smeared him with its blood, and when Jacob saw the shirt whole he knew the people had lied to him and said, if this wolf was forbearing, sparing the shirt and not my son! and he knew they had lied to him; 18860, from Ibn Abbas: when Jacob was brought Joseph's shirt and saw no tear in it, he said, you lie, had a beast eaten him it would have torn his shirt. {cite:tafsir-tabari-shakir-v15 p. 581}
+
+Report 18861, from 'Amir: in Joseph's shirt were three signs, when they brought it with false blood and Jacob said had the wolf eaten him it would have torn the shirt; 18862, from 'Amir: three signs, when it was cast on his father's face and he regained sight, when it was torn from behind, and when they came with false blood; 18863, from 'Amir: the tear, the blood, and its being cast on his father's face so that he regained sight; 18864 and 18865, from al-Hasan: when Joseph's shirt was brought to Jacob and he saw the blood but not the tear, he said, I never knew the wolf to be forbearing. If someone asks, how is 'false blood' said when you know it was blood without doubt, even if not Joseph's? The answer has two parts: one that it is called false blood because it was lied about, as one says 'tonight is the new moon' and as in [[passage/quran-2-16|2:16]] 'their trade did not profit', which is what some Basran grammarians said. {cite:tafsir-tabari-shakir-v15 p. 582}
+
+The other is that it is a verbal noun in the sense of a passive participle, so its sense is 'they brought blood falsified on his shirt', as one says 'he has no reason and no reasoned', 'he has no endurance and no endured'; the Arabs do this often, putting a passive participle where a verbal noun belongs and a verbal noun where a participle belongs, and he cites a verse of al-Ra'i; that is what some Kufan grammarians said, the editor noting it is al-Farra' in 'Ma'ani al-Qur'an' and describing the occasion of the poem. As for 'he said, rather your souls have made a matter seem fair to you', it means Jacob said to his sons who told him the wolf ate Joseph, calling them liars in that report, the matter is not as you say, 'rather your souls have made a matter seem fair to you', embellished and beautified a matter about Joseph for you, and you did it; report 18866, from Qatada: rather your souls embellished a matter for you. {cite:tafsir-tabari-shakir-v15 p. 583}
+
+As for 'so patience is beautiful', it means my patience at what you did to me about Joseph is beautiful patience, or it is beautiful patience. 'God is the one whose help is sought against what you describe' means I seek God's help to suffice me against the evil of the lie you describe. It was said that beautiful patience is patience with no grieving; reports 18867, 18868, 18869, 18870 and 18871, from Mujahid: with no grieving; 18872, from Hayyan b. Abi Jabala: the Prophet was asked about 'so patience is beautiful' {cite:tafsir-tabari-shakir-v15 p. 584}
+
+and said, patience with no complaint, and said, whoever voiced his grief did not have patience; 18873, from him, similar; 18874, 18875, 18876 and 18877, from Mujahid: with no grieving; 18878, from al-Thawri from some of his companions: it is said there are three parts of patience, not telling of your pain, not telling of your calamity, and not praising yourself. The editor gives notes on Hayyan b. Abi Jabala and says he did not know 'Abd al-Rahman b. Yahya in the chain. {cite:tafsir-tabari-shakir-v15 p. 585}
+
+It is also related from Habib b. Abi Thabit that Jacob the prophet's eyebrows had fallen, and he used to lift them with a rag; he was asked, what is this? He said, the length of time and the many sorrows. Then God inspired him, Jacob, do you complain of Me? He said, Lord, it is a fault I committed, forgive me for it. As for 'God is the one whose help is sought against what you describe'; report 18879, from Qatada: against what you lie about. At the end of this page it says the fifteenth part of al-Tabari's commentary is complete and is followed by the sixteenth part, which begins with the commentary on 'a caravan came and sent their water-drawer, who let down his bucket and said, good news, here is a boy, and they hid him as merchandise, and God knew what they did'. {cite:tafsir-tabari-shakir-v15 p. 586}
+
+Here the fifteenth part of al-Tabari's commentary ends in the Shakir edition at p. 586, with the end of the commentary on verse 18 of Surat Yusuf; the sixteenth part begins with verse 19. {cite:tafsir-tabari-shakir-v15 p. 586}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

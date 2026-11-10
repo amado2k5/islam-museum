@@ -1,0 +1,36 @@
+id: person/al-bukhari-iftikhar-al-din-tahir
+class: person
+label: { ar: "البخاري افتخار الدين طاهر بن أحمد", en: "Al-Bukhari, Iftikhar al-Din Tahir ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "طاهر بن أحمد بن عبد الرشيد البخاري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1186", hijri: "0582", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه حنفي من بخارى، ويرجح أنه ولد بقرية مايمرغ القريبة منها."
+  en: "A Hanafi jurist from Bukhara, who is thought to have been born in the nearby village of Maymurgh."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص207"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

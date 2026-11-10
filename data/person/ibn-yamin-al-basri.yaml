@@ -1,0 +1,21 @@
+id: person/ibn-yamin-al-basri
+class: person
+label: { ar: "ابن يامين البصري", en: "Ibn Yamin al-Basri" }
+summary:
+  ar: "شاعر، بدأ الشعراء في وصف سيف الصمصامة يوم وضعه الهادي بين يديه بأبيات أولها حاز صمصامة الزبيدي عمرو من جميع الأنام موسى الأمين، فوهب له السيف والمكتل ففرق المكتل على الشعراء ثم اشترى منه السيف بخمسين ألفاً {cite:muruj-al-dhahab p. 323-324}."
+  en: "The poet whose Samsama ode won the sword itself plus a basket of dinars from al-Hadi {cite:muruj-al-dhahab p. 323-324}."
+gender: male
+wings: [people]
+died: { edtf: "785~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 323–324"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch43
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

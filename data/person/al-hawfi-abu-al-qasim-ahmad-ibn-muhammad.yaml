@@ -1,0 +1,39 @@
+id: person/al-hawfi-abu-al-qasim-ahmad-ibn-muhammad
+class: person
+label: { ar: "الحوفي أبو القاسم أحمد بن محمد", en: "al-Hawfi Abu al-Qasim Ahmad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم أحمد بن محمد بن خلف القلعي الحوفي الإشبيلي" }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+  - { kind: nisba, lang: ar, value: "الحوفي" }
+  - { kind: nisba, lang: ar, value: "الإشبيلي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1192", hijri: "0588", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أكبر المختصين في علم الفرائض وعقد الشروط بالأندلس، وتوفي سنة 588هـ ⁦(1192م)⁩."
+  en: "One of the leading specialists in inheritance law and contract formulas in al-Andalus; died 588 AH (1192 CE)."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص368"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch52
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/seville, note: "Place association from the person's nisba/name (الإشبيلي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

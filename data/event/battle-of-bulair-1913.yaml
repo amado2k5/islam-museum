@@ -1,0 +1,23 @@
+id: event/battle-of-bulair-1913
+class: event
+kind: battle
+label: { ar: "معركة بولير", en: "Battle of Bulair" }
+summary:
+  ar: "بطاقة أولية لمعركة بولير سنة ١٩١٣م، صد العثمانيين للإنزال البلغاري في جاليبولي بحرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Bulair in 1913, the Ottoman repulse of the Bulgarian landing at Gallipoli in the Balkan War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1913", precision: year, status: tradition, derived: true }
+  end: { edtf: "1913", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q842670
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Balkan War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

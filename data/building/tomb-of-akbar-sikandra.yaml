@@ -1,0 +1,25 @@
+id: building/tomb-of-akbar-sikandra
+class: building
+kind: tomb
+label: { ar: "ضريح أكبر في سكندره", en: "Tomb of Akbar, Sikandra", ur: "مقبرۂ اکبر، سکندرہ" }
+summary:
+  ar: "ضريح الإمبراطور أكبر في سكندره قرب آكره، بدأه في حياته على التقليد التيموري وأتمه ابنه، بناء ضخم من الحجر الأحمر المطعّم بالرخام وسط بستان رباعي {cite:brookes-gardens-of-paradise-1987 p.136}."
+  en: "The tomb of the emperor Akbar at Sikandra near Agra, begun in his lifetime after Timurid custom and finished by his son: a massive red sandstone building inlaid with marble in a quartered garden {cite:brookes-gardens-of-paradise-1987 p.136}."
+wings: [objects, place]
+themes: [architecture]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+patron: person/jalal-al-din-akbar
+location: place/agra
+materials: [stone, marble]
+relations:
+  - { type: located_in, target: place/agra, sources: [source/brookes-gardens-of-paradise-1987] }
+  - { type: exemplifies, target: concept/chaharbagh, sources: [source/brookes-gardens-of-paradise-1987] }
+sources: [source/brookes-gardens-of-paradise-1987]
+provenance:
+  layer: own-research
+  source: "Brookes 1987, printed pp. 136, 154"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

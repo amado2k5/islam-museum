@@ -1,0 +1,30 @@
+id: person/ibn-al-sikkit
+class: person
+label:
+  ar: "ابن السكيت"
+  en: "Ibn al-Sikkit"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليعقوب بن إسحاق المعروف بابن السكيت، نحوي الكوفة ولغويها في القرن التاسع الذي قُتل بسؤال المتوكل عن ابنيه، توفي سنة ٨٥٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ya'qub ibn Ishaq known as Ibn al-Sikkit, the Kufan grammarian and lexicographer of the ninth century killed over al-Mutawakkil's question about his sons, d. 858; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "802~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/nihayat-al-arab-nuwayri-vol3-scan]
+external_ids:
+  wikidata: Q6533780
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0024
+status:
+  review: draft
+  completeness: 1

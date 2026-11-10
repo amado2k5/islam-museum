@@ -1,0 +1,39 @@
+id: person/masruq-ibn-al-ajda
+class: person
+label: { ar: "مسروق بن الأجدع", en: "Masruq ibn al-Ajda'" }
+names:
+  - { kind: full, lang: ar, value: "مسروق بن الأجدع بن مالك بن أمية الهمداني" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من كبار التابعين، روى الحديث وعُني بالقراءة، وتعددت في نسبه الكنى والأقوال."
+  en: "One of the senior Successors (tabi'un), who transmitted hadith and was known for the Qur'anic readings. Several kunyas are given for him in the sources."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+external_ids:
+  wikidata: Q6783946
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص290-296"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]

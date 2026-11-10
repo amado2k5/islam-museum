@@ -1,0 +1,22 @@
+id: person/azhar-al-samman
+class: person
+label: { ar: "أزهر السمان", en: "Azhar al-Samman" }
+summary:
+  ar: "صديق أبي جعفر المنصور في أيام بني أمية، سافرا جميعاً وسمعا الحديث، فلما أفضت الخلافة إلى المنصور أشخص إليه من البصرة فوصله بأربعة آلاف درهم وأمره ألا يقدم مستميحاً ولا مسلماً ولا عائداً، فلما أتاه رابعاً محتجاً بسماع حديث فيه اسم الله الأعظم قال المنصور إني منذ جثتني أسأل الله به ألا يردك إلي فهات، وقال قد أعيتني فيك الحيلة فصر إلي متى شئت {cite:muruj-al-dhahab p. 427-428}."
+  en: "Al-Mansur's old Umayyad-era study-friend whose annual visits under ever-thinner pretexts ended with the caliph's surrender: 'you have exhausted my stratagems — come whenever you wish' {cite:muruj-al-dhahab p. 427-428}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+born: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+died: { edtf: "802", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Al-Mansur's study-friend, sent for from Basra.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

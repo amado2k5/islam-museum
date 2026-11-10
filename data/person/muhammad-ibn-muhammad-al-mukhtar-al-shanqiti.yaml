@@ -1,0 +1,29 @@
+id: person/muhammad-ibn-muhammad-al-mukhtar-al-shanqiti
+class: person
+label:
+  ar: "محمد بن محمد المختار الشنقيطي"
+  en: "Muhammad ibn Muhammad al-Mukhtar al-Shanqiti"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن محمد المختار الشنقيطي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Muhammad al-Mukhtar al-Shanqiti; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+born: { edtf: "1970~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dar al-Ifta Saudi Arabia / contemporary records" }
+died: { edtf: "2019~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Dar al-Ifta Saudi Arabia / contemporary records" }
+relations:
+  - { type: lived_in, target: place/mauritania, sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q87360391
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

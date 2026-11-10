@@ -1,0 +1,21 @@
+id: place/bing-l
+class: place
+kind: city
+label: { ar: "بنكل", en: "Bingöl", ur: "بینگول" }
+summary:
+  ar: "مدينة في تركيا."
+  en: "City in Turkey."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [38.886111111111, 40.501666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q208472" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q208472 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,80 @@
+id: listing/faysal-bank
+class: listing
+kind: company
+label:
+  ar: بنك فيصل
+  en: Faysal Bank
+  ur: فیصل بینک
+summary:
+  ar: بنك إسلامي باكستاني في كراتشي، بدأ في باكستان في أكتوبر 1987 فرعا لبنك فيصل الإسلامي البحريني المملوك للأمير محمد بن
+    فيصل، وصار بنكا تقليديا ثم تحوّل بالكامل إلى بنك إسلامي في ديسمبر 2022؛ يملك بنك إثمار البحريني أغلب أسهمه.
+  en: A Pakistani Islamic bank in Karachi, which began in Pakistan in October 1987 as a branch of Bahrain's Faysal Islamic
+    Bank, owned by Prince Mohammed bin Faisal; it became a conventional bank and converted fully to Islamic banking in December
+    2022; Bahrain's Ithmaar Bank holds most of it.
+  ur: کراچی کا پاکستانی اسلامی بینک، جو اکتوبر 1987 میں شہزادہ محمد بن فیصل کے بحرینی فیصل اسلامک بینک کی شاخ کے طور پر پاکستان
+    میں شروع ہوا؛ بعد میں روایتی بینک بنا اور دسمبر 2022 میں مکمل اسلامی بینک بن گیا؛ بحرین کا اثمار بینک اس کا بڑا مالک ہے۔
+wings:
+- made
+- today
+categories:
+- finance
+regions:
+- south-asia
+founded:
+  edtf: '1987-10'
+  hijri: '1408-02~'
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: Began in Pakistan in October 1987 as a branch of Faysal Islamic Bank (Profit, 2018, cited by the article); incorporated
+    as Al-Faysal Investment Bank in 1995; full Islamic bank by December 2022. The article's lead gives 1995 and 2023; the
+    cited history is used. The Hijri month is converter-derived.
+  sources:
+  - source/wikipedia-faysal-bank-en
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/wikipedia-faysal-bank-en
+external_ids:
+  wikidata: Q5439099
+sources:
+- source/wikipedia-faysal-bank-en
+- source/wikidata
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-opus-5-5)
+themes:
+- trade-and-finance
+- halal-economy
+status_business: active
+location:
+  serves:
+  - pk
+links:
+  official: https://www.faysalbank.com
+footprint:
+  wikipedia:
+    languages:
+    - ar
+    - bn
+    - en
+    - fa
+    - pnb
+    - ur
+    checked: '2026-11-07'
+    sources:
+    - source/wikipedia-faysal-bank-en
+  wikidata: Q5439099
+  catalogues:
+    ticker: 'PSX: FABL'
+provenance:
+  layer: own-research
+  source: English Wikipedia "Faysal Bank" (revision 1365253467, 21 July 2026), read in Chrome on the founder's Mac on 7 November
+    2026; Wikidata sitelinks read the same day; the insider-trading case and the State Bank fines are told as the cited press
+    reports them
+  generated_by: Claude Code (claude-opus-5-5)
+  model: claude-opus-5-5
+  run: modern-enterprise-b05

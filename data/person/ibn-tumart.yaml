@@ -1,0 +1,32 @@
+id: person/ibn-tumart
+class: person
+label:
+  ar: "محمد بن تومرت"
+  en: "Ibn Tumart"
+names:
+  - { kind: full, lang: ar, value: "محمد بن تومرت المهدي" }
+roles: [theologian, scholar]
+gender: male
+summary:
+  ar: "محمد بن تومرت النفزي «المهدي»، مؤسس دعوة الموحدين، ناوأ المرابطين من 516هـ ومات بعد معركة البحيرة سنة 524هـ ⁦(1130م)⁩."
+  en: "Muhammad Ibn Tumart (d. 1130), founder of the Almohad movement, opponent of the Almoravids."
+wings: [people]
+regions: [maghreb]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1080~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: born_in, target: place/igiliz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tinmel, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q455925
+provenance:
+  layer: own-research
+  source: "Hasan Ibrahim Hasan, Tarikh al-Islam - passage read in the OCR text of vol.4 (p.124-125)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch10
+status:
+  review: published
+  completeness: 3

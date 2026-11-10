@@ -1,0 +1,47 @@
+---
+// Stories in 12 cards (E5): the index of narrated card stories.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { listStoryCards } from "../../../../../lib/story-cards";
+import "../../../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.storycards;
+const stories = listStoryCards();
+const L = (x: { ar: string; en: string; ur?: string }) => (x[lang] ?? x.ar);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+const bandHref = `/${lang}/sighar/storytellers/`;
+const bandName = T.kids.band_storytellers ?? "Storytellers";
+---
+<BaseLayout lang={lang} title={t.title} description={t.lede} path={`/${lang}/sighar/storytellers/stories/`} kids={true}>
+  <div class="kids" id="top">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{T.kids.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={bandHref}>{bandName}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{t.title}</span>
+    </nav>
+    <h1><span aria-hidden="true">🎴</span> {t.title}</h1>
+    <p class="lede">{t.lede}</p>
+    <ul class="sc-index">
+      {stories.map((s) => (
+        <li>
+          <a class="entry-card" href={`/${lang}/sighar/storytellers/stories/${s.slug}/`}>
+            <h2><span aria-hidden="true">🎴</span> {L(s.title)}</h2>
+            <p>{L(s.lede)}</p>
+            <p class="ui muted">{t.cards_count.replace("{n}", String(s.count))}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
+<style>
+.sc-index { list-style: none; padding: 0; display: grid; gap: 14px; }
+.entry-card { display: block; border: 2px solid #c9a227; border-radius: 14px; padding: 16px 18px; text-decoration: none; color: inherit; background: #f8f1de; }
+.entry-card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+.entry-card p { margin: 4px 0; }
+</style>

@@ -1,0 +1,34 @@
+id: person/abdul-rahman-hilmi
+class: person
+label:
+  ar: "عبد الرحمن حلمي"
+  en: "Abdul Rahman Hilmi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحمن حلمي، الخطاط العثماني المتميز في الثلث والنسخ؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abdul Rahman Hilmi, the Ottoman master calligrapher; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/colonial-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q19493972
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

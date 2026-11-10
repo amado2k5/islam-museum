@@ -1,0 +1,17 @@
+id: person/bishr-ibn-al-muhtafiz
+class: person
+label: { ar: "بشر بن المحتفز", en: "Bishr ibn al-Muhtafiz" }
+summary:
+  ar: "بشر بن المحتفز؛ كان على جنديسابور وهو بشر الذي ذكره أبو المختار في قصيدته على العمال."
+  en: "Bishr ibn al-Muhtafiz; governor of Jundishapur — the 'Bishr' of Abu al-Mukhtar's satire."
+periods: [period/rashidun]
+wings: [people]
+died: { edtf: "790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
+relations:
+  - { type: lived_in, target: place/jundishapur, confidence: low, note: "Associated with جنديسابور per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

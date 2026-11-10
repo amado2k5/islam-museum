@@ -1,0 +1,28 @@
+id: person/salih-pasha-al-makki
+class: person
+label:
+  ar: "صالح باشا المكي"
+  en: "Salih Pasha al-Makki"
+roles: [military]
+gender: male
+summary:
+  ar: "بطاقة أولية لصالح باشا المكي، رجل عسكري؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Salih Pasha al-Makki, a military figure; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q30042349
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0083
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Association inferred from the nisba in the name 'Salih Pasha al-Makki'; specific residence not individually documented.", sources: [source/al-aalam] }

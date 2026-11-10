@@ -1,0 +1,21 @@
+id: place/kutha
+class: place
+kind: town
+label: { ar: "كوثى", en: "Kutha" }
+summary:
+  ar: "بلد قديم في السواد؛ عند البلاذري عبر بعض المسلمين نهر سبوذا فأصابوا كوثى ونهر الملك وبادوريا."
+  en: "Old town of the Sawad; in al-Baladhuri some Muslims crossed Nahr Subudhan and took Kutha, Nahr al-Malik and Baduraya."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+coordinates: [32.76002778, 44.61286111]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q1096108 by name; coordinates approximate until verified against a gazetteer."
+external_ids: { wikidata: "Q1096108" }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 356"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-30
+sources: [source/futuh-buldan-maarif-1407, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

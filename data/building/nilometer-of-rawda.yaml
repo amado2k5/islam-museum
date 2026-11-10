@@ -1,0 +1,27 @@
+id: building/nilometer-of-rawda
+class: building
+kind: other
+label: { ar: "مقياس النيل بجزيرة الروضة", en: "Nilometer of Rawda Island, Cairo", ur: "جزیرۂ روضہ کا مقیاسِ نیل" }
+summary:
+  ar: "بئر حجرية لقياس فيضان النيل في جزيرة الروضة بالقاهرة، أمر بها الخليفة العباسي المتوكل وبناها أحمد بن محمد الحاسب سنة 862م، ويعدّها يومانز أقدم أثر إسلامي باقٍ في مصر {cite:yeomans-islamic-cairo-2006 p.29}."
+  en: "The stone-lined pit for gauging the Nile flood on Rawda Island, Cairo, commissioned by the Abbasid caliph al-Mutawakkil and built by Ahmad ibn Muhammad al-Hasib in 862; Yeomans calls it the earliest surviving Islamic monument in Egypt {cite:yeomans-islamic-cairo-2006 p.29}."
+wings: [objects, place]
+themes: [architecture, engineering-and-technology, agriculture-and-botany]
+regions: [egypt-nile]
+periods: [period/abbasid-early]
+built: { edtf: "0862", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 29: built by Ahmad ibn Muhammad al-Hasib in 862 on al-Mutawakkil's order; restored by Ibn Tulun 872-873 (p. 30)." }
+patron: person/al-mutawakkil
+location: place/cairo
+status_now: standing
+materials: [stone, marble, wood]
+dimensions: "Central marble column divided into nineteen cubits; the sixteenth cubit marks the ideal flood (Yeomans p. 30)"
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/yeomans-islamic-cairo-2006] }
+sources: [source/yeomans-islamic-cairo-2006]
+provenance:
+  layer: own-research
+  source: "Yeomans 2006, printed pp. 29-30"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

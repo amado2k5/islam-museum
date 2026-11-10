@@ -1,0 +1,22 @@
+id: person/saad-ibn-masud-al-thaqafi
+class: person
+label: { ar: "سعد بن مسعود الثقفي", en: "Sa'd ibn Mas'ud al-Thaqafi" }
+gender: male
+roles: [emir]
+summary:
+  ar: "ثقفي ذكره الصلابي في قائمة ولاة علي واليا على المدائن {cite:sallabi-ali-vol1 p. 359}، ولم يذكر الكتاب في هذا الموضع تاريخ ولايته ولا أخباره."
+  en: "A man of Thaqif whom the book lists as Ali's governor of al-Mada'in {cite:sallabi-ali-vol1 p. 359}; the passage gives neither the dates of his office nor further reports."
+periods: [period/rashidun]
+wings: [people]
+born: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+died: { edtf: "666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+relations:
+  - { type: ruler_of, target: place/al-madain, sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+provenance:
+  layer: own-research
+  source: "sallabi-ali-vol1 p. 359, governors list (harvest OCR)"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol1-deep-pp351-388"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); from the book's list only" }

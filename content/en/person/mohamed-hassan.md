@@ -1,0 +1,59 @@
+---
+id: person/mohamed-hassan
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Muhammad ibn Ibrahim ibn Ibrahim Hassan, known as Mohamed Hassan, is an Egyptian Muslim preacher born in the village of Damouh, in the Dekernes district of Dakahlia Governorate, on 8 April 1962. {cite:wikipedia-mohamed-hassan-ar} {cite:wikidata-mohamed-hassan} He memorised the whole Quran by the age of eight, studied under the leading Saudi scholars of his generation, and taught hadith and its sciences at Imam Muhammad ibn Saud University in Qassim. He became one of Egypt's best-known satellite-television preachers after launching the Al Rahma satellite channel in 2007. {cite:wikipedia-mohamed-hassan-ar} {cite:columbia-media-ownership-egypt} He chairs the board of the Ahl al-Sunna Complex in Mansoura, and has written more than fifteen books on creed, preaching and the Prophet's biography. {cite:wikipedia-mohamed-hassan-ar}
+
+## Upbringing and education
+He was born in the village of Damouh in a modest home and was raised by his maternal grandfather, who enrolled him in the village Quran school (kuttab) at the age of four. {cite:wikipedia-mohamed-hassan-ar} By the age of eight he had memorised the whole Quran under Misbah Muhammad Awad, who also required him to memorise the Matn Abi Shuja' in jurisprudence and some short creed texts. {cite:wikipedia-mohamed-hassan-ar} His grandfather, noticing his strong memory, set him to memorise Riyad al-Salihin, which he completed at twelve; he then memorised al-Ajrumiyya and studied al-Tuhfa al-Saniyya under his teacher Misbah, and grew to love Arabic and poetry from childhood. {cite:wikipedia-mohamed-hassan-ar}
+
+He began teaching at thirteen in the grand mosque of his village, from the books Fiqh al-Sunna and Riyad al-Salihin, and his grandfather appointed him to give the Friday sermon in the neighbouring village of Mit Mujahid, also at thirteen; the sermon, on death, pleased the congregation, and he hardly ever missed a Friday sermon afterwards. {cite:wikipedia-mohamed-hassan-ar}
+
+He took a bachelor's degree from the Faculty of Media at Cairo University. {cite:wikipedia-mohamed-hassan-ar} {cite:wikipedia-mohamed-hassan-fr} He also enrolled at the Institute of Islamic Studies in Cairo: the Arabic article says his studies there were not completed because of his period of compulsory military service, while the French article states that he obtained a master's degree in Islamic studies from the institute. The museum records both accounts as they stand, without preferring one. {cite:wikipedia-mohamed-hassan-ar} {cite:wikipedia-mohamed-hassan-fr}
+
+## His scholarly journey
+At eighteen he travelled to Jordan and attended a few sessions of Muhammad Nasir al-Din al-Albani. {cite:wikipedia-mohamed-hassan-ar} He then went with Safwat Nur al-Din to meet Abd al-Aziz ibn Baz and began studying under him, hearing many of his commentaries, among them those on Fath al-Bari, al-Nuniyya, al-Tahawiyya and al-Wasitiyya, and in jurisprudence and its principles. {cite:wikipedia-mohamed-hassan-ar} He completed al-Tahawiyya in full under Abd Allah ibn Jibrin, and studied many commentaries with him in jurisprudence, its principles, exegesis and creed; he then sat with Abd al-Qadir Shayba al-Hamd and completed the commentary on Bulugh al-Maram. {cite:wikipedia-mohamed-hassan-ar}
+
+During his Qassim period he sat with Muhammad ibn Salih al-Uthaymin, and was then appointed — on Ibn Uthaymin's recommendation — to teach at the colleges of Sharia and of Usul al-Din at Imam Muhammad ibn Saud University's Qassim branch, teaching hadith, the methodology of the hadith scholars, and hadith authentication and transmission. {cite:wikipedia-mohamed-hassan-ar}
+
+The Arabic article states that he afterwards received a doctorate with honours from the American University in London, for a thesis titled "The Prophet's Method in Calling the Other", defended before a committee convened at Al-Azhar and supervised by Sabir Taha, dean of Al-Azhar's Faculty of Dawah. The degree was publicly disputed in the Egyptian press in 2015, as set out in the positions and criticism section below. {cite:wikipedia-mohamed-hassan-ar}
+
+## Preaching work
+He held a regular weekly lesson at the mosque of the Tawhid Complex in Mansoura until 2011; after the Egyptian revolution he reduced the weekly meeting until it stopped altogether. {cite:wikipedia-mohamed-hassan-ar} He teaches at the preacher-training institutes in Mansoura and chairs the board of the Ahl al-Sunna Complex there, where he teaches creed, hadith methodology, hadith authentication, the commentary on the Gabriel hadith, and the Prophet's biography. {cite:wikipedia-mohamed-hassan-ar} He has hundreds of recorded lessons, scholarly series and sermons, published on the IslamWay, Islamic Network, Nida' al-Iman and al-Tariq ila Allah websites. {cite:wikipedia-mohamed-hassan-ar}
+
+In recent years his public appearances have grown fewer; the Alsiyars biographical encyclopedia attributes this to illness, delicate surgeries and periods confined to bed, while noting that he still appears from time to time to preach and remind. {cite:alsiyars-mohamed-hassan}
+
+## Al Rahma TV and his programmes
+In 2007 Mohamed Hassan launched the Al Rahma satellite channel, according to a scholarly study of media ownership in Egypt published by the Columbia Institute for Tele-Information, which describes him as an influential Salafi preacher in Egypt. {cite:columbia-media-ownership-egypt} The Alsiyars biographical encyclopedia likewise states that he launched the channel in 2007 and supervised it, gathering a group of preachers and scholars under his supervision until it became one of Egypt's leading preaching channels. {cite:alsiyars-mohamed-hassan}
+
+His television programmes, as the Arabic article lists them, include "Inna 'Amilun" (We Are Working), "Azmat Akhlaq" (A Crisis of Morals), "Kalima" (A Word), "Fatawa al-Rahma" (Al Rahma Fatwas), "Jibril Yas'al wal-Nabi Yujib" (Gabriel Asks and the Prophet Answers), a programme on creed, "Tafsir al-Qur'an", "Min Buyut Allah" (From the Houses of God), "A'immat al-Huda wa-Masabih al-Duja" (Imams of Guidance and Lamps in the Darkness), "Amrad al-Umma" (Ailments of the Umma), the series "Ahdath al-Nihaya" (Events of the End), "al-Qadiyya" (The Case) and "al-Nida'" (The Call). {cite:wikipedia-mohamed-hassan-ar} Al Rahma still broadcasts through its official YouTube channel, where his exegesis and biography series are its flagship current content; the channel had 1.04 million subscribers in October 2026, a dated platform figure, not a fixed fact. {cite:youtube-alrahma-tv}
+
+## Books
+The Arabic article lists among his books: "Haqiqat al-Tawhid" (The Reality of Tawhid), "Khawatir 'ala Tariq al-Da'wa" (Reflections on the Path of Preaching), "Qawa'id al-Mujtama' al-Muslim" (Foundations of Muslim Society), "al-Iman bil-Qada' wal-Qadar" (Faith in Decree and Destiny), "al-Thabat hatta al-Mamat" (Steadfastness until Death), "A'immat al-Huda wa-Masabih al-Duja", "Masa'il Muhimma bayn al-Manhajiyya wal-Harakiyya" (Important Questions between Method and Movement), "Jibril Yas'al wal-Rasul Yujib" in three volumes, "Durus min Surat al-Nur" (Lessons from Surat al-Nur), "Sifat al-Munafiqin" (Traits of the Hypocrites), "Durus fi al-Tarbiyya" (Lessons in Upbringing), "Qabas min al-Sunna" (A Brand from the Sunna), "Huquq Yajib an Tu'raf" (Rights That Must Be Known) in three volumes, "al-Sira bayn al-Hadir wal-Madi" (The Biography between Present and Past), "Ahdath al-Nihaya wa-Nihayat al-'Alam" (Events of the End and the End of the World) and "al-Fitna bayn al-Sahaba" (The Strife among the Companions). {cite:wikipedia-mohamed-hassan-ar}
+
+## Positions and criticism
+This section sets out positions and criticisms as reported in the sources. It is not a verdict by the museum, which describes and attributes and does not settle disputes.
+
+**How the studies describe him.** Western academic studies describe him as a Salafi preacher: the Columbia Institute study calls him "an influential Salafi preacher in Egypt", and a study in Cultural Anthropology counts him among the Salafi preaching triumvirate — with Abu Ishaq al-Huwayni and Muhammad Hussein Yaqoub — with whom Egyptian Salafi television was associated. {cite:columbia-media-ownership-egypt} {cite:culanth-television-is-not-radio} The French article gives a different picture: it says he is rather close to the Muslim Brotherhood without being an official member, that he supports it politically, and that his discourse rests on the constants of the Brotherhood's Saudi current, while itself noting that his ideological positioning is variously analysed. The museum presents both descriptions attributed to their sources, without preferring one. {cite:wikipedia-mohamed-hassan-fr}
+
+**Reported statements.** The French article reports that in some sermons he attributed AIDS and swine flu to the choices of unbelievers, quoting him as saying that the international community "is only infected because it has strayed from the voice of Allah and the Prophet". {cite:wikipedia-mohamed-hassan-fr} The same article reports his opposition to Bashar al-Assad, a fatwa he issued calling for Assad's killing, and his support for jihad in Syria in all its forms — of the spirit, of money and of weapons. {cite:wikipedia-mohamed-hassan-fr}
+
+**The 2013 Tunisia visit.** The French article reports that his 2013 visit to Tunisia raised strong opposition: Ferid El-Beji, president of the Dar al-Hadith Ezzaïtouni association, called his discourse one of exclusion, said he spreads a Wahhabi ideology and declares those who disagree with him unbelievers; the Tunisian deputy Habib Ellouze, by contrast, said he is a scholar who would not spread Wahhabi discourse, and that the Wahhabi current is incompatible with Tunisians' open and tolerant character. {cite:wikipedia-mohamed-hassan-fr}
+
+**The doctorate allegation.** The Arabic article's own reference list includes a 2015 press report in which the Al-Azhar professor Abdullah al-Naggar alleged that Mohamed Hassan's doctorate from Al-Azhar was forged. The museum records the allegation attributed to those who reported it, against the Arabic article's own account of the thesis and its examining committee, and does not settle the question of the degree. {cite:wikipedia-mohamed-hassan-ar}
+
+## Impact and audience
+Mohamed Hassan is among the best-known preachers of Egypt's religious satellite channels; the Columbia study places the Al Rahma channel he launched among the Salafi channels that concentrated on doctrine and religious guidance and drew wide audiences in Egypt and the Arab world. {cite:columbia-media-ownership-egypt} His recorded lessons and sermons, which number in the hundreds, reach a wider audience through Islamic websites and video platforms. {cite:wikipedia-mohamed-hassan-ar} Wikidata records a personal YouTube channel for him, while Al Rahma's official YouTube channel had 1.04 million subscribers in October 2026; these are dated platform figures that change constantly. {cite:wikidata-mohamed-hassan} {cite:youtube-alrahma-tv}
+
+## References
+- Arabic Wikipedia, «محمد حسان», revision 76842223 of 3 October 2026.
+- French Wikipedia, "Mohamed Hassan (imam)", revision 240513754 of 19 October 2026.
+- Wikidata item Q12240376, read via the API on 25 October 2026.
+- "Media Ownership and Concentration in Egypt", Columbia Institute for Tele-Information, p. 208.
+- "Television Is Not Radio: Theologies of Mediation in the Egyptian Islamic Revival", Cultural Anthropology.
+- "Who is Mohamed Hassan? — biography", Alsiyars encyclopedia of contemporary figures (alsiyars.com).
+- Al Rahma TV's official YouTube channel (@AlrahmaTVOfficial), About section read on 25 October 2026.
+- Revisions of this article must be dated, and must name the source that changed each fact.

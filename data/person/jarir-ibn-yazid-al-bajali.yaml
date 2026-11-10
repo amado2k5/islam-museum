@@ -1,0 +1,22 @@
+id: person/jarir-ibn-yazid-al-bajali
+class: person
+label: { ar: "جرير بن يزيد البجلي", en: "Jarir ibn Yazid al-Bajali" }
+summary:
+  ar: "داهية عصره، سرحه المنصور إلى أبي مسلم وقد أجمع على خلافه ومتنكب للعراق يريد خراسان فقال له ما آمن أن يقال طلب بثأر قوم ثم نقض بيعتهم، فأراد أن يجيب إلى الرجوع فنهاه مالك بن الهيثم وقال أبو مسلم لقد بليت بإبليس وما بليت بمثل هذا قط يعني الجريري، فلم يزل به حتى أقبل به على المنصور {cite:muruj-al-dhahab p. 280}."
+  en: "The arch-schemer sent to turn Abu Muslim back from Khurasan — his Iblis-like persistence delivered the rebel to al-Mansur's couch of daggers {cite:muruj-al-dhahab p. 280}."
+gender: male
+wings: [people]
+died: { edtf: "745~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+relations:
+  - { type: lived_in, target: place/khorasan, confidence: low, note: "Associated with خراسان per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

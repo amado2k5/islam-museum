@@ -1,0 +1,23 @@
+id: person/asad-ibn-yafar
+class: person
+label: { ar: "أسعد بن يعفر", en: "As'ad ibn Ya'fur" }
+summary:
+  ar: "أسعد بن يعفر صاحب قلعة كحلان النازل بها وصاحب مخاليف اليمن سنة ٣٣٢هـ وهو المعظم فيها، أراد أن يبني غمدان فأشار عليه يحيى بن الحسين الحسني ألا يتعرض لذلك إذ بناؤه على يدي غلام يخرج من أرض سبأ ومأرب {cite:muruj-al-dhahab p. 540}."
+  en: "Lord of Kahlan castle and Yemen's mikhlafs in 332 AH, the dominant power there — dissuaded by Yahya ibn al-Husayn from rebuilding Ghumdan, destined for a Sabaean youth {cite:muruj-al-dhahab p. 540}."
+gender: male
+wings: [people]
+periods: [period/abbasid-fragmentation]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+died: { edtf: "944", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Yaman / al-Kamil" }
+relations:
+  - { type: ruled_over, target: place/yemen, note: "Lord of Kahlan castle and Yemen's mikhlafs in 332.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: lived_in, target: place/yemen, note: "The dominant power in Yemen.", sources: [source/muruj-al-dhahab], confidence: high }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

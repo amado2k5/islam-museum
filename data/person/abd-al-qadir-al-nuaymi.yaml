@@ -1,0 +1,29 @@
+id: person/abd-al-qadir-al-nuaymi
+class: person
+label:
+  ar: "عبد القادر النعيمي"
+  en: "Abd al-Qadir al-Nu'aymi"
+roles: [historian, muhaddith]
+gender: male
+summary:
+  ar: "عبد القادر النعيمي، مؤرخ دمشق ومحدثها الشافعي، صاحب «الدارس في تواريخ المدارس»؛ توفي سنة 927هـ ⁦(1520م)⁩."
+  en: "Abd al-Qadir al-Nu'aymi (1448–1520), Damascene historian, author of al-Daris fi Tawarikh al-Madaris."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q122802439
+provenance:
+  layer: own-research
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.10 p.209)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch8
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1442", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daris fi Tarikh al-Madaris; al-Daw' al-Lami (845–927 AH)" }
+died: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daris fi Tarikh al-Madaris; al-Daw' al-Lami (845–927 AH)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: مؤرخ دمشق ومحدثها الشافعي", sources: [source/shadharat-dhahab], confidence: low }

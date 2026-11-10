@@ -1,0 +1,32 @@
+id: person/sinan-pasha
+class: person
+label:
+  ar: "سنان باشا"
+  en: "Koca Sinan Pasha"
+names:
+  - { kind: full, lang: ar, value: "سنان باشا الكبير" }
+roles: [grand-vizier, military-leader]
+gender: male
+summary:
+  ar: "سنان باشا الكبير، وزير عثماني وقائد في عهد سليم الثاني؛ قاد فتح تونس سنة 982هـ ⁦(1574م)⁩ مع قلج علي، ثم قاد الحملة الكبرى إلى اليمن فدخل مكة وجازان وأنقذ والي تعز وهزم الزيود في جبل الأغبر وجهّز حملة عدن."
+  en: "Koca Sinan Pasha, Ottoman vizier and commander under Selim II; led the conquest of Tunis in 982/1574 with Qilij Ali, then the great Yemen expedition — entering Mecca and Jazan, relieving the governor of Taiz, routing the Zaydis at Mount al-Aghbar and preparing the Aden expedition."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/dib-r-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q192123)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q717115
+provenance:
+  layer: own-research
+  source: "الصلابي، الدولة العثمانية — فتح تونس ص285، حملة اليمن ص286-287"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch12
+status:
+  review: published
+  completeness: 3

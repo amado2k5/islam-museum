@@ -1,0 +1,29 @@
+id: person/sehabi
+class: person
+label:
+  ar: "سهابي"
+  en: "Sehabi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لسهابي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sehabi, the Ottoman writer d. 1564; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1604", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80053)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136099397
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0093
+status:
+  review: draft
+  completeness: 1

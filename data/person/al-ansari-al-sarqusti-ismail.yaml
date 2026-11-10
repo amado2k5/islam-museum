@@ -1,0 +1,30 @@
+id: person/al-ansari-al-sarqusti-ismail
+class: person
+label: { ar: "الأنصاري السرقسطي إسماعيل بن خلف", en: "Al-Ansari al-Saraqusti, Isma'il ibn Khalaf" }
+names:
+  - { kind: full, lang: ar, value: "أبو طاهر إسماعيل بن خلف بن سعيد الأنصاري السرقسطي" }
+gender: male
+roles: [scholar, poet]
+traditions: [sunni]
+died: { edtf: "1062", hijri: "0455", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مقرئ ونحوي وأديب من سرقسطة في الأندلس، انتقل إلى مصر وأقام فيها."
+  en: "A reciter, grammarian and man of letters from Zaragoza in al-Andalus, who moved to Egypt and settled there."
+wings: [people]
+themes: [scripture-and-its-sciences, linguistics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 صscholar"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+relations:
+  - { type: traveled_to, target: place/misr, note: "From text: moved to Egypt", sources: [source/mawsuat-a3lam-ulama-adaba] }

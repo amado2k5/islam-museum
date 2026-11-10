@@ -1,4 +1,10 @@
 id: person/abu-salama
+education:
+  did_you_know:
+    ar: "أبو سلمة عبد الله بن عبد الأسد من أوائل المسلمين في الدعوة السرية، وكان من رضاعة النبي إذ أرضعته ثويبة."
+    en: "Abu Salama was among the first Muslims of the secret call and the Prophet's foster-kin, suckled by Thuwayba."
+    ur: "ابو سلمہ عبداللہ بن عبدالاسد دعوتِ خفی کے اولین مسلمانوں میں سے اور نبی کے رضاعی بھائی — ثويبہ نے انہیں دودھ پلایا۔"
+    sources: [source/tabaqat-ibn-sad, source/mubarakpuri-raheeq]
 class: person
 label: { en: "Abu Salama (Abdullah ibn Abd al-Asad)", ar: "أبو سلمة بن عبد الأسد" }
 names:
@@ -17,8 +23,18 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
+  - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+external_ids: { wikidata: "Q335355" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
+provenance:
+  layer: own-research
+  source: "al-Mubarakpuri, al-Raheeq al-Makhtum pp. 55, 75-76 (al-Mas'udi material on Abu Salama al-Khallal moved to person/abu-salama-al-khallal, 31 Oct 2026)"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"

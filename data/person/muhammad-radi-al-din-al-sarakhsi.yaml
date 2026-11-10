@@ -1,0 +1,31 @@
+id: person/muhammad-radi-al-din-al-sarakhsi
+class: person
+label: { ar: "محمد بن محمد بن محمد، رضي الدين السرخسي", en: "Muhammad ibn Muhammad ibn Muhammad, Radi al-Din al-Sarakhsi" }
+roles: [jurist, scholar]
+traditions: [sunni]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+gender: male
+wings: [people]
+summary:
+  ar: "محمد بن محمد بن محمد، رضي الدين وبرهان الإسلام السرخسي، فقيه وأصولي حنفي، إمام كبير جامع للعلوم العقلية والنقلية، قدم حلب ودرّس بالنورية والحلاوية بعد محمود الغزنوي، فتعصب عليه جماعة ونسبوه إلى التقصير فانعزل عن التدريس وسار إلى دمشق، فتولى تدريس الحانوتية بها، وتوفي فيها. من تصانيفه «المحيط الكبير» و«المحيط الثاني» و«المحيط الثالث» و«المحيط الرابع». توفي سنة 771هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2062}"
+  en: "Muhammad ibn Muhammad ibn Muhammad, Radi al-Din and Burhan al-Islam al-Sarakhsi, a Hanafi jurist and usuli, a great imam who combined the rational and transmitted sciences. He came to Aleppo and taught at the Nuriyya and Halawiyya after Mahmud al-Ghaznawi, but a group turned against him and charged him with negligence, so he left teaching and went to Damascus, where he taught at the Hanutiyya and died. His works include the four 'Muhit' volumes. He died in 771 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2062}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2062"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+died: { edtf: "1149", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi al-Wafa (al-Jawahir al-Mudiyya)" }
+relations:
+  - { type: lived_in, target: place/sarakhs, confidence: low, note: "Association inferred from the nisba 'السرخسي'; specific birthplace or residence is not individually documented.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

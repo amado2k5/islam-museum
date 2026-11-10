@@ -1,0 +1,24 @@
+id: dorar.net
+kind: website
+url: https://dorar.net
+tier: T3
+status: reference-scoped
+allowed_uses:
+- pointer
+- grades
+owner: Dorar hadith and scholarly encyclopaedia (site claims supervision by Alawi
+  bin Abd al-Qadir al-Saqqaf; not independently verified)
+evidence:
+- Methodology page https://dorar.net/article/77 (grades attributed to named scholars;
+  editions listed per book)
+- About 460 Arabic Wikipedia pages link to it
+checks:
+- date: '2026-10-25'
+  type: text comparison, 1 row
+  basis: site text, its own numbering (1272); not a named edition
+  result: matched
+  valid: false
+history:
+- date: '2026-10-25'
+  event: registered as reference (scoped); grades usable with attribution
+retrieved_on: '2026-10-25'

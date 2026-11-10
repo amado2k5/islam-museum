@@ -1,0 +1,29 @@
+id: event/abu-dawud-khurasan-hearings-235
+class: event
+kind: other
+label:
+  ar: "أبو داود في خراسان: قتيبة وابن راهويه قبل ٢٤٠هـ"
+  en: "Abu Dawud in Khurasan: Qutayba and Ibn Rahwayh, before 240/854"
+  ur: "ابو داؤد خراسان میں: قتیبہ اور ابن راہویہ سے سماعت، 240ھ/854ء سے پہلے"
+summary:
+  ar: "سمع أبو داود من قتيبة بن سعيد وإسحاق بن راهويه وطائفة بخراسان {cite:tarikh-islam-dhahabi p. 359}؛ وقال أبو عبد الله الحاكم: كتب بخراسان قبل خروجه إلى العراق في بلده وفي هراة، وقد كتب قديماً بنيسابور ثم رحل بابنه إلى خراسان {cite:tarikh-islam-dhahabi p. 361}. ووقوع سماعه من قتيبة وابن راهويه قبل وفاتيهما في ٢٤٠هـ و٢٣٨هـ يجعل رحلته الخراسانية في الثلاثينات الهجرية من القرن الثالث."
+  en: "Abu Dawud heard Qutayba ibn Sa'id, Ishaq ibn Rahwayh and a circle of others in Khurasan {cite:tarikh-islam-dhahabi p. 359}; and Abu 'Abdallah al-Hakim said he took down hadith in Khurasan before leaving for Iraq, in his own land and at Herat, and that he had written early at Nishapur, later travelling with his son to Khurasan {cite:tarikh-islam-dhahabi p. 361}. Since Qutayba died in 240 and Ibn Rahwayh in 238, these hearings fall in the 230s of the hijra."
+  ur: "ابو داؤد نے خراسان میں قتیبہ بن سعید، اسحاق بن راہویہ اور ایک جماعت سے سماعت کی {cite:tarikh-islam-dhahabi p. 359}؛ اور ابو عبداللہ حاکم کے مطابق انہوں نے عراق جانے سے پہلے خراسان میں، اپنی سرزمین اور ہرات میں حدیث لکھی اور پہلے نیشاپور میں تحریر کی، بعد میں اپنے بیٹے کے ساتھ خراسان روانہ ہوئے {cite:tarikh-islam-dhahabi p. 361}۔ چونکہ قتیبہ 240ھ اور ابن راہویہ 238ھ میں فوت ہوئے، یہ سماعت ہجری صدی کے تیسویں عشرے میں واقع ہوتی ہے۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0850~", hijri: "0235~", calendar: julian, precision: decade, status: tradition, derived: true, note: "سمع من قتيبة وابن راهويه بخراسان {cite:tarikh-islam-dhahabi p. 359}؛ وفاة ابن راهويه ٢٣٨هـ وقتيبة ٢٤٠هـ تحددان السماع قبلهما؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi], note: "كتب قديماً بنيسابور ثم رحل بابنه إلى خراسان {cite:tarikh-islam-dhahabi p. 361}" }
+  - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "السامع", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/qutayba-ibn-said, role: "الشيخ", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ishaq-ibn-rahwayh, role: "الشيخ", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي س.a. 275 طبعة تدمري ص359, 361 (harvest OCR v20 pages 359, 361)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-abu-dawud-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

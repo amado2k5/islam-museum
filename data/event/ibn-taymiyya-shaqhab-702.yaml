@@ -1,0 +1,30 @@
+id: event/ibn-taymiyya-shaqhab-702
+class: event
+kind: battle
+label:
+  ar: "ابن تيمية في نصر شقحب، ٧٠٢هـ/١٣٠٣م"
+  en: "Ibn Taymiyya at the victory of Shaqhab, 702/1303"
+  ur: "ابن تیمیہ اور شقحب کی فتح، 702ھ/1303ء"
+summary:
+  ar: "في الغزو المغولي الجديد سنة ٧٠٢هـ/١٣٠٣م حضر ابن تيمية نصر شقحب يوم ٤ رمضان ٧٠٢هـ/٢٢ أبريل ١٣٠٣م على التتار، وقد كُلّف بإصدار فتوى بجواز الإفطار للمقاتلين. وقبلها في ٧٠٠هـ ساق في البريد إلى القاهرة في جمادى الأولى يحرض الناس على الجهاد ويطلب من السلطان الناصر محمد بن قلاوون التدخل في الشام {cite:encyclopaedia-of-islam-2 vol. 3 p. 983} {cite:shadharat-dhahab p. 429}."
+  en: "During the new Mongol invasion of 702/1303 Ibn Taymiyya was present at the victory of Shaqhab on 4 Ramadan 702/22 April 1303, having been commissioned to issue a fatwa permitting the fighters to break the fast. Before that, in 700, he had ridden the barid post to Cairo in Jumada I, rousing the people to jihad and asking Sultan al-Nasir Muhammad ibn Qalawun to intervene in Syria {cite:encyclopaedia-of-islam-2 vol. 3 p. 983} {cite:shadharat-dhahab p. 429}."
+  ur: "702ھ/1303ء کی نئی منگول یلغار کے موقع پر ابن تیمیہ 4 رمضان 702ھ/22 اپریل 1303ء کو شقحب کی فتح میں موجود تھے، جہاں انہیں لڑنے والوں کے لیے روزہ افطار کی اجازت کا فتوى دینے کا حکم ملا تھا۔ اس سے پہلے 700ھ میں وہ جمادی الاولیٰ میں برید سواری سے قاہرہ گئے، لوگوں کو جہاد پر ابھارتے اور سلطان الناصر محمد بن قلاوون سے شام میں مداخلت کی درخواست کی {cite:encyclopaedia-of-islam-2 vol. 3 p. 983} {cite:shadharat-dhahab p. 429}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - { label: { ar: "الدولة المملوكية" }, participants: [person/al-nasir-muhammad-ibn-qalawun, person/ibn-taymiyya] }
+  - { label: { ar: "التتار" }, participants: [person/ghazan-khan] }
+date:
+  start: { edtf: "1303-04-22", hijri: "0702-09-04", calendar: julian, precision: day, status: historical, derived: true, note: "نصر شقحب ٤ رمضان ٧٠٢هـ/٢٢ أبريل ١٣٠٣م {cite:encyclopaedia-of-islam-2 vol. 3 p. 983}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-taymiyya, role: "المفتي للمقاتلين بالإفطار", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H-Iram), art. Ibn Taymiyya (H. Laoust), PDF p. 983; شذرات الذهب ج5 ص 429 (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-taymiyya-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

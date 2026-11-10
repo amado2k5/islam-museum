@@ -1,0 +1,26 @@
+id: person/abd-al-rahman-ibn-usayla-al-sunabihi
+class: person
+label: { ar: "عبد الرحمن بن عسيلة الصنابحي", en: "Abd al-Rahman ibn Usayla al-Sunabihi" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن عسيلة الصنابحي أبو عبد الله" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء التابعين بمصر، ذكره الشيرازي مع أبي تميم عبد الله بن مالك الجيشاني، وقال إنهما من أصحاب عمر؛ لم يذكر الشيرازي تاريخ وفاته في هذه الصفحات {cite:tabaqat-fuqaha-abbas-1981 p. 41}."
+  en: "One of the jurists among the Successors in Egypt. Al-Shirazi mentioned him together with Abu Tamim Abd Allah ibn Malik al-Jayshani, and said that both were companions of Umar. Al-Shirazi does not give the date of his death on these pages {cite:tabaqat-fuqaha-abbas-1981 p. 41}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+sources: [source/tabaqat-fuqaha-abbas-1981, source/ibn-hajar-isaba]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
+status: { review: draft, completeness: 3, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; no dates on the page " }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/ibn-hajar-isaba]
+died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: Abu Abd Allah al-Sunabihi" }
+relations:
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981, source/ibn-hajar-isaba], confidence: low }

@@ -1,0 +1,15 @@
+id: passage/muslim-2581
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2581"
+label: { ar: "مسلم 2581 — أتدرون ما المفلس", en: "Muslim 2581 — Do you know who the bankrupt one is?" }
+text: "قال رسول الله: «أتدرون ما المفلس؟» قالوا: المفلس فينا من لا درهم له ولا متاع؛ فقال: «إن المفلس من أمتي يأتي يوم القيامة بصلاة وصيام وزكاة، ويأتي قد شتم هذا وقذف هذا وأكل مال هذا وسفك دم هذا وضرب هذا، فيعطى هذا من حسناته وهذا من حسناته، فإن فنيت حسناته قبل أن يقضى ما عليه أخذ من خطاياهم فطرحت عليه ثم طرح في النار»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ المفلس الحقيقي من يأتي بالأعمال وقد أتلف حقوق الناس — من أشهر نصوص الحساب يوم القيامة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة (طبعة دار التأصيل، الحديث 6745؛ ترقيم عبد الباقي المعروف 2581)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

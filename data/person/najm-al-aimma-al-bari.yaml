@@ -1,0 +1,33 @@
+id: person/najm-al-aimma-al-bari
+class: person
+label: { ar: "نجم الأئمة البارعي", en: "Najm al-A'imma al-Bari'i" }
+summary:
+  ar: "نجم الأئمة البارعي، ويلقب بذلك لمن برع في نوع من العلم، كان إماما فاضلا فقيها واعظا. توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7164}"
+  en: "Najm al-A'imma al-Bari'i: a learned jurist and preacher, whose title Bari' (excelling) is given to one who excels in a field of learning. He died at Jurjaniyya in Khwarazm in 645 AH, according to the book. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.7164}"
+wings: [people]
+roles: [jurist, scholar]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+themes: [law-and-courts]
+born: { edtf: "1150~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+died: { edtf: "1200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+relations:
+  - { type: died_in, target: place/jurjan, sources: [source/wikidata], confidence: low, note: "توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب." }
+  - { type: died_in, target: place/khwarizm, sources: [source/wikidata], confidence: low, note: "توفي بجرجانية خوارزم سنة خمس وأربعين وستمائة بحسب الكتاب." }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء (ص 7164 من المسح)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: mawsua-w04-batch34
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Haiku 5.5; biography read on OCR text of scan page 7164; dates as printed in the book, not checked; page images absent."
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

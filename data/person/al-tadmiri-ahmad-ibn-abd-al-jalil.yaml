@@ -1,0 +1,36 @@
+id: person/al-tadmiri-ahmad-ibn-abd-al-jalil
+class: person
+label: { ar: "التدميري أحمد بن عبد الجليل", en: "Al-Tadmiri, Ahmad ibn Abd al-Jalil" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس أحمد بن عبد الجليل بن عبد الله التدميري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1160", hijri: "0555", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل تدمير شرقي قرطبة في الأندلس."
+  en: "From Tudmir, east of Cordoba in al-Andalus."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص434"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch54
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/cordoba, note: "From text: من أهل تدمير شرقي قرطبة في الأند", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -3,7 +3,8 @@ import { repoPath } from "./paths";
 import { parse } from "yaml";
 import { byId, edgesFrom, href, labelOf, summaryOf, SITE } from "./graph";
 import type { Node } from "../../../scripts/build-graph";
-import type { Lang } from "./i18n";
+import { fmt, type Lang, ui } from "./i18n";
+import { a11yLd } from "./a11y";
 
 const predicates: Record<string, any> = parse(readFileSync(repoPath("schema", "predicates.yaml"), "utf8"));
 const idPatterns: Record<string, { url: string }> = parse(readFileSync(repoPath("schema", "external-id-patterns.yaml"), "utf8"));
@@ -11,7 +12,7 @@ const traditions: any[] = parse(readFileSync(repoPath("schema", "enums", "tradit
 const regions: any[] = parse(readFileSync(repoPath("schema", "enums", "regions.yaml"), "utf8"));
 
 export const traditionLabel = (id: string, lang: Lang) => traditions.find((t) => t.id === id)?.label[lang] ?? id;
-export const regionLabel = (id: string, lang: Lang) => regions.find((r) => r.id === id)?.label[lang] ?? id;
+export const regionLabel = (id: string, lang: Lang) => { const l = regions.find((r) => r.id === id)?.label; return l?.[lang] ?? l?.en ?? l?.ar ?? id; };
 export const externalUrl = (key: string, id: string) => idPatterns[key]?.url.replace("{id}", id);
 
 /** Section role by heading (so the depth dial works in every language). */
@@ -20,6 +21,20 @@ const SCHOLARS = ["Notes for scholars", "ملاحظات للباحثين"];
 const BRIEF = ["Brief", "نبذة"];
 export const sectionRole = (h: string): "brief" | "main" | "kids" | "scholars" =>
   BRIEF.includes(h) ? "brief" : KIDS.includes(h) ? "kids" : SCHOLARS.includes(h) ? "scholars" : "main";
+
+// Leveled reading (edu/levels.yaml, docs/delegation/education-master-plan.md §5 E2): the fixed headings per language
+// that mark a Sprouts, Explorers or Scholars section inside the prose file; the validator enforces the same file.
+export interface Level { id: string; band: string; child: boolean; max_words: number; heading: Record<string, string> }
+export const levels: Level[] = parse(readFileSync(repoPath("edu", "levels.yaml"), "utf8")).levels;
+if (levels.length !== 3) throw new Error(`edu/levels.yaml: expected 3 levels, found ${levels.length}`);
+export const levelOf = (heading: string, lang: string): Level | null => levels.find((l) => l.heading[lang] === heading) ?? null;
+/** Child-level markdown for the kids' chrome: links become plain labels (bridge cards are the only doors out), citations go. */
+export function plainChildMarkdown(md: string, lang: Lang): string {
+  return md
+    .replace(/\[\[([a-z]+\/[a-z0-9-]+)\|([^\]]*)\]\]/g, "$2")
+    .replace(/\[\[([a-z]+\/[a-z0-9-]+)\]\]/g, (_m, id: string) => { const n = byId.get(id); return n ? labelOf(n, lang) : id.split("/")[1]; })
+    .replace(/\{cite:[^}]*\}/g, "");
+}
 
 export interface Group { type: string; label: string; items: { node: Node; edge: any }[] }
 
@@ -52,13 +67,32 @@ export function placesOf(id: string) {
 const SCHEMA_TYPE: Record<string, string> = {
   person: "Person", group: "Organization", polity: "Organization", event: "Event", period: "Event", journey: "Event",
   place: "Place", building: "Place", object: "VisualArtwork", media: "MediaObject", work: "CreativeWork", passage: "CreativeWork",
-  concept: "DefinedTerm", language: "Language", practice: "Event", exhibit: "CreativeWork", question: "Question", source: "CreativeWork", dataset: "Dataset", listing: "Organization", screen: "CreativeWork",
+  concept: "DefinedTerm", language: "Language", practice: "DefinedTerm", exhibit: "CreativeWork", question: "Question", source: "CreativeWork", dataset: "Dataset", listing: "Organization", screen: "CreativeWork",
 };
 
 const iso = (d: any): string | undefined => {
   const e: string | undefined = d?.edtf;
   return e && /^-?\d{4}(-\d{2}(-\d{2})?)?$/.test(e) ? e : undefined;
 };
+
+/**
+ * PostalAddress built only from what the place's own record attests: the
+ * place itself as locality and its first registered region as region.
+ * Historical places carry no street address and no modern country field,
+ * so none is emitted — an invented address would be worse than a partial
+ * one, but locality + region is real data and satisfies the Event
+ * structured-data requirement for location.address.
+ */
+export function postalAddressOf(place: Node, lang: Lang) {
+  const region = place.regions?.[0];
+  const regionEntry = region ? regions.find((r: any) => r.id === region) : undefined;
+  const regionName = regionEntry?.label?.[lang] ?? regionEntry?.label?.en ?? regionEntry?.label?.ar;
+  return {
+    "@type": "PostalAddress",
+    addressLocality: labelOf(place, lang),
+    ...(regionName ? { addressRegion: regionName } : {}),
+  };
+}
 
 export function jsonLd(n: Node, lang: Lang, path: string) {
   const d = n.data;
@@ -70,7 +104,7 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     url: `${SITE}${path}`,
     name: labelOf(n, lang),
     alternateName: Object.entries(n.label).filter(([l]) => l !== lang).map(([, v]) => v),
-    description: summaryOf(n, lang),
+    description: summaryOf(n, lang) || (n.stub ? fmt(ui(lang).entity.stub_desc, { label: labelOf(n, lang) }) : ""),
     inLanguage: lang,
     ...(sameAs.length ? { sameAs } : {}),
     license: "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -91,9 +125,50 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     ld.name = labelOf(n, lang);
     ld.alternateName = (d.titles ?? []).map((t: any) => t.value);
   }
-  if (n.class === "event") { ld.startDate = iso(d.date?.start); ld.endDate = iso(d.date?.end); }
-  if (n.class === "place" && n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
-  return JSON.parse(JSON.stringify(ld));
+  if ((SCHEMA_TYPE[n.class] ?? "Thing") === "Event") {
+    // Events, periods and journeys share the Event type. Emit every date the
+    // record actually carries — events keep theirs under data.date, periods
+    // use top-level start/end, journeys carry dates on their legs — and a
+    // location whenever the graph ties the item to a place (a journey falls
+    // back to its first waypoint/departure). Search engines flag a missing
+    // startDate or location as a critical structured-data error; both are
+    // often present in the data, just under class-specific shapes.
+    ld.startDate = iso(d.date?.start) ?? iso(d.start);
+    ld.endDate = iso(d.date?.end) ?? iso(d.end);
+    if (n.class === "journey") {
+      const legs = Array.isArray(d.legs) ? d.legs : [];
+      if (!ld.startDate) for (const l of legs) { const s = iso(l?.start); if (s) { ld.startDate = s; break; } }
+      if (!ld.endDate) for (let i = legs.length - 1; i >= 0; i--) { const e = iso(legs[i]?.end); if (e) { ld.endDate = e; break; } }
+    }
+    let place = placesOf(n.id)[0];
+    if (!place && n.class === "journey") {
+      const wp = (Array.isArray(d.waypoints) ? d.waypoints : []).map((w: any) => byId.get(w?.place)).find(Boolean);
+      const lg = (Array.isArray(d.legs) ? d.legs : []).map((l: any) => byId.get(l?.from)).find(Boolean);
+      place = wp ?? lg;
+    }
+    if (place) {
+      ld.location = { "@type": "Place", name: labelOf(place, lang), address: postalAddressOf(place, lang), ...(place.coordinates ? { geo: { "@type": "GeoCoordinates", latitude: place.coordinates[0], longitude: place.coordinates[1] } } : {}) };
+    }
+  }
+  if (n.class === "place") {
+    ld.address = postalAddressOf(n, lang);
+    if (n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
+  }
+  ld.mainEntityOfPage = `${SITE}${path}`;
+  // Accessibility is a property of the page (a CreativeWork), not of the subject (Person, Place…):
+  // a second JSON-LD node describes the article and points back at the entity node.
+  const page = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${SITE}${path}`,
+    url: `${SITE}${path}`,
+    name: labelOf(n, lang),
+    inLanguage: lang,
+    isPartOf: { "@type": "WebSite", name: "islam.museum", url: SITE },
+    about: { "@id": `${SITE}${path}` },
+    ...a11yLd(lang),
+  };
+  return JSON.parse(JSON.stringify([ld, page]));
 }
 
 // ---- themes (docs/plan/14) ----

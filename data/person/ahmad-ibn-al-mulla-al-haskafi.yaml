@@ -1,0 +1,31 @@
+id: person/ahmad-ibn-al-mulla-al-haskafi
+class: person
+label:
+  ar: "أحمد بن الملا الحسكفي"
+  en: "Ahmad ibn al-Mulla al-Haskafi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن الملا الحسكفي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn al-Mulla al-Haskafi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q122842127
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1531", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Burayni (Tarikh); al-Muhibbi" }
+died: { edtf: "1595", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Burayni (Tarikh); al-Muhibbi" }
+relations:
+  - { type: born_in, target: place/aleppo, note: "Wikidata Q41183 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/aleppo, note: "Wikidata Q41183 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

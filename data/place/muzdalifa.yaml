@@ -1,0 +1,20 @@
+id: place/muzdalifa
+class: place
+kind: site
+label: { ar: "المزدلفة", en: "Muzdalifa" }
+summary:
+  ar: "موضع بين عرفة ومنى، يبيت فيه الحجاج ليلة النحر."
+  en: "A place between Arafat and Mina, where pilgrims spend the night of the sacrifice (laylat al-nahr)."
+regions: [arabia]
+wings: [place]
+coordinates: [21.36787, 39.94262]
+coordinate_precision: locality
+external_ids: { wikidata: "Q1788735", geonames: "410077" }
+sources: [source/geonames-gazetteer]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c", source: "Provenance added by the geo-enrichment pass; the record predates the lane and its original extraction details are not recorded." }

@@ -1,0 +1,31 @@
+id: person/abd-al-jabbar-al-jumurd
+class: person
+label: { ar: "عبد الجبار الجومرد", en: "Abd al-Jabbar al-Jumurd" }
+names:
+  - { kind: full, lang: ar, value: "عبد الجبار بن محمد شيت الجومرد" }
+gender: male
+roles: [historian]
+traditions: [sunni]
+born: { edtf: "1909", hijri: "1328", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1971", hijri: "1390", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ عراقي من مواليد الموصل، نشأ في بيت علم."
+  en: "An Iraqi historian born in Mosul in 1909, raised in a learned household."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص563"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+relations:
+  - { type: born_in, target: place/mosul, note: "From text: born in Mosul", sources: [source/mawsuat-a3lam-ulama-adaba] }

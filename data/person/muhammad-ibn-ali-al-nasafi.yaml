@@ -1,0 +1,28 @@
+id: person/muhammad-ibn-ali-al-nasafi
+class: person
+label:
+  ar: "محمد بن علي النسفي"
+  en: "Muhammad ibn Ali al-Nasafi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن علي النسفي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Ali al-Nasafi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q113247842
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1033", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
+relations:
+  - { type: lived_in, target: place/nasaf, confidence: low, note: "Association inferred from the nisba 'النسفي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

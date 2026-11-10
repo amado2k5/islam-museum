@@ -1,0 +1,28 @@
+id: person/muhammad-ibn-hamza-aydini
+class: person
+label:
+  ar: "محمد بن حمزة آيديني"
+  en: "Muhammad ibn Hamza Aydini"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن حمزة آيديني؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Hamza Aydini, the Ottoman writer (mufti and theologian, d. 1706); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136121688
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0094
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi / al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/aydin, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad ibn Hamza Aydini'; specific residence not individually documented.", sources: [source/al-aalam] }

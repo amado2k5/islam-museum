@@ -1,0 +1,22 @@
+id: person/muslim-sahib-al-mushaf
+class: person
+label: { ar: "مسلم صاحب المصحف", en: "Muslim, the mushaf-bearer" }
+summary:
+  ar: "رجل من أصحاب علي بعثه إلى أهل الجمل معه مصحف يدعوهم إلى الله فرموه بسهم فقتلوه فحمل إلى علي وقالت أمه يا رب إن مسلماً أتاهم يتلو كتاب الله لا يخشاهم {cite:muruj-al-dhahab p. 654-655}."
+  en: "Ali's envoy bearing the codex to the Camel camp, shot dead mid-call — his mother's lament preserved: 'a Muslim came to them reciting God's book, fearing them not' {cite:muruj-al-dhahab p. 654-655}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 654–655"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+born: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir (al-Bidaya wa-l-Nihaya)" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Kathir (al-Bidaya wa-l-Nihaya)" }
+relations:
+  - { type: died_in, target: place/al-khurayba, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,34 @@
+id: person/dhu-nuwas
+education:
+  did_you_know:
+    ar: "ذو نواس آخر ملوك حمير قبل الاحتلال الحبشي الثاني؛ تهوّد وقاد حملته على نصارى نجران فخدّ لهم الأخدود — ما يذكره القرآن بقصة أصحاب الأخدود."
+    en: "Dhu Nuwas, Himyar's last king before the second Abyssinian occupation, embraced Judaism and drove his campaign on Najran's Christians, digging them the trench of fire — the story the Qur'an recalls as the People of the Trench."
+    ur: "ذونواس، دوسرے حبشی قبضے سے پہلے حمیئر کا آخری بادشاہ، یہودی ہوا اور نجران کے مسیحیوں پر مہم چلا کر ان کے لیے آگ کا خندق کھدوایا — وہی کہانی جو قرآن اصحابِ اخدود میں بیان کرتا ہے۔"
+    sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
+class: person
+label: { en: "Dhu Nuwas (Yusuf Asʾar Yathʾar)", ar: "ذو نواس" }
+gender: male
+roles: []
+faith: [{ value: jewish, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The last Himyarite king before the second Abyssinian occupation: a convert to Judaism who in October 523 tried to force the Christians of Najran to apostatize and, on their refusal, dug the trench of fire — the event the Quran recalls in Surat al-Buruj."
+  ar: "آخر ملوك حمير قبل الاحتلال الحبشي الثاني: تهوّد وقاد سنة 523م حملة على نصارى نجران ليصرفهم عن دينهم قسراً، فلما أبوا خدّ لهم الأخدود وألقاهم في النيران — ما يذكره القرآن في سورة البروج."
+wings: [people]
+themes: [wars-and-campaigns, islam-and-christianity]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: persecutor, toward: group/christians-of-najran, status: scriptural, note: "أصحاب الأخدود في سورة البروج.", sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }
+died: { edtf: "525", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam" }
+relations:
+  - { type: ruler_of, target: place/yemen, end: { edtf: "0525" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/himyar }
+  - { type: participated_in, target: event/massacre-of-najran, role: "القائد الذي خدّ الأخدود وأحرقهم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+provenance:
+  layer: own-research
+  source: "source/muruj-al-dhahab"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch15"

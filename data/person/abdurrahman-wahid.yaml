@@ -1,0 +1,49 @@
+id: person/abdurrahman-wahid
+class: person
+label: { ar: "عبد الرحمن وحيد", en: "Abdurrahman Wahid", ur: "عبدالرحمن واحد" }
+names:
+  - { value: "Abdurrahman ad-Dakhil", kind: full }
+  - { value: "Abdurrahman Wahid", kind: full }
+  - { value: "عبد الرحمن وحيد", kind: full }
+  - { value: "Gus Dur", kind: alternate }
+gender: male
+summary:
+  ar: "عالم مسلم وسياسي إندونيسي، وُلد في جومبانغ بجاوة الشرقية سنة 1940، وهو ابن وحيد هاشم وحفيد هاشم أشعري مؤسس نهضة العلماء. ترأّس نهضة العلماء من 1984 إلى 1999، وأسّس حزب نهضة الوطن، وكان رئيس إندونيسيا الرابع من 1999 إلى 2001، وأول رئيس منتخب بعد سقوط سوهارتو. عُرف بدفاعه عن التعددية وحقوق الأقليات، وبحياة تعبّدية صوفية شخصية محورها زيارة قبور أولياء جاوة."
+  en: "Indonesian Muslim scholar and statesman, born in Jombang, East Java, in 1940, the son of Wahid Hasyim and grandson of Hasyim Asy'ari, founder of Nahdlatul Ulama. He chaired Nahdlatul Ulama from 1984 to 1999, founded the National Awakening Party (PKB), and served as Indonesia's fourth president from 1999 to 2001, the first elected after the fall of Suharto. He was known for defending pluralism and the rights of minorities, and for a personal Sufi devotional life centred on pilgrimage to the tombs of Java's saints."
+  ur: "انڈونیشی مسلمان عالم اور سیاست دان، جو 1940ء میں مشرقی جاوا کے جومبانگ میں پیدا ہوئے؛ وحید ہاشم کے بیٹے اور نهضة العلماء کے بانی ہاشم اشعری کے پوتے تھے۔ 1984ء سے 1999ء تک نهضة العلماء کے صدر رہے، نیشنل اویکننگ پارٹی قائم کی، اور 1999ء سے 2001ء تک انڈونیشیا کے چوتھے صدر رہے — سوہارتو کے زوال کے بعد پہلے منتخب صدر۔ وہ تکثیریت اور اقلیتوں کے حقوق کے دفاع، اور جاوا کے اولیا کے مزارات کی زیارت پر مرکوز اپنی ذاتی صوفیانہ عبادتی زندگی کے لیے مشہور تھے۔"
+roles: [scholar, politician]
+wings: [people]
+regions: [southeast-asia]
+born:
+  edtf: "1940-09-07"
+  hijri: "1359"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Denanyar, Jombang, East Java, on 7 September 1940, as the English article's infobox, the Arabic and Urdu articles and the generality of sources give. The English article records that he was born on the fourth day of Sha'ban, the eighth month of the Islamic calendar, in 1940: 4 Sha'ban 1359, which the tabular calendar equates with 7 September 1940. Mapping 'fourth day of the eighth month' onto the Gregorian calendar produced the variant 4 August 1940 that Wikidata carries as a second birth value; the September date is carried, with the variant explained rather than suppressed. No place entity exists for Jombang, so no born_in relation is written. The Hijri year (1359) is by tabular conversion of the carried date."
+  sources: [source/wikipedia-abdurrahman-wahid-en, source/wikipedia-abdurrahman-wahid-ar, source/wikipedia-abdurrahman-wahid-ur, source/wikidata-abdurrahman-wahid]
+died:
+  edtf: "2009-12-30"
+  hijri: "1431"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 30 December 2009 at the Cipto Mangunkusumo Hospital in Jakarta, and was buried in the family cemetery at Tebuireng, Jombang; no place entity exists for Tebuireng or Jombang, so no buried_in relation is written. The Hijri year (1431) is by tabular conversion."
+  sources: [source/wikipedia-abdurrahman-wahid-en, source/wikipedia-abdurrahman-wahid-ar, source/wikipedia-abdurrahman-wahid-ur, source/wikidata-abdurrahman-wahid]
+relations:
+  - { type: died_in, target: place/jakarta, sources: [source/wikipedia-abdurrahman-wahid-en, source/wikidata-abdurrahman-wahid] }
+faith:
+  - value: sufi
+    basis: documented
+    note: "Settled on his own attested practice, not on office or descent. The Jakarta Post (29 April 2001) reported as his 'customary rite' and lifelong habit his pilgrimage to the tombs of saints and elders, seeking spiritual guidance there, a habit he kept up throughout his presidency; Theodore Friend's obituary essay (FPRI E-Notes, January 2010) characterises him personally as a 'Sufi sage and mystic' whose life offers abundant clues 'for anyone who would understand modern Sufism'. Two independent sources thus attest the man himself, and the value is recorded as sufi. What is NOT relied on: his chairmanship of Nahdlatul Ulama (1984-1999) is office and never counts; his descent from NU's founder is family background; his teaching of Ibn Ata Allah's Kitab al-Hikam at Pesantren Tambakberas in 1975 is teaching a subject, which never counts alone; and Wikidata's structured value is Sunni Islam (Q483654), a different claim that is not counted toward this settlement. No source read names a formal order (tariqa) enrolment for him personally: the settlement rests on attested practice and characterisation, and it is flagged in the batch report for the founder."
+    sources: [source/wikipedia-abdurrahman-wahid-en, source/wikidata-abdurrahman-wahid, source/jakarta-post-2001-gus-dur-guidance, source/fpri-2010-friend-wahid]
+external_ids: { wikidata: "Q76167" }
+sources: [source/wikipedia-abdurrahman-wahid-en, source/wikipedia-abdurrahman-wahid-ar, source/wikipedia-abdurrahman-wahid-ur, source/wikidata-abdurrahman-wahid, source/jakarta-post-2001-gus-dur-guidance, source/fpri-2010-friend-wahid]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Abdurrahman Wahid' (revision 1382584988 of 29 October 2026), Arabic Wikipedia «عبد الرحمن وحيد» (revision 75250128 of 9 June 2026), Urdu Wikipedia «عبدالرحمن واحد» (revision 11804404 of 19 August 2026) and Wikidata item Q76167 (item revision 2557345334 of 15 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, the recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through an independent Wikidata search (wbsearchentities, first hit: '4th President of the Republic of Indonesia (1940-2009)'). The Jakarta Post report 'Gus Dur seeks higher guidance' (29 April 2001) and Theodore Friend's FPRI E-Note of January 2010 were read in full on 31 October 2026 for the faith settlement. Existence checked both directions before building: name fragments (Wahid, Abdurrahman, Gus Dur) and Q76167 grepped across all data/person files on origin/main — no record of him exists; the only 'Abdurrahman Wahid' hit was prose inside his father's record, wahid-hasyim, which carries no parent_of edge to him. The father-son pair is therefore carried in prose only: the lane writes a parent/child pair once, in the parent's record, and that record is outside this batch. No born_in or buried_in edge is written: Jombang and Tebuireng have no place entities. No succession edges are written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-120
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

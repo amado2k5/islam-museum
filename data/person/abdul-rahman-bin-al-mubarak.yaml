@@ -1,0 +1,29 @@
+id: person/abdul-rahman-bin-al-mubarak
+class: person
+label:
+  ar: "عبد الرحمن بن المبارك"
+  en: "Abdul Rahman bin Al Mubarak"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحمن بن المبارك؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abdul Rahman bin Al Mubarak; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q65554090
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tazkirat Ulama Najd" }
+died: { edtf: "2001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tazkirat Ulama Najd" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

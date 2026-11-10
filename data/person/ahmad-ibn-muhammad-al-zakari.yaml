@@ -1,0 +1,28 @@
+id: person/ahmad-ibn-muhammad-al-zakari
+class: person
+label:
+  ar: "أحمد بن محمد الزكاري"
+  en: "Ahmad ibn Muhammad al-Zakari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن محمد الزكاري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Muhammad al-Zakari; the entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/modern-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q130297829
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1494", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

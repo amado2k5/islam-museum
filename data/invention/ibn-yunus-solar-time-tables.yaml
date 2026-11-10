@@ -1,0 +1,86 @@
+id: invention/ibn-yunus-solar-time-tables
+class: invention
+label: { ar: "حساب الوقت الشمسي في جداول ابن يونس القاهرية", en: "Ibn Yunus's Cairo solar-time table contribution", ur: "قاہری شمسی وقت کے جدول میں ابن یونس کی خدمت" }
+names:
+  - { kind: alternate, lang: en, value: "Tabular timekeeping from solar altitude and longitude" }
+summary:
+  ar: "مساهمة في جداول كروية لحساب الوقت من ارتفاع الشمس وموضعها؛ المجموعة الباقية تشمل إضافات لاحقة فلا تنسب كلها إليه {cite:ibn-yunus-king-bea timekeeping corpus}."
+  en: "Contribution to spherical tables deriving time from solar altitude and position; the surviving corpus includes later additions and is not wholly his {cite:ibn-yunus-king-bea timekeeping corpus}."
+  ur: "شمسی ارتفاع و مقام سے وقت نکالنے والے کروی جدول میں حصہ؛ محفوظ مجموعے کے بعد کے اضافے سب ان کے نہیں {cite:ibn-yunus-king-bea timekeeping corpus}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [egypt-nile]
+periods: [period/abbasid-fragmentation]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "../1009"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest lifetime bound for Ibn Yunus's contribution only, not a composition year or date of13th/14th-century corpus additions. Original399AH/1009 maker date preserved; no guessed Hijri endpoint conversion."
+    sources: [source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer]
+  status_today: transformed
+origin:
+  place: place/misr
+  context:
+    ar: "تراث جداول قاهري مع سياق نشاط ابن يونس في الفسطاط؛ لا مرصد مجهز أو موضع تأليف معين مثبت {cite:ibn-yunus-king-bea biography and corpus}."
+    en: "Cairo corpus with Ibn Yunus's Fustat career context; no proven equipped observatory or specific composition site {cite:ibn-yunus-king-bea biography and corpus}."
+    ur: "قاہری مجموعہ اور فسطاط کی علمی زندگی؛ مجهز رصدگاہ یا عین جائے تصنیف ثابت نہیں {cite:ibn-yunus-king-bea biography and corpus}۔"
+makers:
+  - person: person/ali-ibn-yunus-al-munajjim
+    role: improver
+    note: "Individually named Islamic mathematician in MacTutor; separate default Sunni frame, not patron-based sect inference. Contributor, not sole later-corpus author."
+    sources: [source/ibn-yunus-mactutor, source/ibn-yunus-king-bea]
+attribution:
+  status: improvement
+  claim:
+    ar: "مساهمة في تحويل مسائل الوقت الشمسي الكروية إلى أداة جدولية."
+    en: "Contribution to tabulating spherical solar-time problems."
+    ur: "کروی شمسی وقت کے مسائل کو جدول میں رکھنے کی خدمت۔"
+  basis:
+    ar: "يفصل كينغ الجداول الرئيسية من الإضافات اللاحقة ويصرح بصعوبة تعيين نصيب المؤلف في كل جزء {cite:ibn-yunus-king-bea timekeeping corpus}."
+    en: "King distinguishes main tables and later additions and explicitly notes difficulty assigning the author's share in every part {cite:ibn-yunus-king-bea timekeeping corpus}."
+    ur: "کنگ مرکزی جدول و بعد کے اضافے الگ کرتے اور ہر حصے میں مصنف کا نصیب متعین کرنا مشکل کہتے ہیں {cite:ibn-yunus-king-bea timekeeping corpus}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الهندسة الفلكية الكروية وحساب الوقت السابق", en: "Earlier spherical astronomy and time reckoning", ur: "سابق کروی فلک اور حساب وقت" }
+    note: "Earlier geometry/timekeeping, not an unproved direct dependency on any one prior invention record."
+    sources: [source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "حساب بوسيطين للوقت والسمت بدلاً من مساواة الارتفاع بالساعات خطياً {cite:ibn-yunus-king-bea main timekeeping tables}."
+    en: "Two-argument lookup for time and azimuth, not a linear equation of altitude with hours {cite:ibn-yunus-king-bea main timekeeping tables}."
+    ur: "وقت و سمت کی دو متغیری تلاش، ارتفاع کو گھنٹے سے خطی برابر رکھنا نہیں {cite:ibn-yunus-king-bea main timekeeping tables}۔"
+  history:
+    ar: "يذكر كينغ استعمال التراث حتى القرن التاسع عشر وتأثيره في جداول يمنية وشامية؛ وصف تاريخي لا إحصاء مستقل لكل نسخة {cite:ibn-yunus-king-bea corpus reception}."
+    en: "King reports use into the nineteenth century and inspiration for Yemeni/Syrian tables; historical account, not an independent census of every copy {cite:ibn-yunus-king-bea corpus reception}."
+    ur: "کنگ انیسویں صدی تک استعمال اور یمنی و شامی جدول کی تحریک بتاتے؛ ہر نقل کی آزاد گنتی نہیں {cite:ibn-yunus-king-bea corpus reception}۔"
+  significance: 3
+  why: "Defined two-argument spherical timekeeping contribution, authorship layers explicit; no pendulum priority, invented original cells or sole authorship of entire corpus."
+described_in: [work/cairo-solar-time-corpus]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "درس حسابي ورقي يميز الوقت الشمسي المحلي من الساعة المدنية؛ لا جدول صلاة معتمد أو رصد شمسي مطلوب."
+    en: "Paper calculation distinguishing local solar time from civil clocks; not an approved prayer timetable or solar-observation task."
+    ur: "کاغذی حساب مقامی شمسی وقت اور شہری گھڑی الگ کرتا؛ مستند نماز جدول یا شمسی رصد کا کام نہیں۔"
+  descendants:
+    ar: "لا نسب حديث مباشر مخمن؛ الصورة مثلث مستو حديث لا تمثيل كامل للقبة السماوية {cite:commons-trigonometry-triangle Description}."
+    en: "No guessed direct modern genealogy; image is a modern plane triangle, not a complete celestial-sphere model {cite:commons-trigonometry-triangle Description}."
+    ur: "جدید براہ راست نسب کا قیاس نہیں؛ تصویر جدید مسطح مثلث، پورا سماوی کرہ نہیں {cite:commons-trigonometry-triangle Description}۔"
+media: { image: media/taqi-modern-triangle, diagram: media/diagram-ibn-yunus-solar-time }
+kids:
+  ar: "الوقت نفسه قد يعطي ارتفاعاً شمسياً مختلفاً باختلاف المكان والموسم؛ اقرأ نموذجاً على الورق ولا تنظر إلى الشمس."
+  en: "The same time can give different solar altitudes at different places and seasons. Read a paper model; never look at the Sun."
+  ur: "ایک وقت میں مقام و موسم بدلنے سے شمسی ارتفاع بدلتا ہے۔ کاغذ کا نمونہ پڑھیں؛ سورج نہ دیکھیں۔"
+sources: [source/ibn-yunus-king-bea, source/tdv-ibn-yunus-dizer, source/ibn-yunus-mactutor, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b58", source: "Actual complete King/Dizer/MacTutor; mixed corpus authorship explicit. Modern spherical-geometry example only, not historical grid/algorithm or primary manuscript reading." }

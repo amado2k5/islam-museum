@@ -1,0 +1,58 @@
+---
+id: person/al-razi-abu-bakr
+lang: ar
+source_lang: ar
+translators: []
+status: { review: published }
+provenance: { generated_by: "Copilot SDK in VS Code (clinical/identity extension only; original prose retained)", model: "unknown", run: "inventions-p3-b37", source: "المقاطع الطبية في غرينهل1848 وبريتانيكا وقايا وآدمسون؛ نسبة ديفن الأصلية محفوظة في سجل الشخص", extensions: [{ generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b38", source: "إضافة التصنيف من العربية1–3 وفيراريو24–30؛ النص السابق محفوظ" }, { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b53", source: "ملحق المقارنة بين جماعات المرضى من بورمان2013 وتيبي؛ كل النص والهوية والنسب السابقة محفوظة، لا قراءة مزعومة للعربية الأصلية أو تصديق علاجي" }] }
+---
+
+## موجز
+أبو بكر محمد بن زكريا الرازي فيلسوف وطبيب، صاحب «المنصوري» في الطب. {cite:muruj-al-dhahab p. 547}
+
+## عند المسعودي
+رأى المسعودي له كتاباً ذكر فيه مذاهب الصابئة الحرانيين، دون من خالفهم من الصابئة وهم الكيماريون. ويقول المسعودي إن فيه أموراً يطول ذكرها ويقبح عند كثير من الناس وصفها. {cite:muruj-al-dhahab p. 547}
+
+ويذكر المسعودي أنه نقض رسالة الكندي في إبطال صنعة الذهب، وصنف كتباً في الأحجار المعدنية وكيفية الأعمال. {cite:muruj-al-dhahab p. 620}
+
+## عند ابن النديم
+ينقل ابن النديم عنه أنه رأى أن الفيلسوف لا يصح علمه إلا بصحة علم صناعة الكيمياء، وأن فلاسفة قدماء كانوا يعملونها، وأنه يسمي جابر بن حيان «أستاذنا». {cite:fihrist-ibn-al-nadim p. 494,500}
+
+ويصفه في فن المتطببين بأنه أوحد دهره، جمع معرفة علوم القدماء ولا سيما الطب، وألف «المنصوري» وبينه وبين منصور بن إسماعيل صداقة. وكان كريماً براً بالفقراء، وعمي في آخر عمره. ويذكر من فهرس كتبه «الحاوي» وكتاب «الشكوك على جالينوس». {cite:fihrist-ibn-al-nadim p. 415-417}
+
+تعرض المصادر الحديثة تواريخ مختلفة: بريتانيكا تذكر ولادة نحو854 ووفاة925 أو935، بينما يذكر قايا865/251هـ للولادة؛ لا نحول هذه الأقوال إلى سنة واحدة يقينية {cite:britannica-al-razi biography} {cite:tdv-razi-ebu-bekir pp.479–485}.
+
+## الرسالة الطبية وحدود الهوية
+
+في [[invention/al-razi-smallpox-measles|مقارنته بين الجدري والحصبة]] يرتب الرازي الأعراض المشتركة والفروق النسبية، مع استثناء وتفسير أخلاطي. يثبت الفصل الثالث المقارنة، لا اختراع كل تشخيص أو لقاح؛ ويقول مترجم1848 إن تاريخ تأليف الرسالة غير معروف {cite:razi-greenhill-smallpox-1848 pp.3,34–35}. ولا يختزل «الحاوي» في دفتر حالات شخصي حديث؛ يوضح آدمسون غلبة المقتطفات من المصادر عليه {cite:sep-abu-bakr-al-razi sec.1}.
+
+**الإطار السني:** إطار المتحف معلن، لا شهادة بمذهب الفرد. تسمي بريتانيكا الرازي فيلسوفاً مسلماً، وهو أساس فردي لا استنتاج من اسم أو بلد، مع بقاء الخلاف {cite:britannica-al-razi biography}.
+
+**القراءة الأكاديمية:** يعرض آدمسون النقل الخصامي عن أبي حاتم وأدلة من أعمال باقية وأخبار مخالفة، ويناقش حدود نسبة الآراء المناهضة للنبوة {cite:sep-abu-bakr-al-razi sec.5}.
+
+**قراءة قايا:** يرى قايا تفسيراً ربوبيّاً ويدافع عنه؛ هذه قراءته، لا حكم المتحف {cite:tdv-razi-ebu-bekir pp.479–485}. أخبار البرنامج التالية تبقى منسوبة إلى قائله، ولا تصير بوجود هذا التوثيق تصديقاً لكل أولوية أو حكاية فيه.
+
+## تصنيف المواد وتأليف الدليل
+
+في [[invention/razi-substance-classification|تصنيف المواد وبنية دليل الأسرار]] يرتب النص المواد والآلات والعمليات، ويقسم المواد الأرضية إلى ست فئات داخل تقسيم أوسع؛ ليس هذا جدولاً دورياً أو اختراع جميع الكيمياء {cite:razi-asrar-danishpazhuh-1964 p.2}. ويشرح فيراريو مبدأ التنظيم بالعملية، محذراً من اعتبار طبعة1964 تحقيقاً نقدياً نهائياً، ومميزاً «الأسرار» من كتاب «الشبوب والأملاح» المنحول {cite:ferrario-razi-pseudorazi-2024 pp.25–29}. النوشادر يغير فئته حتى بين عملين حقيقيين للرازي؛ لا يكفي اختلاف التصنيف وحده لحسم النسبة {cite:ferrario-razi-pseudorazi-2024 p.28}. هذه إضافة مستقلة عن المقارنة الطبية، لا توثيق بأثر رجعي لكل خبر شعبي تالٍ.
+
+## في برنامج «المبدعون»
+يقدّم طارق السويدان أبا بكر الرازي «الطبيب الإنسان والعالم الموسوعي» ويطبّق عليه معادلة الإبداع: بداية مبكرة، عشق للتعلم، وذاكرة خارقة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00}.
+ومن سيرته: ولد بالري سنة 251هـ، وتعلّم مبكراً الموسيقى والرياضيات والفلسفة والطب؛ وقوله عن نفسه إن كان في كتاب لم يقرأه أو رجل لم يلقه لم يلتفت إلى شغل ولو ضُرّ حتى يأتي على الكتاب كله؛ وكتب بخطه في عام واحد أكثر من عشرين ألف ورقة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:03:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:04:30}.
+وبعد إتمام دراسته ببغداد عاد ليدير مستشفى الري بدعوة منصور بن إسحاق فألّف له المنصوري في الطب وألّف الطب الروحاني متمماً له؛ ثم رأس المستشفى المعتضدي ببغداد — أعظم مستشفى في العالم الإسلامي — متنقلاً بين الري وبغداد؛ وأصابه الماء الأزرق ففقد بصره وتوفي بالري سنة 313هـ {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:05:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:05:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:06:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:06:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:07:00}.
+ومن توازنه: بلغ الغنى الواسع فكان ينفق على المرضى الفقراء ويجري عليهم رواتب — جرايات — وبرّ بأهله ومعارفه دون أن تنغمس نفسه في الدنيا {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:08:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:09:00}.
+ومن مواجهته التكفير: اتهمه الحساد بالزندقة فألّف كتاباً يظهر حكمة الخالق في بدن الإنسان وآخر في إتقان الخلق — إيمانه ثابت بالدليل {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:09:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:10:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:10:30}.
+ومن فلسفته في التعلم: «لا يتمكن الإنسان في هذه الصناعة إن لم يحتذِ على مثال من تقدمه» — ابدأ من حيث انتهى الآخرون — فعلم الطب أطول من عمر الإنسان {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:10:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:11:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:11:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:12:00}.
+ومن إسهاماته الطبية: اخترع خيوط الجراحة ومراهم الزئبق، فصّل أمراض الأطفال والنساء والولادة والعيون وجراحتها، أجرى تجارب على القرود قبل الإنسان — ريادة البحث التجريبي — واستعمل تحليل الدم والبول والنبض، وفرّق أولاً بين الجدري والحصبة، وعالج النفسية مع الجسدية {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:13:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:14:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:14:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:15:00}.
+ومن مؤلفاته: نحو مئتي كتاب؛ الحاوي في الطب — موسوعة ترجمت وطبعت في إيطاليا 1486م في خمسة وعشرين مجلداً ظلت مرجع الغرب إلى القرن السابع عشر — يذكر فيها مصادره من اليونان والهند بالإحالة الدقيقة؛ وكتاب الشكوك على جالينوس انتقد فيه ثمانية وعشرين كتاباً له؛ وسر الأسرار في الكيمياء {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:18:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:19:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:22:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:22:30}.
+وقصة الجامع الكبير: عمل فيه خمس عشرة سنة ليلاً نهاراً حتى ضعف بصره وحصل فسخ في عضلات يده — ثم استعان بمن يقرأ ويكتب له {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:20:30}.
+وفي البصريات: نقض نظرية إقليدس بأن الشعاع يخرج من الجسم المرئي إلى العين — قبل ابن الهيثم بنحو سبعة قرون ⁦(قول المحاضر)⁩ {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:21:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:22:00}.
+وحكاية العجوز: لما قيل لها «هذا الرازي الذي عنده ألف دليل على وجود الله» قالت «لو لم تكن عنده ألف شك لما احتاج ألف دليل» فقال «اللهم إيماناً كإيمان العجائز» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:23:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep25 00:24:00}.
+
+## جماعات المرضى وعدم اليقين
+
+في [[invention/razi-patient-group-comparison|خبر المقارنة بين جماعات المرضى]] ينقل مقتطف «الحاوي» المترجم قصد مقارنة جماعة تلقت تدخلاً بأخرى لم تتلقه. تقرأ تيبي الخبر شاهداً على مبدأ المقارنة، لا دليلاً كافياً لاعتماد العلاج؛ ويسمي بورمان الجماعة الضابطة مع تنبيهه إلى غياب عرض نظري مستقل لمفهوم الجماعة {cite:tibi-razi-comparison-jll comparison-and-conclusion} {cite:razi-pormann-uncertainty-2013 p.371}.
+
+العدد التقريبي ثلاثمئة من ألفين في مقطع «الشكوك على جالينوس» يصف مسارات خالفت التوقع، لا تلقائياً مرضى المقارنة السابقة أو معدل شفاء. نسبة15% حساب حديث للعدد التقريبي، وليست شهادة فعالية أو وفاة؛ وخبر ثلاث حالات وأخرى في نص صعب لا يصبح تجربة مؤكدة من أربعة أفراد {cite:razi-pormann-uncertainty-2013 pp.371–372}.
+
+الشاهد المقروء ترجمة منتقاة وتعليق ومقال2013، لا أصل عربي فحصناه أو كامل الكتابين. اختلاف حيدر آباد، المجلد الأول أو15، الصفحة122، باق ظاهر حتى مقابلة النسخ. هذه الإضافة لا تصدق بأثر رجعي دعوى تجارب القرود أو كل أولوية في البرنامج السابق؛ تظل منسوبة إلى قائله، كما يبقى خلاف الهوية دون حكم متحفي. لا تعليمات علاج أو إعادة تجربة {cite:tibi-razi-comparison-jll references} {cite:razi-pormann-uncertainty-2013 introduction}.

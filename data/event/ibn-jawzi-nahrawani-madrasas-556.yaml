@@ -1,0 +1,27 @@
+id: event/ibn-jawzi-nahrawani-madrasas-556
+class: event
+kind: other
+label:
+  ar: "ابن الجوزي يخلف أبا حكيم النهرواني في مدرستيه"
+  en: "Ibn al-Jawzi succeeds Abu Hakim al-Nahrawani in his two madrasas"
+  ur: "ابن الجوزی ابو حکیم نہروانی کی دونوں مدارس کے مدرس بنے"
+summary:
+  ar: "بدأ ابن الجوزي التدريس معاوناً لشيخه أبي حكيم النهرواني في مدرسته بباب الأزاد، وفي سنة وفاته في مدرسة أُنشئت له في المأمونية؛ فلما توفي النهرواني سنة ٥٥٦هـ/١١٦١م خلفه ابن الجوزي مدرّساً في المدرستين {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}."
+  en: "Ibn al-Jawzi began teaching as assistant to his shaykh Abu Hakim al-Nahrawani in the latter's madrasa at Bab al-Azad and, in the year of the shaykh's death, in a madrasa built for him at the Ma'muniyya; on al-Nahrawani's death in 556/1161 Ibn al-Jawzi succeeded him as master of both colleges {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}."
+  ur: "ابن الجوزی نے اپنے شیخ ابو حکیم نہروانی کے معاون کے طور پر باب الازاد کی مدرسہ میں تدریس شروع کی اور شیخ کی وفات کے سال مامونیہ میں ان کے لیے بنائے گئے مدرسہ میں؛ 556ھ/1161ء میں نہروانی کی وفات پر ابن الجوزی دونوں مدارس کے مدرس ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1161", hijri: "0556", calendar: julian, precision: year, status: tradition, derived: true, note: "وفاة أبي حكيم النهرواني ٥٥٦/١١٦١؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 3 p. 783}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-jawzi, role: "المدرّس الخَلَف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H–Iram), printed p. 783, art. Ibn al-Djawzī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-jawzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -26,6 +26,7 @@
         "app",
         "online-library",
         "fatwa",
+        "fatwa-collection",
         "declaration",
         "charter",
         "constitution",
@@ -36,10 +37,15 @@
         "standard",
         "curriculum",
         "sermon",
+        "lecture",
         "lecture-series",
         "podcast",
         "newspaper",
-        "journal"
+        "journal",
+        "album",
+        "song",
+        "tafsir-volume",
+        "tafsir"
       ]
     },
     "made": {
@@ -182,6 +188,315 @@
         "apologetics",
         "criticism"
       ]
+    },
+    "sermon_type": {
+      "enum": [
+        "jumu'a",
+        "eid-al-fitr",
+        "eid-al-adha",
+        "istisqa",
+        "kusuf",
+        "hajj-arafa",
+        "nikah",
+        "occasion",
+        "farewell",
+        "other"
+      ]
+    },
+    "delivered": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "by"
+      ],
+      "properties": {
+        "by": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "co_speakers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        },
+        "moderator": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        }
+      }
+    },
+    "host": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "audience": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "occasion": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "ruler_at_time": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "who",
+          "role"
+        ],
+        "properties": {
+          "who": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "role": {
+            "enum": [
+              "patron",
+              "addressee",
+              "named-in-dua",
+              "subject",
+              "opponent",
+              "contemporary"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "book_studied": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "work"
+      ],
+      "properties": {
+        "work": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "range": {
+          "type": "string"
+        }
+      }
+    },
+    "order": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "minutes"
+    },
+    "delivery_date_status": {
+      "enum": [
+        "delivered",
+        "uploaded",
+        "broadcast"
+      ]
+    },
+    "consequence": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "reception": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "approval",
+              "objection",
+              "fatwa",
+              "ban",
+              "cut",
+              "award",
+              "protest",
+              "release",
+              "withdrawal",
+              "other"
+            ]
+          },
+          "by": {
+            "type": "string"
+          },
+          "where": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "job",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "job": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "made-by",
+              "used-by",
+              "built-by",
+              "staffed-by",
+              "reference-for",
+              "body-of",
+              "gathering-of",
+              "produced-by",
+              "workplace-of",
+              "route-of"
+            ]
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "inventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "invention",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "invention": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "describes",
+              "first-describes",
+              "patent-of",
+              "disputes"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "n",
+          "title"
+        ],
+        "properties": {
+          "n": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "work": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "duration_s": {
+            "type": "number",
+            "minimum": 0
+          },
+          "lang": {
+            "type": "string"
+          },
+          "performers": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

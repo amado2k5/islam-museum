@@ -1,0 +1,21 @@
+id: place/amsterdam
+class: place
+kind: city
+label: { ar: "أمستردام", en: "Amsterdam", ur: "ایمسٹرڈیم" }
+summary:
+  ar: "مدينة في مفوضية هولندا."
+  en: "City in Reichskommissariat Niederlande."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [52.36666666666667, 4.883333333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q727" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q727 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

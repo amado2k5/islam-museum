@@ -1,0 +1,78 @@
+id: exhibit/path-ashara
+class: exhibit
+kind: trail
+label:
+  ar: العشرة المبشرون
+  en: The Ten Promised Paradise
+summary:
+  ar: 'مسار في العشرة: الخلفاء الأربعة، وطلحة والزبير وسعد وعبد الرحمن وسعيد وأبو عبيدة — مبشرون بالجنة.'
+  en: A trail through the ten promised paradise.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الخلفاء
+    en: The caliphs
+  body:
+    ar: 'أبو بكر وعمر وعثمان وعلي: أول أربعة.'
+    en: 'أبو بكر وعمر وعثمان وعلي: أول أربعة.'
+  features:
+  - person/abu-bakr
+  - person/umar-ibn-al-khattab
+  - person/uthman-ibn-affan
+  - person/ali-ibn-abi-talib
+- title:
+    ar: طلحة والزبير
+    en: Talha and Zubayr
+  body:
+    ar: 'حواريّا النبي: المجد والسيف.'
+    en: 'حواريّا النبي: المجد والسيف.'
+  features:
+  - person/talha-ibn-ubaydullah
+  - person/zubayr-ibn-al-awwam
+- title:
+    ar: عبد الرحمن وسعيد
+    en: Abd al-Rahman
+  body:
+    ar: ابن عوف التاجر وابن زيد الصائم.
+    en: ابن عوف التاجر وابن زيد الصائم.
+  features:
+  - person/abd-al-rahman-ibn-awf
+  - person/said-ibn-zayd
+- title:
+    ar: أبو عبيدة
+    en: Abu Ubayda
+  body:
+    ar: 'أمين الأمة: فاتح الشام.'
+    en: 'أمين الأمة: فاتح الشام.'
+  features:
+  - person/abu-ubayda-ibn-al-jarrah
+  - event/battle-of-yarmuk
+- title:
+    ar: البشارة
+    en: The promise
+  body:
+    ar: 'حديث العشرة: من صحح ومن ناقش.'
+    en: 'حديث العشرة: من صحح ومن ناقش.'
+  features:
+  - concept/al-hadith-al-nabawi
+  - person/muhammad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

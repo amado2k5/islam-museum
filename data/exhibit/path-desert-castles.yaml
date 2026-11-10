@@ -1,0 +1,77 @@
+id: exhibit/path-desert-castles
+class: exhibit
+kind: trail
+label:
+  ar: قصور الصحراء
+  en: Desert Castles
+summary:
+  ar: 'مسار في قصور الأمويين: قصير عمرة يُدهش بلوحاته، وخربة المفجر بقناته، والمشتى ببوابته — رفاه الخلفاء.'
+  en: A trail through the Umayyad retreats.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: قصير عمرة
+    en: Qusayr Amra
+  body:
+    ar: 'لوحات الحمام: فن أموي مدهش.'
+    en: 'لوحات الحمام: فن أموي مدهش.'
+  features:
+  - building/qusayr-amra
+  - building/qusayr-amra
+- title:
+    ar: خربة المفجر
+    en: Khirbat al-Mafjar
+  body:
+    ar: 'قصر هشام: أريحا الأموية.'
+    en: 'قصر هشام: أريحا الأموية.'
+  features:
+  - building/khirbat-al-mafjar
+  - building/khirbat-al-mafjar
+- title:
+    ar: المشتى
+    en: Mshatta
+  body:
+    ar: 'البوابة العظيمة: زخرفة تُنقل لبرلين.'
+    en: 'البوابة العظيمة: زخرفة تُنقل لبرلين.'
+  features:
+  - building/qasr-al-mushatta
+  - building/qusayr-amra
+- title:
+    ar: القصور
+    en: The palaces
+  body:
+    ar: 'قصور أخرى: شبعة ودولة.'
+    en: 'قصور أخرى: شبعة ودولة.'
+  features:
+  - building/qasr-sindad
+  - building/qasr-zaydan
+  - building/qasr-shams-al-muluk
+- title:
+    ar: الفن
+    en: The art
+  body:
+    ar: 'العمارة الأموية: بين بيزنطة وفارس.'
+    en: 'العمارة الأموية: بين بيزنطة وفارس.'
+  features:
+  - building/dome-of-the-rock
+  - building/umayyad-mosque
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

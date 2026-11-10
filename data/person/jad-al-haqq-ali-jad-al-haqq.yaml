@@ -1,0 +1,39 @@
+id: person/jad-al-haqq-ali-jad-al-haqq
+class: person
+label: { ar: "جاد الحق بن علي جاد الحق", en: "Jad al-Haqq ibn Ali Jad al-Haqq" }
+names:
+  - { kind: full, lang: ar, value: "جاد الحق بن علي جاد الحق" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1917", hijri: "1335", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1995", hijri: "1416", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه أصولي وقاض، الشيخ الثاني والأربعون للأزهر الشريف، ولد بمحافظة الدقهلية سنة 1335هـ ⁦(1917م)⁩ وتوفي سنة 1416هـ ⁦(1995م)⁩."
+  en: "Jurist of legal theory and judge, forty-second Grand Imam of al-Azhar; born in Dakahlia province in 1335 AH (1917 CE) and died 1416 AH (1995 CE)."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+honours:
+  - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1995, sources: [source/wikipedia-king-faisal-prize-en] }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikipedia-king-faisal-prize-en]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص31"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch59
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

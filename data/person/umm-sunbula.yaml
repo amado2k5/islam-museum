@@ -1,0 +1,53 @@
+id: person/umm-sunbula
+class: person
+label:
+  ar: أم سنبلة الأسلمية
+  en: Umm Sunbula al-Aslamiyya
+names:
+- kind: full
+  lang: ar
+  value: أم سنبلة الأسلمية
+- kind: kunya
+  lang: ar
+  value: أم سنبلة
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'صحابية من أسلم؛ روت عنها عائشة أنها أهدت إلى النبي لبناً وهو في بيت عائشة، وقالت عائشة إن النبي نهى عن طعام الأعراب، فقال: «ليسوا بأعراب، هم أهل باديتنا ونحن أهل حاضرتهم، إذا دعوناهم أجابوا».'
+  en: A Companion of Aslam about whom Aisha related that she brought the Prophet milk as a gift; Aisha remarked he had forbidden eating from bedouin, and he said 'They are not bedouin; they are the people of our desert and we are the people of
+    their town, and when we call them they answer.'
+wings: [people]
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12125 (ص 2008).
+  sources:
+  - source/ibn-hajar-isaba
+died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, al-Isaba; Usd al-Ghaba" }
+relations:
+  - { type: lived_in, target: place/hijaz, sources: [source/ibn-hajar-isaba] }
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12125، ص 2008
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch129
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: published
+  completeness: 3

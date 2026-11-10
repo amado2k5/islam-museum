@@ -1,0 +1,16 @@
+id: passage/muwatta-22-2162
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2162"
+label: { ar: "الموطأ 2162 — مالك: وإن شهد رجل على مثل ما شهدت به المرأة أن لفلان على أبيه دينا، أحلف صاحب الدين مع شهادة شاهده، وأعطي الغريم حقه كله، وليس هذا بمنزلة المرأة، لأن الرجل تجوز شهادته", en: "Muwatta 2162" }
+summary:
+  ar: "قال مالك: وإن شهد رجل على مثل ما شهدت به المرأة أن لفلان على أبيه دينا، أحلف صاحب الدين مع شهادة شاهده، وأعطي حقه كله. وليس هذا بمنزلة المرأة؛ لأن الرجل تجوز شهادته، ويكون على صاحب الدين مع شهادة شاهده أن يحلف، ويأخذ حقه كله. فإن لم يحلف أخذ من ميراث الذي أقر له قدر ما يصيبه من ذلك الدين، لأنه أقر بحقه، وأنكر الورثة، وجاز عليه إقراره. {cite:muwatta-maruf-1997 p.286}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2162 at PDF p. 286; القضاء في ميراث الولد المستلحق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b63" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 286; matn excerpt at most 40 words" }

@@ -1,0 +1,27 @@
+id: place/herat
+class: place
+kind: city
+label: { ar: "هراة" }
+summary:
+  ar: "هراة مدينة في غرب خراسان يعدّها غوليوس «أريا» القديمة، زارها ياقوت سنة 614هـ، وأصابها التتار سنة 618هـ. {cite:farghani-elements-astronomy p. 423}"
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [34.3529, 62.204]
+coordinate_precision: site
+coordinate_note: "Herat, ancient and medieval metropolis of Khurasan, western Afghanistan (geocoding pass, Gemini-assisted)"
+part_of: place/khurasan
+external_ids:
+  nomisma: "harat"
+  idai: "2379586"
+sources: [source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer]
+provenance:
+  layer: own-research
+  source: "Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }
+kids:
+  ar: "هرات مدينة خراسان الكبرى الغربية، فيها مدارس التيموريين."
+  en: "Herat, the great western city of Khurasan — home of Timurid schools."
+  ur: "ہرات مغربی خراسان کا بڑا شہر — تیموری مدارس کا گھر۔"

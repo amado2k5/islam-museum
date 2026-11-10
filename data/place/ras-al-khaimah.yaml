@@ -1,0 +1,21 @@
+id: place/ras-al-khaimah
+class: place
+kind: site
+label: { ar: "رأس الخيمة", en: "Ras Al Khaimah", ur: "راس الخیمہ" }
+summary:
+  ar: "موقع في الإمارات العربية المتحدة."
+  en: "Site in United Arab Emirates."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [25.783333333333, 55.95]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q170024" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q170024 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -10,7 +10,7 @@ The museum's imagery has three layers, and only the third is generated:
 |---|---|---|
 | **Documentary** | Real photographs and scans from open collections (Met, Smithsonian, Walters, Wikimedia Commons, QDL via IIIF) | The actual Blue Qur'an folio, the actual Great Mosque of Córdoba, a real astrolabe |
 | **Programmatic** | Scripts render these from data and fonts, deterministically | Calligraphic name tiles, Arabic text samples, maps, timelines, girih patterns, icons, OpenGraph cards, charts |
-| **Illustrative (generated)** | Local diffusion models, from prompts derived from entity data, reviewed by a human | Atmosphere of Baghdad around 800 CE, a caravan on the trans-Saharan route, a physician's table for Ibn Sina, a wing's hero art |
+| **Illustrative (generated)** | Local diffusion models, from prompts derived from entity data, approved by the automated gates of doc 22 §5 step 6 | Atmosphere of Baghdad around 800 CE, a caravan on the trans-Saharan route, a physician's table for Ibn Sina, a wing's hero art |
 
 Rules that follow from the charter (05-editorial §3) and apply to every generated image:
 
@@ -21,7 +21,7 @@ Rules that follow from the charter (05-editorial §3) and apply to every generat
 5. **No text inside generated images.** Diffusion models mangle Arabic; all text is rendered programmatically on top.
 6. **Every generated image is labelled** on the page ("Illustration · AI-assisted artist's impression"), carries `kind: illustration` in its media record, and never appears in the Objects wing as evidence.
 7. **Only models whose license permits releasing outputs freely**, so the images can be published under CC0 like the rest of our data. Use Apache-2.0-licensed models (listed below). Avoid "dev"/non-commercial-licensed models for anything that will be published.
-8. **A human approves every image** on a contact sheet before it enters the media repository. The approval is recorded.
+8. **The pipeline approves an image only when it passes every automated gate** (doc 22 §5 step 6), and records `status.approved_by: "pipeline"` with the gate report hash. Every approval is written to the daily audit file `review/<batch>/auto-approved.json`. No human approval step.
 
 A visitor setting (`illustrations: show | hide`) lets anyone browse the museum with documentary and programmatic images only.
 
@@ -109,7 +109,7 @@ islam-museum-media/            (separate repo → media.islam.museum; or an R2 b
 islam-museum/
   data/media/<media-id>.yaml   provenance + license + alt text (committed)
   media/prompts/<class>/<slug>.json   generated prompts (committed; reproducible)
-  media/review/<batch>/contact-*.jpg  contact sheets (gitignored)
+  media/review/<batch>/auto-approved.json, screen.json  audit and gate reports (gitignored)
   media/generation.log.jsonl   one line per attempt (gitignored, kept locally)
 ```
 
@@ -133,7 +133,7 @@ generated:
   steps: 4
   date: 2026-11-03
   reviewed_by: ahmed
-  review_note: "approved; seed 2 of 3"
+  review_note: "approved by pipeline; seed 2 of 3"
 license: CC0-1.0
 attribution: "islam.museum, AI-assisted illustration"
 sensitivity: none
@@ -160,9 +160,9 @@ data/<class>/*.yaml ──► gen-prompts.py ──► media/prompts/<class>/<sl
                                                    │
                                    generate.py (ComfyUI API or mflux CLI), resumable, 3 seeds per entity
                                                    │
-                               raw/*.png + generation.log.jsonl ──► contact.py ──► media/review/<batch>/*.jpg
+                               raw/*.png + generation.log.jsonl ──► approve.py (gates) ──► media/review/<batch>/auto-approved.json
                                                    │
-                                        you approve/reject in review.html (writes decisions.json)
+                                        gates pass ──► status.approved_by: pipeline; failures re-queued once (seed + 100)
                                                    │
                        ingest.py ──► data/media/*.yaml + derivatives in media repo + hero link in entity YAML
 ```
@@ -297,11 +297,11 @@ Expected throughput on an M4 Max (rough, verify on your first 20 images): Z-Imag
 ### Review
 
 ```bash
-# builds 5×4 contact sheets per class with the media id and seed under each image
-python scripts/media/contact.py place
+# applies the automated gates per class and writes the audit file
+python scripts/media/illustrate/approve.py place
 ```
 
-Open `media/review/<batch>/review.html` (a static page the script writes), click approve / reject / regenerate under each image, and save `decisions.json`. `ingest.py` then creates the derivatives and the `data/media/*.yaml` records for approved images, sets `media.hero` on the entity if it has none, and queues rejected ones for a new seed or a prompt edit.
+`approve.py` writes `media/review/<batch>/auto-approved.json` for every approval (seed, gate results, timestamp). `ingest.py` then creates the derivatives and the `data/media/*.yaml` records for approved images, sets `media.hero` on the entity if it has none, and queues rejected ones for a new seed or a prompt edit.
 
 Rejection checklist: any text or pseudo-letters; any face; anachronism (modern glass, wires, printed books before 1450, firearms before the 14th century); wrong architecture style for the region (Mughal domes in Andalusia); inaccurate religious practice (prayer postures, qibla orientation, mixed-gender rows where they would not be); sensational violence; "orientalist" clichés (veiled-woman-as-mystery, harem tropes, snake charmers); copyrighted motifs; over-saturated or glossy look that breaks the house style.
 

@@ -1,0 +1,15 @@
+id: passage/muslim-2477
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2477"
+label: { ar: "مسلم 2477 — اللهم فقهه في الدين", en: "Muslim 2477 — O God, give him understanding of the religion" }
+text: "أتى النبي الخلاء فوضعت له وضوءاً، فلما خرج قال: من وضع هذا؟ فقيل له: ابن عباس؛ فقال: «اللهم فقهه»"
+summary:
+  ar: "رواية ابن عباس عن نفسه في باب فضائله من صحيح مسلم؛ دعاء النبي له بالفقه في الدين حين كان غلاماً — النص المؤسس لمركزية ابن عباس في التفسير والفقه عند أهل السنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل عبد الله بن عباس (طبعة دار التأصيل، الحديث 6523؛ ترقيم عبد الباقي المعروف 2477)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

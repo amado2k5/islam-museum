@@ -1,0 +1,27 @@
+id: event/qifti-born-568
+class: event
+kind: birth
+label:
+  ar: "ولادة جمال الدين القفطي بقفط في الصعيد، ٥٦٨هـ"
+  en: "Jamal al-Din al-Qifti is born at Qift in Upper Egypt, 568/1172"
+  ur: "جمال الدین قفطی کی ولادت قفط، صعید مصر میں، 568ھ/1172ء"
+summary:
+  ar: "وُلد جمال الدين أبو الحسن علي بن يوسف بن إبراهيم بن عبد الواحد الشيباني القفطي سنة ثمان وستين وخمسمائة بقفط في صعيد مصر {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ وذكر الإدفوي في الطالع السعيد مولده سنة ثلاث وستين بقفط {cite:tarikh-islam-dhahabi p. 325}."
+  en: "Jamal al-Din Abu al-Hasan Ali ibn Yusuf ibn Ibrahim ibn Abd al-Wahid al-Shaybani al-Qifti was born in 568/1172 at Qift in Upper Egypt {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}; al-Idfawi's al-Tali' al-Sa'id gives the earlier year 563 {cite:tarikh-islam-dhahabi p. 325}."
+  ur: "جمال الدین ابو الحسن علی بن یوسف بن ابراہیم بن عبدالواحد شیبانی قفطی 568ھ/1172ء کو صعید مصر کے شہر قفط میں پیدا ہوئے {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ ادفوی کی الطالع السعید میں سن 563ھ درج ہے {cite:tarikh-islam-dhahabi p. 325}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1172~", hijri: "0568", calendar: julian, precision: year, status: tradition, derived: true, note: "568/1172 {cite:encyclopaedia-of-islam-2 vol. 3 p. 872}؛ رواية 563هـ عن الإدفوي {cite:tarikh-islam-dhahabi p. 325}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/qift, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-qifti, role: "المولود", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 art. Ibn al-Kifti (A. Dietrich), printed p. 872; al-Dhahabi, Tarikh al-Islam s.a. 646, printed p. 325 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qifti-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

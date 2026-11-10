@@ -1,0 +1,34 @@
+id: person/ubayda-ibn-amr-al-salmani
+class: person
+label: { ar: "عبيدة بن عمرو السلماني" }
+names:
+  - { kind: full, lang: ar, value: "عبيدة بن عمرو السلماني المرادي الهمداني أبو مسلم" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو مسلم، ويقال أبو عمرو، عبيدة بن عمرو السلماني المرادي الهمداني؛ أسلم قبل وفاة النبي بسنتين ولم يره، ومات سنة اثنتين وسبعين، وقال أبو إسحاق إنه لم يكن بالكوفة أعلم بالفريضة منه ومن الحارث الأعور {cite:tabaqat-fuqaha-abbas-1981 p. 43}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+died: { hijri: "0072", edtf: "0691~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة اثنتين وسبعين (PDF ص43). ابن سعد يسميه عبيدة بن قيس في الحاشية.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+
+  - { type: lived_in, target: place/hamadan, confidence: low, note: "Association inferred from the nisba 'الهمداني'; specific birthplace or residence is not individually documented.", sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1] }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/sallabi-ali-vol1]

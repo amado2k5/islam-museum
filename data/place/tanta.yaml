@@ -1,0 +1,16 @@
+id: place/tanta
+class: place
+kind: city
+label: { en: "Tanta", ar: "طنطا", ur: "طنطا" }
+summary:
+  en: "City in the Nile Delta of Egypt."
+  ar: "مدينة في دلتا النيل بمصر."
+wings: [place]
+regions: [egypt-nile]
+coordinates: [30.79, 31.0]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q156214" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q156214 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

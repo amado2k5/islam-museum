@@ -1,0 +1,49 @@
+id: dec-20261108-158
+kind: override
+date: 2026-11-08
+question_hash: 490991428b29
+lane: admission
+class: sources
+modality: repo
+domain: dates
+mode: conservative
+question: A useful fact comes only from a personal blog with no author date — admissible as a source for data/ or prose?
+status: decided
+step: override
+decision: Undated personal blogs are inadmissible as sources — a fact needs a datable, attributable source.
+correct_outcome: dated-attributable-source-required
+wrong_outcome: undated-blog-admissible
+confidence: 1
+reversible: true
+rationale: "The engine held/docketed this; the founder's wave-2 verdict was a substantive \"no\" — a ruling on the underlying question. This override enacts it so the answer becomes citable precedent. Source verdict note: undated personal blogs are inadmissible as sources"
+supersedes: dec-20261108-108
+override_reason:
+  category: founder-verdict
+  detail: "founder ruled: undated personal blogs are inadmissible as sources"
+  overridden_by: founder-rule-label
+signals:
+  source_record: dec-20261108-108
+  founder_verdict_at: 2026-11-08
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+  note: enacts founder verdict on dec-20261108-108
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: enacts founder's rejected-verdict ruling from dec-20261108-108
+  founder_override: false
+  calibration_weight: 1
+expires_at: "2027-11-08"

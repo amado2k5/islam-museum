@@ -1,0 +1,21 @@
+id: place/mansehra-district
+class: place
+kind: region
+label: { ar: "مانسهرہ", en: "Mansehra District" }
+summary:
+  ar: "إقليم مانسهرہ."
+  en: "Region (Mansehra District)."
+wings: [place]
+regions: [south-asia]
+coordinates: [34.64827, 73.4647]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q2358309; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2358309" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2358309 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

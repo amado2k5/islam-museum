@@ -1,0 +1,29 @@
+id: person/al-shafii
+class: person
+label: { ar: "محمد بن إدريس الشافعي", en: "Muhammad ibn Idris al-Shafi'i" }
+summary:
+  ar: "إمام المذهب الشافعي المطلبي، مات في أيام المأمون، وعند السيوطي قال المتوكل واحسرتي على محمد بن إدريس الشافعي كنت أحب أن أكون في أيامه فأراه وأتعلم منه فإني رأيت رسول الله في المنام يقول إن محمد بن إدريس المطلبي قد صار إلى رحمة الله وخلف فيكم علماً حسناً فاتبعوه تهتدوا ثم دعا أن يسهل عليه حفظ مذهبه، وقال السيوطي استفدنا من هذا أن المتوكل كان متمذهباً بمذهب الشافعي وهو أول من تمذهب له من الخلفاء {cite:tarikh-khulafa-minhaj-1434 p. 518-519,545-546}. وعند المسعودي توفي في رجب ليلة الجمعة سنة أربع ومائتين ودفن صبيحة الليلة وهو ابن أربع وخمسين سنة وصلى عليه السري بن الحكم أمير مصر، ودفن بحومة قبور الشهداء في مقبرة بني عبد الحكم وعلى العمود عند رأسه حفر هذا قبر محمد بن إدريس الشافعي أمين الله، وروى فقير بن مسكين عن المزني أنه دخل عليه غداة وفاته فقال أصبحت من الدنيا راحلاً وبكأس المنية شارباً وأنشأ ولما قسا قلبي وضاقت مذاهبي جعلت الرجا مني لعفوك سلماً {cite:muruj-al-dhahab p. 417-418}"
+  en: "Imam of the Shafi'i madhhab, died in al-Ma'mun's days; per al-Suyuti, al-Mutawakkil said 'my grief over Muhammad ibn Idris — I wished I lived in his days to learn from him, for I dreamt the Prophet saying he left you a good science: follow it and be guided' — whence al-Suyuti concludes al-Mutawakkil was the first caliph to adopt a madhhab {cite:tarikh-khulafa-minhaj-1434 p. 518-519,545-546}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 518–549"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-29
+relations:
+  - { type: born_in, target: place/gaza, note: "Wikidata Q47492 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/al-fustat, note: "Wikidata Q839456 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: building/mausoleum-of-imam-al-shafii, note: "Wikidata Q12242699 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: authored, target: work/ikhtilaf-al-hadith-shafii, sources: [source/kashf-zunun-furqan] }
+  - { type: founder_of, target: group/shafii-madhhab, sources: [source/duha-islam] }
+external_ids: { wikidata: "Q294281" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan, source/assabile-omar-abdelkafy, source/britannica-al-shafii, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+born: { edtf: "0767", precision: year, status: historical, sources: [source/britannica-al-shafii], note: "Born 767 (Britannica biography)." }
+died: { edtf: "0820-01-20", precision: day, status: historical, sources: [source/britannica-al-shafii], note: "Died 20 January 820 at al-Fustat (Britannica biography)." }

@@ -1,0 +1,15 @@
+id: passage/muwatta-25-2308
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2308"
+label: { ar: "الموطأ 2308 — مالك: القطاعة بالذهب ليست كالدين المؤجل", en: "Muwatta 2308" }
+summary:
+  ar: "قال مالك: الأمر عندنا في الرجل يكاتب عبده ثم يقاطعه بالذهب، فيضع عنه مما عليه من الكتابة على أن يعجل له ما قاطعه عليه، أنه لا بأس بذلك. فإن القطاعة ليست بمنزلة دين مؤجل يوضع عنه ويُنقد، بل هي مال يعطيه المكاتب سيده ليتعجل به العتق، فيجب له به الميراث والشهادة والحدود، وتثبت له حرمة العتاقة. {cite:muwatta-maruf-1997 p.352}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2308 at PDF p. 352; القطاعة في الكتابة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b71" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 352; matn excerpt at most 40 words" }

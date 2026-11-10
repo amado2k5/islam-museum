@@ -1,0 +1,27 @@
+id: event/ibn-qadi-shuhba-reinstated-843
+class: event
+kind: other
+label:
+  ar: "إعادة ابن قاضي شهبة إلى قضاء دمشق، رمضان ٨٤٣هـ"
+  en: "Ibn Qadi Shuhba restored to the judgeship of Damascus, Ramadan 843"
+  ur: "ابن قاضی شہبہ کی دمشق کے قضاء میں واپسی، رمضان 843ھ"
+summary:
+  ar: "في رمضان سنة ثلاث وأربعين وثمانمئة رُسم بعزل شمس الدين محمد الونائي واستقرار ابن قاضي شهبة في قضاء دمشق عوضاً عنه {cite:suluk-maqrizi p. 1183}."
+  en: "In Ramadan 843 the sultan decreed the dismissal of Shams al-Din Muhammad al-Wana'i and the installation of Ibn Qadi Shuhba in the judgeship of Damascus in his place {cite:suluk-maqrizi p. 1183}."
+  ur: "رمضان 843ھ میں شمس الدین محمد ونائی کے عزل اور ابن قاضی شہبہ کی اس کے بدل دمشق کے قضاء پر بحالی کا فرمان صادر ہوا {cite:suluk-maqrizi p. 1183}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1440-01~", hijri: "0843-09", calendar: julian, precision: month, status: historical, derived: true, note: "رمضان ٨٤٣ {cite:suluk-maqrizi p. 1183}؛ التحويل مشتق.", sources: [source/suluk-maqrizi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibn-qadi-shuhba, role: "المستقر في القضاء", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/muhammad-ibn-ismail-al-wanai, role: "المعزول", sources: [source/suluk-maqrizi] }
+sources: [source/suluk-maqrizi]
+provenance:
+  layer: own-research
+  source: "السلوك للمقريزي (ط دار الكتب 1973، ج٤ ق٣، سنة 843، شهر رمضان) ص 1183، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

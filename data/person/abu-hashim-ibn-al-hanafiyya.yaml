@@ -1,0 +1,20 @@
+id: person/abu-hashim-ibn-al-hanafiyya
+class: person
+label: { ar: "أبو هاشم ابن محمد بن الحنفية", en: "Abu Hashim Ibn Al Hanafiyya" }
+summary:
+  ar: "أبو هاشم عبد الله بن محمد بن الحنفية، في سلسلة العدل والتوحيد عند أبي هذيل أن واصل بن عطاء أخذه عنه وأنه أخذه عن أبيه محمد بن الحنفية {cite:fihrist-ibn-al-nadim p. 558}."
+  en: "Son of Muhammad b. al-Hanafiyya — the link above Wasil in the Mu'tazili tawhid isnad {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch22
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari, Tarikh; al-Dhahabi, Siyar" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Son of Muhammad ibn al-Hanafiyya; the Alid family seat was Medina. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

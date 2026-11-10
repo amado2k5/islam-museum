@@ -1,0 +1,66 @@
+---
+id: person/al-biruni-muhammad-ibn-ahmad
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker I), claude-opus-5-5"]
+status:
+  review: published
+provenance:
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 12–25, 43; title page p. 2; preface p. 81; source/mawsuat-a3lam-ulama-adaba; source/kashf-zunun-furqan"
+  translator_of: content/ar/person/al-biruni-muhammad-ibn-ahmad.md
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b49", source: "English of new Arabic Ghazna architectural qibla section; original translation/front matter/body retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b48", source: "English of new Arabic difference-interpolation section; original Claude translation/front matter/body retained" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b28", source: "English translation of new Arabic mountain-method/identity sections from actual primary translation/Britannica/TDV; prior Claude translation/authorship retained" }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b39", source: "English translation of new Arabic displacement-vessel section from actual Khanikoff/Ansari/Yassi selected passages; prior Claude translation/authorship retained" }
+---
+## Summary
+Abu al-Rayhan Muhammad ibn Ahmad al-Biruni was one of the great astronomers, mathematicians, geographers and historians of his age, born on the outskirts of Khwarazm (Kath) in 362 AH (973 CE). {cite:mawsuat-a3lam-ulama-adaba} {cite:kashf-zunun-furqan} The editor of al-Qanun al-Mas'udi gives his birth as 2 Dhu al-Hijja 362, 4 September 973, in a village outside Kath, the capital of Khwarazm, to an obscure family. {cite:qanun-masudi-jundi-v1 p. 12} The encyclopaedia record gives his death as 442 AH {cite:mawsuat-a3lam-ulama-adaba}, while the title page of the Qanun edition gives 440 AH. {cite:qanun-masudi-jundi-v1 p. 2}
+
+## His nisba
+The editor quotes al-Biruni as saying he did not truly know his lineage or who his grandfather was. {cite:qanun-masudi-jundi-v1 p. 12} Ibn Abi Usaybi'a derived the name from a "Birun" in Sind; al-Sam'ani in the Ansab said the nisba refers to the outskirts of Khwarazm, meaning "outside the town" in Persian; and [[person/yaqut-al-hamawi|Yaqut]] glossed it as "the outsider". {cite:qanun-masudi-jundi-v1 p. 12} {cite:qanun-masudi-jundi-v1 p. 17}
+
+## Youth and learning
+The editor says he studied many sciences in his youth and knew Khwarazmian, Persian, Arabic, Sanskrit, Syriac and Greek; his first teacher was an unnamed Greek, for whom al-Biruni gathered plants and seeds while the teacher explained their uses. {cite:qanun-masudi-jundi-v1 p. 12} At twenty he travelled to [[place/jurjan|Jurjan]], where he wrote his first major book, [[work/al-athar-al-baqiya|al-Athar al-baqiya]], for Shams al-Ma'ali Qabus. {cite:qanun-masudi-jundi-v1 p. 12} {cite:qanun-masudi-jundi-v1 p. 13} {cite:qanun-masudi-jundi-v1 p. 15} Among his teachers was [[person/abu-nasr-mansur-ibn-iraq|Abu Nasr Mansur ibn Ali ibn Iraq]], pupil of Abu al-Wafa al-Buzjani. {cite:qanun-masudi-jundi-v1 p. 24}
+
+## Khwarazm, then Ghazna
+The editor says he returned to Khwarazm in 1010 and worked in the academy founded by its amir Ma'mun ibn Ma'mun at Gurganj, alongside [[person/ibn-sina|Ibn Sina]] and [[person/ibn-miskawayh|Ibn Miskawayh]]. {cite:qanun-masudi-jundi-v1 p. 13} When the sultan [[person/mahmud-ghaznawi|Mahmud of Ghazna]] invaded Khwarazm in 407 AH he took al-Biruni to [[place/ghazna|Ghazna]], where his freedom was restricted until Mahmud died and his son [[person/masud-ibn-mahmud|Mas'ud]] drew him close. {cite:qanun-masudi-jundi-v1 p. 13} Yaqut relates, as the editor quotes, that on taking Khwarazm Mahmud seized al-Biruni and his teacher Abd al-Samad ibn Abd al-Samad the sage, accused Abd al-Samad of Qarmatism and unbelief and had him killed, and meant to do the same to al-Biruni until he was told that al-Biruni was the leading astronomer of the age and that kings could not do without such a man; so he took him with him to India. {cite:qanun-masudi-jundi-v1 p. 21}
+
+## In India
+Al-Biruni lived among the Indians, learned their language, took up their sciences, and produced [[work/kitab-al-hind|Tahqiq ma li-l-Hind]] around 1030. {cite:qanun-masudi-jundi-v1 p. 13} {cite:qanun-masudi-jundi-v1 p. 21} The editor cites Sachau, who edited it in 1887, as calling al-Biruni the greatest phenomenon in the history of science in Islamic civilisation for having mastered Sanskrit for the sake of study. {cite:qanun-masudi-jundi-v1 p. 13}
+
+## Al-Qanun al-Mas'udi
+Back from India he settled at the Ghaznavid court and dedicated [[work/al-qanun-al-masudi|al-Qanun al-Mas'udi]] on astronomy to the sultan Mas'ud. {cite:qanun-masudi-jundi-v1 p. 13} {cite:qanun-masudi-jundi-v1 p. 81} Yaqut reports that the sultan rewarded him with an elephant-load of silver, which he returned to the treasury. {cite:qanun-masudi-jundi-v1 p. 18} The editor notes that he observed the greatest declination four times: before 387 AH, in 407, and in 410 and 411 at Ghazna. {cite:qanun-masudi-jundi-v1 p. 43}
+
+## Standing with rulers
+Yaqut relates that Shams al-Ma'ali Qabus ibn Wushmgir wished to attach him to his company with obeyed authority throughout his realm, and he refused; that the Khwarazmshah lodged him in his own palace; and that the sultan Mas'ud, who loved astronomy, discussed with him why the lengths of day and night differ across the earth. {cite:qanun-masudi-jundi-v1 p. 19} {cite:qanun-masudi-jundi-v1 p. 20} Yaqut describes him as a fine conversationalist, pleasant company, upright in conduct, and a writer of good verse. {cite:qanun-masudi-jundi-v1 p. 21}
+
+## Writings
+The editor lists, after Hajji Khalifa, sixty of his works, among them al-Athar al-baqiya, al-Tafhim li-awa'il sina'at al-tanjim, Tahdid nihayat al-amakin, al-Jamahir fi al-jawahir, al-Qanun al-Mas'udi, [[work/jala-al-adhhan-fi-zij-al-battani|Jala' al-adhhan fi zij al-Battani]], a completion of Habash's zij, Ifrad al-maqal fi amr al-zilal, and books on the qibla and the astrolabe. {cite:qanun-masudi-jundi-v1 p. 15} {cite:qanun-masudi-jundi-v1 p. 16} {cite:qanun-masudi-jundi-v1 p. 17}
+
+## Earth measurement by mountain and horizon
+In *Tahdid*, composed416 AH/1025 CE, he explains [[invention/al-biruni-earth-radius|Earth-radius measurement from mountain height and horizon dip]], reporting a Nandana application:34 arcminutes and652;3,18 regional cloth cubits in height. The date belongs to the book, not the experiment day, and the cubit is not converted into metres without a basis. The text names Sanad ibn Ali's earlier use of the principle under al-Ma'mun, while translator Jamil Ali's preface calls it the author's invention. His role here is documented describer and practitioner, not settled absolute priority. {cite:tdv-biruni-tumer works} {cite:biruni-tahdid-ali-translation preface xi; pp. 183–189}
+
+## The conical vessel and displaced water
+
+The *Balance of Wisdom* describes [[invention/biruni-displacement-vessel|al-Biruni's conical vessel]] with a side outlet directing displaced water into a balance pan, while reporting retained water and slow drainage; the copied drawing is neither an autograph nor surviving original apparatus, and the publisher acknowledges manuscript gaps {cite:khazini-khanikoff-1859 pp.53–55}. Subsequent trials belong to al-Khazini using Abu Rayhan's instrument, not automatically al-Biruni's own dataset {cite:khazini-khanikoff-1859 pp.55–56}. Ansari distinguishes displaced-water weights and table representations and declines a fixed mithqal-to-gram conversion; this part of his study depends on Wiedemann rather than direct access to the Beirut manuscript {cite:ansari-biruni-physics-1975 pp.199–202}. Modern reconstruction witnesses a research replica, not a missing original's precision or priority over all density measurement {cite:yassi-hydrostatic-balances-2023 pp.140–141}.
+
+## Identity and disputed affiliation
+Britannica explicitly calls him Muslim, and Günay Tümer discusses his Islamic commitment: that is the identity basis, not his name or birthplace. Sunni reading first: Tümer challenges a settled Shia classification based on Qabus's patronage or criticism of Arab chauvinism, noting his Sunni Ghaznavid context and criticism of some Shia/Batini positions. The museum's Sunni frame is explicit, not decisive personal self-testimony. {cite:britannica-al-biruni} {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+Other classifications reported by Tümer: Abdullah Ni'me identifies al-Biruni as Shia, and Taqi Danishpazhuh as at least Zaydi. This research has not read their original arguments. It displays the disagreement through the source actually read, without a verdict or inference from a patron's affiliation; the person record's perspectives label the readings. {cite:tdv-biruni-tumer religious-affiliation discussion}
+
+## Differences in table use
+
+The [[invention/biruni-difference-interpolation|difference-adjusted interpolation]] entry explains his particular Qanun procedure: customary and refined direct/inverse lookup, followed by generalization to tables {cite:qanun-masudi-jundi-v1 scan pp.321–324,339–340}. This is not invention of all interpolation. Earlier Indian methods remain in the history; Rashed's abstract reports four methods available to al-Biruni and al-Samaw'al's later comparisons, without our claiming full-article reading {cite:meijering-interpolation-2002 II.B–II.C} {cite:rashed-interpolation-1991 abstract}. The modern unpacking is not necessarily the parabola through three samples or universally more accurate. The page's public-domain picture is a modern comparison, not manuscript evidence or proof of modern differential calculus {cite:qanun-masudi-jundi-v1 scan pp.322–323,339–340} {cite:commons-quadratic-interpolation code,rights}.
+
+## From qibla calculation to the architect's drawing
+
+The [[invention/biruni-ghazna-qibla-setting-out|Ghazna circle setting-out]] shows his transition from spherical calculation to two artisan approximations: a third of the southern radius, or a point one eighteenth inward from the western endpoint {cite:biruni-tahdid-ali-translation pp.241–256}. The entry claims neither invention of all qibla science nor a worldwide Ghazna angle; the text acknowledges earlier astronomers and puts the niche wall perpendicular to the direction {cite:biruni-tahdid-ali-translation pp.241,253,255–256}. Historical example differences and the translation's ratio/longitude-sine inconsistencies are disclosed, not silently repaired or assigned to an uncollated Arabic original. The modern contextual image is not the author's figure or an archaeological building {cite:biruni-tahdid-ali-translation pp.242,245–247} {cite:commons-spherical-triangle description,licence}.
+
+## Proposed calendar gearing
+
+In the [[work/biruni-istiab-astrolabe|astrolabe-construction Istiab]] he described the older Moon Box; Hill then attributes a [[invention/biruni-simplified-calendar-gearing|proposed solar simplification]] to him: four teeth sharing the forty's arbor drive fifty-two. Neither the whole box nor other craftsmen's variants become his inventions; Hill infers Hellenistic/Byzantine antecedents with an unknown original maker {cite:hill-biruni-calendar-1985 pp.140,157–158,163}. Engineering interpretation yields364days against360in the translated passage, with partly inferred assembly; the difference stays explicit. Input is manual, and28day sidereal month differs from29.5day mean phase cycle: no guaranteed visibility calendar or surviving original machine inspected here. Selected Hill English sections were read, not the entire work or all Arabic apparatus; the modern image compares teeth, not a historical reconstruction {cite:hill-biruni-calendar-1985 pp.156–163} {cite:commons-involute-gears-hugo4 description-and-rights}.

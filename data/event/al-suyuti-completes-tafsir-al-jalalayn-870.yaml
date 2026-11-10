@@ -1,0 +1,27 @@
+id: event/al-suyuti-completes-tafsir-al-jalalayn-870
+class: event
+kind: publication
+label:
+  ar: "إتمام السيوطي تفسير الجلالين، 870هـ/1466م"
+  en: "Al-Suyuti completes Tafsir al-Jalalayn, 870/1466"
+  ur: "سیوطی کا تفسیر الجلالین کو مکمل کرنا، 870ھ/1466ء"
+summary:
+  ar: "بدأ جلال الدين السيوطي تكملة تفسير شيخ عصره جلال الدين المحلي يوم الأربعاء مستهل رمضان سنة 870هـ، وفرغ منها يوم الأحد عاشر شوال من السنة نفسها، وفرغ من تبييضها يوم الأربعاء سادس صفر سنة 871هـ؛ وهي من أول البقرة إلى آخر الإسراء {cite:tafsir-jalalayn-lithograph-1278 p.370} {cite:tafsir-jalalayn-lithograph-1278 p.4}."
+  en: "Jalal al-Din al-Suyuti began his completion of Jalal al-Din al-Mahalli's commentary on Wednesday 1 Ramadan 870 AH, finished it on Sunday 10 Shawwal of the same year and finished the fair copy on Wednesday 6 Safar 871; it runs from the start of al-Baqara to the end of al-Isra' {cite:tafsir-jalalayn-lithograph-1278 p.370} {cite:tafsir-jalalayn-lithograph-1278 p.4}."
+  ur: "جلال الدین سیوطی نے جلال الدین محلی کی تفسیر کا تکملہ بدھ یکم رمضان 870ھ کو شروع کیا، اسی سال اتوار دس شوال کو مکمل کیا، اور بدھ چھ صفر 871ھ کو اس کا صاف نسخہ تیار کیا؛ یہ سورۂ بقرہ کے آغاز سے سورۂ اسرا کے آخر تک ہے {cite:tafsir-jalalayn-lithograph-1278 p.370} {cite:tafsir-jalalayn-lithograph-1278 p.4}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1466-04-17", hijri: "0870-09-01", calendar: julian, precision: day, status: historical, derived: true, note: "«وكان الابتداء فيه يوم الأربعاء مستهل رمضان» {cite:tafsir-jalalayn-lithograph-1278 p.370}؛ التحويل جدولي مشتق." }
+  end: { edtf: "1466-05-26", hijri: "0870-10-10", calendar: julian, precision: day, status: historical, derived: true, note: "«وفرغ من تأليفه يوم الأحد عاشر شوال سنة سبعين وثمانمائة» {cite:tafsir-jalalayn-lithograph-1278 p.370}؛ التحويل جدولي مشتق." }
+relations:
+  - { type: had_participant, target: person/al-suyuti, role: "المؤلف", sources: [source/tafsir-jalalayn-lithograph-1278] }
+sources: [source/tafsir-jalalayn-lithograph-1278]
+provenance:
+  layer: own-research
+  source: "source/tafsir-jalalayn-lithograph-1278 PDF pp. 4, 369–370"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

@@ -1,0 +1,37 @@
+id: person/hisham-matar
+class: person
+label: { ar: "هشام مطر", en: "Hisham Matar", ur: "ہشام مطر" }
+names:
+  - { value: "هشام جاب الله مطر", kind: full }
+  - { value: "Hisham Jaballa Matar", kind: full }
+  - { value: "Hisham Matar", kind: full }
+gender: male
+summary:
+  ar: "روائي وكاتب مذكرات بريطاني ليبي، وُلد في نيويورك سنة 1970 لأب ليبي كان دبلوماسيًا. عادت الأسرة إلى طرابلس ثم فرّت إلى القاهرة سنة 1979، واختُطف والده هناك سنة 1990 ولم يُعثر عليه؛ وفازت مذكراته عن البحث عنه «العودة» (2016) بجائزة بوليتزر. من رواياته «في بلد الرجال» و«أصدقائي»."
+  en: "British-Libyan novelist and memoirist, born in New York City in 1970, the son of a Libyan diplomat. The family returned to Tripoli, fled to Cairo in 1979, and his father was abducted there in 1990 and never found; his memoir of the search, The Return (2016), won the Pulitzer Prize. His novels include In the Country of Men and My Friends."
+  ur: "برطانوی لیبیائی ناول نگار اور یادداشت نگار، 1970 میں نیویارک میں ایک لیبیائی سفارت کار کے ہاں پیدا ہوئے۔ خاندان طرابلس واپس گیا، 1979 میں قاہرہ فرار ہوا، اور 1990 میں وہاں ان کے والد کو اغوا کیا گیا جو کبھی نہ ملے؛ ان کی تلاش پر مبنی یادداشت «دی ریٹرن» (2016) نے پلیٹزر پرائز جیتا۔ ان کے ناولوں میں «ان دی کنٹری آف مین» اور «مائی فرینڈز» شامل ہیں۔"
+roles: [writer]
+wings: [people, living]
+regions: [maghreb, andalus-europe]
+born:
+  edtf: "1970"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "The English and Arabic articles and Wikidata agree on New York City and the year 1970; no source read gives a fuller date. New York City has no place entity, so no born_in edge is written and the birthplace is carried in the summary and prose. A bare Gregorian year 1970 spans two Hijri years (1389 and 1390), so no Hijri year is recorded."
+  sources: [source/wikipedia-hisham-matar-en, source/wikipedia-hisham-matar-ar, source/wikidata-hisham-matar]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-hisham-matar-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion for Matar. Neither article states one, the Arabic article's infobox religion field is blank, and Wikidata carries no religion statement. Matar's own writing recounts that at his English boarding school he was made to live under a false identity and to pretend that he was Christian, though not religious: that was a cover imposed under threat to his family, which he describes as pretence, and it is expressly not treated as an attestation of any faith. Recorded as unknown on absence of attestation."
+    sources: [source/wikipedia-hisham-matar-en, source/wikipedia-hisham-matar-ar, source/wikidata-hisham-matar]
+external_ids: { wikidata: "Q673985" }
+sources: [source/wikipedia-hisham-matar-en, source/wikipedia-hisham-matar-ar, source/wikidata-hisham-matar]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1372487849), Arabic Wikipedia (revision 76081535) and Wikidata Q673985 (item revision 2560677550, re-asserted against a second live query), all fetched via the MediaWiki API on 1 November 2026; QID grounded from the English article's page property. Existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-157a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

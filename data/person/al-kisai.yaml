@@ -1,0 +1,31 @@
+id: person/al-kisai
+education:
+  did_you_know:
+    ar: "الكسائي علي بن حمزة شيخ قراءة الكوفة ونحوها ومعلم الهادي والأمين والرشيد؛ مات بالري سنة ١٨٩هـ وهو يصحب الرشيد."
+    en: "Al-Kisa'i, Ali ibn Hamza, was shaykh of Kufa's recitation and grammar and tutor to al-Hadi, al-Amin and al-Rashid; he died at Rayy in 189 AH in al-Rashid's company."
+    ur: "کسائی علی بن حمزہ، کوفہ کے قراءت و نحو کے شیخ اور ہادی، امین اور رشید کے معلم؛ 189ھ میں رے میں رشید کے ہمراہ وفات پائے۔"
+    sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim]
+class: person
+label: { ar: "الكسائي النحوي", en: "al-Kisa'i the Grammarian" }
+summary:
+  ar: "علي بن حمزة الكسائي شيخ قراءة الكوفة ونحوها ومعلم الهادي والأمين والرشيد؛ دفن بالري. وعند المسعودي مات سنة تسع وثمانين ومائة وكان شخص مع الرشيد إلى الري فمات بها {cite:muruj-al-dhahab p. 331}، وعند ابن النديم هو علي بن حمزة بن عبد الله بن بهمن بن فيروز أصله أعجمي من القراء السبعة من أهل الكوفة ومنشؤه بها وكان يتنقل في البلدان ومات بقرية من قرى {cite:fihrist-ibn-al-nadim p. 76}، وهو الذي ناظر سيبويه وحاكمه إلى فصحاء الأعراب فكان على الصواب وكلمه عند يحيى بن خالد فأجازه بعشرة آلاف درهم {cite:fihrist-ibn-al-nadim p. 143}"
+  en: "Ali ibn Hamza al-Kisa'i, master of Kufa's reading and grammar and tutor of al-Hadi, al-Amin and al-Rashid; buried at Rayy."
+wings: [people]
+external_ids: { wikidata: "Q3814349" }
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+status:
+  review: published
+  completeness: 3
+
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 50–51" }
+born: { edtf: "737~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kisa'i' / R. Sellheim; d. 189 AH)" }
+died: { edtf: "805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kisa'i' / R. Sellheim; d. 189 AH)" }
+relations:
+  - { type: buried_in, target: place/rayy, note: "From text: buried at Rayy.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/qiraat-inda-al-tabari-thesis-umm-al-qura] }

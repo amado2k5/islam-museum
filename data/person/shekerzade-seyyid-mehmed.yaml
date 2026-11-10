@@ -1,0 +1,36 @@
+id: person/shekerzade-seyyid-mehmed
+class: person
+label:
+  ar: "شكر زاده سيد محمد"
+  en: "Sekerzade Seyyid Mehmed"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لشكر زاده سيد محمد، خطاط عثماني القرن الثامن عشر، توفي سنة ١٧٥٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sekerzade Seyyid Mehmed, the eighteenth-century Ottoman calligrapher, d. 1753; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1753", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: place/karacaahmet-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q578506)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q108760963
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0075
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

@@ -1,0 +1,38 @@
+id: person/abu-al-husayn-al-jallabi-al-tabari
+class: person
+label: { ar: "أبو الحسين الجلابي الطبري", en: "Abu al-Husayn al-Jallabi al-Tabari" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسين الجلابي الطبري" }
+gender: male
+roles: [jurist, teacher]
+traditions: [sunni]
+died: { hijri: "0375", edtf: "0985~", calendar: julian, precision: year, status: tradition, derived: true, note: "مستنتج: الشيرازي يقول إنه مات قبل الداركي بسبعة عشر يوماً (PDF ص64)، والداركي توفي في 13 شوال 375 بحسب حاشية المحقق (PDF ص64، حاشية 3). مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو الحسين الجلابي الطبري، تفقه في بلده وحضر مجلس الداركي ثم درّس في حياته، ومات قبل الداركي بسبعة عشر يوماً، وكان فقيهاً فاضلاً عارفاً بالحديث {cite:tabaqat-fuqaha-abbas-1981 p. 64}."
+  en: "Abu al-Husayn al-Jallabi al-Tabari studied jurisprudence in his town, attended the circle of al-Daraki, then taught during his own lifetime; he died seventeen days before al-Daraki. He was a virtuous jurist, versed in hadith {cite:tabaqat-fuqaha-abbas-1981 p. 64}."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch86
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

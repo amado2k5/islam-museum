@@ -1,0 +1,22 @@
+id: person/salih-ibn-muhammad-al-hariri
+class: person
+label: { ar: "صالح بن محمد الحريري", en: "Salih al-Hariri" }
+summary:
+  ar: "من ندماء المنتصر في أيام إمارته، سأله هل عشقت قط فحكى له أنه أحب جارية قينة أم ولد الرشيد بالرصافة أيام المعتصم وهددته حين راسلها، فبعث المنتصر فأحضرها فإذا عجوز حدبت وعنست وبها بقية جمال فزوجه إياها وأمهرها ونثر عليه الجوز المرصص والفرك المخلق فأقامت معه مدة ثم ملها ففارقها {cite:muruj-al-dhahab p. 522-524}."
+  en: "Al-Muntasir's drinking-companion whose decades-old love for Qayna's freedwoman was fulfilled with a hunched bride and a pelting of leaded walnuts — he soon divorced her {cite:muruj-al-dhahab p. 522-524}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch29
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "1251", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+relations:
+  - { type: lived_in, target: place/qayna, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

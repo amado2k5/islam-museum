@@ -1,0 +1,23 @@
+id: person/al-fudayl-ibn-iyad
+class: person
+label: { ar: "الفضيل بن عياض", en: "al-Fudayl ibn 'Iyad" }
+summary:
+  ar: "أبو علي، مولده بخراسان قدم الكوفة وسمع من المنصور بن المعتمر ثم تعبد وانتقل إلى مكة فأقام بها حتى مات سنة سبع وثمانين ومائة، دخل على الرشيد مقنعاً رأسه فقال له أنت يا حسن الوجه الذي أمر هذه الأمة في يدك وعنقك لقد تقلدت أمراً عظيماً فبكى الرشيد، واستعفى من البدرة فلما عذله سفيان بن عيينة قال لو طابت لأولئك لطابت لي {cite:muruj-al-dhahab p. 341-342}."
+  en: "The Kufan-born ascetic of Mecca who told al-Rashid to his face 'a mighty charge' — and refused the gift-bag lest it be impure {cite:muruj-al-dhahab p. 341-342}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+external_ids: { wikidata: "Q3063361" }
+sources: [source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "803", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/muruj-al-dhahab, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/assabile-abu-ishaq-alheweny], confidence: low }

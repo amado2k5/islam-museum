@@ -1,0 +1,29 @@
+id: person/sabanzade-mehmed-efendi
+class: person
+label:
+  ar: "شعبان زاده محمد أفندي"
+  en: "Sabanzade Mehmed Efendi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لشعبان زاده محمد أفندي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sabanzade Mehmed Efendi, the Ottoman writer, d. 1708; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1702", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: died_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q43387)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q135468867
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0092
+status:
+  review: draft
+  completeness: 1

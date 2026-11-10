@@ -1,0 +1,31 @@
+id: person/ibn-al-khashshab-abd-allah
+class: person
+label: { ar: "ابن الخشاب عبد الله بن أحمد", en: "Ibn al-Khashshab, Abd Allah ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أحمد بن أحمد بن عبد الله بن نصر الخشاب" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1099", hijri: "0492", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1171", hijri: "0567", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "نحوي من بغداد، لم تورد المصادر من أخباره إلا القليل."
+  en: "A Baghdad grammarian, about whom the sources record little."
+wings: [people]
+themes: [linguistics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص280"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57

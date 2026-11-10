@@ -1,0 +1,29 @@
+id: media/diagram-elephant-clock
+class: media
+kind: illustration
+label:
+  ar: "رسم: تقاليد الحيل وساعة الفيل ونسخ الكتاب"
+  en: "Diagram: automata traditions, elephant clock and manuscript copies"
+  ur: "خاکہ: خودکار حیلوں کی روایت، ہاتھی گھڑی اور کتاب کی نقلیں"
+summary:
+  ar: "سلسلة علاقات يرسمها الموقع وقت البناء، لا رسم توصيلات الآلة أو مخطط أجزائها الخفية."
+  en: "A relationship chain drawn by the site at build time, not the machine's wiring or a plan of its hidden parts."
+  ur: "سائٹ کی تعمیر کے وقت بننے والا تعلقات کا سلسلہ، مشین کی تاروں یا چھپے اجزا کا نقشہ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/elephant-clock]
+alt:
+  ar: "تقاليد الساعات والحيل تسبق آلة الجزري، وتتبعها نسخ الكتاب المصورة، دون سهم يدعي أنها أصل روبوت حديث."
+  en: "Earlier clock and automata traditions precede al-Jazari's machine, followed by illustrated copies of his book, without an asserted line to a modern robot."
+  ur: "پہلے کی گھڑیوں اور حیلوں کی روایت سے جزری کی مشین، پھر مصور نقلوں تک تعلق؛ جدید روبوٹ کی بنیاد ہونے کا تیر نہیں۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)"
+  version: "1"
+  date: "2026-11-06"
+sources: [source/tdv-cezeri, source/met-elephant-clock-575123]
+status: { review: published, completeness: 2, generated_by: "Copilot SDK in VS Code" }
+provenance:
+  generated_by: "Copilot SDK in VS Code"
+  model: "unknown"
+  run: "inventions-p3-b16"
+  source: "TDV CEZERÎ and Met 57.51.23 Catalogue Entry"

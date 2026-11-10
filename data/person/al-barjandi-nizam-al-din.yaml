@@ -1,0 +1,30 @@
+id: person/al-barjandi-nizam-al-din
+class: person
+label: { ar: "البرجندي نظام الدين عبد العالي", en: "Al-Barjandi, Nizam al-Din Abd al-Ali" }
+names:
+  - { kind: full, lang: ar, value: "نظام الدين عبد العالي بن محمد البرجندي" }
+gender: male
+roles: [philosopher, scholar]
+traditions: [sunni]
+died: { edtf: "1528", hijri: "0935", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل برجند بإقليم خراسان، ولد في أواسط القرن التاسع الهجري."
+  en: "From Barjand in Khurasan, born in the middle of the ninth century AH."
+wings: [people]
+themes: [philosophy-and-logic]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص303"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch50
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

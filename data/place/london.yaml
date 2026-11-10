@@ -1,0 +1,37 @@
+id: place/london
+class: place
+kind: city
+label:
+  ar: لندن
+  en: London
+  ur: لندن
+summary:
+  ar: عاصمة المملكة المتحدة على نهر التايمز؛ مركز الإمبراطورية التي حكمت كثيراً من بلاد المسلمين، ومنذ القرن العشرين موطن إحدى أكبر الجاليات المسلمة في أوروبا وأقدم مساجدها.
+  en: Capital of the United Kingdom on the Thames; seat of the empire that ruled much of the Muslim world and, since the twentieth century, home to one of Europe's largest Muslim communities and oldest mosques.
+  ur: دریائے ٹیمز پر برطانیہ کا دارالحکومت؛ اس سلطنت کا مرکز جس نے مسلم دنیا کے بڑے حصے پر حکومت کی، اور بیسویں صدی سے یورپ کی بڑی مسلم آبادی کا گھر۔
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 51.5074
+- -0.1278
+coordinate_precision: locality
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q84
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q84 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q84; coordinates the city's gazetteer point

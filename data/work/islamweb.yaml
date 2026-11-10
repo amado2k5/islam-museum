@@ -1,0 +1,41 @@
+id: work/islamweb
+class: work
+kind: website
+label:
+  ar: "إسلام ويب"
+  en: "Islamweb"
+  ur: "اسلام ویب"
+summary:
+  ar: "بوابة إسلامية قطرية تتبع وزارة الأوقاف والشؤون الإسلامية، أُطلقت سنة 1998 موقعًا للفتوى ثم اتسعت إلى القرآن والاستشارات والصوتيات والمقالات والمكتبة، بست لغات؛ ذكرت صحيفة البينسولا سنة 2023 نحو 300 ألف فتوى و200 ألف استشارة وأكثر من نصف مليون ملف صوتي وثمانية ملايين صفحة."
+  en: "A Qatari Islamic portal of the Ministry of Awqaf and Islamic Affairs, launched in 1998 as a fatwa site and widened to the Qur'an, consultations, audio, articles and a library, in six languages; The Peninsula reported in 2023 nearly 300,000 fatwas, 200,000 consultations, more than half a million audio files and eight million pages."
+  ur: "وزارتِ اوقاف و امورِ اسلامیہ قطر کا اسلامی پورٹل، 1998 میں فتویٰ کی سائٹ کے طور پر شروع ہوا، پھر قرآن، مشاورت، صوتیات، مضامین اور لائبریری تک پھیلا، چھ زبانوں میں؛ دی پینسولا نے 2023 میں تقریباً 3 لاکھ فتوے، 2 لاکھ مشاورتیں، پانچ لاکھ سے زیادہ صوتی فائلیں اور اسی لاکھ صفحات بتائے۔"
+wings: [words, today]
+url: "https://www.islamweb.net"
+launched:
+  edtf: "1998"
+  hijri: "1418~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Launched in 1998 (The Peninsula, 12 April 2023, relaying the ministry); the earliest archived capture of islamweb.net is of 9 October 1999. The Hijri year (1418 to 1419) is converter-derived."
+  sources: [source/peninsula-islamweb-25-years-2023, source/wayback-islamweb-1999]
+languages: [ar, en, fr, es, de, id]
+publisher: group/ministry-of-awqaf-qatar
+archive_url: "https://web.archive.org/web/19991009211542/http://www.islamweb.net:80/"
+content_type: fatwa
+orientation: { value: "states its aim as spreading 'the correct Islamic creed' and Shari'a sciences based on the Qur'an and the Sunna", basis: self-described }
+footprint:
+  wikipedia: { languages: [ar, fi, hi, ru], checked: "2026-11-06", sources: [source/wikidata-islamweb] }
+  wikidata: "Q12182206"
+external_ids:
+  wikidata: Q12182206
+made: { by_muslims: true, basis: documented, sources: [source/peninsula-islamweb-25-years-2023] }
+sources: [source/peninsula-islamweb-25-years-2023, source/wikipedia-islamweb-ar, source/wikidata-islamweb, source/wayback-islamweb-1999, source/islamweb]
+provenance:
+  layer: own-research
+  source: "The Peninsula (12 April 2023), Arabic Wikipedia «إسلام ويب» (revision 76358964, 28 August 2026), Wikidata Q12182206 and the Internet Archive captures of October 1999, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

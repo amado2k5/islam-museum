@@ -1,0 +1,23 @@
+id: event/langah-multan-1437
+class: event
+kind: founding
+label: { ar: "قيام سلطنة اللنكاه بالملتان ١٤٣٧م", en: "The Langah sultanate rises at Multan, 1437" }
+summary:
+  ar: "بعدما ضعفت قبضة السيديين على النواحي صارت الملتان مركز دولة اللنكاه التي حكمت من سنة ١٤٣٧م إلى ١٥٢٦م، وتصدت بجدارة لمحاولات اللوديين ضمّ الملتان إلى دولتهم {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  en: "As the Sayyids' grip on the area weakened, Multan became the centre of the Langah dynasty, which ruled from 1437 to 1526 and successfully defied Lodi attempts to incorporate Multan into their state {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}."
+  ur: "جب سیدوں کی گرفت اس علاقے پر کمزور ہوئی تو ملتان لنگاہ خاندان کا مرکز بن گیا، جس نے 1437ء سے 1526ء تک حکومت کی اور لودھیوں کی کوششوں کو — جن میں ملتان کو ان کی ریاست میں ملانا مقصود تھا — کامیابی سے روکا {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+date:
+  start: { edtf: "1437", hijri: "0841", calendar: julian, precision: year, status: tradition, derived: true, note: "بداية حكم اللنكاه ١٤٣٧م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}؛ التحويل مشتق.", sources: [source/encyclopaedia-of-islam-2] }
+  end: { edtf: "1526", hijri: "0932", calendar: julian, precision: year, status: tradition, derived: true, note: "هزيمة اللنكاه على أيدي الأرغون سنة ١٥٢٦م {cite:encyclopaedia-of-islam-2 vol. 7 p. 603}.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN, p. 603 (PDF pages) — the Langah dynasty 1437-1526 centred at Multan"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

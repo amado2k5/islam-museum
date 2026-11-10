@@ -1,0 +1,21 @@
+id: person/khosrow-ii-parviz
+class: person
+label: { ar: "كسرى أبرويز بن هرمز" }
+summary:
+  ar: "ملك من ملوك الفرس الساسانيين، ذكره الطبري تحت عنوان «ذكر ملك كسرى أبرويز بن هرمز» {cite:tabari-tarikh-abu-al-fadl j.2 p.176}. يُروى في هذا الموضع ما قيل في سني ملكه وأخباره."
+gender: male
+born: { edtf: "590", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/tabari-tarikh-abu-al-fadl] }
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+

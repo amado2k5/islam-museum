@@ -1,0 +1,85 @@
+id: invention/tusi-linear-astrolabe
+class: invention
+label: { ar: "أسطرلاب شرف الدين الطوسي الخطي", en: "Sharaf al-Din al-Tusi's linear astrolabe", ur: "شرف الدین طوسی کا خطی اسطرلاب" }
+names:
+  - { kind: alternate, lang: ar, value: "عصا الطوسي" }
+  - { kind: alternate, lang: en, value: "Staff of al-Tusi" }
+summary:
+  ar: "تكييف الأسطرلاب إلى مسطرة مدرجة وخيوط؛بساطة الشكل لا تعني تساوي جميع وظائفه مع المسطح {cite:carra-vaux-linear-astrolabe-1895 pp467-468}."
+  en: "Astrolabe adapted into graduated staff and threads;simple form did not preserve every plane-astrolabe function equally {cite:carra-vaux-linear-astrolabe-1895 pp467-468}."
+  ur: "اسطرلاب کو مدرج عصا و دھاگوں میں ڈھالنا؛سادہ شکل میں ہر مسطح وظیفہ برابر محفوظ نہیں {cite:carra-vaux-linear-astrolabe-1895 pp467-468}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics, engineering]
+wings: [objects, ideas]
+regions: [levant-iraq, persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "11XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "Twelfth-century attribution horizon from scholarly biographies,not a dated surviving staff or precise manufacture. TDV rejects1209 lifetime inference;no invented birth/death or Hijri conversion."
+    sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel]
+  status_today: replaced
+origin:
+  place: place/mosul
+  context:
+    ar: "سياق تعليم شرف الدين وتلميذه ابن يونس،لا إثبات أن أول عصا صنعت بالموصل {cite:tdv-sharaf-tusi-ozel biography}."
+    en: "Sharaf's teaching and pupil Ibn Yunus context,not proof the first staff was manufactured at Mosul {cite:tdv-sharaf-tusi-ozel biography}."
+    ur: "شرف الدین و شاگرد ابن یونس کے تدریسی ماحول کا سیاق،پہلی عصا موصل میں بنی ہونے کا ثبوت نہیں {cite:tdv-sharaf-tusi-ozel biography}۔"
+makers:
+  - person: person/sharaf-al-din-al-tusi
+    role: inventor
+    note: "Specific linear-astrolabe adaptation credited by biographies;not Nasir al-Din,all astrolabes or Jacob's staff."
+    sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel, source/carra-vaux-linear-astrolabe-1895]
+attribution:
+  status: improvement
+  claim:
+    ar: "نقل أدوات حساب الأسطرلاب المسطح إلى عصا وخيوط."
+    en: "Adapted plane-astrolabe computation to a staff and threads."
+    ur: "مسطح اسطرلاب کے حساب کو عصا و دھاگوں میں ڈھالا۔"
+  basis:
+    ar: "السير تنسب العصا لشرف الدين؛النشر1895 شاهد المراكشي اللاحق لا خط المخترع،ويصحح خلط ناصر الدين {cite:tdv-sharaf-tusi-ozel astrolabe} {cite:carra-vaux-linear-astrolabe-1895 p465}."
+    en: "Biographies credit Sharaf;1895 edition is later Marrakushi witness,not inventor autograph,and corrects confusion with Nasir {cite:tdv-sharaf-tusi-ozel astrolabe} {cite:carra-vaux-linear-astrolabe-1895 p465}."
+    ur: "سوانح شرف الدین کو نسبت دیتی ہیں؛1895 ایڈیشن بعد کے مراکشی کا شاہد ہے،مخترع کا خودنوشت نہیں،ناصر کا خلط درست کرتا ہے {cite:tdv-sharaf-tusi-ozel astrolabe} {cite:carra-vaux-linear-astrolabe-1895 p465}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الأسطرلاب المسطح وإسقاط دوائر السماء", en: "Plane astrolabe and projected celestial circles", ur: "مسطح اسطرلاب و فلکی دائروں کا اسقاط" }
+    note: "Mathematical adaptation,not invention of projection or angular observation."
+    sources: [source/carra-vaux-linear-astrolabe-1895]
+dependents:
+  - external: { ar: "تعديل ابن يونس ووصف المراكشي", en: "Ibn Yunus's modification and Marrakushi's description", ur: "ابن یونس کی تبدیلی و مراکشی کی تفصیل" }
+    note: "Reported textual reception;not inspected medieval artifact,global adoption or proven Jacob-staff lineage."
+    sources: [source/tdv-sharaf-tusi-ozel]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "مثال على إعادة توزيع الحساب بين تدريج خطي وخيط متحرك {cite:carra-vaux-linear-astrolabe-1895 p467}."
+    en: "Reallocated calculation between linear graduation and movable thread {cite:carra-vaux-linear-astrolabe-1895 p467}."
+    ur: "حساب کو خطی درجہ بندی و حرکت پذیر دھاگے میں تقسیم کیا {cite:carra-vaux-linear-astrolabe-1895 p467}۔"
+  history:
+    ar: "بقي في أوصاف ونصوص مع قيود معلنة في استخراج السموت {cite:carra-vaux-linear-astrolabe-1895 p514}."
+    en: "Preserved in descriptions with explicit limits in determining azimuths {cite:carra-vaux-linear-astrolabe-1895 p514}."
+    ur: "تفصیلات میں محفوظ،سمتوں کے حصول کی صریح حدود کے ساتھ {cite:carra-vaux-linear-astrolabe-1895 p514}۔"
+  significance: 3
+  why: "Documented linear adaptation of a plane astronomical computer,with primary translated limitations and separated maker identities."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "موضوع تاريخ الأدوات والحساب،لا جهاز ملاحة موصى به.", en: "History of instruments/computation,not a recommended navigation device.", ur: "تاریخ آلات و حساب کا موضوع،تجویز کردہ بحری آلہ نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لعصا يعقوب أو المسطرة الحاسبة الحديثة.", en: "No demonstrated Jacob-staff or modern slide-rule descent.", ur: "عصائے یعقوب یا جدید سلائیڈ رول کا ثابت نسب نہیں۔" }
+media: { image: media/tusi-linear-geometry-context, diagram: media/diagram-tusi-linear-astrolabe }
+kids:
+  ar: "مثال هندسي على الورق فقط،بلا رصد الشمس أو توجيه عصا إلى عين."
+  en: "Paper geometry only,no observing the Sun or pointing a staff at an eye."
+  ur: "صرف کاغذی ہندسہ،سورج دیکھنا یا آنکھ کی طرف عصا کرنا نہیں۔"
+sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel, source/carra-vaux-linear-astrolabe-1895, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b70", source: "Actual MacTutor/TDV and selected1895 translated Marrakushi witness;modern paper chord example independently derived,no original-manuscript collation." }

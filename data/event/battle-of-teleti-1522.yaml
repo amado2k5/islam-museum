@@ -1,0 +1,23 @@
+id: event/battle-of-teleti-1522
+class: event
+kind: battle
+label: { ar: "معركة تيليتي", en: "Battle of Teleti" }
+summary:
+  ar: "بطاقة أولية لمعركة تيليتي سنة ١٥٢٢م، فوز الصفويين على مملكة كارتلي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Teleti in 1522, the Safavid victory over the Kingdom of Kartli; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1522", precision: year, status: tradition, derived: true }
+  end: { edtf: "1522", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q12865036
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

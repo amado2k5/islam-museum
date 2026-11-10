@@ -1,0 +1,36 @@
+id: person/khalid-ibn-abi-imran
+class: person
+label: { ar: "خالد بن أبي عمران", en: "Khalid ibn Abi Imran" }
+names:
+  - { kind: full, lang: ar, value: "خالد بن أبي عمران التجيبي التونسي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "0745~", hijri: "0127", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه تونسي من تجيب، كنيته أبو عمر، ومن علماء التابعين في إفريقية."
+  en: "A Tunisian jurist of the Tujib tribe, with the kunya Abu Umar, and one of the Successors in Ifriqiya."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/umayyad]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص427"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

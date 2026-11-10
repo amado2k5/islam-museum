@@ -1,0 +1,19 @@
+id: media/diagram-karaji-binomial-coefficient-recurrence
+class: media
+kind: illustration
+label: { ar: "سلسلة القاعدة والشاهد النصي", en: "Recurrence and textual-witness chain", ur: "تکراری قاعدے اور متنی شاہد کی زنجیر" }
+summary:
+  ar: "سلسلة مفهومية يرسمها مكوّن المتحف القائم؛ ليست هندسة جديدة للمثلث أو نقلاً عن المخطوط."
+  en: "Conceptual chain rendered by the existing museum component; not new triangle geometry or a manuscript transcription."
+  ur: "متحف کے موجودہ جزو کی مفہومی زنجیر؛ نئی مثلثی ہندسہ یا مخطوط کی نقل نہیں۔"
+license: CC0
+creator: islam.museum
+depicts: [invention/karaji-binomial-coefficient-recurrence]
+alt:
+  ar: "عقدة حساب المقادير عند الكرجي وعقدة الجبر السابق، ثم قاعدة المعاملات وأسماء الكرجي والسموأل، ثم عقدة الشاهد في الباهر؛ سلسلة علاقات لا صفوف أعداد."
+  en: "Karaji's expression-arithmetic and earlier-algebra nodes, then the coefficient rule with Karaji and al-Samawal named, then the al-Bahir textual-witness node; a relationship chain, not rows of numbers."
+  ur: "کرجی کے حساب اور پہلے الجبرا کی گرہیں، پھر ضریب کا قاعدہ اور کرجی و سموأل کے نام، پھر الباہر کے متنی شاہد کی گرہ؛ تعلقاتی زنجیر، عددی صفیں نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (existing generic chain rendered at build time)", version: "1", date: "2026-11-07" }
+sources: [source/karaji-mactutor, source/samawal-mactutor, source/samawal-dsb]
+provenance: { layer: own-research, generated_by: github-copilot, model: unknown, run: inventions-p3-b98, source: "Existing renderer inspected; alt describes actual record-derived predecessor/owner/maker/dependent nodes. No image-generation call or renderer change." }
+status: { review: published, completeness: 3 }

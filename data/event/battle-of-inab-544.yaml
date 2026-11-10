@@ -1,0 +1,23 @@
+id: event/battle-of-inab-544
+class: event
+kind: battle
+label: { ar: "معركة عناب", en: "Battle of Inab" }
+summary:
+  ar: "بطاقة أولية لمعركة عناب سنة ١١٤٩م، نصر نور الدين زنكي على الفرنج وهلاك ريموند أنطاكية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Inab in 1149, Nur al-Din Zengi's victory over the Franks in which Raymond of Antioch fell; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1149", precision: year, status: tradition, derived: true }
+  end: { edtf: "1149", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q1328380
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

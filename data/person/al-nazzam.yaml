@@ -1,0 +1,26 @@
+id: person/al-nazzam
+class: person
+label: { ar: "النظام", en: "al-Nazzam" }
+summary:
+  ar: "إبراهيم بن يسار المعتزلي من نظار البصريين، قال في مجلس يحيى إن العشق أرق من السراب وأدب من الشراب وهو من طينة عطرة عجنت في إناء الجلالة حلو المجتنى ما اقتصد فإذا أفرط عاد خبلاً قاتلاً {cite:muruj-al-dhahab p. 358-359}. وهو إبراهيم بن سيار بن هانئ النظام يكنى أبا إسحاق كان متكلما شاعرا أديبا وكان يتعنف أبا نواس وله فيه عدة مقطعات وإياه عنى أبو نواس بقوله فقل لمن يدعي في العلم فلسفة حفظت شيئا وغابت عنك أشياء، وذلك أنه كان يدعوه إلى القول بالوعيد فيأبى عليه {cite:fihrist-ibn-al-nadim p. 526}"
+  en: "Ibrahim ibn Sayyar the Mu'tazili — 'finer than mirage, subtler than wine' — whose dosed-love definition closed the named speakers {cite:muruj-al-dhahab p. 358-359}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن; Kitab al-Hayawan (Dar al-Kutub al-'Ilmiyya 2003) vol. 1 p. 4, vol. 2 p. 478, vol. 3 pp. 3-10, 104, 445-446; al-Farq bayn al-Firaq (Tawfiqiyya) pp. 109-110"
+  generated_by: "Devin (SWE-2 Medium); enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+external_ids: { wikidata: "Q287501" }
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/nihayat-al-arab-nuwayri-vol3-scan, source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2, source/hayawan-jahiz-ilmiyya-2003-v3, source/farq-bayn-al-firaq-tawfiqiyya, source/wikidata]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "760", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+died: { edtf: "845", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+relations:
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

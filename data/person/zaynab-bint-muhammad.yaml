@@ -1,0 +1,93 @@
+id: person/zaynab-bint-muhammad
+education:
+  did_you_know:
+    ar: "زينب بنت محمد أكبر بناته وأول من تزوج منهن؛ أجارت زوجها أبا العاص في المدينة وأعادها النبي إليه بعد إسلامه."
+    en: "Zaynab, the Prophet's eldest daughter and the first of them to wed, sheltered her husband Abu'l-As in Medina, and the Prophet restored her to him after his Islam."
+    ur: "زینب بنت محمد، نبی کی بڑی بیٹی اور اولین شادی کرنے والی؛ انہوں نے مدینہ میں اپنے شوہر ابوالعاص کو پناہ دی اور ان کے اسلام لانے کے بعد نبی نے ان سے دوبارہ ملایا۔"
+    sources: [source/ibn-hajar-isaba, source/mubarakpuri-raheeq]
+class: person
+label:
+  ar: زينب بنت محمد
+  en: Zaynab bint Muhammad
+names:
+- kind: full
+  lang: ar
+  value: زينب بنت محمد بن عبد الله بن عبد المطلب القرشية الهاشمية
+gender: female
+died:
+  edtf: "0629~"
+  hijri: "0008"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: توفيت في أول سنة ثمان من الهجرة (عن عبد الله بن أبي بكر بن حزم، كما في الإصابة)؛ ويذكر الكتاب وفاتها سنة ثمان متأثرة بمرض النزف الذي لازمها منذ هجرتها (نساء حول الرسول ص399).
+  sources:
+  - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أكبر بنات النبي وأول من تزوج منهن؛ زوجها أبو العاص بن الربيع، وأجارته في المدينة، وأعادها النبي إليه بعد إسلامه، وتوفيت في أول سنة 8هـ.
+  en: The Prophet's eldest daughter, married to Abu al-As ibn al-Rabi; she gave him protection in Medina, the Prophet returned her to him after he embraced Islam, and she died at the start of 8 AH.
+wings: [people]
+themes:
+- women
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 11302 (ص 1887).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+
+- { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba, source/nisa-hawl-alrasul, source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+- type: child_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/khadija
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/abu-al-as-ibn-al-rabi
+  note: تزوجها أبو العاص بن الربيع قبل الوحي؛ فدتْه يوم بدر بقلادة أدخلتها بها أمها خديجة عليه، وقدّم لها أخوه كنانة بن الربيع بعيراً يوم خروجها مهاجرة (نساء حول الرسول ص444-446).
+  sources:
+  - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+- type: sibling_of
+  target: person/fatima
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11302، ص 1887 (تراجم النساء)
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+external_ids: { wikidata: "Q1164707" }
+sources:
+- source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+- source/fath-al-bari
+- source/fiqh-al-sira-al-ghazali
+- source/assabile-tareq-al-suwaidan
+status:
+  review: published
+  completeness: 3

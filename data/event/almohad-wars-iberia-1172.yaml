@@ -1,0 +1,23 @@
+id: event/almohad-wars-iberia-1172
+class: event
+kind: war
+label: { ar: "الحروب الموحدية في الأندلس", en: "Almohad Wars in Iberia" }
+summary:
+  ar: "بطاقة أولية للحروب الموحدية في الأندلس في ١١٧٢–١٢١٢م، حملات الموحدين حتى معركة العقاب؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Almohad wars in Iberia, 1172–1212, the Almohad campaigns ending at Las Navas; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1172", precision: year, status: tradition, derived: true }
+  end: { edtf: "1212", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2993572
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

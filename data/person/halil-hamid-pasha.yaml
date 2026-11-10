@@ -1,0 +1,37 @@
+id: person/halil-hamid-pasha
+class: person
+label:
+  ar: "خليل حميد باشا"
+  en: "Halil Hamid Pasha"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لخليل حميد باشا، الصدر الأعظم العثماني في ١٧٨٢–١٧٨٥م المعروف بالإصلاحات والسفارات، أُعدم سنة ١٧٨٥م؛ تذكره كتب التاريخ العثماني ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Halil Hamid Pasha, the reform-minded Ottoman grand vizier of 1782–1785 known for diplomacy, executed in 1785; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1785", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/isparta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/bozcaada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/karacaahmet-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5642307
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0024
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "The SADRAZAM entry names him among the eighteenth-century grand viziers who stand out, and among those who came to the office from the scribal service after Karlowitz."
+    sources: [source/tdv-sadrazam]

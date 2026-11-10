@@ -1,0 +1,27 @@
+id: event/nuwayri-dream-729
+class: event
+kind: other
+label:
+  ar: "منام الإيوان البحري: النويري ما زال بالناصرية، ١٣ ذي القعدة ٧٢٩هـ/٨ سبتمبر ١٣٢٩م"
+  en: "The Iwan al-Bahri dream: al-Nuwayri still at the Nasiriyya, 13 Dhu al-Qa'da 729/8 September 1329"
+  ur: "ایوان بحری کا خواب: نويری اب بھی ناصریہ میں، 13 ذیقعدہ 729ھ/8 ستمبر 1329ء"
+summary:
+  ar: "يظهر أن النويري واصل الإقامة بالمدرسة الناصرية: يذكر مناماً رآه في أحد أروقتها المسمى الإيوان البحري ليلة الجمعة ١٣ ذي القعدة ٧٢٩هـ/٨ سبتمبر ١٣٢٩م؛ وليس معلوماً في أي تاريخ بالضبط فارق الإدارة متفرغاً للتصنيف {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}."
+  en: "It seems al-Nuwayri continued to reside at the Nasiriyya madrasa: he mentions a dream he had at that time in one of its iwans called al-Iwan al-Bahri, on the eve of Friday 13 Dhu al-Qa'da 729/8 September 1329; the exact date he abandoned administration to devote himself to composition is not known {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}."
+  ur: "ظاہر ہے نويری ناصریہ مدرسہ میں ہی مقیم رہے: انہیں اس وقت ایک خواب آیا جس کا ذکر کرتے ہیں، مدرسہ کے ایک ایوان — ایوان بحری میں — جمعہ کی شب 13 ذیقعدہ 729ھ/8 ستمبر 1329ء؛ یہ تاریخ یقینی نہیں کہ انہوں نے تصنیف کے لیے انتظامیہ کب چھوڑی {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1329-09-08", hijri: "0729-11-13", calendar: julian, precision: day, status: tradition, derived: true, note: "ليلة الجمعة ١٣ ذي القعدة ٧٢٩هـ/٨ سبتمبر ١٣٢٩م {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "المقيم الرائي", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 8 art. al-Nuwayri printed p. 158 (harvest OCR Ned-Sam)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

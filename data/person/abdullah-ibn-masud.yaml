@@ -1,6 +1,12 @@
 id: person/abdullah-ibn-masud
+education:
+  did_you_know:
+    ar: "ابن مسعود راعٍ مكي من أول المسلمين، يذكره التراث أول من جهر بقراءة القرآن في مكة، وصار بالكوفة أستاذ جيلها الأول في العلم."
+    en: "Ibn Mas'ud, a Meccan shepherd among the first Muslims, is remembered by the tradition as the first to recite the Qur'an aloud in Mecca — and at Kufa he became its first generation's teacher."
+    ur: "ابن مسعود، مکہ کے ایک چرواہے اور اولین مسلمانوں میں سے، روایت میں پہلے شخص ہیں جنھوں نے مکہ میں بلند آواز سے قرآن پڑھا — اور کوفہ میں وہ پہلی نسل کے استاد بنے۔"
+    sources: [source/tabaqat-ibn-sad, source/sahih-al-bukhari]
 class: person
-label: { en: "Abdullah ibn Mas'ud", ar: "عبد الله بن مسعود" }
+label: { en: "Abdullah ibn Mas'ud", ar: "عبد الله بن مسعود" , ur: "عبد اللہ بن مسعود"}
 names:
   - { kind: full, lang: ar, value: "عبد الله بن مسعود بن غافل الهذلي" }
 gender: male
@@ -10,7 +16,8 @@ roles: [companion, scholar]
 traditions: [sunni]
 summary:
   en: "A shepherd of Mecca among the first converts, remembered as the first man to recite the Qur'an aloud there; in Kufa he became a founding teacher of its school of learning."
-  ar: "راعٍ مكي من أول المسلمين، يذكره التراث أول من جهر بقراءة القرآن في مكة؛ وفي الكوفة صار أستاذ جيلها الأول في العلم."
+  ar: "راعٍ مكي من أول المسلمين، يذكره التراث أول من جهر بقراءة القرآن في مكة؛ وفي الكوفة صار أستاذ جيلها الأول في العلم. وشهد انشقاق القمر بمنى وهو مع النبي يروي «فقال اشهدوا وذهبت فرقة نحو الجبل» وقال مرة انشق بمكة {cite:sahih-al-bukhari 3869}."
+  ur: "مکہ میں چرواہے اور ابتدائی مسلمانوں میں سے؛ وہاں علانیہ قرآن پڑھنے والے اولین شخص کے طور پر یاد کیے جاتے ہیں۔ {cite:ibn-ishaq-guillaume} کوفہ کے علمی حلقے کی تشکیل میں ان کی تدریس اہم تھی۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [scripture-and-its-sciences, the-poor-and-the-worker]
 periods: [period/prophetic-era, period/rashidun]
@@ -30,5 +37,33 @@ relations:
   - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: lived_in, target: place/kufa, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+  - { type: member_of, target: group/sahaba, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-sad-tabaqat-bewley] }
+external_ids:
+  wikidata: Q423557
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999]
+status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
+  layer: own-research
+  source: "source/tabaqat-ibn-sad"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
+occupations:
+  - job: job/treasurer
+    kind: episodic
+    status: historical
+    note: "The entry says he held the judgeship and the charge of the public treasury in Kufa together under Umar."
+    sources: [source/tdv-hazinedar]
+
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the first group of Companions whose fatwas are numerous (seven named: Umar, Ali, Ibn Masud, Ibn Umar, Ibn Abbas, Zayd ibn Thabit and Aisha)."
+    sources: [source/tdv-fetva]
+  - job: job/amil
+    kind: episodic
+    status: historical
+    note: "The ÂMİL entry says Umar appointed him to Kufa with both tax collection and the judgeship."
+    sources: [source/tdv-amil]

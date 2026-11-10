@@ -1,0 +1,14 @@
+id: person/ardashir-iii-ibn-shiruyeh
+class: person
+label: { ar: "أردشير بن شيرويه" }
+summary:
+  ar: "ملك من ملوك الفرس الساسانيين، ذكره الطبري تحت عنوان «ذكر ملك أردشير بن شيرويه» {cite:tabari-tarikh-abu-al-fadl j.2 p.230}. يُروى في هذا الموضع ما قيل في سني ملكه وأخباره."
+wings: [people]
+gender: male
+born: { edtf: "621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Iranica" }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Iranica" }
+relations:
+  - { type: ruled_over, target: place/iran, note: "Sasanian king.", sources: [source/tabari-tarikh-abu-al-fadl], confidence: medium }
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 9", sources: [source/tabari-tarikh-abu-al-fadl] }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); heading and page of juz' 2 only; reign details not yet read" }

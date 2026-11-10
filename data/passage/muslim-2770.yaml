@@ -1,0 +1,18 @@
+id: passage/muslim-2770
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2770"
+label: { ar: "مسلم 2770 — حديث أم زرع وقصة الإفك", en: "Muslim 2770 — Umm Zar' and the ifk account" }
+text: "قالت عائشة: لما تُهمت بما تهمت به لم أكن أشعر بشيء من ذلك... فتلا رسول الله علينا شيئا من القرآن: «إن الذين جاؤوا بالإفك عصبة منكم» — عشر آيات كلها أو أكثر، فبرأني الله بها"
+summary:
+  ar: "في كتاب التوبة؛ حديث أم زرع ترويه عائشة منقطعا إلى قصة الإفك كاملة بروايتها — غيبتها إثر تساقط قلادتها، ودفاع سعد بن معاذ وسعد بن عبادة، وتلا النبي آيات البراءة من سورة النور. أطول نص سيرة ذاتي ورد في الصحيحين عن حادثة واحدة."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/incident-of-the-slander, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/sad-ibn-muadh, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/sad-ibn-ubada, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: event/incident-of-the-slander, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب التوبة، باب في توبة من قذف المحصنات المؤمنات (طبعة دار التأصيل، الحديث 2872؛ ترقيم عبد الباقي المعروف 2770)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

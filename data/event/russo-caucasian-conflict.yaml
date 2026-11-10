@@ -1,0 +1,23 @@
+id: event/russo-caucasian-conflict
+class: event
+kind: war
+label: { ar: "الصراع الروسي القوقازي", en: "Russo-Caucasian conflict" }
+summary:
+  ar: "بطاقة أولية للصراع الروسي القوقازي منذ القرن السادس عشر، حروب روسيا الطويلة ضد شعوب القوقاز المسلمة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Russo-Caucasian conflict since the sixteenth century, Russia's long wars against the Muslim peoples of the Caucasus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1550", precision: year, status: tradition, derived: true }
+  end: { edtf: "1864", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q131238621
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

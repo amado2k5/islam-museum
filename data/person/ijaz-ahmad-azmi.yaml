@@ -1,0 +1,29 @@
+id: person/ijaz-ahmad-azmi
+class: person
+label:
+  ar: "إعجاز أحمد عظمي"
+  en: "Ijaz Ahmad Azmi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإعجاز أحمد عظمي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ijaz Ahmad Azmi; the entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/modern-era]
+born: { edtf: "1934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
+died: { edtf: "2012", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
+relations:
+  - { type: born_in, target: place/azamgarh-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q113877641
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

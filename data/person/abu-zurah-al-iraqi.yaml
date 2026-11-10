@@ -1,0 +1,29 @@
+id: person/abu-zurah-al-iraqi
+class: person
+label:
+  ar: "أبو زرعة العراقي"
+  en: "Abu Zur'ah al-Iraqi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لولي الدين أبي زرعة العراقي، محدث القرن الخامس عشر، توفي سنة ١٤٢٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Wali al-Din Abu Zur'ah al-Iraqi, the fifteenth-century muhaddith, d. 1423; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12251239
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0048
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Inba' al-Ghumr); al-Sakhawi" }
+died: { edtf: "826", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Inba' al-Ghumr); al-Sakhawi" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (العراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

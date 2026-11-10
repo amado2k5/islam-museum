@@ -1,0 +1,18 @@
+id: person/amr-ibn-zurara
+class: person
+label: { ar: "عمرو بن زرارة بن عدس", en: "Amr ibn Zurara ibn Udas" }
+summary:
+  ar: "من أهل ديار مضر تعلم الخط من بشر بن عبد الملك فيسمى عمرو الكاتب."
+  en: "of Mudar's lands, learned the script from Bishr — he is called Amr the Scribe."
+periods: [period/prophetic-era]
+wings: [people]
+born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/jazira, note: "Of Diyar Mudar in the Jazira.", sources: [source/futuh-buldan-maarif-1407], confidence: low }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

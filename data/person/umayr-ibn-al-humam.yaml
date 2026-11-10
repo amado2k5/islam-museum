@@ -22,5 +22,13 @@ faith:
 relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/battle-of-badr, role: "استُشهد في الهجوم", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq]}
+  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+  - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q27256)" }
 sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/mishkat-al-masabih]
+external_ids: { wikidata: "Q12228622" }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (p. 218)" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 204-233 (p. 218)"
+  generated_by: "Devin"

@@ -1,0 +1,24 @@
+id: event/ibn-battuta-completes-hajj-1326
+class: event
+kind: other
+label: { ar: "ابن بطوطة يتم حجّته الأولى", en: "Ibn Battuta completes his first pilgrimage", ur: "ابن بطوطہ کا پہلا حج مکمل" }
+summary:
+  ar: "سنة 1326م أتم ابن بطوطة الحج، بعد أن مرّ بمصر والشام والتحق بقافلة إلى مكة، ثم عبر الصحراء إلى العراق. {cite:britannica-ibn-battuta}"
+  en: "In 1326 Ibn Battuta completed the pilgrimage, having come through Egypt and Syria with a caravan to Mecca; he then crossed the desert to Iraq."
+  ur: "1326ء میں ابن بطوطہ نے مصر اور شام سے ہوتے ہوئے ایک قافلے کے ساتھ مکہ پہنچ کر حج مکمل کیا، پھر صحرا پار کر کے عراق گئے۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1326", hijri: "0726", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Britannica (Ibn Battuta); the Hijri year is converted from it (derived)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/britannica-ibn-battuta] }
+  - { type: had_participant, target: person/ibn-battuta-muhammad, role: "الحاج", sources: [source/britannica-ibn-battuta] }
+sources: [source/britannica-ibn-battuta]
+status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
+provenance:
+  layer: own-research
+  source: "Britannica, Ibn Battuta, read in the browser on 29 October 2026; ledger docs/authenticity-ledger/pages/britannica-ibn-battuta.yaml"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: "claude-opus-5-5"
+  run: explorer-ibn-battuta

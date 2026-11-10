@@ -1,0 +1,29 @@
+id: person/abu-bakr-al-adani
+class: person
+label:
+  ar: "أبو بكر العدني"
+  en: "Abu Bakr al-Adani"
+roles: [sufi, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي بكر العدني، ولي وشاعر القرن السادس عشر، توفي سنة ١٥٠٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Bakr al-Adani, the sixteenth-century Sufi saint and poet, d. 1509; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3698991
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0055
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1447", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aydarus, al-Nur al-Safir; al-Zirikli, al-A'lam" }
+died: { edtf: "1508", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aydarus, al-Nur al-Safir; al-Zirikli, al-A'lam" }
+relations:
+  - { type: lived_in, target: place/aden, note: "Place association from the person's nisba/name (العدني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

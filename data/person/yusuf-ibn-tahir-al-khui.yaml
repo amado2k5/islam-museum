@@ -1,0 +1,36 @@
+id: person/yusuf-ibn-tahir-al-khui
+class: person
+label:
+  ar: "يوسف بن طاهر الخويي"
+  en: "Yusuf ibn Tahir al-Khu'i"
+roles: [poet, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية ليوسف بن طاهر الخويي، شاعر وقاضٍ القرن الثاني عشر، توفي سنة ١١٥٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yusuf ibn Tahir al-Khu'i, the twelfth-century poet and judge, d. 1154; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba (Yaqut al-Hamawi)" }
+died: { edtf: "1202", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba (Yaqut al-Hamawi)" }
+relations:
+  - { type: born_in, target: place/khoy, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q605105)" }
+  - { type: died_in, target: place/tus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q681427)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q67922959
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0063
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

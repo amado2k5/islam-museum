@@ -1,0 +1,15 @@
+id: passage/muslim-2355
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2355"
+label: { ar: "مسلم 2355 — إن لي أسماء: محمد وأحمد والماحي والحاشر والعاقب", en: "Muslim 2355 — I have names: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib" }
+text: "قال رسول الله: «إن لي أسماء: أنا محمد، وأنا أحمد، وأنا الماحي الذي يمحو الله بي الكفر، وأنا الحاشر الذي يحشر الناس على قدمي، وأنا العاقب الذي ليس بعده نبي»"
+summary:
+  ar: "رواية جبير بن مطعم في باب أسماء النبي من كتاب الفضائل بصحيح مسلم؛ خمسة أسماء نبوية تجمع الدعوة والفناء على الكفر والحشر وختم النبوة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jubayr-ibn-mutim, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب في عدد أسماء رسول الله (طبعة دار التأصيل، الحديث 6252؛ ترقيم عبد الباقي المعروف 2355)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

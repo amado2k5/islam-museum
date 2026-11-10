@@ -1,0 +1,23 @@
+---
+id: concept/kufr-duna-kufr
+lang: en
+source_lang: ar
+translators: ["Claude Code (OCR-harvest worker C), claude-opus-5-5, translation"]
+provenance: { generated_by: "Claude Code (OCR-harvest worker C)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/ibana-kubra-muti-iman pp. 720–746, 938" }
+---
+## Summary
+"Unbelief short of unbelief" (kufr duna kufr) is a phrase by which Sunni scholars distinguish the [[concept/kufr|unbelief]] that takes a person out of Islam from sins that the texts call unbelief but that do not remove one from the religion. In the Book of Faith of [[work/ibana-al-kubra-ibn-batta|al-Ibana al-Kubra]], [[person/ibn-batta-al-ukbari-ubayd-allah|Ibn Batta al-Ukbari]] gathered a chapter on such sins, placing it after the chapter on sins whose doer is parted from faith and regains it if he repents. {cite:ibana-kubra-muti-iman p. 720} {cite:ibana-kubra-muti-iman p. 938}
+
+## The chapter's place in the Book of Faith
+Ibn Batta closed the fifth part by saying that the reports he had brought on the decrease of faith and on a person's leaving it when he commits sins all contradict the doctrine of the [[group/murjia|Murji'a]], who say that the greatest of sinners, if he says there is no god but God, is equal in faith to Gabriel and Michael; and he announced that the sixth part would begin with the chapter on sins that bring their doer to an unbelief that does not take him out of the religion. {cite:ibana-kubra-muti-iman p. 720} The sixth part opens with the chain by which the book was transmitted from Ibn Batta by licence, through Abu al-Qasim Ibn al-Busri, to Abu al-Husayn Ibn al-Zaghuni. {cite:ibana-kubra-muti-iman p. 723}
+
+## What he transmits in the chapter
+In this chapter Ibn Batta lists hadiths and reports that describe acts as unbelief or shirk, among them: Abu Bakr's hadith that shirk is more hidden than the creeping of ants, with the supplication that removes its small and great forms; the hadith that claiming an unknown lineage or disowning one's lineage, however slightly, is unbelief; and the hadith "Do not turn away from your fathers". {cite:ibana-kubra-muti-iman p. 724} {cite:ibana-kubra-muti-iman p. 725} Others are "Reviling a Muslim is iniquity and fighting him is unbelief"; the hadith on going to a diviner or soothsayer; the hadith of three things that are unbelief, lamentation among them; "Do not become unbelievers after me, striking one another's necks"; the hadith of the runaway slave; and reports from Ali, Ibn Mas'ud and Hudhayfa that some amulets and incantations are shirk. {cite:ibana-kubra-muti-iman p. 727} {cite:ibana-kubra-muti-iman p. 729} {cite:ibana-kubra-muti-iman p. 730} {cite:ibana-kubra-muti-iman p. 739} {cite:ibana-kubra-muti-iman p. 742} {cite:ibana-kubra-muti-iman p. 743}
+
+In his notes the editor, Rida Mu'ti, gives the commentators' readings of such wording: Ibn Hajar's, that what is meant is one who holds the act lawful knowing it is forbidden, or ingratitude for a blessing, or that it was said for severity and deterrence; and al-Nawawi's, that there are two readings – that it concerns one who holds it lawful, or that it is ingratitude for blessing and kindness – and that the unbelief that removes one from the religion is not meant. {cite:ibana-kubra-muti-iman p. 725}
+
+## The verse on judging by what God sent down
+The phrase itself comes, in this chapter, from reports explaining [[passage/quran-5-44|the verse of al-Ma'ida]] on those who do not judge by what God sent down. Ibn Batta transmits from Tawus that Ibn Abbas said: "It is unbelief on his part, but not like one who disbelieves in God, His angels, His books and His messengers"; in another version, "It is not the unbelief you are thinking of", which Sufyan explained as an unbelief that does not remove one from the religion. {cite:ibana-kubra-muti-iman p. 734} {cite:ibana-kubra-muti-iman p. 736} He transmits from Tawus, "It is not an unbelief that removes one from the religion", and from Ata', "Unbelief short of unbelief, wrongdoing short of wrongdoing, iniquity short of iniquity". {cite:ibana-kubra-muti-iman p. 735} In a note the editor reports that the commentators differed on the unbelief in this verse: some said it referred to the Jews, others that it is unbelief short of unbelief. {cite:ibana-kubra-muti-iman p. 734}
+
+## Not yet covered
+The account here is drawn from Ibn Batta's chapter and his editor's notes; other Sunni formulations of the question, the doctrines of the Khawarij and Mu'tazila on grave sinners from their own sources, and the modern debate over applying the verse to rulers have not yet been added.

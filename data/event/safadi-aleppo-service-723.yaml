@@ -1,0 +1,30 @@
+id: event/safadi-aleppo-service-723
+class: event
+kind: other
+label:
+  ar: "الصفدي في الخدمة الديوانية: صفد وحلب والرحبة، ٧٢٣-٧٢٦هـ"
+  en: "Al-Safadi's chancery service: Safad, Aleppo, al-Rahba, 723-726/1323-1326"
+  ur: "صفدی کی دیوانی خدمات: صفد، حلب، رحبہ، 723-726ھ/1323-1326ء"
+summary:
+  ar: "فتحت براعة الصفدي في الإنشاء وحسن خطه أبواب الخدمة الحكومية؛ وكان أول ما وَلِيَ كتابة الدرج بصفد ثم بالقاهرة، وباشر كتابة السر بحلب وقتاً بين ٧٢٣هـ و٧٢٦هـ، وبالرحبة وقتاً في أواخر العقد، وبقي يتردد بين العاصمتين دمشق والقاهرة {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}."
+  en: "Al-Safadi's gifts as a stylist and calligrapher opened government service to him: he first held kitabat al-darj at Safad, then at Cairo; he conducted kitabat al-sirr at Aleppo for a time between 723/1323 and 726/1326, and briefly at al-Rahba toward the end of the decade, while shuttling between the capitals Damascus and Cairo {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}."
+  ur: "انشا اور خوش خطی کی صلاحیت نے صفدی کے لیے سرکاری خدمات کے دروازے کھولے: پہلے صفد میں کتاتۃ الدرج پھر قاہرہ میں؛ 723ھ/1323ء تا 726ھ/1326ء کے درمیان حلب میں کتاتۃ السر کا منصب سونپا گیا، اور دہائی کے آخر میں مختصر مدت کے لیے رحبہ میں؛ وہ دمشق اور قاہرہ کے درمیان آتا جاتا رہا {cite:encyclopaedia-of-islam-2 vol. 8 p. 759} {cite:durar-kamina-jil-1993 vol. 2 p. 88}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1323", hijri: "0723", calendar: julian, precision: year, status: historical, derived: true }
+  end: { edtf: "1326", hijri: "0726", calendar: julian, precision: year, status: historical, derived: true }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: occurred_at, target: place/safad, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: occurred_at, target: place/rahbat-malik, sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/al-safadi, role: "الكاتب الديواني", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 8 (Ned-Sam), printed pp. 759-760, art. al-Safadi (F. Rosenthal); al-Durar al-Kamina (Ibn Hajar), vol. 2, entry 1654, printed pp. 88-89"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-safadi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

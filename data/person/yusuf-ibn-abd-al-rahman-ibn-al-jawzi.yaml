@@ -1,0 +1,29 @@
+id: person/yusuf-ibn-abd-al-rahman-ibn-al-jawzi
+class: person
+label:
+  ar: "يوسف بن عبد الرحمن ابن الجوزي"
+  en: "Yusuf ibn Abd al-Rahman ibn al-Jawzi"
+roles: [poet, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليوسف بن عبد الرحمن ابن الجوزي، عالم وشاعر عراقي من أسرة ابن الجوزي، ولد سنة ١١٨٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yusuf ibn Abd al-Rahman ibn al-Jawzi, the Iraqi scholar and poet of the Ibn al-Jawzi family, b. 1185; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1184", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q96889310
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0074
+status:
+  review: draft
+  completeness: 1

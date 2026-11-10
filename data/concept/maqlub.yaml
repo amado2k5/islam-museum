@@ -1,0 +1,26 @@
+id: concept/maqlub
+class: concept
+kind: term
+label:
+  ar: "المقلوب"
+  en: "Maqlub (inverted report)"
+summary:
+  ar: "المقلوب عند ابن الصلاح نحو حديث مشهور عن سالم يُجعل عن نافع ليصير بذلك غريباً مرغوباً فيه، ومنه ما رُوي أن أهل الحديث ببغداد قلبوا مائة حديث على البخاري فجعلوا متن هذا الإسناد لإسناد آخر، فرد كل متن إلى إسناده فأذعنوا له بالفضل. ومن أمثلته، ويصلح مثالاً للمعلل، حديث جرير بن حازم عن ثابت عن أنس «إذا أقيمت الصلاة فلا تقوموا حتى تروني»، وإنما هو عن حجاج الصواف عن يحيى بن أبي كثير عن عبد الله بن أبي قتادة عن أبيه، كما بيّن حماد بن زيد {cite:muqaddima-ibn-salah-itr p. 101-102}."
+  en: "For Ibn al-Salah a maqlub report is, for instance, a well-known hadith from Salim transferred to Nafi' so that it becomes rare and sought after. To it belongs the story that the hadith scholars of Baghdad inverted a hundred hadiths for al-Bukhari, joining each text to another chain, and he restored every text to its chain, so they acknowledged his merit. Another example, which also illustrates a hidden defect, is Jarir ibn Hazim's 'from Thabit from Anas: when the prayer is called, do not stand until you see me', which Hammad ibn Zayd showed was really from Hajjaj al-Sawwaf from Yahya ibn Abi Kathir from Abd Allah ibn Abi Qatada from his father."
+term: { ar: "المقلوب" }
+wings: [ideas, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: concept/mustalah-al-hadith, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: concept/illa, sources: [source/muqaddima-ibn-salah-itr] }
+  - { type: related_to, target: person/al-bukhari, sources: [source/muqaddima-ibn-salah-itr] }
+sources: [source/muqaddima-ibn-salah-itr]
+provenance:
+  layer: own-research
+  source: "مقدمة ابن الصلاح، تحقيق عتر، النوع الثاني والعشرون، ص 101–102"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

@@ -1,0 +1,29 @@
+id: person/ibn-hasnun
+class: person
+label:
+  ar: "ابن حسنون"
+  en: "Ibn Hasnun"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "عبد الله ابن حسنون السامري، مسند القراء في زمانه ولغوي، صاحب «اللغات في القرآن»؛ توفي بمصر سنة 386هـ ⁦(996م)⁩."
+  en: "Abd Allah Ibn Hasnun al-Samiri (908–996), doyen of the Qur'an readers and linguist, died in Egypt."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+born: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari" }
+died: { edtf: "996", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57316754
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.79)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
+status:
+  review: published
+  completeness: 3

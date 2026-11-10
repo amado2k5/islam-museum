@@ -1,0 +1,35 @@
+id: person/umar-ibn-husayn-al-khiraqi
+class: person
+label:
+  ar: "عمر بن الحسين الخرقي"
+  en: "Umar ibn Husayn al-Khiraqi"
+roles: [jurist, scholar]
+gender: male
+summary:
+  ar: "أبو القاسم عمر بن الحسين بن عبد الله الخرقي، فقيه الحنابلة صاحب المختصر في الفقه على مذهب أحمد بن حنبل الذي صار من أصلين في المذهب، حدّث عن جماعة وروى عنه أبو بكر الشافعي وابن الصواف وعبد العزيز بن جعفر وكان خليفة المروزي؛ توفي يوم الفطر ودفن بباب حرب عند قبر الإمام أحمد بن حنبل {cite:muntazam-ibn-al-jawzi p. 207}."
+  en: "Abu'l-Qasim al-Khiraqi, the Hanbali jurist whose Mukhtasar became one of the school's two foundational manuals; he died on the day of Fitr and was buried at Bab Harb beside Imam Ahmad's grave {cite:muntazam-ibn-al-jawzi p. 207}."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+died: { edtf: "945", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+  - { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12228408
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-audit
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

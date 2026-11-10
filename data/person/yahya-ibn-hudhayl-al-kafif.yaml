@@ -1,0 +1,22 @@
+id: person/yahya-ibn-hudhayl-al-kafif
+class: person
+label: { ar: "يحيى بن هذيل الكفيف" }
+gender: male
+summary:
+  ar: "أبو بكر يحيى بن هذيل الكفيف عالم أدباء الأندلس؛ شيخ الرمادي الذي اكتسب منه صناعة الأدب، ومن شعره قوله لا تلمني على الوقوف بدار أهلها صيروا السقام ضجيعي {cite:nafh-tib-maqqari p. 40}."
+  en: "The blind master of letters who trained al-Ramadi — 'blame me not for halting at a dwelling whose people made sickness my bedfellow' {cite:nafh-tib-maqqari p. 40}."
+roles: [poet, scholar]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-35
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "917", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib (al-Maqqari)" }
+died: { edtf: "1005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafh al-Tib (al-Maqqari)" }
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nafh-tib-maqqari] }

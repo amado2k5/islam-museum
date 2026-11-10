@@ -1,0 +1,39 @@
+id: work/islam-ru
+class: work
+kind: website
+label:
+  ar: "إسلام.رو (Islam.ru)"
+  en: "Islam.ru"
+  ur: "اسلام.رو (Islam.ru)"
+summary:
+  ar: "بوابة إسلامية روسية اللغة ⁦(ولها نسخة إنجليزية)⁩ أنشأتها الإدارة الدينية لمسلمي داغستان سنة 2001 بمشاركة عدد من المؤسسات، تنشر الأخبار والمقالات والنصوص الدينية والاستشارات، ويعدّها باحثون روس من أكبر المواقع الإسلامية في الإنترنت الروسي؛ انتقل مقرها إلى داغستان سنة 2011."
+  en: "A Russian-language Islamic portal (with an English version) founded by the Spiritual Administration of Muslims of Dagestan in 2001 with several foundations, publishing news, articles, religious texts and consultations; Russian scholars count it among the largest Islamic sites of the Russian internet, and its headquarters moved to Dagestan in 2011."
+  ur: "روسی زبان کا اسلامی پورٹل ⁦(انگریزی نسخے کے ساتھ)⁩ جسے داغستان کے مسلمانوں کی دینی انتظامیہ نے 2001 میں کئی اداروں کے ساتھ قائم کیا؛ خبریں، مضامین، دینی متون اور مشاورت شائع کرتا ہے؛ روسی محققین اسے روسی انٹرنیٹ کی سب سے بڑی اسلامی سائٹوں میں شمار کرتے ہیں؛ 2011 میں مرکز داغستان منتقل ہوا۔"
+wings: [words, today]
+url: "https://islam.ru"
+launched:
+  edtf: "2001"
+  hijri: "1421~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Established in 2001 by the Spiritual Administration of Muslims of Dagestan (Silantyev 2008 and Kavkazskiy Uzel, as the English article cites them). The Hijri year (1421 to 1422) is converter-derived."
+  sources: [source/wikipedia-islam-ru-en]
+languages: [ru, en]
+publisher: group/spiritual-administration-of-muslims-of-dagestan
+content_type: news
+footprint:
+  wikipedia: { languages: [en, ru], checked: "2026-11-06", sources: [source/wikidata-islam-ru] }
+  wikidata: "Q4204018"
+external_ids:
+  wikidata: Q4204018
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-islam-ru-en] }
+sources: [source/wikipedia-islam-ru-en, source/wikidata-islam-ru]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Islam.ru' (revision 1378872146, 6 October 2026) and Wikidata Q4204018, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b05
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

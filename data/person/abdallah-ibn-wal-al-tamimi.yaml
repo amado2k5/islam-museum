@@ -1,0 +1,21 @@
+id: person/abdallah-ibn-wal-al-tamimi
+class: person
+label: { ar: "عبد الله بن وال التميمي", en: "'Abd Allah ibn Wal al-Tamimi" }
+summary:
+  ar: "أحد الرؤساء الخمسة الذين عسكرت بهم الشيعة التوابون بالنخيلة قبل مسيرهم إلى عين الوردة {cite:muruj-al-dhahab p. 87}."
+  en: "One of the five Penitent leaders at Nukhayla before the 'Ayn al-Warda march {cite:muruj-al-dhahab p. 87}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh)" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "One of the five Penitent leaders mustered at Nukhayla near Kufa before the Ayn al-Warda march.", sources: [source/muruj-al-dhahab], confidence: medium }

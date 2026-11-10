@@ -1,0 +1,29 @@
+id: person/ummi-sinan
+class: person
+label:
+  ar: "أمي سنان"
+  en: "Ummi Sinan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأمي سنان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ummi Sinan; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1568~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q40738)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6038603
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

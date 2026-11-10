@@ -1,0 +1,22 @@
+id: media/diagram-karkh-market-relocation
+class: media
+kind: illustration
+label:
+  ar: "إعادة توزيع الأسواق في بغداد"
+  en: "Baghdad's market reallocation"
+  ur: "بغداد کے بازاروں کی نئی تقسیم"
+summary:
+  ar: "سلسلة عامة تربط الأروقة التجارية القائمة بتكليف نقل الأسواق إلى الكرخ؛ ليست خريطة شوارع أو قياساً مساحياً."
+  en: "A generic chain linking existing market arcades with the reported order to move markets toward Karkh; not a street map or measured plan."
+  ur: "موجودہ بازار راہداریوں اور بازاروں کو کرخ منتقل کرنے کے منقول حکم کو ملاتی عمومی زنجیر؛ گلیوں کا نقشہ یا پیمائشی منصوبہ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/karkh-market-relocation-zoning]
+alt:
+  ar: "رسم تخطيطي عام يعرض الخطة السابقة بوصفها أساساً، وتكليف المنصور بنقل الأسواق، والمدينة بوصفها موضع العمل؛ لا يرسم مواقع الأسواق أو حدود الكرخ."
+  en: "Generic chain diagram showing the earlier city plan as context, al-Mansur as the reported commissioner, and Baghdad as the setting; it does not plot market locations or Karkh's boundaries."
+  ur: "عمومی زنجیری خاکہ سابق شہری منصوبے کو پس منظر، منصور کو منقول سرپرست اور بغداد کو مقام دکھاتا ہے؛ بازاروں کے مقامات یا کرخ کی حدود نہیں کھینچتا۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-07" }
+sources: [source/tdv-bagdat-duri, source/lestrange-baghdad-1900]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b97", source: "Existing generic chain renderer; its only graph predecessor is the existing round-city system. The diagram is conceptual and makes no street geometry or market-site claim." }

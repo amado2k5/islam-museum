@@ -1,0 +1,28 @@
+id: person/ateeq-ibn-mohammed-al-saqli
+class: person
+label:
+  ar: "عتيق بن محمد الصقلي"
+  en: "Ateeq ibn Mohammed al-Saqli"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعتيق بن محمد الصقلي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ateeq ibn Mohammed al-Saqli; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q62096411
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+relations:
+  - { type: lived_in, target: place/siqilliya, note: "Place association from the person's nisba/name (الصقلي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

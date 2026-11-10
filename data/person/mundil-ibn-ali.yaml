@@ -1,0 +1,28 @@
+id: person/mundil-ibn-ali
+class: person
+label:
+  ar: "مندل بن علي"
+  en: "Mundil ibn Ali"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمندل بن علي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mundil ibn Ali; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+died: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: died_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q186234)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q65214657
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

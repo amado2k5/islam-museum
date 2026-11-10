@@ -1,0 +1,20 @@
+---
+id: concept/al-dimuqratiyya-wal-sharia
+lang: ar
+source_lang: ar
+translators: []
+---
+
+# الديمقراطية والشريعة — التوافق والتعارض
+
+## الحلقة والتصويت
+ناقشت الحلقة الثالثة من «الوسطية» سؤال «الديمقراطية: عدالة أم استبداد؟» وعلاقتها بالإسلام {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:01:00}. وصوّت الجمهور على تعارضها مع الشريعة: 16% أوافق، 42% لا أوافق، 42% أوافق جزئياً — وتغيّر ملحوظ عقّب عليه إسحق الفرحان: قبل خمس وعشرين سنة كانت النظرة السائدة «الديمقراطية كفر»، واليوم صارت عند أكثر الشباب آلية لأخذ آراء الأغلبية {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:10:00}.
+
+## التفكيك — إجرائي وفلسفي
+فصّل عزام التميمي الديمقراطية الليبرالية إلى شقّين: إجرائي — انتخاب الحاكم ومحاسبته وسيادة القانون والحقوق الأساسية — لا مشكلة فيه عند المتحاورين، وفلسفي تشريعي هو موضع الخلاف؛ وأفاد من بحث دكتوراه له أن لا فيلسوفاً غربياً معترفاً به يجعل العلمانية ضرورة للديمقراطية — «فمن يصرّ على ذلك فإما غربي لا يريد للإسلاميين النجاح عبرها أو مسلم يفهمها خطأً» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:25:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:26:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:26:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:27:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:28:00}. ولخّص المقدم: المشكلة انحصرت في «حق البرلمان في التشريع» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:29:00}.
+
+## التبني والتعامل — والحاكمية
+فرّق منير البياتي بدقة: الديمقراطية «طغيان الأغلبية» إذا مُنحت الأمة التشريع مطلقاً فتصادم «إن الحكم إلا لله» — لكن تبنّيها شيء والتعامل معها شيء؛ فإذا ترجّحت المصلحة للإسلام والمسلمين وجب الدخول لا جاز فقط {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:11:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:12:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:12:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:14:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:15:00}. ووافقه عبد اللطيف عربيات مع توضيح الالتباس: خلط المبنى الأجنبي بالمعنى الإسلامي، والشورى «سلطة الشعب والحاكمية لله»، وشهد أن البرلمان عرض عليه منع الخمر فلم ينجح {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:17:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:18:30}.
+
+## تجربة الإسلاميين — ناجحة أم فاشلة
+صوّت الجمهور 60% فاشلة و40% ناجحة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:32:00}. واعترض الفرحان: نجاح الإسلاميين في الانتخابات جعل الغرب يعيد حسابه — «ينادون بالديمقراطية فإذا أوصلت الإسلاميين أعادوا دعم المستبدين» — وأمثلته حماس في فلسطين والعدالة والتنمية والتجربة التركية {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:33:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:33:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:34:30}. ورأى علي العطوم أن التجربة «ناجحة بعض الشيء» لكن الحكام لن يسمحوا بالوصول إلى الحكم — مذكّراً بالجزائر — والأولى البحث عن البديل الأصيل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:35:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:36:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:36:30}. وقال مهدي الدجاني إن المشاركة خطوة نحو محاكاة النموذج الغربي لا نحو التحكيم {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:37:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:37:30}. وردّ عربيات: آليات الديمقراطية تقرّبنا من الإسلام — تعددية وتداول سلطة وحقوق — والتدرج ضرورة لأن بناء الفرد والأسرة والمجتمع لا يأتي بيمين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:38:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:39:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:40:00}.

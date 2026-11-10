@@ -1,0 +1,21 @@
+id: person/dhu-al-thudiyya
+class: person
+label: { ar: "ذو الثدية", en: "Dhu'l-Thudiyya" }
+summary:
+  ar: "الخارجي الذي أخبر النبي أنه يقتل في المارقين، طلبه علي بعد النهروان في القتلى فقيل له ما أصبنا شيئاً فقال والله لقد قتل في يومه هذا وما كذبني رسول الله ولا كذبت عليه قوموا بجمعكم فاطلبوه فأصابوه في دهاس من الأرض فوقه زهاء مائة قتيل فأخرجوه يجر برجله {cite:muruj-al-dhahab p. 48}."
+  en: "The Kharijite foretold to fall among the Mariqi — Ali would not accept 'we found nothing', sent the whole company back into the slain, and he was dragged from beneath a hundred corpses in a hollow {cite:muruj-al-dhahab p. 48}."
+gender: male
+wings: [people]
+died: { edtf: "658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/al-nahrawan, confidence: low, note: "Associated with النهروان per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

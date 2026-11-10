@@ -1,0 +1,28 @@
+id: event/ibn-abd-al-barr-begins-hadith-385
+class: event
+kind: gathering
+label:
+  ar: "ابن عبد البر يطلب الحديث بقرطبة، نحو ٣٨٥هـ"
+  en: "Ibn 'Abd al-Barr begins the hadith quest at Cordoba, about 385/995"
+  ur: "ابن عبد البر قرطبہ میں طلب حدیث کا آغاز کرتے ہیں، تقریباً 385ھ/995ء"
+summary:
+  ar: "طلب ابن عبد البر الحديث سنة بضع وثمانين وثلاثمائة، قبل أن يولد الحافظ أبو بكر الخطيب بأعوام، فروى عن خلف بن القاسم وعبد الوارث بن سفيان وأبي الوليد بن الفرضي وأبي عمر الطلمنكي وجماعة لا يبلغون سبعين نفساً {cite:tarikh-islam-dhahabi p. 137}، وسمع سنن أبي داود عالياً من ابن عبد المؤمن وقرأ كتاب الزعفراني على ابن ضيفون {cite:tarikh-islam-dhahabi p. 141}."
+  en: "Ibn 'Abd al-Barr took up the hadith quest in 'three hundred and eighty-something', years before the hafiz al-Khatib al-Baghdadi was born; he transmitted from Khalf ibn al-Qasim, 'Abd al-Warith ibn Sufyan, Abu al-Walid ibn al-Faradi and Abu 'Amr al-Talamanki — fewer than seventy shaykhs in all {cite:tarikh-islam-dhahabi p. 137} — heard the Sunan of Abu Dawud on a high isnad from Ibn 'Abd al-Mu'min and read al-Za'farani's book under Ibn Dayfun {cite:tarikh-islam-dhahabi p. 141}."
+  ur: "ابن عبد البر نے تین سو اسی کے عشرے میں طلب حدیث شروع کی، حافظ ابو بکر خطیب بغدادی کی پیدائش سے برسوں پہلے؛ انھوں نے خلف بن قاسم، عبد الوارث بن سفیان، ابوالولید ابن فرضی اور ابو عمر طلمنکی سے روایت کی — مجموعی طور پر ستر سے کم شیوخ سے {cite:tarikh-islam-dhahabi p. 137} — اور ابن عبد المومن سے بلند سند سے سنن ابی داوود سنی اور ابن ضیفون پر زعفرانی کی کتاب پڑھی {cite:tarikh-islam-dhahabi p. 141}۔"
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0995~", hijri: "0385~", calendar: julian, precision: year, status: tradition, derived: true, note: "طلب الحديث سنة بضع وثمانين، قبل أن يولد الخطيب بأعوام {cite:tarikh-islam-dhahabi p. 137}؛ التاريخ تقريبي؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ibn-abd-al-barr, role: "الطالب", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/abu-umar-al-talamanki, role: "من شيوخه", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 463 printed pp. 137, 141 (harvest OCR vol 461-470)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-abd-al-barr-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

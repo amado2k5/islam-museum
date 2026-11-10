@@ -1,0 +1,132 @@
+---
+// Timeline Explorer front page (correction prompt §5 Steps 2, 6, 8): subject search, guided journeys, and shelves of
+// people, eras and places. Each subject opens its stage. Prepared data only: no model call and no request from the page.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, fmt, LANGS, type Lang } from "../../../lib/i18n";
+import { subjects, subjectHref, pick, langOf, nodeDate, type Subject } from "../../../lib/explorer";
+import { existsSync } from "node:fs";
+import { repoPath } from "../../../lib/paths";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const B = T.time_browser;
+const all = subjects();
+const spanOf = (s: Subject) => `${nodeDate(s.nodes[0].date, lang).text} — ${nodeDate(s.nodes[s.nodes.length - 1].date, lang).text}`;
+// A card shows the first pre-rendered image in its story, if one exists.
+const coverOf = (s: Subject) => {
+  for (const n of s.nodes) {
+    const p = `/media/time-browser/explorer/${n.id.replace(/[/#]/g, "-")}.webp`;
+    if (existsSync(repoPath("site", "public", p))) return p;
+  }
+  return "";
+};
+const card = (s: Subject) => ({
+  cover: coverOf(s),
+  href: subjectHref(lang, s.id),
+  title: pick(s.title, lang),
+  titleLang: langOf(s.title, lang),
+  span: spanOf(s),
+  stops: fmt(B.x_stops, { n: String(s.nodes.length) }),
+});
+const journeys = all.filter((s) => s.journey).map(card);
+const shelves = [
+  { title: B.x_persons, items: all.filter((s) => s.kind === "person").map(card) },
+  { title: B.x_eras, items: all.filter((s) => s.kind === "era").map(card) },
+  { title: B.x_places, items: all.filter((s) => s.kind === "place").map(card) },
+].filter((g) => g.items.length > 0);
+// The search index: every subject's title in all three languages, so any spelling finds it.
+const index = JSON.stringify(all.map((s) => ({ href: subjectHref(lang, s.id), label: pick(s.title, lang), keys: Object.values(s.title).join(" ").toLowerCase() }))).replace(/</g, "\\u003c");
+---
+<BaseLayout lang={lang} title={B.x_name} description={B.x_lede} path={`/${lang}/time-browser/`}>
+  <div class="wrap tbs">
+    <div data-pagefind-body>
+      <h1>{B.x_name}</h1>
+      <p class="tbs-lede">{B.x_lede}</p>
+    </div>
+
+    <form role="search" class="tbs-search" onsubmit="return false">
+      <label for="tbs-q">{B.x_search_label}</label>
+      <input id="tbs-q" type="search" autocomplete="off" placeholder={B.x_search_placeholder} aria-describedby="tbs-none" />
+      <ul class="tbs-results" data-results role="list"></ul>
+      <p id="tbs-none" data-none hidden>{B.x_no_subject}</p>
+    </form>
+
+    {journeys.length > 0 && (
+      <section aria-labelledby="tbs-j">
+        <h2 id="tbs-j">{B.x_journeys}</h2>
+        <ul class="tbs-cards" role="list">
+          {journeys.map((c) => (
+            <li class="tbs-card tbs-journey">
+              <a href={c.href} style={c.cover ? `--cover:url(${c.cover})` : undefined} class={c.cover ? "has-cover" : undefined}>
+                <strong lang={c.titleLang}>{c.title}</strong>
+                <span>{c.span}</span>
+                <span>{c.stops}</span>
+                <span class="tbs-cta">{B.x_start}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {shelves.map((g, i) => (
+      <section aria-labelledby={`tbs-s${i}`}>
+        <h2 id={`tbs-s${i}`}>{g.title}</h2>
+        <ul class="tbs-cards" role="list">
+          {g.items.map((c) => (
+            <li class="tbs-card">
+              <a href={c.href} style={c.cover ? `--cover:url(${c.cover})` : undefined} class={c.cover ? "has-cover" : undefined}>
+                <strong lang={c.titleLang}>{c.title}</strong>
+                <span>{c.span}</span>
+                <span>{c.stops}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p><a href={`/${lang}/time-browser/guide/`}>{B.guide_link}</a></p>
+  </div>
+  <script type="application/json" id="tbs-index" set:html={index}></script>
+</BaseLayout>
+
+<style>
+  .tbs { padding-block: 16px 32px; }
+  .tbs-lede { font-size: 1.2rem; max-width: var(--measure); }
+  .tbs-search { margin-block: 18px; max-width: 560px; }
+  .tbs-search input { display: block; width: 100%; min-height: 44px; padding: 8px 12px; margin-block-start: 6px; }
+  .tbs-results { list-style: none; padding: 0; margin: 6px 0 0; }
+  .tbs-results a { display: block; min-height: 44px; padding: 10px 12px; }
+  .tbs-cards { list-style: none; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .tbs-card a { display: grid; gap: 4px; padding: 14px; min-height: 44px; border: 1px solid color-mix(in srgb, var(--gold, #c9a227) 45%, transparent); border-radius: 12px; text-decoration: none; color: inherit; }
+  .tbs-card strong { font-size: 1.1rem; }
+  .tbs-card span { font-size: .88rem; opacity: .9; }
+  .tbs-cta { color: var(--gold, #c9a227); font-weight: 600; }
+  .tbs-card a.has-cover { min-height: 140px; align-content: end; background: linear-gradient(to top, color-mix(in srgb, var(--bg, #0b1220) 92%, transparent) 45%, color-mix(in srgb, var(--bg, #0b1220) 35%, transparent)), var(--cover) center / cover; }
+</style>
+
+<script>
+  // Progressive enhancement: suggest subjects as the visitor types. Reads only the index in this page.
+  const input = document.getElementById("tbs-q") as HTMLInputElement | null;
+  const list = document.querySelector<HTMLElement>("[data-results]");
+  const none = document.querySelector<HTMLElement>("[data-none]");
+  const raw = document.getElementById("tbs-index")?.textContent;
+  if (input && list && raw) {
+    const index = JSON.parse(raw) as { href: string; label: string; keys: string }[];
+    input.addEventListener("input", () => {
+      const q = input.value.trim().toLowerCase();
+      const hits = q ? index.filter((s) => s.keys.includes(q)).slice(0, 8) : [];
+      list.replaceChildren(...hits.map((s) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = s.href; a.textContent = s.label; li.append(a); return li;
+      }));
+      if (none) none.hidden = !q || hits.length > 0;
+    });
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { const a = list.querySelector("a"); if (a) location.href = (a as HTMLAnchorElement).href; }
+    });
+  }
+</script>

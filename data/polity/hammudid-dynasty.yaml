@@ -1,0 +1,32 @@
+id: polity/hammudid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "بنو حمود"
+  en: "Hammudid dynasty"
+summary:
+  ar: "بطاقة أولية لبني حمود، الأدارسة الذين تنازعوا خلافة قرطبة مع الأمويين في فتنة الأندلس؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Banu Hammud, the Idrisid-Alid line that contested the caliphate of Cordoba in the Andalusian fitna; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+start:
+  edtf: "1016"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1073"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q1033421
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Andalusian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

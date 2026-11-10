@@ -1,0 +1,20 @@
+id: work/khutbat-ali-al-kufa
+class: work
+kind: sermon
+sermon_type: jumu'a
+delivered: { by: person/ali-ibn-abi-talib }
+label: { ar: "خطبة علي بن أبي طالب بالكوفة", en: "Ali ibn Abi Talib's khutba in Kufa", ur: "علی بن ابی طالب کی خطبہ بمقام کوفہ" }
+summary:
+  ar: "من خطب علي بن أبي طالب بالكوفة في خلافته، مما جمعه صاحب الجمهرة من مصادر متعددة."
+  en: "One of Ali's khutbas in Kufa during his caliphate, gathered in the Jamhara from several sources."
+  ur: "علی کے عہدِ خلافت میں کوفہ کی منقولہ خطبہ، جمہرہ کے متعدد مصادر سے۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/ali-ibn-abi-talib]
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: mentions, target: place/kufa }
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v1", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-1 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

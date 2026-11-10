@@ -1,0 +1,19 @@
+---
+id: concept/al-majmua-al-shakliyya
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2 High)"]
+---
+## Summary
+Tareq al-Suwaidan introduces the 'nominal group' (nominal group technique) as a meeting method devised at the University of Wisconsin, which subjected more than ten thousand meetings to doctoral research to find what wastes time; the studies he relays give it four times the results of the ordinary method in a quarter of the time — sixteen times better — and the version now taught is the revised one (revised nominal group) (needs_source for the figures) {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:50:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:51:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:52:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:53:00}.
+It is called 'nominal' because people sit in their seats without discussion — which is the secret of its effectiveness {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:02:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:08:30}.
+
+## Its five steps
+First, the item's sub-headings are fixed without discussion; second, each person writes his view individually and in silence — the chair's rule: as long as they are writing the time extends, and once most of them stop, the step ends; third, all views are collected in a visible place, one from each in turn and without repetition; fourth, only objections and inquiries are opened — an objection on legal grounds or an inquiry to verify, not opinions; fifth, voting {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:54:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:55:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:56:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:57:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:59:30}.
+
+## Voting
+For conflicting proposals — such as one name for a journal — each person holds three votes without discussion; if a view emerges by a clear margin the item is closed, otherwise a limited debate — a supporter and an opponent for each — is opened over the top three to five proposals, then one vote per person, and ties are settled by the chair's vote {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:01:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:02:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:04:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:05:30}.
+For complementary proposals — goals that can all stand together — each proposal is voted on separately, one vote each and a simple majority, the voters being warned when two proposals are internally conflicting that one's victory kills the other {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:06:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:07:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:08:30}.
+
+## Its limits
+The nominal group does not suit, in his view, meetings meant to crystallise an intellectual or scholarly opinion — these need discussion, and one person's view may surpass them all — but suits the management of daily work; and of brainstorming he says it fits some cases and yields more proposals than the ordinary method but does not fit most {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:06:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:09:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 02:10:00}.

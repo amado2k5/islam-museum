@@ -15,14 +15,46 @@ const claimStatus = ids("claim-status");
 const sensitivity = ids("sensitivity");
 const review = ids("review");
 const licenses = ids("licenses");
+const metres = ids("metres");
 const listingCategories = ids("listing-categories");
 const themes = ids("themes");
 const storyRoles = ids("story-roles");
 const faith = ids("faith");
+const sermonType = ids("sermon-type");
+const jobDomains = ids("job-domains");
+const materials = ids("materials");
+const inventionDomains = ids("invention-domains");
+const disciplines = ids("disciplines");
+const attributionStatuses = ids("attribution-status");
+const inventionTaxonomy = parse(readFileSync(new URL("../docs/inventions/taxonomy.yaml", import.meta.url), "utf8")) as {
+  eras: string[];
+  status_today: string[];
+  maker_roles: string[];
+};
+const inventionEras: string[] = inventionTaxonomy.eras;
+const inventionStatusToday: string[] = inventionTaxonomy.status_today;
+const inventionMakerRoles: string[] = inventionTaxonomy.maker_roles;
+// Modern Islam Browser (docs/plan/26-modern-islam-browser.md section 3; docs/modern-islam/taxonomy.yaml is the source of its lists).
+const modernTaxonomy = parse(readFileSync(new URL("../docs/modern-islam/taxonomy.yaml", import.meta.url), "utf8")) as {
+  award_kinds: { id: string }[]; honour_results: string[]; certification_levels: string[]; horizon_stages: string[];
+  reach_platforms: string[]; reach_metrics: string[]; press_kinds: string[]; music_genres: { id: string }[]; sports: string[];
+};
+const awardKinds = modernTaxonomy.award_kinds.map((k) => k.id);
+const honourResults = modernTaxonomy.honour_results;
+const certificationLevels = modernTaxonomy.certification_levels;
+const horizonStages = modernTaxonomy.horizon_stages;
+const reachPlatforms = modernTaxonomy.reach_platforms;
+const reachMetrics = modernTaxonomy.reach_metrics;
+const pressKinds = modernTaxonomy.press_kinds;
+const modernSports = modernTaxonomy.sports;
+
+if (JSON.stringify(kinds.award) !== JSON.stringify(awardKinds)) {
+  throw new Error("schema/enums/kinds.yaml award kinds must equal docs/modern-islam/taxonomy.yaml award_kinds");
+}
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "course",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award", "course",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -32,6 +64,10 @@ const str = { type: "string" };
 const strs = { type: "array", items: str };
 const intStr = { type: "integer" };
 const enm = (v: string[]) => ({ enum: v });
+const localized3 = {
+  type: "object", additionalProperties: false, required: ["ar", "en", "ur"],
+  properties: { ar: str, en: str, ur: str },
+};
 const madeBlock = {
   type: "object", additionalProperties: false, required: ["by_muslims", "basis"],
   properties: { by_muslims: { type: "boolean" }, basis: enm(["self-identified", "documented", "unverified"]), sources: strs },
@@ -81,7 +117,16 @@ const base = {
       type: "object",
       additionalProperties: false,
       required: ["tradition", "summary"],
-      properties: { tradition: enm(traditions), summary: ref("localized"), sources: strs },
+      properties: {
+        tradition: enm(traditions), summary: ref("localized"), sources: strs,
+        // docs/plan/20-opinions.md: a named opinion within a disagreement
+        id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" },
+        stance: ref("localized"),
+        // docs/scope.md addendum: the museum's main reference is Sunni Islam and its wasatiyya; other opinions are tagged secondary or other
+        standing: enm(["main", "secondary", "other"]),
+        holders: entityRefs,
+        evidence: { type: "array", items: { type: "object", additionalProperties: false, required: ["ref"], properties: { ref: entityRef, note: ref("localized") } } },
+      },
     },
     name: {
       type: "object",
@@ -108,11 +153,12 @@ const base = {
     regions: { type: "array", items: enm(regions), uniqueItems: true },
     external_ids: { type: "object", additionalProperties: { type: "string" } },
     relations: { type: "array", items: ref("relation") },
+    issue: ref("localized"),
     perspectives: { type: "array", items: ref("perspective") },
     sources: entityRefs,
     media: {
       type: "object", additionalProperties: false,
-      properties: { hero: entityRef, gallery: entityRefs, map: entityRef },
+      properties: { hero: entityRef, gallery: entityRefs, map: entityRef, image: entityRef, diagram: entityRef },
     },
     status: {
       type: "object", additionalProperties: false, required: ["review"],
@@ -124,9 +170,56 @@ const base = {
     },
     sensitivity: enm(sensitivity),
     themes: { type: "array", items: enm(themes), uniqueItems: true },
+    // Leveled reading (docs/delegation/education-master-plan.md §5 E2): which levels the prose carries (the validator
+    // checks they match the sections in content/) and whether the record is opted into the kids' routes.
+    education: {
+      type: "object", additionalProperties: false,
+      properties: {
+        levels: { type: "array", uniqueItems: true, items: { enum: ["sprouts", "explorers", "scholars"] } },
+        flagged_for_kids: { type: "boolean" },
+        did_you_know: { type: "object", additionalProperties: false,
+          description: "One authored, sourced fact («هل تعلم؟») in the three published languages; at most 40 words each, at least two cited sources (docs/delegation/education-master-plan.md §5 E3).",
+          properties: { ar: str, en: str, ur: str, sources: { type: "array", minItems: 2, items: str } },
+          required: ["ar", "en", "ur", "sources"] },
+        exclude: { type: "boolean" },
+        provenance: { type: "object", additionalProperties: true, properties: { generated_by: str, model: str, run: str } },
+      },
+    },
     provenance: {
       type: "object", additionalProperties: true,
       properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
+    },
+    kids: { "$ref": "#/$defs/localized", description: "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text." } as any,
+    // Modern Islam Browser (docs/plan/26 section 3.4): sourced honours, the subject's footprint elsewhere, dated platform
+    // figures and the upcoming horizon. Optional on every class; the validator checks the references and the dates.
+    honours: {
+      type: "array",
+      items: { type: "object", additionalProperties: false, required: ["award", "result", "sources"], properties: {
+        award: entityRef, category: str, year: { type: "integer", minimum: 1900, maximum: 2100 }, date: ref("date"),
+        result: enm(modernTaxonomy.honour_results), level: enm(modernTaxonomy.certification_levels), territory: str,
+        position: { type: "integer", minimum: 1 }, for: entityRef, note: str, sources: { type: "array", minItems: 1, items: str } } },
+    },
+    footprint: {
+      type: "object", additionalProperties: false, properties: {
+        wikipedia: { type: "object", additionalProperties: false, properties: {
+          languages: { type: "array", items: { type: "string", pattern: "^[a-z]{2,3}(-[a-z]{2,8})?$" }, uniqueItems: true },
+          checked: { type: "string", format: "date" }, sources: strs } },
+        wikidata: { type: "string", pattern: "^Q[1-9][0-9]*$" },
+        press: { type: "array", items: { type: "object", additionalProperties: false, required: ["source", "date"], properties: {
+          source: entityRef, date: ref("date"), outlet: entityRef, lang: str, kind: enm(modernTaxonomy.press_kinds), title: ref("localized"), note: str } } },
+        catalogues: { type: "object", additionalProperties: { anyOf: [str, strs] } },
+      },
+    },
+    reach: {
+      type: "array",
+      items: { type: "object", additionalProperties: false, required: ["platform", "metric", "date", "sources"], properties: {
+        platform: enm(modernTaxonomy.reach_platforms), metric: enm(modernTaxonomy.reach_metrics), value: { type: ["number", "null"], minimum: 0 },
+        date: { type: "string", format: "date" }, note: str, sources: { type: "array", minItems: 1, items: str } } },
+    },
+    horizon: {
+      type: "object", additionalProperties: false, required: ["stage", "sources"], properties: {
+        stage: enm(modernTaxonomy.horizon_stages), expected: ref("date"), announced: ref("date"), by: entityRef, note: ref("localized"),
+        sources: { type: "array", minItems: 1, items: str } },
     },
   },
   required: ["id", "class", "label", "summary", "status"],
@@ -183,12 +276,104 @@ const kind = (c: string) => ({ kind: enm(kinds[c]) });
 const D = ref("date");
 const L = ref("localized");
 
+// Job Browser (docs/jobs/schema.md): a person's occupations, a thing's job ties, the job class and its craft block.
+const jobRelations = ["made-by", "used-by", "built-by", "staffed-by", "reference-for", "body-of", "gathering-of", "produced-by", "workplace-of", "route-of"];
+const sourcesReq = { type: "array", minItems: 1, items: str };
+const occupation = { type: "object", additionalProperties: false, required: ["job", "kind", "sources"], properties: {
+  job: entityRef, kind: enm(["primary", "secondary", "episodic", "honorary"]), start: D, end: D,
+  place: entityRef, polity: entityRef, under: entityRef, trained_under: entityRefs, certification: str,
+  family_business: { type: "boolean" }, status: enm(claimStatus), note: str, sources: sourcesReq } };
+const jobTies = { type: "array", items: { type: "object", additionalProperties: false, required: ["job", "relation", "sources"], properties: {
+  job: entityRef, relation: enm(jobRelations), status: enm(claimStatus), note: str, sources: sourcesReq } } };
+const inventionChainItem = {
+  oneOf: [
+    { type: "object", additionalProperties: false, required: ["invention", "sources"],
+      properties: { invention: entityRef, note: str, sources: sourcesReq } },
+    { type: "object", additionalProperties: false, required: ["external", "note", "sources"],
+      properties: {
+        external: { type: "object", additionalProperties: false, required: ["ar", "en"], properties: { ar: str, en: str, ur: str } },
+        note: str, sources: sourcesReq,
+      } },
+  ],
+};
+const inventionTie = (relations: string[], extraProperties: Record<string, unknown> = {}) => ({
+  type: "array",
+  items: { type: "object", additionalProperties: false, required: ["invention", "relation", "sources"],
+    properties: { invention: entityRef, relation: enm(relations), ...extraProperties, sources: sourcesReq } },
+});
+const personInventionTies = {
+  type: "array",
+  items: { type: "object", additionalProperties: false, required: ["invention", "role", "sources"],
+    properties: { invention: entityRef, role: enm(inventionMakerRoles), start: D, end: D, place: entityRef, note: str, sources: sourcesReq } },
+};
+const craftBlock = { type: "object", additionalProperties: false, properties: {
+  materials: { type: "array", items: enm(materials) }, techniques: L,
+  guild: { type: "object", additionalProperties: false, properties: { bodies: entityRefs, shaykh_title: L } },
+  grades: strs, initiation: L, pir: entityRef, marks: L, practice: entityRef,
+  heritage: { type: "object", additionalProperties: false, properties: { unesco_ich: str, sources: strs } },
+  made_listings: entityRefs } };
+
 const classProps: Record<string, { properties: any; required?: string[] }> = {
+  job: {
+    properties: {
+      names: { type: "array", items: ref("name") }, domain: enm(jobDomains), ...kind("job"), hirfa: { type: "boolean" },
+      broader: entityRef,
+      era: { type: "object", additionalProperties: false, properties: {
+        origins: enm(["pre-islamic", "prophetic", "early-caliphate", "classical", "medieval", "early-modern", "modern"]),
+        first_attested: D, status_today: enm(["living", "transformed", "replaced", "extinct"]), successor_jobs: entityRefs } },
+      places: { type: "array", items: { type: "object", additionalProperties: false, required: ["place"], properties: {
+        place: entityRef, start: D, end: D, note: str, sources: strs } } },
+      regions: { type: "array", items: enm(regions) },
+      organization: { type: "object", additionalProperties: false, properties: {
+        organized: enm(["guild", "neqaba", "court-office", "association", "informal", "mixed", "none-known"]), bodies: entityRefs } },
+      training: { type: "object", additionalProperties: false, properties: {
+        mode: enm(["formal-schooling", "apprenticeship", "ijaza-chain", "state-licence", "mouth-to-mouth", "hereditary-family", "mixed"]),
+        certification: str, duration: str } },
+      tools: entityRefs, workplaces: entityRefs, outputs: entityRefs, image: entityRef, craft: craftBlock,
+    },
+    required: ["domain", "kind", "hirfa"],
+  },
+  invention: {
+    properties: {
+      names: { type: "array", items: ref("name") },
+      domain: enm(inventionDomains),
+      ...kind("invention"),
+      disciplines: { type: "array", items: enm(disciplines) },
+      era: { type: "object", additionalProperties: false, required: ["origins", "first_attested", "status_today"],
+        properties: { origins: enm(inventionEras), first_attested: D, status_today: enm(inventionStatusToday) } },
+      origin: { type: "object", additionalProperties: false, required: ["context"],
+        properties: { place: entityRef, polity: entityRef, context: localized3 } },
+      makers: { type: "array", minItems: 1, items: { type: "object", additionalProperties: false, required: ["person", "role", "sources"],
+        properties: { person: entityRef, role: enm(inventionMakerRoles), start: D, end: D, place: entityRef, note: str, sources: sourcesReq } } },
+      attribution: { type: "object", additionalProperties: false, required: ["status", "claim", "basis"],
+        properties: { status: enm(attributionStatuses), claim: localized3, basis: localized3, perspectives: { type: "array", items: ref("perspective") } } },
+      precursors: { type: "array", items: inventionChainItem },
+      dependents: { type: "array", items: inventionChainItem },
+      spread: { type: "array", items: { type: "object", additionalProperties: false, required: ["place", "start", "sources"],
+        properties: { place: entityRef, start: D, via: entityRef, note: str, sources: sourcesReq } } },
+      impact: { type: "object", additionalProperties: false, required: ["fields", "changed", "history"],
+        properties: {
+          fields: { type: "array", minItems: 1, uniqueItems: true, items: enm(inventionDomains) },
+          changed: localized3, history: localized3, significance: { type: "integer", minimum: 1, maximum: 5 }, why: str,
+        } },
+      described_in: entityRefs,
+      examples: entityRefs,
+      sites: entityRefs,
+      concepts: entityRefs,
+      today: { type: "object", additionalProperties: false, required: ["form", "descendants"],
+        properties: { form: localized3, descendants: localized3 } },
+      media: { type: "object", additionalProperties: false, required: ["diagram"],
+        properties: { hero: entityRef, gallery: entityRefs, map: entityRef, image: entityRef, diagram: entityRef } },
+    },
+    required: ["names", "domain", "kind", "disciplines", "era", "origin", "makers", "attribution", "precursors", "dependents",
+      "spread", "impact", "described_in", "examples", "sites", "concepts", "today", "media", "sources", "provenance"],
+  },
   person: {
     properties: {
       names: { type: "array", items: ref("name") }, gender: enm(["male", "female", "unknown"]),
       born: D, died: D, floruit: D, roles: strs, traditions: { type: "array", items: enm(traditions) },
       disciplines: entityRefs, languages: entityRefs, ...actorExtras,
+      occupations: { type: "array", items: occupation },
     },
   },
   group: {
@@ -220,7 +405,11 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   journey: {
     properties: { ...kind("journey"), travelers: entityRefs, distance_km: { type: "number" }, geometry: str,
       legs: { type: "array", items: { type: "object", required: ["from", "to"],
-        properties: { from: entityRef, to: entityRef, start: D, end: D, mode: str, events: entityRefs, note: str } } } },
+        properties: { from: entityRef, to: entityRef, start: D, end: D, mode: str, events: entityRefs, note: str } } },
+      // day-by-day stations for the journey player (docs/plan/21 §C.4): ordered, each at a place, with a day number and a narrative
+      waypoints: { type: "array", items: { type: "object", additionalProperties: false, required: ["place", "day", "title", "narrative"],
+        properties: { place: entityRef, day: intStr, day_status: enm(claimStatus), day_note: str, date: D, title: ref("localized"), narrative: ref("localized"),
+          events: entityRefs, sources: strs, coordinates_note: str } } } },
     required: ["kind"],
   },
   place: {
@@ -256,14 +445,39 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       structure: str, editions: strs, translations: strs, openiti_uri: str, commentaries: entityRefs, manuscripts: entityRefs,
       text_source: { type: "object" }, url: { type: "string", format: "uri" }, launched: D, closed: D, languages: strs, publisher: entityRef, archive_url: { type: "string", format: "uri" },
       orientation: { type: "object", additionalProperties: false, properties: { value: str, basis: enm(["self-described", "documented"]) } },
-      content_type: enm(["scripture", "hadith", "fatwa", "library", "education", "news", "community", "children", "academic", "apologetics", "criticism"]) },
+      content_type: enm(["scripture", "hadith", "fatwa", "library", "education", "news", "community", "children", "academic", "apologetics", "criticism"]),
+      // docs/plan/25 (khutab and durus): a sermon or lesson is delivered, not only written
+      sermon_type: enm(sermonType),
+      delivered: { type: "object", additionalProperties: false, required: ["by"], properties: {
+        by: entityRef, co_speakers: entityRefs, moderator: entityRef } },
+      host: entityRef,
+      audience: L,
+      occasion: entityRef,
+      ruler_at_time: { type: "array", items: { type: "object", additionalProperties: false, required: ["who", "role"], properties: {
+        who: entityRef, role: enm(["patron", "addressee", "named-in-dua", "subject", "opponent", "contemporary"]), sources: strs, note: str } } },
+      book_studied: { type: "object", additionalProperties: false, required: ["work"], properties: { work: entityRef, range: str } },
+      order: intStr,
+      duration: { type: "number", exclusiveMinimum: 0, description: "minutes" },
+      delivery_date_status: enm(["delivered", "uploaded", "broadcast"]),
+      consequence: entityRefs,
+      reception: { type: "array", items: { type: "object", required: ["kind"], properties: {
+        kind: enm(["approval", "objection", "fatwa", "ban", "cut", "award", "protest", "release", "withdrawal", "other"]),
+        by: str, where: strs, date: D, status: enm(claimStatus), note: str, sources: strs } } } },
     required: ["kind"],
   },
   passage: {
     properties: { work: entityRef, ref: str, unit: enm(["sura", "ayah", "hadith", "poem-line", "chapter", "other"]), sura: intStr, aya: intStr, text: str, text_search: str,
+      // sura chronology (docs/plan/21 §C.6): the Cairo-edition order of revelation and its Meccan/Medinan classification
+      revelation_order: intStr, revelation_place: enm(["meccan", "medinan"]),
+      // poem-line passages (docs/delegation/poetry-passages-plan.md §3): classical metre and rhyme letter (rawiy)
+      metre: enm(metres), rhyme: str,
       translations: { type: "object", additionalProperties: { type: "object", required: ["text"],
         properties: { text: str, translator: str, license: enm(licenses) } } },
-      audio: entityRefs, context: L },
+      audio: entityRefs,
+      // ordered isnad (commit 4d20f6f17): person refs only; the validator checks each one resolves
+      chain: { type: "array", description: "ordered isnad as stated in the source: first narrator nearest the work; person/muhammad is the terminal when the report reaches him (marfu'), otherwise the last element is the Companion the report stops at",
+        items: { type: "string", pattern: "^person/[a-z0-9][a-z0-9-]*$" }, minItems: 1 },
+      context: L },
     required: ["work", "ref"],
   },
   concept: {
@@ -287,7 +501,23 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   exhibit: {
     properties: { ...kind("exhibit"), audience: strs, duration_minutes: intStr, curator: str, opened: { type: "string", format: "date" },
       prerequisites: entityRefs,
-      rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs } } } },
+      goal: L, path_kind: enm(["era", "personalities", "events", "ideas", "places", "texts", "art", "culture", "hard-question", "starter"]),
+      level: enm(["intro", "standard", "deep"]),
+      outcomes: { type: "array", items: { type: "object", required: ["text"], properties: { text: L, steps: { type: "array", items: intStr } } } },
+      next: entityRefs,
+      rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs,
+        depth: enm(["brief", "standard", "deep"]), optional: { type: "boolean" }, why_next: L, branch_of: intStr } } },
+      // Curriculum pathways (docs/delegation/education-master-plan.md §5 E2): the mapping a teacher reads, in the museum's own
+      // words, never copied from the Ministry document; `course` is the Ministry code (CHW3M) or "G4-SS" where none exists.
+      curriculum: { type: "object", additionalProperties: false, required: ["jurisdiction", "course", "grade", "strand", "expectation"],
+        properties: { jurisdiction: enm(["on-ca"]), course: { type: "string", pattern: "^(G[1-8]-[A-Z]{2,4}|[A-Z]{3}[1-4][A-Z])$" }, course_title: L, grade: { type: "string", pattern: "^([1-9]|1[0-2])$" },
+          strand: { type: "string", pattern: "^[A-F]$" }, strand_title: L, expectations: { type: "array", items: { type: "string", pattern: "^[A-F][1-4]$" }, minItems: 1 },
+          expectation: L, document: str, verified: { type: "string", format: "date" } } },
+      // Mastery check (plan §5 E2): five questions, four options each, the index of the right one, and the step that teaches it.
+      quiz: { type: "array", minItems: 5, maxItems: 5, items: { type: "object", required: ["q", "options", "answer", "teaches"], additionalProperties: false,
+        properties: { q: L, options: { type: "array", minItems: 4, maxItems: 4, items: L }, answer: { type: "integer", minimum: 0, maximum: 3 }, teaches: intStr } } },
+      // The student worksheet of a lesson pathway (one prompt per line, printed with writing lines).
+      worksheet: { type: "array", minItems: 1, items: { type: "object", required: ["prompt"], properties: { prompt: L, steps: { type: "array", items: intStr } } } } },
     required: ["kind"],
   },
   question: {
@@ -355,6 +585,41 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     required: ["kind"],
   },
 };
+
+for (const c of ["object", "building", "work", "group", "event", "place", "journey"]) classProps[c].properties.jobs = jobTies;
+classProps.person.properties.inventions = personInventionTies;
+classProps.object.properties.inventions = inventionTie(["example-of", "tool-for", "product-of"]);
+classProps.work.properties.inventions = inventionTie(["describes", "first-describes", "patent-of", "disputes"]);
+classProps.building.properties.inventions = inventionTie(["site-of", "spread-to", "made-in"], { start: D });
+classProps.place.properties.inventions = inventionTie(["site-of", "spread-to", "made-in"], { start: D });
+classProps.event.properties.inventions = inventionTie(["first-use", "demonstration", "publication", "patent-granted"]);
+classProps.concept.properties.inventions = inventionTie(["theory-of", "applied-in"]);
+
+// Modern Islam Browser (docs/plan/26 section 3): the award class, an athlete's sports, an album's tracks, a group's scope.
+classProps.award = {
+  properties: {
+    names: { type: "array", items: ref("name") },
+    ...kind("award"),
+    awarded_by: entityRef,
+    since: D, until: D,
+    fields: strs,
+    categories: { type: "array", items: { type: "object", additionalProperties: false, required: ["id", "label"], properties: {
+      id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" }, label: L, since: D, until: D, note: str } } },
+    country: { type: "string", pattern: "^[a-z]{2}$" },
+    recurs: str,
+    ceremony: entityRef,
+    laureate: { type: "boolean", description: "Winners of a laureate award also appear in the browser's achievements section." },
+    links: { type: "object", additionalProperties: true },
+  },
+  required: ["kind"],
+};
+classProps.person.properties.sports = { type: "array", items: { type: "object", additionalProperties: false, required: ["sport", "sources"], properties: {
+  sport: enm(modernSports), discipline: str, position: str, teams: entityRefs, national_team: { type: "string", pattern: "^[a-z]{2}$" },
+  start: D, end: D, note: str, sources: sourcesReq } } };
+classProps.work.properties.tracks = { type: "array", items: { type: "object", additionalProperties: false, required: ["n", "title"], properties: {
+  n: { type: "integer", minimum: 1 }, title: L, work: entityRef, duration_s: { type: "number", minimum: 0 }, lang: str, performers: entityRefs, note: str, sources: strs } } };
+classProps.group.properties.scope = enm(["local", "national", "regional", "international", "virtual"]);
+classProps.group.properties.countries = { type: "array", items: { type: "string", pattern: "^[a-z]{2}$" }, uniqueItems: true };
 
 writeFileSync(new URL("_base.schema.json", root), JSON.stringify(base, null, 2) + "\n");
 

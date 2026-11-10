@@ -1,0 +1,21 @@
+id: place/seiyun
+class: place
+kind: city
+label: { ar: "سيئون", en: "Seiyun", ur: "سیئون" }
+summary:
+  ar: "مدينة في اليمن."
+  en: "City in Yemen."
+wings: [place]
+regions: [arabia]
+coordinates: [15.966666666667, 48.783333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2320876" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2320876 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

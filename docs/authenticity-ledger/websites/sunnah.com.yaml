@@ -1,0 +1,27 @@
+id: sunnah.com
+kind: website
+url: https://sunnah.com
+tier: T3
+status: reference-edition-dependent
+allowed_uses:
+- pointer
+- text
+- grades
+owner: Sunnah.com hadith texts, references and grades
+evidence:
+- Wikipedia pointers only (see the register entry); not yet checked against any record
+checks:
+- date: '2026-10-24'
+  type: 30-row sample against a named edition (Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut; Shamela book 1726, shamela.ws/book/1726, typed text with diacritics; reader pages 1 to 7200, seed 20261026, first hadith on each page)
+  basis: named edition by editor and publisher (no year on the page); numbering stated on the page to match the print
+  result: PASSES (75 percent passing grade, founder 24 Oct 2026). 29 of 30 rows matched in full (normalised, first 200 characters of each row) in a sunnah.com Sunan Abi Dawud result; 1 row (row 27, Hajj, Safa and Marwa) returned no sunnah.com result; a short phrase from that row returned only Sahih Ibn Hibban
+  valid: true
+- date: '2026-10-24'
+  type: 30-row sample attempt against a named edition (Sunan Abi Dawud, ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya, Sidon-Beirut; archive.org item anouaroc_hotmail_20160729, OCR search text)
+  basis: named edition by publisher and editor; no year on the page
+  result: not run; the OCR text is too garbled to sample (35 occurrences of the opening formula, most mangled, for example 'حدتنا'); a mismatch would reflect the OCR, not the site
+  valid: false
+history:
+- date: '2026-10-24'
+  event: 'proposed and registered as not-verified (pointer only), per the founder instruction to add these sites as sources'
+retrieved_on: '2026-10-24'

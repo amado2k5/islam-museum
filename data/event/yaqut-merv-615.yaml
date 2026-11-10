@@ -1,0 +1,28 @@
+id: event/yaqut-merv-615
+class: event
+kind: other
+label:
+  ar: "ثلاث سنوات بين خزائن مرو الوقفية، وفكرة معجم البلدان، ٦١٥هـ/١٢١٨م"
+  en: "Three years among the waqf libraries of Marw, and the idea of the Mujam al-Buldan, 615/1218"
+  ur: "مرو کی وقف کتب خانوں میں تین سال، اور معجم البلدان کا تصور، 615ھ/1218ء"
+summary:
+  ar: "انتهى ياقوت إلى مرو فأقام بها ثلاثة أعوام بين مكتباتها المشهورة، وقال في معجمه: «ولولا ما عرا من ورود التتر إلى تلك البلاد وخرابها لما فارقتها إلى الممات، لما في أهلها من الرفد ولين الجانب وحسن العشرة وكثرة كتب الأصول المتقنة، فإني فارقتها وفيها عشر خزائن للوقف لم أر في الدنيا مثلها كثرة وجودة» {cite:mawsuat-a3lam-ulama-adaba p. 278}. وجاءته فكرة «معجم البلدان» بمرو سنة ٦١٥هـ/١٢١٨–١٢١٩م في درس لشيخه أبي المظفر عبد الرحيم بن السمعاني {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
+  en: "Yaqut ended up at Marw and stayed three years among its famous libraries. In the Mujam he wrote: 'Had not the Tatars arrived and ruined those lands I would never have left it for all my life, for the kindness, gentleness and good company of its people and the wealth of reliable source books — I left it while it held ten waqf repositories whose like in quantity and quality I never saw in the world' {cite:mawsuat-a3lam-ulama-adaba p. 278}. The idea of the Mujam al-Buldan came to him at Marw in 615/1218-19, during a course of his teacher Abu al-Muzaffar Abd al-Rahim ibn al-Sam'ani {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
+  ur: "یاقوت مرو پہنچا اور اس کی مشہور کتب خانوں میں تین سال رہا۔ معجم میں لکھا: «اگر تاتاری نہ آ کر ان علاقوں کو اجاڑتے تو موت تک اسے نہ چھوڑتا — اہل وہاں کی بھلائی، نرم مزاجی اور اچھے سلوک اور مستند اصل کتابوں کی کثرت کی وجہ سے؛ میں نے اسے چھوڑا اور وہاں دس وقفی خزانے تھے جن جیسی کثرت اور جودت دنیا میں نہ دیکھی» {cite:mawsuat-a3lam-ulama-adaba p. 278}. معجم البلدان کا خیال اسے مرو میں 615ھ/1218-19ء میں استاد ابو المظفر عبدالرحیم ابن سمعانی کے درس میں آیا {cite:encyclopaedia-of-islam-2 vol. 11 p. 265}."
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1218~", hijri: "0615", calendar: julian, precision: year, status: tradition, derived: true, note: "فكرة معجم البلدان بمرو سنة ٦١٥هـ وإقامة ثلاث سنين {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/merv, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: had_participant, target: person/ibn-al-samani-abd-al-rahim, role: "الشيخ صاحب الدرس", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

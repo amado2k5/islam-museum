@@ -1,0 +1,31 @@
+id: person/al-abri-abu-al-hasan
+class: person
+label: { ar: "الآبري أبو الحسن", en: "al-Abri, Abu al-Hasan" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن محمد بن الحسن بن إبراهيم بن عاصم الآبري السجستاني" }
+gender: male
+roles: [scholar, historian]
+traditions: [sunni]
+died: { edtf: "0974", hijri: "0363", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث وحافظ ومؤرخ من سجستان، رحل إلى الشام وخراسان والجزيرة وروى عن جماعة من أهل الحديث."
+  en: "Hadith scholar, memoriser and historian from Sijistan who travelled to Syria, Khurasan and al-Jazira to hear traditions."
+wings: [people]
+themes: [scripture-and-its-sciences, history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص21-22"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+relations:
+  - { type: traveled_to, target: place/al-sham, note: "From text: travelled to Syria", sources: [source/mawsuat-a3lam-ulama-adaba] }

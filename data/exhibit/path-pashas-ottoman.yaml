@@ -1,0 +1,77 @@
+id: exhibit/path-pashas-ottoman
+class: exhibit
+kind: trail
+label:
+  ar: الصدر الأعظم
+  en: The Grand Viziers
+summary:
+  ar: 'مسار في رجال الدولة: سوكولو يبني الإمبراطورية، وكوبرولو يعيد تنظيمها، والصدر الأعظم يقود الجيش
+    — إدارة العثمانيين.'
+  en: A trail through the men of state.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: سوكولو
+    en: Sokollu
+  body:
+    ar: 'محمد باشا: رأس الدولة أربعة سلاطين.'
+    en: 'محمد باشا: رأس الدولة أربعة سلاطين.'
+  features:
+  - person/sokollu-mehmed-pasha
+  - place/istanbul
+- title:
+    ar: قناة
+    en: The canal
+  body:
+    ar: 'مشروعات سوكولو: قناة دون والفولغا.'
+    en: 'مشروعات سوكولو: قناة دون والفولغا.'
+  features:
+  - person/sokollu-mehmed-pasha
+  - place/istanbul
+- title:
+    ar: كوبرولو
+    en: Koprulu
+  body:
+    ar: 'محمد باشا الكوبرولي: إنقاذ الدولة 1656.'
+    en: 'محمد باشا الكوبرولي: إنقاذ الدولة 1656.'
+  features:
+  - person/koprulu-mehmed-pasha
+  - polity/ottoman-empire
+- title:
+    ar: الأسرة
+    en: The family
+  body:
+    ar: 'ستة صدور من كوبرولو: نصف قرن.'
+    en: 'ستة صدور من كوبرولو: نصف قرن.'
+  features:
+  - person/koprulu-mehmed-pasha
+  - place/istanbul
+- title:
+    ar: الإدارة
+    en: The administration
+  body:
+    ar: 'الباب العالي: دواوين الدولة.'
+    en: 'الباب العالي: دواوين الدولة.'
+  features:
+  - place/istanbul
+  - polity/ottoman-empire
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

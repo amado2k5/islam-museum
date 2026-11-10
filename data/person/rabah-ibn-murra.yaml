@@ -1,0 +1,23 @@
+id: person/rabah-ibn-murra
+class: person
+label: { ar: "رباح بن مرة", en: "Rabah ibn Murra" }
+summary:
+  ar: "دليل الملك حسان إلى جديس وأخو اليمامة بنت مرة زرقاء اليمامة، حذر الملك أن أخته تبصر الراكب على مسيرة ثلاث ليال فأمره أن يأمر أصحابه باقتلاع الشجر والسير وراءه {cite:muruj-al-dhahab p. 455}."
+  en: "Hassan's guide against Jadis and brother of Zarqa' al-Yamama — he warned the king of her far sight and devised the carried-tree screen {cite:muruj-al-dhahab p. 455}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 455"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch39
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/al-yamama, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

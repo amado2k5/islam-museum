@@ -1,0 +1,22 @@
+id: person/ibrahim-ibn-makhrama-al-kindi
+class: person
+label: { ar: "إبراهيم بن مخرمة الكندي", en: "Ibrahim ibn Makhrama al-Kindi" }
+summary:
+  ar: "كان إذا أراد أن يسأل أبا العباس حاجة أخّرها حتى يحضر طعامه لأنه كان إذا حضر أبسط ما يكون وجهاً، فلما سأله عن ذلك قال يدعوني إلى ذلك التماس النجح، فقال إنك لحقيق بالسؤدد لحسن هذه الفطنة {cite:muruj-al-dhahab p. 251}."
+  en: "The courtier who timed his petitions to al-Saffah's meal-hour, when the caliph was most open-faced {cite:muruj-al-dhahab p. 251}."
+gender: male
+wings: [people]
+born: { edtf: "1434", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+died: { edtf: "1510", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 251"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch43
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,27 @@
+---
+id: concept/qaswat-al-qalb-wa-amradih
+lang: ur
+source_lang: ar
+translators: []
+---
+## خلاصہ
+شیخ عمر عبدالکافی کہتے ہیں کہ بندے کے لیے دل کی سختی اور اللہ سے دوری سے بڑی کوئی سزا نہیں۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:08:00} وہ کہتے ہیں کہ چار چیزیں حد سے بڑھ جائیں تو دل کو نقصان دیتی ہیں، اور دل ذکر سے زندہ ہوتا ہے اور تفکر سے سیراب ہوتا ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:11:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:14:30}
+
+## دل کی سختی کے اسباب: کھانا، نیند، بات چیت اور میل جول
+شیخ کہتے ہیں کہ دل کو چار چیزیں نقصان دیتی ہیں: زیادہ کھانا، زیادہ سونا، زیادہ بولنا اور لوگوں سے حد سے زیادہ میل جول۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:11:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:11:30}
+وہ اس کا موازنہ بدن سے کرتے ہیں: جیسے بیمار بدن کو کھانا پانی فائدہ نہیں دیتا، ویسے ہی شہوات سے بیمار دل کو [ریکارڈنگ میں واضح نہ ہونے والا لفظ] فائدہ نہیں دیتا (needs_source: آخری عبارت ریکارڈنگ میں مشوش ہے)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:11:30}
+
+## ایک قول: خواہش پر اللہ کو ترجیح
+شیخ کہتے ہیں کہ جو اپنے دل کی صفائی چاہتا ہے وہ اپنی خواہش پر اللہ کو مقدم رکھے، اور یہ وہ قول ہے جو وہ نقل کرتے ہیں مگر ریکارڈنگ میں اس کے قائل کا نام نہیں لیتے (needs_source: قائل کا نام غیر مسمّیٰ ہے)۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:12:00}
+
+## ذکر اور تفکر: دل کی زندگی
+شیخ کہتے ہیں کہ دل ذکر سے زندہ ہوتا ہے، تفکر سے سیراب ہوتا ہے، اور نقصان دہ جڑی بوٹیوں جیسی آلودگیوں سے پاک ہوتا ہے۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:14:30}
+
+## عمر عبد الکافی کے سلسلہ شرح الحکم العطائیہ سے
+عمر عبد الکافی دل کی موت کی علامتوں پر ابن عطاء اللہ کی حکمت کی شرح کرتے ہیں: بندہ فوت شدہ نیکیوں پر غمگین نہ ہو اور کی ہوئی لغزشوں پر نادم نہ ہو۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:44:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:54:30} وہ مثال دیتے ہیں اس شخص کی جو مسجد میں صرف جنازے کی صورت میں اٹھا کر لایا جاتا ہے، اور اس کی جو بار بار نماز چھوڑتا ہے۔ {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:45:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:46:00}
+
+## عمر عبد الکافی کے پروگرام المنجیات سے
+«المنجیات» میں عمر عبد الکافی ان چیزوں کی بات کرتے ہیں جو علما نے دل کو بگاڑنے والی گنوائی ہیں، ان میں: وہ علم جس پر عمل نہ ہو، وہ عمل جس میں اخلاص اور اتباع نہ ہو، اور اللہ کی محبت اور شوق سے خالی دل، {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:01:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:03:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:05:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:13:30} اور کہتے ہیں کہ جو اپنے علم پر عمل نہ کرے وہ اپنے عمل میں بھٹک جاتا ہے۔ {cite:assabile-omar-abdelkafy al-manjeyat/ep06 00:04:00}
+
+## تفسیرِ طبری میں: «فی قلوبہم مرض»
+طبری منافقین کے دلوں کی بیماری کی تفسیر محمد اور ان کی لائی ہوئی چیز کے بارے میں شک اور حیرت سے کرتے ہیں، جو دین کی بیماری ہے نہ کہ جسموں کی؛ اور اس پر ابن عباس، سدی، قتادہ، ربیع بن انس اور ابن زید کی روایات لاتے ہیں۔ {cite:tafsir-tabari-shakir-v01 p. 279} {cite:tafsir-tabari-shakir-v01 p. 280} {cite:tafsir-tabari-shakir-v01 p. 281}

@@ -1,0 +1,18 @@
+id: place/unknown
+class: place
+kind: site
+label: { ar: "مجهول", en: "unknown", ur: "نامعلوم" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q24238356)."
+wings: [place]
+regions: [global]
+external_ids: { wikidata: "Q24238356" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q24238356 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

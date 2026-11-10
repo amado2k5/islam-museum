@@ -1,0 +1,23 @@
+id: person/salim-al-tumi
+class: person
+label: { ar: "سالم التؤمي", en: "Salim al-Tumi" }
+gender: male
+roles: [ruler]
+died: { edtf: "1516", hijri: "0922", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "حاكم الجزائر الذي ارتكز حكمه على دعم الأسبان له، في وصف الصلابي. حاصر الأخوين عروج وخير الدين في جيجل بينه وبين الحفصيين، ثم دخل عروج الجزائر بالدعم العثماني وقتله بعد أن تأكد من مساعيه للاستعانة بالقوات الأسبانية، سنة ١٥١٦م {cite:dawlat-uthmaniyya-salabi p. 210}."
+  en: "Salim al-Tumi — ruler of Algiers whose power rested on Spanish backing, in al-Salabi's account; he besieged the Barbarossa brothers at Jijel, and when Aruj entered Algiers with Ottoman support in 1516 he was killed on proof of his appeals for Spanish troops {cite:dawlat-uthmaniyya-salabi p. 210}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+relations:
+  - { type: ruler_of, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: opposed, target: person/uruj-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 210"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: salabi-uthmani-batch9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

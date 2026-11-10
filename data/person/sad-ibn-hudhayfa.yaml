@@ -1,0 +1,23 @@
+id: person/sad-ibn-hudhayfa
+class: person
+label: { ar: "سعد بن حذيفة بن اليمان", en: "Sa'd ibn Hudhayfa" }
+summary:
+  ar: "ابن حذيفة بن اليمان، استشهد مع أخيه صفوان بصفين سنة ست وثلاثين ومات أبوهما بعد خطبته في الناس وبيعته لعلي بسبعة أيام وقيل بأربعين {cite:muruj-al-dhahab p. 675}."
+  en: "Hudhayfa's other martyred son at Siffin — their father died days after the sickbed sermon and bay'a that sent them {cite:muruj-al-dhahab p. 675}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
+died: { edtf: "687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-l-Muluk (al-Tabari)" }
+relations:
+  - { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

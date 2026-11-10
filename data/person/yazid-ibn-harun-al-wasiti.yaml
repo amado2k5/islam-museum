@@ -1,0 +1,24 @@
+id: person/yazid-ibn-harun-al-wasiti
+class: person
+label: { ar: "يزيد بن هارون الواسطي", en: "Yazid ibn Harun" }
+summary:
+  ar: "يزيد بن هارون بن زاذان الواسطي مولى بني سليم، من علية أهل الحديث وعظمائهم، ولد سنة سبع عشرة ومائة ومات بواسط سنة ست ومائتين وله تسع وثمانون سنة، وكان أبوه يخدم في مطبخ زياد بن أبيه وابنه ومصعب بن الزبير والحجاج {cite:muruj-al-dhahab p. 426}."
+  en: "The Wasit traditionist giant — born 117, dead 206, his father having served the kitchens of Ziyad, Mus'ab and al-Hajjaj {cite:muruj-al-dhahab p. 426}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 426"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 50, 90" }
+sources: [source/muruj-al-dhahab, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+relations:
+  - { type: lived_in, target: place/wasit, confidence: low, note: "Association inferred from the nisba 'الواسطي'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab, source/qiraat-inda-al-tabari-thesis-umm-al-qura] }

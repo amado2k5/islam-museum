@@ -1,0 +1,98 @@
+id: invention/sharaf-tusi-positive-cubic-roots
+class: invention
+label: { ar: "تحليل شرف الدين لشروط الجذور الموجبة للمكعبات", en: "Sharaf al-Din's positive-root analysis for cubics", ur: "تکعیبی مساوات کے مثبت جذور کا شرف الدین کا تجزیہ" }
+names:
+  - { kind: alternate, lang: en, value: "Conditional existence analysis of positive cubic roots" }
+summary:
+  ar: "تمييز وجود الحل الموجب بشرط قيمة عظمى في أصناف مكعبة،لا اختراع الجبر أو التفاضل الحديث {cite:sharaf-tusi-mactutor equations}."
+  en: "Distinguished positive-solution existence through a maximum condition in cubic classes,not invention of algebra or modern calculus {cite:sharaf-tusi-mactutor equations}."
+  ur: "تکعیبی اقسام میں اعظم قدر کی شرط سے مثبت حل کے وجود کی تمیز،تمام الجبرا یا جدید تفاضل کی ایجاد نہیں {cite:sharaf-tusi-mactutor equations}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [persia-central-asia, levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "11XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "Twelfth-century scholarly attribution horizon,not exact composition or autograph date. TDV rejects1209 lifetime inference from misread manuscript;no invented Hijri/lifespan."
+    sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel]
+  status_today: living
+origin:
+  place: place/baghdad
+  context:
+    ar: "يربط ماكتيتور العمل الجبري بالتعليم المتأخر في بغداد،لا برهان على يوم اكتشاف الشرط أو مكان كل فصل {cite:sharaf-tusi-mactutor biography}."
+    en: "MacTutor associates algebra with later Baghdad teaching,not proof of discovery day or place of every chapter {cite:sharaf-tusi-mactutor biography}."
+    ur: "میک ٹیوٹر الجبرا کو بغداد کی بعد کی تدریس سے جوڑتا،شرط دریافت کرنے کے دن یا ہر باب کے مقام کا ثبوت نہیں {cite:sharaf-tusi-mactutor biography}۔"
+makers:
+  - person: person/sharaf-al-din-al-tusi
+    role: improver
+    note: "Specific systematic positive-root conditions,not all cubics or an unqualified calculus claim."
+    sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel]
+attribution:
+  status: improvement
+  claim:
+    ar: "دراسة أصناف مكعبة مشروطة الحل الموجب وتحليل قيمة عظمى."
+    en: "Studied conditionally positive-soluble cubic classes through maximum analysis."
+    ur: "شرط کے ساتھ مثبت حل رکھنے والی تکعیبی اقسام کا اعظم قدر سے مطالعہ۔"
+  basis:
+    ar: "تعرض السير التصنيف والمثال،بينما حذفت الجداول من الاختصار؛لا ادعاء قراءة أصل راشد أو المخطوط {cite:sharaf-tusi-mactutor equations} {cite:tdv-sharaf-tusi-ozel works1}."
+    en: "Biographies explain classification/example,while abridgement removed tables;no original Rashed edition/manuscript reading claimed {cite:sharaf-tusi-mactutor equations} {cite:tdv-sharaf-tusi-ozel works1}."
+    ur: "سوانح تقسیم و مثال بتاتی ہیں،اختصار میں جدول حذف؛اصل راشد ایڈیشن یا مخطوطہ پڑھنے کا دعویٰ نہیں {cite:sharaf-tusi-mactutor equations} {cite:tdv-sharaf-tusi-ozel works1}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-frame-sourced-positive-root-method
+      summary:
+        ar: "الإطار السني يعرض طريقة شرف الدين كما يصفها أوزل وماكتيتور،لا أولية مطلقة في كل الجبر {cite:tdv-sharaf-tusi-ozel mathematical-analysis}."
+        en: "Sunni museum frame presents Sharaf's method through Ozel/MacTutor,not universal priority in all algebra {cite:tdv-sharaf-tusi-ozel mathematical-analysis}."
+        ur: "سنی عجائب گھری فریم میں اوزل و میک ٹیوٹر کا منسوب طریقہ،تمام الجبرا کی مطلق اولیت نہیں {cite:tdv-sharaf-tusi-ozel mathematical-analysis}۔"
+      sources: [source/tdv-sharaf-tusi-ozel, source/sharaf-tusi-mactutor]
+    - tradition: academic
+      id: derivative-interpretation-debate
+      summary:
+        ar: "تذكر ماكتيتور تفسيرات مختلفة لعلاقة طريقة القيم العظمى بالمشتقة؛الدراسات الأصلية ليست مقروءة هنا ولا يحسم المتحف الخلاف {cite:sharaf-tusi-mactutor derivative-discussion}."
+        en: "MacTutor reports differing interpretations of maxima and derivative analogy;original studies not read here,no museum verdict {cite:sharaf-tusi-mactutor derivative-discussion}."
+        ur: "میک ٹیوٹر اعظم قدر و مشتق کی تشبیہ پر مختلف تعبیرات بتاتا؛اصل مطالعات یہاں نہیں پڑھے،عجائب گھر کا فیصلہ نہیں {cite:sharaf-tusi-mactutor derivative-discussion}۔"
+      sources: [source/sharaf-tusi-mactutor]
+precursors:
+  - invention: invention/khayyam-geometric-cubics
+    note: "Earlier conic treatment,not identical maximum/existence analysis or proof of a personal teacher chain."
+    sources: [source/tdv-sharaf-tusi-ozel]
+dependents:
+  - external: { ar: "تلقي المعادلات لدى رياضيين لاحقين", en: "Reception of the equations among later mathematicians", ur: "بعد کے ریاضی دانوں میں مساوات کی روایت" }
+    note: "Ozel's reported literary reception,not every modern calculus or numerical algorithm's proven genealogy."
+    sources: [source/tdv-sharaf-tusi-ozel]
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "فصل سؤال إمكان الحل الموجب عن إيجاد تقريب له {cite:sharaf-tusi-mactutor equations}."
+    en: "Separated whether a positive solution exists from finding an approximation {cite:sharaf-tusi-mactutor equations}."
+    ur: "مثبت حل کے وجود کا سوال،اس کی تقریب حاصل کرنے سے الگ کیا {cite:sharaf-tusi-mactutor equations}۔"
+  history:
+    ar: "حلقة في تحليل المعادلات مع خلاف حول لغة تفسيرها الحديثة {cite:tdv-sharaf-tusi-ozel mathematical-analysis} {cite:sharaf-tusi-mactutor derivative-discussion}."
+    en: "A contribution to equation analysis with debate over modern interpretive language {cite:tdv-sharaf-tusi-ozel mathematical-analysis} {cite:sharaf-tusi-mactutor derivative-discussion}."
+    ur: "مساوات کے تجزیے میں اضافہ،جدید تعبیر کی زبان پر اختلاف کے ساتھ {cite:tdv-sharaf-tusi-ozel mathematical-analysis} {cite:sharaf-tusi-mactutor derivative-discussion}۔"
+  significance: 3
+  why: "Specific maximum-bound positive-root analysis,distinct from earlier conic constructions and from anachronistic calculus priority."
+described_in: [work/al-muadalat-sharaf-tusi]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "أمثلة تعليمية حديثة بشروط معلنة،لا نقل رموز مخطوط.", en: "Modern teaching examples with stated domains,not manuscript-symbol transcription.", ur: "اعلانیہ حدود کی جدید تدریسی مثالیں،مخطوطے کی علامتوں کی نقل نہیں۔" }
+  descendants: { ar: "لا نسب مثبت لنيوتن أو هورنر من التشابه وحده.", en: "No proven Newton/Horner lineage from resemblance alone.", ur: "صرف مشابہت سے نیوٹن یا ہورنر کا ثابت نسب نہیں۔" }
+media: { image: media/sharaf-tusi-cubic-context, diagram: media/diagram-sharaf-tusi-cubic-roots }
+kids:
+  ar: "اسأل أولاً هل يمكن أن يوجد حل موجب؛الأعداد على ورق فقط."
+  en: "First ask whether a positive answer can exist;paper numbers only."
+  ur: "پہلے پوچھیں مثبت جواب ممکن ہے یا نہیں؛صرف کاغذی عدد۔"
+sources: [source/sharaf-tusi-mactutor, source/tdv-sharaf-tusi-ozel, source/commons-polynomialdeg3]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b71", source: "Actual complete reference accounts;primary equation treatise not read. Independent modern factorization/root/scaling examples,not recovered historical tables." }

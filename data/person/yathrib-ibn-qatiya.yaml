@@ -1,0 +1,22 @@
+id: person/yathrib-ibn-qatiya
+class: person
+label: { ar: "يثرب بن قاتية", en: "Yathrib ibn Qatiya" }
+summary:
+  ar: "يثرب بن قاتية بن مهليل بن أرم بن عبيل، نزل بالمدينة هو وولده ومن تبعه فسميت به يثرب، فهلكوا ببعض غوائل الدهر وآفاته وفي ذلك رثاهم شاعرهم {cite:muruj-al-dhahab p. 458}."
+  en: "Yathrib ibn Qatiya ibn Mahlil — the eponym of Medina, who settled it with his sons and followers until some calamity destroyed them, mourned in their poets' verse {cite:muruj-al-dhahab p. 458}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 458"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

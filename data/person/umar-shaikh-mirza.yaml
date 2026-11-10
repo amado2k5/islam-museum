@@ -1,0 +1,30 @@
+id: person/umar-shaikh-mirza
+class: person
+label:
+  ar: "عمر شيخ ميرزا"
+  en: "Umar Shaikh Mirza I"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمر شيخ ميرزا بن تيمور، الأمير التيموري الذي حكم فرغانه وهو والد بابر مؤسس الدولة المغولية الهندية، توفي سنة ١٤٩٤م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Umar Shaikh Mirza ibn Timur's line — the Timurid ruler of Fergana and father of Babur, founder of the Mughal empire, d. 1494; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zafarnama (Shami/Yazdi); EI2" }
+died: { edtf: "1394", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zafarnama (Shami/Yazdi); EI2" }
+relations:
+  - { type: died_in, target: place/tuz-khormato, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1023334)" }
+  - { type: buried_in, target: place/shahrisabz, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q569766)" }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q4475316
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0016
+status:
+  review: draft
+  completeness: 1

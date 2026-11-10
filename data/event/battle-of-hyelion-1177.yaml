@@ -1,0 +1,23 @@
+id: event/battle-of-hyelion-1177
+class: event
+kind: battle
+label: { ar: "معركة هيليون وليموشير", en: "Battle of Hyelion and Leimocheir" }
+summary:
+  ar: "بطاقة أولية لمعركة هيليون وليموشير سنة ١١٧٧م، نصر بيزنطة على سلاجقة الروم قرب مايندر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Hyelion and Leimocheir in 1177, Byzantium's victory over the Seljuks of Rum by the Maeander; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1177", precision: year, status: tradition, derived: true }
+  end: { edtf: "1177", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q1391966
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Byzantine-Seljuk histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,73 @@
+id: invention/arabic-fiscal-register-reform
+class: invention
+label: { ar: "إصلاح لغة سجلات الخراج في عهد عبد الملك", en: "Abd al-Malik's Arabic fiscal-register reform", ur: "عبدالملک کے عہد میں مالی رجسٹروں کی عربی اصلاح" }
+names:
+  - { kind: alternate, lang: ar, value: "تعريب دواوين الخراج" }
+  - { kind: alternate, lang: en, value: "Arabicization of fiscal registers" }
+summary:
+  ar: "نقل إداري للسجلات إلى العربية في مراحل إقليمية، مع تكليف عبد الملك في الشام وعمل المترجمين؛ لا اختراع العربية أو الديوان {cite:baladhuri-hitti-1916 p.301}."
+  en: "Phased administrative transfer of registers into Arabic,with Abd al-Malik's Syrian commission and translators' work,not invention of Arabic or the diwan {cite:baladhuri-hitti-1916 p.301}."
+  ur: "علاقائی مرحلوں میں رجسٹروں کو عربی میں منتقل کرنا، شام میں عبدالملک کے حکم اور مترجموں کے کام سمیت؛ عربی یا دیوان کی ایجاد نہیں {cite:baladhuri-hitti-1916 p.301}۔"
+domain: institutions-systems
+kind: institution
+disciplines: [history, calligraphy]
+wings: [made, ideas]
+periods: [period/umayyad]
+regions: [levant-iraq]
+era:
+  origins: first-century
+  first_attested:
+    edtf: "0700"
+    hijri: "0081"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Duri's source-supplied81AH/700Syrian stage,also81AHin Baladhuri/Hitti301. Not exact decree day,first Arabic document or all regions' simultaneous completion; no new conversion. Duri separately gives78AHIraq,87AHEgypt,124AHKhurasan."
+    sources: [source/tdv-divan-duri, source/baladhuri-hitti-1916]
+  status_today: transformed
+origin:
+  place: place/damascus
+  polity: polity/umayyad-caliphate
+  context: { ar: "مركز التكليف الشامي ضمن إدارة لها سوابق يونانية وفارسية، لا منشأ الكتابة أو الترجمة {cite:tdv-divan-duri Arabicization}.", en: "Syrian commissioning centre within administration with Greek/Persian precedents,not origin of writing or translation {cite:tdv-divan-duri Arabicization}.", ur: "یونانی و فارسی سابقوں والی انتظامیہ میں شامی حکم کا مرکز، تحریر یا ترجمے کا آغاز نہیں {cite:tdv-divan-duri Arabicization}۔" }
+makers:
+  - { person: person/abd-al-malik-ibn-marwan, role: commissioner, place: place/damascus, note: "State commission,not sole translator. Hitti301names Sulaiman ibn-Sa'd; Iraqi465–466names Salih/al-Hajjaj/Zadan in a distinct narrative. No private-faith inference for clerks.", sources: [source/baladhuri-hitti-1916, source/tdv-abdulmelik-yildiz] }
+attribution:
+  status: improvement
+  claim: { ar: "إصلاح لغة العمل في سجلات قائمة، لا أول حساب أو إدارة في العالم.", en: "Working-language reform within existing registers,not the world's first accounts or administration.", ur: "موجود رجسٹروں کی کام کی زبان کی اصلاح، دنیا کے پہلے حساب یا انتظامیہ نہیں۔" }
+  basis: { ar: "تكليف81هـ في الشام، ورواية نقل عراقي وشرح مراحل واستمرار لغات محلية {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tdv-divan-duri Arabicization}.", en: "Syrian81AHcommission,distinct Iraqi transfer account,phases and persistent local languages {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tdv-divan-duri Arabicization}.", ur: "شام کا81ھ حکم، الگ عراقی نقل، مرحلے اور مقامی زبانوں کا تسلسل {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tdv-divan-duri Arabicization}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "رواية تاريخية منسوبة، وإطار شخصي معلن", en: "Attributed historical transmission and explicit personal frame", ur: "منسوب تاریخی روایت اور واضح شخصی سیاق" }
+      summary: { ar: "البلاذري في ترجمة حتي يروي التكليف الشامي والعمل العراقي؛ السيوطي ينقل عبادة عبد الملك وفقهه قبل الخلافة، ضمن إطار سني معلن لا إلغاء للتقييمات السياسية {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tarikh-khulafa-minhaj-1434 p.356}.", en: "Baladhuri/Hitti reports Syrian commissioning/Iraqi work; Suyuti transmits Abd al-Malik's pre-accession worship/legal learning within an explicit Sunni museum frame,not erasure of political assessments {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tarikh-khulafa-minhaj-1434 p.356}.", ur: "بلاذری/حِتّی شامی حکم و عراقی کام دیتے ہیں؛ سیوطی عبدالملک کی خلافت سے پہلے عبادت و فقہ نقل کرتے ہیں، میوزیم کے واضح سنی سیاق میں، سیاسی آرا مٹائے بغیر {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tarikh-khulafa-minhaj-1434 p.356}۔" }
+      sources: [source/baladhuri-hitti-1916, source/tarikh-khulafa-minhaj-1434]
+    - tradition: academic
+      stance: { ar: "مراحل ومهارات وتكاليف بشرية", en: "Phases,skills and human costs", ur: "مرحلے، ہنر اور انسانی قیمتیں" }
+      summary: { ar: "الدوري يميز المراحل واستمرار لغات وموظفين؛ يلدز يميز الآمر والمترجم. لا نحول78هـ في التلخيص ورواية وفاة زادان في اضطراب ابن الأشعث إلى مرسوم واحد موثق {cite:tdv-divan-duri Arabicization} {cite:tdv-abdulmelik-yildiz} {cite:baladhuri-hitti-1916 p.465–466}.", en: "Duri distinguishes phases and surviving languages/staff; Yildiz distinguishes commissioner and translator. Synthesis78AHand narrative Zadan death during Ibn al-Ash'ath's unrest are not fused into one documented decree {cite:tdv-divan-duri Arabicization} {cite:tdv-abdulmelik-yildiz} {cite:baladhuri-hitti-1916 p.465–466}.", ur: "دوری مرحلے اور باقی زبانیں و اہلکار الگ کرتے ہیں؛ یلدز حکم دینے والے و مترجم کو۔ خلاصے کا78ھ اور ابن الاشعث کے اضطراب میں زادان کی موت کی روایت ایک ثابت فرمان نہیں بنتیں {cite:tdv-divan-duri Arabicization} {cite:tdv-abdulmelik-yildiz} {cite:baladhuri-hitti-1916 p.465–466}۔" }
+      sources: [source/tdv-divan-duri, source/tdv-abdulmelik-yildiz, source/baladhuri-hitti-1916]
+precursors:
+  - external: { ar: "حسابات يونانية وفارسية وخبرة كتاب سابقين", en: "Greek/Persian accounts and earlier scribal expertise", ur: "یونانی و فارسی حساب اور سابق کاتبوں کا ہنر" }
+    note: "Earlier registers retained as expertise/source material,not an empty administrative world."
+    sources: [source/tdv-divan-duri, source/baladhuri-hitti-1916]
+dependents: []
+spread: []
+impact:
+  fields: [institutions-systems]
+  changed: { ar: "لغة قراءة الحساب وإدارته، مع انتقال في فرص العمل لا صدق تلقائي أو محو فوري للغات {cite:tdv-divan-duri Arabicization}.", en: "Language of reading/administering accounts and employment opportunities,not automatic truth or immediate language erasure {cite:tdv-divan-duri Arabicization}.", ur: "حساب پڑھنے و چلانے کی زبان اور روزگار کے موقعے، خود بخود سچ یا فوری زبانوں کا مٹنا نہیں {cite:tdv-divan-duri Arabicization}۔" }
+  history: { ar: "إصلاح متعدد المواقع، مع فصل الشام والعراق والمراحل اللاحقة {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tdv-divan-duri Arabicization}.", en: "Multi-location reform,distinguishing Syria,Iraq and later stages {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tdv-divan-duri Arabicization}.", ur: "کئی مقامات کی اصلاح، شام، عراق اور بعد کے مرحلے الگ {cite:baladhuri-hitti-1916 p.301,p.465–466} {cite:tdv-divan-duri Arabicization}۔" }
+  significance: 3
+  why: "Specific administrative language change with named translation work,phased dates and attributed accounts; old expertise,staff disruption/continuity and earlier bilingual witnesses retained."
+described_in: []
+examples: []
+sites: []
+concepts: [concept/kharaj]
+today:
+  form: { ar: "موضوع لفهم ترجمة الحسابات وتوثيق معنى السجل، لا دليل مالي معاصر.", en: "Study of account translation and register meaning,not present financial advice.", ur: "حساب کے ترجمے اور رجسٹر کے معنی کا مطالعہ، موجود مالی مشورہ نہیں۔" }
+  descendants: { ar: "مقارنة تعليمية مع نقل نظم المعلومات، لا نسب مثبت لكل قاعدة بيانات.", en: "Teaching comparison with information-system migration,not established ancestry of every database.", ur: "معلوماتی نظام کی منتقلی سے تعلیمی تقابل، ہر ڈیٹابیس کا ثابت نسب نہیں۔" }
+media: { image: media/perf-558-dating-context, diagram: media/diagram-arabic-fiscal-registers }
+kids:
+  ar: "غيّر عنوان جدول صغير من لغة إلى أخرى، وتحقق أن الأسماء والمقادير لم تتبدل؛ تمرين حديث لا سجل تاريخي."
+  en: "Change a small table's heading into another language and check names/amounts stay the same; a modern exercise,not a historical register."
+  ur: "چھوٹے جدول کا عنوان دوسری زبان میں کریں اور دیکھیں نام و مقدار نہ بدلیں؛ جدید تمرین، تاریخی رجسٹر نہیں۔"
+sources: [source/baladhuri-hitti-1916, source/tdv-divan-duri, source/tdv-abdulmelik-yildiz, source/tarikh-khulafa-minhaj-1434, source/commons-perf-558-recto]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b92", source: "D-134; actual Hitti1916title/printed301/465–466 scan reading,Duri phased-language paragraph,Yildiz administrative/religious reading and reinspectedPDpapyrus. Narrow reform,not invention of Arabic; staff/chronology/edition/witness distinctions retained." }

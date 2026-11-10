@@ -1,0 +1,21 @@
+id: event/false-alid-claimant-302
+class: event
+kind: other
+label: { ar: "مدعي نسب الرضا العلوي", en: "The claimant to descent from al-Rida the Alid" }
+summary:
+  ar: "في ذي القعدة سنة اثنتين وثلاثمائة دخل رجل إلى المقتدر بالله وادعى أنه ابن الرضا العلوي، فكُشف عن حاله فصحّ أنه ابن الضبعي، فشُهر في الجانبين وحُبس {cite:muntazam-ibn-al-jawzi p. 420}."
+  en: "In Dhu'l-Qa'da 302 a man was brought before al-Muqtadir claiming descent from al-Rida the Alid; unmasked as a son of al-Dab'i, he was paraded on both sides of the city and jailed {cite:muntazam-ibn-al-jawzi p. 420}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0915-05~", hijri: "0302-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو القعدة ٣٠٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 420}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 302)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch29
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

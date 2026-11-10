@@ -1,0 +1,16 @@
+id: passage/muslim-0650
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "650"
+label: { ar: "مسلم 650 — صلاة الجماعة تفضل بسبع وعشرين درجة", en: "Muslim 650 — Congregational prayer exceeds by twenty-seven degrees" }
+text: "قال ابن عمر: قال رسول الله: صلاة الجماعة أفضل من صلاة الفذ بسبع وعشرين درجة"
+summary:
+  ar: "رواية ابن عمر في باب فضل صلاة الجماعة وبيان التغليظ على من تخلف عنها من كتاب المساجد في صحيح مسلم؛ أشهر نص في تفضيل الجماعة، ورواية أبي هريرة عنده بخمسة وعشرين جزءاً."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/salah, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب المساجد، باب فضل صلاة الجماعة (طبعة دار التأصيل، الحديث 644؛ ترقيم عبد الباقي المعروف 650)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

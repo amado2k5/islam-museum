@@ -1,0 +1,36 @@
+---
+// Everything in one Gregorian year of the Modern Islam Browser (docs/plan/26 section 4.1), with the Hijri years it spans.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ModernList from "../../../../components/ModernList.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { num } from "../../../../lib/nav";
+import { hijriOfYear, yearEntries, yearText, years } from "../../../../lib/modern";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => years.map((year) => ({ params: { lang, year: String(year) }, props: { lang, year } })));
+}
+const { lang, year } = Astro.props as { lang: Lang; year: number };
+const T = ui(lang);
+const M = T.modern;
+const entries = yearEntries(year);
+const base = `/${lang}/modern`;
+const title = fmt(M.year_title, { y: yearText(year, lang), h: hijriOfYear(year) });
+const prev = years.includes(year - 1) ? year - 1 : undefined;
+const next = years.includes(year + 1) ? year + 1 : undefined;
+---
+<BaseLayout lang={lang} title={`${title} · ${M.title}`} description={fmt(M.year_lede, { y: yearText(year, lang), h: hijriOfYear(year) })} path={`${base}/year/${year}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`${base}/`}>{M.title}</a> › {yearText(year, lang)}</nav>
+    <div data-pagefind-body>
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{M.title}</p>
+      <h1>{title} <span class="ui muted">{num(entries.length, lang)}</span></h1>
+      <p style="max-width:var(--measure)">{fmt(M.year_lede, { y: yearText(year, lang), h: hijriOfYear(year) })}</p>
+    </div>
+    <p class="ui no-print" style="display:flex;gap:12px;margin:0 0 1rem">
+      {prev !== undefined && <a class="chip" href={`${base}/year/${prev}/`}>← {yearText(prev, lang)}</a>}
+      {next !== undefined && <a class="chip" href={`${base}/year/${next}/`}>{yearText(next, lang)} →</a>}
+    </p>
+    {entries.length === 0 ? <p class="panel ui">{M.year_none}</p> : <ModernList entries={entries} lang={lang} showSections id={`y${year}`} />}
+  </div>
+  <script src="../../../../scripts/modern-filter.ts"></script>
+</BaseLayout>

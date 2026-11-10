@@ -1,0 +1,31 @@
+id: person/amin-al-khuli
+class: person
+label: { ar: "أمين الخولي", en: "Amin al-Khuli" }
+names:
+  - { kind: full, lang: ar, value: "أمين الخولي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1895", hijri: "1313", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1966", hijri: "1385", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد بشرشاي، إحدى قرى المنوفية بمصر."
+  en: "Born in Sharshay, a village in the Minufiya province of Egypt."
+wings: [people]
+themes: [scripture-and-its-sciences, literature]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص591"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+relations:
+  - { type: lived_in, target: place/misr, note: "From text: of Egypt.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

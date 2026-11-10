@@ -1,0 +1,24 @@
+id: event/battle-mansura-647
+class: event
+kind: battle
+label: { ar: "وقعة المنصورة سنة 647هـ", en: "Battle of Mansura, 647" }
+summary:
+  ar: "في ذي القعدة سنة سبع وأربعين وستمائة حمل الفرنج ووصلوا إلى دهليز السلطان بالمنصورة، فركب مقدم الجيش فخر الدين بن الشيخ وقاتل فقُتل، وانهزم المسلمون ثم كرّوا على الفرنج ونزل النصر وقُتل من الفرنج مقتلة عظيمة؛ وكان قد مات السلطان الصالح أيوب ليلة نصف شعبان وكُتم موته أياماً {cite:shadharat-dhahab p. 246}."
+  en: "In Dhu al-Qa'da 647 the Franks drove as far as the sultan's pavilion at Mansura; the vanguard commander Fakhr al-Din ibn al-Shaykh rode in, fought and was killed, the Muslims broke, then turned and the victory came down — a great slaughter of the Franks. Sultan al-Salih Ayyub had already died mid-Sha'ban, his death concealed for days {cite:shadharat-dhahab p. 246}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+sides:
+  - label: { ar: "المسلمون — عسكر مصر" }
+  - label: { ar: "الفرنج — حملة لويس التاسع" }
+map: { kind: battle, precision: locality, center: [31.0364, 31.3807] }
+date: { start: { edtf: "1250-02~", hijri: "0647-11", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو القعدة 647 {cite:shadharat-dhahab p. 246}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/al-mansura, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 647)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

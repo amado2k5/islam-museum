@@ -1,0 +1,8 @@
+---
+id: concept/mata-fiqh
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Mata', in lexicon, is the name for anything that gives benefit, covering the pilgrimage enjoyment, the divorce gift, and whatever a person uses for his needs; in technical use it is any goods of this world that are of benefit {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13832}. A husband must supply his wife with household goods, utensils for eating, drinking, cooking and sleeping, as part of the maintenance due to her {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13832}. When spouses or their heirs dispute such goods, possession is a presumption, and the owner swears when there is no stronger proof; what suits men goes to the husband and what suits women to the wife; what suits both goes to the man in the Hanafi and Maliki view, is shared in the Hanbali view, and the Shafi'is have both swear {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13832-13833}. If a man's wives dispute goods in one house, the women's goods are shared equally among them {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13833}. Clearing a sold property of another's goods is a condition of taking possession {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13833}. Throwing cargo overboard when a ship is in danger of sinking is allowed, and required to save a free passenger; whoever throws another's goods without leave is liable {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13834}. The Shafi'is and Hanbalis hold that no hadd for theft is applied to one who steals mosque furnishings made for public use, since the right of use is a doubt {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13834}.

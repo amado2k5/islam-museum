@@ -1,0 +1,23 @@
+id: event/siege-of-daria-1765
+class: event
+kind: siege
+label: { ar: "حصار الدرعية", en: "Siege of Dar'iyya (1765)" }
+summary:
+  ar: "بطاقة أولية لحصار الدرعية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Dar'iyya (1765); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+date:
+  start: { edtf: "1765", precision: year, status: tradition, derived: true }
+  end: { edtf: "1765", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q80964830
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

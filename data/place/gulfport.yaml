@@ -1,0 +1,21 @@
+id: place/gulfport
+class: place
+kind: city
+label: { ar: "غولفبورت", en: "Gulfport", ur: "گلف پورٹ" }
+summary:
+  ar: "موقع جغرافي."
+  en: "City (Wikidata Q490587)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [30.367416666666667, -89.09280555555556]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q490587" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q490587 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

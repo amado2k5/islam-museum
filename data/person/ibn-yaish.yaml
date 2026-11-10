@@ -1,0 +1,25 @@
+id: person/ibn-yaish
+class: person
+label: { ar: "ابن يعيش" }
+names:
+  - { value: "موفق الدين أبو البقاء يعيش بن علي بن يعيش الأسدي", kind: full }
+gender: male
+summary:
+  ar: "النحوي المعروف بابن الصائغ، موصلي الأصل حلبي المولد؛ قرأ النحو على فتيان الحلبي والمغربي النيروزي، ورحل من حلب في صدر عمره قاصداً بغداد ليدرك ابن الأنباري فلما وصل الموصل بلغه خبر وفاته فأقام بها ثم رجع إلى حلب، واجتمع بدمشق بالكندي وسأله عن إعراب ما ذكره الحريري في المقامة الرحبية فاستبهم الجواب على الكندي {cite:wafayat-ayan p. 46-47}."
+  en: "Muwaffaq al-Din Ibn Ya'ish the grammarian, Mosuli by origin, Aleppan by birth — who rode to Baghdad for Ibn al-Anbari only to meet news of his death at Mosul, and whose question on the i'rab of Hariri's Rahbiyya maqama stumped Taj al-Din al-Kindi at Damascus {cite:wafayat-ayan p. 46-47}."
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born: { edtf: "1158", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+died: { edtf: "1245", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch49
+sources: [source/wafayat-ayan]
+status: { review: published, completeness: 3 }

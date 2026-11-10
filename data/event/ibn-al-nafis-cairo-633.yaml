@@ -1,0 +1,27 @@
+id: event/ibn-al-nafis-cairo-633
+class: event
+kind: migration
+label:
+  ar: "ابن النفيس ينزل القاهرة ويلتحق بالمستشفى الناصري، ٦٣٣هـ"
+  en: "Ibn al-Nafis settles in Cairo and joins the Nasiri hospital, 633/1235"
+  ur: "ابن نفیس قاہرہ میں مقیم ہو کر ناصری اسپتال سے منسلک ہوتے ہیں، 633ھ/1235ء"
+summary:
+  ar: "نزل ابن النفيس القاهرة سنة ٦٣٣هـ ملتحقاً بالمستشفى الناصري فصار رئيساً له وأستاذاً في مدرسته الطبية {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:09:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:10:00}؛ وتؤكد الموسوعة انتقاله إلى القاهرة في تاريخ غير معلوم وأنه عمل على الأرجح بالمستشفى الناصري ودرّب عدداً من التلاميذ أشهرهم ابن الكف صاحب المصنف في الجراحة {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}."
+  en: "In 633/1235 Ibn al-Nafis moved to Cairo and joined the Nasiri hospital, becoming its head and a professor in its medical school {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:09:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:10:00}; the Encyclopaedia confirms the move to Cairo at an unrecorded date, that he presumably worked at the Nasiri hospital, and that he trained a number of pupils — the best known being Ibn al-Kuff, author of a work on surgery {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}."
+  ur: "633ھ/1235ء میں ابن نفیس قاہرہ منتقل ہو کر ناصری اسپتال سے منسلک ہوئے اور اس کے سربراہ اور اس کے طبی مدرسے میں استاد بنے {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:09:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:10:00}؛ موسوعہ قاہرہ منتقلی کی تصدیق نامعلوم تاریخ کے ساتھ کرتی ہے، ناصری اسپتال میں کارکردگی کو محتمل قرار دیتی ہے اور طلبہ کی تربیت بیان کرتی ہے جن میں سب سے مشہور ابن الکف ہیں، جنہوں نے جراحی پر تصنیف لکھی {cite:encyclopaedia-of-islam-2 vol. 3 p. 897}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1235~", hijri: "0633", calendar: julian, precision: year, status: tradition, derived: true, note: "نزل القاهرة سنة ٦٣٣هـ {cite:assabile-tareq-al-suwaidan al-mubdioune/ep17 00:09:30}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-nafis, role: "الطبيب المنتقل", sources: [source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2] }
+sources: [source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Tariq al-Suwaydan, al-Mubdi'un ep. 17 timestamps (registered source); Encyclopaedia of Islam 2nd ed. vol. 3, art. Ibn al-Nafis, printed p. 897"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-nafis-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

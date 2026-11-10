@@ -1,0 +1,22 @@
+id: person/abdallah-ibn-malik-al-khuzai
+class: person
+label: { ar: "عبد الله بن مالك الخزاعي", en: "'Abd Allah ibn Malik al-Khuza'i" }
+summary:
+  ar: "كان على دار الرشيد وشرطته، روى أن رسول الرشيد انتزعه في وقت ما جاءه فيه قط فوجد الرشيد قاعداً على فراشه فأخبره برؤيا الحبشي والحربة وأمره بالتخلية عن موسى بن جعفر فقال أطلق موسى بن جعفر ثلاثاً {cite:muruj-al-dhahab p. 333}."
+  en: "The master of al-Rashid's household and guard summoned at an unwonted hour to release Musa ibn Ja'far after the spear-dream {cite:muruj-al-dhahab p. 333}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "816", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+relations:
+  - { type: lived_in, target: place/abyssinia, note: "Place association from the person's nisba/name (الحبشي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

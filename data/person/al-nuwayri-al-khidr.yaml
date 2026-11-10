@@ -1,0 +1,33 @@
+id: person/al-nuwayri-al-khidr
+class: person
+label: { ar: "محمد النويري الملقب بالخضر", en: "Muhammad al-Nuwayri 'al-Khidr'" }
+names:
+  - { value: "محمد يدعى الخضر بن علي بن أحمد بن عبد العزيز بن القنم النويري الشافعي", kind: full }
+gender: male
+summary:
+  ar: "محمد النويري يدعى الخضر الشافعي؛ ولد في ربيع الآخر سنة اثنتين وستين وسبعمائة وأسمع على العز بن جماعة وابن حبيب وابن عبد المعطي والأميوطي وأجاز له المال الاستوي وأبو البقاء السبكي وغيرهم وناب في الحكم عن قريبه عز الدين بن محب الدين وولي قضاء المدينة مدة يسيرة ولم يصل إليها بل استناب ابن المطري وصرف وكان ضخماً جداً وانصلح بآخره وهو والد أبي اليمن خطيب الحرم، توفي في رابع عشر ذي الحجة سنة اثنتين وثلاثين وثمانمائة {cite:shadharat-dhahab p. 200}."
+  en: "Muhammad 'called al-Khidr' al-Nuwayri (b. 762) — transmitted to Ibn Jama'a, Ibn Habib, al-Umyuti's circle; qadi of Medina briefly by deputy (Ibn al-Mutri served in his place); father of Abu al-Yaman, khatib of the Haram; died 14 Dhu al-Hijja 832 {cite:shadharat-dhahab p. 200}."
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, arabia]
+born: { edtf: "1360~", hijri: "0762-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في ربيع الآخر 762 {cite:shadharat-dhahab p. 200}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1429-09-12~", hijri: "0832-12-14", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في رابع عشر ذي الحجة 832 {cite:shadharat-dhahab p. 200}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 832)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch72
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: qadi of Medina", sources: [source/shadharat-dhahab] }

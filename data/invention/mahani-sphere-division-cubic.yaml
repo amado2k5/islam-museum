@@ -1,0 +1,61 @@
+id: invention/mahani-sphere-division-cubic
+class: invention
+label: { ar: "اختزال الماهاني قسمة الكرة إلى معادلة مكعبة", en: "Al-Mahani's cubic reduction of sphere division", ur: "تقسیم کرہ کی ماہانی کی مکعب تشکیل" }
+names:
+  - { kind: alternate, lang: en, value: "Algebraic formulation of Archimedes' prescribed-volume sphere cut" }
+summary:
+  ar: "تحويل مسألة نسبة حجمي قطعتين من كرة إلى مكعب لم يحله صاحبه، لا حل عام لكل المكعبات {cite:tdv-mahani-fazlioglu algebra}."
+  en: "Reduced prescribed-volume sphere division to a cubic he did not solve, not a general cubic solution {cite:tdv-mahani-fazlioglu algebra}."
+  ur: "کرے کے حصوں کی مقرر حجمی نسبت کو مکعب میں بدلا، خود حل نہیں کیا؛ عمومی مکعب حل نہیں {cite:tdv-mahani-fazlioglu algebra}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Ninth-century lifetime context, not an eclipse observation or exact surviving composition day; no guessed Hijri."
+    sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu]
+  status_today: living
+origin:
+  place: place/baghdad
+  context: { ar: "بيئة عمله ببغداد نحو860، لا غرفة تأليف متحققة {cite:tdv-mahani-fazlioglu biography}.", en: "Attested Baghdad working milieu around860, not a verified composition room {cite:tdv-mahani-fazlioglu biography}.", ur: "تقریباً860 کا بغدادی علمی ماحول، ثابت خاص کمرہ نہیں {cite:tdv-mahani-fazlioglu biography}۔" }
+makers:
+  - { person: person/al-mahani, role: improver, note: "Algebraic formulation of an inherited Archimedean problem; failure to solve retained.", sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu] }
+attribution:
+  status: improvement
+  claim: { ar: "صياغة جبرية جديدة لمسألة موروثة، لا حل المعادلة أو اختراع تقسيم الكرة.", en: "New algebraic formulation of an inherited problem, not its completed solution or invention of sphere cutting.", ur: "موروثی مسئلے کی نئی جبری تشکیل، مکمل حل یا کرہ کاٹنے کی ایجاد نہیں۔" }
+  basis: { ar: "المصادر تنقل عن الخيام اختزال الماهاني وتوقفه، ثم حل الخازن بالقطوع {cite:dold-samplonius-mahani-dsb cubic}.", en: "Sources report Khayyam's account of al-Mahani's reduction and impasse, then al-Khazin's conic solution {cite:dold-samplonius-mahani-dsb cubic}.", ur: "ماخذ خیام سے ماہانی کی تشکیل و توقف، پھر خازن کا مخروطی حل نقل کرتے ہیں {cite:dold-samplonius-mahani-dsb cubic}۔" }
+  perspectives: []
+precursors:
+  - external: { ar: "مسألة أرشميدس في الكرة والأسطوانة، الكتاب الثاني4", en: "Archimedes' Sphere and Cylinder II.4 problem", ur: "ارشمیدس کا کرہ و استوانہ دوم4 کا مسئلہ" }
+    note: "Prescribed ratio of segment volumes, not a new problem invented by al-Mahani."
+    sources: [source/mahani-mactutor, source/dold-samplonius-mahani-dsb]
+dependents:
+  - invention: invention/khayyam-geometric-cubics
+    note: "Earlier particular cubic formulation in the history Khayyam recounts; not a personal teacher chain or identical systematic solution."
+    sources: [source/mahani-mactutor, source/dold-samplonius-mahani-dsb]
+spread: []
+impact:
+  fields: [mathematics]
+  changed: { ar: "أصبحت مسألة مجسم معادلة جبرية مع بقاء الحل مفتوحاً {cite:mahani-mactutor cubic}.", en: "A solid-geometry problem became an algebraic equation, with its solution still open {cite:mahani-mactutor cubic}.", ur: "مجسم کا سوال جبری مساوات بنا، حل ابھی کھلا تھا {cite:mahani-mactutor cubic}۔" }
+  history: { ar: "يسبق حل الخازن وتنظيم الخيام، لا أول مكعب في كل تاريخ الرياضيات {cite:tdv-mahani-fazlioglu algebra}.", en: "Precedes al-Khazin's solution and Khayyam's system, not the first cubic in all mathematical history {cite:tdv-mahani-fazlioglu algebra}.", ur: "خازن کے حل و خیام کی ترتیب سے پہلے، تمام تاریخ کا پہلا مکعب نہیں {cite:tdv-mahani-fazlioglu algebra}۔" }
+  significance: 3
+  why: "Distinct formulation step with explicit unsolved status, inherited problem and later solutions; modern normalized example independently checked."
+described_in: [work/mahani-sphere-cylinder-commentary]
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "مثال حديث يفرق نسبة الحجوم عن الارتفاعات والجذر الجبري عن القطعة الممكنة.", en: "Modern example separates volume ratios from heights and algebraic roots from physical cuts.", ur: "جدید مثال حجم و بلندی کی نسبت اور جبری جذر و ممکن قطع میں فرق کرتی ہے۔" }
+  descendants: { ar: "التاريخ لا يثبت وحده انتقالاً مباشراً إلى كل خوارزمية حديثة.", en: "Chronology alone does not establish direct transmission to every modern algorithm.", ur: "صرف تاریخ ہر جدید طریقے تک براہ راست انتقال نہیں ثابت کرتی۔" }
+media: { image: media/mahani-sphere-cap-context, diagram: media/diagram-mahani-sphere-cubic }
+kids: { ar: "نصف الارتفاع ليس دائماً نصف الحجم؛ الماهاني صاغ سؤالاً ولم يكمل حله.", en: "Half a height need not mean half a volume; al-Mahani formulated a question without completing its solution.", ur: "آدھی بلندی ہمیشہ آدھا حجم نہیں؛ ماہانی نے سوال بنایا، حل مکمل نہیں کیا۔" }
+sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb, source/weisstein-spherical-cap, source/commons-spherical-cap-pbroks]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b80", source: "Actual MacTutor, TDV and complete single-page DSB reproduction; MathWorld equations and Commons rights/image. Modern cap derivation is not a transcription of al-Mahani's lost/full original reasoning." }

@@ -1,0 +1,23 @@
+id: event/mongol-conquest-of-anatolia
+class: event
+kind: conquest
+label: { ar: "الغزو المغولي للأناضول", en: "Mongol conquest of Anatolia" }
+summary:
+  ar: "بطاقة أولية للغزو المغولي للأناضول من ١٢٤١ إلى ١٣٣٥م، إخضاع الإيلخانيين لسلاجقة الروم بعد كوسه داغ؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Mongol conquest of Anatolia of 1241–1335, the Ilkhanid subjection of the Seljuks of Rum after Köse Dağ; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1241", precision: year, status: tradition, derived: true }
+  end: { edtf: "1335", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q4301653
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; conquest attested in Mongol histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

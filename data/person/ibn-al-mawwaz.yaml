@@ -1,0 +1,30 @@
+id: person/ibn-al-mawwaz
+class: person
+label:
+  ar: "ابن المواز"
+  en: "Ibn al-Mawwaz"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لابن المواز، فقيه مالكي مصري القرن التاسع، توفي سنة ٨٨٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibn al-Mawwaz, the ninth-century Maliki jurist of Egypt, d. 882; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/abbasid-fragmentation]
+born: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6534665
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0056
+status:
+  review: draft
+  completeness: 1

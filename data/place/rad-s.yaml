@@ -1,0 +1,21 @@
+id: place/rad-s
+class: place
+kind: town
+label: { ar: "رادس", en: "Radès", ur: "رادس" }
+summary:
+  ar: "بلدة في تونس."
+  en: "Town in Tunisia."
+wings: [place]
+regions: [maghreb]
+coordinates: [36.766666666667, 10.283333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q27062" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q27062 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,28 @@
+id: person/al-muhaqqiq-al-maysi
+class: person
+label:
+  ar: "المحقق الميسي"
+  en: "al-Muhaqqiq al-Maysi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية للمحقق الميسي، عالم من أسرة الميسي العاملية؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Muhaqqiq al-Maysi, a scholar of the Amili Maysi family; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+died: { edtf: "1532", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil 1/123; Ali b. Abd al-Ali; d. 938 AH)" }
+relations:
+  - { type: lived_in, target: place/jabal-amel, note: "Of the Amili Maysi scholarly family of Jabal Amil; flagged for review.", sources: [source/al-aalam], confidence: low }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12192490
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0077
+status:
+  review: draft
+  completeness: 1

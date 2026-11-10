@@ -1,0 +1,35 @@
+id: person/abd-al-ghani-al-maydani
+class: person
+label:
+  ar: "عبد الغني الميداني"
+  en: "Abd al-Ghani al-Maydani"
+roles: [jurist]
+gender: male
+summary:
+  ar: "عبد الغني الغنيمي الميداني الدمشقي، من فقهاء الحنفية ⁦(١٢٢٢–١٢٩٨هـ)⁩، صاحب «اللباب» شرح القدوري و«شرح العقيدة الطحاوية»."
+  en: "Abd al-Ghani al-Ghunaymi al-Maydani of Damascus, Hanafi jurist (1222–1298/1807–1881), author of al-Lubab and a Tahawiyya commentary."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/colonial-era]
+born: { edtf: "1807", precision: year, status: tradition, derived: true }
+died: { edtf: "1881", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q4702880
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

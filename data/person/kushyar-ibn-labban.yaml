@@ -1,0 +1,39 @@
+id: person/kushyar-ibn-labban
+class: person
+label: { ar: "كوشيار بن لبان الجيلي", en: "Kushyar ibn Labban al-Jili" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن كوشيار بن لبان الجيلي" }
+gender: male
+roles: [astronomer, mathematician]
+traditions: [sunni]
+born: { edtf: "0969", hijri: "0360", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1029", hijri: "0420", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم فلك ورياضي، نسبة إلى جيلان في شمال إيران."
+  en: "An astronomer and mathematician, named after Gilan in northern Iran."
+wings: [people]
+themes: [astronomy-and-timekeeping, mathematics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/gilan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص612"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch60
+external_ids: { wikidata: Q2474018 }
+occupations:
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

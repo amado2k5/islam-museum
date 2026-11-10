@@ -1,25 +1,53 @@
 id: person/ali-ibn-abi-talib
 class: person
-label: { en: Ali ibn Abi Talib, ar: علي بن أبي طالب }
+label: { en: Ali ibn Abi Talib, ar: علي بن أبي طالب, ur: "علی بن ابی طالب" }
 gender: male
 born: { edtf: "0600~", calendar: julian, precision: decade, status: tradition, note: "Traditions differ; the date is approximate." }
 died: { edtf: "0661-01", hijri: "0040-09", calendar: julian, precision: month, status: tradition }
 roles: [companion, caliph]
 traditions: [sunni, shia-twelver]
 summary:
-  en: Cousin and son-in-law of the Prophet and the fourth caliph (r. 656–661 CE); the first Imam in Shia tradition.
-  ar: ابن عم النبي وصهره ورابع الخلفاء (حكم 656–661م)، وهو الإمام الأول عند الشيعة.
+  en: Cousin and son-in-law of the Prophet and the fourth caliph (r. 656–661 CE); the first Imam in Shia tradition. Abu Nu'aym's Ma'rifat entry on his lineage preserves the saying 'his lineage is the Prophet's lineage, his merit the Prophet's merit, his religion the Prophet's religion', and traces his grandfather Hashim's name to his distributing tharid to his people in a year of famine {cite:marifat-sahaba-abu-nuaym p.75} {cite:marifat-sahaba-abu-nuaym p.76}.
+  ar: "ابن عم النبي وصهره ورابع الخلفاء ⁦(حكم 656–661م)⁩، وهو الإمام الأول عند الشيعة. وفي الصحيح قال له النبي «أما ترضى أن تكون مني بمنزلة هارون من موسى» {cite:sahih-al-bukhari 3706}، وعشية فتح خيبر قال «لأعطين الراية غداً رجلاً يفتح الله على يديه» فأتاه وهو يرمد فبصق في عينيه ودعا له فبرأ وأعطاه الراية وقال «لأن يهدي الله بك رجلاً واحداً خير لك من حمر النعم» {cite:sahih-al-bukhari 3701}، وانتزع أملاكاً كان عثمان أقطعها جماعة وقسم ما في بيت المال على الناس لم يفضل أحداً على أحد، وجاءه بنو أمية المتخلفون فقال له الوليد بن عقبة أما أنا فقتلت أبي صبراً وضربتني حداً وقال سعيد بن العاص أما سعيد فقتلت أباه وأما مروان فإنك شتمت أباه وعبت عثمان في ضمه إياه {cite:muruj-al-dhahab p. 646}، ومن خطبه بعد الحكمين قوله من دعا إلى هذه الحكومة فاقتلوه قتله الله ولو كان تحت عمامتي هذه، وإن هذين الرجلين الخاطئين تركا حكم الله وحكما بهوى أنفسهما فأماتا ما أحيا القرآن وأحييا ما أماته، وكنت فيما أمرت به كما قال أخو بني خثعم أمرتهم أمري بمنعرج اللوى فلم يستبينوا الرشد إلا ضحى الغد {cite:muruj-al-dhahab p. 692}، ومن مشاهد زهده أن سائلاً وقف عليه فلم يكن عندهم إلا ستة دراهم للدقيق فأمر بدفعها كلها، فما برح حتى ابتاع بعيراً بمائة وأربعين وأنسأه ثمانية أيام فباعه بمائتين فأتى فاطمة بالستين الباقية وقال هذه تصديق لما جاء به أبوك من جاء بالحسنة فله عشر أمثالها؛ وفي صبيحة ضربته وصيته المروية عن جعفر بن محمد كل امرئ ملاقيه ما يفر منه والأجل تساق النفس إليه وإن أفق فأنا ولي دمي وإن أمت فالقيامة ميعادي {cite:muruj-al-dhahab p. 712-714}، وعن ابن النديم أنه لما رأى من الناس طيرة عند وفاة النبي أقسم أن لا يضع عن ظهره رداءه حتى يجمع القرآن فجلس في بيته ثلاثة أيام حتى جمعه فهو أول مصحف جمع فيه القرآن من قلبه وكان عند آل جعفر، ورأى ابن النديم في زمانه عند أبي يعلى حمزة الحسني مصحفاً سقط منه أوراق بخطه يتوارثه بنو حسن على مر الزمان {cite:fihrist-ibn-al-nadim p. 70}، وعند مسلم كان «أبا تراب» أحب أسمائه إليه — سماه به النبي وهو يمسح التراب عن ظهره في المسجد {cite:sahih-muslim 2409}، وأدخله النبي تحت المرط المرحل مع فاطمة والحسنين وتلا آية التطهير {cite:sahih-muslim 2424}، وتذكر «معرفة الصحابة» لأبي نعيم في ترجمة نسبه قولهم لا نسبه نسب رسول الله وحسبه حسبه ودينه دينه، وأن جده هاشماً سُمي لِهَشْمِه الثريد لقومه في سنة الجدب {cite:marifat-sahaba-abu-nuaym p.75} {cite:marifat-sahaba-abu-nuaym p.76}"
 wings: [people]
 themes: [sects-and-schools]
 periods: [period/prophetic-era]
 regions: [arabia, levant-iraq]
 story_roles:
-  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa] }
   - { role: companion, status: tradition, sources: [source/ibn-ishaq-guillaume] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0656", calendar: julian, precision: year }, end: { edtf: "0661", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
+  - { type: participated_in, target: event/ali-expeditions-to-yemen, role: "أمير الجيش؛ غزا اليمن مرتين", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "بعثه النبي بسيفه ليردّ ما أُخذ من جذام", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
-external_ids: { wikidata: Q7020 }
-sources: [source/ibn-ishaq-guillaume]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira] }
+external_ids: { wikidata: Q39619 }
+sensitivity: contested
+sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-ahmed-abdussalam, source/marifat-sahaba-abu-nuaym]
+education:
+  did_you_know:
+    ar: "كان علي من أوائل من أسلم، ورابع الخلفاء الراشدين؛ بُويع في المدينة سنة ٣٥هـ، وقُتل بالكوفة سنة ٤٠هـ وله ثلاث وستون."
+    en: "Ali was among the first to embrace Islam and the fourth caliph; allegiance came to him in Medina in 35 AH, and he was killed in Kufa in 40 AH at sixty-three."
+    ur: "علی پہلے مسلمانوں میں سے اور چوتھے خلیفہ تھے؛ مدینہ میں 35ھ میں بیعت ہوئی اور کوفہ میں 40ھ میں 63 برس کی عمر میں شہید ہوئے۔"
+    sources: [source/ibn-ishaq-guillaume, source/sallabi-ali-vol1]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status: { review: published, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold); run omar-abdelkafy-sharh-ketab-1" }
+provenance:
+  run: lib-tarikh-khalifa-batch-2-2026-10-31; lib-wave-21-marifat-sahaba-1
+  layer: own-research
+  source: "education fact engine batch 2 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+kids:
+  ar: "علي ابن عم النبي وزوج فاطمة، نشأ في بيت النبوة، وصار رابع الخلفاء في زمن الفتنة."
+  en: "Ali, the Prophet's cousin and Fatima's husband, grew up in the Prophet's house and became the fourth caliph in a time of great trials."
+  ur: "علی نبی کے چچازاد اور فاطمہ کے شوہر تھے — نبی کے گھر میں پلے اور فتنوں کے زمانے میں چوتھے خلیفہ بنے۔"
+occupations:
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the first group of Companions whose fatwas are numerous (seven named: Umar, Ali, Ibn Masud, Ibn Umar, Ibn Abbas, Zayd ibn Thabit and Aisha)."
+    sources: [source/tdv-fetva]

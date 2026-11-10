@@ -1,0 +1,85 @@
+id: invention/zarqali-moving-solar-apogee
+class: invention
+label: { ar: "نموذج الزرقالي لأوج الشمس المتحرك", en: "Al-Zarqali's moving solar-apogee model", ur: "الزرقالی کا متحرک اوجِ شمس کا نمونہ" }
+names:
+  - { kind: alternate, lang: en, value: "Al-Zarqali's variable-eccentricity solar model" }
+summary:
+  ar: "وصف حركة خاصة لأوج الشمس ونموذج شمسي باختلاف المركز المتغير؛ عمل مفقود معروف بالنقل، لا قانون كبلر أو شهادة دقة حديثة {cite:zarqali-puig-bea pp.1258–1260}."
+  en: "An independently moving solar apogee and variable-eccentricity solar model, known through reports of a lost work; not Kepler's law or certified modern accuracy {cite:zarqali-puig-bea pp.1258–1260}."
+  ur: "اوجِ شمس کی اپنی حرکت اور بدلتے اختلافِ مرکز کا شمسی نمونہ؛ مفقود تصنیف کی منقول خبر، کیپلر کا قانون یا جدید درستی کی سند نہیں {cite:zarqali-puig-bea pp.1258–1260}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy, mathematics]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1075/1080"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Puig's probable circa1075–1080 date for the lost solar-observation work, not an exact discovery, observation span or surviving manuscript date. Approximation/probability retained in prose; no guessed Hijri conversion."
+    sources: [source/zarqali-puig-bea]
+  status_today: transformed
+origin:
+  place: place/tulaytula
+  context:
+    ar: "سياق الرصد الطليطلي؛ موضع تأليف الرسالة المفقودة بالضبط غير مثبت هنا {cite:zarqali-puig-bea pp.1258–1260}."
+    en: "Toledan observational setting; the lost treatise's exact writing location is not established here {cite:zarqali-puig-bea pp.1258–1260}."
+    ur: "طلیطلہ کی رصد کا سیاق؛ مفقود رسالے کی عین جائے تصنیف یہاں ثابت نہیں {cite:zarqali-puig-bea pp.1258–1260}۔"
+makers:
+  - person: person/al-zarqali
+    role: describer
+    note: "Puig attributes the apogee's own motion and variable-eccentricity model to him. Existing named Muslim classification and separately labelled Andalusian Sunni default retained, not new personal-school testimony."
+    sources: [source/zarqali-puig-bea, source/zarqali-mactutor, source/bibalex-astrolabe-949]
+attribution:
+  status: improvement
+  claim:
+    ar: "تطوير للنموذج الشمسي داخل تقليد فلكي سابق، لا اختراع الرصد أو الحركة السماوية."
+    en: "Refinement of solar modelling within an earlier astronomical tradition, not invention of observation or celestial motion."
+    ur: "پہلے فلکی علم میں شمسی نمونے کی بہتری، رصد یا آسمانی حرکت کی ایجاد نہیں۔"
+  basis:
+    ar: "بويغ تصف حركة الأوج الخاصة والنموذج ذا اختلاف المركز المتغير؛ ماكتوتر يؤكد خبر الرسالة المفقودة {cite:zarqali-puig-bea pp.1258–1260} {cite:zarqali-mactutor solar-work paragraph}."
+    en: "Puig describes the apogee's own motion and variable-eccentricity model; MacTutor also reports the lost solar work {cite:zarqali-puig-bea pp.1258–1260} {cite:zarqali-mactutor solar-work paragraph}."
+    ur: "پویگ اوج کی اپنی حرکت اور بدلتے اختلافِ مرکز کا نمونہ بتاتی ہیں؛ میک ٹیوٹر بھی مفقود شمسی رسالہ نقل کرتا ہے {cite:zarqali-puig-bea pp.1258–1260} {cite:zarqali-mactutor solar-work paragraph}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "النماذج والرصد الفلكي السابق", en: "Earlier astronomical models and observations", ur: "سابق فلکی نمونے اور رصد" }
+    note: "Inherited astronomical setting, not a claim that one unchanged apogee convention characterized every ancient or Arabic model."
+    sources: [source/zarqali-puig-bea, source/zarqali-mactutor]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "جعل الأوج عنصراً ذا حركة خاصة مع اختلاف مركز متغير؛ لا جدول مواقيت جاهز من معدل واحد {cite:zarqali-puig-bea pp.1258–1260}."
+    en: "Allowed the apogee its own motion with variable eccentricity; a single rate is not a ready-made ephemeris {cite:zarqali-puig-bea pp.1258–1260}."
+    ur: "اوج کو اپنی حرکت اور اختلافِ مرکز کو تبدیلی دی؛ ایک شرح مکمل زیج نہیں {cite:zarqali-puig-bea pp.1258–1260}۔"
+  history:
+    ar: "تذكر بويغ تأثير النموذج في المغرب وأوروبا اللاتينية إلى زمن كوبرنيكوس، لا سلسلة مثبتة إلى كل برنامج حديث {cite:zarqali-puig-bea pp.1258–1260}."
+    en: "Puig reports influence in the Maghrib and Latin Europe until Copernicus's time, not a proven chain to every modern programme {cite:zarqali-puig-bea pp.1258–1260}."
+    ur: "پویگ مغرب اور لاطینی یورپ میں کوپرنیکس کے زمانے تک اثر بتاتی ہیں، ہر جدید پروگرام تک ثابت سلسلہ نہیں {cite:zarqali-puig-bea pp.1258–1260}۔"
+  significance: 3
+  why: "A distinct solar-theory contribution with reported long-term influence, explicit lost-text limits and independently checked units; no universal-priority or precision headline."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "موضوع لتاريخ النمذجة يقارن بحركة خط الأوج والحضيض في العلم الحديث دون نسبة الديناميكا الحديثة إليه {cite:nasa-milankovitch-cycles Precession}."
+    en: "A modelling-history subject, compared with modern apsidal motion without attributing modern dynamics to its medieval author {cite:nasa-milankovitch-cycles Precession}."
+    ur: "نمونہ سازی کی تاریخ؛ جدید اوج و حضیض کی حرکت سے تقابل، قرونِ وسطیٰ کے مصنف کو جدید حرکیات منسوب کیے بغیر {cite:nasa-milankovitch-cycles Precession}۔"
+  descendants: { ar: "لا نسب تقني مباشر مثبت في هذا البحث.", en: "No direct technical genealogy established by this research.", ur: "اس تحقیق میں براہ راست تکنیکی نسب ثابت نہیں۔" }
+media:
+  image: media/zarqali-apogee-context
+  diagram: media/diagram-zarqali-moving-solar-apogee
+kids:
+  ar: "ارسم محوراً على الورق ثم أدر نسخة شفافة منه؛ فرق بين دوران الموضع ودوران المحور، دون النظر إلى الشمس."
+  en: "Draw a paper axis and turn a transparent copy; distinguish motion along a path from turning the axis, without looking at the Sun."
+  ur: "کاغذ پر محور بنائیں اور شفاف نقل گھمائیں؛ راستے پر حرکت اور محور کا رخ بدلنا الگ کریں، سورج کو نہ دیکھیں۔"
+sources: [source/zarqali-puig-bea, source/zarqali-mactutor, source/bibalex-astrolabe-949, source/nasa-milankovitch-cycles, source/commons-apogee-psf]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b52", source: "Actual Puig/MacTutor solar accounts and institutional identity; actual NASA modern comparison, Commons rights and inspected image. Lost primary not read;1degree/279years conversion is modern paper arithmetic, not certified historical/modern accuracy." }

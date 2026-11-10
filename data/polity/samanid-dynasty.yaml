@@ -1,0 +1,49 @@
+id: polity/samanid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: السامانيون
+  en: Samanid dynasty
+  ur: "سامانی سلطنت"
+summary:
+  ar: سلالة حاكمة قامت سنة 819م وانتهت سنة 999م.
+  en: A ruling dynasty established in 819 CE and ended in 999 CE.
+  ur: "819ء میں قائم ہونے والا حکمران خاندان جس کی حکومت 999ء تک رہی۔ {cite:wikidata}"
+wings: []
+periods:
+- period/abbasid-fragmentation
+regions:
+- persia-central-asia
+start:
+  edtf: "0819"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "0999"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+external_ids:
+  nomisma: "samanids"
+  wikidata: Q486181
+sources:
+- source/wikidata
+- source/nomisma
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

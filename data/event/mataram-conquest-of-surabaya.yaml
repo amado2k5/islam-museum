@@ -1,0 +1,23 @@
+id: event/mataram-conquest-of-surabaya
+class: event
+kind: war
+label: { ar: "فتح سورابايا الماتارامي", en: "Mataram conquest of Surabaya" }
+summary:
+  ar: "بطاقة أولية لفتح سورابايا على يد السلطان أجونج سلطان ماتارام من ١٦١٤ إلى ١٦٢٥م؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Sultan Agung's conquest of Surabaya (1614–25) in Java; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1614", precision: year, status: tradition, derived: true }
+  end: { edtf: "1625", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q27958661
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

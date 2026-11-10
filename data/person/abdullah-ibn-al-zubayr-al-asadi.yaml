@@ -1,0 +1,21 @@
+id: person/abdullah-ibn-al-zubayr-al-asadi
+class: person
+label: { ar: "عبد الله بن الزبير الأسدي", en: "'Abd Allah ibn al-Zubayr al-Asadi" }
+summary:
+  ar: "خرج مذعوراً حين قتل الحجاج عمير بن ضابىء من بعث المهلب، فلقيه رجل من قومه يقال له إبراهيم فقال الشر الشر قتل عميراً من بعث المهلب وأنشأ والا فما الحجاج مغمد سيفه مدى الدهر حتى يترك الطفل أشيبا {cite:muruj-al-dhahab p. 122}."
+  en: "The terrified deserter who met Ibrahim by the bridle-post after 'Umayr's beheading — 'al-Hajjaj will not sheathe his sword till he leaves the infant grey' {cite:muruj-al-dhahab p. 122}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani)" }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Deserter in the al-Hajjaj-era Iraqi campaigns described in al-Mas'udi; location inferred from the Iraqi context.", sources: [source/muruj-al-dhahab], confidence: low }

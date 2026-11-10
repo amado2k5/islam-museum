@@ -1,14 +1,30 @@
 id: place/alexandria
+aliases: [place/iskandariyya]
 class: place
 kind: city
 label: { en: "Alexandria", ar: "الإسكندرية" }
 summary:
-  en: "Mediterranean port of Egypt that surrendered to the Muslim army in 641 CE, long a centre of Greek learning and trade."
-  ar: "ميناء مصري على البحر المتوسط سلّم للجيش المسلم سنة 641م، وكان مركزًا قديمًا للعلم اليوناني والتجارة."
+  en: "Mediterranean port of Egypt, the seat of rule in Egypt before Fustat; al-Maqrizi reports it stayed a house of learning and wisdom until the Muslims took it."
+  ar: "الإسكندرية فتحها عمرو بن العاص عنوة بغير عهد ولا عقد في رواية كتابه إلى عمر بن الخطاب — وهي كلها صلح في قول يزيد بن أبي حبيب — بعد أن رفض ملك الروم صلح الموقس فأغلقوا بابها وآذنوا بالحرب؛ واختطّ بها الزبير بن العوّام خطّة، وسأل الموقس عمرو أن يُدفن في كنيسة من كنائسها ذكرها. وعند المقدسي نحو 375هـ: قصبة نفيسة على بحر الروم عليها حصن منيع، بلد شريف كثير الصالحين والمتعبدين، شربهم من النيل يدخل عليهم أيام زيادته في قناة فيملأ صهاريجهم، شامية الهواء والرسوم كثيرة الأمطار، وبناهم من الحجارة البحرية وعلى جبابهم أبواب تُغلق بالليل كيلا يصعد منها اللصوص {cite:ahsan-al-taqasim p. 162}."
 wings: [place]
 regions: [egypt-nile]
 coordinates: [31.2018, 29.9158]
 coordinate_precision: site
-external_ids: { geonames: "361058", pleiades: "727070" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; descriptive facts to be checked against reference works" }
+external_ids: { wikidata: "Q87", geonames: "361058", pleiades: "727070" }
+sources: [source/khitat-maqrizi-1998, source/geonames-gazetteer, source/farghani-elements-astronomy, source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim]
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the seat of rule before Fustat and the Alexander refounding are read from al-Maqrizi's Khitat (local scan, pp. 422, 446, 829); the 641 date that the earlier draft gave is removed (no local source states it); coordinates from GeoNames" }
+
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, al-Mawaiz wa-l-i'tibar (al-Khitat), Madbouli 1998, scan pp. 422, 446, 829; coordinates from GeoNames"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
+  model: "claude-haiku-5-5"
+  run: "showcase-prose-phase2-egypt-batch1"
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+kids:
+  ar: "الإسكندرية مدينة الإسكندر على المتوسط، فيها فنار ومكتبة عريقة."
+  en: "Alexandria, Alexander's city on the Mediterranean — famous for its lighthouse and its ancient library."
+  ur: "اسکندریہ سکندر کا شہر بحیرہ روم پر — اپنے فنار اور پرانی لائبریری کے لیے مشہور۔"

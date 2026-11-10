@@ -1,0 +1,16 @@
+id: passage/muwatta-17-1928
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1928"
+label: { ar: "الموطأ 1928 — مالك: من سلف في سلعة إلى أجل، وكانت مما لا يؤكل ولا يشرب، فإن المشتري يبيعها ممن شاء بنقد أو عرض قبل أن يستوفيها، ولا ينبغي أن يبيعها من الذي ابتاعها منه إلا بعرض يقبضه ولا يؤخره", en: "Muwatta 1928" }
+summary:
+  ar: "قال مالك: ومن سلف في سلعة إلى أجل، وتلك السلعة مما لا يؤكل ولا يشرب، فإن المشتري يبيعها ممن شاء، بنقد أو عرض، قبل أن يستوفيها، من غير صاحبها الذي اشتراها منه، ولا ينبغي له أن يبيعها من الذي ابتاعها منه، إلا بعرض يقبضه ولا يؤخره. قال مالك: وإن كانت السلعة لم تحل، فلا بأس بأن يبيعها من صاحبها بعرض مخالف لها بين خلافه، يقبضه ولا يؤخره. {cite:muwatta-maruf-1997 p.189}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1928 at PDF p. 189; السلفة في العروض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 189; matn excerpt at most 40 words" }

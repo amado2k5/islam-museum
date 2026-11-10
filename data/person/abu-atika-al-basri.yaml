@@ -1,0 +1,28 @@
+id: person/abu-atika-al-basri
+class: person
+label:
+  ar: "أبو عاتكة البصري"
+  en: "Abu 'Atika al-Basri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو عاتكة البصري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu 'Atika al-Basri; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12178088
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bukhari, al-Tarikh al-Kabir; al-Dhahabi, Mizan al-I'tidal" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Place association from the person's nisba/name (البصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

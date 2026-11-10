@@ -1,0 +1,33 @@
+id: person/abd-al-aziz-ibn-abi-hazim
+class: person
+label: { ar: "عبد العزيز بن أبي حازم", en: "Abd al-Aziz ibn Abi Hazim" }
+roles: [jurist, scholar]
+traditions: [sunni]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [arabia]
+gender: male
+wings: [people]
+summary:
+  ar: "عبد العزيز بن أبي حازم سلمة بن دينار، أبو تمام المدني، فقيه محدث، توفي سنة 184هـ. روى عن أبيه وسهيل بن أبي صالح وهشام بن عروة، وعنه ابن مهدي وابن وهب. قال ابن حنبل: لم يكن بالمدينة بعد مالك أفقه من ابن أبي حازم، وذكره ابن حبان في الثقات. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3478}"
+  en: "Abd al-Aziz ibn Abi Hazim Salama ibn Dinar, Abu Tammam al-Madani, a jurist and hadith scholar of Medina (d. 184 AH). Ahmad ibn Hanbal said that after Malik no one in Medina was more learned in law than him; Ibn Hibban counted him among the trustworthy. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3478}"
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3478"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: "claude-haiku-5-5"
+  run: mawsua-w02-44
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "725", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 107–182 AH)" }
+died: { edtf: "798", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 107–182 AH)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (المدني); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

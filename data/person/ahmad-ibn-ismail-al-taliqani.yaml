@@ -1,0 +1,29 @@
+id: person/ahmad-ibn-ismail-al-taliqani
+class: person
+label:
+  ar: "أحمد بن إسماعيل الطالقاني"
+  en: "Ahmad ibn Ismail al-Taliqani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن إسماعيل الطالقاني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Ismail al-Taliqani; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q23048324
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "1194", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,25 @@
+id: building/kalu-sarai-mosque-delhi
+class: building
+kind: mosque
+label: { ar: "مسجد كالو سراي، دلهي", en: "Kalu Sarai Mosque, Delhi", ur: "کالو سرائے مسجد، دہلی" }
+summary:
+  ar: "مسجد خرب على طريق مهرولي قرب مسجد بيگم پور في دلهي، بلا نقش، ينسب إلى الوزير خان جهان في عهد فيروز شاه تغلق، ويؤرخ بالقياس نحو 789هـ/1387 {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 90}."
+  en: "A ruined mosque on the Mehrauli road near the Begumpur mosque in Delhi, without an inscription, attributed to Firuz Shah Tughluq's vizier Khan-i Jahan and dated by analogy to about AH 789/1387 {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 90}."
+  ur: "دہلی میں مہرولی روڈ پر بیگم پور مسجد کے قریب ایک کھنڈر مسجد، بغیر کتبے کے، جو فیروز شاہ تغلق کے وزیر خانِ جہاں سے منسوب ہے اور قیاساً تقریباً 789ھ/1387ء کی بتائی جاتی ہے {cite:seema-khan-mosque-architecture-firuzshah-tughlaq-2011 p. 90}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+built: { edtf: "1387~", hijri: "0789", calendar: julian, precision: year, status: debated, note: "No inscription; the author dates it by analogy with Khan-i Jahan's other mosques", sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+materials: [stone]
+relations:
+  - { type: located_in, target: place/delhi, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+  - { type: related_to, target: building/begumpur-mosque, sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011] }
+sources: [source/seema-khan-mosque-architecture-firuzshah-tughlaq-2011]
+provenance:
+  layer: own-research
+  source: "Seema Khan 2011, printed pp. 90-92, 95"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

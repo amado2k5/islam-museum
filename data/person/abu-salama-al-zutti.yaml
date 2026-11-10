@@ -1,0 +1,18 @@
+id: person/abu-salama-al-zutti
+class: person
+label: { ar: "أبو سلمة الزطي", en: "Abu Salama al-Zutti" }
+summary:
+  ar: "أبو سلمة الزطي؛ كان على السيايجة حراس بيت مال البصرة أيام قتلهم على يد أهل الجمل وكان رجلاً صالحاً."
+  en: "Abu Salama al-Zutti; chief of the Sayabija treasury-guards when they were killed in the Camel affair — remembered as a righteous man."
+periods: [period/rashidun]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+born: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+died: { edtf: "770~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+relations:
+  - { type: lived_in, target: place/basra, note: "Chief of the Sayabija guards of Basra's treasury when they were killed in the Camel affair.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }

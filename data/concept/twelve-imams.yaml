@@ -1,0 +1,36 @@
+id: concept/twelve-imams
+class: concept
+kind: doctrine
+label: { ar: "الأئمة الاثنا عشر عند الشيعة الإمامية", en: "The Twelve Imams (Twelver Shi'a)" }
+summary:
+  ar: "عقيدة الشيعة الإمامية الاثنا عشرية في أن الإمامة بالنص من الله على لسان النبي، وأن الأئمة اثنا عشر من علي بن أبي طالب إلى محمد بن الحسن المهدي. يعرض الصلابي الأدلة التي يذكرها أصحابها من القرآن والسنة ويرد عليها واحداً واحداً: آية الولاية، وآية المباهلة، وآية الشورى، وحديث الثقلين، وحديث الغدير، وحديث «الخلفاء الاثني عشر». وينقل من مصادر الشيعة نفسها أن فكرة الحصر في عدد معين نشأت في القرن الثاني في أوساط تنسب إلى شيطان الطاق وهشام بن الحكم، وأن الاتفاق على الاثني عشر استقر بعد وفاة الحسن العسكري {cite:sallabi-ali-vol2 p. 260}."
+  en: "Twelver Shi'i doctrine that the imamate passes by explicit designation (nass) of God through the Prophet, through twelve named imams from Ali ibn Abi Talib to Muhammad ibn al-Hasan. The author lists the imams and rebuts the scriptural and hadith arguments used for the doctrine."
+wings: [ideas]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+themes: [sects-and-schools, creed]
+perspectives:
+  - tradition: sunni
+    id: sunni-rebuttal
+    stance: { ar: "النص غير ثابت، وحصر الأئمة بعدد معين مردود بالكتاب والسنة" }
+    summary: { ar: "يرى المؤلف أن الإمامة تثبت بالبيعة والشورى لا بالنص، وأن حديث «لا يزال أمر الناس ماضياً ما وليهم اثنا عشر خليفة كلهم من قريش» لا يخص آل علي، وأن قول علي في نهج البلاغة «دعوني والتمسوا غيري» يدل على أنه لم يكن منصوصاً عليه {cite:sallabi-ali-vol2 p. 265}." }
+    sources: [source/sallabi-ali-vol2]
+  - tradition: academic
+    id: origin-of-the-count
+    stance: { ar: "حصر الأئمة في عدد معين نشأ متأخراً وتعددت فيه أقوال الشيعة أنفسهم" }
+    summary: { ar: "ينقل المؤلف من كتب الفرق أن الإمامية اختلفوا في عددهم بين خمسة وسبعة وثمانية واثني عشر وثلاثة عشر، وأن الاعتقاد بالاثني عشر استقر بعد وفاة الحسن العسكري، وأن الفكرة بدأت في أوساط تنسب إلى شيطان الطاق وهشام بن الحكم {cite:sallabi-ali-vol2 p. 264}." }
+    sources: [source/sallabi-ali-vol2]
+  - tradition: shia-twelver
+    id: nass-and-twelve
+    stance: { ar: "الإمامة بالنص الجلي من الله على لسان النبي، والأئمة اثنا عشر لا ينقصون ولا يزيدون" }
+    summary: { ar: "يذكر المؤلف قائمة الشيعة بالأئمة الاثني عشر مع سنوات وفاتهم كما وردت عنده، ويذكر أن الشيعة تحتج بالكافي وبحار الأنوار وبالروايات المنسوبة إلى الباقر في أن الإمامة عهد من رسول الله {cite:sallabi-ali-vol2 p. 260}." }
+    sources: [source/sallabi-ali-vol2]
+issue: { ar: "هل تثبت الإمامة بالنص على اثني عشر إماماً، أم بالبيعة والشورى؟", en: "Is the imamate fixed by explicit designation of twelve imams, or by allegiance and consultation?" }
+sources: [source/sallabi-ali-vol2]
+provenance:
+  layer: own-research
+  source: "أسمى المطالب في سيرة علي بن أبي طالب، الجزء الثاني، ص 260-267 و268-275"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "sallabi-ali-vol2-rest"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5), from the author's own presentation of the Shi'i sources" }

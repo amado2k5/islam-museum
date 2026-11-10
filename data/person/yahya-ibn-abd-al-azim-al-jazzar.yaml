@@ -1,0 +1,31 @@
+id: person/yahya-ibn-abd-al-azim-al-jazzar
+class: person
+label:
+  ar: "أبو الحسين ابن الجزار"
+  en: "Yahya ibn Abd al-Azim al-Jazzar"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي الحسين يحيى ابن الجزار، شاعر مصر القرن الثالث عشر، توفي سنة ١٢٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu al-Husayn Yahya ibn al-Jazzar, the thirteenth-century Egyptian poet, d. 1280; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
+died: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi)" }
+relations:
+  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+  - { type: buried_in, target: place/city-of-the-dead, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2066414)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22928507
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0054
+status:
+  review: draft
+  completeness: 1

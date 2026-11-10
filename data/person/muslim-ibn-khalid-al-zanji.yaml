@@ -1,0 +1,34 @@
+id: person/muslim-ibn-khalid-al-zanji
+class: person
+label:
+  ar: "مسلم بن خالد الزنجي"
+  en: "Muslim ibn Khalid al-Zanji"
+roles: [faqih]
+gender: male
+summary:
+  ar: "بطاقة أولية لمسلم بن خالد الزنجي، مفتي مكة وشيخ الإمام الشافعي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muslim ibn Khalid al-Zanji, the mufti of Mecca and teacher of Imam al-Shafi'i; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/abbasid-early]
+died: { edtf: "0795", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12242993
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

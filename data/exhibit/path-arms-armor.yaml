@@ -1,0 +1,66 @@
+id: exhibit/path-arms-armor
+class: exhibit
+kind: trail
+label:
+  ar: السلاح في التراث
+  en: Arms in the Heritage
+summary:
+  ar: 'مسار في أدوات الحرب والرمزية: سيف رسول الله، وسيف أورنكزيب، والخناجر عبر الأمصار.'
+  en: A trail through arms as heritage.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: سيف النبي
+    en: The Prophet's sword
+  body:
+    ar: ذو الفقار وآثار السلاح في خزانة توب قابي.
+    en: ذو الفقار وآثار السلاح في خزانة توب قابي.
+  features:
+  - object/sayf-al-nabi
+- title:
+    ar: سيف أورنكزيب
+    en: Aurangzeb's sword
+  body:
+    ar: 'الهند المغولية: سيف السلطان المتزهد.'
+    en: 'الهند المغولية: سيف السلطان المتزهد.'
+  features:
+  - object/sayf-awrangzib
+- title:
+    ar: الخنجر
+    en: The dagger
+  body:
+    ar: 'من المغرب إلى الهند: خناجر الزينة والحرب.'
+    en: 'من المغرب إلى الهند: خناجر الزينة والحرب.'
+  features:
+  - object/khanjar-irani
+  - object/khanjar-mughali-1600
+  - object/khanjar-haywani
+- title:
+    ar: الفارس
+    en: The rider
+  body:
+    ar: 'فرسان الإسلام في التراث: خالد وصلاح الدين.'
+    en: 'فرسان الإسلام في التراث: خالد وصلاح الدين.'
+  features:
+  - person/khalid-ibn-al-walid
+  - person/salah-al-din-yusuf-ibn-ayyub
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

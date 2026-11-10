@@ -1,0 +1,45 @@
+---
+id: person/ibn-al-jawzi
+lang: ar
+source_lang: ar
+translators: []
+status:
+  review: published
+provenance:
+  generated_by: "earlier author; enriched by Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+  source: "source/talbis-iblis-muniriyya-1928 pp. 5-9, 176, 407"
+---
+
+## موجز
+عبد الرحمن بن علي بن الجوزي مؤرخ وواعظ، صاحب تاريخ خلفاء بني العباس المنتهي إلى أيام الناصر. تذكر شذرات الذهب أنه وُلد سنة 510هـ أو قبلها، ونُسب إلى محلة بالبصرة تسمى محلة الجوز. {cite:shadharat-dhahab p. 809-810}
+
+حملته عمته إلى مسجد أبي الفضل بن ناصر وهو خاله، فاعتنى به وأسمعه الحديث، وحفظ القرآن وسمع من نحو سبعة وثمانين شخصاً. {cite:shadharat-dhahab p. 809-810}
+
+وعظ منذ صغره، وحكى غير مرة أن مجلسه قُدّر بمئة ألف، وحضر مجلسه الخليفة المستضيء مرات من وراء الستر. وصنّف في التفسير والحديث والفقه والزهد والوعظ والأخبار والتاريخ والطب. توفي سنة 597هـ. {cite:shadharat-dhahab p. 809-810}
+
+## في برنامج «المبدعون»
+يقدّم طارق السويدان ابن الجوزي — ويميّزه عن ابن قيم الجوزية — نموذج الواعظ المبدع: يتيم الأب منذ صغره، كفلته أمه وانتبهت عمته لمواهبه فأقنعت أمه وذهبت به إلى مسجد أبي الفضل بن ناصر فتولّى عنايته {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:03:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:03:30}.
+ويذكر ولعه المبكر: حفظ القرآن صغيراً وقرأه على أئمة القراء، لا يخرج من بيته إلا للجمعة، ولا يلعب مع الصبيان، وفي «صيد الخاطر» يصف انشغاله بالعلم بينما ينزل الصبيان إلى دجلة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:04:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:04:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:05:00}.
+ويقرأ من صيد الخاطر قوله عن نفسه: «إني رجل حُبّب إليّ العلم منذ زمن الطفولة فتشغلت به، ولم يُحبب إليّ فنّ واحد منه بل فنونه، ولا تقتصر همتي في فنٍّ على بعضه بل أروم استقصاءه» — مع شكواه أن العمر أضيق من شوقه {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:06:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:07:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:07:30}.
+ويذكر أنه درس على ستة وثمانين شيخاً يقول عنهم «أخذت من كل واحد علمه بأكمله»، وبدأ كتابة الحديث وعمره إحدى عشرة سنة، وبدأ يعظ ويدرّس في مسجد بغداد قبل العشرين {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:08:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:14:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:10:00}.
+ويقدّم قراءة نقدية ⁦(رأي المحاضر)⁩: ميزة ابن الجوزي الكبرى الوعظ لا دقة العلم — من أخذ كل فن لم يتقن فناً — فوجد عنده أخطاء في العقيدة والحديث والفقه، بينما لم يمرّ على الأمة واعظ بقوته منذ الصحابة {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:08:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:09:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:17:30}.
+ومن شهرة مجالسه: يذكر تقدير بعضهم حضور مجلسه بمئة ألف ⁦(يحتمل فيه مبالغة — يقول المحاضر)⁩، وكان الخليفة يحضر مجالسه؛ وينقل ابن جبير وصف مجلسه سنة 580هـ «تساقط عليه كتساقط الفراش على المصباح»، وابن رجب «إذا وعظ اختلست القلوب وتشققت النفوس غير الجيوب» {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:11:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:17:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:18:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:18:30}.
+وقصته مع الخليفة: «يا أمير المؤمنين إن كلمتك خفت منك وإن أمسكت خفت عليك، وأنا أقدم خوفي عليك على خوفي منك»؛ ووشاية حسّاده به أنه يحرّك الناس على الخليفة فحبسه في دار بواسط خمس سنين حتى شفع له ابنه يوسف عند أم الخليفة فأطلق سراحه {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:11:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:12:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:13:00}.
+ومن مؤلفاته: زاد المسير في علم التفسير، وسبع وعشرون مصنفاً في القرآن وعلومه، وتلبيس إبليس — يشرح كيف يدخل إبليس على النفس ويحتال عليها حتى من باب العلم — وتراجم الصحابة والفقهاء؛ ويذكر أن ابن تيمية اطلع على أكثر من تسعمئة مصنف له ويشير بعض المؤرخين إلى ألف {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:16:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:19:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:19:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:20:00}.
+وكان حنبلياً لكنه لم يكن متعصباً للمذهب فخالفه في بعض القضايا فنقم عليه بعض أصحاب أحمد، وبنى خمس مدارس في بغداد أولها بدرب دينار درّس فيها يوم افتتاحها أربعة عشر درساً {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:20:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:21:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:21:30}.
+وملاحظته النقدية الأخرى: تتبعه فوجد عنده إعجاباً بالنفس يذكر به نفسه دائماً — مع تمييز الإعجاب عن الغرور ⁦(رأي المحاضر)⁩ {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:15:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:16:00}.
+وتوفي ليلة الجمعة الثاني عشر من رمضان سنة 597هـ بعد مرض خمسة أيام، وكانت جنازته يوماً مشهوداً في بغداد أُغلقت فيه الأسواق ولم يصل كثيرون إلى حفرته من الزحام، ودفن قرب قبر الإمام أحمد {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:22:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:22:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:23:00}.
+ويقدّر أنه لو قُسم ما ألفه على أيام عمره لألّف نحو أربعين صفحة كل يوم {cite:assabile-tareq-al-suwaidan al-mubdioune/ep12 00:24:00}.
+
+## في دروس أبي إسحاق الحويني «مدرسة الحياة»
+يقدّم [[person/abu-ishaq-al-heweny|أبو إسحاق الحويني]] ابن الجوزي في افتتاح شرحه لـ[[work/sayd-al-khatir|«صيد الخاطر»]] بأنه «إمام عامة» يبيّن لهم بالمحبة لأنه يخالطهم، ويذكر أنه تاب على يديه أكثر من مئة ألف، وأسلم على يديه نحو عشرين ألفًا، وأن الخليفة كان يحضر مجالس وعظه، وأنه كان يقول على البديهة كلامًا لا يقدر على تنميقه أبلغ الناس. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep01 00:02:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep01 00:03:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep01 00:03:30} وهذه الأعداد هي مما يذكره الحويني في درسه. ويقول إن ابن الجوزي تلميذ [[person/ibn-aqil|ابن عقيل]] أخذ عن شيخه الحرص على الوقت، وإنه ذكر في «صيد الخاطر» أنه أعدّ لأوقات الزائرين أعمالًا لا تحتاج إلى فكر، كقطع الورق وبري الأقلام. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:44:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep04 00:47:00}
+
+ويذكر أن ابن الجوزي أعاد رده على أبي عبد الرحمن السلمي في كتابه في مشكل الصحيحين، في مسند عمر لا في مسند علي، لأن الكلام في القصة كان موجهًا إلى عمر. {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep01 00:23:30} ومع إجلاله له ينقده في غير موضع: فيرى أنه كثيرًا ما يعتمد في الوعظ على أحاديث ضعيفة وموضوعة وباطلة، {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep01 00:48:00} ويحكم بالبطلان على حديث نقله ابن الجوزي في قصة ثوب عائشة، لأن في إسناده إسحاق بن بشر صاحب «المبتدأ» وهو عنده كذاب باتفاق، {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep10 00:39:30} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep10 00:40:00} ويرى أنه هوّن من أعمال أصحاب الغار الثلاثة، فجعل شرحه لحديثهم ردًّا عليه، وسأل جمهوره: لو كنت رابعهم فبأي عمل تتوسل؟ {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep05 00:56:00} {cite:assabile-abu-ishaq-alheweny madrassat-al-hayat/ep05 00:57:00}
+
+## في مقدمة تحقيق «زاد المسير»
+يترجم عبد الرزاق المهدي لابن الجوزي بأنه جمال الدين أبو الفرج عبد الرحمن بن علي بن محمد بن علي القرشي التيمي البكري الحنبلي الواعظ، ينتهي نسبه إلى أبي بكر الصديق، واشتهر بابن الجوزي نسبة إلى شرعة الجوز ببغداد، وقيل إلى جوزة كانت في دار جده بواسط. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.7} ويذكر أنه ولد ببغداد سنة 508هـ، وقيل 510، وقيل 514، وأنه حفظ القرآن وقرأه بالروايات، واشتغل بالوعظ حتى حضر مجالسه الملوك والوزراء، وقيل حُزر بعض مجالسه بمئة ألف. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.7} وينقل قول الموفق المقدسي إنه كان إمام عصره في الوعظ وصاحب فنون، وقول [[person/ibn-rajab|ابن رجب]] إن جماعة من مشايخ الحنابلة نقموا عليه ميله إلى التأويل في بعض كلامه، وإن كلامه في ذلك مضطرب، وإنه كان معظمًا لـ[[person/ibn-aqil|أبي الوفاء بن عقيل]] متابعًا لأكثر كلامه. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.8} ويذكر أن تصانيفه قيل بلغت خمسين ومئتين، ومنها في التفسير [[work/zad-al-masir|زاد المسير]] و«نزهة العيون النواظر» و«عمدة الراسخ في معرفة المنسوخ والناسخ»، وفي الحديث «الموضوعات» و«العلل المتناهية»، وفي التوحيد «دفع شبه التشبيه»؛ وأنه توفي ليلة الجمعة الثاني عشر من رمضان سنة 597هـ عن سبع وثمانين سنة، ودفن بباب حرب قرب الإمام أحمد. {cite:zad-al-masir-dar-al-kitab-al-arabi-2001-v1 p.8}
+
+## في «تلبيس إبليس»
+على صفحة عنوان الطبعة المنيرية الثانية من كتابه «[[work/talbis-iblis|تلبيس إبليس]]» يُلقَّب «الحافظ الإمام جمال الدين أبا الفرج عبد الرحمن ابن الجوزي البغدادي»، وتؤرخ وفاته بسنة 597هـ. {cite:talbis-iblis-muniriyya-1928 p. 5} ويقول في مقدمة الكتاب إنه وضعه محذراً من فتن إبليس وكاشفاً عن مستوره، وقسمه ثلاثة عشر باباً تبدأ بلزوم السنة والجماعة وتنتهي بطول الأمل. {cite:talbis-iblis-muniriyya-1928 p. 8} {cite:talbis-iblis-muniriyya-1928 p. 9} ويذكر فيه أنه جمع في أخبار [[person/al-hallaj|الحلاج]] كتاباً مستقلاً. {cite:talbis-iblis-muniriyya-1928 p. 176} ويسمي المصحح محمد منير الدمشقي المؤلف في خاتمته «عالم الآفاق وواعظ العراق». {cite:talbis-iblis-muniriyya-1928 p. 407}

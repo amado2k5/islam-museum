@@ -1,0 +1,23 @@
+id: event/siege-of-anapa-1791
+class: event
+kind: siege
+label: { ar: "حصار أنابة", en: "Siege of Anapa" }
+summary:
+  ar: "بطاقة أولية لحصار أنابة سنة ١٧٩١م، أخذ الروس الحصن العثماني في القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Anapa in 1791, the Russian capture of the Ottoman fort in the Caucasus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1791", precision: year, status: tradition, derived: true }
+  end: { edtf: "1791", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4527017
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

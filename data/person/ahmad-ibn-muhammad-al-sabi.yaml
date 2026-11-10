@@ -1,0 +1,34 @@
+id: person/ahmad-ibn-muhammad-al-sabi
+class: person
+label:
+  ar: "أحمد بن محمد السبعي"
+  en: "Ahmad ibn Muhammad al-Sab'i"
+roles: [jurist, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن محمد السبعي، الفقيه والشاعر الأحسائي، توفي سنة ١٤٥٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Muhammad al-Sab'i, the Eastern Arabian jurist and poet, d. 1456; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q99658884
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0088
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
+relations:
+  - { type: lived_in, target: place/al-ahsa, note: "Place association from the person's nisba/name (الأحسائي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

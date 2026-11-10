@@ -1,0 +1,21 @@
+id: place/ottoman-albania
+class: place
+kind: site
+label: { ar: "ألبانيا تحت حكم الدولة العثمانية", en: "Ottoman Albania", ur: "سلطنت عثمانیہ کے تحت البانیہ" }
+summary:
+  ar: "موقع في ألبانيا."
+  en: "Site in Albania."
+wings: [place]
+regions: [global]
+coordinates: [41.1533, 20.1683]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q372199" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q372199 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

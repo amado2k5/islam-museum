@@ -1,0 +1,38 @@
+id: person/bulent-ersoy
+class: person
+label: { ar: "بولنت ارسوي", en: "Bülent Ersoy", ur: "بولنٹ ارسوئے" }
+names:
+  - { value: "بولنت ارسوي", kind: full }
+  - { value: "Bülent Ersoy", kind: full }
+  - { value: "Bülent Erkoç", kind: full }
+gender: female
+summary:
+  ar: "مغنية وممثلة تركية للموسيقى الكلاسيكية التركية، وُلدت في إسطنبول سنة 1952 باسم بولنت إركوتش، وأجرت جراحة لتصحيح الجنس في لندن سنة 1981، ومُنعت من المسارح التركية طوال الثمانينيات، ثم عادت سنة 1988 لتصبح من أشهر مغنيات تركيا، لُقبت بـ«أبلة» ثم بـ«الديفا»، وأصدرت أكثر من ثلاثين ألبوما."
+  en: "Turkish singer of Turkish classical music and actress, born in Istanbul in 1952 as Bülent Erkoç. She underwent gender reassignment surgery in London in 1981 and was banned from Turkish stages through the 1980s, returning in 1988 to become one of Turkey's most popular singers — known as 'Abla' (Big Sister) and later 'the Diva' — with more than thirty albums."
+  ur: "ترکی کلاسیکی موسیقی کی گلوکارہ اور اداکارہ، جو 1952 میں استنبول میں بولنت ارکوچ کے نام سے پیدا ہوئیں۔ انہوں نے 1981 میں لندن میں جنس کی تبدیلی کی سرجری کرائی، اسی کی دہائی میں ترک سٹیج سے روکی گئیں، اور 1988 میں واپس آ کر ترکی کی مقبول ترین گلوکاراؤں میں شامل ہو گئیں؛ تیس سے زائد البمز جاری کیے۔"
+roles: [singer, actress]
+wings: [people, living]
+born:
+  edtf: "1952-06-09"
+  hijri: "1371"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1371) is converter-derived."
+  sources: [source/wikipedia-bulent-ersoy-en, source/wikidata-bulent-ersoy]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-bulent-ersoy-en, source/wikidata-bulent-ersoy] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "English Wikipedia's Religion section states that she is a practicing Muslim who has believed in Islam since her youth. Wikidata gives only Islam. Neither article gives a school, so none is recorded."
+    sources: [source/wikipedia-bulent-ersoy-en, source/wikidata-bulent-ersoy]
+external_ids: { wikidata: "Q467067" }
+sources: [source/wikipedia-bulent-ersoy-en, source/wikipedia-bulent-ersoy-ar, source/wikidata-bulent-ersoy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Bülent Ersoy' (revision of 22 October 2026), Arabic Wikipedia article «بولنت ارسوي» (revision of 25 September 2025), Wikidata Q467067; checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

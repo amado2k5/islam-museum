@@ -1,0 +1,21 @@
+id: place/20th-arrondissement-of-paris
+class: place
+kind: region
+label: { ar: "الدائرة العشرون في باريس", en: "20th arrondissement of Paris", ur: "پیرس کا بیسواں اراؤنڈڈسمنٹ" }
+summary:
+  ar: "إقليم في فرنسا."
+  en: "Region in France."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [48.865061111111, 2.39905]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q210720" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q210720 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

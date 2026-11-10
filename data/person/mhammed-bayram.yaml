@@ -1,0 +1,30 @@
+id: person/mhammed-bayram
+class: person
+label:
+  ar: "محمد بيرم"
+  en: "M'hammed Bayram"
+roles: [mufti]
+gender: male
+summary:
+  ar: "محمد بن حسين بيرم، مفتي تونس خمساً وأربعين سنة من أعيان الأسرة البيرمية؛ توفي سنة 1214هـ ⁦(1800م)⁩."
+  en: "Muhammad Ibn Bayram (1718–1800), mufti of Tunis for forty-five years, of the Bayram family."
+wings: [people]
+regions: [maghreb]
+periods: [period/modern-era]
+born: { edtf: "1718", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: born_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3272342
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.104)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
+status:
+  review: published
+  completeness: 3

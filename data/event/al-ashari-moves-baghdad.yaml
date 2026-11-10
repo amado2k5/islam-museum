@@ -1,0 +1,28 @@
+id: event/al-ashari-moves-baghdad
+class: event
+kind: migration
+label:
+  ar: "انتقال الأشعري إلى بغداد في أواخر حياته"
+  en: "Al-Ash'ari moves to Baghdad late in life"
+  ur: "اشعری کا آخری عمر میں بغداد منتقلی"
+summary:
+  ar: "انتقل أبو الحسن الأشعري في أواخر حياته إلى بغداد فأقام بها ودرّس فيها {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}، وأخذ عنه جملة من الأئمة منهم أبو الحسن الباهلي وأبو الحسن الكرماني وأبو زيد المروزي وأبو عبد الله بن مجاهد البصري وزاهر بن أحمد السرخسي وأبو سهل الصعلوكي، وبهؤلاء وأمثالهم انتشر طريقه في الكلام حتى عُرف أتباعه بالأشعرية {cite:siyar-alam-nubala 15/86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}. وروى البيهقي عن زاهر بن أحمد السرخسي أن الأشعري استشهده في داره ببغداد قرب أجله {cite:siyar-alam-nubala 15/86}."
+  en: "Late in life Abu al-Hasan al-Ash'ari moved to Baghdad, where he lived and taught {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}. A group of imams took from him, among them Abu al-Hasan al-Bahili, Abu al-Hasan al-Kirmani, Abu Zayd al-Marwazi, Abu Abd Allah ibn Mujahid al-Basri, Zahir ibn Ahmad al-Sarakhsi and Abu Sahl al-Su'luki; through these and their like his way in kalam spread until his followers came to be known as the Ash'ariyya {cite:siyar-alam-nubala 15/86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}. Al-Bayhaqi reports through Zahir ibn Ahmad al-Sarakhsi that al-Ash'ari called him to witness at his house in Baghdad near his death {cite:siyar-alam-nubala 15/86}."
+  ur: "ابو الحسن اشعری آخری عمر میں بغداد منتقل ہوئے جہاں وہ مقیم ہوئے اور تدریس کرتے رہے {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔ متعدد ائمہ نے ان سے علم حاصل کیا، جن میں ابو الحسن باہلی، ابو الحسن کرمانی، ابو زید مروزی، ابو عبد اللہ بن مجاہد بصری، ظاہر بن احمد سرخسی اور ابو سہل صعلوکی شامل ہیں؛ انھی اور ان جیسوں کے ذریعے کلام میں ان کا طریقہ پھیلا اور ان کے پیروکار اشعریہ کہلائے {cite:siyar-alam-nubala 15/86} {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}۔ بیہقی ظاہر بن احمد سرخسی سے روایت کرتے ہیں کہ اشعری نے بغداد میں اپنے گھر اپنی وفات کے قریب انہیں گواہ بنایا {cite:siyar-alam-nubala 15/86}۔"
+wings: [time]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0915/0936", calendar: julian, precision: year, status: tradition, derived: true, note: "لا تؤرخ المصادر الانتقال؛ وضعته دائرة المعارف «في أواخر حياته» بين توبته ٣٠٠هـ ووفاته ٣٢٤هـ {cite:encyclopaedia-of-islam-2 vol. 1 p. 743}.", sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+  - { type: had_participant, target: person/al-ashari, role: "المنتقل المدرّس", sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 1 PDF p. 743 = printed p. 694, art. al-Ash'ari؛ سير أعلام النبلاء 15/86 (قائمة تلاميذه)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-ashari-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

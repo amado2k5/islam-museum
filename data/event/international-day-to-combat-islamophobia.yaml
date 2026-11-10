@@ -1,0 +1,29 @@
+id: event/international-day-to-combat-islamophobia
+class: event
+kind: declaration
+label: { ar: "اليوم الدولي لمكافحة الإسلاموفوبيا", en: "International Day to Combat Islamophobia", ur: "اسلاموفوبیا کے خلاف عالمی دن" }
+summary:
+  ar: "يوم أممي يُحيا في 15 مارس من كل سنة، أقرّته الجمعية العامة للأمم المتحدة بتوافق الآراء في 15 مارس 2022 بقرار قدمته باكستان باسم منظمة التعاون الإسلامي؛ اختير التاريخ ذكرى لهجوم مسجدي كرايستشيرش سنة 2019."
+  en: "A United Nations observance on 15 March every year, proclaimed by the General Assembly by consensus on 15 March 2022 in a resolution introduced by Pakistan on behalf of the Organisation of Islamic Cooperation; the date is the anniversary of the 2019 Christchurch mosque shootings."
+  ur: "ہر سال 15 مارچ کو اقوامِ متحدہ کا دن، جسے جنرل اسمبلی نے 15 مارچ 2022 کو اتفاقِ رائے سے منظور کیا؛ قرارداد پاکستان نے او آئی سی کی جانب سے پیش کی اور تاریخ 2019 کے کرائسٹ چرچ مسجد حملوں کی یاد میں چنی گئی۔"
+wings: [today, living]
+themes: [rights-and-freedoms, modern-conflicts]
+regions: [global]
+date:
+  start: { edtf: "2022-03-15", hijri: "1443-08-12", calendar: gregorian, precision: day, status: historical, derived: true, note: "The General Assembly adopted resolution A/RES/76/254 on 15 March 2022; the Hijri date is converter-derived.", sources: [source/wikipedia-international-day-to-combat-islamophobia-en, source/un-observances-anti-islamophobia-day] }
+recurs: annual
+first_held: { edtf: "2022-03-15", calendar: gregorian, precision: day, status: historical, sources: [source/un-observances-anti-islamophobia-day] }
+editions:
+  - { year: 2026, note: "16 March 2026: a General Assembly high-level event co-organised by the OIC and the UN Alliance of Civilizations, and a high-level event on addressing Islamophobia and discrimination based on religion or belief", sources: [source/un-observances-anti-islamophobia-day] }
+outcome: { ar: "قرار الجمعية العامة A/RES/76/254، ثم قرار 2024 بشأن تدابير مكافحة الإسلاموفوبيا الذي طلب تعيين مبعوث خاص، عُيّن في مايو 2025.", en: "General Assembly resolution A/RES/76/254, followed by a 2024 resolution on measures to combat Islamophobia that requested a Special Envoy, appointed in May 2025.", ur: "جنرل اسمبلی کی قرارداد A/RES/76/254، پھر 2024 کی قرارداد جس نے خصوصی ایلچی مانگا، جو مئی 2025 میں مقرر ہوا۔" }
+footprint:
+  wikipedia: { languages: [en], checked: "2026-11-06", sources: [source/wikipedia-international-day-to-combat-islamophobia-en] }
+  wikidata: "Q111264624"
+external_ids: { wikidata: "Q111264624" }
+sources: [source/un-observances-anti-islamophobia-day, source/wikipedia-international-day-to-combat-islamophobia-en]
+provenance:
+  layer: own-research
+  source: "The United Nations observance page and the English Wikipedia article (revision of 24 May 2026, Wikidata Q111264624), checked in Chrome on the founder's Mac on 6 November 2026; the English article lists 15 language editions, recorded as one pending a sitelink check"
+  generated_by: "Claude Code (claude-fable-5-1)"
+  run: modern-pilot-b01
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-fable-5-1)" }

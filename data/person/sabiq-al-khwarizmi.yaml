@@ -1,0 +1,21 @@
+id: person/sabiq-al-khwarizmi
+class: person
+label: { ar: "سابق الخوارزمي", en: "Sabiq al-Khwarizmi" }
+summary:
+  ar: "مولى إبراهيم الإمام دفع إليه الوصية إلى أخيه أبي العباس وأمره إن حدث به حدث من مروان أن يجد السير إلى الحميمة، فلما قضى إبراهيم أسرع فدفعها، ثم لقيه أبو حميد الطوسي بسوق الكناسة بالكوفة فدلّه على أبي العباس ومن معه في دار الوليد بن سعد في بني أود {cite:muruj-al-dhahab p. 239-241}."
+  en: "The Imam Ibrahim's mawla who sped the succession-will from Harran to al-Humayma — then led Abu Humayd from the sweeper's market to the hidden Abbasids in Kufa {cite:muruj-al-dhahab p. 239-241}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 239–241"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch43
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Atibba (Ibn Abi Usaybi'a)" }
+relations:
+  - { type: lived_in, target: place/khwarizm, confidence: low, note: "Association inferred from the nisba 'الخوارزمي'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

@@ -1,0 +1,30 @@
+id: person/musa-ibn-isa-al-qaddumi
+class: person
+label:
+  ar: "موسى بن عيسى القدومي"
+  en: "Musa ibn Isa al-Qaddumi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لموسى بن عيسى القدومي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Musa ibn Isa al-Qaddumi; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1917", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: born_in, target: place/kafr-qaddum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2896936)" }
+  - { type: died_in, target: place/nablus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q214178)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q126164295
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

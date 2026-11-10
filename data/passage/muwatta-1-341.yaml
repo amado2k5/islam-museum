@@ -1,0 +1,19 @@
+id: passage/muwatta-1-341
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar]
+work: work/muwatta-malik
+ref: "1.341"
+label: { ar: "الموطأ 341 — صلاة الجماعة تفضل صلاة الفذ بسبع وعشرين درجة", en: "Muwatta 341" }
+text: "صلاة الجماعة تفضل صلاة الفذ بسبع وعشرين درجة"
+summary:
+  ar: "أول حديث في باب فضل صلاة الجماعة على صلاة الفذ. يرويه يحيى عن مالك عن نافع عن عبد الله بن عمر: أخبر النبي أن صلاة الجماعة تفضل صلاة المنفرد بسبع وعشرين درجة. ويخرّجه المحقق عند البخاري (645) ومسلم (2/122–123) والنسائي (2/103) وابن حبان وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (14/137). {cite:muwatta-maruf-1997 p.188}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 341 at PDF p. 188; باب فضل صلاة الجماعة على صلاة الفذ", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b14" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 188; matn excerpt at most 40 words" }

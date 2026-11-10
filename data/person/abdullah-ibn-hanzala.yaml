@@ -1,0 +1,26 @@
+id: person/abdullah-ibn-hanzala
+class: person
+label: { ar: "عبد الله بن حنظلة ابن الغسيل", en: "Abdallah ibn Hanzala, known as Ibn al-Ghasil" }
+summary:
+  ar: "قائد خلع أهل المدينة ليزيد سنة ثلاث وستين، قال والله ما خرجنا على يزيد حتى خفنا أن نرمى بالحجارة من السماء أن رجلاً ينكح أمهات الأولاد والبنات والأخوات ويشرب الخمر ويدع الصلاة {cite:tarikh-khulafa-minhaj-1434 p. 344-345}. وعند المسعودي خرج هو وعبد الله بن مطيع العدوي على مسرف بن عقبة يوم الحرة {cite:muruj-al-dhahab p. 67}"
+  en: "Leader of Medina's deposition of Yazid in 63: 'by God, we did not march out against Yazid until we feared stones raining from heaven — a man who weds mothers of sons, daughters and sisters, drinks wine and abandons prayer' {cite:tarikh-khulafa-minhaj-1434 p. 344-345}."
+gender: male
+wings: [people]
+periods: [period/umayyad]
+regions: [arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+external_ids: { wikidata: "Q20413563" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: أهل المدينة ليزيد سنة ثلاث وس", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }

@@ -1,0 +1,16 @@
+id: passage/muslim-2676
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2676"
+label: { ar: "مسلم 2676 — سبق المفردون", en: "Muslim 2676 — The mufarridun have gone ahead" }
+text: "كان رسول الله يسير في طريق مكة فمر على جبل يقال له جمدان، فقال: «سيروا، هذا جمدان، سبق المفردون» قالوا: وما المفردون يا رسول الله؟ قال: «الذاكرون الله كثيراً والذاكرات»"
+summary:
+  ar: "رواية أبي هريرة في كتاب الذكر والدعاء من صحيح مسلم؛ المفردون هم الذاكرون الله كثيراً والذاكرات — عند جبل جمدان في طريق مكة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/dhikr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء، باب فضل المواظبة على الذكر (طبعة دار التأصيل، الحديث 6984؛ ترقيم عبد الباقي المعروف 2676)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

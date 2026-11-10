@@ -1,0 +1,27 @@
+---
+id: passage/quran-9-58
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Verse 58 of [[passage/quran-9|Surat at-Tawba]], a Medinan surah. {cite:tanzil-quran}
+
+## Place in the museum
+Its place: verse 58 of 129 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+**Commentary on verse 58 (pp. 300-304)**
+
+Al-Tabari says: among the hypocrites whose description was given in these verses, Muhammad, there are those who find fault with you over the alms, that is, who blame you in the matter and slander you in it. The verb for faulting is said of someone who blamed and pinched another, as is the verb for slandering, from which comes the phrase "a slanderer, a fault-finder"; he cites a rajaz verse of Ru'ba in which the poet speaks of his gait nearing old age in the shade of the time of his idle talk and his faulting, and a verse of Ziyad al-A'jam addressed to one who shows a smiling face on meeting him but blames him behind his back. The editor explains the vocabulary of Ru'ba's verse, the gaits and the horse's prancing, notes that the rajaz was composed about Aban ibn al-Walid al-Bajali and then turns to the poet himself, and traces Ziyad's line to Abu Ubayda's Majaz al-Qur'an, Islah al-Mantiq, the Jamhara, the Maqayis and the Lisan, gives its variant wording, and says the verb "I am absent" is passive. {cite:tafsir-tabari-shakir-v14 p. 301}
+
+"If they are given from it they are pleased" means that their blaming you over it and their slander because of it is not out of religion but anger for themselves: if you give them from it what pleases them they are pleased with you, and if you do not give them, they are angry with you and blame you. {cite:tafsir-tabari-shakir-v14 p. 301}
+
+Report 16813, from Mujahid, through Ibn Waki', Ibn Numayr, Warqa' and Ibn Abi Najih: "who find fault with you" means who probe you. Report 16814, from Mujahid, through al-Qasim, al-Husayn, Hajjaj and Ibn Jurayj: who probe you and question you; Ibn Jurayj said Dawud ibn Abi Asim told him that alms were brought to the Prophet and he distributed them this way and that until they were gone, and a man of the Ansar saw him and said this is not justice, and this verse came down. The editor says the verb for probing means to test and try, and that the dictionaries give this report as Mujahid's words. {cite:tafsir-tabari-shakir-v14 p. 302}
+
+Report 16815, from Qatada, through Bishr, Yazid and Sa'id: who slander you over the alms; it was mentioned that a man of the desert, newly come from a bedouin settlement, came to the Prophet of God as he was dividing gold and silver and said "Muhammad, by God, if God commanded you to be just, you have not been just", and the Prophet of God said "woe to you, who will deal justly with you after me?", and then said "beware of this man and his like, for in my community there are his like, who recite the Qur'an but it does not pass their collarbones; when they emerge, kill them, then when they emerge, kill them, then when they emerge, kill them". It was mentioned that he used to say "by Him in whose hand is my soul, I neither give you anything nor withhold it from you, I am only a treasurer". Report 16816, from Qatada, through Muhammad ibn Abd al-A'la, Muhammad ibn Thawr and Ma'mar: who slander. {cite:tafsir-tabari-shakir-v14 p. 302}
+
+Report 16817, from Abu Sa'id al-Khudri, through al-Zuhri and Abu Salama ibn Abd al-Rahman: while the Messenger of God was dividing a share, Ibn Dhi al-Khuwaysira al-Tamimi came to him and said "be just, Messenger of God", and he said "woe to you, who will be just if I am not?", and Umar ibn al-Khattab said "Messenger of God, give me leave and I will strike his neck", and he said "leave him, for he has companions such that one of you would think little of his prayer beside their prayer and his fasting beside their fasting; they pass out of the religion as the arrow passes out of the game; one looks at its feathers and finds nothing, then at its head and finds nothing, then at its binding and finds nothing, it has outrun the dung and the blood; their sign is a black man, one of whose arms is like a woman's breast or a quivering piece of flesh; they emerge at a time of division among the people". He said, then came down "among them are those who find fault with you over the alms". Abu Sa'id said "I bear witness that I heard this from the Messenger of God, and I bear witness that when Ali killed them, the man was brought in the manner the Messenger described". The editor notes that in the two Sahihs the name is Dhu al-Khuwaysira without "ibn", explains the arrow terms, the dung and the piece of flesh, and says the chain is sound, reported by al-Bukhari and Muslim through al-Zuhri from Abu Salama, the report coming by many sound routes. {cite:tafsir-tabari-shakir-v14 p. 303}
+
+Report 16817 (second), from Ibn Zayd, through Yunus and Ibn Wahb: these are the hypocrites, who said "by God, Muhammad gives it only to whom he loves and favours only his own wish with it"; God informed His Prophet and told them that it came only from God and that this was God's command and not Muhammad's, and then said "the alms are only for the poor". {cite:tafsir-tabari-shakir-v14 p. 304}
+
+These statements are given as transmitted; the choices and arguments are al-Tabari's, the notes and source tracings are the editor's, and the museum gives no verdict.

@@ -1,0 +1,16 @@
+id: passage/muslim-0083
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "83"
+label: { ar: "مسلم 83 — أي الأعمال أفضل؟ إيمان بالله ثم الجهاد ثم حج مبرور", en: "Muslim 83 — Best deed: faith, then jihad, then an accepted hajj" }
+text: "سئل رسول الله: أي الأعمال أفضل؟ فقال: «إيمان بالله»، قال: ثم ماذا؟ قال: «الجهاد في سبيل الله»، قال: ثم ماذا؟ قال: «حج مبرور»"
+summary:
+  ar: "رواية أبو هريرة في باب أي الأعمال أفضل من كتاب الإيمان في صحيح مسلم؛ سؤال وجواب يرتب مراتب الأعمال: الإيمان ثم الجهاد ثم الحج المبرور."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/iman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب أي الأعمال أفضل (طبعة دار التأصيل، الحديث ٧٥؛ ترقيم عبد الباقي المعروف 83)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

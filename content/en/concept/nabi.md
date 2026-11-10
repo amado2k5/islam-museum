@@ -1,0 +1,8 @@
+---
+id: concept/nabi
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+In the lexicon, nabi comes from information (inba'); in law, a nabi is one to whom revelation comes through an angel, who is supported by miracles that break habit. Not everyone to whom something is revealed is a prophet. The rasul is narrower than the nabi. The Qur'an names eighteen prophets and seven more; the lists of the steadfast messengers (ulu al-'azm) differ, and Muhammad is the last of the prophets by agreement. Scholars differ on whether Khidr, Luqman, Dhu al-Kifl and Uzayr were prophets, and one who doubts the prophethood of a figure not agreed upon is not an unbeliever. Special rules for prophets include that alms are forbidden to them, that their property is not inherited, and that each is buried where he dies. Believers must affirm them in general and in particular, obey and honour them, love them, invoke blessings on them, and must not separate between them. Prophets are above other people and above the angels in the view of the Sunnis, and Muhammad is the best. It is permissible to name children after prophets. Images of them are forbidden, lying about him is forbidden, and reverence for him and his companions is required. Those who insult him are dealt with under apostasy.  {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15462} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15463} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15464} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15466} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15469} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15472} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15475} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15481} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15483}

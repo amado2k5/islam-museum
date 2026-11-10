@@ -1,0 +1,26 @@
+id: person/ali-ibn-zayd-alawi
+class: person
+label: { ar: "علي بن زيد العلوي", en: "Ali ibn Zayd al-Alawi" }
+gender: male
+roles: [rebel]
+summary:
+  ar: "علوي ظهر بالكوفة سنة خمس وخمسين ومائتين مع عيسى بن جعفر العلوي، فسرّح إليهما المعتز سعيد بن صالح الحاجب، فانهزم الطالبيان لتفرق أصحابهما عنهما {cite:muruj-mari-2005 juz' 4 p. 145}."
+  en: "An Alid who rose in Kufa in 255 AH together with Isa ibn Ja'far al-Alawi. Al-Mu'tazz sent Sa'id ibn Salih al-Hajib against them, and the two Alids were defeated as their followers scattered {cite:muruj-mari-2005 juz' 4 p. 145}."
+wings: [people]
+themes: [civil-wars-and-revolts]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: traveled_to, target: place/kufa, note: "Rose at Kufa in 255 with Isa ibn Jafar al-Alawi.", sources: [source/muruj-mari-2005], confidence: medium }
+sources: [source/muruj-mari-2005]
+status:
+  review: published
+  completeness: 3
+

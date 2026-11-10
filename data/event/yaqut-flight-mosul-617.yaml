@@ -1,0 +1,27 @@
+id: event/yaqut-flight-mosul-617
+class: event
+kind: other
+label:
+  ar: "انهزام ياقوت من خوارزم أمام التتر إلى الموصل ثم حلب، ٦١٧هـ/١٢٢٠م"
+  en: "Yaqut flees Khwarazm before the Mongols to Mosul, then Aleppo, 617/1220"
+  ur: "یاقوت منگولوں کے سامنے خوارزم سے بھاگ کر موصل اور پھر حلب آیا، 617ھ/1220ء"
+summary:
+  ar: "صادف ياقوت في خوارزم خروجَ التتر فانهزم بنفسه «كبعثة يوم الحشر من رمسه» وقاسى في طريقه من الضائقة والنَّعَب ما يكلّ اللسان عن شرحه، ووصل إلى الموصل وقد تقطعت به الأسباب {cite:shadharat-dhahab p. 121}. ومن الموصل كتب سنة ٦١٧هـ/١٢٢٠م — أو ٦١٨هـ — رسالةً إلى القفطي يصف فيها كربه من زحف المغول، ثم انتقل إلى سنجار فارتحل إلى حلب {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}."
+  en: "At Khwarazm Yaqut met the Mongol outbreak and fled 'like one raised from his grave on the Day of Resurrection', suffering on the way hardships that tire the tongue to describe; he reached Mosul with his means exhausted {cite:shadharat-dhahab p. 121}. From Mosul in 617/1220 — or 618 — he wrote al-Qifti a letter describing his distress at the Mongol advance, then moved to Sinjar and on to Aleppo {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}."
+  ur: "خوارزم میں یاقوت کو منگولوں کا ظہور ملا اور وہ «قیامت کے دن اپنے قبرستان سے اٹھے شخص کی مانند» بھاگا؛ راہ میں ایسی تنگی اور بھاگ دوڑ سہی کہ زبان بیان سے عاجز ہے، اور اسباب ختم ہو کر موصل پہنچا {cite:shadharat-dhahab p. 121}. موصل سے 617ھ/1220ء — یا 618ھ — میں قفطی کو خط لکھا جس میں منگول یلغار سے اپنی مشکل بیان کی، پھر سنجار اور پھر حلب گیا {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:mawsuat-a3lam-ulama-adaba p. 278}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, levant-iraq]
+date:
+  start: { edtf: "1220", hijri: "0617", calendar: julian, precision: year, status: tradition, derived: true, note: "الفرار إلى الموصل والرسالة إلى القفطي سنة ٦١٧هـ/١٢٢٠م — أو ٦١٨هـ — {cite:encyclopaedia-of-islam-2 vol. 11 p. 265} {cite:shadharat-dhahab p. 121}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/yaqut-al-hamawi, role: "صاحب الرحلة والمعجز", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 11 art. Yakut al-Rumi (Cl. Gilliot) printed pp. 264-266 + Ibn al-Imad Shadharat al-Dhahab s.a. 626 printed pp. 121-122 + Mawsuat A'lam al-Ulama' wal-Udaba' j.7 pp. 277-281 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-yaqut-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

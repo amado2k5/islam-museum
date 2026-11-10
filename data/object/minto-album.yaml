@@ -1,0 +1,18 @@
+id: object/minto-album
+class: object
+kind: manuscript
+label: { ar: "ألبوم منتو", en: "The Minto Album", ur: "منٹو البم" }
+summary:
+  ar: "ألبوم من ألبومات شاه جهان في أربعين ورقة مزدوجة الوجه، منسوب إلى إيرل منتو الحاكم العام للهند (1807–1813)، بيع سنة 1925 ويقسم اليوم بين مكتبة تشستر بيتي في دبلن ومتحف فكتوريا وألبرت في لندن، ونقوشه المنسوبة إلى المصورين موثوقة عند بيتش {cite:beach-grand-mogul-1978 p. 68} {cite:beach-grand-mogul-1978 p. 72}."
+  en: "An album of Shah Jahan of forty double-sided folios, named after the Earl of Minto, Governor General of India 1807–13; sold in 1925, it is now divided between the Chester Beatty Library, Dublin, and the Victoria and Albert Museum, London, and Beach treats its painter inscriptions as reliable {cite:beach-grand-mogul-1978 p. 68} {cite:beach-grand-mogul-1978 p. 72}."
+  ur: "شاہ جہان کا ایک البم، چالیس دو رخے ورقوں کا، گورنر جنرل ہند (1807–13) ارل آف منٹو کے نام پر؛ 1925ء میں فروخت ہوا اور اب ڈبلن کی چیسٹر بیٹی لائبریری اور لندن کے وکٹوریہ اینڈ البرٹ میوزیم میں بٹا ہوا ہے؛ بیچ اس کے مصوروں کے کتبوں کو معتبر مانتے ہیں {cite:beach-grand-mogul-1978 p. 68} {cite:beach-grand-mogul-1978 p. 72}۔"
+wings: [objects, words]
+themes: [arts-of-the-book]
+regions: [south-asia]
+holding_institution: "Chester Beatty Library, Dublin, and Victoria and Albert Museum, London"
+accession_number: "Chester Beatty Ms. 7; V&A I.M. 8-1925 to 28-1925"
+relations:
+  - { type: commissioned_by, target: person/shah-jahan-mughal, sources: [source/beach-grand-mogul-1978] }
+  - { type: exemplifies, target: practice/mughal-muraqqa-album, sources: [source/beach-grand-mogul-1978] }
+sources: [source/beach-grand-mogul-1978]
+status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker I), claude-opus-5-5, run ocr-harvest-2026-11-04, from source/beach-grand-mogul-1978 scan pp. 68, 72, 138" }

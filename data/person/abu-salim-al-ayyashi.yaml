@@ -1,0 +1,45 @@
+id: person/abu-salim-al-ayyashi
+class: person
+label:
+  ar: "أبو سالم العياشي"
+  en: "Abu Salim al-Ayyashi"
+roles: [writer]
+gender: male
+themes: [travel]
+summary:
+  ar: "أبو سالم عبد الله بن محمد العياشي، عالم صوفي من أيت عياش في أطلس المغرب، وصاحب رحلة «ماء الموائد»، توفي بالطاعون في 10 ذي القعدة 1090هـ ⁦(1679م)⁩ {cite:encyclopaedia-of-islam-2 vol. 1 p. 844}."
+  en: "Abu Salim 'Abd Allah al-'Ayyashi, Sufi scholar of the Ayt 'Ayyash in the Moroccan Atlas and author of the Rihla Ma' al-Mawa'id; he died in the plague on 10 Dhu l-Qa'da 1090 AH (1679) {cite:encyclopaedia-of-islam-2 vol. 1 p. 844}."
+wings: [people]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+sources:
+- source/al-aalam
+- source/encyclopaedia-of-islam-2
+external_ids:
+  wikidata: Q4670340
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; al-Zirikli, al-A'lam (entry not read on the page); Encyclopaedia of Islam, 2nd ed., vol. 1 p. 844, entry AL 'AYYASHI (queue seq 450, batch ei2-b018)"
+  generated_by: "Devin (SWE-2 High); EI2 enrichment by Claude Code (claude-haiku-5-5)"
+  model: "SWE-2 High"
+  run: wikidata-import-0050
+status: { review: published, completeness: 2 }
+born:
+  edtf: "1628~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives the end of Sha'ban 1037 AH (April-May 1628)."
+died:
+  edtf: "1679-12-13"
+  hijri: "1090"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives 10 Dhu l-Qa'da 1090 AH (13 December 1679), in the plague."
+relations:
+  - { type: lived_in, target: place/morocco, note: "From text: Moroccan (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

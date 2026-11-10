@@ -1,0 +1,29 @@
+id: person/damat-ibrahim-pasha
+class: person
+label:
+  ar: "داماد إبراهيم باشا"
+  en: "Damat Ibrahim Pasha"
+roles: [ruler]
+gender: male
+summary:
+  ar: "الداماد إبراهيم باشا، الصدر الأعظم في عهد أحمد الثالث وأول مسئول عثماني يعترف بأهمية التعرف على أوروبا؛ أرسل السفراء إلى فينا وباريس لأول مرة، وفي عهده نشطت الترجمة وأُنشئ مكتب الطباعة في إستانبول."
+  en: "Damat Ibrahim Pasha, grand vizier under Ahmad III and the first Ottoman official to acknowledge the need to understand Europe; sent ambassadors to Vienna and Paris for the first time, and in his day translation flourished and Istanbul gained a printing office."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1601", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: died_in, target: place/belgrade, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q951058
+provenance:
+  layer: own-research
+  source: "الصلابي، الدولة العثمانية — الداماد إبراهيم باشا ص311-312"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch12
+status:
+  review: published
+  completeness: 3

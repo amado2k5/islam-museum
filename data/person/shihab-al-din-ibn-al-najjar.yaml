@@ -1,0 +1,29 @@
+id: person/shihab-al-din-ibn-al-najjar
+class: person
+label:
+  ar: "شهاب الدين ابن النجار"
+  en: "Shihab al-Din ibn al-Najjar"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشهاب الدين ابن النجار؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shihab al-Din ibn al-Najjar; the entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1492", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib" }
+died: { edtf: "1564", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib" }
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q130644174
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

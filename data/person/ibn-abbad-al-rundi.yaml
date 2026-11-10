@@ -1,0 +1,30 @@
+id: person/ibn-abbad-al-rundi
+class: person
+label: { ar: "ابن عباد الرندي", en: "Ibn 'Abbad al-Rundi", ur: "ابن عباد رندی" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن إبراهيم بن أبي بكر بن عبد الله بن مالك بن إبراهيم النفزي الحميري الرندي، المعروف بابن عباد" }
+summary:
+  ar: "محمد بن إبراهيم النفزي الرندي المعروف بابن عباد، صوفي أندلسي مالكي من أهل الطريقة الشاذلية، ولد برندة سنة 733هـ، وتتلمذ بسلا على ابن عاشر، وتولى الإمامة والخطابة بجامع القرويين بفاس خمس عشرة سنة، وتوفي بفاس في رجب سنة 792هـ؛ أول من شرح الحكم العطائية {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 28} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 30} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 33} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}."
+  en: "Muhammad ibn Ibrahim al-Nafzi al-Rundi, known as Ibn 'Abbad, an Andalusian Maliki Sufi of the Shadhili way, born in Ronda in 733 AH, a pupil of Ibn 'Ashir at Salé, imam and preacher of the Qarawiyyin mosque in Fez for fifteen years, who died in Fez in Rajab 792 AH; the first commentator on the Hikam of Ibn 'Ata' Allah {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 28} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 30} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 33} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}."
+  ur: "محمد بن ابراہیم نفزی رندی، المعروف ابن عباد، شاذلی طریقے کے اندلسی مالکی صوفی، 733ھ میں رندہ میں پیدا ہوئے، سلا میں ابن عاشر کے شاگرد رہے، پندرہ برس فاس کی جامع القرویین کے امام و خطیب رہے، اور رجب 792ھ میں فاس میں فوت ہوئے؛ الحکم العطائیہ کے پہلے شارح {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 28} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 30} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 33} {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 36}۔"
+roles: [scholar, writer]
+traditions: [sunni-maliki, sufi]
+gender: male
+born: { edtf: "1332/1333", hijri: "0733", calendar: julian, precision: year, status: tradition, sources: [source/hikam-ibn-abbad-haykal-ahram-1988], note: "ولد برندة سنة 733هـ (1332-1333م) {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 28}." }
+died: { edtf: "1390", hijri: "0792-07", calendar: julian, precision: month, status: tradition, derived: true, sources: [source/hikam-ibn-abbad-haykal-ahram-1988], note: "Rajab 792 AH; Abu Zakariyya al-Sarraj: Friday 3 Rajab after the afternoon prayer {cite:hikam-ibn-abbad-haykal-ahram-1988 p. 33}. The study gives 1389; the tabular conversion of Rajab 792 falls in June-July 1390 (derived)." }
+wings: [people]
+themes: [spirituality-and-sufism]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+relations:
+  - { type: born_in, target: place/ronda, sources: [source/hikam-ibn-abbad-haykal-ahram-1988] }
+  - { type: died_in, target: place/fez, sources: [source/hikam-ibn-abbad-haykal-ahram-1988] }
+  - { type: buried_in, target: place/fez, sources: [source/hikam-ibn-abbad-haykal-ahram-1988] }
+provenance:
+  layer: own-research
+  source: "هيكل، الحكم العطائية بشرح ابن عباد (الأهرام 1988)، ص 27-37، تلخيصاً لبحث أبي الوفا التفتازاني (صحيفة معهد الدراسات الإسلامية بمدريد، 1958)"
+  generated_by: "Claude Code (OCR-harvest worker G)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+sources: [source/hikam-ibn-abbad-haykal-ahram-1988]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker G)" }

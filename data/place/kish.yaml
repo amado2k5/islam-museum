@@ -1,0 +1,20 @@
+id: place/kish
+class: place
+kind: region
+label: { ar: "كش", en: "Kish" }
+summary:
+  ar: "كش ناحية من بلاد سجستان من جهة الهند؛ غلب عبد الرحمن بن سمرة على ما بين زرنج وكش."
+  en: "Kish, the Sijistan marches toward India; Ibn Samura conquered the stretch between Zaranj and Kish."
+regions: [persia-central-asia]
+coordinates: [39.0578, 66.8306]
+coordinate_precision: site
+coordinate_note: "Shahrisabz (ancient Kish / Kesh), Qashqadarya Region, Uzbekistan (geocoding pass, Gemini-assisted)"
+wings: [place]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "harvest OCR, verified per cited page"
+  run: "prose-enrichment-100-devin-b19"

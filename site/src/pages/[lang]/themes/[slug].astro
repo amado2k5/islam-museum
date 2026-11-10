@@ -16,6 +16,9 @@ const byClass = new Map<string, typeof items>();
 for (const n of items) byClass.set(n.class, [...(byClass.get(n.class) ?? []), n]);
 const tensions = items.flatMap((n) => (n.data.tensions ?? []).map((t: any) => ({ t, n })));
 const dateOf = (n: any) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start ?? n.data.released, lang).text;
+// themes of contested social, moral and doctrinal debate, listed at the foot of every theme page (editorial list; reviewed by the founder)
+const CONTROVERSIAL = ["sexuality-gender-diversity", "dissent-heresy-freethought", "takfir-and-its-critics", "islam-and-secular-thought", "converts-and-leavers", "violent-extremism-and-the-muslim-response", "conquest-and-its-debates", "images-and-figural-art"];
+const controversial = themes.filter((t) => CONTROVERSIAL.includes(t.id) && t.id !== theme.id);
 ---
 <BaseLayout lang={lang} title={theme.label[lang]} description={fam.label[lang]} path={`/${lang}/themes/${theme.id}/`}>
   <div class="wrap" style="padding-block:10px 20px">
@@ -31,15 +34,24 @@ const dateOf = (n: any) => formatDate(n.data.born ?? n.data.date?.start ?? n.dat
         <h2>{T.themes.entries}</h2>
         {[...byClass.entries()].map(([cls, ns]) => (
           <section style="margin-block:1.2rem">
-            <h3 class="ui muted" style="font-size:.9rem;text-transform:uppercase;letter-spacing:.08em">{T.class[cls]}</h3>
+            <h3 class="ui muted kicker" style="font-size:.9rem">{T.class[cls]}</h3>
             <ul class="grid-cards">
-              {ns.map((n) => <li><a class="card" href={href(lang, n.id)}><b>{labelOf(n, lang)}</b>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>)}
+              {ns.map((n) => <li><a class="card" href={href(lang, n.id)}><h4 class="card-title">{labelOf(n, lang)}</h4>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>)}
             </ul>
           </section>
         ))}
         {tensions.length > 0 && <><h2>{T.themes.tensions}</h2><ul class="ui">{tensions.map(({ t, n }) => <li><a href={href(lang, n.id)}>{t.statement[lang] ?? t.statement.en}</a></li>)}</ul></>}
         <p class="ui muted" style="margin-top:2rem"><a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Theme: ${theme.id}`)}`}>{T.themes.missing}</a> · {T.themes.minimum}</p>
       </>
+    )}
+
+    {controversial.length > 0 && (
+      <section style="margin-top:2.5rem">
+        <h2>{T.themes.controversial}</h2>
+        <ul class="ui" style="display:flex;flex-wrap:wrap;gap:10px 18px;padding:0;list-style:none">
+          {controversial.map((t) => <li><a class="chip" href={`/${lang}/themes/${t.id}/`}>{t.label[lang] ?? t.label.en}</a></li>)}
+        </ul>
+      </section>
     )}
   </div>
 </BaseLayout>

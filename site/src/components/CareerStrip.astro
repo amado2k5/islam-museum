@@ -1,0 +1,71 @@
+---
+// The person's career strip (docs/jobs/site.md section 3): one row per occupations entry, the job linked to its page, the
+// place, the dates as the site formats them (dates.ts: Hijri and Gregorian, approximate and debated marks), the kind as a
+// chip. Each entry is its own row, so overlapping posts sit one above another and simultaneity is visible. Undated entries
+// are listed in words beneath. Plain HTML and CSS, no script; the bar is decoration, the text carries every fact.
+import { byId, href, labelOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import { formatDate, yearOf } from "../lib/dates";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const C = ui(lang).career;
+const rows = ((n.data.occupations ?? []) as any[]).map((o) => ({
+  o,
+  job: byId.get(o.job),
+  place: o.place ? byId.get(o.place) : undefined,
+  start: yearOf(o.start),
+  end: yearOf(o.end),
+}));
+const dated = rows.filter((r) => r.start !== undefined).sort((a, b) => a.start! - b.start! || (a.end ?? a.start!) - (b.end ?? b.start!));
+const undated = rows.filter((r) => r.start === undefined);
+const lo = dated.length ? Math.min(...dated.map((r) => r.start!)) : 0;
+const hi = dated.length ? Math.max(...dated.map((r) => r.end ?? r.start!), lo + 10) : 10;
+const pct = (y: number) => Math.min(100, Math.max(0, ((y - lo) / (hi - lo)) * 100));
+const kindLabel = (k: string) => (C as any)[k] ?? k;
+const statusLabel = (s: string | undefined) => (s === "debated" ? C.debated : s === "tradition" ? C.tradition : undefined);
+const dates = (o: any) => [formatDate(o.start, lang).text, formatDate(o.end, lang).text].filter(Boolean).join(" – ");
+---
+<section class="sec ui" aria-labelledby="career-title" data-career-strip>
+  <h2 id="career-title">{C.heading}</h2>
+  {dated.length > 0 && (
+    <ol role="list" style="list-style:none;padding:0;margin:0">
+      {dated.map(({ o, job, place, start, end }) => {
+        const left = pct(start!);
+        const width = end !== undefined ? Math.max(pct(end) - left, 1) : 1;
+        return (
+          <li style="margin:0 0 14px">
+            <p style="display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin:0">
+              {job ? <a href={href(lang, job.id)}><b>{labelOf(job, lang)}</b></a> : <b>{o.job}</b>}
+              {place && <a class="chip" href={href(lang, place.id)}>{labelOf(place, lang)}</a>}
+              <span class="chip">{kindLabel(o.kind)}</span>
+              {statusLabel(o.status) && <span class="chip">{statusLabel(o.status)}</span>}
+              {dates(o) && <span class="muted">{dates(o)}</span>}
+            </p>
+            <span aria-hidden="true" style="display:block;position:relative;height:8px;margin:6px 0 0;background:var(--line);border-radius:4px">
+              <span style={`position:absolute;top:0;bottom:0;inset-inline-start:${left}%;inline-size:${width}%;min-inline-size:6px;background:var(--link);border-radius:4px;opacity:.85`}></span>
+            </span>
+            {o.note && <p class="muted" lang="en" style="margin:4px 0 0;font-size:.9rem">{o.note}</p>}
+          </li>
+        );
+      })}
+    </ol>
+  )}
+  {undated.length > 0 && (
+    <div style="margin-top:6px">
+      <p class="muted" style="margin:0 0 6px">{C.no_dates}</p>
+      <ul role="list" style="margin:0;padding-inline-start:1.2rem">
+        {undated.map(({ o, job, place }) => (
+          <li>
+            {job ? <a href={href(lang, job.id)}>{labelOf(job, lang)}</a> : o.job}
+            {" · "}{kindLabel(o.kind)}
+            {place ? <>{" · "}{labelOf(place, lang)}</> : null}
+            {statusLabel(o.status) ? <>{" · "}{statusLabel(o.status)}</> : null}
+            {" · "}<span class="muted">{C.undated}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</section>

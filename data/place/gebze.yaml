@@ -1,0 +1,36 @@
+id: place/gebze
+class: place
+kind: city
+label:
+  ar: كبزة
+  en: Gebze
+  ur: گیبزے
+summary:
+  ar: مدينة في تركيا.
+  en: District and town of Kocaeli Province, Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 40.8028
+- 29.4306
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q206116
+  geonames: '747014'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q206116 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q206116 (labels, coordinates, description)

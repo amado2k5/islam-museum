@@ -1,0 +1,14 @@
+---
+id: person/mohamed-ben-larbi-al-alaoui
+lang: en
+source_lang: ar
+translators: []
+---
+
+Muhammad ibn al-Arabi ibn Muhammad al-Hashimi al-Alawi al-Mudghari (1884–1964), honoured in Morocco with the rare title "Shaykh al-Islam", was a jurist, judge and politician, and the founder of the national Salafiyya in Morocco. He was born at al-Qasr al-Jadid in Midghara, an oasis of the Tafilalt, on 7 Dhu al-Hijja 1301 or 1302 AH — 1884 — according to the Ma'lamat al-Maghrib; other sources give 1880, and the record follows 1884 while preserving the rival year.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-es}{cite:wikidata-mohamed-ben-larbi-al-alaoui}
+
+He began with his father, and in his youth attached himself to the Darqawiyya of Midghara, becoming one of its leading figures, before travelling in 1909 to Fez to study at the Qarawiyyin under its great scholars, and absorbing the Salafiyya of Shaykh Abu Shu'ayb al-Dukkali, which cut with superstition and called for a return to the Book and the Sunna.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} He took the Qarawiyyin's highest licence in 1912 and taught there — [[person/mohamed-hassan-ouazzani|Mohamed Hassan Ouazzani]], [[person/allal-al-fassi|Allal al-Fassi]] and al-Mukhtar al-Susi were his pupils — and became qadi of Fez al-Jadid in 1915.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}
+
+He was no recluse: from 1912 he wrote against the coloniser in the Tangier press, helped found the Islamic charitable association, rose to president of the Rabat appeals court in 1928 and minister of justice from 1938, clashed with the resident-general who exiled him to Midghara, and resigned the ministry after the repression of the 1944 independence demonstration.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-es} His defining hour came in 1953, when he was asked to sign the deposition of Muhammad V and refused, and refused allegiance to Ibn Arafa; France exiled him to Tiznit and he was tortured in his seventies until the sultan's return in 1955 brought him home.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-es}
+
+After independence he became minister of the Crown, adviser to Muhammad V and president of the advisory council, then resigned in 1960, retired, and campaigned for a boycott of the 1962 constitution, which he called colonial in substance. He died at Fez on the evening of Thursday 23 Muharram 1384 AH, 4 June 1964, and was buried beside his father and ancestors at al-Qasr al-Jadid, in a plain tomb without adornment.{cite:wikipedia-mohamed-ben-larbi-al-alaoui-ar}{cite:wikipedia-mohamed-ben-larbi-al-alaoui-fr}

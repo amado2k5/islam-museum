@@ -1,0 +1,30 @@
+id: person/mustafa-al-ghalayini
+class: person
+label:
+  ar: "مصطفى الغلاييني"
+  en: "Mustafa al-Ghalayini"
+roles: [poet, preacher, writer]
+gender: male
+summary:
+  ar: "مصطفى الغلاييني، شاعر وخطيب ولغوي بيروتي تلميذ محمد عبده، رئيس المجلس الإسلامي وقاضي بيروت؛ توفي سنة 1364هـ ⁦(1944م)⁩."
+  en: "Mustafa al-Ghalayini (1886–1944), Beiruti poet, preacher and linguist, pupil of Muhammad 'Abduh."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1886", precision: year, status: tradition, derived: true }
+died: { edtf: "1944", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3820)" }
+  - { type: buried_in, target: place/al-bachoura-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q64729641)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12243356
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.244)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
+status:
+  review: published
+  completeness: 3

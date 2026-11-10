@@ -1,0 +1,41 @@
+id: person/farwa-ibn-musayk
+class: person
+label: { ar: "فروة بن مسيك المرادي", en: "Farwa ibn Musayk al-Muradi" }
+names:
+  - { kind: full, lang: ar, value: "فروة بن مسيك المرادي" }
+  - { kind: kunya, lang: ar, value: "أبو عمير (في هجاء عمرو بن معدي كرب له)" }
+gender: male
+roles: [companion, poet, politician]
+traditions: [sunni]
+summary:
+  ar: "سيد من مراد وشاعر؛ قدم على النبي مفارقاً لملوك كندة فأسلم، وسأله النبي عن يوم الردم الذي أثخنت فيه همدان قومه، واستعمله على مراد وزبيد ومذحج كلها وبعث معه خالد بن سعيد على الصدقة؛ وارتد عليه عمرو بن معدي كرب بعد وفاة النبي وهجاه. ويذكر البلاذري أن النبي بعثه مع قيس بن المكشوح إلى اليمن لقتال الأسود العنسي."
+  en: "A chief of Murad and poet; he came to the Prophet breaking with the kings of Kinda and embraced Islam, the Prophet asked him about the Day of al-Radm on which Hamdan had crushed his people, and set him over Murad, Zubayd and all Madhhij with Khalid ibn Sa'id sent with him over the sadaqa; after the Prophet's death Amr ibn Ma'dikarib rebelled against him and satirised him. Al-Baladhuri adds that the Prophet sent him with Qays ibn al-Makshuh to Yemen against al-Aswad al-Ansi."
+wings: [people]
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "قدم مفارقاً لملوك كندة فأسلم (ابن هشام ص228-229).", sources: [source/ibn-hisham-saqqa] }
+  - { role: official, start: { edtf: "0631~" }, status: tradition, note: "استعمله النبي على مراد وزبيد ومذحج كلها (ابن هشام ص229).", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "شعره في يوم الردم وفي مسيره إلى النبي (ابن هشام ص228-229).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم على يد النبي (ابن هشام ص229).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: lived_in, target: place/hamadan, confidence: low, note: "Associated with همدان per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/murad, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-al-radm, role: "من مراد؛ شاعر اليوم", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-farwa-ibn-musayk, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/farwa-ibn-musayk-poems, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/apostasy-of-amr-ibn-madikarib, role: "المهجوّ", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-al-aswad-al-ansi, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: own-research
+  source: "سيرة ابن هشام (السقا 1936) ج4 ص228-231؛ فتوح البلدان (ط مؤسسة المعارف 1407هـ) ص147"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: "prose-fill-persons-batch54"
+sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407]
+status: { review: published, completeness: 3 }

@@ -1,0 +1,43 @@
+id: person/al-barbahari-al-hasan-ibn-ali
+class: person
+label: { ar: "البربهاري الحسن بن علي", en: "Al-Barbahari, al-Hasan ibn Ali" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد الحسن بن علي بن خلف البربهاري الحنبلي" }
+gender: male
+roles: [jurist, muhaddith]
+traditions: [sunni]
+born: { edtf: "0847", hijri: "0233", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0941", hijri: "0329", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حنبلي المذهب، نُسب إلى البربهار، وهي أدوية تُجلب من الهند."
+  en: "A Hanbali, named after barbahar, a drug imported from India."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q3719891" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص286"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch50
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/india, note: "From text: from India.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

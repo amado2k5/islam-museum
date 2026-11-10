@@ -1,0 +1,23 @@
+id: event/rutbil-rabi-war
+class: event
+kind: battle
+label: { ar: "حرب رتبيل والربيع بن زياد", en: "Rutbil's War and al-Rabi' ibn Ziyad" }
+summary:
+  ar: "جمع كابل شاه للمسلمين وأخرج من كان منهم بكابل وجاء رتبيل فغلب على زابلستان والرخج حتى انتهى إلى بست فخرج الربيع بن زياد في الناس فقاتل رتبيل ببست وهزمه واتبعه حتى أتى الرخج فقاتله بالرخج ومضى ففتح بلاد الداور."
+  en: "The Kabul Shah mustered and expelled every Muslim in Kabul; Rutbil came and took Zabulistan and Rukhkhaj as far as Bust. Al-Rabi' ibn Ziyad rode out with the people, fought Rutbil at Bust and routed him, pursued him to Rukhkhaj and fought him there, then went on to conquer the Dawar country."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "الظافر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rutbil, role: "المهزوم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/kabul-shah, role: "مخرج المسلمين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kabul, sources: [source/futuh-buldan-maarif-1407] }
+wings: [time]
+date:
+  start: { edtf: "0672~", hijri: "0052~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد موت عبد الرحمن بن سمرة سنة ٥٠ وقبل عزل زياد بن أبيه للربيع بن زياد (مات زياد سنة ٥٣)؛ التحويل مشتق {cite:futuh-buldan-maarif-1407}.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407)، ثغور الهند، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

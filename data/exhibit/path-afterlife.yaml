@@ -1,0 +1,76 @@
+id: exhibit/path-afterlife
+class: exhibit
+kind: trail
+label:
+  ar: الموت والآخرة
+  en: Death and the Hereafter
+summary:
+  ar: 'مسار في آخر سفر: الاحتضار والجنازة، والبرزخ، والجنة والنار.'
+  en: A trail through the last journey.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الوداع
+    en: The passing
+  body:
+    ar: الاحتضار والدعاء ثم الغسل والتكفين.
+    en: الاحتضار والدعاء ثم الغسل والتكفين.
+  features:
+  - practice/ghusl-al-janaza
+  - practice/dua
+- title:
+    ar: الجنازة
+    en: The funeral
+  body:
+    ar: الصلاة على الميت والدفن والتعزية.
+    en: الصلاة على الميت والدفن والتعزية.
+  features:
+  - practice/salat-al-janaza
+  - practice/dafn
+  - practice/taziya
+- title:
+    ar: البرزخ
+    en: The barzakh
+  body:
+    ar: حياة القبور بين الدنيا والبعث.
+    en: حياة القبور بين الدنيا والبعث.
+  features:
+  - question/what-is-barzakh
+  - practice/ziyarat-al-qubur
+- title:
+    ar: الجنة
+    en: Paradise
+  body:
+    ar: دار النعيم الأبدي ونعيمها الأعلى.
+    en: دار النعيم الأبدي ونعيمها الأعلى.
+  features:
+  - question/what-is-jannah
+- title:
+    ar: جهنم
+    en: The Fire
+  body:
+    ar: عذاب الله للكافرين ومصير المذنبين.
+    en: عذاب الله للكافرين ومصير المذنبين.
+  features:
+  - question/what-is-jahannam
+  - question/what-is-the-afterlife
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,22 @@
+id: person/subkari-al-saffari
+class: person
+label: { ar: "سبكري الصفاري" }
+summary:
+  ar: "قائد صفاري؛ سار في المفازة من فارس إلى سجستان سنة 298هـ فلقيه جيش السامانيين وقد أهلك التعب عسكره فأخذوه أسيراً واستولوا على عسكره وحُمل إلى بغداد {cite:kamil-ibn-al-athir p. 47}."
+  en: "A Saffarid commander whose army, exhausted crossing the desert to Sistan in 298, was taken wholesale by the Samanids; he was carried captive to Baghdad {cite:kamil-ibn-al-athir p. 47}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-2
+born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+died: { edtf: "915~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+relations:
+  - { type: traveled_to, target: place/fars, sources: [source/kamil-ibn-al-athir] }
+  - { type: traveled_to, target: place/sijistan, sources: [source/kamil-ibn-al-athir] }
+  - { type: traveled_to, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,36 @@
+id: place/dallas
+class: place
+kind: city
+label:
+  ar: دالاس
+  en: Dallas
+  ur: ڈیلاس
+summary:
+  ar: مدينة في الولايات المتحدة.
+  en: City in the state of Texas, United States.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 32.7792
+- -96.8089
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q16557
+  geonames: '4684888'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q16557 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q16557 (labels, coordinates, description)

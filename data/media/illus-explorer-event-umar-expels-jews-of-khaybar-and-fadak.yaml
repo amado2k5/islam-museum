@@ -1,0 +1,48 @@
+id: media/illus-explorer-event-umar-expels-jews-of-khaybar-and-fadak
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: إجلاء يهود خيبر وفدك"
+  en: "Time Browser backdrop: Umar's Expulsion of the Jews of Khaybar and Fadak"
+  ur: "ٹائم براؤزر کا پس منظر: عمر کے دور میں خیبر اور فدک کے یہودیوں کی جلاوطنی"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Khaybar, with low stone and earthen buildings, palms and dry hills. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ لخيبر، بمبانٍ حجرية وطينية منخفضة ونخيل وتلال جافة؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: خیبر کا لوگوں سے خالی تمثیلی منظر، نیچی پتھر اور مٹی کی عمارتوں، کھجوروں اور خشک پہاڑیوں کے ساتھ؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/umar-expels-jews-of-khaybar-and-fadak
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: 37be7a372ca21d05dbdaf2442988b16b64cf3912d9544c1438fdeec69606d045
+  inputs_hash: 1581b2fc4bf46883eab9bd7b6c7a89f4406645e94d5d795656ee4bf3d2567c14
+  adult_prompt_sha256: d997403567b9e927bf1833780abd5c3c5e436816a4edbe78f091cfac827b655e
+  kids_prompt_sha256: 6ff917e64e11eb0966f32f7eb9ed9148c2ccebd1593afdf2f232ab6f9c41cea5
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-umar-expels-jews-of-khaybar-and-fadak.webp
+  kids: media/time-browser/explorer/event-umar-expels-jews-of-khaybar-and-fadak-kids.webp
+sources:
+  - source/futuh-buldan-maarif-1407
+provenance:
+  source: event/umar-expels-jews-of-khaybar-and-fadak; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; prompts and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; images generated locally with SDXL

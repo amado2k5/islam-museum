@@ -1,0 +1,23 @@
+id: event/battle-of-the-vega-1319
+class: event
+kind: battle
+label: { ar: "معركة فيغا غرناطة", en: "Battle of the Vega of Granada" }
+summary:
+  ar: "بطاقة أولية لمعركة فيغا غرناطة سنة ١٣١٩م، هلاك الجيش القشتالي كله أمام الغرناطيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Vega of Granada in 1319, the Castilian army's annihilation by the Granadans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1319", precision: year, status: tradition, derived: true }
+  end: { edtf: "1319", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q5803812
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

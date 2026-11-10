@@ -1,0 +1,23 @@
+id: event/battle-of-oranik-1456
+class: event
+kind: battle
+label: { ar: "معركة أورانيك", en: "Battle of Oranik" }
+summary:
+  ar: "بطاقة أولية لمعركة أورانيك سنة ١٤٥٦م، فوز إسكندر بك على الجيش العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Oranik in 1456, Skanderbeg's victory over the Ottoman army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1456", precision: year, status: tradition, derived: true }
+  end: { edtf: "1456", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3298782
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

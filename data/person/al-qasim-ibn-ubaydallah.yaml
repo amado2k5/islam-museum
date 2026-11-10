@@ -1,0 +1,21 @@
+id: person/al-qasim-ibn-ubaydallah
+class: person
+label: { ar: "القاسم بن عبيد الله", en: "al-Qasim ibn Ubaydallah" }
+summary:
+  ar: "وزير المكتفي، كان عظيم الهيبة شديد الإقدام سفاكاً للدماء والكبير والصغير على رعب منه، ممن قتله عبد الواحد بن الموفق عم المكتفي وأهلك علي بن العباس بن جريج الرومي الشاعر بسم في خشكنانجة على ما قيل، وتوفي عشية الأربعاء لعشر خلون من ربيع الآخر سنة إحدى وتسعين ومائتين وله نيف وثلاثون سنة فشرب الناس فرحاً بموته وقال قائلهم شربنا عشية مات الوزير ونشرب يا قوم في ثالثه، وأراد المكتفي نبشه وضربه وحرقه لما تبين قتله عبد الواحد {cite:muruj-al-dhahab p. 638-640}. وكان إسحاق بن حنين منقطعا إليه وخصيصا به مقدما عنده يفضي إليه بأسراره {cite:fihrist-ibn-al-nadim p. 415}"
+  en: "Al-Muktafi's dread vizier who killed Abd al-Wahid b. al-Muwaffaq and poisoned Ibn al-Rumi — Baghdad drank to his death at thirty-some {cite:muruj-al-dhahab p. 638-640}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab], confidence: low }

@@ -1,0 +1,38 @@
+id: person/dawud-al-antaki
+class: person
+label: { ar: "داود الأنطاكي", en: "Dawud al-Antaki" }
+names:
+  - { kind: full, lang: ar, value: "داود بن عمر الأنطاكي" }
+gender: male
+roles: [physician, writer]
+traditions: [sunni]
+died: { edtf: "1600", hijri: "1008", calendar: julian, precision: year, status: tradition, note: "توفي سنة 1008 على المعتمد؛ وفي شذرات الذهب ترجمته في حوادث أواخر القرن العاشر {cite:shadharat-dhahab}", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+summary:
+  ar: "طبيب عربي من أنطاكية، لُقّب بالضرير لأنه كان أكمه، وعاش في القرن العاشر الهجري. أورد ابن العماد ترجمته في شذرات الذهب ضمن وفيات أواخر القرن العاشر {cite:shadharat-dhahab}."
+  en: "An Arab physician from Antioch, nicknamed al-Darir because he was blind. He lived in the tenth century AH. Ibn al-'Imad gives his obituary among the late tenth-century deaths in Shadharat al-Dhahab {cite:shadharat-dhahab}."
+wings: [people]
+themes: [medicine]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+external_ids:
+  wikidata: Q6768027
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 صphysician"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch56
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]

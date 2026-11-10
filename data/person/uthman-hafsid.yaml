@@ -1,0 +1,29 @@
+id: person/uthman-hafsid
+class: person
+label:
+  ar: "أبو عمرو عثمان بن محمد المنصور الحفصي"
+  en: "Uthman, Hafsid caliph"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي عمرو عثمان بن محمد المنصور، خليفة الحفصيين في تونس من سنة ١٤٣٥م إلى ١٤٨٨م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Amr Uthman ibn Muhammad al-Mansur, the Hafsid caliph of Tunis from 1435 to 1488; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q705556
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source:  — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0033
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Duwal al-Islamiyya" }
+died: { edtf: "1488", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Duwal al-Islamiyya" }
+relations:
+  - { type: lived_in, target: place/tunis, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }

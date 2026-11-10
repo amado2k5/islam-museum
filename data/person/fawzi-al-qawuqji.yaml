@@ -1,0 +1,53 @@
+id: person/fawzi-al-qawuqji
+class: person
+label:
+  ar: "فوزي القاوقجي"
+  en: "Fawzi al-Qawuqji"
+summary:
+  ar: "ضابط عسكري عربي (1890–1977) من طرابلس الشام، خدم في الجيوش العثمانية والسورية والعراقية وقاد جيش الإنقاذ في فلسطين عام 1948."
+  en: "Arab military officer (1890–1977) from Tripoli who served in the Ottoman, Syrian and Iraqi armies and commanded the Arab Liberation Army in Palestine in 1948."
+names:
+  - { value: "Fawzi al-Qawuqji", kind: full }
+  - { value: "فوزي القاوقجي", kind: full }
+  - { value: "Fawzi", kind: given }
+born:
+  edtf: "1890-01-19"
+  hijri: "1307"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 19 January 1890 in Tripoli (al-Sham), then in the Ottoman Empire, to a Turkmen family; his father was an Ottoman officer {cite:wikipedia-fawzi-al-qawuqji-en} {cite:wikipedia-fawzi-al-qawuqji-ar}."
+  sources: [source/wikipedia-fawzi-al-qawuqji-en, source/wikipedia-fawzi-al-qawuqji-ar, source/wikidata-fawzi-al-qawuqji]
+died:
+  edtf: "1977-06-05"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Died on 5 June 1977 in Beirut {cite:wikipedia-fawzi-al-qawuqji-en}. No place entity for Beirut exists in the museum, so the death place is carried in this note and the prose only."
+  sources: [source/wikipedia-fawzi-al-qawuqji-en, source/wikipedia-fawzi-al-qawuqji-ar, source/wikidata-fawzi-al-qawuqji]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither article names a school or order for him personally: the English article states no religion, and the Arabic article's infobox gives his religion as Islam with the branch and order fields blank {cite:wikipedia-fawzi-al-qawuqji-en} {cite:wikipedia-fawzi-al-qawuqji-ar}. Wikidata's religion field gives Islam, one structured-data value {cite:wikidata-fawzi-al-qawuqji}. Under the lane rule the affiliation stays unknown."
+    sources: [source/wikipedia-fawzi-al-qawuqji-en, source/wikipedia-fawzi-al-qawuqji-ar, source/wikidata-fawzi-al-qawuqji]
+roles: [general]
+wings: [people]
+regions: [levant-iraq]
+relations:
+  - type: born_in
+    target: place/tripoli-al-sham
+    note: "Born in Tripoli (al-Sham), then in the Ottoman Empire {cite:wikipedia-fawzi-al-qawuqji-en}."
+    sources: [source/wikipedia-fawzi-al-qawuqji-en, source/wikidata-fawzi-al-qawuqji]
+external_ids: { wikidata: "Q930186" }
+sources: [source/wikipedia-fawzi-al-qawuqji-en, source/wikipedia-fawzi-al-qawuqji-ar, source/wikidata-fawzi-al-qawuqji]
+status: { review: published }
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia and Wikidata Q930186, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-53
+  created: "2026-10-26"
+  note: "Built 2026-10-26 (wave 53, group B) from the English article (revision 1379842911), the Arabic article (revision 74661289) and Wikidata item Q930186. Existence checked both routes: no al-Qawuqji person record by name fragments, and no record citing Q930186; the existing person/muhammad-ibn-khalil-qawuqji is a different, earlier bearer of the family name. His Second World War years in Germany and his 1948 command are written from the English article with its own attributions, the museum's house way, without a museum verdict."

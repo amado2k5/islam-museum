@@ -1,0 +1,15 @@
+id: passage/muslim-0142
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "142"
+label: { ar: "مسلم 142 — ما من عبد يسترعيه الله رعية يموت وهو غاش لها إلا حرم الله عليه الجنة", en: "Muslim 142 — No shepherd who dies cheating his flock but God bars him from Paradise" }
+text: "قال رسول الله: «ما من عبد يسترعيه الله رعية، يموت يوم يموت وهو غاش لرعيته، إلا حرم الله عليه الجنة»"
+summary:
+  ar: "رواية معقل بن يسار المزني في كتاب الإيمان من صحيح مسلم — حدثه لعبيد الله بن زياد في مرض موته وكان قد أمسكه طويلاً — من أثقل النصوص في مسؤولية الراعي عن رعيته."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/maqil-ibn-yasar, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب من استرعى رعية فغشهم (طبعة دار التأصيل، الحديث ١٣١؛ ترقيم عبد الباقي المعروف 142)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

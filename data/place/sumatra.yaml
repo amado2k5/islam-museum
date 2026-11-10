@@ -1,0 +1,20 @@
+id: place/sumatra
+class: place
+kind: island
+label: { ar: "سومطرة", en: "Sumatra" }
+summary:
+  ar: "جزيرة إندونيسية كبرى، من أقدم أبواب الإسلام في الأرخبيل."
+  en: "Large Indonesian island, an early gateway of Islam in the archipelago."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [0.0, 102.0]
+coordinate_precision: approx
+coordinate_note: "Identified location; flagged for gazetteer verification."
+external_ids: { wikidata: "Q3492" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Created so person nisba/name associations resolve on the map."

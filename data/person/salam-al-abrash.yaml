@@ -1,0 +1,13 @@
+id: person/salam-al-abrash
+class: person
+label: { ar: "سلام الأبرش", en: "Salam Al Abrash" }
+summary:
+  ar: "سلام الأبرش من النقلة القدماء في أيام البرامكة ويوجد بنقله السماع الطبيعي {cite:fihrist-ibn-al-nadim p. 341}."
+  en: "Barmakid-era translator of the Physica {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "786~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "809~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/basra, confidence: low, note: "Mawla of the Basran literary milieu (al-Fihrist).", sources: [source/fihrist-ibn-al-nadim] }

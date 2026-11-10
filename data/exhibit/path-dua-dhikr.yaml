@@ -1,0 +1,76 @@
+id: exhibit/path-dua-dhikr
+class: exhibit
+kind: trail
+label:
+  ar: الدعاء والذكر
+  en: Dua and Dhikr
+summary:
+  ar: 'مسار في عبادة القلب واللسان: الدعاء في كل حال، والذكر صباحًا ومساءً، والاستخارة عند الحيرة.'
+  en: A trail through the worship of heart and tongue.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الدعاء
+    en: Dua
+  body:
+    ar: 'أدعية كل حال: النوم والسفر والمطر.'
+    en: 'أدعية كل حال: النوم والسفر والمطر.'
+  features:
+  - practice/dua
+  - concept/ihsan
+- title:
+    ar: الذكر
+    en: Dhikr
+  body:
+    ar: 'التسبيح والتحميد: أوراد اليوم.'
+    en: 'التسبيح والتحميد: أوراد اليوم.'
+  features:
+  - practice/dhikr
+  - practice/salat
+- title:
+    ar: الاستخارة
+    en: Istikhara
+  body:
+    ar: 'دعاء الحيرة: ركعتان ثم طلب التيسير.'
+    en: 'دعاء الحيرة: ركعتان ثم طلب التيسير.'
+  features:
+  - practice/istikhara
+  - practice/dua
+- title:
+    ar: الاعتكاف
+    en: I'tikaf
+  body:
+    ar: 'لبث المسجد: العشر الأواخر عادة.'
+    en: 'لبث المسجد: العشر الأواخر عادة.'
+  features:
+  - practice/itikaf
+  - practice/sawm-ramadan
+- title:
+    ar: الإخلاص
+    en: Ikhlas
+  body:
+    ar: 'النية قبل الذكر: قلب العبادة.'
+    en: 'النية قبل الذكر: قلب العبادة.'
+  features:
+  - concept/ihsan
+  - passage/arbaun-01
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

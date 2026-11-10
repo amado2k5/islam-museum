@@ -1,0 +1,29 @@
+id: person/damadzade-ahmed-efendi
+class: person
+label:
+  ar: "داماد زاده أحمد أفندي"
+  en: "Damadzade Ahmed Efendi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لداماد زاده أحمد أفندي، كاتب عثماني القرن الثامن عشر، توفي سنة ١٧٤١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Damadzade Ahmed Efendi, the eighteenth-century Ottoman writer, d. 1741; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1741", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q116615933
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0076
+status:
+  review: draft
+  completeness: 1

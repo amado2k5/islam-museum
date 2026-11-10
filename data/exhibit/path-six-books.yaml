@@ -1,0 +1,78 @@
+id: exhibit/path-six-books
+class: exhibit
+kind: trail
+label:
+  ar: الكتب الستة ورواتها
+  en: The Six Books
+summary:
+  ar: 'مسار في مصنفات الحديث الكبرى ورواتها: البخاري ومسلم والترمذي وأبي داود والنسائي وابن ماجه.'
+  en: A trail through the great hadith compilations.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: البخاري
+    en: Al-Bukhari
+  body:
+    ar: أصح كتاب بعد كتاب الله.
+    en: The soundest book after God's book.
+  features:
+  - person/al-bukhari
+  - work/sahih-al-bukhari
+  - place/bukhara
+- title:
+    ar: مسلم
+    en: Muslim
+  body:
+    ar: 'الصحيح الثاني: دقة النيسابوري.'
+    en: 'The second Sahih: Naysaburi precision.'
+  features:
+  - person/muslim-ibn-al-hajjaj
+  - work/sahih-muslim
+- title:
+    ar: الترمذي
+    en: Al-Tirmidhi
+  body:
+    ar: الجامع والشمائل.
+    en: The Jami' and the Shama'il.
+  features:
+  - person/al-tirmidhi-muhammad-ibn-isa
+  - work/jami-al-tirmidhi
+- title:
+    ar: السنن
+    en: The Sunans
+  body:
+    ar: أبو داود والنسائي وابن ماجه.
+    en: Abu Dawud, Nasa'i and Ibn Majah.
+  features:
+  - person/abu-dawud-al-sijistani
+  - person/al-nasai
+  - person/ibn-majah
+- title:
+    ar: قبلها وبعدها
+    en: Before and after
+  body:
+    ar: الموطأ والمجموعات اللاحقة.
+    en: The Muwatta and later collections.
+  features:
+  - work/muwatta-malik
+  - concept/kutub-al-sitta
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

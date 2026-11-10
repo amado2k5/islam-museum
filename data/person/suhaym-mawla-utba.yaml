@@ -1,0 +1,20 @@
+id: person/suhaym-mawla-utba
+class: person
+label: { ar: "سحيم مولى عتبة", en: "Suhaym, Utba's Mawla" }
+summary:
+  ar: "سحيم مولى عتبة بن فرقد؛ بعث به عتبة إلى عمر بسفطي الخبيص فذاقه عمر وكتب إليه كتابه المشهور."
+  en: "Suhaym, Utba ibn Farqad's mawla; he carried the two khabis baskets to Umar, who tasted them and sent back his famous letter."
+periods: [period/rashidun]
+born: { edtf: "624~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: participated_in, target: event/utba-khabis-letter }
+
+  - { type: lived_in, target: place/suhaym, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

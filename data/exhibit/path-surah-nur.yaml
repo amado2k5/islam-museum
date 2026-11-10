@@ -1,0 +1,76 @@
+id: exhibit/path-surah-nur
+class: exhibit
+kind: trail
+label:
+  ar: سورة النور
+  en: Surah al-Nur
+summary:
+  ar: 'مسار في سورة الضوء: آية النور في المشكاة، وأحكام الحدود والستر والاستئذان — سورة المجتمع الطاهر.'
+  en: A trail through the light sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: سورة أنزلناها وفرضناها.
+    en: سورة أنزلناها وفرضناها.
+  features:
+  - passage/quran-24
+  - passage/quran-24-1
+- title:
+    ar: آية النور
+    en: The light verse
+  body:
+    ar: 'الله نور السماوات والأرض: مثل المشكاة.'
+    en: 'الله نور السماوات والأرض: مثل المشكاة.'
+  features:
+  - passage/quran-24-35
+  - concept/tawhid
+- title:
+    ar: الأحكام
+    en: The rulings
+  body:
+    ar: 'الحدود والقذف: حرمة الأعراض.'
+    en: 'الحدود والقذف: حرمة الأعراض.'
+  features:
+  - passage/quran-24-4
+  - passage/quran-24-4
+- title:
+    ar: الآداب
+    en: The etiquettes
+  body:
+    ar: 'غض البصر والاستئذان: بيوت المجتمع.'
+    en: 'غض البصر والاستئذان: بيوت المجتمع.'
+  features:
+  - passage/quran-24-27
+  - concept/adab
+- title:
+    ar: الإفك
+    en: The slander
+  body:
+    ar: قصة الإفك وتبرئة عائشة.
+    en: قصة الإفك وتبرئة عائشة.
+  features:
+  - person/aisha
+  - person/aisha
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

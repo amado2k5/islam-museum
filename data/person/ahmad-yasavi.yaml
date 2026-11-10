@@ -1,0 +1,29 @@
+id: person/ahmad-yasavi
+class: person
+label:
+  ar: "أحمد اليسوي"
+  en: "Ahmad Yasawi (Turkish Sufi shaykh of Central Asia, d. 1166)"
+names:
+  - { kind: full, lang: ar, value: "خوجه أحمد اليسوي" }
+roles: [mystic, poet]
+gender: male
+died: { edtf: "1166~", hijri: "0562", calendar: julian, precision: year, status: tradition, derived: true, note: "Died 562/1166 at Yasi, EI2.", sources: [source/encyclopaedia-of-islam-2] }
+summary:
+  ar: "أحمد اليسوي، شيخ صوفي تركي من آسيا الوسطى، وُلد في سيرام ⁦(إسفيجاب)⁩ في تركستان في النصف الثاني من القرن الخامس الهجري، وتتلمذ في بخارى على يوسف الهمداني، وخلفه سنة 555هـ، وتوفي في يسي سنة 562هـ/1166م، وقبره مزار لملوك وأمراء الترك، ونُسب إليه «ديوان الحكمة» {cite:encyclopaedia-of-islam-2 vol. 1 p. 320}."
+  en: "Ahmad Yasawi, Turkish Sufi shaykh of Central Asia, born at Sayram (Isfijab) in Turkistan in the second half of the fifth/eleventh century. He studied at Bukhara under Yusuf Hamadhani, succeeded him in 555/1160, and died at Yasi in 562/1166. His tomb became a place of pilgrimage for kings and princes, and the Diwan-i Hikmet is ascribed to him {cite:encyclopaedia-of-islam-2 vol. 1 p. 320}."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [spirituality-and-sufism]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 320, article 'Ahmad Yasawi' (unsigned in the scan) (EI2 enrichment, batch ei2-b003 part 3cr); Wikidata Q401543 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+external_ids:
+  wikidata: Q401543
+status:
+  review: published
+  completeness: 2
+relations:
+  - { type: lived_in, target: place/bukhara, note: "From text: studied at Bukhara", sources: [source/al-aalam, source/encyclopaedia-of-islam-2] }

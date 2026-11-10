@@ -1,0 +1,77 @@
+id: exhibit/path-medina-tabiun
+class: exhibit
+kind: trail
+label:
+  ar: مدينة التابعين
+  en: Tabi'un Medina
+summary:
+  ar: 'مسار في مدينة النبي بعده: الزهري يدوّن المغازي، وعروة يكتب السيرة، والقاسم يفقه — المدينة تحفظ
+    الإرث.'
+  en: A trail through Medina after the Prophet.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الزهري
+    en: Al-Zuhri
+  body:
+    ar: 'أول من دوّن السيرة: أمويو المدينة.'
+    en: 'أول من دوّن السيرة: أمويو المدينة.'
+  features:
+  - person/muhammad-ibn-shihab-al-zuhri
+  - place/medina
+- title:
+    ar: عروة
+    en: Urwa
+  body:
+    ar: 'ابن الزبير: ابن أسماء وحفيد أبي بكر.'
+    en: 'ابن الزبير: ابن أسماء وحفيد أبي بكر.'
+  features:
+  - person/urwa-ibn-al-zubayr
+  - person/aisha
+- title:
+    ar: القاسم
+    en: Al-Qasim
+  body:
+    ar: 'حفيد أبي بكر: فقيه المدينة.'
+    en: 'حفيد أبي بكر: فقيه المدينة.'
+  features:
+  - person/al-qasim-ibn-muhammad
+  - person/abu-bakr
+- title:
+    ar: المدرسة
+    en: The school
+  body:
+    ar: 'من أهل البيت إلى الفقهاء: المدينة تفقه.'
+    en: 'من أهل البيت إلى الفقهاء: المدينة تفقه.'
+  features:
+  - place/medina
+  - concept/fiqh
+- title:
+    ar: مالك
+    en: Malik
+  body:
+    ar: 'ابن أنس يختم القرن: الموطأ.'
+    en: 'ابن أنس يختم القرن: الموطأ.'
+  features:
+  - person/malik-ibn-anas
+  - work/muwatta-malik
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

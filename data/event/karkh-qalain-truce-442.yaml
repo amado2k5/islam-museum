@@ -1,0 +1,28 @@
+id: event/karkh-qalain-truce-442
+class: event
+kind: truce
+label:
+  ar: "مصالحة أهل الكرخ وأهل السنة وخروجهم المشترك إلى المشهدين"
+  en: "The Karkh–Sunni reconciliation and joint pilgrimage to the two shrines"
+summary:
+  ar: "في سنة اثنتين وأربعين وأربعمائة نُدب ابن النسوي للعبور إلى الجانب الغربي لضبط البلد، فاجتمعت العامة من أهل الكرخ والقلائين وباب الشعير وباب البصرة على كلمة واحدة: إن عبر أحرقوا أسواقهم وانصرفوا عن البلد. وصار أهل الكرخ إلى باب نهر القلائين فصلوا فيه وأذنوا في المشهد «حي على خير العمل»، وأذن أهل القلائين «الصلاة خير من النوم»، واختلط الفريقان واصطلحوا وخرجوا إلى زيارة المشهدين — مشهد علي والحسين — وأظهر أهل الكرخ الترحم على الصحابة، وكبسوا دار الوزارة فأخرجوا ابن نصر بن مروان وخلّصوه. وفي ذي الحجة عمل الناس على الخروج للزيارة، فرفع أهل القلائين طُردًا أسود عليه اسم الخليفة وأخرج أهل نهر الدجاج والكرخ مناجيق ملونة مذهّبة، واختلط السنة والشيعة في المسير إلى جامع المدينة، فلقيتهم مناجيق باب الشام وشارع دار الرقيق، وخرج إلى الزيارة من الأتراك وأهل السنة من لم تجر له بها عادة، ونثر الناس الدراهم عليهم {cite:muntazam-ibn-al-jawzi j.8 p.487-488}."
+  en: "In 442 the quarter-factions united against the police chief Ibn al-Naswi, vowing to burn their own markets and quit the city if he crossed; the hostility dissolved into an extraordinary truce — Karkh prayed at the Sunni Qala'in gate with 'hayya ila khayr al-amal' answered by 'al-salatu khayrun min al-nawm', Karkh invoked mercy on the Companions, and in Dhu'l-Hijja the two communities marched together to the shrines of Ali and Husayn, the Sunni black banner bearing the caliph's name beside Karkh's gilded standards, Turks and Sunnis joining a pilgrimage they had never attended before, while onlookers scattered dirhams over them {cite:muntazam-ibn-al-jawzi j.8 p.487-488}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+themes: [sects-and-schools, cities]
+sides:
+  - label: { ar: "أهل الكرخ" }
+  - label: { ar: "أهل القلائين وباب البصرة" }
+date:
+  start: { edtf: "1050~", hijri: "0442", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٤٢ {cite:muntazam-ibn-al-jawzi j.8 p.487}" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/kufa, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤٢)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

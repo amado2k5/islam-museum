@@ -1,0 +1,28 @@
+id: person/abu-dahbal-al-jumahi
+class: person
+label:
+  ar: "أبو دهبل الجمحي"
+  en: "Abu Dahbal al-Jumahi"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي دهبل الجمحي، شاعر القرن السابع، توفي سنة ٦٨٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Dahbal al-Jumahi, the seventh-century Arabic poet, d. 682; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
+external_ids:
+  wikidata: Q11903886
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0057
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani, Kitab al-Aghani; al-Zirikli, al-A'lam" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/encyclopaedia-of-islam-2], confidence: low }

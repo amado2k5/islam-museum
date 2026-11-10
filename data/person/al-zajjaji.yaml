@@ -1,0 +1,21 @@
+id: person/al-zajjaji
+class: person
+label: { ar: "أبو إسحاق الزجاجي النحوي", en: "Abu Ishaq al-Zajjaji" }
+summary:
+  ar: "نحوي صاحب أبي العباس المبرد، عدّه المسعودي فيمن جمعوا ألفاظ النبي في كتبهم مع ابن دريد ونفطويه وجعفر بن محمد بن حمدان الموصلي {cite:muruj-al-dhahab p. 594}."
+  en: "al-Mubarrad's grammarian pupil — among those al-Mas'udi names as collectors of the Prophet's utterances {cite:muruj-al-dhahab p. 594}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan" }
+relations:
+  - { type: lived_in, target: place/mosul, note: "Place association from the person's nisba/name (الموصلي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

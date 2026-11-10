@@ -1,0 +1,45 @@
+id: place/balkh
+class: place
+kind: city
+label:
+  ar: بلخ
+  en: Balkh
+summary:
+  ar: بلخ مدينة طخارا بخراسان؛ سار إليها الأحنف بن قيس فصالحه أهلها على أربعمائة ألف ويقال سبعمائة ألف وذلك أثبت فاستعمل عليها
+    أسيد بن المتشمس ويقال ابن أخيه.
+  en: Balkh, the city of the Tukhara; al-Ahnaf's march won its sulh at four or — the sounder report — seven hundred thousand,
+    Asid ibn al-Mutashammis (or al-Ahnaf's nephew) left over it.
+wings:
+- place
+regions:
+- persia-central-asia
+coordinates:
+- 36.76
+- 66.9
+coordinate_precision: locality
+coordinate_note: Identified modern location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q182159
+  nomisma: balkh
+  idai: "2410924"
+sources:
+- source/futuh-buldan-maarif-1407
+- source/farghani-elements-astronomy
+- source/mujam-al-buldan-yaqut
+- source/geonames-gazetteer
+- source/idai-gazetteer
+- source/wikidata
+- source/nomisma
+status:
+  review: draft
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - farghani-389-577; explorer-place-batch-2026-11-03; ocr-harvest-2026-11-04
+  - farghani-389-577; explorer-place-batch-2026-11-03; ocr-harvest-2026-11-04
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: source/futuh-buldan-maarif-1407; source/mujam-al-buldan-yaqut vols 1-2 scan pp. 667-668
+  model: claude-haiku-5-5; unknown; claude-opus-5-5

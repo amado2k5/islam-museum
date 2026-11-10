@@ -1,0 +1,31 @@
+id: person/ibn-atham-al-kufi-ahmad-ibn-muhammad
+class: person
+label: { ar: "أحمد بن محمد الكوفي ابن أعثم", en: "Ahmad ibn Muhammad al-Kufi (Ibn A'tham)" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد الكوفي" }
+  - { kind: laqab, lang: ar, value: "ابن أعثم" }
+gender: male
+roles: [historian]
+traditions: [sunni]
+died: { edtf: "0926", hijri: "0314", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المؤرخ أحمد بن محمد الكوفي المعروف بابن أعثم، صاحب كتاب «الفتوح»، رتّب فيه أخبار التاريخ الإسلامي من وفاة النبي وسقيفة بني ساعدة، وذكر رجاله."
+  en: "The historian Ahmad ibn Muhammad al-Kufi, known as Ibn A'tham, author of 'al-Futuh', which arranges Islamic history from the Prophet's death and the Saqifa of Banu Sa'ida onward and records its personalities."
+wings: [people]
+themes: [history-writing-and-social-thought, wars-and-campaigns]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/saqifat-bani-saida, confidence: low, note: "Associated with Saqifa of Banu Sa'ida per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص152"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch58

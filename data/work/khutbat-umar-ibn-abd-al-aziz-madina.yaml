@@ -1,0 +1,24 @@
+id: work/khutbat-umar-ibn-abd-al-aziz-madina
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/umar-ibn-abd-al-aziz }
+label: { ar: "خطبة عمر بن عبد العزيز أول ولايته الخلافة", en: "Umar ibn Abd al-Aziz's first sermon as caliph", ur: "عمر بن عبدالعزیز کا خلافت سنبھالنے کے بعد پہلا خطبہ" }
+summary:
+  ar: "أول خطبة خطبها عمر بن عبد العزيز حين ولي الخلافة، يطلب فيها من الناس أن يرفعوا إليه حاجاتهم، وأن يدلوه على ما لا يهتدي إليه، وألا يغتابوا عنده الرعية."
+  en: "The first sermon Umar ibn Abd al-Aziz preached on taking the caliphate: he asks people to bring him their needs, to guide him where he does not know, and not to backbite about subjects in his presence."
+  ur: "عمر بن عبدالعزیز کا خلافت سنبھالنے کے بعد پہلا خطبہ: وہ لوگوں سے ضرورتیں پیش کرنے، جہاں وہ نہ جانتے ہوں وہاں رہنمائی کرنے، اور اپنے سامنے رعایا کی غیبت نہ کرنے کا کہتے ہیں۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/umar-ibn-abd-al-aziz]
+composed: { hijri: "0099~", edtf: "0717~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "سنة ولايته الخلافة وفق التاريخ المعروف؛ لا يذكرها هذا الكتاب.", sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/umayyad-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+  - { type: mentions, target: place/medina }
+provenance: { layer: pd, source: "Jamharat v2", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: khutab-durus-batch-2 }
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

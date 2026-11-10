@@ -1,0 +1,23 @@
+id: event/castille-war-1578
+class: event
+kind: war
+label: { ar: "الحرب القشتالية", en: "Castille War" }
+summary:
+  ar: "بطاقة أولية للحرب القشتالية سنة ١٥٧٨م، الصراع الإسباني البروناوي على بورنيو والفلبين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Castille War of 1578, the Spanish-Bruneian conflict over Borneo and the Philippines; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1578", precision: year, status: tradition, derived: true }
+  end: { edtf: "1578", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q31880
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Bruneian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

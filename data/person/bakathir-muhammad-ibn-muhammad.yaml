@@ -1,0 +1,38 @@
+id: person/bakathir-muhammad-ibn-muhammad
+class: person
+label: { ar: "باكثير", en: "Ba Kathir" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن أحمد باكثير" }
+  - { kind: nisba, lang: ar, value: "الحضرمي" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+born: { edtf: "1867", hijri: "1283", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1936", hijri: "1355", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من آل باكثير في حضرموت، وهي أسرة لها مآثر علمية ومساجد في تريم وسيئون، وتوفي سنة 1355هـ."
+  en: "Scholar from the Ba Kathir family of Hadramawt, a family known for its learning and for mosques at Tarim and Seiyun."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/hadramawt, confidence: low, note: "Associated with حضرموت per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص145"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

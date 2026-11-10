@@ -1,0 +1,29 @@
+id: person/al-birzali
+class: person
+label:
+  ar: "علم الدين البرزالي"
+  en: "al-Birzali"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلم الدين قاسم البرزالي، مؤرخ ومحدث دمشق القرن الرابع عشر صاحب «المقتفي»، توفي سنة ١٣٣٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Alam al-Din al-Qasim al-Birzali, the fourteenth-century historian and muhaddith of Damascus author of al-Muqtafi, d. 1339; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam, source/durar-kamina-jil-1993]
+external_ids:
+  wikidata: Q11904608
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0052, lib-durar-kamina-batch-1-2-2026-10-31
+status:
+  review: published
+  completeness: 1
+born: { edtf: "1267", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+died: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "From text: محدث دمشق القرن الرابع عشر صاح", sources: [source/al-aalam, source/durar-kamina-jil-1993], confidence: low }

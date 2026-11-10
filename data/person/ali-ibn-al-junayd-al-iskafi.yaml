@@ -1,0 +1,25 @@
+id: person/ali-ibn-al-junayd-al-iskafi
+class: person
+label: { ar: "علي بن الجنيد الإسكافي", en: "'Ali ibn al-Junayd al-Iskafi" }
+summary:
+  ar: "مضحك المعتصم ونديمه، من طرفه أنه فسا في كم ابن حماد حين دنا يساره فقال ما أرى شيئاً ولكني لم أعلم أن في جوف ثيابك كنيفاً، وقال للمعتصم حين منع منه سندان غلامه إن رأيت سندان التركي فأقره مني السلام حاله أنك جعلت بيني وبينك إنساناً رأيتك قبل أن أراه وقد اشتقت إليه {cite:muruj-al-dhahab p. 441-442}."
+  en: "Al-Mu'tasim's jester whose 'convey my regards to Sindan — I saw you before I saw him' reduced the caliph to helpless laughter {cite:muruj-al-dhahab p. 441-442}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch29
+external_ids: { wikidata: "Q5959352" }
+sources: [source/muruj-al-dhahab, source/wikidata]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "904", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/ray, note: "Wikidata Q636188 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

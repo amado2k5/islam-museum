@@ -1,0 +1,23 @@
+id: event/battle-of-alma-1854
+class: event
+kind: battle
+label: { ar: "معركة ألما", en: "Battle of Alma" }
+summary:
+  ar: "بطاقة أولية لمعركة ألما سنة ١٨٥٤م، أولى وقائع حرب القرم التي شاركت فيها الدولة العثمانية إلى جانب الحلفاء؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Alma in 1854, the first action of the Crimean War in which the Ottoman state fought alongside the allies; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1854", precision: year, status: tradition, derived: true }
+  end: { edtf: "1854", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q913604
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crimean-War histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

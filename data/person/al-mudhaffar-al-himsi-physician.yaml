@@ -1,0 +1,36 @@
+id: person/al-mudhaffar-al-himsi-physician
+class: person
+label: { ar: "المظفر الحمصي طبيب", en: "Al-Mudhaffar al-Himsi" }
+names:
+  - { kind: full, lang: ar, value: "كمال الدين المظفر بن علي بن ناصر القرشي أبو منصور الحمصي" }
+gender: male
+roles: [physician, writer]
+traditions: [sunni]
+died: { edtf: "1215", hijri: "0612", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب وأديب ولد في حمص."
+  en: "A physician and man of letters born in Homs."
+wings: [people]
+themes: [medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص261"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch54
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: born_in, target: place/homs, note: "From text: born in Homs.", sources: [source/mawsuat-a3lam-ulama-adaba] }

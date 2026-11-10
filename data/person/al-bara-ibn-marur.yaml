@@ -9,7 +9,7 @@ roles: [companion, notable]
 traditions: [sunni]
 summary:
   en: "Senior chief of Banu Salima of the Khazraj and the foremost spokesman for the Yathrib delegation at the Second Pledge of Aqaba; he took the Prophet's hand and proclaimed their commitment to defend him with their lives and arms; he died shortly before the Prophet reached Medina in the Hijra."
-  ar: "سيد بني سلمة وشيخ وفد الأنصار في بيعة العقبة الثانية والمتكلم باسمهم حين أخذ بيد النبي معاهداً على نصرته وحمايته مما يحمون منه نساءهم وأبناءهم؛ وكان أحد النقباء الاثني عشر، وتوفي بيثرب في صفر قبيل قدوم النبي مهاجراً."
+  ar: "سيد بني سلمة وشيخ وفد الأنصار في بيعة العقبة الثانية والمتكلم باسمهم حين أخذ بيد النبي معاهداً على نصرته وحمايته مما يحمون منه نساءهم وأبناءهم؛ وكان أحد النقباء الاثني عشر، وتوفي بيثرب في صفر قبيل قدوم النبي مهاجراً. وعند ابن إسحاق في وفاء الوفا كان قد صلى إلى الكعبة قبل القدوم، فلما وصل الوفد مكة وسألوا عن النبي فقيل هو مع العباس في المسجد جلسوا إليه فسأله البراء عن القبلة {cite:samhudi-wafa-al-wafa p. 240-241}."
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -19,10 +19,16 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي جليل ونقيب بني سلمة." }
+died: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني سلمة والمتكلم بالبيعة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley]
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/samhudi-wafa-al-wafa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 149-152" }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (source/mubarakpuri-raheeq), pp. 149-152 — as recorded in this record's status.generated_by"
+  generated_by: "Devin"

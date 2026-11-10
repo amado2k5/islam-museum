@@ -1,0 +1,30 @@
+id: person/mulla-mohammad-maghrebi
+class: person
+label:
+  ar: "ملا محمد المغربي"
+  en: "Mulla Mohammad Maghrebi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لملا محمد المغربي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mulla Mohammad Maghrebi; the entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/modern-era]
+died: { edtf: "1740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Agha Buzurg al-Tihrani (al-Dhari'a)" }
+relations:
+  - { type: buried_in, target: building/posht-panjeh-pedar-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5874583)" }
+  - { type: lived_in, target: place/maghreb, confidence: low, note: "Nisba al-Maghrebi — from the Maghreb (al-A'lam).", sources: [source/al-aalam] }
+  - { type: buried_in, target: place/khalkhal-county, confidence: low, note: "His mausoleum (Posht Panjeh Pedar) stands in Khalkhal, Iran (Wikidata P119).", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107983096
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

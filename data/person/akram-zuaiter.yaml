@@ -1,0 +1,55 @@
+id: person/akram-zuaiter
+class: person
+label:
+  ar: "أكرم زعيتر"
+  en: "Akram Zuaiter"
+  ur: "اکرم زعیتر"
+names:
+  - { value: "أكرم زعيتر", kind: full }
+  - { value: "Akram Zuaiter", kind: full }
+  - { value: "Akram Zu'ayter", kind: alternate }
+gender: male
+born:
+  edtf: "1909"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Born at Nablus in 1909 (both biographies and Wikidata agree), son of Omar Zuaiter, a former mayor of the city. The year spans the Hijri years 1326–1327, so no hijri value is recorded."
+  sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter]
+died:
+  edtf: "1996-04-11"
+  hijri: "1416"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died at his home in Amman of a heart attack on 11 April 1996, as the Arabic biography records and Wikidata agrees, and was buried in the Islamic cemetery at Sahab near Amman; the Hijri year 1416 is derived by conversion."
+  sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter]
+roles: [politician, diplomat, writer]
+regions: [levant-iraq]
+wings: [people]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a religion, let alone a school, for Akram Zuaiter himself: Wikidata carries no religion value for him at all, and neither biography attests one. His Istiqlal founding membership, his newspaper work and his Jordanian diplomatic posts are affiliations and offices, and never count."
+    sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter]
+relations:
+  - { type: born_in, target: place/nablus, sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter] }
+  - { type: died_in, target: place/amman, sources: [source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter] }
+summary:
+  ar: "سياسي ودبلوماسي وأديب فلسطيني من نابلس (1909–1996)، من مؤسسي حزب الاستقلال؛ عمل في الصحافة والتعليم، ثم سفيرًا للأردن في دول عدة ووزيرًا لخارجيته سنة 1966، وألّف كتبًا ووثائق عن الحركة الوطنية الفلسطينية."
+  en: "Palestinian politician, diplomat and writer from Nablus (1909–1996), a founding member of the Istiqlal Party. He worked in journalism and education, then served as Jordan's ambassador to several countries and as its foreign minister in 1966, and wrote books and documentary collections on the Palestinian national movement."
+  ur: "نابلس سے تعلق رکھنے والے فلسطینی سیاست دان، سفارت کار اور ادیب (1909–1996)، استقلال پارٹی کے بانی ارکان میں سے ایک؛ صحافت اور تعلیم میں کام کیا، پھر کئی ملکوں میں اردن کے سفیر اور 1966 میں اس کے وزیر خارجہ رہے، اور فلسطینی قومی تحریک پر کتابیں اور دستاویزی مجموعے لکھے۔"
+sources:
+  - source/wikipedia-akram-zuaiter-en
+  - source/wikipedia-akram-zuaiter-ar
+  - source/wikidata-akram-zuaiter
+external_ids:
+  wikidata: Q12180116
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia biographies of Akram Zuaiter (Q12180116) and the Wikidata item, read in full; every Wikipedia and Wikidata revision id was fetched live from the MediaWiki API in this session and asserted before use, and the QID was grounded through the English article's page properties. Identity: the queue line's bearer is the Nablus-born Istiqlal founder and Jordanian foreign minister of 1909–1996, distinguished from his brother Adel Zuaiter, the translator, who has no record built here. Existence checks by name fragments (zuaiter, zuayter) and by QID across data/person on origin/main found no prior record for this man. His father's Nablus mayoralty and his own ambassadorships are offices, never relations."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-135
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

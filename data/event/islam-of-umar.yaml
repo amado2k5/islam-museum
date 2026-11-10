@@ -1,4 +1,13 @@
 id: event/islam-of-umar
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b8", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "أسلم عمر بن الخطاب في السنة السادسة بعد ثلاثة أيام من إسلام حمزة، إذ سمع صدر سورة طه في بيت أخته فمال قلبه."
+    en: "Umar ibn al-Khattab embraced Islam in year six, three days after Hamza — moved by hearing the opening of Surah Ta-Ha in his sister's home."
+    ur: "عمر بن خطاب نے چھٹے سال، حمزہ کے ایمان لانے کے تین دن بعد اسلام قبول کیا — اپنی بہن کے گھر سورۃ طہ کے آغاز کو سن کر ان کا دل جھک گیا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 class: event
 aliases: [event/conversion-of-umar]   # merged from the earlier English-first stub (same event); the id still resolves
 kind: other
@@ -6,14 +15,14 @@ label: { en: "Umar accepts Islam", ar: "إسلام عمر بن الخطاب" }
 summary:
   en: "In Dhu al-Hijja of year six — three days after Hamza — Umar, who had set out with his sword to kill the Prophet, was redirected by Nu'aym ibn Abdullah to his own sister's house; he heard the opening of sura Ta-Ha from Sa'id and Fatima, then went to the house of al-Arqam and declared the shahada, and the Muslims marched out in two rows and prayed openly at the Kaaba."
   ar: "في ذي الحجة من السنة السادسة — بعد ثلاثة أيام من إسلام حمزة — خرج عمر بسيفه يريد قتل النبي، فردّه نعيم بن عبد الله إلى بيت أخته؛ فسمع صدر سورة طه من سعيد وفاطمة، ثم أتى دار الأرقم فشهد الشهادة، وخرج المسلمون في صفين يتقدمهم حمزة وعمر حتى صلوا عند الكعبة جهاراً، فسمّاه النبي الفاروق."
-wings: [time, people]
+wings: [time]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
   start: { edtf: "0616-12~", calendar: julian, precision: month, status: tradition, note: "ذو الحجة من السنة السادسة من النبوة، بعد ثلاثة أيام من إسلام حمزة (الرحيق ص101؛ ابن الجوزي ص11)." }
 significance:
-  ar: "قال ابن مسعود: ما زلنا أعزة منذ أسلم عمر؛ وما كنا نقدر أن نصلي عند الكعبة حتى أسلم (الرحيق ص105-106؛ بخاري 1/545)."
+  ar: "قال ابن مسعود: ما زلنا أعزة منذ أسلم عمر؛ وما كنا نقدر أن نصلي عند الكعبة حتى أسلم ⁦(الرحيق ص105-106؛ بخاري 1/545)⁩."
 relations:
   - { type: occurred_at, target: place/mecca, note: "دار الأرقم" }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أسلم", sources: [source/mubarakpuri-raheeq] }
@@ -27,3 +36,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/tarikh-umar-ibn-al-jawzi, source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 101-106" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

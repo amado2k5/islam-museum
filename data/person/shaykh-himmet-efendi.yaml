@@ -1,0 +1,29 @@
+id: person/shaykh-himmet-efendi
+class: person
+label:
+  ar: "الشيخ همت أفندي"
+  en: "Shaykh Himmet Efendi"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية للشيخ همت أفندي، الشاعر والكاتب العثماني، توفي سنة ١٦٨٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shaykh Himmet Efendi, the Ottoman poet and writer, d. 1684; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/bolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200951)" }
+  - { type: buried_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q21528454
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0082
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,29 @@
+id: person/ibrahim-al-mawsili
+class: person
+label: { ar: "إبراهيم الموصلي", en: "Ibrahim al-Mawsili" }
+summary:
+  ar: "المغني، روى خبر مسكين المدني أبي صدقة حين جمع الرشيد المغنين فغنى صوتاً قصر فيه الرؤساء عن مراد الخليفة فرفعت الستارة بينه وبين الرشيد {cite:muruj-al-dhahab p. 348}. وعند ابن النديم يقال إنه أخذ الغناء عن يونس الكاتب {cite:fihrist-ibn-al-nadim p. 447}"
+  en: "The singer who narrated Miskin's triumph over the assembled masters at al-Rashid's contest {cite:muruj-al-dhahab p. 348}."
+gender: male
+wings: [people]
+born: { edtf: "742", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "804", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/rashid, confidence: low, note: "Associated with Rashid per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+
+occupations:
+  - job: job/courtier
+    kind: episodic
+    status: historical
+    note: "The NEDİM entry places him, with Ibn Jami and Zalzal, in the first class of nadims, the great masters of music, in al-Jahiz's division."
+    sources: [source/tdv-nedim]

@@ -1,0 +1,15 @@
+id: passage/muslim-2638
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2638"
+label: { ar: "مسلم 2638 — الأرواح جنود مجندة", en: "Muslim 2638 — Souls are conscripted soldiers" }
+text: "قال رسول الله: الأرواح جنود مجندة، فما تعارف منها ائتلف، وما تناكر منها اختلف"
+summary:
+  ar: "رواية أبي هريرة في باب الأرواح جنود مجندة من كتاب البر والصلة والآداب في صحيح مسلم؛ وفي رواية أخرى يسبقها «الناس معادن كمعادن الفضة والذهب، خيارهم في الجاهلية خيارهم في الإسلام إذا فقهوا»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب الأرواح جنود مجندة (طبعة دار التأصيل، الحديث 2727؛ ترقيم عبد الباقي المعروف 2638)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,38 @@
+id: place/aydin
+class: place
+kind: town
+label:
+  ar: آيدين
+  en: Aydın
+summary:
+  ar: مدينة في غرب الأناضول، كانت تُعرف بترالّيس، وصارت مركز إمارة آيدين أوغلو ثم سنجق وولاية عثمانية بالاسم نفسه، وأُحرقت سنة 1922م {cite:encyclopaedia-of-islam-2 vol. 1 p. 831}.
+  en: A town in western Anatolia, formerly Tralleis, seat of the Aydın-oghlu emirate and later of an Ottoman sanjak and vilayet of the same name; it was burnt in September 1922 {cite:encyclopaedia-of-islam-2 vol. 1 p. 831}.
+wings:
+- place
+regions:
+- anatolia-balkans
+- andalus-europe
+coordinates:
+- 37.85
+- 27.85
+coordinate_precision: locality
+coordinate_note: Identified modern location; flagged for gazetteer verification.
+external_ids:
+  wikidata: Q170457
+  geonames: '322830'
+sources:
+- source/encyclopaedia-of-islam-2
+- source/geonames-gazetteer
+- source/wikidata
+status:
+  review: draft
+  completeness: 3
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from: []
+  note: Semantic merge of duplicate records written by parallel enrichment runs. Merged duplicate record place/ayd-n into this entity during consolidation.
+  source: Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 831-832, entry 'AYDIN' (signed Fr. Taeschner; queue seq 439, batch ei2-b018); the 1945 population and the 1922 day are not written (scan garbled)
+aliases:
+- place/ayd-n

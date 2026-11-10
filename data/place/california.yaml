@@ -1,0 +1,16 @@
+id: place/california
+class: place
+kind: province
+label: { en: "California", ar: "كاليفورنيا", ur: "کیلیفورنیا" }
+summary:
+  en: "State on the Pacific coast of the United States."
+  ar: "ولاية على ساحل المحيط الهادئ للولايات المتحدة."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [36.8, -119.4]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q99" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q99 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

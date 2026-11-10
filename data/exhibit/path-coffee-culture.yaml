@@ -1,0 +1,75 @@
+id: exhibit/path-coffee-culture
+class: exhibit
+kind: trail
+label:
+  ar: ثقافة القهوة
+  en: Coffee Culture
+summary:
+  ar: 'مسار في مشروب العرب الذي غزا العالم: من اليمن إلى إسطنبول إلى مقاهي القاهرة وباريس والدار البيضاء
+    — بيوت الشعر والساسة.'
+  en: 'A trail through the Arab drink that conquered the world: Yemen, Istanbul, Cairo''s and Paris''s
+    coffeehouses.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: المقهى كبيت عام
+    en: The coffeehouse
+  body:
+    ar: 'مجمع الشعراء والشطرنج والسياسة: المقهى أول صالون عام في الشرق.'
+    en: 'Poets, chess and politics: the East''s first public salon.'
+  features:
+  - listing/el-fishawy-cafe
+  - place/cairo
+- title:
+    ar: فيشاوي
+    en: El-Fishawy
+  body:
+    ar: 'مقهى خان الخليلي منذ 1771: مرايا ونجيب محفوظ وأرابيسك.'
+    en: 'Khan al-Khalili''s café since 1771: mirrors, Mahfouz, arabesque.'
+  features:
+  - listing/el-fishawy-cafe
+- title:
+    ar: كافيه ريش
+    en: Café Riche
+  body:
+    ar: 'وسط القاهرة 1908: مقهى الضباط والأدباء والثورة.'
+    en: 'Downtown Cairo 1908: officers, writers and revolution.'
+  features:
+  - listing/cafe-riche
+- title:
+    ar: مقهى باريس
+    en: Paris
+  body:
+    ar: القهوة تصل أوروبا عبر الدار البيضاء وفيينا.
+    en: Coffee reaches Europe via Casablanca and Vienna.
+  features:
+  - listing/cafe-mosquee-paris
+  - listing/ricks-cafe-casablanca
+- title:
+    ar: القهوة في الفقه
+    en: Coffee in law
+  body:
+    ar: 'جدل القهوة في مكة والقاهرة: تحريم ثم إباحة ثم عادة أمة.'
+    en: Coffee's fiqh debate in Mecca and Cairo.
+  features:
+  - question/what-is-halal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

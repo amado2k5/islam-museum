@@ -1,0 +1,16 @@
+id: passage/muslim-2956
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2956"
+label: { ar: "مسلم 2956 — الدنيا سجن المؤمن وجنة الكافر", en: "Muslim 2956 — The world is the believer's prison" }
+text: "قال رسول الله: «الدنيا سجن المؤمن وجنة الكافر»"
+summary:
+  ar: "أول حديث في كتاب الزهد والرقائق من صحيح مسلم؛ رواية أبي هريرة، ويليه حديث جابر أن النبي مر بالسوق والناس كنفتاه. الصورة المكثفة لموقع الدنيا من قلب المؤمن في الحديث النبوي."
+relations:
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: concept/zuhd, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزهد والرقائق (طبعة دار التأصيل، الحديث 3076؛ ترقيم عبد الباقي المعروف 2956)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-3401
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3401"
+label: { ar: "البخاري 3401 — موسى والخضر", en: "Bukhari 3401 — Musa and al-Khidr" }
+text: "قام موسى خطيباً في بني إسرائيل فسئل: أي الناس أعلم؟ فقال: أنا، فعتب الله عليه إذ لم يرد العلم إليه، فأوحى الله إليه إن لي عبداً بمجمع البحرين هو أعلم منك"
+summary:
+  ar: "في كتاب أحاديث الأنبياء باب حديث الخضر؛ رواية ابن عباس عن أبي بن كعب، وتوثيقه أن موسى صاحب الخضر هو موسى بن عمران نفسه رداً على نوف البكالي — مفتاح قصة العلم اللدني في الصحيح."
+relations:
+  - { type: mentions, target: person/musa, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/al-khidr, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3401", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

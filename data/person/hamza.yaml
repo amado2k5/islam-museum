@@ -1,4 +1,13 @@
 id: person/hamza
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b2", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "حمزة عمّ النبي ومن أشد المدافعين الأوائل عن الإسلام، ويذكره التقليد بسيد الشهداء لمقتله بأُحد."
+    en: "Hamza, the Prophet's uncle and one of Islam's fiercest early defenders, is remembered in tradition as the chief of martyrs for his death at Uhud."
+    ur: "حمزہ، نبی کے چچا اور اسلام کے اولین سخت مدافعین میں سے، احد میں شہادت کے سبب روایت میں سید الشہدا کہلاتے ہیں۔"
+    sources: [source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
 class: person
 label: { en: Hamza ibn Abd al-Muttalib, ar: حمزة بن عبد المطلب }
 names:
@@ -11,7 +20,7 @@ roles: [companion]
 traditions: [sunni, shia-twelver]
 summary:
   en: "An uncle of the Prophet who became one of the fiercest early defenders of Islam; killed at Uhud and remembered in tradition as the Master of the Martyrs."
-  ar: "عمّ النبي الذي صار من أشد المدافعين الأوائل عن الإسلام، قُتل في أُحد، ويُذكر في التقليد بسيد الشهداء."
+  ar: "عمّ النبي الذي صار من أشد المدافعين الأوائل عن الإسلام، قُتل في أُحد، ويُذكر في التقليد بسيد الشهداء. وفي الصحيح يروي وحشي بن حرب نفسه خبر قتله: كمن له تحت صخرة فلما دنا رماه بحربته حتى خرجت من بين وركيه، وذلك أن مولاه جبير بن مطعم وعده الحرية إن قتل حمزة بعمه طعيمة بن عدي الذي قتله ببدر {cite:sahih-al-bukhari 4072}."
 wings: [people]
 themes: [battles, health-body-death]
 periods: [period/prophetic-era]
@@ -27,6 +36,7 @@ faith:
 labelled:
   - { label: { en: "Master of the Martyrs", ar: "سيد الشهداء" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/uhud }
   - { type: buried_in, target: place/uhud }
@@ -37,5 +47,14 @@ relations:
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr }
   - { type: participated_in, target: event/battle-of-uhud, role: killed }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
+external_ids:
+  wikidata: Q770033
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr, source/zad-al-maad, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"

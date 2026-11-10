@@ -1,0 +1,23 @@
+id: event/battle-of-shamkir-1826
+class: event
+kind: battle
+label: { ar: "معركة شمكير", en: "Battle of Shamkir" }
+summary:
+  ar: "بطاقة أولية لمعركة شمكير سنة ١٨٢٦م، فوز الروس على الجيش القاجاري؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Shamkir in 1826, the Russian victory over the Qajar army; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1826", precision: year, status: tradition, derived: true }
+  end: { edtf: "1826", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4519975
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,40 @@
+id: person/al-bazzar-abu-bakr-ahmad-ibn-amr
+class: person
+label: { ar: "البزار أبو بكر أحمد بن عمرو", en: "al-Bazzar Abu Bakr Ahmad ibn Amr" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر أحمد بن عمرو بن عبد الخالق البصري البزار" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "البزار" }
+  - { kind: nisba, lang: ar, value: "البصري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0825", hijri: "0210", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0905", hijri: "0292", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حافظ من علماء الحديث المعروفين، عُرف بالبزار لعمله ببزر الكتان زيتاً، ونشر حديثه في أصبهان وبغداد ومصر ومكة والرملة في شيخوخته، وتوفي سنة 292هـ."
+  en: "Well-known hadith scholar known as al-Bazzar, who narrated hadith in Isfahan, Baghdad, Egypt and Mecca in his later years; died 292 AH (905 CE)."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, egypt-nile]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q12177855" }
+relations:
+  - { type: authored, target: work/musnad-al-bazzar, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: lived_in, target: place/basra, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: traveled_to, target: place/isfahan, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: died_in, target: place/ramla, sources: [source/musnad-bazzar-anas-thesis-1413] }
+  - { type: student_of, target: person/al-bukhari, sources: [source/musnad-bazzar-anas-thesis-1413] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/musnad-bazzar-anas-thesis-1413]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص396"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch51
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: sections and relations from musnad-bazzar-anas-thesis-1413 PDF pp. 15-17, 28-33"

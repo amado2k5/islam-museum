@@ -1,0 +1,16 @@
+id: person/piruz-dahqan-ahwaz
+class: person
+label: { ar: "بيروز دهقان الأهواز", en: "Piruz, Dahqan of al-Ahwaz" }
+summary:
+  ar: "بيروز دهقان سوق الأهواز؛ قاتله المغيرة بن شعبة ثم صالحه على مال ثم نكث فافتتح أبو موسى المدينة عنوة سنة ١٧."
+  en: "Piruz, dahqan of Suq al-Ahwaz; he fought al-Mughira ibn Shu'ba, truced on money, broke, and Abu Musa took the town by force in 17h."
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Buldan (al-Baladhuri)" }
+relations:
+  - { type: lived_in, target: place/suq-al-ahwaz, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

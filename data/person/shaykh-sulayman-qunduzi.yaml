@@ -1,0 +1,33 @@
+id: person/shaykh-sulayman-qunduzi
+class: person
+label:
+  ar: "الشيخ سليمان القندوزي"
+  en: "Shaykh Sulayman Qunduzi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية للشيخ سليمان القندوزي، العالم العثماني من أهل كردستان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shaykh Sulayman Qunduzi, the Ottoman scholar of Kurdistan; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/modern-era]
+born: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: born_in, target: place/kunduz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q108155)" }
+  - { type: born_in, target: place/durrani-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q467627)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: died_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12560)" }
+  - { type: lived_in, target: place/balkh-province, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q121104)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: "Q12191488"
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

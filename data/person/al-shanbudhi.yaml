@@ -1,0 +1,33 @@
+id: person/al-shanbudhi
+class: person
+label: { ar: "أبو الفرج محمد بن أحمد الشنبوذي المقري", en: "Abu al-Faraj Muhammad ibn Ahmad al-Shanbudhi al-Muqri'" }
+summary:
+  ar: "محمد بن أحمد بن إبراهيم أبو الفرج المقري المعروف بغلام الشنبوذي، ولد سنة ثلاثمائة، وقرأ على أبي الحسن بن شنبوذ وكتب في القراءات. قال أبو الفضل عبيد الله بن أحمد الصيرفي عظم أمره ووصف علمه بالقراءات وحفظه للتفسير وسمعته يقول حفظت خمسين ألف بيت من الشعر شواهد للقرآن. وأساء الدارقطني القول فيه والثناء عليه. توفي في صفر سنة ثمان وثمانين وقيل سنة سبع وثمانين {cite:muntazam-ibn-al-jawzi j.7 p.207-208}."
+  en: "Muhammad ibn Ahmad ibn Ibrahim, Abu al-Faraj the reciter, known as Ghulam al-Shanbudhi, born in 300. He read under Abu al-Hasan Ibn Shanbudh and wrote on the readings. Abu al-Fadl Ubayd Allah ibn Ahmad al-Sayrafi said his standing was great and described his command of the readings and his memory for tafsir; he said, 'I heard him say, I memorised fifty thousand lines of verse as evidence for the Qur'an.' Al-Daraqutni spoke of him both harshly and in praise. He died in Safar 388, though some say 387 {cite:muntazam-ibn-al-jawzi j.7 p.207-208}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, teacher]
+themes: [scripture-and-its-sciences]
+born:
+  { edtf: "0912~", hijri: "0300", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 300؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.207}" }
+died:
+  { edtf: "0998-01~", hijri: "0388-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 388 وقيل 387؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.208}" }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 388)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch115
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Baghdad reciter circle of Ibn Shanbudh; regions field levant-iraq.", sources: [source/muntazam-ibn-al-jawzi], confidence: medium }
+sources: [source/muntazam-ibn-al-jawzi]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/muntazam-ibn-al-jawzi]

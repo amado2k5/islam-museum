@@ -1,0 +1,16 @@
+id: passage/muslim-2707
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2707"
+label: { ar: "مسلم 2707 — أعوذ بك من سوء القضاء ودرك الشقاء", en: "Muslim 2707 — Refuge from evil decree, misery, foes' glee, and hardship" }
+text: "قال أبو هريرة: كان النبي يتعوذ من سوء القضاء، ومن درك الشقاء، ومن شماتة الأعداء، ومن جهد البلاء"
+summary:
+  ar: "رواية أبي هريرة في باب التعوذ من سوء القضاء ودرك الشقاء وغيرهما من كتاب الذكر والدعاء في صحيح مسلم؛ الاستعاذة الرباعية المشهورة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء، باب في التعوذ من سوء القضاء (طبعة دار التأصيل، الحديث 2807؛ ترقيم عبد الباقي المعروف 2707)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

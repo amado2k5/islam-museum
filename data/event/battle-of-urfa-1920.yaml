@@ -1,0 +1,23 @@
+id: event/battle-of-urfa-1920
+class: event
+kind: battle
+label: { ar: "معركة أورفة", en: "Battle of Urfa" }
+summary:
+  ar: "بطاقة أولية لمعركة أورفة سنة ١٩٢٠م، طرد أهالي المدينة للحامية الفرنسية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Urfa in 1920, the townspeople's expulsion of the French garrison; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1920", precision: year, status: tradition, derived: true }
+  end: { edtf: "1920", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4821146
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

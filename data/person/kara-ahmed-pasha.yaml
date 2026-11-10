@@ -1,0 +1,26 @@
+id: person/kara-ahmed-pasha
+class: person
+label:
+  ar: "قره أحمد باشا"
+  en: "Kara Ahmed Pasha"
+roles: [grand-vizier, military-leader]
+gender: male
+died: { edtf: "1555-09-28", hijri: "0962", calendar: julian, precision: day, status: tradition, derived: false, note: "Executed 13 Dhu'l-Qa'da 962/28 September 1555, EI2.", sources: [source/encyclopaedia-of-islam-2] }
+summary:
+  ar: "قره أحمد باشا، صدر أعظم عثماني من أصل ألباني في عهد سليمان القانوني، تولى أغا الإنكشارية، ثم قائدًا عامًا ضد الفرس، وأُعدم في 13 ذي القعدة 962هـ/28 سبتمبر 1555م {cite:encyclopaedia-of-islam-2 vol. 1 p. 313}."
+  en: "Kara Ahmed Pasha, Ottoman grand vizier under Sulayman I, of Albanian origin and educated in the palace. He became agha of the Janissaries in 927/1521, took part in the Hungarian campaigns, and was made second vizier in 1548. He was beheaded on 13 Dhu'l-Qa'da 962/28 September 1555 {cite:encyclopaedia-of-islam-2 vol. 1 p. 313}."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: born_in, target: place/albania, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+external_ids:
+  wikidata: Q1571856
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 313, article 'Ahmad Pasha, Kara' signed M. Cavid Baysun (EI2 enrichment, batch ei2-b003 part 3ck); Wikidata Q1571856 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2 }

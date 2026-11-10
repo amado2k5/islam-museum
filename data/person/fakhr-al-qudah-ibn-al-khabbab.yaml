@@ -1,0 +1,40 @@
+id: person/fakhr-al-qudah-ibn-al-khabbab
+class: person
+label: { ar: "فخر القضاة ابن الخباب", en: "Fakhr al-Qudah Ibn al-Khabbab" }
+names:
+  - { value: "فخر القضاة ابن الخباب المقرئ", kind: full }
+died: { edtf: "1250~", hijri: "0648", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ثمان وأربعين وستمائة {cite:shadharat-dhahab p. 249}." }
+summary:
+  ar: "المقرئ ناظر الأوقاف؛ تفرد بالرواية عن المأموني فبقي صحيح مسلم يُروى عنه بعد موت أصحابه؛ وكان من الثقات المتقنين {cite:shadharat-dhahab p. 249}."
+  en: "Muqri' and overseer of the awqaf (d. 648) — sole transmitter from al-Ma'muni, so that Sahih Muslim lived on in him after his peers had gone {cite:shadharat-dhahab p. 249}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+faith:
+  - value: sunni
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 648)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch76
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+  - job: job/nazir-al-waqf
+    kind: episodic
+    status: debated
+    note: "The record's summary, citing Shadharat al-Dhahab p. 249, calls him nazir al-awqaf. That page was not re-read in this batch. The Ottoman Evkaf entry uses nazir for the supervisor of the trustee, while the mutawalli article says that in some lands nazir is the trustee's own title. Both readings are kept; the office is not decided."
+    sources: [source/shadharat-dhahab]

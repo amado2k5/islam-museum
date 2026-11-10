@@ -1,0 +1,16 @@
+id: media/diagram-shatir-complete-quadrant
+class: media
+kind: illustration
+label: { ar: "من ربع الجيب إلى برنامج الربع التام", en: "From sine quadrant to complete-quadrant programme", ur: "ربع جیب سے ربع تام کے منصوبے تک" }
+summary: { ar: "سلسلة تعليمية عامة لا خطوط الآلة أو مخطوطها.", en: "Generic teaching chain,not instrument lines or manuscript drawing.", ur: "عمومی تدریسی سلسلہ،آلے کے خطوط یا مخطوطے کی شکل نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/shatir-complete-quadrant]
+alt:
+  ar: "ربع جيب سابق،ثم تعديل ابن الشاطر وكتابه التعليمي؛سلسلة عامة لا شبكة الآلة الأصلية."
+  en: "Earlier sine quadrant,then Ibn al-Shatir's modification and teaching treatise;generic chain,not original instrument grid."
+  ur: "پہلے ربع جیب،پھر ابن شاطر کی ترمیم اور تدریسی رسالہ؛عمومی سلسلہ،اصل آلے کا جال نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/fathi-perfect-quadrant-2015]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b72", source: "Existing generic chain renderer,not manuscript figure or certified reconstruction." }

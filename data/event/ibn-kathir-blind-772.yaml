@@ -1,0 +1,27 @@
+id: event/ibn-kathir-blind-772
+class: event
+kind: other
+label:
+  ar: "إضرار ابن كثير في أواخر عمره، نحو ٧٧٢هـ"
+  en: "Ibn Kathir loses his sight in his last years, about 772/1371"
+  ur: "ابن کثیر کا آخر عمر میں نابینا ہونا، تقریباً 772ھ/1371ء"
+summary:
+  ar: "قال الذهبي في المعجم المختص كما نقل ابن حجر: الإمام المفتي المحدث البارع، فقيه متفنن، محدث متقن، مفسر ناقد، وله تصانيف مفيدة، مات في شعبان سنة ٧٧٤هـ وكان قد أضرّ في أواخر عمره {cite:durar-kamina-jil-1993 1/374}، ولم يكن على طريق المحدثين في تحصيل المواثيق وتمييز العالي من النازل وإنما هو من محدثي الفقهاء {cite:durar-kamina-jil-1993 1/374}."
+  en: "Al-Dhahabi's appraisal in the Mu'jam al-mukhtass, as Ibn Hajar transmits it: 'the imam, mufti, accomplished traditionist — a many-sided jurist, an exact muhaddith, a critical mufassir, author of useful works — died in Sha'ban 774, having lost his sight at the end of his life' {cite:durar-kamina-jil-1993 1/374}; Ibn Hajar notes he was not of the muhaddiths' rigorous school in gathering attestations but counts among the jurists' traditionists {cite:durar-kamina-jil-1993 1/374}."
+  ur: "ابن حجر کے نقول کے مطابق ذہبی نے معجم مختص میں کہا: «امام، مفتی، ماہر محدث — متعدد علوم کا فقیہ، متقن محدث، ناقد مفسر، مفید تصانیف کا مصنف — شعبان 774ھ میں فوت ہوا اور آخر عمر میں نابینا ہو گیا تھا» {cite:durar-kamina-jil-1993 1/374}؛ ابن حجر نوٹ کرتے ہیں کہ وہ محدثین کے سخت طریقے کا نہیں تھا بلکہ فقہاء کے محدثین میں شمار ہوتا ہے {cite:durar-kamina-jil-1993 1/374}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1371~", hijri: "0772~", calendar: julian, precision: year, status: tradition, derived: true, note: "كان قد أضرّ في أواخر عمره قبل وفاته في شعبان ٧٧٤هـ {cite:durar-kamina-jil-1993 1/374}؛ التاريخ تقريبي؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-kathir, role: "المُضِرّ في أواخر عمره", sources: [source/durar-kamina-jil-1993] }
+sources: [source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina 1/374, tarjama 944, quoting al-Dhahabi's Mu'jam al-mukhtass (harvest OCR DurarKamina__drkamth1)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

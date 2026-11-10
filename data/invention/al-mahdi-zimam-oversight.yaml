@@ -1,0 +1,73 @@
+id: invention/al-mahdi-zimam-oversight
+class: invention
+label: { ar: "زمام الأزمة والرقابة المركزية في عهد المهدي", en: "Al-Mahdi's central zimam oversight", ur: "مہدی کے عہد میں زمام الازمہ کی مرکزی نگرانی" }
+names:
+  - { kind: alternate, lang: ar, value: "الرقابة والتنسيق بين الدواوين العباسية" }
+  - { kind: alternate, lang: en, value: "Central zimam al-azimma" }
+summary:
+  ar: "مركز عباسي لضبط حسابات الدواوين وتنسيقها، مع فصل مرحلة162هـ عن المركز المؤرخ168هـ، لا اختراع المحاسبة {cite:tdv-divan-duri Abbasid administration}."
+  en: "Abbasid centre checking and coordinating bureau accounts,distinguishing the162AH departmental stage from the168AH centre,not invention of accounting {cite:tdv-divan-duri Abbasid administration}."
+  ur: "دیوانوں کے حساب جانچنے اور رابطہ رکھنے کا عباسی مرکز،162ھ کے دیوانی مرحلے اور168ھ کے مرکز میں فرق؛ حساب داری کی ایجاد نہیں {cite:tdv-divan-duri Abbasid administration}۔"
+domain: institutions-systems
+kind: institution
+disciplines: [history]
+wings: [made, ideas]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0784/0785"
+    hijri: "0168"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Duri/Bozkurt's source-supplied168AH/784–85 central arrangement,not exact foundation day or first accounts. Earlier departmental162AH is rendered778–79 by Duri and779 by Bozkurt; keep qualified,no new conversion."
+    sources: [source/tdv-divan-duri, source/tdv-mehdi-bozkurt]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context: { ar: "حكومة عباسية ذات دواوين قائمة، يربط المركز حساباتها وأعمالها لا ينشئ كل مؤسسة من الصفر {cite:tdv-divan-duri Abbasid administration}.", en: "Abbasid government with existing bureaus whose accounts/work the centre connects,not every institution created from nothing {cite:tdv-divan-duri Abbasid administration}.", ur: "موجود دیوانوں والی عباسی حکومت؛ مرکز ان کے حساب اور کام ملاتا ہے، ہر ادارہ صفر سے نہیں بناتا {cite:tdv-divan-duri Abbasid administration}۔" }
+makers:
+  - { person: person/al-mahdi, role: commissioner, place: place/baghdad, note: "Institutional commissioning attributed to his reign,not solitary authorship of accounting or an identified office manual; unverified director appointments omitted.", sources: [source/tdv-mehdi-bozkurt, source/tdv-divan-duri] }
+attribution:
+  status: improvement
+  claim: { ar: "إضافة رقابة مركزية وتنسيق إلى دواوين موروثة، لا أول تدقيق في العالم.", en: "Central oversight and coordination added to inherited bureaus,not the world's first audit.", ur: "ورثے کے دیوانوں پر مرکزی نگرانی اور رابطے کا اضافہ، دنیا کا پہلا آڈٹ نہیں۔" }
+  basis: { ar: "الدوري يذكر فحص الحسابات والإشراف والتنسيق؛ بوزقورت تذكر وصل دواوين الأقاليم بالمركز {cite:tdv-divan-duri Abbasid administration} {cite:tdv-mehdi-bozkurt p.377–379}.", en: "Duri gives account checks,supervision and coordination; Bozkurt connects provincial offices to the centre {cite:tdv-divan-duri Abbasid administration} {cite:tdv-mehdi-bozkurt p.377–379}.", ur: "دوری حساب کی جانچ، نگرانی اور رابطہ دیتے ہیں؛ بوزکورت صوبائی دفاتر کو مرکز سے ملاتی ہیں {cite:tdv-divan-duri Abbasid administration} {cite:tdv-mehdi-bozkurt p.377–379}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "رواية شخصية وإطار معلن", en: "Individual report and explicit frame", ur: "شخصی روایت اور واضح سیاق" }
+      summary: { ar: "السيوطي ينقل عن أبي عبيدة إمامة المهدي للصلوات الخمس في البصرة؛ هو أساس ممارسة إسلامية فردية ضمن الإطار السني المعلن، لا استنتاج من المنصب أو محو للسياسة {cite:tarikh-khulafa-minhaj-1434 p.447}.", en: "Suyuti transmits Abu Ubayda's report of al-Mahdi leading five prayers in Basra: individual Muslim-practice evidence within the named Sunni museum frame,not inference from office or erasure of politics {cite:tarikh-khulafa-minhaj-1434 p.447}.", ur: "سیوطی ابو عبیدہ سے بصرہ میں مہدی کی پانچ نمازوں کی امامت نقل کرتے ہیں؛ واضح سنی میوزیم سیاق میں انفرادی اسلامی عمل کا ثبوت، عہدے سے قیاس یا سیاست کا مٹانا نہیں {cite:tarikh-khulafa-minhaj-1434 p.447}۔" }
+      sources: [source/tarikh-khulafa-minhaj-1434]
+    - tradition: academic
+      stance: { ar: "مراحل ووظائف وحدود الدليل", en: "Stages,functions and limits of evidence", ur: "مرحلے، کام اور ثبوت کی حدود" }
+      summary: { ar: "تلخيصا الدوري وبوزقورت يميزان162هـ و168هـ؛ لا يثبتان استقلالاً سياسياً أو إجراءات يومية أو القضاء على الفساد {cite:tdv-divan-duri Abbasid administration} {cite:tdv-mehdi-bozkurt p.377–379}.", en: "Duri/Bozkurt distinguish162AH and168AH; their syntheses do not establish political independence,daily procedures or elimination of corruption {cite:tdv-divan-duri Abbasid administration} {cite:tdv-mehdi-bozkurt p.377–379}.", ur: "دوری/بوزکورت162ھ اور168ھ الگ کرتے ہیں؛ ان کے خلاصے سیاسی آزادی، روزانہ ضابطے یا بدعنوانی کے خاتمے کو ثابت نہیں کرتے {cite:tdv-divan-duri Abbasid administration} {cite:tdv-mehdi-bozkurt p.377–379}۔" }
+      sources: [source/tdv-divan-duri, source/tdv-mehdi-bozkurt]
+precursors:
+  - external: { ar: "الدواوين الموروثة وزمام كل ديوان", en: "Inherited bureaus and departmental zimam", ur: "ورثے کے دیوان اور ہر دیوان کا زمام" }
+    note: "Existing administration and162AH departmental oversight precede the168AH central layer; older Persian/Ziyad seal vocabulary compared in prose,not equated with this institution."
+    sources: [source/tdv-divan-duri, source/tdv-mehdi-bozkurt]
+dependents: []
+spread: []
+impact:
+  fields: [institutions-systems]
+  changed: { ar: "أضاف فحص الحساب والعمل والتنسيق بين مكاتب قائمة؛ لا قياس محفوظ هنا لأثره على كل دافع {cite:tdv-divan-duri Abbasid administration}.", en: "Added account/work checks and coordination between existing offices; no measured effect on every payer survives in the read evidence {cite:tdv-divan-duri Abbasid administration}.", ur: "موجود دفاتر کے حساب و کام کی جانچ اور رابطے کا اضافہ؛ پڑھے ثبوت میں ہر ادا کنندہ پر ناپا اثر نہیں {cite:tdv-divan-duri Abbasid administration}۔" }
+  history: { ar: "مثال لتطوير الإدارة بالربط والرقابة، لا بمجرد إنشاء سجل جديد {cite:tdv-mehdi-bozkurt p.377–379}.", en: "An instance of administrative development through connection and oversight,not simply a new register {cite:tdv-mehdi-bozkurt p.377–379}.", ur: "رابطے اور نگرانی سے انتظامی ترقی کی مثال، محض نیا رجسٹر نہیں {cite:tdv-mehdi-bozkurt p.377–379}۔" }
+  significance: 3
+  why: "Two defined syntheses identify a specific central supervisory improvement with departmental precursors; no world-first,independent-audit or measured economic-effect claim."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "موضوع تاريخي للمقارنة بين التسجيل والفحص والتنسيق، لا معيار تدقيق معاصر.", en: "Historical comparison of recording,checking and coordination,not a contemporary auditing standard.", ur: "اندراج، جانچ اور رابطے کا تاریخی تقابل، موجود آڈٹ معیار نہیں۔" }
+  descendants: { ar: "تشابه تعليمي مع مطابقة الحسابات، لا نسب موثق لكل إدارة مالية لاحقة.", en: "Teaching resemblance to account reconciliation,not documented descent of every later finance administration.", ur: "حساب ملانے سے تعلیمی مشابہت، ہر بعد کی مالی انتظامیہ کا ثابت نسب نہیں۔" }
+media: { image: media/met-carlin-ledger-context, diagram: media/diagram-zimam-oversight }
+kids:
+  ar: "قارن بطاقتين فيهما10قطع و4قطع مصروفة؛ الباقي6، لكن اتفاق الورقتين لا يثبت وحده صحة الواقعة. تمرين حديث لا جدول عباسي."
+  en: "Compare two cards with10tokens and4spent;6remain,but agreement between papers alone does not prove the event. Modern exercise,not an Abbasid table."
+  ur: "دو کارڈ ملائیں،10مہرے اور4خرچ؛6باقی ہیں، مگر دو کاغذوں کا اتفاق واقعے کا ثبوت نہیں۔ جدید تمرین، عباسی جدول نہیں۔"
+sources: [source/tdv-divan-duri, source/tdv-mehdi-bozkurt, source/tarikh-khulafa-minhaj-1434, source/met-account-ledger-20365, source/futuh-buldan-maarif-1407, source/tarikh-khalifa-umari-1985]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b93", source: "D-135; actual Duri/Bozkurt institutional paragraphs,Suyuti printed447/PDF447 image and Met20365/CommonsCC0photograph. Central improvement,not invention of accounting; old maker/concept/prose preserved." }

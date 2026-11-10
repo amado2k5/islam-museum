@@ -1,0 +1,15 @@
+id: passage/muslim-0091
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "91"
+label: { ar: "مسلم 91 — لا يدخل الجنة من كان في قلبه مثقال ذرة من كبر", en: "Muslim 91 — No one with an atom's weight of pride enters Paradise" }
+text: "قال رسول الله: «لا يدخل الجنة من كان في قلبه مثقال ذرة من كبر» قال رجل: إن الرجل يحب أن يكون ثوبه حسناً ونعله حسنة؛ قال: «إن الله جميل يحب الجمال، الكبر بطر الحق وغمط الناس»"
+summary:
+  ar: "رواية عبد الله بن مسعود في باب تحريم الكبر من كتاب الإيمان في صحيح مسلم؛ حد الجمال وحده الكبر — «بطر الحق وغمط الناس» — من أدق تعريفات الكبر في الدواوين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب تحريم الكبر وبيانه (طبعة دار التأصيل، الحديث 275؛ ترقيم عبد الباقي المعروف 91)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

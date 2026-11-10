@@ -1,0 +1,30 @@
+name: Accessibility barrier
+description: Something stops you from reading or using the site — screen reader, braille display, keyboard, captions, contrast, or anything else
+title: "Accessibility: "
+labels: [accessibility]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page URL (for example /ar/art/ or a full address) }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: "What did not work? What were you trying to do?"
+      description: Tell us what happened and what you expected.
+    validations: { required: true }
+  - type: input
+    id: tech
+    attributes:
+      label: Assistive technology (optional)
+      description: For example NVDA, JAWS, VoiceOver, TalkBack, a braille display, keyboard only, high-contrast mode — with version if you know it.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device (optional)
+      description: For example Chrome on Android, Safari on iPhone, Firefox on Windows.
+  - type: textarea
+    id: contact
+    attributes:
+      label: Anything else (optional)
+      description: Format you need the information in, or how to reach you.

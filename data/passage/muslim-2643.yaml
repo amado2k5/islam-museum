@@ -1,0 +1,16 @@
+id: passage/muslim-2643
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2643"
+label: { ar: "مسلم 2643 — كيفية الخلق الآدمي في بطن أمه", en: "Muslim 2643 — How the human is formed in the womb" }
+text: "قال عبد الله بن مسعود: حدثنا رسول الله — وهو الصادق المصدوق —: «إن أحدكم يجمع خلقه في بطن أمه أربعين يوماً، ثم يكون في ذلك علقة مثل ذلك، ثم يكون في ذلك مضغة مثل ذلك، ثم يرسل الملك فينفخ فيه الروح، ويؤمر بأربع كلمات: بكتب رزقه وأجله وعمله وشقي أو سعيد»"
+summary:
+  ar: "رواية عبد الله بن مسعود في باب كيفية الخلق الآدمي في بطن أمه من كتاب القدر في صحيح مسلم؛ أطوار الجنين وكتابة الرزق والأجل والعمل والشقاوة والسعادة — نص جامع للخلق والقدر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/qadar, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب القدر، باب كيفية الخلق الآدمي في بطن أمه (طبعة دار التأصيل، الحديث 6893؛ ترقيم عبد الباقي المعروف 2643)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }

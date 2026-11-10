@@ -1,0 +1,21 @@
+id: person/urwa-ibn-hizam
+class: person
+label: { ar: "عروة بن حزام العذري", en: "'Urwa ibn Hizam" }
+summary:
+  ar: "من عشاق بني عذرة أحب عفراء بنت عقال فتوفى وجداً بها، فنعاه ركب فأشرفت عفراء فقالت بحق نعيتم عروة بن حزام ثم سألتهم أين دفنوه فصارت إلى قبره فأكبت عليه حتى خرجت نفسها فدفنوها إلى جانب قبره، وروى الهيثم بن عدي عن أبيه أنه وجده شاباً في بيت منحاش ببني منبذة يترنم بأشعاره في عفراء فشهق شهقة فمات وأمه عجوز في كسر البيت {cite:muruj-al-dhahab p. 538-540}."
+  en: "The 'Udhri lover dead of longing for 'Afra — she died stretched on his grave, and al-Haytham's account has him die mid-verse by his mother's hut {cite:muruj-al-dhahab p. 538-540}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 538–540"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (Abu al-Faraj al-Isfahani); EI2" }
+relations:
+  - { type: lived_in, target: place/adra, confidence: low, note: "Association inferred from the nisba 'العذري'; specific birthplace or residence is not individually documented.", sources: [source/muruj-al-dhahab] }

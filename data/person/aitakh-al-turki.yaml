@@ -1,0 +1,21 @@
+id: person/aitakh-al-turki
+class: person
+label: { ar: "إيتاخ التركي", en: "Itakh al-Turki" }
+summary:
+  ar: "أمير تركي، كان على ميمنة جيش المعتصم في غزوة عمورية سنة ثلاث وعشرين ومائتين {cite:muruj-al-dhahab p. 450}."
+  en: "The Turkish amir commanding al-Mu'tasim's right wing at Amorium {cite:muruj-al-dhahab p. 450}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Turkish (nationality adjective); broad association, flagged for review.", sources: [source/muruj-al-dhahab], confidence: low }

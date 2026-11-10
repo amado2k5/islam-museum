@@ -1,0 +1,39 @@
+id: dec-20261108-173
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: df0bb3872f48
+lane: "modern-figures"
+class: "process"
+modality: "repo"
+domain: "governance"
+mode: "conservative"
+question: "Abdul Sancar's record has no Wikidata QID — nine indirect routes failed and the record went fail-closed per the wave-1 precedent. Should a single dedicated live-browser QID lookup pass be queued for Sancar (and Abdus Salam, Azim Premji), or is fail-closed permanent until a source surfaces one?"
+options:
+  - "queue one live-browser QID pass"
+  - "leave fail-closed permanently"
+  - "try API route once more"
+evidence:
+  - "docs/delegation/modern-figures-progress.md century-additions wave 2 group Q1"
+status: decided
+step: rule
+decision: "fix it in its own small commit: reproduce first, root-cause it, run validate + tests (+ build for site changes), append a CANARY entry — never hide a failure behind a guard or a widened timeout"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-bug-fix): docs/agents/workflow.md + docs/ai-change-gates.md §5."
+rule: "docs/agents/workflow.md + docs/ai-change-gates.md §5"
+rule_id: "rule-bug-fix"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-bug-fix
+chain:
+  depth: 0
+  root_id: "rule:rule-bug-fix"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "e992936b51fe22d3"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-bug-fix"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

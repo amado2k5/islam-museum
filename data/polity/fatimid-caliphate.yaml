@@ -1,0 +1,67 @@
+id: polity/fatimid-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الدولة الفاطمية
+  en: Fatimid Caliphate
+  ur: "فاطمی خلافت"
+summary:
+  ar: خلافة قامت سنة 909م وانتهت سنة 1171م، وعاصمتها القاهرة.
+  en: A caliphate established in 909 CE and ended in 1171 CE; its capital was Cairo.
+  ur: "909ء میں قائم ہونے والی خلافت جو 1171ء میں ختم ہوئی؛ قاہرہ اس کا دارالحکومت تھا۔ {cite:khitat-maqrizi-1998}"
+wings: []
+periods:
+- period/buyid-seljuk-fatimid-era
+regions:
+- egypt-nile
+- maghreb
+start:
+  edtf: "0909"
+  calendar: julian
+  precision: year
+  status: historical
+  note: "297 AH: al-Mahdi reaches Rafada (al-Maqrizi, Khitat p. 1366); 909 CE is the record's conversion of that year"
+  sources:
+  - source/khitat-maqrizi-1998
+end:
+  edtf: "1171"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "567 AH: the Ayyubid takeover of Egypt, with al-Qadi al-Fadil's notes for 567 AH (al-Maqrizi, Khitat p. 290)"
+  sources:
+  - source/khitat-maqrizi-1998
+capitals:
+- place: place/cairo
+relations:
+- type: successor_of
+  target: polity/abbasid-caliphate
+  sources:
+  - source/wikidata
+external_ids:
+  nomisma: "fatimids"
+  wikidata: Q160307
+sources:
+- source/khitat-maqrizi-1998
+- source/nomisma
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; dates and the Egypt history from al-Maqrizi's Khitat (local scan)
+  generated_by: Claude (maintainer session); Claude Haiku 5.5 (showcase-prose lane, Khitat sections)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+education:
+  did_you_know:
+    ar: "الدولة الفاطمية خلافة قامت سنة ٩٠٩م وانتهت سنة ١١٧١م، وعاصمتها القاهرة التي أسسوها."
+    en: "The Fatimid Caliphate ruled from 909 to 1171 CE; its capital was Cairo, the city it founded."
+    ur: "فاطمی خلافت 909ء سے 1171ء تک قائم رہی اور اس کا دارالحکومت قاہرہ تھا جسے اس نے بسایا۔"
+    sources: [source/khitat-maqrizi-1998, source/wikidata]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: published
+  completeness: 3
+  generated_by: "Claude Haiku 5.5; the beginning of the state, the Mahdi at Rafada in 297 AH, Cairo as the caliphal residence and the end in 567 AH are read from al-Maqrizi's Khitat (local scan, pp. 290, 1001, 1005, 1366, 2174). The successor relation keeps its Wikidata pointer; the education levels are unchanged and pending the founder's review"

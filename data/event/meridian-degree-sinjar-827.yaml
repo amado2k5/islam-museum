@@ -1,0 +1,23 @@
+id: event/meridian-degree-sinjar-827
+class: event
+kind: discovery
+label: { ar: "قياس درجة الطول بسنجار", en: "The meridian measurement at Sinjār" }
+summary:
+  ar: "شارك الخوارزمي في مشروع المأمون لقياس محيط الأرض بقياس طول درجة واحدة من خط الطول في سهل سنجار بالعراق، والأرض كروية معلومة من قديم {cite:britannica-al-khwarizmi}."
+  en: "Al-Khwārizmī joined al-Maʾmūn's project to fix the Earth's circumference by measuring the length of one degree of meridian across the plain of Sinjār in Iraq {cite:britannica-al-khwarizmi}."
+  ur: "خوارزمی المأمون کی اس مہم میں شریک ہوا جس میں عراق کے سنجار کے میدان میں طول البلد کی ایک ڈگری ناپ کر زمین کا محیط معلوم کیا گیا {cite:britannica-al-khwarizmi}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0827~", precision: year, status: historical, derived: true, note: "al-Maʾmūn-era project; year approximate" }
+  end: { edtf: "0827~", precision: year, status: historical, derived: true, note: "al-Maʾmūn-era project; year approximate" }
+relations:
+  - { type: occurred_at, target: place/sinjar, sources: [source/britannica-al-khwarizmi] }
+sources: [source/britannica-al-khwarizmi]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer al-Khwarizmi story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-al-khwarizmi
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

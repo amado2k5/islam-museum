@@ -1,0 +1,43 @@
+id: practice/tawaf
+class: practice
+kind: ritual
+label:
+  ar: الطواف
+  en: Tawaf (circling the Kaaba)
+summary:
+  ar: "الطواف بالكعبة سبعًا في الحج والعمرة وفي التطوع؛ يبتدئ ويُختم بالحجر الأسود، والكعبة عن اليسار."
+  en: "Circling the Kaaba seven times in hajj, umrah and voluntary rites; beginning and ending at the Black Stone with the Kaaba on the left."
+wings: []
+themes: [sacred-space-and-pilgrimage, worship-and-the-pillars]
+obligation: obligatory
+when:
+  ar: في الحج والعمرة وعند دخول المسجد الحرام
+
+scriptural_basis:
+- passage/quran-2-125
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-2-125
+  sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+sources: [source/tanzil-quran, source/majmu-irshad-v8]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: madhhab section from majmu-irshad-v8 PDF pp. 27-28"
+education:
+  did_you_know:
+    ar: "الطواف بالكعبة سبعاً في الحج والعمرة وفي التطوع؛ يبتدئ ويُختم بالحجر الأسود والكعبة عن اليسار."
+    en: "Tawaf circles the Kaaba seven times in hajj, umrah and voluntary rites — starting and ending at the Black Stone, the House on the left."
+    ur: "طواف حج، عمرہ اور تطوع میں کعبہ کے سات چکر ہیں — حجرِ اسود سے شروع اور اسی پر ختم، کعبہ بائیں طرف۔"
+    sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: draft
+  completeness: 3
+  generated_by: Devin (SWE-2 High), 2026-10-16

@@ -1,0 +1,18 @@
+id: person/al-tusayr-ibn-daysam
+class: person
+label: { ar: "التسير بن ديسم", en: "al-Tusayr ibn Daysam" }
+summary:
+  ar: "عند البلاذري: التسير بن ديسم بن ثور وجّهه خالد وهو بعين التمر إلى ماء لبني تغلب فطرقهم ليلاً فقتل وأسر."
+  en: "In al-Baladhuri: al-Tusayr ibn Daysam ibn Thawr, whom Khalid sent from Ayn al-Tamr against a water of Banu Taghlib — he surprised them by night, killed and captured."
+wings: [people]
+gender: male
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 347"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+died: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: traveled_to, target: place/ayn-al-tamr, note: "Sent out by Khalid from Ayn al-Tamr.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

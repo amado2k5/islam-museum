@@ -1,0 +1,20 @@
+id: place/kilwa
+class: place
+kind: site
+label: { ar: "كيلوا", en: "Kilwa" }
+summary:
+  ar: "جزيرة ومدينة سواحلية قبالة ساحل تنزانيا، من مراكز تجارة الذهب والعبيد؛ آثارها محمية عالمياً."
+  en: "Swahili island city off Tanzania, a medieval gold-trade centre whose ruins are World Heritage."
+wings: [place]
+regions: [east-africa]
+coordinates: [-8.96, 39.51]
+coordinate_precision: approx
+coordinate_note: "Identified location; flagged for gazetteer verification."
+external_ids: { wikidata: "Q319458" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Created so person nisba/name associations resolve on the map."

@@ -1,0 +1,21 @@
+id: place/golestan-province
+class: place
+kind: region
+label: { ar: "غلستان", en: "Golestan Province", ur: "صوبہ گلستان" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q170041)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [36.8393, 54.4444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q170041" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q170041 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,76 @@
+id: exhibit/path-istanbul-mosques
+class: exhibit
+kind: trail
+label:
+  ar: جوامع إسطنبول
+  en: Mosques of Istanbul
+summary:
+  ar: 'مسار في تاج المآذن: آيا صوفيا، والسلطان أحمد، والسليمانية، والسليمية في أدرنة — سماء إسطنبول العثمانية.'
+  en: A trail through the skyline of domes.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: آيا صوفيا
+    en: Hagia Sophia
+  body:
+    ar: كاتدرائية قسطنطينية تصير جامعًا.
+    en: كاتدرائية قسطنطينية تصير جامعًا.
+  features:
+  - building/hagia-sophia
+  - place/istanbul
+- title:
+    ar: السلطان أحمد
+    en: Sultan Ahmed
+  body:
+    ar: 'المسجد الأزرق: ست مآذن.'
+    en: 'المسجد الأزرق: ست مآذن.'
+  features:
+  - building/sultan-ahmad-mosque
+  - place/istanbul
+- title:
+    ar: السليمانية
+    en: Suleymaniye
+  body:
+    ar: 'سنان للقانوني: الجامع الكبير.'
+    en: 'سنان للقانوني: الجامع الكبير.'
+  features:
+  - building/sulaymaniyya-mosque
+  - person/sulayman-al-qanuni
+- title:
+    ar: السليمية
+    en: Selimiye
+  body:
+    ar: 'أدرنة: تحفة سنان التي فاقت آيا.'
+    en: 'أدرنة: تحفة سنان التي فاقت آيا.'
+  features:
+  - building/selimiye-mosque
+  - place/edirne
+- title:
+    ar: أيوب والجديد
+    en: Eyup and New
+  body:
+    ar: أيوب سلطان والجامع الجديد.
+    en: أيوب سلطان والجامع الجديد.
+  features:
+  - building/eyup-sultan-mosque
+  - building/new-mosque-istanbul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

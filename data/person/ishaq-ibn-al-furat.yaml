@@ -1,0 +1,29 @@
+id: person/ishaq-ibn-al-furat
+class: person
+label:
+  ar: "إسحاق بن الفرات"
+  en: "Ishaq ibn al-Furat"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإسحاق بن الفرات؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ishaq ibn al-Furat; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "753", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Husn al-Muhadara / al-Suyuti" }
+died: { edtf: "819", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Husn al-Muhadara / al-Suyuti" }
+relations:
+  - { type: lived_in, target: place/al-furat-city, confidence: low, note: "Associated with الفرات per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q107014908
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch64
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,17 @@
+---
+id: concept/al-makr-al-sayyi
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+The Sheikh states that evil scheming recoils only on those who scheme, and counts it a law of the world among the laws of life. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00} He says many people live to plot against others and harm them, wronging those who do them good and cutting those who keep ties with them, especially relatives, and he cites the sense of a verse by [[person/tarafa-ibn-al-abd|Tarafa ibn al-Abd]] that injustice from kin weighs more on the soul than the blow of a sword. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:03:00}
+
+## Human scheming and God's
+He distinguishes human scheming, which for him is twisting and turning and weaving conspiracies in the dark, from God's, which is encompassing and complete, and holds that no one schemes against a creature without his scheming recoiling on him. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:04:00} He denies that cunning is a sign of intelligence, holding that the schemer sows the seed of scheming in his heart instead of the seed of good and reaps only what harms him. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:00}
+
+## Scheming at work
+He criticises the colleague who poisons the director's mind against a colleague and files bad reports to take his place, holding that this is common near decision-makers and that it is a doubt in God's decree, which could have given him the same position without scheming; this is his view. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} He relates that a Commander of the Faithful asked a man he calls Abu Hazim to hand him the inkwell, and he refused, fearing that it would be used to write an injustice against a Muslim and he would share in it (needs_source: the name and story are the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:06:30}
+
+## The end of the schemers
+He mentions that [[person/firawn|Pharaoh]] was drowned, [[person/qarun|Qarun]] swallowed by the earth with his house, Nimrod destroyed, and that the infant Musa was cast into the river and saved while mighty Pharaoh went into the sea and drowned; he counts this God's law in the world. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:09:30} He holds that a Muslim has no battle except with Satan, so his heart knows no scheming, and mentions the Companion who would put a date in his brother's mouth and taste its sweetness in his own. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep09 00:07:30}

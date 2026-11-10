@@ -1,0 +1,30 @@
+id: person/abdelaziz-al-karaouri
+class: person
+label: { ar: "عبد العزيز الكرعاني", en: "Abdelaziz al-Karaouri", ur: "عبد العزیز الکرعانی" }
+names:
+  - { value: "عبد العزيز الكرعاني", kind: full }
+  - { value: "Abdelaziz al-Karaouri", kind: full }
+  - { value: "Abdelaziz Karaouni", kind: alternate }
+gender: male
+summary:
+  ar: "إمام ومقرئ مغربي من الدار البيضاء ⁦(توفي 2025)⁩، أمّ في مساجد التوبة والتيسير ثم القاضي عياض بسيدي معروف الذي امتلأ بالمصلين في التراويح، وعمل إطارًا تربويًا منذ 1999، وخرّج كثيرًا من الحفاظ؛ ترك الغناء في الأفراح في أواخر التسعينيات وتفرّغ للقرآن."
+  en: "Moroccan imam and reciter from Casablanca (died 2025) who led prayers at the al-Tawba and al-Taysir mosques and then at al-Qadi Iyad Mosque in Sidi Maarouf, packed for the tarawih; he worked in education from 1999 and taught many huffaz, having left singing at weddings in the late 1990s to devote himself to the Qur'an."
+  ur: "دار البیضاء کے مراکشی امام اور قاری ⁦(وفات 2025ء)⁩، جنھوں نے مسجد التوبہ اور التیسیر اور پھر سیدی معروف کی مسجد القاضی عیاض میں امامت کی، جو تراویح میں بھر جاتی؛ 1999ء سے تعلیم کے شعبے میں رہے اور بہت سے حفاظ تیار کیے؛ نوے کی دہائی کے آخر میں شادیوں میں گانا چھوڑ کر قرآن کے لیے وقف ہو گئے۔"
+wings: [people]
+regions: [maghreb]
+roles: [reciter, imam, teacher]
+died: { edtf: "2025-05-31", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died at a private clinic in Bouskoura near Casablanca after a long illness with cancer; funeral prayer at al-Qadi Iyad Mosque and burial at Sidi Mas'ud cemetery (Arabic article, citing Hespress; Wikidata gives the same day). Birth year not given.", sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article files him among Moroccan Sunni scholars without a sentence of attestation; Wikidata names no school. One category, so his school is not recorded."
+    sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri]
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-06", sources: [source/wikidata-abdelaziz-al-karaouri] }
+  wikidata: "Q134954937"
+external_ids: { wikidata: "Q134954937" }
+sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri]
+provenance: { layer: own-research, source: "Arabic Wikipedia «عبد العزيز الكرعاني» (revision 77132745, 2 November 2026) and Wikidata Q134954937 (revision 2399776573), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b03 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/wikipedia-abdelaziz-al-karaouri-ar, source/wikidata-abdelaziz-al-karaouri], confidence: low }

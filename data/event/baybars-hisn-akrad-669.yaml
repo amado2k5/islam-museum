@@ -1,0 +1,26 @@
+id: event/baybars-hisn-akrad-669
+class: event
+kind: conquest
+label: { ar: "افتتاح بيبرس حصن الأكراد وحصن عكار 669هـ", en: "Baybars takes Krak des Chevaliers and Akkar, 669 AH" }
+summary:
+  ar: "في شعبان سنة تسع وستين وستمائة افتتح الظاهر بيبرس حصن الأكراد بالسيف — أعظم قلاع الفرنج الحسبانيين وأشدها — ثم نازل حصن عكار فأخذه بالأمان، وهادنه صاحب طرابلس عشر سنين {cite:shadharat-dhahab p. 572}."
+  en: "In Sha'ban 669 al-Zahir Baybars took the fortress of the Kurds by the sword — the greatest and strongest of the Hospitaller castles — then besieged the fortress of Akkar and took it by safe-conduct, and the ruler of Tripoli made a ten-year truce with him {cite:shadharat-dhahab p. 572}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1271", hijri: "0669", precision: year, status: tradition, derived: true, note: "شعبان 669هـ {cite:shadharat-dhahab p. 572}" }
+sides:
+  - label: { ar: "المماليك" }
+  - label: { ar: "الحسبانيون" }
+relations:
+  - { type: occurred_at, target: place/krak-des-chevaliers, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (سنة 669)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: main-repair-orphan-prose
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,28 @@
+id: event/mustain-wasit-ibn-tulun-252
+class: event
+kind: other
+label:
+  ar: "إنزال المستعين إلى واسط في صحبة أحمد بن طولون، ٢٥٢هـ/٨٦٦م"
+  en: "Al-Musta'in sent down to Wasit under Ahmad ibn Tulun's guard, 252/866"
+  ur: "مستعین کو احمد بن طولون کی نگہبانی میں واسط بھیجنا، 252ھ/866ء"
+summary:
+  ar: "لما خلع المستعين نفسه في أول سنة اثنتين وخمسين ومائتين أُحدر إلى واسط محبوساً تسعة أشهر {cite:tarikh-khulafa-minhaj-1434 p. 555-556}، واختار أن يكون أحمد بن طولون في صحبته فأحسن صحبته؛ وكتب إليه غلمان المتوكل أن اقتله فإن قتلته ولّيناك واسطاً فأبى وقال والله لا أرى لله قتلت خليفة بايعته أبداً، فلما قُتل غسل جثته وكفّنها وواراها {cite:muntazam-ibn-al-jawzi j.5 p. 76} {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}."
+  en: "When al-Musta'in deposed himself at the opening of 252/866 he was sent down to Wasit and held for nine months {cite:tarikh-khulafa-minhaj-1434 p. 555-556}. Asked whom he wanted in his company he chose Ahmad ibn Tulun, who served him well; al-Mutawakkil's ghilman wrote offering him Wasit itself if he would kill the ex-caliph, and he refused — 'by God, I will never let it be said of me that I killed a caliph I had sworn allegiance to' — and when al-Musta'in was murdered he washed, shrouded and buried the body {cite:muntazam-ibn-al-jawzi j.5 p. 76} {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}."
+  ur: "جب مستعین نے 252ھ/866ء کے آغاز میں خود خلعت سے دستبردار ہوا تو اسے واسط بھیج دیا گیا جہاں وہ نو ماہ نظربند رہا {cite:tarikh-khulafa-minhaj-1434 p. 555-556}۔ اس نے احمد بن طولون کو اپنے ساتھ رکھنا چاہا، جس نے اس کی خوب خدمت کی؛ متوکل کے غلاموں نے لکھ بھجوایا کہ اگر وہ سابق خلیفہ کو قتل کر دے تو واسط اسے دے دی جائے گی، مگر اس نے انکار کر دیا — «اللہ کی قسم، میں کبھی اپنے بیعت کیے خلیفہ کا قاتل نہیں کہلاؤں گا» — اور جب مستعین قتل ہوا تو اس نے لاش کو غسل دیا، کفنایا اور دفنایا {cite:muntazam-ibn-al-jawzi j.5 p. 76} {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}۔"
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0866~", hijri: "0252", calendar: julian, precision: year, status: tradition, derived: true, note: "خلع نفسه في أول سنة ٢٥٢ وأُحدر إلى واسط {cite:tarikh-khulafa-minhaj-1434 p. 555-556}؛ عند EI2 the abdication 251/866 {cite:encyclopaedia-of-islam-2 vol. 1 p. 300}؛ التحويل مشتق.", sources: [source/tarikh-khulafa-minhaj-1434, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/wasit, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-mustain, role: "الخليفة المخلوق المنزول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الموكل بصحبته", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Suyuti, Tarikh al-Khulafa' (Minhaj ed. 1434) pp. 555-556; Ibn al-Jawzi, al-Muntazam j.5 p. 76; Encyclopaedia of Islam 2nd ed. vol. 1 p. 300 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ahmad-ibn-tulun-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

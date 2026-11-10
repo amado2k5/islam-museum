@@ -1,0 +1,21 @@
+id: place/bab-al-faradis-cemetery
+class: place
+kind: site
+label: { ar: "مقبرة باب الفراديس", en: "Bab al-Faradis Cemetery" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q47480632)."
+wings: [place]
+regions: [global]
+coordinates: [33.5158, 36.3064]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q47480632" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q47480632 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

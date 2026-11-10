@@ -1,0 +1,26 @@
+id: person/al-kumayt-ibn-zayd
+class: person
+label: { ar: "الكميت بن زيد الأسدي", en: "al-Kumayt ibn Zayd" }
+summary:
+  ar: "شاعر بني هاشم، نمى شعره في النزارية واليمانية فافتخرت نزار على اليمن واليمن على نزار وتحزب الناس وثارت العصبية في البدو والحضر حتى عدها المسعودي من دواعي زوال ملك بني أمية، ومن شعره ما طلب الكميت طلاب وتر ولكنا لنصرتنا، لقد علمت نزار أن قومي إلى نصر النبوة فأخرينا {cite:muruj-al-dhahab p. 219-220}."
+  en: "The Hashimite poet whose Nizar-Yaman boasting verse fanned the tribal asabiyya that Mas'udi counts among the causes of the Umayyads' fall {cite:muruj-al-dhahab p. 219-220}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch28
+external_ids: { wikidata: "Q5773868" }
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/wikidata]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kumayt b. Zayd' / W. F. Heinrichs; 60–126 AH)" }
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Kumayt b. Zayd' / W. F. Heinrichs; 60–126 AH)" }
+relations:
+  - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

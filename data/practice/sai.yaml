@@ -1,0 +1,38 @@
+id: practice/sai
+class: practice
+kind: ritual
+label:
+  ar: السعي
+  en: Sa'i (walking between Safa and Marwa)
+summary:
+  ar: "السعي بين الصفا والمروة سبعًا في الحج والعمرة، إحياءً لذكرى هاجر وهي تطلب الماء لابنها إسماعيل."
+  en: "Walking seven times between Safa and Marwa in hajj and umrah, in memory of Hagar seeking water for her son Ishmael."
+wings: []
+themes: [sacred-space-and-pilgrimage, worship-and-the-pillars]
+obligation: obligatory
+when:
+  ar: في الحج والعمرة بعد الطواف
+
+scriptural_basis:
+- passage/quran-2-158
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-2-158
+  sources: [source/tanzil-quran, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+sources: [source/tanzil-quran, source/majmu-irshad-v8]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+  enriched: "Claude Code (OCR-harvest worker D), claude-opus-5-5, run ocr-harvest-2026-11-04: madhhab section from majmu-irshad-v8 PDF pp. 108-109"
+status:
+  review: draft
+  completeness: 3
+  generated_by: Devin (SWE-2 High), 2026-10-16
+
+education:
+  levels: [scholars]
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b3", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

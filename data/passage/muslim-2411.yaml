@@ -1,0 +1,17 @@
+id: passage/muslim-2411
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2411"
+label: { ar: "مسلم 2411 — ارمِ فداك أبي وأمي", en: "Muslim 2411 — Shoot, may my father and mother be your ransom" }
+text: "قال علي: ما جمع رسول الله أبويه لأحد غير سعد بن مالك؛ إنه جعل يقول له يوم أحد: «ارمِ فداك أبي وأمي»"
+summary:
+  ar: "رواية علي في باب فضل سعد بن أبي وقاص من صحيح مسلم؛ لم يجمع النبي أبويه فداءً لأحد إلا لسعد يوم أحد — نص الإجلال النبوي لسعد بن أبي وقاص رامي بدر."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/battle-of-uhud, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب في فضل سعد بن أبي وقاص (طبعة دار التأصيل، الحديث 6389؛ ترقيم عبد الباقي المعروف 2411)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

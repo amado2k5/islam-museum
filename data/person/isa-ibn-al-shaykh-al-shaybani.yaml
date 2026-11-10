@@ -1,0 +1,21 @@
+id: person/isa-ibn-al-shaykh-al-shaybani
+class: person
+label: { ar: "عيسى بن الشيخ الشيباني", en: "Isa ibn al-Shaykh al-Shaybani" }
+summary:
+  ar: "أمير شيباني قدم من مصر إلى سامرا سنة ثلاث وخمسين ومائتين ومعه مال كثير وستة وسبعون رجلاً من ولد أبي طالب من ولد علي وجعفر وعقيل كانوا خرجوا من الحجاز فراراً من الفتنة إلى مصر، فأمر المعتز بتكفيلهم والتخلية عنهم وولى عيسى فلسطين {cite:muruj-al-dhahab p. 551-552}."
+  en: "The Shaybani amir who escorted seventy-six Talibids from Egypt to Samarra and was appointed over Palestine {cite:muruj-al-dhahab p. 551-552}."
+gender: male
+wings: [people]
+died: { edtf: "882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية) ج2 ص 551–552"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

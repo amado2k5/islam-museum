@@ -1,0 +1,20 @@
+id: person/yaqub-ibn-tariq
+class: person
+label: { ar: "يعقوب بن طارق", en: "Yaqub Ibn Tariq" }
+summary:
+  ar: "يعقوب بن طارق من أفاضل المنجمين، وله كتاب تقطيع كردجات الجيب وكتاب ما ارتفع من قوس نصف النهار وكتاب الزيج محلول في السندهند لدرجة درجة وهو كتابان الأول في علم الفلك والثاني في علم الدول {cite:fihrist-ibn-al-nadim p. 388}."
+  en: "Ya'qub ibn Tariq — author of the Sindhind zij solved degree by degree {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim)" }
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن ندیم، الفہرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch18

@@ -1,0 +1,30 @@
+id: person/al-khurashi-samarra-akhbari
+class: person
+label: { ar: "الخراشي إخباري سامرائي", en: "Al-Kharashi, Samarra akhbari" }
+names:
+  - { kind: full, lang: ar, value: "عراقي من أهل سامراء، إخباري ومؤلف" }
+gender: male
+roles: [historian, writer]
+traditions: [sunni]
+died: { edtf: "0938", hijri: "0327", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عراقي من أهل سامراء، إخباري، جمع الملح والنوادر، وكان مبدعا في تصانيفه."
+  en: "An Iraqi from Samarra, a historian of reports, who collected anecdotes and rarities and was original in his writings."
+wings: [people]
+themes: [history-writing-and-social-thought, literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص143"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch54
+relations:
+  - { type: lived_in, target: place/samarra, note: "Place association from the person's nisba/name (سامرائي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

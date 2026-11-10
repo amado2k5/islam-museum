@@ -1,0 +1,29 @@
+id: event/alp-arslan-death-465
+class: event
+kind: death
+label: { ar: "مقتل السلطان ألب أرسلان وقيام ملكشاه", en: "The killing of Sultan Alp Arslan and the accession of Malikshah" }
+summary:
+  ar: "في سنة خمس وستين وأربعمائة عبر السلطان ألب أرسلان جيحون على جسر مُدّه ومعه زيادة على مائتي ألف فارس يقصد بخارا، فأُتي بصاحب قلعة يعرف بيوسف الخوارزمي أسيرًا في سادس ربيع الأول، فشتمه السلطان وتقدّم بأن يُضرب له أربعة أوتاد وتُشد أطرافه إليها، فقال يوسف: يا مخنث، مثلي يُقتل هذه القتلة؟ فاحتدّ السلطان وأخذ القوس والنشابة وأمر غلاميه بإطلاقه فرماه بسهم فأخطأ، فعدا يوسف إليه وكان جالسًا على سدة فنهض لينزل فعثر ووقع على وجهه، فوثب عليه يوسف فضربه بسكين كانت معه في خاصرته، ولحقه الجند فقتلوه وشُدّت جراحة السلطان وعاد بهم إلى جيحون فتوفى يوم السبت عاشر ربيع الأول. فلما مات جُمع العسكر وجلس ولده ملكشاه على سدة الملك والأمراء قيام، فقال نظام الملك: تكلّم أيها السلطان، فقال: الأكبر منكم أبي، والأوسط انحى، والأصغر ولدي، وسأفعل معكم ما لم يُسبق إليه — فأجابوا بالسمع والطاعة، وتولّى نظام الملك وأبو سعد المستوفي أخذ البيعة له. وكان قد بلغ أهل بخارا عبوره فاجتمع الصالحون وصاموا ودعوا عليه فهلك {cite:muntazam-ibn-al-jawzi j.8 p.618-619}. وكان عمره حين قُتل أربعين سنة وخمسة أشهر، وكانت ولايته تسع سنين وستة أشهر {cite:muntazam-ibn-al-jawzi j.8 p.640}."
+  en: "Crossing the Oxus toward Bukhara with more than two hundred thousand horse, Alp Arslan had the captured fortress-commander Yusuf al-Khwarizmi brought before him and ordered him staked; Yusuf sneered 'shall the likes of me die such a death?', the sultan seized bow and arrows, shot and missed, stumbled rising from his dais — and Yusuf was on him with a knife in his side. The attendants killed Yusuf; the sultan's wound was bound and he died back at the Oxus on Saturday 10 Rabi' I 465, aged forty years and five months, after nine years and six months of rule. On his dais his son Malikshah spoke his first command — 'the eldest of you is my father, the middle my uncle, the youngest my son, and I shall do for you what has not been done before' — and the army gave bay'a through Nizam al-Mulk and Abu Sa'd the mustawfi {cite:muntazam-ibn-al-jawzi j.8 p.618-619,640}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+themes: [politics-governance-and-authority]
+date:
+  start: { edtf: "1072-11-24~", hijri: "0465-03-10", calendar: julian, precision: day, status: tradition, derived: true, note: "السبت ١٠ ربيع الأول ٤٦٥؛ التحويل مشتق." }
+sides:
+  - label: { ar: "السلطان ألب أرسلان" }
+  - label: { ar: "يوسف الخوارزمي" }
+relations:
+  - { type: occurred_at, target: place/bukhara, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/alp-arslan, role: "المقتول", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/malikshah, role: "الخلَف على سدة الملك", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/nizam-al-mulk, role: "مدبر البيعة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/yusuf-al-khwarizmi, role: "القاتل", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 465)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch25
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

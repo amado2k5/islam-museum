@@ -1,0 +1,28 @@
+id: person/sultan-mirsayev
+class: person
+label:
+  ar: "سلطان ميرساييف"
+  en: "Sultan Mirsayev"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسلطان ميرساييف؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sultan Mirsayev; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/contemporary-era]
+sources: [source/al-aalam]
+born: { edtf: "1958", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Chechen Muftiate Records" }
+relations:
+  - { type: born_in, target: place/russia, confidence: low, note: "Born at Aksay, Rostov Oblast (Wikidata P19); regions: anatolia-balkans.", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q29865300
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

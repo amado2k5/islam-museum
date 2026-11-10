@@ -1,0 +1,33 @@
+id: person/al-walid-ibn-abi-bakr-al-maliki
+class: person
+label:
+  ar: "الوليد بن أبي بكر المالكي"
+  en: "Al-Walid ibn Abi Bakr al-Maliki"
+names:
+  - { value: "الوليد بن أبي بكر المالكي", kind: full }
+died: { hijri: "0392", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Death 392 AH as given in the appendix; birth not given." }
+summary:
+  ar: "الوليد بن أبي بكر بن مخلد بن أبي زياد، أبو العباس العمري، وعند البعض الغمري، من أهل الأندلس، من علماء المالكية، إمام راوية حافظ، كان ثقة أميناً كثير السماع والكتابة. سافر إلى الشام والعراق وخراسان وما وراء النهر، وعاد إلى بغداد، ولقي في رحلته ألف شيخ بين محدث وفقيه. من تصانيفه «الوجازة في صحة القول بالإجازة» و«تاريخ بغداد». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1646} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1647}"
+  en: "Al-Walid ibn Abi Bakr ibn Mukhallad ibn Abi Ziyad, Abu al-Abbas al-Umari, also named al-Ghamri by some, from al-Andalus. A Maliki scholar, a reliable and retentive transmitter of hadith, who gathered and wrote much in his own land and abroad. He travelled to Syria, Iraq, Khurasan and Transoxiana, returned to Baghdad, and is said to have met a thousand teachers among hadith scholars and jurists. His works include al-Wijaza fi sihhat al-qawl bi-al-ijaza, on the validity of transmission by licence. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1646} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1647}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1646 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: traveled_to, target: place/al-sham, note: "From text: travelled to Syria", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: traveled_to, target: place/baghdad, note: "From text: returned to Baghdad", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

@@ -1,0 +1,21 @@
+id: person/shurahbil-ibn-dhi-al-kala
+class: person
+label: { ar: "شرحبيل بن ذي الكلاع الحميري", en: "Shurahbil ibn Dhi'l-Kala' al-Himyari" }
+summary:
+  ar: "أحد أمراء مقدمة عبيد الله بن زياد الخمسة في حرب التوابين بعين الوردة {cite:muruj-al-dhahab p. 88}."
+  en: "A Himyari commander of Ibn Ziyad's vanguard at 'Ayn al-Warda {cite:muruj-al-dhahab p. 88}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 88"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch41
+died: { edtf: "686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: traveled_to, target: place/ayn-al-warda, sources: [source/muruj-al-dhahab] }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

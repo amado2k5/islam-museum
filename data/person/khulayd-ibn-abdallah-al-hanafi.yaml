@@ -1,0 +1,17 @@
+id: person/khulayd-ibn-abdallah-al-hanafi
+class: person
+label: { ar: "خليد بن عبد الله الحنفي", en: "Khulayd ibn Abdallah al-Hanafi" }
+summary:
+  ar: "خليد بن عبد الله الحنفي؛ في رواية أنه كان على الجيش الموجه إلى هراة مكان أوس بن ثعلبة بن رقي."
+  en: "Khulayd ibn Abdallah al-Hanafi; in one account he, not Aws ibn Tha'laba, led the army sent against Herat."
+periods: [period/rashidun]
+wings: [people]
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/harat, confidence: low, note: "Associated with هراة per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,23 @@
+---
+id: concept/quran-miracle-for-every-age
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+يرى محمد متولي الشعراوي أن إعجاز القرآن لا يقف عند زمن نزوله، بل يُعطي كل جيل إعجازاً فيما برع فيه ذلك الجيل. وهذا رأيه يُنسب إليه، ولم تُعرض معه آراء أخرى بعد. {cite:tafsir-sharawi-khawatir-scan p.12}
+
+## التحدي لكل جيل
+يذكر الشعراوي أن القرآن نزل يتحدى العرب في اللغة والبلاغة، ولأنه دين للناس جميعاً كان لا بد أن يتحدى غيرهم فيما برعوا فيه. ويستشهد بأول آيات سورة الروم [[passage/quran-30-1|الروم 1]] و[[passage/quran-30-4|الروم 4]] التي أخبرت بغلبة الروم بعد هزيمتهم أمام الفرس، ويعدّها من إعجاز القرآن لغير العرب وقت نزوله. {cite:tafsir-sharawi-khawatir-scan p.12} {cite:tafsir-sharawi-khawatir-scan p.13}
+
+## مثال بسط الأرض
+يستدل الشعراوي بقوله تعالى [[passage/quran-50-7|ق 7]] على أن لفظ «مددناها» لا يصادم العلم بكروية الأرض، لأن الأرض تبدو مبسوطة أمام الناظر في أي موضع يقف فيه، ولا يكون ذلك إلا إذا كانت الأرض كروية. {cite:tafsir-sharawi-khawatir-scan p.13} {cite:tafsir-sharawi-khawatir-scan p.14}
+
+## رأي المؤلف
+هذا رأي الشعراوي وتعليله، وينسب إليه هنا. لم تُعرض بعد آراء أهل التفسير والإعجاز في هذه المسألة، وستُضاف من مصادر أخرى في دفعة لاحقة.
+
+## من برنامج «ونفس وما سوّاها» لعمر عبد الكافي
+يضرب الشيخ مثالين على ما يسمّيه الإعجاز التاريخي: [[person/haman|هامان]] الذي يروي أن الهيروغليفية كشفت أنه كان وزيرًا للإنشاءات، ونبوءة غلبة الروم على الفرس في بضع سنين، ويروي أن [[person/abu-bakr|أبا بكر]] راهن المشركين على مئة من الإبل أن الروم ستغلب، قبل تحريم الرهان، وأن الروم انتصروا فعلًا. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:07:00} ويرى أن الدول الكبرى إذا هُزمت لا تنتصر إلا بعد جيل، ويستشهد بالحربين العالميتين، وأن الحضارة تطير عادة بجناحين كفارس والروم أو أمريكا والاتحاد السوفيتي إلا أيام عظمة الإسلام، وهذا رأيه. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep28 00:06:30}
+
+## في سلسلة زغلول النجار «ويتفكرون»
+يقول [[person/zaghloul-el-naggar|زغلول النجار]] إن القرآن، لأنه كلام الله المحفوظ في لغة وحيه أربعة عشر قرنًا، لا بد أن يكون معجزًا في كل أمر من أموره، و«ما من زاوية» ينظر منها إنسان محايد إليه إلا رأى منها وجهًا من أوجه الإعجاز. {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep01 00:03:30} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep01 00:04:00} ويعدّ من هذه الأوجه البياني والاعتقادي والتعبدي والأخلاقي والتشريعي والاجتماعي والعلمي والإنبائي التاريخي والتربوي والنفسي والاقتصادي والإداري والغيبي والصوتي والتأثيري والحفظ والرسم والتحدي والكمال والمنهج والرقمي والهندسي، ولا يقطع بأنها كل الأوجه. {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep02 00:02:00} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep02 00:06:00} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep02 00:08:00} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep02 00:10:00} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep02 00:11:30} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep02 00:13:00} ويقول إن الآية ترد بألفاظ محددة يرى فيها أهل كل عصر معنى، وتتسع المعاني «في تكامل لا يعرف التضاد»، ويضرب لذلك مثل القسم بالأرض ذات الصدع: فهمه الأقدمون بانصداع التربة عن النبات، ويرى فيه هو شبكة صدوع قيعان المحيطات. {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep17 00:08:00} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep17 00:11:30} {cite:assabile-zaghloul-el-naggar wa-yatafakkarun/ep17 00:12:00}

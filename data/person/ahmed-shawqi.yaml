@@ -1,0 +1,49 @@
+id: person/ahmed-shawqi
+class: person
+label: { ar: "أحمد شوقي", en: "Ahmed Shawqi", ur: "احمد شوقی" }
+names:
+  - { value: "أحمد شوقي علي أحمد شوقي", kind: full }
+  - { value: "Ahmed Shawqi Ali Ahmed Shawqi", kind: full }
+  - { value: "أمير الشعراء", kind: laqab }
+gender: male
+summary:
+  ar: "شاعر وكاتب مسرحي مصري (1868–1932)، لُقّب بـ«أمير الشعراء» سنة 1927 ويُعدّ أعظم شعراء المدرسة الاتباعية العربية. كان شاعر بلاط الخديوي، ونُفي إلى إسبانيا إبّان الحرب العالمية الأولى، وهو رائد المسرح الشعري العربي بمسرحيات مثل «مجنون ليلى» و«مصرع كليوباترا»، وخلّف ديوانه «الشوقيات»."
+  en: "Egyptian poet and playwright (1868–1932), crowned 'Prince of Poets' (Amir al-Shu'ara) by his peers in 1927 and regarded as the greatest poet of the Arabic neoclassical movement. Court poet to the Khedives, he was exiled to Spain during the First World War; he pioneered poetic drama in Arabic with plays such as Majnun Laila and The Death of Cleopatra, and left his collected verse as al-Shawqiyyat."
+  ur: "مصری شاعر اور ڈراما نگار (1868–1932)، جنہیں 1927 میں «امیر الشعرا» کا لقب ملا اور عربی کلاسیکی احیا کے سب سے بڑے شاعر مانا جاتا ہے۔ خدیو کے درباری شاعر رہے، پہلی جنگ عظیم میں اسپین جلاوطن ہوئے، «مجنون لیلیٰ» اور «مصرع کلیوپیٹرا» جیسے ڈراموں سے عربی شعری ڈرامے کی بنیاد رکھی اور ان کا دیوان «الشوقیات» یادگار ہے۔"
+roles: [poet, playwright, writer]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1868-10-16"
+  hijri: "1285"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Born in Cairo's Hanafi quarter on 29 Jumada al-Akhira 1285 AH, which the Arabic article pairs with 16 October 1868. The English article's text and birth template give 17 October 1868 while its own death-and-age template computes from 16 October; Wikidata gives only the year 1868. The day is therefore recorded as debated."
+  sources: [source/wikipedia-ahmed-shawqi-ar, source/wikipedia-ahmed-shawqi-en, source/wikidata-ahmed-shawqi]
+died:
+  edtf: "1932-10-14"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Cairo on 14 October 1932 (English infobox; the Arabic article gives 14 October, 1351 AH). Wikidata carries two conflicting day values, 23 October 1932 and 13 December 1932, neither of which is followed; the conflict is disclosed here."
+  sources: [source/wikipedia-ahmed-shawqi-en, source/wikipedia-ahmed-shawqi-ar, source/wikidata-ahmed-shawqi]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-ahmed-shawqi-en, source/wikipedia-ahmed-shawqi-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-ahmed-shawqi-en, source/wikipedia-ahmed-shawqi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Arabic article's infobox gives his religion as Sunni Muslim. That is one infobox in one tradition: the English and Urdu articles make no statement of his religion, and Wikidata carries no religion (P140) value. His religious poetry — including Nahj al-Burda, in praise of the Prophet — is literary work, not an attestation of a school. A single infobox never settles a school, so the value is unknown."
+    sources: [source/wikipedia-ahmed-shawqi-ar, source/wikipedia-ahmed-shawqi-en, source/wikidata-ahmed-shawqi]
+external_ids: { wikidata: "Q401491" }
+sources: [source/wikipedia-ahmed-shawqi-en, source/wikipedia-ahmed-shawqi-ar, source/wikipedia-ahmed-shawqi-ur, source/wikidata-ahmed-shawqi]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q401491, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-50
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

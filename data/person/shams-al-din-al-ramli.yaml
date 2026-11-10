@@ -1,0 +1,29 @@
+id: person/shams-al-din-al-ramli
+class: person
+label:
+  ar: "شمس الدين الرملي"
+  en: "Shams al-Din al-Ramli"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشمس الدين محمد بن أحمد الرملي المعروف بالشافعي الصغير، فقيه مصر في القرن السادس عشر صاحب «نهاية المحتاج»، توفي سنة ١٥٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shams al-Din Muhammad ibn Ahmad al-Ramli known as al-Shafi'i al-Saghir, the sixteenth-century jurist of Egypt author of Nihayat al-Muhtaj, d. 1596; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q60843105
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0039
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1513", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/ramla, confidence: low, note: "Association inferred from the nisba in the name 'Shams al-Din al-Ramli'; specific residence not individually documented.", sources: [source/al-aalam] }

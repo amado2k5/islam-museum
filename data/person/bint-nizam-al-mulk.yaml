@@ -1,0 +1,22 @@
+id: person/bint-nizam-al-mulk
+class: person
+label: { ar: "بنت نظام الملك", en: "Bint Nizam al-Mulk" }
+died: { edtf: "1077", hijri: "0470", calendar: julian, precision: month, status: tradition, derived: true, note: "توفيت في شعبان سنة سبعين وأربعمائة {cite:wafayat-ayan}." }
+summary:
+  ar: "بنت نظام الملك أبي علي الحسن بن علي بن إسحاق وزير السلطان ألب أرسلان وملكشاه؛ زوجة الخليفة العباسي المقتدي بالله تزوجها سنة اثنتين وستين وأربعمائة وتوفيت في شعبان سنة سبعين وأربعمائة {cite:wafayat-ayan}."
+  en: "Bint Nizam al-Mulk (d. 470) — daughter of the great Seljuk vizier and wife of the Abbasid caliph al-Muqtadi, whom she married in 462 {cite:wafayat-ayan}."
+gender: female
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Daughter of Nizam al-Mulk married to the caliph al-Mustazhir at Baghdad per the record's own summary.", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الخامس (عارضة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch122
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3

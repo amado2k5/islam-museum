@@ -1,0 +1,32 @@
+id: place/abbasid-caliphate
+class: place
+kind: region
+label:
+  ar: الدولة العباسية
+  en: Abbasid Caliphate
+summary:
+  ar: منطقة تُعرف بالإنجليزية باسم Abbasid Caliphate.
+  en: Abbasid Caliphate; a place linked to persons via Wikidata claims.
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 33.3153
+- 44.3661
+coordinate_precision: locality
+coordinate_note: Wikidata Q12536 (ID held on the matching polity entity).
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q12536 (labels, coordinates, description)

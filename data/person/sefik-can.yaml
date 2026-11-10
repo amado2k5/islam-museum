@@ -1,0 +1,30 @@
+id: person/sefik-can
+class: person
+label:
+  ar: "شفيق جان"
+  en: "Şefik Can"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لشفيق جان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Şefik Can; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/contemporary-era]
+born: { edtf: "1909", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "2005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/erzurum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q122803)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6100040
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

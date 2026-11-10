@@ -1,0 +1,23 @@
+id: event/battle-of-wadi-al-laban-1558
+class: event
+kind: battle
+label: { ar: "معركة وادي اللبن", en: "Battle of Wadi al-Laban" }
+summary:
+  ar: "بطاقة أولية لمعركة وادي اللبن سنة ١٥٥٨م، نصر السعديين على العثمانيين قرب فاس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Wadi al-Laban in 1558, the Saadian victory over the Ottomans near Fez; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1558", precision: year, status: tradition, derived: true }
+  end: { edtf: "1558", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q4117011
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

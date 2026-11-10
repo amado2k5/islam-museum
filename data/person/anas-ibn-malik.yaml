@@ -1,0 +1,95 @@
+id: person/anas-ibn-malik
+class: person
+label:
+  ar: أنس بن مالك
+  en: Anas ibn Malik
+names:
+- kind: full
+  lang: ar
+  value: أنس بن مالك بن النضر بن ضمضم بن زيد بن حرام بن جندب الأنصاري الخزرجي النجاري
+- kind: kunya
+  lang: ar
+  value: أبو حمزة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: "خادم النبي وأحد المكثرين من الرواية عنه؛ قدم النبي المدينة وهو ابن عشر سنين فأتت به أمه أم سليم ليخدمه، وسكن البصرة بعد الفتوح وهو آخر الصحابة موتاً بها، وتُذكر وفاته بين 90 و93هـ. وفي الصحيح أخرج لمريديه زوج نعال جرداوين لهما قبالان حدّث ثابت البناني بعده أنهما نعلا النبي {cite:sahih-al-bukhari 3107}."
+  en: The servant of the Prophet and one of the most prolific narrators from him; he was ten when the Prophet reached Medina and his mother Umm Sulaym brought him to serve him; after the conquests he settled in Basra, where he was the last Companion
+    to die, with his death given between 90 and 93 AH.
+wings: [people]
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 430 (ص 100).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "612", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "712", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+- type: lived_in
+  target: place/basra
+  note: "From text: settled in Basra"
+  sources: [source/ibn-hajar-isaba, source/sahih-al-bukhari]
+- type: child_of
+  target: person/umm-sulaym
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 430، ص 100
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch111
+external_ids: { wikidata: "Q76330" }
+sources:
+- source/ibn-hajar-isaba
+- source/sahih-al-bukhari
+education:
+  did_you_know:
+    ar: "أنس بن مالك خدم النبي من عشر سنين حين قدم المدينة، وسكن البصرة بعد الفتوح وكان آخر الصحابة موتاً بها."
+    en: "Anas ibn Malik served the Prophet from age ten when he arrived in Medina; he settled in Basra after the conquests and was the last Companion to die there."
+    ur: "انس بن مالک مدینہ آمد پر دس برس کی عمر سے خدمت میں رہے؛ فتوحات کے بعد بصرہ میں رہے اور وہیں آخری صحابی وفات پائے۔"
+    sources: [source/ibn-hajar-isaba, source/sahih-al-bukhari]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the second group of Companions, about twenty, whose fatwas make a small book."
+    sources: [source/tdv-fetva]
+  - job: job/amil
+    kind: episodic
+    status: historical
+    note: "The ÂMİL entry says Abu Bakr appointed him governor of Bahrain and laid the tax collection on him with the governorship. The entry's sources for that sentence were not re-read."
+    sources: [source/tdv-amil]

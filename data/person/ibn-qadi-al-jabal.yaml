@@ -1,0 +1,36 @@
+id: person/ibn-qadi-al-jabal
+class: person
+label:
+  ar: "ابن قاضي الجبل"
+  en: "Ibn Qadi al-Jabal"
+roles: [jurist, qadi]
+gender: male
+summary:
+  ar: "أحمد ابن قاضي الجبل، شيخ الحنابلة في عصره وقاضي دمشق، صاحب «الفائق»؛ توفي سنة 771هـ ⁦(1370م)⁩."
+  en: "Ahmad Ibn Qadi al-Jabal (1294–1370), shaykh of the Hanbalis and qadi of Damascus, author of al-Fa'iq."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1301", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1370", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: born_in, target: place/al-salihiyya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/al-salihiyya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q29512691
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.111)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

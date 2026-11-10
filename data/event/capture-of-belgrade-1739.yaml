@@ -1,0 +1,23 @@
+id: event/capture-of-belgrade-1739
+class: event
+kind: siege
+label: { ar: "أخذ بلغراد", en: "Capture of Belgrade" }
+summary:
+  ar: "بطاقة أولية لأخذ بلغراد سنة ١٧٣٩م، تسليم النمساويين للمدينة للعثمانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Capture of Belgrade in 1739, the Austrian surrender of the city to the Ottomans; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1739", precision: year, status: tradition, derived: true }
+  end: { edtf: "1739", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q5036987
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

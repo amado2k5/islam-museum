@@ -1,0 +1,23 @@
+id: event/battle-of-ain-zara-1911
+class: event
+kind: battle
+label: { ar: "معركة عين زارة", en: "Battle of Ain Zara" }
+summary:
+  ar: "بطاقة أولية لمعركة عين زارة سنة ١٩١١م، فوز الإيطاليين على المدافعين العثمانيين عن طرابلس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Ain Zara in 1911, the Italian victory over Tripoli's Ottoman defenders; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1911", precision: year, status: tradition, derived: true }
+  end: { edtf: "1911", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q16487664
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

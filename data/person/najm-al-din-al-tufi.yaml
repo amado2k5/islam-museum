@@ -1,0 +1,30 @@
+id: person/najm-al-din-al-tufi
+class: person
+label:
+  ar: "نجم الدين الطوفي"
+  en: "Najm al-Din al-Tufi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لنجم الدين سليمان بن عبد القوي الطوفي، فقيه حنبلي القرن الرابع عشر صاحب كتاب المصالح، توفي سنة ١٣١٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Najm al-Din Sulayman ibn Abd al-Qawi al-Tufi, the fourteenth-century Hanbali jurist known for the maslaha treatise, d. 1316; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1259", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tufi); al-Durar al-Kamina" }
+died: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tufi); al-Durar al-Kamina" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+  - { type: died_in, target: place/al-khalil, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168225)" }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+external_ids:
+  wikidata: Q15446588
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0040, lib-durar-kamina-batch-1-2-2026-10-31
+status:
+  review: published
+  completeness: 1

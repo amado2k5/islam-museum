@@ -1,0 +1,34 @@
+id: person/dust-muhammad-haravi
+class: person
+label:
+  ar: "دوست محمد الهروي"
+  en: "Dust Muhammad Haravi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لدوست محمد الهروي، الخطاط والمصور التيموري وصاحب المقدمة في تاريخ الخط؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Dust Muhammad Haravi, the Timurid calligrapher, painter, and chronicler of calligraphy; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1564~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q138610897
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

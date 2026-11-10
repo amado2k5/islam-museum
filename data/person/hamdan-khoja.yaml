@@ -1,0 +1,31 @@
+id: person/hamdan-khoja
+class: person
+label: { ar: "حمدان خوجة", en: "Hamdan Khoja" }
+names:
+  - { kind: full, lang: ar, value: "حمدان بن عثمان خوجة" }
+gender: male
+roles: [politician, writer]
+traditions: [sunni]
+born: { edtf: "1715", hijri: "1128", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1842", hijri: "1258", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أسرة ذات جاه وعلم ومشاركة سياسية في دولة الداي، وكتب في السياسة والنظام."
+  en: "From a family of standing and learning with a political role in the Dey's state. He wrote on politics and governance."
+wings: [people]
+themes: [history-writing-and-social-thought]
+periods: [period/colonial-era]
+regions: [maghreb]
+story_roles:
+  - { role: official, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص551"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch56

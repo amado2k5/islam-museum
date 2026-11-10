@@ -1,0 +1,67 @@
+id: exhibit/path-tigris-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن دجلة
+  en: Cities of the Tigris
+summary:
+  ar: 'مسار في العراق على دجلة: الموصل وبغداد وسامراء والبصرة — قرون الماء والعلم.'
+  en: A trail through Iraq's river cities.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الموصل
+    en: Mosul
+  body:
+    ar: 'مدينة الزنكيين والجزيرة: منارة الحدباء.'
+    en: 'مدينة الزنكيين والجزيرة: منارة الحدباء.'
+  features:
+  - place/mosul
+  - person/imad-al-din-zangi
+  - person/nur-al-din-mahmud-ibn-zangi
+- title:
+    ar: بغداد
+    en: Baghdad
+  body:
+    ar: 'مدينة السلام: المنصور 762.'
+    en: 'مدينة السلام: المنصور 762.'
+  features:
+  - place/baghdad
+  - polity/abbasid-caliphate
+- title:
+    ar: سامراء
+    en: Samarra
+  body:
+    ar: عاصمة الخلفاء نصف قرن.
+    en: عاصمة الخلفاء نصف قرن.
+  features:
+  - place/samarra
+- title:
+    ar: البصرة
+    en: Basra
+  body:
+    ar: ميناء العراق ومدرسة اللغة.
+    en: ميناء العراق ومدرسة اللغة.
+  features:
+  - place/basra
+  - person/al-hasan-al-basri
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

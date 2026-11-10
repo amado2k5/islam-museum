@@ -1,0 +1,34 @@
+id: person/shaydhala
+class: person
+label:
+  ar: "شيذلة"
+  en: "Shaydhala"
+roles: [qadi, preacher]
+gender: male
+summary:
+  ar: "عزيزي الجبلي «شيذلة»، واعظ وفقيه شافعي وقاضي بغداد، صاحب «ديوان الأنس»؛ توفي سنة 494هـ ⁦(1100م)⁩."
+  en: "'Azizi al-Jabali “Shaydhala” (d. 494/1100), Shafi'i preacher and qadi of Baghdad, author of Diwan al-Uns."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q63487755
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.232)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1105", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

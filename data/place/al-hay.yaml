@@ -1,0 +1,16 @@
+id: place/al-hay
+class: place
+kind: city
+label: { en: "Al-Hay", ar: "الحي" }
+summary:
+  en: "Town in Wasit, Iraq."
+  ar: "مدينة في العراق."
+wings: [place]
+regions: [levant-iraq]
+coordinates: [32.1742, 46.0433]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q2350519", geonames: "99350" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q2350519 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: person/kamil-ibn-ziyad
+class: person
+label: { ar: "كميل بن زياد", en: "Kamil ibn Ziyad" }
+summary:
+  ar: "من خواص علي وثقات أصحابه، روى ضرار بن ضمرة عنه أنه سمع علياً يوصيه ذات يوم فيقول يا كميل ذب عن المؤمن فإن ظهره حمى الله ونفسه كريمة على الله وظالمه خصم الله وأحذركم من ليس له ناصر إلا الله {cite:muruj-al-dhahab p. 711}."
+  en: "Ali's trusted companion to whom the famous counsel was addressed: 'O Kamil, defend the believer — his back is God's sanctuary, his oppressor God's adversary, and beware him who has no helper but God' {cite:muruj-al-dhahab p. 711}."
+gender: male
+wings: [people]
+born: { edtf: "628~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 711"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch41
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

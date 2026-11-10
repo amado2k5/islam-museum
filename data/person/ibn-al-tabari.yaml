@@ -1,0 +1,29 @@
+id: person/ibn-al-tabari
+class: person
+label:
+  ar: "ابن الطبري"
+  en: "Ibn al-Tabari"
+roles: [qadi, muhaddith, historian]
+gender: male
+summary:
+  ar: "أحمد بن الحسين أبو حامد المروزي «ابن الطبري»، قاضي قضاة خراسان وحافظ وتاريخي؛ توفي ببخارى سنة 376هـ ⁦(986م)⁩."
+  en: "Ahmad ibn al-Husayn “Ibn al-Tabari” al-Marwazi (d. 376/986), chief qadi of Khurasan, hadith memoriser and historian."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+born: { edtf: "1066", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q122173428
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.115)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
+status:
+  review: published
+  completeness: 3

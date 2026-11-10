@@ -1,0 +1,28 @@
+id: event/al-hakim-rihla-iraq-341
+class: event
+kind: other
+label:
+  ar: "رحلة الحاكم النيسابوري إلى العراق والحجاز، ٣٤١هـ"
+  en: "Al-Hakim's journey to Iraq and the Hijaz, 341/952"
+  ur: "حاکم نیشاپوری کا سفرِ عراق و حجاز، 341ھ/952ء"
+summary:
+  ar: "رحل الحاكم إلى العراق سنة إحدى وأربعين بعد موت شيخه إسماعيل الصفار بأشهر، وحج ورحل إلى بلاد خراسان وما وراء النهر؛ فسمع بنيسابور وحدها من نحو ألف شيخ وسمع بالعراق وغيرها من البلدان من نحو ألف شيخ {cite:tarikh-islam-dhahabi pp. 122-123}."
+  en: "In 341/952-3 al-Hakim travelled to Iraq a few months after the death of his shaykh Isma'il al-Saffar; he performed the hajj and journeyed through the lands of Khurasan and beyond the Oxus. His shaykhs numbered about a thousand in Nishapur alone and about a thousand more in Iraq and the other lands {cite:tarikh-islam-dhahabi pp. 122-123}."
+  ur: "341ھ/952ء میں حاکم اپنے شیخ اسماعیل صفار کی وفات کے چند ماہ بعد عراق روانہ ہوئے؛ انہوں نے حج کیا اور خراسان اور ماوراء النہر کے ممالک کا سفر کیا۔ ان کے مشائخ صرف نیشاپور میں تقریباً ایک ہزار اور عراق اور دیگر ممالک میں بھی تقریباً ایک ہزار تھے {cite:tarikh-islam-dhahabi pp. 122-123}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "0952", hijri: "0341", calendar: julian, precision: year, status: tradition, derived: true, note: "«ورحل إلى العراق سنة إحدى وأربعين بعد موت إسماعيل الصفار بأشهر» {cite:tarikh-islam-dhahabi p. 122}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-hakim-al-nisaburi, role: "الرحّالة طالب الحديث", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/ismail-al-saffar, role: "الشيخ المتوفى قبل الرحلة بأشهر", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 405, printed pp. 122-123 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-hakim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

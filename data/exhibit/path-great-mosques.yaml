@@ -1,0 +1,87 @@
+id: exhibit/path-great-mosques
+class: exhibit
+kind: trail
+label:
+  ar: جوامع الإسلام الكبرى
+  en: The Great Mosques
+summary:
+  ar: 'مسار في معالم العمارة الإسلامية: الحرم والنبوي والأقصى، والأموي وقرطبة والأزهر والسليمانية — مدينة
+    المسجد.'
+  en: A trail through Islam's great mosques across twelve centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الحرم
+    en: The Haram
+  body:
+    ar: 'الكعبة والمقام والحجر: أم المساجد.'
+    en: 'Kaaba, Maqam, Hijr: the mother of mosques.'
+  features:
+  - building/masjid-al-haram
+  - building/kaaba
+- title:
+    ar: النبوي
+    en: The Prophet's
+  body:
+    ar: قبلة وسجد ومنبر وروضة.
+    en: Qibla, prayer, pulpit and Rawda.
+  features:
+  - building/prophets-mosque
+  - concept/minbar
+- title:
+    ar: الأقصى
+    en: Al-Aqsa
+  body:
+    ar: المسرى ومحط الجهاد عبر القرون.
+    en: The Night Journey's station.
+  features:
+  - building/al-aqsa-mosque
+  - building/dome-of-the-rock
+- title:
+    ar: الأموي
+    en: The Umayyad
+  body:
+    ar: 'دمشق 715: مدرسة العمارة الإسلامية الأولى.'
+    en: 'Damascus 715: Islam''s first architectural school.'
+  features:
+  - building/umayyad-mosque
+  - place/damascus
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: 'غابة الأعمدة: جامع الغرب الإسلامي.'
+    en: 'The forest of columns: the West''s congregational mosque.'
+  features:
+  - building/jami-qurtuba
+  - place/cordoba
+- title:
+    ar: الأزهر والسليمانية
+    en: Al-Azhar and Sulaymaniyya
+  body:
+    ar: 'القاهرة تعلّم وإسطنبول تبني: الأزهر 972 والسليمانية 1557.'
+    en: Cairo teaches and Istanbul builds.
+  features:
+  - building/al-azhar
+  - building/sulaymaniyya-mosque
+  - place/istanbul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

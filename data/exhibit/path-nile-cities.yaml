@@ -1,0 +1,67 @@
+id: exhibit/path-nile-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن النيل
+  en: Cities of the Nile
+summary:
+  ar: 'مسار في مصر على النيل: الإسكندرية بوابة المتوسط، والفسطاط ثم القاهرة عاصمة الإسلام ألف سنة.'
+  en: A trail through Egypt's cities.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الإسكندرية
+    en: Alexandria
+  body:
+    ar: 'ميناء البحر العظيم: من الاسكندر إلى عمرو.'
+    en: 'ميناء البحر العظيم: من الاسكندر إلى عمرو.'
+  features:
+  - place/alexandria
+  - place/iskandariyya
+- title:
+    ar: الفسطاط
+    en: Fustat
+  body:
+    ar: عمرو يؤسس أول عاصمة إسلامية في مصر.
+    en: عمرو يؤسس أول عاصمة إسلامية في مصر.
+  features:
+  - place/cairo
+  - polity/fatimid-caliphate
+- title:
+    ar: القاهرة
+    en: Cairo
+  body:
+    ar: 'المعزية: مدينة الأزهر والمماليك.'
+    en: 'المعزية: مدينة الأزهر والمماليك.'
+  features:
+  - place/cairo
+  - building/al-azhar
+- title:
+    ar: مصر اليوم
+    en: Today
+  body:
+    ar: 'أكبر بلد عربي: مئة مليون على النيل.'
+    en: 'أكبر بلد عربي: مئة مليون على النيل.'
+  features:
+  - place/cairo
+  - listing/cafe-riche
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,46 @@
+id: person/umar-ibn-al-muzaffar-al-ashraf
+class: person
+label:
+  ar: الأشرف الغساني الملك، أبو حفص عمر بن الملك المظفر
+  en: al-Ashraf Umar ibn al-Muzaffar, al-Ghassani
+names:
+- kind: full
+  lang: ar
+  value: عمر بن الملك المظفر
+- kind: kunya
+  lang: ar
+  value: أبو حفص
+- kind: laqab
+  lang: ar
+  value: الأشرف
+- kind: nisba
+  lang: ar
+  value: الغساني
+gender: male
+roles: [sultan, scholar]
+traditions: [sunni]
+summary:
+  ar: ملك يمني من الأسرة الرسولية، صنّف في صناعة الأسطرلاب وعلم البيطرة ومعالجة الحيوان وفي الأدوية المفردة، واستفاد من ابن البيطار والزهراوي.
+  en: A Yemeni ruler of the Rasulid line who wrote on the astrolabe, veterinary medicine and simple drugs, drawing on Ibn al-Baytar and al-Zahrawi.
+wings: [people]
+themes: [medicine, astronomy-and-timekeeping]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+story_roles:
+- role: ruler
+  status: tradition
+  sources: [source/mawsuat-a3lam-ulama-adaba]
+born: { edtf: "1242", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Suluk (al-Maqrizi)" }
+died: { edtf: "1296", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Suluk (al-Maqrizi)" }
+relations:
+  - { type: ruled_over, target: place/yemen, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص34-35
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch63

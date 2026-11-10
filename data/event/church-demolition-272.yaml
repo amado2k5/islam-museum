@@ -1,0 +1,21 @@
+id: event/church-demolition-272
+class: event
+kind: other
+label: { ar: "هدم البيعة ببغداد", en: "Demolition of a Church in Baghdad" }
+summary:
+  ar: "في ربيع الآخر سنة اثنتين وسبعين ومائتين تجمعت العامة ببغداد فهدمت ما كان بُني من البيعة التي ذُكر خرابهم إياها في السنة الخالية، وانتهبوا مالًا عظيمًا منها لأنهم أنكروا عليهم ركوب الدواب {cite:muntazam-ibn-al-jawzi p. 84-85}."
+  en: "In Rabi' II 272 the Baghdad crowd demolished what had been rebuilt of the church whose ruin had been mentioned the year before, and looted great wealth from it — they had resented the riders it drew {cite:muntazam-ibn-al-jawzi p. 84-85}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0885-10~", hijri: "0272-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر ٢٧٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 84}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 272)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch26
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

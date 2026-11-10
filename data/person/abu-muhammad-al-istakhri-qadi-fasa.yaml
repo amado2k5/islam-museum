@@ -1,0 +1,40 @@
+id: person/abu-muhammad-al-istakhri-qadi-fasa
+class: person
+label: { ar: "القاضي أبو محمد الاصطخري", en: "al-Qadi Abu Muhammad al-Istakhri" }
+names:
+  - { kind: kunya, lang: ar, value: "أبو محمد الاصطخري (قاضي فسا)" }
+gender: male
+roles: [jurist, teacher]
+traditions: [sunni]
+summary:
+  ar: "القاضي أبو محمد الاصطخري، تفقه على القاضي أبي حامد المروروذي، وكان قاضي فسا وفقيه فارس، وشرح «المستعمل» لمنصور وكان فقيهاً مجوداً {cite:tabaqat-fuqaha-abbas-1981 p. 62}. ليس هو أبا سعيد الإصطخري (person/al-istakhri-abu-said-al-hasan)، والاسم الكامل غير مذكور في النص."
+  en: "Al-Qadi Abu Muhammad al-Istakhri studied fiqh under al-Qadi Abu Hamid al-Marwarudhi; he was judge of Fasa and jurist of Fars, who commented on Mansur's al-Mustamal, and an accomplished jurist {cite:tabaqat-fuqaha-abbas-1981 p. 62}. He is not Abu Sa'id al-Istakhri (person/al-istakhri-abu-said-al-hasan), and his full name is not given in the text."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/fasa, note: "From text: judge of Fasa", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/abu-hamid-al-marwarudhi, role: "تفقه على القاضي أبي حامد المروروذي (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch86
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

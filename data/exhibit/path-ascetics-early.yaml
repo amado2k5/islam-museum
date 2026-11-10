@@ -1,0 +1,76 @@
+id: exhibit/path-ascetics-early
+class: exhibit
+kind: trail
+label:
+  ar: الزهاد الأوائل
+  en: The Early Ascetics
+summary:
+  ar: 'مسار في الزهد الأول: الحسن البصري يخطب، ورابعة تُروى قصتها، والكرخي في بغداد — الزهد قبل التصوف.'
+  en: A trail through the first ascetics.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الحسن
+    en: Al-Hasan
+  body:
+    ar: 'البصري: خطيب الزهد الأول.'
+    en: 'البصري: خطيب الزهد الأول.'
+  features:
+  - person/al-hasan-al-basri
+  - place/basra
+- title:
+    ar: معروف
+    en: Ma'ruf
+  body:
+    ar: 'الكرخي: زاهد بغداد وشيخها.'
+    en: 'الكرخي: زاهد بغداد وشيخها.'
+  features:
+  - person/maruf-al-karkhi
+  - place/baghdad
+- title:
+    ar: إبراهيم بن أدهم
+    en: Ibrahim
+  body:
+    ar: 'أمير بلخ يترك الملك: أسطورة الزهد.'
+    en: 'أمير بلخ يترك الملك: أسطورة الزهد.'
+  features:
+  - concept/zuhd
+  - concept/zuhd
+- title:
+    ar: الزهد
+    en: Zuhd
+  body:
+    ar: 'ترك الدنيا: مفهوم ومراتب.'
+    en: 'ترك الدنيا: مفهوم ومراتب.'
+  features:
+  - concept/zuhd
+  - concept/ihsan
+- title:
+    ar: نحو التصوف
+    en: Toward Sufism
+  body:
+    ar: 'من الزهد إلى التصوف: التحول.'
+    en: 'من الزهد إلى التصوف: التحول.'
+  features:
+  - concept/tasawwuf
+  - person/al-junayd-ibn-muhammad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

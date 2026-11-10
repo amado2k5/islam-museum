@@ -1,0 +1,36 @@
+id: person/al-tasuli-ibrahim-ibn-abd-al-rahman
+class: person
+label: { ar: "التسولي إبراهيم بن عبد الرحمن", en: "Al-Tasuli, Ibrahim ibn Abd al-Rahman" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن عبد الرحمن بن أبي بكر التسولي المغربي المالكي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1348~", hijri: "0749", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي مغربي، يُعرف بابن أبي يحيى."
+  en: "A Maliki jurist of the Maghrib, known as Ibn Abi Yahya."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص466"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch54
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

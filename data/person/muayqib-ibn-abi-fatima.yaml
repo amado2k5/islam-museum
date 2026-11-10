@@ -1,0 +1,17 @@
+id: person/muayqib-ibn-abi-fatima
+class: person
+label: { ar: "معيقيب بن أبي فاطمة", en: "Mu'ayqib ibn Abi Fatima" }
+summary:
+  ar: "معيقيب بن أبي فاطمة كاتب عمر بن الخطاب؛ كتب الكتاب إلى المغيرة بن شعبة بإقطاع أبي عبد الله نافع أرض البصرة لزرعه وخيله في صفر سنة سبع عشرة."
+  en: "Mu'ayqib ibn Abi Fatima, Umar's scribe; he wrote the letter to al-Mughira granting Abu Abdallah Nafi's Basra land for tillage and foals in Safar 17 AH."
+periods: [period/rashidun]
+wings: [people]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407] }

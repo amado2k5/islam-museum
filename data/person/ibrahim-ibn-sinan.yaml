@@ -1,0 +1,25 @@
+id: person/ibrahim-ibn-sinan
+class: person
+label:
+  en: Ibrahim ibn Sinan
+  ar: إبراهيم بن سنان بن ثابت
+roles:
+- mathematician
+- astronomer
+summary:
+  en: Mathematician and astronomer of the Harranian Sinan ibn Thabit family, active in Baghdad in the fourth century AH.
+  ar: عالم رياضيات وفلك من أسرة سنان بن ثابت الحرانية، عاش في بغداد في القرن الرابع الهجري.
+wings: [people]
+born: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+relations:
+  - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+external_ids:
+  wikidata: Q2975510
+sources:
+- source/sezgin-gas-v-mathematik
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)

@@ -1,0 +1,29 @@
+---
+id: person/fatima-jinnah
+lang: en
+source_lang: ar
+translators: []
+---
+# Fatima Jinnah
+
+## Summary
+Fatima Jinnah (31 July 1893 – 9 July 1967) was a Pakistani dental surgeon, politician and author, the younger sister of Muhammad Ali Jinnah, the founder and first governor-general of Pakistan, and his closest associate and adviser throughout the Pakistan Movement. {cite:wikipedia-fatima-jinnah-en} {cite:wikipedia-fatima-jinnah-ar} After obtaining a dental degree from the University of Calcutta in 1923, she became the first woman to qualify as a dentist in British India. {cite:wikipedia-fatima-jinnah-en} After independence she assisted in the settlement of the Muhajirs and established the Women's Relief Committee, which later evolved into the All Pakistan Women's Association. {cite:wikipedia-fatima-jinnah-en} In the 1965 presidential election she contested the presidency against Ayub Khan as the Combined Opposition Parties' candidate, and she is commonly known as Madar-e-Millat ("Mother of the Nation") and Khatun-e-Pakistan ("Lady of Pakistan"). {cite:wikipedia-fatima-jinnah-en} {cite:wikipedia-fatima-jinnah-ur}
+
+## Early life and education
+Fatima was born on 31 July 1893 in Kathiawar, in the Bombay Presidency, the youngest daughter of Jinnahbhai Poonja and Mithibai; the Arabic article gives a date one day earlier, 30 July 1893, citing the Oxford Encyclopedia of Women in World History. {cite:wikipedia-fatima-jinnah-en} {cite:wikipedia-fatima-jinnah-ar} Her parents belonged to the Ismaili Shia Khoja community, a mercantile group with roots in Gondal in Kathiawar that migrated to Karachi in the late nineteenth century; this describes her family's origin, not her own affiliation. {cite:wikipedia-fatima-jinnah-en} She lost her mother in 1895, and after her father's death in 1901 her brother Muhammad Ali became her guardian and took charge of her education, enrolling her at Bandra Convent in Bombay in 1902 and then at St. Patrick's School. {cite:wikipedia-fatima-jinnah-en} She studied dentistry at Dr. R. Ahmed Dental College in Calcutta and graduated in 1923. {cite:wikipedia-fatima-jinnah-en}
+
+## Her brother's associate and political career
+Fatima lived with her brother and participated in the activities of the All-India Muslim League in support of his work, helping to organise women for the League; in February 1941 she helped organise the All India Muslim Women Students Federation in Delhi, and she led the activities of the women's organisation within the League. {cite:wikipedia-fatima-jinnah-en} After Pakistan's independence in 1947 she worked on the settlement of refugees from India and established the Women's Relief Committee, which later evolved into the All Pakistan Women's Association. {cite:wikipedia-fatima-jinnah-en} She remained her brother's closest confidant until his death in 1948. {cite:wikipedia-fatima-jinnah-en} After his death she was prevented from addressing the nation until 1951, and her 1951 radio address was interrupted, which many believed was an attempt by the Liaquat Ali Khan government to censor her. {cite:wikipedia-fatima-jinnah-en}
+
+## The 1965 presidential election
+In 1964–65 Fatima accepted the Combined Opposition Parties' nomination to contest the presidential election against President Ayub Khan, criticising military rule and calling for the restoration of democracy and civil rights. {cite:wikipedia-fatima-jinnah-en} Ayub won through the Basic Democracy electoral college system, but Fatima received strong support in East Pakistan and in urban centres, and the opposition alleged widespread electoral malpractice. {cite:wikipedia-fatima-jinnah-en} The Urdu article reports testimony, preserved in Liaquat H. Merchant's account, that during her campaign, when some local Shia leaders told her they would vote for Ayub, she said she could represent them better because she herself was also Shia; the museum records this testimony as the article reports it, without making it a verdict of its own. {cite:wikipedia-fatima-jinnah-ur} After the election she largely withdrew from public life and spent her remaining years at Mohatta Palace in Karachi. {cite:wikipedia-fatima-jinnah-en}
+
+## Writings and personal life
+Fatima remained unmarried and had no children; she did not observe purdah and appeared publicly throughout her life. {cite:wikipedia-fatima-jinnah-en} She wrote My Brother, an unfinished biography of Muhammad Ali Jinnah, in 1955; it was published only posthumously, in 1987, by the Quaid-i-Azam Academy, and journalist Akhtar Baloch reports that Sharif al Mujahid removed several pages before publication, saying they were "against the ideology of Pakistan". {cite:wikipedia-fatima-jinnah-en} {cite:wikipedia-fatima-jinnah-ar}
+
+## Death and legacy
+Fatima died in Karachi on 9 July 1967 amid rumours of unnatural causes; her nephew Akbar Pirbhai called for an inquiry, but no official report was ever issued. {cite:wikipedia-fatima-jinnah-en} {cite:wikipedia-fatima-jinnah-ar} The English article, citing Pirbhai's 2017 biography, records that Ithna Ashari (Twelver) Shia rites were performed in private at her home while a Sunni cleric led the public funeral prayers; the Urdu article likewise states that her last rites were performed according to the Shia rite while the state funeral was Sunni. {cite:wikipedia-fatima-jinnah-en} {cite:wikipedia-fatima-jinnah-ur} She was buried next to her brother at Mazar-e-Quaid in Karachi, and nearly half a million people attended her funeral. {cite:wikipedia-fatima-jinnah-en} Her legacy is associated with her opposition to military rule and her role as a symbol of democratic Pakistan, and numerous institutions and public spaces in Pakistan are named in her honour. {cite:wikipedia-fatima-jinnah-en}
+
+## Sources
+- The defined source entities cited above, recorded in `data/source/`.
+- Revisions of this article must be dated, and must name the source that changed each fact.

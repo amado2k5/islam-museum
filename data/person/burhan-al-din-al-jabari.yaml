@@ -1,0 +1,31 @@
+id: person/burhan-al-din-al-jabari
+class: person
+label:
+  ar: "برهان الدين الجعبري"
+  en: "Burhan al-Din al-Jabari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لبرهان الدين الجعبري، فقيه وقارئ القرن الرابع عشر، توفي سنة ١٣٣٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Burhan al-Din al-Jabari, the fourteenth-century jurist and qari, d. 1332; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1242", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh (al-Dhahabi)" }
+died: { edtf: "1332", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Shuyukh (al-Dhahabi)" }
+relations:
+  - { type: born_in, target: place/qal-at-ja-bar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/al-khalil, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/palestine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12181566
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0058
+status:
+  review: draft
+  completeness: 1

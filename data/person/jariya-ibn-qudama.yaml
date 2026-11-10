@@ -1,0 +1,21 @@
+id: person/jariya-ibn-qudama
+class: person
+label: { ar: "جارية بن قدامة السعدي", en: "Jariya ibn Qudama al-Sa'di" }
+summary:
+  ar: "جارية بن قدامة السعدي التميمي من أمراء علي بن أبي طالب؛ بعثه في ألفين مع وهب بن مسعود في ألفين طلباً لبسر بن أبي أرطاة الذي نهب الحجاز واليمن سنة أربعين، فهرب بسر منه واتبعه جارية إلى مكة فبايع أهلها، ثم أتى المدينة وأبو هريرة يصلي بالناس فهرب منه فقال: لو وجدت أبا سنور لقتلته، وبايع أهلها الحسن بن علي لما بلغه هلاك أبيه {cite:kamil-ibn-al-athir p. 732-733}."
+  en: "Al-Sa'di of Tamim, Ali's commander — sent with four thousand men after Busr's raiders, chased him out of the Hijaz, took Mecca and Medina's bay'a for al-Hasan when Ali's death reached him; of Abu Hurayra he said 'had I caught Abu Sinnur I would have killed him' {cite:kamil-ibn-al-athir p. 732-733}."
+gender: male
+roles: [military]
+wings: [people]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Associated with الحجاز per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir, source/mustadrak-ilmiyya-ata-v3]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح 02-163053، ص 732-733"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-vol2-16
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker A), claude-opus-5-5, run ocr-harvest-2026-11-04, from al-Mustadrak (Dar al-Kutub al-'Ilmiyya, ed. 'Ata) vol. 3 p. 713" }

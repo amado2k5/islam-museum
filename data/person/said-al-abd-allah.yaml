@@ -1,0 +1,28 @@
+id: person/said-al-abd-allah
+class: person
+label:
+  ar: "سعيد العبد الله"
+  en: "Sa'id al-Abd Allah"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسعيد العبد الله؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sa'id al-Abd Allah; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/contemporary-era]
+relations:
+  - { type: born_in, target: place/hama, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173545)" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12216089
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,29 @@
+id: person/hayali-yi-evvel
+class: person
+label:
+  ar: "خيالي أول"
+  en: "Hayali-yi Evvel"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لخيالي أول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hayali-yi Evvel, the Ottoman writer court poet and mufti, d. 1524; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1520~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Latifi (Tezkire)" }
+relations:
+  - { type: born_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/izmir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136099381
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0093
+status:
+  review: draft
+  completeness: 1

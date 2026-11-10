@@ -1,0 +1,27 @@
+id: event/ibn-qadi-shuhba-khitaba-lost-843
+class: event
+kind: other
+label:
+  ar: "نزع خطابة الجامع الأموي من ابن قاضي شهبة، ١٠ ذو القعدة ٨٤٣هـ"
+  en: "The Umayyad Mosque preachership taken from Ibn Qadi Shuhba, 10 Dhu al-Qa'da 843"
+  ur: "جامع اموی کی خطابت ابن قاضی شہبہ سے چھن گئی، 10 ذو القعدہ 843ھ"
+summary:
+  ar: "في يوم الخميس عاشر ذي القعدة سنة ثلاث وأربعين وثمانمئة كُتب باستقرار برهان الدين إبراهيم ابن تباءوف في خطابة الجامع الأموي بدمشق عوضاً عن ابن قاضي شهبة {cite:suluk-maqrizi p. 1188-1189}؛ وكان ابن قاضي شهبة قد جمع حينها بين قضاء القضاة وخطابة الجامع ومفتيها {cite:nujum-zahira 15/523}."
+  en: "On Thursday the tenth of Dhu al-Qa'da 843, Burhan al-Din Ibrahim ibn Taba'uf was installed in the preachership (khitaba) of the Umayyad Mosque of Damascus in place of Ibn Qadi Shuhba {cite:suluk-maqrizi p. 1188-1189}; Ibn Qadi Shuhba had until then combined the chief judgeship, the mosque's preachership and its muftiship {cite:nujum-zahira 15/523}."
+  ur: "جمعرات، 10 ذو القعدہ 843ھ کو برہان الدین ابراہیم ابن تباءوف کو دمشق کے جامع اموی کی خطابت پر ابن قاضی شہبہ کے بدل مقرر کیا گیا {cite:suluk-maqrizi p. 1188-1189}؛ ابن قاضی شہبہ اس وقت تک قاضی القضاۃ، خطیب اور مفتی کے مناصب جمع کیے تھے {cite:nujum-zahira 15/523}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1440-04~", hijri: "0843-11-10", calendar: julian, precision: day, status: historical, derived: true, note: "الخميس عاشر ذي القعدة ٨٤٣ {cite:suluk-maqrizi p. 1188-1189}؛ التحويل مشتق.", sources: [source/suluk-maqrizi] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibn-qadi-shuhba, role: "الذي نُزعت عنه الخطابة", sources: [source/suluk-maqrizi] }
+  - { type: had_participant, target: person/ibrahim-ibn-tabaaof, role: "الخطب المستقر مكانه", sources: [source/suluk-maqrizi] }
+sources: [source/suluk-maqrizi, source/nujum-zahira]
+provenance:
+  layer: own-research
+  source: "السلوك للمقريزي (ط دار الكتب 1973، ج٤ ق٣، سنة 843، ذو القعدة) ص 1188-1189؛ النجوم الزاهرة 15/523، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: explorer-ibn-qadi-shuhba-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

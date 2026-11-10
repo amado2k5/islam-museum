@@ -1,0 +1,15 @@
+id: passage/muwatta-21-2090
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2090"
+label: { ar: "الموطأ 2090 — مالك: فيمن يشتري الأرض فيعمرها بالأصل يضعه فيها، أو البئر يحفرها، ثم يأتي رجل فيدرك فيها حقا فيريد أخذها بالشفعة: لا شفعة له إلا أن يعطيه قيمة ما عمر", en: "Muwatta 2090" }
+summary:
+  ar: "قال مالك في الرجل يشتري الأرض فيعمرها بالأصل يضعه فيها، أو البئر يحفرها، ثم يأتي رجل فيدرك فيها حقا، فيريد أن يأخذها بالشفعة: إنه لا شفعة له فيها، إلا أن يعطيه قيمة ما عمر، فإن أعطاه قيمة ما عمر كان أحق بشفعته، وإلا فلا حق له فيها. {cite:muwatta-maruf-1997 p.255}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-21-shufa }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shufa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2090 at PDF p. 255; ما تقع فيه الشفعة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k21-b59" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 255; matn excerpt at most 40 words" }

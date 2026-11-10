@@ -4,8 +4,8 @@ kind: family
 label: { en: "Ahl al-Bayt", ar: "أهل البيت" }
 summary:
   en: "'The People of the House' — the Prophet's household: the family around whom the deepest loyalties and the deepest split in Islamic history would form."
-  ar: "«أهل البيت» — بيت النبي: العائلة التي تشكّل حولها أعمق الولاءات وأعمق انقسام في تاريخ الإسلام."
-wings: [people]
+  ar: "«أهل البيت» — بيت النبي: العائلة التي تشكّل حولها أعمق الولاءات وأعمق انقسام في تاريخ الإسلام. وفي صحيح مسلم نصّان مؤسسان في حدهم: حديث الثقلين «وأهل بيتي، أذكركم الله في أهل بيتي» عند غدير خم {cite:sahih-muslim 2408}، وحديث الكساء حيث أدخل النبي علياً وفاطمة والحسنين تحت المرط وتلا آية التطهير {cite:sahih-muslim 2424}."
+wings: []
 themes: [family-marriage-kinship, sects-and-schools]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -19,16 +19,28 @@ relations:
   - { type: has_member, target: person/fatima }
   - { type: has_member, target: person/hasan-ibn-ali }
   - { type: has_member, target: person/husayn-ibn-ali }
+issue: { ar: "من هم أهل البيت، ومن يدخل فيهم؟", en: "Who are the Ahl al-Bayt, and who is included?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition includes in Ahl al-Bayt the Prophet's wives together with Ali, Fatima, Hasan and Husayn and their kin — honored by the verse of purification and the hadith of the cloak, without conferring religious authority on descent alone." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians treat 'the house' as a sacred category that expanded with the community's later debates about leadership, its boundaries drawn differently at different moments." }
     sources: [source/madelung-1997]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition defines Ahl al-Bayt as the people of the cloak — Muhammad, Ali, Fatima, Hasan and Husayn — and the line of Imams descended through them, bearers of the Prophet's religious authority." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985, source/mubarakpuri-raheeq, source/sahih-muslim, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 279-280, article 'Ahl al-Bayt' (EI2 enrichment, batch ei2-b003 part 3bz); earlier sources as listed in sources"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11; EI2 section added by Claude Code (claude-haiku-5-5)" }
+
+education:
+  levels: [scholars]
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b5", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

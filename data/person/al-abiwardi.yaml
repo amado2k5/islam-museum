@@ -1,0 +1,23 @@
+id: person/al-abiwardi
+class: person
+label: { ar: "الأبيوردي", en: "al-Abiwardi" }
+born: { edtf: "1017", hijri: "0408", calendar: julian, precision: day, status: tradition, derived: true, note: "ولادته ليلة الاثنين ثالث عشر ذي القعدة سنة ثمان وأربعمائة {cite:wafayat-ayan}." }
+died: { edtf: "1105", hijri: "0498", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الخميس رابع عشر جمادى الأولى سنة ثمان وتسعين وأربعمائة بواسط {cite:wafayat-ayan}." }
+summary:
+  ar: "أبو المظفر محمد بن أبي العباس الأموي الأبيوردي الشاعر المشهور؛ كان من الأدباء المشاهير، راويةً نسّابة شاعراً، ونسبه يتصل بمعاوية بن أبي سفيان، ومن أشهر شعره ألفيته التي مطلعها «ألمّ إن لم تسمحي بزيارة خلاّ» وله فيها معانٍ بديعة {cite:wafayat-ayan}."
+  en: "al-Abiwardi (408–498) — Umayyad-descended poet and genealogist, author of the celebrated alifiyya ode 'alimm in lam tusmahi'; d. at Wasit {cite:wafayat-ayan}."
+gender: male
+roles: [poet, scholar]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء الرابع (ترجمة الأبيوردي)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch50
+sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3 }
+relations:
+  - { type: lived_in, target: place/abiward, note: "The Abiwardi nisba ties the poet's family to Abiward in Khurasan; residence not separately attested.", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2], confidence: low }
+  - { type: died_in, target: place/wasit, note: "Died at Wasit in 498.", sources: [source/wafayat-ayan], confidence: high }

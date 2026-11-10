@@ -1,0 +1,76 @@
+id: exhibit/path-arbaun
+class: exhibit
+kind: trail
+label:
+  ar: الأربعون النووية
+  en: Al-Nawawi's Forty
+summary:
+  ar: 'مسار في أشهر متن حديثي: اثنان وأربعون حديثًا جمعها النووي، وشرحها ابن رجب في جامع العلوم والحكم.'
+  en: A trail through the most famous hadith text.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: النووي
+    en: Al-Nawawi
+  body:
+    ar: 'شيخ الشافعية: الأربعون ورياض الصالحين.'
+    en: 'شيخ الشافعية: الأربعون ورياض الصالحين.'
+  features:
+  - person/al-nawawi
+  - work/arbaun-nawawi
+- title:
+    ar: النية
+    en: Intention
+  body:
+    ar: 'إنما الأعمال بالنيات: افتتاحية الأمة.'
+    en: 'إنما الأعمال بالنيات: افتتاحية الأمة.'
+  features:
+  - passage/arbaun-01
+  - concept/adab
+- title:
+    ar: حديث جبريل
+    en: Jibril
+  body:
+    ar: الإسلام والإيمان والإحسان في مجلس واحد.
+    en: الإسلام والإيمان والإحسان في مجلس واحد.
+  features:
+  - passage/arbaun-02
+  - passage/muslim-0008
+- title:
+    ar: الأخوة
+    en: Brotherhood
+  body:
+    ar: لا يؤمن أحدكم حتى يحب لأخيه.
+    en: لا يؤمن أحدكم حتى يحب لأخيه.
+  features:
+  - passage/arbaun-13
+  - concept/adab
+- title:
+    ar: الشرح
+    en: The commentary
+  body:
+    ar: ابن رجب يفتح جامع العلوم والحكم.
+    en: ابن رجب يفتح جامع العلوم والحكم.
+  features:
+  - work/jami-ulum-hikam
+  - work/arbaun-nawawi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

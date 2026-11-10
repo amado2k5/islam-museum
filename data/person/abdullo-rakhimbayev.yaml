@@ -1,0 +1,57 @@
+id: person/abdullo-rakhimbayev
+class: person
+label:
+  ar: "عبد الله رحيم باييف"
+  en: "Abdullo Rakhimbayev"
+  ur: "عبداللہ رحیم بائیف"
+summary:
+  ar: "سياسي سوفييتي من أسرة أوزبكية من خوجند (1896–1938): ترأس اللجنة التنفيذية المركزية لجمهورية تركستان (1920–1922)، وعمل أمينا مسؤولا للجنة المركزية للحزب الشيوعي الأوزبكي (1923–1925)، ثم رئيسا لمجلس مفوضي الشعب لجمهورية طاجيكستان السوفييتية (1933–1937). اعتُقل سنة 1937 وأُعدم في سجن ليفورتوفو بموسكو في 7 مايو 1938 ورُدّ اعتباره سنة 1956."
+  en: "Soviet politician of an Uzbek family from Khujand (1896–1938): he chaired the Central Executive Committee of the Turkestan ASSR (1920–1922), served as responsible secretary of the Central Committee of the Communist Party of Uzbekistan (1923–1925), and chaired the Council of People's Commissars of the Tajik SSR (1933–1937). Arrested in 1937, he was shot in Moscow's Lefortovo Prison on 7 May 1938 and rehabilitated in 1956."
+  ur: "خوجند کے ازبک خاندان سے تعلق رکھنے والے سوویت سیاست دان (1896–1938): ترکستان جمہوریہ کی مرکزی ایگزیکٹو کمیٹی کے صدر (1920–1922)، ازبکستان کی کمیونسٹ پارٹی کی مرکزی کمیٹی کے ذمہ دار سیکرٹری (1923–1925) اور پھر تاجک سوویت جمہوریہ کے مفوضینِ عوام کی کونسل کے صدر (1933–1937) رہے۔ 1937 میں گرفتار ہوئے، 7 مئی 1938 کو ماسکو کی لیفورتوو جیل میں گولی مار دیے گئے اور 1956 میں بحالِ حیثیت ہوئے۔"
+names:
+  - { value: "Abdullo Rahimbayevich Rakhimbayev", kind: full }
+  - { value: "Абдулло Рахимбаевич Рахимбаев", kind: full }
+  - { value: "Abdullo Raximboyevich Raximboyev", kind: full }
+  - { value: "عبد الله رحيم باييف", kind: full }
+  - { value: "Abdullo Rakhimbayev", kind: latinized }
+  - { value: "Abdullo Rachimbajew", kind: alternate }
+gender: male
+born:
+  edtf: "1896-06-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Born on 1 June 1896 (19 May by the Old Style calendar, as the Russian article gives both) in Khujand, Samarkand Oblast, in a trader's family, as both articles and Wikidata give. No Hijri pairing is given in any source, so none is recorded."
+  sources: [source/wikipedia-abdullo-rakhimbayev-en, source/wikipedia-abdullo-rakhimbayev-ru, source/wikidata-abdullo-rakhimbayev]
+died:
+  edtf: "1938-05-07"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Arrested in Stalinabad in September 1937, taken to Moscow and held in Lefortovo Prison, and shot there on 7 May 1938 by sentence of the Military Collegium of the Supreme Court of the USSR, as both articles and Wikidata give; the English article gives the Kommunarka shooting ground as his resting place. He was rehabilitated in 1956. No place entity exists for Moscow or Kommunarka, so no died_in or buried_in relation is written."
+  sources: [source/wikipedia-abdullo-rakhimbayev-en, source/wikipedia-abdullo-rakhimbayev-ru, source/wikidata-abdullo-rakhimbayev]
+tags: [great-purge]
+roles: [politician]
+wings: [people]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/khujanda, sources: [source/wikipedia-abdullo-rakhimbayev-en, source/wikipedia-abdullo-rakhimbayev-ru] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a religion or school for him personally: neither infobox carries a religion field and Wikidata carries no religion value at all. The Russian article records that in 1917 he was a member and one of the leaders of the Khujand organisation Shuro-i-Islamiya ('Council of Islam') and then secretary of the Khujand Council of Muslim Workers — political organisations of the revolutionary year, which is activity, not personal attestation — and that he was born into a trader's family, which is background. The value therefore stays unknown, unflagged."
+    sources: [source/wikipedia-abdullo-rakhimbayev-en, source/wikipedia-abdullo-rakhimbayev-ru, source/wikidata-abdullo-rakhimbayev]
+external_ids: { wikidata: "Q4391067" }
+sources:
+  - source/wikipedia-abdullo-rakhimbayev-en
+  - source/wikipedia-abdullo-rakhimbayev-ru
+  - source/wikidata-abdullo-rakhimbayev
+status:
+  review: published
+provenance:
+  layer: own-research
+  source: "English and Russian Wikipedia articles on Abdullo Rakhimbayev and his Wikidata item Q4391067, all read in full on 27 October 2026; no source names a religion or school for him personally — the Russian article's Shuro-i-Islamiya and Council of Muslim Workers posts of 1917 are revolutionary-year political activity — so his faith is unknown, unflagged. The born_in relation to Khujanda is written from both articles; no died_in or buried_in relation is written, as no place entity exists for Moscow or Kommunarka."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-111

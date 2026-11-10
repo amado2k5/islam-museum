@@ -1,0 +1,27 @@
+id: event/mawardi-qadi-ustuwa-baghdad
+class: event
+kind: other
+label:
+  ar: "الماوردي مدرّسًا ثم قاضيًا بأستوى ثم ببغداد"
+  en: "Al-Mawardi as teacher, then qadi at Ustuwa and at Baghdad"
+  ur: "ماوردی بطور مدرس، پھر استویٰ اور بغداد میں قاضی"
+summary:
+  ar: "بعد إتمام دراسته بالبصرة وبغداد صار [[person/al-mawardi|الماوردي]] مدرّسًا، ولفت إليه سعة علمه وتنوّعه أنظار الأمراء فوُلي القضاء في بلدان عدة، منها أستوى قرب [[place/nishapur|نيسابور]]، ثم قضاء بغداد نفسها {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}."
+  en: "After completing his studies at Basra and Baghdad, [[person/al-mawardi|al-Mawardi]] became a teacher; the breadth of his learning drew the attention of the authorities, and he was appointed qadi in several towns — among them Ustuwa near [[place/nishapur|Nishapur]] — before holding the office at Baghdad itself {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}."
+  ur: "بصرہ اور بغداد میں تعلیم مکمل کرنے کے بعد [[person/al-mawardi|ماوردی]] مدرس بن گئے؛ ان کے علم کی وسعت نے حکمرانوں کی توجہ حاصل کی اور وہ کئی شہروں میں قاضی مقرر ہوئے — جن میں [[place/nishapur|نیشاپور]] کے قریب استویٰ بھی تھا — اس سے پہلے کہ وہ خود بغداد میں یہ منصب سنبھالیں {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "1020", hijri: "0411", calendar: julian, precision: year, status: tradition, derived: true, note: "الواقعة غير مؤرخة في المصادر؛ تقدّمت على خدمته السياسية وعلى أول سفاراته المؤرخة سنة ٤٢٣هـ {cite:encyclopaedia-of-islam-2 vol. 6 p. 896}، والسنة المعروضة تقريبية مشتقة للترتيب.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-mawardi, role: "القاضي والمدرس", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 6 (Mahk-Mid), art. al-Māwardī, printed p. 896"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-mawardi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

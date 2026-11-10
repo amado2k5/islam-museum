@@ -1,0 +1,21 @@
+id: place/dayr-al-jathaliq
+class: place
+kind: site
+label: { ar: "دير الجثاليق", en: "Dayr al-Jathaliq", ur: "دیر جثالیق" }
+summary:
+  ar: "موقع في العراق."
+  en: "Site in Iraq."
+wings: [place]
+regions: [global]
+coordinates: [33.78, 44.18]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q21082072" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q21082072 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

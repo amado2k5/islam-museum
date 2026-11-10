@@ -1,0 +1,28 @@
+id: person/ummat-al-wahid
+class: person
+label:
+  ar: "أمة الواحد بنت الحسين المحاملي"
+  en: "Ummat al-Wahid"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأمة الواحد بنت الحسين المحاملي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ummat al-Wahid; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q20390294
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch65
+status:
+  review: published
+  completeness: 3

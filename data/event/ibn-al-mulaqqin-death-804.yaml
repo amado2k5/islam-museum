@@ -1,0 +1,28 @@
+id: event/ibn-al-mulaqqin-death-804
+class: event
+kind: death
+label:
+  ar: "وفاة ابن الملقن بالقاهرة، ربيع الأول ٨٠٤هـ"
+  en: "Ibn al-Mulaqqin dies at Cairo, Rabi' I 804/October 1401"
+  ur: "ابن ملقن کی وفات قاہرہ میں، ربیع الاول 804ھ/اکتوبر 1401ء"
+summary:
+  ar: "تغيّر حال ابن الملقن بآخرته فحجبه ولده نور الدين علي إلى أن مات في سادس شهر ربيع الأول سنة ٨٠٤هـ بالقاهرة، ودُفن على والده بحوش الصوفية خارج باب النصر، وقد عاش إحدى وثمانين سنة {cite:shadharat-dhahab 7/45} {cite:durar-kamina-jil-1993 dhayl p. 123}."
+  en: "Ibn al-Mulaqqin's state changed at the end of his life and his son Nur al-Din 'Ali confined him until he died on 6 Rabi' I 804 at Cairo, aged eighty-one; he was buried beside his father in the hawsh of the Sufis outside Bab al-Nasr {cite:shadharat-dhahab 7/45} {cite:durar-kamina-jil-1993 dhayl p. 123}."
+  ur: "آخری عمر میں ابن ملقن کی حالت بدل گئی اور ان کے فرزند نور الدین علی نے انہیں محدود رکھا یہاں تک کہ وہ 6 ربیع الاول 804ھ کو قاہرہ میں فوت ہوئے، عمر اکیاسی برس؛ انہیں باب النصر کے باہر حوش صوفیہ میں والد کے پہلو میں دفن کیا گیا {cite:shadharat-dhahab 7/45} {cite:durar-kamina-jil-1993 dhayl p. 123}۔"
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1401-10-13", hijri: "0804-03-06", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في سادس شهر ربيع الأول بالقاهرة {cite:shadharat-dhahab 7/45}؛ مات في شهر ربيع الأول سنة ٨٠٤هـ عن إحدى وثمانين سنة {cite:durar-kamina-jil-1993 dhayl p. 123}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/ibn-al-mulaqqin, role: "المتوفَّى", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+  - { type: had_participant, target: person/nur-al-din-ali-ibn-umar-ibn-al-mulaqqin, role: "الولد الحاجب", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Shadharat al-Dhahab s.a. 804, printed vol. 7 p. 45 (harvest OCR AAlexandrina-223853); Dhayl al-Durar s.a. 804 printed p. 123 (harvest OCR DurarKamina__zdk)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-mulaqqin-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

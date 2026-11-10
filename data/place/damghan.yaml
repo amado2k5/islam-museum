@@ -1,0 +1,21 @@
+id: place/damghan
+class: place
+kind: city
+label: { ar: "دامغان" }
+summary:
+  ar: "دامغان حاضرة قومس عند غوليوس، ينقل عن ياقوت أن فيها عيوناً كثيرة تسقي نحو مئة قرية، واشتهرت مدنها الثلاث بالتفاح. {cite:farghani-elements-astronomy p. 435}"
+wings: [place]
+regions: [persia-central-asia]
+part_of: place/qumis
+coordinates: [36.168055555556, 54.348055555556]
+coordinate_precision: approx
+coordinate_note: "Matched to Wikidata Q720053 by name; coordinates approximate until verified against a gazetteer."
+external_ids: { wikidata: "Q720053" }
+sources: [source/farghani-elements-astronomy, source/wikidata]
+provenance:
+  layer: own-research
+  source: "Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "farghani-389-577"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }

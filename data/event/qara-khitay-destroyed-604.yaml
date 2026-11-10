@@ -1,0 +1,23 @@
+id: event/qara-khitay-destroyed-604
+class: event
+kind: battle
+label: { ar: "الوقعة التي أفنت الخطا", en: "The battle that destroyed the Khitai" }
+summary:
+  ar: "في سنة أربع وستمائة اجتمع بقية الخطا بملكهم حين سمعت طائفة عظيمة من التتر نازلة وراء بلاد تركستان بقيادة ملكهم كشلي خان بما فعل خوارزم شاه بالخطا فقصدوهم، فأرسل ملك الخطا إلى خوارزم شاه يعفو عما مضى ويطلب نجدته، وأرسل كشلي خان يطلب معونته على الخطا أعدائه وأعداء آبائه، فأجاب خوارزم شاه كلاً منهما أنه معه ضد خصمه وسار بعساكره حتى نزل قريباً من موضع التصاف فلم يخالطهم مخالطة يعلم بها أنه من أحدهما فكانت كل طائفة تظنه معها، فتواقع الخطا والتتر فانهزم الخطا هزيمة عظيمة فمال خوارزم شاه عليهم يقتل ويأسر وينهب ولم يسلم منهم إلا طائفة يسيرة تحصنت مع ملكهم بموضع تحيط به الجبال لا طريق إليه إلا من جهة واحدة، وانضم منهم طائفة إلى عسكره، ثم طلب كشلي خان مقاسمة بلاد الخطا فقال خوارزم شاه ليس لك عندي غير السيف، فسار يراوده ويغير على أثقاله فكتب إليه كشلي خان ليس هذا فعل الملوك هذا فعل اللصوص فإن كنت سلطاناً فلنلتق، فلم يجبه وأمر أهل الشاش وفرغانة وإسفيجاب وكاسان بالجلاء منها إلى بلاد الإسلام وخربها خوفاً أن يملكها التتر، ثم اتفق خروج تتر آخرين ملكهم جنكز خان على كشلي خان فاشتغل به عن خوارزم شاه فعبر النهر إلى خراسان {cite:kamil-ibn-al-athir p. 339-340}."
+  en: "In 604 the surviving Khitai gathered under their king when word came that a great body of Tatars was advancing from beyond the lands of Turkistan under their king Kushli Khan, because of what Khwarazm-shah had done to the Khitai; they marched against them. The Khitai king sent to Khwarazm-shah asking him to overlook the past and come to his aid; Kushli Khan also sent to him, seeking his help against the Khitai, his enemies and the enemies of his fathers. Khwarazm-shah answered each that he was with him against the other, and marched his armies until he camped near the place of the encounter, without mixing with either side in a way that showed which he was, so that each took him to be on its side. The Khitai and the Tatars clashed, and the Khitai were routed in a great defeat. Khwarazm-shah fell upon them, killing, capturing and plundering; only a small band escaped, sheltering with their king in a place ringed by mountains with a single approach, and some of them joined his army. Kushli Khan then asked to share the lands of the Khitai, and Khwarazm-shah replied, 'You have nothing from me but the sword.' He advanced, courting him and raiding his baggage. Kushli Khan wrote to him: 'This is not the conduct of kings; it is the conduct of thieves. If you are a sultan, let us meet.' He did not answer, and ordered the people of Shash, Farghana, Isfijab and Kasan to leave for the lands of Islam, laying them waste for fear the Tatars would seize them. Then it happened that other Tatars, under their king Genghis Khan, rose against Kushli Khan and occupied him, and Khwarazm-shah crossed the river into Khurasan {cite:kamil-ibn-al-athir p. 339-340}."
+wings: [time]
+themes: [battles, mongol-invasions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1207~", hijri: "0604", calendar: julian, precision: year, status: tradition, derived: true, note: "604؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 339}." }
+relations:
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "الساعي بين الطرفين ثم المُفني للخطا", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/genghis-khan, role: "ملك التتر الآخرين الذين خرجوا على كشلي خان", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 604، ص 339–340"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-06
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

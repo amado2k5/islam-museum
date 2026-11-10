@@ -1,0 +1,21 @@
+id: person/wasif-al-turki
+class: person
+label: { ar: "وصيف التركي" }
+summary:
+  ar: "من قادة الجند الأتراك في سامراء، قُتل سنة ثلاث وخمسين ومائتين {cite:tabari-tarikh-abu-al-fadl j.9 p.374}. وعند المسعودي أمر بحرق البساط الذي كان تحت المتوكل ليلة الحادثة وعليه صورة شيرويه وصورة يزيد بن الوليد بعد أن سأل عنه المنتصر، وأسجن محبوبة حين غنت أي عيش يلذ لي لا أرى فيه جعفراً {cite:muruj-al-dhahab p. 512, 515}"
+wings: [people]
+gender: male
+sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab]
+provenance:
+  layer: own-research
+  source: "الطبري، تاريخ الرسل والملوك؛ المسعودي، مروج الذهب"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch26
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Tabari" }
+relations:
+  - { type: lived_in, target: place/al-jund, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab] }

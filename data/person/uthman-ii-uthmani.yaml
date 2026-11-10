@@ -1,0 +1,47 @@
+id: person/uthman-ii-uthmani
+class: person
+label:
+  ar: عثمان الثاني
+  en: Osman II
+names:
+- kind: full
+  lang: ar
+  value: عثمان بن أحمد الأول
+roles:
+- sultan
+gender: male
+summary:
+  ar: عثمان الثاني، سلطان عثماني ⁦(1031-1026هـ)⁩ في الثالثة عشرة؛ حارب بولونيا ثم عزم على التخلص من الإنكشارية فباغتوه بفتنة
+    عزلوه فيها وقتلوه سنة 1031هـ، وبقي منه شعر.
+  en: Osman II, Ottoman sultan (1026-1031 AH) at thirteen; fought Poland then resolved to abolish the Janissaries, who mutinied
+    first, deposed and killed him in 1031; some of his verse survives.
+wings:
+- people
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+born: { edtf: "1604", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
+died: { edtf: "1622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
+relations:
+- type: born_in
+  target: place/istanbul
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P19 place of birth (Wikidata Q406)
+sources:
+- source/dawlat-uthmaniyya-salabi
+- source/nomisma
+external_ids:
+  wikidata: Q172056
+  nomisma: osman_ii
+provenance:
+  layer: own-research
+  source: الصلابي، الدولة العثمانية — عثمان الثاني ص304
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch12
+status:
+  review: published
+  completeness: 3

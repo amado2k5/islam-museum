@@ -1,0 +1,29 @@
+id: person/salim-al-mawsuti
+class: person
+label:
+  ar: "سليم الموصولي"
+  en: "Salim al-Mawsuti"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسليم الموصولي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Salim al-Mawsuti; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+died: { edtf: "1353", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+  - { type: buried_in, target: place/the-cemetery-of-dahdah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q16128316)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q105344034
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

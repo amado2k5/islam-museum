@@ -1,0 +1,76 @@
+id: person/muhammad-ibn-maslama
+class: person
+label:
+  ar: محمد بن مسلمة
+  en: Muhammad ibn Maslama
+  ur: "محمد بن مسلمہ"
+names:
+- kind: full
+  lang: ar
+  value: محمد بن مسلمة بن سلمة بن خالد بن عدي بن مجدعة بن حارثة بن الخزرج بن عمرو بن مالك الأوسي الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو عبد الرحمن
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من الأوس، أسلم قديماً على يدي مصعب بن عمير وآخى النبي بينه وبين أبي عبيدة؛ شهد المشاهد إلا تبوك، وكان ممن ذهب إلى قتل كعب بن الأشرف، وعُرف بأنه اعتزل الفتنة ولم يشهد الجمل ولا صفين. وبعثه عمر إلى الكوفة سنة إحدى وعشرين حين شكا أهلها سعداً فحرق عليه باب قصر الكوفة وعرضه في مساجدها يسأل عنه فعزله عمر {cite:muruj-al-dhahab p. 629}
+  en: A Companion of the Aws who embraced Islam early at the hands of Mus'ab ibn Umayr and was paired by the Prophet with Abu Ubayda; he was in the campaigns except Tabuk, was among those who went to kill Ka'b ibn al-Ashraf, and is remembered
+    for withdrawing from the civil strife, joining neither the Camel nor Siffin.
+  ur: "اوس کے صحابی، جنہوں نے مصعب بن عمیر کی دعوت پر اسلام قبول کیا؛ مہمات میں شریک رہے اور بعد کے داخلی تصادم میں جمل اور صفین دونوں سے الگ رہے۔ {cite:ibn-hajar-isaba}"
+wings: [people]
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 7973 (ص 1370).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "589~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+relations:
+- { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
+- { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/killing-of-kab-ibn-al-ashraf
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 7973، ص 1370 (تراجم الرجال)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-men-1
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
+external_ids: { wikidata: "Q1108425" }
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1370, entry 7973)

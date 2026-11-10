@@ -1,0 +1,42 @@
+id: person/abu-al-arab-al-tamimi-muhammad
+class: person
+label: { ar: "أبو العرب التميمي محمد بن أحمد", en: "Abu al-Arab al-Tamimi, Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو العرب محمد بن أحمد بن تميم الدارمي التميمي" }
+gender: male
+roles: [jurist, muhaddith, historian]
+traditions: [sunni]
+born: { edtf: "0865", hijri: "0251", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0945", hijri: "0333", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي ومحدّث ومؤرخ، من أهل القيروان."
+  en: "A Maliki jurist, hadith scholar and historian from Kairouan."
+wings: [people]
+themes: [development-of-law-theology-institutions, history-writing-and-social-thought]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص634"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/qayrawan, note: "From text: من أهل القيروان", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

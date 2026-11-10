@@ -1,0 +1,77 @@
+id: exhibit/path-hallaj
+class: exhibit
+kind: trail
+label:
+  ar: الحلاج
+  en: Al-Hallaj
+summary:
+  ar: 'مسار في أشهر صوفي مُعدم: الحسين بن منصور يتصوف في بغداد، ويصلب سنة 922 — قصة الشهادة والجدل.'
+  en: A trail through the most famous executed mystic.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: النشأة
+    en: Origins
+  body:
+    ar: 'حسين بن منصور الحلاج: فارس إلى بغداد.'
+    en: 'حسين بن منصور الحلاج: فارس إلى بغداد.'
+  features:
+  - person/al-hallaj
+  - place/baghdad
+- title:
+    ar: التصوف
+    en: The path
+  body:
+    ar: تلميذ طستاري ثم جنيدي ثم منفرد.
+    en: تلميذ طستاري ثم جنيدي ثم منفرد.
+  features:
+  - person/al-hallaj
+  - person/sahl-al-tustari
+  - person/al-junayd-ibn-muhammad
+- title:
+    ar: أنا الحق
+    en: Ana al-Haqq
+  body:
+    ar: 'الشطح المشهور: ما قال وما عُني به.'
+    en: 'الشطح المشهور: ما قال وما عُني به.'
+  features:
+  - person/al-hallaj
+  - concept/tasawwuf
+- title:
+    ar: المحاكمة
+    en: The trial
+  body:
+    ar: 'القضاء والوزراء: تسع سنين سجنًا.'
+    en: 'القضاء والوزراء: تسع سنين سجنًا.'
+  features:
+  - person/al-hallaj
+  - place/baghdad
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: الشهيد عند الصوفية والشاعر عند الفرس.
+    en: الشهيد عند الصوفية والشاعر عند الفرس.
+  features:
+  - person/al-hallaj
+  - concept/tasawwuf
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

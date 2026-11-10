@@ -1,0 +1,23 @@
+id: event/siege-of-darayya-muadamiyat
+class: event
+kind: siege
+label: { ar: "حصار داريا ومعضمية الشام", en: "Siege of Darayya and Muadamiyat" }
+summary:
+  ar: "بطاقة أولية لحصار داريا ومعضمية الشام في ٢٠١٢–٢٠١٦م في غوطة دمشق الغربية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Darayya and Muadamiyat (2012–16) in Western Ghouta; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "2012-11-08", precision: year, status: tradition, derived: true }
+  end: { edtf: "2016-08-27", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q24885424
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

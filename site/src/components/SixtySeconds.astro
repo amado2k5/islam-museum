@@ -1,0 +1,70 @@
+---
+// SixtySeconds (docs/delegation/education-master-plan.md §5 E4): a 60-second read with a visible
+// reading bar at the top — a marker of progress, never a timer. No pressure, nothing is counted.
+import type { Lang } from "../lib/i18n";
+
+interface Props {
+  lang: Lang;
+  title: string;
+  sixty: string;
+  bandLabel: string;
+  progressLabel: string;
+  anchorLabel: string;
+  anchorHref: string;
+}
+const { lang, title, sixty, bandLabel, progressLabel, anchorLabel, anchorHref } = Astro.props;
+---
+<div class="sixty">
+  <div class="sixty-bar" role="progressbar" aria-label={progressLabel} aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-bar>
+    <span data-fill></span>
+  </div>
+  <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{bandLabel}</p>
+  <h1>{title}</h1>
+  <p class="sixty-text">{sixty}</p>
+  <p class="ui sixty-links">
+    <a href={anchorHref}>{anchorLabel}</a>
+  </p>
+</div>
+<script>
+  const bar = document.querySelector<HTMLElement>("[data-bar]");
+  const fill = document.querySelector<HTMLElement>("[data-fill]");
+  if (bar && fill) {
+    const onScroll = () => {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - doc.clientHeight;
+      const p = max > 0 ? Math.min(1, window.scrollY / max) : 1;
+      fill.style.width = `${p * 100}%`;
+      bar.setAttribute("aria-valuenow", String(Math.round(p * 100)));
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  }
+</script>
+<style>
+  .sixty-bar {
+    position: sticky;
+    top: 0;
+    height: 4px;
+    background: var(--line);
+    border-radius: 2px;
+    margin: 0 0 1rem;
+    overflow: hidden;
+  }
+  .sixty-bar > span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--gold);
+    border-radius: 2px;
+    transition: width 80ms linear;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sixty-bar > span { transition: none; }
+  }
+  .sixty-text {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    max-width: var(--measure);
+  }
+  .sixty-links { display: flex; gap: 1rem; flex-wrap: wrap; }
+</style>

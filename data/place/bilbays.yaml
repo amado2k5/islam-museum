@@ -1,0 +1,41 @@
+id: place/bilbays
+class: place
+kind: town
+label:
+  ar: بلبيس
+  en: Bilbeis
+  ur: بلبیس
+aliases:
+- place/bilbeis
+- place/belbis
+summary:
+  ar: بلبيس بلدة مصرية في أرض رملية شرق النيل، ويناقش غوليوس تطابقها مع «بيلوسيوم» القديمة، ويرى أنها أقرب إلى بوبستوس. {cite:farghani-elements-astronomy p. 389}
+  en: Bilbeis, an Egyptian town in sandy land east of the Nile; Golius discusses identifying it with ancient Pelusium and holds it nearer to Bubastis.
+wings:
+- place
+regions:
+- egypt-nile
+coordinates:
+- 30.41667
+- 31.56667
+coordinate_precision: locality
+coordinate_note: Wikidata Q393495 (Belbis) coordinates.
+external_ids:
+  wikidata: Q393495
+  geonames: '358840'
+sources:
+- source/farghani-elements-astronomy
+- source/mujam-al-buldan-yaqut
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code (claude-haiku-5-5)
+provenance:
+  layer: own-research
+  source: Golius (ed.), Alfraganus, Elementa astronomica (Amsterdam 1669), Latin notes, PDF pp. 389-549; source/mujam-al-buldan-yaqut vols 1-2 scan p. 666
+  generated_by: Claude Code; enriched by Claude Code (OCR-harvest worker J)
+  model: claude-haiku-5-5; claude-opus-5-5
+  run: farghani-389-577; ocr-harvest-2026-11-04
+  note: Merged duplicate record place/belbis into this entity during consolidation.

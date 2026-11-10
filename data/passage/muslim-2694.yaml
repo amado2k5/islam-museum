@@ -1,0 +1,16 @@
+id: passage/muslim-2694
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2694"
+label: { ar: "مسلم 2694 — كلمتان خفيفتان على اللسان ثقيلتان في الميزان", en: "Muslim 2694 — Two phrases light on the tongue, heavy on the scale" }
+text: "قال رسول الله: «كلمتان خفيفتان على اللسان، ثقيلتان في الميزان، حبيبتان إلى الرحمن: سبحان الله وبحمده، سبحان الله العظيم»"
+summary:
+  ar: "رواية أبي هريرة في كتاب الذكر والدعاء من صحيح مسلم؛ الكلمتان التسبيحيتان أخف ما يقال على اللسان وأثقله في ميزان يوم القيامة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/dhikr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء والتوبة والاستغفار (طبعة دار التأصيل، الحديث ٢٧٩٢؛ ترقيم عبد الباقي المعروف 2694)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

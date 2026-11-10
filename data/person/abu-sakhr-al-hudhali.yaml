@@ -1,0 +1,28 @@
+id: person/abu-sakhr-al-hudhali
+class: person
+label:
+  ar: "أبو صخر الهذلي"
+  en: "Abu Sakhr al-Hudhali"
+roles: [poet]
+gender: male
+summary:
+  ar: "عبد الله بن سلمة أبو صخر الهذلي، شاعر فصيح موالٍ لبني مروان، توفي نحو ٨٠هـ ⁦(٧٠٠م)⁩، صاحب الأبيات «عجبت لسعي الدهر»."
+  en: "Abd Allah ibn Salama Abu Sakhr al-Hudhali, eloquent Marwanid partisan poet (d. c. 80/700), author of the 'I wondered at fate's pursuit' lines."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12178059
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.4 p.90)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0058
+status:
+  review: published
+  completeness: 3
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,22 @@
+id: person/ibn-tabataba
+class: person
+label: { ar: "ابن طباطبا", en: "Ibn Tabataba" }
+summary:
+  ar: "أبو القاسم أحمد بن محمد بن إسماعيل بن إبراهيم الطباطبا الشريف الحسيني الرقي المصري؛ كان نقيب الطالبيين بمصر ومن أكابر رؤسائها، وله شعر مليح في الزهد والغزل، ذكره أبو منصور الثعالبي في كتاب اليتيمة وأورد له مقاطع {cite:wafayat-ayan}."
+  en: "Sharif Ibn Tabataba — naqib of the Talibids in Egypt and one of its grandees; a poet of zuhd and ghazal quoted by al-Tha'alibi in the Yatima {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch82
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3

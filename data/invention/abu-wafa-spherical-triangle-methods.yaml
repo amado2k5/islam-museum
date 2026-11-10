@@ -1,0 +1,84 @@
+id: invention/abu-wafa-spherical-triangle-methods
+class: invention
+label: { ar: "طرق أبي الوفاء لحل المثلثات الكروية", en: "Abu al-Wafa's spherical-triangle solution methods", ur: "کروی مثلث حل کرنے کے ابو الوفا کے طریقے" }
+names:
+  - { value: "General spherical sine relation and simpler right-triangle methods", kind: alternate, lang: en }
+summary:
+  ar: "تطوير جهاز حل المثلثات الكروية بطرق أبسط من قاعدة المقادير الستة، ومنها الجيب العام وطرق المثلث القائم؛ خلاف الأولوية لا يمحى {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–424}."
+  en: "Simpler spherical-triangle methods than the six-quantity apparatus, including a general sine relation and right-triangle methods; priority dispute preserved {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–424}."
+  ur: "چھ مقداروں سے آسان کروی مثلثی طریقے، عمومی جیب اور قائم مثلث کے حل سمیت؛ اولینیت کا اختلاف محفوظ {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–424}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad tenth-century author activity, not exact composition, first proof or surviving-copy date; Britannica gives940 to997/998. No unsupported exact Hijri conversion."
+    sources: [source/britannica-abu-al-wafa, source/abu-wafa-carra-almageste-1892]
+  status_today: living
+origin:
+  place: place/baghdad
+  context:
+    ar: "عمل رياضي وفلكي لعالم أقام ببغداد؛ لا موضع مرصد بعينه لكل برهان {cite:britannica-abu-al-wafa biography}."
+    en: "Mathematical/astronomical work of a Baghdad-based scholar; no exact observatory site asserted for every proof {cite:britannica-abu-al-wafa biography}."
+    ur: "بغداد میں مقیم عالم کا ریاضیاتی و فلکی کام؛ ہر برہان کے لیے مخصوص رصدگاہ کا دعویٰ نہیں {cite:britannica-abu-al-wafa biography}۔"
+makers:
+  - person: person/abu-al-wafa-al-buzjani
+    role: improver
+    place: place/baghdad
+    sources: [source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb]
+attribution:
+  status: improvement
+  claim: { ar: "تبسيط وتطوير طرق كروية موروثة، لا أول مثلثات أو أول ظل.", en: "Simplification and extension of inherited spherical methods, not first trigonometry or tangent.", ur: "موروثی کروی طریقوں کی آسانی اور ترقی، پہلی مثلثات یا ظل نہیں۔" }
+  basis:
+    ar: "المقدمة المترجمة تصرح بالموروث والطرق والبراهين الجديدة؛ برهان الجيب محفوظ مع خلاف أولوية يذكره المحقق {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–424}."
+    en: "Translated preface names inheritance, new methods and proofs; sine proof preserved beside the editor's priority dispute {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–424}."
+    ur: "ترجمہ شدہ دیباچہ ورثہ، نئے طریقے اور برہان بتاتا؛ جیب کا برہان محقق کے اولینیت اختلاف کے ساتھ محفوظ {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–424}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الإطار السني ومساهمة المؤلف المحددة", en: "Sunni frame and bounded author contribution", ur: "سنی سیاق اور مصنف کا محدود حصہ" }
+      summary: { ar: "الإطار السني معلن لا شهادة مذهب؛ نثبت الطرق والبرهان عند المؤلف دون احتكار الأولوية.", en: "Sunni frame declared, not personal school proof; methods/proof credited without exclusive priority.", ur: "سنی سیاق اعلان کردہ، ذاتی مسلک کا ثبوت نہیں؛ طریقے و برہان منسوب، اولینیت پر اجارہ نہیں۔" }
+      sources: [source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani, source/abu-wafa-carra-almageste-1892]
+    - tradition: academic
+      stance: { ar: "خلاف الأولوية: أبو الوفاء وأبو نصر والخجندي", en: "Priority dispute: Abu al-Wafa, Abu Nasr and al-Khujandi", ur: "اولینیت کا اختلاف: ابو الوفا، ابو نصر اور الخجندی" }
+      summary: { ar: "يذكر كارا خلاف أبي الوفاء وأبي نصر؛ ويضيف ماكتوتر نسبة الطوسي لبرهان الخجندي مع تحفظه على الأولوية. لا حكم متحف.", en: "Carra notes Abu al-Wafa/Abu Nasr dispute; MacTutor adds al-Tusi's attribution of al-Khujandi's proof while questioning priority. No museum verdict.", ur: "کارا ابو الوفا و ابو نصر کا اختلاف بتاتے؛ میک ٹیوٹر طوسی کی الخجندی کے برہان کی نسبت اور اولینیت پر تحفظ شامل کرتا۔ میوزیم کا فیصلہ نہیں۔" }
+      sources: [source/abu-wafa-carra-almageste-1892, source/khujandi-mactutor]
+precursors:
+  - external: { ar: "منلاوس وقاعدة المقادير الستة في المثلثات الكروية", en: "Menelaus and the six-quantity apparatus of spherical trigonometry", ur: "مینیلاؤس اور کروی مثلثات کی چھ مقداریں" }
+    note: "Earlier spherical methods, not an identical sine-law proof or personal teacher chain."
+    sources: [source/abu-wafa-carra-almageste-1892, source/abu-wafa-youschkevitch-dsb]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "جهاز أبسط لحساب أقواس وزوايا مسائل الفلك، مع فصل البرهان الهندسي عن الحساب في المقدمة {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–425}."
+    en: "Simpler apparatus for astronomical arcs/angles, with geometric proof distinguished from calculation in the preface {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–425}."
+    ur: "فلکی قوس و زاویوں کا آسان حساب، دیباچے میں ہندسی برہان اور حساب الگ {cite:abu-wafa-carra-almageste-1892 pp.413–414,423–425}۔"
+  history:
+    ar: "مساهمة في تطور المثلثات الكروية لا نسب آلي لكل ملاحة لاحقة {cite:abu-wafa-youschkevitch-dsb trigonometry}."
+    en: "Contribution to spherical trigonometry, not automatic descent of every later navigation method {cite:abu-wafa-youschkevitch-dsb trigonometry}."
+    ur: "کروی مثلثات کی ترقی میں حصہ، ہر بعد کے بحری طریقے کا خودکار نسب نہیں {cite:abu-wafa-youschkevitch-dsb trigonometry}۔"
+  significance: 4
+  why: "Translated authorial preface and general proof support a major bounded method, with earlier apparatus and explicit priority dispute; angular-side mathematics verified."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "تعليم العلاقة بين أقواس وزوايا مثلث على كرة مع رسم حديث معلن.", en: "Teaching relations between spherical arcs and angles with an explicitly modern diagram.", ur: "واضح جدید خاکے سے کروی قوس و زاویے کا تعلق سمجھانا۔" }
+  descendants: { ar: "لا تابع تقني محدد مثبت في المصادر المقروءة هنا.", en: "No particular technical descendant established by the passages read here.", ur: "یہاں پڑھے حصوں سے کوئی خاص تکنیکی تابع ثابت نہیں۔" }
+media: { image: media/spherical-triangle-modern, diagram: media/diagram-abu-wafa-spherical-methods }
+kids:
+  ar: "مثلث الكرة حدوده أقواس لا خطوط مستقيمة على ورقة. ساعد أبو الوفاء على جعل حسابه أبسط؛ كان له سابقون وشاركه آخرون في قصة البرهان، فلا ننسب كل المثلثات إلى شخص واحد."
+  en: "A triangle on a sphere has curved sides, not straight lines on paper. Abu al-Wafa helped simplify its calculation; earlier methods and other proof claims remain part of the story, so not all trigonometry belongs to one inventor."
+  ur: "کرے کے مثلث کی حدیں قوس ہیں، کاغذ کی سیدھی لکیریں نہیں۔ ابو الوفا نے حساب آسان کیا؛ پہلے طریقے اور دوسرے برہان کے دعوے بھی کہانی میں ہیں، تمام مثلثات ایک موجد کی نہیں۔"
+sources: [source/abu-wafa-carra-almageste-1892, source/britannica-abu-al-wafa, source/tdv-ebul-vefa-buzcani, source/abu-wafa-youschkevitch-dsb, source/abu-wafa-mactutor, source/khujandi-mactutor, source/commons-spherical-triangle, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b34", source: "Selected actual Carra translated preface/proof with423 image, scholarly biographies and inspected PD diagram; no independent Arabic collation or sole-priority verdict" }

@@ -1,0 +1,86 @@
+id: invention/habash-shadow-tables
+class: invention
+label: { ar: "جداول الظل عند حبش الحاسب", en: "Habash al-Hasib's shadow tables", ur: "حبش الحاسب کے ظل کے جدول" }
+names:
+  - { kind: alternate, lang: en, value: "Numerical shadow-function computation" }
+summary:
+  ar: "تنظيم نسب الظلال في جداول عددية مرتبط بحبش؛ تحسين حسابي، لا اختراع الظل أو المزولة أو كل المثلثات {cite:tdv-habash-fazlioglu trigonometry}."
+  en: "Numerical shadow-ratio tabulation associated with Habash: a computational contribution, not invention of shadows, sundials or all trigonometry {cite:tdv-habash-fazlioglu trigonometry}."
+  ur: "حبش سے متعلق سایوں کی نسبت کا عددی جدول؛ حسابی خدمت، سائے، دھوپ گھڑی یا تمام مثلثیات کی ایجاد نہیں {cite:tdv-habash-fazlioglu trigonometry}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, astronomy]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Broad ninth-century activity context, not exact invention/composition year. MacTutor circa860 general shadow-table account not an individual colophon; BEA/TDV differing life estimates preserved. No guessed Hijri conversion."
+    sources: [source/habash-charette-bea, source/tdv-habash-fazlioglu, source/mactutor-trigonometric-functions]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context:
+    ar: "سياق عمل حبش العباسي في بغداد ثم سامراء؛ لا موضع معين مؤكد لكتابة الجدول {cite:habash-charette-bea biography}."
+    en: "Abbasid career in Baghdad and later Samarra, not a verified site of table composition {cite:habash-charette-bea biography}."
+    ur: "بغداد پھر سامرا میں عباسی علمی زندگی؛ جدول کی تصنیف کا قطعی مقام نہیں {cite:habash-charette-bea biography}۔"
+makers:
+  - person: person/habash-al-hasib-al-marwazi
+    role: improver
+    note: "Individual Muslim classification explicit in Charette BEA; separate default Sunni frame. Bounded shadow-table improvement, not certified universal priority."
+    sources: [source/habash-charette-bea, source/tdv-habash-fazlioglu]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحويل حساب النسب المرتبطة بالظل إلى أداة جدولية."
+    en: "Making numerical shadow-ratio computation available as a tabular tool."
+    ur: "ظل کی نسبت کے عددی حساب کو جدولی وسیلہ بنانا۔"
+  basis:
+    ar: "ينسب فاضلي أوغلو إلى سارتون القول بأول جداول الظل؛ تاريخ ماكتوتر يدعم السياق العام لا تاريخاً دقيقاً لحبش {cite:tdv-habash-fazlioglu trigonometry} {cite:mactutor-trigonometric-functions shadow discussion}."
+    en: "Fazlioglu attributes first shadow/tangent tables to Sarton; MacTutor supports the general setting, not a precise Habash date {cite:tdv-habash-fazlioglu trigonometry} {cite:mactutor-trigonometric-functions shadow discussion}."
+    ur: "فاضلی اوغلو پہلے ظل کے جدول کا قول سارتون سے نقل کرتے؛ میک ٹیوٹر عمومی سیاق دیتا، حبش کی عین تاریخ نہیں {cite:tdv-habash-fazlioglu trigonometry} {cite:mactutor-trigonometric-functions shadow discussion}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "هندسة الظلال والمزاول السابقة", en: "Earlier shadow geometry and sundials", ur: "سایوں کا سابق ہندسہ اور دھوپ گھڑیاں" }
+    note: "Shadow measurement predates numerical table contribution; no unverified direct transmission route."
+    sources: [source/mactutor-trigonometric-functions]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, astronomy-instruments]
+  changed:
+    ar: "يستبدل تكرار الرسم بقيم عددية قابلة للرجوع، مع ضرورة فهم اصطلاح الزاوية والمقياس {cite:tdv-habash-fazlioglu trigonometry}."
+    en: "Numerical lookup complements repeated construction, provided angle and scale conventions are understood {cite:tdv-habash-fazlioglu trigonometry}."
+    ur: "زاویے و پیمانے کا اصطلاحی فرق سمجھ کر، بار بار رسم کے ساتھ عددی تلاش ممکن {cite:tdv-habash-fazlioglu trigonometry}۔"
+  history:
+    ar: "زيجه مؤثر عند البيروني وابن عراق؛ النقد والتعديل ليسا إثبات نسب كل جهاز حديث {cite:habash-charette-bea reception} {cite:tdv-habash-fazlioglu reception}."
+    en: "His zij mattered to al-Biruni and Ibn Iraq; reception and criticism do not prove every modern device's ancestry {cite:habash-charette-bea reception} {cite:tdv-habash-fazlioglu reception}."
+    ur: "بیرونی و ابن عراق کے لیے زیج اہم؛ پذیرائی اور نقد ہر جدید آلے کا نسب ثابت نہیں کرتے {cite:habash-charette-bea reception} {cite:tdv-habash-fazlioglu reception}۔"
+  significance: 3
+  why: "Defined ninth-century tabular contribution within older shadow geometry; individual Muslim basis, attributed priority and explicit mathematical/evidence limits."
+described_in: [work/zij-habash-al-hasib]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "تعليم النسب والظل بالحساب الورقي؛ الصورة مثلث حديث لا جدول حبش {cite:mactutor-trigonometric-functions shadow discussion} {cite:commons-trigonometry-triangle Description}."
+    en: "Paper-based ratio/shadow teaching; image is a modern triangle, not Habash's table {cite:mactutor-trigonometric-functions shadow discussion} {cite:commons-trigonometry-triangle Description}."
+    ur: "کاغذ پر نسبت و ظل کی تعلیم؛ تصویر جدید مثلث، حبش کا جدول نہیں {cite:mactutor-trigonometric-functions shadow discussion} {cite:commons-trigonometry-triangle Description}۔"
+  descendants:
+    ar: "لا نسب حديث مباشر مخمن ولا توصية بالنظر إلى الشمس."
+    en: "No guessed direct modern genealogy or recommendation to look at the Sun."
+    ur: "جدید براہ راست نسب کا قیاس یا سورج دیکھنے کی سفارش نہیں۔"
+media: { image: media/taqi-modern-triangle, diagram: media/diagram-habash-shadow-tables }
+kids:
+  ar: "ارسم مثلثاً على الورق فقط؛ تقارن النسبة طولين ولا تحول الظل إلى ساعة بخط مستقيم. لا تنظر إلى الشمس."
+  en: "Use a paper triangle only: a ratio compares two lengths, and shadow length is not a straight-line clock. Never look at the Sun."
+  ur: "صرف کاغذ کا مثلث: نسبت دو لمبائیوں کا موازنہ ہے، سائے کی لمبائی سیدھی لکیر کی گھڑی نہیں۔ سورج نہ دیکھیں۔"
+sources: [source/habash-charette-bea, source/tdv-habash-fazlioglu, source/mactutor-trigonometric-functions, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b57", source: "Actual complete Charette BEA/Fazlioglu TDV/MacTutor history. Shadow computation modern explanation, no historical numeric grid/scale or first-world claim independently certified. Sources and illustrations explicitly bounded." }

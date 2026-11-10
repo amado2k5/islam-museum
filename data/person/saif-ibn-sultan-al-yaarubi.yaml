@@ -1,0 +1,28 @@
+id: person/saif-ibn-sultan-al-yaarubi
+class: person
+label:
+  ar: "سيف بن سلطان اليعربي"
+  en: "Saif ibn Sultan al-Ya'rubi"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لسيف بن سلطان اليعربي، إمام عُمان من سنة ١٦٩٢م إلى ١٧١١م الذي بلغت الدولة اليعربية في عهده أوج اتساعها على الساحل الشرقي لأفريقيا؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Saif ibn Sultan al-Ya'rubi, the imam of Oman from 1692 to 1711 under whom the Ya'rubid realm reached its greatest extent on the East African coast; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [arabia, east-africa]
+periods: [period/gunpowder-empires]
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q1704432
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0025
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-A'yan" }
+relations:
+  - { type: lived_in, target: place/oman, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }

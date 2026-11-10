@@ -1,0 +1,29 @@
+id: person/waki-ibn-al-jarrah
+class: person
+label:
+  ar: "وكيع بن الجراح"
+  en: "Waki' ibn al-Jarrah"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لوكيع بن الجراح بن مليح الرواسي الكوفي، حافظ الحديث ومحدث الكوفة في القرن الثامن، توفي سنة ٨١٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Waki' ibn al-Jarrah ibn Malih al-Ru'asi al-Kufi, the Kufan hadith master of the eighth century, d. 812; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12251200
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0021
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal" }
+died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

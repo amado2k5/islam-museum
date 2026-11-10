@@ -1,0 +1,33 @@
+id: person/abu-layla-abd-al-rahman-ibn-kab
+class: person
+label: { en: Abu Layla Abd al-Rahman ibn Ka'b, ar: "أبو ليلى عبد الرحمن بن كعب" }
+names:
+  - { kind: full, lang: ar, value: "أبو ليلى عبد الرحمن بن كعب" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "ثالث البكائين، أخو بني مازن بن النجار؛ ذكره ابن إسحاق فيمن استحملوا النبي في غزوة تبوك فلم يجد ما يحملهم عليه."
+  en: The third of the Weepers, brother of Banu Mazin ibn al-Najjar; Ibn Ishaq lists him among those who begged the Prophet for mounts on the Tabuk campaign when he found nothing to carry them on.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص161)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/ibn-hisham-saqqa], confidence: low }
+  - { type: participated_in, target: event/the-weepers-al-bakkaun, role: weeper, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 161"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch75
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

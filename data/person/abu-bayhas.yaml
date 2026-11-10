@@ -1,0 +1,29 @@
+id: person/abu-bayhas
+class: person
+label:
+  ar: "أبو بيهس"
+  en: "Abu Bayhas"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي بيهس الهيثم بن مالك، محدث القرن الثامن، توفي سنة ٧١٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Bayhas al-Haytham ibn Malik, the eighth-century muhaddith, d. 713; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q16159801
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0060
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; al-Tabari, Tarikh" }
+relations:
+  - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

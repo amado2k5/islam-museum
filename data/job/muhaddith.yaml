@@ -1,0 +1,46 @@
+id: job/muhaddith
+class: job
+label: { ar: "المحدّث", en: "Hadith scholar (muhaddith)", ur: "محدث" }
+names:
+  - { value: "صاحب الحديث", kind: alternate }
+  - { value: "muhaddis", kind: latinized, lang: tr }
+summary:
+  ar: "المحدّث هو من يروي الحديث بإسناده، ويحفظ متونه، ويعرف رواته ويحكم عليهم بالثقة أو الضعف. وكان لقباً علمياً يُنال بطول التحصيل والإجازة في الرواية، وارتبط في القرون الأولى بنقد الأسانيد والرواة، ثم انتقل تحصيله من الرحلة إلى دور الحديث."
+  en: "The muhaddith is the scholar who narrates hadith with its chain of transmission, knows its texts by heart, and judges the narrators in the chain as reliable or weak. The title was earned by long study and a licence to narrate. From the first centuries it was tied to the criticism of chains and narrators, and later its learning moved from travel to dar al-hadith institutions."
+  ur: "محدث وہ عالم ہے جو سند کے ساتھ حدیث روایت کرتا ہے، متن یاد رکھتا ہے، اور سند کے راویوں کو ثقہ یا ضعیف قرار دیتا ہے۔ یہ علمی لقب طویل تحصیل اور روایت کی اجازت سے ملتا تھا، اور بعد میں اس کی تعلیم سفر سے دار الحدیث کے اداروں میں منتقل ہوئی۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0750"
+    precision: decade
+    status: historical
+    note: "The range runs from the Prophet's time to the first half of the eighth century CE. The entry dates the criticism of narrators (jarh wa-ta'dil) to the first century AH, and the question of the isnad to the first half of the eighth century CE. The Hijri century printed beside the isnad date reads 'I.' against the CE 'VIII.'; the CE label is used here. The entry does not date the first person to hold the title muhaddith."
+    sources: [source/tdv-hadis, source/tdv-muhaddis]
+  status_today: transformed
+places:
+  - { place: place/medina, note: "Abu Hurayra, Aisha, Ibn Umar and Abu Sa'id al-Khudri lived in Medina; the entry also names the seven great jurists of the Successors and al-Zuhri among its scholars.", sources: [source/tdv-hadis] }
+  - { place: place/mecca, note: "Among Companions named as serving hadith learning there: Ibn Abbas and Attab ibn Usayd. Among Successors: Mujahid, Ata ibn Abi Rabah and Amr ibn Dinar.", sources: [source/tdv-hadis] }
+  - { place: place/kufa, note: "Companions named: Ali, Sa'd ibn Abi Waqqas and Ibn Mas'ud. Successors named: Alqama, Ibrahim al-Nakha'i and al-Sha'bi.", sources: [source/tdv-hadis] }
+  - { place: place/basra, note: "Companions named: Anas ibn Malik, Abu Musa al-Ash'ari and Imran ibn Husayn. Successors named: al-Hasan al-Basri, Ibn Sirin and Qatada.", sources: [source/tdv-hadis] }
+  - { place: place/damascus, note: "Companions named: Mu'adh ibn Jabal, Ubada ibn al-Samit and Abu al-Darda. Successors named: Abu Idris al-Khawlani and Umar ibn Abd al-Aziz. The first dar al-hadith is named here in the sixth century AH.", sources: [source/tdv-hadis] }
+  - { place: place/baghdad, note: "The entry describes the Nizamiyya madrasas, the first of which was founded in Baghdad, and the dar al-hadith institutions of the sixth century AH, which it says appeared in Damascus first and then in Egypt and Baghdad.", sources: [source/tdv-hadis] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans]
+organization:
+  organized: informal
+training:
+  mode: ijaza-chain
+  certification: "No single certificate is described. The entries describe a chain of permission (ijaza) to narrate: a student heard the teacher, wrote from dictation, read the text back to the teacher, received a text handed over, or received a licence in a letter. The narration of each step had its own formula."
+  duration: "Long study. The entries say a student might hear a thousand fascicles of hadith from scholars, and that the right to teach came only after a long and exhausting course of study."
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/crusades-ayyubid-mamluk]
+sources: [source/tdv-hadis, source/tdv-muhaddis]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HADİS' (M. Y. Kandemir, vol. 15 pp. 27–64; read in parts on 1 Nov 2026) and 'MUHADDİS' (M. Y. Kandemir, vol. 30 pp. 390–392; read in full on 1 Nov 2026). Holders checked at their records and against these entries. Rewritten by Claude Code. Museum graph at this commit: 252 holders from roles, 851 prose leads, read as census only; the holders below are the three whose records the TDV text supports"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-muhaddith"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

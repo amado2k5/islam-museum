@@ -1,0 +1,30 @@
+id: person/al-ahwal-muhammad-ibn-al-hasan
+class: person
+label: { ar: "الأحول أبو العباس", en: "al-Ahwal, Abu al-Abbas" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس محمد بن الحسن بن دينار الأحول" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+summary:
+  ar: "شاعر ولغوي من أهل البصرة، ورد ذكره في طبقات فحول الشعراء."
+  en: "Poet and philologist of Basra, mentioned in the classical biographies of poets."
+wings: [people]
+themes: [literature]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص358-359"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zubaydi (Tabaqat)" }
+relations:
+  - { type: lived_in, target: place/basra, note: "From text: من أهل البصرة", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

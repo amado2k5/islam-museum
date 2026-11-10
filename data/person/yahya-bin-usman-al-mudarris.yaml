@@ -1,0 +1,29 @@
+id: person/yahya-bin-usman-al-mudarris
+class: person
+label:
+  ar: "يحيى بن عثمان المدرس"
+  en: "Yahya bin Usman al-Mudarris"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية ليحيى بن عثمان المدرس؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yahya bin Usman al-Mudarris; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+born: { edtf: "1935", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholarly Obituaries (Makkah Scholars)" }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholarly Obituaries (Makkah Scholars)" }
+relations:
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q110710359
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

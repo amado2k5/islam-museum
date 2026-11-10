@@ -1,0 +1,40 @@
+id: person/yahya-al-khayyat-al-falaki-abu-ali-yahya-ibn-ghalib
+class: person
+label: { ar: "يحيى الخياط الفلكي أبو علي يحيى بن غالب", en: "Yahya al-Khayyat al-Falaki Abu Ali Yahya ibn Ghalib" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي يحيى بن غالب بن محمد البغدادي الخياط" }
+  - { kind: kunya, lang: ar, value: "أبو علي" }
+  - { kind: laqab, lang: ar, value: "يحيى الخياط الفلكي" }
+  - { kind: nisba, lang: ar, value: "البغدادي" }
+  - { kind: nisba, lang: ar, value: "الخياط" }
+gender: male
+roles: [astronomer]
+traditions: [sunni]
+died: { edtf: "0864", hijri: "0250", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فلكي ومنجّم بغدادي عاش في القرن الثالث الهجري، وكان من تلاميذ ماشاء الله، وتوفي سنة 250هـ ⁦(864م)⁩ مع اختلاف المترجمين في تاريخ وفاته."
+  en: "Baghdadi astronomer and astrologer of the third century AH, a pupil of Masha'allah; died 250 AH (864 CE), though biographers differ on the date."
+wings: [people]
+themes: [astronomy-and-timekeeping]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص620"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch63
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Association inferred from the nisba 'البغدادي'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

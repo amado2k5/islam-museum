@@ -1,0 +1,20 @@
+id: passage/muwatta-4-792
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri, person/humayd-ibn-abd-al-rahman-ibn-awf]
+work: work/muwatta-malik
+ref: "792"
+label: { ar: "الموطأ 792 — عمر وعثمان يصليان المغرب حين ينظران الليل الأسود قبل أن يفطرا، ثم يفطران بعد الصلاة في رمضان", en: "Muwatta 792" }
+summary:
+  ar: "يرويه مالك عن ابن شهاب عن حميد بن عبد الرحمن، أن عمر بن الخطاب وعثمان بن عفان كانا يصليان المغرب حين ينظران إلى الليل الأسود قبل أن يفطرا، ثم يفطران بعد الصلاة، وذلك في رمضان. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي والتنيسي عند البخاري (1957)، وأن عبد الرزاق (7588) رواه عن معمر عن الزهري. {cite:muwatta-maruf-1997 p.389} {cite:muwatta-maruf-1997 p.390}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-04-siyam }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 792 at PDF p. 389; باب ما جاء في تعجيل الفطر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 389; matn excerpt at most 40 words" }

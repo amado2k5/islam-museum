@@ -1,0 +1,22 @@
+id: person/bajir-al-tai
+class: person
+label: { ar: "بجير من طيء", en: "Bajir of Tayyi'" }
+summary:
+  ar: "رجل من جرحى القادسية أريح تحت النخلة الوحيدة بين موضع الوقعة وحصن العذيب وهو يجود بنفسه ويقول آلا فاسلمي يا نخلة بين قادس وبين العذيب لا يجاورك النخل، وكانت النخلة علامة للجرحى إذا حمل أحدهم إلى العذيب سأل أن يراح تحتها ويقول قد قربت من السواد {cite:muruj-al-dhahab p. 613}."
+  en: "The dying Tayyi' soldier who greeted the lone palm between the field and al-'Udhayb — the tree under which every wounded man asked to rest, saying 'the Sawad is near' {cite:muruj-al-dhahab p. 613}."
+gender: male
+wings: [people]
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
+died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba" }
+relations:
+  - { type: lived_in, target: place/al-qadisiyya, confidence: low, note: "Associated with القادسية per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,24 @@
+id: person/shuqran-mawla-rasul
+class: person
+label: { ar: "شقران مولى رسول الله", en: "Shuqran, the Prophet's freedman" }
+summary:
+  ar: "مولى رسول الله، نزل في قبره مع علي بن أبي طالب والفضل وقثم ابني العباس عند دفنه {cite:muruj-al-dhahab p. 582}."
+  en: "The Prophet's freedman who went down into the grave with Ali and the two sons of al-Abbas at the burial {cite:muruj-al-dhahab p. 582}."
+gender: male
+wings: [people]
+born: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "655~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: participated_in, target: event/burial-of-the-prophet, role: "من غسل النبي وصب الماء ونزل القبر ودفن القطيفة", sources: [source/ibn-hisham-saqqa] }
+  - { type: buried_in, target: place/al-qatif, sources: [source/wikidata], confidence: low, note: "- { type: participated_in, target: event/burial-of-the-prophet, role: 'من غسل النبي وصب الماء ونزل القبر ودفن " }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+sources: [source/muruj-al-dhahab, source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3
+

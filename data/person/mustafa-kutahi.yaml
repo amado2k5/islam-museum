@@ -1,0 +1,35 @@
+id: person/mustafa-kutahi
+class: person
+label:
+  ar: "مصطفى كوتاهي"
+  en: "Mustafa Kutahi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لمصطفى كوتاهي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mustafa Kutahi; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1778", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Kutahi Mustafa)" }
+relations:
+  - { type: born_in, target: place/k-tahya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q188894)" }
+  - { type: buried_in, target: place/karacaahmet-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q578506)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q20111137
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

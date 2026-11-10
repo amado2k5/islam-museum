@@ -1,0 +1,23 @@
+id: person/abu-al-abbas-al-nashi
+class: person
+label: { ar: "أبو العباس الناشئ", en: "Abu'l-'Abbas al-Nashi'" }
+summary:
+  ar: "عبد الله بن محمد الناشئ الكاتب الأنباري، صنف على الخليل بن أحمد كتاباً ذكر فيه أنواعاً خرج فيها الخليل عن تقليد العرب إلى باب التعسف، وله قصيدة نونية منصوبة نحو أربعة آلاف بيت بقافية واحدة يذكر فيها أهل الآراء والنحل والمذاهب والملل، ومصنفات واسعة في أنواع العلوم، سار من العراق إلى مصر وبها مات سنة ثلاث وتسعين ومائتين {cite:muruj-al-dhahab p. 433}."
+  en: "The Anbari secretary — critic of al-Khalil's prosody, author of a four-thousand-line nuniyya on the sects, dead in Egypt 293 {cite:muruj-al-dhahab p. 433}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch27
+external_ids: { wikidata: "Q28716329" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: lived_in, target: place/al-anbar, note: "Place association from the person's nisba/name (الأنباري); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

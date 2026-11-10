@@ -1,0 +1,21 @@
+id: place/aq-qoyunlu
+class: place
+kind: region
+label: { ar: "آق قويونلو", en: "Aq Qoyunlu", ur: "آق قویونلو" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q555994)."
+wings: [place]
+regions: [global]
+coordinates: [38.08, 46.2919]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q555994" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q555994 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

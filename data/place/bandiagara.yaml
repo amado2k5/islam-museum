@@ -1,0 +1,21 @@
+id: place/bandiagara
+class: place
+kind: town
+label: { ar: "باندياجارا", en: "Bandiagara", ur: "بندیاگارا"}
+summary:
+  ar: "بلدة باندياجارا."
+  en: "Town (Bandiagara)."
+wings: [place]
+regions: [global]
+coordinates: [14.35, -3.6111111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q538753; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q538753" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q538753 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

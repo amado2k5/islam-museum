@@ -1,0 +1,20 @@
+id: event/hudaybiyya-refusal-to-return-slaves
+class: event
+kind: other
+label: { ar: "رفض النبي إرجاع الأرقاء الفارّين من مكة في الحديبية", en: "The Prophet refuses to return runaway slaves at Hudaybiyya" }
+summary:
+  ar: "في أثناء الحديبية خرج بعض الأرقاء من مكة إلى النبي، فكتب مواليهم يطلبون ردّهم، فأبى النبي ذلك وقال لقريش: لتنتهن أو ليبعثن الله عليكم من يضرب رقابكم، وذكر الكتاب أن المقصود علي بن أبي طالب، وكان هو من كتب بين المسلمين والمشركين."
+wings: [people, time]
+themes: [laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628-03~", hijri: "0006-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في زمن صلح الحديبية، ذي القعدة سنة 6هـ (انظر الصلح)؛ التاريخ مشتق من موضع الواقعة في الكتاب (ص100)." }
+relations:
+  - { type: part_of, target: event/treaty-of-hudaybiyya }
+  - { type: had_participant, target: person/muhammad, role: "رفض ردّ الأرقاء وخاطب قريشاً", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "ذُكر أنه المقصود بقول النبي في أحد الأمر بعده", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: group/quraysh, role: "مواليهم طلبوا الردّ", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 100-101" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 100-101", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }

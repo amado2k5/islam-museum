@@ -1,0 +1,29 @@
+id: person/abu-talut-al-shami
+class: person
+label:
+  ar: "أبو طالوت الشامي"
+  en: "Abu Talut al-Shami"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبو طالوت الشامي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Talut al-Shami; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12178069
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
+died: { edtf: "710~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Dimashq" }
+relations:
+  - { type: lived_in, target: place/al-sham, note: "Place association from the person's nisba/name (الشامي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

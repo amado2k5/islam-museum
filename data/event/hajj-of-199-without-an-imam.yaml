@@ -1,0 +1,51 @@
+id: event/hajj-of-199-without-an-imam
+class: event
+kind: pilgrimage
+label:
+  ar: حج سنة تسع وتسعين ومئة بغير إمام
+  en: The pilgrimage of 199 AH without an imam
+  ur: 199ھ کا حج بغیر امام کے
+summary:
+  ar: يروي خليفة بن خياط أن المأمون بعث سليمان بن داود بن عيسى لإقامة الحج سنة تسع وتسعين ومئة، فوثب ابن الأفطس بمكة وبيّض، فانصرف سليمان ولم يأت عرفة، ووقف الناس بغير إمام {cite:tarikh-khalifa-umari-1985 p. 469}.
+  en: Khalifa ibn Khayyat reports that al-Ma'mun sent Sulayman ibn Dawud ibn Isa to lead the pilgrimage of 199 AH, but Ibn al-Aftas rose at Mecca and raised the white banner; Sulayman withdrew without going to Arafa, and the people stood at Arafa without an imam {cite:tarikh-khalifa-umari-1985 p. 469}.
+  ur: خلیفہ بن خیاط روایت کرتے ہیں کہ مامون نے 199ھ کے حج کی امارت کے لیے سلیمان بن داود بن عیسیٰ کو بھیجا، مگر ابن الافطس نے مکہ میں بغاوت کر کے سفید جھنڈا بلند کیا؛ سلیمان عرفہ گئے بغیر لوٹ گئے، اور لوگوں نے بغیر امام کے وقوف کیا {cite:tarikh-khalifa-umari-1985 p. 469}۔
+wings:
+- time
+periods:
+- period/abbasid-early
+regions:
+- arabia
+date:
+  start:
+    hijri: '0199-12'
+    edtf: '0815-07'
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: 'خليفة: حج سنة 199 (ص 469)؛ شهر الحج ذو الحجة؛ التحويل مشتق.'
+    sources:
+    - source/tarikh-khalifa-umari-1985
+relations:
+- type: occurred_at
+  target: place/mecca
+  sources:
+  - source/tarikh-khalifa-umari-1985
+- type: had_participant
+  target: person/abd-allah-al-mamun
+  role: باعث أمير الحج
+  sources:
+  - source/tarikh-khalifa-umari-1985
+sources: &id001
+- source/tarikh-khalifa-umari-1985
+provenance:
+  layer: own-research
+  source: تاريخ خليفة بن خياط (تحقيق العمري 1985) ص 469–470
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-tarikh-khalifa-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

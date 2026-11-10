@@ -1,0 +1,15 @@
+id: passage/muslim-2608
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2608"
+label: { ar: "مسلم 2608 — ما تعدون الصرعة فيكم؟ ليس الذي لا يصرعه الرجال", en: "Muslim 2608 — What do you count as strength? Not the one men cannot throw" }
+text: "قال رسول الله: «ما تعدون الصرعة فيكم؟» قالوا: الذي لا يصرعه الرجال، قال: «ليس بذلك، ولكنه الذي يملك نفسه عند الغضب»"
+summary:
+  ar: "رواية عبد الله بن مسعود في باب تحريم الغضب من كتاب البر في صحيح مسلم — سؤال وجواب يعيد تعريف الشدة والرقوب على المقاييس النبوية."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب تحريم الغضب (طبعة دار التأصيل، الحديث ٢٦٩٣؛ ترقيم عبد الباقي المعروف 2608)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

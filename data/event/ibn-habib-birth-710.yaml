@@ -1,0 +1,27 @@
+id: event/ibn-habib-birth-710
+class: event
+kind: other
+label:
+  ar: "مولد ابن حبيب الحلبي بدمشق، شعبان ٧١٠هـ"
+  en: "Birth of Ibn Habib al-Halabi at Damascus, Sha'ban 710/early 1311"
+  ur: "ابن حبیب حلبی کی پیدائش، دمشق، شعبان 710ھ/آغاز 1311ء"
+summary:
+  ar: "ولد الحسن بن عمر بن الحسن بن حبيب، بدر الدين الحلبي، بدمشق في شعبان سنة ٧١٠هـ {cite:durar-kamina-jil-1993 2/29} {cite:al-aalam 2/218-219}؛ ونُصب أبوه محتسباً بحلب فانتقل معه فنشأ فيها ونُسب إليها {cite:al-aalam 2/218-219}."
+  en: "Al-Hasan ibn 'Umar ibn al-Hasan ibn Habib, Badr al-Din al-Halabi, was born at Damascus in Sha'ban 710 {cite:durar-kamina-jil-1993 2/29} {cite:al-aalam 2/218-219}; his father was appointed muhtasib of Aleppo, and the boy moved with him, grew up there and took his nisba from the city {cite:al-aalam 2/218-219}."
+  ur: "حسن بن عمر بن الحسن بن حبیب، بدر الدین حلبی، شعبان 710ھ میں دمشق میں پیدا ہوا {cite:durar-kamina-jil-1993 2/29} {cite:al-aalam 2/218-219}؛ باپ حلب کا محتسب مقرر ہوا تو بچہ ساتھ گیا، وہیں پلا بڑھا اور شہر ہی سے نسبت پائی {cite:al-aalam 2/218-219}."
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1311-01", hijri: "0710-08", calendar: julian, precision: month, status: tradition, derived: true, note: "مولده في شعبان سنة ٧١٠هـ {cite:durar-kamina-jil-1993 2/29} {cite:al-aalam 2/218-219}؛ شعبان ٧١٠هـ يلاقي نحو أواخر ديسمبر ١٣١٠م إلى يناير ١٣١١م؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/al-aalam] }
+  - { type: had_participant, target: person/ibn-habib-al-halabi, role: "المولود", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+sources: [source/durar-kamina-jil-1993, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina 2/29 (archive.org DurarKamina OCR); al-Zirikli, al-A'lam 2/218-219 (archive.org Al_Alam_Zarkali OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-habib-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

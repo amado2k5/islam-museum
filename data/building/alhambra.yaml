@@ -1,0 +1,32 @@
+id: building/alhambra
+class: building
+kind: palace
+label: { ar: "قصر الحمراء", en: "The Alhambra" }
+summary:
+  ar: "حصن الحمراء بغرناطة؛ عند ابن خلدون أن محمد بن يوسف بن نصر الشيخ ابن الأحمر لما تغلب على غرناطة سنة خمس وثلاثين وستمائة ونزلها ابتنى بها حصن الحمراء لنزوله، فصار دار مُلك بني نصر قاعدتهم الأولى وقصورهم الأنيقة التي شيدها يوسف الغني بالله واسطة عقدهم ومشيد مبانيهم؛ ومنها سلمها آخرهم أبو عبد الله محمد للنصارى في ثاني ربيع الأول سنة سبع وتسعين وثمانمائة بعد أن استوثقوا من أهل غرناطة بنحو خمسمائة من الأعيان، فعمّرها الطاغية وجدد بناء قصورها وصار يختلف إليها نهاراً ويبيت بمحلته ليلاً حتى اطمأن من خوف الغدر فدخل {cite:nafh-tib-maqqari p. 484, 523-527}."
+  en: "The Alhambra of Granada: Ibn al-Ahmar built the fortress as his residence when he took the city in 635, and it became the Nasrids' seat — the elegant palaces raised by Yusuf 'al-Ghani billah' — until the last sultan surrendered it to the Christians on 2 Rabi I 897 after five hundred hostages secured the entry {cite:nafh-tib-maqqari p. 484, 523-527}."
+wings: [objects]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/granada, sources: [source/nafh-tib-maqqari] }
+  - { type: founded_by, target: person/ibn-al-ahmar, role: "ابتناه لنزوله عند دخوله غرناطة 635", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 484 ناقلاً عن ابن خلدون، وص 523–527"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+external_ids:
+  tei: "1496,1792,1793,1794,1795,1797,1798,1890,1893,1894,1895,1896,1897,1898,1900,1901,1905,1906,1907,1908,3387,4272,8424,8425,8428,27107,27108,27109,27110,27111,27112,27114,28883,28884,28887,28898,28908,28963,33808,40515,42954,42956,44028,44030,44052,44054,44062,44064,44066,44074,44076,44080,44086,44088,44096,44106,44118,44126,44128,44132,44136,44146,44148,44158,44160,44162,44164,44166,44168,44170,44172,44174,44178,44192,44194,44200,44202,44208,44218,44222,44228,44234,44236,44240,44262,44270,44280,44282,44284,53459,58709,58724,59291"
+  wikidata: Q47476
+sources: [source/nafh-tib-maqqari, source/tei-epigraphie]
+education:
+  did_you_know:
+    ar: "ابتنى محمد بن يوسف بن نصر حصن الحمراء بغرناطة سنة ٦٣٥هـ، فصار دار مُلك بني نصر وقاعدتهم الأولى."
+    en: "Muhammad ibn Yusuf ibn Nasr built the Alhambra fortress in Granada in 635 AH; it became the seat and first residence of the Nasrids."
+    ur: "محمد بن یوسف بن نصر نے 635ھ میں غرناطہ میں قلعۂ الحمراء تعمیر کیا؛ وہ بنی نصر کا دارالحکومت اور پہلا قیام گاہ بنا۔"
+    sources: [source/nafh-tib-maqqari, source/tarikh-ibn-khaldun-ibar]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

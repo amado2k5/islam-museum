@@ -1,0 +1,31 @@
+id: person/tauke-khan
+class: person
+label:
+  ar: "توقة خان"
+  en: "Tauke Khan"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لتوقة خان، خان القازاق في أواخر القرن السابع عشر صاحب «جيتي جرغى»، توفي سنة ١٧١٨م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Tauke Khan, the Kazakh khan of the late seventeenth century associated with the Zheti Zhargy code, d. 1718; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1652~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kazakh Khanate Records / EI2" }
+died: { edtf: "1715~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kazakh Khanate Records / EI2" }
+relations:
+  - { type: born_in, target: place/kazakh-khanate, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1433867)" }
+  - { type: died_in, target: place/turkistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1315785)" }
+  - { type: buried_in, target: place/turkistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q848638)" }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q2497155
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0034
+status:
+  review: draft
+  completeness: 1

@@ -1,0 +1,76 @@
+id: exhibit/path-cinema-syria
+class: exhibit
+kind: trail
+label:
+  ar: السينما السورية
+  en: Syrian Cinema
+summary:
+  ar: 'مسار في سينما الشام: فجر الإسلام وباب الحارة والظاهر بيبرس — الدراما الشامية عبر الأجيال.'
+  en: A trail through Sham's screen.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: فجر الإسلام
+    en: Dawn of Islam
+  body:
+    ar: '1971: أول أفلام السيرة السورية.'
+    en: '1971: أول أفلام السيرة السورية.'
+  features:
+  - screen/fajr-al-islam-1971
+  - place/damascus
+- title:
+    ar: بيبرس
+    en: Baybars
+  body:
+    ar: 'الظاهر بيبرس 2005: الدراما التاريخية.'
+    en: 'الظاهر بيبرس 2005: الدراما التاريخية.'
+  features:
+  - screen/al-zahir-baybars-2005
+  - person/baybars
+- title:
+    ar: باب الحارة
+    en: Bab al-Hara
+  body:
+    ar: 'الحارة الشامية: أشهر مسلسل.'
+    en: 'الحارة الشامية: أشهر مسلسل.'
+  features:
+  - screen/bab-al-hara-2006
+  - place/damascus
+- title:
+    ar: الحرب
+    en: The war
+  body:
+    ar: 'الغارة وحلب: سينما الأزمة.'
+    en: 'الغارة وحلب: سينما الأزمة.'
+  features:
+  - screen/al-maghara-2019
+  - screen/akhir-al-rijal-fi-halab-2017
+- title:
+    ar: الشتات
+    en: The diaspora
+  body:
+    ar: 'من الآب إلى الأبناء: الهجرة.'
+    en: 'من الآب إلى الأبناء: الهجرة.'
+  features:
+  - screen/min-al-aba-ila-al-abna-2018
+  - screen/al-taghriba-al-filistiniyya-2004
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

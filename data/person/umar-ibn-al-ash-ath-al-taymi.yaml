@@ -1,0 +1,30 @@
+id: person/umar-ibn-al-ash-ath-al-taymi
+class: person
+label: { ar: "عمر بن الأشعث التيمي", en: "Umar ibn al-Ash'ath al-Taymi" }
+names:
+  - { kind: full, lang: ar, value: "عمر بن الأشعث بن لجأ بن حدير التيمي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "0724", hijri: "0105", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "منسوب إلى جده لجأ، وليس إلى أبيه الأشعث."
+  en: "Named after his grandfather Laja, not his father al-Ash'ath."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص771"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch63
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Of the family of Ibn al-Ash'ath, Umayyad-era Iraq (regions: levant-iraq).", sources: [source/mawsuat-a3lam-ulama-adaba] }

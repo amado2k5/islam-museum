@@ -1,0 +1,44 @@
+id: dec-20261108-174
+kind: override
+date: '2026-11-08'
+question_hash: e44c23c7db9a
+lane: azhar-academy
+class: dates
+modality: repo
+domain: dates
+mode: conservative
+question: The Azhar academy book gives the Battle of Ayn Jalut as Friday 25 Ramadan 658 AH while the existing event entity gives Friday 15 Ramadan 658 — which Hijri date should the record carry, and how should the conflict be represented?
+status: decided
+step: override
+decision: 'Conflicting dates are preserved, not resolved silently: the entity keeps its recorded date and the book''s variant is carried as an attributed alternative reading — never pick one date and bury the other.'
+correct_outcome: conflict-preserved-as-debated
+wrong_outcome: silent-resolution-or-git-merge-doctrine
+confidence: 1
+reversible: true
+rationale: 'dec-164 was generated minutes before the rule-merge pattern gained word boundaries: bare ''pr'' matched inside ''represented'' and ''conflict'' matched the date-conflict phrasing, so a git-merge rule answered a Hijri-date question — the same false-positive class as dec-084/085/090. Pattern fixed; this override restores the correct doctrine (rule-conflict-preserve).'
+supersedes: dec-20261108-164
+override_reason:
+  category: rule-false-positive
+  detail: rule-merge pattern matched 'conflict...pr' via substring 'pr' inside 'represented' — word boundaries added; record reversed here
+  overridden_by: stale-record-sweep
+signals:
+  matched_rule_id: rule-merge
+  correct_rule_id: rule-conflict-preserve
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

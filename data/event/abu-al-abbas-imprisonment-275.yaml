@@ -1,0 +1,23 @@
+id: event/abu-al-abbas-imprisonment-275
+class: event
+kind: other
+label: { ar: "حبس أبي أحمد ابنه أبا العباس المعتضد", en: "Abu Ahmad Imprisons His Son Abu al-Abbas al-Mu'tadid" }
+summary:
+  ar: "في سنة خمس وسبعين ومائتين حبس أبو أحمد الموفق ابنه أبا العباس — وهو المعتضد بالله لاحقًا — فشغب أصحابه وحملوا السلاح وركب غلمانه واضطربت بغداد لذلك، فركب أبو أحمد حتى بلغ الرصافة وقال لأصحاب أبي العباس وغلمانه: «ما شأنكم؟ أترونكم أشفق على ابني مني؟ هو ولدي واحتجت إلى تقويمه»، فانصرفوا، وكان ذلك يوم الثلاثاء لست خلون من شوال {cite:muntazam-ibn-al-jawzi p. 98}."
+  en: "In 275 al-Muwaffaq imprisoned his son Abu'l-Abbas — the future caliph al-Mu'tadid — and the prince's men and ghilman armed and riotous filled Baghdad until al-Muwaffaq rode out to al-Rusafa and told them: 'What is with you? Do you think you have more pity on my son than I? He is my son and I needed to discipline him' — and they dispersed, on Tuesday 6 Shawwal {cite:muntazam-ibn-al-jawzi p. 98}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0888-04~", hijri: "0275-10-06", calendar: julian, precision: day, status: tradition, derived: true, note: "الثلاثاء ٦ شوال ٢٧٥؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 98}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الحابس", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mutadid, role: "المحبوس", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 275)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch26
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,24 @@
+id: person/abd-al-rahman-ibn-abi-bakr
+class: person
+label: { ar: "عبد الرحمن بن أبي بكر", en: "Abd al-Rahman ibn Abi Bakr" }
+summary:
+  ar: "ابن أبي بكر الصديق، شهد يوم بدر مع المشركين ثم أسلم فحسن إسلامه، وله عقب كثير بدواً وحضراً في ناحية الحجاز مما يلي الجادة من طريق العراق بالموضع المعروف بالصفينيات والمسح {cite:muruj-al-dhahab p. 597}."
+  en: "Abu Bakr's son who fought at Badr on the pagan side before his good Islam; his numerous progeny, nomad and settled, hold the Safiniyyat and al-Mash country beside the Iraq road {cite:muruj-al-dhahab p. 597}."
+gender: male
+wings: [people]
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his chapter in Khalid Muhammad Khalid's Rijal Hawl al-Rasul, source/rijal-hawl-al-rasul-muqattam-1994 PDF pp. 529-532"
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+external_ids: { wikidata: "Q1108719" }
+sources: [source/muruj-al-dhahab, source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994, source/wikidata]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "675", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 55 AH)" }
+relations:
+  - { type: born_in, target: place/mecca, note: "Wikidata Q5806 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mecca, note: "Wikidata Q5806 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

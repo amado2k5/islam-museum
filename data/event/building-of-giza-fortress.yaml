@@ -1,0 +1,65 @@
+id: event/building-of-giza-fortress
+class: event
+kind: founding
+label:
+  ar: بناء حصن الجيزة
+  en: Building of the Giza fortress
+  ur: جیزہ کے قلعے کی تعمیر
+summary:
+  ar: بنى عمرو بن العاص لهمدان ومن والاهم حصناً بالجيزة من فيء المسلمين، بأمر عمر، لما أبوا أن يتحولوا إلى الفسطاط، فبدأه سنة إحدى وعشرين وفرغ منه سنة اثنتين وعشرين {cite:futuh-misr-amir-1999 p. 175} {cite:futuh-misr-amir-1999 p. 176}.
+  en: Amr ibn al-As built a fortress at Giza from the Muslims' fay' for Hamdan and their allies, on Umar's order, when they refused to move to al-Fustat; he began it in the year 21 and finished it in the year 22 {cite:futuh-misr-amir-1999 p. 175} {cite:futuh-misr-amir-1999 p. 176}.
+  ur: عمرو بن العاص نے عمر کے حکم پر مسلمانوں کے فے سے ہمدان اور ان کے حلیفوں کے لیے جیزہ میں قلعہ بنایا جب انہوں نے فسطاط منتقل ہونے سے انکار کیا؛ اس کی تعمیر سنہ 21 میں شروع ہوئی اور سنہ 22 میں مکمل ہوئی {cite:futuh-misr-amir-1999 p. 175} {cite:futuh-misr-amir-1999 p. 176}۔
+wings:
+- time
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+date:
+  start:
+    hijri: '0021'
+    edtf: '0642'
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: 'ابن عبد الحكم: بناه سنة إحدى وعشرين وفرغ منه سنة اثنتين وعشرين (ص 176)؛ التحويل مشتق.'
+    sources:
+    - source/futuh-misr-amir-1999
+  end:
+    hijri: '0022'
+    edtf: '0643'
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    sources:
+    - source/futuh-misr-amir-1999
+relations:
+- type: occurred_at
+  target: place/al-jizah
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: الباني
+  sources:
+  - source/futuh-misr-amir-1999
+- type: had_participant
+  target: person/umar-ibn-al-khattab
+  role: الآمر
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 175–176
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-4-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

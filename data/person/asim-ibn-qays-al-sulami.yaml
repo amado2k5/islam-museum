@@ -1,0 +1,18 @@
+id: person/asim-ibn-qays-al-sulami
+class: person
+label: { ar: "عاصم بن قيس بن الصلت السلمي", en: "Asim ibn Qays ibn al-Salt al-Sulami" }
+summary:
+  ar: "عاصم بن قيس بن الصلت السلمي؛ ولاه أبو موسى الأشعري مناذر بعد فتحها."
+  en: "Asim ibn Qays ibn al-Salt al-Sulami; Abu Musa's governor of conquered Manadhir."
+periods: [period/rashidun]
+wings: [people]
+born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: ruled_over, target: place/manadhir, note: "Abu Musa al-Ashari's governor of conquered Manadhir.", sources: [source/futuh-buldan-maarif-1407], confidence: medium }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

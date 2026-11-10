@@ -1,0 +1,37 @@
+---
+// One dilemma card (E4 step 4): decision, attributed positions with evidence and sources,
+// "you decide" reflection kept on the device — no verdict anywhere.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import Dilemma from "../../../../components/Dilemma.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadDilemmas } from "../../../../lib/dilemmas";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    loadDilemmas().map((d) => ({ params: { lang, slug: d.id }, props: { lang, dilemma: d } })),
+  );
+}
+const { lang, dilemma } = Astro.props;
+const T = ui(lang);
+const S = T.shabab;
+const title = `${dilemma.decision[lang]} — ${S.sb_dilemmas}`;
+const path = `/${lang}/shabab/dilemmas/${dilemma.id}/`;
+---
+<BaseLayout lang={lang} title={title} description={dilemma.context[lang]} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb">
+      <a href={`/${lang}/shabab/`}>{S.sb_title}</a> › <a href={`/${lang}/shabab/dilemmas/`}>{S.sb_dilemmas}</a> › {dilemma.decision[lang]}
+    </nav>
+    <Dilemma
+      lang={lang}
+      dilemma={dilemma}
+      positionsLabel={S.sb_positions}
+      evidenceLabel={S.sb_evidence}
+      sourcesLabel={S.sb_sources}
+      decideLabel={S.sb_you_decide}
+      reflectLabel={S.sb_reflect_hint}
+      savedLabel={S.sb_saved}
+    />
+  </div>
+</BaseLayout>

@@ -1,0 +1,32 @@
+# Leveled reading (docs/delegation/education-master-plan.md §5 E2; founder's decision 3 in §9.1): three optional
+# sections inside the existing prose file content/{lang}/{class}/{slug}.md, each under a fixed heading per language.
+# The validator (scripts/validate.ts) and the site (site/src/lib/entity.ts) both read this file, so the headings and
+# the limits live in one place. A record opts in with `education: { levels: [...], flagged_for_kids: true }` in data/.
+#   max_words   counted after [[links]] are reduced to their label and {cite:…} markers removed; the same cap in the
+#               three languages (the plan fixes the Arabic figure; a translation that runs long is shortened, not waived).
+#   child       the two levels a child reads: the kids rulebook's banned patterns apply (docs/agents/kids-content.md §2),
+#               no perspectives block, no link out of the kids chrome; the Scholar level is the 13+ text and never
+#               appears on /sighar/read/.
+# Storytellers (10–12) read the Explorer text with the bridge to the Scholar text (plan §5 E2).
+levels:
+  - id: sprouts
+    band: sprouts
+    child: true
+    max_words: 80
+    heading: { ar: "للبراعم", en: "For Sprouts", ur: "کونپلوں کے لیے" }
+  - id: explorers
+    band: explorers
+    child: true
+    max_words: 160
+    heading: { ar: "للمستكشفين", en: "For Explorers", ur: "مہم جوؤں کے لیے" }
+  - id: scholars
+    band: scholars
+    child: false
+    max_words: 300
+    heading: { ar: "للدارسين", en: "For Scholars", ur: "طالبِ علم کے لیے" }
+status: { review: draft }
+provenance:
+  generated_by: "Claude Code"
+  model: "Claude Fable 5.1 (claude-fable-5-1)"
+  run: "education-E2"
+  note: "Headings fixed per the plan; the Urdu headings are drafted from the Arabic and await the founder's review."

@@ -1,0 +1,37 @@
+id: person/ubayd-allah-ibn-al-husayn-al-jallab
+class: person
+label: { ar: "عبيد الله بن الحسين الجلاب", en: "Ubayd Allah ibn al-Husayn al-Jallab" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم عبيد الله بن الحسين بن الحسن بن الجلاب البصري المالكي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { edtf: "0988", hijri: "0378", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي بصري."
+  en: "A Basran Maliki jurist."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q6533366" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص348"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch62
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/busra, confidence: low, note: "Association inferred from the nisba 'البصري'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

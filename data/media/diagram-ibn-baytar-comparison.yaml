@@ -1,0 +1,19 @@
+id: media/diagram-ibn-baytar-comparison
+class: media
+kind: illustration
+label: { ar: "من الأسماء والمصادر إلى المقارنة", en: "From names and sources to comparison", ur: "ناموں اور ماخذ سے تقابل تک" }
+summary:
+  ar: "سلسلة مفهومية للمقارنة، لا إعادة إنشاء وصفة أو صفحة من الجامع."
+  en: "Conceptual comparison chain, not a recipe or reconstruction of a Jami page."
+  ur: "تقابل کا مفہومی سلسلہ؛ نسخہ یا جامع کے صفحے کی نقل نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ibn-baytar-comparative-materia-medica]
+alt:
+  ar: "مصادر أقدم وأسماء محلية، ثم مقارنة ابن البيطار في الجامع، ثم نسخ وترجمات ودراسة لاحقة."
+  en: "Earlier sources and local names, Ibn al-Baytar's comparison in the Jami, then later copies, translations and study."
+  ur: "سابق ماخذ اور مقامی نام، جامع میں ابن بیطار کا تقابل، پھر نقلیں، تراجم اور مطالعہ۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/tdv-mufradat-kaya, source/iranica-ibn-baytar]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b59", source: "Generic build-time conceptual chain from read scholarship; no specific modern technical descent asserted." }

@@ -1,0 +1,29 @@
+id: person/melihi
+class: person
+label:
+  ar: "مليحي"
+  en: "Melihi"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لمليحي، الشاعر الديواني الشهير في عهد محمد الفاتح، توفي سنة ١٥١٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Melihi, the famous divan poet of Mehmed II's reign, d. 1512; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1506", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: born_in, target: place/tokat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q116742643
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0089
+status:
+  review: draft
+  completeness: 1

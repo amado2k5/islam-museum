@@ -1,0 +1,30 @@
+id: person/khalid-ibn-sufyan-al-hudhali
+class: person
+label: { ar: "خالد بن سفيان بن نبيح الهذلي", en: "Khalid ibn Sufyan ibn Nubayh al-Hudhali" }
+names:
+  - { kind: full, lang: ar, value: "خالد بن سفيان بن نبيح الهذلي" }
+gender: male
+roles: [tribal-leader]
+summary:
+  ar: "رجل من هذيل كان بنخلة أو بعرنة يجمع الناس لغزو النبي، فبعث النبي عبد الله بن أنيس فقتله وهو في ظعنه يرتاد لهن منزلاً."
+  en: "A man of Hudhayl who was gathering men at Nakhla or Urana to attack the Prophet; the Prophet sent Abdullah ibn Unays, who killed him while he was seeking a camping place for his women."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: person/muhammad, status: tradition, note: "يجمع الناس ليغزو النبي (ابن هشام ص267).", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sirat Ibn Hisham" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/hudhayl, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 267-268"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch113
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

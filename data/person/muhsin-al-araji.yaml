@@ -1,0 +1,29 @@
+id: person/muhsin-al-araji
+class: person
+label:
+  ar: "محسن الأعرجي"
+  en: "Muhsin al-A'raji"
+roles: [poet, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحسن الأعرجي، عالم وشاعر عراقي عثماني القرن الثامن عشر؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhsin al-A'raji, the eighteenth-century Iraqi-Ottoman scholar and poet, b. 1718; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
+died: { edtf: "1812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Amili (A'yan al-Shi'a)" }
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5960759
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0072
+status:
+  review: draft
+  completeness: 1

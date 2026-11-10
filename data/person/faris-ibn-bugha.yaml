@@ -1,0 +1,21 @@
+id: person/faris-ibn-bugha
+class: person
+label: { ar: "فارس بن بغا", en: "Faris ibn Bugha" }
+summary:
+  ar: "ابن بغا الصغير، اتهمه أبوه بأنه يدبر قتله وجعل ذلك أول امتحان باغر التركي على القتل فلم تظهر العلامة فانصرف حياً {cite:muruj-al-dhahab p. 503-504}."
+  en: "Bugha the Younger's son — the false first target in the rehearsal of al-Mutawakkil's murder {cite:muruj-al-dhahab p. 503-504}."
+gender: male
+wings: [people]
+died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

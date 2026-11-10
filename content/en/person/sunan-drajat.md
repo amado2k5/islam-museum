@@ -1,0 +1,17 @@
+---
+id: person/sunan-drajat
+lang: en
+source_lang: ar
+translators: []
+---
+## Summary
+Sunan Drajat, born Raden Qasim — the Indonesian article also gives his childhood name as Raden Hasyim and his title as Raden Syarifuddin — was one of the nine Wali Songo, the saints credited with establishing Islam as the dominant religion among the Javanese. {cite:wikipedia-sunan-drajat-en} {cite:wikipedia-sunan-drajat-id} He was a son of Sunan Ampel and the younger brother of Sunan Bonang, alongside whom the English article names him in the family's work across Java. {cite:wikipedia-sunan-drajat-en} The dates of his life come from Javanese tradition rather than contemporary records: the articles and Wikidata give his birth in 1470, while his death is given as 1533 by the Indonesian and Arabic articles and as 1522 by the English article, a disagreement this record preserves rather than settles. {cite:wikipedia-sunan-drajat-id} {cite:wikipedia-sunan-drajat-ar} {cite:wikipedia-sunan-drajat-en}
+
+## Family and teachers
+Tradition places his birth at Surabaya and his death at Paciran in Lamongan, where his tomb stands in the village of Drajat. {cite:wikipedia-sunan-drajat-en} {cite:wikipedia-sunan-drajat-id} The Indonesian article's infobox names his father Sunan Ampel and his mother Dewi Candrawati, and lists Sunan Ampel and Sunan Gunung Jati among his teachers; the article itself is flagged as unreferenced, so those links are recorded with that caution. {cite:wikipedia-sunan-drajat-id} At Drajat, a perdikan (tax-free) village in Paciran granted under Demak, he founded the pesantren Dalem Duwur and held authority over the territory for decades, and in 1520 Raden Patah conferred on him the title Sunan Mayang Madu. {cite:wikipedia-sunan-drajat-id}
+
+## Welfare before doctrine
+Drajat is remembered above all for a social teaching: he held that people's welfare came first and doctrine after — work hard, be generous, relieve poverty — and the Indonesian article sets out the philosophy now carved on the seven steps of his tomb complex, from "always gladden the hearts of others" and mindfulness amid joy, to its centre in the five daily prayers and its most quoted rule: give a staff to the blind, food to the hungry, clothing to the naked and shelter to those caught in the rain, glossed as teaching the ignorant, enriching the poor, shaming the shameless into decency and protecting the suffering. {cite:wikipedia-sunan-drajat-id} The Arabic article likewise sums him up by his care for the Javanese people's teaching, food, orphans and poor, and by the religious boarding school he built. {cite:wikipedia-sunan-drajat-ar} Like his brother Bonang, he also preached through music: he is credited with the macapat tembang Pangkur, and his gamelan set, named Singo Mengkok, is preserved in the regional museum beside his tomb. {cite:wikipedia-sunan-drajat-en} {cite:wikipedia-sunan-drajat-id}
+
+## Religion
+The Indonesian article's infobox gives his denomination as Sunni, with the jurisprudence field blank; the Arabic article, resting on the Ba'alawi genealogical tradition under which it files his family, gives his creed as Ahl al-Sunna wa-l-Jama'a and his madhhab as Shafi'i, and pairs his life with the years 875–940 AH. {cite:wikipedia-sunan-drajat-id} {cite:wikipedia-sunan-drajat-ar} No second independent source names a legal school for him, so this record preserves the Shafi'i attestation without adopting it; his documented work is that of a saint and teacher who spread Islam in Java. {cite:wikipedia-sunan-drajat-en}

@@ -1,0 +1,34 @@
+id: person/kani-karaca
+class: person
+label: { ar: "كاني قراجه", en: "Kâni Karaca", ur: "کانی قراجہ" }
+names:
+  - { value: "Kâni Karaca", kind: full }
+  - { value: "Kani Karaca", kind: alternate }
+  - { value: "كاني قراجه", kind: alternate }
+gender: male
+summary:
+  ar: "حافظ وقارئ ومولدخوان تركي (1930–2004)، كفيف منذ صغره، عُدّ آخر ممثلي تقليد التلاوة الإسطنبولي، وأدّى القرآن والمولد والقصيدة والغزل والأذان، وكان حاضرًا لا يُستغنى عنه في احتفالات ذكرى مولانا، وله تسجيلات بالقرآن والمولد والتكبيرات والنعوت."
+  en: "Turkish hafiz, reciter and mevlid singer (1930–2004), blind from childhood, regarded as the last representative of the Istanbul tradition of recitation; he performed the Qur'an, the mevlid, kaside, gazel and the adhan, was a fixture of the Mevlana commemorations, and recorded the Qur'an, the mevlid and collections of tekbir, durak and naat."
+  ur: "ترک حافظ، قاری اور مولد خواں ⁦(1930ء–2004ء)⁩، بچپن سے نابینا، جنھیں استنبول کی روایتِ تلاوت کا آخری نمائندہ سمجھا جاتا ہے؛ انھوں نے قرآن، مولد، قصیدہ، غزل اور اذان پڑھی، مولانا کی یادگاری تقریبات کا لازمی حصہ رہے، اور قرآن، مولد اور تکبیر، دُرَک اور نعت کے مجموعے ریکارڈ کیے۔"
+wings: [people]
+regions: [anatolia-balkans]
+roles: [reciter, munshid, singer, teacher]
+born: { edtf: "1930", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born at Adalı village, Karataş district, Adana (Turkish article; Wikidata gives 1930 and Adana). No place entity for Adana exists, so no birthplace relation is written.", sources: [source/wikipedia-kani-karaca-tr, source/wikidata-kani-karaca] }
+died: { edtf: "2004-05-29", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Istanbul and buried at the Edirnekapı Martyrs' Cemetery (Turkish article, citing NTV and Hürriyet of 29–30 May 2004; Wikidata gives the day and Istanbul).", sources: [source/wikipedia-kani-karaca-tr, source/wikidata-kani-karaca] }
+relations:
+  - { type: born_in, target: place/adana, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kani-karaca] }
+  - { type: buried_in, target: place/edirnekap-martyr-s-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kani-karaca] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata-kani-karaca, source/wikipedia-kani-karaca-tr] }
+  - { type: buried_in, target: place/istanbul, note: "Edirnekapı Martyrs' Cemetery", sources: [source/wikipedia-kani-karaca-tr] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Turkish article nor Wikidata names a school; Wikidata's occupation 'Sufi' is a structured value and his Mevlevi-ceremony repertoire is performance, not attestation (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-kani-karaca-tr, source/wikidata-kani-karaca]
+footprint:
+  wikipedia: { languages: [de, en, tr, ur], checked: "2026-11-06", sources: [source/wikidata-kani-karaca] }
+  wikidata: "Q1723751"
+external_ids: { wikidata: "Q1723751" }
+sources: [source/wikipedia-kani-karaca-tr, source/wikidata-kani-karaca]
+provenance: { layer: own-research, source: "Turkish Wikipedia 'Kani Karaca' (revision 38223585, 11 October 2026) and Wikidata Q1723751 (revision 2563782373), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b02 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

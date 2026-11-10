@@ -1,0 +1,27 @@
+id: event/lahore-iltutmish-capture-613
+class: event
+kind: conquest
+label:
+  ar: "أخذ قوات إلتمش للاهور، ٦١٣هـ/١٢١٧م"
+  en: "Iltutmish's forces take Lahore, 613/1217"
+  ur: "التتمش کی فوجوں کا لہور پر قبضہ، 613ھ/1217ء"
+summary:
+  ar: "وصف حسن نظامي في «تاج المآثر» بالتفصيل أخذ قوات شمس الدين إلتمش للاهور سنة ٦١٣هـ/١٢١٧م، بعد أن ظلت المدينة موضع نزاع بين قواد الغوريين السابقين قبجة ويلدز وإلتمش منذ مقتل معز الدين محمد بن سام سنة ٦٠٢هـ/١٢٠٦م {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  en: "Hasan Nizami describes at length in the Taj al-ma'athir the capture of Lahore by Shams al-Din Iltutmish's forces in 613/1217, after the city had been disputed among the former Ghurid officers Qubacha, Yildiz and Iltutmish since the murder of Mu'izz al-Din Muhammad b. Sam in 602/1206 {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+  ur: "حسن نظامی نے «تاج المآثر» میں 613ھ/1217ء میں شمس الدین التتمش کی فوجوں کے لہور پر قبضے کا تفصیلی ذکر کیا ہے؛ 602ھ/1206ء میں معز الدین محمد بن سام کے قتل کے بعد سے یہ شہر سابق غوری سرداروں قباچہ، یلدز اور التتمش کے درمیان متنازع رہا تھا {cite:encyclopaedia-of-islam-2 vol. 5.2 p. 37}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+date:
+  start: { edtf: "1217", hijri: "0613", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/shams-al-din-iltutmish, role: "السلطان الآخذ للمدينة", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 5.2 PDF p. 37 (LAHAWR, printed p. 597) — capture by Iltutmish's forces 613/1217"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-lahore-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

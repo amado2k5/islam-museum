@@ -1,0 +1,29 @@
+id: person/muhammad-nuri-al-kilani
+class: person
+label:
+  ar: "محمد نوري الكيلاني"
+  en: "Muhammad Nuri al-Kilani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد نوري الكيلاني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Nuri al-Kilani; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1949", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: born_in, target: place/hama, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173545)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q95021122
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

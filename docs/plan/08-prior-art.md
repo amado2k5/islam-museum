@@ -1,6 +1,6 @@
 # 08 · Prior art — what exists, what to reuse, what is missing
 
-Survey as of October 2026 (web research; items marked *verify* could not be confirmed from the source page). Use this to decide what to **ingest**, **link**, **partner with**, or **learn from**.
+Survey as of October 2026 (web research; items marked *verify* could not be confirmed from the source page). Use this to decide what to **ingest**, **link**, **partner with**, or **learn from**. Since 15 October 2026 (`docs/sources-policy.md`) every text source in this survey, whatever its licence, may be read and rewritten in the museum's own words with a citation; "link" and "cite only" below now describe what may be republished verbatim, not what may be read.
 
 ## 1. Digital museums and collections of Islamic art and heritage
 

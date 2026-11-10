@@ -1,0 +1,76 @@
+id: exhibit/path-battuta
+class: exhibit
+kind: trail
+label:
+  ar: رحلات ابن بطوطة
+  en: Travels of Ibn Battuta
+summary:
+  ar: 'مسار في أعظم رحالة في التاريخ: من طنجة إلى القاهرة إلى الهند إلى الصين — ثلاثون سنة و120,000 كم.'
+  en: A trail through the greatest traveller.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: البداية
+    en: The start
+  body:
+    ar: 'طنجة 1325: شاب في الحادية والعشرين.'
+    en: 'طنجة 1325: شاب في الحادية والعشرين.'
+  features:
+  - person/ibn-battuta-muhammad
+  - journey/tangier-to-cairo
+- title:
+    ar: الحج
+    en: The hajj
+  body:
+    ar: 'أول حج: مكة ثم العراق.'
+    en: 'أول حج: مكة ثم العراق.'
+  features:
+  - journey/mecca-to-iraq-by-medina
+  - place/mecca
+- title:
+    ar: الشرق
+    en: The east
+  body:
+    ar: 'عدن إلى زيلع: البحر الأحمر.'
+    en: 'عدن إلى زيلع: البحر الأحمر.'
+  features:
+  - journey/aden-to-zaila-battuta
+  - journey/sanaa-to-aden-battuta
+- title:
+    ar: فارس
+    en: Persia
+  body:
+    ar: البصرة إلى فارس وتبريز إلى الموصل.
+    en: البصرة إلى فارس وتبريز إلى الموصل.
+  features:
+  - journey/basra-to-persia-battuta
+  - journey/tabriz-to-mosul-battuta
+- title:
+    ar: العودة
+    en: The return
+  body:
+    ar: 'قرطبة إلى القاهرة: 28 سنة بعد.'
+    en: 'قرطبة إلى القاهرة: 28 سنة بعد.'
+  features:
+  - journey/granada-to-cairo
+  - person/ibn-battuta-muhammad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

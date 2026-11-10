@@ -1,0 +1,30 @@
+id: person/nur-al-din-al-ujhuri
+class: person
+label:
+  ar: "نور الدين الأجهوري"
+  en: "Nur al-Din al-Ujhuri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لنور الدين الأجهوري، فقيه مصري القرن السابع عشر، توفي سنة ١٦٥٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nur al-Din al-Ujhuri, the seventeenth-century Egyptian jurist, d. 1656; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+born: { edtf: "1560", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar; al-A'lam" }
+died: { edtf: "1656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar; al-A'lam" }
+relations:
+  - { type: born_in, target: place/ajhour-al-kubra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12178383)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q54862121
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0062
+status:
+  review: draft
+  completeness: 1

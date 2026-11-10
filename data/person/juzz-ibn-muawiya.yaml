@@ -1,0 +1,17 @@
+id: person/juzz-ibn-muawiya
+class: person
+label: { ar: "جزء بن معاوية", en: "Juzz ibn Mu'awiya" }
+summary:
+  ar: "جزء بن معاوية عم الأحنف بن قيس؛ كان على سرق من كور الأهواز وهو جزء الذي ذكره أبو المختار في قصيدته."
+  en: "Juzz ibn Mu'awiya, al-Ahnaf's uncle; governor of Surraq — the 'Juzz' of Abu al-Mukhtar's denunciation."
+periods: [period/rashidun]
+wings: [people]
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+  - { type: lived_in, target: place/al-ahwaz, confidence: low, note: "Associated with الأهواز per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

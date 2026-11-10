@@ -1,0 +1,40 @@
+id: person/muhammad-ibn-yusuf-al-isbiri
+class: person
+label:
+  ar: "محمد بن يوسف الإسبيري"
+  en: "Muhammad ibn Yusuf al-Isbiri"
+roles: [jurist, mufassir, teacher]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن يوسف الإسبيري، الفقيه والمفسر العثماني الشامي، توفي سنة ١٧٨٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Yusuf al-Isbiri, the Ottoman-Syrian jurist and exegete, d. 1780; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+died: { edtf: "1492", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw' al-Lami')" }
+relations:
+  - { type: born_in, target: place/gaziantep, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q93338)" }
+  - { type: died_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q41183)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57924372
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0085
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

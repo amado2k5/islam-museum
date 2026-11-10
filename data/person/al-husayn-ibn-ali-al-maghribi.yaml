@@ -1,0 +1,34 @@
+id: person/al-husayn-ibn-ali-al-maghribi
+class: person
+label:
+  ar: "أبو القاسم الحسين بن علي المغربي"
+  en: "Abu'l-Qasim al-Husayn ibn Ali al-Maghribi"
+gender: male
+summary:
+  ar: "أبو القاسم الحسين بن علي المغربي، الكاتب الوزير وآخر بني المغربي؛ تولى الوزارة لجلال الدولة، وأورد له ابن الجوزي ترجمة مطولة في وفيات سنة ٤١٨ {cite:muntazam-ibn-al-jawzi j.8 p.373-375}."
+  en: "Draft card for Abu'l-Qasim al-Husayn ibn Ali al-Maghribi, the eleventh-century secretary and vizier, last of the Banu'l-Maghribi, d. 1027; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+roles: [writer, vizier]
+died: { edtf: "1027~", hijri: "0418", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته المطولة في وفيات ٤١٨ {cite:muntazam-ibn-al-jawzi j.8 p.373-375}." }
+sources: [source/wafayat-ayan, source/muntazam-ibn-al-jawzi]
+external_ids:
+  wikidata: Q11903945
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn Khallikan, Wafayat al-A'yan — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0044
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/wafayat-ayan, source/muntazam-ibn-al-jawzi]
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/muntazam-ibn-al-jawzi], confidence: low }

@@ -1,0 +1,19 @@
+id: event/umar-adopts-hijri-calendar
+class: event
+kind: other
+label: { en: "Umar adopts the Hijra as the starting point of the calendar", ar: "اعتماد عمر الهجرة بداية للتأريخ" }
+summary:
+  en: "Umar gathered the Companions to fix a settled date for administering the young state. Ali said the calendar should begin from the year the Prophet emigrated and left the land of polytheism, and Umar adopted it."
+  ar: "جمع عمر الصحابة ليضعوا تاريخاً ثابتاً لضبط أمور الدولة الفتية، فقال علي: من يوم هاجر رسول الله وترك أرض الشرك، ففعله عمر."
+wings: [time, ideas]
+themes: [sacred-time, astronomy-and-timekeeping]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0634/0644", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "الكتاب لا يذكر سنة اعتماد التأريخ، ويضعه في خلافة عمر؛ انظر hijri-calendar." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أشار ببدء التأريخ من الهجرة", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "جمع الصحابة وأخذ بالرأي", sources: [source/sallabi-ali-vol1] }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p. 145" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p. 145", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

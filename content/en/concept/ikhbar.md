@@ -1,0 +1,12 @@
+---
+id: concept/ikhbar
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Definition
+Ikhbar (report, information). In the lexicon it is the verbal noun of akhbara, to inform someone of a thing; its noun is khabar (report), which admits truth or falsehood in itself, as opposed to insha' (utterance), which does not, such as an order to fear God. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1902}
+Ikhbar has different names according to its aspect: a report of a right of the reporter over another before a judge is a claim (da'wa); a report of a right of another over the reporter himself is an acknowledgement (iqrar); a report of a right of one person over another before a judge is testimony (shahada); a report from the judge establishing a right of one over another by compulsion is a judgement (qada'); a report of a saying, act, attribute or approval ascribed to the Prophet is a narration (riwaya), hadith, athar or sunna; a report of a person's faults is backbiting (ghiba); a report of a friend's words to another with intent to sow discord is tale-bearing (namima); a report of a secret is disclosure (ifsha'); a report of what harms the Muslims is betrayal (khiyana). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1902} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1903}
+General ruling. When a just person reports a matter, his report must be accepted; sometimes one just person suffices, as in reporting impurity; sometimes plurality is required, as in testimony. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1903}
+A dissolute person's report is not accepted in matters of religion; if it concerns purity, transactions and the like, it is not accepted either unless the heart is inclined to believe it. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1903}
+Where it is treated. The usulis treat the rules of reporting in a separate chapter or within the discussion of the sunna, including the narration of unbelievers and the dissolute and the single report. The jurists treat its rules where they arise: in purity, when a person reports that water or a vessel is impure; in facing the qibla; in pre-emption, when a dissolute man reports the sale; in slaughter, when a dissolute man reports who did it; in marriage, when a dissolute man reports the woman's consent; in the lawful and the forbidden, when a child reports that a gift is a gift or that the owner gave leave. Each is read in its own place. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1903}

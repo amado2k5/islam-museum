@@ -1,0 +1,32 @@
+id: person/ibrahim-ibn-mubarakshah
+class: person
+label: { ar: "إبراهيم بن مبارك شاه الإسعردي", en: "Ibrahim b. Mubarakshah al-Is'irdi" }
+names:
+  - { value: "إبراهيم بن مبارك شاه الإسعردي الخواجا", kind: full }
+gender: male
+summary:
+  ar: "إبراهيم بن مبارك شاه الإسعردي الخواجا التاجر المشهور صاحب المدرسة بالجسر الأبيض؛ كان كثير المال واسع العطاء كثير البذل، توفي سنة ست وعشرين وثمانمائة {cite:shadharat-dhahab p. 181}."
+  en: "Ibrahim b. Mubarakshah al-Is'irdi, the celebrated merchant-khawaja who founded the madrasa at the White Bridge — 'great of wealth, wide of giving, much of largesse'; died 826 {cite:shadharat-dhahab p. 181}."
+roles: [merchant, patron]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+died: { edtf: "1423~", hijri: "0826", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 826 {cite:shadharat-dhahab p. 181}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/al-is, confidence: low, note: "Associated with al-Is per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 826)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch77
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

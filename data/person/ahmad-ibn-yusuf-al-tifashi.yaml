@@ -1,0 +1,31 @@
+id: person/ahmad-ibn-yusuf-al-tifashi
+class: person
+label: { ar: "أحمد بن يوسف التيفاشي", en: "Ahmad ibn Yusuf al-Tifashi" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن يوسف بن أحمد بن أبي بكر القيسي التيفاشي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1184", hijri: "0580", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1253", hijri: "0651", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم وكاتب من القيسيين، نُسب إلى تيفاش بالمغرب."
+  en: "A scholar and writer of the Qays lineage, named after Tifash in the Maghrib."
+wings: [people]
+themes: [history-writing-and-social-thought, literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص752"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48
+relations:
+  - { type: lived_in, target: place/al-qays, note: "From text: of the Qays", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

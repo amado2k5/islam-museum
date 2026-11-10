@@ -1,0 +1,36 @@
+id: person/al-jawzajani-musa-ibn-sulayman
+class: person
+label: { ar: "الجوزجاني موسى بن سليمان", en: "Al-Jawzajani, Musa ibn Sulayman" }
+names:
+  - { kind: full, lang: ar, value: "أبو سليمان موسى بن سليمان الجوزجاني" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+died: { edtf: "0816", hijri: "0200", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل جوزجان، وهي مدينة عظيمة بخراسان، ومن رواة الحديث."
+  en: "From Jawzjan, a great city in Khurasan, and one of the transmitters of hadith."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص548"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch53
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,83 @@
+id: person/ibn-al-haytham
+class: person
+label: { ar: "ابن الهيثم", en: "Ibn al-Haytham (Alhazen)" }
+names:
+  - { kind: full, lang: ar, value: "الحسن بن الهيثم" }
+  - { kind: latinized, lang: la, value: Alhazen }
+gender: male
+roles: [mathematician, scientist, physician]
+disciplines: [concept/optics]
+summary:
+  ar: "عالم عربي في الرياضيات والفيزياء، صنّف كتاب المناظر في البصريات، ويصفه محقق طبعة الكتاب بأنه من القرن الخامس الهجري {cite:manazir-sabra-1983 p.9}."
+  en: "Arab mathematician and physicist whose Kitab al-Manazir is the principal optical work of the Islamic world. The editor places him in the fifth century AH {cite:manazir-sabra-1983 p.9}."
+wings: [people]
+faith:
+  - value: sunni
+    basis: self-identified
+    note: "The Kitab al-Manazir opens in his own name with the basmala (Kuwait 1983 ed., scan p. 60), and TDV records that he wrote treatises answering Ibn al-Rawandi's and Abu Bakr al-Razi's criticism of prophethood and against the Mu'tazila's views on the divine attributes and the threat of punishment (wa'id) (TDV, vol. 21, pp. 82–87). This shows him a Muslim in his own words; no source read names his school, so he is recorded under the museum's Sunni frame."
+    sources: [source/manazir-sabra-1983, source/tdv-ibnul-heysem]
+inventions:
+  - invention: invention/haytham-factorial-remainders
+    role: improver
+    note: "Specific factorial remainder construction, not first congruences/Chinese remainder theorem or recovered historical algorithm2.721 is not the least positive answer."
+    sources: [source/haytham-mactutor, source/weisstein-wilson-theorem]
+  - invention: invention/haytham-incoming-light-vision
+    role: improver
+    note: "Integrated radiation,ocular sensation and perceptual interpretation;not first intromission idea or correct modern retinal physiology. Preserves crystalline/visual-spirit/hollow-nerve and idealized-geometry limits."
+    sources: [source/smith-alhacen-visual-perception-2001, source/tdv-ibnul-heysem]
+  - invention: invention/ibn-al-haytham-circular-reflection
+    role: improver
+    note: "BookV geometric reflection-point lemmas/applications; earlier conic geometry and later al-Mu'taman improvements retained, not first reflection law or exhaustive/quartic-algebra claim."
+    sources: [source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem]
+  - invention: invention/ibn-al-haytham-fourth-power-volumes
+    role: improver
+    note: "Fourth-power sums/exhaustion for perpendicular-axis volume8/15; not ordinary axial paraboloid/all calculus. Cairo is biographical context only."
+    sources: [source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-iii]
+  - invention: invention/camera-obscura
+    role: improver
+    place: place/cairo
+    note: "In Books 1 and 6 of the Kitab al-Manazir he used light entering a dark room through a small hole to prove that light travels in straight lines and that the lights of several candles cross at one hole without mixing; TDV calls this dark-room experiment the basis of today's photographic camera."
+    sources: [source/manazir-sabra-1983, source/tdv-ibnul-heysem]
+relations:
+  - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/basra, sources: [source/britannica-ibn-al-haytham] }
+  - { type: died_in, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
+  - { type: participated_in, target: event/ibn-al-haytham-summoned-to-cairo, role: "العالم المستدعى", sources: [source/britannica-ibn-al-haytham] }
+  - { type: participated_in, target: event/kitab-al-manazir-composed, role: "المؤلف", sources: [source/britannica-ibn-al-haytham] }
+  - { type: authored, target: work/kitab-al-manazir, sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham] }
+sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham, source/tdv-ibnul-heysem, source/katz-calculus-islam-india-1995, source/bressoud-calculus-before-newton-i, source/bressoud-calculus-before-newton-iii, source/hogendijk-alhazen-lemmas-1996, source/mathworld-alhazen-problem, source/commons-alhazen-problem-hb, source/smith-alhacen-visual-perception-2001, source/haytham-mactutor, source/weisstein-wilson-theorem]
+provenance:
+  layer: own-research
+  source: "Kitab al-Manazir, Arabic edition by Abd al-Hamid Sabra (Kuwait 1983), editor's preface pp. 9 to 10 (scan pages)"
+  generated_by: "Claude Haiku 5.5 (library-expansion)"
+  model: claude-haiku-5-5
+  run: lib-exp-medicine-science-manazir-maalim-zij-batch-1
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b75", source: "Added bounded vision-synthesis tie from selected Smith2001VolIintroduction xviii–xix,lii–lxiv throughopeninglxiv,visualfigure8lix and actualTDVoptics. Original identity/status/attribution,three earlier ties and all other fields retained;no new full-original-reading claim." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b50", source: "Added circular-reflection tie from actual Hogendijk59–75/inspected59–65 and MathWorld; prior attribution, individual identity, camera/volume ties and unrelated fields retained." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b36", source: "Actual selected Katz165–168,174; Bressoud I/III selected text. Added bounded fourth-power contribution; retained original author, camera-obscura tie, individualized Muslim basis, dates, occupation and education attribution." }
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b82", source: "Added bounded factorial-remainder tie from actual selected MacTutor/MathWorld passages; all previous fields/status/identity/attribution/provenance/four ties and complete prose prefixes retained. Modern301+420j not recovered historical algorithm2; no original Opuscula/full Rashed reading." }
+education:
+  did_you_know:
+    ar: "ابن الهيثم عالم القرن الخامس الهجري في الرياضيات والفيزياء، صنّف «كتاب المناظر» في علم البصريات."
+    en: "Ibn al-Haytham, a fifth-century-AH scholar of mathematics and physics, wrote the Book of Optics on the science of vision."
+    ur: "ابن ہیشم پانچویں صدی ہجری کے ریاضی اور طبیعیات کے عالم تھے جنھوں نے بصریات پر «کتاب المناظر» لکھی۔"
+    sources: [source/manazir-sabra-1983, source/mawsuat-a3lam-ulama-adaba]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5 (library-expansion)" }
+external_ids: { wikidata: Q11104 }
+born: { edtf: "0965~", precision: year, status: historical, sources: [source/britannica-ibn-al-haytham], note: "Born c. 965 at Basra (Britannica biography)." }
+died: { edtf: "1040~", precision: year, status: historical, sources: [source/britannica-ibn-al-haytham], note: "Died c. 1040 at Cairo (Britannica biography)." }
+kids:
+  ar: "ابن الهيثم أبو البصريات الحديثة، برهن على أن الضوء يدخل العين لا يخرج منها، وكتب المناظر."
+  en: "Ibn al-Haytham, father of modern optics, proved that light enters the eye rather than leaving it — he wrote the Book of Optics."
+  ur: "ابن ہیتھم جدید بصریات کا باپ کہلاتا ہے — ثابت کیا کہ روشنی آنکھ میں داخل ہوتی ہے اس سے خارج نہیں ہوتی، اور المناظر لکھی۔"
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/manazir-sabra-1983, source/britannica-ibn-al-haytham]

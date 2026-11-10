@@ -1,0 +1,162 @@
+#!/usr/bin/env tsx
+/**
+ * digest — the governance dashboard (Muse Q6).
+ *
+ * Reads docs/decisions/records/*.yaml + docs/decisions/inbox/*.yaml and writes
+ * docs/decisions/digest.md: the metrics layer above the docket. The headline
+ * metric is blocked-item count — items still waiting on a human — because the
+ * mandate is "work autonomously without being blocked". Every other metric is
+ * a diagnostic for why that number or the override rate moved.
+ *
+ * Metrics that need machinery not yet built (state chain, jury blocks, override
+ * induction) report `instrumentation: partial` honestly rather than a false 0.
+ *
+ * Invoked automatically at the end of every `decide.ts --batch --write`, and
+ * standalone via `npm run decisions:digest`. Docs-only output: no deploy cost.
+ */
+import { existsSync, readFileSync, readdirSync, writeFileSync, statSync } from "node:fs";
+import { join } from "node:path";
+import { createHash } from "node:crypto";
+import { parse } from "yaml";
+
+const ROOT = process.cwd();
+const RECORDS_DIR = join(ROOT, "docs/decisions/records");
+const INBOX_DIR = join(ROOT, "docs/decisions/inbox");
+const BENCHMARK = join(ROOT, "docs/decisions/benchmark.yaml");
+const OUT = join(ROOT, "docs/decisions/digest.md");
+
+interface Rec {
+  id?: string; status?: string; step?: string; domain?: string; mode?: string;
+  kind?: string; question?: string; decision?: string; reason?: string; expires_at?: string; needs_precedent?: boolean;
+  supersedes?: string; judge_dissent?: boolean;
+  induction?: { promoted?: boolean }; calibration_log?: { founder_resolution?: unknown; model?: string };
+}
+
+function readRecords(): Rec[] {
+  if (!existsSync(RECORDS_DIR)) return [];
+  const out: Rec[] = [];
+  for (const f of readdirSync(RECORDS_DIR).filter((f) => f.endsWith(".yaml")).sort()) {
+    try { out.push(parse(readFileSync(join(RECORDS_DIR, f), "utf8")) as Rec); }
+    catch { /* skip unreadable */ }
+  }
+  return out;
+}
+
+function questionHash(question: string): string {
+  const norm = question.toLowerCase().replace(/[^a-z0-9؀-ۿ]+/g, " ").trim();
+  return createHash("sha1").update(norm).digest("hex").slice(0, 12);
+}
+
+function pct(n: number, d: number): string {
+  return d ? `${((n / d) * 100).toFixed(0)}%` : "n/a";
+}
+
+function main() {
+  const records = readRecords();
+  const today = new Date().toISOString().slice(0, 10);
+  const decided = records.filter((r) => r.status === "decided");
+  const held = decided.filter((r) => r.needs_precedent);
+  const open = records.filter((r) => r.status === "founder-docket" || r.status === "rejected");
+  const overrides = records.filter((r) => r.kind === "override" || r.supersedes);
+  const expired = decided.filter((r) => r.expires_at && r.expires_at < today);
+  const dissent = records.filter((r) => r.judge_dissent);
+
+  // Undecided inbox items: question files with no record carrying their hash.
+  // Hashes are recomputed from record.question — identical to decidedHashes()
+  // in decide.ts — because early records predate the stored question_hash field.
+  const decidedHashes = new Set(records.filter((r) => (r as { question?: string }).question).map((r) => questionHash((r as { question: string }).question)));
+  const undecided: { file: string; ageDays: number }[] = [];
+  if (existsSync(INBOX_DIR)) {
+    for (const f of readdirSync(INBOX_DIR).filter((f) => f.endsWith(".yaml"))) {
+      try {
+        const q = parse(readFileSync(join(INBOX_DIR, f), "utf8")) as { question?: string };
+        if (q.question && !decidedHashes.has(questionHash(q.question))) {
+          undecided.push({ file: f, ageDays: Math.floor((Date.now() - statSync(join(INBOX_DIR, f)).mtimeMs) / 86400000) });
+        }
+      } catch { /* unparseable inbox file — counted below via batch skip logs */ }
+    }
+  }
+
+  // Autonomous decision rate: decided records that are NOT safe-default holds.
+  const substantive = decided.filter((r) => r.step !== "safe-default");
+  const autonomous = substantive.filter((r) => r.mode === "autonomous");
+
+  // Safe-state rate by domain.
+  const byDomain = new Map<string, { total: number; safe: number }>();
+  for (const r of decided) {
+    const d = r.domain ?? "?";
+    const e = byDomain.get(d) ?? { total: 0, safe: 0 };
+    e.total++;
+    if (r.step === "safe-default" || r.needs_precedent) e.safe++;
+    byDomain.set(d, e);
+  }
+
+  // Benchmark debt: override-pending expectations (known-wrong rules awaiting induction).
+  let benchDebt = 0;
+  if (existsSync(BENCHMARK)) {
+    const bench = parse(readFileSync(BENCHMARK, "utf8")) as { cases?: { expect?: string }[] };
+    benchDebt = (bench.cases ?? []).filter((c) => String(c.expect).includes("override-pending")).length;
+  }
+
+  // Chain integrity + duplicate-authority reporting (Fable F2/F10/F11):
+  // depth>1 chains are laundering bugs; duplicate live question hashes with
+  // differing outcomes are contradictory authority. Both must be zero.
+  const supersededRecordIds = new Set(records.map((r) => r.supersedes).filter((x): x is string => !!x));
+  const chainViolations = records.filter((r) => ((r as { chain?: { depth?: number } }).chain?.depth ?? 0) > 1).length;
+  const liveByHash = new Map<string, Set<string>>();
+  for (const r of records) {
+    const q = (r as { question?: string }).question;
+    if (!q || r.status !== "decided" || supersededRecordIds.has(r.id ?? "")) continue;
+    const h = questionHash(q);
+    const outcomes = liveByHash.get(h) ?? new Set<string>();
+    outcomes.add(`${r.step}|${r.decision ?? r.reason}`);
+    liveByHash.set(h, outcomes);
+  }
+  const contradictoryHashes = [...liveByHash.values()].filter((s) => s.size > 1).length;
+
+  const blocked = open.length + undecided.length;
+  const lines: string[] = [
+    "# Governance digest — autonomous approver metrics",
+    "",
+    "Generated by `scripts/decisions/digest.ts` (also runs at the end of every `--batch --write`). No timestamp: identical records must produce an identical file so concurrent worktrees merge cleanly.",
+    "This file is a dashboard, not a log — history lives in the records and in git.",
+    "",
+    "## Headline",
+    "",
+    `**Blocked items: ${blocked}** — ${open.length} founder-docket/rejected record(s) + ${undecided.length} inbox question(s) with no decision record.`,
+    "Target: 0. Any nonzero count in a live class is a defect report, not a workload.",
+    "",
+    "## Metrics",
+    "",
+    `| metric | value | threshold | status |`,
+    `|---|---|---|---|`,
+    `| blocked-item count | ${blocked} | 0 | ${blocked === 0 ? "OK" : "ALERT"} |`,
+    `| autonomous decision rate | ${pct(autonomous.length, decided.length)} of decided records (${autonomous.length}/${decided.length}; ${substantive.length} substantive) | ≥95% of in-scope | ${decided.length ? "watch" : "n/a"} |`,
+    `| held pending precedent | ${held.length} | downward trend | info |`,
+    `| safe-state rate by domain | ${[...byDomain.entries()].map(([d, e]) => `${d}: ${pct(e.safe, e.total)}`).join(", ") || "n/a"} | >40% in a live class = alert | info |`,
+    `| override / reversal rate | ${pct(overrides.length, decided.length)} (${overrides.length} override record(s)) | >2%/class/cycle demotes; >5% immediate | ${overrides.length ? "watch" : "OK"} |`,
+    `| benchmark debt (override-pending cases) | ${benchDebt} | >0 sustained 2 cycles = alert | ${benchDebt ? "ALERT" : "OK"} |`,
+    `| chain-depth violations | ${chainViolations} | 0 | ${chainViolations ? "ALERT" : "OK"} |`,
+    `| contradictory duplicate hashes | ${contradictoryHashes} | 0 | ${contradictoryHashes ? "ALERT" : "OK"} |`,
+    `| expired-decision backlog | ${expired.length} past expires_at | >0 older than 14d past expiry | ${expired.length ? "ALERT" : "OK"} |`,
+    `| judge dissent rate | ${pct(dissent.length, records.filter((r) => r.calibration_log?.model).length)} of judged records (${dissent.length}) | safe-state routing >10% of judged = alert | info |`,
+    `| verification-failure rate | instrumentation: partial — state chain (decided→applied→merged→deployed→verified-live) not yet implemented | >0 itemised | partial |`,
+    `| gate integrity | instrumentation: partial — literal gate-string assertion lands with the merge path (rollout step 10) | 100% binary | partial |`,
+    "",
+    "## Founder docket items",
+    "",
+  ];
+  if (!open.length) lines.push("_None._");
+  for (const r of open) lines.push(`- ${r.id} — ${r.question} (\`${r.status}\`/\`${r.step}\`)`);
+  lines.push("", "## Undecided inbox items", "");
+  if (!undecided.length) lines.push("_None._");
+  for (const u of undecided) lines.push(`- \`${u.file}\` — ${u.ageDays}d old`);
+  lines.push("", "## Expired decisions (re-review before reuse as precedent)", "");
+  if (!expired.length) lines.push("_None._");
+  for (const r of expired) lines.push(`- ${r.id} — ${r.question} (expired ${r.expires_at})`);
+  lines.push("");
+  writeFileSync(OUT, lines.join("\n"));
+  console.log(`digest → docs/decisions/digest.md — blocked: ${blocked}, records: ${records.length}, decided: ${decided.length}`);
+}
+
+main();

@@ -1,0 +1,20 @@
+id: person/maymun-abu-bishr
+class: person
+label: { ar: "ميمون أبو بشر", en: "Maymun Abu Bishr" }
+summary:
+  ar: "مولى علي بن عبد الله؛ عند البلاذري أقطعه المنصور قطيعة عند بستان القس ناحية باب الشام وطاقات بشر تنسب إلى بشر بن ميمون هذا."
+  en: "mawla of Ali ibn Abdallah; in al-Baladhuri granted a qati'a near Bustan al-Qass by Bab al-Sham — the Taqat Bishr are named for his son Bishr."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+died: { edtf: "740~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 414–417"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch44
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: published, completeness: 3 }

@@ -1,0 +1,39 @@
+id: place/riyadh
+class: place
+kind: city
+label:
+  ar: الرياض
+  en: Riyadh
+  ur: ریاض
+summary:
+  ar: عاصمة المملكة العربية السعودية في نجد؛ دار الدولة السعودية منذ إمارته الأولى، وأُعيد بناؤها عاصمة ملكية حديثة بعد سنة 1932م.
+  en: Capital of Saudi Arabia in Najd; seat of the Saudi state since its first emirate, rebuilt as the modern royal capital after 1932.
+  ur: نجد میں سعودی عرب کا دارالحکومت؛ پہلی سعودی امارت سے ہی ریاست کا مرکز، 1932ء کے بعد جدید شاہی دارالحکومت کے طور پر تعمیر ہوا۔
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 24.7136
+- 46.6753
+coordinate_precision: locality
+coordinate_note: Wikidata Q3692 coordinates; representative point for the city.
+external_ids:
+  wikidata: Q3692
+  geonames: '108410'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q3692 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q3692; coordinates the city's gazetteer point

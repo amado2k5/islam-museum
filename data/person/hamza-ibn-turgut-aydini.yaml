@@ -1,0 +1,29 @@
+id: person/hamza-ibn-turgut-aydini
+class: person
+label:
+  ar: "حمزة بن طورغوت آيديني"
+  en: "Hamza ibn Turgut Aydini"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لحمزة بن طورغوت آيديني؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hamza ibn Turgut Aydini, the Ottoman writer (orator, d. 1571); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1566", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/aydin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/orlu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136121531
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0094
+status:
+  review: draft
+  completeness: 1

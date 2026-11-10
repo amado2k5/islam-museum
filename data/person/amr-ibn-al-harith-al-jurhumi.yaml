@@ -1,0 +1,34 @@
+id: person/amr-ibn-al-harith-al-jurhumi
+education:
+  did_you_know:
+    ar: "عمرو الجرهمي خرج عند جلاء جرهم عن مكة بغزالي الكعبة وحجر الركن فدفنهما في زمزم، وانطلق بقومه إلى اليمن وقال في الحزن عليها شعره المشهور."
+    en: "Amr al-Jurhumi, when Jurhum were driven from Mecca, carried off the Kaaba's gazelles and the Cornerstone and buried them in Zamzam, then led his people to Yemen mourning Mecca in his famous verses."
+    ur: "عمرو جُرہمی، جب جُرہم کو مکہ سے نکالا گیا، کعبہ کی ہرنیوں اور حجرِ اسود کو اٹھا کر زمزم میں دبا دیا، پھر قوم کو یمن لے گیا اور مکہ پر اپنے مشہور افسوس کے اشعار کہے۔"
+    sources: [source/tabaqat-ibn-sad, source/muruj-al-dhahab]
+class: person
+label: { ar: "عمرو بن الحارث الجرهمي", en: "Amr ibn al-Harith al-Jurhumi" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن الحارث بن مضاض الجرهمي" }
+gender: male
+roles: [tribal-chief, poet]
+summary:
+  ar: "الجرهمي الذي خرج عند جلاء جرهم عن مكة بغزالي الكعبة وحجر الركن الأسود فدفنهما في بئر زمزم، وانطلق بقومه إلى اليمن وقال في الحزن على مكة شعره المشهور؛ وهو غير مضاض بن عمرو الأكبر صهر إسماعيل، في رواية ابن إسحاق التي ينقلها الرحيق المختوم."
+  en: "The Jurhumite who, when Jurhum was driven from Mecca, carried off the Kaaba's two gazelles and the Black Stone and buried them in the well of Zamzam, then led his people to Yemen and composed the famous lament for Mecca; not to be confused with the elder Mudad ibn Amr, Ismail's father-in-law, in Ibn Ishaq's account as cited by al-Raheeq al-Makhtum."
+wings: [people]
+themes: [sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+born: { edtf: "200~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akhbar Makka (al-Azraqi)" }
+died: { edtf: "250~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akhbar Makka (al-Azraqi)" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "From text: from Mecca", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab], confidence: low }
+  - { type: member_of, target: group/jurhum, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/expulsion-of-jurhum, role: "دافن غزالي الكعبة والركن في زمزم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص28–30 نقلاً عن ابن هشام 1/44 و114–125 وقلب جزيرة العرب ص230–231 ورحمة للعالمين 2/48 ومروج الذهب 1/205"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 28" }

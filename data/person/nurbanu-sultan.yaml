@@ -1,0 +1,31 @@
+id: person/nurbanu-sultan
+class: person
+label:
+  ar: "نوربانو سلطان"
+  en: "Nurbanu Sultan"
+roles: [royal-consort, regent]
+gender: female
+summary:
+  ar: "بطاقة أولية لنوربانو سلطان، الوالدة سلطان في عهد مراد الثالث، وردت في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمتها في تاريخ الدولة العثمانية للصلابي على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Nurbanu Sultan, valide sultan in the reign of Murad III, named from an open reference description (Wikidata); her entry in al-Salabi's history of the Ottoman state is not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1525~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Banu); TDV Islam Ansiklopedisi" }
+died: { edtf: "1583", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Banu); TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/paros, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q201272)" }
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
+  - { type: buried_in, target: building/hagia-sophia, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12506)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q238091
+provenance:
+  layer: own-research
+  source: "Wikidata Q238091 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0005
+status:
+  review: draft
+  completeness: 1

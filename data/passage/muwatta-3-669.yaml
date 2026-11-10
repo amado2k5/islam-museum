@@ -1,0 +1,16 @@
+id: passage/muwatta-3-669
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "669"
+label: { ar: "الموطأ 669 — مالك: لا يؤخذ من المعادن شيء حتى يبلغ ما يخرج منها النصاب، ففيه الزكاة مكانه", en: "Muwatta 669" }
+summary:
+  ar: "قول لمالك: أرى، والله أعلم، أن لا يؤخذ من المعادن مما يخرج منها شيء حتى يبلغ ما يخرج منها قدر عشرين ديناراً عيناً أو مئتي درهم، فإذا بلغ ذلك ففيه الزكاة مكانه، وما زاد أُخذ بحسابه ما دام في المعدن نيل، فإذا انقطع عرقه ثم جاء نيل بعد ذلك ابتُدئت فيه الزكاة كما ابتُدئت في الأول. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.339}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-03-zakat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 669 at PDF p. 339; باب الزكاة في المعادن", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 339; matn excerpt at most 40 words" }

@@ -1,0 +1,47 @@
+id: person/habib-ibn-maslama
+class: person
+label:
+  ar: حبيب بن مسلمة الفهري
+  en: Habib ibn Maslama al-Fihri
+  ur: "حبیب بن مسلمہ فہری"
+names:
+  - { kind: full, lang: ar, value: حبيب بن مسلمة الفهري }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  ar: "فهري من قريش؛ وجّهه خالد بن الوليد مع بشر بن أبي أرطاة العامري إلى غوطة دمشق في مسيره من العراق إلى الشام فأغارا على قرى من قراها."
+  en: "A Fihri of Quraysh; Khalid ibn al-Walid sent him with Busr ibn Abi Artat al-Amiri to the Ghouta of Damascus on his march from Iraq to Syria, and they raided villages of its countryside."
+  ur: "قریش کے بنو فہر سے تعلق رکھنے والے؛ خالد بن ولید نے عراق سے شام جاتے ہوئے انہیں بسر بن ابی ارطاۃ کے ساتھ دمشق کے غوطہ کی طرف بھیجا۔ {cite:futuh-buldan-maarif-1407}"
+wings: [people]
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+born: { edtf: "617", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/armenia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hajar-isaba]}
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 154"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
+external_ids: { wikidata: "Q6022379" }
+sources:
+- source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 3
+  generated_by: "Devin (SWE-2 High)"
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b5", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

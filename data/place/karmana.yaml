@@ -1,0 +1,21 @@
+id: place/karmana
+class: place
+kind: town
+label: { ar: "كرمانة", en: "Karmana", ur: "کرمنہ" }
+summary:
+  ar: "بلدة في أوزبكستان."
+  en: "Town in Uzbekistan."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [40.140055555555556, 65.36016666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q9017250" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q9017250 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

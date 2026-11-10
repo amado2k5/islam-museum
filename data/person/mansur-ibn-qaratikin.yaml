@@ -1,0 +1,19 @@
+id: person/mansur-ibn-qaratikin
+class: person
+label: { ar: "منصور بن قراتكين" }
+summary:
+  ar: "قائد ساماني؛ أمره الأمير نوح بن نصر فسار من نيسابور إلى الري في صفر سنة 340هـ ودخلها واستولى عليها وأخلى علي بن كاما خليفة ركن الدولة عنها إلى أصبهان وفرّق العساكر في البلاد فملكوا بلاد الجبل إلى قرميسين {cite:kamil-ibn-al-athir p. 364-365}."
+  en: "Samanid commander; sent by Nuh ibn Nasr he took Rayy from Rukn al-Dawla's lieutenant in 340 and pushed Buyid garrisons back to Qirmisin {cite:kamil-ibn-al-athir p. 364-365}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+died: { edtf: "952", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with نيسابور per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-12
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

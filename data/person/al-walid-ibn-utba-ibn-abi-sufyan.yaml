@@ -1,0 +1,23 @@
+id: person/al-walid-ibn-utba-ibn-abi-sufyan
+class: person
+label: { ar: "الوليد بن عتبة بن أبي سفيان", en: "al-Walid ibn 'Utba ibn Abi Sufyan" }
+summary:
+  ar: "صلى على معاوية بن يزيد ليكون الأمر له من بعده، فلما كبر الثانية طعن فسقط ميتاً قبل تمام الصلاة {cite:muruj-al-dhahab p. 70}."
+  en: "He led Mu'awiya II's funeral prayer hoping for the succession — and was stabbed dead at the second takbir before the prayer ended {cite:muruj-al-dhahab p. 70}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+died: { edtf: "684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "At Muawiya II's funeral in Damascus.", sources: [source/muruj-al-dhahab], confidence: low }
+  - { type: died_in, target: place/damascus, note: "Stabbed dead leading the funeral prayer.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

@@ -1,0 +1,15 @@
+id: passage/bukhari-3680
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3680"
+label: { ar: "البخاري 3680 — قصر عمر في الجنة وغيرته", en: "Bukhari 3680 — Umar's palace in Paradise and his jealousy" }
+text: "بينا أنا نائم رأيتني في الجنة فإذا امرأة تتوضأ إلى جانب قصر، فقلت: لمن هذا القصر؟ فقالوا: لعمر. فذكرت غيرته فوليت مدبراً. فبكى عمر وقال: أعليك أغار يا رسول الله"
+summary:
+  ar: "في كتاب مناقب الأنصار؛ رواية أبي هريرة في رؤيا النبي قصر عمر في الجنة وإحجامه عن النظر إليه لغيرة عمر المعروفة. من مشهور مناقب عمر في الصحيح."
+relations:
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3680 (كتاب مناقب الأنصار)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

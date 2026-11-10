@@ -1,0 +1,36 @@
+---
+// Old per-stop pages (/<lang>/time-browser/<kind>/<slug>/) now send visitors to the real museum entry, so links already
+// shared keep working without a plainer duplicate of each record (correction prompt, addendum). Static: a meta refresh
+// plus a visible link, no script needed.
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { LANGS, type Lang } from "../../../../lib/i18n";
+import { repoPath } from "../../../../lib/paths";
+
+export function getStaticPaths() {
+  const TOPIC_FILES = ["event", "person", "place", "polity", "period", "theme", "work", "concept", "practice"];
+  return LANGS.flatMap((lang) => {
+    const dir = repoPath(".cache", "time-browser", lang);
+    const all = TOPIC_FILES.flatMap((t) => JSON.parse(readFileSync(join(dir, t + ".json"), "utf8")) as { id: string }[]);
+    return all.map((r) => {
+      const i = r.id.indexOf("/");
+      return { params: { lang, kind: r.id.slice(0, i), slug: r.id.slice(i + 1) }, props: { lang, id: r.id } };
+    });
+  });
+}
+const { lang, id } = Astro.props as { lang: Lang; id: string };
+const target = `/${lang}/${id}/`;
+---
+<!doctype html>
+<html lang={lang} dir={lang === "en" ? "ltr" : "rtl"}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>{id}</title>
+  </head>
+  <body>
+    <p><a href={target}>{target}</a></p>
+  </body>
+</html>

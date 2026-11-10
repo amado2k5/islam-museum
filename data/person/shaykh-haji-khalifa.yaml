@@ -1,0 +1,29 @@
+id: person/shaykh-haji-khalifa
+class: person
+label:
+  ar: "شيخ حاج خليفة"
+  en: "Seyh Haci Halife"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لشيخ حاج خليفة؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Seyh Haci Halife, the Ottoman writer (poet, d. 1489); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+relations:
+  - { type: born_in, target: place/kastamonu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q155915)" }
+  - { type: died_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q40738)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136359163
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0096
+status:
+  review: draft
+  completeness: 1

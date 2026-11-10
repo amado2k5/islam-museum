@@ -1,0 +1,77 @@
+id: exhibit/path-reconquista
+class: exhibit
+kind: trail
+label:
+  ar: سقوط المدن
+  en: The Falling Cities
+summary:
+  ar: 'مسار في تراجع الأندلس: طليطلة 1085 وقرطبة 1236 وإشبيلية 1248 وبلنسية 1238 — مدن تسقط واحدة تلو
+    الأخرى.'
+  en: A trail through the receding frontier.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: طليطلة
+    en: Toledo
+  body:
+    ar: '478هـ: أول كبرى تسقط لألفونسو.'
+    en: '478هـ: أول كبرى تسقط لألفونسو.'
+  features:
+  - event/fall-of-toledo-478
+  - event/fall-of-toledo-478
+- title:
+    ar: سرقسطة وبرشلونة
+    en: Zaragoza
+  body:
+    ar: '512هـ و185هـ: الشمال الشرقي يضيع.'
+    en: '512هـ و185هـ: الشمال الشرقي يضيع.'
+  features:
+  - event/fall-of-zaragoza-512
+  - event/fall-of-barcelona-185
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: '636هـ: العاصمة القديمة تسقط.'
+    en: '636هـ: العاصمة القديمة تسقط.'
+  features:
+  - event/fall-of-cordoba-636
+  - place/cordoba
+- title:
+    ar: إشبيلية وبلنسية
+    en: Seville
+  body:
+    ar: '646هـ و636هـ: الجنوب والشرق يذهبان.'
+    en: '646هـ و636هـ: الجنوب والشرق يذهبان.'
+  features:
+  - event/fall-of-seville-646
+  - event/fall-of-valencia-636
+- title:
+    ar: الأخيرة
+    en: The last
+  body:
+    ar: 'غرناطة 897هـ: ثمانية قرون تكتمل.'
+    en: 'غرناطة 897هـ: ثمانية قرون تكتمل.'
+  features:
+  - event/fall-of-granada-897
+  - polity/emirate-of-granada
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

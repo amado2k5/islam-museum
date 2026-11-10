@@ -1,0 +1,15 @@
+id: passage/muwatta-24-2243
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "2243"
+label: { ar: "الموطأ 2243 — مالك: من أعتق عبدا له فبت عتقه، حتى تجوز شهادته وتتم حرمته ويثبت ميراثه، فليس لسيده أن يشترط عليه مثل ما يشترط على عبده من مال أو خدمة، ولا يحمل عليه شيئا من الرق، لأن النبي قال: من أعتق شركا له في عبد قوم عليه قيمة العدل", en: "Muwatta 2243" }
+summary:
+  ar: "قال مالك: من أعتق عبدا له فبت عتقه، حتى تجوز شهادته وتتم حرمته ويثبت ميراثه، فليس لسيده أن يشترط عليه مثل ما يشترط على عبده من مال أو خدمة، ولا يحمل عليه شيئا من الرق. لأن رسول الله قال: من أعتق شركا له في عبد، قوم عليه قيمة العدل، فأعطى شركاءه حصصهم، وعتق عليه العبد. قال مالك: فهو إذا كان له العبد خالصا، أحق باستكمال عتاقته، ولا يخلطها بشيء من الرق. {cite:muwatta-maruf-1997 p.324} {cite:muwatta-maruf-1997 p.325}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-24-itq }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2243 at PDF p. 324; الشرط في العتق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b68" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 324; matn excerpt at most 40 words" }

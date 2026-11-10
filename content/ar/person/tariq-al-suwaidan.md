@@ -1,0 +1,190 @@
+---
+id: person/tariq-al-suwaidan
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+طارق محمد السويدان، باحث وكاتب وداعية إسلامي ومؤرخ وإعلامي كويتي، ومدرب في الإدارة والقيادة، وُلد في الكويت. اشتهر ببرامجه التلفزيونية التي تتناول التاريخ الإسلامي والفكر وتنمية القدرات والقيادة، وأدرجه المركز الملكي للدراسات الإستراتيجية الإسلامية ضمن قوائم «المسلمون الخمسمئة» الأكثر تأثيرًا في سنوات 2022 و2023 و2024. {cite:wikipedia-tariq-al-suwaidan-ar} {cite:wikipedia-tariq-al-suwaidan-en}
+
+وهو أحد المناصرين لجماعة الإخوان المسلمين، وكان مديرًا عامًا لقناة الرسالة الفضائية من سنة 2006 حتى أقاله مالك القناة الأمير الوليد بن طلال سنة 2013. {cite:wikipedia-tariq-al-suwaidan-ar}
+
+## النشأة والتعليم
+تذكر المصادر تاريخين لمولده: فالمقالة العربية وويكيداتا يعطيان 15 نوفمبر 1953 في الكويت، بينما تعطي المقالة الإنجليزية 15 سبتمبر 1953، وقد سجل المتحف تاريخ المقالة العربية مع ذكر الخلاف صراحة. {cite:wikipedia-tariq-al-suwaidan-ar} {cite:wikipedia-tariq-al-suwaidan-en}
+
+تدرّب السويدان في العلوم الشرعية الكلاسيكية في شبابه، وعاش ودرس في الولايات المتحدة من سن السابعة عشرة لمدة عشرين عامًا. حصل على بكالوريوس هندسة البترول والغاز الطبيعي من جامعة ولاية بنسلفانيا سنة 1975، ثم على الماجستير في هندسة البترول من جامعة تلسا سنة 1982 مع مرتبة الشرف، ثم على الدكتوراه في هندسة البترول من الجامعة نفسها سنة 1990 مع مرتبة الشرف. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+## البدايات والمسيرة
+عمل في بدايته في المجال النفطي: مراقبًا لهندسة المكامن في وزارة النفط الكويتية من 1975 إلى 1977، وأستاذًا مساعدًا بكلية الدراسات التكنولوجية في الكويت من 1977 إلى 2001. وهو رئيس مجلس إدارة مجموعة الإبداع منذ سنة 2001، ومدرب محترف في مجالات التنمية الشخصية والإدارة العامة منذ سنة 1992. {cite:wikipedia-tariq-al-suwaidan-ar}
+
+وفي المجال الإعلامي صار شخصية تلفزيونية أعدّت وقدّمت برامج إسلامية عديدة في موضوعات من تلاوة القرآن وقصص النبي والنساء البارزات وتاريخ الأندلس، وبُثت برامجه على تلفزيون الكويت والقناة الأولى وقناة سبيس وإم بي سي. {cite:wikipedia-tariq-al-suwaidan-en}
+
+## قناة الرسالة وإقالته منها
+كان السويدان مديرًا عامًا لقناة الرسالة الفضائية، وهي من بنات أفكار الأمير الوليد بن طلال. وفي أغسطس 2013 أقاله الأمير طلال، وكتب على حسابه أنه أقال طارق السويدان «لاعترافه بانتمائه إلى جماعة الإخوان»، وكتب له في رسالة أنه لا مكان لعضو في الإخوان المسلمين على القناة، ووصفه بأن له «ميولًا متطرفة». {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+وفي سنة 2014 منعت السلطات السعودية بيع كتبه وكتب سلمان العودة في المملكة، وكان قبل ذلك قد مُنع من أداء العمرة بمكة. {cite:wikipedia-tariq-al-suwaidan-en}
+
+## المشروعات والمبادرات
+كان السويدان أحد مؤسسي أكاديمية الإبداع الأمريكية في الكويت، وهي مؤسسة خاصة تقدم تعليمًا تحضيريًا للجامعة الأمريكية في سياق القيم الإسلامية، وكان مديرها العام من 1997 إلى 2001. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+وهو أيضًا أحد مؤسسي مدرسة الأجيال المتقدمة في المملكة العربية السعودية، وهي مدرسة كندية ذات هوية إسلامية يدرس طلابها الإنجليزية وفق المنهج الكندي مع دروس في التربية الإسلامية والعربية، والمؤسس المشارك لأكاديمية إتقان العالمية في قطر، وهي مدرسة معتمدة من البكالوريا الدولية مبنية على مساحة ستين ألف متر مربع في منطقة الخيسة. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+ويرأس مجلس إدارة مجموعة الإبداع الخليجية ⁦(مجموعة الابتكار)⁩، وقدم دورات ومحاضرات لعشرات الجهات في الكويت والخليج والعالم العربي وماليزيا وأوروبا وأمريكا وأستراليا، ودرّب أكثر من خمسين ألف متدرب بحسب المقالة العربية. {cite:wikipedia-tariq-al-suwaidan-ar}
+
+## المؤلفات
+ألّف السويدان 54 كتابًا وألبومات صوتية منطوقة، وتُرجمت عدة من كتبه إلى الإنجليزية والفرنسية. {cite:wikipedia-tariq-al-suwaidan-en}
+
+ومن كتبه التاريخية والإسلامية كما تذكرها المصادر: «فلسطين: التاريخ المصور»، و«الأندلس: التاريخ المصور»، و«اليهود: الموسوعة المصورة» (2009)، و«نساء عظيمات في الإسلام»، وسير الأئمة الأربعة: «الإمام أبو حنيفة النعمان» و«الإمام مالك» و«الإمام الشافعي» و«الإمام أحمد بن حنبل»، و«التاريخ الإسلامي المصور»، و«قصص الأنبياء في القرآن»، و«أسرار الحج والعمرة»، و«مختصر العقيدة الإسلامية». {cite:wikipedia-tariq-al-suwaidan-ar} {cite:wikipedia-tariq-al-suwaidan-en}
+
+ومن كتبه في الإدارة والتنمية: «مهارات التأثير»، و«فن العطاء»، و«إعادة النظر في مفاهيمنا»، و«مدرسة الحياة»، و«القيادة في القرن الحادي والعشرين»، و«صناعة القائد»، و«فن الإلقاء الرائع»، و«إدارة الوقت». {cite:wikipedia-tariq-al-suwaidan-ar} {cite:wikipedia-tariq-al-suwaidan-en}
+
+ومن برامجه وسلاسله المسموعة والمرئية: «قصص الأنبياء»، و«السيرة الخالدة»، و«تاريخ الأندلس»، و«نساء خالدات»، و«روائع القصص»، و«علمتني الحياة»، و«رياح التغيير»، و«صناعة النجاح»، و«صناعة القائد» على قناة الرسالة. {cite:wikipedia-tariq-al-suwaidan-ar}
+
+## المواقف والنقد
+ينبغي أن يُقرأ هذا القسم بوصفه عرضًا لمواقف مختلفة منقولة عن المصادر، وليس حكمًا من المتحف عليها.
+
+**عضويته في الإخوان المسلمين:** السويدان عضو في جماعة الإخوان المسلمين في الكويت، وقد وصفته برقيات وزارة الخارجية الأمريكية بأنه «إسلامي معتدل»، وأيد الجماعة ضد الانقلاب العسكري في مصر سنة 2013. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+**حقوق المرأة:** هو مناصر قوي لحقوق المرأة ضمن الشريعة الإسلامية، وشارك في «مناظرات الدوحة» مدافعًا عن حقوق المرأة السياسية والاجتماعية، وقال فيها: «المرأة مساوية للرجل، هذا أساس الشريعة»، ووصف الزواج القسري بأنه «غير إسلامي». {cite:wikipedia-tariq-al-suwaidan-en}
+
+**مواقف منقولة أخرى:** أدان منفذي هجمات 11 سبتمبر ووصفهم بأنهم خطر على أنفسهم وعلى العالمين العربي والإسلامي وعلى الإسلام نفسه، وهو من الموقعين على رسالة «كلمة سواء» المفتوحة من علماء مسلمين إلى القادة المسيحيين. {cite:wikipedia-tariq-al-suwaidan-en}
+
+**قيود وحظر:** مُنع السويدان لاحقًا من دخول الولايات المتحدة بحسب المقالة الإنجليزية، وفي مايو 2007 أدرجه مدعون فدراليون أمريكيون ضمن قائمة «متآمرين غير متهمين» في قضية تمويل الإرهاب ضد مؤسسة الأرض المقدسة، ثم قضت محكمة فدرالية لاحقًا بأن قائمة المتآمرين غير المتهمين لم يكن ينبغي إعلانها. {cite:wikipedia-tariq-al-suwaidan-en}
+
+وفي نوفمبر 2014 منعته الحكومة البلجيكية من حضور معرض إسلامي في بروكسل، وقال رئيس وزرائها ووزير داخليتها إن له «معتقدات معادية للسامية غير مقبولة»، مستندين إلى خطبة له في يوليو 2014 نقلتها المقالة؛ وكتب السويدان أن المنع جاء «بضغط من اللوبي الصهيوني» وأن سببه موقفه الصريح من الصهيونية وجرائم الاحتلال الإسرائيلي. {cite:wikipedia-tariq-al-suwaidan-en}
+
+وفي تصريحات نقلتها المقالة دعا الشباب إلى ما سماه «الجهاد الإلكتروني» ضد المواقع الإسرائيلية والصهيونية. وفي مقابلة في يناير 2022 مع صحيفة الاستقلال تحدث عن التنوع الثقافي والاندماج في أوروبا بوصفهما جزءًا من فلسفة الإسلام التي لم تمحُ ثقافات الآخرين. {cite:wikipedia-tariq-al-suwaidan-en}
+
+## سحب الجنسية الكويتية
+نقلت المقالة الإنجليزية عن وسائل إعلام، وعن بي بي سي العربية في 7 ديسمبر 2025، أن مرسومًا أميريًا كويتيًا صدر بسحب الجنسية الكويتية من طارق السويدان، ضمن عملية سحب جنسيات على دفعات جارية منذ العام السابق. وتذكر المقالة العربية المرسوم الحكومي الصادر في ديسمبر 2025، وتصنفه «عديم الجنسية» من سنة 2025 بعد أن كانت مواطنته الكويت حتى ذلك العام. يثبت المتحف هذا بوصفه تقريرًا منقولًا عن مصادره، لا بوصفه واقعة يتحقق منها بنفسه. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+## الحياة الشخصية
+له ستة أولاد، منهم مفاز السويدان، كما تذكر المصادر، ولن ينشر المتحف تفاصيل أسرية أبعد من ذلك. {cite:wikipedia-tariq-al-suwaidan-en} {cite:wikipedia-tariq-al-suwaidan-ar}
+
+## الأثر والجمهور
+تقدم برامجه على عدد من القنوات العربية، وألّف عشرات الكتب المترجمة، وأدرج في قوائم «المسلمون الخمسمئة» الأكثر تأثيرًا ثلاث سنوات متتالية (2022–2024)، وهي أرقام ومراتب تنقلها المصادر بتاريخها. {cite:wikipedia-tariq-al-suwaidan-en} وتحيل مقاطعه المنشورة بنفسه مشاهديها إلى قناته الرسمية على يوتيوب (@dralsuwaidan) إلى جانب موقعه الرسمي، وهي القناة التي تنشر برامجه في التاريخ والإدارة والقيادة. {cite:youtube-dralsuwaidan}
+
+## من دروسه: الإدارة العملية
+في الحلقة الأولى من دورته «الإدارة العملية» على موقع أصابيل يعرض السويدان مشروعه العلمي في الإدارة: أنه يكتب، ولم ينشر بعد، إعادةَ كتابة لعلم الإدارة على فلسفة التوحيد ومبدأ اتباع الرسول، مستعيناً بتصنيف أدوار النبي الثلاثة عشر عند محمد الأشقر في كتابه «أفعال الرسول ودلالتها على الأحكام الشرعية». {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:12:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:14:00}
+ويذكر أنه كتب في السنوات الثلاث الأخيرة نحو سبع خطط استراتيجية للشركات، وأنه يعدّل طريقة فايفر في التخطيط الاستراتيجي بخبرته العملية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:13:00}
+ومن القيم التي يقول إنه زرعها في منظماته: الديمقراطية في القرارات ⁦(صوته كصوت أي عضو في اللجنة التنفيذية)⁩، والشفافية الكاملة ⁦(لا رواتب أو مكافآت سرية، والميزانيات مكشوفة)⁩، ومبدأ الباب المفتوح لأي موظف، وأن الإنتاجية هي الحكم لا الدوام، وألا تفرقة على أساس طائفي أو جندري. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:44:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:45:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:48:00}
+ويصف طريقته في الاستشارات: أسئلة يجمع إجاباتها من الناس في المنظمة، ثم يعيد صياغتها في نموذج بتشخيص وحلول وخطوات تنفيذ ومؤشرات؛ ويقول إن الإجابات والحلول تأتي من الناس أنفسهم. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:22:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:23:30}
+ويذكر أن له كتاباً وألبوماً في موضوع «المنظمة المتعلمة»، وأن الدورة قدّمها بعد عودته من كندا، ومن سياقها — ذكر كتاب «Know How» الصادر في 2007 والإعلان عن الآيفون قبل أيام — أنها تعود إلى نحو سنة 2007. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:01:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep01 01:34:30}
+
+## من دروسه: الرؤية والرسالة
+في الحلقة الثانية من «الإدارة العملية» يذكر السويدان أنه كان يدير «أكاديمية الإبداع الأمريكية» في الكويت، وهي مدرسة من الابتدائية إلى الثانوية رسالتها «أفضل تعليم في الشرق الأوسط في بيئة أخلاقية وإبداعية»، وأن كتابة هذه الجملة استغرقت ستة أسابيع بدأت بجملة من نصف صفحة. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:35:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:38:00}
+ويحكي أن شركة لإدارة الأموال كان يعمل فيها اشترت شركة أخشاب رابحة في ماليزيا فخسرتها خلال سنة لأنها خارج صلب عملهم، فباعوها بخسارة عشرة في المئة «ليتأدبوا»، وخلاصته: لا تدخل في عمل لا تفهمه. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:52:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:58:00}
+ويذكر أن خطة قناة الرسالة الاستراتيجية كُتبت على نموذجه في يوم واحد من التاسعة صباحاً إلى التاسعة مساءً بطريقة المجموعة الشكلية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 01:29:00}
+ومن قواعده في المكافآت أن نسبة المدير من الأرباح عادة ثلاثة إلى خمسة في المئة، وفي الشركات المدرجة نصف إلى واحد في المئة، ولا تتجاوز عشرة في المئة لمن يُسلَّم العمل كله ⁦(needs_source: النسب من خلاصة خبرته)⁩. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep02 00:59:00}
+
+## من دروسه: القيادة
+في الحلقة الثالثة يقدّم السويدان قواعده الشخصية في القيادة: أن القائد لا يداوم أكثر من خمسين في المئة من وقت العمل، وأنه لا يقبل توصيفاً وظيفياً لنفسه ليبقى مرجعاً له حق التدخل في كل شيء، وأنه يحتفظ بالقرار المالي — توقيع الشيكات — لأن متابعة المال تكشف له كل ما يجري. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:16:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:53:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:57:30}
+ويذكر أنه درس عند كين بلانشارد، وأنه أدار نحو سبعين مشروعاً في حياته كلها بأموال الآخرين لا بماله، منها ما ربح ومنها ما خسر. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:27:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:26:30}
+ومن قواعده الشخصية المعلنة: أنه كان في أكاديميته يرفض توظيف العرب ممن تجاوزت خبرتهم عشر سنوات لغياب نظام التطوير الذاتي عندهم، وأنه درّب ابنته على تحمّل مسؤولية واجبها بقاعدة «القرد قردك» لا أن يحل عنها. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 00:37:30}
+ويصرّح أن نمطه في تحليل ديسك هو «باء» — مؤثر يهتم بالناس وسريع — بفارق خمس عشرة نقطة عن الثانية. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep03 01:37:30}
+
+## من دروسه: التحفيز وتغيير المنظمات
+في الحلقة الرابعة يذكر السويدان عن نفسه: أنه لا يكافئ أولاده على النجاح في لحظته بل يربطهم بالفكرة والهدف؛ وأنه صنع في أكاديمية الإبداع «بنك نقاط» للطلبة — نقاط على الدرجات والسلوك والنشاط تُستبدل بجوائز بينها تذاكر سفر وأسهم، مع مكافأة لأكثر طالب تطوراً — بديلاً عن تكريم المتفوقين وحدهم؛ وأنه غيّر هيكل الأكاديمية ست مرات في ثلاث سنوات لتجاوز النتائج الخطة؛ وأنه تعلّم نقد «الموظف المثالي» من ستيفن كوفي. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:37:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:42:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 01:41:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:41:00}
+ويحكي أنه في الخدمة العسكرية رفض أن يُسبّ من ضابط وأخبره أن من يسبه سيُسبّ مثله فقضى خدمته دون إهانة ⁦(قصة شخصية)⁩. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep04 00:27:30}
+
+## من دروسه: ترتيب الحياة وتجاربه الشخصية
+في الحلقة الخامسة يذكر السويدان عن نفسه: أنه يعيد جدول معادلة المجال كل سنتين أو ثلاث سنوات، وكان آخرها قبل ستة أشهر؛ وأن مجاله هو الفكر — «نشر الفكر الذي ينهض بالأمة» — والإدارة تسانده؛ وأنه يجلس لتخطيط أهداف عمره عند الكعبة؛ وأنه يحتفظ بأهدافه في الأورجانيزر ويجدولها سنة إلى الأمام بل أربعة عشر شهراً؛ وأنه غيّر تخصصه بعد الدكتوراه؛ وأن ذاكرته انتقائية — يعيد الدورة بتفاصيلها وينسى أسماء بعض أهله؛ وأنه يقرأ كتب التغذية الغربية ويصف نفسه «أسوأ واحد» في الالتزام الصحي والرياضي رغم أنه لا يأكل اللحم الأحمر إطلاقاً ويشرب المشروبات الدايت بعد أن خففها تدريجاً من عشرة في المئة؛ وأنه يزور مكتبتي جرير والعبيكان دورياً لمتابعة المترجم ويصطحب أهله لساعات — وهي الحيلة التي جعلت ابنه ذا الأحد عشر عاماً يحب القراءة بعد أن عجز الترغيب والترهيب. {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 00:36:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 00:45:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:38:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 00:23:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 00:28:30} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:04:00} {cite:assabile-tareq-al-suwaidan administrative-processus-abilities/ep05 01:31:30}
+
+## من برامجه: «المبدعون» ومنهجية العظمة
+في افتتاحية برنامجه «المبدعون» يقول السويدان إنه عاش مع سير العظماء سنين كأنه جالس بين أيديهم يشاركهم مواقفهم ويسهر مع همومهم، حتى استخلص أسرار إبداعهم؛ وإنه فكّر في تسمية البرنامج «أسرار العظماء»؛ وإن دافعه واجبٌ نحو الشباب لنقل هذه الأسرار لا للشهرة والمال بل للمساهمة في بناء حضارة الإسلام من جديد. {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:01:30} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:02:00} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep01 00:07:30}
+
+## المراجع
+- المصادر المعرّفة المستشهد بها أعلاه، وهي مسجلة في `data/source/`.
+
+## برنامج «الوسطية» — أسلوب البرنامج
+استضاف السويدان في حلقته الأولى عن «الإسلاموفوبيا» نخبة من المقيمين في الغرب — عادل درويش وعزام التميمي وعريب الرنتاوي وعماد حسين وعلي صوا والباحثة نور عيسى — وأدار النقاش بطريقته: تصويت الجمهور على الظاهرة ثم على سببها الأكبر ثم على دور الإعلام العربي {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:45:30}. وكانت النتائج: 51% يرون الظاهرة حقيقية، و55% يرون «الأصابع اليهودية» سببها الأكبر — ما فاجأه — و57% يرون الإعلام العربي في تحسن {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:11:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep01 00:49:30}.
+
+## في «الوسطية» — حلقة الخطاب الإسلامي
+أدار السويدان حلقة الخطاب الإسلامي بين النضج والانفعال بنخبة — بسام العموش ومحمود رشدان وصلاح الدين الجورشي وخالد حروب وسيد فايز ومحمود سيد ضغيم ومأمون جرار وأحمد عز وسامر خير — وأربعة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:26:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:45:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:55:00}. وروى طرفته المشهورة: لما قدّم أول برنامج تلفزيوني سنة 1992م اتصلت سيدة تشكره «أنك تتكلم في الدين وتبتسم» — فقلّب القنوات وإذا بمشكلة في الشكل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:25:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 00:26:00}. وخلص إلى أن الإسلام واحد بمستويات خطاب متدرجة كإرسال النبي معاذاً بالتوحيد أولاً، وأن المشكلة الكبرى في المضمون وأن الأمة تحتاج مرجعية تجمع كبار علمائها {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:05:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep02 01:06:30}.
+
+## في «الوسطية» — حلقة الديمقراطية
+أدار السويدان حلقة «الديمقراطية: عدالة أم استبداد؟» بنخبة من أصحاب التجربة — إسحق الفرحان ومنير البياتي وعبد اللطيف عربيات وعلي العطوم وعزام التميمي ومهدي الدجاني — واستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:30:00}. واعترف أن النتيجة تغيّرت عن زمن «الديمقراطية كفر»: 16% فقط يرون تعارضاً كاملاً {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:09:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:10:00}. ولخّص أن الخلاف انحصر بعد النقاش في «حق البرلمان في التشريع» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep03 00:29:00}.
+
+## في «الوسطية» — حلقة تطبيق الشريعة
+أدار السويدان حلقة «تطبيق الشريعة بين الكلية والمرحلة» بنخبة شرعية — أحمد نوفل ومحمد الخطيب وحمزة منصور وهايل عبد الحفيظ وفخري أبو صفية — واستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:32:00}. ولاحظ نتيجة معبّرة: 69% يرون المفهوم واضحاً في العموم دون تفاصيل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 00:06:30}. وخلص بعد الحوار إلى أن العموميات متفق عليها والتفاصيل تحتاج اجتهاداً وقوانين، وأن الجمع بين التربية والمشاركة هو الطريق {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:10:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:13:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep04 01:14:30}.
+
+## في «الوسطية» — حلقة العلمانية
+أدار السويدان حلقة «العلمانية والإسلام: صدام أم وئام» بنخبة — عمر الشوبكي وعمار علي حسن ومحمد جمال حشمة وضيوف مساندين — وأربعة استطلاعات بينها تصويت المشاهدين بالرسائل {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:27:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 00:45:30}. وخلُص في الختام إلى أن المشترك بين النماذج أصيل في الإسلام، وأن «الإسلام الوسطي يغنينا عن العلمانية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:18:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep05 01:20:00}.
+
+## في «الوسطية» — حلقة الوطنية والقومية
+أدار السويدان حلقة الوطنية والقومية مقابل الإسلام بثلاثة مختصين وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:30:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 00:54:00}. واعترف في الختام بفخره الشخصي بعروبته — «أفهم القرآن» — مرسّخاً قاعدة الحلقة: لا تعارض بلا تعصب {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep06 01:18:30}.
+
+## في «الوسطية» — حلقة الكفر والتكفير
+أدار السويدان أخطر حلقات البرنامج — الكفر والتكفير — بعلماء عقيدة ودعاة، وباستطلاعين {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:04:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 00:44:30}. وختم مؤكداً: الاستثناءات لا تلغي الأصل — الإسلام لا يصادم الحرية الدينية، والنص الثابت يُحترم ويُنزَّل على الواقع بأدب الاستطاعة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:21:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep07 01:22:30}.
+
+## في «الوسطية» — حلقة التكفير الثانية
+في تتمة التكفير أدار السويدان جدل «الحكم مفتوح أم مغلق» وثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:07:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:45:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 01:05:30} — وكانت النتيجة الأبرز: 88% يقصرون إصدار حكم التكفير على هيئة شرعية رسمية لا على عالم ولا قاضٍ منفرد {cite:assabile-tareq-al-suwaidan al-wassitiya/ep08 00:46:00}.
+
+## في «الوسطية» — حلقة الولاء والبراء
+أدار السويدان حلقة الولاء والبراء بين المسلمين — أخطر تطبيقات المفهوم — بعدة استطلاعات بينها البراء من دعاة السلام مع إسرائيل (63%) والحاجة لضبط المفهوم (63%) {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:04:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:48:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 01:03:30}. وبلورت الحلقة قاعدته: البراء من الفعل لا من الشخص {cite:assabile-tareq-al-suwaidan al-wassitiya/ep09 00:14:00}.
+
+## في «الوسطية» — حلقة حقوق الإنسان
+أدار السويدان حلقة ملف حقوق الإنسان في العالم العربي بثلاثة استطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:07:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep10 00:57:00} — وكانت الأبرز: 69% يرون المواثيق بلا قيمة و9% فقط يؤيدون التدخل الدولي.
+
+## في «الوسطية» — حلقة الهجرة إلى الغرب
+أدار السويدان حلقة «الهجرة إلى الغرب: أمل أم ألم» باستطلاعات وإحصاءات عرضها بنفسه عن هجرة العقول {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:09:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 00:38:00}. وختم بأن الحل بيئة جاذبة لا طاردة — حكم رشيد ودولة قانون ورفاه {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep11 01:20:00}.
+
+## في «الوسطية» — حلقة الفضائيات العربية
+قيّم السويدان تجربة الفضائيات بإحصاءات عرضها ⁦(79 منوعة، 37 حكومية، 52% عنف بفترات الأطفال)⁩ واستطلاعات {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:34:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 00:50:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep12 01:05:00}.
+
+## في «الوسطية» — حلقة فتوى الفضائيات
+أدار السويدان حلقة فتوى الفضائيات بعلماء واستطلاعات — ولاحظ مفاجأة أن 15% فقط يرجعون لأعلم الفضائيات مقابل 42% للمجامع {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 00:32:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep13 01:08:30}.
+
+## في «الوسطية» — حلقة تمكين المرأة
+أدار السويدان حلقة تمكين المرأة باستطلاعات — أبرزها أن 35% فقط يؤيدون الدعم الحكومي مطلقاً والأغلبية قصرته على غير السياسة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep14 00:55:00}.
+
+## في «الوسطية» — حلقة المرأة والاتفاقيات
+أدار السويدان حلقة المرأة العربية والاتفاقيات الدولية وختم بقاعدته: نأخذ ما يرفع الظلم عن المرأة ونرفض ما يصادم الدين — «وهذه الوسطية» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep15 01:17:00}.
+
+## في «الوسطية» — حلقة فقر الرموز النسائية
+أدار السويدان حلقة فقر الرموز النسائية عبر التاريخ — مؤكداً أن الهدف ليس إضعاف المرأة بل استكشاف كسر الحاجز {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:03:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep16 00:08:30}.
+
+## في «الوسطية» — حلقة المقاومة والإرهاب
+أدار السويدان حلقة المقاومة والإرهاب وختم بمعادلته: حق المقاومة للمحتل لا يجادل فيه اثنان، وتوجيه السلاح للمدنيين إرهاب — «سبب غضب من الله قبل لعنة الغرب» {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00}.
+
+## في «الوسطية» — حلقة أزمة الثقافة
+أدار السويدان حلقة أزمة الثقافة لدى الشباب باستطلاعات وأرقام — 71% أزمة حقيقية، وانقسام 47%/43% على أثر الفضائيات والإنترنت {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:06:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:35:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep18 00:59:00}.
+
+## في «الوسطية» — حلقة أزمة القراءة
+خصّص السويدان حلقة لأزمة القراءة لدى الشباب وأرقامها — 5% من العالم و1% من كتبه — واستطلاعاً وجد أن الانشغال أقل الأعذار (12%) مقابل سوء الكتابة {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:32:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:36:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep19 00:53:00}.
+
+## في برنامجه «علّمني التاريخ» — منهجه في قراءة التاريخ
+قدّم السويدان برنامج [[work/allamani-al-tarikh-program|«علّمني التاريخ»]] تسعاً وعشرين حلقة محفوظة في أرشيف أسابيل، يروي فيها سقوط الأندلس وثورة البشرات وسقوط بغداد وثورة الحسين وفتح القسطنطينية. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep01 00:02:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep13 00:01:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep28 00:02:00} ويقول إن اسم برنامجه ليس «قصص التاريخ» ولا «حكاياته»، لأن غايته العبرة لا القصة: فالتاريخ عنده لا «يعيد نفسه» بل «له قوانين تحكم الجميع، مقدمات ونتائج». {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep02 00:01:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep02 00:01:30} وقد جعل الحلقة الأولى كلها في هذه القوانين أو السنن؛ والمادة في [[concept/sunan-allah-fi-al-umam|سنن الله في الأمم]]. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep01 00:07:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep01 00:11:00}
+
+يطلب السويدان من مشاهديه أن يجهّزوا الأوراق والأقلام ويكتبوا لا القصة بل العبر والقوانين من ورائها، ويَعِد بأن يذكر من خلال القصص ستة عوامل رئيسية للنصر وستة عوائق، ثم يجمعها في آخر الحلقات. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep02 00:02:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep02 00:03:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep24 00:01:00} ويرى أن أسباب النصر «حيادية»، من أخذ بها انتصر مسلماً كان أو كافراً، ويقرأ سقوط بغداد من جانبين: كيف أخذ التتار بهذه الأسباب، وكيف تركها المسلمون. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep13 00:03:00} وينبّه إلى أن كثيراً من الناس يظنون واقعهم اليوم أسوأ ما مرّ بالمسلمين، وأن ذلك غير صحيح، فقد مرّت بهم أحوال أسوأ كما في قصة الأندلس. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep02 00:02:00}
+
+وفي حلقات الحسين يقول إنه رفض البيعة ليزيد من أجل مبدأ الشورى وألّا يُفرض على الأمة مرشح واحد، وإن الأصل في ذكراه «ليس البكاء» بل «الاقتداء». {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep20 00:01:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep20 00:01:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep20 00:02:30} ويستخلص من انفضاض أهل الكوفة أن العواطف وحدها لا تكفي لتغيير نظام، وأن التخطيط الدقيق وتوزيع المهام من أسباب النصر. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep22 00:01:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep22 00:07:00} وموقفه من هذه المسألة الخلافية منسوب إليه في صفحة [[person/husayn-ibn-ali|الحسين بن علي]] مع مواقف غيره.
+
+ويقرأ السويدان تاريخ الأمة قراءة كلية: يرى أنها صعدت نحو ألف سنة، ثم أخذت في التراجع أكثر من أربعمئة سنة مع لحظات مجد هنا وهناك، حتى بلغت «القاع» سنة 1967 حين فُقدت القدس، ثم بدأت تصحو. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep25 00:01:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep25 00:01:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep25 00:02:00} ويقول إنه متفائل بأن الأمة ستكون في عشرين أو ثلاثين سنة من الأمم العظمى إن التزمت قوانين النصر واجتنبت عوائقه، ويضرب مثلاً بأمة دُمّرت واحتُلّت بعد الحرب العالمية الثانية ثم صارت في عشرين سنة من الدول العظمى. {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep26 00:01:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep26 00:01:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep26 00:02:00} ويختم السلسلة بقصة فتح القسطنطينية لأنه أراد بعد القصص المأساوية أن ينتهي المشاهد «بشعور الأمل والتفاؤل»، ويقول إن القصة تغيّر القناعات وتغرس القيم وترسم القدوة، وإنه لا يقصد التسلية بل نشر فكر «كيف ننهض كأمة من جديد». {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep28 00:01:00} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep28 00:01:30} {cite:assabile-tareq-al-suwaidan alamani-al-tarikh/ep28 00:02:00}
+
+## في برنامجه «أسرار القيادة النبوية»: نماذجه في علم القيادة
+في برنامجه [[work/asrar-al-qiyada-al-nabawiyya-program|«أسرار القيادة النبوية»]] ⁦(ثلاثون حلقة على قناة الرسالة)⁩ يقول السويدان إنه درّس علم القيادة أكثر من خمس وعشرين سنة، وإنه صاغ من خبرته النظرية والعملية نماذج قال إن بعضها يُعرض لأول مرة، ثم طبّق عليها شواهد السيرة النبوية. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep01 00:04:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep09 00:01:00} ويذكر أنه أصدر حتى ذلك الحين ثلاثة كتب في علم القيادة وثمانية مقاييس فيه، وأنه رجع في إعداد البرنامج إلى أكثر من مئتي كتاب في السيرة. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep02 00:23:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep02 00:23:30} ويقول إن رسالته للدكتوراه في هندسة البترول كانت في التنبؤ، ويستدل بذلك على إمكان التنبؤ العلمي في التخطيط. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep23 00:04:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep23 00:05:00}
+
+ويعرض في البرنامج مؤسساته في إعداد القادة: مركز الرواد لإعداد القادة، ومعهد «مفكر» لإعداد قادة الفكر الذي يديره عبد العزيز العوضي، وأكاديمية صيفية لتدريب القادة يقول إن شباباً وفتيات من أكثر من ثلاثين دولة يشاركون فيها، ومشروع «التغيير الحضاري» الذي طرح فيه أكثر من سبعين مشروعاً في برنامجه «رياح التغيير» ويقول إن أكثر من عشرة آلاف شاب وفتاة انضموا إليه. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep28 00:23:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep28 00:28:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep29 00:03:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep29 00:03:30} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep29 00:05:30} ويقول في ختام البرنامج إن حياته تتركز في أمرين: الفكر والقيادة؛ فقد عرض الفكر في «علّمتني الحياة»، وخطة النهضة في «رياح التغيير»، وإعداد القادة في هذا البرنامج. {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep30 00:49:00} {cite:assabile-tareq-al-suwaidan asrar-al-qyada-al-nbawya/ep30 00:49:30}
+
+## في برنامجه «قصة وفكرة»: استخراج الأفكار من السير
+في [[work/kissa-wa-fikra-program|«قصة وفكرة»]] يقرن السويدان كل واحدة من تسع وعشرين شخصية بفكرة واحدة، ويأخذ شخصياته من التاريخ الإسلامي وتاريخ العالم معًا، سلمان الفارسي وأحمد بن حنبل بجانب غاندي وتروتسكي ومانديلا، وإذا كانت القصة من خارج الإسلام ختم في الغالب بموازنة الفكرة بتعاليم الإسلام. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep01 00:01:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep02 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep13 00:26:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep25 00:19:30} ويتحدث عن عمله في مواضع قليلة: في الحلقة العاشرة يذكر آخر أبحاثه في الإبداع ويعدّد صفات المبدعين التي وجدها، وفي الرابعة عشرة يقول إنه زار مكتبة السليمانية في إسطنبول، وفي الثامنة والعشرين يرد على من انتقد برنامجه السابق عن الوسطية بأنه «استفتى الجمهور». {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep10 00:05:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep10 00:26:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep14 00:13:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:04:30} والدروس التي يعود إليها في البرنامج: الإصلاح قبل الثورة، وخطر الاستبداد، وواجب العلماء تجاه الحكام، واختبار كل فكرة بالدليل. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep05 00:26:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep19 00:28:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep20 00:27:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep27 00:25:30}
+
+## في «أكاديمية إعداد القادة»: المدرّب وكتبه
+في الأكاديميتين القياديتين المصوّرتين اللتين عُقدتا في تركيا ⁦([[work/leadership-development-academy-1-program|الأولى]] و[[work/leadership-development-academy-2-program|الثانية]])⁩ يعلّم السويدان مدرّباً، ويتحدث عرضاً عن عمله هو. فيقول إنه درّب نحو ستين ألف شخص، وأسّس في حياته سبعين شركة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep01 00:07:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep01 00:39:00} ويجعل نسبة من يتغيّرون كلياً بعد الدورة أربعة في المئة عموماً، واثني عشر في المئة في دوراته هو. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep01 00:05:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep01 00:06:00} ويقول إنه تخرّج في هندسة البترول، لكنه ترك الهندسة إلى مجال آخر في الحياة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep02 00:07:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep02 00:36:30} ويقول إن إدارة قناة الرسالة كانت فرصة لم يصنعها لكنه كان مستعداً لها، وإنه خطّط للحصول على شهادة الآيزو قبل أن تبدأ القناة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep02 00:21:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 01:00:00} ويصف نفسه بأنه مدرّب مرخَّص في ممارسة ديسك. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep08 00:05:30} ويقول إن أول مرة تكلّم فيها أمام الناس كانت في نهاية المرحلة الثانوية، حين أجبره أستاذ على قراءة كلمة الصباح في الإذاعة المدرسية. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep06 00:50:00} ويقول أيضاً إنه عمل مع الحركة الإسلامية تسعاً وثلاثين سنة. {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep15 00:51:30}
+
+كتاب الدورة في الأكاديمية الأولى كتابه «التدريب والتدريس الإبداعي». {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep07 00:03:00} ويحيل المتدربين إلى كثير من أعماله:
+- «صناعة الثقافة» ومعه قرص «ماذا أقرأ»، أُعدّ بمعاونة ثمانية وخمسين مستشاراً؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep03 00:27:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep03 00:27:30}
+- «صناعة القائد»؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep04 00:43:30}
+- «صناعة الذكاء»؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep04 00:24:00}
+- «فلسطين: التاريخ المصوّر»، ويقول إنه بلغ مئة وخمسين ألف نسخة؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep02 00:42:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep04 00:12:00}
+- كتاب وألبوم مصوّر في فن الإلقاء؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep05 00:02:30}
+- «منهجية التغيير في المنظمات»؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep15 00:03:30}
+- «كيف تكتب خطة استراتيجية» و«اختبر معلوماتك الاستراتيجية»؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep13 00:02:30}
+- «مبادئ الإبداع» و«الإبداع خطوة خطوة»؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep12 00:25:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep12 00:26:30}
+- «قيادة السوق»، كتاب وألبوم يلخّص فيهما نظريات مايكل بورتر؛ {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:37:30}
+- ألبوم «رتّب حياتك». {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep02 00:08:30}
+ومن مؤسساته التي يذكرها مركز الرواد للشباب، و«أكاديمية الإبداع الأمريكية»، وهي مدرسة يقول إنه أنشأها في الكويت، وشركة «الإبداع الخليجي». {cite:assabile-tareq-al-suwaidan leadership-development-academy-1/ep01 00:04:00} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep05 00:13:30} {cite:assabile-tareq-al-suwaidan leadership-development-academy-2/ep04 00:41:00}
+
+## في برنامج طارق السويدان «نساء خالدات»
+قدّم [[person/tariq-al-suwaidan|طارق السويدان]] [[work/nesaa-khalidat-program|«نساء خالدات»]]، وهو برنامج تلفزيوني من محاضرات قصيرة عن نساء من تاريخ الأنبياء والتاريخ الإسلامي: من النساء حول إبراهيم وموسى وسليمان، إلى أزواج النبي وبناته، والصحابيات، ونساء البلاطين الأموي والعباسي. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep01 00:00:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep01 00:15:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep01 00:16:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:02:30} ويقول إنه اختار الموضوع في وقت يتجادل فيه الناس حول حقوق المرأة ويهاجم فيه بعضهم الإسلام في ما أعطاها، وإنه أراد أن يبيّن ذلك بالقصص والنماذج التاريخية لا بالمحاضرات النظرية. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep01 00:00:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep01 00:01:00} ويذكر أنه جمع مادته من خمسين أو ستين كتابًا فيها نماذج أكثر بكثير، وأنه اختار التنويع بدلًا من الاقتصار على الصحابيات والزاهدات. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:01:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep27 00:02:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep28 00:01:30} ويذكر عرضًا أنه عاش في أمريكا، ويحيل المشاهدين في التفاصيل إلى برنامجيه في قصص الأنبياء وفي السيرة. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep20 00:04:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:00:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep19 00:14:00}

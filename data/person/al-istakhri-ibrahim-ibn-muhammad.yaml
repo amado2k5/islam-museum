@@ -1,0 +1,30 @@
+id: person/al-istakhri-ibrahim-ibn-muhammad
+class: person
+label: { ar: "الإصطخري إبراهيم بن محمد", en: "Al-Istakhri, Ibrahim ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن محمد الفارسي الكرخي الإصطخري" }
+gender: male
+roles: [geographer, scientist]
+traditions: [sunni]
+died: { edtf: "0957", hijri: "0346", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "جغرافي ورحّالة فارسي، زار أقطارا كثيرة، والتقى في بغداد بالجغرافي ابن حوقل."
+  en: "A Persian geographer and traveller who visited many lands. He met the geographer Ibn Hawqal in Baghdad."
+wings: [people]
+themes: [geography-and-cartography]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+story_roles:
+  - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص108"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch52
+relations:
+  - { type: lived_in, target: place/fars, note: "Place association from the person's nisba/name (الفارسي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

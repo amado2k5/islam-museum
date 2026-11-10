@@ -1,0 +1,29 @@
+id: person/ibrahim-afshar
+class: person
+label:
+  ar: "إبراهيم شاه الأفشاري"
+  en: "Ibrahim Shah Afshar"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لإبراهيم شاه الأفشاري، الأفشاري الذي اعتلى العرش سنة ١٧٤٨م بين عادل شاه وشاهرخ؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibrahim Shah Afshar, the Afsharid who briefly held the throne in 1748 between Adil Shah and Shahrukh; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/colonial-era]
+died: { edtf: "1748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+relations:
+  - { type: died_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: buried_in, target: place/mashhad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q197731
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0013
+status:
+  review: draft
+  completeness: 1

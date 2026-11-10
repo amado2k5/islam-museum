@@ -1,0 +1,34 @@
+---
+id: concept/hidaya
+lang: en
+source_lang: ar
+translators: []
+---
+
+## Summary
+Sha'rawi distinguishes two kinds of guidance: the guidance of indication, by which God has shown the way to all creation, and the guidance of help and ease, given to those who believe and respond. On this basis he reads the verses that ask how God could guide people who disbelieved after believing ([[passage/quran-3-86|Al Imran 86]], [[passage/quran-3-87|Al Imran 87]]) {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1597}.
+
+## Guidance of indication
+Sha'rawi compares indication to road signs, which show the way to the goal but do not take a traveller by the hand. God has guided all people in this sense, believer and disbeliever alike, by showing them the law {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1597}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1598}.
+
+## Guidance of help
+Whoever accepts the law and believes in it, Sha'rawi says, is given further guidance through help and ease, and God gives him the sweetness of obedience so that he turns to it with energy. He illustrates this with a traveller asking a policeman the way to Alexandria. If the traveller thanks him, the policeman gives more direction and help; if he denies him, the policeman ignores him {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1598}.
+
+## The question in the verse
+Sha'rawi holds that the question "how could God guide" denies the guidance of help and not the guidance of indication, since help requires an act on the part of the one helped, and the disbeliever has done nothing to earn it. He ends by saying God does not guide the wrongdoers, meaning those who associate partners with God, which he calls the original wrong {cite:tafsir-sharawi-khawatir-scan-vol-2 p.1599}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1601}{cite:tafsir-sharawi-khawatir-scan-vol-2 p.1602}.
+
+## Note on this entry
+This is Sha'rawi's reading alone, taken from a scanned copy whose edition is not yet verified, and it is presented under his name. The division of guidance into indication and help is a question in kalam, and those works have not yet been checked (needs_source). In this context Sha'rawi also mentions [[person/abdullah-ibn-salam|Abdullah ibn Salam]], who knew the Prophet from the earlier books. See also [[concept/fadl-allah|God's bounty]] and [[concept/nafs-lawwama|The self-reproaching soul]].
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 4)
+
+The Sheikh says God has made two kinds of guidance for people: guidance of indication and guidance of assistance. People, he says, are of two kinds, and some enter through guidance of indication and are then granted guidance of assistance {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:01:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:01:30}. The Sheikh holds that guidance of indication belongs to people of thought, who ask themselves whether it is reasonable that God should give them wealth and standing and that they should use them to harm their health, to lead people astray, or to kill a fellow human being {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:07:30}. He says that indication tells a person to stop, and that when he knocks at its door he enters a second door called guidance of assistance. In this connection he cites a divine hadith whose sense is that God receives the repentant one from afar, welcoming him {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:08:00}. The Sheikh says a person may wake after the dawn prayer with an open chest before any good news or promotion has reached him, and he explains this as God having given him guidance of assistance. Guidance, he says, is the first provision God gives a servant, and with it the opening of the chest begins {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:08:30} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep04 00:09:00}.
+
+## In al-Tabari's commentary: "guide us" as steadfast help
+Al-Tabari reads "ihdina al-sirat al-mustaqim" as "make us steadfast in it", and gives a report from Ibn Abbas, through Abu Rawq and al-Dahhak, that it means "inspire us to the guiding path", which he takes to be the same as help. It is the believer asking his Lord for help to keep to obedience in what remains of his life, not for what has passed. {cite:tafsir-tabari-shakir-v01 p. 166} {cite:tafsir-tabari-shakir-v01 p. 167}
+He shows from verses of Arabic and from the Qur'an, [[passage/quran-16-121|al-Nahl 121]] and [[passage/quran-7-43|al-A'raf 43]], that guidance in Arabic can mean help. He rejects the reading "increase our guidance", since that would ask for obligations not yet imposed or for more help for work already done, neither of which is asked. {cite:tafsir-tabari-shakir-v01 p. 167} {cite:tafsir-tabari-shakir-v01 p. 168}
+He answers the reading "lead us to the way of Paradise" by citing [[passage/quran-37-23|al-Saffat 23]], where the same word is used of leading people to the Fire, and holds that the exegetes from the Companions and the Successors agree that the sirat here means something other than that reading. {cite:tafsir-tabari-shakir-v01 p. 168} {cite:tafsir-tabari-shakir-v01 p. 169}
+
+## Tabari's commentary: "guidance for the God-fearing"
+Tabari takes "hudan" in the verse to be a verbal noun from the phrase "I guided him to the road", meaning to show him the way and make it plain. Citing Ibn Abbas, Ibn Mas'ud and others, he gives its sense as "light for the God-fearing" {cite:tafsir-tabari-shakir-v01 p. 230}. He asks whether the Book is light only for the God-fearing and right guidance only for believers. He answers that if it were light for others, God would not single out the God-fearing as its guidance; it would embrace all warners. It is guidance for the God-fearing, healing for what is in the believers' breasts, deafness in the ears of the deniers, blindness to the eyes of those who reject it, and a proof from God against the disbelievers. The believer is guided by it, and the disbeliever is refuted by it {cite:tafsir-tabari-shakir-v01 p. 230}.
+He reports from Hasan al-Basri that the God-fearing are those who guard against what is forbidden and perform what is obligatory {cite:tafsir-tabari-shakir-v01 p. 232}, and from Ibn Abbas that they are those who fear God's punishment for abandoning the guidance they know, and hope for his mercy by affirming what came with it {cite:tafsir-tabari-shakir-v01 p. 233}. He also sets out the grammatical options for "hudan", between the accusative of separation and the nominative of praise, and criticises a view attributed to a Kufan grammarian about the status of "alif lam mim" {cite:tafsir-tabari-shakir-v01 p. 231}{cite:tafsir-tabari-shakir-v01 p. 232}. See [[passage/quran-2-2|Al-Baqara 2]].

@@ -1,0 +1,78 @@
+id: exhibit/path-festival-year
+class: exhibit
+kind: trail
+label:
+  ar: مواسم المسلم
+  en: The Muslim's Seasons
+summary:
+  ar: 'مسار في مواسم السنة: رمضان وليلة القدر، والعيدان، وعاشوراء، والمولد، والأوراس.'
+  en: A trail through the year's seasons.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: رمضان
+    en: Ramadan
+  body:
+    ar: 'شهر الصوم والقرآن: غاية السنة.'
+    en: 'شهر الصوم والقرآن: غاية السنة.'
+  features:
+  - practice/sawm-ramadan
+  - practice/laylat-al-qadr
+  - question/why-fast-in-ramadan
+- title:
+    ar: العيدان
+    en: The eids
+  body:
+    ar: فطر بعد رمضان وأضحى في الحج.
+    en: فطر بعد رمضان وأضحى في الحج.
+  features:
+  - practice/eid-al-fitr
+  - practice/eid-al-adha
+  - question/what-are-the-eids
+- title:
+    ar: عاشوراء
+    en: Ashura
+  body:
+    ar: 'العاشر من المحرم: صوم عند السنة وحزن عند الشيعة.'
+    en: 'العاشر من المحرم: صوم عند السنة وحزن عند الشيعة.'
+  features:
+  - question/what-is-ashura
+  - place/karbala
+- title:
+    ar: المولد
+    en: The Mawlid
+  body:
+    ar: 'ذكرى مولده: مدائح واحتفالات وخلاف فقهي.'
+    en: 'ذكرى مولده: مدائح واحتفالات وخلاف فقهي.'
+  features:
+  - practice/mawlid-al-nabi
+  - question/what-is-mawlid
+- title:
+    ar: الأوراس
+    en: The urs
+  body:
+    ar: مواسم الأولياء في مصر والهند.
+    en: مواسم الأولياء في مصر والهند.
+  features:
+  - practice/urs
+  - practice/dhikr
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

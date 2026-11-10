@@ -1,0 +1,24 @@
+id: person/muhammad-ibn-abd-allah-ibn-tahir
+class: person
+label: { ar: "محمد بن عبد الله بن طاهر" }
+summary:
+  ar: "أمير بغداد، خلع عليه المعتز خلعة الملك وقلده سيفين ثم عزله {cite:tarikh-khulafa-minhaj-1434 p. 557}. وعند المسعودي هنئ بقتل يحيى بن عمر فدخل عليه أبو هاشم الجعفري فقال إنك لتهنأ بقتل رجل لو كان رسول الله حياً لعزي به ثم قال يا بني طاهر كلوه وبياً إن لحم النبي غير مريء، فأمر ابن طاهر بإنزال الرأس لما رأى من الناس {cite:muruj-al-dhahab p. 530-531}"
+  en: "The amir of Baghdad; al-Mu'tazz gave him the royal khil'a and girded him with two swords, then deposed him {cite:tarikh-khulafa-minhaj-1434 p. 557}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch29
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "824", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab] }

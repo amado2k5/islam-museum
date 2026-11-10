@@ -1,0 +1,20 @@
+id: place/italy
+class: place
+kind: region
+label: { ar: "إيطاليا", en: "Italy" }
+summary:
+  ar: "شبه الجزيرة الإيطالية؛ دخل المسلمون جنوبها وصقليتها عصوراً."
+  en: "The Italian peninsula; Muslims held its south and Sicily for centuries."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [42.5, 12.5]
+coordinate_precision: approx
+coordinate_note: "Identified location; flagged for gazetteer verification."
+external_ids: { wikidata: "Q38" }
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Created so person nisba/name associations resolve on the map."

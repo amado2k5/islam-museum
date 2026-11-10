@@ -1,0 +1,16 @@
+id: passage/muslim-0667
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "667"
+label: { ar: "مسلم 667 — مثل الصلوات الخمس كمثل نهر جار على باب أحدكم", en: "Muslim 667 — The five prayers are like a river at your door" }
+text: "قال رسول الله: «أرأيتم لو أن نهراً بباب أحدكم يغتسل منه كل يوم خمس مرات، هل يبقى من درنه شيء؟» قالوا: لا يبقى من درنه شيء؛ قال: «فذلك مثل الصلوات الخمس، يمحو الله بهن الخطايا»"
+summary:
+  ar: "رواية أبي هريرة وجابر بن عبد الله في كتاب الطهارة من صحيح مسلم؛ مثل النهر الغمر للصلوات الخمس في محو الخطايا — من أشهر أمثال الصلاة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب المساجد، باب استحباب المشي إلى المسجد (طبعة دار التأصيل، الحديث 1554؛ ترقيم عبد الباقي المعروف 667)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

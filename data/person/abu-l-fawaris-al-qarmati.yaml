@@ -1,0 +1,21 @@
+id: person/abu-l-fawaris-al-qarmati
+class: person
+label: { ar: "أبو الفوارس القرمطي", en: "Abu l-Fawaris al-Qarmati" }
+summary:
+  ar: "قرمطي أتي به من ناحية الكوفة فأمر المعتضد بقتله بعد أن قطعت يداه ورجلاه وصلب إلى جانب وصيف الخادم ثم حول إلى ناحية الكنائس، وأشاعت العامة أنه قال لمن حضر قتله إني راجع بعد أربعين يوماً فكان خلائق يجتمعون تحت خشبته يحصون الأيام ويقتتلون حتى نودي بتفريقهم {cite:muruj-al-dhahab p. 629-630}."
+  en: "The Qarmatian whose mutilation and crucifixion spawned the forty-day-return craze among Baghdad's crowds {cite:muruj-al-dhahab p. 629-630}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "985~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir, al-Kamil; al-Tabari (continuators)" }
+relations:
+  - { type: died_in, target: place/baghdad, note: "Qarmatian brought from the Kufa side; mutilated and crucified on al-Mu'tadid's order in Baghdad.", sources: [source/muruj-al-dhahab], confidence: medium }

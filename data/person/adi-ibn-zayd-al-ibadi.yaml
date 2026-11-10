@@ -1,0 +1,22 @@
+id: person/adi-ibn-zayd-al-ibadi
+class: person
+label: { ar: "عدي بن زيد العبادي", en: "'Adi ibn Zayd al-'Ibadi" }
+summary:
+  ar: "شاعر الحيرة النصراني، له في قتل سابور للنضيرة بنت الضيزن وما كان منها من الغدر بأبيها وقومها وإرشاد سابور إلى دخول الحصن قصيدته المشهورة والحضر صبت عليه داهية {cite:muruj-al-dhahab p. 553-554}."
+  en: "The Christian poet of al-Hira whose famous ode on Shapur's killing of al-Nadira — 'A calamity poured over al-Hadr' — mourns her treachery and its price {cite:muruj-al-dhahab p. 553-554}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "540~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani); EI2" }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani (Kitab al-Aghani); EI2" }
+relations:
+  - { type: lived_in, target: place/al-hira, note: "From text: شاعر الحيرة النصراني", sources: [source/muruj-al-dhahab], confidence: low }

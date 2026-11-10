@@ -1,0 +1,29 @@
+id: person/nazira-ibrahim-efendi
+class: person
+label:
+  ar: "نظيرة إبراهيم أفندي"
+  en: "Nazira Ibrahim Efendi"
+roles: [writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لنظيرة إبراهيم أفندي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nazira Ibrahim Efendi, the Ottoman writer (d. 1774); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
+  - { type: died_in, target: place/stara-zagora, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q170415)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136193866
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0096
+status:
+  review: draft
+  completeness: 1

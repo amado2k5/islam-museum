@@ -1,0 +1,38 @@
+id: building/al-kadhimiya-mosque
+class: building
+kind: shrine
+label:
+  ar: مشهد الكاظمية
+  en: Al-Kadhimiya Mosque (Kazimayn shrine)
+  ur: روضہ کاظمین
+summary:
+  ar: "مشهد الكاظمية ببغداد، مقام على قبر موسى الكاظم ومحمد الجواد؛ يذكر ابن قولويه في كامل الزيارات «مدفنه بالكاظمية في الرواق الشريف» ويخصّص بابًا لزيارة الكاظم والجواد {cite:kamil-ziyarat}."
+  en: "The Kadhimiya shrine of Baghdad, raised over the graves of Musa al-Kazim and Muhammad al-Jawad; Ibn Quluwayh's Kamil al-Ziyarat locates the grave 'in al-Kadhimiya in the noble riwaq' and dedicates a chapter to their visitation {cite:kamil-ziyarat}."
+wings: [objects]
+themes: [sacred-space-and-pilgrimage, sects-and-schools]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+external_ids: { wikidata: "Q154116" }
+sources: [source/kamil-ziyarat]
+perspectives:
+  - tradition: sunni
+    id: sunni-view
+    stance: { ar: "الكاظم والجواد من أئمة أهل البيت ومن الصحابة والتابعين تبجيلهم محل اتفاق" }
+    summary: { ar: "مدفن اثنين من أعلام أهل البيت ببغداد قريبًا من مقام موسى بن جعفر عند أهل السنة {cite:kamil-ziyarat}." }
+    sources: [source/kamil-ziyarat]
+  - tradition: academic
+    id: academic-view
+    stance: { ar: "نشأت الكاظمية حول مدفني الإمامين التاسع والعاشر من أئمة الإثني عشرية" }
+    summary: { ar: "المدينة والمشهد نموذج نموّ الحواضر المشهدية في بغداد {cite:kamil-ziyarat}." }
+    sources: [source/kamil-ziyarat]
+  - tradition: shia-twelver
+    id: twelver-view
+    stance: { ar: "مشهد الإمامين الكاظم والجواد ومن أشرف المقامات" }
+    summary: { ar: "تخصّص له كتب الزيارات أبوابًا مفصلة كما في كامل الزيارات {cite:kamil-ziyarat}." }
+    sources: [source/kamil-ziyarat]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q154116; kamil-ziyarat OCR lines 430, 12265 (باب زيارات الكاظم والجواد)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

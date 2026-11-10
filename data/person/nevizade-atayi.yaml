@@ -1,0 +1,37 @@
+id: person/nevizade-atayi
+class: person
+label:
+  ar: "نوي زاده أتايي"
+  en: "Nevizade Atayi"
+roles: [poet, qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لنوي زاده أتايي، شاعر وقاضٍ البلاط العثماني القرن السابع عشر، توفي سنة ١٦٣٥م؛ تذكره كتب الأدب ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Nevizade Atayi, the seventeenth-century Ottoman court poet and judge, d. 1635; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1583", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Ata'i); TDV Islam Ansiklopedisi" }
+died: { edtf: "1635", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('Ata'i); TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+  - { type: lived_in, target: place/babaeski, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q268619)" }
+  - { type: lived_in, target: place/varna, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q6506)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6040912
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0063
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

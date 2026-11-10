@@ -1,0 +1,16 @@
+id: passage/muslim-muqaddima-isnad
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "muqaddima"
+label: { ar: "مقدمة مسلم — الإسناد من الدين", en: "Muslim's prologue — the isnad is part of the religion" }
+text: "سمعت عبد الله بن المبارك يقول: «الإسناد من الدين، ولولا الإسناد لقال من شاء ما شاء»"
+summary:
+  ar: "مقولة عبد الله بن المبارك في مقدمة صحيح مسلم عن وجوب الثقة في النقل؛ جملة تأسيسية لعلم الحديث كله — لولا السند لقال من شاء ما شاء."
+relations:
+  - { type: mentions, target: person/abd-allah-ibn-al-mubarak, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/isnad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: work/sahih-muslim, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، المقدمة (طبعة دار التأصيل)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); excerpt checked against the scan" }

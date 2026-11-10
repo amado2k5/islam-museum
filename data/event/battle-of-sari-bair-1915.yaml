@@ -1,0 +1,23 @@
+id: event/battle-of-sari-bair-1915
+class: event
+kind: battle
+label: { ar: "معركة ساري باير", en: "Battle of Sari Bair" }
+summary:
+  ar: "بطاقة أولية لمعركة ساري باير سنة ١٩١٥م، أعنف معارك غاليبولي على المرتفعات؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Sari Bair in 1915, the fiercest Gallipoli fighting on the heights; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q1775801
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

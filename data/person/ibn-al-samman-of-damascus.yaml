@@ -1,0 +1,30 @@
+id: person/ibn-al-samman-of-damascus
+class: person
+label:
+  ar: "ابن السمان الدمشقي"
+  en: "Ibn al-Samman of Damascus"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لابن السمان الدمشقي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibn al-Samman of Damascus; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+relations:
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q42307930
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

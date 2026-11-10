@@ -1,0 +1,31 @@
+id: concept/al-hadith-al-sahih
+class: concept
+kind: term
+label: { ar: "الحديث الصحيح", en: "The sound report (sahih)", ur: "صحیح حدیث" }
+term: { ar: "الصحيح لذاته، والصحيح لغيره", en: "al-sahih li-dhatihi, al-sahih li-ghayrihi" }
+summary:
+  ar: "الصحيح لذاته عند ابن حجر خبر الآحاد بنقل عدل تام الضبط، متصل السند، غير معلّل ولا شاذ؛ وتتفاوت رتبه بتفاوت هذه الأوصاف، ومنها ما أطلق عليه بعض الأئمة أصح الأسانيد؛ والصحيح لغيره هو الحسن لذاته إذا تعددت طرقه؛ ويقدّم ابن حجر صحيح البخاري ثم صحيح مسلم ثم ما وافق شرطهما {cite:nuzhat-al-nazar-itr-bushra-2011 p. 52-60}."
+  en: "For Ibn Hajar the report sound in itself (sahih li-dhatihi) is a solitary report transmitted by upright narrators of complete accuracy, with a connected chain, free of hidden defect and of anomaly; its ranks vary with the strength of these qualities, the highest being what some masters called the soundest chains; the report sound through another (sahih li-ghayrihi) is a report good in itself whose chains are multiplied; he ranks al-Bukhari's Sahih first, then Muslim's, then what meets their conditions {cite:nuzhat-al-nazar-itr-bushra-2011 p. 52-60}."
+  ur: "ابن حجر کے نزدیک صحیح لذاتہ وہ خبرِ واحد ہے جسے عادل، کامل الضبط راوی متصل سند سے نقل کریں، اور وہ معلل اور شاذ نہ ہو؛ ان اوصاف کی قوت کے تفاوت سے اس کے مراتب مختلف ہیں، اور اعلیٰ مرتبہ وہ ہے جسے بعض ائمہ نے اصح الاسانید کہا؛ صحیح لغیرہ وہ حسن لذاتہ ہے جس کے طرق متعدد ہوں؛ وہ صحیح بخاری کو پہلے، پھر صحیح مسلم، پھر ان کی شرط پر پوری اترنے والی کو رکھتے ہیں {cite:nuzhat-al-nazar-itr-bushra-2011 p. 52-60}۔"
+perspectives:
+  - tradition: sunni-shafii
+    id: ibn-hajar-bukhari-first
+    standing: main
+    stance: { ar: "صحيح البخاري أصح، وهو قول الجمهور", en: "Al-Bukhari's Sahih is the sounder; the majority view" }
+    summary: { ar: "يقدّم ابن حجر صحيح البخاري لاشتراطه ثبوت اللقاء، ولقلة المتكلّم فيهم من رجاله، ولقلة ما انتُقد عليه.", en: "Ibn Hajar ranks al-Bukhari's Sahih first for its requirement of proven meeting, its fewer criticised narrators and its fewer criticised reports." }
+    holders: [person/ibn-hajar-al-asqalani]
+    sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+  - tradition: sunni
+    id: muslim-preferred-as-reported
+    standing: secondary
+    stance: { ar: "تفضيل صحيح مسلم كما يُنقل عن أبي علي النيسابوري وبعض المغاربة", en: "Preference for Muslim's Sahih, as reported of Abu 'Ali al-Naysaburi and some Maghribis" }
+    summary: { ar: "يحمل ابن حجر قول أبي علي على نفي الأصحية لا المساواة، وتفضيل المغاربة على حسن السياق والترتيب.", en: "Ibn Hajar reads Abu 'Ali's words as denying superiority, not equality, and the Maghribis' preference as concerning presentation and arrangement." }
+    sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+relations:
+  - { type: part_of, target: concept/mustalah-al-hadith, sources: [source/nuzhat-al-nazar-itr-bushra-2011] }
+wings: [ideas, words]
+themes: [scripture-and-its-sciences]
+regions: [global]
+provenance: { layer: own-research, source: "Nuzhat al-Nazar, ed. 'Itr, al-Bushra 2011, pp. 21, 52–61 (printed)", generated_by: "Claude Code (OCR-harvest worker K)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/nuzhat-al-nazar-itr-bushra-2011]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker K)" }

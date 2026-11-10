@@ -1,0 +1,32 @@
+id: person/abd-al-rahman-al-tha-alibi
+class: person
+label: { ar: "عبد الرحمن الثعالبي", en: "Abd al-Rahman al-Tha'alibi" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن محمد بن مخلوف الثعالبي الجزائري" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1385", hijri: "0786", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1470", hijri: "0875", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم جزائري ينسب إلى قبيلة الثعالبة التي سكنت سهل متيجة."
+  en: "An Algerian scholar linked to the Tha'aliba tribe, who lived on the Mitija plain."
+wings: [people]
+themes: [scripture-and-its-sciences, literature]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+external_ids: { wikidata: "Q3483161" }
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص807"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+relations:
+  - { type: lived_in, target: place/algiers, note: "Place association from the person's nisba/name (الجزائري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

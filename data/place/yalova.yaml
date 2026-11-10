@@ -1,0 +1,21 @@
+id: place/yalova
+class: place
+kind: city
+label: { ar: "يالوة", en: "Yalova", ur: "یالوہ" }
+summary:
+  ar: "مدينة في تركيا."
+  en: "City in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [40.655555555556, 29.275]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q205942" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q205942 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,16 @@
+id: passage/muslim-2560
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2560"
+label: { ar: "مسلم 2560 — لا يحل لمسلم أن يهجر أخاه فوق ثلاث ليال", en: "Muslim 2560 — A Muslim may not forsake his brother beyond three nights" }
+text: "قال رسول الله: «لا يحل لمسلم أن يهجر أخاه فوق ثلاث ليال، يلتقيان فيعرض هذا ويعرض هذا، وخيرهما الذي يبدأ بالسلام»"
+summary:
+  ar: "رواية أبي أيوب الأنصاري في باب تحريم الهجر فوق ثلاث بلا عذر من صحيح مسلم؛ يحدد غاية الهجر المشروع ويجعل بادئ السلام خير المتلاقيين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-ayyub-al-ansari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب تحريم الهجر فوق ثلاث بلا عذر شرعي (النسخة المرقمة هامشياً، الحديث ٦٦٩٨؛ ترقيم عبد الباقي المعروف 2560)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

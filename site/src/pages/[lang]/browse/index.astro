@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { BROWSE_CLASSES, browseSegment, countOf } from "../../../lib/browse";
+import { num } from "../../../lib/nav";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+---
+<BaseLayout lang={lang} title={T.browse.title} description={T.browse.lede} path={`/${lang}/browse/`}>
+  <PageHeader title={T.browse.title} lede={T.browse.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.browse.title }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:24px 20px">
+    <ul class="grid-cards">
+      {BROWSE_CLASSES.map((c) => (
+        <li><a class="card" href={`/${lang}/browse/${browseSegment(c)}/`}><h2 class="card-title">{T.class[c]}</h2><span>{num(countOf(c), lang)} {T.browse.count}</span></a></li>
+      ))}
+    </ul>
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>

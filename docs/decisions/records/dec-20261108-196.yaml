@@ -1,0 +1,41 @@
+id: dec-20261108-196
+kind: "decision"
+date: "2026-11-08"
+expires_at: "2027-11-08"
+question_hash: a18c826954a5
+lane: "web-sources"
+class: "process"
+modality: "website"
+domain: "sources"
+mode: "conservative"
+question: "Should the Qatar Museums unified collections platform (collections.qm.org.qa — hosts the Museum of Islamic Art Doha object database with faceted search and per-object pages at /objects/<slug>, plus other QM collections) be onboarded as a citable source family for the object backlog, and at what tier? Assessment 2026-11-08: authority strong (Qatar Museums national institution); citability good (stable object slugs, e.g. /objects/lusterware-bowl-mia201373); terms: terms page at qm.org.qa/en/terms-and-conditions — posture to record as facts-only unless it clearly permits reuse; structure: server-rendered faceted search with pagination, JSON state embedded in pages, no documented public API found yet; coverage fit good (MIA Doha is a major Islamic collection vs 542 object records); corroboration high (provenance, dated works); Arabic-first moderate; longevity strong."
+options:
+  - "Tier 1 citable family, facts-only: cite {cite:qatar-museums <object-slug>}"
+  - "Tier 2 citable family, facts-only"
+  - "Tier 3 pointer only"
+  - "Do not register"
+evidence:
+  - "collections.qm.org.qa object listing fetched 200 on 2026-11-08 (1.2MB page, 24 records per page, museum=museum-of-islamic-art filter)"
+  - "docs/agents/source-families.md Tier 1 lists MIA Doha among per-collection museum candidates"
+status: decided
+step: rule
+decision: "Arabic first (label.ar + summary.ar required); English and Urdu in the same commit"
+confidence: 0.9
+reversible: true
+rationale: "Answered by a standing repository rule (rule-language-ar-first): docs/language.md + AGENTS.md."
+rule: "docs/language.md + AGENTS.md"
+rule_id: "rule-language-ar-first"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-language-ar-first
+chain:
+  depth: 0
+  root_id: "rule:rule-language-ar-first"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "82ffd8fd9776ff4c"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-language-ar-first"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}

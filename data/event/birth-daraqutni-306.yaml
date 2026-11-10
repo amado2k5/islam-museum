@@ -1,0 +1,27 @@
+id: event/birth-daraqutni-306
+class: event
+kind: birth
+label:
+  ar: "ولادة الدارقطني ببغداد، ذو القعدة ٣٠٦هـ"
+  en: "Al-Daraqutni is born in Baghdad, Dhu al-Qa'da 306/918"
+  ur: "دارقطنی کی ولادت بغداد میں، ذوالقعدہ 306ھ/918ء"
+summary:
+  ar: "وُلد علي بن عمر بن أحمد بن مهدي بن مسعود بن النعمان بن دينار بن عبد الله أبو الحسن الدارقطني ببغداد لخمس خلون من ذي القعدة سنة ست وثلاثمائة، وقيل سنة خمس، والدارقطني نسبة إلى دار القطن محلة ببغداد {cite:muntazam-ibn-al-jawzi j.7 p.184} {cite:tarikh-islam-dhahabi p.101} {cite:shadharat-dhahab p.116}."
+  en: "'Ali ibn 'Umar ibn Ahmad ibn Mahdi ibn Mas'ud ibn al-Nu'man ibn Dinar ibn 'Abdallah Abu al-Hasan al-Daraqutni was born in Baghdad on 5 Dhu al-Qa'da 306 — the year 305 is also given — his nisba pointing to Dar al-Qutn, a quarter of Baghdad {cite:muntazam-ibn-al-jawzi j.7 p.184} {cite:tarikh-islam-dhahabi p.101} {cite:shadharat-dhahab p.116}."
+  ur: "علی بن عمر بن احمد بن مہدی بن مسعود بن النعمان بن دینار بن عبداللہ ابوالحسن دارقطنی بغداد میں 5 ذوالقعدہ 306ھ کو پیدا ہوئے — سال 305ھ بھی منقول ہے — اور ان کی نسبت بغداد کے محلہ دارالقطن کی طرف ہے {cite:muntazam-ibn-al-jawzi j.7 p.184} {cite:tarikh-islam-dhahabi p.101} {cite:shadharat-dhahab p.116}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0918-11~", hijri: "0306-11", calendar: julian, precision: month, status: tradition, derived: true, note: "لخمس خلون من ذي القعدة 306 {cite:muntazam-ibn-al-jawzi j.7 p.184}؛ وقيل سنة خمس {cite:muntazam-ibn-al-jawzi j.7 p.183}؛ التحويل مشتق.", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+relations:
+  - { type: occurred_at, target: place/baghdad, note: "دار القطن محلة ببغداد", sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-daraqutni, role: "المولود", sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi] }
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-islam-dhahabi, source/shadharat-dhahab]
+provenance:
+  layer: own-research
+  source: "Ibn al-Jawzi, al-Muntazam (Haydarabad 1357) j.7 s.a. 385, printed pp. 183-184 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 385, printed p. 101 (harvest OCR); Ibn al-Imad, Shadharat al-Dhahab s.a. 385, printed p. 116 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-daraqutni-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

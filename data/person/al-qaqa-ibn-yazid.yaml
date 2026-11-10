@@ -1,0 +1,29 @@
+id: person/al-qaqa-ibn-yazid
+class: person
+label: { ar: "القعقاع بن يزيد", en: "al-Qa'qa' ibn Yazid" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "القعقاع بن يزيد، ممن كان يجلس مع ابن شبرمة وفضل والحارث العكلي والمغيرة بالليل يتذاكرون الفقه {cite:tabaqat-fuqaha-abbas-1981 p. 45}. يذكر محقق الطبعة أن بعض النسخ والطبعة الأخرى تقرأ «القمقاع بن حكيم»، وأن القعقاع بن حكيم من أهل المدينة {cite:tabaqat-fuqaha-abbas-1981 p. 44}."
+  en: "al-Qa'qa' ibn Yazid, one of those who used to sit at night with Ibn Shubruma, Fadl, al-Harith al-Ukli and al-Mughira, discussing jurisprudence {cite:tabaqat-fuqaha-abbas-1981 p. 45}. The editor notes that some manuscripts and the other edition read «al-Qamqa' ibn Hakim», and that al-Qa'qa' ibn Hakim was from Medina {cite:tabaqat-fuqaha-abbas-1981 p. 44}."
+wings: [people]
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch120
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+died: { edtf: "730~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: from Medina", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }

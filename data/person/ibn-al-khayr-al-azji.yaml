@@ -1,0 +1,51 @@
+id: person/ibn-al-khayr-al-azji
+class: person
+label: { ar: "ابن الخير العزجي", en: "Ibn al-Khayr al-Azji" }
+names:
+  - { value: "الحافظ أبو عبد الله محمد بن أحمد بن محمد بن علي ابن الخير العزجي الإشبيلي ثم الديمرسي الشافعي المقرئ", kind: full }
+born: { edtf: "1158", hijri: "0553", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثلاث وخمسين وخمسمائة {cite:shadharat-dhahab p. 248}." }
+died: { edtf: "1250-08~", hijri: "0648-04-17~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في سابع عشر ربيع الآخر من سنة ثمان وأربعين وستمائة {cite:shadharat-dhahab p. 249}." }
+summary:
+  ar: "الحافظ المقرئ؛ ولد سنة ثلاث وخمسين وخمسمائة وسمع من أبي الحسن القابسي وابن الباجي وابن عطية وجماعة، وناب في القضاء في بلداء وكان نظار الأوقاف، وكان معروفاً بالديانة والصدق والعلم {cite:shadharat-dhahab p. 248-249}."
+  en: "Hafiz and muqri' of Seville then Dumayra (b. 553, d. 17 Rabi' II 648) — deputy-qadi and overseer of the awqaf, known for piety and precision {cite:shadharat-dhahab p. 248-249}."
+gender: male
+roles: [scholar, jurist, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: lived_in, target: place/seville, confidence: low, note: "Associated with Seville per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+faith:
+  - value: sunni-shafii
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 648)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch76
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+  - job: job/qadi
+    kind: episodic
+    status: historical
+    note: "The record's summary, citing Shadharat al-Dhahab pp. 248–249, says he deputised in judgment at Balda. That page was not re-read in this batch. No place record is linked."
+    sources: [source/shadharat-dhahab]
+  - job: job/nazir-al-waqf
+    kind: episodic
+    status: debated
+    note: "The record's summary, citing Shadharat al-Dhahab pp. 248–249, calls him nuzzar al-awqaf. That page was not re-read in this batch. The Ottoman Evkaf entry uses nazir for the supervisor of the trustee, while the mutawalli article says that in some lands nazir is the trustee's own title. Both readings are kept; the office is not decided."
+    sources: [source/shadharat-dhahab]

@@ -1,0 +1,29 @@
+id: person/mansur-ad-din-of-adal
+class: person
+label:
+  ar: "منصور الدين"
+  en: "Mansur ad-Din of Adal"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لمنصور الدين؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mansur ad-Din of Adal; the entry is not yet checked on the page."
+wings: [people]
+regions: [east-africa]
+periods: [period/gunpowder-empires]
+died: { edtf: "1452", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Futuh al-Habasha" }
+relations:
+  - { type: ruler_of, target: polity/adal, confidence: low, note: "Ruler of Adal per the record's own summary; dates pending review.", sources: [source/al-aalam] }
+  - { type: ruled_over, target: place/adal-sultanate, confidence: low, note: "Ruler of Adal per the record's own summary.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6751903
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

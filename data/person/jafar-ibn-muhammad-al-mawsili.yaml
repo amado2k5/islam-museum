@@ -1,0 +1,21 @@
+id: person/jafar-ibn-muhammad-al-mawsili
+class: person
+label: { ar: "جعفر بن محمد بن حمدان الموصلي", en: "Ja'far ibn Muhammad al-Mawsili" }
+summary:
+  ar: "عدّه المسعودي فيمن جمعوا ألفاظ النبي وأوردوها في تصانيفهم مع ابن دريد والزجاجي ونفطويه {cite:muruj-al-dhahab p. 594}."
+  en: "Named with Ibn Durayd, al-Zajjaji and Naftawayh among the collectors of the Prophet's utterances {cite:muruj-al-dhahab p. 594}."
+gender: male
+wings: [people]
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad / al-Khatib al-Baghdadi" }
+relations:
+  - { type: lived_in, target: place/mosul, confidence: low, note: "Association from the person's nisba; origin/residence pending verification.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 594"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

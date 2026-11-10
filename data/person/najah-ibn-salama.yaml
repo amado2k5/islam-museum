@@ -1,0 +1,14 @@
+id: person/najah-ibn-salama
+class: person
+label: { ar: "نجاح بن سلمة" }
+summary:
+  ar: "ذكر الطبري ملاكه في سنة خمس وأربعين ومائتين {cite:tabari-tarikh-abu-al-fadl j.9 p.676}."
+wings: [people]
+gender: male
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 15", sources: [source/tabari-tarikh-abu-al-fadl] }
+status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read" }
+died: { edtf: "860", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari; Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/samarra, note: "Placed at the Abbasid court in Samarra in al-Faraj ba'd al-Shidda." }
+  - { type: died_in, target: place/samarra, note: "Died in Samarra 245 AH per Tarajm notice." }

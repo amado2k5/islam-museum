@@ -1,0 +1,22 @@
+id: place/iraq
+class: place
+kind: region
+label: { en: "Iraq", ar: "العراق" }
+summary:
+  en: "The land of Ur and the Sawad under Persian rule: home of the Lakhmid client kingdom at al-Hira, the Jewish settlements that migrated to the Hijaz, and the banks of the Euphrates giving onto the Jazira tribes."
+  ar: "أرض أور والسواد تحت حكم فارس؛ دار مملكة الحيرة التابعة، ومهاجرة يهودها إلى الحجاز، وتخوم قبائل الجزيرة الفراتية."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+coordinates: [33, 43]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata Q796; approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q796" }
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/wikidata]
+provenance:
+  layer: own-research
+  source: "Recorded against source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

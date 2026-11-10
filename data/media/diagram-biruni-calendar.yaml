@@ -1,0 +1,16 @@
+id: media/diagram-biruni-calendar
+class: media
+kind: illustration
+label: { ar: "من الأسبوع إلى الشهر والسنة التقريبيين", en: "From week to approximate month/year", ur: "ہفتے سے تقریبی ماہ و سال" }
+summary: { ar: "سلسلة تعليمية، لا إعادة إنشاء الآلة.", en: "Teaching chain, not reconstructed device.", ur: "تدریسی زنجیر، آلے کی بازتعمیر نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/biruni-simplified-calendar-gearing]
+alt:
+  ar: "إدخال يدوي أسبوعي ثم تخفيض وترس مركب ومؤشر تقريبي وفحص الخطأ؛ سلسلة حديثة لا نموذج أسنان."
+  en: "Manual weekly input, reduction, compound gear, approximate pointer and error check; modern chain, not tooth-contact model."
+  ur: "دستی ہفتہ وار اندراج، تخفیف، مرکب پہیہ، تقریبی اشارہ اور خطا کی جانچ؛ جدید زنجیر، دندانوں کا نمونہ نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/hill-biruni-calendar-1985]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b85", source: "Generic museum chain from selected actual translation/commentary; not original plate or reconstruction." }

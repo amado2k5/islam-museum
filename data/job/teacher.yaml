@@ -1,0 +1,52 @@
+id: job/teacher
+class: job
+label: { ar: "المدرّس", en: "Teacher (mu'allim / mudarris)", ur: "مدرس" }
+summary:
+  ar: "المدرّس هو من يلقي الدرس على طلابه في المسجد أو المدرسة أو الكُتّاب. وتعرّفه موسوعة TDV بأنه العالم العالي الرتبة الذي يدرّس في المدرسة، وصارت الكلمة رسمية بعد أن أنشأ نظام الملك المدارس النظامية. وفي الدولة العثمانية صار المدرّس درجة في سلّم العلماء تُنال بالإجازة والتدرّج والامتحان، وكان معلّم الصبيان يعلّم القراءة والقرآن، وكان في الأغلب من خريجي المدارس."
+  en: "The teacher gives lessons to pupils in a mosque, a madrasa or a kuttab. The TDV encyclopaedia defines the müderris as the high-ranking teacher who teaches in a madrasa; the word became official after Nizam al-Mulk founded the Nizamiyya madrasas. In the Ottoman period the post was a rank in the ranks of the learned, reached by licence, grades and examination. Teachers of children taught reading and the Qur'an, and were mostly madrasa graduates."
+  ur: "استاد وہ شخص ہے جو مسجد، مدرسے یا کُتّاب میں شاگردوں کو درس دیتا ہے۔ TDV انسائیکلوپیڈیا مدرس کو مدرسے میں درس دینے والا اعلیٰ مرتبہ عالم کہتا ہے، اور یہ لفظ نظام الملک کے مدارس کے بعد رسمی ہوا۔ عثمانی دور میں یہ علماء کے مدارج میں ایک درجہ تھا جو اجازت، ترقی اور امتحان سے ملتا تھا۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: prophetic
+  first_attested:
+    edtf: "0622/0632"
+    precision: decade
+    status: historical
+    note: "The TDV entry on the kuttab places teaching of reading and the Qur'an in the Prophet's time and after the migration to Medina, and gives the arrangement for the Badr captives. It gives no year for the first school, so the range is the Prophet's lifetime."
+    sources: [source/tdv-mektep]
+  status_today: transformed
+places:
+  - place: place/medina
+    note: "After the migration a school is attested at Medina; the entry describes the Badr captives who could write being freed in return for teaching ten Muslim children."
+    sources: [source/tdv-mektep]
+  - place: place/kufa
+    note: "Dahhak ibn Muzahim built a large school here, which the entry says about 3000 children attended, and taught there without pay. His death is dated 105 AH (723); the school is undated."
+    sources: [source/tdv-mektep]
+  - place: place/baghdad
+    note: "The Nizamiyya madrasa in Baghdad, in the reign of Alp Arslan. The entry records one dismissal of a müderris in his reign: Abu Ishaq al-Shirazi declined to teach there, Ibn al-Sabbagh was appointed, and was removed when al-Shirazi was persuaded."
+    sources: [source/tdv-muderris]
+  - place: place/bursa
+    note: "Ahmed Pasha's first post, as müderris of the Muradiye Madrasa in Bursa, according to the TDV entry on him."
+    sources: [source/tdv-ahmed-pasa-bursali]
+  - place: place/istanbul
+    note: "Mehmed II's first dar al-talim in Istanbul; the Sahn-i Seman madrasas; the public-lesson posts at the great mosques of the Fatih, the Suleymaniye and Bayezid; and the count of 1869 (eighty of 166 madrasas with 180 dersiams)."
+    sources: [source/tdv-mektep, source/tdv-kadi-osmanli-ortayli, source/tdv-dersiam]
+regions: [arabia, levant-iraq, anatolia-balkans]
+organization:
+  organized: mixed
+training:
+  mode: mixed
+  certification: "A licence (ijaza) from a teacher, and study in a madrasa. In the Ottoman period: a candidacy list kept by the kazasker, a graded climb through the madrasa ranks, and an examination before a board that included the kazasker, then an appointment by a tughra-sealed berat. The public-lesson title (dersiam) needed a further examination after the ijaza. Teachers of children before 1868 had no fixed certificate; from 1868 only graduates of the teachers' school could teach in sıbyan schools."
+workplaces: [building/al-madrasa-al-nizamiyya-baghdad, building/sahn-i-seman-medrese]
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-muderris, source/tdv-mektep, source/tdv-dersiam, source/tdv-kadi-osmanli-ortayli, source/tdv-ahmed-pasa-bursali]
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'MÜDERRİS' (N. Bozkurt, vol. 31 pp. 465–467; M. İpşirli, pp. 467–468), 'MEKTEP' (N. Bozkurt, pp. 5–6; C. Baltacı, pp. 6–7; vol. 29), 'DERSİÂM' (M. İpşirli, vol. 9 pp. 185–186), each read in the web edition on 1 Nov 2026; the Ottoman part of 'KADI' (İ. Ortaylı, pp. 69–73) and 'AHMED PAŞA, Bursalı' (G. Kut, pp. 111–112) read for the sentences cited. The museum graph gives the student_of edges and the holder records; 'MUALLİM' and 'MÜDERRİSLİK' searched on the site, with no standalone article found. Rewritten by Claude Code."
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "jobs-p1-teacher"
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5)" }

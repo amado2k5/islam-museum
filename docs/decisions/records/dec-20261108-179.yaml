@@ -1,0 +1,44 @@
+id: dec-20261108-179
+kind: override
+date: '2026-11-08'
+question_hash: cea9d2e3f136
+lane: admission
+class: sources
+modality: repo
+domain: safety
+mode: conservative
+question: A scholarly source claims consensus on a contested point without citing who agrees — soften to attributed claim or reject the source?
+status: decided
+step: override
+decision: 'Soften unsourced ''consensus'' claims: if a consensus claim carries no citation it is not presented as consensus — attribute it, qualify it, or drop it.'
+correct_outcome: unsourced-consensus-softened
+wrong_outcome: wrong-rule-decision-labelled-approved
+confidence: 1
+reversible: true
+rationale: 'dec-104''s stored decision was an exclusions-doctrine misfire (same class as dec-129) yet the founder''s label approved the intent — pairing question to wrong-rule decision teaches bad calibration. This override enacts the founder''s actual ruling: soften unsourced consensus claims.'
+supersedes: dec-20261108-104
+override_reason:
+  category: rule-false-positive
+  detail: dec-104's stored decision was an exclusions-doctrine misfire (same class as dec-129) yet the founder's label approved the intent — pairing question to wrong-rule decision teaches b
+  overridden_by: second-opinion-audit
+signals:
+  matched_rule_id: rule-corrections-open
+  correct_rule_id: null
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: true
+decided_by:
+  agent: devin-swe2
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: decided
+calibration_log:
+  deterministic_gates_all_pass: true
+  founder_resolution: null
+  founder_override: false
+  calibration_weight: 1
+expires_at: '2027-11-08'

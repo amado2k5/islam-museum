@@ -1,0 +1,40 @@
+id: building/wadi-us-salaam
+class: building
+kind: other
+label:
+  ar: وادي السلام
+  en: Wadi-us-Salaam cemetery
+  ur: وادی السلام
+summary:
+  ar: "مقبرة وادي السلام بالنجف؛ تروي نزهة الغري أن روح المؤمن تُحلّ بوادي السلام، وتذكر قراءة الاسم «وادي السلامة» لأنه آمن لمن دُفن فيه {cite:nuzhat-ghari-najaf}."
+  en: "The Wadi-us-Salaam cemetery of Najaf; Nuzhat al-Ghari relates that the believer's soul is settled in Wadi-us-Salaam, and records the reading 'Wadi al-Salama' — the valley of safety for whomever is buried in it {cite:nuzhat-ghari-najaf}."
+wings: [objects]
+themes: [sacred-space-and-pilgrimage]
+regions: [levant-iraq]
+periods: [period/modern-era]
+relations:
+  - { type: located_in, target: place/najaf }
+external_ids: { wikidata: "Q1909993" }
+sources: [source/nuzhat-ghari-najaf]
+perspectives:
+  - tradition: sunni
+    id: sunni-view
+    stance: { ar: "المقبرة عند أهل السنة من أشهر مقابر العراق، والفضائل المروية لها تُروى رواية" }
+    summary: { ar: "تُذكر فضائلها في كتب الأخبار والرحلات رواية لا تقريرًا {cite:nuzhat-ghari-najaf}." }
+    sources: [source/nuzhat-ghari-najaf]
+  - tradition: academic
+    id: academic-view
+    stance: { ar: "تاريخيا من أقدم وأوسع مقابر العالم الإسلامي استمرارًا" }
+    summary: { ar: "نزهة الغري تؤرخ المقبرة وأعلامها ضمن تاريخ النجف {cite:nuzhat-ghari-najaf}." }
+    sources: [source/nuzhat-ghari-najaf]
+  - tradition: shia-twelver
+    id: twelver-view
+    stance: { ar: "موضع مفضل للدفن لقربه من مشهد أمير المؤمنين" }
+    summary: { ar: "تروى في فضلها الروايات المسندة إلى أهل البيت كما تنقلها نزهة الغري {cite:nuzhat-ghari-najaf}." }
+    sources: [source/nuzhat-ghari-najaf]
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q1909993; nuzhat-ghari OCR lines 237-341 (روح المؤمن تُحل بوادي السلام)"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-15
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

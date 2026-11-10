@@ -1,0 +1,93 @@
+---
+// Storytellers: JournalBook — a private notebook. Entries (timestamp + text)
+// live only in this browser's localStorage; save appends, erase-all is
+// two-step. No-JS: a static explanation + the journal prompt render.
+// Client script: site/src/scripts/journal.ts.
+import type { Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; t: Record<string, string> }
+const { t } = Astro.props;
+---
+<div class="kids journal" data-journal
+  data-i18n-empty={t.journal_empty}
+  data-i18n-erase-done={t.erase_done}>
+  <h1>{t.journal_title}</h1>
+  <p class="lede">{t.journal_lede}</p>
+
+  <section class="journal-write no-print" aria-label={t.journal_prompt_label}>
+    <h2>{t.journal_prompt_label}</h2>
+    <label class="vh" for="journal-text">{t.journal_prompt_label}</label>
+    <textarea id="journal-text" data-entry rows={6} placeholder={t.journal_placeholder}></textarea>
+    <p class="journal-actions">
+      <button type="button" class="kids-btn" data-save>{t.journal_save}</button>
+    </p>
+    <p class="erase-wrap">
+      <button type="button" class="kids-btn ghost" data-erase data-confirm={t.erase_confirm}>{t.erase}</button>
+    </p>
+    <p class="journal-msg" data-msg role="status"></p>
+  </section>
+
+  <section class="journal-entries" aria-label={t.journal_title}>
+    <h2>{t.journal_title}</h2>
+    <ul class="entries" data-entries></ul>
+    <p class="empty" data-empty>{t.journal_empty}</p>
+    <p class="no-print"><button type="button" class="kids-btn" data-print>{t.journal_print}</button></p>
+  </section>
+
+  <section class="journal-nojs" data-nojs aria-label={t.journal_title}>
+    <h2>{t.journal_prompt_label}</h2>
+    <p>{t.journal_nojs}</p>
+  </section>
+</div>
+<script src="../scripts/journal.ts"></script>
+<style>
+.journal { max-width: 760px; margin-inline: auto; }
+.journal textarea {
+  width: 100%;
+  min-height: 160px;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  font-family: inherit;
+  color: inherit;
+  padding: 1rem;
+  border: 2px solid var(--kids-lapis);
+  border-radius: 1rem;
+  background: #fff;
+  resize: vertical;
+}
+.journal textarea:focus-visible { outline: 3px solid var(--kids-gold); outline-offset: 2px; }
+.journal-actions, .erase-wrap { margin: .75rem 0 0; }
+.journal-msg { min-height: 1.4em; margin: .25rem 0 0; }
+.journal .entries { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 1rem; }
+.journal .entries li {
+  border: 2px solid var(--kids-gold);
+  border-radius: 1rem;
+  background: #fffdf6;
+  padding: 1rem 1.25rem;
+}
+.journal .entries time { display: block; font-weight: 700; color: var(--kids-lapis); margin-bottom: .4rem; }
+.journal .entries p { margin: 0; white-space: pre-wrap; font-size: 1.05rem; line-height: 1.8; }
+.journal .empty { font-size: 1.1rem; }
+.journal-nojs {
+  border: 2px dashed var(--kids-gold);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  background: #fdf3d7;
+  margin-top: 1.5rem;
+}
+.vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+@media print {
+  .journal .no-print, .journal .journal-nojs { display: none !important; }
+  .journal .entries li { break-inside: avoid; border: 1px solid #999; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .journal * { animation: none !important; transition: none !important; }
+}
+</style>

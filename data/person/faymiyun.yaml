@@ -1,0 +1,19 @@
+id: person/faymiyun
+class: person
+label: { en: "Faymiyun the monk", ar: "فيميون" }
+gender: male
+roles: []
+faith: [{ value: christian, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The ascetic and answered supplicant who entered Najran before the second Abyssinian occupation and called its people to Christianity; the Raheeq narrative names him as the agent of Najran’s conversion."
+  ar: "رجل زاهد مستجاب الدعوات صاحب كرامات دخل نجران قبل الاحتلال الحبشي الثاني ودعا أهلها إلى النصرانية، فرأوا من أمارات صدقه ما لبّوا لأجله فاعتنقوها؛ يذكره الرحيق وسيط دخول النصرانية نجران."
+wings: [people]
+themes: [islam-and-christianity]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: missionary, status: tradition, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+relations:
+  - { type: lived_in, target: place/najran }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

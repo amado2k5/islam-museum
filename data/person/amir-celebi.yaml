@@ -1,0 +1,34 @@
+id: person/amir-celebi
+class: person
+label:
+  ar: "أمير جلبي"
+  en: "Emir Celebi"
+roles: [physician, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لأمير جلبي، الطبيب والكاتب العثماني، توفي سنة ١٦٣٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Emir Celebi, the Ottoman physician and writer, d. 1638; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q25475435
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0083
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ata'i (Hada'iq)" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

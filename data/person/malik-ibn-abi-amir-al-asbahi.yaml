@@ -1,0 +1,34 @@
+id: person/malik-ibn-abi-amir-al-asbahi
+class: person
+label:
+  ar: "مالك بن أبي عامر الأصبحي"
+  en: "Malik ibn Abi Amir al-Asbahi"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لمالك بن أبي عامر الأصبحي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Malik ibn Abi Amir al-Asbahi; the entry is not yet checked on the page."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Companion of the Asbaha tribe settled in Egypt per the record's cited biographical sources.", sources: [source/ibn-hajar-isaba] }
+sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba]
+external_ids:
+  wikidata: Q138380911
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 3
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba]

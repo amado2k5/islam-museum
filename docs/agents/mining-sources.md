@@ -1,0 +1,77 @@
+# Mining a source into entities
+
+For any agent turning a book, a dictionary, a chronicle or a text collection into museum entities (the sira books, the library of prominent Sunni works, and later sources). The rules that never bend are in [`AGENTS.md`](../../AGENTS.md); how to commit is in [`workflow.md`](workflow.md); what a good entity looks like is in [`content-standards.md`](content-standards.md). Category guidance (what to extract from hadith, tafsir, history, biography, creed and fiqh books) is in [`categories/`](categories/). Per-book plans: `docs/plan/17-raheeq-makhtum.md`, `docs/plan/18-sira-ibn-hisham.md`; per-lane state: [`lanes.md`](lanes.md).
+
+You work from the book's extracted text, never from memory. Retrieve, then write.
+
+## 1. Where the text lives (outside git, on the founder's Mac)
+
+- Original scans and downloads: `~/islam-museum-harvest/raw/` (a symlink to the external drive, which must be mounted). Library PDFs from archive.org: `raw/library/<category>/<book-id>/`; manifest of what was found: `library/manifest.jsonl`.
+- Extracted pages: `~/islam-museum-harvest/books/<category>/<book-id>/<item>/` with `pages.json`, `book.txt` (markers `===== [pN] =====`), `pages-png/` (images of scanned pages; use them to verify any doubtful word, name or number) and `meta.json`. Sira books extracted earlier keep their own folder under `raw/books/`.
+- Tools (`scripts/harvest/library/`): `ocr_book.py`/`ocr_all.py` (extract text; two-column pages are read right column first), `ocr_page.py` (re-read single pages, cached in `books/colocr/`), `slice_pages.py <cat>/<book-id>/<item> START END` (print a range), `make_sources.py` (draft `source` entities), `verify_cites.py` (every `{cite:...}` resolves and no page is out of range), `make_work_order.py <book-id>` (a ready order for one book).
+- Several copies of a book may exist (different scans and editions). Pick the clearest, say which item and edition you used in the claim's note, and cross-check a doubtful reading in a second copy.
+- PDF page is not always the printed page. Find the offset on the images, record it once in the lane's progress file, and cite the page the reader will find.
+- Text-layer extractions fold Arabic presentation forms to plain letters, but الله often appears as «االله» (a PDF artefact): read it as الله and never copy the artefact. Scans are OCR'd and misread names and numbers: verify those on the page image. Dictionaries in two columns: if the text looks interleaved, re-read the pages with `ocr_page.py`.
+
+**Recordings.** For a lecture, podcast or video, the book rules apply with two changes: the anchor is the recording's series, episode and timestamp (not a page), and transcripts and audio stay in the harvest workspace. Follow [`audio-video-harvest.md`](audio-video-harvest.md) for discovery, download, transcription and the checks by listening.
+
+## 1b. Borrow-only books: borrow in the browser and OCR the screen (founder, 5 November 2026)
+
+When a book is not downloadable (Internet Archive marks it "access-restricted", Open Library shows only **Borrow**), any agent may borrow it and read it in the browser, for any lane and any prompt. The rules:
+
+- **Browser only, one thing at a time.** Open the item's page in the shared browser (archive.org or openlibrary.org) and click **Borrow**. Never use the archive.org API, `advancedsearch`, `curl`, `wget` or any scripted download for it, and never open several items or tabs at once: one request, wait for it, then the next.
+- **The founder logs in.** If the page asks for a login or a CAPTCHA, stop and ask the founder (with the agent's ask-the-user tool) to sign in or solve it in that browser; never type, store or ask for the account's password. Then carry on in the same tab.
+- **Read and OCR the screen.** Turn to each page in the reader (1-up mode, page by page), take a screenshot of the page area, and run on-device OCR on it: on the founder's Mac, Apple Vision (`VNRecognizeTextRequest`, through a small Swift or `shortcuts`/`osascript` helper) handles Arabic, Latin and English; any other local OCR tool is fine. Record the printed page number of each image, not the reader's `n` index.
+- **Storage stays outside git.** Screenshots and OCR text go in the harvest workspace (`~/islam-museum-harvest/books/<category>/<book-id>/borrowed/`, or the lane's folder on the external drive, such as `/Volumes/exmicroSD/islam-museum-harvest/inventions/`), never in the repository and never on R2. A borrowed book is copyrighted: the rights in section 2 apply unchanged (rewrite in the museum's words, cite the page, at most a 40-word quotation).
+- **Return the loan** when the reading is done, and note in the lane's progress file which item was read, which pages, and when.
+- **If archive.org is down** (HTTP 503 for everyone, not only us), wait and retry later; do not switch to the API or to another mirror to get round it.
+
+## 2. Rights: what you may take (`docs/sources-policy.md`)
+
+Everything the book says, rewritten. Read the book, copyrighted or not, including a modern edition's apparatus (tahqiq notes, indexes, margin rubrics), and write what it says in the museum's own words, organised by entity, with the page cited after every sentence that states a fact. Facts, chronology, names with nasab, places, numbers, grades attributed to a named scholar, isnad heads and citations all enter `data/`. Quotations are verbatim, at most 40 words, in quotation marks, with the page. What stays out of git: the book's text beyond those quotations (a page-by-page retelling or a sentence-by-sentence rewording is not the museum's text), and the source files themselves (OCR text, page images, claims tables).
+
+## 3. One batch at a time (a batch is one coherent section; at most 25 entities)
+
+1. Read the section's pages (and the images where the text is doubtful).
+2. Build a claims table in the harvest workspace, not git: claim, value, printed page, quote ≤ 40 words, isnad head or attribution as printed, any doubt marker, target entity.
+3. Search `data/` for each entity (Arabic and ASCII). Reuse and extend; create only what is absent. A second book's page becomes an extra source and extra claims on the existing entity; a different date or number becomes a second dated claim with its own source and `status: debated`, never an overwrite.
+4. Write the entities and the Arabic prose in your own words from what you read (`content-standards.md`); the claims table is how every sentence stays traceable to a page, not a limit on what you may say.
+5. Run the 60-second check, `npm run validate && npm test`, and `python scripts/harvest/library/verify_cites.py`.
+6. Commit and push (`workflow.md` §4), update the progress file, start the next batch. Do not stop to ask: use the rules, flag uncertainty in the entity and the progress file, continue.
+
+## 4. Rules specific to mining
+
+- **Status of claims:** `tradition` by default for the tradition's own narrative; `historical` or `debated` only where an academic source says so; the book's own opinions are recorded as that author's view with the page.
+- **Dates** exactly as the book words them (`«جمادى الأولى سنة ثمان»` becomes hijri `0008-05`, precision month); Gregorian only if a source gives it, `calendar: julian`; never a day the source does not give. One source is enough for a dated fact; add a second when it is cheap, and use `confidence: low` with `needs_source` only when the source itself is doubtful — neither ever blocks publication.
+- **Isnads and attributions:** record the first transmitters the book prints in the claim's note. Report grades only as attributed to a named grader.
+- **Hadith matn:** do not bulk-import. Create a `passage` only for a report the museum cites: `ref`, a matn excerpt of at most 40 words, the isnad head as printed, the grade attributed to its grader.
+- **Qur'an:** reference `passage/quran-<sura>-<aya>` and add edges with sources; quote the book's words about the occasion, never the ayah.
+- **Contested sections** (Saqifa, the Companions' disputes, the conquest executions, Banu Qurayza, hadith grading, creed and madhhab differences) carry `perspectives` with the Sunni position(s) first and need Tier A review: note them in the progress file.
+- **Sources and stubs:** each classical work the book names that you cite becomes a `source` entity (check it does not exist first); unknown targets go in your lane's `data/_stubs.d/<lane>.yaml`.
+- **Scope of the museum, not of the book:** where the book is polemical, record its position as its own, attributed and labelled, never in the museum's voice.
+
+## 4a. Include everything, and categorise it (founder, 25 Oct 2026)
+
+These rules apply to every harvest, from recordings, books or any other source. They are the founder's standing decisions.
+
+1. **Include everything intelligible, on any topic.** Nothing is dropped as "off-topic". If the topic has no entity yet, create one.
+2. **Opinions and rants are content too.** A passage that is the speaker's own opinion, criticism or rant, and not a fact of a known category, is included. File it where it fits best: a `question` entity (the issue, with the view labelled and any tensions) when it answers a question; a `concept` under the closest category when it is an idea; or the person's record, under a heading that names it as his opinion, when it is about a person. Label the view as "speaker's view (opinion)" or "speaker's view (rant)" in the perspectives block.
+3. **Tag what is contested or polemical.** Set `sensitivity: contested` on a record that holds disputed matter, and `sensitivity: polemical` on one that attacks a group or a person (described and cited, never reproduced in quotation). Both are visible on the site. Contested passages go in a `:::perspectives` block with the speaker's view first.
+4. **Unverifiable figures and claims are kept**, marked `needs_source` in the YAML and the prose note. They are not dropped.
+5. **Garbled or unclear material** cannot be written as content. The founder has decided that it may be discarded. A repetition loop is not speech and is not used.
+6. **Qur'an and hadith wording is never typed as scripture.** Refer to a passage as `[[passage/quran-<sura>-<aya>|label]]` only when the speaker clearly names it, and cite what he says about it.
+7. **Every excluded item is reported** with its reason, the gate it failed and its override, in the lane's progress file and in every progress report to the founder. Nothing is re-entered without the founder's written authorisation.
+
+## 4b. Labeling, classification and decisions go through the rule engine (founder ruling, 8 November 2026)
+
+Every judgment call a harvest makes — accept/label/reject on a source's standing, school or tradition classification, edition choice between copies, an exclusion, a contested attribution, an unknown-target classification — is decided by the decision engine, not by the harvesting agent's own discretion. The flow is [`workflow.md`](workflow.md) §9:
+
+1. Write `docs/decisions/inbox/<lane>-<slug>.yaml` with `{question, lane, class?, evidence?, options?, proposed_action?}`.
+2. Run `npx tsx scripts/decisions/decide.ts --batch docs/decisions/inbox --write` (add `npm run decisions:local` for advisory judge input on held questions).
+3. Commit the records the engine writes to `docs/decisions/records/` with the batch.
+
+The engine decides by canonical rule, cited precedent or founder override; what it cannot decide stays `held` and visible in the docket — it is never silently resolved by the agent. Two carve-outs: (a) mechanical choices that are not judgments (which extracted item to read, page-offset bookkeeping, schema-required fields) need no record; (b) founder-only surfaces stay founder-only regardless of mode — content exclusions under §4a.7, the hard safety blocks, Qur'an text and licence questions always reach the founder. Existing museum content is the golden set (`dec-188`): if a rule would reject or invalidate something already published, the rule is wrong — flag it in the ledger rather than applying it.
+
+## 5. Quality bar for every batch
+
+Every dated fact: cited to this book's page (a second source when cheap, never required). Every claim traceable to a page a reader can open and verify in under a minute. Every doubt marker captured. Every entity: `label.ar`, `summary.ar`, at least one source, a provenance block, `status.review: published`. No sentence stating a fact without a citation; no quotation over 40 words; no honorific; no Qur'an text; no English prose. End each batch with a short report (entities created or updated, claims count, sources used, doubt markers captured, contested points flagged, passages verified on the image) in the commit body or progress file.

@@ -1,0 +1,20 @@
+id: person/ibn-jurayj
+class: person
+label: { ar: "ابن جريج", en: "Ibn Jurayj" }
+summary:
+  ar: "عبد الملك بن عبد العزيز بن جريج مولى آل أسيد بن أبي العيص بن أمية ويكنى أبا الوليد توفي سنة خمسين ومائة وله كتاب السنن ويحتوي على مثل ما تحتوي عليه كتب السنن مثل الطهارة والصيام والصلاة والزكاة وغير ذلك {cite:fihrist-ibn-al-nadim p. 316}."
+  en: "Ibn Jurayj — the Meccan author of the early Sunan {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+born: { edtf: "699~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/al-is, confidence: low, note: "Associated with العيص per the record's own summary text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+external_ids: { wikidata: "Q5984216" }
+sources: [source/fihrist-ibn-al-nadim, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "see sources"
+  generated_by: "Devin (SWE-2 High)"
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 48–49" }

@@ -1,0 +1,35 @@
+---
+id: person/kaab-ibn-malik
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
+## Summary
+One of the Messenger's three poets, a knight of the Ansar's knights, of Banu Salama of [[group/khazraj|the Khazraj]]; he witnessed the second Aqaba pledge and the battles, defended Islam with his poems at [[event/battle-of-hunayn|Hunayn]] and the [[event/siege-of-taif|siege of Ta'if]], and is one of the three who were reprieved at Tabuk {cite:ibn-hisham-saqqa 4/120-124}.
+
+## His verse at Hunayn and Ta'if
+On the day of Hunayn Ka'b ibn Malik spoke his famous poem opening: "and one said — will you not weep for your brother / when they passed by, and weeping was her due", describing in it the Muslims' feats, the rout of the hosts of shirk, the razing of Ta'if's strongholds and the standing up to Thaqif {cite:ibn-hisham-saqqa 4/120-124}.
+
+## In the Tabuk expedition and the three left behind
+He stayed behind from Tabuk "without doubt or hypocrisy" per Ibn Ishaq, and became one of [[event/the-three-left-behind|the three left behind]] with [[person/murara-ibn-al-rabi|Murara ibn al-Rabi']] and [[person/hilal-ibn-umayya|Hilal ibn Umayya]]. {cite:ibn-hisham-saqqa 4/175} He told his story himself in Ibn Ishaq's chain from al-Zuhri in [[work/kaab-ibn-malik-account-of-tabuk|his account]]: his delay in preparing ([[event/kaab-ibn-malik-delays-his-preparations|the event]]), his truthfulness with the Prophet ([[event/kaab-tells-the-prophet-the-truth|the event]]), the fifty nights' boycott ([[event/boycott-of-the-three|the event]]), then the acceptance of his repentance ([[event/repentance-of-the-three-accepted|the event]]) and his vow of truthfulness ([[event/kaab-offers-his-wealth-and-vows-truthfulness|the event]]). {cite:ibn-hisham-saqqa 4/175-181}
+
+In his account he mentions that he witnessed Aqaba with the Prophet when they pledged on Islam, and that before Tabuk he had only stayed behind from Badr. {cite:ibn-hisham-saqqa 4/175}
+
+## For young visitors
+The Prophet's truthful poet, of Medina's people; he defended the truth with his fine verse and eloquent tongue, and witnessed with the Prophet the greatest stands.
+
+## For Sprouts
+Ka'b ibn Malik was one of the Prophet's three poets and a knight of the Ansar from Banu Salama of the Khazraj. He witnessed the second Aqaba pledge and defended Islam with his poems at Hunayn and the siege of Taif, and he was one of the three whose repentance was deferred after Tabuk.
+
+## For Explorers
+Ka'b ibn Malik of Banu Salama of the Khazraj, one of the Prophet's three poets and a knight of the Ansar; he witnessed the second Aqaba pledge and the battles, and defended Islam with his poems at Hunayn and the siege of Taif — at Hunayn he spoke his famous ode describing the Muslims' heroism and the rout of the polytheist hordes. He stayed back from Tabuk 'without doubt or hypocrisy' in Ibn Ishaq's phrase, becoming one of the three left behind with Murara ibn al-Rabi' and Hilal ibn Umayya; he told the story himself: his delayed preparations, his truthfulness to the Prophet, the fifty-night boycott, then his repentance accepted and his vow of truthfulness.
+
+## For Scholars
+Ka'b ibn Malik of Banu Salama of the Khazraj, one of the Messenger's three poets and a knight of the Ansar; he witnessed the second Aqaba pledge and the battles and defended Islam with his poems at Hunayn and the siege of Taif — at Hunayn he spoke his famous ode opening 'She said: will you not weep for her brother', describing the Muslims' heroism, the rout of the polytheist hordes, the falling of Taif's forts and the defiance of Thaqif. He stayed back from Tabuk 'without doubt or hypocrisy' in Ibn Ishaq's phrase, becoming one of the three left behind with Murara ibn al-Rabi' and Hilal ibn Umayya; he told the story himself through Ibn Ishaq's chain from al-Zuhri: his delayed preparations, his truthfulness to the Prophet, the fifty-night boycott, then his repentance accepted and his vow of truthfulness. He noted in his account that he witnessed Aqaba when they covenanted on Islam and that before Tabuk only Badr had he missed.
+
+## In Abu Ishaq al-Heweny's «Difaf al-Kawthar»
+[[person/abu-ishaq-al-heweny|Abu Ishaq al-Heweny]] cites the long hadith of Ka'b ibn Malik on [[event/expedition-to-tabuk|the Tabuk campaign]], saying it is in the two Sahihs, while speaking of how context shapes the meaning of speech: a smile may come from love or from anger. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep11 00:18:00} When Ka'b came after staying behind, the Prophet smiled the smile of one angered and asked what had held him back; when [[event/repentance-of-the-three-accepted|the repentance of the three who stayed behind]] was revealed and Ka'b entered the mosque, the Prophet's face shone like a piece of the moon. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep11 00:19:00} Al-Heweny says a smile of contentment makes the eyes shine, while a smile of anger or envy leaves the face dull. {cite:assabile-abu-ishaq-alheweny dhifaf-al-kawtar/ep11 00:19:30}
+
+## In Mustafa Hosny's programme 'Ish al-Lahza'
+[[person/mustafa-hosny|Mustafa Hosny]] mentions Ka'b ibn Malik in two episodes of his programme [[work/ich-allahda|'Ish al-Lahza']]. In the tenth, on the moment of joy, he says the Companions boycotted Ka'b for fifty days when he stayed behind from the expedition of Tabuk; when his repentance was revealed the Prophet gave him the glad tidings that it was the best day he had known since his birth, and Ka'b offered to give away all his wealth in thanks to God; he makes this an example of turning joy into a good deed. {cite:assabile-mustafa-hosny ich-allahda/ep10 00:24:30} {cite:assabile-mustafa-hosny ich-allahda/ep10 00:25:00} The number of days of the boycott he gives agrees with the fifty nights of Ka'b's own account in Ibn Hisham. {cite:ibn-hisham-saqqa 4/175-181} In the twelfth he quotes him as going out to Hamra' al-Asad after Uhud with more than ten wounds. {cite:assabile-mustafa-hosny ich-allahda/ep12 00:26:00}

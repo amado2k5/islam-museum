@@ -1,0 +1,35 @@
+id: person/bishara-al-armani
+class: person
+label: { ar: "بشارة الأرمني", en: "Bishara al-Armani" }
+names:
+  - { value: "بشارة بن عبد الله الأرمني الكاتب مولى شبل الدولة المعظمي", kind: full }
+died: { edtf: "1256~", hijri: "0654", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة أربع وخمسين وستمائة {cite:shadharat-dhahab p. 273}." }
+summary:
+  ar: "الكاتب مولى شبل الدولة المعظمي؛ كان يكتب خطاً حسناً دقيقاً، وذريته يدعون النظر على الذرية وعلى الخانقاه الشبلية {cite:shadharat-dhahab p. 273}."
+  en: "Chancery katib and mawla of Shibl al-Dawla (d. 654) — famed for a fine, small hand; his descendants held the oversight of the Shibliyya khanqah {cite:shadharat-dhahab p. 273}."
+gender: male
+roles: [writer, calligrapher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+faith:
+  - value: sunni
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch87
+occupations:
+  - job: job/calligrapher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

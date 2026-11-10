@@ -1,0 +1,29 @@
+id: person/muhammad-al-mahruq
+class: person
+label:
+  ar: "محمد المحروق"
+  en: "Muhammad al-Mahruq"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد المحروق؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad al-Mahruq; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+died: { edtf: "816", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Nishapur" }
+relations:
+  - { type: buried_in, target: building/imamzadeh-muhammad-al-mahruq, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q3583062)" }
+  - { type: buried_in, target: place/aleppo, confidence: low, note: "His imamzadeh stands in Aleppo (Wikidata Q3583062 / P119); regions: levant-iraq.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6402167
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0056
+status:
+  review: draft
+  completeness: 1

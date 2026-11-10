@@ -1,0 +1,27 @@
+id: event/ibn-jawzi-wasit-exile-590
+class: event
+kind: expulsion
+label:
+  ar: "اعتقال ابن الجوزي ونفيه إلى واسط سنة ٥٩٠هـ"
+  en: "Ibn al-Jawzi arrested and exiled to Wasit, 590/1194"
+  ur: "ابن الجوزی کی گرفتاری اور واسط جلاوطنی، 590ھ/1194ء"
+summary:
+  ar: "مع عزل الوزير ابن يونس الحنبلي واعتقاله وتولية الشافعي ابن الناصر الوزارة سنة ٥٩٠هـ/١١٩٤م بدأ عثر ابن الجوزي — وكان قد صنّف في وقت غير محدد رداً على سياسة الخليفة الناصر — فاعتُقل ابن الجوزي في السنة نفسها بلا سبب وجيه كما يُروى، ووُضع في حراسة رجل شيعي وأُرسل ليعيش رهن الإقامة الجبرية في واسط، ومكث في المنفى خمس سنين {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}."
+  en: "The dismissal and arrest of the Hanbali vizier Ibn Yunus and the appointment of the Shafiʿi Ibn al-Nasir to the vizierate in 590/1194 marked the beginning of Ibn al-Jawzi's disgrace — he had written, at a date not known precisely, a refutation of al-Nasir's policy. In the same year he was arrested, without good reason it is said, put under the guard of a Shiʿi and sent to live under house arrest at Wasit, where he remained in exile for five years {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}."
+  ur: "590ھ/1194ء میں حنبلی وزیر ابن یونس کی برطرفی اور گرفتاری اور شافعی ابن الناصر کی وزارت کے ساتھ ابن الجوزی کی بدنصیبی شروع ہوئی — انھوں نے نامعلوم تاریخ میں خلیفہ ناصر کی پالیسی پر رد لکھا تھا۔ اسی سال وہ بنا کسی معقول وجہ کے گرفتار ہوئے، ایک شیعہ کی نگرانی میں رکھے گئے اور واسط میں نظربند رہے، جہاں وہ پانچ سال جلاوطن رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1194", hijri: "0590", calendar: julian, precision: year, status: tradition, derived: true, note: "اعتقال سنة ٥٩٠/١١٩٤؛ التحويل مشتق {cite:encyclopaedia-of-islam-2 vol. 3 p. 784}." }
+relations:
+  - { type: occurred_at, target: place/wasit, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-jawzi, role: "المنفيّ", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3 (H–Iram), printed p. 784, art. Ibn al-Djawzī"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-jawzi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,39 @@
+id: building/dar-al-baida-fustat
+class: building
+kind: palace
+label:
+  ar: الدار البيضاء بالفسطاط
+  en: The White House (al-Dar al-Bayda'), al-Fustat
+  ur: دار البیضاء، فسطاط
+summary:
+  ar: دار بالفسطاط بين يدي المسجد الجامع، يقال إنها خطة عبد الرحمن بن عديس البلوي، ويقال كانت صحناً موقفاً لخيل المسلمين حتى بناها مروان بن الحكم داراً لنفسه حين قدم مصر سنة خمس وستين في شهرين {cite:futuh-misr-amir-1999 p. 152}.
+  en: A house in al-Fustat facing the congregational mosque, said to be the plot of Abd al-Rahman ibn Udays al-Balawi, or else an open court where the Muslims' horses stood, until Marwan ibn al-Hakam built it as his own house in two months on coming to Egypt in the year 65 {cite:futuh-misr-amir-1999 p. 152}.
+  ur: فسطاط میں جامع مسجد کے سامنے ایک گھر، جس کے بارے میں کہا جاتا ہے کہ یہ عبد الرحمن بن عدیس بلوی کا خطہ تھا، یا ایک کھلا صحن جہاں مسلمانوں کے گھوڑے کھڑے ہوتے تھے، یہاں تک کہ مروان بن الحکم نے سنہ 65 میں مصر آ کر دو مہینے میں اسے اپنا گھر بنوایا {cite:futuh-misr-amir-1999 p. 152}۔
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: located_in
+  target: place/al-fustat
+  sources:
+  - source/futuh-misr-amir-1999
+- type: built_by
+  target: person/marwan-ibn-al-hakam
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 152 وحاشيتها
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-3-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

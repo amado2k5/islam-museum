@@ -1,0 +1,34 @@
+id: person/aziz-mian
+class: person
+label: { ar: "عزيز ميان", en: "Aziz Mian", ur: "عزیز میاں قوال" }
+names:
+  - { value: "عزیز میاں قوال", kind: full }
+  - { value: "Aziz Mian Qawwal", kind: full }
+  - { value: "Shahenshah-e-Qawwali", kind: alternate }
+gender: male
+summary:
+  ar: "قوّال باكستاني (1942–2000) لُقّب بشاهنشاه القوالي، من القلائل الذين كتبوا كلمات قوالياتهم، بدأ في ضريح داتا كنج بخش بلاهور، وأنشد للجيش حتى لُقّب بالقوال العسكري، ويحمل رقم أطول قوالي تجارية ⁦(نحو 115 دقيقة)⁩، ونال وسام حسن الأداء في 1989، وتوفي في إيران في جولة غنائية."
+  en: "Pakistani qawwal (1942–2000) called the emperor of qawwali, one of the few who wrote their own lyrics; he began at the shrine of Data Ganj Bakhsh in Lahore, sang so often for the army that he was dubbed the 'military qawwal', holds the record for the longest commercially released qawwali (about 115 minutes), received the Pride of Performance in 1989 and died on a concert tour of Iran."
+  ur: "پاکستانی قوال ⁦(1942ء–2000ء)⁩، جنھیں شہنشاہِ قوالی کہا گیا، ان چند میں سے جو اپنا کلام خود لکھتے تھے؛ لاہور میں داتا گنج بخش کے مزار سے آغاز کیا، فوج کے لیے اتنا گایا کہ «فوجی قوال» کہلائے، سب سے طویل تجارتی قوالی ⁦(تقریباً 115 منٹ)⁩ کا ریکارڈ رکھتے ہیں، 1989ء میں تمغۂ حسنِ کارکردگی پایا، اور ایران کے ایک دورے میں فوت ہوئے۔"
+wings: [people]
+regions: [south-asia]
+roles: [sufi-singer, poet]
+born: { edtf: "1942-04-17/1942-07-27", calendar: gregorian, precision: day, status: debated, derived: false, note: "Wikidata and Dawn's birth-anniversary piece of 17 April 2014 give 17 April 1942; the English article's text gives 27 July 1942 (13 Rajab 1361). Born at Meerut, Uttar Pradesh. Both are kept.", sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian] }
+died: { edtf: "2000-12-06", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died at Qom, Iran, of liver failure after his final performance on a tour; buried in Multan beside the shrine of his spiritual master (English article, citing Pakistan Today, Radio Pakistan and ARY News; Wikidata gives the day).", sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school in a cited sentence; the article's long unsourced passages on his teachers and his Iranian tours are not used for faith, and his repertoire (naat, manqabat, Sufi kalam) is performance (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian]
+footprint:
+  wikipedia: { languages: [as, azb, bn, de, en, fa, fr, ml, pnb, pt, ur], checked: "2026-11-06", sources: [source/wikidata-aziz-mian] }
+  wikidata: "Q562440"
+honours:
+  - { award: award/pride-of-performance, result: won, year: 1989, note: "for his service in music", sources: [source/wikipedia-aziz-mian-en] }
+external_ids: { wikidata: "Q562440" }
+sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian]
+provenance: { layer: own-research, source: "English Wikipedia 'Aziz Mian' (revision 1377981519, 2 October 2026) and Wikidata Q562440 (revision 2518764760), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b05 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: died_in, target: place/iran, note: "From text: توفي في إيران في جولة غنائية", sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian] }
+  - { type: buried_in, target: place/multan, note: "From text: buried in Multan", sources: [source/wikipedia-aziz-mian-en, source/wikidata-aziz-mian] }

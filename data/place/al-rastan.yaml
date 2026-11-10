@@ -1,0 +1,36 @@
+id: place/al-rastan
+class: place
+kind: city
+label:
+  ar: الرستن
+  en: Al-Rastan
+  ur: الرستن
+summary:
+  ar: مدينة في سوريا.
+  en: City (Wikidata Q1867822).
+wings:
+- place
+regions:
+- levant-iraq
+coordinates:
+- 34.9167
+- 36.7333
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q1867822
+  geonames: '172946'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q1867822 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1867822 (labels, coordinates, description)

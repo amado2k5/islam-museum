@@ -1,0 +1,20 @@
+id: person/balinas
+class: person
+label: { ar: "بليناس الحكيم", en: "Balinas" }
+summary:
+  ar: "بليناس الحكيم من أهل طوانة من بلاد الروم، ويقال إنه أول من أحدث الكلام على الطلسمات، وكتابه فيما عمله بمدينته وبممالك الملوك من الطلسمات معروف مشهور {cite:fihrist-ibn-al-nadim p. 434}."
+  en: "Balinas the sage of Tyana — said to be the first to discourse on talismans {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "100~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sezgin (GAS IV: Apollonius of Tyana)" }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Associated with بلاد الروم per the record's own text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch20

@@ -1,0 +1,30 @@
+id: event/baghdadi-aq-teaches-seventeen-425
+class: event
+kind: other
+label:
+  ar: "البغدادي يدرّس في سبعة عشر فناً بنيسابور ويتتلمذ عليه أئمة خراسان، نحو ٤٢٥هـ"
+  en: "Al-Baghdadi teaches in seventeen fields at Nishapur as Khurasan's imams study under him, c. 425/1033"
+  ur: "بغدادی نیشاپور میں سترہ فنون پڑھاتے اور خراسان کے ائمہ ان سے پڑھتے، تقریباً 425ھ/1033ء"
+summary:
+  ar: "كان أبو منصور البغدادي يدرّس في سبعة عشر فناً، محتشماً متموّلاً، وقال عنه شيخ الإسلام أبو عثمان الصابوني: كان من أئمة الأصول وصدور الإسلام بإجماع أهل الفضل والتحصيل {cite:tarikh-islam-dhahabi p. 265} {cite:tabaqat-shafiiyya-subki p. 238}؛ وروى عنه أبو بكر البيهقي وعبد الغفار بن محمد بن شيرويه وأبو القاسم عبد الكريم القشيري {cite:tarikh-islam-dhahabi p. 265}، وتفقه عليه البيهقي وقرأ عليه ناصر المروزي {cite:mawsuat-a3lam-ulama-adaba pp. 634-635}؛ والتاريخ تقريبي داخل أستاذيته بعد ٤١٨هـ وقبل خروجه سنة ٤٢٩هـ."
+  en: "Abu Mansur al-Baghdadi taught in seventeen fields, a man of dignity and means; Abu Uthman al-Sabuni said of him: he was among the imams of the principles and the leading men of Islam by the consensus of the people of merit {cite:tarikh-islam-dhahabi p. 265} {cite:tabaqat-shafiiyya-subki p. 238}; Abu Bakr al-Bayhaqi, Abd al-Ghaffar ibn Shiruya and Abu al-Qasim al-Qushayri transmitted from him {cite:tarikh-islam-dhahabi p. 265}, al-Bayhaqi read jurisprudence under him and Nasir al-Marwazi read to him {cite:mawsuat-a3lam-ulama-adaba pp. 634-635}; the date is approximate within his mastership after 418 and before his departure in 429."
+  ur: "ابو منصور بغدادی وقار اور استغناء کے ساتھ سترہ فنون پڑھاتے تھے؛ شیخ الاسلام ابو عثمان صابونی نے کہا: وہ اہل فضل کے اتفاق سے اصول کے ائمہ اور اسلام کے صدور میں سے تھے {cite:tarikh-islam-dhahabi p. 265} {cite:tabaqat-shafiiyya-subki p. 238}؛ ابو بکر بیہقی، عبدالغفار بن شیرویہ اور ابوالقاسم قشیری نے ان سے روایت کی {cite:tarikh-islam-dhahabi p. 265}، بیہقی نے ان سے فقہ پڑھی اور ناصر مروزی نے ان کو پڑھ کر سنایا {cite:mawsuat-a3lam-ulama-adaba pp. 634-635}؛ تاریخ 418ھ کے بعد اور 429ھ میں رحلت سے قبل تقریبی ہے۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1033~", hijri: "0425~", calendar: julian, precision: year, status: tradition, derived: true, note: "داخل أستاذيته بنيسابور بين خلافته لأبي إسحاق ٤١٨هـ وخروجه ٤٢٩هـ {cite:tarikh-islam-dhahabi p. 265} {cite:tabaqat-shafiiyya-subki p. 238}؛ تقريبي مشتق.", sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki] }
+relations:
+  - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-baghdadi-abd-al-qahir-ibn-tahir, role: "الأستاذ المدرّس", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "الراوي والمتفقه", sources: [source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba] }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "الراوي", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/nasir-al-marwazi, role: "القارئ عليه", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/mawsuat-a3lam-ulama-adaba]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 429, printed p. 265 (harvest OCR); al-Subki, Tabaqat, printed p. 238 (harvest OCR); موسوعة أعلام العلماء والأدباء ج3 ص634-635 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-baghdadi-aq-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

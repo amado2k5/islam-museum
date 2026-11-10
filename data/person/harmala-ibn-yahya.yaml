@@ -1,0 +1,32 @@
+id: person/harmala-ibn-yahya
+class: person
+label: { ar: "حرملة بن يحيى" }
+names:
+  - { kind: full, lang: ar, value: "أبو حفص حرملة بن يحيى بن عبد الله بن حرملة بن عمران التجيبي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+born: { hijri: "0166", edtf: "0783~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد سنة ست وستين ومائة (PDF ص52).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0243", edtf: "0858~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بمصر سنة ثلاث وأربعين ومائتين (PDF ص52).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو حفص حرملة بن يحيى التجيبي، من فقهاء الشافعية بمصر {cite:tabaqat-fuqaha-abbas-1981 p. 52}، كان حافظاً للحديث، وصنف «المبسوط» و«المختصر» {cite:tabaqat-fuqaha-abbas-1981 p. 52}. ومات بمصر سنة ثلاث وأربعين ومائتين {cite:tabaqat-fuqaha-abbas-1981 p. 52}."
+wings: [people]
+relations:
+  - { type: lived_in, target: place/misr, confidence: low, note: "Associated with مصر per the record's own text; relation type pending review.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+external_ids: { wikidata: "Q25455235" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch125
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

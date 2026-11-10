@@ -1,0 +1,36 @@
+id: person/yusuf-sarvestani
+class: person
+label:
+  ar: "يوسف السروستاني"
+  en: "Yusuf Sarvestani"
+roles: [writer, calligrapher]
+gender: male
+themes: [arts-of-the-book, astronomy-and-timekeeping]
+summary:
+  ar: "بطاقة أولية ليوسف السروستاني، كاتب وفلكي وخطاط القرن الثالث عشر، توفي سنة ١٢٨١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Yusuf Sarvestani, the thirteenth-century writer, astronomer and calligrapher, d. 1281; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: born_in, target: place/sarvestan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765487)" }
+  - { type: buried_in, target: building/yusef-sarvestani-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5959806)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q18544916
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0053
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

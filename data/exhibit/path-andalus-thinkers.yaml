@@ -1,0 +1,75 @@
+id: exhibit/path-andalus-thinkers
+class: exhibit
+kind: trail
+label:
+  ar: عقول الأندلس
+  en: Minds of al-Andalus
+summary:
+  ar: 'مسار في فلاسفة الغرب الإسلامي: ابن حزم الظاهري، وابن رشد الشارح، وابن طفيل، وابن عربي الشيخ الأكبر.'
+  en: A trail through al-Andalus's thinkers.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: ابن حزم
+    en: Ibn Hazm
+  body:
+    ar: 'قرطبة الظاهري: الفصل في الملل والمحلة.'
+    en: 'قرطبة الظاهري: الفصل في الملل والمحلة.'
+  features:
+  - person/ibn-hazm
+  - place/cordoba
+- title:
+    ar: ابن رشد
+    en: Ibn Rushd
+  body:
+    ar: 'الشارح: فلسفة أرسطو في لسان إسلامي.'
+    en: 'الشارح: فلسفة أرسطو في لسان إسلامي.'
+  features:
+  - person/ibn-rushd
+  - place/cordoba
+- title:
+    ar: ابن طفيل
+    en: Ibn Tufayl
+  body:
+    ar: 'حي بن يقظان: فلسفة التجربة والنظر.'
+    en: 'حي بن يقظان: فلسفة التجربة والنظر.'
+  features:
+  - person/ibn-tufayl
+- title:
+    ar: ابن عربي
+    en: Ibn Arabi
+  body:
+    ar: 'الشيخ الأكبر: الفتوحات المكية ومدرسة الوحدة.'
+    en: 'الشيخ الأكبر: الفتوحات المكية ومدرسة الوحدة.'
+  features:
+  - person/ibn-arabi-muhyi-al-din
+  - place/damascus
+- title:
+    ar: الإرث
+    en: The legacy
+  body:
+    ar: 'من قرطبة إلى باريس: أوروبا تقرأ الأندلس.'
+    en: 'من قرطبة إلى باريس: أوروبا تقرأ الأندلس.'
+  features:
+  - question/what-was-al-andalus
+  - place/tulaytula
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

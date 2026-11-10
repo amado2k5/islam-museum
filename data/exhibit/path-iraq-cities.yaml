@@ -1,0 +1,75 @@
+id: exhibit/path-iraq-cities
+class: exhibit
+kind: trail
+label:
+  ar: مدن العراق
+  en: Cities of Iraq
+summary:
+  ar: 'مسار في مدن الرافدين: الكوفة والبصرة أولًا، ثم بغداد المدورة، وسامراء العسكرية، والموصل على دجلة.'
+  en: A trail through the cities of the two rivers.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الكوفة
+    en: Kufa
+  body:
+    ar: 'مصر علي وفقه أبي حنيفة: أول الأمصار.'
+    en: 'مصر علي وفقه أبي حنيفة: أول الأمصار.'
+  features:
+  - place/kufa
+  - person/abu-hanifa
+- title:
+    ar: البصرة
+    en: Basra
+  body:
+    ar: نحو سيبويه وصوفية رابعة.
+    en: نحو سيبويه وصوفية رابعة.
+  features:
+  - place/basra
+  - person/sibawayh
+- title:
+    ar: بغداد
+    en: Baghdad
+  body:
+    ar: 'مدينة السلام: المنصور يبني الدائرة 762.'
+    en: 'مدينة السلام: المنصور يبني الدائرة 762.'
+  features:
+  - place/baghdad
+  - building/bayt-al-hikma
+- title:
+    ar: سامراء
+    en: Samarra
+  body:
+    ar: 'سر من رأى: عاصمة الخلفاء ستين سنة.'
+    en: 'سر من رأى: عاصمة الخلفاء ستين سنة.'
+  features:
+  - place/samarra
+  - building/al-jami-al-kabir-samarra
+- title:
+    ar: الموصل
+    en: Mosul
+  body:
+    ar: 'شمال الجزيرة: منارة الحدباء وزنكيون.'
+    en: 'شمال الجزيرة: منارة الحدباء وزنكيون.'
+  features:
+  - place/mosul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

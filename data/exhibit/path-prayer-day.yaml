@@ -1,0 +1,76 @@
+id: exhibit/path-prayer-day
+class: exhibit
+kind: trail
+label:
+  ar: يوم المسلم
+  en: A Muslim's Day
+summary:
+  ar: 'مسار في اليوم العادي: الوضوء والأذان، والصلوات الخمس، والجمعة، والذكر.'
+  en: A trail through the ordinary day of worship.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الوضوء
+    en: Wudu
+  body:
+    ar: 'طهارة الصلاة: ماء على الأعضاء.'
+    en: 'طهارة الصلاة: ماء على الأعضاء.'
+  features:
+  - practice/wudu
+  - practice/tayammum
+- title:
+    ar: الأذان
+    en: The adhan
+  body:
+    ar: 'صوت المدينة خمس مرات: حي على الصلاة.'
+    en: 'صوت المدينة خمس مرات: حي على الصلاة.'
+  features:
+  - practice/adhan
+  - person/bilal-ibn-rabah
+- title:
+    ar: الصلوات
+    en: The prayers
+  body:
+    ar: فجر وظهر وعصر ومغرب وعشاء.
+    en: فجر وظهر وعصر ومغرب وعشاء.
+  features:
+  - practice/salah
+  - question/why-five-daily-prayers
+- title:
+    ar: الجمعة
+    en: Friday
+  body:
+    ar: 'الأسبوع يجتمع: خطبة وصلاة.'
+    en: 'الأسبوع يجتمع: خطبة وصلاة.'
+  features:
+  - practice/salat-al-jumua
+  - practice/khutba
+- title:
+    ar: الذكر
+    en: Dhikr
+  body:
+    ar: أذكار الصباح والمساء والنوم.
+    en: أذكار الصباح والمساء والنوم.
+  features:
+  - practice/dhikr
+  - practice/dua
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

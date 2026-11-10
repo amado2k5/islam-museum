@@ -1,0 +1,44 @@
+id: person/bad-al-kurdi
+class: person
+label:
+  ar: باد الكردي الحسين بن دوشك
+  en: Bad al-Kurdi (Husayn ibn Dushk)
+summary:
+  ar: "باد الكردي واسمه الحسين بن دوشك، أبو عبد اللّه وقيل أبو شجاع؛ مؤسس ملك بني مروان بديار بكر — تغلب على الموصل وديار بكر ونازع فيها الديلم، ثم طمع في ملك الموصل فسار إليها فغلبه ابنا ناصر الدولة وقتل في المعركة، فخلفه ابن أخته أبو علي بن مروان."
+  en: "Bad al-Kurdi, named Husayn ibn Dushk, kunyas Abu Abd Allah or Abu Shuja'; founder of Marwanid rule in Diyar Bakr — he seized Mosul and Diyar Bakr, disputing them with the Daylamites, then coveted Mosul itself, marched on it, and was defeated and killed in battle by the two sons of Nasir al-Dawla, his sister's son Abu Ali ibn Marwan succeeding him."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "990", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (al-Kamil fi al-Tarikh)" }
+relations:
+- type: ruler_of
+  target: polity/marwanid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+
+- type: ruled_over
+  target: place/diyarbak-r
+  confidence: low
+  note: "Founded the Marwanid emirate in Diyar Bakr per the record's own summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: died_in
+  target: place/mosul
+  confidence: low
+  note: "Marched on Mosul and was killed in battle against the sons of Nasir al-Dawla, per the record's summary."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, anatolia-balkans]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني مروان بديار بكر، ص1104 (طبعة هيليوبوليس)
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch43
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,23 @@
+id: event/battle-of-yuraktau-1707
+class: event
+kind: battle
+label: { ar: "معركة يوركطاو", en: "Battle of Yuraktau" }
+summary:
+  ar: "بطاقة أولية لمعركة يوركطاو سنة ١٧٠٧م، فوز القوزاق الباشكير على القوات الروسية في ثورتهم؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Yuraktau in 1707, the Bashkir rebels' victory over Russian forces in their uprising; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1707", precision: year, status: tradition, derived: true }
+  end: { edtf: "1707", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q121548549
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

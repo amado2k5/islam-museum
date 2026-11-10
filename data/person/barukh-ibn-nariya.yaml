@@ -1,0 +1,21 @@
+id: person/barukh-ibn-nariya
+class: person
+label: { ar: "باروخ بن ناريا", en: "Barukh ibn Nariya" }
+summary:
+  ar: "كاتب أرميا النبي، وجد المسعودي في السفر الذي أثبته نسباً لمعد بن عدنان إلى قيدر بن إسماعيل بن إبراهيم في نحو ثلاثين أباً غير ما في النسخ العربية، وقد كان لأرميا مع معد بن عدنان أخبار يطول ذكرها وما كان من أمرهما بالشام ذكره المسعودي في كتبه السالفة، وإنما أورده ليعلم تنازع الناس في ذلك {cite:muruj-al-dhahab p. 566}."
+  en: "Jeremiah's scribe — in whose scroll al-Mas'udi found a thirty-name chain from Ma'add back to Qaydar son of Ishmael, diverging from every Arabic version — cited precisely to show the lineage's contention; Jeremiah's own dealings with Ma'add in Syria were told in his earlier books {cite:muruj-al-dhahab p. 566}."
+gender: male
+wings: [people]
+relations:
+  - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch29
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

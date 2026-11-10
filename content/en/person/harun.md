@@ -1,0 +1,23 @@
+---
+id: person/harun
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## Overview
+Harun ibn Imran, brother of [[person/musa|Musa]] and his vizier. He is one of the prophets mentioned in the Qur'an, and the museum treats him as a prophetic figure within the scriptural frame.
+
+The Prophet cited his rank with respect to Musa in a hadith that al-Bukhari transmits from [[person/ali-ibn-abi-talib|Ali]], in which he said, in substance: "Are you not content to be to me as Harun was to Musa?" {cite:sahih-al-bukhari 3706}
+
+In the hadith of the Night Journey he saw him among the heavens. {cite:sahih-al-bukhari 3207}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh cites Musa's prayer that his brother Harun be made a helper from his family to strengthen him, and draws the lesson that in the thick of life a person needs a righteous brother, and if not a brother by mother and father, then a brother in God. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:06:00}
+
+## From Omar Abdelkafy's programme Bustan al-Amal
+The Sheikh relates that Harun was born in the 'year of safety', when Israelite notables had agreed with Pharaoh that newborns would not be killed, and Musa in the year of killing (needs_source: the agreement as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep06 00:04:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh cites a passage from the Qur'anic story of Musa and his brother without naming the sura, in which Harun's reaction appears. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:39:30} ⁦(needs_source: the recording wording is partly garbled)⁩

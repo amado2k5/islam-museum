@@ -1,0 +1,29 @@
+id: event/tughril-takes-isfahan-443
+class: event
+kind: conquest
+label:
+  ar: "طغربك يفتح أصبهان ويصيب دفائنها"
+  en: "Tughril Beg takes Isfahan and finds its buried treasures"
+summary:
+  ar: "في سنة ثلاث وأربعين وأربعمائة ورد الخبر بفتح أصبهان ودخول طغربك إليها، وكان قد عمّر الري عمارة حسنة، وهدم دارًا فوجد فيها مراكب مرصعة بالجوهر الثمين وقاتم دنانير وبرنيتين صينية مملوءة بالجوهر النفيس ودفينًا عظيمًا، ووجد في عقد قد انشق برنية خضراء فيها عشرون ألف دينار {cite:muntazam-ibn-al-jawzi j.8 p.493}."
+  en: "In 443 came the news that Tughril Beg had taken and entered Isfahan — he who had rebuilt Rayy handsomely — and in demolishing a house he found gem-set vessels, buried hoards of dinars, two Chinese jars filled with precious jewels, a great treasure, and a green jar containing twenty thousand dinars in a split-open hoard {cite:muntazam-ibn-al-jawzi j.8 p.493}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+themes: [wars-and-campaigns, cities]
+sides:
+  - label: { ar: "الغز السلجوقيون" }
+    commanders: [person/tughril-beg]
+  - label: { ar: "حامية أصبهان الكاكوية" }
+date:
+  start: { edtf: "1051~", hijri: "0443", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٤٣ {cite:muntazam-ibn-al-jawzi j.8 p.493}" }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/tughril-beg, role: "الفاتح", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤٣)، قراءة آبل فيجن، مسح AAlexandrina-224011"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-350-474-batch24
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

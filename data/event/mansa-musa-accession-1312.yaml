@@ -1,0 +1,23 @@
+id: event/mansa-musa-accession-1312
+class: event
+kind: other
+label: { ar: "منسا موسى يتولى ملك مالي", en: "Mansa Musa takes the throne of Mali" }
+summary:
+  ar: "تولى منسا موسى ملك مالي خلفاً لمارى جاطا نحو سنة 1312م {cite:tarikh-ibn-khaldun-ibar}."
+  en: "Mansa Musa succeeded Mari Jata on the throne of Mali about 1312 {cite:tarikh-ibn-khaldun-ibar}."
+  ur: "مانسا موسیٰ تقریباً 1312ء میں ماری جاطا کے بعد مالی کے تخت پر بیٹھا {cite:tarikh-ibn-khaldun-ibar}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1312~", precision: year, status: tradition, derived: true, note: "per Ibn Khaldun he ruled 25 years and died c. 1337-1339; accession placed c. 1312" }
+  end: { edtf: "1312~", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/timbuktu, sources: [source/tarikh-ibn-khaldun-ibar] }
+sources: [source/tarikh-ibn-khaldun-ibar]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Mansa Musa story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-mansa-musa
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

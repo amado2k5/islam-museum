@@ -1,0 +1,31 @@
+id: building/kaaba
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "كانت الكعبة قبل بنائها رابيةً مرتفعة، ورفع إبراهيم وإسماعيل قواعدها بمكة، فصارت حرماً تفد إليه قبائل الجزيرة، وتعاقبت على سدانتها ذرية إسماعيل ثم جرهم ثم خزاعة ثم قريش."
+    en: "Before building, the Kaaba stood as a raised mound; Ibrahim and Isma'il raised its foundations in Mecca, making it a sanctuary for the peninsula's tribes — keepership passing from Isma'il's line to Jurhum, Khuza'a, then Quraysh."
+    ur: "کعبہ بنائی سے پہلے ایک بلند ٹیلہ تھا؛ ابراہیم اور اسماعیل نے مکہ میں اس کی بنیادیں اٹھائیں اور یہ جزیرہ کے قبائل کی زیارت گاہ بنا — سدانت اسماعیل کی اولاد، جُرہم، خزاعہ، پھر قریش کے پاس رہی۔"
+    sources: [source/tabaqat-ibn-sad, source/muruj-al-dhahab]
+class: building
+kind: shrine
+label: { en: "The Kaaba", ar: "الكعبة" }
+summary:
+  en: "The House whose foundations Ibrahim and Ismail raised at Mecca; it was a raised mound before the building, then the sanctuary toward which Arabia’s tribes came — custodied successively by Ismail’s line, Jurhum, Khuzaʾa and finally Quraysh under Qusayy."
+  ar: "البيت الذي رفع إبراهيم وإسماعيل قواعده بمكة؛ كان مرتفعاً كالرابية قبل البناء، ثم صار حرماً تفد إليه قبائل الجزيرة، تولّت سدانته ذرية إسماعيل ثم جرهم ثم خزاعة ثم قريش منذ قصي."
+wings: [objects]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+themes: [sacred-space-and-pilgrimage]
+relations:
+  - { type: located_in, target: place/mecca }
+external_ids: {   wikidata: "Q29466", tei: "38,849" , archnet: "3790" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tei-epigraphie, source/archnet]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+provenance:
+  layer: own-research
+  source: "source/tabaqat-ibn-sad"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch10"

@@ -1,0 +1,50 @@
+id: person/al-khujandi-abu-mahmud-hamid-ibn-al-khidr
+class: person
+label: { ar: "الخجندي أبو محمود حامد بن الخضر", en: "al-Khujandi Abu Mahmud Hamid ibn al-Khidr" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمود حامد بن الخضر الخجندي" }
+  - { kind: kunya, lang: ar, value: "أبو محمود" }
+  - { kind: nisba, lang: ar, value: "الخجندي" }
+gender: male
+roles: [mathematician, astronomer]
+traditions: [sunni]
+died: { edtf: "1000", hijri: "0391", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "رياضي وفلكي اشتهر في القرن الرابع الهجري، وكان من سكان مدينة الري جنوب شرق طهران، وتوفي سنة 391هـ ⁦(1000م)⁩."
+  en: "Mathematician and astronomer of the fourth century AH, a resident of Rayy near Tehran; died 391 AH (1000 CE)."
+wings: [people]
+themes: [mathematics, astronomy-and-timekeeping]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "MacTutor explicitly identifies the individual as an Islamic astronomer. Sunni separately retains museum default frame of docs/scope.md and inherited classification,no contrary personal-tradition attestation in sources read;not inference from name,city or Buyid patron,not documented personal madhhab."
+    sources: [source/khujandi-mactutor]
+inventions:
+  - invention: invention/fakhri-sextant-rayy
+    role: inventor
+    note: "Specific monumental solar meridian instrument;quadrant/shamila/spherical sine claims not counted as separate inventions here."
+    sources: [source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص129"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch53
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b68", source: "Actual BEA/MacTutor and1908 printed Arabic text;original fields/body/attribution retained,individual Muslim identification and distinct museum Sunni default explicit." }
+occupations:
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/tehran, note: "From text: من سكان مدينة الري جنوب شرق طهران", sources: [source/mawsuat-a3lam-ulama-adaba, source/van-brummelen-khujandi-bea, source/khujandi-cheikho-1908, source/khujandi-mactutor], confidence: low }

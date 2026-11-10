@@ -1,0 +1,32 @@
+id: person/badar-miandad
+class: person
+label: { ar: "بدر مياں داد", en: "Badar Miandad", ur: "بدر میانداد" }
+names:
+  - { value: "بدر میانداد خان", kind: full }
+  - { value: "Badar Miandad Khan", kind: full }
+  - { value: "Badar Ali Khan", kind: alternate }
+gender: male
+summary:
+  ar: "قوّال باكستاني (1962–2007) من أسرة قوالين في باكپتن، ابن عم نصرت فتح علي خان وصهره، بدأ في 1975 وصار من أشهر القوالين في منتصف الثمانينيات، ولحّن لأفلام هندية وباكستانية، واشتهر بـ«دم دم حسین مولا حسین» و«گنج شکر والیاں دا راجا»، وجرّب مزج القوالي بالإيقاعات الحديثة."
+  en: "Pakistani qawwal (1962–2007) of a qawwal family of Pakpattan, cousin and brother-in-law of Nusrat Fateh Ali Khan, who began in 1975, was among Pakistan's best-known qawwals by the mid-1980s, scored Indian and Pakistani films, was known for 'Dam Dam Hussain Maula Hussain' and 'Ganj Shakar Walian Da Raja', and experimented with qawwali fusion."
+  ur: "پاکپتن کے قوال خاندان سے پاکستانی قوال ⁦(1962ء–2007ء)⁩، نصرت فتح علی خان کے چچا زاد اور برادرِ نسبتی، جنھوں نے 1975ء میں آغاز کیا، اسّی کی دہائی کے وسط تک پاکستان کے معروف قوالوں میں شمار ہوئے، ہندوستانی اور پاکستانی فلموں کی موسیقی دی، «دم دم حسین مولا حسین» اور «گنج شکر ولیاں دا راجا» سے مشہور ہوئے، اور قوالی کے فیوژن کے تجربے کیے۔"
+wings: [people]
+regions: [south-asia]
+roles: [sufi-singer, composer]
+born: { edtf: "1960-02-17/1962-02-17", calendar: gregorian, precision: day, status: debated, derived: false, note: "The English article's text and Wikidata give 17 February 1962; its infobox gives 17 February 1960. Born at Pakpattan, Punjab. Both are kept.", sources: [source/wikipedia-badar-miandad-en, source/wikidata-badar-miandad] }
+died: { edtf: "2007-03-02", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Lahore of a heart attack after two years of illness, aged 47 (English article, citing Dawn of 3 March 2007; Wikidata gives the day and Lahore).", sources: [source/wikipedia-badar-miandad-en, source/wikidata-badar-miandad] }
+relations:
+  - { type: born_in, target: place/pakpattan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badar-miandad] }
+  - { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-badar-miandad] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him; his repertoire (hamd, naat, manqabat, Sufi kalam) is performance, not attestation (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-badar-miandad-en, source/wikidata-badar-miandad]
+footprint:
+  wikipedia: { languages: [arz, bn, en, ur], checked: "2026-11-06", sources: [source/wikidata-badar-miandad] }
+  wikidata: "Q4840602"
+external_ids: { wikidata: "Q4840602" }
+sources: [source/wikipedia-badar-miandad-en, source/wikidata-badar-miandad]
+provenance: { layer: own-research, source: "English Wikipedia 'Badar Miandad' (revision 1379493998, 10 October 2026) and Wikidata Q4840602 (revision 2551220234), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b05 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

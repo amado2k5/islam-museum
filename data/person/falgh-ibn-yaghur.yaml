@@ -1,0 +1,21 @@
+id: person/falgh-ibn-yaghur
+class: person
+label: { ar: "فالغ بن يغور", en: "Falgh ibn Yaghur (Peleg)" }
+summary:
+  ar: "عند المسعودي أول من ملك الشام من اليمن فالغ بن يغور، ثم ملك بعده يوتاب وهو أيوب بن رزاح {cite:muruj-al-dhahab p. 425}."
+  en: "In al-Mas'udi's king list the first Yemenite ruler of Syria — followed by Yutab, that is Job son of Razah {cite:muruj-al-dhahab p. 425}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+relations:
+  - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

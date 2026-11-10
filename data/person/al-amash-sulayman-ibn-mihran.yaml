@@ -1,0 +1,34 @@
+id: person/al-amash-sulayman-ibn-mihran
+class: person
+label: { ar: "الأعمش سليمان بن مهران", en: "Al-A'mash, Sulayman ibn Mihran" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد سليمان بن مهران الأعمش" }
+gender: male
+roles: [muhaddith, scholar]
+traditions: [sunni]
+born: { edtf: "0680", hijri: "0061", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0765", hijri: "0148", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث ومقرئ وفرضي، لُقّب بالأعمش لضعف في بصره؛ تباينت الروايات في مكان ولادته."
+  en: "A hadith scholar, reciter and expert in inheritance law, nicknamed al-A'mash for weakness of sight. Accounts of his birthplace differ."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/umayyad]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q124746524" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981, source/encyclopaedia-of-islam-2, source/wikidata]
+status: { review: published, completeness: 2, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 190, lib-mawsuat-a3lam; EI2 account added in ei2-b010 part 3ed" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص190", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "The DİA entry names al-A'mash among the muhaddith who, though in need, refused to go to rulers to narrate for them and refused the money they sent. The entry gives no place or date for this."
+    sources: [source/tdv-muhaddis]
+relations:
+  - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/umayyad-caliphate, note: "Wikidata Q8575586 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

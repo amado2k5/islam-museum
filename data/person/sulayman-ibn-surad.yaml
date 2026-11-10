@@ -1,0 +1,57 @@
+id: person/sulayman-ibn-surad
+class: person
+label:
+  ar: سليمان بن صرد
+  en: Sulayman ibn Surad
+names:
+- kind: full
+  lang: ar
+  value: سليمان بن صرد بن الجون بن أبي الجون الخزاعي
+- kind: kunya
+  lang: ar
+  value: أبو المطرف
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من خزاعة، يقال كان اسمه يسار فغيّره النبي؛ شهد صفين مع علي، وكاتب الحسين ثم تخلف عنه، وقُتل سنة 65هـ في الطلب بدمه وهو ابن ثلاث وتسعين سنة. وعند المسعودي كان أول الرؤساء الخمسة الذين عسكرت بهم الشيعة التوابون بالنخيلة، واستشهد بعين الوردة بعد أن قتل من القوم مقتلة عظيمة رماه يزيد بن الحصين بن نمير بسهم {cite:muruj-al-dhahab p. 87-88}
+  en: A Companion of Khuza'a, said to have been named Yasar before the Prophet changed it; he fought at Siffin with Ali, wrote to al-Husayn and then held back, and was killed in 65 AH leading the expedition to avenge him, aged ninety-three.
+wings: [people]
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3611 (ص 611).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+relations:
+
+- { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba] }
+- type: member_of
+  target: group/khuzaa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3611، ص 611
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: published
+  completeness: 3

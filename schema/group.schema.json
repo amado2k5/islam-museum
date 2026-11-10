@@ -47,7 +47,11 @@
         "international-organisation",
         "community-organisation",
         "mosque-association",
-        "population"
+        "population",
+        "team",
+        "think-tank",
+        "online-community",
+        "band"
       ]
     },
     "made": {
@@ -109,6 +113,8 @@
           "china-east-asia",
           "west-africa-sahel",
           "east-africa",
+          "africa",
+          "arab-world",
           "americas-oceania",
           "global"
         ]
@@ -206,9 +212,12 @@
               "sunni-maliki",
               "sunni-shafii",
               "sunni-hanbali",
+              "sunni-ashari",
+              "sunni-maturidi",
               "shia-twelver",
               "shia-ismaili",
               "shia-zaydi",
+              "zahiri",
               "ibadi",
               "sufi",
               "ahmadiyya",
@@ -262,6 +271,74 @@
           }
         }
       }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "job",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "job": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "made-by",
+              "used-by",
+              "built-by",
+              "staffed-by",
+              "reference-for",
+              "body-of",
+              "gathering-of",
+              "produced-by",
+              "workplace-of",
+              "route-of"
+            ]
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "scope": {
+      "enum": [
+        "local",
+        "national",
+        "regional",
+        "international",
+        "virtual"
+      ]
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$"
+      },
+      "uniqueItems": true
     }
   },
   "required": [

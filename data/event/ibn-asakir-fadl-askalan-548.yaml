@@ -1,0 +1,27 @@
+id: event/ibn-asakir-fadl-askalan-548
+class: event
+kind: publication
+label:
+  ar: "ابن عساكر يصنّف «فضل عسقلان» و«الأربعين في الاجتهاد في إقامة الجهاد» بعد سقوط عسقلان، ٥٤٨هـ/١١٥٣م"
+  en: "Ibn 'Asakir writes Fadl 'Asqalan and the Arba'in on jihad after the fall of Ascalon, 548/1153"
+  ur: "عسقلان کے سقوط کے بعد ابن عساکر کی تصانیف «فضل عسقلان» اور «الأربعین»، 548ھ/1153ء"
+summary:
+  ar: "بعد أن أخذ الفرنج عسقلان سنة ثمان وأربعين، صنّف ابن عساكر — وهو أشعري الاعتقاد يجاهر بالرد على من يمس السنة — «فضل عسقلان» يحرّض فيه المسلمين على استرداد المدينة، و«الأربعين في الاجتهاد في إقامة الجهاد» أربعين حديثاً في فضائل الجهاد تأييداً للسياسة الدينية لنور الدين {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  en: "After the Franks took Ascalon in 548/1153, Ibn 'Asakir — an Ash'ari who fought whatever cast a slur on the Sunna — wrote Fadl 'Asqalan exhorting the Muslims to recapture the town, and a collection of forty hadiths, al-Arba'in fi al-ijtihad fi iqamat al-jihad, exalting the virtues of jihad in support of Nur al-Din's religious policy {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}."
+  ur: "548ھ/1153ء میں صلیبیوں کے عسقلان لینے کے بعد ابن عساکر نے — جو اشعری مسلک کے حامل اور سنت پر انگلی اٹھانے والوں کے رد کرنے والے تھے — «فضل عسقلان» لکھا جس میں مسلمانوں کو شہر واپس لینے کی ترغیب دی، اور نور الدین کی دینی پالیسی کی تائید میں چالیس احادیث کا مجموعہ «الأربعین فی الاجتہاد فی اقامۃ الجہاد» تصنیف کیا {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1153~", hijri: "0548", calendar: julian, precision: year, status: tradition, derived: true, note: "the town which the Franks had just taken in 548/1153 {cite:encyclopaedia-of-islam-2 vol. 3 p. 746}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-asakir, role: "المصنّف", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "EI2 vol. 3 art. Ibn 'Asakir (N. Elisséeff), printed p. 746"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-asakir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

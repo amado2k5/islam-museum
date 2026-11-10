@@ -1,16 +1,25 @@
 id: event/siege-of-taif
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b3", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "حاصر المسلمون الطائف بعد حنين ثم انسحبوا دون فتحها، فأسلمت ثقيف بوفودها في العام التالي نفسه كما تروي السيرة."
+    en: "The Muslims besieged Taif after Hunayn, then withdrew without taking it; Thaqif sent delegations and embraced Islam the following year, per the sirah."
+    ur: "حنین کے بعد مسلمانوں نے طائف کا محاصرہ کیا پھر بغیر فتح کے واپس ہوئے؛ اگلے ہی سال ثقیف نے وفود بھیج کر اسلام قبول کیا، جیسا کہ سیرت بیان کرتی ہے۔"
+    sources: [source/ibn-hisham-saqqa, source/lings-1983]
 class: event
 kind: siege
 label: { en: "The siege of Ta'if", ar: "حصار الطائف" }
 summary:
   en: "After Hunayn, the Muslims besieged the fortified town of Ta'if, home of the Thaqif; the siege was lifted without taking it, and the Thaqif accepted Islam the next year."
-  ar: "حاصر المسلمون الطائف المحصنة موطن ثقيف بعد حنين، ثم رفعوا الحصار دون فتحها، وأسلمت ثقيف في العام التالي."
-wings: [time, people]
+  ar: "حاصر المسلمون الطائف المحصنة موطن ثقيف بعد حنين، ثم رفعوا الحصار دون فتحها، وأسلمت ثقيف في العام التالي. ويروي ابن عمر في الصحيح: «حاصر النبي أهل الطائف فلم يفتحها فقال: إنا قافلون إن شاء الله، فقال المسلمون: نقفل ولم نفتح؟ قال: فاغدوا على القتال فغدوا فأصابتهم جراحات، قال النبي: إنا قافلون غداً إن شاء الله — فكأن ذلك أعجبهم فتبسم رسول الله» {cite:sahih-al-bukhari 7480}."
+wings: [time]
 themes: [wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0630-01", hijri: "0008-10", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0630-01", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "مدة الحصار مختلف فيها: أربعون يوماً في رواية أنس عند مسلم، وقيل عشرون وبضعة عشر وثمانية عشر وخمسة عشر عند أهل السير (الرحيق ص418).", sources: [source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/taif }
   - { type: had_participant, target: person/muhammad }
@@ -21,6 +30,10 @@ relations:
   - { type: had_participant, target: person/said-ibn-said-ibn-al-as, role: martyr, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/thabit-ibn-al-jid, role: martyr, sources: [source/ibn-hisham-saqqa] }
   - { type: basis_for, target: concept/emancipation-of-enemy-slaves, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: vanguard-commander-of-a-thousand, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: announced-the-withdrawal, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/nawfal-ibn-muawiya, role: counseled-lifting-the-siege, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/malik-ibn-awf, role: besieged-hawazin-commander, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-hunayn }
 casualties: { value: 12, status: tradition, note: "استشهد اثنا عشر رجلاً من المسلمين في حصار الطائف بنبل ثقيف.", sources: [source/ibn-hisham-saqqa] }
@@ -30,5 +43,11 @@ sides:
     commanders: [person/muhammad]
   - label: { en: "Thaqif of Ta'if", ar: "ثقيف أهل الطائف" }
     participants: [group/thaqif]
-sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-saqqa"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch5"

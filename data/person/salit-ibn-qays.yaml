@@ -1,0 +1,26 @@
+id: person/salit-ibn-qays
+class: person
+aliases: [person/sulayt-ibn-qays]   # merged from the al-Mas'udi record (now a section); the id still resolves
+label: { ar: "سليط بن قيس الأنصاري", en: "Salit ibn Qays al-Ansari" }
+summary:
+  ar: "سليط بن قيس بن عمرو الأنصاري؛ بعثه عمر مع أبي عبيد إلى العراق وقال له لولا عجلة فيك لوليتك ولكن الحرب زبون لا يصلح لها إلا الرجل المكيث ويوم الجسر قال لأبي عبيد قد كنت نهيتك عن قطع هذا الجسر إليهم وأشرت عليك بالانحياز والكتاب إلى أمير المؤمنين بالاستمداد فأبيت وقاتل حتى قتل."
+  en: "Salit ibn Qays ibn Amr al-Ansari; sent by Umar with Abu Ubayd to Iraq with the saying 'but for the haste in you I'd have appointed you — war is cunning, only the patient man suits it'; at the Bridge he reproached Abu Ubayd for crossing against his counsel and fought till killed."
+wings: [people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+died:
+  hijri: "0013-09~"
+  precision: month
+  status: tradition
+  note: "يوم الجسر آخر رمضان سنة 13 (البلاذري ص 351–352)"
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 350–352"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-29
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+external_ids:
+  wikidata: Q12216604
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab] }

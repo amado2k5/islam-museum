@@ -1,0 +1,36 @@
+id: place/petaling-jaya
+class: place
+kind: city
+label:
+  ar: فتالينغ جاي
+  en: Petaling Jaya
+  ur: پیتالنیگ جایا
+summary:
+  ar: مدينة في ماليزيا.
+  en: City in Malaysia.
+wings:
+- place
+regions:
+- southeast-asia
+coordinates:
+- 3.1073
+- 101.6067
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q864965
+  geonames: '1735158'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q864965 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q864965 (labels, coordinates, description)

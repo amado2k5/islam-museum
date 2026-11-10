@@ -1,0 +1,55 @@
+id: building/hagia-sophia
+class: building
+kind: other
+label:
+  ar: آيا صوفيا
+  en: Hagia Sophia
+built:
+  edtf: "0532-02-23"
+  calendar: julian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+summary:
+  ar: مبنى في إسطنبول، يُؤرَّخ بناؤه سنة 532م.
+  en: A building in Istanbul, dated to 532 CE.
+wings: [objects]
+periods:
+- period/mongol-post-mongol
+regions:
+- anatolia-balkans
+coordinates:
+- 41.00833
+- 28.98
+relations:
+- type: located_in
+  target: place/istanbul
+  sources:
+  - source/wikidata
+  note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+external_ids:
+  wikidata: Q12506
+sources:
+- source/wikidata
+- source/encyclopaedia-of-islam-2
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump; Encyclopaedia of Islam 2, vol. 1 pp. 823-824 (AYA SOFYA), rewritten in the museum's own words
+  generated_by: Claude Haiku 5.5 (ei2 lane)
+  model: claude-haiku-5-5
+  run: ei2-b013-part74
+education:
+  did_you_know:
+    ar: "آيا صوفيا بإسطنبول أُرِّخ بناؤها سنة ٥٣٢م، وصارت مع فتح القسطنطينية سنة ٨٥٧هـ مسجداً."
+    en: "Istanbul's Hagia Sophia, dated to 532 CE, became a mosque with the conquest of Constantinople in 857 AH."
+    ur: "استنبول کی آیا صوفیا 532ء میں تعمیر ہوئی اور 857ھ میں قسطنطنیہ کی فتح کے ساتھ مسجد بنی۔"
+    sources: [source/wikidata, source/shadharat-dhahab]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: published
+  completeness: 4
+  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative

@@ -1,0 +1,31 @@
+id: person/ibn-al-arabi-muhammad
+class: person
+label: { ar: "ابن الأعرابي محمد بن زياد", en: "Ibn al-A'rabi, Muhammad ibn Ziyad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن زياد بن الأعرابي" }
+gender: male
+roles: [writer, scholar]
+traditions: [sunni]
+born: { edtf: "0767", hijri: "0150", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0845", hijri: "0230", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "لغوي كوفي، كان أبوه زيادا عبدا سنديا مملوكا لسليمان بن مجالد."
+  en: "A Kufan philologist. His father Ziyad was a Sindhi slave of Sulayman ibn Mujalid."
+wings: [people]
+themes: [linguistics]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص156"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57

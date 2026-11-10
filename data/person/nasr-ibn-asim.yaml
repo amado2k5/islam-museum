@@ -1,0 +1,21 @@
+id: person/nasr-ibn-asim
+class: person
+label: { ar: "نصر بن عاصم", en: "Nasr Ibn Asim" }
+summary:
+  ar: "نصر بن عاصم الدؤلي ويقال الليثي، عند من خالف مذهب أبي الأسود هو الذي رسم النحو، وكان أحد القراء والفصحاء وأخذ عنه أبو عمرو بن العلاء والناس {cite:fihrist-ibn-al-nadim p. 103-104}."
+  en: "Laythi grammarian credited by some with first drawing grammar {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+external_ids: { wikidata: "Q12248495" }
+died: { edtf: "708", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasr b. 'Asim); al-Zirikli (al-A'lam)" }
+relations:
+  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch20

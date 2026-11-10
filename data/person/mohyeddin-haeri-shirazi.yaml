@@ -1,0 +1,29 @@
+id: person/mohyeddin-haeri-shirazi
+class: person
+label:
+  ar: "محيي الدين الحائري الشيرازي"
+  en: "Mohyeddin Haeri Shirazi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحيي الدين الحائري الشيرازي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mohyeddin Haeri Shirazi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/contemporary-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5960885
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1937", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: IRNA" }
+died: { edtf: "2017", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: IRNA" }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'الشيرازي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

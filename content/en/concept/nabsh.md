@@ -1,0 +1,8 @@
+---
+id: concept/nabsh
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+To dig up is to bring out what is buried and expose what is hidden. Exhuming a grave before decay without need is forbidden by agreement, since it violates the dead person's sanctity. Exhumation is allowed for a necessity or a lawful purpose. If property of value falls into a grave, the Malikis, Shafi'is and Hanbalis allow digging it up, though they differ on whether it is compulsory and on whether the body must be undecayed. If the dead swallowed another's property, the views range from paying from the estate to cutting open the body. The grave may be opened for a usurped shroud, with conditions. A grave dug in usurped land may be opened on the owner's claim. Exhumation for moving the dead is forbidden by most jurists, while the Hanbalis allow it in some cases. Digging a grave for another burial is forbidden to the Malikis and Hanbalis until the first has decayed. The Hanafis and Hanbalis allow digging up the graves of unbelievers for property in them. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15446} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15447} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15448} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15449} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15450} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15451} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15452} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15453} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15454} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15455} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.15456}

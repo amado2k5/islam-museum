@@ -1,0 +1,30 @@
+id: person/reza-talabani
+class: person
+label:
+  ar: "رضا الطالباني"
+  en: "Reza Talabani"
+roles: [poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لرضا الطالباني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Reza Talabani; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/colonial-era]
+born: { edtf: "1835", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Kurdish Literature" }
+died: { edtf: "1910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Kurdish Literature" }
+relations:
+  - { type: born_in, target: place/chamchamal, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q870475)" }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1530)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12213448
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

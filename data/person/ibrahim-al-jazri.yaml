@@ -1,0 +1,29 @@
+id: person/ibrahim-al-jazri
+class: person
+label:
+  ar: "إبراهيم بن أحمد الجزري"
+  en: "Ibrahim al-Jazri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لإبراهيم بن أحمد الجزري، فقيه وأصولي ومفسر القرن الرابع عشر، توفي سنة ١٣٠٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ibrahim ibn Ahmad al-Jazri, the fourteenth-century jurist, usuli and exegete, d. 1309; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1260", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12181565
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0066
+status:
+  review: draft
+  completeness: 1

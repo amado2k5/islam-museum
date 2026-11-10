@@ -1,0 +1,24 @@
+id: event/end-umayyad-caliphate-cordoba-424
+class: event
+kind: other
+label: { ar: "سقوط الخلافة الأموية في قرطبة", en: "End of the Umayyad caliphate at Cordoba" }
+summary:
+  ar: "خلُع هشام المعتد بالله، آخر خلفاء بني أمية بقرطبة، فأسقط ملوك الأندلس الدعوة للخلافة المروانية وانقضت الدولة الأموية وقامت ملوك الطوائف؛ يجعله ابن عذاري سنة 424هـ {cite:bayan-mughrib-idhari p. 226}."
+  en: "Hisham al-Mu'tadd, the last Umayyad caliph of Cordoba, was deposed; the Andalusi kings dropped the Marwanid caliphate and the taifa rulers rose. Ibn Idhari dates it to 424 AH {cite:bayan-mughrib-idhari p. 226}."
+  ur: "قرطبة کے آخری اموی خلیفہ ہشام المعتد بالله کو معزول کر دیا گیا؛ اندلسی بادشاہوں نے مروانی خلافت کی دعوت چھوڑ دی اور ملوک الطوائف کا دور آیا۔ ابن عذاری نے اسے 424ھ لکھا ہے {cite:bayan-mughrib-idhari p. 226}."
+wings: [time]
+themes: [politics-governance-and-authority]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1033~", hijri: "0424", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 424 عند ابن عذاري؛ التحويل مشتق {cite:bayan-mughrib-idhari p. 226}." }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/bayan-mughrib-idhari] }
+sources: [source/bayan-mughrib-idhari]
+provenance:
+  layer: own-research
+  source: "البيان المغرب في أخبار الأندلس والمغرب لابن عذاري، ممسوح الحصاد، ص 226"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-umayyads-cordoba
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

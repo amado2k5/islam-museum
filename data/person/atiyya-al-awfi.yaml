@@ -1,0 +1,27 @@
+id: person/atiyya-al-awfi
+class: person
+label: { ar: "عطية العوفي", en: "Atiyya al-Awfi", ur: "عطیہ عوفی" }
+names:
+  - { kind: full, lang: ar, value: "عطية بن سعد بن جنادة العوفي الجدلي القيسي الكوفي، أبو الحسن" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "عطية بن سعد بن جنادة العوفي الكوفي، أبو الحسن، تابعي مفسر توفي سنة 111هـ؛ روى عن أبي سعيد وأبي هريرة وابن عباس وابن عمر، وقال فيه أبو حاتم: ضعيف يكتب حديثه. نقل الطبري تفسيره عن ابن عباس في نحو 1560 موضعًا من جامع البيان بإسناد عائلي من ذريته."
+  en: "Atiyya ibn Sa'd ibn Junada al-Awfi of Kufa, Abu al-Hasan, a Successor and exegete who died in 111 AH; he transmitted from Abu Sa'id, Abu Hurayra, Ibn Abbas and Ibn Umar, and Abu Hatim said of him: weak, his hadith is written down. Al-Tabari quotes his commentary from Ibn Abbas in some 1,560 places of Jami' al-Bayan through a family chain of his descendants."
+  ur: "عطیہ بن سعد بن جنادہ عوفی کوفی، ابو الحسن، تابعی مفسر جن کی وفات 111ھ میں ہوئی؛ انہوں نے ابو سعید، ابو ہریرہ، ابن عباس اور ابن عمر سے روایت کی، اور ابو حاتم نے ان کے بارے میں کہا: ضعیف ہیں، ان کی حدیث لکھی جاتی ہے۔ طبری جامع البیان کے تقریباً 1560 مقامات پر ان کی ابن عباس سے تفسیر ان کی اولاد کی خاندانی سند سے نقل کرتے ہیں۔"
+died: { hijri: "0111", edtf: "0729/0730", calendar: julian, precision: year, status: historical, derived: true, note: "«المتوفى سنة ١١١» {cite:qiraat-inda-al-tabari-thesis-umm-al-qura p.48}؛ التحويل مشتق.", sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-abbas, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+  - { type: lived_in, target: place/kufa, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [levant-iraq]
+sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+provenance:
+  layer: own-research
+  source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 48"
+  generated_by: "Claude Code (OCR-harvest worker B)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }

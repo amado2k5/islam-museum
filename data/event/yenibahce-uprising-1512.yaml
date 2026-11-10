@@ -1,0 +1,23 @@
+id: event/yenibahce-uprising-1512
+class: event
+kind: revolt
+label: { ar: "انتفاضة يني بهجة", en: "Yenibahce Uprising (1512)" }
+summary:
+  ar: "بطاقة أولية لانتفاضة يني بهجة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Yenibahce Uprising (1512); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1512", precision: year, status: tradition, derived: true }
+  end: { edtf: "1512", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q6037877
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

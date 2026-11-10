@@ -1,0 +1,35 @@
+id: person/ibn-al-furfur
+class: person
+label: { ar: "شهاب الدين ابن الفرفور", en: "Shihab al-Din Ibn al-Furfur" }
+names:
+  - { kind: full, lang: ar, value: "قاضي القضاة شهاب الدين أبو العباس أحمد بن محمود بن عبد الله بن محمود الشهير بابن الفرفور الدمشقي الشافعي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+summary:
+  ar: "قاضي القضاة شهاب الدين أحمد بن الفرفور الدمشقي الشافعي، ولد في نصف شوال سنة اثنتين وخمسين وثمانمائة، وأخذ عن البرهان الباعوني وأبي القاسم بن الشيخ خليل والنجم بن قاضي عجلون والشمس السعدي وأبي المحاسن بن شاهين وغيرهم وبرع وتميز على أقرانه، وكان جامعاً بين العلم والرياسة والكرم وحسن العشرة بحيث قال الحمَوي إنه خاتم رؤساء الدنيا على الإطلاق وسلطان الفقهاء والرؤساء؛ ولى قضاء قضاة الشافعية بدمشق ثم جُمع له بينه وبين قضاء مصر يوم الخميس رابع ربيع الأول، توفي سنة إحدى عشرة وتسعمائة {cite:shadharat-dhahab p. 462-463}."
+  en: "'Seal of the world's dignitaries and sultan of jurists and chiefs' per al-Hamawi — b. mid-Shawwal 852, Damascus's Shafi'i chief qadi who was then granted the Cairo chief-judgeship together with it; d. 911 {cite:shadharat-dhahab p. 462-463}."
+born: { edtf: "1448-12~", hijri: "0852-10", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد نصف شوال 852 {cite:shadharat-dhahab p. 462}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1505/1506", hijri: "0911", calendar: julian, precision: year, status: tradition, derived: true, note: "911؛ التحويل مشتق {cite:shadharat-dhahab p. 463}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/ajlun, confidence: low, note: "Associated with عجلون per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 911)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch68
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

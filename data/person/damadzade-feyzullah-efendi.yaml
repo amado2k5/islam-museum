@@ -1,0 +1,30 @@
+id: person/damadzade-feyzullah-efendi
+class: person
+label:
+  ar: "داماد زاده فضل الله أفندي"
+  en: "Damadzade Feyzullah Efendi"
+roles: [writer, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لداماد زاده فضل الله أفندي، عالم وكاتب عثماني القرن الثامن عشر، توفي سنة ١٧٦١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Damadzade Feyzullah Efendi, the eighteenth-century Ottoman scholar and writer, d. 1761; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q116615932
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0076
+status:
+  review: draft
+  completeness: 1

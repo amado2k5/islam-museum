@@ -1,0 +1,24 @@
+id: event/greek-occupation-edirne-1920
+class: event
+kind: conquest
+label: { ar: "الاحتلال اليوناني لأدرنة", en: "Greek occupation of Edirne", ur: "ادرنہ پر یونانی قبضہ" }
+summary:
+  ar: "سقطت أدرنة تحت الاحتلال البلغاري لفترة وجيزة سنة 1913م بعد حربي البلقان، ثم احتلها اليونان بين عامي 1920 و1922م، وصارت منذ ذلك الحين مدينة حدود تركية {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}."
+  en: "After the Balkan Wars Edirne fell briefly under Bulgarian occupation in 1913, then was occupied by the Greeks between 1920 and 1922, and has since been a Turkish frontier city {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}."
+  ur: "بلقان جنگوں کے بعد ادرنہ 1913ء میں مختصر مدت کے لیے بلغاری قبضے میں آیا، پھر 1920ء سے 1922ء تک یونانیوں کے زیرِ قبضہ رہا، اور تب سے یہ ترکی کا سرحدی شہر ہے {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}۔"
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1920", hijri: "1338~", calendar: julian, precision: year, status: tradition, derived: true, note: "الاحتلال اليوناني 1920-1922م {cite:encyclopaedia-of-islam-2 vol. 2 p. 710}؛ الهجري مشتق." }
+  end: { edtf: "1922", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2, vol. 2 EDIRNE, PDF p. 710 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-edirne
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

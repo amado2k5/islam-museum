@@ -1,0 +1,34 @@
+id: person/abu-said-ismail-ibn-ahmad-al-ismaili
+class: person
+label: { ar: "أبو سعد الإسماعيلي", en: "Abu Sa'd al-Isma'ili" }
+names:
+  - { kind: full, lang: ar, value: "أبو سعد إسماعيل بن أحمد بن إبراهيم بن إسماعيل بن العباس الإسماعيلي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { hijri: "0396", edtf: "1005~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ست وتسعين وثلاثمائة بجرجان (PDF ص63)؛ مصدر ثانٍ مطلوب. ط: أبو سعيد (حاشية 1: الصواب أبو سعد).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو سعد إسماعيل بن أحمد الإسماعيلي، فقيه أديب جواد، جمع بين رياسة الدين والدنيا بجرجان، وأخذ العلم عن أبيه أبي بكر الإسماعيلي، ومات سنة ست وتسعين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 63}. ذكر الصاحب بن عباد في رسالة مدحه ومدح أخيه أبي نصر وأبيهما {cite:tabaqat-fuqaha-abbas-1981 p. 63}."
+  en: "Abu Sa'd Isma'il ibn Ahmad al-Isma'ili, a jurist, man of letters and generous; in Jurjan he combined religious leadership with worldly authority. He took knowledge from his father Abu Bakr al-Isma'ili and died in 396 AH {cite:tabaqat-fuqaha-abbas-1981 p. 63}. Al-Sahib ibn Abbad mentioned him in an epistle praising him, his brother Abu Nasr and their father {cite:tabaqat-fuqaha-abbas-1981 p. 63}."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: student_of, target: person/al-ismaili-abu-bakr-ahmad, role: "أخذ العلم عن أبيه أبي بكر الإسماعيلي (PDF ص63)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch86
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

@@ -1,0 +1,86 @@
+id: invention/combinatorics-ibn-munim
+class: invention
+label: { ar: "عد ابن منعم للتوافيق والتباديل", en: "Ibn Munim's combinatorial enumeration", ur: "ابن منعم کی توافیق و تباديل کی گنتی" }
+names:
+  - { kind: alternate, lang: en, value: "Combinatorial counting in sectionXI of Fiqh al-hisab" }
+summary:
+  ar: "توسيع لعد الحروف بواسطة ألوان ونماذج وجداول، لا اختراع كل عد أو حصر الكلمات ذات المعنى {cite:djebbar-ibn-munim-combinatoire pp9–13}."
+  en: "Extended letter counting through colour models, rules and tables, not all counting or a census of meaningful words {cite:djebbar-ibn-munim-combinatoire pp9–13}."
+  ur: "رنگ، نمونے، اصول و جدول سے حروف کی گنتی کی توسیع؛ ہر گنتی کی ایجاد یا بامعنی الفاظ کا شمار نہیں {cite:djebbar-ibn-munim-combinatoire pp9–13}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [maghreb, andalus-europe]
+periods: [period/abbasid-fragmentation]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "12XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad13th-century context. Djebbar tentatively1207–1212 from dedication, not dated colophon. No guessed exact composition or Hijri conversion;1551 copy not author date."
+    sources: [source/djebbar-ibn-munim-combinatoire, source/arrabita-ibn-munim-naqr]
+  status_today: transformed
+origin:
+  place: place/marrakesh
+  context:
+    ar: "تعليم ابن منعم المروي بمراكش؛ جبار لم يحسم مكان التأليف في تقريره الأقدم {cite:arrabita-ibn-munim-naqr section3} {cite:djebbar-ibn-munim-combinatoire p8}."
+    en: "Reported Marrakech teaching; Djebbar did not establish composition place in earlier report {cite:arrabita-ibn-munim-naqr section3} {cite:djebbar-ibn-munim-combinatoire p8}."
+    ur: "مراکش میں منقول تدریس؛ جبار کی پرانی رپورٹ مقام تصنیف طے نہیں کرتی {cite:arrabita-ibn-munim-naqr section3} {cite:djebbar-ibn-munim-combinatoire p8}۔"
+makers:
+  - person: person/ibn-munim-al-abdari
+    role: improver
+    note: "Explicit named Muslim classification from Arrabita; Sunni separately default frame, not personal school certificate. Distinct from Sicilian namesake."
+    sources: [source/arrabita-fiqh-hisab, source/arrabita-ibn-munim-naqr]
+attribution:
+  status: improvement
+  claim:
+    ar: "صياغة منتظمة للتوافيق والتباديل والتكرار في عد لغوي."
+    en: "Systematic combinations, permutations and repetition within linguistic enumeration."
+    ur: "لسانی گنتی میں توافیق، تباديل و تکرار کی منظم صورت۔"
+  basis:
+    ar: "جبار يميز الاستدلال التوافقي عن بناء الكرجي الجبري السابق، ويشكك في نسبة ربط صريح بمعاملات ذات الحدين {cite:djebbar-ibn-munim-combinatoire pp10–12}."
+    en: "Djebbar distinguishes combinatorial reasoning from al-Karaji's earlier algebraic triangle and questions explicit binomial-coefficient identification {cite:djebbar-ibn-munim-combinatoire pp10–12}."
+    ur: "جبار توافقي دلیل و کرجی کے سابق جبری مثلث کو الگ کرتا، صریح دو حدی معاملات کی شناخت پر سوال رکھتا ہے {cite:djebbar-ibn-munim-combinatoire pp10–12}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "عد الخليل بن أحمد اللغوي والجدول الجبري السابق", en: "Al-Khalil's linguistic counting and earlier algebraic triangle", ur: "خلیل کی لسانی گنتی اور سابق جبری مثلث" }
+    note: "Distinct prior traditions named by Djebbar; no conflation with al-Karaji polynomial-arithmetic invention or verified copy chain."
+    sources: [source/djebbar-ibn-munim-combinatoire]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "عد عام مع أمثلة وجداول وتعليل، لا عد يدوي لقائمة ألفاظ ذات معنى {cite:djebbar-ibn-munim-combinatoire pp9–13}."
+    en: "General enumeration with examples, tables and reasoning, not manual listing of meaningful words {cite:djebbar-ibn-munim-combinatoire pp9–13}."
+    ur: "مثال، جدول و دلیل کے ساتھ عمومی شمار؛ بامعنی الفاظ کی دستی فہرست نہیں {cite:djebbar-ibn-munim-combinatoire pp9–13}۔"
+  history:
+    ar: "استقبال مغاربي تذكره الدراسات عند ابن البنا وابن هيدور، لا خط مباشر مثبت إلى باسكال {cite:arrabita-ibn-munim-naqr section2}."
+    en: "Maghribi reception reported for Ibn al-Banna/Ibn Haydur, not an established direct line to Pascal {cite:arrabita-ibn-munim-naqr section2}."
+    ur: "ابن البنا و ابن ہیدور میں منقول مغربی استقبال، پاسکال تک ثابت براہ راست خط نہیں {cite:arrabita-ibn-munim-naqr section2}۔"
+  significance: 3
+  why: "Bounded systematic combinatorial interpretation/extension; predecessors, model limits and modern notation distinguished."
+described_in: [work/fiqh-hisab-ibn-munim]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "أمثلة ورقية حديثة تفرق الاختيار عن الترتيب والتكرار."
+    en: "Modern paper examples distinguish selection, ordering and repetition."
+    ur: "جدید کاغذی مثالیں انتخاب، ترتیب اور تکرار الگ کرتی ہیں۔"
+  descendants:
+    ar: "تشابه تعليمي لا نسب مباشر لبرنامج؛ الصورة جدول حديث بترتيب مختلف."
+    en: "Teaching comparison, not direct software genealogy; image uses modern different layout."
+    ur: "تدریسی تقابل، سافٹ ویئر کا براہ راست نسب نہیں؛ تصویر کی ترتیب جدید و مختلف ہے۔"
+media: { image: media/ibn-munim-arithmetic-context, diagram: media/diagram-ibn-munim-counting }
+kids:
+  ar: "اختر بطاقتين مختلفتين من خمس، ثم اسأل هل تبديل موضعيهما يصنع اختياراً جديداً."
+  en: "Choose two different cards from five, then ask whether swapping positions makes a new selection."
+  ur: "پانچ میں سے دو مختلف کارڈ چنیں؛ پوچھیں جگہ بدلنے سے نیا انتخاب بنتا ہے یا نہیں۔"
+sources: [source/djebbar-ibn-munim-combinatoire, source/arrabita-ibn-munim-naqr, source/arrabita-fiqh-hisab, source/commons-pascal-small-rohieb]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b62", source: "Actual selected Djebbar/Arrabita and inspected CC0 image. Original manuscript/2005 edition not read; modern notation/examples independently checked." }

@@ -4,15 +4,18 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { MultiDirectedGraph } from "graphology";
 import {
-  Entity, LANGS, Localized, loadEnumIds, Prose, dateRange, loadEntities, loadPredicates, loadProse, loadStubs, p,
-  resolvePredicates, Range,
+  Entity, LANGS, Localized, loadEnumIds, Prose, dateRange, listFiles, loadEntities, loadPredicates, loadProse, loadStubs, p, rel,
+  resolvePredicate, Predicate, Range, ROOT,
 } from "./lib.js";
+import { gitDates } from "./git-dates.js";
 
 export interface Edge {
   from: string; to: string; type: string; inverse: boolean;
-  start?: any; end?: any; role?: string; note?: string; sources?: string[]; confidence?: string; perspective?: string;
+  start?: any; end?: any; via?: string; role?: string; note?: string; sources?: string[]; confidence?: string; perspective?: string;
+  derived?: boolean;
 }
-export interface ProseDoc { sections: { heading: string; markdown: string }[]; frontmatter: Record<string, any> }
+/** `updated`: YYYY-MM-DD of the last commit that touched this prose file (scripts/git-dates.ts). */
+export interface ProseDoc { sections: { heading: string; markdown: string }[]; frontmatter: Record<string, any>; updated: string }
 export interface Node {
   id: string; class: string; slug: string; label: Localized; summary: Localized;
   stub: boolean; wings: string[]; regions: string[]; periods: string[]; tags: string[]; aliases: string[]; themes: string[];
@@ -22,8 +25,11 @@ export interface Node {
   prose: Record<string, ProseDoc>;
   degree: number;
   contemporaries: string[];
+  /** YYYY-MM-DD of the last commit that touched data/<class>/<slug>.yaml (a stub: its stubs file); see scripts/git-dates.ts. */
+  updated: string;
 }
-export interface Compiled { generated: string; nodes: Node[]; edges: Edge[]; coverage: Coverage }
+/** `generated` and `commit` come from the HEAD commit, so the same commit compiles to the same graph (the clock only when there is no git). */
+export interface Compiled { generated: string; commit: string | null; nodes: Node[]; edges: Edge[]; coverage: Coverage }
 export interface Coverage {
   entities: number; stubs: number;
   byClass: Record<string, number>; byWing: Record<string, number>; byPeriod: Record<string, number>; byRegion: Record<string, number>; byTheme: Record<string, number>; emptyThemes: string[];
@@ -49,11 +55,12 @@ export function entitySpan(e: Entity): { span?: Range; display?: { start?: any; 
     case "building": return pick(e.built);
     case "object": return pick(e.made);
     case "work": return pick(e.composed);
+    case "award": return pick(e.since, e.until);
     default: return {};
   }
 }
 
-function splitSections(pr: Prose): ProseDoc {
+function splitSections(pr: Prose, updated: string): ProseDoc {
   const sections: { heading: string; markdown: string }[] = [];
   let cur: { heading: string; lines: string[] } | null = null;
   for (const line of pr.body.split("\n")) {
@@ -62,39 +69,141 @@ function splitSections(pr: Prose): ProseDoc {
     else if (cur) cur.lines.push(line);
   }
   if (cur) sections.push({ heading: cur.heading, markdown: cur.lines.join("\n").trim() });
-  return { sections, frontmatter: pr.frontmatter };
+  return { sections, frontmatter: pr.frontmatter, updated };
+}
+
+const inventionRolePredicate: Record<string, string> = {
+  inventor: "invented",
+  "co-inventor": "invented",
+  improver: "improved",
+  describer: "described",
+  transmitter: "transmitted",
+  translator: "transmitted",
+  disputed: "invented",
+};
+
+export function deriveInventionEdges(
+  entities: Entity[],
+  predicates: Record<string, Predicate>,
+  nodeIds: ReadonlySet<string>,
+): Edge[] {
+  const edges = new Map<string, Edge>();
+  const add = (from: string, to: string, type: string, meta: Partial<Edge>) => {
+    const predicate = predicates[type];
+    if (!predicate || !nodeIds.has(from) || !nodeIds.has(to)) return;
+    const forward: Edge = { from, to, type, inverse: false, derived: true, ...meta };
+    const inverse: Edge = { from: to, to: from, type: predicate.inverse, inverse: true, derived: true, ...meta };
+    for (const edge of [forward, inverse]) {
+      const key = `${edge.from}|${edge.to}|${edge.type}`;
+      const previous = edges.get(key);
+      if (!previous) edges.set(key, edge);
+      else {
+        const sources = [...new Set([...(previous.sources ?? []), ...(edge.sources ?? [])])].sort();
+        edges.set(key, { ...previous, sources });
+      }
+    }
+  };
+  const makerEdge = (person: string, invention: string, role: string, meta: Partial<Edge>) => {
+    const type = inventionRolePredicate[role];
+    if (type) add(person, invention, type, { ...meta, role });
+  };
+  const internalLink = (item: any, from: string, to: string) => {
+    if (item?.invention) add(from, to, "built_on", { note: item.note, sources: item.sources });
+  };
+
+  for (const entity of entities) {
+    if (entity.class === "invention") {
+      for (const maker of entity.makers ?? []) makerEdge(maker.person, entity.id, maker.role, {
+        start: maker.start, end: maker.end, role: maker.role, note: maker.note, sources: maker.sources,
+      });
+      for (const item of entity.precursors ?? []) internalLink(item, entity.id, item.invention);
+      for (const item of entity.dependents ?? []) internalLink(item, item.invention, entity.id);
+      for (const item of entity.spread ?? []) add(entity.id, item.place, "spread_to", {
+        start: item.start, via: item.via, note: item.note, sources: item.sources,
+      });
+      for (const work of entity.described_in ?? []) add(work, entity.id, "described", { sources: entity.sources });
+      for (const object of entity.examples ?? []) add(object, entity.id, "example_of", { sources: entity.sources });
+    }
+
+    for (const tie of entity.inventions ?? []) {
+      if (entity.class === "person") makerEdge(entity.id, tie.invention, tie.role, {
+        start: tie.start, end: tie.end, role: tie.role, note: tie.note, sources: tie.sources,
+      });
+      if (entity.class === "object" && tie.relation === "example-of") add(entity.id, tie.invention, "example_of", { role: tie.relation, sources: tie.sources });
+      if (entity.class === "work" && ["describes", "first-describes", "patent-of"].includes(tie.relation)) {
+        add(entity.id, tie.invention, "described", { role: tie.relation, sources: tie.sources });
+      }
+      if (entity.class === "place" && tie.relation === "spread-to") add(tie.invention, entity.id, "spread_to", {
+        start: tie.start, sources: tie.sources,
+      });
+    }
+  }
+  return [...edges.values()];
+}
+
+/**
+ * Modern Islam Browser (docs/plan/26 section 3.3): `awarded` / `awarded_to` edges derived from `honours[]` on the honoured
+ * record, written once per award, record and year, with the result as the edge role and the honour's sources.
+ */
+export function deriveHonourEdges(
+  entities: Entity[],
+  predicates: Record<string, Predicate>,
+  nodeIds: ReadonlySet<string>,
+): Edge[] {
+  const predicate = predicates.awarded;
+  if (!predicate) return [];
+  const edges = new Map<string, Edge>();
+  for (const entity of entities) {
+    for (const h of entity.honours ?? []) {
+      if (!h?.award || !nodeIds.has(h.award) || !nodeIds.has(entity.id)) continue;
+      const start = h.date ?? (typeof h.year === "number" ? { edtf: String(h.year), calendar: "gregorian", precision: "year" } : undefined);
+      const meta: Partial<Edge> = { role: h.result, note: [h.category, h.level, h.position ? `#${h.position}` : undefined].filter(Boolean).join(" · ") || undefined, start, sources: h.sources };
+      const forward: Edge = { from: h.award, to: entity.id, type: "awarded", inverse: false, derived: true, ...meta };
+      const inverse: Edge = { from: entity.id, to: h.award, type: predicate.inverse, inverse: true, derived: true, ...meta };
+      for (const edge of [forward, inverse]) {
+        const key = `${edge.from}|${edge.to}|${edge.type}|${h.year ?? h.date?.edtf ?? ""}|${h.category ?? ""}`;
+        if (!edges.has(key)) edges.set(key, edge);
+      }
+    }
+  }
+  return [...edges.values()];
 }
 
 export function compile(): Compiled {
-  const preds = loadPredicates();
-  const resolved = resolvePredicates(preds);
-  const entities = loadEntities().map((x) => x.entity);
+  const predicates = loadPredicates();
+  const loaded = loadEntities();
+  const entities = loaded.map((x) => x.entity);
   const stubs = loadStubs();
   const prose = loadProse();
   const g = new MultiDirectedGraph();
   const nodes = new Map<string, Node>();
+  const dates = gitDates(ROOT, ["data", "content"]);
+  // a stub has no file of its own: the newest of the stub files stands for all of them
+  const stubFiles = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")].map((f) => dates.dateOf(rel(f)));
+  const stubsUpdated = stubFiles.length ? stubFiles.sort().at(-1)! : dates.dateOf("data");
 
-  for (const e of entities) {
+  for (const { entity: e, file } of loaded) {
     const { span, display } = entitySpan(e);
     const { relations, label, summary, wings, regions, periods, tags, aliases, themes, id, class: cls, ...rest } = e;
     const node: Node = {
       id, class: cls, slug: id.split("/")[1], label, summary, stub: false,
       wings: wings ?? [], regions: regions ?? [], periods: periods ?? [], tags: tags ?? [], aliases: aliases ?? [], themes: themes ?? [],
-      span, display, coordinates: e.coordinates, data: rest, prose: {}, degree: 0, contemporaries: [],
+      span, display, coordinates: e.coordinates, data: rest, prose: {}, degree: 0, contemporaries: [], updated: dates.dateOf(rel(file)),
     };
     nodes.set(id, node);
   }
   for (const s of stubs) {
+    if (!s.id) continue;
     if (nodes.has(s.id)) continue;
     const [cls, slug] = s.id.split("/");
     nodes.set(s.id, {
       id: s.id, class: cls, slug, label: s.label ?? { en: slug }, summary: {}, stub: true, wings: [], regions: [], periods: [],
-      tags: [], aliases: [], themes: [], data: { note: s.note }, prose: {}, degree: 0, contemporaries: [],
+      tags: [], aliases: [], themes: [], data: { note: s.note }, prose: {}, degree: 0, contemporaries: [], updated: stubsUpdated,
     });
   }
   for (const pr of prose) {
     const n = nodes.get(pr.id);
-    if (n) n.prose[pr.lang] = splitSections(pr);
+    if (n) n.prose[pr.lang] = splitSections(pr, dates.dateOf(rel(pr.file)));
   }
   for (const n of nodes.values()) g.addNode(n.id);
 
@@ -103,13 +212,19 @@ export function compile(): Compiled {
   const add = (e: Edge) => { const k = `${e.from}|${e.to}|${e.type}`; if (!edges.has(k)) edges.set(k, e); };
   for (const e of entities) {
     for (const r of e.relations ?? []) {
-      const rp = resolved.get(r.type);
+      const rp = resolvePredicate(predicates, r.type, e.class, String(r.target ?? "").split("/")[0]);
       if (!rp || !nodes.has(r.target)) continue; // validate.ts reports these
+      if (rp.pred.derived) continue;
       const [src, dst] = rp.reversed ? [r.target, e.id] : [e.id, r.target];
       const { type: _t, target: _g, ...meta } = r;
       add({ from: src, to: dst, type: rp.canonical, inverse: false, ...meta });
       add({ from: dst, to: src, type: rp.pred.inverse, inverse: true, ...meta });
     }
+  }
+  for (const edge of deriveInventionEdges(entities, predicates, new Set(nodes.keys()))) add(edge);
+  for (const edge of deriveHonourEdges(entities, predicates, new Set(nodes.keys()))) {
+    const k = `${edge.from}|${edge.to}|${edge.type}|${edge.start?.edtf ?? ""}|${edge.note ?? ""}`;
+    if (!edges.has(k)) edges.set(k, edge);
   }
   for (const e of edges.values()) { g.addEdge(e.from, e.to, { type: e.type }); }
   for (const n of nodes.values()) n.degree = g.degree(n.id);
@@ -121,13 +236,13 @@ export function compile(): Compiled {
       .filter((b) => b.id !== a.id)
       .map((b) => ({ id: b.id, overlap: Math.min(a.span!.latest, b.span!.latest) - Math.max(a.span!.earliest, b.span!.earliest) }))
       .filter((x) => x.overlap > 0)
-      .sort((x, y) => y.overlap - x.overlap)
+      .sort((x, y) => y.overlap - x.overlap || x.id.localeCompare(y.id)) // ties by id, so file order never decides who is shown
       .slice(0, 12)
       .map((x) => x.id);
   }
 
   const list = [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id));
-  return { generated: new Date().toISOString(), nodes: list, edges: [...edges.values()], coverage: coverage(list, entities) };
+  return { generated: dates.committed ?? new Date().toISOString(), commit: dates.commit, nodes: list, edges: [...edges.values()], coverage: coverage(list, entities) };
 }
 
 function tally<T>(items: T[], key: (t: T) => string[]): Record<string, number> {

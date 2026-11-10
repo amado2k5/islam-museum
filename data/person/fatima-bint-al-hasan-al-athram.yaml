@@ -1,0 +1,27 @@
+id: person/fatima-bint-al-hasan-al-athram
+class: person
+label:
+  ar: "فاطمة بنت الحسين الأثرم"
+  en: "Fatima bint al-Hasan al-Athram"
+roles: [scholar]
+summary:
+  ar: "بطاقة أولية لفاطمة بنت الحسين الأثرم؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Fatima bint al-Hasan al-Athram (hadith transmitter of the Athram family); the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/mongol-post-mongol]
+born: { edtf: "730~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nasab Quraysh" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q18689544
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; biographical/building record — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0104
+status:
+  review: draft
+  completeness: 1

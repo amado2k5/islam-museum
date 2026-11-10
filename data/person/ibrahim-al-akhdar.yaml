@@ -1,0 +1,30 @@
+id: person/ibrahim-al-akhdar
+class: person
+label: { ar: "إبراهيم الأخضر", en: "Ibrahim al-Akhdar", ur: "ابراہیم اخضر" }
+names:
+  - { value: "إبراهيم بن الأخضر القيم", kind: full }
+  - { value: "Ibrahim al-Akhdar", kind: full }
+  - { value: "Ibrahim Al-Akhdar Al-Qayyim", kind: alternate }
+gender: male
+summary:
+  ar: "قارئ وإمام سعودي من المدينة المنورة ⁦(وُلد 1364هـ/1944)⁩، قرأ القراءات العشر على عبد الفتاح القاضي، وأمّ في المسجد الحرام ثم في المسجد النبوي تسع سنين من 1406هـ، ودرّس في الجامعة الإسلامية، وكان ممن اقترحوا على ابن باز إنشاء كلية القرآن الكريم فيها."
+  en: "Saudi reciter and imam from Medina (born 1364 AH/1944) who read the ten readings with Abd al-Fattah al-Qadi, led prayers at the Masjid al-Haram and then for nine years from 1406 AH at the Prophet's Mosque, taught at the Islamic University of Madinah, and was among those who proposed its Faculty of the Qur'an to Ibn Baz."
+  ur: "مدینہ منورہ کے سعودی قاری اور امام ⁦(پیدائش 1364ھ/1944ء)⁩، جنھوں نے عبد الفتاح القاضی سے قراءاتِ عشرہ پڑھیں، مسجد حرام اور پھر 1406ھ سے نو برس مسجد نبوی میں امامت کی، اسلامی یونیورسٹی مدینہ میں پڑھایا، اور ان لوگوں میں تھے جنھوں نے ابن باز کو وہاں کلیۃ القرآن کے قیام کی تجویز دی۔"
+wings: [people, living]
+regions: [arabia]
+roles: [reciter, imam, teacher]
+born: { edtf: "1944", hijri: "1364", calendar: gregorian, precision: year, status: historical, derived: false, note: "The Arabic article gives 1364 AH (17 December 1944 – 6 December 1945) and Wikidata gives 1944; both are kept, the Gregorian year as Wikidata states it.", sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar] }
+relations:
+  - { type: born_in, target: place/medina, sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar]
+footprint:
+  wikipedia: { languages: [ar, ckb, ps, ur], checked: "2026-11-06", sources: [source/wikidata-ibrahim-al-akhdar] }
+  wikidata: "Q12181535"
+external_ids: { wikidata: "Q12181535" }
+sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar]
+provenance: { layer: own-research, source: "Arabic Wikipedia «إبراهيم الأخضر» (revision 64559889, 14 September 2023) and Wikidata Q12181535 (revision 2468739951), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b02 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

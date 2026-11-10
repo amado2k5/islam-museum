@@ -1,0 +1,21 @@
+id: person/abu-awn-abd-al-malik
+class: person
+label: { ar: "أبو عون عبد الملك بن يزيد", en: "Abu 'Awn 'Abd al-Malik ibn Yazid" }
+summary:
+  ar: "رحل مع صالح بن علي وعامر بن إسماعيل المذحجي في طلب مروان بن محمد فلحقوه بمصر نازلاً ببوصير فبايتوه وهجموا على عسكره ونادوا يا لثارات إبراهيم فقتل مروان ليلة الأحد لثلاث بقين من ذي الحجة سنة اثنتين وثلاثين ومائة {cite:muruj-al-dhahab p. 233}."
+  en: "Salih ibn 'Ali's partner in the pursuit to Busir — the night assault crying 'revenge for Ibrahim' in which Marwan fell {cite:muruj-al-dhahab p. 233}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch33
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "785~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari, Tarikh al-Rusul wa'l-Muluk" }
+relations:
+  - { type: traveled_to, target: place/misr, note: "Joined Salih ibn Ali's pursuit of the last Umayyad caliph Marwan to Busir in Egypt, where Marwan was killed.", sources: [source/muruj-al-dhahab], confidence: medium }

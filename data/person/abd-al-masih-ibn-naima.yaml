@@ -1,0 +1,13 @@
+id: person/abd-al-masih-ibn-naima
+class: person
+label: { ar: "عبد المسيح بن ناعمة", en: "Abd Al Masih Ibn Naima" }
+summary:
+  ar: "ابن ناعمة واسمه عبد المسيح بن عبد الله الحمصي الناعمي من النقلة {cite:fihrist-ibn-al-nadim p. 341}."
+  en: "Ibn Na'ima of Homs — translator of the Theology of Aristotle {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "810~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+died: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+relations:
+  - { type: lived_in, target: place/homs, note: "Place association from the person's nisba/name (الحمصي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

@@ -1,0 +1,24 @@
+id: person/porphyry-furfuris
+class: person
+label: { ar: "فرفوريس الحكيم", en: "Porphyry (Furfuris)" }
+summary:
+  ar: "الحكيم صاحب كتاب إيساغوجي وهو المدخل إلى علم المنطق والكتاب بهذا الرجل يعرف؛ عند المسعودي أن قبره في الأطمة المعروفة بأطمة صقلية {cite:muruj-al-dhahab p. 357}."
+  en: "The philosopher Porphyry, author of the Isagoge — the gateway to logic, a book known by his name; al-Mas'udi places his tomb in the fire-vent (atma) of Sicily {cite:muruj-al-dhahab p. 357}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [andalus-europe]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 357"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "234~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Stanford Encyclopedia of Philosophy" }
+died: { edtf: "305~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Stanford Encyclopedia of Philosophy" }
+relations:
+  - { type: lived_in, target: place/siqilliya, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

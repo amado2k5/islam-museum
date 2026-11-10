@@ -1,0 +1,23 @@
+id: event/siege-of-bilbeis-1168
+class: event
+kind: siege
+label: { ar: "حصار بلبيس", en: "Siege of Bilbeis" }
+summary:
+  ar: "بطاقة أولية لحصار بلبيس؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Siege of Bilbeis; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1168", precision: year, status: tradition, derived: true }
+  end: { edtf: "1168", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q51913264
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

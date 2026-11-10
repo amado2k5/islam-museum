@@ -1,0 +1,27 @@
+id: event/thaalibi-bukhara-journey-999
+class: event
+kind: other
+label:
+  ar: "رحلة الثعالبي إلى بخارى في أيام السامانيين الأخيرة، نحو ٣٨٩هـ"
+  en: "Al-Tha'alibi's journey to Bukhara in the Samanids' last days, c. 389/999"
+  ur: "سامانیوں کے آخری ایام میں ثعالبی کا بخارا کا سفر، تقریباً 389ھ/999ء"
+summary:
+  ar: "رحل الثعالبي باكراً إلى بخارى إبان الاحتضار الأخير للدولة السامانية التي خلفها محمود الغزنوي {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}؛ وانتهى الأمر بالسامانيين سنة ٣٨٩هـ حين دخل محمود وإيلك خان البلاد {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}."
+  en: "Early in his career al-Tha'alibi journeyed to Bukhara during the death throes of the Samanid dynasty which Mahmud of Ghazna was to supersede {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}; the Samanids ended in 389/999 when Mahmud and the Ilig Khan partitioned their realm {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}."
+  ur: "ابتدائی دور میں ثعالبی نے بخارا کا سفر کیا اس وقت جب سامانی سلطنت اپنے آخری ایام گزار رہی تھی جس کی جگہ محمود غزنوی نے لی {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}؛ سامانیوں کا خاتمہ 389ھ/999ء میں ہوا جب محمود اور ایلک خان نے ان کی ریاست بانٹ لی {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0999~", hijri: "0389~", calendar: julian, precision: year, status: historical, derived: true, note: "«في أيام الاحتضار الأخير للسامانيين»؛ عُلّقت على سنة سقوطهم ٣٨٩هـ؛ تقريبية مشتقة {cite:encyclopaedia-of-islam-2 vol. 10 p. 450-451}", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/bukhara, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-thaalibi, role: "المسافر", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 10 (T-U), PDF pp. 450-452, art. al-Tha'alibi, Abu Mansur 'Abd al-Malik (P. J. E. Cachia); wafayat-ayan (Ihsan Abbas ed.) notice of al-Tha'alibi; shadharat-dhahab vol. 3 s.a. 429, printed pp. 246-247"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-thaalibi-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

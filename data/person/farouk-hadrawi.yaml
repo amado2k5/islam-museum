@@ -1,0 +1,32 @@
+id: person/farouk-hadrawi
+class: person
+label: { ar: "فاروق حضراوي", en: "Farouk Hadrawi", ur: "فاروق حضراوی" }
+names:
+  - { value: "فاروق عبد الرحمن حضراوي", kind: full }
+  - { value: "Farouk Hadrawi", kind: full }
+  - { value: "Farooq Hadrawi", kind: alternate }
+gender: male
+summary:
+  ar: "مؤذن سعودي ⁦(وُلد بالطائف 1365هـ/1946)⁩، مؤذن مسجد نمرة بعرفة منذ 1410هـ ومؤذن المسجد الحرام منذ محرم 1415هـ، نشأ في حارة الشامية يسمع مؤذني الحرم، وأذّن قبل ذلك في مسجد العمرة بالتنعيم وفي الرياض، ورفع الأذان في لندن عامين."
+  en: "Saudi muezzin (born at Taif, 1365 AH/1946), muezzin of Namira Mosque at Arafat since 1410 AH and of the Masjid al-Haram since Muharram 1415 AH; he grew up in Mecca's Shamiyya quarter within earshot of the Haram's muezzins, served earlier at the Aisha (Umra) Mosque and in Riyadh, and called the adhan in London two years running."
+  ur: "سعودی مؤذن ⁦(پیدائش طائف، 1365ھ/1946ء)⁩، 1410ھ سے عرفات کی مسجد نمرہ اور محرم 1415ھ سے مسجد حرام کے مؤذن؛ مکہ کے محلہ شامیہ میں حرم کے مؤذنوں کی آوازیں سنتے پلے بڑھے، پہلے مسجد عائشہ ⁦(مسجد العمرہ)⁩ اور ریاض میں اذان دی، اور دو برس لندن میں بھی اذان دی۔"
+wings: [people, living]
+regions: [arabia]
+roles: [muezzin]
+born: { edtf: "1946-08-07", hijri: "1365-09-10", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article gives 10 Ramadan 1365 AH at Taif; Wikidata gives 7 August 1946 and Taif, which is the same day.", sources: [source/wikipedia-farouk-hadrawi-ar, source/wikidata-farouk-hadrawi] }
+relations:
+  - { type: born_in, target: place/taif, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-farouk-hadrawi] }
+  - { type: born_in, target: place/taif, sources: [source/wikipedia-farouk-hadrawi-ar, source/wikidata-farouk-hadrawi] }
+  - { type: lived_in, target: place/mecca, sources: [source/wikipedia-farouk-hadrawi-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic article nor Wikidata names a school for him. Not recorded."
+    sources: [source/wikipedia-farouk-hadrawi-ar, source/wikidata-farouk-hadrawi]
+footprint:
+  wikipedia: { languages: [ar, ur], checked: "2026-11-06", sources: [source/wikidata-farouk-hadrawi] }
+  wikidata: "Q12230097"
+external_ids: { wikidata: "Q12230097" }
+sources: [source/wikipedia-farouk-hadrawi-ar, source/wikidata-farouk-hadrawi]
+provenance: { layer: own-research, source: "Arabic Wikipedia «فاروق حضراوي» (revision 76712877, 24 September 2026) and Wikidata Q12230097 (revision 2468667036), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b03 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

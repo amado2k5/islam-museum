@@ -1,0 +1,17 @@
+id: passage/bukhari-2805
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2805"
+label: { ar: "البخاري 2805 — استشهاد أنس بن النضر", en: "Bukhari 2805 — The martyrdom of Anas ibn al-Nadr" }
+text: "غاب عمي أنس بن النضر عن قتال بدر فقال: يا رسول الله، غبت عن أول قتال قاتلت المشركين، لئن الله أشهدني قتال المشركين ليرين الله ما أصنع. فلما كان يوم أحد وانكشف المسلمون قال: اللهم إني أعتذر إليك مما صنع هؤلاء"
+summary:
+  ar: "في كتاب الجهاد؛ رواية أنس بن مالك عن عمه الذي فاته بدر فنذر، فلما انكشف الناس يوم أحد تقدم وقال لسعد بن معاذ «الجنة ورب النضر، إني أجد ريحها من دون أحد»، فوجدوا به بضعاً وثمانين ضربة وطعنة ورمية وقد مُثّل به حتى لم يعرفه إلا أخته ببنانه، وكانوا يظنون أن آية «من المؤمنين رجال صدقوا ما عاهدوا الله عليه» نزلت فيه وأشباهه."
+relations:
+  - { type: mentions, target: person/anas-ibn-al-nadr, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/sad-ibn-muadh, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/battle-of-uhud, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2805 (كتاب الجهاد والسير)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,29 @@
+id: event/nuwayri-flogged-710
+class: event
+kind: other
+label:
+  ar: "ابن عبادة يضرب النويري بالمقارع ويصادره، نحو ٧١٠هـ/١٣١٠م"
+  en: "Ibn Abbada has al-Nuwayri flogged and confiscates his property, c. 710/1310"
+  ur: "ابن عبادہ نے نويری کو مقارع سے مارا اور مال ضبط کیا، تقریباً 710ھ/1310ء"
+summary:
+  ar: "كان ابن عبادة وكيل الخاص قد استناب النويري في المدرسة الناصرية والمنصورية وغيرهما فصار يدخل على السلطان ويطالعه بالأمور، فأغِر بذلك وبسط القول في ابن عبادة، فلم يمنع السلطان منه وقيعته في ابن عبادة وسلّمه إليه ومكّنه منه، فضربه بالمقارع ضرباً مبرحاً وصادره، ولم يشكر النويريَ أحدٌ على ما كان منه؛ وبعدها بقليل أُبعد إلى الشام ولا يلمح إلى هذه النكبة في كتابه إلا أنه يذكر نقله إلى طرابلس {cite:suluk-maqrizi p. 91} {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}."
+  en: "Ibn Abbada, the sultan's wakil al-khass, had made al-Nuwayri his deputy at the Nasiriyya, the Mansuriyya and elsewhere, so that he entered upon the sultan and read affairs with him; puffed up by this he spoke loosely of Ibn Abbada, and the sultan did not restrain his denunciation but handed him over to Ibn Abbada and empowered him, who flogged him severely and confiscated his property — and nobody thanked al-Nuwayri for what he had done. Soon after he was sent away to Syria; he does not even hint at this misfortune in his work and mentions only his transfer to Tripoli {cite:suluk-maqrizi p. 91} {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}."
+  ur: "سلطان کے وکیل خاص ابن عبادہ نے نويری کو ناصریہ، منصوریہ اور دیگر اداروں میں اپنا نائب بنایا تھا، جس سے وہ سلطان کے حضور حاضر ہو کر امور بیان کرنے لگے؛ اس پر مغرور ہو کر انہوں نے ابن عبادہ کے بارے میں کھل کر بات کی، سلطان نے ان کی وقیعت نہ روکی اور انھیں ابن عبادہ کے حوالے کر دیا، جس نے انھیں بری طرح مقارع سے مارا اور مال ضبط کیا — اور نويری کے اس کردار پر کسی نے ان کا شکریہ نہ ادا کیا۔ کچھ ہی بعد وہ شام روانہ کیے گئے؛ اپنی کتاب میں وہ اس نکبت کی طرف اشارہ بھی نہیں کرتے، صرف طرابلس منتقلی کا ذکر ہے {cite:suluk-maqrizi p. 91} {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}۔"
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1310~", hijri: "0710~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد عودة الناصر أواخر رمضان ٧٠٩هـ/مارس ١٣١٠م وقبل إرساله إلى طرابلس ووصوله إليها في صفر ٧١٠هـ/يوليو ١٣١٠م؛ مات ابن عباده سنة ٧١٠هـ {cite:suluk-maqrizi p. 91} {cite:encyclopaedia-of-islam-2 vol. 8 p. 158}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/suluk-maqrizi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nuwayri, role: "المضروب المصادر", sources: [source/suluk-maqrizi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-abbada-al-malatiqi, role: "الضارب المصادر", sources: [source/suluk-maqrizi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "سلّمه إليه ومكّنه منه", sources: [source/suluk-maqrizi] }
+sources: [source/suluk-maqrizi, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Maqrizi, Suluk j.2 printed p. 91 (harvest iB_Sl__2-1 scan p.107); EI2 vol. 8 p. 158"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-nuwayri-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

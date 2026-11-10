@@ -1,0 +1,27 @@
+---
+// Prophet Quest page: loads + honorifies stops, renders the quest + grown-ups note.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ProphetQuest from "../../../components/ProphetQuest.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadQuestStops, viewQuestStops } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const stops = viewQuestStops(loadQuestStops(), lang);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.quest_title} description={t.quest_lede} path={`/${lang}/sighar/quest/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.quest_title}</span>
+  </nav>
+  <ProphetQuest lang={lang} t={t} stops={stops} />
+  <details class="grownups">
+    <summary>{t.grownups_title}</summary>
+    <p>{t.grownups_quest}</p>
+  </details>
+</BaseLayout>

@@ -1,0 +1,41 @@
+id: person/hammad-ibn-zayd
+class: person
+label: { ar: "حماد بن زيد", en: "Hammad ibn Zayd" }
+names:
+  - { kind: full, lang: ar, value: "حماد بن زيد بن درهم الأزدي الجهضمي" }
+gender: male
+roles: [muhaddith, scholar]
+traditions: [sunni]
+born: { edtf: "0717", hijri: "0098", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0795", hijri: "0179", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث بصري من أتقى الحفاظ وأعدلهم، حفظ أربعة آلاف حديث، وكان ضريرا."
+  en: "A hadith scholar of Basra, described as among the most pious and reliable memorizers. He memorized four thousand hadiths and was blind."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+external_ids:
+  wikidata: Q12208659
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص500-504"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch56
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

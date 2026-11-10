@@ -1,0 +1,29 @@
+id: person/al-fasi-muhammad-ibn-ahmad
+class: person
+label:
+  ar: "محمد بن أحمد الفاسي"
+  en: "al-Fasi, Muhammad ibn Ahmad"
+roles: [historian, qadi]
+gender: male
+summary:
+  ar: "محمد بن أحمد الفاسي المكي، مؤرخ مكة وقاضيها المالكي، صاحب «أخبار مكة»؛ من أعيان القرن التاسع."
+  en: "Muhammad ibn Ahmad al-Fasi al-Makki (1373–1429), historian and Maliki qadi of Mecca, author of Akhbar Makka."
+wings: [people]
+regions: [arabia]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q7684920
+provenance:
+  layer: own-research
+  source: "Ibn al-'Imad, Shadharat al-dhahab - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.9 p.288)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch8
+status:
+  review: published
+  completeness: 3
+born: { edtf: "1373", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+died: { edtf: "1429", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw')" }
+relations:
+  - { type: lived_in, target: place/mecca, note: "From text: qadi of Mecca", sources: [source/shadharat-dhahab] }

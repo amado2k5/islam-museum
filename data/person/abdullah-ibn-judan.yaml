@@ -1,14 +1,19 @@
 id: person/abdullah-ibn-judan
+education:
+  did_you_know:
+    ar: "عبد الله بن جدعان شيخ تيم بن مرة الكبير صاحب الشرف؛ في داره اجتمع حالفو الفضول وتعاقدوا على نصرة المظلوم بمكة."
+    en: "Abd Allah ibn Jud'an, the great shaykh of Taym ibn Murra and lord of honour — in his house the parties of the Fudul pact gathered and covenanted to back the wronged in Mecca."
+    ur: "عبداللہ بن جدعان، تیم بن مرہ کے بزرگ شیخ اور صاحبِ شرف — اس کے گھر میں حلف الفضول کے شرکا جمع ہوئے اور مکہ میں مظلوم کی نصرت کا عہد کیا۔"
+    sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
 label: { en: "Abdullah ibn Jud'an", ar: "عبد الله بن جدعان" }
 names:
   - { kind: full, lang: ar, value: "عبد الله بن جدعان التيمي" }
 gender: male
 roles: [tribal-leader]
-traditions: [sunni]
 summary:
   en: "The aged, honoured chief of Taym ibn Murra in whose house the Fudul pact was sworn — a byword in Mecca for hospitality."
-  ar: "شيخ تيم بن مرة الكبير صاحب الشرف؛ في داره اجتمع حالفو الفضول وتعاقدوا على نصرة المظلوم بمكة."
+  ar: "شيخ تيم بن مرة الكبير صاحب الشرف؛ في داره اجتمع حالفو الفضول وتعاقدوا على نصرة المظلوم بمكة. وعند المسعودي كان نخاساً في الجاهلية بياعاً للجواري وكان على قريش يوم حرب الفجار {cite:muruj-al-dhahab p. 584}"
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -16,8 +21,16 @@ story_roles:
   - { role: host, start: { edtf: "0586~" }, status: tradition, note: "داره كانت مجمع حلف الفضول لسنه وشرفه (الرحيق ص59).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "مكي ما قبل الإسلام." }
+died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham (al-Sirah)" }
 relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/hilf-al-fudul, role: "صاحب الدار مجمع الحلف", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 59-60" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch11"

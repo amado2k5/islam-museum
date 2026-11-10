@@ -1,0 +1,39 @@
+id: person/ibn-al-bitar-abu-muhammad-abd-allah-ibn-ahmad
+class: person
+label: { ar: "ابن البيطار أبو محمد عبد الله بن أحمد", en: "Ibn al-Bitar Abu Muhammad Abd Allah ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد عبد الله بن أحمد بن محمد بن أحمد بن عبد الملك المالقي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: nisba, lang: ar, value: "المالقي" }
+  - { kind: laqab, lang: ar, value: "ابن البيطار" }
+gender: male
+roles: [physician, scientist]
+traditions: [sunni]
+died: { edtf: "1248", hijri: "0646", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم بالنبات والعقاقير والطب من أهل مالقة في الأندلس، توفي سنة 646هـ ⁦(1248م)⁩."
+  en: "Scholar of plants, drugs and medicine from Malaga in al-Andalus; died 646 AH (1248 CE)."
+wings: [people]
+themes: [agriculture-and-botany, medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/malaga, confidence: low, note: "Associated with مالقة per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص308"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

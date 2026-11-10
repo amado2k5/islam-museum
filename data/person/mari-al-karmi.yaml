@@ -1,0 +1,30 @@
+id: person/mari-al-karmi
+class: person
+label:
+  ar: "مرعي الكرمي"
+  en: "Mar'i al-Karmi"
+roles: [jurist, historian]
+gender: male
+summary:
+  ar: "مرعي بن يوسف الكرمي المقدسي الحنبلي، مؤرخ وفقيه وأديب صاحب «دليل الطالب» ونحو سبعين كتاباً؛ توفي سنة 1033هـ ⁦(1624م)⁩."
+  en: "Mar'i al-Karmi al-Maqdisi (d. 1033/1624), Palestinian Hanbali jurist-historian of some seventy books."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+died: { edtf: "1624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+relations:
+  - { type: born_in, target: place/tulkarm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/tulkarm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q25451884
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.7 p.203)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch4
+status:
+  review: published
+  completeness: 3

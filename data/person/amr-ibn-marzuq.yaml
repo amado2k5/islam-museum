@@ -1,0 +1,30 @@
+id: person/amr-ibn-marzuq
+class: person
+label:
+  ar: "عمرو بن مرزوق"
+  en: "Amr ibn Marzuq"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمرو بن مرزوق؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Amr ibn Marzuq; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q106649220
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "839", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

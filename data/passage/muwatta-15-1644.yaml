@@ -1,0 +1,15 @@
+id: passage/muwatta-15-1644
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1644"
+label: { ar: "الموطأ 1644 — مالك: ذكر الله حكم الذين يرمون أزواجهم ولا شهداء لهم إلا أنفسهم، بأربع شهادات ثم الخامسة في اللعن والغضب", en: "Muwatta 1644" }
+summary:
+  ar: "يقول مالك قال الله تبارك وتعالى في الذين يرمون أزواجهم ولم يكن لهم شهداء إلا أنفسهم، فشهادة أحدهم أربع شهادات بالله، ثم الخامسة في اللعن إن كان من الكاذبين، ويدرأ عنها العذاب أن تشهد أربع شهادات، ثم الخامسة في الغضب إن كان من الصادقين. ويستشهد بآيات سورة النور. {cite:muwatta-maruf-1997 p.78}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-15-talaq }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/lian, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1644 at PDF p. 78; ما جاء في اللعان", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b36" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 78; matn excerpt at most 40 words" }

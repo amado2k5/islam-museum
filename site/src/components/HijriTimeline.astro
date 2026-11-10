@@ -1,0 +1,79 @@
+---
+// The Hijri-primary timeline (Part 3, C.2): one SVG, 1 BH-side to the current year, era bands beneath, one marker per Hijri year,
+// a draggable playhead with a dual-date readout, and a هجري/ميلادي toggle for the axis labels. Rendered at build time so it
+// reads without JavaScript. The browser script loads the full event data from /timeline-data/<lang>.json (progressive
+// enhancement only). The page draws a capped set of markers so it stays within its weight budget; every event is listed
+// without JavaScript on /<lang>/timeline/events/.
+import { ui, type Lang } from "../lib/i18n";
+import { timelineModel } from "../lib/timeline-model";
+import { ceTicks } from "../lib/timeline";
+import { W, xOf, yearLabel } from "../lib/timeline-layout";
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const model = timelineModel(lang);
+const { MIN, MAX, FLOOR, rtl, bands, early } = model;
+const SHOWN = 120; // markers drawn in the page; the rest are on the events list
+const step = Math.max(1, Math.ceil(model.markers.length / SHOWN));
+const markers = model.markers.filter((_, i) => i % step === 0);
+const lanes = Math.max(...markers.map((m) => m.lane)) + 1;
+const rows = Math.max(...bands.map((b) => b.row)) + 1;
+const LANE = 9, TOP = 12, BAND = 16;
+const axisY = TOP + lanes * LANE + 10;
+const H = axisY + 30 + rows * BAND + 6;
+const hTicks: number[] = [1];
+for (let y = 100; y < MAX; y += 100) hTicks.push(y);
+hTicks.push(MAX);
+const gTicks = ceTicks(MIN, MAX);
+// Build assertion (spec C.2): every marker and band edge lies on the rendered axis.
+for (const m of markers) if (m.x < 0 || m.x > W) throw new Error(`timeline: marker for year ${m.y} falls off the axis (${m.x})`);
+for (const b of bands) if (b.x0 < 0 || b.x1 > W) throw new Error(`timeline: band ${b.id} falls off the axis`);
+const dual = (y: number) => `${yearLabel(Math.floor(y), lang)}`;
+---
+<section class="tl ui" data-timeline data-cal="h" data-src={`/timeline-data/${lang}.json`} aria-labelledby="tl-title">
+  <div class="tl-head">
+    <h2 id="tl-title" style="margin:0;font-size:1.3rem">{T.timeline.title}</h2>
+    <div class="tl-tools">
+      <div class="tl-toggle" role="group" aria-label={T.timeline.calendar}>
+        <button type="button" data-cal-btn="h" aria-pressed="true">{T.today.hijri}</button>
+        <button type="button" data-cal-btn="g" aria-pressed="false">{T.today.gregorian}</button>
+      </div>
+      <button type="button" class="tl-reset" data-zoom-all hidden>{T.timeline.all}</button>
+    </div>
+  </div>
+  <p class="muted" style="margin:.2rem 0 .8rem;font-size:.9rem">{T.timeline.lede}</p>
+  <div class="tl-stage" data-stage>
+    <svg viewBox={`0 0 ${W} ${H}`} data-svg style="width:100%;height:auto;display:block;direction:ltr" role="img" aria-label={T.timeline.title}>
+      <g data-bands>
+        {bands.map((b) => (
+          <a href={b.href} data-band={b.id} data-from={b.from} data-to={b.to}>
+            <title>{b.label}</title>
+            <rect x={b.x0} y={axisY + 22 + b.row * BAND} width={Math.max(b.x1 - b.x0, 1)} height={BAND - 2} rx="3" class="tl-band" />
+            {b.x1 - b.x0 > 70 && <text x={(b.x0 + b.x1) / 2} y={axisY + 22 + b.row * BAND + 11} text-anchor="middle" class="tl-band-label">{b.label}</text>}
+          </a>
+        ))}
+      </g>
+      <line x1="0" x2={W} y1={axisY} y2={axisY} class="tl-axis" />
+      <g data-ticks-h class="tl-ticks tl-ticks-h">
+        {hTicks.map((y) => <g><line x1={xOf(y, MIN, MAX, rtl)} x2={xOf(y, MIN, MAX, rtl)} y1={axisY - 4} y2={axisY + 4} /><text x={xOf(y, MIN, MAX, rtl)} y={axisY + 16} text-anchor="middle">{yearLabel(y, lang)}</text></g>)}
+      </g>
+      <g data-ticks-g class="tl-ticks tl-ticks-g" aria-hidden="true">
+        {gTicks.map((t) => <g><line x1={xOf(t.y, MIN, MAX, rtl)} x2={xOf(t.y, MIN, MAX, rtl)} y1={axisY - 4} y2={axisY + 4} /><text x={xOf(t.y, MIN, MAX, rtl)} y={axisY + 16} text-anchor="middle">{t.ce}{lang === "ar" ? "م" : ""}</text></g>)}
+      </g>
+      <g data-markers>
+        {markers.map((m) => (
+          <a href={m.items[0].href} class="tl-marker" data-year={m.y} tabindex="0">
+            <title>{m.items.length === 1 ? `${m.items[0].label} — ${m.items[0].date}` : `${m.items.length} ${T.timeline.events_in} ${m.y < FLOOR + 1 && early.length && m.y === MIN ? T.timeline.before : dual(m.y)}`}</title>
+            <circle cx={m.x} cy={axisY - 10 - m.lane * LANE} r={m.r} />
+            {m.items.length > 1 && <text x={m.x} y={axisY - 10 - m.lane * LANE + 2.2} text-anchor="middle" class="tl-count">{m.items.length}</text>}
+          </a>
+        ))}
+      </g>
+      <g data-playhead class="tl-playhead" aria-hidden="true"><line x1={xOf(1, MIN, MAX, rtl)} x2={xOf(1, MIN, MAX, rtl)} y1={TOP - 4} y2={axisY + 20 + rows * BAND} /></g>
+    </svg>
+    <div class="tl-readout" data-readout role="slider" tabindex="0" aria-label={T.timeline.playhead} aria-valuemin={MIN} aria-valuemax={MAX} aria-valuenow="1" aria-valuetext={yearLabel(1, lang)} hidden></div>
+    <div class="tl-card" data-card hidden></div>
+  </div>
+  <p class="muted" style="font-size:.85rem;margin:.6rem 0 0">{T.timeline.note}</p>
+  <p style="margin:.4rem 0 0"><a href={`/${lang}/timeline/events/`}>{T.timeline.all_events_link}</a></p>
+</section>
+<script src="../scripts/timeline.ts"></script>

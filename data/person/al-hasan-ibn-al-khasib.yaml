@@ -1,0 +1,21 @@
+id: person/al-hasan-ibn-al-khasib
+class: person
+label: { ar: "الحسن بن الخصيب", en: "Al Hasan Ibn Al Khasib" }
+summary:
+  ar: "الحسن بن الخصيب أحد الحذاق بصناعة النجوم وله كتاب يسميه الكار مهتر يحتوي على أربعة كتب منها كتاب المدخل إلى علم الهيئة وكتاب تحويل سني العالم وكتاب المواليد وكتاب تحويل سني المواليد {cite:fihrist-ibn-al-nadim p. 385}."
+  en: "Al-Hasan ibn al-Khasib — the Karmihr astronomer {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "825~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+relations:
+  - { type: born_in, target: place/basra, note: "Ninth-century astrologer (Albubather); Basra birth per ar.wikipedia, flagged for review.", sources: [source/wikidata], confidence: low }
+  - { type: died_in, target: place/baghdad, note: "Died at Baghdad per ar.wikipedia, flagged for review.", sources: [source/wikidata], confidence: low }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch17

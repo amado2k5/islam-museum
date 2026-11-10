@@ -1,0 +1,48 @@
+id: media/illus-explorer-event-ghaznavid-rayy-420
+class: media
+kind: illustration
+label:
+  ar: "خلفية متصفح الزمن: دخول محمود الغزنوي الريّ سنة ٤٢٠"
+  en: "Time Browser backdrop: Mahmud of Ghazna Enters Rayy, 420"
+  ur: "ٹائم براؤزر کا پس منظر: محمود غزنوی کی رے میں آمد، ۴۲۰ھ"
+summary:
+  ar: خلفية مصوّرة خالية من الأشخاص لهذا الحدث، مولّدة محلياً. تعرض بيئة تاريخية متخيّلة لا إعادة بناء للواقعة؛ وتتوافر منها نسختان للكبار والصغار.
+  en: A locally generated, people-free illustrated backdrop for this event. It shows an imagined historical setting, not a reconstruction of the event; adult and kids versions are provided.
+  ur: اس واقعے کے لیے مقامی طور پر تیار کیا گیا، لوگوں سے خالی تصویری پس منظر۔ یہ واقعے کی بازتخلیق نہیں بلکہ ایک تصوراتی تاریخی ماحول دکھاتا ہے؛ بالغ اور بچوں کے الگ نسخے شامل ہیں۔
+wings:
+  - time
+alt:
+  en: An empty illustrated view of Rayy, with earth-toned historic-style buildings, courtyards and dry surrounding terrain. No people or writing; it is not a reconstruction of the event.
+  ar: مشهد تصويري خالٍ للريّ، بمبانٍ تاريخية الطراز بلون التراب وأفنية وأرض جافة؛ بلا أشخاص أو كتابة، وليس إعادة بناء للواقعة.
+  ur: رے کا لوگوں سے خالی تمثیلی منظر، مٹیالے رنگ کی تاریخی طرز کی عمارتوں، صحنوں اور خشک آس پاس کے علاقے کے ساتھ؛ کوئی لوگ یا تحریر نہیں، اور یہ واقعے کی بازتخلیق نہیں۔
+depicts:
+  - event/ghaznavid-rayy-420
+generated:
+  tool: scripts/time-browser-explorer-gen.py; cwebp
+  version: Diffusers 0.42.1; PyTorch 2.14.1; cwebp 1.6.0
+  model: stabilityai/stable-diffusion-xl-base-1.0
+  prompt_hash: ac8a29b49ed5e4a47d2e5ce29b8cf6b5db4309fb550c4df10104923ecb2b2c7a
+  inputs_hash: 53a2ce712781da1b35ea9722dda54a6d0b9cda81485fca490575766176d85bc6
+  adult_prompt_sha256: 6597641df9b27dc4c420763a2d1421a9e5ab03f0c13a89c201103478f365e7c8
+  kids_prompt_sha256: 77942020d7c4a8ee9b58e5ccf71f882bae6c6da4ffdccc3230b7eb8bb2b28fa6
+  negative_prompt_sha256: aa607dad646dee87c54b4c28ea183cfbf4987bb10d850084906c192fb0a04816
+  settings_sha256: 9929203ac0019a2f2c12db9b5eede5eb0509ce488be72643785084d29252b660
+  date: 2026-11-03
+precision: approximate
+license: AI-GENERATED
+attribution: AI-generated locally with Stable Diffusion XL Base 1.0; no third-party licence claim.
+files:
+  webp: media/time-browser/explorer/event-ghaznavid-rayy-420.webp
+  kids: media/time-browser/explorer/event-ghaznavid-rayy-420-kids.webp
+sources:
+  - source/muntazam-ibn-al-jawzi
+provenance:
+  source: event/ghaznavid-rayy-420; historical context follows the cited sources on this record
+  generated_by: Copilot SDK in VS Code; local SDXL generation
+  model: unknown (record authoring); stabilityai/stable-diffusion-xl-base-1.0 (images)
+  editor: VS Code
+  run: Time Browser place backdrops 2026-11-03; prompts and settings SHA-256 hashes recorded in generated; no seed recorded.
+status:
+  review: published
+  completeness: 1
+  generated_by: Copilot SDK in VS Code; images generated locally with SDXL

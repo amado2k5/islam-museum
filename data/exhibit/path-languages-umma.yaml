@@ -1,0 +1,78 @@
+id: exhibit/path-languages-umma
+class: exhibit
+kind: trail
+label:
+  ar: لغات الأمة
+  en: Languages of the Umma
+summary:
+  ar: 'مسار في ألسن المسلمين: العربية لسان القرآن، والفارسية والتركية والأردية والملاوية والسواحلية.'
+  en: A trail through the umma's tongues.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: العربية
+    en: Arabic
+  body:
+    ar: لسان الوحي والعلم ألف سنة.
+    en: لسان الوحي والعلم ألف سنة.
+  features:
+  - language/arabic
+  - concept/khatt-al-arabi
+- title:
+    ar: الفارسية
+    en: Persian
+  body:
+    ar: لسان الشعر والديوان من بخارى إلى دلهي.
+    en: لسان الشعر والديوان من بخارى إلى دلهي.
+  features:
+  - language/persian
+  - person/al-biruni-muhammad-ibn-ahmad
+- title:
+    ar: التركية
+    en: Turkish
+  body:
+    ar: لسان السلاطين والأناضول والبلقان.
+    en: لسان السلاطين والأناضول والبلقان.
+  features:
+  - language/turkish
+  - place/istanbul
+- title:
+    ar: الأردية
+    en: Urdu
+  body:
+    ar: لسان إقبال والهند الإسلامية.
+    en: لسان إقبال والهند الإسلامية.
+  features:
+  - language/urdu
+  - person/muhammad-iqbal
+- title:
+    ar: شرق آسيا وأفريقيا
+    en: East and West
+  body:
+    ar: 'ملاوية وسواحلية وهوسا: الإسلام بألسن البحار.'
+    en: 'ملاوية وسواحلية وهوسا: الإسلام بألسن البحار.'
+  features:
+  - language/malay
+  - language/indonesian
+  - language/swahili
+  - language/hausa
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

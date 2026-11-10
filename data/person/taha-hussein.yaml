@@ -1,0 +1,48 @@
+id: person/taha-hussein
+class: person
+label: { ar: "طه حسين", en: "Taha Hussein", ur: "طہ حسین" }
+names:
+  - { value: "طه حسين", kind: full }
+  - { value: "Taha Hussein (Ṭāhā Ḥusayn)", kind: full }
+gender: male
+summary:
+  ar: "كاتب وناقد مصري (1889–1973) لُقّب «عميد الأدب العربي»، فقد بصره طفلًا، ودرس في الأزهر والجامعة المصرية وفرنسا، وأثار كتابه «في الشعر الجاهلي» (1926) معركة فكرية كبرى، وصار أول عميد مصري لكلية الآداب ومديرًا لجامعة الإسكندرية ووزيرًا للمعارف (1950–1952) فجعل التعليم مجانيًا، وخلّف أكثر من ستين كتابًا في مقدمتها سيرته «الأيام»."
+  en: "Egyptian writer and critic (1889–1973) known as the Dean of Arabic Literature. Blinded in childhood, he studied at al-Azhar, the Egyptian University and in France; his On Pre-Islamic Poetry (1926) set off one of the great intellectual battles of the Arab world. He became the first Egyptian dean of the Faculty of Arts, founding rector of Alexandria University and Minister of Education (1950–1952), where he made schooling free, and left more than sixty books, headed by his autobiography The Days."
+  ur: "مصری ادیب و ناقد (1889–1973) جو «عمید الأدب العربی» کے لقب سے مشہور ہوا۔ بچپن میں بینائی سے محروم ہوا، ازہر، مصری یونیورسٹی اور فرانس میں تعلیم پائی؛ اس کی کتاب «فی الشعر الجاہلی» (1926) نے عرب دنیا میں بڑی فکری بحث چھیڑ دی۔ وہ کلیۂ آداب کا پہلا مصری عمید، جامعہ اسکندریہ کا بانی مدیر اور وزیرِ معارف (1950–1952) بنا، جہاں اس نے تعلیم مفت کر دی، اور ساٹھ سے زیادہ کتابیں چھوڑیں جن میں سرِ فہرست اس کی خودنوشت «الایام» ہے۔"
+roles: [writer, literary-critic, academic, politician]
+wings: [people]
+born:
+  edtf: "1889-11-14"
+  hijri: "1307"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Izbet el Kilo, a village near Maghagha in the Minya Governorate of Upper Egypt. Britannica and the English article's infobox give 14 November 1889; the English article's lead gives 15 November, and Wikidata carries both days as competing claims. The 14 November date is followed and the variant recorded. Neither Maghagha nor Minya has a place entity in the museum yet, so no born_in relation is written. The Hijri year (1307) is derived by tabular conversion."
+  sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein, source/wikidata-taha-hussein]
+died:
+  edtf: "1973-10-28"
+  hijri: "1393"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Cairo on 28 October 1973 (all sources agree). The Hijri year (1393) is derived by tabular conversion."
+  sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein, source/wikidata-taha-hussein]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein] }
+  - { type: student_of, target: person/muhammad-abduh, sources: [source/wikipedia-taha-hussein-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a legal school (madhhab) for Taha Hussein. The English article records that he was born to lower-middle-class Muslim parents, memorised the Qur'an at the village kuttab and studied religion and Arabic literature at al-Azhar; the Arabic article records his own words, on his visit to the Hijaz, speaking of himself as one of the Muslims who visit Mecca and Medina. Britannica describes al-Azhar as the leading Sunni centre of higher Islamic education — a description of the institution he attended, not of his own school — and Wikidata gives his religion as Islam generically (alongside one anomalous 'no religion' claim). A man's university and his parents' faith are not a school attestation, so the value stays unknown."
+    sources: [source/wikipedia-taha-hussein-en, source/wikipedia-taha-hussein-ar, source/britannica-taha-hussein, source/wikidata-taha-hussein]
+external_ids: { wikidata: "Q328765" }
+sources: [source/wikipedia-taha-hussein-en, source/wikipedia-taha-hussein-ar, source/wikipedia-taha-hussein-ur, source/wikidata-taha-hussein, source/britannica-taha-hussein]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Taha Hussein' (revision 1380567331), Arabic Wikipedia «طه حسين» (revision 76989454), Urdu Wikipedia «طہ حسین» (revision 9909485), Wikidata Q328765 (confirmed via the Wikidata API: human, born 1889 with competing 14/15 November claims, died 28 October 1973 at Cairo) and Encyclopaedia Britannica's entry 'Ṭāhā Ḥusayn' (last updated 24 October 2026), checked 24 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-7
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

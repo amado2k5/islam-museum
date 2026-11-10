@@ -1,0 +1,44 @@
+id: listing/quran-majeed
+class: listing
+kind: app
+label:
+  ar: "القرآن المجيد ⁦(تطبيق باكداتا)⁩"
+  en: "Quran Majeed (Pakdata app)"
+  ur: "قرآن مجید ⁦(پاک ڈیٹا کی ایپ)⁩"
+summary:
+  ar: "تطبيق لقراءة القرآن والاستماع إليه من شركة باكداتا في كراتشي، يضم تلاوات أكثر من ثلاثين قارئًا وترجمات وتفاسير بأكثر من خمسين لغة ومواقيت الصلاة والأذان والقبلة وأدوات للحفظ، على iOS وأندرويد وهواوي وماك؛ يقول موقعه إنه يعمل منذ 2010، وتعرض صفحته في جوجل بلاي أكثر من 10 ملايين تنزيل."
+  en: "A Qur'an reading and listening app by Pakdata of Karachi, with recitations by more than thirty reciters, translations and tafsir in more than fifty languages, prayer times, the adhan, the qibla and memorisation tools, on iOS, Android, Huawei and macOS; its site says it has been in use since 2010, and its Google Play page shows 10M+ downloads."
+  ur: "کراچی کی کمپنی پاک ڈیٹا کی قرآن پڑھنے اور سننے کی ایپ؛ تیس سے زیادہ قراء کی تلاوت، پچاس سے زیادہ زبانوں میں تراجم و تفاسیر، اوقاتِ نماز، اذان، قبلہ اور حفظ کے اوزار، iOS، اینڈرائیڈ، ہواوے اور میک پر؛ ویب سائٹ کے مطابق 2010 سے، اور گوگل پلے پر 1 کروڑ سے زائد ڈاؤن لوڈ۔"
+wings: [made, today]
+categories: [technology]
+regions: [south-asia, global]
+founded:
+  edtf: "2010"
+  hijri: "1431~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "'Trusted by millions since 2010', as the app's own site says; Dawn (2019) calls it Karachi-based. The Hijri year (1431) is converter-derived."
+  sources: [source/quran-majeed-site, source/dawn-islam360-2019]
+made: { by_muslims: false, basis: unverified }
+status_business: active
+location: { online_only: true, serves: [global] }
+links:
+  official: "https://quranmajeed.com"
+  play_store: "https://play.google.com/store/apps/details?id=com.pakdata.QuranMajeed"
+reach:
+  - { platform: play-store, metric: installs, value: 10000000, date: "2026-11-07", note: "10M+ band on the Google Play page, Android only; rated 4.7 from about 1.12 million reviews that day", sources: [source/google-play-quran-majeed] }
+footprint:
+  wikidata: "Q141967256"
+external_ids:
+  wikidata: Q141967256
+  official: https://quranmajeed.com
+sources: [source/quran-majeed-site, source/google-play-quran-majeed, source/dawn-islam360-2019]
+provenance:
+  layer: own-research
+  source: "quranmajeed.com, the Google Play page and Dawn (24 November 2019), read in Chrome on the founder's Mac on 7 November 2026; Wikidata Q141967256 (no sitelinks) checked the same day"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b07
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

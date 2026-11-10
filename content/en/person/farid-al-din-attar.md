@@ -1,0 +1,21 @@
+---
+id: person/farid-al-din-attar
+lang: en
+source_lang: en
+translators: ["Claude Code (claude-haiku-5-5)"]
+---
+
+## Life and dates
+Farid al-Din Muhammad ibn Ibrahim 'Attar was a Persian mystical poet. The dates of his birth and death cannot be fixed with certainty. Dawlatshah gives his birth as 513 AH (1119). The general belief is that he was killed by the Mongols at Nishapur in 627 AH (1230), but the entry notes that Nishapur was conquered by the Mongols as early as 617 AH (1220). A tarikh verse in some manuscripts, another source cited by Nafisi, and the inscription on the tomb erected by Mir 'Ali Shir give 586 AH (1190), three years after he wrote the Mantiq al-tayr. The entry notes that Nafisi keeps 627 but relies on a spurious book and on Jami's statement that 'Attar gave the Asrar-nama to Jalal al-Din Rumi, who emigrated from Balkh with his father in about 616 or 618 AH. He was a pharmacist and doctor, and though not really a Sufi he admired the holy men and was edified by tales about them from his youth. {cite:encyclopaedia-of-islam-2 vol. 1 p. 802}
+
+## Three groups of works
+The works attributed to him fall into three groups that differ so much in content and style that they are hard to ascribe to one man. The first group comprises the Mantiq al-tayr, the Ilahi-nama and the Musibat-nama, with the Diwan and the Mukhtar-nama. The second comprises the Ushturnama and the Diawhar al-dhat, and the third the Mazhar al-'Aja'ib and the Lisan al-ghayb. A fourth group has been shown on internal evidence not to be by 'Attar. The entry itself keeps the second group as possibly genuine, though doubtful, and treats the third group as conclusively spurious. {cite:encyclopaedia-of-islam-2 vol. 1 p. 802-803}
+
+## The first group
+The epics of the first group have a clear main story with many subsidiary tales, which are their main charm. The Mantiq al-tayr (the Conference of the Birds) describes the birds, led by the hoopoe, seeking the Simurgh, their elected king. Only thirty survive the seven dangerous valleys, and they recognise that they are the deity, merging in the Simurgh. The Musibat-nama describes a Sufi disciple advised by a pir to visit all mythical and cosmic beings, and finds the godhead in his own soul. The Ilahi-nama tells of a king's six sons who wish for worldly things and are drawn to higher aims. The Asrar-nama has no framing story and repeatedly mentions the gnostic motif of the pre-existing soul entangled in matter. The Khusraw-nama is a romantic novel of love and adventure, and the Pand-nama, a small moral treatise, enjoyed great popularity and was printed in Turkey at least eight times. {cite:encyclopaedia-of-islam-2 vol. 1 p. 803}
+
+## The second group and Halladi
+In the second group the tales are fewer, the interest is withdrawn from the external world, and a limited number of ideas are pursued with intensity: complete fana, even through physical death, monistic pantheism and the knowledge of oneself as God. The Ushturnama is built round a Turkish puppet player who stands for the deity, and its second part is almost entirely about Halladi, who speaks on the scaffold with Junayd, Ibn al-Khafif, Bayazid and Shibli and develops a monistic theology as God. The Diawhar al-dhat takes the same Halladi as its model of fana, and contains the story of 'Ali whispering divine secrets into a cistern which a reed later betrays; the entry sees a connection with the opening lines of Rumi's Mathnawi. {cite:encyclopaedia-of-islam-2 vol. 1 p. 803-804}
+
+## Other works and the question of authenticity
+Among the other works in the first group are the Diwan, printed in Tehran but not critically edited, and the Tadhkirat al-awliya, an extensive prose work of the biographies and sayings of mystics, ending with Halladi, which 'Attar treated freely. The third group, the Mazhar al-'Aja'ib, claims all his works and attributes them to its author; it prophesies Jalal al-Din Rumi and refers to Hafiz and Kasim-i Anwar, and its Shi'i character is evident, as is that of the Lisan al-ghayb. The entry says these works have no literary value, and it no longer accepts its own earlier view. Turkish studies and translations are numerous. {cite:encyclopaedia-of-islam-2 vol. 1 p. 804}

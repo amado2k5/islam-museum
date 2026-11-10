@@ -1,0 +1,23 @@
+id: event/battle-of-lugos-1695
+class: event
+kind: battle
+label: { ar: "معركة لوجاس", en: "Battle of Lugos" }
+summary:
+  ar: "بطاقة أولية لمعركة لوجاس سنة ١٦٩٥م، نصر العثمانيين على النمسا في ترانسيلفانيا بحرب الخمس عشرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Lugos in 1695, the Ottoman victory over Austria in Transylvania in the Great Turkish War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1695", precision: year, status: tradition, derived: true }
+  end: { edtf: "1695", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4871614
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Hungarian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

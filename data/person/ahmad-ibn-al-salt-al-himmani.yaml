@@ -1,0 +1,45 @@
+id: person/ahmad-ibn-al-salt-al-himmani
+class: person
+label:
+  ar: "أحمد بن الصلت الحماني"
+  en: "Ahmad ibn al-Salt al-Himmani"
+  ur: "احمد بن الصلت حمانی"
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن الصلت بن المغلس، أبو العباس الحماني البغدادي، ابن أخي جبارة بن المغلس" }
+  - { kind: alternate, lang: ar, value: "أحمد بن الصلت" }
+  - { kind: alternate, lang: ar, value: "أحمد بن عطية" }
+  - { kind: kunya, lang: ar, value: "أبو العباس" }
+roles: [scholar]
+gender: male
+summary:
+  ar: "أحمد بن محمد بن الصلت بن المغلس، أبو العباس الحماني، ويقال أحمد بن الصلت وأحمد بن عطية، ابن أخي جبارة بن المغلس، كوفي الأصل نزل الشرقية ببغداد، وذكر أنه سمع بدمشق هشام بن عمار. أجمع من نقل ابن عساكر أقوالهم على أنه كان يضع الحديث: قال الخطيب إن أكثر ما حدّث به باطل وضعه، وإنه صنع أخباراً في مناقب أبي حنيفة نسبها إلى بشر بن الحارث وابن معين وابن المديني، وقال ابن عدي: ما رأيت في الكذابين أقل حياء منه، وقال الدارقطني: متروك يضع الحديث. مات في شوال سنة 308هـ على ما صوّبه الخطيب {cite:tarikh-dimashq-amrawi-v5 p. 373-378}."
+  en: "Ahmad ibn Muhammad ibn al-Salt ibn al-Mughallis, Abu al-Abbas al-Himmani, also called Ahmad ibn al-Salt and Ahmad ibn Atiyya, nephew of Jubara ibn al-Mughallis, of Kufan origin, who lived in the Sharqiyya quarter of Baghdad and claimed to have heard Hisham ibn Ammar in Damascus. All the critics Ibn Asakir quotes agree that he forged hadith: al-Khatib says most of what he narrated was false and of his own making, and that he fabricated reports in praise of Abu Hanifa attributed to Bishr ibn al-Harith, Ibn Ma'in and Ibn al-Madini; Ibn Adi says he never saw a liar with less shame; al-Daraqutni says he was abandoned and forged hadith. He died in Shawwal 308 AH, the date al-Khatib held correct {cite:tarikh-dimashq-amrawi-v5 p. 373-378}."
+  ur: "احمد بن محمد بن الصلت بن المغلس، ابو العباس حمانی، جنہیں احمد بن الصلت اور احمد بن عطیہ بھی کہا جاتا ہے، جبارہ بن المغلس کے بھتیجے، اصلاً کوفی، بغداد کے محلہ شرقیہ میں رہتے تھے اور دعویٰ کرتے تھے کہ دمشق میں ہشام بن عمار سے سنا۔ ابن عساکر جن ناقدین کے اقوال نقل کرتے ہیں سب متفق ہیں کہ وہ حدیث گھڑتے تھے: خطیب کہتے ہیں کہ ان کی بیان کردہ اکثر روایات باطل اور ان کی اپنی گھڑی ہوئی ہیں، اور انہوں نے ابو حنیفہ کے مناقب میں بشر بن الحارث، ابن معین اور ابن المدینی کی طرف منسوب اخبار گھڑے؛ ابن عدی کہتے ہیں: میں نے جھوٹوں میں اس سے کم حیا والا نہیں دیکھا؛ دارقطنی: متروک، حدیث گھڑتا تھا۔ وہ شوال 308ھ میں فوت ہوئے، جسے خطیب نے درست قرار دیا {cite:tarikh-dimashq-amrawi-v5 p. 373-378}۔"
+died: { hijri: "0308-10", edtf: "0921-02/0921-03", calendar: julian, precision: month, status: debated, derived: true, note: "ابن قانع وعلي بن عمر الحربي: مات في شوال سنة 308، وصوّبه الخطيب؛ وقال عيسى بن حامد الرخجي: في المحرم سنة 302، وقال الخطيب: هذا خطأ {cite:tarikh-dimashq-amrawi-v5 p. 378}. التحويل مشتق بالحساب الجدولي لشوال 308.", sources: [source/tarikh-dimashq-amrawi-v5] }
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: related_to, target: concept/wad-al-hadith, sources: [source/tarikh-dimashq-amrawi-v5] }
+  - { type: wrote_about, target: person/abu-hanifa, sources: [source/tarikh-dimashq-amrawi-v5] }
+perspectives:
+  - tradition: sunni
+    id: sunni-wadda
+    standing: main
+    stance: { ar: "كذاب يضع الحديث", en: "A liar who forged hadith" }
+    summary:
+      ar: "الخطيب: حدّث بأحاديث أكثرها باطلة هو وضعها، وجمع أخباراً صنعها في مناقب أبي حنيفة؛ ابن عدي: يحدّث عن شيوخ ماتوا قبل أن يولد بدهر، وما رأيت في الكذابين أقل حياء منه؛ الدارقطني: متروك يضع الحديث؛ ابن أبي الفوارس: كان يضع؛ ابن قانع: ليس بثقة؛ أبو نعيم: يروي عن شيوخ لم يلقهم المشاهير والمناكير، لا شيء."
+      en: "Al-Khatib: he narrated hadiths most of which were false and of his own making, and compiled reports he fabricated in praise of Abu Hanifa; Ibn Adi: he narrated from shaykhs who had died long before he was born, and I never saw a liar with less shame; al-Daraqutni: abandoned, he forged hadith; Ibn Abi al-Fawaris: he used to forge; Ibn Qani': not trustworthy; Abu Nu'aym: he narrates well-known and objectionable reports from shaykhs he never met — worthless."
+    holders: [person/al-khatib-al-baghdadi-ahmad, person/al-daraqutni, person/abu-nuaym-al-asbahani-ahmad]
+    sources: [source/tarikh-dimashq-amrawi-v5]
+sensitivity: contested
+sources: [source/tarikh-dimashq-amrawi-v5]
+provenance:
+  layer: own-research
+  source: "تاريخ مدينة دمشق لابن عساكر، تحقيق العمروي، المجلد الخامس، الترجمة 158، ص 373–378"
+  generated_by: "Claude Code (OCR-harvest worker F)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

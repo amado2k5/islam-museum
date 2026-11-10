@@ -1,0 +1,31 @@
+id: person/ali-ibn-ahmad-ibn-bakri
+class: person
+label:
+  ar: "علي بن أحمد بن بكري"
+  en: "Ali ibn Ahmad ibn Bakri"
+roles: [linguist]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي بن أحمد بن بكري، لغوي وأديب، توفي سنة ١١٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ali ibn Ahmad ibn Bakri, the linguist and man of letters, d. 1180; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q62628415
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0072
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1180~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba" }
+relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: buried_in, target: place/al-wardya-cemetery, note: "Wikidata Q29513771 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

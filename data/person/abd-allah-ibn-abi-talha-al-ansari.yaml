@@ -1,0 +1,29 @@
+id: person/abd-allah-ibn-abi-talha-al-ansari
+class: person
+label:
+  ar: "عبد الله بن أبي طلحة الأنصاري"
+  en: "Abd Allah ibn Abi Talha al-Ansari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الله بن أبي طلحة الأنصاري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd Allah ibn Abi Talha al-Ansari; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q89384455
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 8–84 AH)" }
+died: { edtf: "703", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 8–84 AH)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,22 @@
+id: person/ismail-ibn-hammad-al-qadi
+class: person
+label: { ar: "إسماعيل بن حماد القاضي", en: "Isma'il ibn Hammad" }
+summary:
+  ar: "قاض دخل على المعتضد وعليه السواد فسلم عليه بالخلافة فكان أول من سلم عليه بها يوم موت المعتمد {cite:muruj-al-dhahab p. 595}."
+  en: "The qadi who first greeted al-Mu'tadid as caliph on the morning of al-Mu'tamid's sudden death {cite:muruj-al-dhahab p. 595}."
+gender: male
+wings: [people]
+died: { edtf: "827", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad / al-Khatib al-Baghdadi" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي ج2 ص 595"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+external_ids: { wikidata: "Q138050163" }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

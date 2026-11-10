@@ -1,0 +1,21 @@
+id: person/ibn-diraj-al-tufayli
+class: person
+label: { ar: "ابن دراج الطفيلي", en: "Ibn Diraj the Tufayli" }
+summary:
+  ar: "أشهر الطفيليين، وصفه المسعودي بأنه من أكمل الناس أدباً وأخفهم روحاً، تزيا في زي ندماء أحمد بن المدبر ودخل مجلسه، فلما افتضح تعقبه ابن المدبر بالشطرنج فغلب غلامه ثم بالنرد فغلب البواب ثم بالعود فغلب الشيخ الهاشمي ثم بالطنبور فغلب المحتكر، حتى انتهى إلى قوس بندق فرمى الحاجب بخمسين بندقة رصاص لم يخطئه بواحدة، وقال ما دام البرجاس استي فلا {cite:muruj-al-dhahab p. 561-563}."
+  en: "The most famous gatecrasher: outplayed Ibn al-Mudabbir's household at chess, backgammon, lute and tanbur, then put fifty lead pellets into the chamberlain's backside without a miss {cite:muruj-al-dhahab p. 561-563}."
+gender: male
+wings: [people]
+died: { edtf: "827", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي ج2 ص 561–563"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

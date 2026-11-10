@@ -1,0 +1,28 @@
+id: person/al-bandarmahwi
+class: person
+label:
+  ar: "الباندرموي"
+  en: "al-Bandarmahwi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "حامد بن يوسف الباندرموي ضياء الدين الإسكداري، فقيه حنفي نقشبندي رومي ⁦(١١١١–١١٧٢هـ)⁩، صاحب «جامع الفهارس» و«تعريفات الفحول»."
+  en: "Hamid ibn Yusuf al-Bandarmahwi, Rumi Hanafi Naqshbandi jurist (1111–1172/1700–1758), author of Jami' al-Faharis."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12184232
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.2 p.162)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0066
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (رومي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

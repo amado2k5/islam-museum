@@ -1,0 +1,36 @@
+id: person/ibn-al-dayri
+class: person
+label:
+  ar: "ابن الديري"
+  en: "Ibn al-Dayri"
+roles: [qadi, jurist]
+gender: male
+summary:
+  ar: "سعد الدين «ابن الديري»، قاضي الحنفية بمصر خمساً وعشرين سنة وجد الأسرة الخالدية؛ توفي سنة 867هـ ⁦(1463م)⁩."
+  en: "Sa'd al-Din “Ibn al-Dayri” (1367–1463), Hanafi chief qadi of Egypt, forefather of the Khalidiyya family."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1367", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+died: { edtf: "1462", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+relations:
+  - { type: born_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/shadharat-dhahab]
+external_ids:
+  wikidata: Q107246101
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.87)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

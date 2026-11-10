@@ -1,0 +1,27 @@
+id: work/quran-new-translation-khalidi
+class: work
+kind: book
+label: { ar: "القرآن: ترجمة جديدة ⁦(طريف الخالدي)⁩", en: "The Qur'an: A New Translation (Tarif Khalidi)", ur: "دی قرآن: نیا ترجمہ ⁦(طریف خالدی)⁩" }
+summary:
+  ar: "ترجمة إنجليزية لمعاني القرآن وضعها المؤرخ طريف الخالدي، أستاذ الدراسات الإسلامية في الجامعة الأمريكية في بيروت، ونشرتها سلسلة كلاسيكيات بنغوين سنة 2008 خلفًا لترجمة داود القديمة في السلسلة نفسها؛ تحاول أن تنقل إيقاع القرآن وبنيته، فتعرض المقاطع القصصية والتشريعية نثرًا والمقاطع الوجدانية والغيبية في هيئة شعرية، دون حواشٍ للسياق، ووصفها ضياء الدين سردار بأنها إنجاز رائع مع مآخذ على الترقيم وغياب الفهرس."
+  en: "An English rendering of the meanings of the Qur'an by the historian Tarif Khalidi, professor of Islamic studies at the American University of Beirut, published in Penguin Classics in 2008 as the successor to N. J. Dawood's old Penguin translation; it tries to convey the Qur'an's rhythm and structure, setting narrative and legislative passages as prose and dramatic and metaphysical ones in verse form, without context notes, and Ziauddin Sardar called it a magnificent achievement while faulting its numbering and its lack of an index."
+  ur: "قرآن کے معانی کا انگریزی ترجمہ از مؤرخ طریف خالدی، امریکن یونیورسٹی آف بیروت میں اسلامیات کے پروفیسر، جو 2008 میں پینگوئن کلاسکس میں اسی سلسلے کے داؤد کے پرانے ترجمے کی جگہ شائع ہوا؛ یہ قرآن کے آہنگ اور ساخت کو منتقل کرنے کی کوشش کرتا ہے، قصص اور احکام کے حصے نثر میں اور وجدانی و غیبی حصے شعری صورت میں، بغیر سیاقی حواشی کے؛ ضیاء الدین سردار نے اسے شاندار کارنامہ کہا مگر نمبر شماری اور اشاریے کی کمی پر اعتراض کیا۔"
+wings: [words, today]
+themes: [scripture-and-its-sciences, translation-and-transmission]
+regions: [levant-iraq]
+genre: [quran-translation]
+authors: [person/tarif-khalidi]
+language: language/english
+composed: { edtf: "2008", hijri: "1429", calendar: gregorian, precision: year, status: historical, derived: true, note: "Reviewed as a new Penguin Classics translation on 23 July 2008. The Gregorian year 2008 runs from Dhu al-Hijja 1428 to Dhu al-Hijja 1429 AH; the Hijri year is converter-derived. The Penguin Classics Deluxe paperback came later.", sources: [source/mg-khalidi-quran-2008] }
+editions:
+  - "The Qur'an: A New Translation. Penguin Classics, 2008"
+relations:
+  - { type: translation_of, target: work/quran, sources: [source/mg-khalidi-quran-2008] }
+sources: [source/mg-khalidi-quran-2008]
+provenance:
+  layer: own-research
+  source: "Ziauddin Sardar's review in the Mail & Guardian (23 July 2008), read in full in Chrome on the founder's Mac on 6 November 2026, for every fact of the record and its prose; no Wikipedia article or Wikidata item for the book itself was found (searched 6 November 2026)."
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-books-b02
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

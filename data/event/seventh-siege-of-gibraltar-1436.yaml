@@ -1,0 +1,23 @@
+id: event/seventh-siege-of-gibraltar-1436
+class: event
+kind: siege
+label: { ar: "حصار جبل طارق السابع", en: "Seventh Siege of Gibraltar" }
+summary:
+  ar: "بطاقة أولية لحصار جبل طارق السابع سنة ١٤٣٦م، محاولة المرينيين استردادها من قشتالة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Seventh Siege of Gibraltar in 1436, the Marinid attempt to retake it from Castile; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1436", precision: year, status: tradition, derived: true }
+  end: { edtf: "1436", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q7457743
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

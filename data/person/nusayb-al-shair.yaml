@@ -1,0 +1,22 @@
+id: person/nusayb-al-shair
+class: person
+label: { ar: "نصيب الشاعر", en: "Nusayb the Poet" }
+summary:
+  ar: "نصيب الشاعر؛ كان عبداً أسود لرجل من أهل وادي القرى فكاتب على نفسه ومدح عبد العزيز بن مروان فاشترى ولاءه؛ وكنيته أبو الحجناء وقيل أبو محجن؛ حضر يوماً هو والفرزدق عند سليمان بن عبد الملك وهو يومئذ خليفة فأنشد الفرزدق في مدح أبيه فأعرض عنه سليمان كالمغضب فأنشد نصيب في رويّتها فقال سليمان للفرزدق: كيف تراه؟ فقال: هو أشعر أهل جلدته {cite:wafayat-ayan}."
+  en: "Nusayb — the black slave-poet of Wadi al-Qura who bought his freedom by praising Abd al-Aziz b. Marwan; at Sulayman b. Abd al-Malik's court he outshone al-Farazdaq, who conceded 'he is the best poet of his kind' {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/umayyad]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء السادس (عارضة 308 داخل ترجمة الفرزدق)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch100
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nusayb b. Rabah); al-Aghani" }
+relations:
+  - { type: lived_in, target: place/wadi-al-qura, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wafayat-ayan] }

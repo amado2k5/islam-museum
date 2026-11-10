@@ -1,0 +1,30 @@
+id: person/ismail-ankaravi
+class: person
+label:
+  ar: "إسماعيل الأنقراوي"
+  en: "Ismail Ankaravi"
+roles: [sufi, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لإسماعيل الأنقراوي، شيخ وشاعر عثماني القرن السابع عشر، توفي سنة ١٦٣١م؛ تذكره كتب الأدب ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ismail Ankaravi, the seventeenth-century Ottoman sheikh and poet, d. 1631; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/ankara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q19613800
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0060
+status:
+  review: draft
+  completeness: 1

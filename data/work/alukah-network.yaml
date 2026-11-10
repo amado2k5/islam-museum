@@ -1,0 +1,40 @@
+id: work/alukah-network
+class: work
+kind: website
+label:
+  ar: "شبكة الألوكة"
+  en: "Alukah Network (alukah.net)"
+  ur: "شبکۃ الالوکہ ⁦(الوکہ نیٹ ورک)⁩"
+summary:
+  ar: "شبكة إسلامية دعوية وثقافية وعلمية وأدبية من ثلاثة عشر موقعًا بالعربية والإنجليزية، أُسست سنة 1427هـ/2006م، تضم آفاق الشريعة وثقافة ومعرفة ومجتمع وإصلاح والاستشارات وحضارة الكلمة والمسلمون في العالم والمكتبة والمكتبة الناطقة ومنتدى المجلس العلمي ومواقع شخصية لعلماء ودعاة؛ و«الألوكة» في العربية الرسالة."
+  en: "An Islamic network for da'wa, culture, scholarship and letters made of thirteen sites in Arabic and English, founded in 1427 AH / 2006, among them Afaq al-Shari'a, Culture and Knowledge, Society and Reform, Consultations, the Civilisation of the Word, Muslims in the World, a library, a talking library, the al-Majlis al-Ilmi forum and personal sites of scholars and preachers; 'alukah' is Arabic for a message."
+  ur: "دعوت، ثقافت، علم اور ادب کا اسلامی نیٹ ورک جو عربی اور انگریزی میں تیرہ سائٹوں پر مشتمل ہے، 1427ھ/2006 میں قائم ہوا؛ اس میں آفاق الشریعہ، ثقافت و معرفت، معاشرہ و اصلاح، مشاورت، حضارۃ الکلمہ، دنیا میں مسلمان، لائبریری، بولتی لائبریری، المجلس العلمی فورم اور علما کی ذاتی سائٹیں ہیں؛ «الالوکہ» عربی میں پیغام کو کہتے ہیں۔"
+wings: [words, today]
+url: "https://www.alukah.net"
+launched:
+  edtf: "2006"
+  hijri: "1427"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Founded in 1427 AH / 2006 (the network's printed report of 2016, as the Arabic article cites it); the earliest archived capture of alukah.net is of 7 February 2006."
+  sources: [source/wikipedia-alukah-ar, source/wayback-alukah-2006]
+languages: [ar, en]
+publisher: group/alukah-network
+archive_url: "https://web.archive.org/web/20060207031828/http://alukah.net/"
+content_type: education
+relations:
+  - { type: related_to, target: work/alukah, note: "the network's sermons section, recorded by the Khutab and Durus lane", sources: [source/alukah] }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-07", sources: [source/wikidata-alukah] }
+  wikidata: "Q25452545"
+external_ids:
+  wikidata: Q25452545
+sources: [source/wikipedia-alukah-ar, source/wayback-alukah-2006, source/wikidata-alukah, source/alukah]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «شبكة الألوكة» (revision 73239964, 29 January 2026), the Internet Archive capture of alukah.net of 7 February 2006 and Wikidata Q25452545, read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b09
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

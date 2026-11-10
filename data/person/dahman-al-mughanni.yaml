@@ -1,0 +1,21 @@
+id: person/dahman-al-mughanni
+class: person
+label: { ar: "دحمان المغني", en: "Dahman" }
+summary:
+  ar: "من مغني أيام الوليد بن يزيد واتخاذه القيان {cite:muruj-al-dhahab p. 201}."
+  en: "A singer of al-Walid's circle {cite:muruj-al-dhahab p. 201}."
+gender: male
+wings: [people]
+born: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

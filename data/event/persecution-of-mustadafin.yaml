@@ -5,14 +5,14 @@ label: { en: "The persecution of the vulnerable Muslims", ar: "اضطهاد ال
 summary:
   en: "After mockery and bargaining failed, a twenty-five-man committee of Quraysh's chiefs headed by Abu Lahab resolved to fight Islam and torture its adherents; the clanless and enslaved Muslims bore the worst — Bilal under the midday rocks, the family of Yasir, Sumayya the first martyr speared by Abu Jahl, Abu Fakiha, Khabbab, and slave women whom Abu Bakr bought and freed."
   ar: "بعد إخفاق السخرية والمساومة كوّن المشركون لجنة من خمسة وعشرين من سادات قريش رئيسها أبو لهب تقرر محاربة الإسلام وإيذاء رسوله وتعذيب الداخلين فيه؛ فكان أشد البلاء على المستضعفين — بلال تحت صخور الهاجرة، وآل ياسر، وسمية أول شهيدة طعنها أبو جهل بحربة، وأبو فكيهة وخباب والإماء اللواتي ابتاعهن أبو بكر فأعتقهن."
-wings: [time, people]
+wings: [time]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
   start: { edtf: "0613~", calendar: julian, precision: year, status: tradition, note: "بداية السنة الرابعة من النبوة وما بعدها (الرحيق ص85)." }
   end: { edtf: "0622~", calendar: julian, precision: year, status: tradition }
 significance:
-  ar: "مات ياسر في العذاب وطعن أبو جهل سمية في قبلها بحربة فكانت أول شهيدة في الإسلام؛ وابتاع أبو بكر بلالاً وعامر بن فهيرة والإماء المسلمات فأعتقهن (الرحيق ص90-91)."
+  ar: "مات ياسر في العذاب وطعن أبو جهل سمية في قبلها بحربة فكانت أول شهيدة في الإسلام؛ وابتاع أبو بكر بلالاً وعامر بن فهيرة والإماء المسلمات فأعتقهن ⁦(الرحيق ص90-91)⁩."
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/abu-lahab, role: "رئيس لجنة الخمسة والعشرين", sources: [source/mubarakpuri-raheeq] }
@@ -31,3 +31,19 @@ relations:
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 85-91" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b3", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/ibn-hisham-sira. Attribution metadata restored only; no new source pages examined."
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 85-91; Copilot SDK in VS Code (metadata restoration)
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  model: unknown
+  run: explorer-sixth-40-stories-2026-11-04

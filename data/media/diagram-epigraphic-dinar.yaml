@@ -1,0 +1,19 @@
+id: media/diagram-epigraphic-dinar
+class: media
+kind: illustration
+label: { ar: "السابقة والإصلاح والشاهد اللاحق", en: "Precedent, reform and later witness", ur: "سابقہ، اصلاح اور بعد کا شاہد" }
+summary:
+  ar: "سلسلة تعليمية حديثة تفصل السوابق والتصميم الكتابي والقطعة79هـ، لا تسلسل قوالب سك أصلية."
+  en: "Modern teaching chain separating precedents, epigraphic design and the79AH witness, not original mint dies."
+  ur: "سابقوں، تحریری ڈیزائن اور79ھ کے شاہد کو الگ کرنے والا جدید تعلیمی سلسلہ، اصل سانچے نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/abd-al-malik-epigraphic-dinar]
+alt:
+  ar: "مخطط مفهومي حديث من النقد الأقدم إلى الإصلاح ثم شاهده اللاحق، بلا نصوص آيات أو أشخاص."
+  en: "Modern conceptual chain from earlier coinage through reform to a later witness, without verse inscriptions or people."
+  ur: "پہلے کے سکوں سے اصلاح اور بعد کے شاہد تک جدید تصوری سلسلہ؛ آیات کی تحریر یا اشخاص نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/mwnf-coin-77ah-shovelton, source/ashmolean-standing-caliph, source/met-dinar-453447]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b90", source: "Existing generic museum diagram; explanatory sequence, not original plate, die reconstruction or exact simultaneous conversion map." }

@@ -3,11 +3,13 @@ class: place
 kind: city
 label: { ar: "تشيوانتشو", en: "Quanzhou" }
 summary:
-  ar: "ميناء في جنوب شرق الصين أقام فيه تجار مسلمون في العصور الوسطى، وفيه مسجد قديم يعود إلى سنة 1009م."
+  ar: "ميناء في جنوب شرق الصين أقام فيه تجار مسلمون في العصور الوسطى، وفيه مسجد قديم يعود إلى سنة 1009م. وقد يراد بها خانقو مدينة التجار والأموال التي طولها أربعون فرسخا في أخبار أبي دلف عن الصين {cite:fihrist-ibn-al-nadim p. 492} ويصف ابن بطوطة مدينة الزيتون أول ما وصلها من بلاد الصين، ويقول إنها ليست بها زيتون ولا في جميع بلاد أهل الصين والهند وإنما هو اسم وضع عليها، وإنها مدينة عظيمة تصنع بها ثياب الكمخا والأطلس ومرساها من أعظم مراسي الدنيا، ويذكر أن للمسلمين بها سكناً على حدة ترجع أمورهم إلى قاضٍ وشيخ إسلام {cite:rihla-ibn-battuta-1958 p. 163-164}"
+  en: A port in southeastern China where Muslim merchants resided in the Middle Ages; it holds an old mosque dating to 1009 CE. Ibn Battuta calls the first Chinese city he reached al-Zaytun and says the name is not from olives — none grow in China or India — but was simply given to it; he calls it a great city where kamkha and atlas cloths are made, its roadstead among the greatest in the world, with a Muslim quarter whose affairs return to a qadi and a shaykh al-Islam {cite:rihla-ibn-battuta-1958 p. 163-164}
 wings: [place]
 regions: [china-east-asia]
 coordinates: [24.9139, 118.5858]
 coordinate_precision: site
-external_ids: { geonames: "1797353" }
-sources: [source/geonames-gazetteer]
+external_ids: { geonames: "1797353", wikidata: "Q68695"}
+sources: [source/fihrist-ibn-al-nadim, source/geonames-gazetteer, source/rihla-ibn-battuta-1958, source/wikidata]
+provenance: { layer: own-research, source: "fihrist-ibn-al-nadim + geonames-gazetteer + rihla-ibn-battuta-1958 (Maktaba Tijariyya scan read)", generated_by: "Devin (SWE-2 Flash) wave-21 gap-fill", run: "lib-wave-21-rihla-ibn-battuta-1" }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }

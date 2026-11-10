@@ -1,0 +1,15 @@
+id: passage/muslim-0221
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "221"
+label: { ar: "مسلم 221 — أما ترضون أن تكونوا شطر أهل الجنة", en: "Muslim 221 — Half the people of Paradise" }
+text: "قال عبد الله بن مسعود: قال لنا رسول الله: أما ترضون أن تكونوا ربع أهل الجنة؟ فكبرنا، ثم قال: أما ترضون أن تكونوا ثلث أهل الجنة؟ فكبرنا، ثم قال: إني لأرجو أن تكونوا شطر أهل الجنة، وما المسلمون في الكفار إلا كشعرة بيضاء في ثور أسود"
+summary:
+  ar: "رواية ابن مسعود في باب عدد أهل الجنة من كتاب الإيمان في صحيح مسلم؛ نصيب الأمة من أهل الجنة بشارةً وتكبيراً."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب عدد أهل الجنة (طبعة دار التأصيل، الحديث 212؛ ترقيم عبد الباقي المعروف 221)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

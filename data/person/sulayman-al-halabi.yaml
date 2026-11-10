@@ -1,0 +1,34 @@
+id: person/sulayman-al-halabi
+class: person
+label: { ar: "سليمان الحلبي", en: "Sulayman al-Halabi", ur: "سلیمان حلبی" }
+summary:
+  ar: "شاب من أهل حلب، كاتب عربي، كان يأوي إلى الجامع الأزهر، قتل كليبر صاري عسكر الفرنساوية بالقاهرة يوم السبت 21 المحرم سنة 1215هـ، فحكمت عليه محكمة الفرنسيس بحرق يده اليمنى والتخزيق؛ ويسميه الجبرتي في «عجائب الآثار» «رجلاً آفاقياً أهوج»، ويسميه في «مظهر التقديس» «الشهيد سليمان» فيما ينقله المحقق {cite:ajaib-al-athar-moreh-v3 p. 170-172} {cite:ajaib-al-athar-moreh-v3 p. 191}."
+  en: "A young man from Aleppo, an Arabic scribe who lodged at al-Azhar, who killed General Kléber, commander of the French, in Cairo on Saturday 21 Muharram 1215 AH; a French court sentenced him to have his right hand burned and to be impaled. In Aja'ib al-athar al-Jabarti calls him 'a reckless vagrant'; in Mazhar al-taqdis, as the editor reports, he calls him 'the martyr Sulayman' {cite:ajaib-al-athar-moreh-v3 p. 170-172} {cite:ajaib-al-athar-moreh-v3 p. 191}."
+gender: male
+born: { edtf: "1776~", calendar: gregorian, precision: year, status: debated, derived: true, note: "قال في استجوابه سنة 1800 إن عمره «اربعة وعشرين ٢٤ سنة» (عجائب الآثار 3، مسح ص172)؛ السنة مشتقة من العمر.", sources: [source/ajaib-al-athar-moreh-v3] }
+died: { edtf: "1800-06-17/1800-06-18", hijri: "1215-01-25", calendar: gregorian, precision: day, status: debated, note: "نُفّذ فيه الحكم عند تل العقارب: «في ثمانية وعشرين من شهر برريال» في أوراق المحاكمة (مسح ص188)، ويوم جنازة كليبر صبيحة ليلة الثلاثاء 25 المحرم [18 حزيران 1800] عند الجبرتي (مسح ص191).", sources: [source/ajaib-al-athar-moreh-v3] }
+wings: [people, time]
+themes: [colonial-wars-and-resistance, crime-and-punishment]
+periods: [period/colonial-era]
+regions: [egypt-nile, levant-iraq]
+relations:
+  - { type: participated_in, target: event/assassination-of-kleber-1215, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: lived_in, target: place/aleppo, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: died_in, target: place/cairo, sources: [source/ajaib-al-athar-moreh-v3] }
+perspectives:
+  - tradition: sunni-hanafi
+    id: ajaib-al-athar
+    summary: { ar: "في «عجائب الآثار» يصفه الجبرتي بأنه «رجل آفاقي أهوج» تجرّأ على كبير الفرنسيس وغدره، ويثني على ترتيب الفرنسيس محاكمة لم يعجلوا فيها بالقتل بمجرد الإقرار، ويقابلها بأفعال «أوباش العساكر الذين يدعون الإسلام» فيما سيأتي.", en: "In Aja'ib al-athar al-Jabarti calls him 'a reckless vagrant' who dared to strike down the French commander treacherously, and commends the French for holding a trial rather than killing on confession alone, contrasting it with the deeds of 'the rabble of soldiers who claim to be Muslims' in later years." }
+    sources: [source/ajaib-al-athar-moreh-v3]
+  - tradition: sunni-hanafi
+    id: mazhar-al-taqdis
+    summary: { ar: "في «مظهر التقديس»، كما ينقله المحقق شموئيل موريه في هوامشه، يسميه الجبرتي «الشهيد سليمان»، ويسمي الثلاثة الذين قُتلوا معه «المظلومين».", en: "In Mazhar al-taqdis, as the editor Shmuel Moreh reports in his notes, al-Jabarti calls him 'the martyr Sulayman' and the three put to death with him 'the wronged'." }
+    sources: [source/ajaib-al-athar-moreh-v3]
+sources: [source/ajaib-al-athar-moreh-v3]
+provenance:
+  layer: own-research
+  source: "source/ajaib-al-athar-moreh-v3 scan pp. 169-172, 188-191"
+  generated_by: "Claude Code (OCR-harvest worker J)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker J)" }

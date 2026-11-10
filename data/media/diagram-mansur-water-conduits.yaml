@@ -1,0 +1,19 @@
+id: media/diagram-mansur-water-conduits
+class: media
+kind: illustration
+label: { ar: "مراحل جلب الماء وتوزيعه", en: "Stages of water provision and distribution", ur: "پانی لانے اور تقسیم کی مرحلہ وار ترتیب" }
+summary:
+  ar: "مخطط مفهومي حديث لقنوات الماء في سياق المدينة، لا رسم أنفاق تاريخي بقياسات تنفيذية."
+  en: "Modern conceptual diagram of city water provision,not a measured historical tunnel drawing."
+  ur: "شہری آبی فراہمی کا جدید تصوری خاکہ، تاریخی سرنگوں کا ناپا ہوا نقشہ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/mansur-covered-water-conduits]
+alt:
+  ar: "سلسلة تصورية تربط مصدر الماء بالقنوات المغطاة وتوزيعه داخل المدينة، بلا أشخاص أو مقاطع حفر."
+  en: "Conceptual chain linking source,covered channels and distribution inside the city,without people or excavation cross-sections."
+  ur: "تصوری زنجیر جو منبع، ڈھکی نالیوں اور شہر کے اندر تقسیم کو جوڑتی ہے، اشخاص یا کھدائی کے کراس سیکشن کے بغیر۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b95", source: "Existing generic build-time diagram reused for conceptual stages only." }

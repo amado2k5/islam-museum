@@ -1,0 +1,39 @@
+id: person/sulayman-ibn-tarkhan-al-taymi
+class: person
+label: { ar: "سليمان بن طرخان التيمي", en: "Sulayman ibn Tarkhan al-Taymi" }
+names:
+  - { kind: full, lang: ar, value: "أبو المعتمر سليمان بن طرخان التيمي" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+born: { edtf: "0666", hijri: "0046", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q12216694" }
+died: { edtf: "0760", hijri: "0143", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث بصري روى عن الصحابي أنس بن مالك وعدد من التابعين."
+  en: "A hadith scholar of Basra who narrated from the Companion Anas ibn Malik and a number of Successors."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/sahih-sira-umari-ulum-hikam-1994]
+status:
+  review: published
+  completeness: 3
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on al-Umari's assessment in al-Sira al-Nabawiyya al-Sahiha, source/sahih-sira-umari-ulum-hikam-1994 PDF pp. 56"
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص780"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch62
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/basra, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mawsuat-a3lam-ulama-adaba, source/sahih-sira-umari-ulum-hikam-1994] }

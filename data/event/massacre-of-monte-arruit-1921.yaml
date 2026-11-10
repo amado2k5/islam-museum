@@ -1,0 +1,23 @@
+id: event/massacre-of-monte-arruit-1921
+class: event
+kind: massacre
+label: { ar: "مجزرة جبل أرويط", en: "Massacre of Monte Arruit" }
+summary:
+  ar: "بطاقة أولية لمجزرة جبل أرويط سنة ١٩٢١م، قتل الريفيين للحامية الإسبانية الاستسلامية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Monte Arruit massacre of 1921, the Riffians' killing of the surrendered Spanish garrison; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1921", precision: year, status: tradition, derived: true }
+  end: { edtf: "1921", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q104852916
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

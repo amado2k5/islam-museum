@@ -1,0 +1,24 @@
+id: person/al-aswad-ibn-ghaffar
+class: person
+label: { ar: "الأسود بن غفار", en: "al-Aswad ibn Ghaffar" }
+summary:
+  ar: "ملك جديس حين أفناهم الملك حسان، هرب حتى نزل بدار طيء فأجاروه من الملك وغيره من غير أن يعرفوه، ويذكر أن نسله اليوم في طيء مذكور {cite:muruj-al-dhahab p. 455}."
+  en: "Last king of Jadis — fled Hassan's sack to Tayyi' who sheltered him unknowing; his line, they say, yet survives among them {cite:muruj-al-dhahab p. 455}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+
+born: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (Usd al-Ghaba)" }
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Athir (Usd al-Ghaba)" }
+relations:
+  - { type: lived_in, target: place/najd, note: "Last king of Jadis who fled to the tribe of Tayyi' in northern Arabia. Region-level edge.", sources: [source/muruj-al-dhahab], confidence: low }

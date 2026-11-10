@@ -1,0 +1,28 @@
+id: person/ibn-awad
+class: person
+label:
+  ar: "ابن عواد"
+  en: "Ibn 'Awad"
+roles: [qadi]
+gender: male
+summary:
+  ar: "عبد الرحمن بن عواد، قاض حجازي حنفي من أهل ينبع تعلم بالأزهر ورحل إلى جغبوب؛ توفي سنة 1293هـ ⁦(1876م)⁩."
+  en: "Abd al-Rahman Ibn 'Awad (d. 1293/1876), Hijazi Hanafi judge of Yanbu', educated at al-Azhar and Jaghbub."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+died: { edtf: "1698", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila" }
+relations:
+  - { type: lived_in, target: place/yanbu, confidence: low, note: "Associated with ينبع per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q105359627
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.320)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
+status:
+  review: published
+  completeness: 3

@@ -1,0 +1,21 @@
+id: person/safwan-ibn-hudhayfa
+class: person
+label: { ar: "صفوان بن حذيفة بن اليمان", en: "Safwan ibn Hudhayfa" }
+summary:
+  ar: "ابن حذيفة بن اليمان، دعاه أبوه على فراش مرضه هو وأخاه سعداً إلى الشهادة مع علي فقال احملاني وكونا معه فستكون له حروب يهلك فيها خلق فاجتهدا أن تستشهدا معه فإنه على الحق، فاستشهدا جميعاً بصفين سنة ست وثلاثين {cite:muruj-al-dhahab p. 675}."
+  en: "Hudhayfa ibn al-Yaman's son — borne with his brother Sa'd to Siffin on their dying father's command 'strive for martyrdom with him, for he is upon the truth'; both fell there in 36 AH {cite:muruj-al-dhahab p. 675}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 675"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch40
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

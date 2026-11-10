@@ -1,0 +1,21 @@
+id: place/monument-of-liberty-istanbul
+class: place
+kind: site
+label: { ar: "نصب الحرية في إسطنبول", en: "Monument of Liberty, Istanbul" }
+summary:
+  ar: "موقع في تركيا."
+  en: "Site in Turkey."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [41.06813888888889, 28.982083333333332]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q320876" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q320876 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

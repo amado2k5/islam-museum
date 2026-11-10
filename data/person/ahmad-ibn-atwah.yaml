@@ -1,0 +1,35 @@
+id: person/ahmad-ibn-atwah
+class: person
+label:
+  ar: "أحمد بن عطوة"
+  en: "Ahmad ibn Atwah"
+roles: [qadi, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد بن عطوة، فقيه وقاضٍ القرن السادس عشر، توفي سنة ١٥٤١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad ibn Atwah, the sixteenth-century jurist and judge, d. 1541; the source entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+sources: [source/shadharat-dhahab, source/wikidata]
+external_ids:
+  wikidata: Q138168394
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0068
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+died: { edtf: "1541", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila" }
+relations:
+  - { type: born_in, target: place/uyayna, note: "Wikidata Q4166503 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/al-jubayliyah, note: "Wikidata Q30970845 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

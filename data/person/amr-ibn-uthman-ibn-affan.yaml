@@ -1,0 +1,22 @@
+id: person/amr-ibn-uthman-ibn-affan
+class: person
+label: { ar: "عمرو بن عثمان بن عفان", en: "'Amr ibn 'Uthman ibn 'Affan" }
+summary:
+  ar: "ابن عثمان بن عفان، كان مع خالد بن عبد الله بن خالد بن أسيد يعطيان ابن الزبير أمان عبد الملك على ما أحدث ومن معه وأن ينزل أي البلاد شاء بعهد الله وميثاقه فأبى ابن الزبير قبوله {cite:muruj-al-dhahab p. 105}."
+  en: "Uthman's son — one of the two envoys carrying Abd al-Malik's aman to Ibn al-Zubayr at Mecca, which Ibn al-Zubayr refused {cite:muruj-al-dhahab p. 105}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Uthman's son at the Umayyad court; flagged.", sources: [source/muruj-al-dhahab], confidence: low }
+  - { type: traveled_to, target: place/mecca, note: "Carried Abd al-Malik's aman to Ibn al-Zubayr at Mecca.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

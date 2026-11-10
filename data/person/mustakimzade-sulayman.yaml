@@ -1,0 +1,29 @@
+id: person/mustakimzade-sulayman
+class: person
+label:
+  ar: "مستقيم زاده"
+  en: "Mustakimzade Sulayman Sadeddin"
+roles: [jurist, sufi]
+gender: male
+summary:
+  ar: "سليمان سعد الدين «مستقيم زاده»، باحث متفقه صوفي عثماني صاحب «مجلة النصاب»؛ توفي سنة 1202هـ ⁦(1788م)⁩."
+  en: "Sulayman “Mustakimzade” (1719–1788), Ottoman jurist-Sufi scholar, author of Majallat al-Nisab."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1719", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; al-A'lam" }
+died: { edtf: "1788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; al-A'lam" }
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6016435
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.127)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch6
+status:
+  review: published
+  completeness: 3

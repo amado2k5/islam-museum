@@ -1,0 +1,23 @@
+id: event/battle-of-the-excavations
+class: event
+kind: battle
+label: { ar: "معركة الحفائر", en: "Battle of the Excavations (1911)" }
+summary:
+  ar: "بطاقة أولية لمعركة الحفائر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of the Excavations (1911); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+date:
+  start: { edtf: "1911", precision: year, status: tradition, derived: true }
+  end: { edtf: "1911", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q22690031
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; event attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

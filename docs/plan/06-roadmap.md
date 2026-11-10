@@ -1,5 +1,72 @@
 # 06 · Roadmap and seed content
 
+> **The governing goal — in the museum's three languages** (Founder's Charter, Article 0,
+> 8 November 2026; the founder's direction of the same day is that the goal, vision and
+> strategy be written in Arabic, English and Urdu):
+>
+> **English.** Islam — with all its contents, its figures, its events, its places, everything
+> about it — available to everyone, in an easy, simplified form readable by the old and the
+> young, by Arab and non-Arab, by Muslim and non-Muslim; and anyone free to reshape the
+> information and the knowledge graph in any way, in any form, in any application that suits
+> their own users — above all schools, universities and study circles. Knowledge that once
+> demanded many books and a lifetime is now nearly unreachable for the new generations; the
+> knowledge graph is the bridge: a revival of the religious sciences for this age and the
+> future. This roadmap is the working strategy in service of that goal.
+>
+> **العربية.** الإسلام بكل محتوياته وشخصياته وأحداثه وأماكنه وكل شيء عنه متاحًا للجميع،
+> في صورة سهلة مبسّطة يقرؤها الكبير والصغير والعربي وغير العربي والمسلم وغير المسلم؛ وأن
+> يقدر أي أحد أن يشكّل المعلومات والرسم المعرفي بأي طريقة وفي أي شكل وفي أي تطبيق يناسب
+> مستخدميه — وبالذات المدارس والجامعة وحلقات العلم. فثمة معلومات ما كانت تُنال إلا بقراءة
+> كتب كثيرة وبذل وقت ومجهود كبيرين، وقد صار ذلك شبه مستحيل على الأجيال الجديدة؛ فالرسم
+> المعرفي هو الكوبري: إحياء لعلوم الدين لهذا العصر وللمستقبل. وهذه الخطة هي استراتيجية
+> العمل في خدمة هذا الهدف.
+>
+> **اردو.** اسلام — اپنے تمام محتوا، اپنی شخصیات، اپنے واقعات، اپنے مقامات، غرض اس کے بارے
+> میں ہر چیز کے ساتھ — ہر ایک کے لیے دستیاب ہو، آسان اور سادہ صورت میں، جو بڑا اور چھوٹا،
+> عرب اور غیر عرب، مسلم اور غیر مسلم پڑھ سکے؛ اور ہر کوئی معلومات اور نالج گراف کو کسی بھی
+> صورت، کسی بھی شکل اور کسی بھی ایپلیکیشن میں ڈھال سکے جو اس کے اپنے صارفین کے لیے موزوں
+> ہو — سب سے بڑھ کر اسکول، جامعات اور حلقاتِ علم۔ وہ علم جو کبھی بہت سی کتابیں اور عمر بھر
+> کی محنت مانگتا تھا، نئی نسلوں کے لیے اب تقریباً ناقابلِ رسائی ہے؛ نالج گراف ہی وہ پل ہے:
+> اس عہد اور مستقبل کے لیے علومِ دین کا احیاء۔ یہ روڈ میپ اسی مقصد کی خدمت میں عملی
+> حکمتِ عملی ہے۔
+>
+> The full Charter stands in Arabic, English and Urdu (`00-founders-charter-ar.md`,
+> `00-founders-charter.md`, `00-founders-charter-ur.md`); a full Urdu rendering of this
+> roadmap is the recorded next step.
+
+## What comes next (living — updated 2026-11-03)
+
+The phases below are the founding plan, kept for the record. The museum's maintained
+"what comes next" is the changelog's coming-next section (`/{lang}/changelog/`, rendered
+from `CANARY.md`); this list mirrors it so the plan docs answer the same question:
+
+- **The Tafsir Browser** (plan 27, approved in chat 6 Nov 2026): a separate wing of Qur'an commentaries, the Tabari edition (vols 1 to 16) first, then the other tafsirs in the source records; next is the data model with Tabari vols 1 to 9, then the wing, the API and search.
+- **The Modern Islam Browser** (plan 26, approved 6 Nov 2026): Phase 1 (the `award` class, the
+  honours, footprint, reach and horizon blocks, derived sections, the reach index, `/api/v1/modern/*`)
+  is in the repository; next is the pilot (one sourced record in each of the nineteen sections, the
+  browser pages, a landing card, the first deploy), then incremental waves per section toward 13,000
+  and 50,000 subjects, browser-first research on the founder's Mac.
+- **The browsers already open keep growing** (register: `docs/site/browsers.md`): the Inventions
+  Browser by waves of 100; the Job Browser from 19 to the 184-job taxonomy with `occupations:` on
+  every person; the Fatwa Explorer's collections catalogue and chain views; the Khutab and Durus
+  Explorer from the recording lanes; the Time Browser by approved subject batches; the poetry
+  anthology; the Screening Room's discovery in thirty languages. Each ships its own API export
+  (`/api/v1/jobs.json`, `fatwa.json`, `khutab.json`, `poetry.json`, `screens.json`,
+  `time-browser/index.json`) and a searchable landing page.
+- **Occupations woven into the graph.** The `job` taxonomy (19 crafts and professions)
+  is served as records; people still carry occupations inside their own records. Derive
+  `person → job` edges so crafts become walkable connections ("every calligrapher of the
+  ninth century").
+- **Query by Wikidata ID.** A published QID index over the 16,232 records that carry a
+  Wikidata identifier, with a lookup address per QID (the Phase 5 reconciliation line).
+- **Formal API documentation and library exports.** An OpenAPI document for the v1 API,
+  and OAI-PMH / MARC / Dublin Core exports for library harvesters.
+- **The unharvested corpora.** The DİA encyclopaedia as a programme, Nadwi's dictionary
+  of the women hadith scholars, the rijal (narrator) graph, and the regional sweeps
+  (Southeast Asia, Africa, China, the Americas) — see the coverage-expansion programme.
+- **New language editions.** Indonesian, Turkish and French, after the Arabic/English/Urdu
+  three (Phase 4).
+
 Strategy: **build the spine first, then grow the body.** The spine is a small, deeply connected core (the Prophet's life, the first century, the major polities, ~150 people, ~60 places) in two languages, with every hall working on it. Breadth comes after the mechanics are proven, by import, by community and by AI-assisted drafting with human review.
 
 ## Phase 0 · Foundation (weeks 1–2)
@@ -44,8 +111,9 @@ Content targets (Arabic only in Phase 1, per `docs/language.md`; `reviewed` stat
 | listing | 100 | Made wing seed across 20 countries and all categories, plus a Library shelf of 100 books by living Muslim authors (`11-made-directory.md`) |
 | screen | 300 | Films, series, documentaries and programmes about Islam across at least 25 languages, each linked to what it is about; the verified seed list of `12-screen-index.md` §9 first |
 | theme hubs | 16 | One hub per theme family opened to the minimum set, all spine entities theme-tagged, 20 tension cards, every ghazwa and sariyya as an event with both sides (`14-themes-atlas.md` §9) |
+| pathways | catalogue of 300 + 10 written | **Planning-phase task (`19-tour-learn.md`):** AI proposes the top 300 guided pathways (eras, personalities, event groups, ideas, places, texts, art, living culture, hard questions, starter paths), reviewed and ordered by people, with each pathway's missing entities fed back to the harvest queue; the first 10 are written by hand on the `exhibit` class (kinds `tour`, `lesson`, `trail`) from what already exists |
 
-Features: entity pages for all classes; Screening Room with "On screen" panels; theme hubs and theme filter; "Place in the story" roles on people; Made hall with map and shelves; Time hall (timeline, eras, snapshot year, today); Place hall (map with time slider, journeys); People gallery + ego network; glossary; Questions; 8 exhibits; search; depth dial; honorifics toggle; API; coverage page.
+Features: entity pages for all classes; the Tour / Learn tab (live as a placeholder, player in Phase 2); Screening Room with "On screen" panels; theme hubs and theme filter; "Place in the story" roles on people; Made hall with map and shelves; Time hall (timeline, eras, snapshot year, today); Place hall (map with time slider, journeys); People gallery + ego network; glossary; Questions; 8 exhibits; search; depth dial; honorifics toggle; API; coverage page.
 
 The Prophetic era is mined first from الرحيق المختوم per `17-raheeq-makhtum.md`, which supplies about 1,000 entities (events with sub-events, journeys, places, people, groups, works, sources) with page-level citations to the classical sources. Its endgame (7–11 AH) is then deepened from the primary text itself — juz' 4 of سيرة ابن هشام in the al-Saqqa/al-Abyari/Shalabi edition — per `18-sira-ibn-hisham.md`, which supplies the Abyssinian roster, the delegation year, the retrospective sariyas and the Saqifa narrative that الرحيق does not narrate.
 
@@ -74,7 +142,7 @@ What is Islam? · Who was Muhammad? · What is the Qur'an? · What do Muslims be
 
 ## Phase 2 · The halls complete (months 3–4)
 
-Network hall full (teacher–student, isnad, families, dynasties, path finder) · snapshot year with map · Hijri calendar app · "What was here" · compare · bookmarks/My tour · kid mode · print mode · OpenGraph cards · PWA offline · coverage page · RSS. Content: +500 entities via Wikidata-assisted import (people, places, polities) drafted with AI and reviewed; listing harvest pipeline to 1,000 verified Made entries; long-tail illustration batches. The full local harvest (`15`) running weekly on the Mac; Screen index to 2,000 verified titles with all Wikipedia category trees walked and the first give-back to Wikidata (`12`); +250 figures from the remaining lanes, the "Stance over time" strip and People hall facets (`13`); 60 theme hubs, the family tree of movements, the conflict explorer, "religion or custom?" on 30 practices, 100 tension cards (`14`).
+Network hall full (teacher–student, isnad, families, dynasties, path finder) · the Tour / Learn player (step-by-step and see-it-all views, goal chooser, local progress, printable handouts) with 60 pathways (`19-tour-learn.md`) · snapshot year with map · Hijri calendar app · "What was here" · compare · bookmarks/My tour · kid mode · print mode · OpenGraph cards · PWA offline · coverage page · RSS. Content: +500 entities via Wikidata-assisted import (people, places, polities) drafted with AI and reviewed; listing harvest pipeline to 1,000 verified Made entries; long-tail illustration batches. The full local harvest (`15`) running weekly on the Mac; Screen index to 2,000 verified titles with all Wikipedia category trees walked and the first give-back to Wikidata (`12`); +250 figures from the remaining lanes, the "Stance over time" strip and People hall facets (`13`); 60 theme hubs, the family tree of movements, the conflict explorer, "religion or custom?" on 30 practices, 100 tension cards (`14`).
 
 ## Phase 3 · Words and objects (months 5–7)
 
@@ -93,6 +161,23 @@ API docs; Wikidata reconciliation and round-trip bot (propose Hijri dates as qua
 ## Phase 6 · Year 2 and beyond
 
 IIIF partnerships (Aga Khan Museum, MIA Doha, IAMM, David Collection); 3D scans and AR of buildings; audio tours; oral histories ("Living voices") as a new class; recipes and music as classes; regional rooms for 30 countries; editorial board; non-profit; alignment with the Islamic History Atlas, al-Thurayya and World Historical Gazetteer; 10 languages; 10,000+ entities.
+
+## Browsers and explorers (living — updated 2026-11-06)
+
+The front doors over the one graph, with their status, what each has and what it will have, are kept in one register, [`docs/site/browsers.md`](../site/browsers.md), updated in the same commit as any change to one of them. The standing rule (`AGENTS.md`): every browser, explorer, class or feature is **graph, API and search**: its records are classes and kinds in the graph, exported in `/api/v1/`, indexed by Pagefind, and documented in the register, this roadmap, the plan index, the lanes registry and `docs/status.md`.
+
+| Feature | Status (6 Nov 2026) | Next |
+|---|---|---|
+| Time Browser (Timeline Explorer) | live, 425 subjects | approved subject batches, backdrops, subject index API |
+| Time Machine, Hijri calendar, landing explorers (plan 21) | live | snapshot-year map, observances as events, waypointed journeys |
+| Screening Room | live, 315 titles | discovery in thirty languages, honours, `screens.json` |
+| Words readers (Qur'an, hadith, poetry) | live | the poetry anthology grows, `poetry.json` |
+| Fatwa Explorer | live, 340 fatwas | collections catalogue, chain and timeline views, `fatwa.json` |
+| Khutab and Durus Explorer | live, 25 sermons and 38 series | the recording lanes' output, `khutab.json` |
+| Job Browser | live, 19 jobs | the 184-job taxonomy, occupations on every person, `jobs.json` |
+| Inventions Browser | live, 58 inventions | waves of 100, chains and maps |
+| Modern Islam Browser | Phase 1 done | pilot and first deploy, then waves (plan 26 §6) |
+| Education | E1 live | E2 to E5 on approval |
 
 ## Risks and mitigations
 

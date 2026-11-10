@@ -1,0 +1,20 @@
+---
+id: concept/al-muqawama-wal-irhab
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
+
+# Resistance and terrorism — the dividing line
+
+## The episode and the question
+The 'Al-Wasatiyya' episode debated resistance: is it reducible to armed action, or are there more effective ways — Gandhian non-violence, political work, economic boycott, media war and intellectual confrontation {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 00:01:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 00:02:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 00:02:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 00:30:30}. The gravest question was distinguishing resistance from terrorism — 'not only because the West accuses us, but because it is a fundamental sharia question' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:03:00}.
+
+## The occupation frame only
+The Muslim Brotherhood representative declared: 'any use of violence outside the frame of foreign occupation is illegitimate' — and condemned the Riyadh and Dahab events; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:13:00} and praised the Palestinian resistance across its factions (Fatah, Hamas and others) for using force only against the Zionist occupier — 'a proud example for the world' {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:13:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:14:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:14:30}.
+
+## Resistance is wider than arms
+Non-violence advocates warned against shrinking the concept: resistance has forms — political, economic, media, intellectual and awareness — and the question is effectiveness, not the occupied people's right to defend themselves {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 00:02:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 00:30:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30}.
+
+## The dividing line — as the host distilled it
+The host closed with his equation: the Palestinian or any occupied people's right to defend their land is not disputed by two; and aiming weapons at civilians — in New York, London or Madrid — is terrorism, 'a cause of God's anger before it is a cause of the West's curse on us'; {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:15:30} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:16:30} recalling that Khalid ibn al-Walid was not excused until it was clear she had tried to kill him first {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:00} {cite:assabile-tareq-al-suwaidan al-wassitiya/ep17 01:17:30}.

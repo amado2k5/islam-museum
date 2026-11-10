@@ -1,0 +1,28 @@
+id: person/thimal-ibn-salih
+class: person
+label:
+  ar: "ثمال بن صالح بن مرداس"
+  en: "Mu'izz al-Dawla Thimal"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لمعز الدولة ثمال بن صالح بن مرداس، أمير حلب المرداسي حتى سنة ١٠٦٢م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Mu'izz al-Dawla Thimal ibn Salih ibn Mirdas, the Mirdasid emir of Aleppo until 1062; the dynastic handbook entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q6930540
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0047
+status:
+  review: draft
+  completeness: 1
+died: { edtf: "1062", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Zubdat al-Halab (Ibn al-Adim)" }
+relations:
+  - { type: lived_in, target: place/aleppo, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }

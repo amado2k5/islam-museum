@@ -1,0 +1,28 @@
+id: person/hajjaj-ibn-amr-al-ansari
+class: person
+label: { ar: "حجاج بن عمرو بن غزية الأنصاري", en: "Hajjaj ibn Amr ibn Ghaziyya al-Ansari" }
+roles: [companion]
+traditions: [sunni]
+periods: [period/prophetic-era]
+regions: [arabia]
+gender: male
+wings: [people]
+summary:
+  ar: "حجاج بن عمرو بن غزية الأنصاري المازني المدني، صحابي، ذكره بعضهم في التابعين، روى له أصحاب السنن حديثا صرح فيه بالسماع من النبي في الحج، وشهد صفين مع علي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2057}"
+  en: "Hajjaj ibn Amr ibn Ghaziyya al-Ansari al-Mazini al-Madani, a Companion, though some count him among the Successors. The compilers of the Sunan transmitted a report from him in which he states that he heard it from the Prophet concerning the pilgrimage, and he fought at Siffin with Ali. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.2057}"
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+relations:
+  - { type: lived_in, target: place/siffin, confidence: low, note: "Associated with Siffin per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: member_of, target: group/ansar, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, p.2057"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch66
+status:
+  review: published
+  completeness: 3

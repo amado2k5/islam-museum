@@ -1,0 +1,23 @@
+id: person/muhammad-ibn-shihab-al-zuhri
+class: person
+label: { ar: "محمد بن شهاب الزهري", en: "Muhammad ibn Shihab al-Zuhri" }
+summary:
+  ar: "ابن شهاب الزهري العالم، كان مع سليمان بمرج دابق حين حضرته الوفاة فكتب وصيته وأشهده عليها مع رجاء بن حيوة ومكحول، فلما دفن قام الزهري فقال أيها الناس أرضيتم من سماه أمير المؤمنين في وصيته ثم قرأ الكتاب فإذا اسم عمر بن عبد العزيز ومن بعده يزيد بن عبد الملك {cite:muruj-al-dhahab p. 172-173}. وتوفي سنة ثلاث وعشرين ومائة وذكر الواقدي أنه مات سنة أربع وعشرين ومائة {cite:muruj-al-dhahab p. 192} ويذكر الكتاب أنه حضر مجلس سليمان مع أبي حازم، فقال سليمان له: أصاب الشيخ وأخطأت أنا. {cite:salabi-umayyad-state-2020 p.149} ويذكر الكتاب أن عمر بن عبد العزيز أمره بجمع السنن، فكتبها دفتراً دفتراً وبعث بها إلى كل أرض عليها سلطان، وأنه أُمر بكتابة السنة في مصارف الزكاة، وأن عمر قال: عليكم بابن شهاب، فإنه ما بقي أحد أعلم بسنة ماضية منه. {cite:salabi-umayyad-state-2020 p.298-300}"
+  en: "The scholar who read out Sulayman's sealed succession at Marj Dabiq — 'do you accept whom the Commander named in his will?' — naming 'Umar then Yazid {cite:muruj-al-dhahab p. 172-173}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 172–173"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+external_ids: { wikidata: "Q3791575" }
+sources: [source/muruj-al-dhahab, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/tabaqat-ibn-sad-qism-mutammim-mansur-1987]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "671~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hajar (Tahdhib al-Tahdhib)" }
+died: { edtf: "742", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/marj-dabiq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/tabaqat-ibn-sad-qism-mutammim-mansur-1987] }

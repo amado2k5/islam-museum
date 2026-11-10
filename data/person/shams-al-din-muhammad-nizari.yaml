@@ -1,0 +1,29 @@
+id: person/shams-al-din-muhammad-nizari
+class: person
+label:
+  ar: "شمس الدين محمد النزاري"
+  en: "Shams al-Din Muhammad, Nizari imam"
+roles: [ruler]
+gender: male
+summary:
+  ar: "بطاقة أولية لشمس الدين محمد، إمام النزاريين بعد المغول في القرن الرابع عشر، توفي سنة ١٣١٠م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shams al-Din Muhammad, the post-Mongol Nizari imam of the fourteenth century, d. 1310; the source entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1256~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Daftary (Isma'ilis)" }
+died: { edtf: "1310~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Daftary (Isma'ilis)" }
+relations:
+  - { type: born_in, target: place/alamut, confidence: low, note: "Born at Maymun-Diz in the Alamut valley (Wikidata P19); regions: persia-central-asia.", sources: [source/bosworth-new-islamic-dynasties-1996] }
+sources: [source/bosworth-new-islamic-dynasties-1996]
+external_ids:
+  wikidata: Q29375042
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0035
+status:
+  review: draft
+  completeness: 1

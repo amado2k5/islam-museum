@@ -1,5 +1,5 @@
 node_modules/
-dist/
+Dist/
 .cache/
 .DS_Store
 .env
@@ -9,5 +9,29 @@ site/.astro/
 .venv-harvest/
 __pycache__/
 .venv-media/
-site/public/media/
-site/public/search-synonyms.json
+site/public/media/*
+!site/public/media/time-browser/
+site/public/search-synonyms*.json
+site/public/edu/daily-schedule.json
+node_modules
+workers/site/src/rules.generated.js
+dist-assets/
+.time-browser-logs/
+.inventions-logs/
+# Scratch source books and documents stay on disk and out of git.
+*.pdf
+*.txt
+*.epub
+*.djvu
+
+# Decision-engine embedding cache — regenerable build artifact
+docs/decisions/.embeddings-*.json
+docs/decisions/docket.md
+docs/decisions/digest.md
+# Regenerable audit/packet outputs (rebuilt by tradition-audit.ts / tradition-packets.ts)
+docs/decisions/tradition-attestation-audit.json
+docs/decisions/tradition-packets.jsonl
+docs/decisions/tradition-golden-packets.jsonl
+docs/decisions/tradition-judge-results.jsonl
+docs/decisions/tradition-golden-results.jsonl
+docs/decisions/islamlab-match.jsonl

@@ -1,0 +1,37 @@
+id: place/dubai
+class: place
+kind: city
+label:
+  ar: دبي
+  en: Dubai
+  ur: دبئی
+summary:
+  ar: مدينة على ساحل الخليج، مقر إمارة دبي التي يحكمها آل مكتوم؛ كانت ميناءً للغوص على اللؤلؤ ثم صارت المركز التجاري لدولة الإمارات.
+  en: City on the Gulf coast, seat of the emirate of Dubai ruled by the Al Maktoum; a pearling port that became the commercial hub of the United Arab Emirates.
+  ur: خلیج کے ساحل پر واقع شہر، آل مکتوم کے زیرِ حکومت امارتِ دبئی کا مرکز؛ پہلے موتی کے غوطہ خوری کا بندرگاہ، اب متحدہ عرب امارات کا تجارتی مرکز۔
+wings:
+- place
+regions:
+- arabia
+coordinates:
+- 25.2048
+- 55.2708
+coordinate_precision: locality
+coordinate_note: Coordinates from Wikidata Q612; approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q612
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q612 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q612; coordinates the city's gazetteer point

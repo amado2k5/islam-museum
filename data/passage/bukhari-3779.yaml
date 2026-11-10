@@ -1,0 +1,15 @@
+id: passage/bukhari-3779
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3779"
+label: { ar: "البخاري 3779 — لولا الهجرة لكنت امرءاً من الأنصار", en: "Bukhari 3779 — Were it not for the hijra I would be one of the Ansar" }
+text: "قال رسول الله: «لو أن الأنصار سلكوا وادياً — أو شعباً — لسلكت وادي الأنصار، ولولا الهجرة لكنت امرءاً من الأنصار»"
+summary:
+  ar: "في كتاب مناقب الأنصار؛ رواية أبي هريرة في حب النبي للأنصار وموالاتهم، وتبعه أبو هريرة بقوله «ما ظلم بأبي وأمي، آووه ونصروه». من أشهر نصوص فضل الأنصار."
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3779 (كتاب مناقب الأنصار)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

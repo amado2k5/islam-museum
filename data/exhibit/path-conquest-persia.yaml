@@ -1,0 +1,78 @@
+id: exhibit/path-conquest-persia
+class: exhibit
+kind: trail
+label:
+  ar: فتح فارس
+  en: The Conquest of Persia
+summary:
+  ar: 'مسار في نهاية الساسانيين: القادسية تكسر التاج، والمدائن تُدخل، ونهاوند تختم إمبراطورية أربعة قرون.'
+  en: A trail through the fall of the Sasanians.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: القادسية
+    en: Al-Qadisiyya
+  body:
+    ar: سعد بن أبي وقاص يهزم رستم 636.
+    en: سعد بن أبي وقاص يهزم رستم 636.
+  features:
+  - event/battle-of-al-qadisiyya
+  - event/battle-of-al-qadisiyya
+- title:
+    ar: المدائن
+    en: Al-Mada'in
+  body:
+    ar: 'طيسفون تفتح: عاصمة كسرى بلا كسرى.'
+    en: 'طيسفون تفتح: عاصمة كسرى بلا كسرى.'
+  features:
+  - event/conquest-of-al-madain
+  - place/baghdad
+- title:
+    ar: نهاوند
+    en: Nahawand
+  body:
+    ar: 'فتح الفتوح 642: جبل فارس يسقط.'
+    en: 'فتح الفتوح 642: جبل فارس يسقط.'
+  features:
+  - event/battle-of-nahawand
+  - event/conquest-of-hamadhan
+- title:
+    ar: فارس والخوزستان
+    en: Fars and Khuzestan
+  body:
+    ar: 'إصطخر وأصفهان والأهواز: الجنوب كله.'
+    en: 'إصطخر وأصفهان والأهواز: الجنوب كله.'
+  features:
+  - event/conquest-of-istakhr
+  - event/conquest-of-isbahan
+  - event/conquest-of-dinawar-masabadhan
+- title:
+    ar: الجزيرة
+    en: The Jazira
+  body:
+    ar: 'الرقة والموصل: شمال الرافدين.'
+    en: 'الرقة والموصل: شمال الرافدين.'
+  features:
+  - event/conquest-of-jazira
+  - event/conquest-of-mosul
+  - place/mosul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

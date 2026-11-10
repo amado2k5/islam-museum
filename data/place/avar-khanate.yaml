@@ -1,0 +1,21 @@
+id: place/avar-khanate
+class: place
+kind: region
+label: { ar: "خانية الآفار", en: "Avar Khanate", ur: "خانیت عوار" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q2450154)."
+wings: [place]
+regions: [global]
+coordinates: [42.5564, 46.7219]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q2450154" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2450154 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

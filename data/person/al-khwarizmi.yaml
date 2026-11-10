@@ -1,0 +1,79 @@
+id: person/al-khwarizmi
+aliases: [person/al-khwarizmi-muhammad-ibn-musa]   # same person; merged the Mawsuat A'lam record into this one
+class: person
+label: { ar: "الخوارزمي", en: "al-Khwarizmi" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن موسى الخوارزمي" }
+roles: [mathematician, astronomer]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: self-identified
+    note: "In the preface to his algebra he praises God, asks blessings on the Prophet Muhammad and on all the prophets and messengers, and names al-Ma'mun the imam and commander of the faithful (Cairo 1939 ed., scan pp. 29–30). This shows him a Muslim in his own words; no source read names his school, so he is recorded within the museum's Sunni frame (docs/scope.md)."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+inventions:
+  - invention: invention/algebra
+    role: inventor
+    place: place/baghdad
+    note: "Wrote al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala under al-Ma'mun, which set out the three kinds of term, the six types and their proofs; Ibn Khaldun names him the first to write in the art."
+    sources: [source/khwarizmi-jabr-cairo-1939, source/muqaddima-ibn-khaldun, source/tdv-cebir]
+  - invention: invention/algorism
+    role: transmitter
+    place: place/baghdad
+    note: "Wrote the book on Indian reckoning through which the Indian numerals and the decimal system entered the Islamic world; its Arabic original is lost and its twelfth-century Latin translation, opening 'Dixit Algorizmi', made his Latinized name the words algorism and algorithm."
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939]
+  - invention: invention/khwarizmi-sindhind-tables
+    role: improver
+    place: place/baghdad
+    note: "Adapted Indian astronomical material in the Sindhind zij; both Arabic versions are lost, so the exact original table arrangement remains uncertain."
+    sources: [source/tdv-harizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-mactutor]
+born: { edtf: "0780", hijri: "0164", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+themes: [mathematics, astronomy-and-timekeeping, geography-and-cartography]
+regions: [persia-central-asia]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/britannica-al-khwarizmi] }
+  - { type: participated_in, target: event/kitab-al-jabr-composed-820, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
+  - { type: participated_in, target: event/meridian-degree-sinjar-827, role: "العالم المشارك", sources: [source/britannica-al-khwarizmi] }
+  - { type: participated_in, target: event/surat-al-ard-composed-833, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
+  - { type: patronized_by, target: person/abd-allah-al-mamun, sources: [source/khwarizmi-jabr-cairo-1939] }
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محمد بن موسى الخوارزمي، عده المسعودي فيمن عُني بعلوم الهيئة بعد ظهور الإسلام مع الكندي وأبي معشر والفرغاني وثابت بن قرة والبتاني وغيرهم {cite:muruj-al-dhahab p. 519}."
+  en: "Muhammad ibn Musa al-Khwarizmi, numbered by al-Mas'udi among Islam's astronomers {cite:muruj-al-dhahab p. 519}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium); section on the Cairo 1939 introduction added by Claude Code (OCR-harvest worker J)"
+  model: "SWE-2 Medium; claude-opus-5-5"
+  run: "prose-fill-persons-batch34; ocr-harvest-2026-11-04"
+  extensions:
+    - { generated_by: github-copilot, model: unknown, run: inventions-p3-b100, source: "D-143; appended the sourced Sindhind-tables improvement tie and three-language prose. Existing faith basis is retained, not newly asserted." }
+sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba, source/britannica-al-khwarizmi, source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831, source/muqaddima-ibn-khaldun, source/tdv-cebir, source/khwarizmi-mactutor]
+education:
+  did_you_know:
+    ar: "من كتاب الخوارزمي في الجبر جاءت كلمة algebra، ومن اسمه اللاتيني Algoritmi جاءت كلمة algorithm."
+    en: "Algebra comes from al-Khwarizmi's book al-Jabr, and algorithm from the Latin form of his name, Algoritmi."
+    ur: "الجبرا کا نام الخوارزمی کی کتاب «الجبر» سے اور الگورتھم ان کے لاطینی نام «الگورتمی» سے نکلا۔"
+    sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch2", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: published
+  completeness: 3
+external_ids: { wikidata: Q9038 }
+kids:
+  ar: "الخوارزمي عالم بيت الحكمة، أسس علم الجبر وكتب عن الحساب والخريطة القديمة للعالم."
+  en: "Al-Khwarizmi, scholar of the House of Wisdom, founded algebra and wrote on arithmetic and the ancient world map."
+  ur: "خوارزمی بیت الحکمت کا عالم تھا — علم جبر کی بنیاد رکھی اور حساب اور دنیا کے پرانے نقشے پر لکھا۔"
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "The TDV astronomy entry names him among the leading astronomers of al-Ma'mun's period, and says his Zij al-Sindhind was translated into Latin and often commented on."
+    sources: [source/tdv-ilm-i-felek]

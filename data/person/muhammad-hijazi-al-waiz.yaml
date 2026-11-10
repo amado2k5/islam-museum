@@ -1,0 +1,34 @@
+id: person/muhammad-hijazi-al-waiz
+class: person
+label:
+  ar: "محمد حجازي الواعظ"
+  en: "Muhammad Hijazi al-Wa'iz"
+roles: [mufassir, muhaddith, scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد حجازي الواعظ، المفسر والمحدث المصري، توفي سنة ١٦٢٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Hijazi al-Wa'iz, the Egyptian exegete and muhaddith, d. 1625; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q87769349
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0088
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1626", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+relations:
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Hijazi al-Wa'iz'; specific residence not individually documented.", sources: [source/al-aalam] }

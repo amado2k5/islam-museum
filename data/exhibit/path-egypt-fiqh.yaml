@@ -1,0 +1,67 @@
+id: exhibit/path-egypt-fiqh
+class: exhibit
+kind: trail
+label:
+  ar: فقه مصر الأول
+  en: Early Fiqh of Egypt
+summary:
+  ar: 'مسار في فقهاء مصر الأول: الليث بن سعد إمام الفسطاط، ومالك يقرّه، ثم الشافعي يدفن بجواره — مصر مدرسة.'
+  en: A trail through Egypt's first jurists.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الليث
+    en: Al-Layth
+  body:
+    ar: 'ابن سعد: إمام مصر في الفقه والحديث.'
+    en: 'ابن سعد: إمام مصر في الفقه والحديث.'
+  features:
+  - person/layth-ibn-sad
+  - place/al-fustat
+- title:
+    ar: الفسطاط
+    en: Fustat
+  body:
+    ar: 'مصر عمرو: مدرسة الفقه المصرية.'
+    en: 'مصر عمرو: مدرسة الفقه المصرية.'
+  features:
+  - place/al-fustat
+  - person/amr-ibn-al-as
+- title:
+    ar: الشافعي
+    en: Al-Shafi'i
+  body:
+    ar: 'الإمام يأتي مصر: ينضج ويموت فيها.'
+    en: 'الإمام يأتي مصر: ينضج ويموت فيها.'
+  features:
+  - person/al-shafii
+  - place/al-fustat
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من الفسطاط إلى الأزهر: ألف سنة.'
+    en: 'من الفسطاط إلى الأزهر: ألف سنة.'
+  features:
+  - place/cairo
+  - building/al-azhar
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

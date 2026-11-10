@@ -1,0 +1,21 @@
+id: place/srem-district
+class: place
+kind: region
+label: { ar: "مقاطعة سريم", en: "Srem District", ur: "سریم ضلع" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q217331)."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [44.983333333333, 19.616666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q217331" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q217331 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

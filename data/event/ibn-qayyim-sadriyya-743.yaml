@@ -1,0 +1,27 @@
+id: event/ibn-qayyim-sadriyya-743
+class: event
+kind: other
+label:
+  ar: "افتتاح درس ابن قيم الجوزية بالمدرسة الصدرية، ٦ صفر ٧٤٣هـ/١١ يوليو ١٣٤٢م"
+  en: "Ibn Qayyim's inaugural lecture at the Sadriyya madrasa, 6 Safar 743/11 July 1342"
+  ur: "ابن قیم کا افتتاحی درس، صدریہ مدرسہ، 6 صفر 743ھ/11 جولائی 1342ء"
+summary:
+  ar: "ألقى ابن قيم الجوزية درسه الافتتاحي بالمدرسة الصدرية في ٦ صفر ٧٤٣هـ/١١ يوليو ١٣٤٢م، وظلّ يدرّس فيها حتى وفاته {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}؛ وكان قد درّس بالصدرية وأمَّ بالجوزية، وقرأ الفقه على المجد الحرّاني وابن تيمية والأصول على الصفي الهندي وابن تيمية {cite:durar-kamina-jil-1993 3/401}."
+  en: "On 6 Safar 743/11 July 1342 Ibn Qayyim gave his inaugural lecture at the Sadriyya madrasa, where he was to teach until his death {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}. He taught at the Sadriyya and led prayer at the Jawziyya; he had read fiqh under al-Majd al-Harrani and Ibn Taymiyya and usul under al-Safi al-Hindi and Ibn Taymiyya {cite:durar-kamina-jil-1993 3/401}."
+  ur: "6 صفر 743ھ/11 جولائی 1342ء کو ابن قیم نے صدریہ مدرسہ میں اپنا افتتاحی درس دیا، جہاں وہ وفات تک پڑھاتے رہے {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}۔ انہوں نے صدریہ میں تدریس اور جوزیہ میں امامت کی؛ انہوں نے فقہ مجد حرانی اور ابن تیمیہ سے اور اصول صفی ہندی اور ابن تیمیہ سے پڑھا {cite:durar-kamina-jil-1993 3/401}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1342-07-11", hijri: "0743-02-06", calendar: julian, precision: day, status: tradition, derived: true, note: "٦ صفر ٧٤٣هـ/١١ يوليو ١٣٤٢م {cite:encyclopaedia-of-islam-2 vol. 3 p. 854}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "المدرّس", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
+sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 3, printed p. 854, art. IBN KAYYIM AL-DJAWZIYYA, citing Ibn Kathir, Bidaya, xiv, 202 (harvest OCR); Ibn Hajar, al-Durar al-Kamina, Dar al-Jil 1993, j.3 p. 401 (harvest OCR)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-qayyim-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

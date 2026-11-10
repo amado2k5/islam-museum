@@ -1,0 +1,32 @@
+id: polity/ramadanid-emirate
+class: polity
+kind: emirate
+label:
+  ar: "الرمضانيون"
+  en: "Ramadanid Emirate"
+summary:
+  ar: "بطاقة أولية لإمارة بني رمضان، إمارة تركمانية حكمت أضنة وقيليقية من ١٣٥٢ حتى ضمّها العثمانيون ١٦٠٨م؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Ramadanids, the Turkmen emirate that held Adana and Cilicia from 1352 until the Ottomans annexed it in 1608; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+start:
+  edtf: "1352"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1608"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q2261321
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; emirate attested in Anatolian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

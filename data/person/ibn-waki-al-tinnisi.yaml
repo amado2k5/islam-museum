@@ -1,0 +1,22 @@
+id: person/ibn-waki-al-tinnisi
+class: person
+label: { ar: "ابن وكيع التنيسي", en: "Ibn Waki' al-Tinnisi" }
+summary:
+  ar: "أبو محمد الحسن بن علي بن أحمد بن محمد، المعروف بابن وكيع، أصله من بغداد ومولده بتنيس؛ ذكره أبو منصور الثعالبي في يتيمة الدهر وقال في حقه: شاعر بارع وعالم جامع قد برع على أهل زمانه لم يتقدمه أحد في أوانه، وله كتب بديعة وديوان شعر، وجمع كتاباً بين فيه سرقات أبي الطيب المتنبي {cite:wafayat-ayan}."
+  en: "Ibn Waki' al-Tinnisi — born at Tinnis of Baghdadi stock; al-Tha'alibi called him the unsurpassed poet-scholar of his age; compiled a book on al-Mutanabbi's borrowings {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+died: { edtf: "1003", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yatimat al-Dahr" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch82
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3

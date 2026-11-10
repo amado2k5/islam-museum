@@ -1,0 +1,35 @@
+id: person/kara-murat-pasha
+class: person
+label:
+  ar: "قره مراد باشا"
+  en: "Kara Murat Pasha"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لقره مراد باشا، الصدر الأعظم وقبودان باشا العثماني في عهد محمد الرابع؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Kara Murat Pasha, the Ottoman grand vizier and kapudan pasha under Mehmed IV; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1655", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/hama, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6367538
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

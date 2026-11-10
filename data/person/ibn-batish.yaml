@@ -1,0 +1,43 @@
+id: person/ibn-batish
+class: person
+label: { ar: "ابن باطيش الموصلي", en: "Ibn Batish al-Mawsili" }
+names:
+  - { value: "عماد الدين أبو المجد إسماعيل بن هبة الله بن سعيد بن هبة الله بن محمد الموصلي الشافعي", kind: full }
+born: { edtf: "1179-06~", hijri: "0575-01", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في محرم سنة خمس وسبعين وخمسمائة {cite:shadharat-dhahab p. 276}." }
+died: { edtf: "1257-07~", hijri: "0655-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في حلب في جمادى الآخرة سنة خمس وخمسين وستمائة {cite:shadharat-dhahab p. 276}." }
+summary:
+  ar: "العلامة الشافعي؛ دخل بغداد فتفقه بها وسمع من ابن الجوزي وغيره وبحلب من حنبل وبدمشق من جماعة، ودرس وأفتى وصنف تصانيف حسنة منها طبقات الشافعية وكتاب المغني في غريب المهذب، وكان من أعيان الأئمة عارفاً بالأصول قوي المشاركة في العلوم، لكن في كتابه المغني أوهام كثيرة نبه النووي في تهذيبه على كثير منها {cite:shadharat-dhahab p. 276}."
+  en: "The Mosul Shafi'i (b. 575, d. Aleppo Jumada II 655) — author of Tabaqat al-Shafi'iyya and al-Mughni fi Gharib al-Muhadhdhab, whose errors al-Nawawi catalogued in his Tahdhib {cite:shadharat-dhahab p. 276}."
+gender: male
+roles: [scholar, jurist, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: born_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+external_ids: { wikidata: "Q67101868" }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 655)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch87
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

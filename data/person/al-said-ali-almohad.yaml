@@ -1,0 +1,22 @@
+id: person/al-said-ali-almohad
+class: person
+label: { ar: "السعيد علي بن إدريس الموحدي", en: "al-Sa'id Ali ibn Idris al-Muwahhidi" }
+summary:
+  ar: "أبو سلمة علي بن إدريس الموحدي، الملقب بالمعتضد ويعرف بالسعيد؛ وُلي الخلافة بعد أخيه لأبيه الرشيد عبد الواحد الذي مات غريقاً، وكان ملك المغرب الأقصى وبعض الأندلس، ثم خرج إلى ناحية تلمسان وحاصر قلعة هناك، وولي بعده المرتضى عمر بن أبي إبراهيم {cite:wafayat-ayan}."
+  en: "Abu Salama Ali ibn Idris al-Muwahhidi, titled al-Mu'tadid and known as al-Sa'id. He was given the caliphate after his half-brother al-Rashid Abd al-Wahid, who died by drowning, and he ruled the Far Maghrib and part of al-Andalus. He then went out to the region of Tlemcen and besieged a fortress there, and after him al-Murtada Umar ibn Abi Ibrahim succeeded {cite:wafayat-ayan}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان لابن خلكان — الجزء السابع (الواو والياء)، طبعة إحسان عباس، النص المقروء آلياً من archive.org"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch99
+sources: [source/wafayat-ayan]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1248", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mu'jib (al-Murrakushi)" }
+relations:
+  - { type: lived_in, target: place/tlemcen, note: "From text: of Tlemcen", sources: [source/wafayat-ayan], confidence: low }

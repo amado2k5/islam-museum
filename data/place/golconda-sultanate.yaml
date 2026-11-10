@@ -1,0 +1,21 @@
+id: place/golconda-sultanate
+class: place
+kind: region
+label: { ar: "سلطنة قلقندة", en: "Golconda Sultanate", ur: "قطب شاہی سلطنت" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q19805959)."
+wings: [place]
+regions: [global]
+coordinates: [17.3833, 78.4011]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
+external_ids: { wikidata: "Q19805959" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q19805959 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

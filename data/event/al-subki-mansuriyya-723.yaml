@@ -1,0 +1,27 @@
+id: event/al-subki-mansuriyya-723
+class: event
+kind: other
+label:
+  ar: "السبكي مدرّساً بالمنصورية بالقاهرة، ٧٢٣هـ"
+  en: "Al-Subki teaches at the Mansuriyya, Cairo, 723/1323"
+  ur: "سبکی مدرسہ منصوریہ قاہرہ میں مدرس، 723ھ/1323ء"
+summary:
+  ar: "درّس الإمام العلامة المحدث تقي الدين السبكي الشافعي بالمدرسة المنصورية بالقاهرة عوضاً عن القاضي جمال الدين الزرعي الذي انتقل إلى دمشق، وذلك في ربيع سنة ٧٢٣هـ {cite:al-bidaya-wal-nihaya s.a. 723 p. 108}."
+  en: "In the spring of 723 AH the Shafi'i scholar Taqi al-Din al-Subki took over the teaching post at the Mansuriyya madrasa in Cairo from the qadi Jamal al-Din al-Zar'i, who had moved to Damascus {cite:al-bidaya-wal-nihaya s.a. 723 p. 108}."
+  ur: "723ھ کے موسمِ بہار میں شافعی عالم تقی الدین سبکی نے قاہرہ کے مدرسہ منصوریہ کی تدریس قاضی جمال الدین زرعی سے سنبھالی جو دمشق منتقل ہو گئے تھے {cite:al-bidaya-wal-nihaya s.a. 723 p. 108}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1323-03~", hijri: "0723-03~", calendar: julian, precision: month, status: historical, derived: true, note: "درّس بالمنصورية عوضاً عن الزرعي في ربيع ٧٢٣هـ تقريباً {cite:al-bidaya-wal-nihaya s.a. 723 p. 108}؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/taqi-al-din-al-subki, role: "المدرّس", sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya]
+provenance:
+  layer: own-research
+  source: "al-Bidaya wa-l-Nihaya (Ibn Kathir), s.a. 723, printed p. 108 (harvest scan AAlexandrina-074483)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-subki-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

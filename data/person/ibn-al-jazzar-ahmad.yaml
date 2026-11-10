@@ -1,0 +1,37 @@
+id: person/ibn-al-jazzar-ahmad
+class: person
+label: { ar: "ابن الجزار أحمد بن إبراهيم", en: "Ibn al-Jazzar, Ahmad ibn Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "أبو جعفر أحمد بن إبراهيم بن أبي خالد أحمد بن الجزار القيرواني" }
+gender: male
+roles: [physician, scholar]
+traditions: [sunni]
+born: { edtf: "0898", hijri: "0285", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0980", hijri: "0369", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب من القيروان، من كبار الأطباء في زمنه، ألّف في الطب وأدويته."
+  en: "A physician from Kairouan, one of the leading physicians of his time, who wrote on medicine and drugs."
+wings: [people]
+themes: [medicine]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص244"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57
+occupations:
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

@@ -1,0 +1,60 @@
+id: person/hudhayfa-ibn-al-yaman
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "حذيفة بن اليمان أمين سرّ النبي في المنافقين، وانتدبه ليلة الخندق ليتسلل إلى عدوّهم فيأتيه بالخبر."
+    en: "Hudhayfa ibn al-Yaman, keeper of the Prophet's secret list of hypocrites, was sent into enemy lines on the bitter night of the Trench to bring back word."
+    ur: "حذیفہ بن یمان، نبی کے منافقین کے راز کے امین، خندق کی سخت رات میں دشمن صفوں میں بھیجے گئے اور خبر لے آئے۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+class: person
+label: { en: "Hudhayfa ibn al-Yaman", ar: "حذيفة بن اليمان" , ur: "حذیفہ بن یمان"}
+aliases: [person/hudhayfa-ibn-al-yaman-al-absi]
+names:
+  - { kind: full, lang: ar, value: "حذيفة بن حسل بن جابر العبسي" }
+  - { kind: laqab, lang: ar, value: "أمين سر رسول الله" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A prominent Companion known as the 'Keeper of the Prophet's Secrets'; at the climax of the Battle of the Trench, the Prophet sent him across the lines on a freezing, gale-swept night into the confederate camp to gather intelligence, bringing back news of Abu Sufyan ordering the final retreat. وهو الذي أفزعه اختلاف أهل الشام والعراق في القراءة بفتح أرمينية فقال لعثمان «أدرك هذه الأمة قبل أن يختلفوا في الكتاب اختلاف اليهود والنصارى» فكان إنذاره سبب نسخ المصاحف {cite:sahih-al-bukhari 4987}."
+  ar: "صحابي جليل من كبار الأنصار حلفاً وأمين سر رسول الله في المنافقين؛ انتدبه النبي في ليلة الريح والظلمة والبرد الشديد في غزوة الخندق ليتسلل إلى معسكر قريش ويأتي بخبرهم، فشهد نكوص أبي سفيان وأمره الأحزاب بالرحيل وعاد بالخبر إلى رسول الله.؛ وولّاه عثمان ثغر أرمينية بعد حبيب بن مسلمة فشخص إلى برذعة حتى أمره بالانصراف، وحين بلغه قتل عثمان وهو عليل بالكوفة حُمل إلى المنبر فبايع علياً وأوصى ابنيه صفواناً وسعداً بالشهادة معه فاستشهدا بصفين ومات بعدها بأيام {cite:futuh-buldan p. 287} {cite:muruj-al-dhahab p. 675} وفي الصحيح أنه نادى يوم أحد «أي عباد الله أبي» حين رأى المسلمين يقتلون أباه في الارتداد بعد هزيمة المشركين فقال «غفر الله لكم» {cite:sahih-al-bukhari 3824}."
+  ur: "صحابی جنہیں نبی کے رازوں کے امین کے طور پر یاد کیا جاتا ہے؛ خندق کی سرد اور تیز ہوا والی رات مخالف لشکر کی خبر لانے گئے اور ابو سفیان کے واپسی کے حکم کی اطلاع دی۔ {cite:mubarakpuri-raheeq}"
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: companion, start: { edtf: "0624~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: official, toward: person/muhammad, start: { edtf: "0627" }, status: tradition, note: "صاحب سر رسول الله ومستطلعه ليلة الأحزاب (الرحيق ص313–314؛ صحيح مسلم).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0624~" }, note: "صحابي بدري وأمين سر رسول الله." }
+died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: died_in, target: place/al-madain, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: participated_in, target: event/death-of-habib-ibn-maslama, role: "خلفه على ثغر أرمينية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-the-trench, role: "عين الاستخبارات ليلة الريح", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+external_ids: { wikidata: "Q1145300" }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-mosaad-anwar, source/assabile-mustafa-hosny]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 313–314; run omar-abdelkafy-sharh-ketab-1" }
+provenance:
+  layer: own-research
+  source: "source/mubarakpuri-raheeq"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
+  explorer_metadata:
+    generated_by: Copilot SDK in VS Code
+    model: unknown
+    run: explorer-sixth-40-stories-2026-11-04
+    source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+occupations:
+  - job: job/katib
+    kind: episodic
+    status: historical
+    note: "The DİA entry calls him the Prophet's secret scribe, and says Abu Bakr sent him with Osman ibn Hunayf to Sawad as scribe for the land tax."
+    sources: [source/tdv-katip]

@@ -1,0 +1,26 @@
+id: person/ahmad-ibn-shah-rukh
+class: person
+label: { ar: "أحمد بن شاه رخ", en: "Ahmad b. Shah Rukh" }
+names:
+  - { value: "أحمد بن شاه رخ", kind: full }
+gender: male
+summary:
+  ar: "أحمد بن شاه رخ ملك الشرق؛ مات في شعبان سنة تسع وثلاثين وثمانمائة بعد أن رجع من سفره {cite:shadharat-dhahab p. 230}."
+  en: "Ahmad b. Shah Rukh the Timurid, king of the East; died Sha'ban 839 shortly after returning from a journey {cite:shadharat-dhahab p. 230}."
+roles: [emir]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+died: { edtf: "1436-02~", hijri: "0839-08", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في شعبان 839 {cite:shadharat-dhahab p. 230}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 839)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch72
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }

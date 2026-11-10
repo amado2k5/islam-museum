@@ -1,0 +1,31 @@
+id: person/ibrahim-al-imam
+class: person
+label:
+  ar: "إبراهيم الإمام العباسي"
+  en: "Ibrahim al-Imam"
+roles: [ruler]
+gender: male
+summary:
+  ar: "إبراهيم بن محمد بن علي بن عبد الله بن عباس، إبراهيم الإمام، رأس دعوة بني العباس؛ غيّر اسم أبي مسلم وساقه إلى خراسان وزوّجه فيها، وأسند أمر الدعوة إلى أبي سلمة حفص بن سليمان."
+  en: "Ibrahim b. Muhammad b. Ali b. Abd Allah b. Abbas — Ibrahim al-Imam — head of the Abbasid da'wa; he renamed and dispatched Abu Muslim to Khurasan and appointed Abu Salama Hafs b. Sulayman to lead the mission."
+wings: [people]
+regions: [persia-central-asia, levant-iraq]
+periods: [period/umayyad, period/abbasid-early]
+born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: born_in, target: place/humayma, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/buhran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/harran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q3827910
+provenance:
+  layer: own-research
+  source: "ابن الأثير، الكامل ج4"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch14
+status:
+  review: published
+  completeness: 3

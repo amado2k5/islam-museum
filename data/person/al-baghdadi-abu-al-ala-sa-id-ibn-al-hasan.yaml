@@ -1,0 +1,33 @@
+id: person/al-baghdadi-abu-al-ala-sa-id-ibn-al-hasan
+class: person
+label: { ar: "البغدادي أبو العلاء صاعد بن الحسن", en: "al-Baghdadi Abu al-Ala Sa'id ibn al-Hasan" }
+names:
+  - { kind: full, lang: ar, value: "أبو العلاء صاعد بن الحسن بن عيسى الربعي البغدادي" }
+  - { kind: kunya, lang: ar, value: "أبو العلاء" }
+  - { kind: nisba, lang: ar, value: "الربعي" }
+  - { kind: nisba, lang: ar, value: "البغدادي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "1026", hijri: "0417", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "لغوي بغدادي يرجع أصله إلى ديار ربيعة بالموصل، روى بالمشرق عن السيرافي والفارسي، وتوفي سنة 417هـ ⁦(1026م)⁩."
+  en: "Baghdadi lexicographer of Rabi'a origin from Mosul, who transmitted in the East from al-Sirafi and al-Farisi; died 417 AH (1026 CE)."
+wings: [people]
+themes: [linguistics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص627"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch50
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

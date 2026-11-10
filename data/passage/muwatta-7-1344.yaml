@@ -1,0 +1,17 @@
+id: passage/muwatta-7-1344
+class: passage
+unit: hadith
+chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/muhammad]
+work: work/muwatta-malik
+ref: "1344"
+label: { ar: "الموطأ 1344 — يحيى بن سعيد: رئي النبي يمسح وجه فرسه بردائه، فقال إني عوتبت الليلة في الخيل", en: "Muwatta 1344" }
+text: "إِنِّي عُوتبْتُ اللَّيْلةَ في الْخَيْلِ"
+summary:
+  ar: "يروي مالك عن يحيى بن سعيد أن رسول الله رئي وهو يمسح وجه فرسه بردائه، فسئل عن ذلك، فقال إني عوتبت الليلة في الخيل. ويذكر المحقق أن ابن عبد البر قال إن هذا الخبر روي عن مالك سندا عن يحيى بن سعيد عن أنس، ولا يصح. {cite:muwatta-maruf-1997 p.601}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-07-jihad }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1344 at PDF p. 601; ما جاء في الخيل والمسابقة بينها، والنفقة في الغزو", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 601; matn excerpt at most 40 words" }

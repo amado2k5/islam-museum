@@ -1,0 +1,21 @@
+id: place/cliffside-park
+class: place
+kind: region
+label: { ar: "كليفسايد بارك", en: "Cliffside Park", ur: "کلف سائیڈ پارک" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q1087360)."
+wings: [place]
+regions: [americas-oceania]
+coordinates: [40.821666666667, -73.987777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1087360" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1087360 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

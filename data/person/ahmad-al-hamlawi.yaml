@@ -1,0 +1,31 @@
+id: person/ahmad-al-hamlawi
+class: person
+label: { ar: "أحمد الحملاوي", en: "Ahmad al-Hamlawi" }
+names:
+  - { kind: full, lang: ar, value: "الشيخ أحمد الحملاوي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1856", hijri: "1273", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1932", hijri: "1350", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد بإحدى قرى مركز بلبيس بمحافظة الشرقية، وتخرج في مدرسة دار العلوم بالقاهرة."
+  en: "Born in a village of the Belbeis district of the Sharqiyya governorate, and graduated from Dar al-Ulum in Cairo."
+wings: [people]
+themes: [linguistics, scripture-and-its-sciences]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص265"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48
+relations:
+  - { type: born_in, target: place/bilbays, note: "From text: ولد بإحدى قرى مركز بلبيس بمحافظة ال", sources: [source/mawsuat-a3lam-ulama-adaba] }

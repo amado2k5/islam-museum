@@ -1,0 +1,39 @@
+id: building/dar-al-fulful-fustat
+class: building
+kind: other
+label:
+  ar: دار الفلفل بالفسطاط
+  en: The Pepper House (Dar al-Fulful), al-Fustat
+  ur: دار الفلفل، فسطاط
+summary:
+  ar: دار بالفسطاط في قبلة المسجد، تُنسب إلى قيس بن سعد في ولايته لعلي، ويقال كانت لنافع بن عبد القيس أو لسعد بن أبي وقاص؛ وسُمّيت دار الفلفل لأن أسامة بن زيد التنوخي خزن فيها فلفلاً بعشرين ألف دينار أراد الوليد بن عبد الملك أن يهديه إلى صاحب الروم {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 p. 142}.
+  en: A house in al-Fustat on the qibla side of the mosque, attributed to Qays ibn Sa'd during his governorship for Ali, or else to Nafi' ibn Abd al-Qays or Sa'd ibn Abi Waqqas; named the Pepper House because Usama ibn Zayd al-Tanukhi stored in it pepper worth twenty thousand dinars that al-Walid ibn Abd al-Malik meant as a gift to the Byzantine ruler {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 p. 142}.
+  ur: فسطاط میں مسجد کی قبلہ کی جانب ایک گھر، جو علی کی طرف سے قیس بن سعد کی ولایت سے منسوب ہے، یا نافع بن عبد القیس یا سعد بن ابی وقاص سے؛ دار الفلفل اس لیے کہلایا کہ اسامہ بن زید تنوخی نے اس میں بیس ہزار دینار کی کالی مرچ رکھی جو ولید بن عبد الملک رومی بادشاہ کو تحفہ بھیجنا چاہتے تھے {cite:futuh-misr-amir-1999 p. 141} {cite:futuh-misr-amir-1999 p. 142}۔
+wings:
+- place
+periods:
+- period/rashidun
+regions:
+- egypt-nile
+relations:
+- type: located_in
+  target: place/al-fustat
+  sources:
+  - source/futuh-misr-amir-1999
+- type: built_by
+  target: person/qays-ibn-sad
+  sources:
+  - source/futuh-misr-amir-1999
+sources: &id001
+- source/futuh-misr-amir-1999
+provenance:
+  layer: own-research
+  source: فتوح مصر لابن عبد الحكم (تحقيق عامر 1999) ص 141–143
+  generated_by: Claude Opus 5.5
+  model: claude-opus-5-5
+  run: lib-futuh-misr-batch-3-2026-10-31
+  sources: *id001
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Opus 5.5 from Apple Vision OCR of Futuh Misr (Amir ed.), via a claims table checked against the page text

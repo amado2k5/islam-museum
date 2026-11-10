@@ -1,0 +1,16 @@
+id: place/patras
+class: place
+kind: city
+label: { en: "Patras", ar: "بتراس" }
+summary:
+  en: "City in Greece."
+  ar: "مدينة في اليونان."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [38.2464, 21.7349]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q133123", geonames: "255683" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q133123 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,37 @@
+id: person/ali-ibn-muhammad-al-masakini
+class: person
+label: { ar: "علي بن محمد المساكني", en: "Ali ibn Muhammad al-Masakini" }
+names:
+  - { kind: full, lang: ar, value: "علي بن محمد بن خليفة الشريف المساكني" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1669", hijri: "1080", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1758", hijri: "1172", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مربٍّ من تونس، صاحب المدرسة في آخر عهد الدولة الحسينية."
+  en: "A jurist and educator from Tunis, founder of a school at the end of the Husaynid period."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص477"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/tunis, note: "From text: فقيه مربٍّ من تونس", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

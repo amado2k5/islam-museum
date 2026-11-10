@@ -1,0 +1,70 @@
+---
+// For librarians (E5 step 5): how to cite islam.museum (APA/MLA/Chicago
+// templates) and the exact links a LibGuides entry needs. Static, no JS.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import "../../../../../styles/edu.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const E = T.edu;
+const base = "https://islam.museum";
+const links = [
+  { key: "lb_home", href: `/${lang}/` },
+  { key: "lb_learn", href: `/${lang}/learn/` },
+  { key: "lb_teachers", href: `/${lang}/learn/teachers/` },
+  { key: "lb_kids", href: `/${lang}/sighar/` },
+  { key: "lb_search", href: `/${lang}/search/` },
+  { key: "lb_facts", href: `/${lang}/learn/facts/` },
+  { key: "lb_references", href: `/${lang}/references/` },
+  { key: "lb_about", href: `/${lang}/foundation/` },
+];
+const site = "islam.museum";
+const apa = `Islam Museum. (2026). Page title. ${site}. URL`;
+const mla = `"Page title." Islam Museum, ${site}, URL. Accessed Day Month Year.`;
+const chicago = `"Page title." Islam Museum. Accessed Month Day, Year. ${site}/URL.`;
+---
+<BaseLayout lang={lang} title={E.lb_title} description={E.lb_lede} path={`/${lang}/learn/teachers/librarians/`}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb">
+      <a href={`/${lang}/learn/`}>{E.title}</a> › <a href={`/${lang}/learn/teachers/`}>{E.teachers_title}</a> › {E.lb_title}
+    </nav>
+    <h1>{E.lb_title}</h1>
+    <p style="font-size:1.1rem;max-width:var(--measure)">{E.lb_lede}</p>
+
+    <section aria-labelledby="lb-cite">
+      <h2 id="lb-cite">{E.lb_cite_title}</h2>
+      <p style="max-width:var(--measure)" set:html={E.lb_cite_intro} />
+      <h3>{E.lb_apa}</h3>
+      <p><code dir="ltr" class="cite-line">{apa}</code></p>
+      <h3>{E.lb_mla}</h3>
+      <p><code dir="ltr" class="cite-line">{mla}</code></p>
+      <h3>{E.lb_chicago}</h3>
+      <p><code dir="ltr" class="cite-line">{chicago}</code></p>
+      <p class="muted" style="max-width:var(--measure)" set:html={E.lb_cite_note} />
+    </section>
+
+    <section aria-labelledby="lb-links">
+      <h2 id="lb-links">{E.lb_links_title}</h2>
+      <ul class="lb-links">
+        {links.map((l) => (
+          <li>
+            <a href={l.href}>{E[l.key]}</a>{" "}
+            <code dir="ltr">{base}{l.href}</code>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="lb-licence">
+      <h2 id="lb-licence">{E.lb_licence_title}</h2>
+      <p style="max-width:var(--measure)">{E.lb_licence}</p>
+    </section>
+  </div>
+</BaseLayout>
+<style>
+.cite-line { display: inline-block; padding: 8px 12px; background: var(--paper, #f8f4ea); border: 1px solid #d8cfae; border-radius: 8px; }
+.lb-links li { margin-block: 6px; }
+.lb-links code { font-size: .85rem; opacity: .8; }
+</style>

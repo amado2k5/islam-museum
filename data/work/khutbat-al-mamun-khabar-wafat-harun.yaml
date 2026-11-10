@@ -1,0 +1,23 @@
+id: work/khutbat-al-mamun-khabar-wafat-harun
+class: work
+kind: sermon
+sermon_type: occasion
+delivered: { by: person/abd-allah-al-mamun }
+label: { ar: "خطبة المأمون حين وصله نعي الرشيد", en: "Al-Ma'mun's address on receiving news of Harun al-Rashid's death", ur: "ہارون الرشید کی وفات کی خبر پر مامون کا خطاب" }
+summary:
+  ar: "خطاب المأمون حين وصله نعي هارون الرشيد سنة 193هـ، يعزّي فيه ويذكّر الناس بعهدهم ويعد بالإنصاف، وخطبة أخرى له حين بويع بالخلافة."
+  en: "Al-Ma'mun's address on receiving news of Harun al-Rashid's death in 193 AH. He offers condolence, reminds the people of their pledge and promises fairness, and gives a second address on accepting the caliphate."
+  ur: "193 ہجری میں ہارون الرشید کی وفات کی خبر پر مامون کا خطاب، جس میں وہ تعزیت کرتے، لوگوں کو عہد یاد دلاتے اور انصاف کا وعدہ کرتے ہیں۔ بیعت خلافت کے وقت ان کا ایک اور خطاب بھی درج ہے۔"
+wings: [words]
+made: { by_muslims: true, basis: documented, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+language: language/arabic
+authors: [person/abd-allah-al-mamun]
+composed: { hijri: "0193", edtf: "0809", calendar: gregorian, precision: year, derived: true }
+delivery_date_status: delivered
+ruler_at_time:
+  - { who: polity/abbasid-caliphate, role: contemporary }
+sources: [source/jamharat-khutab-al-arab-safwat-1352]
+relations:
+  - { type: part_of, target: work/jamharat-khutab-al-arab, sources: [source/jamharat-khutab-al-arab-safwat-1352] }
+provenance: { layer: pd, source: "Jamharat v3, EPUB page 119", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: khutab-durus-batch-3 }
+status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5" }

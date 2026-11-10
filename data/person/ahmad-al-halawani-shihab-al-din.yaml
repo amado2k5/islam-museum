@@ -1,0 +1,31 @@
+id: person/ahmad-al-halawani-shihab-al-din
+class: person
+label: { ar: "شهاب الدين الحلواني أحمد بن أحمد", en: "Shihab al-Din al-Halawani, Ahmad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أحمد بن أحمد بن إسماعيل الحلواني الشافعي الخلوتي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1833", hijri: "1249", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1891", hijri: "1308", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم شافعي خلوتي من مصر."
+  en: "A Shafi'i and Khalwati scholar from Egypt."
+wings: [people]
+themes: [scripture-and-its-sciences, spirituality-and-sufism]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص464"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch48
+relations:
+  - { type: lived_in, target: place/misr, note: "From text: from Egypt.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

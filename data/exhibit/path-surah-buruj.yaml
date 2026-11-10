@@ -1,0 +1,76 @@
+id: exhibit/path-surah-buruj
+class: exhibit
+kind: trail
+label:
+  ar: سورة البروج
+  en: Surah al-Buruj
+summary:
+  ar: 'مسار في سورة الأخدود: أصحاب النار ذات الوقود، وشهادة المؤمنين — قصة نجران في القرآن.'
+  en: A trail through the sura of the ditch.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: والسماء ذات البروج.
+    en: والسماء ذات البروج.
+  features:
+  - passage/quran-85
+  - passage/quran-85-1
+- title:
+    ar: الأخدود
+    en: The ditch
+  body:
+    ar: 'أصحاب الأخدود: النار والوقود.'
+    en: 'أصحاب الأخدود: النار والوقود.'
+  features:
+  - passage/quran-85-4
+  - passage/quran-85-4
+- title:
+    ar: نجران
+    en: Najran
+  body:
+    ar: 'مذبحة نجران: التاريخ يُشهد القصة.'
+    en: 'مذبحة نجران: التاريخ يُشهد القصة.'
+  features:
+  - event/massacre-of-najran
+  - event/massacre-of-najran
+- title:
+    ar: الشهادة
+    en: Witness
+  body:
+    ar: 'الشهداء يشهدون: يوم مشهود.'
+    en: 'الشهداء يشهدون: يوم مشهود.'
+  features:
+  - passage/quran-85-3
+  - passage/quran-85-3
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: بل هو قرآن مجيد في لوح محفوظ.
+    en: بل هو قرآن مجيد في لوح محفوظ.
+  features:
+  - passage/quran-85-22
+  - concept/kalam-allah
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

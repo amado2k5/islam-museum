@@ -1,0 +1,28 @@
+id: event/bayhaqi-letter-amid-al-mulk-446
+class: event
+kind: other
+label:
+  ar: "رسالة البيهقي إلى عميد الملك الكندري، نحو ٤٤٦هـ"
+  en: "Al-Bayhaqi's letter to the vizier Amid al-Mulk al-Kunduri, c. 446/1054"
+  ur: "بيهقی کا وزیر عمید الملک کندری کے نام خط، تقریباً 446ھ/1054ء"
+summary:
+  ar: "كان البيهقي بمدينة بيهق فلما وصله خبر الفتنة شقّ عليه، وكان محدث زمانه وشيخ السنة في وقته، فكتب إلى عميد الملك رسالة يذبّ فيها عن الشيخ أبي الحسن الأشعري، ويذكر نسبه وترجمته، ويسأله إطفاء الثائرة وترك اللعن وتأديب من يفعله؛ ساقها ابن عساكر بمجموعها {cite:tabaqat-shafiiyya-subki pp. 272-276}."
+  en: "Al-Bayhaqi was in the city of Bayhaq when news of the ordeal reached him; it grieved him, and as the traditionist of his age and the shaykh of the Sunna of his time he wrote to Amid al-Mulk a long letter defending al-Ash'ari — recounting his lineage and merits — and asking him to quench the fire, abandon the cursing and discipline its perpetrators; Ibn Asakir transmitted the letter in full {cite:tabaqat-shafiiyya-subki pp. 272-276}."
+  ur: "بيهقی شہرِ بيهق میں تھے جب فتنے کی خبر پہنچی؛ ان پر بہت گراں گذری، اور چونکہ وہ اپنے زمانے کے محدث اور شیخِ سنت تھے، انھوں نے عمید الملک کے نام ایک طویل خط لکھا جس میں شیخ ابو الحسن اشعری کا دفاع کیا، ان کے نسب اور مناقب بیان کیے، اور آگ بجھانے، لعن چھوڑنے اور فتنہ پھیلانے والوں کی تنبیہ کی درخواست کی؛ ابن عساکر نے پورا خط نقل کیا ہے {cite:tabaqat-shafiiyya-subki pp. 272-276}۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1054~", hijri: "0446~", calendar: julian, precision: year, status: tradition, derived: true, note: "الرسالة إبان الفتنة التي افتتحت سنة ٤٤٥هـ ووصلت رسالة القشيري إلى بيهق فوقف عليها البيهقي؛ التاريخ تقريبي مشتق {cite:tabaqat-shafiiyya-subki pp. 272-276}." }
+relations:
+  - { type: occurred_at, target: place/bayhaq, sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn, role: "كاتب الرسالة", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الوزير المكتوب إليه", sources: [source/tabaqat-shafiiyya-subki] }
+sources: [source/tabaqat-shafiiyya-subki]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, printed pp. 272-276 (harvest OCR): 'dhikr kitab al-Bayhaqi ila Amid al-Mulk'"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bayhaqi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

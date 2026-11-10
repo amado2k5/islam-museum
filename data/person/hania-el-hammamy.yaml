@@ -1,0 +1,38 @@
+id: person/hania-el-hammamy
+class: person
+label: { ar: "هانيا الهمامي", en: "Hania El Hammamy", ur: "ہانیہ ال حمامی" }
+names:
+  - { value: "Hania El Hammamy", kind: full }
+  - { value: "هانيا الهمامي", kind: full }
+gender: female
+summary:
+  ar: "لاعبة اسكواش مصرية محترفة، وُلدت في القاهرة سنة 2000. بطلة العالم للناشئات سنة 2019، وأول لاعبة وُلدت في القرن الحادي والعشرين تفوز بلقب في جولة المحترفين، وصلت إلى صدارة التصنيف العالمي سنة 2025."
+  en: "Egyptian professional squash player, born in Cairo in 2000. World junior champion in 2019 and the first player born in the 21st century to win a PSA tour title, she reached the world No. 1 ranking in 2025."
+  ur: "مصری پیشہ ور اسکواش کھلاڑی، 2000 میں قاہرہ میں پیدا ہوئیں۔ 2019 میں عالمی جونیئر چیمپئن اور اکیسویں صدی میں پیدا ہونے والی پہلی کھلاڑی جنہوں نے پی ایس اے ٹور خطاب جیتا؛ 2025 میں عالمی نمبر 1 رہیں۔"
+roles: [squash player]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "2000-09-01"
+  hijri: "1421"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born 1 September 2000 in Cairo (the English and Arabic articles and Wikidata agree; the Arabic article's category places her birth in 1421 AH). The Hijri year 1421 is the tabular conversion of 1 September 2000 and is marked derived."
+  sources: [source/wikipedia-hania-el-hammamy-en, source/wikipedia-hania-el-hammamy-ar, source/wikidata-hania-el-hammamy]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-hania-el-hammamy-en, source/wikipedia-hania-el-hammamy-ar, source/wikidata-hania-el-hammamy] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English nor the Arabic article names a religion for her, and Wikidata records no religion (P140) statement. Her nationality and name are not evidence. Recorded as unknown on absence of attestation; no school is asserted."
+    sources: [source/wikipedia-hania-el-hammamy-en, source/wikipedia-hania-el-hammamy-ar, source/wikidata-hania-el-hammamy]
+external_ids: { wikidata: "Q29798461" }
+sources: [source/wikipedia-hania-el-hammamy-en, source/wikipedia-hania-el-hammamy-ar, source/wikidata-hania-el-hammamy]
+provenance:
+  layer: own-research
+  source: "English Wikipedia (revision 1377317926), Arabic Wikipedia (revision 71196864) and Wikidata Q29798461 (item revision 2516301293, re-asserted against a second live query), all fetched via the MediaWiki API and checked on 1 November 2026; QID grounded from the English article's page property and confirmed from the Arabic article; existence checked by name fragments and by QID across data/person/ — no prior record and no draft stub; the English article's infobox and lead date her reaching world No. 1 to November 2025 while a Squash Info-based sentence in the same article says October 2025, so the summary states only the year; her brother Karim El Hammamy has no record, so the sibling relationship is carried in prose only; the Arabic article's ranking data is stale (March 2019) and was not used for her later career."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: wave-155a
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,29 @@
+id: person/muhammad-naim-yasin
+class: person
+label:
+  ar: "محمد نعيم ياسين"
+  en: "Muhammad Naim Yasin"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد نعيم ياسين؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Naim Yasin; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1943", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: International Islamic Fiqh Academy" }
+died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: International Islamic Fiqh Academy" }
+relations:
+  - { type: born_in, target: place/salfit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1972013)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q104010317
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

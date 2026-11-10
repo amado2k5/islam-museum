@@ -1,0 +1,34 @@
+id: work/al-qanun-al-masudi
+class: work
+kind: book
+label: { ar: "القانون المسعودي", en: "al-Qanun al-Mas'udi (The Mas'udic Canon)", ur: "القانون المسعودی" }
+summary:
+  ar: "موسوعة [[person/al-biruni-muhammad-ibn-ahmad|البيروني]] الكبرى في الهيئة والنجوم، أهداها إلى السلطان مسعود بن محمود الغزنوي وسماها باسمه، في إحدى عشرة مقالة ومائة واثنين وأربعين بابًا، تبدأ بالتواريخ والتقاويم والأعياد ثم حساب المثلثات والهيئة الكروية فالحركات {cite:qanun-masudi-jundi-v1 p. 38} {cite:qanun-masudi-jundi-v1 p. 81}."
+  en: "[[person/al-biruni-muhammad-ibn-ahmad|Al-Biruni]]'s great encyclopaedia of astronomy, dedicated to and named after the Ghaznavid sultan Mas'ud ibn Mahmud, in eleven books and 142 chapters, moving from eras, calendars and feasts to trigonometry, spherical astronomy and the motions {cite:qanun-masudi-jundi-v1 p. 38} {cite:qanun-masudi-jundi-v1 p. 81}."
+  ur: "[[person/al-biruni-muhammad-ibn-ahmad|بیرونی]] کا ہیئت و نجوم پر عظیم دائرۃ المعارف، جو غزنوی سلطان مسعود بن محمود کے نام معنون اور انہی کے نام سے موسوم ہے؛ گیارہ مقالات اور 142 ابواب، تقاویم و اعیاد سے مثلثات، کروی ہیئت اور حرکات تک {cite:qanun-masudi-jundi-v1 p. 38}."
+wings: [ideas, words]
+themes: [astronomy-and-timekeeping, mathematics, geography-and-cartography]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, south-asia]
+authors: [person/al-biruni-muhammad-ibn-ahmad]
+language: language/arabic
+genre: [hay'a, zij]
+made: { by_muslims: true, basis: documented, sources: [source/qanun-masudi-jundi-v1] }
+composed: { edtf: "1030", hijri: "0421", calendar: julian, precision: year, status: historical, note: "يقول المحقق إن البيروني كتبه سنة 421هـ (1030م) {cite:qanun-masudi-jundi-v1 p. 37}." }
+disciplines: [concept/astronomy]
+structure: "Eleven books (maqalat), 142 chapters in all (editor, scan p. 38). Vol. 1 of the Beirut edition: author's preface (scan pp. 80–81); Book 1; Book 2 on eras, calendars and feasts — Hijri, Alexander, Yazdgird and al-Mu'tadid's leap year, Indian, Jewish, Christian fasts and feasts, the days held great in Islam (ch. 10), Persian feasts (ch. 11) (scan pp. 263–266, 466); Book 3 on chords, sines, shadows and the spherical sector (scan p. 467); Book 4 (26 chapters) on the obliquity, ascensions, latitudes, the meridian, the azimuth, the hours and the cardines, with a table for the latitude of Ghazna (scan pp. 468–470)."
+editions:
+  - "Dairat al-Ma'arif al-Uthmaniyya, Hyderabad Deccan, 1954, collated on seven manuscripts with the Bayezid copy as base (editor, scan p. 37)."
+  - "Dar al-Kutub al-Ilmiyya, Beirut, ed. Abd al-Karim Sami al-Jundi (source/qanun-masudi-jundi-v1)."
+  - "Manuscripts named by the editor (scan p. 37): Bodleian, Oxford (copied 475 AH); Bibliothèque nationale, Paris (501 AH); Millet library, Istanbul (531 AH); Bayezid library, Istanbul (before 536 AH); Tübingen (before 562 AH); British Museum, London (570 AH); Dar al-Kutub, Cairo (Jumada II 673 AH, copied by Muhammad ibn Mas'ud ibn Muhammad al-Sinjari the astrologer)."
+relations:
+  - { type: patronized_by, target: person/masud-ibn-mahmud, role: "أهدي إليه وسمي باسمه", sources: [source/qanun-masudi-jundi-v1] }
+  - { type: relies_on, target: work/al-majisti, sources: [source/qanun-masudi-jundi-v1] }
+sources: [source/qanun-masudi-jundi-v1]
+provenance:
+  layer: own-research
+  source: "source/qanun-masudi-jundi-v1 editor's introduction scan pp. 13–14, 18, 37–44; author's preface pp. 80–81; contents pp. 466–470"
+  generated_by: "Claude Code (OCR-harvest worker I)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3 }

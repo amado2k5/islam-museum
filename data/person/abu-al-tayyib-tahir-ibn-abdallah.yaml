@@ -1,0 +1,22 @@
+id: person/abu-al-tayyib-tahir-ibn-abdallah
+class: person
+label: { ar: "القاضي أبو الطيب طاهر بن عبد الله الشافعي", en: "Qadi Abu'l-Tayyib Tahir ibn 'Abd Allah" }
+summary:
+  ar: "القاضي الشافعي الذي عارض قصيدة عمران بن حطان في مدح ابن ملجم بقوله يا ضربة من شقي ما أراد بها إلا ليهدم للإسلام أركاناً، وألحق به آخر أبيات المعارضة في الثناء على علي {cite:muruj-al-dhahab p. 704-705}."
+  en: "The Shafi'i qadi who answered Ibn Hittan's praise of Ibn Muljim verse-for-verse — 'a wretched man's strike, meant to demolish Islam's pillars' {cite:muruj-al-dhahab p. 704-705}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch32
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "960", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat al-Fuqaha; al-Dhahabi, Siyar" }
+died: { edtf: "1058", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat al-Fuqaha; al-Dhahabi, Siyar" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Shafi'i qadi in al-Mas'udi's tenth-century context; residence inferred.", sources: [source/muruj-al-dhahab], confidence: low }

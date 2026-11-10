@@ -1,0 +1,43 @@
+id: work/darulifta-deoband
+class: work
+kind: website
+label:
+  ar: "موقع دار الإفتاء بدار العلوم ديوبند (Darulifta-Deoband.com)"
+  en: "Darulifta-Deoband.com"
+  ur: "دار الافتاء دار العلوم دیوبند (Darulifta-Deoband.com)"
+summary:
+  ar: "موقع فتاوى ثنائي اللغة ⁦(الأردية والإنجليزية)⁩ يديره قسم الفتوى الإلكترونية في دار العلوم ديوبند، أُطلق سنة 2007 بعد إنشاء القسم سنة 2005؛ ضم نحو ثلاثين ألف فتوى مختارة سنة 2016، وفي يناير 2022 أوصت اللجنة الوطنية لحماية حقوق الطفل في الهند بحجبه، فحُجب في 7 فبراير 2022."
+  en: "A bilingual (Urdu and English) fatwa website run by the Online Fatwa Department of Darul Uloom Deoband, launched in 2007 after the department was set up in 2005; it held some thirty thousand selected fatwas in 2016, and in January 2022 India's National Commission for Protection of Child Rights recommended blocking it; it was blocked on 7 February 2022."
+  ur: "دو لسانی ⁦(اردو اور انگریزی)⁩ فتویٰ ویب سائٹ جسے دار العلوم دیوبند کا آن لائن فتویٰ شعبہ چلاتا ہے؛ 2005 میں شعبہ بنا اور 2007 میں سائٹ شروع ہوئی؛ 2016 میں تقریباً تیس ہزار منتخب فتوے؛ جنوری 2022 میں بھارت کے قومی کمیشن برائے تحفظِ حقوقِ اطفال نے بندش کی سفارش کی، اور 7 فروری 2022 کو اسے بند کیا گیا۔"
+wings: [words, today]
+url: "https://darulifta-deoband.com"
+launched:
+  edtf: "2007"
+  hijri: "1428~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Darul Uloom Deoband's website from 2002, its Online Fatwa Department from 2005 and the bilingual fatwa site from 2007 (Ullah 2018, as the English article cites it). The Hijri year (1427 to 1428) is converter-derived."
+  sources: [source/wikipedia-darulifta-deoband-en]
+languages: [ur, en]
+publisher: listing/deoband
+content_type: fatwa
+orientation: { value: "Hanafi fiqh of the Deobandi school (Darul Uloom Deoband)", basis: documented }
+reception:
+  - { kind: objection, by: "National Commission for Protection of Child Rights (India)", where: [in], date: { edtf: "2022-01-16", calendar: gregorian, precision: day }, note: "said answers on the portal were not in accordance with Indian law and harmed children's rights, and recommended that Uttar Pradesh block it until the content was removed; the Students Islamic Organisation of India called it an attempt to undermine the madrasa, and the vice-chancellor Abul Qasim Nomani said fatwas answer those who ask in the light of the Sharia and oblige no one", sources: [source/wikipedia-darulifta-deoband-en] }
+  - { kind: ban, where: [in], date: { edtf: "2022-02-07", calendar: gregorian, precision: day }, note: "the portal was blocked in India (ThePrint, as the article cites it)", sources: [source/wikipedia-darulifta-deoband-en] }
+footprint:
+  wikipedia: { languages: [bn, en, hi, ur, yo], checked: "2026-11-06", sources: [source/wikidata-darulifta-deoband] }
+  wikidata: "Q110797901"
+external_ids:
+  wikidata: Q110797901
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-darulifta-deoband-en] }
+sources: [source/wikipedia-darulifta-deoband-en, source/wikidata-darulifta-deoband]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Darulifta-Deoband.com' (revision 1376125457, 22 September 2026) and Wikidata Q110797901, read in Chrome on the founder's Mac on 6 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b04
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

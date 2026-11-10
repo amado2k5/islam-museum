@@ -1,0 +1,15 @@
+id: passage/muslim-0107
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "107"
+label: { ar: "مسلم 107 — شيخ زان وملك كذاب وعائل مستكبر", en: "Muslim 107 — An old adulterer, a lying king, a proud beggar" }
+text: "قال رسول الله: «ثلاثة لا يكلمهم الله يوم القيامة ولا يزكيهم — ولا ينظر إليهم — ولهم عذاب أليم: شيخ زان، وملك كذاب، وعائل مستكبر»"
+summary:
+  ar: "رواية أبي هريرة في الباب نفسه من كتاب الإيمان في صحيح مسلم؛ صيغة ثانية من ثلاثية الذين لا يكلمهم الله: من جمع الكبر إلى حاجته أو لؤمه إلى سلطانه أو شيخوخته إلى فاحشته."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب ثلاثة لا يكلمهم الله ولا ينظر إليهم (طبعة دار التأصيل، الحديث ٩٩؛ ترقيم عبد الباقي المعروف 107)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

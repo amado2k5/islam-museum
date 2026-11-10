@@ -1,0 +1,51 @@
+id: dec-20261109-228
+kind: override
+date: '2026-11-09'
+expires_at: '2027-11-09'
+question_hash: 0d50f48d09ef
+lane: web-sources
+class: process
+modality: website
+domain: sources
+mode: conservative
+question: 'Should the iDAI.gazetteer (the German Archaeological Institute''s ancient-world place gazetteer, canonical place/<gazId> URIs, unauthenticated JSON REST endpoints, CC-BY 4.0 content licence, multilingual names including Arabic, provenance-tracked records with owl:sameAs links to Pleiades/geonames/GND) be onboarded as a citable source family for place records, and at what tier? Assessment 9 Nov 2026: authority excellent (the DAI is Germany''s federal archaeology institute and the gazetteer is a Pelagios linked-data standard across the ancient-world research community); citability excellent (stable canonical URIs like https://gazetteer.dainst.org/place/2280221 for Damascus, gazId + doc/<id>.json full record); terms good — CC-BY 4.0 stated in the site footer; structure excellent — robots.txt ''User-agent: * / Allow: /'', JSON endpoints search.json, doc/<id>.json, suggestions, children, geoSearch; coverage fit good — populated-place, archaeological-site and building-institution types with coordinates and polygons across the Islamic-period Mediterranean and Near East; corroboration good — per-record identifiers (zenon-systemnr, zenon-thesaurus, GND-ID) and owl:sameAs links to Pleiades/geonames, the same identifier families the museum''s place records already carry as external_ids; language coverage good — names in about 25 languages including Arabic; longevity excellent — institutional DAI service, versioned releases, per-record provenance batches.'
+options:
+- 'Tier 2 citable family, facts-only'
+- 'Tier 1 citable family'
+- Tier 3 pointer only
+- Do not register
+evidence:
+- 'Live checks 2026-11-09: https://gazetteer.dainst.org/app/#!/home HTTP 200; robots.txt ''User-agent: * / Allow: /''; GET https://gazetteer.dainst.org/search.json?q=Damascus&limit=5 returns JSON (total 599 hits, records carrying gazId, prefName, types, prefLocation.coordinates); GET /doc/2280221.json returns the full Damascus record — @id https://gazetteer.dainst.org/place/2280221, gazId 2280221, types building-institution + populated-place, prefLocation.coordinates [36.291924, 33.513063], 27 names incl. Arabic (الشام, دمشق, ash-Sham, Dimashq), identifiers zenon-systemnr/zenon-thesaurus/GND-ID, owl:sameAs links to Pleiades place 678106, geonames and arachne.dainst.org, provenance batches (geonames, syria admin imports); site footer states contents licensed CC-BY 4.0, app version 3.0.2'
+- 'docs/agents/source-families.md: Pleiades is held at Tier 3 pointer with no data/source entity; iDAI.gazetteer is the DAI''s institutional gazetteer with an open licence and a JSON API — the scholarly place-identification layer the place backlog lacks'
+- 'data/place records already carry external_ids.geonames/pleiades/wikidata — iDAI''s owl:sameAs links corroborate those identifiers and its gazIds add a citable scholarly anchor for place identity, alternate names and coordinates'
+status: decided
+step: override
+decision: 'Tier 2 citable family, facts-only: cite {cite:idai-gazetteer <gazId>} for place-identity facts (canonical place URI, gazetteer types, coordinates, alternate names including Arabic, parent/ancestor hierarchy); gazetteer editorial text never republished; harvest via search.json and doc/<id>.json endpoints; entity enrichment limited to an idai external id plus source citation after per-record identity verification'
+correct_outcome: idai-tier2
+wrong_outcome: register-tier2-citable
+confidence: 1
+reversible: true
+rationale: 'dec-227 docked a source-onboarding question at the governance gate because the literal string ''robots.txt'' appears in the access-posture evidence — one of the nd-governance keyword surfaces. The gate fired on a lexical mention, not on any actual governance change: no schema, enum, predicate, route, header, infra or CI surface is touched; the question asks only whether a public scholarly gazetteer joins the citation families, the same class as the already-decided web-* onboarding questions. The correct ruling applies the eight onboarding criteria in docs/agents/source-families.md: the German Archaeological Institute is the federal authority for classical archaeology and the gazetteer is a Pelagios linked-data standard; canonical place/<gazId> URIs and doc/<id>.json records are stable and machine-readable; the content licence is a real open licence (CC-BY 4.0, stated in the site footer); robots policy allows all agents and the JSON endpoints answer anonymously; coverage spans the Islamic-period Mediterranean and Near East with coordinates, polygons and ~25-language names including Arabic; owl:sameAs links to Pleiades/geonames corroborate identifier families the place records already carry. Tier 2 rather than Tier 1 because the gazetteer is a shared reference vocabulary for place identity — the same role Nomisma plays for numismatic concepts — while Tier 1 is reserved for primary institutional record databases. Facts-only regardless: gazetteer editorial text is never republished.'
+supersedes: dec-20261109-227
+override_reason:
+  category: rule-false-positive
+  detail: 'gate nd-governance matched the literal ''robots.txt'' inside access-posture evidence text. Fifth recorded instance of keyword-substring false-positives in rule gates; fix candidates: scope governance keywords to the proposed_action surface or require governance-noun adjacency.'
+  overridden_by: devin-web-sources
+signals:
+  matched_rule_id: nd-governance
+  question_domain: sources
+  expected_domain: sources
+induction:
+  candidate_rule_id: null
+  candidate_diff: null
+  replay: null
+  promoted: false
+review_sampled: false
+decided_by:
+  agent: devin-web-sources
+  pipeline: manual-override
+  ruleset: docs/decisions/rules.yaml
+state_chain:
+  current_state: applied
+  applied:
+    at: '2026-11-09'

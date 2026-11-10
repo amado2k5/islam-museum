@@ -1,14 +1,15 @@
 id: person/kaab-ibn-malik
 class: person
-label: { en: "Ka'b ibn Malik al-Ansari", ar: "كعب بن مالك الأنصاري" }
+label: { en: "Ka'b ibn Malik al-Ansari", ar: "كعب بن مالك الأنصاري" , ur: "کعب بن مالک انصاری"}
 names:
   - { kind: full, lang: ar, value: "كعب بن مالك بن أبي كعب بن القين الخزرجي الأنصاري" }
 gender: male
 roles: [companion, poet]
 traditions: [sunni]
 summary:
-  en: "One of the three chief poets of the Prophet from the Ansar (Banu Salama of Khazraj); he witnessed the Second Pledge of al-Aqaba, fought in the early campaigns, defended the community with his eloquent verses at Hunayn, and was later one of the three whose repentance at Tabuk was accepted."
+  en: "One of the three chief poets of the Prophet from the Ansar (Banu Salama of Khazraj); he witnessed the Second Pledge of al-Aqaba, fought in the early campaigns, defended the community with his eloquent verses at Hunayn, and was later one of the three whose repentance at Tabuk was accepted. وحديثه عن تخلفه عن تبوك من أطول أخبار الصحيح وأشهرها {cite:sahih-al-bukhari 4418}."
   ar: "شاعر رسول الله وأحد فرسان الأنصار من بني سلمة من الخزرج؛ شهد العقبة الثانية والمشاهد، ونافح عن الإسلام بقصائده في حنين ومسير الطائف، وهو أحد الثلاثة الذين خُلّفوا في تبوك فتيب عليهم."
+  ur: "خزرج کے بنو سلمہ سے انصاری شاعر؛ بیعت عقبہ ثانیہ اور ابتدائی مہمات میں شریک ہوئے۔ تبوک سے پیچھے رہنے والے ان تین افراد میں تھے جن کی توبہ قبول ہونے کا ذکر ان کی روایت میں آیا ہے۔ {cite:sahih-al-bukhari 4418}"
 wings: [people]
 themes: [literature, battles]
 periods: [period/prophetic-era, period/rashidun]
@@ -17,10 +18,24 @@ story_roles:
   - { role: companion, status: tradition, note: "شاعر الرسول وشهد المشاهد معه (ابن هشام 4/120).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي أنصاري جليل." }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
+  - { type: lived_in, target: place/tabuk, confidence: low, note: "Associated with Tabuk per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/khazraj }
   - { type: authored, target: work/kaab-ibn-malik-hunayn }
   - { type: participated_in, target: event/battle-of-hunayn, role: poet-and-combatant, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 120–124" }
+  - { type: participated_in, target: event/the-three-left-behind, role: "أحد الثلاثة المخلفين وراوي قصتهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/boycott-of-the-three, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/repentance-of-the-three-accepted, role: "تيب عليه", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-salima, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124, 175–181", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch53" , localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}}
+external_ids: { wikidata: "Q12234969" }
+sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-abu-ishaq-alheweny, source/assabile-mustafa-hosny]
+status: { review: published, completeness: 3 }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b4", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

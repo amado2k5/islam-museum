@@ -1,0 +1,31 @@
+id: person/saad-al-din-al-taftazani
+class: person
+label:
+  ar: "سعد الدين التفتازاني"
+  en: "Sa'd al-Din al-Taftazani"
+roles: [scholar, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لسعد الدين مسعود بن عمر التفتازاني، علّامة خراسان في الكلام والنحو والبلاغة صاحب الشروح المشهورة، توفي سنة ١٣٩٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sa'd al-Din Mas'ud ibn Umar al-Taftazani, the Khurasani polymath of kalam, grammar and rhetoric with celebrated commentaries, d. 1390; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1322", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Taftazani)" }
+died: { edtf: "1390", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Taftazani)" }
+relations:
+  - { type: born_in, target: place/taftazan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7675058)" }
+  - { type: died_in, target: place/samarqand, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5753)" }
+  - { type: buried_in, target: place/sarakhs, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2588491)" }
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+external_ids:
+  wikidata: Q764947
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0017, lib-durar-kamina-batch-3-2026-10-31
+status:
+  review: published
+  completeness: 1

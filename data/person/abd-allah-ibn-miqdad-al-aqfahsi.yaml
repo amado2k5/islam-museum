@@ -1,0 +1,39 @@
+id: person/abd-allah-ibn-miqdad-al-aqfahsi
+class: person
+label: { ar: "عبد الله بن مقداد الأقفهسي", en: "Abd Allah ibn Miqdad al-Aqfahsi" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن مقداد بن إسماعيل" }
+  - { kind: laqab, lang: ar, value: "جمال الدين" }
+  - { kind: nisba, lang: ar, value: "الأقفهسي القاهري المالكي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1344", hijri: "0745", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1420", hijri: "0823", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الفقيه المالكي جمال الدين عبد الله بن مقداد الأقفهسي القاهري، انتهت إليه رئاسة المذهب المالكي والفتوى بمصر في عصره، وولي القضاء."
+  en: "The Maliki jurist Jamal al-Din Abd Allah ibn Miqdad al-Aqfahsi of Cairo, to whom the leadership of the Maliki school and fatwa in Egypt passed in his time; he also held the judgeship."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص254"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: lived_in, target: place/cairo, note: "Place association from the person's nisba/name (القاهري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,36 @@
+id: person/halimah-alaydrus
+class: person
+label: { ar: "حليمة العيدروس", en: "Halimah Alaydrus", ur: "حلیمہ علیدروس" }
+names:
+  - { value: "حليمة بنت عثمان بن عبد الله بن حسين العيدروس", kind: full }
+  - { value: "Halimah binti Utsman bin Abdullah bin Husain Alaydrus", kind: full }
+gender: female
+summary:
+  ar: "داعية وكاتبة إندونيسية، وُلدت في إندرامايو سنة 1979، درست في معاهد إندونيسيا ثم في دار الزهراء بتريم في حضرموت، وتدرّس في مجالس العلم النسائية في جاكرتا وخارجها، وتشتهر بعدم إظهار وجهها على الكاميرا وبكتبها في الأخلاق والسيرة."
+  en: "Indonesian preacher and writer, born in Indramayu in 1979. She studied in Indonesian pesantren and then at Daruz Zahro in Tarim, Hadhramaut, teaches in women's study assemblies in Jakarta and beyond, and is known for never showing her face on camera and for her books on character and the Prophet's biography."
+  ur: "انڈونیشیائی مبلغہ اور مصنفہ، جو 1979 میں اندرامایو میں پیدا ہوئیں۔ انہوں نے انڈونیشیا کے مدارس اور پھر حضرموت کے تریم میں دار الزہراء میں تعلیم حاصل کی، جکارتہ اور دیگر شہروں میں خواتین کی مجالس میں تدریس کرتی ہیں، اور کیمرے پر چہرہ نہ دکھانے اور اخلاق و سیرت پر اپنی کتابوں سے معروف ہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+born:
+  edtf: "1979-04-02"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "The Indonesian Wikipedia article gives the year 1979 and the place (Indramayu, West Java); the day and month (2 April) are given by Indonesian profiles of her (Jakarta365, Tokoh Wanita, Rahma.id), which agree. No place record for Indramayu exists in the museum, so no born_in edge is written."
+  sources: [source/wikipedia-halimah-alaydrus-id]
+relations:
+  - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-halimah-alaydrus-id] }
+  - { type: lived_in, target: place/tarim, sources: [source/wikipedia-halimah-alaydrus-id] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read names a school or order for her. Her Hadhrami (Baalawi) descent is lineage, which never counts as attestation, and her study at Daruz Zahro in Tarim is institutional history; neither settles a value."
+    sources: [source/wikipedia-halimah-alaydrus-id]
+sources: [source/wikipedia-halimah-alaydrus-id]
+provenance:
+  layer: own-research
+  source: "Indonesian Wikipedia 'Halimah Alaydrus' (copy read on 18 September 2026), checked 4 November 2026, with the birth day and month cross-checked against the Indonesian profiles the verification pass read (Jakarta365, Tokoh Wanita, Rahma.id). One low-quality profile (Iqipedia) gives a different birth year and education history and was not used. Platform reach (about 2.8 million Instagram followers in a 2025 study; about 874,000 YouTube subscribers at September 2024) is recorded in the prose as dated platform figures."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-189b
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

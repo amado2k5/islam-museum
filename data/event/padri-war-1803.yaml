@@ -1,0 +1,23 @@
+id: event/padri-war-1803
+class: event
+kind: war
+label: { ar: "حرب البادري", en: "Padri War" }
+summary:
+  ar: "بطاقة أولية لحرب البادري من ١٨٠٣ إلى ١٨٣٧م، حرب المصلحين الوهابية على تقليديي مينانغكاباو ثم الهولنديين في سومطرة؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Padri War of 1803–1837, the reformist war against Minangkabau traditionalists then the Dutch in Sumatra; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1803", precision: year, status: tradition, derived: true }
+  end: { edtf: "1837", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2725993
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; war attested in Indonesian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

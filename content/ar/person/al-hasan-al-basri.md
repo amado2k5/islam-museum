@@ -1,0 +1,68 @@
+---
+id: person/al-hasan-al-basri
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+أبو الحسن الحسن بن يسار البصري، وكان اسم أبيه قيروز بحسب إحدى الروايات. {cite:muruj-al-dhahab p.192}
+
+## نشأته
+كان من سبي ميسان هو وأخوه سعيد، فصار لامرأة من الأنصار، هي الربيع بنت النضر عمة أنس بن مالك، ويقال جميلة امرأة أنس، فأعتقتهما. وقال: ولاؤنا لها. وكان مولده بالمدينة قبل نهاية خلافة [[person/umar-ibn-al-khattab|عمر]] بسنتين. ثم خرج منها بعد صفين بسنة، ومات بالبصرة سنة 110هـ، وهو ابن تسع وثمانين سنة، وقيل تسعون. {cite:muruj-al-dhahab p.192} انظر [[place/basra|البصرة]].
+
+يسجّل أحد المصادر في البيانات وفاته وهو ابن ثمان وثمانين؛ فاختلاف العمر مسجّل في البيانات.
+
+## موعظته لابن هبيرة
+يروي المسعودي أن عمر بن هبيرة بعث إليه سنة 103هـ مع الشعبي وابن سيرين. فقال الحسن لابن هبيرة: خف الله في يزيد ولا تخف يزيد في الله. وفي كلامه أنه لا طاعة لمخلوق في معصية الخالق. {cite:muruj-al-dhahab p.190}
+
+## عند ابن النديم
+يذكر ابن النديم أنه كان يكتب للربيع بن زياد بخراسان ولأنس بن مالك بسابور. وكان ممن بايع ابن الأشعث، فلما هُزم دخل على الحجاج فعاتبه وأمّنه، ثم توارى حتى مات. ومن كتبه كتاب في التفسير وكتاب إلى عبد الملك بن مروان في الرد على القدرية. {cite:fihrist-ibn-al-nadim p.558-559}
+
+## الحسن البصري في درس الشيخ عمر عبد الكافي ⁦(الحلقتان الثانية والثالثة)⁩
+يروي الشيخ أن الحسن بكى وقال إن امتحان الله لهم يفضحهم ويهتك أستارهم إن هم بُلوا (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:07:00} وينقل قوله إنهم أكلوا فأكلنا، وخافوا من الغد ونحن آمنون (needs_source). {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:51:00}
+
+## من سلسلة الفوز المبين
+
+يذكر الشيخ أن الحسن البصري كان يفضّل القراءة من المصحف على القراءة عن ظهر قلب، لأن النظر فيه يعطي العين نصيبا من النور، وأن المصحف يشهد للقارئ ويحاجّ عنه (needs_source: attribution garbled) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:32:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep02 00:33:00}.
+
+ينقل الشيخ عن الحسن البصري مقارنةً بين المؤمنين وأهل الدنيا في المأكل والملبس والمشرب، ويقول إن الغني الشاكر أفضل من الفقير الصابر، وإن العبد ينتظر ما عند الله (needs_source: saying source not named) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep05 00:20:00}.
+
+ويذكر الشيخ أن الناس كانوا يرون النور على وجه محمد بن سيرين، وأن الحسن البصري، وكان أسمر، ظهر عليه النور أيضا، فأجاب بأن قومه خلَوا بالله في ظلام الليل فكساهم جماله، ويخلص إلى أن العبرة بنقاء القلب (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:04:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:05:00}.
+
+ويذكر أن الحسن البصري رأى زنازين صغيرة فقال إنها ستُسكن يوما، ويجعل ذلك موعظة في خطر تبعية السلطان (needs_source: anecdote unsourced) {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep11 00:12:00}.
+
+ويروي أن أهل بيت الحسن لم يبق عندهم إلا قليل من البيض، فتصدّقت الفتاة من البيت بتسع بيضات على فقير، ثم أرسل جار غني سلة بيض {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:00} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:13:30}.
+
+ويروي أن الحسن دخل على رجل حزين فسأله هل ما يحدث له بعين الله أم بعيدا عنها، ثم شبّه ذلك بمراقبة الأم لابنها {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:36:30} {cite:assabile-omar-abdelkafy al-fawzu-al-moubeen/ep10 00:37:00}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 2)⁩
+ينقل الشيخ عن الحسن البصري نصيحة بأن يفتح المرء المصحف ولو لم يقرأ فيه ويقول: أجدد عهدي مع الله، فتقع عينه على آية، ويدعو إلى فتح صفحة كل يوم قبل العمل، ويشبّه ذلك بتسجيل الحضور ببصمة العين أو اليد عند دخول المؤسسة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 3)⁩
+يقول الشيخ إن السعادة داخل القلب وليست فيما تراه العين، وإن المهموم الذي يحمل الكرة الأرضية على رأسه لا تزيل همه الأموال ولا السفر ولا الأجواء الجميلة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:50:30}. ويبدأ بنقل قول للحسن البصري مفاده أنهم ظلموا أهل الدنيا، وتنقطع العبارة في المقطع (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:50:30}.
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 9)⁩
+يذكر الشيخ أن من أراد الذهاب إلى العراق أو الكوفة أو البصرة كان لا بد أن يحضر مجلس الحسن {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}. ويقول إنه سُمّي رضيع أم سلمة، وإن أم سلمة كانت في الثمانين من عمرها حين أرضعته وهو طفل يبكي، فأجرى الله اللبن في ثديها، ويعدّه معجزة، ويقول إنه كان لا ينطق إلا بالحكمة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:33:00}.
+
+ويقول إن الحسن عاش مع الصحابة والتابعين ودرس عنهم وعلى أيديهم، ومنهم سعيد بن المسيب وعطاء بن رباح، حتى وصل الأمر إلى رجل كبير عظيم كأبي ذر في سنة 36 هجرية، ويبدأ بنقل قول له عن حال الناس (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:34:00}. ويروي أنه سُئل: ماذا تصنع مع الشيطان يا إمام؟ فقال إن طاعته لا تنفع ومعصيته لا تضر، ويعلّق الشيخ بأن الأمر صبر ساعة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:35:30}. ويدعو إلى أن يعيش المرء يومه: فأمس شيك قد صُرف، وغدا شيك مؤجل لم يحن وقته، فلا يحمل المؤمن هم الغد {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:36:00}.
+
+## من درس الشيخ عمر عبد الكافي: الدين القيم
+
+يحكي الشيخ حكاية عن الحسن البصري مع أحد الولاة، يقارن فيها بين السارق الصغير ومن يسرق المال العام {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:29:30}.
+
+ويقتبس الشيخ قول الحسن البصري: «نحن في نعمة لو عظّمها الملوك لقاتلوا عليها بالسيوف»، ويعني بها نعمة المؤمن {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep12 01:09:00}.
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يروي الشيخ أن الحسن البصري دخل على رجل فقد ولده فوجده هادئًا رابط الجأش، فقال: يفعل العاقل ما يفعله الجاهل بعد عشرة أيام، أي إن الجاهل يصبر بعد أيام ويهدأ، والعاقل يأخذ الأمر بالصبر من أوله ⁦(needs_source: الخبر كما رواه الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:04:30}
+
+## في برنامج عبد الرحمن منصور «أهالينا»
+ينقل [[person/abd-al-rahman-mansour|عبد الرحمن منصور]] في برنامجه [[work/ahaleena|«أهالينا»]] عن الحسن البصري أن المصافحة تزيد في الود، أي في المحبة، ويذكر ذلك في حلقة «مفاتيح القلوب» بعد حديث أنس في أن النبي لم يكن ينزع يده من يد من يصافحه حتى يكون الرجل هو الذي ينزعها. {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep03 00:08:30}
+
+## من درس الشيخ عمر عبد الكافي: شرح كتاب الفوائد ⁦(الحلقة 7)⁩
+
+يذكر الشيخ أن الحسن البصري سُئل عن مقامه عند الله فأجاب سائلًا: كم لله عندك؟ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep07 01:00:00} ⁦(needs_source: صيغة السؤال والجواب مضطربة في التسجيل)⁩
+
+## من برنامج «المنجيات» ⁦(الحلقة 14)⁩
+يذكر الشيخ أن الحسن البصري نشأ رضيع أم سلمة الذي كان يرضعه، وينقل عنه أربعة أمور جمعته: علم أن رزقه لن يأخذه غيره، وعمله لن يقوم به غيره، والله ينظر إليه في كل وقت، والقبر ينتظره؛ فيرى فيها ترجمة حياة كاملة من ثمار السكينة. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:11:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:11:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:12:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:12:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:13:00}
+ويروي أن ابن تيمية كان يقرأ آيات السكينة الست إذا اشتدت عليه الأمور، وأن السكينة اسم لثلاثة أشياء منها «اللطائف التي تنطق بها ألسنة أهل الصدق كالحسن البصري». {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:09:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:09:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:10:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:10:30}
+ويستشهد بقول الحسن البصري «إن أردت أن تكلم الله فصلِّ، وإن أردت أن يكلمك الله فاقرأ القرآن» في فضل التهيؤ للصلاة قبله. {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:16:30} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:17:00} {cite:assabile-omar-abdelkafy al-manjeyat/ep14 00:18:00}

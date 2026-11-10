@@ -1,6 +1,12 @@
 id: person/abu-ayyub-al-ansari
+education:
+  did_you_know:
+    ar: "أبو أيوب الأنصاري نجاري بادر إلى استقبال النبي مهاجراً فنزل في بيته حتى بُني حجره، وبقي في البيت ليخدمه."
+    en: "Abu Ayyub al-Ansari, of Banu Najjar, was first to host the Prophet on his arrival as an emigrant, keeping him in his house until the Prophet's own quarters were built."
+    ur: "ابو ایوب انصاری، بنو نجار سے، مہاجر آنے پر نبی کی میزبانی کرنے والے پہلے شخص تھے اور ان کے اپنا حجرہ بننے تک انہیں اپنے گھر رکھا۔"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 class: person
-label: { en: "Abu Ayyub al-Ansari", ar: "أبو أيوب الأنصاري" }
+label: { en: "Abu Ayyub al-Ansari", ar: "أبو أيوب الأنصاري" , ur: "ابو ایوب انصاری"}
 names:
   - { kind: full, lang: ar, value: "خالد بن زيد بن كليب النجاري، أبو أيوب الأنصاري" }
 gender: male
@@ -8,8 +14,9 @@ died: { edtf: "0674~", calendar: julian, precision: year, status: tradition, not
 roles: [companion]
 traditions: [sunni]
 summary:
-  en: "The Najjari Ansari who took the Prophet's baggage into his house when the she-camel knelt among Banu al-Najjar — 'a man stays with his baggage' — becoming the Prophet's host in Medina until the mosque and rooms were built."
-  ar: "أنصاري نجاري بادر إلى رحل النبي فأدخله بيته حين بركت الناقة في بني النجار، وكان النبي يقول «المرء مع رحله»؛ فنزل عنده حتى بُني المسجد وحجراته، وصار مضيفه في المدينة."
+  en: "The Najjari Ansari who took the Prophet's baggage into his house when the she-camel knelt among Banu al-Najjar — 'a man stays with his baggage' — becoming the Prophet's host in Medina until the mosque and rooms were built. In al-Suhayli's report preserved by al-Samhudi, the house Tubba' built for the Prophet at his Yathrib conversion passed through heirs until it reached Abu Ayyub, descendant of the scholar Tubba' had lodged — so the Prophet's lodging closed that chain — and it is said, though the report is strange, that Tubba's gold-sealed letter was with Abu Ayyub when the Prophet arrived and he handed it over {cite:samhudi-wafa-al-wafa p. 200-201}."
+  ar: "أنصاري نجاري بادر إلى رحل النبي فأدخله بيته حين بركت الناقة في بني النجار، وكان النبي يقول «المرء مع رحله»؛ فنزل عنده حتى بُني المسجد وحجراته، وصار مضيفه في المدينة. وعند السمهودي عن السهيلي أن الدار التي بنى تبّع للنبي حين أسلم بيثرب تداولها الملاك حتى صارت لأبي أيوب من ولد العالم الذي بنى له تبّع — فكان نزول النبي عنده إتماماً لذلك الأثر — ويُقال إن كتاب تبّع مختوماً بالذهب كان عند أبي أيوب حين نزل عليه النبي فدفعه إليه، وهو غريب {cite:samhudi-wafa-al-wafa p. 200-201}. وعند المسعودي علا يوم النهروان عبد الله بن وهب الراسبي فضربه على كتفه فأبان يده وقال بؤ بها إلى النار يا مارق، وشركه صعصعة بن صوحان في قتله فاحتزا رأسه وأتيا به علياً فقطب وقال شاه هذا الوجه حتى خيل إلينا أنه يبكي ثم قال قد كان أخو راسب حافظاً لكتاب الله تاركاً لحدود الله {cite:muruj-al-dhahab p. 47-48}"
+  ur: "بنو نجار کے انصاری صحابی؛ ہجرت کے بعد نبی کا سامان اپنے گھر لے گئے اور مسجد اور حجروں کی تعمیر تک مدینہ میں ان کے میزبان رہے۔ {cite:mubarakpuri-raheeq}"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -20,7 +27,17 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "من أهل بيعة العقبة على المشهور؛ يسجَّل في الإطار السني للمتحف." }
 relations:
+  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/hijra, role: "أخذ الرحل إلى بيته فكان مضيف النبي بالمدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+  - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq, source/sallabi-ali-vol1]}
+external_ids: { wikidata: "Q334813" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/samhudi-wafa-al-wafa, source/sallabi-ali-vol1, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 173" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 127 (EI2 enrichment, batch ei2-b002 part 2a)"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
+  run: "explorer-next-40-subjects-2026-11-04"
+  model: "unknown"

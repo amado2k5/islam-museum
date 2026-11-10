@@ -1,0 +1,75 @@
+---
+// Changelog: renders CANARY.md (the repo's release-notes file) newest-first, plus the
+// current version read from its top block and a what-comes-next section from i18n.
+// The canary text is parsed line-wise and rendered as escaped text with `code` and
+// **strong** spans only — no raw HTML ever reaches the page from the file.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { siteVersion, canaryBlocks } from "../../../lib/version";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.changelog;
+const VER = siteVersion();
+const blocks = canaryBlocks(VER.canary);
+const coming = [C.coming_1, C.coming_2, C.coming_3, C.coming_4];
+
+type Seg = { t: "text" | "code" | "strong"; s: string };
+function segs(text: string): Seg[] {
+  const out: Seg[] = [];
+  const re = /(`[^`]+`|\*\*[^*]+\*\*)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) out.push({ t: "text", s: text.slice(last, m.index) });
+    const tok = m[0];
+    if (tok.startsWith("`")) out.push({ t: "code", s: tok.slice(1, -1) });
+    else out.push({ t: "strong", s: tok.slice(2, -2) });
+    last = m.index + tok.length;
+  }
+  if (last < text.length) out.push({ t: "text", s: text.slice(last) });
+  return out;
+}
+---
+<BaseLayout lang={lang} title={C.title} description={C.lede} path={`/${lang}/changelog/`}>
+  <PageHeader title={C.title} lede={C.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: C.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <p>{C.intro}</p>
+      {VER.version && <p class="ui muted">{C.current_label}: <span dir="ltr">v{VER.version} · {VER.date}</span></p>}
+
+      {blocks.map((b) => (
+        <section class="p-sec" aria-label={`v${b.version}`}>
+          <h2 dir="ltr" style="text-align:start">v{b.version} — {b.date}</h2>
+          {b.groups.map((g) => (
+            <>
+              {g.title && <h3>{g.title}</h3>}
+              <ul>
+                {g.items.map((item) => (
+                  <li>{segs(item).map((s) => s.t === "code" ? <code dir="ltr">{s.s}</code> : s.t === "strong" ? <strong>{s.s}</strong> : <>{s.s}</>)}</li>
+                ))}
+              </ul>
+            </>
+          ))}
+        </section>
+      ))}
+
+      <section aria-labelledby="coming-h" class="p-sec">
+        <h2 id="coming-h">{C.coming_title}</h2>
+        <ul>
+          {coming.map((c) => <li>{c}</li>)}
+        </ul>
+        <p class="ui muted">{C.history_line}</p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .p-sec { margin-block: 2rem 0; }
+  .p-sec h2 { margin-top: 0; }
+  .p-sec code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.88em; background: var(--panel); border: 1px solid var(--edge); border-radius: 6px; padding: 0 5px; }
+</style>

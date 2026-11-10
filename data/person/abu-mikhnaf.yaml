@@ -1,0 +1,16 @@
+id: person/abu-mikhnaf
+class: person
+label: { ar: "أبو مخنف", en: "Abu Mikhnaf" }
+summary:
+  ar: "أبو مخنف لوط بن يحيى الأزدي الغامدي، قال العلماء إنه بأمر العراق وأخبارها وفتوحها يزيد على غيره، وله كتاب الغارات وكتاب صفين وكتاب الجمل وكتاب مقتل حجر بن عدي وكتاب مقتل الحسين بن علي وغيرها من كتب الوقائع والمقاتل {cite:fihrist-ibn-al-nadim p. 292-293}."
+  en: "The Kufan akhbari supreme on Iraq and its conquests — Siffin, Jamal, Karbala monographs {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+external_ids: { wikidata: "Q337009" }
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "709~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Mizan al-I'tidal)" }
+died: { edtf: "774~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Mizan al-I'tidal)" }
+relations:
+  - { type: born_in, target: place/kufa, note: "Wikidata Q186234 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/kufa, note: "Wikidata Q186234 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

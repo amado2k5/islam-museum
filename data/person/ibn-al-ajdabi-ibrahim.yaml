@@ -1,0 +1,36 @@
+id: person/ibn-al-ajdabi-ibrahim
+class: person
+label: { ar: "ابن الأجدابي إبراهيم بن إسماعيل", en: "Ibn al-Ajdabi, Ibrahim ibn Isma'il" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن إسماعيل بن أحمد بن عبد الله اللواتي المغربي الإفريقي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1077~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه من أهل طرابلس الغرب، نُسب إلى أجدابية، وترجمته المصادر ترجمة موجزة."
+  en: "A jurist from Tripoli in Libya, named after the town of Ajdabiya. The sources give only a brief biography, and his death is given as around 470 AH."
+wings: [people]
+themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/tripoli-greece, confidence: low, note: "Associated with طرابلس per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص284-288"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch57
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

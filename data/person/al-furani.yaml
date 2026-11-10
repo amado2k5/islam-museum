@@ -1,0 +1,29 @@
+id: person/al-furani
+class: person
+label:
+  ar: "الفوراني"
+  en: "al-Furani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "عبد الرحمن بن محمد الفوراني، فقيه مقدّم الشافعية بمرو ⁦(٣٨٨–٤٦١هـ)⁩، صاحب «الإبانة عن أحكام فروع الديانة» و«تتمة الإبانة»."
+  en: "Abd al-Rahman ibn Muhammad al-Furani, foremost Shafi'i of Merv (388–461/998–1069), author of al-Ibana and its ten-part completion."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q16126688
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.3 p.326)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0068
+status:
+  review: published
+  completeness: 3
+born: { edtf: "998", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
+died: { edtf: "1069", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat)" }
+relations:
+  - { type: lived_in, target: place/merv, note: "From text: of Merv", sources: [source/al-aalam], confidence: low }

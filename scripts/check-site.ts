@@ -1,0 +1,157 @@
+// Build-time assertions on the rendered site (dist/), run after `npm run build` (see site/package.json).
+// Fails on: a Hijri year 0 ("0 هـ"), replacement characters, garbled era marks, footnote links that resolve to nothing,
+// placeholder dates, links to a Modern Islam Browser year page that was not built. Warns on empty meta descriptions.
+import { existsSync, readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { parse } from "yaml";
+import { listFiles, p, rel } from "./lib.js";
+
+// Accepts a lazy iterable so callers can read one page at a time; holding every page's HTML in memory
+// at once exhausted the Node heap on the full site (about 4 GB).
+export function scan(files: Iterable<{ path: string; html: string }>): { errors: string[]; warns: string[] } {
+  const errors: string[] = [];
+  const warns: string[] = [];
+  for (const { path, html } of files) {
+    const file = rel(path);
+    if (/(^|[^\d٠-٩])0 هـ/.test(html)) errors.push(`${file}: renders year 0 of the Hijri calendar ("0 هـ")`);
+    if (html.includes("�")) errors.push(`${file}: contains U+FFFD (replacement character)`);
+    if (html.includes("ق.م هـ")) errors.push(`${file}: renders the garbled "ق.م هـ"`);
+    if (/\d{4}-\d{2}-\dX/.test(html)) errors.push(`${file}: renders a date with a placeholder digit`);
+    const anchors = new Set([...html.matchAll(/\sid="(note-\d+)"/g)].map((m) => m[1]));
+    for (const m of html.matchAll(/href="#(note-\d+)"/g)) {
+      if (!anchors.has(m[1])) errors.push(`${file}: footnote link #${m[1]} has no anchor on this page`);
+    }
+    if (/<meta name="description" content=""/.test(html)) warns.push(`${file}: empty meta description`);
+    if (/<li>\s*<\/li>/.test(html)) warns.push(`${file}: empty <li> element`);
+    // Media rule (WCAG 1.2): every <audio>/<video> needs a captions <track> or a working text
+    // equivalent — aria-describedby to an element on the page, or a non-empty aria-label;
+    // and media must never auto-play.
+    for (const m of html.matchAll(/<(audio|video)\b[^>]*>/g)) {
+      const open = m[0];
+      if (/\sautoplay\b/i.test(open)) errors.push(`${file}: <${m[1]}> auto-plays (media must start on user action)`);
+      let hasCaptions = false;
+      if (!open.endsWith("/>")) {
+        const rest = html.slice(m.index! + open.length);
+        const close = rest.search(new RegExp(`</${m[1]}\\s*>`, "i"));
+        const inner = close === -1 ? rest : rest.slice(0, close);
+        hasCaptions = /<track\b[^>]*\bsrc=['"][^'"]+['"][^>]*\bkind=['"]?captions['"]?/.test(inner)
+          || /<track\b[^>]*\bkind=['"]?captions['"]?[^>]*\bsrc=['"][^'"]+['"]/.test(inner);
+      }
+      const describedIds = [...open.matchAll(/\saria-describedby\s*=\s*['"]?([^'"\s>]+)['"]?/g)]
+        .flatMap((x) => x[1].trim().split(/\s+/)).filter(Boolean);
+      const anchored = describedIds.length > 0 && describedIds.every((id) =>
+        new RegExp(`\\bid=['"]?${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}['"\\s/>]`).test(html));
+      const labelled = /\saria-label\s*=\s*['"]?[^'"\s>]/.test(open);
+      if (!hasCaptions && !anchored && !labelled)
+        errors.push(`${file}: <${m[1]}> without a captions <track> or a working text equivalent (aria-describedby)`);
+    }
+  }
+  return { errors, warns };
+}
+
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  const dist = p("dist");
+  if (!existsSync(dist)) { console.error("dist/ not found: run npm run build first"); process.exit(2); }
+  const paths = listFiles(dist, ".html").filter((f) => !f.includes("/pagefind/"));
+  // One page in memory at a time; only the findings are kept.
+  // Every link to a Modern Islam Browser year page must have that page: the year pages run from the window start to
+  // the build year only, and a future or pre-window year is rendered as text (site/src/lib/modern.ts yearHref).
+  const yearLinks = new Map<string, string>();
+  function* pages() {
+    for (const path of paths) {
+      const html = readFileSync(path, "utf8");
+      for (const m of html.matchAll(/href="\/(ar|en|ur)\/modern\/year\/(\d+)\/"/g)) {
+        const target = `${m[1]}/modern/year/${m[2]}/index.html`;
+        if (!yearLinks.has(target)) yearLinks.set(target, rel(path));
+      }
+      yield { path, html };
+    }
+  }
+  const { errors, warns } = scan(pages());
+  for (const [target, from] of yearLinks) if (!existsSync(p("dist", target))) errors.push(`${from}: links to /${target.replace(/index\.html$/, "")}, which has no page`);
+  // the teacher pathway landing pages (E2) must be in the sitemap in the three languages: outreach links to them
+  const sitemap = listFiles(dist, ".xml").filter((f) => /sitemap/.test(f)).map((f) => readFileSync(f, "utf8")).join("\n");
+  for (const f of listFiles(p("data", "exhibit"), ".yaml").filter((f) => /\/pathway-/.test(f))) {
+    const slug = f.replace(/.*\/pathway-/, "").replace(/\.yaml$/, "");
+    for (const lang of ["ar", "en", "ur"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
+  }
+  // the teen 60-second pages (E4): every topic's route is in the sitemap in the three languages and
+  // its page carries a schema.org Course JSON-LD block
+  const topicIds = (readFileSync(p("edu", "topics-50.yaml"), "utf8").match(/^- id: ([a-z0-9-]+)/gm) ?? []).map((m) => m.replace("- id: ", ""));
+  for (const lang of ["ar", "en", "ur"]) for (const id of topicIds) {
+    if (!sitemap.includes(`/${lang}/shabab/60s/${id}/`)) errors.push(`sitemap: /${lang}/shabab/60s/${id}/ is missing`);
+    const f = p("dist", lang, "shabab", "60s", id, "index.html");
+    if (!existsSync(f)) { errors.push(`missing page: ${lang}/shabab/60s/${id}/index.html`); continue; }
+    if (!readFileSync(f, "utf8").includes('"@type":"Course"')) errors.push(`${lang}/shabab/60s/${id}/ has no Course JSON-LD`);
+  }
+  // the offline teacher packs (E3 step 5): one self-contained file per pack and language — it exists,
+  // is at most 2 MB, and carries no <script src and no absolute http(s) URL (an xmlns is a namespace,
+  // not a fetch), so it opens from file:// with no internet
+  const packIds = (readFileSync(p("edu", "packs.yaml"), "utf8").match(/- id: ([a-z-]+)/g) ?? []).map((m) => m.replace("- id: ", ""));
+  for (const lang of ["ar", "en", "ur"]) for (const id of packIds) {
+    const f = p("dist", lang, "learn", "teachers", "offline", `${id}.html`);
+    if (!existsSync(f)) { errors.push(`offline pack missing: ${lang}/learn/teachers/offline/${id}.html`); continue; }
+    const buf = readFileSync(f);
+    if (buf.byteLength > 2 * 1024 * 1024) errors.push(`${lang}/learn/teachers/offline/${id}.html is ${buf.byteLength} bytes; a pack is at most 2 MB`);
+    const h = buf.toString("utf8");
+    if (/<script[^>]*\ssrc=/.test(h)) errors.push(`${lang}/learn/teachers/offline/${id}.html has a <script src>`);
+    const urls = h.replace(/xmlns="[^"]*"/g, "");
+    if (/https?:\/\//.test(urls)) errors.push(`${lang}/learn/teachers/offline/${id}.html references an absolute http(s) URL`);
+  }
+  // the Job Browser home (docs/jobs/site.md section 1): it carries its in-the-making badge and at least one job row
+  const jobsHome = p("dist", "ar", "jobs", "index.html");
+  if (!existsSync(jobsHome)) errors.push("missing page: ar/jobs/index.html");
+  else {
+    const html = readFileSync(jobsHome, "utf8");
+    const badge = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).jobs?.badge;
+    if (!badge || !html.includes(badge)) errors.push("ar/jobs/ does not render its in-the-making badge");
+    if (!html.includes("data-job-row")) errors.push("ar/jobs/ lists no job record (no data-job-row)");
+  }
+  // the Inventions Browser home: it carries its in-the-making badge and at least one invention row
+  const inventionsHome = p("dist", "ar", "inventions", "index.html");
+  if (!existsSync(inventionsHome)) errors.push("missing page: ar/inventions/index.html");
+  else {
+    const html = readFileSync(inventionsHome, "utf8");
+    const badge = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).inventions?.badge;
+    if (!badge || !html.includes(badge)) errors.push("ar/inventions/ does not render its in-the-making badge");
+    if (!html.includes("data-invention-row")) errors.push("ar/inventions/ lists no invention record (no data-invention-row)");
+  }
+  // the Modern Islam Browser home (docs/plan/26 section 4.2): its growing badge, the nineteen section tiles, and at least one row on the figures section
+  const modernHome = p("dist", "ar", "modern", "index.html");
+  if (!existsSync(modernHome)) errors.push("missing page: ar/modern/index.html");
+  else {
+    const html = readFileSync(modernHome, "utf8");
+    const badge = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).modern?.badge;
+    if (!badge || !html.includes(badge)) errors.push("ar/modern/ does not render its growing badge");
+    const tiles = (html.match(/data-modern-section=/g) ?? []).length;
+    if (tiles !== 19) errors.push(`ar/modern/ shows ${tiles} section tiles, expected 19`);
+  }
+  const modernFigures = p("dist", "ar", "modern", "figures", "index.html");
+  if (!existsSync(modernFigures)) errors.push("missing page: ar/modern/figures/index.html");
+  else if (!readFileSync(modernFigures, "utf8").includes("data-modern-row")) errors.push("ar/modern/figures/ lists no record (no data-modern-row)");
+  // audit of 5 November 2026: each exhibit appears once on the exhibits index, entity pages show no review state or
+  // completeness score, every language has its embed index and its own not-found page
+  for (const lang of ["ar", "en", "ur"]) {
+    const T = parse(readFileSync(p("i18n", `${lang}.yaml`), "utf8"));
+    const index = p("dist", lang, "exhibits", "index.html");
+    if (!existsSync(index)) errors.push(`missing page: ${lang}/exhibits/index.html`);
+    else {
+      const titles = [...readFileSync(index, "utf8").matchAll(/<h2 class="card-title"[^>]*>([^<]*)<\/h2>/g)].map((m) => m[1].trim());
+      const twice = [...new Set(titles.filter((t, i) => titles.indexOf(t) !== i))];
+      if (twice.length) errors.push(`${lang}/exhibits/ lists the same title more than once: ${twice.join(", ")}`);
+    }
+    const abbasid = p("dist", lang, "exhibits", "path-abbasid-age", "index.html");
+    if (existsSync(abbasid)) {
+      const html = readFileSync(abbasid, "utf8");
+      if (html.includes(`${T.entity.completeness} `) || html.includes(`<span class="chip">${T.status.draft}</span>`)) errors.push(`${lang}/exhibits/path-abbasid-age/ shows the review state or completeness score`);
+    }
+    const embed = p("dist", lang, "embed", "index.html");
+    if (!existsSync(embed) || !readFileSync(embed, "utf8").includes(T.edu.embed_index_title)) errors.push(`${lang}/embed/ index is missing or not in its language`);
+    const notFound = p("dist", lang, "404", "index.html");
+    if (!existsSync(notFound) || !readFileSync(notFound, "utf8").includes(`<html lang="${lang}"`)) errors.push(`${lang}/404/ is missing or not in its language`);
+  }
+  for (const w of warns) console.log("warn  " + w);
+  for (const e of errors) console.log("ERROR " + e);
+  console.log(`checked ${paths.length} pages: ${errors.length} errors, ${warns.length} warnings`);
+  process.exit(errors.length ? 1 : 0);
+}

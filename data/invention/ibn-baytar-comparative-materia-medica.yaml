@@ -1,0 +1,86 @@
+id: invention/ibn-baytar-comparative-materia-medica
+class: invention
+label: { ar: "المقارنة النقدية للمفردات عند ابن البيطار", en: "Ibn al-Baytar's comparative materia-medica method", ur: "ابن بیطار کا مفرد ادویہ کا تنقیدی تقابل" }
+names:
+  - { kind: alternate, lang: en, value: "Comparative identification and source criticism in the Jami" }
+summary:
+  ar: "جمع الأوصاف المنسوبة والأسماء والمشاهدات في مرجع ألفبائي؛ تحسين داخل تقاليد أقدم لا اختراع النبات أو إثبات طبي حديث {cite:tdv-mufradat-kaya structure and preface}."
+  en: "Attributed descriptions, names and observations compared in an alphabetical reference; an improvement within older traditions, not invention of botany or modern efficacy proof {cite:tdv-mufradat-kaya structure and preface}."
+  ur: "الفبائی مرجع میں منسوب وصف، نام اور مشاہدے کا تقابل؛ پرانی روایت میں بہتری، نباتیات کی ایجاد یا جدید طبی ثبوت نہیں {cite:tdv-mufradat-kaya structure and preface}۔"
+domain: pharmacy-chemistry
+kind: method
+disciplines: [medicine]
+wings: [ideas]
+regions: [andalus-europe, egypt-nile]
+periods: [period/crusades-ayyubid-mamluk]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "12XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Thirteenth-century compendium context. Kaya reports1242–1248 composition; broad dating does not date every observation, earlier critical practice, copy or translation. No guessed Hijri conversion."
+    sources: [source/tdv-mufradat-kaya, source/tdv-ibn-baytar-kaya]
+  status_today: transformed
+origin:
+  place: place/misr
+  context:
+    ar: "محيط الخدمة الأيوبية في مصر والشام بعد تكوين أندلسي ورحلات؛ مصر سياق واسع لا غرفة تأليف مثبتة {cite:tdv-ibn-baytar-kaya biography}."
+    en: "Ayyubid service in Egypt and Syria after Andalusian education and journeys; Egypt is a broad context, not a proved composition room {cite:tdv-ibn-baytar-kaya biography}."
+    ur: "اندلسی تعلیم و سفر کے بعد مصر و شام کی ایوبی خدمت؛ مصر عمومی ماحول، عین کمرۂ تصنیف نہیں {cite:tdv-ibn-baytar-kaya biography}۔"
+makers:
+  - person: person/ibn-al-baytar
+    role: improver
+    note: "Individual religious/transmitted-science education documented by Kaya, not name-based identity; Sunni separately museum default frame. Existing work-linked person reused, no silent identity merge."
+    sources: [source/tdv-ibn-baytar-kaya, source/tdv-mufradat-kaya]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحسين نقدي في جمع المفردات وتسميتها ومقارنة أخبارها، لا أصل كل دواء."
+    en: "Critical improvement in assembling, naming and comparing simples, not origin of every drug."
+    ur: "مفردات کے جمع، نام اور خبر کے تقابل میں تنقیدی بہتری؛ ہر دوا کی ابتدا نہیں۔"
+  basis:
+    ar: "قايا يصف نقد المصادر والأسماء وسياسة التثبت؛ إيرانيكا تبين حجم الإحالات وحدود الأسماء الفارسية {cite:tdv-mufradat-kaya method} {cite:iranica-ibn-baytar nomenclature}."
+    en: "Kaya describes source/name criticism and a verification policy; Iranica details synonym counts and Persian-name limitations {cite:tdv-mufradat-kaya method} {cite:iranica-ibn-baytar nomenclature}."
+    ur: "قایا نام و ماخذ کی تنقید اور تحقیق کی پالیسی؛ ایرانیکا مترادفات اور فارسی ناموں کی حدیں بتاتے ہیں {cite:tdv-mufradat-kaya method} {cite:iranica-ibn-baytar nomenclature}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "ديسقوريدس وجالينوس والرازي وابن سينا والغافقي والمعرفة المحلية", en: "Dioscorides, Galen, al-Razi, Ibn Sina, al-Ghafiqi and local knowledge", ur: "دیوسقوریدس، جالینوس، رازی، ابن سینا، غافقی اور مقامی علم" }
+    note: "Multiple acknowledged predecessors; no claim to invent source comparison or to erase non-Muslim contributions."
+    sources: [source/tdv-mufradat-kaya, source/iranica-ibn-baytar]
+dependents: []
+spread: []
+impact:
+  fields: [pharmacy-chemistry, medicine-surgery]
+  changed:
+    ar: "مرجع يجمع اختلاف الأسماء وأقوال المؤلفين مع إمكان نقدها؛ ليس قائمة نباتات مكتشفة كلها حديثاً {cite:tdv-mufradat-kaya structure}."
+    en: "A reference gathering variant names and authors' accounts for criticism, not a list of wholly new plant discoveries {cite:tdv-mufradat-kaya structure}."
+    ur: "ناموں کے اختلاف اور مؤلفین کی روایات کو تنقید کے لیے جمع کرتا؛ سب نئے دریافت شدہ پودے نہیں {cite:tdv-mufradat-kaya structure}۔"
+  history:
+    ar: "يصف قايا انتشار النسخ والتراجم والمختصرات واستعماله مرجعاً؛ لا نسب مباشر مثبت للصيدلة الحديثة {cite:tdv-mufradat-kaya reception}."
+    en: "Kaya describes copies, translations, abridgements and reference use; no proved direct genealogy of modern pharmacy {cite:tdv-mufradat-kaya reception}."
+    ur: "قایا نقلوں، تراجم، اختصار اور مرجعی استعمال کو بیان کرتے؛ جدید دواسازی کا ثابت براہ راست نسب نہیں {cite:tdv-mufradat-kaya reception}۔"
+  significance: 3
+  why: "Defined comparative/reference improvement across multilingual inherited knowledge; counts, authorial claims, linguistic errors and modern medical limits explicit."
+described_in: [work/al-mufradat-ibn-baytar]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "درس في الأسماء والمصدر والوصف على الورق، لا تشخيص أو جمع نباتات أو علاج."
+    en: "Paper study of names, sources and descriptions, not diagnosis, plant collecting or treatment."
+    ur: "کاغذ پر نام، ماخذ اور وصف کا مطالعہ؛ تشخیص، پودے جمع کرنا یا علاج نہیں۔"
+  descendants:
+    ar: "تدرس التراجم والنصوص؛ اللوحة المتأخرة سياق بصري فقط، لا إثبات اتصال مباشر {cite:tdv-mufradat-kaya reception} {cite:commons-koehler-rosemary Description}."
+    en: "Texts and translations studied; later plate is visual context only, not direct descent evidence {cite:tdv-mufradat-kaya reception} {cite:commons-koehler-rosemary Description}."
+    ur: "متن و تراجم کا مطالعہ؛ بعد کا نقش صرف بصری سیاق، براہ راست نسب کا ثبوت نہیں {cite:tdv-mufradat-kaya reception} {cite:commons-koehler-rosemary Description}۔"
+media: { image: media/ibn-baytar-botanical-context, diagram: media/diagram-ibn-baytar-comparison }
+kids:
+  ar: "هل الاسمان لشيء واحد؟ قارن بطاقات خيالية على الورق؛ لا تتذوق نباتاً أو تصنع دواء."
+  en: "Do two names mean one thing? Compare imaginary paper cards; never taste a plant or make a remedy."
+  ur: "کیا دو نام ایک چیز کے ہیں؟ فرضی کاغذی کارڈ ملائیں؛ پودا نہ چکھیں، دوا نہ بنائیں۔"
+sources: [source/tdv-ibn-baytar-kaya, source/tdv-mufradat-kaya, source/iranica-ibn-baytar, source/commons-koehler-rosemary]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b59", source: "Actual Kaya biography/work entries and Iranica article body, visually inspected later PD botanical context. Primary preface/editions not read; no medical instructions, global priority or modern trials claimed." }

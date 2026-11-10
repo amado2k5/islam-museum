@@ -1,0 +1,27 @@
+id: event/birth-al-dhahabi-673
+class: event
+kind: birth
+label:
+  ar: "ولادة شمس الدين الذهبي بدمشق، ٦٧٣هـ"
+  en: "Al-Dhahabi is born at Damascus, 673/1274"
+  ur: "شمس الدین ذہبی کی ولادت دمشق میں، 673ھ/1274ء"
+summary:
+  ar: "وُلد أبو عبد الله شمس الدين محمد بن أحمد بن عثمان بن قايماز بن عبد الله التركماني الأصل الفارقي الدمشقي الشافعي في ثالث ربيع الآخر سنة ٦٧٣هـ بدمشق {cite:durar-kamina-jil-1993 3/336}؛ وذكرت دائرة المعارف أنه وُلد بدمشق أو بميافارقين في أول ربيع الآخر أو ثالثه الموافق ٥ أو ٧ أكتوبر ١٢٧٤م، وأجاز له في سنة مولده أخوه من الرضاعة العلاء بن المنجا أحمد بن أبي الخير {cite:encyclopaedia-of-islam-2 vol. 2 p. 214} {cite:durar-kamina-jil-1993 3/336}."
+  en: "Abu Abd Allah Shams al-Din Muhammad ibn Ahmad ibn Uthman ibn Qaymaz, al-Dhahabi, of Turkmen origin, al-Fariqi by forebear, of Damascus, a Shafi'i, was born on 3 Rabi' II 673 at Damascus {cite:durar-kamina-jil-1993 3/336}; the Encyclopaedia of Islam gives his birth at Damascus or Mayyafariqin on 1 or 3 Rabi' II, corresponding to 5 or 7 October 1274, and records that his milk-brother al-Ala ibn al-Munajja Ahmad ibn Abi al-Khayr issued him an ijaza in his birth year {cite:encyclopaedia-of-islam-2 vol. 2 p. 214} {cite:durar-kamina-jil-1993 3/336}."
+  ur: "ابو عبد اللہ شمس الدین محمد بن احمد بن عثمان بن قایماز ذہبی، اصل میں ترکمان، فارقی، دمشقی اور شافعی، 3 ربیع الآخر 673ھ کو دمشق میں پیدا ہوئے {cite:durar-kamina-jil-1993 3/336}؛ دائرۃ المعارف کے مطابق وہ دمشق یا میافارقین میں 1 یا 3 ربیع الآخر، بمطابق 5 یا 7 اکتوبر 1274ء، پیدا ہوئے، اور ان کے رضاعی بھائی علاء بن المنجا احمد بن ابی الخیر نے ان کی ولادت کے سال انھیں اجازت دی {cite:encyclopaedia-of-islam-2 vol. 2 p. 214} {cite:durar-kamina-jil-1993 3/336}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1274-10-05~", hijri: "0673-02-03", calendar: julian, precision: day, status: tradition, derived: true, note: "ثالث ربيع الآخر ٦٧٣هـ {cite:durar-kamina-jil-1993 3/336}؛ التحويل مشتق؛ وعند دائرة المعارف أول ربيع الآخر أو ثالثه = ٥ أو ٧ أكتوبر ١٢٧٤م {cite:encyclopaedia-of-islam-2 vol. 2 p. 214}", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-dhahabi, role: "المولود", sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "durar-kamina-jil-1993 vol. 3 pp. 336-338 (Apple Vision OCR); Encyclopaedia of Islam 2nd ed. vol. 2 (C-G), printed pp. 214-216, art. al-Dhahabi (Moh. Ben Cheneb–J. de Somogyi)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-dhahabi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

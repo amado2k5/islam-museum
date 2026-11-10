@@ -1,0 +1,93 @@
+id: invention/jalali-calendar
+class: invention
+label: { ar: "إصلاح التقويم الجلالي", en: "Jalali calendar reform", ur: "جلالی تقویم کی اصلاح" }
+names:
+  - { kind: alternate, lang: en, value: "Malikshahi calendar" }
+  - { kind: alternate, lang: ar, value: "التقويم الملكشاهي" }
+summary:
+  ar: "إصلاح جماعي يربط رأس السنة بالاعتدال؛ دور الخيام وتاريخ البداية وقواعد الكبس والاستعمال مسائل مفصّلة لا قصة مخترع منفرد {cite:thomann-jalali-calendar-2021 secs.4–6}."
+  en: "Collective equinox-anchored reform; Khayyam's role, epoch, intercalation and use are qualified, not a sole-inventor story {cite:thomann-jalali-calendar-2021 secs.4–6}."
+  ur: "اعتدال سے نئے سال کو باندھنے والی مشترک اصلاح؛ خیام کا کردار، آغاز، کبیسہ اور استعمال محدود و واضح، تنہا موجد کی کہانی نہیں {cite:thomann-jalali-calendar-2021 secs.4–6}۔"
+domain: timekeeping
+kind: method
+disciplines: [astronomy, mathematics]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1079"
+    hijri: "0471"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Preferred later epoch, not verified invention/completion day. Thomann retains1076/468 AH alternative; Abdollahy interprets468 differently. Sources disagree9 versus10 Ramadan471, so no silently harmonized exact day. Existing467 event traditions not repurposed as471."
+    sources: [source/thomann-jalali-calendar-2021, source/iranica-calendars-abdollahy]
+  status_today: transformed
+origin:
+  place: place/isfahan
+  context:
+    ar: "سياق رعاية ملكشاه والرصد، لا دليل أن كل من سُمّي راصداً صمم التقويم {cite:thomann-jalali-calendar-2021 sec.4}."
+    en: "Malik Shah's observing/patronage setting; named observers are not automatically proven calendar designers {cite:thomann-jalali-calendar-2021 sec.4}."
+    ur: "ملک شاہ کی رصد و سرپرستی کا سیاق؛ نام زد راصد خود بخود ثابت تقویم ساز نہیں {cite:thomann-jalali-calendar-2021 sec.4}۔"
+makers:
+  - person: person/umar-khayyam
+    role: improver
+    note: "Reported participation in MacTutor; Thomann questions whether he worked on calendar reform itself or only observations. Qualified association, not certain sole design. Existing individual Muslim basis and Sunni-first debated-faith perspectives retained."
+    sources: [source/khayyam-mactutor, source/thomann-jalali-calendar-2021, source/sep-umar-khayyam]
+attribution:
+  status: contested
+  claim:
+    ar: "إصلاح جماعي برعاية ملكشاه؛ نسبة التصميم الشخصي إلى الخيام غير محسومة في المصادر المقروءة."
+    en: "Collective reform under Malik Shah; Khayyam's personal design role is not settled by the read sources."
+    ur: "ملک شاہ کی سرپرستی میں مشترک اصلاح؛ پڑھے ماخذ خیام کا ذاتی ڈیزائن کردار قطعی نہیں کرتے۔"
+  basis:
+    ar: "ماكتوتر يذكر المشاركة، وتومان يفصل بين الإصلاح والرصد ويشكك في تحويل أسماء الراصدين إلى قائمة المصممين {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}."
+    en: "MacTutor reports participation; Thomann separates reform from observations and questions treating observer names as designers {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}."
+    ur: "میک ٹیوٹر شرکت کہتا؛ تھومان اصلاح اور رصد الگ کرکے راصدوں کے ناموں کو ڈیزائنروں کی فہرست بنانا محل سوال رکھتا ہے {cite:khayyam-mactutor calendar} {cite:thomann-jalali-calendar-2021 sec.4}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الإطار السني المعلن وحدود الهوية", en: "Declared Sunni frame and identity limits", ur: "اعلان کردہ سنی سیاق اور شناخت کی حدود" }
+      summary: { ar: "هوية الخيام الفردية وقراءاتها المنقولة محفوظة في سجل الشخص؛ الإطار ليس شهادة مذهب شخصي أو برهان تصميم التقويم.", en: "Individual identity and attributed readings remain in the person record; the frame is neither personal-school testimony nor proof of calendar design.", ur: "انفرادی شناخت اور منقول آرا شخصی اندراج میں محفوظ؛ سیاق ذاتی مسلک یا تقویم سازی کا ثبوت نہیں۔" }
+      sources: [source/sep-umar-khayyam, source/khayyam-mactutor]
+    - tradition: academic
+      stance: { ar: "المشاركة المروية والسؤال التاريخي", en: "Reported participation and historical question", ur: "منقول شرکت اور تاریخی سوال" }
+      summary: { ar: "المشاركة مذكورة في السيرة الحديثة، لكن تومان يلاحظ أن خبر الإصلاح يذكر جماعة مجهولة وأن الأسماء تأتي في خبر الرصد؛ لا يفصل المتحف هذا الخلاف.", en: "The modern biography reports participation, but Thomann notes anonymous reformers and named observers in distinct accounts; the museum does not settle the disagreement.", ur: "جدید سوانح شرکت بتاتی، مگر تھومان الگ اخبار میں بے نام مصلح اور نام زد راصد دکھاتا؛ میوزیم اختلاف کا فیصلہ نہیں کرتا۔" }
+      sources: [source/khayyam-mactutor, source/thomann-jalali-calendar-2021]
+precursors:
+  - external: { ar: "التقويم الفارسي ومحاولات إصلاح أقدم", en: "Persian calendar and earlier reform attempts", ur: "فارسی تقویم اور پہلے اصلاحی اقدامات" }
+    note: "Earlier365-day year, epagomenal days and reported reform attempts; not first solar calendar or first use of seasonal time."
+    sources: [source/thomann-jalali-calendar-2021, source/iranica-calendars-abdollahy]
+dependents: []
+spread: []
+impact:
+  fields: [timekeeping, astronomy-instruments]
+  changed:
+    ar: "تثبيت رأس السنة عند الاعتدال مع بقاء شواهد تقاويم متجاورة {cite:thomann-jalali-calendar-2021 secs.4–5}."
+    en: "Equinox anchoring of New Year alongside documented parallel calendars {cite:thomann-jalali-calendar-2021 secs.4–5}."
+    ur: "نئے سال کو اعتدال سے باندھنا، ساتھ دوسرے تقاویم کے مستند استعمال {cite:thomann-jalali-calendar-2021 secs.4–5}۔"
+  history:
+    ar: "فرق بين مشروع الإصلاح والتطبيق؛ التقويم الهجري الشمسي الحديث ذو تعديلات لاحقة لا نسخة ثابتة من1079 {cite:iranica-calendars-abdollahy Solar-Hijri subsection}."
+    en: "Reform programme differs from implementation; modern Solar Hijri rules include later changes, not a frozen1079 copy {cite:iranica-calendars-abdollahy Solar-Hijri subsection}."
+    ur: "اصلاحی منصوبہ اور عمل الگ؛ جدید ہجری شمسی میں بعد کی تبدیلیاں،1079 کی جامد نقل نہیں {cite:iranica-calendars-abdollahy Solar-Hijri subsection}۔"
+  significance: 3
+  why: "Actually read contrasting historical/technical interpretations, documentary witness and explicit authorship/date/use limits; no popular perfect-calendar narrative."
+described_in: []
+examples: []
+sites: []
+concepts: [concept/al-taqwim-al-jalali]
+today:
+  form:
+    ar: "تراث تقويمي ودراسة للشواهد، لا آلة تحويل قانونية معاصرة أو دورة ثابتة مضمونة إلى الأبد."
+    en: "Calendrical heritage/documentary study, not present-day legal conversion software or eternally guaranteed fixed cycle."
+    ur: "تقویمی ورثہ و شواہد کا مطالعہ، موجودہ قانونی تبادلۂ تاریخ سافٹ ویئر یا ابدی یقینی چکر نہیں۔"
+  descendants: { ar: "صلة تاريخية بالتقويم الهجري الشمسي مع بيان الفروق.", en: "Historical relationship to Solar Hijri with differences retained.", ur: "فرق محفوظ رکھتے ہوئے ہجری شمسی سے تاریخی تعلق۔" }
+media: { image: media/jalali-berlin-calendar-1804, diagram: media/diagram-jalali-calendar }
+kids:
+  ar: "اصنع تقويمين ورقيين بقاعدة365 و365 مع أيام زائدة، وقارن البداية؛ لا تنظر إلى الشمس ولا تغيّر تقويم شعيرة من تجربة صفية."
+  en: "Compare paper calendars with365 days and with added days; do not look at the sun or turn a classroom model into a ritual-calendar rule."
+  ur: "365 دن اور اضافی دن والے کاغذی تقویم ملائیں؛ سورج نہ دیکھیں، جماعتی مثال کو مذہبی تقویم کا حکم نہ بنائیں۔"
+sources: [source/thomann-jalali-calendar-2021, source/iranica-calendars-abdollahy, source/berlin-astronomical-tables-211, source/khayyam-mactutor, source/sep-umar-khayyam, source/tdv-omer-hayyam-unat]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b51", source: "Actual Thomann main1–6, Abdollahy Jalali/modern comparison, MacTutor calendar section and institutional Berlin metadata/PD/inspected folio; original identity/attribution retained" }

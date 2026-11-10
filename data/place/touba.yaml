@@ -1,0 +1,16 @@
+id: place/touba
+class: place
+kind: city
+label: { en: "Touba", ar: "طوبى" }
+summary:
+  en: "City in Senegal."
+  ar: "مدينة في السنغال."
+wings: [place]
+regions: [west-africa-sahel]
+coordinates: [14.8665, -15.8994]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q657072", geonames: "2244322" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q657072 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

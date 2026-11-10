@@ -1,0 +1,29 @@
+id: person/kadri-pergamon
+class: person
+label:
+  ar: "قدري البرغامي"
+  en: "Kadri of Pergamon"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لقدري البرغامي، لغوي تركي القرن السادس عشر؛ تذكره كتب الأدب ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Kadri of Pergamon, the sixteenth-century Turkish linguist; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1530~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6345709
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0056
+status:
+  review: draft
+  completeness: 1

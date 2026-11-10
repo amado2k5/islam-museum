@@ -1,0 +1,91 @@
+id: person/abdullah-ibn-umar
+class: person
+label:
+  ar: عبد الله بن عمر بن الخطاب
+  en: Abdullah ibn Umar ibn al-Khattab
+  ur: "عبد اللہ بن عمر"
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن عمر بن الخطاب بن نفيل القرشي العدوي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابن الخليفة عمر بن الخطاب وأمه زينب بنت مظعون؛ أسلم صغيراً مع أبيه وهاجر، وعُرض على النبي ببدر وأحد فاستُصغر وأُجيز في الخندق، وهو من المكثرين من الحديث وعُرف بتتبع آثار النبي؛ توفي سنة 73هـ على قول الجمهور وقيل 74هـ. وفي مسلم قصّ رؤياه على النبي فقال «نعم الرجل عبد الله لو كان يصلي من الليل» فكان لا ينام من الليل إلا قليلاً {cite:sahih-muslim 2479}.
+  en: The son of the caliph Umar ibn al-Khattab and Zaynab bint Maz'un; he embraced Islam young with his father and emigrated, was presented to the Prophet at Badr and Uhud and turned back as too young, and was accepted at al-Khandaq; he is one
+    of the great narrators of hadith and was known for following the Prophet's footsteps; he died in 73 AH on the majority view, some say 74 AH.
+  ur: "عمر بن خطاب کے بیٹے اور کثیر الروایت صحابی؛ کم عمری میں بدر و احد میں شرکت کی اجازت نہ ملی، جبکہ خندق میں شریک ہوئے۔ {cite:ibn-hajar-isaba}"
+wings: [people]
+themes:
+- scripture-and-its-sciences
+- children-and-youth
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5350 (ص 917).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+born: { edtf: "610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+- { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba, source/sahih-muslim, source/al-masjid-fi-al-islam-azhar, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999], confidence: low }
+- { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "راوي الخبر؛ عاشر عشرة في المسجد", sources: [source/ibn-hisham-saqqa] }
+- type: child_of
+  target: person/umar-ibn-al-khattab
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/hafsa
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on this Companion's chapter in Ahmad's Fada'il al-Sahaba from source/fadail-sahaba-ahmad-wasi-allah-1999"
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5350، ص 917
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+external_ids: { wikidata: "Q2046261" }
+sources:
+- source/ibn-hajar-isaba
+- source/sahih-muslim
+- source/al-masjid-fi-al-islam-azhar
+- source/assabile-omar-abdelkafy
+- source/fadail-sahaba-ahmad-wasi-allah-1999
+education:
+  did_you_know:
+    ar: "عُرض ابن عمر في بدر وأحد فرُدّ لصغره، ثم شهد الخندق؛ وصار من أكثر الصحابة روايةً للحديث."
+    en: "Ibn Umar was presented at Badr and Uhud and turned back for his youth; he joined at the Trench and became one of the great hadith narrators."
+    ur: "ابنِ عمر بدر اور احد میں پیش ہوئے اور کم سنی کی وجہ سے لوٹا دیے گئے؛ خندق میں شریک ہوئے اور عظیم محدثین میں شمار ہوئے۔"
+    sources: [source/ibn-hajar-isaba, source/sahih-muslim]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch4", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 917, entry 5350)
+occupations:
+  - job: job/mufti
+    kind: episodic
+    status: historical
+    note: "The entry names him among the first group of Companions whose fatwas are numerous (seven named: Umar, Ali, Ibn Masud, Ibn Umar, Ibn Abbas, Zayd ibn Thabit and Aisha)."
+    sources: [source/tdv-fetva]

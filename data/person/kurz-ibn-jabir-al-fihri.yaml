@@ -17,9 +17,13 @@ story_roles:
   - { role: martyr, status: tradition, note: "استشهد يوم فتح مكة بالخندمة مدافعًا عن خنيس بن خالد وهو يرتجز: «لأضربن اليوم عن أبي صخر…».", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "صحابي شهيد يوم الفتح." }
+died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "أمير الطلب؛ لحق القوم وأتى بهم", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/khandama-skirmish, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 50", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch51" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 50" }
+status: { review: published, completeness: 3 }

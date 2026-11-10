@@ -1,0 +1,23 @@
+id: event/sonni-ali-takes-timbuktu-873
+class: event
+kind: conquest
+label: { ar: "سني علي يفتح تمبكتو", en: "Sonni Ali takes Timbuktu" }
+summary:
+  ar: "فتح سني علي ملك سونغاي تمبكتو سنة 873هـ/1468م فتوسعت بها سلطنته بعد خلافة مالي {cite:tarikh-islam-hasan-ibrahim}."
+  en: "Sonni Ali, king of Songhay, took Timbuktu in 873/1468 — the city passed to the rising Songhay power as Mali declined {cite:tarikh-islam-hasan-ibrahim}."
+  ur: "سنغائی بادشاہ سنی علی نے 873ھ/1468ء میں تمبکٹو فتح کیا اور مالی کے زوال پر سونگائی اقتدار بڑھا {cite:tarikh-islam-hasan-ibrahim}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1468", hijri: "0873", precision: year, status: tradition, derived: true }
+  end: { edtf: "1468", precision: year, status: tradition, derived: true }
+relations:
+  - { type: occurred_at, target: place/timbuktu, sources: [source/tarikh-islam-hasan-ibrahim] }
+sources: [source/tarikh-islam-hasan-ibrahim]
+provenance:
+  layer: own-research
+  source: "written for the Timeline Explorer Timbuktu story from the cited source"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-timbuktu
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

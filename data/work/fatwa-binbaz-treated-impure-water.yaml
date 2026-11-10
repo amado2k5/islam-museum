@@ -1,0 +1,23 @@
+id: work/fatwa-binbaz-treated-impure-water
+class: work
+kind: fatwa
+label: { ar: "حكم الماء النجس إذا صُفّي بطرق علمية", en: "Impure water purified by scientific treatment", ur: "سائنسی طریقوں سے صاف کیے گئے ناپاک پانی کا حکم" }
+summary:
+  ar: "سؤال عن الماء النجس إذا كُرّر وصُفّي حتى صار في ريحه ولونه وطعمه كالماء الطبيعي. فرّق ابن باز بين الكثير والقليل: الماء الكثير، قلّتان فأكثر، إذا زال تغيّره بالمعالجة أو بغيرها عاد طهورًا، وما دون القلتين محل خلاف، والقليل جدًّا لا يطهر بذهاب أوصاف النجاسة، واستشهد بالأمر بإراقة الإناء الذي ولغ فيه الكلب."
+  en: "A question on impure water that has been recycled and filtered until its smell, colour and taste are like natural water. Ibn Baz distinguished between large and small quantities: a large quantity, two qullas or more, becomes purifying again once its change is removed, by treatment or otherwise; below two qullas the matter is disputed; and a very small quantity is not purified merely by losing the traits of impurity, citing the command to pour out a vessel a dog has drunk from."
+  ur: "اس ناپاک پانی کے بارے میں سوال جسے دوبارہ صاف کیا جائے یہاں تک کہ اس کی بو، رنگ اور ذائقہ قدرتی پانی جیسا ہو جائے۔ ابن باز نے کم اور زیادہ پانی میں فرق کیا: زیادہ پانی، دو قلے یا اس سے زیادہ، جب علاج سے یا بغیر علاج کے اس کی تبدیلی ختم ہو جائے تو پھر پاک کرنے والا ہو جاتا ہے؛ دو قلے سے کم میں اختلاف ہے؛ اور بہت تھوڑا پانی محض نجاست کے اوصاف ختم ہونے سے پاک نہیں ہوتا، اور اس پر اس برتن کو انڈیل دینے کے حکم سے استدلال کیا جس سے کتا پی لے۔"
+wings: [words]
+authors: [person/ibn-baz-abd-al-aziz]
+url: "https://binbaz.org.sa/fatwas/2476/"
+languages: [ar]
+sources: [source/binbaz]
+relations:
+  - { type: about, target: concept/maai-fiqh, sources: [source/binbaz] }
+  - { type: about, target: concept/najasa, sources: [source/binbaz] }
+provenance:
+  layer: own-research
+  source: "binbaz.org.sa fatwa 2476 (al-Jami al-Kabir), read 1 Nov 2026."
+  generated_by: "Devin"
+  model: "unknown"
+  run: fatwa-websites-1
+status: { review: published, completeness: 1 }

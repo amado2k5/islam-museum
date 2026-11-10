@@ -1,0 +1,21 @@
+id: person/abu-isa-al-warraq
+class: person
+label: { ar: "أبو عيسى الوراق", en: "Abu Isa Al Warraq" }
+summary:
+  ar: "أبو عيسى الوراق ممن اشتهر أخيرا عند ابن النديم في أخبار أهل الزندقة الذين يظهرون الإسلام ويبطنونها {cite:fihrist-ibn-al-nadim p. 473}."
+  en: "Abu Isa al-Warraq — among the recently famous crypto-dualists {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch17
+born: { edtf: "805~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Thomas, Early Muslim Polemic" }
+died: { edtf: "861", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim, al-Fihrist; Thomas, Early Muslim Polemic" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Kalam theologian listed by Ibn al-Nadim among the crypto-dualists; the milieu was Baghdad. Inferred.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

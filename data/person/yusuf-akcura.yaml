@@ -1,0 +1,50 @@
+id: person/yusuf-akcura
+class: person
+label: { ar: "يوسف آقجورا", en: "Yusuf Akçura", ur: "یوسف آقچورا" }
+names:
+  - { value: "Yusuf Akçura", kind: full }
+  - { value: "يوسف آقجورا", kind: full }
+  - { value: "Юсуф Хасанович Акчурин", kind: full }
+  - { value: "Йосыф Хәсән улы Акчура", kind: alternate }
+  - { value: "Yusuf Akchura", kind: latinized }
+gender: male
+summary:
+  ar: "مؤرخ وكاتب وسياسي تاتاري (1876–1935)، وُلد في سيمبيرسك وتوفي في إسطنبول. غدت رسالته «أوضاع السياسة الثلاثة» (1904) نصًا مؤسسًا للقومية التركية؛ وشارك في تأسيس جمعية «الوطن التركي» ومجلتها، وكان نائبًا عن إسطنبول ثم قارص في مجلس الأمة التركي، ورئيسًا للجمعية التاريخية التركية منذ 1932."
+  en: "Tatar historian, writer and politician (1876–1935), born at Simbirsk and died at Istanbul. His 1904 essay Üç Tarz-ı Siyaset (Three Types of Policy) became a founding text of Turkish nationalism; he co-founded the Türk Yurdu association and its journal, sat in the Turkish Grand National Assembly for Istanbul and then Kars, and presided over the Turkish Historical Society from 1932."
+  ur: "تاتار مورخ، مصنف اور سیاست دان (1876–1935)، جو سمبرسک میں پیدا ہوئے اور استنبول میں وفات پائے۔ ان کا مضمون «اوچ طرزِ سیاست» (1904) ترک قوم پرستی کی بنیادی تحریروں میں شمار ہوتا ہے؛ انہوں نے «ترک یوردو» انجمن اور اس کے رسالے کی بنیاد میں حصہ لیا، ترک مجلسِ امت میں استنبول اور پھر قارص کے نائب رہے، اور 1932 سے ترک تاریخی انجمن کے صدر رہے۔"
+roles: [historian, writer, politician]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1876-12-02"
+  hijri: "1293"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives 2 December 1876 at Simbirsk in the Russian Empire; Wikidata carries the same day in the Gregorian calendar and 2 November 1876 in the Julian. The Hijri year 1293 is the tabular conversion. No born_in edge is written: the museum has no place entity for Simbirsk."
+  sources: [source/wikipedia-yusuf-akcura-en, source/wikipedia-yusuf-akcura-ar, source/wikidata-yusuf-akcura]
+died:
+  edtf: "1935-03-11"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The English article gives his death at Istanbul on 11 March 1935 and his burial at the Edirnekapı Martyrs' Cemetery; Wikidata gives the place of death as Turkey (Q406). The Hijri year 1353 is the tabular conversion."
+  sources: [source/wikipedia-yusuf-akcura-en, source/wikidata-yusuf-akcura]
+relations:
+  - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 11 March 1935.", sources: [source/wikipedia-yusuf-akcura-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Wikidata's only religion value is Islam (Q432), generic. The English article names no religion for Akçura in its text; it records his political positions — defining Turkish identity in ethnic terms, calling for a move away from Islamic values in state-building and wanting a secular Turkey, against Ziya Gökalp — which are positions argued in print, not an attested school of the man himself. The Arabic stub calls him a theorist of Turanism and names no school. Under the two-source rule and the doubt rule his faith is recorded unknown."
+    sources: [source/wikidata-yusuf-akcura, source/wikipedia-yusuf-akcura-en, source/wikipedia-yusuf-akcura-ar]
+external_ids: { wikidata: "Q735399" }
+sources: [source/wikipedia-yusuf-akcura-en, source/wikipedia-yusuf-akcura-ar, source/wikidata-yusuf-akcura]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Yusuf Akçura' (revision 1370665966) and Arabic Wikipedia 'يوسف آقجورا' (revision 76101518), read on 26 October 2026, with Wikidata item Q735399. The harvest queue's years (1876–1935) are confirmed. His kinship to the Akçura family into which Şefika Gasprinskaya's mother was born is family context recorded in her sources; no Akçura family entity exists, so no edge is written. His faith is left unknown under the two-source rule, as the faith note sets out."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-30
+status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

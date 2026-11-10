@@ -1,0 +1,28 @@
+id: person/al-fadil-al-yamani
+class: person
+label:
+  ar: "الفاضل اليمني"
+  en: "al-Fadil al-Yamani"
+roles: [poet, scholar]
+gender: male
+summary:
+  ar: "يحيى بن القاسم العلوي الفاضل اليمني الصنعاني، مفسر أديب من شافعية اليمن ⁦(٦٨٠–بعد ٧٥٠هـ)⁩، صاحب «تحفة الأشراف في كشف غوامض الكشاف»."
+  en: "Yahya ibn al-Qasim 'al-Fadil al-Yamani' of Sanaa, Shafi'i exegete (680–after 750/1281–after 1349), author of two commentaries on the Kashshaf."
+wings: [people]
+regions: [arabia]
+periods: [period/mongol-post-mongol]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q28713203
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam, entry read in the OpenITI/Shamela text (v.8 p.162)"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0070
+status:
+  review: published
+  completeness: 3
+died: { edtf: "1353", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Safadi (al-Wafi)" }
+relations:
+  - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (اليمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

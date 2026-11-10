@@ -1,0 +1,15 @@
+id: passage/muslim-0082
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "82"
+label: { ar: "مسلم 82 — إن بين الرجل وبين الشرك والكفر ترك الصلاة", en: "Muslim 82 — Between a man and idolatry stands abandonment of prayer" }
+text: "قال رسول الله: «إن بين الرجل وبين الشرك والكفر ترك الصلاة»"
+summary:
+  ar: "رواية جابر بن عبد الله في كتاب الإيمان من صحيح مسلم؛ يجعل ترك الصلاة الحد الفاصل بين الرجل والشرك والكفر — من أشد النصوص في شأن الصلاة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب معرفة الإيمان والإسلام (طبعة دار التأصيل، الحديث ٧٤؛ ترقيم عبد الباقي المعروف 82)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

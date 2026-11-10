@@ -1,0 +1,39 @@
+---
+// One Source Detective unit (E4 step 5): claim, three evidence cards, four-step
+// grading scale, historians' note.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import Detective from "../../../../components/Detective.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadDetective } from "../../../../lib/detective";
+import "../../../../styles/edu.css";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    loadDetective().map((u) => ({ params: { lang, slug: u.id }, props: { lang, unit: u } })),
+  );
+}
+const { lang, unit } = Astro.props;
+const S = ui(lang).shabab;
+const title = `${unit.claim[lang]} — ${S.sb_detective}`;
+const path = `/${lang}/shabab/detective/${unit.id}/`;
+const scale = [S.sb_scale_proves, S.sb_scale_supports, S.sb_scale_hints, S.sb_scale_no];
+---
+<BaseLayout lang={lang} title={title} description={unit.claim[lang]} path={path}>
+  <div class="wrap edu" style="padding-block:10px 24px">
+    <nav class="ui muted no-print" aria-label="breadcrumb">
+      <a href={`/${lang}/shabab/`}>{S.sb_title}</a> › <a href={`/${lang}/shabab/detective/`}>{S.sb_detective}</a> › {unit.claim[lang]}
+    </nav>
+    <Detective
+      lang={lang}
+      unit={unit}
+      claimLabel={S.sb_claim}
+      evidenceLabel={S.sb_evidence}
+      chainLabel={S.sb_chain}
+      scaleLabel={S.sb_what_proves}
+      scaleOptions={scale}
+      noteLabel={S.sb_hist_note}
+      revealLabel={S.sb_show_note}
+      savedLabel={S.sb_saved}
+    />
+  </div>
+</BaseLayout>

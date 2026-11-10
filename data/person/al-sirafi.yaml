@@ -1,0 +1,31 @@
+id: person/al-sirafi
+education:
+  did_you_know:
+    ar: "السيرافي أبو سعيد النحوي شرح كتاب سيبويه فظهر له في التصنيف ما لم يظهر لغيره ممن يعاني هذا الشأن، وله في النحو واللغة مصنفات."
+    en: "Al-Sirafi, the grammarian Abu Sa'id, commented on Sibawayhi's Book with an insight in composition no fellow-worker in the field had shown — and wrote further works in grammar and language."
+    ur: "سیرافی ابو سعید نحوی نے سیبویہ کی کتاب کی شرح کی اور تصنیف میں وہ بصیرت دکھائی جو اس فن کے اور کسی کاریگر کو حاصل نہ تھی — اور نحو و لغت میں مزید تصانیف لکھیں۔"
+    sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
+class: person
+label: { ar: "أبو سعيد السيرافي", en: "Abu Sa'id al-Sirafi" }
+names:
+  - { value: "أبو سعيد الحسن بن عبد الله بن المرزبان السيرافي", kind: full }
+gender: male
+roles: [grammarian, lexicographer]
+summary:
+  ar: "أبو سعيد الحسن بن عبد الله بن المرزبان السيرافي، النحوي اللغوي المشهور؛ شرح كتاب سيبويه فظهر له بالاطلاع والبحث في حال التصنيف ما لم يظهر لغيره ممن يعاني هذا الشأن، وصنف بعد ذلك كتاب «الإقناع» فكأنه ثمرة استفادته حال البحث والتصنيف ومات قبل إتمامه فأكمله ولده أبو محمد يوسف، وكان له ببغداد مجلس يقرأ فيه العلماء عليه حتى إن خازن دار العلم عبد السلام البصري كان من جلسائه {cite:wafayat-ayan p. 72-73}."
+  en: "Abu Sa'id al-Sirafi — the celebrated grammarian whose commentary on Sibawayh's Kitab revealed things no one else in the field had seen, and whose al-Iqna' was completed by his son Abu Muhammad; his Baghdad majlis drew even the keeper of Dar al-'Ilm's library {cite:wafayat-ayan p. 72-73}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  { edtf: "0979~", hijri: "0368", calendar: julian, precision: year, status: tradition, derived: true, note: "أدرجت ترجمته في وفيات سنة 368؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.97-98}", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/wafayat-ayan] }
+  - { type: authored, target: work/sharh-kitab-sibawayh-al-sirafi, sources: [source/bakka-kitab-sibawayh-2015] }
+sources: [source/wafayat-ayan, source/bakka-kitab-sibawayh-2015, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 72-74 (في ترجمة ولده يوسف)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

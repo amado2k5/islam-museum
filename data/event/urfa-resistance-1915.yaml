@@ -1,0 +1,23 @@
+id: event/urfa-resistance-1915
+class: event
+kind: revolt
+label: { ar: "مقاومة أورفة", en: "Urfa Resistance" }
+summary:
+  ar: "بطاقة أولية لمقاومة أورفة الأرمنية سنة ١٩١٥م، صمود أرمن المدينة أمام الترحيل العثماني؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Urfa resistance of 1915, the city's Armenian stand against Ottoman deportation; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q4477441
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; resistance attested in Armenian histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

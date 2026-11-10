@@ -1,0 +1,29 @@
+id: person/burhanuddin-ulakan
+class: person
+label:
+  ar: "برهان الدين أولكان"
+  en: "Burhanuddin Ulakan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لبرهان الدين أولكان، شيخ شطارية بادانغ الذي نشر الإسلام في سومطرة في القرن السابع عشر، توفي سنة ١٧٠٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Burhanuddin Ulakan, the seventeenth-century Shattari shaykh of Pariaman who spread Islam in Sumatra, d. 1704; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [southeast-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1646", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Azra (Origins of Islamic Reformism)" }
+died: { edtf: "1704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Azra (Origins of Islamic Reformism)" }
+relations:
+  - { type: born_in, target: place/ulakan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12478008
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0034
+status:
+  review: draft
+  completeness: 1

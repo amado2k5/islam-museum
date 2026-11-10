@@ -1,0 +1,23 @@
+id: event/sukhumi-landing
+class: event
+kind: battle
+label: { ar: "إنزال سوخومي", en: "Sukhumi landing" }
+summary:
+  ar: "بطاقة أولية لإنزال سوخومي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Sukhumi landing; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1838", precision: year, status: tradition, derived: true }
+  end: { edtf: "1838", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q118946499
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

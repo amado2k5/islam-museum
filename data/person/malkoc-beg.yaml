@@ -1,0 +1,28 @@
+id: person/malkoc-beg
+class: person
+label:
+  ar: "مالكوتش بك"
+  en: "Malkoc-beg"
+roles: [military]
+gender: male
+summary:
+  ar: "بطاقة أولية لمالكوتش بك، جندي وصاحب دولة عثماني القرن السادس عشر، توفي سنة ١٥٦٥م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Malkoc-beg, the sixteenth-century Ottoman soldier and statesman, d. 1565; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1565~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani" }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q94610
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0051
+status:
+  review: draft
+  completeness: 1

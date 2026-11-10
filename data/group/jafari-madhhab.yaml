@@ -1,0 +1,46 @@
+id: group/jafari-madhhab
+class: group
+kind: madhhab
+label:
+  ar: المذهب الجعفري
+  en: The Ja'fari school
+  ur: جعفری مذہب
+summary:
+  ar: "المذهب الجعفري مدرسة الفقه الإثني عشرية المنسوبة إلى جعفر الصادق؛ تعرضها كتب الملل ضمن الإمامية ويعرضها البحث الأكاديمي باعتبارها فقه الإثني عشرية {cite:milal-nihal-shahrastani} {cite:momen-1985}."
+  en: "The Ja'fari school is the Twelver school of fiqh traced to Ja'far al-Sadiq; the heresiographies treat it within the Imamiyya and academic study presents it as Twelver jurisprudence {cite:milal-nihal-shahrastani} {cite:momen-1985}."
+wings: [ideas]
+themes: [sects-and-schools, minorities-within-islam]
+external_ids: { wikidata: "Q685467" }
+sources: [source/milal-nihal-shahrastani, source/momen-1985]
+perspectives:
+- tradition: sunni
+  id: sunni-classification
+  stance:
+    ar: فقه الإمامية الإثني عشرية كما تصنفه كتب الملل والفقه المقارن
+    en: The fiqh of the Twelver Imamiyya as classified by the heresiographies and comparative fiqh
+  summary:
+    ar: "تدرج كتب الملل الإمامية وشُعبها — ومنها الواقفة عند جعفر — ضمن فرق الأمة، وتقابل المصنفات السنية مذهبهم الفقهي بالمذاهب الأربعة {cite:milal-nihal-shahrastani}."
+    en: "The heresiographies list the Imamiyya and its branches — including those who stopped at Ja'far — among the community's sects, and Sunni works compare their legal doctrine with the four madhhabs {cite:milal-nihal-shahrastani}."
+  sources: [source/milal-nihal-shahrastani]
+- tradition: academic
+  id: academic-description
+  stance:
+    en: The jurisprudential school of Twelver Shi'ism, named for Ja'far al-Sadiq
+  summary:
+    en: "Academic works describe the Ja'fari school as the legal tradition of Twelver Shi'ism, named for Ja'far al-Sadiq, with its own usul and ijma' rules {cite:momen-1985}."
+  sources: [source/momen-1985]
+- tradition: shia-twelver
+  id: twelver-self
+  stance:
+    ar: فقه مدرسة أهل البيت المنسوبة إلى الصادقين الباقر وجعفر
+    en: The fiqh of the ahl al-bayt school traced to al-Baqir and Ja'far
+  summary:
+    en: "Twelver sources present Ja'fari fiqh as the school of the Imams of the ahl al-bayt, transmitted from al-Baqir and Ja'far al-Sadiq {cite:momen-1985}."
+  sources: [source/momen-1985]
+sensitivity: contested
+provenance:
+  layer: own-research
+  source: "wikidata-import deferred Q685467; contested: Shahrastani verified + Momen academic fallback"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: wd-deferred-10
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

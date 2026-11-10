@@ -1,0 +1,37 @@
+id: person/al-istakhri-abu-said-al-hasan
+class: person
+label: { ar: "الإصطخري أبو سعيد الحسن بن أحمد", en: "Al-Istakhri, Abu Sa'id al-Hasan ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "الحسن بن أحمد بن يزيد بن عيسى الإصطخري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "0858", hijri: "0244", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0940", hijri: "0328", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أئمة الشافعية ببغداد وقاضي قم، ونُسب إلى إصطخر بفارس."
+  en: "One of the Shafi'i authorities of Baghdad and judge of Qumm; named after Istakhr in Fars."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص111"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch52
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
+relations:
+  - { type: lived_in, target: place/qumm, note: "From text: judge of Qumm", sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981] }

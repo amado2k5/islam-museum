@@ -1,0 +1,23 @@
+id: event/second-siege-of-edessa-1146
+class: event
+kind: siege
+label: { ar: "حصار الرها الثاني", en: "Second Siege of Edessa" }
+summary:
+  ar: "بطاقة أولية لحصار الرها الثاني سنة ١١٤٦م، استرداد زنكي المدينة بعد استعادة جوثلين لها؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Second Siege of Edessa in 1146, Zangi's recovery of the city after Joscelin's brief restoration; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1146-10-01", precision: year, status: tradition, derived: true }
+  end: { edtf: "1146-11-01", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q97402659
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

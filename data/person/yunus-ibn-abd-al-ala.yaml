@@ -1,0 +1,24 @@
+id: person/yunus-ibn-abd-al-ala
+class: person
+label: { ar: "يونس بن عبد الأعلى", en: "Yunus ibn Abd al-A'la" }
+summary:
+  ar: "يونس بن عبد الأعلى الصدفي، من أصحاب الشافعي ورواة مذهبه بمصر، توفي بها سنة أربع وستين ومائتين وهو ابن اثنتين وتسعون سنة {cite:muruj-al-dhahab p. 577}."
+  en: "Al-Shafi'i's Egyptian pupil al-Sadafi, died 264 aged ninety-two {cite:muruj-al-dhahab p. 577}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي ج2 ص 577"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch45
+  enriched_by:
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 31, 33" }
+died: { hijri: "0264", edtf: "0878~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة أربع وستين ومائتين، السنة التي مات فيها المزني (PDF ص52)."}
+external_ids: { wikidata: "Q22690894" }
+relations:
+  - { type: lived_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "Nisba شيرازي attested in the record." }
+sources: [source/wafayat-ayan, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981, source/qiraat-inda-al-tabari-thesis-umm-al-qura]
+status:
+  review: published
+  completeness: 3

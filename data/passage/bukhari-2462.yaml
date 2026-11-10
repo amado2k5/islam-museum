@@ -1,0 +1,19 @@
+id: passage/bukhari-2462
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2462"
+label: { ar: "البخاري 2462 — حديث السقيفة", en: "Bukhari 2462 — The Saqifa account" }
+text: "حين توفي الله نبيه إن الأنصار اجتمعوا في سقيفة بني ساعدة، فقلت لأبي بكر: انطلق بنا إلى إخواننا من الأنصار… فجئناهم في سقيفة بني ساعدة"
+summary:
+  ar: "في كتاب فضائل أصحاب النبي؛ حديث عمر الطويل المعروف بحديث السقيفة، يرويه ابن عباس عنه حين اعتل المنبر في آخر خلافته: اجتماع الأنصار بسعد بن عبادة في السقيفة، وذهاب أبي بكر وعمر وأبي عبيدة إليهم، وخطابا عمر وأبي بكر «لسنا بالأمراء وأنتم الوزراء» و«أمير منا ووزير منكم»، وخطبة الحباب بن المنذر، ورد سعد، وأخذ عمر يد أبي بكر فبايعه ثم بشير بن سعد، وبيعة العامة في الغد بالمسجد. النص الأساس في الحديث لوقائع السقيفة كلها."
+relations:
+  - { type: mentions, target: event/saqifa, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: place/saqifat-bani-saida, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/sad-ibn-ubada, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: group/ansar, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2462", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

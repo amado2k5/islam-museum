@@ -1,0 +1,30 @@
+id: dec-20261108-005
+date: 2026-11-08
+lane: coverage-programme
+class: site
+question: "Content-Signal flip: add 'Content-Signal: search=yes, ai-input=yes,
+  ai-train=no' as one line in site/public/robots.txt — the data is already CC0
+  so the flip grants nothing the licence does not; reversible."
+options:
+  - apply the flip
+  - do not apply
+status: founder-docket
+step: policy-gate
+decision: governance surfaces (schema, headers, infra, CI) are founder-only
+confidence: n/a
+reversible: false
+rationale: ""
+review_sampled: true
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+calibration_log:
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-08
+    by: founder
+    note: batch verdict 2026-11-08
+expires_at: "2027-11-08"
+domain: unclassified
+mode: conservative
+kind: decision

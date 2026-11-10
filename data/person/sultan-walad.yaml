@@ -1,0 +1,32 @@
+id: person/sultan-walad
+class: person
+label:
+  ar: "سلطان ولد"
+  en: "Sultan Walad"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لبهاء الدين سلطان ولد، ابن جلال الدين الرومي وخلف مشيخة المولوية ونظم الأفكار والرموز، توفي سنة ١٣١٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Baha al-Din Sultan Walad, son of Jalal al-Din Rumi and successor at the head of the Mevlevi order, a poet of ideas and symbols, d. 1312; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [spirituality-and-sufism]
+born: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1312", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/karaman, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q262579)" }
+  - { type: died_in, target: place/konya, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q79857)" }
+  - { type: buried_in, target: place/konya-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q81551)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q3043486
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0017
+status:
+  review: draft
+  completeness: 1

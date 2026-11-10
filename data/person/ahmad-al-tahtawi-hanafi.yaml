@@ -1,0 +1,32 @@
+id: person/ahmad-al-tahtawi-hanafi
+class: person
+label:
+  ar: "الطحطاوي"
+  en: "Al-Tahtawi (Hanafi)"
+names:
+  - { value: "الطحطاوي", kind: full }
+died: { hijri: "1231", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Death 1231 AH as given in the appendix; birth not given." }
+summary:
+  ar: "أحمد بن محمد بن إسماعيل، فقيه حنفي، ولد بطهطا قرب أسيوط، وتعلم بالأزهر، وتقلد مشيخة الحنفية فعزل ثم أعيد. من كتبه «حاشية على مراقي الفلاح»، و«حاشية على الدر المختار»، و«كشف الرين عن بيان المسح على الجوربين». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1631}"
+  en: "Ahmad ibn Muhammad ibn Ismail, a Hanafi jurist born in Tahta near Asyut, who studied at al-Azhar and was appointed head of the Hanafis, was dismissed and then reinstated. His works include a gloss on Maraqi al-falah, a gloss on al-Durr al-mukhtar, and Kashf al-rayn on wiping over the socks. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1631}"
+gender: male
+roles: [jurist]
+wings: [people]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1631 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+relations:
+  - { type: born_in, target: place/asyut, note: "From text: ولد بطهطا قرب أسيوط", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }

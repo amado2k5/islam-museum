@@ -1,6 +1,16 @@
 id: person/abu-sufyan-ibn-harb
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "أبو سفيان بن حرب زعيم مكة في سنين الحرب المعلنة، قائد بأحد والخندق؛ دخل في الإسلام يوم الفتح ومات مسلماً وهو والد أول خلفاء بني أمية."
+    en: "Abu Sufyan ibn Harb, Mecca's leader through the years of open war — its commander at Uhud and the Trench — entered Islam on the day of the Conquest, died a Muslim, and fathered the first Umayyad caliph."
+    ur: "ابو سفیان بن حرب، مکہ کا سردار برسوں کھلی جنگ کے عرصے میں — احد اور خندق کا قائد — فتح کے دن مسلمان ہوا، مسلمان ہی فوت ہوا اور پہلے اموی خلیفہ کا باپ بنا۔"
+    sources: [source/ibn-hisham-sira, source/muruj-al-dhahab]
 class: person
-label: { en: "Abu Sufyan ibn Harb", ar: "أبو سفيان بن حرب" }
+label: { en: "Abu Sufyan ibn Harb", ar: "أبو سفيان بن حرب" , ur: "ابو سفیان بن حرب"}
+aliases: [person/abu-sufyan]
 names:
   - { kind: full, lang: ar, value: "صخر بن حرب بن أمية الأموي" }
 gender: male
@@ -11,6 +21,7 @@ traditions: []
 summary:
   en: "Leader of Mecca through the years of open war against the Muslims — commander at Uhud and the Trench — who submitted at the conquest of Mecca and ended his life a Muslim; father of the first Umayyad caliph."
   ar: "زعيم مكة في سنين الحرب المعلنة ضد المسلمين — قائد بأحد والخندق — الذي دخل في الإسلام يوم الفتح ومات مسلمًا؛ والد أول خلفاء بني أمية."
+  ur: "مسلمانوں کے خلاف جنگوں کے زمانے میں مکہ کے قائد، جنہوں نے احد اور خندق میں قیادت کی؛ فتح مکہ کے وقت مسلمان ہوئے۔ {cite:ibn-hisham-saqqa} پہلے اموی خلیفہ کے والد تھے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [battles, peace-making-and-coexistence, trade-and-finance]
 periods: [period/prophetic-era]
@@ -24,6 +35,7 @@ faith:
   - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, note: "Leader of Mecca's traditional order through the war years.", sources: [source/watt-1956-medina] }
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "Late convert; the sincerity of the conversion is debated by historians, while the tradition counts him among the companions.", sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المقصود بالقتل؛ لم يُصل إليه", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: child_of, target: person/harb-ibn-umayya }
   - { type: member_of, target: group/banu-umayya }
@@ -36,16 +48,36 @@ relations:
   - { type: participated_in, target: event/conquest-of-mecca, role: submission, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-hunayn, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+issue: { ar: "كيف تصف التقاليد سيرة أبي سفيان وإسلامه؟", en: "How do the traditions describe Abu Sufyan's career and his conversion?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "A companion by conversion before the conquest; the tradition counts him among the people of virtue in Islam, notes his service as governor under the Rashidun, and records the Prophet's grant that whoever entered Abu Sufyan's house was safe." }
+    id: sunni
+    summary: { en: "A companion by conversion before the conquest; the tradition counts him among the people of virtue in Islam, notes his service as governor under the Rashidun, and records the Prophet's grant that whoever entered Abu Sufyan's house was safe.", ar: "يعدّ التراث السني أبا سفيان من الصحابة: مهتدٍ متأخر أكرمه عفو النبي ثم خدم الجماعة." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
-    summary: { en: "Historians read his career as the arc of Meccan realpolitik: the able leader of the opposition who converted when resistance had become impossible, and whose Umayyad kin then rose within the new state." }
+    id: academic
+    summary: { en: "Historians read his career as the arc of Meccan realpolitik: the able leader of the opposition who converted when resistance had become impossible, and whose Umayyad kin then rose within the new state.", ar: "ويقرأ المؤرخون سيرته بوصفها واقعية مكية: القائد القادر للمعارضة الذي أسلم لما استحالت المقاومة فارتقى بيته داخل الدولة الجديدة." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
-    summary: { en: "Twelver Shia tradition remembers him through his son Mu'awiya's war against Ali and regards the late conversion with deep suspicion." }
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition remembers him through his son Mu'awiya's war against Ali and regards the late conversion with deep suspicion.", ar: "أما التراث الشيعي الاثني عشري فيذكره من خلال حرب ابنه معاوية على علي، وينظر إلى إسلامه المتأخر بشك عميق." }
     sources: [source/momen-1985]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+external_ids:
+  wikidata: Q335430
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
 sensitivity: contested
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-hisham-sira"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch12"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}
+occupations:
+  - job: job/merchant
+    kind: secondary
+    place: place/mecca
+    status: historical
+    note: "The DİA entry says he took up trade as his father had, managed his clan's trade affairs, and led the Syrian caravan the Muslims tried to intercept; in 628 he went to Syria with a thirty-man trade caravan."
+    sources: [source/tdv-ebu-sufyan]

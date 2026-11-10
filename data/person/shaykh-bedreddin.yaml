@@ -1,0 +1,29 @@
+id: person/shaykh-bedreddin
+class: person
+label:
+  ar: "الشيخ بدر الدين السماوي"
+  en: "Shaykh Bedreddin Simavi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية للشيخ بدر الدين محمود السماوي، قاضي العسكر ومفتي موسى جلبي وعالم الفقه والمنطق الذي قاد لاحقاً حركة مسلحة فأُعدم سنة ١٤١٦م؛ تذكره كتب التاريخ العثماني ومعاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Shaykh Badr al-Din Mahmud al-Simavi, the kazasker and jurist-theologian who later led an armed movement and was executed in 1416; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1420", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: died_in, target: place/serres, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q206957)" }
+sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam]
+external_ids:
+  wikidata: Q1372236
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book sources: al-Sallabi, al-Dawla al-Uthmaniyya; al-Zirikli, al-A'lam — entries not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0019
+status:
+  review: draft
+  completeness: 1

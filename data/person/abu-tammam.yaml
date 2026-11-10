@@ -1,0 +1,31 @@
+id: person/abu-tammam
+education:
+  did_you_know:
+    ar: "قال أبو تمام في فتح المعتصم عمورية سنة ٢٢٣هـ قصيدته المشهورة «السيف أصدق أنباء من الكتب»، وكان المنجمون حكموا للمعتصم عند تجهزه أن الطالع نحس."
+    en: "For al-Mu'tasim's taking of Amorium in 223 AH Abu Tammam spoke his famous ode 'the sword brings truer news than books' — though the astrologers had judged the campaign's omen ill."
+    ur: "معتصم کی ۲۲۳ھ میں عموریہ کی فتح پر ابوتمام نے مشہور قصیدہ «السيف أصدق أنباء من الكتب» کہا، حالانکہ منجموں نے مہم کی شروعات پر بدشگونی بتائی تھی۔"
+    sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+class: person
+label: { ar: "أبو تمام الطائي", en: "Abu Tammam al-Ta'i" }
+summary:
+  ar: "الشاعر الكبير، قال في فتح المعتصم عمورية سنة ثلاث وعشرين قصيدته المشهورة السيف أصدق أنباء من الكتب في حده الحد بين الجد واللعب، وكان المنجمون حكموا للمعتصم عند تجهزه أن الطالع نحس وأنه يكسر فكان من نصره ما لم يخف {cite:tarikh-khulafa-minhaj-1434 p. 523}. وعند المسعودي ألف كتاب الحماسة وفي الناس من سماه كتاب الخبية، وصنف أبو بكر الصولي كتاباً في أخباره وشعره {cite:muruj-al-dhahab p. 463}"
+  en: "The great poet; he said for the year-223 conquest of Amorium his famous ode 'the sword is truer news than books — in its edge the line between earnest and jest... where is report, where are the stars?' — for the astrologers had foretold an ill-omened rising and defeat {cite:tarikh-khulafa-minhaj-1434 p. 523}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+born: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
+died: { edtf: "845", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
+relations:
+  - { type: born_in, target: place/jasim, note: "Wikidata Q4116040 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mosul, note: "Wikidata Q83317 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: related_to, target: person/al-mutasim-abi-ishaq, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: authored, target: work/hamasa-abu-tammam, sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 520–527"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-26
+external_ids: { wikidata: "Q1750054" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wafayat-ayan, source/nihayat-al-arab-nuwayri-vol1-scan, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

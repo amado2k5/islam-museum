@@ -1,0 +1,35 @@
+id: person/muhammad-ibn-aslam-al-tusi
+class: person
+label:
+  ar: "محمد بن أسلم الطوسي"
+  en: "Muhammad ibn Aslam al-Tusi"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن أسلم الطوسي، إمام ومحدث القرن التاسع، توفي سنة ٨٥٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Aslam al-Tusi, the ninth-century imam and muhaddith, d. 856; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q131338059
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0068
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "856", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/tus, confidence: low, note: "Association inferred from the nisba 'الطوسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

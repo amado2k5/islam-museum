@@ -1,0 +1,35 @@
+id: person/ibn-futays
+class: person
+label:
+  ar: "ابن فطيس"
+  en: "Ibn Futays"
+roles: [muhaddith, qadi]
+gender: male
+summary:
+  ar: "عبد الرحمن بن فطيس، عالم قرطبي بالتفسير والحديث وقاضيها، جمع مكتبة لا نظير لها بالأندلس؛ توفي سنة 402هـ ⁦(1012م)⁩."
+  en: "Abd al-Rahman Ibn Futays (960–1012), Cordoban scholar and qadi who amassed an unmatched library."
+wings: [people]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+born: { edtf: "960", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik" }
+died: { edtf: "1011", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik" }
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q57275197
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.325)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch3
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

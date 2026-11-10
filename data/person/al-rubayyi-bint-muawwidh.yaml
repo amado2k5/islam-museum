@@ -1,0 +1,59 @@
+id: person/al-rubayyi-bint-muawwidh
+class: person
+label:
+  ar: الربيع بنت معوذ
+  en: al-Rubayyi' bint Mu'awwidh
+aliases: [person/al-rabi-bint-muawwidh]
+names:
+- kind: full
+  lang: ar
+  value: الرُّبيِّع بنت معوذ بن عفراء بن حزام بن جندب الأنصارية النجارية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابية من بني عدي بن النجار؛ بايعت بيعة الشجرة، وروت أنها كانت تغزو مع النبي فتسقي القوم وتخدمهم وتداوي الجرحى، وروت وصف وضوئه، وحديثها عن زفافها وضرب الدف يوم بنى بها.
+  en: A Companion of Banu Adi ibn al-Najjar; she gave the pledge under the tree, narrated that women campaigned with the Prophet giving water, serving and tending the wounded, described his ablution, and told of her wedding day when girls played
+    the tambourine.
+wings: [people]
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11213 (ص 1869).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+died: { edtf: "665~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+relations:
+- type: lived_in
+  target: place/jazirat-al-arab
+  note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review."
+  confidence: low
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11213، ص 1869
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch111
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: published
+  completeness: 3

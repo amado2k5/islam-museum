@@ -1,0 +1,76 @@
+id: exhibit/path-geographers
+class: exhibit
+kind: trail
+label:
+  ar: الجغرافيون
+  en: The Geographers
+summary:
+  ar: 'مسار في واصفي الأرض: اليعقوبي والإصطخري، والمسعودي رحالة المؤرخين، والإدريسي في صقلية، وياقوت يكتب
+    معجم البلدان.'
+  en: A trail through the describers of the earth.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الإصطخري
+    en: Al-Istakhri
+  body:
+    ar: 'أطلس الإسلام الأول: مسالك وممالك بخرائط.'
+    en: 'أطلس الإسلام الأول: مسالك وممالك بخرائط.'
+  features:
+  - person/al-istakhri-abu-said-al-hasan
+- title:
+    ar: المسعودي
+    en: Al-Masudi
+  body:
+    ar: 'هرودوت العرب: مروج الذهب بين الهند ومصر.'
+    en: 'هرودوت العرب: مروج الذهب بين الهند ومصر.'
+  features:
+  - person/al-masudi
+  - place/baghdad
+- title:
+    ar: الإدريسي
+    en: Al-Idrisi
+  body:
+    ar: 'نزهة المشتاق: خريطة العالم لروجر صقلية.'
+    en: 'نزهة المشتاق: خريطة العالم لروجر صقلية.'
+  features:
+  - person/al-idrisi-muhammad-ibn-abd-allah
+  - place/palermo
+- title:
+    ar: ياقوت
+    en: Yaqut
+  body:
+    ar: 'معجم البلدان: أعظم موسوعة جغرافية.'
+    en: 'معجم البلدان: أعظم موسوعة جغرافية.'
+  features:
+  - person/yaqut-al-hamawi
+- title:
+    ar: الرحالة
+    en: The travellers
+  body:
+    ar: 'ابن بطوطة وجنغ خه: العين تشهد.'
+    en: 'ابن بطوطة وجنغ خه: العين تشهد.'
+  features:
+  - person/ibn-battuta-muhammad
+  - person/zheng-he
+  - practice/rihla-ilm
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

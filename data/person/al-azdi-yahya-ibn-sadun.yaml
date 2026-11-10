@@ -1,0 +1,32 @@
+id: person/al-azdi-yahya-ibn-sadun
+class: person
+label: { ar: "الأزدي القرطبي", en: "al-Azdi al-Qurtubi" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر يحيى بن سعدون بن تمام بن الناس الأزدي القرطبي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1093", hijri: "0486", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1171", hijri: "0567", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم أندلسي من قرطبة، أخذ عنه الحديث وسمع منه الطلاب."
+  en: "Andalusi scholar of Cordoba from whom students took hadith."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids: { wikidata: "Q58003397" }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص519-520"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+relations:
+  - { type: lived_in, target: place/cordoba, note: "Place association from the person's nisba/name (القرطبي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,29 @@
+id: person/amr-ibn-suraqa
+class: person
+label:
+  ar: "عمرو بن سراقة"
+  en: "Amr ibn Suraqa"
+roles: [companion]
+gender: male
+summary:
+  ar: "بطاقة أولية لعمرو بن سراقة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Amr ibn Suraqa, a figure of the early community; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam]
+died: { edtf: "644~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+ - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+external_ids:
+  wikidata: Q12228519
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0058
+status:
+  review: draft
+  completeness: 1

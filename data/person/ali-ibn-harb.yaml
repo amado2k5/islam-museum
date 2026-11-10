@@ -1,0 +1,30 @@
+id: person/ali-ibn-harb
+class: person
+label:
+  ar: "علي بن حرب"
+  en: "'Ali ibn Harb"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لعلي بن حرب؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for 'Ali ibn Harb; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q108309481
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch64
+status:
+  review: published
+  completeness: 3
+born: { edtf: "793", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: born_in, target: place/azerbaijan, note: "Wikidata Q274536 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mosul, note: "Wikidata Q83317 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

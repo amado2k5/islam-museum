@@ -1,0 +1,27 @@
+id: event/al-qurtubi-departs-andalus
+class: event
+kind: migration
+label:
+  ar: "رحيل القرطبي من الأندلس إلى بلاد المشرق"
+  en: "Al-Qurtubi leaves al-Andalus for the East"
+  ur: "قرطبی کا اندلس سے ممالکِ مشرق کی طرف رحلت"
+summary:
+  ar: "أدرج المقري أبا عبد الله محمد بن أحمد القرطبي في باب «التعريف ببعض من رحل من الأندلسيين إلى بلاد المشرق»، فقد غادر قرطبة مهاجرًا إلى المشرق حيث استقر به المقام بمصر {cite:nafh-tib-maqqari 2/210-211}؛ وفي دائرة المعارف أنه «سافر إلى الشرق واستقر بمنية أبي الخصيب في الصعيد» {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}."
+  en: "Al-Maqqari places Abu Abdallah Muhammad ibn Ahmad al-Qurtubi in the chapter 'Andalusis who travelled to the lands of the East': he left Cordoba as an emigrant and settled in Egypt {cite:nafh-tib-maqqari 2/210-211}. The Encyclopaedia of Islam says he 'made his way to the Orient and settled at Munyat Abi l-Khusayb in Upper Egypt' {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}."
+  ur: "مقری نے ابو عبداللہ محمد بن احمد قرطبی کو اس باب میں درج کیا جو ان اندلسیوں کے مشرق کی طرف ہجرت کرنے پر ہے: انہوں نے قرطہ سے ہجرت کر کے مصر میں سکونت اختیار کی {cite:nafh-tib-maqqari 2/210-211}۔ انسائیکلوپیڈیا آف اسلام کے مطابق وہ مشرق کی طرف روانہ ہوا اور صعید مصر کی منیۃ ابی الخصیب میں مقیم ہوا {cite:encyclopaedia-of-islam-2 vol. 5 p. 550}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, egypt-nile]
+date:
+  start: { edtf: "1242~", hijri: "0640~", calendar: julian, precision: decade, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ وضع تقريباً بين سقوط قرطبة بيد القشتاليين (٦٣٦هـ {cite:nafh-tib-maqqari p. 476}) وسماعه المفهم على مؤلفه المتوفى سنة ٦٥٦هـ {cite:siyar-alam-nubala 17/98}.", sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/al-qurtubi, role: "المهاجر", sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2] }
+sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "al-Maqqari, Nafh al-Tib (Dar Sadir, ed. Ihsan Abbas) vol. 2 printed pp. 210-211; Encyclopaedia of Islam 2nd ed. vol. 5.1 printed p. 550, art. al-Kurtubi (R. Arnaldez); al-Dhahabi, Siyar A'lam al-Nubala (Risala) vol. 17 printed p. 98 — all from Apple Vision OCR of local scans"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-qurtubi-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

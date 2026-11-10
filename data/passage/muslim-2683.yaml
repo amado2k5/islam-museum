@@ -1,0 +1,16 @@
+id: passage/muslim-2683
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2683"
+label: { ar: "مسلم 2683 — من أحب لقاء الله أحب الله لقاءه", en: "Muslim 2683 — Whoever loves meeting God, God loves meeting him" }
+text: "قال رسول الله: «من أحب لقاء الله أحب الله لقاءه، ومن كره لقاء الله كره الله لقاءه»"
+summary:
+  ar: "رواية عبادة بن الصامت وعائشة في كتاب الجنة وصفة نعيمها من صحيح مسلم؛ حب لقاء الله وكراهيته عند انقطاع الدنيا — من نصوص الزهد والأخرة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/aisha, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الجنة وصفة نعيمها (طبعة دار التأصيل، الحديث 6996؛ ترقيم عبد الباقي المعروف 2683)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

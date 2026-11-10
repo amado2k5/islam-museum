@@ -1,0 +1,41 @@
+id: person/shams-al-din-ibn-nuh
+class: person
+label: { ar: "شمس الدين ابن نوح", en: "Shams al-Din Ibn Nuh" }
+names:
+  - { value: "شمس الدين عبد الرحمن بن نوح بن محمد المقدسي", kind: full }
+died: { edtf: "1256-05~", hijri: "0654-04", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الآخر سنة أربع وخمسين وستمائة وقد تفقه به جماعة {cite:shadharat-dhahab p. 273}." }
+summary:
+  ar: "مدرس الرواحية، أجل أصحاب ابن الصلاح وأعرفهم بالمذهب؛ توفي في ربيع الآخر وقد تفقه به جماعة {cite:shadharat-dhahab p. 273}."
+  en: "Mudarris of the Rawahiyya (d. Rabi' II 654) — the greatest and most madrasa-learned of Ibn al-Salah's pupils {cite:shadharat-dhahab p. 273}."
+gender: male
+roles: [scholar, jurist, teacher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-al-salah, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch87
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

@@ -1,0 +1,26 @@
+id: event/kufa-eid-raid-293
+class: event
+kind: raid
+label: { ar: "دخول القرامطة الكوفة يوم عيد الأضحى", en: "Qarmatian entry into Kufa on the Eid al-Adha, 293" }
+summary:
+  ar: "في سنة ثلاث وتسعين ومائتين دخل القرامطة الكوفة حين انصرف الناس من صلاة عيد الأضحى في ثمانمائة فارس ونادوا يا لثارات الحسين — يعنون الحسين بن زكرويه المصلوب على الجسر — وشعارهم يا أحمد يا محمد يعنون المقتولين معه وأظهروا الأعلام البيض، فقتلوا من أدركوا وسلبوا، وبادر الناس إلى المدينة فدخلوها، ودخل من القرامطة خلفهم نحو خمسمائة فرماهم العوام بالحجارة وألقوا عليهم الستر فخرجوا بعد أن قُتل منهم نحو عشرين {cite:muntazam-ibn-al-jawzi p. 349}."
+  en: "In 293 eight hundred Qarmatian horse entered Kufa as the people left the Eid al-Adha prayer, crying vengeance for al-Husayn ibn Zikrawayh crucified on the bridge, white banners raised; the townsfolk rushed inside the city, then stoned the ~five hundred who followed and threw covers over them until they withdrew with some twenty dead {cite:muntazam-ibn-al-jawzi p. 349}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "القرامطة" }
+  - label: { ar: "أهل الكوفة" }
+map: { kind: locator, precision: approximate, center: [44.40, 32.03] }
+date:
+  start: { edtf: "0905-12-10~", hijri: "0293-12-10", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم عيد الأضحى ٢٩٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 349}." }
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-husayn-ibn-zikrawayh, role: "المستَثأر له", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 293)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch28
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

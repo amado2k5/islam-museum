@@ -1,0 +1,32 @@
+id: polity/nabhani-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: "السلالة النبهانية"
+  en: "Nabhani dynasty"
+summary:
+  ar: "بطاقة أولية للسلالة النبهانية، ملوك عُمان من القرن الثاني عشر إلى القرن السابع عشر؛ لم تُراجع مصادرها على الصفحة بعد."
+  en: "Draft card for the Nabhani dynasty, the kings of Oman from the twelfth to the seventeenth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+start:
+  edtf: "1150"
+  precision: year
+  status: tradition
+  derived: true
+end:
+  edtf: "1624"
+  precision: year
+  status: tradition
+  derived: true
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q11938308
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; dynasty attested in Omani histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

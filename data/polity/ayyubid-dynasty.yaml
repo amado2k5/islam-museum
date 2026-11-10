@@ -1,0 +1,54 @@
+id: polity/ayyubid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة الأيوبية
+  en: Ayyubid dynasty
+  ur: "ایوبی سلطنت"
+summary:
+  ar: "سلالة حاكمة قامت سنة 1171م وحكمت مصر حتى سنة 1250م، وامتدت سلطتها إلى الشام والجزيرة واليمن؛ عاصمتها القاهرة. والسجل مستكمل الآن من دائرة المعارف الإسلامية حتى وفاة الكامل سنة 635هـ ⁦(1238م)⁩."
+  en: "A ruling dynasty founded in 1171 CE that governed Egypt until 1250 CE and extended its power over Syria, the Jazira and Yemen; its capital was Cairo. The record now also draws on the Encyclopaedia of Islam up to the death of al-Kamil in 635 AH (1238)."
+  ur: "1171ء میں قائم ہونے والا حکمران خاندان، جس نے مصر میں 1250ء تک حکومت کی اور شام، جزیرہ اور یمن تک اقتدار پھیلایا۔ اس کا مرکزی شہر قاہرہ تھا۔ {cite:khitat-maqrizi-1998}"
+wings: []
+periods:
+- period/crusades-ayyubid-mamluk
+regions:
+- egypt-nile
+- levant-iraq
+start:
+  edtf: "1171"
+  calendar: julian
+  precision: year
+  status: historical
+  note: "567 AH: Saladin takes the kingdom of Egypt (al-Maqrizi, Khitat p. 290)"
+  sources:
+  - source/khitat-maqrizi-1998
+end:
+  edtf: "1250"
+  hijri: "0648~"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "648 AH, the end of Ayyubid rule in Egypt (al-Maqrizi, Khitat p. 1912). Hasan Ibrahim (pp. 494, 698) gives 567–648 AH, 1171–1250 CE. The Gregorian year is derived from the Hijri date. The record is narrowed to Egypt; Wikidata's 1341 CE has no local check and is not used"
+  sources:
+  - source/khitat-maqrizi-1998
+  - source/tarikh-islam-hasan-ibrahim
+capitals:
+- place: place/cairo
+external_ids:
+  nomisma: "ayyubids,ayyubids_egypt"
+  wikidata: Q180114
+sources:
+- source/khitat-maqrizi-1998
+- source/nomisma
+- source/tarikh-islam-hasan-ibrahim
+- source/wikidata
+- source/encyclopaedia-of-islam-2
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump (ids and capital); the Egypt start and end from al-Maqrizi's Khitat and Hasan Ibrahim's Tarikh al-Islam (local scans)
+  generated_by: Claude (maintainer session); Claude Haiku 5.5 (showcase-prose lane, Khitat sections)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1, showcase-prose-phase2-egypt-batch4, showcase-prose-phase2-egypt-batch5
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+status: { review: published, completeness: 3 }

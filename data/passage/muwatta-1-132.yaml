@@ -1,0 +1,15 @@
+id: passage/muwatta-1-132
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.132"
+label: { ar: "الموطأ 132 — مالك في إصابة الرجل نساءه وجواريه قبل أن يغتسل", en: "Muwatta 132" }
+summary:
+  ar: "فتوى لمالك في باب جامع غسل الجنابة: سُئل عن رجل له نسوة وجوار هل يطؤهن جميعاً قبل أن يغتسل، فقال: لا بأس أن يصيب جاريتيه قبل أن يغتسل، فأما الحرائر فيكره أن يصيب الحرة في يوم الأخرى، وأما أن يصيب الجارية ثم الأخرى وهو جنب فلا بأس. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.98}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 132 at PDF p. 98; باب جامع غسل الجنابة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b06" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 98; matn excerpt at most 40 words" }

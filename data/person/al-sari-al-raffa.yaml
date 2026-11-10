@@ -1,0 +1,28 @@
+id: person/al-sari-al-raffa
+class: person
+label:
+  ar: "السري الرفاء"
+  en: "al-Sari al-Raffa'"
+roles: [poet]
+gender: male
+summary:
+  ar: "السري بن أحمد الكندي «الرفاء»، شاعر موصلي مدح سيف الدولة ثم أقام ببغداد، هاجاه الخالديان فعمل في الوراقة؛ توفي سنة 366هـ ⁦(976م)⁩."
+  en: "Al-Sari al-Raffa' (d. 366/976), Mosul poet who praised Sayf al-Dawla, later a Baghdad copyist after his feud with the Khalidi brothers."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-fragmentation]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12188361
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.81)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch2
+status:
+  review: published
+  completeness: 3
+died: { edtf: "973", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Yaqut (Mu'jam al-Udaba)" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "From text: أقام ببغداد", sources: [source/al-aalam] }

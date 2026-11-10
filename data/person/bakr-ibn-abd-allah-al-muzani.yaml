@@ -1,0 +1,28 @@
+id: person/bakr-ibn-abd-allah-al-muzani
+class: person
+label:
+  ar: "بكر بن عبد الله المزني"
+  en: "Bakr ibn Abd Allah al-Muzani"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لبكر بن عبد الله المزني، الزاهد البصري التابعي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Bakr ibn Abd Allah al-Muzani, the Basran ascetic of the Successors; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/umayyad]
+died: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12198851
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch64
+status:
+  review: published
+  completeness: 3

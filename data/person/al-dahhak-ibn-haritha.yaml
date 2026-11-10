@@ -1,0 +1,30 @@
+id: person/al-dahhak-ibn-haritha
+class: person
+label:
+  ar: "الضحاك بن حارثة"
+  en: "al-Dahhak ibn Haritha"
+roles: [companion]
+gender: male
+summary:
+  ar: "بطاقة أولية لالضحاك بن حارثة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for al-Dahhak ibn Haritha, a figure of the early community; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/prophetic-era]
+sources: [source/al-aalam]
+born: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+relations:
+ - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+external_ids:
+  wikidata: Q28147326
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0061
+status:
+  review: draft
+  completeness: 1

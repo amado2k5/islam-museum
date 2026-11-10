@@ -11,8 +11,8 @@ roles: [prophet, statesman]
 traditions: [sunni, shia-twelver]
 summary:
   en: The Prophet of Islam (c. 570–632 CE), through whom Muslims believe the Qur'an was revealed, and the founder of the first Muslim community in Medina.
-  ar: نبي الإسلام (نحو 570–632م)، الذي يؤمن المسلمون بنزول القرآن عليه، ومؤسس أول مجتمع إسلامي في المدينة المنورة.
-wings: [people, time]
+  ar: "نبي الإسلام ⁦(نحو 570–632م)⁩، الذي يؤمن المسلمون بنزول القرآن عليه، ومؤسس أول مجتمع إسلامي في المدينة المنورة. توفي في المدينة المنورة في ربيع الأول سنة 11 هـ وهو ابن ثلاث وستين سنة {cite:mubarakpuri-raheeq p.444}، وكُفّن في ثلاثة أثواب يمانية بيض، وغسّله علي، وأعان العباس والفضل وقثم وأسامة وشقران {cite:mubarakpuri-raheeq p.445-446}."
+wings: [people]
 themes: [prophets]
 periods: [period/prophetic-era]
 regions: [arabia]
@@ -20,10 +20,27 @@ sensitivity: figurative-prophet
 story_roles:
   - { role: prophet-figure, start: { edtf: "0610~", calendar: julian, precision: year }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
 relations:
+  - { type: child_of, target: person/amina-bint-wahb }
+  - { type: child_of, target: person/abdullah-ibn-abd-al-muttalib }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: buried_in, target: place/medina }
   - { type: participated_in, target: event/hijra, role: protagonist }
 external_ids: { wikidata: Q9458 }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+sources: [source/mubarakpuri-raheeq, source/ibn-ishaq-guillaume, source/assabile-omar-abdelkafy]
+education:
+  did_you_know:
+    ar: "وُلد محمد بمكة نحو سنة ٥٧٠م، ونزل عليه الوحي سنة ٦١٠م، وهاجر إلى المدينة حيث قام أول مجتمع إسلامي."
+    en: "Muhammad was born in Mecca around 570 CE, received the revelation in 610, and emigrated to Medina where the first Muslim community was formed."
+    ur: "محمد مکہ میں تقریباً 570ء میں پیدا ہوئے، 610ء میں ان پر وحی نازل ہوئی اور مدینہ ہجرت کی جہاں پہلا مسلم معاشرہ قائم ہوا۔"
+    sources: [source/mubarakpuri-raheeq, source/ibn-ishaq-guillaume]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
+provenance:
+  layer: own-research
+  source: "al-Raheeq al-Makhtum (Mubarakpuri), local copy 20210430 (460 pages; pages.json page numbers): pp. 49, 54-67, 71, 75, 444-446, 454-460"
+  generated_by: "Claude Haiku 5.5 (batch 10)"
+  model: claude-haiku-5-5
+  run: showcase-prose-phase3-batch10
+status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; batch 10. Every sentence of the prose is checked against the local copy of al-Raheeq al-Makhtum (20210430, pages.json pages): the lineage (p. 49), the birth and early years (pp. 54-58), youth and marriage (pp. 58-61), character before prophethood (pp. 62, 65), the beginning of revelation (pp. 63-67), the call (pp. 63, 71, 75), the shama'il (pp. 454-460) and the death (pp. 444-446). Removed as not witnessed: the Muslim and Ibn Hisham cross-references, the Muruj and the other classical citations, the 'hadith of the Dhubab' authenticity dispute, the first-day converts, the 'more than forty' count, the Quran 68:4 link, and the 'burial by Ali' claim. Corrected: the age at the Fijar war (twentieth year, not fifteen), the fourth-year chest-opening, and the shroud (three white Yemeni cloths, not two Sahari cloths and a hibra). Source note: the 344-page copy named in the source record is not readable (garbled OCR); this record cites the 460-page copy, and the source record should name it" }

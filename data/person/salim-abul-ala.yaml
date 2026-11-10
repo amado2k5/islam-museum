@@ -1,0 +1,20 @@
+id: person/salim-abul-ala
+class: person
+label: { ar: "سالم أبو العلاء", en: "Salim Abul Ala" }
+summary:
+  ar: "سالم ويكنى أبا العلاء كاتب هشام بن عبد الملك وكان ختن عبد الحميد بن يحيى وكان أحد الفصحاء البلغاء وقد نقل من رسائل أرسطاليس إلى الإسكندر ونقل له وأصلح، وله رسائل مجموع نحو مائة ورقة {cite:fihrist-ibn-al-nadim p. 171}."
+  en: "Salim Abu al-Ala — Hisham's scribe who rendered Aristotle's letters to Alexander {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf" }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن ندیم، الفہرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch18

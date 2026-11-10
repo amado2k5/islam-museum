@@ -1,0 +1,33 @@
+id: person/abd-al-rahman-badawi
+class: person
+label: { ar: "عبد الرحمن بدوي", en: "Abd al-Rahman Badawi" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بدوي" }
+gender: male
+roles: [philosopher, writer]
+traditions: [sunni]
+born: { edtf: "1917", hijri: "1336", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "2002", hijri: "1423", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أستاذ فلسفة مصري ومن أهم مؤرخي الفلسفة العربية، ساهم في إرساء الدرس الفلسفي في العالم العربي."
+  en: "An Egyptian professor of philosophy and one of the most important historians of Arab philosophy. He helped establish philosophical study in the Arab world."
+wings: [people]
+themes: [philosophy-and-logic, history-writing-and-social-thought]
+periods: [period/modern-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+external_ids:
+  wikidata: Q2223815
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص255"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch47
+relations:
+  - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -1,0 +1,22 @@
+id: person/yazid-ibn-al-asamm
+class: person
+label: { ar: "يزيد بن الأصم", en: "Yazid ibn al-Asamm" }
+summary:
+  ar: "من أهل الرقة وهو ابن أخت ميمونة زوج النبي، توفي في أيام يزيد بن عبد الملك {cite:muruj-al-dhahab p. 191}."
+  en: "Maymuna's nephew, of Raqqa — died under Yazid II {cite:muruj-al-dhahab p. 191}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 191"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch42
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "648", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "722", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+relations:
+  - { type: lived_in, target: place/raqqa, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

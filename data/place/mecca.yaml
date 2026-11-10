@@ -3,11 +3,30 @@ class: place
 kind: city
 label: { en: Mecca, ar: مكة المكرمة }
 summary:
-  ar: مدينة في الحجاز، مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي.
-  en: City in the Hejaz, birthplace of the Prophet Muhammad and site of the Kaaba and the annual Hajj.
+  ar: مدينة في الحجاز، مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي. ويصف ابن بطوطة المسجد الحرام في عهده فيعد أبوابه العشرة وقبابه ومصاطبه، ويقيس المسافة بين الصفا والمروة بالخطوات، ويذكر دار الندوة التي جُعلت مسجداً جامعاً مضافاً إلى الحرم {cite:rihla-ibn-battuta-1958 p. 85-88}. وتحفظ قاعدة البرديات العربية وثيقتين أُرسلتا من مكة إلى معارف تجاريين بالفسطاط — رسالة تجارية عن الحج بين ٩٠١–١٠٠٠م وأخرى تحية خاصة من الحج بين ١١٠١–١٢٠٠م {cite:apd P.Vind.inv. A.Ch. 36581} {cite:apd P.Vind.inv. A.Ch. 10354}
+  en: City in the Hejaz, birthplace of the Prophet Muhammad and site of the Kaaba and the annual Hajj. Ibn Battuta describes the Sacred Mosque in his day, counting its ten gates, domes and porticoes, measuring the distance between al-Safa and al-Marwa in steps, and noting that Dar al-Nadwa was made a congregational mosque attached to the haram {cite:rihla-ibn-battuta-1958 p. 85-88}. The Arabic Papyrology Database preserves two paper documents sent from Mecca to business friends in Fustat — a business letter about the pilgrimage dated 901–1000 CE and a private greeting from the pilgrimage dated 1101–1200 CE {cite:apd P.Vind.inv. A.Ch. 36581} {cite:apd P.Vind.inv. A.Ch. 10354}
 wings: [place]
 regions: [arabia]
 coordinates: [21.4225, 39.8262]
-external_ids: { wikidata: Q5806, geonames: "104515" }
-sources: []
+external_ids: { wikidata: Q5806, geonames: "104515", nomisma: "mecca", idai: "2283160" }
+sources: [source/bakr-umayyad-state-1134715, source/rihla-ibn-battuta-1958, source/apd, source/nomisma, source/idai-gazetteer]
+education:
+  did_you_know:
+    ar: "مكة في الحجاز مسقط رأس النبي محمد وموضع الكعبة ومقصد الحج السنوي."
+    en: "Mecca in the Hijaz is the Prophet Muhammad's birthplace, the site of the Kaaba, and the goal of the yearly hajj."
+    ur: "حجاز کی مکہ نبی محمد کی جائے پیدائش، کعبہ کا مسکن اور سالانہ حج کی منزل ہے۔"
+    sources: [source/bakr-umayyad-state-1134715, source/mubarakpuri-raheeq]
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "gemini-2.5-pro", run: "education-E2-batch3", note: "Leveled texts drafted from the record's own summary and prose; draft, pending the founder's review and scholar review of the child levels." }
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }
+provenance:
+  layer: own-research
+  source: "education fact engine batch 4 — did_you_know fact drafted in three languages from the record's own cited sources"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch4; lib-wave-21-rihla-ibn-battuta-1"
+kids:
+  ar: "مكة أقدس مدينة في الإسلام، فيها الكعبة التي يتوجه إليها المسلمون في الصلاة ويقصدونها في الحج."
+  en: "Mecca, the holiest city in Islam — it holds the Kaaba, the house Muslims face in prayer and journey to for Hajj."
+  ur: "مکہ اسلام کا مقدس ترین شہر ہے — اس میں کعبہ ہے جس کی طرف مسلمان نماز میں منہ کرتے اور حج کے لیے جاتے ہیں۔"

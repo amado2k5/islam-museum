@@ -1,0 +1,32 @@
+id: person/amat-al-latif-bint-al-nasih
+class: person
+label:
+  ar: "أمة اللطيف بنت الناصح"
+  en: "Amat al-Latif bint al-Nasih"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأمة اللطيف بنت الناصح؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Amat al-Latif bint al-Nasih; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q28923564
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1202", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidaya / Tarikh al-Islam" }
+died: { edtf: "1296", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bidaya / Tarikh al-Islam" }
+relations:
+  - { type: buried_in, target: place/damascus, note: "Wikidata Q3766 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/damascus, note: "Wikidata Q3766 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/homs, note: "Wikidata Q131301 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/ayyubid-dynasty, note: "Wikidata Q180114 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -1,0 +1,23 @@
+id: work/al-mawsua-al-fiqhiyya
+class: work
+kind: book
+label: { ar: "الموسوعة الفقهية", en: "al-Mawsu'a al-Fiqhiyya (digital copy)" }
+summary:
+  ar: "موسوعة فقهية مرتبة على أبواب العبادات ثم بقية الأبواب، تبدأ بالطهارة ثم الصلاة والجنائز والزكاة والصيام والحج والعمرة. الملف المحفوظ نسخة رقمية من مكتبة الشاملة؛ وصفحة عنوانها تنسبها إلى موقع الدرر السنية بإشراف علوي بن عبد القادر السقاف في ثلاثة أجزاء، وهذا لا يطابق الموسوعة الفقهية الكويتية المعروفة {cite:fiqh-mawsua-foulabook-copy p.1} {cite:fiqh-mawsua-foulabook-copy p.2}."
+  en: "A fiqh encyclopedia arranged by topic, starting with the worship chapters (purity, prayer, funerals, zakat, fasting, pilgrimage). The digital copy's title page credits the Dorar.net compilation under Alawi al-Saqqaf in three volumes, which does not match the Kuwaiti encyclopedia by name or size."
+language: language/arabic
+wings: [ideas]
+themes: [development-of-law-theology-institutions]
+periods: [period/contemporary-era]
+regions: [global]
+relations:
+  - { type: mentions, target: concept/tahara }
+  - { type: mentions, target: concept/fiqh }
+provenance:
+  layer: own-research
+  source: "Shamela digital copy (fiqh-mawsua-foulabook), scan pages 1-4 read from OCR; introduction and first entry only"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-exp-batch-1
+sources: [source/fiqh-mawsua-foulabook-copy]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; authors not given in the copy and left empty; edition not identified" }

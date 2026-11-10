@@ -1,0 +1,28 @@
+id: person/muhammad-ibn-nasr-ibn-bassam
+class: person
+label:
+  ar: محمد بن نصر بن بسام
+  en: Muhammad ibn Nasr ibn Bassam
+summary:
+  ar: أبو جعفر بن بسام، كان في غاية السرو والمروءة مترفاً حسن الزي مشغوفاً بالبناء، وصف القمي مجلسه في قبة طليت بالطين الأرمني وسطها كانون زرافين في عشرة أذرع مليء جمر الغضى يدفع جام ماء الورد بالكافور، ومائدته الجزع الملوّن بالذهب وفيها ستبوسق يفور وجامات لوزينج وإجانة صينية بألف تفاحة شامي، وهو أبو الهجاء علي بن محمد {cite:muruj-al-dhahab p. 658-660}.
+  en: Abu Ja'far the munificent — his Armenian-plastered dome, giraffe-necked brazier and thousand-apple ewers; even his splendor was lampooned by his own son {cite:muruj-al-dhahab p. 658-660}.
+gender: male
+wings:
+- people
+provenance:
+  layer: own-research
+  source: المسعودي، مروج الذهب وأهل المعاجن
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch27
+sources:
+- source/muruj-al-dhahab
+status:
+  review: published
+  completeness: 3
+died: { edtf: "920~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad)" }
+relations:
+- type: lived_in
+  target: place/baghdad
+  sources:
+  - source/muruj-al-dhahab

@@ -1,0 +1,34 @@
+id: person/ahmad-mashhadi
+class: person
+label:
+  ar: "أحمد مشهدي"
+  en: "Ahmad Mashhadi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد مشهدي، الخطاط الصفوي وأستاذ المدرسة؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad Mashhadi, the Safavid calligrapher; his entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1578", precision: year, status: tradition, derived: true }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q5913033
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

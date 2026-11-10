@@ -1,0 +1,35 @@
+id: place/netherlands
+class: place
+kind: region
+label:
+  ar: هولندا
+  en: Netherlands
+summary:
+  ar: منطقة في مملكة هولندا.
+  en: One of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean.
+wings:
+- place
+regions:
+- andalus-europe
+coordinates:
+- 52.3167
+- 5.55
+coordinate_precision: approx
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  geonames: '2750405'
+sources:
+- source/wikidata
+- source/geonames-gazetteer
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-a
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q55 (labels, coordinates, description)

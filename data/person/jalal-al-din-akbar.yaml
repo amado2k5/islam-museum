@@ -1,0 +1,52 @@
+id: person/jalal-al-din-akbar
+class: person
+label:
+  ar: جلال الدين أكبر
+  en: Akbar the Great
+gender: male
+born:
+  edtf: '1542'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+died:
+  edtf: '1605'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+roles:
+- ruler
+summary:
+  ar: ثالث أباطرة المغول في الهند 1556–1605؛ وسّع الإمبراطورية واتبع سياسة الصلح الكلي وأسّس دين الإلهي
+    المختلط المثير للجدل.
+  en: Akbar the Great.
+wings:
+- people
+themes:
+- islam-and-hinduism
+- sects-and-schools
+- wars-and-campaigns
+regions:
+- south-asia
+relations:
+- { type: born_in, target: place/umarkot-fort, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: died_in, target: place/fatehpur-sikri, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: buried_in, target: place/akbar-s-tomb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+- { type: child_of, target: person/humayun-mughal }
+- { type: child_of, target: person/hamida-banu-begum }
+- { type: successor_of, target: person/humayun-mughal }
+sources:
+- source/wikidata
+- source/encyclopaedia-of-islam-2
+external_ids:
+  wikidata: Q8597
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 338-339, article 'AKBAR, ABU 'l-FATH DJALAL AL-DIN MUHAMMAD' (EI2 enrichment, batch ei2-b009 part 3cx); Wikidata Q8597 for the identifier"
+  generated_by: "Claude Code (claude-haiku-5-5)"
+status:
+  review: published
+  completeness: 2
+  generated_by: "Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16; EI2 account added in part 3cx"

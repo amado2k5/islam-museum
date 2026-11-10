@@ -1,0 +1,24 @@
+id: event/earthquake-istanbul-bayezid
+class: event
+kind: other
+label:
+  ar: "الزلزلة الكبرى بالقسطنطينية في عهد بايزيد الثاني"
+  en: "The great Constantinople earthquake under Bayezid II"
+summary:
+  ar: "ينقل الصلابي أن زلازل عظيمة وقعت بالقسطنطينية في زمن بايزيد الثاني فأخربت ألفاً وسبعين بيتاً ومئة وتسعة جوامع وجانباً عظيماً من القصور وأسوار المدينة، وعطلت مجاري المياه، وصعد البحر إلى البر حتى تدفقت أمواجه فوق الأسوار، ولبثت تتجدد يومياً مدة خمسة وأربعين يوماً، فكلف السلطان بعد سكونها خمسة عشر ألفاً من العمال بإصلاح ما تهدم {cite:dawlat-uthmaniyya-salabi p. 174}."
+  en: "Al-Salabi records great earthquakes striking Constantinople in Bayezid II's time: 1,070 houses and 109 mosques ruined, a great part of the palaces and city walls, water channels choked, the sea rising over the walls in waves, the shocks recurring daily for forty-five days — after which the sultan set 15,000 workers to rebuild what had fallen {cite:dawlat-uthmaniyya-salabi p. 174}."
+wings: [time]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+relations:
+  - { type: occurred_at, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  model: "SWE-2 Medium"
+  run: lib-salabi-uthmani-batch-6
+status:
+  review: draft
+  completeness: 2

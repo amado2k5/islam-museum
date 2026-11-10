@@ -1,0 +1,17 @@
+id: person/ammar-ibn-sayf
+class: person
+label: { ar: "عمار بن سيف", en: "Ammar Ibn Sayf" }
+summary:
+  ar: "عمار بن سيف أوصى إليه سفيان الثوري في كتبه فمحاها وأحرقها {cite:fihrist-ibn-al-nadim p. 315}."
+  en: "Ammar ibn Sayf — who burned Sufyan's books per his will {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+provenance:
+  layer: own-research
+  source: "الفهرست لابن النديم (ط مكتبة الخانجي/الاسكندرية)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-fihrist-batch
+died: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "Executor of Sufyan al-Thawri's books; Kufan circle, flagged.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

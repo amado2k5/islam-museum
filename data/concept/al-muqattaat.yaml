@@ -1,0 +1,24 @@
+id: concept/al-muqattaat
+class: concept
+sensitivity: contested
+kind: term
+label: { ar: "الحروف المقطعة في أوائل السور", en: "Disjoined letters at the openings of surahs" }
+summary:
+  ar: "الحروف التي تبتدئ بها بعض السور. يعرض رشيد رضا في مطلع تفسير سورة الأعراف أن المختار عنده أن الحكمة من افتتاح هذه السور بها تنبيه السامع إلى ما سيأتي بعدها حتى لا يفوته شيء، وأنها كانت تُتلى على المشركين بمكة للدعوة. ويبين أن لكل سورة من هذا الضرب موضوعاً يتصل بإثبات الرسالة والكتاب، ويضرب مثلاً بسورة الروم التي أخبرت بغلبة الروم بعد غلبة الفرس. هذا اختيار رضا، وتنسب إليه هنا، ولم تُعرض بعد آراء غيره."
+  en: "The letters with which some surahs open. In Rashid Rida's commentary at the opening of Surat al-A'raf, his preferred view is that the purpose of opening these surahs with them is to alert the listener to what follows so that nothing escapes him, and that they were recited to the polytheists of Mecca as a call. He holds that each surah of this kind has a theme tied to proving the message and the Book, and gives Surat al-Rum as an example, which foretold the Romans' victory after an earlier Persian victory. This is Rida's own choice and is attributed to him here; the views of other scholars are not yet presented."
+wings: [ideas]
+themes: []
+periods: [period/prophetic-era]
+external_ids: { wikidata: "Q192951" }
+sources: [source/assabile-omar-abdelkafy, source/tafsir-manar-v08, source/burhan-dar-al-hadith-2006, source/tahdhib-tafsir-baghawi-tayba-2009, source/tafsir-tabari-shakir-v01]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الثامن، ص 261-263 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar v6-v8 batch 1"
+  enriched_by:
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-baqara-letters-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 205-220: the views on the disjoined letters, Rabi ibn Anas, the abjad report and the editor grade" }
+    - { generated_by: "Claude Code (claude-haiku-5-5)", model: claude-haiku-5-5, run: tabari-baqara-rayb-2026-11-04, source: "source/tafsir-tabari-shakir-v01 pp. 221-224: the rejection of the view that the letters mean bal, and the many-meanings argument" }
+    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/burhan-dar-al-hadith-2006 PDF pp. 117–119 (type 7); source/tahdhib-tafsir-baghawi-tayba-2009 PDF p. 11" }
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); Rida's preferred view only; the other classical views on the letters are still to be added from the tafsir and 'ulum al-Qur'an sources" }

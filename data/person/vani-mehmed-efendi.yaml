@@ -1,0 +1,29 @@
+id: person/vani-mehmed-efendi
+class: person
+label:
+  ar: "واني محمد أفندي"
+  en: "Vani Mehmed Efendi"
+roles: [scholar, preacher]
+gender: male
+summary:
+  ar: "بطاقة أولية لواني محمد أفندي، الواعظ والعالم العثماني الكبير في عهد محمد الرابع، توفي سنة ١٦٨٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Vani Mehmed Efendi, the major Ottoman preacher-scholar of Mehmed IV's reign, d. 1685; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; Sicill-i Osmani" }
+relations:
+  - { type: born_in, target: place/van, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83061)" }
+  - { type: died_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q40738)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q124432996
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0078
+status:
+  review: draft
+  completeness: 1

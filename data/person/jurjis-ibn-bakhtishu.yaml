@@ -1,0 +1,17 @@
+id: person/jurjis-ibn-bakhtishu
+class: person
+label: { ar: "جرجس بن بختيشوع", en: "Jurjis Ibn Bakhtishu" }
+summary:
+  ar: "جرجس أبو بختيشوع في صدر الدولة وكان فاضلا وله كتاب الكناش المعروف {cite:fihrist-ibn-al-nadim p. 412}."
+  en: "Jurjis ibn Bakhtishu — father of the Bakhtishu line, author of the famous Kunnash {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+died: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Uyun al-Anba fi Tabaqat al-Atibba" }
+relations:
+  - { type: lived_in, target: place/jundishapur, confidence: low, note: "Jurjis ibn Bakhtishu' of the Jundishapur medical family per the record's own summary.", sources: [source/fihrist-ibn-al-nadim] }
+provenance:
+  layer: own-research
+  source: "الفهرست لابن النديم (ط مكتبة الخانجي/الاسكندرية)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-fihrist-batch
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

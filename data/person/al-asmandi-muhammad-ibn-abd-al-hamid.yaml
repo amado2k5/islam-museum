@@ -1,0 +1,31 @@
+id: person/al-asmandi-muhammad-ibn-abd-al-hamid
+class: person
+label: { ar: "الأسمندي محمد بن عبد الحميد", en: "Al-Asmandi, Muhammad ibn Abd al-Hamid" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن عبد الحميد الأسمندي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1095", hijri: "0488", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1158", hijri: "0553", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم ترجمت له كتب التراجم، واختلفت المصادر في كنيته وأصوله."
+  en: "A scholar recorded in the biographical dictionaries. The sources differ on his kunya and origins."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص674"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch49
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

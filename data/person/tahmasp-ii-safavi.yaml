@@ -1,0 +1,32 @@
+id: person/tahmasp-ii-safavi
+class: person
+label:
+  ar: "طهماسب الثاني"
+  en: "Tahmasp II"
+names:
+  - { kind: full, lang: ar, value: "طهماسب بن سلطان حسين الصفوي" }
+roles: [sultan]
+gender: male
+summary:
+  ar: "بطاقة أولية لطهماسب الثاني، آخر شاهات الدولة الصفوية وابن سلطان حسين، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
+  en: "Draft card for Tahmasp II, last shah of the Safavid state and son of Sultan Husayn, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+born: { edtf: "1704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+died: { edtf: "1740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
+  - { type: died_in, target: place/sabzevar, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q765553)" }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q374516
+provenance:
+  layer: own-research
+  source: "Wikidata Q374516 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0007
+status:
+  review: draft
+  completeness: 1

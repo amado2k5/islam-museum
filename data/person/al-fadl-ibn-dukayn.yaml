@@ -1,0 +1,22 @@
+id: person/al-fadl-ibn-dukayn
+class: person
+label: { ar: "الفضل بن دكين", en: "al-Fadl ibn Dukayn" }
+summary:
+  ar: "أبو نعيم الفضل بن دكين مولى آل طلحة بن عبيد الله بالكوفة، من أهل الحديث، مات سنة تسع عشرة ومائتين {cite:muruj-al-dhahab p. 442}."
+  en: "The Kufan Abu Nu'aym — dead in 219 {cite:muruj-al-dhahab p. 442}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+born: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "834", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+relations:
+  - { type: lived_in, target: place/kufa, note: "The Kufan Abu Nu'aym, mawla of the family of Talha ibn Ubayd Allah at Kufa, a hadith man, d. 219.", sources: [source/muruj-al-dhahab], confidence: medium }

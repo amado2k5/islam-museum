@@ -1,0 +1,34 @@
+id: person/muhammad-ibn-ahmad-ibn-hafs
+class: person
+label:
+  ar: "محمد بن أحمد بن حفص"
+  en: "Muhammad ibn Ahmad ibn Hafs"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن أحمد بن حفص، المحدث في القرن الثالث الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Ahmad ibn Hafs, the third-century hadith scholar; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "0877", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q109256812
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

@@ -1,0 +1,23 @@
+id: event/battle-of-umm-diwaykarat-1899
+class: event
+kind: battle
+label: { ar: "معركة أم دبيكرات", en: "Battle of Umm Diwaykarat" }
+summary:
+  ar: "بطاقة أولية لمعركة أم دبيكرات سنة ١٨٩٩م، مقتل الخليفة عبد الله ونهاية الدولة المهدية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Umm Diwaykarat in 1899, the Khalifa's fall ending the Mahdist state; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [east-africa]
+date:
+  start: { edtf: "1899", precision: year, status: tradition, derived: true }
+  end: { edtf: "1899", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q476402
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

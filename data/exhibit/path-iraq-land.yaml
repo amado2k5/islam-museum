@@ -1,0 +1,78 @@
+id: exhibit/path-iraq-land
+class: exhibit
+kind: trail
+label:
+  ar: أرض العراق
+  en: The Land of Iraq
+summary:
+  ar: 'مسار في العراق: الكوفة والبصرة مدينتا الجند والنحو، وبغداد الخلافة، وكربلاء والنجف، وسامراء.'
+  en: A trail through Iraq.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الكوفة
+    en: Kufa
+  body:
+    ar: عاصمة علي ومدرسة الفقه الأولى.
+    en: عاصمة علي ومدرسة الفقه الأولى.
+  features:
+  - place/kufa
+  - person/ali-ibn-abi-talib
+  - person/abu-hanifa
+- title:
+    ar: البصرة
+    en: Basra
+  body:
+    ar: 'مدينة النحو والزهد: الحسن البصري.'
+    en: 'مدينة النحو والزهد: الحسن البصري.'
+  features:
+  - place/basra
+  - person/al-hasan-al-basri
+  - group/mutazila
+- title:
+    ar: بغداد
+    en: Baghdad
+  body:
+    ar: 'مدينة السلام: المنصور يبني 762.'
+    en: 'مدينة السلام: المنصور يبني 762.'
+  features:
+  - place/baghdad
+  - polity/abbasid-caliphate
+- title:
+    ar: العتبات
+    en: The shrines
+  body:
+    ar: كربلاء للحسين والنجف لعلي.
+    en: كربلاء للحسين والنجف لعلي.
+  features:
+  - place/karbala
+  - place/najaf
+  - person/husayn-ibn-ali
+- title:
+    ar: سامراء
+    en: Samarra
+  body:
+    ar: 'الملوية تدور: نصف قرن من عاصمة الخلافة.'
+    en: 'الملوية تدور: نصف قرن من عاصمة الخلافة.'
+  features:
+  - place/samarra
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

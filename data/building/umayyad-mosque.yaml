@@ -1,0 +1,43 @@
+id: building/umayyad-mosque
+education:
+  did_you_know:
+    ar: "شرع الوليد بن عبد الملك في بناء الجامع الأموي بدمشق سنة ٨٧هـ وتكامل سنة ٩٦هـ؛ ويذكر ابن فضل الله أن باب الساعات سُمي لساعة نحاسية كانت تُعلم بها كل ساعة."
+    en: "Al-Walid ibn Abd al-Malik began Damascus's Umayyad Mosque in 87 AH, completed in 96; Ibn Fadl Allah says its 'Gate of the Hours' took its name from a brass water-clock that marked each hour."
+    ur: "ولید بن عبدالملک نے دمشق کی اموی جامع مسجد کی بنیاد 87ھ میں رکھی اور 96ھ میں مکمل ہوئی؛ ابن فضل اللہ کہتا ہے اس کا «باب الساعات» ایک پیتل کی پانی گھڑی کے نام پر رکھا گیا۔"
+    sources: [source/salabi-umayyad-state-2020, source/umari-masalik-1924]
+class: building
+kind: mosque
+label:
+  ar: الجامع الأموي بدمشق
+  en: The Umayyad Mosque of Damascus
+built:
+  edtf: "0706~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "شرع الوليد بن عبد الملك في بنائه سنة 87هـ؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 367}؛ ويؤكده نقش تأسيسي في الجامع مسجل في قاموس النقوش الإسلامية {cite:tei-epigraphie 27}."
+  sources: [source/tarikh-khulafa-minhaj-1434, source/tei-epigraphie]
+summary:
+  ar: "شرع الوليد بن عبد الملك في بنائه سنة سبع وثمانين، وهو من أعظم ما بني في عهده؛ يذكر ابن أبي عبلة افتتح الوليد الهند والأندلس وبنى مسجد دمشق {cite:tarikh-khulafa-minhaj-1434 p. 367}. ويذكر الكتاب أن الوليد بنى الجامع الأموي في دمشق، وأنه حوّل الكنيسة التي كانت فيه بعد أن تفاوض مع النصارى، وأنه أنفق فيه أموالاً جليلة، وأن البناء تكامل سنة 96هـ. {cite:salabi-umayyad-state-2020 p.131-132} وعند ابن فضل الله العمري أن باب الساعات سُمي لأنه عُمل هناك بيكار الساعات يُعلم بها كل ساعة تمضي، عليها عصافير من نحاس وحية من نحاس وغراب من نحاس فإذا تمت الساعة خرجت الحية وصفرت العصافير وصاح الغراب وسقطت حصاة في الطست؛ وكان في الجامع قبل حريقه طلسمات معلقة في السقف لسائر الحشرات والصنونات والفأر والحيات والعقارب والعنكبوت فلم يكن يوجد فيه منها شيء حتى احترقت في الحريق فوُجدت {cite:umari-masalik-1924 p. 197-198}."
+  en: "Begun by al-Walid ibn Abd al-Malik in year 87 — among the greatest works of his reign; Ibn Abi Abla names it beside the conquests of India and al-Andalus {cite:tarikh-khulafa-minhaj-1434 p. 367}."
+wings: [objects]
+relations:
+  - { type: located_in, target: place/damascus }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 367"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-10
+  extensions:
+    - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b65", source: "Actual King/Dizer/Cam sundial accounts; original building fields/prose/attribution preserved, construction dates not conflated." }
+inventions:
+  - invention: invention/shatir-polar-sundial
+    relation: site-of
+    sources: [source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer]
+external_ids:
+  archnet: "31"
+  wikidata: Q183562
+  tei: "27,1271,1401"
+sources: [source/tarikh-khulafa-minhaj-1434, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020, source/umari-masalik-1924, source/king-ibn-shatir-bea, source/tdv-ibn-shatir-dizer, source/tdv-gunes-saati-cam, source/tei-epigraphie, source/archnet]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

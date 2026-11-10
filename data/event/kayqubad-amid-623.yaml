@@ -1,0 +1,26 @@
+id: event/kayqubad-amid-623
+class: event
+kind: war
+label: { ar: "الحرب بين كيقباذ وصاحب آمد", en: "War between Kayqubad and the lord of Amid" }
+date:
+  start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
+summary:
+  ar: "جرت الحرب بين علاء الدين كيقباذ صاحب الروم وبين صاحب آمد الأرتقي {cite:kamil-ibn-al-athir p. 465}."
+  en: "War ran between Kayqubad I of Rum and the Artuqid lord of Amid {cite:kamil-ibn-al-athir p. 465}."
+wings: [time]
+sides:
+  - label: { ar: "المسلمون وخصومهم" }
+  - label: { ar: "الطرف الآخر" }
+relations:
+  - { type: occurred_at, target: place/amid, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kayqubad-i, role: "طرف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: "own-research"
+  source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-events-batch1
+sources: [source/kamil-ibn-al-athir]
+status:
+  review: published
+  completeness: 3

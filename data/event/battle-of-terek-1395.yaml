@@ -1,0 +1,23 @@
+id: event/battle-of-terek-1395
+class: event
+kind: battle
+label: { ar: "معركة نهر تيريك", en: "Battle of the Terek River" }
+summary:
+  ar: "بطاقة أولية لمعركة نهر تيريك سنة ١٣٩٥م، هزيمة تيمور الثانية لتوقتمش خان في القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Terek River in 1395, Timur's second defeat of Tokhtamysh in the Caucasus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1395", precision: year, status: tradition, derived: true }
+  end: { edtf: "1395", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-ibn-khaldun-ibar]
+external_ids:
+  wikidata: Q2508958
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Timurid histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

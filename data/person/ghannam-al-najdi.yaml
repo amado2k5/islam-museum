@@ -1,0 +1,29 @@
+id: person/ghannam-al-najdi
+class: person
+label:
+  ar: "غنام النجدي"
+  en: "Ghannam al-Najdi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لغنام النجدي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ghannam al-Najdi; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/colonial-era]
+born: { edtf: "1790~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bishr (Tarikh Najd)" }
+died: { edtf: "1840~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Bishr (Tarikh Najd)" }
+relations:
+  - { type: buried_in, target: place/the-cemetery-of-dahdah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q124768890
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

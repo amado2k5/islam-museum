@@ -1,0 +1,46 @@
+id: person/zheng-he
+class: person
+label:
+  ar: جنغ خه
+  en: Zheng He
+gender: male
+born:
+  edtf: '1371'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+died:
+  edtf: '1433'
+  calendar: gregorian
+  precision: year
+  sources:
+  - source/wikidata
+roles:
+- explorer
+summary:
+  ar: أميرال مسلم صيني قاد أساطيل الكنوز السبع (1405–1433) إلى شرق أفريقيا والجزيرة العربية؛ من أعظم البحارة
+    في التاريخ.
+  en: Zheng He.
+wings:
+- people
+themes:
+- travel
+- trade-and-finance
+regions:
+- southeast-asia
+- east-africa
+- arabia
+relations:
+  - { type: born_in, target: place/kunming, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182852)" }
+  - { type: died_in, target: place/nanjing, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16666)" }
+  - { type: lived_in, target: place/ming-dynasty, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q9903)" }
+  - { type: lived_in, target: place/southeast-asia, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q11708)" }
+sources:
+- source/wikidata
+external_ids:
+  wikidata: Q7333
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), questions lane; via Wikidata, 2026-10-16

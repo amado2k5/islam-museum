@@ -1,0 +1,29 @@
+id: person/said-hassan-sammour
+class: person
+label:
+  ar: "سعيد حسن سمور"
+  en: "Sa'id Hassan Sammour"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسعيد حسن سمور؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sa'id Hassan Sammour; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/contemporary-era]
+born: { edtf: "1953", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+relations:
+  - { type: born_in, target: place/tulkarm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q985531)" }
+  - { type: died_in, target: place/amman, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3805)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q108762089
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

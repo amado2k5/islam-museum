@@ -1,0 +1,21 @@
+id: place/unguja
+class: place
+kind: site
+label: { ar: "جزيرة أنغوجا", en: "Unguja", ur: "انگوجا" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Site (Wikidata Q7332301)."
+wings: [place]
+regions: [east-africa]
+coordinates: [-6.1341666666667, 39.316388888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7332301" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7332301 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

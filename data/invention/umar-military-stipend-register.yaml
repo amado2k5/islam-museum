@@ -1,0 +1,71 @@
+id: invention/umar-military-stipend-register
+class: invention
+label: { ar: "ديوان العطاء العسكري في عهد عمر", en: "Umar's military stipend register", ur: "عمر کے دور میں فوجی عطا کا رجسٹر" }
+names:
+  - { kind: alternate, lang: ar, value: "تدوين أهل العطاء" }
+  - { kind: alternate, lang: en, value: "Early diwan stipend organization" }
+summary:
+  ar: "تنظيم أسماء المستحقين والعطاء المتكرر في إدارة عمر، مع سوابق فارسية وبيزنطية واختلاف في التوزيع والتاريخ؛ لا اختراع كل إدارة أو معاش {cite:tdv-divan-duri early-Rashidun}."
+  en: "Organizing recipients and recurring grants under Umar, with older Persian/Byzantine administration and disputed distribution/dating, not invention of every office or pension {cite:tdv-divan-duri early-Rashidun}."
+  ur: "عمر کی انتظامیہ میں مستحقین اور بار بار عطا کی ترتیب، پہلے کے فارسی و بازنطینی نظم اور تقسیم و تاریخ کے اختلاف سمیت؛ ہر دفتر یا پنشن کی ایجاد نہیں {cite:tdv-divan-duri early-Rashidun}۔"
+domain: institutions-systems
+kind: institution
+disciplines: [history]
+wings: [ideas]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+era:
+  origins: first-century
+  first_attested:
+    edtf: "0636/0641"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Duri reports15AH/636 but prefers20AH/641on his authorities. Source-supplied competing CE years, not new exact conversion/day; broad adoption horizon, not surviving original ledger date."
+    sources: [source/tdv-divan-duri]
+  status_today: transformed
+origin:
+  place: place/medina
+  context: { ar: "إدارة عمر وتوزيع العطاء، مع سجلات في الأمصار واستمرار دواوين خراج أقدم {cite:tdv-divan-duri early-Rashidun}.", en: "Umar's stipend administration, with garrison-town registers and continuation of older fiscal offices {cite:tdv-divan-duri early-Rashidun}.", ur: "عمر کی عطا کی انتظامیہ، امصار کے رجسٹر اور پہلے کے مالی دفاتر کے تسلسل سمیت {cite:tdv-divan-duri early-Rashidun}۔" }
+makers:
+  - { person: person/umar-ibn-al-khattab, role: commissioner, note: "Organizational adoption with consultation, scribes and administrators; not sole inventor of recordkeeping.", sources: [source/tdv-divan-duri, source/kitab-al-kharaj-salafiyya-1392] }
+attribution:
+  status: improvement
+  claim: { ar: "تنظيم عطاء دوري في سجل، لا إنشاء الكتابة أو البيروقراطية من العدم.", en: "Register-based recurring grants, not creation of writing or bureaucracy from nothing.", ur: "رجسٹر پر مبنی مسلسل عطا، تحریر یا بیوروکریسی کی عدم سے تخلیق نہیں۔" }
+  basis: { ar: "أخبار أبي يوسف المقروءة وعرض الدوري وبريتانيكا، مع فصل اختلاف الروايات {cite:kitab-al-kharaj-salafiyya-1392 printed45–51} {cite:tdv-divan-duri early-Rashidun} {cite:britannica-divan}.", en: "Actually read Abu Yusuf reports and Duri/Britannica accounts, preserving variants {cite:kitab-al-kharaj-salafiyya-1392 printed45–51} {cite:tdv-divan-duri early-Rashidun} {cite:britannica-divan}.", ur: "ابو یوسف کی پڑھی روایتیں اور دوری و بریٹانیکا کے بیانات، اختلافات محفوظ رکھتے ہوئے {cite:kitab-al-kharaj-salafiyya-1392 printed45–51} {cite:tdv-divan-duri early-Rashidun} {cite:britannica-divan}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "روايات التوزيع لا جدول واحد", en: "Distribution reports, not a single table", ur: "تقسیم کی روایتیں، واحد جدول نہیں" }
+      summary: { ar: "أبو يوسف يروي التسوية عن أبي بكر والتفضيل عن عمر، وأخباراً مختلفة في المقادير؛ تعترف حاشية الطبعة48 باختلاف روايتين {cite:kitab-al-kharaj-salafiyya-1392 printed45–50}.", en: "Abu Yusuf reports Abu Bakr's equality and Umar's preference, with differing amounts; the edition's printed48note acknowledges variant reports {cite:kitab-al-kharaj-salafiyya-1392 printed45–50}.", ur: "ابو یوسف ابوبکر کی مساوات اور عمر کی ترجیح، مختلف مقداروں کے ساتھ نقل کرتے ہیں؛ طبع کے صفحہ48کا حاشیہ روایتوں کا فرق تسلیم کرتا ہے {cite:kitab-al-kharaj-salafiyya-1392 printed45–50}۔" }
+      sources: [source/kitab-al-kharaj-salafiyya-1392]
+    - tradition: academic
+      stance: { ar: "مؤسسة ذات سوابق وحدود", en: "Institution with precedents and limits", ur: "سابقوں اور حدود والا ادارہ" }
+      summary: { ar: "الدوري يذكر العائلات وبعض الموالي والسوابق الإدارية؛ اختصار بريتانيكا يركز على المحاربين العرب الأحرار. لا نحول ذلك إلى ضمان تقاعد شامل {cite:tdv-divan-duri early-Rashidun} {cite:britannica-divan}.", en: "Duri includes families/some mawali and older offices; Britannica's summary emphasizes free Arab warriors. Neither becomes proof of universal retirement insurance {cite:tdv-divan-duri early-Rashidun} {cite:britannica-divan}.", ur: "دوری خاندان، بعض موالی اور پرانے دفاتر بتاتے ہیں؛ بریٹانیکا آزاد عرب جنگجوؤں پر زور دیتا ہے۔ کوئی بیان عالمی ضمانت تقاعد نہیں بنتا {cite:tdv-divan-duri early-Rashidun} {cite:britannica-divan}۔" }
+      sources: [source/tdv-divan-duri, source/britannica-divan]
+precursors:
+  - external: { ar: "الدوائر المالية الساسانية والبيزنطية والتوزيع السابق", en: "Sasanian/Byzantine fiscal offices and earlier distribution", ur: "ساسانی و بازنطینی مالی دفاتر اور پہلے کی تقسیم" }
+    note: "Older offices continued regionally; register institutionalization does not erase their precedent or Abu Bakr's earlier distribution."
+    sources: [source/tdv-divan-duri, source/kitab-al-kharaj-salafiyya-1392]
+dependents: []
+spread: []
+impact:
+  fields: [institutions-systems]
+  changed: { ar: "ربط أسماء ومقادير ودورية في التوزيع، دون أن يكون القيد إيصال دفع {cite:tdv-divan-duri early-Rashidun}.", en: "Linked recipients, amounts and recurrence; registration is not itself a payment receipt {cite:tdv-divan-duri early-Rashidun}.", ur: "نام، مقدار اور تکرار کو جوڑا؛ اندراج خود ادائیگی کی رسید نہیں {cite:tdv-divan-duri early-Rashidun}۔" }
+  history: { ar: "تطور لفظ الديوان إلى دوائر متعددة، لا مؤسسات كلها أسسها عمر {cite:britannica-divan} {cite:tdv-divan-duri}.", en: "Diwan developed into many bureaus, not all founded by Umar {cite:britannica-divan} {cite:tdv-divan-duri}.", ur: "دیوان کئی دفاتر میں بدلا، سب عمر کے قائم کردہ نہیں {cite:britannica-divan} {cite:tdv-divan-duri}۔" }
+  significance: 3
+  why: "Specific recurring stipend organization, with literary-source variants, older administrative precedents and distinctions between annual grants, monthly provisions and actual payment."
+described_in: [work/kitab-al-kharaj-abu-yusuf]
+examples: []
+sites: []
+concepts: [concept/ahl-al-diwan]
+today:
+  form: { ar: "موضوع لتاريخ الإدارة لا جدول رواتب صالح للتطبيق اليوم.", en: "Administrative history, not a salary schedule to apply today.", ur: "انتظامیہ کی تاریخ، آج نافذ کرنے کا تنخواہی جدول نہیں۔" }
+  descendants: { ar: "صلة لفظية ومؤسسية لا هوية مع كل معاش حديث.", en: "Terminological and institutional relationships, not identity with every modern pension.", ur: "لفظی و ادارہ جاتی تعلق، ہر جدید پنشن سے یکسانی نہیں۔" }
+media: { image: media/perf-558-dating-context, diagram: media/diagram-umar-stipend-register }
+kids:
+  ar: "كتابة اسم في قائمة وتحديد حصة وإثبات تسليمها أشياء مختلفة؛ استعمل بطاقات ورقية لفهم الفرق."
+  en: "Listing a name, assigning a share and proving delivery are different; use paper cards to explore the distinction."
+  ur: "نام لکھنا، حصہ مقرر کرنا اور پہنچنے کا ثبوت الگ ہیں؛ فرق سمجھنے کے لیے کاغذی کارڈ استعمال کریں۔"
+sources: [source/kitab-al-kharaj-salafiyya-1392, source/tdv-divan-duri, source/britannica-divan, source/britannica-umar-i, source/commons-perf-558-recto]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b89", source: "D-131; actual primary printed26–27/45–51, inspected46/48/49, TDV first article and Britannica. Reused actual PD receipt context, not stipend register or proof of particular payment. No original ledger/isnad authentication claimed." }

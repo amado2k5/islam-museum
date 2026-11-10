@@ -1,0 +1,16 @@
+id: place/rotterdam
+class: place
+kind: city
+label: { en: "Rotterdam", ar: "روتردام" }
+summary:
+  en: "City in South Holland, the Netherlands."
+  ar: "مدينة في هولندا."
+wings: [place]
+regions: [andalus-europe]
+coordinates: [51.92, 4.48]
+coordinate_precision: locality
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q34370", geonames: "2747891" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q34370 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: place/aytos
+class: place
+kind: city
+label: { ar: "أيتوس", en: "Aytos" }
+summary:
+  ar: "مدينة في جمهورية بلغاريا الشعبية."
+  en: "City in People's Republic of Bulgaria."
+wings: [place]
+regions: [anatolia-balkans]
+coordinates: [42.698961, 27.248972]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q275178" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q275178 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

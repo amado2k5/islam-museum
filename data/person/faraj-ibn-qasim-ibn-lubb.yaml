@@ -1,0 +1,37 @@
+id: person/faraj-ibn-qasim-ibn-lubb
+class: person
+label: { ar: "فرج بن قاسم بن لب", en: "Faraj ibn Qasim ibn Lubb" }
+names:
+  - { kind: full, lang: ar, value: "فرج بن قاسم بن لب الغرناطي الأندلسي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1310", hijri: "0710", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1380", hijri: "0782", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم غرناطي من علماء الأندلس في القرن الثامن الهجري."
+  en: "A scholar of Granada and of al-Andalus in the eighth century AH."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص506"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch56
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

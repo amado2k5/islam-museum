@@ -1,0 +1,31 @@
+id: person/yazid-ibn-rabi-a-ibn-mufarrigh
+class: person
+label: { ar: "يزيد بن ربيعة بن مفرغ", en: "Yazid ibn Rabi'a ibn Mufarrigh" }
+names:
+  - { kind: full, lang: ar, value: "يزيد بن ربيعة بن مفرغ الحميري" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+died: { edtf: "0688", hijri: "0069", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر من حمير، وله شعر في الأمويين، واختلف في نسبه أبيه."
+  en: "A poet of the Himyar tribe, whose poetry belongs to the Umayyad period. The sources differ on his father's name."
+wings: [people]
+themes: [literature]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص298"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch63
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Himyarite satirist in Ziyad's Iraq (regions: arabia).", sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: traveled_to, target: place/oman, confidence: low, note: "Exiled by Ziyad to Oman per the biographical tradition (regions: arabia).", sources: [source/mawsuat-a3lam-ulama-adaba] }

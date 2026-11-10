@@ -1,0 +1,30 @@
+---
+id: question/what-is-ikhlas
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+Sincerity (ikhlas) is purifying the intention for God without showing off. It is the condition for an act being accepted and its root. Surat al-Ikhlas is said to equal a third of the Qur'an in merit. {cite:wikidata}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 2)
+
+The Sheikh says that a deed without sincerity is like a traveller who fills his bag with sand: it weighs him down and does not benefit him {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:18:00}.
+
+The Sheikh says this teaching is taken from the Prophet's sayings, and he compares a deed without sincerity to a standing in prayer that brings nothing but hunger and thirst; the wording of the saying is not given here {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 00:18:30}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 4)
+
+The Sheikh says that sincerity and love of people's praise cannot be gathered in one heart, as water and fire cannot be gathered {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:33:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:33:30}.
+
+The Sheikh says that one sign of sincerity is that a person knows his own sincerity from within himself, and that only God can invalidate the sincerity of His servant {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:33:30} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep04 00:34:00}.
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al Fawaed lectures (episode 5)
+
+The Sheikh says that the deed must be for God, not so that people call its doer righteous {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:38:30}.
+
+## From Omar Abdelkafy's programme Wa Nafsin wa ma Sawwaha
+The Sheikh holds that sincerity is a private relation between the servant and his Lord, a station of the heart with three marks: the sincere one does not know he is sincere and so is not deluded; Satan does not see it and so cannot spoil it; and the angel who records good deeds does not see it to write it down; and Satan cannot break into those made sincere. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:00}
+He proposes a test of sincerity: whoever stood by a poor relative or an orphan until he reached high positions, and then grew angry because he did not grant his request, has discovered that his work was not purely for God. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:03:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:04:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:04:30} He mentions the hadith of the three with whom the Fire will first be kindled, the scholar, the generous man and the martyr, who acted so that it would be said of them. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:04:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:05:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:05:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:06:00}
+He calls for renewing one's intention in every act, criticises those who offer condolences or visit the sick to repay a favour rather than for God, and holds that the employee at work, the woman in her kitchen and the sleeper in his sleep can seek reward from God for it. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:06:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:06:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:00} He counts Sulayman's hoopoe an example of sincerity for its insistence on calling to God's oneness. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:00} He relates that [[person/malik-ibn-anas|Malik]], having finished [[work/muwatta-malik|al-Muwatta']] at the Commander of the Faithful's request, asked that it be placed on the roof of the Ka'ba for a year to see how sincere he had been in it, and not a letter was lost after rain and wind (needs_source: the story is the Sheikh's narration). {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:08:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep20 00:09:00}
+In another episode he quotes the scholars that acting for people's sake is shirk and leaving an act for people's sake is showing off, and that the sincere one is spared both; he holds that sincerity is to a deed what the soul is to the body. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:01:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:30} He gives the example of one who prays hurriedly at home and with composure in the mosque before people. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:02:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:03:00} He holds that sincerity enters into raising children, with stories of righteous men and women and the deeds of Khalid, Sa'd, al-Qa'qa' and Ikrima, and into forgiving one's wife, and that a difficult wife or a hot-tempered husband may be the other's way to Paradise. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:08:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:08:30} He ends with the story of a young man who guarded an orchard for a year and never tasted its grapes, out of trustworthiness. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:10:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep22 00:10:30} See also: [[concept/riya|showing off]].

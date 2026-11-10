@@ -1,0 +1,32 @@
+id: person/muhammad-al-ruhuni
+class: person
+label:
+  ar: "الرُّهوني"
+  en: "Al-Ruhuni"
+names:
+  - { value: "الرُّهوني", kind: full }
+died: { hijri: "1230", calendar: julian, precision: year, status: tradition, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], note: "Dates as given in the appendix: death 1230 AH; birth not given." }
+summary:
+  ar: "محمد بن أحمد بن يوسف الرهوني المغربي، فقيه مالكي ومتكلم، كان مرجع الفتوى في المغرب. من تصانيفه «حاشية على شرح الزرقاني على مختصر خليل» في الفقه، و«التحصين والمنعة ممن اعتقد أن السنة بدعة». {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1625}"
+  en: "Muhammad ibn Ahmad ibn Yusuf al-Ruhuni of Morocco, a Maliki jurist and theologian who was the reference for fatwas in Morocco. His works include a gloss on al-Zurqani's commentary on Khalil's Mukhtasar in law, and al-Tahsin wa-al-mana'a, against those who hold that the sunna is an innovation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1625}"
+gender: male
+roles: [jurist]
+wings: [people]
+relations:
+  - { type: lived_in, target: place/morocco, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 1625 من المسح"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch84
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]

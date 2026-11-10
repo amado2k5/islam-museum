@@ -1,0 +1,48 @@
+id: person/suri-ibn-husayn-ghuri
+class: person
+label:
+  ar: شوري بن حسين الغوري
+  en: Suri ibn al-Husayn al-Ghuri
+summary:
+  ar: "شوري بن حسين، ملك الغور؛ ملك بعد مقتل أخيه محمد بن حسين الذي مال إلى أرسلان في فتنته مع بهرام شاه فحبسه بهرام وقتله، وأجمع شوري الأخذ بثأر أخيه فسار إلى غزنة سنة 543هـ فانفض عنه عسكر غزنة إلى بهرام شاه فانهزم وأسره بهرام، ودخل غزنة في محرم سنة 544هـ وصلب شوري على باب غزنة، فقام أخوه علاء الدين الحسين بالثأر لهما."
+  en: "Suri ibn al-Husayn, king of Ghor; succeeding his brother Muhammad — whom Bahramshah of Ghazna imprisoned and killed for siding with Arslan — he swore vengeance and marched on Ghazna in 543 AH, but the Ghaznavid host deserted back to Bahramshah, he was routed and captured, and in Muharram 544 was crucified at Ghazna's gate — the blood-feud their brother Ala al-Din al-Husayn then took up."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1149"
+  hijri: "0544"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: صلب على باب غزنة في محرم سنة 544هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: ruler_of
+  target: polity/ghurid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/ala-al-din-husayn-ghuri
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: died_in
+  target: place/ghazna
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة الغورية، مقتل شوري بن حسين، ص1159 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-9
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

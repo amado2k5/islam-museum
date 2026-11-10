@@ -1,0 +1,23 @@
+id: event/ternate-portuguese-conflicts
+class: event
+kind: war
+label: { ar: "الصراع البرتغالي التيرناتي", en: "Ternatean–Portuguese conflicts" }
+summary:
+  ar: "بطاقة أولية للصراع التيرناتي البرتغالي، حروب سلطنة تيرناته ضد البرتغاليين في الملوك في القرن السادس عشر؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Ternatean–Portuguese conflicts, the Sultanate of Ternate's wars against the Portuguese in the Moluccas in the sixteenth century; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [southeast-asia]
+date:
+  start: { edtf: "1512", precision: year, status: tradition, derived: true }
+  end: { edtf: "1575", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q110032375
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

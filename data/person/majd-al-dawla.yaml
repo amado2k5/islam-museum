@@ -1,0 +1,20 @@
+id: person/majd-al-dawla
+class: person
+label: { ar: "مجد الدولة رستم بن فخر الدولة" }
+summary:
+  ar: "رستم بن فخر الدولة، أقيم في سلطنة الري وأعمالها لما مات أبوه سنة سبع وثمانين وهو ابن أربع سنين ولقبه القادر مجد الدولة {cite:tarikh-khulafa-minhaj-1434 p. 635}."
+  en: "Fakhr al-Dawla's four-year-old son, installed over Rayy on his father's death in 387 and titled Majd al-Dawla by al-Qadir {cite:tarikh-khulafa-minhaj-1434 p. 635}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+born: { edtf: "993", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1029", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+relations:
+  - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with الري per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-37
+sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

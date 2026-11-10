@@ -1,0 +1,23 @@
+id: event/battle-of-the-nek-1915
+class: event
+kind: battle
+label: { ar: "معركة ذا نك", en: "Battle of the Nek" }
+summary:
+  ar: "بطاقة أولية لمعركة ذا نك سنة ١٩١٥م، الهجوم الأسترالي على خط العثمانيين في غاليبولي؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of the Nek in 1915, the Australian charge on the Ottoman line at Gallipoli; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1915", precision: year, status: tradition, derived: true }
+  end: { edtf: "1915", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2450777
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

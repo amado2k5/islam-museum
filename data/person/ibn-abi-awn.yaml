@@ -1,0 +1,19 @@
+id: person/ibn-abi-awn
+class: person
+label: { ar: "إبراهيم بن محمد بن أبي عون" }
+summary:
+  ar: "من أتباع الشلمغاني؛ أُخذ معه فلما أُمر بصفعه مدّ يده إلى لحيته ورأسه فارتعدت يده فقبّل لحية الشلمغاني ورأسه، فصُلب معه في ذي القعدة سنة 322هـ وأُحرقا بالنار {cite:kamil-ibn-al-athir p. 218-219}."
+  en: "A follower of al-Shalmaghani; ordered to slap him he kissed his beard and head instead, and was crucified and burned with him in Dhu'l-Qa'da 322 {cite:kamil-ibn-al-athir p. 218-219}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Follower of al-Shalmaghani executed at Baghdad in 322 per the record's own summary.", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-7
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

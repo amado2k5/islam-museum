@@ -1,0 +1,23 @@
+id: person/ali-ibn-yaqtin
+class: person
+label: { ar: "علي بن يقطين", en: "'Ali ibn Yaqtin" }
+summary:
+  ar: "كان مع المهدي بماسبذان لما رأى رؤيا موته، فأتاه بأرغفة ولحم بارد ثم انتبهوا لبكائه في البهو وقد وقف عليه رجل يقول كأني بهذا القصر قد باد أهله، فما أتت على المهدي بعدها إلا عشرة أيام حتى توفي {cite:muruj-al-dhahab p. 312-313}."
+  en: "Present at Masabadhan when the dream-voice recited the ruin verses — ten days later al-Mahdi was dead {cite:muruj-al-dhahab p. 312-313}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch30
+born: { edtf: "742", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi / Tarikh Baghdad" }
+died: { edtf: "798", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi / Tarikh Baghdad" }
+relations:
+  - { type: lived_in, target: place/baghdad, note: "Of al-Mahdi's circle, present with him at Masabadhan; flagged.", sources: [source/muruj-al-dhahab], confidence: low }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

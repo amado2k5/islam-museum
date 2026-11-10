@@ -1,0 +1,17 @@
+id: passage/bukhari-4418
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4418"
+label: { ar: "البخاري 4418 — حديث كعب بن مالك في التخلف عن تبوك", en: "Bukhari 4418 — Ka'b ibn Malik's account of staying behind at Tabuk" }
+text: "لم أتخلف عن رسول الله في غزوة غزاها إلا في غزوة تبوك… والله ما اجتمعت عندي قبله راحلتان قط حتى جمعتهما في تلك الغزوة، ولم يكن رسول الله يريد غزوة إلا ورى بغيرها حتى كانت تلك الغزوة غزاها في حر شديد"
+summary:
+  ar: "في كتاب المغازي باب حديث كعب بن مالك؛ أطول حديث في الصحيح في بابه، يرويه كعب بلسانه: تخلفه عن تبوك دون عذر، ومصارحته النبي بالحق، وهجر الناس له وصاحبيه خمسين ليلة، وكتاب ملك غسان إليه، حتى إعلان توبتهم بعد صلاة الفجر. نصّ القصة الأول في كتب الحديث."
+relations:
+  - { type: mentions, target: person/kaab-ibn-malik, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/the-three-left-behind, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/expedition-to-tabuk, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abdullah-ibn-kaab-ibn-malik, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4418 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

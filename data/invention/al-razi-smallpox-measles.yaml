@@ -1,0 +1,71 @@
+id: invention/al-razi-smallpox-measles
+class: invention
+label: { ar: "المقارنة السريرية بين الجدري والحصبة عند الرازي", en: "Al-Razi's clinical comparison of smallpox and measles", ur: "رازی کا چیچک اور خسرے کا کلینیکی تقابل" }
+names:
+  - { value: "Kitab al-Judari wa-l-Hasba: comparative clinical description", kind: alternate, lang: en }
+summary:
+  ar: "رسالة تقارن الأعراض المشتركة والفروق ضمن طب الأخلاط؛ ليست اختراع التشخيص كله أو اللقاح {cite:razi-greenhill-smallpox-1848 pp.32–35}."
+  en: "Monograph comparing shared symptoms/differences within humoral medicine, not invention of all diagnosis or vaccination {cite:razi-greenhill-smallpox-1848 pp.32–35}."
+  ur: "اخلاطی طب کے اندر مشترک علامات اور فرق کا تقابلی رسالہ، پوری تشخیص یا ویکسین کی ایجاد نہیں {cite:razi-greenhill-smallpox-1848 pp.32–35}۔"
+domain: medicine-surgery
+kind: method
+disciplines: [medicine]
+wings: [ideas]
+regions: [levant-iraq, persia-central-asia]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX/09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad ninth/tenth-century author-activity context only. Greenhill3 explicitly says composition date unknown; not a precise invention, composition or surviving-copy date, and no fabricated Hijri."
+    sources: [source/britannica-al-razi, source/razi-greenhill-smallpox-1848]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context: { ar: "بغداد والري سياق السيرة؛ لا إثبات لموضع تأليف الرسالة {cite:britannica-al-razi biography}.", en: "Baghdad/Rayy are biographical context, not a verified treatise-composition location {cite:britannica-al-razi biography}.", ur: "بغداد و رے سوانحی سیاق ہیں، رسالے کی ثابت جگہ نہیں {cite:britannica-al-razi biography}۔" }
+makers:
+  - person: person/al-razi-abu-bakr
+    role: improver
+    sources: [source/razi-greenhill-smallpox-1848, source/britannica-al-razi]
+attribution:
+  status: improvement
+  claim: { ar: "وصف مقارن منظم في رسالة مستقلة؛ لا أول تشخيص تفريقي في كل التاريخ.", en: "Organized comparative description in a dedicated monograph, not the first differential diagnosis in all history.", ur: "مستقل رسالے میں منظم تقابلی بیان، تمام تاریخ کی پہلی امتیازی تشخیص نہیں۔" }
+  basis:
+    ar: "الفصل الثالث يميز تكرر أعراض وحدود المقارنة، مع تفسير أخلاطي قديم {cite:razi-greenhill-smallpox-1848 pp.34–35}."
+    en: "ChapterIII distinguishes relative symptoms/limits while retaining an old humoral explanation {cite:razi-greenhill-smallpox-1848 pp.34–35}."
+    ur: "باب سوم علامات کے نسبتی فرق و حدود بتاتا، مگر پرانی اخلاطی توجیہ برقرار ہے {cite:razi-greenhill-smallpox-1848 pp.34–35}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الإطار السني معلن والهوية متنازع عليها", en: "Declared Sunni frame; disputed identity", ur: "سنی سیاق معلن، شناخت مختلف فیہ" }
+      summary: { ar: "بريتانيكا تسميه مسلماً، لكن الإطار ليس شهادة مذهبه؛ عرض الخلاف واجب لا حكم من المتحف.", en: "Britannica calls him Muslim, but the frame is not personal-school proof; disagreement is displayed, not adjudicated.", ur: "بریٹانیکا مسلم کہتی ہے مگر سیاق ذاتی مسلک کا ثبوت نہیں؛ اختلاف دکھایا جاتا ہے، فیصلہ نہیں۔" }
+      sources: [source/britannica-al-razi, source/sep-abu-bakr-al-razi, source/tdv-razi-ebu-bekir]
+    - tradition: academic
+      stance: { ar: "حدود النص والأولوية", en: "Textual and priority limits", ur: "متن اور اولیت کی حدود" }
+      summary: { ar: "النص المقروء يثبت المقارنة لا أولوية مطلقة؛ آدمسون يناقش اختلاف الأدلة الدينية ومصادر الخصوم.", en: "The read text establishes comparison, not absolute priority; Adamson discusses conflicting religious evidence/hostile sources.", ur: "پڑھا متن تقابل ثابت کرتا، مطلق اولیت نہیں؛ ایڈمسن مذہبی شواہد و مخالف روایات کا اختلاف بتاتے ہیں۔" }
+      sources: [source/razi-greenhill-smallpox-1848, source/sep-abu-bakr-al-razi]
+precursors:
+  - external: { ar: "الطب الجالينوسي وكتابات سابقة يسميها الرازي", en: "Galenic medicine and earlier writing named by al-Razi", ur: "جالینوسی طب اور رازی کی مذکورہ سابق تحریر" }
+    note: "Author27–28 argues that earlier accounts were incomplete; his judgment is attributed, not proof that no earlier observer distinguished diseases."
+    sources: [source/razi-greenhill-smallpox-1848]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed: { ar: "تجميع أعراض ومقارنة نسبية ضمن رسالة متخصصة {cite:razi-greenhill-smallpox-1848 pp.23–28,34–35}.", en: "Assembled symptoms/relative comparison in a dedicated treatise {cite:razi-greenhill-smallpox-1848 pp.23–28,34–35}.", ur: "مخصوص رسالے میں علامات کا مجموعہ و نسبتی تقابل {cite:razi-greenhill-smallpox-1848 pp.23–28,34–35}۔" }
+  history: { ar: "نقل إلى لغات متعددة؛ لا سلسلة مثبتة إلى لقاحات العصر الحديث {cite:britannica-al-razi biography}.", en: "Translated into multiple languages; no proven chain to modern vaccines {cite:britannica-al-razi biography}.", ur: "متعدد زبانوں میں ترجمہ؛ جدید ویکسین تک ثابت سلسلہ نہیں {cite:britannica-al-razi biography}۔" }
+  significance: 4
+  why: "Actual primary comparison/translation images and scholarly biographies support a bounded, historically important method. Disputed identity visible; no all-diagnosis, virology or vaccine claim."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form: { ar: "شاهد تاريخي، لا دليل علاجي؛ الجدري مستأصل والحصبة باقية {cite:who-smallpox-overview eradication} {cite:who-measles-overview overview}.", en: "Historical witness, not treatment guide; smallpox eradicated, measles persists {cite:who-smallpox-overview eradication} {cite:who-measles-overview overview}.", ur: "تاریخی شہادت، علاج نامہ نہیں؛ چیچک ختم، خسرہ باقی {cite:who-smallpox-overview eradication} {cite:who-measles-overview overview}۔" }
+  descendants: { ar: "القيمة التعليمية في المقارنة ونقد المصدر، لا اعتماد طب الأخلاط.", en: "Educational value in comparison/source criticism, not endorsement of humoral medicine.", ur: "تعلیمی قدر تقابل و نقد ماخذ میں، اخلاطی طب کی توثیق نہیں۔" }
+media: { image: media/razi-greenhill-smallpox-title, diagram: media/diagram-razi-clinical-comparison }
+kids: { ar: "قارن الرازي مرضين يتشابهان، وكتب الفروق التي رآها. قراءة الطب القديم تعلمنا السؤال عن الدليل، لا تشخيص المرض في البيت.", en: "Al-Razi compared two illnesses that seemed alike and wrote down differences. Old medical books teach us to ask for evidence, not diagnose illness at home.", ur: "رازی نے ملتی جلتی دو بیماریوں کا تقابل اور فرق لکھا۔ پرانی طب سے ثبوت کا سوال سیکھتے ہیں، گھر میں بیماری کی تشخیص نہیں۔" }
+sources: [source/razi-greenhill-smallpox-1848, source/britannica-al-razi, source/tdv-razi-ebu-bekir, source/sep-abu-bakr-al-razi, source/wellcome-razi-greenhill-1848, source/who-smallpox-overview, source/who-measles-overview, source/assabile-tareq-al-suwaidan]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b37", source: "Actual selected translated primary including inspected23/34; Britannica/TDV/Stanford with disputed identity; verified PD1848 title image and bounded WHO context" }

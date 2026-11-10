@@ -1,0 +1,77 @@
+id: exhibit/path-second-fitna
+class: exhibit
+kind: trail
+label:
+  ar: الفتنة الثانية
+  en: The Second Fitna
+summary:
+  ar: 'مسار في حرب ابن الزبير: مكة خلافة ثانية عشر سنين، والحجاج يحاصر الكعبة مرتين، ومروان يستعيد الدولة
+    — الأموية تولد من جديد.'
+  en: A trail through Ibn al-Zubayr's war.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: ابن الزبير
+    en: Ibn al-Zubayr
+  body:
+    ar: 'عبد الله: خليفة الحرمين تسع سنين.'
+    en: 'عبد الله: خليفة الحرمين تسع سنين.'
+  features:
+  - person/abdullah-ibn-al-zubayr
+  - place/mecca
+- title:
+    ar: الحصار الأول
+    en: The first siege
+  body:
+    ar: 'يزيد يحاصر مكة 683: الكعبة تحرق.'
+    en: 'يزيد يحاصر مكة 683: الكعبة تحرق.'
+  features:
+  - event/siege-of-ibn-al-zubayr-64
+  - person/yazid-ibn-muawiya
+- title:
+    ar: مرج راهط
+    en: Marj Rahit
+  body:
+    ar: 'القيس واليمن يتقاتلون: دمشق تُحسم.'
+    en: 'القيس واليمن يتقاتلون: دمشق تُحسم.'
+  features:
+  - event/battle-of-marj-rahit
+  - place/damascus
+- title:
+    ar: الحجاج
+    en: Al-Hajjaj
+  body:
+    ar: 'ابن يوسف يحاصر الحرم: المنجنيق على البيت.'
+    en: 'ابن يوسف يحاصر الحرم: المنجنيق على البيت.'
+  features:
+  - person/al-hajjaj-ibn-yusuf
+  - event/siege-of-ibn-al-zubayr-72
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: 'ابن الزبير يُقتل 692: عبد الملك يوحّد.'
+    en: 'ابن الزبير يُقتل 692: عبد الملك يوحّد.'
+  features:
+  - person/abd-al-malik-ibn-marwan
+  - person/al-hajjaj-ibn-yusuf
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

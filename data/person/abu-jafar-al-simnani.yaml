@@ -1,0 +1,35 @@
+id: person/abu-jafar-al-simnani
+class: person
+label:
+  ar: "أبو جعفر السمناني"
+  en: "Abu Ja'far al-Simnani"
+roles: [qadi]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي جعفر السمناني، قاضي القرن الحادي عشر، توفي سنة ١٠٥٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Ja'far al-Simnani, the eleventh-century qadi, d. 1052; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12177921
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0065
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+born: { edtf: "972", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat; al-Dhahabi, Siyar" }
+died: { edtf: "1052", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat; al-Dhahabi, Siyar" }
+relations:
+  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

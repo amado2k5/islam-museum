@@ -1,0 +1,37 @@
+id: person/marthad-ibn-abd-allah-al-yazani
+class: person
+label: { ar: "مرثد بن عبد الله اليزني" }
+names:
+  - { kind: full, lang: ar, value: "مرثد بن عبد الله اليزني أبو الخير" }
+gender: male
+roles: [jurist, judge]
+traditions: [sunni]
+summary:
+  ar: "قاضي الإسكندرية، أبو الخير مرثد بن عبد الله اليزني؛ أخذ عنه أبو رجاء يزيد بن أبي حبيب، وانتقل إليه بكير بن عبد الله بن الأشج وعمرو بن الحارث {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [egypt-nile]
+died: { edtf: "709", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: lived_in, target: place/alexandria, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch126
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]

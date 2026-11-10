@@ -1,0 +1,21 @@
+id: person/ibn-rizam
+class: person
+label: { ar: "ابن رزام", en: "Ibn Rizam" }
+summary:
+  ar: "أبو عبد الله بن رزام صاحب الكتاب الذي رد فيه على الإسماعيلية وكشف مذاهبهم، وأورد ابن النديم كتابه بلفظه في مقالة الكلام على مذهب الإسماعيلية وقال وأنا برئ من العهدة في الصدق عنه والكذب فيه {cite:fihrist-ibn-al-nadim p. 264}."
+  en: "Ibn Rizam — whose exposé of the Ismailis the Fihrist quotes verbatim {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+died: { edtf: "950~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist" }
+relations:
+  - { type: lived_in, target: place/baghdad, confidence: low, note: "Anti-Ismaili polemicist in the Fihrist's Baghdad circle per the record's own summary.", sources: [source/fihrist-ibn-al-nadim] }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch20

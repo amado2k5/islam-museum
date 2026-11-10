@@ -1,0 +1,23 @@
+id: person/husayn-ibn-ali-sahib-fakhkh
+class: person
+label: { ar: "الحسين بن علي صاحب فخ", en: "al-Husayn ibn 'Ali, sahib Fakhkh" }
+summary:
+  ar: "الحسين بن علي بن الحسن بن الحسن بن علي بن أبي طالب، ظهر في أيام الهادي فقتل بفخ على ستة أميال من مكة يوم التروية {cite:muruj-al-dhahab p. 316}."
+  en: "The Hasanid whose rising in al-Hadi's days ended at Fakhkh beside Mecca {cite:muruj-al-dhahab p. 316}."
+gender: male
+wings: [people]
+born: { edtf: "745", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Fakhkh)" }
+died: { edtf: "786", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Fakhkh)" }
+relations:
+  - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+

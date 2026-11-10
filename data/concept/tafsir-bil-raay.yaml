@@ -1,0 +1,33 @@
+id: concept/tafsir-bil-raay
+class: concept
+kind: term
+label: { ar: "التفسير بالرأي", en: "Tafsir by opinion (bi'l-ra'y)" }
+issue:
+  ar: "متى يكون التفسير بالرأي مذموماً، ومتى يكون جائزاً؟"
+summary:
+  ar: "التفسير الذي يقوم على الرأي المجرد. ينقل محمد رشيد رضا عن ابن تيمية أن الخطأ فيه يأتي من جهتين: أن يُحمل القرآن على مذهب يعتقده المفسر فيصير المذهب أصلاً والقرآن فرعاً، وأن يُفسَّر بمجرد دلالة اللغة دون النظر إلى المتكلم به والمنزَّل عليه والمخاطَب به."
+  en: "Tafsir that rests on opinion alone. Rashid Rida, quoting Ibn Taymiyya, says error comes in two ways: reading the Qur'an into a doctrine the interpreter already holds, so that the doctrine becomes the root and the Qur'an its branch; and explaining it by Arabic usage alone, without regard to its speaker, its first recipient and its addressees."
+wings: [ideas]
+themes: []
+periods: [period/prophetic-era]
+perspectives:
+  - tradition: sunni
+    id: ibn-taymiyya-two-errors
+    stance:
+      ar: "خطآن: حمل القرآن على مذهب مسبق، والاقتصار على دلالة اللغة"
+    summary:
+      ar: "ينقل رضا عن ابن تيمية أن أكثر الخطأ في ما يُستنبط بالنظر يأتي من هذين الوجهين. ويعلّق رضا بنفسه بأن حمل القرآن على المذهب شر أنواع البدع، وأنه داخل في التفسير بالرأي المذموم في الحديث."
+    holders: [person/ibn-taymiyya]
+    evidence:
+      - ref: source/tafsir-manar-v01
+        note:
+          ar: "ص 14"
+    sources: [source/tafsir-manar-v01]
+sources: [source/tafsir-manar-v01]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الأول، ص 13-14 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-modern-muslim-writers manar-1-6 batch 1"
+status: { review: draft, completeness: 1, generated_by: "library-expansion (Claude Haiku 5.5); from Rida's quotation of Ibn Taymiyya; the fuller treatment in the classical books is still to be added" }

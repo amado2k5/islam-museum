@@ -1,0 +1,63 @@
+---
+id: person/abu-hanifa
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+Al-Nu'man ibn Thabit al-Kufi, Abu Hanifa, a Sunni jurist and scholar from Iraq. His birth is given as 80 AH (699 CE) and his death as 150 AH (767 CE). He is the founder of the [[group/hanafi-madhhab|Hanafi school]]. {cite:mawsuat-a3lam-ulama-adaba} {cite:duha-islam}
+
+## Lineage and upbringing
+Ibn al-Nadim says that he was al-Nu'man ibn Thabit ibn Zawta, and that he was a silk-merchant in Kufa. Zawta was a client of the Banu Taym Allah ibn Tha'laba, and was from Kabul; it is said he was a client of the Banu Tha'laba. Ibn al-Nadim says that he was of the Successors and met a number of the Companions. {cite:fihrist-ibn-al-nadim p.284-285}
+
+## Death and works
+Ibn al-Nadim relates that he died in 150 AH at the age of seventy, and was buried in the cemetery of al-Khayzuran in the camp of al-Mahdi on the east side, and al-Hasan ibn Imara prayed over him. Attributed to him are the book "al-Fiqh al-Akbar", his letter to al-Busti, the book "al-Alim wa al-Muta'allim", and the book "Refutation of the Qadariyya". {cite:fihrist-ibn-al-nadim p.284-285}
+
+## On almsgiving
+Al-Baladhuri says that Abu Hanifa, together with Sufyan al-Thawri, al-Awza'i, Malik, Ibn Abi Dhi'b and Abu Yusuf, held that double the amount taken from a Muslim should be taken from a Taghlibi in his land, livestock and property. The people of Iraq, including the companions of Abu Hanifa, held that double the alms should be taken from the land of a child or an imbecile, but not from his livestock. This relates to [[event/treaty-with-taghlib|the peace with Taghlib]]. {cite:futuh-buldan-maarif-1407 p.252}
+
+## Notes for researchers
+- The page has two sources for the date of death, Ibn al-Nadim and the encyclopaedia; the other sources have not been checked. The two Gregorian dates are converted from the Hijri dates.
+
+## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 3)
+The Sheikh says that a former president, king or emperor is called "former" once he is gone, whereas scholars are not spoken of in that way; one does not say "the former Abu Hanifa", although Abu Hanifa died in the year 150 of the Hijra (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:53:30}.
+
+He holds that rulers die while the people of knowledge live on, and that though people try to kill their memory it stays in people's hearts; he gives Abu Hanifa and Abu Hurayra as examples of men whom people still remember and love {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep03 00:54:00}.
+
+## From Sheikh Omar Abdelkafy's lectures on Sharh Kitab al-Fawa'id
+
+The Sheikh narrates that Abu Hanifa declined the judgeship when al-Mansur asked him to take it. He told the caliph that if he was lying, the caliph would be appointing a liar as judge, and that if he was truthful about being unable to do the work, he asked to be excused (needs_source: narration with no source given in the lecture). {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep02 01:04:30}
+
+## From Sheikh Omar Abdelkafy's lecture series Al Dinu Al Qayem
+
+Sheikh Omar Abdelkafy places Abu Hanifa's youth before his jurisprudence became widely known, and dates it to around 80 AH (needs_source: the dates and his age are the sheikh's own) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:12:30}.
+
+He recounts a judgement in which two parties disputed a jar of gold found in a house that one of them had bought. Abu Hanifa ruled that the children of the two parties should be married to each other, with the jar as the dowry (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:54:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep03 00:55:30}. He recounts that Abu Hanifa refused to sell a cloth for four hundred when it was worth one hundred; he took the cloth back to his shop while the buyer followed him, thinking he was a thief (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep08 00:40:30}.
+
+He recounts a neighbour who drank wine and sang at night. When Abu Hanifa noticed the man was missing, he went at dawn to a police station to intercede for him, the man was released, repented, and prayed the noon prayer behind Abu Hanifa (needs_source: the story as the sheikh tells it) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:00} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:25:30} {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep09 00:26:00}.
+
+He recounts Abu Hanifa's principle in disagreement: our view is correct but may be wrong, and the view of others, which we judge to be wrong, we bear with (needs_source) {cite:assabile-omar-abdelkafy al-dinu-al-qayem/ep01 00:19:30}.
+
+## Reported supervision in brick reckoning
+Within Baghdad-construction narratives,Le Strange transmits a report placing Abu Hanifa in supervision connected with brick-quantity reckoning through measurement-based estimation rather than one-by-one counting,as detailed in [[invention/abu-hanifa-brick-stack-reckoning|the invention record]] {cite:lestrange-baghdad-1900 p.17}. In this record it is handled as a bounded professional role report,not as a standalone mathematical treatise or a monopolized technical invention claim.
+
+## Jurist and practical administration
+This addition does not displace Abu Hanifa's primary juristic standing; it shows that scholarly figures may appear in practical organizational episodes where state and construction intersect. It also does not erase conflict narratives preserved elsewhere for the period. The balanced reading is dual: major legal authority,plus a specific transmitted operational role.
+
+## Attribution limits in this file
+The file does not claim that Abu Hanifa invented counting or invented measurement. Attribution is limited to a reported practical improvement in a Baghdad works context: estimating large quantities through measured units. The source frame remains a historical reconstruction narrative,not a complete original workshop ledger. Therefore attribution is retained at evidence scale and left open to future enrichment.
+
+## In Tareq al-Suwaidan's programme "A Story and an Idea"
+[[person/tariq-al-suwaidan|Tareq al-Suwaidan]] gives the twenty-eighth episode of his programme [[work/kissa-wa-fikra-program|"A Story and an Idea"]] to Abu Hanifa, under the idea of "reason and religion". {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:02:00} What follows is his account; the anecdotes are introduced as reports.
+
+A man was spreading the claim that [[person/uthman-ibn-affan|Uthman ibn Affan]] was a Jew. Abu Hanifa came to ask for his daughter's hand on behalf of a noble, rich and generous man who knew the Qur'an by heart and prayed at night, but who was a Jew; when the man protested that a Muslim woman cannot marry a Jew, Abu Hanifa asked how, then, the Prophet had married two of his daughters to Uthman. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:00:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:01:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:01:30} He calls Abu Hanifa the imam of reason and analogy (qiyas) and head of the school of opinion; his name was al-Nu'man ibn Thabit, and he grew up in Kufa when it was full of sects and debates on creed, ideas and law. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:01:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:02:00}
+
+He would put a question and let his students argue it with evidence, sometimes for days, while he stayed silent; at the end he confirmed, corrected or added, judged the hadiths cited and said who had been right, so that a ruling reached this way was hard to fault. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:03:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:03:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:04:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:04:30} [[person/abu-yusuf-al-qadi|Abu Yusuf]] and [[person/zufar-ibn-al-hudhayl|Zufar]], he says, once debated from the dawn prayer to the call to the noon prayer, and Abu Hanifa then endorsed Abu Yusuf. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:05:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:05:30} He cites Abu Hanifa's own account of his method: the Book, then the Sunna, then the view of a Companion, never leaving the Companions' views for others'; and once a question reached Successors such as Ibrahim, al-Sha'bi, al-Hasan, Ibn Sirin and Sa'id ibn al-Musayyib, his own ijtihad as they had done theirs. Transmitted text comes first, he sums up, and reason works where the text is silent. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:06:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:07:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:07:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:08:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:09:30}
+
+He relates that [[person/muhammad-al-baqir|Muhammad al-Baqir]] once accused Abu Hanifa of changing his grandfather's religion by analogy; Abu Hanifa seated him on a chair, sat on the ground before him, and put three questions in each of which opinion alone would have reached the opposite of the revealed rule, saying he had followed the text, and al-Baqir rose and kissed his head. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:10:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:11:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:11:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:13:30} The lesson he draws is to check a rumour by asking the person or reading his views. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:10:00}
+
+He describes the school of tradition, centred in the Hijaz, which used opinion only when forced and did not rule on cases not yet arisen, and the school of opinion, centred in Iraq, which used ijtihad wherever no sound hadith existed and answered realistic cases in advance; both, he says, came from religious caution, one fearing to lie about the Prophet, the other fearing to declare things lawful or forbidden by opinion. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:18:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:18:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:19:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:19:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:20:00} Opinion did not begin with Abu Hanifa, he says: [[person/abdullah-ibn-masud|Abd Allah ibn Mas'ud]] gave rulings by his own opinion rather than risk a lie about the Prophet. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:20:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:20:30} Abu Hanifa widened analogy and excelled in istihsan, and al-Suwaidan adds that al-Shafi'i wrote in his *Risala* that analogy and ijtihad are two names for one thing. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:21:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:21:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:22:00} His closing lesson: with a clear method there is no conflict between transmitted text and sound reason; he ends with the saying he attributes to Abu Hanifa, that this is our opinion, the best we could reach, and whoever brings better is closer to the right. {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:23:00} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:24:30} {cite:assabile-tareq-al-suwaidan kissa-wa-fikra/ep28 00:25:00}
+
+## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 10)
+
+The Sheikh relates an anecdote that Abu Hanifa used to live near the Kaaba in Mecca. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:08:30} ⁦(needs_source: the recording wording is partly garbled)⁩

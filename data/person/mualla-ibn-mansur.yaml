@@ -1,0 +1,21 @@
+id: person/mualla-ibn-mansur
+class: person
+label: { ar: "معلّى بن منصور الرازي", en: "Mualla Ibn Mansur" }
+summary:
+  ar: "معلّى بن منصور الرازي ويكنى أبا يعلى روى عن أبي يوسف فقهه وأصوله وكتبه وتوفي ببغداد سنة إحدى عشرة ومائتين {cite:fihrist-ibn-al-nadim p. 287}."
+  en: "Mualla ibn Mansur — Abu Yusuf's transmitter {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+born: { edtf: "767~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "826", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/fihrist-ibn-al-nadim], confidence: low, note: "ar: 'معلّى بن منصور الرازي ويكنى أبا يعلى روى عن أبي يوسف فقهه وأصوله وكتبه وتوفي ببغداد سنة إحدى عشرة ومائتين" }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch22

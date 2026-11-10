@@ -1,0 +1,25 @@
+id: place/barqa
+class: place
+kind: region
+label: { ar: "برقة", en: "Barqa (Cyrenaica)" , ur: "برقہ"}
+summary:
+  ar: "برقة إقليم المغرب الأدنى بين مصر وإفريقية ومدينتها أنطابلس؛ صالحها عمرو بن العاص بعد فتح الإسكندرية على ثلاثة عشر ألف دينار جزية يبيعون فيها من أبنائهم من أحبّوا، وكان أهلها يبعثون بخراجهم إلى والي مصر من غير حاثّ فكانوا أخصب قوم بالمغرب ولم تدخلها فتنة؛ وبها قرية لواتة من البربر أهل العهد ومنها زويلة منقطع عقبة بن نافع الأول."
+  en: "Barqa (Cyrenaica), the nearer Maghreb between Egypt and Ifriqiya, its city Antabulus; Amr ibn al-As compounded with it after Alexandria's fall for a thirteen-thousand-dinar jizya in which they might sell whom they wished of their children; its people sent their kharaj to Egypt's governor unpressed — the most prosperous folk of the Maghreb, untouched by fitna — and among it the covenant-holding Berber village of Lawata, and Zawila whence Uqba ibn Nafi's first charge began."
+  ur: "مصر اور افریقیہ کے درمیان واقع خطہ؛ بلاذری اس کے باشندوں کی عمرو بن عاص کے ساتھ صلح اور مصر کے والی کو خراج بھیجنے کا ذکر کرتے ہیں۔ {cite:futuh-buldan-maarif-1407}"
+wings: [place]
+periods: [period/rashidun]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/sulh-barqa, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/uqba-zawila-appointment, sources: [source/futuh-buldan-maarif-1407] }
+coordinates: [32.4, 21.2]
+coordinate_precision: approx
+coordinate_note: "Approximate identified/modern location; flagged for gazetteer verification."
+sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut, source/geonames-gazetteer]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 314–316; source/mujam-al-buldan-yaqut vols 1-2 scan pp. 537-538"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
+  model: "claude-opus-5-5"
+  run: "lib-futuh-buldan-batch-20; ocr-harvest-2026-11-04"

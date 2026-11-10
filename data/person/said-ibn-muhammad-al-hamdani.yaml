@@ -1,0 +1,33 @@
+id: person/said-ibn-muhammad-al-hamdani
+class: person
+label:
+  ar: "سعيد بن محمد الهمداني"
+  en: "Sa'id ibn Muhammad al-Hamdani"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لسعيد بن محمد الهمداني، محدث بغدادي القرن الثاني عشر، توفي سنة ١٢٠٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sa'id ibn Muhammad al-Hamdani, the twelfth-century Baghdadi muhaddith, d. 1206; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q51840462
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0071
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+relations:
+  - { type: lived_in, target: place/hamadan, confidence: low, note: "Association inferred from the nisba 'الهمداني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

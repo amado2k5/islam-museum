@@ -148,6 +148,16 @@ sources:
     - url: https://download.geonames.org/export/dump/admin1CodesASCII.txt
       dest: raw/collections/geonames/admin1CodesASCII.txt
       size: 151583
+  ideo-diamond:
+    name: IDEO Diamond / AlKindi — General Diamond Catalog
+    url: https://opac.diamondrda.org
+    licence: unlicensed — facts-only pending LRM-CS terms (verified 2026-11-08)
+    layer: copyrighted-reference
+    method: Wikidata P8795/P11979 crosswalk + per-record OPAC citation
+      ({cite:ideo-diamond work/<id>} or agent/<id>); no bulk harvest until
+      LRM-CS agrees terms
+    status: enabled
+    limits: {}
   natural-earth:
     name: Natural Earth 10 m (physical, admin-0, shaded relief)
     url: https://www.naturalearthdata.com/downloads/
@@ -241,4 +251,977 @@ sources:
       dest: raw/openiti/corpus/OpenITI_data_2025-1-9.zip
       md5: 95cf19a9320fee6c37c4c26c9fa860b1
       size: 5936029637
+  archive-org-books:
+    name: Internet Archive open Arabic book scans (reference copies of prominent Sunni works)
+    url: https://archive.org
+    licence: per item; classical texts are public domain, modern editions and tahqiq apparatus stay copyrighted
+    layer: copyrighted-reference
+    method: advancedsearch + metadata API; only items served openly (never borrow-only or access-restricted); 1 request/second; resumable
+    status: enabled
+    limits:
+      pause_seconds: 1
+      max_items_per_book: 6
+      max_file_gib: 1.5
+      note: 'facts, chronology, names and citations only; never republish text; OCR text and PDFs stay in the harvest workspace, never in git'
+  encyclopaedia-of-islam-2:
+    name: "Encyclopaedia of Islam, 2nd edition (Leiden: Brill, 1954-2008, 13 volumes)"
+    url: https://archive.org/details/ei2-complete
+    licence: "Brill copyright; the archive.org item states no licence URL and the status is not verified as public domain. Read and rewritten in the museum's own words under docs/sources-policy.md, each fact cited by volume and PDF page"
+    layer: copyrighted-reference
+    method: download of the 15 PDFs (checksums checked against archive.org); Apple Vision OCR (en-US, accurate, 200 dpi, every page); entry split with scripts/harvest/encyclopaedia/split_entries.py; English prose written from the text, then Arabic and Urdu translations
+    limits:
+      quotation_max_words: 40
+      note: 'PDFs, OCR text, page images and entry splits stay in the harvest workspace, never in git'
+    status: enabled
+  assabile-omar-abdelkafy:
+    name: Assabile archive of Omar Abdelkafy's lectures (audio and video)
+    url: https://www.assabile.com/omar-abdelkafy
+    media_host: https://media.assabile.com/
+    licence: "no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; audio never republished"
+    layer: copyrighted-reference
+    method: browser discovery of series and episode pages (media links read from the page); scripts/harvest/audio/download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file); scripts/harvest/audio/transcribe.py (mlx-whisper, large-v3, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 25 Oct 2026; lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-tareq-al-suwaidan:
+    name: Assabile archive of Tareq al-Suwaidan's lectures (video)
+    url: https://www.assabile.com/tareq-al-suwaidan
+    media_host: https://media.assabile.com/
+    licence: "no licence statement found on the site (checked 25 Oct 2026); treated exactly like a book by the founder's decision of 25 Oct 2026: full details and full prose in the museum's own words, cited by series, episode and timestamp; video and audio never republished"
+    layer: copyrighted-reference
+    method: discovery of series and episode pages with scripts/harvest/audio/discover_series.py (media links read from the page); scripts/harvest/audio/download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file); audio extracted from MP4 with ffmpeg; scripts/harvest/audio/transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 25 Oct 2026; lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-amr-khaled:
+    name: Assabile archive of Amr Khaled's lessons
+    url: https://www.assabile.com/amr-khaled
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-muhammad-metwally-al-shaarawy:
+    name: Assabile archive of Muhammad Metwally Al-Shaarawy's lessons
+    url: https://www.assabile.com/muhammad-metwally-al-shaarawy
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mahmoud-al-masri:
+    name: Assabile archive of Mahmoud Al-Masri's lessons
+    url: https://www.assabile.com/mahmoud-al-masri
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abla-al-kahlawi:
+    name: Assabile archive of Abla Al-Kahlawi's lessons
+    url: https://www.assabile.com/abla-al-kahlawi
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mustafa-hosny:
+    name: Assabile archive of Mustafa Hosny's lessons
+    url: https://www.assabile.com/mustafa-hosny
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-muhammad-hussein-yacoub:
+    name: Assabile archive of Muhammad Hussein Yacoub's lessons
+    url: https://www.assabile.com/muhammad-hussein-yacoub
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abu-ishaq-alheweny:
+    name: Assabile archive of Abu Ishaq Alheweny's lessons
+    url: https://www.assabile.com/abu-ishaq-alheweny
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-yusuf-al-qaradawi:
+    name: Assabile archive of Yusuf Al-Qaradawi's lessons
+    url: https://www.assabile.com/yusuf-al-qaradawi
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-zaghloul-el-naggar:
+    name: Assabile archive of Zaghloul El-Naggar's lessons
+    url: https://www.assabile.com/zaghloul-el-naggar
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-wagdy-ghoneim:
+    name: Assabile archive of Wagdy Ghoneim's lessons
+    url: https://www.assabile.com/wagdy-ghoneim
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mosaad-anwar:
+    name: Assabile archive of Mosaad Anwar's lessons
+    url: https://www.assabile.com/mosaad-anwar
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-mustafa-al-adawi:
+    name: Assabile archive of Mustafa Al-Adawi's lessons
+    url: https://www.assabile.com/mustafa-al-adawi
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ragheb-el-sergani:
+    name: Assabile archive of Ragheb El-Sergani's lessons
+    url: https://www.assabile.com/ragheb-el-sergani
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abd-al-rahman-mansour:
+    name: Assabile archive of Abd Al-Rahman Mansour's lessons
+    url: https://www.assabile.com/abd-al-rahman-mansour
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ahmed-abdussalam:
+    name: Assabile archive of Ahmed Abdussalam's lessons
+    url: https://www.assabile.com/ahmed-abdussalam
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ahmad-farid:
+    name: Assabile archive of Ahmad Farid's lessons
+    url: https://www.assabile.com/ahmad-farid
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-sayed-elbshbishy:
+    name: Assabile archive of Sayed Elbshbeshy's lessons
+    url: https://www.assabile.com/sayed-elbshbishy
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-abdul-hamid-kishk:
+    name: Assabile archive of Abdul Hamid Kishk's lessons
+    url: https://www.assabile.com/abdul-hamid-kishk
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+  assabile-ateya-muhammad-salem:
+    name: Assabile archive of Ateya Muhammad Salem's lessons
+    url: https://www.assabile.com/ateya-muhammad-salem
+    media_host: https://media.assabile.com/
+    licence: no licence statement found on the site (checked 1 Nov 2026); treated exactly like a book by the founder's decision of 25 Oct 2026, extended to the archive's Egypt list on 1 Nov 2026; audio and video never republished
+    layer: copyrighted-reference
+    method: scripts/harvest/audio/list_series.py, discover_series.py and download.py (sequential, two-second pause, identified User-Agent, SHA-256 per file) driven by harvest_speakers.sh; audio extracted from MP4 with ffmpeg; transcribe_speakers.sh with transcribe_qwen.py (oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, local)
+    limits:
+      pause_seconds: 2
+      robots_txt: checked 1 Nov 2026; speaker pages, lesson pages and media host not disallowed
+      youtube: not downloaded (YouTube terms)
+    status: enabled
+
+  # ---- khutab-durus lane (plan 25): authorized site families, founder's instruction 31 Oct 2026
+  manarat-al-haramain:
+    name: منارة الحرمين — أرشيف خطب ودروس ومحاضرات الحرمين
+    url: https://manaratalharamain.gov.sa
+    licence: official Saudi Haramain presidency archive; khutab/durus/lectures with Hijri dates and official translations (ar/en/ur and more)
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt not retrievable by fetch 31 Oct 2026 — verify in browser before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  droos-al-haramain:
+    name: الدروس العلمية بالمسجد الحرام والمسجد النبوي
+    url: https://droos.prh.gov.sa
+    licence: official PRH lessons archive, Hijri-dated tables since 1406
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  islamway:
+    name: طريق الإسلام — مكتبة الدروس والخطب الصوتية
+    url: https://ar.islamway.net
+    licence: large Sunni audio archive (site states ~96,648 lessons for 794 scholars, dated figure); robots.txt checked 31 Oct 2026 — open except ad/pdfjs paths
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt 31 Oct 2026: open except /phpAdsNew/ /openx/ */poster$ */qr-code$ /bundles/viewers/pdfjs*"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  alukah:
+    name: شبكة الألوكة — قسم الخطب والبحوث
+    url: https://www.alukah.net
+    licence: written khutba transcripts and research, categorized
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  khutabaa:
+    name: ملتقى الخطباء
+    url: https://khutabaa.com
+    licence: categorized Friday khutbas with references
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  nida-al-islam:
+    name: نداء الإسلام
+    url: https://islamcall.com
+    licence: archived academic lessons and sermons from major mosques
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  halaltube:
+    name: Halal Tube
+    url: https://halaltube.com
+    licence: index of English-language Sunni talks by speaker
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "index site; linked talks hosted elsewhere"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  kalamullah:
+    name: Kalamullah
+    url: https://kalamullah.com
+    licence: MP3 lecture-series archive (English)
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  khutbah-com:
+    name: Khutbah.com
+    url: https://khutbah.com
+    licence: English Friday khutba scripts and outlines
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  yaqeen-institute:
+    name: Yaqeen Institute
+    url: https://yaqeeninstitute.org
+    licence: lectures, papers and khutba series (English)
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  binbaz:
+    name: موقع ابن باز الرسمي
+    url: https://binbaz.org.sa
+    licence: "official Ibn Baz archive: fatwas, duroos on classical texts"
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "official scholar archive; robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  binothaimin:
+    name: موقع ابن عثيمين الرسمي
+    url: https://binothaimin.net
+    licence: "official Ibn Uthaymin archive: duroos walking through classical textbooks"
+    layer: copyrighted-reference
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "official scholar archive; robots.txt to read before bulk access"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  ris-convention:
+    name: Reviving the Islamic Spirit convention archive
+    url: https://revivingtheislamicspirit.net
+    licence: annual Sunni convention recordings (metadata and links)
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "conference talks; recordings on official channels, linked not downloaded"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  mas-icna:
+    name: MAS-ICNA convention media
+    url: https://www.mas-icna.org
+    licence: annual convention panels and lectures
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "conference talks; recordings on official channels, linked not downloaded"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+  sound-vision:
+    name: Sound Vision / ICNA dawah archives
+    url: https://www.soundvision.com
+    licence: public talks and symposiums
+    layer: link-only
+    method: browser discovery and page reading (Chrome); downloads only through scripts/harvest/audio/download.py where robots and terms allow; transcription local per docs/agents/audio-video-harvest.md
+    limits:
+      pause_seconds: 2
+      robots_txt: "linked not downloaded"
+      note: 'museum text is own-words summary with cite anchors; nothing verbatim beyond 40-word quotes; audio, video and transcripts never enter git'
+    status: enabled
+
+  # ---- khutab-durus lane, second authorized batch (research, commentary, news; founder 31 Oct 2026)
+  ummatics:
+    name: The Ummatics Institute
+    url: https://ummatics.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'whitepapers and conference transcripts on political theology and statecraft'
+    status: enabled
+  tabah-foundation:
+    name: Tabah Foundation
+    url: https://tabahfoundation.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'Abu Dhabi Sunni think tank: monographs and whitepapers on bioethics, AI, fatwa methodology'
+    status: enabled
+  iiit:
+    name: IIIT
+    url: https://iiit.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'research papers, monographs and the American Journal of Islam and Society'
+    status: enabled
+  muslimmatters:
+    name: MuslimMatters
+    url: https://muslimmatters.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'Western Sunni web-magazine: essays, critique, reviews'
+    status: enabled
+  traversing-tradition:
+    name: Traversing Tradition
+    url: https://traversingtradition.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'intellectual and philosophical essays from a classical Sunni lens'
+    status: enabled
+  islam21c:
+    name: Islam21c
+    url: https://www.islam21c.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'UK Sunni commentary: theology, politics, community strategy'
+    status: enabled
+  muslim-skeptic:
+    name: The Muslim Skeptic
+    url: https://muslimskeptic.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'polemical essays and debates (Daniel Haqiqatjou); flagged polemical tone — describe and cite, never reproduce'
+    status: enabled
+  the-thinking-muslim:
+    name: The Thinking Muslim
+    url: https://thethinkingmuslim.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'geopolitical analysis and long-form interviews (Muhammad Jalal)'
+    status: enabled
+  kalam-research:
+    name: Kalam Research & Media
+    url: https://kalamresearch.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'Sunni kalam think tank: analytic papers on theology and philosophy'
+    status: enabled
+  tafsir-center:
+    name: Tafsir Center
+    url: https://tafsir.net
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: "journal papers and research on Qur'anic sciences"
+    status: enabled
+  nama-center:
+    name: Namaa Center
+    url: https://nama-center.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'sociological, ideological and theological research papers'
+    status: enabled
+  albayan-center:
+    name: Markaz Al-Bayan
+    url: https://albayan.co.uk
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'strategy and geopolitics whitepapers and columns'
+    status: enabled
+  dalail-center:
+    name: Markaz Dalail
+    url: https://dalail.org.sa
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'papers and manuals confronting atheism and shubuhat'
+    status: enabled
+  middle-east-eye:
+    name: Middle East Eye
+    url: https://www.middleeasteye.net
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'regional news with Muslim-intellectual op-eds'
+    status: enabled
+  new-arab:
+    name: The New Arab
+    url: https://www.newarab.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'regional news and opinion'
+    status: enabled
+  5pillars:
+    name: 5Pillars
+    url: https://5pillarsuk.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    layer: copyrighted-reference
+    method: browser discovery and page reading; facts and own-words summaries only
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'British Muslim news, investigations and op-eds'
+    status: enabled
+
+  # ---- khutab-durus lane, third authorized batch (conventions, research portals; founder 31 Oct 2026)
+  ristalks:
+    name: RIS Talks
+    url: https://ristalks.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'curated RIS keynotes and panels by theme'
+    status: enabled
+  ris-multimedia:
+    name: RIS Multimedia (YouTube)
+    url: https://youtube.com/@rismultimedia
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'official RIS video archive incl. Knowledge Retreat — YouTube: metadata and links only, never downloaded'
+    status: enabled
+  mica-archive:
+    name: Muslims in Canada Archives
+    url: https://muslimcanadianarchives.ca
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'convention artifacts, speeches, documentation'
+    status: enabled
+  isna:
+    name: ISNA Convention
+    url: https://isna.net
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'oldest major annual North American Muslim convention; media library'
+    status: enabled
+  icna-mas-baltimore:
+    name: ICNA-MAS Baltimore Convention
+    url: https://www.icna.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'annual Memorial-Day convention: dawah symposiums, lectures'
+    status: enabled
+  almaghrib:
+    name: Al-Maghrib Institute
+    url: https://www.almaghrib.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'weekend seminars and IlmFest conferences'
+    status: enabled
+  qalam-institute:
+    name: Qalam Institute
+    url: https://qalam.online
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'seminars and Seerah conferences'
+    status: enabled
+  gpu-london:
+    name: Global Peace and Unity (GPU)
+    url: https://gpu.events
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'UK flagship gathering at ExCeL London'
+    status: enabled
+  ramf-le-bourget:
+    name: RAMF Le Bourget
+    url: https://ramf-paris.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: link-only
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: "mainland Europe's largest Islamic gathering, Parc du Bourget"
+    status: enabled
+  cambridge-muslim-college:
+    name: Cambridge Muslim College
+    url: https://www.cambridgemuslimcollege.ac.uk
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'academic symposia: kalam, metaphysics, bioethics; lecture papers published'
+    status: enabled
+  tawasul-wcmc:
+    name: World Council of Muslim Communities (Tawasul)
+    url: https://www.tawasul.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'policy whitepapers and declarations for Muslim minorities'
+    status: enabled
+  forum-promoting-peace:
+    name: Forum for Promoting Peace in Muslim Societies
+    url: https://peacesms.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'international scholarly convention led by Abdallah bin Bayyah; communiqués and fiqh al-silm whitepapers'
+    status: enabled
+  iifa:
+    name: International Islamic Fiqh Academy
+    url: https://www.iifa-aifi.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    layer: copyrighted-reference
+    method: browser discovery and page reading; conference talks cited as pointers; papers read and rewritten with citations
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'apex legal body: official resolutions (Qararat), journal and multi-volume proceedings'
+    status: enabled
+  king-faisal-prize:
+    name: King Faisal Prize, official laureate pages
+    url: https://kingfaisalprize.org
+    licence: copyrighted (terms of service, read 7 Nov 2026); facts and own-words summaries only, no reproduction
+    layer: copyrighted-reference
+    method: browser page reading, one laureate page at a time; cite by page slug
+    limits:
+      pause_seconds: 2
+      robots_txt: read 7 Nov 2026; disallows /wp-admin/ only
+      note: 'the award body''s own record: one page per laureate (category, year, birth, citation, biography written in the award year, later updates and deaths); index pages per category'
+    status: enabled
+  ideo-diamond:
+    name: IDEO Diamond / AlKindi, the general Diamond catalogue (IDEO, Cairo; stewarded by LRM-CS)
+    url: https://opac.diamondrda.org
+    licence: no licence published for the catalogue data (verified 8 Nov 2026); open-data ethos stated by LRM-CS; facts-only with attribution until terms are confirmed in writing; never bulk-copied, never republished
+    layer: copyrighted-reference
+    method: Wikidata crosswalk (P8795 agents, P11979 works) plus per-record OPAC citation by numeric id; no bulk harvest until LRM-CS agrees terms
+    limits:
+      pause_seconds: 5
+      note: 'IFLA-LRM/RDA authority catalogue: 230,000+ works, 116,000+ agents shared by 11 libraries; citable for authorship, work identity, edition history and typed work relations (commentary, refutation, abridgement, sequel); never for a work''s contents'
+    status: enabled
+  archnet:
+    name: Archnet (Aga Khan Trust for Culture / MIT Aga Khan Documentation Center)
+    url: https://www.archnet.org
+    licence: CC BY-NC 4.0 per Terms of Use (archived copy read 8 Nov 2026); facts-only permanently — record text and images never republished
+    layer: nc
+    method: Wayback Machine snapshots and browser reads of site/authority/media records; no public data API found; live site rate-limits non-browser clients (HTTP 429, recorded 8 Nov 2026, not bypassed)
+    limits:
+      pause_seconds: 5
+      robots_txt: archived copy has no disallow rules, only a sitemap pointer
+      note: '~9,000 site records, ~6,400 authority names, 120k+ resources on Islamic architecture; cite {cite:archnet site/<id>} or authority/<id>'
+    status: enabled
+  tei-epigraphie:
+    name: Thesaurus d'Epigraphie Islamique (University of Liege / Fondation Max van Berchem)
+    url: https://www.epigraphie-islamique.uliege.be/Thesaurus/
+    licence: free of charge online since Oct 2011; no licence page published — facts-only by default, record text and images never republished
+    layer: copyrighted-reference
+    method: GET fiche pages (EpigraphyDisplay.aspx?id=<n>) and scripted ASP.NET postback search; fiche carries Hijri+CE dates, place, repository, material
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404) on the uliege.be base
+      note: '58,289 fiches, 49,884 photos of Arabic/Turkish/Persian inscriptions to AH 1000; legacy domain epigraphie-islamique.org is parked — uliege.be is canonical; cite {cite:tei-epigraphie <fiche-id>}'
+    status: enabled
+  nomisma:
+    name: Nomisma.org (American Numismatic Society / Oxford-linked numismatic LOD ontology)
+    url: https://nomisma.org
+    licence: CC-BY 3.0 stated on site (verified 9 Nov 2026); {cite:nomisma <concept-id>} is the attribution — partner-dataset records ingested through Nomisma carry their own licence statements and stay facts-only until checked per-record
+    layer: by
+    method: SPARQL endpoint + documented APIs + RDFa concept pages; nomisma.org/id/ stable URIs
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: 'ontology of numismatic concepts — coins, mints, issuing authorities, standards; ~1,300 years of Islamic numismatics; cite mint -> place, issuer -> person/polity, type/standard -> object kind coin; legend text and images never republished'
+    status: enabled
+  ans-mantis:
+    name: ANS MANTIS Collection Database (American Numismatic Society)
+    url: https://numismatics.org/search/
+    licence: data ODbL + images Public Domain Mark / No Copyright-US (per-record rightsStmt, verified 9 Nov 2026); {cite:ans-mantis <accession-id>} is the attribution — ODbL share-alike attaches to derivative databases, so facts-only citation; bulk structured ingestion needs its own licence review first
+    layer: by
+    method: documented REST APIs (getNuds, getRDF), Atom/RSS feeds, per-record .xml/.rdf/.ttl/.jsonld/.kml/.geojson serializations, Solr/Lucene queries; NUDS records carry nomisma.org authority/mint URIs
+    limits:
+      pause_seconds: 2
+      robots_txt: to be read before bulk access
+      note: '~98k coin objects total, ~60,672 in the Islamic department; cite object-level facts (denomination, mint, issuer, Hijri/CE date, weight, fabric) by accession id; catalogue prose, legend text and images never republished'
+    status: enabled
+  idai-gazetteer:
+    name: iDAI.gazetteer (German Archaeological Institute ancient-world place gazetteer)
+    url: https://gazetteer.dainst.org
+    licence: CC-BY 4.0 stated in site footer (verified 9 Nov 2026); {cite:idai-gazetteer <gazId>} is the attribution — gazetteer editorial text never republished
+    layer: by
+    method: unauthenticated JSON endpoints — search.json (full-text/fielded queries, facets, bbox), doc/<gazId>.json (full record), suggestions, children, geoSearch; canonical URIs https://gazetteer.dainst.org/place/<gazId>; records carry identifiers (zenon-systemnr, zenon-thesaurus, GND-ID) and owl:sameAs links to Pleiades/geonames/arachne
+    limits:
+      pause_seconds: 2
+      robots_txt: 'User-agent: * / Allow: / (read 9 Nov 2026)'
+      note: 'ancient-world place gazetteer — types, coordinates/polygons, ~25-language names incl. Arabic, parent/ancestor hierarchy; cite place-identity facts by gazId after per-record identity verification'
+    status: enabled
+  british-museum:
+    name: British Museum collection database
+    url: https://www.britishmuseum.org/collection
+    licence: CC BY-NC-SA 4.0 for collection data; facts-only permanently — record text and images never republished
+    layer: nc
+    method: collection object pages (britishmuseum.org/collection/object/<id>); live pages answer 403 Cloudflare challenge to non-browser clients (8 Nov 2026, recorded, not bypassed) — Wayback snapshots and browser reads until a machine channel is confirmed
+    limits:
+      pause_seconds: 5
+      robots_txt: to be read before bulk access
+      note: 'Islamic collections: ceramics, metalwork, manuscripts, archaeology; cite by object page id'
+    status: enabled
+  khalili-collections:
+    name: Khalili Collections (Nasser D. Khalili Islamic arts collections)
+    url: https://www.khalilicollections.org
+    licence: no licence or terms page found (checked 8 Nov 2026) — facts-only by default, record text never republished
+    layer: copyrighted-reference
+    method: server-rendered WordPress object pages under /collections/islamic-art/<id>-<slug>/ plus XML sitemap; no API
+    limits:
+      pause_seconds: 2
+      robots_txt: allows all with sitemap pointer
+      note: 'named specialist collection with print catalogues; metalwork, ceramics, manuscripts, arms, textiles; cite by object page id'
+    status: enabled
+  qatar-museums-collections:
+    name: Qatar Museums collections platform (Museum of Islamic Art, Doha)
+    url: https://collections.qm.org.qa
+    licence: qm.org.qa terms not fully verified at registration (8 Nov 2026) — facts-only, record text and images never republished
+    layer: copyrighted-reference
+    method: faceted server-rendered search (24 records/page, museum filter) and per-object pages /objects/<slug>; no documented public API — polite page reads only
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before bulk access
+      note: 'MIA Doha objects: ceramics, metalwork, glass, manuscripts, archaeology; cite {cite:qatar-museums-collections <object-slug>}'
+    status: enabled
+  vam-collection:
+    name: Victoria and Albert Museum Collections API v2
+    url: https://api.vam.ac.uk/v2/objects/search
+    licence: V&A-owned content free for non-commercial use per site terms; facts-only permanently — record text and images never republished
+    layer: nc
+    method: keyless JSON API (objects/search, records endpoint) returning systemNumber, accessionNumber, dates, maker, place, type, IIIF image ids; CSV export also documented
+    limits:
+      pause_seconds: 2
+      robots_txt: names AI crawlers only, no wildcard group; harvest UA not listed
+      note: 'V&A Islamic collection; cite {cite:vam-collection <systemNumber>}; developers.vam.ac.uk documents endpoints'
+    status: enabled
+  eamena:
+    name: EAMENA Database (Endangered Archaeology in the Middle East and North Africa)
+    url: https://database.eamena.org
+    licence: CC BY 4.0 per eamena.org/open-access-policy; access tiered — public mode withholds coordinates/zoom/condition data, research mode needs registration
+    layer: open
+    method: ARCHES 7 platform — public map/search, GeoJSON export endpoint (api/search/export_results), citation plugin to Zenodo EAMENA community; ~383k heritage-place records
+    limits:
+      pause_seconds: 3
+      robots_txt: check before bulk access
+      note: 'Oxford/Leicester/Durham + Getty/WMF; cite {cite:eamena <heritage-place-id>}; no coordinate claims from public tier; decision dec-20261108-222'
+    status: enabled
+  apd:
+    name: Arabic Papyrology Database (LMU Munich / ISAP)
+    url: https://www.apd.gwi.uni-muenchen.de/apd/
+    licence: non-commercial project, free access stated on project page; facts-only — edition text and document images never republished
+    layer: copyrighted-reference
+    method: GET-searchable JSP interface (asearch.jsp, collections.jsp, document pages); inventory numbers / moid anchors; legacy domain arabicpapyrology.org dead — LMU host canonical
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404) on the LMU host
+      note: '13,586 documents, 4,476 full texts, 7,015 typed — pre-modern Arabic documentary evidence for Fustat and early Islamic Egypt; Trismegistos partner; cite {cite:apd <document-id>}'
+    status: enabled
+  princeton-geniza:
+    name: Princeton Geniza Project
+    url: https://geniza.princeton.edu
+    licence: open access per project documentation; facts-only for edition text — document texts and images never republished
+    layer: copyrighted-reference
+    method: HTML site plus Zenodo metadata deposit (2025, v1.0.0) — machine-harvestable; stable Princeton document ids
+    limits:
+      pause_seconds: 3
+      robots_txt: allows all except /admin
+      note: '4,350+ transcribed Cairo Geniza documents — Mediterranean trade, Fustat daily life, Sicily route; cite {cite:princeton-geniza <document-id>}'
+    status: enabled
+  manar-al-athar:
+    name: Manar al-Athar photo archive (University of Oxford)
+    url: https://manar.arch.ox.ac.uk
+    licence: CC BY-NC-SA 2.0 UK per family catalogue; site states free use for research/teaching/publication with acknowledgement — facts-only permanently, images never ingested
+    layer: nc
+    method: HTML photo archive with geographic and advanced search; per-image records with bilingual ar/en labels; no API
+    limits:
+      pause_seconds: 3
+      robots_txt: none found on manar.arch.ox.ac.uk (legacy domains dead)
+      note: '~83,000 photographs of Islamic-period sites/buildings/art; captions and identifications only; cite {cite:manar-al-athar <record-id>}'
+    status: enabled
+  qdl:
+    name: Qatar Digital Library
+    url: https://www.qdl.qa
+    licence: free public access stated by project; facts-only — record text and page images never republished
+    layer: copyrighted-reference
+    method: Wayback Machine snapshots and browser reads; live site answers 403 Cloudflare to non-browser clients (8 Nov 2026, recorded, not bypassed); shelfmark-style document ids
+    limits:
+      pause_seconds: 5
+      robots_txt: challenged (403) — not retrievable
+      note: 'manuscripts, documents, oral histories with colophons and dated copies; cite {cite:qdl <document-id>}'
+    status: enabled
+  hmml:
+    name: HMML manuscript catalogue (Hill Museum & Manuscript Library)
+    url: https://hmml.org
+    licence: public catalogue; full content needs free registration — catalogue metadata only, no login-gated harvest; facts-only
+    layer: copyrighted-reference
+    method: HTML catalogue browse/search; stable record ids and shelfmark anchors; API unconfirmed
+    limits:
+      pause_seconds: 3
+      robots_txt: wildcard allows our UA; named AI crawlers disallowed; Content-Signal ai-train=no (citation use, not training)
+      note: '60,000+ manuscript records — dates, colophons, provenance; cite {cite:hmml <record-id>}'
+    status: enabled
+  mwnf-discover-islamic-art:
+    name: Discover Islamic Art (Museum With No Frontiers)
+    url: https://islamicart.museumwnf.org
+    licence: terms unconfirmed at registration (8 Nov 2026) — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: HTML object/monument database; polite page reads only, no API; no robots.txt found
+    limits:
+      pause_seconds: 3
+      robots_txt: none found (404)
+      note: 'curated Mediterranean/Islamicate object records overlapping Sicily material; cite by record id'
+    status: enabled
+  qantara-med:
+    name: Qantara — Mediterranean heritage catalogue
+    url: https://www.qantara-med.org
+    licence: legal-notice page exists; reuse terms unconfirmed — facts-only, record text never republished
+    layer: copyrighted-reference
+    method: multilingual site (ar/en/es/fr) with catalogue section and assisted search; canonical www host (root domain times out); polite page reads only
+    limits:
+      pause_seconds: 3
+      robots_txt: to be read before bulk access
+      note: 'object/monument records + materials-techniques notes across Mediterranean; cite by catalogue record'
+    status: enabled
+
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

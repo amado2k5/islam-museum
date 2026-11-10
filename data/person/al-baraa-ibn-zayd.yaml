@@ -1,0 +1,29 @@
+id: person/al-baraa-ibn-zayd
+class: person
+label:
+  ar: "البراء بن زيد"
+  en: "Al-Baraa' ibn Zayd"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لالبراء بن زيد؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Al-Baraa' ibn Zayd; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12184322
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib)" }
+died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib)" }
+relations:
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

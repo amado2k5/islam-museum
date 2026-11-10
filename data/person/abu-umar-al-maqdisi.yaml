@@ -1,0 +1,48 @@
+id: person/abu-umar-al-maqdisi
+class: person
+label: { ar: "أبو عمر المقدسي", en: "Abu Umar al-Maqdisi" }
+names:
+  - { value: "محمد بن أحمد بن محمد بن قدامة ابن مقدام الحنبلي القدوة الزاهد أخو الشيخ موفق الدين", kind: full }
+summary:
+  ar: "الشيخ أبو عمر محمد بن أحمد بن محمد بن قدامة المقدسي الجماعيلي ثم الدمشقي الصالحي ⁦(528–607هـ)⁩، الزاهد العابد شيخ أسرة المقادسة الحنابلة وأخو الموفق ابن قدامة. ولد بجمّاعيل من أرض نابلس، وهاجر به أبوه إلى دمشق سنة 551هـ لاستيلاء الفرنج على الأرض المقدسة، فنزلوا مسجد أبي صالح ثم الجبل، فعُرف موضعهم بالصالحية. سمع من أبيه ومن ابن هلال وغيرهما وبمصر من ابن بري، وتفقه وكتب بخطه كتباً كثيرة بغير أجرة منها «المغني» لأخيه، وبنى الدير والمدرسة بالجبل، وغزا مع صلاح الدين. يصفه ابن رجب ناقلاً عن الضياء وسبط ابن الجوزي بكثرة الصلاة والصيام والصدقة والهيبة وقضاء حوائج الناس، ويورد ما رُوي له من كرامات. توفي عشية الاثنين ثامن عشر ربيع الأول سنة 607هـ عن ثمانين سنة، وحُزر من حضر جنازته بعشرين ألفاً، ودفن بسفح قاسيون {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 52-61}{cite:shadharat-dhahab p. 35-38}."
+  en: "Shaykh Abu Umar Muhammad ibn Ahmad ibn Muhammad ibn Qudama al-Maqdisi al-Jamma'ili, later of Damascus and al-Salihiyya (528–607 AH), the ascetic head of the Hanbali Maqdisi family and brother of al-Muwaffaq Ibn Qudama. Born at Jamma'il in the land of Nablus, he was taken by his father to Damascus in 551 AH when the Franks had taken the Holy Land; the family lodged in the mosque of Abu Salih and then on the mountain, and their quarter became known as al-Salihiyya. He heard hadith from his father, Ibn Hilal and others, and in Egypt from Ibn Barri; he studied law, copied many books by hand without fee, among them his brother's al-Mughni, built the convent and the school on the mountain, and campaigned with Saladin. Ibn Rajab, quoting al-Diya' and Sibt ibn al-Jawzi, describes his constant prayer, fasting and alms, the awe he inspired and his care for others' needs, and reports the wonders told of him. He died on the eve of Monday 18 Rabi' I 607 at eighty; the crowd at his funeral was put at twenty thousand, and he was buried on the slope of Qasyun."
+gender: male
+wings: [people]
+roles: [scholar, khatib, preacher]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1134~"
+  hijri: "0528"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد بجماعيل سنة ثمان وعشرين وخمسمائة، كما شاهده الضياء بخط والده {cite:shadharat-dhahab p. 35}{cite:dhayl-tabaqat-hanabila-faqi-v2 p. 52}؛ التحويل مشتق."
+  sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+died:
+  edtf: "1210-09-09"
+  hijri: "0607-03-18"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي عشية الاثنين ثامن عشر ربيع الأول سنة سبع وستمائة عن ثمانين سنة ودفن بسفح قاسيون {cite:shadharat-dhahab p. 38}{cite:dhayl-tabaqat-hanabila-faqi-v2 p. 59-60}؛ التحويل مشتق بالحساب الجدولي (9 سبتمبر 1210م تقريباً)."
+  sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+relations:
+  - { type: sibling_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: child_of, target: person/ahmad-ibn-muhammad-ibn-qudama, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: born_in, target: place/jammail, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: lived_in, target: place/al-salihiyya, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: died_in, target: place/damascus, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+  - { type: student_of, target: person/ahmad-ibn-muhammad-ibn-qudama, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }
+themes: [scripture-and-its-sciences]
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن؛ الذيل على طبقات الحنابلة لابن رجب، الجزء الثاني (ط الفقي)، الترجمة 229، ص 52–61"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Claude Code (OCR-harvest worker F)"
+  model: "SWE-2 High; claude-opus-5-5"
+  run: lib-shadharat-batch-122, ocr-harvest-2026-11-04
+  dhayl_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: dhayl-tabaqat-hanabila-faqi-v2 pp. 52–61 (entry 229)"
+sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }

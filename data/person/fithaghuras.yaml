@@ -1,0 +1,22 @@
+id: person/fithaghuras
+class: person
+label: { ar: "فيثاغورس", en: "Pythagoras" }
+summary:
+  ar: "اشتهر عند المسعودي أن فيثاغورس كان يعلم علوماً من الغيب وضروباً من الوحي لصفاء نفسه وتجردها من أدران هذا العالم، وأن الأوائل من فلاسفة اليونانية لم يكونوا يدفعون الكهانات {cite:muruj-al-dhahab p. 483}."
+  en: "Famed in al-Mas'udi's survey as one who knew hidden sciences and kinds of revelation by the purity of his soul — while the early Greek philosophers did not deny divination outright {cite:muruj-al-dhahab p. 483}."
+gender: male
+wings: [people]
+born: { edtf: "-570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Classical Dictionary (Pythagoras)" }
+died: { edtf: "-495", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Classical Dictionary (Pythagoras)" }
+relations:
+  - { type: lived_in, target: place/greece, confidence: low, note: "Associated with اليونان per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch37
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

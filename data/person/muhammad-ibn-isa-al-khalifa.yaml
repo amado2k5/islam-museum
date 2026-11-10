@@ -1,0 +1,31 @@
+id: person/muhammad-ibn-isa-al-khalifa
+class: person
+label: { ar: "محمد بن عيسى آل خليفة", en: "Muhammad ibn Isa Al Khalifa" }
+names:
+  - { kind: full, lang: ar, value: "الأمير الشاعر الشيخ محمد بن عيسى بن علي بن خليفة آل خليفة" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+born: { edtf: "1876", hijri: "1293", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1964", hijri: "1384", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أمير وشاعر من أسرة آل خليفة في البحرين."
+  en: "A prince and poet of the Al Khalifa family of Bahrain."
+wings: [people]
+themes: [literature]
+periods: [period/contemporary-era]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص482"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch61
+relations:
+  - { type: lived_in, target: place/bahrayn, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

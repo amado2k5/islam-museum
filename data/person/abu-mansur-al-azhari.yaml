@@ -1,0 +1,47 @@
+id: person/abu-mansur-al-azhari
+class: person
+label:
+  ar: "أبو منصور الأزهري"
+  en: "Abu Mansur al-Azhari"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأبي منصور الأزهري، لغوي تهذيب اللغة الذي أسره القرامطة سنين؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abu Mansur al-Azhari, the lexicographer of Tahdhib al-Lugha who spent years captive to the Qarmatians; his entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/buyid-seljuk-fatimid-era]
+died:
+  edtf: "0980"
+  hijri: "0370"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives death at Herat in 370 AH (980)."
+sources:
+- source/al-aalam
+- source/encyclopaedia-of-islam-2
+external_ids:
+  wikidata: Q6820795
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: published, completeness: 2 }
+born:
+  edtf: "0895"
+  hijri: "0282"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  sources: [source/encyclopaedia-of-islam-2]
+  note: "EI2 gives birth at Herat in 282 AH (895)."
+relations:
+  - { type: born_in, target: place/harat, note: "Wikidata Q45313 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/harat, note: "Wikidata Q45313 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

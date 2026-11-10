@@ -1,0 +1,23 @@
+id: event/battle-of-tondibi-1591
+class: event
+kind: battle
+label: { ar: "معركة تونديبي", en: "Battle of Tondibi" }
+summary:
+  ar: "بطاقة أولية لمعركة تونديبي سنة ١٥٩١م، نصر المصارحة المغرب بالبنادق على جيوش السونغاي الذي أسقط الإمبراطورية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tondibi in 1591, the Moroccan musketeers' victory that toppled the Songhai empire; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [west-africa-sahel]
+date:
+  start: { edtf: "1591", precision: year, status: tradition, derived: true }
+  end: { edtf: "1591", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q589285
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Songhai histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

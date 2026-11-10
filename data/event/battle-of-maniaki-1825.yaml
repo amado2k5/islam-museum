@@ -1,0 +1,23 @@
+id: event/battle-of-maniaki-1825
+class: event
+kind: battle
+label: { ar: "معركة مانياكي", en: "Battle of Maniaki" }
+summary:
+  ar: "بطاقة أولية لمعركة مانياكي سنة ١٨٢٥م، فوز إبراهيم باشا على اليونانيين؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Maniaki in 1825, Ibrahim Pasha's victory over the Greeks; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1825", precision: year, status: tradition, derived: true }
+  end: { edtf: "1825", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3394852
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

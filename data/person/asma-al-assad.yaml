@@ -1,0 +1,38 @@
+id: person/asma-al-assad
+class: person
+label: { ar: "أسماء الأسد", en: "Asma al-Assad", ur: "اسماء الاسد" }
+names:
+  - { value: "أسماء فواز الأخرس", kind: full }
+  - { value: "Asma Fawaz Akhras", kind: full }
+  - { value: "Asma Fawaz al-Assad", kind: alternate }
+gender: female
+summary:
+  ar: "زوجة الرئيس السوري السابق بشار الأسد والسيدة الأولى لسوريا من زواجهما سنة 2000 حتى سقوط النظام في 8 ديسمبر 2024. وُلدت ونشأت في لندن لأبوين سوريين، وعملت في المصارف الاستثمارية قبل زواجها، ثم رأسَت الأمانة السورية للتنمية."
+  en: "Wife of former Syrian president Bashar al-Assad and first lady of Syria from their marriage in 2000 until the fall of the regime on 8 December 2024. Born and raised in London to Syrian parents, she worked in investment banking before her marriage and later headed the Syria Trust for Development."
+  ur: "سابق شامی صدر بشار الاسد کی اہلیہ اور 2000 میں اپنی شادی سے 8 دسمبر 2024 کو حکومت کے خاتمے تک شام کی خاتونِ اول۔ وہ لندن میں شامی والدین کے ہاں پیدا ہوئیں اور وہیں پلی بڑھیں، شادی سے پہلے سرمایہ کاری بینکاری میں کام کیا، اور بعد میں سوریا ٹرسٹ فار ڈیولپمنٹ کی سربراہی کی۔"
+roles: [official]
+wings: [people, living]
+born:
+  edtf: "1975-08-11"
+  hijri: "1395"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in London (Acton). Gregorian date from English Wikipedia and Wikidata; the Hijri year (1395) is converted and marked derived."
+  sources: [source/wikipedia-asma-al-assad-en, source/wikidata-asma-al-assad]
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/wikipedia-asma-al-assad-en, source/wikipedia-asma-al-assad-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English article describes her parents as Sunni Muslims from Homs and calls her 'a Sunni Muslim by birth'. Wikidata records Sunni Islam. A school is not recorded from family background alone; not recorded as sunni."
+    sources: [source/wikipedia-asma-al-assad-en, source/wikidata-asma-al-assad]
+external_ids: { wikidata: "Q231637" }
+sources: [source/wikipedia-asma-al-assad-en, source/wikipedia-asma-al-assad-ar, source/wikidata-asma-al-assad]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Asma al-Assad' (revision of 4 October 2026), Arabic Wikipedia article «أسماء الأسد» (revision of 7 September 2026), Wikidata Q231637; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-3
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,23 @@
+id: event/siege-of-novo-brdo-1441
+class: event
+kind: siege
+label: { ar: "حصار نوفو بردو", en: "Siege of Novo Brdo" }
+summary:
+  ar: "بطاقة أولية لحصار نوفو بردو في ١٤٤٠–١٤٤١م، أخذ مراد الثاني مدينة التعدين الصربية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Siege of Novo Brdo in 1440–41, Murad II's capture of the Serbian mining town; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1440-10", precision: year, status: tradition, derived: true }
+  end: { edtf: "1441-06-27", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q12756961
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

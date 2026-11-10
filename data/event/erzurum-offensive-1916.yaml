@@ -1,0 +1,23 @@
+id: event/erzurum-offensive-1916
+class: event
+kind: campaign
+label: { ar: "هجوم أرضروم", en: "Erzurum Offensive" }
+summary:
+  ar: "بطاقة أولية لهجوم أرضروم سنة ١٩١٦م، الحملة الروسية التي أسقطت الحصن العثماني الكبير في القوقاز؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Erzurum Offensive of 1916, the Russian campaign that took the great Ottoman fortress in the Caucasus; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1916", precision: year, status: tradition, derived: true }
+  end: { edtf: "1916", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q524208
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; offensive attested in WWI histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

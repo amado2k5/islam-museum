@@ -1,0 +1,30 @@
+id: event/ibn-al-salah-shahrazur-mosul-590
+class: event
+kind: other
+label:
+  ar: "ابن الصلاح يتفقه على والده بشهرزور ثم يُعيد بالموصل عند ابن يونس، نحو ٥٩٠هـ"
+  en: "Ibn al-Salah studies fiqh under his father at Shahrazur, then repeats for Ibn Yunus at Mosul, c. 590"
+  ur: "ابن الصلاح شہرزور میں اپنے والد سے فقہ پڑھتے ہیں، پھر موصل میں ابن یونس کے ہاں اعادہ کرتے ہیں، تقریباً 590ھ"
+summary:
+  ar: "تفقّه ابن الصلاح على والده الصلاح بشهرزور، وكان والده شيخ تلك الناحية، ثم نقله إلى الموصل فاشتغل بها مدة وبرع في المذهب؛ قال ابن خلكان إنه كرر على جميع «المهذب» ولم يطر شاربه، ثم ولي الإعادة عند العلامة العماد ابن يونس، وسمع بالموصل من عبيد الله بن السمين ونصر الله بن سلامة الهيتي وعبد المحسن خطيب الموصل وغيرهم {cite:tarikh-islam-dhahabi p. 185} {cite:shadharat-dhahab p. 229} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  en: "Ibn al-Salah read fiqh under his father Salah at Shahrazur, whose father was the district's shaykh, then was taken to Mosul where he studied a while and excelled in the madhhab; Ibn Khallikan reports that he repeated the whole of the 'Muhadhdhab' before his beard had grown, then took the post of repeater (mu'id) under the scholar al-Imad Ibn Yunus, and heard at Mosul from 'Ubayd Allah b. al-Samin, Nasr Allah b. Salama al-Hayti, 'Abd al-Muhsin the khatib of Mosul and others {cite:tarikh-islam-dhahabi p. 185} {cite:shadharat-dhahab p. 229} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}."
+  ur: "ابن الصلاح نے شہرزور میں اپنے والد صلاح سے فقہ پڑھی، جو اس علاقے کے شیخ تھے، پھر وہ اپنے والد کے ساتھ موصل گئے جہاں کچھ عرصہ پڑھتے رہے اور مذہب میں مہارت پائی؛ ابن خلکان کے مطابق انہوں نے داڑھی اگنے سے پہلے پوری «مہذب» دہرائی، پھر علامہ عماد ابن یونس کے ہاں اعادہ کا منصب سنبھالا اور موصل میں عبید اللہ بن سمین، نصر اللہ بن سلامہ ہیتی، عبد المحسن خطیبِ موصل اور دیگر سے سماعت کی {cite:tarikh-islam-dhahabi p. 185} {cite:shadharat-dhahab p. 229} {cite:encyclopaedia-of-islam-2 vol. 3 p. 959}۔"
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1194~", hijri: "0590~", calendar: julian, precision: year, status: tradition, derived: true, note: "تفقه على والده بشهرزور ثم أعاد بالموصل عند ابن يونس قبل رحلته وله بضع وعشرون سنة {cite:tarikh-islam-dhahabi p. 185}؛ تقريبي نحو ٥٩٠هـ؛ التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/shahrazur, sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/mosul, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/ibn-al-salah, role: "الطالب", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
+  - { type: had_participant, target: person/salah-al-din-al-nasri, role: "والده وشيخه الأول", sources: [source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-imad-ibn-yunus, role: "شيخه بالموصل", sources: [source/tarikh-islam-dhahabi] }
+sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Tarikh al-Islam s.a. 643, printed p. 185 (harvest OCR); Shadharat al-Dhahab s.a. 643, printed p. 229 (harvest OCR); EI2 vol. 3 art. Ibn al-Salah (J. Robson), printed p. 959"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-al-salah-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

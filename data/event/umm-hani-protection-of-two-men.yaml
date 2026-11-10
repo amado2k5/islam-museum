@@ -1,0 +1,21 @@
+id: event/umm-hani-protection-of-two-men
+class: event
+kind: other
+label: { ar: "أمان أم هانئ لرجلين من بني مخزوم يوم الفتح", en: "Umm Hani gives protection to two men on the day of the conquest" }
+summary:
+  ar: "يوم فتح مكة لجأ إلى بيت أم هانئ بنت أبي طالب رجلان من أقاربها من بني مخزوم، فدخل عليها علي يريد قتلهما، فأغلقت الباب عليهما وذهبت إلى النبي وهو بأعلى مكة يغتسل، فقال: قد أمّنّا من أمّنتِ، وأجاز أمانها."
+wings: [people, time]
+themes: [laws-of-war-and-peace, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01~", hijri: "0008-09", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم فتح مكة في رمضان سنة 8هـ؛ الكتاب يضع الواقعة في الفتح (ص108) ولا يذكر يوماً." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/umm-hani-bint-abi-talib, role: "أجارت الرجلين وقالت للنبي ما صنعت", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أراد قتل الرجلين فمنعه أمان أخته", sources: [source/sallabi-ali-vol1] }
+  - { type: had_participant, target: person/muhammad, role: "أقر أمان أم هانئ", sources: [source/sallabi-ali-vol1] }
+  - { type: part_of, target: event/conquest-of-mecca }
+sources: [source/sallabi-ali-vol1]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p.108" }
+provenance: { layer: own-research, source: "sallabi-ali-vol1 p.108", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }

@@ -1,0 +1,78 @@
+id: exhibit/path-maragha
+class: exhibit
+kind: trail
+label:
+  ar: مرصد مراغة
+  en: The Maragha Observatory
+summary:
+  ar: 'مسار في أعظم مؤسسة علمية قبل الحداثة: هولاكو يمول، والطوسي يدير، وثمانون عالمًا يرصدون — علم المغول
+    المسلمين.'
+  en: A trail through the greatest pre-modern observatory.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: التأسيس
+    en: The founding
+  body:
+    ar: '1259: هولاكو يبني للطوسي.'
+    en: '1259: هولاكو يبني للطوسي.'
+  features:
+  - person/hulagu
+  - person/nasir-al-din-al-tusi
+  - place/maragha
+- title:
+    ar: الطوسي
+    en: Al-Tusi
+  body:
+    ar: 'نصير الدين: رياضي وفيلسوف ووزير.'
+    en: 'نصير الدين: رياضي وفيلسوف ووزير.'
+  features:
+  - person/nasir-al-din-al-tusi
+  - place/maragha
+- title:
+    ar: العلماء
+    en: The scholars
+  body:
+    ar: 'ثمانون باحثًا: الصينية والعربية والفارسية.'
+    en: 'ثمانون باحثًا: الصينية والعربية والفارسية.'
+  features:
+  - place/maragha
+  - polity/ilkhanate
+- title:
+    ar: النموذج
+    en: The model
+  body:
+    ar: 'نظرية الطوسي: كوبرنيك يستعيرها.'
+    en: 'نظرية الطوسي: كوبرنيك يستعيرها.'
+  features:
+  - person/nasir-al-din-al-tusi
+  - place/maragha
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: من مراغة إلى أولوغ بك إلى الإسطرلابات.
+    en: من مراغة إلى أولوغ بك إلى الإسطرلابات.
+  features:
+  - place/maragha
+  - place/maragha
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

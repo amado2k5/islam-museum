@@ -1,0 +1,16 @@
+id: media/diagram-mahani-ratios
+class: media
+kind: illustration
+label: { ar: "من مقدارين إلى خوارج متتابعة", en: "From paired magnitudes to quotient sequences", ur: "دو مقداروں سے خارج قسمت کے سلسلے تک" }
+summary: { ar: "سلسلة تعليمية، لا برهان مكتمل على تكافؤ كل تعريفات النسبة.", en: "Teaching chain, not a completed proof equating every ratio definition.", ur: "تدریسی زنجیر، ہر نسبتی تعریف کے تکافؤ کا مکمل برہان نہیں۔" }
+license: CC0
+creator: "islam.museum"
+depicts: [invention/mahani-successive-quotient-ratios]
+alt:
+  ar: "مقداران وقسمة متكررة ثم خوارج ومقارنة نسب؛ شرح حديث لا مخطوط أصلي."
+  en: "Paired magnitudes, repeated division, quotient sequence and ratio comparison; modern chain, not original manuscript."
+  ur: "دو مقداریں، بار بار تقسیم، خارج قسمت کا سلسلہ اور نسبتی تقابل؛ جدید زنجیر، اصل مخطوطہ نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-06" }
+sources: [source/dold-samplonius-mahani-dsb, source/tdv-mahani-fazlioglu]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b81", source: "Museum generic chain; no copied manuscript diagram or attributed completed historical equivalence proof." }

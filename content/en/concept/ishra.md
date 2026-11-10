@@ -1,0 +1,30 @@
+---
+id: concept/ishra
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+In the lexicon, ishra is companionship and mingling; a wife's ashir is her husband. As a term it is the affection and union between spouses {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11626}.
+
+## The ruling on good companionship
+The Hanafis and Hanbalis hold that good companionship between spouses is recommended; the Malikis hold it obligatory in conscience but not enforceable in court {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11627}. It means fulfilling each one's rights in full with good conduct {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11627} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11628}.
+
+## The husband's rights
+These include the wife's surrender of herself for intercourse, her obedience in what is not sinful, her not preventing what hinders his enjoyment of her, her not admitting unwanted guests or leaving the house without his leave {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11629} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11631} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11633}. The majority hold that service is not obligatory on her; the Hanafis hold it obligatory in conscience {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11633} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11634}.
+
+## The wife's rights
+These include the dower, maintenance, the husband's intercourse with her, and on the majority view his not withdrawing from her without her consent; and, where he has more than one wife, night-sharing or equal division {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11634} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11635} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11636}.
+
+## Shared rights
+Good companionship, enjoyment and inheritance {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11636} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11637}.
+
+## Where to look further
+The dower is treated under «mahr», maintenance under «nafaqa», and division among wives under «qasm» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11636}.
+
+## In Abd al-Rahman Mansour's programme 'Ahalina'
+[[person/abd-al-rahman-mansour|Abd al-Rahman Mansour]] gives the first two episodes of his programme [[work/ahaleena|'Ahalina']] to what he calls "skills of communication" between spouses, using the phrase "good companionship" for them. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:04:00} Marriage, he says, is a blessing, and for it to be a sign in which tranquillity, affection, mercy and closeness are realised, husband and wife both need skills they can learn. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:04:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:05:30} He describes a common cooling after the wedding: words of praise in the days of engagement, then silence, until each complains that the other has changed. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:06:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:06:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:07:00}
+
+Among the skills he lists are open, affectionate words between spouses, since a wife hears such words in television serials and reads them in messages and has more right to hear them from her husband, though in his view they are not permitted between an engaged couple before the contract; {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:09:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:10:00} humour and smiling; praising the wife's cooking and the order of her home; respecting her opinion when they differ; and good listening. {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:10:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:12:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:13:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:13:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep01 00:14:00} He recalls that the Prophet openly declared his love for Aisha. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:01:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:01:30} Then come the gift, adornment and cleanliness, praiseworthy jealousy rather than the blameworthy kind he calls "the key to divorce", shared interests such as reciting the Qur'an and attending lessons together, and "the art of overlooking" small faults. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:01:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:03:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:04:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:05:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:05:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:06:00}
+
+He advises the wife to meet her husband smiling and adorned, keep her voice low, put off complaints until he has rested and see him off with a kind word. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:06:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:07:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:07:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:08:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:08:30} He advises the husband to praise his wife and her cooking, keep up with her parents, help her with the housework as the Prophet did in serving his household, and call her from work and listen to her. {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:10:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:11:30} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:12:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep02 00:13:00} In another episode he forbids quarrelling between spouses in front of the children, and says a father's warmth towards the children's mother in front of them is among the greatest things that endear him to them. {cite:assabile-abd-al-rahman-mansour ahaleena/ep06 00:14:00} {cite:assabile-abd-al-rahman-mansour ahaleena/ep04 00:14:30}

@@ -1,0 +1,30 @@
+id: person/muhammad-qadri
+class: person
+label:
+  ar: "محمد قدري"
+  en: "Muhammad Qadri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد قدري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad Qadri; the entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/colonial-era]
+born: { edtf: "1821", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+died: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+relations:
+  - { type: born_in, target: place/mallawi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q393498)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12240921
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

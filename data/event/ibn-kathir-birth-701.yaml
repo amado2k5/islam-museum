@@ -1,0 +1,27 @@
+id: event/ibn-kathir-birth-701
+class: event
+kind: birth
+label:
+  ar: "ميلاد ابن كثير بقرية من أعمال بصرى الشام، نحو ٧٠١هـ"
+  en: "Ibn Kathir is born in a village of the Busra al-Sham district, about 701/1302"
+  ur: "ابن کثیر کی پیدائش بصریٰ الشام کے ضلع کے ایک گاؤں میں، تقریباً 701ھ/1302ء"
+summary:
+  ar: "وُلد إسماعيل بن عمر بن كثير بن ضوء، عماد الدين أبو الفداء، في قرية من أعمال بصرى الشام، قال ابن حجر في الدرر: ولد سنة سبعمائة أو بعدها بيسير {cite:durar-kamina-jil-1993 1/374}، وضبطه محرر ذيل الدرر سنة ٧٠١هـ {cite:durar-kamina-jil-1993 dhayl p. 99}، وقال الزركلي في الأعلام: ولد في قرية من أعمال بصرى الشام {cite:al-aalam 1/112}."
+  en: "Isma'il ibn 'Umar ibn Kathir ibn Daw', 'Imad al-Din Abu l-Fida', was born in a village of the district of Busra al-Sham; Ibn Hajar says 'born in the year 700 or shortly after' {cite:durar-kamina-jil-1993 1/374}, the editor of the Dhayl fixes it at 701 {cite:durar-kamina-jil-1993 dhayl p. 99}, and al-Zirikli gives 'a village of the Busra al-Sham district' {cite:al-aalam 1/112}."
+  ur: "اسماعیل بن عمر بن کثیر بن ضوء، عماد الدین ابوالفدا، بصریٰ الشام کے ضلع کے ایک گاؤں میں پیدا ہوئے؛ ابن حجر کے مطابق «سنہ 700 یا اس کے کچھ بعد» {cite:durar-kamina-jil-1993 1/374}، ذیل کے محرر نے 701ھ مقرر کیا {cite:durar-kamina-jil-1993 dhayl p. 99}، اور زرکلی نے «بصریٰ الشام کے ضلع کا ایک گاؤں» لکھا {cite:al-aalam 1/112}۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1302~", hijri: "0701", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة سبعمائة أو بعدها بيسير {cite:durar-kamina-jil-1993 1/374}؛ ٧٠١هـ {cite:durar-kamina-jil-1993 dhayl p. 99}؛ ١٣٠٢م {cite:al-aalam 1/112}؛ التحويل مشتق.", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+relations:
+  - { type: occurred_at, target: place/busra, sources: [source/al-aalam], note: "قرية من أعمال بصرى الشام {cite:al-aalam 1/112}" }
+  - { type: had_participant, target: person/ibn-kathir, role: "المولود", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+sources: [source/durar-kamina-jil-1993, source/al-aalam]
+provenance:
+  layer: own-research
+  source: "Ibn Hajar, al-Durar al-Kamina (Dar al-Jil 1993) 1/374, tarjama 944 (harvest OCR DurarKamina__drkamth1); Dhayl al-Durar al-Kamina, printed p. 99 (harvest OCR DurarKamina__zdk); al-Zirikli, al-A'lam j.1 pp. 112-113 (harvest OCR AAlexandrina-159187)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-ibn-kathir-1
+status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

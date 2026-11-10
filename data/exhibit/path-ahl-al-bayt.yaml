@@ -1,0 +1,77 @@
+id: exhibit/path-ahl-al-bayt
+class: exhibit
+kind: trail
+label:
+  ar: آل بيت النبي
+  en: The Prophet's Household
+summary:
+  ar: 'مسار في أهل البيت: علي وفاطمة والحسن والحسين، وكربلاء الجرح، والأئمة بعدهم.'
+  en: A trail through the Prophet's household.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الكساء
+    en: The cloak
+  body:
+    ar: 'علي وفاطمة والحسنان: أهل آية التطهير.'
+    en: 'علي وفاطمة والحسنان: أهل آية التطهير.'
+  features:
+  - person/ali-ibn-abi-talib
+  - person/fatima
+  - group/ahl-al-bayt
+- title:
+    ar: الحسن
+    en: Al-Hasan
+  body:
+    ar: 'السبط الأكبر: خلافة شهور ثم صلح مع معاوية.'
+    en: 'السبط الأكبر: خلافة شهور ثم صلح مع معاوية.'
+  features:
+  - person/hasan-ibn-ali
+- title:
+    ar: الحسين
+    en: Al-Husayn
+  body:
+    ar: 'السبط الأصغر: كربلاء 680 وجرح الأمة.'
+    en: 'السبط الأصغر: كربلاء 680 وجرح الأمة.'
+  features:
+  - person/husayn-ibn-ali
+  - place/karbala
+  - question/what-is-ashura
+- title:
+    ar: الأئمة
+    en: The imams
+  body:
+    ar: 'زين العابدين وجعفر الصادق: علم أهل البيت.'
+    en: 'زين العابدين وجعفر الصادق: علم أهل البيت.'
+  features:
+  - person/ali-zayn-al-abidin
+  - person/jafar-al-sadiq
+- title:
+    ar: الذرية
+    en: The line
+  body:
+    ar: 'الحسنيون والحسينيون: أشراف الأمة في كل قطر.'
+    en: 'الحسنيون والحسينيون: أشراف الأمة في كل قطر.'
+  features:
+  - person/al-hasan-al-askari
+  - concept/imama
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,76 @@
+id: exhibit/path-jumua
+class: exhibit
+kind: trail
+label:
+  ar: يوم الجمعة
+  en: Friday
+summary:
+  ar: 'مسار في عيد الأسبوع: الاغتسال والتبكير، والأذان والخطبة، وصلاة الجمعة وسورة الكهف — يوم السيد.'
+  en: A trail through the weekly festival.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: التبكير
+    en: Early going
+  body:
+    ar: 'الغسل والطيب والسواك: سنن الجمعة.'
+    en: 'الغسل والطيب والسواك: سنن الجمعة.'
+  features:
+  - practice/salat-al-jumua
+  - practice/dhikr
+- title:
+    ar: الأذان
+    en: The adhan
+  body:
+    ar: 'أذان الجمعة الخاص: دعوة الجماعة.'
+    en: 'أذان الجمعة الخاص: دعوة الجماعة.'
+  features:
+  - practice/adhan
+  - practice/adhan
+- title:
+    ar: الخطبة
+    en: The khutba
+  body:
+    ar: 'خطبتان وركعتان: نظام الصلاة.'
+    en: 'خطبتان وركعتان: نظام الصلاة.'
+  features:
+  - practice/salat-al-jumua
+  - concept/adab
+- title:
+    ar: الكهف
+    en: Al-Kahf
+  body:
+    ar: 'سورة الجمعة: نور بين الجمعتين.'
+    en: 'سورة الجمعة: نور بين الجمعتين.'
+  features:
+  - passage/quran-18
+  - passage/quran-18-1
+- title:
+    ar: الدعاء
+    en: Dua
+  body:
+    ar: 'ساعة الإجابة: آخر ساعة من النهار.'
+    en: 'ساعة الإجابة: آخر ساعة من النهار.'
+  features:
+  - practice/dua
+  - practice/salat-al-jumua
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

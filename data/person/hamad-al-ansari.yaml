@@ -1,0 +1,36 @@
+id: person/hamad-al-ansari
+class: person
+label:
+  ar: "حماد الأنصاري"
+  en: "Hamad al-Ansari"
+roles: [muhaddith]
+gender: male
+summary:
+  ar: "بطاقة أولية لحماد بن محمد الأنصاري الخزرجي، المحدث والمدرس بالمسجد النبوي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hamad al-Ansari, the hadith scholar and teacher at the Prophet's Mosque; his entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+born: { edtf: "1924", precision: year, status: tradition, derived: true }
+died: { edtf: "1998", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/essouk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/assabile-abu-ishaq-alheweny]
+external_ids:
+  wikidata: Q28714755
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch64
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

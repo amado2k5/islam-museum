@@ -1,0 +1,17 @@
+id: passage/bukhari-3207
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3207"
+label: { ar: "البخاري 3207 — حديث الإسراء والمعراج", en: "Bukhari 3207 — The Isra and Mi'raj hadith" }
+text: "بينا أنا عند البيت بين النائم واليقظان فأتيت بطست من ذهب ملئ حكمة وإيماناً، فشق من النحر إلى مراق البطن ثم غسل البطن بماء زمزم ثم ملئ حكمة وإيماناً، وأتيت بدابة أبيض دون البغل وفوق الحمار: البراق"
+summary:
+  ar: "في كتاب الصلاة؛ حديث مالك بن صعصعة الطويل في الإسراء والمعراج وفيه شق الصدر الثاني عند البيت وغسل القلب بماء زمزم قبل العروج، ثم ركوب البراق والمرور على الأنبياء في السماوات وفرض الصلاة. من أطول أحاديث الصحيح وأشهرها في وصف الرحلة."
+relations:
+  - { type: mentions, target: event/isra-and-miraj, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/shaqq-al-sadr, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: place/mecca, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3207 (كتاب الصلاة)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

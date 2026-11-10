@@ -1,0 +1,36 @@
+id: person/civizade-muhyi-al-din
+class: person
+label:
+  ar: "جوي زاده محيي الدين"
+  en: "Civizade Muhyi al-Din Mehmed"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لجوي زاده محيي الدين محمد أفندي، شيخ الإسلام العثماني القرن السادس عشر، توفي سنة ١٥٤٧م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Civizade Muhyi al-Din Mehmed Efendi, the sixteenth-century Ottoman shaykh al-Islam, d. 1547; the source entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1491", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1547", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+relations:
+  - { type: born_in, target: place/mu-la, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6087428
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0056
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/shaykh-al-islam
+    kind: primary
+    status: historical
+    note: "The DİA entry names Çivizâde Muhyiddin Mehmed Efendi (d. 954 AH / 1547 CE) as the first shaykh al-islam to be dismissed, after his fatwas were judged wrong by the assembled scholars under Süleyman."
+    sources: [source/tdv-seyhulislam]

@@ -1,0 +1,29 @@
+id: person/abd-allah-ibn-ali-ibn-abi-talib
+class: person
+label:
+  ar: "عبد الله بن علي بن أبي طالب"
+  en: "Abd Allah ibn Ali ibn Abi Talib"
+roles: [companion]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الله بن علي بن أبي طالب، من بني هاشم الذين قتلوا بكربلاء سنة ٦٨٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd Allah ibn Ali ibn Abi Talib, of the Banu Hashim killed at Karbala in 680; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Maqatil al-Talibiyyin (al-Isfahani: killed at Karbala 61 AH)" }
+relations:
+ - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+ - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+external_ids:
+  wikidata: Q5670300
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0036
+status:
+  review: draft
+  completeness: 1

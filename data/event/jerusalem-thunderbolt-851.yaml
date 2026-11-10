@@ -1,0 +1,21 @@
+id: event/jerusalem-thunderbolt-851
+class: event
+kind: other
+label: { ar: "صاعقة بيت المقدس", en: "The thunderbolt of Jerusalem" }
+summary:
+  ar: "في أثناء شوال سنة إحدى وخمسين وثمانمائة وقعت صاعقة هائلة ببيت المقدس {cite:shadharat-dhahab p. 268-269}."
+  en: "In mid-Shawwal 851 a tremendous thunderbolt struck Jerusalem {cite:shadharat-dhahab p. 268-269}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1447-12~", hijri: "0851-10", calendar: julian, precision: month, status: tradition, derived: true, note: "أثناء شوال 851 {cite:shadharat-dhahab p. 268-269}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/jerusalem, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 851)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-139
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/waqid-ibn-abd-allah-ibn-umar
+class: person
+label:
+  ar: "واقد بن عبد الله بن عمر بن الخطاب"
+  en: "Waqid ibn Abd Allah ibn Umar"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لواقد بن عبد الله بن عمر بن الخطاب؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Waqid ibn Abd Allah ibn Umar; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~720, Tahdhib al-Kamal; Tahdhib al-Tahdhib" }
+relations:
+  - { type: lived_in, target: place/medina, confidence: low, note: "Member of the Medinan family of Ibn Umar (regions: arabia).", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q101089318
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

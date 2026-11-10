@@ -1,0 +1,81 @@
+id: exhibit/path-quran-way
+class: exhibit
+kind: trail
+label:
+  ar: طريق القرآن
+  en: The Way of the Qur'an
+summary:
+  ar: 'مسار في حياة القرآن مع الأمة: نزوله وحفظه وتجويده وختمه وتفسيره وعلومه.'
+  en: 'A trail through the Qur''an''s life: revelation, memorization, recitation, exegesis and sciences.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: النزول
+    en: Revelation
+  body:
+    ar: 'اقرأ: أول ما نزل في غار حراء.'
+    en: '''Read'': the first descent in Hira''s cave.'
+  features:
+  - passage/quran-96-1
+  - passage/quran-2-185
+- title:
+    ar: الحفظ
+    en: Memorization
+  body:
+    ar: أمة تحفظ كتابها عن ظهر قلب.
+    en: A community that keeps its book by heart.
+  features:
+  - practice/hifz-al-quran
+- title:
+    ar: التجويد
+    en: Tajwid
+  body:
+    ar: تحسين التلاوة على طريق النقل.
+    en: Perfecting recitation through transmission.
+  features:
+  - practice/tajwid
+- title:
+    ar: الختم
+    en: Completion
+  body:
+    ar: ختمة رمضان وختمة العمر.
+    en: The Ramadan completion and the life completion.
+  features:
+  - practice/khatm-al-quran
+- title:
+    ar: التفسير
+    en: Exegesis
+  body:
+    ar: من ابن عباس إلى موسوعات الطبري.
+    en: From Ibn Abbas to Tabari's encyclopedia.
+  features:
+  - concept/isnad
+  - person/al-tabari
+- title:
+    ar: علوم القرآن
+    en: Qur'anic sciences
+  body:
+    ar: 'الإتقان للسيوطي: أبواب علوم الكتاب.'
+    en: 'Suyuti''s Itqan: the book''s sciences.'
+  features:
+  - work/al-itqan-fi-ulum-al-quran
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

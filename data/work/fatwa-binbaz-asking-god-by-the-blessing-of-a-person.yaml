@@ -1,0 +1,24 @@
+id: work/fatwa-binbaz-asking-god-by-the-blessing-of-a-person
+class: work
+kind: fatwa
+label: { ar: "حكم قول: ببركة فلان، أو ببركة القرآن", en: "Saying 'by the blessing of so-and-so' or 'by the blessing of the Qur'an' in supplication", ur: "دعا میں 'فلاں کی برکت سے' یا 'قرآن کی برکت سے' کہنے کا حکم" }
+summary:
+  ar: "سؤال عن حكم قول القائل في دعائه: اللهم اجعل لي هذا الأمر ببركة فلان أو ببركة القرآن، أجاب فيه ابن باز بأنه إن كان لفلان في الأمر سبب أو أمكن أن يكون له فيه سبب فلا بأس، كقول: اللهم يسّر أمري ببركة فلان، أو اللهم اقض ديني بفلان، أي بأسباب فلان، أما ما ليس له فيه تسبب فهذا كذب. وقال إن قول: اللهم اغفر لي بقراءتي للقرآن أو بعلمي به أو بتلاوتي له أو بحفظي له لا يضر، لأن القرآن كلام الله، فهو توسل بكلام الله."
+  en: "A question about the ruling on saying in supplication 'O God, grant me this matter by the blessing of so-and-so, or by the blessing of the Qur'an', in which Ibn Baz answered that if so-and-so had a part in bringing the matter about, or could have had one, there is no harm, as in 'O God, ease my affair by the blessing of so-and-so' or 'O God, settle my debt through so-and-so', meaning through his agency; but where the person had no part in it, the statement is a falsehood. He said that saying 'O God, forgive me by my reading of the Qur'an, my knowledge of it, my recitation of it or my memorisation of it' does no harm, because the Qur'an is God's speech, so this is seeking a means through God's speech."
+  ur: "دعا میں یہ کہنے کے حکم کے بارے میں سوال کہ 'اے اللہ، میرے لیے یہ کام فلاں کی برکت سے یا قرآن کی برکت سے کر دے'، جس میں ابن باز نے جواب دیا کہ اگر اس کام میں فلاں کا کوئی سبب ہو یا ہو سکتا ہو تو کوئی حرج نہیں، جیسے 'اے اللہ، فلاں کی برکت سے میرا کام آسان کر' یا 'اے اللہ، فلاں کے ذریعے میرا قرض ادا کر'، یعنی فلاں کے اسباب سے؛ لیکن جس میں اس شخص کا کوئی سبب نہ ہو وہ جھوٹ ہے۔ انہوں نے کہا کہ یہ کہنا کہ 'اے اللہ، میرے قرآن پڑھنے، اس کے علم، اس کی تلاوت یا اسے حفظ کرنے کے سبب مجھے بخش دے' نقصان نہیں دیتا، کیونکہ قرآن اللہ کا کلام ہے، لہٰذا یہ اللہ کے کلام سے توسل ہے۔"
+wings: [words]
+authors: [person/ibn-baz-abd-al-aziz]
+url: "https://binbaz.org.sa/fatwas/4070"
+languages: [ar]
+sources: [source/binbaz]
+relations:
+  - { type: about, target: concept/tawassul, sources: [source/binbaz] }
+  - { type: about, target: concept/tabarruk, sources: [source/binbaz] }
+  - { type: about, target: practice/dua, sources: [source/binbaz] }
+provenance:
+  layer: own-research
+  source: "binbaz.org.sa fatwa 4070, no date on the page; read 2 Nov 2026."
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: fatwa-websites-28
+status: { review: published, completeness: 1 }

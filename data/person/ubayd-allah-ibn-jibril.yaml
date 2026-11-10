@@ -1,0 +1,62 @@
+id: person/ubayd-allah-ibn-jibril
+class: person
+label:
+  ar: عبيد الله بن جبريل
+  en: Ubayd Allah ibn Jibril
+names:
+- kind: full
+  lang: ar
+  value: أبو سعيد عبيد الله بن جبريل بن عبيد الله بن بختيشوع
+gender: male
+roles:
+- physician
+- historian
+traditions:
+- sunni
+died:
+  edtf: '1059'
+  hijri: '0451'
+  calendar: julian
+  precision: year
+  status: tradition
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
+summary:
+  ar: طبيب وباحث ومؤرخ للطب، عالم بمعرفة النصارى ومذاهبهم، ينحدر من أسرة بختيشوع الطبية.
+  en: A physician, researcher and historian of medicine, knowledgeable about the Christian communities and their doctrines. He belonged to the Bukhtishu family of physicians.
+wings:
+- people
+themes:
+- history-writing-and-social-thought
+periods:
+- period/abbasid-fragmentation
+regions:
+- levant-iraq
+story_roles:
+- role: physician
+  status: tradition
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
+sources:
+- source/mawsuat-a3lam-ulama-adaba
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص233
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: prose-fill-persons-batch63
+occupations:
+- job: job/physician
+  kind: secondary
+  status: historical
+  note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba
+relations:
+- type: lived_in
+  target: place/baghdad
+  sources:
+  - source/mawsuat-a3lam-ulama-adaba

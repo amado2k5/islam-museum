@@ -1,0 +1,21 @@
+id: person/shiqq-al-kahin
+class: person
+label: { ar: "شق الكاهن", en: "Shiqq the soothsayer" }
+summary:
+  ar: "كاهن العرب المشهور، ذكره المسعودي في باب الكهانة في جملة الكهان المعروفين بنقصان الأجسام وتشويه الخلق مع سطيح وسملقة وزوبعة وسديف بنت هوماس وطريفة وعمران أخي مزيقياء وحارثة وجهينة وكاهنة باهلة {cite:muruj-al-dhahab p. 484}. وفي باب الهواتف والجن عند المسعودي أن من الجن من هو على صورة نصف الإنسان يظهر للعرب في أسفارها وخلواتها ويسمونه شقاً، وهو الذي ظهر لعلقمة بن صفوان الكناني جد مروان لأمه فتضاربا فخرا ميتين {cite:muruj-al-dhahab p. 473-474}"
+  en: "The famous half-formed diviner of the Arabs, named by al-Mas'udi among the marked-bodied kahins beside Satih, Samalqa, Zawba'a, Sadif bint Humas and Tarifa {cite:muruj-al-dhahab p. 484}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 484"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch38
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/tarifa, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/muruj-al-dhahab] }

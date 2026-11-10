@@ -1,0 +1,76 @@
+id: exhibit/path-surah-tin
+class: exhibit
+kind: trail
+label:
+  ar: سورة التين
+  en: Surah at-Tin
+summary:
+  ar: 'مسار في سورة القسم المزدوج: التين والزيتون وطور سينين والبلد الأمين، وأحسن تقويم — سورة الكرامة.'
+  en: A trail through the double oath.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: القسم
+    en: The oath
+  body:
+    ar: والتين والزيتون وطور سينين.
+    en: والتين والزيتون وطور سينين.
+  features:
+  - passage/quran-95
+  - passage/quran-95-1
+- title:
+    ar: البلد
+    en: The city
+  body:
+    ar: 'وهذا البلد الأمين: مكة تقسم.'
+    en: 'وهذا البلد الأمين: مكة تقسم.'
+  features:
+  - passage/quran-95-3
+  - place/mecca
+- title:
+    ar: الخلق
+    en: The creation
+  body:
+    ar: لقد خلقنا الإنسان في أحسن تقويم.
+    en: لقد خلقنا الإنسان في أحسن تقويم.
+  features:
+  - passage/quran-95-4
+  - passage/quran-95-4
+- title:
+    ar: الإيمان
+    en: Faith
+  body:
+    ar: إلا الذين آمنوا وعملوا الصالحات.
+    en: إلا الذين آمنوا وعملوا الصالحات.
+  features:
+  - passage/quran-95-6
+  - passage/quran-95-6
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: أليس الله بأحكم الحاكمين.
+    en: أليس الله بأحكم الحاكمين.
+  features:
+  - passage/quran-95-8
+  - passage/quran-95-8
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

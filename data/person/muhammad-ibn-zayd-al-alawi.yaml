@@ -1,0 +1,22 @@
+id: person/muhammad-ibn-zayd-al-alawi
+class: person
+label: { ar: "محمد بن زيد العلوي" }
+summary:
+  ar: "خرج نحو خراسان في سنة سبع وثمانين ومائتين، ثم ورد الخبر بمقتله في شوال من السنة نفسها {cite:tabari-tarikh-abu-al-fadl j.10 p.81}. وعند المسعودي ورد مال منه ليفرق في آل أبي طالب سراً فأظهره المعتضد وقربهم، ولما قتله محمد بن هارون أظهر المعتضد لذلك النكير والحزن تأسفاً على قتله {cite:muruj-al-dhahab p. 630-631} وعند ابن الجوزي دخل رافع بن هرثمة نيسابور سنة ثلاث وثمانين وخطب له ولأبيه فيها، وفي سنة اثنتين وثمانين وجّه من طبرستان اثنين وثلاثين ألف دينار تُفرَّق على العلوية بالحرمين والكوفة ومن في بغداد فأطلقها المعتضد بعد رؤيا بدر {cite:muntazam-ibn-al-jawzi p. 154-155, 162}."
+wings: [people]
+gender: male
+died: { edtf: "900", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari (Tarikh al-Rusul wa-l-Muluk)" }
+relations:
+  - { type: lived_in, target: place/nishapur, sources: [source/muntazam-ibn-al-jawzi], confidence: low, note: "630-631} وعند ابن الجوزي دخل رافع بن هرثمة نيسابور سنة ثلاث وثمانين وخطب له ولأبيه فيها، وفي سنة اثنتين وثماني" }
+  - { type: lived_in, target: place/sabur, sources: [source/muntazam-ibn-al-jawzi], confidence: low, note: "630-631} وعند ابن الجوزي دخل رافع بن هرثمة نيسابور سنة ثلاث وثمانين وخطب له ولأبيه فيها، وفي سنة اثنتين وثماني" }
+sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "ابن الجوزي، المنتظم في تاريخ الملوك والأمم؛ الطبري، تاريخ الرسل والملوك"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch25
+status:
+  review: published
+  completeness: 3
+

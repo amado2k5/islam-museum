@@ -1,0 +1,19 @@
+id: place/east-africa
+class: place
+kind: region
+label: { ar: "شرق أفريقيا", en: "East Africa" }
+summary:
+  ar: "شرق القارة الأفريقية وسواحلها على المحيط الهندي، موطن الحضارة السواحلية الإسلامية."
+  en: "The eastern side of Africa and its Indian-Ocean coast, home of Swahili Islamic civilisation."
+wings: [place]
+regions: [east-africa]
+coordinates: [-1.0, 37.0]
+coordinate_precision: approx
+coordinate_note: "Approximate regional centre; flagged for gazetteer verification."
+sources: [source/wikidata, source/geonames-gazetteer]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  note: "Region entity created so persons whose records substantiate only a broad region still resolve on the map; centre point approximate."

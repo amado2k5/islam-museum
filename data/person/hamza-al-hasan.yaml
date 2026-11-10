@@ -1,0 +1,28 @@
+id: person/hamza-al-hasan
+class: person
+label:
+  ar: "حمزة الحسن"
+  en: "Hamza al-Hasan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لحمزة الحسن؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hamza al-Hasan; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+born: { edtf: "1960", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary political scientist" }
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q22687596
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0082
+status:
+  review: draft
+  completeness: 1

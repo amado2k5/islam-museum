@@ -1,6 +1,15 @@
 id: person/zayd-ibn-haritha
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b2", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  did_you_know:
+    ar: "زيد بن حارثة مولى النبي وقد تبنّاه يوماً، وهو الصحابي الوحيد المذكور اسمه في القرآن، وقاد غزوة مؤتة."
+    en: "Zayd ibn Haritha, the Prophet's freedman once adopted by him, is the only Companion named in the Qur'an, and led the Mu'ta expedition."
+    ur: "زید بن حارثہ، نبی کے آزاد کردہ غلام جنہیں انہوں نے کبھی لے پالک کیا تھا، قرآن میں نام سے مذکور واحد صحابی اور موتہ کے سردار۔"
+    sources: [source/ibn-ishaq-guillaume, source/lings-1983]
 class: person
-label: { en: Zayd ibn Haritha, ar: زيد بن حارثة }
+label: { en: Zayd ibn Haritha, ar: زيد بن حارثة , ur: "زید بن حارثہ"}
 names:
   - { kind: full, lang: ar, value: زيد بن حارثة الكلبي }
   - { kind: alternate, lang: ar-Latn, value: "Zayd ibn Muhammad (before reversion to his father's name)" }
@@ -12,6 +21,7 @@ traditions: [sunni]
 summary:
   en: "A freedman of the Prophet, once adopted by him, who became one of the earliest Muslims and commanded the expedition to Mu'ta, where he was killed; the only Companion named in the Qur'an."
   ar: "مولى النبي وقد تبنّاه يومًا، فكان من أوائل المسلمين، وقاد غزوة مؤتة التي قُتل فيها، وهو الصحابي الوحيد المذكور اسمه في القرآن."
+  ur: "نبی کے آزاد کردہ غلام اور ابتدائی مسلمانوں میں سے؛ پہلے ان کے متبنٰی تھے۔ {cite:ibn-sad-tabaqat-bewley} موتہ کی مہم میں سپہ سالار رہے اور وہیں قتل ہوئے۔ {cite:ibn-hisham-saqqa} قرآن میں نام سے مذکور واحد صحابی ہیں۔ {cite:rahma-lil-alamin}"
 wings: [people]
 themes: [slavery-and-freedom, family-marriage-kinship, battles]
 periods: [period/prophetic-era]
@@ -25,10 +35,22 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: participated_in, target: event/sariyya-of-zayd-to-madyan, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "أمير الجيش؛ جُرح ثم عاود فأمر بقتل أم قرفة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "أمير الجيش", sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/mutah }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-mutah, role: commander-killed, sources: [source/ibn-ishaq-guillaume] }
-  - { type: revealed_in, target: passage/quran-33-37, note: "The only Companion named in the Qur'an; the verse addresses his situation directly.", sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983]
+  - { type: revealed_in, target: passage/quran-33-37, note: "الصحابي الوحيد المسمّى في القرآن؛ والآية تخاطب شأنه مباشرة.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira]}
+external_ids: { wikidata: "Q34418" }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hisham-sira, source/rahma-lil-alamin]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-ishaq-guillaume"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from this record’s existing Arabic and English metadata and cited sources; no new factual claims."}

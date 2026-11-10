@@ -1,0 +1,21 @@
+id: person/al-abbas-ibn-al-mamun
+class: person
+label: { ar: "العباس بن المأمون", en: "al-'Abbas ibn al-Ma'mun" }
+summary:
+  ar: "ابن المأمون، كاتب ملك الروم وبايعه ناس في عسكر المعتصم وهو على عمورية سنة ثلاث وعشرين ومائتين، فأعجل المعتصم في مسيره وحبسه وشيعته ومات في هذه السنة {cite:muruj-al-dhahab p. 450}."
+  en: "Al-Ma'mun's son whose correspondence with the emperor and oath-ring in the army cut short the march on Constantinople — imprisoned and dead within the year {cite:muruj-al-dhahab p. 450}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch34
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "838", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+relations:
+  - { type: died_in, target: place/samarra, note: "Al-Ma'mun's son imprisoned by al-Mu'tasim during the Amorium campaign; died within the year — location of confinement inferred as the caliphal seat.", sources: [source/muruj-al-dhahab], confidence: low }

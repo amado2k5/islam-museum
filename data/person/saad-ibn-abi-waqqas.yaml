@@ -1,6 +1,13 @@
 id: person/saad-ibn-abi-waqqas
+education:
+  did_you_know:
+    ar: "سعد بن أبي وقاص من السابقين إلى الإسلام، والقائد الذي كسر الجيش الساساني في القادسية نحو ٦٣٦م ومؤسس مدينة الكوفة."
+    en: "Sa'd ibn Abi Waqqas, among the earliest Muslims, was the commander who broke the Sasanian army at al-Qadisiyya around 636 CE and founded the city of Kufa."
+    ur: "سعد بن ابی وقاص اولین مسلمانوں میں سے، قادسیہ میں ساسانی لشکر شکست دینے والے سپہ سالار ⁦(تقریباً 636ء)⁩ اور کوفہ شہر کے بانی۔"
+    sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
 class: person
-label: { en: "Sa'd ibn Abi Waqqas", ar: "سعد بن أبي وقاص" }
+aliases: [person/sad-ibn-abi-waqqas]   # same person; merged from the Raheeq lane's spelling so existing references resolve
+label: { en: "Sa'd ibn Abi Waqqas", ar: "سعد بن أبي وقاص" , ur: "سعد بن ابی وقاص"}
 names:
   - { kind: full, lang: ar, value: "سعد بن مالك بن وهيب الزهري" }
 gender: male
@@ -10,7 +17,8 @@ roles: [companion, general]
 traditions: [sunni]
 summary:
   en: "One of the earliest converts, an archer at Badr, and the commander who broke the Sasanian army at al-Qadisiyya about 636; founder of the garrison city of Kufa."
-  ar: "من السابقين إلى الإسلام، رامي يوم بدر، والقائد الذي كسر الجيش الساساني في القادسية نحو سنة 636م؛ مؤسس مدينة الكوفة."
+  ar: "من السابقين إلى الإسلام، رامي يوم بدر، والقائد الذي كسر الجيش الساساني في القادسية نحو سنة 636م؛ مؤسس مدينة الكوفة. وشهد له أبو عثمان النهدي أنه «أول من رمى بسهم في سبيل الله» {cite:sahih-al-bukhari 4326}. وقال في الصحيح «ما أسلم أحد إلا في اليوم الذي أسلمت فيه، ولقد مكثت سبعة أيام وإني لثلث الإسلام» {cite:sahih-al-bukhari 3858}. وعند مسلم عن علي «ما جمع رسول الله أبويه لأحد غير سعد بن مالك، إنه جعل يقول له يوم أحد ارمِ فداك أبي وأمي» {cite:sahih-muslim 2411}، وروى هو عن النبي في عمر «والذي نفسي بيده ما لقيك الشيطان قط سالكاً فجاً إلا سلك فجاً غير فجك» {cite:sahih-muslim 2396}."
+  ur: "ابتدائی مسلمانوں میں سے، بدر کے تیرانداز اور قادسیہ میں ساسانی فوج کے مقابل مسلم لشکر کے قائد؛ کوفہ کے قیام سے بھی ان کا نام وابستہ ہے۔ {cite:ibn-sad-tabaqat-bewley}"
 wings: [people]
 themes: [wars-and-campaigns, battles, cities]
 periods: [period/prophetic-era, period/rashidun]
@@ -32,5 +40,16 @@ relations:
   - { type: participated_in, target: event/battle-of-uhud, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-qadisiyya, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: lived_in, target: place/kufa, note: "Founded and governed the garrison city of Kufa under Umar's orders.", sources: [source/tabari-donner-1993] }
-sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+external_ids:
+  wikidata: Q380184
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/sahih-al-bukhari, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/ibn-hajar-isaba, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar]
+sensitivity: polemical
+status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "source/ibn-sad-tabaqat-bewley"
+  generated_by: Devin
+  model: "unknown"
+  run: "education-E3-facts-batch6"
+  localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}

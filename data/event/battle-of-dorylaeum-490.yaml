@@ -1,0 +1,23 @@
+id: event/battle-of-dorylaeum-490
+class: event
+kind: battle
+label: { ar: "معركة ضورليم", en: "Battle of Dorylaeum" }
+summary:
+  ar: "بطاقة أولية لمعركة ضورليم سنة ١٠٩٧م، انتصار الفرنج في الحملة الأولى على سلاجقة الروم قرب نيقية؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Dorylaeum in 1097, the First Crusade's victory over the Seljuks of Rum near Nicaea; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1097", precision: year, status: tradition, derived: true }
+  end: { edtf: "1097", precision: year, status: tradition, derived: true }
+sources: [source/kamil-ibn-al-athir]
+external_ids:
+  wikidata: Q12428
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Crusades histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/basiri-poet
+class: person
+label:
+  ar: "بصيري"
+  en: "Basiri"
+roles: [poet, writer]
+gender: male
+summary:
+  ar: "بطاقة أولية لبصيري، الشاعر التركي، توفي سنة ١٥٣٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Basiri, the Turkish poet, d. 1535; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1535", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Basiri)" }
+relations:
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q61072309
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0086
+status:
+  review: draft
+  completeness: 1

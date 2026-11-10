@@ -1,0 +1,22 @@
+id: person/sharif-abu-jafar
+class: person
+label: { ar: "الشريف أبو جعفر" }
+summary:
+  ar: "زعيم حنابلة بغداد في عهد القائم والمقتدي، وقف في وجه أبي نصر بن القشيري الأشعري حتى وقعت فتنة شوال 469هـ، ولما استدعاه الوزير فخر الدولة للمصالحة قال «أي صلح بيننا؟ هؤلاء القوم يزعمون أنا كفار ونحن نزعم أن من لا يعتقد ما نعتقده كافر فأي صلح بيننا؟ وقد كان جدّا الخليفة القائم والقادر أخرجا اعتقادهما للناس وقرئ عليهم في دواوينهم وحُمل عنهما إلى أطراف الأرض ونحن على اعتقادهما». وقيل إنه مرض بعدها فانتفخت رجلاه وقيل إن بعض المتفقهة دسّ له في مداسه سماً {cite:muntazam-ibn-al-jawzi j.8 p.305-307}."
+gender: male
+roles: [theologian]
+traditions: [sunni]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died: { edtf: "1077", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 305-307"
+  generated_by: "Devin (SWE-2 Flash High)"
+  model: "SWE-2 Flash High"
+  run: prose-fill-persons-batch49
+status: { review: published, completeness: 3 }

@@ -1,0 +1,35 @@
+id: person/ali-ibn-uthman-al-awsi
+class: person
+gender: male
+label:
+  ar: "علي بن عثمان الأوسي"
+  en: "Ali ibn Uthman al-Awsi"
+summary:
+  ar: "علي بن عثمان بن محمد، سراج الدين، الأوسي الفرغاني، عالم وأديب وناظم. له القصيدة المشهورة في أصول الدين، وهي ستة وستون بيتا. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8203}"
+  en: "Ali ibn Uthman ibn Muhammad, Siraj al-Din al-Awsi al-Farghani, a scholar, man of letters and poet. He wrote a well-known poem on the principles of religion of sixty-six verses. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8203}"
+roles: [jurist, poet]
+traditions: [sunni]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+provenance:
+  layer: own-research
+  source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، «ملحق تراجم الفقهاء» (ص 8203 من المسح)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: mawsua-w05-batch4
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Claude Haiku 5.5; biography read on scan p.8203. The heading gives the death year as 569 AH and an unknown birth year; the works list is as printed. Urdu is a short draft only."
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+born: { edtf: "1315~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+died: { edtf: "1380~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+relations:
+  - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name (الفرغاني); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }

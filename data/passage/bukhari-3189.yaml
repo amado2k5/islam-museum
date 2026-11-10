@@ -1,0 +1,17 @@
+id: passage/bukhari-3189
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3189"
+label: { ar: "البخاري 3189 — لا هجرة بعد الفتح وحرمة مكة", en: "Bukhari 3189 — No hijra after the conquest; the sanctity of Mecca" }
+text: "قال رسول الله يوم فتح مكة: «لا هجرة ولكن جهاد ونية، وإذا استنفرتم فانفروا»، وقال: «إن هذا البلد حرمه الله يوم خلق السماوات والأرض، فهو حرام بحرمة الله إلى يوم القيامة، ولم يحل القتال فيه لأحد قبلي ولم يحل لي إلا ساعة من نهار»"
+summary:
+  ar: "في كتاب الجزية؛ رواية ابن عباس أن النبي خطب يوم فتح مكة بحرمة البلد الدائمة — لا يعضد شوكه ولا ينفر صيده ولا تلتقط لقطته إلا من عرفها — واستثنى الإذخر لقينهم وبيوتهم بطلب العباس، وأعلن انتهاء الهجرة وبقاء الجهاد والنية."
+relations:
+  - { type: mentions, target: event/conquest-of-mecca, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: place/mecca, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3189 (كتاب الجزية والموادعة)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

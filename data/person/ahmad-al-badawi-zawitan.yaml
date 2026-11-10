@@ -1,0 +1,29 @@
+id: person/ahmad-al-badawi-zawitan
+class: person
+label:
+  ar: "أحمد البدوي زويتن"
+  en: "Ahmad al-Badawi Zawitan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لأحمد البدوي زويتن؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ahmad al-Badawi Zawitan; the entry is not yet checked on the page."
+wings: [people]
+regions: [maghreb]
+periods: [period/colonial-era]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q12178510
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli" }
+died: { edtf: "1859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli" }
+relations:
+  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,50 @@
+id: person/ahmed-sharif-as-senussi
+class: person
+label: { ar: "أحمد الشريف السنوسي", en: "Ahmed Sharif as-Senussi", ur: "احمد الشریف السنوسی" }
+names:
+  - { value: "أحمد بن محمد الشريف بن محمد بن علي السنوسي", kind: full }
+  - { value: "Ahmed Sharif as-Senussi", kind: full }
+  - { value: "Ahmed Chérif al-Sanoussi", kind: alternate }
+  - { value: "أحمد الأول", kind: regnal }
+gender: male
+summary:
+  ar: "زعيم ليبي (1873–1933)؛ تولى زعامة الحركة السنوسية سنة 1902 خلفًا لعمه محمد المهدي، وقاد المقاومة ضد الفرنسيين في تشاد والإيطاليين في ليبيا والبريطانيين في مصر، ثم تنازل عن الزعامة الفعلية لابن عمه محمد إدريس سنة 1916، وقضى سنواته الأخيرة متنقلًا بين تركيا والشام والحجاز حتى توفي بالمدينة المنورة ودُفن بالبقيع."
+  en: "Libyan leader (1873–1933). He took over the leadership of the Senussi movement in 1902, succeeding his uncle Muhammad al-Mahdi, and led the resistance against the French in Chad, the Italians in Libya and the British in Egypt; he ceded effective leadership to his cousin Muhammad Idris in 1916 and spent his last years between Turkey, Syria and the Hejaz, dying in Medina and being buried in Al-Baqi."
+  ur: "لیبیائی رہنما (1873–1933)؛ 1902 میں اپنے چچا محمد المہدی کے بعد سنوسی تحریک کی قیادت سنبھالی، چاڈ میں فرانسیسیوں، لیبیا میں اطالویوں اور مصر میں انگریزوں کے خلاف مزاحمت کی قیادت کی، 1916 میں قیادت اپنے چچا زاد محمد ادریس کے حوالے کی، اور آخری سال ترکی، شام اور حجاز میں گزار کر مدینہ منورہ میں وفات پائی اور جنت البقیع میں دفن ہوئے۔"
+roles: [scholar, general]
+wings: [people]
+regions: [maghreb]
+born:
+  edtf: "1873-12-18"
+  hijri: "1290"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Jaghbub on 18 December 1873: the Arabic article, citing his own book al-Durr al-Farid, pairs the day with 27 Shawwal 1290 AH; the English article gives the year 1873 and Wikidata the full date. Jaghbub has no place entity, so no born_in edge is written."
+  sources: [source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikidata-ahmed-sharif-as-senussi, source/wikipedia-ahmed-sharif-as-senussi-en]
+died:
+  edtf: "1933-03-10"
+  hijri: "1351"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Medina on 10 March 1933 and was buried in Al-Baqi Cemetery there (Arabic and English articles; the Arabic article gives the middle of Dhu al-Qa'da 1351 AH)."
+  sources: [source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-fr]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source names a school or a personal order membership for him. The English text calls him supreme leader of the Senussi order from 1902 (nominally after 1917); the Arabic text says he assumed leadership of the Senussi movement in 1902 and describes him as of the Senussi family; the French text calls him supreme chief of the Al-Sanoussi family. Headship of the order and descent in its founding family are office and lineage, not the personal membership attestation that recorded his cousin Idris, whose English and Arabic texts state he was born a member of the order. Wikidata gives only Islam. Recorded unknown under the doubt rule."
+    sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-fr, source/wikidata-ahmed-sharif-as-senussi]
+relations:
+  - { type: died_in, target: place/medina, sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar] }
+  - { type: buried_in, target: place/medina, sources: [source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-en] }
+external_ids: { wikidata: "Q400923" }
+sources: [source/wikipedia-ahmed-sharif-as-senussi-en, source/wikipedia-ahmed-sharif-as-senussi-ar, source/wikipedia-ahmed-sharif-as-senussi-fr, source/wikidata-ahmed-sharif-as-senussi]
+provenance:
+  layer: own-research
+  source: "English, Arabic and French Wikipedia articles on Ahmed Sharif as-Senussi, each fetched by its recorded revision id (EN 1351655929, AR 76666748, FR 237463881) with the returned id asserted equal before use, and Wikidata item Q400923 (revision 2554099080). Existence checks by name fragments (Senussi, Sanusi, Sharif, السنوسي, الشريف) and by QID across data/person and data/source found no prior record for him; his uncle Muhammad al-Mahdi al-Sanusi, his grandfather the founder Muhammad ibn Ali al-Sanusi, and his cousin Idris already have records and are different people. The lane queue gives 1873–1933, which the sources confirm. His lineage (son of Muhammad al-Sharif, nephew of al-Mahdi, grandson of the founder) is carried in prose only: his father has no record and the predicate set has no uncle relation, so no family edge is written."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-59
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

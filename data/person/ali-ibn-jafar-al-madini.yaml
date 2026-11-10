@@ -1,0 +1,24 @@
+id: person/ali-ibn-jafar-al-madini
+class: person
+label: { ar: "علي بن جعفر المديني", en: "Ibn al-Madini" }
+summary:
+  ar: "علي بن جعفر المديني حافظ الحديث، مات بسامرا يوم الاثنين لثلاث بقين من ذي الحجة سنة أربع وثلاثين ومائتين وهو ابن اثنتين وسبعين سنة وأشهر {cite:muruj-al-dhahab p. 512}. وهو علي بن عبد الله بن جعفر المديني وتوفي بسر من رأى يوم الاثنين لثلاث بقين من ذي القعدة وله كتاب المسند بعلله وكتاب المدلسين وكتاب الضعفاء وكتاب العلل وكتاب الأسماء والكنى وكتاب الأشربة وكتاب التنزيل {cite:fihrist-ibn-al-nadim p. 322}"
+  en: "The traditionist Ibn al-Madini — dead at Samarra, Dhu'l-Hijja 234, aged seventy-two {cite:muruj-al-dhahab p. 512}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch36
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
+status:
+  review: published
+  completeness: 3
+died: { edtf: "854", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / Tarikh Baghdad" }
+relations:
+  - { type: student_of, target: person/al-shafii, role: "كتب عن الشافعي (الشيرازي، PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+
+  - { type: died_in, target: place/samarra, note: "Died at Samarra, Dhu'l-Hijja 234.", sources: [source/muruj-al-dhahab], confidence: high }
+  - { type: lived_in, target: place/baghdad, note: "Hadith master of the Baghdad circle; flagged.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

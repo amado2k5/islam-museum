@@ -1,0 +1,15 @@
+id: passage/muwatta-13-1474
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1474"
+label: { ar: "الموطأ 1474 — مالك: من لا يرث بالرحم، كابن الأخ للأم والجد للأم والعم للأم والخال والجدة أم الأم وبنت الأخ والعمة والخالة، لا يرثون شيئا", en: "Muwatta 1474" }
+summary:
+  ar: "يقول مالك إن الأمر المجتمع عليه عندهم، والذي أدرك عليه أهل العلم ببلدهم، أن ابن الأخ للأم، والجد أبا الأم، والعم أخا الأب للأم، والخال، والجدة أم أبي الأم، وابنة الأخ للأب والأم، والعمة، والخالة، لا يرثون بأرحامهم شيئا. وأن المرأة لا ترث، إذا كانت أبعد نسبا من المتوفى، ممن سمي في الكتاب، بالرحم شيئا، وأن النساء لا يرثن إلا حيث سمين، وأن المرأة ترث من أعتقتْ، واستشهد بآية الأحزاب. {cite:muwatta-maruf-1997 p.20}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-13-faraid }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1474 at PDF p. 20; من لا ميراث له", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b29" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 20; matn excerpt at most 40 words" }

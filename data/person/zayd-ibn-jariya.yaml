@@ -1,0 +1,27 @@
+id: person/zayd-ibn-jariya
+class: person
+label: { en: Zayd ibn Jariya, ar: "زيد بن جارية" }
+names:
+  - { kind: full, lang: ar, value: "زيد بن جارية، ابن جارية بن عامر" }
+gender: male
+summary:
+  ar: "أحد الاثني عشر رجلاً الذين بنوا مسجد الضرار بحسب ابن إسحاق؛ نسبه: ابن جارية بن عامر."
+  en: "One of the twelve men who built Masjid al-Dirar, according to Ibn Ishaq; his ascription: son of Jariya ibn Amir."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, role: "بانٍ للمسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/builders-of-masjid-al-dirar, note: "من الاثني عشر الذين سمّاهم ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: "own-research"
+  source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173-174"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch123
+sources: [source/ibn-hisham-saqqa]
+status:
+  review: published
+  completeness: 3

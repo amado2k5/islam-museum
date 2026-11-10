@@ -1,0 +1,28 @@
+id: person/hisali-abdurrahman-celebi
+class: person
+label:
+  ar: "Hisalı Abdurrahman Çelebi"
+  en: "Hisalı Abdurrahman Çelebi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لHisalı Abdurrahman Çelebi؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Hisalı Abdurrahman Çelebi; the entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+relations:
+  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q136192326
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

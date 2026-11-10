@@ -1,33 +1,77 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { homeworkViews } from "../../../lib/homework";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
+// Pagefind indexes live in Cloudflare R2 (set PUBLIC_PAGEFIND_BASE at build time).
+// Falls back to the local path for `astro preview` after a full build.
+// baseUrl "/" keeps result links on the site: Pagefind otherwise derives it from bundlePath and links to the R2 host, which 404s.
+const pagefindBase = (import.meta.env.PUBLIC_PAGEFIND_BASE ?? "").replace(/\/$/, "");
 ---
 <BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
-    <h1>{T.search.title}</h1>
-    <div id="search" dir={T.dir}></div>
+    <h1 id="search-title">{T.search.title}</h1>
+    <div class="search-wrap" data-empty="1" role="search"><div id="search" dir={T.dir}></div>
+    <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
+    {/* homework topics strip (E3 step 7): appears when a query returned nothing, nudging pupils to a topic that exists */}
+    <section id="hw-strip" class="ui" hidden aria-label={T.edu.hw_title} aria-live="polite">
+      <p class="muted">{T.edu.hw_lede}</p>
+      <p class="hw-chips">{homeworkViews(lang).map((v) => <a class="chip" href={v.href}>{v.title}</a>)}</p>
+    </section>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
-    <script is:inline define:vars={{ placeholder: T.search.placeholder }}>
+    <link rel="stylesheet" href={`${pagefindBase}/pagefind-${lang}/pagefind-ui.css`} />
+    <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang, pagefindBase }}>
       (function () {
         var s = document.createElement("script");
-        s.src = "/pagefind/pagefind-ui.js";
+        s.src = pagefindBase + "/pagefind-" + lang + "/pagefind-ui.js";
         s.onload = function () {
-          // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built at build time; no server is involved.
+          // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built per language at build time; no server is involved.
           var syn = { whole: {}, words: {} };
           var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
-          fetch("/search-synonyms.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
-          new PagefindUI({ element: "#search", showSubResults: true, showImages: false, translations: { placeholder: placeholder },
+          // The map is split into 256 shards (scripts/derive.ts synonymShards; shardOf below is a copy of the build's): only the shards of what
+          // is typed are fetched, a few KB, instead of the whole map (2 MB compressed for Arabic) on every visit. An input event whose shards
+          // have not arrived is held back from Pagefind until they have, so every search runs with the complete map.
+          var shardOf = function (k) { var h = 2166136261; for (var i = 0; i < k.length; i++) { h ^= k.charCodeAt(i); h = Math.imul(h, 16777619); } return ((h >>> 0) % 256).toString(16).padStart(2, "0"); };
+          var synLang = lang === "en" ? "en" : "ar";
+          var shards = {};
+          var need = function (term) { var ks = [norm(term)].concat(term.split(/\s+/).map(norm)).map(shardOf); return ks.filter(function (k, i) { return ks.indexOf(k) === i; }); };
+          var load = function (k) {
+            if (!shards[k]) shards[k] = fetch("/search-synonyms." + synLang + "_" + k + ".json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+              .then(function (j) { Object.assign(syn.whole, j.whole || {}); Object.assign(syn.words, j.words || {}); shards[k] = true; });
+            return shards[k];
+          };
+          document.addEventListener("input", function (e) {
+            var t = e.target;
+            if (e.synonymsReady || !t || !t.matches || !t.matches("#search input")) return;
+            var missing = need(t.value).filter(function (k) { return shards[k] !== true; });
+            if (!missing.length) return;
+            e.stopImmediatePropagation();
+            Promise.all(missing.map(load)).then(function () { var ev = new Event("input", { bubbles: true }); ev.synonymsReady = true; t.dispatchEvent(ev); });
+          }, true);
+          new PagefindUI({ element: "#search", bundlePath: pagefindBase + "/pagefind-" + lang + "/", baseUrl: "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];
               return term.split(/\s+/).map(function (w) { return syn.words[norm(w)] || w; }).join(" ");
             } });
+          // axe label-title-only: point the generated input at the visible heading.
+          var inp = document.querySelector("#search input");
+          if (inp) inp.setAttribute("aria-labelledby", "search-title");
+          var wrap = document.querySelector(".search-wrap");
+          document.addEventListener("input", function (e) { if (e.target && e.target.matches("#search input") && wrap) wrap.dataset.empty = e.target.value ? "0" : "1"; });
+          var hwStrip = document.getElementById("hw-strip");
+          var hwCheck = function () {
+            if (!hwStrip) return;
+            var q = document.querySelector("#search input");
+            var noResults = !!document.querySelector("#search .pagefind-ui__message") && !document.querySelector("#search .pagefind-ui__result");
+            hwStrip.hidden = !(q && q.value && noResults);
+          };
+          new MutationObserver(hwCheck).observe(document.getElementById("search"), { childList: true, subtree: true });
+          document.addEventListener("input", hwCheck);
           var p = new URLSearchParams(location.search).get("q");
           if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
         };

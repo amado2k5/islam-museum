@@ -1,0 +1,22 @@
+id: person/abdallah-ibn-muti-al-adawi
+class: person
+label: { ar: "عبد الله بن مطيع العدوي", en: "'Abd Allah ibn Muti' al-'Adawi" }
+summary:
+  ar: "من وجوه أهل المدينة، خرج هو وعبد الله بن حنظلة الغسيل على مسرف بن عقبة يوم الحرة، ثم استعمله ابن الزبير على الكوفة فأخرجه المختار بن أبي عبيد من قصر الإمارة وغلب عليها {cite:muruj-al-dhahab p. 67,71}."
+  en: "The Medinan noble who commanded with Ibn Hanzala at the Harra, then governed Kufa for Ibn al-Zubayr until al-Mukhtar drove him from the citadel {cite:muruj-al-dhahab p. 67,71}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch31
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
+status:
+  review: published
+  completeness: 3
+
+died: { edtf: "692", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+relations:
+  - { type: lived_in, target: place/medina, note: "From text: أهل المدينة", sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715], confidence: low }

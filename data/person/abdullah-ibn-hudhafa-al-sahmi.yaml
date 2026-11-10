@@ -1,0 +1,33 @@
+id: person/abdullah-ibn-hudhafa-al-sahmi
+class: person
+label: { en: Abdullah ibn Hudhafa al-Sahmi, ar: "عبد الله بن حذافة السهمي" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن حذافة بن قيس بن عدي بن سعد بن سهم" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني سهم، هاجر إلى الحبشة؛ يصفه ابن إسحاق برسول رسول الله إلى كسرى. وعند البلاذري: وجّهه عمرو بن العاص بعد فتح الفسطاط إلى عين شمس فثاب على أرضها وصالح أهل قراها على مثل حكم الفسطاط. وعند البلاذري بعثه النبي إلى كسرى في سنة سبع {cite:ansab-al-ashraf p. 531}"
+  en: Of Banu Sahm; he emigrated to Abyssinia. Ibn Ishaq describes him as the Messenger of God's envoy to the Chosroes.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, east-africa, egypt-nile]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { role: official, toward: person/muhammad, status: tradition, note: "وصفه ابن إسحاق برسول رسول الله (ص8)", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "653", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+relations:
+  - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة", sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy] }
+  - { type: participated_in, target: event/sariyya-of-alqama-to-jeddah, role: "استُعمل على طائفة من الجيش؛ أمرهم مازحاً أن يثبوا في النار", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: corresponded_with, target: person/khosrow-ii, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه عين شمس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8; فتوح البلدان (معارف 1407) ص 304", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch54" }
+sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407, source/assabile-omar-abdelkafy]
+status: { review: published, completeness: 3 }

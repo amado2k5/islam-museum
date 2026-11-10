@@ -1,0 +1,31 @@
+id: person/shams-ibn-uthman
+class: person
+label:
+  ar: "شماس بن عثمان"
+  en: "Shams ibn Uthman"
+roles: [companion]
+gender: male
+summary:
+  ar: "شماس بن عثمان المخزومي، صحابي بدر وشهيد أحد، كان يذبّ عن النبي بسيفه؛ رثاه حسان؛ استشهد سنة 3هـ ⁦(625م)⁩."
+  en: "Shamas ibn 'Uthman al-Makhzumi (593–625), Companion of Badr, killed shielding the Prophet at Uhud."
+wings: [people]
+regions: [arabia]
+periods: [period/umayyad]
+sources: [source/al-aalam]
+born: { edtf: "594~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+relations:
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam] }
+  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+  - { type: died_in, target: place/uhud, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1436040)" }
+external_ids:
+  wikidata: Q7487697
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.3 p.175)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch5
+status:
+  review: published
+  completeness: 3

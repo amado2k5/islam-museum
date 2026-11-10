@@ -1,0 +1,52 @@
+id: person/abbas-mahmoud-al-aqqad
+class: person
+label: { ar: "عباس محمود العقاد", en: "Abbas Mahmoud al-Aqqad", ur: "عباس محمود العقاد" }
+names:
+  - { value: "عباس محمود العقاد", kind: full }
+  - { value: "Abbas Mahmoud al-Aqqad", kind: full }
+  - { value: "Abbas Mahmoud al-Akkad", kind: alternate }
+  - { value: "العملاق", kind: laqab }
+  - { value: "al-Imlaq", kind: laqab }
+gender: male
+summary:
+  ar: "أديب وشاعر وناقد مصري (1889-1964)، وُلد في أسوان وكان عصاميّ التعليم. شارك في تأسيس مدرسة الديوان الشعرية، وجلس في مجلس النواب، وألّف أكثر من مئة كتاب منها سلسلة «العبقريات»، وكان عضوًا في مجمع اللغة العربية بالقاهرة."
+  en: "Egyptian writer, poet and literary critic (1889-1964), born at Aswan and self-educated. He co-founded the Diwan school of poetry, sat in the Egyptian parliament, wrote more than a hundred books including the Abqariyyat ('Geniuses') biographies, and was a member of the Academy of the Arabic Language in Cairo."
+  ur: "مصری ادیب، شاعر اور نقاد (1889-1964)، اسوان میں پیدا ہوئے اور خود آموز تھے۔ انہوں نے دیوان شاعری مکتب کی بنیاد میں حصہ لیا، مصری پارلیمنٹ کے رکن رہے، سو سے زائد کتابیں لکھیں جن میں «العبقریات» سلسلہ بھی ہے، اور قاہرہ کی عربی زبان اکیڈمی کے رکن تھے۔"
+roles: [writer, poet, politician]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1889-06-28"
+  hijri: "1306"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born at Aswan on 28 June 1889; the Arabic article gives the Hijri pairing 29 Shawwal 1306 AH."
+  sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en, source/wikipedia-abbas-mahmoud-al-aqqad-ar, source/wikidata-abbas-mahmoud-al-aqqad]
+died:
+  edtf: "1964-03-12"
+  hijri: "1383"
+  calendar: gregorian
+  precision: day
+  status: debated
+  derived: true
+  note: "Died at Cairo. The day is contested: the Arabic article gives 26 Shawwal 1383 AH, corresponding to 12 March 1964, and the Urdu article and the English article's lead also give 12 March; the English article's infobox and death section and Wikidata give 13 March. The 12 March reading is followed. The English article records that his body was carried to Aswan and buried there the same day."
+  sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en, source/wikipedia-abbas-mahmoud-al-aqqad-ar, source/wikipedia-abbas-mahmoud-al-aqqad-ur, source/wikidata-abbas-mahmoud-al-aqqad]
+relations:
+  - { type: born_in, target: place/aswan, sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en, source/wikipedia-abbas-mahmoud-al-aqqad-ar] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en, source/wikipedia-abbas-mahmoud-al-aqqad-ar] }
+  - { type: buried_in, target: place/aswan, sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for al-Aqqad. Wikidata gives his religion only as Islam (Q432), a single generic structured value, which never counts alone. His Abqariyyat biographies of early Muslim figures and his philosophical study of the Qur'an are literary work, not personal attestation."
+    sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en, source/wikipedia-abbas-mahmoud-al-aqqad-ar, source/wikidata-abbas-mahmoud-al-aqqad]
+external_ids: { wikidata: "Q305962" }
+sources: [source/wikipedia-abbas-mahmoud-al-aqqad-en, source/wikipedia-abbas-mahmoud-al-aqqad-ar, source/wikipedia-abbas-mahmoud-al-aqqad-ur, source/wikidata-abbas-mahmoud-al-aqqad]
+provenance:
+  layer: own-research
+  source: "English, Arabic and Urdu Wikipedia and Wikidata Q305962, each read at the revision recorded in its source file and checked on 26 October 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-49
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

@@ -1,0 +1,13 @@
+id: person/al-iskandar-al-maqduni
+class: person
+label: { ar: "الإسكندر المقدوني", en: "Al Iskandar Al Maqduni" }
+summary:
+  ar: "الإسكندر ملك اليونانيين الذي خرج من مدينة مقدونية غازيا أرض فارس فقتل دارا بن دار الملك واستولى على ملكه وهدم المدائن وأحرق ما كان في صنوف البناء من أنواع العلم المنقوش في الصخور والخشب ونسخ ما كان مجموعا في دواوين أصطخر وقلبه إلى اللسان الرومي والقبطي وأخذ من علم النجوم والطب والطبائع وبعثها إلى مصر على ما حكاه أبو سهل بن نوبخت {cite:fihrist-ibn-al-nadim p. 333}."
+  en: "Alexander of Macedon — in the Nawbakhti narrative, the destroyer-copier of Persia's sciences {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+born: { edtf: "-356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Classical Dictionary ('Alexander the Great')" }
+died: { edtf: "-323", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Oxford Classical Dictionary ('Alexander the Great')" }
+relations:
+  - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

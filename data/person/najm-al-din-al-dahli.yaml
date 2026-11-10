@@ -1,0 +1,34 @@
+id: person/najm-al-din-al-dahli
+class: person
+label:
+  ar: "نجم الدين الدهلي"
+  en: "Najm al-Din al-Dihlawi"
+roles: [muhaddith, historian]
+gender: male
+summary:
+  ar: "بطاقة أولية لنجم الدين الدهلي، محدث ومؤرخ هندي القرن الرابع عشر، توفي سنة ١٣٤٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Najm al-Din al-Dihlawi, the fourteenth-century Indian muhaddith and historian, d. 1349; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [south-asia]
+periods: [period/mongol-post-mongol]
+died: { edtf: "1330", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Mu'jam al-Shuyukh)" }
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q111959410
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0076
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

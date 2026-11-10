@@ -54,7 +54,16 @@
         "disaster-relief",
         "law-enacted",
         "court-ruling",
-        "census"
+        "census",
+        "protest",
+        "attack",
+        "competition",
+        "award-ceremony",
+        "festival",
+        "heritage-month",
+        "exhibition",
+        "tournament",
+        "launch"
       ]
     },
     "date": {
@@ -405,6 +414,90 @@
           },
           "note": {
             "type": "string"
+          }
+        }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "job",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "job": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "made-by",
+              "used-by",
+              "built-by",
+              "staffed-by",
+              "reference-for",
+              "body-of",
+              "gathering-of",
+              "produced-by",
+              "workplace-of",
+              "route-of"
+            ]
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "inventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "invention",
+          "relation",
+          "sources"
+        ],
+        "properties": {
+          "invention": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "relation": {
+            "enum": [
+              "first-use",
+              "demonstration",
+              "publication",
+              "patent-granted"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
           }
         }
       }

@@ -1,0 +1,34 @@
+id: person/umm-salma-qajar
+class: person
+label:
+  ar: "أم سلمة قاجار"
+  en: "Umm Salma Qajar"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لأم سلمة قاجار؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Umm Salma Qajar; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+died: { edtf: "1890~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+relations:
+  - { type: born_in, target: place/qajar-iran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q63158027)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q17173271
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

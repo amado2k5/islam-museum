@@ -1,0 +1,55 @@
+id: person/abdullah-shams-el-din
+class: person
+label:
+  ar: "عبد الله شمس الدين"
+  en: "Abdullah Shams El-Din"
+  ur: "عبد اللہ شمس الدین"
+names:
+  - { value: "عبد الله شمس الدين", kind: full }
+  - { value: "Abdalla Shams El-Din", kind: full }
+  - { value: "شاعر التوحيد", kind: laqab }
+gender: male
+summary:
+  ar: "شاعر غنائي مصري (1921–1977)، تعلّم في الأزهر وعمل مستشارا ثقافيا بالمجلس الأعلى للشبان المسلمين. لُقّب بشاعر التوحيد، وكتب سنة 1956 نشيد «الله أكبر فوق كيد المعتدي» الذي صار فيما بعد نشيدا وطنيا لليبيا، ونال وسام الجمهورية من الطبقة الأولى."
+  en: "Egyptian lyric poet (1921–1977), educated at al-Azhar, who served as cultural adviser to Egypt's Supreme Council for Muslim Youth. Nicknamed the 'Poet of Tawhid', he wrote the anthem 'Allah Akbar fawqa kayd al-mu'tadi' in 1956, which later served as Libya's national anthem, and received the Order of the Republic, first class."
+  ur: "مصری غنائی شاعر (1921–1977)، جامعہ ازہر کے تعلیم یافتہ، جو مصر کی مجلسِ اعلیٰ برائے مسلم نوجوانان کے ثقافتی مشیر رہے۔ «شاعرِ توحید» کے لقب سے مشہور؛ 1956 میں لکھا گیا ان کا ترانہ «اللہ اکبر فوق کید المعتدی» بعد میں لیبیا کا قومی ترانہ بنا، اور انہیں وسامِ جمہوریہ درجہ اول ملا۔"
+roles: [poet, writer]
+wings: [people]
+regions: [egypt-nile]
+born:
+  edtf: "1921"
+  hijri: "1339"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Year and city from the Arabic Wikipedia article's lead and Wikidata. No source consulted gives a fuller birth date; the Hijri year is a conversion (most of 1921 CE falls in 1339 AH) and is marked derived."
+  sources: [source/wikipedia-abdullah-shams-el-din-ar, source/wikidata-abdullah-shams-el-din]
+died:
+  edtf: "1977-03-13"
+  hijri: "1397"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "The Arabic article's text gives his death at dawn on 13 March 1977, after his return from a youth conference in Libya; Wikidata gives March 1977 with Cairo as place of death. The Hijri year is a conversion and is marked derived."
+  sources: [source/wikipedia-abdullah-shams-el-din-ar, source/wikidata-abdullah-shams-el-din]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-abdullah-shams-el-din-ar, source/wikidata-abdullah-shams-el-din] }
+  - { type: died_in, target: place/cairo, sources: [source/wikipedia-abdullah-shams-el-din-ar, source/wikidata-abdullah-shams-el-din] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school for him. The Arabic article describes his education at al-Azhar and the Islamic and Sufi themes in his poetry; education and poetic themes are not school attestations, and Wikidata records no religion value for him at all. Not recorded until two independent sources name a school."
+    sources: [source/wikipedia-abdullah-shams-el-din-ar, source/wikidata-abdullah-shams-el-din]
+external_ids:
+  wikidata: "Q6814286"
+sources:
+  - source/wikipedia-abdullah-shams-el-din-ar
+  - source/wikidata-abdullah-shams-el-din
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia article 'عبد الله شمس الدين', read in full at revision 76649257 (20 September 2026), and Wikidata item Q6814286 (item revision 2534177916), both checked 26 October 2026. The §3 harvest row 49 names him as a person; no dawah lecturer of this name was found in any source checked — the only documented bearer is this Egyptian lyric poet, and channels circulating his anthem and poems under his name resolve to him (compare the Ahmed Deedat Arabic disposition, Batch 73)."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-74
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

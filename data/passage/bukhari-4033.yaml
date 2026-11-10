@@ -1,0 +1,19 @@
+id: passage/bukhari-4033
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4033"
+label: { ar: "البخاري 4033 — لا نورث ما تركناه فهو صدقة", en: "Bukhari 4033 — We do not inherit; what we leave is charity" }
+text: "أن عمر قال للعباس وعلي وهما يتساءلان في أموال النبي: «كانت لرسول الله ثلاث صفايا: فكانت أرض بني النضير حبساً لنوائبه، وجزأ خيبر على ثلاثة أجزاء، وكانت فدك لأبناء السبيل»، وحكم بينهما بأن ما تركه النبي صدقة لا يورث"
+summary:
+  ar: "في كتاب فرض الخمس؛ قصة تسائل العباس وعلي عند عمر في ميراث النبي من أرض بني النضير وخيبر وفدك، وفيه قاعدة «لا نورث، ما تركناه صدقة» وتقرير عمر لصفايا النبي الثلاث ووجوه صرفها. من نصوص الخلاف الأشهر بين العباس وعلي وبين أبي بكر ثم عمر."
+relations:
+  - { type: mentions, target: concept/fay, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/expedition-of-banu-al-nadir, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: place/fadak, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4033 (كتاب فرض الخمس)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

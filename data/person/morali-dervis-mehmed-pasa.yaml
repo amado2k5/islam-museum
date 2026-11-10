@@ -1,0 +1,36 @@
+id: person/morali-dervis-mehmed-pasa
+class: person
+label:
+  ar: "مورالي درويش محمد باشا"
+  en: "Moralı Derviş Mehmed Paşa"
+roles: [vizier]
+gender: male
+summary:
+  ar: "بطاقة أولية لمورالي درويش محمد باشا، الوزير العثماني في عهد محمد الرابع؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Moralı Derviş Mehmed Pasha, the Ottoman vizier of Mehmed IV's reign; his entry is not yet checked on the page."
+wings: [people]
+regions: [anatolia-balkans]
+periods: [period/gunpowder-empires]
+born: { edtf: "1729", precision: year, status: tradition, derived: true }
+died: { edtf: "1777", precision: year, status: tradition, derived: true }
+relations:
+  - { type: born_in, target: place/aksaray, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q123751)" }
+  - { type: died_in, target: place/chios, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q160483)" }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q6585067
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/dawlat-uthmaniyya-salabi]

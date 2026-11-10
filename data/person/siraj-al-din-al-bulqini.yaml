@@ -1,0 +1,30 @@
+id: person/siraj-al-din-al-bulqini
+class: person
+label:
+  ar: "سراج الدين البلقيني"
+  en: "Siraj al-Din al-Bulqini"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسراج الدين عمر البلقيني، فقيه مصر الشافعي في القرن الخامس عشر، توفي سنة ١٤٠٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Siraj al-Din Umar al-Bulqini, the fifteenth-century Shafi'i jurist of Egypt, d. 1403; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [egypt-nile]
+periods: [period/mongol-post-mongol]
+born: { edtf: "1324", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+died: { edtf: "1403", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+relations:
+  - { type: born_in, target: place/bulqinah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12199116)" }
+  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
+sources: [source/al-aalam, source/daw-lami-jil-1992]
+external_ids:
+  wikidata: Q6798541
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0043, lib-daw-lami-batch-1-2026-10-31
+status:
+  review: published
+  completeness: 1

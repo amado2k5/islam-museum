@@ -1,0 +1,37 @@
+id: person/ahmet-davutoglu
+class: person
+label: { ar: "أحمد داود أوغلو", en: "Ahmet Davutoğlu", ur: "احمد داود اوغلو" }
+names:
+  - { value: "أحمد داود أوغلو", kind: full }
+  - { value: "Ahmet Davutoğlu", kind: full }
+gender: male
+summary:
+  ar: "أكاديمي وسياسي تركي، رئيس وزراء تركيا وزعيم حزب العدالة والتنمية من 2014 إلى 2016، ووزير خارجيتها من 2009 إلى 2014، ومستشار رئيس الوزراء للسياسة الخارجية قبل ذلك. صاحب كتاب «العمق الإستراتيجي» ومهندس سياسة «صفر مشاكل» مع الجيران، ثم مؤسس حزب المستقبل سنة 2019."
+  en: "Turkish academic and politician, prime minister of Turkey and leader of the Justice and Development Party (AKP) from 2014 to 2016, foreign minister from 2009 to 2014 and chief foreign-policy advisor to the prime minister before that. Author of Strategic Depth and architect of the 'zero problems with neighbours' policy, he later founded the Future Party in 2019."
+  ur: "ترک ماہرِ تعلیمات اور سیاست دان، 2014 سے 2016 تک ترکی کے وزیر اعظم اور جسٹس اینڈ ڈویلپمنٹ پارٹی کے قائد، 2009 سے 2014 تک وزیر خارجہ اور اس سے پہلے وزیر اعظم کے مشیرِ خارجہ پالیسی رہے۔ کتاب «اسٹریٹجک ڈیپتھ» کے مصنف اور «پڑوسیوں سے صفر مسائل» پالیسی کے معمار؛ بعد میں 2019 میں فیوچر پارٹی قائم کی۔"
+roles: [politician, writer]
+wings: [people, living]
+born:
+  edtf: "1959-02-26"
+  hijri: "1378"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from English Wikipedia and Wikidata (born in Taşkent, Konya Province); the Hijri year 1378 is converter-derived."
+  sources: [source/wikipedia-ahmet-davutoglu-en, source/wikidata-ahmet-davutoglu]
+relations:
+  - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-ahmet-davutoglu-en] }
+faith:
+  - value: sunni
+    basis: documented
+    note: "Wikidata gives his religion as Sunni Islam. The English article independently describes him as 'a Sunni Muslim' in its account of Behlül Özkan's analysis of his foreign-policy outlook. Two sources give the school."
+    sources: [source/wikidata-ahmet-davutoglu, source/wikipedia-ahmet-davutoglu-en]
+external_ids: { wikidata: "Q58198" }
+sources: [source/wikipedia-ahmet-davutoglu-en, source/wikipedia-ahmet-davutoglu-ar, source/wikidata-ahmet-davutoglu]
+provenance:
+  layer: own-research
+  source: "English Wikipedia article 'Ahmet Davutoğlu' (revision of 18 October 2026), Arabic Wikipedia article «أحمد داود أوغلو» (revision of 9 October 2026), Wikidata Q58198; checked 24 Oct 2026"
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: modern-figures-batch-2
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

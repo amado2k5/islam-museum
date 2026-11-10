@@ -1,0 +1,21 @@
+id: place/khalkhal-county
+class: place
+kind: region
+label: { ar: "مقاطعة خلخال", en: "Khalkhal County", ur: "شہرستان خلخال" }
+summary:
+  ar: "موقع جغرافي."
+  en: "Region (Wikidata Q721735)."
+wings: [place]
+regions: [persia-central-asia]
+coordinates: [37.616666666667, 48.533333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q721735" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q721735 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+status: { review: draft, completeness: 1, generated_by: "Devin" }

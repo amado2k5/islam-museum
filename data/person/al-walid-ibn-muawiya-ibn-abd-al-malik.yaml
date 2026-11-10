@@ -1,0 +1,22 @@
+id: person/al-walid-ibn-muawiya-ibn-abd-al-malik
+class: person
+label: { ar: "الوليد بن معاوية بن عبد الملك", en: "al-Walid ibn Mu'awiya" }
+summary:
+  ar: "كان على دمشق لمروان بن محمد، كتب إليه يأمره بالقبض على إبراهيم الإمام بقرية الكرار والحميمة فأخذه جالساً في مسجد القرية ملففاً فحمله إليه، ثم حاصره عبد الله بن علي بدمشق في خمسين ألف مقاتل فوقعت بينهم العصبية اليمانية النزارية فقتل {cite:muruj-al-dhahab p. 230-232}."
+  en: "Marwan's man on Damascus — he seized the Imam Ibrahim in al-Humayma's mosque; besieged by 'Abd Allah ibn 'Ali with fifty thousand he died in the Yaman-Nizar riot {cite:muruj-al-dhahab p. 230-232}."
+gender: male
+wings: [people]
+provenance:
+  layer: own-research
+  source: "المسعودي، مروج الذهب وأهل المعاجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch35
+died: { edtf: "750~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam" }
+relations:
+  - { type: lived_in, target: place/damascus, note: "Marwan's man on Damascus.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - { type: died_in, target: place/damascus, note: "Killed in the Yaman-Nizar riot during the siege of Damascus.", sources: [source/muruj-al-dhahab], confidence: medium }
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

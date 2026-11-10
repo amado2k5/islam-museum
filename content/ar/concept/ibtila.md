@@ -1,0 +1,65 @@
+---
+id: concept/ibtila
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+الامتحان الإلهي للناس، كما في قوله تعالى «لنعلم من يتبع الرسول» في البقرة 143. يعرض [[person/rashid-rida|محمد رشيد رضا]] وجهين في معنى «لنعلم»: أن الفعل منسوب إلى الله بأسلوب العرب في إسناد الفعل إلى الرئيس، وأن العلم هنا علم وقوع يترتب عليه الجزاء. {cite:tafsir-manar-v02 p.7} {cite:tafsir-manar-v02 p.8}
+
+## أسلوب الإسناد إلى الرئيس
+ينقل رضا عن [[person/muhammad-abduh|الأستاذ الإمام]] أن العرب تنسب الفعل إلى الرئيس وإن لم يباشره، فيقال فتح الأمير البلد. ومن ثم يصح أن يُسند الامتحان إلى الله بصيغة الجمع ومعناه إعلام العباد بما يكون منهم. وعلى هذا الوجه يكون المعنى أن الله يبتليهم ليظهر الثابت والمنافق. {cite:tafsir-manar-v02 p.7} {cite:tafsir-manar-v02 p.8}
+
+## علم الوقوع
+الوجه الآخر أن الله يعلم الأشياء قبل وقوعها أنها ستقع، ويعلمها بعد وقوعها أنها وقعت، والجزاء يترتب على ما وقع. فالتجدد في المعلوم لا في العلم. ويستشهد رضا بآيات الكهف ولقمان في تقسيم علم الله وكلماته، ويرجح عنده التعبير بعلم الغيب وعلم الشهادة. {cite:tafsir-manar-v02 p.8} {cite:tafsir-manar-v02 p.9}
+
+## الفتنة والابتلاء في القرآن
+يذكر رضا أن الله يمحص ما في القلوب بما يبتلي به الناس من فتن، ويستشهد بآيات العنكبوت. وفي كلامه أن الفتنة ليست في الأمر ذاته، وإنما فيما يترتب عليه من إنكار الجاهلين وتثبيت المؤمنين. {cite:tafsir-manar-v02 p.8} [[passage/quran-2-143|القرآن 2:143]]
+
+## من درس الشيخ عمر عبد الكافي: تفسير القرآن ⁦(الحلقة 5)⁩
+
+يشرح الشيخ أن الفتنة في أصل معناها إدخال قطعة الذهب المخلوطة بالشوائب في النار لتصفيتها، ويذكر أن الذين من قبلنا تعرضوا بدورهم للفتن {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:32:00}.
+
+ويروي أن الصحابة طلبوا من النبي أن يدعو لهم، فذكر لهم أن الرجل ممن كان قبلهم كان يُنشر بالمنشار من مفرق شعره إلى أخمص قدميه فلا يصرفه ذلك عن قول لا إله إلا الله، ويتساءل الشيخ هل أخذنا نحن الدين بهذه الصعوبة {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:32:30}.
+
+ويحكي عن سعد في غزوة تبوك أنهم ساروا حتى أكلوا القتاد، وهو شجر شوكي في الصحراء، فلما انتهت مؤنتهم صاروا يدقّون شوكه بالحجارة ثم يتناولونه ويشربون عليه الماء {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep05 00:33:00}.
+
+## رأي الشيخ: الدنيا دار ابتلاء
+يقول الشيخ إن الدنيا دار ابتلاء لا دار تكريم، وإن الناس يُبتلون ليُعرف من يشكر ومن يصبر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:11:30}
+يشبّه الشيخ بلاء الله بجراحة الأب الرحيم لولده، قد يراها الولد ضررا وهي رحمة. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:18:00}
+ويرى أن البلاء من الخالق الحكيم العليم، وأنه لا يُرفع إلا بقدره. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:27:00}
+ويقول إن الله يبتلي العبد ليردّه إلى نفسه، ويقابل ذلك بتكبّر فرعون. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:28:30}
+
+## رأي الشيخ: الفرح بالبلاء ومراتب الشكر
+يقول الشيخ لكل مبتلى ألا يظن نفسه مصابا وحده، وأن يفرح بالبلاء قربا من الله، وأن الملائكة تؤمّن على دعائه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:38:00}
+ويذكر حديثا في أن الأنبياء أكثر الناس بلاء، ثم الصالحون، وأن البلاء على قدر الإيمان. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:08:00}
+ويفرّق الشيخ بين الشاكر في الرخاء والشكور في البلاء، ويرى أن الثاني أعلى منزلة. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep15 00:18:30}
+ويرى أن الأقدار مقسومة سلفا، وأن الغني يُبتلى بالشكر والفقير بالصبر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep11 00:35:30}
+ويقول إن الله يبتلي بالغنى والفقر والصحة والمرض، وإن المصائب قد تكفّر الذنوب. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep12 00:21:30}
+ويقول إن الحياة لا تخلو من تناوب اليسر والعسر، فيشكر المرء الله في اليسر ويصبر في العسر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep22 00:01:00}
+
+## رأي الشيخ: المرض والابتلاء
+يعدّ الشيخ الاعتقاد بأن المرض يقرّب الأجل والصحة تبعده اعتقادا فاسدا. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:03:00} ويقول إن المرض لا يجلب الموت، وإن على المبتلى أن يفرح بفضل الله ويعلم أن الله يحبه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:38:30}
+ويقول إن مرض القريب يجمع الأهل، فيتقارب المتفرقون ويزورون المريض. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:14:00}
+ويقول إن مرض الطفل قد يكون امتحانا أو تطهيرا، وإن الوالد لا ينبغي أن يفترض أن المرض نهاية الأمر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:21:30}
+ويذكر حديثا في فضل عيادة المريض، وأن المريض تحيط به الرحمة. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:20:00}
+ويقول إن المريض أقرب إلى الله، ويستشهد بحديث في أن الدعاء يكون بتواضع لا باشتراط. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep08 00:26:30}
+
+## رأي الشيخ: ابتلاءات الحياة اليومية
+يعدّد الشيخ ابتلاءات الحياة اليومية: الولد العاصي، والزوج الفظ اللسان، والجار الصعب، والمدير الظالم. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:25:30}
+ويذكر ما يبتلي به الناس من ألسنة الآخرين، وأصحاب العمل الظالمين، وجيران يكتمون الخير وينشرون الشر. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:10:30}
+ويرى أن الرزق الضيق يعلّم المرء أن يدعو الله، بخلاف الراتب المضمون الذي ينسي صاحبه ربّه. {cite:assabile-omar-abdelkafy al-naba-al-safi/ep23 00:17:30}
+
+## من سلسلة شرح الحكم العطائية ⁦(عمر عبد الكافي)⁩
+يشرح عمر عبد الكافي حكمة ابن عطاء الله أن ما يخفّف ألم البلاء علم العبد بأن الله هو المبتلي، ويذكر أن أشد الناس بلاءً الأنبياء ثم العلماء ثم الأمثل فالأمثل، ويحمد الله ما دام البلاء في غير الدين. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:14:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:23:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:24:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep13 00:27:30}
+
+## من برنامج «بستان الأمل» لعمر عبد الكافي
+يرى الشيخ أن كل الناس ممتحنون، وأن الابتلاء ليس معناه المصيبة بل الاختبار، فالله يبتلي هذا بالسقم وهذا بالمنصب، ويرى أن [[person/sulayman|سليمان]] كان من أشد المبتلين بالملك والجاه والمال، فقال هذا من فضل ربي ليبلوني أأشكر أم أكفر. {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep02 00:02:30} وفي حلقة تالية يذكر أن الله إذا أحب عبدًا ابتلاه فإن صبر اصطفاه فإن رضي اجتباه، وأن من مرّ عليه أربعون يومًا لم يُبتلَ فليراجع حساباته. {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep03 00:09:30} انظر: [[concept/al-istirja|الاسترجاع]].
+
+## في خطب عبد الحميد كشك
+يذكر [[person/abdul-hamid-kishk|عبد الحميد كشك]] حديثًا قدسيًّا مضمونه أن الله لا يقبض عبدًا يريد أن يرحمه حتى يكفّر عنه سيئاته بسقم في بدنه أو ضيق في رزقه أو مصيبة في ماله أو ولده، فيلقاه نقيًّا كيوم ولدته أمه. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep07 00:17:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep07 00:17:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep07 00:18:00} ويذكر أن من ابتُلي في نفسه أو ماله أو ولده فاستقبل ذلك بصبر جميل، استحيا الله منه يوم القيامة أن ينصب له ميزانًا أو ينشر له ديوانًا، وأدخله الجنة بغير حساب. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep07 00:18:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep07 00:19:00} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep07 00:19:30} ويذكر حديث الولد الصالح يموت فيصبر أبوه، فيُبنى له في الجنة بيت الحمد. {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep06 00:14:30} {cite:assabile-abdul-hamid-kishk shorut-kobol-assalat/ep06 00:15:30}
+
+## في برنامج الشعراوي «في رحاب الحديث القدسي»
+**المرض.** تشرح الحلقة التاسعة من [[work/fi-rihab-al-hadith-al-qudsiyyah|في رحاب الحديث القدسي]] حديث الملَكين اللذين يُبعثان إلى المريض ليسمعا ما يقول لعوّاده. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:00:00} ويقول [[person/muhammad-mutawalli-al-shaarawi|الشعراوي]] إن الحديث نسب المرض إلى العبد، لأن المرض ينشأ عن خروج ما عن سلامة الأعضاء كما أرادها الله. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:07:00} ويرى أن أول العلاج الحمية، وأن الحمية مأخوذة من المنهج الديني، وأن الإنسان يعمل سليماً إذا استُعمل بكتالوج خالقه، كما تعمل الساعة والمذياع بكتالوج صانعهما. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:10:00} {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:11:30} ويقول إن الملائكة تبلّغ وإن كان الله أعلم، ليكون للعبد أو عليه شهود. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:13:00} وعنده أن المرض كفارة، لأن الله لا يعاقب على المخالفة الواحدة مرتين. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep09 00:14:30}
+
+**فقد البصر.** وفي الحلقة السادسة والعشرين يعرّف الابتلاء بأنه فقد شيء كان سبباً في نعمة، في النفس أو في ما يعوّض النفس. {cite:assabile-muhammad-metwally-al-shaarawy fi-rihab-al-hadith-al-qudsiyyah/ep26 00:18:00}

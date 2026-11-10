@@ -1,0 +1,10 @@
+---
+id: person/mustafa-khattab
+lang: en
+source_lang: ar
+translators: []
+---
+
+Mustafa Khattab is a Canadian–Egyptian Muslim scholar and imam whose English rendering of the Qur'an, The Clear Quran, has become one of the most widely distributed translations in North America. The sources for his life give no birth date or birthplace — his institutional biography is as silent as his encyclopedia entries — so this record leaves his birth unrecorded rather than guess at it{cite:wikidata-khattab}{cite:cik-khattab-bio}. What the sources do record is a formation wholly in the Qur'an and its language: he memorised the entire Qur'an at a young age, holds a professional ijazah in the Hafs recitation with its chain of narrators back through the generations, and took his BA, MA and PhD in Islamic Studies in English, with honours, from Al-Azhar University's Faculty of Languages & Translation{cite:wikipedia-khattab-en}.
+
+Khattab was a member of the first team that translated the Ramadan night prayers live from the Sacred Mosque in Mecca and the Prophet's Mosque in Medina (2002–2005), and lectured at Al-Azhar for over a decade from 2003{cite:wikipedia-khattab-en}{cite:wikipedia-khattab-ar}; his institutional biography dates the Al-Azhar lectureship 2003–09 and adds his lectures on Islam at Clemson University (2009–10){cite:cik-khattab-bio}. An imam in the United States and Canada since 2007, he served as Muslim chaplain at Brock University (2014–2016), is a member of the Canadian Council of Imams and a Fulbright Interfaith Scholar, and his institutional biography names him imam of the Anatolia Islamic Centre{cite:wikipedia-khattab-en}{cite:cik-khattab-bio}. The Clear Quran Series: A Thematic English Translation (Al-Furqaan Foundation, 2015), approved by Al-Azhar and endorsed by the Canadian Council of Imams, became the default translation on quran.com in 2020; the series has grown to include a children's edition (2020) and a dictionary (2021), alongside his earlier books The Nation of Islam (2011) and Outfoxing Fox News (2017){cite:wikipedia-khattab-en}.

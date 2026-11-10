@@ -1,0 +1,31 @@
+id: person/al-haytham-ibn-khalaf-al-duri
+class: person
+label:
+  ar: "الهيثم بن خلف الدوري"
+  en: "Al-Haytham ibn Khalaf al-Duri"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لالهيثم بن خلف الدوري؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Al-Haytham ibn Khalaf al-Duri; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata]
+external_ids:
+  wikidata: Q107012769
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "831", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/552; 216–307 AH)" }
+died: { edtf: "919", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 14/552; 216–307 AH)" }
+relations:
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

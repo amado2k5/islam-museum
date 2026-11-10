@@ -1,0 +1,2 @@
+# Humans who held the office of caliph (Q65997) or a subclass, as position held (P39). Split from q11 after a server timeout. IDs verified 2026-10-18.
+SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q5 ; wdt:P39/wdt:P279* wd:Q65997 . } LIMIT 3000

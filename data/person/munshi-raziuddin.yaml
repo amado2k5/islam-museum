@@ -1,0 +1,33 @@
+id: person/munshi-raziuddin
+class: person
+label: { ar: "منشي رضي الدين", en: "Munshi Raziuddin", ur: "منشی رضی الدین" }
+names:
+  - { value: "منشی رضی الدین احمد خان", kind: full }
+  - { value: "Munshi Raziuddin Ahmed Khan", kind: full }
+  - { value: "Munshi-ji", kind: alternate }
+gender: male
+summary:
+  ar: "قوّال وموسيقي وباحث في الموسيقى (1912–2003) من غرانة قوال بچوں کا دہلی، غنّى في بلاط نظام حيدر آباد ثم في كراتشي بعد 1948، ونال وسام حسن الأداء في 1967، وعلّم أبناءه فريد أياز وأبا محمد الذين خلفوه، ويحمل اسمه شارع في «قوالی گلی» بكراتشي."
+  en: "Qawwal, classical musician and scholar of music (1912–2003) of the Qawwal Bachon ka Gharana of Delhi, who sang at the court of the Nizam of Hyderabad and then in Karachi after 1948, received the Pride of Performance in 1967, and trained his sons Fareed Ayaz and Abu Muhammad, who succeeded him; a street in Karachi's 'Qawwali Gali' bears his name."
+  ur: "قوال، کلاسیکی موسیقار اور موسیقی کے محقق ⁦(1912ء–2003ء)⁩ قوال بچوں کے دہلی گھرانے سے، جنھوں نے نظامِ حیدرآباد کے دربار اور 1948ء کے بعد کراچی میں گایا، 1967ء میں تمغۂ حسنِ کارکردگی پایا، اور اپنے بیٹوں فرید ایاز اور ابو محمد کو تربیت دی جو ان کے جانشین ہوئے؛ کراچی کی «قوالی گلی» میں ایک گلی ان کے نام سے ہے۔"
+wings: [people]
+regions: [south-asia]
+roles: [sufi-singer, musician, scholar]
+born: { edtf: "1912", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in Delhi (English article and Wikidata).", sources: [source/wikipedia-munshi-raziuddin-en, source/wikidata-munshi-raziuddin] }
+died: { edtf: "2003", calendar: gregorian, precision: year, status: historical, derived: false, note: "Died in Karachi (English article and Wikidata). No place entity for Karachi exists yet.", sources: [source/wikipedia-munshi-raziuddin-en, source/wikidata-munshi-raziuddin] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the English article nor Wikidata names a school for him; the article speaks of his 'devotion to Sufi music', which is repertoire, not attestation (prompt.md §5). Not recorded."
+    sources: [source/wikipedia-munshi-raziuddin-en, source/wikidata-munshi-raziuddin]
+footprint:
+  wikipedia: { languages: [en, ur], checked: "2026-11-06", sources: [source/wikidata-munshi-raziuddin] }
+  wikidata: "Q6809428"
+honours:
+  - { award: award/pride-of-performance, result: won, year: 1967, note: "for his contribution to Sufi music (Dawn, 25 August 2008)", sources: [source/wikipedia-munshi-raziuddin-en] }
+external_ids: { wikidata: "Q6809428" }
+sources: [source/wikipedia-munshi-raziuddin-en, source/wikidata-munshi-raziuddin]
+provenance: { layer: own-research, source: "English Wikipedia 'Munshi Raziuddin' (revision 1380149088, 14 October 2026) and Wikidata Q6809428 (revision 2551220439), read in Chrome on 6 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1-b05 }
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
+relations:
+  - { type: lived_in, target: place/delhi, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-munshi-raziuddin-en, source/wikidata-munshi-raziuddin] }

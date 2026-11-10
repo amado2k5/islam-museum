@@ -1,0 +1,22 @@
+id: person/jamil-ibn-abdallah-al-udhri
+class: person
+label: { ar: "جميل بثينة", en: "Jamil Buthayna" }
+summary:
+  ar: "جميل بن عبد الله بن معمر العذري، استشهد المسعودي بقوله في بثينة على مذهب الأرواح جنود مجندة تعلق روحي روحها قبل خلقنا ومن قبل ما كنا نطافاً وفي المهد فزاد كما زدنا فأصبح نامياً {cite:muruj-al-dhahab p. 360}."
+  en: "Jamil ibn 'Abd Allah al-'Udhri — his Buthayna lines on souls conjoined before creation cited for the 'mustered spirits' doctrine {cite:muruj-al-dhahab p. 360}."
+gender: male
+wings: [people]
+born: { edtf: "659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+relations:
+  - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 360"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch44
+sources: [source/muruj-al-dhahab]
+status:
+  review: published
+  completeness: 3

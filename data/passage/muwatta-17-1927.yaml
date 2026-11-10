@@ -1,0 +1,16 @@
+id: passage/muwatta-17-1927
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1927"
+label: { ar: "الموطأ 1927 — مالك: من سلف ذهبا أو ورقا في حيوان أو عرض موصوف إلى أجل، فإذا حل الأجل جاز أن يبيع المشتري تلك السلعة من البائع بعرض يعجله، إلا الطعام فلا يبيعه حتى يقبضه", en: "Muwatta 1927" }
+summary:
+  ar: "قال مالك: من سلف ذهبا أو ورقا في حيوان أو عروض، إذا كان موصوفا إلى أجل مسمى، ثم حل الأجل، فإنه لا بأس أن يبيع المشتري تلك السلعة من البائع، قبل أن يحل الأجل وبعد ما يحل، بعرض من العروض يعجله ولا يؤخره، بالغا ما بلغ ذلك العرض، إلا الطعام، فإنه لا يحل أن يبيعه حتى يقبضه. وللمشتري أن يبيع تلك السلعة من غير صاحبه الذي ابتاعها منه، بذهب أو ورق أو عرض من العروض، يقبض ذلك ولا يؤخره، لأنه إذا أخر ذلك قبح، ودخله ما يكره من الكالئ بالكالئ، والكالئ بالكالئ أن يبيع الرجل دينا له على رجل، بدين على رجل آخر. {cite:muwatta-maruf-1997 p.189}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-17-buyu }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1927 at PDF p. 189; السلفة في العروض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 189; matn excerpt at most 40 words" }

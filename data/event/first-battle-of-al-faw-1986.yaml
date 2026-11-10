@@ -1,0 +1,23 @@
+id: event/first-battle-of-al-faw-1986
+class: event
+kind: battle
+label: { ar: "معركة الفاو الأولى", en: "First Battle of al-Faw" }
+summary:
+  ar: "بطاقة أولية لمعركة الفاو الأولى سنة ١٩٨٦م، أخذ إيران لشبه جزيرة الفاو في حرب الخليج؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the First Battle of al-Faw in 1986, Iran's capture of the Faw peninsula in the Gulf War; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1986", precision: year, status: tradition, derived: true }
+  end: { edtf: "1986", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q83002
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in Iran-Iraq war histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

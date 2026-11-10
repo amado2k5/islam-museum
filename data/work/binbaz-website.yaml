@@ -1,0 +1,40 @@
+id: work/binbaz-website
+class: work
+kind: website
+label:
+  ar: "موقع ابن باز"
+  en: "Ibn Baz website (binbaz.org.sa)"
+  ur: "ابن باز ویب سائٹ"
+summary:
+  ar: "الموقع الذي يجمع تراث الشيخ عبد العزيز بن باز العلمي وفتاواه ودروسه؛ أقدم لقطة له في أرشيف الإنترنت في نوفمبر 1999 يصف فيها نفسه بأنه موقعه الرسمي الوحيد المعتمد منه كتابةً قبل وفاته، بإشراف ابنه أحمد، وهو اليوم من مشاريع مجموعة زاد التي يملكها محمد صالح المنجد."
+  en: "The site that gathers the scholarly legacy, fatwas and lessons of Shaykh Abd al-Aziz ibn Baz; its earliest archived capture, of November 1999, calls it his only official site, approved by him in writing before his death and supervised by his son Ahmad; today it is a project of the Zad Group owned by Muhammad Salih al-Munajjid."
+  ur: "وہ سائٹ جو شیخ عبدالعزیز بن باز کا علمی ورثہ، فتاویٰ اور دروس جمع کرتی ہے؛ نومبر 1999 کی سب سے پرانی آرکائیو تصویر میں وہ خود کو ان کی واحد سرکاری سائٹ کہتی ہے جس کی انہوں نے وفات سے پہلے تحریری منظوری دی، نگران ان کے صاحبزادے احمد؛ آج یہ محمد صالح المنجد کے زاد گروپ کا منصوبہ ہے۔"
+wings: [words, today]
+url: "https://binbaz.org.sa"
+launched:
+  edtf: "1999-11-27/"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "No launch date in a source read; the earliest archived capture is of 27 November 1999 (copyright line 1420 AH / 1999), so the site existed by then. The open interval records that and nothing more."
+  sources: [source/wayback-binbaz-1999]
+languages: [ar]
+publisher: group/zad-group
+archive_url: "https://web.archive.org/web/19991127104654/http://www.binbaz.org.sa:80/"
+content_type: fatwa
+relations:
+  - { type: about, target: person/ibn-baz-abd-al-aziz, note: "his fatwas, lessons and writings", sources: [source/wikipedia-binbaz-website-ar, source/wayback-binbaz-1999] }
+footprint:
+  wikipedia: { languages: [ar], checked: "2026-11-07", sources: [source/wikidata-binbaz-website] }
+  wikidata: "Q130211403"
+external_ids:
+  wikidata: Q130211403
+made: { by_muslims: true, basis: documented, sources: [source/wikipedia-binbaz-website-ar] }
+sources: [source/wikipedia-binbaz-website-ar, source/wayback-binbaz-1999, source/wikidata-binbaz-website, source/binbaz]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «موقع ابن باز» (revision 68580741, 15 November 2024), the Internet Archive capture of binbaz.org.sa of 27 November 1999 and Wikidata Q130211403, read in Chrome on the founder's Mac on 7 November 2026"
+  generated_by: "Claude Code (claude-opus-5-5)"
+  model: claude-opus-5-5
+  run: modern-web-b08
+status: { review: published, completeness: 3, generated_by: "Claude Code (claude-opus-5-5)" }

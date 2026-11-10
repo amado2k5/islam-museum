@@ -1,0 +1,23 @@
+id: event/battle-of-tashkessen-1877
+class: event
+kind: battle
+label: { ar: "معركة طاش كسن", en: "Battle of Tashkessen" }
+summary:
+  ar: "بطاقة أولية لمعركة طاش كسن سنة ١٨٧٧م، فوز المدافع العثماني في حرب البلقان؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Tashkessen in 1877, the Ottoman rear-guard victory in the Balkan war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/colonial-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1877", precision: year, status: tradition, derived: true }
+  end: { edtf: "1877", precision: year, status: tradition, derived: true }
+sources: [source/dawlat-uthmaniyya-salabi]
+external_ids:
+  wikidata: Q3394726
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

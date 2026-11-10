@@ -1,0 +1,73 @@
+id: invention/mansur-covered-water-conduits
+class: invention
+label: { ar: "قنوات الماء المغطاة في بغداد المنصور", en: "Mansur Baghdad's covered water conduits", ur: "منصور کے بغداد کی ڈھکی آبی نالیاں" }
+names:
+  - { kind: alternate, lang: ar, value: "ترتيب جلب الماء بالقنوات المغطاة" }
+  - { kind: alternate, lang: en, value: "Covered urban conduit provisioning in early Abbasid Baghdad" }
+summary:
+  ar: "ترتيب عباسي لجلب الماء إلى نواة بغداد عبر قنوات مغطاة مبطنة، تطويرٌ عمراني لا اختراعاً للماء أو القنوات {cite:lestrange-baghdad-1900 p.28–29}."
+  en: "Abbasid arrangement supplying Baghdad's nucleus through lined/covered conduits,an urban improvement not invention of water or channels {cite:lestrange-baghdad-1900 p.28–29}."
+  ur: "بغداد کے مرکز تک پانی پہنچانے کے لیے مبطن و ڈھکی نالیوں کا عباسی انتظام، شہری بہتری؛ پانی یا نہروں کی ایجاد نہیں {cite:lestrange-baghdad-1900 p.28–29}۔"
+domain: water-agriculture
+kind: system
+disciplines: [history]
+wings: [made, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0763"
+    hijri: "0146"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Le Strange reports treasury/diwan transfer by146AH/763 and narratives of conduits during the same construction era; later channel refinement is staged,not one dated decree."
+    sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context: { ar: "نواة حكومة في مدينة تتصل بدجلة والقنوات؛ جلب الماء جزء من السكن والعمل لا رمز هندسي مجرد {cite:tdv-bagdat-duri Foundation and plan}.", en: "Governmental nucleus in a city linked to Tigris/canals; water supply was part of habitation/work,not an abstract geometric symbol {cite:tdv-bagdat-duri Foundation and plan}.", ur: "دجلہ اور نہروں سے جڑے شہر میں حکومتی مرکز؛ پانی لانا رہائش و کام کا حصہ تھا، محض ہندسی علامت نہیں {cite:tdv-bagdat-duri Foundation and plan}۔" }
+makers:
+  - { person: person/al-mansur, role: commissioner, place: place/baghdad, note: "Commissioner of provision arrangement,not sole hydraulic engineer or inventor of conduits.", sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri] }
+attribution:
+  status: improvement
+  claim: { ar: "تنسيق مصدر الماء والقنوات المغطاة داخل نواة المدينة.", en: "Coordination of source and covered conduit distribution in the city nucleus.", ur: "شہری مرکز میں منبع اور ڈھکی نالیوں کی مربوط تقسیم۔" }
+  basis: { ar: "ينقل لسترنج مراحل القنوات من شرط أولي إلى قنوات مكسوة مغطاة من الدجيل والكرخاية {cite:lestrange-baghdad-1900 p.28–29}.", en: "Le Strange reports staged conduits from an initial condition to lined/covered channels from Dujayl and Karkhaya {cite:lestrange-baghdad-1900 p.28–29}.", ur: "لی اسٹرینج ابتدائی شرط سے دجیل و کرخایہ سے مبطن ڈھکی نالیوں تک مرحلہ وار ترتیب بیان کرتے ہیں {cite:lestrange-baghdad-1900 p.28–29}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "أساس فردي معلن وهوية غير مستنتجة", en: "Named individual basis,non-inferred identity", ur: "واضح شخصی بنیاد، غیر قیاسی شناخت" }
+      summary: { ar: "أساس الهوية مأخوذ من خبر السيوطي عن تعلم المنصور للقراءة والفقه وحواره مع مالك، ضمن الإطار السني المعلن للمتحف، لا من اسم الحاكم أو المنصب {cite:tarikh-khulafa-minhaj-1434 p.427}.", en: "Identity basis comes from Suyuti's report of al-Mansur's reading/legal learning and Malik dialogue within the explicit Sunni museum frame,not from ruler title/office inference {cite:tarikh-khulafa-minhaj-1434 p.427}.", ur: "شناخت کی بنیاد سیوطی کی روایت ہے: منصور کی قراءت و فقہی تعلیم اور مالک سے مکالمہ، واضح سنی سیاق میں؛ لقب یا منصب سے قیاس نہیں {cite:tarikh-khulafa-minhaj-1434 p.427}۔" }
+      sources: [source/tarikh-khulafa-minhaj-1434]
+    - tradition: academic
+      stance: { ar: "رواية تركيبية لا تقرير تشغيل", en: "Synthetic narrative,not operations log", ur: "ترکیبی روایت، عملیاتی رجسٹر نہیں" }
+      summary: { ar: "خبر وفرة الماء منقول في إعادة تركيب1900ولا يساوي قياساً هندسياً حديثاً أو تقييماً صحياً للمياه {cite:lestrange-baghdad-1900 p.28–29}.", en: "The report that water did not fail appears in a1900 reconstruction and is not modern engineering measurement or public-health certification {cite:lestrange-baghdad-1900 p.28–29}.", ur: "پانی نہ رکنے کی خبر1900کی تاریخی تشکیل میں ہے، جدید انجینئرنگ پیمائش یا صحتی سند نہیں {cite:lestrange-baghdad-1900 p.28–29}۔" }
+      sources: [source/lestrange-baghdad-1900]
+precursors:
+  - external: { ar: "قنوات وأنهار سابقة في موضع بغداد", en: "Pre-existing canals and rivers around Baghdad", ur: "بغداد کے مقام کی پہلے سے موجود نہریں اور دریا" }
+    note: "Provision arrangement built on inherited waterways,not first use of channels in region."
+    sources: [source/tdv-bagdat-duri, source/baladhuri-hitti-1916]
+dependents: []
+spread: []
+impact:
+  fields: [water-agriculture, architecture-building]
+  changed: { ar: "ربط المقر الحكومي بمسارات مائية منتظمة يساعد على السكن والإدارة، مع تغيرات لاحقة في الأسواق والعمران {cite:lestrange-baghdad-1900 p.25–29}.", en: "Linked governmental seat with regular water paths supporting habitation/administration,with later market/urban changes {cite:lestrange-baghdad-1900 p.25–29}.", ur: "حکومتی مرکز کو منظم آبی راستوں سے جوڑا گیا، رہائش و انتظام میں مدد کے ساتھ؛ بعد میں بازار و آبادی بھی بدلتی رہی {cite:lestrange-baghdad-1900 p.25–29}۔" }
+  history: { ar: "مثال على أن تخطيط العاصمة لا يقتصر على الأسوار والبوابات بل يشمل الخدمة المائية.", en: "Shows capital planning was not only walls/gates but also water service.", ur: "یہ مثال دکھاتی ہے کہ دارالحکومت کی منصوبہ بندی صرف فصیل و دروازے نہیں، آبی خدمت بھی تھی۔" }
+  significance: 3
+  why: "Specific staged provision arrangement with attributed source limits,without world-first or modern-utility-performance claims."
+described_in: []
+examples: []
+sites: [place/baghdad]
+concepts: []
+today:
+  form: { ar: "موضوع تاريخي للمقارنة بين التخطيط العمراني وخدمة الماء، لا شبكة قائمة كاملة يمكن تشغيلها من نص واحد.", en: "Historical comparison of urban planning and water service,not a complete operational network recoverable from one text.", ur: "شہری منصوبہ بندی اور آبی خدمت کا تاریخی تقابل، ایسا مکمل عملی نظام نہیں جو ایک متن سے بحال ہو جائے۔" }
+  descendants: { ar: "يشبه مبدأ الجمع بين النقل والخدمة المائية في مدن لاحقة، بلا نسب مثبت لكل شبكة حديثة.", en: "Resembles later combinations of mobility and water service,without proven descent for every modern network.", ur: "بعد کے شہروں میں آمدورفت و آبی خدمت کے ملاپ سے مشابہت، مگر ہر جدید نظام کا ثابت نسب نہیں۔" }
+media: { image: media/round-city-water-conduits-context, diagram: media/diagram-mansur-water-conduits }
+kids:
+  ar: "ارسم دائرة مدينة ونهراً خارجها. صِل المصدر بالمركز بخطين: خط شعاعي وخط حولي، ثم اختر نقطة بيت ونقطة سوق واسأل أي طريق أقصر. تمرين ورقي حديث، لا تعليم حفر أو تمديد أنابيب."
+  en: "Draw a city circle and a river outside it. Connect source to centre with a radial line and a ring line,then choose a home and market point and compare paths. Modern paper exercise,not digging/piping instructions."
+  ur: "شہر کا دائرہ اور باہر دریا بنائیں۔ منبع کو مرکز سے ایک شعاعی اور ایک حلقہ وار خط سے جوڑیں، پھر گھر اور بازار کے دو نقطے رکھ کر راستہ موازنہ کریں۔ جدید کاغذی سرگرمی ہے، کھدائی یا پائپ ڈالنے کی ہدایت نہیں۔"
+sources: [source/lestrange-baghdad-1900, source/tdv-bagdat-duri, source/commons-round-city-lestrange, source/baladhuri-hitti-1916, source/tarikh-khulafa-minhaj-1434]
+status: { review: published, completeness: 3, generated_by: "Copilot SDK in VS Code" }
+provenance: { layer: own-research, generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b95", source: "D-137; water-specific synthesis from already read Le Strange chapterII and Duri Baghdad context,with identity basis from already read Suyuti427 and founding context from Hitti445–446." }

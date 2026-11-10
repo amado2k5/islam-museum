@@ -1,0 +1,30 @@
+---
+// Storytellers: retell a Prophet Quest story in your own words. No-JS: all five
+// stories + prompts render statically with a note to ask a grown-up to print.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import RetellBox from "../../../components/RetellBox.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadQuestStops, viewQuestStops, loadRetell, viewRetell } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const stops = viewQuestStops(loadQuestStops(), lang);
+if (stops.length !== 5) throw new Error(`retell: expected 5 stops, got ${stops.length}`);
+const retell = viewRetell(loadRetell(), lang);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.retell_title} description={t.retell_lede} path={`/${lang}/sighar/retell/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.retell_title}</span>
+  </nav>
+  <RetellBox lang={lang} t={t} stops={stops} retell={retell} />
+  <details class="grownups">
+    <summary>{t.grownups_title}</summary>
+    <p>{t.grownups_quest}</p>
+  </details>
+</BaseLayout>

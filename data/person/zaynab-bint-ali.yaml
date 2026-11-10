@@ -5,7 +5,7 @@ names:
   - { kind: full, lang: ar, value: زينب بنت علي بن أبي طالب }
   - { kind: laqab, lang: ar-Latn, value: "Zaynab al-Kubra" }
 gender: female
-born: { edtf: "0626~", calendar: julian, precision: year, status: tradition, note: "Traditionally born in Medina shortly after her brother Husayn; the exact year is not certain.", sources: [source/ibn-sad-tabaqat-bewley] }
+born: { edtf: "0626~", calendar: julian, precision: year, status: tradition, note: "Traditionally born in Medina shortly after her brother Husayn; the exact year is not certain. يذكر الكتاب مولدها قبل خمس سنوات من وفاة جدها وأنها سميت تيمناً بخالتها زينب بنت رسول الله (نساء حول الرسول ص441).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 died: { edtf: "0682~", calendar: julian, precision: year, status: tradition, note: "Reports differ on the year and on whether she died in Damascus, Cairo or Medina; Cairo tradition gives about 682 CE.", sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985] }
 roles: [companion]
 traditions: [sunni, shia-twelver]
@@ -22,7 +22,6 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She is also venerated in Shia tradition; see the group and family contexts." }
 relations:
-  - { type: born_in, target: place/medina }
   - { type: child_of, target: person/ali-ibn-abi-talib }
   - { type: child_of, target: person/fatima }
   - { type: sibling_of, target: person/hasan-ibn-ali }
@@ -30,5 +29,14 @@ relations:
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: member_of, target: group/banu-hashim }
   - { type: participated_in, target: event/karbala, role: survivor-taken-captive, sources: [source/momen-1985] }
-sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985]
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/damascus, sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985] }
+external_ids:
+  wikidata: Q1111208
+sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+provenance:
+  layer: own-research
+  source: "Generated 2026-10-11, as recorded in this record's status.generated_by (which names no source work); the record rests on Ibn Sa'd's Tabaqat in Bewley's translation (source/ibn-sad-tabaqat-bewley), Momen's Introduction to Shi'i Islam (source/momen-1985) and Nisa Hawl al-Rasul (source/nisa-hawl-alrasul)"
+  generated_by: "Devin"

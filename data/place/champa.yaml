@@ -1,0 +1,16 @@
+id: place/champa
+class: place
+kind: region
+label: { en: "Champa", ar: "تشامبا" }
+summary:
+  en: "Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia."
+  ar: "منطقة في تشامبا."
+wings: [place]
+regions: [southeast-asia]
+coordinates: [14, 108]
+coordinate_precision: approx
+coordinate_note: "Representative point from the Wikidata item."
+external_ids: { wikidata: "Q216786" }
+sources: [source/wikidata]
+provenance: { layer: own-research, source: "Wikidata item Q216786 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

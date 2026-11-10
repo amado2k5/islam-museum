@@ -1,0 +1,76 @@
+id: exhibit/path-cinema-palestine
+class: exhibit
+kind: trail
+label:
+  ar: السينما الفلسطينية
+  en: Palestinian Cinema
+summary:
+  ar: 'مسار في سينما القضية: الجنة الآن وفرحة ولا أرض أخرى — الكاميرا الفلسطينية تشهد على العالم.'
+  en: A trail through the cinema of the cause.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الجنة الآن
+    en: Paradise Now
+  body:
+    ar: 'هاني أبو أسعد: اثنان في يوم واحد.'
+    en: 'هاني أبو أسعد: اثنان في يوم واحد.'
+  features:
+  - screen/al-jannah-al-an-2005
+  - screen/la-ard-ukhra-2024
+- title:
+    ar: فرحة
+    en: Farha
+  body:
+    ar: 'النكبة بعيون فتاة: أردني فلسطيني.'
+    en: 'النكبة بعيون فتاة: أردني فلسطيني.'
+  features:
+  - screen/farha-2021
+  - screen/filastin-36-2025
+- title:
+    ar: لا أرض أخرى
+    en: No Other Land
+  body:
+    ar: 'أوسكار 2025: مسافر يطا تشهد.'
+    en: 'أوسكار 2025: مسافر يطا تشهد.'
+  features:
+  - screen/la-ard-ukhra-2024
+  - screen/min-al-sifr-2024
+- title:
+    ar: الوثائقي
+    en: Documentary
+  body:
+    ar: 'خمس كاميرات مكسورة: سينما الاحتجاج.'
+    en: 'خمس كاميرات مكسورة: سينما الاحتجاج.'
+  features:
+  - screen/khams-kamirat-mutakassira-2011
+  - screen/sawt-hind-rajab-2025
+- title:
+    ar: الحاضر
+    en: The present
+  body:
+    ar: 'غزة على الشاشة: 2024-2025.'
+    en: 'غزة على الشاشة: 2024-2025.'
+  features:
+  - screen/hammat-al-mutawassit-2022
+  - screen/kana-zaman-fi-ghazza-2025
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

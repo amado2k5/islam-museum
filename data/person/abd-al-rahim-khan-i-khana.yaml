@@ -1,0 +1,29 @@
+id: person/abd-al-rahim-khan-i-khana
+class: person
+label:
+  ar: "عبد الرحيم خان خانان"
+  en: "Abd al-Rahim Khan-i-Khana"
+roles: [military, poet]
+gender: male
+summary:
+  ar: "بطاقة أولية لعبد الرحيم خان خانان بن بيرم خان، القائد المغولي وصاحب خان خانان وأحد أعيان بلاط أكبر وجهانكير ومن أشهر شعراء الهند بالهندية والفارسية، توفي سنة ١٦٢٧م؛ تذكره مصادر التاريخ المغولي ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Abd al-Rahim Khan-i-Khana, son of Bairam Khan, the Mughal commander holding the rank of Khan-i-Khanan under Akbar and Jahangir and a celebrated Hindi and Persian poet, d. 1627; the Encyclopaedia of Islam entry (vol. 1, pp. 99-100) has been checked and its facts are added."
+wings: [people]
+regions: [south-asia]
+periods: [period/gunpowder-empires]
+sources: [source/richards-mughal-empire-1993, source/encyclopaedia-of-islam-2]
+external_ids:
+  wikidata: Q317364
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: Richards, The Mughal Empire (1993) — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0012
+status:
+  review: draft
+  completeness: 1
+born: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akbarnama; EI2 ('Abd al-Rahim Khan-i Khanan': 964–1036 AH)" }
+died: { edtf: "1627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Akbarnama; EI2 ('Abd al-Rahim Khan-i Khanan': 964–1036 AH)" }
+relations:
+  - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (hindi); denotes association, not proven residence.", sources: [source/richards-mughal-empire-1993, source/encyclopaedia-of-islam-2], confidence: low }

@@ -1,0 +1,20 @@
+id: passage/muwatta-1-398
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.398"
+label: { ar: "الموطأ 398 — بلاغ: ابن عباس يقصر فيما بين مكة والطائف وعسفان وجدة", en: "Muwatta 398" }
+summary:
+  ar: "بلاغ في باب ما يجب فيه قصر الصلاة: يروي مالك أنه بلغه أن عبد الله بن عباس كان يقصر الصلاة في مثل ما بين مكة والطائف، وفي مثل ما بين مكة وعسفان، وفي مثل ما بين مكة وجدة؛ ويقول مالك إن ذلك أربعة بُرد وهو أحب ما تُقصر إليه فيه الصلاة عنده. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ويحيى بن بكير، وأن الشافعي وعبد الرزاق وابن أبي شيبة أخرجوا آثاراً عن ابن عباس بمعناه، وأن الدارقطني أخرجه مرفوعاً ولا يصح مرفوعاً. {cite:muwatta-maruf-1997 p.211} {cite:muwatta-maruf-1997 p.212}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/taif, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/usfan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/jeddah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 398 at PDF p. 211; باب ما يجب فيه قصر الصلاة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b16" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 211; matn excerpt at most 40 words" }

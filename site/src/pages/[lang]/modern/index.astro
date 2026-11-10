@@ -1,0 +1,127 @@
+---
+// The Modern Islam Browser's home (docs/plan/26 section 4.2): the year ribbon, the nineteen section tiles with their
+// counts and newest records, the upcoming strip, the new-in-30-days strip, the countries and the languages. Every number
+// is read from the graph at build time and appears on this page only; the complete lists are HTML without JavaScript.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import {
+  SECTION_IDS, WINDOW_START_YEAR, buildYear, countryCounts, countryName, entriesOf, hijriOfYear, languageCounts, languageName,
+  modernEntries, newEntries, sectionCounts, sectionLabel, TOP_LISTS, upcomingEntries, yearCounts, years,
+} from "../../../lib/modern";
+import { formatDate } from "../../../lib/dates";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const M = T.modern;
+const count = (n: number) => num(n, lang);
+const status = fmt(M.status, { records: count(modernEntries.length), sections: count(SECTION_IDS.filter((s) => sectionCounts[s] > 0).length) });
+const maxYear = Math.max(1, ...Object.values(yearCounts));
+const newest = (s: string) => entriesOf(s).slice(0, 3);
+const base = `/${lang}/modern`;
+---
+<BaseLayout lang={lang} title={M.title} description={M.lede} path={`${base}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{M.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {M.title}</nav>
+    <div data-pagefind-body>
+      <h1>{M.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{M.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <p class="ui muted" style="max-width:var(--measure)">{M.listed_note}</p>
+    </div>
+
+    <section aria-labelledby="ribbon-title" style="margin-top:2rem" data-modern-ribbon>
+      <h2 id="ribbon-title">{M.ribbon_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{M.ribbon_note}</p>
+      <ol class="ui" role="list" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:4px;align-items:end;list-style:none;padding:0;margin:0 0 .5rem;min-height:120px">
+        {years.map((y) => (
+          <li style="display:flex;flex-direction:column;align-items:center;gap:4px">
+            <a href={`${base}/year/${y}/`} title={`${y} · ${hijriOfYear(y)} AH · ${count(yearCounts[y])}`} style="display:block;width:100%;text-decoration:none">
+              <span class="sr-only">{y}: {count(yearCounts[y])}</span>
+              <span aria-hidden="true" style={`display:block;height:${Math.max(4, Math.round((yearCounts[y] / maxYear) * 90))}px;background:var(--gold);border-radius:3px 3px 0 0;opacity:${yearCounts[y] ? 1 : 0.25}`}></span>
+            </a>
+            <span aria-hidden="true" class="muted" style="font-size:.6rem;writing-mode:vertical-rl;transform:rotate(180deg)">{y}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="ui muted" style="font-size:.85rem">{fmt(M.ribbon_span, { h1: hijriOfYear(WINDOW_START_YEAR).split("–").pop() ?? "", y1: String(WINDOW_START_YEAR), h2: hijriOfYear(buildYear).split("–").pop() ?? "", y2: String(buildYear) })}</p>
+    </section>
+
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{M.sections_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{M.sections_note}</p>
+      <ul class="grid-cards" role="list" style="margin:1rem 0 2rem">
+        {SECTION_IDS.map((s) => (
+          <li data-modern-section={s}>
+            <div class="card">
+              <h3 class="card-title"><a href={`${base}/${s}/`}>{sectionLabel(s, lang)}</a></h3>
+              <p class="ui" style="margin:4px 0 8px">{fmt(M.count_records, { n: count(sectionCounts[s]) })}</p>
+              {newest(s).length > 0 ? (
+                <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+                  {newest(s).map((e) => <li><a class="chip" style="background:var(--bg)" href={href(lang, e.node.id)}>{labelOf(e.node, lang)}</a></li>)}
+                </ul>
+              ) : <p class="ui muted" style="margin:0">{M.no_records}</p>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px">
+      <section class="panel" aria-labelledby="upcoming-title">
+        <h2 id="upcoming-title" style="margin-top:0">{M.upcoming_title}</h2>
+        {upcomingEntries.length === 0 ? <p class="ui muted">{M.upcoming_none}</p> : (
+          <ul class="ui" role="list" style="padding:0;margin:0;list-style:none">
+            {upcomingEntries.slice(0, 5).map((e) => (
+              <li style="padding:6px 0;border-bottom:1px solid var(--line)">
+                <a href={href(lang, e.node.id)} style="font-weight:600">{labelOf(e.node, lang)}</a>
+                {e.node.data.horizon?.expected && <span class="muted"> · {M.expected}: {formatDate(e.node.data.horizon.expected, lang).text}</span>}
+              </li>
+            ))}
+          </ul>
+        )}
+        <p class="ui" style="margin:8px 0 0"><a href={`${base}/upcoming/`}>{M.all_records} →</a></p>
+      </section>
+      <section class="panel" aria-labelledby="new-title">
+        <h2 id="new-title" style="margin-top:0">{M.new_title}</h2>
+        {newEntries.length === 0 ? <p class="ui muted">{M.new_none}</p> : (
+          <ul class="ui" role="list" style="padding:0;margin:0;list-style:none">
+            {newEntries.slice(0, 5).map((e) => (
+              <li style="padding:6px 0;border-bottom:1px solid var(--line)"><a href={href(lang, e.node.id)} style="font-weight:600">{labelOf(e.node, lang)}</a> <span class="muted">· {e.node.updated}</span></li>
+            ))}
+          </ul>
+        )}
+        <p class="ui" style="margin:8px 0 0"><a href={`${base}/new/`}>{M.all_records} →</a></p>
+      </section>
+      <section class="panel" aria-labelledby="top-title">
+        <h2 id="top-title" style="margin-top:0">{M.top_title}</h2>
+        <p class="ui muted">{M.top_note}</p>
+        <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {TOP_LISTS.map((l) => <li><a class="chip" href={`${base}/top/${l}/`}>{M.lists?.[l] ?? l}</a></li>)}
+        </ul>
+      </section>
+    </div>
+
+    <section aria-labelledby="countries-title" style="margin-top:2rem">
+      <h2 id="countries-title">{M.countries_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{M.countries_note}</p>
+      {countryCounts.length === 0 ? <p class="panel ui">{M.no_records}</p> : (
+        <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {countryCounts.map(([cc, n]) => <li><a class="chip" href={`${base}/country/${cc}/`}>{countryName(cc, lang)} <span class="muted">{count(n)}</span></a></li>)}
+        </ul>
+      )}
+    </section>
+
+    <section aria-labelledby="languages-title" style="margin-top:2rem">
+      <h2 id="languages-title">{M.languages_title}</h2>
+      {languageCounts.length === 0 ? <p class="panel ui">{M.no_records}</p> : (
+        <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {languageCounts.map(([code, n]) => <li><a class="chip" href={`${base}/language/${code}/`}>{languageName(code, lang)} <span class="muted">{count(n)}</span></a></li>)}
+        </ul>
+      )}
+    </section>
+  </div>
+</BaseLayout>

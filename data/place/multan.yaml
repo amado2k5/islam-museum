@@ -3,11 +3,17 @@ class: place
 kind: city
 label: { ar: "ملتان", en: "Multan" }
 summary:
-  ar: "مدينة في جنوب البنجاب بباكستان، فتحها محمد بن القاسم سنة 712م، وهي مركز مهم للتصوف."
+  ar: "مدينة في جنوب البنجاب بباكستان، فتحها محمد بن القاسم سنة 712م، وهي مركز مهم للتصوف. وبها على نهر مهران من أرض السند الهيكل الذي فيه الصنم المشهور عند أهلها {cite:muruj-al-dhahab p. 557}، وبها البيت الذي يقال إنه أحد البيوت السبعة وفيه الصنم الحديدي الذي تمسكه حجارة المغناطيس في وسط القبة، تحجه الهند من أقاصي بلادها {cite:fihrist-ibn-al-nadim p. 485}"
+  en: A city in southern Punjab in Pakistan, conquered by Muhammad ibn al-Qasim in 712 CE; it is an important centre of Sufism.
 wings: [place]
 regions: [south-asia]
 coordinates: [30.1968, 71.4782]
 coordinate_precision: site
-external_ids: { geonames: "1169825" }
-sources: [source/geonames-gazetteer]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }
+external_ids: { geonames: "1169825", wikidata: "Q185453"}
+sources: [source/fihrist-ibn-al-nadim, source/geonames-gazetteer, source/muruj-al-dhahab, source/encyclopaedia-of-islam-2, source/wikidata]
+status: { review: published, completeness: 2, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; enriched by Devin (SWE-2 Medium) from EI2 vol. 7 MULTĀN" }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN pp. 602-604 (PDF pages) — name (Arabic Multān for ancient Mulasthana), conquest 92-5/711-14, Ismaili emirate, Ghaznavid/Ghurid/Delhi-era rulers, Langah 1437-1526, Mughal suba, Durrani 1752, Sikh 1818, British 1848-9; monuments p. 604"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: explorer-multan-1

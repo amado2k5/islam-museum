@@ -1,0 +1,20 @@
+id: place/arafat
+class: place
+kind: site
+label: { ar: "عرفات", en: "Arafat" }
+summary:
+  ar: "سهل فسيح خارج مكة، يقف فيه الحجاج يوم عرفة، وسُمّي بذلك لأن جبريل قال لإبراهيم: أعرفت مناسكك؟ وفيه جبل المشاش في وسطه، وجبل كبكب خلفه ⁦(الأزرقي، ص 119 و284 و321 من الماسح)⁩."
+  en: "A broad plain outside Mecca where pilgrims stand on the Day of Arafat. It is so called because Gabriel asked Abraham, 'Have you recognised your rites?' In its middle is Jabal al-Mashash, and behind it Jabal Kabkab (al-Azraqi, pp. 119, 284 and 321 of the scan)."
+regions: [arabia]
+wings: [place]
+provenance: { layer: own-research, source: "al-Azraqi, Akhbar Makka, scan pp. 119, 284 n.2, 321 n.2 (OCR, Apple Vision)", generated_by: "Claude Code", run: "journeys-places-azraqi" }
+external_ids: { wikidata: "Q216894" }
+coordinates: [21.3548, 39.9839]
+coordinate_precision: site
+coordinate_note: "Wikidata Q216894 coordinates."
+sources: [source/azraqi-akhbar-makka, source/assabile-muhammad-metwally-al-shaarawy, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Azraqi's Akhbar Makka (OCR); the scan pages need checking against the image" }
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b1", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

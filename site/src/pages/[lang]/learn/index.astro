@@ -1,34 +1,61 @@
 ---
+// The Education front door (docs/delegation/education-master-plan.md §4, E1): routes a visitor by age (five
+// bands), then by role (teacher, family), with the trail chooser one door away at /learn/trails/. The passport
+// strip at the foot lights up from localStorage; without JavaScript the page is five links and two more.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import LearnPicker from "../../../islands/LearnPicker.svelte";
-import { ui, LEARN_LANGS, type Lang } from "../../../lib/i18n";
-import { nodes, href, labelOf, summaryOf } from "../../../lib/graph";
+import PassportStrip from "../../../components/PassportStrip.astro";
+import FactStrip from "../../../components/FactStrip.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { viewBands, viewStamps } from "../../../lib/edu";
+import "../../../styles/edu.css";
 
-export function getStaticPaths() { return LEARN_LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
-
-const courses = nodes.filter((n) => n.class === "course");
-const pickerNodes = courses.map((n) => ({
-  id: n.id, kind: n.data?.kind, parent: n.data?.part_of,
-  label: labelOf(n, lang), summary: summaryOf(n, lang), grade: n.data?.grade_number, order: n.data?.order,
-}));
-const subjects = courses.filter((n) => n.data?.kind === "subject");
+const E = T.edu;
+const bands = viewBands(lang, T.kids);
+const stamps = viewStamps(lang);
+// The teen wing (E4) is live: its doors lead to /shabab/.
+const doorHref = (b: (typeof bands)[number]) => (b.wing === "shabab" ? `/${lang}/shabab/` : b.hub);
 ---
-<BaseLayout lang={lang} title={T.learn.title} description={T.learn.lede} path={`/${lang}/learn/`} alternates={Object.fromEntries(LEARN_LANGS.map((l) => [l, `/${l}/learn/`]))}>
-  <div class="wrap" style="padding-block:10px 20px">
-    <h1>{T.learn.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{T.learn.lede}</p>
-
-    <section class="panel" style="margin-block:1.5rem;padding:18px 20px">
-      <LearnPicker client:load nodes={pickerNodes} lang={lang} labels={{ country: T.learn.country, grade: T.learn.grade, subject: T.learn.subject, open: T.learn.open }} />
-      <noscript><p class="ui">{T.learn.noscript}</p></noscript>
+<BaseLayout lang={lang} title={E.title} description={E.lede} path={`/${lang}/learn/`}>
+  <div class="wrap edu" style="padding-block:10px 24px" data-pagefind-ignore>
+    <section class="edu-hero">
+      <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{T.nav.learn}</p>
+      <h1>{E.title}</h1>
+      <p>{E.lede}</p>
+      <p class="ask" id="ask-age">{E.ask_age}</p>
     </section>
 
-    <ul class="grid-cards" style="margin-top:1.5rem">
-      {subjects.map((s) => (
-        <li><a class="card" href={href(lang, s.id)}><b>{labelOf(s, lang)}</b><span>{summaryOf(s, lang)}</span></a></li>
+    <ul class="edu-doors" aria-labelledby="ask-age">
+      {bands.map((b) => (
+        <li>
+          <a class={`edu-door pal-${b.palette}`} href={doorHref(b)}>
+            <span class="g" aria-hidden="true">{b.glyph}</span>
+            <h2>{b.name}</h2>
+            <span class="ages">{b.agesLabel}</span>
+            <p>{b.voice}</p>
+            <span class="go">{E.enter}</span>
+          </a>
+        </li>
       ))}
+    </ul>
+
+    <ul class="edu-adult">
+      <li><a href={`/${lang}/learn/teachers/`}><span class="ic" aria-hidden="true">🍎</span><span><h2>{E.teachers_title}</h2><p>{E.teachers_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/parents/`}><span class="ic" aria-hidden="true">🏠</span><span><h2>{E.parents_title}</h2><p>{E.parents_desc}</p></span></a></li>
+      <li><a href={`/${lang}/learn/courses/`}><span class="ic" aria-hidden="true">📚</span><span><h2>{T.syllabus.title}</h2><p>{T.syllabus.lede}</p></span></a></li>
+      <li><a href={`/${lang}/learn/trails/`}><span class="ic" aria-hidden="true">🗺</span><span><h2>{E.trails_title}</h2><p>{E.trails_desc}</p></span></a></li>
+    </ul>
+
+    <FactStrip lang={lang} />
+
+    <PassportStrip lang={lang} stamps={stamps} />
+
+    <ul class="edu-privacy">
+      <li>{E.privacy_accounts}</li>
+      <li>{E.privacy_tracking}</li>
+      <li>{E.privacy_open}</li>
     </ul>
   </div>
 </BaseLayout>

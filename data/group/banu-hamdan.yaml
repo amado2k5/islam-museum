@@ -1,0 +1,23 @@
+id: group/banu-hamdan
+class: group
+kind: tribe
+aliases: [group/hamdan]
+label: { ar: "بنو همدان", en: "Banu Hamdan" }
+summary:
+  ar: "البطن الكهلاني الكبير باليمن؛ استغلت الأحباش منافسته مع حمير فاحتلت اليمن أول مرة سنة 340م."
+  en: "The great Kahlani tribe of Yemen whose rivalry with Himyar the Abyssinians exploited for their first occupation of Yemen in 340 CE."
+wings: []
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/yemen }
+  - { type: participated_in, target: event/delegation-of-hamdan, note: "وفدهم مع مالك بن النمط مرجع النبي من تبوك (ابن هشام ص244)", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-al-radm, note: "غلبوا مراداً يوم الردم قبيل الإسلام (ابن هشام ص228)", sources: [source/ibn-hisham-saqqa] }
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+
+education:
+  levels: [sprouts, explorers, scholars]
+  flagged_for_kids: true
+  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b6", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }

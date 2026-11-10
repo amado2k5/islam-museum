@@ -1,0 +1,16 @@
+---
+id: concept/ahl-al-hadith
+lang: en
+source_lang: en
+translators: ["Claude Code (claude-haiku-5-5)"]
+---
+
+## Summary
+Ahl al-hadith, also called ashab al-hadith, were the traditionist movement of the second century AH. They held that formal traditions from the Prophet, even those reported by a single transmitter, took precedence over the "living tradition" of the early legal schools, and they made criticism of the chain of transmission (isnad) their method.
+
+## Encyclopaedia of Islam account
+Traditionalism first showed itself in the revival of the old Arabian idea of sunna, the normative custom of the community, which was later identified with the sunna of the Prophet. This normative custom was expressed in the "living tradition" of the ancient schools of law, which came into being at the start of the second century AH. The ahl al-hadith appeared a little later. Against the ancient schools and their wide use of reasoning and personal opinion, they claimed that formal traditions from the Prophet superseded the living tradition, even when transmitted by isolated individuals. The traditionists themselves put many traditions into circulation, and they specialised in collecting, perfecting, transmitting and studying them, travelling far to find them. Little of this material can be counted authentic by the standards of historical research, but from the 3rd/9th century Muslims accepted its essential parts as genuine. {cite:encyclopaedia-of-islam-2 vol. 1 p. 280}
+
+The movement was the most important event in the history of Islamic religious law in the second century. The schools opposed it at first, and the debate on the authority of formal traditions against the living tradition occupied most of that century. Once it was formulated, the traditionists' thesis, which invoked the highest authority after the Qur'an, was sure to succeed, and the ancient schools had no real defence. Al-Shafi'i adopted it, and the other schools accepted it in principle, though not always changing their doctrine. Only the doctrine of Ahmad b. Hanbal is purely traditionist. The final theory was a compromise: traditions were accepted in principle but their application was made dependent on consensus. {cite:encyclopaedia-of-islam-2 vol. 1 p. 280}
+
+The traditionists' aim was, like that of the ancient schools, to subordinate legal matters to religious and ethical considerations, though they also took interest in purely legal questions. Al-Shafi'i complained that their standards of reasoning were inferior to those of the ancient schools, and he disowned the extreme traditionists who accepted every tradition without discrimination. Most traditionists tried to separate reliable from unreliable traditions by criticising the isnad, a method aimed at the ancient schools, whose standards were less strict in this respect. The isnad criticism has no direct bearing on the historical authenticity of a tradition. From the 2nd/8th century the study of traditions from the Prophet became an end in itself, and the science of traditions, no longer opposed to but complementary with the science of law (fiqh), became a scholarship in its own right. The usual term for a technical specialist was muhaddith. {cite:encyclopaedia-of-islam-2 vol. 1 p. 281}

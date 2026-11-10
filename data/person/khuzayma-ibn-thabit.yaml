@@ -1,0 +1,20 @@
+id: person/khuzayma-ibn-thabit
+class: person
+label: { ar: "خزيمة بن ثابت", en: "Khuzayma ibn Thabit" }
+summary:
+  ar: "ذو الشهادتين؛ عنده وحده وجد زيد بن ثابت آيتي خاتمة سورة التوبة حين جمع القرآن."
+  en: the two-testimonies Companion; with him alone Zayd found the two closing verses of Bara'a when gathering the Qur'an."
+periods: [period/rashidun]
+wings: [people]
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+relations:
+  - { type: died_in, target: place/siffin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: member_of, target: group/banu-khatma, note: "من أوائل من أسلم من بني خطمة عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+sources: [source/tarikh-khulafa-minhaj-1434, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/assabile-abu-ishaq-alheweny]
+status: { review: draft, completeness: 3 }
+external_ids: { wikidata: "Q1113013" }
+provenance:
+  layer: own-research
+  source: "al-Suyuti's Tarikh al-Khulafa (Minhaj 1434), Ibn Hisham (Saqqa) and Ibn Hajar's al-Isaba, as listed in this record's sources (earlier record by Devin); section on Abu Ishaq al-Heweny's madrassat-al-hayat (Assabile transcripts pass5-qwen) added in run assabile-egypt-heweny-1 by Claude Code (claude-opus-5-5)"
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

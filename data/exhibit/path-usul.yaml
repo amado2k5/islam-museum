@@ -1,0 +1,78 @@
+id: exhibit/path-usul
+class: exhibit
+kind: trail
+label:
+  ar: أصول الفقه
+  en: Usul al-Fiqh
+summary:
+  ar: 'مسار في علم الأصول: الشافعي يؤسس الرسالة، والجويني في البرهان، وابن قدامة في روضة الناظر — منطق
+    الاستنباط.'
+  en: A trail through legal theory.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الرسالة
+    en: Al-Risala
+  body:
+    ar: 'الشافعي يكتب علمًا جديدًا: أصول الفقه.'
+    en: 'الشافعي يكتب علمًا جديدًا: أصول الفقه.'
+  features:
+  - person/al-shafii
+  - concept/fiqh
+- title:
+    ar: الجويني
+    en: Al-Juwayni
+  body:
+    ar: 'إمام الحرمين: البرهان وغياث الأمم.'
+    en: 'إمام الحرمين: البرهان وغياث الأمم.'
+  features:
+  - person/imam-al-haramayn-al-juwayni
+  - place/nishapur
+- title:
+    ar: المتون
+    en: The texts
+  body:
+    ar: الإحكام في أصول الأحكام وكتب المدارس.
+    en: الإحكام في أصول الأحكام وكتب المدارس.
+  features:
+  - work/al-ihkam-fi-usul-al-ahkam
+  - concept/fiqh
+- title:
+    ar: المقاصد
+    en: Maqasid
+  body:
+    ar: 'مقاصد الشريعة: حفظ الضروريات الخمس.'
+    en: 'مقاصد الشريعة: حفظ الضروريات الخمس.'
+  features:
+  - concept/sharia
+  - concept/fiqh
+- title:
+    ar: المدارس
+    en: The schools
+  body:
+    ar: 'أربعة مذاهب وأصولها: بطاقات الفقه.'
+    en: 'أربعة مذاهب وأصولها: بطاقات الفقه.'
+  features:
+  - person/abu-hanifa
+  - person/malik-ibn-anas
+  - person/ahmad-ibn-hanbal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

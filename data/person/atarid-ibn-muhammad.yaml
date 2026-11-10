@@ -1,0 +1,20 @@
+id: person/atarid-ibn-muhammad
+class: person
+label: { ar: "عطارد بن محمد", en: "Atarid Ibn Muhammad" }
+summary:
+  ar: "عطارد بن محمد الحاسب المنجم وكان فاضلا عالما، وله كتاب الجفر الهندي تفسيره وكتاب العمل بالأسطرلاب وكتاب العمل بذات الحلق وكتاب تركيب الأفلاك وكتاب المرايا المحرقة {cite:fihrist-ibn-al-nadim p. 387}."
+  en: "Atarid ibn Muhammad — author of the burning-mirrors book {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch19
+died: { edtf: "880~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sezgin (GAS)" }
+relations:
+  - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (الهندي); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }

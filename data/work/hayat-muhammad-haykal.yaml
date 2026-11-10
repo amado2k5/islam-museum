@@ -1,0 +1,23 @@
+id: work/hayat-muhammad-haykal
+class: work
+kind: book
+label: { ar: "حياة محمد", en: "Hayat Muhammad (The Life of Muhammad)", ur: "حیاتِ محمد" }
+summary:
+  ar: "سيرة نبوية حديثة لمحمد حسين هيكل، قدّم لها شيخ الأزهر محمد مصطفى المراغي في 15 فبراير 1935، كتبها مؤلفها على ما يسميه الطريقة العلمية الحديثة وجعل القرآن أوثق مراجعها، وردّ فيها على ما كتبه المستشرقون كموير ودرمنجم، ونفدت طبعتها الأولى — عشرة آلاف نسخة — في نحو ثلاثة أشهر."
+  en: "A modern biography of the Prophet by Muhammad Husayn Haykal, introduced by the Shaykh of al-Azhar Muhammad Mustafa al-Maraghi on 15 February 1935; the author wrote it by what he calls the modern scientific method, treated the Qur'an as its most reliable source, and answered Orientalists such as Muir and Dermenghem. Its first edition of ten thousand copies sold out in about three months."
+genre: [sira]
+made: { by_muslims: true, basis: documented, sources: [source/hayat-muhammad-haykal-hindawi] }
+authors: [person/muhammad-husayn-haykal]
+language: language/arabic
+structure: "الإهداء (ص9)؛ سجل المراجع العربية والإفرنجية (ص11)؛ تعريف بالكتاب للمراغي (ص15–20)؛ تقديم الكتاب (ص23)؛ تقديم الطبعة الثانية (ص45)؛ تقديم الطبعة الثالثة (ص81)؛ 31 فصلاً: بلاد العرب قبل الإسلام (ص83)، مكة والكعبة وقريش (ص99)، ... قصة الغرانيق (ص167)، ... غزوة بدر الكبرى (ص253)، غزوة أحد (ص281)، أزواج النبي (ص305)، ... فتح مكة (ص387)، ... حجة الوداع (ص449)، مرض النبي ووفاته (ص459)، دفن الرسول (ص471)؛ خاتمة في مبحثين، أولهما الحضارة الإسلامية كما صورها القرآن (ص481)؛ تقدير وشكر (ص537)."
+editions: [source/hayat-muhammad-haykal-hindawi]
+wings: [words, time]
+themes: [prophets, polemic-and-apologetic]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+relations:
+  - { type: about, target: person/muhammad, sources: [source/hayat-muhammad-haykal-hindawi] }
+  - { type: related_to, target: person/emile-dermenghem, role: "يرد على بعض ما في كتابه حياة محمد", sources: [source/hayat-muhammad-haykal-hindawi] }
+provenance: { layer: own-research, source: "source/hayat-muhammad-haykal-hindawi pp. 5–6, 9–20, 23, 31, 40–41, 45–46, 81, 167, 481, 537", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
+sources: [source/hayat-muhammad-haykal-hindawi]
+status: { review: published, completeness: 3 }

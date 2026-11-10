@@ -1,0 +1,29 @@
+id: person/sulayman-ibn-hamdan
+class: person
+label:
+  ar: "سليمان بن حمدان"
+  en: "Sulayman ibn Hamdan"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لسليمان بن حمدان؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Sulayman ibn Hamdan; the entry is not yet checked on the page."
+wings: [people]
+regions: [arabia]
+periods: [period/contemporary-era]
+died: { edtf: "1873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: born_in, target: place/al-majmaah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q27359)" }
+  - { type: died_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q182640)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q126176512
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

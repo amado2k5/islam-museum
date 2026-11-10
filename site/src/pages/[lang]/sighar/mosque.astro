@@ -1,0 +1,28 @@
+---
+// Build-a-Mosque page («ابنِ مسجدك»): tap-to-place mosque builder + grown-ups note.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import MosqueBuilder from "../../../components/MosqueBuilder.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadMosqueParts, viewMosqueParts } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const parts = viewMosqueParts(loadMosqueParts(), lang);
+if (parts.length !== 7) throw new Error(`mosque: expected 7 parts, got ${parts.length}`);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.mosque_title} description={t.mosque_lede} path={`/${lang}/sighar/mosque/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.mosque_title}</span>
+  </nav>
+  <MosqueBuilder lang={lang} t={t} parts={parts} />
+  <details class="grownups">
+    <summary>{t.mosque_grownups_title}</summary>
+    <p>{t.mosque_grownups}</p>
+  </details>
+</BaseLayout>

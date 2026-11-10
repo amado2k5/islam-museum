@@ -1,0 +1,15 @@
+id: passage/muslim-2554
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2554"
+label: { ar: "مسلم 2554 — قامت الرحم فقالت هذا مقام العائذ من القطيعة", en: "Muslim 2554 — The womb stood and said: this is the station of one who seeks refuge from severance" }
+text: "قال رسول الله: «إن الله خلق الخلق، حتى إذا فرغ منهم قامت الرحم فقالت: هذا مقام العائذ من القطيعة. قال: نعم، أما ترضين أن أصل من وصلك وأقطع من قطعك؟ قالت: بلى، قال: فذاك لك»"
+summary:
+  ar: "رواية أبي هريرة في باب صلة الرحم وتحريم قطيعتها من صحيح مسلم؛ مشهد خلقي تتكلم فيه الرحم عند العرش فيجعل الله صلتها مردودة على واصلها وقاطعها، ثم يستشهد بآية سورة محمد."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب صلة الرحم وتحريم قطيعتها (طبعة دار التأصيل، الحديث ٢٦٣٦؛ ترقيم عبد الباقي المعروف 2554)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

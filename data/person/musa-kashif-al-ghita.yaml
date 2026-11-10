@@ -1,0 +1,29 @@
+id: person/musa-kashif-al-ghita
+class: person
+label:
+  ar: "موسى كاشف الغطاء"
+  en: "Musa Kashif al-Ghita"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لموسى كاشف الغطاء؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Musa Kashif al-Ghita; the entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/modern-era]
+born: { edtf: "1766", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+died: { edtf: "1826", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+relations:
+  - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q108573051
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1

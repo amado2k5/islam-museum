@@ -1,0 +1,27 @@
+id: event/bukhari-tarikh-prophet-tomb-212
+class: event
+kind: publication
+label:
+  ar: "تصنيف البخاري «التاريخ» عند قبر النبي بالمدينة، نحو ٢١٢هـ"
+  en: "Al-Bukhari composes the Tarikh at the Prophet's tomb in Medina, c. 212/828"
+  ur: "بخاری کی «تاریخ» کی تصنیف مدینہ میں قبرِ نبوی کے پاس، تقریباً 212ھ/828ء"
+summary:
+  ar: "قال البخاري عن نفسه: فلما بلغت ثمان عشرة سنة جعلت أصنّف التاريخ عند قبر النبي في ليالي القمر {cite:tabaqat-shafiiyya-subki j.2 p. 5}؛ وهو «التاريخ الكبير» الذي يعطي تراجم الرجال الواردة أسماؤهم في الأسانيد، كتبه وهو شاب على ضوء القمر عند القبر {cite:encyclopaedia-of-islam-2 vol. 1 p. 1361}."
+  en: "Al-Bukhari said of himself: when I reached eighteen I began to compile the Tarikh at the Prophet's tomb on moonlit nights {cite:tabaqat-shafiiyya-subki j.2 p. 5}; it is the Tarikh al-Kabir giving the biographies of the men whose names appear in the isnads, which he wrote as a young man by moonlight at the tomb {cite:encyclopaedia-of-islam-2 vol. 1 p. 1361}."
+  ur: "بخاری نے خود فرمایا: جب میں اٹھارہ برس کا ہوا تو قمر کی راتوں میں قبرِ نبوی کے پاس «تاریخ» لکھنا شروع کی {cite:tabaqat-shafiiyya-subki j.2 p. 5}؛ یہی «تاریخ کبیر» ہے جس میں ان رجال کی تراجم ہیں جن کے نام اسناد میں آتے ہیں، اور انہوں نے اسے جوانی میں قبر کے پاس چاندنی میں لکھا {cite:encyclopaedia-of-islam-2 vol. 1 p. 1361}۔"
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0828~", hijri: "0212~", calendar: julian, precision: year, status: tradition, derived: true, note: "لما بلغ ثمان عشرة سنة (وُلد ١٩٤هـ) جعل يصنّف التاريخ عند قبر النبي في ليالي القمر {cite:tabaqat-shafiiyya-subki j.2 p. 5}؛ علّق على نحو ٢١٢هـ تقديراً، والتحويل مشتق.", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: had_participant, target: person/al-bukhari, role: "المصنّف", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2nd ed. vol. 1 (A-B), art. al-Bukhari, Muhammad b. Isma'il (W. Montgomery Watt), PDF pp. 1360-1361; Tabaqat al-Shafi'iyya al-Kubra (al-Matba'a al-Husayniyya) j.2 printed pp. 2-15, tarjama of Muhammad b. Isma'il al-Bukhari (harvest scans)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: explorer-al-bukhari-1
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

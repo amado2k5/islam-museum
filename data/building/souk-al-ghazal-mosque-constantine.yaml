@@ -1,0 +1,24 @@
+id: building/souk-al-ghazal-mosque-constantine
+class: building
+kind: mosque
+label: { ar: "جامع سوق الغزل في قسنطينة", en: "Souk al-Ghazal Mosque, Constantine", ur: "مسجد سوق الغزل، قسنطینہ" }
+summary:
+  ar: "مسجد بجوار قصر الباي في قسنطينة، بناه حسين باي الكلياني سنة 1143هـ/1731 بحسب نقشه، حوّله الفرنسيون إلى كنيسة نوتردام بعد احتلال المدينة في 13 أكتوبر 1837، وعاد مسجداً بعد الاستقلال {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 230}."
+  en: "A mosque beside the Bey's palace in Constantine, built by Kelyani Hüseyin Bey in AH 1143/1731 according to its inscription, made into the church of Notre-Dame after the French took the city on 13 October 1837, and a mosque again after independence {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 230}."
+  ur: "قسنطینہ میں بے کے محل کے پہلو میں مسجد، جو کتبے کے مطابق 1143ھ/1731ء میں کلیانی حسین بے نے بنوائی؛ 13 اکتوبر 1837ء کو فرانسیسی قبضے کے بعد نوتر دام گرجا بنی اور آزادی کے بعد پھر مسجد {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 230}۔"
+wings: [objects, place]
+themes: [architecture]
+regions: [maghreb]
+periods: [period/gunpowder-empires]
+built: { edtf: "1731", hijri: "1143", calendar: gregorian, precision: year, status: historical, note: "Dated by its foundation inscription {cite:yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023 p. 230}." }
+location: place/constantine
+relations:
+  - { type: located_in, target: place/constantine, sources: [source/yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023] }
+sources: [source/yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023]
+provenance:
+  layer: own-research
+  source: "Yilmaz 2023, vol. 1, printed pp. 230"
+  generated_by: "Claude Code (OCR-harvest worker H)"
+  model: claude-opus-5-5
+  run: ocr-harvest-2026-11-04
+status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }

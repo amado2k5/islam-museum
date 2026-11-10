@@ -1,0 +1,49 @@
+---
+id: person/shibli-nomani
+lang: en
+source_lang: ar
+translators: []
+---
+## Overview
+Shibli Nomani (3 June 1857 – 18 November 1914) was an Indian Islamic scholar, poet, philosopher, historian, educational thinker, author, orator, reformer and critic of orientalists in British India. {cite:wikipedia-shibli-nomani-en} He is regarded as the father of Urdu historiography, and the TDV encyclopedia calls him the Indian subcontinent's first modern Muslim historian, one who combined the traditional historical outlook with modern historiography. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} He was associated with the two influential movements of his region, Aligarh and Nadwa, taught at Aligarh for sixteen years, led the Nadwatul Ulama's academy at Lucknow, and founded the Darul Musannefin research academy at Azamgarh. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani}
+
+His given name was Muhammad; Shibli was his laqab — he was named after the Sufi Abu Bakr al-Shibli, a disciple of Junayd of Baghdad — and his nisba Nu'mani (Nomani) was taken after Imam Azam Nu'man ibn Thabit, Abu Hanifa. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en}
+
+## Early life and education
+Nomani was born at Bindwal (Bindul), near Azamgarh, on 3 June 1857 by Wikidata and the Urdu article's infobox, or 4 June by the English article and the Urdu article's text. {cite:wikidata-shibli-nomani} {cite:wikipedia-shibli-nomani-ur} {cite:wikipedia-shibli-nomani-en} He was born into a Muslim Rajput family: his ancestor Sheoraj Singh, a Bais, had accepted Islam many generations earlier, and his parents were Habibullah and Moqeema Khatoon. {cite:wikipedia-shibli-nomani-en} While his younger brothers went to London for education — one returning as a barrister at the Allahabad High Court — Shibli received a traditional Islamic education, his home teacher being Muhammad Farooq Chirayakoti, a rationalist scholar of the Chirayakot tradition; the Urdu infobox also names Ahmad Ali Saharanpuri among his teachers. {cite:wikipedia-shibli-nomani-en} {cite:wikipedia-shibli-nomani-ur} He performed the Hajj as a young man — in 1876 by the Urdu article's text, in 1877 by the TDV entry — and he passed the law examination and practised law briefly before abandoning it. {cite:wikipedia-shibli-nomani-ur} {cite:tdv-shibli-nomani}
+
+## Aligarh and the 1892 journey
+In 1882 Shibli began teaching Arabic at the Muhammadan Anglo-Oriental College at Aligarh, founded by Syed Ahmad Khan; the English article records sixteen years there teaching Persian and Arabic, with his professorship dated 1882–1898. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} At Aligarh he met Thomas Walker Arnold and other British scholars and discussed modern Western ideas with them, and from Arnold he learned French. {cite:wikipedia-shibli-nomani-en} {cite:wikipedia-shibli-nomani-ur} While still at Aligarh he founded a national college at Azamgarh in 1883. {cite:tdv-shibli-nomani}
+
+In 1892 he travelled with Arnold through the Ottoman lands — Syria, Turkey and Egypt — visiting the great libraries; at Istanbul he was received by Sultan Abdul Hamid II and awarded the Order of the Medjidie, and at Cairo he met Muhammad Abduh. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-ur} He wrote and lectured in support of the Ottoman caliphate, and stopped at Beirut and Jerusalem and worked in al-Azhar's and Egypt's libraries on the way. {cite:tdv-shibli-nomani} In 1894 he attended the founding meeting of Nadwatul Ulama, and the same year received the title Shamsul Ulama. {cite:tdv-shibli-nomani}
+
+Even at Aligarh he had found the college's intellectual atmosphere disappointing, and he resigned only after its founder's death: when Sir Syed died in 1898 he left the college for good. {cite:wikipedia-shibli-nomani-en}
+
+## Hyderabad and Nadwa
+From Aligarh he became an adviser in the Education Department of Hyderabad State — the TDV entry dates his move to November 1900, made to pay his father's inherited debts, and notes his service to the Nizam and his first secretaryship of the Anjuman-i Taraqqi-i Urdu in 1903. {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} His education reforms there were far-reaching: from his policy, Osmania University adopted Urdu as its medium of instruction, the first Indian university to take a vernacular language as the medium of higher studies. {cite:wikipedia-shibli-nomani-en}
+
+In 1905 he went to Lucknow as the driving force of Darul Uloom Nadwatul Ulama — editing its journal Nadwa and directing its academic affairs, in the English article's infobox the Secretary of its Education Department, 1905–1913 — and introduced reforms in teaching and curriculum. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} The orthodox class of scholars became hostile to his reforms, and on 3 March 1913 he resigned; his students, unwilling to lose him, boycotted classes at the Darul Uloom for three months. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} He settled back in the Azamgarh area. {cite:wikipedia-shibli-nomani-en}
+
+## Darul Musannefin and death
+Shibli had long wanted to found a Darul Musannefin, a house of writers on the European academy model, and had failed to do it at Nadwa. In 1914 he founded it at Azamgarh, endowing it with his own bungalow, mango orchard and books, and persuading his clan and relatives to do the same; his disciple Syed Sulaiman Nadvi carried the work through, and the institution's first formal meeting was held on 21 November 1914, three days after his death. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en} In August 1914 he had gone to Allahabad on news of his elder brother's illness; the brother died, and Shibli moved to Azamgarh, where he developed the academy's plan and died on 18 November 1914. {cite:wikipedia-shibli-nomani-en}
+
+He had married Majidunnessa in 1876; of his children, his son Hamid Hassan Nomani (1882–1942) and his daughters Rabia Khatoon and Jannatul Fatima are named in the sources. {cite:wikipedia-shibli-nomani-en} The Arabic article makes him a cousin of the exegete Hamiduddin Farahi. {cite:wikipedia-shibli-nomani-ar} Pakistan Post issued a commemorative stamp for him in its Pioneers of Freedom series in 1992. {cite:wikipedia-shibli-nomani-en}
+
+## Thought and perspectives
+This section presents assessments as the sources give them; they are not the museum's verdict.
+
+**The new kalam.** The TDV entry's second part presents Shibli as the representative in India of the new-kalam movement: he held that kalam, not fiqh or politics, was the ground of reform, that the old kalam's method no longer sufficed against materialism, and that a new kalam must address the historical, moral and social sides of religion as well as its doctrines, satisfying heart and conscience as well as reason. {cite:tdv-shibli-nomani} Against the Salafi-leaning scholars of India he insisted on drawing on the whole Islamic tradition, not only the earliest generations, counting Ghazali, Fakhr al-Din al-Razi and Rumi alike as kalam scholars. {cite:tdv-shibli-nomani}
+
+**Between Aligarh and its critics.** Shibli and Sir Syed both wished the welfare of the Muslims and wanted Western learning brought to them, but where Sir Syed sought to shield Muslims from British wrath after 1857, Shibli wanted them self-reliant through their recovered heritage. {cite:wikipedia-shibli-nomani-en} Some writers have gone further and cast him as an opponent of the Aligarh movement itself: Kamleshwar's novel Kitne Pakistan portrays him as a narrow-minded theologian, and Arif ul Islam's Ataturk fi Karbala alleges he worked vehemently against Aligarh — portrayals the scholarly tradition represented by the Shibli Academy's biographies and by Shamsur Rahman Faruqi's 2011 lecture treats as unjust, Faruqi noting that despite Sir Syed's opposition to Al-Faruq, Shibli never complained of him. {cite:wikipedia-shibli-nomani-en}
+
+**His school.** The sources do not agree to the standard this museum records. The Arabic article's infobox assigns him the Hanafi school and the Maturidi creed outright; the English article's infobox gives only "Sunni", and its text, citing a history textbook, calls him a supporter of the Deobandi school; the TDV entry names no school, and Wikidata gives Islam generally. {cite:wikipedia-shibli-nomani-ar} {cite:wikipedia-shibli-nomani-en} {cite:tdv-shibli-nomani} {cite:wikidata-shibli-nomani} His faith is therefore left unclassified in this record, with the attestations as stated.
+
+## Works
+Principal works, with the TDV entry's print dates: al-Ma'mun (1887), the first major Urdu work of his historical writing; Sirat-i Nu'man (1891), on the life of Abu Hanifa and the chief points of Hanafi fiqh; Umar al-Faruq (1899), his biography of the caliph Umar; al-Ghazali (1902); Sawanih-i Mawlana-yi Rum (1902), presenting Rumi as a kalam scholar as well as a Sufi; Sher-ul-Ajam (1909–1919), his history of Persian poetry; Ilm-ul-Kalam and Al-Kalam, the old kalam's history and the new kalam's foundation; the Safarnama of his 1892 journey to Turkey, Egypt and Syria; and Sirat-un-Nabi, planned in five volumes, of which he completed the first two — Sulaiman Nadvi completed the work after his death, the first volume appearing posthumously in 1918. {cite:tdv-shibli-nomani} {cite:wikipedia-shibli-nomani-en}
+
+## References
+- English Wikipedia, "Shibli Nomani", revision 1380888050. {cite:wikipedia-shibli-nomani-en}
+- Urdu Wikipedia, «شبلی نعمانی», revision 11800886. {cite:wikipedia-shibli-nomani-ur}
+- Arabic Wikipedia, «شبلي النعماني», revision 73831110. {cite:wikipedia-shibli-nomani-ar}
+- TDV İslâm Ansiklopedisi, "Şiblî Nu'mânî" (Anis Ahmad and M. Sait Özervarli, vol. 39, 2010). {cite:tdv-shibli-nomani}
+- Wikidata, Q773259. {cite:wikidata-shibli-nomani}

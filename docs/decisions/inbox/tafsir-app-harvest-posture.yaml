@@ -1,0 +1,15 @@
+id: tafsir-app-harvest-posture
+lane: "library"
+class: "process"
+modality: "website"
+question: "Should tafsir.app (al-Bahith al-Qur'ani, Nuqayah / Jam'iyyat Ayat) be harvested into the local workspace for mining — ~80 text books (41 tafsir, 30 ulum al-quran, 9 ma'ajim) via its own get.php JSON endpoint carrying printed-page markers — under an unlicensed/facts-only posture? Recon verified 2026-11-08: no licence or terms page exists; texts reproduce modern critical editions (e.g. Shakir's Tabari tahqiq apparatus); endpoint is the site's own public route used by its web app; robots/terms check pending in Prompt 0. Harvested texts would live ONLY in the harvest workspace, never enter git or R2, and citations would name the underlying book/edition — {cite:tafsir-app} registration deferred to a separate founder decision."
+options:
+  - "Harvest to workspace for mining now; defer {cite:} registration; texts never republished"
+  - "Harvest only after founder registers the source family"
+  - "Do not harvest"
+evidence:
+  - "docs/sources-policy.md: any source may be read and rewritten in the museum's own words with citation; source files never enter git; quotations <= 40 words"
+  - "Muse-style recon 2026-11-08: no licence found -> facts-only default; texts are digitisations of copyrighted editions so workspace-local only"
+  - "Precedent: OpenITI Makhzan (CC BY-NC-SA) already harvested facts-only; islamlab dataset used as corroborating signal only"
+proposed_action: "approve workspace harvest under Prompt 0-3 protocol: sequential >=1s requests, stop on any 403/429/CAPTCHA, per-book manifest.jsonl + sha256, verification pass before mining; no repo citations until a separate registration decision"
+source: "tafsir.app harvest recon + Mac prompts (user-provided, 2026-11-08)"

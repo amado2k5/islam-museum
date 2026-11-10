@@ -1,0 +1,54 @@
+id: person/talal-of-jordan
+class: person
+label:
+  ar: "طلال بن عبد الله بن الحسين"
+  en: "Talal of Jordan"
+  ur: "طلال بن عبداللہ"
+names:
+  - { value: "Talal bin Abdullah al-Hashimi", kind: full }
+  - { value: "طلال بن عبد الله بن الحسين", kind: full }
+  - { value: "Talal I", kind: regnal }
+gender: male
+summary:
+  ar: "ملك الأردن من اغتيال أبيه عبد الله الأول سنة 1951 حتى تنحّيه القسري سنة 1952. وُلد في مكة سنة 1909 أكبر أبناء عبد الله بن الحسين، وتدرّب ضابطا في الفيلق العربي وساندهيرست، وخلف أباه فمنح الأردن دستوره الحديث سنة 1952 جاعلا الحكومة مسؤولة أمام البرلمان، ثم أُجبر بعد أقل من ثلاثة عشر شهرا على التنحّي بسبب مرضه النفسي، وقضى بقية حياته في مصحّ بإسطنبول حتى وفاته سنة 1972."
+  en: "King of Jordan from the assassination of his father Abdullah I in 1951 until his forced abdication in 1952. Born in Mecca in 1909, the eldest son of Abdullah bin Hussein, he trained as an officer in the Arab Legion and at Sandhurst, succeeded his father and gave Jordan its modern constitution of 1952, which made the government responsible to parliament, then was forced to abdicate after less than thirteen months because of mental illness, spending the rest of his life at a sanatorium in Istanbul until his death in 1972."
+  ur: "1951ء میں اپنے والد عبداللہ اول کے قتل سے لے کر 1952ء میں جبری دستبرداری تک اردن کے بادشاہ۔ 1909ء میں مکہ میں عبداللہ بن حسین کے بڑے بیٹے پیدا ہوئے، عرب لیجن اور سینڈہرسٹ میں افسر کی تربیت پائی، والد کے جانشین بنے اور اردن کو 1952ء کا جدید آئین دیا جس نے حکومت کو پارلیمان کے سامنے جوابدہ بنایا، پھر ذہنی بیماری کے سبب تیرہ ماہ سے کم عرصے میں دستبردار ہونے پر مجبور ہوئے اور باقی زندگی استنبول کے ایک شفاخانے میں گزار کر 1972ء میں وفات پائی۔"
+roles: [ruler]
+wings: [people]
+regions: [levant-iraq]
+born:
+  edtf: "1909-02-26"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 26 February 1909 in Mecca, the eldest son of Abdullah bin Hussein (later King Abdullah I) and Musbah bint Nasser, as the English and Arabic articles and Wikidata give (the item's place of birth is Mecca, Q5806). The Hijri year (1327) is by tabular conversion. His father has a person record in this graph (person/abdullah-i-of-jordan, Q192780, the item's father value here), so the child_of edge is written below, once, in this record."
+  sources: [source/wikipedia-talal-of-jordan-en, source/wikipedia-talal-of-jordan-ar, source/wikidata-talal-of-jordan]
+died:
+  edtf: "1972-07-07"
+  hijri: "1392"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 7 July 1972 at a sanatorium in Istanbul, where he had lived since his forced abdication in 1952, as the English article and Wikidata give (the item's place of death is Istanbul, Q406). The Hijri year (1392) is by tabular conversion."
+  sources: [source/wikipedia-talal-of-jordan-en, source/wikidata-talal-of-jordan]
+relations:
+  - { type: child_of, target: person/abdullah-i-of-jordan, sources: [source/wikipedia-talal-of-jordan-en, source/wikidata-talal-of-jordan] }
+  - { type: parent_of, target: person/hussein-bin-talal, sources: [source/wikipedia-talal-of-jordan-en, source/wikidata-talal-of-jordan] }
+  - { type: born_in, target: place/mecca, sources: [source/wikipedia-talal-of-jordan-en, source/wikidata-talal-of-jordan] }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-talal-of-jordan-en, source/wikidata-talal-of-jordan] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "FLAGGED for the founder: a Sunni reading exists but rests on a single structured family only. The English article's infobox gives his religion as Sunni Islam and the same article files him under the category 'Sunni monarchs' — an infobox value and a category filing of one article, which are one family and never count on their own. Against it, the Urdu article's infobox gives Islam in general, the Arabic article names no religion, and Wikidata's only religion value is Islam in general (Q432). No biography text read names a school for the man himself; his Hashemite lineage and his throne's religious standing are descent and office, which never count. The reading is preserved here; under the two-source rule and the doubt rule his school stays unknown pending the founder's ruling."
+    sources: [source/wikipedia-talal-of-jordan-en, source/wikipedia-talal-of-jordan-ur, source/wikidata-talal-of-jordan]
+external_ids: { wikidata: "Q294365" }
+sources: [source/wikipedia-talal-of-jordan-en, source/wikipedia-talal-of-jordan-ar, source/wikipedia-talal-of-jordan-ur, source/wikidata-talal-of-jordan]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Talal of Jordan' (revision 1379760631 of 11 October 2026), Arabic Wikipedia «طلال بن عبد الله بن الحسين» (revision 76877614 of 5 October 2026), Urdu Wikipedia «طلال بن عبداللہ» (revision 8743706 of 21 May 2025) and Wikidata item Q294365 (item revision 2558252812 of 18 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id fetched live in this session and asserted before any claim was drawn, and the QID grounded through the English article's own page property and confirmed through the Arabic and Urdu articles' page properties. Identity: the queue line 'King Talal of Jordan (1909–1972)' matches this biography exactly. Existence checked both directions before building: name fragments (Talal, طلال, طلال بن) and Q294365 grepped across all data/person files on origin/main — he had no record; the hits are his father's and his son's records. EDGES WRITTEN: child_of to person/abdullah-i-of-jordan (the item's father value Q192780 is that record's QID) and parent_of to person/hussein-bin-talal (the item's children include Q146906, that record's QID), each written once, here, both target records already existing on main — his son's record had noted that no child_of edge could be written while the father lacked a record. Region follows his father's and son's records (levant-iraq), not the batch default. The queue's years (1909–1972) are confirmed exactly."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: century-additions-138
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }

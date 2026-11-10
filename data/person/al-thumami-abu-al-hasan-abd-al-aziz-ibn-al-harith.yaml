@@ -1,0 +1,40 @@
+id: person/al-thumami-abu-al-hasan-abd-al-aziz-ibn-al-harith
+class: person
+label: { ar: "الثميمي أبو الحسن عبد العزيز بن الحارث", en: "al-Thumami Abu al-Hasan Abd al-Aziz ibn al-Harith" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن عبد العزيز بن الحارث بن أسد التميمي الحنبلي" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
+  - { kind: nisba, lang: ar, value: "التميمي" }
+  - { kind: nisba, lang: ar, value: "الحنبلي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+born: { edtf: "0929", hijri: "0317", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0982", hijri: "0371", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أكابر علماء الحنابلة في الفقه والأصول والفرائض، من بني تميم، وتوفي سنة 371هـ ⁦(982م)⁩."
+  en: "One of the leading Hanbali scholars of law, legal theory and inheritance, of the Tamim tribe; died 371 AH (982 CE)."
+wings: [people]
+themes: [development-of-law-theology-institutions]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+relations:
+  - { type: lived_in, target: place/iraq, note: "Hanbali scholar; regions field levant-iraq, flagged.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: "own-research"
+  source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص616"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch55
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/mawsuat-a3lam-ulama-adaba]

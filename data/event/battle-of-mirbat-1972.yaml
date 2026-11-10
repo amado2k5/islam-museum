@@ -1,0 +1,23 @@
+id: event/battle-of-mirbat-1972
+class: event
+kind: battle
+label: { ar: "معركة مرباط", en: "Battle of Mirbat" }
+summary:
+  ar: "بطاقة أولية لمعركة مرباط سنة ١٩٧٢م، صد قوات السلطان هجوم الجبهة الشعبية في حرب ظفار؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for the Battle of Mirbat in 1972, the Sultan's forces' repulse of the Popular Front in the Dhofar war; its sources are not yet checked on the page."
+wings: [time]
+periods: [period/contemporary-era]
+regions: [arabia]
+date:
+  start: { edtf: "1972-07-19", precision: year, status: tradition, derived: true }
+  end: { edtf: "1972-07-19", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q2889338
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

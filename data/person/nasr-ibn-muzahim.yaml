@@ -1,0 +1,22 @@
+id: person/nasr-ibn-muzahim
+class: person
+label: { ar: "نصر بن مزاحم", en: "Nasr Ibn Muzahim" }
+summary:
+  ar: "أبو الفضل نصر بن مزاحم المنقري من طبقة أبي مخنف، من بني منقر وكان عطارا، وله كتاب صفين وكتاب الجمل وكتاب مقتل حجر بن عدي وكتاب مقتل الحسين بن علي وكتاب الغارات {cite:fihrist-ibn-al-nadim p. 293-294}."
+  en: "Kufan akhbari (d. ~212) of Abu Mikhnaf's circle — author of Waq'at Siffin {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+external_ids: { wikidata: "Q24519267" }
+sources: [source/fihrist-ibn-al-nadim]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن ندیم، الفہرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch18
+born: { edtf: "738~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasr b. Muzahim); al-Khatib (Tarikh Baghdad)" }
+died: { edtf: "828", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasr b. Muzahim); al-Khatib (Tarikh Baghdad)" }
+relations:
+  - { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/fihrist-ibn-al-nadim] }

@@ -1,0 +1,36 @@
+id: place/alanya
+class: place
+kind: city
+label:
+  ar: علانية
+  en: Alanya
+  ur: الانیا
+summary:
+  ar: مدينة في تركيا.
+  en: District and town in Antalya, Turkey.
+wings:
+- place
+regions:
+- anatolia-balkans
+coordinates:
+- 36.5436
+- 31.9997
+coordinate_precision: locality
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q171810
+  geonames: '324190'
+sources:
+- source/wikidata
+status:
+  review: draft
+  completeness: 1
+provenance:
+  layer: own-research
+  generated_by: Devin
+  run: person-place-geo-merge
+  merged_from:
+  - person-place-geo-b
+  - person-place-geo-c
+  note: Semantic merge of duplicate records written by parallel enrichment runs.
+  source: Wikidata item Q171810 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q171810 (labels, coordinates, description)

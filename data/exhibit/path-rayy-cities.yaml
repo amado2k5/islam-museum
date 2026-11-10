@@ -1,0 +1,76 @@
+id: exhibit/path-rayy-cities
+class: exhibit
+kind: trail
+label:
+  ar: الري وهمدان وقم
+  en: Rayy, Hamadan and Qom
+summary:
+  ar: 'مسار في مدن إيران الوسطى: الري البغدادية الشرقية، وهمدان الجبل، وقم الحوزة — طرق خراسان الداخلية.'
+  en: A trail through Iran's heartland cities.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الري
+    en: Rayy
+  body:
+    ar: 'رقة الشرق: مدينة فخر الدين الرازي.'
+    en: 'رقة الشرق: مدينة فخر الدين الرازي.'
+  features:
+  - place/rayy
+  - person/fakhr-al-din-al-razi
+- title:
+    ar: همدان
+    en: Hamadan
+  body:
+    ar: 'إكباتان القديمة: جبل وطب.'
+    en: 'إكباتان القديمة: جبل وطب.'
+  features:
+  - place/hamadan
+  - person/ibn-sina
+- title:
+    ar: قم
+    en: Qom
+  body:
+    ar: 'الحوزة الكبرى: أخوة فاطمة المعصومة.'
+    en: 'الحوزة الكبرى: أخوة فاطمة المعصومة.'
+  features:
+  - place/qumm
+  - polity/safavid-iran
+- title:
+    ar: قومس
+    en: Qumis
+  body:
+    ar: 'إقليم بين الري وجرجان: طريق خراسان.'
+    en: 'إقليم بين الري وجرجان: طريق خراسان.'
+  features:
+  - place/qumis
+  - place/jarish-qumis
+- title:
+    ar: الطريق
+    en: The road
+  body:
+    ar: 'من بغداد إلى نيسابور: مدن الطريق.'
+    en: 'من بغداد إلى نيسابور: مدن الطريق.'
+  features:
+  - place/baghdad
+  - place/nishapur
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

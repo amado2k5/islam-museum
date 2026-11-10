@@ -1,0 +1,26 @@
+id: person/al-abbas-al-jawhari
+class: person
+label: { ar: "العباس بن سعيد الجوهري", en: "Al Abbas Al Jawhari" }
+summary:
+  ar: "العباس بن سعيد الجوهري كان في جملة أصحاب الأرصاد والغالب عليه علم الهندسة، وله كتاب تفسير كتاب إقليدس وكتاب الأشكال التي زادها في المقالة الأولى من إقليدس {cite:fihrist-ibn-al-nadim p. 375}."
+  en: "Al-Abbas al-Jawhari — observatory man and Euclid commentator {cite:fihrist-ibn-al-nadim}"
+wings: [people]
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
+external_ids:
+  wikidata: Q2474911
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "ابن النديم، الفهرست"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch17
+born: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+died: { edtf: "860~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+relations:
+  - { type: born_in, target: place/otrar, note: "Wikidata Q956911 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

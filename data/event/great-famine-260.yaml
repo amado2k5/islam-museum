@@ -1,0 +1,21 @@
+id: event/great-famine-260
+class: event
+kind: famine
+label: { ar: "الغلاء العام سنة ٢٦٠", en: "The General Famine of 260 AH" }
+summary:
+  ar: "في سنة ستين ومائتين اشتد الغلاء في عامة بلاد الإسلام، فأُجلي عن مكة من كان مجاورًا بها من شدة الغلاء إلى المدينة وغيرها من البلدان ورحل عنها العامل الذي كان بها، وبلغ كُرّ الحنطة ببغداد خمسين ومائة دينار ودام ذلك شهورًا؛ وفيها قتل قائد الزنج علي بن زيد العلوي صاحب الكوفة {cite:muntazam-ibn-al-jawzi p. 110}."
+  en: "In 260 famine gripped all the lands of Islam: Mecca's sojourners were evacuated to Medina and elsewhere and its governor withdrew; a kurr of wheat reached a hundred and fifty dinars in Baghdad for months. That year the Zanj leader killed 'Ali ibn Zayd, the Alid master of Kufa {cite:muntazam-ibn-al-jawzi p. 110}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq, arabia]
+relations:
+  - { type: had_participant, target: person/ali-ibn-zayd-alawi, role: "المقتول", sources: [source/muntazam-ibn-al-jawzi] }
+date:
+  start: { edtf: "0873~", hijri: "0260", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٦٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 110}." }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 260)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
+  run: lib-muntazam-258-349-batch31
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

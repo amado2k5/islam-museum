@@ -1,0 +1,35 @@
+id: person/ibn-al-jamizi
+class: person
+label: { ar: "ابن الجميزي", en: "Ibn al-Jamizi" }
+names:
+  - { value: "العلامة ابن الجميزي", kind: full }
+died: { edtf: "1251~", hijri: "0649", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة تسع وأربعين وستمائة {cite:shadharat-dhahab p. 257}." }
+summary:
+  ar: "العلامة المحقق من فقهاء الشافعية؛ اشتهر بالبحث والتحرير وتقدم في مذهبه ودرّس؛ توفي سنة تسع وأربعين وستمائة {cite:shadharat-dhahab p. 257}."
+  en: "The allama of the Shafi'is (d. 649) — known for exact research and verification, a teacher of the school {cite:shadharat-dhahab p. 257}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+faith:
+  - value: sunni-shafii
+    basis: tradition
+sources: [source/shadharat-dhahab]
+status:
+  review: published
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 649)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch76
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab]

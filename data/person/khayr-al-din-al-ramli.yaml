@@ -1,0 +1,29 @@
+id: person/khayr-al-din-al-ramli
+class: person
+label:
+  ar: "خير الدين الرملي"
+  en: "Khayr al-Din al-Ramli"
+roles: [scholar]
+gender: male
+summary:
+  ar: "بطاقة أولية لخير الدين بن أحمد الرملي، فقيه الرملة الحنفي صاحب «الفتاوى الخيرية» في القرن السابع عشر، توفي سنة ١٦٧١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Khayr al-Din ibn Ahmad al-Ramli, the seventeenth-century Hanafi jurist of Ramla author of al-Fatawa al-Khayriyya, d. 1671; the biographical entry is not yet checked on the page."
+wings: [people]
+regions: [levant-iraq]
+periods: [period/gunpowder-empires]
+born: { edtf: "1585", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+relations:
+  - { type: lived_in, target: place/ramla, confidence: low, note: "Associated with الرملة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q6401098
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0043
+status:
+  review: draft
+  completeness: 1

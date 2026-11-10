@@ -1,0 +1,34 @@
+id: person/muhammad-ibn-mulla-mir-al-husayni
+class: person
+label:
+  ar: "محمد بن ملا مير الحسيني"
+  en: "Muhammad ibn Mulla Mir al-Husayni"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لمحمد بن ملا مير الحسيني؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Muhammad ibn Mulla Mir al-Husayni; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+died: { edtf: "1630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Agha Buzurg al-Tihrani (al-Dhari'a)" }
+relations:
+  - { type: lived_in, target: place/iran, confidence: low, note: "Safavid-era figure (al-A'lam; regions: persia-central-asia).", sources: [source/al-aalam] }
+external_ids:
+  wikidata: Q119878057
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]

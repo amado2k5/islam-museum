@@ -4,10 +4,17 @@ kind: city
 label: { ar: "كانو", en: "Kano" }
 summary:
   ar: "مدينة في شمال نيجيريا، من أقدم مراكز الإسلام في بلاد الهوسا."
+  en: A city in northern Nigeria, among the oldest centres of Islam in the Hausa lands.
 wings: [place]
 regions: [west-africa-sahel]
 coordinates: [12.0001, 8.5167]
 coordinate_precision: site
-external_ids: { geonames: "2335204" }
-sources: [source/geonames-gazetteer]
+provenance:
+  layer: own-research
+  source: "Recorded against source/geonames-gazetteer; provenance block added in the person-place geo-enrichment run pending re-verification of the original research note."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: person-place-geo-b
+external_ids: { geonames: "2335204", wikidata: "Q182984"}
+sources: [source/geonames-gazetteer, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }

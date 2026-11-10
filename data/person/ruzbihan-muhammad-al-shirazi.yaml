@@ -1,0 +1,34 @@
+id: person/ruzbihan-muhammad-al-shirazi
+class: person
+label:
+  ar: "روزبهان محمد الشيرازي"
+  en: "Ruzbihan Muhammad al-Shirazi"
+roles: [calligrapher]
+gender: male
+summary:
+  ar: "بطاقة أولية لروزبهان محمد الشيرازي؛ لم تُراجع ترجمته على الصفحة بعد."
+  en: "Draft card for Ruzbihan Muhammad al-Shirazi; the entry is not yet checked on the page."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
+sources: [source/al-aalam]
+external_ids:
+  wikidata: Q108097479
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status:
+  review: draft
+  completeness: 1
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
+died: { edtf: "1286", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shadd al-Izar fi Hatt al-Awzar" }
+relations:
+  - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'الشيرازي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

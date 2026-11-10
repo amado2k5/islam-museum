@@ -1,0 +1,33 @@
+id: person/ahmad-ibn-yahya-al-mutakallim
+class: person
+label: { ar: "أحمد بن يحيى المتكلم", en: "Ahmad ibn Yahya al-Mutakallim" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الرحمن أحمد بن يحيى المتكلم" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو عبد الرحمن أحمد بن يحيى المتكلم، كان من كبار أصحاب الشافعي، ثم صار من أصحاب ابن أبي دؤاد {cite:tabaqat-fuqaha-abbas-1981 p. 54}. لم يذكر الشيرازي تاريخ وفاته."
+  en: "Abu Abd al-Rahman Ahmad ibn Yahya al-Mutakallim was one of the senior companions of al-Shafi'i, and later became one of the companions of Ibn Abi Du'ad {cite:tabaqat-fuqaha-abbas-1981 p. 54}. Al-Shirazi does not record the date of his death."
+wings: [people]
+born: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+died: { edtf: "900~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Nadim (al-Fihrist)" }
+relations:
+  - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: student_of, target: person/al-shafii, role: "من كبار أصحاب الشافعي (PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance:
+  layer: "own-research"
+  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: prose-fill-persons-batch107
+status:
+  review: published
+  completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/tabaqat-fuqaha-abbas-1981]
