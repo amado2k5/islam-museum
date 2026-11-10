@@ -16,6 +16,7 @@ translations:
   en: { text: "(Or) as it might be camels of bright yellow hue.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "گویا زرد رنگ کے اونٹ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/camel, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
