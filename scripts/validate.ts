@@ -716,7 +716,7 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
     // a "caliph" in roles expects its reign to be recorded (warn until the roster audit lands)
     if (entity.class === "person") {
       const towardCaliphate = (r: any) => ["ruler", "rival-claimant"].includes(r.role) && typeof r.toward === "string" &&
-        loaded.some((x) => x.entity?.id === r.toward && x.entity?.kind === "caliphate");
+        (r.toward === "polity/ottoman-empire" || loaded.some((x) => x.entity?.id === r.toward && x.entity?.kind === "caliphate"));
       const caliphReign = (entity.story_roles ?? []).some(towardCaliphate);
       if (caliphReign && !(entity.roles ?? []).includes("caliph")) err(file, `story_roles: a reign toward a caliphate polity needs "caliph" in roles`);
       if (!caliphReign && (entity.roles ?? []).includes("caliph")) warn(file, `roles lists "caliph" but no reign toward a caliphate polity is recorded yet (docs/plan/30)`);
