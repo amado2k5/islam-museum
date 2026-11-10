@@ -13,6 +13,7 @@ date:
   start: { edtf: "0883", hijri: "0270", calendar: julian, precision: year, status: tradition, derived: true, note: "270؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.5 p. 75}." }
 relations:
   - { type: occurred_at, target: place/tarsus, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دار الكتب العلمية) ج 5 ص 74–75"

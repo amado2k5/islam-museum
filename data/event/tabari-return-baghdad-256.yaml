@@ -17,6 +17,8 @@ date:
   start: { edtf: "0870~", hijri: "0256", calendar: julian, precision: year, status: historical, derived: true, note: "تنص الموسوعة على رجوعه من مصر إلى بغداد نحو سنة ٢٥٦هـ/٨٧٠م {cite:encyclopaedia-of-islam-2 vol. 10 p. 21}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-muhtadi, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
