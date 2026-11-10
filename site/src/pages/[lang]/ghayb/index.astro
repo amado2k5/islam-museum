@@ -7,7 +7,8 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { href, labelOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { ghaybItems, GHAYB_SECTIONS } from "../../../lib/ghayb";
+import { ghaybItems, GHAYB_SECTIONS, ghaybSignItems, GHAYB_SIGNS_ORDER } from "../../../lib/ghayb";
+import { realNodes } from "../../../lib/graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -18,6 +19,9 @@ const summaryOf = (n: any) => n.data.summary?.[lang] ?? n.data.summary?.ar ?? ""
 const sectionIds = [...GHAYB_SECTIONS, ...new Set(ghaybItems.map((i) => i.section).filter((s) => !GHAYB_SECTIONS.includes(s)))];
 const sections = sectionIds.map((id) => ({ id, items: ghaybItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const status = fmt(G.status, { n: num(ghaybItems.length, lang), s: num(sections.length, lang) });
+const mirajJourney = realNodes.find((n) => n.id === "journey/isra-and-miraj-route");
+const mirajWaypoints = (mirajJourney?.data.waypoints ?? []) as { title?: { ar?: string; en?: string; ur?: string }; place?: string }[];
+const mirajHeavens = ["concept/al-samawat-al-sab","concept/sidrat-al-muntaha","concept/bayt-al-mamur"].map((id) => realNodes.find((n) => n.id === id)).filter(Boolean);
 const searchText = (i: (typeof ghaybItems)[number]) =>
   [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
 ---
@@ -64,6 +68,30 @@ const searchText = (i: (typeof ghaybItems)[number]) =>
       <p class="panel ui" data-ghayb-none hidden>{G.filter_none}</p>
       {ghaybItems.length === 0 && <p class="panel ui">{G.empty}</p>}
     </section>
+
+    {G.miraj_title && (
+      <section aria-labelledby="miraj-title" data-pagefind-ignore style="margin-top:2.2rem">
+        <h2 id="miraj-title">{G.miraj_title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{G.miraj_desc}</p>
+        <ol role="list" style="list-style:none;padding:0;margin:1rem 0;border-inline-start:3px solid #8e5aa8;padding-inline-start:1rem;display:grid;gap:10px;max-width:var(--measure)">
+          {mirajWaypoints.map((w: any) => <li class="panel" style="padding:10px 14px">{w.title?.[lang] ?? w.title?.ar ?? w.place}</li>)}
+          {mirajHeavens.map((n: any) => n && <li class="panel" style="padding:10px 14px"><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></li>)}
+        </ol>
+      </section>
+    )}
+
+    {G.signs_title && ghaybSignItems.length > 0 && (
+      <section aria-labelledby="signs-title" data-pagefind-ignore style="margin-top:2.2rem">
+        <h2 id="signs-title">{G.signs_title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{G.signs_desc}</p>
+        <ol style="max-width:var(--measure);display:grid;gap:8px">
+          {GHAYB_SIGNS_ORDER.map((slug) => {
+            const n = realNodes.find((x) => x.id === `concept/${slug}`);
+            return n ? <li class="panel" style="padding:10px 14px"><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></li> : null;
+          })}
+        </ol>
+      </section>
+    )}
   </div>
   <script src="../../../scripts/ghayb-filter.ts"></script>
 </BaseLayout>
