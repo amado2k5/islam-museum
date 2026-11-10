@@ -7,11 +7,11 @@ summary:
 wings: [people]
 roles: [companion]
 born: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "709", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "0701", hijri: "0082", calendar: julian, precision: year, status: debated, derived: true, note: "Abu Nu'aym gives 82 AH; other reports after 90, 91 or 94; Ibn Abi Dawud calls him the last Companion to die at Medina (al-Isaba p. 530); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (مدني); denotes association, not proven residence.", sources: [source/sahih-al-bukhari], confidence: low }
   - { type: converted_under, target: person/muhammad, note: "رآه غلاماً وروى عنه الخبر", sources: [source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/sahih-al-bukhari]}
 provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 190", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
-sources: [source/sahih-al-bukhari]
+sources: [source/sahih-al-bukhari, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 0, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }
