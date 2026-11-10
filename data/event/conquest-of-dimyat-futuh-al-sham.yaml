@@ -25,6 +25,7 @@ relations:
   - { type: had_participant, target: person/shata-of-dimyat, role: "المقتول في قتال أبي ثوب", sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: part_of, target: event/conquest-of-egypt, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: related_to, target: question/attribution-of-futuh-al-sham-waqidi, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/futuh-al-sham-ilmiyya-1997-v2]
 provenance:
   layer: own-research

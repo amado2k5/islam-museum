@@ -12,6 +12,7 @@ date:
   start: { edtf: "1571-08~", hijri: "0979-04", calendar: julian, precision: month, status: tradition, derived: true, note: "استسلام فاماغوستا ربيع الثاني ٩٧٩هـ/أغسطس ١٥٧١م {cite:dawlat-uthmaniyya-salabi p. 279}." }
 relations:
   - { type: occurred_at, target: place/qubrus }
+  - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 279-280"
