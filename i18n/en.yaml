@@ -1573,6 +1573,10 @@ explore:
       title: "The Caliphs Browser"
       desc: "Every caliph grouped by his caliphate — Rashidun to Sokoto — with his reign, succession chain, the events his reign saw and the cited record."
       menu: "Browse the caliphs and their reigns"
+    ghayb:
+      title: The Ghayb Browser
+      desc: "Jinn and angels, the soul, the measures of time, the Ascent, the barzakh and the signs of the Hour — the unseen with its sources."
+      menu: "Browse the world of the unseen"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3157,6 +3161,40 @@ khutab:
     nikah: "Marriage sermon"
     farewell: "Farewell sermon"
     other: "Sermon"
+ghayb:
+  title: The Ghayb Browser
+  lede: "A journey through the unseen in the museum's records: jinn and angels, the soul, the measures of time, the Night Journey and the greatest creations, the barzakh and what follows death, and the major signs of the Hour — each record cited, each topic a door to its own page."
+  badge: Unseen explorer
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags ghayb-browser and ghayb-<section> inside the one graph, not in a side table. Editorial stance: revelation first; science only ever serves as analogy, never as an explanation of the unseen."
+  api: "The whole dataset is at"
+  sections_title: The browser's sections
+  filter_label: Filter topics
+  filter_none: No matching results.
+  empty: No ghayb records in this build yet.
+  sections:
+    perception:
+      title: Limits of perception
+      desc: "Beyond the senses: the absolute unseen, jinn and angels, the soul and the vision of God."
+    daily:
+      title: Everyday doors
+      desc: "Small doors between the seen and unseen: dreams, the evil eye, sorcery and envy."
+    time:
+      title: Time and its measures
+      desc: "God's measures of time: a day as a thousand years, a day as fifty thousand, and the People of the Cave."
+    heavens:
+      title: Journey of the heavens
+      desc: "The Night Journey and Ascent, the Lote Tree of the Utmost Boundary, the seven heavens and al-Bayt al-Ma'mur."
+    creations:
+      title: Greatest unseen creations
+      desc: "The Throne, the Footstool, the Tablet and the Pen — creations beside which all else shrinks."
+    barzakh:
+      title: Barzakh and after death
+      desc: "Death, the seizing of the soul and the world of the grave — from the texts, not the imagination."
+    signs:
+      title: Signs of the Hour
+      desc: "The major signs: the Dajjal, Isa's descent, Ya'juj and Ma'juj, the sun from the west, and what comes before and after."
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."

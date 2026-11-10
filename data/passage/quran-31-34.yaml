@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! Allah! With Him is knowledge of the Hour. He sendeth down the rain, and knoweth that which is in the wombs. No soul knoweth what it will earn to-morrow, and no soul knoweth in what land it will die. Lo! Allah is Knower, Aware.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "خدا ہی کو قیامت کا علم ہے اور وہی مینھہ برساتا ہے۔ اور وہی (حاملہ کے) پیٹ کی چیزوں کو جانتا ہے (کہ نر ہے یا مادہ) اور کوئی شخص نہیں جانتا کہ وہ کل کیا کام کرے گا۔ اور کوئی متنفس نہیں جانتا کہ کس سرزمین میں اُسے موت آئے گی بیشک خدا ہی جاننے والا (اور) خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ghayb, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
