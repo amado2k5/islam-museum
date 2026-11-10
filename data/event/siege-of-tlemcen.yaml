@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1246", precision: year, status: tradition, derived: true }
   end: { edtf: "1246", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q134693459
