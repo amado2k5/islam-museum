@@ -6,7 +6,10 @@ translators: []
 ---
 
 ## Summary
-The first thing God created was the Pen; He said to it 'Write', and it flowed with all that will be until the Day of Resurrection — and by it God swore: Nun, and by the Pen and what they inscribe {cite:sunan-abi-dawud} {cite:jami-al-tirmidhi}.
+The first thing God created was the Pen; told to write, it flowed with all that will be until Resurrection — and God swore by it.
 
-## In the sources
-{cite:sunan-abi-dawud} {cite:jami-al-tirmidhi}
+## In the texts
+[[passage/quran-68-1|Nun, and the Pen]]
+
+## Note
+Above the Lote Tree the Prophet heard the pens' scratching — decrees being written.
