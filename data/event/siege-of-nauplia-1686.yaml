@@ -12,7 +12,8 @@ date:
   start: { edtf: "1686-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1686-09", precision: year, status: tradition, derived: true }
 relations:
-- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: part_of, target: event/morean-war-1684 }
+  - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { ar: "قوات محمد الرابع", en: "The forces of محمد الرابع" }
     participants: [person/mehmed-iv-uthmani]

@@ -12,7 +12,8 @@ date:
   start: { edtf: "1693-07-31", precision: year, status: tradition, derived: true }
   end: { edtf: "1693-09-17", precision: year, status: tradition, derived: true }
 relations:
-- { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: part_of, target: event/ottoman-habsburg-long-war }
+  - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { ar: "قوات السلطان أحمد الثاني", en: "The forces of Sultan Ahmed II" }
     participants: [person/ahmad-ii-uthmani]

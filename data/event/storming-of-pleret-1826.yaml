@@ -11,6 +11,8 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1826-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1826-06", precision: year, status: tradition, derived: true }
+relations:
+  - { type: part_of, target: event/java-war-1825 }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q112665913
