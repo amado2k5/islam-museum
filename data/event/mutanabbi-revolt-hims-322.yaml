@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/homs, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-mutanabbi, role: "قائد الفتنة فالسجين", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
