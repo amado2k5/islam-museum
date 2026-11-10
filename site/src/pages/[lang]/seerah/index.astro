@@ -1,589 +1,601 @@
 ---
+// سيرة وحياة · Seerah & Life · سیرت و زندگی — a curated practice guide: the Seerah
+// as a method of living, organised by time horizon (daily/weekly/monthly/yearly/
+// life stages) and life domain. Static prose (not graph records); every Qur'an
+// citation links to its frozen Tanzil passage page — verse text is never typed.
+// Fully readable without JavaScript (each card is a <details>); the search and
+// horizon/domain chips in site/src/scripts/seerah.ts only hide and show.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { LANGS, type Lang } from "../../../lib/i18n";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href } from "../../../lib/graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const P = T.seerah;
 
-interface Step { ar: string }
-interface Ref { t: string; r: string }
-interface RoutineRow { t: string; a: string }
+type L3 = Record<Lang, string>;
+interface Ref { t: L3; r: L3 }
+interface RoutineRow { t: L3; a: L3 }
+interface Ayah { sura: number; aya: number; label: L3 }
 interface Practice {
   horizon: string; domain: string; stages: string[];
-  title: string; teaser: string; body: string;
-  routine?: RoutineRow[]; ayat?: Ref[]; hadith?: Ref[];
-  steps?: string[]; note?: string; why?: string;
+  title: L3; teaser: L3; body: L3;
+  routine?: RoutineRow[]; ayat?: Ayah[]; hadith?: Ref[];
+  steps?: L3[]; note?: L3; why?: L3;
 }
 
 const HORIZONS = [
-  { id: "daily",   name: "يومي" },
-  { id: "weekly",  name: "أسبوعي" },
-  { id: "monthly", name: "شهري" },
-  { id: "yearly",  name: "سنوي" },
-  { id: "life",    name: "مراحل العمر" },
+  { id: "daily",   name: { ar: "يومي",        en: "Daily",        ur: "روزانہ" } },
+  { id: "weekly",  name: { ar: "أسبوعي",      en: "Weekly",       ur: "ہفتہ وار" } },
+  { id: "monthly", name: { ar: "شهري",        en: "Monthly",      ur: "ماہانہ" } },
+  { id: "yearly",  name: { ar: "سنوي",        en: "Yearly",       ur: "سالانہ" } },
+  { id: "life",    name: { ar: "مراحل العمر", en: "Life stages",  ur: "عمر کے مراحل" } },
 ] as const;
 const HZ_NAME = Object.fromEntries(HORIZONS.map((h) => [h.id, h.name]));
 
 const DOMAINS = [
-  { id: "ibadah",  name: "العبادة والذكر",   desc: "صلاتك وذكرك وصيامك — عمود اليوم وقلب المنهج." },
-  { id: "quran",   name: "القرآن والعلم",     desc: "وردك اليومي وحفظك وتعلّمك — نورٌ يقود بقية اليوم." },
-  { id: "mal",     name: "المال والعمل",      desc: "الكسب الحلال، الإحسان في العمل، الزكاة، الادخار — المال أمانة." },
-  { id: "usra",    name: "الأسرة والرحم",     desc: "بر الوالدين، صلة الرحم، تربية الأولاد — أقرب الناس أولى بالإحسان." },
-  { id: "mujtama", name: "الجوار والمجتمع",   desc: "الجار، الرفق بالحيوان، خدمة الناس — المسلم جزء من كلّ." },
-  { id: "nafs",    name: "النفس والوقت",      desc: "الهدف، الوقت، المحاسبة، التخطيط — عمرك رأس مالك." },
+  { id: "ibadah",  name: { ar: "العبادة والذكر",   en: "Worship & Dhikr",      ur: "عبادت اور ذکر" },
+    desc: { ar: "صلاتك وذكرك وصيامك — عمود اليوم وقلب المنهج.", en: "Prayer, dhikr and fasting — the backbone of the day and the heart of the method.", ur: "نماز، ذکر اور روزہ — دن کی ریڑھ کی ہڈی اور منہج کا مرکز۔" } },
+  { id: "quran",   name: { ar: "القرآن والعلم",     en: "Quran & Knowledge",    ur: "قرآن اور علم" },
+    desc: { ar: "وردك اليومي وحفظك وتعلّمك — نورٌ يقود بقية اليوم.", en: "Your daily portion, memorisation and learning — a light that leads the rest of the day.", ur: "روز کا ورد، حفظ اور سیکھنا — باقی دن کی رہنما روشنی۔" } },
+  { id: "mal",     name: { ar: "المال والعمل",      en: "Money & Work",         ur: "مال اور عمل" },
+    desc: { ar: "الكسب الحلال، الإحسان في العمل، الزكاة، الادخار — المال أمانة.", en: "Halal earning, excellence at work, zakat, saving — wealth is a trust.", ur: "حلال کمائی، کام میں احسان، زکوٰۃ، بچت — مال ایک امانت ہے۔" } },
+  { id: "usra",    name: { ar: "الأسرة والرحم",     en: "Family & Kinship",     ur: "خاندان اور رشتہ داری" },
+    desc: { ar: "بر الوالدين، صلة الرحم، تربية الأولاد — أقرب الناس أولى بالإحسان.", en: "Honouring parents, keeping kinship, raising children — those nearest deserve the best.", ur: "والدین کے ساتھ نیکی، صلہ رحمی، بچوں کی تربیت — قریب ترین لوگ نیکی کے سب سے زیادہ مستحق۔" } },
+  { id: "mujtama", name: { ar: "الجوار والمجتمع",   en: "Neighbours & Society", ur: "پڑوس اور معاشرہ" },
+    desc: { ar: "الجار، الرفق بالحيوان، خدمة الناس — المسلم جزء من كلّ.", en: "Neighbours, kindness to animals, serving people — a Muslim is part of the whole.", ur: "پڑوسی، جانوروں پر شفقت، لوگوں کی خدمت — مسلمان مجموعے کا حصہ ہے۔" } },
+  { id: "nafs",    name: { ar: "النفس والوقت",      en: "Self & Time",          ur: "نفس اور وقت" },
+    desc: { ar: "الهدف، الوقت، المحاسبة، التخطيط — عمرك رأس مالك.", en: "Purpose, time, self-accounting, planning — your lifetime is your capital.", ur: "مقصد، وقت، خود احتسابی، منصوبہ بندی — آپ کی عمر آپ کی پونجی ہے۔" } },
 ] as const;
 
-const STAGES: Record<string, string> = {
-  child: "طفولة", teen: "شباب", student: "طالب",
-  adult: "عامل", parent: "والد/ة", elder: "كبير",
+const STAGES: Record<string, L3> = {
+  child:   { ar: "طفولة",  en: "Child",   ur: "بچپن" },
+  teen:    { ar: "شباب",   en: "Youth",   ur: "جوانی" },
+  student: { ar: "طالب",   en: "Student", ur: "طالب علم" },
+  adult:   { ar: "عامل",   en: "Worker",  ur: "ملازم" },
+  parent:  { ar: "والد/ة", en: "Parent",  ur: "والدین" },
+  elder:   { ar: "كبير",   en: "Elder",   ur: "بزرگ" },
 };
 
+const S = (o: L3) => o[lang] ?? o.ar;
+
 const ITEMS: Practice[] = [
-  /* ---------- يومي ---------- */
+  /* ---------- daily ---------- */
   {
     horizon: "daily", domain: "ibadah", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "يوم النبي",
-    teaser: "من الفجر إلى النوم: خريطة يوم كامل على هديه — عبادة وعمل وأهل وراحة بلا إفراط ولا تفريط.",
-    body: "لم يكن يوم النبي لحظات متفرقة بل نظامًا متكاملًا: يبدأ بالذكر والصلاة، ويمر بالعمل والأهل والناس، وينتهي بالنوم على ذكر. الوسطية هي السمة: «إن لنفسك عليك حقًا، ولأهلك عليك حقًا، ولضيفك عليك حقًا، فأعطِ كل ذي حق حقه». النوم المبكر والقيلولة والاستيقاظ قبل الفجر عادات ثابتة في يومه.",
+    title: { ar: "يوم النبي", en: "The Prophet's day", ur: "نبی کریم کا دن" },
+    teaser: { ar: "من الفجر إلى النوم: خريطة يوم كامل على هديه — عبادة وعمل وأهل وراحة بلا إفراط ولا تفريط.", en: "From Fajr to sleep: a full day on his example — worship, work, family and rest with no excess and no neglect.", ur: "فجر سے نیند تک: آپ کے طریقے پر پورا دن — عبادت، کام، گھر والوں اور آرام، نہ زیادتی نہ کوتاہی۔" },
+    body: { ar: "لم يكن يوم النبي لحظات متفرقة بل نظامًا متكاملًا: يبدأ بالذكر والصلاة، ويمر بالعمل والأهل والناس، وينتهي بالنوم على ذكر. الوسطية هي السمة: «إن لنفسك عليك حقًا، ولأهلك عليك حقًا، ولضيفك عليك حقًا، فأعطِ كل ذي حق حقه». النوم المبكر والقيلولة والاستيقاظ قبل الفجر عادات ثابتة في يومه.", en: "The Prophet's day was not scattered moments but an integrated system: it began with dhikr and prayer, moved through work, family and people, and ended with sleep upon remembrance. Balance was the mark: 'Your soul has a right over you, your family has a right, your guest has a right — give every right-holder their right.' Early sleep, the midday nap and waking before Fajr were fixed habits of his day.", ur: "آپ کا دن بکھرے ہوئے لمحات نہیں بلکہ ایک جامع نظام تھا: ذکر اور نماز سے آغاز، کام، گھر والوں اور لوگوں سے گزرتا، اور ذکر کے ساتھ نیند پر ختم۔ اعتدال اس کی پہچان تھی: «تمہاری جان کا، تمہارے گھر والوں کا اور تمہارے مہمان کا تم پر حق ہے — ہر حق دار کو اس کا حق دو»۔ جلد سونا، قیلولہ اور فجر سے پہلے بیدار ہونا آپ کے دن کی مستقل عادات تھیں۔" },
     routine: [
-      { t: "قبل الفجر", a: "قيام وتهجد واستغفار — وقت الأسحار وقت الدعاء المستجاب" },
-      { t: "الفجر", a: "صلاة الفجر في وقتها، ثم أذكار الصباح وورد القرآن — لا يوم يبدأ بلا ذكر" },
-      { t: "الصباح", a: "صلاة الضحى ركعتين، ثم العمل وكسب الرزق بإحسان" },
-      { t: "الظهر", a: "الظهر، ثم قيلولة قصيرة — النوم نصف النهار سنة وعادة صحية" },
-      { t: "العصر–المغرب", a: "العصر ثم أذكار المساء، وقت للأهل والجلسات النافعة" },
-      { t: "العشاء–النوم", a: "العشاء، نوم مبكر على وضوء وأذكار النوم — بداية الليل راحة وآخره قيام لمن يقدر" },
+      { t: { ar: "قبل الفجر", en: "Before Fajr", ur: "فجر سے پہلے" }, a: { ar: "قيام وتهجد واستغفار — وقت الأسحار وقت الدعاء المستجاب", en: "Night prayer and istighfar — the pre-dawn hour of answered du'a", ur: "تہجد اور استغفار — سحری کا وقت دعائے مستجاب کا وقت ہے" } },
+      { t: { ar: "الفجر", en: "Fajr", ur: "فجر" }, a: { ar: "صلاة الفجر في وقتها، ثم أذكار الصباح وورد القرآن — لا يوم يبدأ بلا ذكر", en: "Fajr on time, then morning adhkar and the Quran portion — no day begins without dhikr", ur: "فجر وقت پر، پھر صبح کے اذکار اور قرآن کا ورد — کوئی دن ذکر کے بغیر نہیں شروع ہوتا" } },
+      { t: { ar: "الصباح", en: "Morning", ur: "صبح" }, a: { ar: "صلاة الضحى ركعتين، ثم العمل وكسب الرزق بإحسان", en: "Duha prayer ⁦(two rak'at)⁩, then work and earning with excellence", ur: "چاشت کی دو رکعت، پھر احسان کے ساتھ کام اور روزی" } },
+      { t: { ar: "الظهر", en: "Midday", ur: "دوپہر" }, a: { ar: "الظهر، ثم قيلولة قصيرة — النوم نصف النهار سنة وعادة صحية", en: "Dhuhr, then a short nap — the midday rest is both sunnah and healthy habit", ur: "ظہر، پھر مختصر قیلولہ — دوپہر کا آرام سنت بھی ہے اور صحت مند عادت بھی" } },
+      { t: { ar: "العصر–المغرب", en: "Asr–Maghrib", ur: "عصر–مغرب" }, a: { ar: "العصر ثم أذكار المساء، وقت للأهل والجلسات النافعة", en: "Asr then evening adhkar; time for family and beneficial company", ur: "عصر کے بعد شام کے اذکار؛ گھر والوں اور مفید نشستوں کا وقت" } },
+      { t: { ar: "العشاء–النوم", en: "Isha–Sleep", ur: "عشاء–نیند" }, a: { ar: "العشاء، نوم مبكر على وضوء وأذكار النوم — بداية الليل راحة وآخره قيام لمن يقدر", en: "Isha, early sleep upon wudu and sleep adhkar — rest at night's start, qiyam at its end for who can", ur: "عشاء، وضو اور سونے کے اذکار کے ساتھ جلد نیند — رات کا آغاز آرام اور آخر قیام، جو کر سکے" } },
     ],
     hadith: [
-      { t: "إن لنفسك عليك حقًا، ولأهلك عليك حقًا، ولضيفك عليك حقًا، فأعطِ كل ذي حق حقه.", r: "رواه البخاري" },
+      { t: { ar: "إن لنفسك عليك حقًا، ولأهلك عليك حقًا، ولضيفك عليك حقًا، فأعطِ كل ذي حق حقه.", en: "Your soul has a right over you, your family has a right, your guest has a right — give every right-holder their right.", ur: "تمہاری جان کا، تمہارے گھر والوں کا اور تمہارے مہمان کا تم پر حق ہے — ہر حق دار کو اس کا حق دو۔" }, r: { ar: "رواه البخاري", en: "Bukhari", ur: "بخاری" } },
     ],
     steps: [
-      "ابدأ بنقطة ثابتة واحدة: الفجر في وقته ثم أذكار الصباح، وأضف بقية المحطات تدريجيًا.",
-      "حدد موعد نوم ثابتًا — اليوم النبوي يُبنى من الليلة السابقة.",
-      "ضع «وقت أهل» و«وقت عمل» صريحين في جدولك؛ الحقوق لا تُترك للظروف.",
+      { ar: "ابدأ بنقطة ثابتة واحدة: الفجر في وقته ثم أذكار الصباح، وأضف بقية المحطات تدريجيًا.", en: "Start with one anchor: Fajr on time then morning adhkar; add the other stations gradually.", ur: "ایک لنگر سے شروع کریں: فجر وقت پر پھر صبح کے اذکار؛ باقی مراحل آہستہ آہستہ شامل کریں۔" },
+      { ar: "حدد موعد نوم ثابتًا — اليوم النبوي يُبنى من الليلة السابقة.", en: "Set a fixed bedtime — the prophetic day is built the night before.", ur: "سونے کا وقت مقرر کریں — نبوی دن پچھلی رات سے بنتا ہے۔" },
+      { ar: "ضع «وقت أهل» و«وقت عمل» صريحين في جدولك؛ الحقوق لا تُترك للظروف.", en: "Give 'family time' and 'work time' explicit slots; rights should not be left to chance.", ur: "«گھر والوں کا وقت» اور «کام کا وقت» الگ الگ رکھیں؛ حقوق قسمت پر نہیں چھوڑے جاتے۔" },
     ],
-    why: "الصورة الكبيرة: الانضباط اليومي الصغير هو ما يصنع حياة كاملة على المنهج — لا العكس.",
+    why: { ar: "الصورة الكبيرة: الانضباط اليومي الصغير هو ما يصنع حياة كاملة على المنهج — لا العكس.", en: "The big picture: small daily discipline is what builds an entire life on the method — not the other way around.", ur: "بڑی تصویر: چھوٹی روزانہ کی نظم و ضبط ہی پوری زندگی کو منہج پر بناتی ہے — اس کے برعکس نہیں۔" },
   },
   {
     horizon: "daily", domain: "ibadah", stages: ["child", "teen", "student", "adult", "parent", "elder"],
-    title: "أذكار الصباح والمساء",
-    teaser: "حصنك اليومي: أذكار قصيرة بعد الفجر والعصر تحفظك من كل سوء وتملأ يومك بركة.",
-    body: "أذكار الصباح تُقال من صلاة الفجر إلى طلوع الشمس (ويصح إلى الضحى)، وأذكار المساء من العصر إلى الغروب (ويصح إلى الليل). منها: آية الكرسي، الإخلاص والمعوذتين ثلاثًا، سيد الاستغفار، «بسم الله الذي لا يضر مع اسمه شيء» ثلاثًا، «رضيت بالله ربًا» ثلاثًا، سبحان الله وبحمده مئة مرة. المصدر المعتمد: حصن المسلم.",
-    ayat: [
-      { t: "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ", r: "البقرة ١٥٢" },
-    ],
+    title: { ar: "أذكار الصباح والمساء", en: "Morning & evening adhkar", ur: "صبح و شام کے اذکار" },
+    teaser: { ar: "حصنك اليومي: أذكار قصيرة بعد الفجر والعصر تحفظك من كل سوء وتملأ يومك بركة.", en: "Your daily fortress: short remembrances after Fajr and Asr that protect you from harm and fill your day with blessing.", ur: "آپ کا روزانہ کا قلعہ: فجر اور عصر کے بعد مختصر اذکار جو ہر برائی سے بچاتے اور دن کو برکت سے بھر دیتے ہیں۔" },
+    body: { ar: "أذكار الصباح تُقال من صلاة الفجر إلى طلوع الشمس ⁦(ويصح إلى الضحى)⁩، وأذكار المساء من العصر إلى الغروب ⁦(ويصح إلى الليل)⁩. منها: آية الكرسي، الإخلاص والمعوذتين ثلاثًا، سيد الاستغفار، «بسم الله الذي لا يضر مع اسمه شيء» ثلاثًا، «رضيت بالله ربًا» ثلاثًا، سبحان الله وبحمده مئة مرة. المصدر المعتمد: حصن المسلم.", en: "Morning adhkar are said from Fajr until sunrise ⁦(valid until mid-morning)⁩, and evening adhkar from Asr until sunset ⁦(valid into the night)⁩. Among them: Ayat al-Kursi, Al-Ikhlas and the Mu'awwidhatan three times, Sayyid al-Istighfar, 'Bismillahil-ladhi la yadurru…' three times, 'Raditu billahi rabba…' three times, and SubhanAllahi wa bihamdihi one hundred times. The standard source: Hisn al-Muslim.", ur: "صبح کے اذکار فجر سے طلوعِ آفتاب تک ⁦(چاشت تک بھی جائز)⁩، اور شام کے اذکار عصر سے غروبِ آفتاب تک ⁦(رات تک بھی جائز)⁩ پڑھے جاتے ہیں۔ ان میں شامل ہیں: آیت الکرسی، اخلاص اور معوذتین تین بار، سید الاستغفار، «بسم اللہ الذي لا يضر…» تین بار، «رضيت بالله ربًا» تین بار، اور سبحان اللہ وبحمدہ سو بار۔ مستند ماخذ: حصن المسلم۔" },
+    ayat: [ { sura: 2, aya: 152, label: { ar: "البقرة ١٥٢", en: "Al-Baqarah 2:152", ur: "البقرہ ١٥٢" } } ],
     hadith: [
-      { t: "من قال حين يصبح وحين يمسي: بسم الله الذي لا يضر مع اسمه شيء في الأرض ولا في السماء وهو السميع العليم — ثلاث مرات — لم يضره شيء.", r: "رواه أبو داود والترمذي" },
+      { t: { ar: "من قال حين يصبح وحين يمسي: بسم الله الذي لا يضر مع اسمه شيء في الأرض ولا في السماء وهو السميع العليم — ثلاث مرات — لم يضره شيء.", en: "Whoever says morning and evening 'Bismillahil-ladhi la yadurru ma'a ismihi shay'…' three times, nothing will harm him.", ur: "جو شخص صبح و شام «بسم اللہ الذي لا يضر مع اسمہ شيء» تین بار کہے، اسے کوئی چیز نقصان نہیں پہنچائے گی۔" }, r: { ar: "رواه أبو داود والترمذي", en: "Abu Dawud & Tirmidhi", ur: "ابو داؤد اور ترمذی" } },
     ],
     steps: [
-      "اطبع نسخة «حصن المسلم» أو حمّل تطبيقه وضعه بجانب مكان صلاتك.",
-      "اربط الأذكار بالصلاة نفسها: لا تقم من مكانك بعد الفجر حتى تتمها.",
-      "ابدأ بخمسة أذكار أساسية ثم أضف كل أسبوع ذكرًا جديدًا.",
+      { ar: "اطبع نسخة «حصن المسلم» أو حمّل تطبيقه وضعه بجانب مكان صلاتك.", en: "Print or install 'Hisn al-Muslim' and keep it where you pray.", ur: "«حصن المسلم» چھپوائیں یا ایپ ڈاؤن لوڈ کریں اور اپنی جائے نماز کے پاس رکھیں۔" },
+      { ar: "اربط الأذكار بالصلاة نفسها: لا تقم من مكانك بعد الفجر حتى تتمها.", en: "Chain the adhkar to the prayer itself: don't leave your spot after Fajr until you finish.", ur: "اذکار کو نماز سے جوڑ دیں: فجر کے بعد اپنی جگہ سے تب تک نہ اٹھیں جب تک مکمل نہ کر لیں۔" },
+      { ar: "ابدأ بخمسة أذكار أساسية ثم أضف كل أسبوع ذكرًا جديدًا.", en: "Start with five core adhkar, then add one new dhikr each week.", ur: "پانچ بنیادی اذکار سے شروع کریں، پھر ہر ہفتے ایک نیا ذکر شامل کریں۔" },
     ],
-    why: "الصورة الكبيرة: خمس عشرة دقيقة من الذكر تغيّر إطار اليوم كله — تبدأ بالله فيعمل كل شيء آخر في مكانه.",
+    why: { ar: "الصورة الكبيرة: خمس عشرة دقيقة من الذكر تغيّر إطار اليوم كله — تبدأ بالله فيعمل كل شيء آخر في مكانه.", en: "The big picture: fifteen minutes of dhikr reframes the entire day — begin with Allah and everything else falls into place.", ur: "بڑی تصویر: پندرہ منٹ کا ذکر پورے دن کا انداز بدل دیتا ہے — اللہ سے آغاز کریں تو ہر چیز اپنی جگہ آ جاتی ہے۔" },
   },
   {
     horizon: "daily", domain: "ibadah", stages: ["child", "teen", "student", "adult", "parent", "elder"],
-    title: "الصلوات الخمس والسنن الرواتب",
-    teaser: "عمود اليوم: خمس صلوات في وقتها، واثنتا عشرة ركعة سنّة حولها تبني لك بيتًا في الجنة.",
-    body: "الصلوات الخمس مواعظ يومية تقطع الزمن وتُبقي القلب موصولًا. حولها سنن راتبة: ركعتان قبل الفجر، أربع قبل الظهر وركعتان بعدها، ركعتان بعد المغرب، وركعتان بعد العشاء — اثنتا عشرة ركعة. الوتر ختام الليل، والوضوء نور. للمرأة: الصلاة في البيت فضيلتها عظيمة، ولا يشترط الجماعة كالرجال.",
-    ayat: [
-      { t: "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا", r: "النساء ١٠٣" },
-    ],
+    title: { ar: "الصلوات الخمس والسنن الرواتب", en: "The five prayers & sunnah rawatib", ur: "پانچ نمازیں اور سنت رواتب" },
+    teaser: { ar: "عمود اليوم: خمس صلوات في وقتها، واثنتا عشرة ركعة سنّة حولها تبني لك بيتًا في الجنة.", en: "The pillar of the day: five prayers on time, plus twelve sunnah rak'at around them that build you a house in Paradise.", ur: "دن کا ستون: پانچ نمازیں وقت پر، اور ان کے گرد بارہ سنت رکعات جو جنت میں گھر بناتی ہیں۔" },
+    body: { ar: "الصلوات الخمس مواعظ يومية تقطع الزمن وتُبقي القلب موصولًا. حولها سنن راتبة: ركعتان قبل الفجر، أربع قبل الظهر وركعتان بعدها، ركعتان بعد المغرب، وركعتان بعد العشاء — اثنتا عشرة ركعة. الوتر ختام الليل، والوضوء نور. للمرأة: الصلاة في البيت فضيلتها عظيمة، ولا يشترط الجماعة كالرجال.", en: "The five prayers are daily appointments that punctuate time and keep the heart connected. Around them are the confirmed sunnahs: two before Fajr, four before Dhuhr and two after, two after Maghrib and two after Isha — twelve rak'at. Witr seals the night, and wudu is light. For women: prayer at home carries great virtue, and congregation is not required as for men.", ur: "پانچ نمازیں روزانہ کی ملاقاتیں ہیں جو وقت کو تقسیم کرتی اور دل کو جڑا رکھتی ہیں۔ ان کے گرد مؤکد سنتیں ہیں: فجر سے پہلے دو، ظہر سے پہلے چار اور بعد میں دو، مغرب کے بعد دو اور عشاء کے بعد دو — بارہ رکعات۔ وتر رات کی مہر ہے اور وضو نور۔ خواتین کے لیے: گھر میں نماز کی فضیلت بہت عظیم ہے اور مردوں کی طرح جماعت شرط نہیں۔" },
+    ayat: [ { sura: 4, aya: 103, label: { ar: "النساء ١٠٣", en: "An-Nisa 4:103", ur: "النساء ١٠٣" } } ],
     hadith: [
-      { t: "من صلى اثنتي عشرة ركعة في يوم وليلة بُني له بهن بيت في الجنة.", r: "رواه مسلم" },
-      { t: "ركعتا الفجر خير من الدنيا وما فيها.", r: "رواه مسلم" },
+      { t: { ar: "من صلى اثنتي عشرة ركعة في يوم وليلة بُني له بهن بيت في الجنة.", en: "Whoever prays twelve rak'at in a day and night, a house will be built for him in Paradise.", ur: "جو شخص دن رات میں بارہ رکعات پڑھے، اس کے لیے جنت میں گھر بنایا جائے گا۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
+      { t: { ar: "ركعتا الفجر خير من الدنيا وما فيها.", en: "The two rak'at of Fajr are better than the world and all it contains.", ur: "فجر کی دو رکعات دنیا اور جو کچھ اس میں ہے اس سے بہتر ہیں۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
     ],
     steps: [
-      "علّق على الصلوات الخمس أولًا قبل أي نافلة — الأساس قبل الزينة.",
-      "أضف السنن الرواتب واحدة تلو الأخرى على مدى شهر.",
-      "استخدم تقويم صلاة محليًا أو تطبيقًا دقيقًا لأوقات مدينتك.",
+      { ar: "علّق على الصلوات الخمس أولًا قبل أي نافلة — الأساس قبل الزينة.", en: "Guard the five obligatory prayers first, before any nafila — foundation before decoration.", ur: "پہلے پانچ فرض نمازوں کی حفاظت کریں، کسی بھی نفل سے پہلے — بنیاد پہلے، زیور بعد میں۔" },
+      { ar: "أضف السنن الرواتب واحدة تلو الأخرى على مدى شهر.", en: "Add the rawatib one by one over a month.", ur: "ایک مہینے میں سنت رواتب ایک ایک کر کے شامل کریں۔" },
+      { ar: "استخدم تقويم صلاة محليًا أو تطبيقًا دقيقًا لأوقات مدينتك.", en: "Use a reliable local prayer timetable or app for your city.", ur: "اپنے شہر کے لیے کسی قابلِ اعتماد تقویم یا ایپ کا استعمال کریں۔" },
     ],
-    note: "للنساء: صلاة الجماعة في المسجد ليست واجبة، والصلاة في البيت أفضل في أكثر أقوال أهل العلم.",
-    why: "الصورة الكبيرة: من ضبط صلاته ضبط وقته كله؛ الصلاة هي النظام الشمسي الذي تدور حوله بقية اليوم.",
+    note: { ar: "للنساء: صلاة الجماعة في المسجد ليست واجبة، والصلاة في البيت أفضل في أكثر أقوال أهل العلم.", en: "For women: congregational mosque prayer is not obligatory, and praying at home is better in the view of most scholars.", ur: "خواتین کے لیے: مسجد میں جماعت واجب نہیں، اور اکثر علما کے نزدیک گھر میں نماز افضل ہے۔" },
+    why: { ar: "الصورة الكبيرة: من ضبط صلاته ضبط وقته كله؛ الصلاة هي النظام الشمسي الذي تدور حوله بقية اليوم.", en: "The big picture: whoever orders their prayer orders their whole time — salah is the sun around which the rest of the day orbits.", ur: "بڑی تصویر: جس نے اپنی نماز کو درست کیا اس نے اپنا پورا وقت درست کیا — نماز وہ سورج ہے جس کے گرد باقی دن گردش کرتا ہے۔" },
   },
   {
     horizon: "daily", domain: "quran", stages: ["child", "teen", "student", "adult", "parent", "elder"],
-    title: "ورد القرآن اليومي",
-    teaser: "صفحة بعد كل صلاة أو جزء في اليوم — القرآن رفيق يومي لا نزيل موسمي.",
-    body: "كان الصحابة لا يقرأون القرآن دفعة واحدة بل يعيشون معه: عشر آيات لا ينامون حتى يعملوا بما فيهن. اختر وردًا ثابتًا تقدر عليه في يومك الأسوأ لا يومك الأفضل: صفحة بعد كل صلاة = ختمة كل ستة أسابيع، أو جزء يوميًا = ختمة شهرية. الأهم: التدبر ولو قلّ، والعمل بما تقرأ.",
-    ayat: [
-      { t: "كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ مُبَارَكٌ لِّيَدَّبَّرُوا آيَاتِهِ وَلِيَتَذَكَّرَ أُولُو الْأَلْبَابِ", r: "ص ٢٩" },
-    ],
+    title: { ar: "ورد القرآن اليومي", en: "The daily Quran portion", ur: "قرآن کا روزانہ ورد" },
+    teaser: { ar: "صفحة بعد كل صلاة أو جزء في اليوم — القرآن رفيق يومي لا نزيل موسمي.", en: "A page after each prayer or a juz' a day — the Quran is a daily companion, not a seasonal guest.", ur: "ہر نماز کے بعد ایک صفحہ یا دن میں ایک پارہ — قرآن روز کا ساتھی ہے، موسمی مہمان نہیں۔" },
+    body: { ar: "كان الصحابة لا يقرأون القرآن دفعة واحدة بل يعيشون معه: عشر آيات لا ينامون حتى يعملوا بما فيهن. اختر وردًا ثابتًا تقدر عليه في يومك الأسوأ لا يومك الأفضل: صفحة بعد كل صلاة = ختمة كل ستة أسابيع، أو جزء يوميًا = ختمة شهرية. الأهم: التدبر ولو قلّ، والعمل بما تقرأ.", en: "The Companions did not race through the Quran; they lived with it — ten verses they would not sleep until acting upon. Choose a fixed portion you can manage on your worst day, not your best: one page after each prayer = a khatma every six weeks; one juz' daily = a monthly khatma. What matters most: reflection even in small amounts, and acting on what you read.", ur: "صحابہ قرآن کو ایک ہی بار میں نہیں پڑھتے تھے بلکہ اس کے ساتھ جیتے تھے: دس آیات، جب تک عمل نہ کر لیتے سو نہیں جاتے تھے۔ ایسا مستقل ورد چنیں جو آپ کے سب سے برے دن بھی ممکن ہو: ہر نماز کے بعد ایک صفحہ = ہر چھ ہفتوں میں ختم، یا روز ایک پارہ = ماہانہ ختم۔ اہم بات: تھوڑا سا بھی تدبر، اور جو پڑھیں اس پر عمل۔" },
+    ayat: [ { sura: 38, aya: 29, label: { ar: "ص ٢٩", en: "Sad 38:29", ur: "ص ٢٩" } } ],
     hadith: [
-      { t: "اقرؤوا القرآن فإنه يأتي يوم القيامة شفيعًا لأصحابه.", r: "رواه مسلم" },
+      { t: { ar: "اقرؤوا القرآن فإنه يأتي يوم القيامة شفيعًا لأصحابه.", en: "Recite the Quran, for it will come on the Day of Resurrection as an intercessor for its companions.", ur: "قرآن پڑھو، کیونکہ وہ قیامت کے دن اپنے ساتھیوں کے لیے شفاعی بن کر آئے گا۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
     ],
     steps: [
-      "اختر معادًا ثابتًا: بعد الفجر هو الأرسخ في السنة والأقل عرضة للفوات.",
-      "اربط الورد بهدف ختمة محدد (شهري أو كل ستة أسابيع) واكتبه.",
-      "خصص دقيقتين للتدبر: آية واحدة تسأل — ما الذي تطلبه مني اليوم؟",
+      { ar: "اختر معادًا ثابتًا: بعد الفجر هو الأرسخ في السنة والأقل عرضة للفوات.", en: "Choose a fixed time: after Fajr is the most rooted in the Sunnah and least likely to be missed.", ur: "مقررہ وقت چنیں: فجر کے بعد سنت میں سب سے مضبوط اور فوت ہونے کے سب سے کم امکان والا وقت ہے۔" },
+      { ar: "اربط الورد بهدف ختمة محدد ⁦(شهري أو كل ستة أسابيع)⁩ واكتبه.", en: "Tie your portion to a concrete khatma goal ⁦(monthly or every six weeks)⁩ and write it down.", ur: "ورِد کو کسی واضح ختم کے مقصد سے جوڑیں ⁦(ماہانہ یا ہر چھ ہفتے)⁩ اور لکھ لیں۔" },
+      { ar: "خصص دقيقتين للتدبر: آية واحدة تسأل — ما الذي تطلبه مني اليوم؟", en: "Spend two minutes on reflection: one verse — what is it asking of me today?", ur: "تدبر کے لیے دو منٹ دیں: ایک آیت — آج یہ مجھ سے کیا مانگ رہی ہے؟" },
     ],
-    why: "الصورة الكبيرة: القرآن ليس معلومات بل تشريع حي؛ صفحة متدبَّرة يوميًا تعيد توجيه البوصلة كل صباح.",
+    why: { ar: "الصورة الكبيرة: القرآن ليس معلومات بل تشريع حي؛ صفحة متدبَّرة يوميًا تعيد توجيه البوصلة كل صباح.", en: "The big picture: the Quran is not information but living guidance — one reflected page daily resets your compass every morning.", ur: "بڑی تصویر: قرآن صرف معلومات نہیں بلکہ زندہ رہنمائی ہے — روز ایک غور سے پڑھا ہوا صفحہ ہر صبح آپ کی سمت ٹھیک کرتا ہے۔" },
   },
   {
     horizon: "daily", domain: "nafs", stages: ["child", "teen", "student", "adult", "parent", "elder"],
-    title: "آداب اليوم النبوية",
-    teaser: "الأكل والشرب واللباس والنوم ودخول البيت — كل حركة صغيرة يمكن أن تكون عبادة بالنية.",
-    body: "البسملة قبل الأكل والأكل باليمين ومما يليك، الحمدلة بعده؛ التسمية عند دخول البيت والسلام على أهله؛ لباس اليمين أولًا وخلعه من اليسار؛ النوم على وضوء على الشق الأيمن؛ دعاء دخول الخلاء وخروجه. هذه التفاصيل ليست شكليات — إنها تحوّل الروتين إلى ذكر مستمر.",
+    title: { ar: "آداب اليوم النبوية", en: "Daily prophetic etiquettes", ur: "نبوی دن کے آداب" },
+    teaser: { ar: "الأكل والشرب واللباس والنوم ودخول البيت — كل حركة صغيرة يمكن أن تكون عبادة بالنية.", en: "Eating, drinking, dressing, sleeping, entering the home — every small act becomes worship with intention.", ur: "کھانا، پینا، لباس، سونا اور گھر میں داخل ہونا — ہر چھوٹا کام نیت سے عبادت بن جاتا ہے۔" },
+    body: { ar: "البسملة قبل الأكل والأكل باليمين ومما يليك، الحمدلة بعده؛ التسمية عند دخول البيت والسلام على أهله؛ لباس اليمين أولًا وخلعه من اليسار؛ النوم على وضوء على الشق الأيمن؛ دعاء دخول الخلاء وخروجه. هذه التفاصيل ليست شكليات — إنها تحوّل الروتين إلى ذكر مستمر.", en: "Basmala before eating, eating with the right hand and from what is nearest, Alhamdulillah after; saying the name of Allah when entering the home and salam upon its people; dressing right side first, removing from the left; sleeping on wudu on the right side; the du'as for entering and leaving the bathroom. These details are not formalities — they turn routine into constant remembrance.", ur: "کھانے سے پہلے بسم اللہ، دائیں ہاتھ سے اور سامنے سے کھانا، بعد میں الحمد للہ؛ گھر میں داخل ہوتے ہوئے اللہ کا نام اور گھر والوں پر سلام؛ پہلے دائیں طرف پہننا اور بائیں سے اتارنا؛ وضو کے ساتھ دائیں کروٹ سونا؛ بیت الخلا میں داخل ہونے اور نکلنے کی دعائیں۔ یہ جزئیات محض رسومات نہیں — یہ معمول کو مسلسل ذکر میں بدل دیتی ہیں۔" },
     hadith: [
-      { t: "إن الشيطان يحضر أحدكم عند كل شأنه، حتى يحضره عند طعامه، فإذا نسي اسم الله قال الشيطان: أدركتم المبيت والمطعم.", r: "رواه مسلم — بمعناه" },
+      { t: { ar: "إن الشيطان يحضر أحدكم عند كل شأنه، حتى يحضره عند طعامه، فإذا نسي اسم الله قال الشيطان: أدركتم المبيت والمطعم.", en: "Shaytan attends every affair of yours, even your food — if Allah's name is forgotten he says: you have gained lodging and dinner.", ur: "شیطان تمہارے ہر معاملے میں حاضر ہوتا ہے، یہاں تک کہ کھانے پر بھی — جب اللہ کا نام بھول جاتا ہے تو شیطان کہتا ہے: تمہیں ٹھکانا اور کھانا دونوں مل گئے۔" }, r: { ar: "رواه مسلم — بمعناه", en: "Muslim — in meaning", ur: "مسلم — مفہوماً" } },
     ],
     steps: [
-      "اختر ثلاثة آداب فقط هذا الأسبوع (البسملة، السلام عند الدخول، أذكار النوم) حتى تصبح عادة.",
-      "علّق بطاقة صغيرة عند بيتك أو مطبخك بالأدعية حتى تحفظها.",
-      "علّمها لأهلك وأولادك — تعليم الصغير نشر للخير.",
+      { ar: "اختر ثلاثة آداب فقط هذا الأسبوع ⁦(البسملة، السلام عند الدخول، أذكار النوم)⁩ حتى تصبح عادة.", en: "Pick only three etiquettes this week ⁦(basmala, salam on entering, sleep adhkar)⁩ until they become habit.", ur: "اس ہفتے صرف تین آداب چنیں ⁦(بسم اللہ، داخلتے وقت سلام، سونے کے اذکار)⁩ جب تک عادت نہ بن جائیں۔" },
+      { ar: "علّق بطاقة صغيرة عند بيتك أو مطبخك بالأدعية حتى تحفظها.", en: "Post a small card with the du'as near your door or kitchen until memorised.", ur: "دعاؤں کا ایک چھوٹا کارڈ دروازے یا باورچی خانے کے قریب لگائیں جب تک یاد نہ ہو جائیں۔" },
+      { ar: "علّمها لأهلك وأولادك — تعليم الصغير نشر للخير.", en: "Teach them to your family and children — teaching spreads the good.", ur: "اپنے گھر والوں اور بچوں کو سکھائیں — سکھانا نیکی کا پھیلاؤ ہے۔" },
     ],
-    why: "الصورة الكبيرة: الحياة الإسلامية ليست أحداثًا كبرى بل آلاف التفاصيل الصغيرة المنوّاة — هنا تُبنى الشخصية.",
+    why: { ar: "الصورة الكبيرة: الحياة الإسلامية ليست أحداثًا كبرى بل آلاف التفاصيل الصغيرة المنوّاة — هنا تُبنى الشخصية.", en: "The big picture: Islamic life is not grand events but thousands of small intended details — this is where character is built.", ur: "بڑی تصویر: اسلامی زندگی بڑے واقعات نہیں بلکہ ہزاروں چھوٹی دانستہ جزئیات ہیں — شخصیت یہیں بنتی ہے۔" },
   },
   {
     horizon: "daily", domain: "nafs", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "محاسبة النفس قبل النوم",
-    teaser: "دقيقتان قبل النوم: ماذا أصبت اليوم؟ وماذا أخطأت؟ وما الغد؟ — عادة الصالحين الأعمق أثرًا.",
-    body: "قال عمر بن الخطاب: «حاسبوا أنفسكم قبل أن تحاسبوا». المحاسبة اليومية سؤال ثلاثي: ما الطاعة التي أديتها فأشكر الله عليها؟ ما الذنب الذي وقعت فيه فأستغفر منه؟ وما الغد؟ تُكتب أو تُفكَّر قبل النوم، ويكفي دقيقتان. معها يصبح الاستغفار عادة لا شعارًا، ويصبح الغد مخططًا لا مفاجأة.",
-    ayat: [
-      { t: "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ", r: "الحشر ١٨" },
-    ],
+    title: { ar: "محاسبة النفس قبل النوم", en: "Evening self-accounting", ur: "نیند سے پہلے خود احتسابی" },
+    teaser: { ar: "دقيقتان قبل النوم: ماذا أصبت اليوم؟ وماذا أخطأت؟ وما الغد؟ — عادة الصالحين الأعمق أثرًا.", en: "Two minutes before sleep: what did I do right today? What did I get wrong? What about tomorrow? — the most transformative habit of the righteous.", ur: "سونے سے پہلے دو منٹ: آج کیا درست کیا؟ کیا غلطی ہوئی؟ کل کیا؟ — نیک لوگوں کی سب سے گہری عادت۔" },
+    body: { ar: "قال عمر بن الخطاب: «حاسبوا أنفسكم قبل أن تحاسبوا». المحاسبة اليومية سؤال ثلاثي: ما الطاعة التي أديتها فأشكر الله عليها؟ ما الذنب الذي وقعت فيه فأستغفر منه؟ وما الغد؟ تُكتب أو تُفكَّر قبل النوم، ويكفي دقيقتان. معها يصبح الاستغفار عادة لا شعارًا، ويصبح الغد مخططًا لا مفاجأة.", en: "Umar ibn al-Khattab said: 'Take account of yourselves before you are taken to account.' Daily accounting is a three-part question: what obedience did I perform, to thank Allah for? What sin did I fall into, to seek forgiveness for? What is tomorrow? Written or reflected before sleep, two minutes suffice. With it, istighfar becomes a habit not a slogan, and tomorrow becomes planned not a surprise.", ur: "عمر بن خطاب نے کہا: «اپنی احتسابی خود کرو، اس سے پہلے کہ تمہاری احتسابی کی جائے»۔ روزانہ احتسابی تین سوالوں کا نام ہے: کون سی نیکی کی، جس پر اللہ کا شکر ادا کروں؟ کون سا گناہ ہوا، جس سے استغفار کروں؟ اور کل کیا؟ سونے سے پہلے لکھیں یا سوچیں — دو منٹ کافی ہیں۔ اس سے استغفار عادت بنتا ہے، نعرہ نہیں، اور کل منصوبہ بند ہوتا ہے، حیرت نہیں۔" },
+    ayat: [ { sura: 59, aya: 18, label: { ar: "الحشر ١٨", en: "Al-Hashr 59:18", ur: "الحشر ١٨" } } ],
     hadith: [
-      { t: "الكيس من دان نفسه وعمل لما بعد الموت، والعاجز من أتبع نفسه هواها وتمنى على الله.", r: "رواه الترمذي" },
+      { t: { ar: "الكيس من دان نفسه وعمل لما بعد الموت، والعاجز من أتبع نفسه هواها وتمنى على الله.", en: "The wise one holds himself accountable and works for what comes after death; the incapable follows his desires and hopes in Allah.", ur: "عقل مند وہ ہے جو اپنی جان کی احتسابی کرے اور موت کے بعد کے لیے عمل کرے؛ اور بے بس وہ ہے جو اپنی خواہشات کے پیچھے چلے اور اللہ سے محض امیدیں رکھے۔" }, r: { ar: "رواه الترمذي", en: "Tirmidhi", ur: "ترمذی" } },
     ],
     steps: [
-      "ضع تذكيرًا ليليًا بعنوان «محاسبة» قبل موعد نومك بعشر دقائق.",
-      "اسأل الأسئلة الثلاثة، وأنهِ باستغفار ونية صادقة للغد.",
-      "مرة في الأسبوع اكتب ملاحظة واحدة: نمط متكرر أريد تغييره.",
+      { ar: "ضع تذكيرًا ليليًا بعنوان «محاسبة» قبل موعد نومك بعشر دقائق.", en: "Set a nightly reminder titled 'muhasaba' ten minutes before bedtime.", ur: "سونے سے دس منٹ پہلے «محاسبہ» نام کی رات کی یاد دہانی لگائیں۔" },
+      { ar: "اسأل الأسئلة الثلاثة، وأنهِ باستغفار ونية صادقة للغد.", en: "Ask the three questions, and close with istighfar and a sincere intention for tomorrow.", ur: "تین سوال پوچھیں، اور استغفار اور کل کے لیے سچی نیت پر ختم کریں۔" },
+      { ar: "مرة في الأسبوع اكتب ملاحظة واحدة: نمط متكرر أريد تغييره.", en: "Once a week, write one observation: a repeating pattern I want to change.", ur: "ہفتے میں ایک بار ایک مشاہدہ لکھیں: ایک بار بار کا انداز جو میں بدلنا چاہتا ہوں۔" },
     ],
-    why: "الصورة الكبيرة: من لا يحاسب نفسه تسوقه الأيام؛ من يحاسبها يقودها. المحاسبة هي الفرق بين العمر الذي يمضي والعمر الذي يُبنى.",
+    why: { ar: "الصورة الكبيرة: من لا يحاسب نفسه تسوقه الأيام؛ من يحاسبها يقودها. المحاسبة هي الفرق بين العمر الذي يمضي والعمر الذي يُبنى.", en: "The big picture: one who does not account for himself is driven by his days; one who does, leads them. Accounting is the difference between a life that passes and a life that is built.", ur: "بڑی تصویر: جو خود احتسابی نہیں کرتا اسے دن چلاتے ہیں؛ جو کرتا ہے وہ دنوں کو چلاتا ہے۔ احتسابی وہ فرق ہے جو گزر جانے والی عمر اور بننے والی عمر کے درمیان ہے۔" },
   },
 
-  /* ---------- أسبوعي ---------- */
+  /* ---------- weekly ---------- */
   {
     horizon: "weekly", domain: "ibadah", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "يوم الجمعة",
-    teaser: "غُسل ومباكرة وسورة الكهف وصلاة على النبي وساعة إجابة — أفضل يوم طلعت فيه الشمس.",
-    body: "الجمعة عيد الأسبوع: الاغتسال والتطيّب ولبس أحسن الثياب، المباكرة إلى المسجد، قراءة سورة الكهف، الإكثار من الصلاة على النبي، وتحري ساعة الإجابة في آخر النهار للدعاء. للنساء: لا تجب الجمعة، ومن حضرت فلها أجرها.",
-    ayat: [
-      { t: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نُودِيَ لِلصَّلَاةِ مِن يَوْمِ الْجُمُعَةِ فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ", r: "الجمعة ٩" },
-    ],
+    title: { ar: "يوم الجمعة", en: "Friday — the weekly Eid", ur: "جمعہ — ہفتہ وار عید" },
+    teaser: { ar: "غُسل ومباكرة وسورة الكهف وصلاة على النبي وساعة إجابة — أفضل يوم طلعت فيه الشمس.", en: "Ghusl, early arrival, Surah al-Kahf, salawat on the Prophet and the hour of response — the best day on which the sun rises.", ur: "غسل، جلد آمد، سورۃ الکہف، درود اور قبولیت کی گھڑی — وہ بہترین دن جس میں سورج طلوع ہوتا ہے۔" },
+    body: { ar: "الجمعة عيد الأسبوع: الاغتسال والتطيّب ولبس أحسن الثياب، المباكرة إلى المسجد، قراءة سورة الكهف، الإكثار من الصلاة على النبي، وتحري ساعة الإجابة في آخر النهار للدعاء. للنساء: لا تجب الجمعة، ومن حضرت فلها أجرها.", en: "Jumu'ah is the week's Eid: ghusl, perfume, one's best clothes, early arrival at the mosque, reading Surah al-Kahf, abundant salawat on the Prophet, and seeking the hour of answered du'a late in the day. For women: Jumu'ah is not obligatory, but whoever attends has its reward.", ur: "جمعہ ہفتے کی عید ہے: غسل، خوشبو، اچھے کپڑے، مسجد میں جلد آمد، سورۃ الکہف کی تلاوت، درود کی کثرت، اور دن کے آخر میں دعائے قبول کی گھڑی کی تلاش۔ خواتین کے لیے: جمعہ واجب نہیں، مگر جو حاضر ہو اس کے لیے اجر ہے۔" },
+    ayat: [ { sura: 62, aya: 9, label: { ar: "الجمعة ٩", en: "Al-Jumu'ah 62:9", ur: "الجمعة ٩" } } ],
     hadith: [
-      { t: "خير يوم طلعت فيه الشمس يوم الجمعة.", r: "رواه مسلم" },
-      { t: "من قرأ سورة الكهف يوم الجمعة أضاء له من النور ما بين الجمعتين.", r: "رواه الحاكم وصححه الألباني" },
+      { t: { ar: "خير يوم طلعت فيه الشمس يوم الجمعة.", en: "The best day on which the sun rises is Friday.", ur: "جس دن سورج طلوع ہو اس میں سب سے بہترین دن جمعہ ہے۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
+      { t: { ar: "من قرأ سورة الكهف يوم الجمعة أضاء له من النور ما بين الجمعتين.", en: "Whoever reads Surah al-Kahf on Friday will have light between the two Fridays.", ur: "جو جمعہ کے دن سورۃ الکہف پڑھے، اس کے لیے دو جمعوں کے درمیان نور ہوگا۔" }, r: { ar: "رواه الحاكم وصححه الألباني", en: "Al-Hakim; graded sahih by al-Albani", ur: "حاکم؛ البانی نے صحیح کہا" } },
     ],
     steps: [
-      "جهّز ثياب الجمعة وغسّلها من ليلة الخميس.",
-      "اقرأ سورة الكهف صباحًا — في الذهاب إلى العمل إن لزم.",
-      "اكتب دعاءك الكبير مسبقًا وادعُ به في آخر ساعة قبل المغرب.",
+      { ar: "جهّز ثياب الجمعة وغسّلها من ليلة الخميس.", en: "Prepare your Friday clothes the night before.", ur: "جمعہ کے کپڑے جمعرات کی رات سے تیار رکھیں۔" },
+      { ar: "اقرأ سورة الكهف صباحًا — في الذهاب إلى العمل إن لزم.", en: "Read Surah al-Kahf in the morning — on your commute if needed.", ur: "سورۃ الکہف صبح پڑھیں — ضرورت ہو تو راستے میں۔" },
+      { ar: "اكتب دعاءك الكبير مسبقًا وادعُ به في آخر ساعة قبل المغرب.", en: "Write your big du'a in advance and make it in the last hour before Maghrib.", ur: "اپنی بڑی دعا پہلے سے لکھ لیں اور مغرب سے پہلے آخری گھڑی میں مانگیں۔" },
     ],
-    note: "للنساء: الجمعة غير واجبة؛ الصلاة ظهرًا في وقتها، ومن شهدت الجمعة فلها أجرها بإذن الله.",
-    why: "الصورة الكبيرة: الجمعة إعادة ضبط أسبوعية للقلب — خمسون دقيقة تقطع زحام الأسبوع وتعيدك إلى المعنى.",
+    note: { ar: "للنساء: الجمعة غير واجبة؛ الصلاة ظهرًا في وقتها، ومن شهدت الجمعة فلها أجرها بإذن الله.", en: "For women: Jumu'ah is not obligatory; Dhuhr suffices, and whoever attends has its full reward.", ur: "خواتین کے لیے: جمعہ واجب نہیں؛ ظہر کافی ہے، اور جو حاضر ہو اسے پورا اجر ملتا ہے۔" },
+    why: { ar: "الصورة الكبيرة: الجمعة إعادة ضبط أسبوعية للقلب — خمسون دقيقة تقطع زحام الأسبوع وتعيدك إلى المعنى.", en: "The big picture: Jumu'ah is a weekly reset for the heart — fifty minutes that cut through the week's noise and return you to meaning.", ur: "بڑی تصویر: جمعہ دل کی ہفتہ وار بازیافت ہے — پچاس منٹ جو ہفتے کے شور کو کاٹ کر آپ کو معنی کی طرف لوٹاتے ہیں۔" },
   },
   {
     horizon: "weekly", domain: "ibadah", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "صيام الاثنين والخميس",
-    teaser: "يومان في الأسبوع تُعرض فيهما الأعمال — عادة نبوية تصقل الروح وتنظم الجسد.",
-    body: "كان النبي يصوم الاثنين والخميس وقال: «تُعرض الأعمال يوم الاثنين والخميس فأحب أن يُعرض عملي وأنا صائم». صيام النافلة ليس واجبًا بل بابًا للقرب — ابدأ بيوم واحد إن تعذر الاثنان. لا تصم وأنت مريض أو في سفر شاق أو في أيام النهي (العيدان، أيام التشريق).",
+    title: { ar: "صيام الاثنين والخميس", en: "Monday & Thursday fasting", ur: "پیر اور جمعرات کے روزے" },
+    teaser: { ar: "يومان في الأسبوع تُعرض فيهما الأعمال — عادة نبوية تصقل الروح وتنظم الجسد.", en: "Two days a week when deeds are presented — a prophetic habit that refines the soul and regulates the body.", ur: "ہفتے میں دو دن جب اعمال پیش کیے جاتے ہیں — نبوی عادت جو روح کو صاف اور جسم کو متوازن رکھتی ہے۔" },
+    body: { ar: "كان النبي يصوم الاثنين والخميس وقال: «تُعرض الأعمال يوم الاثنين والخميس فأحب أن يُعرض عملي وأنا صائم». صيام النافلة ليس واجبًا بل بابًا للقرب — ابدأ بيوم واحد إن تعذر الاثنان. لا تصم وأنت مريض أو في سفر شاق أو في أيام النهي ⁦(العيدان، أيام التشريق)⁩.", en: "The Prophet used to fast Mondays and Thursdays, saying: 'Deeds are presented on Monday and Thursday, and I love for my deeds to be presented while I am fasting.' Voluntary fasting is not an obligation but a door to nearness — start with one day if two is hard. Do not fast while ill, on hard travel, or on prohibited days ⁦(the two Eids, days of Tashriq)⁩.", ur: "آپ پیر اور جمعرات کو روزہ رکھتے تھے اور فرمایا: «پیر اور جمعرات کو اعمال پیش کیے جاتے ہیں، اور میں چاہتا ہوں کہ میرا عمل پیش ہو جب میں روزے سے ہوں»۔ نفل روزہ واجب نہیں بلکہ قرب کا دروازہ ہے — اگر دو دن مشکل ہوں تو ایک دن سے شروع کریں۔ بیماری، سخت سفر یا ممنوعہ دنوں ⁦(عیدین، ایام تشریق)⁩ میں روزہ نہ رکھیں۔" },
     hadith: [
-      { t: "تُعرض الأعمال يوم الاثنين والخميس، فأحب أن يُعرض عملي وأنا صائم.", r: "رواه الترمذي" },
+      { t: { ar: "تُعرض الأعمال يوم الاثنين والخميس، فأحب أن يُعرض عملي وأنا صائم.", en: "Deeds are presented on Monday and Thursday; I love for my deeds to be presented while I am fasting.", ur: "پیر اور جمعرات کو اعمال پیش کیے جاتے ہیں؛ میں چاہتا ہوں کہ میرا عمل پیش ہو جب میں روزے سے ہوں۔" }, r: { ar: "رواه الترمذي", en: "Tirmidhi", ur: "ترمذی" } },
     ],
     steps: [
-      "ابدأ بالخميس فقط لمدة شهر ثم أضف الاثنين.",
-      "جهّز سحورًا خفيفًا ولا تجعل الصيام عذرًا للكسل في العمل.",
-      "اجعل يوم الصيام يوم دعاء كبير — دعاء الصائم لا يُرد.",
+      { ar: "ابدأ بالخميس فقط لمدة شهر ثم أضف الاثنين.", en: "Start with Thursday only for a month, then add Monday.", ur: "ایک مہینے صرف جمعرات سے شروع کریں، پھر پیر شامل کریں۔" },
+      { ar: "جهّز سحورًا خفيفًا ولا تجعل الصيام عذرًا للكسل في العمل.", en: "Prepare a light suhoor; don't let fasting excuse laziness at work.", ur: "ہلکی سحری تیار کریں؛ روزے کو کام میں سستی کا عذر نہ بنائیں۔" },
+      { ar: "اجعل يوم الصيام يوم دعاء كبير — دعاء الصائم لا يُرد.", en: "Make fasting days your big du'a days — a fasting person's du'a is not rejected.", ur: "روزے کے دن کو بڑی دعا کا دن بنائیں — روزے دار کی دعا رد نہیں ہوتی۔" },
     ],
-    note: "الحائض والنفساء والمريض والمسافر لهن ولهم رخصهم المعروفة — لا صيام على حساب الصحة أو الواجب.",
-    why: "الصورة الكبيرة: الصيام الأسبوعي تدريب إرادة منظم — من ملك بطنه ملك كثيرًا من شهواته.",
+    note: { ar: "الحائض والنفساء والمريض والمسافر لهن ولهم رخصهم المعروفة — لا صيام على حساب الصحة أو الواجب.", en: "Menstruating women, the ill and travellers have their known concessions — no fasting at the cost of health or duty.", ur: "حائضہ، نفساء، بیمار اور مسافر کے لیے معروف رخصتیں ہیں — صحت یا فرض کی قیمت پر روزہ نہیں۔" },
+    why: { ar: "الصورة الكبيرة: الصيام الأسبوعي تدريب إرادة منظم — من ملك بطنه ملك كثيرًا من شهواته.", en: "The big picture: weekly fasting is structured willpower training — whoever masters their appetite masters many desires.", ur: "بڑی تصویر: ہفتہ وار روزہ ارادے کی منظم مشق ہے — جو اپنی بھوک پر قابو پائے وہ بہت سی خواہشات پر قابو پاتا ہے۔" },
   },
   {
     horizon: "weekly", domain: "usra", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "صلة الرحم وحق الجار",
-    teaser: "اتصال أسبوعي بالوالدين وزيارة قريب وتفقّد جار — الرحم معلقة بالعرش.",
-    body: "صلة الرحم ليست زيارة الأعياد فقط: اتصال، سؤال، هدية صغيرة، قضاء حاجة. والوالدان أولى الناس — برهما ولو بكلمة. والجار له حق الإهداء والكف عن الأذى وزيارة المرض وإجابة الدعوة. خصص في أسبوعك موعدًا ثابتًا: اتصال بالوالدين لا ينقطع، وزيارة أو اتصال بقريب واحد بالتناوب، وتفقد جار.",
+    title: { ar: "صلة الرحم وحق الجار", en: "Kinship & the neighbour's right", ur: "صلہ رحمی اور پڑوسی کا حق" },
+    teaser: { ar: "اتصال أسبوعي بالوالدين وزيارة قريب وتفقّد جار — الرحم معلقة بالعرش.", en: "A weekly call to parents, a visit to a relative, checking on a neighbour — the womb-tie hangs from the Throne.", ur: "والدین کو ہفتہ وار کال، کسی رشتہ دار کی ملاقات، پڑوسی کی خیریت — رحم عرش سے جڑی ہے۔" },
+    body: { ar: "صلة الرحم ليست زيارة الأعياد فقط: اتصال، سؤال، هدية صغيرة، قضاء حاجة. والوالدان أولى الناس — برهما ولو بكلمة. والجار له حق الإهداء والكف عن الأذى وزيارة المرض وإجابة الدعوة. خصص في أسبوعك موعدًا ثابتًا: اتصال بالوالدين لا ينقطع، وزيارة أو اتصال بقريب واحد بالتناوب، وتفقد جار.", en: "Kinship is not only Eid visits: a call, a question, a small gift, a need fulfilled. Parents come first — honour them even with a kind word. The neighbour has the right of gifts, freedom from harm, visiting when ill and accepting invitations. Fix a weekly slot: an unbroken call to parents, a rotating visit or call to one relative, and checking on a neighbour.", ur: "صلہ رحمی صرف عید کی ملاقاتیں نہیں: ایک کال، ایک پوچھ گچھ، ایک چھوٹا تحفہ، ایک ضرورت پوری کرنا۔ والدین سب سے پہلے — ان کے ساتھ نیکی، خو ایک کلمے سے بھی۔ پڑوسی کا حق ہے: تحفہ، تکلیف سے پرہیز، بیماری میں عیادت اور دعوت قبول کرنا۔ اپنے ہفتے میں مقررہ وقت رکھیں: والدین سے مسلسل رابطہ، باری باری سے ایک رشتہ دار سے ملاقات یا کال، اور پڑوسی کی خیریت۔" },
     ayat: [
-      { t: "وَاعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا بِهِ شَيْئًا ۖ وَبِالْوَالِدَيْنِ إِحْسَانًا", r: "النساء ٣٦" },
-      { t: "وَقُل لَّهُمَا قَوْلًا كَرِيمًا", r: "الإسراء ٢٣" },
+      { sura: 4, aya: 36, label: { ar: "النساء ٣٦", en: "An-Nisa 4:36", ur: "النساء ٣٦" } },
+      { sura: 17, aya: 23, label: { ar: "الإسراء ٢٣", en: "Al-Isra 17:23", ur: "الإسراء ٢٣" } },
     ],
     hadith: [
-      { t: "ما زال جبريل يوصيني بالجار حتى ظننت أنه سيورثه.", r: "متفق عليه" },
-      { t: "من كان يؤمن بالله واليوم الآخر فليكرم جاره.", r: "متفق عليه" },
+      { t: { ar: "ما زال جبريل يوصيني بالجار حتى ظننت أنه سيورثه.", en: "Jibril kept advising me about the neighbour until I thought he would make him an heir.", ur: "جبریل مجھے پڑوسی کے بارے میں وصیت کرتے رہے یہاں تک کہ میں سمجھا وہ اسے وارث بنا دے گا۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "من كان يؤمن بالله واليوم الآخر فليكرم جاره.", en: "Whoever believes in Allah and the Last Day, let him honour his neighbour.", ur: "جو اللہ اور آخرت پر ایمان رکھے وہ اپنے پڑوسی کی عزت کرے۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
     ],
     steps: [
-      "ثبّت موعد اتصال أسبوعي بالوالدين — التقويم لا القلب وحده.",
-      "أنشئ قائمة بأقاربك وصلهم بالتناوب: واحد كل أسبوع.",
-      "اعرف اسم جارك على الأقل واطرق بابه بهدية بسيطة مرة في الشهر.",
+      { ar: "ثبّت موعد اتصال أسبوعي بالوالدين — التقويم لا القلب وحده.", en: "Fix a weekly call slot with your parents — the calendar, not just the heart.", ur: "والدین کے لیے ہفتہ وار کال کا وقت مقرر کریں — کیلنڈر، صرف دل نہیں۔" },
+      { ar: "أنشئ قائمة بأقاربك وصلهم بالتناوب: واحد كل أسبوع.", en: "List your relatives and rotate: one connection per week.", ur: "اپنے رشتہ داروں کی فہرست بنائیں اور باری لگائیں: ہفتے میں ایک رابطہ۔" },
+      { ar: "اعرف اسم جارك على الأقل واطرق بابه بهدية بسيطة مرة في الشهر.", en: "Learn your neighbour's name at least, and knock with a small gift once a month.", ur: "کم از کم اپنے پڑوسی کا نام جانیں اور مہینے میں ایک بار چھوٹے تحفے کے ساتھ دروازہ کھٹکھٹائیں۔" },
     ],
-    why: "الصورة الكبيرة: العبادة المجتمعية (الصلة والجار) من أثقل ما في الميزان — المسلم لا يعبد الله منعزلًا عن خلقه.",
+    why: { ar: "الصورة الكبيرة: العبادة المجتمعية ⁦(الصلة والجار)⁩ من أثقل ما في الميزان — المسلم لا يعبد الله منعزلًا عن خلقه.", en: "The big picture: social worship ⁦(kinship and neighbours)⁩ weighs heavy in the scale — a Muslim does not worship Allah in isolation from His creation.", ur: "بڑی تصویر: معاشرتی عبادت ⁦(صلہ رحمی اور پڑوس)⁩ ترازو میں بھاری ہے — مسلمان اللہ کی عبادت اس کی مخلوق سے الگ ہو کر نہیں کرتا۔" },
   },
   {
     horizon: "weekly", domain: "nafs", stages: ["student", "adult", "parent"],
-    title: "تخطيط الأسبوع حول الصلاة",
-    teaser: "ربع ساعة يوم الخميس أو الجمعة: رتّب أسبوعك على الصلوات أولًا، ثم العمل والأهل والراحة.",
-    body: "التخطيط الأسبوعي المسلم يقلب المعادلة: بدل حشر الصلاة بين المواعيد، تُبنى المواعيد حول الصلاة. في ربع ساعة: (١) راجع الأسبوع الماضي — ما أُنجز وما فات. (٢) ثبّت الثوابت: الصلوات، الجمعة، ورد القرآن، اتصال الأهل. (٣) اختر ثلاث مهام كبرى فقط للأسبوع. (٤) اترك فراغًا للطوارئ — الإنسان يخطط والله يقدّر.",
+    title: { ar: "تخطيط الأسبوع حول الصلاة", en: "Planning the week around prayer", ur: "نماز کے گرد ہفتے کی منصوبہ بندی" },
+    teaser: { ar: "ربع ساعة يوم الخميس أو الجمعة: رتّب أسبوعك على الصلوات أولًا، ثم العمل والأهل والراحة.", en: "Fifteen minutes on Thursday or Friday: arrange your week around the prayers first, then work, family and rest.", ur: "جمعرات یا جمعہ کو پندرہ منٹ: پہلے نمازوں کے گرد ہفتہ ترتیب دیں، پھر کام، گھر والے اور آرام۔" },
+    body: { ar: "التخطيط الأسبوعي المسلم يقلب المعادلة: بدل حشر الصلاة بين المواعيد، تُبنى المواعيد حول الصلاة. في ربع ساعة: ⁦(١)⁩ راجع الأسبوع الماضي — ما أُنجز وما فات. ⁦(٢)⁩ ثبّت الثوابت: الصلوات، الجمعة، ورد القرآن، اتصال الأهل. ⁦(٣)⁩ اختر ثلاث مهام كبرى فقط للأسبوع. ⁦(٤)⁩ اترك فراغًا للطوارئ — الإنسان يخطط والله يقدّر.", en: "Muslim weekly planning inverts the equation: instead of squeezing prayer between appointments, appointments are built around prayer. In fifteen minutes: ⁦(1)⁩ review last week — what was done and what was missed. ⁦(2)⁩ Fix the constants: prayers, Jumu'ah, Quran portion, family call. ⁦(3)⁩ Choose only three big tasks for the week. ⁦(4)⁩ Leave room for emergencies — man plans, Allah decrees.", ur: "مسلمانوں کی ہفتہ وار منصوبہ بندی مساوات الٹ دیتی ہے: نماز کو ملاقاتوں میں ٹھونسنے کے بجائے ملاقاتیں نماز کے گرد بنتی ہیں۔ پندرہ منٹ میں: ⁦(١)⁩ پچھلے ہفتے کا جائزہ — کیا ہوا اور کیا رہ گیا۔ ⁦(٢)⁩ ثابت چیزیں مقرر کریں: نمازیں، جمعہ، قرآن کا ورد، گھر والوں کی کال۔ ⁦(٣)⁩ ہفتے کے صرف تین بڑے کام چنیں۔ ⁦(٤)⁩ ایمرجنسی کے لیے جگہ چھوڑیں — انسان منصوبہ بناتا ہے اور اللہ فیصلہ کرتا ہے۔" },
     hadith: [
-      { t: "اعمل لدنياك كأنك تعيش أبدًا، واعمل لآخرتك كأنك تموت غدًا.", r: "من كلام السلف — يُروى بمعناه" },
+      { t: { ar: "اعمل لدنياك كأنك تعيش أبدًا، واعمل لآخرتك كأنك تموت غدًا.", en: "Work for your dunya as if you live forever, and work for your akhirah as if you die tomorrow.", ur: "اپنی دنیا کے لیے اس طرح کام کرو گویا ہمیشہ جیو گے، اور اپنی آخرت کے لیے اس طرح کام کرو گویا کل مر جاؤ گے۔" }, r: { ar: "من كلام السلف — يُروى بمعناه", en: "From the early generations — in meaning", ur: "سلف کا کلام — مفہوماً" } },
     ],
     steps: [
-      "اختر وقتًا ثابتًا (ليلة الجمعة مثلًا) لجلسة التخطيط الأسبوعية.",
-      "ضع الصلوات والجمعة في التقويم أولًا كمواعيد غير قابلة للتفاوض.",
-      "اكتب ثلاثة أهداف أسبوعية فقط — واحد لدينك وواحد لعملك وواحد لأهلك.",
+      { ar: "اختر وقتًا ثابتًا ⁦(ليلة الجمعة مثلًا)⁩ لجلسة التخطيط الأسبوعية.", en: "Choose a fixed time ⁦(e.g. Thursday night)⁩ for the weekly planning session.", ur: "ہفتہ وار منصوبہ بندی کے لیے مقررہ وقت چنیں ⁦(مثلاً جمعہ کی رات)⁩۔" },
+      { ar: "ضع الصلوات والجمعة في التقويم أولًا كمواعيد غير قابلة للتفاوض.", en: "Put prayers and Jumu'ah in the calendar first as non-negotiable appointments.", ur: "پہلے نمازیں اور جمعہ کیلنڈر میں ڈالیں، ناقابلِ مذاکرات ملاقاتوں کی طرح۔" },
+      { ar: "اكتب ثلاثة أهداف أسبوعية فقط — واحد لدينك وواحد لعملك وواحد لأهلك.", en: "Write only three weekly goals — one for your deen, one for work, one for family.", ur: "صرف تین ہفتہ وار اہداف لکھیں — ایک دین کے لیے، ایک کام کے لیے، ایک گھر والوں کے لیے۔" },
     ],
-    why: "الصورة الكبيرة: الوقت أمانة وحياة — «والعصر إن الإنسان لفي خسر». التخطيط هو كيف نُخرج العمر من الخسارة.",
+    why: { ar: "الصورة الكبيرة: الوقت أمانة وحياة — «والعصر إن الإنسان لفي خسر». التخطيط هو كيف نُخرج العمر من الخسارة.", en: "The big picture: time is a trust and a life — 'By time, man is in loss.' Planning is how we lift our lifetime out of that loss.", ur: "بڑی تصویر: وقت امانت اور زندگی ہے — «قسم عصر کی، انسان خسارے میں ہے»۔ منصوبہ بندی وہ ذریعہ ہے جس سے ہم اپنی عمر کو خسارے سے نکالتے ہیں۔" },
   },
 
-  /* ---------- شهري ---------- */
+  /* ---------- monthly ---------- */
   {
     horizon: "monthly", domain: "ibadah", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "الأيام البيض",
-    teaser: "ثلاثة أيام من كل شهر هجري تعدل صيام الدهر — تابع التقويم الهجري لا الميلادي فقط.",
-    body: "الأيام البيض: ١٣ و١٤ و١٥ من كل شهر هجري، ليالي اكتمال القمر. صيام ثلاثة أيام في الشهر كصيام الدهر لأن الحسنة بعشر أمثالها. للذين لا يقدرون على الاثنين والخميس، هذه بداية أخف. أضف التقويم الهجري إلى هاتفك وفعّل التنبيه.",
+    title: { ar: "الأيام البيض", en: "The White Days ⁦(13–14–15)⁩", ur: "بیض دن ⁦(١٣–١٤–١٥)⁩" },
+    teaser: { ar: "ثلاثة أيام من كل شهر هجري تعدل صيام الدهر — تابع التقويم الهجري لا الميلادي فقط.", en: "Three days each Hijri month equal to fasting the whole year — track the Hijri calendar, not only the Gregorian.", ur: "ہر ہجری مہینے کے تین دن پوری عمر کے روزے کے برابر — ہجری کیلنڈر کی پیروی کریں، صرف عیسوی نہیں۔" },
+    body: { ar: "الأيام البيض: ١٣ و١٤ و١٥ من كل شهر هجري، ليالي اكتمال القمر. صيام ثلاثة أيام في الشهر كصيام الدهر لأن الحسنة بعشر أمثالها. للذين لا يقدرون على الاثنين والخميس، هذه بداية أخف. أضف التقويم الهجري إلى هاتفك وفعّل التنبيه.", en: "The White Days are the 13th, 14th and 15th of each Hijri month — the nights of the full moon. Fasting three days a month equals fasting the whole year, since each good deed is multiplied tenfold. For those who cannot do Mondays and Thursdays, this is a lighter start. Add the Hijri calendar to your phone and enable alerts.", ur: "بیض دن: ہر ہجری مہینے کی ١٣، ١٤ اور ١٥ — پورے چاند کی راتیں۔ مہینے میں تین دن روزہ پورے سال کے روزے کے برابر ہے، کیونکہ نیکی دس گنا بڑھتی ہے۔ جو پیر اور جمعرات نہیں کر سکتے ان کے لیے یہ ہلکا آغاز ہے۔ اپنے فون میں ہجری کیلنڈر شامل کریں اور الرٹ آن کریں۔" },
     hadith: [
-      { t: "صيام ثلاثة أيام من كل شهر صيام الدهر كله.", r: "متفق عليه" },
-      { t: "كان يأمرنا بصيام أيام البيض: ثلاثة عشر وأربعة عشر وخمسة عشر.", r: "رواه أبو داود والنسائي" },
+      { t: { ar: "صيام ثلاثة أيام من كل شهر صيام الدهر كله.", en: "Fasting three days of every month is fasting the entire year.", ur: "ہر مہینے تین دن روزہ پورے سال کا روزہ ہے۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "كان يأمرنا بصيام أيام البيض: ثلاثة عشر وأربعة عشر وخمسة عشر.", en: "He used to command us to fast the White Days: 13, 14, 15.", ur: "آپ ہمیں بیض دنوں کا روزہ رکھنے کا حکم دیتے تھے: ١٣، ١٤، ١٥۔" }, r: { ar: "رواه أبو داود والنسائي", en: "Abu Dawud & Nasa'i", ur: "ابو داؤد اور نسائی" } },
     ],
     steps: [
-      "حمّل تطبيق تقويم هجري وعلّم على أيام ١٣–١٥ من الشهر القادم.",
-      "إن تعذرت الثلاثة فاليوم الأوسط (١٤) لا يقل أهمية.",
-      "اجعلها أيام توبة وصدقة مصاحبة — الصيام وحده ليس القصة كاملة.",
+      { ar: "حمّل تطبيق تقويم هجري وعلّم على أيام ١٣–١٥ من الشهر القادم.", en: "Install a Hijri calendar app and mark days 13–15 of next month.", ur: "ہجری کیلنڈر ایپ انسٹال کریں اور اگلے مہینے کی ١٣–١٥ کو نشان لگائیں۔" },
+      { ar: "إن تعذرت الثلاثة فاليوم الأوسط ⁦(١٤)⁩ لا يقل أهمية.", en: "If three is too much, the middle day ⁦(14th)⁩ still counts heavily.", ur: "اگر تین مشکل ہوں تو درمیانی دن ⁦(١٤)⁩ بھی بہت معنی رکھتا ہے۔" },
+      { ar: "اجعلها أيام توبة وصدقة مصاحبة — الصيام وحده ليس القصة كاملة.", en: "Pair them with repentance and sadaqa — fasting alone is not the whole story.", ur: "انہیں توبہ اور صدقے کے ساتھ جوڑیں — صرف روزہ پوری کہانی نہیں۔" },
     ],
-    why: "الصورة الكبيرة: العيش بالتقويم الهجري هوية قبل أن يكون عبادة — يعيد وصلك بسنة الأمة لا بسنة السوق.",
+    why: { ar: "الصورة الكبيرة: العيش بالتقويم الهجري هوية قبل أن يكون عبادة — يعيد وصلك بسنة الأمة لا بسنة السوق.", en: "The big picture: living by the Hijri calendar is identity before worship — it reconnects you to the ummah's year, not the market's.", ur: "بڑی تصویر: ہجری کیلنڈر سے جینا عبادت سے پہلے شناخت ہے — یہ آپ کو امت کے سال سے جوڑتا ہے، بازار کے سال سے نہیں۔" },
   },
   {
     horizon: "monthly", domain: "mal", stages: ["student", "adult", "parent"],
-    title: "ميزانية الشهر والادخار",
-    teaser: "دخلك ثلاثة: حاجات وادخار وصدقة — اعتدال مالي، لا إسراف ولا تقتير.",
-    body: "الإسلام لا يمنع الغنى بل يمنع السرف والربا والبخل. ميزانية بسيطة: قسّم دخلك عند استلامه لا عند نفاده — حاجات ضرورية أولًا، ثم نسبة ادخار ثابتة (١٠٪ بداية معقولة)، ثم صدقة لا تنقطع ولو قلّت. الادخار ليس بخلًا بل استعداد — كان النبي يدخر لأهله قوت سنة. تجنّب الدين الاستهلاكي والربا تجنّبًا تامًا.",
+    title: { ar: "ميزانية الشهر والادخار", en: "Monthly budget & saving", ur: "ماہانہ بجٹ اور بچت" },
+    teaser: { ar: "دخلك ثلاثة: حاجات وادخار وصدقة — اعتدال مالي، لا إسراف ولا تقتير.", en: "Split income three ways: needs, savings, sadaqa — financial moderation, neither wasteful nor miserly.", ur: "آمدنی تین حصوں میں بانٹیں: ضروریات، بچت، صدقہ — مالی اعتدال، نہ فضول خرچی نہ کنجوسی۔" },
+    body: { ar: "الإسلام لا يمنع الغنى بل يمنع السرف والربا والبخل. ميزانية بسيطة: قسّم دخلك عند استلامه لا عند نفاده — حاجات ضرورية أولًا، ثم نسبة ادخار ثابتة ⁦(١٠٪ بداية معقولة)⁩، ثم صدقة لا تنقطع ولو قلّت. الادخار ليس بخلًا بل استعداد — كان النبي يدخر لأهله قوت سنة. تجنّب الدين الاستهلاكي والربا تجنّبًا تامًا.", en: "Islam does not forbid wealth; it forbids waste, riba and miserliness. A simple budget: split income when received, not when spent — essentials first, then a fixed saving rate ⁦(10% is a reasonable start)⁩, then unbroken sadaqa however small. Saving is not stinginess but readiness — the Prophet stored a year's provision for his family. Avoid consumer debt and riba entirely.", ur: "اسلام دولت سے نہیں روکتا؛ اسراف، سود اور کنجوسی سے روکتا ہے۔ سادہ بجٹ: آمدنی ملتے ہی بانٹیں، ختم ہونے پر نہیں — پہلے ضروریات، پھر بچت کی مقررہ شرح ⁦(١٠٪ معقول آغاز ہے)⁩، پھر مسلسل صدقہ خواہ کم ہو۔ بچت کنجوسی نہیں بلکہ تیاری ہے — آپ نے اپنے گھر والوں کے لیے سال بھر کا رزق ذخیرہ کیا۔ صارفی قرض اور سود سے مکمل پرہیز کریں۔" },
     ayat: [
-      { t: "وَالَّذِينَ إِذَا أَنفَقُوا لَمْ يُسْرِفُوا وَلَمْ يَقْتُرُوا وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا", r: "الفرقان ٦٧" },
-      { t: "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَذَرُوا مَا بَقِيَ مِنَ الرِّبَا", r: "البقرة ٢٧٨" },
+      { sura: 25, aya: 67, label: { ar: "الفرقان ٦٧", en: "Al-Furqan 25:67", ur: "الفرقان ٦٧" } },
+      { sura: 2, aya: 278, label: { ar: "البقرة ٢٧٨", en: "Al-Baqarah 2:278", ur: "البقرہ ٢٧٨" } },
     ],
     hadith: [
-      { t: "يدك العليا خير من يدك السفلى، وابدأ بمن تعول.", r: "متفق عليه" },
+      { t: { ar: "يدك العليا خير من يدك السفلى، وابدأ بمن تعول.", en: "The upper hand is better than the lower hand, and start with those you support.", ur: "اوپر والا ہاتھ نیچے والے ہاتھ سے بہتر ہے، اور ان لوگوں سے شروع کرو جن کی کفالت تم کرتے ہو۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
     ],
     steps: [
-      "قسّم الراتب يوم استلامه: حاجات / ادخار / صدقة — الترتيب هو الفارق.",
-      "حدّد نسبة ادخار ثابتة وارفعها ١٪ كل ثلاثة أشهر.",
-      "سجّل مصروفك شهرًا واحدًا على الأقل — لا تستطيع إدارة ما لا تقيسه.",
-      "راجع اشتراكاتك وديونك الاستهلاكية وخطة التخلص منها.",
+      { ar: "قسّم الراتب يوم استلامه: حاجات / ادخار / صدقة — الترتيب هو الفارق.", en: "Split your paycheck on arrival: needs / savings / sadaqa — order is the difference.", ur: "تنخواہ ملتے ہی بانٹیں: ضروریات / بچت / صدقہ — ترتیب ہی فرق ہے۔" },
+      { ar: "حدّد نسبة ادخار ثابتة وارفعها ١٪ كل ثلاثة أشهر.", en: "Fix a saving rate and raise it 1% every three months.", ur: "بچت کی شرح مقرر کریں اور ہر تین مہینے میں ١٪ بڑھائیں۔" },
+      { ar: "سجّل مصروفك شهرًا واحدًا على الأقل — لا تستطيع إدارة ما لا تقيسه.", en: "Track spending for at least one month — you can't manage what you don't measure.", ur: "کم از کم ایک مہینہ خرچ لکھیں — جسے ماپ نہیں سکتے اسے سنبھال نہیں سکتے۔" },
+      { ar: "راجع اشتراكاتك وديونك الاستهلاكية وخطة التخلص منها.", en: "Review subscriptions and consumer debt with a payoff plan.", ur: "سبسکرپشنز اور صارفی قرضوں کا جائزہ لیں اور ان سے نجات کی منصوبہ بندی کریں۔" },
     ],
-    why: "الصورة الكبيرة: المال في الإسلام وسيلة استخلاف لا هدف — تنظيمه يحررك من القلق لتحسن العبادة والعمل.",
+    why: { ar: "الصورة الكبيرة: المال في الإسلام وسيلة استخلاف لا هدف — تنظيمه يحررك من القلق لتحسن العبادة والعمل.", en: "The big picture: wealth in Islam is a means of stewardship, not a goal — organising it frees you from anxiety to worship and work well.", ur: "بڑی تصویر: اسلام میں مال استخلاف کا ذریعہ ہے، مقصد نہیں — اس کی ترتیب آپ کو بے چینی سے آزاد کرتی ہے تاکہ عبادت اور کام اچھے ہوں۔" },
   },
   {
     horizon: "monthly", domain: "mal", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "صدقة ثابتة لا تنقطع",
-    teaser: "صدقة شهرية مبرمجة — سرية أو علنية — تجعل العطاء عادة لا ردّة فعل.",
-    body: "الصدقة ليست فقط زكاة واجبة؛ إنها تطوّع دائم: مال، طعام، ابتسامة، كفّ أذى، نفع علم. اجعل لك صدقة شهرية ثابتة تُخصم كفاتورة: كفالة يتيم، مشروع وقف، حساب خيري موثوق. الصدقة السرّية أعظم أجرًا، والعلنية أحيانًا يُقتدى بها. وتذكّر: «الصدقة تطفئ الخطيئة كما يطفئ الماء النار».",
-    ayat: [
-      { t: "مَّثَلُ الَّذِينَ يُنفِقُونَ أَمْوَالَهُمْ فِي سَبِيلِ اللَّهِ كَمَثَلِ حَبَّةٍ أَنبَتَتْ سَبْعَ سَنَابِلَ", r: "البقرة ٢٦١" },
-    ],
+    title: { ar: "صدقة ثابتة لا تنقطع", en: "A standing monthly sadaqa", ur: "مسلسل ماہانہ صدقہ" },
+    teaser: { ar: "صدقة شهرية مبرمجة — سرية أو علنية — تجعل العطاء عادة لا ردّة فعل.", en: "A scheduled monthly sadaqa — secret or public — makes giving a habit, not a reaction.", ur: "مقررہ ماہانہ صدقہ — پوشیدہ یا ظاہر — عطا کو عادت بناتا ہے، ردعمل نہیں۔" },
+    body: { ar: "الصدقة ليست فقط زكاة واجبة؛ إنها تطوّع دائم: مال، طعام، ابتسامة، كفّ أذى، نفع علم. اجعل لك صدقة شهرية ثابتة تُخصم كفاتورة: كفالة يتيم، مشروع وقف، حساب خيري موثوق. الصدقة السرّية أعظم أجرًا، والعلنية أحيانًا يُقتدى بها. وتذكّر: «الصدقة تطفئ الخطيئة كما يطفئ الماء النار».", en: "Sadaqa is not only the obligatory zakat; it is continuous voluntary giving: money, food, a smile, removing harm, beneficial knowledge. Set a fixed monthly sadaqa that goes out like a bill: orphan sponsorship, a waqf project, a trusted charity. Secret sadaqa is greater in reward; public giving can lead by example. Remember: 'Sadaqa extinguishes sin as water extinguishes fire.'", ur: "صدقہ صرف واجب زکوٰۃ نہیں؛ یہ مسلسل رضاکارانہ عطا ہے: مال، کھانا، مسکراہٹ، تکلیف دور کرنا، مفید علم۔ ایک مقررہ ماہانہ صدقہ رکھیں جو بل کی طرح نکلے: یتیم کی کفالت، وقف منصوبہ، قابلِ اعتماد فلاحی ادارہ۔ پوشیدہ صدقہ اجر میں بڑا ہے؛ ظاہری بعض اوقات نمونہ بنتا ہے۔ یاد رکھیں: «صدقہ گناہ کو اس طرح بجھاتا ہے جیسے پانی آگ کو»۔" },
+    ayat: [ { sura: 2, aya: 261, label: { ar: "البقرة ٢٦١", en: "Al-Baqarah 2:261", ur: "البقرہ ٢٦١" } } ],
     hadith: [
-      { t: "اتقوا النار ولو بشق تمرة.", r: "متفق عليه" },
-      { t: "ما نقص مال من صدقة.", r: "رواه مسلم" },
+      { t: { ar: "اتقوا النار ولو بشق تمرة.", en: "Shield yourselves from the Fire even with half a date.", ur: "آگ سے بچو، خواہ آدھے کھجور سے بھی۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "ما نقص مال من صدقة.", en: "Wealth is never diminished by charity.", ur: "صدقے سے مال کبھی کم نہیں ہوتا۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
     ],
     steps: [
-      "اختر جهة موثوقة واحدة أو اثنتين واضبط تحويلًا شهريًا تلقائيًا.",
-      "خبّئ صدقة سرية واحدة لا يعلمها إلا الله.",
-      "وسّع مفهوم الصدقة: وقت، علم، مساعدة جار — ليست مالًا فقط.",
+      { ar: "اختر جهة موثوقة واحدة أو اثنتين واضبط تحويلًا شهريًا تلقائيًا.", en: "Pick one or two trusted charities and set an automatic monthly transfer.", ur: "ایک یا دو قابلِ اعتماد فلاحی ادارے چنیں اور خودکار ماہانہ منتقلی لگائیں۔" },
+      { ar: "خبّئ صدقة سرية واحدة لا يعلمها إلا الله.", en: "Keep one secret sadaqa known only to Allah.", ur: "ایک پوشیدہ صدقہ رکھیں جو صرف اللہ جانے۔" },
+      { ar: "وسّع مفهوم الصدقة: وقت، علم، مساعدة جار — ليست مالًا فقط.", en: "Broaden sadaqa: time, knowledge, helping a neighbour — it is not only money.", ur: "صدقے کا مفہوم وسیع کریں: وقت، علم، پڑوسی کی مدد — صرف مال نہیں۔" },
     ],
-    why: "الصورة الكبيرة: الصدقة تطهير للمال والقلب معًا — تحوّل الثروة من عبء حساب إلى زرع آخرة.",
+    why: { ar: "الصورة الكبيرة: الصدقة تطهير للمال والقلب معًا — تحوّل الثروة من عبء حساب إلى زرع آخرة.", en: "The big picture: sadaqa purifies wealth and heart together — turning riches from a burden of accounting into a planting for the akhirah.", ur: "بڑی تصویر: صدقہ مال اور دل دونوں کو پاک کرتا ہے — دولت کو حساب کے بوجھ سے آخرت کی بوائی میں بدلتا ہے۔" },
   },
   {
     horizon: "monthly", domain: "quran", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "خطة الختمة والحفظ",
-    teaser: "هدف شهري واضح: ختمة بالتقسيط، أو حفظ سطرين يوميًا — القرآن يُحمل بالتدرج لا بالحماسة.",
-    body: "خطة القرآن تحتاج رقمًا لا نية فقط: ختمة شهرية = صفحة بعد كل صلاة تقريبًا. للحفظ: سطرا حفظ جديد كل يوم + مراجعة عشرة أضعافهما من القديم — القاعدة الذهبية أن المراجعة أهم من الجديد. اختر مقرئًا أو حلقة للتصحيح، فالحفظ بلا تلقّي يثبت الأخطاء. في رمضان ضاعف الورد.",
+    title: { ar: "خطة الختمة والحفظ", en: "Khatma & memorisation plan", ur: "ختم اور حفظ کی منصوبہ بندی" },
+    teaser: { ar: "هدف شهري واضح: ختمة بالتقسيط، أو حفظ سطرين يوميًا — القرآن يُحمل بالتدرج لا بالحماسة.", en: "A clear monthly goal: a paced khatma, or two lines memorised daily — the Quran is carried by gradation, not enthusiasm.", ur: "واضح ماہانہ ہدف: بتدریج ختم، یا روز دو سطریں حفظ — قرآن بتدریج اٹھایا جاتا ہے، جوش سے نہیں۔" },
+    body: { ar: "خطة القرآن تحتاج رقمًا لا نية فقط: ختمة شهرية = صفحة بعد كل صلاة تقريبًا. للحفظ: سطرا حفظ جديد كل يوم + مراجعة عشرة أضعافهما من القديم — القاعدة الذهبية أن المراجعة أهم من الجديد. اختر مقرئًا أو حلقة للتصحيح، فالحفظ بلا تلقّي يثبت الأخطاء. في رمضان ضاعف الورد.", en: "A Quran plan needs a number, not just intention: a monthly khatma ≈ one page after each prayer. For memorisation: two new lines daily plus review of ten times that in old material — the golden rule is that review outweighs new memorisation. Find a teacher or circle for correction, since memorising without transmission cements errors. Double the portion in Ramadan.", ur: "قرآن کی منصوبہ بندی کو نیت نہیں، عدد چاہیے: ماہانہ ختم ≈ ہر نماز کے بعد ایک صفحہ۔ حفظ کے لیے: روز دو نئی سطریں + پرانے کا دس گنا تکرار — سنہری اصول یہ ہے کہ تکرار نئے حفظ سے زیادہ اہم ہے۔ تصحیح کے لیے مقری یا حلقہ چنیں، کیونکہ بغیر تلقی کے حفظ غلطیاں پکا کر دیتا ہے۔ رمضان میں ورد دوگنا کریں۔" },
     hadith: [
-      { t: "مثل الذي يقرأ القرآن وهو حافظ له مع السفرة الكرام البررة، ومثل الذي يقرأ القرآن وهو يتعاهده وعليه شدّة فله أجران.", r: "متفق عليه" },
+      { t: { ar: "مثل الذي يقرأ القرآن وهو حافظ له مع السفرة الكرام البررة، ومثل الذي يقرأ القرآن وهو يتعاهده وعليه شدّة فله أجران.", en: "The one who recites while memorised is with the noble scribes; the one who recites with effort has double reward.", ur: "جو قرآن حفظ کیے ہوئے پڑھے وہ معزز فرشتوں کے ساتھ ہے؛ اور جو مشقت سے پڑھے اس کے لیے دوہرا اجر ہے۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
     ],
     steps: [
-      "اكتب هدف الشهر: ختمة / حفظ سورة / مراجعة جزء — هدف واحد واضح.",
-      "احفظ سطرين جديدين يوميًا وراجع ما سبقهما — المراجعة ٨٠٪ من الوقت.",
-      "انضم لحلقة أو صديق مراجعة — القرآن لا يُحفظ وحيدًا بسهولة.",
+      { ar: "اكتب هدف الشهر: ختمة / حفظ سورة / مراجعة جزء — هدف واحد واضح.", en: "Write this month's goal: khatma / memorise a surah / review a juz' — one clear goal.", ur: "اس مہینے کا ہدف لکھیں: ختم / سورۃ حفظ / پارہ تکرار — ایک واضح ہدف۔" },
+      { ar: "احفظ سطرين جديدين يوميًا وراجع ما سبقهما — المراجعة ٨٠٪ من الوقت.", en: "Memorise two new lines daily and review what preceded — review is 80% of the time.", ur: "روز دو نئی سطریں حفظ کریں اور پچھلا دہرائیں — تکرار وقت کا ٨٠٪ ہے۔" },
+      { ar: "انضم لحلقة أو صديق مراجعة — القرآن لا يُحفظ وحيدًا بسهولة.", en: "Join a circle or review partner — the Quran is hard to memorise alone.", ur: "حلقے یا ریویو پارٹنر سے جڑیں — قرآن اکیلے آسانی سے حفظ نہیں ہوتا۔" },
     ],
-    why: "الصورة الكبيرة: حفظ القرآن مشروع سنوات لا أسابيع — لكن السطرين اليوميين يساويان المصحف في خمس سنوات.",
+    why: { ar: "الصورة الكبيرة: حفظ القرآن مشروع سنوات لا أسابيع — لكن السطرين اليوميين يساويان المصحف في خمس سنوات.", en: "The big picture: memorising the Quran is a project of years not weeks — but two lines a day equals the whole mushaf in five years.", ur: "بڑی تصویر: قرآن حفظ کرنا ہفتوں نہیں برسوں کا منصوبہ ہے — مگر روز دو سطریں پانچ برس میں پورا مصحف بن جاتی ہیں۔" },
   },
 
-  /* ---------- سنوي ---------- */
+  /* ---------- yearly ---------- */
   {
     horizon: "yearly", domain: "mal", stages: ["adult", "parent", "elder"],
-    title: "الزكاة — دليل عملي",
-    teaser: "ركن لا شعيرة موسمية: النصاب، ٢.٥٪، حولان الحول، والأصناف الثمانية — احسبها صحيحًا مرة في السنة.",
-    body: "الزكاة ٢.٥٪ على المال الزكوي الذي بلغ النصاب وحال عليه الحول (سنة هجرية كاملة). النصاب = قيمة ٨٥ غرامًا من الذهب تقريبًا (تحقّق من سعر الذهب يوم وجوبها). يدخل في الوعاء: النقود، الذهب والفضة، عروض التجارة، وما تجب فيه الزكاة من الزروع والأنعام بأحكامها الخاصة. المصارف ثمانية في سورة التوبة ٦٠: الفقراء والمساكين والعاملين عليها والمؤلفة قلوبهم وفي الرقاب والغارمين وفي سبيل الله وابن السبيل. الزكاة للمستحقين لا لأي خير — الصدقة للباقي.",
+    title: { ar: "الزكاة — دليل عملي", en: "Zakat — a practical guide", ur: "زکوٰۃ — عملی رہنما" },
+    teaser: { ar: "ركن لا شعيرة موسمية: النصاب، ٢.٥٪، حولان الحول، والأصناف الثمانية — احسبها صحيحًا مرة في السنة.", en: "A pillar, not a seasonal ritual: nisab, 2.5%, the lunar year and the eight categories — calculate it correctly once a year.", ur: "رکن، موسمی رسم نہیں: نصاب، ٢.٥٪، قمری سال اور آٹھ اصناف — سال میں ایک بار درست حساب کریں۔" },
+    body: { ar: "الزكاة ٢.٥٪ على المال الزكوي الذي بلغ النصاب وحال عليه الحول ⁦(سنة هجرية كاملة)⁩. النصاب = قيمة ٨٥ غرامًا من الذهب تقريبًا ⁦(تحقّق من سعر الذهب يوم وجوبها)⁩. يدخل في الوعاء: النقود، الذهب والفضة، عروض التجارة، وما تجب فيه الزكاة من الزروع والأنعام بأحكامها الخاصة. المصارف ثمانية في سورة التوبة ٦٠: الفقراء والمساكين والعاملين عليها والمؤلفة قلوبهم وفي الرقاب والغارمين وفي سبيل الله وابن السبيل. الزكاة للمستحقين لا لأي خير — الصدقة للباقي.", en: "Zakat is 2.5% on zakatable wealth that has reached nisab and completed a lunar year. Nisab ≈ the value of 85g of gold ⁦(check the gold price on your zakat day)⁩. Included: cash, gold and silver, trade inventory; crops and livestock have their own rules. The eight recipients are in At-Tawbah 60: the poor, the needy, administrators, those whose hearts are reconciled, freeing captives, the indebted, in Allah's cause and the stranded traveller. Zakat goes to its rightful categories — sadaqa covers the rest.", ur: "زکوٰۃ اس مال پر ٢.٥٪ ہے جو نصاب تک پہنچے اور قمری سال گزر جائے۔ نصاب ≈ ٨٥ گرام سونے کی قیمت ⁦(اپنے زکوٰۃ کے دن سونے کا بھاؤ دیکھیں)⁩۔ شامل ہیں: نقد، سونا چاندی، تجارتی مال؛ فصلوں اور مویشیوں کے اپنے احکام ہیں۔ آٹھ مستحقین سورۃ التوبہ ٦٠ میں ہیں: فقراء، مساکین، عاملین، مؤلفہ القلوب، رقاب، مقروضین، فی سبیل اللہ اور ابن السبیل۔ زکوٰۃ اپنے مستحقین کو دی جاتی ہے — باقی کے لیے صدقہ ہے۔" },
     ayat: [
-      { t: "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ", r: "تكررت في القرآن أكثر من ثلاثين مرة" },
-      { t: "خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا", r: "التوبة ١٠٣" },
+      { sura: 2, aya: 43, label: { ar: "وأقيموا الصلاة وآتوا الزكاة — البقرة ٤٣ ومواضع أخرى", en: "Establish prayer and give zakat — Al-Baqarah 2:43 and many more", ur: "نماز قائم کرو اور زکوٰۃ دو — البقرہ ٢:٤٣ اور بہت سے مقامات" } },
+      { sura: 9, aya: 103, label: { ar: "التوبة ١٠٣", en: "At-Tawbah 9:103", ur: "التوبہ ١٠٣" } },
     ],
     steps: [
-      "اختر «يوم زكاة» ثابتًا في السنة الهجرية (رمضان مثلًا لسهولة التذكر) وسجّله.",
-      "اجمع كل المال الزكوي في ذلك اليوم: حسابات، ذهب غير مستعمل، بضاعة.",
-      "اطرح الديون الحالة المستحقة عليك خلال السنة.",
-      "إن بلغ النصاب: اضرب الإجمالي × ٢.٥٪ وأخرجه لمستحقيه بلا تأخير.",
-      "استخدم حاسبة زكاة موثوقة للحالات المركبة (أسهم، تقاعد، عقار مؤجر) واسأل أهل العلم.",
+      { ar: "اختر «يوم زكاة» ثابتًا في السنة الهجرية ⁦(رمضان مثلًا لسهولة التذكر)⁩ وسجّله.", en: "Pick a fixed 'zakat day' in the Hijri year ⁦(e.g. Ramadan for easy recall)⁩ and record it.", ur: "ہجری سال میں «زکوٰۃ کا دن» مقرر کریں ⁦(مثلاً رمضان، یاد رکھنے میں آسانی)⁩ اور لکھ لیں۔" },
+      { ar: "اجمع كل المال الزكوي في ذلك اليوم: حسابات، ذهب غير مستعمل، بضاعة.", en: "Pool all zakatable wealth on that day: accounts, unused gold, inventory.", ur: "اس دن سارا زکوٰۃ والا مال جمع کریں: اکاؤنٹس، غیر استعمال شدہ سونا، اسٹاک۔" },
+      { ar: "اطرح الديون الحالة المستحقة عليك خلال السنة.", en: "Subtract debts due within the year.", ur: "سال کے اندر واجب الادا قرضے منہا کریں۔" },
+      { ar: "إن بلغ النصاب: اضرب الإجمالي × ٢.٥٪ وأخرجه لمستحقيه بلا تأخير.", en: "If above nisab: multiply by 2.5% and pay the eligible recipients without delay.", ur: "اگر نصاب سے زائد ہو: کل کو ٢.٥٪ سے ضرب دیں اور مستحقین کو بلا تاخیر ادا کریں۔" },
+      { ar: "استخدم حاسبة زكاة موثوقة للحالات المركبة ⁦(أسهم، تقاعد، عقار مؤجر)⁩ واسأل أهل العلم.", en: "Use a reputable zakat calculator for complex cases ⁦(stocks, pensions, rental property)⁩ and consult scholars.", ur: "پیچیدہ صورتوں ⁦(حصص، پنشن، کرایہ کی جائیداد)⁩ کے لیے قابلِ اعتماد زکوٰۃ کیلکولیٹر استعمال کریں اور علما سے پوچھیں۔" },
     ],
-    note: "النصاب وحكم الأسهم والمجوهرات المستعملة محل خلاف وتفصيل — تحقّق من مفتي بلدك أو حاسبة موثوقة.",
-    why: "الصورة الكبيرة: الزكاة أول نظام تكافلي منظم في التاريخ — تعيد توزيع البركة وتمنع تراكم المال بلا نفع.",
+    note: { ar: "النصاب وحكم الأسهم والمجوهرات المستعملة محل خلاف وتفصيل — تحقّق من مفتي بلدك أو حاسبة موثوقة.", en: "Nisab and the rulings on stocks and worn jewellery involve scholarly detail — verify with your local mufti or a trusted calculator.", ur: "نصاب اور حصص و پہنے ہوئے زیورات کے احکام میں علمی تفصیل ہے — اپنے مقامی مفتی یا قابلِ اعتماد کیلکولیٹر سے تصدیق کریں۔" },
+    why: { ar: "الصورة الكبيرة: الزكاة أول نظام تكافلي منظم في التاريخ — تعيد توزيع البركة وتمنع تراكم المال بلا نفع.", en: "The big picture: zakat was history's first systematic solidarity mechanism — it recirculates blessing and prevents wealth from stagnating without benefit.", ur: "بڑی تصویر: زکوٰۃ تاریخ کا پہلا منظم تکافلی نظام تھا — یہ برکت کو گردش میں رکھتا اور مال کو بے فائدہ جمع ہونے سے روکتا ہے۔" },
   },
   {
     horizon: "yearly", domain: "ibadah", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "رمضان ومواسم الطاعات",
-    teaser: "السنة الهجرية مواسم: شعبان تهيئة، رمضان سباق، عشر ذي الحجة أفضل أيام الدهر، عاشوراء ومحرم.",
-    body: "المنهج النبوي يعامل السنة كمواسم لا أيام متشابهة: شعبان شهر الإعداد وكثرة الصيام الاختياري؛ رمضان صيام وقيام وقرآن وعتق وإطعام؛ عشر ذي الحجة «ما من أيام العمل الصالح فيها أحب إلى الله من هذه الأيام» — وصيام عرفة لغير الحاج؛ عاشوراء صيام يوم قبله أو بعده؛ ست من شوال بعد العيد. خطط سنتك على المواسم: لكل موسم هدف محدد.",
+    title: { ar: "رمضان ومواسم الطاعات", en: "Ramadan & the worship seasons", ur: "رمضان اور عبادت کے موسم" },
+    teaser: { ar: "السنة الهجرية مواسم: شعبان تهيئة، رمضان سباق، عشر ذي الحجة أفضل أيام الدهر، عاشوراء ومحرم.", en: "The Hijri year is a cycle of seasons: Sha'ban preparation, Ramadan the race, Dhul-Hijjah's ten the best days of the year, Ashura and Muharram.", ur: "ہجری سال موسموں کا چکر ہے: شعبان تیاری، رمضان دوڑ، ذوالحجہ کے دس دن سال کے بہترین دن، عاشورہ اور محرم۔" },
+    body: { ar: "المنهج النبوي يعامل السنة كمواسم لا أيام متشابهة: شعبان شهر الإعداد وكثرة الصيام الاختياري؛ رمضان صيام وقيام وقرآن وعتق وإطعام؛ عشر ذي الحجة «ما من أيام العمل الصالح فيها أحب إلى الله من هذه الأيام» — وصيام عرفة لغير الحاج؛ عاشوراء صيام يوم قبله أو بعده؛ ست من شوال بعد العيد. خطط سنتك على المواسم: لكل موسم هدف محدد.", en: "The prophetic method treats the year as seasons, not identical days: Sha'ban a month of preparation and frequent voluntary fasting; Ramadan fasting, qiyam, Quran, freeing and feeding; the ten of Dhul-Hijjah — 'no days are more beloved to Allah for righteous deeds' — with the fast of Arafah for non-pilgrims; Ashura fasting a day before or after; six of Shawwal after Eid. Plan your year around the seasons, each with a defined goal.", ur: "نبوی منہج سال کو ایک جیسے دنوں کے بجائے موسموں کی طرح لیتا ہے: شعبان تیاری اور کثرت سے نفل روزوں کا مہینہ؛ رمضان روزہ، قیام، قرآن، عتق اور کھانا کھلانا؛ ذوالحجہ کے دس دن — «نیک عمل کے لیے ان دنوں سے زیادہ اللہ کو محبوب دن نہیں» — غیر حاجی کے لیے عرفہ کا روزہ؛ عاشورہ ایک دن پہلے یا بعد کا روزہ؛ عید کے بعد شوال کے چھ روزے۔ اپنا سال موسموں پر منصوبہ بند کریں: ہر موسم کا ایک مقررہ ہدف۔" },
     hadith: [
-      { t: "ما من أيام العمل الصالح فيها أحب إلى الله من هذه الأيام — يعني أيام العشر.", r: "متفق عليه" },
-      { t: "صيام يوم عرفة يكفر السنة الماضية والباقية، وصيام يوم عاشوراء يكفر السنة الماضية.", r: "رواه مسلم" },
+      { t: { ar: "ما من أيام العمل الصالح فيها أحب إلى الله من هذه الأيام — يعني أيام العشر.", en: "There are no days in which righteous deeds are more beloved to Allah than these — meaning the ten of Dhul-Hijjah.", ur: "نیک اعمال کے لیے اللہ کے نزدیک ان دنوں سے محبوب دن نہیں — یعنی ذوالحجہ کے دس دن۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "صيام يوم عرفة يكفر السنة الماضية والباقية، وصيام يوم عاشوراء يكفر السنة الماضية.", en: "Fasting Arafah expiates the past and coming year; Ashura expiates the past year.", ur: "عرفہ کا روزہ گزشتہ اور آنے والے سال کا کفارہ ہے؛ عاشورہ کا روزہ گزشتہ سال کا کفارہ ہے۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
     ],
     steps: [
-      "ضع خطة رمضان في شعبان: ورد قرآن، صدقة يومية، موعد قيام، عادات تتركها.",
-      "علّم على التقويم: العشر، عرفة، عاشوراء، شوال — قبل أن تفوت.",
-      "استغل مواسم القرب لسداد ما قصّرت فيه بقية السنة — المواسم محطات شحن.",
+      { ar: "ضع خطة رمضان في شعبان: ورد قرآن، صدقة يومية، موعد قيام، عادات تتركها.", en: "Make your Ramadan plan in Sha'ban: Quran portion, daily sadaqa, qiyam slot, habits to drop.", ur: "شعبان میں رمضان کا منصوبہ بنائیں: قرآن کا ورد، روزانہ صدقہ، قیام کا وقت، چھوڑنے والی عادتیں۔" },
+      { ar: "علّم على التقويم: العشر، عرفة، عاشوراء، شوال — قبل أن تفوت.", en: "Mark the calendar: the Ten, Arafah, Ashura, Shawwal — before they pass.", ur: "کیلنڈر پر نشان لگائیں: دس دن، عرفہ، عاشورہ، شوال — گزر جانے سے پہلے۔" },
+      { ar: "استغل مواسم القرب لسداد ما قصّرت فيه بقية السنة — المواسم محطات شحن.", en: "Use the seasons to make up for the rest of the year — seasons are recharging stations.", ur: "موسموں سے سال بھر کی کمی پوری کریں — موسم چارجنگ اسٹیشن ہیں۔" },
     ],
-    why: "الصورة الكبيرة: المواسم تمنع الملل الروحي — العبادة التي تتنوع مع السنة تدوم أكثر من حماسة ثابتة.",
+    why: { ar: "الصورة الكبيرة: المواسم تمنع الملل الروحي — العبادة التي تتنوع مع السنة تدوم أكثر من حماسة ثابتة.", en: "The big picture: the seasons prevent spiritual burnout — worship that varies with the year outlasts flat enthusiasm.", ur: "بڑی تصویر: موسم روحانی اکتاہٹ روکتے ہیں — سال کے ساتھ بدلنے والی عبادت ہموار جوش سے زیادہ ٹکتی ہے۔" },
   },
   {
     horizon: "yearly", domain: "nafs", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "مراجعة السنة وأهداف العام",
-    teaser: "مرة في السنة: محاسبة كبرى على خمسة محاور — دين وعلم ومال وأهل ومجتمع — ثم أهداف مكتوبة.",
-    body: "اختر يومًا ثابتًا (رأس السنة الهجرية أو رمضان أو ميلادك) لجلسة ساعة واحدة. على خمسة محاور اسأل: ماذا تحسّن؟ وماذا تراجع؟ ثم اكتب لكل محور هدفًا واحدًا قابلًا للقياس للعام القادم — ليس «أقرأ قرآن أكثر» بل «ختمة كل ستة أسابيع». الهدف المكتوب يُراجع شهريًا. التوبة جزء من المراجعة: ما مضى يُستغفر، وما بقي يُخطط.",
-    ayat: [
-      { t: "لَا يُغَيِّرُوا مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ", r: "الرعد ١١" },
-    ],
+    title: { ar: "مراجعة السنة وأهداف العام", en: "Annual review & year goals", ur: "سالانہ جائزہ اور سال کے اہداف" },
+    teaser: { ar: "مرة في السنة: محاسبة كبرى على خمسة محاور — دين وعلم ومال وأهل ومجتمع — ثم أهداف مكتوبة.", en: "Once a year: a grand accounting on five axes — deen, knowledge, wealth, family, society — then written goals.", ur: "سال میں ایک بار: پانچ محوروں پر بڑی احتسابی — دین، علم، مال، گھر، معاشرہ — پھر لکھی ہوئی اہداف۔" },
+    body: { ar: "اختر يومًا ثابتًا ⁦(رأس السنة الهجرية أو رمضان أو ميلادك)⁩ لجلسة ساعة واحدة. على خمسة محاور اسأل: ماذا تحسّن؟ وماذا تراجع؟ ثم اكتب لكل محور هدفًا واحدًا قابلًا للقياس للعام القادم — ليس «أقرأ قرآن أكثر» بل «ختمة كل ستة أسابيع». الهدف المكتوب يُراجع شهريًا. التوبة جزء من المراجعة: ما مضى يُستغفر، وما بقي يُخطط.", en: "Pick a fixed day ⁦(Hijri new year, Ramadan or your birthday)⁩ for a one-hour session. On five axes ask: what improved? What declined? Then write one measurable goal per axis for the coming year — not 'read more Quran' but 'a khatma every six weeks'. Written goals are reviewed monthly. Repentance is part of the review: the past is forgiven through istighfar, the future is planned.", ur: "مقررہ دن چنیں ⁦(ہجری نیا سال، رمضان یا آپ کی سالگرہ)⁩ ایک گھنٹے کے اجلاس کے لیے۔ پانچ محوروں پر پوچھیں: کیا بہتر ہوا؟ کیا کم ہوا؟ پھر ہر محور کے لیے اگلے سال کا ایک قابلِ پیمائش ہدف لکھیں — «قرآن زیادہ پڑھوں گا» نہیں بلکہ «ہر چھ ہفتے میں ختم»۔ لکھی ہوئی اہداف ماہانہ جائزہ لیتی ہیں۔ توبہ جائزے کا حصہ ہے: گزشتہ استغفار سے معاف، آنے والا منصوبہ بند۔" },
+    ayat: [ { sura: 13, aya: 11, label: { ar: "الرعد ١١", en: "Ar-Ra'd 13:11", ur: "الرعد ١١" } } ],
     steps: [
-      "حدد يوم المراجعة السنوي في تقويمك الآن — موعد ثابت لا مزاج.",
-      "قيّم المحاور الخمسة بصدق: دين، علم، مال، أهل، مجتمع.",
-      "اكتب هدفًا واحدًا قابلًا للقياس لكل محور وضعه حيث تراه.",
-      "قسّم كل هدف سنوي إلى أولويات شهرية.",
+      { ar: "حدد يوم المراجعة السنوي في تقويمك الآن — موعد ثابت لا مزاج.", en: "Set your annual review day in the calendar now — a fixed appointment, not a mood.", ur: "اپنے سالانہ جائزے کا دن ابھی کیلنڈر میں لکھیں — مقررہ ملاقات، مزاج نہیں۔" },
+      { ar: "قيّم المحاور الخمسة بصدق: دين، علم، مال، أهل، مجتمع.", en: "Assess the five axes honestly: deen, knowledge, wealth, family, society.", ur: "پانچ محوروں کا دیانت سے جائزہ لیں: دین، علم، مال، گھر، معاشرہ۔" },
+      { ar: "اكتب هدفًا واحدًا قابلًا للقياس لكل محور وضعه حيث تراه.", en: "Write one measurable goal per axis and place it where you'll see it.", ur: "ہر محور کے لیے ایک قابلِ پیمائش ہدف لکھیں اور اسے ایسی جگہ رکھیں جہاں آپ دیکھ سکیں۔" },
+      { ar: "قسّم كل هدف سنوي إلى أولويات شهرية.", en: "Break each yearly goal into monthly milestones.", ur: "ہر سالانہ ہدف کو ماہانہ سنگِ میل میں تقسیم کریں۔" },
     ],
-    why: "الصورة الكبيرة: عمرك لا يقاس بالسنوات بل بما بُني فيها — المراجعة السنوية هي الفرق بين التكرار والتراكم.",
+    why: { ar: "الصورة الكبيرة: عمرك لا يقاس بالسنوات بل بما بُني فيها — المراجعة السنوية هي الفرق بين التكرار والتراكم.", en: "The big picture: a life is measured not in years but in what was built in them — the annual review is the difference between repetition and accumulation.", ur: "بڑی تصویر: عمر برسوں سے نہیں بلکہ ان میں بنی چیزوں سے ماپی جاتی ہے — سالانہ جائزہ تکرار اور جمع ہونے کے درمیان فرق ہے۔" },
   },
 
-  /* ---------- مراحل العمر ---------- */
+  /* ---------- life stages ---------- */
   {
     horizon: "life", domain: "usra", stages: ["child", "parent"],
-    title: "الطفولة — التأسيس بالحب",
-    teaser: "«مروا أولادكم بالصلاة لسبع» — التعويد قبل التكليف، والقدوة قبل الأمر.",
-    body: "مرحلة الطفولة (حتى البلوغ) ليست تكليفًا بل تعويدًا: الصلاة تُعلَّم بالمشاركة لا بالتهديد، القرآن بالاستماع والترديد، الصدق بالقدوة. ابنِ آداب الطفل قبل علمه: البسملة، الاستئذان، احترام الكبير. وللأهل: العدل بين الأولاد في العطية واجب، والدعاء لهم لا عليهم.",
+    title: { ar: "الطفولة — التأسيس بالحب", en: "Childhood — founding with love", ur: "بچپن — محبت سے بنیاد" },
+    teaser: { ar: "«مروا أولادكم بالصلاة لسبع» — التعويد قبل التكليف، والقدوة قبل الأمر.", en: "'Command your children to pray at seven' — habituation before obligation, example before command.", ur: "«سات برس کے بچوں کو نماز کا حکم دو» — فرض سے پہلے عادت، حکم سے پہلے نمونہ۔" },
+    body: { ar: "مرحلة الطفولة ⁦(حتى البلوغ)⁩ ليست تكليفًا بل تعويدًا: الصلاة تُعلَّم بالمشاركة لا بالتهديد، القرآن بالاستماع والترديد، الصدق بالقدوة. ابنِ آداب الطفل قبل علمه: البسملة، الاستئذان، احترام الكبير. وللأهل: العدل بين الأولاد في العطية واجب، والدعاء لهم لا عليهم.", en: "Childhood ⁦(until puberty)⁩ is not obligation but habituation: prayer taught by participation not threats, Quran by listening and repetition, honesty by example. Build the child's adab before their knowledge: basmala, asking permission, respecting elders. For parents: justice among children in gifts is obligatory, and du'a for them — not against them.", ur: "بچپن ⁦(بلوغت تک)⁩ فرض نہیں بلکہ عادت بنانا ہے: نماز شرکت سے سکھائی جاتی ہے، دھمکی سے نہیں؛ قرآن سننے اور دہرانے سے؛ سچائی نمونے سے۔ بچے کے آداب اس کے علم سے پہلے بنائیں: بسم اللہ، اجازت لینا، بڑوں کی عزت۔ والدین کے لیے: بچوں میں عطیہ میں انصاف واجب ہے، اور ان کے لیے دعا — ان کے خلاف نہیں۔" },
     hadith: [
-      { t: "مروا أولادكم بالصلاة وهم أبناء سبع سنين.", r: "رواه أبو داود" },
-      { t: "كلكم راع وكلكم مسؤول عن رعيته.", r: "متفق عليه" },
+      { t: { ar: "مروا أولادكم بالصلاة وهم أبناء سبع سنين.", en: "Command your children to pray when they are seven years old.", ur: "اپنے بچوں کو نماز کا حکم دو جب وہ سات برس کے ہوں۔" }, r: { ar: "رواه أبو داود", en: "Abu Dawud", ur: "ابو داؤد" } },
+      { t: { ar: "كلكم راع وكلكم مسؤول عن رعيته.", en: "Each of you is a shepherd and each is responsible for his flock.", ur: "تم میں سے ہر ایک چرواہا ہے اور ہر ایک سے اس کی رعیت کے بارے میں پوچھا جائے گا۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
     ],
     steps: [
-      "للأهل: اجعل الصلاة مشهدًا عائليًا يقلده الصغير لا واجبًا يُفرض عليه.",
-      "علّم الآداب في المواقف لا في الدروس — الطفل يتعلم بالتكرار المرئي.",
-      "امدح الصدق والإحسان عند حدوثهما — ما يُعزَّز يتكرر.",
+      { ar: "للأهل: اجعل الصلاة مشهدًا عائليًا يقلده الصغير لا واجبًا يُفرض عليه.", en: "For parents: make prayer a family scene the child imitates, not a duty imposed.", ur: "والدین کے لیے: نماز کو ایسا خاندانی منظر بنائیں جس کی بچہ نقل کرے، نہیں کہ کوئی فرض جو تھوپا جائے۔" },
+      { ar: "علّم الآداب في المواقف لا في الدروس — الطفل يتعلم بالتكرار المرئي.", en: "Teach adab in moments, not lectures — children learn by visible repetition.", ur: "آداب مواقع پر سکھائیں، لیکچر میں نہیں — بچے مرئی تکرار سے سیکھتے ہیں۔" },
+      { ar: "امدح الصدق والإحسان عند حدوثهما — ما يُعزَّز يتكرر.", en: "Praise honesty and kindness when they occur — what is reinforced recurs.", ur: "سچائی اور نیکی جب ہوں تو تعریف کریں — جو مضبوط ہو وہ دہرایا جاتا ہے۔" },
     ],
-    why: "الصورة الكبيرة: الاستثمار الأعظم هو صدقة جارية تمشي على قدمين — ولد صالح ينفعك في الدنيا وبعد الممات.",
+    why: { ar: "الصورة الكبيرة: الاستثمار الأعظم هو صدقة جارية تمشي على قدمين — ولد صالح ينفعك في الدنيا وبعد الممات.", en: "The big picture: the greatest investment is a sadaqa jariyah that walks on two legs — a righteous child benefits you in life and after death.", ur: "بڑی تصویر: سب سے بڑی سرمایہ کاری وہ جاریہ صدقہ ہے جو دو پاؤں پر چلتا ہے — نیک اولاد آپ کو دنیا اور مرنے کے بعد بھی نفع دیتی ہے۔" },
   },
   {
     horizon: "life", domain: "nafs", stages: ["teen", "student"],
-    title: "الشباب — أثمن سنوات العمر",
-    teaser: "«شاب نشأ في عبادة الله» من السبعة — الشباب طاقة تُوجَّه لا تُطفأ.",
-    body: "الشباب سؤال يوم القيامة: «عن شبابه فيما أبلاه». هذه سنوات القوة والفراغ والانطباعية: اختر صحبتك بعناية — «المرء على دين خليله»؛ اصرف الطاقة لرياضة وعمل وتعلم؛ احفظ بصرك وقلبك في زمن الشاشات؛ ولا تؤجل التدين للشيخوخة فالسابقون من الشباب أعظم أجرًا. ابدأ الآن بمشروع واحد: حفظ، مهارة، عادة.",
+    title: { ar: "الشباب — أثمن سنوات العمر", en: "Youth — the most precious years", ur: "جوانی — عمر کے قیمتی ترین سال" },
+    teaser: { ar: "«شاب نشأ في عبادة الله» من السبعة — الشباب طاقة تُوجَّه لا تُطفأ.", en: "'A youth raised in Allah's worship' is among the seven shaded — youth is energy to be directed, not extinguished.", ur: "«جوان جو اللہ کی عبادت میں پلا» سات میں سے ایک ہے — جوانی توانائی ہے جسے سمت دینی ہے، بجھانا نہیں۔" },
+    body: { ar: "الشباب سؤال يوم القيامة: «عن شبابه فيما أبلاه». هذه سنوات القوة والفراغ والانطباعية: اختر صحبتك بعناية — «المرء على دين خليله»؛ اصرف الطاقة لرياضة وعمل وتعلم؛ احفظ بصرك وقلبك في زمن الشاشات؛ ولا تؤجل التدين للشيخوخة فالسابقون من الشباب أعظم أجرًا. ابدأ الآن بمشروع واحد: حفظ، مهارة، عادة.", en: "Youth is a question on Judgment Day: 'about his youth — how he spent it.' These are years of strength, free time and impressionability: choose your company carefully — 'a person is on the religion of his close friend'; channel energy into sport, work and learning; guard your eyes and heart in the age of screens; don't postpone religiosity to old age — the youth who starts early has greater reward. Begin now with one project: memorisation, a skill, a habit.", ur: "جوانی قیامت کے دن کا سوال ہے: «اس کی جوانی، وہ اسے کہاں گنوایا»۔ یہ طاقت، فارغ وقت اور تاثر پذیری کے سال ہیں: اپنے ساتھیوں کا انتخاب احتیاط سے کریں — «انسان اپنے قریبی دوست کے دین پر ہوتا ہے»؛ توانائی کھیل، کام اور سیکھنے میں لگائیں؛ اسکرینوں کے زمانے میں اپنی نظر اور دل کی حفاظت کریں؛ اور دینداری کو بڑھاپے تک نہ ٹالیں — جو جوان شروعات میں نکلتا ہے اس کا اجر بڑا ہوتا ہے۔ ابھی ایک منصوبے سے آغاز کریں: حفظ، کوئی مہارت، کوئی عادت۔" },
     hadith: [
-      { t: "سبعة يظلهم الله في ظله يوم لا ظل إلا ظله... وشاب نشأ في عبادة الله.", r: "متفق عليه" },
-      { t: "المرء على دين خليله فلينظر أحدكم من يخالل.", r: "رواه أبو داود والترمذي" },
+      { t: { ar: "سبعة يظلهم الله في ظله يوم لا ظل إلا ظله... وشاب نشأ في عبادة الله.", en: "Seven Allah will shade on the day there is no shade but His... including a youth raised in His worship.", ur: "سات لوگوں کو اللہ اپنے سائے میں رکھے گا جس دن اس کے سائے کے سوا کوئی سایہ نہیں ہوگا... ان میں ایک جوان جو اللہ کی عبادت میں پلا۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "المرء على دين خليله فلينظر أحدكم من يخالل.", en: "A person follows the religion of his close friend — so watch whom you befriend.", ur: "انسان اپنے قریبی دوست کے دین پر ہوتا ہے — سو دیکھو کہ کس سے دوستی کرتے ہو۔" }, r: { ar: "رواه أبو داود والترمذي", en: "Abu Dawud & Tirmidhi", ur: "ابو داؤد اور ترمذی" } },
     ],
     steps: [
-      "قائمة بأقرب خمسة أصدقاء — هل يرفعونك أم يثقلونك؟ قرار الشباب الأول.",
-      "التزم بعادة واحدة دينية ومهارة واحدة دنيوية هذا العام — لا أكثر.",
-      "ضع حدودًا تقنية: الشاشة خادم لا سيد، وأوقات النوم بلا هاتف.",
+      { ar: "قائمة بأقرب خمسة أصدقاء — هل يرفعونك أم يثقلونك؟ قرار الشباب الأول.", en: "List your five closest friends — do they raise you or weigh you down? The first decision of youth.", ur: "اپنے قریب ترین پانچ دوستوں کی فہرست بنائیں — کیا وہ آپ کو اٹھاتے ہیں یا دباتے ہیں؟ جوانی کا پہلا فیصلہ۔" },
+      { ar: "التزم بعادة واحدة دينية ومهارة واحدة دنيوية هذا العام — لا أكثر.", en: "Commit to one religious habit and one worldly skill this year — no more.", ur: "اس سال ایک دینی عادت اور ایک دنیاوی مہارت کا عہد کریں — بس اتنا۔" },
+      { ar: "ضع حدودًا تقنية: الشاشة خادم لا سيد، وأوقات النوم بلا هاتف.", en: "Set tech boundaries: the screen is a servant not a master; no phone at sleep times.", ur: "ٹیکنالوجی کی حدود مقرر کریں: اسکرین نوکر ہے آقا نہیں؛ سونے کے وقت فون نہیں۔" },
     ],
-    why: "الصورة الكبيرة: ما يُزرع في العشرينات يُحصد في الأربعينات — سنوات الشباب رأس مال لا يتكرر.",
+    why: { ar: "الصورة الكبيرة: ما يُزرع في العشرينات يُحصد في الأربعينات — سنوات الشباب رأس مال لا يتكرر.", en: "The big picture: what is planted in the twenties is harvested in the forties — the years of youth are capital that never returns.", ur: "بڑی تصویر: جو بیسوں میں بویا جاتا ہے وہ چالیسوں میں کاٹا جاتا ہے — جوانی کے سال وہ پونجی ہے جو کبھی واپس نہیں آتی۔" },
   },
   {
     horizon: "life", domain: "quran", stages: ["teen", "student", "adult"],
-    title: "طلب العلم وتعلّم صنعة",
-    teaser: "العلم عبادة: علم دين يفرض نفسه، ومهارة تكسب بها — العاجز من أضاع أحدهما.",
-    body: "طلب العلم فريضة: فرض العين (ما يصح به دينك: عقيدة وطهارة وصلاة ومعاملاتك) وفرض الكفاية وما ينفع دنياك. وقال النبي: «ما أكل أحد طعامًا قط خيرًا من أن يأكل من عمل يده». تعلّم صنعة أو مهارة — برمجة، تجارة، حرفة، طب — فالكفاية عبادة أيضًا. للنساء والرجال سواء في طلب العلم.",
-    ayat: [
-      { t: "وَقُل رَّبِّ زِدْنِي عِلْمًا", r: "طه ١١٤" },
-    ],
+    title: { ar: "طلب العلم وتعلّم صنعة", en: "Seeking knowledge & learning a trade", ur: "علم کی طلب اور ہنر سیکھنا" },
+    teaser: { ar: "العلم عبادة: علم دين يفرض نفسه، ومهارة تكسب بها — العاجز من أضاع أحدهما.", en: "Knowledge is worship: religious learning that is due, and a skill to earn by — the incapable neglects one of them.", ur: "علم عبادت ہے: دینی علم جو فرض ہے، اور وہ مہارت جس سے کمائیں — بے بس وہ ہے جو ان میں سے ایک کھو دے۔" },
+    body: { ar: "طلب العلم فريضة: فرض العين ⁦(ما يصح به دينك: عقيدة وطهارة وصلاة ومعاملاتك)⁩ وفرض الكفاية وما ينفع دنياك. وقال النبي: «ما أكل أحد طعامًا قط خيرًا من أن يأكل من عمل يده». تعلّم صنعة أو مهارة — برمجة، تجارة، حرفة، طب — فالكفاية عبادة أيضًا. للنساء والرجال سواء في طلب العلم.", en: "Seeking knowledge is an obligation: fard ayn ⁦(what makes your deen sound: creed, purification, prayer, your transactions)⁩, fard kifayah, and what benefits your dunya. The Prophet said: 'No one has ever eaten food better than that which he eats from the work of his own hand.' Learn a trade or skill — programming, commerce, a craft, medicine — self-sufficiency is also worship. Women and men alike in seeking knowledge.", ur: "علم حاصل کرنا فرض ہے: فرضِ عین ⁦(جو تمہارے دین کو درست کرے: عقیدہ، طہارت، نماز اور تمہارے معاملات)⁩، فرضِ کفایہ، اور وہ جو تمہاری دنیا کے کام آئے۔ آپ نے فرمایا: «کسی نے اپنے ہاتھ کے کام سے بہتر کھانا کبھی نہیں کھایا»۔ کوئی ہنر یا مہارت سیکھیں — پروگرامنگ، تجارت، دستکاری، طب — خود کفالت بھی عبادت ہے۔ علم حاصل کرنے میں عورتیں اور مرد برابر ہیں۔" },
+    ayat: [ { sura: 20, aya: 114, label: { ar: "طه ١١٤", en: "Ta-Ha 20:114", ur: "طٰہ ١١٤" } } ],
     hadith: [
-      { t: "من سلك طريقًا يلتمس فيه علمًا سهل الله له به طريقًا إلى الجنة.", r: "رواه مسلم" },
-      { t: "ما أكل أحد طعامًا قط خيرًا من أن يأكل من عمل يده.", r: "رواه البخاري" },
+      { t: { ar: "من سلك طريقًا يلتمس فيه علمًا سهل الله له به طريقًا إلى الجنة.", en: "Whoever travels a path seeking knowledge, Allah makes easy for him a path to Paradise.", ur: "جو علم کی تلاش میں راستے پر چلے، اللہ اس کے لیے جنت کا راستہ آسان کر دیتا ہے۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
+      { t: { ar: "ما أكل أحد طعامًا قط خيرًا من أن يأكل من عمل يده.", en: "No one has eaten better food than that earned by his own hands.", ur: "کسی نے اپنے ہاتھ کی کمائی سے بہتر کھانا کبھی نہیں کھایا۔" }, r: { ar: "رواه البخاري", en: "Bukhari", ur: "بخاری" } },
     ],
     steps: [
-      "أتقن فرض العين أولًا: دورة أو كتاب ميسّر في العقيدة والفقه الأساسي — قبل أي تخصص.",
-      "اختر مهارة سوق واحدة وخصص لها ساعة يوميًا لمدة سنة.",
-      "ضع خطة تعلم مكتوبة: مصدر، وقت، وتطبيق — العلم بلا عمل نسيان مؤجل.",
+      { ar: "أتقن فرض العين أولًا: دورة أو كتاب ميسّر في العقيدة والفقه الأساسي — قبل أي تخصص.", en: "Master fard ayn first: a course or accessible book on creed and basic fiqh — before any specialisation.", ur: "پہلے فرضِ عین میں مہارت حاصل کریں: عقیدہ اور بنیادی فقہ کا کورس یا آسان کتاب — کسی بھی تخصص سے پہلے۔" },
+      { ar: "اختر مهارة سوق واحدة وخصص لها ساعة يوميًا لمدة سنة.", en: "Pick one marketable skill and give it an hour daily for a year.", ur: "ایک قابلِ فروخت مہارت چنیں اور اسے ایک سال روز ایک گھنٹہ دیں۔" },
+      { ar: "ضع خطة تعلم مكتوبة: مصدر، وقت، وتطبيق — العلم بلا عمل نسيان مؤجل.", en: "Write a learning plan: source, time, application — knowledge without practice is postponed forgetting.", ur: "سیکھنے کا لکھا ہوا منصوبہ بنائیں: ماخذ، وقت، اطلاق — عمل کے بغیر علم مؤخر النسيان ہے۔" },
     ],
-    why: "الصورة الكبيرة: العالم العامل يخدم أمته بعلمه ويستغني بصنعته — الاستغناء بالكسب من كرم الأخلاق النبوية.",
+    why: { ar: "الصورة الكبيرة: العالم العامل يخدم أمته بعلمه ويستغني بصنعته — الاستغناء بالكسب من كرم الأخلاق النبوية.", en: "The big picture: the learned worker serves his ummah with knowledge and is self-sufficient through his craft — earning is part of prophetic dignity.", ur: "بڑی تصویر: عالم کاریگر اپنی امت کی خدمت علم سے کرتا اور اپنے ہنر سے بے نیاز ہوتا ہے — کمائی نبوی وقار کا حصہ ہے۔" },
   },
   {
     horizon: "life", domain: "mal", stages: ["student", "adult", "parent", "elder"],
-    title: "العمل بإحسان والكسب الحلال",
-    teaser: "إتقان العمل عبادة: لا غش، لا تقصير، لا رشوة — «إن الله يحب إذا عمل أحدكم عملًا أن يتقنه».",
-    body: "العمل في الإسلام عبادة بالنية: موظف أمين، تاجر صادق، صانع متقن. الحرام في العمل: الغش («من غشنا فليس منا»)، الرشوة، تقصير ساعات الدوام، كذب البيع. الكسب الحلال يُسأل عنه يوم القيامة: «عن ماله من أين اكتسبه وفيما أنفقه». وإحسان العمل دعوة: كثير من الناس دخلوا الإسلام بصدق التجار.",
+    title: { ar: "العمل بإحسان والكسب الحلال", en: "Honest work & halal earning", ur: "احسان سے کام اور حلال کمائی" },
+    teaser: { ar: "إتقان العمل عبادة: لا غش، لا تقصير، لا رشوة — «إن الله يحب إذا عمل أحدكم عملًا أن يتقنه».", en: "Excellence at work is worship: no cheating, no slacking, no bribery — 'Allah loves that when one of you does a job, he perfects it.'", ur: "کام میں مہارت عبادت ہے: نہ دھوکا، نہ کوتاہی، نہ رشوت — «اللہ پسند کرتا ہے کہ جب تم میں سے کوئی کام کرے تو اسے مکمل کرے»۔" },
+    body: { ar: "العمل في الإسلام عبادة بالنية: موظف أمين، تاجر صادق، صانع متقن. الحرام في العمل: الغش ⁦(«من غشنا فليس منا»)⁩، الرشوة، تقصير ساعات الدوام، كذب البيع. الكسب الحلال يُسأل عنه يوم القيامة: «عن ماله من أين اكتسبه وفيما أنفقه». وإحسان العمل دعوة: كثير من الناس دخلوا الإسلام بصدق التجار.", en: "Work in Islam is worship by intention: an honest employee, a truthful trader, a craftsman who perfects. Prohibited at work: cheating ⁦('whoever cheats us is not of us')⁩, bribery, cutting work hours, lying in sales. Halal earning is asked about on Judgment Day: 'his wealth — from where he earned it and on what he spent it.' Excellence at work is da'wah: many entered Islam through honest traders.", ur: "اسلام میں کام نیت سے عبادت ہے: دیانت دار ملازم، سچا تاجر، مہارت کرنے والا کاریگر۔ کام میں حرام: دھوکا ⁦(«جو ہمیں دھوکا دے وہ ہم میں سے نہیں»)⁩، رشوت، ڈیوٹی کے گھنٹے کم کرنا، بیچنے میں جھوٹ۔ حلال کمائی کے بارے میں قیامت کے دن پوچھا جائے گا: «اس کا مال — کہاں سے کمایا اور کہاں خرچ کیا»۔ کام میں احسان دعوت ہے: بہت سے لوگ سچے تاجروں کے ذریعے اسلام میں داخل ہوئے۔" },
     hadith: [
-      { t: "من غشنا فليس منا.", r: "رواه مسلم" },
-      { t: "التاجر الصدوق الأمين مع النبيين والصديقين والشهداء.", r: "رواه الترمذي" },
-      { t: "إن الله يحب إذا عمل أحدكم عملًا أن يتقنه.", r: "رواه البيهقي" },
+      { t: { ar: "من غشنا فليس منا.", en: "Whoever cheats us is not of us.", ur: "جو ہمیں دھوکا دے وہ ہم میں سے نہیں۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
+      { t: { ar: "التاجر الصدوق الأمين مع النبيين والصديقين والشهداء.", en: "The truthful, trustworthy merchant is with the prophets, the truthful and the martyrs.", ur: "سچا اور امانت دار تاجر نبیوں، صدیقین اور شہداء کے ساتھ ہوگا۔" }, r: { ar: "رواه الترمذي", en: "Tirmidhi", ur: "ترمذی" } },
+      { t: { ar: "إن الله يحب إذا عمل أحدكم عملًا أن يتقنه.", en: "Allah loves that when one of you does a job, he does it with excellence.", ur: "اللہ پسند کرتا ہے کہ جب تم میں سے کوئی کام کرے تو اسے مکمل کرے۔" }, r: { ar: "رواه البيهقي", en: "Bayhaqi", ur: "بیہقی" } },
     ],
     steps: [
-      "دوّن نيتك صباحًا: هذا العمل عبادة وكسب حلال — النية تحوّل الساعات.",
-      "راجع مالك: أي مصدر دخل فيه شبهة يُترك ولو قلّت البدائل.",
-      "اسأل نفسك أسبوعيًا: هل أعطيت صاحب العمل / الزبون حقه كاملًا؟",
+      { ar: "دوّن نيتك صباحًا: هذا العمل عبادة وكسب حلال — النية تحوّل الساعات.", en: "Set your intention each morning: this work is worship and halal earning — intention transforms the hours.", ur: "ہر صبح اپنی نیت لکھیں: یہ کام عبادت اور حلال کمائی ہے — نیت گھنٹوں کو بدل دیتی ہے۔" },
+      { ar: "راجع مالك: أي مصدر دخل فيه شبهة يُترك ولو قلّت البدائل.", en: "Audit your income: any doubtful source is dropped even if alternatives are few.", ur: "اپنی آمدنی کا جائزہ لیں: کوئی بھی مشتبہ ذریعہ چھوڑ دیا جائے، خواہ متبادل کم ہوں۔" },
+      { ar: "اسأل نفسك أسبوعيًا: هل أعطيت صاحب العمل / الزبون حقه كاملًا؟", en: "Ask weekly: did I give my employer / customer their full due?", ur: "ہفتے میں پوچھیں: کیا میں نے اپنے آجر / گاہک کو پورا حق دیا؟" },
     ],
-    why: "الصورة الكبيرة: ثلث عمرك في العمل — إن لم يكن عبادة ضاع ثلث دينك معه.",
+    why: { ar: "الصورة الكبيرة: ثلث عمرك في العمل — إن لم يكن عبادة ضاع ثلث دينك معه.", en: "The big picture: a third of your life is spent working — if it isn't worship, a third of your deen is lost with it.", ur: "بڑی تصویر: آپ کی زندگی کا ایک تہائی کام میں گزرتا ہے — اگر وہ عبادت نہ ہو تو آپ کے دین کا ایک تہائی اس کے ساتھ ضائع ہو جاتا ہے۔" },
   },
   {
     horizon: "life", domain: "usra", stages: ["adult", "parent"],
-    title: "الزواج وبر الوالدين",
-    teaser: "نصف الدين: اختيار بالدين والخلق، رحمة ومودة في البيت، وبرّ لا ينقطع بالوالدين.",
-    body: "الزواج سكن ومودة ورحمة لا عقد مصالح: «ومن آياته أن خلق لكم من أنفسكم أزواجًا لتسكنوا إليها». المعيار النبوي للاختيار: الدين والخلق. بعد الزواج: الكلمة الطيبة صدقة بين الزوجين، والرفق بالنساء وصية النبي الأخيرة، وحقوق الوالدين لا تسقط بالزواج بل تتضاعف المسؤولية — الأم أولى بالصحبة ثلاث مرات قبل الأب.",
-    ayat: [
-      { t: "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً", r: "الروم ٢١" },
-    ],
+    title: { ar: "الزواج وبر الوالدين", en: "Marriage & honouring parents", ur: "شادی اور والدین کے ساتھ نیکی" },
+    teaser: { ar: "نصف الدين: اختيار بالدين والخلق، رحمة ومودة في البيت، وبرّ لا ينقطع بالوالدين.", en: "Half of religion: choosing by deen and character, mercy and affection at home, and unbroken kindness to parents.", ur: "آدھا دین: دین اور اخلاق پر انتخاب، گھر میں رحمت اور مودت، اور والدین کے ساتھ مسلسل نیکی۔" },
+    body: { ar: "الزواج سكن ومودة ورحمة لا عقد مصالح: «ومن آياته أن خلق لكم من أنفسكم أزواجًا لتسكنوا إليها». المعيار النبوي للاختيار: الدين والخلق. بعد الزواج: الكلمة الطيبة صدقة بين الزوجين، والرفق بالنساء وصية النبي الأخيرة، وحقوق الوالدين لا تسقط بالزواج بل تتضاعف المسؤولية — الأم أولى بالصحبة ثلاث مرات قبل الأب.", en: "Marriage is tranquility, affection and mercy, not a deal of interests: 'And of His signs is that He created for you spouses from yourselves that you may find tranquility in them.' The prophetic criterion for choosing: religion and character. After marriage: the kind word is sadaqa between spouses, kindness to women was the Prophet's final will, and parents' rights do not end at marriage — responsibility doubles; the mother deserves companionship three times before the father.", ur: "شادی سکون، مودت اور رحمت ہے، مفادات کی سوداگری نہیں: «اس کی نشانیوں میں سے ہے کہ اس نے تمہارے لیے تمہاری جنس سے جوڑے بنائے تاکہ تم ان میں سکون پاؤ»۔ انتخاب کا نبوی معیار: دین اور اخلاق۔ شادی کے بعد: میاں بیوی میں اچھا کلمہ صدقہ ہے، عورتوں کے ساتھ نرمی آپ کی آخری وصیت تھی، اور شادی سے والدین کے حقوق ختم نہیں ہوتے بلکہ ذمہ داری دوگنی ہو جاتی ہے — ماں باپ سے پہلے تین بار صحبت کی مستحق ہے۔" },
+    ayat: [ { sura: 30, aya: 21, label: { ar: "الروم ٢١", en: "Ar-Rum 30:21", ur: "الروم ٢١" } } ],
     hadith: [
-      { t: "إذا جاءكم من ترضون دينه وخلقه فزوجوه.", r: "رواه الترمذي" },
-      { t: "أمك ثم أمك ثم أمك ثم أبوك.", r: "رواه البخاري في الأدب المفرد" },
-      { t: "خيركم خيركم لأهله وأنا خيركم لأهلي.", r: "رواه الترمذي" },
+      { t: { ar: "إذا جاءكم من ترضون دينه وخلقه فزوجوه.", en: "When someone whose religion and character pleases you comes to you, marry him.", ur: "جب تمہارے پاس وہ آئے جس کے دین اور اخلاق تمہیں پسند ہوں تو اس سے شادی کر دو۔" }, r: { ar: "رواه الترمذي", en: "Tirmidhi", ur: "ترمذی" } },
+      { t: { ar: "أمك ثم أمك ثم أمك ثم أبوك.", en: "Your mother, then your mother, then your mother, then your father.", ur: "تمہاری ماں، پھر تمہاری ماں، پھر تمہاری ماں، پھر تمہارے باپ۔" }, r: { ar: "رواه البخاري في الأدب المفرد", en: "Bukhari, al-Adab al-Mufrad", ur: "بخاری، الأدب المفرد" } },
+      { t: { ar: "خيركم خيركم لأهله وأنا خيركم لأهلي.", en: "The best of you are the best to their families, and I am the best of you to my family.", ur: "تم میں سے بہترین وہ ہے جو اپنے گھر والوں کے لیے بہترین ہو، اور میں اپنے گھر والوں کے لیے تم میں سے بہترین ہوں۔" }, r: { ar: "رواه الترمذي", en: "Tirmidhi", ur: "ترمذی" } },
     ],
     steps: [
-      "للمقبل على الزواج: معيار الدين والخلق أولًا، والسؤال والاستخارة قبل القرار.",
-      "للمتزوج: عدّ إلى عشر قبل الغضب، وخصص وقتًا أسبوعيًا للزوج أو الزوجة والأولاد بلا هاتف.",
-      "للجميع: قائمة بحقوق الوالدين اليومية — اتصال، خدمة، دعاء — ولا يفوت يوم بلا بر.",
+      { ar: "للمقبل على الزواج: معيار الدين والخلق أولًا، والسؤال والاستخارة قبل القرار.", en: "For the marriage-seeker: the deen-and-character criterion first; inquiry and istikhara before deciding.", ur: "شادی کرنے والے کے لیے: پہلے دین اور اخلاق کا معیار؛ فیصلے سے پہلے تحقیق اور استخارہ۔" },
+      { ar: "للمتزوج: عدّ إلى عشر قبل الغضب، وخصص وقتًا أسبوعيًا للزوج أو الزوجة والأولاد بلا هاتف.", en: "For the married: count to ten before anger; a weekly phone-free slot for spouse and children.", ur: "شادی شدہ کے لیے: غصے سے پہلے دس تک گنیں؛ ہفتے میں فون کے بغیر میاں بیوی اور بچوں کے لیے وقت۔" },
+      { ar: "للجميع: قائمة بحقوق الوالدين اليومية — اتصال، خدمة، دعاء — ولا يفوت يوم بلا بر.", en: "For everyone: a daily list of parents' rights — call, service, du'a — no day without kindness.", ur: "سب کے لیے: والدین کے روزانہ حقوق کی فہرست — کال، خدمت، دعا — نیکی کے بغیر کوئی دن نہ گزرے۔" },
     ],
-    why: "الصورة الكبيرة: البيت أول مجتمع تبنيه — صلاحه صلاح نصف المجتمع، وبر الوالدين أقرب طريق للرضا.",
+    why: { ar: "الصورة الكبيرة: البيت أول مجتمع تبنيه — صلاحه صلاح نصف المجتمع، وبر الوالدين أقرب طريق للرضا.", en: "The big picture: the home is the first society you build — its goodness is half of society's, and honouring parents is the nearest road to Allah's pleasure.", ur: "بڑی تصویر: گھر وہ پہلا معاشرہ ہے جو آپ بناتے ہیں — اس کی نیکی معاشرے کی نصف نیکی ہے، اور والدین کے ساتھ نیکی رضا کی قریب ترین راہ ہے۔" },
   },
   {
     horizon: "life", domain: "nafs", stages: ["teen", "student", "adult", "parent", "elder"],
-    title: "هدف في الحياة ورسالة",
-    teaser: "«الدنيا مزرعة الآخرة» — مسلم بلا هدف كوكب بلا مدار؛ ما مشروعك الذي يبقى بعدك؟",
-    body: "السيرة ليست عبادات متفرقة بل مشروع حياة: حمل النبي رسالة ولم تكن أيامه ردّة فعل. كل مسلم له رسالة ضمن رسالته: طبيب يشفي بإحسان، معلم يربي جيلًا، تاجر أمين يرفه الناس، أم تبني أسرة صالحة — كلها عبادة إذا صحت النية. اسأل: ما الذي أُتقنه ويحتاجه الناس ويرضي الله؟ تقاطع الثلاثة هو موقعك. واكتب مشروعك الذي يستمر بعدك: علم يُنتفع، صدقة جارية، ولد صالح.",
+    title: { ar: "هدف في الحياة ورسالة", en: "A purpose & mission in life", ur: "زندگی میں مقصد اور مشن" },
+    teaser: { ar: "«الدنيا مزرعة الآخرة» — مسلم بلا هدف كوكب بلا مدار؛ ما مشروعك الذي يبقى بعدك؟", en: "'The world is the farm of the hereafter' — a Muslim without purpose is a planet without orbit; what is your project that outlives you?", ur: "«دنیا آخرت کی کھیتی ہے» — بغیر مقصد کا مسلمان بغیر مدار کا سیارہ ہے؛ آپ کا وہ منصوبہ کون سا ہے جو آپ کے بعد رہے گا؟" },
+    body: { ar: "السيرة ليست عبادات متفرقة بل مشروع حياة: حمل النبي رسالة ولم تكن أيامه ردّة فعل. كل مسلم له رسالة ضمن رسالته: طبيب يشفي بإحسان، معلم يربي جيلًا، تاجر أمين يرفه الناس، أم تبني أسرة صالحة — كلها عبادة إذا صحت النية. اسأل: ما الذي أُتقنه ويحتاجه الناس ويرضي الله؟ تقاطع الثلاثة هو موقعك. واكتب مشروعك الذي يستمر بعدك: علم يُنتفع، صدقة جارية، ولد صالح.", en: "The Seerah is not scattered worship but a life project: the Prophet carried a mission and his days were no reaction. Every Muslim has a mission within his mission: a doctor healing with excellence, a teacher raising a generation, an honest merchant serving people, a mother building a righteous family — all worship with right intention. Ask: what am I good at, what do people need, what pleases Allah? Their intersection is your place. And write the project that outlives you: beneficial knowledge, ongoing sadaqa, a righteous child.", ur: "سیرت بکھری ہوئی عبادات نہیں بلکہ زندگی کا منصوبہ ہے: آپ نے مشن اٹھایا اور آپ کے دن محض ردعمل نہیں تھے۔ ہر مسلمان کا اپنا مشن ہے آپ کے مشن کے اندر: ڈاکٹر جو احسان سے شفا دے، استاد جو نسل تربیت دے، ایمان دار تاجر جو لوگوں کو سہولت دے، ماں جو نیک خاندان بنائے — سب درست نیت سے عبادت ہیں۔ پوچھیں: میں کس چیز میں مہارت رکھتا ہوں، لوگوں کو کس چیز کی ضرورت ہے، اللہ کو کیا پسند ہے؟ ان تینوں کا نقطۂ تقاطع آپ کی جگہ ہے۔ اور وہ منصوبہ لکھیں جو آپ کے بعد رہے: مفید علم، جاریہ صدقہ، نیک اولاد۔" },
     ayat: [
-      { t: "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ", r: "الذاريات ٥٦" },
-      { t: "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ ۖ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا", r: "القصص ٧٧" },
+      { sura: 51, aya: 56, label: { ar: "الذاريات ٥٦", en: "Adh-Dhariyat 51:56", ur: "الذاریات ٥٦" } },
+      { sura: 28, aya: 77, label: { ar: "القصص ٧٧", en: "Al-Qasas 28:77", ur: "القصص ٧٧" } },
     ],
     hadith: [
-      { t: "إذا مات ابن آدم انقطع عمله إلا من ثلاث: صدقة جارية، أو علم ينتفع به، أو ولد صالح يدعو له.", r: "رواه مسلم" },
+      { t: { ar: "إذا مات ابن آدم انقطع عمله إلا من ثلاث: صدقة جارية، أو علم ينتفع به، أو ولد صالح يدعو له.", en: "When the son of Adam dies his deeds end except three: ongoing charity, beneficial knowledge, or a righteous child who prays for him.", ur: "جب ابن آدم مر جاتا ہے تو اس کا عمل بند ہو جاتا ہے سوائے تین چیزوں کے: جاریہ صدقہ، مفید علم، یا نیک اولاد جو اس کے لیے دعا کرے۔" }, r: { ar: "رواه مسلم", en: "Muslim", ur: "مسلم" } },
     ],
     steps: [
-      "اكتب جملة واحدة: «رسالتي أن ...» — قد تتغير لكن الكتابة تبدأ الوضوح.",
-      "حدد تقاطع الثلاثة: موهبتك + حاجة الناس + رضا الله.",
-      "اربط مشروعًا دائمًا: علم تعلّمه، وقف تدعمه، أو ابن تربيه — شيء يجري بعدك.",
-      "راجع رسالتك في المراجعة السنوية — الهدف يصقل ولا يترك.",
+      { ar: "اكتب جملة واحدة: «رسالتي أن ...» — قد تتغير لكن الكتابة تبدأ الوضوح.", en: "Write one sentence: 'My mission is to …' — it may change, but writing begins clarity.", ur: "ایک جملہ لکھیں: «میرا مشن یہ ہے کہ …» — یہ بدل سکتا ہے، مگر لکھنا وضاحت کی شروعات ہے۔" },
+      { ar: "حدد تقاطع الثلاثة: موهبتك + حاجة الناس + رضا الله.", en: "Find the intersection of three: your gift + people's need + Allah's pleasure.", ur: "تینوں کا نقطۂ تقاطع تلاش کریں: آپ کی مہارت + لوگوں کی ضرورت + اللہ کی رضا۔" },
+      { ar: "اربط مشروعًا دائمًا: علم تعلّمه، وقف تدعمه، أو ابن تربيه — شيء يجري بعدك.", en: "Attach an enduring project: knowledge you teach, a waqf you support, a child you raise — something that runs after you.", ur: "کوئی مستقل منصوبہ جوڑیں: علم جو سکھائیں، وقف جس کی مدد کریں، یا اولاد جس کی تربیت کریں — کچھ جو آپ کے بعد چلتا رہے۔" },
+      { ar: "راجع رسالتك في المراجعة السنوية — الهدف يصقل ولا يترك.", en: "Review your mission in the annual review — goals are refined, not abandoned.", ur: "سالانہ جائزے میں اپنا مشن دوبارہ دیکھیں — اہداف سنوارے جاتے ہیں، چھوڑے نہیں جاتے۔" },
     ],
-    why: "الصورة الكبيرة: هذه هي البطاقة المركزية في الصفحة كلها — العبادات تفاصيل، والرسالة هي الصورة التي تُجمع فيها.",
+    why: { ar: "الصورة الكبيرة: هذه هي البطاقة المركزية في الصفحة كلها — العبادات تفاصيل، والرسالة هي الصورة التي تُجمع فيها.", en: "The big picture: this is the central card of the whole page — the acts of worship are details; the mission is the picture they assemble into.", ur: "بڑی تصویر: یہ پوری صفحہ کا مرکزی کارڈ ہے — عبادات جزئیات ہیں؛ مشن وہ تصویر ہے جس میں وہ جڑ کر بنتی ہیں۔" },
   },
   {
     horizon: "life", domain: "mujtama", stages: ["child", "teen", "student", "adult", "parent", "elder"],
-    title: "الرفق بالحيوان ولا إسراف",
-    teaser: "غُفر لرجل سقى كلبًا — الرحمة بالخلق كلهم منهج، والإسراف حرام ولو على النهر.",
-    body: "الرحمة في السيرة تتجاوز البشر: حرم النبي قتل العصافير بلا حق، ونهى عن تحميل الدواب فوق طاقتها، وأثنى على من سقى كلبًا. والبيئة أمانة: «لا تسرفوا إن الله لا يحب المسرفين» — الماء والطعام والموارد. زرع الفسيلة صدقة: «ما من مسلم يغرس غرسًا فيأكل منه شيء إلا كانت له صدقة».",
+    title: { ar: "الرفق بالحيوان ولا إسراف", en: "Kindness to animals & no waste", ur: "جانوروں پر شفقت اور بے اسرافی" },
+    teaser: { ar: "غُفر لرجل سقى كلبًا — الرحمة بالخلق كلهم منهج، والإسراف حرام ولو على النهر.", en: "A man was forgiven for watering a dog — mercy to all creation is the method; waste is haram even by a river.", ur: "ایک شخص کتے کو پانی پلانے پر بخشا گیا — مخلوق پر رحمت ہی منہج ہے؛ اسراف حرام ہے، خواہ دریا کے کنارے ہو۔" },
+    body: { ar: "الرحمة في السيرة تتجاوز البشر: حرم النبي قتل العصافير بلا حق، ونهى عن تحميل الدواب فوق طاقتها، وأثنى على من سقى كلبًا. والبيئة أمانة: «لا تسرفوا إن الله لا يحب المسرفين» — الماء والطعام والموارد. زرع الفسيلة صدقة: «ما من مسلم يغرس غرسًا فيأكل منه شيء إلا كانت له صدقة».", en: "Mercy in the Seerah extends beyond humans: he forbade killing birds without right, overloading beasts beyond capacity, and praised the one who watered a dog. The environment is a trust: 'Do not waste; Allah loves not the wasteful' — water, food, resources. Planting is sadaqa: 'No Muslim plants a seedling from which something eats but it is charity for him.'", ur: "سیرت میں رحمت انسانوں سے آگے بڑھتی ہے: آپ نے بغیر حق پرندے مارنے سے منع کیا، جانوروں پر طاقت سے زیادہ بوجھ ڈالنے سے روکا، اور کتے کو پانی پلانے والے کی تعریف کی۔ ماحولیات امانت ہے: «اسراف نہ کرو؛ اللہ اسراف کرنے والوں کو پسند نہیں کرتا» — پانی، کھانا، وسائل۔ پودا لگانا صدقہ ہے: «کوئی مسلمان پودا نہیں لگاتا جس سے کوئی کھائے مگر وہ اس کے لیے صدقہ ہوتا ہے»۔" },
     hadith: [
-      { t: "غُفر لامرأة مومس سقت كلبًا، ودخلت النار امرأة حبست هرّة لا أطعمتها ولا تركتها تأكل من خشاش الأرض.", r: "متفق عليه" },
-      { t: "ما من مسلم يغرس غرسًا أو يزرع زرعًا فيأكل منه طير أو إنسان أو بهيمة إلا كانت له صدقة.", r: "متفق عليه" },
+      { t: { ar: "غُفر لامرأة مومس سقت كلبًا، ودخلت النار امرأة حبست هرّة لا أطعمتها ولا تركتها تأكل من خشاش الأرض.", en: "A prostitute was forgiven for watering a dog; a woman entered the Fire for starving a cat she confined.", ur: "ایک بدکار عورت کتے کو پانی پلانے پر بخشی گئی؛ اور ایک عورت بلی کو بند کر کے بھوکا رکھنے پر آگ میں داخل ہوئی۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "ما من مسلم يغرس غرسًا أو يزرع زرعًا فيأكل منه طير أو إنسان أو بهيمة إلا كانت له صدقة.", en: "No Muslim plants a seedling or sows a crop from which bird, human or beast eats but it is charity for him.", ur: "کوئی مسلمان پودا یا فصل نہیں لگاتا جس سے پرندہ، انسان یا جانور کھائے مگر وہ اس کے لیے صدقہ ہوتا ہے۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
     ],
-    ayat: [
-      { t: "وَلَا تُسْرِفُوا ۚ إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ", r: "الأنعام ١٤١" },
-    ],
+    ayat: [ { sura: 6, aya: 141, label: { ar: "الأنعام ١٤١", en: "Al-An'am 6:141", ur: "الانعام ١٤١" } } ],
     steps: [
-      "أطعم أو اسقِ حيوانًا هذا الأسبوع — وعاء ماء للقطط عند بابك مثلًا.",
-      "راجع استهلاكك: ماء الوضوء والكهرباء والطعام المتبقي — الاعتدال عبادة.",
-      "ازرع شيئًا ولو في شرفة — غرس يأكل منه مخلوق صدقة جارية.",
+      { ar: "أطعم أو اسقِ حيوانًا هذا الأسبوع — وعاء ماء للقطط عند بابك مثلًا.", en: "Feed or water an animal this week — a water bowl for cats at your door, for example.", ur: "اس ہفتے کسی جانور کو کھانا یا پانی دیں — مثلاً اپنے دروازے پر بلیوں کے لیے پانی کا برتن۔" },
+      { ar: "راجع استهلاكك: ماء الوضوء والكهرباء والطعام المتبقي — الاعتدال عبادة.", en: "Audit your consumption: wudu water, electricity, food leftovers — moderation is worship.", ur: "اپنی کھپت کا جائزہ لیں: وضو کا پانی، بجلی، بچا ہوا کھانا — اعتدال عبادت ہے۔" },
+      { ar: "ازرع شيئًا ولو في شرفة — غرس يأكل منه مخلوق صدقة جارية.", en: "Plant something, even on a balcony — a planting that feeds a creature is ongoing sadaqa.", ur: "کچھ لگائیں، خواہ بالکنی میں — وہ پودا جس سے کوئی مخلوق کھائے، جاریہ صدقہ ہے۔" },
     ],
-    why: "الصورة الكبيرة: الإسلام منظومة رحمة كونية لا خدمة ذات — «الراحمون يرحمهم الرحمن» بلا استثناء للنوع.",
+    why: { ar: "الصورة الكبيرة: الإسلام منظومة رحمة كونية لا خدمة ذات — «الراحمون يرحمهم الرحمن» بلا استثناء للنوع.", en: "The big picture: Islam is a system of universal mercy, not self-service — 'the merciful are shown mercy by the Merciful,' with no species excluded.", ur: "بڑی تصویر: اسلام کائناتی رحمت کا نظام ہے، خود خدمت نہیں — «رحمان رحم کرنے والوں پر رحم کرتا ہے»، کسی نوع کے استثناء کے بغیر۔" },
   },
   {
     horizon: "life", domain: "mujtama", stages: ["student", "adult", "parent", "elder"],
-    title: "خدمة المجتمع والتطوع",
-    teaser: "«أحب الناس إلى الله أنفعهم للناس» — ساعة تطوع ثابتة تجعلك جزءًا من حل مشاكل الأمة.",
-    body: "المسلم ليس معزولًا في محرابه: قضاء حوائج الناس عبادة — «لأن أمشي مع أخ لي في حاجة أحب إلي من اعتكاف شهر». تطوّع بما تجيد: طبيب يعالج فقيرًا، مبرمج يبني أداة نفع، معلم يدرّس مجانًا ساعة أسبوعيًا. والمجتمع يبدأ من الدائرة الصغرى: جارك، حارتك، مدرسة أولادك — قبل العالم.",
+    title: { ar: "خدمة المجتمع والتطوع", en: "Serving society & volunteering", ur: "معاشرے کی خدمت اور رضاکاری" },
+    teaser: { ar: "«أحب الناس إلى الله أنفعهم للناس» — ساعة تطوع ثابتة تجعلك جزءًا من حل مشاكل الأمة.", en: "'The most beloved people to Allah are the most beneficial to people' — a fixed volunteering hour makes you part of solving the ummah's problems.", ur: "«اللہ کے نزدیک محبوب ترین لوگ وہ ہیں جو لوگوں کو سب سے زیادہ نفع دیں» — ایک مقررہ رضاکارانہ گھنٹہ آپ کو امت کے مسائل کے حل کا حصہ بناتا ہے۔" },
+    body: { ar: "المسلم ليس معزولًا في محرابه: قضاء حوائج الناس عبادة — «لأن أمشي مع أخ لي في حاجة أحب إلي من اعتكاف شهر». تطوّع بما تجيد: طبيب يعالج فقيرًا، مبرمج يبني أداة نفع، معلم يدرّس مجانًا ساعة أسبوعيًا. والمجتمع يبدأ من الدائرة الصغرى: جارك، حارتك، مدرسة أولادك — قبل العالم.", en: "A Muslim is not isolated in his prayer niche: fulfilling people's needs is worship — 'walking with my brother in his need is dearer to me than a month of i'tikaf.' Volunteer with what you're good at: a doctor treating the poor, a programmer building a useful tool, a teacher teaching a free hour weekly. Society starts from the smallest circle: your neighbour, your street, your children's school — before the world.", ur: "مسلمان اپنے محراب میں الگ نہیں بیٹھتا: لوگوں کی ضرورتیں پوری کرنا عبادت ہے — «اپنے بھائی کی ضرورت میں اس کے ساتھ چلنا مجھے ایک مہینے کے اعتکاف سے زیادہ محبوب ہے»۔ اپنے ہنر سے رضاکاری کریں: ڈاکٹر جو غریب کا علاج کرے، پروگرامر جو مفید ٹول بنائے، استاد جو ہفتے میں ایک مفت گھنٹہ پڑھائے۔ معاشرہ چھوٹے حلقے سے شروع ہوتا ہے: آپ کا پڑوسی، آپ کی گلی، آپ کے بچوں کا اسکول — دنیا سے پہلے۔" },
     hadith: [
-      { t: "أحب الناس إلى الله أنفعهم للناس.", r: "رواه الطبراني — حسن" },
-      { t: "من كان يؤمن بالله واليوم الآخر فليقل خيرًا أو ليصمت.", r: "متفق عليه" },
+      { t: { ar: "أحب الناس إلى الله أنفعهم للناس.", en: "The most beloved people to Allah are those most beneficial to people.", ur: "اللہ کے نزدیک محبوب ترین لوگ وہ ہیں جو لوگوں کو سب سے زیادہ نفع دیں۔" }, r: { ar: "رواه الطبراني — حسن", en: "Tabarani — hasan", ur: "طبرانی — حسن" } },
+      { t: { ar: "من كان يؤمن بالله واليوم الآخر فليقل خيرًا أو ليصمت.", en: "Whoever believes in Allah and the Last Day, let him speak good or stay silent.", ur: "جو اللہ اور آخرت پر ایمان رکھے وہ بھلائی کہے یا خاموش رہے۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
     ],
     steps: [
-      "حدد مهارة تخدم بها: ما تجيده غالبًا هو ما يحتاجه غيرك.",
-      "خصص ساعة تطوع ثابتة أسبوعيًا أو شهريًا — الثبات أهم من الحجم.",
-      "ابدأ بدائرتك: جار محتاج، مدرسة، مسجد الحي — النفع القريب أولى.",
+      { ar: "حدد مهارة تخدم بها: ما تجيده غالبًا هو ما يحتاجه غيرك.", en: "Identify the skill you serve with: what you're good at is often what others need.", ur: "وہ مہارت تلاش کریں جس سے خدمت کریں: جس میں آپ مہارت رکھتے ہیں اکثر وہی دوسروں کو چاہیے ہوتا ہے۔" },
+      { ar: "خصص ساعة تطوع ثابتة أسبوعيًا أو شهريًا — الثبات أهم من الحجم.", en: "Commit a fixed volunteering hour weekly or monthly — consistency outweighs volume.", ur: "ہفتہ وار یا ماہانہ ایک مقررہ رضاکارانہ گھنٹہ مقرر کریں — تسلسل حجم سے زیادہ اہم ہے۔" },
+      { ar: "ابدأ بدائرتك: جار محتاج، مدرسة، مسجد الحي — النفع القريب أولى.", en: "Start with your circle: a needy neighbour, a school, the local mosque — near benefit first.", ur: "اپنے حلقے سے شروع کریں: ضرورت مند پڑوسی، اسکول، محلے کی مسجد — قریبی نفع پہلے۔" },
     ],
-    why: "الصورة الكبيرة: الأمة جسد واحد — خدمتك للناس ليست خيارًا جانبيًا بل نصيبك في إصلاح الكل.",
+    why: { ar: "الصورة الكبيرة: الأمة جسد واحد — خدمتك للناس ليست خيارًا جانبيًا بل نصيبك في إصلاح الكل.", en: "The big picture: the ummah is one body — serving people is not a side option but your share in fixing the whole.", ur: "بڑی تصویر: امت ایک جسم ہے — لوگوں کی خدمت کوئی اختیاری ضمنی کام نہیں بلکہ مجموعے کی اصلاح میں آپ کا حصہ ہے۔" },
   },
   {
     horizon: "life", domain: "mujtama", stages: ["parent", "elder"],
-    title: "الكِبَر — خبرة تورَّث وأثر يبقى",
-    teaser: "سنوات الكبار ليست انسحابًا بل ذروة: مسجد، تعليم، وصية، ومشروع خير يجري بعد الرحيل.",
-    body: "السيرة تكرّم الشيخوخة: «إذا مات ابن آدم انقطع عمله إلا من ثلاث» — وهذه سنوات إعداد الثلاث. ملازمة المسجد — «لا يزال العبد في صلاة ما كان في المسجد ينتظر الصلاة» — نقل العلم والخبرة للأجيال، كتابة الوصية وتسوية الحقوق، وإنشاء صدقة جارية. والكبير له حقوق على الصغار: التوقير، الاستماع، خدمة الحاجة.",
+    title: { ar: "الكِبَر — خبرة تورَّث وأثر يبقى", en: "Old age — inherited wisdom & lasting legacy", ur: "بڑھاپا — وراثت کی حکمت اور باقی رہنے والا اثر" },
+    teaser: { ar: "سنوات الكبار ليست انسحابًا بل ذروة: مسجد، تعليم، وصية، ومشروع خير يجري بعد الرحيل.", en: "The elder years are not withdrawal but culmination: mosque, teaching, a written will, and a charitable project that outlives you.", ur: "بڑھاپے کے سال دستبرداری نہیں بلکہ عروج ہیں: مسجد، تعلیم، لکھی ہوئی وصیت، اور خیری منصوبہ جو آپ کے بعد چلتا رہے۔" },
+    body: { ar: "السيرة تكرّم الشيخوخة: «إذا مات ابن آدم انقطع عمله إلا من ثلاث» — وهذه سنوات إعداد الثلاث. ملازمة المسجد — «لا يزال العبد في صلاة ما كان في المسجد ينتظر الصلاة» — نقل العلم والخبرة للأجيال، كتابة الوصية وتسوية الحقوق، وإنشاء صدقة جارية. والكبير له حقوق على الصغار: التوقير، الاستماع، خدمة الحاجة.", en: "The Seerah honours old age: 'when the son of Adam dies, his deeds end except three' — these are the years of preparing the three. Attending the mosque — 'the servant remains in prayer as long as he is in the mosque awaiting prayer' — transmitting knowledge and experience to the young, writing the will and settling rights, and establishing an ongoing sadaqa. Elders have rights upon the young: respect, listening, serving their needs.", ur: "سیرت بڑھاپے کی عزت کرتی ہے: «جب ابن آدم مر جاتا ہے تو اس کا عمل بند ہو جاتا ہے سوائے تین کے» — یہ تینوں تیار کرنے کے سال ہیں۔ مسجد سے وابستگی — «بندہ نماز میں ہی رہتا ہے جب تک وہ مسجد میں نماز کے انتظار میں ہو» — علم اور تجربہ نسلوں کو منتقل کرنا، وصیت لکھنا اور حقوق طے کرنا، اور جاریہ صدقہ قائم کرنا۔ بزرگوں کے چھوٹوں پر حقوق ہیں: عزت، سننا، ضرورت پوری کرنا۔" },
     hadith: [
-      { t: "لا يزال العبد في صلاة ما كان في المسجد ينتظر الصلاة.", r: "متفق عليه" },
-      { t: "ليس منا من لم يرحم صغيرنا ويوقر كبيرنا.", r: "رواه الترمذي" },
+      { t: { ar: "لا يزال العبد في صلاة ما كان في المسجد ينتظر الصلاة.", en: "The servant remains in prayer as long as he is in the mosque awaiting prayer.", ur: "بندہ نماز میں ہی رہتا ہے جب تک وہ مسجد میں نماز کے انتظار میں ہو۔" }, r: { ar: "متفق عليه", en: "Agreed upon", ur: "متفق علیہ" } },
+      { t: { ar: "ليس منا من لم يرحم صغيرنا ويوقر كبيرنا.", en: "He is not of us who does not show mercy to our young or respect to our elders.", ur: "وہ ہم میں سے نہیں جو ہمارے چھوٹوں پر رحم نہ کرے اور بڑوں کی عزت نہ کرے۔" }, r: { ar: "رواه الترمذي", en: "Tirmidhi", ur: "ترمذی" } },
     ],
     steps: [
-      "اكتب وصيتك وراجعها — الحقوق المالية والمعنوية لا تُرحَّل.",
-      "ابدأ مشروع أثر: علّم ما تعرفه لواحد أصغر، أو أنشئ صدقة جارية موثقة.",
-      "خصص وردًا للمسجد — صلاة جماعة ثابتة تصبح عادة العمر الجديدة.",
+      { ar: "اكتب وصيتك وراجعها — الحقوق المالية والمعنوية لا تُرحَّل.", en: "Write your will and review it — financial and moral rights are not postponed.", ur: "اپنی وصیت لکھیں اور اس کا جائزہ لیں — مالی اور معنوی حقوق مؤخر نہیں کیے جاتے۔" },
+      { ar: "ابدأ مشروع أثر: علّم ما تعرفه لواحد أصغر، أو أنشئ صدقة جارية موثقة.", en: "Begin a legacy project: teach what you know to someone younger, or establish a documented sadaqa jariyah.", ur: "اثر کا منصوبہ شروع کریں: اپنا علم کسی چھوٹے کو سکھائیں، یا لکھی ہوئی جاریہ صدقہ قائم کریں۔" },
+      { ar: "خصص وردًا للمسجد — صلاة جماعة ثابتة تصبح عادة العمر الجديدة.", en: "Anchor yourself to the mosque — a fixed congregational prayer becomes the habit of this new age.", ur: "مسجد سے وابستہ ہوں — ایک مقررہ نمازِ جماعت اس نئی عمر کی عادت بن جاتی ہے۔" },
     ],
-    why: "الصورة الكبيرة: آخر العمر أثمنه — أعمال الختام تُكتب على السجل كله، والأثر الجاري يجعل العمر يمتد بعد صاحبه.",
+    why: { ar: "الصورة الكبيرة: آخر العمر أثمنه — أعمال الختام تُكتب على السجل كله، والأثر الجاري يجعل العمر يمتد بعد صاحبه.", en: "The big picture: the end of life is its most precious — closing deeds are written over the whole record, and a lasting legacy extends a lifetime beyond its owner.", ur: "بڑی تصویر: عمر کا آخری حصہ اس کا قیمتی ترین ہے — اختتامی اعمال پورے ریکارڈ پر لکھے جاتے ہیں، اور جاری اثر عمر کو اس کے مالک سے آگے بڑھاتا ہے۔" },
   },
 ];
+
+const RES = [
+  { url: "https://sunnah.com", b: "Sunnah.com", s: { ar: "كتب الحديث الستة — مصدر كل حديث مذكور هنا للتحقق.", en: "The six hadith collections — verify every hadith cited here.", ur: "حدیث کی چھ کتابیں — یہاں مذکور ہر حدیث کی تصدیق کے لیے۔" } },
+  { url: "https://quran.com", b: "Quran.com", s: { ar: "نص القرآن وتلاوته وتفسيره — رفيق الورد اليومي.", en: "Quran text, recitation and tafsir — your daily portion companion.", ur: "قرآن کا متن، تلاوت اور تفسیر — روز کے ورد کا ساتھی۔" } },
+  { url: "https://islamqa.info/ar", b: { ar: "الإسلام سؤال وجواب", en: "IslamQA", ur: "اسلام سوال و جواب" }, s: { ar: "إجابات موثقة على المسائل التفصيلية: زكاة، صيام، معاملات.", en: "Documented answers on detailed rulings: zakat, fasting, transactions.", ur: "تفصیلی مسائل پر مستند جوابات: زکوٰۃ، روزہ، معاملات۔" } },
+];
+const livingHref = `/${lang}/living/`;
 ---
 
-<BaseLayout lang={lang} title="سيرة وحياة" description="السيرة منهج حياة: دليل عملي لتنظيم يومك وأسبوعك وشهرك وسنتك وعمرك على هدي النبي — عبادة وعلمًا ومالًا وأهلًا ومجتمعًا." path={`/${lang}/seerah/`}>
+<BaseLayout lang={lang} title={P.title} description={P.lede} path={`/${lang}/seerah/`}>
   <div class="wrap" style="padding-block:4vh 20px">
-    <p class="eyebrow">Live Your Life the Islamic Way</p>
-    <h1 class="display" style="font-weight:400;font-size:clamp(2.2rem,6vw,4rem)">سيرة وحياة</h1>
-    <p style="font-size:clamp(1.05rem,2vw,1.3rem);max-width:64ch">السيرة ليست قصة تُروى فحسب — إنها منهج حياة. يوم النبي وسنته وعمره خريطة عملية: عبادة وعلمًا ومالًا وأهلًا ومجتمعًا. اختر أفقك الزمني ومجال حياتك، وابدأ.</p>
-    <blockquote class="hero-ayah">﴿لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُو اللَّهَ وَالْيَوْمَ الْآخِرَ﴾ <span class="ref">الأحزاب ٢١</span></blockquote>
-
-    <div class="controls ui" style="margin-block:1.6rem">
-      <input id="q" type="search" class="search" placeholder="ابحث في المنهج… (أذكار، زكاة، والدين، عمل، هدف…)" aria-label="بحث في البطاقات" />
-      <div class="chips-row" role="group" aria-label="الأفق الزمني">
-        <span class="row-label">الأفق الزمني</span>
-        <button class="chip fchip hz active" data-hz="all" type="button">الكل</button>
-        {HORIZONS.map((h) => <button class="chip fchip hz" data-hz={h.id} type="button">{h.name}</button>)}
-      </div>
-      <div class="chips-row" role="group" aria-label="مجال الحياة">
-        <span class="row-label">مجال الحياة</span>
-        <button class="chip fchip dm active" data-dm="all" type="button">الكل</button>
-        {DOMAINS.map((d) => <button class="chip fchip dm" data-dm={d.id} type="button">{d.name}</button>)}
-      </div>
-      <p class="muted" id="countline" style="font-size:.85rem;margin:8px 0 0"></p>
+    <div data-pagefind-body>
+      <p class="eyebrow">{lang === "ar" ? "Live Your Life the Islamic Way" : lang === "ur" ? "سیرت و زندگی" : "Seerah & Life"}</p>
+      <h1 class="display" style="font-weight:400;font-size:clamp(2.2rem,6vw,4rem)">{P.title}</h1>
+      <p style="font-size:clamp(1.05rem,2vw,1.3rem);max-width:64ch">{P.lede}</p>
+      <p><a class="chip" href={href(lang, "passage/quran-33-21")}>{P.hero}</a></p>
     </div>
 
+    <div class="controls ui" style="margin-block:1.6rem" data-pagefind-ignore>
+      <input id="q" type="search" class="search" placeholder={P.search} aria-label={P.search} />
+      <div class="chips-row" role="group" aria-label={P.hz}>
+        <span class="row-label">{P.hz}</span>
+        <button class="chip fchip hz active" data-hz="all" type="button">{P.all}</button>
+        {HORIZONS.map((h) => <button class="chip fchip hz" data-hz={h.id} type="button">{S(h.name)}</button>)}
+      </div>
+      <div class="chips-row" role="group" aria-label={P.dm}>
+        <span class="row-label">{P.dm}</span>
+        <button class="chip fchip dm active" data-dm="all" type="button">{P.all}</button>
+        {DOMAINS.map((d) => <button class="chip fchip dm" data-dm={d.id} type="button">{S(d.name)}</button>)}
+      </div>
+      <p class="muted" id="countline" style="font-size:.85rem;margin:8px 0 0" data-label={P.cards}></p>
+    </div>
+
+    <div data-pagefind-ignore>
     {DOMAINS.map((dom) => (
       <section class="domsec" data-domsec={dom.id} style="margin-block:2.4rem">
-        <h2 class="ui" style="font-size:1.25rem;font-weight:600;border-inline-start:4px solid var(--gold);padding-inline-start:12px">{dom.name}</h2>
-        <p class="muted" style="max-width:60ch;margin-top:.2rem">{dom.desc}</p>
+        <h2 class="ui" style="font-size:1.25rem;font-weight:600;border-inline-start:4px solid var(--gold);padding-inline-start:12px">{S(dom.name)}</h2>
+        <p class="muted" style="max-width:60ch;margin-top:.2rem">{S(dom.desc)}</p>
         <ul class="plist">
           {ITEMS.filter((i) => i.domain === dom.id).map((it) => (
             <li>
               <details class="practice panel" data-hz={it.horizon} data-dom={it.domain}
-                data-search={[it.title, it.teaser, it.body, ...(it.ayat ?? []).map((a) => a.t), ...(it.hadith ?? []).map((h) => h.t), ...(it.steps ?? [])].join(" ").toLowerCase()}>
+                data-search={[S(it.title), S(it.teaser), S(it.body), ...(it.hadith ?? []).map((h) => S(h.t)), ...(it.steps ?? []).map((s) => S(s))].join(" ").toLowerCase()}>
                 <summary>
-                  <span class="sum-title">{it.title}</span>
-                  <span class="sum-teaser">{it.teaser}</span>
+                  <span class="sum-title">{S(it.title)}</span>
+                  <span class="sum-teaser">{S(it.teaser)}</span>
                   <span class="sum-tags">
-                    <span class="hz-badge">{HZ_NAME[it.horizon]}</span>
-                    {it.stages.map((s) => <span class="stagetag">{STAGES[s]}</span>)}
+                    <span class="hz-badge">{S(HZ_NAME[it.horizon])}</span>
+                    {it.stages.map((s) => <span class="stagetag">{S(STAGES[s])}</span>)}
                   </span>
                 </summary>
                 <div class="pbody">
-                  <p>{it.body}</p>
+                  <p>{S(it.body)}</p>
                   {it.routine && (
                     <table class="routine">
                       <tbody>
-                        {it.routine.map((r) => <tr><th scope="row">{r.t}</th><td>{r.a}</td></tr>)}
+                        {it.routine.map((r) => <tr><th scope="row">{S(r.t)}</th><td>{S(r.a)}</td></tr>)}
                       </tbody>
                     </table>
                   )}
                   {it.ayat && it.ayat.length > 0 && (
                     <div>
-                      <p class="blk">من القرآن</p>
-                      {it.ayat.map((a) => <blockquote class="ayah">﴿{a.t}﴾ <span class="ref">{a.r}</span></blockquote>)}
+                      <p class="blk">{P.from_quran}</p>
+                      <p class="ayat-links">{it.ayat.map((a) => <a class="chip ayah-link" href={href(lang, `passage/quran-${a.sura}-${a.aya}`)}>{S(a.label)}</a>)}</p>
                     </div>
                   )}
                   {it.hadith && it.hadith.length > 0 && (
                     <div>
-                      <p class="blk">من السنة</p>
-                      {it.hadith.map((h) => <blockquote class="hadith">{h.t} <span class="ref">{h.r}</span></blockquote>)}
+                      <p class="blk">{P.from_sunnah}</p>
+                      {it.hadith.map((h) => <blockquote class="hadith">{S(h.t)} <span class="ref">{S(h.r)}</span></blockquote>)}
                     </div>
                   )}
                   {it.steps && (
                     <div>
-                      <p class="blk">خطوات عملية</p>
+                      <p class="blk">{P.steps}</p>
                       <ol class="steps">
-                        {it.steps.map((s) => <li>{s}</li>)}
+                        {it.steps.map((s) => <li>{S(s)}</li>)}
                       </ol>
                     </div>
                   )}
-                  {it.note && <p class="note"><b>ملاحظة:</b> {it.note}</p>}
-                  {it.why && <p class="why">{it.why}</p>}
+                  {it.note && <p class="note"><b>{P.note}:</b> {S(it.note)}</p>}
+                  {it.why && <p class="why">{S(it.why)}</p>}
                 </div>
               </details>
             </li>
@@ -591,26 +603,19 @@ const ITEMS: Practice[] = [
         </ul>
       </section>
     ))}
+    </div>
 
     <section style="margin-block:3rem">
-      <h2 class="ui" style="font-size:1.25rem;font-weight:600;border-inline-start:4px solid var(--gold);padding-inline-start:12px">مصادر للتوسع</h2>
+      <h2 class="ui" style="font-size:1.25rem;font-weight:600;border-inline-start:4px solid var(--gold);padding-inline-start:12px">{P.resources}</h2>
       <ul class="grid-cards" style="margin-top:1rem">
-        <li><a class="card" href="https://sunnah.com" rel="noopener"><b>Sunnah.com</b><span>كتب الحديث الستة — مصدر كل حديث مذكور هنا للتحقق.</span></a></li>
-        <li><a class="card" href="https://quran.com" rel="noopener"><b>Quran.com</b><span>نص القرآن وتلاوته وتفسيره — رفيق الورد اليومي.</span></a></li>
-        <li><a class="card" href="https://islamqa.info/ar" rel="noopener"><b>الإسلام سؤال وجواب</b><span>إجابات موثقة على المسائل التفصيلية: زكاة، صيام، معاملات.</span></a></li>
-        <li><a class="card" href={`/${lang}/living/`}><b>جناح الإسلام الحي</b><span>العبادات والعادات والسنة الهجرية في المتحف.</span></a></li>
+        {RES.map((r) => <li><a class="card" href={r.url} rel="noopener"><b>{typeof r.b === "string" ? r.b : S(r.b)}</b><span>{S(r.s)}</span></a></li>)}
+        <li><a class="card" href={livingHref}><b>{P.living_wing}</b><span>{P.living_blurb}</span></a></li>
       </ul>
-      <p class="muted" style="margin-top:1.5rem;font-size:.9rem">المسائل الفقهية التفصيلية تُراجَع فيها مصادر الإفتاء الموثوقة في بلدك. والسيرة منهجٌ يُعاش، لا ذكرى تُروى.</p>
+      <p class="muted" style="margin-top:1.5rem;font-size:.9rem">{P.verify}</p>
     </section>
   </div>
 
   <style>
-    .hero-ayah {
-      font-family: var(--ar-quran); font-size: 1.35rem; color: var(--gold);
-      border: 1px solid var(--line); border-radius: 14px;
-      padding: 18px 26px; max-width: 720px; margin: 1.6rem 0; background: var(--panel);
-    }
-    .hero-ayah .ref { display: block; font-family: var(--ar-body); font-size: .8rem; color: var(--muted); margin-top: 8px; }
     .search {
       width: 100%; padding: 12px 18px; font-size: 1.05rem; font-family: var(--ar-body);
       background: var(--bg); color: var(--fg);
@@ -624,7 +629,7 @@ const ITEMS: Practice[] = [
     .plist { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
     .practice { padding: 0; overflow: hidden; }
     .practice summary {
-      cursor: pointer; padding: 18px 20px; list-style: none;
+      cursor: pointer; padding: 18px 20px; list-style: none; position: relative; padding-inline-end: 44px;
     }
     .practice summary::-webkit-details-marker { display: none; }
     .practice summary::after {
@@ -632,7 +637,6 @@ const ITEMS: Practice[] = [
       color: var(--gold); font-size: 1.3rem; font-weight: 600; font-family: var(--sans);
     }
     .practice[open] summary::after { content: "−"; }
-    .practice summary { position: relative; padding-inline-end: 44px; }
     .sum-title { display: block; font-family: var(--ar-display); font-size: 1.35rem; font-weight: 600; margin-bottom: 6px; }
     .sum-teaser { display: block; color: var(--muted); font-size: .95rem; }
     .sum-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
@@ -643,12 +647,8 @@ const ITEMS: Practice[] = [
     .stagetag { font-size: .72rem; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
     .pbody { padding: 0 20px 18px; border-top: 1px solid var(--line); padding-top: 14px; margin: 0 20px 18px; }
     .blk { font-size: .8rem; letter-spacing: 1px; color: var(--muted); margin: 1.2rem 0 .4rem; font-family: var(--sans); }
-    .ayah {
-      font-family: var(--ar-quran); font-size: 1.2rem; color: var(--gold);
-      background: color-mix(in srgb, var(--gold) 8%, transparent);
-      border-inline-start: 3px solid var(--gold); border-radius: 10px;
-      padding: 12px 16px; margin: 10px 0;
-    }
+    .ayat-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+    .ayah-link { border: 1px solid var(--gold); color: var(--gold); font-family: var(--ar-quran); }
     .ref { display: block; font-family: var(--ar-body); font-size: .75rem; color: var(--muted); margin-top: 5px; }
     .hadith {
       font-size: .95rem; background: color-mix(in srgb, var(--link) 7%, transparent);
@@ -671,40 +671,5 @@ const ITEMS: Practice[] = [
     .hidden { display: none !important; }
   </style>
 
-  <script is:inline>
-    (function () {
-      var q = document.getElementById("q");
-      var hzBtns = Array.prototype.slice.call(document.querySelectorAll(".fchip.hz"));
-      var dmBtns = Array.prototype.slice.call(document.querySelectorAll(".fchip.dm"));
-      var cards = Array.prototype.slice.call(document.querySelectorAll(".practice"));
-      var secs = Array.prototype.slice.call(document.querySelectorAll(".domsec"));
-      var countline = document.getElementById("countline");
-      var hz = "all", dm = "all";
-      function apply() {
-        var query = (q && q.value || "").trim().toLowerCase();
-        var words = query ? query.split(/\s+/) : [];
-        var shown = 0;
-        cards.forEach(function (c) {
-          var ok = (hz === "all" || c.dataset.hz === hz) && (dm === "all" || c.dataset.dom === dm);
-          if (ok && words.length) {
-            var hay = c.dataset.search || "";
-            ok = words.every(function (w) { return hay.indexOf(w) !== -1; });
-          }
-          c.closest("li").classList.toggle("hidden", !ok);
-          if (ok) shown++;
-        });
-        secs.forEach(function (s) {
-          var any = Array.prototype.some.call(s.querySelectorAll(".practice"), function (c) {
-            return !c.closest("li").classList.contains("hidden");
-          });
-          s.classList.toggle("hidden", !any);
-        });
-        if (countline) countline.textContent = shown + " بطاقة";
-      }
-      hzBtns.forEach(function (b) { b.addEventListener("click", function () { hz = b.dataset.hz; hzBtns.forEach(function (x) { x.classList.toggle("active", x === b); }); apply(); }); });
-      dmBtns.forEach(function (b) { b.addEventListener("click", function () { dm = b.dataset.dm; dmBtns.forEach(function (x) { x.classList.toggle("active", x === b); }); apply(); }); });
-      if (q) q.addEventListener("input", apply);
-      apply();
-    })();
-  </script>
+  <script src="../../../scripts/seerah.ts"></script>
 </BaseLayout>
