@@ -17,6 +17,11 @@ relations:
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 external_ids: { wikidata: "Q2502863" }
+sides:
+  - label: { ar: "الحملة الإمبراطورية بقيادة شارل الخامس", en: "Charles V's imperial expedition" }
+    commanders: [person/charles-v]
+  - label: { ar: "حامية الجزائر بقيادة حسن آغا", en: "The Algiers garrison under Hasan Agha" }
+    commanders: [person/hasan-aga-al-tushi, person/sulayman-al-qanuni]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
