@@ -13,6 +13,8 @@ date:
   start: { edtf: "1229~", hijri: "0626~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 626؛ التحويل مشتق {cite:nafh-tib-maqqari p. 470}." }
 relations:
   - { type: had_participant, target: person/ibn-hud-al-judhami, role: "المُنْتَزَعة منه الكورة", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-muhtadid-yahya-almohad, sources: [source/bayan-mughrib-idhari] }
+  - { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 469–470"

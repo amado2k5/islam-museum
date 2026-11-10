@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/abu-kalijar, role: "الملك المتوفى", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-malik-al-rahim, role: "الملك المستخلف", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة المقلّد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
