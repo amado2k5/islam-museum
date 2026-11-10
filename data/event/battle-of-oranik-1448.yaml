@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "League of Lezhë", ar: "عصبة ليجه" }
+    participants: [polity/league-of-lezhe]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

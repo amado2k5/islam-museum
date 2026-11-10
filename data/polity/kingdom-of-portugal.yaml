@@ -1,0 +1,17 @@
+id: polity/kingdom-of-portugal
+class: polity
+kind: kingdom
+label: { ar: "مملكة البرتغال", en: "Kingdom of Portugal" }
+summary:
+  ar: "مملكة في جنوب غرب أوروبا ⁦(١١٣٩–١٩١٠)⁩."
+  en: "A kingdom in Southwestern Europe (1139–1910)."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q45670" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q45670 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

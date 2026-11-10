@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+    participants: [polity/portuguese-empire]
   - label: { en: "Wattasid dynasty", ar: "الدولة الوطاسية" }
     participants: [polity/wattasid-dynasty]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

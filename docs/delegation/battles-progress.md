@@ -49,3 +49,9 @@ Lane file: [`docs/agents/lanes/battles.md`](../agents/lanes/battles.md). Plan: [
 
 - 520 of the 668 Wikidata-sided records gained `participants:` links on their sides where the participant's Wikidata QID matches an existing graph entity (polity/place/group/person with `external_ids.wikidata`) — 653 links, mostly `polity/` records (Ottoman Empire, Safavid Iran, Mamluk Sultanate…). Labels-only sides remain where no graph entity carries the QID.
 - Noted for a future reconciliation lane: `place/byzantine-empire` and `polity/byzantine-empire` are duplicate entities; the QID currently sits on the place record.
+
+## 2026-11-11 — missing belligerent entities + full participant linking (PR #5960)
+
+- 50 new draft entities (45 `polity/`, 5 `group/`) created for Wikidata participant items that had no graph entity — empires, kingdoms, sultanates, taifas and peoples appearing as battle sides. Each carries `external_ids.wikidata`, `sources: [source/wikidata]`, trilingual-ready ar/en labels, `status.review: draft`.
+- `external_ids.wikidata` added to `polity/sasanian-empire` (Q83891) and `group/kurds` (Q12223); `polity/adal` was left unchanged because `place/adal-sultanate` already carries Q2365048 (validator caught the would-be duplicate).
+- 368 further `participants:` links written across 338 events. Total side→entity links: ~1,083 of 1,348 resolvable refs; the rest are label-only (no graph entity exists — e.g. Crown of Castile Q217196, Emirate of Córdoba Q1337854, which duplicate near-identical existing entities under different Wikidata items).

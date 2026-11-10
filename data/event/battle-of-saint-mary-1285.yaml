@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+    participants: [polity/crown-of-aragon]
   - label: { en: "Kingdom of France", ar: "مملكة فرنسا" }
+    participants: [polity/kingdom-of-france]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q11914880

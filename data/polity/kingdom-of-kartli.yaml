@@ -1,0 +1,17 @@
+id: polity/kingdom-of-kartli
+class: polity
+kind: kingdom
+label: { ar: "مملكة كارتلي", en: "Kingdom of Kartli" }
+summary:
+  ar: "ملكية متأخرة العصور الوسطى في القوقاز."
+  en: "A late medieval monarchy in the Caucasus."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q195972" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q195972 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

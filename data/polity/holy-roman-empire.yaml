@@ -1,0 +1,17 @@
+id: polity/holy-roman-empire
+class: polity
+kind: empire
+label: { ar: "الإمبراطورية الرومانية المقدسة", en: "Holy Roman Empire" }
+summary:
+  ar: "كيان معقد متعدد الأعراق في غرب ووسط أوروبا ⁦(٨٠٠/٩٦٢–١٨٠٦)⁩."
+  en: "A multi-ethnic complex of territories in Western and Central Europe (800/962–1806)."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q12548" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q12548 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

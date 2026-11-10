@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Regency of Algiers", ar: "إيالة الجزائر" }
+    participants: [polity/regency-of-algiers]
   - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+    participants: [polity/sharifian-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138009342

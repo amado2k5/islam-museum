@@ -17,6 +17,7 @@ relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "British Empire", ar: "الإمبراطورية البريطانية" }
+    participants: [polity/british-empire]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

@@ -1,0 +1,17 @@
+id: polity/kingdom-of-hungary
+class: polity
+kind: kingdom
+label: { ar: "مملكة المجر", en: "Kingdom of Hungary" }
+summary:
+  ar: "ملكية في وسط أوروبا ⁦(١٠٠٠–١٩٤٦)⁩."
+  en: "A Central European monarchy (1000–1946)."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q171150" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q171150 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

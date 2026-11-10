@@ -1,0 +1,17 @@
+id: polity/dutch-empire
+class: polity
+kind: empire
+label: { ar: "الإمبراطورية الهولندية", en: "Dutch Empire" }
+summary:
+  ar: "الأقاليم ما وراء البحار التي سيطرت عليها جمهورية هولندا وهولندا."
+  en: "The overseas territories controlled by the Dutch Republic and the Netherlands."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q130654" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q130654 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

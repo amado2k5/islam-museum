@@ -1,0 +1,17 @@
+id: group/israel-defense-forces
+class: group
+kind: army
+label: { ar: "الجيش الإسرائيلي", en: "Israel Defense Forces" }
+summary:
+  ar: "القوات المسلحة لإسرائيل."
+  en: "The combined military forces of Israel."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q58967" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q58967 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

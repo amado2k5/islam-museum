@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Javanese", ar: "جاويون" }
+    participants: [group/javanese]
   - label: { en: "Dutch Empire", ar: "الإمبراطورية الهولندية" }
+    participants: [polity/dutch-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q6165029

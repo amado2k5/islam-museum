@@ -1,0 +1,17 @@
+id: polity/british-empire
+class: polity
+kind: empire
+label: { ar: "الإمبراطورية البريطانية", en: "British Empire" }
+summary:
+  ar: "ممتلكات ما وراء البحار لإنجلترا ثم المملكة المتحدة ⁦(١٦٠٧–١٩٩٧)⁩."
+  en: "The overseas possessions of England and later the United Kingdom (1607–1997)."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q8680" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q8680 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }
