@@ -20,11 +20,13 @@ story_roles:
   - { role: companion, start: { edtf: "0620~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "نقيب بني النجار وأحد السابقين من الأنصار." }
-died: { edtf: "623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0623", hijri: "0001", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Shawwal 1 AH, nine months after the Hijra, while the Prophet's mosque was being built; the first Companion to die after the Hijra (al-Isaba p. 47); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 47", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/second-pledge-of-aqaba, role: "نقيب", note: "al-Isaba p. 47", sources: [source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/first-encounter-with-the-ansar, role: "أحد النفر الستة الأول", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q4166500" }

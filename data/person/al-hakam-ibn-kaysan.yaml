@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isabah; martyred Bir Ma'una 4 AH)" }
+died: { edtf: "0625", hijri: "0004", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Bi'r Ma'una, 4 AH (al-Isaba p. 335); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/jazirat-al-arab
