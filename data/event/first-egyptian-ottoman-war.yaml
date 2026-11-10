@@ -13,6 +13,9 @@ date:
   end: { edtf: "1833", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش المصري بقيادة إبراهيم باشا", en: "The Egyptian army under Ibrahim Pasha" }
+  - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2584439
