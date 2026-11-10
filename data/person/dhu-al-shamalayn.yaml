@@ -11,12 +11,15 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Badr — Umayr ibn Abd Amr the Khuza'i, ally of Banu Zuhra (Musa ibn Uqba and Ibn Ishaq, al-Isaba p. 439); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: died_in, target: place/badr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: member_of, target: group/banu-zuhra, note: "ally of Banu Zuhra (al-Isaba p. 439)", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 439", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12212654
 provenance:
