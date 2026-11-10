@@ -135,6 +135,7 @@ open a new block on top with the new version and today's date.
 - **Companions: Abu Rafi' al-Qibti completes the trilingual coverage.** The last Companion card lacking English and Urdu prose now has all three language files, plus its Urdu label and summary — all 603 Companion records now carry prose and card text in Arabic, English and Urdu.
 - **Companions: Urdu card text backfill, part 1 of ~34.** Fifteen records gain their `label.ur` and `summary.ur` — the first tranche of the roughly five hundred Companion cards that predate the trilingual rule.
 - **Companions: Urdu card text backfill, part 2 of ~32.** Another thirty records gain their `label.ur` and `summary.ur`.
+- **Companions: Urdu card text backfill, part 3 of ~32.** Fifteen more records gain their `label.ur` and `summary.ur`.
 
 ### Tests
 - **Companion selection and facets** (`scripts/companions.test.ts`): who counts as a Companion, the Hijri death year, the decade buckets and the grouping. The feature-export test now expects `companions.json`. `check-site` asserts that the browser home renders, and `check-weight` budgets the home and a group page.
