@@ -1,0 +1,54 @@
+---
+// The prophetic expeditions in full chronological order (docs/plan/31-battles-browser.md): every
+// prophetic-era military event labelled ghazwa or sariyya by the graph derivation (the Prophet
+// among its participants or commanders), each card leading to the canonical event record.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf, summaryOf, href } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { formatDate, startOf } from "../../../lib/dates";
+import { ghazawat, saraya, propheticNodes as expeditions, isGhazwa, placeOf, commandersOf } from "../../../lib/battles";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const B = T.battles;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const dateOf = (n: any) => formatDate(startOf(n.data), lang).text;
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+const status = fmt(B.status_ghazawat, { ghazwa: num(ghazawat.length, lang), sariya: num(saraya.length, lang) });
+---
+<BaseLayout lang={lang} title={`${B.ghazawat_title} — ${B.title}`} description={B.lede} path={`/${lang}/battles/ghazawat/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/battles/`}>{B.title}</a> › {B.ghazawat_title}</nav>
+    <div data-pagefind-body>
+      <h1>{B.ghazawat_title}</h1>
+      <p class="muted" style="max-width:var(--measure)">{B.note}</p>
+      <p class="panel ui" style="max-width:var(--measure)">{status}</p>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="battles-filter">{B.filter_label}</label>
+        <input id="battles-filter" type="search" data-battles-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+    </div>
+    <ol class="grid-cards" role="list" data-pagefind-ignore style="list-style:none;padding:0;margin:0">
+      {expeditions.map((n) => {
+        const place = placeOf(n.id);
+        const cmd = commandersOf(n).slice(0, 2);
+        const tag = isGhazwa(n) ? B.ghazwa_tag : B.sariya_tag;
+        return (
+          <li data-battles-item data-search={searchText(n)}>
+            <a class="card" href={href(lang, n.id)} style="display:block;height:100%;text-decoration:none">
+              <span class="ui muted" style="font-size:.8rem">{dateOf(n)} · {tag}</span>
+              <h3 class="card-title" style="margin:.15rem 0">{label(n)}</h3>
+              {cmd.length > 0 && <p class="ui" style="margin:0;font-size:.85rem">{B.f_commanders}: {cmd.map((c) => label(c)).join(" · ")}</p>}
+              {place && <p class="ui muted" style="margin:0;font-size:.85rem">{label(place)}</p>}
+              <p class="muted" style="margin:.35rem 0 0;font-size:.85rem">{summaryOf(n, lang)}</p>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+    <p class="panel ui" data-battles-empty hidden>{B.filter_none}</p>
+  </div>
+  <script src="../../../scripts/battles-filter.ts"></script>
+</BaseLayout>
