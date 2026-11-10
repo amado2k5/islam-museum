@@ -147,6 +147,7 @@ open a new block on top with the new version and today's date.
 - **Companions: Urdu card text backfill, part 10 — fifty records.** Fifty more Companion records gain their `label.ur` and `summary.ur`.
 - **Companions: Urdu card text backfill, part 11 — fifty records.** Fifty more Companion records gain their `label.ur` and `summary.ur`.
 - **Companions: Urdu card text backfill, part 12 — seventy-five records.** Seventy-five more Companion records gain their `label.ur` and `summary.ur`; the backfill pace is now 75 per change.
+- **Companions: Urdu card text backfill, part 13 — one hundred records.** One hundred more Companion records gain their `label.ur` and `summary.ur`; the backfill pace is now 100 per change.
 
 ### Tests
 - **Companion selection and facets** (`scripts/companions.test.ts`): who counts as a Companion, the Hijri death year, the decade buckets and the grouping. The feature-export test now expects `companions.json`. `check-site` asserts that the browser home renders, and `check-weight` budgets the home and a group page.
