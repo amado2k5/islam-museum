@@ -23,13 +23,17 @@ relations:
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "Sahmi Qurashi (al-Isaba p. 1448)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-sahm, note: "al-Isaba p. 1448", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "Ibn Ishaq names him among the Abyssinia emigrants (al-Isaba p. 1448)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

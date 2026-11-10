@@ -21,11 +21,11 @@ provenance:
   generated_by: "Claude Haiku 5.5"
   model: claude-haiku-5-5
   run: mawsua-w04-batch-1
-died: { edtf: "684~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0684", hijri: "0064", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Marj Rahit (Abu Zur'a al-Dimashqi, al-Isaba p. 1452); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with دمشق per the record's own summary text; relation type pending review.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; moved from concept to person class (decision for all windows); complete entry on scan p.6455 (name, tribe, transmitters, deeds). Printed death year 54 AH given as the book's own attribution with a question mark. Death-year and biographical-dictionary references in brackets not copied." }
 occupations:
   - job: job/muhaddith
