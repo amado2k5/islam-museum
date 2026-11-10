@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/khuzistan, sources: [source/wikipedia-avicenna-en] }
   - { type: had_participant, target: person/ibn-sina, role: "رفيق علاء الدولة", sources: [source/wikipedia-avicenna-en] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/wikipedia-avicenna-en]
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
 provenance:
