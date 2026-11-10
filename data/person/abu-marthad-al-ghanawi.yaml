@@ -6,17 +6,18 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي مرثد كناز بن حصين الغنوي، صحابي القرن السابع، توفي سنة ٦٣٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Marthad Kinnaz ibn Husayn al-Ghanawi, the seventh-century Companion, d. 633; the biographical entry is not yet checked on the page."
+  ar: "صحابي غنوي اسمه كناز بن الحصين، حليف حمزة؛ ذكره موسى بن عقبة وابن إسحاق في البدريين، وروى عن النبي حديث النهي عن الجلوس على القبور والصلاة إليها، وسكن الشام."
+  en: "A Ghanawi Companion named Kunaz ibn al-Husayn, an ally of Hamza; Musa ibn Uqba and Ibn Ishaq name him among the Badriyya. He narrated the prohibition on sitting on graves and praying toward them, and lived in Syria."
 wings: [people]
 regions: [arabia]
 periods: [period/rashidun]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
 born: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi (Siyar)" }
 died: { edtf: "633~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi (Siyar)" }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1765", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12236273
 provenance:

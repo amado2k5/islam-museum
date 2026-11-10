@@ -7,14 +7,15 @@ names:
   - { kind: full, lang: ar, value: "معقل بن سنان الأشجعي" }
 roles: [companion]
 summary:
-  ar: "بطاقة أولية لصحابي ورد اسمه في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الصحابة على الصفحة بعد، لذلك لا تُذكر هنا تواريخ ولا أحداث."
-  en: "Draft placeholder for a Companion named from an open reference description; the dictionary entry is not yet checked on the page, so no dates or events are given."
+  ar: "صحابي أشجعي فاضل؛ شهد فتح مكة، ونزل الكوفة ثم أتى المدينة، وقُتل يوم الحرة صبراً على يد مسلم بن عقبة."
+  en: "An Ashja'i Companion of virtue; he witnessed the conquest of Mecca, settled at Kufa then came to Medina, and was killed in cold blood at al-Harra by Muslim ibn Uqba."
 wings: [people]
-sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]
-died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at al-Harra, 63 AH, executed by Muslim ibn Uqba (al-Istiab p. 674); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: member_of, target: group/sahaba, sources: [source/isaba-matba-al-saada-1328, source/ibn-hajar-isaba]}
+  - { type: participated_in, target: event/conquest-of-mecca, note: "al-Istiab p. 674", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q12244250
 provenance:
