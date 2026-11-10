@@ -13,6 +13,10 @@ date:
   end: { edtf: "1672", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمد الرابع", en: "The forces of محمد الرابع" }
+    participants: [person/mehmed-iv-uthmani]
+  - label: { ar: "حامية لفوف", en: "The defenders of Lviv" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q11794886

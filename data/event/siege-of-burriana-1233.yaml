@@ -13,6 +13,10 @@ date:
   end: { edtf: "1233-07", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "قوات الرشيد بن المأمون الموحدي", en: "The forces of al-Rashid ibn al-Ma'mun al-Muwahhidi" }
+    participants: [person/al-rashid-almohad]
+  - label: { ar: "حامية بريانة", en: "The defenders of Burriana" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4889871

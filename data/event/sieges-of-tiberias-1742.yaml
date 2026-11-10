@@ -13,6 +13,10 @@ date:
   end: { edtf: "1743", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمود الأول", en: "The forces of محمود الأول" }
+    participants: [person/mahmud-i-uthmani]
+  - label: { ar: "حامية حصارات طبريا", en: "The defenders of Sieges" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q114586360

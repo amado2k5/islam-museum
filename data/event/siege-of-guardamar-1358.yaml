@@ -13,6 +13,10 @@ date:
   end: { edtf: "1358", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتضد بالله أبو الفتح أبو بكر بن المستكفي", en: "The forces of al-Mu'tadid bi'llah Abu'l-Fath Abu Bakr ibn al-Mustakfi" }
+    participants: [person/al-mutadid-billah-cairo]
+  - label: { ar: "حامية غواردامار", en: "The defenders of Guardamar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18008016

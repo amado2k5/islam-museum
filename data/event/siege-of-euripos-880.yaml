@@ -13,6 +13,10 @@ date:
   end: { edtf: "0880", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتمد على الله", en: "The forces of al-Mu'tamid ala Allah" }
+    participants: [person/al-mutamid]
+  - label: { ar: "حامية أوريبوس", en: "The defenders of Euripos" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q22244762

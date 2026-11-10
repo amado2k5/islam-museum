@@ -13,6 +13,10 @@ date:
   end: { edtf: "0805~", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات هارون الرشيد", en: "The forces of Harun al-Rashid" }
+    participants: [person/harun-al-rashid]
+  - label: { ar: "حامية باتراس", en: "The defenders of Patras" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q13842749

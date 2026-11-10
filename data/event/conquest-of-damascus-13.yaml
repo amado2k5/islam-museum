@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "قوات أبو بكر الصديق", en: "The forces of Abu Bakr al-Siddiq" }
+    participants: [person/abu-bakr]
+  - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q639827

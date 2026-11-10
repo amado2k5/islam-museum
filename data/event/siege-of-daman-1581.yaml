@@ -13,6 +13,10 @@ date:
   end: { edtf: "1581", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
+    participants: [person/murad-iii-uthmani]
+  - label: { ar: "حامية دامان", en: "The defenders of Daman" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q116687231

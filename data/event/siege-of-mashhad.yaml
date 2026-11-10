@@ -13,6 +13,10 @@ date:
   end: { edtf: "1750", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمود الأول", en: "The forces of محمود الأول" }
+    participants: [person/mahmud-i-uthmani]
+  - label: { ar: "حامية مشهد", en: "The defenders of Mashhad" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135455877

@@ -13,6 +13,10 @@ date:
   end: { edtf: "1636", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
+    participants: [person/murad-iv-uthmani]
+  - label: { ar: "حامية يريفان", en: "The defenders of Yerevan" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q133235924

@@ -13,6 +13,10 @@ date:
   end: { edtf: "1175", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستضيء بأمر الله الحسن بن المستنجد", en: "The forces of al-Mustadi bi-Amr Allah al-Hasan ibn al-Mustanjid" }
+    participants: [person/al-mustadi-billah]
+  - label: { ar: "حامية حارم", en: "The defenders of Harem" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125591002

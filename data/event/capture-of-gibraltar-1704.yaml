@@ -13,6 +13,10 @@ date:
   end: { edtf: "1704", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات أحمد الثالث", en: "The forces of Ahmed III" }
+    participants: [person/ahmed-iii-uthmani]
+  - label: { ar: "حامية جبل طارق", en: "The defenders of Gibraltar" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q694073

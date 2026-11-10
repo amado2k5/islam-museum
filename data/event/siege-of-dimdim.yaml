@@ -13,6 +13,10 @@ date:
   end: { edtf: "1610", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات أحمد الأول", en: "The forces of Ahmed I" }
+    participants: [person/ahmad-i-uthmani]
+  - label: { ar: "حامية دمدم", en: "The defenders of Dimdim" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2236880

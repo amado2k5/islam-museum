@@ -13,6 +13,10 @@ date:
   end: { edtf: "1139", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
+    participants: [person/al-muqtafi-billah]
+  - label: { ar: "حامية بعلبك", en: "The defenders of Baalbek" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q113554889

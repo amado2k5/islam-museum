@@ -13,6 +13,10 @@ date:
   end: { edtf: "0713", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الوليد بن عبد الملك", en: "The forces of al-Walid ibn Abd al-Malik" }
+    participants: [person/al-walid-ibn-abd-al-malik]
+  - label: { ar: "حامية أوريولا", en: "The defenders of Orihuela" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q133799915

@@ -13,6 +13,10 @@ date:
   end: { edtf: "0846", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الواثق بالله", en: "The forces of al-Wathiq" }
+    participants: [person/al-wathiq]
+  - label: { ar: "حامية لنتيني", en: "The defenders of Lentini" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q128580329

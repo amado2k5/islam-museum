@@ -13,6 +13,10 @@ date:
   end: { edtf: "1541", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
+    participants: [person/sulayman-al-qanuni]
+  - label: { ar: "حامية بودا", en: "The defenders of Pest" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1233373

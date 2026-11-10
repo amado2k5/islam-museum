@@ -13,6 +13,10 @@ date:
   end: { edtf: "0698", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات عبد الملك بن مروان", en: "The forces of Abd al-Malik ibn Marwan" }
+    participants: [person/abd-al-malik-ibn-marwan]
+  - label: { ar: "حامية قرطاج", en: "The defenders of Carthage" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q1478970

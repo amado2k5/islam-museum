@@ -13,6 +13,10 @@ date:
   end: { edtf: "2006-09", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-maccido, sources: [source/wikidata] }
+sides:
+  - label: { ar: "قوات محمد مجيدو", en: "The forces of Muhammadu Maccido" }
+    participants: [person/muhammadu-maccido]
+  - label: { ar: "حامية موسى قلعة", en: "The defenders of Musa Qala" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7510253

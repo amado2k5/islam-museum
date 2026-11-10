@@ -13,6 +13,10 @@ date:
   end: { edtf: "1949", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "قوات صديق أبو بكر الثالث", en: "The forces of Siddiq Abubakar III" }
+    participants: [person/siddiq-abubakar-iii]
+  - label: { ar: "حامية سوراكارتا", en: "The defenders of Surakarta" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q19637859

@@ -13,6 +13,10 @@ date:
   end: { edtf: "0932", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+sides:
+  - label: { ar: "قوات عبد الرحمن الناصر لدين الله الأموي", en: "The forces of Abd al-Rahman al-Nasir li-Din Allah al-Umawi" }
+    participants: [person/abd-al-rahman-iii-al-nasir]
+  - label: { ar: "حامية مدريد", en: "The defenders of Madrid" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130638918

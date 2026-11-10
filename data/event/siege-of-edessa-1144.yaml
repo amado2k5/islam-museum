@@ -13,6 +13,10 @@ date:
   end: { edtf: "1144", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
+    participants: [person/al-muqtafi-billah]
+  - label: { ar: "حامية الرها", en: "The defenders of Edessa" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2083368

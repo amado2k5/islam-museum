@@ -13,6 +13,10 @@ date:
   end: { edtf: "1645", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات إبراهيم الأول", en: "The forces of إبراهيم الأول" }
+    participants: [person/ibrahim-i-uthmani]
+  - label: { ar: "حامية ثودورو", en: "The defenders of Thodorou" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131632438

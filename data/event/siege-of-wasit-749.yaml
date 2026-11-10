@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات مروان بن محمد بن مروان", en: "The forces of Marwan ibn Muhammad ibn Marwan" }
+    participants: [person/marwan-ibn-muhammad]
+  - label: { ar: "حامية واسط", en: "The defenders of Wasit" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q16931475

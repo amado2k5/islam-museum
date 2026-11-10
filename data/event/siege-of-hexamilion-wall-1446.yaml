@@ -13,6 +13,10 @@ date:
   end: { edtf: "1446", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستكفي بالله الثاني سليمان بن المتوكل", en: "The forces of al-Mustakfi bi'llah II Sulayman ibn al-Mutawakkil" }
+    participants: [person/al-mustakfi-ii-cairo]
+  - label: { ar: "حامية سور هكساميليون", en: "The defenders of the Hexamilion Wall" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135524918

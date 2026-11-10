@@ -13,6 +13,10 @@ date:
   end: { edtf: "1423", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتضد بالله داود بن المتوكل", en: "The forces of al-Mu'tadid bi-llah Dawud ibn al-Mutawakkil" }
+    participants: [person/al-mutadid-billah-ii-cairo]
+  - label: { ar: "حامية مخا", en: "The defenders of Mukha" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q112871976

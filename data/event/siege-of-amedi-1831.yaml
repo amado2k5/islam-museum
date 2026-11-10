@@ -13,6 +13,10 @@ date:
   end: { edtf: "1831", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمود الثاني", en: "The forces of محمود الثاني" }
+    participants: [person/mahmud-ii-uthmani]
+  - label: { ar: "حامية العمادية", en: "The defenders of Amedi" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q136647302

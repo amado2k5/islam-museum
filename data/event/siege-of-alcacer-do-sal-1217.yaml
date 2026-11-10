@@ -13,6 +13,10 @@ date:
   end: { edtf: "1217-10-18", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustansir-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "قوات المستنصر يوسف الموحدي", en: "The forces of al-Mustansir Yusuf al-Muwahhidi" }
+    participants: [person/al-mustansir-yusuf-almohad]
+  - label: { ar: "حامية القصر", en: "The defenders of Alcácer do Sal" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q65173868

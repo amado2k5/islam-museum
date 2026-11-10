@@ -13,6 +13,10 @@ date:
   end: { edtf: "1646", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات إبراهيم الأول", en: "The forces of إبراهيم الأول" }
+    participants: [person/ibrahim-i-uthmani]
+  - label: { ar: "حامية ريثمنو", en: "The defenders of Rethymno" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118929980

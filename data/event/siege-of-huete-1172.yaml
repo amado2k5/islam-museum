@@ -13,6 +13,10 @@ date:
   end: { edtf: "1172", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
+    participants: [person/abu-yaqub-yusuf-almohad]
+  - label: { ar: "حامية ويت", en: "The defenders of Huete" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q17606690

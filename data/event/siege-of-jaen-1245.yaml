@@ -13,6 +13,10 @@ date:
   end: { edtf: "1246", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "قوات السعيد المعتضد الموحدي", en: "The forces of al-Said al-Mu'tadid, Almohad caliph" }
+    participants: [person/said-al-mutadid-almohad]
+  - label: { ar: "حامية جيان", en: "The defenders of Jaén" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q5708040

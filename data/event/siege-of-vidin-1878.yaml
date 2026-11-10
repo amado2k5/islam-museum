@@ -13,6 +13,10 @@ date:
   end: { edtf: "1878", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات عبد الحميد الثاني", en: "The forces of Abd al-Hamid II" }
+    participants: [person/abd-al-hamid-ii-uthmani]
+  - label: { ar: "حامية فيدين", en: "The defenders of Vidin" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q12289079

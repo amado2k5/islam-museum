@@ -13,6 +13,10 @@ date:
   end: { edtf: "1067", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات القائم بأمر الله عبد الله بن القادر", en: "The forces of al-Qa'im bi-Amr Allah Abd Allah ibn al-Qadir" }
+    participants: [person/al-qaim-billah]
+  - label: { ar: "حامية قيصرية", en: "The defenders of Caesarea" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2888373

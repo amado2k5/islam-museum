@@ -13,6 +13,10 @@ date:
   end: { edtf: "1225", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-adil-abdallah-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "قوات العادل عبد الله الموحدي", en: "The forces of al-Adil Abdallah al-Muwahhidi" }
+    participants: [person/al-adil-abdallah-almohad]
+  - label: { ar: "حامية بنشقلة", en: "The defenders of Peniscola" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18005561

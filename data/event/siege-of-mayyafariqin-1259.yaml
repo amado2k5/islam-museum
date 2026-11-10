@@ -13,6 +13,10 @@ date:
   end: { edtf: "1260", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "قوات المرتضى عمر الموحدي", en: "The forces of al-Murtada Umar al-Muwahhidi" }
+    participants: [person/al-murtada-umar-almohad]
+  - label: { ar: "حامية ميافارقين", en: "The defenders of Mayyāfāriqīn" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125188437
