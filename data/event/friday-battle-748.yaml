@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+    participants: [polity/umayyad-caliphate]
   - label: { en: "Abbasids", ar: "بنو العباس" }
+    participants: [group/banu-abbas]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q110271591

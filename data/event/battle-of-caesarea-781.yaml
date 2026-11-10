@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+    participants: [polity/abbasid-caliphate]
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140157629

@@ -16,7 +16,9 @@ relations:
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sides:
   - label: { en: "Almohad Caliphate", ar: "الدولة الموحدية" }
+    participants: [polity/almohad-caliphate]
   - label: { en: "Riyah", ar: "رياح" }
+    participants: [group/riyah-arabs]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q30753691

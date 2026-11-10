@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+    participants: [polity/safavid-iran]
   - label: { en: "Georgians", ar: "جورجيون" }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:

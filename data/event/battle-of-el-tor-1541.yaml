@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
   - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:

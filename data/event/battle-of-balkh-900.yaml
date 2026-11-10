@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Saffarid dynasty", ar: "الدولة الصفارية" }
+    participants: [polity/saffarid-dynasty]
   - label: { en: "Samanid dynasty", ar: "السامانيون" }
+    participants: [polity/samanid-dynasty]
 sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q4087412

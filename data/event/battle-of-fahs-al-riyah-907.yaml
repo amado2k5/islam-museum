@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Aghlabids", ar: "الدولة الأغلبية" }
+    participants: [polity/aghlabid-emirate]
   - label: { en: "Fatimids", ar: "السلالة الفاطمية" }
+    participants: [group/al-fatimiyun]
 sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q136469243

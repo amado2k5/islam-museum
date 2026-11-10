@@ -16,7 +16,9 @@ relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Armenia", ar: "أرمينيا" }
+    participants: [place/armenia]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q762732

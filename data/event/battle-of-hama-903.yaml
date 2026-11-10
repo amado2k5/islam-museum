@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+    participants: [polity/abbasid-caliphate]
   - label: { en: "Qarmatians", ar: "القرامطة" }
 sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:

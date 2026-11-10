@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sides:
   - label: { en: "Arabs", ar: "عرب" }
+    participants: [group/arabs]
   - label: { en: "Rashidun Caliphate", ar: "الخلافة الراشدة" }
+    participants: [polity/rashidun-caliphate]
 sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q124958496

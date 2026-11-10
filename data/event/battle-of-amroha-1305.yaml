@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+    participants: [polity/mongol-empire]
   - label: { en: "Delhi Sultanate", ar: "سلطنة دلهي" }
+    participants: [polity/delhi-sultanate]
 sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q4870295

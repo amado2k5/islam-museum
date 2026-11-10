@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Arabs", ar: "عرب" }
+    participants: [group/arabs]
   - label: { en: "Muladi", ar: "مولدون" }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
