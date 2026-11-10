@@ -15,6 +15,11 @@ relations:
   - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "حملة شارل الخامس", en: "Charles V's expedition" }
+    participants: [person/khayr-al-din-barbarossa]
+    commanders: [person/charles-v]
+  - label: { ar: "حامية تونس العثمانية", en: "The Ottoman garrison of Tunis" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

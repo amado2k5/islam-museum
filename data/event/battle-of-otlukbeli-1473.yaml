@@ -13,6 +13,11 @@ date:
   end: { edtf: "1473", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العثماني بقيادة محمد الفاتح", en: "The Ottoman army under Mehmed II" }
+    participants: [person/mehmed-ii]
+    commanders: [person/mehmed-ii]
+  - label: { ar: "الدولة الآق قويونلو بقيادة أوزون حسن", en: "The Aq Qoyunlu under Uzun Hasan" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2007212

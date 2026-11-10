@@ -13,6 +13,11 @@ date:
 relations:
   - { type: had_participant, target: person/murad-ii-uthmani, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العثماني بقيادة مراد الثاني", en: "The Ottoman army under Murad II" }
+    commanders: [person/murad-ii-uthmani]
+  - label: { ar: "الحملة الصليبية بقيادة فلاديسلاف", en: "The Crusade under Wladyslaw III" }
+    participants: [person/hunyadi-janos]
 sources: [source/dawlat-uthmaniyya-salabi]
 aliases: [event/battle-of-varna-1444]
 provenance:
