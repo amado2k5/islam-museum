@@ -1,0 +1,11 @@
+---
+// The Companions Browser's page of the women Companions.
+import CompanionFacetPage from "../../../components/CompanionFacetPage.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { companions, collatedBy } from "../../../lib/companions";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const C = ui(lang).companions;
+---
+<CompanionFacetPage lang={lang} title={C.women_title} note={C.women_note} path={`/${lang}/companions/women/`} ids={[...companions.women].sort(collatedBy(lang))} />

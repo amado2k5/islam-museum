@@ -10,6 +10,7 @@ import { buildRelated } from "./derive.js";
 import { wingCounts } from "./wings.js";
 import { primaryYear, recordOfNode, SECTION_IDS, sectionsOf, taxonomy as modernTaxonomy, yearsOf, WINDOW_START_YEAR } from "./modern/sections.js";
 import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
+import { companionIndex, decadeKey } from "./companions.js";
 import { existsSync, readdirSync } from "node:fs";
 
 const OUT = p("site", "public", "api", "v1");
@@ -197,7 +198,35 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
     });
     out[spec.file] = { generated: c.generated, feature: spec.feature, items };
   }
+  out["companions.json"] = { generated: c.generated, feature: "companions-browser", items: companionRows(c, edgesFrom) };
   return out;
+}
+
+const COMPANION_FIELDS = ["gender", "roles", "born", "died", "kunya", "nisba"];
+
+/** The Companions Browser's rows: each Companion record with its facets (docs/plan/29-companions-browser.md). */
+function companionRows(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>): Record<string, unknown>[] {
+  const idx = companionIndex(c.nodes, c.edges);
+  const byId = new Map(c.nodes.map((n) => [n.id, n]));
+  const ten = new Set(idx.ten);
+  const groupsOf = new Map<string, string[]>();
+  for (const m of [idx.circles, idx.clans]) for (const [g, ids] of m) for (const id of ids) groupsOf.set(id, [...(groupsOf.get(id) ?? []), g]);
+  const eventsOf = new Map<string, string[]>();
+  for (const [ev, xs] of idx.events) for (const x of xs) eventsOf.set(x.id, [...(eventsOf.get(x.id) ?? []), ev]);
+  return [...idx.ids].sort().map((id) => {
+    const n = byId.get(id)!;
+    const picked = Object.fromEntries(COMPANION_FIELDS.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+    const death = idx.death.get(id);
+    return {
+      ...compact(n), ...picked,
+      ten: ten.has(id),
+      groups: (groupsOf.get(id) ?? []).sort(),
+      events: (eventsOf.get(id) ?? []).sort(),
+      ...(death ? { death_ah: death.year, death_ah_derived: death.derived, death_decade: decadeKey(death.year) } : {}),
+      connections: edgesFrom.get(id) ?? [],
+      prose: Object.keys(n.prose ?? {}),
+    };
+  });
 }
 
 export function decisionsApiData() {

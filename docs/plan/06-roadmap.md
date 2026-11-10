@@ -177,6 +177,7 @@ The front doors over the one graph, with their status, what each has and what it
 | Job Browser | live, 19 jobs | the 184-job taxonomy, occupations on every person, `jobs.json` |
 | Inventions Browser | live, 58 inventions | waves of 100, chains and maps |
 | Modern Islam Browser | Phase 1 done | pilot and first deploy, then waves (plan 26 §6) |
+| Companions Browser | live pages, 606 Companions (plan 29) | sourced enrichment from the Companion dictionaries, batches of 25 |
 | Education | E1 live | E2 to E5 on approval |
 
 ## Risks and mitigations

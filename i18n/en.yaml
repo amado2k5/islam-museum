@@ -1557,6 +1557,10 @@ explore:
       title: 'Modern Islam Browser'
       desc: 'The last fifty years of Islam and Muslims: websites, music, films, conferences, figures, organisations, sport, awards, and what comes next.'
       menu: 'Browse the last fifty years'
+    companions:
+      title: 'Companions Browser'
+      desc: 'The Companions of the Prophet as a web of people: the Ten, the Muhajirun and the Ansar, the Prophet''s household, the women Companions, their clans, the events they stood in, and when they died.'
+      menu: 'Browse the Companions'
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -3137,6 +3141,40 @@ khutab:
     nikah: "Marriage sermon"
     farewell: "Farewell sermon"
     other: "Sermon"
+companions:
+  title: 'Companions Browser'
+  lede: 'The generation that met the Prophet believing in him: who they were kin to, which circle they belonged to, which events they took part in, and when they died. Every name opens the museum''s record.'
+  status: 'Companions in this build: {n}, of whom {women} are women and {articles} have an article. Counts are computed from the records at build time.'
+  ten_title: 'The Ten promised Paradise'
+  ten_note: 'The ten Companions named in the trail of the same name; the doctrine and its sources are on the concept page.'
+  ten_trail: 'Walk the trail'
+  ten_concept: 'About the Ten'
+  circles_title: 'Circles'
+  circles_note: 'The emigrants from Mecca, the helpers of Medina, the Prophet''s household and his wives, as recorded on each Companion''s record.'
+  women_title: 'The women Companions'
+  women_note: 'Every woman Companion recorded in the museum.'
+  clans_title: 'Clans and tribes'
+  clans_note: 'The clans and tribes recorded for two or more Companions, largest first.'
+  events_title: 'Events'
+  events_note: 'The events two or more Companions are recorded as taking part in, in date order.'
+  decades_title: 'Deaths by Hijri decade'
+  decades_note: 'When the Companions died, by decade of the Hijri calendar. A year marked † is converted from the Gregorian date on the record.'
+  decade_bh: 'Before the Hijra'
+  decade_label: '{a}–{b} AH'
+  derived_mark: '† converted from the Gregorian date'
+  az_title: 'A to Z'
+  az_note: 'Every Companion in the alphabetical order of the name in this language.'
+  filter_label: 'Filter by name'
+  filter_none: 'No Companion matches this filter.'
+  count: '{n} Companions'
+  group_note: 'Companions recorded as members of this group.'
+  event_note: 'Companions recorded as taking part in this event.'
+  decade_note: 'Companions who died in this Hijri decade, in date order.'
+  record_link: 'Open the record'
+  died: 'd. {y} AH'
+  died_bh: 'd. {y} BH'
+  back: 'All Companions'
+  empty: 'No Companion is recorded here yet.'
 jobs:
   title: "Job Browser"
   lede: "What people did for a living in Islamic history, from the judge and the scribe to the physician, the builder and the weaver: each job with the people who held it and the places where it was done."
