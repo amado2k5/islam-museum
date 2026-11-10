@@ -15,6 +15,8 @@ relations:
   - { type: occurred_at, target: place/jazira, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-ashraf, role: "طرف", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "طرف", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-zahir-billah }
+  - { type: during_reign, target: person/al-mustansir-billah }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

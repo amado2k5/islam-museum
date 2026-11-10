@@ -23,6 +23,7 @@ map:
   sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/amid }
+- { type: during_reign, target: person/al-mustansir-billah }
 sides:
   - label: { ar: "سلاجقة الروم بقيادة كيقباد", en: "The Seljuks of Rum under Kayqubad" }
   - label: { ar: "الأيوبيون بقيادة الكامل", en: "The Ayyubids under al-Kamil" }

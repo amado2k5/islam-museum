@@ -28,6 +28,8 @@ map:
   sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/tustar }
+- { type: during_reign, target: person/al-zahir-billah }
+- { type: during_reign, target: person/al-nasir-billah }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137125301

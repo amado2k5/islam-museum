@@ -23,6 +23,7 @@ map:
   sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/amid }
+- { type: during_reign, target: person/al-muti-billah }
 sides:
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
     participants: [place/byzantine-empire]

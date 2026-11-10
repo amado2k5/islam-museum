@@ -23,6 +23,7 @@ map:
   sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: occurred_at, target: place/akhaltsikhe }
+- { type: during_reign, target: person/abd-al-majid-i-uthmani }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
