@@ -19,14 +19,16 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي جليل ونقيب بني سلمة." }
-died: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "0622", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Yathrib about a month before the Prophet reached it in the Hijra, hence before 1 AH (al-Isaba pp. 139-140)", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba pp. 139-140", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/first-pledge-of-aqaba, note: "al-Isaba pp. 139-140", sources: [source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني سلمة والمتكلم بالبيعة", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/samhudi-wafa-al-wafa]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/samhudi-wafa-al-wafa, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 149-152" }
 provenance:
   layer: own-research

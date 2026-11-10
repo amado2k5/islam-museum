@@ -18,15 +18,16 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد التنعيم." }
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "0625", hijri: "0004", calendar: julian, precision: year, status: tradition, derived: true, note: "Executed at Mecca after al-Raji', 4 AH (al-Isaba pp. 384-385); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "أنزل عمرو بن أمية خشبته وألقاها في جرف", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/aws }
   - { type: participated_in, target: event/incident-of-al-raji, role: "الأسير المصلوب بالتنعيم", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba pp. 384-385", sources: [source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira, source/ibn-hisham-saqqa]}
 external_ids: { wikidata: "Q4115574" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-ahmed-abdussalam]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-ahmed-abdussalam, source/ibn-hajar-isaba]
 provenance: { layer: own-research, source: "Devin; al-Raheeq al-Makhtum pp. 292–293; Assabile, bustan-el-amal ep11, ep15 (section added by Claude Code, claude-opus-5-5, run omar-abdelkafy-bustan-3)", generated_by: "Devin; Claude Code (claude-opus-5-5)" }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 292–293" }

@@ -18,14 +18,15 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد بئر معونة." }
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Bir Ma'una)" }
+died: { edtf: "0625", hijri: "0004", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Bi'r Ma'una, 4 AH, by consensus of the reports (al-Isaba p. 304); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 304", sources: [source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "رسول النبي المطعون غدراً", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 293–294" }
 provenance:
   layer: own-research
