@@ -20,3 +20,8 @@ A repo-wide audit (born/died vs event dates on every `had_participant` edge) fou
 - 2,996 event records carry `during_reign` edges (date span ∩ roster reign; `regions` disambiguate overlap eras: andalus-europe→Cordoba, egypt-nile→Fatimid/Cairo, west-africa-sahel→Sokoto); 1,109 region-less ambiguous events deferred. Commit log on main; caliph pages now show reign events.
 - **Incident + fix:** an early write-verify-less version of the wave script truncated ~650 records (`open(path,"w")` before the write check); all were restored from pre-wave HEAD and re-patched with a verify-first writer; five inline `relations: []` merges cleaned up after.
 - Remaining: `geo/polity/` extents, prose waves, the 182-edge cleanliness pass.
+
+## Geo + first prose (landed via PR 5820 + pending)
+
+- 12 schematic extent geojson under geo/polity/ (9 caliphates + 3 claims).
+- 90 draft prose stubs (30 records × ar/en/ur); remaining: full prose waves for all 160 caliphs, the 182-edge cleanliness pass, deploy.
