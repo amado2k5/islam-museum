@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1713", precision: year, status: tradition, derived: true }
   end: { edtf: "1713", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [29.483333333333, 46.833333333333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1713"
+  features:
+    - { type: point, role: event_point, label: { ar: "حادثة بندر", en: "Skirmish at Bender" }, at: [29.483333333333, 46.833333333333], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/bender }

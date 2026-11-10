@@ -14,6 +14,16 @@ date:
 sides:
   - label: { en: "July Monarchy", ar: "ملكية يوليو" }
   - label: { en: "Western Beylik", ar: "بايلك الغرب" }
+map:
+  kind: campaign
+  precision: locality
+  center: [-0.6308, 35.6971]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1831"
+  features:
+    - { type: point, role: event_point, label: { ar: "الاستيلاء على وهران ⁦(١٨٣١)⁩", en: "Capture of Oran (1831)" }, at: [-0.6308, 35.6971], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/wahran }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

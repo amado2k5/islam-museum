@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1444", precision: year, status: tradition, derived: true }
   end: { edtf: "1444", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [28.218, 36.434]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1444"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار رودس ⁦(١٤٤٤)⁩", en: "Siege of Rhodes (1444)" }, at: [28.218, 36.434], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/rhodes }

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1693-07-31", precision: year, status: tradition, derived: true }
   end: { edtf: "1693-09-17", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [20.465, 44.804]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1693"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بلغراد ⁦(١٦٩٣)⁩", en: "Siege of Belgrade" }, at: [20.465, 44.804], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: part_of, target: event/ottoman-habsburg-long-war }
   - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }

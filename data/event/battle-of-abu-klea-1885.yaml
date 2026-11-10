@@ -16,6 +16,16 @@ sides:
     participants: [polity/mahdist-sudan]
   - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }
     participants: [polity/united-kingdom-great-britain-ireland]
+map:
+  kind: battle
+  precision: locality
+  center: [32.5265, 15.6031]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1885"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أبو طليح", en: "Battle of Abu Klea" }, at: [32.5265, 15.6031], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/khartoum }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

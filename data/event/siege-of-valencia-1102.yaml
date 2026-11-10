@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1102-05-05", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.3763, 39.4699]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1101"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بلنسية ⁦(١١٠١)⁩", en: "Siege of Valencia" }, at: [-0.3763, 39.4699], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/valencia }
 sources: [source/tarikh-islam-hasan-ibrahim]

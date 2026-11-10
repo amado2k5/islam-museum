@@ -16,6 +16,16 @@ sides:
     participants: [polity/mongol-empire]
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [51.4344, 35.5975]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1220"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الري ⁦(١٢٢٠)⁩", en: "Siege of Ray (1220)" }, at: [51.4344, 35.5975], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/ray }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

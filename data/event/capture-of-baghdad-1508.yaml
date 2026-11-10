@@ -16,6 +16,16 @@ sides:
     participants: [polity/safavid-iran]
   - label: { en: "Aq Qoyunlu", ar: "آق قويونلو" }
     participants: [place/aq-qoyunlu]
+map:
+  kind: campaign
+  precision: locality
+  center: [44.4009, 33.3406]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1508"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ بغداد ⁦(١٥٠٨)⁩", en: "Capture of Baghdad (1508)" }, at: [44.4009, 33.3406], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/baghdad }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

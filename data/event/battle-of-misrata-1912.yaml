@@ -16,6 +16,16 @@ sides:
     participants: [polity/kingdom-of-italy]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
+map:
+  kind: battle
+  precision: locality
+  center: [15.09014, 32.37778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1912"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة مصراتة", en: "Battle of Misrata" }, at: [15.09014, 32.37778], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: occurred_at, target: place/misrata }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

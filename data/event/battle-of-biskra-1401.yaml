@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1401", precision: year, status: tradition, derived: true }
   end: { edtf: "1401", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [5.7333, 34.85]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1401"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بسكرة ⁦(١٤٠١)⁩", en: "Battle of Biskra (1401)" }, at: [5.7333, 34.85], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/biskra }

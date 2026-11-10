@@ -11,6 +11,16 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1801", precision: year, status: tradition, derived: true }
   end: { edtf: "1801", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [29.9158, 31.2018]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1801"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الإسكندرية ⁦(١٨٠١)⁩", en: "Siege of Alexandria" }, at: [29.9158, 31.2018], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/alexandria }

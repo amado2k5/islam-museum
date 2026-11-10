@@ -19,6 +19,16 @@ sides:
   - label: { ar: "بنو قينقاع", en: "Banu Qaynuqa" }
     participants: [group/banu-qaynuqa]
     strength: { value: 700, status: tradition, note: "سبعمائة مقاتل منهم أربعمائة دارع", sources: [source/ibn-hisham-sira] }
+map:
+  kind: siege
+  precision: locality
+  center: [39.6142, 24.4686]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0624"
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة بني قينقاع", en: "Invasion of Banu Qaynuqa" }, at: [39.6142, 24.4686], precision: locality, source: source/ibn-hisham-sira }
+  sources: [source/ibn-hisham-sira]
 relations:
 - { type: occurred_at, target: place/medina }
 sources: [source/ibn-hisham-sira]

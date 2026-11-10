@@ -14,6 +14,16 @@ date:
 sides:
   - label: { en: "Knights Hospitaller", ar: "فرسان الإسبتارية" }
   - label: { en: "Tunis vilayet", ar: "إيالة تونس" }
+map:
+  kind: campaign
+  precision: locality
+  center: [10.82617, 35.77799]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1603"
+  features:
+    - { type: point, role: event_point, label: { ar: "الهجوم على المنستير ⁦(١٦٠٣)⁩", en: "Attack on Monastir (1603)" }, at: [10.82617, 35.77799], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/monastir }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

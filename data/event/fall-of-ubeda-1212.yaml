@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1212", precision: year, status: tradition, derived: true }
   end: { edtf: "1212", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-3.3717, 38.0117]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1212"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط أبدة ⁦(١٢١٢)⁩", en: "Fall of Úbeda (1212)" }, at: [-3.3717, 38.0117], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/muhammad-al-nasir-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 - { type: occurred_at, target: place/ubeda }

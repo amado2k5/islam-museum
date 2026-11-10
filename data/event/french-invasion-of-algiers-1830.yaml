@@ -14,6 +14,16 @@ date:
 sides:
   - label: { ar: "الحملة الفرنسية", en: "The French expedition" }
   - label: { ar: "دايلك الجزائر", en: "The Deylik of Algiers" }
+map:
+  kind: campaign
+  precision: locality
+  center: [3.08746, 36.73225]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1830"
+  features:
+    - { type: point, role: event_point, label: { ar: "غزو الجزائر ⁦(١٨٣٠)⁩", en: "French invasion of Algiers" }, at: [3.08746, 36.73225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/algiers }
 sources: [source/tarikh-islam-hasan-ibrahim]

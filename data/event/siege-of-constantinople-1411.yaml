@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1411", precision: year, status: tradition, derived: true }
   end: { edtf: "1411", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [28.978, 41.008]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1411"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار القسطنطينية ⁦(١٤١١)⁩", en: "Siege of Constantinople" }, at: [28.978, 41.008], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/constantinople }

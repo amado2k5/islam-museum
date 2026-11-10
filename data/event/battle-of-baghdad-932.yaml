@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0932", precision: year, status: tradition, derived: true }
   end: { edtf: "0932", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [44.4009, 33.3406]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0932"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بغداد ⁦(٩٣٢)⁩", en: "Battle of Baghdad (932)" }, at: [44.4009, 33.3406], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

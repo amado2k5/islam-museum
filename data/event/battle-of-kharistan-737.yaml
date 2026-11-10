@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0737", precision: year, status: tradition, derived: true }
   end: { edtf: "0737", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [64.75, 35.933333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0737"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة خاريستان", en: "Battle of Kharistan" }, at: [64.75, 35.933333333333], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/maymana }

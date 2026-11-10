@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1678", precision: year, status: tradition, derived: true }
   end: { edtf: "1678", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [45.433333333333, 35.55]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1678"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة السليمانية ⁦(١٦٧٨)⁩", en: "Battle of Sulaymaniyah (1678)" }, at: [45.433333333333, 35.55], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/sulaymaniyah }

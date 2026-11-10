@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1111", precision: year, status: tradition, derived: true }
   end: { edtf: "1112", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.2, 33.266666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1111"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار صور ⁦(١١١١)⁩", en: "Siege of Tyre" }, at: [35.2, 33.266666666667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/tyre }

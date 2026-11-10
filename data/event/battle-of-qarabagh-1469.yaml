@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1469", precision: year, status: tradition, derived: true }
   end: { edtf: "1469", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [46.6805, 40.0158]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1469"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة قره باغ ⁦(١٤٦٩)⁩", en: "Battle of Qarabagh" }, at: [46.6805, 40.0158], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/karabakh }

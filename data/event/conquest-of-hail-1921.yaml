@@ -11,6 +11,16 @@ regions: [arabia]
 date:
   start: { edtf: "1921", precision: year, status: tradition, derived: true }
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [41.6833, 27.5167]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1921"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح حائل ⁦(١٩٢١)⁩", en: "Conquest of Ha'il" }, at: [41.6833, 27.5167], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/hail }
 sources: [source/tarikh-islam-hasan-ibrahim]

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1648", precision: year, status: tradition, derived: true }
   end: { edtf: "1669", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [25.1344, 35.3403]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1648"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كاندية", en: "Siege of Candia" }, at: [25.1344, 35.3403], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }

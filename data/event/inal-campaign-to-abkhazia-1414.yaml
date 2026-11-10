@@ -15,6 +15,16 @@ sides:
   - label: { en: "Circassia", ar: "شركيسيا" }
   - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
     participants: [polity/kingdom-of-georgia]
+map:
+  kind: campaign
+  precision: locality
+  center: [41.0, 43.15]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1414"
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة إينال إلى أبخازيا ⁦(١٤١٤–١٤٣٤)⁩", en: "Inal's campaign to Abkhazia (1414–1434)" }, at: [41.0, 43.15], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/abkhazia }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

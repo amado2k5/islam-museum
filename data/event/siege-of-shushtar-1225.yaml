@@ -16,6 +16,16 @@ sides:
     participants: [polity/abbasid-caliphate]
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [48.8483, 32.0497]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1225"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شوشتر ⁦(١٢٢٥)⁩", en: "Siege of Shushtar (1225)" }, at: [48.8483, 32.0497], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/tustar }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

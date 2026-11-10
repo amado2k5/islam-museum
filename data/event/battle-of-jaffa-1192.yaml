@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1192", precision: year, status: tradition, derived: true }
   end: { edtf: "1192", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.7531, 32.0522]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1192"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة يافا ⁦(١١٩٢)⁩", en: "Battle of Jaffa" }, at: [34.7531, 32.0522], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/yafa }

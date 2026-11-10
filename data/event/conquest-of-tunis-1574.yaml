@@ -14,6 +14,16 @@ date:
 sides:
   - label: { ar: "الجيش العثماني بقيادة سنان باشا", en: "The Ottoman army under Sinan Pasha" }
   - label: { ar: "الحامية الإسبانية في تونس", en: "The Spanish garrison of Tunis" }
+map:
+  kind: campaign
+  precision: locality
+  center: [10.16579, 36.81897]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1574"
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح العثماني لتونس", en: "Conquest of Tunis" }, at: [10.16579, 36.81897], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: occurred_at, target: place/tunis }
 sources: [source/dawlat-uthmaniyya-salabi]

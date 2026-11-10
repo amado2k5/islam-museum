@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1537", precision: year, status: tradition, derived: true }
   end: { edtf: "1540", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [17.0, 38.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1537"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية البندقية ⁦(١٥٣٧–١٥٤٠)⁩", en: "Third Ottoman–Venetian War" }, at: [17.0, 38.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/mediterranean-sea }

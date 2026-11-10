@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0705", precision: year, status: tradition, derived: true }
   end: { edtf: "0751", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [64.5, 39.7]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0705"
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح الإسلامي لما وراء النهر", en: "Muslim conquest of Transoxiana" }, at: [64.5, 39.7], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 relations:
 - { type: occurred_at, target: place/transoxiana }
 sources: [source/futuh-buldan-maarif-1407]

@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0970", precision: year, status: tradition, derived: true }
   end: { edtf: "0970", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8625, 31.9275]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0970"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الرملة ⁦(٩٧٠)⁩", en: "Capture of Ramla (970)" }, at: [34.8625, 31.9275], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/ramla }

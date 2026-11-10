@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1136", precision: year, status: tradition, derived: true }
   end: { edtf: "1136", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.4009, 33.3406]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1136"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بغداد ⁦(١١٣٦)⁩", en: "Siege of Baghdad" }, at: [44.4009, 33.3406], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-rashid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

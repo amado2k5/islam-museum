@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0637", precision: year, status: tradition, derived: true }
   end: { edtf: "0637", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.24, 31.78]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0637"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح القدس ⁦(٦٣٧)⁩", en: "Siege of Jerusalem (637)" }, at: [35.24, 31.78], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
 relations:
 - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 - { type: occurred_at, target: place/jerusalem }

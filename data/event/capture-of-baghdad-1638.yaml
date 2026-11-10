@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1638", precision: year, status: tradition, derived: true }
   end: { edtf: "1638", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [44.4009, 33.3406]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1638"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بغداد ⁦(١٦٣٨)⁩", en: "Capture of Baghdad" }, at: [44.4009, 33.3406], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/baghdad }

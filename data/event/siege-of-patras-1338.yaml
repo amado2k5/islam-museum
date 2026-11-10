@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1338", precision: year, status: tradition, derived: true }
   end: { edtf: "1338", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.7349, 38.2464]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1338"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار باتراس ⁦(١٣٣٨)⁩", en: "Siege of Patras (1338)" }, at: [21.7349, 38.2464], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/patras }

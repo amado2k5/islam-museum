@@ -11,6 +11,16 @@ regions: [arabia]
 date:
   start: { edtf: "0632", precision: year, status: tradition, derived: true }
   end: { edtf: "0632", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [41.6833, 27.5167]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0632"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ظفر", en: "Battle of Zafar" }, at: [41.6833, 27.5167], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
 relations:
   - { type: part_of, target: event/ridda-wars }
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
