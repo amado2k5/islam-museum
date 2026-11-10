@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1230-06-24", precision: year, status: tradition, derived: true }
   end: { edtf: "1230-09", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5708037

@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1775", precision: year, status: tradition, derived: true }
   end: { edtf: "1775", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q119442715
