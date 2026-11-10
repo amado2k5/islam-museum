@@ -6,16 +6,19 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخنيس بن حذافة السهمي، من أهل بدر وممن شهد بيعة الرضوان، توفي سنة ٦٣٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khunays ibn Hudhafa al-Sahmi, a Companion of Badr and of the Ridwan pledge, d. 632; the biographical entry is not yet checked on the page."
+  ar: "صحابي من المهاجرين الأولين إلى الحبشة، أخو عبد الله بن حذافة؛ شهد بدراً وأحداً فنالته بها جراحة مات منها بالمدينة."
+  en: "An early Companion of the emigrants to Abyssinia, brother of Abdullah ibn Hudhayfa; he witnessed Badr and Uhud, where a wound was dealt him of which he died at Medina."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-sources: [source/al-aalam]
-died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+sources: [source/al-aalam, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Medina of a wound taken at Uhud (al-Istiab p. 211); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: lived_in, target: place/badr, confidence: low, note: "Associated with Badr per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/muhajirun, note: "al-Istiab p. 211", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Istiab p. 211", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Istiab p. 211", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q1108598
 provenance:
