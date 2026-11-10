@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0727", precision: year, status: tradition, derived: true }
   end: { edtf: "0727", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [29.7195, 40.429]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0727"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نيقية ⁦(٧٢٧)⁩", en: "Siege of Nicaea" }, at: [29.7195, 40.429], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/nicea }

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1529", precision: year, status: tradition, derived: true }
   end: { edtf: "1529", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [19.5, 47.2]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1529"
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة البلقان ⁦(١٥٢٩)⁩", en: "Balkan Campaign of 1529" }, at: [19.5, 47.2], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/hungary }

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1717", precision: year, status: tradition, derived: true }
   end: { edtf: "1717", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [20.465, 44.804]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1717"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بلغراد ⁦(١٧١٧)⁩", en: "Battle of Belgrade (1717)" }, at: [20.465, 44.804], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/belgrade }

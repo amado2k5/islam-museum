@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0998", precision: year, status: tradition, derived: true }
   end: { edtf: "0998", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [68.4209, 33.5539]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0998"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة غزنة ⁦(٩٩٨)⁩", en: "Battle of Ghazni" }, at: [68.4209, 33.5539], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: occurred_at, target: place/ghazna }
 sources: [source/kamil-ibn-al-athir]

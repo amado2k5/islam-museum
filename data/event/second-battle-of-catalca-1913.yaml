@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1913", precision: year, status: tradition, derived: true }
   end: { edtf: "1913", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [28.458333333333332, 41.1425]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1913"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة تشاطلجة الثانية", en: "Second Battle of Çatalca" }, at: [28.458333333333332, 41.1425], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/atalca }

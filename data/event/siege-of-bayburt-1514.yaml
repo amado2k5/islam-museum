@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1514-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1514-10", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [40.226, 40.254638888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1514"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بايبورت ⁦(١٥١٤)⁩", en: "Siege of Bayburt (1514)" }, at: [40.226, 40.254638888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/bayburt }

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1915", precision: year, status: tradition, derived: true }
   end: { edtf: "1915", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.791666666667, 37.158333333333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1915"
+  features:
+    - { type: point, role: event_point, label: { ar: "مقاومة أورفة", en: "Urfa Resistance" }, at: [38.791666666667, 37.158333333333], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/anl-urfa }

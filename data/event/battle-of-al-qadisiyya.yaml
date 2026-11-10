@@ -14,6 +14,15 @@ summary:
 wings: [time]
 date:
   start: { hijri: "0014", precision: year, status: debated, note: "الواقدي: 14هـ؛ ابن إسحاق: 15هـ؛ بعض أهل الكوفة: 16هـ", sources: [source/tabari-tarikh-abu-al-fadl] }
+map:
+  kind: battle
+  precision: locality
+  center: [44.433, 31.583]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة القادسية", en: "The battle of al-Qadisiyya" }, at: [44.433, 31.583], precision: locality, source: source/tabari-tarikh-abu-al-fadl }
+  sources: [source/tabari-tarikh-abu-al-fadl]
 relations:
 - { type: occurred_at, target: place/al-qadisiyya }
 external_ids: { wikidata: "Q836844" }

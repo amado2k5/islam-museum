@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1550", precision: year, status: tradition, derived: true }
   end: { edtf: "1550", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [11.0622, 35.5047]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1550"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ المهدية ⁦(١٥٥٠)⁩", en: "Capture of Mahdia" }, at: [11.0622, 35.5047], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/al-mahdiyya }

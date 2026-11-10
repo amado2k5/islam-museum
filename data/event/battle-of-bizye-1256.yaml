@@ -15,6 +15,16 @@ sides:
   - label: { en: "Cumans", ar: "قمانيون" }
     participants: [group/qibjaq]
   - label: { en: "Empire of Nicaea", ar: "إمبراطورية نيقية" }
+map:
+  kind: battle
+  precision: locality
+  center: [27.765277777778, 41.573611111111]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1256"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بيزيه ⁦(١٢٥٦)⁩", en: "Battle of Bizye (1256)" }, at: [27.765277777778, 41.573611111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/vize }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

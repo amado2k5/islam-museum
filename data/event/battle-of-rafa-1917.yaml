@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1917", precision: year, status: tradition, derived: true }
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.0, 29.5]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1917"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة رفح ⁦(١٩١٧)⁩", en: "Battle of Rafa" }, at: [34.0, 29.5], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/sinai-peninsula }

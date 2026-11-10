@@ -10,6 +10,16 @@ periods: [period/abbasid-early]
 regions: [persia-central-asia]
 date:
   start: { edtf: "0811~", hijri: "0195", calendar: julian, precision: year, status: tradition, derived: true, note: "195؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 475}." }
+map:
+  kind: battle
+  precision: locality
+  center: [51.4344, 35.5975]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0811"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة طاهر بن الحسين مع علي بن عيسى", en: "Clash of Tahir ibn al-Husayn with Ali ibn Isa" }, at: [51.4344, 35.5975], precision: locality, source: source/tarikh-khulafa-minhaj-1434 }
+  sources: [source/tarikh-khulafa-minhaj-1434]
 relations:
   - { type: had_participant, target: person/tahir-ibn-al-husayn, role: "الظافر", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/ali-ibn-isa-ibn-mahan, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }

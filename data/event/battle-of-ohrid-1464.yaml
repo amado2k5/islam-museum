@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1464", precision: year, status: tradition, derived: true }
   end: { edtf: "1464", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [20.8019, 41.1169]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1464"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أوخريد", en: "Battle of Ohrid" }, at: [20.8019, 41.1169], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/ohrid }

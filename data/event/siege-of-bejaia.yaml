@@ -16,6 +16,16 @@ sides:
     participants: [person/uruj-barbarossa]
   - label: { en: "Hispanic Monarchy", ar: "الملكية الإسبانية ⁦(كيان سياسي)⁩" }
     participants: [polity/hispanic-monarchy]
+map:
+  kind: siege
+  precision: locality
+  center: [5.08433, 36.75587]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1500"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بجاية", en: "Siege of Béjaïa" }, at: [5.08433, 36.75587], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/bejaia }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

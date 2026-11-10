@@ -16,6 +16,16 @@ sides:
     participants: [polity/qara-qoyunlu]
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
     participants: [polity/timurid-empire]
+map:
+  kind: battle
+  precision: locality
+  center: [40.501666666667, 38.886111111111]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1387"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة جاباقجور ⁦(١٣٨٧)⁩", en: "Battle of Chapakchur (1387)" }, at: [40.501666666667, 38.886111111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/bing-l }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

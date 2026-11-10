@@ -15,6 +15,16 @@ sides:
   - label: { en: "Arabs", ar: "عرب" }
     participants: [group/arabs]
   - label: { en: "Neo-Babylonian Empire", ar: "الإمبراطورية البابلية الحديثة" }
+map:
+  kind: battle
+  precision: locality
+  center: [40.8597, 23.5036]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0560"
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم ذات عرق", en: "Battle of Dhat Irq" }, at: [40.8597, 23.5036], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/hijaz }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

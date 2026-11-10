@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1555", precision: year, status: tradition, derived: true }
   end: { edtf: "1555", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [5.08433, 36.75587]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1555"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ بجاية", en: "Capture of Béjaïa" }, at: [5.08433, 36.75587], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/bejaia }

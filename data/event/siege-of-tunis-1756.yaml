@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1756", precision: year, status: tradition, derived: true }
   end: { edtf: "1756", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [10.16579, 36.81897]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1756"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تونس ⁦(١٧٥٦)⁩", en: "Siege of Tunis (1756)" }, at: [10.16579, 36.81897], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/uthman-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/tunis }

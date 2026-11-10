@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1239", precision: year, status: tradition, derived: true }
   end: { edtf: "1239", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.5192, 38.9887]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1239"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شاطبة ⁦(١٢٣٩)⁩", en: "Siege of Xàtiva (1239)" }, at: [-0.5192, 38.9887], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
 - { type: occurred_at, target: place/shatiba }

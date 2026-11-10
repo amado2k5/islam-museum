@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1482", precision: year, status: tradition, derived: true }
   end: { edtf: "1482", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-4.15, 37.166666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1482"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار لوخة ⁦(١٤٨٢)⁩", en: "Siege of Loja (1482)" }, at: [-4.15, 37.166666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/loja }

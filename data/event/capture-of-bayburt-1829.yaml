@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1829", precision: year, status: tradition, derived: true }
   end: { edtf: "1829", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.226, 40.254638888889]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1829"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بابيرت ⁦(١٨٢٩)⁩", en: "Capture of Bayburt (1829)" }, at: [40.226, 40.254638888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/bayburt }

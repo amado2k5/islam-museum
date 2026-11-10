@@ -11,6 +11,16 @@ regions: [south-asia]
 date:
   start: { edtf: "1752", precision: year, status: tradition, derived: true }
   end: { edtf: "1752", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [74.3507, 31.558]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1752"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة لاهور ⁦(١٧٥٢)⁩", en: "Battle of Lahore" }, at: [74.3507, 31.558], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/lahore }

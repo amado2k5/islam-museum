@@ -14,6 +14,15 @@ summary:
 wings: [time]
 date:
   start: { hijri: "0132", precision: year, status: historical, note: "فهرس الجزء السابع ص666", sources: [source/tabari-tarikh-abu-al-fadl] }
+map:
+  kind: battle
+  precision: locality
+  center: [43.3436, 35.9911]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة الزاب", en: "The battle of al-Zab" }, at: [43.3436, 35.9911], precision: locality, source: source/tabari-tarikh-abu-al-fadl }
+  sources: [source/tabari-tarikh-abu-al-fadl]
 relations:
 - { type: occurred_at, target: place/great-zab }
 external_ids:

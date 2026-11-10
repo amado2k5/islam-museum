@@ -11,6 +11,16 @@ regions: [arabia]
 date:
   start: { edtf: "1814", precision: year, status: tradition, derived: true }
   end: { edtf: "1814", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [40.42, 21.27]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1814"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الطائف ⁦(١٨١٤)⁩", en: "Siege of Taif (1814)" }, at: [40.42, 21.27], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/taif }
 sources: [source/tarikh-islam-hasan-ibrahim]

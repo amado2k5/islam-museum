@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1775", precision: year, status: tradition, derived: true }
   end: { edtf: "1775", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [34.99916666666667, 32.81916666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1775"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار حيفا ⁦(١٧٧٥)⁩", en: "Siege of Haifa (1775)" }, at: [34.99916666666667, 32.81916666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/haifa }

@@ -14,6 +14,16 @@ date:
 sides:
   - label: { ar: "إمارة الكويت", en: "The Emirate of Kuwait" }
   - label: { ar: "سلطنة نجد", en: "The Sultanate of Najd" }
+map:
+  kind: campaign
+  precision: locality
+  center: [47.6, 29.166667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1919"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الكويتية النجدية", en: "Kuwait–Najd Border War" }, at: [47.6, 29.166667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/kuwait }
 sources: [source/tarikh-islam-hasan-ibrahim]

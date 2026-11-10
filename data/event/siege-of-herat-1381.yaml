@@ -16,6 +16,16 @@ sides:
     participants: [polity/kartid-dynasty]
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
     participants: [polity/timurid-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [62.203056, 34.341944]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1381"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار هراة ⁦(١٣٨١)⁩", en: "Siege of Herat (1381)" }, at: [62.203056, 34.341944], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/harat }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

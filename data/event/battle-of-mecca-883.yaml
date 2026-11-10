@@ -11,6 +11,16 @@ regions: [arabia]
 date:
   start: { edtf: "0883-06", precision: year, status: tradition, derived: true }
   end: { edtf: "0883-06", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.8262, 21.4225]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0883"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة مكة ⁦(٨٨٣)⁩", en: "Battle of Mecca (883)" }, at: [39.8262, 21.4225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/mecca }

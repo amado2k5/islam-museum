@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1146", precision: year, status: tradition, derived: true }
   end: { edtf: "1146", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-5.003333333333333, 34.04333333333334]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1146"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار فاس ⁦(١١٤٦)⁩", en: "Siege of Fez (1146)" }, at: [-5.003333333333333, 34.04333333333334], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: occurred_at, target: place/fes }

@@ -16,6 +16,16 @@ sides:
     participants: [place/byzantine-empire]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [22.9356, 40.6403]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1383"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سلانيك ⁦(١٣٨٣–١٣٨٧)⁩", en: "Siege of Thessalonica (1383–87)" }, at: [22.9356, 40.6403], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: occurred_at, target: place/salonik }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

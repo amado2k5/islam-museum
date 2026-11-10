@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1680", precision: year, status: tradition, derived: true }
   end: { edtf: "1684", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-5.834, 35.7595]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1680"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحصار الكبير لطنجة ⁦(١٦٨٠–١٦٨٤)⁩", en: "Great Siege of Tangier (1680–84)" }, at: [-5.834, 35.7595], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/tanja }

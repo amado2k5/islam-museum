@@ -8,6 +8,15 @@ summary:
 wings: [time]
 date:
   start: { hijri: "0093", precision: year, status: historical, note: "فهرس الجزء السادس ص632", sources: [source/tabari-tarikh-abu-al-fadl] }
+map:
+  kind: campaign
+  precision: locality
+  center: [66.9644, 39.6546]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزو قتيبة سمرقند وفتحها", en: "Qutayba's Expedition and Conquest of Samarkand" }, at: [66.9644, 39.6546], precision: locality, source: source/tabari-tarikh-abu-al-fadl }
+  sources: [source/tabari-tarikh-abu-al-fadl]
 relations:
 - { type: occurred_at, target: place/samarqand }
 external_ids: { wikidata: "Q133809036" }

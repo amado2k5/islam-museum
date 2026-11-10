@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0722", precision: year, status: tradition, derived: true }
   end: { edtf: "0722", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [48.28888888888889, 42.05777777777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0722"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة باب الأبواب ⁦(٧٢٢)⁩", en: "Battle of Derbent (722)" }, at: [48.28888888888889, 42.05777777777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/darband }

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1539", precision: year, status: tradition, derived: true }
   end: { edtf: "1539", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [18.5375, 42.453055555556]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1539"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كاستلنوفو", en: "Siege of Castelnuovo" }, at: [18.5375, 42.453055555556], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/herceg-novi }
