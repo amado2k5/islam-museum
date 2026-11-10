@@ -17,7 +17,7 @@ relations:
   - { type: had_participant, target: person/al-ashath-ibn-qays, role: "رأس الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/kinda, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/muhammad-ibn-shihab-al-zuhri, role: "راوي الخبر عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/muhammad-ibn-shihab-al-zuhri, role: "راوي الخبر عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 232-233", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
 sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 232-233" }

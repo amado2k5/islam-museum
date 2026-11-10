@@ -15,7 +15,7 @@ date:
   start: { edtf: "1036~", hijri: "0427", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٢٧ {cite:muntazam-ibn-al-jawzi j.8 p.430}" }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
-  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة الآمر بالحظر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/al-qadir-billah, role: "الخليفة الآمر بالحظر", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

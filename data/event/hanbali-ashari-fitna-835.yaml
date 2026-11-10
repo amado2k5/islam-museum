@@ -11,7 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1431/1432", hijri: "0835", calendar: julian, precision: year, status: tradition, derived: true, note: "835؛ التحويل مشتق {cite:shadharat-dhahab p. 222}." }
 relations:
-  - { type: had_participant, target: person/ibn-taymiyya, role: "موضوع النزاع", sources: [source/shadharat-dhahab] }
+  - { type: related_to, target: person/ibn-taymiyya, role: "موضوع النزاع", sources: [source/shadharat-dhahab] }
   - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
