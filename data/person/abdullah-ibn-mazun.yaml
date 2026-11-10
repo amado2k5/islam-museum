@@ -24,6 +24,8 @@ relations:
   - { type: member_of, target: group/banu-jumah, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخيه عثمان", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: member_of, target: group/muhajirun, note: "al-Isaba p. 948", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 948", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: "الرحيق المختوم ص74–77 نقلاً عن ابن هشام 1/245–262 ورحمة للعالمين 1/50 ومختصر سيرة الرسول للنجدي ص88 وفقه السيرة ص76 وصحيح البخاري 1/530"
@@ -31,5 +33,5 @@ provenance:
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-7b"
 external_ids: { wikidata: "Q6814215" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 76" }

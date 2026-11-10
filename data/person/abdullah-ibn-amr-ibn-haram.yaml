@@ -26,7 +26,7 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد أحد ونقيب من الأنصار." }
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud — the father of Jabir whose body was found untouched when the graves were moved forty-six years later (al-Isaba p. 921); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
@@ -35,8 +35,10 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
   - { type: sibling_of, target: person/hind-bint-amr-ibn-haram, sources: [source/rijal-hawl-al-rasul-muqattam-1994], note: "أخت عبد الله بن عمرو بن حرام، وزوجها عمرو بن الجموح صهره" }
   - { type: related_to, target: person/amr-ibn-al-jamuh, sources: [source/rijal-hawl-al-rasul-muqattam-1994], note: "صهره: زوج أخته هند بنت عمرو؛ دُفنا معاً في قبر واحد بأحد" }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 921", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 921", sources: [source/ibn-hajar-isaba] }
 external_ids: { wikidata: "Q12223557" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/rijal-hawl-al-rasul-muqattam-1994]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/rijal-hawl-al-rasul-muqattam-1994, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 148, 152" }
 provenance:
   layer: own-research
