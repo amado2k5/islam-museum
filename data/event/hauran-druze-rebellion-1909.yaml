@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عبد الحميد الثاني", en: "The authorities of Abd al-Hamid II" }
+    participants: [person/abd-al-hamid-ii-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q5682791

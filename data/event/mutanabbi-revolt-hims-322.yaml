@@ -18,6 +18,10 @@ relations:
   - { type: occurred_at, target: place/homs, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-mutanabbi, role: "قائد الفتنة فالسجين", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمد القاهر بالله", en: "The authorities of Muhammad al-Qahir bi-llah" }
+    participants: [person/al-qahir-billah]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

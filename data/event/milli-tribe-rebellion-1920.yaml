@@ -13,6 +13,10 @@ date:
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The authorities of السلطان وحيد الدين ⁦(محمد السادس)⁩" }
+    participants: [person/muhammad-vi-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6079772

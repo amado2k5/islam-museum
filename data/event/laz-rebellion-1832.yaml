@@ -13,6 +13,10 @@ date:
   end: { edtf: "1834", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمود الثاني", en: "The authorities of محمود الثاني" }
+    participants: [person/mahmud-ii-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q65589564

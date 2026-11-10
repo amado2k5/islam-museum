@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 - { type: during_reign, target: person/abd-al-wahid-ii-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المرتضى عمر الموحدي", en: "The authorities of al-Murtada Umar al-Muwahhidi" }
+    participants: [person/al-murtada-umar-almohad]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q47452670

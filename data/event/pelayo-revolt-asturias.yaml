@@ -18,5 +18,9 @@ provenance:
   run: lib-nafh-tib-batch-59
 relations:
 - { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عمر بن عبد العزيز", en: "The authorities of Umar ibn Abd al-Aziz" }
+    participants: [person/umar-ibn-abd-al-aziz]
 sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

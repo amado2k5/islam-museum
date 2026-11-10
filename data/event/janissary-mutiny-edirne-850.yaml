@@ -14,6 +14,10 @@ date:
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الطاقم المتمرد", en: "The mutineers" }
+  - label: { ar: "سلطات المستكفي بالله الثاني سليمان بن المتوكل", en: "The authorities of al-Mustakfi bi'llah II Sulayman ibn al-Mutawakkil" }
+    participants: [person/al-mustakfi-ii-cairo]
 sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

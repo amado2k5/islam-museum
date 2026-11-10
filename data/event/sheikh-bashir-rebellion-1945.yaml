@@ -13,6 +13,10 @@ date:
   end: { edtf: "1945-07", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات صديق أبو بكر الثالث", en: "The authorities of Siddiq Abubakar III" }
+    participants: [person/siddiq-abubakar-iii]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q107223474

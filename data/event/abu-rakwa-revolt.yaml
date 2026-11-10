@@ -13,6 +13,10 @@ date:
   end: { edtf: "1007", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات الحاكم بأمر الله منصور بن العزيز", en: "The authorities of al-Hakim bi-Amr Allah Mansur ibn al-Aziz" }
+    participants: [person/al-hakim-bi-amr-allah]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q122678244

@@ -13,6 +13,10 @@ date:
   end: { edtf: "1932", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-tambari, sources: [source/wikidata] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات محمد تمباري", en: "The authorities of Muhammadu Tambari" }
+    participants: [person/muhammadu-tambari]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q129492215

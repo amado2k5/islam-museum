@@ -13,6 +13,10 @@ date:
   end: { edtf: "1484", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المتوكل على الله الثاني عبد العزيز بن يعقوب", en: "The authorities of al-Mutawakkil ala Allah II, Abd al-Aziz ibn Ya'qub" }
+    participants: [person/al-mutawakkil-ala-llah-ii]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131286409

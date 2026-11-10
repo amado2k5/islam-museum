@@ -15,6 +15,10 @@ relations:
 - { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-muhtadi, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المعتز بالله", en: "The authorities of al-Mu'tazz bi-llah" }
+    participants: [person/al-mutazz]
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q759988
