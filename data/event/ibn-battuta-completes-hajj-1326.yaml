@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mecca, sources: [source/britannica-ibn-battuta] }
   - { type: had_participant, target: person/ibn-battuta-muhammad, role: "الحاج", sources: [source/britannica-ibn-battuta] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-ibn-battuta]
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
 provenance:
