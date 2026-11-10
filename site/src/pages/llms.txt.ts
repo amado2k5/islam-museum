@@ -33,6 +33,7 @@ export const GET: APIRoute = () => {
     `- [Khutab and Durus dataset](${SITE}/api/v1/khutab.json) — every sermon, lesson and series with speaker, occasion and order`,
     `- [Poetry dataset](${SITE}/api/v1/poetry.json) — every poem and diwan with poets, language, genre and metre`,
     `- [Screening Room dataset](${SITE}/api/v1/screens.json) — every film, series and programme with format, release, countries and ids`,
+    `- [Asma ul Husna dataset](${SITE}/api/v1/asma.json) — the 99 divine names in enumeration order with transliteration, root and edges`,
     `- [Time Browser subject index](${SITE}/api/v1/time-browser/index.json) — the curated subjects with node counts and spans`,
     "",
     "## Entries",

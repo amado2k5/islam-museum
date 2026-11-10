@@ -346,6 +346,21 @@
         }
       }
     },
+    "/asma.json": {
+      "get": {
+        "operationId": "getAsma",
+        "summary": "Asma ul Husna Browser dataset",
+        "description": "The 99 divine-name concepts in enumeration order with transliteration, root, enumeration, trilingual labels and edges",
+        "responses": {
+          "200": {
+            "description": "The 99 divine names with order, name_meta and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/khutab.json": {
       "get": {
         "operationId": "getKhutab",

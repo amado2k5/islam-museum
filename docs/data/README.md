@@ -46,6 +46,7 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/khutab.json` | Khutab and Durus Explorer: every sermon, lesson and lecture series with speaker, occasion, host, audience, series order and edges |
    | `https://api.islam.museum/api/v1/poetry.json` | Poetry: every poem and diwan with its poets, language, genre, metre and edges |
    | `https://api.islam.museum/api/v1/screens.json` | Screening Room: every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, database ids and edges |
+   | `https://api.islam.museum/api/v1/asma.json` | Asma ul Husna Browser: the 99 divine-name concepts in enumeration order with transliteration, root, enumeration, trilingual labels and edges |
    | `https://api.islam.museum/api/v1/time-browser/index.json` | Time Browser: the subject index (id, kind, titles, node count, journey flag, span) |
    | `https://islam.museum/llms.txt` | Plain-text index of every entry with its URL, for language models and crawlers |
    | `https://islam.museum/sitemap-index.xml` | Sitemap of every page in every language |

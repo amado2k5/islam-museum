@@ -167,6 +167,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["kind"] },
   { file: "poetry.json", feature: "poetry", pick: (n) => n.class === "work" && ["poem", "diwan"].includes(n.data.kind),
     fields: ["kind", "authors", "language", "languages", "genre", "metre", "composed"] },
+  { file: "asma.json", feature: "asma-browser", pick: (n) => n.class === "concept" && n.data.kind === "divine-name",
+    fields: ["kind", "order", "name_meta"] },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];

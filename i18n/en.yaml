@@ -1561,6 +1561,10 @@ explore:
       title: 'Companions Browser'
       desc: 'The Companions of the Prophet as a web of people: the Ten, the Muhajirun and the Ansar, the Prophet''s household, the women Companions, their clans, the events they stood in, and when they died.'
       menu: 'Browse the Companions'
+    asma:
+      title: "Asma ul Husna Browser"
+      desc: "The ninety-nine names of God, each with its meaning and the stories the museum's records carry for it."
+      menu: "Browse the ninety-nine names and their stories"
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -3247,6 +3251,23 @@ career:
   debated: "debated"
   tradition: "tradition"
   undated: "Undated"
+asma:
+  title: "The Most Beautiful Names Browser"
+  lede: "The ninety-nine names of God, each with its meaning and the stories that carry it: the Qur'an passages that name it, the hadith that invoke it, the seerah events that show it, and the Companions and the righteous whose lives exemplified it."
+  badge: "In the making"
+  status: "Ninety-nine names in the Tirmidhi enumeration. Name records in this build: {names}. Every section of a name page is drawn from the museum's cited records and grows as the graph does."
+  hadith_note: "«God has ninety-nine names — a hundred less one; whoever enumerates them enters Paradise», narrated by al-Bukhari and Muslim. The list shown here is the enumeration of Jami' al-Tirmidhi (3507); where the Ibn Majah list differs, the record of the name says so."
+  filter_label: "Filter by name"
+  sort_canonical: "Enumeration order"
+  sec_quran: "In the Qur'an"
+  sec_hadith: "In hadith"
+  sec_seerah: "In the seerah"
+  sec_sahaba: "From the Companions' stories"
+  sec_saliheen: "From the righteous' stories"
+  sec_paired: "Paired names"
+  order_label: "No. {n} in the enumeration"
+  record_link: "The museum record for this name"
+  enumeration_label: "Enumerations"
 inventions:
   title: "Inventions Browser"
   lede: "Inventions and discoveries from Islamic civilization, each with the people who made it, what came before it, what was built on it, and the sources that say so."
