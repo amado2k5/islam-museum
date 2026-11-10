@@ -12,6 +12,8 @@ date:
   start: { edtf: "0720-02", hijri: "0101-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب 101؛ خلاف على العشر أم الخمس {cite:tarikh-khulafa-minhaj-1434 p. 397}." }
 relations:
   - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 397–398"
