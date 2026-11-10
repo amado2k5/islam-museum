@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Shaykh Sidiyya Baba (1862–1924) was a Mauritanian scholar and Sufi leader, born about 1862 — an Al Jazeera Centre for Studies report gives 1860 — and died in 1924 according to the scholarship, while Wikidata gives 1923; both discrepancies are preserved.{cite:robinson-paths-of-accommodation-2000}{cite:wikidata-sidiyya-baba}{cite:aljazeera-studies-salafism-sahel-2012} He came of a clerical and trading lineage of the Trarza in southwestern Mauritania: his grandfather was Shaykh Sidiyya al-Kabir, who founded the zawiya of Boutilimit and the Qadiri branch known as the Sidiyya, and his father Sidi Muhammad headed the zawiya and its network of students. The headship of the Sidiyya passed to Baba, who consolidated and led it, his influence radiating through disciples and allies across southwestern Mauritania and Senegal.{cite:robinson-paths-of-accommodation-2000}
 

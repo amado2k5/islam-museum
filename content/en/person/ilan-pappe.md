@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ilan Pappé (born 7 November 1954) is an Israeli historian, born in Haifa to a family of Ashkenazi Jews; his parents were German Jews who had fled Nazi persecution in the 1930s.{cite:wikipedia-ilan-pappe-en} He graduated from the Hebrew University of Jerusalem in 1978 and took his doctorate at Oxford in 1984 under Albert Hourani and Roger Owen, then taught at the University of Haifa from 1984 to 2007, chairing the Emil Touma Institute for Palestinian and Israeli Studies.{cite:wikipedia-ilan-pappe-en}{cite:wikidata-ilan-pappe}
 

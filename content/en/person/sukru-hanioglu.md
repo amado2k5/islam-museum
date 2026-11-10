@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 M. Şükrü Hanioğlu, born in 1955 at Antakya, is the historian who rebuilt the study of the Young Turks from their own papers. Trained in political science and economics at Istanbul University, he wrote his doctorate on Abdullah Cevdet, a founding mind of the Committee of Union and Progress, and from 1981 pursued the Committee's history through the archives of a dozen countries — becoming, among other firsts, the first foreign scholar to work in Albania's national archives{cite:wikipedia-hanioglu-en}{cite:wikipedia-hanioglu-tr}. His books Young Turks in Opposition (1995) and Preparation for a Revolution (2001) made the CUP's underground years legible, and A Brief History of the Late Ottoman Empire (2008) carried the argument to a general reader{cite:wikipedia-hanioglu-en}.
 

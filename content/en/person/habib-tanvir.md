@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Habib Tanvir (1 September 1923 – 8 June 2009) was an Indian playwright, theatre director, poet and actor, born Habib Ahmed Khan at Raipur to Hafiz Ahmed Khan, who had come from Peshawar; he passed his matriculation at Raipur, took his BA at Morris College, Nagpur, in 1944, and studied for a year at Aligarh Muslim University.{cite:wikipedia-habib-tanvir-en}{cite:wikipedia-habib-tanvir-ur} In Bombay from 1945 he worked as a producer at All India Radio, wrote film songs, and became part of the Progressive Writers' Association and the Indian People's Theatre Association; in Delhi in 1954 his Agra Bazar, on the eighteenth-century poet Nazir Akbarabadi, brought village performers and students together in an open marketplace staging.{cite:wikipedia-habib-tanvir-en}
 

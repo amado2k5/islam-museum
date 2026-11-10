@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 # نصرت الله مخسوم
 

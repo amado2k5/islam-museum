@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yasar lexically means wealth and ease (the root of "he became well off"); its opposite is 'usr, hardship. The word also names the left side, the sister of the right. The technical sense does not depart from the lexical one. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17991}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 # Muhammad ibn Adam Al-Kawthari
 
 Muhammad ibn Adam Al-Kawthari (born 1976) is a British jurist and mufti from Leicester. He graduated from Darul Uloom Bury, studied with Taqi Usmani at Darul Uloom Karachi, and in 2000 studied in Damascus under Abd al-Razzaq al-Halabi and Abd al-Latif Farfur al-Hasani.{cite:wikipedia-muhammad-ibn-adam-al-kawthari-en}

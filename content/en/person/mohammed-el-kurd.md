@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mohammed el-Kurd (born 15 May 1998) is a Palestinian writer, poet and journalist from the Sheikh Jarrah neighbourhood of East Jerusalem.{cite:wikipedia-mohammed-el-kurd-en}{cite:wikipedia-mohammed-el-kurd-ar} Part of his family's home was seized by Israeli settlers in 2009, when he was eleven — the episode filmed in the documentary My Neighbourhood — and in 2021 he and his twin sister Muna became the best-known faces of the campaign against the Sheikh Jarrah evictions; the twins were named together to the Time 100 that year.{cite:wikipedia-mohammed-el-kurd-en}{cite:wikipedia-muna-el-kurd-en}
 

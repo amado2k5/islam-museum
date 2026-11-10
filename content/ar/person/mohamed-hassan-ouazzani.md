@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 محمد بن الحسن الوزاني (1910–1978) صحفي وسياسي مغربي، وُلد بفاس يوم 17 يناير 1910 في أسرة الشرفاء الوزانيين، وحفظ القرآن وتعلم العربية في مسيد سيدي غيار بفاس قبل أن يلتحق بالتعليم الحديث، ثم رحل سنة 1927 إلى باريس فدرس العلوم السياسية في المدرسة الحرة للعلوم السياسية ودرس في معهد اللغات الشرقية ومعهد الصحافة.{cite:wikipedia-mohamed-hassan-ouazzani-ar}{cite:wikipedia-mohamed-hassan-ouazzani-fr}{cite:wikidata-mohamed-hassan-ouazzani}
 

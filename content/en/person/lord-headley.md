@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Rowland George Allanson Allanson-Winn, 5th Baron Headley (19 January 1855 – 22 June 1935) was an Irish peer and civil engineer, educated at Westminster and Trinity College, Cambridge, who built roads in India and wrote standard works on boxing and self-defence. He succeeded his cousin as Baron Headley in 1913.{cite:wikipedia-lord-headley-en}
 

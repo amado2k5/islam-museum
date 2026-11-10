@@ -7,9 +7,8 @@ roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية لسلكان بن سلامة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Silkan ibn Salama, a figure of the early community; the biographical entry is not yet checked on the
-    page.
+  ar: "صحابي أنصاري اسمه سعد ويكنى أبا نائلة ويعرف بسلكان بن سلامة؛ كان من النفر الذين قتلوا كعب بن الأشرف."
+  en: "An Ansari Companion named Sa'd, known as Abu Na'ila and called Silkan ibn Salama; he was among the party that killed Ka'b ibn al-Ashraf."
 wings:
 - people
 regions:
@@ -19,6 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
+- source/isti-ab-ibn-abd-al-barr
 died: { edtf: "625~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
 - type: lived_in
@@ -38,6 +38,16 @@ relations:
   sources:
   - source/al-aalam
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Istiab p. 325"
+  sources:
+  - source/isti-ab-ibn-abd-al-barr
+- type: participated_in
+  target: event/killing-of-kab-ibn-al-ashraf
+  note: "al-Istiab p. 325"
+  sources:
+  - source/isti-ab-ibn-abd-al-barr
 external_ids:
   wikidata: Q28480917
 provenance:

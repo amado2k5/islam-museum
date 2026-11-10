@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Vehbi Dibra (12 March 1867 – 24 March 1937), born Abdyl Aziz Vehbi Agolli at Dibra, was an Albanian Islamic scholar and politician, the son of the town's mufti.{cite:wikipedia-vehbi-dibra-en}{cite:wikipedia-vehbi-dibra-sq} Trained in Islamic theology, law and philosophy at Istanbul and appointed mufti of Dibër, he chaired the Congress of Dibër in 1909, and in November 1912 sat in the Vlorë assembly as Dibër's delegate, signing the declaration of independence and becoming the first chairman of the Albanian Senate.{cite:wikipedia-vehbi-dibra-en}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Sayyid Jalaluddin Husayn al-Naqvi al-Bukhari, known as Surkh-Posh — "clad in red", for the red cloak he habitually wore — was a Sufi saint born at Bukhara in 595 AH, his family name taken from the city of his birth.{cite:wikipedia-jalaluddin-surkh-posh-bukhari-en} Fleeing the Mongol invasion, he reached Multan in 1237, where he was initiated into the Suhrawardi order, appointed a deputy of Bahauddin Zakariya, and sent to preach at Bhakkar and then at Uch.{cite:khan-constructing-islam-on-the-indus-2016} The sources divide over his birth year in Christian reckoning: the family tradition's 595 AH is rendered 1199 by Wikidata, Khan gives 1198, and older reference works give 1192, while the dates carried in some lists (1244–1350) match no biography at all — 1244 is in fact the year of his settlement at Uch.{cite:wikidata-jalaluddin-surkh-posh-bukhari}{cite:khan-constructing-islam-on-the-indus-2016}
 

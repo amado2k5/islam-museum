@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 As'ad al-Shuqairi (1860–1940) was a Palestinian scholar and politician from Acre who trained at al-Azhar and rose through the Ottoman sharia judiciary.{cite:wikipedia-asad-al-shuqairi-ar}{cite:wikipedia-asad-al-shuqairi-en} Elected for Acre to the Ottoman parliament in 1908 and 1912, he was appointed qadi of Acre in 1914 and mufti of the Fourth Ottoman Army during the First World War.{cite:wikipedia-asad-al-shuqairi-en}
 

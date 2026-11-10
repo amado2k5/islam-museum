@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 status: draft
 ---
+## موجز
 
 الوطء لغةً العلوّ على الشيء، ويُطلق على الجماع، وهو إيلاج الذكر في الفرج حتى يصيرا كالشيء الواحد؛ والمعنى الاصطلاحي لا يخرج عن اللغوي. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17482}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17483}
 

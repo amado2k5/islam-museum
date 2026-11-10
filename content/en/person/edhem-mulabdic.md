@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Edhem Mulabdić (1862 – 29 January 1954) was a Bosnian writer and educator from Maglaj, where he finished the mekteb and ruždija and took work as a clerk before entering the Sarajevo teachers' school in 1887.{cite:wikipedia-edhem-mulabdic-bs} He taught in Brčko and then in Sarajevo — at the Darülmuallimin, the Muslim teachers' school, later at the Sharia Judges' School and as a school inspector — and sat as Maglaj's deputy in the national assembly until January 1929.{cite:wikipedia-edhem-mulabdic-en}{cite:wikipedia-edhem-mulabdic-bs} With Safvet-beg Bašagić and Osman Nuri Hadžić he launched the journal Behar on 1 May 1900, editing it from 1901 to 1906, and in 1903 he co-founded the Gajret society; he also edited or wrote for Bošnjak, Mearif and Nada.{cite:wikipedia-edhem-mulabdic-bs}{cite:wikipedia-edhem-mulabdic-en}
 

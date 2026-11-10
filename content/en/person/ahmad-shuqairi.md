@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ahmad Shuqairi (1 January 1908 – 26 February 1980) was a Palestinian politician and diplomat, born at Tebnine in south Lebanon to As'ad al-Shuqairi, the Ottoman scholar and parliamentarian, and raised at Tulkarm.{cite:wikipedia-ahmad-shuqairi-en}{cite:wikipedia-ahmad-shuqairi-ar} Trained as a lawyer in Jerusalem, he joined the Istiqlal Party, represented Palestine in Washington from 1945, and then served at the United Nations with the Syrian and Saudi delegations and as assistant secretary-general of the Arab League.{cite:wikipedia-ahmad-shuqairi-en}
 

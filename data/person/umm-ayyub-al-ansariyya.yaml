@@ -6,17 +6,19 @@ label:
 roles: [companion]
 gender: female
 summary:
-  ar: "بطاقة أولية لأم أيوب الأنصارية، من نساء الأنصار في الصدر الأول؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Umm Ayyub al-Ansariyya, a woman of the Ansar in the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابية أنصارية خزرجية، زوج أبي أيوب الأنصاري؛ من حديثها نزول النبي ضيفاً عليهم وقصة إكراهه البقول وقوله إن الملائكة تتأذى بما يتأذى به بنو آدم."
+  en: "An Ansari Khazraji woman Companion, wife of Abu Ayyub al-Ansari; she narrates the Prophet's stay in their house and the hadith that the angels are hurt by what hurts the sons of Adam."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/isti-ab-ibn-abd-al-barr]
 died: { edtf: "622~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: ~650, al-Tabaqat al-Kubra (Ibn Sa'd)" }
 relations:
  - { type: lived_in, target: place/medina, sources: [source/al-aalam] }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
  - { type: member_of, target: group/ansar, sources: [source/al-aalam]}
+ - { type: member_of, target: group/ansar, note: "al-Istiab p. 945", sources: [source/isti-ab-ibn-abd-al-barr] }
+ - { type: member_of, target: group/al-khazraj, note: "al-Istiab p. 945", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q137808795
 provenance:

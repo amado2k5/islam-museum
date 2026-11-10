@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ali al-Rimawi (1860–1919) was a Palestinian poet, journalist and jurist, born at Jerusalem to a family whose nisba derives from Bayt Rima, north-west of the city.{cite:wikipedia-ali-al-rimawi-ar}{cite:wikidata-ali-al-rimawi} Trained at al-Azhar in Cairo, he taught jurisprudence and Arabic at Jerusalem's Ma'arif school and edited the Arabic section of the newspaper al-Quds and then the journal al-Najah for two years.{cite:wikipedia-ali-al-rimawi-ar}
 

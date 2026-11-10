@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 # صفر بی زانوقہ
 

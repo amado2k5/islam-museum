@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Bajram Curri (16 January 1862 – 29 March 1925) was an Albanian chieftain from the Highlands of Gjakova who became one of the leading military figures of the Albanian national movement.{cite:wikipedia-bajram-curri-en}{cite:wikipedia-bajram-curri-sq} Born at Krushë e Madhe into the Curri family of Krasniqi — more recent sources, citing his discovered passport, give his birth year as 1866 — he served the Ottomans as a gendarmerie officer, took part in Haxhi Zeka's revolt of 1893 and in his League of Peja of 1899, and in 1912 fought in the general Albanian uprising and entered Skopje with the rebel forces.{cite:wikipedia-bajram-curri-en}
 

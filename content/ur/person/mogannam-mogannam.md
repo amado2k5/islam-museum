@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 مغنم مغنم (وفات 1945ء) قدس میں پرورش پانے والے فلسطینی مسیحی وکیل اور سیاسی کارکن تھے۔{cite:encyclopedia-mogannam-mogannam-ilyas} وہ پہلی جنگِ عظیم سے قبل امریکہ ہجرت کر گئے، وہیں قانون کی تعلیم حاصل کی، اور بیسویں صدی کے بیس کی دہائی کے آغاز میں متیل مغنم سے شادی کر کے ان کے ساتھ قدس واپس آئے، پھر 1938ء میں رام اللہ منتقل ہو گئے۔{cite:encyclopedia-mogannam-mogannam-ilyas}{cite:wikipedia-matiel-mogannam-en}
 

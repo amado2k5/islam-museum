@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ibrahim al-Dabbagh (1880 – 26 February 1946) was a Palestinian poet, journalist and writer born at Jaffa.{cite:wikipedia-ibrahim-al-dabbagh-ar}{cite:wikidata-ibrahim-al-dabbagh} Educated in Jaffa's Qur'an schools and then at al-Azhar in Cairo, where Muhammad Abduh was among his teachers, he settled in Egypt, worked as a tailor and blacksmith in his youth, and after graduating turned to journalism.{cite:wikipedia-ibrahim-al-dabbagh-ar}
 

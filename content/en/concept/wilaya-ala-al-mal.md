@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Authority over property (al-wilaya 'ala al-mal) is, in the jurists' usage, the capacity under the law to dispose of one's own property or of another's. It is linked to authority over the person, since both carry the power to execute an order over another. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17900}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Kaddour Benghabrit (1 November 1868 – 24 June 1954), born Abdelkader Ben Ghabrit at Sidi Bel Abbes into a prominent Andalusian family of Tlemcen, was educated at the Thaalibiya madrasa in Algiers and the University of al-Karaouine in Fez, and began his career in the Algerian judiciary.{cite:wikipedia-kaddour-benghabrit-en}{cite:wikipedia-kaddour-benghabrit-fr}
 

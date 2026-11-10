@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Tarab Abdul Hadi (1910–1976) was a Palestinian feminist activist born in Jenin, wife of the politician Awni Abd al-Hadi.{cite:wikipedia-tarab-abdul-hadi-en}{cite:wikipedia-tarab-abdul-hadi-ar} In October 1929 she co-founded the Palestine Arab Women's Congress, the first women's organization in Mandate Palestine, whose first meeting was held at her Jerusalem home, and she sat on its fourteen-woman Executive Committee.{cite:wikipedia-tarab-abdul-hadi-en}
 

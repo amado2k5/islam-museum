@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Subhi al-Khadra (1895 – 4 July 1954) was a Palestinian politician and lawyer from Safed, educated there and at the Ottoman Sultanate School in Beirut and the Imperial War College in Istanbul.{cite:wikipedia-subhi-al-khadra-en}{cite:wikipedia-subhi-al-khadra-ar} He fought with the Ottomans in the First World War, then joined Sharif Hussein's Arab Revolt and entered Damascus with Faisal's forces in 1918.{cite:wikipedia-subhi-al-khadra-en}
 

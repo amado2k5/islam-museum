@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Admonition (wa'z), lexically, is a rebuke joined with fear, and includes advice and reminding of consequences; technically it is reminding people of good in a way that softens the heart. Nasiha, sincere counsel, means calling to what is good and forbidding what is corrupt; the two share the call to good. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17551}
 

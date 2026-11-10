@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Rondae Hollis-Jefferson (born 3 January 1995) is an American basketball forward from Chester, Pennsylvania. He played at Arizona and in the NBA from 2015 before continuing his career internationally, later representing Jordan after naturalisation.{cite:wikipedia-rondae-hollis-jefferson-en}{cite:wikidata-rondae-hollis-jefferson}
 

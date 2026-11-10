@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mahmud Brelvi was a Pakistani Muslim scholar and author, styled Professor, whose books surveyed the Muslims of the modern world. The earliest of them to reach library catalogues, The Muslim Neighbours of Pakistan, appeared from the Ripon Printing Press in 1950, and the catalogues credit him with nineteen works in all, on the history and politics of Pakistan and the Islamic countries.{cite:brelvi-muslim-neighbours-of-pakistan}{cite:openlibrary-mahmud-brelvi} In February 1952 he was appointed by Pakistan's Ministry of Information to assist Hector Bolitho, then in Karachi to write the official biography of Jinnah; Bolitho's letter of 4 February 1952 complains that Professor Brelvi, though scrupulous in his courtesy, had withdrawn from the work after six days.{cite:bagicha-bolitho-jinnah-biography}
 

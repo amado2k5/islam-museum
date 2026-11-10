@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Tewhida Ben Sheikh (1909–2010) was the first modern Tunisian and North African woman to become a physician, and a pioneer of women's medicine, in particular contraception and abortion access.{cite:wikipedia-tawhida-ben-cheikh-en} She was born on 2 January 1909 — the French biography's lead and the English narrative give Tunis, while the English infobox and Wikidata give Ras Jebel, her family's home town — into an elite, socially conservative family; widowed early, her mother raised five children alone and was persuaded by her daughter's teachers and by Dr Etienne Burnet of the Pasteur Institute of Tunis to let her study in France.{cite:wikipedia-tawhida-ben-cheikh-fr}{cite:wikidata-tawhida-ben-cheikh}{cite:wikipedia-tawhida-ben-cheikh-en} Educated at the first public school for Muslim girls in Tunis, she became in 1928 the first Tunisian Muslim girl to take the baccalauréat, then earned her medical degree at Paris in 1936 and defended her doctorate the following year, the first Tunisian woman physician and a pioneer in paediatrics.{cite:wikipedia-tawhida-ben-cheikh-fr}{cite:wikipedia-tawhida-ben-cheikh-ar}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Wasif Jawhariyyeh (1897–1972) was a Jerusalem musician, oud player, poet and diarist, born into the city's Greek Orthodox community.{cite:wikipedia-wasif-jawhariyyeh-en}{cite:nassar-wasif-jawharriyeh-collection} Trained in Jerusalem's Lutheran, national and Anglican schools and apprenticed to leading oud masters, he served in the Ottoman navy and then in the Mandate administration while performing with the city's ensembles and its radio orchestra.{cite:wikipedia-wasif-jawhariyyeh-en}{cite:wikipedia-wasif-jawhariyyeh-ar}
 

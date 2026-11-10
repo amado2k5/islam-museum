@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 In Rabi' al-Awwal of the fourth year of the Hijra the Prophet went out to the dwellings of Banu al-Nadir with a party of his Companions, seeking their help with the blood-money of the two Amiri men whom Amr ibn Umayya al-Damri had killed by mistake — acting on the clauses of [[event/constitution-of-medina|the document of Medina]]. {cite:mubarakpuri-raheeq}
 
 They showed agreement, then conspired to kill him by dropping a millstone on him from above the wall he sat beneath; the news came to him from heaven, he rose quickly and returned to Medina, then sent Muhammad ibn Maslama warning them to leave within ten days. They made ready to go until [[person/abdullah-ibn-ubayy|Abdullah ibn Ubayy]] sent to them urging them to stay and promising two thousand of his people to aid them. {cite:mubarakpuri-raheeq}

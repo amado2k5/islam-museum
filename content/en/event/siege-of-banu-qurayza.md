@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 On the morning the Muslims returned from the Trench to Medina and had laid down their arms, Gabriel came to the Prophet ordering him to march on Banu Qurayza; the Prophet called out to his companions: "let no one pray the afternoon prayer except among Banu Qurayza" — and the Muslims marched on them, three thousand fighters, [[person/ali-ibn-abi-talib|Ali ibn Abi Talib]] carrying the banner. {cite:sahih-al-bukhari}
 
 Their fortresses were besieged for twenty-five nights until the siege exhausted them and God cast terror into their hearts; their chief [[person/kaab-ibn-asad|Ka'b ibn Asad]] offered them three courses, all of which they refused. Then they came down to the Messenger of God's judgement; their Aws allies asked him to deal kindly with them as he had dealt with Banu Qaynuqa', and the parties agreed to the arbitration of the Aws chief [[person/sad-ibn-muadh|Sa'd ibn Mu'adh]]. {cite:mubarakpuri-raheeq}

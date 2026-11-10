@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ghulam Ali (born 5 December 1940) is a Pakistani ghazal singer of the Patiala gharana, born at Galotian Khurd in the Sialkot district of Punjab, British India.{cite:wikipedia-ghulam-ali-en}{cite:wikidata-ghulam-ali} He was a disciple of Bade Ghulam Ali Khan — a different, elder singer (1902–1968) — and was trained also by the elder Khan's younger brothers.{cite:wikipedia-ghulam-ali-en}{cite:wikipedia-ghulam-ali-ur}
 

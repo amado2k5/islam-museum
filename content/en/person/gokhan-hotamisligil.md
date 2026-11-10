@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Gökhan Sıddık Hotamışlıgil is a Turkish-American physician-scientist, born on 24 June 1962 in the Pazar district of Rize on the Black Sea{cite:wikipedia-hotamisligil-tr}{cite:wikipedia-hotamisligil-en}. After Anatolian high-school studies he took his medical degree at Ankara University in 1986 and his PhD in biological sciences in public health at Harvard Medical School in 1994, becoming an assistant professor at the Harvard School of Public Health in 1997{cite:wikipedia-hotamisligil-tr}. In 2003 he founded the school's Department of Genetics and Complex Diseases and chaired it for sixteen years, and from 2014 to 2024 he directed the Sabri Ülker Center for Metabolic Research{cite:wikipedia-hotamisligil-en}.
 

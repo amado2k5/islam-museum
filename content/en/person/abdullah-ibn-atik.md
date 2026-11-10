@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 Abdullah ibn Atik ibn Qays al-Ansari al-Sulami al-Khazraji, a brave Companion of Badr who spoke the jargon of Khaybar's Jews fluently. {cite:mubarakpuri-raheeq}
 
 The Prophet put him in command of the detachment sent to Khaybar to assassinate Abu Rafi' Sallam ibn Abi al-Huqayq, the confederates' inciter; he planned the fortress entry in the night's darkness, shut the fortress doors on its people from inside so they could not be reached, then came on Abu Rafi' in his upper chamber and struck him with his sword until he killed him. {cite:sahih-al-bukhari}

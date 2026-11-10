@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Shoaib Mansoor (born in Karachi) is a Pakistani television and film director, writer, producer, lyricist and musician. The English biography gives his birth date as 4 February 1951, while Wikidata gives 4 April 1952; both readings are preserved in his record.{cite:wikipedia-shoaib-mansoor-en}{cite:wikidata-shoaib-mansoor} Active in television since 1976, he first found wide success writing the song "Dil Dil Pakistan" (1987), which introduced the band Vital Signs to a national audience, and he directed celebrated series including Ankahi (1982), Fifty Fifty and the military drama Alpha Bravo Charlie (1998).{cite:wikipedia-shoaib-mansoor-en}
 

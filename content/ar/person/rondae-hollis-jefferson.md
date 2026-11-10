@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 روندا هوليس جيفرسون ⁦(وُلد في 3 يناير 1995)⁩ لاعب كرة سلة أمريكي من تشيستر في بنسلفانيا. لعب لجامعة أريزونا ثم في NBA من سنة 2015، وواصل مسيرته دولياً ومثّل الأردن بعد حصوله على جنسيته.{cite:wikipedia-rondae-hollis-jefferson-en}{cite:wikidata-rondae-hollis-jefferson}
 
