@@ -5,7 +5,7 @@
 // section is computed from edges at build time and hidden when empty; the page works without JS.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href, labelOf, summaryOf } from "../../../lib/graph";
+import { byId, href, labelOf, summaryOf } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
 import { renderProse, newHonState } from "../../../lib/markdown";
 import { asmaNodes, asmaBySlug, sectionsOf } from "../../../lib/asma";
@@ -22,7 +22,25 @@ const meta = (n.data as any).name_meta ?? {};
 const proseLang = n.prose?.[lang] ? lang : n.prose?.ar ? "ar" : n.prose?.en ? "en" : null;
 const prose = proseLang ? n.prose![proseLang] : null;
 const hon = newHonState();
-const sections = (prose?.sections ?? []).map((s: any) => ({ heading: s.heading, r: renderProse(s.markdown, lang, hon) }));
+// citation numbers are per-section in renderProse; re-number globally and collect them for the footnote list
+const citeList: { source: string; locator?: string }[] = [];
+const citeIndex = (c: { source: string; locator?: string }) => {
+  let i = citeList.findIndex((x) => x.source === c.source && x.locator === c.locator);
+  if (i < 0) { citeList.push(c); i = citeList.length - 1; }
+  return i + 1;
+};
+const renumberR = (r: { html: string; cites: { n: number; source: string; locator?: string }[] }) => {
+  const map = new Map(r.cites.map((c) => [c.n, citeIndex(c)]));
+  return (h: string) =>
+    h.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => {
+      const g = map.get(Number(k))!;
+      return `<sup class="cite"><a href="#note-${g}">${g}</a></sup>`;
+    });
+};
+const sections = (prose?.sections ?? []).map((s: any) => {
+  const r = renderProse(s.markdown, lang, hon);
+  return { heading: s.heading, html: renumberR(r)(r.html) };
+});
 const groups: { key: keyof typeof S; title: string }[] = [
   { key: "quran", title: A.sec_quran },
   { key: "hadith", title: A.sec_hadith },
@@ -44,7 +62,7 @@ const groups: { key: keyof typeof S; title: string }[] = [
 
       {sections.length > 0 && (
         <article class="prose" style="max-width:var(--measure);margin:0 auto">
-          {sections.map((s) => (<section><h2>{s.heading}</h2><div set:html={s.r.html} /></section>))}
+          {sections.map((s) => (<section><h2>{s.heading}</h2><div set:html={s.html} /></section>))}
         </article>
       )}
 
@@ -65,6 +83,18 @@ const groups: { key: keyof typeof S; title: string }[] = [
           <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
             {S.paired.map((t) => <li><a class="chip" href={`/${lang}/asma/${t.slug}/`}>{label(t)}</a></li>)}
           </ul>
+        </section>
+      )}
+
+      {citeList.length > 0 && (
+        <section class="sec ui" aria-labelledby="src" style="max-width:var(--measure);margin:1.5rem auto">
+          <h2 id="src">{T.entity.sources}</h2>
+          <ol style="padding-inline-start:1.4rem;font-size:.92rem">
+            {citeList.map((c, i) => {
+              const s = byId.get(c.source);
+              return <li id={`note-${i + 1}`}>{s ? labelOf(s as any, lang) : c.source}{c.locator ? `, ${c.locator}` : ""}</li>;
+            })}
+          </ol>
         </section>
       )}
 
