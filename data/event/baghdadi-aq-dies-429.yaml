@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/isfarayin, sources: [source/tabaqat-shafiiyya-subki] }
   - { type: had_participant, target: person/al-baghdadi-abd-al-qahir-ibn-tahir, role: "المتوفى", sources: [source/tabaqat-shafiiyya-subki] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tabaqat-shafiiyya-subki, source/tarikh-islam-dhahabi, source/mawsuat-a3lam-ulama-adaba]
 provenance:
   layer: own-research

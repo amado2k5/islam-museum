@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
   - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المناظر في حضرة الوزير", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
   - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الوزير المصاحَب", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala]
 provenance:
   layer: own-research

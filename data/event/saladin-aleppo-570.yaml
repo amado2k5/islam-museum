@@ -21,6 +21,7 @@ relations:
   - { type: had_participant, target: person/sad-al-din-kumashtikin, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/rashid-al-din-sinan, role: "أرسل الفدائيين", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/raymond-iii-tripoli, role: "قصد حمص", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"
