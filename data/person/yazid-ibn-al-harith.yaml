@@ -18,7 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
-died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Badr — cast dates into his hand and fought until killed (Ibn Hibban, al-Isaba p. 1586); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0624", hijri: "0002", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Badr — cast dates into his palm and fought until killed (Ibn Hibban, al-Isaba p. 1586); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: member_of
   target: group/sahaba
@@ -45,6 +45,19 @@ relations:
   note: "al-Isaba p. 1586"
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "Khazraji, known as Ibn Fushum (al-Isaba p. 1586)"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1586"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 1586"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12251766
 provenance:

@@ -18,7 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
-died: { edtf: "0635", hijri: "0014", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at the battle of the Bridge of Abu Ubayd (al-Isaba p. 1596, Abu Umar following Ibn al-Kalbi); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at the Battle of the Bridge of Abu Ubayd, 13 AH (Abu Umar per Ibn al-Kalbi); wounded twelve times at Uhud (al-Isaba p. 1596); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/medina
@@ -52,6 +52,19 @@ relations:
   note: "al-Isaba p. 1596"
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Zafari, son of the poet al-Khatim (al-Isaba p. 1596)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "al-Isaba p. 1596"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-the-bridge
+  note: "al-Isaba p. 1596"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12251823
 provenance:

@@ -17,6 +17,8 @@ relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in Ibn Hajar's Isaba (regions: arabia).", sources: [source/al-aalam, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}
   - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1588", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "Musa ibn Uqba and Ibn Ishaq (al-Isaba p. 1588)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12251788
 provenance:
