@@ -1,0 +1,21 @@
+id: person/yahya-al-mutali-al-hammudi
+class: person
+label: { ar: "يحيى المطالع الحمودي", en: "Yahya al-Mu'tali al-Hammudi", ur: "یحییٰ المطالع حمودی" }
+roles: [caliph]
+summary:
+  ar: "يحيى المطالع بن إدريس الحمودي، ثالث خلفاء الحموديين في قرطبة؛ بويع مرتين ⁦(1021–1023م و1025–1026م)⁩ بين فتنة قرطبة، ثم تنازل وحكم ملقة حتى 1035م. {cite:bayan-mughrib-idhari}"
+  en: "Yahya al-Mu'tali ibn Idris, the third Hammudid caliph in Cordoba; acclaimed twice (1021–1023 and 1025–1026) amid the fitna of Cordoba, then abdicated and ruled Malaga until 1035. {cite:bayan-mughrib-idhari}"
+  ur: "یحییٰ المطالع بن ادریس حمودی، حمودیوں کا تیسرا خلیفہ قرطبہ میں؛ فتنہ قرطبہ میں دو بار خلافت ⁦(1021–1023 اور 1025–1026ء)⁩، پھر دستبردار ہو کر 1035ء تک مالقہ پر حکومت کی۔ {cite:bayan-mughrib-idhari}"
+story_roles:
+  - { role: rival-claimant, toward: polity/hammudid-caliphate, start: { edtf: "1021", calendar: julian, precision: year }, end: { edtf: "1023", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }
+  - { role: rival-claimant, toward: polity/hammudid-caliphate, start: { edtf: "1025", calendar: julian, precision: year }, end: { edtf: "1026", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }
+relations:
+  - { type: ruled_over, target: polity/hammudid-caliphate, sources: [source/bayan-mughrib-idhari] }
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "al-Bayan al-Mughrib (Ibn Idhari) — Hammudid section; Gemini historian-check batch 1"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: khulafa-gemini-corrections-b1
+sources: [source/bayan-mughrib-idhari]
