@@ -1,0 +1,18 @@
+id: person/al-qaim-cairo
+class: person
+label: { ar: "القائم (القاهرة)", en: "al-Qa'im (Cairo)", ur: "القائم (القاهرة)" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "القائم (القاهرة)، خليفة العباسية في القاهرة ؛ حكم من 1451م إلى 1455م. {cite:tarikh-khulafa-minhaj-1434}"
+  en: "al-Qa'im (Cairo), the caliph of the Abbasid of Cairo caliphate, ruling 1451–1455 CE. {cite:tarikh-khulafa-minhaj-1434}"
+  ur: "القائم (القاهرة)، عباسی قاہرہ خلافت کے خلیفہ؛ 1451ء سے 1455۔ {cite:tarikh-khulafa-minhaj-1434}"
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1451", calendar: julian, precision: year }, end: { edtf: "1455", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

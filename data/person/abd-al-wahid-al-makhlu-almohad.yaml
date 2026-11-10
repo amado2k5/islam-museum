@@ -6,6 +6,7 @@ summary:
   ar: "عبد الواحد بن يوسف بن عبد المؤمن الموحدي، عم الخليفة الناصر المعروف بالمخلوع؛ بايعته الدولة بعد المستنصر لكبر سنه ووفور عقله، فلم يحسن التدبير ولا أدارى أهل دولته، فخلعوه وخنقوه بعد تسعة أشهر من ولايته {cite:wafayat-ayan}."
   en: "Abd al-Wahid ibn Yusuf ibn Abd al-Mu'min, an uncle of the caliph al-Nasir, known as al-Makhlu (the Deposed). After al-Mustansir the state gave him the oath of allegiance, for his advanced age and sound judgement; but he did not manage affairs well and did not placate the people of his state, so they deposed him and strangled him after a nine-month reign {cite:wafayat-ayan}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
@@ -19,4 +20,8 @@ status:
   review: published
   completeness: 3
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/al-mustansir-yusuf-almohad, sources: [source/bayan-mughrib-idhari] }
   - { type: ruled_over, target: place/marrakesh, note: "Almohad caliph who received the oath after al-Mustansir; the Almohad capital was Marrakesh.", sources: [source/wafayat-ayan], confidence: medium }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1224", calendar: julian, precision: year }, end: { edtf: "1224", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

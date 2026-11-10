@@ -12,6 +12,7 @@ summary:
   en: "Abbasid caliph [467–487], posthumous son of the Qa'im's son Muhammad, born six months after his father's death and hailed at nineteen before Abu Ishaq al-Shirazi. His reign saw the caliphate's footing splendid again: he expelled the singing-girls and prostitutes, required the izar in the baths and razed their towers. His vizier Abu Shuja' was titled Zahir al-Din — Suyuti thinks the first din-compound title. He died suddenly, his slave-girl Shams al-Nahar suspected of poison {cite:tarikh-khulafa-minhaj-1434 p. 650-654}."
   ur: "عباسی خلیفہ، جنہوں نے ۴۶۷ھ سے ۴۸۷ھ تک حکومت کی؛ قائم کے پوتے تھے اور ابو اسحاق شیرازی کی موجودگی میں ان کی بیعت ہوئی۔ {cite:tarikh-khulafa-minhaj-1434}"
 gender: male
+roles: [caliph]
 died: { edtf: "1094-01~", hijri: "0487-01", calendar: julian, precision: day, status: tradition, derived: true, note: "مات فجأة في ثامن عشر المحرم سنة 487 عن تسع وثلاثين سنة، وقيل إن جاريته سمته؛ بويع بعده ابنه المستظهر {cite:shadharat-dhahab p. 380-381}." }
 wings: [people]
 periods: [period/abbasid-fragmentation]
@@ -25,4 +26,8 @@ provenance:
 sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: born_in, target: place/bust, note: "From text: ولد بعد وفاة أبيه بستة أشهر وأمه أم", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab] }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1075", calendar: julian, precision: year }, end: { edtf: "1094", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

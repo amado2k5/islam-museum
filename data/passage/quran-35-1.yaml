@@ -17,6 +17,8 @@ translations:
   ur: { text: "سب تعریف خدا ہی کو (سزاوار ہے) جو آسمانوں اور زمین کا پیدا کرنے والا (اور) فرشتوں کو قاصد بنانے والا ہے جن کے دو دو اور تین تین اور چار چار پر ہیں۔ وہ (اپنی) مخلوقات میں جو چاہتا ہے بڑھاتا ہے۔ بےشک خدا ہر چیز پر قادر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -10,6 +10,7 @@ summary:
   en: Ahmad ibn al-Mustansir, ninth Ubaydid caliph as al-Musta'li bi'llah, succeeding on his father's death in 487 {cite:tarikh-khulafa-minhaj-1434
     p. 655}.
 gender: male
+roles: [caliph]
 died:
   edtf: 1101-12~
   hijri: 0495-02
@@ -41,21 +42,25 @@ status:
   completeness: 1
   generated_by: Devin (SWE-2 High)
 relations:
+- { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: successor_of, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - type: born_in
   target: place/cairo
   note: Wikidata Q85 (P19); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: died_in
   target: place/cairo
   note: Wikidata Q85 (P20); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: lived_in
   target: place/fatimid-caliphate
   note: Wikidata Q160307 (P27); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "1094", calendar: julian, precision: year }, end: { edtf: "1101", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

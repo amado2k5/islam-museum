@@ -8,6 +8,7 @@ names:
   value: مصطفى الثالث بن أحمد الثالث
 gender: male
 roles:
+- caliph
 - ruler
 died:
   edtf: 1774~
@@ -34,16 +35,18 @@ periods:
 regions:
 - anatolia-balkans
 relations:
+- { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+- { type: successor_of, target: person/uthman-iii-uthmani, sources: [source/sicill-i-osmani] }
 - type: child_of
   target: person/ahmed-iii-uthmani
   sources:
-  - source/dawlat-uthmaniyya-salabi
+- source/dawlat-uthmaniyya-salabi
 - type: lived_in
   target: place/russia
   confidence: low
   note: The only place named in the record; specific residence or role there is assumed from context but not separately documented.
   sources:
-  - source/dawlat-uthmaniyya-salabi
+- source/dawlat-uthmaniyya-salabi
 sources:
 - source/dawlat-uthmaniyya-salabi
 - source/nomisma
@@ -59,3 +62,5 @@ status:
 external_ids:
   wikidata: Q199484
   nomisma: mustafa_iii
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1757", calendar: julian, precision: year }, end: { edtf: "1774", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

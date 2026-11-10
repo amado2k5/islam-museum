@@ -11,6 +11,7 @@ summary:
   ar: "رابع ملوك الدولة العبيدية، معد بن المنصور بن القائم، لقب بالمعز لدين الله وصفت له المغرب، أرسل مولاه جوهراً القائد في مئة ألف فارس فملك مصر واختط القاهرة وبنى دار الإمارة المعروفة بالقصرين وقطع خطبة بني العباس ودخل المعز إلى مصر في رمضان سنة اثنين وستين ومعه توابيت آبائه وهو الذي بنى القاهرة {cite:tarikh-khulafa-minhaj-1434 p. 617,620-622}، وأقيمت الخطبة والدعوة بالحرمين له في ذي الحجة سنة ثلاث وستين ومات سنة خمس وستين وقام بعده ابنه نزار ولقب العزيز {cite:tarikh-khulafa-minhaj-1434 p. 626-627}. وعند ابن الأثير توفي بمصر سابع عشر ربيع الآخر سنة 365هـ وعمره خمس وأربعون سنة وكان أول الخلفاء العلويين ملك مصر وخرج إليها، وكان يغري بالنجوم ويعمل بأقوال المنجمين وقد عمل سرداباً يحتمي فيه وقت الموت، وستر ابنه العزيز موته حتى عيد النصر فصلى بالناس ودعا لنفسه وعزى بأبيه {cite:kamil-ibn-al-athir p. 487-488}"
   en: "Ma'add ibn al-Mansur, fourth Ubaydid ruler, titled al-Mu'izz li-Din Allah; his mawla Jawhar took Egypt with a hundred thousand horse, laid out Cairo and built the Two Palaces; al-Mu'izz entered Egypt in Ramadan 362 carrying his fathers' coffins — the builder of Cairo {cite:tarikh-khulafa-minhaj-1434 p. 617,620-622}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -24,4 +25,8 @@ status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; t
 born: { edtf: "931", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'izz li-Din Allah' / Heinz Halm; 319–365 AH)" }
 died: { edtf: "975", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mu'izz li-Din Allah' / Heinz Halm; 319–365 AH)" }
 relations:
+  - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/al-mansur-ubaydi, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/cairo, note: "From text: of Cairo", sources: [source/khitat-maqrizi-1998, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "953", calendar: julian, precision: year }, end: { edtf: "975", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

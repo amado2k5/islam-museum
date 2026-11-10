@@ -4,7 +4,7 @@ label: { ar: "محمود الثاني" }
 names:
   - { kind: full, lang: ar, value: "محمود الثاني بن عبد الحميد الأول" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 summary:
   ar: "السلطان محمود الثاني؛ تولى الحكم عام ١٢٢٣هـ واستطاع أن يتخلص من الإنكشارية وأزالها من الوجود، فأصبح بعد ذلك حراً في تطوير جيشه، فترسم خطى الحضارة الغربية واستبدل الطربوش الرومي بالعمامة وتزيّا بالزي الأوروبي وأمر أن يكون الزي الرسمي لكل موظفي الدولة {cite:dawlat-uthmaniyya-salabi p. 548}."
   en: "Mahmud II (r. from 1223/1808) — destroyed the Janissary corps outright, then was free to rebuild his army on European lines: the fez replaced the turban and European dress became the officials' uniform {cite:dawlat-uthmaniyya-salabi p. 548}."
@@ -14,6 +14,8 @@ regions: [anatolia-balkans]
 born: { edtf: "1785", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 died: { edtf: "1839", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/mustafa-iv-uthmani, sources: [source/sicill-i-osmani] }
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/mahmud-ii-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -28,3 +30,5 @@ provenance:
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1808", calendar: julian, precision: year }, end: { edtf: "1839", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

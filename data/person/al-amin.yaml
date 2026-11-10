@@ -8,7 +8,7 @@ names:
   lang: ar
   value: محمد بن هارون الرشيد الأمين
 roles:
-- caliph
+  - caliph
 gender: male
 summary:
   ar: بطاقة أولية لمحمد الأمين، سادس خلفاء بني العباس وخصم المأمون في الفتنة، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم
@@ -45,24 +45,28 @@ status:
 born: { edtf: "787", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 died: { edtf: "813", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
+- { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: successor_of, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 - type: born_in
   target: place/al-rusafa
   note: Wikidata Q2271341 (P19); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: died_in
   target: place/baghdad
   note: Wikidata Q1530 (P20); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: lived_in
   target: place/baghdad
   note: Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.
   sources:
-  - source/tarikh-khulafa-minhaj-1434
-  - source/kamil-ibn-al-athir
-  - source/encyclopaedia-of-islam-2
-  - source/tarikh-khalifa-umari-1985
+- source/tarikh-khulafa-minhaj-1434
+- source/kamil-ibn-al-athir
+- source/encyclopaedia-of-islam-2
+- source/tarikh-khalifa-umari-1985
   confidence: low
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "809", calendar: julian, precision: year }, end: { edtf: "813", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

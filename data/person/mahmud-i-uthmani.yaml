@@ -4,7 +4,7 @@ label: { ar: "محمود الأول" }
 names:
   - { kind: full, lang: ar, value: "محمود الأول بن مصطفى الثاني" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 summary:
   ar: "السلطان محمود الأول ⁦(١١٤٣–١١٦٨هـ/١٧٣٠–١٧٥٤م)⁩؛ استقدم في عهده أول مستشار أوروبي فرنسي للشئون العسكرية وهو الكسندر الكونت ⁦(بونفال)⁩. وحين أعلنت روسيا والنمسا الحرب على بولندا واحتلتها روسيا وقاتلتا الدولة العثمانية، تمكن العثمانيون من وقف تقدم الروس في البغدان ووقف تقدم النمسا في البوسنة والصرب والأفلاق وانتصروا على الصرب وجيوش النمسا التي انسحبت، فطلبت النمسا الصلح عن طريق فرنسا ووقعت معاهدة بلغراد عام ١١٥٢هـ/١٧٣٩م وتنازلت فيها عن مدينة بلغراد وبلاد الصرب والأفلاق، وتعهدت روسيا بعدم بناء سفن في البحر الأسود وهدم قلاع ميناء آزوف {cite:dawlat-uthmaniyya-salabi p. 313}."
   en: "Mahmud I (r. 1143–1168/1730–1754) — brought in the first European military adviser (the Comte de Bonneval), yet won the war that produced the Treaty of Belgrade 1739: Austria ceded Belgrade, Serbia and Wallachia back, and Russia pledged no Black Sea fleet {cite:dawlat-uthmaniyya-salabi p. 313}."
@@ -14,6 +14,7 @@ regions: [anatolia-balkans]
 born: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 died: { edtf: "1754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: born_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: successor_of, target: person/ahmed-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -26,3 +27,5 @@ provenance:
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
 status: { review: published, completeness: 3 }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1730", calendar: julian, precision: year }, end: { edtf: "1754", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

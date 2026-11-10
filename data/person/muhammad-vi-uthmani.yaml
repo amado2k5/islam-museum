@@ -4,7 +4,7 @@ label: { ar: "السلطان وحيد الدين ⁦(محمد السادس)⁩" 
 names:
   - { kind: full, lang: ar, value: "السلطان وحيد الدين محمد السادس" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 summary:
   ar: "السلطان وحيد الدين محمد السادس، آخر سلاطين الدولة العثمانية؛ وصفه الصلابي بأنه كان قابعاً في الأستانة مستكيناً لما يجري عليه من الذل زمن الاحتلال بعد الحرب العالمية الأولى، ونقلت الصحف عنه إهدار دم مصطفى كمال واعتباره عاصياً متمرداً، وهو ما زاد في سخط الناس عليه مقارنة بكفاح كمال {cite:dawlat-uthmaniyya-salabi p. 468}."
   en: "Mehmed VI Vahdeddin — the last Ottoman sultan, in occupied Istanbul issuing the death warrant on Mustafa Kemal while the national resistance grew {cite:dawlat-uthmaniyya-salabi p. 468}."
@@ -14,6 +14,8 @@ regions: [anatolia-balkans]
 born: { edtf: "1861", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 died: { edtf: "1926", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
   - { type: successor_of, target: person/muhammad-v-rashad, sources: [source/dawlat-uthmaniyya-salabi] }
 
   - { type: lived_in, target: place/istanbul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }
@@ -25,3 +27,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-10
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1918", calendar: julian, precision: year }, end: { edtf: "1922", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

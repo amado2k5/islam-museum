@@ -4,7 +4,7 @@ label: { ar: "إبراهيم الأول" }
 names:
   - { kind: full, lang: ar, value: "إبراهيم بن أحمد الأول" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 died: { edtf: "1648", hijri: "1058", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "قُتل بعد عزله؛ امتد حكمه ثماني سنين وتسعة أشهر وكان عمره ٣٤ سنة." }
 summary:
   ar: "السلطان إبراهيم بن أحمد؛ تولى الحكم وأحوال الدولة مضطربة، وفي عهده جهز العثمانيون الجيوش والأسطول وأعلنوا الحرب على البنادقة التي كانت تهيمن على جزيرة كريت والحركة التجارية في بحر إيجة، فاعتُقل جميع البنادقة في طول البلاد وعرضها وصودرت أموالهم وسيّرت حملة إلى جزيرة كريت عام ١٠٥٥هـ/١٦٤٥م فاستولت على أجزاء منها. لكن الجنود تمردوا في استانبول وقرروا عزله وتولية ابنه محمد الرابع الذي لم يتم السابعة من عمره، فقُتل إبراهيم وقد امتد حكمه ثماني سنين وتسعة أشهر وكان عمره أربعاً وثلاثين سنة {cite:dawlat-uthmaniyya-salabi p. 307}."
@@ -13,6 +13,8 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
   - { type: born_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
@@ -24,3 +26,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-4
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1640", calendar: julian, precision: year }, end: { edtf: "1648", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

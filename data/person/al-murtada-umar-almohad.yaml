@@ -20,4 +20,8 @@ provenance:
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1248", calendar: julian, precision: year }, end: { edtf: "1266", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

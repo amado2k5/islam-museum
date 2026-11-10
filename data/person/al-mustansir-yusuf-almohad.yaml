@@ -6,6 +6,7 @@ summary:
   ar: "أبو يعقوب يوسف بن محمد بن الأمير يعقوب المنصور الموحدي، الملقب بالمستنصر؛ وُلي الخلافة بعد أبيه الناصر وكان شاباً مشغوفاً براحته، وعند موته اتفق أن بايعت الدولة عمه عبد الواحد بن يوسف بن عبد المؤمن لكبر سنه {cite:wafayat-ayan}."
   en: "Abu Ya'qub Yusuf ibn Muhammad ibn Amir Ya'qub al-Mansur al-Muwahhidi, called al-Mustansir. He succeeded his father al-Nasir; he was a young man fond of his ease. At his death, because his uncle was of advanced age, the state gave its allegiance to his uncle Abd al-Wahid ibn Yusuf ibn Abd al-Mu'min {cite:wafayat-ayan}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
@@ -15,9 +16,13 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch99
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/muhammad-al-nasir-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
   - { type: ruled_over, target: place/maghreb, note: "Almohad caliph succeeding his father al-Nasir.", sources: [source/wafayat-ayan], confidence: high }
   - { type: lived_in, target: place/marrakesh, note: "Almohad seat at Marrakesh; flagged for review.", sources: [source/wafayat-ayan], confidence: low }
 sources: [source/wafayat-ayan]
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1213", calendar: julian, precision: year }, end: { edtf: "1224", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

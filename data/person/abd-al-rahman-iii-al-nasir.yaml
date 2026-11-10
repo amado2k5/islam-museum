@@ -13,6 +13,7 @@ summary:
   en: "The Andalusian amir Abd al-Rahman ibn Muhammad the Umayyad; as the umma weakened he grew resolute — 'I am the worthiest of the caliphate' — styled amir al-mu'minin al-Nasir li-Din Allah, mastered most of al-Andalus, rooted out the usurpers and took seventy fortresses {cite:tarikh-khulafa-minhaj-1434 p. 605}."
   ur: "اندلس کے اموی حکمران عبد الرحمن بن محمد، جنہوں نے الناصر لدین اللہ اور امیر المؤمنین کے القاب اختیار کیے اور اندلس کے بیشتر حصے پر اپنی حکومت مضبوط کی۔ {cite:tarikh-khulafa-minhaj-1434}"
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -28,4 +29,7 @@ status:
   review: published
   completeness: 3
 relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
   - { type: ruler_of, target: place/al-andalus, note: "From text: صاحب الأندلس", sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/nafh-tib-maqqari, source/shadharat-dhahab], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "929", calendar: julian, precision: year }, end: { edtf: "961", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }

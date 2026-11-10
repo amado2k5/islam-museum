@@ -5,6 +5,7 @@ summary:
   ar: "خليفة عباسي [٥٥٥–٥٦٦هـ]، رفع المكس بالعراق وكان شديداً على المفسدين سجن رجلاً كان يسعى بالناس فحضر رجل وبذل فيه عشرة آلاف دينار فقال أنا أعطيك عشرة آلاف دينار ودلني على آخر مثله لأحبسه وأكف شره، وقال ابن النجار كان موصوفاً بالفهم الثاقب والرأي الصائب والذكاء الغالب والفضل الباهر له نظم بديع ونثر بليغ ومعرفة بعمل آلات الفلك والإسطرلاب، وفي أول خلافته مات الفائز صاحب مصر وقام العاضد آخر خلفاء بني عبيد، ومات في ثمان ربيع الآخر سنة ست وستين {cite:tarikh-khulafa-minhaj-1434 p. 678-679}."
   en: "Abbasid caliph [555–566]; he lifted Iraq's tolls and was hard on mischief-makers — to the man offering ten thousand dinars for a prisoner he answered 'take them, and show me another like him to jail'. Ibn al-Najjar praises his piercing mind and his craft of astrolabes and spheres. In his first year al-Adid, last of the Ubaydids, rose in Egypt; he died 8 Rabi' II 566 {cite:tarikh-khulafa-minhaj-1434 p. 678-679}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
@@ -18,6 +19,10 @@ status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "1116", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 died: { edtf: "1170", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1160", calendar: julian, precision: year }, end: { edtf: "1170", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

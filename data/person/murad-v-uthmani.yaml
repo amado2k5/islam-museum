@@ -4,7 +4,7 @@ label: { ar: "مراد الخامس" }
 names:
   - { kind: full, lang: ar, value: "مراد الخامس بن عبد المجيد الأول" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 born: { edtf: "1840", hijri: "1256-07-25", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "ولد ٢٥ رجب ١٢٥٦هـ/١٨٤٠م." }
 died: { edtf: "1904~", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "توفي في قصر جراغان عن نحو ٦٤ عاماً." }
 summary:
@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/modern-era]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: child_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/abd-al-aziz-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
@@ -30,3 +31,5 @@ provenance:
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1876", calendar: julian, precision: year }, end: { edtf: "1876", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

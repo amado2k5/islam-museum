@@ -22,6 +22,7 @@ summary:
     met a band of Kutama — they liked his state, he went with them to the Maghreb, the Mahdi's first affair {cite:tarikh-khulafa-minhaj-1434
     p. 568}.
 gender: male
+roles: [caliph]
 wings:
 - people
 periods:
@@ -37,16 +38,17 @@ external_ids:
 born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2)" }
 died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2)" }
 relations:
+- { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - type: born_in
   target: place/askar-mukram
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
   note: Wikidata P19 place of birth (Wikidata Q5866194)
 - type: died_in
   target: place/al-mahdiyya
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
   note: Wikidata P20 place of death (Wikidata Q466054)
 sources:
@@ -59,3 +61,5 @@ status:
   review: draft
   completeness: 1
   generated_by: Devin (SWE-2 High)
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "909", calendar: julian, precision: year }, end: { edtf: "934", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

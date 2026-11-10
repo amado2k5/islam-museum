@@ -1,5 +1,6 @@
 id: person/muhammad-al-nasir-almohad
 class: person
+roles: [caliph]
 label: { ar: "محمد الناصر بن المنصور الموحدي" }
 summary:
   ar: "خليفة الموحدين ابن أبي يوسف يعقوب المنصور؛ كاتبه الثوار بالمغرب وأهل العدوة وأحكم ولاياتهم، ونازل ابن غانية بإفريقية وتسلم المهدية سنة 603هـ وولى على أشغالها أبا محمد بن الشيخ أبي حفص، ثم خرج من مراكش سنة 609هـ إلى أشبيلية مستعداً للغزو فانكشف المسلمون يوم العقاب أواخر صفر منها وهلك راجعاً إلى مراكش في شعبان سنة 610هـ {cite:tarikh-ibn-khaldun-ibar p. 1681-1682}."
@@ -8,6 +9,8 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb, andalus-europe]
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
   - { type: child_of, target: person/abu-yusuf-yaqub-almansur, sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar] }
   - { type: traveled_to, target: place/seville, sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab] }
@@ -20,3 +23,5 @@ provenance:
 external_ids: { wikidata: "Q715749" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1199", calendar: julian, precision: year }, end: { edtf: "1213", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

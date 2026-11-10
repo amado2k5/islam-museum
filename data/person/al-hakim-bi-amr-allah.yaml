@@ -6,6 +6,7 @@ summary:
   en: "Mansur ibn al-Aziz, sixth Ubaydid caliph, titled al-Hakim bi-Amr Allah {cite:tarikh-khulafa-minhaj-1434 p. 636}. Al-Maqrizi says he disappeared in Shawwal 411 AH, and prefers the account of a man who confessed to killing him in 415 AH {cite:khitat-maqrizi-1998 p.2041}."
   ur: "منصور بن العزیز، چھٹے عبیدی خلیفہ، جن کا لقب الحاکم بامر اللہ تھا؛ مقریزی 411ھ میں ان کے غائب ہونے کا ذکر کرتے ہیں۔ {cite:khitat-maqrizi-1998}"
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -25,6 +26,10 @@ education:
 born: { edtf: "985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hakim bi-Amr Allah' / Heinz Halm)" }
 died: { edtf: "1021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hakim bi-Amr Allah' / Heinz Halm)" }
 relations:
+  - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-aziz-fatimid, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
   - { type: ruler_of, target: place/misr, note: "Sixth Ubaydid (Fatimid) caliph ruling from Cairo.", sources: [source/tarikh-khulafa-minhaj-1434, source/khitat-maqrizi-1998, source/shadharat-dhahab], confidence: high }
   - { type: built, target: building/mosque-of-al-hakim, sources: [source/yeomans-islamic-cairo-2006] }
 sensitivity: contested
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "996", calendar: julian, precision: year }, end: { edtf: "1021", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }

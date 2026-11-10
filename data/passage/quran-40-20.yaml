@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور خدا سچائی کے ساتھ حکم فرماتا ہے اور جن کو یہ لوگ پکارتے ہیں وہ کچھ بھی حکم نہیں دے سکتے۔ بےشک خدا سننے والا (اور) دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: concept/asma-al-basir, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-sami, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

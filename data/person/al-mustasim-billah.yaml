@@ -10,6 +10,7 @@ summary:
   en: "Abbasid caliph [640–656], the last of Baghdad — raised over his fierce uncle al-Khafaji for his softness, that the duwaydar and sharabi might rule. Empty of counsel, he cut most of the host his father had mustered on al-Alqami's advice, while the vizier wrote secretly to the Tatars meaning to move the caliphate to the Alids — 'and al-Musta'sim wandered in his pleasures' {cite:tarikh-khulafa-minhaj-1434 p. 703,710-711}."
   ur: "640 تا 656 ہجری کے عباسی خلیفہ اور بغداد کے آخری عباسی حکمران؛ موجودہ عربی روایت ان کی تخت نشینی اور ہلاکو کی آمد کے بعد 656 ہجری میں ان کے قتل کا ذکر کرتی ہے۔ {cite:shadharat-dhahab}"
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/mongol-post-mongol]
 provenance:
@@ -23,8 +24,11 @@ provenance:
     run: explorer-sixth-40-stories-2026-11-04
     source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/baghdad, note: "From text: of Baghdad", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan], confidence: low }
   - { type: successor_of, target: person/al-mustansir-billah, role: "بويع لولده عبد الله بعده", sources: [source/shadharat-dhahab] }
 external_ids: { wikidata: "Q293454" }
 sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1242", calendar: julian, precision: year }, end: { edtf: "1258", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

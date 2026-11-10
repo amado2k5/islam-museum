@@ -11,6 +11,7 @@ summary:
 relations:
   - { type: basis_for, target: concept/adab, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: mentions, target: person/abu-hurayra, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: concept/asma-al-akhir, sources: [source/ibn-rajab-jami-ulum-hikam] }
 provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 15 pp. 314–342", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-6" }
 sources: [source/ibn-rajab-jami-ulum-hikam]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 314, variant wordings and the two-rights division from pp. 314–315" }

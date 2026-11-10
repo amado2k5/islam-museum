@@ -27,6 +27,7 @@ faith:
 labelled:
   - { label: { en: "al-Faruq (the one who distinguishes truth from falsehood)", ar: "الفاروق" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: ruled_over, target: polity/rashidun-caliphate, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "من المهاجرين الأولين في مدد أبي عبيدة", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }

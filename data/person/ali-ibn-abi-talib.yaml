@@ -18,6 +18,8 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-ishaq-guillaume] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0656", calendar: julian, precision: year }, end: { edtf: "0661", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
+  - { type: ruled_over, target: polity/rashidun-caliphate, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: successor_of, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: participated_in, target: event/ali-expeditions-to-yemen, role: "أمير الجيش؛ غزا اليمن مرتين", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "بعثه النبي بسيفه ليردّ ما أُخذ من جذام", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }

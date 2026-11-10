@@ -12,6 +12,7 @@ summary:
   en: "Abbasid caliph [363–381], al-Mu'ti's son, hailed when his father suffered paralysis at Subuktakin's counsel — the deed done Wednesday 13 Dhu'l-Qa'da 363; al-Dhahabi says father and son were alike helpless among the Buyids {cite:tarikh-khulafa-minhaj-1434 p. 624}."
   ur: "عباسی خلیفہ، جنہوں نے اپنے والد مطیع کے بعد ۳۶۳ھ میں خلافت سنبھالی؛ ان کا دور آل بویہ کے سیاسی غلبے میں گزرا۔ {cite:kamil-ibn-al-athir}"
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -24,7 +25,11 @@ provenance:
 born: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 died: { edtf: "1003", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/baghdad, note: "Abbasid caliph 363-381 at Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Died in 381; Baghdad court context, flagged.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
 sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "974", calendar: julian, precision: year }, end: { edtf: "991", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

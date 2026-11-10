@@ -6,6 +6,7 @@ summary:
   ar: "أبو محمد عبد الله بن الأمير يعقوب المنصور الموحدي، الملقب بالعادل؛ لما تولى عبد الواحد بمراكش كان بالأندلس فامتنع بمرسية ورأى أنه أحق بالأمر، فزحف نحو المغرب وقاسى شدائد في طريقه وقاتل أخاه أبا العلا إدريس الذي استبد بالأمر وتلقب بالمأمون {cite:wafayat-ayan}."
   en: "Abu Muhammad Abd Allah, son of the amir Ya'qub al-Mansur al-Muwahhidi, known as al-Adil. When Abd al-Wahid took power at Marrakesh he was in al-Andalus and held out at Murcia, believing himself more entitled to the command; he marched toward the Maghrib, endured hardships on the way, and fought his brother Abu al-Ala Idris, who had seized the command and styled himself al-Ma'mun {cite:wafayat-ayan}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
@@ -19,5 +20,9 @@ status:
   review: published
   completeness: 3
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/abd-al-wahid-al-makhlu-almohad, sources: [source/bayan-mughrib-idhari] }
   - { type: lived_in, target: place/murcia, note: "Held out at Murcia in al-Andalus when Abd al-Wahid took power at Marrakesh.", sources: [source/wafayat-ayan], confidence: medium }
   - { type: traveled_to, target: place/marrakesh, note: "Marched on the Maghreb capital claiming the Almohad command.", sources: [source/wafayat-ayan], confidence: medium }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1224", calendar: julian, precision: year }, end: { edtf: "1227", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

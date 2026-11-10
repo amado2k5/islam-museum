@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور یہ کتاب جو ہم نے تمہاری طرف بھیجی ہے برحق ہے۔ اور ان (کتابوں) کی تصدیق کرتی ہے جو اس سے پہلے کی ہیں۔ بےشک خدا اپنے بندوں سے خبردار (اور ان کو) دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

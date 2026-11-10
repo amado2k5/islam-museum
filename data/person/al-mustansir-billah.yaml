@@ -8,6 +8,7 @@ summary:
   en: "Abbasid caliph [623–640], hailed Rajab 623; builder of the Mustansiriyya — four madhhab chairs, bimaristan, kitchen, hammam, 70,000-mithqal waqf. His host once routed the Tatars; in 632 he struck silver dirhams to spare people usurious gold-cutting. His fierce brother al-Khafaji was passed over for his mild son Ahmad {cite:tarikh-khulafa-minhaj-1434 p. 702-704}."
   ur: "بغداد کے عباسی خلیفہ، جنہوں نے ۶۲۳ھ سے ۶۴۰ھ تک حکومت کی اور چار فقہی مذاہب کی تدریس کے لیے مدرسۂ مستنصریہ قائم کیا۔ {cite:tarikh-khulafa-minhaj-1434}"
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 provenance:
@@ -18,6 +19,8 @@ provenance:
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-zahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
@@ -25,3 +28,5 @@ relations:
 external_ids: { wikidata: "Q293545" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1226", calendar: julian, precision: year }, end: { edtf: "1242", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

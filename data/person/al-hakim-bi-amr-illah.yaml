@@ -6,6 +6,7 @@ summary:
   en: "Second Cairo caliph [661–701], of al-Mustarshid's line — he escaped the sack to the Arabs, fought the Tatars at Ana, Haditha, Hit and Anbar, reigned first at Aleppo where Abd al-Halim ibn Taymiyya swore him, then ruled Cairo forty years, first Abbasid buried by Sayyida Nafisa {cite:tarikh-khulafa-minhaj-1434 p. 725,731}. At his Cairo bay'a on 8 Muharram 661 Baybars extended his hand and swore first, then the notables, and al-Hakim invested Baybars with the sultanate; next day's khutba opened 'Praise God who raised for the Abbasid house a pillar and a backer' — and the caliph was sequestered at the Citadel of the Mountain in 663 {cite:shadharat-dhahab p. 528-529, 542}."
 died: { edtf: "1302-01~", hijri: "0701-05-18~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الجمعة ثامن عشر جمادى الأولى سنة إحدى وسبع مئة {cite:tarikh-khulafa-minhaj-1434 p. 731}." }
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/mongol-post-mongol]
 provenance:
@@ -14,7 +15,11 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47
 relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-mustansir-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: ruler_of, target: place/cairo, note: "From text: ruled Cairo", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: participated_in, target: event/cairo-caliphate-baya-659, role: "الخليفة بعد المستنصر — بيعته بمصر ثامن المحرم 661", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1262", calendar: julian, precision: year }, end: { edtf: "1302", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

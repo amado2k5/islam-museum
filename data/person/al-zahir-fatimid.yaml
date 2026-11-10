@@ -5,6 +5,7 @@ summary:
   ar: "سابع ملوك الدولة العبيدية، علي بن الحاكم، قام بعد أبيه لما قتل بحلوان سنة إحدى عشرة وأربع مئة ولقب بالظاهر لإعزاز دين الله وتضعضعت دولتهم في أيامه فخرجت عنهم حلب وأكثر الشام، ومات سنة ثمان وعشرين وأقيم ابنه المستنصر معد وهو ابن سبع سنين {cite:tarikh-khulafa-minhaj-1434 p. 639,644}. ويروي ابن الجوزي أن ست الملك بعد أن دفنت أباه المقتول على المقطم وسترت الأمر ثلاثة أيام أخرجته إلى الناس فبُويع له وألبسته تاج المعز ونصبته ولي العهد سنة ٤١١ {cite:muntazam-ibn-al-jawzi j.7 p.303-304}. وفي المنتظم أنه توفي يوم الأحد النصف من شعبان سنة سبع وعشرين وأربعمائة وكان عمره ثلاثين سنة إلا أشهرًا فكانت ولايته ست عشرة سنة وتسعة أشهر، وولي بعده ولده ولُقّب المستنصر بالله {cite:muntazam-ibn-al-jawzi j.8 p.432}."
   en: "Ali ibn al-Hakim, seventh Ubaydid caliph as al-Zahir li-I'zaz Din Allah; his rule weakened — Aleppo and most of Syria lost — and he died in 428, succeeded by his seven-year-old son al-Mustansir {cite:tarikh-khulafa-minhaj-1434 p. 639,644}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-early]
 provenance:
@@ -18,4 +19,8 @@ status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "1005", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
 died: { edtf: "1036", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
 relations:
+  - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/al-sham, note: "From text: of Syria", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "1021", calendar: julian, precision: year }, end: { edtf: "1036", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

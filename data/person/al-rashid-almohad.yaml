@@ -7,10 +7,12 @@ summary:
   ar: عبد الواحد بن المأمون الملقب بالرشيد، بويع بعد هلاك أبيه سنة 630هـ وهزم يحيى بن الناصر ودخل مراكش، واشترط عليه مشيخة الموحدين إعادة رسوم الدعوة المهدية التي كان أبوه محاها فأعيدت، ودبّر في استدراج أمير الخلط مسعود بن حميدان فقتله، وملك إلى أن قتل سنة 640هـ.
   en: Abd al-Wahid ibn al-Ma'mun, titled al-Rashid; acclaimed after his father's death in 630 AH, he defeated Yahya ibn al-Nasir and entered Marrakesh, restoring at the Almohad shaykhs' condition the Mahdi rites his father had erased, and contrived the killing of the Arab commander Mas'ud ibn Humaydan, ruling until his death in 640 AH.
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 traditions: [sunni]
 died: { edtf: "1242", hijri: "0640", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 640هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
 relations:
+- { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }
+- { type: successor_of, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
 - type: lived_in
   target: place/maghreb
   note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review."
@@ -19,11 +21,11 @@ relations:
 - type: child_of
   target: person/al-mamun-almohad
   sources:
-  - source/tarikh-ibn-khaldun-ibar
+- source/tarikh-ibn-khaldun-ibar
 - type: ruler_of
   target: polity/almohad-caliphate
   sources:
-  - source/tarikh-ibn-khaldun-ibar
+- source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
@@ -38,3 +40,5 @@ provenance:
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1232", calendar: julian, precision: year }, end: { edtf: "1242", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

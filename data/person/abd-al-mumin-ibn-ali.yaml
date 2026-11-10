@@ -5,6 +5,7 @@ summary:
   ar: "عبد المؤمن بن علي من قبيلة كومية؛ لقي ابن تومرت عند ملالة واختص به وشمر للأخذ عنه ثم كان خليفته في دولة الموحدين التي نجمت على يديه وجمعت المغربين {cite:tarikh-ibn-khaldun-ibar p. 1669}."
   en: "Abd al-Mumin ibn Ali of Kumiyya; he met Ibn Tumart at Mellala, devoted himself to him, and became the caliph of the Almohad empire that united both Maghrebs {cite:tarikh-ibn-khaldun-ibar p. 1669}."
 gender: male
+roles: [caliph]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 provenance:
@@ -18,4 +19,7 @@ status: { review: draft, completeness: 1, generated_by: "en label draft (Claude 
 born: { edtf: "1094", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
 died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi: Almohad Caliph" }
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/qumm, note: "Place association from the person's nisba/name (القمي); denotes association, not proven residence.", sources: [source/tarikh-ibn-khaldun-ibar], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1147", calendar: julian, precision: year }, end: { edtf: "1163", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

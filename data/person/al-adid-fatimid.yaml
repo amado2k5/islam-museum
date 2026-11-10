@@ -23,6 +23,7 @@ summary:
   ur: مصر کے آخری فاطمی خلیفہ تھے۔ ان کے عہد میں پہلے شیرکوہ اور پھر صلاح الدین وزیر بنے، اور ان کی وفات کے قریب مصر میں عباسی
     خطبہ بحال ہوا۔ {cite:shadharat-dhahab}
 gender: male
+roles: [caliph]
 wings:
 - people
 periods:
@@ -71,15 +72,19 @@ status:
   completeness: 1
   generated_by: Devin (SWE-2 High)
 relations:
+- { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: successor_of, target: person/al-faiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - type: born_in
   target: place/cairo
   note: Wikidata Q85 (P19); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: died_in
   target: place/cairo
   note: Wikidata Q85 (P20); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "1160", calendar: julian, precision: year }, end: { edtf: "1171", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

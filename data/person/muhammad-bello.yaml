@@ -41,6 +41,7 @@ died:
   sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello]
 
 relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammad-bello-en, source/wikidata-muhammad-bello] }
   - { type: child_of, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ur] }
   - { type: sibling_of, target: person/nana-asmau, sources: [source/wikipedia-muhammad-bello-en] }
   - { type: successor_of, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-usman-dan-fodio-ur] }
@@ -75,3 +76,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: "wave-158j"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1817", calendar: julian, precision: year }, end: { edtf: "1837", calendar: julian, precision: year }, status: historical, sources: [source/wikipedia-muhammad-bello-en, source/wikidata-muhammad-bello] }

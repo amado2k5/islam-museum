@@ -28,6 +28,7 @@ summary:
   ur: عباسی خلیفہ، جن کا عہد 575–622ھ پر محیط تھا۔ سیوطی ان کے طویل اقتدار، مختلف درباروں سے رابطوں، حدیث میں دلچسپی اور ان
     کی حکومت کے بارے میں مختلف مؤرخین کی آرا نقل کرتے ہیں۔ {cite:tarikh-khulafa-minhaj-1434 p. 686-690}
 gender: male
+roles: [caliph]
 wings:
 - people
 periods:
@@ -58,21 +59,25 @@ status:
 born: { edtf: "1158", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 died: { edtf: "1225", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
 relations:
+- { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: successor_of, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - type: born_in
   target: place/baghdad
   note: Wikidata Q1530 (P19); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: died_in
   target: place/baghdad
   note: Wikidata Q1530 (P20); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
 - type: lived_in
   target: place/abbasid-caliphate
   note: Wikidata Q12536 (P27); corroboration recommended.
   sources:
-  - source/wikidata
+- source/wikidata
   confidence: medium
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1180", calendar: julian, precision: year }, end: { edtf: "1225", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
