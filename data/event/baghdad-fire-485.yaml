@@ -12,6 +12,7 @@ date:
   start: { edtf: "1092-07~", hijri: "0485-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة سنة 485؛ التحويل مشتق {cite:shadharat-dhahab p. 376}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
