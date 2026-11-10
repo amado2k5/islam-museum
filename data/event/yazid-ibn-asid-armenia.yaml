@@ -16,6 +16,8 @@ relations:
   - { type: occurred_at, target: place/shirwan }
   - { type: had_participant, target: person/al-mansur, role: "الخليفة المولّي وآمر المصاهرة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/yazid-ibn-asid, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 295"

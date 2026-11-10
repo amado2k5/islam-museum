@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/al-mansur, role: "المشيّع المنفق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/rawh-ibn-hatim, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-fadl-ibn-rawh, role: "المذبوح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326"
