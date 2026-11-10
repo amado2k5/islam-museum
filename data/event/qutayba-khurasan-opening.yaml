@@ -12,6 +12,9 @@ relations:
   - { type: had_participant, target: person/nasr-ibn-sayyar, role: "في جيش صالح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/nuh-ibn-asad, role: "آخر فاتحي كاسان وأورشت", sources: [source/futuh-buldan-maarif-1407] }
 wings: [time]
+sides:
+  - label: { ar: "المسلمون بقيادة قتيبة بن مسلم", en: "The Muslims under Qutayba ibn Muslim" }
+  - label: { ar: "أهل ما وراء النهر", en: "The people of Transoxiana" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

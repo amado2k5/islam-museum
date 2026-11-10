@@ -19,6 +19,9 @@ relations:
   - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الآمر بالجيش", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/musa-ibn-bugha, role: "قائد الحملة المنهارة", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العباسي بقيادة موسى بن بغا", en: "The Abbasid army under Musa ibn Bugha" }
+  - label: { ar: "قوات ابن طولون", en: "Ibn Tulun's forces" }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research
