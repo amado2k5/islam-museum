@@ -21,4 +21,5 @@ died: { edtf: "1106", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: died_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q101625)" }
 sources: [source/wafayat-ayan, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

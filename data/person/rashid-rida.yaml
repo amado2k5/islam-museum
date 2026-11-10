@@ -17,6 +17,7 @@ relations:
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/stoddard-arslan-hadir-1923]
 # Verification: one source (Arslan's praise, written by a contemporary and friend, so not neutral). Works and dates need checking against a second source before publication.
+importance: 1
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research

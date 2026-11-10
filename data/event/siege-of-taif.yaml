@@ -54,6 +54,7 @@ map:
     - { type: point, role: event_point, label: { ar: "حصار الطائف", en: "The siege of Ta'if" }, at: [21.27, 40.42], precision: locality, source: source/geonames-gazetteer }
   sources: [source/geonames-gazetteer]
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
 provenance:
   layer: own-research

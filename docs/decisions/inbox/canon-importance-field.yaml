@@ -1,0 +1,5 @@
+question: "Should the museum mark a canon of cornerstone and major records with an optional `importance` field (1 or 2) on the entity, selected by a recorded rule (graph weave plus Wikidata sitelink reach) with a short editorial include list, so that finishing, featuring and search ranking can key off it?"
+class: "process"
+lane: "canon"
+options: ["optional importance field on the entity, set by scripts/report/canon.py", "side list file outside the graph", "no canon marker"]
+evidence: ["Founder chose 'Canonical pages first' in chat on 10 November 2026 after the repository and site analysis", "docs/canon.md: 824 records selected, 444 under 300 Arabic words, 526 draft", "AGENTS.md: every feature keeps its records in the one graph, never a side table", "The field is not rendered or exported yet, so no page and no API file changes; removing it is one script run"]
