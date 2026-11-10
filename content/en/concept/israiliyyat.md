@@ -21,3 +21,6 @@ The academic study of how the Israʾiliyyat arose and spread has not yet been ad
 
 ## In two tafsir editions
 The editors of Tahdhib Tafsir al-Baghawi dropped the reports transmitted from the People of the Book (Isra'iliyyat) from their abridgement, while keeping al-Baghawi's wording in the rest. {cite:tahdhib-tafsir-baghawi-tayba-2009 p.3} {cite:tahdhib-tafsir-baghawi-tayba-2009 p.4} Khalil Ma'mun Shiha, in the introduction to his edition of al-Kashshaf, says al-Zamakhshari usually introduced such reports with "it is reported", signalling weakness, or left their truth to God, or noted their grade. {cite:kashshaf-dar-al-marifa-shiha-2009 p.15}
+
+## In the context of the unseen
+Israelite reports on the unseen are narrated without affirmation or denial — scholars grade them three ways.
