@@ -13,7 +13,10 @@ date:
   end: { edtf: "1296", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Emirate of Granada", ar: "مملكة غرناطة" }
+  - label: { en: "Crown of Castile", ar: "تاج قشتالة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131744871
 provenance:

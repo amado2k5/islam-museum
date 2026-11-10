@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Khanate of Khiva", ar: "خانية خيوة" }
+  - label: { en: "Red Army", ar: "الجيش الأحمر" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q136762848
 provenance:

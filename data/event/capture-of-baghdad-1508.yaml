@@ -11,7 +11,10 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1508", precision: year, status: tradition, derived: true }
   end: { edtf: "1508", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
+  - label: { en: "Aq Qoyunlu", ar: "آق قويونلو" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12216247
 provenance:

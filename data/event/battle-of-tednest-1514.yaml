@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1514", precision: year, status: tradition, derived: true }
   end: { edtf: "1514", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+  - label: { en: "Saadi dynasty", ar: "الدولة السعدية" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q116345741
 provenance:

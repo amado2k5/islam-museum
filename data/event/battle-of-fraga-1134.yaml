@@ -11,7 +11,10 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1134", precision: year, status: tradition, derived: true }
   end: { edtf: "1134", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+  - label: { en: "Kingdom of Aragon", ar: "مملكة أرغون" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q1369629
 provenance:

@@ -11,7 +11,10 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1862", precision: year, status: tradition, derived: true }
   end: { edtf: "1862", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Dutch Empire", ar: "الإمبراطورية الهولندية" }
+  - label: { en: "Sultanate of Banjar", ar: "سلطنة بنجر" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q134272435
 provenance:

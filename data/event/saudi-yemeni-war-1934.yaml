@@ -13,6 +13,9 @@ date:
   end: { edtf: "1934", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-tambari, sources: [source/wikidata] }
+sides:
+  - label: { en: "Saudi Arabia", ar: "السعودية" }
+  - label: { en: "Kingdom of Yemen", ar: "المملكة المتوكلية اليمنية" }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q1367731

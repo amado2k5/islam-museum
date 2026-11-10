@@ -11,7 +11,10 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1889", precision: year, status: tradition, derived: true }
   end: { edtf: "1889", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mahdist Sudan", ar: "الدولة المهدية" }
+  - label: { en: "Ethiopian Empire", ar: "الإمبراطورية الإثيوبية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q1785947
 provenance:

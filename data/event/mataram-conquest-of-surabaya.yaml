@@ -11,7 +11,10 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1614", precision: year, status: tradition, derived: true }
   end: { edtf: "1625", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mataram Sultanate", ar: "سلطنة ماتارام" }
+  - label: { en: "Duchy of Surabaya", ar: "دوقية سورابايا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q27958661
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1669", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Safavid dynasty", ar: "السلالة الصفوية" }
+  - label: { en: "Stepan Razin", ar: "ستينكا رازين" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4090333
 provenance:

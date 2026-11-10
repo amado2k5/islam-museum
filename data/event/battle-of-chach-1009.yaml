@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1009", precision: year, status: tradition, derived: true }
   end: { edtf: "1009", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Ghaznavids", ar: "السلالة الغزنوية" }
+  - label: { en: "Hindu Shahis", ar: "سلاطين الهندوس" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q23043477
 provenance:

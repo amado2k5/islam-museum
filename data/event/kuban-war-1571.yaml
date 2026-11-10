@@ -13,7 +13,10 @@ date:
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Kabardia", ar: "قبارديا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q111936544
 provenance:

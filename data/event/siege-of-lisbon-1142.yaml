@@ -11,7 +11,10 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1142", precision: year, status: tradition, derived: true }
   end: { edtf: "1142", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
+  - label: { en: "Taifa of Badajoz", ar: "طائفة بطليوس" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q107087739
 provenance:

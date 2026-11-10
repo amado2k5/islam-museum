@@ -13,7 +13,10 @@ date:
   end: { edtf: "1411", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Kingdom of Tlemcen", ar: "مملكة تلمسان" }
+  - label: { en: "Marinid dynasty", ar: "الدولة المرينية" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q109237183
 provenance:

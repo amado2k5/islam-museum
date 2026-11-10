@@ -11,7 +11,10 @@ regions: [arabia]
 date:
   start: { edtf: "1823", precision: year, status: tradition, derived: true }
   end: { edtf: "1823", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mutayr", ar: "مطير" }
+  - label: { en: "Second Bani Khalid Emirate", ar: "الإمارة الخالدية الثانية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12245142
 provenance:

@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1117", precision: year, status: tradition, derived: true }
   end: { edtf: "1117", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ghaznavid Empire", ar: "الدولة الغزنوية" }
+  - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q16207166
 provenance:

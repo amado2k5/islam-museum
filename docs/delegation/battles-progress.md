@@ -37,3 +37,10 @@ Lane file: [`docs/agents/lanes/battles.md`](../agents/lanes/battles.md). Plan: [
 - Skipped by policy: modern records tied to designated terrorist organisations (Baghuz, Baiji, al-Mukalla, al-Qaryatayn, al-Rai, Batroun, al-Haffah…).
 - Coverage: ~1,050 of 3,251 military records now carry `sides`. Remaining ~2,200 have neither participant nor reign/place edges — each needs per-record source mining.
 - Still open: `outcome`, `casualties`, `occurred_at`/`part_of` edges; full `npm run build` end-to-end; Explore `ready` flip awaits founder.
+
+## 2026-11-11 — Wikidata-participant sides wave (PR #5940)
+
+- 668 draft-card military records gained `sides` from their linked Wikidata item's P710 `participant` claims — only where exactly two distinct participants exist, so each claim maps cleanly to one side. Labels are the participants' own Wikidata en/ar labels (35 missing ar labels supplied); the participant carrying a Wikidata religion claim of Islam is ordered first. `source/wikidata` added to citations.
+- Held back under the content-safety hard block: `ansariya-ambush-1997` (Hezbollah), `battle-of-ramadi-2014` (the designated group named by its Wikidata participants), `israeli-incursions-in-tulkarm-2023` (the Tulkarm Brigade) and `batroun-raid-2024` — consistent with the earlier modern-conflict skips.
+- Skipped: 161 records with one participant, ~430 with three or more (flat claim list cannot split sides), 2 with unlabeled participants, and the previously skipped ambiguous/terrorist-adjacent records.
+- Coverage: ~1,716 of 3,250 military records carry `sides`. The remaining ~1,534 have no usable participant data — genuine source mining required.

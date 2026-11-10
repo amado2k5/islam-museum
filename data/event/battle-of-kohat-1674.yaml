@@ -13,7 +13,10 @@ date:
   end: { edtf: "1674", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Afridi", ar: "الأفريدي" }
+  - label: { en: "Bangash", ar: "بنغاش" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139916073
 provenance:

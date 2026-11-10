@@ -11,7 +11,10 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1821", precision: year, status: tradition, derived: true }
   end: { edtf: "1821", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+  - label: { en: "Souliotes", ar: "السوليون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q52482375
 provenance:

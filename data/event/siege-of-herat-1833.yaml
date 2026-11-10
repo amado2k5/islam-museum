@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1833", precision: year, status: tradition, derived: true }
   end: { edtf: "1833", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Herat (1793-1863)", ar: "إمارة هراة" }
+  - label: { en: "Qajar Iran", ar: "الدولة القاجارية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131325158
 provenance:

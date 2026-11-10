@@ -13,7 +13,10 @@ date:
   end: { edtf: "1578", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Bruneian Sultanate", ar: "إمبراطورية بروناي" }
+  - label: { en: "Captaincy General of the Philippines", ar: "الكابتنية العامة للفلبين" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q123311451
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1659", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Banten Sultanate", ar: "سلطنة بنتن" }
+  - label: { en: "Dutch East India Company", ar: "شركة الهند الشرقية الهولندية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135110557
 provenance:

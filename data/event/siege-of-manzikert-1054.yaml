@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1054", precision: year, status: tradition, derived: true }
   end: { edtf: "1054", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+  - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q3636516
 provenance:

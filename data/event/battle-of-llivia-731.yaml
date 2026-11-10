@@ -13,7 +13,10 @@ date:
   end: { edtf: "0731", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+  - label: { en: "Uthman ibn Naissa", ar: "عثمان بن نايسا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q17605393
 provenance:

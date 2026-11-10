@@ -11,7 +11,10 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1251-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1251-02", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Ayyubid dynasty", ar: "الدولة الأيوبية" }
+  - label: { en: "Mamluk Sultanate of Egypt", ar: "الدولة المملوكية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125245989
 provenance:

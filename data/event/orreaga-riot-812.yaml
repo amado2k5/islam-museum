@@ -13,7 +13,10 @@ date:
   end: { edtf: "0812", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-amin, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Franks", ar: "فرنجة" }
+  - label: { en: "Vascones", ar: "الفاسكون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q124750905
 provenance:

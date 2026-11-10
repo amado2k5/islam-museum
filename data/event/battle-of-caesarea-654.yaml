@@ -13,7 +13,10 @@ date:
   end: { edtf: "0654", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+  - label: { en: "Rashidun Caliphate", ar: "الخلافة الراشدة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140779303
 provenance:

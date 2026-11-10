@@ -11,7 +11,10 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1054", precision: year, status: tradition, derived: true }
   end: { edtf: "1077", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
+  - label: { en: "Ghana Empire", ar: "مملكة غانا" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125931402
 provenance:

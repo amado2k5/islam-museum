@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "Principality of Transylvania", ar: "إمارة ترنسلفانيا" }
+  - label: { en: "Principality of Wallachia", ar: "الأفلاق" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q3565434
 provenance:

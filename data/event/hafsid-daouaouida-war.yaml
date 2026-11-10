@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1400", precision: year, status: tradition, derived: true }
   end: { edtf: "1500", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Hafsid dynasty", ar: "الدولة الحفصية" }
+  - label: { en: "Maghrebi Arabs", ar: "العرب المغاربيون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139547041
 provenance:

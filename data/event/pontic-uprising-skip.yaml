@@ -15,7 +15,10 @@ relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/abd-al-majid-ii, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Pontic Greeks", ar: "يونانيون بنطيون" }
+  - label: { en: "Turkish National Movement", ar: "الحركة التركية الوطنية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q15501395
 provenance:

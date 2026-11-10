@@ -13,7 +13,10 @@ date:
   end: { edtf: "1305", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+  - label: { en: "Delhi Sultanate", ar: "سلطنة دلهي" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q4870295
 provenance:

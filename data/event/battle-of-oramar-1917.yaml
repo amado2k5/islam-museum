@@ -13,7 +13,10 @@ date:
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Assyrian volunteers", ar: "متطوعون آشوريون" }
+  - label: { en: "Kurds", ar: "كرد" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q133270104
 provenance:

@@ -11,7 +11,10 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1065", precision: year, status: tradition, derived: true }
   end: { edtf: "1066", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Taifa of Granada", ar: "طائفة غرناطة" }
+  - label: { en: "Taifa of Seville", ar: "طائفة إشبيلية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135234373
 provenance:

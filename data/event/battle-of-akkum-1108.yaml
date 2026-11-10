@@ -13,7 +13,10 @@ date:
   end: { edtf: "1108", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Burid dynasty", ar: "بوريون" }
+  - label: { en: "County of Tripoli", ar: "كونتية طرابلس" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q9172715
 provenance:

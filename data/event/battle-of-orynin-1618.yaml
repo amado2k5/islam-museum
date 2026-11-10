@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/uthman-ii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Polish–Lithuanian Commonwealth", ar: "الكومنولث البولندي الليتواني" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q9173393
 provenance:

@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1204", precision: year, status: tradition, derived: true }
   end: { edtf: "1261", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Empire of Nicaea", ar: "إمبراطورية نيقية" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140680824
 provenance:

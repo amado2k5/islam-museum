@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1190", precision: year, status: tradition, derived: true }
   end: { edtf: "1190", precision: year, status: tradition, derived: true }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Holy Roman Empire", ar: "الإمبراطورية الرومانية المقدسة" }
+  - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q60524433
 provenance:

@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sides:
+  - label: { en: "French Third Republic", ar: "الجمهورية الفرنسية الثالثة" }
+  - label: { en: "Government of the Grand National Assembly", ar: "حكومة الجمعية الوطنية الكبرى" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1450532
 provenance:

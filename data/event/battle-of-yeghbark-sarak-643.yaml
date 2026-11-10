@@ -13,7 +13,10 @@ date:
   end: { edtf: "0643", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Rashidun Caliphate", ar: "الخلافة الراشدة" }
+  - label: { en: "Sasanian Armenia", ar: "أرمينيا الفارسية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q79881405
 provenance:

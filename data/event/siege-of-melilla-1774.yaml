@@ -11,7 +11,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1774", precision: year, status: tradition, derived: true }
   end: { edtf: "1775", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-ibn-khaldun-ibar]
+sides:
+  - label: { en: "Kingdom of Spain", ar: "مملكة إسبانيا" }
+  - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }
+sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:
   wikidata: Q4337399
 provenance:

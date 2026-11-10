@@ -13,7 +13,10 @@ date:
   end: { edtf: "1505", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Malacca sultanate", ar: "سلطنة ملقا" }
+  - label: { en: "Majapahit", ar: "ماجاباهيت" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q133825724
 provenance:

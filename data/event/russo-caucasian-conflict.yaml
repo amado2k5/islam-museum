@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1550", precision: year, status: tradition, derived: true }
   end: { edtf: "1864", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Russians", ar: "روس" }
+  - label: { en: "peoples of the Caucasus", ar: "شعوب القوقاز" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131238621
 provenance:

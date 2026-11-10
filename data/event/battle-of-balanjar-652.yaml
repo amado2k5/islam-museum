@@ -13,7 +13,10 @@ date:
   end: { edtf: "0652", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Khazars", ar: "خزر" }
+  - label: { en: "Rashidun Caliphate", ar: "الخلافة الراشدة" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q4870393
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1468", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Aq Qoyunlu", ar: "آق قويونلو" }
+  - label: { en: "Qara Qoyunlu", ar: "قره قويونلو" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q55707197
 provenance:

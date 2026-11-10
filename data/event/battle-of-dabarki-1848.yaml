@@ -11,7 +11,10 @@ regions: [east-africa]
 date:
   start: { edtf: "1848", precision: year, status: tradition, derived: true }
   end: { edtf: "1848", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Egypt eyalet", ar: "إيالة مصر" }
+  - label: { en: "Ethiopian Empire", ar: "الإمبراطورية الإثيوبية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q105298180
 provenance:

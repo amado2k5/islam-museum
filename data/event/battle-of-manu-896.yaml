@@ -13,7 +13,10 @@ date:
   end: { edtf: "0896-05", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Aghlabids", ar: "الدولة الأغلبية" }
+  - label: { en: "Nafusa", ar: "نفوسة" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q116947658
 provenance:

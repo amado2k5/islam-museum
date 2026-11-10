@@ -13,7 +13,10 @@ date:
   end: { edtf: "1236", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
+  - label: { en: "Mongol Empire", ar: "إمبراطورية المغول" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q129450776
 provenance:

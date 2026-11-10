@@ -13,7 +13,10 @@ date:
   end: { edtf: "1558", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Regency of Algiers", ar: "إيالة الجزائر" }
+  - label: { en: "Saadi dynasty", ar: "الدولة السعدية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q4117011
 provenance:

@@ -11,7 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0920", precision: year, status: tradition, derived: true }
   end: { edtf: "0920", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Emirate of Córdoba", ar: "إمارة قرطبة" }
+  - label: { en: "Kingdom of Leon", ar: "مملكة ليون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140321378
 provenance:

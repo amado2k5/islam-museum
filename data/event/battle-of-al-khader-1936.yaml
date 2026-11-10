@@ -13,6 +13,9 @@ date:
   end: { edtf: "1936", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-tambari, sources: [source/wikidata] }
+sides:
+  - label: { en: "Palestinians", ar: "فلسطينيون" }
+  - label: { en: "British Empire", ar: "الإمبراطورية البريطانية" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q12244109

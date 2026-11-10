@@ -13,7 +13,10 @@ date:
   end: { edtf: "1732-07", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Chechens", ar: "شيشانيون" }
+  - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q113017198
 provenance:

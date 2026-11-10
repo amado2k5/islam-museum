@@ -14,7 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Pashalik of Yanina", ar: "بشلك يانينة" }
+  - label: { en: "Souliotes", ar: "السوليون" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q55633531
 provenance:

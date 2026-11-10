@@ -13,7 +13,10 @@ date:
   end: { edtf: "1707-06-20", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Azim-ush-Shan", ar: "أظهر الدين عظيم الشأن" }
+  - label: { en: "Bahadur Shah I", ar: "قطب الدين بهادرشاه" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q21244903
 provenance:

@@ -10,7 +10,10 @@ periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 date:
   start: { edtf: "", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Qara'unas", ar: "قراوناس" }
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q110425494
 provenance:

@@ -13,7 +13,10 @@ date:
   end: { edtf: "1920-09", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Assyrians", ar: "آشوريون/سريان/كلدان" }
+  - label: { en: "Kurds", ar: "كرد" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q134126719
 provenance:

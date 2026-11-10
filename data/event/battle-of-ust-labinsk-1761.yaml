@@ -13,7 +13,10 @@ date:
   end: { edtf: "1761", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Crimean Khanate", ar: "خانية القرم" }
+  - label: { en: "Temirgoy people", ar: "شعب التميرغوي" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137603684
 provenance:

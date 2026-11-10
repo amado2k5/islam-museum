@@ -13,7 +13,10 @@ date:
   end: { edtf: "0702", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-al-tabari]
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+  - label: { en: "Ostikanate of Arminiya", ar: "إمارة أرمينية" }
+sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q4087416
 provenance:

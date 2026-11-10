@@ -13,7 +13,10 @@ date:
   end: { edtf: "1161", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Almohad Caliphate", ar: "الدولة الموحدية" }
+  - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q129994693
 provenance:

@@ -11,7 +11,10 @@ regions: [south-asia]
 date:
   start: { edtf: "1529", precision: year, status: tradition, derived: true }
   end: { edtf: "1756", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+  - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q123824645
 provenance:

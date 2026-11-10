@@ -13,7 +13,10 @@ date:
   end: { edtf: "1237", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Crown of Aragon", ar: "تاج أرغون" }
+  - label: { en: "Taifa of Valencia (third period)", ar: "طائفة بلنسية ⁦(الفترة الثالثة)⁩" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q2890815
 provenance:

@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1386-10-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1386-11-22", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
+  - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q21481366
 provenance:

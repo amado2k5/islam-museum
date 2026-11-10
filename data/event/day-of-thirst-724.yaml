@@ -11,7 +11,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0724", precision: year, status: tradition, derived: true }
   end: { edtf: "0724", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-al-tabari]
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+  - label: { en: "Türgesh", ar: "تورجش" }
+sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q5242954
 provenance:

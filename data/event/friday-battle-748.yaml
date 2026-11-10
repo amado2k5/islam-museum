@@ -13,7 +13,10 @@ date:
   end: { edtf: "0748", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sides:
+  - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
+  - label: { en: "Abbasids", ar: "بنو العباس" }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q110271591
 provenance:

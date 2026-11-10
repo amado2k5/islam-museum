@@ -13,7 +13,10 @@ date:
   end: { edtf: "0958", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/kamil-ibn-al-athir]
+sides:
+  - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+  - label: { en: "Hamdanid emirate of Aleppo", ar: "إمارة حمدانية في حلب" }
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q2889727
 provenance:
