@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "الشيخ المسمع", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-dhahabi, role: "السامع التلميذ", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

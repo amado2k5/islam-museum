@@ -15,6 +15,7 @@ map: { kind: siege, precision: locality, center: [36.2021, 37.1343] }
 date: { start: { edtf: "1260-01~", hijri: "0658-02-09~", calendar: julian, precision: day, status: tradition, derived: true, note: "النزول ثاني صفر والاقتحام تاسعه سنة ثمان وخمسين وستمائة {cite:shadharat-dhahab p. 298-299}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"

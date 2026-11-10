@@ -26,6 +26,7 @@ relations:
   - { type: had_participant, target: person/shaddad-ibn-abdullah-al-qanani, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/amr-ibn-abdullah-al-dibabi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: caused, target: event/mission-of-amr-ibn-hazm-to-najran, sources: [source/ibn-hisham-saqqa] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 239-241", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 239-241; single-source date flagged" }

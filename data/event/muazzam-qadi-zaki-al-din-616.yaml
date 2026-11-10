@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/sibt-ibn-al-jawzi, role: "الراوي والمعاتب للمعظم", sources: [source/mirat-al-zaman-risala-2013-v22] }
   - { type: had_participant, target: person/ibn-unayn, role: "الشاعر الهاجي", sources: [source/mirat-al-zaman-risala-2013-v22] }
   - { type: occurred_at, target: place/damascus, sources: [source/mirat-al-zaman-risala-2013-v22] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/mirat-al-zaman-risala-2013-v22]
 provenance:
   layer: own-research
