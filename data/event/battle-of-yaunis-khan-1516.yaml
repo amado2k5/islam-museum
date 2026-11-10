@@ -13,6 +13,11 @@ date:
   end: { edtf: "1516", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش العثماني بقيادة سليم الأول", en: "The Ottoman army under Selim I" }
+    commanders: [person/selim-i-uthmani]
+  - label: { ar: "الجيش المملوك بقيادة قانصوه الغوري", en: "The Mamluk army under Qansuh al-Ghawri" }
+    participants: [person/al-zahir-qansuh]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4872776

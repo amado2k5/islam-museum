@@ -13,6 +13,11 @@ date:
   end: { edtf: "1177", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "الجيش الصليبي بقيادة بلدوين الرابع", en: "The Crusader army under Baldwin IV" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q847287
