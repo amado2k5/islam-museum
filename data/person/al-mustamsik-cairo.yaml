@@ -10,6 +10,7 @@ summary:
   ur: "المستمسك، عباسی قاہرہ خلافت کے خلیفہ؛ 1497ء سے 1517۔ {cite:tarikh-khulafa-minhaj-1434}"
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1497", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1516", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/suluk-maqrizi] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
