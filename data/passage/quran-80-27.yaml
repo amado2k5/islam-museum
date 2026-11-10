@@ -16,6 +16,7 @@ translations:
   en: { text: "And cause the grain to grow therein", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر ہم ہی نے اس میں اناج اگایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/seeds-grain, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-80 }

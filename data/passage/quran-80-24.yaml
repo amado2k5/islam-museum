@@ -16,6 +16,7 @@ translations:
   en: { text: "Let man consider his food:", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو انسان کو چاہیئے کہ اپنے کھانے کی طرف نظر کرے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred

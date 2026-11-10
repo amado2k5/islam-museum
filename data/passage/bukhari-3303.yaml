@@ -1,0 +1,25 @@
+id: passage/bukhari-3303
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3303"
+label:
+  ar: "البخاري 3303 — صياح الديكة رأت مَلَكاً"
+  en: "Bukhari 3303 — The rooster's crow: it saw an angel"
+  ur: "بخاری 3303 — مرغ کی بانگ: اس نے فرشتہ دیکھا"
+text: "إِذَا سَمِعْتُمْ صِيَاحَ الدِّيَكَةِ فَاسْأَلُوا اللَّهَ مِنْ فَضْلِهِ، فَإِنَّهَا رَأَتْ مَلَكًا، وَإِذَا سَمِعْتُمْ نَهِيقَ الْحِمَارِ فَتَعَوَّذُوا بِاللَّهِ مِنَ الشَّيْطَانِ، فَإِنَّهُ رَأَى شَيْطَانًا"
+summary:
+  ar: "في كتاب بدء الخلق؛ عن أبي هريرة: إذا سمعتم صياح الديكة فاسألوا الله من فضله فإنها رأت ملكاً، وإذا سمعتم نهيق الحمار فتعوذوا بالله من الشيطان فإنه رأى شيطاناً."
+  en: "In the Book of the Beginning of Creation, from Abu Hurayra: when you hear the crowing of roosters ask God's bounty, for they have seen an angel; and when you hear the braying of donkeys seek refuge from Satan, for they have seen a Satan."
+  ur: "کتاب بدء الخلق میں ابو ہریرہ سے: جب مرغوں کی بانگ سنو تو اللہ کا فضل مانگو کہ انہوں نے فرشتہ دیکھا ہے، اور جب گدھے کی رینک سنو تو شیطان سے پناہ مانگو کہ اس نے شیطان دیکھا ہے۔"
+relations:
+  - { type: mentions, target: concept/rooster, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/donkey, sources: [source/sahih-al-bukhari] }
+tags: [nature-animal-hadith]
+provenance:
+  layer: own-research
+  source: "Hadith 3303 as on sunnah.com (canonical numbering), matn excerpt"
+  generated_by: "Devin (SWE-2 High)"
+  run: nature-browser-5
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against sunnah.com" }

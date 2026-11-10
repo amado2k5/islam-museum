@@ -16,6 +16,7 @@ translations:
   en: { text: "How We pour water in showers", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "بے شک ہم ہی نے پانی برسایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred
