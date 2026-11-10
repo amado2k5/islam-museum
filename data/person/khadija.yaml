@@ -14,7 +14,7 @@ names:
   - { kind: full, lang: ar, value: خديجة بنت خويلد بن أسد بن عبد العزى بن قصي }
 gender: female
 born: { edtf: "0555~", calendar: julian, precision: year, status: tradition, note: "Tradition places her birth around 555 CE, about fifteen years before the Prophet; the exact year is not certain.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0619-04~", calendar: julian, precision: month, status: tradition, note: "Traditionally Ramadan, three years before the Hijra (about April 619 CE), in the same period as Abu Talib's death.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0619", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Ramadan of the tenth year of the mission, aged sixty-five, after Banu Hashim left the ravine, and was buried at al-Hujun before the funeral prayer was instituted (al-Waqidi, al-Isaba pp. 1854-1856)", sources: [source/ibn-hajar-isaba] }
 roles: [merchant, companion]
 traditions: [sunni, shia-twelver]
 summary:
@@ -48,7 +48,7 @@ relations:
   - { type: participated_in, target: event/year-of-sorrow }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
 external_ids: { wikidata: "Q42034" }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/sahih-muslim, source/assabile-omar-abdelkafy, source/assabile-abla-al-kahlawi, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/assabile-tareq-al-suwaidan, source/usd-ghaba]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/sahih-al-bukhari, source/sahih-muslim, source/assabile-omar-abdelkafy, source/assabile-abla-al-kahlawi, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/assabile-tareq-al-suwaidan, source/usd-ghaba, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 35-48 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
 provenance:
   layer: own-research

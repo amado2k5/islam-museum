@@ -18,7 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
-died: { edtf: "660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina, 40 AH aged seventy-four (al-Waqidi); al-Marzubani gives 42 AH (al-Isaba p. 422); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/hijaz
@@ -49,6 +49,11 @@ relations:
   note: "al-Isaba p. 422"
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 422"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12210903
 provenance:

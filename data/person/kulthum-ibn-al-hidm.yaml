@@ -18,13 +18,15 @@ story_roles:
   - { role: host, start: { edtf: "0622-09" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري؛ يسجَّل في الإطار السني للمتحف." }
-died: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "0623", hijri: "0001", calendar: julian, precision: year, status: debated, derived: true, note: "The first of the Prophet's Companions to die at Medina per al-Tabari and Ibn Qutayba, before As'ad ibn Zurara (al-Isaba pp. 1288-1289); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/quba, confidence: low, note: "Associated with Quba per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/quba-sojourn, role: "مضيف النبي بقباء", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1288", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 171-172" }
 provenance:
   layer: own-research
