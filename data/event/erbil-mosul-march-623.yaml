@@ -14,6 +14,8 @@ sides:
 relations:
   - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/muzaffar-al-din-kokburi, role: "السائر", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-zahir-billah }
+  - { type: during_reign, target: person/al-mustansir-billah }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

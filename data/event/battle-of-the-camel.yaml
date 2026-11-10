@@ -37,6 +37,8 @@ relations:
   - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "قُتل في الوقعة، ورجع عن القتال بعد تذكير النبي له", sources: [source/tabari-tarikh-abu-al-fadl] }
   - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "قُتل فيها، ومن خرج معه إلى البصرة يطلب بدم عثمان", sources: [source/tabari-tarikh-abu-al-fadl] }
   - { type: occurred_at, target: place/basra }
+  - { type: during_reign, target: person/uthman-ibn-affan }
+  - { type: during_reign, target: person/ali-ibn-abi-talib }
 sides:
   - label: { ar: "جيش علي بن أبي طالب", en: "Ali ibn Abi Talib's army" }
   - label: { ar: "جيش طلحة والزبير وعائشة", en: "The army of Talha, al-Zubayr and Aisha" }

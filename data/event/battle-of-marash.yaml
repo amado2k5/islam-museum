@@ -27,6 +27,7 @@ map:
   sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/marash }
+- { type: during_reign, target: person/al-mustanjid-billah }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135688892
