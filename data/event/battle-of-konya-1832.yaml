@@ -14,6 +14,9 @@ date:
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش المصري بقيادة إبراهيم باشا", en: "The Egyptian army under Ibrahim Pasha" }
+  - label: { ar: "الجيش العثماني بقيادة معمر باشا", en: "The Ottoman army under Reshid Pasha" }
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2981297

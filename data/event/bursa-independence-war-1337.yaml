@@ -16,6 +16,9 @@ relations:
   - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
   - { type: during_reign, target: person/abd-al-majid-ii, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "القوات التركية الوطنية", en: "The Turkish national forces" }
+  - label: { ar: "قوات الحلفاء المحتلة", en: "The occupying Allied forces" }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: "own-research"

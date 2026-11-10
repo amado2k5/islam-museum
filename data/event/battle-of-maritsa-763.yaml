@@ -13,6 +13,9 @@ date:
 relations:
   - { type: had_participant, target: person/lala-shahin, role: "القائد العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/murad-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sides:
+  - label: { ar: "القوات العثمانية بقيادة لالا شاهين", en: "The Ottoman forces under Lala Şahin" }
+  - label: { ar: "الائتلاف البلقاني", en: "The Balkan coalition" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

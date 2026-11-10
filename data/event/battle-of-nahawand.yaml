@@ -11,6 +11,9 @@ date:
 relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أشار على عمر ألا يسير بنفسه", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "استشار الناس في المسير بنفسه إلى نهاوند", sources: [source/sallabi-ali-vol1] }
+sides:
+  - label: { ar: "المسلمون بقيادة النعمان بن مقرن", en: "The Muslims under al-Nu'man ibn Muqarrin" }
+  - label: { ar: "الفرس بقيادة ذي الحاجب", en: "The Persians under Dhu al-Hajib" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/sallabi-ali-vol1]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 1", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan (printed page = scan page)" }
