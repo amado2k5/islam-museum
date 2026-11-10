@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/mansur-ibn-jamwana, role: "المقتول وصاحب الحصن المنسوب إليه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "القاتل منصرفاً من بيت المقدس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdallah-ibn-ali, role: "موّله شرطته يوم خلعه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 271"
