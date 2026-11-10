@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "636", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+died: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Syria 15 AH in Umar's caliphate (Ibn Qani' and al-Qurab); other reports have him martyred at al-Yamama or al-Yarmuk (al-Isaba p. 1162); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: died_in
   target: place/al-sham
@@ -44,6 +44,11 @@ relations:
   target: group/banu-makhzum
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Sahm, brother of Abu Jahl (al-Isaba p. 1162)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 6906، ص 1162
