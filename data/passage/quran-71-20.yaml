@@ -16,6 +16,7 @@ translations:
   en: { text: "That ye may thread the valley-ways thereof.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تاکہ اس کے بڑے بڑے کشادہ رستوں میں چلو پھرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

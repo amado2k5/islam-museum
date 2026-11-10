@@ -16,6 +16,7 @@ translations:
   en: { text: "The hour drew nigh and the moon was rent in twain.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "قیامت قریب آ پہنچی اور چاند شق ہوگیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/moon, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-54 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }

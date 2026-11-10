@@ -35,6 +35,10 @@ open a new block on top with the new version and today's date.
 
 ## v1.8.0 — 2026-11-09
 
+### Added
+- **Nature Explorer (`/{lang}/nature/`, مستكشف الطبيعة, قدرت کا متلاشی).** A new explorer over the museum's natural-world records: land animals, birds, insects and small creatures, sea creatures, plants and trees, and the phenomena of creation — seventy new `concept` records of kind `natural` tagged `nature-browser` inside the one graph, with about 450 `mentions` edges on the Qur'an and hadith passage records. Each subject page (`/{lang}/nature/<slug>/`) shows the verses that mention it rendered from the frozen Tanzil text of the passage records with their translations, the hadith reports, and the related museum records; the home has a section index, counts and a trilingual filter. It is in the Explore menu and has a landing-page card. Plan: `docs/plan/34-nature-browser.md`. Records are `status.review: draft` until a human reads them.
+- **`/api/v1/nature.json`.** The explorer's dataset: every tagged record with kind, wings, themes, section tags and edges; documented in `docs/data/README.md`, the OpenAPI document and `llms.txt`.
+
 ### Content
 - **Ghayb Browser prose — full coverage.** All sixteen browser-owned concept records now carry rich three-section trilingual prose (summary, texts with Qur'an/hadith anchors, note): the three last major signs added (الدخان، الخسوفات الثلاثة، نار اليمن) plus enriched bodies for the earlier records. Still `status.review: draft` pending a human read.
 

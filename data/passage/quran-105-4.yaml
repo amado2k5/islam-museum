@@ -16,6 +16,7 @@ translations:
   en: { text: "Which pelted them with stones of baked clay,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو ان پر کھنگر کی پتھریاں پھینکتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ababil-birds, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-105 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

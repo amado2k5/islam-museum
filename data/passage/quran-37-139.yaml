@@ -16,6 +16,7 @@ translations:
   en: { text: "And lo! Jonah verily was of those sent (to warn)", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور یونس بھی پیغمبروں میں سے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/whale-of-yunus, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
   - { type: mentions, target: person/yunus, sources: [source/tanzil-quran] }
 sensitivity: sacred

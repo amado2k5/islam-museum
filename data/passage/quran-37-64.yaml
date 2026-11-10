@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! it is a tree that springeth in the heart of hell.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "وہ ایک درخت ہے کہ جہنم کے اسفل میں اُگے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/zaqqum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

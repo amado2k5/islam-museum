@@ -16,6 +16,7 @@ translations:
   en: { text: "By the night enshrouding", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "رات کی قسم جب (دن کو) چھپالے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/night-day, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-92 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }

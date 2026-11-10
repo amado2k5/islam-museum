@@ -16,6 +16,7 @@ translations:
   en: { text: "And when they reached the point where the two met, they forgot their fish, and it took its way into the waters, being free.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جب ان کے ملنے کے مقام پر پہنچے تو اپنی مچھلی بھول گئے تو اس نے دریا میں سرنگ کی طرح اپنا رستہ بنالیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/fish-of-al-khidr, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

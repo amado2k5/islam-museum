@@ -16,6 +16,7 @@ translations:
   en: { text: "And the earth have We laid out, how gracious is the Spreader (thereof)!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور زمین کو ہم ہی نے بچھایا تو (دیکھو) ہم کیا خوب بچھانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

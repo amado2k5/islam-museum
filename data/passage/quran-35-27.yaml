@@ -16,6 +16,7 @@ translations:
   en: { text: "Hast thou not seen that Allah causeth water to fall from the sky, and We produce therewith fruit of divers hues; and among the hills are streaks white and red, of divers hues, and (others) raven-black;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا تم نے نہیں دیکھا کہ خدا نے آسمان سے مینہ برسایا۔ تو ہم نے اس سے طرح طرح کے رنگوں کے میوے پیدا کئے۔ اور پہاڑوں میں سفید اور سرخ رنگوں کے قطعات ہیں اور (بعض) کالے سیاہ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

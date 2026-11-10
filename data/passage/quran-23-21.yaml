@@ -16,6 +16,7 @@ translations:
   en: { text: "And lo! in the cattle there is verily a lesson for you. We give you to drink of that which is in their bellies, and many uses have ye in them, and of them do ye eat;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور تمہارے لئے چارپایوں میں بھی عبرت (اور نشانی) ہے کہ ان کے پیٹوں میں ہے اس سے ہم تمہیں (دودھ) پلاتے ہیں اور تمہارے لئے ان میں اور بھی بہت سے فائدے ہیں اور بعض کو تم کھاتے بھی ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/livestock, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

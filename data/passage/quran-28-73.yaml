@@ -16,6 +16,7 @@ translations:
   en: { text: "Of His mercy hath He appointed for you night and day, that therein ye may rest, and that ye may seek His bounty, and that haply ye may be thankful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اس نے اپنی رحمت سے تمہارے لئے رات کو اور دن کو بنایا تاکہ تم اس میں آرام کرو اور اس میں اس کا فضل تلاش کرو اور تاکہ شکر کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/night-day, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

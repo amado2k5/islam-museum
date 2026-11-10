@@ -16,6 +16,7 @@ translations:
   en: { text: "There is a barrier between them. They encroach not (one upon the other).", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "دونوں میں ایک آڑ ہے کہ (اس سے) تجاوز نہیں کرسکتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "The thunder hymneth His praise and (so do) the angels for awe of Him. He launcheth the thunderbolts and smiteth with them whom He will while they dispute (in doubt) concerning Allah, and He is mighty in wrath.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور رعد اور فرشتے سب اس کے خوف سے اس کی تسبیح و تحمید کرتے رہتے ہیں اور وہی بجلیاں بھیجتا ہے پھر جس پر چاہتا ہے گرا بھی دیتا ہے اور وہ خدا کے بارے میں جھگڑتے ہیں۔ اور وہ بڑی قوت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/thunder-lightning, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/assassination-attempt-of-amir-and-arbad, note: "ذكر ابن هشام عن ابن عباس أن الآية في أربد بن قيس وما قتله الله به من الصاعقة (ص215)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred

@@ -16,6 +16,9 @@ translations:
   en: { text: "And Allah it is Who sendeth the winds and they raise a cloud; then We lead it unto a dead land and revive therewith the earth after its death. Such is the Resurrection.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور خدا ہی تو ہے جو ہوائیں چلاتا ہے اور وہ بادل کو اُبھارتی ہیں پھر ہم ان کو ایک بےجان شہر کی طرف چلاتے ہیں۔ پھر اس سے زمین کو اس کے مرنے کے بعد زندہ کردیتے ہیں۔ اسی طرح مردوں کو جی اُٹھنا ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clouds, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/wind, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/rain, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

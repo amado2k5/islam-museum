@@ -16,6 +16,7 @@ translations:
   en: { text: "Be modest in thy bearing and subdue thy voice. Lo! the harshest of all voices is the voice of the ass.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اپنی چال میں اعتدال کئے رہنا اور (بولتے وقت) آواز نیچی رکھنا کیونکہ (اُونچی آواز گدھوں کی ہے اور کچھ شک نہیں کہ) سب آوازوں سے بُری آواز گدھوں کی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/donkey, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

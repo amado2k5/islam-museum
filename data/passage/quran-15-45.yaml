@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! those who ward off (evil) are among gardens and watersprings.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو متقی ہیں وہ باغوں اور چشموں میں ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rivers-springs, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

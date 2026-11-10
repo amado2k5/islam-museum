@@ -16,6 +16,7 @@ translations:
   en: { text: "And as for A'ad, they were destroyed by a fierce roaring wind,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "رہے عاد تو ان کا نہایت تیز آندھی سے ستیاناس کردیا گیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/wind, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-69 }
   - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
 sensitivity: sacred

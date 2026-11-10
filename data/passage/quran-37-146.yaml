@@ -16,6 +16,7 @@ translations:
   en: { text: "And We caused a tree of gourd to grow above him;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ان پر کدو کا درخت اُگایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/gourd-plant, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

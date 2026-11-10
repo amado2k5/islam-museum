@@ -16,6 +16,7 @@ translations:
   en: { text: "He hath forbidden you only carrion, and blood, and swineflesh, and that which hath been immolated to (the name of) any other than Allah. But he who is driven by necessity, neither craving nor transgressing, it is no sin for him. Lo! Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اس نے تم پر مرا ہوا جانور اور لہو اور سور کا گوشت اور جس چیز پر خدا کے سوا کسی اور کا نام پکارا جائے حرام کردیا ہے ہاں جو ناچار ہوجائے (بشرطیکہ) خدا کی نافرمانی نہ کرے اور حد (ضرورت) سے باہر نہ نکل جائے اس پر کچھ گناہ نہیں۔ بےشک خدا بخشنے والا (اور) رحم کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/swine, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

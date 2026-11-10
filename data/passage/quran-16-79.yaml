@@ -16,6 +16,7 @@ translations:
   en: { text: "Have they not seen the birds obedient in mid-air? None holdeth them save Allah. Lo! herein, verily, are portents for a people who believe.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا ان لوگوں نے پرندوں کو نہیں دیکھا کہ آسمان کی ہوا میں گھرے ہوئے (اُڑتے رہتے) ہیں۔ ان کو خدا ہی تھامے رکھتا ہے۔ ایمان والوں کے لیے اس میں (بہت سی) نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/birds, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

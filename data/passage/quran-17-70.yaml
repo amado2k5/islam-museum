@@ -16,6 +16,7 @@ translations:
   en: { text: "Verily we have honoured the Children of Adam. We carry them on the land and the sea, and have made provision of good things for them, and have preferred them above many of those whom We created with a marked preferment.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے بنی آدم کو عزت بخشی اور ان کو جنگل اور دریا میں سواری دی اور پاکیزہ روزی عطا کی اور اپنی بہت سی مخلوقات پر فضیلت دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-17 }
   - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-barr, sources: [source/tanzil-quran] }

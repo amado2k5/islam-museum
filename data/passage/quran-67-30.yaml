@@ -16,6 +16,7 @@ translations:
   en: { text: "Say: Have ye thought: If (all) your water were to disappear into the earth, who then could bring you gushing water?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہو کہ بھلا دیکھو تو اگر تمہارا پانی (جو تم پیتے ہو اور برتے ہو) خشک ہوجائے تو (خدا کے) سوا کون ہے جو تمہارے لئے شیریں پانی کا چشمہ بہا لائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/water-of-life, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "And made them like green crops devoured (by cattle)?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو ان کو ایسا کر دیا جیسے کھایا ہوا بھس", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ababil-birds, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-105 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

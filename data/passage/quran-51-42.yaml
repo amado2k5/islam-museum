@@ -16,6 +16,7 @@ translations:
   en: { text: "It spared naught that it reached, but made it (all) as dust.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "وہ جس چیز پر چلتی اس کو ریزہ ریزہ کئے بغیر نہ چھوڑتی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/wind, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

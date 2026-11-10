@@ -16,6 +16,7 @@ translations:
   en: { text: "He said: Lo! in truth it saddens me that ye should take him with you, and I fear less the wolf devour him while ye are heedless of him.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "انہوں نے کہا کہ یہ امر مجھے غمناک کئے دیتا ہے کہ تم اسے لے جاؤ (یعنی وہ مجھ سے جدا ہوجائے) اور مجھے یہ خوف بھی ہے کہ تم (کھیل میں) اس سے غافل ہوجاؤ اور اسے بھیڑیا کھا جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/wolf, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

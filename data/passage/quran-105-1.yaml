@@ -16,6 +16,7 @@ translations:
   en: { text: "Hast thou not seen how thy Lord dealt with the owners of the Elephant?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا تم نے نہیں دیکھا کہ تمہارے پروردگار نے ہاتھی والوں کے ساتھ کیا کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/elephant, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-105 }
   - { type: mentions, target: group/ashab-al-fil, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }

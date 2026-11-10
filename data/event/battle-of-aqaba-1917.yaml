@@ -13,6 +13,9 @@ date:
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "جيش الثورة العربية", en: "The Arab Revolt army" }
+  - label: { ar: "حامية العقبة العثمانية", en: "The Ottoman garrison of Aqaba" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2081944

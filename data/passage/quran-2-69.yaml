@@ -16,6 +16,7 @@ translations:
   en: { text: "They said: Pray for us unto thy Lord that He make clear to us of what colour she is. (Moses) answered: Lo! He saith: Verily she is a yellow cow. Bright is her colour, gladdening beholders.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "انہوں نے کہا کہ پروردگار سے درخواست کیجئے کہ ہم کو یہ بھی بتائے کہ اس کا رنگ کیسا ہو۔ موسیٰ نے کہا، پروردگار فرماتا ہے کہ اس کا رنگ گہرا زرد ہو کہ دیکھنے والوں (کے دل) کو خوش کر دیتا ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/cow-of-bani-israil, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

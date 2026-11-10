@@ -16,6 +16,7 @@ translations:
   en: { text: "And unto Allah falleth prostrate whosoever is in the heavens and the earth, willingly or unwillingly, as do their shadows in the morning and the evening hours.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جتنی مخلوقات آسمانوں اور زمین میں ہے خوشی سے یا زبردستی سے خدا کے آگے سجدہ کرتی ہے اور ان کے سائے بھی صبح وشام (سجدے کرتے ہیں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/shadow, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

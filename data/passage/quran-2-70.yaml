@@ -16,6 +16,7 @@ translations:
   en: { text: "They said: Pray for us unto thy Lord that He make clear to us what (cow) she is. Lo! cows are much alike to us; and Lo! if Allah wills, we may be led aright.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "انہوں نے کہا کہ (اب کے) پروردگار سے پھر درخواست کیجئے کہ ہم کو بتا دے کہ وہ اور کس کس طرح کا ہو، کیونکہ بہت سے بیل ہمیں ایک دوسرے کے مشابہ معلوم ہوتے ہیں، (پھر) خدا نے چاہا تو ہمیں ٹھیک بات معلوم ہو جائے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/cow-of-bani-israil, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

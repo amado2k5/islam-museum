@@ -16,6 +16,8 @@ translations:
   en: { text: "And We caused the white cloud to overshadow you and sent down on you the manna and the quails, (saying): Eat of the good things wherewith We have provided you - they wronged Us not, but they did wrong themselves.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور بادل کا تم پر سایہ کئے رکھا اور (تمہارے لیے) من و سلویٰ اتارتے رہے کہ جو پاکیزہ چیزیں ہم نے تم کو عطا فرمائی ہیں، ان کو کھاؤ (پیو) مگر تمہارے بزرگوں نے ان نعمتوں کی کچھ قدر نہ جانی (اور) وہ ہمارا کچھ نہیں بگاڑتے تھے بلکہ اپنا ہی نقصان کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clouds, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/quail, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

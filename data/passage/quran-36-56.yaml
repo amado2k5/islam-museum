@@ -16,6 +16,7 @@ translations:
   en: { text: "They and their wives, in pleasant shade, on thrones reclining;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "وہ بھی اور ان کی بیویاں بھی سایوں میں تختوں پر تکیے لگائے بیٹھے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/shadow, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

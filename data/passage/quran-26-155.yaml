@@ -16,6 +16,7 @@ translations:
   en: { text: "He said: (Behold) this she-camel. She hath the right to drink (at the well), and ye have the right to drink, (each) on an appointed day.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "صالح نے کہا (دیکھو) یہ اونٹنی ہے (ایک دن) اس کی پانی پینے کی باری ہے اور ایک معین روز تمہاری باری", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/she-camel-of-salih, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "(Then he said): Bring them back to me, and fell to slashing (with his sword their) legs and necks.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(بولے کہ) ان کو میرے پاس واپس لے آؤ۔ پھر ان کی ٹانگوں اور گردنوں پر ہاتھ پھیرنے لگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/horse, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "- Ah, what will tell thee what the Morning Star is!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور تم کو کیا معلوم کہ رات کے وقت آنے والا کیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/stars, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-86 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

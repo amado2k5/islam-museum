@@ -16,6 +16,7 @@ translations:
   en: { text: "And the hills are set in motion and become as a mirage.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور پہاڑ چلائے جائیں گے تو وہ ریت ہو کر رہ جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mirage, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-78 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

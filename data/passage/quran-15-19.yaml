@@ -16,6 +16,8 @@ translations:
   en: { text: "And the earth have We spread out, and placed therein firm hills, and caused each seemly thing to grow therein.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور زمین کو بھی ہم ہی نے پھیلایا اور اس پر پہاڑ (بنا کر) رکھ دیئے اور اس میں ہر ایک سنجیدہ چیز اُگائی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,8 @@ translations:
   en: { text: "And of His signs is this: He sendeth herald winds to make you taste His mercy, and that the ships may sail at His command, and that ye may seek his favour, and that haply ye may be thankful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اُسی کی نشانیوں میں سے ہے کہ ہواؤں کو بھیجتا ہے کہ خوشخبری دیتی ہیں تاکہ تم کو اپنی رحمت کے مزے چکھائے اور تاکہ اس کے حکم سے کشتیاں چلیں اور تاکہ اس کے فضل سے (روزی) طلب کرو عجب نہیں کہ تم شکر کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ships, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/wind, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

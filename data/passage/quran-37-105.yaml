@@ -16,6 +16,7 @@ translations:
   en: { text: "Thou hast already fulfilled the vision. Lo! thus do We reward the good.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تم نے خواب کو سچا کر دکھایا۔ ہم نیکوکاروں کو ایسا ہی بدلہ دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ram-of-sacrifice, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred

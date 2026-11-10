@@ -16,6 +16,7 @@ translations:
   en: { text: "And the earth hath He appointed for (His) creatures,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور اسی نے خلقت کے لئے زمین بچھائی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

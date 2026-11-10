@@ -16,6 +16,7 @@ translations:
   en: { text: "If We had caused this Qur'an to descend upon a mountain, thou (O Muhammad) verily hadst seen it humbled, rent asunder by the fear of Allah. Such similitudes coin We for mankind that haply they may reflect.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اگر ہم یہ قرآن کسی پہاڑ پر نازل کرتے تو تم اس کو دیکھتے کہ خدا کے خوف سے دبا اور پھٹا جاتا ہے۔ اور یہ باتیں ہم لوگوں کے لئے بیان کرتے ہیں تاکہ وہ فکر کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "And verily we sent Noah (as Our messenger) unto his folk, and he continued with them for a thousand years save fifty years; and the flood engulfed them, for they were wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے نوحؑ کو اُن کی قوم کی طرف بھیجا تو وہ ان میں پچاس برس کم ہزار برس رہے پھر اُن کو طوفان (کے عذاب) نے آپکڑا۔ اور وہ ظالم تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/flood, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-29 }
   - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred

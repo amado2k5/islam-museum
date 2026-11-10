@@ -16,6 +16,9 @@ translations:
   en: { text: "And He it is Who spread out the earth and placed therein firm hills and flowing streams, and of all fruits He placed therein two spouses (male and female). He covereth the night with the day. Lo! herein verily are portents for people who take thought.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور وہ وہی ہے جس نے زمین کو پھیلایا اور اس میں پہاڑ اور دریا پیدا کئے اور ہر طرح کے میوؤں کی دو دو قسمیں بنائیں۔ وہی رات کو دن کا لباس پہناتا ہے۔ غور کرنے والوں کے لیے اس میں بہت سی نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/earth, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

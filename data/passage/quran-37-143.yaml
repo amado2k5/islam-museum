@@ -16,6 +16,7 @@ translations:
   en: { text: "And had he not been one of those who glorify (Allah)", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر اگر وہ (خدا کی) پاکی بیان نہ کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/whale-of-yunus, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "He Who created all the pairs, and appointed for you ships and cattle whereupon ye ride.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جس نے تمام قسم کے حیوانات پیدا کئے اور تمہارے لئے کشتیاں اور چارپائے بنائے جن پر تم سوار ہوتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ships, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

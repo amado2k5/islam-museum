@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! this my brother hath ninety and nine ewes while I had one ewe; and he said: Entrust it to me, and he conquered me in speech.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(کیفیت یہ ہے کہ) یہ میرا بھائی ہے اس کے (ہاں) ننانوے دنبیاں ہیں اور میرے (پاس) ایک دُنبی ہے۔ یہ کہتا ہے کہ یہ بھی میرے حوالے کردے اور گفتگو میں مجھ پر زبردستی کرتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ewes-of-david, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
