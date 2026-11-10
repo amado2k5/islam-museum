@@ -12,6 +12,7 @@ map: { kind: locator, precision: site, center: [21.4225, 39.8262] }
 date: { start: { edtf: "1400-06~", hijri: "0802-10", calendar: julian, precision: month, status: tradition, derived: true, note: "آخر شوال سنة اثنتين وثمانمائة {cite:shadharat-dhahab p. 21}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/mecca, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 802)، قراءة آبل فيجن"
