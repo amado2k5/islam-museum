@@ -712,6 +712,13 @@ export function validateAll(extra: { entity: any; file: string }[] = [], options
       const seriesTarget = (entity.relations ?? []).find((r: any) => r.type === "part_of" && loaded.some((x) => x.entity?.id === r.target && x.entity?.kind === "lecture-series"));
       if (seriesTarget && !Number.isInteger(entity.order)) err(file, `a lesson part_of a lecture-series (${seriesTarget.target}) needs an order number`);
     }
+    // ---- divine names (docs/plan/29): each of the 99 records carries its place in the enumeration and a source
+    if (entity.class === "concept" && entity.kind === "divine-name") {
+      if (!Number.isInteger(entity.order) || entity.order < 1 || entity.order > 99) err(file, "a divine-name needs an order 1-99 (its place in the enumeration)");
+      if (!(entity.name_meta?.enumeration ?? []).length) err(file, "a divine-name needs name_meta.enumeration: the canonical list(s) that carry it");
+      if (!(entity.sources ?? []).length) err(file, "a divine-name needs at least one source");
+    }
+
     if (entity.class === "media") {
       const urls = [entity.url, ...Object.values<string>(entity.files ?? {})].filter(Boolean);
       for (const u of urls) if (/youtube\.com|youtu\.be/.test(u)) err(file, "YouTube is metadata and link only: it is never a media store entry (docs/plan/25; audio-video-harvest.md §2)");

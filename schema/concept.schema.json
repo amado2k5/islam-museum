@@ -24,7 +24,8 @@
         "scientific",
         "political",
         "social",
-        "term"
+        "term",
+        "divine-name"
       ]
     },
     "term": {
@@ -53,6 +54,7 @@
               "shia-twelver",
               "shia-ismaili",
               "shia-zaydi",
+              "zahiri",
               "ibadi",
               "sufi",
               "ahmadiyya",
@@ -164,6 +166,7 @@
                     "shia-twelver",
                     "shia-ismaili",
                     "shia-zaydi",
+                    "zahiri",
                     "ibadi",
                     "sufi",
                     "ahmadiyya",
@@ -183,6 +186,31 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "order": {
+      "type": "integer"
+    },
+    "name_meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "transliteration": {
+          "type": "string"
+        },
+        "root": {
+          "type": "string"
+        },
+        "enumeration": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "tirmidhi",
+              "ibn-majah",
+              "other"
+            ]
           }
         }
       }

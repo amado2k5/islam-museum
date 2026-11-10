@@ -483,7 +483,12 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   concept: {
     properties: { ...kind("concept"), term: { type: "object", additionalProperties: str },
       definitions: { type: "array", items: { type: "object", required: ["text"], properties: { tradition: enm(traditions), text: L, sources: strs } } },
-      parent_concept: entityRef, etymology: L, tensions: { type: "array", items: tension } },
+      parent_concept: entityRef, etymology: L, tensions: { type: "array", items: tension },
+      // divine-name records (docs/plan/29-asma-browser.md): position in the enumeration and the name's lexical data
+      order: intStr,
+      name_meta: { type: "object", additionalProperties: false, properties: {
+        transliteration: str, root: str,
+        enumeration: { type: "array", items: enm(["tirmidhi", "ibn-majah", "other"]) } } } },
     required: ["kind"],
   },
   language: {
