@@ -7,9 +7,8 @@ roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية لمعاذ بن الحارث، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Mu'adh ibn al-Harith, a figure of the early community; the biographical entry is not yet checked on the
-    page.
+  ar: "صحابي خزرجي من بني النجار يعرف بأبي حليمة وكان يقال له القارئ؛ شهد الخندق ولم يدرك من حياة النبي إلا ست سنين، وشهد الجسر مع أبي عبيدة، وقُتل يوم الحرة."
+  en: "A Khazraji Companion of Banu al-Najjar known as Abu Halima and called al-Qari; he witnessed the Trench and caught only six years of the Prophet's lifetime, was at al-Jisr with Abu Ubayda, and was killed at al-Harra."
 wings:
 - people
 regions:
@@ -18,7 +17,8 @@ periods:
 - period/prophetic-era
 sources:
 - source/al-aalam
-died: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+- source/ibn-hajar-isaba
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at al-Harra, 63 AH (Ibn Sa'd and Abu Ahmad al-Hakim); Ibn Hibban has him live sixty-nine years (al-Isaba p. 1425); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/medina
@@ -34,6 +34,21 @@ relations:
   target: group/ansar
   sources:
   - source/al-aalam
+- type: member_of
+  target: group/banu-al-najjar
+  note: "al-Isaba p. 1425"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1425"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  note: "al-Isaba p. 1425"
+  sources:
+  - source/ibn-hajar-isaba
 external_ids:
   wikidata: Q12243675
 provenance:
