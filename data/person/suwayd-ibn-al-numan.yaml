@@ -38,8 +38,22 @@ relations:
   target: group/ansar
   sources:
   - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- type: member_of
+  target: group/ansar
+  note: "Awsi (al-Isaba p. 640)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "Ibn Sa'd (al-Isaba p. 640)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-khaybar
+  note: "went out with the Prophet to Khaybar; also witnessed the pledge of Ridwan (al-Isaba p. 640)"
+  sources: [source/ibn-hajar-isaba]
+
 sources:
 - source/fiqh-mawsua-kuwaitiyya-noor-v3
+- source/ibn-hajar-isaba
 provenance:
   layer: own-research
   source: Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3488
