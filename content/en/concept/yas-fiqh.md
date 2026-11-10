@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yas (despair). Lexically a verbal noun from "yasa", meaning despair, the opposite of hope, or the cutting of hope; it also names the age at which menstruation ends, and a barren woman is called yasa. In one dialect it means knowledge. Technically it is the cutting of hope. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17965}
 

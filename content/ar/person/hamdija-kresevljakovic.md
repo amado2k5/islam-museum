@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 حمديجا كريشيفلياكوفيتش ⁦(16 سبتمبر 1888 – 9 مايو 1959)⁩ مؤرخ بوسني من سراييفو، يُعدّ من أبرز مؤرخي البوسنة والهرسك.{cite:wikipedia-hamdija-kresevljakovic-en}{cite:wikipedia-hamdija-kresevljakovic-bs} وتعطي الترجمتان البوسنية والكرواتية يوم ميلاده 18 سبتمبر، خلافاً للترجمة الإنجليزية وويكي بيانات.{cite:wikipedia-hamdija-kresevljakovic-bs}{cite:wikipedia-hamdija-kresevljakovic-hr} وُلد في حي فراتنيك في أسرة تجار أصلها من كريشيفو، وأنهى مدرسة المعلمين سنة 1912 ودرّس في المدارس الابتدائية والتجارية قبل أن يصبح أستاذاً في مدرسة غازي خسرو بك، حيث درّس من 1926 إلى 1945.{cite:wikipedia-hamdija-kresevljakovic-en}{cite:wikipedia-hamdija-kresevljakovic-bs}
 

@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 تاري إيسون ⁦(وُلد في 10 مايو 2001)⁩ لاعب كرة سلة أمريكي من بورتسموث في فرجينيا. لعب في الجامعة لسينسيناتي ثم LSU، واختاره هيوستن روكتس في المركز السابع عشر في درافت 2022.{cite:wikipedia-tari-eason-en}{cite:wikidata-tari-eason}
 

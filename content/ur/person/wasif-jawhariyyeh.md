@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 واصف جوہریہ (1897–1972) قدس کے موسیقار، شاعر اور روزنامچہ نگار تھے، جو شہر کی یونانی آرتھوڈوکس برادری میں پیدا ہوئے۔{cite:wikipedia-wasif-jawhariyyeh-en}{cite:nassar-wasif-jawharriyeh-collection} انہوں نے قدس کے لوتھری، قومی اور اسقفی مدارس میں تعلیم پائی اور عود کے بڑے استادوں سے تربیت حاصل کی؛ عثمانی بحریہ اور پھر انتدابی انتظامیہ میں خدمات انجام دیتے ہوئے وہ شہر کے سازندہ گروہوں اور ریڈیو آرکسٹرا کے ساتھ عود بجاتے رہے۔{cite:wikipedia-wasif-jawhariyyeh-en}{cite:wikipedia-wasif-jawhariyyeh-ar}
 

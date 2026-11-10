@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Yusuf ibn Ismail al-Nabhani (1849–1932) was a Palestinian judge, jurist and poet from Ijzim in the Haifa district, remembered as a leading defender of the Ottoman Caliphate and of Sufism.{cite:wikipedia-yusuf-al-nabhani-en}{cite:wikipedia-yusuf-al-nabhani-ar} Trained at al-Azhar in Cairo, he served as a judge in Ottoman service, edited the periodical al-Jawa'ib in Istanbul, and presided over Beirut's Court of Rights for some twenty years from 1888.{cite:azhar-memory-yusuf-al-nabhani}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Salih Safvet Bašić (1886–1948) was a Bosnian pedagogue from Duvno (now Tomislavgrad), born into a merchant family and educated at the mekteb and primary school of his home town before secondary school and the Faculty of Philosophy in Istanbul, where he stood out among the Bosnian students for his advanced views and his uncompromising opposition to the Austro-Hungarian occupation of Bosnia and Herzegovina.{cite:wikipedia-salih-safvet-basic-bs}{cite:wikipedia-salih-safvet-basic-hr} Returning home in 1910, he declined to seek office under a government he opposed and lived by trade until the First World War forced him to take a teaching post at the Sharia school in Sarajevo rather than be mobilised into the Austrian army; he was known as a connoisseur of Oriental languages, literature and history, and as a lecturer and pedagogue.{cite:wikipedia-salih-safvet-basic-bs}
 

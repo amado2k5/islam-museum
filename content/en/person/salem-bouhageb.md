@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Salem Bouhageb (1827–1924) was a Tunisian reformer, jurisconsult and poet, born at Bembla, near Monastir, and considered one of the first Tunisian reformers.{cite:wikipedia-salem-bouhageb-fr}{cite:wikidata-salem-bouhageb} He settled at Tunis in 1852 and followed the teaching of great imams such as Sidi Brahim Riahi and of shaykhs al-Islam such as Mohamed Belkhodja, Mohamed Béchir Ennaifer and Mohamed Bayram IV, obtaining ijazas at the Zaytuna in Arabic language and grammar, linguistics, literature, jurisprudence, theology, history and religions, and also studying logic, philosophy and mysticism; at the end of 1860 he obtained the title of alim.{cite:wikipedia-salem-bouhageb-fr} He then taught in his turn, above all at the Zaytuna and the Khaldounia for some seventy years, influencing numerous disciples: the nationalists Béchir Sfar, Abdelaziz Thâalbi and Ali Bach Hamba, the intellectuals Mohamed Nakhli and Mahmoud Messadi, and the scholars Mohamed Snoussi and Mohamed Tahar Ben Achour.{cite:wikipedia-salem-bouhageb-fr}{cite:wikipedia-salem-bouhageb-en}
 

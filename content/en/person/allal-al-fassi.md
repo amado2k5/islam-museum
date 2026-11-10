@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Allal al-Fassi (1910–1974) was a Moroccan scholar, jurist and politician, born at Fez on 10 January 1910 into a wealthy family of Andalusian origin.{cite:wikipedia-allal-al-fassi-fr}{cite:wikidata-allal-al-fassi} His father, Abd al-Wahid al-Fassi, was one of the leading ulama of Fez — qadi, mufti and professor at the Qarawiyyin — and Allal himself studied at the Qarawiyyin, taking his licence in 1932.{cite:wikipedia-allal-al-fassi-fr} Strongly influenced by the Salafiyya, he animated the first nationalist circles at Fez from 1927, and the protest against the Berber Dahir of 1930, which threatened to remove the Berber tribes from the sultan's jurisdiction, made him a national figure; after two years of teaching at the Qarawiyyin he renounced his post rather than submit to the protectorate's injunctions.{cite:wikipedia-allal-al-fassi-fr}{cite:wikipedia-allal-al-fassi-en} In 1934 he founded, with Mohamed Hassan Ouazzani and Ahmed Balafrej, the Moroccan Action Committee, the first national movement grouping the young activists of the cities, which drafted the reform plan presented in Paris.{cite:wikipedia-allal-al-fassi-fr}
 

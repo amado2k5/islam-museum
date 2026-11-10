@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 جاندرلي علي باشا هو أكبر أبناء [[person/candarli-kara-halil-pasha|جاندرلي قرة خليل حير الدين باشا]]، أول من لُقّب بالصدر الأعظم في الدولة العثمانية؛ ولا تُعرف سنة مولده ولا مكانه في المصادر.{cite:wikipedia-candarli-ali-pasha-tr}{cite:wikipedia-candarlizade-ali-pasha-en}{cite:wikidata-candarli-ali-pasha} تلقى تعليماً مدرسياً وانتسب إلى العلمية، فتولى القضاء ثم صار قاضي عسكر قبل سنة 1386، ولما توفي أبوه فجأة في 22 يناير 1387 خلفه في الوزارة ثم في الصدارة العظمى.{cite:wikipedia-candarli-ali-pasha-tr}{cite:wikipedia-candarlizade-ali-pasha-en}
 

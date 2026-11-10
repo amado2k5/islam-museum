@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wad' al-yad (literally, placing the hand) means leaving or dropping, as in the phrase that one dropped someone's debt, and the hand in the sense of favour, power, holding and ownership: 'the matter is in so-and-so's hand' means it is in his control. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17350} For the jurists it is a holder's act of control over a thing, or the holder's disposal of it in the way an owner disposes. The jurists also use the phrase for the physical hand itself. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17351}
 

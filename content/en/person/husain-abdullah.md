@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Husain Abdullah (born 27 July 1985) is an American football safety from Los Angeles. Undrafted out of Washington State, he signed with the Minnesota Vikings in 2008, became a starter, and finished his career with the Kansas City Chiefs, retiring on 28 March 2016 after five concussions.{cite:wikipedia-husain-abdullah-en}{cite:wikidata-husain-abdullah}
 

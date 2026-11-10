@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yawm al-sabt is a compound of day and sabt. Sabt lexically means rest, ceasing, an age, and a day of the week; the sabbath of the Jews is their ceasing from work and gain, and surah al-A'raf (verse 163) mentions their fish coming to them on their sabbath. The jurists use the word in its lexical sense. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18022}
 

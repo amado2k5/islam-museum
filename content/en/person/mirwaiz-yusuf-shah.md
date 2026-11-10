@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mirwaiz Muhammad Yusuf Shah (19 February 1894 – 12 December 1968) was a Kashmiri religious scholar and politician who held the office of Mirwaiz of Kashmir, the hereditary head preacher of the Kashmir Valley based at Srinagar's Jamia Masjid, from 1931 until his death.{cite:wikipedia-mirwaiz-yusuf-shah-en}{cite:onlykashmir-mirwaiz-yusuf-shah} Born in Rajouri Kadal, Srinagar, he studied at Darul Uloom Deoband from 1925, taking hadith from Anwar Shah Kashmiri, and took a Moulvi Fazil degree from the University of the Punjab.{cite:wikipedia-mirwaiz-yusuf-shah-en}
 

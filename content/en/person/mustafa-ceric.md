@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mustafa Cerić is a Bosnian scholar who led his country's Islamic Community through the war of the 1990s and its aftermath as Grand Mufti. He was born on 5 February 1952 in the village of Veliko Čajno, near Visoko, and educated at the Gazi Husrev-beg Madrasa in Sarajevo, from which he graduated in 1972, and at Al-Azhar in Cairo, where he graduated in 1978{cite:wikipedia-ceric-bs}{cite:wikidata-ceric}. After serving as imam of the White Mosque in Gračanica, he became imam at the Islamic Cultural Center of Greater Chicago in Northbrook in 1981 and took his PhD in Islamic studies at the University of Chicago, under Fazlur Rahman, with a dissertation on the theology of Abu Mansur al-Maturidi dated 24 September 1986; the book that grew from it, Roots of Synthetic Theology in Islam, appeared in Kuala Lumpur in 1995{cite:wikipedia-ceric-bs}{cite:wikipedia-ceric-en}.
 

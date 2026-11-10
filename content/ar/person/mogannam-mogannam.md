@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 مغنم مغنم ⁦(توفي 1945)⁩ محامٍ وناشط سياسي فلسطيني مسيحي نشأ في القدس.{cite:encyclopedia-mogannam-mogannam-ilyas} هاجر إلى الولايات المتحدة قبل الحرب العالمية الأولى ودرس الحقوق فيها، وفي مطلع عشرينيات القرن العشرين تزوّج متيل مغنم وعاد معها إلى القدس، ثم انتقلا إلى رام الله سنة 1938.{cite:encyclopedia-mogannam-mogannam-ilyas}{cite:wikipedia-matiel-mogannam-en}
 

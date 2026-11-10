@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yasir lexically means easy or slight, and it is the small amount; its opposite is 'usr, hardship. The technical sense does not depart from the lexical one. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17997}
 

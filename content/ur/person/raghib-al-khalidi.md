@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 راغب الخالدی (1866–1952) الخالدی خاندان کے قدس کے قاضی تھے، جنہوں نے قدس اور پھر یافا کی عدالتوں میں خدمات انجام دیں۔{cite:wikipedia-khalidi-library-en}{cite:raymond-khalidiyya-library-mela} 1900ء میں انہوں نے قدیم شہر کی ایک مملوک دور کی عمارت میں خالدیہ کتب خانہ عوام کے لیے کھولا، جس میں ان کے خاندان کی صدیوں سے جمع شدہ مخطوطات یکجا ہوئیں۔{cite:wikipedia-khalidi-library-en}{cite:jerusalem-post-khalidi-library-2016}
 

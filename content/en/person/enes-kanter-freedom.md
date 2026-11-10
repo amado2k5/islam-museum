@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Enes Kanter Freedom (born 20 May 1992 as Enes Kanter) is a Turkish-American basketball player and activist, born in Zurich and raised in Turkey. Drafted third overall in 2011, he played eleven NBA seasons; on becoming an American citizen on 29 November 2021 he legally changed his name to Enes Kanter Freedom.{cite:wikipedia-enes-kanter-freedom-en}{cite:wikidata-enes-kanter-freedom}
 

@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 إبراهيم الدباغ ⁦(1880 – 26 فبراير 1946)⁩ شاعر وصحفي وكاتب فلسطيني وُلد في يافا.{cite:wikipedia-ibrahim-al-dabbagh-ar}{cite:wikidata-ibrahim-al-dabbagh} تعلّم في كتاتيب يافا القرآن والتجويد ثم درس في الأزهر بالقاهرة، وكان من أساتذته محمد عبده، واستقر في مصر فعمل في صباه خياطًا وحدادًا، ثم اشتغل بعد تخرجه بالصحافة.{cite:wikipedia-ibrahim-al-dabbagh-ar}
 

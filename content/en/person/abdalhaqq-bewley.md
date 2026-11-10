@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abdalhaqq Bewley is a British translator and writer who has spent more than half a century rendering classical Islamic texts into English and teaching Islam in Muslim communities around the world. The year of his birth is not attested in the sources his record rests on, and it is left unrecorded rather than guessed. He became a Muslim during a visit to Morocco in 1968 and spent the following three years studying there; returning to England he met and married the translator Aisha Abdarrahman, and together they settled into a life of translation and community work{cite:botswana-zakah-talks-intro-2009}{cite:dar-al-taqwa-islamic-will-bios-1995}.
 

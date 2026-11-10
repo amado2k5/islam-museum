@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Jonathan Andrew Cleveland Brown (born 7 August 1977 in Washington, D.C.) is an American scholar of Islamic studies. Raised Episcopalian, he converted to Islam in 1997 while a student at Georgetown University, graduated in history there in 2000, studied Arabic for a year in Cairo, and completed his doctorate in Islamic thought at the University of Chicago in 2006 with a dissertation on the canonisation of the hadith collections of al-Bukhari and Muslim.{cite:wikipedia-brown-en}{cite:wikidata-brown}
 

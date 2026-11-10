@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mohammed Aziz Bouattour (1825–1907) was a Tunisian statesman born at Tunis in 1825 in the family home on the Rue du Pacha — the present Dar Ben Achour — into a patrician family of Sfax origin that claimed descent from the caliph Uthman.{cite:wikipedia-mohammed-aziz-bouattour-fr}{cite:wikipedia-mohammed-aziz-bouattour-en} Educated at the Zaytuna from 1839, he followed his grandfather and uncles into the state chancellery, becoming secretary of the diwan al-insha under the first secretary Mohamed Lasram IV.{cite:wikipedia-mohammed-aziz-bouattour-en} He also passed through the finance administration — the Arabic biography makes him finance director in 1860 and finance minister in 1866, where the French and English biographies instead date his Ministry of the Pen to 26 November 1864, a post the Arabic account places in 1878.{cite:wikipedia-mohammed-aziz-bouattour-ar}{cite:wikipedia-mohammed-aziz-bouattour-fr}
 

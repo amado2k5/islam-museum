@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 Mistah ibn Uthatha ibn Abbad ibn al-Muttalib ibn Abd Manaf al-Qurashi al-Muttalibi — his name was Awf and Mistah his nickname; a Badri Companion of the first forerunners and the emigrants. {cite:mubarakpuri-raheeq}
 
 Mistah was poor and kin to Abu Bakr al-Siddiq — his mother was a daughter of Abu Bakr's maternal aunt — so Abu Bakr used to spend on him for his poverty, his hijra and his kinship. When the affair of the Ifk occurred his foot slipped and he plunged into it with those who plunged, and he was flogged the hadd. {cite:sahih-al-bukhari}

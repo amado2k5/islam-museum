@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Jaylen Brown (born 24 October 1996) is an American basketball guard from Marietta, Georgia. After one season at California he was drafted third overall by the Boston Celtics in 2016, and in 2024 he won the NBA championship and the Finals MVP award with Boston.{cite:wikipedia-jaylen-brown-en}{cite:wikidata-jaylen-brown}
 

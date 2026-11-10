@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Hasan Prishtina (1873 – 13 August 1933), born Hasan Berisha at Vushtrri, was an Albanian politician who moved from the Ottoman parliament to lead the movement for Albanian autonomy and statehood.{cite:wikipedia-hasan-prishtina-en}{cite:wikipedia-hasan-prishtina-sq} Educated at the French gymnasium in Thessaloniki and in politics and law at Istanbul, he was elected to the Ottoman parliament in 1908 and took the name of his constituency; in 1912 he led the uprising in Kosovo and framed the Fourteen Points of Albanian demands presented to the Ottoman government.{cite:wikipedia-hasan-prishtina-en}
 

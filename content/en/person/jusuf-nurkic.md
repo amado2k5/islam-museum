@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Jusuf Nurkić (born 23 August 1994) is a Bosnian basketball player, the Utah Jazz centre drafted 16th overall in 2014. Raised in the Tuzla area, he was discovered at fourteen and developed in Slovenia and Croatia before NBA seasons with Denver, Portland, Phoenix and Charlotte; he represents Bosnia and Herzegovina.{cite:wikipedia-jusuf-nurkic-en}{cite:wikidata-jusuf-nurkic}
 

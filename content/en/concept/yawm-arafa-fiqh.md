@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yawm Arafa is a compound of day and Arafa. Arafa names the well-known standing ground where the pilgrimage is completed; its bound runs from the mountain overlooking Batn Urana to the facing mountains beside the walls of Banu Amir. The day of Arafa is the ninth of Dhu al-Hijja. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18029}
 

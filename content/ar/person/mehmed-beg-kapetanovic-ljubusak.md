@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 محمد بك كابتانوفيتش ليوبوشاك ⁦(19 ديسمبر 1839 – 29 يوليو 1902)⁩ كاتب وموظف بوسني من فيتينا قرب ليوبوشكي، كتب باسم محبي.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} تعلّم في مدرسة ليوبوشكي وفي التركية والعربية والفارسية، وخدم الإدارة العثمانية قائمقاماً في عدة مدن، واستقر في سراييفو سنة 1878، وخلف سنة 1893 مصطفى فاضل باشيتش ثانيَ عمدة للمدينة.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} وفي عهده حصلت سراييفو على إنارة الشوارع الكهربائية وعلى واحدة من أوائل خدمات الترام الكهربائي في أوروبا في 1 مايو 1895؛ وبدأت سكتة دماغية في يوليو 1898 التدهور الذي أجبره على الاستقالة في أبريل 1899.{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
 

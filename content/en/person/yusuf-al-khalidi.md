@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Yusuf Diya al-Din al-Khalidi (1842–1906) was an Ottoman Palestinian politician and scholar from Jerusalem who served several terms as the city's mayor and represented it in the first Ottoman parliament.{cite:wikipedia-yousef-al-khalidi-en}{cite:wikipedia-yusuf-al-khalidi-ar} Educated in Jerusalem, Malta and Istanbul, he taught Semitic languages in Vienna and compiled the first Kurdish–Arabic dictionary.{cite:wikipedia-yusuf-al-khalidi-ar}
 

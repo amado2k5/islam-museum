@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 As'ad Qaddura (1880–1959) was a Palestinian religious scholar from Safed who studied first at Damascus and then at al-Azhar under Muhammad Abduh, returning home with the title of an Azhar-trained scholar.{cite:wikipedia-asad-qaddura-ar}{cite:wikidata-asad-qaddura} He founded a national school in Safed's Red Mosque devoted to teaching Arabic, and held a succession of posts in the Ottoman sharia judiciary, receiving several decorations.{cite:wikipedia-asad-qaddura-ar}
 

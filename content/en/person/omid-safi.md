@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Omid Safi (born 1970 in Jacksonville, Florida) is an Iranian-American scholar of Islam. Born in the United States and raised in Iran, he migrated with his family from Tehran to the United States in 1985, and took his doctorate at Duke University. He taught philosophy and religion at Colgate University (1999–2004), then at the University of North Carolina at Chapel Hill, and joined Duke University, where he directed the Duke Islamic Studies Center from 2014 to 2019.{cite:wikipedia-safi-en}{cite:wikidata-safi}
 

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ebrahim Alkazi (18 October 1925 – 4 August 2020) was an Indian theatre director and teacher, born at Pune to a wealthy businessman from Unaizah in present-day Saudi Arabia and a Kuwaiti mother; the Arabic article styles him Ibrahim Hamad al-Qadi and calls him the father of Indian theatre.{cite:wikipedia-ebrahim-alkazi-en}{cite:wikipedia-ebrahim-alkazi-ar} Educated at Pune and at St Xavier's College, Bombay, he trained at the Royal Academy of Dramatic Art in London, won the BBC Broadcasting Award in 1950, and on returning to India ran the Theatre Group and then the Theatre Unit in Bombay before founding a school of dramatic arts in 1956.{cite:wikipedia-ebrahim-alkazi-en}
 

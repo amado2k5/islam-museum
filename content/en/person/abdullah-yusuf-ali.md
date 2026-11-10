@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abdullah Yusuf Ali (14 April 1872 – 10 December 1953) was an Indian-British scholar best known for his English translation of the Qur'an. Born in Bombay into a Dawoodi Bohra family, he was educated at the Anjuman Himayat-ul-Islam school and Wilson College in Bombay, memorised the Qur'an as a boy, and took a first-class degree from the University of Bombay before reading law at St John's College, Cambridge; he entered the Indian Civil Service and was called to the Bar at Lincoln's Inn.{cite:wikipedia-abdullah-yusuf-ali-en}
 

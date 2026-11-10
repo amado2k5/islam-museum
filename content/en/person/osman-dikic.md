@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Osman Đikić (7 January 1879 – 30 March 1912) was a Bosnian poet, dramatist and writer from Mostar who declared himself a Serb of the Islamic faith.{cite:wikipedia-osman-dikic-bs}{cite:wikipedia-osman-dikic-en} Expelled from the Mostar gymnasium for nationalist activity, he continued his schooling in Belgrade and Istanbul and graduated from the Trade Academy in Vienna, then worked as a bank clerk in Zagreb, Brčko and Mostar.{cite:wikipedia-osman-dikic-en}{cite:wikipedia-osman-dikic-hr} He edited the Mostar paper Musavat from 1907, moved to Sarajevo in 1909 as secretary of the Muslim cultural society Gajret and editor of its journal, and in 1910 founded his own political paper, Samouprava.{cite:wikipedia-osman-dikic-bs}{cite:wikipedia-osman-dikic-hr}
 

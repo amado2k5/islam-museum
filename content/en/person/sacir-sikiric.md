@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Šaćir Sikirić (1893 – 22 September 1966) was a Bosnian orientalist from Oglavak near Fojnica, an Arabist and Iranist counted among the founders of modern Oriental studies in Yugoslavia.{cite:wikipedia-sacir-sikiric-bs}{cite:wikipedia-sacir-sikiric-cs} He finished the Gazi Husrev-beg Madrasa and the Sharia Judges' School in Sarajevo, then studied Oriental philology at Budapest on a provincial-government scholarship, taking his doctorate there with a dissertation on the dervish monasteries and holy tombs of Bosnia.{cite:wikipedia-sacir-sikiric-bs}{cite:wikipedia-sacir-sikiric-cs} His narrower field was the classical Persian poets, and in 1966 he took part in the first world congress of Iranists at Tehran.{cite:wikipedia-sacir-sikiric-bs}
 

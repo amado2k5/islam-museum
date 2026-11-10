@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Reshma (c. 1947 – 3 November 2013) was a Pakistani folk singer born at the village of Loha near Bikaner in Rajasthan, into a nomadic Banjara household; her family moved to Karachi shortly after the Partition of India, when she was an infant.{cite:wikipedia-reshma-en} She received no formal education and sang as a child at the shrines of Sindh; at the age of twelve she was heard singing at the shrine of Lal Shahbaz Qalandar in Sehwan by the radio and television producer Saleem Gilani, who arranged her recording of Lal Meri Pat Rakhio for Radio Pakistan in 1968.{cite:wikipedia-reshma-en}{cite:wikipedia-reshma-ur}
 

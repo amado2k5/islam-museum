@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Çandarlı Ali Pasha was the eldest son of [[person/candarli-kara-halil-pasha|Çandarlı Kara Halil Hayreddin Pasha]], the first man to bear the title of grand vizier in the Ottoman state; neither the year nor the place of his birth is known to the sources.{cite:wikipedia-candarli-ali-pasha-tr}{cite:wikipedia-candarlizade-ali-pasha-en}{cite:wikidata-candarli-ali-pasha} He received a medrese education and entered the ilmiye class, served as kadı and then as kazasker before 1386, and when his father died unexpectedly on 22 January 1387 he succeeded him as vizier and then as grand vizier.{cite:wikipedia-candarli-ali-pasha-tr}{cite:wikipedia-candarlizade-ali-pasha-en}
 
