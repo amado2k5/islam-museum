@@ -14,6 +14,11 @@ relations:
   - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/tunis, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "القوات العثمانية بقيادة خير الدين", en: "The Ottoman forces under Khayr al-Din" }
+    participants: [person/khayr-al-din-barbarossa]
+    commanders: [person/khayr-al-din-barbarossa]
+  - label: { ar: "الدولة الحفصية", en: "The Hafsid state" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
