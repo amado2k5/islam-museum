@@ -12,7 +12,8 @@ date:
   start: { edtf: "1542", precision: year, status: tradition, derived: true }
   end: { edtf: "1542", precision: year, status: tradition, derived: true }
 relations:
-- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+  - { type: part_of, target: event/adal-war-1529 }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4872927

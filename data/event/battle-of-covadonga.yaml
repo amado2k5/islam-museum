@@ -12,7 +12,8 @@ date:
   start: { edtf: "0722", precision: year, status: tradition, derived: true }
   end: { edtf: "0722", precision: year, status: tradition, derived: true }
 relations:
-- { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: part_of, target: event/conquest-of-hispania }
+  - { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { ar: "الجيش الأموي", en: "The Umayyad force" }
     participants: [person/yazid-ibn-abd-al-malik]

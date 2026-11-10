@@ -12,7 +12,8 @@ date:
   start: { edtf: "1359", precision: year, status: tradition, derived: true }
   end: { edtf: "1359", precision: year, status: tradition, derived: true }
 relations:
-- { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: part_of, target: event/marinid-zayyanid-wars }
+  - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111207484

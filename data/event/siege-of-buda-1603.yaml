@@ -12,8 +12,9 @@ date:
   start: { edtf: "1603-09-20", precision: year, status: tradition, derived: true }
   end: { edtf: "1603-11-20", precision: year, status: tradition, derived: true }
 relations:
-- { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
-- { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: part_of, target: event/ottoman-habsburg-long-war }
+  - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { ar: "قوات محمد الثالث", en: "The forces of محمد الثالث" }
     participants: [person/mehmed-iii-uthmani]
