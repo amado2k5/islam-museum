@@ -1,4 +1,4 @@
-# 31. Hadith Qudsi Browser
+# 32. Hadith Qudsi Browser
 
 Status: **requested by the founder in chat, 9 November 2026** ("create متصفح الأحاديث القدسية ... make it shown on main landing museum page as well as in navigation, work end to end until you have included all the الأحاديث القدسية"). Data, page, API and search ship in one pull request; the records stay `status.review: draft` until a human reads them.
 
