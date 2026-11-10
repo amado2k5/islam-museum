@@ -37,7 +37,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "673", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "0650~", hijri: "0030~", calendar: julian, precision: year, status: debated, derived: true, note: "Died midway through Mu'awiya's governorship (Harun al-Hammal and Ibn Abi Hatim — preferred); Abu Umar gives 69 AH (al-Isaba p. 1196); CE year approximated to 30 AH", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - type: member_of
