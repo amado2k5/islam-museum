@@ -1,46 +1,88 @@
 id: concept/mahdiyya
 class: concept
 kind: doctrine
-label: { ar: "المهدية", en: "The doctrine of the awaited Mahdi (al-mahdiyya)" }
+label:
+  ar: المهدية
+  en: The doctrine of the awaited Mahdi (al-mahdiyya)
+  ur: المهدي
 summary:
-  ar: "عقيدة المهدي المنتظر من أبرز معالم المذهب عند الإمامية: هو الإمام الثاني عشر الذي يملأ الأرض عدلاً وقسطاً كما ملئت جوراً وظلماً، يُبايَع بمكة بين الركن والمقام، ويتصل بها القول بالرجعة — رجوع الأئمة وخصومهم إلى الدنيا بعد ظهوره. ورأى أحمد أمين أن فكرة المهدي جابهتها أخبار مقابلة: للأمويين «السفياني» الذي خرج به أبو محمد بن عبد الله بن يزيد بن معاوية فجمع أهل قنسرين وحمص وتدمر قبل أن يهزمه المنصور، ووُضعت للعباسيين أحاديث كحديث «منا أهل البيت أربعة: منا السفاح ومنا المنذر ومنا المنصور ومنا المهدي»، وقد سمّى المنصور ابنه المهدي إيهاماً بأنه المهدي المنتظر {cite:duha-islam p. 871-873, 876}."
-  en: "The Mahdiyya — the awaited twelfth imam who fills the earth with justice; opposed in the Umayyad claim to a 'Sufyani' and absorbed in the Abbasid coining of a 'Mahdi' of their own {cite:duha-islam p. 871-873}."
-wings: [ideas]
-periods: [period/abbasid-early]
-regions: [levant-iraq]
-themes: [sects-and-schools, creed]
-sources: [source/duha-islam, source/sallabi-ali-vol2]
+  ur: آخرِ زمان میں اہلِ بیت کا امام جو زمین کو انصاف سے بھر دے گا جیسا کہ وہ جور
+    سے بھری ہو۔
+  ar: 'عقيدة المهدي المنتظر من أبرز معالم المذهب عند الإمامية: هو الإمام الثاني عشر
+    الذي يملأ الأرض عدلاً وقسطاً كما ملئت جوراً وظلماً، يُبايَع بمكة بين الركن والمقام،
+    ويتصل بها القول بالرجعة — رجوع الأئمة وخصومهم إلى الدنيا بعد ظهوره. ورأى أحمد
+    أمين أن فكرة المهدي جابهتها أخبار مقابلة: للأمويين «السفياني» الذي خرج به أبو
+    محمد بن عبد الله بن يزيد بن معاوية فجمع أهل قنسرين وحمص وتدمر قبل أن يهزمه المنصور،
+    ووُضعت للعباسيين أحاديث كحديث «منا أهل البيت أربعة: منا السفاح ومنا المنذر ومنا
+    المنصور ومنا المهدي»، وقد سمّى المنصور ابنه المهدي إيهاماً بأنه المهدي المنتظر
+    {cite:duha-islam p. 871-873, 876}.'
+  en: The Mahdiyya — the awaited twelfth imam who fills the earth with justice; opposed
+    in the Umayyad claim to a 'Sufyani' and absorbed in the Abbasid coining of a 'Mahdi'
+    of their own {cite:duha-islam p. 871-873}.
+wings:
+- ideas
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- creed
+sources:
+- source/duha-islam
+- source/sallabi-ali-vol2
 provenance:
   layer: own-research
-  source: "ضحى الإسلام لأحمد أمين ص 857، 871-873، 876"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  source: ضحى الإسلام لأحمد أمين ص 857، 871-873، 876
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-duha-islam-batch-10
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-tags: [ghayb-browser, ghayb-signs]
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High)
+tags:
+- ghayb-browser
+- ghayb-signs
 perspectives:
 - tradition: sunni
   id: jumhur-mahdi-established
   stance:
-    ar: "ظهور المهدي في آخر الزمان ثابت عند جمهور أهل السنة بأحاديث بلغت عندهم حد التواتر المعنوي"
-    en: "The Mahdi's appearance is established for most Sunni scholars on reports reaching mutawatir ma'nawi"
+    ar: ظهور المهدي في آخر الزمان ثابت عند جمهور أهل السنة بأحاديث بلغت عندهم حد التواتر
+      المعنوي
+    en: The Mahdi's appearance is established for most Sunni scholars on reports reaching
+      mutawatir ma'nawi
   summary:
-    ar: "أجمع علماء الحديث عند جمهور الأمة على أن الأخبار في المهدي من أهل البيت وردت من طرق كثيرة تفيد اليقين عندهم، وأنه يظهر قبل عيسى ويملأ الأرض عدلًا {cite:sunan-abi-dawud} {cite:sunan-ibn-majah}."
-    en: "Hadith scholars of the community's majority agree that reports of a Mahdi from the Prophet's house came through many routes conveying certainty, and that he appears before Isa and fills the earth with justice {cite:sunan-abi-dawud} {cite:sunan-ibn-majah}."
-  holders: [work/sunan-abi-dawud]
+    ar: أجمع علماء الحديث عند جمهور الأمة على أن الأخبار في المهدي من أهل البيت وردت
+      من طرق كثيرة تفيد اليقين عندهم، وأنه يظهر قبل عيسى ويملأ الأرض عدلًا {cite:sunan-abi-dawud}
+      {cite:sunan-ibn-majah}.
+    en: Hadith scholars of the community's majority agree that reports of a Mahdi
+      from the Prophet's house came through many routes conveying certainty, and that
+      he appears before Isa and fills the earth with justice {cite:sunan-abi-dawud}
+      {cite:sunan-ibn-majah}.
+  holders:
+  - work/sunan-abi-dawud
   evidence:
   - ref: source/sunan-abi-dawud
-    note: { ar: "كتاب المهدي" }
+    note:
+      ar: كتاب المهدي
   - ref: source/sunan-ibn-majah
-    note: { ar: "كتاب الفتن، باب خروج المهدي" }
+    note:
+      ar: كتاب الفتن، باب خروج المهدي
 - tradition: academic
   id: khaldun-mahdi-doubt
   stance:
-    ar: "ابن خلدون شكك في صحة كثير من أحاديث المهدي وعدّ أشهرها ضعيفًا"
-    en: "Ibn Khaldun doubted the soundness of many Mahdi reports and judged famous ones weak"
+    ar: ابن خلدون شكك في صحة كثير من أحاديث المهدي وعدّ أشهرها ضعيفًا
+    en: Ibn Khaldun doubted the soundness of many Mahdi reports and judged famous
+      ones weak
   summary:
-    ar: "نقّد ابن خلدون في مقدمته إسناد أحاديث المهدي المشهورة وبيّن ضعف كثير منها، مع إقراره بشيوع الخبر بين العامة {cite:muqaddimat-ibn-khaldun}."
-    en: "In the Muqaddima Ibn Khaldun critiqued the isnads of the famous Mahdi reports, showing weakness in many, while conceding the report's prevalence among the populace {cite:muqaddimat-ibn-khaldun}."
-  holders: [person/ibn-khaldun]
+    ar: نقّد ابن خلدون في مقدمته إسناد أحاديث المهدي المشهورة وبيّن ضعف كثير منها،
+      مع إقراره بشيوع الخبر بين العامة {cite:muqaddimat-ibn-khaldun}.
+    en: In the Muqaddima Ibn Khaldun critiqued the isnads of the famous Mahdi reports,
+      showing weakness in many, while conceding the report's prevalence among the
+      populace {cite:muqaddimat-ibn-khaldun}.
+  holders:
+  - person/ibn-khaldun
   evidence:
   - ref: source/muqaddimat-ibn-khaldun
-    note: { ar: "الفصل في أنباء المهدي" }
+    note:
+      ar: الفصل في أنباء المهدي

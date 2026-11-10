@@ -1,67 +1,164 @@
 id: event/isra-and-miraj
 education:
-  levels: [sprouts, explorers, scholars]
+  levels:
+  - sprouts
+  - explorers
+  - scholars
   flagged_for_kids: true
-  provenance: { generated_by: "Devin", model: "Devin (Cognition)", run: "education-E5-leveled-b7", note: "Leveled texts restated from this record's own prose in ar, en and ur; draft, pending the founder's review and scholar review of the child levels." }
+  provenance:
+    generated_by: Devin
+    model: Devin (Cognition)
+    run: education-E5-leveled-b7
+    note: Leveled texts restated from this record's own prose in ar, en and ur; draft,
+      pending the founder's review and scholar review of the child levels.
   did_you_know:
-    ar: "في رحلة الإسراء والمعراج صلّى النبي بالأنبياء إماماً في المسجد الأقصى ثم عُرج به إلى السماوات وفُرضت الصلوات الخمس."
-    en: "On the Night Journey, the Prophet led the prophets in prayer at al-Aqsa, then ascended through the heavens where the five daily prayers were ordained."
-    ur: "اسراء و معراج کے سفر میں نبی نے مسجد اقصیٰ میں انبیاء کی امامت کی، پھر آسمانوں کی سیر ہوئی جہاں پانچ نمازیں فرض ہوئیں۔"
-    sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+    ar: في رحلة الإسراء والمعراج صلّى النبي بالأنبياء إماماً في المسجد الأقصى ثم عُرج
+      به إلى السماوات وفُرضت الصلوات الخمس.
+    en: On the Night Journey, the Prophet led the prophets in prayer at al-Aqsa, then
+      ascended through the heavens where the five daily prayers were ordained.
+    ur: اسراء و معراج کے سفر میں نبی نے مسجد اقصیٰ میں انبیاء کی امامت کی، پھر آسمانوں
+      کی سیر ہوئی جہاں پانچ نمازیں فرض ہوئیں۔
+    sources:
+    - source/mubarakpuri-raheeq
+    - source/sahih-muslim
 class: event
 sensitivity: contested
 kind: revelation
-label: { en: "The Isra and Mi'raj", ar: "الإسراء والمعراج" }
+label:
+  en: The Isra and Mi'raj
+  ar: الإسراء والمعراج
+  ur: الإسراء والمعراج
 summary:
-  ur: "ہرم سے اقصیٰ تک رات کا سفر پھر آسمانوں تک عروج — جس میں پانچ نمازیں فرض ہوئیں۔"
-  en: "The miraculous nocturnal journey of Prophet Muhammad from al-Masjid al-Haram to al-Masjid al-Aqsa in Jerusalem, and his ascent through the seven heavens, where the five daily prayers were ordained. ونص رحلة المعراج كاملاً عند البخاري في حديث مالك بن صعصعة {cite:sahih-al-bukhari 3207}."
-  ar: "إسراء النبي ليلاً بجسده على الصحيح بصحبة جبريل من المسجد الحرام إلى المسجد الأقصى على البراق وصلاته بالأنبياء إماماً، ثم عروجه إلى السماوات العلا وفرض الصلوات الخمس. وأطول نص له عند مسلم حديث مالك بن صعصعة في كتاب الإيمان {cite:sahih-muslim 162}."
-wings: [time]
-themes: [prophets, worship-and-the-pillars]
-periods: [period/prophetic-era]
-regions: [arabia, levant-iraq]
+  ur: ہرم سے اقصیٰ تک رات کا سفر پھر آسمانوں تک عروج — جس میں پانچ نمازیں فرض ہوئیں۔
+  en: The miraculous nocturnal journey of Prophet Muhammad from al-Masjid al-Haram
+    to al-Masjid al-Aqsa in Jerusalem, and his ascent through the seven heavens, where
+    the five daily prayers were ordained. ونص رحلة المعراج كاملاً عند البخاري في حديث
+    مالك بن صعصعة {cite:sahih-al-bukhari 3207}.
+  ar: إسراء النبي ليلاً بجسده على الصحيح بصحبة جبريل من المسجد الحرام إلى المسجد الأقصى
+    على البراق وصلاته بالأنبياء إماماً، ثم عروجه إلى السماوات العلا وفرض الصلوات الخمس.
+    وأطول نص له عند مسلم حديث مالك بن صعصعة في كتاب الإيمان {cite:sahih-muslim 162}.
+wings:
+- time
+themes:
+- prophets
+- worship-and-the-pillars
+periods:
+- period/prophetic-era
+regions:
+- arabia
+- levant-iraq
 date:
-  start: { edtf: "0621~", calendar: julian, precision: year, status: debated, note: "اختلف في زمنه على ستة أقوال؛ رجح المباركفوري وقوعه بعد رحلة الطائف وقبل بيعة العقبة، في حدود السنة الحادية عشرة أو الثانية عشرة من النبوة (الرحيق ص137-138). ويذكر الشعراوي أنه كان في ليلة واحدة قبل الهجرة بسنة واحدة {cite:al-isra-wal-miraj-azhar p. 19}، فيُضاف قولاً آخر محل خلاف ولا يُرجَّح." }
+  start:
+    edtf: 0621~
+    calendar: julian
+    precision: year
+    status: debated
+    note: اختلف في زمنه على ستة أقوال؛ رجح المباركفوري وقوعه بعد رحلة الطائف وقبل
+      بيعة العقبة، في حدود السنة الحادية عشرة أو الثانية عشرة من النبوة (الرحيق ص137-138).
+      ويذكر الشعراوي أنه كان في ليلة واحدة قبل الهجرة بسنة واحدة {cite:al-isra-wal-miraj-azhar
+      p. 19}، فيُضاف قولاً آخر محل خلاف ولا يُرجَّح.
 relations:
-  - { type: occurred_at, target: place/mecca }
-  - { type: occurred_at, target: place/jerusalem }
-  - { type: occurred_at, target: place/al-aqsa-mosque, sources: [source/al-isra-wal-miraj-azhar] }
-  - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/abu-bakr, role: "صدّق بالنبل فسمي الصديق", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/abu-jahl, role: "استهزأ بالخبر ونادى قريشاً للتكذيب", sources: [source/mubarakpuri-raheeq] }
-  - { type: part_of, target: period/prophetic-era }
-issue: { ar: "هل كان الإسراء والمعراج بالجسد والروح يقظةً، وكيف يُؤرَّخ ويُفهم؟", en: "Was the Isra and Miraj in body and soul while awake, and how is it dated and understood?" }
+- type: occurred_at
+  target: place/mecca
+- type: occurred_at
+  target: place/jerusalem
+- type: occurred_at
+  target: place/al-aqsa-mosque
+  sources:
+  - source/al-isra-wal-miraj-azhar
+- type: had_participant
+  target: person/muhammad
+- type: had_participant
+  target: person/abu-bakr
+  role: صدّق بالنبل فسمي الصديق
+  sources:
+  - source/mubarakpuri-raheeq
+- type: had_participant
+  target: person/abu-jahl
+  role: استهزأ بالخبر ونادى قريشاً للتكذيب
+  sources:
+  - source/mubarakpuri-raheeq
+- type: part_of
+  target: period/prophetic-era
+issue:
+  ar: هل كان الإسراء والمعراج بالجسد والروح يقظةً، وكيف يُؤرَّخ ويُفهم؟
+  en: Was the Isra and Miraj in body and soul while awake, and how is it dated and
+    understood?
 perspectives:
-  - tradition: sunni
-    id: sunni
-    summary: { en: "Sunni scholars hold that the journey occurred in both body and soul while awake, citing explicit hadith reports in Bukhari and Muslim and the opening of Surat al-Isra." }
-    sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/al-isra-wal-miraj-azhar]
-  - tradition: sunni
-    id: sunni-sharawi-divine-act
-    stance: { en: "The ascent is God's act; the nearing is not spatial", ar: "المعراج فعل الله، والدنو ليس مكانياً" }
-    holders: [person/muhammad-mutawalli-al-shaarawi]
-    summary:
-      en: "Sha'rawi attributes the ascent to God, reads the nearing as God's act and not a spatial motion, and holds that the vision of 53:11-18 was real and not a dream, so the Qur'an's 'ru'ya' is taken as a sight that happened. He records the debate and gives no verdict on the Qur'anic wording {cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 17}{cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 62}."
-      ar: "ينسب الشعراوي المعراج إلى الله، ويفهم الدنو فعلاً لله لا حركة مكانية، ويرى أن الرؤية في سورة النجم كانت يقظة لا منامًا، وينقل الجدل دون حكم {cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 17}{cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 62}."
-    sources: [source/al-isra-wal-miraj-dar-al-jeel-2003]
-  - tradition: sunni
-    id: sunni-footnote-prophet-drew-near
-    stance: { en: "The nearing is the Prophet's own approach to his Lord", ar: "الدنو من النبي نفسه في اقترابه من ربه" }
-    holders: []
-    summary:
-      en: "An unnamed editorial footnote in the same Dar al-Jeel edition argues against Sha'rawi that 'dana' may describe the Prophet drawing near, as a person on tiptoe reaches for a sight {cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 66}. The footnote is the editor's, not Sha'rawi's, and is labelled as such."
-      ar: "حاشية تحريرية غير منسوبة في طبعة دار الجيل نفسها تخالف الشعراوي وترى أن «دنا» قد تصف دنو النبي من ربه، كمن يرتفع على أطراف أصابعه ليرى {cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 66}. والحاشية للمحرر لا للشعراوي."
-    sources: [source/al-isra-wal-miraj-dar-al-jeel-2003]
-  - tradition: academic
-    id: academic
-    summary: { en: "Historians analyse the varied early reports and traditions regarding the dating and nature of the night journey, contrasting the concise Qur'anic text with the developed details in classical hadith literature." }
-external_ids: { wikidata: "Q381240" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/al-isra-wal-miraj-azhar, source/al-isra-wal-miraj-dar-al-jeel-2003, source/tafsir-sharawi-khawatir-scan-pp-501-1000, source/assabile-omar-abdelkafy, source/assabile-ahmed-abdussalam]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 137-142" }
+- tradition: sunni
+  id: sunni
+  summary:
+    en: Sunni scholars hold that the journey occurred in both body and soul while
+      awake, citing explicit hadith reports in Bukhari and Muslim and the opening
+      of Surat al-Isra.
+  sources:
+  - source/zad-al-maad
+  - source/sahih-al-bukhari
+  - source/sahih-muslim
+  - source/al-isra-wal-miraj-azhar
+- tradition: sunni
+  id: sunni-sharawi-divine-act
+  stance:
+    en: The ascent is God's act; the nearing is not spatial
+    ar: المعراج فعل الله، والدنو ليس مكانياً
+  holders:
+  - person/muhammad-mutawalli-al-shaarawi
+  summary:
+    en: Sha'rawi attributes the ascent to God, reads the nearing as God's act and
+      not a spatial motion, and holds that the vision of 53:11-18 was real and not
+      a dream, so the Qur'an's 'ru'ya' is taken as a sight that happened. He records
+      the debate and gives no verdict on the Qur'anic wording {cite:al-isra-wal-miraj-dar-al-jeel-2003
+      p. 17}{cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 62}.
+    ar: ينسب الشعراوي المعراج إلى الله، ويفهم الدنو فعلاً لله لا حركة مكانية، ويرى
+      أن الرؤية في سورة النجم كانت يقظة لا منامًا، وينقل الجدل دون حكم {cite:al-isra-wal-miraj-dar-al-jeel-2003
+      p. 17}{cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 62}.
+  sources:
+  - source/al-isra-wal-miraj-dar-al-jeel-2003
+- tradition: sunni
+  id: sunni-footnote-prophet-drew-near
+  stance:
+    en: The nearing is the Prophet's own approach to his Lord
+    ar: الدنو من النبي نفسه في اقترابه من ربه
+  holders: []
+  summary:
+    en: An unnamed editorial footnote in the same Dar al-Jeel edition argues against
+      Sha'rawi that 'dana' may describe the Prophet drawing near, as a person on tiptoe
+      reaches for a sight {cite:al-isra-wal-miraj-dar-al-jeel-2003 p. 66}. The footnote
+      is the editor's, not Sha'rawi's, and is labelled as such.
+    ar: حاشية تحريرية غير منسوبة في طبعة دار الجيل نفسها تخالف الشعراوي وترى أن «دنا»
+      قد تصف دنو النبي من ربه، كمن يرتفع على أطراف أصابعه ليرى {cite:al-isra-wal-miraj-dar-al-jeel-2003
+      p. 66}. والحاشية للمحرر لا للشعراوي.
+  sources:
+  - source/al-isra-wal-miraj-dar-al-jeel-2003
+- tradition: academic
+  id: academic
+  summary:
+    en: Historians analyse the varied early reports and traditions regarding the dating
+      and nature of the night journey, contrasting the concise Qur'anic text with
+      the developed details in classical hadith literature.
+external_ids:
+  wikidata: Q381240
+sources:
+- source/mubarakpuri-raheeq
+- source/zad-al-maad
+- source/sahih-al-bukhari
+- source/sahih-muslim
+- source/ibn-hisham-sira
+- source/al-isra-wal-miraj-azhar
+- source/al-isra-wal-miraj-dar-al-jeel-2003
+- source/tafsir-sharawi-khawatir-scan-pp-501-1000
+- source/assabile-omar-abdelkafy
+- source/assabile-ahmed-abdussalam
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin; al-Raheeq al-Makhtum pp. 137-142
 provenance:
   layer: own-research
-  source: "source/mubarakpuri-raheeq"
+  source: source/mubarakpuri-raheeq
   generated_by: Devin
-  model: "unknown"
-  run: "education-E3-facts-batch5"
-tags: [ghayb-browser, ghayb-heavens]
+  model: unknown
+  run: education-E3-facts-batch5
+tags:
+- ghayb-browser
+- ghayb-heavens
