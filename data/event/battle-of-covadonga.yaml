@@ -13,6 +13,10 @@ date:
   end: { edtf: "0722", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأموي", en: "The Umayyad force" }
+    participants: [person/yazid-ibn-abd-al-malik]
+  - label: { ar: "ثورة بلايوس وأهل أستورياس", en: "Pelagius and the Asturians" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q957186
