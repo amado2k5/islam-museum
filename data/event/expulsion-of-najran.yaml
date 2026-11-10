@@ -16,11 +16,11 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أجلاهم إلى النجرانية خشية على الإسلام بعد أكلهم الربا", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: "حطّ عنهم مائتي حلة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-walid-ibn-uqba, role: "عامل عثمان على الكوفة الذي كُتب إليه في أمرهم", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "ردّهم إلى 1800 حلة بعد خروج ابن الأشعث", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "ألزمهم مائتي حلة قيمتها ثمانية آلاف درهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-hajjaj-ibn-yusuf, role: "ردّهم إلى 1800 حلة بعد خروج ابن الأشعث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/umar-ibn-abd-al-aziz, role: "ألزمهم مائتي حلة قيمتها ثمانية آلاف درهم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أبى إقالتهم كراهية خلاف عمر", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abu-al-abbas-al-saffah, role: "أقرّهم على مائتي حلة", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/harun-al-rashid, role: "أكّد المائتين وأعفاهم من معاملة العمال", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abu-al-abbas-al-saffah, role: "أقرّهم على مائتي حلة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/harun-al-rashid, role: "أكّد المائتين وأعفاهم من معاملة العمال", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 88–92"

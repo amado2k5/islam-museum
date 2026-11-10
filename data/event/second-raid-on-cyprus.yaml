@@ -15,8 +15,8 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "أمير الغزوة في خمسمائة مركب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/yazid-ibn-muawiya, role: "أقفل الجند وأمر بهدم المدينة — وقيل برشوة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "زاد على أهلها ألف دينار", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "حطّ الزيادة عنهم", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mansur, role: "ردّهم إلى صلح معاوية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/umar-ibn-abd-al-aziz, role: "حطّ الزيادة عنهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mansur, role: "ردّهم إلى صلح معاوية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: caused_by, target: event/first-raid-on-cyprus, note: "نقض أهلها بإعانة الروم سنة 32", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

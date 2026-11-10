@@ -17,7 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "أُكمل البناء في خلافته", sources: [source/encyclopaedia-of-islam-2] }
-  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "بنى على الأساس الأول", sources: [source/ahsan-al-taqasim] }
+  - { type: related_to, target: person/abd-al-malik-ibn-marwan, role: "بنى على الأساس الأول", sources: [source/ahsan-al-taqasim] }
 sources: [source/encyclopaedia-of-islam-2, source/ahsan-al-taqasim]
 provenance:
   layer: own-research
