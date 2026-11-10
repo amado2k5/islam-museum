@@ -17,6 +17,7 @@ sides:
 relations:
   - { type: occurred_at, target: place/tarabulus-gharb, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/roger-of-sicily, role: "ملك الفرنج صاحب صقلية", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

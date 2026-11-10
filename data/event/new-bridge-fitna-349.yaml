@@ -12,6 +12,7 @@ date:
   start: { edtf: "0960-10-09~", hijri: "0349-08-03", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 3 شعبان 349؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 687}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"

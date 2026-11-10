@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/nizam-al-mulk, role: "صاحب الكتاب الناهي عن الانحياز", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "المخاطَب بالكتاب", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-nasr-ibn-al-qushayri, role: "المذكور في الكتاب", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 470)، قراءة آبل فيجن"
