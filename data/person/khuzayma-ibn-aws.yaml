@@ -6,16 +6,20 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لخزيمة بن أوس، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khuzayma ibn Aws, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "خزيمة بن أوس الأنصاري النجاري، ذكره موسى بن عقبة فيمن شهد بدراً، واستشهد يوم الجسر."
+  en: "Khuzayma ibn Aws al-Ansari of Banu al-Najjar; Musa ibn Uqba lists him among the Badr veterans, and he was killed at the Battle of the Bridge."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam]
-died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "0634~", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at the Battle of the Bridge, after Salama ibn al-Fadl from Ibn Ishaq (al-Isaba p. 392); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 392", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 392", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 392; Musa ibn Uqba", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-the-bridge, note: "al-Isaba p. 392; killed there", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12210669
 provenance:

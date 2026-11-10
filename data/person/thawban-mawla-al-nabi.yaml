@@ -45,6 +45,7 @@ sources:
 status:
   review: published
   completeness: 3
-died: { edtf: "674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "0674~", hijri: "0054", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Homs in 54 AH, after Ibn Sa'd (al-Isaba p. 191); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/ramla, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba, source/assabile-mustafa-hosny] }
+  - { type: died_in, target: place/homs, note: "al-Isaba p. 191", sources: [source/ibn-hajar-isaba] }

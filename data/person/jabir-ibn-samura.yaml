@@ -38,7 +38,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+died: { edtf: "0693~", hijri: "0074", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Kufa in the governorship of Bishr over Iraq, after Ibn al-Sakan (al-Isaba p. 194); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/kufa
@@ -48,6 +48,7 @@ relations:
   target: group/banu-zuhra
   sources:
   - source/ibn-hajar-isaba
+- { type: died_in, target: place/kufa, note: "al-Isaba p. 194", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 1022، ص 194
