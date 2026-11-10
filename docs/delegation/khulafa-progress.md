@@ -25,3 +25,5 @@ A repo-wide audit (born/died vs event dates on every `had_participant` edge) fou
 
 - 12 schematic extent geojson under geo/polity/ (9 caliphates + 3 claims).
 - 90 draft prose stubs (30 records × ar/en/ur); remaining: full prose waves for all 160 caliphs, the 182-edge cleanliness pass, deploy.
+
+- Second `during_reign` pass: +73 events (occurred_at place regions resolved single-caliphate matches); 1,036 multi-region/region-less events still deferred to a manual wave. All 162 roster caliphs have ar/en/ur prose pages.
