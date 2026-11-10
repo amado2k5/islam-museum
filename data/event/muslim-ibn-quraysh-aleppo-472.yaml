@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/muslim-ibn-quraysh, role: "الآخذ", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 323"
