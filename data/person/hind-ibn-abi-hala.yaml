@@ -19,7 +19,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة والشمائل؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Jamal)" }
+died: { edtf: "0656", hijri: "0036", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed fighting with Ali at the Camel — the Prophet's eloquent stepson (al-Zubayr ibn Bakkar and al-Daraqutni, al-Isaba p. 1554); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: lived_in, target: place/halla, confidence: low, note: "Associated with هالة per the record's own summary text; relation type pending review.", sources: [source/mubarakpuri-raheeq] }
 - type: child_of
@@ -32,5 +32,5 @@ provenance:
   generated_by: Devin
   model: SWE-2 High
   run: raheeq-batch-24
-sources: [source/mubarakpuri-raheeq, source/jami-al-tirmidhi]
+sources: [source/mubarakpuri-raheeq, source/jami-al-tirmidhi, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 486" }
