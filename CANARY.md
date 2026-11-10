@@ -19,6 +19,11 @@ open a new block on top with the new version and today's date.
 - **The Companions Browser — متصفح الصحابة (`/{lang}/companions/`).** A new front door over the museum's 606 Companion records, in Arabic, English and Urdu. The home page shows the Ten promised Paradise, the four circles (the Muhajirun, the Ansar, the Ahl al-Bayt, the Mothers of the Believers), the women Companions, clans and tribes, the events Companions took part in, deaths by Hijri decade, and an A-to-Z list with a name filter. Each group, event and decade has its own page. Everything is read from the existing graph — no new class or data — and every name links to its record. Also in the Explore menu and on the landing page, with abstract art (no figures). Plan: `docs/plan/29-companions-browser.md`.
 - **`/api/v1/companions.json`.** Every Companion record with gender, roles, dates, the Ten flag, circle and clan groups, events, the Hijri death year and decade (flagged when converted from the Gregorian date), connections and prose languages. Documented in `docs/data/README.md`, the OpenAPI file and `llms.txt`.
 
+### Data
+- **Companions: wrong dates and three wrong roles fixed (Companions Browser Phase 5, batch 1).**
+  - 29 birth and death dates came from the date-enrichment pass, which had matched the wrong namesake. Examples: Abu Khaythama got the hadith scholar Zuhayr ibn Harb's dates (d. 234 AH), and Amina bint Khalf a death year of 1275 CE. All 29 are removed. Each was a birth after 632 CE or an impossible death year on a Companion. The real dates come back from the Companion dictionaries in later batches.
+  - Three later figures were tagged as Companions and are no longer: Abbasa bint al-Fadl (the wife of Ahmad ibn Hanbal), Umm Musa al-Qahramana (the Abbasid stewardess) and Yusuf ibn Mirdaw (12th century). The Companions Browser now lists 603 Companions.
+
 ### Tests
 - **Companion selection and facets** (`scripts/companions.test.ts`): who counts as a Companion, the Hijri death year, the decade buckets and the grouping. The feature-export test now expects `companions.json`. `check-site` asserts that the browser home renders, and `check-weight` budgets the home and a group page.
 
