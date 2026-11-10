@@ -15,6 +15,10 @@ relations:
 - { type: during_reign, target: person/abd-al-aziz-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/murad-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عبد العزيز", en: "The authorities of Abd al-Aziz (Ottoman)" }
+    participants: [person/abd-al-aziz-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2258726

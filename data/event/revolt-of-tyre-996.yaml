@@ -13,6 +13,10 @@ date:
   end: { edtf: "0998", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات القادر بالله أحمد بن إسحاق بن المقتدر", en: "The authorities of al-Qadir bi-llah Ahmad ibn Ishaq ibn al-Muqtadir" }
+    participants: [person/al-qadir-billah]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q17028780

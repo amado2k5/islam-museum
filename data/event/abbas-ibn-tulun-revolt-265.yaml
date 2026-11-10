@@ -19,6 +19,10 @@ relations:
   - { type: had_participant, target: person/al-abbas-ibn-ahmad-ibn-tulun, role: "الولي العاصي", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الوالد العائد القاهر", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المعتمد على الله", en: "The authorities of al-Mu'tamid ala Allah" }
+    participants: [person/al-mutamid]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

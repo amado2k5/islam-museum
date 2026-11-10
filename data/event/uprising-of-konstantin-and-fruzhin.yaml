@@ -13,6 +13,10 @@ date:
   end: { edtf: "1413", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات المستعين ⁦(القاهرة)⁩", en: "The authorities of al-Musta'in (Cairo)" }
+    participants: [person/al-mustain-cairo]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3394091

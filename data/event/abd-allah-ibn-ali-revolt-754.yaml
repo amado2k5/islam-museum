@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات أبو العباس السفاح", en: "The authorities of Abu al-Abbas al-Saffah" }
+    participants: [person/abu-al-abbas-al-saffah]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130245253

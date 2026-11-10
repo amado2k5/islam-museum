@@ -13,6 +13,10 @@ date:
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "الثوار", en: "The rebels" }
+  - label: { ar: "سلطات عبد المؤمن بن علي القمي", en: "The authorities of Abd al-Mu'min ibn Ali al-Qumi" }
+    participants: [person/abd-al-mumin-ibn-ali]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q11945453
