@@ -1,0 +1,20 @@
+id: place/trowulan-temple
+class: place
+kind: site
+label: { ar: "ترولان", en: "Trowulan Temple" }
+summary:
+  ar: "موقع أثري في إندونيسيا."
+  en: "Archaeological site in Indonesia."
+wings: [place]
+coordinates: [-7.55, 112.366667]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q962410" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q962410 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

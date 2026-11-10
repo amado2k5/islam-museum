@@ -1,0 +1,20 @@
+id: place/tutora
+class: place
+kind: province
+label: { ar: "تسوتسورا", en: "Țuțora" }
+summary:
+  ar: "مقاطعة."
+  en: "Commune in Iași County, Romania."
+wings: [place]
+coordinates: [47.156233, 27.771048]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4930913" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4930913 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

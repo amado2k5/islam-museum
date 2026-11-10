@@ -1,0 +1,20 @@
+id: place/gracanica-monastery
+class: place
+kind: site
+label: { ar: "دير غراتشانيكا", en: "Gračanica monastery" }
+summary:
+  ar: "موقع أثري."
+  en: "Cultural heritage monument of Kosovo."
+wings: [place]
+coordinates: [42.598333333333, 21.193333333333]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1137661" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1137661 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

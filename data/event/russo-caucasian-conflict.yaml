@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1550", precision: year, status: tradition, derived: true }
   end: { edtf: "1864", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [43.831787, 43.405047]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1550"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراع الروسي القوقازي", en: "Russo-Caucasian conflict" }, at: [43.831787, 43.405047], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/north-caucasus }
 sides:
   - label: { en: "Russians", ar: "روس" }
   - label: { en: "peoples of the Caucasus", ar: "شعوب القوقاز" }

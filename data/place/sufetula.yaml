@@ -1,0 +1,20 @@
+id: place/sufetula
+class: place
+kind: site
+label: { ar: "الموقع الأثري بسبيطلة", en: "Sufetula" }
+summary:
+  ar: "موقع أثري في تونس."
+  en: "Archaeological site in Tunisia."
+wings: [place]
+coordinates: [35.240380555556, 9.1203194444444]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1536583" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1536583 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1407", precision: year, status: tradition, derived: true }
   end: { edtf: "1407", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-5.1813888888889, 36.864166666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1407"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سيتينيل دي لاس بوديغاس ⁦(١٤٠٧)⁩", en: "Siege of Setenil de las Bodegas (1407)" }, at: [-5.1813888888889, 36.864166666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/setenil-de-las-bodegas }
 sides:
   - label: { ar: "قوات المستعين ⁦(القاهرة)⁩", en: "The forces of al-Musta'in (Cairo)" }
     participants: [person/al-mustain-cairo]

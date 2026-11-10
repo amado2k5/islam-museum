@@ -1,0 +1,20 @@
+id: place/chisinau
+class: place
+kind: city
+label: { ar: "كيشيناو", en: "Chișinău" }
+summary:
+  ar: "مدينة."
+  en: "Capital of Moldova."
+wings: [place]
+coordinates: [47.022777777777776, 28.835277777777776]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q21197" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q21197 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

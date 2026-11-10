@@ -1,0 +1,20 @@
+id: place/takht-e-soleyman
+class: place
+kind: site
+label: { ar: "تخت سليمان", en: "Takht-e Soleyman" }
+summary:
+  ar: "موقع أثري."
+  en: "Archaeological site in Takab County, Iranian national heritage site."
+wings: [place]
+coordinates: [36.60472222222222, 47.23416666666667]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q115253" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q115253 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

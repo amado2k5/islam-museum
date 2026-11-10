@@ -1,0 +1,20 @@
+id: place/al-ahsa-governorate
+class: place
+kind: province
+label: { ar: "محافظة الأحساء", en: "Al-Ahsa governorate" }
+summary:
+  ar: "مقاطعة."
+  en: "Governorate of Saudi Arabia."
+wings: [place]
+coordinates: [25.383333333333, 49.6]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4702167" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4702167 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

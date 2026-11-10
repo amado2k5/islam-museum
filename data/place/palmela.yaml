@@ -1,0 +1,20 @@
+id: place/palmela
+class: place
+kind: province
+label: { ar: "بالملا", en: "Palmela" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Portugal."
+wings: [place]
+coordinates: [38.567489, -8.89908]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q850855" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q850855 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

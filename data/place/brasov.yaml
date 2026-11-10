@@ -1,0 +1,20 @@
+id: place/brasov
+class: place
+kind: city
+label: { ar: "براشوف", en: "Brașov" }
+summary:
+  ar: "مدينة."
+  en: "Capital of the county of Brașov, Romania."
+wings: [place]
+coordinates: [45.65222222222222, 25.610555555555557]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q82174" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q82174 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

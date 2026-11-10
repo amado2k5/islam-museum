@@ -1,0 +1,20 @@
+id: place/giurgiu
+class: place
+kind: city
+label: { ar: "جورجيو", en: "Giurgiu" }
+summary:
+  ar: "مدينة."
+  en: "Capital of the county of Giurgiu, Romania."
+wings: [place]
+coordinates: [43.9, 25.966666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q202351" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q202351 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

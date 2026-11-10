@@ -11,9 +11,20 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1184", precision: year, status: tradition, derived: true }
   end: { edtf: "1184", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-8.686944444444444, 39.23916666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1184"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سانترم ⁦(١١٨٤)⁩", en: "Siege of Santarém" }, at: [-8.686944444444444, 39.23916666666667], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
 - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/santarem }
 sides:
   - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
     participants: [person/abu-yaqub-yusuf-almohad]

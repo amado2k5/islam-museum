@@ -1,0 +1,20 @@
+id: place/tigray-region
+class: place
+kind: province
+label: { ar: "تغراي", en: "Tigray Region" }
+summary:
+  ar: "مقاطعة."
+  en: "Bang vùng của Ethiopia."
+wings: [place]
+coordinates: [13.575, 39.0875]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q200127" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q200127 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

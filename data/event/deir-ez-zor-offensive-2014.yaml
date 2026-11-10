@@ -12,6 +12,18 @@ date:
   start: { edtf: "2014-04-10", precision: year, status: tradition, derived: true }
   end: { edtf: "2014-07-14", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [40.27, 35.15]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2014"
+  features:
+    - { type: point, role: event_point, label: { ar: "هجوم دير الزور ⁦(٢٠١٤)⁩", en: "2014 Deir ez-Zor offensive" }, at: [40.27, 35.15], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/deir-ez-zor-governorate }
 external_ids:
   wikidata: Q17985271
 provenance:

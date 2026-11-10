@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1500", precision: year, status: tradition, derived: true }
   end: { edtf: "1622", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [52.0, 26.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1500"
+  features:
+    - { type: point, role: event_point, label: { ar: "التنافس الإنجليزي البرتغالي في الخليج", en: "Anglo-Portuguese rivalry in the Persian Gulf" }, at: [52.0, 26.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/persian-gulf }
 sides:
   - label: { en: "East India Company", ar: "شركة الهند الشرقية" }
   - label: { en: "Portuguese India", ar: "الهند البرتغالية" }

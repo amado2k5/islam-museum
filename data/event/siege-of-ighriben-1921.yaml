@@ -12,6 +12,18 @@ date:
   start: { edtf: "1921", precision: year, status: tradition, derived: true }
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [-3.5972533, 35.0964885]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1921"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار إغريبن", en: "Siege of Ighriben" }, at: [-3.5972533, 35.0964885], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/ighriben }
 external_ids:
   wikidata: Q107331319
 provenance:

@@ -12,6 +12,18 @@ date:
   start: { edtf: "1239", precision: year, status: tradition, derived: true }
   end: { edtf: "1239", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-0.54794166666667, 38.841844444444]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1239"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة خيوس", en: "Battle of Chios" }, at: [-0.54794166666667, 38.841844444444], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/vall-d-albaida }
 external_ids:
   wikidata: Q61913996
 provenance:

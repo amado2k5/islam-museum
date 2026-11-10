@@ -1,0 +1,20 @@
+id: place/cape-helles
+class: place
+kind: region
+label: { ar: "رأس هيليس", en: "Cape Helles" }
+summary:
+  ar: "إقليم في تركيا."
+  en: "Rocky headland in Turkey."
+wings: [place]
+coordinates: [40.04305556, 26.17527778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1728312" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1728312 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

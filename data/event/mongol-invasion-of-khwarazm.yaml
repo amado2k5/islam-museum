@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1219", precision: year, status: tradition, derived: true }
   end: { edtf: "1221", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [63.9, 45.3]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1219"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزو المغولي للدولة الخوارزمية", en: "Mongol invasion of the Khwarazmian Empire" }, at: [63.9, 45.3], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/central-asia }
 sides:
   - label: { en: "Anushtegin dynasty", ar: "سلالة أنوشتكين" }
     participants: [polity/anushtegin-dynasty]

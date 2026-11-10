@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1138", precision: year, status: tradition, derived: true }
   end: { edtf: "1138", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.214444444444, 31.636388888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1138"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة تقوع ⁦(١١٣٨)⁩", en: "Battle of Teqoa" }, at: [35.214444444444, 31.636388888889], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tuqu }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q137754018

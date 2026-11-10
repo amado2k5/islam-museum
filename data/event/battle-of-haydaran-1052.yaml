@@ -11,8 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "1052-04-14", precision: year, status: tradition, derived: true }
   end: { edtf: "1052-04-14", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [10.116666666667, 33.883333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1052"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة حيدران", en: "Battle of Haydaran" }, at: [10.116666666667, 33.883333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/gabes-governorate }
 sides:
   - label: { en: "Banu Hilal", ar: "بنو هلال" }
     participants: [group/banu-hilal]

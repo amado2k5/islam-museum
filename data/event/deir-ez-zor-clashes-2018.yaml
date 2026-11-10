@@ -12,6 +12,18 @@ date:
   start: { edtf: "2018-04-29", precision: year, status: tradition, derived: true }
   end: { edtf: "2018-04-29", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [40.27, 35.15]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2018"
+  features:
+    - { type: point, role: event_point, label: { ar: "اشتباكات دير الزور ⁦(٢٠١٨)⁩", en: "Deir ez-Zor clashes (2018)" }, at: [40.27, 35.15], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/deir-ez-zor-governorate }
 external_ids:
   wikidata: Q52941555
 provenance:

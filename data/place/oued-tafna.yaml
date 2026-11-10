@@ -1,0 +1,20 @@
+id: place/oued-tafna
+class: place
+kind: river
+label: { ar: "وادي تافنة", en: "Oued Tafna" }
+summary:
+  ar: "نهر في الجزائر."
+  en: "Watercourse in Algeria."
+wings: [place]
+coordinates: [35.297777777778, -1.4711111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3980086" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3980086 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

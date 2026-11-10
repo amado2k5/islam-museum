@@ -11,6 +11,18 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1137", precision: year, status: tradition, derived: true }
   end: { edtf: "1137", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-8.8069444444444, 39.743055555556]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1137"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح ليريا ⁦(١١٣٧)⁩", en: "Capture of Leiria (1137)" }, at: [-8.8069444444444, 39.743055555556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/leiria }
 sides:
   - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
     participants: [polity/almoravid-dynasty]

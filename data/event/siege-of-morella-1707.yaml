@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1707", precision: year, status: tradition, derived: true }
   end: { edtf: "1707", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.10055555555556, 40.619166666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1707"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار موريلا ⁦(١٧٠٧)⁩", en: "Siege of Morella (1707)" }, at: [-0.10055555555556, 40.619166666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/morella }
 sides:
   - label: { ar: "قوات أحمد الثالث", en: "The forces of Ahmed III" }
     participants: [person/ahmed-iii-uthmani]

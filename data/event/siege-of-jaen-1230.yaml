@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1230-06-24", precision: year, status: tradition, derived: true }
   end: { edtf: "1230-09", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-3.7849, 37.7796]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1230"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار جيان ⁦(١٢٣٠)⁩", en: "Siege of Jaen (1230)" }, at: [-3.7849, 37.7796], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/jaen }
 sides:
   - label: { ar: "قوات المأمون بن المنصور الموحدي", en: "The forces of al-Ma'mun ibn al-Mansur al-Muwahhidi" }
     participants: [person/al-mamun-almohad]

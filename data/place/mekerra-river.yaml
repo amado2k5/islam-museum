@@ -1,0 +1,20 @@
+id: place/mekerra-river
+class: place
+kind: river
+label: { ar: "نهر مكرة", en: "Mekerra river" }
+summary:
+  ar: "نهر في الجزائر."
+  en: "Watercourse in Algeria."
+wings: [place]
+coordinates: [35.319166666667, -0.41638888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3304802" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3304802 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

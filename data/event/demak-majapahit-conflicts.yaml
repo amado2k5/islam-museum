@@ -11,6 +11,18 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1478", precision: year, status: tradition, derived: true }
   end: { edtf: "1527", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [112.366667, -7.55]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1478"
+  features:
+    - { type: point, role: event_point, label: { ar: "صراعات ديماق ومجاباهيت", en: "Demak–Majapahit conflicts" }, at: [112.366667, -7.55], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/trowulan-temple }
 sides:
   - label: { en: "Majapahit", ar: "ماجاباهيت" }
   - label: { en: "Sultanate of Demak", ar: "سلطنة ديماك" }

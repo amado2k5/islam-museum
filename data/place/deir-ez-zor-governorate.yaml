@@ -1,0 +1,20 @@
+id: place/deir-ez-zor-governorate
+class: place
+kind: province
+label: { ar: "محافظة دير الزور", en: "Deir ez-Zor Governorate" }
+summary:
+  ar: "مقاطعة."
+  en: "Governorate of Syria."
+wings: [place]
+coordinates: [35.15, 40.27]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q232387" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q232387 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }
