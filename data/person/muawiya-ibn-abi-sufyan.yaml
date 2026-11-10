@@ -41,15 +41,15 @@ story_roles:
 - { role: ruler, toward: polity/umayyad-caliphate, start: { edtf: "661", calendar: julian, precision: year }, end: { edtf: "680", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
 - role: companion
   status: tradition
-  note: مذكور في الإصابة ترجمة رقم 8366 (ص 1431).
+  note: مذكور في الإصابة ترجمة رقم 8366 ⁦(ص 1431)⁩.
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 inventions:
 - { invention: invention/muawiya-seal-copy-registry, role: commissioner, sources: [source/tarikh-khulafa-minhaj-1434, source/tdv-divan-duri] }
 - { invention: invention/barid, role: commissioner, sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid] }
@@ -63,23 +63,23 @@ relations:
 - type: child_of
   target: person/abu-sufyan-ibn-harb
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 - type: child_of
   target: person/hind-bint-utba
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 - type: sibling_of
   target: person/umm-habiba-bint-abi-sufyan
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 - type: member_of
   target: group/banu-abd-shams
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 - type: ruler_of
   target: polity/umayyad-caliphate
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 issue:
   ar: متى أسلم معاوية بن أبي سفيان؟
   en: When did Mu'awiya ibn Abi Sufyan embrace Islam?
@@ -91,11 +91,11 @@ perspectives:
   summary:
     ar: حكى الواقدي أنه أسلم بعد الحديبية وكتم إسلامه حتى أظهره عام الفتح، فإنه كان في عمرة القضاء مسلماً.
   evidence:
-- ref: source/ibn-hajar-isaba
+  - ref: source/ibn-hajar-isaba
     note:
       ar: ص 1431
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 - tradition: sunni
   id: ibn-hajar-sad
   stance:
@@ -103,11 +103,11 @@ perspectives:
   summary:
     ar: 'يعارض ابن حجر قول الواقدي بما ثبت في الصحيح عن سعد بن أبي وقاص في العمرة في أشهر الحج: «فعلناها وهذا يومئذ كافر»، ويحتمل إن ثبت قول الواقدي أن يكون سعد أطلق ذلك بحسب ما استصحب من حاله ولم يطلع على إسلامه لإخفائه إياه.'
   evidence:
-- ref: source/ibn-hajar-isaba
+  - ref: source/ibn-hajar-isaba
     note:
       ar: ص 1431
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 - tradition: sunni
   id: ibn-sad
   stance:
@@ -115,11 +115,11 @@ perspectives:
   summary:
     ar: 'حكى ابن سعد أنه كان يقول: «لقد أسلمت قبل عمرة القضية، ولكني كنت أخاف أن أخرج إلى المدينة، لأن أمي كانت تقول: إن خرجت قطعنا عنك القوت».'
   evidence:
-- ref: source/ibn-hajar-isaba
+  - ref: source/ibn-hajar-isaba
     note:
       ar: ص 1432
   sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
 provenance:
   enriched_by: "Claude Code (OCR-harvest worker E), claude-opus-5-5, run ocr-harvest-2026-11-04: added the section on his/her chapter in Ahmad's Fada'il al-Sahaba with the editor's grades, source/fadail-sahaba-ahmad-wasi-allah-1999 pp. 1155-1158"
   layer: own-research
