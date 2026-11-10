@@ -19,7 +19,7 @@ sources:
 - source/sallabi-ali-vol1
 - source/taqrib-al-tahdhib
 - source/ibn-hajar-isaba
-died: { edtf: "0658", hijri: "0038", calendar: julian, precision: year, status: tradition, derived: true, note: "Al-Mada'ini reports 38 AH; he died at Kufa and Ali led his funeral prayer (al-Isaba p. 624); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0658", hijri: "0038", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at Kufa, 38 AH; Ali prayed over him with five or six takbirs — a Badri (al-Waqidi and al-Mada'ini, al-Isaba p. 624); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: member_of
   target: group/sahaba
@@ -61,6 +61,15 @@ relations:
   note: "al-Isaba p. 624"
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 624"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 624"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12177673
 provenance:
