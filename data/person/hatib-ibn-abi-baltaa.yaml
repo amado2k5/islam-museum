@@ -19,7 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي بدري في قول النبي في الخبر نفسه." }
 born: { edtf: "586~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "0651", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "Died 30 AH in Uthman's caliphate, aged sixty-five (al-Mada'ini per Ibn Abi Khaythama, also al-Tabarani — al-Isaba p. 281); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ansab-al-ashraf] }
   - { type: authored, target: work/hatib-letter-to-quraysh }
