@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1400", precision: year, status: tradition, derived: true }
   end: { edtf: "1400", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش التيموري بقيادة تيمورلنك", en: "The Timurid army under Timur" }
+    participants: [person/timur-lang]
+    commanders: [person/timur-lang]
+  - label: { ar: "حامية حلب المملوكية", en: "The Mamluk garrison of Aleppo" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135005721
