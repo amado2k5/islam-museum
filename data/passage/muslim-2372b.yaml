@@ -1,0 +1,22 @@
+id: passage/muslim-2372b
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2372b"
+label:
+  ar: "مسلم 2372b — موسى وملك الموت: ارجع إلى عبدي"
+  en: "Muslim 2372b — Musa and the Angel of Death: go back to My servant"
+  ur: "مسلم 2372b — موسیٰ اور ملک الموت: میرے بندے کے پاس واپس جاؤ"
+text: "جاء ملك الموت إلى موسى فقال له أجب ربك - قال - فلطم موسى عين ملك الموت ففقأها - قال - فرجع الملك إلى الله تعالى فقال إنك أرسلتني إلى عبد لك لا يريد الموت وقد فقأ عيني - قال …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2372b: موسى وملك الموت: ارجع إلى عبدي. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2372b: Musa and the Angel of Death: go back to My servant. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2372b: موسیٰ اور ملک الموت: میرے بندے کے پاس واپس جاؤ۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [prophets]
+tags: [hadith-qudsi, qudsi-musa-wa-malak-al-mawt]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6149; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

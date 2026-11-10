@@ -1,0 +1,21 @@
+id: passage/bukhari-0122
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "122"
+label:
+  ar: "البخاري 122 — موسى والعبد الصالح بمجمع البحرين"
+  en: "Bukhari 122 — Musa and the righteous servant at the meeting of the two seas"
+  ur: "بخاری 122 — موسیٰ اور دو سمندروں کے سنگم پر نیک بندہ"
+text: "قام موسى النبي خطيبا في بني إسرائيل، فسئل أى الناس أعلم فقال أنا أعلم. فعتب الله عليه، إذ لم يرد العلم إليه، فأوحى الله إليه أن عبدا من عبادي بمجمع البحرين هو أعلم منك. قال يا رب وكيف به فقيل …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 122: موسى والعبد الصالح بمجمع البحرين. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 122: Musa and the righteous servant at the meeting of the two seas. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 122: موسیٰ اور دو سمندروں کے سنگم پر نیک بندہ۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-musa-wal-khadir]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 122; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

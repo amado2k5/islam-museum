@@ -27,6 +27,7 @@ export const GET: APIRoute = () => {
     `- [Modern Islam Browser dataset](${SITE}/api/v1/modern/index.json) — the last fifty years of Islam and Muslims in nineteen sections, one file per section under /api/v1/modern/<section>.json, by year under /api/v1/modern/year/<yyyy>.json, reach indices under /api/v1/modern/top/<list>.json`,
     `- [Award class index](${SITE}/api/v1/award/index.json)`,
     `- [Job Browser dataset](${SITE}/api/v1/jobs.json) — every job with its domain, craft flag, edges and holders`,
+    `- [Hadith Qudsi Browser dataset](${SITE}/api/v1/qudsi.json) — every hadith qudsi narration of the six books and the Muwatta with its collection, number, matn excerpt, hadith tag and edges`,
     `- [Fatwa Explorer dataset](${SITE}/api/v1/fatwa.json) — every fatwa and collection with publisher, dates and chain edges`,
     `- [Tafsir Browser dataset](${SITE}/api/v1/tafsir.json) — Qur'an commentaries: each volume with the verses it covers (about edges) and its commentary (part_of)`,
     `- [Khutab and Durus dataset](${SITE}/api/v1/khutab.json) — every sermon, lesson and series with speaker, occasion and order`,

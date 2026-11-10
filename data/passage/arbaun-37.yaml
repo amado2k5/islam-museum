@@ -11,6 +11,7 @@ relations:
   - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: basis_for, target: concept/hamm, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: basis_for, target: concept/hadith-qudsi, sources: [source/ibn-rajab-jami-ulum-hikam] }
+tags: [hadith-qudsi, qudsi-kitabat-al-hasanat]
 provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 37 pp. 754–769", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-14" }
 sources: [source/ibn-rajab-jami-ulum-hikam]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn omitted as it exceeds the excerpt limit — clause-by-clause paraphrase in summary; the al-Ja'd/Abu Raja' chain, Muslim's 'or He erases it' addition and the Abu Hurayra parallel from p. 754" }

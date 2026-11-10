@@ -1,0 +1,22 @@
+id: passage/bukhari-3350
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3350"
+label:
+  ar: "البخاري 3350 — إبراهيم وأبوه يوم القيامة: إني حرمت الجنة على الكافرين"
+  en: "Bukhari 3350 — Ibrahim and his father on the Day of Resurrection"
+  ur: "بخاری 3350 — قیامت کے دن ابراہیم اور ان کے والد"
+text: "يلقى إبراهيم أباه آزر يوم القيامة، وعلى وجه آزر قترة وغبرة، فيقول له إبراهيم ألم أقل لك لا تعصني فيقول أبوه فاليوم لا أعصيك. فيقول إبراهيم يا رب، إنك وعدتني أن لا تخزيني يوم يبعثون، فأى خزى أخزى من أبي …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 3350: إبراهيم وأبوه يوم القيامة: إني حرمت الجنة على الكافرين. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 3350: Ibrahim and his father on the Day of Resurrection. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 3350: قیامت کے دن ابراہیم اور ان کے والد۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [prophets]
+tags: [hadith-qudsi, qudsi-ibrahim-wa-azar]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3350; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

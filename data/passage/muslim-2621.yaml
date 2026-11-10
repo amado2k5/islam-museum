@@ -1,0 +1,22 @@
+id: passage/muslim-2621
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2621"
+label:
+  ar: "مسلم 2621 — من ذا الذي يتألى علي أن لا أغفر لفلان"
+  en: "Muslim 2621 — Who is it that swears by Me that I shall not forgive so-and-so"
+  ur: "مسلم 2621 — کون ہے جو مجھ پر قسم کھاتا ہے کہ میں فلاں کو نہیں بخشوں گا"
+text: "أن رجلا قال والله لا يغفر الله لفلان وإن الله تعالى قال من ذا الذي يتألى على أن لا أغفر لفلان فإني قد غفرت لفلان وأحبطت عملك . أو كما قال ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2621: من ذا الذي يتألى علي أن لا أغفر لفلان. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2621: Who is it that swears by Me that I shall not forgive so-and-so. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2621: کون ہے جو مجھ پر قسم کھاتا ہے کہ میں فلاں کو نہیں بخشوں گا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [ethics-and-character]
+tags: [hadith-qudsi, qudsi-man-dha-alladhi-yataalla]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6681; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

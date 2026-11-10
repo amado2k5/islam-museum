@@ -1,0 +1,22 @@
+id: passage/tirmidhi-0981
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "981"
+label:
+  ar: "الترمذي 981 — غفرت لعبدي ما بين طرفي الصحيفة"
+  en: "Tirmidhi 981 — I have forgiven My servant what lies between the two ends of the record"
+  ur: "ترمذی 981 — میں نے اپنے بندے کا وہ سب معاف کیا جو صحیفے کے دونوں کناروں کے درمیان ہے"
+text: "ما من حافظين رفعا إلى الله ما حفظا من ليل أو نهار فيجد الله في أول الصحيفة وفي آخر الصحيفة خيرا إلا قال الله تعالى أشهدكم أني قد غفرت لعبدي ما بين طرفى الصحيفة ."
+summary:
+  ar: "حديث قدسي في جامع الترمذي، رقم 981: غفرت لعبدي ما بين طرفي الصحيفة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Jami al-Tirmidhi, no. 981: I have forgiven My servant what lies between the two ends of the record. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "جامع ترمذی میں حدیثِ قدسی، نمبر 981: میں نے اپنے بندے کا وہ سب معاف کیا جو صحیفے کے دونوں کناروں کے درمیان ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [spirituality-and-sufism]
+tags: [hadith-qudsi, qudsi-tarafay-al-sahifa]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 981; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

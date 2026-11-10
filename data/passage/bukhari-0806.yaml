@@ -1,0 +1,22 @@
+id: passage/bukhari-0806
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "806"
+label:
+  ar: "البخاري 806 — رؤية الله يوم القيامة وآخر من يدخل الجنة"
+  en: "Bukhari 806 — Seeing God on the Day of Resurrection, and the last to enter Paradise"
+  ur: "بخاری 806 — قیامت کے دن اللہ کا دیدار اور جنت میں سب سے آخر میں داخل ہونے والا"
+text: "هل تمارون في القمر ليلة البدر ليس دونه سحاب . قالوا لا يا رسول الله. قال فهل تمارون في الشمس ليس دونها سحاب . قالوا لا. قال فإنكم ترونه كذلك، يحشر الناس يوم القيامة، فيقول من كان يعبد شيئا فليتبع. …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 806: رؤية الله يوم القيامة وآخر من يدخل الجنة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 806: Seeing God on the Day of Resurrection, and the last to enter Paradise. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 806: قیامت کے دن اللہ کا دیدار اور جنت میں سب سے آخر میں داخل ہونے والا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-ruyat-allah-akhir-ahl-al-janna]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 806; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

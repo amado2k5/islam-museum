@@ -1,0 +1,21 @@
+id: passage/bukhari-6321
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6321"
+label:
+  ar: "البخاري 6321 — ينزل ربنا في الثلث الأخير: من يدعوني فأستجيب له"
+  en: "Bukhari 6321 — Our Lord descends in the last third of the night: who will call on Me, that I may answer"
+  ur: "بخاری 6321 — ہمارا رب رات کے آخری تہائی میں اترتا ہے: کون مجھے پکارے کہ میں قبول کروں"
+text: "يتنزل ربنا تبارك وتعالى كل ليلة إلى السماء الدنيا حين يبقى ثلث الليل الآخر يقول من يدعوني فأستجيب له، من يسألني فأعطيه، ومن يستغفرني فأغفر له?"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 6321: ينزل ربنا في الثلث الأخير: من يدعوني فأستجيب له. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 6321: Our Lord descends in the last third of the night: who will call on Me, that I may answer. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 6321: ہمارا رب رات کے آخری تہائی میں اترتا ہے: کون مجھے پکارے کہ میں قبول کروں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-nuzul-thulth-al-layl]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6321; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

@@ -12,7 +12,6 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: born_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/amasya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

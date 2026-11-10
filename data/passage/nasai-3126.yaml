@@ -1,0 +1,21 @@
+id: passage/nasai-3126
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3126"
+label:
+  ar: "النسائي 3126 — المجاهد في سبيل الله علي ضامن"
+  en: "Nasa'i 3126 — The one who strives in God's way is under My guarantee"
+  ur: "نسائی 3126 — اللہ کی راہ میں جہاد کرنے والا میری ضمانت میں ہے"
+text: "أيما عبد من عبادي خرج مجاهدا في سبيل الله ابتغاء مرضاتي ضمنت له أن أرجعه إن أرجعته بما أصاب من أجر أو غنيمة وإن قبضته غفرت له ورحمته ."
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 3126: المجاهد في سبيل الله علي ضامن. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 3126: The one who strives in God's way is under My guarantee. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 3126: اللہ کی راہ میں جہاد کرنے والا میری ضمانت میں ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-daman-al-mujahid]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3126; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

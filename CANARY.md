@@ -13,6 +13,18 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.6.0 — 2026-11-09
+
+### Added
+- **Hadith Qudsi Browser (`/{lang}/qudsi/`, متصفح الأحاديث القدسية).** Every hadith qudsi of the six books and the Muwatta of Malik — 113 hadiths in 335 narrations — each hadith shown with its narrations in every collection and arranged by theme, with a filter box that also works without a server and a full list without JavaScript. It is in the Explore menu and has its own card on the landing page. The narrations are ordinary hadith passages in the graph (tag `hadith-qudsi`, one `qudsi-<slug>` tag per hadith); existing passages were tagged in place, not duplicated. Labels, summaries and grouping are draft until a human reads them. Plan: `docs/plan/29-hadith-qudsi-browser.md`.
+- **`/api/v1/qudsi.json`.** The browser's dataset: every hadith qudsi narration with collection, number, matn excerpt (at most 40 words), hadith tag, themes and edges; in `docs/data/README.md`, the OpenAPI document and `llms.txt`.
+
+### Data
+- **315 new hadith passages and 20 tagged in place** from the open `fawazahmed0/hadith-api` Arabic editions (Unlicense, standard numbering), with Arabic, English and Urdu labels and summaries; new source record `source/hadith-api-fawazahmed0`.
+
+### Fixed
+- **Unbreak `npm run validate`: place records from the residual geocode passes.** Duplicate `died`, `coordinate_note` and `coordinate_precision` keys (YAML parse errors) were reduced to one each, keeping the note that matches whether the place has coordinates; nine records whose coordinate lines had been inserted between `regions:` and its list now parse; and `locality`, the kind 18 geocoded places already carry, is now an allowed place kind (golden-set rule: the rule follows the content). Schemas regenerated from the enums.
+
 ## v1.5.1 — 2026-11-09
 
 ### Data
