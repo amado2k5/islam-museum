@@ -1,0 +1,17 @@
+id: polity/kingdom-of-georgia
+class: polity
+kind: kingdom
+label: { ar: "مملكة جورجيا", en: "Kingdom of Georgia" }
+summary:
+  ar: "دولة من العصور الوسطى في شرق أوروبا."
+  en: "A medieval state in Eastern Europe."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q154667" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q154667 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

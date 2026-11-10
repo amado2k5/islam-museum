@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
+    participants: [polity/kingdom-of-portugal]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

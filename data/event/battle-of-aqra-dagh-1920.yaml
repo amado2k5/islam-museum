@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Assyrians", ar: "آشوريون/سريان/كلدان" }
+    participants: [group/assyrians]
   - label: { en: "Kurds", ar: "كرد" }
+    participants: [group/kurds]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135002994

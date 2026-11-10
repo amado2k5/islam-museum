@@ -16,6 +16,7 @@ relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sides:
   - label: { en: "Kingdom of France", ar: "مملكة فرنسا" }
+    participants: [polity/kingdom-of-france]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

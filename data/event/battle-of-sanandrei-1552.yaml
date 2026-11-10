@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sides:
   - label: { en: "Kingdom of Hungary", ar: "مملكة المجر" }
+    participants: [polity/kingdom-of-hungary]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "French First Republic", ar: "الجمهورية الفرنسية الأولى" }
+    participants: [polity/french-first-republic]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

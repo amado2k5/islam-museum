@@ -1,0 +1,17 @@
+id: polity/russian-empire
+class: polity
+kind: empire
+label: { ar: "الإمبراطورية الروسية", en: "Russian Empire" }
+summary:
+  ar: "إمبراطورية قامت في أوراسيا وأمريكا الشمالية ⁦(١٧٢١–١٩١٧)⁩."
+  en: "An empire in Eurasia and North America (1721–1917)."
+wings: []
+sources: [source/wikidata]
+external_ids: { wikidata: "Q34266" }
+provenance:
+  layer: own-research
+  source: "Wikidata Q34266 structured claims (label, description); mined for the battles-sides lane"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: battles-sides-wave
+status: { review: draft, completeness: 1 }

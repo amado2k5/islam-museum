@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Holy Roman Empire", ar: "الإمبراطورية الرومانية المقدسة" }
+    participants: [polity/holy-roman-empire]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
