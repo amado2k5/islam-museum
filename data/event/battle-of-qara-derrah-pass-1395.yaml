@@ -13,6 +13,9 @@ date:
   end: { edtf: "1395", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
+  - label: { ar: "جيش مصر المملوك", en: "The Mamluk army of Egypt" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4872133
