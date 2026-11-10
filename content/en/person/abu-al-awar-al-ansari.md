@@ -1,0 +1,18 @@
+---
+id: person/abu-al-awar-al-ansari
+lang: en
+source_lang: ar
+translators: ["Devin, draft translation"]
+status:
+  review: draft
+provenance:
+  generated_by: "Devin"
+  model: "unknown"
+  run: companions-phase5-batch7
+  source: "{cite:al-aalam}"
+---
+## Summary
+
+An Ansari Companion named in the biographical works.
+
+{cite:al-aalam}
