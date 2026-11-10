@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش البريطاني بقيادة ألنبي", en: "The British army under Allenby" }
+  - label: { ar: "جيش البرق العثماني", en: "The Ottoman Yildirim army" }
+    participants: [person/mehmed-v-uthmani]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q199371
