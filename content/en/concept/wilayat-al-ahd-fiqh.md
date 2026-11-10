@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 The designation of a successor (wilayat al-'ahd) in the technical sense is the imam's appointment, during his life, of one person to be imam of the Muslims after him. It is one of the ways in which the imamate is established. It is done by the imam naming a person and saying 'I have entrusted him to you' ('ahidtu ilayhi'), as Abu Bakr named 'Umar in a letter. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17897}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17898}
 

@@ -12,11 +12,15 @@ date:
   start: { edtf: "1239-05~", hijri: "0636-10-23", calendar: julian, precision: month, status: tradition, derived: true, note: "الأحد 23 شوال 636؛ مشتق {cite:nafh-tib-maqqari p. 476}." }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-14
 external_ids: { wikidata: "Q12216248" }
+sides:
+  - label: { ar: "قشتالة بقيادة فرناندو الثالث", en: "Castile under Ferdinand III" }
+  - label: { ar: "حامية قرطبة", en: "The garrison of Cordoba" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -11,6 +11,14 @@ regions: [arabia]
 date:
   start: { edtf: "0624", precision: year, status: tradition, derived: true }
   end: { edtf: "0624", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "المسلمون بقيادة النبي", en: "The Muslims under the Prophet" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+    strength: { status: tradition, note: "حاصرهم النبي خمس عشرة ليلة حتى نزلوا على حكمه", sources: [source/ibn-hisham-sira] }
+  - label: { ar: "بنو قينقاع", en: "Banu Qaynuqa" }
+    participants: [group/banu-qaynuqa]
+    strength: { value: 700, status: tradition, note: "سبعمائة مقاتل منهم أربعمائة دارع", sources: [source/ibn-hisham-sira] }
 sources: [source/ibn-hisham-sira]
 external_ids:
   wikidata: Q3079892

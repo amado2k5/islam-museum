@@ -13,6 +13,10 @@ date:
   end: { edtf: "1030", hijri: "0421", calendar: julian, precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "مرداسيو حلب بقيادة شبل الدولة", en: "The Mirdasids of Aleppo under Shibl al-Dawla" }
+  - label: { ar: "الجيش البيزنطي بقيادة رومانوس الثالث", en: "The Byzantine army under Romanos III" }
 sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q2887924

@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-safadi, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

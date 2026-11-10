@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wudu' (from wada'a, to be fair and clean) is the act, and the water used for it, in the lexical sense. The jurists define it: the Hanafis as washing and wiping specified members; the Malikis as a water purification of four members in a specific way; the Shafi'is as specific acts opened by intention; and the Hanbalis as using pure water on the four members in the prescribed way, in order and in succession. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17364}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17365}
 

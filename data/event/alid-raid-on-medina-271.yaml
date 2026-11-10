@@ -12,6 +12,7 @@ date:
   start: { edtf: "0884-08~", hijri: "0271-02-01", calendar: julian, precision: day, status: tradition, derived: true, note: "غرة صفر 271؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 101}." }
 relations:
   - { type: had_participant, target: person/muhammad-ibn-al-hasan-al-alawi, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"

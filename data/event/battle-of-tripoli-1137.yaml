@@ -7,12 +7,16 @@ summary:
   en: "Draft card for Battle of Tripoli; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/tarabulus-sham, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 date:
   start: { edtf: "1137", precision: year, status: tradition, derived: true }
   end: { edtf: "1137", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش زنكي", en: "Zengi's army" }
+  - label: { ar: "كونتية طرابلس الصليبية", en: "The Crusader County of Tripoli" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135903032

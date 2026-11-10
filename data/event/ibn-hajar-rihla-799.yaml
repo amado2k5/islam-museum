@@ -19,6 +19,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
   - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "الرحّالة الطالب", sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab]
 provenance:
   layer: own-research

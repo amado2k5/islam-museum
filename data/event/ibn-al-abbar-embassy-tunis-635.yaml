@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/tunis, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-al-abbar, role: "المستغيث بالقصيدة السينية", sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/abu-zakariya-al-hafsi, role: "السلطان المستغاث به", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari]
 provenance:
   layer: own-research

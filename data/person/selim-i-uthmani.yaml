@@ -1,0 +1,17 @@
+id: person/selim-i-uthmani
+class: person
+label: { ar: "سليم الأول", en: "Selim I Yavuz", ur: "سليم الأول" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "سليم الأول، خليفة العثمانية ؛ حكم من 1512م إلى 1520م. {cite:shadharat-dhahab}"
+  en: "Selim I Yavuz, the caliph of the Ottoman caliphate, ruling 1512–1520 CE. {cite:shadharat-dhahab}"
+  ur: "سليم الأول، عثمانی خلافت کے خلیفہ؛ 1512ء سے 1520۔ {cite:shadharat-dhahab}"
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1512", calendar: julian, precision: year }, end: { edtf: "1520", calendar: julian, precision: year }, status: historical, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sources: [source/shadharat-dhahab, source/sicill-i-osmani]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

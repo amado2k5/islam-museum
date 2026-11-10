@@ -13,6 +13,8 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "طالب بتسليم القتلة وامتنع عن البيعة", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "امتنع عن تسليم القتلة في حينه", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/uthman-ibn-affan, role: "المقتول الذي طُلب القصاص لدمه", sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 issue: { ar: "لماذا امتنع معاوية عن بيعة علي، وهل نازعه الخلافة؟", en: "Why did Muawiya withhold the pledge to Ali, and did he contest the caliphate?" }
 perspectives:

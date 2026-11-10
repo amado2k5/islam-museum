@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tawwaj }
 wings: [time]
+sides:
+  - label: { ar: "جيش الحكم بن أبي العاص الثقفي", en: "al-Hakam ibn Abi al-As al-Thaqafi's army" }
+    commanders: [person/al-hakam-ibn-abi-al-as, person/uthman-ibn-abi-al-as]
+  - label: { ar: "توج", en: "Tawwaj" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

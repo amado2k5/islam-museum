@@ -11,6 +11,9 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1824", precision: year, status: tradition, derived: true }
   end: { edtf: "1841", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/muhammad-bello, sources: [source/wikipedia-muhammad-bello-en, source/wikidata-muhammad-bello] }
+- { type: during_reign, target: person/abu-bakr-atiku, sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q122166745

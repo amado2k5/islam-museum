@@ -39,6 +39,15 @@ perspectives:
     id: academic-pending
     summary: { ar: "لم يعرض هذا القسم من الكتاب رأياً أكاديمياً حديثاً في الحكم؛ يُضاف بمرجع محدد لاحقاً، ولا يُنسب إليه شيء هنا.", en: "This section of the book gives no modern academic assessment of the ruling; one is to be added later with a named source, and nothing is attributed here." }
     sources: [source/sallabi-ali-vol1]
+sides:
+  - label: { ar: "المسلمون بقيادة النبي", en: "The Muslims under the Prophet" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad, person/ali-ibn-abi-talib]
+    strength: { value: 3000, status: tradition, note: "ثلاثة آلاف وستة وثلاثون فرساً (ابن إسحاق)", sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+  - label: { ar: "بنو قريظة وحليفهم هُيي بن أخطب", en: "Banu Qurayza with their ally Huyayy ibn Akhtab" }
+    participants: [group/banu-qurayza]
+    commanders: [person/kaab-ibn-asad, person/huyayy-ibn-akhtab]
+    strength: { range: [600,900], status: tradition, note: "محاربوهم ما بين الستمائة والتسعمائة في أقوال المغازي", sources: [source/ibn-hisham-sira] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 314–318" }
 provenance: { layer: own-research, source: "record's own cited sources (see sources list); record-level provenance added for the Timeline Explorer publication standard", generated_by: "Devin (SWE-2 Medium)", model: "SWE-2 Medium", run: "explorer-medina-story" }

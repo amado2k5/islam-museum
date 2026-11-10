@@ -11,9 +11,10 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1261-06~", hijri: "0659-07-13", calendar: julian, precision: day, status: tradition, derived: true, note: "13 رجب 659؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 723}." }
 relations:
-  - { type: had_participant, target: person/al-mustansir-billah-egypt, role: "الخليفة", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/al-mustansir-billah-egypt, role: "الخليفة", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/izz-al-din-ibn-abd-al-salam, role: "ثالث البايعين", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mustansir-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"

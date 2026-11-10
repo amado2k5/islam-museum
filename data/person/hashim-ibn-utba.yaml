@@ -18,7 +18,7 @@ periods:
 regions:
 - arabia
 - levant-iraq
-died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Siffin)" }
+died: { edtf: "0657", hijri: "0037", calendar: julian, precision: year, status: tradition, derived: true, note: "al-Mirqal — killed fighting for Ali at Siffin, 37 AH (al-Isaba p. 1531); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/siffin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -26,6 +26,9 @@ relations:
   - { type: lived_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/battle-of-yarmuk, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: member_of, target: group/quraysh, note: "Zuhri, nephew of Sa'd ibn Abi Waqqas (al-Isaba p. 1531)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-siffin, note: "al-Isaba p. 1531", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 185"
@@ -34,6 +37,7 @@ provenance:
 external_ids: { wikidata: "Q124773809" }
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1

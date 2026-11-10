@@ -1,0 +1,18 @@
+id: person/ibrahim-dasuki
+class: person
+label: { ar: "إبراهيم داسوكي", en: "Ibrahim Dasuki", ur: "إبراهيم داسوكي" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "إبراهيم داسوكي، خليفة سوكوتو ؛ حكم من 1988م إلى 1996م. {cite:wikidata}"
+  en: "Ibrahim Dasuki, the caliph of the Sokoto caliphate, ruling 1988–1996 CE. {cite:wikidata}"
+  ur: "إبراهيم داسوكي، سوکوتو خلافت کے خلیفہ؛ 1988ء سے 1996۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1988", calendar: julian, precision: year }, end: { edtf: "1996", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

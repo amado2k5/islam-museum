@@ -9,6 +9,7 @@ date:
   start: { hijri: "0588-02-06", edtf: "1192-02-16~", calendar: julian, precision: day, status: tradition, derived: true, note: "السبت سادس صفر 588هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 214}.", sources: [source/kamil-ibn-al-athir] }
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]

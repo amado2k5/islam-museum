@@ -1,0 +1,18 @@
+id: person/umaru-ibn-ali
+class: person
+label: { ar: "عمر بن علي", en: "Umaru ibn Ali", ur: "عمر بن علي" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "عمر بن علي، خليفة سوكوتو ؛ حكم من 1881م إلى 1891م. {cite:wikidata}"
+  en: "Umaru ibn Ali, the caliph of the Sokoto caliphate, ruling 1881–1891 CE. {cite:wikidata}"
+  ur: "عمر بن علي، سوکوتو خلافت کے خلیفہ؛ 1881ء سے 1891۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1881", calendar: julian, precision: year }, end: { edtf: "1891", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/muazu-sokoto, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

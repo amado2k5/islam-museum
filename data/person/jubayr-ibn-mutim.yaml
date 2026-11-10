@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "677~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "0678~", hijri: "0058", calendar: julian, precision: year, status: debated, derived: true, note: "Died in the caliphate of Mu'awiya in 57, 58 or 59 AH (al-Isaba p. 209); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: lived_in, target: place/hudaybiyya, confidence: low, note: "Associated with الحديبية per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 - type: member_of

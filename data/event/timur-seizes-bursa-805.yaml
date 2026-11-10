@@ -14,6 +14,11 @@ date:
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/timur-lang, role: "الغازي المنتصر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش تمرلنك", en: "تمرلنك's army" }
+    commanders: [person/timur-lang]
+  - label: { ar: "بورصة", en: "Bursa" }
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: "own-research"

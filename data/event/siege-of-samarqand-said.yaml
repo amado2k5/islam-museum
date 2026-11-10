@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/khatun-of-bukhara, role: "المعينة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/samarqand }
 wings: [time]
+sides:
+  - label: { ar: "جيش سعيد بن عثمان بن عفان", en: "Sa'id ibn Uthman ibn Affan's army" }
+    commanders: [person/said-ibn-uthman]
+  - label: { ar: "سمرقند", en: "Samarqand" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

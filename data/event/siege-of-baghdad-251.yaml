@@ -17,10 +17,17 @@ relations:
   - { type: had_participant, target: person/al-mutazz, role: "المُنازع الذي بُويع بعد الخلع", sources: [source/tabari-khayyat-part3] }
   - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "قائد عسكر سامراء", sources: [source/tabari-khayyat-part3] }
   - { type: occurred_at, target: place/baghdad, sources: [source/tabari-khayyat-part3] }
+  - { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الرسل والملوك — الطبري، القسم الثالث (مكتبة خياط)، مسح AAlexandrina-223581 صفحات 279–374"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tabari-samarra-01
+sides:
+  - label: { ar: "جيش المستعين بالله", en: "al-Musta'in bi'llah's army" }
+    commanders: [person/al-mustain]
+  - label: { ar: "محمد بن عبد الله بن طاهر", en: "محمد بن عبد الله بن طاهر" }
+    participants: [person/muhammad-ibn-abd-allah-ibn-tahir]
 sources: [source/tabari-khayyat-part3]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

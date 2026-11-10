@@ -14,14 +14,20 @@ relations:
   - { type: occurred_at, target: place/armenia }
   - { type: occurred_at, target: place/baylaqan }
   - { type: occurred_at, target: place/bardhaa }
-  - { type: had_participant, target: person/mushayil-al-armani, role: "رئيس المنتقضين المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/mushayil-al-armani, role: "رئيس المنتقضين المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hasan-ibn-qahtaba, role: "الوالي وقاهر الانتقاضة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "باعث الأمداد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amir-ibn-ismail, role: "على الأمداد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 295"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "جيش الحسن بن قحطبة الطائي", en: "al-Hasan ibn Qahtaba al-Ta'i's army" }
+    commanders: [person/al-hasan-ibn-qahtaba]
+  - label: { ar: "أرمينية", en: "Armenia" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

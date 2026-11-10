@@ -17,6 +17,8 @@ translations:
   ur: { text: "بولے کہ اے پروردگار میں نے اپنے آپ پر ظلم کیا تو مجھے بخش دے تو خدا نے اُن کو بخش دیا۔ بیشک وہ بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: concept/asma-al-ghafur, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -13,12 +13,16 @@ date:
 relations:
   - { type: occurred_at, target: place/barah }
   - { type: had_participant, target: person/al-mufarraj-ibn-sallam, role: "الفاتح المقتول", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/sawran, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/sawran, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mutawakkil, role: "المتوفى قبل الجواب", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 328–329"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-24
+sides:
+  - label: { ar: "جيش المفرج بن سلام", en: "al-Mufarraj ibn Sallam's army" }
+    commanders: [person/al-mufarraj-ibn-sallam]
+  - label: { ar: "بارة", en: "Barah" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

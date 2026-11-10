@@ -14,6 +14,8 @@ date:
   end: { edtf: "1010~", precision: year, status: historical, derived: true, note: "under al-Ḥākim (r. 996-1021); year approximate" }
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/britannica-ibn-al-haytham] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-ibn-al-haytham]
 provenance:
   layer: own-research

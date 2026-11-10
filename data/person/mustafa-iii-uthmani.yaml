@@ -8,6 +8,7 @@ names:
   value: مصطفى الثالث بن أحمد الثالث
 gender: male
 roles:
+- caliph
 - ruler
 died:
   edtf: 1774~
@@ -34,6 +35,8 @@ periods:
 regions:
 - anatolia-balkans
 relations:
+- { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+- { type: successor_of, target: person/uthman-iii-uthmani, sources: [source/sicill-i-osmani] }
 - type: child_of
   target: person/ahmed-iii-uthmani
   sources:
@@ -49,7 +52,7 @@ sources:
 - source/nomisma
 provenance:
   layer: own-research
-  source: الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 316
+  source: الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 316
   generated_by: Devin (SWE-2 Flash High)
   model: SWE-2 Flash High
   run: prose-fill-persons-batch47
@@ -59,3 +62,5 @@ status:
 external_ids:
   wikidata: Q199484
   nomisma: mustafa_iii
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1757", calendar: julian, precision: year }, end: { edtf: "1774", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

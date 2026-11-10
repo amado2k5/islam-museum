@@ -17,6 +17,7 @@ translations:
   ur: { text: "جو لوگ خدا پر اور روز آخرت پر ایمان لائیں گے اور عمل نیک کریں گے خواہ وہ مسلمان ہوں یا یہودی یا ستارہ پرست یا عیسائی ان کو (قیامت کے دن) نہ کچھ خوف ہو گا اور نہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: concept/asma-al-akhir, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

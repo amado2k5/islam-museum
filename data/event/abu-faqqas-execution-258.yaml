@@ -12,6 +12,7 @@ date:
   start: { edtf: "0872-08~", hijri: "0258-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٢٥٨؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 100}." }
 relations:
   - { type: occurred_at, target: place/samarra, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 258)، قراءة آبل فيجن"

@@ -1,0 +1,21 @@
+id: passage/muslim-0993b
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "993b"
+label:
+  ar: "مسلم 993b — أنفق أنفق عليك"
+  en: "Muslim 993b — Spend, and I shall spend on you"
+  ur: "مسلم 993b — خرچ کرو، میں تم پر خرچ کروں گا"
+text: "إن الله قال لي أنفق أنفق عليك . وقال رسول الله يمين الله ملأى لا يغيضها سحاء الليل والنهار أرأيتم ما أنفق مذ خلق السماء والأرض فإنه لم يغض ما في يمينه . قال وعرشه على الماء وبيده الأخرى القبض …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 993b: أنفق أنفق عليك. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 993b: Spend, and I shall spend on you. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 993b: خرچ کرو، میں تم پر خرچ کروں گا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-anfiq-unfiq-alayk]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2309; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

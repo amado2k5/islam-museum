@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ahmad Haybat Allah ibn [[person/ma-al-aynayn|Ma al-'Aynayn]] (1877–1919) was a Saharan jurist and poet, born on 9 September 1877 according to his English and Arabic biographies, while the Encyclopaedia of Islam places his birth in Ramadan 1293 or 1294 AH and other sources give 1876 or even 1875; the record follows 1877 and preserves every variant.{cite:wikipedia-ahmed-al-hiba-en}{cite:wikipedia-ahmed-al-hiba-ar}{cite:wikidata-ahmed-al-hiba} He grew up in his father's zawiya at Smara, memorised the Quran and studied fiqh, hadith and literature under his father and the zawiya's shaykhs, and on his father's death in 1910 succeeded him in the spiritual leadership and the jihad; he was the eleventh of his sons and held a special place in his father's lifetime.{cite:wikipedia-ahmed-al-hiba-en}{cite:wikipedia-ahmed-al-hiba-ar}
 

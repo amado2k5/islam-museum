@@ -17,6 +17,8 @@ date:
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/wafayat-ayan] }
   - { type: had_participant, target: person/al-jahiz, sources: [source/wafayat-ayan] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muntasir, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/wafayat-ayan, source/muruj-al-dhahab]
 provenance:
   layer: own-research

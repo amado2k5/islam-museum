@@ -14,11 +14,12 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "quran", href: `/${lang}/words/quran/`, ready: true },
   { key: "hadith", href: `/${lang}/words/hadith/`, ready: true },
+  { key: "qudsi", href: `/${lang}/qudsi/`, ready: true },
   { key: "tafsir", href: `/${lang}/tafsir/`, ready: true },
   { key: "timeline", href: `/${lang}/time/`, ready: true },
   { key: "calendar", href: `/${lang}/calendar/`, ready: true },
@@ -36,4 +37,9 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "jobs", href: `/${lang}/jobs/`, ready: true },
   { key: "inventions", href: `/${lang}/inventions/`, ready: true },
   { key: "modern", href: `/${lang}/modern/`, ready: true },
+  { key: "companions", href: `/${lang}/companions/`, ready: true },
+  { key: "asma", href: `/${lang}/asma/`, ready: true },
+  { key: "khulafa", href: `/${lang}/khulafa/`, ready: true },
+  { key: "battles", href: `/${lang}/battles/`, ready: false },
+  { key: "ghayb", href: `/${lang}/ghayb/`, ready: true },
 ];

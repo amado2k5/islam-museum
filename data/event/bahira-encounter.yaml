@@ -18,7 +18,7 @@ date:
   start: { edtf: "0583~", calendar: julian, precision: year, status: tradition, note: "وعمره اثنتا عشرة سنة — قيل وشهران وعشرة أيام عند ابن الجوزي (الرحيق ص58)." }
 relations:
   - { type: occurred_at, target: place/busra }
-  - { type: had_participant, target: person/bahira, role: "عرفه بصفته وبالخاتم وأوصى بردّه", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: related_to, target: person/bahira, role: "عرفه بصفته وبالخاتم وأوصى بردّه", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: person/muhammad, role: "الفتى صاحب الخاتم", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abu-talib, role: "أرجعه إلى مكة مع بعض غلمانه", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }

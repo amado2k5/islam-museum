@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/jahm-ibn-zahr, role: "فاتح وجاه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/jurjan }
 wings: [time]
+sides:
+  - label: { ar: "جيش يزيد بن المهلب", en: "يزيد بن المهلب's army" }
+    commanders: [person/yazid-ibn-al-muhallab]
+  - label: { ar: "جرجان", en: "Jurjan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

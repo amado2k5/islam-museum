@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/granada, sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: had_participant, target: person/muhammad-i-ibn-al-ahmar, role: "الباني", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 provenance:
   layer: own-research

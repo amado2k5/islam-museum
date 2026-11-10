@@ -18,10 +18,16 @@ relations:
   - { type: had_participant, target: person/buqrat-ibn-ashut, role: "بطريق خلاط المحمول إلى سر من رأى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hasan-ibn-ali-al-badhaghisi, role: "ولي الثغر للمعتصم المهمل للبطارقة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/isha-ibn-ismail-ibn-shuayb, role: "المستولي على جرزان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 296–297"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "جيش يوسف بن محمد بن يوسف المروزي", en: "Yusuf ibn Muhammad ibn Yusuf al-Marwazi's army" }
+    commanders: [person/yusuf-ibn-muhammad-al-marwazi]
+  - label: { ar: "أرمينية", en: "Armenia" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

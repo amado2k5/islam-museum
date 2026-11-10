@@ -11,6 +11,11 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1256-12", precision: year, status: tradition, derived: true }
   end: { edtf: "1256-12", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المغولي بقيادة هولاكو", en: "The Mongol army under Hulagu" }
+    participants: [person/hulagu]
+    commanders: [person/hulagu]
+  - label: { ar: "الإسماعيليون في ألموت", en: "The Ismailis of Alamut" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q17586779

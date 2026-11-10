@@ -17,6 +17,7 @@ translations:
   ur: { text: "وہی کہ آسمان اور زمین کی بادشاہی اسی کی ہے اور جس نے (کسی کو) بیٹا نہیں بنایا اور جس کا بادشاہی میں کوئی شریک نہیں اور جس نے ہر چیز کو پیدا کیا اور پھر اس کا ایک اندازہ ٹھہرایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: concept/asma-al-malik, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -1,0 +1,44 @@
+class: concept
+id: concept/asma-al-muizz
+kind: divine-name
+label:
+  ar: المعز
+  en: al-Mu'izz — The Bestower of Honor
+  ur: المعز
+name_meta:
+  enumeration:
+  - tirmidhi
+  root: ع-ز-ز
+  transliteration: al-Mu'izz
+order: 24
+provenance:
+  generated_by: Devin (SWE-2 Medium)
+  layer: own-research
+  model: SWE-2 Medium
+  run: asma-browser-phase1
+  source: Enumeration of Jami' al-Tirmidhi 3507 (hadith of Abu Hurayra on the ninety-nine names); meaning glosses written in the museum's words
+    from the names literature, led by Ibn Qayyim al-Jawziyya's Jala' al-Afham names discussion
+relations:
+- sources:
+  - source/jami-al-tirmidhi
+  target: concept/asma-allah-al-husna
+  type: part_of
+- sources:
+  - source/jami-al-tirmidhi
+  target: concept/asma-al-mudhill
+  type: related_to
+sources:
+- source/jami-al-tirmidhi
+- source/jala-afham-ibn-qayyim
+status:
+  completeness: 1
+  generated_by: Devin (SWE-2 Medium)
+  review: draft
+summary:
+  ar: 'المعز: الذي يعز من يشاء بطاعته ويقوّيه. الاسم رقم 24 في التعداد الوارد في حديث الترمذي عن أسماء الله الحسنى.'
+  en: al-Mu'izz — The Bestower of Honor. Name 24 in the enumeration of the most beautiful names in the Tirmidhi hadith.
+  ur: 'المعز: عزت دینے والا — جو جسے چاہے عزت اور قوت بخشے۔ اسمائے حسنیٰ کی ترمذی والی گنتی میں نمبر 24۔'
+themes:
+- worship-and-the-pillars
+wings:
+- ideas

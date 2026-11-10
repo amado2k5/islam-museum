@@ -1,0 +1,21 @@
+id: passage/muslim-2376
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2376"
+label:
+  ar: "مسلم 2376 — لا ينبغي لعبد لي أن يقول أنا خير من يونس بن متى"
+  en: "Muslim 2376 — No servant of Mine should say he is better than Yunus son of Matta"
+  ur: "مسلم 2376 — میرے کسی بندے کے لیے مناسب نہیں کہ کہے میں یونس بن متیٰ سے بہتر ہوں"
+text: "قال - يعني الله تبارك وتعالى - لا ينبغي لعبد لي - وقال ابن المثنى لعبدي - أن يقول أنا خير من يونس بن متى . قال ابن أبي شيبة محمد بن جعفر عن شعبة ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2376: لا ينبغي لعبد لي أن يقول أنا خير من يونس بن متى. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2376: No servant of Mine should say he is better than Yunus son of Matta. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2376: میرے کسی بندے کے لیے مناسب نہیں کہ کہے میں یونس بن متیٰ سے بہتر ہوں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-yunus-ibn-matta]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6159; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

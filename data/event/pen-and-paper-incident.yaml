@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab }
   - { type: had_participant, target: person/abdullah-ibn-abbas }
   - { type: part_of, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "كيف تفهم المصادر والتقاليد قصة الكتاب يوم الخميس ودلالتها على الخلافة؟", en: "How do the sources and traditions understand the story of the writing on the Thursday and its bearing on the succession?" }
 perspectives:
   - tradition: sunni

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muhammad Mustafa Murabbih Rabbuh ibn [[person/ma-al-aynayn|Ma al-'Aynayn]] (1881–1942) was a Moroccan-Saharan scholar and mujahid, born on Sunday 14 Rabi' al-Awwal 1298 AH, 13 February 1881, in the Tirs of Wadi al-Dhahab (Rio de Oro), the twelfth son of Shaykh Ma al-'Aynayn by his wife Maymuna bint Ahmad Ali.{cite:wikipedia-merebbi-rebbu-ar}{cite:wikidata-merebbi-rebbu} He grew up in his father's zawiya at Smara, memorised the Quran and studied the religious and literary sciences, travelled to the Hijaz for the Hajj and through the Levant, and committed many diwans to memory.{cite:wikipedia-merebbi-rebbu-ar}
 

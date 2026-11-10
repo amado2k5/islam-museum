@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الذي ولّى الأشتر مصر", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/misr }
   - { type: part_of, target: period/rashidun }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل مات الأشتر بالسم أم بسبب آخر؟", en: "Did al-Ashtar die of poison or of another cause?" }
 perspectives:
   - tradition: sunni

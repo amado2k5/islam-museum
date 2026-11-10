@@ -14,6 +14,7 @@ sides:
 relations:
   - { type: occurred_at, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/ifranja, role: "الغازون", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

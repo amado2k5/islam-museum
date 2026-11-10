@@ -11,6 +11,12 @@ regions: [south-asia]
 date:
   start: { edtf: "0712", precision: year, status: tradition, derived: true }
   end: { edtf: "0712", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العربي بقيادة محمد بن القاسم", en: "The Arab army under Muhammad ibn al-Qasim" }
+    commanders: [person/abu-jafar-muhammad-ibn-al-qasim]
+  - label: { ar: "جيش الملك داهر", en: "Raja Dahir's army" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q122382759

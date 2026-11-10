@@ -11,6 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1277", precision: year, status: tradition, derived: true }
   end: { edtf: "1277", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    commanders: [person/baybars]
+  - label: { ar: "الجيش المغولي", en: "The Mongol army" }
+    participants: [person/abaga-ibn-hulagu]
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q2628082

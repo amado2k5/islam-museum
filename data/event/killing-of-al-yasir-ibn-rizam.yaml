@@ -21,5 +21,12 @@ relations:
   - { type: had_participant, target: group/ghatafan, role: "كان اليسير يجمعهم", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/jews-of-khaybar, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 266-267", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sides:
+  - label: { ar: "نفر عبد الله بن رواحة", en: "Abdullah ibn Rawaha's party" }
+    commanders: [person/abd-allah-ibn-rawaha, person/abdullah-ibn-unays]
+    strength: { value: 30, status: tradition, note: "في ثلاثين رجلاً في قول", sources: [source/ibn-hisham-saqqa] }
+  - label: { ar: "اليسير بن رزام وحلفاؤه من غطفان وخيبر", en: "Al-Yasir ibn Rizam and his Ghatafan and Khaybar allies" }
+    participants: [group/ghatafan, group/jews-of-khaybar]
+    commanders: [person/al-yasir-ibn-rizam]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 266-267; date single-source" }

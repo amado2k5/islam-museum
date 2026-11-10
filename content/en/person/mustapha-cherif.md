@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mustapha Cherif (born 1950) is an Algerian philosopher and writer, born in Miliana.{cite:wikipedia-mustapha-cherif-fr}{cite:wikidata-mustapha-cherif} He took doctorates in philosophy and in sociology at the École des hautes études en sciences sociales in Paris (1978), founded and presided over Algeria's University of Continuing Education, served as minister of universities in 1990–1991 and as Algeria's ambassador to Egypt from 1994 to 2001, and has lectured at Yale, Cambridge and the Collège de France.{cite:wikipedia-mustapha-cherif-fr}{cite:wikipedia-mustapha-cherif-ar}
 

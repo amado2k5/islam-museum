@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 Shuja' ibn Wahb ibn Rabi'a al-Asadi, an eminent Companion and Badri knight of the first forerunners, of Banu Asad ibn Khuzayma; he was an ally of Banu Abd Shams at Mecca. {cite:mubarakpuri-raheeq}
 
 He emigrated to Abyssinia in the first emigration, then returned and witnessed Badr, Uhud, the Trench and all the battles; in Dhu al-Qa'da of year six of the hijra the Prophet chose him as envoy with his letter to al-Harith ibn Abi Shimr al-Ghassani, king of the Ghassanids, at Damascus. {cite:zad-al-maad}

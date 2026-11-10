@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/muhammad, role: "أظهر الآية" }
   - { type: had_participant, target: person/abdullah-ibn-masud, role: eyewitness-narrator, sources: [source/sahih-al-bukhari] }
-  - { type: had_participant, target: person/abdullah-ibn-abbas, role: narrator, sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: person/abdullah-ibn-abbas, role: narrator, sources: [source/sahih-al-bukhari] }
   - { type: part_of, target: period/prophetic-era }
 sources: [source/sahih-al-bukhari, source/assabile-zaghloul-el-naggar, source/assabile-ahmad-farid]
 provenance:

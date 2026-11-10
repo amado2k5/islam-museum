@@ -18,7 +18,7 @@ story_roles:
   - { role: poet, status: tradition, note: "نُسب إليه أو وُصف بالشعر في هذا الفصل (ص8)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
-died: { edtf: "634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: debated, derived: true, note: "Martyred at al-Ta'if per one report, killed at al-Yamama per Ibn Sa'd and al-Marzubani, and Baladhuri has him die in Abyssinia (al-Isaba p. 857); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة وهلك بها", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
@@ -31,7 +31,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch94
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

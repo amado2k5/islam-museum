@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/ibn-al-muhtadi-billah-al-qadi, role: "المؤمّ بالجنازة", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "من حملة الجنازة", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/ibn-khayrun-abu-al-fadl, role: "الموصى إليه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

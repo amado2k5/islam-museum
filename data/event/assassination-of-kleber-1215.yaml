@@ -26,6 +26,7 @@ relations:
   - { type: had_participant, target: person/abd-allah-al-sharqawi, role: "المكلّف بإحضار المتهمين من الأزهر", sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: related_to, target: building/al-azhar, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/ajaib-al-athar-moreh-v3]
 provenance:
   layer: own-research

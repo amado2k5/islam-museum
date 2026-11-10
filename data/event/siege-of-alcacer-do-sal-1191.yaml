@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1191", precision: year, status: tradition, derived: true }
   end: { edtf: "1191", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130251289

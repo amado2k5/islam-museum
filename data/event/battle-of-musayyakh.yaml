@@ -12,10 +12,15 @@ relations:
   - { type: occurred_at, target: place/al-yamama, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-qaqa-ibn-amr, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch01
+sides:
+  - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { ar: "اليمامة", en: "al-Yamama" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

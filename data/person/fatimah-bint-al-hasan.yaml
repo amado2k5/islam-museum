@@ -6,13 +6,12 @@ label:
 roles: [companion]
 gender: female
 summary:
-  ar: "بطاقة أولية لفاطمة بنت الحسن بن علي، من نساء أهل البيت في القرن السابع؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Fatimah bint al-Hasan ibn Ali, of the Prophet's house in the seventh century; the biographical entry is not yet checked on the page."
+  ar: "صحابية من أهل البيت، ابنة الحسن بن علي."
+  en: "A woman Companion of the Prophet's house, daughter of al-Hasan ibn Ali."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era, period/umayyad]
 sources: [source/al-aalam]
-born: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mufid (al-Irshad)" }
 died: { edtf: "720~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Mufid (al-Irshad)" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }

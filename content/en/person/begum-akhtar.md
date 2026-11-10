@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Akhtari Bai Faizabadi (7 October 1914 – 30 October 1974), known as Begum Akhtar, was an Indian singer born at Faizabad, the daughter of the lawyer Asghar Hussain and his wife Mushtari.{cite:wikipedia-begum-akhtar-en}{cite:wikidata-begum-akhtar} Trained by leading masters of the day, she was dubbed Mallika-e-Ghazal, 'Queen of Ghazals', and is regarded as one of the greatest singers of ghazal, thumri and dadra; she also acted in films of the 1930s and in Mehboob Khan's Roti (1942).{cite:wikipedia-begum-akhtar-en}
 

@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/busra, sources: [source/al-aalam], note: "قرية من أعمال بصرى الشام {cite:al-aalam 1/112}" }
   - { type: had_participant, target: person/ibn-kathir, role: "المولود", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/durar-kamina-jil-1993, source/al-aalam]
 provenance:
   layer: own-research

@@ -19,7 +19,7 @@ relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: dispatched-and-received-the-chiefs, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/uyayna-ibn-hisn, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/utarid-ibn-hajib, role: orator-of-banu-tamim, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/utarid-ibn-hajib, role: orator-of-banu-tamim, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/thabit-ibn-qays, role: orator-of-islam, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: poet-of-banu-tamim, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/hassan-ibn-thabit, role: poet-of-islam, sources: [source/mubarakpuri-raheeq] }

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور تمہارے پروردگار ہی کی ذات (بابرکات) جو صاحب جلال وعظمت ہے باقی رہے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
+  - { type: mentions, target: concept/asma-dhu-al-jalal-wal-ikram, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

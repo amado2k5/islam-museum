@@ -12,9 +12,14 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "عاقر الفيل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "من الأشراف وحامل البشارة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/kabul }
+  - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 date:
   start: { edtf: "0664~", hijri: "0044~", calendar: julian, precision: year, status: tradition, derived: true, note: "في أيام معاوية بعد استعماله ابن عامر على البصرة؛ وغزوة المهلب إلى ثغر السند في السياق نفسه سنة ٤٤؛ التحويل مشتق {cite:futuh-buldan-maarif-1407} {cite:mujam-al-buldan-yaqut}.", sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut] }
+sides:
+  - label: { ar: "جيش عبد الرحمن بن سمرة", en: "Abd al-Rahman ibn Samura's army" }
+    commanders: [person/abd-al-rahman-ibn-samura]
+  - label: { ar: "كابل", en: "Kabul" }
 sources: [source/futuh-buldan-maarif-1407, source/mujam-al-buldan-yaqut]
 status: { review: draft, completeness: 1 }
 provenance:

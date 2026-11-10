@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 چاندارلی علی پاشا، ریاستِ عثمانیہ کے پہلے صدر اعظم [[person/candarli-kara-halil-pasha|چاندارلی قرہ خلیل حیر الدین پاشا]] کے بڑے صاحبزادے تھے؛ ان کی پیدائش کا سال اور مقام مصادر میں معلوم نہیں۔{cite:wikipedia-candarli-ali-pasha-tr}{cite:wikipedia-candarlizade-ali-pasha-en}{cite:wikidata-candarli-ali-pasha} انھوں نے مدرسے کی تعلیم پائی اور علمیہ طبقے سے وابستہ ہوئے، قاضی اور پھر 1386ء سے پہلے قاضی عسکر رہے، اور جب 22 جنوری 1387ء کو ان کے والد کا اچانک انتقال ہوا تو وہ وزارت اور پھر صدارتِ عظمیٰ میں ان کے جانشین بنے۔{cite:wikipedia-candarli-ali-pasha-tr}{cite:wikipedia-candarlizade-ali-pasha-en}
 

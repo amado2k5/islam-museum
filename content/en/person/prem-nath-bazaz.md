@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Prem Nath Bazaz (13 July 1905 – 1984) was a Kashmiri Pandit politician, journalist and historian. Born in Srinagar to a Kashmiri Hindu family,{cite:wikipedia-prem-nath-bazaz-en} he was a central figure in the making of modern, secular Kashmiri politics: with Sheikh Abdullah he founded the weekly Hamdard in 1935, and through it pressed for a politics open to all Kashmiris regardless of religion.{cite:wikipedia-prem-nath-bazaz-en}{cite:kashmir-sentinel-bazaz}
 

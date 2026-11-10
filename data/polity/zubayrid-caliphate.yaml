@@ -1,0 +1,21 @@
+id: polity/zubayrid-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الخلافة الزبيرية
+  en: Zubayrid Caliphate
+  ur: "زبیر خلیفہ"
+summary:
+  ar: خلافة منافسة قامت في مكة بقيادة عبد الله بن الزبير من 683م إلى 692م، وامتدت في بادئها على الحجاز والعراق ومصر وخراسان.
+  en: A rival caliphate led by Abd Allah ibn al-Zubayr from Mecca, 683–692 CE; at its height it held the Hijaz, Iraq, Egypt and Khurasan against the Umayyads.
+  ur: "عبداللہ بن زبیر کی مکہ سے مخالف خلافت، 683ء تا 692ء؛ اپنی بلند ترین حالت میں حجاز، عراق، مصر اور خراسان پر قائم رہی۔"
+wings: [time]
+periods: [period/umayyad]
+regions: [arabia]
+start: { edtf: "0683", calendar: julian, precision: year, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+end: { edtf: "0692", calendar: julian, precision: year, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+capitals:
+- place: place/mecca
+sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-claim-polities-1", note: "Dates and extent from al-Suyuti's Tarikh al-Khulafa (Ibn al-Zubayr entry) and Madelung's account of the second fitna." }

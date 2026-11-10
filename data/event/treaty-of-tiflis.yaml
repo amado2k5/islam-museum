@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/tiflis }
   - { type: had_participant, target: person/habib-ibn-maslama, role: "عاقد الصلح الأول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "منفذ الأمان ومصادق الأرحاء والكروم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 283–285"

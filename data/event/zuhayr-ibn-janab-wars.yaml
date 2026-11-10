@@ -14,7 +14,7 @@ sides:
 - label: { ar: "بكر وتغلب وغطفان وبنو القين", en: "Bakr, Taghlib, Ghaṭafān, Banū'l-Qayn" }
 relations:
   - { type: had_participant, target: person/zuhayr-ibn-janab-al-kalbi, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/kulayb-ibn-rabia, role: "أُسر", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/kulayb-ibn-rabia, role: "أُسر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muhalhil, role: "أُسر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ibn-ziyaba-al-taymi, sources: [source/kamil-ibn-al-athir] }
 provenance:

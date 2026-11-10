@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Hamdija Kreševljaković (16 September 1888 – 9 May 1959) was a Bosnian historian from Sarajevo, regarded as one of the most significant historians of Bosnia and Herzegovina.{cite:wikipedia-hamdija-kresevljakovic-en}{cite:wikipedia-hamdija-kresevljakovic-bs} The Bosnian and Croatian biographies give his birth day as 18 September, against the English biography and Wikidata.{cite:wikipedia-hamdija-kresevljakovic-bs}{cite:wikipedia-hamdija-kresevljakovic-hr} Born in the Vratnik quarter into a merchant family originally from Kreševo, he finished the teacher-training school in 1912 and taught in primary and commercial schools before becoming a professor at the Gazi Husrev-beg Madrasa, where he taught from 1926 to 1945.{cite:wikipedia-hamdija-kresevljakovic-en}{cite:wikipedia-hamdija-kresevljakovic-bs}
 

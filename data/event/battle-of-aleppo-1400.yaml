@@ -7,12 +7,18 @@ summary:
   en: "Draft card for Battle of Aleppo (1400); its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
 date:
   start: { edtf: "1400", precision: year, status: tradition, derived: true }
   end: { edtf: "1400", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش التيموري بقيادة تيمورلنك", en: "The Timurid army under Timur" }
+    participants: [person/timur-lang]
+    commanders: [person/timur-lang]
+  - label: { ar: "حامية حلب المملوكية", en: "The Mamluk garrison of Aleppo" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135005721

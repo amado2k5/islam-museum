@@ -1,0 +1,22 @@
+id: passage/tirmidhi-2427
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2427"
+label:
+  ar: "الترمذي 2427 — أعطيتك وخولتك وأنعمت عليك فماذا صنعت"
+  en: "Tirmidhi 2427 — I gave you, granted you and blessed you: what did you do"
+  ur: "ترمذی 2427 — میں نے تمہیں دیا، نوازا اور نعمت دی تو تم نے کیا کیا"
+text: "يجاء بابن آدم يوم القيامة كأنه بذج فيوقف بين يدى الله فيقول الله له أعطيتك وخولتك وأنعمت عليك فماذا صنعت . فيقول يا رب جمعته وثمرته فتركته أكثر ما كان فارجعني آتك به . فيقول له أرني ما قدمت . …"
+summary:
+  ar: "حديث قدسي في جامع الترمذي، رقم 2427: أعطيتك وخولتك وأنعمت عليك فماذا صنعت. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Jami al-Tirmidhi, no. 2427: I gave you, granted you and blessed you: what did you do. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "جامع ترمذی میں حدیثِ قدسی، نمبر 2427: میں نے تمہیں دیا، نوازا اور نعمت دی تو تم نے کیا کیا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-madha-sanat]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2427; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

@@ -8,11 +8,11 @@ summary:
 wings: [place]
 periods: [period/prophetic-era]
 regions: [arabia]
-coordinates: [24.58, 39.52]
-coordinate_precision: approx
-coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: located_in, target: place/medina, note: "من نواحي المدينة", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 278", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+coordinates: [24.58, 39.52]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 278; no coordinates" }

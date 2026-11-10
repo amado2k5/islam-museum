@@ -14,6 +14,7 @@ date:
   end: { edtf: "1070", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/marrakesh, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 provenance:
   layer: own-research

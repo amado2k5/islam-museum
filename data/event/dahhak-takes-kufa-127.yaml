@@ -16,10 +16,15 @@ relations:
   - { type: had_participant, target: person/al-dahhak-ibn-qays-al-shaybani, role: "أمير الخوارج", sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/abdallah-ibn-umar-ibn-abd-al-aziz, role: "عامل الكوفة المصالح", sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/marwan-ibn-muhammad, role: "الخليفة الذي وجه ابن هبيرة", sources: [source/tabari-khayyat-part2] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 127–128، ص 641–643"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tabari-96-130-04
+sides:
+  - label: { ar: "جيش عبد الله بن عمر بن عبد العزيز", en: "Abdallah ibn Umar ibn Abd al-Aziz's army" }
+    commanders: [person/abdallah-ibn-umar-ibn-abd-al-aziz, person/marwan-ibn-muhammad]
+  - label: { ar: "الكوفة", en: "Kufa" }
 sources: [source/tabari-khayyat-part2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

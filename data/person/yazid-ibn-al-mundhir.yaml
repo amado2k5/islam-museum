@@ -7,9 +7,8 @@ roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية ليزيد بن المنذر، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Yazid ibn al-Mundhir, a figure of the early community; the biographical entry is not yet checked on the
-    page.
+  ar: "صحابي أنصاري خزرجي سلمي من بني غنم بن كعب بن سلمة؛ ذكره ابن إسحاق فيمن شهد العقبة."
+  en: "An Ansari Companion of the Khazraj, of Banu Ghanm of Banu Salima; Ibn Ishaq names him among those who witnessed the pledge of al-Aqaba."
 wings:
 - people
 regions:
@@ -37,6 +36,21 @@ relations:
   target: group/ansar
   sources:
   - source/al-aalam
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1600"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-salima
+  note: "al-Isaba p. 1600"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  note: "al-Isaba p. 1600"
+  sources:
   - source/ibn-hajar-isaba
 external_ids:
   wikidata: Q12251772

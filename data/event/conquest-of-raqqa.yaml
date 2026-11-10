@@ -16,10 +16,15 @@ relations:
   - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "الفاتح وعاقد الصلح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/dhimma, note: "نص الصلح: الكنائس لا تخرب ولا محدثة ولا ناقوس ولا صليب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/jizya, note: "دينار للرجل مع الميرة — ثم أربعة دنانير بكتاب عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 238–239"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-14
+sides:
+  - label: { ar: "جيش إياد بن غنم الفهري", en: "Iyad ibn Ghanm al-Fihri's army" }
+    commanders: [person/iyyad-ibn-ghanm]
+  - label: { ar: "الرقة", en: "al-Raqqa" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

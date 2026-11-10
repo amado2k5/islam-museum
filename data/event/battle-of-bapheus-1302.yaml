@@ -11,6 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1302", precision: year, status: tradition, derived: true }
   end: { edtf: "1302", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "العثمانيون بقيادة عثمان الأول", en: "The Ottomans under Osman I" }
+  - label: { ar: "البيزنطيون", en: "The Byzantines" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1509619

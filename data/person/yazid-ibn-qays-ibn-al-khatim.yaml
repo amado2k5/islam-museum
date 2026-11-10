@@ -7,9 +7,8 @@ roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية ليزيد بن قيس بن الخطيم، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Yazid ibn Qays ibn al-Khatim, a figure of the early community; the biographical entry is not yet checked
-    on the page.
+  ar: "صحابي أنصاري ظفري، ابن الشاعر قيس بن الخطيم؛ شهد أحداً وجُرح فيها اثنتي عشرة جراحة، وشهد المشاهد واستشهد يوم جسر أبي عبيد."
+  en: "An Ansari Companion of Banu Zafar, son of the poet Qays ibn al-Khatim; he witnessed Uhud, where he took twelve wounds, fought the later battles and was martyred at the Battle of the Bridge of Abu Ubayd."
 wings:
 - people
 regions:
@@ -19,7 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
-died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba (Ibn Hajar)" }
+died: { edtf: "0635", hijri: "0014", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at the battle of the Bridge of Abu Ubayd (al-Isaba p. 1596, Abu Umar following Ibn al-Kalbi); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/medina
@@ -37,6 +36,21 @@ relations:
   target: group/ansar
   sources:
   - source/al-aalam
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-zafar-al-aws
+  note: "al-Isaba p. 1596"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "al-Isaba p. 1596"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-bridge
+  note: "al-Isaba p. 1596"
+  sources:
   - source/ibn-hajar-isaba
 external_ids:
   wikidata: Q12251823

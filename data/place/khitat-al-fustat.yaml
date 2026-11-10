@@ -13,15 +13,16 @@ wings:
 - place
 periods:
 - period/rashidun
-regions: [egypt-nile]
-coordinates: [30.0075, 31.2333]
-coordinate_precision: site
-coordinate_note: "Al-Fustat historical quarters (Old Cairo), Cairo, Egypt (geocoding pass, Gemini-assisted)"
+regions:
+- egypt-nile
 relations:
 - type: part_of
   target: place/al-fustat
   sources:
   - source/futuh-misr-amir-1999
+coordinates: [30.0075, 31.2333]
+coordinate_precision: site
+coordinate_note: "Al-Fustat historical quarters (Old Cairo), Cairo, Egypt (geocoding pass, Gemini-assisted)"
 sources: &id001
 - source/futuh-misr-amir-1999
 provenance:

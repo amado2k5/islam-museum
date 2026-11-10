@@ -398,6 +398,10 @@ modern:
   ribbon_title: 'Year by year'
   ribbon_note: 'Every record with a dated fact in that year. Each bar opens the year; Hijri years are shown on each year page.'
   ribbon_span: 'From {h1} AH ({y1}) to {h2} AH ({y2}).'
+  miraj_title: "The Mi'raj route"
+  miraj_desc: "The route as the records file it: from the Haram to al-Aqsa, then upward through the heavens records."
+  signs_title: "Timeline of the signs"
+  signs_desc: "The major signs as the hadith of Hudhayfa ibn Usayd counts them, in reported order."
   sections_title: 'The sections'
   sections_note: 'A record''s section follows from what it is and when it is dated; a record can sit in more than one.'
   count_records: 'Records: {n}'
@@ -1546,6 +1550,10 @@ explore:
       title: "The Poetry Anthology"
       desc: "The documented poems arranged under their poets, each with its occasion and context."
       menu: "Read poetry by its poets"
+    qudsi:
+      title: "Hadith Qudsi Browser"
+      desc: "The hadiths the Prophet relates from his Lord in the six books and the Muwatta of Malik: each hadith with its narrations in every collection, arranged by theme."
+      menu: "Browse the sacred hadiths (hadith qudsi)"
     jobs:
       title: "Job Browser"
       desc: "The jobs people held in Islamic history, from the judge and the scribe to the craftsman: each job with the people who held it and the places where it was done."
@@ -1558,6 +1566,26 @@ explore:
       title: 'Modern Islam Browser'
       desc: 'The last fifty years of Islam and Muslims: websites, music, films, conferences, figures, organisations, sport, awards, and what comes next.'
       menu: 'Browse the last fifty years'
+    companions:
+      title: 'Companions Browser'
+      desc: 'The Companions of the Prophet as a web of people: the Ten, the Muhajirun and the Ansar, the Prophet''s household, the women Companions, their clans, the events they stood in, and when they died.'
+      menu: 'Browse the Companions'
+    asma:
+      title: "Asma ul Husna Browser"
+      desc: "The ninety-nine names of God, each with its meaning and the stories the museum's records carry for it."
+      menu: "Browse the ninety-nine names and their stories"
+    khulafa:
+      title: "The Caliphs Browser"
+      desc: "Every caliph grouped by his caliphate — Rashidun to Sokoto — with his reign, succession chain, the events his reign saw and the cited record."
+      menu: "Browse the caliphs and their reigns"
+    ghayb:
+      title: The Ghayb Browser
+      desc: "Jinn and angels, the soul, the measures of time, the Ascent, the barzakh and the signs of the Hour — the unseen with its sources."
+      menu: "Browse the world of the unseen"
+    battles:
+      title: "Battles, Wars and Conquests Browser"
+      desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
+      menu: "Browse the ghazawat, battles and conquests"
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -3138,6 +3166,107 @@ khutab:
     nikah: "Marriage sermon"
     farewell: "Farewell sermon"
     other: "Sermon"
+ghayb:
+  title: The Ghayb Browser
+  lede: "A journey through the unseen in the museum's records: jinn and angels, the soul, the measures of time, the Night Journey and the greatest creations, the barzakh and what follows death, and the major signs of the Hour — each record cited, each topic a door to its own page."
+  badge: Unseen explorer
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags ghayb-browser and ghayb-<section> inside the one graph, not in a side table. Editorial stance: revelation first; science only ever serves as analogy, never as an explanation of the unseen."
+  api: "The whole dataset is at"
+  sections_title: The browser's sections
+  filter_label: Filter topics
+  filter_none: No matching results.
+  empty: No ghayb records in this build yet.
+  sections:
+    perception:
+      title: Limits of perception
+      desc: "Beyond the senses: the absolute unseen, jinn and angels, the soul and the vision of God."
+    daily:
+      title: Everyday doors
+      desc: "Small doors between the seen and unseen: dreams, the evil eye, sorcery and envy."
+    time:
+      title: Time and its measures
+      desc: "God's measures of time: a day as a thousand years, a day as fifty thousand, and the People of the Cave."
+    heavens:
+      title: Journey of the heavens
+      desc: "The Night Journey and Ascent, the Lote Tree of the Utmost Boundary, the seven heavens and al-Bayt al-Ma'mur."
+    creations:
+      title: Greatest unseen creations
+      desc: "The Throne, the Footstool, the Tablet and the Pen — creations beside which all else shrinks."
+    barzakh:
+      title: Barzakh and after death
+      desc: "Death, the seizing of the soul and the world of the grave — from the texts, not the imagination."
+    signs:
+      title: Signs of the Hour
+      desc: "The major signs: the Dajjal, Isa's descent, Ya'juj and Ma'juj, the sun from the west, and what comes before and after."
+qudsi:
+  title: "Hadith Qudsi Browser"
+  lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."
+  badge: "Draft under review"
+  status: "This build holds {hadiths} hadith qudsi in {narrations} narrations from {works} collections. Texts are matn excerpts of at most forty words; titles and summaries are the museum's own wording and stay draft until a human reads them."
+  themes_title: "Themes"
+  themes_note: "Each hadith sits under one theme, with its narrations in the six books and the Muwatta below it; open a narration to see its text and source."
+  filter_label: "Search the hadiths"
+  filter_none: "No hadith matches."
+  count: "{n} narrations"
+  empty: "No hadith qudsi in this build yet."
+  method_title: "How it was gathered"
+  method_note: "Every matn of the seven collections was scanned for divine speech in the first person (\"God said\", \"God says\", \"relating from his Lord\" and similar), each hit was read to drop Qur'an quotations and Companions' words, close narrations were joined into one hadith, and the list was checked against the Forty Hadith Qudsi."
+  api: "Open data:"
+  themes:
+    creed: "Creed"
+    worship-and-the-pillars: "Worship and the pillars"
+    fasting: "Fasting"
+    zakat-and-sadaqa: "Zakat and charity"
+    spirituality-and-sufism: "Remembrance, prayer and the inner life"
+    ethics-and-character: "Character and conduct"
+    family-marriage-kinship: "Family and kinship"
+    care-for-the-vulnerable: "Care for the sick and the weak"
+    trade-and-finance: "Wealth and trade"
+    crime-and-punishment: "Bloodshed"
+    laws-of-war-and-peace: "Striving and martyrdom"
+    health-body-death: "Illness, death and patience"
+    afterlife-and-eschatology: "The hereafter: resurrection, reckoning, Paradise and the Fire"
+    prophets: "The prophets"
+    scripture-and-its-sciences: "The Qur'an"
+    animals-and-mercy: "Mercy to creatures"
+    images-and-figural-art: "Image-making"
+    literature: "Poetry"
+companions:
+  title: 'Companions Browser'
+  lede: 'The generation that met the Prophet believing in him: who they were kin to, which circle they belonged to, which events they took part in, and when they died. Every name opens the museum''s record.'
+  status: 'Companions in this build: {n}, of whom {women} are women and {articles} have an article. Counts are computed from the records at build time.'
+  ten_title: 'The Ten promised Paradise'
+  ten_note: 'The ten Companions named in the trail of the same name; the doctrine and its sources are on the concept page.'
+  ten_trail: 'Walk the trail'
+  ten_concept: 'About the Ten'
+  circles_title: 'Circles'
+  circles_note: 'The emigrants from Mecca, the helpers of Medina, the Prophet''s household and his wives, as recorded on each Companion''s record.'
+  women_title: 'The women Companions'
+  women_note: 'Every woman Companion recorded in the museum.'
+  clans_title: 'Clans and tribes'
+  clans_note: 'The clans and tribes recorded for two or more Companions, largest first.'
+  events_title: 'Events'
+  events_note: 'The events two or more Companions are recorded as taking part in, in date order.'
+  decades_title: 'Deaths by Hijri decade'
+  decades_note: 'When the Companions died, by decade of the Hijri calendar. A year marked † is converted from the Gregorian date on the record.'
+  decade_bh: 'Before the Hijra'
+  decade_label: '{a}–{b} AH'
+  derived_mark: '† converted from the Gregorian date'
+  az_title: 'A to Z'
+  az_note: 'Every Companion in the alphabetical order of the name in this language.'
+  filter_label: 'Filter by name'
+  filter_none: 'No Companion matches this filter.'
+  count: '{n} Companions'
+  group_note: 'Companions recorded as members of this group.'
+  event_note: 'Companions recorded as taking part in this event.'
+  decade_note: 'Companions who died in this Hijri decade, in date order.'
+  record_link: 'Open the record'
+  died: 'd. {y} AH'
+  died_bh: 'd. {y} BH'
+  back: 'All Companions'
+  empty: 'No Companion is recorded here yet.'
 jobs:
   title: "Job Browser"
   lede: "What people did for a living in Islamic history, from the judge and the scribe to the physician, the builder and the weaver: each job with the people who held it and the places where it was done."
@@ -3210,6 +3339,91 @@ career:
   debated: "debated"
   tradition: "tradition"
   undated: "Undated"
+battles:
+  title: "Battles, Wars and Conquests Browser"
+  lede: "The expeditions, battles, sieges, conquests and wars of Islamic history — from Badr to the modern era — each with its date in both calendars, its place, its commanders and its sources."
+  badge: "In the making"
+  status: "This build holds {battles} military events across {kinds} kinds and {eras} eras, including {ghazwa} ghazawat and {sariya} saraya of the Prophet's time. Every card leads to the museum's fully cited record."
+  status_ghazawat: "This build holds the events of the Prophet's time: {ghazwa} ghazawat and {sariya} saraya, in chronological order."
+  note: "A ghazwa is an expedition the Prophet joined or led himself; a sariya is one he sent without joining. The grouping is derived from the records' relations and completes as they do."
+  sec_prophetic: "Expeditions of the Prophet's time"
+  sec_ghazawat: "Ghazawat"
+  sec_saraya: "Saraya"
+  sec_kinds: "By kind"
+  sec_eras: "By era"
+  all_expeditions: "All expeditions of the Prophet's time"
+  ghazawat_title: "Ghazawat and Saraya"
+  ghazwa_tag: "Ghazwa"
+  sariya_tag: "Sariya"
+  f_commanders: "Commanders"
+  f_place: "Place"
+  f_outcome: "Outcome"
+  f_partof: "Part of"
+  count_records: "{n} events"
+  filter_label: "Filter by name"
+  filter_none: "No event matches this filter."
+  kinds:
+    battle: "battle"
+    siege: "siege"
+    conquest: "conquest"
+    war: "war"
+    campaign: "campaign"
+    raid: "raid"
+    revolt: "revolt"
+    civil-war: "civil war"
+    skirmish: "skirmish"
+    naval-battle: "naval battle"
+    mutiny: "mutiny"
+  kinds_plural:
+    battle: "battles"
+    siege: "sieges"
+    conquest: "conquests"
+    war: "wars"
+    campaign: "campaigns"
+    raid: "raids"
+    revolt: "revolts"
+    civil-war: "civil wars"
+    skirmish: "skirmishes"
+    naval-battle: "naval battles"
+    mutiny: "mutinies"
+asma:
+  title: "The Most Beautiful Names Browser"
+  lede: "The ninety-nine names of God, each with its meaning and the stories that carry it: the Qur'an passages that name it, the hadith that invoke it, the seerah events that show it, and the Companions and the righteous whose lives exemplified it."
+  badge: "In the making"
+  status: "Ninety-nine names in the Tirmidhi enumeration. Name records in this build: {names}. Every section of a name page is drawn from the museum's cited records and grows as the graph does."
+  hadith_note: "«God has ninety-nine names — a hundred less one; whoever enumerates them enters Paradise», narrated by al-Bukhari and Muslim. The list shown here is the enumeration of Jami' al-Tirmidhi (3507); where the Ibn Majah list differs, the record of the name says so."
+  filter_label: "Filter by name"
+  sort_canonical: "Enumeration order"
+  sec_quran: "In the Qur'an"
+  sec_hadith: "In hadith"
+  sec_seerah: "In the seerah"
+  sec_sahaba: "From the Companions' stories"
+  sec_saliheen: "From the righteous' stories"
+  sec_paired: "Paired names"
+  order_label: "No. {n} in the enumeration"
+  record_link: "The museum record for this name"
+  enumeration_label: "Enumerations"
+khulafa:
+  title: "The Caliphs Browser"
+  lede: "The caliphs of Islam, grouped by the caliphate they ruled — Rashidun, Umayyad, Cordoba, Abbasid Baghdad and Cairo, Fatimid, Almohad, Ottoman and Sokoto — each with his reign, his place in the succession, the events his reign saw and the sources that say so."
+  badge: "In the making"
+  status: "Caliphs recorded in this build: {caliphs}. Every card's reign and chain is drawn from the museum's cited records and grows as the graph does."
+  note: "Claim lines — the Zubayrid, Hammudid and Sharifian counter-caliphates — are shown last and labelled as claims. The museum describes each accession as its sources do; it does not rule on legitimacy."
+  filter_label: "Filter by name"
+  filter_none: "No caliph matches this filter."
+  claim_label: "Rival claim"
+  reign_label: "Reign"
+  order_label: "no. {n} in the chain"
+  span_label: "{start}–{end} CE"
+  role_ruler: "Ruled the caliphate"
+  role_claimant: "Claimed the caliphate against the standing caliphate"
+  chain_label: "The succession"
+  prev_label: "Before"
+  next_label: "After"
+  sec_events: "Events of the reign"
+  sec_perspectives: "The positions on his accession"
+  record_link: "The museum record for this caliph"
+  present: "present"
 inventions:
   title: "Inventions Browser"
   lede: "Inventions and discoveries from Islamic civilization, each with the people who made it, what came before it, what was built on it, and the sources that say so."

@@ -14,6 +14,7 @@ date:
 relations:
   - { type: had_participant, target: person/abu-bakr, role: "خرج بنفسه إلى ذي القصة", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "نصح أبا بكر ألا يخرج بنفسه، وناقشه في قتال المرتدين", sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/ibn-hisham-sira, source/sallabi-ali-vol1]
 external_ids:
   wikidata: Q17001408

@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/tunis, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-al-abbar, role: "المعزول المعفو عنه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

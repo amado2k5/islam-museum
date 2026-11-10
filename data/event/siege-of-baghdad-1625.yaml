@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1625-11-13", precision: year, status: tradition, derived: true }
   end: { edtf: "1626-07-03", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5959281

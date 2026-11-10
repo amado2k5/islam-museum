@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-al-salah, role: "شيخ دار الحديث", sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-malik-al-ashraf, role: "باني الدار وموكّل التدريس", sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

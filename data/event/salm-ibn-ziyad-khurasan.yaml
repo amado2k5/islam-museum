@@ -12,6 +12,11 @@ relations:
   - { type: had_participant, target: person/asha-hamdan, role: "في جيش خجنده", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/bandun, role: "الملك المقتول", sources: [source/futuh-buldan-maarif-1407] }
 wings: [time]
+sides:
+  - label: { ar: "جيش سلم بن زياد", en: "Sallam ibn Ziyad's army" }
+    commanders: [person/sallam-ibn-ziyad]
+  - label: { ar: "بندون السغدي", en: "Bandun the Sughdi" }
+    participants: [person/bandun]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

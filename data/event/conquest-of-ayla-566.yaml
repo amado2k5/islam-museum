@@ -13,6 +13,8 @@ date:
   start: { edtf: "1170-12~", hijri: "0566-04", calendar: julian, precision: month, status: tradition, derived: true, note: "العشر الأول من ربيع الآخر 566؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 31}." }
 relations:
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 566، ص 31–32"

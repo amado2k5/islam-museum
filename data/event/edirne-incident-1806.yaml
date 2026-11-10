@@ -14,6 +14,7 @@ date:
   end: { edtf: "1806", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q55600402

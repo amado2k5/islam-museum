@@ -14,7 +14,8 @@ relations:
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الخليفة المحدث الضارب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khalid-ibn-yazid-ibn-muawiya, role: "المشير بالتحريم والضرب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/awana-ibn-al-hakam, role: "راوي تعليل الأقباط", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-madaini, role: "راوي رواية المنع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-madaini, role: "راوي رواية المنع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 335–336"

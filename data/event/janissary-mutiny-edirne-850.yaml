@@ -13,6 +13,7 @@ date:
   start: { edtf: "1446~", hijri: "0850", calendar: julian, precision: year, status: tradition, derived: true, note: "في عهد مراد الثاني؛ الهجري مشتق {cite:encyclopaedia-of-islam-2 vol. 2 p. 711}." }
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

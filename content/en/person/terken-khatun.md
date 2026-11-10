@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Terken Khatun was a Qipchaq princess — a khan's daughter of the Qangli tribe in the Arabic article, of the Qangli or the Bayandur tribe of the Kimek in the English article — who married Sultan Ala al-Din Tekish and became empress of the Khwarazmian Empire and mother of Ala al-Din Muhammad II.{cite:wikipedia-terken-khatun-ar}{cite:wikipedia-terken-khatun-en} No source read fixes her birth year: some lists give 1155, while Wikidata carries 1150 and 1151.{cite:wikidata-terken-khatun}
 

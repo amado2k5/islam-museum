@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yawm in lexicon is a stretch of time beginning at sunrise and ending at sunset; its plural is ayyam, and the feminine plural is the more common. The technical sense is the span from the rising of the second dawn to sunset. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18011}
 

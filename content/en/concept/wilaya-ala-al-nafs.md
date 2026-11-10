@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Authority over the person is the power to supervise matters that concern the ward's own person. Its kinds are three: custody (hadana), guardianship proper (kafala), and marriage guardianship. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17902}
 

@@ -16,3 +16,6 @@ Ibn Khaldun holds that the soul is spiritual, and that the senses veil it by dra
 He says that the perception of madmen is mixed with falsehood, because of the corruption of their temperaments or because of the intrusion of satanic souls. {cite:muqaddima-ibn-khaldun p.100-102}
 
 This is Ibn Khaldun's explanation alone. The views of others need a further source.
+
+## In the context of the unseen
+The unseen is reached by report, not sense: the Cave sleepers and the question about the soul are its two channels.

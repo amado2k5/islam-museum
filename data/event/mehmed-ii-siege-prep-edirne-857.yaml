@@ -14,6 +14,11 @@ date:
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/mehmed-ii, role: "السلطان المُعِدّ للحصار", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qaim-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش السلطان محمد الفاتح", en: "السلطان محمد الفاتح's army" }
+    commanders: [person/mehmed-ii]
+  - label: { ar: "أدرنة", en: "Edirne" }
 sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

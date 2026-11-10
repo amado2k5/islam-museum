@@ -11,6 +11,8 @@ wings: [time]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 themes: [sects-and-schools, civil-wars-and-revolts]
+relations:
+- { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research

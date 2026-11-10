@@ -12,6 +12,7 @@ date:
   start: { edtf: "1032~", hijri: "0424", calendar: julian, precision: year, status: tradition, derived: true, note: "ابتدأت سنة 424 واشتدت سنة 426 {cite:shadharat-dhahab p. 227, 230}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

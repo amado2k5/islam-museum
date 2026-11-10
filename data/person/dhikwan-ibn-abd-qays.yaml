@@ -6,18 +6,22 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لذكوان بن عبد قيس، صحابي استشهد يوم أحد سنة ٦٢٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Dhikwan ibn Abd Qays, the Companion martyred at Uhud in 625; the biographical entry is not yet checked on the page."
+  ar: "صحابي خزرجي من بني زريق، أبو السبع؛ هو وأسعد بن زرارة أول من قدم المدينة بالإسلام، وكان من أهل العقبة، واستشهد بأحد وقد أثنى عليه النبي يومها."
+  en: "A Khazraji Companion of Banu Zurayq, known as Abu al-Sib'; he and As'ad ibn Zurara were the first to bring Islam to Medina. He was among the people of al-Aqaba and was martyred at Uhud, where the Prophet praised him."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud — he and Mu'adh were the first to bring Islam to Medina (al-Isaba pp. 435-436); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 435", sources: [source/ibn-hajar-isaba] }
+ - { type: member_of, target: group/banu-zurayq, note: "al-Isaba p. 435", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/pledges-of-aqaba, note: "al-Isaba p. 435", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 435", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q16124065
 provenance:

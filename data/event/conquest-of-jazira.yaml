@@ -19,11 +19,16 @@ relations:
   - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "على الميسرة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "على ميسرته في رواية — ونقل عنه ألا يسير تحت لواء بعد أبي عبيدة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "ولّاه حمص وقنسرين والجزيرة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-13
+sides:
+  - label: { ar: "جيش إياد بن غنم الفهري", en: "Iyad ibn Ghanm al-Fihri's army" }
+    commanders: [person/iyyad-ibn-ghanm, person/maysara-ibn-masruq]
+  - label: { ar: "الجزيرة", en: "The Jazira" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 

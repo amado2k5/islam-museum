@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Nizamuddin Kianwi (died 31 July 1895) was a Naqshbandi Sufi of Kiyan Sharif in the Neelam Valley, known to devotees as Bawaji Sarkar. His Urdu biography counts him among the elders of the Naqshbandiyya in Kashmir, records his initiation and his long retreats at Kiyan Sharif, and tells of preaching journeys across Asia and fifteen years in Abyssinia.{cite:wikipedia-nizamuddin-kianwi-ur} Among his khalifas it names Baba Ji Larvi, through whom his line took root at Wangat in the Kashmir Valley.{cite:wikipedia-nizamuddin-kianwi-ur}
 

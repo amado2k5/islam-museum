@@ -18,6 +18,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "حضر مع أبي بكر ليعزي علياً", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/asma-bint-umays, role: "مرّضتها وشاركت في غسلها", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/medina }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 137-138" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 136-138", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp111-150" }

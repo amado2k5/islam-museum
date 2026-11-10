@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
-coordinates: [38.0333, 37.65]
-coordinate_precision: approx
-coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: site_of, target: event/founding-of-al-hadath, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -18,5 +15,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 267–269"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
+coordinates: [38.0333, 37.65]
+coordinate_precision: approx
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -17,6 +17,8 @@ translations:
   ur: { text: "تو اگر یہ لوگ بھی اسی طرح ایمان لے آئیں جس طرح تم ایمان لے آئے ہو تو ہدایت یاب ہو جائیں اور اگر منہ پھیر لیں (اور نہ مانیں) تو وہ (تمھارے) مخالف ہیں اور ان کے مقابلے میں تمھیں خدا کافی ہے۔ اور وہ سننے والا (اور) جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: concept/asma-al-alim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-sami, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v03]

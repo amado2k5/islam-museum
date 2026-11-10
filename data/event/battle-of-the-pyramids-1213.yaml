@@ -25,6 +25,7 @@ relations:
   - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: had_participant, target: person/murad-bey, role: "قائد البر الغربي", sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: had_participant, target: person/ibrahim-bey, role: "قائد البر الشرقي", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/ajaib-al-athar-moreh-v3]
 external_ids:
   wikidata: Q332543

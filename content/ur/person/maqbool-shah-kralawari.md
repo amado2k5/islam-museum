@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 پیر مقبول شاہ کرالاواری (1820ء–1877ء) انیسویں صدی کے کشمیری شاعر تھے، فارسی ادب کے عالم اور اپنے قرن کے بہترین کشمیری شعرا میں شمار ہوتے تھے۔{cite:wikipedia-maqbool-shah-kralawari-en} فہرستِ تعمیر میں درج وفات کا سال 1875ء مقالات کے 1877ء سے درست ہوتا ہے، جبکہ وکی ڈیٹا 1876ء دیتا ہے۔{cite:wikipedia-maqbool-shah-kralawari-en}{cite:wikidata-maqbool-shah-kralawari} انھوں نے فارسی اور کشمیری دونوں میں لکھا اور عبادتی نظموں، ہجو اور غزل سب پر طبع آزمائی کی۔{cite:wikipedia-maqbool-shah-kralawari-en}
 

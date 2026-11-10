@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/asad-ibn-abdallah-al-qasri, role: "الوالي الجديد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/farghana }
 wings: [time]
+sides:
+  - label: { ar: "جيش مسلم بن سعيد", en: "Muslim ibn Sa'id's army" }
+    commanders: [person/muslim-ibn-said, person/al-afshin, person/asad-ibn-abdallah-al-qasri]
+  - label: { ar: "فرغانة", en: "Farghana" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

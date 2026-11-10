@@ -1,0 +1,19 @@
+id: person/al-mutawakkil-iii-cairo
+class: person
+label: { ar: "المتوكل الثالث", en: "al-Mutawakkil III", ur: "المتوكل الثالث" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "المتوكل الثالث، خليفة العباسية في القاهرة ؛ حكم من 1508م إلى 1517م. {cite:tarikh-khulafa-minhaj-1434}"
+  en: "al-Mutawakkil III, the caliph of the Abbasid of Cairo caliphate, ruling 1508–1517 CE. {cite:tarikh-khulafa-minhaj-1434}"
+  ur: "المتوكل الثالث، عباسی قاہرہ خلافت کے خلیفہ؛ 1508ء سے 1517۔ {cite:tarikh-khulafa-minhaj-1434}"
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1508", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { role: ruler, toward: polity/abbasid-caliphate-cairo, start: { edtf: "1517", calendar: julian, precision: year }, end: { edtf: "1517", calendar: julian, precision: year }, status: historical, sources: [source/suluk-maqrizi] }
+relations:
+  - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

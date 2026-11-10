@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yawm al-shakk is a compound of day and doubt. Shakk in lexicon is misgiving, the opposite of certainty, plural shukuk; in the jurists' usage it is the equal standing of the two sides of perception, denial and affirmation. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18027}
 

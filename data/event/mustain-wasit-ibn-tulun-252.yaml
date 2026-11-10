@@ -18,6 +18,8 @@ relations:
   - { type: occurred_at, target: place/wasit, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-mustain, role: "الخليفة المخلوق المنزول", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الموكل بصحبته", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

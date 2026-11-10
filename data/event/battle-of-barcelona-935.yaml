@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0935", precision: year, status: tradition, derived: true }
   end: { edtf: "0935", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q97196090

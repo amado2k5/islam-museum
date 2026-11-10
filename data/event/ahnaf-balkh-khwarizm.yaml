@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/asid-ibn-al-mutashammis, role: "والي بلخ", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/balkh }
 wings: [time]
+sides:
+  - label: { ar: "جيش الأحنف بن قيس", en: "al-Ahnaf ibn Qays's army" }
+    commanders: [person/al-ahnaf-ibn-qays]
+  - label: { ar: "بلخ", en: "Balkh" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

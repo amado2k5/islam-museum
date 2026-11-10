@@ -39,7 +39,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 born: { edtf: "616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-died: { edtf: "684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "0685", hijri: "0065", calendar: julian, precision: year, status: debated, derived: true, note: "Al-Waqidi: died in Syria 65 AH aged seventy-two; Ibn Yunus prefers this; other reports give Mecca, al-Ta'if or Egypt, and 68 or 69 AH (al-Isaba p. 923); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/mecca

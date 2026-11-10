@@ -17,6 +17,10 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/shams-al-din-iltutmish, role: "السلطان الآخذ للمدينة", sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "جيش شمس الدين إلتمش", en: "Shams al-Din Iltutmish's army" }
+    commanders: [person/shams-al-din-iltutmish]
+  - label: { ar: "لاهور", en: "Lahore" }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

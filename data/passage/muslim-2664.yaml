@@ -11,6 +11,8 @@ relations:
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/qadar, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/asma-al-mumin, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/asma-al-qawiyy, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "صحيح مسلم، كتاب القدر، باب الأمر بالقوة وترك العجز والاستعانة بالله (طبعة دار التأصيل، الحديث 6945؛ ترقيم عبد الباقي المعروف 2664)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
 sources: [source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

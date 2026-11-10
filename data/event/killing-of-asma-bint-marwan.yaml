@@ -16,7 +16,7 @@ relations:
   - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "قال: ألا آخذ لي من ابنة مروان؟ ثم: نصرت الله ورسوله", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/asma-bint-marwan, role: "المقتولة", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/umayr-ibn-adi-al-khatmi, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/umayr-ibn-adi-al-khatmi, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/hassan-ibn-thabit, role: "أجاب شعرها", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-khatma, role: "قوم القاتل وزوجها؛ عزّ الإسلام فيهم يومئذ", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-umayya-ibn-zayd, role: "قوم عصماء", sources: [source/ibn-hisham-saqqa] }

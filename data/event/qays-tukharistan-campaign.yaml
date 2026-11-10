@@ -10,6 +10,10 @@ relations:
   - { type: had_participant, target: person/qays-ibn-al-haytham, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/siminjan }
 wings: [time]
+sides:
+  - label: { ar: "جيش قيس بن الهيثم السلمي", en: "Qays ibn al-Haytham al-Sulami's army" }
+    commanders: [person/qays-ibn-al-haytham]
+  - label: { ar: "سمنجان", en: "Siminjan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

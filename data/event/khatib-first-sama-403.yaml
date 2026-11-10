@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "السامع الصغير", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-al-hasan-al-khatib, role: "الوالد المحضّ", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

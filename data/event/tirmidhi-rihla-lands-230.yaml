@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/iraq, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
   - { type: occurred_at, target: place/hijaz, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "الطالب الراحل", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

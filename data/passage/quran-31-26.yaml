@@ -17,6 +17,8 @@ translations:
   ur: { text: "جو کچھ آسمانوں اور زمین میں ہے (سب) خدا ہی کا ہے۔ بیشک خدا بےپروا اور سزا وارِ حمد (وثنا) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-31 }
+  - { type: mentions, target: concept/asma-al-ghaniyy, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-hamid, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

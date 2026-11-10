@@ -1,0 +1,22 @@
+id: passage/bukhari-5653
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5653"
+label:
+  ar: "البخاري 5653 — من ابتليته بحبيبتيه فصبر عوضته الجنة"
+  en: "Bukhari 5653 — Whoever I try with the loss of his eyes and is patient, I give him Paradise"
+  ur: "بخاری 5653 — جس کی دونوں آنکھیں لے کر میں آزماؤں اور وہ صبر کرے، اسے جنت دیتا ہوں"
+text: "إن الله قال إذا ابتليت عبدي بحبيبتيه فصبر عوضته منهما الجنة . يريد عينيه. تابعه أشعث بن جابر وأبو ظلال عن أنس عن النبي."
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 5653: من ابتليته بحبيبتيه فصبر عوضته الجنة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 5653: Whoever I try with the loss of his eyes and is patient, I give him Paradise. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 5653: جس کی دونوں آنکھیں لے کر میں آزماؤں اور وہ صبر کرے، اسے جنت دیتا ہوں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [health-body-death]
+tags: [hadith-qudsi, qudsi-habibatayhi]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5653; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

@@ -18,20 +18,22 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 born: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
-died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0620~", calendar: julian, precision: year, status: tradition, derived: true, note: "An early Muslim of Mecca who emigrated to Abyssinia with her husband Amr ibn Sa'id and died there (Ibn Ishaq, al-Isaba p. 1936)", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/kinana, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/amr-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "al-Isaba p. 1936", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch110
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

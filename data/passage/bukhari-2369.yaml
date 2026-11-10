@@ -1,0 +1,22 @@
+id: passage/bukhari-2369
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2369"
+label:
+  ar: "البخاري 2369 — اليوم أمنعك فضلي كما منعت فضل ما لم تعمل يداك"
+  en: "Bukhari 2369 — Today I withhold My bounty from you as you withheld what your hands did not make"
+  ur: "بخاری 2369 — آج میں اپنا فضل تم سے روکتا ہوں جیسے تم نے وہ روکا جو تمہارے ہاتھوں نے نہیں بنایا"
+text: "ثلاثة لا يكلمهم الله يوم القيامة، ولا ينظر إليهم رجل حلف على سلعة لقد أعطى بها أكثر مما أعطى وهو كاذب، ورجل حلف على يمين كاذبة بعد العصر ليقتطع بها مال رجل مسلم، ورجل منع فضل ماء، فيقول الله اليوم …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 2369: اليوم أمنعك فضلي كما منعت فضل ما لم تعمل يداك. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 2369: Today I withhold My bounty from you as you withheld what your hands did not make. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 2369: آج میں اپنا فضل تم سے روکتا ہوں جیسے تم نے وہ روکا جو تمہارے ہاتھوں نے نہیں بنایا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [ethics-and-character]
+tags: [hadith-qudsi, qudsi-man-mana-fadl-al-ma]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2369; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

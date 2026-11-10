@@ -14,10 +14,15 @@ date:
 relations:
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائد المنهزم", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/ramla, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 573، ص 85–86"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-01
+sides:
+  - label: { ar: "جيش صلاح الدين الأيوبي", en: "Saladin (Salah al-Din Yusuf ibn Ayyub)'s army" }
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "الرملة", en: "al-Ramla" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

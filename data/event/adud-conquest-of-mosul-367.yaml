@@ -14,10 +14,15 @@ relations:
   - { type: occurred_at, target: place/mosul, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/adud-al-dawla, role: "الفاتح", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-taglib-fadlallah, role: "الأمير المخلوع", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-tai-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-15
+sides:
+  - label: { ar: "جيش عضد الدولة فناخسرو بن ركن الدولة", en: "Adud al-Dawla Fanakhusraw ibn Rukn al-Dawla's army" }
+    commanders: [person/adud-al-dawla, person/abu-taglib-fadlallah]
+  - label: { ar: "الموصل", en: "Mosul" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

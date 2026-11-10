@@ -1,0 +1,21 @@
+id: passage/nasai-2079
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2079"
+label:
+  ar: "النسائي 2079 — الرجل الذي أوصى بنيه: أد ما أخذت"
+  en: "Nasa'i 2079 — The man who asked to be burnt: give back what you took"
+  ur: "نسائی 2079 — وہ آدمی جس نے جلانے کی وصیت کی: جو لیا ہے واپس کرو"
+text: "أسرف عبد على نفسه حتى حضرته الوفاة قال لأهله إذا أنا مت فأحرقوني ثم اسحقوني ثم اذروني في الريح في البحر فوالله لئن قدر الله على ليعذبني عذابا لا يعذبه أحدا من خلقه قال ففعل أهله ذلك قال الله عز …"
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 2079: الرجل الذي أوصى بنيه: أد ما أخذت. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 2079: The man who asked to be burnt: give back what you took. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 2079: وہ آدمی جس نے جلانے کی وصیت کی: جو لیا ہے واپس کرو۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-add-ma-akhadhta]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2079; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

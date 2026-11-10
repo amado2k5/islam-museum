@@ -13,16 +13,20 @@ summary:
   en: "A companion of the Prophet from the Ansar; he transmits the hadith 'the lawful is clear and the unlawful is clear and between them are doubtful matters', the sixth hadith of al-Nawawi's Forty, transmitted from him by al-Sha'bi and included by both Shaykhs in their Sahihs; Ibn Rajab calls it the soundest hadith of its chapter."
 wings: [people]
 born: { edtf: "623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "684", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "0685", hijri: "0065", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed 65 AH after Marwan ibn al-Hakam prevailed (al-Isaba p. 1510); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam, source/usd-al-ghaba, source/bakr-umayyad-state-1134715], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/usd-al-ghaba]}
   - { type: member_of, target: group/ansar, sources: [source/usd-al-ghaba]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1510", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 1510", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q12194428" }
 sources:
 - source/ibn-rajab-jami-ulum-hikam
 - source/usd-al-ghaba
 - source/bakr-umayyad-state-1134715
+- source/ibn-hajar-isaba
 provenance:
   layer: own-research
   source: "جامع العلوم والحكم، الحديث السادس ص 172 (ط دار ابن كثير 1429هـ/2008م)"

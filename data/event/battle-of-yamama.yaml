@@ -15,23 +15,30 @@ relations:
   - { type: occurred_at, target: place/al-yamama }
   - { type: occurred_at, target: place/hadiqat-al-mawt }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قائد الجيش والمصالِح المخدوع", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/musaylima, role: "قُتل في حديقة الموت واختلف في قاتله", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/musaylima, role: "قُتل في حديقة الموت واختلف في قاتله", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/mujjaa-ibn-murara, role: "صالح خالداً عن أهل اليمامة بخدعة التسليح", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/zayd-ibn-al-khattab, role: "من شهدائها؛ أخو عمر", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/thabit-ibn-qays, role: "من شهدائها؛ كان على الأنصار يومئذ", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/abu-hudhayfa-ibn-utba, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/salim-mawla-abi-hudhayfa, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/zayd-ibn-al-khattab, role: "من شهدائها؛ أخو عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/thabit-ibn-qays, role: "من شهدائها؛ كان على الأنصار يومئذ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/abu-hudhayfa-ibn-utba, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/salim-mawla-abi-hudhayfa, role: "من شهدائها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/nusayba-bint-kab, role: "قاتلت يومئذ وجرحت؛ أم حبيب وعبد الله ابني زيد بن عاصم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/wahshi-ibn-harb, role: "كان يدّعي قتل مسيلمة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdullah-ibn-zayd-ibn-asim, role: "من المرشحين لقتل مسيلمة عند بعض الرواة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/banu-hanifa, role: "أهل اليمامة وجيش مسيلمة ثم المصالَحون", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/samura-ibn-amr-al-anbari, role: "استخلفه خالد على اليمامة بعد فتحها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 120–127"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-5, lib-tarikh-khalifa-batch-3-2026-10-31
 external_ids: { wikidata: "Q2456292" }
+sides:
+  - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
+    commanders: [person/khalid-ibn-al-walid, person/musaylima]
+  - label: { ar: "بنو حنيفة", en: "Banu Hanifa" }
+    participants: [group/banu-hanifa]
 sources: [source/futuh-buldan-maarif-1407, source/sahih-al-bukhari, source/tarikh-khalifa-umari-1985]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 

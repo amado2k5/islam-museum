@@ -14,6 +14,7 @@ relations:
   - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-hamid-al-isfarayini, role: "أشار مع الفقهاء بتحريق المصحف", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qadir-billah, role: "أحفظه الأمر فوضع الحرس على بابه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 398)، قراءة آبل فيجن"

@@ -1,0 +1,22 @@
+id: passage/muslim-1560
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1560"
+label:
+  ar: "مسلم 1560 — تجاوزوا عن عبدي: الذي كان ييسر على المعسر"
+  en: "Muslim 1560 — Pass over My servant: the one who was lenient with debtors"
+  ur: "مسلم 1560 — میرے بندے سے درگزر کرو: جو تنگ دست پر آسانی کرتا تھا"
+text: "تلقت الملائكة روح رجل ممن كان قبلكم فقالوا أعملت من الخير شيئا قال لا . قالوا تذكر . قال كنت أداين الناس فآمر فتياني أن ينظروا المعسر ويتجوزوا عن الموسر - قال - قال الله عز وجل تجوزوا عنه ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 1560: تجاوزوا عن عبدي: الذي كان ييسر على المعسر. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 1560: Pass over My servant: the one who was lenient with debtors. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 1560: میرے بندے سے درگزر کرو: جو تنگ دست پر آسانی کرتا تھا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [trade-and-finance]
+tags: [hadith-qudsi, qudsi-tajawazu-an-abdi]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3993; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

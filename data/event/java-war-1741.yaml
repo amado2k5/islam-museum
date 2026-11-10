@@ -11,6 +11,8 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1741", precision: year, status: tradition, derived: true }
   end: { edtf: "1743", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6165029

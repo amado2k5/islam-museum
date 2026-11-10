@@ -11,6 +11,13 @@ regions: [egypt-nile]
 date:
   start: { edtf: "0640", precision: year, status: tradition, derived: true }
   end: { edtf: "0640", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "جيش عمرو بن العاص", en: "Amr ibn al-As's army" }
+    commanders: [person/amr-ibn-al-as]
+  - label: { ar: "الروم بقيادة تيودور", en: "The Byzantines under Theodore" }
+    participants: [person/heraclius]
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q2237576

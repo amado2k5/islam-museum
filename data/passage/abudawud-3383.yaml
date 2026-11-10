@@ -1,0 +1,22 @@
+id: passage/abudawud-3383
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3383"
+label:
+  ar: "أبو داود 3383 — أنا ثالث الشريكين ما لم يخن أحدهما صاحبه"
+  en: "Abu Dawud 3383 — I am the third of two partners as long as neither betrays the other"
+  ur: "ابو داود 3383 — میں دو شریکوں کا تیسرا ہوں جب تک ان میں سے کوئی خیانت نہ کرے"
+text: "إن الله يقول أنا ثالث الشريكين، ما لم يخن أحدهما صاحبه فإذا خانه خرجت من بينهما ."
+summary:
+  ar: "حديث قدسي في سنن أبي داود، رقم 3383: أنا ثالث الشريكين ما لم يخن أحدهما صاحبه. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan Abi Dawud, no. 3383: I am the third of two partners as long as neither betrays the other. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن ابی داود میں حدیثِ قدسی، نمبر 3383: میں دو شریکوں کا تیسرا ہوں جب تک ان میں سے کوئی خیانت نہ کرے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [trade-and-finance]
+tags: [hadith-qudsi, qudsi-thalith-al-sharikayn]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-abi-dawud] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3383; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

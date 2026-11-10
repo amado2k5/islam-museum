@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 محمد بیگ کاپتانووچ لیوبوشاک (19 دسمبر 1839ء – 29 جولائی 1902ء) ویتینا (نزد لیوبوشکی) سے تعلق رکھنے والے بوسنیائی ادیب اور سرکاری افسر تھے، جو محبی کے تخلص سے لکھتے تھے۔{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs} لیوبوشکی کے مدرسے اور ترکی، عربی و فارسی میں تعلیم پائی، عثمانی انتظامیہ میں کئی شہروں کے قائم مقام رہے، 1878ء میں سرائیوو آ بسے، اور 1893ء میں مصطفی فاضل پاشیچ کے جانشین بن کر شہر کے دوسرے میئر بنے۔{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en} ان کے دور میں 1 مئی 1895ء کو سرائیوو کو بجلی کی سڑک روشنی اور یورپ کی اولین برقی ٹرام خدمات میں سے ایک ملی؛ جولائی 1898ء کے فالج سے وہ زوال شروع ہوا جس نے اپریل 1899ء میں انھیں مستعفی ہونے پر مجبور کیا۔{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-en}{cite:wikipedia-mehmed-beg-kapetanovic-ljubusak-bs}
 

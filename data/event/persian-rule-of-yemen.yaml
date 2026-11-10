@@ -18,5 +18,7 @@ relations:
   - { type: had_participant, target: person/badhan, role: "آخر ولاة فارس وأسلم سنة 638م", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: polity/sasanian-empire, role: "القوة التي أعانت ثم استولت", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/pre-islamic-arabia }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

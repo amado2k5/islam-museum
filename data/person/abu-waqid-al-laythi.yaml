@@ -6,17 +6,20 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي واقد الحارث الليثي، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Waqid al-Harith al-Laythi, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "صحابي ليثي، حليف بني أسد؛ اختُلف في اسمه وفي شهوده بدراً، حمل لواء بني ليث وضمرة وسعد بن بكر يوم الفتح وحنين، وفي غزوة تبوك يستنفر قومه، ثم جاور بمكة سنة ومات، واختُلف في سنة وفاته بين ثمان وستين وخمس وثمانين."
+  en: "A Laythi Companion, an ally of Banu Asad; his given name and his presence at Badr are both disputed. He carried the banner of Banu Layth, Damra and Sa'd ibn Bakr at the conquest and at Hunayn, and rallied his people for Tabuk; he then resided at Mecca for a year and died, with reports giving 68 or 85 AH."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba]
-born: { edtf: "566~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi" }
-died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba); al-Dhahabi" }
+died: { edtf: "0687", hijri: "0068", calendar: julian, precision: year, status: debated, derived: true, note: "Al-Waqidi reports 68 AH aged seventy-five, another report gives 85 AH, and al-Bukhari places his death in Mu'awiya's caliphate (al-Isaba p. 1797); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
- - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba], confidence: low }
- - { type: member_of, target: group/sahaba, sources: [source/ibn-hajar-isaba]}
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba], confidence: low }
+  - { type: member_of, target: group/sahaba, sources: [source/ibn-hajar-isaba]}
+  - { type: participated_in, target: event/conquest-of-mecca, note: "carried the banner of Banu Layth, Damra and Sa'd ibn Bakr (al-Isaba p. 1797)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-hunayn, note: "al-Isaba p. 1797", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/expedition-to-tabuk, note: "al-Isaba p. 1797", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-yarmuk, note: "the Yarmuk story is his, per al-Zuhri (al-Isaba p. 1797)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12186021
 provenance:

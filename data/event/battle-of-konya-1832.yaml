@@ -13,6 +13,7 @@ date:
   start: { edtf: "1832-12~", hijri: "1248", calendar: gregorian, precision: month, status: historical, derived: true, note: "أواخر ١٨٣٢م تحت أسوار قونية {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 288}؛ السنة الهجرية تحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2981297

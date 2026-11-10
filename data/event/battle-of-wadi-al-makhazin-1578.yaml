@@ -16,6 +16,12 @@ relations:
   - { type: had_participant, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/muhammad-ii-mutawakkil-saadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/abu-al-mahasin-yusuf-al-fasi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "السعديون بقيادة عبد الملك", en: "The Saadians under Abd al-Malik" }
+    commanders: [person/abd-al-malik-al-sadi, person/ahmad-al-mansur-al-sadi]
+  - label: { ar: "البرتغال بقيادة سبستيان ومحمد المتوكل", en: "The Portuguese under Sebastian and al-Mutawakkil" }
+    commanders: [person/sebastian-i-portugal, person/muhammad-ii-mutawakkil-saadi]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1121532

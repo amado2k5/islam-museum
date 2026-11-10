@@ -1,0 +1,14 @@
+---
+// A Companions Browser group page: the Companions recorded as members of one circle, clan or tribe.
+import CompanionFacetPage from "../../../../components/CompanionFacetPage.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { byId, labelOf } from "../../../../lib/graph";
+import { groupFacets, groupMembers, collatedBy } from "../../../../lib/companions";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => groupFacets.map((id) => ({ params: { lang, slug: byId.get(id)!.slug }, props: { lang, id } })));
+}
+const { lang, id } = Astro.props as { lang: Lang; id: string };
+const n = byId.get(id)!;
+---
+<CompanionFacetPage lang={lang} title={labelOf(n, lang)} note={ui(lang).companions.group_note} path={`/${lang}/companions/group/${n.slug}/`} ids={[...groupMembers(id)].sort(collatedBy(lang))} record={id} />

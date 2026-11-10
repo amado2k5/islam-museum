@@ -86,6 +86,8 @@ _Second edition, 21 October 2026 (repository state: commit 5cef03793 on `main`, 
 
 **Modern Islam Browser Phase 1 (6 November 2026; founder's approval D-000 in `docs/modern-islam/progress.md`; pending merge and founder deployment):** the schema/API class list grows from 23 to 24 with `award` (a prize, medal, certification scheme, ranking or competition prize), and every class gains the optional sourced blocks `honours`, `footprint`, `reach` and `horizon`. No award record and no new content has been added, so entity, relation, prose and media totals are unchanged. The approved build outputs are `/api/v1/award/index.json`, `/api/v1/modern/index.json`, `/api/v1/modern/<section>.json`, `/api/v1/modern/year/<yyyy>.json` and `/api/v1/modern/top/<list>.json`; no Worker, workflow or hosting file changed; do not describe the routes as live until the founder deploys.
 
+**Companions Browser (10 November 2026; founder approval in chat, labelled submission-impacting in plan 29; pending merge and founder deployment):** `/api/v1/companions.json` added — a view over existing `person` records (606 Companions). No class, record, relation, prose or media count changes.
+
 What the dossier deliberately does not claim: an institutional partner, a legal entity, a human-reviewed corpus, a user study, a licence for the AI illustrations that has not been written down, or a track record longer than the project has.
 
 ### A.6 Changes since the first edition, and open items

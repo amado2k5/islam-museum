@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/umayyad]
 regions: [levant-iraq]
-coordinates: [42.7444, 44.6306]
-coordinate_precision: site
-coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 relations:
   - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2] }
   - { type: site_of, target: event/yazid-ibn-asid-armenia, sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2] }
@@ -19,5 +16,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292، 295"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+coordinates: [42.7444, 44.6306]
+coordinate_precision: site
+coordinate_note: "Geocoded in the residual-places pass (Gemini-assisted, founder-authorized)."
 sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

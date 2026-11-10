@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 مير سيد جلال الدين حسين النقوي البخاري، المعروف بمخدوم جهانيان جهانكشت، شيخ سهروردي وُلد في أوج بالبنجاب في 14 شعبان سنة 707 هـ، وتختلف ترجمات مقالاته في اليوم الميلادي المقابل بين 7 و8 و9 فبراير 1308م مع اتفاقها على السنة والسنة الهجرية.{cite:wikipedia-jahaniyan-jahangasht-ur}{cite:wikipedia-jahaniyan-jahangasht-en}{cite:khan-constructing-islam-on-the-indus-2016} أبوه أحمد كبير هو الابن الأصغر لجلال الدين سرخ بوش البخاري وخليفته المختار، فنشأ جهانكشت في بيت رئاسة خط أوج من الطريقة السهروردية.{cite:wikipedia-jahaniyan-jahangasht-en}
 

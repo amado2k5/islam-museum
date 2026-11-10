@@ -11,6 +11,13 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0850", precision: year, status: tradition, derived: true }
   end: { edtf: "0855", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العباسي بقيادة بغا الكبير", en: "The Abbasid army under Bugha al-Kabir" }
+    participants: [person/al-mutawakkil]
+    commanders: [person/bugha-al-kabir]
+  - label: { ar: "الأمراء الأرمن", en: "The Armenian princes" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q20506839

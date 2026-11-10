@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-daraqutni, role: "شيخ القراء والمحدثين", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-kattani-ali-ibn-ibrahim, role: "النظير الذي صار مقرئاً", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research

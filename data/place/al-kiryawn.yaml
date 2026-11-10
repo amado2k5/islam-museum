@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/rashidun]
 regions: [egypt-nile]
-coordinates: [31.1167, 30.15]
-coordinate_precision: locality
-coordinate_note: "Al-Kiryawn / Chaireu, town on the Alexandria canal, Egypt (geocoding pass, Gemini-assisted)"
 relations:
   - { type: site_of, target: event/conquest-of-alexandria, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -19,5 +16,8 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; Khitat sections by Claude Haiku 5.5 (showcase-prose lane)"
   model: claude-haiku-5-5
   run: lib-futuh-buldan-batch-20, showcase-prose-phase2-egypt-batch18
+coordinates: [31.1167, 30.15]
+coordinate_precision: locality
+coordinate_note: "Al-Kiryawn / Chaireu, town on the Alexandria canal, Egypt (geocoding pass, Gemini-assisted)"
 sources: [source/futuh-buldan-maarif-1407, source/khitat-maqrizi-1998]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the place opposite Kasa, the ten-odd days of fighting with Amr's advance guard, and the houses that the Byzantines held after the Muslims left are read from al-Maqrizi's Khitat (local scan, pp. 246, 499, 509). The Futuh passages (pp. 309, 312) keep their citations" }

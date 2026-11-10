@@ -13,6 +13,7 @@ relations:
   - { type: had_participant, target: person/isa-ibn-musa, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-mansur, role: "الخالع", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-mahdi, role: "المعيَّن بدلاً", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 425"

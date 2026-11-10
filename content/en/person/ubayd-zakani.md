@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Khwaja Nizam al-Din Ubayd Allah al-Zakani, known as Ubayd Zakani, came of a learned and official family of Qazvin descended from the Zakani branch of the Banu Khafaja, an Arab tribe settled in the Qazvin region at the start of the Islamic era. No birth year is recorded for him: Iranica places his birth probably before 1319, and the Persian biography puts it in the late 7th or early 8th century AH. His contemporary and fellow Qazvini Hamdallah Mustawfi already describes him in the Tarikh-i guzida of 1329 as a gifted poet and a well-educated writer, and one of his first works, the Nawadir al-amthal, belongs to that same year.{cite:iranica-obayd-zakani}{cite:wikipedia-ubayd-zakani-en}{cite:wikipedia-ubayd-zakani-fa}
 

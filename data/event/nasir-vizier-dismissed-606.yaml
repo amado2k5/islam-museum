@@ -12,6 +12,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-nasir-billah, role: "العازل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/nasir-al-din-vizier, role: "المعزول", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

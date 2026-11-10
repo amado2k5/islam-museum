@@ -6,16 +6,20 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لمعقل بن المنذر، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ma'qil ibn al-Mundhir, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري خزرجي سلمي من بني غنم؛ ذكره ابن إسحاق فيمن شهد بدراً."
+  en: "An Ansari Companion of the Khazraj, of Banu Salima of Banu Ghanm; Ibn Ishaq names him among those who witnessed Badr."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
 died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
- - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
- - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1447", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 1447", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba p. 1447", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1447", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q28129825
 provenance:

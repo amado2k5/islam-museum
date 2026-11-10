@@ -30,7 +30,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي وشاعر النبي." }
 born: { edtf: "563~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
-died: { edtf: "674~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "0674~", hijri: "0054", calendar: julian, precision: year, status: debated, derived: true, note: "Ibn Hisham gives 54 AH; Khalifa gives before 40, others 40 or 50 (al-Isaba p. 312); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/hassan-elegy-for-the-prophet, sources: [source/ibn-hisham-saqqa] }

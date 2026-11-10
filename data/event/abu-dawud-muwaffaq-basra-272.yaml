@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/basra, sources: [source/tarikh-islam-dhahabi], note: "انتقل إلى البصرة فاتخذها وطناً {cite:tarikh-islam-dhahabi p. 361}" }
   - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "المطلوب إليه", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الأمير صاحب الخلال", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

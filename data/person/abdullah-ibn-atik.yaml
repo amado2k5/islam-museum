@@ -24,14 +24,15 @@ story_roles:
   - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري من الأنصار." }
-died: { edtf: "650~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at al-Yamama in Abu Bakr's caliphate, 12 AH (al-Baghawi, al-Isaba p. 912); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/assassination-of-sallam-ibn-abi-al-huqayq, role: "قائد السرية وفاتح الحصن", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+  - { type: participated_in, target: event/battle-of-yamama, note: "al-Isaba p. 912", sources: [source/ibn-hajar-isaba] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 319–321" }
 provenance:
   layer: own-research

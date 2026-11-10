@@ -12,6 +12,7 @@ map: { kind: locator, precision: locality, center: [33.5138, 36.2765] }
 date: { start: { edtf: "1284-10~", hijri: "0683-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان سنة ثلاث وثمانين وستمائة {cite:shadharat-dhahab p. 652}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 683)، قراءة آبل فيجن"

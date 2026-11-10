@@ -17,6 +17,7 @@ date:
 relations:
   - { type: had_participant, target: person/al-safadi, role: "الناسخ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-nubata-al-misri, role: "مؤلف الأصل المنسوخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

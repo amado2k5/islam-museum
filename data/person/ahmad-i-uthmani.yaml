@@ -5,7 +5,7 @@ label:
   en: "Ahmed I"
 names:
   - { kind: full, lang: ar, value: "أحمد بن محمد الثالث" }
-roles: [sultan]
+roles: [sultan, caliph]
 gender: male
 born: { edtf: "1590", hijri: "0998", calendar: julian, precision: year, status: tradition, derived: false, note: "Born 22 Jumada I 998/18 April 1590 at Manisa, EI2.", sources: [source/encyclopaedia-of-islam-2] }
 died: { edtf: "1617", hijri: "1026", calendar: julian, precision: year, status: tradition, derived: false, note: "Died 23 Dhu'l-Qa'da 1026/22 November 1617, EI2.", sources: [source/encyclopaedia-of-islam-2] }
@@ -28,4 +28,8 @@ status:
   review: draft
   completeness: 1
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1603", calendar: julian, precision: year }, end: { edtf: "1617", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/britannica-al-khwarizmi] }
   - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-khwarizmi] }
+  - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-al-khwarizmi]
 provenance:
   layer: own-research

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Osman Nuri Hadžić (28 June 1869 – 23 December 1937) was a Bosnian writer and intellectual from Mostar, educated in his home town's mekteb, ruždija and madrasa, then at the Sarajevo School of Sharia Judges, with law studies in Vienna and a degree from Zagreb.{cite:wikipedia-osman-nuri-hadzic-bs}{cite:wikipedia-osman-nuri-hadzic-en} His earliest stories, written with his friend Ivan Miličević under the joint pen name Aziz Osman, appeared in literary journals while he was still young; with Miličević he also wrote the novel Bez svrhe (Without Purpose, 1897), a critique of madrasa education.{cite:wikipedia-osman-nuri-hadzic-bs}{cite:wikipedia-osman-nuri-hadzic-en} He served at the Sarajevo district court and in the Provincial Government, and became professor and then director of the School of Sharia Judges.{cite:wikipedia-osman-nuri-hadzic-en}
 

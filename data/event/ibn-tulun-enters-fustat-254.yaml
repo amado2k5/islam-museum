@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/al-fustat, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-ibn-tulun, role: "النائب الداخل", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/bayakbak, role: "صاحب الإقطاع المُنَوَّب عنه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

@@ -20,11 +20,20 @@ relations:
   - { type: had_participant, target: person/hurqus-ibn-al-numan, role: "قُتل بسوى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/busr-ibn-abi-artat, role: "وُجّه إلى غوطة دمشق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/habib-ibn-maslama, role: "وُجّه إلى غوطة دمشق", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/umm-habib-al-sahba, role: "من سبي بني تغلب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/umm-habib-al-sahba, role: "من سبي بني تغلب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 152–155"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
+sides:
+  - label: { ar: "مسيرة خالد بن الوليد", en: "Khalid ibn al-Walid's march" }
+    participants: [person/rafi-ibn-umayra, person/al-muthanna-ibn-haritha, person/hurqus-ibn-al-numan]
+    commanders: [person/khalid-ibn-al-walid]
+    strength: { value: 800, status: tradition, note: "نحو ثمانمائة فارس في المشهور" }
+  - label: { ar: "الحوامى الرومية", en: "The Byzantine posts" }
+    participants: [person/heraclius]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

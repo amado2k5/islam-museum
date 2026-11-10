@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "حامل البشرى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/rayshahr }
 wings: [time]
+sides:
+  - label: { ar: "جيش الحكم بن أبي العاص الثقفي", en: "al-Hakam ibn Abi al-As al-Thaqafi's army" }
+    commanders: [person/al-hakam-ibn-abi-al-as]
+  - label: { ar: "ريشهر", en: "Rayshahr" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

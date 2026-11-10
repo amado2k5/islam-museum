@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mian Abdul Rashid (29 June 1889 – 6 November 1981) was the first Chief Justice of Pakistan. He was born in Lahore to the Arain Mian family of Baghbanpura, educated at Central Model School and Forman Christian College in Lahore, and took his Tripos and master's degree at Christ's College, Cambridge, in 1912; he was called to the Bar at the Middle Temple in 1913.{cite:wikipedia-mian-abdul-rashid-en}
 

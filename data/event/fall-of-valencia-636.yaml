@@ -13,6 +13,10 @@ date:
 relations:
   - { type: occurred_at, target: place/valencia, sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/ibn-al-abbar, role: "كاتب المستغيثة السينية ثم المفارق بعد السقوط", sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "أراغون بقيادة خايمي الأول", en: "Aragon under James I" }
+  - label: { ar: "حامية بلنسية", en: "The garrison of Valencia" }
 sources: [source/nafh-tib-maqqari, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

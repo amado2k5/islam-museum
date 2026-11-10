@@ -1,0 +1,22 @@
+id: passage/bukhari-7439
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7439"
+label:
+  ar: "البخاري 7439 — حديث أبي سعيد في الرؤية والشفاعة: شفعت الملائكة"
+  en: "Bukhari 7439 — Abu Sa'id's report of the vision and the intercession"
+  ur: "بخاری 7439 — دیدار اور شفاعت کے بارے میں ابو سعید کی روایت"
+text: "هل تضارون في رؤية الشمس والقمر إذا كانت صحوا . قلنا لا. قال فإنكم لا تضارون في رؤية ربكم يومئذ، إلا كما تضارون في رؤيتهما ثم قال ينادي مناد ليذهب كل قوم إلى ما كانوا يعبدون. فيذهب أصحاب الصليب مع …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 7439: حديث أبي سعيد في الرؤية والشفاعة: شفعت الملائكة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 7439: Abu Sa'id's report of the vision and the intercession. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 7439: دیدار اور شفاعت کے بارے میں ابو سعید کی روایت۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-al-shafaa-abi-said]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7439; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wadima, lexically, is the food of a funeral gathering, the food made at a calamity, gathered pasture, and a visit in which a few people come down on a people and are treated well and honoured. For the jurists it is the food made at a calamity. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17478}
 

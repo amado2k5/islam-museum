@@ -4,7 +4,7 @@ label: { ar: "مصطفى الثاني" }
 names:
   - { kind: full, lang: ar, value: "مصطفى الثاني بن محمد الرابع" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 born: { edtf: "1664~", hijri: "1074", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 died: { edtf: "1703", hijri: "1115", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "عزله الإنكشارية وتوفي بعد أربعة أشهر في التاسعة والثلاثين." }
 summary:
@@ -14,6 +14,8 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
   - { type: child_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
@@ -22,8 +24,10 @@ external_ids:
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 310"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
 status: { review: published, completeness: 3 }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1695", calendar: julian, precision: year }, end: { edtf: "1703", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

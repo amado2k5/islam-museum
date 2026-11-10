@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 The child of fornication (walad al-zina) is the child a mother bears out of unlawful intercourse, not out of marriage. Lexically walad means any child, male or female, young or grown; the Hanafis define zina as a man's intercourse with a woman in the front passage outside ownership or its semblance. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17929}
 

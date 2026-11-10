@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "المبايَع", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "بايع في أول الأمر على الرواية الصحيحة التي يعتمدها الكتاب", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/medina }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل تأخر علي عن بيعة أبي بكر، وهل كان في ذلك اعتراض على خلافته؟", en: "Did Ali delay his pledge to Abu Bakr, and did the delay signal an objection to his caliphate?" }
 perspectives:
   - tradition: sunni

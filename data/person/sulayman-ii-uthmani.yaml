@@ -4,7 +4,7 @@ label: { ar: "سليمان الثاني" }
 names:
   - { kind: full, lang: ar, value: "سليمان الثاني بن إبراهيم الأول" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 born: { edtf: "1642~", hijri: "1052", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 summary:
   ar: "السلطان سليمان الثاني؛ ولد عام ١٠٥٢هـ وتولى الحكم بعد أخيه محمد الرابع عام ١٠٩٩هـ. استمر التدهور في عهده فاغتصبت النمسا مواقع كثيرة ومنها بلغراد عام ١٠٩٩هـ، واحتلت البندقية سواحل دالماسيا وبعض أماكن اليونان، وقيّض الله للدولة الصدر الأعظم مصطفى بن محمد كوبريللي الذي سار على نهج أبيه، وسمح للنصارى في استانبول ببناء ما تهدم من كنائسهم وأحسن إليهم وعاقب بأشد العقاب كل من عرض لهم في إقامة شعائر دينهم، حتى ثار أهالي المورة على البنادقة الكاثوليك وطردوا جيشها ودخلوا في حماية الدولة العثمانية مختارين طائعين لعدم تعرضها لديانتهم {cite:dawlat-uthmaniyya-salabi p. 308-309}."
@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: successor_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: born_in, target: place/constantinople, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q16869)" }
   - { type: died_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q43387)" }
@@ -21,8 +22,10 @@ external_ids:
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 308-309"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 308-309"
   generated_by: "Devin (SWE-2 Flash High)"
   model: "SWE-2 Flash High"
   run: prose-fill-persons-batch47
 status: { review: published, completeness: 3 }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1687", calendar: julian, precision: year }, end: { edtf: "1691", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

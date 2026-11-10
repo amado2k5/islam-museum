@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہم ہر ایک اُمت میں سے گواہ نکال لیں گے پھر کہیں گے کہ اپنی دلیل پیش کرو تو وہ جان لیں گے کہ سچ بات خدا کی ہے اور جو کچھ وہ افتراء کیا کرتے تھے ان سے جاتا رہے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

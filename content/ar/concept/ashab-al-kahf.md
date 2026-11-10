@@ -22,3 +22,6 @@ translators: []
 
 ## من برنامج «بستان الأمل» لعمر عبد الكافي
 يرى الشيخ أن الإنسان لا يختار قدره وإنما يصبر عليه، وأننا وُجدنا لنعيش الحياة لا لنفهمها، ويقف عند وصف الفتية بأن الله ربط على قلوبهم، فيرى أن المؤمن الحقيقي هو المربوط على قلبه، وأن ذلك يكون حين يسلّم الأمر لله كما يسلّم اللص نفسه رافعًا يديه، وأن الكهف كان ضيقًا مظلمًا بلا إمكانات ومع ذلك نشر الله لهم فيه رحمته، فالسعادة في ضيق الصدور وسعتها لا في ضيق المكان وسعته، وينشد معنى بيت لإيليا أبي ماضي في أن الغبطة قد تخلو منها القصور وتسكن الكوخ. {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:00:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep27 00:10:00}
+
+## في سياق الغيب
+ناموا ثلاثمائة سنين وازدادوا تسعا — آية الغيب في الزمان والإحياء بلا فساد.

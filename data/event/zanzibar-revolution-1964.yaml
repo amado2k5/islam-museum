@@ -26,6 +26,7 @@ date:
 relations:
   - { type: occurred_at, target: place/zanzibar, sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
   - { type: had_participant, target: person/abeid-karume, role: "كان في البر ليلة الثورة ثم دُعي لرئاسة الجمهورية", sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar] }
+  - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
 sources: [source/wikipedia-abeid-karume-en, source/wikipedia-abeid-karume-ar]
 provenance:
   layer: own-research

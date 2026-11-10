@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0820-12", precision: year, status: tradition, derived: true }
   end: { edtf: "0823-10", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q16087472

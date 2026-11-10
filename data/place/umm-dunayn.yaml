@@ -13,15 +13,16 @@ wings:
 - place
 periods:
 - period/rashidun
-regions: [egypt-nile]
-coordinates: [30.062, 31.246]
-coordinate_precision: site
-coordinate_note: "Umm Dunayn / al-Maks, northern suburb of Babylon-in-Egypt, Cairo (geocoding pass, Gemini-assisted)"
+regions:
+- egypt-nile
 relations:
 - type: site_of
   target: event/conquest-of-egypt
   sources:
   - source/futuh-misr-amir-1999
+coordinates: [30.062, 31.246]
+coordinate_precision: site
+coordinate_note: "Umm Dunayn / al-Maks, northern suburb of Babylon-in-Egypt, Cairo (geocoding pass, Gemini-assisted)"
 sources: &id001
 - source/futuh-misr-amir-1999
 provenance:

@@ -11,8 +11,8 @@ regions: [arabia]
 date:
   start: { edtf: "0570~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أخبار يثرب قبل الهجرة بجيل أو أكثر." }
 relations:
-  - { type: had_participant, target: person/malik-ibn-al-ajlan, role: "قاتل الفطيون", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/abu-jubayla-ubayd-ibn-salim, role: "منتقم يثرب", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/malik-ibn-al-ajlan, role: "قاتل الفطيون", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/abu-jubayla-ubayd-ibn-salim, role: "منتقم يثرب", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:

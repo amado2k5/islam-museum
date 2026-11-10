@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0805~", precision: year, status: tradition, derived: true }
   end: { edtf: "0805~", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q13842749

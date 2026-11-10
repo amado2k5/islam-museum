@@ -6,17 +6,20 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن مخرمة العامري، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Makhrama al-'Amiri, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "صحابي قرشي عامري؛ من مهاجرة الحبشة الثانية مع جعفر بن أبي طالب، ثم هاجر إلى المدينة وشهد بدراً، واستشهد يوم اليمامة وله نحو ثلاثين سنة."
+  en: "A Qurashi Companion of Banu Amir; he emigrated to Abyssinia in the second migration with Ja'far ibn Abi Talib, then to Medina, witnessed Badr, and was martyred at al-Yamama aged about thirty."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-born: { edtf: "592", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
-died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0634", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama aged about thirty (al-Isaba p. 941); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
- - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
- - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/quraysh, note: "al-Isaba p. 941", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "al-Isaba p. 941", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 941", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-yamama, note: "al-Isaba p. 941", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12223592
 provenance:

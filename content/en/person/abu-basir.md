@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 Abu Basir Utba ibn Asid ibn Jariya al-Thaqafi, an ally of Banu Zuhra at Mecca; he became Muslim after al-Hudaybiyya and fled to Medina, whereupon Quraysh sent two men after him on the strength of the treaty clause. {cite:mubarakpuri-raheeq}
 
 The Prophet handed him to them in keeping with the pact; when they reached Dhu al-Hulayfa Abu Basir outwitted one of them and cut off his head with his own sword while the other fled. Abu Basir went back to the Prophet at Medina, who said: "woe to his mother — a kindler of war if he had anyone!" — and Abu Basir understood he would return him if Quraysh asked; so he went out and settled at al-Is on the sea-road of Mecca's caravans. {cite:sahih-al-bukhari}

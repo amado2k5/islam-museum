@@ -12,6 +12,11 @@ relations:
   - { type: had_participant, target: person/hakim-ibn-jabala, role: "الفاتح في رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/makran }
 wings: [time]
+sides:
+  - label: { ar: "جيش سنان بن سلمة بن المحبق الهذلي", en: "Sinan ibn Salama ibn al-Muhabbiq al-Hudhali's army" }
+    commanders: [person/sinan-ibn-salama, person/hakim-ibn-jabala]
+  - label: { ar: "راشد بن عمرو الجديدي", en: "Rashid ibn Amr al-Judaydi" }
+    participants: [person/rashid-ibn-amr]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muna el-Kurd (born 15 May 1998) is a Palestinian journalist and activist from the Sheikh Jarrah neighbourhood of East Jerusalem, where she was born with her twin brother Mohammed.{cite:wikipedia-muna-el-kurd-en}{cite:wikipedia-muna-el-kurd-ar} She studied media at Birzeit University, and in 2021 her reporting and social-media documentation of the threatened eviction of her family and eleven others made her a leading voice of the 'Save Sheikh Jarrah' campaign; she and Mohammed were detained by Israeli police on 6 June 2021 and released the same day, and were named together to the Time 100.{cite:wikipedia-muna-el-kurd-en}
 

@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1672", precision: year, status: tradition, derived: true }
   end: { edtf: "1676", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q74298

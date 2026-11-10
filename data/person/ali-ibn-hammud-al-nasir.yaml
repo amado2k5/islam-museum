@@ -11,6 +11,7 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 died: { edtf: "1018", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Maqqari (Nafh al-Tib)" }
 relations:
+  - { type: ruled_over, target: polity/hammudid-caliphate, sources: [source/bayan-mughrib-idhari] }
   - { type: ruler_of, target: place/cordoba, note: "From text: caliph of Cordoba", sources: [source/nafh-tib-maqqari] }
   - { type: member_of, target: group/banu-hammud, sources: [source/nafh-tib-maqqari] }
 provenance:
@@ -21,3 +22,5 @@ provenance:
 external_ids: { wikidata: "Q1273086" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: rival-claimant, toward: polity/hammudid-caliphate, start: { edtf: "1016", calendar: julian, precision: year }, end: { edtf: "1018", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

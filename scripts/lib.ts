@@ -135,8 +135,20 @@ export interface Range { earliest: number; latest: number }
  * open side takes the known side's value: the range is then the one point we know, and nothing is invented. An interval open
  * on both sides ("../..") carries no date and throws.
  */
+/**
+ * The EDTF library reads a bare 1–3 digit year as decade shorthand ("617" parses as the 6170s, year ×10);
+ * data records use it for years 1–999 CE, so each side of an interval gets its leading year zero-padded to 4 digits
+ * before parsing ("617" → "0617", "585~" → "0585~", "0945/0946" → unchanged).
+ */
+function padEdtfYear(s: string): string {
+  return s.split("/").map((side) => {
+    const m = side.match(/^(-?)(\d{1,3})([-~?%].*|)$/);
+    return m ? m[1] + m[2].padStart(4, "0") + m[3] : side;
+  }).join("/");
+}
+
 export function edtfRange(s: string): Range {
-  const d: any = edtf(s);
+  const d: any = edtf(padEdtfYear(s));
   const lo = Number.isFinite(d.min) ? d.min : d.max;
   const hi = Number.isFinite(d.max) ? d.max : d.min;
   if (!Number.isFinite(lo) || !Number.isFinite(hi)) throw new Error(`EDTF "${s}" is open on both sides: it has no date`);

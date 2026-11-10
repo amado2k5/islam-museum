@@ -1,0 +1,22 @@
+id: passage/tirmidhi-3233
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3233"
+label:
+  ar: "الترمذي 3233 — يا محمد هل تدري فيم يختصم الملأ الأعلى"
+  en: "Tirmidhi 3233 — O Muhammad, do you know what the Highest Assembly disputes about"
+  ur: "ترمذی 3233 — یا محمدکا کیا تم جانتے ہو کہ ملائے اعلیٰ کن امور میں جھگڑتا ہے"
+text: "أتاني الليلة ربي تبارك وتعالى في أحسن صورة قال أحسبه قال في المنام فقال يا محمد هل تدري فيم يختصم الملأ الأعلى قال قلت لا قال فوضع يده بين كتفي …"
+summary:
+  ar: "حديث قدسي في الترمذي، رقم 3233: يا محمد هل تدري فيم يختصم الملأ الأعلى. يرويه النبي عن ربه، ومتصفح الأحاديث القدسية يجمع رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Tirmidhi, no. 3233: O Muhammad, do you know what the Highest Assembly disputes about. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "ترمذی میں حدیثِ قدسی، نمبر 3233: یا محمدکا کیا تم جانتے ہو کہ ملائے اعلیٰ کن امور میں جھگڑتا ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [spirituality-and-sufism]
+tags: [hadith-qudsi, qudsi-ikhtisam-al-malaa]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3233; matn excerpt of at most 40 words, verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 158", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0, source/ahadith-qudsiyya-majlis]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

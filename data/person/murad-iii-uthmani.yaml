@@ -4,7 +4,7 @@ label: { ar: "مراد الثالث" }
 names:
   - { kind: full, lang: ar, value: "مراد الثالث بن سليم الثاني" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 died: { edtf: "1595-01-16", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "توفي ١٦ كانون الثاني ١٥٩٥م عن نحو ٤٩ عاماً ودُفن في فناء آيا صوفيا." }
 summary:
   ar: "السلطان مراد الثالث ⁦(٩٨٢–١٠٠٣هـ/١٥٧٤–١٥٩٥م)⁩؛ اهتم بفنون العلم والأدب والشعر وأتقن التركية والعربية والفارسية ومال إلى التصوف. من أول أعماله أمرٌ بمنع شرب الخمور فثار الإنكشاريون واضطروه لرفع الأمر — علامة مبكرة على ضعف الدولة. في عهده صارت بولونيا تحت الحماية العثمانية سنة ٩٨٣هـ، وقُطعت مفازات القوقاز وفُتحت تفليس والكرج سنة ٩٨٥هـ ودخل العثمانيون تبريز سنة ٩٩٣هـ، وصالح الشاه عباس على التنازل عن تلك البلاد وعلى ألا يُسبَّ الخلفاء الراشدون في مملكته. واقترح مراد على السعديين في رجب ٩٨٨هـ/سبتمبر ١٥٨٠م — في رسالتين — عقد تحالف عسكري ضد الإسبان بثلاثمائة غراب سلطاني وجيش عثماني تُستفتح به بلاد الأندلس، ثم لما استعد المنصور للمواجهة وقارب اتفاقاً مع إسبانيا قبل مراد الأمر الواقع وأمر قلج علي بالتخلي عن المغرب {cite:dawlat-uthmaniyya-salabi p. 270-271}. وفي عهده قُتل الصدر الأعظم صوقللي محمد باشا بدسائس الحاشية ففتح موته باباً للشر في تنصيب الصدور وعزلهم. وتوفي في ١٦ كانون الثاني ١٥٩٥م عن نحو تسعة وأربعين عاماً ودُفن في فناء آيا صوفيا {cite:dawlat-uthmaniyya-salabi p. 292-294}."
@@ -13,6 +13,7 @@ wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: child_of, target: person/selim-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/selim-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: born_in, target: place/manisa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q147089)" }
@@ -23,7 +24,9 @@ external_ids:
 sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 292-294"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 292-294"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-4
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1574", calendar: julian, precision: year }, end: { edtf: "1595", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

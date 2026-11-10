@@ -7,8 +7,8 @@ roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية لسهيل بن بيضاء، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Suhayl ibn Bayda, a figure of the early community; the biographical entry is not yet checked on the page.
+  ar: "صحابي قرشي من بني عبد الدار؛ شهد بدراً وأُسر فيها فخلّصه ذكره الإسلام بشهادة ابن مسعود، وتوفي في حياة النبي سنة تسع."
+  en: "A Qurashi Companion of Banu Abd al-Dar; captured at Badr, he was released on Ibn Mas'ud's testimony that he had spoken of Islam. He died in the Prophet's lifetime in 9 AH."
 wings:
 - people
 regions:
@@ -18,7 +18,7 @@ periods:
 sources:
 - source/al-aalam
 - source/ibn-hajar-isaba
-died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+died: { edtf: "0630", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Sa'd dates his death to 9 AH, within the Prophet's lifetime (al-Isaba p. 629); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: member_of
   target: group/sahaba
@@ -29,6 +29,16 @@ relations:
   target: place/medina
   sources:
   - source/al-aalam
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 629"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "al-Isaba p. 629"
+  sources:
   - source/ibn-hajar-isaba
 external_ids:
   wikidata: Q12217158

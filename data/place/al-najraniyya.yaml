@@ -7,9 +7,6 @@ summary:
   en: "A village in the Kufa district settled by the Christians of Najran and their Jewish dependents when Umar ibn al-Khattab exiled them from Yemen in his caliphate, and named after them; the head of al-Najraniyya used to send agents to their scattered communities in Syria and the districts collecting a fund divided among them to sustain the stipulated hullas, and they complained of dispersion, deaths and conversions until Umar ibn Abd al-Aziz found them at a tithe of their original number."
 wings: [place]
 regions: [levant-iraq]
-coordinates: [32.0, 44.38]
-coordinate_precision: approx
-coordinate_note: "Al-Najraniyya, settlement of Najran exiles near Kufa, Iraq (geocoding pass, Gemini-assisted)"
 relations:
   - { type: part_of, target: place/kufa, sources: [source/futuh-buldan-maarif-1407], note: "بناحية الكوفة" }
 provenance:
@@ -17,5 +14,8 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 89–90"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-3
+coordinates: [32.0, 44.38]
+coordinate_precision: approx
+coordinate_note: "Al-Najraniyya, settlement of Najran exiles near Kufa, Iraq (geocoding pass, Gemini-assisted)"
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

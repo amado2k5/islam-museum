@@ -15,5 +15,11 @@ relations:
   - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/uyayna-ibn-hisn, role: "عقد النبي معه موادعة في تلك الغزوة", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "المسلمون بقيادة النبي", en: "The Muslims under the Prophet" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+    strength: { value: 1000, status: tradition, note: "في نحو ألف في قول", sources: [source/mubarakpuri-raheeq] }
+  - label: { ar: "قضاعة وأعراب دومة", en: "Quda'a and the Arabs of Duma" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 300" }

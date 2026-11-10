@@ -1,0 +1,21 @@
+id: passage/bukhari-7483
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7483"
+label:
+  ar: "البخاري 7483 — يا آدم أخرج بعث النار"
+  en: "Bukhari 7483 — Adam, bring out the party of the Fire"
+  ur: "بخاری 7483 — اے آدم، آگ والوں کا حصہ نکالو"
+text: "يقول الله يا آدم. فيقول لبيك وسعديك. فينادى بصوت إن الله يأمرك أن تخرج من ذريتك بعثا إلى النار ."
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 7483: يا آدم أخرج بعث النار. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 7483: Adam, bring out the party of the Fire. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 7483: اے آدم، آگ والوں کا حصہ نکالو۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-bath-al-nar]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7483; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

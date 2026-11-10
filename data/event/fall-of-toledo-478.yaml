@@ -12,7 +12,7 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1085", hijri: "0478", calendar: julian, precision: month, status: tradition, derived: true, note: "478: مستهل صفر عند ابن خلكان، 10 محرم عند ابن علقمة؛ التحويل مشتق {cite:nafh-tib-maqqari p. 353-354}." }
 relations:
-  - { type: had_participant, target: person/al-mamun-ibn-dhi-al-nun, role: "آخر ملوكها؛ خرج منها على حكم العدو", sources: [source/nafh-tib-maqqari] }
+  - { type: related_to, target: person/al-mamun-ibn-dhi-al-nun, role: "آخر ملوكها؛ خرج منها على حكم العدو", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/tulaytula, sources: [source/nafh-tib-maqqari] }
 provenance:
   layer: own-research

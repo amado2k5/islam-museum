@@ -12,6 +12,11 @@ relations:
   - { type: had_participant, target: person/musa-ibn-kab-al-tamimi, role: "الوالي الفائز", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/al-mansura }
 wings: [time]
+sides:
+  - label: { ar: "جيش موسى بن كعب التميمي", en: "Musa ibn Ka'b al-Tamimi's army" }
+    commanders: [person/musa-ibn-kab-al-tamimi]
+  - label: { ar: "منصور بن جمهور الكلبي", en: "Mansur ibn Jawhur al-Kalbi" }
+    participants: [person/mansur-ibn-jawhur, person/mughallis-al-abdi]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

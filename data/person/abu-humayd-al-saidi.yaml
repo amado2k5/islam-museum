@@ -6,17 +6,20 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي حميد الساعدي الأنصاري، صحابي راوية وصف الوضوء في القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Humayd al-Sa'idi al-Ansari, the seventh-century Companion who described the ablution; the biographical entry is not yet checked on the page."
+  ar: "صحابي ساعدي مشهور بكنيته، وأصح ما قيل في اسمه عبد الرحمن بن سعد؛ روى عن النبي عدة أحاديث منها ما في الصحيحين، وشهد أحداً وما بعدها."
+  en: "A Sa'idi Companion best known by his kunya — his name is most reliably given as Abd al-Rahman ibn Sa'd; he narrated several hadith from the Prophet, some in the two Sahihs, and witnessed Uhud and the battles after."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar, al-Isaba; al-Dhahabi, Siyar" }
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0680~", hijri: "0060~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at the end of Mu'awiya's or the start of Yazid's caliphate (al-Waqidi, al-Isaba p. 1653); CE year approximated to 60 AH", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
  - { type: member_of, target: group/ansar, sources: [source/al-aalam]}
+ - { type: member_of, target: group/banu-saida, note: "al-Isaba p. 1653", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 1653", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-uhud, note: "witnessed Uhud and what followed it (al-Isaba p. 1653)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12177958
 provenance:

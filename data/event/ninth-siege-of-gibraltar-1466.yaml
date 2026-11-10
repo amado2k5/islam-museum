@@ -11,6 +11,11 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1466-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1467-07-26", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قشتالة", en: "Castile" }
+  - label: { ar: "مملكة غرناطة", en: "The Nasrid kingdom of Granada" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7039234

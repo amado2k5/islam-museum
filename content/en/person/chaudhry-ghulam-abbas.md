@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Chaudhry Ghulam Abbas (4 February 1904 – 18 December 1967), known by the title Raees-ul-Ahrar, was a Kashmiri politician and lawyer, a leading figure of the All Jammu and Kashmir Muslim Conference and of the movement for Kashmir's accession to Pakistan.{cite:wikipedia-chaudhry-ghulam-abbas-en} Born in Jammu and educated at Prince of Wales College in Jammu and the Law College in Lahore, he organised the Young Men's Muslim Association in Jammu and in 1932 co-founded the Muslim Conference alongside Sheikh Abdullah and Mirwaiz Yusuf Shah.{cite:wikipedia-chaudhry-ghulam-abbas-en}{cite:wikipedia-chaudhry-ghulam-abbas-ur}
 

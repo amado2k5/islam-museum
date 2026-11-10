@@ -14,6 +14,7 @@ date:
   end: { edtf: "1179~", precision: year, status: historical, note: "composed in 1179-1180 per Britannica" }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/britannica-averroes] }
+  - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/britannica-averroes]
 provenance:
   layer: own-research

@@ -8,9 +8,6 @@ summary:
 wings: [place]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
-coordinates: [37.0025, -3.9881]
-coordinate_precision: locality
-coordinate_note: "Alhama de Granada, thermal fortress town, Spain (geocoding pass, Gemini-assisted)"
 relations:
   - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
 provenance:
@@ -18,5 +15,8 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 516–517"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
+coordinates: [37.0025, -3.9881]
+coordinate_precision: locality
+coordinate_note: "Alhama de Granada, thermal fortress town, Spain (geocoding pass, Gemini-assisted)"
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

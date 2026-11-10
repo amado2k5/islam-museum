@@ -46,3 +46,6 @@ In episode 10 of [[work/likaa-al-iman|Liqa' al-Iman]] the presenter asks about t
 
 ## In Mustafa Hosny's programme 'Ahl al-Janna'
 [[person/mustafa-hosny|Mustafa Hosny]] gives the fourteenth episode of his programme [[work/ahl-al-jannah|'Ahl al-Janna']] to the sound of heart and the envious: he defines the envious as one pained by others' happiness who wishes their blessings would pass from them to him. {cite:assabile-mustafa-hosny ahl-al-jannah/ep14 00:06:30} He distinguishes it from ghibta, wishing for another's blessing without its loss to him. {cite:assabile-mustafa-hosny ahl-al-jannah/ep14 00:12:30} He cites a hadith he attributes to Abu Dawud that envy consumes good deeds as fire consumes firewood (needs_source: he gives no grading). {cite:assabile-mustafa-hosny ahl-al-jannah/ep14 00:20:00} He makes [[person/sawda-bint-zama|Sawda bint Zam'a]] an example of a sound heart. {cite:assabile-mustafa-hosny ahl-al-jannah/ep14 00:05:30}
+
+## In the context of the unseen
+Envy's fire devours good deeds and its flame comes from the devils of jinn and men — countered by the mu'awwidhatayn and remembrance.

@@ -11,6 +11,9 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1247", precision: year, status: tradition, derived: true }
   end: { edtf: "1248", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q7510393

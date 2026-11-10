@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Noura Saleh Erakat (born 1980) is a Palestinian-American legal scholar and human rights attorney, born in Alameda County, California.{cite:wikipedia-noura-erakat-en}{cite:wikidata-noura-erakat} She studied law at the University of California, Berkeley (BA and JD) and took further law degrees at Georgetown and Temple, and she is a professor at Rutgers University, where her teaching and research span international law, humanitarian law and national security law.{cite:wikipedia-noura-erakat-en}
 

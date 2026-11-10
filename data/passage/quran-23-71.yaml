@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور خدائے (برحق) ان کی خواہشوں پر چلے تو آسمان اور زمین اور جو ان میں ہیں سب درہم برہم ہوجائیں۔ بلکہ ہم نے ان کے پاس ان کی نصیحت (کی کتاب) پہنچا دی ہے اور وہ اپنی (کتاب) نصیحت سے منہ پھیر رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

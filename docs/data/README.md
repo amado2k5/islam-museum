@@ -31,6 +31,7 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/graph/edges.ndjson` | Every forward edge, one JSON object per line (`from`, `to`, `type`, time span, sources) |
    | `https://api.islam.museum/api/v1/graph/<class>/<slug>.json` | Two-hop neighbourhood of a record (at most 40 nodes) for network views |
    | `https://api.islam.museum/api/v1/themes/index.json` | The 130-odd themes with the ids of their entries |
+   | `https://api.islam.museum/api/v1/companions.json` | Companions Browser: every Companion record with gender, roles, birth and death, the Ten flag, circle and clan `groups`, `events`, `death_ah` / `death_decade` (with `death_ah_derived` when converted from the Gregorian date), connections and prose languages |
    | `https://api.islam.museum/api/v1/inventions.json` | Inventions with domain and era filters, makers, attribution, origins, chains and media |
    | `https://api.islam.museum/api/v1/inventions/chains.json` | Invention dependency graph, including internal and external precursor/dependent links |
    | `https://api.islam.museum/api/v1/invention/index.json` | Compact index of invention records (empty until invention records are added) |
@@ -40,11 +41,17 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/modern/year/<yyyy>.json` | Every record with a dated fact in one Gregorian year from 1976 on |
    | `https://api.islam.museum/api/v1/modern/top/<list>.json` | A reach index (`songs`, `albums`, `websites`, `channels`, `books`): scores computed from cited inputs with the printed formula and weights; not a ranking by taste |
    | `https://api.islam.museum/api/v1/jobs.json` | Job Browser: every job with domain, kind, craft flag, era, its edges and its holders (persons whose `occupations:` name it) |
+   | `https://api.islam.museum/api/v1/qudsi.json` | Hadith Qudsi Browser: every hadith qudsi narration of the six books and the Muwatta (passages tagged `hadith-qudsi`) with work, ref, matn excerpt of at most 40 words, its `qudsi-<slug>` hadith tag, themes and edges |
    | `https://api.islam.museum/api/v1/fatwa.json` | Fatwa Explorer: every fatwa and fatwa collection with publisher, URL, languages, dates and its edges (mufti, basis, chain) |
    | `https://api.islam.museum/api/v1/tafsir.json` | Tafsir Browser: the commentary (Jami' al-Bayan) and each of its volumes as `tafsir-volume` works, with `part_of` and `about` edges to the verses each volume covers |
    | `https://api.islam.museum/api/v1/khutab.json` | Khutab and Durus Explorer: every sermon, lesson and lecture series with speaker, occasion, host, audience, series order and edges |
    | `https://api.islam.museum/api/v1/poetry.json` | Poetry: every poem and diwan with its poets, language, genre, metre and edges |
    | `https://api.islam.museum/api/v1/screens.json` | Screening Room: every film, series and programme with format, relevance, titles, release, countries, languages, approach, depiction, database ids and edges |
+   | `https://api.islam.museum/api/v1/ghayb.json` | Ghayb Browser (متصفح ما وراء الطبيعة): every unseen-topic record tagged `ghayb-browser` — jinn, angels, the soul, divine time measures, the Ascent, the greatest creations, the barzakh, the signs of the Hour — with kind, wings, themes, section tags and edges |
+   | `https://api.islam.museum/api/v1/asma.json` | Asma ul Husna Browser: the 99 divine-name concepts in enumeration order with transliteration, root, enumeration, trilingual labels and edges |
+   | `https://api.islam.museum/api/v1/battles.json` | Battles, Wars and Conquests Browser: every military-kind event with date, periods, sides, outcome, casualties, map, edges and the derived `ghazwa` flag |
+   | `https://api.islam.museum/api/v1/khulafa.json` | Khulafa Browser: every caliph person record with roles and story_roles reigns |
+   | `https://api.islam.museum/api/v1/khulafa/chains.json` | Khulafa Browser: the ordered succession chain of each caliphate, computed from story_roles reigns |
    | `https://api.islam.museum/api/v1/time-browser/index.json` | Time Browser: the subject index (id, kind, titles, node count, journey flag, span) |
    | `https://islam.museum/llms.txt` | Plain-text index of every entry with its URL, for language models and crawlers |
    | `https://islam.museum/sitemap-index.xml` | Sitemap of every page in every language |

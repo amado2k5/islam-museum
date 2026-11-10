@@ -20,6 +20,8 @@ relations:
   - { type: had_participant, target: person/al-daraqutni, role: "الرحال المسافر", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/jafar-ibn-al-furat-hinzaba, role: "الوزير المضيف المملي", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-al-tahir-al-dhuhli, role: "الشيخ المسمع بالشام", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muizz-li-din-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research

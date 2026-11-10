@@ -15,10 +15,17 @@ relations:
   - { type: had_participant, target: person/george-of-antioch, role: "قائد الأسطول", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: had_participant, target: person/al-hasan-ibn-ali-zirid, role: "المهزوم", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: occurred_at, target: place/mahdiyya, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-8
+sides:
+  - label: { ar: "جيش رجار صاحب صقلية", en: "Roger II of Sicily's army" }
+    commanders: [person/roger-of-sicily]
+  - label: { ar: "الحسن بن علي آخر ملوك آل باديس", en: "al-Hasan ibn Ali, last of the Banu Badis" }
+    participants: [person/al-hasan-ibn-ali-zirid]
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

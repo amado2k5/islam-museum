@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/dawud-ibn-yazid-ibn-hatim, role: "الوالي الثالث", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qandahar }
 wings: [time]
+sides:
+  - label: { ar: "جيش هشام بن عمرو التغلبي", en: "Hisham ibn Amr al-Taghlibi's army" }
+    commanders: [person/hisham-ibn-amr-al-taghlibi, person/al-mansur, person/umar-ibn-hafs-hazarmard, person/dawud-ibn-yazid-ibn-hatim]
+  - label: { ar: "القندهار", en: "al-Qandahar" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

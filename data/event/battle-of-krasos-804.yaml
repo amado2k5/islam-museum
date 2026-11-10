@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0804", precision: year, status: tradition, derived: true }
   end: { edtf: "0804", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العباسي", en: "The Abbasid army" }
+    participants: [person/harun-al-rashid]
+  - label: { ar: "الجيش البيزنطي بقيادة نقفور الأول", en: "The Byzantine army under Nikephoros I" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q2888966

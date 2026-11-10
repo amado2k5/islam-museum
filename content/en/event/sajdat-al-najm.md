@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 In Ramadan of the fifth year the Prophet went out to the sanctuary, where a great gathering of Quraysh sat — its chiefs and grandees — and he stood among them reciting Sura al-Najm without warning. They had never heard God's speech before, their habit being to counsel one another with the words "do not listen to this Qur'an and drown it in noise" — and they abandoned what they were about, listening, until he reached its close. {cite:mubarakpuri-raheeq}
 
 When he recited "so prostrate to God and worship" and prostrated, not one of them could hold himself back — Muslim and polytheist fell prostrate — as Bukhari relates from Ibn Mas'ud and Ibn Abbas. {cite:sahih-al-bukhari}

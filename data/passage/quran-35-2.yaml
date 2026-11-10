@@ -17,6 +17,8 @@ translations:
   ur: { text: "خدا جو اپنی رحمت (کا دروازہ) کھول دے تو کوئی اس کو بند کرنے والا نہیں۔ اور جو بند کردے تو اس کے بعد کوئی اس کو کھولنے والا نہیں۔ اور وہ غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
+  - { type: mentions, target: concept/asma-al-aziz, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-hakim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

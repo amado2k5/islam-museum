@@ -9,12 +9,17 @@ summary:
 relations:
   - { type: occurred_at, target: place/krak-des-chevaliers, sources: [source/khitat-maqrizi-1998] }
   - { type: had_participant, target: person/baybars, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
   start: { edtf: "1271", precision: year, status: tradition, derived: true }
   end: { edtf: "1271", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش السلطان الظاهر ركن الدين بيبرس البندقداري", en: "al-Zahir Rukn al-Din Baybars's army" }
+    commanders: [person/baybars]
+  - label: { ar: "قلعة الحصن", en: "Krak des Chevaliers (Hisn al-Akrad)" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q264915

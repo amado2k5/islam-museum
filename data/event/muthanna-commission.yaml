@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "العاهد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المعاهَد الغازي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/qays-ibn-asim, role: "المخبر عنه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 337"

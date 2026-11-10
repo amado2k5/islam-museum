@@ -4,6 +4,7 @@ lang: ar
 source_lang: en
 translators: []
 ---
+## موجز
 BADJ هي الصيغة المعربة من الكلمة الفارسية bäsh من العصر الإسلامي {cite:encyclopaedia-of-islam-2 vol. 1 p. 917}.
 إن عبارة bazh u säw ليست نادرة، ويُستخدم التعبير bazh-i rüm للإشارة إلى الجزية والتعويضات التي دفعها حكام الإمبراطورية الرومانية الشرقية للفرس المنتصرين {cite:encyclopaedia-of-islam-2 vol. 1 p. 917}.
 يستخدم الشاعر الغزنوي Bahråmi كلمة bash بينما يستخدم الشاعر Babā Fighäni من القرن الخامس عشر كلمة bădi {cite:encyclopaedia-of-islam-2 vol. 1 p. 917}.

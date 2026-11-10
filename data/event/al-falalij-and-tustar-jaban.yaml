@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المبعوث الأول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hanzala-al-katib, role: "المبعوث الثاني", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/jaban, role: "الهارب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 343–344"

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Kamal al-Din Mas'ud al-Khujandi, known as Shaykh Kamal or Kamal Khujandi, was a Persian poet and Sufi born at Khujand in Transoxiana about 720 AH / 1320 CE. He established his reputation in his hometown and across Transoxiana as both a poet and a Sufi shaikh, though the biographical sources are silent about his literary and spiritual mentors. He then left Khujand for good — Dawlatshah attributes the departure to a pilgrimage to Mecca, another account to flight from an unwelcome arranged marriage — and eventually settled in Tabriz.{cite:iranica-kamal-kojandi}{cite:wikipedia-kamal-khujandi-fa}
 

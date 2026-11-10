@@ -1,0 +1,21 @@
+id: polity/hammudid-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الخلافة الحمودية
+  en: Hammudid Caliphate
+  ur: "حمودی خلافت"
+summary:
+  ar: خلافة ادّعاها الحموديون العلويون في قرطبة ومالقة خلال فتنة الأندلس، من 1016م وظهرت آخر مطالباتهم نحو 1057م.
+  en: A caliphate claimed by the Idrisid-descended Hammudids in Cordoba and Malaga during the fitna of al-Andalus, from 1016 CE, their last claims fading around 1057.
+  ur: "اندلس کی فتنہ کے زمانے میں حمودیوں کا خلافت کا دعویٰ، قرطبہ اور مالگا میں 1016ء سے؛ آخری دعوے 1057ء کے لگ بھگ۔"
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+start: { edtf: "1016", calendar: julian, precision: year, status: historical, sources: [source/bayan-mughrib-idhari] }
+end: { edtf: "1057~", calendar: julian, precision: year, status: historical, sources: [source/bayan-mughrib-idhari] }
+capitals:
+- place: place/cordoba
+sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-claim-polities-1", note: "Span and claim from Ibn Idhari's al-Bayan al-Mughrib and EI2's Hammudids article." }

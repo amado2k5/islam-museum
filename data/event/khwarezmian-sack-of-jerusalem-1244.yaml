@@ -11,6 +11,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1244", precision: year, status: tradition, derived: true }
   end: { edtf: "1244", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustasim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الخوارزمية", en: "The Khwarizmians" }
+  - label: { ar: "مملكة بيت المقدس الصليبية", en: "The Crusader Kingdom of Jerusalem" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3849563

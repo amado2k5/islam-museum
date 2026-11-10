@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 external_ids: { wikidata: "Q3403025" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:

@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mohacs, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 201-202"
@@ -20,5 +21,9 @@ provenance:
   run: lib-salabi-uthmani-batch-2
 external_ids:
   wikidata: Q178510
+sides:
+  - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
+    commanders: [person/sulayman-al-qanuni]
+  - label: { ar: "موهاج", en: "Mohács" }
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

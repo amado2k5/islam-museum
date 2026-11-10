@@ -12,6 +12,7 @@ date:
   start: { edtf: "1431-03~", hijri: "0833", calendar: julian, precision: month, status: tradition, derived: true, note: "مارس ٨٣٣هـ/١٤٣١م؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 79}." }
 relations:
   - { type: had_participant, target: person/murad-ii-uthmani, role: "القائد الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

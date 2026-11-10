@@ -1,0 +1,22 @@
+id: passage/bukhari-0557
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "557"
+label:
+  ar: "البخاري 557 — هل ظلمتكم من أجركم شيئا: مثل هذه الأمة ومن قبلها"
+  en: "Bukhari 557 — Have I wronged you in your wage: this community and those before it"
+  ur: "بخاری 557 — کیا میں نے تمہاری مزدوری میں کمی کی: یہ امت اور پچھلی امتیں"
+text: "إنما بقاؤكم فيما سلف قبلكم من الأمم كما بين صلاة العصر إلى غروب الشمس، أوتي أهل التوراة التوراة فعملوا حتى إذا انتصف النهار عجزوا، فأعطوا قيراطا قيراطا، ثم أوتي أهل الإنجيل الإنجيل فعملوا إلى صلاة العصر، ثم عجزوا، فأعطوا قيراطا …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 557: هل ظلمتكم من أجركم شيئا: مثل هذه الأمة ومن قبلها. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 557: Have I wronged you in your wage: this community and those before it. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 557: کیا میں نے تمہاری مزدوری میں کمی کی: یہ امت اور پچھلی امتیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [creed]
+tags: [hadith-qudsi, qudsi-ajr-hadhihi-al-umma]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 557; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

@@ -11,6 +11,10 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1250", precision: year, status: tradition, derived: true }
   end: { edtf: "1250", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "المسلمون المماليك", en: "The Muslim Mamluk forces" }
+    participants: [person/baybars]
+  - label: { ar: "الحملة الصليبية السابعة بقيادة لويس التاسع", en: "The Seventh Crusade under Louis IX" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2528398

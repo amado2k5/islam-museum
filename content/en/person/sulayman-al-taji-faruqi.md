@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Sulayman al-Taji al-Faruqi (1882–1958) was a Palestinian poet, politician and lawyer from Ramla, nicknamed the Mu'arri of Palestine.{cite:wikipedia-sulayman-al-taji-faruqi-en}{cite:wikidata-sulayman-al-taji-faruqi} Blinded at the age of nine, he was sent to al-Azhar, where he studied nine years under Muhammad Abduh, and went on to take a law degree at Istanbul in 1909 and a doctorate in law in Egypt in 1919.{cite:wikipedia-sulayman-al-taji-faruqi-ar}{cite:wikipedia-sulayman-al-taji-faruqi-en}
 

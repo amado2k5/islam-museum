@@ -17,7 +17,7 @@ relations:
   - { type: caused_by, target: event/khuzaa-bakr-clash-al-watir }
   - { type: caused, target: event/conquest-of-mecca, note: "قال ابن إسحاق: «وكان ذلك مما هاج فتح مكة»." , sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/amr-ibn-salim, role: appellant-poet, sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/budayl-ibn-warqa, role: envoy, sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/budayl-ibn-warqa, role: envoy, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: appealed-to, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 36–37", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]

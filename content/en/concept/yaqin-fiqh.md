@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yaqin (certainty) lexically means knowledge, the removal of doubt and the confirmation of a matter; it is the opposite of doubt. Technically the jurists define it as the heart's firm conviction that a thing has or has not happened. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18001}
 

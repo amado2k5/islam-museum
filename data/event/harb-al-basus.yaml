@@ -13,7 +13,7 @@ date:
 relations:
   - { type: had_participant, target: group/bakr-ibn-wail, role: "أحد الفريقين", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-taghlib, role: "أحد الفريقين", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/kulayb-ibn-rabia, role: "القتيل الذي اندلعت بسببه", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/kulayb-ibn-rabia, role: "القتيل الذي اندلعت بسببه", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jasas-ibn-murra, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muhalhil, role: "طالب الثأر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-basus-bint-munqidh, role: "صاحبة الناقة التي سميت بها الحرب", sources: [source/kamil-ibn-al-athir] }

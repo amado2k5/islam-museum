@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0740", precision: year, status: tradition, derived: true }
   end: { edtf: "0740", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأموي", en: "The Umayyad army" }
+    participants: [person/hisham-ibn-abd-al-malik]
+  - label: { ar: "البيزنطيون بقيادة ليون الثالث", en: "The Byzantines under Leo III" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q128996

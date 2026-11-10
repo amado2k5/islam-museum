@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: group/knights-of-st-john, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids: { wikidata: "Q46783" }
 provenance:

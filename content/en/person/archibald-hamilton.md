@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Sir Charles Edward Archibald Watkin Hamilton, 5th Baronet (10 December 1876 – 18 March 1939) was a British aristocrat, a lieutenant in the Royal Defence Corps, who in 1915 inherited his father's two baronetcies, of Trebinshun in Breconshire and of Marlborough House in Hampshire.{cite:wikipedia-archibald-hamilton-en}
 

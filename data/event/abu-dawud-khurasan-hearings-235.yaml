@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "السامع", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/qutayba-ibn-said, role: "الشيخ", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/ishaq-ibn-rahwayh, role: "الشيخ", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

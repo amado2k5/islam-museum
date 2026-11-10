@@ -19,3 +19,6 @@ The questioning and punishment of the grave is one of the articles of belief to 
 
 ## Not covered here
 The chapter records no disagreement on the question; the views of the theologians who denied the punishment of the grave, and the Sunni debate with them, are to be added from their sources.
+
+## In the context of the unseen
+The grave's punishment and bliss are creed-certainties: the believer in joy, the disbeliever and sinner in misery until raised.

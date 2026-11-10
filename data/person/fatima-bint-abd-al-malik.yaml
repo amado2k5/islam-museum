@@ -8,13 +8,12 @@ roles: [companion]
 gender: female
 themes: [women]
 summary:
-  ar: "بطاقة أولية لفاطمة بنت عبد الملك بن مروان، أميرة أموية وزوجة عمر بن عبد العزيز في القرن الثامن؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for Fatima bint Abd al-Malik ibn Marwan, the eighth-century Umayyad princess and wife of Umar ibn Abd al-Aziz; the biographical entry is not yet checked on the page."
+  ar: "صحابية ورد اسمها في كتب التراجم."
+  en: "A woman Companion named in the biographical works."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 sources: [source/al-aalam, source/assabile-tareq-al-suwaidan]
-born: { edtf: "725~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}

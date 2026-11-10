@@ -37,7 +37,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 born: { edtf: "584", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Uhud by Abu al-Hakam ibn al-Akhnas, buried with Hamza, aged over forty (al-Isaba p. 851); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: traveled_to
   target: place/abyssinia
@@ -65,6 +65,16 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/muhajirun
+  note: "al-Isaba p. 851"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "al-Isaba p. 851"
   sources:
   - source/ibn-hajar-isaba
 provenance:

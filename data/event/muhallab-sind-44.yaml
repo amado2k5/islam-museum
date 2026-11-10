@@ -10,6 +10,10 @@ relations:
   - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "الأمير الغازي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qiqan }
 wings: [time]
+sides:
+  - label: { ar: "جيش المهلب بن أبي صفرة", en: "al-Muhallab ibn Abi Sufra's army" }
+    commanders: [person/al-muhallab-ibn-abi-sufra]
+  - label: { ar: "القيقان", en: "al-Qiqan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

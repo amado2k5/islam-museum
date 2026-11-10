@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/ibn-qadi-shuhba, role: "قاضي القضاة المستقر", sources: [source/suluk-maqrizi] }
   - { type: had_participant, target: person/ibrahim-ibn-al-bauni, role: "الذي امتنع عن القبول قبله", sources: [source/suluk-maqrizi] }
   - { type: had_participant, target: person/inal-al-jakami, role: "نائب الشام الذي سأل الباعوني", sources: [source/suluk-maqrizi] }
+  - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/suluk-maqrizi]
 provenance:
   layer: own-research

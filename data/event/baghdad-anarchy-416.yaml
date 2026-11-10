@@ -17,6 +17,7 @@ date:
   start: { edtf: "1025~", hijri: "0416", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 416 {cite:shadharat-dhahab p. 204}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

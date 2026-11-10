@@ -17,6 +17,7 @@ translations:
   ur: { text: "یہ چاہتے ہیں کہ خدا کے (چراغ) کی روشنی کو منہ سے (پھونک مار کر) بجھا دیں۔ حالانکہ خدا اپنی روشنی کو پورا کرکے رہے گا خواہ کافر ناخوش ہی ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
+  - { type: mentions, target: concept/asma-al-nur, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

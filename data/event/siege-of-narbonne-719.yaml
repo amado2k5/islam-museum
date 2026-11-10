@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0719", precision: year, status: tradition, derived: true }
   end: { edtf: "0719", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16169254

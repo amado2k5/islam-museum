@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Syed Shahabuddin (4 November 1935 – 4 March 2017) was an Indian diplomat and politician, born at Ranchi and educated at Patna University, where he took a physics honours degree and led student politics before joining the Indian Foreign Service.{cite:wikipedia-syed-shahabuddin-en}{cite:wikipedia-syed-shahabuddin-ur} He served as consul general in Jeddah and as ambassador to Venezuela and Algeria, and by his voluntary retirement in 1978 he was the joint secretary in charge of Southeast Asia, the Indian Ocean and the Pacific in the Ministry of External Affairs.{cite:wikipedia-syed-shahabuddin-en}
 

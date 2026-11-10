@@ -11,6 +11,8 @@ regions: [south-asia]
 date:
   start: { edtf: "2006-07", precision: year, status: tradition, derived: true }
   end: { edtf: "2006-09", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/muhammadu-maccido, sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7510253

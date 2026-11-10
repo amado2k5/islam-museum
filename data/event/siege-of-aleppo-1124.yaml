@@ -7,12 +7,16 @@ summary:
   en: "Draft card for the Siege of Aleppo in 1124–25, Balak's repulse of Baldwin II's siege; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
   start: { edtf: "1124-10-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1125-01-25", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الصليبيون بقيادة بلدوين الثاني", en: "The Crusaders under Baldwin II" }
+  - label: { ar: "حامية حلب بقيادة آق سنقر البرسقي", en: "The Aleppo garrison under Aqsunqur al-Bursuqi" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q60791275

@@ -11,6 +11,9 @@ regions: [maghreb]
 date:
   start: { edtf: "1153", precision: year, status: tradition, derived: true }
   end: { edtf: "1153", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-zafir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q30753691

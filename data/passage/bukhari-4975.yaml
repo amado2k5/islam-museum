@@ -1,0 +1,21 @@
+id: passage/bukhari-4975
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4975"
+label:
+  ar: "البخاري 4975 — كذبني ابن آدم وشتمني"
+  en: "Bukhari 4975 — The son of Adam denied Me and reviled Me"
+  ur: "بخاری 4975 — ابن آدم نے مجھے جھٹلایا اور مجھے برا کہا"
+text: "قال الله كذبني ابن آدم ولم يكن له ذلك، وشتمني ولم يكن له ذلك، أما تكذيبه إياى أن يقول إني لن أعيده كما بدأته، وأما شتمه إياى أن يقول اتخذ الله ولدا، وأنا الصمد الذي لم ألد ولم أولد ولم …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 4975: كذبني ابن آدم وشتمني. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 4975: The son of Adam denied Me and reviled Me. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 4975: ابن آدم نے مجھے جھٹلایا اور مجھے برا کہا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-kadhdhabani-ibn-adam]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4975; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

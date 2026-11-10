@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wadi'a, in lexical use, means loss, the tax the ruler takes from the land and the tithes, a reduction, and it is used in the phrase 'he reduced it for him' (wada'a 'anhu), and of a merchant who has lost in his trade. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17476} For the jurists it is a sale at the first price with a known amount deducted from it; it is also called mawadi'a, mukhasara, muhatta and hutayta, and this is its best-known sense. The jurists also use the word for loss and for the remission of a debt. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17476}
 

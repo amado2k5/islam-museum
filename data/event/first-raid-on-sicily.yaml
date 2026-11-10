@@ -15,11 +15,16 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdallah-ibn-qays-al-dazzaqi, role: "السابي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "الخليفة الموجّه للغنائم إلى الهند", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 329"
   generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), showcase-prose lane"
   model: claude-haiku-5-5
   run: showcase-prose-phase1-batch1
+sides:
+  - label: { ar: "جيش معاوية بن حديج الكندي", en: "Mu'awiya ibn Khudayj al-Kindi's army" }
+    commanders: [person/muawiya-ibn-khudayj, person/muawiya-ibn-abi-sufyan]
+  - label: { ar: "صقلية", en: "Sicily" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; prose checked against the Ma'arif 1407 scan p. 329 in the local harvest workspace (Devin 2026 draft, OCR read by Apple Vision)" }

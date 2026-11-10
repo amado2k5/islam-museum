@@ -19,5 +19,11 @@ relations:
   - { type: had_participant, target: person/khalid-ibn-sufyan-al-hudhali, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/hudhayl, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 267-269", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sides:
+  - label: { ar: "عبد الله بن أنيس", en: "Abdullah ibn Unays" }
+    commanders: [person/abdullah-ibn-unays]
+  - label: { ar: "خالد بن سفيان وأتباعه", en: "Khalid ibn Sufyan and his followers" }
+    participants: [group/hudhayl]
+    commanders: [person/khalid-ibn-sufyan-al-hudhali]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 267-269; date single-source" }

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ان میں سے اکثر صرف ظن کی پیروی کرتے ہیں۔ اور کچھ شک نہیں کہ ظن حق کے مقابلے میں کچھ بھی کارآمد نہیں ہوسکتا۔ بےشک خدا تمہارے (سب) افعال سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

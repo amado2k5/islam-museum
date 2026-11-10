@@ -8,11 +8,11 @@ summary:
 wings: [place]
 periods: [period/prophetic-era]
 regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/al-fayyum, sources: [source/khitat-maqrizi-1998] }
 coordinates: [31.3392, 31.715]
 coordinate_precision: approx
 coordinate_note: "Al-Awsiyya al-Kubra in the Damietta/Manzala Nile Delta, Egypt (geocoding pass, Gemini-assisted)"
-relations:
-  - { type: located_in, target: place/al-fayyum, sources: [source/khitat-maqrizi-1998] }
 sources: [source/khitat-maqrizi-1998]
 provenance:
   layer: own-research

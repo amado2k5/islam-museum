@@ -7,12 +7,16 @@ summary:
   en: "Draft card for the Battle of Antioch on the Meander in 1211, where the Sultan of Rum Kaykhusraw was defeated and killed by Nicaea; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/antioch, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1211", precision: year, status: tradition, derived: true }
   end: { edtf: "1211", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "سلاجقة الروم بقيادة كيخسرو", en: "The Seljuks of Rum under Kaykhusraw" }
+  - label: { ar: "إمبراطورية نيقية", en: "The Empire of Nicaea" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q1364027

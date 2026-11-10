@@ -17,6 +17,7 @@ translations:
   ur: { text: "یا (ان کے اعمال کی مثال ایسی ہے) جیسے دریائے عمیق میں اندھیرے جس پر لہر چڑھی چلی آتی ہو اور اس کے اوپر اور لہر (آرہی ہو) اور اس کے اوپر بادل ہو، غرض اندھیرے ہی اندھیرے ہوں، ایک پر ایک (چھایا ہوا) جب اپنا ہاتھ نکالے تو کچھ نہ دیکھ سکے۔ اور جس کو خدا روشنی نہ دے اس کو (کہیں بھی) روشنی نہیں (مل سکتی)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
+  - { type: mentions, target: concept/asma-al-nur, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

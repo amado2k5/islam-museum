@@ -17,6 +17,7 @@ date:
   start: { edtf: "0922-04~", hijri: "0309", calendar: julian, precision: month, status: historical, derived: true, note: "قال ابن الجوزي: أُحضر في ذي القعدة سنة تسع وثلاثمائة لمناظرة الحنابلة؛ الشهر الميلادي تحويل مشتق {cite:muntazam-ibn-al-jawzi p. 449-450}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

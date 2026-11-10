@@ -14,7 +14,8 @@ relations:
   - { type: occurred_at, target: place/al-fustat }
   - { type: had_participant, target: person/muhammad-ibn-abi-bakr, role: "المقتول المُحرق في جوف حمار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "القاتل", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/muhammad-ibn-abi-hudhayfa, role: "الغالب على مصر قبله", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/muhammad-ibn-abi-hudhayfa, role: "الغالب على مصر قبله", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319"

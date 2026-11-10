@@ -1,0 +1,22 @@
+id: passage/muslim-0404
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "404"
+label:
+  ar: "مسلم 404 — قال الله على لسان نبيه: سمع الله لمن حمده"
+  en: "Muslim 404 — God said on the tongue of His prophet: God hears whoever praises Him"
+  ur: "مسلم 404 — اللہ نے اپنے نبی کی زبان پر فرمایا: اللہ نے سن لی جس نے اس کی حمد کی"
+text: "إذا صليتم فأقيموا صفوفكم ثم ليؤمكم أحدكم فإذا كبر فكبروا وإذا قال غير المغضوب عليهم ولا الضالين فقولوا آمين . يجبكم الله فإذا كبر وركع فكبروا واركعوا فإن الإمام يركع قبلكم ويرفع قبلكم . فقال رسول الله فتلك بتلك وإذا …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 404: قال الله على لسان نبيه: سمع الله لمن حمده. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 404: God said on the tongue of His prophet: God hears whoever praises Him. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 404: اللہ نے اپنے نبی کی زبان پر فرمایا: اللہ نے سن لی جس نے اس کی حمد کی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [worship-and-the-pillars]
+tags: [hadith-qudsi, qudsi-sami-allah-liman-hamidah]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 904; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

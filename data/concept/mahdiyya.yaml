@@ -9,22 +9,6 @@ wings: [ideas]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 themes: [sects-and-schools, creed]
-perspectives:
-  - tradition: sunni
-    id: sunni-view
-    stance: { ar: "خبر المهدي واسع الانتشار عند أهل السنة دون جعله متمماً للدين" }
-    summary: { ar: "أحاديث المهدي عند أهل السنة واردة لكن بغير تحديد شخصي؛ وخبر السفياني عندهم ضعيف جداً {cite:duha-islam p. 872}." }
-    sources: [source/duha-islam]
-  - tradition: academic
-    id: amin-analysis
-    stance: { ar: "كل دعوة وضعت لنفسها مهدياً أو سفيانياً يبرر رايتها" }
-    summary: { ar: "أحمد أمين يرى أن الأحاديث وُضعت على نمط يصلح للعلويين والعباسيين معاً بحسب من ينتصر {cite:duha-islam p. 872}." }
-    sources: [source/duha-islam]
-  - tradition: shia-twelver
-    id: imami-doctrine
-    stance: { ar: "الإمام الثاني عشر هو المهدي الموعود" }
-    summary: { ar: "للإمام الثاني عشر غيبة، وهو المهدي الذي يملأ الأرض عدلاً وقسطاً {cite:duha-islam p. 857}." }
-    sources: [source/duha-islam]
 sources: [source/duha-islam, source/sallabi-ali-vol2]
 provenance:
   layer: own-research
@@ -32,3 +16,31 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-duha-islam-batch-10
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+tags: [ghayb-browser, ghayb-signs]
+perspectives:
+- tradition: sunni
+  id: jumhur-mahdi-established
+  stance:
+    ar: "ظهور المهدي في آخر الزمان ثابت عند جمهور أهل السنة بأحاديث بلغت عندهم حد التواتر المعنوي"
+    en: "The Mahdi's appearance is established for most Sunni scholars on reports reaching mutawatir ma'nawi"
+  summary:
+    ar: "أجمع علماء الحديث عند جمهور الأمة على أن الأخبار في المهدي من أهل البيت وردت من طرق كثيرة تفيد اليقين عندهم، وأنه يظهر قبل عيسى ويملأ الأرض عدلًا {cite:sunan-abi-dawud} {cite:sunan-ibn-majah}."
+    en: "Hadith scholars of the community's majority agree that reports of a Mahdi from the Prophet's house came through many routes conveying certainty, and that he appears before Isa and fills the earth with justice {cite:sunan-abi-dawud} {cite:sunan-ibn-majah}."
+  holders: [work/sunan-abi-dawud]
+  evidence:
+  - ref: source/sunan-abi-dawud
+    note: { ar: "كتاب المهدي" }
+  - ref: source/sunan-ibn-majah
+    note: { ar: "كتاب الفتن، باب خروج المهدي" }
+- tradition: academic
+  id: khaldun-mahdi-doubt
+  stance:
+    ar: "ابن خلدون شكك في صحة كثير من أحاديث المهدي وعدّ أشهرها ضعيفًا"
+    en: "Ibn Khaldun doubted the soundness of many Mahdi reports and judged famous ones weak"
+  summary:
+    ar: "نقّد ابن خلدون في مقدمته إسناد أحاديث المهدي المشهورة وبيّن ضعف كثير منها، مع إقراره بشيوع الخبر بين العامة {cite:muqaddimat-ibn-khaldun}."
+    en: "In the Muqaddima Ibn Khaldun critiqued the isnads of the famous Mahdi reports, showing weakness in many, while conceding the report's prevalence among the populace {cite:muqaddimat-ibn-khaldun}."
+  holders: [person/ibn-khaldun]
+  evidence:
+  - ref: source/muqaddimat-ibn-khaldun
+    note: { ar: "الفصل في أنباء المهدي" }
