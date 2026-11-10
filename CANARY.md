@@ -150,6 +150,7 @@ open a new block on top with the new version and today's date.
 - **Companions: Urdu card text backfill, part 12 — seventy-five records.** Seventy-five more Companion records gain their `label.ur` and `summary.ur`; the backfill pace is now 75 per change.
 - **Companions: Urdu card text backfill, part 13 — one hundred records.** One hundred more Companion records gain their `label.ur` and `summary.ur`; the backfill pace is now 100 per change.
 - **Companions: Urdu card text backfill, part 14 — the last 41 records.** With this change every one of the 603 Companion records carries its `label` and `summary` in Arabic, English and Urdu — the trilingual card text is complete.
+- **Companions: `label.en` for Sa'sa'a ibn Najiya.** The last missing English card label on a Companion record.
 
 ### Tests
 - **Companion selection and facets** (`scripts/companions.test.ts`): who counts as a Companion, the Hijri death year, the decade buckets and the grouping. The feature-export test now expects `companions.json`. `check-site` asserts that the browser home renders, and `check-weight` budgets the home and a group page.
