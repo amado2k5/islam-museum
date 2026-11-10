@@ -45,6 +45,19 @@ relations:
   target: group/banu-asad
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 2027"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/banu-al-najjar
+  note: "of Banu Mazin ibn al-Najjar (al-Isaba p. 2027)"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-khaybar
+  note: "witnessed Khaybar and others — Ibn Sa'd (al-Isaba p. 2027)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12254، ص 2027
