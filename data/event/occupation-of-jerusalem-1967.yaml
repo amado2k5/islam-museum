@@ -11,6 +11,7 @@ date:
   start: { edtf: "1967-06-05", hijri: "", calendar: gregorian, precision: day, status: historical, note: "needs_source: 5 حزيران 1967 كما يطبعه الكتاب في ص 52؛ يحتاج مصدراً ثانياً." }
 relations:
   - { type: occurred_at, target: place/jerusalem }
+  - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:
   layer: own-research
