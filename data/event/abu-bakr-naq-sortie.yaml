@@ -11,6 +11,9 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الآخذ بالزمام", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المؤمر", sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
+sides:
+  - label: { ar: "المهاجرون والأنصار بقيادة أبي بكر", en: "The Muhajirun and Ansar under Abu Bakr" }
+  - label: { ar: "أعراب نجد", en: "The Bedouin tribes of Najd" }
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1 }
 provenance:
