@@ -13,13 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.10.0 — 2026-11-10
 ### Fixed
 - **Timeline explorer chronology restored.** Two death dates carried the same Hijri year as the event that caused them but a different derived CE year, so the timeline placed the deaths before the fatal event: `person/muadh-ibn-jabal` (d. 18 AH — now 0639 like `event/plague-of-amwas`, was 0638) and `person/thabit-ibn-qays` (d. 12 AH at Yamama — now 0634 like `event/battle-of-yamama`, was 0633). The `time-browser-explorer` chronology test passes again.
-
-### Fixed
 - **Asma name pages: citation footnotes render again.** The divine-name pages rendered `{cite:…}` markers as `#note-N` links but never emitted the footnote list, so the site link-checker failed the whole build with 915 dead-anchor errors across the three languages. The page now re-numbers citations globally (same pattern as `EntityLayout`) and renders the sourced footnote list at the bottom of each name page.
+- **Nature and teacher-pathway pages: same footnote-anchor gap closed.** The Nature Explorer subject page rendered `{cite:…}` markers in its lede without emitting the footnote list (12 dead-anchor errors on `nature/asal` in build 42807915315), and the two teacher-pathway templates (landing + printable pack) had the same latent gap in their teacher-note rendering. All three now re-number citations globally and emit the footnote list, matching `EntityLayout`; the kids' read page was checked and is safe (`plainChildMarkdown` strips citations by design).
 
-## v1.10.0 — 2026-11-10
 ### Data
 - **Battles browser: `during_reign` backfill + two place-region corrections.** A ruler-interval pass over person `story_roles` (167 sovereign intervals) added 36 `during_reign` edges to 26 military events where the event year matched exactly one theatre's reigning ruler — Rashidun caliphs on the 634–656 boundary years, late Abbasid caliphs on the 1225–1231 Khwarazmian-era campaigns, Ottoman sultans on WWI Sinai and Caucasus engagements, Abbasid/Fatimid caliphs on medieval fronts. Non-Islamic sovereigns (e.g. Heraclius) were deliberately excluded as outside the predicate's established convention, and ambiguous multi-theatre matches were left unfilled rather than guessed. Two mislabeled place regions surfaced by the pass were corrected: `place/antalya` (Antalya, Turkey — was `andalus-europe`, now `anatolia-balkans`) and `place/qajar-iran` (was `levant-iraq`, now `persia-central-asia`).
 - **Battles browser: geo wave 6 — admin divisions and sites, coverage ~70%.** The last usable slice of Wikidata location items — municipalities, governorates, communes, archaeological sites and geographic terms — became 114 more draft `place/` stubs (Jaén folded into the existing `place/jaen`, which gained its Wikidata id). `occurred_at` edges reached 147 more engagements with locator maps on the same set; coverage is now 71% `occurred_at` (2,363 of 3,293) and 70% maps (2,325). One pre-existing data error surfaced and was fixed: `language/indonesian` carried Vienne's Wikidata id — corrected to Q9240. Remaining unlinked events are mostly items with no Arabic label (~350), polity-like entries for the entity lanes, or records whose Wikidata item declares no location.
@@ -56,7 +55,7 @@ open a new block on top with the new version and today's date.
 - **`course` entity class.** New graph class for school-curriculum trees: `kind ∈ {jurisdiction, grade, subject, unit, lesson}` nested by `part_of`, with `expectations[]` and `connections[]` documented in `docs/plan/02-content-model.md`. Course pages render on the generic entity route (`/{lang}/course/<slug>/`) with unit/lesson lists and connection cards (`ConnCard.astro`).
 - **Syllabus pilot now ships Urdu too.** All 23 course records gained `ur` labels, summaries, expectation texts and connection-card copy, and `content/ur/course/` carries the full 23 Urdu prose files — the picker and course pages now render in Arabic, English and Urdu (AI draft pending human review).
 
-### Fixed
+
 - **Malformed YAML from earlier enrichment batches repaired.** Merging surfaced ~460 data files with duplicated top-level keys (`died`, `coordinate_note`, `coordinate_precision`), orphaned list items under scalar keys, source refs folded into `regions`, invalid `kind: locality` on places, and a duplicated `perspectives` block on `concept/mahdiyya` — all repaired so `npm run validate` is clean; `kind: locality` mapped to `town`; two dozen missing relation targets and sources registered in `data/_stubs.yaml`.
 
 ## v1.8.0 — 2026-11-09
