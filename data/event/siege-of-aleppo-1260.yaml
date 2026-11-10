@@ -14,6 +14,10 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1260", precision: year, status: tradition, derived: true }
   end: { edtf: "1260", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المغولي", en: "The Mongol army" }
+    participants: [person/hulagu]
+  - label: { ar: "حامية حلب الأيوبية", en: "The Ayyubid garrison of Aleppo" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q7509797

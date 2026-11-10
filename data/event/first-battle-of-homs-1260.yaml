@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1260", precision: year, status: tradition, derived: true }
   end: { edtf: "1260", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الجيش المملوك بقيادة بيبرس", en: "The Mamluk army under Baybars" }
+    participants: [person/baybars]
+    commanders: [person/baybars]
+  - label: { ar: "الجيش المغولي", en: "The Mongol army" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q939358
