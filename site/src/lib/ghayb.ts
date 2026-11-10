@@ -19,3 +19,11 @@ export const ghaybItems: GhaybItem[] = realNodes
     const r = GHAYB_SECTIONS.indexOf(a.section) - GHAYB_SECTIONS.indexOf(b.section);
     return r || a.node.id.localeCompare(b.node.id);
   });
+
+/** Canonical order of the ten major signs (hadith of Hudhayfa ibn Usayd, Sahih Muslim). */
+export const GHAYB_SIGNS_ORDER = [
+  "al-dukhan","dajjal","dabbat-al-ard","tulu-al-shams-min-al-maghrib",
+  "nuzul-isa-ibn-maryam","yajuj-majuj","al-khusufat-al-thalatha","al-khusufat-al-thalatha","al-khusufat-al-thalatha","al-nar-al-yaman",
+];
+/** The Miraj route shown on the browser: journey waypoints then the heavens-section records. */
+export const ghaybSignItems = ghaybItems.filter((i) => i.section === "signs");
