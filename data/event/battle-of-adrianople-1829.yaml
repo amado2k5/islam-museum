@@ -15,6 +15,9 @@ date:
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش الروسي", en: "The Russian army" }
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q28155605

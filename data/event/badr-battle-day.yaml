@@ -29,6 +29,9 @@ relations:
   - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "أسره رجل من الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: caused, target: event/badr-duel, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+  - label: { ar: "قريش وأحلافها", en: "Quraysh and their allies" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/sahih-al-bukhari, source/mishkat-al-masabih]
 provenance:
   layer: own-research

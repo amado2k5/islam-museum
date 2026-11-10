@@ -21,6 +21,9 @@ relations:
   - { type: had_participant, target: person/sad-ibn-muadh, role: "حامل لواء كتيبة الأنصار", sources: [source/mubarakpuri-raheeq] }
   - { type: caused, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+  - label: { ar: "قريش وأحلافها", en: "Quraysh and their allies" }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/muhammad-qaid-al-aala-azhar]
 provenance:
   layer: own-research
