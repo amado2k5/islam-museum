@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.10.0 — 2026-11-10
+### Added
+- **Battles browser: testable requirements spec.** `docs/engineering/20-battles-browser-requirements.md` lists every requirement for the browser — the routes in all three languages, the derived ghazwa/sariyya split, `/api/v1/battles.json`, search indexing, the register rows, the record-level rendering rules and the data-state baseline — each with the concrete production check to run. Linked from plan 31 and the battles lane so any agent can validate the shipped browser against it.
+
 ### Fixed
 - **Timeline explorer chronology restored.** Two death dates carried the same Hijri year as the event that caused them but a different derived CE year, so the timeline placed the deaths before the fatal event: `person/muadh-ibn-jabal` (d. 18 AH — now 0639 like `event/plague-of-amwas`, was 0638) and `person/thabit-ibn-qays` (d. 12 AH at Yamama — now 0634 like `event/battle-of-yamama`, was 0633). The `time-browser-explorer` chronology test passes again.
 - **Asma name pages: citation footnotes render again.** The divine-name pages rendered `{cite:…}` markers as `#note-N` links but never emitted the footnote list, so the site link-checker failed the whole build with 915 dead-anchor errors across the three languages. The page now re-numbers citations globally (same pattern as `EntityLayout`) and renders the sourced footnote list at the bottom of each name page.
