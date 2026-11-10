@@ -25,7 +25,10 @@ relations:
   - { type: member_of, target: group/khazraj }
   - { type: participated_in, target: event/pledges-of-aqaba, role: "الذي استوثق من خطورة البيعة وعرض ضرب قريش", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 772", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "stayed at Mecca then emigrated with the Prophet — an Ansari Muhajiri, martyred (al-Isaba p. 772)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/pledges-of-aqaba, note: "spoke at the second Aqaba (al-Isaba p. 772)", sources: [source/ibn-hajar-isaba] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143, 150, 153" }
 provenance:
   layer: own-research
