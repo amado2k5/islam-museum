@@ -13,6 +13,9 @@ date:
   end: { edtf: "1371", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "العثمانيون", en: "The Ottomans" }
+  - label: { ar: "الصرب", en: "The Serbs" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q939570
