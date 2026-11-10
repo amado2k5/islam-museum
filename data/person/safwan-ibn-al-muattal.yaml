@@ -20,14 +20,16 @@ story_roles:
   - { role: martyr, start: { edtf: "0638~" }, status: tradition, note: "استشهد في فتوح أرمينية في خلافة عمر.", sources: [source/ibn-sad-tabaqat-bewley] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0624~" }, note: "صحابي بدري برأه الله في القرآن." }
-died: { edtf: "0678/0699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "0678", hijri: "0058", calendar: julian, precision: year, status: debated, derived: true, note: "Died 58 AH per one report; Ibn Ishaq gives 19 AH and al-Tabari fixes 60 at Sumaysat (al-Isaba p. 699); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/incident-of-the-slander, role: "الصحابي الساقة الذي وجد عائشة وحملها", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 699", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q12220051" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }
 
 provenance:
