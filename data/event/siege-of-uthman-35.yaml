@@ -11,6 +11,9 @@ regions: [arabia]
 date:
   start: { edtf: "0656", precision: year, status: tradition, derived: true }
   end: { edtf: "0656", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q3625539
