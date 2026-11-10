@@ -13,6 +13,10 @@ date:
   end: { edtf: "0751", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العباسي بقيادة زياد بن صالح", en: "The Abbasid army under Ziyad ibn Salih" }
+    participants: [person/abu-al-abbas-al-saffah]
+  - label: { ar: "جيش أسرة تانغ بقيادة غاو شيانتشي", en: "The Tang army under Gao Xianzhi" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q492415

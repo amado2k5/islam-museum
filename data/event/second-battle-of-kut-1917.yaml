@@ -13,6 +13,10 @@ date:
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش البريطاني", en: "The British army" }
+  - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
+    participants: [person/mehmed-v-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3953971
