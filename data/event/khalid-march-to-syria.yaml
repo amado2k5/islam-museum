@@ -20,7 +20,7 @@ relations:
   - { type: had_participant, target: person/hurqus-ibn-al-numan, role: "قُتل بسوى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/busr-ibn-abi-artat, role: "وُجّه إلى غوطة دمشق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/habib-ibn-maslama, role: "وُجّه إلى غوطة دمشق", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/umm-habib-al-sahba, role: "من سبي بني تغلب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/umm-habib-al-sahba, role: "من سبي بني تغلب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:

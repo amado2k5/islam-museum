@@ -12,11 +12,11 @@ date:
   start: { edtf: "0001/0011", calendar: julian, precision: decade, status: tradition, derived: true, note: "الكتاب لا يؤرخ حديث الكساء ولا نزول الآية. المدة المدنية مشتقة من سياق السورة، وثقتها منخفضة." }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad, role: "جلّل أهل بيته بالكساء ودعا لهم", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/fatima, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/hasan-ibn-ali, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/husayn-ibn-ali, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/muhammad, role: "جلّل أهل بيته بالكساء ودعا لهم", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/ali-ibn-abi-talib, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/fatima, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/hasan-ibn-ali, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/husayn-ibn-ali, role: "من أهل الكساء", sources: [source/sallabi-ali-vol1] }
   - { type: based_on, target: passage/quran-33-33, sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/prophetic-era }
 issue: { ar: "من المقصود بأهل البيت في آية التطهير؟", en: "Who is meant by the household in the verse of purification?" }

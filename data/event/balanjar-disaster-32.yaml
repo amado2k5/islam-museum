@@ -14,7 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/balanjar, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abd-al-rahman-ibn-rabia, role: "قائد الغزوة، قتل فيها", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/salman-ibn-rabi-a, role: "سيره سعيد بن العاص مدداً فلقيه المهزومون", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/salman-ibn-rabi-a, role: "سيره سعيد بن العاص مدداً فلقيه المهزومون", sources: [source/kamil-ibn-al-athir] }
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research

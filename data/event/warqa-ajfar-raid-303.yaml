@@ -16,7 +16,7 @@ map: { kind: locator, precision: approximate, center: [43.00, 32.30] }
 date:
   start: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٠٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 418}." }
 relations:
-  - { type: had_participant, target: person/warqa-ibn-nawfal, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: related_to, target: person/warqa-ibn-nawfal, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
