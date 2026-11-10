@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1689", precision: year, status: tradition, derived: true }
   end: { edtf: "1689", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4438396
