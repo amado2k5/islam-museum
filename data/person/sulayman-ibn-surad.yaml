@@ -36,7 +36,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "685", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "0684", hijri: "0065", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Ayn al-Warda in Rabi' al-Akhir 65 AH, aged ninety-three, by Yazid ibn al-Husayn's arrow — leader of the Tawwabun (al-Isaba p. 611); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 
 - { type: lived_in, target: place/siffin, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba] }
