@@ -1,0 +1,21 @@
+id: passage/tirmidhi-3600
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3600"
+label:
+  ar: "الترمذي 3600 — ملائكة يلتمسون أهل الذكر: هم القوم لا يشقى بهم جليسهم"
+  en: "Tirmidhi 3600 — Angels seek the gatherings of remembrance"
+  ur: "ترمذی 3600 — فرشتے ذکر کی مجلسیں تلاش کرتے ہیں"
+text: "إن لله ملائكة سياحين في الأرض فضلا عن كتاب الناس فإذا وجدوا أقواما يذكرون الله تنادوا هلموا إلى بغيتكم فيجيئون فيحفون بهم إلى سماء الدنيا فيقول الله على أى شيء تركتم عبادي يصنعون فيقولون تركناهم يحمدونك ويمجدونك ويذكرونك . قال …"
+summary:
+  ar: "حديث قدسي في جامع الترمذي، رقم 3600: ملائكة يلتمسون أهل الذكر: هم القوم لا يشقى بهم جليسهم. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Jami al-Tirmidhi, no. 3600: Angels seek the gatherings of remembrance. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "جامع ترمذی میں حدیثِ قدسی، نمبر 3600: فرشتے ذکر کی مجلسیں تلاش کرتے ہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-malaika-ahl-al-dhikr]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3600; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

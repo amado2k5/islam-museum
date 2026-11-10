@@ -1,0 +1,21 @@
+id: passage/muslim-2758
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2758"
+label:
+  ar: "مسلم 2758 — أذنب عبدي ذنبا فعلم أن له ربا يغفر الذنب"
+  en: "Muslim 2758 — My servant sinned and knew he has a Lord who forgives sin"
+  ur: "مسلم 2758 — میرے بندے نے گناہ کیا اور جان لیا کہ اس کا ایک رب ہے جو گناہ بخشتا ہے"
+text: "أذنب عبد ذنبا فقال اللهم اغفر لي ذنبي . فقال تبارك وتعالى أذنب عبدي ذنبا فعلم أن له ربا يغفر الذنب ويأخذ بالذنب . ثم عاد فأذنب فقال أى رب اغفر لي ذنبي . فقال تبارك وتعالى عبدي أذنب ذنبا …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2758: أذنب عبدي ذنبا فعلم أن له ربا يغفر الذنب. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2758: My servant sinned and knew he has a Lord who forgives sin. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2758: میرے بندے نے گناہ کیا اور جان لیا کہ اس کا ایک رب ہے جو گناہ بخشتا ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-adhnaba-abdi-dhanban]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6986; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

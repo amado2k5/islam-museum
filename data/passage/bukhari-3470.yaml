@@ -1,0 +1,22 @@
+id: passage/bukhari-3470
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3470"
+label:
+  ar: "البخاري 3470 — قاتل المائة والقرية الصالحة"
+  en: "Bukhari 3470 — The man who killed a hundred and the righteous town"
+  ur: "بخاری 3470 — سو آدمیوں کا قاتل اور نیک بستی"
+text: "كان في بني إسرائيل رجل قتل تسعة وتسعين إنسانا ثم خرج يسأل، فأتى راهبا فسأله، فقال له هل من توبة قال لا. فقتله، فجعل يسأل، فقال له رجل ائت قرية كذا وكذا. فأدركه الموت فناء بصدره نحوها، فاختصمت فيه ملائكة …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 3470: قاتل المائة والقرية الصالحة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 3470: The man who killed a hundred and the righteous town. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 3470: سو آدمیوں کا قاتل اور نیک بستی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [ethics-and-character]
+tags: [hadith-qudsi, qudsi-qatil-al-mia]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3470; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

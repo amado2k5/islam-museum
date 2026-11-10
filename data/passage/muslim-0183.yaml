@@ -1,0 +1,21 @@
+id: passage/muslim-0183
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "183"
+label:
+  ar: "مسلم 183 — حديث أبي سعيد في الرؤية والشفاعة: شفعت الملائكة"
+  en: "Muslim 183 — Abu Sa'id's report of the vision and the intercession"
+  ur: "مسلم 183 — دیدار اور شفاعت کے بارے میں ابو سعید کی روایت"
+text: "نعم . قال هل تضارون في رؤية الشمس بالظهيرة صحوا ليس معها سحاب وهل تضارون في رؤية القمر ليلة البدر صحوا ليس فيها سحاب . قالوا لا يا رسول الله . قال ما تضارون في رؤية الله تبارك وتعالى يوم …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 183: حديث أبي سعيد في الرؤية والشفاعة: شفعت الملائكة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 183: Abu Sa'id's report of the vision and the intercession. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 183: دیدار اور شفاعت کے بارے میں ابو سعید کی روایت۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-al-shafaa-abi-said]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 454; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

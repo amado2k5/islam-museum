@@ -1,0 +1,22 @@
+id: passage/bukhari-6571
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6571"
+label:
+  ar: "البخاري 6571 — آخر أهل النار خروجا وآخر أهل الجنة دخولا"
+  en: "Bukhari 6571 — The last to leave the Fire and the last to enter Paradise"
+  ur: "بخاری 6571 — آگ سے سب سے آخر میں نکلنے والا اور جنت میں سب سے آخر میں جانے والا"
+text: "إني لأعلم آخر أهل النار خروجا منها، وآخر أهل الجنة دخولا رجل يخرج من النار كبوا، فيقول الله اذهب فادخل الجنة. فيأتيها فيخيل إليه أنها ملأى، فيرجع فيقول يا رب وجدتها ملأى، فيقول اذهب فادخل الجنة. فيأتيها فيخيل إليه أنها …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 6571: آخر أهل النار خروجا وآخر أهل الجنة دخولا. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 6571: The last to leave the Fire and the last to enter Paradise. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 6571: آگ سے سب سے آخر میں نکلنے والا اور جنت میں سب سے آخر میں جانے والا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-akhir-ahl-al-janna-dukhulan]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6571; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

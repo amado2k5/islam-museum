@@ -1,0 +1,21 @@
+id: passage/muslim-0187
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "187"
+label:
+  ar: "مسلم 187 — آخر أهل النار خروجا وآخر أهل الجنة دخولا"
+  en: "Muslim 187 — The last to leave the Fire and the last to enter Paradise"
+  ur: "مسلم 187 — آگ سے سب سے آخر میں نکلنے والا اور جنت میں سب سے آخر میں جانے والا"
+text: "آخر من يدخل الجنة رجل فهو يمشي مرة ويكبو مرة وتسفعه النار مرة فإذا ما جاوزها التفت إليها فقال تبارك الذي نجاني منك لقد أعطاني الله شيئا ما أعطاه أحدا من الأولين والآخرين . فترفع له شجرة فيقول أى رب …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 187: آخر أهل النار خروجا وآخر أهل الجنة دخولا. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 187: The last to leave the Fire and the last to enter Paradise. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 187: آگ سے سب سے آخر میں نکلنے والا اور جنت میں سب سے آخر میں جانے والا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-akhir-ahl-al-janna-dukhulan]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 463; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

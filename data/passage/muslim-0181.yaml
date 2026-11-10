@@ -1,0 +1,22 @@
+id: passage/muslim-0181
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "181"
+label:
+  ar: "مسلم 181 — تريدون شيئا أزيدكم: النظر إلى وجه الله"
+  en: "Muslim 181 — Do you want anything more: the sight of God's face"
+  ur: "مسلم 181 — کیا تم کچھ اور چاہتے ہو: اللہ کے چہرے کا دیدار"
+text: "إذا دخل أهل الجنة الجنة - قال - يقول الله تبارك وتعالى تريدون شيئا أزيدكم فيقولون ألم تبيض وجوهنا ألم تدخلنا الجنة وتنجنا من النار - قال - فيكشف الحجاب فما أعطوا شيئا أحب إليهم من النظر إلى ربهم عز …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 181: تريدون شيئا أزيدكم: النظر إلى وجه الله. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 181: Do you want anything more: the sight of God's face. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 181: کیا تم کچھ اور چاہتے ہو: اللہ کے چہرے کا دیدار۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-al-ziyada]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 449; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

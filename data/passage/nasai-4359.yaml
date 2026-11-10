@@ -1,0 +1,21 @@
+id: passage/nasai-4359
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4359"
+label:
+  ar: "النسائي 4359 — نبي قرصته نملة: فهلا نملة واحدة"
+  en: "Nasa'i 4359 — A prophet stung by an ant: why not just the one ant"
+  ur: "نسائی 4359 — ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں"
+text: "أخبرنا إسحاق بن إبراهيم، قال أنبأنا النضر، - وهو ابن شميل - قال أنبأنا أشعث، عن الحسن، نزل نبي من الأنبياء تحت شجرة فلدغته نملة فأمر ببيتهن فحرق على ما فيها فأوحى الله إليه فهلا نملة واحدة . وقال الأشعث …"
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 4359: نبي قرصته نملة: فهلا نملة واحدة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 4359: A prophet stung by an ant: why not just the one ant. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 4359: ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-qarsat-namla]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4359; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

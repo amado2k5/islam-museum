@@ -181,6 +181,8 @@ export function khulafaChains(c: Compiled) {
 const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boolean; fields: string[]; extra?: (n: Node, edgesFrom: Map<string, { type: string; to: string }[]>) => Record<string, unknown> }[] = [
   { file: "jobs.json", feature: "job-browser", pick: (n) => n.class === "job",
     fields: ["kind", "domain", "hirfa", "era", "broader", "regions", "organization", "training"] },
+  { file: "qudsi.json", feature: "hadith-qudsi-browser", pick: (n) => n.class === "passage" && n.tags.includes("hadith-qudsi"),
+    fields: ["work", "ref", "unit", "text"] },
   { file: "fatwa.json", feature: "fatwa-explorer", pick: (n) => n.class === "work" && ["fatwa", "fatwa-collection"].includes(n.data.kind),
     fields: ["kind", "publisher", "url", "languages", "language", "composed", "content_type", "ruler_at_time", "collection_type", "fiqh_area", "asker_role", "form"] },
   { file: "khutab.json", feature: "khutab-durus-explorer", pick: (n) => n.class === "work" && ["sermon", "lecture", "lecture-series"].includes(n.data.kind),
@@ -227,6 +229,7 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
       const row: Record<string, unknown> = { ...compact(n), ...picked, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
       if (spec.extra) Object.assign(row, spec.extra(n, edgesFrom as any));
       if (n.class === "job") row.holders = (holders.get(n.id) ?? []).sort();
+      if (spec.file === "qudsi.json") Object.assign(row, { hadith: n.tags.find((t) => t.startsWith("qudsi-"))?.slice(6) ?? null, tags: n.tags, themes: n.themes });
       return row;
     });
     out[spec.file] = { generated: c.generated, feature: spec.feature, items };

@@ -1,0 +1,22 @@
+id: passage/muslim-2566
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2566"
+label:
+  ar: "مسلم 2566 — أين المتحابون بجلالي اليوم أظلهم في ظلي"
+  en: "Muslim 2566 — Where are those who loved one another for My majesty? Today I shade them in My shade"
+  ur: "مسلم 2566 — کہاں ہیں میری جلالت کی خاطر محبت کرنے والے؟ آج میں انہیں اپنے سائے میں رکھوں گا"
+text: "إن الله يقول يوم القيامة أين المتحابون بجلالي اليوم أظلهم في ظلي يوم لا ظل إلا ظلي ."
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2566: أين المتحابون بجلالي اليوم أظلهم في ظلي. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2566: Where are those who loved one another for My majesty? Today I shade them in My shade. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2566: کہاں ہیں میری جلالت کی خاطر محبت کرنے والے؟ آج میں انہیں اپنے سائے میں رکھوں گا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [ethics-and-character]
+tags: [hadith-qudsi, qudsi-al-mutahabbun-bi-jalali]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6548; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

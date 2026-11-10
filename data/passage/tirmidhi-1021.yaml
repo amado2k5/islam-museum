@@ -1,0 +1,22 @@
+id: passage/tirmidhi-1021
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1021"
+label:
+  ar: "الترمذي 1021 — إذا مات ولد العبد: ابنوا لعبدي بيتا في الجنة وسموه بيت الحمد"
+  en: "Tirmidhi 1021 — When a servant's child dies: build My servant a house in Paradise, the House of Praise"
+  ur: "ترمذی 1021 — جب بندے کا بچہ فوت ہو: میرے بندے کے لیے جنت میں گھر بناؤ اور اسے بیت الحمد کہو"
+text: "إذا مات ولد العبد قال الله لملائكته قبضتم ولد عبدي . فيقولون نعم . فيقول قبضتم ثمرة فؤاده . فيقولون نعم . فيقول ماذا قال عبدي فيقولون حمدك واسترجع . فيقول الله ابنوا لعبدي بيتا في الجنة وسموه بيت الحمد …"
+summary:
+  ar: "حديث قدسي في جامع الترمذي، رقم 1021: إذا مات ولد العبد: ابنوا لعبدي بيتا في الجنة وسموه بيت الحمد. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Jami al-Tirmidhi, no. 1021: When a servant's child dies: build My servant a house in Paradise, the House of Praise. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "جامع ترمذی میں حدیثِ قدسی، نمبر 1021: جب بندے کا بچہ فوت ہو: میرے بندے کے لیے جنت میں گھر بناؤ اور اسے بیت الحمد کہو۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [health-body-death]
+tags: [hadith-qudsi, qudsi-bayt-al-hamd]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1021; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

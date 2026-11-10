@@ -1,0 +1,22 @@
+id: passage/nasai-3160
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3160"
+label:
+  ar: "النسائي 3160 — كيف وجدت منزلك: الشهيد يتمنى الرجوع"
+  en: "Nasa'i 3160 — How did you find your dwelling: the martyr who wishes to return"
+  ur: "نسائی 3160 — تم نے اپنا ٹھکانا کیسا پایا: شہید جو لوٹنے کی تمنا کرتا ہے"
+text: "يؤتى بالرجل من أهل الجنة فيقول الله عز وجل يا ابن آدم كيف وجدت منزلك فيقول أى رب خير منزل . فيقول سل وتمن فيقول أسألك أن تردني إلى الدنيا فأقتل في سبيلك عشر مرات لما يرى من فضل الشهادة …"
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 3160: كيف وجدت منزلك: الشهيد يتمنى الرجوع. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 3160: How did you find your dwelling: the martyr who wishes to return. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 3160: تم نے اپنا ٹھکانا کیسا پایا: شہید جو لوٹنے کی تمنا کرتا ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-kayfa-wajadta-manzilak]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3160; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

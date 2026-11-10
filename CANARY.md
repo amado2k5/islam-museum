@@ -13,6 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.7.0 — 2026-11-10
+
+### Added
+- **Hadith Qudsi Browser (`/{lang}/qudsi/`, متصفح الأحاديث القدسية).** Every hadith qudsi of the six books and the Muwatta of Malik — 113 hadiths in 331 narrations — each hadith shown with its narrations in every collection and arranged by theme, with a filter box that also works without a server and a full list without JavaScript. It is in the Explore menu and has its own card on the landing page. The narrations are ordinary hadith passages in the graph (tag `hadith-qudsi`, one `qudsi-<slug>` tag per hadith); existing passages were tagged in place, not duplicated. Labels, summaries and grouping are draft until a human reads them. Plan: `docs/plan/32-hadith-qudsi-browser.md`.
+- **`/api/v1/qudsi.json`.** The browser's dataset: every hadith qudsi narration with collection, number, matn excerpt (at most 40 words), hadith tag, themes and edges; in `docs/data/README.md`, the OpenAPI document and `llms.txt`.
+
+### Data
+- **315 new hadith passages and 16 tagged in place** from the open `fawazahmed0/hadith-api` Arabic editions (Unlicense, standard numbering), with Arabic, English and Urdu labels and summaries; new source record `source/hadith-api-fawazahmed0`.
+
 ## v1.6.0 — 2026-11-10
 
 ### Added

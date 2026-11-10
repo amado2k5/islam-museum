@@ -331,6 +331,21 @@
         }
       }
     },
+    "/qudsi.json": {
+      "get": {
+        "operationId": "getQudsi",
+        "summary": "Hadith Qudsi Browser dataset",
+        "description": "Every hadith qudsi narration of the six books and the Muwatta with work, ref, matn excerpt, hadith tag, themes and edges",
+        "responses": {
+          "200": {
+            "description": "Every hadith qudsi narration of the six books and the Muwatta with work, ref, matn excerpt, hadith tag, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/fatwa.json": {
       "get": {
         "operationId": "getFatwa",
