@@ -1,3 +1,23 @@
-
-relations:
-- { type: during_reign, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+id: event/battle-of-gerace-952
+class: event
+kind: battle
+label: { ar: "معركة جراس ⁦(٩٥٢)⁩", en: "Battle of Gerace (952)" }
+summary:
+  ar: "بطاقة أولية لمعركة جراس ⁦(٩٥٢)⁩؛ لم تُراجع مصادره على الصفحة بعد."
+  en: "Draft card for Battle of Gerace (952); its sources are not yet checked on the page."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0952", precision: year, status: tradition, derived: true }
+  end: { edtf: "0952", precision: year, status: tradition, derived: true }
+sources: [source/tarikh-islam-hasan-ibrahim]
+external_ids:
+  wikidata: Q139741035
+provenance:
+  layer: own-research
+  source: "Wikidata candidate; battle attested in narrative histories — entry not yet checked on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
