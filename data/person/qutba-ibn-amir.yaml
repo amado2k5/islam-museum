@@ -17,14 +17,17 @@ story_roles:
   - { role: commander, toward: event/sariyya-of-qutba-to-khatham, start: { edtf: "0631" }, status: tradition, note: "قائد سرية خثعم صفر سنة 9هـ.", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
-died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
+died: { edtf: "0640~", hijri: "0020~", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Umar's caliphate (Ibn Abi Hatim); Ibn Hibban makes the Badri die in Uthman's (al-Isaba p. 1226); CE year approximated to 20 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/ansar }
   - { type: participated_in, target: event/sariyya-of-qutba-to-khatham, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq]}
   - { type: traveled_to, target: place/tabala, sources: [source/wikidata], confidence: low, note: "en: 'A Khazraji companion — one of the six Ansar who first met the Prophet at al-Aqaba and among its twelve nu" }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1226", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "Ibn Hibban: Badri (al-Isaba p. 1226)", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q12233269" }
-sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 426" }
 provenance:
   layer: own-research

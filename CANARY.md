@@ -13,14 +13,22 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.6.0 — 2026-11-09
+## v1.10.0 — 2026-11-10
 
 ### Added
 - **سيرة وحياة · Seerah & Life (`/{lang}/seerah/`).** A new practice-guide page: the Seerah as a method of living, organised by time horizon (daily, weekly, monthly, yearly, life stages) and life domain (worship, Quran & knowledge, money & work, family, neighbours & society, self & time). Twenty-six cards cover morning/evening adhkar, the five prayers and rawatib, the daily Quran portion, Jumu'ah, Monday/Thursday and White Days fasting, the monthly budget and a standing sadaqa, a practical zakat walkthrough, Ramadan and the worship seasons, the annual review, and the life-stage cards (childhood, youth, learning a trade, honest work, marriage and parents, life mission, animals and the environment, volunteering, old age). Every card carries cited ayat linked to their frozen Tanzil passage pages (no verse text typed), cited hadith, numbered action steps and a "big picture" note; relevant cards carry fiqh notes (e.g. women's rulings, zakat nisab verification). Fully readable without JavaScript (each card is a `<details>`); the search box and horizon/domain chips in `site/src/scripts/seerah.ts` are progressive enhancement. The page ships in Arabic, English and Urdu in the same commit — the Urdu card prose is an AI draft awaiting human review. The Explore menu and the landing page gain a "Seerah & Life" card; the header block is Pagefind-indexed per `docs/site/browsers.md` §4.
 
 ---
 
-## v1.5.1 — 2026-11-09
+## v1.9.0 — 2026-11-10
+
+### Added
+- **Education Browser — school syllabus picker (`/{lang}/learn/courses/`).** Students pick country → province/board → grade → subject and open a syllabus page that weaves Muslim connections through each lesson. The pilot is the full Ontario (Canada, English board) Grade 6 Science course: 23 `course` records — jurisdiction → grade → subject → the four strands (Biodiversity, Electricity, Flight, Space) → 16 lessons — each carrying positioned connection cards (Qur'an, hadith, scholar, invention, career, story) that link into the museum's knowledge graph. Content is bilingual ar/en, `status.review: draft` pending human review, and cites *The Ontario Curriculum, Grades 1–8: Science and Technology* (2022). The picker has a no-JS fallback.
+- **`course` entity class.** New graph class for school-curriculum trees: `kind ∈ {jurisdiction, grade, subject, unit, lesson}` nested by `part_of`, with `expectations[]` and `connections[]` documented in `docs/plan/02-content-model.md`. Course pages render on the generic entity route (`/{lang}/course/<slug>/`) with unit/lesson lists and connection cards (`ConnCard.astro`).
+
+### Fixed
+- **Malformed YAML from earlier enrichment batches repaired.** Merging surfaced ~460 data files with duplicated top-level keys (`died`, `coordinate_note`, `coordinate_precision`), orphaned list items under scalar keys, source refs folded into `regions`, invalid `kind: locality` on places, and a duplicated `perspectives` block on `concept/mahdiyya` — all repaired so `npm run validate` is clean; `kind: locality` mapped to `town`; two dozen missing relation targets and sources registered in `data/_stubs.yaml`.
+
 ## v1.8.0 — 2026-11-09
 
 ### Content
@@ -90,6 +98,7 @@ open a new block on top with the new version and today's date.
 - **Companions: six more records get cited Hijri death years and edges (Phase 5, batch 18).** Khadija bint Khuwaylid (Ramadan, year ten of the mission, buried at al-Hujun), Khalid ibn al-Walid (21 AH — Homs or Medina, debated), Khalid ibn Sa'id ibn al-As (13, Marj al-Saffar or Ajnadayn debated), Khawat ibn Jubayr (40 or 42 at Medina) and Kulthum ibn al-Hidm — whom al-Tabari calls the first Companion to die at Medina, before As'ad ibn Zurara. Khalid ibn Uqba gains conquest-of-Mecca and Umawi edges.
 - **Companions: ten more records get cited Hijri death years and edges (Phase 5, batch 19).** Maymuna bint al-Harith (51 AH — Ya'qub ibn Sufyan's soundest report), Malik ibn Rabi' (60, the last Badri to die), Ma'dh ibn Amr ibn al-Jamuh — who struck Abu Jahl and fought on after losing his hand (~30), Maytham al-Tammar (60, crucified ten days before al-Husayn reached Iraq), Ma'dh ibn al-Harith (63 at al-Harra, debated), Mistah ibn Uthatha (34 or 37, debated), Mihjan ibn al-Adra' (60) and Ma'n ibn Yazid (64, Marj Rahit). Ma'mar ibn al-Harith al-Sahmi joins the Abyssinia emigrants and Ma'qil ibn al-Mundhir the Badriyya.
 - **Companions: eleven more records get cited Hijri death years and edges (Phase 5, batch 20).** Mu'adh ibn Jabal (17 or 18 AH in the Syrian plague, aged thirty-four), Mu'awiya ibn Abi Sufyan (Rajab 60 AH), Muhammad ibn Maslama (43 at Medina), Muhammad ibn Hatib — born on the Abyssinia migration (86), Mubashir ibn Abd al-Mundhir (Badr), Mukhayriq — the rabbi who bequeathed his property to the Prophet (Uhud), Nu'aym ibn Abdallah (8, Mu'ta), Nu'aym ibn Masud (36, debated), Muhammad ibn Abi Hudhayfa (killed, debated) and Mu'adh ibn Anas al-Juhani (into Abd al-Malik's reign, debated). Muhayyisa ibn Masud joins his brother at the killing of Ka'b ibn al-Ashraf.
+- **Companions: seven more records get cited Hijri death years and edges (Phase 5, batch 21).** Qudama ibn Maz'un (36 in Ali's caliphate, with 56 named), Rafi' ibn al-Ma'la (2, martyred at Badr by Ikrima ibn Abi Jahl), Rafi' ibn Khadij (his Uhud wound reopening in Mu'awiya's caliphate, debated) and Qutba ibn Amir (Umar's or Uthman's caliphate, debated). New edges: Rafi' ibn Malik the Aqaba man whose people built Medina's earliest mosque, Ramla bint Abi Awf among the Abyssinia emigrants — mother of the first heir in Islam — and Qays ibn Hudhafa of Banu Sahm in the last migration.
 
 ### Tests
 - **Companion selection and facets** (`scripts/companions.test.ts`): who counts as a Companion, the Hijri death year, the decade buckets and the grouping. The feature-export test now expects `companions.json`. `check-site` asserts that the browser home renders, and `check-weight` budgets the home and a group page.
