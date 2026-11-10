@@ -58,7 +58,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
           <li><a class="path" href={href(lang, n.id)} style={`--acc:${PATH_ACC[i]}`}><h3>{labelOf(n, lang)}</h3><p>{summaryOf(n, lang)}</p><span class="meta ui">{(n.data.rooms ?? []).length} {L.steps} · {n.data.duration_minutes} {L.minutes}</span></a></li>
         ))}
       </ul>
-      <p class="plan-note ui">{T.landing.plan_note} · <a href={`/${lang}/learn/`}>{T.landing.all_paths} <span class="flip" aria-hidden="true">→</span></a></p>
+      <p class="plan-note ui">{T.landing.plan_note} · <a href={`/${lang}/learn/`}>{T.landing.all_paths} <span class="flip" aria-hidden="true">→</span></a> · <a href={`/${lang}/learn/courses/`}>{T.syllabus.title} <span class="flip" aria-hidden="true">→</span></a></p>
     </div>
   </section>
 
