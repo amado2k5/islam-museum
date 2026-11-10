@@ -24,6 +24,7 @@ relations:
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/aisha }
   - { type: part_of, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "ماذا تدل إمامة أبي بكر في الصلاة في مرض النبي؟", en: "What does Abu Bakr's leading of the prayers during the Prophet's illness signify?" }
 perspectives:
   - tradition: sunni

@@ -27,6 +27,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
 

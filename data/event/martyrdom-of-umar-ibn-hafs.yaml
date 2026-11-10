@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/ifriqiya }
   - { type: had_participant, target: person/umar-ibn-hafs-hazarmard, role: "الوالي الشهيد وباني العباسية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-khatim-al-saddrati, role: "الإباضي القاتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 325–326"

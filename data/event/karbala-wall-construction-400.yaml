@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/karbala, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: located_in, target: place/karbala, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 400)، قراءة آبل فيجن"

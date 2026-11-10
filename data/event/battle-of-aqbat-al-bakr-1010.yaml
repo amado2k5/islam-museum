@@ -11,6 +11,9 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1010", precision: year, status: tradition, derived: true }
   end: { edtf: "1010", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: during_reign, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3302805

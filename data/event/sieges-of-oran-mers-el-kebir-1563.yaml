@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/hasan-ibn-khayr-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/ahmad-muqran-al-zawawi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/wahran, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

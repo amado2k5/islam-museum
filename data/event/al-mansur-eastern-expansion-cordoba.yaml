@@ -14,6 +14,7 @@ date:
   end: { edtf: "0987~", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: building/great-mosque-cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]
 provenance:
   layer: own-research

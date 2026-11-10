@@ -13,7 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/barah }
   - { type: had_participant, target: person/al-mufarraj-ibn-sallam, role: "الفاتح المقتول", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/sawran, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/sawran, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mutawakkil, role: "المتوفى قبل الجواب", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

@@ -12,6 +12,7 @@ date:
   start: { edtf: "0897-05~", hijri: "0284-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى ٢٨٤؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 172}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 284)، قراءة آبل فيجن"

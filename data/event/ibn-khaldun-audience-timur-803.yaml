@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/ibn-khaldun, role: "الراوي والمحاور", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: had_participant, target: person/timur-lang, role: "المحاوَر", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "العبر لابن خلدون ص 2118-2122"

@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/al-shaykh-al-mufid, role: "المتوفى", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-sharif-al-murtada, role: "الخليفة في رئاسة الإمامية", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/shaykh-al-tusi, role: "تلميذ المفيد الذي تحوّل إلى المرتضى", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

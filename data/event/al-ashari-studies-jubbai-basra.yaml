@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/al-ashari, role: "التلميذ", sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-jubbai, role: "الأستاذ شيخ المعتزلة", sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: group/mutazila, role: "المدرسة التي كان ينتسب إليها", sources: [source/encyclopaedia-of-islam-2, source/wafayat-ayan] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/wafayat-ayan, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

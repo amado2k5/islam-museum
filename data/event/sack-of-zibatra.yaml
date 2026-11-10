@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "المغتاظ الغازي إلى عمورية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: related_to, target: person/abd-allah-al-mamun, role: "آمر مرمّتها وتحصينها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: caused, target: event/conquest-of-amorium, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 270"

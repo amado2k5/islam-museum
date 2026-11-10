@@ -11,6 +11,8 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1835", precision: year, status: tradition, derived: true }
   end: { edtf: "1835", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/muhammad-bello, sources: [source/wikipedia-muhammad-bello-en, source/wikidata-muhammad-bello] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124881814

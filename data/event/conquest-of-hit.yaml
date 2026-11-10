@@ -15,8 +15,9 @@ relations:
   - { type: occurred_at, target: place/hit }
   - { type: had_participant, target: person/umayr-ibn-sad, role: "جامع حصون الفرات العليا", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ammar-ibn-yasir, role: "عامل عمر على الكوفة وباعث الجيش", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/sad-ibn-amr-ibn-haram, role: "أمير جيش الكوفة وعاقد الأمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/sad-ibn-amr-ibn-haram, role: "أمير جيش الكوفة وعاقد الأمان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/midlaj-ibn-amr, role: "الفاتح عند طائفة وباني الحديثة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 246"

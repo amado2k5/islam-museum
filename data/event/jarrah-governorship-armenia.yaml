@@ -17,6 +17,8 @@ relations:
   - { type: had_participant, target: person/adi-ibn-adi-al-kindi, role: "الوالي السابق وصاحب نهر عدي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/sulayman-ibn-abd-al-malik, role: "مولّي عدي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "مولّي عدي أيضاً في الرواية الثبت", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/sulayman-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 289"

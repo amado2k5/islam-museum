@@ -12,6 +12,8 @@ date:
   start: { edtf: "0656~", hijri: "0035", calendar: julian, precision: year, status: tradition, derived: true, note: "الغد من قتل عثمان 35هـ؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 293}." }
 relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المبايع بالخلافة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 275، 293–294"

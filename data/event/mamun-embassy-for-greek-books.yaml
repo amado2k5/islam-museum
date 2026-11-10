@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/duha-islam] }
   - { type: had_participant, target: person/al-hajjaj-ibn-matar, role: "المبعوث", sources: [source/duha-islam] }
   - { type: had_participant, target: person/salm-sahib-bayt-al-hikma, role: "صاحب بيت الحكمة", sources: [source/duha-islam] }
+  - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/duha-islam, source/fihrist-ibn-al-nadim]
 provenance:
   layer: own-research

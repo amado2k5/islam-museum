@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/yusuf-ibn-yaqub-al-qadi, role: "القاضي", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 284)، قراءة آبل فيجن"

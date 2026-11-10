@@ -11,6 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1876", precision: year, status: tradition, derived: true }
   end: { edtf: "1876", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-aziz-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/murad-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124812832

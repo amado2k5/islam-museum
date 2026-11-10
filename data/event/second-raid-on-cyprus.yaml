@@ -18,6 +18,7 @@ relations:
   - { type: related_to, target: person/umar-ibn-abd-al-aziz, role: "حطّ الزيادة عنهم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: related_to, target: person/al-mansur, role: "ردّهم إلى صلح معاوية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: caused_by, target: event/first-raid-on-cyprus, note: "نقض أهلها بإعانة الروم سنة 32", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 209–211"

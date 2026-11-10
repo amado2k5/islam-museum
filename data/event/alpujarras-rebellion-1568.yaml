@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1568", precision: year, status: tradition, derived: true }
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-ibn-khaldun-ibar, source/assabile-tareq-al-suwaidan]
 external_ids:
   wikidata: Q685757

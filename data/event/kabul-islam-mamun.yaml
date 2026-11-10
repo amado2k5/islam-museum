@@ -8,6 +8,7 @@ summary:
 periods: [period/abbasid-early]
 relations:
   - { type: occurred_at, target: place/kabul }
+  - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 date:
   start: { edtf: "0815~", hijri: "0199~", calendar: julian, precision: year, status: tradition, derived: true, note: "«ولما كان المأمون بخراسان» — في مقامه بمرو خليفة (نحو ١٩٨–٢٠٢هـ)؛ التحويل مشتق {cite:futuh-buldan-maarif-1407}.", sources: [source/futuh-buldan-maarif-1407] }

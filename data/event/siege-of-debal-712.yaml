@@ -11,6 +11,8 @@ regions: [south-asia]
 date:
   start: { edtf: "0712", precision: year, status: tradition, derived: true }
   end: { edtf: "0712", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q120496147

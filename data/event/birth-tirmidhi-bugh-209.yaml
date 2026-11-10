@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba], note: "بوغ قرية من أحواز ترمذ على جيحون {cite:mawsuat-a3lam-ulama-adaba p. 450}" }
   - { type: had_participant, target: person/al-tirmidhi-muhammad-ibn-isa, role: "المولود", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

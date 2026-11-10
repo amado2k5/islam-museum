@@ -12,6 +12,8 @@ date:
   start: { edtf: "1228~", hijri: "0626~", calendar: julian, precision: year, status: tradition, derived: true, note: "في سياق ثورة ابن هود على الموحدين (نحو 626)؛ التحويل مشتق {cite:nafh-tib-maqqari p. 319-321}." }
 relations:
   - { type: had_participant, target: person/ibn-hud-al-judhami, role: "المستولي على الأندلس المتلقب بالخلع", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muhtadid-yahya-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 319–321"

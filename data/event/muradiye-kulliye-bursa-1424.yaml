@@ -16,6 +16,7 @@ relations:
   - { type: occurred_at, target: building/muradiye-mosque-bursa, sources: [source/freely-ottoman-architecture-2011] }
   - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
   - { type: had_participant, target: person/murad-ii-uthmani, role: "الباني", sources: [source/freely-ottoman-architecture-2011] }
+  - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/freely-ottoman-architecture-2011]
 provenance:
   layer: "own-research"

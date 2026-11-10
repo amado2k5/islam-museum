@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2, source/shadharat-dhahab] }
   - { type: had_participant, target: person/ibn-al-nafis, role: "المتوفى", sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/assabile-tareq-al-suwaidan]
 provenance:
   layer: own-research

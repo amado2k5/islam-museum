@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "الزاهد مصنف الإحياء", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

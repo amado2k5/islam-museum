@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/jamal-al-din-al-mizzi, role: "شيخ دار الحديث", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-taymiyya, role: "الساعي في توليته", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/tabaqat-shafiiyya-subki]
 provenance:
   layer: own-research

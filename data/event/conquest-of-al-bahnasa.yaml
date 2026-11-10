@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/al-bahnasa, sources: [source/futuh-al-sham-ilmiyya-1997-v2] }
   - { type: part_of, target: period/rashidun }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sides:
   - label: { ar: "جيش المسلمين بقيادة خالد بن الوليد", en: "The Muslim army under Khalid ibn al-Walid" }
     commanders: [person/khalid-ibn-al-walid]

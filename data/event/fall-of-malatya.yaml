@@ -13,6 +13,8 @@ date:
 relations:
   - { type: occurred_at, target: place/malatya }
   - { type: had_participant, target: person/constantine-v, role: "قائد الحملة الهادِمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 262–263"

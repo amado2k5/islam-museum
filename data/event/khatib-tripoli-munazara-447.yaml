@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/tripoli-al-sham, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "المتناظر", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-husayn-ibn-bishr-al-tarabulusi, role: "صاحب دار العلم المتناظر", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

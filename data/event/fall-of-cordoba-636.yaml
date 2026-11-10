@@ -12,6 +12,7 @@ date:
   start: { edtf: "1239-05~", hijri: "0636-10-23", calendar: julian, precision: month, status: tradition, derived: true, note: "الأحد 23 شوال 636؛ مشتق {cite:nafh-tib-maqqari p. 476}." }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"

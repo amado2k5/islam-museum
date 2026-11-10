@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/humayun-mughal, role: "المستعيد", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

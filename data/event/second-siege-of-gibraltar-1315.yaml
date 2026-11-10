@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1315", precision: year, status: tradition, derived: true }
   end: { edtf: "1315", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7443529

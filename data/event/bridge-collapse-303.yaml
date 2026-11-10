@@ -13,6 +13,7 @@ date:
   start: { edtf: "0916-04~", hijri: "0303-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان ٣٠٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 418}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"

@@ -9,6 +9,7 @@ summary:
 relations:
   - { type: occurred_at, target: place/panipat, sources: [source/akbarnama] }
   - { type: had_participant, target: person/babur-mughal, role: "الغازي الفاتح", sources: [source/akbarnama] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [south-asia]

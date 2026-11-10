@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/nujum-zahira, source/al-aalam] }
   - { type: had_participant, target: person/ibn-habib-al-halabi, role: "المؤرخ", sources: [source/nujum-zahira, source/al-aalam] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/nujum-zahira, source/al-aalam]
 provenance:
   layer: own-research

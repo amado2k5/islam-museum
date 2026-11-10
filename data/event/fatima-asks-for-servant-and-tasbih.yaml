@@ -12,9 +12,9 @@ date:
   start: { edtf: "0002/0011", calendar: julian, precision: decade, status: tradition, derived: true, note: "الكتاب لا يؤرخ الحادثة؛ المدة المدنية مشتقة من ذكر أهل الصفة والسبي؛ ثقة منخفضة." }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad, role: "رفض طلب الخادم وعلّم التسبيح", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "طلب الخادم مع فاطمة", sources: [source/sallabi-ali-vol1] }
-  - { type: had_participant, target: person/fatima, role: "طلبت الخادم وطحنت حتى مجلت يداها", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/muhammad, role: "رفض طلب الخادم وعلّم التسبيح", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/ali-ibn-abi-talib, role: "طلب الخادم مع فاطمة", sources: [source/sallabi-ali-vol1] }
+  - { type: related_to, target: person/fatima, role: "طلبت الخادم وطحنت حتى مجلت يداها", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/prophetic-era }
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 82-83" }

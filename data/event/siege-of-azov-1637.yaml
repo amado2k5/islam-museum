@@ -11,6 +11,9 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1637", precision: year, status: tradition, derived: true }
   end: { edtf: "1642", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4058439

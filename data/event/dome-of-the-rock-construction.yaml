@@ -13,6 +13,8 @@ date:
 relations:
   - { type: occurred_at, target: place/dome-of-the-rock }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالبناء" }
+  - { type: during_reign, target: person/marwan-ibn-al-hakam, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:
   layer: own-research

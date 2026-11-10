@@ -16,5 +16,7 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 354–355"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-59
+relations:
+- { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/nafh-tib-maqqari, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

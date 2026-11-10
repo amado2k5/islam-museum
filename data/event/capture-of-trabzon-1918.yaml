@@ -11,6 +11,9 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1918-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1918-02", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q120798823

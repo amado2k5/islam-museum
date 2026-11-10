@@ -18,6 +18,7 @@ relations:
   - { type: had_participant, target: person/abu-said-al-khudri }
   - { type: had_participant, target: person/al-fadl-ibn-al-abbas }
   - { type: part_of, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/mishkat-al-masabih]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
 

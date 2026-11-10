@@ -19,6 +19,7 @@ relations:
 - type: occurred_at
   target: place/dimyat
   sources: [source/kamil-ibn-al-athir]
+- { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]

@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1130-04-14", precision: year, status: tradition, derived: true }
   end: { edtf: "1130-05-13", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-amir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q54874867

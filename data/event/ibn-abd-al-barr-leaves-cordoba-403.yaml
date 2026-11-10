@@ -17,6 +17,8 @@ date:
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/ibn-abd-al-barr, role: "الجالي", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }
 sources: [source/tarikh-islam-dhahabi, source/nafh-tib-maqqari]
 provenance:
   layer: own-research

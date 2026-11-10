@@ -16,6 +16,7 @@ date:
   start: { edtf: "0943-10~", hijri: "0332-03", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول ٣٣٢؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 623}." }
 relations:
   - { type: occurred_at, target: place/ras-al-ayn, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muttaqi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 332)، قراءة آبل فيجن"

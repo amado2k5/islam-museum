@@ -11,7 +11,7 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/tabriz, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/bahlawan-ildigizi, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/shams-al-din-ildigiz, role: "أبوه", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/shams-al-din-ildigiz, role: "أبوه", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

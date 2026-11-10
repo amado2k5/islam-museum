@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/jaqmaq-al-zahiri, role: "السلطان المُقام", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 842)، قراءة آبل فيجن"

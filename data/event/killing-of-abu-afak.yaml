@@ -16,7 +16,7 @@ relations:
   - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "قال: من لي بهذا الخبيث؟", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/abu-afak, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/salim-ibn-umayr, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/salim-ibn-umayr, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/umama-al-muzayriyya, role: "قالت في ذلك شعراً", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-amr-ibn-awf, role: "قوم أبي عفك وسالم", sources: [source/ibn-hisham-saqqa] }
   - { type: caused, target: event/killing-of-asma-bint-marwan, note: "«فلما قُتل أبو عفك نافقت»", sources: [source/ibn-hisham-saqqa] }

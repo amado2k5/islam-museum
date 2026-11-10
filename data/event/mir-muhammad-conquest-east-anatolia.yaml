@@ -11,6 +11,9 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1500", precision: year, status: tradition, derived: true }
   end: { edtf: "1550", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q134787188

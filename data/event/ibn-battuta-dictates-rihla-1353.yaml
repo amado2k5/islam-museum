@@ -13,6 +13,7 @@ date:
   start: { edtf: "1353~", hijri: "0754~", calendar: julian, precision: year, status: historical, derived: true, note: "Gregorian date from Britannica (Ibn Battuta); the Hijri year is converted from it (derived)." }
 relations:
   - { type: had_participant, target: person/ibn-battuta-muhammad, role: "المملي", sources: [source/britannica-ibn-battuta] }
+  - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-ibn-battuta]
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
 provenance:

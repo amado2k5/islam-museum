@@ -13,9 +13,10 @@ date:
 relations:
   - { type: occurred_at, target: place/iqritish }
   - { type: had_participant, target: person/janada-ibn-abi-umayya, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/humayd-ibn-mayuq, role: "غازي عهد الرشيد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/humayd-ibn-mayuq, role: "غازي عهد الرشيد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-hafs-al-iqritishi, role: "المتتم للفتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة زمن الفتح الأخير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"

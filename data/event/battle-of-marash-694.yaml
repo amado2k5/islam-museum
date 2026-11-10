@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0694", precision: year, status: tradition, derived: true }
   end: { edtf: "0694", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139257624

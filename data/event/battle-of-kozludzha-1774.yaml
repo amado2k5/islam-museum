@@ -11,6 +11,9 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1774", precision: year, status: tradition, derived: true }
   end: { edtf: "1774", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1985387

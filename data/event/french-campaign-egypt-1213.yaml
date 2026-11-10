@@ -12,6 +12,7 @@ date:
   start: { edtf: "1798", hijri: "1213", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: had_participant, target: person/selim-iii-uthmani, role: "معلن الجهاد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 329-330"

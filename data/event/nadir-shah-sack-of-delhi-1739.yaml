@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: had_participant, target: person/nadir-shah-afshar, role: "الغازي", sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 provenance:
   layer: own-research

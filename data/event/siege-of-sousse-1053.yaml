@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1053", precision: year, status: tradition, derived: true }
   end: { edtf: "1053", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q132690266

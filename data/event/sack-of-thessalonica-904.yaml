@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0904", precision: year, status: tradition, derived: true }
   end: { edtf: "0904", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q1109261

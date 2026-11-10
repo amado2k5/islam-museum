@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/al-karkh, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/najaf, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/shaykh-al-tusi, role: "المكبوس داره اللاجئ", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

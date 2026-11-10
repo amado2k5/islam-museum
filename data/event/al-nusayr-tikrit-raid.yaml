@@ -13,10 +13,12 @@ date:
 relations:
   - { type: occurred_at, target: place/tikrit }
   - { type: occurred_at, target: place/ukbara, sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hudhayfa-ibn-mihsan, role: "شريك الغارة والأمان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khurzad-ibn-mahibandadh, role: "الموكل المهزوم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/utba-ibn-farqad, role: "منفذ أمان تكريت", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348–349"

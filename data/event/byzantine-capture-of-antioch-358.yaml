@@ -12,6 +12,7 @@ date:
   start: { edtf: "0969~", hijri: "0358-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو الحجة 358 {cite:kamil-ibn-al-athir p. 444}." }
 relations:
   - { type: occurred_at, target: place/antakiya, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"

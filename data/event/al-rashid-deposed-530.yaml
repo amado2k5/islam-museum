@@ -15,6 +15,8 @@ relations:
   - { type: had_participant, target: person/al-rashid-billah, role: "المخلوع", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-muqtafi-billah, role: "المستدعى المُستخلَف", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/masud-ibn-muhammad-saljuqi, role: "السلطان المُخلِع", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-rashid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

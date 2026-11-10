@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/al-mawardi, role: "رسول الخليفة", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/abu-kalijar, role: "الملك المتلقي", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qaim-bi-amr-illah, role: "الخليفة المرسل", sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muntazam-ibn-al-jawzi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

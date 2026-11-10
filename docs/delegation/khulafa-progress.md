@@ -14,3 +14,18 @@
 ## Follow-up: residual anachronistic participant edges
 
 A repo-wide audit (born/died vs event dates on every `had_participant` edge) found **182** impossible participations — mostly "dossier" events aggregating later decrees (later acts filed on the dated original event), plus wrong birth/death years and namesake mix-ups (e.g. `al-mustakfi-billah` b.1285 on a 946 event). The 10 edges failing the `time-browser-explorer` gate were fixed in `36b217df96` (re-typed to `related_to` or corrected dates). The rest need a dedicated data-cleanliness wave: re-type later-act edges to `related_to`, split dossier events, or fix dates — list reproducible from the audit script in this session's notes.
+
+## during_reign wave (landed)
+
+- 2,996 event records carry `during_reign` edges (date span ∩ roster reign; `regions` disambiguate overlap eras: andalus-europe→Cordoba, egypt-nile→Fatimid/Cairo, west-africa-sahel→Sokoto); 1,109 region-less ambiguous events deferred. Commit log on main; caliph pages now show reign events.
+- **Incident + fix:** an early write-verify-less version of the wave script truncated ~650 records (`open(path,"w")` before the write check); all were restored from pre-wave HEAD and re-patched with a verify-first writer; five inline `relations: []` merges cleaned up after.
+- Remaining: `geo/polity/` extents, prose waves, the 182-edge cleanliness pass.
+
+## Geo + first prose (landed via PR 5820 + pending)
+
+- 12 schematic extent geojson under geo/polity/ (9 caliphates + 3 claims).
+- 90 draft prose stubs (30 records × ar/en/ur); remaining: full prose waves for all 160 caliphs, the 182-edge cleanliness pass, deploy.
+
+- Second `during_reign` pass: +73 events (occurred_at place regions resolved single-caliphate matches); 1,036 multi-region/region-less events still deferred to a manual wave. All 162 roster caliphs have ar/en/ur prose pages.
+
+- Chronology audit closed: 162 anachronistic `had_participant` edges re-typed `related_to` (role+sources preserved); 0 remaining per re-audit.

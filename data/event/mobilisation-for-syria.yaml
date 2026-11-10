@@ -15,10 +15,12 @@ relations:
   - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "أمير جيش بعد عزل خالد بن سعيد؛ على دمشق عند الواقدي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/shurahbil-ibn-hasana, role: "أمير لواء؛ على الأردن عند الواقدي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "أمير لواء؛ طريق أيلة إلى فلسطين", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "عُقد له ثم عُزل بإشارة عمر فسار محتسباً في جيش شرحبيل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/khalid-ibn-said-ibn-al-as, role: "عُقد له ثم عُزل بإشارة عمر فسار محتسباً في جيش شرحبيل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "استعفى من اللواء؛ أميرهم عند الاجتماع على قتال عند أبي يخنف", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "حامل لواء أخيه يزيد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أشار بعزل خالد بن سعيد لتعصبه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 149–150"

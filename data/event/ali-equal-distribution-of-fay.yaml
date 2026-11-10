@@ -13,6 +13,8 @@ date:
 relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المقسِّم", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/umm-kulthum-bint-ali, role: "صاحبة الزقين في خبر العسل والسمن", sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 issue: { ar: "هل تكون قسمة المال بالتساوي بين الناس، وما حدود هذه التسوية؟", en: "Whether the distribution of public money should be equal, and what limits apply" }
 perspectives:

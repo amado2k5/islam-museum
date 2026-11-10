@@ -24,7 +24,9 @@ relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ansab-al-ashraf] }
   - { type: authored, target: work/hatib-letter-to-quraysh }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "Badri on the Muslim side; a Lakhmite halif of Banu Asad settled in Mecca (al-Isaba p. 281)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 281", sources: [source/ibn-hajar-isaba] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 40–41", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 external_ids: { wikidata: "Q1108701" }
-sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/sallabi-ali-vol1]
+sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/sallabi-ali-vol1, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

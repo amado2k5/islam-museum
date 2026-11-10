@@ -13,6 +13,8 @@ date:
   start: { edtf: "1068-03", hijri: "0460-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى ٤٦٠؛ التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/ramla, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mustansir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 460)، قراءة آبل فيجن"

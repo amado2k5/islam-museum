@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1146-10-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1146-11-01", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q97402659

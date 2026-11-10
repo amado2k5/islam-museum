@@ -17,7 +17,8 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
   - { type: had_participant, target: person/taqi-al-din-al-subki, role: "قاضي القضاة الجديد", sources: [source/al-bidaya-wal-nihaya] }
-  - { type: had_participant, target: person/jalal-al-din-al-qazwini, role: "سلفه في القضاء، المتوفى قبلها", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: related_to, target: person/jalal-al-din-al-qazwini, role: "سلفه في القضاء، المتوفى قبلها", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/al-bidaya-wal-nihaya, source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

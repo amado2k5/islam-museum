@@ -17,6 +17,8 @@ relations:
   - { type: occurred_at, target: place/edirne, sources: [source/freely-ottoman-architecture-2011] }
   - { type: had_participant, target: person/selim-ii-uthmani, role: "السلطان الآمر بالبناء", sources: [source/freely-ottoman-architecture-2011] }
   - { type: had_participant, target: person/mimar-sinan, role: "المعمار", sources: [source/freely-ottoman-architecture-2011] }
+  - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/freely-ottoman-architecture-2011, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

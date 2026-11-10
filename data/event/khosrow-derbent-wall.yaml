@@ -13,7 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/bab-al-abwab }
   - { type: had_participant, target: person/khosrow-i-anushirvan, role: "باني السد والمدن والمهندس للخديعة", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/qubad-ibn-firuz, role: "باني سد اللبن ومدن أران الأولى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/qubad-ibn-firuz, role: "باني سد اللبن ومدن أران الأولى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/siyasijiyya, role: "مساكين الحصون والقلاع", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

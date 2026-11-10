@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/seville, role: "دخلوها ثم هزمهم المسلمون", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/abd-al-rahman-ii-andalusi, role: "أرسل العساكر وأصلح ما خربوه", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 381–382"

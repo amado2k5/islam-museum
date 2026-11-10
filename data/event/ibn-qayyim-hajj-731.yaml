@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: occurred_at, target: place/mecca, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-qayyim-al-jawziyya, role: "الحاج", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

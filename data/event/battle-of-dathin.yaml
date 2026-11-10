@@ -13,6 +13,8 @@ date:
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "أمير فلسطين التي تقع داثن في عملها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 151"

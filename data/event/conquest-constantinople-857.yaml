@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/zagan-pasha, role: "قائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/constantine-xi-palaiologos, role: "الإمبراطور المدافع", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/candarli-halil-pasha, role: "الوزير", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-qaim-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج6، سنة 886)"

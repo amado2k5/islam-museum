@@ -16,7 +16,7 @@ relations:
   - { type: occurred_at, target: place/al-silan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-numan-ibn-al-mundhir, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-al-bara-amir-ibn-malik, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/dirar-ibn-amr, sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/dirar-ibn-amr, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/wabra-ibn-rumanis, role: "أُسر وافتدى بألف بعير", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hubaysh-ibn-dalf, role: "أُسر وافتدى بأربعمائة بعير", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/yazid-ibn-al-saqq, sources: [source/kamil-ibn-al-athir] }

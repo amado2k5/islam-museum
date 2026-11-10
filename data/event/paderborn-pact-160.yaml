@@ -14,8 +14,9 @@ date:
 relations:
   - { type: had_participant, target: person/sulayman-ibn-yaqzan-al-arabi, role: "صاحب المبادرة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/husayn-ibn-yahya-al-ansari, role: "والي سرقسطة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
-  - { type: had_participant, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "والي المغرب المتحالف", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: related_to, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "والي المغرب المتحالف", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/charlemagne-malik-al-ifranj, role: "ملك الفرنجة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research

@@ -16,6 +16,7 @@ relations:
   - { type: occurred_at, target: place/cairo, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: occurred_at, target: building/al-azhar, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/ajaib-al-athar-moreh-v3]
 provenance:
   layer: own-research

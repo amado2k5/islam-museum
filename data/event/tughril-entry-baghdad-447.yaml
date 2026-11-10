@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/baghdad }
   - { type: had_participant, target: person/tughril-beg, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 28-29"

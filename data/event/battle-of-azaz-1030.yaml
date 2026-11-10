@@ -13,6 +13,7 @@ date:
   end: { edtf: "1030", hijri: "0421", calendar: julian, precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/kamil-ibn-al-athir, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q2887924

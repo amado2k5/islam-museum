@@ -14,6 +14,7 @@ date:
   end: { edtf: "1327~", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/timbuktu, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 provenance:
   layer: own-research

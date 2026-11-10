@@ -25,6 +25,7 @@ relations:
   - { type: had_participant, target: person/marzuban-ibn-muhammad, role: "أمير أذربيجان", sources: [source/kamil-ibn-al-athir, source/tajarib-al-umam-surush-v6] }
   - { type: had_participant, target: group/al-rus, role: "المغيرون", sources: [source/tajarib-al-umam-surush-v6] }
   - { type: had_participant, target: person/al-husayn-ibn-said-al-hamdani, role: "الداخل إلى أذربيجان في أثناء الحصار", sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: during_reign, target: person/al-muttaqi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن) ص308-310؛ source/tajarib-al-umam-surush-v6 scan pp. 93-100"

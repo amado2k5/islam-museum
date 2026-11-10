@@ -13,6 +13,7 @@ date:
   start: { edtf: "1608", hijri: "1017", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 1017هـ/1608م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1398}." }
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: "own-research"

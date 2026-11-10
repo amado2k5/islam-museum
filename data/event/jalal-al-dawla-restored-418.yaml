@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/jalal-al-dawla, role: restored-to-khutba, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/abu-kalijar, role: deposed-from-khutba, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

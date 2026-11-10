@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/kufa, sources: [source/tarikh-islam-dhahabi] }
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

@@ -18,7 +18,8 @@ relations:
   - { type: had_participant, target: person/umm-haram-bint-milhan, role: "ماتت بها عثرة دابتها وقبرها قبر المرأة الصالحة", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abu-ayyub-al-ansari, role: "من ركبها", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abu-dharr-al-ghifari, role: "من ركبها", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
-  - { type: had_participant, target: person/fakhita-bint-qaraza, role: "امرأة معاوية حملها بشرط عثمان", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/fakhita-bint-qaraza, role: "امرأة معاوية حملها بشرط عثمان", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 208–210"

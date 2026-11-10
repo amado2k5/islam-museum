@@ -18,6 +18,7 @@ date:
 relations:
   - { type: occurred_at, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/jalal-al-dawla, role: "صاحب الحملة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
