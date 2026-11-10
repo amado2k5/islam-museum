@@ -13,6 +13,9 @@ date:
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الأسطول العثماني", en: "The Ottoman fleet" }
+  - label: { ar: "البندقية", en: "Venice" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q97945483

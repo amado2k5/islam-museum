@@ -13,6 +13,9 @@ date:
   end: { edtf: "1912", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الثوار الألبان", en: "The Albanian rebels" }
+  - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q13041162
