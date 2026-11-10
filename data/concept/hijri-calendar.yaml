@@ -1,25 +1,64 @@
 id: concept/hijri-calendar
 class: concept
 kind: term
-label: { ar: "التقويم الهجري", en: "The Hijri calendar" }
+label:
+  ar: التقويم الهجري
+  en: The Hijri calendar
+  ur: التقويم الهجري
 summary:
-  ar: "تقويم قمري تُعدّ سنواته من هجرة النبي من مكة إلى المدينة، ويحدد مواعيد العبادات كرمضان والحج والأعياد؛ وتذكر الروايات أن عمر بن الخطاب هو من اعتمد هذا المبدأ للتأريخ، لكن اختلاف الروايات في سبب اعتماده وتاريخه يحتاج إلى مراجعة مصدر ثانٍ (needs_source)."
-  en: "The lunar calendar that counts its years from the Prophet's hijra from Mecca to Medina, and sets the dates of Ramadan, the Hajj and the feasts. Reports say Umar ibn al-Khattab adopted the hijra as the starting point of dating; the reports differ on the occasion and the date, and need a second source (needs_source)."
-wings: [time, living]
-themes: [sacred-time]
-sources: [source/farghani-elements-astronomy, source/tarikh-khulafa-minhaj-1434, source/assabile-zaghloul-el-naggar]
+  ur: قمری اسلامی تقویم جو ہجرت سے شروع ہوتا ہے اور جس پر عبادات و تاریخ قائم ہیں۔
+  ar: تقويم قمري تُعدّ سنواته من هجرة النبي من مكة إلى المدينة، ويحدد مواعيد العبادات
+    كرمضان والحج والأعياد؛ وتذكر الروايات أن عمر بن الخطاب هو من اعتمد هذا المبدأ
+    للتأريخ، لكن اختلاف الروايات في سبب اعتماده وتاريخه يحتاج إلى مراجعة مصدر ثانٍ
+    (needs_source).
+  en: The lunar calendar that counts its years from the Prophet's hijra from Mecca
+    to Medina, and sets the dates of Ramadan, the Hajj and the feasts. Reports say
+    Umar ibn al-Khattab adopted the hijra as the starting point of dating; the reports
+    differ on the occasion and the date, and need a second source (needs_source).
+wings:
+- time
+- living
+themes:
+- sacred-time
+sources:
+- source/farghani-elements-astronomy
+- source/tarikh-khulafa-minhaj-1434
+- source/assabile-zaghloul-el-naggar
 education:
   did_you_know:
-    ar: "لم يبدأ التقويم الهجري من يوم الهجرة؛ استقر عمر بن الخطاب على جعل أول السنة المحرمَ سنة 17هـ."
-    en: "The Hijri calendar does not start on the day of the Hijra; Umar ibn al-Khattab settled on the first of Muharram in year 17 AH."
-    ur: "ہجری تقویم ہجرت کے دن سے نہیں شروع ہوتا؛ عمر بن خطاب نے 17ھ میں سال کے آغاز کو محرم ٹھہرایا۔"
-    sources: [source/tarikh-khulafa-minhaj-1434, source/farghani-elements-astronomy]
-  levels: [sprouts, explorers, scholars]
+    ar: لم يبدأ التقويم الهجري من يوم الهجرة؛ استقر عمر بن الخطاب على جعل أول السنة
+      المحرمَ سنة 17هـ.
+    en: The Hijri calendar does not start on the day of the Hijra; Umar ibn al-Khattab
+      settled on the first of Muharram in year 17 AH.
+    ur: ہجری تقویم ہجرت کے دن سے نہیں شروع ہوتا؛ عمر بن خطاب نے 17ھ میں سال کے آغاز
+      کو محرم ٹھہرایا۔
+    sources:
+    - source/tarikh-khulafa-minhaj-1434
+    - source/farghani-elements-astronomy
+  levels:
+  - sprouts
+  - explorers
+  - scholars
   flagged_for_kids: true
-  provenance: { generated_by: "Claude Code", model: "Claude Haiku 5.5 (claude-haiku-5-5)", run: "education-E2-batch1", note: "Leveled texts drafted from the record's own summary; draft, pending the founder's review and scholar review of the child levels." }
-provenance: { layer: own-research, source: "Earlier text from the sources the record cites (al-Farghani, Elements of astronomy; Tarikh al-Khulafa, Minhaj 1434); section added from Assabile el-hadara-el-nabaouia ep12 (transcript pass5-qwen, Qwen3-ASR)", generated_by: "Claude Haiku 5.5 (Claude Code) for the earlier text; Claude Code (claude-opus-5-5) for the el-hadara-el-nabaouia section", model: claude-opus-5-5, run: assabile-egypt-naggar-2 }
+  provenance:
+    generated_by: Claude Code
+    model: Claude Haiku 5.5 (claude-haiku-5-5)
+    run: education-E2-batch1
+    note: Leveled texts drafted from the record's own summary; draft, pending the
+      founder's review and scholar review of the child levels.
+provenance:
+  layer: own-research
+  source: Earlier text from the sources the record cites (al-Farghani, Elements of
+    astronomy; Tarikh al-Khulafa, Minhaj 1434); section added from Assabile el-hadara-el-nabaouia
+    ep12 (transcript pass5-qwen, Qwen3-ASR)
+  generated_by: Claude Haiku 5.5 (Claude Code) for the earlier text; Claude Code (claude-opus-5-5)
+    for the el-hadara-el-nabaouia section
+  model: claude-opus-5-5
+  run: assabile-egypt-naggar-2
 status:
   review: draft
   completeness: 1
-  generated_by: "Claude Haiku 5.5 (Claude Code)"
-tags: [ghayb-browser, ghayb-time]
+  generated_by: Claude Haiku 5.5 (Claude Code)
+tags:
+- ghayb-browser
+- ghayb-time
