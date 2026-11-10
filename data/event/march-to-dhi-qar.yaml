@@ -15,5 +15,8 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أمير الجيش الذي استنفر أهل الكوفة", sources: [source/sallabi-ali-vol2] }
   - { type: had_participant, target: person/al-qaqa-ibn-amr, role: "خطيب الكوفيين في استنفارهم", sources: [source/sallabi-ali-vol2] }
   - { type: had_participant, target: person/hasan-ibn-ali, role: "من رسل علي إلى الكوفة", sources: [source/sallabi-ali-vol2] }
+sides:
+  - label: { ar: "جيش علي بن أبي طالب الكوفي", en: "Ali ibn Abi Talib's Kufan army" }
+  - label: { ar: "جيش طلحة والزبير وعائشة البصري", en: "The Basran army of Talha, al-Zubayr and Aisha" }
 sources: [source/sallabi-ali-vol2]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Claude Code); from Sallabi vol. 2 pp. 45-52" }

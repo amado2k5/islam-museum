@@ -10,6 +10,9 @@ relations:
   - { type: had_participant, target: person/masmala-ibn-hubayra, role: "الأمير الهالك", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tabaristan }
 wings: [time]
+sides:
+  - label: { ar: "جيش مصملة بن حبيرة الأموي", en: "Masmala ibn Hubayra's Umayyad army" }
+  - label: { ar: "أهل طبرستان", en: "The people of Tabaristan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
