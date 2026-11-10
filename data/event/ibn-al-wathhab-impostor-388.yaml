@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/abd-allah-ibn-jafar-al-wathhab, role: "المدعي", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qadir-billah, role: "أمر بإحضاره مقبوضاً فهرب", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-tai-billah, role: "ادعى ابن الوثاب أنه هو", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 388)، قراءة آبل فيجن"
