@@ -22,6 +22,10 @@ relations:
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
+sides:
+  - label: { ar: "المهاجمون", en: "The attackers" }
+  - label: { ar: "حامية أطرابلس", en: "The defenders of Tripoli (Libya)" }
+    participants: [place/atrabulus]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

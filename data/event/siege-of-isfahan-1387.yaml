@@ -13,6 +13,10 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1387", precision: year, status: tradition, derived: true }
   end: { edtf: "1387", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية أصفهان", en: "The defenders of Isfahan" }
+    participants: [place/isfahan]
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q21905295

@@ -17,6 +17,10 @@ date:
   end: { edtf: "1044", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
+  - label: { ar: "حامية لاهور", en: "The defenders of Lahore" }
+    participants: [place/lahore]
 sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q135287688
