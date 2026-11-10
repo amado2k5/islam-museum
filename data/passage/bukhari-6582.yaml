@@ -1,0 +1,22 @@
+id: passage/bukhari-6582
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6582"
+label:
+  ar: "البخاري 6582 — فأقول يا رب أصحابي فيقال إنك لا تدري ما أحدثوا بعدك"
+  en: "Bukhari 6582 — I will say: O Lord, my companions; and it will be said: you do not know what they did after you"
+  ur: "بخاری 6582 — میں کہوں گا: اے رب میرے ساتھی، اور کہا جائے گا: تم نہیں جانتے انہوں نے تمہارے بعد کیا کیا"
+text: "ليردن على ناس من أصحابي الحوض حتى عرفتهم اختلجوا دوني فأقول أصحابي فيقول لا تدري ما أحدثوا بعدك …"
+summary:
+  ar: "حديث قدسي في البخاري، رقم 6582: فأقول يا رب أصحابي فيقال إنك لا تدري ما أحدثوا بعدك. يرويه النبي عن ربه، ومتصفح الأحاديث القدسية يجمع رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Bukhari, no. 6582: I will say: O Lord, my companions; and it will be said: you do not know what they did after you. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "بخاری میں حدیثِ قدسی، نمبر 6582: میں کہوں گا: اے رب میرے ساتھی، اور کہا جائے گا: تم نہیں جانتے انہوں نے تمہارے بعد کیا کیا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-al-hawd]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6582; matn excerpt of at most 40 words, verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 440", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/ahadith-qudsiyya-majlis]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

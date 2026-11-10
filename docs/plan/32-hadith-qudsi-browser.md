@@ -19,7 +19,7 @@ Status: **requested by the founder in chat, 9 November 2026** ("create متصف�
 
 The corpus is the scope of the classic collection «الأحاديث القدسية من الصحاح الستة والموطأ» (Supreme Council for Islamic Affairs, Cairo): Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' al-Tirmidhi, Sunan al-Nasa'i, Sunan Ibn Majah and the Muwatta of Malik. A hadith qudsi is a report in which the Prophet relates speech from God in the first person, in words other than the Qur'an's. The list is checked against the Forty Hadith Qudsi.
 
-"All" means all within that stated scope, as found by the method below. The first build holds 113 hadiths in 331 narrations. A reader who finds a missing or misclassed narration files it as a correction; the list is not a ruling on what is or is not qudsi.
+"All" means all within that stated scope, as found by the method below. The first build holds 117 hadiths in 346 narrations. A reader who finds a missing or misclassed narration files it as a correction; the list is not a ruling on what is or is not qudsi.
 
 ## 3. Method
 
@@ -48,4 +48,14 @@ The corpus is the scope of the classic collection «الأحاديث القدس�
 |---|---|
 | Corpus, records, page, API, search, register | In this pull request, draft tier |
 | Human read of labels, summaries and grouping | Pending |
-| Cross-check against a printed Qudsi collection (page-level) | Pending; sunnah.com and dorar.net refuse automated reads (HTTP 403) |
+| Cross-check against a printed Qudsi collection (page-level) | Done 9 Nov 2026 vs «الأحاديث القدسية» (Quran and Hadith Committee, Supreme Council for Islamic Affairs, Cairo, 10th ed. 1417/1997); see section 7 |
+
+## 7. Phase 2 — verification against the printed collection (9 November 2026)
+
+The corpus was reconciled page by page against «الأحاديث القدسية» (Lajnat al-Qur'an wa-l-Hadith, Supreme Council for Islamic Affairs, Cairo, 10th ed. 1417/1997, two parts in one volume; scan from archive.org item `SacredHadithsEncyclopedia`, OCR'd locally with Apple Vision, registered as `source/ahadith-qudsiyya`). The book numbers ~400 narrations, variants of about 168 hadiths.
+
+- **Added (book hadiths missing from the browser, 4 hadiths / 15 narrations):** `qudsi-ishtakat-al-nar` (the Fire's complaint: Bukhari 3260, 537; Tirmidhi 2592; Ibn Majah 4319 — book ~no. 377), `qudsi-ikhtisam-al-malaa` (the dream of the Highest Assembly: Tirmidhi 3233–3235 — book ~no. 141), `qudsi-ana-al-malik` (the folding of the heavens: Bukhari 4812, 7382; Abu Dawud 4732 — book ~nos. 317–326), `qudsi-al-hawd` (the Basin: Bukhari 6576, 6582, 6526; Nasa'i 2087; Ibn Majah 3057 — book ~nos. 377–384 region). These narrations carry reported or first-person divine speech the phase-1 scan had classed as narrations only describing God's acts.
+- **Kept although absent from the printed corpus (genuine divine first-person speech):** `qudsi-isa-wa-yajuj-wa-majuj` (Muslim 2937, Tirmidhi 2240, Ibn Majah 4075 — «إني أخرجت عباداً لي») and `qudsi-aghbat-awliyai` (Tirmidhi 2347). The printed collection is a checklist, not a ceiling; both narrations remain tagged.
+- **Removed:** none. No mis-tagged narration was found; the Muwatta matches (`muwatta-31-2668/2711/2741/2744`) could not be matched mechanically because of OCR noise in that part of the scan, but each is a Muwatta narration the book cites — kept.
+- **Not verified by number:** Muslim narrations use Abd al-Baqi numbering which the API edition does not carry; Muslim riwayat of the added hadiths remain for a later pass. `arbaun-*` records stay untagged as before.
+- Counts: 117 hadiths in 346 narrations (113/331 + 4/15).

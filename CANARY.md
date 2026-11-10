@@ -13,10 +13,16 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.7.1 — 2026-11-09
+
+### Content
+
+- **Hadith Qudsi Browser — corpus verified against the printed collection.** Every numbered narration of «الأحاديث القدسية» (Quran and Hadith Committee, Supreme Council for Islamic Affairs, Cairo, 10th ed. 1417/1997) was reconciled against the browser's records. Four hadiths present in the printed corpus but missing from the browser were added — the Fire's complaint, the dream of the Highest Assembly, the folding of the heavens ("I am the King"), and the Basin — as 15 narrations across Bukhari, Abu Dawud, Tirmidhi, Nasa'i and Ibn Majah, bringing the corpus to 117 hadiths in 346 narrations. The printed book is registered as `source/ahadith-qudsiyya-majlis`. Two browser hadiths that the printed corpus does not list (Muslim 2937 and Tirmidhi 2347) were re-read, confirmed as divine first-person speech and kept; the reconciliation notes are in `docs/plan/32-hadith-qudsi-browser.md` §7. All new records are `status.review: draft` until a human reads them.
+
 ## v1.7.0 — 2026-11-10
 
 ### Added
-- **Hadith Qudsi Browser (`/{lang}/qudsi/`, متصفح الأحاديث القدسية).** Every hadith qudsi of the six books and the Muwatta of Malik — 113 hadiths in 331 narrations — each hadith shown with its narrations in every collection and arranged by theme, with a filter box that also works without a server and a full list without JavaScript. It is in the Explore menu and has its own card on the landing page. The narrations are ordinary hadith passages in the graph (tag `hadith-qudsi`, one `qudsi-<slug>` tag per hadith); existing passages were tagged in place, not duplicated. Labels, summaries and grouping are draft until a human reads them. Plan: `docs/plan/32-hadith-qudsi-browser.md`.
+- **Hadith Qudsi Browser (`/{lang}/qudsi/`, متصفح الأحاديث القدسية).** Every hadith qudsi of the six books and the Muwatta of Malik — 117 hadiths in 346 narrations — each hadith shown with its narrations in every collection and arranged by theme, with a filter box that also works without a server and a full list without JavaScript. It is in the Explore menu and has its own card on the landing page. The narrations are ordinary hadith passages in the graph (tag `hadith-qudsi`, one `qudsi-<slug>` tag per hadith); existing passages were tagged in place, not duplicated. Labels, summaries and grouping are draft until a human reads them. Plan: `docs/plan/32-hadith-qudsi-browser.md`.
 - **`/api/v1/qudsi.json`.** The browser's dataset: every hadith qudsi narration with collection, number, matn excerpt (at most 40 words), hadith tag, themes and edges; in `docs/data/README.md`, the OpenAPI document and `llms.txt`.
 
 ### Data

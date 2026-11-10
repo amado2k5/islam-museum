@@ -1,0 +1,22 @@
+id: passage/bukhari-537
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "537"
+label:
+  ar: "البخاري 537 — أكل بعضي بعضا فأذن لها بنفسين"
+  en: "Bukhari 537 — the Fire complains to its Lord and is given two breaths"
+  ur: "بخاری 537 — أشتكت النار إلى ربها فأذن لها بنفسين"
+text: "إذا اشتد الحر فأبردوا بالصلاة فإن شدة الحر من فيح جهنم واشتكت النار إلى ربها فقالت يا رب أكل بعضي بعضا فأذن لها بنفسين …"
+summary:
+  ar: "حديث قدسي في البخاري، رقم 537: أكل بعضي بعضا فأذن لها بنفسين. يرويه النبي عن ربه، ومتصفح الأحاديث القدسية يجمع رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Bukhari, no. 537: the Fire complains to its Lord and is given two breaths. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "بخاری میں حدیثِ قدسی، نمبر 537: أشتكت النار إلى ربها فأذن لها بنفسين۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-ishtakat-al-nar]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 537; matn excerpt of at most 40 words, verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 439", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/ahadith-qudsiyya-majlis]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }
