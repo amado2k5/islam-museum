@@ -19,5 +19,7 @@ born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
   - { type: member_of, target: group/sahaba, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
-sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1]
+  - { type: member_of, target: group/quraysh, note: "of Banu al-Muttalib ibn Abd Manaf (al-Isaba p. 1935)", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/ibn-hajar-isaba]
 status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker K)" }
