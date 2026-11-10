@@ -11,15 +11,7 @@ names:
   lang: ar
   value: أم حرام
 gender: female
-died:
-  edtf: "0648~"
-  hijri: "0027"
-  calendar: julian
-  precision: year
-  status: tradition
-  note: في غزوة قبرس أيام عثمان سنة سبع وعشرين (ابن الأثير، كما في الإصابة).
-  sources:
-  - source/ibn-hajar-isaba
+died: { edtf: "0649~", hijri: "0028~", calendar: julian, precision: year, status: debated, derived: true, note: "Died during the Cyprus campaign under Mu'awiya (27-28 AH), wife of Ubada ibn al-Samit (al-Isaba p. 1990); CE year approximated from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles:
 - companion
 traditions:
@@ -55,6 +47,11 @@ relations:
   target: place/quba
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1990"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12014، ص 1990 (تراجم النساء)

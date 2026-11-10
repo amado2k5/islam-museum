@@ -51,6 +51,11 @@ relations:
   target: person/jafar-ibn-abi-talib
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "daughter of Abu Talib (al-Isti'ab p. 967)"
+  sources: [source/isti-ab-ibn-abd-al-barr]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 12328، ص 2042 (تراجم النساء)
@@ -61,6 +66,7 @@ external_ids: { wikidata: "Q3738508" }
 sources:
 - source/ibn-hajar-isaba
 - source/nisa-hawl-alrasul
+- source/isti-ab-ibn-abd-al-barr
 status:
   review: published
   completeness: 3
