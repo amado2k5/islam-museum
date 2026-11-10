@@ -13,13 +13,7 @@ date:
   end: { edtf: "1299", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/kamil-ibn-al-athir]
-external_ids:
-  wikidata: Q2290814
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; battle attested in Ilkhanid histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sides:
+  - label: { ar: "الجيش المغولي بقيادة غازان", en: "The Mongol army under Ghazan" }
+  - label: { ar: "الجيش المملوك", en: "The Mamluk army" }
+s
