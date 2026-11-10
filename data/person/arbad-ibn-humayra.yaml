@@ -11,11 +11,14 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/ibn-hajar-isaba]
 died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+ - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia then Medina — Ibn Ishaq (al-Isaba p. 36)", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "Ibn Ishaq (al-Isaba p. 36)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q12179335
 provenance:
