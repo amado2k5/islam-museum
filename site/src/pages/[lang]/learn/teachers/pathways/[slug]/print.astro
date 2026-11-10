@@ -24,7 +24,23 @@ const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
 const path = pathwayPrintPath(lang, n);
 const alternates = Object.fromEntries(LANGS.map((l) => [l, pathwayPrintPath(l, n)]));
 const teacherNote = n.prose[lang]?.sections.find((s) => ["للمعلم", "For the teacher", "استاد کے لیے"].includes(s.heading));
-const noteHtml = teacherNote ? renderProse(teacherNote.markdown, lang).html : "";
+// citation numbers are per-render; re-number globally and collect them for the footnote list
+const citeList: { source: string; locator?: string }[] = [];
+const citeIndex = (c: { source: string; locator?: string }) => {
+  let i = citeList.findIndex((x) => x.source === c.source && x.locator === c.locator);
+  if (i < 0) { citeList.push(c); i = citeList.length - 1; }
+  return i + 1;
+};
+const renumberR = (r: { html: string; cites: { n: number; source: string; locator?: string }[] }) => {
+  const map = new Map(r.cites.map((c) => [c.n, citeIndex(c)]));
+  return (h: string) =>
+    h.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => {
+      const g = map.get(Number(k))!;
+      return `<sup class="cite"><a href="#note-${g}">${g}</a></sup>`;
+    });
+};
+const noteR = teacherNote ? renderProse(teacherNote.markdown, lang) : null;
+const noteHtml = noteR ? renumberR(noteR)(noteR.html) : "";
 const rooms: any[] = d.rooms ?? [];
 ---
 <BaseLayout lang={lang} title={`${pathwayTitle(n, lang)} · ${E.tp_print_view}`} description={summaryOf(n, lang)} path={path} alternates={alternates} noindex={true}>
@@ -41,6 +57,14 @@ const rooms: any[] = d.rooms ?? [];
       <p>{loc(c.expectation)}</p>
       <p class="muted" style="font-size:.85rem" lang="en" dir="ltr">{c.document}</p>
       {noteHtml && <div set:html={noteHtml} />}
+      {citeList.length > 0 && (
+        <ol class="ui" style="padding-inline-start:1.4rem;font-size:.85rem">
+          {citeList.map((c, i) => {
+            const s = byId.get(c.source);
+            return <li id={`note-${i + 1}`}>{s ? labelOf(s as any, lang) : c.source}{c.locator ? `, ${c.locator}` : ""}</li>;
+          })}
+        </ol>
+      )}
       <h2 class="ui" style="font-size:1rem">{E.tp_steps}</h2>
       <ol class="tpp-steps">
         {rooms.map((r: any) => (
