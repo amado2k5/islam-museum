@@ -35,7 +35,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama, cut down holding the flag armless before his mawla Abu Hudhayfa, then laid beside him (al-Isaba p. 537); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 
 - { type: lived_in, target: place/quba, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hajar-isaba] }
@@ -43,6 +43,15 @@ relations:
   target: group/muhajirun
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/muhajirun
+  note: "al-Isaba p. 537"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-yamama
+  note: "al-Isaba p. 537"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 3112، ص 537
