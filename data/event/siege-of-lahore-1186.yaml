@@ -17,6 +17,10 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ghiyath-al-din-muhammad-ibn-sam, role: "الغوري الفاتح", sources: [source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "جيش غياث الدين الغوري", en: "Ghiyath al-Din Muhammad ibn Sam's army" }
+    commanders: [person/ghiyath-al-din-muhammad-ibn-sam]
+  - label: { ar: "لاهور", en: "Lahore" }
 sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q114232321

@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/khatun-of-bukhara, role: "المصالحة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/baykand }
 wings: [time]
+sides:
+  - label: { ar: "جيش عبيد الله بن زياد", en: "Ubaydallah ibn Ziyad's army" }
+    commanders: [person/ubayd-allah-ibn-ziyad, person/khatun-of-bukhara]
+  - label: { ar: "بيكند", en: "Baykand" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

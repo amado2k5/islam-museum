@@ -14,6 +14,10 @@ relations:
   - { type: had_participant, target: person/bayazid-ii, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/istanbul, sources: [] }
   - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش بايزيد الثاني", en: "Bayezid II's army" }
+    commanders: [person/bayazid-ii]
+  - label: { ar: "إسطنبول", en: "Istanbul" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q97648778

@@ -18,6 +18,10 @@ relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-shah-durrani, role: "الغازي المحتل", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "جيش أحمد شاه الدراني", en: "Ahmad Shah Durrani's army" }
+    commanders: [person/ahmad-shah-durrani]
+  - label: { ar: "لاهور", en: "Lahore" }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

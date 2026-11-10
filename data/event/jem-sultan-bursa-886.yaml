@@ -16,6 +16,10 @@ relations:
   - { type: had_participant, target: person/jem-sultan, role: "السلطان المتنازع", sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/bayazid-ii, role: "الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش الأمير جم سلطان", en: "Prince Cem (Jem Sultan)'s army" }
+    commanders: [person/jem-sultan]
+  - label: { ar: "بورصة", en: "Bursa" }
 sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: "own-research"

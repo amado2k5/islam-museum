@@ -15,6 +15,11 @@ relations:
   - { type: had_participant, target: group/ghassan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-taghlib, role: "المنتصرون", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/amr-ibn-kulthum, role: "المتصدي للملك وشاعر الوقعة", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "جيش الحارث بن أبي شمر الغساني", en: "al-Harith ibn Abi Shamir al-Ghassani's army" }
+    commanders: [person/al-harith-ibn-abi-shamir]
+  - label: { ar: "غسان", en: "Ghassan" }
+    participants: [group/ghassan, group/banu-taghlib]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -14,6 +14,10 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1534", precision: year, status: tradition, derived: true }
   end: { edtf: "1534", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
+    commanders: [person/sulayman-al-qanuni]
+  - label: { ar: "بغداد", en: "Baghdad" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5036982

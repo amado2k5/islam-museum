@@ -18,6 +18,10 @@ relations:
   - { type: had_participant, target: person/ahmed-iii-uthmani, role: "السلطان المنصب", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
   - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "جيش مصطفى الثاني", en: "مصطفى الثاني's army" }
+    commanders: [person/mustafa-ii-uthmani, person/ahmed-iii-uthmani]
+  - label: { ar: "أدرنة", en: "Edirne" }
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q5338335

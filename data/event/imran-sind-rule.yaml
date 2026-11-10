@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qiqan }
 wings: [time]
+sides:
+  - label: { ar: "جيش عمران بن موسى البرمكي", en: "Imran ibn Musa al-Barmaki's army" }
+    commanders: [person/imran-ibn-musa-al-barmaki, person/al-mutasim-abi-ishaq]
+  - label: { ar: "القيقان", en: "al-Qiqan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

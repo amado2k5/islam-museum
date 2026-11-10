@@ -17,6 +17,10 @@ relations:
   - { type: had_participant, target: person/said-ibn-zayd, role: "كره الغزو مستدلاً بقول عمر", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "والي مصر الذي أخبر عثمان بالإغارة", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/ifriqiya }
+sides:
+  - label: { ar: "جيش عثمان بن عفان", en: "Uthman ibn Affan's army" }
+    commanders: [person/uthman-ibn-affan]
+  - label: { ar: "إفريقية", en: "Ifriqiya" }
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 161-162" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 161-162", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

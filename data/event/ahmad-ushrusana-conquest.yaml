@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/haydar-ibn-kawus, role: "الدليل على الطريق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/ushrusana }
 wings: [time]
+sides:
+  - label: { ar: "جيش أحمد بن أبي خالد الأحول", en: "Ahmad ibn Abi Khalid al-Ahwal's army" }
+    commanders: [person/ahmad-ibn-abi-khalid]
+  - label: { ar: "أشروسنة", en: "Ushrusana" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

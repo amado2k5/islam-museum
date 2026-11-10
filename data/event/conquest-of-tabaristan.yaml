@@ -15,6 +15,10 @@ relations:
   - { type: had_participant, target: person/abd-allah-ibn-amir, role: "السابق إلى خراسان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tabaristan }
 wings: [time]
+sides:
+  - label: { ar: "جيش سعيد بن العاص بن سعيد بن العاص بن أمية", en: "Sa'id ibn al-As ibn Sa'id ibn al-As ibn Umayya's army" }
+    commanders: [person/said-ibn-al-as]
+  - label: { ar: "طبرستان", en: "Tabaristan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

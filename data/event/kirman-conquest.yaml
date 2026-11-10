@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "فاتح النواحي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/kirman }
 wings: [time]
+sides:
+  - label: { ar: "جيش مجاشع بن مسعود السلمي", en: "مجاشع بن مسعود السلمي's army" }
+    commanders: [person/mujashi-ibn-masud-al-sulami, person/abd-allah-ibn-amir]
+  - label: { ar: "كرمان", en: "Kirman" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

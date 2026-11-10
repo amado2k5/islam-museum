@@ -15,6 +15,10 @@ date:
 relations:
   - { type: occurred_at, target: place/otranto, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش السلطان محمد الفاتح", en: "السلطان محمد الفاتح's army" }
+    commanders: [person/mehmed-ii]
+  - label: { ar: "أوترانتو", en: "Otranto" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q695198

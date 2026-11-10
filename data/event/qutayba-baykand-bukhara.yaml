@@ -12,6 +12,11 @@ relations:
   - { type: had_participant, target: person/bashshar-ibn-muslim, role: "الخليفة على مرو", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/baykand }
 wings: [time]
+sides:
+  - label: { ar: "جيش قتيبة بن مسلم الباهلي", en: "قتيبة بن مسلم الباهلي's army" }
+    commanders: [person/qutayba-ibn-muslim, person/bashshar-ibn-muslim]
+  - label: { ar: "نيزك", en: "Nizak" }
+    participants: [person/nizak]
 sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1 }
 provenance:

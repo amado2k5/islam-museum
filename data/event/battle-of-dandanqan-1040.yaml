@@ -16,6 +16,10 @@ relations:
   - { type: occurred_at, target: place/merv, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/tughril-beg, role: "القائد الغالب", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/chaghri-beg, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "جيش طغرل بك", en: "طغرل بك's army" }
+    commanders: [person/tughril-beg, person/chaghri-beg]
+  - label: { ar: "مرو", en: "Merv" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

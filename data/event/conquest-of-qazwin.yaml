@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/tulayha-ibn-khuwaylid, role: "على الخمسمائة المرتبين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qazwin }
 wings: [time]
+sides:
+  - label: { ar: "جيش البراء بن عازب", en: "al-Bara' ibn Azib's army" }
+    commanders: [person/al-bara-ibn-azib]
+  - label: { ar: "قزوين", en: "Qazwin" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

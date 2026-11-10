@@ -15,6 +15,10 @@ relations:
   - { type: occurred_at, target: place/cairo, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: during_reign, target: person/al-mutawakkil-iii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش السلطان سليم شاه بن عثمان", en: "Selim I's army" }
+    commanders: [person/selim-i-ottoman]
+  - label: { ar: "القاهرة", en: "Cairo" }
 sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 provenance:
   layer: own-research

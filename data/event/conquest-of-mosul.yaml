@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/harthama-ibn-arfaja, role: "مؤسس المصر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/mosul }
 wings: [time]
+sides:
+  - label: { ar: "جيش عتبة بن فرقد السلمي", en: "Utba ibn Farqad al-Sulami's army" }
+    commanders: [person/utba-ibn-farqad]
+  - label: { ar: "الموصل", en: "Mosul" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

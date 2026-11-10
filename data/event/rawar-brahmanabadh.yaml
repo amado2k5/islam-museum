@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/al-qasim-ibn-thalaba, role: "قاتل داهر في رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/rawar }
 wings: [time]
+sides:
+  - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
+    commanders: [person/muhammad-ibn-al-qasim]
+  - label: { ar: "راور", en: "Rawar" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

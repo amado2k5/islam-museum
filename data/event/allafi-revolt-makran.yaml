@@ -14,6 +14,10 @@ relations:
   - { type: had_participant, target: person/imran-ibn-musa-al-barmaki, role: "باني البيضاء", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/makran }
 wings: [time]
+sides:
+  - label: { ar: "جيش سعيد بن أسلم بن زرعة الكلابي", en: "Sa'id ibn Aslam ibn Zur'a al-Kilabi's army" }
+    commanders: [person/said-ibn-aslam, person/mujjaa-ibn-sir, person/muhammad-ibn-harun]
+  - label: { ar: "مكران", en: "Makran" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

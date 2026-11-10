@@ -15,6 +15,11 @@ relations:
   - { type: had_participant, target: person/salama-ibn-al-harith-al-taghlibi, role: "الظافر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/bakr-ibn-wail, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "جيش سلمة بن الحارث الكندي", en: "سلمة بن الحارث الكندي's army" }
+    commanders: [person/salama-ibn-al-harith-al-taghlibi]
+  - label: { ar: "بكر بن وائل", en: "Bakr ibn Wa'il" }
+    participants: [group/bakr-ibn-wail, group/banu-taghlib]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

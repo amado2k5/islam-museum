@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/muhammad-ibn-sinan-al-ujli, role: "من الموالي الثمانين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/daylam }
 wings: [time]
+sides:
+  - label: { ar: "جيش الحجاج بن يوسف الثقفي", en: "al-Hajjaj ibn Yusuf al-Thaqafi's army" }
+    commanders: [person/al-hajjaj-ibn-yusuf]
+  - label: { ar: "ديلم", en: "Daylam" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

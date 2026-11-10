@@ -19,6 +19,10 @@ relations:
   - { type: had_participant, target: person/al-nuwayri, role: "مقاتل وشاهد عيان", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/alaa-al-din-mughultay, role: "الأمير الذي قاتل إلى جانبه", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش علاء الدين مغلطاي", en: "Ala' al-Din Mughultay's army" }
+    commanders: [person/alaa-al-din-mughultay]
+  - label: { ar: "دمشق", en: "Damascus" }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

@@ -15,6 +15,10 @@ relations:
   - { type: had_participant, target: person/khazim-ibn-khuzayma, role: "قائد الجيش العباسي", sources: [source/duha-islam] }
   - { type: occurred_at, target: place/oman, sources: [source/duha-islam] }
   - { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش خازم بن خزيمة التميمي", en: "Khazim ibn Khuzayma al-Tamimi's army" }
+    commanders: [person/khazim-ibn-khuzayma]
+  - label: { ar: "عمان", en: "Oman" }
 sources: [source/duha-islam]
 provenance:
   layer: own-research

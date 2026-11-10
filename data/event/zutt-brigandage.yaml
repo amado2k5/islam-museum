@@ -13,6 +13,11 @@ relations:
   - { type: occurred_at, target: place/basra }
 wings: [time]
 external_ids: { wikidata: "Q118898707" }
+sides:
+  - label: { ar: "جيش المعتصم بالله أبو إسحاق بن الرشيد", en: "al-Mu'tasim Abu Ishaq ibn al-Rashid's army" }
+    commanders: [person/al-mutasim-abi-ishaq]
+  - label: { ar: "الزط", en: "the Zutt" }
+    participants: [group/zutt]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
