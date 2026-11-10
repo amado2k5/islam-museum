@@ -13,6 +13,7 @@ date:
   end: { edtf: "1191", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/akka }
 sides:
   - label: { ar: "الصليبيون بقيادة غي", en: "The Crusaders under Guy de Lusignan" }
   - label: { ar: "الحامية الأيوبية وجيش صلاح الدين", en: "The Ayyubid garrison and Saladin's army" }

@@ -13,6 +13,7 @@ date:
   end: { edtf: "0838", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/anatolia }
 sides:
   - label: { ar: "الجيش العباسي بقيادة المعتصم", en: "The Abbasid army under al-Mu'tasim" }
     commanders: [person/al-mutasim]

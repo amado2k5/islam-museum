@@ -13,6 +13,7 @@ date:
   end: { edtf: "0695", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/qayrawan }
 sides:
   - label: { en: "Banu Hilal", ar: "بنو هلال" }
     participants: [group/banu-hilal]

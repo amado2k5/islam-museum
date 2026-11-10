@@ -13,6 +13,7 @@ date:
   end: { edtf: "1239", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/shatiba }
 sides:
   - label: { ar: "قوات الرشيد بن المأمون الموحدي", en: "The forces of al-Rashid ibn al-Ma'mun al-Muwahhidi" }
     participants: [person/al-rashid-almohad]

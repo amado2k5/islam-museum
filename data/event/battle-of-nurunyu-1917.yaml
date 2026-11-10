@@ -13,6 +13,7 @@ date:
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-mai-turare, sources: [source/wikidata] }
+- { type: occurred_at, target: place/lindi }
 sides:
   - label: { en: "German Empire", ar: "الإمبراطورية الألمانية" }
   - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }

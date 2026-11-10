@@ -13,6 +13,7 @@ date:
   end: { edtf: "1299", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/homs }
 sides:
   - label: { ar: "الجيش المغولي بقيادة غازان", en: "The Mongol army under Ghazan" }
   - label: { ar: "الجيش المملوك", en: "The Mamluk army" }

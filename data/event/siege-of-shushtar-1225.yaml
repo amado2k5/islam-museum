@@ -16,6 +16,8 @@ sides:
     participants: [polity/abbasid-caliphate]
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]
+relations:
+- { type: occurred_at, target: place/tustar }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q137125301

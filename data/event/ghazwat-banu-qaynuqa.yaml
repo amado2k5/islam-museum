@@ -19,6 +19,8 @@ sides:
   - label: { ar: "بنو قينقاع", en: "Banu Qaynuqa" }
     participants: [group/banu-qaynuqa]
     strength: { value: 700, status: tradition, note: "سبعمائة مقاتل منهم أربعمائة دارع", sources: [source/ibn-hisham-sira] }
+relations:
+- { type: occurred_at, target: place/medina }
 sources: [source/ibn-hisham-sira]
 external_ids:
   wikidata: Q3079892

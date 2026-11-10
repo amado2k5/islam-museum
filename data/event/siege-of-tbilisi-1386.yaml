@@ -16,6 +16,8 @@ sides:
     participants: [polity/kingdom-of-georgia]
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
     participants: [polity/timurid-empire]
+relations:
+- { type: occurred_at, target: place/tiflis }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q21481366

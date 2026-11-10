@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0998", precision: year, status: tradition, derived: true }
   end: { edtf: "0998", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/ghazna }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q15224206

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1573", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tunis }
 sides:
   - label: { ar: "الجيش العثماني بقيادة سنان باشا", en: "The Ottoman army under Sinan Pasha" }
   - label: { ar: "الحامية الإسبانية في تونس", en: "The Spanish garrison of Tunis" }

@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "عقده أبو بكر على الناس في حروب الردة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/thabit-ibn-qays, role: "على الأنصار في جيش الردة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: occurred_at, target: place/arabian-peninsula }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 131–133"

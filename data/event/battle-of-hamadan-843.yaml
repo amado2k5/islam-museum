@@ -13,6 +13,7 @@ date:
   end: { edtf: "0843", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hamadhan }
 sides:
   - label: { ar: "الجيش العباسي", en: "The Abbasid army" }
     participants: [person/al-wathiq]

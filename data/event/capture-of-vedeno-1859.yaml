@@ -13,6 +13,7 @@ date:
   end: { edtf: "1859-04", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/vedeno }
 sides:
   - label: { en: "Caucasian Imamate", ar: "إمامة القوقاز" }
   - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }

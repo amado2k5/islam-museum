@@ -13,6 +13,7 @@ date:
   end: { edtf: "1573", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/malacca }
 sides:
   - label: { ar: "سلطنة آتشه", en: "The Aceh Sultanate" }
   - label: { ar: "حامية ملقا البرتغالية", en: "The Portuguese garrison of Malacca" }

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1877", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kars }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2888951

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1395", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/erci }
 sides:
   - label: { en: "Qara Qoyunlu", ar: "قره قويونلو" }
     participants: [polity/qara-qoyunlu]

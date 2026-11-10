@@ -13,6 +13,7 @@ date:
   end: { edtf: "1236", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/erbil }
 sides:
   - label: { en: "Abbasid Caliphate", ar: "الدولة العباسية" }
     participants: [polity/abbasid-caliphate]

@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "2023-03-10", precision: year, status: tradition, derived: true }
   end: { edtf: "2023-03-10", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/tulkarm }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q123514490

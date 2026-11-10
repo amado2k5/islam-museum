@@ -15,6 +15,8 @@ sides:
   - label: { en: "Taifa of Granada", ar: "طائفة غرناطة" }
     participants: [polity/taifa-of-granada]
   - label: { en: "Taifa of Seville", ar: "طائفة إشبيلية" }
+relations:
+- { type: occurred_at, target: place/malaga }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135234373

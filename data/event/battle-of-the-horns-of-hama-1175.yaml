@@ -13,6 +13,7 @@ date:
   end: { edtf: "1175", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hama }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q22935722

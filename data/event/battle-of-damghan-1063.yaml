@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1063", precision: year, status: tradition, derived: true }
   end: { edtf: "1063", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/damghan }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q23640826

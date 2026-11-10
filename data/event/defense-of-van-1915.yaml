@@ -13,6 +13,7 @@ date:
   end: { edtf: "1915", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/van }
 sides:
   - label: { ar: "قوات محمد الخامس رشاد", en: "The forces of Mehmed V Resad" }
     participants: [person/mehmed-v-uthmani]

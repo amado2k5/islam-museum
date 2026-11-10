@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1222", precision: year, status: tradition, derived: true }
   end: { edtf: "1223", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/trabzon }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q7510460

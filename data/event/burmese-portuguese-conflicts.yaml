@@ -11,6 +11,8 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1539", precision: year, status: tradition, derived: true }
   end: { edtf: "1600", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/myanmar }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131986088

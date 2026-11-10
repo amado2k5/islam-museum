@@ -14,6 +14,7 @@ date:
 relations:
   - { type: part_of, target: event/ottoman-habsburg-long-war }
   - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: occurred_at, target: place/belgrade }
 sides:
   - label: { ar: "قوات السلطان أحمد الثاني", en: "The forces of Sultan Ahmed II" }
     participants: [person/ahmad-ii-uthmani]

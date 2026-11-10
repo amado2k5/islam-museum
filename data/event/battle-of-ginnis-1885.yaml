@@ -13,6 +13,7 @@ date:
   end: { edtf: "1885-12-30", precision: year, status: tradition, derived: true }
 relations:
   - { type: part_of, target: event/mahdist-war }
+  - { type: occurred_at, target: place/sudan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2888625

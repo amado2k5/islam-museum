@@ -16,6 +16,8 @@ sides:
     participants: [polity/almoravid-dynasty]
   - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
     participants: [polity/castile]
+relations:
+- { type: occurred_at, target: place/guadalquivir }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131686321

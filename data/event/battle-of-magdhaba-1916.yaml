@@ -16,6 +16,8 @@ sides:
     participants: [polity/ottoman-empire]
   - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }
     participants: [polity/united-kingdom-great-britain-ireland]
+relations:
+- { type: occurred_at, target: place/sinai-peninsula }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2889191

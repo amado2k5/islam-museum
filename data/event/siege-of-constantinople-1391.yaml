@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1391", precision: year, status: tradition, derived: true }
   end: { edtf: "1392", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/constantinople }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3485862

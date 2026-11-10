@@ -16,6 +16,8 @@ sides:
     participants: [polity/abbasid-caliphate]
   - label: { en: "Banu Mazyad", ar: "الإمارة المزيدية" }
     participants: [group/banu-mazyad]
+relations:
+- { type: occurred_at, target: place/haditha }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q128811206

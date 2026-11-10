@@ -13,6 +13,7 @@ date:
   end: { edtf: "1284", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tudela }
 sides:
   - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
     participants: [person/al-hakim-bi-amr-illah]

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1350", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/gibraltar }
 sides:
   - label: { ar: "المرينيون والنصريون", en: "The Marinids and Nasrids" }
   - label: { ar: "حملة ألفونسو الحادي عشر", en: "Alfonso XI's campaign" }

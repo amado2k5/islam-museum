@@ -13,6 +13,7 @@ date:
   end: { edtf: "1638", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kandahar }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
     participants: [polity/safavid-iran]

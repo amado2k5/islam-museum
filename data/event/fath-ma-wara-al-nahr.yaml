@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0705", precision: year, status: tradition, derived: true }
   end: { edtf: "0751", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/transoxiana }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q4817850

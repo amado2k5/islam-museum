@@ -13,6 +13,7 @@ date:
   end: { edtf: "1707-06-20", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/agra }
 sides:
   - label: { en: "Azim-ush-Shan", ar: "أظهر الدين عظيم الشأن" }
   - label: { en: "Bahadur Shah I", ar: "قطب الدين بهادرشاه" }

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1239", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/gaza }
 sides:
   - label: { ar: "الجيش الأيوبي المصري", en: "The Egyptian Ayyubid army" }
     participants: [person/al-mustansir-billah]

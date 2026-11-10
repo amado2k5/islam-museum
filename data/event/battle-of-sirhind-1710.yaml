@@ -13,6 +13,7 @@ date:
   end: { edtf: "1710-05", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/sirhind }
 sides:
   - label: { en: "First Sikh State", ar: "الدولة السيخية الأولى" }
   - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }

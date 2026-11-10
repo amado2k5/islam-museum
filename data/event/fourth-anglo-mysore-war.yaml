@@ -13,6 +13,7 @@ date:
   end: { edtf: "1799", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/indian-subcontinent }
 sides:
   - label: { ar: "شركة الهند الشرقية البريطانية", en: "The British East India Company" }
   - label: { ar: "مملكة مايسور بقيادة تيبو سلطان", en: "Mysore under Tipu Sultan" }

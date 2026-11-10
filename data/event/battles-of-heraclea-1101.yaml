@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1101-09", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/konya }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q113624851

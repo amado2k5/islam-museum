@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0940-12-25", precision: year, status: tradition, derived: true }
   end: { edtf: "0940-12-25", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/ray }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q16253654

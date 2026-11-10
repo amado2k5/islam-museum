@@ -13,6 +13,7 @@ date:
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/almeria }
 sides:
   - label: { ar: "قوات عبد المؤمن بن علي القمي", en: "The forces of Abd al-Mu'min ibn Ali al-Qumi" }
     participants: [person/abd-al-mumin-ibn-ali]

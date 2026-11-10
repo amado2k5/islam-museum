@@ -16,6 +16,8 @@ sides:
     participants: [person/baybars]
     commanders: [person/baybars]
   - label: { ar: "حامية يافا الصليبية", en: "The Crusader garrison of Jaffa" }
+relations:
+- { type: occurred_at, target: place/yafa }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q137739278

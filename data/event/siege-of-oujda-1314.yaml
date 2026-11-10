@@ -13,6 +13,7 @@ date:
   end: { edtf: "1314", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/oujda }
 sides:
   - label: { ar: "قوات المستكفي", en: "The forces of al-Mustakfi I" }
     participants: [person/al-mustakfi-i-cairo]

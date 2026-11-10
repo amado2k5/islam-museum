@@ -13,6 +13,7 @@ date:
   end: { edtf: "0900", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/balkh }
 sides:
   - label: { en: "Saffarid dynasty", ar: "الدولة الصفارية" }
     participants: [polity/saffarid-dynasty]

@@ -15,6 +15,8 @@ sides:
   - label: { en: "Arabs", ar: "عرب" }
     participants: [group/arabs]
   - label: { en: "Neo-Babylonian Empire", ar: "الإمبراطورية البابلية الحديثة" }
+relations:
+- { type: occurred_at, target: place/hijaz }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125496067

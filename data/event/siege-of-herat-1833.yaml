@@ -15,6 +15,8 @@ sides:
   - label: { en: "Herat (1793-1863)", ar: "إمارة هراة" }
   - label: { en: "Qajar Iran", ar: "الدولة القاجارية" }
     participants: [polity/qajar-iran]
+relations:
+- { type: occurred_at, target: place/harat }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q131325158

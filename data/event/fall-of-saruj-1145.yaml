@@ -13,6 +13,7 @@ date:
   end: { edtf: "1145", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/suru }
 sides:
   - label: { ar: "جيش زنكي", en: "Zengi's army" }
   - label: { ar: "حامية سروج الصليبية", en: "The Crusader garrison of Saruj" }

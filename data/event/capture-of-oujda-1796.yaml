@@ -13,6 +13,7 @@ date:
   end: { edtf: "1796", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/oujda }
 sides:
   - label: { ar: "قوات سليم الثالث", en: "The forces of سليم الثالث" }
     participants: [person/selim-iii-uthmani]

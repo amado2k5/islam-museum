@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1619", precision: year, status: tradition, derived: true }
   end: { edtf: "1619", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/sousse }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131765076

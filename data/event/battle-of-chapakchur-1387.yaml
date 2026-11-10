@@ -16,6 +16,8 @@ sides:
     participants: [polity/qara-qoyunlu]
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
     participants: [polity/timurid-empire]
+relations:
+- { type: occurred_at, target: place/bing-l }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12848474

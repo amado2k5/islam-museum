@@ -13,6 +13,7 @@ date:
   end: { edtf: "0633", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/dumat-al-jandal }
 sides:
   - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
     participants: [person/khalid-ibn-al-walid]

@@ -15,6 +15,8 @@ sides:
   - label: { en: "Hafsid dynasty", ar: "الدولة الحفصية" }
     participants: [polity/hafsid-dynasty]
   - label: { en: "Maghrebi Arabs", ar: "العرب المغاربيون" }
+relations:
+- { type: occurred_at, target: place/nafta }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q139505672

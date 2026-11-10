@@ -13,6 +13,7 @@ date:
   end: { edtf: "1840-09-26", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/sidon }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q112648578

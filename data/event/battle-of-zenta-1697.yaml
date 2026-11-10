@@ -13,6 +13,7 @@ date:
   end: { edtf: "1697", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/senta }
 sides:
   - label: { ar: "الجيش العثماني بقيادة مصطفى الثاني", en: "The Ottoman army under Mustafa II" }
     commanders: [person/mustafa-ii-uthmani]

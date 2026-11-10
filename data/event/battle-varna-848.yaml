@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/murad-ii-uthmani, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/varna }
 sides:
   - label: { ar: "الجيش العثماني بقيادة مراد الثاني", en: "The Ottoman army under Murad II" }
     commanders: [person/murad-ii-uthmani]

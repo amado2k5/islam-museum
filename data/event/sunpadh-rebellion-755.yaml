@@ -13,6 +13,7 @@ date:
   end: { edtf: "0755", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/iran }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات أبو جعفر المنصور", en: "The authorities of Abu Ja'far al-Mansur" }

@@ -16,6 +16,8 @@ sides:
     participants: [polity/ghaznavid-empire]
   - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
     participants: [polity/seljuk-empire]
+relations:
+- { type: occurred_at, target: place/ghazna }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q16207166

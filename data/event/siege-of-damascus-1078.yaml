@@ -13,6 +13,7 @@ date:
   end: { edtf: "1078", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/damascus }
 sides:
   - label: { ar: "قوات المقتدي بأمر الله عبد الله بن محمد بن القائم", en: "The forces of al-Muqtadi bi-Amr Allah Abdullah ibn Muhammad ibn al-Qa'im" }
     participants: [person/al-muqtadi-billah]

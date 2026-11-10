@@ -13,6 +13,7 @@ date:
   end: { edtf: "1583", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/darband }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
     participants: [polity/safavid-iran]

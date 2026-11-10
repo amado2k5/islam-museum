@@ -13,6 +13,7 @@ date:
   end: { edtf: "1855", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/bitlis }
 sides:
   - label: { ar: "قوات عبد المجيد الأول", en: "The forces of Abd al-Majid I" }
     participants: [person/abd-al-majid-i-uthmani]

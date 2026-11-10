@@ -13,6 +13,7 @@ date:
   end: { edtf: "0748", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/khorasan }
 sides:
   - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
     participants: [polity/umayyad-caliphate]

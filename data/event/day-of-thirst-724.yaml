@@ -15,6 +15,8 @@ sides:
   - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
     participants: [polity/umayyad-caliphate]
   - label: { en: "Türgesh", ar: "تورجش" }
+relations:
+- { type: occurred_at, target: place/khujand }
 sources: [source/tarikh-al-tabari, source/wikidata]
 external_ids:
   wikidata: Q5242954

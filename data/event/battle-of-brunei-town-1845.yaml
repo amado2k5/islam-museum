@@ -11,6 +11,8 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1845", precision: year, status: tradition, derived: true }
   end: { edtf: "1845", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/bandar-seri-begawan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q136451014

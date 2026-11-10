@@ -16,6 +16,8 @@ sides:
     participants: [place/byzantine-empire]
   - label: { en: "Kalbids", ar: "إمارة بني كلب" }
     participants: [polity/kalbid-emirate]
+relations:
+- { type: occurred_at, target: place/messina }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q141304205

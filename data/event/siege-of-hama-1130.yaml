@@ -13,6 +13,7 @@ date:
   end: { edtf: "1130", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/hama }
 sides:
   - label: { ar: "قوات المسترشد بالله الفضل بن المستظهر", en: "The forces of al-Mustarshid bi'llah al-Fadl ibn al-Mustazhir" }
     participants: [person/al-mustarshid-billah]

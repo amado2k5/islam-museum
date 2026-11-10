@@ -16,6 +16,8 @@ sides:
     participants: [polity/taifa-of-granada]
   - label: { en: "Zirid Dynasty", ar: "زيريون" }
     participants: [polity/zirid-dynasty]
+relations:
+- { type: occurred_at, target: place/arjona }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135234459

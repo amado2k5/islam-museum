@@ -13,6 +13,7 @@ date:
   end: { edtf: "0637", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/jerusalem }
 sides:
   - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
     participants: [person/umar-ibn-al-khattab]

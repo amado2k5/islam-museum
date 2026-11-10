@@ -15,6 +15,8 @@ sides:
   - label: { en: "Cumans", ar: "قمانيون" }
     participants: [group/qibjaq]
   - label: { en: "Empire of Nicaea", ar: "إمبراطورية نيقية" }
+relations:
+- { type: occurred_at, target: place/vize }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140628890

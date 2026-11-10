@@ -13,6 +13,7 @@ date:
   end: { edtf: "1646", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/rethymno }
 sides:
   - label: { ar: "قوات إبراهيم الأول", en: "The forces of إبراهيم الأول" }
     participants: [person/ibrahim-i-uthmani]

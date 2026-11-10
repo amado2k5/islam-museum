@@ -16,6 +16,8 @@ sides:
     participants: [polity/ottoman-empire]
   - label: { en: "Qajar Iran", ar: "الدولة القاجارية" }
     participants: [polity/qajar-iran]
+relations:
+- { type: occurred_at, target: place/iran }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q77458574
