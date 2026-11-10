@@ -12,13 +12,14 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
-died: { edtf: "0680~", hijri: "0060~", calendar: julian, precision: year, status: tradition, derived: true, note: "Al-Waqidi places his death at the end of Mu'awiya's caliphate or the start of Yazid's (al-Isaba p. 1653); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+died: { edtf: "0680~", hijri: "0060~", calendar: julian, precision: year, status: tradition, derived: true, note: "Died at the end of Mu'awiya's or the start of Yazid's caliphate (al-Waqidi, al-Isaba p. 1653); CE year approximated to 60 AH", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
  - { type: member_of, target: group/ansar, sources: [source/al-aalam]}
  - { type: member_of, target: group/banu-saida, note: "al-Isaba p. 1653", sources: [source/ibn-hajar-isaba] }
  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isaba p. 1653", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-uhud, note: "witnessed Uhud and what followed it (al-Isaba p. 1653)", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12177958
 provenance:
