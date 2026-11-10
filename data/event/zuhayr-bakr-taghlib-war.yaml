@@ -14,6 +14,9 @@ relations:
   - { type: related_to, target: person/zuhayr-ibn-janab-al-kalbi, role: "أمير الخراج لأبرهة", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/bakr-ibn-wail, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "أتباع زهير بن جناب", en: "The followers of Zuhayr ibn Janab" }
+  - label: { ar: "بكر وتغلب", en: "Bakr and Taghlib" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

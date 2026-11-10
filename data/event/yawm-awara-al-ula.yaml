@@ -14,6 +14,9 @@ relations:
   - { type: had_participant, target: person/al-mundhir-ibn-imri-al-qays, role: "ملك الحيرة صاحب القسم", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/bakr-ibn-wail, role: "المقاتَلون", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/salama-ibn-al-harith-al-taghlibi, role: "سبب الوقعة — لجأ إلى بكر", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "المناذرة بقيادة المنذر بن امرئ القيس", en: "The Lakhmids under al-Mundhir ibn Imru' al-Qays" }
+  - label: { ar: "بكر بن وائل", en: "Bakr ibn Wa'il" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

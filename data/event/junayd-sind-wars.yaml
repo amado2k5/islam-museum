@@ -20,6 +20,9 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "حروب الجنيد بالسند", en: "al-Junayd's Sind Wars" }, at: [24.7522, 67.5211], precision: locality, source: source/futuh-buldan-maarif-1407 }
   sources: [source/futuh-buldan-maarif-1407]
+sides:
+  - label: { ar: "المسلمون بقيادة الجنيد", en: "The Muslims under al-Junayd" }
+  - label: { ar: "أهل السند بقيادة جايشا", en: "The people of Sind under Jaysha" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

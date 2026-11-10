@@ -13,6 +13,9 @@ date:
 relations:
   - { type: had_participant, target: person/al-walid-ibn-tarif-al-shari, role: "قائد الثورة وقُتل فيها", sources: [source/duha-islam] }
   - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الثوار بقيادة الوليد بن طريف", en: "The rebels under al-Walid ibn Tarif" }
+  - label: { ar: "الأمويون بقيادة يزيد بن مزياد", en: "The Umayyads under Yazid ibn Mazyad" }
 sources: [source/duha-islam]
 provenance:
   layer: own-research

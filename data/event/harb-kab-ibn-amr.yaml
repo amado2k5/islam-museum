@@ -14,6 +14,9 @@ relations:
   - { type: had_participant, target: person/uhayha-ibn-al-julah, role: "سيد بني جحجبا", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "بنو جحجوبا من الأوس", en: "Banu Juhjuba of Aws" }
+  - label: { ar: "بنو مازن من الخزرج", en: "Banu Mazin of Khazraj" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

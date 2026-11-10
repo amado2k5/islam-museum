@@ -14,6 +14,9 @@ relations:
   - { type: had_participant, target: person/hassan-ibn-kabsha, role: "الملك القتيل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "المنهزمون", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-tamim, role: "الظافرون", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "بنو عامر والملوك الكنديون", en: "Banu Amir and the Kindite kings" }
+  - label: { ar: "تميم وبنو حنظلة", en: "Tamim and Banu Hanzala" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

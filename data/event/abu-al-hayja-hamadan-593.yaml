@@ -26,5 +26,8 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "إرسال الأمير أبي الهيجاء إلى همذان", en: "Abu al-Hayja sent against Hamadan" }, at: [34.7983, 48.5148], precision: locality, source: source/muruj-al-dhahab }
   sources: [source/muruj-al-dhahab]
+sides:
+  - label: { ar: "العباسيون بقيادة الأمير أبي الهيا", en: "The Abbasids under the amir Abu al-Hayja" }
+  - label: { ar: "الخوارزمية بقيادة تكش", en: "The Khwarizmians under Tekish" }
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

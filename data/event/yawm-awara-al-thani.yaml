@@ -14,6 +14,9 @@ relations:
   - { type: had_participant, target: person/amr-ibn-al-mundhir-al-muharriq, role: "صاحب القسم المحرق", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-darim, role: "المقاتَلون", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/zarara-ibn-udas, role: "المرتضع عنده أسعد بن عمرو", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "بنو عامر بقيادة عمرو بن المنذر", en: "Banu Amir under Amr ibn al-Mundhir" }
+  - label: { ar: "دارم بقيادة سويد الدارمي", en: "The Darim under Suwayd al-Darimi" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research
