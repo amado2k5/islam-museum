@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہیں گے اے ہے ہمیں ہماری خوابگاہوں سے کس نے (جگا) اُٹھایا؟ یہ وہی تو ہے جس کا خدا نے وعدہ کیا تھا اور پیغمبروں نے سچ کہا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

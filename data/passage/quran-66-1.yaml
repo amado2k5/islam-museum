@@ -17,6 +17,8 @@ translations:
   ur: { text: "اے پیغمبر جو چیز خدا نے تمہارے لئے جائز کی ہے تم اس سے کنارہ کشی کیوں کرتے ہو؟ (کیا اس سے) اپنی بیویوں کی خوشنودی چاہتے ہو؟ اور خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

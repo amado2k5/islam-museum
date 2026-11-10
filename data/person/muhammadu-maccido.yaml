@@ -1,0 +1,18 @@
+id: person/muhammadu-maccido
+class: person
+label: { ar: "محمد مجيدو", en: "Muhammadu Maccido", ur: "محمد مجيدو" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "محمد مجيدو، خليفة سوكوتو ؛ حكم من 1996م إلى 2006م. {cite:wikidata}"
+  en: "Muhammadu Maccido, the caliph of the Sokoto caliphate, ruling 1996–2006 CE. {cite:wikidata}"
+  ur: "محمد مجيدو، سوکوتو خلافت کے خلیفہ؛ 1996ء سے 2006۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1996", calendar: julian, precision: year }, end: { edtf: "2006", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/ibrahim-dasuki, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

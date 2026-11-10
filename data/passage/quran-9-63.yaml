@@ -17,6 +17,7 @@ translations:
   ur: { text: "کیا ان لوگوں کو معلوم نہیں کہ جو شخص خدا اور اس کے رسول سے مقابلہ کرتا ہے تو اس کے لیے جہنم کی آگ (تیار) ہے جس میں وہ ہمیشہ (جلتا) رہے گا۔ یہ بڑی رسوائی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
+  - { type: mentions, target: concept/asma-al-azim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

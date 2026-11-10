@@ -17,6 +17,7 @@ translations:
   ur: { text: "پوچھو کہ بھلا تمہارے شریکوں میں کون ایسا ہے کہ حق کا رستہ دکھائے۔ کہہ دو کہ خدا ہی حق کا رستہ دکھاتا ہے۔ بھلا جو حق کا رستہ دکھائے وہ اس قابل ہے کہ اُس کی پیروی کی جائے یا وہ کہ جب تک کوئی اسے رستہ نہ بتائے رستہ نہ پائے۔ تو تم کو کیا ہوا ہے کیسا انصاف کرتے ہو؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

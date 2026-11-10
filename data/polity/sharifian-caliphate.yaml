@@ -1,0 +1,21 @@
+id: polity/sharifian-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الخلافة الشرفية
+  en: Sharifian Caliphate
+  ur: "شریفی خلافت"
+summary:
+  ar: خلافة أعلنها الحسين بن علي شريف مكة في مارس 1924م بعد إلغاء الخلافة العثمانية؛ لم يلقَ اعترافاً واسعاً وانتهت بتنازله سنة 1925م.
+  en: The caliphate proclaimed by Husayn ibn Ali, Sharif of Mecca, in March 1924 after the abolition of the Ottoman caliphate; it found little recognition and ended with his abdication in 1925.
+  ur: "شریف مکہ حسین بن علی کی مارچ 1924ء میں عثمانی خلافت کے خاتمے پر خلافت کا اعلان؛ وسیع تسلیم نہ ملی اور 1925ء میں ان کے دستبردار ہونے پر ختم ہوئی۔"
+wings: [time]
+periods: [period/modern-era]
+regions: [arabia]
+start: { edtf: "1924", calendar: gregorian, precision: year, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+end: { edtf: "1925", calendar: gregorian, precision: year, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+capitals:
+- place: place/mecca
+sources: [source/encyclopaedia-of-islam-2, source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-claim-polities-1", note: "Dates and the claim's contested, short-lived character from EI2's Husayn ibn Ali article." }

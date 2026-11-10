@@ -17,6 +17,7 @@ translations:
   ur: { text: "جو خدا سے بن دیکھے ڈرتا ہے اور رجوع لانے والا دل لے کر آیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

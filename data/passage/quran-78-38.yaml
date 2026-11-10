@@ -17,6 +17,7 @@ translations:
   ur: { text: "جس دن روح (الامین) اور فرشتے صف باندھ کر کھڑے ہوں گے تو کوئی بول نہ سکے گا مگر جس کو (خدائے رحمٰن) اجازت بخشے اور اس نے بات بھی درست کہی ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-78 }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

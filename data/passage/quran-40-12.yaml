@@ -17,6 +17,8 @@ translations:
   ur: { text: "یہ اس لئے کہ جب تنہا خدا کو پکارا جاتا تھا تو تم انکار کردیتے تھے۔ اور اگر اس کے ساتھ شریک مقرر کیا جاتا تھا تو تسلیم کرلیتے تھے تو حکم تو خدا ہی کا ہے جو (سب سے) اوپر اور (سب سے) بڑا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: concept/asma-al-ali, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-kabir, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

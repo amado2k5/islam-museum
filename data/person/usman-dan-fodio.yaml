@@ -42,6 +42,7 @@ died:
   sources: [source/wikipedia-usman-dan-fodio-en, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
 
 relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-en] }
   - { type: sibling_of, target: person/abdullahi-dan-fodio, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio] }
   - { type: student_of, target: person/jibril-ibn-umar, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio] }
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-ar] }
@@ -87,3 +88,5 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: "wave-158j"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1809", calendar: julian, precision: year }, end: { edtf: "1817", calendar: julian, precision: year }, status: historical, sources: [source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-en] }

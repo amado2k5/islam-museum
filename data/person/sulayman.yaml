@@ -13,6 +13,7 @@ story_roles:
 relations:
   - { type: child_of, target: person/dawud, sources: [source/sahih-al-bukhari] }
   - { type: ruled_over, target: place/jerusalem, confidence: low, note: "Solomon, king ruling from Jerusalem per the biblical and Islamic tradition.", sources: [source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-muhammad-metwally-al-shaarawy] }
+  - { type: exemplifies, target: concept/asma-al-wahhab, sources: [source/tanzil-quran] }
 provenance:
   layer: "own-research"
   source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR"

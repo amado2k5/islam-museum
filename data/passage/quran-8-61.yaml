@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور اگر یہ لوگ صلح کی طرف مائل ہوں تو تم بھی اس کی طرف مائل ہو جاؤ اور خدا پر بھروسہ رکھو۔ کچھ شک نہیں کہ وہ سب کچھ سنتا (اور) جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
+  - { type: mentions, target: concept/asma-al-alim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-sami, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations, source/tafsir-tabari-shakir-v14]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "خدا کی مسجدوں کو تو وہ لوگ آباد کرتے ہیں جو خدا پر اور روز قیامت پر ایمان لاتے ہیں اور نماز پڑھتے اور زکواة دیتے ہیں اور خدا کے سوا کسی سے نہیں ڈرتے۔ یہی لوگ امید ہے کہ ہدایت یافتہ لوگوں میں (داخل) ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
+  - { type: mentions, target: concept/asma-al-akhir, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

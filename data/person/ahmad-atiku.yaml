@@ -1,0 +1,18 @@
+id: person/ahmad-atiku
+class: person
+label: { ar: "أحمد عتيق", en: "Ahmadu Atiku", ur: "أحمد عتيق" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "أحمد عتيق، خليفة سوكوتو ؛ حكم من 1859م إلى 1866م. {cite:wikidata}"
+  en: "Ahmadu Atiku, the caliph of the Sokoto caliphate, ruling 1859–1866 CE. {cite:wikidata}"
+  ur: "أحمد عتيق، سوکوتو خلافت کے خلیفہ؛ 1859ء سے 1866۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1859", calendar: julian, precision: year }, end: { edtf: "1866", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/ali-babba, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور (اس وقت کو یاد کرو) جب خدا تم سے وعدہ کرتا تھا کہ (ابوسفیان اور ابوجہل کے) دو گروہوں میں سے ایک گروہ تمہارا (مسخر) ہوجائے گا۔ اور تم چاہتے تھے کہ جو قافلہ بے (شان و) شوکت (یعنی بے ہتھیار ہے) وہ تمہارے ہاتھ آجائے اور خدا چاہتا تھا کہ اپنے فرمان سے حق کو قائم رکھے اور کافروں کی جڑ کاٹ کر (پھینک) دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

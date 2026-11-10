@@ -18,11 +18,14 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-ishaq-guillaume] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0656", calendar: julian, precision: year }, end: { edtf: "0661", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
+  - { type: ruled_over, target: polity/rashidun-caliphate, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: successor_of, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: participated_in, target: event/ali-expeditions-to-yemen, role: "أمير الجيش؛ غزا اليمن مرتين", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "بعثه النبي بسيفه ليردّ ما أُخذ من جذام", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa, source/ibn-hisham-sira] }
+  - { type: exemplifies, target: concept/asma-al-hakam, sources: [source/ibn-sad-tabaqat-bewley] }
 external_ids: { wikidata: Q39619 }
 sensitivity: contested
 sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/sahih-al-bukhari, source/sahih-muslim, source/sallabi-ali-vol1, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-ahmed-abdussalam, source/marifat-sahaba-abu-nuaym]

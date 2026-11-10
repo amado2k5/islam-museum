@@ -17,6 +17,7 @@ translations:
   ur: { text: "کیا انہوں نے اس کے سوا کارساز بنائے ہیں؟ کارساز تو خدا ہی ہے اور وہی مردوں کو زندہ کرے گا اور وہ ہر چیز پر قدرت رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
+  - { type: mentions, target: concept/asma-al-waliyy, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

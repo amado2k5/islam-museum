@@ -9,13 +9,14 @@ summary:
   en: Twelfth Ubaydid caliph, succeeding his father in 544; killed in 549, his boy al-Fa'iz raised as Egypt's power failed
     {cite:tarikh-khulafa-minhaj-1434 p. 673-674}.
 gender: male
+roles: [caliph]
 wings:
 - people
 periods:
 - period/abbasid-fragmentation
 provenance:
   layer: own-research
-  source: تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 666–675
+  source: تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 666–675
   generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-tarikh-khulafa-batch-41
 external_ids:
@@ -32,6 +33,8 @@ status:
 born: { edtf: "1133", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
 died: { edtf: "1154", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa" }
 relations:
+- { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: successor_of, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - type: born_in
   target: place/cairo
   note: Wikidata Q85 (P19); corroboration recommended.
@@ -50,3 +53,5 @@ relations:
   sources:
   - source/wikidata
   confidence: medium
+story_roles:
+  - { role: ruler, toward: polity/fatimid-caliphate, start: { edtf: "1149", calendar: julian, precision: year }, end: { edtf: "1154", calendar: julian, precision: year }, status: historical, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }

@@ -17,6 +17,8 @@ translations:
   ur: { text: "بےشک انسان پر زمانے میں ایک ایسا وقت بھی آچکا ہے کہ وہ کوئی چیز قابل ذکر نہ تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

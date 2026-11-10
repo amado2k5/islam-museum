@@ -18,13 +18,14 @@ summary:
     not made to fill but to be spent in God''s way''. Nine months, dying 13 Rajab 623 {cite:tarikh-khulafa-minhaj-1434 p.
     699-701}.'
 gender: male
+roles: [caliph]
 wings:
 - people
 periods:
 - period/crusades-ayyubid-mamluk
 provenance:
   layer: own-research
-  source: تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 694–704
+  source: تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 694–704
   generated_by: Devin (SWE-2 High) from Apple Vision OCR
   run: lib-tarikh-khulafa-batch-44
 external_ids:
@@ -41,6 +42,8 @@ status:
 born: { edtf: "1176", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 died: { edtf: "1226", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Khulafa" }
 relations:
+- { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: successor_of, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - type: born_in
   target: place/baghdad
   note: Wikidata Q1530 (P19); corroboration recommended.
@@ -59,3 +62,5 @@ relations:
   sources:
   - source/wikidata
   confidence: medium
+story_roles:
+  - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1225", calendar: julian, precision: year }, end: { edtf: "1226", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

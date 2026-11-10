@@ -26,6 +26,7 @@ relations:
   - { type: died_in, target: place/medina }
   - { type: buried_in, target: place/medina }
   - { type: participated_in, target: event/hijra, role: protagonist }
+  - { type: exemplifies, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
 external_ids: { wikidata: Q9458 }
 sources: [source/mubarakpuri-raheeq, source/ibn-ishaq-guillaume, source/assabile-omar-abdelkafy]
 education:

@@ -156,7 +156,29 @@ export function modernApiData(c: Compiled) {
  * the records the feature's pages show, with their compact row, the listed data fields and every edge from the record.
  * Static, built with the site; empty-capable.
  */
-const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boolean; fields: string[] }[] = [
+/**
+ * Khulafa Browser (docs/plan/30): the caliphate chains. A caliph is a person whose story_roles carry a
+ * reign (role: ruler or rival-claimant) toward one of the caliphate polities; each chain is ordered by reign start.
+ */
+export function khulafaChains(c: Compiled) {
+  const CALIPHATES = ["polity/rashidun-caliphate", "polity/umayyad-caliphate", "polity/umayyads-of-cordoba",
+    "polity/abbasid-caliphate", "polity/abbasid-caliphate-cairo", "polity/fatimid-caliphate", "polity/almohad-caliphate",
+    "polity/ottoman-empire", "polity/sokoto-caliphate", "polity/zubayrid-caliphate", "polity/hammudid-caliphate", "polity/sharifian-caliphate"];
+  const set = new Set(CALIPHATES);
+  const chains: Record<string, { order: number; person: string; start?: string; end?: string; role: string }[]> = {};
+  for (const n of c.nodes.filter((n) => !n.stub && n.class === "person")) {
+    const r = ((n.data.story_roles ?? []) as any[]).find((x) => ["ruler", "rival-claimant"].includes(x.role) && set.has(x.toward));
+    if (!r) continue;
+    (chains[r.toward] ??= []).push({ order: 0, person: n.id, start: r.start?.edtf, end: r.end?.edtf, role: r.role });
+  }
+  for (const list of Object.values(chains)) {
+    list.sort((a, b) => String(a.start ?? "").localeCompare(String(b.start ?? "")));
+    list.forEach((x, i) => { x.order = i + 1; });
+  }
+  return { generated: c.generated, feature: "khulafa-browser", chains };
+}
+
+const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boolean; fields: string[]; extra?: (n: Node, edgesFrom: Map<string, { type: string; to: string }[]>) => Record<string, unknown> }[] = [
   { file: "jobs.json", feature: "job-browser", pick: (n) => n.class === "job",
     fields: ["kind", "domain", "hirfa", "era", "broader", "regions", "organization", "training"] },
   { file: "fatwa.json", feature: "fatwa-explorer", pick: (n) => n.class === "work" && ["fatwa", "fatwa-collection"].includes(n.data.kind),
@@ -167,6 +189,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["kind"] },
   { file: "poetry.json", feature: "poetry", pick: (n) => n.class === "work" && ["poem", "diwan"].includes(n.data.kind),
     fields: ["kind", "authors", "language", "languages", "genre", "metre", "composed"] },
+  { file: "asma.json", feature: "asma-browser", pick: (n) => n.class === "concept" && n.data.kind === "divine-name",
+    fields: ["kind", "order", "name_meta"] },
+  { file: "battles.json", feature: "battles-browser", pick: (n) => n.class === "event" && ["battle", "siege", "conquest", "war", "campaign", "raid", "revolt", "civil-war", "skirmish", "naval-battle", "mutiny"].includes(n.data.kind),
+    fields: ["kind", "sides", "outcome", "casualties", "significance", "map", "part_of"],
+    extra: (n, ef) => ({ periods: n.periods, themes: n.themes,
+      ghazwa: n.periods.includes("period/prophetic-era") && (
+      (n.data.sides ?? []).some((s: any) => (s.commanders ?? []).includes("person/muhammad") || (s.participants ?? []).includes("person/muhammad")) ||
+      (ef.get(n.id) ?? []).some((e) => e.type === "had_participant" && e.to === "person/muhammad")) }) },
+  { file: "khulafa.json", feature: "khulafa-browser", pick: (n) => n.class === "person" && (n.data.roles ?? []).includes("caliph"),
+    fields: ["roles", "story_roles"] },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];
@@ -193,6 +225,7 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
     const items = real.filter(spec.pick).sort((a, b) => a.id.localeCompare(b.id)).map((n) => {
       const picked = Object.fromEntries(spec.fields.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
       const row: Record<string, unknown> = { ...compact(n), ...picked, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
+      if (spec.extra) Object.assign(row, spec.extra(n, edgesFrom as any));
       if (n.class === "job") row.holders = (holders.get(n.id) ?? []).sort();
       return row;
     });
@@ -294,6 +327,8 @@ export function exportApi(c: Compiled) {
     write(`modern/top/${list}.json`, JSON.stringify({ generated: c.generated, list, formula: reachFormula(), items }, null, 1));
   }
   for (const [file, body] of Object.entries(featureApiData(c))) write(file, JSON.stringify(body, null, 1));
+  // Khulafa Browser (docs/plan/30): the ordered succession chains per caliphate, computed from story_roles reigns.
+  write("khulafa/chains.json", JSON.stringify(khulafaChains(c), null, 1));
   // The Time Browser's subject index (scripts/time-browser-explorer.ts runs in prebuild and writes .cache/time-browser/).
   const timeBrowserIndex = p(".cache", "time-browser", "explorer-index.json");
   if (existsSync(timeBrowserIndex)) {

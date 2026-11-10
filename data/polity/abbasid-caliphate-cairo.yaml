@@ -1,0 +1,25 @@
+id: polity/abbasid-caliphate-cairo
+class: polity
+kind: caliphate
+label:
+  ar: الخلافة العباسية في القاهرة
+  en: Abbasid Caliphate of Cairo
+  ur: "قاہرہ کی عباسی خلافت"
+summary:
+  ar: خط الخلفاء العباسيين في القاهرة من 1261م إلى 1517م تحت ظل سلطنة المماليك؛ خلفاء بلا سلطان فعلي، يليهم السلطان في التعيين والعزل.
+  en: "The Abbasid caliphal line re-established at Cairo under Mamluk protection, 1261–1517 CE: caliphs without temporal power, installed and deposed at the sultan's hand, until Selim I ended the line after conquering Egypt."
+  ur: "مملوکوں کی سرپرستی میں قاہرہ میں بحال عباسی خلافت، 1261ء تا 1517ء؛ بلا حقیقی اختیار خلفاء جنہیں سلاطین مقرر اور معزول کرتے، 1517ء میں سلِّم اول کے مصر فتح کرنے پر ختم ہوئی۔"
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+regions: [egypt-nile]
+start: { edtf: "1261", calendar: julian, precision: year, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+end: { edtf: "1517", calendar: julian, precision: year, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
+capitals:
+- place: place/cairo
+relations:
+- type: successor_of
+  target: polity/abbasid-caliphate
+  sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/suluk-maqrizi, source/encyclopaedia-of-islam-2]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-claim-polities-1", note: "The line and its 1261–1517 span from al-Suyuti's Tarikh al-Khulafa, which he wrote inside it; the ceremonial character is how the sources themselves describe it." }

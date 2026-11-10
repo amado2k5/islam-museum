@@ -17,6 +17,7 @@ translations:
   ur: { text: "جس نے آسمانوں اور زمین کو اور جو کچھ ان دونوں کے درمیان ہے چھ دن میں پیدا کیا پھر عرش پر جا ٹھہرا وہ (جس کا نام) رحمٰن (یعنی بڑا مہربان ہے) تو اس کا حال کسی باخبر سے دریافت کرلو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

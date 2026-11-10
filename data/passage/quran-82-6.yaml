@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے انسان تجھ کو اپنے پروردگار کرم گستر کے باب میں کس چیز نے دھوکا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-82 }
+  - { type: mentions, target: concept/asma-al-karim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
