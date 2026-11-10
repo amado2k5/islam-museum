@@ -6,16 +6,17 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لسنان بن أبي سنان الأسدي، صحابي القرن السابع، توفي سنة ٦٥٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sinan ibn Abi Sinan al-Asadi, the seventh-century Companion, d. 652; the biographical entry is not yet checked on the page."
+  ar: "صحابي أسدي، ابن أخي عكاشة بن محصن؛ شهد بدراً، وكان أول من كتب إلى النبي بخبر طليحة بن خويلد، ومات سنة اثنتين وثلاثين."
+  en: "An Asadi Companion, nephew of Ukasha ibn Mihsan; he witnessed Badr and was the first to write to the Prophet with news of Tulayha ibn Khuwaylid. He died in 32 AH."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+sources: [source/al-aalam, source/ibn-hajar-isaba]
+died: { edtf: "0653", hijri: "0032", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in 32 AH (al-Isaba p. 619); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion-era figure of the Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 619", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12251327
 provenance:
