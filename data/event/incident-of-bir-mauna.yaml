@@ -17,5 +17,12 @@ relations:
   - { type: had_participant, target: person/amir-ibn-al-tufayl, role: "المحرّض على قتل القراء والغادر بعهد عمه", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, role: "قنت شهراً يدعو على رعل وذكوان وعصية", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "القراء المعلمون", en: "The teaching reciters" }
+    commanders: [person/haram-ibn-milhan]
+    strength: { value: 70, status: tradition, note: "سبعون رجلاً في المشهور", sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+  - label: { ar: "بنو سليم بتحريض عامر بن الطفيل", en: "Banu Sulaym at Amir ibn al-Tufayl's incitement" }
+    participants: [group/banu-sulaym]
+    commanders: [person/amir-ibn-al-tufayl]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 293–295" }
