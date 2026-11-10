@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1704", precision: year, status: tradition, derived: true }
   end: { edtf: "1704", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q694073
