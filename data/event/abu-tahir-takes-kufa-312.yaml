@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/kufa, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jafar-ibn-warqa-al-shaybani, role: "والي الكوفة المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"

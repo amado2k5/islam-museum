@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/basra, sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-ashari, role: "المعلن التوبة من الاعتزال", sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: group/mutazila, role: "المذهب المفارَق", sources: [source/encyclopaedia-of-islam-2, source/fihrist-ibn-al-nadim] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

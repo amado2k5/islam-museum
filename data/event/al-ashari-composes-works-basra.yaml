@@ -21,6 +21,7 @@ relations:
   - { type: mentions, target: work/maqalat-islamiyyin, sources: [source/encyclopaedia-of-islam-2, source/maqalat-islamiyyin] }
   - { type: mentions, target: work/al-luma-ashari, sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala] }
   - { type: mentions, target: work/al-ibana-ashari, sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/siyar-alam-nubala, source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2, source/maqalat-islamiyyin]
 provenance:
   layer: own-research

@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/britannica-al-ghazali] }
   - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "ترك منصبه في بغداد", sources: [source/britannica-al-ghazali] }
+  - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-al-ghazali]
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
 provenance:

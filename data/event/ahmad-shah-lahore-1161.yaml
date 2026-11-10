@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-shah-durrani, role: "الغازي المحتل", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

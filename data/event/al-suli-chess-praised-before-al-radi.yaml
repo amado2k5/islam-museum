@@ -15,6 +15,8 @@ relations:
   - { type: part_of, target: period/abbasid-early }
   - { type: had_participant, target: person/al-radi-billah, role: "الخليفة الذي أثنى", sources: [source/muruj-al-dhahab] }
   - { type: had_participant, target: person/al-suli, role: "موضوع الثناء، النديم الشطرنجي", sources: [source/muruj-al-dhahab] }
+  - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-radi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/muruj-al-dhahab]
 provenance:
   layer: own-research

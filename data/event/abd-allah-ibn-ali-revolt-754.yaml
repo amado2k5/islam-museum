@@ -11,6 +11,9 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0754", precision: year, status: tradition, derived: true }
   end: { edtf: "0754", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130245253

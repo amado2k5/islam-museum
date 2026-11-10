@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/tarikh-islam-dhahabi], note: "سمع من أبي توبة الربيع بن نافع بحلب {cite:tarikh-islam-dhahabi p. 359}" }
   - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi], note: "سمع من خلق بمصر، ووصف في سننه قثاءة شبّرها بمصر {cite:tarikh-islam-dhahabi pp. 359, 362}" }
   - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "الطالب الراحل", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/daw-lami-jil-1992] }
   - { type: occurred_at, target: place/jerusalem, sources: [source/daw-lami-jil-1992] }
   - { type: had_participant, target: person/al-sakhawi, role: "الرحّالة طالب الحديث", sources: [source/daw-lami-jil-1992] }
+  - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/daw-lami-jil-1992, source/shadharat-dhahab]
 provenance:
   layer: own-research

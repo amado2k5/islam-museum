@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/imad-al-din-zangi-ii, role: "من نالت حلب بمبادلة سنجار", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/izz-al-din-masud, role: "صاحب الموصل الذي دخلها بالوصية ثم نازل عنها", sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 577، ص 106–108"

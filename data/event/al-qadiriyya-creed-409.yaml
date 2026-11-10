@@ -13,6 +13,7 @@ date:
 relations:
   - { type: located_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة صاحب الكتاب والآمر بقراءته", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 409)، قراءة آبل فيجن"
