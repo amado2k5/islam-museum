@@ -26,6 +26,9 @@ open a new block on top with the new version and today's date.
 
 ## v1.5.1 — 2026-11-09
 
+### Added
+- **Proposal: the Asma ul Husna Browser (plan 29).** A new plan document proposes «متصفح أسماء الله الحسنى»: the ninety-nine names of God as `concept` records of a new kind `divine-name` under the existing `concept/asma-allah-al-husna` umbrella, ordered on the Tirmidhi list with Ibn Majah differences labelled. Each name would get a page at `/[lang]/asma/<slug>/` grouping its cited stories — Qur'an passages, hadith, seerah events, sahaba and saliheen — through the existing `mentions`/`exemplifies` edges plus curated trilingual prose, with a `/api/v1/asma.json` export. It is a proposal only: no schema, data, site or i18n changes until the founder approves it.
+
 ### Data
 - **Provenance recorded for the 3D tour's records.** Thirteen records shown in the 3D tour previously failed the publication-standard cite-check on missing provenance. Eight (Junoon, the OIC, three living-culture listings, Fatima al-Fihri, Mimar Sinan, iftar practice and al-Fihrist) now carry a top-level `provenance` block naming the cited sources and the generating run. The five object records (Andalus dirhams, Umar ibn Yusuf's astrolabe, Birmingham mushaf, Iznik bottle, V&A mosque lamp) cannot carry one — the object schema declares `provenance` an array while the base schema declares it an object — so `cite-check` now honours their `status.generated_by` plus cited-sources convention instead. `npm run cite-check` on all 53 tour-referenced records: 0 fail.
 
