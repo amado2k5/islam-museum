@@ -12,6 +12,7 @@ date:
   start: { edtf: "1663-09-28", hijri: "1074-02-25", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: had_participant, target: person/fazil-ahmed-koprulu, role: "القائد الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 308"
