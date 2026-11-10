@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1138-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1138-04", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
+    participants: [person/al-muqtafi-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q113549086

@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0637", precision: year, status: tradition, derived: true }
   end: { edtf: "0637", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q2563208

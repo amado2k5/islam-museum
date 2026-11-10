@@ -14,6 +14,11 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1755", precision: year, status: tradition, derived: true }
   end: { edtf: "1755", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عثمان الثالث", en: "The forces of Osman III" }
+    participants: [person/uthman-iii-uthmani]
+  - label: { ar: "حامية نيسابور", en: "The defenders of Nishapur" }
+    participants: [place/nishapur]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q132175133

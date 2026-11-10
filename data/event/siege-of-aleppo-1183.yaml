@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1183", precision: year, status: tradition, derived: true }
   end: { edtf: "1183", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131448298

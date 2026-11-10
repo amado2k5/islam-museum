@@ -16,6 +16,11 @@ relations:
   - { type: had_participant, target: person/al-malik-al-aziz-uthman, sources: [source/kamil-ibn-al-athir] }
   - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
   - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
+    participants: [place/damascus]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0962", precision: year, status: tradition, derived: true }
   end: { edtf: "0962", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات المطيع لله الفضل بن المقتدر", en: "The forces of al-Muti li-llah al-Fadl ibn al-Muqtadir" }
+    participants: [person/al-muti-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4337353

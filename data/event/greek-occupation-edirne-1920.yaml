@@ -16,6 +16,11 @@ relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
   - { type: during_reign, target: person/abd-al-majid-ii, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The forces of None" }
+    participants: [person/muhammad-vi-uthmani]
+  - label: { ar: "حامية أدرنة", en: "The defenders of Edirne" }
+    participants: [place/edirne]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

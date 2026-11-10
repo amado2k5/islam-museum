@@ -15,6 +15,11 @@ date:
 relations:
   - { type: occurred_at, target: place/raqqa, sources: [source/kamil-ibn-al-athir] }
   - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
+sides:
+  - label: { ar: "قوات المرتضى عمر الموحدي", en: "The forces of al-Murtada Umar al-Muwahhidi" }
+    participants: [person/al-murtada-umar-almohad]
+  - label: { ar: "حامية الرقة", en: "The defenders of al-Raqqa" }
+    participants: [place/raqqa]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

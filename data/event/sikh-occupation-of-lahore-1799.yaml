@@ -17,6 +17,11 @@ date:
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات سليم الثالث", en: "The forces of None" }
+    participants: [person/selim-iii-uthmani]
+  - label: { ar: "حامية لاهور", en: "The defenders of Lahore" }
+    participants: [place/lahore]
 sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q48724669

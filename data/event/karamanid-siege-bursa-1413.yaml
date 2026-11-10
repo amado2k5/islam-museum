@@ -14,6 +14,11 @@ date:
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
   - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستعين ⁦(القاهرة)⁩", en: "The forces of al-Musta'in (Cairo)" }
+    participants: [person/al-mustain-cairo]
+  - label: { ar: "حامية بورصة", en: "The defenders of Bursa" }
+    participants: [place/bursa]
 sources: [source/freely-ottoman-architecture-2011]
 provenance:
   layer: "own-research"

@@ -19,5 +19,10 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: swe-2-high
   run: lib-ibar-east-19
+sides:
+  - label: { ar: "قوات المتوكل على الله", en: "The forces of al-Mutawakkil ala Allah" }
+    participants: [person/al-mutawakkil]
+  - label: { ar: "حامية نكور", en: "The defenders of Nekour" }
+    participants: [place/nekour]
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
