@@ -15,6 +15,6 @@ died: { edtf: "950", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
-  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (الخراساني); denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }
+  - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name ⁦(الخراساني)⁩; denotes association, not proven residence.", sources: [source/muntazam-ibn-al-jawzi, source/kamil-ibn-al-athir, source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab], confidence: low }
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "932", calendar: julian, precision: year }, end: { edtf: "934", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }
