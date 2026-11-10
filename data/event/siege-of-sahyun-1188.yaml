@@ -13,6 +13,11 @@ date:
   end: { edtf: "1188-07", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "حامية صهيون الصليبية", en: "The Crusader garrison of Sahyun" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: "Q121090822"

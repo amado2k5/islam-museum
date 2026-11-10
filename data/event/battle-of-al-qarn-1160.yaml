@@ -13,6 +13,10 @@ date:
   end: { edtf: "1160", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "الجيش الزنكي بقيادة نور الدين", en: "The Zengid army under Nur al-Din" }
+    participants: [person/nur-al-din-mahmud-ibn-zangi]
+  - label: { ar: "الصليبيون", en: "The Crusaders" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q137216484

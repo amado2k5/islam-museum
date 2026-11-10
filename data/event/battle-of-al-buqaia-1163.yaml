@@ -13,6 +13,10 @@ date:
   end: { edtf: "1163", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الصليبي", en: "The Crusader army" }
+  - label: { ar: "الجيش الزنكي بقيادة نور الدين", en: "The Zengid army under Nur al-Din" }
+    participants: [person/nur-al-din-mahmud-ibn-zangi]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q4872819
