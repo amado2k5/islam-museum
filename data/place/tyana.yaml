@@ -1,0 +1,20 @@
+id: place/tyana
+class: place
+kind: city
+label: { ar: "طوانة", en: "Tyana" }
+summary:
+  ar: "مدينة في تركيا الحديثة."
+  en: "Ancient city of Cappadocia in modern-day Turkey."
+wings: [place]
+coordinates: [37.848055555555554, 34.611111111111114]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1423615" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1423615 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

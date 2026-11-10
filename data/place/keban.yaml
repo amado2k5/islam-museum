@@ -1,0 +1,20 @@
+id: place/keban
+class: place
+kind: province
+label: { ar: "كيبان", en: "Keban" }
+summary:
+  ar: "مقاطعة."
+  en: "District in Elâzığ, Turkey."
+wings: [place]
+coordinates: [38.7925, 38.743888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1023265" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1023265 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

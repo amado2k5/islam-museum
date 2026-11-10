@@ -1,0 +1,20 @@
+id: place/lefkada
+class: place
+kind: island
+label: { ar: "ليفكادا", en: "Lefkada" }
+summary:
+  ar: "جزيرة."
+  en: "Greek island in the Ionian Sea."
+wings: [place]
+coordinates: [38.717778, 20.643889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q190138" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q190138 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

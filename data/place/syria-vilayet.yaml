@@ -1,0 +1,20 @@
+id: place/syria-vilayet
+class: place
+kind: province
+label: { ar: "ولاية سوريا", en: "Syria Vilayet" }
+summary:
+  ar: "مقاطعة."
+  en: "Ottoman province."
+wings: [place]
+coordinates: [33.513, 36.292]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1372503" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1372503 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

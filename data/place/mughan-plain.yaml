@@ -1,0 +1,20 @@
+id: place/mughan-plain
+class: place
+kind: region
+label: { ar: "سهل مغان", en: "Mughan plain" }
+summary:
+  ar: "إقليم."
+  en: "Plain."
+wings: [place]
+coordinates: [39.7, 48.45]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q633798" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q633798 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

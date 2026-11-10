@@ -1,0 +1,20 @@
+id: place/nihm-district
+class: place
+kind: province
+label: { ar: "مديرية نهم", en: "Nihm District" }
+summary:
+  ar: "مقاطعة."
+  en: "District of Sana'a Governorate, Yemen."
+wings: [place]
+coordinates: [15.75, 44.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4117369" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4117369 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

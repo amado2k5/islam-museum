@@ -12,6 +12,18 @@ date:
   start: { edtf: "2015", precision: year, status: tradition, derived: true }
   end: { edtf: "2018", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [44.5, 15.75]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2015"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نهم ⁦(٢٠١٥)⁩", en: "Battle of Nihm (2015)" }, at: [44.5, 15.75], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/nihm-district }
 external_ids:
   wikidata: Q26257601
 provenance:

@@ -1,0 +1,20 @@
+id: place/shatt-al-arab
+class: place
+kind: town
+label: { ar: "شط العرب", en: "Shatt al-Arab" }
+summary:
+  ar: "بلدة."
+  en: "River in Southwest Asia, formed by the confluence of the Euphrates and the Tigris in the town of al-Qurnah in the Basra Governorate of southern Iraq."
+wings: [place]
+coordinates: [31.0043, 47.4421]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q166966" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q166966 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

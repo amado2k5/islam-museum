@@ -1,0 +1,20 @@
+id: place/kakhk
+class: place
+kind: city
+label: { ar: "كاخك", en: "Kakhk" }
+summary:
+  ar: "مدينة."
+  en: "City in Razavi Khorasan Province, Iran."
+wings: [place]
+coordinates: [34.14972222, 58.63916667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2426495" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2426495 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

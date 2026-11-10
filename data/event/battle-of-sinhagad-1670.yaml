@@ -11,8 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1670", precision: year, status: tradition, derived: true }
   end: { edtf: "1670", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [73.75526944, 18.36566389]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1670"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة سينهاغاد", en: "Battle of Sinhagad" }, at: [73.75526944, 18.36566389], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/sinhagad }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4872383

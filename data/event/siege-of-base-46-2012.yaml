@@ -12,6 +12,18 @@ date:
   start: { edtf: "2012-09-22", precision: year, status: tradition, derived: true }
   end: { edtf: "2012-11-19", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [36.87083333, 36.06444444]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "2012"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الفوج ٤٦", en: "Siege of Base 46" }, at: [36.87083333, 36.06444444], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/urum-al-sughra }
 external_ids:
   wikidata: Q7509859
 provenance:

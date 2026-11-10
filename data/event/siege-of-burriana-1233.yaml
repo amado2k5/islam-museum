@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1233-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1233-07", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.08388888888888889, 39.88961111111111]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1233"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بريانة ⁦(١٢٣٣)⁩", en: "Siege of Burriana" }, at: [-0.08388888888888889, 39.88961111111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/burriana }
 sides:
   - label: { ar: "قوات الرشيد بن المأمون الموحدي", en: "The forces of al-Rashid ibn al-Ma'mun al-Muwahhidi" }
     participants: [person/al-rashid-almohad]

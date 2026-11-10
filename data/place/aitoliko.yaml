@@ -1,0 +1,20 @@
+id: place/aitoliko
+class: place
+kind: town
+label: { ar: "أيتوليكو", en: "Aitoliko" }
+summary:
+  ar: "بلدة."
+  en: "Town in Western Greece."
+wings: [place]
+coordinates: [38.436944444444, 21.353611111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1371634" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1371634 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

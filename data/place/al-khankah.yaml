@@ -1,0 +1,20 @@
+id: place/al-khankah
+class: place
+kind: town
+label: { ar: "الخانكة", en: "Al Khankah" }
+summary:
+  ar: "بلدة في مصر."
+  en: "Human settlement in Egypt."
+wings: [place]
+coordinates: [30.21805556, 31.35888889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q12186906" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q12186906 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

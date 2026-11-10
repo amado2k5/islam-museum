@@ -11,6 +11,18 @@ regions: [south-asia]
 date:
   start: { edtf: "1857-05-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1857-05-10", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [77.706388888889, 28.98]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1857"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة السباهي في ميرت", en: "Sepoy Revolt at Meerut" }, at: [77.706388888889, 28.98], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/meerut }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }

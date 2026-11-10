@@ -1,0 +1,20 @@
+id: place/buldhana-district
+class: place
+kind: province
+label: { ar: "منطقة بولدهانا", en: "Buldhana district" }
+summary:
+  ar: "مقاطعة."
+  en: "District of Maharashtra, India."
+wings: [place]
+coordinates: [20.532777777778, 76.182777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q47929" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q47929 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/sinhagad
+class: place
+kind: site
+label: { ar: "حصن سنهاجاد", en: "Sinhagad" }
+summary:
+  ar: "موقع أثري."
+  en: "Hill fortress in Pune, Maharashtra."
+wings: [place]
+coordinates: [18.36566389, 73.75526944]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3078248" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3078248 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

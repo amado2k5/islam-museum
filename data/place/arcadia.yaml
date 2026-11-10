@@ -1,0 +1,20 @@
+id: place/arcadia
+class: place
+kind: region
+label: { ar: "أركاديا", en: "Arcadia" }
+summary:
+  ar: "إقليم."
+  en: "Historical region of ancient Greece."
+wings: [place]
+coordinates: [37.6, 22.2]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q12898802" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q12898802 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

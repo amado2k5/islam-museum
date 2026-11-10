@@ -1,0 +1,20 @@
+id: place/sisak
+class: place
+kind: city
+label: { ar: "سيساك", en: "Sisak" }
+summary:
+  ar: "مدينة."
+  en: "City and settlement in Sisak-Moslavina County, Croatia."
+wings: [place]
+coordinates: [45.48722222222222, 16.37611111111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q192119" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q192119 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

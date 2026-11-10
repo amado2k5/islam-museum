@@ -1,0 +1,20 @@
+id: place/tarinkot
+class: place
+kind: province
+label: { ar: "ترين كوت", en: "Tarinkot" }
+summary:
+  ar: "مقاطعة."
+  en: "Capital of Uruzgan Province in southern Afghanistan."
+wings: [place]
+coordinates: [32.624167, 65.876667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q989293" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q989293 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

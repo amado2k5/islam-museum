@@ -1,0 +1,20 @@
+id: place/danube
+class: place
+kind: river
+label: { ar: "دانوب", en: "Danube" }
+summary:
+  ar: "نهر."
+  en: "Second-longest river in Europe."
+wings: [place]
+coordinates: [45.221944444444446, 29.743333333333332]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1653" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1653 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

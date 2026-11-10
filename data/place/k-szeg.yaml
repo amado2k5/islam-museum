@@ -1,0 +1,20 @@
+id: place/k-szeg
+class: place
+kind: town
+label: { ar: "كوسيغ", en: "Kőszeg" }
+summary:
+  ar: "بلدة."
+  en: "Town in Vas County in western Hungary."
+wings: [place]
+coordinates: [47.388794, 16.540727]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q613813" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q613813 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

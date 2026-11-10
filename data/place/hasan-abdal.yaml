@@ -1,0 +1,20 @@
+id: place/hasan-abdal
+class: place
+kind: city
+label: { ar: "حسن أبدال ⁦(باكستان)⁩", en: "Hasan Abdal" }
+summary:
+  ar: "مدينة."
+  en: "City in Punjab, Pakistan."
+wings: [place]
+coordinates: [33.819486111111, 72.689027777778]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q71037" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q71037 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

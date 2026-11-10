@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0793", precision: year, status: tradition, derived: true }
   end: { edtf: "0793", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.836559, 37.293682]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0793"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح ثيباسة ⁦(٧٩٣)⁩", en: "Capture of Thebasa (793)" }, at: [33.836559, 37.293682], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/thebasa }
 sides:
   - label: { ar: "قوات هارون الرشيد", en: "The forces of Harun al-Rashid" }
     participants: [person/harun-al-rashid]

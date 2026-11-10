@@ -1,0 +1,20 @@
+id: place/moshi
+class: place
+kind: city
+label: { ar: "موشي", en: "Moshi" }
+summary:
+  ar: "مدينة في تنزانيا."
+  en: "City in Tanzania."
+wings: [place]
+coordinates: [-3.3348833333333, 37.340380555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q271733" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q271733 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

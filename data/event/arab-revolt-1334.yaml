@@ -11,6 +11,18 @@ regions: [arabia]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1918", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.292, 33.513]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1916"
+  features:
+    - { type: point, role: event_point, label: { ar: "الثورة العربية الكبرى", en: "The Arab Revolt" }, at: [36.292, 33.513], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/syria-vilayet }
 sides:
   - label: { ar: "جيش الثورة العربية بقيادة الشريف حسين وفيصل", en: "The Arab Revolt under Sharif Husayn and Faisal" }
   - label: { ar: "الجيش العثماني", en: "The Ottoman army" }

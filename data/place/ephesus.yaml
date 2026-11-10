@@ -1,0 +1,20 @@
+id: place/ephesus
+class: place
+kind: city
+label: { ar: "أفسس", en: "Ephesus" }
+summary:
+  ar: "مدينة."
+  en: "Ancient Greek city in Anatolia."
+wings: [place]
+coordinates: [37.94058, 27.33939]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q47611" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q47611 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

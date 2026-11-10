@@ -11,6 +11,18 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1056", precision: year, status: tradition, derived: true }
   end: { edtf: "1056", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-13.105472222222222, 20.566194444444445]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1056"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة طبفريلّة", en: "Battle of Tabfarilla" }, at: [-13.105472222222222, 20.566194444444445], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/azougui }
 sides:
   - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
     participants: [polity/almoravid-dynasty]

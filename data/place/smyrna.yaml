@@ -1,0 +1,20 @@
+id: place/smyrna
+class: place
+kind: city
+label: { ar: "سميرنا", en: "Smyrna" }
+summary:
+  ar: "مدينة."
+  en: "Ancient Greek city, located in present day İzmir, Turkey."
+wings: [place]
+coordinates: [38.41861111111111, 27.142836111111112]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1379299" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1379299 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

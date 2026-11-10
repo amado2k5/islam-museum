@@ -1,0 +1,20 @@
+id: place/veszpr-m
+class: place
+kind: city
+label: { ar: "فيسبرم", en: "Veszprém" }
+summary:
+  ar: "مدينة."
+  en: "City with county rights in Central Transdanubia, Hungary."
+wings: [place]
+coordinates: [47.1, 17.916666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q146317" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q146317 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

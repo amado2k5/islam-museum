@@ -1,0 +1,20 @@
+id: place/torrevicente
+class: place
+kind: town
+label: { ar: "شنت بجنت", en: "Torrevicente" }
+summary:
+  ar: "بلدة."
+  en: "Human settlement in Soria Province, Castile and León, Spain."
+wings: [place]
+coordinates: [41.335277777778, -2.9413888888889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6150906" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6150906 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/baneh
+class: place
+kind: city
+label: { ar: "بانه", en: "Baneh" }
+summary:
+  ar: "مدينة في مقاطعة كردستان في إيران."
+  en: "City in Kurdistan Province, Iran."
+wings: [place]
+coordinates: [35.9975, 45.885277777778]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q643430" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q643430 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

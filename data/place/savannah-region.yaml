@@ -1,0 +1,20 @@
+id: place/savannah-region
+class: place
+kind: region
+label: { ar: "منطقة السفانا", en: "Savannah Region" }
+summary:
+  ar: "إقليم في غانا."
+  en: "Administrative region in Ghana."
+wings: [place]
+coordinates: [9.08333333, -1.81666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q60764352" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q60764352 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

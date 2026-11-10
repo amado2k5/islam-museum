@@ -11,8 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "0698", precision: year, status: tradition, derived: true }
   end: { edtf: "0698", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [10.330555555555556, 36.855]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0698"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قرطاج", en: "Conquest of Carthage" }, at: [10.330555555555556, 36.855], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 relations:
 - { type: during_reign, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/carthage }
 sides:
   - label: { ar: "قوات عبد الملك بن مروان", en: "The forces of Abd al-Malik ibn Marwan" }
     participants: [person/abd-al-malik-ibn-marwan]

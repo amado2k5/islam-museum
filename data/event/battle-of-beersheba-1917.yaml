@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1917", precision: year, status: tradition, derived: true }
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.78666666666667, 31.252222222222223]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1917"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بئر السبع", en: "Battle of Beersheba" }, at: [34.78666666666667, 31.252222222222223], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/beersheba }
 sides:
   - label: { ar: "الجيش البريطاني", en: "The British army" }
   - label: { ar: "الجيش العثماني", en: "The Ottoman army" }

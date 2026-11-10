@@ -1,0 +1,20 @@
+id: place/berezan-island
+class: place
+kind: island
+label: { ar: "جزيرة بيريزان", en: "Berezan Island" }
+summary:
+  ar: "جزيرة."
+  en: "Island in Ochakiv Raion, Ukraine."
+wings: [place]
+coordinates: [46.598333333333336, 31.411944444444444]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q9454297" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q9454297 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

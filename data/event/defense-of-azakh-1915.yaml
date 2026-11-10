@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1915", precision: year, status: tradition, derived: true }
   end: { edtf: "1915", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [41.889444444444, 37.334722222222]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1915"
+  features:
+    - { type: point, role: event_point, label: { ar: "الدفاع عن آزخ", en: "Defense of Azakh" }, at: [41.889444444444, 37.334722222222], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/i-dil }
 sides:
   - label: { ar: "قوات محمد الخامس رشاد", en: "The forces of Mehmed V Resad" }
     participants: [person/mehmed-v-uthmani]

@@ -11,10 +11,21 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1875", precision: year, status: tradition, derived: true }
   end: { edtf: "1877", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [18.4167, 43.8667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1875"
+  features:
+    - { type: point, role: event_point, label: { ar: "انتفاضة الهرسك", en: "Herzegovina Uprising" }, at: [18.4167, 43.8667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/abd-al-aziz-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/murad-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/bosnia-vilayet }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات عبد العزيز", en: "The authorities of Abd al-Aziz (Ottoman)" }

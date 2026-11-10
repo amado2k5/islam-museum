@@ -1,0 +1,20 @@
+id: place/guadalete
+class: place
+kind: river
+label: { ar: "وادي لكة", en: "Guadalete" }
+summary:
+  ar: "نهر في إسبانيا."
+  en: "River in Spain."
+wings: [place]
+coordinates: [36.755833333333, -5.395]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q17812" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q17812 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

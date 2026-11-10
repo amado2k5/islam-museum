@@ -1,0 +1,20 @@
+id: place/meerut
+class: place
+kind: city
+label: { ar: "ميرت", en: "Meerut" }
+summary:
+  ar: "مدينة."
+  en: "Metropolitan city in Uttar Pradesh, India."
+wings: [place]
+coordinates: [28.98, 77.706388888889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q200237" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q200237 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-2
+status: { review: draft, completeness: 1, generated_by: "Devin" }

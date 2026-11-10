@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1593", precision: year, status: tradition, derived: true }
   end: { edtf: "1593", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [17.916666666667, 47.1]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1593"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار فسزبريم", en: "Siege of Veszprem" }, at: [17.916666666667, 47.1], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/veszpr-m }
 sides:
   - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
     participants: [person/murad-iii-uthmani]
