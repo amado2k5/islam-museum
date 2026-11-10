@@ -5,7 +5,7 @@ names:
   - { kind: full, lang: ar, value: "زيد بن ثابت بن الضحاك الخزرجي" }
 gender: male
 born: { edtf: "0611~", calendar: julian, precision: year, status: tradition, note: "About eleven years old at the Hijra.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0660~", calendar: julian, precision: year, status: tradition, note: "Died in Medina about 45 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0665", hijri: "0045", calendar: julian, precision: year, status: debated, derived: true, note: "45 AH per the majority; also 42, 43, 51, 52 or 55 — Abu Hurayra mourned him as the learned man of this umma (al-Isaba p. 510); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [companion, scholar]
 traditions: [sunni]
 summary:
@@ -30,9 +30,12 @@ relations:
   - { type: participated_in, target: event/battle-of-the-trench, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: student_of, target: person/muhammad, note: "Scribe of the revelation; headed the committees that collected the Qur'an under Abu Bakr and standardized it under Uthman.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 510", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-khazraj, note: "of Banu al-Najjar line (al-Isaba p. 510)", sources: [source/ibn-hajar-isaba] }
+
 external_ids:
   wikidata: Q144302
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/fihrist-ibn-al-nadim, source/sahih-al-bukhari]
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/fihrist-ibn-al-nadim, source/sahih-al-bukhari, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 
 provenance:
