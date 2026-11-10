@@ -16,6 +16,9 @@ relations:
   - { type: occurred_at, target: place/barcelona, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: polity/ottoman-empire, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "دايلك الجزائر العثمانية", en: "Ottoman Algiers" }
+  - label: { ar: "سواحل إيبيريا", en: "The Iberian coasts" }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
