@@ -19,7 +19,7 @@ relations:
   - { type: had_participant, target: person/al-kulayni, role: "شيخ الإمامية", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/muhammad-ibn-ali-alan, role: "الخال والشيخ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/muhammad-ibn-ismail-al-naysaburi, role: "الشيخ المسمّع", sources: [source/encyclopaedia-of-islam-2] }
-  - { type: had_participant, target: person/al-fadl-ibn-shadhan, role: "صاحب المرويات", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: person/al-fadl-ibn-shadhan, role: "صاحب المرويات", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

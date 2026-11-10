@@ -12,7 +12,7 @@ date:
   start: { edtf: "0745~", hijri: "0127", calendar: julian, precision: year, status: tradition, derived: true, note: "نصف صفر 127؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 412}." }
 relations:
   - { type: had_participant, target: person/marwan-ibn-muhammad, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
-  - { type: had_participant, target: person/yazid-ibn-al-walid, role: "المنبوش", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: person/yazid-ibn-al-walid, role: "المنبوش", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research

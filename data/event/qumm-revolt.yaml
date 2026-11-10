@@ -12,7 +12,7 @@ date:
   start: { edtf: "0865~", hijri: "0251", calendar: julian, precision: year, status: tradition, derived: true, note: "حركة قم وإعادة فتحها في عهد المعتز {cite:futuh-buldan-maarif-1407}; سنة مشتقة." }
 relations:
   - { type: occurred_at, target: place/qumm }
-  - { type: had_participant, target: person/ali-ibn-hisham-al-marwazi, role: "المعاقب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/ali-ibn-hisham-al-marwazi, role: "المعاقب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/yahya-ibn-imran, role: "رئيسها المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/musa-ibn-bugha, role: "فاتحها عنوة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: related_to, target: person/abd-allah-al-mamun, role: "الخليفة الموجه", sources: [source/futuh-buldan-maarif-1407] }
