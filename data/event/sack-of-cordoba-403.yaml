@@ -13,6 +13,8 @@ date:
 relations:
   - { type: had_participant, target: person/sulayman-al-mustain-andalusi, role: "قائد الداخلين", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
