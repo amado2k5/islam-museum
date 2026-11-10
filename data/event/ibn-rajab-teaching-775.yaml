@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-rajab, role: "المدرس والواعظ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2, source/ibn-rajab-jami-ulum-hikam]
 provenance:
   layer: own-research
