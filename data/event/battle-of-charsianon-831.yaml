@@ -13,6 +13,10 @@ date:
   end: { edtf: "0831", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العباسي بقيادة المأمون", en: "The Abbasid army under al-Ma'mun" }
+    commanders: [person/abd-allah-al-mamun]
+  - label: { ar: "الجيش البيزنطي بقيادة ثيوفيلوس", en: "The Byzantine army under Theophilos" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139967478

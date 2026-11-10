@@ -13,6 +13,10 @@ date:
   end: { edtf: "0875", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الطولوني", en: "The Tulunid army" }
+    participants: [person/al-mutamid]
+  - label: { ar: "الجيش العباسي بقيادة الموفق", en: "The Abbasid army under al-Muwaffaq" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q108485426
