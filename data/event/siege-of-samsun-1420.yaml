@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1420", precision: year, status: tradition, derived: true }
   end: { edtf: "1420", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.33, 41.28]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1420"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سامسون ⁦(١٤٢٠)⁩", en: "Siege of Samsun (1420)" }, at: [36.33, 41.28], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/samsun }

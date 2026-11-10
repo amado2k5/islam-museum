@@ -12,6 +12,18 @@ date:
   start: { edtf: "1570-12", precision: year, status: tradition, derived: true }
   end: { edtf: "1575", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [101.037, 2.833]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1570"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب رابطة الهند ⁦(١٥٧٠)⁩", en: "War of the League of the Indies" }, at: [101.037, 2.833], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/strait-of-malacca }
 external_ids:
   wikidata: Q27958733
 provenance:

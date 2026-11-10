@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1854", precision: year, status: tradition, derived: true }
   end: { edtf: "1855", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [33.5225, 44.605]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1854"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سيفاستوبول ⁦(١٨٥٤–١٨٥٥)⁩", en: "Siege of Sevastopol" }, at: [33.5225, 44.605], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/abd-al-majid-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/sevastopol }

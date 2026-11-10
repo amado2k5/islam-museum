@@ -1,0 +1,20 @@
+id: place/fortress-of-baku
+class: place
+kind: site
+label: { ar: "قلعة باكو", en: "Fortress of Baku" }
+summary:
+  ar: "موقع أثري."
+  en: "Largest of the Absheron fortresses."
+wings: [place]
+coordinates: [40.36769, 49.833285]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6869733" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6869733 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

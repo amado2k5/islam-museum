@@ -1,0 +1,20 @@
+id: place/orontes-river
+class: place
+kind: river
+label: { ar: "نهر العاصي", en: "Orontes River" }
+summary:
+  ar: "نهر."
+  en: "River in Western Asia."
+wings: [place]
+coordinates: [35.25, 36.583333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q188871" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q188871 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

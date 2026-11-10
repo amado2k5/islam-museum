@@ -1,0 +1,20 @@
+id: place/vidin
+class: place
+kind: city
+label: { ar: "فيدين", en: "Vidin" }
+summary:
+  ar: "مدينة في بلدية فيدين في بلغاريا."
+  en: "City in Vidin municipality, Vidin oblast, Bulgaria."
+wings: [place]
+coordinates: [43.98869, 22.874058]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q178531" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q178531 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

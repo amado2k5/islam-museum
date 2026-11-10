@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1146-10-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1146-11-01", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [38.79, 37.16]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1146"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الرها الثاني", en: "Second Siege of Edessa" }, at: [38.79, 37.16], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/al-ruha }

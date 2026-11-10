@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1568", hijri: "", precision: year, status: tradition, derived: true }
   end: { edtf: "1570", hijri: "", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [48.04, 46.35]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1568"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الروسية ⁦(١٥٦٨–١٥٧٠)⁩", en: "Russo-Turkish War of 1568–1570" }, at: [48.04, 46.35], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/astrakhan }

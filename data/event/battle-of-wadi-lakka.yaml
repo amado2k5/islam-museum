@@ -10,6 +10,17 @@ date:
   start: { hijri: "0092", precision: month, status: historical, note: "الكتاب يذكر الليلتين الأخيرتين من رمضان سنة 92هـ؛ التاريخ الميلادي غير مذكور فيه", sources: [source/salabi-umayyad-state-2020] }
 external_ids:
   wikidata: Q504172
+map:
+  kind: battle
+  precision: locality
+  center: [-4.2391666666667, 40.24]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة وادي لكة", en: "Battle of Wadi Lakka" }, at: [-4.2391666666667, 40.24], precision: locality, source: source/salabi-umayyad-state-2020 }
+  sources: [source/salabi-umayyad-state-2020]
+relations:
+- { type: occurred_at, target: place/iberian-peninsula }
 sides:
   - label: { ar: "المسلمون بقيادة طارق بن زياد", en: "The Muslims under Tariq ibn Ziyad" }
   - label: { ar: "القوط بقيادة لذريق", en: "The Goths under Ludhariq" }

@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1371", precision: year, status: tradition, derived: true }
   end: { edtf: "1371", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [26.2127, 41.7202]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1371"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ماريجا", en: "Battle of Maritsa" }, at: [26.2127, 41.7202], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/ormenio }
 sides:
   - label: { ar: "العثمانيون", en: "The Ottomans" }
   - label: { ar: "الصرب", en: "The Serbs" }

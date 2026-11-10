@@ -12,6 +12,18 @@ date:
   start: { edtf: "1859-08-09", precision: year, status: tradition, derived: true }
   end: { edtf: "1859-08-25", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [46.961666666667, 42.386666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1859"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار غونيب ⁦(١٨٥٩)⁩", en: "Siege of Ghunib" }, at: [46.961666666667, 42.386666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/gunib }
 external_ids:
   wikidata: Q4871094
 provenance:

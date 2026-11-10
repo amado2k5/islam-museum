@@ -1,0 +1,20 @@
+id: place/iberian-peninsula
+class: place
+kind: region
+label: { ar: "شبه الجزيرة الإيبيرية", en: "Iberian Peninsula" }
+summary:
+  ar: "إقليم."
+  en: "Peninsula located in the extreme southwest of Europe."
+wings: [place]
+coordinates: [40.24, -4.2391666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q12837" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q12837 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

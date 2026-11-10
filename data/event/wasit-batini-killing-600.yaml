@@ -10,6 +10,16 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
   start: { edtf: "1204~", hijri: "0600~", calendar: julian, precision: year, status: tradition, derived: true, note: "في رمضان؛ وضعت السنة تقريبية إذ تالف عنوان صفحة المسح (ص 293) ويأتي الخبر في أعقاب حوادث سنة 600–601 {cite:kamil-ibn-al-athir p. 293}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [46.3028, 32.1719]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1204"
+  features:
+    - { type: point, role: event_point, label: { ar: "قتل الباطنية بواسط", en: "The Killing of the Batiniyya in Wasit" }, at: [46.3028, 32.1719], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: occurred_at, target: place/wasit, sources: [source/kamil-ibn-al-athir] }
   - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

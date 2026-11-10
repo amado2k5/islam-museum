@@ -1,0 +1,20 @@
+id: place/rif
+class: place
+kind: region
+label: { ar: "جبال الريف", en: "Rif" }
+summary:
+  ar: "إقليم."
+  en: "Mediterranean region of northern Morocco limited to the south by the Atlas region."
+wings: [place]
+coordinates: [35, -4]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q275491" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q275491 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

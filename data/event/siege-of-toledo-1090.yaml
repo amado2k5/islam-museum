@@ -12,6 +12,18 @@ date:
   start: { edtf: "1090", precision: year, status: tradition, derived: true }
   end: { edtf: "1090", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [-4.0226, 39.8581]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1090"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار طليطلة ⁦(١٠٩٠)⁩", en: "Siege of Toledo (1090)" }, at: [-4.0226, 39.8581], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tulaytula }
 external_ids:
   wikidata: "Q11949566"
 provenance:

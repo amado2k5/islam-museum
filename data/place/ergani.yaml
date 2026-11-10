@@ -1,0 +1,20 @@
+id: place/ergani
+class: place
+kind: town
+label: { ar: "أرخني", en: "Ergani" }
+summary:
+  ar: "بلدة."
+  en: "Town of Diyarbakır, Turkey."
+wings: [place]
+coordinates: [38.269166666667, 39.761666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q945363" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q945363 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

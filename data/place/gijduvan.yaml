@@ -1,0 +1,20 @@
+id: place/gijduvan
+class: place
+kind: city
+label: { ar: "غيجدفان", en: "Gijduvan" }
+summary:
+  ar: "مدينة."
+  en: "City."
+wings: [place]
+coordinates: [40.1, 64.666666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1027045" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1027045 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

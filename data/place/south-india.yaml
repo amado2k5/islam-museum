@@ -1,0 +1,20 @@
+id: place/south-india
+class: place
+kind: region
+label: { ar: "جنوب الهند", en: "South India" }
+summary:
+  ar: "إقليم في الهند."
+  en: "Geographic region in India."
+wings: [place]
+coordinates: [13, 77]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q542146" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q542146 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

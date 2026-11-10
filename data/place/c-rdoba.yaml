@@ -1,0 +1,20 @@
+id: place/c-rdoba
+class: place
+kind: province
+label: { ar: "قرطبة", en: "Córdoba" }
+summary:
+  ar: "مقاطعة في مقاطعة قرطبة في إسبانيا."
+  en: "Municipality in the province of Córdoba, Spain."
+wings: [place]
+coordinates: [37.89, -4.78]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5818" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5818 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

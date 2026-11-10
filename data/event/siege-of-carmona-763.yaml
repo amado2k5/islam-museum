@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0763", precision: year, status: tradition, derived: true }
   end: { edtf: "0763", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-5.6418, 37.4712]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0763"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قرمونة ⁦(٧٦٣)⁩", en: "Siege of Carmona" }, at: [-5.6418, 37.4712], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/qarmuna }

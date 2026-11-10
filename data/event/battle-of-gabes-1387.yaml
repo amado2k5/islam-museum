@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1387", precision: year, status: tradition, derived: true }
   end: { edtf: "1387", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [10.0982, 33.88146]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1387"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة قابس ⁦(١٣٨٧)⁩", en: "Battle of Gabès (1387)" }, at: [10.0982, 33.88146], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/gabes }
 sides:

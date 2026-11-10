@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1488", precision: year, status: tradition, derived: true }
   end: { edtf: "1488", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.12, 36.985]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1488"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة آغا چاييري", en: "Battle of Ağa Çayırı" }, at: [35.12, 36.985], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/cilicia }
 sides:
   - label: { en: "Mamluk Sultanate of Egypt", ar: "الدولة المملوكية" }
     participants: [polity/mamluk-sultanate]

@@ -1,0 +1,20 @@
+id: place/bra
+class: place
+kind: island
+label: { ar: "براش", en: "Brač" }
+summary:
+  ar: "جزيرة."
+  en: "Island of Croatia."
+wings: [place]
+coordinates: [43.311111111111, 16.665555555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q922" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q922 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

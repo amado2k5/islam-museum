@@ -9,6 +9,17 @@ wings: [time]
 periods: [period/gunpowder-empires]
 external_ids:
   wikidata: Q212220
+map:
+  kind: battle
+  precision: locality
+  center: [24.892409, 43.698571]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نيقوبوليس سنة 1396م", en: "The battle of Nicopolis, 1396" }, at: [24.892409, 43.698571], precision: locality, source: source/stoddard-arslan-hadir-1923 }
+  sources: [source/stoddard-arslan-hadir-1923]
+relations:
+- { type: occurred_at, target: place/nikopol }
 sides:
   - label: { ar: "الجيش العثماني بقيادة بايزيد الأول", en: "The Ottoman army under Bayezid I" }
     commanders: [person/bayazid-i-yildirim]

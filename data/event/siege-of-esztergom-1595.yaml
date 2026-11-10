@@ -11,9 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1595-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1595-08", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [18.740277777778, 47.785555555556]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1595"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أسترغون ⁦(١٥٩٥)⁩", en: "Siege of Esztergom (1595)" }, at: [18.740277777778, 47.785555555556], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/esztergom }
 sides:
   - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
     participants: [person/murad-iii-uthmani]

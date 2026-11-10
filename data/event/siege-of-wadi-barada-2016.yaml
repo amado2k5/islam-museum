@@ -12,6 +12,18 @@ date:
   start: { edtf: "2016-12-23", precision: year, status: tradition, derived: true }
   end: { edtf: "2017-01-29", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [36.105556, 33.624167]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2016"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة وادي بردى ⁦(٢٠١٦)⁩", en: "Siege of Wadi Barada" }, at: [36.105556, 33.624167], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/wadi-barada }
 external_ids:
   wikidata: Q28073274
 provenance:

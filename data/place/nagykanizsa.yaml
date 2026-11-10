@@ -1,0 +1,20 @@
+id: place/nagykanizsa
+class: place
+kind: city
+label: { ar: "ناجيكانيزسا", en: "Nagykanizsa" }
+summary:
+  ar: "مدينة في مقاطعة زالا في المجر."
+  en: "City in Zala county, Hungary."
+wings: [place]
+coordinates: [46.455833333333, 16.9975]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q14424" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q14424 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

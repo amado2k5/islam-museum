@@ -12,6 +12,8 @@ date:
   start: { edtf: "1256", precision: year, status: tradition, derived: true }
   end: { edtf: "1256", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: building/lambsar-castle }
 external_ids:
   wikidata: Q98907486
 provenance:

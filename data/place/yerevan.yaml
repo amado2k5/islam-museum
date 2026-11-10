@@ -1,0 +1,20 @@
+id: place/yerevan
+class: place
+kind: city
+label: { ar: "يريفان", en: "Yerevan" }
+summary:
+  ar: "مدينة."
+  en: "Capital and largest city of Armenia."
+wings: [place]
+coordinates: [40.181388888889, 44.514444444444]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1953" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1953 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

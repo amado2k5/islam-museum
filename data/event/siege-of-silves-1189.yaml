@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1189", precision: year, status: tradition, derived: true }
   end: { edtf: "1189", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-8.4382, 37.1892]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1189"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شلب", en: "Siege of Silves" }, at: [-8.4382, 37.1892], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 - { type: occurred_at, target: place/silves }

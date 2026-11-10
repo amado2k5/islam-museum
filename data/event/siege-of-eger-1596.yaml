@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1596", precision: year, status: tradition, derived: true }
   end: { edtf: "1596", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [20.374722222222, 47.898888888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1596"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار إغر ⁦(١٥٩٦)⁩", en: "Siege of Eger" }, at: [20.374722222222, 47.898888888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/eger }
 sides:
   - label: { ar: "قوات محمد الثالث", en: "The forces of محمد الثالث" }
     participants: [person/mehmed-iii-uthmani]

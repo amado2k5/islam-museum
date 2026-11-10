@@ -11,8 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1570", precision: year, status: tradition, derived: true }
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [72.9272, 18.5461]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1570"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شول ⁦(١٥٧١)⁩", en: "Siege of Chaul (1571)" }, at: [72.9272, 18.5461], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/chaul }
 sides:
   - label: { ar: "قوات سليم الثاني", en: "The forces of Selim II" }
     participants: [person/selim-ii-uthmani]

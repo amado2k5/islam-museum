@@ -1,0 +1,20 @@
+id: place/kalamata
+class: place
+kind: city
+label: { ar: "كالاماتا", en: "Kalamata" }
+summary:
+  ar: "مدينة."
+  en: "City in Peloponnese, Greece."
+wings: [place]
+coordinates: [37.03777777777778, 22.11111111111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q167895" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q167895 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

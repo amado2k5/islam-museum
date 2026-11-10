@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1801", precision: year, status: tradition, derived: true }
   end: { edtf: "1864", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [44.5, 42.75]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1801"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزو الروسي للقوقاز", en: "Russian conquest of the Caucasus" }, at: [44.5, 42.75], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/caucasus }
 sides:
   - label: { ar: "الإمبراطورية الروسية", en: "The Russian Empire" }
   - label: { ar: "شعوب القوقاز وإمامة شاميل", en: "The Caucasian peoples and Shamil's imamate" }

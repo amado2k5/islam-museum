@@ -1,0 +1,20 @@
+id: place/borneo
+class: place
+kind: island
+label: { ar: "بورنيو", en: "Borneo" }
+summary:
+  ar: "جزيرة."
+  en: "Third largest island in the world by area, located in south-east Asia."
+wings: [place]
+coordinates: [-1, 114]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q36117" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q36117 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

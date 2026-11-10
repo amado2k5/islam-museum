@@ -1,0 +1,20 @@
+id: place/caspian-sea
+class: place
+kind: sea
+label: { ar: "بحر قزوين", en: "Caspian Sea" }
+summary:
+  ar: "بحر."
+  en: "Largest landlocked salt lake, located between Europe and Asia."
+wings: [place]
+coordinates: [42, 50.5]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5484" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5484 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

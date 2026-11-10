@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1635-07-28", precision: year, status: tradition, derived: true }
   end: { edtf: "1635-08-08", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.514444444444, 40.181388888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1635"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار يريفان ⁦(١٦٣٥)⁩", en: "Siege of Yerevan (1635)" }, at: [44.514444444444, 40.181388888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/yerevan }
 sides:
   - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
     participants: [person/murad-iv-uthmani]

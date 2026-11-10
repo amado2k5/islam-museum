@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1288", precision: year, status: tradition, derived: true }
   end: { edtf: "1288", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [30.4474, 39.7328]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1288"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قرة حصار", en: "Siege of Karacahisar" }, at: [30.4474, 39.7328], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/karacahisar-castle }
 sides:
   - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
     participants: [person/al-hakim-bi-amr-illah]

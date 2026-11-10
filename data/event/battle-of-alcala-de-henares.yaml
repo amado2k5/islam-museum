@@ -13,6 +13,7 @@ date:
   end: { edtf: "1006", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+- { type: occurred_at, target: building/castle-of-alcala-la-vieja }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q135483485

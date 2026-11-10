@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1828", hijri: "", precision: year, status: tradition, derived: true }
   end: { edtf: "1829", hijri: "", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.0, 42.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1828"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الروسية ⁦(١٨٢٨–١٨٢٩)⁩", en: "Russo-Turkish War of 1828–1829" }, at: [22.0, 42.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/balkans }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

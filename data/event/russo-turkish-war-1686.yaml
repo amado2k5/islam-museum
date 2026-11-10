@@ -11,11 +11,22 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1686", hijri: "", precision: year, status: tradition, derived: true }
   end: { edtf: "1700", hijri: "", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.0, 45.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1686"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الروسية ⁦(١٦٨٦–١٧٠٠)⁩", en: "Russo-Turkish War of 1686–1700" }, at: [34.0, 45.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/crimea }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q829104

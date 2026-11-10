@@ -1,0 +1,20 @@
+id: place/marivan
+class: place
+kind: city
+label: { ar: "مريوان", en: "Marivan" }
+summary:
+  ar: "مدينة في مقاطعة كردستان في إيران."
+  en: "City in Kurdistan Province, Iran."
+wings: [place]
+coordinates: [35.526944444444, 46.176111111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q631517" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q631517 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1952-01-25", precision: year, status: tradition, derived: true }
   end: { edtf: "1952-01-25", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [32.266666666667, 30.583333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1952"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الإسماعيلية ⁦(١٩٥٢)⁩", en: "Battle of Ismailia" }, at: [32.266666666667, 30.583333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/ismailia }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q12246335

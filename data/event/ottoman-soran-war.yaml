@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1834", precision: year, status: tradition, derived: true }
   end: { edtf: "1836", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.0, 39.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1834"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية السورانية", en: "Ottoman-Soran War" }, at: [35.0, 39.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/anatolia }

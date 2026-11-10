@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1734", precision: year, status: tradition, derived: true }
   end: { edtf: "1735", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [46.360555555556, 40.682777777778]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1734"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كنجة", en: "Siege of Ganja" }, at: [46.360555555556, 40.682777777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ganja }
 sides:
   - label: { ar: "قوات محمود الأول", en: "The forces of محمود الأول" }
     participants: [person/mahmud-i-uthmani]

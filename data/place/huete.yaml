@@ -1,0 +1,20 @@
+id: place/huete
+class: place
+kind: province
+label: { ar: "وبذة", en: "Huete" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in Cuenca Province, Castile-La Mancha, Spain."
+wings: [place]
+coordinates: [40.1475, -2.6888888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1827689" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1827689 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

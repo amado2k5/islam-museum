@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1689", precision: year, status: tradition, derived: true }
   end: { edtf: "1689", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.33333333, 41.01666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1689"
+  features:
+    - { type: point, role: event_point, label: { ar: "انتفاضة كاربوش", en: "Karposh's Rebellion" }, at: [21.33333333, 41.01666667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/rumelia-eyalet }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات سليمان الثاني", en: "The authorities of سليمان الثاني" }

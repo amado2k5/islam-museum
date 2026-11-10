@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0633", precision: year, status: tradition, derived: true }
   end: { edtf: "0633", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [42.0, 27.0]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0633"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة غمرة", en: "Battle of Ghamra" }, at: [42.0, 27.0], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 relations:
 - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+- { type: occurred_at, target: place/a-il-province }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q4871095

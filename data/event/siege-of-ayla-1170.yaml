@@ -11,9 +11,20 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1170", precision: year, status: tradition, derived: true }
   end: { edtf: "1170", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.00611111111111, 29.532222222222224]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1170"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أيلة ⁦(١١٧٠)⁩", en: "Siege of Ayla" }, at: [35.00611111111111, 29.532222222222224], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/aqaba }
 sides:
   - label: { ar: "قوات المستنجد بالله يوسف بن المقتفي", en: "The forces of al-Mustanjid bi'llah Yusuf ibn al-Muqtafi" }
     participants: [person/al-mustanjid-billah]

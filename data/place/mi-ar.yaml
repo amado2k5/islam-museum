@@ -1,0 +1,20 @@
+id: place/mi-ar
+class: place
+kind: town
+label: { ar: "ميشار", en: "Mišar" }
+summary:
+  ar: "بلدة."
+  en: "Town in Mačva District, Serbia."
+wings: [place]
+coordinates: [44.7292, 19.7608]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2736506" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2736506 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

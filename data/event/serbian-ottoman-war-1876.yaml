@@ -11,10 +11,21 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1876", precision: year, status: tradition, derived: true }
   end: { edtf: "1878", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.166666666667, 42.666666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1876"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الصربية العثمانية", en: "Serbian–Ottoman War" }, at: [21.166666666667, 42.666666666667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/abd-al-aziz-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/murad-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kosovo-and-metohija }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q686564

@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1788", precision: year, status: tradition, derived: true }
   end: { edtf: "1788", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [22.221944444444, 45.421388888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1788"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كارانسيبيش", en: "Battle of Karánsebes" }, at: [22.221944444444, 45.421388888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/caransebe }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2309898

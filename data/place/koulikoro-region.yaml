@@ -1,0 +1,20 @@
+id: place/koulikoro-region
+class: place
+kind: region
+label: { ar: "منطقة كوليكورو", en: "Koulikoro Region" }
+summary:
+  ar: "إقليم في غرب مالي."
+  en: "Region in western Mali."
+wings: [place]
+coordinates: [13.944722, -7.624444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q287789" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q287789 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

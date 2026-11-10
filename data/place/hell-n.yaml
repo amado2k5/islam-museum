@@ -1,0 +1,20 @@
+id: place/hell-n
+class: place
+kind: province
+label: { ar: "إيين", en: "Hellín" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in the province of Albacete, Spain."
+wings: [place]
+coordinates: [38.512222222222, -1.7033333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q842652" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q842652 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

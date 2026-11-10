@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1485", precision: year, status: tradition, derived: true }
   end: { edtf: "1491", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.0, 39.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1485"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية المملوكية ⁦(١٤٨٥–١٤٩١)⁩", en: "Ottoman–Mamluk War" }, at: [35.0, 39.0], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/anatolia }

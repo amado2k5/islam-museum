@@ -1,0 +1,20 @@
+id: place/mesaimeer
+class: place
+kind: province
+label: { ar: "مسيمير", en: "Mesaimeer" }
+summary:
+  ar: "مقاطعة في الريان في قطر."
+  en: "District in Al Rayyan, Qatar."
+wings: [place]
+coordinates: [25.19, 51.48972222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q22948529" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q22948529 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

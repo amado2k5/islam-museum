@@ -12,6 +12,18 @@ date:
   start: { edtf: "1904-06-15", precision: year, status: tradition, derived: true }
   end: { edtf: "1904-06-15", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [43.965833333333336, 26.36138888888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1904"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة البكيرية", en: "Battle of Bekeriyah" }, at: [43.965833333333336, 26.36138888888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/al-qassim }
 external_ids:
   wikidata: Q4870449
 provenance:

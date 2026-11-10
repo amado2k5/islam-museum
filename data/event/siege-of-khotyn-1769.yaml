@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1769-04-30", precision: year, status: tradition, derived: true }
   end: { edtf: "1769-08-13", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [26.485972222222223, 48.507777777777775]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1769"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار خوتين ⁦(١٧٦٩)⁩", en: "Siege of Khotyn (1769)" }, at: [26.485972222222223, 48.507777777777775], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/khotyn }
 sides:
   - label: { ar: "قوات مصطفى الثالث", en: "The forces of مصطفى الثالث" }
     participants: [person/mustafa-iii-uthmani]

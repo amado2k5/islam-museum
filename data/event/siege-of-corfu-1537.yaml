@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1537", precision: year, status: tradition, derived: true }
   end: { edtf: "1537", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [19.87, 39.6]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1537"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كورفو ⁦(١٥٣٧)⁩", en: "Siege of Corfu" }, at: [19.87, 39.6], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/corfu }
 sides:
   - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
     participants: [person/sulayman-al-qanuni]

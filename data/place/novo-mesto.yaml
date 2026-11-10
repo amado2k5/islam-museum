@@ -1,0 +1,20 @@
+id: place/novo-mesto
+class: place
+kind: town
+label: { ar: "نوفو ميتسو", en: "Novo Mesto" }
+summary:
+  ar: "بلدة."
+  en: "Town in Lower Carniola, Slovenia."
+wings: [place]
+coordinates: [45.798055555556, 15.162777777778]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5266" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5266 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

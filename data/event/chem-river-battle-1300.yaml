@@ -11,8 +11,19 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1300", precision: year, status: tradition, derived: true }
   end: { edtf: "1300", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [53.317222222222, 46.628333333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1300"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نهر تشم ⁦(١٣٠٠)⁩", en: "Chem River Battle (1300)" }, at: [53.317222222222, 46.628333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/emba-river }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q136451000

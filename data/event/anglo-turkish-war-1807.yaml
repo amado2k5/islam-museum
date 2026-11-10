@@ -11,10 +11,21 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1807", precision: year, status: tradition, derived: true }
   end: { edtf: "1809", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [26.4, 40.2]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1807"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الأنجلو-عثمانية", en: "Anglo-Turkish War" }, at: [26.4, 40.2], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mustafa-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/dardanelles }
 sides:
   - label: { en: "British Empire", ar: "الإمبراطورية البريطانية" }
     participants: [polity/british-empire]

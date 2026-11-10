@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1923", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [43.1189, 36.335]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الإنجليزية التركية ⁦(١٩١٨–١٩٢٣)⁩", en: "Anglo-Turkish War (1918–1923)" }, at: [43.1189, 36.335], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }

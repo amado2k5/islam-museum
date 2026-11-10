@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1730", precision: year, status: tradition, derived: true }
   end: { edtf: "1730", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [48.3758, 34.1886]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1730"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نهاوند ⁦(١٧٣٠)⁩", en: "Battle of Nahavand (1730)" }, at: [48.3758, 34.1886], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/nihawand }
 sides:

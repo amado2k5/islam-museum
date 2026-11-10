@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1785", precision: year, status: tradition, derived: true }
   end: { edtf: "1789", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [17.66666667, 44.23333333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1785"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب الإسكودار العثمانية الأولى ⁦(١٧٨٥–١٧٨٩)⁩", en: "First Scutari–Ottoman War (1785–1789)" }, at: [17.66666667, 44.23333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }

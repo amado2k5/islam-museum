@@ -1,0 +1,20 @@
+id: place/ionian-sea
+class: place
+kind: region
+label: { ar: "البحر الأيوني", en: "Ionian Sea" }
+summary:
+  ar: "إقليم."
+  en: "Elongated bay of the Mediterranean Sea, south of the Adriatic Sea, bounded by Southern Italy (Calabria, Sicily, Salento peninsula) to the west, southern Albania to the north, and the west coast of Greece to the east."
+wings: [place]
+coordinates: [38, 19]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q37495" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q37495 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,6 +11,19 @@ regions: [east-africa]
 date:
   start: { edtf: "1650", precision: year, status: tradition, derived: true }
   end: { edtf: "1700", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [42.548888888889, -0.36027777777778]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1650"
+  features:
+    - { type: point, role: event_point, label: { ar: "الصراعات الغلدي-الزنجبارية", en: "Geledi–Zanzibar conflicts" }, at: [42.548888888889, -0.36027777777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/kismayo }
+- { type: occurred_at, target: place/barawa }
 sides:
   - label: { en: "Geledi Sultanate", ar: "سلطنة غلدي" }
   - label: { en: "Sultanate of Zanzibar", ar: "سلطنة زنجبار" }

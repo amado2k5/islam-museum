@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1501", precision: year, status: tradition, derived: true }
   end: { edtf: "1501", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [19.453, 41.323]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1501"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط دراتش ⁦(١٥٠١)⁩", en: "Fall of Durrës (1501)" }, at: [19.453, 41.323], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/dras }

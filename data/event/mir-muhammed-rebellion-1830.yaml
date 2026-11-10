@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1830", precision: year, status: tradition, derived: true }
   end: { edtf: "1838", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [42.1, 36.46666666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1830"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة مير محمد", en: "Mir Muhammed Rebellion" }, at: [42.1, 36.46666666666667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/upper-mesopotamia }

@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1808-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1808-11", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.514444444444, 40.181388888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1808"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار يريفان ⁦(١٨٠٨)⁩", en: "Siege of Erivan" }, at: [44.514444444444, 40.181388888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/yerevan }
 sides:
   - label: { en: "Qajar dynasty", ar: "القاجاريون" }
   - label: { en: "Russian Empire", ar: "الإمبراطورية الروسية" }

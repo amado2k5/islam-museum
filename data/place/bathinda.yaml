@@ -1,0 +1,20 @@
+id: place/bathinda
+class: place
+kind: city
+label: { ar: "بطندا", en: "Bathinda" }
+summary:
+  ar: "مدينة."
+  en: "Headquarter and city in Bathinda District, Punjab, India."
+wings: [place]
+coordinates: [30.213333333333335, 74.95194444444445]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q709319" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q709319 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

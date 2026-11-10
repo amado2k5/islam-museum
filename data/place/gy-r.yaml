@@ -1,0 +1,20 @@
+id: place/gy-r
+class: place
+kind: city
+label: { ar: "جيور", en: "Győr" }
+summary:
+  ar: "مدينة."
+  en: "City in Győr-Moson-Sopron County, Hungary."
+wings: [place]
+coordinates: [47.684166666667, 17.634444444444]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q134494" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q134494 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

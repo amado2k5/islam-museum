@@ -11,6 +11,16 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
 date:
   start: { edtf: "1021-02~", hijri: "0411-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال سنة ٤١١ {cite:muntazam-ibn-al-jawzi j.7 p.301}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.23, 30.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1021"
+  features:
+    - { type: point, role: event_point, label: { ar: "بسط عبيد مصر في الفسطاط ٤١١", en: "The Unleashing of Egypt's Slaves in al-Fustat, 411" }, at: [31.23, 30.0], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: occurred_at, target: place/al-fustat, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "آمر الجنود", sources: [source/muntazam-ibn-al-jawzi] }

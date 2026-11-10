@@ -11,9 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1695", precision: year, status: tradition, derived: true }
   end: { edtf: "1695", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [21.900555555556, 45.686111111111]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1695"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة لوجاس", en: "Battle of Lugos" }, at: [21.900555555556, 45.686111111111], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/lugoj }
 sides:
   - label: { en: "Holy Roman Empire", ar: "الإمبراطورية الرومانية المقدسة" }
     participants: [polity/holy-roman-empire]

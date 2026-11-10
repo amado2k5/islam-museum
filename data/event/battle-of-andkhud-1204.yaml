@@ -12,6 +12,18 @@ date:
   start: { edtf: "1204", precision: year, status: tradition, derived: true }
   end: { edtf: "1204", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [65.116666666667, 36.95]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1204"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أندخود ⁦(١٢٠٤)⁩", en: "Battle of Andkhud (1204)" }, at: [65.116666666667, 36.95], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/andkhoy }
 external_ids:
   wikidata: Q113993568
 provenance:

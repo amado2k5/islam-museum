@@ -1,0 +1,20 @@
+id: place/adriatic-sea
+class: place
+kind: region
+label: { ar: "البحر الأدرياتيكي", en: "Adriatic Sea" }
+summary:
+  ar: "إقليم."
+  en: "Body of water between the Italian Peninsula and the Balkan Peninsula."
+wings: [place]
+coordinates: [42.775833, 15.426111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q13924" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q13924 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

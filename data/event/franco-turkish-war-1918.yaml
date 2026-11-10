@@ -11,9 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1918", precision: year, status: tradition, derived: true }
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.12, 36.985]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب التركية الفرنسية", en: "Franco-Turkish War" }, at: [35.12, 36.985], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/cilicia }
 sides:
   - label: { en: "French Third Republic", ar: "الجمهورية الفرنسية الثالثة" }
     participants: [polity/french-third-republic]

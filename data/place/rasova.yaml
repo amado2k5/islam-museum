@@ -1,0 +1,20 @@
+id: place/rasova
+class: place
+kind: town
+label: { ar: "راسوفا", en: "Rasova" }
+summary:
+  ar: "بلدة في مقاطعة كونستانسا في رومانيا."
+  en: "Village in Constanța County, Romania."
+wings: [place]
+coordinates: [44.243994, 27.935759]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1077665" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1077665 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/farsala
+class: place
+kind: town
+label: { ar: "فارسالا", en: "Farsala" }
+summary:
+  ar: "بلدة."
+  en: "Town in Thessaly, Greece."
+wings: [place]
+coordinates: [39.29595, 22.38415]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q985596" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q985596 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

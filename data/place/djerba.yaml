@@ -1,0 +1,20 @@
+id: place/djerba
+class: place
+kind: island
+label: { ar: "جربة", en: "Djerba" }
+summary:
+  ar: "جزيرة في تونس."
+  en: "Island in Tunisia."
+wings: [place]
+coordinates: [33.7837, 10.8833]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q188938" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q188938 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

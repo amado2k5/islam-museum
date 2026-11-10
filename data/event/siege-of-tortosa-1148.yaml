@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1148", precision: year, status: tradition, derived: true }
   end: { edtf: "1148", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [0.5211, 40.8125]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1148"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار طرطوشة", en: "Siege of Tortosa" }, at: [0.5211, 40.8125], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 - { type: occurred_at, target: place/tortosa }

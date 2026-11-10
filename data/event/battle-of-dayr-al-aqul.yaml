@@ -10,6 +10,17 @@ date:
   start: { hijri: "0262-07", precision: month, status: historical, sources: [source/muruj-al-dhahab, source/muruj-mari-2005] }
   end: { hijri: "0262-07", precision: month, status: historical, sources: [source/muruj-al-dhahab, source/muruj-mari-2005] }
 external_ids: { wikidata: "Q1094996" }
+map:
+  kind: battle
+  precision: locality
+  center: [39.5058, 38.5032]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة دير العاقول", en: "Battle of Dayr al-Aqul" }, at: [39.5058, 38.5032], precision: locality, source: source/muruj-al-dhahab }
+  sources: [source/muruj-al-dhahab]
+relations:
+- { type: occurred_at, target: place/tigris }
 sides:
   - label: { ar: "الجيش العباسي بقيادة الموفق", en: "The Abbasid army under al-Muwaffaq" }
   - label: { ar: "الدولة الصفارية بقيادة يعقوب", en: "The Saffarid state under Ya'qub" }

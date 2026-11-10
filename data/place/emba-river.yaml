@@ -1,0 +1,20 @@
+id: place/emba-river
+class: place
+kind: river
+label: { ar: "نهر إمبا", en: "Emba River" }
+summary:
+  ar: "نهر في كازاخستان."
+  en: "River in Kazakhstan."
+wings: [place]
+coordinates: [46.628333333333, 53.317222222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q517670" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q517670 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

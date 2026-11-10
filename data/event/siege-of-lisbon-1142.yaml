@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1142", precision: year, status: tradition, derived: true }
   end: { edtf: "1142", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-9.139, 38.722]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1142"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار لشبونة ⁦(١١٤٢)⁩", en: "Siege of Lisbon" }, at: [-9.139, 38.722], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/lisbon }
 sides:

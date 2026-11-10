@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1467", precision: year, status: tradition, derived: true }
   end: { edtf: "1467", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [19.7925, 41.51083333333333]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1467"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار كرويه ⁦(١٤٦٧)⁩", en: "Siege of Krujë" }, at: [19.7925, 41.51083333333333], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/kruj }
 sides:
   - label: { ar: "قوات المستنجد بالله يوسف بن المتوكل", en: "The forces of al-Mustanjid bi'llah Yusuf ibn al-Mutawakkil" }
     participants: [person/al-mustanjid-billah-egypt]

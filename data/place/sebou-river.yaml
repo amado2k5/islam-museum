@@ -1,0 +1,20 @@
+id: place/sebou-river
+class: place
+kind: river
+label: { ar: "سبو", en: "Sebou River" }
+summary:
+  ar: "نهر في المغرب."
+  en: "River in Morocco."
+wings: [place]
+coordinates: [34.263888888888886, -6.681666666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1129810" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1129810 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

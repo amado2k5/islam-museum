@@ -11,6 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1389", precision: year, status: tradition, derived: true }
   end: { edtf: "1396", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.0, 42.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1389"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب المجرية العثمانية ⁦(١٣٨٩–١٣٩٦)⁩", en: "Hungarian–Ottoman War (1389–1396)" }, at: [22.0, 42.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/balkans }
+- { type: occurred_at, target: place/nikopol }
+- { type: occurred_at, target: place/syrmia }
 sides:
   - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
   - label: { ar: "مملكة المجر", en: "The Kingdom of Hungary" }

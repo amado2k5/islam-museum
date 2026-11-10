@@ -11,6 +11,18 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0938", precision: year, status: tradition, derived: true }
   end: { edtf: "0938", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.25, 38.703888888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0938"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة خرپته ⁦(٩٣٨)⁩", en: "Battle of Charpete (938)" }, at: [39.25, 38.703888888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/kharpoot }
 sides:
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
     participants: [place/byzantine-empire]

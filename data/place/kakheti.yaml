@@ -1,0 +1,20 @@
+id: place/kakheti
+class: place
+kind: region
+label: { ar: "منطقة كاخيتي", en: "Kakheti" }
+summary:
+  ar: "إقليم."
+  en: "Region (mkhare) of Georgia."
+wings: [place]
+coordinates: [41.75, 45.716666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q169674" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q169674 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

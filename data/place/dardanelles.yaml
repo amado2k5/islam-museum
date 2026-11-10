@@ -1,0 +1,20 @@
+id: place/dardanelles
+class: place
+kind: sea
+label: { ar: "الدردنيل", en: "Dardanelles" }
+summary:
+  ar: "بحر في شمال غرب تركيا."
+  en: "Strait in northwestern Turkey."
+wings: [place]
+coordinates: [40.2, 26.4]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6514" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6514 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

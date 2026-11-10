@@ -17,6 +17,16 @@ provenance:
   run: lib-salabi-uthmani-batch-2
 external_ids:
   wikidata: Q165425
+map:
+  kind: battle
+  precision: locality
+  center: [21.8275, 38.391666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1571"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ليبانتو", en: "The battle of Lepanto" }, at: [21.8275, 38.391666666667], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/nafpaktos }

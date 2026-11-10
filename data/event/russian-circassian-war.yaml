@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1763", precision: year, status: tradition, derived: true }
   end: { edtf: "1864", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.720278, 43.585278]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1763"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الروسية الشركسية", en: "Russian–Circassian War" }, at: [39.720278, 43.585278], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/circassia }
 sides:
   - label: { ar: "الإمبراطورية الروسية", en: "The Russian Empire" }
   - label: { ar: "الشركس", en: "The Circassians" }

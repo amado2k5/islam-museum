@@ -1,0 +1,20 @@
+id: place/karacahisar-castle
+class: place
+kind: site
+label: { ar: "قلعة قره جه حصار", en: "Karacahisar Castle" }
+summary:
+  ar: "موقع أثري في تركيا."
+  en: "Castle in Turkey."
+wings: [place]
+coordinates: [39.7328, 30.4474]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5994756" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5994756 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

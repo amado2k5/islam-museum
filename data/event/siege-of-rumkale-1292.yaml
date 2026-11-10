@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1292", precision: year, status: tradition, derived: true }
   end: { edtf: "1292", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [37.84, 37.27]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1292"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قلعة الروم ⁦(١٢٩٢)⁩", en: "Siege of Rumkale (1292)" }, at: [37.84, 37.27], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/qalat-al-rum }

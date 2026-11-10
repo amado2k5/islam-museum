@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1265-02", precision: year, status: tradition, derived: true }
   end: { edtf: "1265-03", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [34.8917, 32.5]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1265"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط قيسارية ⁦(١٢٦٥)⁩", en: "Fall of Caesarea (1265)" }, at: [34.8917, 32.5], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/qaysariyya }
 sides:

@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0880", precision: year, status: tradition, derived: true }
   end: { edtf: "0880", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [23.595, 38.4625]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0880"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أوريبوس", en: "Siege of Euripos" }, at: [23.595, 38.4625], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/chalk-da }
 sides:
   - label: { ar: "قوات المعتمد على الله", en: "The forces of al-Mu'tamid ala Allah" }
     participants: [person/al-mutamid]

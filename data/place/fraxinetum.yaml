@@ -1,0 +1,20 @@
+id: place/fraxinetum
+class: place
+kind: site
+label: { ar: "فرخشنيط", en: "Fraxinetum" }
+summary:
+  ar: "موقع أثري."
+  en: "Fort site in southern France."
+wings: [place]
+coordinates: [43.321388888889, 6.4638888888889]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q921634" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q921634 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

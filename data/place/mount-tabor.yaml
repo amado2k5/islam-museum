@@ -1,0 +1,20 @@
+id: place/mount-tabor
+class: place
+kind: mountain
+label: { ar: "جبل طابور", en: "Mount Tabor" }
+summary:
+  ar: "جبل."
+  en: "Mountain in northern Israel traditionally believed to be the scene of the Transfiguration of Jesus."
+wings: [place]
+coordinates: [32.68625, 35.392916666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q193785" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q193785 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

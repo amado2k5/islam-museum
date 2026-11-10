@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1918-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1918-08", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-4.26, 31.35]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1918"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كاوز ⁦(١٩١٨)⁩", en: "Battle of Gaouz (1918)" }, at: [-4.26, 31.35], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/tafilalt }
 sides:

@@ -1,0 +1,20 @@
+id: place/livadeia
+class: place
+kind: city
+label: { ar: "ليفاذيا", en: "Livadeia" }
+summary:
+  ar: "مدينة."
+  en: "City and district capital in Boeotia, Greece."
+wings: [place]
+coordinates: [38.43611111111111, 22.875]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q210698" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q210698 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

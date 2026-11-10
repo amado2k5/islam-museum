@@ -11,6 +11,16 @@ wings: [time]
 sides:
   - label: { ar: "جند شهاب الدين الغوري" }
   - label: { ar: "الإسماعيلية بخراسان" }
+map:
+  kind: campaign
+  precision: locality
+  center: [47.2656, 35.7131]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1203"
+  features:
+    - { type: point, role: event_point, label: { ar: "قتل طائفة من الإسماعيلية بخراسان", en: "Ismailis massacred in Khurasan" }, at: [47.2656, 35.7131], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: occurred_at, target: place/khurasan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/ismaili-dawa, role: "المقتولون", sources: [source/kamil-ibn-al-athir] }

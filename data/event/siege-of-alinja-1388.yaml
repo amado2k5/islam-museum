@@ -12,6 +12,8 @@ date:
   start: { edtf: "1388", precision: year, status: tradition, derived: true }
   end: { edtf: "1401", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: building/alinja-tower }
 external_ids:
   wikidata: "Q122968530"
 provenance:

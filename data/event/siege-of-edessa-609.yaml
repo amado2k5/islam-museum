@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0609", precision: year, status: tradition, derived: true }
   end: { edtf: "0610", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [38.79, 37.16]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0609"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الرها ⁦(٦٠٩)⁩", en: "Siege of Edessa (609)" }, at: [38.79, 37.16], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/al-ruha }
 sides:

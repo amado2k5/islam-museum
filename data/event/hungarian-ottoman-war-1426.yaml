@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1426", precision: year, status: tradition, derived: true }
   end: { edtf: "1428", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [20.93, 44.6628]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1426"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب المجرية العثمانية ⁦(١٤٢٦–١٤٢٨)⁩", en: "Hungarian–Ottoman War (1426–1428)" }, at: [20.93, 44.6628], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/serbian-despotate }

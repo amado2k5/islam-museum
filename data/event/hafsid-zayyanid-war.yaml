@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1400", precision: year, status: tradition, derived: true }
   end: { edtf: "1500", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [3.08746, 36.73225]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1400"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الحفصية الزيانية", en: "Hafsid–Zayyanid War" }, at: [3.08746, 36.73225], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/algiers }
 - { type: occurred_at, target: place/tlemcen }
