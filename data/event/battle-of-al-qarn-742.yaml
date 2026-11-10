@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Berbers", ar: "الأمازيغ" }
+    participants: [group/berbers]
   - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
     participants: [polity/umayyad-caliphate]
 sources: [source/tarikh-al-tabari, source/wikidata]

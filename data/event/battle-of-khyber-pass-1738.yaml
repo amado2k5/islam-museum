@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Afsharid Iran", ar: "الدولة الأفشارية" }
+    participants: [place/afsharid-iran]
   - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
     participants: [polity/mughal-empire]
 sources: [source/kamil-ibn-al-athir, source/wikidata]
