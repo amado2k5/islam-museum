@@ -14,6 +14,15 @@ regions: [maghreb]
 date:
   start: { edtf: "1348", precision: year, status: tradition, derived: true }
   end: { edtf: "1348", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة القيروان ⁦(١٣٤٨)⁩", en: "Battle of Kairouan (1348)" }, at: [35.6781, 10.0963], precision: locality, source: source/umayyad-birth-to-fall-2006 }
+  sources: [source/umayyad-birth-to-fall-2006]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2888875

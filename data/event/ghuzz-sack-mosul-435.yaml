@@ -25,5 +25,14 @@ provenance:
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٣٥)، قراءة آبل فيجن، مسح AAlexandrina-224011"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-muntazam-350-474-batch24
+map:
+  kind: campaign
+  precision: locality
+  center: [36.335, 43.1189]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الغز يدخلون الموصل وينهبون دار قرواش", en: "The Ghuzz enter Mosul and plunder Qarwash's palace" }, at: [36.335, 43.1189], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

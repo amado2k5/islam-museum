@@ -14,6 +14,15 @@ sides:
   - label: { ar: "جيش عبد الرحمن بن سمرة", en: "Abd al-Rahman ibn Samura's army" }
     commanders: [person/abd-al-rahman-ibn-samura]
   - label: { ar: "جبل الزور", en: "Jabal al-Zur" }
+map:
+  kind: campaign
+  precision: locality
+  center: [26.68, 50.05]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح ابن سمرة وصنم الزور", en: "Ibn Samura's Campaign and the Zur Idol" }, at: [26.68, 50.05], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

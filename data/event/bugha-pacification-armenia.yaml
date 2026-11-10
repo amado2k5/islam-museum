@@ -29,5 +29,14 @@ sides:
     commanders: [person/bugha-al-kabir, person/al-mutawakkil]
   - label: { ar: "إسحاق بن إسماعيل بن شعيب", en: "Ishaq ibn Isma'il ibn Shu'ayb" }
     participants: [person/isha-ibn-ismail-ibn-shuayb]
+map:
+  kind: campaign
+  precision: locality
+  center: [40.383333, 44.95]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "إصلاح بُغا الكبير ثغر أرمينية", en: "Bugha al-Kabir's Pacification of the Armenian March" }, at: [40.383333, 44.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

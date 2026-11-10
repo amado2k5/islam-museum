@@ -17,6 +17,15 @@ date:
 sides:
   - label: { ar: "الأسطول العثماني بقيادة سنان باشا وطورغود", en: "The Ottoman fleet under Sinan Pasha and Turgut" }
   - label: { ar: "فرسان مالطة حامية طرابلس", en: "The Knights of Malta garrison of Tripoli" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.8752, 13.1875]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طرابلس الغرب", en: "Conquest of Tripoli" }, at: [32.8752, 13.1875], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2860095

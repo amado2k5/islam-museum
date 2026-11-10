@@ -26,5 +26,14 @@ sides:
     participants: [person/al-amin]
   - label: { ar: "حامية بغداد", en: "The defenders of Baghdad" }
     participants: [place/baghdad]
+map:
+  kind: siege
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بغداد في حرب الأمين والمأمون", en: "Siege of Baghdad in the war of al-Amin and al-Ma'mun" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

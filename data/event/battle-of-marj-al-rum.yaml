@@ -23,5 +23,14 @@ sides:
   - label: { ar: "جيش أبو عبيدة بن الجراح", en: "Abu Ubayda ibn al-Jarrah's army" }
     commanders: [person/abu-ubayda-ibn-al-jarrah]
   - label: { ar: "دمشق", en: "Damascus" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة مرج الروم", en: "Battle of Marj al-Rum (15 AH)" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

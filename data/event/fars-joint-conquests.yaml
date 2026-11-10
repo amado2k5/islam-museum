@@ -21,6 +21,15 @@ sides:
   - label: { ar: "جيش أبو موسى الأشعري", en: "Abu Musa al-Ashari's army" }
     commanders: [person/abu-musa-al-ashari, person/uthman-ibn-abi-al-as]
   - label: { ar: "فارس", en: "Fars" }
+map:
+  kind: campaign
+  precision: locality
+  center: [29.625, 52.531666666666666]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أرجان وشيراز وبلاد فارس", en: "The Joint Conquests of Fars" }, at: [29.625, 52.531666666666666], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

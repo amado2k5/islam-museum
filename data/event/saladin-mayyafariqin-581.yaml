@@ -23,6 +23,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية ميافارقين", en: "The defenders of Mayyafariqin" }
     participants: [place/mayyafariqin]
+map:
+  kind: campaign
+  precision: locality
+  center: [38.136944444444, 41.008055555556]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك صلاح الدين ميافارقين", en: "Saladin takes Mayyafariqin" }, at: [38.136944444444, 41.008055555556], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

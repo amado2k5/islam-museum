@@ -29,6 +29,15 @@ relations:
 sides:
   - label: { ar: "الحملة الصليبية الثامنة بقيادة لويس التاسع", en: "The Eighth Crusade under Louis IX" }
   - label: { ar: "الدولة الحفصية في تونس", en: "The Hafsid state in Tunis" }
+map:
+  kind: siege
+  precision: locality
+  center: [36.81897, 10.16579]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "منازلة الفرنسيس تونس", en: "Louis IX's siege of Tunis (the Eighth Crusade)" }, at: [36.81897, 10.16579], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

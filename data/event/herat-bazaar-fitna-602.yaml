@@ -16,6 +16,15 @@ themes: [civil-wars-and-revolts]
 sides:
   - label: { ar: "المعارضة", en: "The opposition" }
   - label: { ar: "السلطات", en: "The authorities" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.3529, 62.204]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتنة أهل السوقين بهراة", en: "The bazaar-quarters' fitna at Herat (602 AH)" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

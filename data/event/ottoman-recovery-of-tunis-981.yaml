@@ -21,5 +21,14 @@ sides:
   - label: { ar: "المهاجمون", en: "The attackers" }
   - label: { ar: "حامية تونس", en: "The defenders of Tunis" }
     participants: [place/tunis]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.81897, 10.16579]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد تونس من الإسبان", en: "The Recovery of Tunis from the Spanish" }, at: [36.81897, 10.16579], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

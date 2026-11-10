@@ -31,6 +31,15 @@ sides:
   - label: { ar: "قريش مكة وحلفاؤها", en: "Quraysh of Mecca and allies" }
     participants: [group/quraysh]
     commanders: [person/abu-sufyan-ibn-harb, person/khalid-ibn-al-walid]
+map:
+  kind: battle
+  precision: locality
+  center: [24.5, 39.61]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "القتال على لواء المشركين في أحد وإبادة حمَلَتِه", en: "Battle over the Quraysh standard at Uhud" }, at: [24.5, 39.61], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] , explorer_metadata: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-sixth-40-stories-2026-11-04","source":"Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research."}, source: "Existing museum record and defined sources: source/mubarakpuri-raheeq, source/ibn-hisham-sira. Attribution metadata restored only; no new source pages examined."}
 status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 258-260" }

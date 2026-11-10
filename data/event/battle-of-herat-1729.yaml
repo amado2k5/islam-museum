@@ -14,6 +14,15 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1729", precision: year, status: tradition, derived: true }
   end: { edtf: "1729", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [34.3529, 62.204]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة هراة ⁦(١٧٢٩)⁩", en: "Battle of Herat" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q25212290

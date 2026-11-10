@@ -27,5 +27,14 @@ sides:
     participants: [person/uthman-ibn-affan]
   - label: { ar: "حامية قاليقلا", en: "The defenders of Qaliqala (Theodosiopolis/Erzurum)" }
     participants: [place/qaliqala]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.9043, 41.2679]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "إمداد سلمان الخيل وأمر الغنيمة", en: "Salman al-Khayl's Reinforcement and the Spoils Dispute" }, at: [39.9043, 41.2679], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

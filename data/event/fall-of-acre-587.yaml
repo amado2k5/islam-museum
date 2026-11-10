@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش صلاح الدين الأيوبي", en: "Saladin (Salah al-Din Yusuf ibn Ayyub)'s army" }
     commanders: [person/salah-al-din-yusuf-ibn-ayyub]
   - label: { ar: "عكا", en: "Acre" }
+map:
+  kind: siege
+  precision: locality
+  center: [32.93, 35.08]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك الفرنج عكا وقتل الأسرى", en: "The Franks take Acre and kill the captives" }, at: [32.93, 35.08], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

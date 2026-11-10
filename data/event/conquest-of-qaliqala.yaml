@@ -27,5 +27,14 @@ sides:
     commanders: [person/uthman-ibn-affan]
   - label: { ar: "الخزر", en: "The Khazars" }
     participants: [group/khazars]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.9043, 41.2679]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قاليقلا وبدء فتوح أرمينية", en: "The Taking of Qaliqala and the Opening of Armenia" }, at: [39.9043, 41.2679], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -20,6 +20,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch1
+map:
+  kind: campaign
+  precision: locality
+  center: [39.9086, 41.2758]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك شهاب الدين غازي مدينة أرزن", en: "Shihab al-Din Ghazi takes Arzan" }, at: [39.9086, 41.2758], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

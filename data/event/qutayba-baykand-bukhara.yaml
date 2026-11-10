@@ -17,6 +17,15 @@ sides:
     commanders: [person/qutayba-ibn-muslim, person/bashshar-ibn-muslim]
   - label: { ar: "نيزك", en: "Nizak" }
     participants: [person/nizak]
+map:
+  kind: campaign
+  precision: locality
+  center: [39.5869, 64.0108]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتوح قتيبة بيكند وبخارا وقتل نيزك", en: "Qutayba's Baykand, Bukhara and Nizak's Killing" }, at: [39.5869, 64.0108], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -29,5 +29,14 @@ sides:
     commanders: [person/al-mustain]
   - label: { ar: "محمد بن عبد الله بن طاهر", en: "محمد بن عبد الله بن طاهر" }
     participants: [person/muhammad-ibn-abd-allah-ibn-tahir]
+map:
+  kind: siege
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار بغداد في فتنة المستعين والمعتز", en: "Siege of Baghdad in the strife of al-Musta'in and al-Mu'tazz" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tabari-khayyat-part3]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

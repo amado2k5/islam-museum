@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
     commanders: [person/sulayman-al-qanuni]
   - label: { ar: "رودس", en: "Rhodes" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.4341, 28.2176]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح رودس العثماني", en: "The Ottoman Conquest of Rhodes" }, at: [36.4341, 28.2176], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

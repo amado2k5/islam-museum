@@ -20,6 +20,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch1
+map:
+  kind: siege
+  precision: locality
+  center: [38.754156, 42.487735]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصر جلال الدين خلاط", en: "Jalal al-Din's first siege of Khilat" }, at: [38.754156, 42.487735], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

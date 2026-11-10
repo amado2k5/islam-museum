@@ -27,6 +27,15 @@ sides:
     participants: [person/al-hakim-bi-amr-illah-ii]
   - label: { ar: "حامية تونس", en: "The defenders of Tunis" }
     participants: [place/tunis]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.81897, 10.16579]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول أبي الحسن المريني إفريقية", en: "Abu al-Hasan al-Marini's entry into Ifriqiya" }, at: [36.81897, 10.16579], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

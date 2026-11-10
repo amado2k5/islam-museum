@@ -29,5 +29,14 @@ sides:
     commanders: [person/suhayl-ibn-amr]
 casualties: { range: [15, 16], status: tradition, note: "قتل من المشركين نحو 12 أو 13 رجلاً ثم انهزموا، واستشهد من المسلمين ثلاثة: كرز بن جابر وخنيس بن خالد وسلمة بن الميلاء.", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 49–50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+map:
+  kind: battle
+  precision: locality
+  center: [21.4019, 39.8397]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة الخندمة", en: "The skirmish of al-Khandama" }, at: [21.4019, 39.8397], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 49–50" }

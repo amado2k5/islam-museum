@@ -23,5 +23,14 @@ sides:
     commanders: [person/sabur-ibn-ardashir]
   - label: { ar: "الضيزن بن معاوية التنوخي", en: "al-Dayzan ibn Mu'awiya" }
     participants: [person/al-dayzan-ibn-muawiya]
+map:
+  kind: siege
+  precision: locality
+  center: [35.588055555556, 42.718333333333]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نزول سابور الجنود على الحضر", en: "Shapur's siege of al-Hadra" }, at: [35.588055555556, 42.718333333333], precision: locality, source: source/muruj-al-dhahab }
+  sources: [source/muruj-al-dhahab]
 sources: [source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -16,6 +16,15 @@ sides:
     commanders: [person/muhammad-ibn-al-qasim]
   - label: { ar: "داهر ملك السند", en: "Dahir, King of Sind" }
     participants: [person/dahir]
+map:
+  kind: battle
+  precision: locality
+  center: [33.12222222222222, 46.164722222222224]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة داهر ومقتله", en: "The Battle and Death of Dahir" }, at: [33.12222222222222, 46.164722222222224], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

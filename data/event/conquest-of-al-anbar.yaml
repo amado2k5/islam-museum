@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
     commanders: [person/khalid-ibn-al-walid, person/jarir-ibn-abd-allah-al-bajali]
   - label: { ar: "الأنبار", en: "al-Anbar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.38, 43.79]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الأنبار وغارة سوق بغداذ", en: "The Conquest of al-Anbar and the Raid on Baghdad's Market" }, at: [33.38, 43.79], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

@@ -35,5 +35,14 @@ sides:
       status: tradition
       note: "حشود من الأعراب تفرقت في بطون الأودية عند قدوم المسلمين"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [24.55, 40.95]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة بني سليم بالكدر", en: "Expedition of al-Kudr" }, at: [24.55, 40.95], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 234–235 citing Ibn Hisham 2/43–44 and Zad al-Maad 2/90" }

@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش جنادة بن أبي أمية الأزدي", en: "جنادة بن أبي أمية الأزدي's army" }
     commanders: [person/janada-ibn-abi-umayya, person/abd-allah-al-mamun]
   - label: { ar: "إقريطش", en: "Crete" }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.21666666666667, 24.916666666666668]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح إقريطش", en: "The Conquest of Crete" }, at: [35.21666666666667, 24.916666666666668], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/nafh-tib-maqqari, source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

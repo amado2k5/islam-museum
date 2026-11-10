@@ -25,5 +25,14 @@ sides:
     participants: [person/al-mustadi-billah]
   - label: { ar: "حامية حماة", en: "The defenders of Hama" }
     participants: [place/hama]
+map:
+  kind: siege
+  precision: locality
+  center: [35.1318, 36.7578]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الفرنج حماة", en: "Frankish siege of Hama" }, at: [35.1318, 36.7578], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

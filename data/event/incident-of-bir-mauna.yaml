@@ -24,5 +24,14 @@ sides:
   - label: { ar: "بنو سليم بتحريض عامر بن الطفيل", en: "Banu Sulaym at Amir ibn al-Tufayl's incitement" }
     participants: [group/banu-sulaym]
     commanders: [person/amir-ibn-al-tufayl]
+map:
+  kind: battle
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مأساة بئر معونة", en: "The Tragedy of Bi'r Ma'una" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 293–295" }

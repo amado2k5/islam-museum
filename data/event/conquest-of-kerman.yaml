@@ -19,5 +19,14 @@ sides:
   - label: { ar: "المهاجمون", en: "The attackers" }
   - label: { ar: "حامية كرمان", en: "The defenders of Kirman" }
     participants: [place/kirman]
+map:
+  kind: campaign
+  precision: locality
+  center: [30.2839, 57.0834]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح كرمان", en: "the conquest of Kirman (24 AH)" }, at: [30.2839, 57.0834], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

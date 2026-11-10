@@ -17,6 +17,15 @@ sides:
     commanders: [person/ubaydallah-ibn-abi-bakra]
   - label: { ar: "شريح بن هانيء الحارثي", en: "Shurayh ibn Hani' al-Harithi" }
     participants: [person/shurayh-ibn-hani]
+map:
+  kind: campaign
+  precision: locality
+  center: [31, 61.5]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "كارثة عبيد الله بن أبي بكرة الثانية", en: "Ubaydallah ibn Abi Bakra's Second Disaster" }, at: [31, 61.5], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

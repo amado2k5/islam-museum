@@ -25,5 +25,14 @@ sides:
     participants: [person/al-wathiq]
   - label: { ar: "حامية إشبيلية", en: "The defenders of Seville" }
     participants: [place/seville]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.3828, -5.9732]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نزول المجوس بإشبيلية ⁦(230هـ)⁩", en: "Majus landing at Seville, 230 AH" }, at: [37.3828, -5.9732], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

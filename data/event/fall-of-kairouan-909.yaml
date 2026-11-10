@@ -19,6 +19,15 @@ sides:
     participants: [person/ubayd-allah-al-mahdi]
   - label: { ar: "حامية القيروان", en: "The defenders of Qayrawan" }
     participants: [place/qayrawan]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط القيروان ⁦(٩٠٩)⁩", en: "Fall of Kairouan (909)" }, at: [35.6781, 10.0963], precision: locality, source: source/umayyad-birth-to-fall-2006 }
+  sources: [source/umayyad-birth-to-fall-2006]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139855912

@@ -25,5 +25,14 @@ sides:
     participants: [person/hisham-ii-al-muayyad]
   - label: { ar: "حامية قرطبة", en: "The defenders of Cordoba" }
     participants: [place/cordoba]
+map:
+  kind: siege
+  precision: locality
+  center: [37.8916, -4.7728]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول البرابرة قرطبة عنوة", en: "The Berbers enter Cordoba by storm" }, at: [37.8916, -4.7728], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

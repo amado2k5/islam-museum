@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش عبد الله بن عمر بن عبد العزيز", en: "Abdallah ibn Umar ibn Abd al-Aziz's army" }
     commanders: [person/abdallah-ibn-umar-ibn-abd-al-aziz, person/marwan-ibn-muhammad]
   - label: { ar: "الكوفة", en: "Kufa" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.0511, 44.4402]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك الضحاك بن قيس الكوفة وصالح ابن عمر على القسمة", en: "al-Dahhak ibn Qays Takes Kufa and Agrees a Division with Ibn Umar" }, at: [32.0511, 44.4402], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/tabari-khayyat-part2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

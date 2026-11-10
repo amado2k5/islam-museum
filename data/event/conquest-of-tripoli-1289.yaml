@@ -17,6 +17,15 @@ date:
 sides:
   - label: { ar: "الجيش المملوك بقيادة قلاوون", en: "The Mamluk army under Qalawun" }
   - label: { ar: "حامية طرابلس الصليبية", en: "The Crusader garrison of Tripoli" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.4336, 35.8444]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح طرابلس الشام", en: "Conquest of Tripoli" }, at: [34.4336, 35.8444], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q5432166

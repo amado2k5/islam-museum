@@ -27,5 +27,14 @@ sides:
     commanders: [person/hassan-ibn-al-numan-al-ghassani, person/hassan-ibn-al-numan]
   - label: { ar: "الكاهنة ملكة البربر", en: "Al-Kahina, Queen of the Berbers" }
     participants: [person/al-kahina, person/abd-al-aziz-ibn-marwan]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة حسان بن النعمان للكاهنة", en: "Hassan ibn al-Nu'man's Campaigns against al-Kahina" }, at: [35.6781, 10.0963], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

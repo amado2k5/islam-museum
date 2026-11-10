@@ -33,5 +33,14 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية مرعش", en: "The defenders of Mar'ash (Germanikeia)" }
     participants: [place/marash]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.5875, 36.945277777778]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح مرعش وعمارتها", en: "The Taking and Settling of Mar'ash" }, at: [37.5875, 36.945277777778], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -27,6 +27,15 @@ sides:
     commanders: [person/hulagu]
   - label: { ar: "المستعصم بالله عبد الله بن المستنصر آخر خلفاء بغداد", en: "al-Musta'sim bi'llah Abdullah ibn al-Mustansir, last caliph of Baghdad" }
     participants: [person/al-mustasim-billah]
+map:
+  kind: battle
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "اجتياح التتار بغداد وقتل المستعصم", en: "The Tatar sack of Baghdad and the killing of al-Musta'sim" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
 education:
   did_you_know:

@@ -20,6 +20,15 @@ sides:
   - label: { ar: "جيش مراد الثاني", en: "Murad II's army" }
     commanders: [person/murad-ii-uthmani]
   - label: { ar: "القسطنطينية", en: "Constantinople" }
+map:
+  kind: siege
+  precision: locality
+  center: [41.008, 28.978]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار القسطنطينية ⁦(١٤٢٢)⁩", en: "Siege of Constantinople (1422)" }, at: [41.008, 28.978], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q700886

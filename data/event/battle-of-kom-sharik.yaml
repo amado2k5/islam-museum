@@ -62,6 +62,15 @@ relations:
   sources:
   - source/futuh-misr-amir-1999
 - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+map:
+  kind: battle
+  precision: locality
+  center: [30.6542, 30.7289]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة كوم شريك", en: "Battle of Kom Sharik" }, at: [30.6542, 30.7289], precision: locality, source: source/futuh-misr-amir-1999 }
+  sources: [source/futuh-misr-amir-1999]
 sources: &id001
 - source/futuh-misr-amir-1999
 provenance:

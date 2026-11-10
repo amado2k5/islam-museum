@@ -23,6 +23,15 @@ sides:
   - label: { ar: "جيش علاء الدين مغلطاي", en: "Ala' al-Din Mughultay's army" }
     commanders: [person/alaa-al-din-mughultay]
   - label: { ar: "دمشق", en: "Damascus" }
+map:
+  kind: battle
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "النويري في وقعة ٢٩ شعبان ٧٠٢هـ/١٨ أبريل ١٣٠٣م وشهوده نصر شقحب", en: "Al-Nuwayri fights beside Mughultay, 29 Sha'ban 702/18 April 1303, eyewitness of Shaqhab" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

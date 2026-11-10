@@ -25,5 +25,14 @@ sides:
   - label: { ar: "جيش جنادة بن أبي أمية الأزدي", en: "جنادة بن أبي أمية الأزدي's army" }
     commanders: [person/janada-ibn-abi-umayya, person/mujahid-ibn-jabr, person/tubay-ibn-amirat]
   - label: { ar: "أرواد", en: "Arwad" }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.86, 35.86]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أرواد", en: "The Conquest of Arwad" }, at: [34.86, 35.86], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -29,6 +29,15 @@ sides:
       status: tradition
       note: "خرج البطليوس في نحو خمسين ألف فارس (2/213)، وأخبر الجواسيس خالداً بنحو مائتي ألف فارس وخمسين ألف راجل من النوبة والبربر والبجاوة (2/214)"
       sources: [source/futuh-al-sham-ilmiyya-1997-v2]
+map:
+  kind: campaign
+  precision: locality
+  center: [28.5389, 30.6544]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح البهنسا ⁦(في رواية فتوح الشام)⁩", en: "The conquest of al-Bahnasa (as told in Futuh al-Sham)" }, at: [28.5389, 30.6544], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/futuh-al-sham-ilmiyya-1997-v2, source/dehghani-farsani-futuh-al-sham-thesis]
 provenance:
   layer: own-research

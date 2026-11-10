@@ -15,6 +15,15 @@ sides:
   - label: { ar: "جيش عمران بن موسى البرمكي", en: "Imran ibn Musa al-Barmaki's army" }
     commanders: [person/imran-ibn-musa-al-barmaki, person/al-mutasim-abi-ishaq]
   - label: { ar: "القيقان", en: "al-Qiqan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [28.8986, 66.6264]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ولاية عمران بن موسى السند وحربه الزط والميد", en: "Imran ibn Musa's Sind and the Zutt-Mayd Wars" }, at: [28.8986, 66.6264], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

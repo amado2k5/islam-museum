@@ -19,6 +19,15 @@ sides:
     participants: [person/al-mutawakkil-ala-llah]
   - label: { ar: "حامية تلمسان", en: "The defenders of Tlemcen" }
     participants: [place/tlemcen]
+map:
+  kind: campaign
+  precision: locality
+  center: [34.8783, -1.315]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ تلمسان (1393)", en: "Capture of Tlemcen (1393)" }, at: [34.8783, -1.315], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111211182

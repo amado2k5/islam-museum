@@ -25,5 +25,14 @@ sides:
   - label: { ar: "جيش محمد بن مروان", en: "Muhammad ibn Marwan's army" }
     commanders: [person/muhammad-ibn-marwan]
   - label: { ar: "أرمينية", en: "Armenia" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.383333, 44.95]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرداد محمد بن مروان لأرمينية", en: "Muhammad ibn Marwan's Recovery of Armenia" }, at: [40.383333, 44.95], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

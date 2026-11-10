@@ -22,5 +22,14 @@ provenance:
 sides:
   - label: { ar: "سلطنة دلهي بقيادة إلتتمش", en: "The Delhi Sultanate under Iltutmish" }
   - label: { ar: "حامية ملتان", en: "The Multan garrison" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.1968, 71.4782]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ إيلتتمش الملتان من قباجة ٦٢٥هـ", en: "Iltutmish takes Multan from Qabacha, 625" }, at: [30.1968, 71.4782], precision: locality, source: source/fihrist-ibn-al-nadim }
+  sources: [source/fihrist-ibn-al-nadim]
 sources: [source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

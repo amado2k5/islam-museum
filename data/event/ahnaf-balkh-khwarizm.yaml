@@ -15,6 +15,15 @@ sides:
   - label: { ar: "جيش الأحنف بن قيس", en: "al-Ahnaf ibn Qays's army" }
     commanders: [person/al-ahnaf-ibn-qays]
   - label: { ar: "بلخ", en: "Balkh" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.76, 66.9]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "صلح بلخ ومسير الأحنف إلى خوارزم", en: "Balkh's Sulh and al-Ahnaf's Khwarizm March" }, at: [36.76, 66.9], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

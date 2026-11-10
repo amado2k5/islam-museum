@@ -21,6 +21,15 @@ sides:
   - label: { ar: "جيش شمس الدين إلتمش", en: "Shams al-Din Iltutmish's army" }
     commanders: [person/shams-al-din-iltutmish]
   - label: { ar: "لاهور", en: "Lahore" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.558, 74.3507]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ قوات إلتمش للاهور، ٦١٣هـ/١٢١٧م", en: "Iltutmish's forces take Lahore, 613/1217" }, at: [31.558, 74.3507], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

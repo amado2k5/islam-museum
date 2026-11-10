@@ -23,6 +23,15 @@ provenance:
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٢٠)، قراءة آبل فيجن، مسح AAlexandrina-224011"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muntazam-350-474-batch23
+map:
+  kind: campaign
+  precision: locality
+  center: [35.5935, 51.44]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول محمود الغزنوي الريّ سنة ٤٢٠", en: "Mahmud of Ghazna Enters Rayy, 420" }, at: [35.5935, 51.44], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/muntazam-ibn-al-jawzi]
 status:
   review: draft

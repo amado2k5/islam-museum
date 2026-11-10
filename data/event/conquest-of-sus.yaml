@@ -24,6 +24,15 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية السوس ⁦(خوزستان)⁩", en: "The defenders of Sus (Khuzistan)" }
     participants: [place/sus-khuzistan]
+map:
+  kind: campaign
+  precision: locality
+  center: [32.1906, 48.2579]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح السوس", en: "Conquest of al-Sus (17 AH)" }, at: [32.1906, 48.2579], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

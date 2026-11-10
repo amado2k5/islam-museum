@@ -24,6 +24,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية ملطية", en: "The defenders of Malatya (Melitene)" }
     participants: [place/malatya]
+map:
+  kind: campaign
+  precision: locality
+  center: [38.35062, 38.3094]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك ركن الدين ملطية من أخيه وأرزن الروم", en: "Rukn al-Din takes Malatya from his brother — and Erzurum" }, at: [38.35062, 38.3094], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

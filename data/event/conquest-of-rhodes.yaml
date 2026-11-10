@@ -25,5 +25,14 @@ sides:
   - label: { ar: "جيش جنادة بن أبي أمية الأزدي", en: "جنادة بن أبي أمية الأزدي's army" }
     commanders: [person/janada-ibn-abi-umayya, person/muawiya-ibn-abi-sufyan, person/yazid-ibn-muawiya]
   - label: { ar: "رودس", en: "Rhodes" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.4341, 28.2176]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح رودس وهدم حصنها", en: "The Conquest of Rhodes and the Demolition of Its Fort" }, at: [36.4341, 28.2176], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -21,5 +21,14 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-123
+map:
+  kind: battle
+  precision: locality
+  center: [47.1, 37.3]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "الملحمة الكبرى بين التتار والقفجاق والروس سنة 620", en: "The great battle between the Tatars, the Qipchaq and the Russians, 620" }, at: [47.1, 37.3], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

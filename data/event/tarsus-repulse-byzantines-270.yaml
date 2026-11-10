@@ -22,5 +22,14 @@ provenance:
 sides:
   - label: { ar: "المسلمون بقيادة زمان الخادم", en: "The Muslims under Zamman al-Khadim" }
   - label: { ar: "البيزنطيون بقيادة أندرياس", en: "The Byzantines under Andrias" }
+map:
+  kind: battle
+  precision: locality
+  center: [36.9167, 34.8833]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هزيمة الروم عند طرسوس", en: "The Defeat of the Byzantines at Tarsus" }, at: [36.9167, 34.8833], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

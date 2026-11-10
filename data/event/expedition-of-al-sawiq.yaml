@@ -37,5 +37,14 @@ sides:
       status: tradition
       note: "مائتا راكب خرجوا لبر يمين أبي سفيان"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة السويق", en: "Expedition of al-Sawiq" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 240–241 citing Ibn Hisham 2/44–45 and Zad al-Maad 2/90" }

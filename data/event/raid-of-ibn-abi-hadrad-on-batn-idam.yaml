@@ -27,5 +27,14 @@ sides:
   - label: { ar: "سرية ابن أبي حدراد", en: "Ibn Abi Hadrad's expedition" }
     commanders: [person/abdullah-ibn-abi-hadrad, person/amir-ibn-al-adbat-al-ashjai]
   - label: { ar: "أهل إدم", en: "The people of Idam" }
+map:
+  kind: campaign
+  precision: locality
+  center: [24.4, 39.5]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة ابن أبي حدرد بطن إضم ومقتل عامر بن الأضبط", en: "Ibn Abi Hadrad's raid on Batn Idam and the killing of Amir ibn al-Adbat" }, at: [24.4, 39.5], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 275-277" }

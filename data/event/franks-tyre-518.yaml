@@ -22,5 +22,14 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-113
 external_ids: { wikidata: "Q51933216" }
+map:
+  kind: siege
+  precision: locality
+  center: [33.2705, 35.2038]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ الفرنج صور بالأمان سنة 518", en: "The Franks Take Tyre by Safe-Conduct, 518" }, at: [33.2705, 35.2038], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

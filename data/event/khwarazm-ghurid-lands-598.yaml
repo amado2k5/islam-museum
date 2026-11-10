@@ -22,6 +22,15 @@ sides:
   - label: { ar: "المهاجمون", en: "The attackers" }
   - label: { ar: "حامية خراسان", en: "The defenders of خراسان" }
     participants: [place/khurasan]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.7131, 47.2656]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك خوارزم شاه ما أخذه الغورية من بلاده", en: "the Khwarazmshah retakes what the Ghurids had seized" }, at: [35.7131, 47.2656], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

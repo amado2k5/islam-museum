@@ -24,5 +24,14 @@ sides:
     commanders: [person/khalid-ibn-al-walid]
   - label: { en: "Pagan shrine custodians", ar: "سدنة الأصنام وسحرتها" }
     participants: [group/quraysh]
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "هدم العزى ومنائر الأصنام الكبرى", en: "The Demolition of al-Uzza and Major Idols" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 409–410" }

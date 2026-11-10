@@ -14,6 +14,15 @@ wings: [time]
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31, 61.5]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "نهاية عبد الرحمن بن محمد بن الأشعث بسجستان", en: "Ibn al-Ash'ath's End at Sijistan" }, at: [31, 61.5], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

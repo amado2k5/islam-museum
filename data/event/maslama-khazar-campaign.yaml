@@ -30,5 +30,14 @@ sides:
     commanders: [person/isha-ibn-muslim-al-uqayli, person/said-al-harashi, person/maslama-ibn-abd-al-malik, person/hisham-ibn-abd-al-malik]
   - label: { ar: "الخزر", en: "The Khazars" }
     participants: [group/khazars]
+map:
+  kind: campaign
+  precision: locality
+  center: [42.0578, 48.2892]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة مسلمة بن عبد الملك للخزر وفتح الباب", en: "Maslama ibn Abd al-Malik's Khazar Campaign and the Taking of al-Bab" }, at: [42.0578, 48.2892], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

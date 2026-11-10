@@ -30,5 +30,14 @@ sides:
   - label: { ar: "جيش أبو موسى الأشعري", en: "Abu Musa al-Ashari's army" }
     commanders: [person/abu-musa-al-ashari]
   - label: { ar: "تستر", en: "Tustar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.0497, 48.8483]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح تستر وأسر الهرمزان", en: "Conquest of Tustar and the capture of al-Hurmuzan" }, at: [32.0497, 48.8483], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir, source/akhbar-tiwal-amir, source/futuh-buldan-maarif-1407]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

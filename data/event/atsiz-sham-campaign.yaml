@@ -25,5 +25,14 @@ sides:
   - label: { ar: "جيش أتسز بن أوق الخوارزمي", en: "Atsiz ibn Uwaq's army" }
     commanders: [person/atsiz-ibn-uwaq, person/alp-arslan]
   - label: { ar: "القدس", en: "Jerusalem" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.78, 35.24]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حملة أتسز بن أوق على الشام", en: "Atsiz ibn Uwaq's campaign against Syria" }, at: [31.78, 35.24], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

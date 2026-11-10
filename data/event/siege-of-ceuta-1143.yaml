@@ -19,6 +19,15 @@ sides:
     participants: [person/al-hafiz-fatimid]
   - label: { ar: "حامية سبتة", en: "The defenders of Ceuta" }
     participants: [place/ceuta]
+map:
+  kind: siege
+  precision: locality
+  center: [35.88919, -5.32042]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سبتة ⁦(١١٤٣)⁩", en: "Siege of Ceuta (1143)" }, at: [35.88919, -5.32042], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q109312807

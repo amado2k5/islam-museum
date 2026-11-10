@@ -24,5 +24,14 @@ sides:
     participants: [person/al-muti-billah]
   - label: { ar: "حامية أنطاكية", en: "The defenders of Antioch" }
     participants: [place/antakiya]
+map:
+  kind: campaign
+  precision: locality
+  center: [36.2025, 36.1606]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ملك الروم مدينة أنطاكية", en: "Byzantine capture of Antioch" }, at: [36.2025, 36.1606], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

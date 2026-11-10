@@ -16,6 +16,15 @@ sides:
   - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
     commanders: [person/muhammad-ibn-al-qasim]
   - label: { ar: "الديبل", en: "al-Daybul" }
+map:
+  kind: siege
+  precision: locality
+  center: [24.7522, 67.5211]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الديبل وكسر منارة البد", en: "The Storming of Daybul" }, at: [24.7522, 67.5211], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

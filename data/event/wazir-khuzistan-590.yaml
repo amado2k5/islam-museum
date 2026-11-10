@@ -23,6 +23,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية الأهواز", en: "The defenders of Khuzistan (al-Ahwaz)" }
     participants: [place/khuzistan]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.3183, 48.6706]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مسير وزير الخليفة إلى خوزستان وملكها", en: "the caliph's vizier marches on and takes Khuzistan" }, at: [31.3183, 48.6706], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

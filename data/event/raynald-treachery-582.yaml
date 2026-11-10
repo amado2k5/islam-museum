@@ -25,6 +25,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية الكرك", en: "The defenders of al-Karak" }
     participants: [place/al-karak]
+map:
+  kind: campaign
+  precision: locality
+  center: [31.18, 35.7]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غدر البرنس أرناط صاحب الكرك", en: "Prince Reynald's treachery — the Kerak lord breaks the truce" }, at: [31.18, 35.7], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

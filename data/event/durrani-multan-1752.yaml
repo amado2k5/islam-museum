@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش أحمد شاه الدراني", en: "Ahmad Shah Durrani's army" }
     commanders: [person/ahmad-shah-durrani]
   - label: { ar: "ملتان", en: "Multan" }
+map:
+  kind: campaign
+  precision: locality
+  center: [30.1968, 71.4782]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "تنازل المغول لأحمد شاه الدراني عن صوبتي لهاور والملتان ١٧٥٢م", en: "The Mughals cede Lahore and Multan to Ahmad Shah Durrani, 1752" }, at: [30.1968, 71.4782], precision: locality, source: source/fihrist-ibn-al-nadim }
+  sources: [source/fihrist-ibn-al-nadim]
 sources: [source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

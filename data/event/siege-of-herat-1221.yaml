@@ -17,6 +17,15 @@ sides:
   - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
   - label: { ar: "حامية هراة", en: "The defenders of هراة" }
     participants: [place/herat]
+map:
+  kind: siege
+  precision: locality
+  center: [34.3529, 62.204]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار هرات ⁦(١٢٢١–١٢٢٢)⁩", en: "Siege of Herat (1221–22)" }, at: [34.3529, 62.204], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q9389457

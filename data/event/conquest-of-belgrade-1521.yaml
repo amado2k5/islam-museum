@@ -18,6 +18,15 @@ sides:
   - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
     commanders: [person/sulayman-al-qanuni]
   - label: { ar: "بلغراد", en: "Belgrade" }
+map:
+  kind: siege
+  precision: locality
+  center: [44.804, 20.465]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بلغراد ⁦(١٥٢١)⁩", en: "Siege of Belgrade (1521)" }, at: [44.804, 20.465], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q535542

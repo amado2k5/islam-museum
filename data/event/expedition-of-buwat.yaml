@@ -37,6 +37,15 @@ sides:
       status: tradition
       note: "مائة رجل من قريش ومعهم 2500 بعير"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [24.4, 38.3]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة بواط", en: "Expedition of Buwat" }, at: [24.4, 38.3], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 199" }
 

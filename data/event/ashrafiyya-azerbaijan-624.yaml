@@ -20,6 +20,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch1
+map:
+  kind: campaign
+  precision: locality
+  center: [38.25, 46.3]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول العساكر الأشرفية أذربيجان وملك بعضها", en: "al-Ashraf's armies enter Azerbaijan and take part of it" }, at: [38.25, 46.3], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش معاوية بن حديج الكندي", en: "Mu'awiya ibn Khudayj al-Kindi's army" }
     commanders: [person/muawiya-ibn-khudayj, person/muawiya-ibn-abi-sufyan]
   - label: { ar: "صقلية", en: "Sicily" }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.6, 14.0167]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أول غزوة لصقلية وسبي عبد الله بن قيس لها", en: "The First Raid on Sicily and Abdallah ibn Qays's Plunder" }, at: [37.6, 14.0167], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; prose checked against the Ma'arif 1407 scan p. 329 in the local harvest workspace (Devin 2026 draft, OCR read by Apple Vision)" }

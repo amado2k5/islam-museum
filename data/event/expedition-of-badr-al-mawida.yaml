@@ -26,5 +26,14 @@ sides:
     participants: [group/quraysh]
     commanders: [person/abu-sufyan-ibn-harb]
     strength: { value: 2000, status: tradition, note: "ألفا رجل نكصوا من مجنة ولم يلتق الجيشان", sources: [source/mubarakpuri-raheeq] }
+map:
+  kind: campaign
+  precision: locality
+  center: [23.77, 38.79]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة بدر الموعد", en: "The Expedition of Badr al-Maw'ida" }, at: [23.77, 38.79], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 299–300" }

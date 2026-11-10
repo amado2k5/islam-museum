@@ -21,6 +21,15 @@ sides:
   - label: { ar: "جيش عثمان بن عفان", en: "Uthman ibn Affan's army" }
     commanders: [person/uthman-ibn-affan]
   - label: { ar: "إفريقية", en: "Ifriqiya" }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.6781, 10.0963]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استشارة عثمان الصحابة في غزو إفريقية", en: "Uthman consults the Companions on the campaign to Ifriqiya" }, at: [35.6781, 10.0963], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 161-162" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 161-162", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

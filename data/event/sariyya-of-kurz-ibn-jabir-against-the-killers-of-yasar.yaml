@@ -44,5 +44,14 @@ sides:
   - label: { ar: "العرنيين القتلة", en: "The Urayna killers" }
     participants: [group/bajila]
     strength: { value: 8, status: tradition, note: "ثمانية نفر في صحيح البخاري", sources: [source/sahih-al-bukhari] }
+map:
+  kind: campaign
+  precision: locality
+  center: [24.4686, 39.6142]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية كرز بن جابر لقتل البجليين الذين قتلوا يساراً", en: "Kurz ibn Jabir's detachment against the men of Bajila who killed Yasar" }, at: [24.4686, 39.6142], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 290; Tier A" }

@@ -27,5 +27,14 @@ sides:
     commanders: [person/muhammad-ibn-abdallah-al-qummi, person/sad-al-khadim, person/al-mutawakkil]
   - label: { ar: "البجة", en: "Beja" }
     participants: [group/buja]
+map:
+  kind: campaign
+  precision: locality
+  center: [20, 35]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب القمي لبلاد البجة", en: "al-Qummi's War on the Buja Lands" }, at: [20, 35], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

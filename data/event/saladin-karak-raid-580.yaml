@@ -24,6 +24,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch4
+map:
+  kind: siege
+  precision: locality
+  center: [31.18, 35.7]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصر صلاح الدين الكرك وملك الربض", en: "Saladin's Karak siege — the rabd taken, the sixty-cubit ditch" }, at: [31.18, 35.7], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

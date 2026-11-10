@@ -30,6 +30,15 @@ sides:
   - label: { en: "Quraysh skirmishers at al-Khandama", ar: "مقاتلة قريش بالخندمة" }
     participants: [group/quraysh]
     commanders: [person/ikrima-ibn-abi-jahl, person/safwan-ibn-umayya]
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4225, 39.8262]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح مكة ⁦(الفتح الأعظم)⁩", en: "The Conquest of Mecca (Fath Makka)" }, at: [21.4225, 39.8262], precision: locality, source: source/bakr-umayyad-state-1134715 }
+  sources: [source/bakr-umayyad-state-1134715]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad, source/ibn-hisham-saqqa, source/sallabi-ali-vol1, source/assabile-omar-abdelkafy, source/sira-nabawiyya-sallabi]
 education:
   did_you_know:

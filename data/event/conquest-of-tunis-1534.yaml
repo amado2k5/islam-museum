@@ -19,6 +19,15 @@ sides:
     participants: [person/khayr-al-din-barbarossa]
     commanders: [person/khayr-al-din-barbarossa]
   - label: { ar: "الدولة الحفصية", en: "The Hafsid state" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.81897, 10.16579]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول خير الدين بربروسة تونس ⁦(١٥٣٤م)⁩", en: "Khayr al-Din takes Tunis (1534)" }, at: [36.81897, 10.16579], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

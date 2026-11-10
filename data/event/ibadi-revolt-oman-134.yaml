@@ -19,6 +19,15 @@ sides:
   - label: { ar: "جيش خازم بن خزيمة التميمي", en: "Khazim ibn Khuzayma al-Tamimi's army" }
     commanders: [person/khazim-ibn-khuzayma]
   - label: { ar: "عمان", en: "Oman" }
+map:
+  kind: battle
+  precision: locality
+  center: [21, 57]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة الجلندى الإباضية في عُمان", en: "The Ibadi revolt of al-Julanda in Oman" }, at: [21, 57], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/duha-islam]
 provenance:
   layer: own-research

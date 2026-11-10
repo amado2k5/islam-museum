@@ -37,5 +37,14 @@ sides:
       status: tradition
       note: "ثلاثمائة راكب من أهل مكة"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [25.0694, 38.1186]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية سيف البحر", en: "Expedition of Sayf al-Bahr" }, at: [25.0694, 38.1186], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 197" }

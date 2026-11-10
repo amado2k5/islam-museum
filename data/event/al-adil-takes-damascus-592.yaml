@@ -21,6 +21,15 @@ sides:
     participants: [person/al-nasir-billah]
   - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
     participants: [place/damascus]
+map:
+  kind: campaign
+  precision: locality
+  center: [33.5102, 36.2913]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استيلاء العادل على دمشق", en: "al-Adil's seizure of Damascus" }, at: [33.5102, 36.2913], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

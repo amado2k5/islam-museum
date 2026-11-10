@@ -26,5 +26,14 @@ sides:
     participants: [person/al-mahdi]
   - label: { ar: "حامية مرعش", en: "The defenders of Mar'ash (Germanikeia)" }
     participants: [place/marash]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.5875, 36.945277777778]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة ميخائيل على عمق مرعش سنة 161", en: "Michael's Incursion on the Mar'ash Depths, 161" }, at: [37.5875, 36.945277777778], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

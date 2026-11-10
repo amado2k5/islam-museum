@@ -29,5 +29,14 @@ sides:
     commanders: [person/khalid-ibn-said-ibn-al-as]
   - label: { ar: "الروم", en: "The Byzantines" }
     participants: [person/heraclius]
+map:
+  kind: battle
+  precision: locality
+  center: [33.2839, 36.2547]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم مرج الصفر", en: "The Battle of Marj al-Suffar" }, at: [33.2839, 36.2547], precision: locality, source: source/ibn-hisham-saqqa }
+  sources: [source/ibn-hisham-saqqa]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

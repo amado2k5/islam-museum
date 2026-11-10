@@ -22,6 +22,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch2
+map:
+  kind: campaign
+  precision: locality
+  center: [38.754156, 42.487735]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "عصيان شهاب الدين غازي على أخيه الأشرف وأخذه خلاط", en: "Shihab al-Din Ghazi rebels against his brother al-Ashraf and takes Khilat" }, at: [38.754156, 42.487735], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

@@ -21,5 +21,14 @@ provenance:
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-91
+map:
+  kind: campaign
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "مسعود بن محمود يدخل أصبهان بالسيف", en: "Mas'ud ibn Mahmud Storms Isfahan" }, at: [32.6546, 51.668], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

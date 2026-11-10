@@ -13,6 +13,15 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1497", precision: year, status: tradition, derived: true }
   end: { edtf: "1497", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [32.6546, 51.668]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أصفهان", en: "Battle of Isfahan (1497)" }, at: [32.6546, 51.668], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q65278390

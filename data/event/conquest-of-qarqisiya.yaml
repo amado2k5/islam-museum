@@ -22,6 +22,15 @@ sides:
     participants: [person/umar-ibn-al-khattab]
   - label: { ar: "حامية قرقيسيا", en: "The defenders of Qarqisiya (Circesium)" }
     participants: [place/qarqisiya]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.1558, 40.4289]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قرقيسيا", en: "Conquest of Qarqisiya (16 AH)" }, at: [35.1558, 40.4289], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

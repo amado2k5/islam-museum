@@ -27,5 +27,14 @@ sides:
   - label: { ar: "جيش أبو عبيد بن مسعود الثقفي", en: "Abu Ubayd ibn Mas'ud al-Thaqafi's army" }
     commanders: [person/abu-ubayd-ibn-masud]
   - label: { ar: "الحيرة", en: "al-Hira" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.89, 44.5]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "بعثة أبي عبيد إلى العراق", en: "Abu Ubayd's Dispatch to Iraq" }, at: [31.89, 44.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

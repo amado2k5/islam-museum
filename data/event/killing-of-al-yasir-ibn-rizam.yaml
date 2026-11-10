@@ -28,5 +28,14 @@ sides:
   - label: { ar: "اليسير بن رزام وحلفاؤه من غطفان وخيبر", en: "Al-Yasir ibn Rizam and his Ghatafan and Khaybar allies" }
     participants: [group/ghatafan, group/jews-of-khaybar]
     commanders: [person/al-yasir-ibn-rizam]
+map:
+  kind: campaign
+  precision: locality
+  center: [25.7, 39.29]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة عبد الله بن رواحة إلى خيبر ومقتل اليسير بن رزام", en: "Abdullah ibn Rawaha's expedition to Khaybar and the killing of al-Yasir ibn Rizam" }, at: [25.7, 39.29], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 266-267; date single-source" }

@@ -22,6 +22,15 @@ sides:
   - label: { ar: "جيش مصطفى الثاني", en: "مصطفى الثاني's army" }
     commanders: [person/mustafa-ii-uthmani, person/ahmed-iii-uthmani]
   - label: { ar: "أدرنة", en: "Edirne" }
+map:
+  kind: campaign
+  precision: locality
+  center: [41.6772, 26.556]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حادثة أدرنة ⁦(١٧٠٣)⁩", en: "Edirne Incident" }, at: [41.6772, 26.556], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q5338335

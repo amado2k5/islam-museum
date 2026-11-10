@@ -24,6 +24,15 @@ sides:
     participants: [group/early-muslims]
     commanders: [person/alqama-ibn-mujazziz]
   - label: { en: "Abyssinian raiders", ar: "رجال من الحبشة متجمّعون للقرصنة" }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.4901, 39.1862]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية علقمة بن مجزز المدلجي إلى سواحل جدة", en: "Alqama ibn Mujazziz's expedition to the Jeddah coast" }, at: [21.4901, 39.1862], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 426" }
 provenance:

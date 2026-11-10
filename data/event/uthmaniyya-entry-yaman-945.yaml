@@ -25,5 +25,14 @@ sides:
     participants: [person/sulayman-al-qanuni]
   - label: { ar: "حامية عدن", en: "The defenders of Aden" }
     participants: [place/aden]
+map:
+  kind: campaign
+  precision: locality
+  center: [12.7796, 45.0385]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "دخول العثمانيين اليمن", en: "The Ottoman Entry into Yemen" }, at: [12.7796, 45.0385], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -22,6 +22,15 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-events-batch1
+map:
+  kind: battle
+  precision: locality
+  center: [40.23, 37.91]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وصول جلال الدين إلى آمد وانهزامه عندها", en: "Jalal al-Din reaches Amid and is routed there" }, at: [40.23, 37.91], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/kamil-ibn-al-athir]
 status:
   review: published

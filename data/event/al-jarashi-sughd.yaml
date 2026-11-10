@@ -14,6 +14,15 @@ sides:
   - label: { ar: "جيش سعيد بن عمرو الجرشي", en: "Sa'id ibn Amr al-Jarashi's army" }
     commanders: [person/said-ibn-amr-al-jarashi]
   - label: { ar: "السغد", en: "al-Sughd" }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.8, 66.9]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "ولاية الجرشي وفتح حصون السغد", en: "al-Jarashi and the Sughd Fortresses" }, at: [39.8, 66.9], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

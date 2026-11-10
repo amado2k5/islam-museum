@@ -32,5 +32,14 @@ sides:
       status: tradition
       note: "عير لقريش مرت بالخرار قبل وصول المسلمين بيوم واحد"
       sources: [source/mubarakpuri-raheeq]
+map:
+  kind: campaign
+  precision: locality
+  center: [22.85, 39.25]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سرية الخرار", en: "Expedition of al-Kharrar" }, at: [22.85, 39.25], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 198" }

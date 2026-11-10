@@ -24,5 +24,14 @@ sides:
   - label: { ar: "جيش بسر بن أبي أرطاة", en: "بسر بن أبي أرطاة's army" }
     commanders: [person/busr-ibn-abi-artat]
   - label: { ar: "قلعة بسر", en: "Qal'at Busr" }
+map:
+  kind: siege
+  precision: locality
+  center: [32.8711, 36.2069]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قلعة بسر", en: "The Taking of Qal'at Busr" }, at: [32.8711, 36.2069], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

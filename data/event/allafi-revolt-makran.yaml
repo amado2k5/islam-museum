@@ -18,6 +18,15 @@ sides:
   - label: { ar: "جيش سعيد بن أسلم بن زرعة الكلابي", en: "Sa'id ibn Aslam ibn Zur'a al-Kilabi's army" }
     commanders: [person/said-ibn-aslam, person/mujjaa-ibn-sir, person/muhammad-ibn-harun]
   - label: { ar: "مكران", en: "Makran" }
+map:
+  kind: campaign
+  precision: locality
+  center: [25.509495, 64.1443776]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غلب العلافيين على ثغر مكران ووقعة سعيد بن أسلم", en: "The Allafis' Coup on the Makran Frontier" }, at: [25.509495, 64.1443776], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

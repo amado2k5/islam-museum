@@ -24,5 +24,14 @@ provenance:
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch05
+map:
+  kind: campaign
+  precision: locality
+  center: [32.0511, 44.4402]
+  extent_km: 60
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "خروج الخرّيت بن راشد وبني ناجية على علي", en: "al-Khirrīt ibn Rāshid and Banū Nājiya's break with ʿAli (38 AH)" }, at: [32.0511, 44.4402], precision: locality, source: source/muntazam-ibn-al-jawzi }
+  sources: [source/muntazam-ibn-al-jawzi]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

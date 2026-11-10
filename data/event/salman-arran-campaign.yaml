@@ -26,5 +26,14 @@ sides:
   - label: { ar: "جيش عثمان بن عفان", en: "Uthman ibn Affan's army" }
     commanders: [person/uthman-ibn-affan]
   - label: { ar: "أرّان", en: "Arran" }
+map:
+  kind: campaign
+  precision: locality
+  center: [40, 47]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غزوة سلمان الخيل لأران والقوقاز", en: "Salman al-Khayl's Campaign in Arran and the Caucasus" }, at: [40, 47], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

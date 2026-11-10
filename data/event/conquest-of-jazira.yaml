@@ -29,6 +29,15 @@ sides:
   - label: { ar: "جيش إياد بن غنم الفهري", en: "Iyad ibn Ghanm al-Fihri's army" }
     commanders: [person/iyyad-ibn-ghanm, person/maysara-ibn-masruq]
   - label: { ar: "الجزيرة", en: "The Jazira" }
+map:
+  kind: campaign
+  precision: locality
+  center: [36.5, 41]
+  extent_km: 150
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح الجزيرة", en: "The Conquest of the Jazira" }, at: [36.5, 41], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 

@@ -19,6 +19,15 @@ sides:
   - label: { ar: "جيش السلطان محمد الفاتح", en: "السلطان محمد الفاتح's army" }
     commanders: [person/mehmed-ii]
   - label: { ar: "رودس", en: "Rhodes" }
+map:
+  kind: siege
+  precision: locality
+  center: [36.434, 28.218]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار رودس ⁦(١٤٨٠)⁩", en: "Siege of Rhodes" }, at: [36.434, 28.218], precision: locality, source: source/geonames-gazetteer }
+  sources: [source/geonames-gazetteer]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q701067

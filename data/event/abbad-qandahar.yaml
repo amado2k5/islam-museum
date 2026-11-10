@@ -14,6 +14,15 @@ sides:
   - label: { ar: "جيش عباد بن زياد", en: "Abbad ibn Ziyad's army" }
     commanders: [person/abbad-ibn-ziyad]
   - label: { ar: "القندهار", en: "al-Qandahar" }
+map:
+  kind: campaign
+  precision: locality
+  center: [22.3, 72.85]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح عباد بن زياد قندهار والقلانس العبادية", en: "Abbad ibn Ziyad's Qandahar and the 'Abbadiyya Caps" }, at: [22.3, 72.85], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

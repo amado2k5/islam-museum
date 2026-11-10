@@ -22,5 +22,14 @@ sides:
   - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
     commanders: [person/khalid-ibn-al-walid]
   - label: { ar: "الحيرة", en: "al-Hira" }
+map:
+  kind: battle
+  precision: locality
+  center: [31.89, 44.5]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة ألّيس — نهر الدم", en: "Battle of Ullays (12 AH)" }, at: [31.89, 44.5], precision: locality, source: source/mubarakpuri-raheeq }
+  sources: [source/mubarakpuri-raheeq]
 sources: [source/kamil-ibn-al-athir, source/tarikh-khalifa-umari-1985]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

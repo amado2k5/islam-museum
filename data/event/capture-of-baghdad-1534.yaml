@@ -18,6 +18,15 @@ sides:
   - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
     commanders: [person/sulayman-al-qanuni]
   - label: { ar: "بغداد", en: "Baghdad" }
+map:
+  kind: campaign
+  precision: locality
+  center: [33.3406, 44.4009]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح بغداد ⁦(١٥٣٤)⁩", en: "Capture of Baghdad" }, at: [33.3406, 44.4009], precision: locality, source: source/farghani-elements-astronomy }
+  sources: [source/farghani-elements-astronomy]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5036982

@@ -15,6 +15,15 @@ sides:
   - label: { ar: "جيش قتيبة بن مسلم الباهلي", en: "قتيبة بن مسلم الباهلي's army" }
     commanders: [person/qutayba-ibn-muslim]
   - label: { ar: "مدينة الفيل", en: "Madinat al-Fil" }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.083, 36.1]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح قتيبة مدينة الفيل", en: "Qutayba's Conquest of Madinat al-Fil" }, at: [32.083, 36.1], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

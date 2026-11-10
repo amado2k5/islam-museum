@@ -25,5 +25,14 @@ sides:
     participants: [person/marwan-ibn-muhammad]
   - label: { ar: "حامية ملطية", en: "The defenders of Malatya (Melitene)" }
     participants: [place/malatya]
+map:
+  kind: siege
+  precision: locality
+  center: [38.35062, 38.3094]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط ملطية وهدمها سنة 133", en: "The Fall and Demolition of Malatya, 133" }, at: [38.35062, 38.3094], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

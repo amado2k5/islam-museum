@@ -25,5 +25,14 @@ sides:
     participants: [person/yaqub-al-mansur-al-muwahhidi]
   - label: { ar: "حامية شلب", en: "The defenders of Silves" }
     participants: [place/silves]
+map:
+  kind: campaign
+  precision: locality
+  center: [37.1892, -8.4382]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرجاع شلب من الإفرنج", en: "Recovery of Silves from the Franks" }, at: [37.1892, -8.4382], precision: locality, source: source/nafh-tib-maqqari }
+  sources: [source/nafh-tib-maqqari]
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

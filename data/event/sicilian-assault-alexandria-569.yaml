@@ -28,6 +28,15 @@ sides:
   - label: { ar: "القوات المحاصرة", en: "The besieging forces" }
   - label: { ar: "حامية الإسكندرية", en: "The defenders of Alexandria" }
     participants: [place/alexandria]
+map:
+  kind: siege
+  precision: locality
+  center: [31.2018, 29.9158]
+  extent_km: 15
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "أسطول صقلية على الإسكندرية", en: "The Sicilian assault on Alexandria (569 AH)" }, at: [31.2018, 29.9158], precision: locality, source: source/khitat-maqrizi-1998 }
+  sources: [source/khitat-maqrizi-1998]
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -14,6 +14,15 @@ relations:
   - { type: had_participant, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/badis, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+map:
+  kind: battle
+  precision: locality
+  center: [35.28, -2.93]
+  extent_km: 12
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "استرجاع باديس من الأسبان ⁦(٩٦٤هـ/١٥٥٤م)⁩", en: "Recovery of Badis from Spain (964/1554)" }, at: [35.28, -2.93], precision: locality, source: source/nuzhat-al-mushtaq-2002 }
+  sources: [source/nuzhat-al-mushtaq-2002]
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

@@ -24,5 +24,14 @@ sides:
     participants: [person/al-mutawakkil]
   - label: { ar: "حامية نكور", en: "The defenders of Nekour" }
     participants: [place/nekour]
+map:
+  kind: campaign
+  precision: locality
+  center: [35.16, -3.67]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة المجوس على نكور سنة 244", en: "Majus raid on Nekour, 244" }, at: [35.16, -3.67], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
