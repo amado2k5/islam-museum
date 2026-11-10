@@ -35,3 +35,6 @@ The Sheikh relates that the Prophet saw Israfil with one foot advanced and the o
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 9)
 
 The Sheikh explains the two blasts, noting that the Qur'an names the first blast the rajifa and the second the radifa, that is, the one that follows it {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:48:30}. He says that all die after the first blast, that God then asks to whom the dominion belongs today and no one answers but Himself, and that God then raises Israfil as the first to be raised, and he sounds the second blast {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep09 00:50:00}.
+
+## In the context of the unseen
+Holder of the Trumpet who blows twice: the terror then the raising — in his hand the unseen trigger of the Hour.
