@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "662", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba; Tahdhib al-Kamal" }
+died: { edtf: "0662", hijri: "0042", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina, 42 AH (al-Waqidi and Ibn al-Barqi); the report of martyrdom at Ajnadayn is called baseless by al-Askari (al-Isaba pp. 1006-1007); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: died_in, target: place/medina, sources: [source/ibn-hajar-isaba] }
 - type: member_of

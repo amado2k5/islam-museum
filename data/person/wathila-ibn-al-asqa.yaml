@@ -38,7 +38,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal" }
+died: { edtf: "0704", hijri: "0085", calendar: julian, precision: year, status: debated, derived: true, note: "83 AH per Isma'il ibn Ayyash, 85 per Abu Mushar and al-Waqidi — the last Companion to die at Damascus (al-Isaba p. 1561); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: participated_in
   target: event/expedition-to-tabuk
