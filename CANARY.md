@@ -16,6 +16,9 @@ open a new block on top with the new version and today's date.
 ### Fixed
 - **Timeline explorer chronology restored.** Two death dates carried the same Hijri year as the event that caused them but a different derived CE year, so the timeline placed the deaths before the fatal event: `person/muadh-ibn-jabal` (d. 18 AH — now 0639 like `event/plague-of-amwas`, was 0638) and `person/thabit-ibn-qays` (d. 12 AH at Yamama — now 0634 like `event/battle-of-yamama`, was 0633). The `time-browser-explorer` chronology test passes again.
 
+### Fixed
+- **Asma name pages: citation footnotes render again.** The divine-name pages rendered `{cite:…}` markers as `#note-N` links but never emitted the footnote list, so the site link-checker failed the whole build with 915 dead-anchor errors across the three languages. The page now re-numbers citations globally (same pattern as `EntityLayout`) and renders the sourced footnote list at the bottom of each name page.
+
 ## v1.10.0 — 2026-11-10
 ### Data
 - **Battles browser: `during_reign` backfill + two place-region corrections.** A ruler-interval pass over person `story_roles` (167 sovereign intervals) added 36 `during_reign` edges to 26 military events where the event year matched exactly one theatre's reigning ruler — Rashidun caliphs on the 634–656 boundary years, late Abbasid caliphs on the 1225–1231 Khwarazmian-era campaigns, Ottoman sultans on WWI Sinai and Caucasus engagements, Abbasid/Fatimid caliphs on medieval fronts. Non-Islamic sovereigns (e.g. Heraclius) were deliberately excluded as outside the predicate's established convention, and ambiguous multi-theatre matches were left unfilled rather than guessed. Two mislabeled place regions surfaced by the pass were corrected: `place/antalya` (Antalya, Turkey — was `andalus-europe`, now `anatolia-balkans`) and `place/qajar-iran` (was `levant-iraq`, now `persia-central-asia`).
