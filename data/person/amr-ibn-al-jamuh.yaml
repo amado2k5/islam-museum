@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud and buried in one grave with Abdullah ibn Amr ibn Haram (al-Isaba p. 1091); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: died_in
   target: place/uhud
@@ -66,6 +66,23 @@ relations:
   sources:
   - source/rijal-hawl-al-rasul-muqattam-1994
   note: صهره — زوج أخته؛ دُفنا معاً في قبر واحد بأحد، ص 484 و489
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 1091"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/banu-salima
+  note: "al-Isaba p. 1091"
+  sources: [source/ibn-hajar-isaba]
+- type: member_of
+  target: group/al-khazraj
+  note: "al-Isaba p. 1091"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "al-Isaba p. 1091"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 6442، ص 1091
