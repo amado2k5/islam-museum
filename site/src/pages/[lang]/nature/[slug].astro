@@ -3,11 +3,11 @@
 // its summary, the Qur'an ayahs that mention it (text from the frozen Tanzil passage records,
 // translations from the same records, never typed on the page), the hadith reports, and the
 // other museum records it links to. Everything is composed from the compiled graph at build time.
-import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../../lib/i18n";
-import { href, labelOf, summaryRaw } from "../../../../lib/graph";
-import { renderProse, newHonState } from "../../../../lib/markdown";
-import { natureItems, passagesOf, relatedOf } from "../../../../lib/nature";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, summaryRaw } from "../../../lib/graph";
+import { renderProse, newHonState } from "../../../lib/markdown";
+import { natureItems, passagesOf, relatedOf } from "../../../lib/nature";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) =>
