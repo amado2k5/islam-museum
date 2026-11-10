@@ -58,7 +58,7 @@ const desc = summaryRaw(n, lang).replace(/\{cite:[^}]*\}/g, "").replace(/\[\[([a
             <li class="panel" style="padding:14px 16px">
               <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:1.35rem;line-height:2.1;margin:0">{a.text}</p>
               {a.tr && <p class="muted" style="margin:.5rem 0 0">{a.tr}</p>}
-              <p class="ui" style="margin:.5rem 0 0;font-size:.9rem"><a href={a.href}>{T.entity.quran_ref ?? "Qur'an"} {a.ref}</a></p>
+              <p class="ui" style="margin:.5rem 0 0;font-size:.9rem"><a href={a.href}>{N.quran_ref} {a.ref}</a></p>
             </li>
           ); })}
         </ol>
