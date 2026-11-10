@@ -13,6 +13,9 @@ date:
 relations:
   - { type: had_participant, target: group/banu-tamim, role: "الظافرون", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "المنهزمون", sources: [source/kamil-ibn-al-athir] }
+sides:
+  - label: { ar: "تميم", en: "Tamim" }
+  - label: { ar: "بنو عامر", en: "Banu Amir" }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

@@ -29,5 +29,8 @@ map:
   features:
     - { type: point, role: event_point, label: { ar: "وقعة وادي سليطة ⁦(نحو 240هـ)⁩", en: "The Battle of Wadi Salit (c. 240 AH)" }, at: [39.8581, -4.0226], precision: locality, source: source/futuh-buldan-maarif-1407 }
   sources: [source/futuh-buldan-maarif-1407]
+sides:
+  - label: { ar: "جيش الأمير محمد الأول", en: "The army of Emir Muhammad I" }
+  - label: { ar: "ثوار طليطلة وقوات غاليسيا والباسك", en: "Rebel Toledo with the forces of Galicia and the Basques" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
