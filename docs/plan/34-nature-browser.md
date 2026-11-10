@@ -15,13 +15,13 @@ composed from `.cache/graph.json` at build time.
 
 ## 2. Records
 
-- 86 `concept` records of the new kind `natural` (one line added to
+- 98 `concept` records of the new kind `natural` (one line added to
   `schema/enums/kinds.yaml`), each with trilingual label and summary written in
   the docent voice, `wings: [living]`, themes from `animals-and-mercy`,
   `water-and-animals`, `environment-and-climate` and `cosmology-and-creation`,
   and `status.review: draft` with a `provenance` block — draft until a human
   reads them (founder ruling of 8 Nov 2026).
-- ~575 `mentions` edges written once on the passage records (Qur'an ayahs with
+- ~597 `mentions` edges written once on the passage records (Qur'an ayahs with
   `source/tanzil-quran`, hadith reports with the passage's own source); the
   concepts see them as computed `mentioned_in` inverses.
 - `related_to` edges from the creature records to the persons, events and
@@ -62,7 +62,11 @@ entry and landing card); wave 2 added 12 records (planets, meteors, deep sea,
 fish, lion, moth, seeds and grain, the tree of Eden, fire, dust and clay, gold
 and silver, east and west) and ~93 more edges; wave 3 added 4 raptor records
 (falcon, hawk, eagle, kite, from the Muwatta hunting-bird and five-vermin
-reports) and deeper ayah coverage for camel, horse and livestock, for 86
-records and ~575 edges.
+reports) and deeper ayah coverage for camel, horse and livestock; wave 4 added
+12 more records from the Muwatta and one ayah — the lizard of Khalid's table,
+Umar's ihram-ransom quartet (hyena, gazelle, hare, jerboa), the sanctuary
+predators (leopard, cheetah) and spared beasts (fox), the de-omened owl, the
+aqiqa sparrow, the staff-eating earth-creature of Saba and the mule — for 98
+records and ~597 edges.
 Records are draft-tier until a human reads them; nothing goes live until the
 founder deploys.
