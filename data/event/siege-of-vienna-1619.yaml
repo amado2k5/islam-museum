@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/uthman-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مصطفى الأول", en: "The forces of Mustafa I" }
+    participants: [person/mustafa-i-uthmani]
+  - label: { ar: "حامية فيينا", en: "The defenders of Vienna" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130803598

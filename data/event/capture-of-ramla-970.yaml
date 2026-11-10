@@ -13,6 +13,10 @@ date:
   end: { edtf: "0970", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المطيع لله الفضل بن المقتدر", en: "The forces of al-Muti li-llah al-Fadl ibn al-Muqtadir" }
+    participants: [person/al-muti-billah]
+  - label: { ar: "حامية الرملة", en: "The defenders of Ramla" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124714173

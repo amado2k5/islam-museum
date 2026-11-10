@@ -13,6 +13,10 @@ date:
   end: { edtf: "1463", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستنجد بالله يوسف بن المتوكل", en: "The forces of al-Mustanjid bi'llah Yusuf ibn al-Mutawakkil" }
+    participants: [person/al-mustanjid-billah-egypt]
+  - label: { ar: "حامية طنجة", en: "The defenders of Tangier" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q121282974

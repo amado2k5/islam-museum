@@ -13,6 +13,10 @@ date:
   end: { edtf: "1501", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستمسك", en: "The forces of al-Mustamsik" }
+    participants: [person/al-mustamsik-cairo]
+  - label: { ar: "حامية دراتش", en: "The defenders of Durazzo" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q119167523

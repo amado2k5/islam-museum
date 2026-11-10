@@ -13,6 +13,10 @@ date:
   end: { edtf: "0985", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+sides:
+  - label: { ar: "قوات هشام المؤيد بالله", en: "The forces of هشام المؤيد بالله" }
+    participants: [person/hisham-ii-al-muayyad]
+  - label: { ar: "حامية برشلونة", en: "The defenders of Barcelona" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4110440

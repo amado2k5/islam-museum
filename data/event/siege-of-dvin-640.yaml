@@ -13,6 +13,10 @@ date:
   end: { edtf: "0640", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "قوات عمر بن الخطاب", en: "The forces of Umar ibn al-Khattab" }
+    participants: [person/umar-ibn-al-khattab]
+  - label: { ar: "حامية دبيل", en: "The defenders of Dvin" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q25487366

@@ -13,6 +13,10 @@ date:
   end: { edtf: "0962", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakam-ii, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+sides:
+  - label: { ar: "قوات الحكم الثاني المستنصر", en: "The forces of al-Hakam II al-Mustansir" }
+    participants: [person/al-hakam-ii]
+  - label: { ar: "حامية الطورمينة", en: "The defenders of Taormina" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q28162763

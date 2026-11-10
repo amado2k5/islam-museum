@@ -13,6 +13,10 @@ date:
   end: { edtf: "1448", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستكفي بالله الثاني سليمان بن المتوكل", en: "The forces of al-Mustakfi bi'llah II Sulayman ibn al-Mutawakkil" }
+    participants: [person/al-mustakfi-ii-cairo]
+  - label: { ar: "حامية سفيتغراد", en: "The defenders of Svetigrad" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3302682

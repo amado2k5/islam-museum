@@ -13,6 +13,10 @@ date:
   end: { edtf: "0904", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المكتفي بالله", en: "The forces of al-Muktafi bi-Allah" }
+    participants: [person/al-muktafi-billah]
+  - label: { ar: "حامية ثيسالونيكا", en: "The defenders of Thessalonica" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q1109261

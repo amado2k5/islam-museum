@@ -13,6 +13,10 @@ date:
   end: { edtf: "1570-09", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات سليم الثاني", en: "The forces of Selim II" }
+    participants: [person/selim-ii-uthmani]
+  - label: { ar: "حامية نيقوسيا", en: "The defenders of Nicosia" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q97648727

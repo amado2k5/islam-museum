@@ -13,6 +13,10 @@ date:
   end: { edtf: "1689-11-11", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات سليمان الثاني", en: "The forces of سليمان الثاني" }
+    participants: [person/sulayman-ii-uthmani]
+  - label: { ar: "حامية العرائش", en: "The defenders of Larache" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3485921

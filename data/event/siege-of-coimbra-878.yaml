@@ -13,6 +13,10 @@ date:
   end: { edtf: "0878", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتمد على الله", en: "The forces of al-Mu'tamid ala Allah" }
+    participants: [person/al-mutamid]
+  - label: { ar: "حامية قلمرية", en: "The defenders of Coimbra" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130638996

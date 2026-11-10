@@ -13,6 +13,10 @@ date:
   end: { edtf: "1375", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية سيس", en: "The defenders of Sis" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124260231

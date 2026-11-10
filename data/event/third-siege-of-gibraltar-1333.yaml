@@ -13,6 +13,10 @@ date:
   end: { edtf: "1333", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستكفي", en: "The forces of al-Mustakfi I" }
+    participants: [person/al-mustakfi-i-cairo]
+  - label: { ar: "حامية جبل طارق الثالث", en: "The defenders of Gibraltar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7784955

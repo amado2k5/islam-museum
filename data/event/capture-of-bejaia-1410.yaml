@@ -13,6 +13,10 @@ date:
   end: { edtf: "1410", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستعين ⁦(القاهرة)⁩", en: "The forces of al-Musta'in (Cairo)" }
+    participants: [person/al-mustain-cairo]
+  - label: { ar: "حامية الاستيلاء على بجاية", en: "The defenders of Bejaia" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111211171

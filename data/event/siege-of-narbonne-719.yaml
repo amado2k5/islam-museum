@@ -13,6 +13,10 @@ date:
   end: { edtf: "0719", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات عمر بن عبد العزيز", en: "The forces of Umar ibn Abd al-Aziz" }
+    participants: [person/umar-ibn-abd-al-aziz]
+  - label: { ar: "حامية ناربون", en: "The defenders of Narbonne" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16169254

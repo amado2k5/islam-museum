@@ -13,6 +13,10 @@ date:
   end: { edtf: "0692", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abdullah-ibn-al-zubayr, sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997] }
+sides:
+  - label: { ar: "قوات عبد الله بن الزبير", en: "The forces of 'Abd Allah ibn al-Zubayr" }
+    participants: [person/abdullah-ibn-al-zubayr]
+  - label: { ar: "حامية مكة", en: "The defenders of Mecca" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q17019401

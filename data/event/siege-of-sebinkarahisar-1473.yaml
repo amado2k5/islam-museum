@@ -13,6 +13,10 @@ date:
   end: { edtf: "1473", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستنجد بالله يوسف بن المتوكل", en: "The forces of al-Mustanjid bi'llah Yusuf ibn al-Mutawakkil" }
+    participants: [person/al-mustanjid-billah-egypt]
+  - label: { ar: "حامية سبينقره حصار", en: "The defenders of Sebinkarahisar" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q118947854

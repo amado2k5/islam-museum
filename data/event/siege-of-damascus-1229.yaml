@@ -13,6 +13,10 @@ date:
   end: { edtf: "1229-06", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المستنصر بالله منصور بن الظاهر", en: "The forces of al-Mustansir bi'llah Mansur ibn al-Zahir" }
+    participants: [person/al-mustansir-billah]
+  - label: { ar: "حامية دمشق", en: "The defenders of Damascus" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111182030

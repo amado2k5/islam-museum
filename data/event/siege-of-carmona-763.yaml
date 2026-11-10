@@ -13,6 +13,10 @@ date:
   end: { edtf: "0763", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات أبو جعفر المنصور", en: "The forces of Abu Ja'far al-Mansur" }
+    participants: [person/al-mansur]
+  - label: { ar: "حامية قرمونة", en: "The defenders of Carmona" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125045173

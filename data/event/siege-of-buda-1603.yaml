@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمد الثالث", en: "The forces of محمد الثالث" }
+    participants: [person/mehmed-iii-uthmani]
+  - label: { ar: "حامية بودا", en: "The defenders of Buda" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q27673363

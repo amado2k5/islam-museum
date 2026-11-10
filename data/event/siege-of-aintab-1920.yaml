@@ -13,6 +13,10 @@ date:
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The forces of السلطان وحيد الدين ⁦(محمد السادس)⁩" }
+    participants: [person/muhammad-vi-uthmani]
+  - label: { ar: "حامية عنتاب", en: "The defenders of Aintab" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4820796

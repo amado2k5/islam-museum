@@ -13,6 +13,10 @@ date:
   end: { edtf: "0827", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات عبد الله المأمون بن هارون الرشيد", en: "The forces of Abd Allah al-Ma'mun ibn Harun al-Rashid" }
+    participants: [person/abd-allah-al-mamun]
+  - label: { ar: "حامية جرندة", en: "The defenders of Girona" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18008014

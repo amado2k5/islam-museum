@@ -13,6 +13,10 @@ date:
   end: { edtf: "1693-09-17", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات السلطان أحمد الثاني", en: "The forces of Sultan Ahmed II" }
+    participants: [person/ahmad-ii-uthmani]
+  - label: { ar: "حامية بلغراد", en: "The defenders of Belgrade" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q113006045

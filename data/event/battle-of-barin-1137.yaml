@@ -13,6 +13,10 @@ date:
   end: { edtf: "1137", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
+    participants: [person/al-muqtafi-billah]
+  - label: { ar: "حامية بعرين", en: "The defenders of Ba'rin" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q3511112

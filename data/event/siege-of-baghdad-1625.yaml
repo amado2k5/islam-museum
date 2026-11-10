@@ -13,6 +13,10 @@ date:
   end: { edtf: "1626-07-03", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات مراد الرابع", en: "The forces of Murad IV" }
+    participants: [person/murad-iv-uthmani]
+  - label: { ar: "حامية بغداد", en: "The defenders of Baghdad" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q5959281

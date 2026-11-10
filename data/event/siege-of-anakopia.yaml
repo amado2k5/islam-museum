@@ -13,6 +13,10 @@ date:
   end: { edtf: "0737", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات هشام بن عبد الملك", en: "The forces of Hisham ibn Abd al-Malik" }
+    participants: [person/hisham-ibn-abd-al-malik]
+  - label: { ar: "حامية أناكوبيا", en: "The defenders of Anakopia" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16364781

@@ -13,6 +13,10 @@ date:
   end: { edtf: "1188-07", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الناصر لدين الله أحمد بن المستضيء", en: "The forces of al-Nasir li-Din Allah Ahmad ibn al-Mustadi'" }
+    participants: [person/al-nasir-billah]
+  - label: { ar: "حامية اللاذقية", en: "The defenders of Laodicea" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: "Q121090883"

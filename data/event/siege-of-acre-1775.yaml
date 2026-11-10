@@ -13,6 +13,10 @@ date:
   end: { edtf: "1775", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات عبد الحميد الأول", en: "The forces of Abd al-Hamid I" }
+    participants: [person/abd-al-hamid-i-uthmani]
+  - label: { ar: "حامية عكا", en: "The defenders of Acre" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q120761912

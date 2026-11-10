@@ -13,6 +13,10 @@ date:
   end: { edtf: "1454", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-qaim-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات القائم ⁦(القاهرة)⁩", en: "The forces of al-Qa'im (Cairo)" }
+    participants: [person/al-qaim-cairo]
+  - label: { ar: "حامية كفة", en: "The defenders of Caffa" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q31193298

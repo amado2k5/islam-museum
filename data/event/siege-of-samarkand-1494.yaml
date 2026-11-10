@@ -13,6 +13,10 @@ date:
   end: { edtf: "1496", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المتوكل على الله الثاني عبد العزيز بن يعقوب", en: "The forces of al-Mutawakkil ala Allah II, Abd al-Aziz ibn Ya'qub" }
+    participants: [person/al-mutawakkil-ala-llah-ii]
+  - label: { ar: "حامية سمرقند", en: "The defenders of Samarkand" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q76995101

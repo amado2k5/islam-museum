@@ -13,6 +13,10 @@ date:
   end: { edtf: "0837", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتصم بالله", en: "The forces of al-Mu'tasim" }
+    participants: [person/al-mutasim]
+  - label: { ar: "حامية سوزوپترا", en: "The defenders of Sozopetra" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q139761114

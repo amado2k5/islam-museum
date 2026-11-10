@@ -13,6 +13,10 @@ date:
   end: { edtf: "1167", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+sides:
+  - label: { ar: "قوات العاضد لدين الله آخر خلفاء بني عبيد", en: "The forces of al-Adid li-Din Allah, last Ubaydid caliph" }
+    participants: [person/al-adid-fatimid]
+  - label: { ar: "حامية الإسكندرية", en: "The defenders of Alexandria" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q130581258
