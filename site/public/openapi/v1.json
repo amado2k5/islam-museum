@@ -331,6 +331,21 @@
         }
       }
     },
+    "/nature.json": {
+      "get": {
+        "operationId": "getNature",
+        "summary": "Nature Explorer dataset",
+        "description": "The Nature Explorer dataset: every record tagged nature-browser (land animals, birds, insects, sea creatures, plants and trees, the phenomena of creation) with kind, wings, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every nature record with kind, wings, themes, section tags and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/ghayb.json": {
       "get": {
         "operationId": "getQudsi",

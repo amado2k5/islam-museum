@@ -16,6 +16,7 @@ translations:
   en: { text: "Saying: Make thou long coats of mail and measure the links (thereof). And do ye right. Lo! I am Seer of what ye do.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہ کشادہ زرہیں بناؤ اور کڑیوں کو اندازے سے جوڑو اور نیک عمل کرو۔ جو عمل تم کرتے ہو میں ان کو دیکھنے والا ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/iron, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

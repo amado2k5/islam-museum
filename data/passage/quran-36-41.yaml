@@ -16,6 +16,8 @@ translations:
   en: { text: "And a token unto them is that We bear their offspring in the laden ship,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ایک نشانی ان کے لئے یہ ہے کہ ہم نے ان کی اولاد کو بھری ہوئی کشتی میں سوار کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/flood, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/ships, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,8 @@ translations:
   en: { text: "Shall I tell thee of a worse (case) than theirs for retribution with Allah? (Worse is the case of him) whom Allah hath cursed, him on whom His wrath hath fallen and of whose sort Allah hath turned some to apes and swine, and who serveth idols. Such are in worse plight and further astray from the plain road.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہو کہ میں تمہیں بتاؤں کہ خدا کے ہاں اس سے بھی بدتر جزا پانے والے کون ہیں؟ وہ لوگ ہیں جن پر خدا نے لعنت کی اور جن پر وہ غضبناک ہوا اور (جن کو) ان میں سے بندر اور سور بنا دیا اور جنہوں نے شیطان کی پرستش کی ایسے لوگوں کا برا ٹھکانہ ہے اور وہ سیدھے رستے سے بہت دور ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/swine, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/apes, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

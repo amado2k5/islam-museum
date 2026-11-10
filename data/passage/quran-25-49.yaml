@@ -16,6 +16,7 @@ translations:
   en: { text: "That We may give life thereby to a dead land, and We give many beasts and men that We have created to drink thereof.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تاکہ اس سے شہر مردہ (یعنی زمین افتادہ) کو زندہ کردیں اور پھر اسے بہت سے چوپایوں اور آدمیوں کو جو ہم نے پیدا کئے ہیں پلاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rain, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

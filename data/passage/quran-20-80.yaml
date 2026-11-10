@@ -16,6 +16,7 @@ translations:
   en: { text: "O Children of Israel! We delivered you from your enemy, and we made a covenant with you on the holy mountain's side, and sent down on you the manna and the quails,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اے آل یعقوب ہم نے تم کو تمہارے دشمن سے نجات دی اور تورات دینے کے لئے تم سے کوہ طور کی داہنی طرف مقرر کی اور تم پر من اور سلویٰ نازل کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/quail, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-20 }
   - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred

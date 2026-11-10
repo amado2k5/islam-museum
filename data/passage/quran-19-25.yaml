@@ -16,6 +16,7 @@ translations:
   en: { text: "And shake the trunk of the palm-tree toward thee, thou wilt cause ripe dates to fall upon thee.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور کھجور کے تنے کو پکڑ کر اپنی طرف ہلاؤ تم پر تازہ تازہ کھجوریں جھڑ پڑیں گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/date-palm, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

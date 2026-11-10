@@ -16,6 +16,7 @@ translations:
   en: { text: "There cometh forth from both of them the pearl and coral-stone.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "دونوں دریاؤں سے موتی اور مونگے نکلتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/pearl-coral, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

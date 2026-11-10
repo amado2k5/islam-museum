@@ -16,6 +16,7 @@ translations:
   en: { text: "Allah; there is no Allah save Him, the Lord of the Tremendous Throne.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "خدا کے سوا کوئی عبادت کے لائق نہیں وہی عرش عظیم کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/hoopoe, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-27 }
   - { type: mentions, target: concept/asma-al-azim, sources: [source/tanzil-quran] }
 sensitivity: sacred

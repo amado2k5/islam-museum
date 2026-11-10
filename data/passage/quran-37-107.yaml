@@ -16,6 +16,7 @@ translations:
   en: { text: "Then We ransomed him with a tremendous victim.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے ایک بڑی قربانی کو ان کا فدیہ دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ram-of-sacrifice, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred

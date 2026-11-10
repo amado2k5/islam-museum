@@ -16,6 +16,7 @@ translations:
   en: { text: "(Which yet is) no relief nor shelter from the flame.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "نہ ٹھنڈی چھاؤں اور نہ لپٹ سے بچاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/shadow, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

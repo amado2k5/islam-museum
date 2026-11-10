@@ -16,6 +16,7 @@ translations:
   en: { text: "So We made the wind subservient unto him, setting fair by his command whithersoever he intended.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر ہم نے ہوا کو ان کے زیرفرمان کردیا کہ جہاں وہ پہنچنا چاہتے ان کے حکم سے نرم نرم چلنے لگتی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/wind, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

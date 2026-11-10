@@ -16,6 +16,7 @@ translations:
   en: { text: "Nay, I swear by the places of the stars -", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ہمیں تاروں کی منزلوں کی قسم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/stars, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

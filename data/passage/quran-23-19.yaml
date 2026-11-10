@@ -16,6 +16,8 @@ translations:
   en: { text: "Then We produce for you therewith gardens of date-palms and grapes, wherein is much fruit for you and whereof ye eat;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر ہم نے اس سے تمہارے لئے کھجوروں اور انگوروں کے باغ بنائے، ان میں تمہارے لئے بہت سے میوے پیدا ہوتے ہیں۔ اور ان میں سے تم کھاتے بھی ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/grapevine, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/date-palm, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

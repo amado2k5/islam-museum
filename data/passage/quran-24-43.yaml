@@ -16,6 +16,8 @@ translations:
   en: { text: "Hast thou not seen how Allah wafteth the clouds, then gathereth them, then maketh them layers, and thou seest the rain come forth from between them; He sendeth down from the heaven mountains wherein is hail, and smiteth therewith whom He will, and averteth it from whom He will. The flashing of His lightning all but snatcheth away the sight.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا تم نے نہیں دیکھا کہ خدا ہی بادلوں کو چلاتا ہے، اور ان کو آپس میں ملا دیتا ہے، پھر ان کو تہ بہ تہ کردیتا ہے، پھر تم دیکھتے ہو کہ بادل میں سے مینہ نکل (کر برس) رہا ہے اور آسمان میں جو (اولوں کے) پہاڑ ہیں، ان سے اولے نازل کرتا ہے تو جس پر چاہتا ہے اس کو برسا دیتا ہے اور جس سے چاہتا ہے ہٹا دیتا ہے۔ اور بادل میں جو بجلی ہوتی ہے اس کی چمک آنکھوں کو خیرہ کرکے بینائی کو اُچکے لئے جاتی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/clouds, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/thunder-lightning, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

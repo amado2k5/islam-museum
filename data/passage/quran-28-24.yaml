@@ -16,6 +16,7 @@ translations:
   en: { text: "So he watered (their flock) for them. Then he turned aside into the shade, and said: My Lord! I am needy of whatever good Thou sendest down for me.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو موسٰی نے اُن کے لئے (بکریوں کو) پانی پلا دیا پھر سائے کی طرف چلے گئے۔ اور کہنے لگے کہ پروردگار میں اس کا محتاج ہوں کہ تو مجھ پر اپنی نعمت نازل فرمائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/shadow, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "Have they not seen how We have created for them of Our handiwork the cattle, so that they are their owners,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا انہوں نے نہیں دیکھا کہ جو چیزیں ہم نے اپنے ہاتھوں سے بنائیں ان میں سے ہم نے ان کے لئے چارپائے پیدا کر دیئے اور یہ ان کے مالک ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/livestock, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

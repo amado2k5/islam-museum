@@ -16,6 +16,7 @@ translations:
   en: { text: "We called unto him: O Abraham!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو ہم نے ان کو پکارا کہ اے ابراہیم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ram-of-sacrifice, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
   - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }

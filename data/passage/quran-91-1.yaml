@@ -16,6 +16,7 @@ translations:
   en: { text: "By the sun and his brightness,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "سورج کی قسم اور اس کی روشنی کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sun, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-91 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }

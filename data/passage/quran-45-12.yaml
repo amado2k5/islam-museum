@@ -16,6 +16,8 @@ translations:
   en: { text: "Allah it is Who hath made the sea of service unto you that the ships may run thereon by His command, and that ye may seek of His bounty, and that haply ye may be thankful;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "خدا ہی تو ہے جس نے دریا کو تمہارے قابو کردیا تاکہ اس کے حکم سے اس میں کشتیاں چلیں اور تاکہ تم اس کے فضل سے (معاش) تلاش کرو اور تاکہ شکر کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ships, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/sea, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

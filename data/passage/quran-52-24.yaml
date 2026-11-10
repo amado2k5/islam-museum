@@ -16,6 +16,7 @@ translations:
   en: { text: "And there go round, waiting on them menservants of their own, as they were hidden pearls.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور نوجوان خدمت گار (جو ایسے ہوں گے) جیسے چھپائے ہوئے موتی ان کے آس پاس پھریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/pearl-coral, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

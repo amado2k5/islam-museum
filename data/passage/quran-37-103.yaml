@@ -16,6 +16,7 @@ translations:
   en: { text: "Then, when they had both surrendered (to Allah), and he had flung him down upon his face,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جب دونوں نے حکم مان لیا اور باپ نے بیٹے کو ماتھے کے بل لٹا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ram-of-sacrifice, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred

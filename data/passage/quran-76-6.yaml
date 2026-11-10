@@ -16,6 +16,7 @@ translations:
   en: { text: "A spring wherefrom the slaves of Allah drink, making it gush forth abundantly,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "یہ ایک چشمہ ہے جس میں سے خدا کے بندے پئیں گے اور اس میں سے (چھوٹی چھوٹی) نہریں نکالیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/rivers-springs, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

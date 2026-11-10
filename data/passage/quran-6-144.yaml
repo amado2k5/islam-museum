@@ -16,6 +16,8 @@ translations:
   en: { text: "And of the camels twain and of the oxen twain. Say: Hath He forbidden the two males or the two females, or that which the wombs of the two females contain; or were ye by to witness when Allah commanded you (all) this? Then who doth greater wrong than he who deviseth a lie concerning Allah, that he may lead mankind astray without knowledge. Lo! Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور دو (دو) اونٹوں میں سے اور دو (دو) گایوں میں سے (ان کے بارے میں بھی ان سے) پوچھو کہ (خدا نے) دونوں (کے) نروں کو حرام کیا ہے یا دونوں (کی) مادنیوں کو یا جو بچہ مادنیوں کے پیٹ میں لپٹ رہا ہو اس کو بھلا جس وقت خدا نے تم کو اس کا حکم دیا تھا تم اس وقت موجود تھے؟ تو اس شخص سے زیادہ کون ظالم ہے جو خدا پر جھوٹ افتراء کرے تاکہ اِز راہ بے دانشی لوگوں کو گمراہ کرے کچھ شک نہیں کہ خدا ظالم لوگوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/sheep, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/camel, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

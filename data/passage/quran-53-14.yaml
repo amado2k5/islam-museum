@@ -16,6 +16,7 @@ translations:
   en: { text: "By the lote-tree of the utmost boundary,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پرلی حد کی بیری کے پاس", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/lote-tree, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/sidrat-al-muntaha, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred

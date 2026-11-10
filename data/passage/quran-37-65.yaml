@@ -16,6 +16,7 @@ translations:
   en: { text: "Its crop is as it were the heads of devils", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اُس کے خوشے ایسے ہوں گے جیسے شیطانوں کے سر", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/zaqqum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

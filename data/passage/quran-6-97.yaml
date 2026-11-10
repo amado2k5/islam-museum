@@ -16,6 +16,7 @@ translations:
   en: { text: "And He it is Who hath set for you the stars that ye may guide your course by them amid the darkness of the land and the sea. We have detailed Our revelations for a people who have knowledge.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور وہی تو ہے جس نے تمہارے لئے ستارے بنائے تاکہ جنگلوں اور دریاؤں کے اندھیروں میں ان سے رستے معلوم کرو۔ عقل والوں کے لئے ہم نے اپنی آیتیں کھول کھول کر بیان کردی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/stars, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-6 }
   - { type: mentions, target: concept/asma-al-barr, sources: [source/tanzil-quran] }
 sensitivity: sacred

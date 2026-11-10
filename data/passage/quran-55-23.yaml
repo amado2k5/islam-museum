@@ -16,6 +16,7 @@ translations:
   en: { text: "Which is it, of the favours of your Lord, that ye deny?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو تم اپنے پروردگار کی کون کون سی نعمت کو جھٹلاؤ گے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/pearl-coral, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

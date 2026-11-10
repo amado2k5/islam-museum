@@ -16,6 +16,7 @@ translations:
   en: { text: "By Mount Sinai,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور طور سینین کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-95 }
   - { type: mentions, target: place/tur-sina, sources: [source/tanzil-quran] }
 sensitivity: sacred

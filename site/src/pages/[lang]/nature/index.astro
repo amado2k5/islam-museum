@@ -1,0 +1,90 @@
+---
+// The Nature Explorer's home (docs/plan/34-nature-browser.md): the museum's records on the natural
+// world in the Qur'an, the hadith and the tradition — land animals, birds, insects, sea creatures,
+// plants and trees, and the phenomena of creation — grouped in six sections over the one graph.
+// Counts are read from the graph at build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href, labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { natureItems, NATURE_SECTIONS } from "../../../lib/nature";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const N = (T as any).nature;
+const label = (n: any) => labelOf(n, lang);
+const summaryOf = (n: any) => n.summary?.[lang] ?? n.summary?.ar ?? "";
+const sectionIds = [...NATURE_SECTIONS, ...new Set(natureItems.map((i) => i.section).filter((s) => !NATURE_SECTIONS.includes(s)))];
+const sections = sectionIds.map((id) => ({ id, items: natureItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
+const status = fmt(N.status, { n: num(natureItems.length, lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof natureItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryOf(i.node)].filter(Boolean).join(" ");
+const slugOf = (id: string) => id.split("/")[1];
+---
+<BaseLayout lang={lang} title={N.title} description={N.lede} path={`/${lang}/nature/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{N.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {N.title}</nav>
+    <div data-pagefind-body>
+      <h1>{N.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{N.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{N.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.method_note}</p>
+      <p class="ui muted">{N.api} <a href="/api/v1/nature.json"><bdi dir="ltr">/api/v1/nature.json</bdi></a></p>
+    </div>
+
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title">{N.sections_title}</h2>
+      <nav aria-label={N.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`#t-${s.id}`}>{N.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="nature-filter">{N.filter_label}</label>
+        <input id="nature-filter" type="search" data-nature-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <div data-pagefind-ignore>
+        {sections.map((s) => (
+          <section data-nature-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{N.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{N.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-nature-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={`/${lang}/nature/${slugOf(i.node.id)}/`} style="font-weight:600">{label(i.node)}</a>
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem">{summaryOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-nature-none hidden>{N.filter_none}</p>
+      {natureItems.length === 0 && <p class="panel ui">{N.empty}</p>}
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  // Progressive enhancement: filter the cards as the visitor types. The page reads fully without it.
+  const input = document.querySelector<HTMLInputElement>("[data-nature-filter]");
+  const rows = [...document.querySelectorAll<HTMLElement>("[data-nature-row]")];
+  const sections = [...document.querySelectorAll<HTMLElement>("[data-nature-section]")];
+  const none = document.querySelector<HTMLElement>("[data-nature-none]");
+  if (input) input.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    let shown = 0;
+    for (const r of rows) {
+      const hit = !q || (r.dataset.search ?? "").toLowerCase().includes(q);
+      r.hidden = !hit;
+      if (hit) shown++;
+    }
+    for (const s of sections) {
+      s.hidden = ![...s.querySelectorAll<HTMLElement>("[data-nature-row]")].some((r) => !r.hidden);
+    }
+    if (none) none.hidden = shown > 0;
+  });
+</script>

@@ -1582,6 +1582,10 @@ explore:
       title: The Ghayb Browser
       desc: "Jinn and angels, the soul, the measures of time, the Ascent, the barzakh and the signs of the Hour — the unseen with its sources."
       menu: "Browse the world of the unseen"
+    nature:
+      title: Nature Explorer
+      desc: "Animals, birds, insects, sea creatures, plants and the phenomena of creation in the Qur'an and the hadith — every verse and report with its source."
+      menu: "Browse nature in the Qur'an and hadith"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -3200,6 +3204,41 @@ ghayb:
     signs:
       title: Signs of the Hour
       desc: "The major signs: the Dajjal, Isa's descent, Ya'juj and Ma'juj, the sun from the west, and what comes before and after."
+nature:
+  title: Nature Explorer
+  lede: "The natural world in the Qur'an, the hadith and the tradition: the animals Solomon heard and the ones the Prophet protected, the birds of the Elephant and the whale of Jonah, the palm and the olive, and the heavens, seas, winds and rain that are among God's signs — every verse and report with its source."
+  badge: Nature explorer
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reads them."
+  method_title: The explorer's method
+  method_note: "Every record here is an ordinary museum record — cited, trilingual — grouped by the tags nature-browser and nature-<section> inside the one graph, not in a side table. The Qur'an text is the frozen Tanzil text, shown on the subject pages by reference only, and the hadith cards link to the reports' own pages."
+  api: "The whole dataset is at"
+  sections_title: The explorer's sections
+  filter_label: Filter subjects
+  filter_none: No matching results.
+  empty: No nature records in this build yet.
+  entity_page: "Museum record"
+  quran_title: "In the Qur'an"
+  hadith_title: "In the hadith"
+  related_title: "Also in the museum"
+  sections:
+    land:
+      title: Land animals
+      desc: "Beasts and livestock: the she-camel of Salih, the elephant of the Year, the dog of the Cave, and the animals of the desert and the herd."
+    bird:
+      title: Birds
+      desc: "The hoopoe of Solomon, the flights over the Elephant, the crow that taught burial, and the birds that glorify in the sky."
+    insect:
+      title: Insects and small creatures
+      desc: "The ant that spoke, the bee that was inspired, the spider's frail house, and the plagues of Egypt — the small are signs too."
+    sea:
+      title: Sea creatures
+      desc: "The whale of Jonah, the fish of al-Khidr, the lawful game of the sea, and the pearl and coral of the two seas."
+    plant:
+      title: Plants and trees
+      desc: "The palm that fed Mary, the olive whose oil almost glows, the lote tree of the Boundary and the zaqqum — trees of this world and the next."
+    cosmos:
+      title: The created world
+      desc: "Rain, mountains, thunder, winds, night and day, sun, moon and stars, water, earth and heavens — the signs spread before those who reflect."
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."

@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! We offered the trust unto the heavens and the earth and the hills, but they shrank from bearing it and were afraid of it. And man assumed it. Lo! he hath proved a tyrant and a fool.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ہم نے (بار) امانت کو آسمانوں اور زمین پر پیش کیا تو انہوں نے اس کے اٹھانے سے انکار کیا اور اس سے ڈر گئے۔ اور انسان نے اس کو اٹھا لیا۔ بےشک وہ ظالم اور جاہل تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/mountains, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

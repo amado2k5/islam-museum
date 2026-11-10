@@ -16,6 +16,7 @@ translations:
   en: { text: "And he said: Embark therein! In the name of Allah be its course and its mooring. Lo! my Lord is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(نوح نے) کہا کہ خدا کا نام لے کر (کہ اسی کے ہاتھ میں اس کا) چلنا اور ٹھہرنا (ہے) اس میں سوار ہوجاؤ۔ بےشک میرا پروردگار بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/flood, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

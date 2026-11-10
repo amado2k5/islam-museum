@@ -203,6 +203,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
     fields: ["roles", "story_roles"] },
   { file: "ghayb.json", feature: "ghayb-browser", pick: (n) => n.tags.includes("ghayb-browser"),
     fields: ["kind", "wings", "themes", "tags"] },
+  { file: "nature.json", feature: "nature-browser", pick: (n) => n.tags.includes("nature-browser"),
+    fields: ["kind", "wings", "themes", "tags"] },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
 ];
