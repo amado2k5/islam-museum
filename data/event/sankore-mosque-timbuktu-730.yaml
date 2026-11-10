@@ -14,6 +14,7 @@ date:
   end: { edtf: "1330~", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/timbuktu, sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 provenance:
   layer: own-research
