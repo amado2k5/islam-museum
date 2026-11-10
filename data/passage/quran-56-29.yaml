@@ -16,6 +16,7 @@ translations:
   en: { text: "And clustered plantains,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور تہہ بہ تہہ کیلوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/talh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

@@ -16,6 +16,7 @@ translations:
   en: { text: "Then eat of all fruits, and follow the ways of thy Lord, made smooth (for thee). There cometh forth from their bellies a drink divers of hues, wherein is healing for mankind. Lo! herein is indeed a portent for people who reflect.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہر قسم کے میوے کھا۔ اور اپنے پروردگار کے صاف رستوں پر چلی جا۔ اس کے پیٹ سے پینے کی چیز نکلتی ہے جس کے مختلف رنگ ہوتے ہیں اس میں لوگوں (کے کئی امراض) کی شفا ہے۔ بےشک سوچنے والوں کے لیے اس میں بھی نشانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/asal, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/bee, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred

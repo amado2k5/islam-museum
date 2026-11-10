@@ -1,0 +1,27 @@
+id: passage/abudawud-5267
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5267"
+label:
+  ar: "أبو داود 5267 — نهى عن قتل أربع من الدواب"
+  en: "Abu Dawud 5267 — He forbade killing four creatures"
+  ur: "ابو داود 5267 — چار جاندروں کا قتل منع کیا"
+text: "إِنَّ النَّبِيَّ نَهَى عَنْ قَتْلِ أَرْبَعٍ مِنَ الدَّوَابِّ: النَّمْلَةُ، وَالنَّحْلَةُ، وَالْهُدْهُدُ، وَالصُّرَدُ"
+summary:
+  ar: "في كتاب الأدب؛ عن ابن عباس عن الزهري: نهى النبي عن قتل أربع من الدواب: النملة والنحلة والهدهد والصرد — حرمة قتل المصلحين من الصغار."
+  en: "In the Book of General Behaviour, from Ibn Abbas via al-Zuhri: the Prophet forbade killing four creatures — the ant, the bee, the hoopoe and the shrike — the immunity of the beneficial small ones."
+  ur: "کتاب ادب میں ابن عباس سے زہری کی سند سے: نبی نے چار جاندروں کے قتل سے منع فرمایا — چیونٹی، مکھی، ہدہد اور صرد — چھوٹے مفید مخلوقوں کی حرمت۔"
+relations:
+  - { type: mentions, target: concept/ant, sources: [source/sunan-abi-dawud] }
+  - { type: mentions, target: concept/bee, sources: [source/sunan-abi-dawud] }
+  - { type: mentions, target: concept/hoopoe, sources: [source/sunan-abi-dawud] }
+  - { type: mentions, target: concept/shrike, sources: [source/sunan-abi-dawud] }
+tags: [nature-animal-hadith]
+provenance:
+  layer: own-research
+  source: "Hadith 5267 as on sunnah.com (canonical numbering), matn excerpt"
+  generated_by: "Devin (SWE-2 High)"
+  run: nature-browser-5
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against sunnah.com" }

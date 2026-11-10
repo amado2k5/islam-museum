@@ -16,6 +16,7 @@ translations:
   en: { text: "Lo! those who kept their duty are amid shade and fountains,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "بےشک پرہیزگار سایوں اور چشموں میں ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/rivers-springs, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred

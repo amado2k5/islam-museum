@@ -1,0 +1,25 @@
+id: passage/bukhari-5684
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5684"
+label:
+  ar: "البخاري 5684 — اسقه عسلاً: صدق الله وكذب بطن أخيك"
+  en: "Bukhari 5684 — Give him honey: God spoke true, your brother's belly lied"
+  ur: "بخاری 5684 — اسے شہد پلاؤ: اللہ سچ کہتا ہے، تمہارے بھائی کا پیٹ جھوٹ"
+text: "أَنَّ رَجُلاً أَتَى النَّبِيَّ فَقَالَ: أَخِي يَشْتَكِي بَطْنَهُ، فَقَالَ: اسْقِهِ عَسَلاً، ثُمَّ أَتَى الثَّانِيَةَ فَقَالَ: اسْقِهِ عَسَلاً، ثُمَّ أَتَاهُ فَقَالَ: فَعَلْتُ، فَقَالَ: صَدَقَ اللَّهُ وَكَذَبَ بَطْنُ أَخِيكَ، اسْقِهِ عَسَلاً، فَسَقَاهُ فَبَرَأَ"
+summary:
+  ar: "في كتاب الطب؛ عن أبي سعيد الخدري: جاء رجل فقال أخي يشتكي بطنه فقال النبي اسقه عسلاً، ثم أتى الثانية والثالثة فقال صدق الله وكذب بطن أخيك اسقه عسلاً، فسقاه فبرأ — شاهد «فيه شفاء للناس»."
+  en: "In the Book of Medicine, from Abu Sa'id al-Khudri: a man said 'my brother suffers in his belly'; the Prophet said 'give him honey' — again and again — then 'God spoke true and your brother's belly lied'; he drank and was cured. The witness to 'in it is healing for people'."
+  ur: "کتاب طب میں ابو سعید خدری سے: ایک آدمی نے کہا میرے بھائی کے پیٹ میں تکلیف ہے، نبی نے فرمایا اسے شہد پلاؤ، بار بار آیا تو فرمایا اللہ سچ کہتا ہے تمہارے بھائی کا پیٹ جھوٹ کہتا ہے، شہد پلاؤ — اسے پلایا تو شفا پا گیا۔"
+relations:
+  - { type: mentions, target: concept/asal, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/bee, sources: [source/sahih-al-bukhari] }
+tags: [nature-animal-hadith]
+provenance:
+  layer: own-research
+  source: "Hadith 5684 as on sunnah.com (canonical numbering), matn excerpt"
+  generated_by: "Devin (SWE-2 High)"
+  run: nature-browser-5
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against sunnah.com" }

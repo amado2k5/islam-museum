@@ -16,6 +16,7 @@ translations:
   en: { text: "They call therein for every fruit in safety.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "وہاں خاطر جمع سے ہر قسم کے میوے منگوائیں گے (اور کھائیں گے)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

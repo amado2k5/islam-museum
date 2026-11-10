@@ -16,6 +16,7 @@ translations:
   en: { text: "And We provide them with fruit and meat such as they desire.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور جس طرح کے میوے اور گوشت کو ان کا جی چاہے گا ہم ان کو عطا کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

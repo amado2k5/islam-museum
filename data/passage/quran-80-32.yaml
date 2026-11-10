@@ -16,6 +16,7 @@ translations:
   en: { text: "Provision for you and your cattle.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(یہ سب کچھ) تمہارے اور تمہارے چارپایوں کے لیے بنایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/paradise-fruits, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/trees-plants, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred
