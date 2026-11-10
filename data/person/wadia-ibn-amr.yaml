@@ -18,6 +18,8 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
   - { type: participated_in, target: event/battle-of-badr, note: "al-Istiab p. 756", sources: [source/isti-ab-ibn-abd-al-barr] }
   - { type: participated_in, target: event/battle-of-uhud, note: "al-Istiab p. 756", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: member_of, target: group/ansar, note: "Juhani, ally of Banu Sawad of the Najjar line (al-Isti'ab p. 756)", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 external_ids:
   wikidata: Q12250852
 provenance:
