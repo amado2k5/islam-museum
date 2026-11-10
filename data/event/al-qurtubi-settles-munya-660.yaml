@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/munyat-ibn-al-khasib, sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-qurtubi, role: "النزيل", sources: [source/siyar-alam-nubala] }
+  - { type: during_reign, target: person/al-mustansir-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/nuzhat-al-mushtaq-2002]
 provenance:
   layer: own-research

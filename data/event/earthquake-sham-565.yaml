@@ -14,5 +14,8 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-28
+relations:
+- { type: during_reign, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

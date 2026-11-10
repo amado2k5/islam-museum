@@ -15,6 +15,8 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "القاضي الآمر بالجلد والرجم", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/shurahah, role: "المرأة المقرّة بالزنا", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/rashidun }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل يُجمع بين الجلد والرجم في حد الزنا؟", en: "Should flogging and stoning be combined for zina?" }
 perspectives:
   - tradition: sunni

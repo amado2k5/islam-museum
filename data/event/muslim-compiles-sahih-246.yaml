@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/tazkirat-al-huffaz] }
   - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المصنّف", sources: [source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

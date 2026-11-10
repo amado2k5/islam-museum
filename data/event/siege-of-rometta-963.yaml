@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "0963", precision: year, status: tradition, derived: true }
   end: { edtf: "0963", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-muizz-li-din-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q41374161

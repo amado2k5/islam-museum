@@ -13,6 +13,7 @@ relations:
   - { type: occurred_at, target: place/al-aqsa-mosque }
   - { type: occurred_at, target: place/jerusalem }
   - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/bayt-al-maqdis-fi-al-islam-azhar] }
+  - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:
   layer: own-research

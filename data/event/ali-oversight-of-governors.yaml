@@ -16,6 +16,8 @@ relations:
   - { type: had_participant, target: person/qays-ibn-sad, role: "وجّه إليه تعليمات الدخول بجند", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/muhammad-ibn-abi-bakr, role: "وصله عهد علي إليه", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/rashidun }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "كيف يراقب الخليفة ولاته دون أن يعزلهم؟", en: "How does a caliph supervise governors without dismissing them?" }
 provenance:
   layer: own-research

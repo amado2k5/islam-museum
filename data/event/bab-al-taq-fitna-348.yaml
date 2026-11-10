@@ -12,6 +12,7 @@ date:
   start: { edtf: "0959-07~", hijri: "0348-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 348؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 682}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"

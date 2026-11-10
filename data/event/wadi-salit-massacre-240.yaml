@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/tulaytula, role: "على وادي سليطة بالقرب منها", sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/muhammad-i-andalusi, role: "أكمن لهم فأوقع بهم", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 386"

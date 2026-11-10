@@ -18,6 +18,8 @@ relations:
   - { type: had_participant, target: person/al-muhallabi-al-wazir, role: "رسول معز الدولة", sources: [source/tajarib-al-umam-surush-v6] }
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6] }
   - { type: caused, target: event/mustakfi-blinding-334, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: during_reign, target: person/al-mustakfi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي ج5/2 ص632-633؛ source/tajarib-al-umam-surush-v6 scan pp. 111-115, 119-120"

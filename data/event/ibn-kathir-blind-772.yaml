@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/ibn-kathir, role: "المُضِرّ في أواخر عمره", sources: [source/durar-kamina-jil-1993] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

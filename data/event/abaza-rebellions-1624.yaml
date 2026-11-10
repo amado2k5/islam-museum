@@ -11,6 +11,10 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1624", precision: year, status: tradition, derived: true }
   end: { edtf: "1658", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q109392671

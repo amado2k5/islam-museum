@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mosul }
   - { type: had_participant, target: person/aq-sunqur-bursuqi, role: "المقتول", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 35"

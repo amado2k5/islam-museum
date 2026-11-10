@@ -14,6 +14,7 @@ date:
 relations:
   - { type: had_participant, target: person/yaqub-al-mansur-al-muwahhidi, role: "قاد الحملة وحاصرها بنفسه", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/silves, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 384"

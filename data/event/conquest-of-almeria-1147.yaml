@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1147", precision: year, status: tradition, derived: true }
   end: { edtf: "1147", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q110463232

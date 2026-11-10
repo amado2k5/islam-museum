@@ -13,6 +13,7 @@ date:
   start: { edtf: "1058-12", hijri: "0450-10-18", calendar: julian, precision: day, status: tradition, derived: true, note: "١٨ شوال ٤٥٠؛ التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 450)، قراءة آبل فيجن"

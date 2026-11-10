@@ -16,6 +16,8 @@ relations:
   - { type: had_participant, target: person/abdullah-ibn-abbas, role: "ناصح بالعزل وقائل بالتحذير من الشام", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "ناصح بإقرار الولاة ثم عزلهم", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/rashidun }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل أشار المغيرة وابن عباس على علي بإبقاء ولاة عثمان؟", en: "Did al-Mughira and Ibn Abbas advise Ali to keep Uthman's governors?" }
 perspectives:
   - tradition: sunni

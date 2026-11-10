@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/qalat-busr }
   - { type: had_participant, target: person/busr-ibn-abi-artat, role: "الفاتح المسمّاة له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uqba-ibn-nafi, role: "الموجّه — وقيل موسى بن نصير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319"

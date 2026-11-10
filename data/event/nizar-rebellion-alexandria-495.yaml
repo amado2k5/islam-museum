@@ -19,6 +19,8 @@ relations:
   - { type: occurred_at, target: place/alexandria, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/nizar-ibn-al-mustansir, role: "صاحب الدعوة المخروج بها", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-malik-al-afdal-shahanshah, role: "أمير الجيوش الظافر بالفتنة", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustali-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-amir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

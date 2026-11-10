@@ -17,6 +17,8 @@ relations:
   - { type: had_participant, target: person/al-qaim-billah, role: "المتوفى", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-muqtadi-billah, role: "الخليفة المبايَع", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "من أسباب توليته عند السبكي", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 467)، قراءة آبل فيجن؛ والشيرازي طرفاً في تولية المقتدي من EI2 vol. 9 art. AL-SHIRAZI p. 495 (al-Subki: كان الشيخ أبو إسحاق سبباً في جعله خليفة)"

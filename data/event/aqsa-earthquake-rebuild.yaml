@@ -13,6 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/ahsan-al-taqasim] }
   - { type: had_participant, target: person/abd-allah-ibn-tahir, role: "أحدث أروقة على أعمدة رخام", sources: [source/ahsan-al-taqasim] }
+  - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/ahsan-al-taqasim]
 provenance:
   layer: own-research

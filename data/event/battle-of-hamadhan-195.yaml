@@ -25,6 +25,7 @@ relations:
   role: قائد المأمون
   sources:
   - source/akhbar-tiwal-amir
+- { type: during_reign, target: person/al-amin, sources: [source/tarikh-khulafa-minhaj-1434] }
 date:
   start:
     hijri: '0195'

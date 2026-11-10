@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/basra, sources: [source/encyclopaedia-of-islam-2], note: "استقر بالبصرة وطناً حتى وفاته {cite:encyclopaedia-of-islam-2 vol. 1 p. 133}" }
   - { type: had_participant, target: person/abu-dawud-al-sijistani, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

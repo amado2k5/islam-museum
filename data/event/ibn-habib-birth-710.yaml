@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/al-aalam] }
   - { type: had_participant, target: person/ibn-habib-al-halabi, role: "المولود", sources: [source/durar-kamina-jil-1993, source/al-aalam] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/durar-kamina-jil-1993, source/al-aalam]
 provenance:
   layer: own-research

@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/zabid, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "مؤلف الكتاب الواصل", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 901)، قراءة آبل فيجن"

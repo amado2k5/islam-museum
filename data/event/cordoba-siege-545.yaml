@@ -13,6 +13,8 @@ date:
   start: { edtf: "1150~", hijri: "0545~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 545؛ التحويل مشتق {cite:nafh-tib-maqqari p. 382}." }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-zafir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 382"

@@ -20,6 +20,7 @@ relations:
   - { type: occurred_at, target: place/tabariyya, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/salih-ibn-mirdas, role: "أمير حلب، قُتل فيها", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/anushtakin-al-dizbiri, role: "أمير جيوش الظاهر", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 external_ids: { wikidata: "Q116148546" }
 provenance:
   layer: own-research

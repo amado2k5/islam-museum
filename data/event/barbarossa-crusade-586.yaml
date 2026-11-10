@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/konya, sources: [source/kamil-ibn-al-athir, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/frederick-barbarossa, role: "ملك الألمان الغارق", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 586، ص 193–194"

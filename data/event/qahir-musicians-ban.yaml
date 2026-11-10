@@ -12,6 +12,7 @@ date:
   start: { edtf: "0933~", hijri: "0321", calendar: julian, precision: year, status: tradition, derived: true, note: "321؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 597}." }
 relations:
   - { type: had_participant, target: person/al-qahir-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-qahir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 594–604"

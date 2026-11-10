@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/harim-ibn-hayyan, role: "فاتح شبير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/fars, sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/shiraz, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

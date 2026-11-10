@@ -12,6 +12,7 @@ date:
   start: { edtf: "1212-07~", hijri: "0609-02~", calendar: julian, precision: month, status: tradition, derived: true, note: "أواخر صفر 609؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1682}." }
 relations:
   - { type: had_participant, target: person/muhammad-al-nasir-almohad, role: "الخليفة الغازي", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/muhammad-al-nasir-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"

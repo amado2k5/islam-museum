@@ -11,6 +11,8 @@ wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 themes: [civil-wars-and-revolts]
+relations:
+- { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research

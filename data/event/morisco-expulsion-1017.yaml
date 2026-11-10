@@ -13,6 +13,7 @@ date:
   start: { edtf: "1609~", hijri: "1017~", calendar: julian, precision: year, status: tradition, derived: true, note: "نص المقري «أعوام سبعة عشر وألف»؛ التحويل مشتق {cite:nafh-tib-maqqari p. 528}." }
 relations:
   - { type: occurred_at, target: place/granada, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 528"

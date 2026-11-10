@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-shah-durrani, role: "الفاتح الدراني", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed., vol. 7, MULTĀN, p. 603 (PDF pages) — the 1752 cession of the Lahore and Multan subas"

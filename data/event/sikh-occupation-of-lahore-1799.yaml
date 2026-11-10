@@ -16,6 +16,7 @@ date:
   start: { edtf: "1799-07", hijri: "1214", calendar: julian, precision: month, status: tradition, derived: true, sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: occurred_at, target: place/lahore, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q48724669

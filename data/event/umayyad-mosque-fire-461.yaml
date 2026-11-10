@@ -12,6 +12,7 @@ date:
   start: { edtf: "1069-05~", hijri: "0461-08", calendar: julian, precision: month, status: historical, note: "نصف شعبان 461هـ كما عند ابن فضل الله العمري" }
 relations:
   - { type: occurred_at, target: building/umayyad-mosque, sources: [source/umari-masalik-1924] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "مسالك الأبصار (ط 1924) ص 198-200"

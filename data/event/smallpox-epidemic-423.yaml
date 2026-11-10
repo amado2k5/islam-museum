@@ -17,6 +17,8 @@ relations:
   - { type: occurred_at, target: place/isfahan, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-qaim-billah, role: "أصابه الجدري وأُقيم", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث ٤٢٢–٤٢٥)، قراءة آبل فيجن، مسح AAlexandrina-224011"

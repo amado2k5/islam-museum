@@ -13,6 +13,7 @@ date:
   start: { edtf: "1483-04~", hijri: "0888-03~", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول سنة 888؛ التحويل مشتق {cite:nafh-tib-maqqari p. 519}." }
 relations:
   - { type: had_participant, target: person/boabdil-muhammad-xii, role: "أسير", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"

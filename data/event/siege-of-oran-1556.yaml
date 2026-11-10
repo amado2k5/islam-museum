@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/hasan-corso, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/wahran, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q7510284

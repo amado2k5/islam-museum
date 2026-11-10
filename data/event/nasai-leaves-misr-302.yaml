@@ -17,6 +17,8 @@ date:
 relations:
   - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
   - { type: had_participant, target: person/al-nasai, role: "الراحل المودِّع", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/ubayd-allah-al-mahdi, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/wafayat-ayan]
 provenance:
   layer: own-research

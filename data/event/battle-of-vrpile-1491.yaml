@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1491", precision: year, status: tradition, derived: true }
   end: { edtf: "1491", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q12627978

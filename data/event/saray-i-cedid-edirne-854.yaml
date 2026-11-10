@@ -15,6 +15,7 @@ relations:
   - { type: occurred_at, target: building/edirne-palace, sources: [source/encyclopaedia-of-islam-2] }
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/murad-ii-uthmani, role: "السلطان الآمر بالبناء", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

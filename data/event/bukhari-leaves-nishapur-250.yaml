@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-bukhari, role: "المُخرَج", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-mutanabbi, role: "الهارب", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/sayf-al-dawla, role: "الأمير المولول عنه", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

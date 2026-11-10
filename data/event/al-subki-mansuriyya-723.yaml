@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/al-bidaya-wal-nihaya] }
   - { type: had_participant, target: person/taqi-al-din-al-subki, role: "المدرّس", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/al-bidaya-wal-nihaya]
 provenance:
   layer: own-research

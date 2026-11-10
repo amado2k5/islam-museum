@@ -18,6 +18,7 @@ sides:
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/dubays-ibn-sadaqa, role: "المنهزم الثائر", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

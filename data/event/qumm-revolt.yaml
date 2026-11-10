@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/musa-ibn-bugha, role: "فاتحها عنوة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: related_to, target: person/abd-allah-al-mamun, role: "الخليفة الموجه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mutazz, role: "خليفة الغزو الثاني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 440"

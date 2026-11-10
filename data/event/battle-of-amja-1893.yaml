@@ -11,6 +11,8 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1893", precision: year, status: tradition, derived: true }
   end: { edtf: "1893", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-al-rahman-sokoto, sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q136483662

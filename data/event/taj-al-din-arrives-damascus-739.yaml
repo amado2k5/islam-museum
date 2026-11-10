@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/taqi-al-din-al-subki, role: "الوالد قاضي القضاة الجديد", sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/zaynab-bint-al-kamal, role: "المُسمِعة", sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/taj-al-din-ibn-abi-al-yusr, role: "المُسمِع", sources: [source/durar-kamina-jil-1993] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

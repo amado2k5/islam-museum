@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-hajar-al-asqalani, role: "العريس", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

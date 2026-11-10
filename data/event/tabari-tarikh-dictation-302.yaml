@@ -17,6 +17,7 @@ date:
   start: { edtf: "0914", hijri: "0302", calendar: julian, precision: year, status: historical, derived: true, note: "قال ابن النديم: آخر ما أملى من التاريخ إلى سنة ٣٠٢هـ؛ السنة الميلادية تحويل مشتق {cite:fihrist-ibn-al-nadim p. 326-327}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/fihrist-ibn-al-nadim] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/fihrist-ibn-al-nadim, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

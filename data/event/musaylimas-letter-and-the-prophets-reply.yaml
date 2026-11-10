@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/musaylima, role: "كاتب الرسالة", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "المجيب", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/nuaym-ibn-masud, role: "راوي الخبر (شهد المجلس)", sources: [source/ibn-hisham-saqqa] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 247", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
 sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/tabari-donner-1993]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 247" }

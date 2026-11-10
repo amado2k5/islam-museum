@@ -14,6 +14,8 @@ date:
   end: { edtf: "1169~", precision: year, status: historical, derived: true, note: "at some point between 1153 and 1169 per Britannica; recorded as circa 1169" }
 relations:
   - { type: had_participant, target: person/ibn-tufayl, role: "المقدم", sources: [source/britannica-averroes] }
+  - { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/britannica-averroes]
 provenance:
   layer: own-research

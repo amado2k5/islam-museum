@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1724", precision: year, status: tradition, derived: true }
   end: { edtf: "1724", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q119167317

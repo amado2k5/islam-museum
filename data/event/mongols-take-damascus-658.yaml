@@ -16,6 +16,7 @@ date: { start: { edtf: "1260-02~", hijri: "0658-02~", calendar: julian, precisio
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: occurred_at, target: place/nablus, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنة 658)، قراءة آبل فيجن"

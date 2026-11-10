@@ -21,6 +21,8 @@ relations:
   - { type: had_participant, target: person/baraka-al-jubani, role: "الأمير صاحب الخط", sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/al-babarti-akmal-al-din, role: "الشافع", sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/siraj-al-din-al-bulqini, role: "الشافع", sources: [source/durar-kamina-jil-1993] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-mustasim-zakariya-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

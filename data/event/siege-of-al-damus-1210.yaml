@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1210", precision: year, status: tradition, derived: true }
   end: { edtf: "1210", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/muhammad-al-nasir-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q4890612

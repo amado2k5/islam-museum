@@ -21,6 +21,7 @@ relations:
   - { type: had_participant, target: person/nusayr-father-of-musa, role: "من سبي الكنيسة على رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-farwa-abd-al-rahman, role: "من السبي على رواية", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/mawali, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345–347"

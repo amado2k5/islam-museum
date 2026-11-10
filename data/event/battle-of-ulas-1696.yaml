@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1696", precision: year, status: tradition, derived: true }
   end: { edtf: "1696", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2237649

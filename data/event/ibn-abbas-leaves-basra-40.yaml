@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/sabra-ibn-shayman, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-ahnaf-ibn-qays, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"

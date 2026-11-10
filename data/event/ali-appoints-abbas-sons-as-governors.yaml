@@ -19,6 +19,8 @@ relations:
   - { type: had_participant, target: person/tammam-ibn-al-abbas, role: "على المدينة", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/muhammad-ibn-abi-bakr, role: "على مصر", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/rashidun }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل ولّى علي أقاربه لقرابتهم أم لكفاءتهم؟", en: "Did Ali appoint kin for kinship or for competence?" }
 perspectives:
   - tradition: sunni

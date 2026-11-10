@@ -18,6 +18,7 @@ relations:
   - { type: had_participant, target: person/tuman-bay-i, role: "السلطان الذي بعده", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/qansuh-al-ghawri, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/al-zahir-qansuh, role: "السلطان المغلوب قبل جان بلاط", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنتا 904 و906)، قراءة آبل فيجن"

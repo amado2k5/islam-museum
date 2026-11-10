@@ -15,6 +15,7 @@ relations:
   - { type: occurred_at, target: place/ramla }
   - { type: had_participant, target: person/atsiz-ibn-uwaq, role: "القائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/alp-arslan, role: "السلطان الآمر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 30"

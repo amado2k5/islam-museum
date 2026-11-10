@@ -15,6 +15,7 @@ relations:
   - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "قائد الحصار", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالقتال", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/abdullah-ibn-al-zubayr, sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 349–350"

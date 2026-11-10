@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1309", precision: year, status: tradition, derived: true }
   end: { edtf: "1309", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q56276309

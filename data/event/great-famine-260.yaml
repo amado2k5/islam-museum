@@ -10,6 +10,7 @@ periods: [period/abbasid-early]
 regions: [levant-iraq, arabia]
 relations:
   - { type: had_participant, target: person/ali-ibn-zayd-alawi, role: "المقتول", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 date:
   start: { edtf: "0873~", hijri: "0260", calendar: julian, precision: year, status: tradition, derived: true, note: "٢٦٠؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 110}." }
 provenance:

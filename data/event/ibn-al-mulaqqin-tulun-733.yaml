@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/ibn-al-mulaqqin, role: "التلميذ", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/isa-al-maghribi-al-mulaqqin, role: "المقرئ المربِّي", sources: [source/shadharat-dhahab] }
   - { type: had_participant, target: person/ibn-sayyid-al-nas, role: "الشيخ المسمِّع", sources: [source/durar-kamina-jil-1993] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

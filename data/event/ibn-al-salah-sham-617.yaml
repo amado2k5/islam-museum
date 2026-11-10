@@ -24,6 +24,7 @@ relations:
   - { type: had_participant, target: person/abd-al-rahman-ibn-qudama, role: "شيخ سمع منه (فخر الدين أخو موفق الدين)", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/jamal-al-din-ibn-al-harastani, role: "شيخ سمع منه بدمشق قبل دخوله الشام", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/abd-al-qadir-al-rahawi, role: "شيخ سمع منه بحران", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

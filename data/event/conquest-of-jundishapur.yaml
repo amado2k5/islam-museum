@@ -11,6 +11,7 @@ wings: [time]
 relations:
   - { type: occurred_at, target: place/jundishapur, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-muqtarib-ibn-rabia, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"

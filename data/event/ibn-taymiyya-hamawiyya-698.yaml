@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: occurred_at, target: place/hama, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-taymiyya, role: "صاحب العقيدة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

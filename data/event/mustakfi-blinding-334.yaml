@@ -18,6 +18,8 @@ relations:
   - { type: had_participant, target: person/abu-jafar-al-saymari, role: "حاضر المجلس", sources: [source/tajarib-al-umam-surush-v6] }
   - { type: had_participant, target: person/abu-jaafar-ibn-shirzad, role: "حاضر المجلس", sources: [source/tajarib-al-umam-surush-v6] }
   - { type: occurred_at, target: place/baghdad, sources: [source/tajarib-al-umam-surush-v6] }
+  - { type: during_reign, target: person/al-mustakfi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 604–615؛ source/tajarib-al-umam-surush-v6 scan pp. 116-117, 119, 133"

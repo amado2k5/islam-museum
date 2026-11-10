@@ -17,6 +17,9 @@ relations:
   - { type: had_participant, target: person/sulayman-al-mustain-cordoba, role: "الخصم المستنجد بالنصارى", sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/abd-al-rahman-sanjul, role: "الحاجب المفوّض إليه الخلافة المقتول", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/cordoba, sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/muhammad-ii-al-mahdi, sources: [source/bayan-mughrib-idhari] }
+  - { type: during_reign, target: person/sulayman-al-mustain, sources: [source/bayan-mughrib-idhari] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط دار الكتاب العربي، بيروت) ج 6 ص 499–502"

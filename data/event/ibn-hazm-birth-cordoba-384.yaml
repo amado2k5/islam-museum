@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
   - { type: had_participant, target: person/ibn-hazm, role: "المولود", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/hisham-ii-al-muayyad, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
 sources: [source/nafh-tib-maqqari]
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
 provenance:
