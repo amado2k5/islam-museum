@@ -13,6 +13,12 @@ date:
   end: { edtf: "1183", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/salah-al-din-yusuf-ibn-ayyub]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "حامية الكرك بقيادة رينو", en: "The Kerak garrison under Reynald" }
+    participants: [person/raynald-de-chatillon]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q815156

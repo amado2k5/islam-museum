@@ -13,6 +13,9 @@ date:
   end: { edtf: "1126", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الصليبيون", en: "The Crusaders" }
+  - label: { ar: "أسطول مصر الفاطمي", en: "The Fatimid Egyptian fleet" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q132528607
