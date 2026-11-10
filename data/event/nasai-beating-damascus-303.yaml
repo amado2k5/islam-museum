@@ -17,7 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
   - { type: had_participant, target: person/al-nasai, role: "المعتدى عليه", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
-  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "موضوع السؤال", sources: [source/tarikh-islam-dhahabi] }
+  - { type: related_to, target: person/muawiya-ibn-abi-sufyan, role: "موضوع السؤال", sources: [source/tarikh-islam-dhahabi] }
   - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan, source/tazkirat-al-huffaz]
 provenance:

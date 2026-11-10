@@ -13,7 +13,7 @@ date:
 relations:
   - { type: occurred_at, target: place/tikrit }
   - { type: occurred_at, target: place/ukbara, sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hudhayfa-ibn-mihsan, role: "شريك الغارة والأمان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khurzad-ibn-mahibandadh, role: "الموكل المهزوم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/utba-ibn-farqad, role: "منفذ أمان تكريت", sources: [source/futuh-buldan-maarif-1407] }
