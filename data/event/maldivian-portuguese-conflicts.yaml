@@ -11,6 +11,8 @@ regions: [south-asia]
 date:
   start: { edtf: "1521", precision: year, status: tradition, derived: true }
   end: { edtf: "1650", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/maldives }
 sides:
   - label: { en: "Kingdom of Portugal", ar: "مملكة البرتغال" }
     participants: [polity/kingdom-of-portugal]

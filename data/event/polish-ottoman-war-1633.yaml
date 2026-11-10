@@ -13,6 +13,7 @@ date:
   end: { edtf: "1634", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ukraine }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

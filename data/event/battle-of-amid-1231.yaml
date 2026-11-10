@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1231", precision: year, status: tradition, derived: true }
   end: { edtf: "1231", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/amid }
 sides:
   - label: { ar: "سلاجقة الروم بقيادة كيقباد", en: "The Seljuks of Rum under Kayqubad" }
   - label: { ar: "الأيوبيون بقيادة الكامل", en: "The Ayyubids under al-Kamil" }

@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1387", precision: year, status: tradition, derived: true }
   end: { edtf: "1387", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/gabes }
 sides:
   - label: { en: "Banu Makki", ar: "بنو مكي" }
     participants: [group/banu-makki]

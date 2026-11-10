@@ -12,6 +12,8 @@ date:
   start: { edtf: "1064", precision: year, status: tradition, derived: true }
   end: { edtf: "1065", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/barbastro }
 external_ids:
   wikidata: Q1187521
 provenance:

@@ -12,6 +12,8 @@ date:
   start: { edtf: "1097", precision: year, status: tradition, derived: true }
   end: { edtf: "1097", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/tarsus }
 external_ids:
   wikidata: Q112243839
 provenance:

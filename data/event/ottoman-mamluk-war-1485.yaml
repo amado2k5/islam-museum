@@ -13,6 +13,8 @@ date:
   end: { edtf: "1491", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/anatolia }
+- { type: occurred_at, target: place/syria }
 sides:
   - label: { en: "Mamluk Sultanate of Egypt", ar: "الدولة المملوكية" }
     participants: [polity/mamluk-sultanate]

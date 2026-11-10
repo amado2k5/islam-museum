@@ -13,6 +13,7 @@ date:
   end: { edtf: "1393-03-29", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/shiraz }
 sides:
   - label: { en: "Muzaffarids of Iran", ar: "آل مظفر" }
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }

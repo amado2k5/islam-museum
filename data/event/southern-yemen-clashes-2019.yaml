@@ -12,6 +12,8 @@ date:
   start: { edtf: "2019-08-07", precision: year, status: tradition, derived: true }
   end: { edtf: "2019-08-07", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/aden }
 external_ids:
   wikidata: Q66370931
 provenance:

@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0680", precision: year, status: tradition, derived: true }
   end: { edtf: "0692", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [46.0, 23.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0680"
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتنة الثانية", en: "The Second Fitna" }, at: [46.0, 23.0], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
 relations:
 - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: during_reign, target: person/yazid-ibn-muawiya, sources: [source/tarikh-khulafa-minhaj-1434] }

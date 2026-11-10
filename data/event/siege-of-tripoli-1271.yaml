@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1271", precision: year, status: tradition, derived: true }
   end: { edtf: "1271", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.83444444444444, 34.43666666666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1271"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار طرابلس ⁦(١٢٧١)⁩", en: "Siege of Tripoli" }, at: [35.83444444444444, 34.43666666666667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/tripoli-al-sham }

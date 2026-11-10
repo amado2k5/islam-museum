@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1134", precision: year, status: tradition, derived: true }
   end: { edtf: "1134", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/batlyus }
 sides:
   - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
     participants: [polity/almoravid-dynasty]

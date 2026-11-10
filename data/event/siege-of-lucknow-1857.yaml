@@ -11,6 +11,16 @@ regions: [south-asia]
 date:
   start: { edtf: "1857", precision: year, status: tradition, derived: true }
   end: { edtf: "1857", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [80.95, 26.85]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1857"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار لكنو", en: "Siege of Lucknow" }, at: [80.95, 26.85], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/lucknow }
 sources: [source/tarikh-islam-hasan-ibrahim]

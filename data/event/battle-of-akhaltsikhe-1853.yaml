@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1853", precision: year, status: tradition, derived: true }
   end: { edtf: "1853", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/akhaltsikhe }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

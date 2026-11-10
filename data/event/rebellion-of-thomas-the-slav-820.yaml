@@ -13,6 +13,8 @@ date:
   end: { edtf: "0823-10", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/macedonia }
+- { type: occurred_at, target: place/asia-minor }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات عبد الله المأمون بن هارون الرشيد", en: "The authorities of Abd Allah al-Ma'mun ibn Harun al-Rashid" }

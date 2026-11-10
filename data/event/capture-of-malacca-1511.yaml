@@ -11,6 +11,8 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1511", precision: year, status: tradition, derived: true }
   end: { edtf: "1511", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/malacca }
 sides:
   - label: { ar: "البرتغاليون بقيادة ألباكركي", en: "The Portuguese under Albuquerque" }
   - label: { ar: "سلطنة ملقا", en: "The Sultanate of Malacca" }

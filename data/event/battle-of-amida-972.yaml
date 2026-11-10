@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0972", precision: year, status: tradition, derived: true }
   end: { edtf: "0972", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/amid }
 sides:
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
     participants: [place/byzantine-empire]

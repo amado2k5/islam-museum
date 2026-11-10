@@ -12,6 +12,11 @@ date:
   start: { edtf: "0633", precision: year, status: tradition, derived: true }
   end: { edtf: "0651", precision: year, status: tradition, derived: true }
 sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: occurred_at, target: place/sasanian-empire }
+- { type: occurred_at, target: place/azerbaijan }
+- { type: occurred_at, target: place/makran }
+- { type: occurred_at, target: place/khorasan }
 external_ids:
   wikidata: Q887684
 provenance:

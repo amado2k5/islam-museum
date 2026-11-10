@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1450", precision: year, status: tradition, derived: true }
   end: { edtf: "1500", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/anl-urfa }
 sides:
   - label: { ar: "الدولة الآق قويونلو", en: "The Aq Qoyunlu" }
   - label: { ar: "الدولة المملوكية", en: "The Mamluk state" }

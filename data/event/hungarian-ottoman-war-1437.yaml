@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1437", precision: year, status: tradition, derived: true }
   end: { edtf: "1442", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/belgrade }
 sides:
   - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
   - label: { ar: "مملكة المجر", en: "The Kingdom of Hungary" }

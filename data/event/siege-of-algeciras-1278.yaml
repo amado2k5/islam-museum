@@ -13,6 +13,7 @@ date:
   end: { edtf: "1279", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/jazirat-al-khadra }
 sides:
   - label: { ar: "المرينيون بقيادة أبي يوسف", en: "The Marinids under Abu Yusuf" }
   - label: { ar: "قشتالة وحليفها الغرناطي", en: "Castile and its Granadan ally" }

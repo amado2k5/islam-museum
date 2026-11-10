@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1913", precision: year, status: tradition, derived: true }
   end: { edtf: "1913", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [20.8522, 39.6636]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1913"
+  features:
+    - { type: point, role: event_point, label: { ar: "تحرير يانينا ⁦(١٩١٣)⁩", en: "Liberation of Ioannina (1913)" }, at: [20.8522, 39.6636], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/ioannina }

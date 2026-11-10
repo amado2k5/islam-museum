@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/ibrahim-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/anatolia }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات مراد الرابع", en: "The authorities of Murad IV" }

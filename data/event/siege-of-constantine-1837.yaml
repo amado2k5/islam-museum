@@ -12,6 +12,8 @@ date:
   start: { edtf: "1837-10-10", precision: year, status: tradition, derived: true }
   end: { edtf: "1837-10-13", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/constantine }
 external_ids:
   wikidata: Q636772
 provenance:

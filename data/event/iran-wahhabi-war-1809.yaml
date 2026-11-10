@@ -11,6 +11,16 @@ regions: [arabia]
 date:
   start: { edtf: "1809", precision: year, status: tradition, derived: true }
   end: { edtf: "1809", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [46.0, 23.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1809"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الإيرانية الوهابية ⁦(١٨٠٩)⁩", en: "Iran–Wahhabi War (1809)" }, at: [46.0, 23.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/arabian-peninsula }
 sources: [source/tarikh-islam-hasan-ibrahim]

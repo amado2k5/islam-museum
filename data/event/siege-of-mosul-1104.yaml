@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1104", precision: year, status: tradition, derived: true }
   end: { edtf: "1104", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [43.1189, 36.335]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1104"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار الموصل ⁦(١١٠٤)⁩", en: "Siege of Mosul (1104)" }, at: [43.1189, 36.335], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/mosul }

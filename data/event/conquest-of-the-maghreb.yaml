@@ -12,6 +12,8 @@ date:
   start: { edtf: "0670", precision: year, status: tradition, derived: true }
   end: { edtf: "0710", precision: year, status: tradition, derived: true }
 sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: occurred_at, target: place/maghreb }
 external_ids:
   wikidata: Q925960
 provenance:

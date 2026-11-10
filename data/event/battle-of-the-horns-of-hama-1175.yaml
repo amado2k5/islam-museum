@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1175", precision: year, status: tradition, derived: true }
   end: { edtf: "1175", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [36.7578, 35.1318]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1175"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة قرون حماة", en: "Battle of the Horns of Hama" }, at: [36.7578, 35.1318], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-mustadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/hama }

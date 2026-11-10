@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1730", precision: year, status: tradition, derived: true }
   end: { edtf: "1730", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/nihawand }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
     participants: [polity/safavid-iran]

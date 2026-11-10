@@ -12,6 +12,8 @@ date:
   start: { edtf: "0602", precision: year, status: tradition, derived: true }
   end: { edtf: "0628", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-al-tabari]
+relations:
+- { type: occurred_at, target: place/asia-minor }
 external_ids:
   wikidata: Q2326099
 provenance:

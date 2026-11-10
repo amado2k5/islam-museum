@@ -12,6 +12,8 @@ date:
   start: { edtf: "1109", precision: year, status: tradition, derived: true }
   end: { edtf: "1109", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/lisbon }
 external_ids:
   wikidata: Q126372137
 provenance:

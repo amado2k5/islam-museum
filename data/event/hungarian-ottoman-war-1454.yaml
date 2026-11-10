@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1454", precision: year, status: tradition, derived: true }
   end: { edtf: "1483", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/serbian-despotate }
 sides:
   - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
   - label: { ar: "مملكة المجر", en: "The Kingdom of Hungary" }

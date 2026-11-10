@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0609", precision: year, status: tradition, derived: true }
   end: { edtf: "0610", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/al-ruha }
 sides:
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
     participants: [place/byzantine-empire]

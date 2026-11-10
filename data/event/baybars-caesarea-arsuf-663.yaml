@@ -15,6 +15,7 @@ map: { kind: siege, precision: locality, center: [32.5346, 34.9045] }
 date: { start: { edtf: "1265-04~", hijri: "0663-05~", calendar: julian, precision: month, status: tradition, derived: true, note: "أرسوف في رجب سنة ثلاث وستين {cite:shadharat-dhahab p. 541}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: had_participant, target: person/baybars, role: "الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/arsuf }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"

@@ -15,6 +15,16 @@ sides:
   - label: { en: "Taifa of Granada", ar: "طائفة غرناطة" }
     participants: [polity/taifa-of-granada]
   - label: { en: "Taifa of Seville", ar: "طائفة إشبيلية" }
+map:
+  kind: siege
+  precision: locality
+  center: [-4.4214, 36.7213]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1065"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مالقة ⁦(١٠٦٥–١٠٦٦)⁩", en: "Siege of Málaga (1065–1066)" }, at: [-4.4214, 36.7213], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/malaga }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

@@ -13,6 +13,10 @@ date:
   end: { edtf: "1430", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/albania }
+- { type: occurred_at, target: place/euboea }
+- { type: occurred_at, target: place/gelibolu }
+- { type: occurred_at, target: place/salonik }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

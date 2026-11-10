@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1915", precision: year, status: tradition, derived: true }
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/qajar-iran }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }

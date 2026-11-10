@@ -13,6 +13,7 @@ date:
   end: { edtf: "1936", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-tambari, sources: [source/wikidata] }
+- { type: occurred_at, target: place/kingdom-of-iraq }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات محمد تمباري", en: "The authorities of Muhammadu Tambari" }

@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1918-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1918-08", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/tafilalt }
 sides:
   - label: { en: "Ait Atta", ar: "آيت عطا" }
   - label: { en: "French Third Republic", ar: "الجمهورية الفرنسية الثالثة" }

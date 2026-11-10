@@ -13,6 +13,7 @@ date:
   end: { edtf: "1584-10-26", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/salwni }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q17515519

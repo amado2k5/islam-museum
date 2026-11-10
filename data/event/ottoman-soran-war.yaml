@@ -13,6 +13,7 @@ date:
   end: { edtf: "1836", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/anatolia }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

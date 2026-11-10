@@ -11,6 +11,9 @@ regions: [south-asia]
 date:
   start: { edtf: "1529", precision: year, status: tradition, derived: true }
   end: { edtf: "1756", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/bengal }
+- { type: occurred_at, target: place/gujarat }
 sides:
   - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
     participants: [polity/mughal-empire]

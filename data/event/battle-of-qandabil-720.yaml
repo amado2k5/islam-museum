@@ -12,6 +12,8 @@ date:
   start: { edtf: "0720", precision: year, status: tradition, derived: true }
   end: { edtf: "0720", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/qandabil }
 external_ids:
   wikidata: Q121537391
 provenance:

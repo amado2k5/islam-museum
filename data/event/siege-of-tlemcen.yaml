@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1246", precision: year, status: tradition, derived: true }
   end: { edtf: "1246", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-1.315, 34.8783]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1246"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تلمسان", en: "Siege of Tlemcen" }, at: [-1.315, 34.8783], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
 - { type: occurred_at, target: place/tlemcen }

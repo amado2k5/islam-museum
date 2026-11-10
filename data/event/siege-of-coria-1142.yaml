@@ -12,6 +12,8 @@ date:
   start: { edtf: "1142", precision: year, status: tradition, derived: true }
   end: { edtf: "1142", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/qurya }
 external_ids:
   wikidata: Q7509949
 provenance:

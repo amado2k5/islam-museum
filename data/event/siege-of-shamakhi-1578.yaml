@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1578", precision: year, status: tradition, derived: true }
   end: { edtf: "1578", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [48.6392, 40.6339]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1578"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار شماخي ⁦(١٥٧٨)⁩", en: "Siege of Shamakhi (1578)" }, at: [48.6392, 40.6339], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/shamakhi }

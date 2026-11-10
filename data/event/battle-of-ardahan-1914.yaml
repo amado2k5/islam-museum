@@ -13,6 +13,7 @@ date:
   end: { edtf: "1914", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ardahan }
 sides:
   - label: { ar: "الجيش الروسي", en: "The Russian army" }
   - label: { ar: "الجيش العثماني", en: "The Ottoman army" }

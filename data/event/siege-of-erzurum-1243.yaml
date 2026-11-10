@@ -16,6 +16,16 @@ sides:
     participants: [polity/mongol-empire]
   - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
     participants: [polity/rum-seljuk-sultanate]
+map:
+  kind: siege
+  precision: locality
+  center: [41.27556, 39.90972]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1243"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار أرزروم", en: "Siege of Erzurum" }, at: [41.27556, 39.90972], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/erzurum }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

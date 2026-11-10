@@ -14,6 +14,16 @@ date:
 sides:
   - label: { ar: "الجيش العثماني المصري بقيادة طوسون", en: "The Ottoman-Egyptian army under Tusun" }
   - label: { ar: "الدولة السعودية الأولى", en: "The first Saudi state" }
+map:
+  kind: battle
+  precision: locality
+  center: [38.0618, 24.0895]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1811"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة ينبع ⁦(١٨١١)⁩", en: "Battle of Yanbu" }, at: [38.0618, 24.0895], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/yanbu }
 sources: [source/tarikh-islam-hasan-ibrahim]

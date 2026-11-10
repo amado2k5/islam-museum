@@ -13,6 +13,7 @@ date:
   end: { edtf: "1144", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/al-ruha }
 sides:
   - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
     participants: [person/al-muqtafi-billah]

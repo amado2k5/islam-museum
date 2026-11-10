@@ -13,6 +13,8 @@ date:
   end: { edtf: "1916", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ottoman-empire }
+- { type: occurred_at, target: place/trabzon }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2058905

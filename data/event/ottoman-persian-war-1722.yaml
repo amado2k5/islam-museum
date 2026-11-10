@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1722", precision: year, status: tradition, derived: true }
   end: { edtf: "1726", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [48.516666666667, 34.8]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1722"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الهوتاكية ⁦(١٧٢٢-١٧٢٦)⁩", en: "Ottoman–Persian War of 1722–1726" }, at: [48.516666666667, 34.8], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/hamadhan }

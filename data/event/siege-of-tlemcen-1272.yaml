@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1272-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1272-05", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-1.315, 34.8783]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1272"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار تلمسان ⁦(١٢٧٢)⁩", en: "Siege of Tlemcen (1272)" }, at: [-1.315, 34.8783], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/tlemcen }

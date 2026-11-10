@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1514", precision: year, status: tradition, derived: true }
   end: { edtf: "1515", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [40.2367, 37.9108]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1514"
+  features:
+    - { type: point, role: event_point, label: { ar: "معارك ديار بكر ⁦(١٥١٤)⁩", en: "Battles for Diyarbakir (1514)" }, at: [40.2367, 37.9108], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 - { type: occurred_at, target: place/diyarbak-r }

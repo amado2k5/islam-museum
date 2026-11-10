@@ -15,6 +15,16 @@ sides:
   - label: { en: "Umayyad Caliphate", ar: "الدولة الأموية" }
     participants: [polity/umayyad-caliphate]
   - label: { en: "Türgesh", ar: "تورجش" }
+map:
+  kind: battle
+  precision: locality
+  center: [69.6319, 40.2794]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0724"
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم العطش", en: "Day of Thirst" }, at: [69.6319, 40.2794], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
 relations:
 - { type: occurred_at, target: place/khujand }
 sources: [source/tarikh-al-tabari, source/wikidata]

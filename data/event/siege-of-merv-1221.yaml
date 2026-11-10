@@ -16,6 +16,16 @@ sides:
     participants: [polity/mongol-empire]
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]
+map:
+  kind: siege
+  precision: locality
+  center: [61.8303, 37.5938]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1221"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مرو", en: "Siege of Merv" }, at: [61.8303, 37.5938], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: occurred_at, target: place/merv }
 sources: [source/kamil-ibn-al-athir, source/wikidata]

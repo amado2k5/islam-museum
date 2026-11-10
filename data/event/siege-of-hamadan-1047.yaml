@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1047", precision: year, status: tradition, derived: true }
   end: { edtf: "1047", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [48.516666666667, 34.8]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1047"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار همدان ⁦(١٠٤٧)⁩", en: "Siege of Hamadan (1047)" }, at: [48.516666666667, 34.8], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/hamadhan }
 sources: [source/tarikh-islam-hasan-ibrahim]

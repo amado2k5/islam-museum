@@ -11,6 +11,16 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1578", precision: year, status: tradition, derived: true }
   end: { edtf: "1578", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [48.6392, 40.6339]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1578"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة شاه أوغلو ⁦(١٥٧٨)⁩", en: "Shahoglu revolt (1578)" }, at: [48.6392, 40.6339], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/shamakhi }

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1495", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/serbian-despotate }
 sides:
   - label: { ar: "الدولة العثمانية", en: "The Ottoman Empire" }
   - label: { ar: "مملكة المجر", en: "The Kingdom of Hungary" }

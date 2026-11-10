@@ -9,6 +9,8 @@ wings: [time]
 date:
   start: { hijri: "0223", precision: year, status: debated, note: "ج9 ص57: 223هـ؛ وقيل 224هـ أو 222هـ في تاريخ الشخوص", sources: [source/tabari-tarikh-abu-al-fadl] }
 external_ids: { wikidata: "Q1669285" }
+relations:
+- { type: occurred_at, target: place/ammuriyya }
 sides:
   - label: { ar: "الجيش العباسي بقيادة المعتصم", en: "The Abbasid army under al-Mu'tasim" }
   - label: { ar: "البيزنطيون", en: "The Byzantines" }

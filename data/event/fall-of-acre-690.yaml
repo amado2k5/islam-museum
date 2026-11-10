@@ -16,6 +16,16 @@ provenance:
   run: lib-shadharat-batch-40
 external_ids:
   wikidata: Q325985
+map:
+  kind: campaign
+  precision: locality
+  center: [35.08, 32.93]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1291"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح عكا وإخراج الفرنج من الشام سنة 690هـ", en: "The conquest of Acre and the expulsion of the Franks from Syria, 690 AH" }, at: [35.08, 32.93], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/akka }

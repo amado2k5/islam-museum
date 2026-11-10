@@ -12,6 +12,8 @@ date:
   start: { edtf: "1918-05", precision: year, status: tradition, derived: true }
   end: { edtf: "1918-11", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/russia }
 external_ids:
   wikidata: Q124811443
 provenance:

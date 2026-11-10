@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "1619", precision: year, status: tradition, derived: true }
   end: { edtf: "1619", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [10.63699, 35.82539]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1619"
+  features:
+    - { type: point, role: event_point, label: { ar: "الهجوم على سوسة ⁦(١٦١٩)⁩", en: "Attack on Sousse (1619)" }, at: [10.63699, 35.82539], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/sousse }
 sources: [source/tarikh-islam-hasan-ibrahim]
