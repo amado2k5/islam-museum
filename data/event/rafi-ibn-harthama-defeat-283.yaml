@@ -19,6 +19,7 @@ date:
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/muhammad-ibn-zayd-al-alawi, role: "المخطوب له", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 283)، قراءة آبل فيجن"

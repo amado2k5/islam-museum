@@ -14,6 +14,8 @@ relations:
   - { type: had_participant, target: person/al-rashid-billah, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/masud-ibn-muhammad-saljuqi, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-muqtafi-billah, role: "الخليفة الجديد", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-rashid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 666–675"

@@ -16,6 +16,7 @@ relations:
   - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/duha-islam] }
   - { type: had_participant, target: person/harun-al-rashid, role: "المؤسس", sources: [source/duha-islam] }
   - { type: had_participant, target: person/yuhanna-ibn-masawayh, role: "المترجم", sources: [source/duha-islam] }
+  - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/duha-islam]
 provenance:
   layer: own-research
