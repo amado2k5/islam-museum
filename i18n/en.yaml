@@ -1565,6 +1565,14 @@ explore:
       title: "Asma ul Husna Browser"
       desc: "The ninety-nine names of God, each with its meaning and the stories the museum's records carry for it."
       menu: "Browse the ninety-nine names and their stories"
+    khulafa:
+      title: "The Caliphs Browser"
+      desc: "Every caliph grouped by his caliphate — Rashidun to Sokoto — with his reign, succession chain, the events his reign saw and the cited record."
+      menu: "Browse the caliphs and their reigns"
+    battles:
+      title: "Battles, Wars and Conquests Browser"
+      desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
+      menu: "Browse the ghazawat, battles and conquests"
     timemachine:
       title: Time Machine
       menu: Travel to any date, in both calendars
@@ -3268,6 +3276,27 @@ asma:
   order_label: "No. {n} in the enumeration"
   record_link: "The museum record for this name"
   enumeration_label: "Enumerations"
+khulafa:
+  title: "The Caliphs Browser"
+  lede: "The caliphs of Islam, grouped by the caliphate they ruled — Rashidun, Umayyad, Cordoba, Abbasid Baghdad and Cairo, Fatimid, Almohad, Ottoman and Sokoto — each with his reign, his place in the succession, the events his reign saw and the sources that say so."
+  badge: "In the making"
+  status: "Caliphs recorded in this build: {caliphs}. Every card's reign and chain is drawn from the museum's cited records and grows as the graph does."
+  note: "Claim lines — the Zubayrid, Hammudid and Sharifian counter-caliphates — are shown last and labelled as claims. The museum describes each accession as its sources do; it does not rule on legitimacy."
+  filter_label: "Filter by name"
+  filter_none: "No caliph matches this filter."
+  claim_label: "Rival claim"
+  reign_label: "Reign"
+  order_label: "no. {n} in the chain"
+  span_label: "{start}–{end} CE"
+  role_ruler: "Ruled the caliphate"
+  role_claimant: "Claimed the caliphate against the standing caliphate"
+  chain_label: "The succession"
+  prev_label: "Before"
+  next_label: "After"
+  sec_events: "Events of the reign"
+  sec_perspectives: "The positions on his accession"
+  record_link: "The museum record for this caliph"
+  present: "present"
 inventions:
   title: "Inventions Browser"
   lede: "Inventions and discoveries from Islamic civilization, each with the people who made it, what came before it, what was built on it, and the sources that say so."

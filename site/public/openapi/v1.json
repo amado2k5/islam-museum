@@ -361,6 +361,51 @@
         }
       }
     },
+    "/battles.json": {
+      "get": {
+        "operationId": "getBattles",
+        "summary": "Battles, Wars and Conquests Browser dataset",
+        "description": "Every military-kind event — battle, siege, conquest, war, campaign, raid, revolt, civil-war, skirmish, naval-battle, mutiny — with date, periods, sides, outcome, casualties, map and the derived ghazwa flag for prophetic-era expeditions",
+        "responses": {
+          "200": {
+            "description": "The military engagements with sides, outcome and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/khulafa.json": {
+      "get": {
+        "operationId": "getKhulafa",
+        "summary": "Khulafa Browser dataset",
+        "description": "Every caliph person record with roles and story_roles reigns",
+        "responses": {
+          "200": {
+            "description": "The caliphs with roles and reign story_roles",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/khulafa/chains.json": {
+      "get": {
+        "operationId": "getKhulafaChains",
+        "summary": "Khulafa Browser succession chains",
+        "description": "The ordered succession chain of each caliphate, computed from story_roles reigns",
+        "responses": {
+          "200": {
+            "description": "Per-polity ordered caliph chains",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/khutab.json": {
       "get": {
         "operationId": "getKhutab",
