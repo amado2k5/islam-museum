@@ -13,6 +13,8 @@ date:
   start: { edtf: "0940~", hijri: "0329", calendar: julian, precision: year, status: tradition, derived: true, note: "٣٢٩؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 608}." }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-radi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-muttaqi, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 329)، قراءة آبل فيجن"

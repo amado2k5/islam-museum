@@ -16,6 +16,7 @@ relations:
   - { type: occurred_at, target: place/jerusalem, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/gaza, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: building/al-aqsa-mosque, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"

@@ -12,6 +12,7 @@ date:
   start: { edtf: "0896-08~", hijri: "0283-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب ٢٨٣؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 163}." }
 relations:
   - { type: had_participant, target: person/al-mutadid, role: "الخليفة الآمر", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 283)، قراءة آبل فيجن"
