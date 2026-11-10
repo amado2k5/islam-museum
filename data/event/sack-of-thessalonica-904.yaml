@@ -13,6 +13,7 @@ date:
   end: { edtf: "0904", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/salonik }
 sides:
   - label: { ar: "قوات المكتفي بالله", en: "The forces of al-Muktafi bi-Allah" }
     participants: [person/al-muktafi-billah]

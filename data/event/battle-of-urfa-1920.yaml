@@ -13,6 +13,7 @@ date:
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/anl-urfa }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4821146

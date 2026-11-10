@@ -13,6 +13,7 @@ date:
   end: { edtf: "1107", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/upper-mesopotamia }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q140077696

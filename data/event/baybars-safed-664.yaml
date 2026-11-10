@@ -15,6 +15,7 @@ map: { kind: siege, precision: locality, center: [32.9648, 35.4953] }
 date: { start: { edtf: "1266-06~", hijri: "0664-08-08~", calendar: julian, precision: day, status: tradition, derived: true, note: "نزل على صفد في ثامن رمضان سنة أربع وستين وأخذت في أربعين يوماً {cite:shadharat-dhahab p. 546}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: had_participant, target: person/baybars, role: "الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/safad }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 664)، قراءة آبل فيجن"

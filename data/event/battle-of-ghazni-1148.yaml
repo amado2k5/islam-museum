@@ -16,6 +16,8 @@ sides:
     participants: [polity/ghaznavid-empire]
   - label: { en: "Ghurid dynasty", ar: "غوريون" }
     participants: [polity/ghurid-dynasty]
+relations:
+- { type: occurred_at, target: place/ghazna }
 sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q16207176

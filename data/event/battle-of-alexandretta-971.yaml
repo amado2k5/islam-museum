@@ -13,6 +13,7 @@ date:
   end: { edtf: "0971", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/i-skenderun }
 sides:
   - label: { en: "Fatimid Caliphate", ar: "الدولة الفاطمية" }
     participants: [polity/fatimid-caliphate]

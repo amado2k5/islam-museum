@@ -13,6 +13,7 @@ date:
   end: { edtf: "1718", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/ulcinj }
 sides:
   - label: { ar: "قوات أحمد الثالث", en: "The forces of Ahmed III" }
     participants: [person/ahmed-iii-uthmani]

@@ -13,6 +13,7 @@ date:
   end: { edtf: "0748", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/gorgan }
 sides:
   - label: { ar: "قوات الوالي الأموي", en: "The Umayyad governor's forces" }
     participants: [person/marwan-ibn-muhammad]

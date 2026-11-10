@@ -13,6 +13,7 @@ date:
   end: { edtf: "0683", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abdullah-ibn-al-zubayr, sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997] }
+- { type: occurred_at, target: place/mecca }
 sides:
   - label: { ar: "قوات عبد الله بن الزبير", en: "The forces of 'Abd Allah ibn al-Zubayr" }
     participants: [person/abdullah-ibn-al-zubayr]

@@ -16,6 +16,8 @@ sides:
     participants: [polity/kingdom-of-italy]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
+relations:
+- { type: occurred_at, target: place/misrata }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q16583508

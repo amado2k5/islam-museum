@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1087", precision: year, status: tradition, derived: true }
   end: { edtf: "1087", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/tudela }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18210269

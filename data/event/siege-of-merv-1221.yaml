@@ -16,6 +16,8 @@ sides:
     participants: [polity/mongol-empire]
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]
+relations:
+- { type: occurred_at, target: place/merv }
 sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q39081822

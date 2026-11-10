@@ -13,6 +13,7 @@ date:
   end: { edtf: "1446", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/edirne }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات المستكفي بالله الثاني سليمان بن المتوكل", en: "The authorities of al-Mustakfi bi'llah II Sulayman ibn al-Mutawakkil" }

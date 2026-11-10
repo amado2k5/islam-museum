@@ -13,6 +13,7 @@ date:
   end: { edtf: "1578", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/shamakhi }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات مراد الثالث", en: "The authorities of مراد الثالث" }

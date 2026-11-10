@@ -13,6 +13,7 @@ date:
   end: { edtf: "1109", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tripoli-al-sham }
 sides:
   - label: { ar: "قوات المستظهر بالله أحمد بن المقتدي", en: "The forces of al-Mustazhir bi'llah Ahmad ibn al-Muqtadi" }
     participants: [person/al-mustazhir-billah]

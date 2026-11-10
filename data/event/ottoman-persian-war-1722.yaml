@@ -13,6 +13,7 @@ date:
   end: { edtf: "1726", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/hamadhan }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2748377

@@ -16,6 +16,8 @@ sides:
     participants: [polity/kartid-dynasty]
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }
     participants: [polity/timurid-empire]
+relations:
+- { type: occurred_at, target: place/harat }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138870767

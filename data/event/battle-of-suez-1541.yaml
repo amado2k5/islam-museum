@@ -13,6 +13,7 @@ date:
   end: { edtf: "1541-04", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/suways }
 sides:
   - label: { ar: "الأسطول البرتغالي", en: "The Portuguese fleet" }
   - label: { ar: "حامية السويس العثمانية", en: "The Ottoman garrison of Suez" }

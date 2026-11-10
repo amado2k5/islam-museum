@@ -11,6 +11,8 @@ regions: [arabia]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1919", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/medina }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2089011

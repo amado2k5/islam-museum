@@ -13,6 +13,7 @@ date:
   end: { edtf: "1518", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/gwalior }
 sides:
   - label: { ar: "قوات سليم الأول", en: "The forces of Selim I Yavuz" }
     participants: [person/selim-i-uthmani]

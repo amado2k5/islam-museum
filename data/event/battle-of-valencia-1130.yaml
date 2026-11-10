@@ -16,6 +16,8 @@ sides:
     participants: [polity/almoravid-dynasty]
   - label: { en: "Kingdom of Aragon", ar: "مملكة أرغون" }
     participants: [polity/kingdom-of-aragon]
+relations:
+- { type: occurred_at, target: place/valencia }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q124048003

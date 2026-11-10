@@ -13,6 +13,7 @@ date:
   end: { edtf: "1968-02", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/sanaa }
 sides:
   - label: { ar: "قوات صديق أبو بكر الثالث", en: "The forces of Siddiq Abubakar III" }
     participants: [person/siddiq-abubakar-iii]

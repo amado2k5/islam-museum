@@ -13,6 +13,7 @@ date:
   end: { edtf: "1016-06", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/achir }
 sides:
   - label: { en: "Hammadid dynasty", ar: "بنو حماد" }
     participants: [polity/hammadid-dynasty]

@@ -13,6 +13,7 @@ date:
   end: { edtf: "2003-04-02", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammadu-maccido, sources: [source/wikidata] }
+- { type: occurred_at, target: place/hilla }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q18712789

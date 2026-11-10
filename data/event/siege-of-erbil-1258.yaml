@@ -13,6 +13,7 @@ date:
   end: { edtf: "1258", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustasim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/erbil }
 sides:
   - label: { ar: "قوات المستعصم بالله عبد الله بن المستنصر آخر خلفاء بغداد", en: "The forces of al-Musta'sim bi'llah Abdullah ibn al-Mustansir, last caliph of Baghdad" }
     participants: [person/al-mustasim-billah]

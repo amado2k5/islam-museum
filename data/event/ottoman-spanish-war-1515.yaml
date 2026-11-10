@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1515", precision: year, status: tradition, derived: true }
   end: { edtf: "1577", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/mediterranean-sea }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q118929718

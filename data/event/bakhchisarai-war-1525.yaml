@@ -13,6 +13,7 @@ date:
   end: { edtf: "1525", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/bakhchysarai }
 sides:
   - label: { en: "Crimean Khanate", ar: "خانية القرم" }
     participants: [polity/crimean-khanate]

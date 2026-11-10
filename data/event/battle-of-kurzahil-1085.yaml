@@ -13,6 +13,7 @@ date:
   end: { edtf: "1085", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/aleppo }
 sides:
   - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
     participants: [polity/rum-seljuk-sultanate]

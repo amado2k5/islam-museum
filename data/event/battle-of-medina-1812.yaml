@@ -11,6 +11,8 @@ regions: [arabia]
 date:
   start: { edtf: "1812", precision: year, status: tradition, derived: true }
   end: { edtf: "1812", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/medina }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3656325

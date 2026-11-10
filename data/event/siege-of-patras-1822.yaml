@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1822", precision: year, status: tradition, derived: true }
   end: { edtf: "1822", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/patras }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q52481422

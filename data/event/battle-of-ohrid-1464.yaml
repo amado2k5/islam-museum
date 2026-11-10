@@ -13,6 +13,7 @@ date:
   end: { edtf: "1464", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/ohrid }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3338499

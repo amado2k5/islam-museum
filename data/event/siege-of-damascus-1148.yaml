@@ -13,6 +13,7 @@ date:
   end: { edtf: "1148", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/damascus }
 sides:
   - label: { ar: "الحملة الصليبية الثانية بقيادة لويس السابع وكونراد", en: "The Second Crusade under Louis VII and Conrad III" }
   - label: { ar: "جيش دمشق بقيادة مجير الدين", en: "The Damascus army under Mujir al-Din" }

@@ -13,6 +13,7 @@ date:
   end: { edtf: "1921", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/gaziantep }
 sides:
   - label: { ar: "قوات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The forces of السلطان وحيد الدين ⁦(محمد السادس)⁩" }
     participants: [person/muhammad-vi-uthmani]

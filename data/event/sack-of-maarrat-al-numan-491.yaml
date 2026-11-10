@@ -13,6 +13,7 @@ date:
   end: { edtf: "1098", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/maarrat-al-numan }
 sides:
   - label: { ar: "الصليبيون", en: "The Crusaders" }
   - label: { ar: "أهل معرة النعمان", en: "The people of Ma'arrat al-Nu'man" }

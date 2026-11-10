@@ -13,6 +13,7 @@ date:
   end: { edtf: "0730", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/ardabil }
 sides:
   - label: { ar: "الجيش الأموي بقيادة الجراح", en: "The Umayyad army under al-Jarrah" }
     commanders: [person/al-jarrah-ibn-abdallah-al-hakami]

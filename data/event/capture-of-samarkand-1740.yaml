@@ -13,6 +13,7 @@ date:
   end: { edtf: "1740", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/samarqand }
 sides:
   - label: { ar: "جيش نادر شاه", en: "Nadir Shah's army" }
   - label: { ar: "إمارة بخارى", en: "The Emirate of Bukhara" }

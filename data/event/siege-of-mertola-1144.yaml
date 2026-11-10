@@ -16,6 +16,8 @@ sides:
     participants: [polity/almoravid-dynasty]
   - label: { en: "Taifa of Mértola", ar: "طائفة مارتلة" }
     participants: [polity/taifa-of-mertola]
+relations:
+- { type: occurred_at, target: place/martula }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q18004777

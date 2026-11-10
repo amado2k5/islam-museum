@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "2016-10-21", precision: year, status: tradition, derived: true }
   end: { edtf: "2016-10-24", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/kirkuk }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q27502384

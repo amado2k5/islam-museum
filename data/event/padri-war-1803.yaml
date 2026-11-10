@@ -11,6 +11,8 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1803", precision: year, status: tradition, derived: true }
   end: { edtf: "1837", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/sumatra }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2725993

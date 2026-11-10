@@ -13,6 +13,7 @@ date:
   end: { edtf: "1349", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/wahran }
 sides:
   - label: { ar: "قوات الحاكم بأمر الله الثاني أحمد بن المستكفي", en: "The forces of al-Hakim bi-Amr Allah II Ahmad ibn al-Mustakfi" }
     participants: [person/al-hakim-bi-amr-illah-ii]

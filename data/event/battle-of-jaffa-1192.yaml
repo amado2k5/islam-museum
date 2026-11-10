@@ -13,6 +13,7 @@ date:
   end: { edtf: "1192", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/yafa }
 sides:
   - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
     participants: [person/salah-al-din-yusuf-ibn-ayyub]

@@ -11,6 +11,8 @@ regions: [east-africa]
 date:
   start: { edtf: "1884", precision: year, status: tradition, derived: true }
   end: { edtf: "1884", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/sudan }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q604356

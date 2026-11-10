@@ -16,6 +16,8 @@ sides:
     participants: [polity/khwarazmian-empire]
   - label: { en: "Kingdom of Georgia", ar: "مملكة جورجيا" }
     participants: [polity/kingdom-of-georgia]
+relations:
+- { type: occurred_at, target: place/tiflis }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q116769199

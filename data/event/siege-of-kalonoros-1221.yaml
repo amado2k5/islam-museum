@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1221", precision: year, status: tradition, derived: true }
   end: { edtf: "1221", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/alanya }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q113549305

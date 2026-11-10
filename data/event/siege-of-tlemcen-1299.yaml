@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1299", precision: year, status: tradition, derived: true }
   end: { edtf: "1307", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/tlemcen }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q3486030

@@ -16,6 +16,8 @@ sides:
     participants: [place/byzantine-empire]
   - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
     participants: [polity/rum-seljuk-sultanate]
+relations:
+- { type: occurred_at, target: place/k-tahya }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q9173114

@@ -16,6 +16,8 @@ sides:
     participants: [place/egypt-eyalet]
   - label: { en: "Ethiopian Empire", ar: "الإمبراطورية الإثيوبية" }
     participants: [polity/ethiopian-empire]
+relations:
+- { type: occurred_at, target: place/sudan }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q105298180

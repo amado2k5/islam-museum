@@ -13,6 +13,7 @@ date:
   end: { edtf: "1187", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/nazareth }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q577190

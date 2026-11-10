@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1150", precision: year, status: tradition, derived: true }
   end: { edtf: "1150", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/minya-governorate }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q16531481

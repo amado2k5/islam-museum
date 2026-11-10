@@ -16,6 +16,8 @@ sides:
     participants: [person/uruj-barbarossa]
   - label: { en: "Hispanic Monarchy", ar: "الملكية الإسبانية ⁦(كيان سياسي)⁩" }
     participants: [polity/hispanic-monarchy]
+relations:
+- { type: occurred_at, target: place/bejaia }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q20106308

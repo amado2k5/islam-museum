@@ -16,6 +16,8 @@ sides:
     participants: [polity/khwarazmian-empire]
   - label: { en: "Seljuk Empire", ar: "الدولة السلجوقية" }
     participants: [polity/seljuk-empire]
+relations:
+- { type: occurred_at, target: place/ray }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q140378793

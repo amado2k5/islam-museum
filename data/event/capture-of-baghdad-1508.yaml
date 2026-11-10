@@ -16,6 +16,8 @@ sides:
     participants: [polity/safavid-iran]
   - label: { en: "Aq Qoyunlu", ar: "آق قويونلو" }
     participants: [place/aq-qoyunlu]
+relations:
+- { type: occurred_at, target: place/baghdad }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q12216247

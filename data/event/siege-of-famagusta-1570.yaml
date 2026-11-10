@@ -13,6 +13,7 @@ date:
   end: { edtf: "1571", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/famagusta }
 sides:
   - label: { ar: "قوات سليم الثاني", en: "The forces of Selim II" }
     participants: [person/selim-ii-uthmani]

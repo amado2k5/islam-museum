@@ -13,6 +13,7 @@ date:
   end: { edtf: "1932", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/husayn-ibn-ali-sharif-makkah, sources: [source/encyclopaedia-of-islam-2, source/wikidata] }
+- { type: occurred_at, target: place/arabian-peninsula }
 sources: [source/al-aalam]
 external_ids:
   wikidata: Q251600

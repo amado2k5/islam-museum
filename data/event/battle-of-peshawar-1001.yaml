@@ -16,6 +16,8 @@ sides:
     participants: [polity/ghaznavid-empire]
   - label: { en: "Hindu Shahis", ar: "سلاطين الهندوس" }
     participants: [polity/hindu-shahi]
+relations:
+- { type: occurred_at, target: place/peshawar }
 sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q4872019

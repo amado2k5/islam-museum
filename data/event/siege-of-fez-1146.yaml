@@ -13,6 +13,7 @@ date:
   end: { edtf: "1146", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-hafiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/fes }
 sides:
   - label: { ar: "قوات الحافظ لدين الله عبد المجيد بن محمد بن المستنصر", en: "The forces of al-Hafiz li-Din Allah Abd al-Majid ibn Muhammad ibn al-Mustansir" }
     participants: [person/al-hafiz-fatimid]

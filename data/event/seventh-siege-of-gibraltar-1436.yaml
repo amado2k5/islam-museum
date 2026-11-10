@@ -13,6 +13,7 @@ date:
   end: { edtf: "1436", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/gibraltar }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7457743

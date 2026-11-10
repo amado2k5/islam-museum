@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0842", precision: year, status: tradition, derived: true }
   end: { edtf: "0843", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/messina }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125565027

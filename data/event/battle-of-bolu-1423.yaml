@@ -13,6 +13,7 @@ date:
   end: { edtf: "1423", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/bolu }
 sides:
   - label: { en: "Candar dynasty", ar: "بنو جاندار" }
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }

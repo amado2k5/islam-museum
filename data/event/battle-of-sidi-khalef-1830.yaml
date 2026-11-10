@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1830-06-24", precision: year, status: tradition, derived: true }
   end: { edtf: "1830-06-24", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/algiers }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q2889972

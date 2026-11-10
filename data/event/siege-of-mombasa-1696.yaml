@@ -13,6 +13,7 @@ date:
   end: { edtf: "1698", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/manbasa }
 sides:
   - label: { ar: "قوات مصطفى الثاني", en: "The forces of مصطفى الثاني" }
     participants: [person/mustafa-ii-uthmani]

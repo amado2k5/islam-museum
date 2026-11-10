@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/al-faiz-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: during_reign, target: person/al-adid-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/al-mahdiyya }
 sides:
   - label: { ar: "قوات الفائز بنصر الله عيسى بن الظافر", en: "The forces of al-Fa'iz bi-Nasr Allah Isa ibn al-Zafir" }
     participants: [person/al-faiz-fatimid]

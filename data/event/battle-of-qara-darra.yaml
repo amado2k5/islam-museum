@@ -13,6 +13,7 @@ date:
   end: { edtf: "1336", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/erci }
 sides:
   - label: { ar: "الدولة الآق قويونلو", en: "The Aq Qoyunlu" }
   - label: { ar: "الدولة القره قويونلو", en: "The Qara Qoyunlu" }

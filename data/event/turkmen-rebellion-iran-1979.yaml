@@ -13,6 +13,7 @@ date:
   end: { edtf: "1979", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/golestan-province }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات صديق أبو بكر الثالث", en: "The authorities of Siddiq Abubakar III" }

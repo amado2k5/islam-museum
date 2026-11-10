@@ -13,6 +13,7 @@ date:
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/jerusalem }
 sides:
   - label: { ar: "الجيش البريطاني بقيادة ألنبي", en: "The British army under Allenby" }
   - label: { ar: "الجيش العثماني", en: "The Ottoman army" }

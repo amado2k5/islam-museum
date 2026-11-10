@@ -16,6 +16,8 @@ sides:
     participants: [person/baybars]
     commanders: [person/baybars]
   - label: { ar: "حامية حيفا الصليبية", en: "The Crusader garrison of Haifa" }
+relations:
+- { type: occurred_at, target: place/haifa }
 sources: [source/shadharat-dhahab]
 external_ids:
   wikidata: Q5432154

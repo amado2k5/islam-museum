@@ -11,6 +11,8 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1101-08", precision: year, status: tradition, derived: true }
   end: { edtf: "1102-05-05", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/valencia }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q131626390

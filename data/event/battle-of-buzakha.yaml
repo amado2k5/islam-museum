@@ -18,6 +18,7 @@ relations:
   - { type: had_participant, target: person/ukasha-ibn-mihsan, role: "مقدمة خالد، قتله هبال بن خويلد ثم طليحة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/thabit-ibn-aqram, role: "مقدمة خالد، قتل مع عكاشة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: occurred_at, target: place/hail }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 133–134"

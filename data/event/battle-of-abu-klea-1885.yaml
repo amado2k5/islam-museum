@@ -16,6 +16,8 @@ sides:
     participants: [polity/mahdist-sudan]
   - label: { en: "United Kingdom of Great Britain and Ireland", ar: "المملكة المتحدة لبريطانيا العظمى وأيرلندا" }
     participants: [polity/united-kingdom-great-britain-ireland]
+relations:
+- { type: occurred_at, target: place/khartoum }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q1288821

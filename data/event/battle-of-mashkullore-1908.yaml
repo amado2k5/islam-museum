@@ -13,6 +13,7 @@ date:
   end: { edtf: "1908", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/gjirokast-r }
 sides:
   - label: { en: "Albanians", ar: "ألبان" }
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }

@@ -16,6 +16,8 @@ sides:
     participants: [polity/safavid-iran]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]
+relations:
+- { type: occurred_at, target: place/tabriz }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q118928943

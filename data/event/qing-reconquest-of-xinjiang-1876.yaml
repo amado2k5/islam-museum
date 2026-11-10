@@ -11,6 +11,8 @@ regions: [china-east-asia]
 date:
   start: { edtf: "1876", precision: year, status: tradition, derived: true }
   end: { edtf: "1878", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/xinjiang }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q6140819

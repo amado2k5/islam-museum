@@ -13,6 +13,7 @@ date:
   end: { edtf: "1924", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/husayn-ibn-ali-sharif-makkah, sources: [source/encyclopaedia-of-islam-2, source/wikidata] }
+- { type: occurred_at, target: place/mecca }
 sides:
   - label: { ar: "قوات الحسين بن علي شريف مكة", en: "The forces of Husayn ibn Ali (Sharif of Mecca)" }
     participants: [person/husayn-ibn-ali-sharif-makkah]

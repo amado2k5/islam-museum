@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0626", precision: year, status: tradition, derived: true }
   end: { edtf: "0626", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: place/constantinople }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q312268

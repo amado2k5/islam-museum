@@ -16,6 +16,8 @@ sides:
     participants: [polity/almoravid-dynasty]
   - label: { en: "Taifa of Murcia", ar: "طائفة مرسية" }
     participants: [polity/taifa-of-murcia]
+relations:
+- { type: occurred_at, target: place/uriyula }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q31075375

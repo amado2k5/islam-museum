@@ -16,6 +16,8 @@ sides:
     participants: [polity/mongol-empire]
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]
+relations:
+- { type: occurred_at, target: place/jand }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q135326004
