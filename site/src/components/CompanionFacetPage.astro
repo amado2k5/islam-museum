@@ -1,0 +1,31 @@
+---
+// One facet page of the Companions Browser (a group, an event, a Hijri decade or the women Companions): a heading, a
+// note, an optional link to the facet's own record, and the filterable list.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CompanionList from "./CompanionList.astro";
+import { ui, fmt, type Lang } from "../lib/i18n";
+import { href } from "../lib/graph";
+import { num } from "../lib/nav";
+
+interface Props { lang: Lang; title: string; note: string; path: string; ids: string[]; record?: string }
+const { lang, title, note, path, ids, record } = Astro.props as Props;
+const T = ui(lang);
+const C = T.companions;
+---
+<BaseLayout lang={lang} title={`${title} · ${C.title}`} description={note} path={path}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/companions/`}>{C.title}</a> › {title}</nav>
+    <div data-pagefind-body>
+      <h1>{title}</h1>
+      <p style="font-size:1.1rem;max-width:var(--measure)">{note}</p>
+    </div>
+    <p class="ui" style="display:flex;flex-wrap:wrap;gap:12px;margin:0 0 1rem">
+      <span class="chip">{fmt(C.count, { n: num(ids.length, lang) })}</span>
+      {record && <a href={href(lang, record)}>{C.record_link}</a>}
+      <a href={`/${lang}/companions/`}>{C.back}</a>
+    </p>
+    <CompanionList lang={lang} ids={ids} filter={ids.length > 12} />
+    <p class="ui muted">{C.derived_mark}</p>
+  </div>
+  <script src="../scripts/companions-filter.ts"></script>
+</BaseLayout>

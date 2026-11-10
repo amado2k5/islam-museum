@@ -1,0 +1,98 @@
+---
+// The Companions Browser's home: the Ten, the circles, the women Companions, the clans, the events, the deaths by Hijri
+// decade and the A-to-Z list of every Companion record. Counts are read from the graph at build time and appear on
+// this page only; no shared layout carries a number (docs/site/README.md).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import CompanionList from "../../../components/CompanionList.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { companions, companionNodes, hasArticle, clanFacets, eventFacets, decadeFacets, groupMembers, decadeLabel, collatedBy, CIRCLES, TEN_TRAIL, TEN_CONCEPT } from "../../../lib/companions";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.companions;
+const count = (n: number) => num(n, lang);
+const label = (id: string) => labelOf(byId.get(id)!, lang);
+const status = fmt(C.status, { n: count(companions.ids.length), women: count(companions.women.length), articles: count(companionNodes.filter(hasArticle).length) });
+const everyone = [...companions.ids].sort(collatedBy(lang));
+const circles = CIRCLES.filter((c) => byId.has(c));
+const base = `/${lang}/companions`;
+const facet = (path: string, id: string, n: number, text = label(id)) => ({ path, text, n });
+---
+<BaseLayout lang={lang} title={C.title} description={C.lede} path={`${base}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {C.title}</nav>
+    <div data-pagefind-body>
+      <h1>{C.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{C.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+    </div>
+
+    {companions.ten.length > 0 && (
+      <section aria-labelledby="ten-title" style="margin-top:2rem">
+        <h2 id="ten-title">{C.ten_title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{C.ten_note}</p>
+        <ul class="ui chips" role="list">
+          {companions.ten.map((id) => <li><a class="chip" href={href(lang, id)}>{label(id)}</a></li>)}
+        </ul>
+        <p class="ui" style="display:flex;flex-wrap:wrap;gap:12px">
+          {byId.has(TEN_TRAIL) && <a href={href(lang, TEN_TRAIL)}>{C.ten_trail}</a>}
+          {byId.has(TEN_CONCEPT) && <a href={href(lang, TEN_CONCEPT)}>{C.ten_concept}</a>}
+        </p>
+      </section>
+    )}
+
+    <section aria-labelledby="circles-title" style="margin-top:2rem">
+      <h2 id="circles-title">{C.circles_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{C.circles_note}</p>
+      <ul class="grid-cards" role="list" style="margin:1rem 0 2rem">
+        {[...circles.map((id) => facet(`${base}/group/${byId.get(id)!.slug}/`, id, groupMembers(id).length)), { path: `${base}/women/`, text: C.women_title, n: companions.women.length }].map((f) => (
+          <li>
+            <a class="card" href={f.path} style="display:block;text-decoration:none">
+              <h3 class="card-title">{f.text}</h3>
+              <p class="ui muted" style="margin:4px 0 0">{fmt(C.count, { n: count(f.n) })}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="clans-title" style="margin-top:2rem">
+      <h2 id="clans-title">{C.clans_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{C.clans_note}</p>
+      <ul class="ui chips" role="list">
+        {clanFacets.map((id) => <li><a class="chip" href={`${base}/group/${byId.get(id)!.slug}/`}>{label(id)} · {count(groupMembers(id).length)}</a></li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="events-title" style="margin-top:2rem">
+      <h2 id="events-title">{C.events_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{C.events_note}</p>
+      <ul class="ui chips" role="list">
+        {eventFacets.map((id) => <li><a class="chip" href={`${base}/event/${byId.get(id)!.slug}/`}>{label(id)} · {count(companions.events.get(id)!.length)}</a></li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="decades-title" style="margin-top:2rem">
+      <h2 id="decades-title">{C.decades_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{C.decades_note}</p>
+      <ul class="ui chips" role="list">
+        {decadeFacets.map((k) => <li><a class="chip" href={`${base}/decade/${k}/`}>{decadeLabel(k, lang)} · {count(companions.decades.get(k)!.length)}</a></li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="az-title" style="margin-top:2rem">
+      <h2 id="az-title">{C.az_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{C.az_note}</p>
+      <CompanionList lang={lang} ids={everyone} filter id="companions-az" />
+      <p class="ui muted">{C.derived_mark}</p>
+    </section>
+  </div>
+  <script src="../../../scripts/companions-filter.ts"></script>
+</BaseLayout>
+<style>
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 1rem 0; list-style: none; }
+  .chips .chip { background: var(--bg); }
+</style>

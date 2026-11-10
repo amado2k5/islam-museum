@@ -21,6 +21,7 @@ export const GET: APIRoute = () => {
     `- [Coverage](${SITE}/api/v1/meta/coverage.json)`,
     `- [Graph nodes](${SITE}/api/v1/graph/nodes.ndjson)`,
     `- [Graph edges](${SITE}/api/v1/graph/edges.ndjson)`,
+    `- [Companions dataset](${SITE}/api/v1/companions.json) — every Companion record with the Ten flag, circles, clans, events, Hijri death year and decade, connections and prose languages`,
     `- [Inventions dataset](${SITE}/api/v1/inventions.json) — inventions with domain and era filters, makers, attribution, origins, chains and media`,
     `- [Invention chains](${SITE}/api/v1/inventions/chains.json) — internal and external precursor/dependent links`,
     `- [Invention class index](${SITE}/api/v1/invention/index.json)`,
