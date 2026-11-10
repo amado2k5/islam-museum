@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/ibn-al-tiqtaqa, role: "المؤلف", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/fakhr-al-din-isa-ibn-ibrahim, role: "المُهداة إليه", sources: [source/encyclopaedia-of-islam-2] }
   - { type: occurred_at, target: place/mosul, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

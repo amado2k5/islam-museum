@@ -1,0 +1,61 @@
+---
+// One page per era that holds military events (docs/plan/31-battles-browser.md): the era's label
+// comes from its period record; the list is chronological, same card shape as the kind pages.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { labelOf, href } from "../../../../lib/graph";
+import { num } from "../../../../lib/nav";
+import { formatDate, startOf } from "../../../../lib/dates";
+import { byPeriod, battlePeriods, placeOf, commandersOf, parentOf, isGhazwa } from "../../../../lib/battles";
+import type { Node } from "../../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => battlePeriods.map((p) => ({ params: { lang, period: p.slug }, props: { lang, period: p } })));
+}
+const { lang, period } = Astro.props as { lang: Lang; period: Node };
+const T = ui(lang);
+const B = T.battles;
+const nodes: Node[] = byPeriod.get(period.id) ?? [];
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const eraLabel = label(period);
+const dateOf = (n: Node) => formatDate(startOf(n.data), lang).text;
+const searchText = (n: Node) => [n.label.ar, n.label.en, n.label.ur].filter(Boolean).join(" ");
+const tagOf = (n: Node) => (n.periods.includes("period/prophetic-era") ? (isGhazwa(n) ? B.ghazwa_tag : B.sariya_tag) : null);
+---
+<BaseLayout lang={lang} title={`${eraLabel} — ${B.title}`} description={B.lede} path={`/${lang}/battles/era/${period.slug}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/battles/`}>{B.title}</a> › {eraLabel}</nav>
+    <div data-pagefind-body>
+      <h1>{eraLabel}</h1>
+      {period.summary?.[lang] && <p style="max-width:var(--measure)">{period.summary[lang]}</p>}
+      <p class="panel ui" style="max-width:var(--measure)">{fmt(B.count_records, { n: num(nodes.length, lang) })}</p>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="battles-filter">{B.filter_label}</label>
+        <input id="battles-filter" type="search" data-battles-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+    </div>
+    <ol class="grid-cards" role="list" data-pagefind-ignore style="list-style:none;padding:0;margin:0">
+      {nodes.map((n) => {
+        const place = placeOf(n.id);
+        const cmd = commandersOf(n).slice(0, 2);
+        const parent = parentOf(n);
+        const tag = tagOf(n);
+        const outcome = n.data.outcome?.[lang] ?? n.data.outcome?.en;
+        return (
+          <li data-battles-item data-search={searchText(n)}>
+            <a class="card" href={href(lang, n.id)} style="display:block;height:100%;text-decoration:none">
+              <span class="ui muted" style="font-size:.8rem">{dateOf(n)}{tag ? ` · ${tag}` : ""} · {B.kinds[n.data.kind] ?? n.data.kind}</span>
+              <h3 class="card-title" style="margin:.15rem 0">{label(n)}</h3>
+              {cmd.length > 0 && <p class="ui" style="margin:0;font-size:.85rem">{B.f_commanders}: {cmd.map((c) => label(c)).join(" · ")}</p>}
+              {place && <p class="ui muted" style="margin:0;font-size:.85rem">{B.f_place}: {label(place)}</p>}
+              {outcome && <p class="ui muted" style="margin:0;font-size:.85rem">{B.f_outcome}: {outcome}</p>}
+              {parent && <p class="ui muted" style="margin:0;font-size:.85rem">{B.f_partof}: {label(parent)}</p>}
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+    <p class="panel ui" data-battles-empty hidden>{B.filter_none}</p>
+  </div>
+  <script src="../../../../scripts/battles-filter.ts"></script>
+</BaseLayout>

@@ -14,10 +14,14 @@ regions: [maghreb]
 died: { edtf: "1266~", hijri: "0665~", calendar: julian, precision: year, status: tradition, derived: true, note: "ربيع الآخر 665هـ قتلاً بكتامة {cite:wafayat-ayan p. 15-16}", sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
-  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان ⁦(حرف الياء)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-3
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan], confidence: low }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1248", calendar: julian, precision: year }, end: { edtf: "1266", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

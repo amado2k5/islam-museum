@@ -13,14 +13,21 @@ date:
 relations:
   - { type: part_of, target: event/conquest-of-syria }
   - { type: occurred_at, target: place/marj-al-suffar }
-  - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "استشهد فيها وفي عنقه الصمصامة", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/umm-hakim-bint-al-harith, role: "عروسه؛ قاتلت بعمود الفسطاط فقتلت سبعة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/khalid-ibn-said-ibn-al-as, role: "استشهد فيها وفي عنقه الصمصامة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/umm-hakim-bint-al-harith, role: "عروسه؛ قاتلت بعمود الفسطاط فقتلت سبعة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/heraclius, role: "أمدّ الروم بمدد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 162–165"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8
 external_ids: { wikidata: "Q2732255" }
+sides:
+  - label: { ar: "جيش خالد بن سعيد", en: "Khalid ibn Sa'id's army" }
+    participants: [person/umm-hakim-bint-al-harith]
+    commanders: [person/khalid-ibn-said-ibn-al-as]
+  - label: { ar: "الروم", en: "The Byzantines" }
+    participants: [person/heraclius]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

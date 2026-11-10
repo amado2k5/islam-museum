@@ -1,0 +1,22 @@
+id: passage/muslim-2937
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2937"
+label:
+  ar: "مسلم 2937 — أوحى الله إلى عيسى: حرز عبادي إلى الطور"
+  en: "Muslim 2937 — God revealed to Isa: take My servants to safety on the Mount"
+  ur: "مسلم 2937 — اللہ نے عیسیٰ کی طرف وحی کی: میرے بندوں کو طور کی پناہ میں لے جاؤ"
+text: "ما شأنكم . قلنا يا رسول الله ذكرت الدجال غداة فخفضت فيه ورفعت حتى ظنناه في طائفة النخل . فقال غير الدجال أخوفني عليكم إن يخرج وأنا فيكم فأنا حجيجه دونكم وإن يخرج ولست فيكم فامرؤ حجيج نفسه والله خليفتي …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2937: أوحى الله إلى عيسى: حرز عبادي إلى الطور. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2937: God revealed to Isa: take My servants to safety on the Mount. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2937: اللہ نے عیسیٰ کی طرف وحی کی: میرے بندوں کو طور کی پناہ میں لے جاؤ۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-isa-wa-yajuj-wa-majuj]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7373; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

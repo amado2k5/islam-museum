@@ -17,6 +17,7 @@ relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخطيب", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/saqifa }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل كانت في القرآن آية للرجم تُركت تلاوتها؟ وماذا تعني خطبة عمر في الشورى والبيعة؟", en: "Was there a verse on stoning in the Qur'an whose recitation was dropped? And what does Umar's sermon say about consultation and the pledge?" }
 perspectives:
   - tradition: sunni

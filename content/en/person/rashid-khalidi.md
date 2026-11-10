@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Rashid Khalidi (born 18 November 1948) is a Palestinian-American historian, born in New York City, a son of Ismail Khalidi, a Palestinian who worked for the United Nations.{cite:wikipedia-rashid-khalidi-en} He read at Yale (BA 1970) and Oxford (DPhil 1974), taught at the American University of Beirut, the University of Chicago and Georgetown, and in 2003 became the Edward Said Professor of Modern Arab Studies at Columbia University, retiring in October 2024.{cite:wikipedia-rashid-khalidi-en}{cite:wikidata-rashid-khalidi}
 

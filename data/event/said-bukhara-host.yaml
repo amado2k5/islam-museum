@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/rufay-abu-al-aliya, role: "ممن عبر معه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/bukhara }
 wings: [time]
+sides:
+  - label: { ar: "جيش سعيد بن عثمان بن عفان", en: "Sa'id ibn Uthman ibn Affan's army" }
+    commanders: [person/said-ibn-uthman, person/khatun-of-bukhara]
+  - label: { ar: "بخارى", en: "Bukhara" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

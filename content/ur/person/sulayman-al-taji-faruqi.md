@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 سلیمان التاجی الفاروقی (1882–1958) رملہ سے تعلق رکھنے والے فلسطینی شاعر، سیاست دان اور وکیل تھے، جنہیں «معریِ فلسطین» کہا جاتا تھا۔{cite:wikipedia-sulayman-al-taji-faruqi-ar}{cite:wikidata-sulayman-al-taji-faruqi} وہ نو برس کی عمر میں بینائی سے محروم ہو گئے؛ والد نے انہیں الازہر بھیجا جہاں انہوں نے محمد عبدہ کے زیرِ تعلیم نو سال گزارے، پھر 1909ء میں استنبول سے قانون کی ڈگری اور 1919ء میں مصر سے ڈاکٹریٹ حاصل کی۔{cite:wikipedia-sulayman-al-taji-faruqi-ar}{cite:wikipedia-sulayman-al-taji-faruqi-en}
 

@@ -11,6 +11,11 @@ regions: [maghreb]
 date:
   start: { edtf: "1014", precision: year, status: tradition, derived: true }
   end: { edtf: "1018", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الدولة الحمادية", en: "The Hammadid state" }
+  - label: { ar: "الدولة الزيرية", en: "The Zirid state" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q127867977

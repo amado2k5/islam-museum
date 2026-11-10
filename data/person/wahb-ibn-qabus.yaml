@@ -6,17 +6,18 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لوهب بن قابوس، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Wahb ibn Qabus, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي مزني؛ قدم من جبل مزينة هو وابن أخيه الحارث بن عقبة بغنم لهما فأسلما ثم خرجا إلى أحد فقاتلا قتالاً شديداً حتى قتلا بها."
+  en: "A Muzani Companion; he and his nephew al-Harith ibn Uqqba came from the Muzayna hills with their booty, embraced Islam, then rode out to Uhud and fought fiercely until both were killed."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba; al-Isaba" }
+sources: [source/al-aalam, source/isti-ab-ibn-abd-al-barr]
+died: { edtf: "0625", hijri: "0003", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Uhud the day he embraced Islam (al-Istiab p. 749); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion of the Prophet (regions: arabia).", sources: [source/al-aalam] }
   - { type: died_in, target: place/uhud, confidence: low, note: "Companion martyred at Uhud per the sahaba accounts.", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Istiab p. 749", sources: [source/isti-ab-ibn-abd-al-barr] }
 external_ids:
   wikidata: Q12251331
 provenance:

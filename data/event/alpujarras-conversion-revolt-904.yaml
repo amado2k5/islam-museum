@@ -13,6 +13,7 @@ date:
   start: { edtf: "1499", hijri: "0904", calendar: julian, precision: year, status: tradition, derived: true, note: "904؛ التحويل مشتق {cite:nafh-tib-maqqari p. 527}." }
 relations:
   - { type: occurred_at, target: place/granada, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 527–528"

@@ -3,7 +3,7 @@ class: person
 label:
   ar: "عبد الرحمن الخامس المستظهر بالله"
   en: "Abd al-Rahman V al-Mustazhir"
-roles: [ruler]
+roles: [ruler, caliph]
 gender: male
 summary:
   ar: "بطاقة أولية لعبد الرحمن الخامس المستظهر بالله، الخليفة الأموي في قرطبة سنة ١٠٢٣–١٠٢٤م في فتنة الأندلس؛ تذكره مصادر تاريخ الأندلس ولم تُراجع ترجمته على الصفحة بعد."
@@ -26,4 +26,8 @@ status:
 born: { edtf: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba" }
 died: { edtf: "1024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba" }
 relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari] }
+  - { type: successor_of, target: person/abd-al-rahman-iv-al-murtada, sources: [source/bayan-mughrib-idhari] }
   - { type: ruler_of, target: place/cordoba, note: "From text: caliph of Cordoba", sources: [source/nafh-tib-maqqari] }
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "1023", calendar: julian, precision: year }, end: { edtf: "1024", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari] }

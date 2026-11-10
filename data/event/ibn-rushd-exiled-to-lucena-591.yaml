@@ -14,6 +14,7 @@ date:
   end: { edtf: "1195", hijri: "0591", precision: year, status: historical, derived: true }
 relations:
   - { type: occurred_at, target: place/lucena, sources: [source/britannica-averroes] }
+  - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/britannica-averroes]
 provenance:
   layer: own-research

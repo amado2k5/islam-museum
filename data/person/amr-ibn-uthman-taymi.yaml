@@ -17,20 +17,24 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص7)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
-died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib" }
+died: { edtf: "0636", hijri: "0015", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Qadisiyya, 15 AH, without issue (al-Baladhuri, al-Isaba p. 1117); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: traveled_to, target: place/abyssinia, note: "From text: هاجر إلى الحبشة وقُتل بالقادسية مع سعد ", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tahm, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/al-qadisiyya, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/quraysh, note: "Taymi Qurashi (al-Isaba p. 1117)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/muhajirun, note: "Ibn Ishaq names him among the Abyssinia emigrants (al-Isaba p. 1117)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-al-qadisiyya, note: "al-Isaba p. 1117", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch117
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3

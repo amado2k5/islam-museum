@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Muhammad A. S. Abdel Haleem is an Egyptian scholar of the Qur'an whose English translation, published by Oxford University Press in 2004, is read around the world. He was born in the village of al-Isdiyya in the Abu Hammad district of Egypt's Sharqia province; the sources disagree on his birth year — Wikidata, drawing on the international authority file, gives 1930, while the current English biography gives 1933, and the Arabic biography only the 1930s — and his record follows 1930 with the debate noted{cite:wikidata-abdel-haleem}{cite:wikipedia-abdel-haleem-en}{cite:wikipedia-abdel-haleem-ar}. He memorised the Qur'an as a child at the village kuttab, studied at the Al-Azhar institute in Zagazig and at Dar al-Ulum, Cairo University, where he came first in his class and was appointed a teaching assistant, and then took a scholarship to Cambridge, where he completed his doctorate{cite:wikipedia-abdel-haleem-ar}.
 

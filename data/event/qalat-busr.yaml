@@ -14,10 +14,15 @@ relations:
   - { type: occurred_at, target: place/qalat-busr }
   - { type: had_participant, target: person/busr-ibn-abi-artat, role: "الفاتح المسمّاة له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uqba-ibn-nafi, role: "الموجّه — وقيل موسى بن نصير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/muawiya-ibn-abi-sufyan, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-21
+sides:
+  - label: { ar: "جيش بسر بن أبي أرطاة", en: "بسر بن أبي أرطاة's army" }
+    commanders: [person/busr-ibn-abi-artat]
+  - label: { ar: "قلعة بسر", en: "Qal'at Busr" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Shaykh Saad Bouh was born in 1285 AH / 1848 CE in the eastern Hawd of Bilad Shinqit (Mauritania), the thirty-first son of Shaykh Muhammad Fadil ibn Mamin, founder of the Fadiliyya, and was formed in fiqh and Sufism by his father and his brothers.{cite:wikipedia-saad-bouh-ar}{cite:wikipedia-saad-bouh-fr} At eighteen his father sent him south-west into the Trarza to spread the Fadiliyya; he made his base first at Touizikt, where he built a casbah and a teaching centre, and from 1909 at Nimjat, north of Rosso. He consecrated hundreds of sheikhs licensed to give the order's wird across West Africa — 664 in Talibouya Niang's count — was recognised by 1888 as the Fadiliyya's sole representative in Senegal, and his influence reached Futa, Cayor, Baol, Djolof, the Gambia and Casamance.{cite:wikipedia-saad-bouh-fr}{cite:wikipedia-saad-buh-en}
 

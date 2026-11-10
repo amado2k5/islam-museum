@@ -13,6 +13,8 @@ date:
 relations:
   - { type: had_participant, target: person/marwan-ibn-al-hakam, role: "المتغلب على الشام ومصر", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "المعهود إليه", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/muawiya-ibn-yazid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/marwan-ibn-al-hakam, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 349"

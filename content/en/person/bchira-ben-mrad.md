@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Bchira Ben Mrad (1913–1993) was a Tunisian feminist and nationalist activist, born into an old Tunis family of religious scholars of Ottoman origin.{cite:wikipedia-bchira-ben-mrad-en}{cite:wikipedia-bchira-ben-mrad-fr} She was the daughter of Mohamed Salah Ben Mrad, shaykh al-Islam of Tunisia, and the granddaughter of the mufti Hmida Ben Mrad; her mother Sallouha was a daughter of another shaykh al-Islam, Mahmoud Belkhodja.{cite:wikipedia-bchira-ben-mrad-en}{cite:wikipedia-bchira-ben-mrad-fr} Her father had her and her sisters given a traditional education with home tutoring, and the Arabic biography adds that she was taught by Zaytuna shaykhs, among them her grandfather and Mohamed Manachou, memorised part of the Quran and learned Arabic and much poetry, which equipped her for journalism and public speaking.{cite:wikipedia-bchira-ben-mrad-ar} She married — the English and French biographies name her husband Ahmed Zahar, while the Arabic biography names Sheikh Saleh al-Zahhar, married in 1929 and died in 1952, who encouraged her national and women's work.{cite:wikipedia-bchira-ben-mrad-en}{cite:wikipedia-bchira-ben-mrad-ar}
 

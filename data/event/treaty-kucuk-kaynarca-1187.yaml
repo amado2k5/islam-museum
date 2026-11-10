@@ -12,6 +12,8 @@ date:
   start: { edtf: "1774", hijri: "1187", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
 relations:
   - { type: had_participant, target: person/abd-al-hamid-i-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: during_reign, target: person/abd-al-hamid-i-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 317-318"

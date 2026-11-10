@@ -18,6 +18,8 @@ relations:
   - { type: occurred_at, target: place/barqa, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/abu-rakwa, role: "الخارج المتلبس بإمارة ولد هشام", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "أرسل جيش الفضل بن عبد الله عليه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 397)، قراءة آبل فيجن"

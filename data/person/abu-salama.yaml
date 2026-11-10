@@ -23,14 +23,16 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0625", hijri: "0004", calendar: julian, precision: year, status: debated, derived: true, note: "His Uhud wound reopened after the expedition to Banu Asad and he died in Jumada al-Akhira 4 AH (Ibn Sa'd and the majority); Ibn Abd al-Barr places it in Jumada al-Akhira 3 AH, and the first is sounder (al-Isaba p. 904); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi], confidence: low }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 904", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "wounded at Uhud (al-Isaba p. 904)", sources: [source/ibn-hajar-isaba] }
 external_ids: { wikidata: "Q335355" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr, source/mukhtasar-sirat-al-rasul-al-najdi, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
 provenance:
   layer: own-research

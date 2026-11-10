@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/uzra-ibn-qays, role: "العاجز قبله", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/shahrazur }
 wings: [time]
+sides:
+  - label: { ar: "جيش عتبة بن فرقد السلمي", en: "Utba ibn Farqad al-Sulami's army" }
+    commanders: [person/utba-ibn-farqad]
+  - label: { ar: "شهرزور", en: "Shahrazur" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -11,6 +11,8 @@ regions: [maghreb]
 date:
   start: { edtf: "1954", precision: year, status: tradition, derived: true }
   end: { edtf: "1954", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125745017

@@ -17,14 +17,18 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb, andalus-europe]
 died: { edtf: "1184~", hijri: "0580", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في شهر ربيع الأول سنة ٥٨٠هـ محاصراً شنترين {cite:wafayat-ayan p. 132}؛ التحويل مشتق." }
 relations:
+  - { type: ruled_over, target: polity/almohad-caliphate, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/maghreb, note: "From text: of the Maghreb", sources: [source/nafh-tib-maqqari, source/wafayat-ayan, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: child_of, target: person/abd-al-mumin-ibn-ali, sources: [source/wafayat-ayan] }
 provenance:
   layer: own-research
-  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 383"
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري ⁦(ط إحسان عباس)⁩ ص 383"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-60
 external_ids:
   wikidata: Q335489
 sources: [source/nafh-tib-maqqari, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 enrichment ei2-b003 part 3ah" }
+story_roles:
+  - { role: ruler, toward: polity/almohad-caliphate, start: { edtf: "1163", calendar: julian, precision: year }, end: { edtf: "1184", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }

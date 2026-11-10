@@ -18,10 +18,16 @@ relations:
   - { type: had_participant, target: person/isha-ibn-ismail-ibn-shuayb, role: "المقتول صبراً بجرزان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/musa-ibn-zurara, role: "الآخَذ بذليس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mutawakkil, role: "الخليفة المولّي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 297"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-18
+sides:
+  - label: { ar: "جيش بُغا مولى المعتصم ⁦(بُغا الكبير)⁩", en: "Bugha, mawla of al-Mu'tasim (Bugha the Elder)'s army" }
+    commanders: [person/bugha-al-kabir, person/al-mutawakkil]
+  - label: { ar: "إسحاق بن إسماعيل بن شعيب", en: "Ishaq ibn Isma'il ibn Shu'ayb" }
+    participants: [person/isha-ibn-ismail-ibn-shuayb]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

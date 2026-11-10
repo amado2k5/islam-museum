@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 status: draft
 ---
+## موجز
 
 الوطن في اللغة منزل الإقامة أو مكان الإنسان ومقره، ويُقال لمربض الغنم والبقر والإبل وطن، وجمعه أوطان، وأوطن أقام، واستوطنه اتخذه وطناً. وفي الاصطلاح هو منزل إقامة الإنسان ومقره، ولد به أو لم يولد. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17527} والمحلّة منزل قوم الإنسان، وهي أخص من الوطن. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17527}{cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17528}
 

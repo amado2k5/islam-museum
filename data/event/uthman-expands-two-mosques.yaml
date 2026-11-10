@@ -15,5 +15,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 268–269"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-4
+relations:
+- { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

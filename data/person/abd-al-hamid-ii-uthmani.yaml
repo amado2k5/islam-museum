@@ -4,7 +4,7 @@ label: { ar: "عبد الحميد الثاني", en: "Abd al-Hamid II" }
 names:
   - { kind: full, lang: ar, value: "عبد الحميد الثاني بن عبد المجيد الأول" }
 gender: male
-roles: [ruler]
+roles: [ruler, caliph]
 summary:
   ar: "السلطان عبد الحميد الثاني ⁦(١٢٩٣–١٣٢٧هـ/١٨٧٦–١٩٠٩م)⁩؛ تولى بعد خلع أخيه مراد الخامس، فظل يتمتع بالسلطة التي تمتع بها أسلافه إذ كان الدستور مرتهناً بشخصه: له وحده حق تعيين الوزراء وإقالتهم وعقد المعاهدات وإعلان الحرب والصلح وإصدار القوانين دون الرجوع إلى البرلمان. انتهج سياسة التودد إلى الشخصيات ذات النفوذ، فجعل مجلس المشايخ ورتّب رواتب أعضائه، وتودد إلى دعاة الجامعة الإسلامية كمصطفى كامل في مصر ونامق كمال، وأنشأ مدرسة العشائر العربية لأبناء زعماء العرب ثم توسعت فأخذت من أبناء الأكراد والألبان، وحرص على الاتصال بزعماء القبائل بالرسائل والرسل لتقوية روابط الأخوة الإسلامية، وكان على معرفة تامة بعمل الإنجليز الذين اتصلوا بشريف مكة والشيخ حميد الدين في اليمن وشيخ عسير لتحريضهم على الخلافة {cite:dawlat-uthmaniyya-salabi p. 397-434}."
   en: "Abd al-Hamid II (r. 1293–1327/1876–1909) — ruled under a constitution hostage to his person: ministers, treaties, war and law all his alone. His pan-Islamic counterweight: the Shaykhs' Council, the Arab Tribal School for sons of chiefs, and correspondence with the Arab amirs — against British approaches to the Sharif of Mecca and the imams of Yemen and Asir {cite:dawlat-uthmaniyya-salabi p. 397-434}."
@@ -14,6 +14,7 @@ regions: [anatolia-balkans]
 born: { edtf: "1842", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('II. Abdülhamid')" }
 died: { edtf: "1918", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('II. Abdülhamid')" }
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/murad-v-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -22,10 +23,12 @@ external_ids:
 sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
 provenance:
   layer: own-research
-  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 397-434"
+  source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 397-434"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch112
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1876", calendar: julian, precision: year }, end: { edtf: "1909", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

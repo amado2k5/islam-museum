@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 واصف جوهرية (1897–1972) موسيقي وشاعر وكاتب مذكرات مقدسي، وُلد في طائفة الروم الأرثوذكس بالمدينة.{cite:wikipedia-wasif-jawhariyyeh-en}{cite:nassar-wasif-jawharriyeh-collection} درس في مدارس القدس اللوثرية والوطنية والأسقفية وتتلمذ على كبار أساتذة العود، وخدم في البحرية العثمانية ثم في إدارة الانتداب، وعزف مع فرق المدينة وأوركسترا إذاعتها.{cite:wikipedia-wasif-jawhariyyeh-en}{cite:wikipedia-wasif-jawhariyyeh-ar}
 

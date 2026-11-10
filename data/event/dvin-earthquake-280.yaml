@@ -12,6 +12,7 @@ date:
   start: { edtf: "0894-03~", hijri: "0280-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ورد الخبر ذو الحجة ٢٨٠ والزلزلة عقب كسوف شوال؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 143}." }
 relations:
   - { type: occurred_at, target: place/dabil, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 map: { kind: locator, precision: approximate, center: [44.58, 40.00] }
 provenance:
   layer: "own-research"

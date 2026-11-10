@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Fatima Sana Shaikh (born 11 January 1992) is an Indian actress, born at Hyderabad to a Hindu father from Jammu and a Muslim mother from Srinagar, and brought up in Mumbai.{cite:wikipedia-fatima-sana-shaikh-en}{cite:wikidata-fatima-sana-shaikh} She began as a child artist in Chachi 420 (1997) and One 2 Ka 4 (2001), and rose to fame portraying the wrestler Geeta Phogat in Dangal (2016), which became the highest-grossing Indian film of all time.{cite:wikipedia-fatima-sana-shaikh-en} She has since starred in Ludo (2020) and Dhak Dhak (2023), and portrayed Indira Gandhi in Sam Bahadur (2023).{cite:wikipedia-fatima-sana-shaikh-en}
 

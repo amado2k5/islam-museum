@@ -12,6 +12,7 @@ date:
   start: { edtf: "0858", hijri: "0244", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة أربع وأربعين ومائتين عند ابن خلدون؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1662}." }
 relations:
   - { type: occurred_at, target: place/nekour, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "ابن خلدون، العبر — بنو صالح بن منصور ملوك نكور (طبعة هيليوبوليس)"

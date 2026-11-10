@@ -12,6 +12,7 @@ date:
   start: { edtf: "1527/1528", hijri: "0934", calendar: julian, precision: year, status: tradition, derived: true, note: "934؛ التحويل مشتق {cite:shadharat-dhahab p. 617}." }
 relations:
   - { type: had_participant, target: person/imam-ahmad-gran, role: "الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد ص 617"

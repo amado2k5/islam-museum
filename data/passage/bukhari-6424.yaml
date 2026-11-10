@@ -1,0 +1,22 @@
+id: passage/bukhari-6424
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6424"
+label:
+  ar: "البخاري 6424 — ما لعبدي المؤمن جزاء إذا قبضت صفيه إلا الجنة"
+  en: "Bukhari 6424 — My believing servant has no reward but Paradise when I take his dearest one"
+  ur: "بخاری 6424 — میرے مومن بندے کا بدلہ جب میں اس کا عزیز لے لوں جنت ہی ہے"
+text: "يقول الله تعالى ما لعبدي المؤمن عندي جزاء، إذا قبضت صفيه من أهل الدنيا، ثم احتسبه إلا الجنة ."
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 6424: ما لعبدي المؤمن جزاء إذا قبضت صفيه إلا الجنة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 6424: My believing servant has no reward but Paradise when I take his dearest one. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 6424: میرے مومن بندے کا بدلہ جب میں اس کا عزیز لے لوں جنت ہی ہے۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [health-body-death]
+tags: [hadith-qudsi, qudsi-qabd-al-safi]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6424; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

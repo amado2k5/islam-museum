@@ -15,7 +15,7 @@ names:
   - { kind: full, lang: ar, value: "صخر بن حرب بن أمية الأموي" }
 gender: male
 born: { edtf: "0560~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0653~", calendar: julian, precision: year, status: debated, note: "Reported at Mecca or Medina, 31-32 AH / ~652-653 CE, at a great age.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+died: { edtf: "0654", hijri: "0034", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Uthman's caliphate; al-Mada'ini gives 34 AH, other reports 31 or 32, and al-Waqidi makes him eighty-eight (al-Isaba p. 686); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [politician, merchant]
 traditions: []
 summary:
@@ -64,7 +64,7 @@ perspectives:
     sources: [source/momen-1985]
 external_ids:
   wikidata: Q335430
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/ibn-hajar-isaba]
 sensitivity: contested
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:

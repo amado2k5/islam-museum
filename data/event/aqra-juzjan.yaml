@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "الموجه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/juzjan }
 wings: [time]
+sides:
+  - label: { ar: "جيش الأقرع بن حابس التميمي", en: "al-Aqra' ibn Habis al-Tamimi's army" }
+    commanders: [person/al-aqra-ibn-habis, person/al-ahnaf-ibn-qays]
+  - label: { ar: "الجوزجان", en: "al-Juzjan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

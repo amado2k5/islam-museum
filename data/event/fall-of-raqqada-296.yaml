@@ -13,10 +13,16 @@ date:
 relations:
   - { type: had_participant, target: person/abu-abd-allah-al-shii, role: "القائد", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: had_participant, target: person/ziyadat-allah-iii, role: "المهزوم الهارب", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/ubayd-allah-al-mahdi, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-5
+sides:
+  - label: { ar: "جيش أبو عبد الله الشيعي", en: "Abu Abd Allah al-Shi'i's army" }
+    commanders: [person/abu-abd-allah-al-shii]
+  - label: { ar: "زيادة الله بن الأغلب", en: "زيادة الله بن الأغلب" }
+    participants: [person/ziyadat-allah-iii]
 sources: [source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

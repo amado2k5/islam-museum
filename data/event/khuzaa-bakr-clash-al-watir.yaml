@@ -21,8 +21,8 @@ relations:
   - { type: had_participant, target: person/nawfal-ibn-muawiya, role: commander-raiding-party, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/tamim-ibn-asad, role: survivor, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/munabbih, role: killed, sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/budayl-ibn-warqa, role: shelter-provider, sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/al-akhzar-ibn-lut, role: poet-of-the-raiders, sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/budayl-ibn-warqa, role: shelter-provider, sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/al-akhzar-ibn-lut, role: poet-of-the-raiders, sources: [source/ibn-hisham-saqqa] }
 sides:
   - label: { en: "Banu al-Dil of Banu Bakr, with secret Quraysh support", ar: "بنو الديل من بني بكر، بإمداد قريش الخفي" }
     participants: [group/banu-al-dil, group/quraysh]

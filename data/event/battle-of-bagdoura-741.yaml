@@ -11,6 +11,12 @@ regions: [maghreb]
 date:
   start: { edtf: "0741", precision: year, status: tradition, derived: true }
   end: { edtf: "0741", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الشامي بقيادة كلثوم بن عياض", en: "The Syrian army under Kulthum ibn Iyad" }
+    participants: [person/hisham-ibn-abd-al-malik]
+  - label: { ar: "البربر", en: "The Berbers" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q4870380

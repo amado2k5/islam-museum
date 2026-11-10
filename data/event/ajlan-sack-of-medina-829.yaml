@@ -15,5 +15,7 @@ provenance:
   source: "شذرات الذهب لابن العماد ص 195-196, 247"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-75
+relations:
+- { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

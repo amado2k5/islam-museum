@@ -13,6 +13,7 @@ date:
   start: { edtf: "0859~", hijri: "0245", calendar: julian, precision: year, status: tradition, derived: true, note: "245؛ التحويل مشتق {cite:nafh-tib-maqqari p. 350}." }
 relations:
   - { type: occurred_at, target: place/seville, role: "سواحل الأندلس", sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 350–351"

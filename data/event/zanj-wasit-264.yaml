@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/wasit, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/sahib-al-zanj, role: "زعيم الزنج", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5 ق2، سنة 264)، قراءة آبل فيجن"

@@ -13,7 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/hashim-ibn-abd-manaf, role: "الغالب في المنافرة", sources: [source/ansab-al-ashraf] }
   - { type: had_participant, target: person/umayya-ibn-abd-shams, role: "المخذول", sources: [source/ansab-al-ashraf] }
-  - { type: had_participant, target: person/kahin-asfan-al-khuzai, role: "الحَكَم", sources: [source/ansab-al-ashraf] }
+  - { type: related_to, target: person/kahin-asfan-al-khuzai, role: "الحَكَم", sources: [source/ansab-al-ashraf] }
 provenance:
   layer: own-research
   source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"

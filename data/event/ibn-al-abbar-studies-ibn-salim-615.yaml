@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/valencia, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-al-abbar, role: "التلميذ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/abu-al-rabi-ibn-salim, role: "الشيخ", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustansir-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

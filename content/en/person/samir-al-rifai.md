@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Samir al-Rifa'i (30 January 1901 – 12 October 1965) was a Jordanian statesman whose birthplace is disputed between Marjeyoun in south Lebanon and Safed in Palestine, educated at Safed and at the American University in Beirut before entering the Transjordanian administration in the 1920s.{cite:wikipedia-samir-al-rifai-ar}{cite:wikidata-samir-al-rifai} He rose through the diwan and the finance and justice ministries to form his first government in October 1944.{cite:wikipedia-samir-al-rifai-en}{cite:wikipedia-samir-al-rifai-ar}
 

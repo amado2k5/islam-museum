@@ -11,7 +11,7 @@ regions: [egypt-nile]
 date:
   start: { edtf: "0972~", hijri: "0361", calendar: julian, precision: year, status: tradition, derived: true, note: "انتهى رمضان 361؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 621}. وذكر عوف أن حجر الأساس وُضع في 24 جمادى الأولى 359هـ (أبريل 970م) وأن أول جمعة صُلّيت فيه في 7 رمضان 361هـ، وأن البناء استغرق عامين {cite:azhar-thousand-years-awf p. 32}؛ يخالف ذلك موعد ربيع الآخر 359 المذكور أعلاه، فالتاريخان محل خلاف في البداية (debated)." }
 relations:
-  []
+- { type: during_reign, target: person/al-muizz-li-din-allah, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 615–625"

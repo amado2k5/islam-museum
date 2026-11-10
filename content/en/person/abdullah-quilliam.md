@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 William Henry Quilliam (10 April 1856 – 23 April 1932) was a Liverpool solicitor who, after converting to Islam in 1887 following a journey to Morocco, took the name Abdullah Quilliam. Raised a Methodist and active in the temperance movement, he had become a solicitor in 1878 and built a criminal practice in Liverpool.{cite:wikipedia-abdullah-quilliam-en}
 

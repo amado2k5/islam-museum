@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Isaba)" }
+died: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "Killed at Ajnadayn, 13 AH, having killed the Byzantine champion and others (al-Waqidi, al-Isaba p. 876); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: died_in
   target: place/ajnadayn

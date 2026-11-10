@@ -1,0 +1,18 @@
+id: person/al-hakam-ii
+class: person
+label: { ar: "الحكم الثاني المستنصر", en: "al-Hakam II al-Mustansir", ur: "الحكم الثاني المستنصر" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "الحكم الثاني المستنصر، خليفة الأموية في الأندلس ؛ حكم من 961م إلى 976م. {cite:bayan-mughrib-idhari}"
+  en: "al-Hakam II al-Mustansir, the caliph of the Umayyad of Cordoba caliphate, ruling 961–976 CE. {cite:bayan-mughrib-idhari}"
+  ur: "الحكم الثاني المستنصر، اموی قرطبہ خلافت کے خلیفہ؛ 961ء سے 976۔ {cite:bayan-mughrib-idhari}"
+story_roles:
+  - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "961", calendar: julian, precision: year }, end: { edtf: "976", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+relations:
+  - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+  - { type: successor_of, target: person/abd-al-rahman-iii-al-nasir, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
+sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

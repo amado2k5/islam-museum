@@ -19,6 +19,7 @@ relations:
   - { type: had_participant, target: person/al-daraqutni, role: "القارئ المتعلم", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/ibn-mujahid, role: "شيخ القراء", sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/al-naqqash-al-muqri, role: "الشيخ المقرئ", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

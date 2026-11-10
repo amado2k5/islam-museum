@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/al-mughira-ibn-al-muhallab, role: "الابن المفقود", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/zaghul }
 wings: [time]
+sides:
+  - label: { ar: "جيش المهلب بن أبي صفرة", en: "al-Muhallab ibn Abi Sufra's army" }
+    commanders: [person/al-muhallab-ibn-abi-sufra]
+  - label: { ar: "زاغول", en: "Zaghul" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

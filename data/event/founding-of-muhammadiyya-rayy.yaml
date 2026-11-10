@@ -12,6 +12,7 @@ relations:
   - { type: had_participant, target: person/al-mahdi, role: "الباني", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/rayy }
   - { type: had_participant, target: person/ammar-ibn-abi-al-khasib, role: "القائم على بناء الجامع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }

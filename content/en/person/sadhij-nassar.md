@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Sadhij Nassar (1900–1970) was a Palestinian journalist and activist from Haifa who worked with her husband Najib Nassar on the newspaper al-Karmil, which he had founded in 1908.{cite:wikipedia-sadhij-nassar-en}{cite:wikipedia-sadhij-nassar-ar} From the 1920s she helped edit and run the paper, in 1926 she founded its Women's Section, and she edited al-Karmil from 1941 until the Mandate authorities closed it in 1944.{cite:wikipedia-sadhij-nassar-en}
 

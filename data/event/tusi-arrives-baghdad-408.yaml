@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/shaykh-al-tusi, role: "الطالب القادم من طوس", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-shaykh-al-mufid, role: "أستاذه الأبرز", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/al-mughira-ibn-abi-al-as, role: "أخوه إلى خور الديبل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tana }
 wings: [time]
+sides:
+  - label: { ar: "جيش عثمان بن أبي العاص", en: "Uthman ibn Abi al-As's army" }
+    commanders: [person/uthman-ibn-abi-al-as, person/umar-ibn-al-khattab]
+  - label: { ar: "تانه", en: "Tana" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

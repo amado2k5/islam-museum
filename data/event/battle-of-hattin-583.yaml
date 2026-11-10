@@ -16,11 +16,18 @@ relations:
   - { type: had_participant, target: person/al-malik-al-afdal-ali, role: "شاهد الوقعة بجانب أبيه", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/taqi-al-din-umar, role: "مقدم ناحية من الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/raynald-de-chatillon, role: "الأسير الذي قُتل بعد الوقعة", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 583، ص 146–149"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-562-629-04
 external_ids: { wikidata: "Q233568" }
+sides:
+  - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
+    participants: [person/al-malik-al-afdal-ali, person/taqi-al-din-umar]
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "جيش مملكة بيت المقدس الصليبي", en: "The Crusader army of the Kingdom of Jerusalem" }
+    participants: [person/raynald-de-chatillon]
 sources: [source/kamil-ibn-al-athir, source/assabile-omar-abdelkafy]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

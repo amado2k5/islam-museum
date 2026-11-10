@@ -6,11 +6,13 @@ summary:
   ar: "بطاقة أولية لمعركة عبرق سنة ٦٣٢م، ملاحقة عكرمة جند مسيلمة بعد عقرباء؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Battle of Abraq in 632, Ikrima's pursuit of Musaylima's men after Aqraba; its sources are not yet checked on the page."
 wings: [time]
-periods: [period/prophetic-era]
+periods: [period/rashidun]
 regions: [arabia]
 date:
   start: { edtf: "0632", precision: year, status: tradition, derived: true }
   end: { edtf: "0632", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q124958496

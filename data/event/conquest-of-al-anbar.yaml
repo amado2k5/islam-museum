@@ -16,10 +16,15 @@ relations:
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "الحاصر المصالح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المغير على سوق بغداذ", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "المصالح في خلافة عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 344"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-27
+sides:
+  - label: { ar: "جيش خالد بن الوليد", en: "Khalid ibn al-Walid's army" }
+    commanders: [person/khalid-ibn-al-walid, person/jarir-ibn-abd-allah-al-bajali]
+  - label: { ar: "الأنبار", en: "al-Anbar" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

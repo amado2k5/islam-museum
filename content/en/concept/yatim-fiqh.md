@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Orphan (yatim). Lexically a single or unique thing, and the state of losing one's father; Ibn al-Sikkit says the orphan among people is from the father's side and among beasts from the mother's. Technically it is one whose father has died while still below puberty, on the hadith "there is no orphanhood after a dream of puberty". {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17968}
 

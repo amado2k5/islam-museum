@@ -34,7 +34,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr (al-Isti'ab)" }
+died: { edtf: "0641~", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "Killed at the fortress of Tustar in the caliphate of Umar; also given as 23 AH (al-Isaba p. 138); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: died_in
   target: place/tustar
@@ -56,6 +56,7 @@ relations:
   target: event/battle-of-uhud
   sources:
   - source/ibn-hajar-isaba
+- { type: participated_in, target: event/battle-of-yamama, note: "al-Isaba p. 138", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 644، ص 138

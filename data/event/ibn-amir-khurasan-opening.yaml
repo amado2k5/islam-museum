@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/al-aswad-ibn-kulthum, role: "الناسك الشهيد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/quhistan }
 wings: [time]
+sides:
+  - label: { ar: "جيش عبد الله بن عامر", en: "Abd Allah ibn Amir's army" }
+    commanders: [person/abd-allah-ibn-amir, person/al-ahnaf-ibn-qays]
+  - label: { ar: "قوهستان", en: "Quhistan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

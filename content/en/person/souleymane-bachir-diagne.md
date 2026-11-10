@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Souleymane Bachir Diagne (born 1955 in Saint-Louis, Senegal — the French biography and Wikidata give 1 November, the English biography 8 November) is a Senegalese philosopher. After his baccalauréat in Senegal he prepared at the Lycée Louis-le-Grand in Paris, studied philosophy at the Sorbonne and at the École Normale Supérieure under Althusser and Derrida, took the agrégation in 1978, spent a year at Harvard, and completed doctorates at Paris I under Jean-Toussaint Desanti (1982, and the doctorat d'État in 1988) on George Boole's algebra of logic.{cite:wikipedia-diagne-fr}{cite:wikidata-diagne}{cite:wikipedia-diagne-en}
 

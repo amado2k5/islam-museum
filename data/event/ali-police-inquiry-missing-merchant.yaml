@@ -15,6 +15,8 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "القاضي في التحقيق", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/kufa, sources: [source/sallabi-ali-vol1] }
   - { type: related_to, target: concept/shurta, sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 perspectives:
   - tradition: sunni

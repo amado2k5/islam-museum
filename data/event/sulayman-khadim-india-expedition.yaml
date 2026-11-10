@@ -14,10 +14,15 @@ relations:
   - { type: occurred_at, target: place/aden }
   - { type: had_participant, target: person/sulayman-pasha-khadim, role: "قائد الحملة", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/sulayman-al-qanuni, role: "السلطان الآمر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 196-197"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-8
+sides:
+  - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
+    commanders: [person/sulayman-al-qanuni]
+  - label: { ar: "عدن", en: "Aden" }
 sources: [source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

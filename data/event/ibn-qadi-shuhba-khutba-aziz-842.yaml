@@ -20,6 +20,7 @@ relations:
   - { type: had_participant, target: person/al-aziz-yusuf-ibn-barsbay, role: "السلطان المعزول الذي أعيد اسمه", sources: [source/suluk-maqrizi] }
   - { type: had_participant, target: person/inal-al-jakami, role: "نائب الشام الخارج عن الطاعة", sources: [source/suluk-maqrizi] }
   - { type: had_participant, target: person/jaqmaq-al-zahiri, role: "السلطان الظاهر الذي حقد عليه", sources: [source/suluk-maqrizi, source/nujum-zahira] }
+  - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/suluk-maqrizi, source/nujum-zahira]
 provenance:
   layer: own-research

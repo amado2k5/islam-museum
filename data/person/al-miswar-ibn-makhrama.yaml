@@ -38,7 +38,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 born: { edtf: "624", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 3/390; 2–64 AH)" }
-died: { edtf: "683", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 3/390; 2–64 AH)" }
+died: { edtf: "0684", hijri: "0064", calendar: julian, precision: year, status: debated, derived: true, note: "Killed by a mangonel stone in the first siege of Ibn al-Zubayr, the army sent by Yazid ibn Mu'awiya — 64 or 65 AH; the 73 AH report is an error (al-Isaba p. 1415); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/mecca

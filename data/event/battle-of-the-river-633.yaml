@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0633", precision: year, status: tradition, derived: true }
   end: { edtf: "0633", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q2671590

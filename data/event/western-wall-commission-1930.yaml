@@ -14,6 +14,7 @@ date:
   start: { edtf: "1930-12", hijri: "", calendar: gregorian, precision: month, status: historical, note: "needs_source: كانون الأول 1930م كما يطبعه الكتاب في ص 66 و185 (PDF)؛ يحتاج مصدراً ثانياً." }
 relations:
   - { type: occurred_at, target: place/jerusalem }
+  - { type: during_reign, target: person/muhammadu-mai-turare, sources: [source/wikidata] }
 sources: [source/al-quds-bayn-al-yahudiyya-wal-islam-azhar]
 provenance:
   layer: own-research

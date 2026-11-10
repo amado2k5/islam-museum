@@ -17,7 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
   - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "الخليفة في كرسي التدريس", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
-  - { type: had_participant, target: person/abdallah-ibn-yusuf-al-juwayni, role: "الوالد المتوفَّى", sources: [source/wafayat-ayan] }
+  - { type: related_to, target: person/abdallah-ibn-yusuf-al-juwayni, role: "الوالد المتوفَّى", sources: [source/wafayat-ayan] }
   - { type: had_participant, target: person/abu-al-qasim-al-isfarayini-al-iskaf, role: "أستاذ الأصول", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
 sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2]
 provenance:

@@ -24,7 +24,7 @@ story_roles:
   - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى هرقل قيصر الروم (الرحيق ص356).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي جليل وسفير النبي." }
-died: { edtf: "670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "0660~", hijri: "0040~", calendar: julian, precision: year, status: tradition, derived: true, note: "Settled at Damascus in al-Mizza and lived into Mu'awiya's caliphate (al-Isaba p. 427); CE year approximated to 40 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/dumat-al-jandal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mezzeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -33,8 +33,10 @@ relations:
   - { type: born_in, target: place/medina }
   - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى هرقل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
+  - { type: participated_in, target: event/battle-of-yarmuk, note: "commanded a squadron there (al-Isaba p. 427)", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q725068" }
-sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
+sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 356–358" }
 provenance:
   layer: own-research

@@ -1,0 +1,53 @@
+---
+// The Asma ul Husna Browser's home (docs/plan/29-asma-browser.md): the founding hadith and the
+// numbered grid of the 99 divine-name records, in the Tirmidhi enumeration order. Counts are read
+// from the graph at build time and appear on this page only; no shared layout carries a number
+// (docs/site/README.md, site-wide numbers).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf, summaryOf } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { asmaNodes } from "../../../lib/asma";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const A = T.asma;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const status = fmt(A.status, { names: num(asmaNodes.length, lang) });
+const searchText = (n: any) => [n.label.ar, n.label.en, n.label.ur, n.data?.name_meta?.transliteration].filter(Boolean).join(" ");
+---
+<BaseLayout lang={lang} title={A.title} description={A.lede} path={`/${lang}/asma/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{A.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {A.title}</nav>
+    <div data-pagefind-body>
+      <h1>{A.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{A.lede}</p>
+      <p class="panel" style="max-width:var(--measure);border:1px solid var(--gold)">{A.hadith_note}</p>
+      <p class="panel ui" style="max-width:var(--measure)">{status}</p>
+    </div>
+
+    <section aria-labelledby="grid-title" style="margin-top:2rem">
+      <h2 id="grid-title" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">{A.sort_canonical}</h2>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="asma-filter">{A.filter_label}</label>
+        <input id="asma-filter" type="search" data-asma-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <ol class="grid-cards" role="list" data-asma-grid data-pagefind-ignore style="list-style:none;padding:0;margin:0">
+        {asmaNodes.map((n) => (
+          <li data-asma-item data-search={searchText(n)}>
+            <a class="card" href={`/${lang}/asma/${n.slug}/`} style="display:block;height:100%;text-decoration:none">
+              <span class="ui muted" style="font-size:.8rem">{num(n.data.order, lang)}</span>
+              <h3 class="card-title" lang="ar" dir="rtl" style="font-size:1.8rem;margin:.15rem 0">{n.label.ar}</h3>
+              <p class="ui" style="margin:0;font-size:.9rem">{label(n)}</p>
+              <p class="muted" style="margin:.35rem 0 0;font-size:.85rem">{summaryOf(n, lang)}</p>
+            </a>
+          </li>
+        ))}
+      </ol>
+      <p class="panel ui" data-asma-empty hidden>{A.filter_label}</p>
+    </section>
+  </div>
+  <script src="../../../scripts/asma-filter.ts"></script>
+</BaseLayout>

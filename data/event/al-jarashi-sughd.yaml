@@ -10,6 +10,10 @@ relations:
   - { type: had_participant, target: person/said-ibn-amr-al-jarashi, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sughd }
 wings: [time]
+sides:
+  - label: { ar: "جيش سعيد بن عمرو الجرشي", en: "Sa'id ibn Amr al-Jarashi's army" }
+    commanders: [person/said-ibn-amr-al-jarashi]
+  - label: { ar: "السغد", en: "al-Sughd" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

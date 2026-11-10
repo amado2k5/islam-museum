@@ -9,12 +9,17 @@ summary:
 relations:
   - { type: occurred_at, target: place/panipat, sources: [source/akbarnama] }
   - { type: had_participant, target: person/babur-mughal, role: "الغازي الفاتح", sources: [source/akbarnama] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [south-asia]
 date:
   start: { edtf: "1526", precision: year, status: tradition, derived: true }
   end: { edtf: "1526", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش ظهير الدين بابر", en: "Babur (Zahir al-Din Muhammad)'s army" }
+    commanders: [person/babur-mughal]
+  - label: { ar: "باني بت", en: "Panipat" }
 sources: [source/akbarnama]
 external_ids:
   wikidata: Q605321

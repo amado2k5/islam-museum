@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-khatib-al-baghdadi-ahmad, role: "الخارج", sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research

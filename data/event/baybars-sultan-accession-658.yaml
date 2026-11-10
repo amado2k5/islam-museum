@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/cairo, sources: [source/khitat-maqrizi-1998] }
   - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/khitat-maqrizi-1998] }
+  - { type: during_reign, target: person/al-murtada-umar-almohad, sources: [source/bayan-mughrib-idhari] }
 sources: [source/khitat-maqrizi-1998]
 provenance:
   layer: own-research

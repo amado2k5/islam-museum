@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wa'd, lexically, is used for good and for evil; 'idda is the promise. Technically it is the statement that a good thing will reach someone in the future. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17543}
 

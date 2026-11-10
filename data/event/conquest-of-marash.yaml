@@ -18,9 +18,10 @@ relations:
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "باني المدينة أولاً", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muhammad-ibn-marwan, role: "أمير الصائفة 74–75", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-abbas-ibn-al-walid, role: "معمِّرها وحاصلها وباني جامعها", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/salih-ibn-ali, role: "بانيها في خلافة المنصور", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/al-mahdi, role: "مكثِّر شحنتها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/salih-ibn-ali, role: "بانيها في خلافة المنصور", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: related_to, target: person/al-mahdi, role: "مكثِّر شحنتها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/sufyan-ibn-awf-al-ghamidi, role: "غازي سنة 30 راحلاً من قبلها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 265–266"

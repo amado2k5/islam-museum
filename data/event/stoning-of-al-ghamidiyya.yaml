@@ -14,7 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: ordered-the-penalty-after-weaning, sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/al-ghamidiyya, role: confessed-and-was-stoned, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/al-ghamidiyya, role: confessed-and-was-stoned, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
 sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }

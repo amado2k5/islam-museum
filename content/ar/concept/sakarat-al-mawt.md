@@ -37,3 +37,6 @@ translators: []
 ويروي الشيخ أن عمرو بن العاص وصف حال روحه عند النزع بأنها كعصفور فوق مقلاة زيت يغلي، لا يطير فينجو ولا يموت فيستريح، وأنه قال إن روحه كأنها تخرج من ثقب إبرة (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:46:30}. ويقول الشيخ في سياق السابحات [[passage/quran-79-3|النازعات 3]] إن المترف حين يدخل عليه ملك الموت يرى وجهه ويعلم أن الأمر قد انتهى {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:46:30}. ويقول إن الإنسان عند الموت تتبين له تفاهة الدنيا وقد لا يستطيع الكلام {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:00}.
 
 وينقل عن هارون الرشيد وهو ينازع أنه قال إن ماله لم يغن عنه وإن سلطانه لم ينفعه (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:47:00}. ويقول إن ملك الموت إذا دخل على عبد من الطائعين أخذ روحه، ومعه ملائكة بحنوط وأكفان من الجنة تلفّ الروح، وتصعد بها إلى السماء فتُفتح لها أبواب السماوات {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep08 00:51:00}.
+
+## في سياق الغيب
+جاءت سكرة الموت بالحق — لحظة انكشاف الغيب التي لا مهرب عنها ولا رد.

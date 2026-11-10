@@ -13,6 +13,8 @@ date:
 relations:
   - { type: occurred_at, target: place/maysan, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: appointing-and-dismissing-governor, sources: [source/ibn-hisham-saqqa] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 9", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-i" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 9" }

@@ -1,0 +1,22 @@
+id: passage/bukhari-4476
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4476"
+label:
+  ar: "البخاري 4476 — حديث الشفاعة الكبرى: ارفع رأسك واشفع تشفع"
+  en: "Bukhari 4476 — The great intercession: raise your head, intercede and it will be granted"
+  ur: "بخاری 4476 — بڑی شفاعت کی حدیث: سر اٹھاؤ، شفاعت کرو قبول ہوگی"
+text: "يجتمع المؤمنون يوم القيامة فيقولون لو استشفعنا إلى ربنا فيأتون آدم فيقولون أنت أبو الناس، خلقك الله بيده وأسجد لك ملائكته، وعلمك أسماء كل شىء، فاشفع لنا عند ربك حتى يريحنا من مكاننا هذا. فيقول لست هناكم ويذكر ذنبه فيستحي …"
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 4476: حديث الشفاعة الكبرى: ارفع رأسك واشفع تشفع. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 4476: The great intercession: raise your head, intercede and it will be granted. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 4476: بڑی شفاعت کی حدیث: سر اٹھاؤ، شفاعت کرو قبول ہوگی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-hadith-al-shafaa]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4476; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

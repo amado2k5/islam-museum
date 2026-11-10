@@ -17,6 +17,8 @@ translations:
   ur: { text: "(جب انہوں نے یہ بات یعقوب سے آ کر کہی تو) انہوں نے کہا کہ (حقیقت یوں نہیں ہے) بلکہ یہ بات تم نے اپنے دل سے بنالی ہے تو صبر ہی بہتر ہے۔ عجب نہیں کہ خدا ان سب کو میرے پاس لے آئے۔ بےشک وہ دانا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
+  - { type: mentions, target: concept/asma-al-alim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-hakim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

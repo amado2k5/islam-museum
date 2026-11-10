@@ -17,6 +17,9 @@ translations:
   ur: { text: "اور جن لوگوں کو علم دیا گیا ہے وہ جانتے ہیں کہ جو (قرآن) تمہارے پروردگار کی طرف سے تم پر نازل ہوا ہے وہ حق ہے۔ اور (خدائے) غالب اور سزاوار تعریف کا رستہ بتاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/asma-al-aziz, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-hamid, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

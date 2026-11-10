@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/suhayl-ibn-amr, role: "قام بالكلمة وردّ الناس", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/attab-ibn-usayd, role: "والي مكة توارى ثم ظهر", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/death-of-the-prophet, sources: [source/ibn-hisham-saqqa] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 316", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-21" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 p. 316; ibn Hisham's own note on Attab" }

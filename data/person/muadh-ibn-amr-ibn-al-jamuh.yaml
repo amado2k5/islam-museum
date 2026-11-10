@@ -4,7 +4,7 @@ label: { en: "Mu'adh ibn Amr ibn al-Jamuh", ar: "معاذ بن عمرو بن ا�
 names:
   - { kind: full, lang: ar, value: "معاذ بن عمرو بن الجموح الخزرجي" }
 gender: male
-died: { edtf: "0650~", calendar: julian, precision: year, status: tradition, note: "بقي إلى زمن عثمان بن عفان (الرحيق ص221 هامش).", sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "0650~", hijri: "0030~", calendar: julian, precision: year, status: tradition, derived: true, note: "Lived into Uthman's time after striking Abu Jahl at Badr — Ikrima cut his hand, which he tore off and fought the rest of the day (al-Bukhari, al-Isaba p. 1427); CE year approximated to 30 AH", sources: [source/ibn-hajar-isaba] }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -24,8 +24,12 @@ relations:
   - { type: participated_in, target: event/battle-of-badr, role: "ضرب أبا جهل فأطنّ قدمه بنصف ساقه", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/mubarakpuri-raheeq]}
   - { type: died_in, target: place/badr, sources: [source/wikidata], confidence: low, note: "Struck down Abu Jahl at Badr and was killed in the same battle per the record text." }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1427", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/banu-salima, note: "al-Isaba p. 1427", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "struck Abu Jahl with his brother Mu'awwaz (al-Isaba p. 1427)", sources: [source/ibn-hajar-isaba] }
+
 external_ids: { wikidata: "Q6930662" }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/mishkat-al-masabih]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/mishkat-al-masabih, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 220-221)" }
 provenance:
   layer: own-research

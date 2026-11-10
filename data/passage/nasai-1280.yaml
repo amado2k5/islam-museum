@@ -1,0 +1,21 @@
+id: passage/nasai-1280
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1280"
+label:
+  ar: "النسائي 1280 — قال الله على لسان نبيه: سمع الله لمن حمده"
+  en: "Nasa'i 1280 — God said on the tongue of His prophet: God hears whoever praises Him"
+  ur: "نسائی 1280 — اللہ نے اپنے نبی کی زبان پر فرمایا: اللہ نے سن لی جس نے اس کی حمد کی"
+text: "إذا قمتم إلى الصلاة فأقيموا صفوفكم ثم ليؤمكم أحدكم فإذا كبر فكبروا وإذا قال ولا الضالين فقولوا آمين يجبكم الله ثم إذا كبر وركع فكبروا واركعوا فإن الإمام يركع قبلكم ويرفع قبلكم . قال نبي الله فتلك بتلك وإذا قال …"
+summary:
+  ar: "حديث قدسي في سنن النسائي، رقم 1280: قال الله على لسان نبيه: سمع الله لمن حمده. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan al-Nasa'i, no. 1280: God said on the tongue of His prophet: God hears whoever praises Him. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن نسائی میں حدیثِ قدسی، نمبر 1280: اللہ نے اپنے نبی کی زبان پر فرمایا: اللہ نے سن لی جس نے اس کی حمد کی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-sami-allah-liman-hamidah]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1280; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

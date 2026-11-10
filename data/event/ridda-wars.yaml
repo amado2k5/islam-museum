@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "الخليفة الذي عزم على قتال المرتدين ومانعي الزكاة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "عقده أبو بكر على الناس في حروب الردة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/thabit-ibn-qays, role: "على الأنصار في جيش الردة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 131–133"
@@ -21,6 +22,12 @@ provenance:
   run: lib-futuh-buldan-batch-5, lib-wave-21-khulafa-rashidun-salabi-1
 external_ids:
   wikidata: Q1348630
+sides:
+  - label: { ar: "دولة المدينة بقيادة أبي بكر", en: "The state of Medina under Abu Bakr" }
+    participants: [person/khalid-ibn-al-walid, person/thabit-ibn-qays, person/ikrima-ibn-abi-jahl]
+    commanders: [person/abu-bakr]
+  - label: { ar: "قبائل الردة والمتنبئون", en: "The apostate tribes and the claimants of prophethood" }
+    participants: [person/musaylima, person/tulayha-ibn-khuwaylid, person/al-aswad-al-ansi]
 sources: [source/futuh-buldan-maarif-1407, source/sallabi-abu-bakr-tawzi-2003]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 

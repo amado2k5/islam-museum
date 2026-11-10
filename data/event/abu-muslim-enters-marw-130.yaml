@@ -15,6 +15,7 @@ relations:
   - { type: occurred_at, target: place/merv, sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/abu-muslim-al-khurasani, role: "الداخل مرو", sources: [source/tabari-khayyat-part2] }
   - { type: had_participant, target: person/nasr-ibn-sayyar, role: "عامل خراسان المضري", sources: [source/tabari-khayyat-part2] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 130، ص 713–714"

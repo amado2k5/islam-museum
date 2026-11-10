@@ -37,7 +37,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "633", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abd al-Barr, al-Isti'ab; Ibn Hajar, al-Isaba" }
+died: { edtf: "0633", hijri: "0012", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at al-Yamama, aged fifty-six (al-Isaba p. 1649); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/mecca
@@ -50,6 +50,26 @@ relations:
   - source/ibn-hajar-isaba
 - type: participated_in
   target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  note: "of Banu Abd Shams ibn Abd Manaf (al-Isaba p. 1649)"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/muhajirun
+  note: "al-Isaba p. 1649"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 1649"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-yamama
+  note: "al-Isaba p. 1649"
   sources:
   - source/ibn-hajar-isaba
 provenance:

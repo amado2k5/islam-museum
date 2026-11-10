@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Sálim Moizuddin Abdul Ali (12 November 1896 – 20 June 1987) was an Indian ornithologist and naturalist, known as the Birdman of India. He was the first Indian to conduct systematic bird surveys across India, and his bird books popularised ornithology in the country.{cite:wikipedia-salim-ali-en} He was born in Bombay into a Sulaimani Bohra family, the ninth and youngest child of Moizuddin Abdul Ali; orphaned young, he was brought up by his maternal uncle Amiruddin Tyabji, and a yellow-throated sparrow he had shot as a boy — identified for him by W. S. Millard of the Bombay Natural History Society — turned him towards the serious study of birds.{cite:wikipedia-salim-ali-en}
 

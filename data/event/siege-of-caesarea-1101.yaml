@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1101-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1101-05", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q137785228

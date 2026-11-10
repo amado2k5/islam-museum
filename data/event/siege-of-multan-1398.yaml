@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/multan, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-hasan-ibrahim] }
   - { type: had_participant, target: person/timur-lang, role: "صاحب الغزو الذي حاصر حفيده المدينة", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 external_ids:
   wikidata: Q123739063
 provenance:

@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 سمير الرفاعي ⁦(30 كانون الثاني 1901 – 12 تشرين الأول 1965)⁩ رجل دولة أردني يُختلف في مولده بين مرجعيون في جنوب لبنان وصفد في فلسطين، درس في صفد وفي الجامعة الأمريكية في بيروت قبل أن يدخل إدارة شرق الأردن في العشرينيات.{cite:wikipedia-samir-al-rifai-ar}{cite:wikidata-samir-al-rifai} تدرج في الديوان ووزارتي المالية والعدلية حتى شكّل حكومته الأولى في تشرين الأول 1944.{cite:wikipedia-samir-al-rifai-ar}{cite:wikipedia-samir-al-rifai-en}
 

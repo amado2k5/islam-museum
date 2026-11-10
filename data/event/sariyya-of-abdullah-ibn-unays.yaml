@@ -15,5 +15,10 @@ relations:
   - { type: had_participant, target: person/abdullah-ibn-unays, role: "قائد السرية وحده", sources: [source/al-waqidi-maghazi] }
   - { type: part_of, target: period/prophetic-era }
 # Verification: taken from Waqidi's isnad-based narration; the outcome of the killing is in the next page and not drafted yet. Needs a second source before a dated claim.
+sides:
+  - label: { ar: "عبد الله بن أنيس", en: "Abdullah ibn Unays" }
+    commanders: [person/abdullah-ibn-unays]
+  - label: { ar: "خالد بن سفيان وأتباعه", en: "Khalid ibn Sufyan and his followers" }
+    participants: [group/hudhayl]
 sources: [source/al-waqidi-maghazi]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Waqidi Maghazi pp. 531–532 (OCR)" }

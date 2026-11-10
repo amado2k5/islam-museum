@@ -11,6 +11,12 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1239", precision: year, status: tradition, derived: true }
   end: { edtf: "1239", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأيوبي المصري", en: "The Egyptian Ayyubid army" }
+    participants: [person/al-mustansir-billah]
+  - label: { ar: "حملة البارونات الصليبية", en: "The Barons' Crusade" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q109285058

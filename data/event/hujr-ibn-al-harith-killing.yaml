@@ -12,7 +12,7 @@ date:
   start: { edtf: "0500~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أخبار كندة والجاهلية." }
 relations:
   - { type: had_participant, target: person/hujr-ibn-al-harith-al-kindi, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/ilba-ibn-al-harith, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/ilba-ibn-al-harith, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: group/banu-asad-ibn-khuzayma, role: "الثائرون", sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:

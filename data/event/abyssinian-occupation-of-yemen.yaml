@@ -20,5 +20,10 @@ relations:
   - { type: had_participant, target: polity/byzantine-empire, role: "مزوّد الأسطول والمحرّض", sources: [source/mubarakpuri-raheeq] }
   - { type: caused, target: event/year-of-the-elephant-and-birth, note: "أبرهة الذي ملك في هذا الاحتلال هو قائد حملة الفيل.", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/pre-islamic-arabia }
+sides:
+  - label: { ar: "جيش أرباط", en: "Aryat (Abraha’s predecessor in Yemen)'s army" }
+    commanders: [person/aryat, person/abraha]
+  - label: { ar: "مملكة أكسوم ⁦(الحبشة)⁩", en: "The Aksumite Kingdom (Abyssinia)" }
+    participants: [polity/aksumite-kingdom, polity/byzantine-empire]
 sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

@@ -1,0 +1,97 @@
+---
+// The Battles, Wars and Conquests Browser's home (docs/plan/31-battles-browser.md): the prophetic
+// expeditions split into ghazawat and saraya by the graph derivation, then the eleven kind tiles
+// and the era rows. Counts are read from the graph at build time and appear on this page only; no
+// shared layout carries a number (docs/site/README.md, site-wide numbers).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { labelOf, href } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { formatDate, startOf } from "../../../lib/dates";
+import { MILITARY_KINDS, battleNodes, ghazawat, saraya, byKind, battlePeriods, byPeriod, placeOf } from "../../../lib/battles";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const B = T.battles;
+const label = (n: { label: any; slug: string }) => labelOf(n as any, lang);
+const status = fmt(B.status, {
+  battles: num(battleNodes.length, lang),
+  kinds: num(MILITARY_KINDS.length, lang),
+  eras: num(battlePeriods.length, lang),
+  ghazwa: num(ghazawat.length, lang),
+  sariya: num(saraya.length, lang),
+});
+const preview = (list: typeof ghazawat) => list.slice(0, 18);
+const dateOf = (n: any) => formatDate(startOf(n.data), lang).text;
+const card = (n: any, tag: string) => ({ n, tag, date: dateOf(n), place: placeOf(n.id) });
+---
+<BaseLayout lang={lang} title={B.title} description={B.lede} path={`/${lang}/battles/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{B.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {B.title}</nav>
+    <div data-pagefind-body>
+      <h1>{B.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{B.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure)">{status}</p>
+    </div>
+
+    <section aria-labelledby="prophetic-title" style="margin-top:2rem">
+      <h2 id="prophetic-title">{B.sec_prophetic}</h2>
+      <p class="muted" style="max-width:var(--measure)">{B.note}</p>
+      <h3>{B.sec_ghazawat} · {num(ghazawat.length, lang)}</h3>
+      <ol class="grid-cards" role="list" data-pagefind-ignore style="list-style:none;padding:0;margin:0">
+        {preview(ghazawat).map((n) => { const c = card(n, B.ghazwa_tag); return (
+          <li>
+            <a class="card" href={href(lang, c.n.id)} style="display:block;height:100%;text-decoration:none">
+              <span class="ui muted" style="font-size:.8rem">{c.date} · {c.tag}</span>
+              <h3 class="card-title" style="margin:.15rem 0">{label(c.n)}</h3>
+              {c.place && <p class="ui muted" style="margin:0;font-size:.85rem">{label(c.place)}</p>}
+            </a>
+          </li>
+        ); })}
+      </ol>
+      <h3 style="margin-top:1.5rem">{B.sec_saraya} · {num(saraya.length, lang)}</h3>
+      <ol class="grid-cards" role="list" data-pagefind-ignore style="list-style:none;padding:0;margin:0">
+        {preview(saraya).map((n) => { const c = card(n, B.sariya_tag); return (
+          <li>
+            <a class="card" href={href(lang, c.n.id)} style="display:block;height:100%;text-decoration:none">
+              <span class="ui muted" style="font-size:.8rem">{c.date} · {c.tag}</span>
+              <h3 class="card-title" style="margin:.15rem 0">{label(c.n)}</h3>
+              {c.place && <p class="ui muted" style="margin:0;font-size:.85rem">{label(c.place)}</p>}
+            </a>
+          </li>
+        ); })}
+      </ol>
+      <p class="ui" style="margin-top:1rem"><a href={`/${lang}/battles/ghazawat/`}>{B.all_expeditions} ←</a></p>
+    </section>
+
+    <section aria-labelledby="kinds-title" style="margin-top:2rem">
+      <h2 id="kinds-title">{B.sec_kinds}</h2>
+      <ol class="grid-cards" role="list" style="list-style:none;padding:0;margin:0">
+        {MILITARY_KINDS.map((k) => (
+          <li>
+            <a class="card" href={`/${lang}/battles/kind/${k}/`} style="display:block;height:100%;text-decoration:none">
+              <h3 class="card-title" style="margin:.15rem 0">{B.kinds_plural[k] ?? B.kinds[k] ?? k}</h3>
+              <p class="ui muted" style="margin:0;font-size:.9rem">{fmt(B.count_records, { n: num(byKind.get(k)?.length ?? 0, lang) })}</p>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section aria-labelledby="eras-title" style="margin-top:2rem">
+      <h2 id="eras-title">{B.sec_eras}</h2>
+      <ol class="grid-cards" role="list" style="list-style:none;padding:0;margin:0">
+        {battlePeriods.map((p) => (
+          <li>
+            <a class="card" href={`/${lang}/battles/era/${p.slug}/`} style="display:block;height:100%;text-decoration:none">
+              <h3 class="card-title" style="margin:.15rem 0">{label(p)}</h3>
+              <p class="ui muted" style="margin:0;font-size:.9rem">{fmt(B.count_records, { n: num(byPeriod.get(p.id)?.length ?? 0, lang) })}</p>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</BaseLayout>

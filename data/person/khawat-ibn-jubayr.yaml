@@ -7,9 +7,8 @@ roles:
 - companion
 gender: male
 summary:
-  ar: بطاقة أولية لخوات بن جبير الأنصاري، صحابي ومحدث القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Khawat ibn Jubayr al-Ansari, the seventh-century Companion and muhaddith; the biographical entry is not
-    yet checked on the page.
+  ar: "صحابي أوسي أنصاري؛ من البدريين، أصابه ببدر حجر في ساقه وضرب له بسهمه وأجره، وشهد أحداً والمشاهد بعدها، وروى حديث صلاة الخوف بغزوة ذات الرقاع."
+  en: "An Awsi Ansari Companion counted among the Badriyya; a stone struck his leg at Badr and he was assigned a share and a reward for it. He witnessed Uhud and the battles after, and narrated the prayer-of-fear hadith of the Dhat al-Riqa' expedition."
 wings:
 - people
 regions:
@@ -18,7 +17,8 @@ periods:
 - period/prophetic-era
 sources:
 - source/al-aalam
-died: { edtf: "660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+- source/ibn-hajar-isaba
+died: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina, 40 AH aged seventy-four (al-Waqidi); al-Marzubani gives 42 AH (al-Isaba p. 422); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - type: lived_in
   target: place/hijaz
@@ -34,6 +34,26 @@ relations:
   target: group/ansar
   sources:
   - source/al-aalam
+- type: member_of
+  target: group/al-aws
+  note: "al-Isaba p. 422"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  note: "al-Isaba p. 422"
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "al-Isaba p. 422"
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 422"
+  sources: [source/ibn-hajar-isaba]
+
 external_ids:
   wikidata: Q12210903
 provenance:

@@ -17,7 +17,6 @@ story_roles:
   - { role: companion, status: tradition, note: "الذي كان يصرخ في الناس بقول رسول الله بعرفة.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 faith:
   - { value: sunni, basis: tradition }
-born: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 died: { edtf: "660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Usd al-Ghaba (Ibn al-Athir)" }
 relations:
   - { type: member_of, target: group/banu-jumah }

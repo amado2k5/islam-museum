@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/bayazid-i-yildirim, role: "المهزوم الأسير", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/timur-lang, role: "الغالب", sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 69-70"
@@ -20,5 +21,10 @@ provenance:
   run: lib-salabi-uthmani-batch-2
 external_ids:
   wikidata: Q209387
+sides:
+  - label: { ar: "الجيش العثماني بقيادة بايزيد الأول", en: "The Ottoman army under Bayezid I" }
+    commanders: [person/bayazid-i-yildirim]
+  - label: { ar: "الجيش التيموري بقيادة تيمورلنك", en: "The Timurid army under Timur" }
+    commanders: [person/timur-lang]
 sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/muhammad-ibn-harun, role: "الملتحق المتوفى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/makran }
 wings: [time]
+sides:
+  - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
+    commanders: [person/muhammad-ibn-al-qasim, person/jahm-ibn-zahr, person/al-walid-ibn-abd-al-malik]
+  - label: { ar: "مكران", en: "Makran" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

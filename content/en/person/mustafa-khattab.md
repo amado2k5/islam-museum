@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mustafa Khattab is a Canadian–Egyptian Muslim scholar and imam whose English rendering of the Qur'an, The Clear Quran, has become one of the most widely distributed translations in North America. The sources for his life give no birth date or birthplace — his institutional biography is as silent as his encyclopedia entries — so this record leaves his birth unrecorded rather than guess at it{cite:wikidata-khattab}{cite:cik-khattab-bio}. What the sources do record is a formation wholly in the Qur'an and its language: he memorised the entire Qur'an at a young age, holds a professional ijazah in the Hafs recitation with its chain of narrators back through the generations, and took his BA, MA and PhD in Islamic Studies in English, with honours, from Al-Azhar University's Faculty of Languages & Translation{cite:wikipedia-khattab-en}.
 

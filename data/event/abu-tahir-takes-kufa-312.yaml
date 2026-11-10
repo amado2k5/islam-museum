@@ -14,10 +14,16 @@ relations:
   - { type: occurred_at, target: place/kufa, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/jafar-ibn-warqa-al-shaybani, role: "والي الكوفة المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kamil-batch-4
+sides:
+  - label: { ar: "جيش أبو طاهر سليمان القرمطي", en: "Abu Tahir Sulayman al-Qarmati's army" }
+    commanders: [person/abu-tahir-al-qarmati]
+  - label: { ar: "جعفر بن ورقاء الشيباني", en: "جعفر بن ورقاء الشيباني" }
+    participants: [person/jafar-ibn-warqa-al-shaybani]
 sources: [source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); needs_source: date (second source to be checked)" }

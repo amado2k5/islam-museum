@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/ahmad-al-mansur-al-sadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

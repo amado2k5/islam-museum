@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Peer Maqbool Shah Kralawari (1820–1877) was a nineteenth-century Kashmiri poet educated in Persian literature and counted among the finest poets of his century in Kashmir.{cite:wikipedia-maqbool-shah-kralawari-en} The queue's death year of 1875 is corrected by the articles, which give 1877; Wikidata instead gives 1876.{cite:wikipedia-maqbool-shah-kralawari-en}{cite:wikidata-maqbool-shah-kralawari} He wrote in both Persian and Kashmiri, turning his hand to devotional poems, satire and the ghazal.{cite:wikipedia-maqbool-shah-kralawari-en}
 

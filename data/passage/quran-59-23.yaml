@@ -17,6 +17,14 @@ translations:
   ur: { text: "وہی خدا ہے جس کے سوا کوئی عبادت کے لائق نہیں۔ بادشاہ (حقیقی) پاک ذات (ہر عیب سے) سلامتی امن دینے والا نگہبان غالب زبردست بڑائی والا۔ خدا ان لوگوں کے شریک مقرر کرنے سے پاک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
+  - { type: mentions, target: concept/asma-al-malik, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-quddus, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-salam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-mumin, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-muhaymin, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-aziz, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-jabbar, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-mutakabbir, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

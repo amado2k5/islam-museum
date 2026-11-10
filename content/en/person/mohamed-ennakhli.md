@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mohamed Ennakhli (1869–1924) was a Tunisian Zaytuna scholar and reformer born at Kairouan.{cite:wikipedia-mohamed-ennakhli-fr}{cite:wikidata-mohamed-ennakhli} He joined the Zaytuna in 1304 AH and studied under Salem Bouhageb, Mahmoud Ben Mahmoud and Mohamed Ennajar, rising to the first rank of its teachers, and over some thirty-five years he formed a whole pleiad of scholars who went on to the highest civil and religious offices in Tunisia.{cite:wikipedia-mohamed-ennakhli-ar}{cite:wikipedia-mohamed-ennakhli-fr} His liberal ideas were inspired by the great nineteenth-century Muslim reformers, above all Muhammad Abduh and Jamal al-Din al-Afghani; he also taught at the Khaldounia, the school founded in 1896 to teach the subjects the Zaytuna did not, such as mathematics and the physical sciences, and he was an active member of the Sadiki College improvement council set up in 1906.{cite:wikipedia-mohamed-ennakhli-fr}
 

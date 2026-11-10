@@ -13,6 +13,11 @@ relations:
   - { type: had_participant, target: person/aws-ibn-thalaba, role: "أمير ربيعة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/qays-ibn-asim-al-sulami, role: "قاتل سليمان", sources: [source/futuh-buldan-maarif-1407] }
 wings: [time]
+sides:
+  - label: { ar: "جيش عبد الله بن خازم السلمي", en: "Abdallah ibn Khazim al-Sulami's army" }
+    commanders: [person/abdallah-ibn-khazim-al-sulami, person/umar-ibn-marthad]
+  - label: { ar: "سليمان بن مرثد", en: "Sulayman ibn Marthad" }
+    participants: [person/sulayman-ibn-marthad]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

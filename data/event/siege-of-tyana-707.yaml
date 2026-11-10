@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0707", precision: year, status: tradition, derived: true }
   end: { edtf: "0709", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q815221

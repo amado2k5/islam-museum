@@ -18,7 +18,7 @@ relations:
   - { type: had_participant, target: person/zayd-ibn-haritha, role: "أمير الجيش؛ جُرح في الأولى وأمر بقتل أم قرفة في الثانية", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/qays-ibn-al-musakhkhar, role: "قتل مسعدة بن حكمة ثم أم قرفة بأمر زيد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/umm-qirfa, role: "أُسرت وقُتلت", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/masada-ibn-hakama, role: "قُتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/masada-ibn-hakama, role: "قُتل", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/salama-ibn-al-akwa, role: "أصاب بنت أم قرفة", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: group/banu-fazara, role: "المُغار عليهم", sources: [source/ibn-hisham-saqqa] }
 sides:

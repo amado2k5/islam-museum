@@ -4,6 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 ---
+## موجز
 
 راغب الخالدي (1866–1952) قاضٍ مقدسي من عائلة الخالدي، خدم في قضاء القدس ثم يافا.{cite:wikipedia-khalidi-library-en}{cite:raymond-khalidiyya-library-mela} وفي سنة 1900 افتتح المكتبة الخالدية للجمهور في مبنى مملوكي بالبلدة القديمة، موحّدًا مجموعات المخطوطات التي راكمتها عائلته عبر قرون.{cite:wikipedia-khalidi-library-en}{cite:jerusalem-post-khalidi-library-2016}
 

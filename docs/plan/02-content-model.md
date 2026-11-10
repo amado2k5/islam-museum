@@ -79,7 +79,12 @@ Twenty-two classes, grouped by what they are. Each has a JSON Schema in `schema/
 |---|---|---|
 | `listing` | A contemporary Muslim-made business, brand, shop, publisher, app, studio, media outlet, charity, school or product (see `11-made-directory.md`) | `kind`, `categories[]`, `made {by_muslims, basis ∈ {self-identified, documented, unverified}, sources}`, `founded`, `status_business`, `location {place, coordinates, online_only, serves[]}`, `links`, `certifications[]`, `last_checked` |
 
-Twenty-two classes. Adding `oral_history`, `recipe`, `lesson_plan`, `model3d`, `game` later = new schema + template + page layout; the graph, build and UI patterns already handle it.
+### Education
+| Class | What | Key fields |
+|---|---|---|
+| `course` | A node in a school-curriculum tree for the Education Browser (`/{lang}/learn/`): `kind ∈ {jurisdiction, grade, subject, unit, lesson}`, nested by `part_of`. Pilot: Ontario Grade 6 Science (`course/ca-on-*`) | `kind`, `part_of`, `order`, `country`, `region`, `board`, `language_of_instruction[]`, `grade_number`, `subject_name`, `curriculum_ref`, `expectations[] {code, text}`, `lessons[]` (ordered refs), `connections[] {position ∈ {before, within, after}, kind ∈ {reflection, story, scholar, invention, career, quran, hadith, place, object}, entity?, ref? (e.g. `2:189`), title, text, sources}` — the cards that weave Muslim scholars, inventions, stories and verses through each lesson |
+
+Twenty-three classes. Adding `oral_history`, `recipe`, `lesson_plan`, `model3d`, `game` later = new schema + template + page layout; the graph, build and UI patterns already handle it.
 
 ## 3. Common base (every entity)
 

@@ -25,6 +25,8 @@ relations:
   target: place/basra
   sources:
   - source/akhbar-tiwal-amir
+- { type: during_reign, target: person/yazid-ibn-muawiya, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/muawiya-ibn-yazid, sources: [source/tarikh-khulafa-minhaj-1434] }
 date:
   start:
     hijri: '0064'

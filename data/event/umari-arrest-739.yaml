@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/cairo, sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/ibn-fadl-allah-al-umari, role: "المعتقل", sources: [source/durar-kamina-jil-1993] }
   - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "الآمر بالاعتقال", sources: [source/durar-kamina-jil-1993] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/durar-kamina-jil-1993]
 provenance:
   layer: own-research

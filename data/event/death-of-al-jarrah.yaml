@@ -14,6 +14,7 @@ relations:
   - { type: occurred_at, target: place/ardabil }
   - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "المستشهد ومن معه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: group/khazars, role: "الجيش الجائش عابر الرس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290"

@@ -9,8 +9,8 @@ gender: female
 themes:
 - women
 summary:
-  ar: بطاقة أولية لسفانة بنت حاتم الطائي، ابنة حاتم الطائي في القرن السابع؛ تذكرها كتب التراجم ولم تُراجع ترجمتها على الصفحة بعد.
-  en: Draft card for Saffanah bint Hatim al-Ta'i, the seventh-century daughter of Hatim al-Ta'i; the biographical entry is not yet checked on the page.
+  ar: "صحابية طائية، أخت عدي بن حاتم؛ وقعت في السبي في سرية طيء فأعتقها النبي وكساها وحملها وأعطاها نفقة حتى قدمت على أخيها، فأسلمت وحسن إسلامها ونصحت أخاها أن يلحق به."
+  en: "A Ta'iyya woman Companion, sister of Adi ibn Hatim; taken captive in the Tayy raid, the Prophet freed her, clothed her, mounted her and provisioned her until she reached her brother — she embraced Islam and counselled Adi to join him."
 wings:
 - people
 regions:
@@ -19,6 +19,7 @@ periods:
 - period/prophetic-era
 sources:
 - source/al-aalam
+- source/ibn-hajar-isaba
 born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
 relations:
@@ -30,6 +31,11 @@ relations:
   target: place/najd
   sources:
   - source/al-aalam
+- type: member_of
+  target: group/tayy
+  note: "al-Isaba p. 1894"
+  sources:
+  - source/ibn-hajar-isaba
 external_ids:
   wikidata: Q12216184
 provenance:

@@ -11,12 +11,15 @@ wings: [people]
 summary:
   ar: "عبد الله بن يزيد بن زيد بن حصين الأنصاري الخطمي، أبو موسى، صحابي شهد الحديبية وهو صغير، وشهد الجمل وصفين مع علي، وكان أميرا له على الكوفة. روى عن النبي وعن أبي أيوب وأبي مسعود وزيد بن ثابت. وعنه ابنه موسى والشعبي ومحمد بن سيرين. توفي نحو سنة 70هـ. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3491}"
   en: "Abd Allah ibn Yazid ibn Zayd al-Ansari al-Khatmi, Abu Musa, a Companion who as a young man witnessed Hudaybiyya, fought with Ali at the Camel and Siffin, and was his governor in Kufa. He narrated from the Prophet, Abu Ayyub, Abu Mas'ud and Zayd ibn Thabit; his son Musa, al-Sha'bi and Muhammad ibn Sirin narrated from him. The page gives his death as about 70 AH. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3491}"
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
-died: { edtf: "690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: governor of Kufa for Ibn al-Zubayr" }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
+died: { edtf: "0690~", hijri: "0070~", calendar: julian, precision: year, status: tradition, derived: true, note: "Settled at Kufa and died in the time of Ibn al-Zubayr (al-Baghawi, al-Isaba p. 962); CE year approximated to 70 AH within that period", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
   - { type: member_of, target: group/ansar, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
+  - { type: member_of, target: group/al-khazraj, note: "al-Isaba p. 962", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 962", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-the-bridge, note: "messenger of his people on the day of Abu Ubayd's bridge (al-Isaba p. 962)", sources: [source/ibn-hajar-isaba] }
 provenance:
   layer: own-research
   source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3491"

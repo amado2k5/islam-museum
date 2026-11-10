@@ -25,6 +25,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/death-of-the-prophet }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "كيف تُوصف بيعة أبي بكر في السقيفة: اختياراً من قادة الجماعة، أم عملية سياسية، أم خروجاً على تعيين سابق؟", en: "How is the pledge to Abu Bakr at Saqifa described: a choice by the community's leaders, a political process, or a departure from an earlier designation?" }
 perspectives:
   - tradition: sunni

@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/muhammad-i-jalabi, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: "own-research"

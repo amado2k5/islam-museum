@@ -11,6 +11,8 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0958", precision: year, status: tradition, derived: true }
   end: { edtf: "0958", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2889727

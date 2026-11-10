@@ -5,7 +5,7 @@ label:
   en: "Osman III"
 names:
   - { kind: full, lang: ar, value: "عثمان بن مصطفى الثاني" }
-roles: [sultan]
+roles: [sultan, caliph]
 gender: male
 summary:
   ar: "عثمان الثالث، سلطان عثماني ⁦(1171-1168هـ)⁩؛ تولى في الثامنة والخمسين وبُويع في جامع أبي أيوب، وحكم ثلاث سنوات بلا حروب خارجية مهتماً بالإصلاح الداخلي وقمع الثورات، وكان يتحسس أحوال الرعية ليلاً متنكراً."
@@ -16,6 +16,8 @@ periods: [period/gunpowder-empires]
 born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
 died: { edtf: "1757", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2" }
 relations:
+  - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
+  - { type: successor_of, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
   - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
   - { type: buried_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q406)" }
   - { type: buried_in, target: building/new-mosque-istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q911720)" }
@@ -31,3 +33,5 @@ provenance:
 status:
   review: published
   completeness: 3
+story_roles:
+  - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1754", calendar: julian, precision: year }, end: { edtf: "1757", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

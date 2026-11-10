@@ -19,6 +19,7 @@ date:
   start: { edtf: "1043~", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٣٥ {cite:muntazam-ibn-al-jawzi j.8 p.459}" }
 relations:
   - { type: occurred_at, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٣٥)، قراءة آبل فيجن، مسح AAlexandrina-224011"

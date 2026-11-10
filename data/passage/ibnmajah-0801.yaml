@@ -1,0 +1,22 @@
+id: passage/ibnmajah-0801
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "801"
+label:
+  ar: "ابن ماجه 801 — يباهي بكم الملائكة: انظروا إلى عبادي قد قضوا فريضة"
+  en: "Ibn Majah 801 — He boasts of you to the angels: look at My servants who have fulfilled an obligation"
+  ur: "ابن ماجہ 801 — وہ تم پر فرشتوں کے سامنے فخر کرتا ہے: میرے بندوں کو دیکھو جنہوں نے ایک فریضہ ادا کیا"
+text: "أبشروا هذا ربكم قد فتح بابا من أبواب السماء يباهي بكم الملائكة يقول انظروا إلى عبادي قد قضوا فريضة وهم ينتظرون أخرى ."
+summary:
+  ar: "حديث قدسي في سنن ابن ماجه، رقم 801: يباهي بكم الملائكة: انظروا إلى عبادي قد قضوا فريضة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan Ibn Majah, no. 801: He boasts of you to the angels: look at My servants who have fulfilled an obligation. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن ابن ماجہ میں حدیثِ قدسی، نمبر 801: وہ تم پر فرشتوں کے سامنے فخر کرتا ہے: میرے بندوں کو دیکھو جنہوں نے ایک فریضہ ادا کیا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [worship-and-the-pillars]
+tags: [hadith-qudsi, qudsi-mubahat-al-malaika-bil-musallin]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-ibn-majah] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 801; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

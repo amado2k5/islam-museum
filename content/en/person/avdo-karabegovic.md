@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Avdo Karabegović (25 August 1878 – 18 December 1908), who published as S. Avdo Karabegović, was a Bosnian Muslim poet from Modriča — the byname Halidbegov, taken from his father Halid-beg, distinguishes him from his cousin Avdo Karabegović Hasanbegov.{cite:wikipedia-avdo-karabegovic-hr}{cite:wikipedia-avdo-karabegovic-en} An ardent Serbophile — the initial 'S.' stood for Srbin, 'Serb' — he published his first poem at seventeen, attended school in Constantinople, and, after crossing into Zemun in 1900, was arrested by the Austro-Hungarian authorities for draft evasion and forcibly inducted into the army, where he contracted tuberculosis.{cite:wikipedia-avdo-karabegovic-en}
 

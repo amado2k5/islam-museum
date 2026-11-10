@@ -11,6 +11,10 @@ relations:
   - { type: had_participant, target: person/khalid-ibn-zayd-al-muzani, role: "الراوي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/al-sus }
 wings: [time]
+sides:
+  - label: { ar: "جيش أبو موسى الأشعري", en: "Abu Musa al-Ashari's army" }
+    commanders: [person/abu-musa-al-ashari]
+  - label: { ar: "السوس", en: "al-Sus (Shush)" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Walima lexically comes from walm, gathering, because the spouses come together; it names the food of a wedding or a betrothal, or any food made for a wedding or another occasion. Technically it is any food made for a happy event, such as a wedding or betrothal, though its use for a wedding is most common. This entry covers the rules of the wedding feast; the other feasts are under the entry on invitations (da'wa). {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17946}
 

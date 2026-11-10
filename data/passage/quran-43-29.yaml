@@ -17,6 +17,7 @@ translations:
   ur: { text: "بات یہ ہے کہ میں ان کفار کو اور ان کے باپ دادا کو متمتع کرتا رہا یہاں تک کہ ان کے پاس حق اور صاف صاف بیان کرنے والا پیغمبر آ پہنچا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
+  - { type: mentions, target: concept/asma-al-haqq, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0863", precision: year, status: tradition, derived: true }
   end: { edtf: "0863", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش ملاطية بقيادة عمر الأقطع", en: "The Malatya army under Umar al-Aqta" }
+  - label: { ar: "الجيش البيزنطي بقيادة بطروناس", en: "The Byzantine army under Petronas" }
+    participants: [person/al-mustain]
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q1719427

@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/tarikh-islam-hasan-ibrahim] }
   - { type: had_participant, target: person/aurangzeb-mughal, role: "السلطان المتوج", sources: [source/tarikh-islam-hasan-ibrahim] }
+  - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 provenance:
   layer: own-research

@@ -16,7 +16,7 @@ relations:
   - { type: had_participant, target: group/jurhum, role: "الطائفة المُجلية", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
   - { type: had_participant, target: group/khuzaa, role: "القبيلة الغالبة المتحالفة", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/banu-bakr-ibn-abd-manaf, role: "الحليف العدناني", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/amr-ibn-al-harith-al-jurhumi, role: "الذي دفن غزالي الكعبة وحجر الركن في زمزم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: related_to, target: person/amr-ibn-al-harith-al-jurhumi, role: "الذي دفن غزالي الكعبة وحجر الركن في زمزم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: part_of, target: period/pre-islamic-arabia }
 sides:
   - label: { en: "Khuza'a and Banu Bakr", ar: "خزاعة وبنو بكر" }

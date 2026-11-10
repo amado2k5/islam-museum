@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
+## خلاصہ
 
 ابو بصیر عتبہ بن اسید بن جاریہ الثقفی، مکہ میں بنی زہرہ کے حلیف؛ وہ حدیبیہ کے بعد اسلام لائے اور مدینہ کی طرف بھاگ گئے۔ تو قریش نے صلح کی شرط کے تحت ان کی تلاش میں دو آدمی بھیجے {cite:mubarakpuri-raheeq}.
 

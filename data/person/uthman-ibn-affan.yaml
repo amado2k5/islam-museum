@@ -26,6 +26,7 @@ faith:
 labelled:
   - { label: { en: "Dhu al-Nurayn (Possessor of the Two Lights)", ar: "ذو النورين" }, by: "Islamic tradition, for marrying two daughters of the Prophet in succession", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: ruled_over, target: polity/rashidun-caliphate, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: born_in, target: place/taif }
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/banu-umayya }
@@ -40,6 +41,7 @@ relations:
   - { type: commissioned, target: work/mushaf-uthmani, note: "The standard recension of the Qur'an produced under his caliphate.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/murder-of-uthman, role: victim, sources: [source/watt-1956-medina] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira] }
+  - { type: exemplifies, target: concept/asma-al-karim, sources: [source/ibn-sad-tabaqat-bewley] }
 issue: { ar: "كيف تُقيَّم خلافة عثمان بن عفان ومقتله؟", en: "How is Uthman ibn Affan's caliphate and his killing assessed?" }
 perspectives:
   - tradition: sunni

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 Abu Jandal al-As ibn Suhayl ibn Amr al-Amiri al-Qurashi, a notable Companion who became Muslim early in Mecca and was tortured by his father Suhayl and held in chains. {cite:mubarakpuri-raheeq}
 
 When the writing of the Hudaybiyya document between the Prophet and his father Suhayl was done, Abu Jandal broke out of his confinement and came dragging his chains, throwing himself among the Muslims. Suhayl seized him by the collar saying: "this is the first thing I take you to task on — return him to me." The Muslims adjured him, and the Prophet said: "Abu Jandal, be patient and seek the reward — God will make for you and for the powerless with you a relief and a way out; we have made peace between us and the people, and we do not betray." {cite:sahih-al-bukhari}

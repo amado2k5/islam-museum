@@ -11,6 +11,8 @@ regions: [east-africa]
 date:
   start: { edtf: "1945-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1945-07", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q107223474

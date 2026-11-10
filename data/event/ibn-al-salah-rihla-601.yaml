@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/dubays, sources: [source/tarikh-islam-dhahabi] }
   - { type: occurred_at, target: place/hamadan, sources: [source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/ibn-al-salah, role: "رحالة في طلب الحديث", sources: [source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

@@ -20,10 +20,15 @@ relations:
   - { type: had_participant, target: person/hurmuzan, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-numan-ibn-muqarrin, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-bara-ibn-azib, sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-kamil-v2-batch03, lib-akhbar-tiwal-batch-3-2026-10-31
+sides:
+  - label: { ar: "جيش أبو موسى الأشعري", en: "Abu Musa al-Ashari's army" }
+    commanders: [person/abu-musa-al-ashari]
+  - label: { ar: "تستر", en: "Tustar" }
 sources: [source/kamil-ibn-al-athir, source/akhbar-tiwal-amir, source/futuh-buldan-maarif-1407]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

@@ -19,7 +19,7 @@ relations:
   - { type: had_participant, target: person/muhammad, role: "كتب الجواب", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-harith-ibn-abd-kulal, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/nuaym-ibn-abd-kulal, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
-  - { type: had_participant, target: person/al-numan-qayl-dhi-ruayn, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
+  - { type: related_to, target: person/al-numan-qayl-dhi-ruayn, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/zura-dhu-yazan, role: "بعث الرسول بإسلامهم", sources: [source/ibn-hisham-saqqa] }
   - { type: caused, target: event/mission-of-muadh-to-yemen, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/year-of-delegations }

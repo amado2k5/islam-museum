@@ -11,6 +11,12 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0732", precision: year, status: tradition, derived: true }
   end: { edtf: "0732", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش الأندلس بقيادة عبد الرحمن الغافقي", en: "The Andalusi army under al-Ghafiqi" }
+    commanders: [person/abd-al-rahman-al-ghafiqi]
+  - label: { ar: "أهل الأكيتين بقيادة إيد", en: "The Aquitainians under Odo" }
 sources: [source/futuh-buldan-maarif-1407]
 external_ids:
   wikidata: Q2524627

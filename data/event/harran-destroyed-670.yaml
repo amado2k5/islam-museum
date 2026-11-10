@@ -12,6 +12,7 @@ map: { kind: locator, precision: locality, center: [36.8633, 39.0317] }
 date: { start: { edtf: "1272-03~", hijri: "0670-09", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان سنة سبعين وستمائة {cite:shadharat-dhahab p. 577}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 670)، قراءة آبل فيجن"

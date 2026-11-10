@@ -11,6 +11,8 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1826-08-03", precision: year, status: tradition, derived: true }
   end: { edtf: "1827-05-25", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q12883576

@@ -40,7 +40,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 born: { edtf: "612~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Hajar (al-Isaba)" }
-died: { edtf: "693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Hajar (al-Isaba)" }
+died: { edtf: "0693", hijri: "0074", calendar: julian, precision: year, status: debated, derived: true, note: "Al-Waqidi gives 74 AH; other reports give 64, 63 (al-Mada'ini) or 65 (al-Isaba p. 563); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba], confidence: low }
 - { type: participated_in, target: event/sariyya-of-alqama-to-jeddah, role: "كان في الجيش وراوي خبر دعابة ابن حذافة", sources: [source/ibn-hisham-saqqa] }

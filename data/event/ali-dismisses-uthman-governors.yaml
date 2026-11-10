@@ -13,7 +13,7 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/uthman-ibn-hunayf, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/sahl-ibn-hunayf, role: "رُدّ من تبوك", sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/tulayha-ibn-khuwaylid, role: "ردّ عمارة بن شهاب", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/tulayha-ibn-khuwaylid, role: "ردّ عمارة بن شهاب", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/qays-ibn-sad, role: "ولي مصر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ubaydallah-ibn-abbas, role: "ولي اليمن", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/umara-ibn-shihab, role: "رُدّ عن الكوفة", sources: [source/kamil-ibn-al-athir] }

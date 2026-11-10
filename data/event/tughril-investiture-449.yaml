@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/al-qaim-billah, role: "المقلِّد", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/ibn-al-muslima, role: "رئيس الرؤساء المترجم", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "عميد الملك الصاعد مع السلطان", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج8، سنة 449)، قراءة آبل فيجن"

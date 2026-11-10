@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/ubaydallah-ibn-matar, role: "قائد المقدمة المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/istakhr }
 wings: [time]
+sides:
+  - label: { ar: "جيش عبد الله بن عامر", en: "Abd Allah ibn Amir's army" }
+    commanders: [person/abd-allah-ibn-amir, person/mahak, person/ubaydallah-ibn-matar]
+  - label: { ar: "إصطخر", en: "Istakhr" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2), draft translation"]
 ---
+## Summary
 In Rabi' al-Awwal of the fifth year of the Hijra, Medina's intelligence reported that the tribes around Dumat al-Jandal — on the border of al-Sham and al-Jawf — were cutting the road and plundering what passed, and that they had mustered hosts meaning to raid Medina; the Prophet set Siba' ibn Urfuta al-Ghifari over Medina and went out with a thousand fighters. {cite:mubarakpuri-raheeq}
 
 The Prophet marched by night and lay hidden by day to surprise the enemy, until he came within reach of their dwellings; when those hosts heard of his arrival they scattered in every direction, abandoning their herds and flocks, which the Muslims took. {cite:mubarakpuri-raheeq}

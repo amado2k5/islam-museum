@@ -19,12 +19,14 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي بدري في قول النبي في الخبر نفسه." }
 born: { edtf: "586~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+died: { edtf: "0651", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "Died 30 AH in Uthman's caliphate, aged sixty-five (al-Mada'ini per Ibn Abi Khaythama, also al-Tabarani — al-Isaba p. 281); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/ansab-al-ashraf] }
   - { type: authored, target: work/hatib-letter-to-quraysh }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "Badri on the Muslim side; a Lakhmite halif of Banu Asad settled in Mecca (al-Isaba p. 281)", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 281", sources: [source/ibn-hajar-isaba] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 40–41", generated_by: "Devin (SWE-2 Flash High)", model: "SWE-2 Flash High", run: "prose-fill-persons-batch52" }
 external_ids: { wikidata: "Q1108701" }
-sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/sallabi-ali-vol1]
+sources: [source/ansab-al-ashraf, source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/sallabi-ali-vol1, source/ibn-hajar-isaba]
 status: { review: published, completeness: 3 }

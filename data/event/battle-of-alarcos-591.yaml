@@ -14,6 +14,7 @@ date:
 relations:
   - { type: had_participant, target: person/yaqub-al-mansur-al-muwahhidi, role: "السلطان الموحدي المنتصر", sources: [source/nafh-tib-maqqari] }
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/yaqub-al-mansur-al-muwahhidi, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 381–382؛ الكامل — ابن الأثير، مسح kamilt00_201908، ص 236-237"
@@ -21,5 +22,9 @@ provenance:
   run: lib-nafh-tib-batch-54
 external_ids:
   wikidata: Q1481920
+sides:
+  - label: { ar: "جيش يعقوب المنصور الموحدي", en: "يعقوب المنصور الموحدي's army" }
+    commanders: [person/yaqub-al-mansur-al-muwahhidi]
+  - label: { ar: "قرطبة", en: "Cordoba" }
 sources: [source/nafh-tib-maqqari, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

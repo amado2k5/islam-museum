@@ -17,10 +17,16 @@ relations:
   - { type: had_participant, target: person/al-mansur, role: "المشيّع المنفق", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/rawh-ibn-hatim, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-fadl-ibn-rawh, role: "المذبوح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-23
+sides:
+  - label: { ar: "جيش روح بن حاتم", en: "روح بن حاتم's army" }
+    commanders: [person/rawh-ibn-hatim, person/yazid-ibn-hatim]
+  - label: { ar: "أبو خاتم السدراتي", en: "Abu Khatim al-Saddrati" }
+    participants: [person/abu-khatim-al-saddrati]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

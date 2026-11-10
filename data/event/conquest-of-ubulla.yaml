@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "قاسم الغنائم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/ubulla }
 wings: [time]
+sides:
+  - label: { ar: "جيش عتبة بن غزوان", en: "Utba ibn Ghazwan's army" }
+    commanders: [person/utba-ibn-ghazwan]
+  - label: { ar: "الأبلة", en: "al-Ubulla" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

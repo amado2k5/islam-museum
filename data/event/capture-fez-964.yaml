@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/salih-rais, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/abu-hasun-al-wattasi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/fes, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

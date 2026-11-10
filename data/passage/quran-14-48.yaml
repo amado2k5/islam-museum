@@ -17,6 +17,8 @@ translations:
   ur: { text: "جس دن یہ زمین دوسری زمین سے بدل دی جائے گی اور آسمان بھی (بدل دیئے جائیں گے) اور سب لوگ خدائے یگانہ وزبردست کے سامنے نکل کھڑے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
+  - { type: mentions, target: concept/asma-al-qahhar, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-wahid, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

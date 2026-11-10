@@ -11,6 +11,11 @@ regions: [south-asia]
 date:
   start: { edtf: "1565", precision: year, status: tradition, derived: true }
   end: { edtf: "1565", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "تحالف سلطنات الدكن", en: "The Deccan sultanates' alliance" }
+  - label: { ar: "إمبراطورية فيجاياناجار", en: "The Vijayanagara Empire" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q1362188

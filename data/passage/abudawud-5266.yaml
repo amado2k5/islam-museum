@@ -1,0 +1,21 @@
+id: passage/abudawud-5266
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5266"
+label:
+  ar: "أبو داود 5266 — نبي قرصته نملة: فهلا نملة واحدة"
+  en: "Abu Dawud 5266 — A prophet stung by an ant: why not just the one ant"
+  ur: "ابو داود 5266 — ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں"
+text: "إن نملة قرصت نبيا من الأنبياء فأمر بقرية النمل فأحرقت فأوحى الله إليه في أن قرصتك نملة أهلكت أمة من الأمم تسبح ."
+summary:
+  ar: "حديث قدسي في سنن أبي داود، رقم 5266: نبي قرصته نملة: فهلا نملة واحدة. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sunan Abi Dawud, no. 5266: A prophet stung by an ant: why not just the one ant. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "سنن ابی داود میں حدیثِ قدسی، نمبر 5266: ایک نبی جسے چیونٹی نے کاٹا: صرف ایک چیونٹی کیوں نہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-qarsat-namla]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sunan-abi-dawud] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5266; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

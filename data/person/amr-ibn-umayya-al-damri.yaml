@@ -24,14 +24,16 @@ story_roles:
   - { role: official, toward: person/muhammad, start: { edtf: "0628~" }, status: historical, note: "سفير النبي إلى النجاشي (الرحيق ص352).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي وسفير النبي." }
-died: { edtf: "675~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "0659~", hijri: "0039~", calendar: julian, precision: year, status: tradition, derived: true, note: "Lived into Mu'awiya's caliphate and died at Medina before 60 AH (Abu Nu'aym, al-Isaba p. 1086); CE year approximated to 39 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/abyssinia, note: "From text: of Abyssinia.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المبعوث لقتل أبي سفيان؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh, note: "حليف قريش من كنانة" }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "الناجي الذي حمل الخبر إلى المدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira, source/ibn-hisham-saqqa]}
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
+  - { type: participated_in, target: event/incident-of-bir-mauna, note: "taken captive at Bi'r Ma'una and released by Amir ibn al-Tufayl (al-Isaba p. 1086)", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 294, 352" }
 provenance:
   layer: own-research

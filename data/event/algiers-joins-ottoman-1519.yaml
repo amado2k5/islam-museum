@@ -13,8 +13,9 @@ date:
 relations:
   - { type: had_participant, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
-  - { type: had_participant, target: person/abu-al-abbas-ahmad-ibn-qadi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: related_to, target: person/abu-al-abbas-ahmad-ibn-qadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/selim-i-uthmani, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research

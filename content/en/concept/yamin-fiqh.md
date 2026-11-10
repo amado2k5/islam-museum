@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yamin in lexicon is the side and the limb, the opposite of yasar, the left; al-Zamakhshari cites "I took his yamin and his yumna," and the right hand is called al-yumna. Yamin also names the oath, so called because men pressed their right hands when swearing alliance, and the one sworn by may itself be called yamin. The word is feminine in every sense, and its plurals are ay mun, ayman, ayamin and ayamin; the jurists' use does not depart from the lexical meaning. What is treated here is the right hand and the right side; the oath was detailed under the headword ayman. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.18005}
 

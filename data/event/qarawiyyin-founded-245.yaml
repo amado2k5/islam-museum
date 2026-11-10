@@ -14,6 +14,7 @@ date:
   end: { edtf: "0859", precision: year, status: tradition, derived: true }
 relations:
   - { type: occurred_at, target: place/fes, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-ibn-khaldun-ibar]
 provenance:
   layer: own-research

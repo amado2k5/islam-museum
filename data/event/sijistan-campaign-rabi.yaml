@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/al-hasan-al-basri, role: "الكاتب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sijistan }
 wings: [time]
+sides:
+  - label: { ar: "جيش الربيع بن زياد الحارثي", en: "al-Rabi' ibn Ziyad al-Harithi's army" }
+    commanders: [person/al-rabi-ibn-ziyad-al-harithi, person/aparwiz]
+  - label: { ar: "سجستان", en: "Sijistan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

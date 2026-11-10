@@ -12,6 +12,7 @@ date:
   start: { edtf: "1374~", hijri: "0775~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبيل انتقال ابن خلدون إلى تلمسان 776؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 2016}." }
 relations:
   - { type: had_participant, target: person/ibn-al-khatib, role: "المقتول", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"

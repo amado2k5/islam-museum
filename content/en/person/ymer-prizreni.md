@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Ymer Prizreni (c. 1820 – 12 June 1887), also known as Ymer Drini, was an Ottoman-Albanian 'alim and hoxha born at Zgatar in Opojë into a family of müderrises and landowners — his grandfather Ali Nuhi had founded the first mosque of Zgatar in 1814, and his father Sylejman served as imam of the Bajrakli Mosque in Prizren.{cite:wikipedia-ymer-prizreni-en} Educated in Prizren and then in Istanbul, where he studied Islamic theology and jurisdiction, he taught in the madrasa of Prizren and won a reputation as a defender of the lower classes against the corrupt Ottoman administration.{cite:wikipedia-ymer-prizreni-en}{cite:wikipedia-ymer-prizreni-sq}
 

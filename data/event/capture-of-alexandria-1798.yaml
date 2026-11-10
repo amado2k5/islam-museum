@@ -21,6 +21,7 @@ relations:
   - { type: occurred_at, target: place/alexandria, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: part_of, target: event/french-campaign-egypt-1213, sources: [source/ajaib-al-athar-moreh-v3] }
   - { type: had_participant, target: person/muhammad-kurayyim, role: "رئيس الثغر", sources: [source/ajaib-al-athar-moreh-v3] }
+  - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/ajaib-al-athar-moreh-v3]
 external_ids:
   wikidata: Q3403790

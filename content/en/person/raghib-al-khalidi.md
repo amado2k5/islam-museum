@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Raghib al-Khalidi (1866–1952) was a Jerusalem judge of the Khalidi family who served in the judiciary of Jerusalem and then of Jaffa.{cite:wikipedia-khalidi-library-en}{cite:raymond-khalidiyya-library-mela} In 1900 he opened the Khalidi Library to the public in a Mamluk-era building in the Old City, uniting the manuscript collections his family had accumulated over centuries.{cite:wikipedia-khalidi-library-en}{cite:jerusalem-post-khalidi-library-2016}
 

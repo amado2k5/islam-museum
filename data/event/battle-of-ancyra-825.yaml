@@ -11,6 +11,12 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "0825", precision: year, status: tradition, derived: true }
   end: { edtf: "0825", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/abd-allah-al-mamun, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العباسي", en: "The Abbasid army" }
+    participants: [person/abd-allah-al-mamun]
+  - label: { ar: "حامية أنقرة والروم", en: "The Ancyra garrison and the Byzantines" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q140478265

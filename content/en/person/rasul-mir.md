@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Rasul Mir, also called Rasul Mir Shahabadi, was a Kashmiri romantic poet of Doru Shahabad in Anantnag, born into a family of zamindars who were the village heads of Mir Maidan.{cite:wikipedia-rasul-mir-en} Conventionally dated 1840–1870 — the years carried by Wikidata and stated by the Kashmir Times — his birth and death remain, in the English biography's own words, a debatable subject: the same account places him alive about 1855 yet reports a revenue document of 5 April 1889 that still acknowledged him as a serving muqdam, or village headman.{cite:wikipedia-rasul-mir-en}{cite:wikidata-rasul-mir}{cite:kashmir-times-gami-rasul-triad}
 

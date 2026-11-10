@@ -11,6 +11,14 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1516", precision: year, status: tradition, derived: true }
   end: { edtf: "1516", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: during_reign, target: person/al-mutawakkil-iii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
+    participants: [person/selim-i-uthmani]
+    commanders: [person/selim-i-uthmani]
+  - label: { ar: "الجيش المملوك", en: "The Mamluk army" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q85970703

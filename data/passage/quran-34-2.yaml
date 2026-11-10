@@ -17,6 +17,8 @@ translations:
   ur: { text: "جو کچھ زمین میں داخل ہوتا ہے اور جو اس میں سے نکلتا ہے اور جو آسمان سے اُترتا ہے اور جو اس پر چڑھتا ہے سب اس کو معلوم ہے۔ اور وہ مہربان (اور) بخشنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: concept/asma-al-ghafur, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

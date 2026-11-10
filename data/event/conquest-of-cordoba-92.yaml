@@ -12,11 +12,16 @@ date:
   start: { edtf: "0711~", hijri: "0092~", calendar: julian, precision: year, derived: true }
 relations:
   - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+  - { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-26
 external_ids: { wikidata: "Q123997942" }
+sides:
+  - label: { ar: "جيش مغيث الرومي", en: "مغيث الرومي's army" }
+    commanders: [person/mughith-al-rumi]
+  - label: { ar: "قرطبة", en: "Cordoba" }
 sources: [source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

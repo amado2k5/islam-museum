@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/aisha, role: "نُسب إليها كتابة الكتب إلى الأمصار، فنفت ذلك", sources: [source/sallabi-ali-vol1] }
   - { type: caused_by, target: event/uthman-settlement-with-delegations, sources: [source/sallabi-ali-vol1] }
   - { type: caused, target: event/murder-of-uthman, sources: [source/sallabi-ali-vol1] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 issue: { ar: "هل الكتاب المنسوب إلى عثمان صحيح أم مزوّر؟", en: "Was the letter attributed to Uthman genuine or forged?" }
 perspectives:

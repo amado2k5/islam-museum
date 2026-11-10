@@ -13,6 +13,8 @@ date:
 relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المتصدِّق والمصلي", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/kufa }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+  - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/sallabi-ali-vol1]
 issue: { ar: "هل يتخذ الترفع عن المال صورة إفراغ بيت المال، وما دلالة الصلاة فيه؟", en: "Whether emptying the treasury is a sign of detachment, and what the prayer in it means" }
 perspectives:

@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Essad Toptani (1863 – 13 June 1920), known as Essad Pasha, was an Albanian politician and Ottoman officer from Tirana, a member of the landowning Toptani family.{cite:wikipedia-essad-toptani-en} As a deputy in the Ottoman parliament he was the messenger who announced the deposition of Sultan Abdülhamid II in 1909; during the First Balkan War he commanded at Shkodër and surrendered the fortress to Montenegro in April 1913.{cite:wikipedia-essad-toptani-en}{cite:wikipedia-essad-toptani-sq}
 

@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
   - { type: had_participant, target: person/uthman-i-uthmani, role: "المُعاد دفنه", sources: [source/freely-ottoman-architecture-2011] }
+  - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/freely-ottoman-architecture-2011]
 provenance:
   layer: "own-research"

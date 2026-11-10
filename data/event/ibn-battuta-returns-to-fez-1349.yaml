@@ -14,6 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/fez, sources: [source/britannica-ibn-battuta] }
   - { type: had_participant, target: person/ibn-battuta-muhammad, role: "العائد", sources: [source/britannica-ibn-battuta] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/britannica-ibn-battuta]
 status: { review: published, generated_by: "Claude Code (claude-opus-5-5)" }
 provenance:

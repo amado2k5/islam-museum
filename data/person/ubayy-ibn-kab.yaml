@@ -37,7 +37,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-died: { edtf: "649~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "0650~", hijri: "0030", calendar: julian, precision: year, status: debated, derived: true, note: "Al-Waqidi held 30 AH, in the caliphate of Uthman, the best-established; others give 19, 20 or 22 (al-Isaba p. 27); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 - type: member_of

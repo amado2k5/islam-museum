@@ -1,0 +1,22 @@
+id: passage/muslim-2788
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2788"
+label:
+  ar: "مسلم 2788 — أنا الملك أين الجبارون أين المتكبرون"
+  en: "Muslim 2788 — I am the King; where are the tyrants, where are the arrogant?"
+  ur: "مسلم 2788 — میں بادشاہ ہوں، جابروں اور متکبروں کو کہاں ہیں"
+text: "يطوي الله السماوات يوم القيامة ثم يأخذهن بيده اليمنى ثم يقول أنا الملك أين الجبارون أين المتكبرون ثم يطوي الأرضين بشماله …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2788: أنا الملك أين الجبارون أين المتكبرون. يرويه النبي عن ربه، ومتصفح الأحاديث القدسية يجمع رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2788: I am the King; where are the tyrants, where are the arrogant?. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2788: میں بادشاہ ہوں، جابروں اور متکبروں کو کہاں ہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-ana-al-malik]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "Sahih Muslim 2788 (Abd al-Baqi numbering), verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 330; matn excerpt of at most 40 words", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
+sources: [source/sahih-muslim, source/ahadith-qudsiyya-majlis]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); label, summary and grouping are the museum's own words" }

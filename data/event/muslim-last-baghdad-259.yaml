@@ -17,6 +17,7 @@ date:
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/wafayat-ayan] }
   - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "المحدّث", sources: [source/wafayat-ayan] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/wafayat-ayan]
 provenance:
   layer: own-research

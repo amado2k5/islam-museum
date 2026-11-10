@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Musa Ćazim Ćatić (12 March 1878 – 6 April 1915) was a Bosnian poet from Odžak, where he attended the mekteb before moving, after his father's death, to Tešanj; there he learned the barber's trade and studied at the madrasa under the town's mufti, acquiring Turkish, Arabic and Persian.{cite:wikipedia-musa-cazim-catic-bs} He studied in Constantinople, served three years in the army, attended Sarajevo's Sharia Judges' School — from whose dormitory his bohemian life had him expelled — and read law at Zagreb, in the circle of Antun Gustav Matoš and Tin Ujević.{cite:wikipedia-musa-cazim-catic-bs}
 

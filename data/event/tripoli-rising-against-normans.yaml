@@ -14,6 +14,8 @@ relations:
   - { type: had_participant, target: person/roger-of-sicily, role: "صاحب الاحتلال النورماني", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: had_participant, target: person/abu-yahya-ibn-matruh, role: "قائد الثورة", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: occurred_at, target: place/tarabulus-gharb, sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: during_reign, target: person/al-zafir-fatimid, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/abd-al-mumin-ibn-ali, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
   source: "ابن خلدون، العبر — الخبر عن ثورة رافع بن مكن بن مطروح بطرابلس على النصارى (طبعة هيليوبوليس)"

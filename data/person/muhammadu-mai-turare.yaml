@@ -1,0 +1,18 @@
+id: person/muhammadu-mai-turare
+class: person
+label: { ar: "محمد ماي توراري", en: "Muhammadu Mai Turare", ur: "محمد ماي توراري" }
+gender: male
+roles: [caliph]
+wings: [people]
+summary:
+  ar: "محمد ماي توراري، خليفة سوكوتو ؛ حكم من 1915م إلى 1931م. {cite:wikidata}"
+  en: "Muhammadu Mai Turare, the caliph of the Sokoto caliphate, ruling 1915–1931 CE. {cite:wikidata}"
+  ur: "محمد ماي توراري، سوکوتو خلافت کے خلیفہ؛ 1915ء سے 1931۔ {cite:wikidata}"
+story_roles:
+  - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1915", calendar: julian, precision: year }, end: { edtf: "1924", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+relations:
+  - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
+  - { type: successor_of, target: person/muhammadu-attahiru-ii, sources: [source/wikidata] }
+sources: [source/wikidata]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
+provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

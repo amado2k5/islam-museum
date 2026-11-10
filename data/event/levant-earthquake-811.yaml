@@ -12,6 +12,7 @@ map: { kind: locator, precision: approximate, center: [35.7800, 36.1000] }
 date: { start: { edtf: "1409-01~", hijri: "0811-08-10", calendar: julian, precision: day, status: tradition, derived: true, note: "عاشر شعبان سنة إحدى عشرة وثمانمائة {cite:shadharat-dhahab p. 97}", sources: [source/shadharat-dhahab] } }
 relations:
   - { type: occurred_at, target: place/ladhiqiyya, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 811)، قراءة آبل فيجن"

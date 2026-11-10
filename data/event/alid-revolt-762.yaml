@@ -11,6 +11,13 @@ regions: [arabia]
 date:
   start: { edtf: "0762", precision: year, status: tradition, derived: true }
   end: { edtf: "0763", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "العلويون بقيادة محمد النفس الزكية وإبراهيم", en: "The Alids under Muhammad and Ibrahim" }
+  - label: { ar: "الجيش العباسي بقيادة عيسى بن موسى", en: "The Abbasid army under Isa ibn Musa" }
+    participants: [person/al-mansur]
+    commanders: [person/isa-ibn-musa]
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q3636337

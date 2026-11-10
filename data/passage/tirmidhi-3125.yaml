@@ -1,0 +1,21 @@
+id: passage/tirmidhi-3125
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3125"
+label:
+  ar: "الترمذي 3125 — قسمت الصلاة بيني وبين عبدي نصفين"
+  en: "Tirmidhi 3125 — I have divided the prayer between Myself and My servant in two halves"
+  ur: "ترمذی 3125 — میں نے نماز کو اپنے اور اپنے بندے کے درمیان دو حصوں میں بانٹا"
+text: "ما أنزل الله في التوراة ولا في الإنجيل مثل أم القرآن وهي السبع المثاني وهي مقسومة بيني وبين عبدي ولعبدي ما سأل . حدثنا قتيبة، حدثنا عبد العزيز بن محمد، عن العلاء بن عبد الرحمن، عن أبيه، عن أبي هريرة، …"
+summary:
+  ar: "حديث قدسي في جامع الترمذي، رقم 3125: قسمت الصلاة بيني وبين عبدي نصفين. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Jami al-Tirmidhi, no. 3125: I have divided the prayer between Myself and My servant in two halves. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "جامع ترمذی میں حدیثِ قدسی، نمبر 3125: میں نے نماز کو اپنے اور اپنے بندے کے درمیان دو حصوں میں بانٹا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+tags: [hadith-qudsi, qudsi-qasamtu-al-salat]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3125; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

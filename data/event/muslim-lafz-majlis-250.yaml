@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/nishapur, sources: [source/wafayat-ayan, source/tazkirat-al-huffaz] }
   - { type: had_participant, target: person/muslim-ibn-al-hajjaj, role: "القائم من المجلس", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
   - { type: had_participant, target: person/muhammad-ibn-yahya-al-dhuhli, role: "صاحب المجلس", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
+  - { type: during_reign, target: person/al-mustain, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tazkirat-al-huffaz, source/wafayat-ayan, source/tabaqat-shafiiyya-subki]
 provenance:
   layer: own-research

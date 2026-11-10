@@ -1,0 +1,22 @@
+id: passage/tirmidhi-2592
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2592"
+label:
+  ar: "الترمذي 2592 — أكل بعضي بعضا فجعل لها نفسين"
+  en: "Tirmidhi 2592 — the Fire complains to its Lord and is given two breaths"
+  ur: "ترمذی 2592 — أشتكت النار إلى ربها فجعل لها نفسين"
+text: "اشتكت النار إلى ربها وقالت أكل بعضي بعضا فجعل لها نفسين نفسا في الشتاء ونفسا في الصيف فأما نفسها في الشتاء فزمهرير وأما نفسها في الصيف فسموم …"
+summary:
+  ar: "حديث قدسي في الترمذي، رقم 2592: أكل بعضي بعضا فجعل لها نفسين. يرويه النبي عن ربه، ومتصفح الأحاديث القدسية يجمع رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Tirmidhi, no. 2592: the Fire complains to its Lord and is given two breaths. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "ترمذی میں حدیثِ قدسی، نمبر 2592: أشتكت النار إلى ربها فجعل لها نفسين۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-ishtakat-al-nar]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2592; matn excerpt of at most 40 words, verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 439", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0, source/ahadith-qudsiyya-majlis]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

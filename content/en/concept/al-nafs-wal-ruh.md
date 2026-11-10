@@ -57,3 +57,6 @@ In episode 9 of [[work/likaa-al-iman|Liqa' al-Iman]] the presenter asks about th
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 8)
 
 The Sheikh says the soul descends from its world in sleep so that the man sleeps while his soul is in the higher realms, and that the son of Adam was created from earth while his soul was from the kingdom of heaven. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 00:00:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep8 01:03:30} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## In the context of the unseen
+The soul is of my Lord's affair, and you were given of knowledge but little — revelation keeps its essence unseen, believed in not measured.

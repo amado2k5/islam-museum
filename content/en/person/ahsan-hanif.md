@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 # Ahsan Hanif
 
 Ahsan Hanif is a British scholar and imam from Birmingham. He memorised the Qur'an at thirteen, won a scholarship to the Islamic University of Madinah in 2000, and graduated from its Faculty of Shari'ah in 2006 with honours, also receiving an ijazah in the Qur'an and studying under Abd al-Muhsin al-Abbad and Muhammad ibn Muhammad Mukhtar al-Shinqiti.{cite:al-isnad-ahsan-hanif}{cite:muslim-central-ahsan-hanif}

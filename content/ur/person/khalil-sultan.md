@@ -4,6 +4,7 @@ lang: ur
 source_lang: ar
 translators: []
 ---
+## خلاصہ
 
 خلیل سلطان 24 جمادی الثانی 786ھ (13 اگست 1384ء) کو ہرات میں پیدا ہوئے؛ وہ [[person/miran-shah|میران شاہ]] کے صاحبزادے تھے، ان کی والدہ سوین بیگ تھیں جنھیں خانزادہ کہا جاتا تھا، اور یوں وہ [[person/timur-lang|تیمور]] کے پوتے تھے۔{cite:wikipedia-khalil-sultan-en}{cite:wikidata-khalil-sultan} وہ دادا کی خاص عنایت سے بہرہ ور تھے، ہندوستان کی مہم میں نمایاں رہے، اور 1402ء میں انھیں وادی فرغانہ کی حکومت ملی۔{cite:wikipedia-khalil-sultan-en}
 

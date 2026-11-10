@@ -16,6 +16,7 @@ sides:
 relations:
   - { type: occurred_at, target: place/izmir, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/mustafa-kemal-ataturk, role: "قائد المقاومة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 468"

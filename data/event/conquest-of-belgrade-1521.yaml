@@ -7,12 +7,17 @@ summary:
   en: "Draft card for the Siege of Belgrade in 1521, the city's fall to Suleiman the Magnificent at the opening of his conquests; its sources are not yet checked on the page."
 relations:
   - { type: occurred_at, target: place/belgrade, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
 wings: [time]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1521", precision: year, status: tradition, derived: true }
   end: { edtf: "1521", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "جيش سليمان القانوني", en: "سليمان القانوني's army" }
+    commanders: [person/sulayman-al-qanuni]
+  - label: { ar: "بلغراد", en: "Belgrade" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q535542

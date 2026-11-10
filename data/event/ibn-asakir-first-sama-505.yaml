@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ibn-asakir, role: "السامع الصغير", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/al-sain-hibat-allah-ibn-asakir, role: "الأخ المسمّع", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

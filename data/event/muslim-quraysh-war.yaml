@@ -11,6 +11,13 @@ regions: [arabia]
 date:
   start: { edtf: "0624", precision: year, status: tradition, derived: true }
   end: { edtf: "0630", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "المسلمون بالمدينة", en: "The Muslims of Medina" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+  - label: { ar: "قريش وحلفاؤها", en: "Quraysh and their allies" }
+    participants: [group/quraysh]
+    commanders: [person/abu-sufyan-ibn-harb]
 sources: [source/ibn-ishaq-guillaume]
 external_ids:
   wikidata: Q111939431

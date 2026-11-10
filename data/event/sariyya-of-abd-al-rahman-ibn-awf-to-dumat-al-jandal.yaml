@@ -20,5 +20,11 @@ relations:
   - { type: had_participant, target: person/bilal-ibn-rabah, role: "دفع اللواء بأمر النبي", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 279-281", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية عبد الرحمن بن عوف", en: "Abd al-Rahman ibn Awf's expedition" }
+    commanders: [person/abd-al-rahman-ibn-awf]
+    strength: { value: 700, status: tradition, note: "سبعمائة رجل في المشهور", sources: [source/ibn-hisham-saqqa] }
+  - label: { ar: "بنو كلب بدومة الجندل", en: "Banu Kalb of Dumat al-Jandal" }
+    participants: [group/banu-kalb]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 279-281; the raid itself is not narrated by Ibn Ishaq" }

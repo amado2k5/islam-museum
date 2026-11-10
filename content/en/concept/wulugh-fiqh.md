@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wulugh (lapping) lexically means a beast of prey drinking with its tongue: a dog laps (waligha) when it drinks what is in a vessel with the tips of its tongue, or puts its tongue in and moves it. The hadith "if a dog laps in the vessel of one of you, let him wash it seven times" uses the word. The technical sense does not depart from the lexical one. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17942}
 

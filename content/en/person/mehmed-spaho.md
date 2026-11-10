@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Mehmed Spaho (13 March 1883 – 29 June 1939) was a Bosnian Muslim politician from Sarajevo, the son of Hasan Spaho, an expert in Sharia law who had served as a judge in Jajce, Sofia, Damascus and Cairo.{cite:wikipedia-mehmed-spaho-en}{cite:wikipedia-mehmed-spaho-bs} He took his law doctorate at the University of Vienna in 1908, worked as a court clerk and a lawyer's clerk, became secretary of Sarajevo's Commercial Chamber in 1911 and entered the Sarajevo City Council in 1914.{cite:wikipedia-mehmed-spaho-en} Named Minister of Forestry and Mining in the first Yugoslav government in December 1918, he joined the Yugoslav Muslim Organization (JMO) in May 1919 and led it from October 1921, bargaining with Nikola Pašić's governments over Muslim religious autonomy, compensation for dispossessed landowners and the territorial integrity of Bosnia and Herzegovina.{cite:wikipedia-mehmed-spaho-en}{cite:wikipedia-mehmed-spaho-bs}
 

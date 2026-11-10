@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور کہو کہ سب تعریف خدا ہی کو ہے جس نے نہ تو کسی کو بیٹا بنایا ہے اور نہ اس کی بادشاہی میں کوئی شریک ہے اور نہ اس وجہ سے کہ وہ عاجز وناتواں ہے کوئی اس کا مددگار ہے اور اس کو بڑا جان کر اس کی بڑائی کرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
+  - { type: mentions, target: concept/asma-al-malik, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

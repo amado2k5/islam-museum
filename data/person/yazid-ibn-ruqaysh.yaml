@@ -6,8 +6,8 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية ليزيد بن رقيش، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yazid ibn Ruqaysh, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أسدي؛ ذكره موسى بن عقبة وابن إسحاق فيمن شهد بدراً."
+  en: "An Asadi Companion; Musa ibn Uqba and Ibn Ishaq name him among those who witnessed Badr."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
@@ -16,6 +16,7 @@ died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in Ibn Hajar's Isaba (regions: arabia).", sources: [source/al-aalam, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1588", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12251788
 provenance:

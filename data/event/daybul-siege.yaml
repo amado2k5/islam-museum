@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/anbasa-ibn-ishaq-al-dabbi, role: "العامل الهادم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/daybul }
 wings: [time]
+sides:
+  - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
+    commanders: [person/muhammad-ibn-al-qasim]
+  - label: { ar: "الديبل", en: "al-Daybul" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

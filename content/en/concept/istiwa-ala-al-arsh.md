@@ -28,3 +28,6 @@ The Sheikh cites a well-known saying attributed to Imam Malik on God's istiwa (r
 
 ## In al-Ash'ari's al-Ibana
 In [[work/al-ibana-ashari|al-Ibana]], [[person/al-ashari|Abu al-Hasan al-Ash'ari]] has a "chapter on the rising over the Throne". He says God is risen over His Throne as He said, and argues from the verses on good words ascending to Him, raising and ascent, from Pharaoh's wish to look up to the god of Moses, and from the fact that Muslims raise their hands towards the sky in prayer. {cite:al-ibana-ashari-dar-ibn-zaydun p. 33-34} He answers the explanation of istiwa' as taking control and subduing, which he ascribes to the Mu'tazila, Jahmiyya and Haruriyya: God controls all things, so if istiwa' were control the Throne would have nothing special in it. {cite:al-ibana-ashari-dar-ibn-zaydun p. 34}
+
+## In the context of the unseen
+The Merciful is established on the Throne — istiwa known in meaning, its how beyond grasp; Malik called asking 'how?' an innovation.

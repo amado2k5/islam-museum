@@ -18,7 +18,7 @@ periods:
 regions:
 - arabia
 born: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "673", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "0654~", hijri: "0034~", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Uthman's caliphate (Ibn Sa'd and Abu Hatim); another report places him in Yemen in Mu'awiya's, 53 AH (al-Isaba p. 1201); CE year approximated to 34 AH", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
   - { type: participated_in, target: event/killing-of-al-aswad-al-ansi, sources: [source/futuh-buldan-maarif-1407] }
@@ -32,6 +32,7 @@ external_ids: { wikidata: "Q1145327" }
 sources:
 - source/futuh-buldan-maarif-1407
 - source/suwar-min-hayat-al-sahaba-nafais-1992
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1

@@ -17,6 +17,7 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "احتج بالحديث ومنع الميراث", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "تنسب الروايات الإمامية إليه الشهادة، وينكر الكتاب ذلك", sources: [source/sallabi-ali-vol1] }
   - { type: occurred_at, target: place/fadak }
+  - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 issue: { ar: "هل يُورَث النبي، وهل كان أبو بكر ظالماً في منع فدك؟", en: "Did the Prophet leave an inheritance, and was Abu Bakr wrong to withhold Fadak?" }
 perspectives:
   - tradition: sunni

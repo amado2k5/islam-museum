@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Begum Akbar Jehan Abdullah (died 11 July 2000) was a Kashmiri politician and the wife of Sheikh Abdullah. She was born to Michael Henry Nedou, the eldest son of the European owner of a hotel chain that included Nedou's Hotel in Srinagar, and his Kashmiri wife Mirjan, and she married Sheikh Abdullah in 1933.{cite:wikipedia-akbar-jehan-abdullah-en} Her birth year is disputed between the sources: the English article gives 1916, the Urdu article 1907 and Wikidata 1917.{cite:wikipedia-akbar-jehan-abdullah-ur}{cite:wikidata-akbar-jehan-abdullah}
 

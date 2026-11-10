@@ -18,6 +18,7 @@ relations:
   - { type: occurred_at, target: place/balkh, sources: [source/tazkirat-al-huffaz], note: "قتيبة بن سعيد الثقفي البلخي محدث خراسان؛ موضع الرحلة مشتق من نسبة الشيخ {cite:tazkirat-al-huffaz j.2 p. 559}" }
   - { type: had_participant, target: person/al-nasai, role: "الطالب الراحل", sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
   - { type: had_participant, target: person/qutayba-ibn-said, role: "الشيخ", sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi] }
+  - { type: during_reign, target: person/al-wathiq, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research

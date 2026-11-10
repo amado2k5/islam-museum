@@ -11,6 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0722", precision: year, status: tradition, derived: true }
   end: { edtf: "0722", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأموي بقيادة الجراح", en: "The Umayyad army under al-Jarrah" }
+    commanders: [person/al-jarrah-ibn-abdallah-al-hakami]
+  - label: { ar: "الخزر", en: "The Khazars" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q138545680

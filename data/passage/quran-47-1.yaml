@@ -17,6 +17,8 @@ translations:
   ur: { text: "جن لوگوں نے کفر کیا اور (اَوروں کو) خدا کے رستے سے روکا۔ خدا نے ان کے اعمال برباد کر دیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
+  - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

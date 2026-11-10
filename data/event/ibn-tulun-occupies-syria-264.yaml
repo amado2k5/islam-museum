@@ -18,6 +18,11 @@ relations:
   - { type: occurred_at, target: place/damascus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/ahmad-ibn-tulun, role: "الفاتح المُضِمّ", sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: person/lulu-al-tuluni, role: "النائب على حمص وحلب وقنسرين وديار مضر", sources: [source/encyclopaedia-of-islam-2] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جيش أحمد بن طولون", en: "Ahmad ibn Tulun's army" }
+    commanders: [person/ahmad-ibn-tulun]
+  - label: { ar: "دمشق", en: "Damascus" }
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

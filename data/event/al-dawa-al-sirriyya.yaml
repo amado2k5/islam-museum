@@ -42,7 +42,7 @@ relations:
   - { type: had_participant, target: person/uthman-ibn-mazun, role: "من أوائل المسلمين مع أخويه قدامة وعبد الله", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/said-ibn-zayd, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/fatima-bint-al-khattab, role: "من أوائل المسلمات مع زوجها سعيد", sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/fatima-bint-al-khattab, role: "من أوائل المسلمات مع زوجها سعيد", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/khabbab-ibn-al-aratt, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abdullah-ibn-masud, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abu-talib, role: "أمر النبي وعلياً بالثبات على الصلاة حين رآهما", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }

@@ -21,7 +21,8 @@ relations:
   - { type: occurred_at, target: place/al-sham, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
   - { type: occurred_at, target: place/misr, sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
   - { type: had_participant, target: person/al-nasai, role: "الطالب الرحّالة", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
-  - { type: had_participant, target: person/ishaq-ibn-rahwayh, role: "الشيخ", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: related_to, target: person/ishaq-ibn-rahwayh, role: "الشيخ", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - { type: during_reign, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz, source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

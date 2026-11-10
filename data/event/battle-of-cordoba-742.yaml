@@ -11,6 +11,11 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0742", precision: year, status: tradition, derived: true }
   end: { edtf: "0742", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "جموع قيس", en: "The Qays party" }
+  - label: { ar: "جموع اليمن", en: "The Yemen party" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111207489

@@ -8,6 +8,7 @@ summary:
   ur: "801ھ میں تیمور نے ہندوستان پر حملہ کیا، دہلی پر قبضہ کیا اور بے شمار لوگوں کو قیدی بنایا — سمرقند لوٹتے ہوئے ہندوستانی قیدی کثرت کی وجہ سے سستے داموں بکے {cite:shadharat-dhahab p. 3}."
 relations:
   - { type: occurred_at, target: place/delhi, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [south-asia]
@@ -18,5 +19,9 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-60
 external_ids: { wikidata: "Q12910863" }
+sides:
+  - label: { ar: "جيش تمرلنك", en: "تمرلنك's army" }
+    commanders: [person/timur-lang]
+  - label: { ar: "دلهي", en: "Delhi" }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: person/ali-ibn-husayn-sharif-makkah
+class: person
+label: { ar: "علي بن الحسين شريف مكة", en: "Ali ibn Husayn (King of the Hejaz)", ur: "علی بن حسین شریف مکہ" }
+roles: [caliph]
+summary:
+  ar: "علي بن الحسين، آخر ملوك الحجاز؛ تنازل له أبوه عن العرش والمطالبة بالخلافة في أكتوبر ١٩٢٤م، فبقي في جدة حتى سقوطها بيد عبد العزيز آل سعود في ديسمبر ١٩٢٥م ثم لجأ إلى العراق. {cite:encyclopaedia-of-islam-2}"
+  en: "Ali ibn Husayn, last King of the Hejaz; his father abdicated the throne and the caliphate claim to him in October 1924; he held Jeddah until it fell to Abd al-Aziz ibn Saud in December 1925, then fled to Iraq. {cite:encyclopaedia-of-islam-2}"
+  ur: "علی بن حسین، حجاز کے آخری بادشاہ؛ والد نے اکتوبر 1924ء میں تخت اور خلافت کا دعویٰ ان کے حوالے کیا؛ دسمبر 1925ء میں جدہ عبدالعزیز ابن سعود کے ہاتھوں گرنے تک برقرار رہے، پھر عراق فرار ہوئے۔ {cite:encyclopaedia-of-islam-2}"
+story_roles:
+  - { role: rival-claimant, toward: polity/sharifian-caliphate, start: { edtf: "1924", calendar: julian, precision: year }, end: { edtf: "1925", calendar: julian, precision: year }, status: historical, sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: ruled_over, target: polity/sharifian-caliphate, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: successor_of, target: person/husayn-ibn-ali-sharif-makkah, sources: [source/encyclopaedia-of-islam-2] }
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "Encyclopaedia of Islam 2 — Gemini historian-check batch 2"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: khulafa-gemini-corrections-b2
+sources: [source/encyclopaedia-of-islam-2]

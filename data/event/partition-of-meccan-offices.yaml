@@ -15,7 +15,7 @@ relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/abd-manaf-ibn-qusayy, role: "من ورثته نشأ النزاع", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: group/banu-abd-al-dar, role: "أصحاب دار الندوة واللواء والحجابة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
-  - { type: had_participant, target: person/hashim-ibn-abd-manaf, role: "من خرجت له القرعة بالسقاية والرفادة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: related_to, target: person/hashim-ibn-abd-manaf, role: "من خرجت له القرعة بالسقاية والرفادة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/pre-islamic-arabia }
 provenance:

@@ -1,0 +1,22 @@
+id: passage/muslim-2569
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2569"
+label:
+  ar: "مسلم 2569 — يا ابن آدم مرضت فلم تعدني"
+  en: "Muslim 2569 — Son of Adam, I was ill and you did not visit Me"
+  ur: "مسلم 2569 — اے ابن آدم، میں بیمار تھا تو نے میری عیادت نہیں کی"
+text: "إن الله عز وجل يقول يوم القيامة يا ابن آدم مرضت فلم تعدني . قال يا رب كيف أعودك وأنت رب العالمين . قال أما علمت أن عبدي فلانا مرض فلم تعده أما علمت أنك لو عدته لوجدتني عنده يا …"
+summary:
+  ar: "حديث قدسي في صحيح مسلم، رقم 2569: يا ابن آدم مرضت فلم تعدني. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih Muslim, no. 2569: Son of Adam, I was ill and you did not visit Me. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح مسلم میں حدیثِ قدسی، نمبر 2569: اے ابن آدم، میں بیمار تھا تو نے میری عیادت نہیں کی۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [care-for-the-vulnerable]
+tags: [hadith-qudsi, qudsi-maridtu-fa-lam-taudni]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6556; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

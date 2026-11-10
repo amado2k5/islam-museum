@@ -18,11 +18,16 @@ relations:
   - { type: had_participant, target: person/kharija-ibn-hudhafa-al-adawi, role: "المستخلَف على مصر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "أمير الرابطة المستخلَفة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "حامل كتاب الفتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 302–303"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; extended by Claude Opus 5.5 (claude-opus-5-5) from Futuh Misr (Amir ed.)"
   run: lib-futuh-buldan-batch-19, lib-futuh-misr-batch-3-2026-10-31
 external_ids: { wikidata: "Q815105" }
+sides:
+  - label: { ar: "جيش عمرو بن العاص", en: "Amr ibn al-As's army" }
+    commanders: [person/amr-ibn-al-as]
+  - label: { ar: "الإسكندرية", en: "Alexandria" }
 sources: [source/futuh-buldan-maarif-1407, source/futuh-misr-amir-1999]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

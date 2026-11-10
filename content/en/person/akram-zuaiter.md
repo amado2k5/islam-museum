@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Akram Zuaiter (1909 – 11 April 1996) was a Palestinian activist, writer and diplomat from Nablus, educated at the American University of Beirut, who worked on the newspapers Mir'at al-Sharq and al-Hayat and taught at al-Najah school.{cite:wikipedia-akram-zuaiter-en}{cite:wikipedia-akram-zuaiter-ar} A founding member of the Istiqlal Party, he was twice detained by the British in the 1930s and took part in the 1941 Rashid Ali revolt in Iraq.{cite:wikipedia-akram-zuaiter-en}
 

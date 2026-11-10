@@ -17,6 +17,7 @@ translations:
   ur: { text: "وہ (سب سے) پہلا اور (سب سے) پچھلا اور (اپنی قدرتوں سے سب پر) ظاہر اور (اپنی ذات سے) پوشیدہ ہے اور وہ تمام چیزوں کو جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
+  - { type: mentions, target: concept/asma-al-awwal, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

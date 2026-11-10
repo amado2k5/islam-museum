@@ -89,3 +89,6 @@ He cites a hadith in which the Prophet taught Umm Salama a supplication after th
 
 ## The speaker's view: the grave is a box of deeds
 The speaker says the grave is a box of deeds, and criticises those who give false witness, swear false oaths and wrong others {cite:assabile-omar-abdelkafy al-naba-al-safi/ep19 00:33:30}.
+
+## In the context of the unseen
+The seizing of the soul — the first felt door of the unseen; at death the realities of angels and the barzakh are unveiled.

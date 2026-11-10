@@ -8,10 +8,6 @@ summary:
 wings: [place]
 periods: [period/prophetic-era]
 regions: [arabia]
-coordinates: [21.458, 39.859]
-coordinate_precision: site
-coordinate_note: "Jabal al-Nur (Cave of Hira), Mecca, Saudi Arabia (geocoding pass, Gemini-assisted)"
-coordinate_note: "لم تُحدَّد إحداثيات الجبل؛ إحداثيات الغار في بطاقته."
 relations:
   - { type: located_in, target: place/mecca, note: "على مبعدة نحو ميلين من مكة (الرحيق ص65)", sources: [source/mubarakpuri-raheeq] }
 provenance:
@@ -20,5 +16,8 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-7a"
+coordinates: [21.458, 39.859]
+coordinate_precision: site
+coordinate_note: "Jabal al-Nur (Cave of Hira), Mecca, Saudi Arabia (geocoding pass, Gemini-assisted)"
 sources: [source/mubarakpuri-raheeq, source/rahma-lil-alamin]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 65" }

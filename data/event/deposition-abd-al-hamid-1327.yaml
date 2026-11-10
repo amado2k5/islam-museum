@@ -13,6 +13,8 @@ date:
 relations:
   - { type: occurred_at, target: place/istanbul }
   - { type: had_participant, target: person/abd-al-hamid-ii-uthmani, role: "السلطان المخلوع", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+  - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 458-461"

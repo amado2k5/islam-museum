@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Abu al-Abbas Ahmad ibn Abd al-Rahman ibn Muhammad ibn Sa'id al-Lakhmi al-Qurtubi, better known as Ibn Mada', was a grammarian and jurist of Cordoba from a family of noble local standing.{cite:wikipedia-ibn-mada-en} His birth year is disputed between 1116 and 1119; the Arabic article heads his years 513–592 AH although 513 AH corresponds to 1119 rather than the 1116 it is paired with, and the conflict is preserved in his record.{cite:wikipedia-ibn-mada-ar}{cite:wikipedia-ibn-mada-en} As a youth he studied religion, geometry and medicine, then moved to Seville to study grammar and syntax from the works of Sibawayh, and later travelled to Ceuta to study historiography and prophetic tradition with Qadi Ayyad.{cite:wikipedia-ibn-mada-en}
 

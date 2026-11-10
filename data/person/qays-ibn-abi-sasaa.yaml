@@ -6,17 +6,20 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لقيس بن أبي صعصعة، من أهل الصدر الأول؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Qays ibn Abi Sa'sa'a, a figure of the early community; the biographical entry is not yet checked on the page."
+  ar: "صحابي أنصاري من بني النجار، اسمه عمرو؛ شهد العقبة وبدراً وجعله النبي يومئذ على الساقة، ومن حديثه سؤاله في كم يقرأ القرآن."
+  en: "An Ansari Companion of Banu al-Najjar named Amr; he witnessed al-Aqaba and Badr, where the Prophet placed him over the rear-guard. His hadith includes the question of how often the Qur'an is read through."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam]
-born: { edtf: "624~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
+sources: [source/al-aalam, source/ibn-hajar-isaba]
 died: { edtf: "640~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)" }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion-era figure of the Medinan community (regions: arabia).", sources: [source/al-aalam] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam]}
+  - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 1244", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/ansar, note: "al-Isaba p. 1244", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/pledges-of-aqaba, note: "al-Isaba p. 1244", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 1244", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q12233986
 provenance:

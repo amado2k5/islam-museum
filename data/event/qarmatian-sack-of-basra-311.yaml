@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "المهاجم", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/basra, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"

@@ -1,0 +1,22 @@
+id: passage/bukhari-0555
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "555"
+label:
+  ar: "البخاري 555 — يتعاقبون فيكم ملائكة: كيف تركتم عبادي"
+  en: "Bukhari 555 — Angels take turns among you: how did you leave My servants"
+  ur: "بخاری 555 — فرشتے تم میں باری باری آتے ہیں: تم نے میرے بندوں کو کس حال میں چھوڑا"
+text: "يتعاقبون فيكم ملائكة بالليل وملائكة بالنهار، ويجتمعون في صلاة الفجر وصلاة العصر، ثم يعرج الذين باتوا فيكم، فيسألهم وهو أعلم بهم كيف تركتم عبادي فيقولون تركناهم وهم يصلون، وأتيناهم وهم يصلون ."
+summary:
+  ar: "حديث قدسي في صحيح البخاري، رقم 555: يتعاقبون فيكم ملائكة: كيف تركتم عبادي. يرويه النبي عن ربه، ويجمع متصفح الأحاديث القدسية رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Sahih al-Bukhari, no. 555: Angels take turns among you: how did you leave My servants. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "صحیح بخاری میں حدیثِ قدسی، نمبر 555: فرشتے تم میں باری باری آتے ہیں: تم نے میرے بندوں کو کس حال میں چھوڑا۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [worship-and-the-pillars]
+tags: [hadith-qudsi, qudsi-taaqub-al-malaika]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 555; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (model unknown) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }

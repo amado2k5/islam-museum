@@ -10,8 +10,9 @@ summary:
 wings: [time]
 relations:
   - { type: occurred_at, target: place/irbil, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/zayn-al-din-yusuf-irbil, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/zayn-al-din-yusuf-irbil, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/muzaffar-al-din-kokburi, role: "الخلف", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: "own-research"
   source: "الكامل في التاريخ لابن الأثير، قراءة آبل فيجن"

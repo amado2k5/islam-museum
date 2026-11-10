@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 translators: []
 ---
+## Summary
 
 Shabana Azmi (born 18 September 1950) is an Indian actress and social activist, born at Hyderabad, the daughter of the Urdu poet Kaifi Azmi and the stage actress Shaukat Azmi.{cite:wikipedia-shabana-azmi-en}{cite:wikipedia-shabana-azmi-ur} Her debut in Shyam Benegal's Ankur (1974) made her a leading face of India's parallel cinema, and she won the National Film Award for Best Actress five times — for Ankur, Arth, Khandhar, Paar and Godmother — a record for an Indian actress.{cite:wikipedia-shabana-azmi-en}
 

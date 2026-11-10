@@ -17,10 +17,17 @@ relations:
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قدّمه أبو عبيدة أمامه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ubada-ibn-al-samit, role: "استخلفه أبو عبيدة على حمص", sources: [source/futuh-buldan-maarif-1407] }
   - { type: basis_for, target: concept/jizya, note: "مائة ألف وسبعون ألف دينار صلحاً؛ ربع كنيسة يوحنا للمسجد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 177–180"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-9
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+    participants: [person/khalid-ibn-al-walid, person/ubada-ibn-al-samit]
+    commanders: [person/abu-ubayda-ibn-al-jarrah]
+  - label: { ar: "حامية حمص", en: "The garrison of Homs" }
+    participants: [person/heraclius]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

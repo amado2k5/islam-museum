@@ -11,6 +11,12 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0723", precision: year, status: tradition, derived: true }
   end: { edtf: "0723", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الجيش الأموي", en: "The Umayyad army" }
+    participants: [person/yazid-ibn-abd-al-malik]
+  - label: { ar: "الخزر", en: "The Khazars" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q4870395

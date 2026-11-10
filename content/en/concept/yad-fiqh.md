@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Yad (hand) is feminine; it runs from the shoulder to the fingertips. Its lexical senses include blessing or kindness, power and authority ("the matter is in his hand"), and, in the verse on the poll-tax in surah al-Tawba (verse 29), power over. "Sold hand to hand" means on the spot. The technical sense does not depart from the lexical one. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17974}
 

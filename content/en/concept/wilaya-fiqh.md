@@ -4,6 +4,7 @@ lang: en
 source_lang: ar
 status: draft
 ---
+## Summary
 
 Wilaya, with a kasra, in the language comes from the root wali, nearness; he is near to him, and one who takes up a matter is said to have governed it. With a fatha it means help and love. The guardian (wali) of an orphan, of a slain person, or of a woman is one who takes charge of their affairs. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.17849}
 

@@ -15,6 +15,7 @@ sides:
   - label: { ar: "قافلة الحاج العراقية" }
 relations:
   - { type: had_participant, target: person/ibn-al-raffa-qari, role: "دخل إليه وقرأ بين يديه", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 394)، قراءة آبل فيجن"
