@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/al-ahwaz, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/sahib-al-zanj, sources: [source/muntazam-ibn-al-jawzi] }
   - { type: had_participant, target: person/musa-ibn-bugha, role: "قائد الجند", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 259)، قراءة آبل فيجن"
