@@ -26,5 +26,13 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 156–157"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-8, lib-tarikh-khalifa-batch-3-2026-10-31
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+    participants: [person/ikrima-ibn-abi-jahl, person/tulayb-ibn-umayr, person/salama-ibn-hisham]
+    commanders: [person/khalid-ibn-al-walid, person/amr-ibn-al-as]
+    strength: { value: 20000, status: tradition, note: "نحو عشرين ألفاً في أقوال البلاذري" }
+  - label: { ar: "الروم", en: "The Byzantines" }
+    participants: [person/heraclius]
+    strength: { value: 100000, status: tradition, note: "أعداد متفاوتة في المصادر" }
 sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2, source/tarikh-khalifa-umari-1985]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }

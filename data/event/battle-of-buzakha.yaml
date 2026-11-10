@@ -24,5 +24,14 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-5
 external_ids: { wikidata: "Q3696185" }
+sides:
+  - label: { ar: "المسلمون بقيادة خالد", en: "The Muslims under Khalid" }
+    participants: [person/ukasha-ibn-mihsan, person/thabit-ibn-aqram]
+    commanders: [person/khalid-ibn-al-walid]
+    strength: { value: 4000, status: tradition, note: "نحو أربعة آلاف في المشهور" }
+  - label: { ar: "طليحة ومن معه من بني أسد وغطفان", en: "Tulayha with Banu Asad and Ghatafan" }
+    participants: [person/uyayna-ibn-hisn]
+    commanders: [person/tulayha-ibn-khuwaylid]
+    strength: { value: 15000, status: tradition, note: "نحو خمسة عشر ألفاً في المشهور" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
