@@ -16,6 +16,7 @@ translations:
   en: { text: "And We carried him upon a thing of planks and nails,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے نوحؑ کو ایک کشتی پر جو تختوں اور میخوں سے تیار کی گئی تھی سوار کرلیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/safinat-nuh, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/flood, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred

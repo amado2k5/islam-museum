@@ -16,6 +16,8 @@ translations:
   en: { text: "(The tribes of) Thamud and A'ad disbelieved in the judgment to come.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کھڑکھڑانے والی (جس) کو ثمود اور عاد (دونوں) نے جھٹلایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/aad-al-rih, sources: [source/tanzil-quran] }
+  - { type: mentions, target: concept/thamud-al-sayha, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-69 }
   - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
   - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
