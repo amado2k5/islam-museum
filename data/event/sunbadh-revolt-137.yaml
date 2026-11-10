@@ -19,6 +19,7 @@ relations:
   - { type: occurred_at, target: place/rayy, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/sunbadh, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/jahwar-ibn-marrar-al-ijli, role: "قائد الجيش العباسي", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: during_reign, target: person/al-mansur, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research
