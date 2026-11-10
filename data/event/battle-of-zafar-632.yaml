@@ -13,6 +13,10 @@ date:
   end: { edtf: "0632", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/abu-bakr, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "المسلمون", en: "The Muslims" }
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { ar: "أهل الردة بقيادة سلمى أم حمام", en: "The apostates under Salma Umm Himam" }
 sources: [source/tarikh-al-tabari]
 external_ids:
   wikidata: Q3696172
