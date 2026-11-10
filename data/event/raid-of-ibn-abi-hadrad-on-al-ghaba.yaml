@@ -20,5 +20,10 @@ relations:
   - { type: had_participant, target: group/banu-jusham, role: "بطن عظيم منهم نزل بالغابة", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 278-279", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية ابن أبي حدراد", en: "Ibn Abi Hadrad's expedition" }
+    commanders: [person/abdullah-ibn-abi-hadrad]
+  - label: { ar: "بنو جشم بالغابة", en: "Banu Jusham at al-Ghaba" }
+    participants: [group/banu-jusham]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 278-279" }
