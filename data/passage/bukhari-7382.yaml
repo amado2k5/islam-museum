@@ -1,0 +1,22 @@
+id: passage/bukhari-7382
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7382"
+label:
+  ar: "البخاري 7382 — أنا الملك أين ملوك الأرض"
+  en: "Bukhari 7382 — I am the King; where are the kings of the earth?"
+  ur: "بخاری 7382 — میں بادشاہ ہوں، زمین کے بادشاہ کہاں ہیں"
+text: "يقبض الله الأرض يوم القيامة ويطوي السماء بيمينه ثم يقول أنا الملك أين ملوك الأرض …"
+summary:
+  ar: "حديث قدسي في البخاري، رقم 7382: أنا الملك أين ملوك الأرض. يرويه النبي عن ربه، ومتصفح الأحاديث القدسية يجمع رواياته في الكتب الستة والموطأ."
+  en: "A hadith qudsi in Bukhari, no. 7382: I am the King; where are the kings of the earth?. The Prophet relates it from his Lord; the Hadith Qudsi Browser gathers its narrations across the six books and the Muwatta."
+  ur: "بخاری میں حدیثِ قدسی، نمبر 7382: میں بادشاہ ہوں، زمین کے بادشاہ کہاں ہیں۔ نبی اسے اپنے رب سے روایت کرتے ہیں؛ احادیثِ قدسیہ کا براؤزر چھ کتابوں اور مؤطا میں اس کی روایات جمع کرتا ہے۔"
+themes: [afterlife-and-eschatology]
+tags: [hadith-qudsi, qudsi-ana-al-malik]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7382; matn excerpt of at most 40 words, verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 330", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/ahadith-qudsiyya-majlis]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label, summary and grouping are the museum's own words" }
