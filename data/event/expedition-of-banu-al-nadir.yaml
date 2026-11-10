@@ -24,6 +24,13 @@ relations:
   - { type: had_participant, target: group/banu-nadir, role: "القبيلة المحاصرة والمجلوة عن ديارها", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/muhajirun, role: "قُسمت عليهم أموال بني النضير وديارهم", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "المسلمون بقيادة النبي", en: "The Muslims under the Prophet" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+  - label: { ar: "بنو النضير", en: "Banu al-Nadir" }
+    participants: [group/banu-nadir]
+    commanders: [person/huyayy-ibn-akhtab]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad, source/sallabi-ali-vol1]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 295–298" }
 provenance:
