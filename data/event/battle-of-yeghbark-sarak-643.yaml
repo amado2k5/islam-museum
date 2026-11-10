@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "0643", precision: year, status: tradition, derived: true }
   end: { edtf: "0643", precision: year, status: tradition, derived: true }
+relations:
+- { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q79881405

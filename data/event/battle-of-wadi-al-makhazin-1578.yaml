@@ -16,6 +16,7 @@ relations:
   - { type: had_participant, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/muhammad-ii-mutawakkil-saadi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/abu-al-mahasin-yusuf-al-fasi, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q1121532
