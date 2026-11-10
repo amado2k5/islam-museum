@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/zaida-ibn-umayr, role: "المبلي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/multan }
+  - { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 wings: [time]
 sources: [source/futuh-buldan-maarif-1407, source/encyclopaedia-of-islam-2]
 status: { review: published, completeness: 2 }

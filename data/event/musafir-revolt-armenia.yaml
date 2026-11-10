@@ -17,6 +17,10 @@ relations:
   - { type: had_participant, target: person/thabit-ibn-nuaym-al-judhami, role: "المخالف على مروان بن محمد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/isha-ibn-muslim-al-uqayli, role: "والي أرمينية لدى مروان المقاتل له", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-mansur, role: "والي الجزيرة وأرمينية في خلافة السفّاح وباعث القائد الخراساني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: during_reign, target: person/al-walid-ibn-yazid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/yazid-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/ibrahim-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 294"
