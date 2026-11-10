@@ -30,6 +30,7 @@ open a new block on top with the new version and today's date.
 - **`/api/v1/qudsi.json`.** The browser's dataset: every hadith qudsi narration with collection, number, matn excerpt (at most 40 words), hadith tag, themes and edges; in `docs/data/README.md`, the OpenAPI document and `llms.txt`.
 
 ### Data
+- **Battles browser waves 1–2 (plan 31).** Sourced `sides:` blocks (labels, participants, commanders, tradition-status strengths) on 26 prophetic-era engagements: the Qaynuqa, Qurayza and Nadir sieges/expulsions, Badr al-Maw'ida, Usama, Dumat al-Jandal, Hamra al-Asad, the Yemen expedition, the Muslim–Quraysh war umbrella, al-Raji', Bi'r Ma'una, the Amr ibn Umayya mission, the two Hudhayl assassinations, and the remaining saraya (Abd al-Rahman to Dumat, Abu Ubayda, Ali to al-Fals, Kurz ibn Jabir, Zayd to Madyan, the Ibn Abi Hadrad raids and the smaller missions) — every block cited to the record's own filed sources. The Battles, Wars and Conquests Browser cards now show commanders and forces on 273 engagements.
 - **315 new hadith passages and 16 tagged in place** from the open `fawazahmed0/hadith-api` Arabic editions (Unlicense, standard numbering), with Arabic, English and Urdu labels and summaries; new source record `source/hadith-api-fawazahmed0`.
 
 ## v1.6.0 — 2026-11-10
