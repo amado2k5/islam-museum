@@ -16,3 +16,9 @@ Lane file: [`docs/agents/lanes/battles.md`](../agents/lanes/battles.md). Plan: [
 - Enrichment wave 1: `sides`/`outcome`/`occurred_at` on the prophetic 75 (gold: `event/expedition-of-al-sawiq`).
 - `part_of` edges battles→wars/campaigns.
 - Flip `ready` and the landing card on founder approval.
+
+## 2026-11-09 — enrichment waves 1–2 landed (PRs #5829, #5831)
+
+- Wave 1: `sides:` on 14 major records (Qaynuqa, Qurayza, Nadir, Badr al-Maw'ida, Usama, Dumat, Hamra al-Asad, Yemen, Muslim–Quraysh war, al-Raji', Bi'r Ma'una, Amr ibn Umayya, two Hudhayl killings) — cited to each record's own sources; `npm run validate` 0 errors.
+- Wave 2: `sides:` on 12 saraya/raids (Abd al-Rahman to Dumat, Abdullah ibn Unays, Abu Ubayda, Ali to al-Fals, Kurz, Zayd to Madyan, Ibn Abi Hadrad ×2, khandama). Sub-events of Badr/Uhud stay unsided by design; `siege-of-taif-8`, `siege-of-tbilisi-628`, `battle-of-abraq-632` need a record review (possible mislabel/duplicates) before any sides.
+- Prophetic-era sides coverage now ~66/75; commanders surface on the browser cards.
