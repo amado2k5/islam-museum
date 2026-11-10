@@ -13,6 +13,9 @@ date:
   end: { edtf: "1598", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الدولة الشيبانية", en: "The Shaybanid state" }
+  - label: { ar: "الجيش الصفوي", en: "The Safavid army" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q130377162

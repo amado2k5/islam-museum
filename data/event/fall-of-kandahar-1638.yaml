@@ -13,6 +13,9 @@ date:
   end: { edtf: "1638", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش الصفوي", en: "The Safavid army" }
+  - label: { ar: "حامية قندهار المغولية", en: "The Mughal garrison of Kandahar" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q138659346

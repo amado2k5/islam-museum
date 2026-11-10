@@ -13,6 +13,9 @@ date:
   end: { edtf: "1541", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "القوات العثمانية", en: "The Ottoman forces" }
+  - label: { ar: "البرتغاليون", en: "The Portuguese" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q115517775
