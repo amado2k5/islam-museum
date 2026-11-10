@@ -1,0 +1,20 @@
+id: place/central-asia
+class: place
+kind: region
+label: { ar: "آسيا الوسطى", en: "Central Asia" }
+summary:
+  ar: "إقليم."
+  en: "Subregion of the Asian continent."
+wings: [place]
+coordinates: [45.3, 63.9]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q27275" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q27275 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

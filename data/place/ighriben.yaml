@@ -1,0 +1,20 @@
+id: place/ighriben
+class: place
+kind: town
+label: { ar: "إغريبن", en: "Ighriben" }
+summary:
+  ar: "بلدة في المغرب."
+  en: "Douar in Morocco."
+wings: [place]
+coordinates: [35.0964885, -3.5972533]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q28896885" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q28896885 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

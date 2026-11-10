@@ -1,0 +1,20 @@
+id: place/vaslui
+class: place
+kind: city
+label: { ar: "فاسلوي", en: "Vaslui" }
+summary:
+  ar: "مدينة."
+  en: "Capital of the county of Vaslui, Romania."
+wings: [place]
+coordinates: [46.638333333333, 27.729166666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q192269" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q192269 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

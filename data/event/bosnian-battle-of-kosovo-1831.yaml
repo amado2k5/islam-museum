@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1831", precision: year, status: tradition, derived: true }
   end: { edtf: "1831", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [21.085, 42.7175]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1831"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة كوسوفو البوسنية ⁦(١٨٣١)⁩", en: "Bosnian Battle of Kosovo (1831)" }, at: [21.085, 42.7175], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kosovo-field }
 sides:
   - label: { en: "Bosnians", ar: "بوسنيون" }
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }

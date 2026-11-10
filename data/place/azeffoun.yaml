@@ -1,0 +1,20 @@
+id: place/azeffoun
+class: place
+kind: province
+label: { ar: "أزفون", en: "Azeffoun" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Algeria."
+wings: [place]
+coordinates: [36.893055555555556, 4.420277777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q209443" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q209443 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

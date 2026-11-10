@@ -1,0 +1,20 @@
+id: place/alaro
+class: place
+kind: province
+label: { ar: "ألارو", en: "Alaró" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain."
+wings: [place]
+coordinates: [39.706666666667, 2.7908333333333]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q850939" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q850939 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

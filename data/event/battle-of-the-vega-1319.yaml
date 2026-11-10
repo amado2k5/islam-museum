@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1319", precision: year, status: tradition, derived: true }
   end: { edtf: "1319", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-3.7494444444444, 37.251666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1319"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة فيغا غرناطة", en: "Battle of the Vega of Granada" }, at: [-3.7494444444444, 37.251666666667], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
 - { type: during_reign, target: person/al-mustakfi-i-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/pinos-puente }
 sides:
   - label: { en: "Emirate of Granada", ar: "مملكة غرناطة" }
     participants: [polity/emirate-of-granada]

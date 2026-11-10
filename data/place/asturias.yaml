@@ -1,0 +1,20 @@
+id: place/asturias
+class: place
+kind: province
+label: { ar: "منطقة أشتورية", en: "Asturias" }
+summary:
+  ar: "مقاطعة."
+  en: "Autonomous community of Spain."
+wings: [place]
+coordinates: [43.36138888888889, -5.847777777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3934" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3934 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

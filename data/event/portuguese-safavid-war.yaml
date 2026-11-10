@@ -12,6 +12,18 @@ date:
   start: { edtf: "1621", precision: year, status: tradition, derived: true }
   end: { edtf: "1630", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: campaign
+  precision: locality
+  center: [52.0, 26.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1621"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب البرتغالية الصفوية ⁦(١٦٢١–١٦٣٠)⁩", en: "Portuguese–Safavid War (1621–30)" }, at: [52.0, 26.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/persian-gulf }
 external_ids:
   wikidata: Q137921461
 provenance:

@@ -1,0 +1,20 @@
+id: place/oradea
+class: place
+kind: city
+label: { ar: "أوراديا", en: "Oradea" }
+summary:
+  ar: "مدينة."
+  en: "Capital of the county of Bihor, Romania."
+wings: [place]
+coordinates: [47.072222222222, 21.921111111111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q93358" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q93358 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

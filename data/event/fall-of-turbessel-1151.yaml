@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1151", precision: year, status: tradition, derived: true }
   end: { edtf: "1151", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [37.55888889, 36.87416667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1151"
+  features:
+    - { type: point, role: event_point, label: { ar: "سقوط تل باشر ⁦(١١٥١)⁩", en: "Fall of Turbessel (1151)" }, at: [37.55888889, 36.87416667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-muqtafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/turbessel }
 sides:
   - label: { ar: "قوات المقتفي لأمر الله محمد بن المستظهر", en: "The forces of al-Muqtafi li-Amr Allah Muhammad ibn al-Mustazhir" }
     participants: [person/al-muqtafi-billah]

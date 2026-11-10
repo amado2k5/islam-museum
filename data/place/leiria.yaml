@@ -1,0 +1,20 @@
+id: place/leiria
+class: place
+kind: province
+label: { ar: "لَيرِية", en: "Leiria" }
+summary:
+  ar: "مقاطعة في البرتغال."
+  en: "Municipality in Portugal."
+wings: [place]
+coordinates: [39.743055555556, -8.8069444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q206933" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q206933 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

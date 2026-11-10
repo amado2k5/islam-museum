@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1225", precision: year, status: tradition, derived: true }
   end: { edtf: "1225", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-3.7849, 37.7796]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1225"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار جيان ⁦(١٢٢٥)⁩", en: "Siege of Jaen (1225)" }, at: [-3.7849, 37.7796], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-adil-abdallah-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/jaen }
 sides:
   - label: { ar: "قوات العادل عبد الله الموحدي", en: "The forces of al-Adil Abdallah al-Muwahhidi" }
     participants: [person/al-adil-abdallah-almohad]

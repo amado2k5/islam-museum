@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1785", precision: year, status: tradition, derived: true }
   end: { edtf: "1791", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [43.831787, 43.405047]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1785"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة الشيخ منصور ⁦(١٧٨٥)⁩", en: "Sheikh Mansur rebellion" }, at: [43.831787, 43.405047], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/north-caucasus }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "السلطات", en: "The authorities" }

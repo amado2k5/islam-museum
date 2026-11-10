@@ -1,0 +1,20 @@
+id: place/grado
+class: place
+kind: province
+label: { ar: "غرادو، أشتورية", en: "Grado" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in Asturias, Spain."
+wings: [place]
+coordinates: [43.3894263, -6.0686955]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q617580" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q617580 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/indian-ocean
+class: place
+kind: sea
+label: { ar: "المحيط الهندي", en: "Indian Ocean" }
+summary:
+  ar: "بحر."
+  en: "Ocean bounded by Africa, Asia, Australia, and Antarctica."
+wings: [place]
+coordinates: [-20, 80]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q1239" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q1239 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1770", precision: year, status: tradition, derived: true }
   end: { edtf: "1770", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [27.179722222222, 45.699722222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1770"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة فوكشانة ⁦(١٧٧٠)⁩", en: "Battle of Fokshanach (1770)" }, at: [27.179722222222, 45.699722222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/focsani }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q121176904

@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1245", precision: year, status: tradition, derived: true }
   end: { edtf: "1246", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-3.7849, 37.7796]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1245"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار جيان", en: "Siege of Jaén" }, at: [-3.7849, 37.7796], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
 - { type: during_reign, target: person/said-al-mutadid-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/jaen }
 sides:
   - label: { ar: "قوات السعيد المعتضد الموحدي", en: "The forces of al-Said al-Mu'tadid, Almohad caliph" }
     participants: [person/said-al-mutadid-almohad]

@@ -1,0 +1,20 @@
+id: place/trancoso
+class: place
+kind: province
+label: { ar: "ترانكوسو", en: "Trancoso" }
+summary:
+  ar: "مقاطعة في البرتغال."
+  en: "Municipality in Portugal."
+wings: [place]
+coordinates: [40.7833, -7.35]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q686868" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q686868 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

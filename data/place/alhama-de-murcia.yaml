@@ -1,0 +1,20 @@
+id: place/alhama-de-murcia
+class: place
+kind: province
+label: { ar: "حمة مرسية", en: "Alhama de Murcia" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain."
+wings: [place]
+coordinates: [37.851388888889, -1.4263888888889]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q954556" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q954556 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

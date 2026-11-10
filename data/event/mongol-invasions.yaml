@@ -12,6 +12,18 @@ date:
   start: { edtf: "1206", precision: year, status: tradition, derived: true }
   end: { edtf: "1405", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-ibn-khaldun-ibar]
+map:
+  kind: campaign
+  precision: locality
+  center: [80.0, 50.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1206"
+  features:
+    - { type: point, role: event_point, label: { ar: "الغزوات المغولية", en: "Mongol invasions and conquests" }, at: [80.0, 50.0], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/eurasia }
 external_ids:
   wikidata: Q2092093
 provenance:

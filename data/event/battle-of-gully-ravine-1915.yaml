@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1915-06-28", precision: year, status: tradition, derived: true }
   end: { edtf: "1915-07-05", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [26.17527778, 40.04305556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1915"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة وادي الوعر", en: "Battle of Gully Ravine" }, at: [26.17527778, 40.04305556], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/cape-helles }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

@@ -12,6 +12,18 @@ date:
   start: { edtf: "1063", precision: year, status: tradition, derived: true }
   end: { edtf: "1063", precision: year, status: tradition, derived: true }
 sources: [source/kamil-ibn-al-athir]
+map:
+  kind: battle
+  precision: locality
+  center: [14.5, 37.816666666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1063"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة تشيرامي", en: "Battle of Cerami" }, at: [14.5, 37.816666666667], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/cerami }
 external_ids:
   wikidata: Q85859789
 provenance:

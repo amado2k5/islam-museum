@@ -1,0 +1,20 @@
+id: place/gabes-governorate
+class: place
+kind: province
+label: { ar: "ولاية قابس", en: "Gabès Governorate" }
+summary:
+  ar: "مقاطعة في تونس."
+  en: "Governorate in Tunisia."
+wings: [place]
+coordinates: [33.883333333333, 10.116666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q242263" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q242263 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

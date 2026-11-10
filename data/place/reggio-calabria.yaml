@@ -1,0 +1,20 @@
+id: place/reggio-calabria
+class: place
+kind: province
+label: { ar: "رية قلورية", en: "Reggio Calabria" }
+summary:
+  ar: "مقاطعة."
+  en: "Commune of Italy."
+wings: [place]
+coordinates: [38.114438888889, 15.65]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q8471" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q8471 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

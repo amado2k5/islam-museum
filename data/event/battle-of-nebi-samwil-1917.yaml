@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1917-11-18", precision: year, status: tradition, derived: true }
   end: { edtf: "1917-11-24", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.18015, 31.832733333333]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1917"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة النبي صموئيل ⁦(١٩١٧)⁩", en: "Battle of Nebi Samwil" }, at: [35.18015, 31.832733333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/nabi-samwil }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
     participants: [polity/ottoman-empire]

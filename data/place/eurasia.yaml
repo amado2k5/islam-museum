@@ -1,0 +1,20 @@
+id: place/eurasia
+class: place
+kind: region
+label: { ar: "أوراسيا", en: "Eurasia" }
+summary:
+  ar: "إقليم."
+  en: "Continental landmass comprising Europe and Asia."
+wings: [place]
+coordinates: [50, 80]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5401" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5401 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

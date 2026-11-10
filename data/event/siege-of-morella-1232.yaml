@@ -11,9 +11,20 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1232", precision: year, status: tradition, derived: true }
   end: { edtf: "1232", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-0.10055555555556, 40.619166666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1232"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار موريلا ⁦(١٢٣٢)⁩", en: "Siege of Morella (1232)" }, at: [-0.10055555555556, 40.619166666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mamun-almohad, sources: [source/bayan-mughrib-idhari] }
 - { type: during_reign, target: person/al-rashid-almohad, sources: [source/bayan-mughrib-idhari] }
+- { type: occurred_at, target: place/morella }
 sides:
   - label: { ar: "قوات المأمون بن المنصور الموحدي", en: "The forces of al-Ma'mun ibn al-Mansur al-Muwahhidi" }
     participants: [person/al-mamun-almohad]

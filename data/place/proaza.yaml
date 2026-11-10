@@ -1,0 +1,20 @@
+id: place/proaza
+class: place
+kind: province
+label: { ar: "برواثا", en: "Proaza" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality (concejo) in Asturias, Spain."
+wings: [place]
+coordinates: [43.2507925, -6.0168754]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q904816" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q904816 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1442", precision: year, status: tradition, derived: true }
   end: { edtf: "1442", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [23.665661, 46.121763]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1442"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة هرمنشتاد", en: "Battle of Hermannstadt" }, at: [23.665661, 46.121763], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mustakfi-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/santimbru }
 sides:
   - label: { en: "Kingdom of Hungary", ar: "مملكة المجر" }
     participants: [polity/kingdom-of-hungary]

@@ -11,6 +11,18 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1134", precision: year, status: tradition, derived: true }
   end: { edtf: "1134", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [0.3516343, 41.5206796]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1134"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة إفراغة", en: "Battle of Fraga" }, at: [0.3516343, 41.5206796], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/fraga }
 sides:
   - label: { en: "Almoravid dynasty", ar: "الدولة المرابطية" }
     participants: [polity/almoravid-dynasty]

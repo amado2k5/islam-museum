@@ -1,0 +1,20 @@
+id: place/narbonne
+class: place
+kind: province
+label: { ar: "أربونة", en: "Narbonne" }
+summary:
+  ar: "مقاطعة."
+  en: "Commune in Aude, France."
+wings: [place]
+coordinates: [43.184722222222, 3.0036111111111]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q6555" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q6555 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

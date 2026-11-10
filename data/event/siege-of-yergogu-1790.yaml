@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1790", precision: year, status: tradition, derived: true }
   end: { edtf: "1790", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [25.966666666667, 43.9]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1790"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار يركوي ⁦(١٧٩٠)⁩", en: "Siege of Yergöğü (1790)" }, at: [25.966666666667, 43.9], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/giurgiu }
 sides:
   - label: { ar: "قوات سليم الثالث", en: "The forces of سليم الثالث" }
     participants: [person/selim-iii-uthmani]

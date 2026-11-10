@@ -1,0 +1,20 @@
+id: place/taormina
+class: place
+kind: province
+label: { ar: "تاورمينا", en: "Taormina" }
+summary:
+  ar: "مقاطعة."
+  en: "Italian comune."
+wings: [place]
+coordinates: [37.85179, 15.28565]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q199952" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q199952 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

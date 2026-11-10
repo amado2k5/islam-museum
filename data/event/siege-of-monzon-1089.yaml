@@ -12,6 +12,18 @@ date:
   start: { edtf: "1089", precision: year, status: tradition, derived: true }
   end: { edtf: "1089", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [0.18333333333333332, 41.9]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1089"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مونزون ⁦(١٠٨٩)⁩", en: "Siege of Monzón (1089)" }, at: [0.18333333333333332, 41.9], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/monzon }
 external_ids:
   wikidata: Q18004977
 provenance:

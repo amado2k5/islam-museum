@@ -1,0 +1,20 @@
+id: place/astorga
+class: place
+kind: province
+label: { ar: "أسترقة", en: "Astorga" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality in León, Spain."
+wings: [place]
+coordinates: [42.4575, -6.0569444444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q465078" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q465078 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-3
+status: { review: draft, completeness: 1, generated_by: "Devin" }

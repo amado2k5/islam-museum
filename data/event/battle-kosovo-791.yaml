@@ -10,8 +10,19 @@ periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 date:
   start: { edtf: "1389-08-27~", hijri: "0791-08-15", calendar: julian, precision: day, status: tradition, derived: true, note: "١٥ شعبان ٧٩١هـ؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 60}." }
+map:
+  kind: battle
+  precision: locality
+  center: [21.085, 42.7175]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1389"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة قوصوه الأولى واستشهاد مراد الأول", en: "The first battle of Kosovo and the martyrdom of Murad I" }, at: [21.085, 42.7175], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: had_participant, target: person/murad-i-uthmani, role: "القائد المستشهد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: occurred_at, target: place/kosovo-field }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 60-61"
