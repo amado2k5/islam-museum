@@ -13,3 +13,6 @@ The *mahdiyya* is the belief in the awaited Mahdi. For the Imamiyya he is the Tw
 **The academic view:** Ahmad Amin holds that the hadiths were composed in a pattern that could serve the Alids or the Abbasids, depending on who was victorious. One example is the hadith "four of us from the People of the House," and al-Mansur named his son al-Mahdi. {cite:duha-islam p.872}
 
 **The Imamiyya:** the Twelfth Imam has an occultation, and he is the Mahdi who will fill the earth with justice and equity. {cite:duha-islam p.857}
+
+## In the context of the unseen
+A man of the Prophet's house who fills the earth with justice after it was filled with oppression; his reports are established though details are debated.

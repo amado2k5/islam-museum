@@ -10,3 +10,6 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 The Throne (al-Arsh) in Islamic creed is the greatest of created things. Al-Tahawi's text states: 'the Throne and the Footstool are real, and He is free of need of the Throne and what is beneath it' {cite:aqida-tahawiyya}.
 
 The Throne is mentioned in the Qur'an in the contexts of istiwa' and divine transcendence, and creedal works treat its affirmation among what Sunnis believe.
+
+## In the context of the unseen
+The greatest of creations and their roof; the Merciful is established upon it in a manner befitting Him, without how or likeness.
