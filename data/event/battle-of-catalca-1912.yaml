@@ -13,6 +13,9 @@ date:
   end: { edtf: "1912", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الجيش البلغاري", en: "The Bulgarian army" }
+  - label: { ar: "الجيش العثماني", en: "The Ottoman army" }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q20500197
