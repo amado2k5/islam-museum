@@ -16,6 +16,7 @@ date: { start: { edtf: "1275-03~", hijri: "0673-09", calendar: julian, precision
 relations:
   - { type: had_participant, target: person/baybars, role: "الغازي", sources: [source/shadharat-dhahab] }
   - { type: occurred_at, target: place/masisa, sources: [source/shadharat-dhahab] }
+  - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج7، سنة 673)، قراءة آبل فيجن"
