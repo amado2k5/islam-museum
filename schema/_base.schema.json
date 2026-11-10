@@ -719,6 +719,14 @@
       "$ref": "#/$defs/localized",
       "description": "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text."
     },
+    "importance": {
+      "type": "integer",
+      "enum": [
+        1,
+        2
+      ],
+      "description": "Editorial priority (docs/canon.md): 1 cornerstone, 2 major subject. Absent on ordinary records. Says nothing about a subject's standing."
+    },
     "honours": {
       "type": "array",
       "items": {

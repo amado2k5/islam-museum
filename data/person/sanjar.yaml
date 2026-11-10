@@ -39,4 +39,5 @@ relations:
   - { type: died_in, target: place/merv, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193325)" }
   - { type: buried_in, target: building/sultan-sanjar-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4273784)" }
 sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

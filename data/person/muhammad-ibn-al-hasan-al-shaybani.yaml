@@ -19,6 +19,7 @@ relations:
   - { type: born_in, target: place/wasit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1462261)" }
   - { type: died_in, target: place/rayy, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q636188)" }
 sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
+importance: 2
 status:
   review: published
   completeness: 3

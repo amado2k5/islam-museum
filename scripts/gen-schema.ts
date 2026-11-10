@@ -190,6 +190,9 @@ const base = {
       properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
     },
     kids: { "$ref": "#/$defs/localized", description: "Optional kids text for ages 6-12 (Time Browser, DESIGN decision 13): localized, ar/en/ur, each with a citation like the adult text." } as any,
+    // The canon (docs/canon.md): editorial priority only. 1 = cornerstone, 2 = major subject; absent on ordinary records.
+    // Set by scripts/report/canon.py, never by hand.
+    importance: { type: "integer", enum: [1, 2], description: "Editorial priority (docs/canon.md): 1 cornerstone, 2 major subject. Absent on ordinary records. Says nothing about a subject's standing." },
     // Modern Islam Browser (docs/plan/26 section 3.4): sourced honours, the subject's footprint elsewhere, dated platform
     // figures and the upcoming horizon. Optional on every class; the validator checks the references and the dates.
     honours: {

@@ -18,6 +18,7 @@ relations:
   - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
 sources: [source/stoddard-arslan-hadir-1923, source/assabile-omar-abdelkafy]
 # Verification: one source (Arslan's commentary, a close disciple, so an admiring witness). Dates of exile and death need a second source before publication; the 1886 Beirut exile is Arslan's own account.
+importance: 1
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research

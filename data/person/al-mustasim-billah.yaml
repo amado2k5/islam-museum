@@ -29,6 +29,7 @@ relations:
   - { type: successor_of, target: person/al-mustansir-billah, role: "بويع لولده عبد الله بعده", sources: [source/shadharat-dhahab] }
 external_ids: { wikidata: "Q293454" }
 sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/tarikh-khulafa-minhaj-1434, source/assabile-tareq-al-suwaidan]
+importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1242", calendar: julian, precision: year }, end: { edtf: "1258", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

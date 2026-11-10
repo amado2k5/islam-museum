@@ -16,6 +16,7 @@ relations:
   - { type: died_in, target: place/dabiq, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q128731)" }
 sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/tabari-khayyat-part2, source/salabi-umayyad-state-2020, source/khudari-umayyad-state, source/umayyad-birth-to-fall-2006, source/bakr-umayyad-state-1134715, source/tarikh-khalifa-umari-1985]
 provenance: { source: "Sources cited in the record (tabari-tarikh-abu-al-fadl, muruj-al-dhahab, tabari-khayyat-part2, salabi-umayyad-state-2020, khudari-umayyad-state, umayyad-birth-to-fall-2006, bakr-umayyad-state-1134715, tarikh-khalifa-umari-1985); officials table from Tarikh Khalifa (al-Umari ed. 1985)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl], run: "lib-tarikh-khalifa-batch-2-2026-10-31 (enrichment)" }
+importance: 1
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
 story_roles:
   - { role: ruler, toward: polity/umayyad-caliphate, start: { edtf: "715", calendar: julian, precision: year }, end: { edtf: "717", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

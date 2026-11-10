@@ -28,6 +28,7 @@ relations:
   - { type: successor_of, target: person/yazid-ibn-muawiya, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 sources: [source/umayyad-birth-to-fall-2006, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715]
+importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 story_roles:
   - { role: ruler, toward: polity/umayyad-caliphate, start: { edtf: "683", calendar: julian, precision: year }, end: { edtf: "684", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

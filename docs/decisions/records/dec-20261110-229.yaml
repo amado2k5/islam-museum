@@ -1,0 +1,42 @@
+id: dec-20261110-229
+kind: "decision"
+date: "2026-11-10"
+expires_at: "2027-11-10"
+question_hash: 3595bd009993
+lane: "canon"
+class: "process"
+modality: "repo"
+domain: "sources"
+mode: "conservative"
+question: "Should the museum mark a canon of cornerstone and major records with an optional `importance` field (1 or 2) on the entity, selected by a recorded rule (graph weave plus Wikidata sitelink reach) with a short editorial include list, so that finishing, featuring and search ranking can key off it?"
+options:
+  - "optional importance field on the entity, set by scripts/report/canon.py"
+  - "side list file outside the graph"
+  - "no canon marker"
+evidence:
+  - "Founder chose 'Canonical pages first' in chat on 10 November 2026 after the repository and site analysis"
+  - "docs/canon.md: 824 records selected, 444 under 300 Arabic words, 526 draft"
+  - "AGENTS.md: every feature keeps its records in the one graph, never a side table"
+  - "The field is not rendered or exported yet, so no page and no API file changes; removing it is one script run"
+status: decided
+step: rule
+decision: "modern figures are admitted by the lane's reach threshold — a published present-day reach figure from a citable source; below threshold the name stays a queue lead, not a record"
+confidence: 0.85
+reversible: true
+rationale: "Answered by a standing repository rule (rule-reach-threshold): Method page: 'reach thresholds for modern figures'."
+rule: "Method page: 'reach thresholds for modern figures'"
+rule_id: "rule-reach-threshold"
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+derived_from:
+  - rule:rule-reach-threshold
+chain:
+  depth: 0
+  root_id: "rule:rule-reach-threshold"
+  root_kind: "rule"
+  root_expires_at: null
+  derived_rule_hash: "ef1ae2331bd32b63"
+calibration_log: {"deterministic_gates_all_pass":true,"fired_rule_count":1,"rule_ids_fired":["rule-reach-threshold"],"precedent_distance":null,"top_precedent_id":null,"top_precedent_status":null,"founder_resolution":null,"founder_override":false,"calibration_weight":1}
