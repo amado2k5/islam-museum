@@ -15,6 +15,7 @@ summary:
 themes: [afterlife-and-eschatology]
 tags: [hadith-qudsi, qudsi-arwah-al-shuhada]
 relations:
+  - { type: mentions, target: concept/birds, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4885; matn excerpt of at most 40 words, classed as hadith qudsi by the divine first-person speech it carries", generated_by: "Devin (model unknown)", run: "hadith-qudsi-browser-1" }

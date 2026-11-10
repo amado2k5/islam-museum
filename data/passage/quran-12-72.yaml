@@ -16,6 +16,7 @@ translations:
   en: { text: "They said: We have lost the king's cup, and he who bringeth it shall have a camel-load, and I (said Joseph) am answerable for it.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "وہ بولے کہ بادشاہ (کے پانی پینے) کا گلاس کھویا گیا ہے اور جو شخص اس کو لے آئے اس کے لیے ایک بار شتر (انعام) اور میں اس کا ضامن ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/camel, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-12 }
   - { type: mentions, target: concept/asma-al-malik, sources: [source/tanzil-quran] }
 sensitivity: sacred

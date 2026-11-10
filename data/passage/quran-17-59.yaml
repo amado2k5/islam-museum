@@ -16,6 +16,7 @@ translations:
   en: { text: "Naught hindereth Us from sending portents save that the folk of old denied them. And We gave Thamud the she-camel - a clear portent save to warn.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ہم نے نشانیاں بھیجنی اس لئے موقوف کردیں کہ اگلے لوگوں نے اس کی تکذیب کی تھی۔ اور ہم نے ثمود کو اونٹنی (نبوت صالح کی کھلی) نشانی دی۔ تو انہوں نے اس پر ظلم کیا اور ہم جو نشانیاں بھیجا کرتے ہیں تو ڈرانے کو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/she-camel-of-salih, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-17 }
   - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
 sensitivity: sacred

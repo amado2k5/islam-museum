@@ -16,6 +16,7 @@ translations:
   en: { text: "Then, therewith, with their trail of dust,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پھر اس میں گرد اٹھاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/horse, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-100 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

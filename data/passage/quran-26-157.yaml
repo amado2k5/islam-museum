@@ -16,6 +16,7 @@ translations:
   en: { text: "But they hamstrung her, and then were penitent.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو انہوں نے اس کی کونچیں کاٹ ڈالیں پھر نادم ہوئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/she-camel-of-salih, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
