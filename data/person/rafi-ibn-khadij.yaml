@@ -37,7 +37,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 born: { edtf: "607~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
-died: { edtf: "693", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "0655~", hijri: "0035~", calendar: julian, precision: year, status: debated, derived: true, note: "His Uhud wound reopened and he died of it — in Mu'awiya's caliphate per the sounder report, though a gap between the relapse and death is possible (al-Isaba p. 446); CE year approximated to 35 AH", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: died_in, target: place/medina, sources: [source/ibn-hajar-isaba] }
 - type: member_of
@@ -52,6 +52,15 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  note: "al-Isaba p. 446"
+  sources: [source/ibn-hajar-isaba]
+- type: participated_in
+  target: event/battle-of-uhud
+  note: "wounded there (al-Isaba p. 446)"
+  sources: [source/ibn-hajar-isaba]
+
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 2548، ص 446
