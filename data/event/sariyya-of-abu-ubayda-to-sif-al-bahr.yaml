@@ -17,5 +17,12 @@ relations:
   - { type: had_participant, target: person/ubada-ibn-al-samit, role: "راوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 281", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية أبي عبيدة", en: "Abu Ubayda's expedition" }
+    participants: [group/muhajirun]
+    commanders: [person/abu-ubayda-ibn-al-jarrah]
+    strength: { value: 300, status: tradition, note: "ثلاثمائة راكب في المشهور", sources: [source/ibn-hisham-saqqa] }
+  - label: { ar: "عيون قريش على الساحل", en: "The Quraysh coastal watch" }
+    participants: [group/quraysh]
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 281; distinct from event/expedition-of-sif-al-bahr (Hamza, 1 AH)" }

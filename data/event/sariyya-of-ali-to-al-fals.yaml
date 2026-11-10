@@ -14,6 +14,11 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "قائد السرية", sources: [source/sallabi-ali-vol1] }
   - { type: had_participant, target: person/muhammad, role: "بعث السرايا لتطهير الجزيرة من الأوثان", sources: [source/sallabi-ali-vol1] }
   - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { ar: "سرية علي إلى الفلس", en: "Ali's expedition to al-Fals" }
+    commanders: [person/ali-ibn-abi-talib]
+    strength: { value: 150, status: tradition, note: "نحو مائة وخمسين راكباً في المشهور", sources: [source/sallabi-ali-vol1] }
+  - label: { ar: "بني طيء حول الصنم", en: "Banu Tayy around the idol" }
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 p.110" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 p.110", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-93-110" }

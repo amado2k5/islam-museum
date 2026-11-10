@@ -23,5 +23,9 @@ relations:
   - { type: had_participant, target: person/al-hasan-al-basri, role: "راوي خبر لفظ الأرض لمحلّم", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 275-277", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sides:
+  - label: { ar: "سرية ابن أبي حدراد", en: "Ibn Abi Hadrad's expedition" }
+    commanders: [person/abdullah-ibn-abi-hadrad, person/amir-ibn-al-adbat-al-ashjai]
+  - label: { ar: "أهل إدم", en: "The people of Idam" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 275-277" }
