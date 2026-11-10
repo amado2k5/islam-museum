@@ -16,5 +16,8 @@ provenance:
   run: lib-shadharat-batch-57
 relations:
 - { type: during_reign, target: person/al-mustansir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الخليفة بقيادة بلبك", en: "The caliphal forces under Bublik" }
+  - label: { ar: "التتار", en: "The Tatars" }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
