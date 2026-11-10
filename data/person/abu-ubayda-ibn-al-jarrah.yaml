@@ -15,7 +15,7 @@ names:
   - { kind: full, lang: ar, value: "عامر بن عبد الله بن الجراح" }
 gender: male
 born: { edtf: "0583~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0639", calendar: julian, precision: year, status: tradition, note: "Died in the plague of Amwas (Emmaus) in Palestine, 18 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0639", hijri: "0018", calendar: julian, precision: year, status: tradition, derived: true, note: "Died of the plague of Amwas on his way to Bayt al-Maqdis and was buried at Fahl in the Jordan, aged forty-one (al-Isaba pp. 754-756); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [companion, general]
 traditions: [sunni]
 summary:
@@ -49,7 +49,7 @@ relations:
   - { type: exemplifies, target: concept/asma-al-wakil, sources: [source/ibn-sad-tabaqat-bewley] }
 external_ids:
   wikidata: Q747731
-sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/encyclopaedia-of-islam-2, source/assabile-mosaad-anwar]
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/encyclopaedia-of-islam-2, source/assabile-mosaad-anwar, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
   layer: own-research
