@@ -15,7 +15,7 @@ composed from `.cache/graph.json` at build time.
 
 ## 2. Records
 
-- 109 records of the new kind `natural` (one line added to
+- 119 records of the new kind `natural` (one line added to
   `schema/enums/kinds.yaml`), each with trilingual label and summary written in
   the docent voice, `wings: [living]`, themes from `animals-and-mercy`,
   `water-and-animals`, `environment-and-climate` and `cosmology-and-creation`,
@@ -72,6 +72,6 @@ with six new hadith passage records created from the canonical collections
 (Bukhari 3303, Muslim 2240a, Abu Dawud 5263-5268), the fruits-and-orchard wave
 (ginger, camphor, the talh, the tamarisk, the fruits of 80:24-32 and Paradise),
 and the existing fiqh `asal` honey record tagged in alongside the 'give him
-honey' report of Bukhari 5684 — for 109 records and ~650 edges.
+honey' report of Bukhari 5684 — for 119 records and ~650 edges.
 Records are draft-tier until a human reads them; nothing goes live until the
 founder deploys.
