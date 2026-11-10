@@ -17,6 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص4)", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+died: { edtf: "0634", hijri: "0013", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Marj al-Suffar, 13 AH — born in Abyssinia during his father's emigration (Musa ibn Uqba, Sayf; al-Isaba p. 576); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
   - { type: child_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
@@ -26,13 +27,15 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa] }
 
   - { type: lived_in, target: place/abyssinia, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/muhajirun, note: "born in Abyssinia, carried in the two ships (al-Isaba p. 576)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: "own-research"
   source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch110
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 status:
   review: published
   completeness: 3
