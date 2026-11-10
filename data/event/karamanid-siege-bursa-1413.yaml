@@ -13,6 +13,7 @@ date:
   start: { edtf: "1413", hijri: "0816", calendar: julian, precision: year, status: tradition, derived: true, note: "1413م {cite:freely-ottoman-architecture-2011 p. 38}؛ الهجري مشتق." }
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/freely-ottoman-architecture-2011] }
+  - { type: during_reign, target: person/al-mustain-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/freely-ottoman-architecture-2011]
 provenance:
   layer: "own-research"

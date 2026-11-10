@@ -18,6 +18,7 @@ date:
   start: { edtf: "1050-02~", hijri: "0441-08", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان ٤٤١ {cite:muntazam-ibn-al-jawzi j.8 p.482-483}" }
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج8، أحداث سنة ٤٤١)، قراءة آبل فيجن، مسح AAlexandrina-224011"
