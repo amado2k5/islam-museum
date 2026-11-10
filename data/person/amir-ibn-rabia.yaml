@@ -6,16 +6,18 @@ label:
 roles: [companion]
 gender: male
 summary:
-  ar: "بطاقة أولية لعامر بن ربيعة العنزي، صحابي القرن السابع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Amir ibn Rabi'a al-'Anzi, the seventh-century Companion; the biographical entry is not yet checked on the page."
+  ar: "صحابي عنزي، حليف بني عدي بن الخطاب؛ من السابقين الأولين، هاجر إلى الحبشة مع امرأته ليلى بنت أبي خيثمة ثم إلى المدينة، وشهد بدراً وما بعدها، واستخلفه عثمان على المدينة لما حج."
+  en: "An Anzi Companion, an ally of Banu Adi ibn al-Khattab; among the earliest Muslims. He emigrated to Abyssinia with his wife Layla bint Abi Khath'ama, then to Medina, witnessed Badr and the battles after, and Uthman left him in charge of Medina when he went on hajj."
 wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
-sources: [source/al-aalam, source/taqrib-al-tahdhib]
-died: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+sources: [source/al-aalam, source/taqrib-al-tahdhib, source/ibn-hajar-isaba]
+died: { edtf: "0656~", hijri: "0037~", calendar: julian, precision: year, status: debated, derived: true, note: "Mus'ab al-Zubayri gives 32 AH, Abu Ubayda prefers 37 AH, al-Waqidi has his death days after Uthman's killing (al-Isaba p. 750); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam, source/taqrib-al-tahdhib], confidence: low }
  - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/taqrib-al-tahdhib]}
+ - { type: member_of, target: group/muhajirun, note: "al-Isaba p. 750", sources: [source/ibn-hajar-isaba] }
+ - { type: participated_in, target: event/battle-of-badr, note: "al-Isaba p. 750", sources: [source/ibn-hajar-isaba] }
 external_ids:
   wikidata: Q6812299
 provenance:
