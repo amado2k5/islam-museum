@@ -13,6 +13,7 @@ date:
 relations:
   - { type: had_participant, target: person/al-muqtadir-billah, role: "الواقف", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
   source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج6، سنة 303)، قراءة آبل فيجن"

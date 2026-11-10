@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/uthman-ibn-affan, role: "الخليفة", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/said-ibn-al-as, role: "خلفه", sources: [source/kamil-ibn-al-athir] }
+  - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير (دار الكتاب العربي 2012، ج2)، قراءة آبل فيجن"
