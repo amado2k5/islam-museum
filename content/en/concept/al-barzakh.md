@@ -6,7 +6,10 @@ translators: []
 ---
 
 ## Summary
-The barrier between this world and the next in which souls remain until the day they are raised; in it are the grave's bliss and its punishment as the texts report {cite:aqida-tahawiyya} {cite:tafsir-ibn-kathir}.
+The barrier between this world and the next where souls remain until they are raised — with the grave's bliss and punishment as the texts report.
 
-## In the sources
-{cite:aqida-tahawiyya} {cite:tafsir-ibn-kathir}
+## In the texts
+[[passage/quran-23-100|a barzakh until raised]] · [[passage/quran-55-20|a barrier neither transgresses]]
+
+## Note
+In ar-Rahman it names the barrier between two seas — the word for every veiled partition.

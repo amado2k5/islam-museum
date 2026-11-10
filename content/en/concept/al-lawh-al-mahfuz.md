@@ -6,7 +6,10 @@ translators: []
 ---
 
 ## Summary
-The Tablet in which God wrote the decrees of creation fifty thousand years before creating the heavens and the earth; in it the glorious Qur'an is preserved, and to it belongs the knowledge of terms and provision {cite:jami-al-tirmidhi} {cite:tafsir-ibn-kathir}.
+The Tablet in which the Pen wrote creation's decrees fifty thousand years before the heavens and earth; in it the Qur'an is preserved.
 
-## In the sources
-{cite:jami-al-tirmidhi} {cite:tafsir-ibn-kathir}
+## In the texts
+[[passage/quran-85-22|preserved Tablet]] · [[passage/quran-13-39|erases and confirms]]
+
+## Note
+God erases what He wills and confirms — some entries effaced, others established.

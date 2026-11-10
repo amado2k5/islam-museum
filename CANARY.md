@@ -15,6 +15,9 @@ open a new block on top with the new version and today's date.
 
 ## v1.8.0 — 2026-11-09
 
+### Content
+- **Ghayb Browser prose — full coverage.** All sixteen browser-owned concept records now carry rich three-section trilingual prose (summary, texts with Qur'an/hadith anchors, note): the three last major signs added (الدخان، الخسوفات الثلاثة، نار اليمن) plus enriched bodies for the earlier records. Still `status.review: draft` pending a human read.
+
 ### Added
 - **Ghayb Browser (`/{lang}/ghayb/`, متصفح ما وراء الطبيعة).** A new explorer over the museum's unseen records: jinn and angels, the soul, God's measures of time (a day as a thousand years and as fifty thousand), the Night Journey and the seven heavens, the greatest unseen creations (Throne, Footstool, Tablet, Pen), death and the barzakh, and the major signs of the Hour — seven sections, a filter, and cards linking to the ordinary entity pages. Thirty-eight records carry the `ghayb-browser` and `ghayb-<section>` tags inside the one graph: thirteen new concept records and about twenty-five existing ones tagged in place, with seed `mentions` edges on the Qur'an passages. It is in the Explore menu and has a landing-page card. Plan: `docs/plan/33-ghayb-browser.md`. Records are `status.review: draft` until a human reads them.
 - **`/api/v1/ghayb.json`.** The browser's dataset: every tagged record with kind, wings, themes, section tags and edges; documented in `docs/data/README.md`, the OpenAPI document and `llms.txt`.
