@@ -16,6 +16,7 @@ translations:
   en: { text: "He truly will receive an easy reckoning", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اس سے حساب آسان لیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/al-hisab, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-84 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
