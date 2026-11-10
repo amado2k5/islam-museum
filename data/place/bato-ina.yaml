@@ -1,0 +1,20 @@
+id: place/bato-ina
+class: place
+kind: town
+label: { ar: "باتوتشينا", en: "Batočina" }
+summary:
+  ar: "بلدة في صربيا."
+  en: "Town and municipality in Serbia."
+wings: [place]
+coordinates: [44.15, 21.083333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q810884" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q810884 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/debar
+class: place
+kind: town
+label: { ar: "ديبار", en: "Debar" }
+summary:
+  ar: "بلدة."
+  en: "Town in North Macedonia."
+wings: [place]
+coordinates: [41.525, 20.527222222222]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q689820" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q689820 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

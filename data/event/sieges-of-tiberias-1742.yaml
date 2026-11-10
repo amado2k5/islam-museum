@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1742", precision: year, status: tradition, derived: true }
   end: { edtf: "1743", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [35.524722222222, 32.789722222222]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1742"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصارات طبريا ⁦(١٧٤٢–١٧٤٣)⁩", en: "Sieges of Tiberias (1742–43)" }, at: [35.524722222222, 32.789722222222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/tiberias }
 sides:
   - label: { ar: "قوات محمود الأول", en: "The forces of محمود الأول" }
     participants: [person/mahmud-i-uthmani]

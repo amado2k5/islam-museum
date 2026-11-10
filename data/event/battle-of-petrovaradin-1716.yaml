@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1716", precision: year, status: tradition, derived: true }
   end: { edtf: "1716", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [19.866666666667, 45.25]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1716"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بتروفارادين", en: "Battle of Petrovaradin" }, at: [19.866666666667, 45.25], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/ahmed-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/petrovaradin }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q690391

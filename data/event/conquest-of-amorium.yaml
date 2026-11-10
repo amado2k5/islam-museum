@@ -9,6 +9,15 @@ wings: [time]
 date:
   start: { hijri: "0223", precision: year, status: debated, note: "ج9 ص57: 223هـ؛ وقيل 224هـ أو 222هـ في تاريخ الشخوص", sources: [source/tabari-tarikh-abu-al-fadl] }
 external_ids: { wikidata: "Q1669285" }
+map:
+  kind: campaign
+  precision: locality
+  center: [31.2892, 39.0206]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح عمورية", en: "Conquest of Amorium" }, at: [31.2892, 39.0206], precision: locality, source: source/tabari-tarikh-abu-al-fadl }
+  sources: [source/tabari-tarikh-abu-al-fadl]
 relations:
 - { type: occurred_at, target: place/ammuriyya }
 sides:

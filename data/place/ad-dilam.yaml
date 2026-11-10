@@ -1,0 +1,20 @@
+id: place/ad-dilam
+class: place
+kind: region
+label: { ar: "محافظة الدلم", en: "Ad-Dilam" }
+summary:
+  ar: "إقليم في منطقة الرياض في السعودية."
+  en: "Region in Riyadh Region, Saudi Arabia."
+wings: [place]
+coordinates: [23.991111111111, 47.161944444444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q7174030" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q7174030 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

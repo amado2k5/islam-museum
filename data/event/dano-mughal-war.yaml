@@ -11,6 +11,16 @@ regions: [south-asia]
 date:
   start: { edtf: "1642", precision: year, status: tradition, derived: true }
   end: { edtf: "1698", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [76.9702, 22.2078]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1642"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الدنماركية المغولية", en: "Dano–Mughal War" }, at: [76.9702, 22.2078], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/indian-subcontinent }
 sides:

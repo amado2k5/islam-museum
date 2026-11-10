@@ -1,0 +1,20 @@
+id: place/jumilla
+class: place
+kind: region
+label: { ar: "خوميا", en: "Jumilla" }
+summary:
+  ar: "إقليم."
+  en: "Municipality in Region of Murcia, Spain."
+wings: [place]
+coordinates: [38.479166666667, -1.325]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q917173" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q917173 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

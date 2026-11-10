@@ -1,0 +1,20 @@
+id: place/oued-nini
+class: place
+kind: town
+label: { ar: "وادي نيني", en: "Oued Nini" }
+summary:
+  ar: "بلدة."
+  en: "Commune and town in Oum El Bouaghi Province, Algeria."
+wings: [place]
+coordinates: [35.57222222222222, 7.348888888888889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q3358046" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q3358046 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

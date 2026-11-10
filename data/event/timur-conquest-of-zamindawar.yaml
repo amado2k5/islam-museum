@@ -10,6 +10,17 @@ periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 date:
   start: { edtf: "", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [65.2745, 32.4672]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح تيمور لزمينداور", en: "Timur's conquest of Zamindawar" }, at: [65.2745, 32.4672], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/zamindawar }
 sides:
   - label: { en: "Qara'unas", ar: "قراوناس" }
   - label: { en: "Timurid Empire", ar: "الدولة التيمورية" }

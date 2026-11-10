@@ -1,0 +1,20 @@
+id: place/caransebe
+class: place
+kind: city
+label: { ar: "كارانسيبيش", en: "Caransebeș" }
+summary:
+  ar: "مدينة."
+  en: "City in Caraș-Severin County, Romania."
+wings: [place]
+coordinates: [45.421388888889, 22.221944444444]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q33208" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q33208 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -1,0 +1,20 @@
+id: place/enguri
+class: place
+kind: river
+label: { ar: "إنغوري", en: "Enguri" }
+summary:
+  ar: "نهر في جورجيا."
+  en: "River in Georgia."
+wings: [place]
+coordinates: [42.9547, 43.0849]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q504388" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q504388 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "1296", precision: year, status: tradition, derived: true }
   end: { edtf: "1296", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-1.747534, 35.013057]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1296"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ندرومة ⁦(١٢٩٦)⁩", en: "Siege of Nedroma (1296)" }, at: [-1.747534, 35.013057], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/nedroma }
 sides:
   - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
     participants: [person/al-hakim-bi-amr-illah]

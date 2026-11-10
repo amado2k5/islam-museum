@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1804", precision: year, status: tradition, derived: true }
   end: { edtf: "1804", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [44.514444444444, 40.181388888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1804"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار يريفان", en: "Siege of Erivan" }, at: [44.514444444444, 40.181388888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/yerevan }
 sides:
   - label: { ar: "قوات سليم الثالث", en: "The forces of سليم الثالث" }
     participants: [person/selim-iii-uthmani]

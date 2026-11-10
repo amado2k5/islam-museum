@@ -1,0 +1,20 @@
+id: place/aegean-sea
+class: place
+kind: sea
+label: { ar: "بحر إيجة", en: "Aegean Sea" }
+summary:
+  ar: "بحر."
+  en: "Part of the Mediterranean Sea, between the Greek mainland, the Turkish mainland, Crete, and Rhodes."
+wings: [place]
+coordinates: [38.5, 25.3]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q34575" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q34575 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

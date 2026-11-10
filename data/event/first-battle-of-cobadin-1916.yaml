@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1916", precision: year, status: tradition, derived: true }
   end: { edtf: "1916", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [27.935759, 44.243994]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1916"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كوبادين الأولى", en: "First Battle of Cobadin" }, at: [27.935759, 44.243994], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/rasova }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3921577

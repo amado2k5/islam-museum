@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1101-04", precision: year, status: tradition, derived: true }
   end: { edtf: "1101-05", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [34.8923, 32.5011]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1101"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قيسارية ⁦(١١٠١)⁩", en: "Siege of Caesarea (1101)" }, at: [34.8923, 32.5011], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/caesarea-maritima }
 sides:
   - label: { ar: "الصليبيون بقيادة بلدوين الأول", en: "The Crusaders under Baldwin I" }
     participants: [person/baldwin-i-jerusalem]

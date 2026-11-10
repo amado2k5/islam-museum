@@ -12,6 +12,18 @@ date:
   start: { edtf: "1621-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1622-02", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [55.77, 26.77]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1621"
+  features:
+    - { type: point, role: event_point, label: { ar: "أخذ قشم ⁦(١٦٢١)⁩", en: "Anglo-Persian capture of Qeshm" }, at: [55.77, 26.77], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/qeshm-island }
 external_ids:
   wikidata: Q121433627
 provenance:

@@ -1,0 +1,20 @@
+id: place/mingachevir
+class: place
+kind: city
+label: { ar: "مينجا تشيفير", en: "Mingachevir" }
+summary:
+  ar: "مدينة في أذربيجان."
+  en: "City in Azerbaijan."
+wings: [place]
+coordinates: [40.77, 47.048888888889]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q230932" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q230932 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

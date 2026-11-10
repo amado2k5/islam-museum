@@ -1,0 +1,20 @@
+id: place/al-qaryatayn-homs
+class: place
+kind: city
+label: { ar: "القريتين", en: "Al-Qaryatayn, Homs" }
+summary:
+  ar: "مدينة في سوريا."
+  en: "City in Syria."
+wings: [place]
+coordinates: [34.229444444444, 37.240555555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q4703079" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q4703079 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

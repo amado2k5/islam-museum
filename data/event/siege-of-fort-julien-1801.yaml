@@ -11,8 +11,19 @@ regions: [egypt-nile]
 date:
   start: { edtf: "1801", precision: year, status: tradition, derived: true }
   end: { edtf: "1801", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [30.389444444444443, 31.439722222222223]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1801"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار حصن جوليان", en: "Siege of Fort Julien" }, at: [30.389444444444443, 31.439722222222223], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/fort-julien }
 sides:
   - label: { ar: "قوات سليم الثالث", en: "The forces of سليم الثالث" }
     participants: [person/selim-iii-uthmani]

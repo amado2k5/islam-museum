@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1582", precision: year, status: tradition, derived: true }
   end: { edtf: "1582", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [90.215544444444, 47.414527777778]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1582"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة نهر إرتش ⁦(١٥٨٢)⁩", en: "Battle of the Irtysh (1582)" }, at: [90.215544444444, 47.414527777778], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/irtysh }
 sides:
   - label: { en: "Siberian Khanate", ar: "خانية سيبير" }
     participants: [polity/siberian-khanate]

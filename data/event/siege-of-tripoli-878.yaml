@@ -11,8 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "0878", precision: year, status: tradition, derived: true }
   end: { edtf: "0878", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [13.1875, 32.8875]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0878"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار طرابلس ⁦(٨٧٨)⁩", en: "Siege of Tripoli (878)" }, at: [13.1875, 32.8875], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutamid, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/tripoli }
 sides:
   - label: { ar: "قوات المعتمد على الله", en: "The forces of al-Mu'tamid ala Allah" }
     participants: [person/al-mutamid]

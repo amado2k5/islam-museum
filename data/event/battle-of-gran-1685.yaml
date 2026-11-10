@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1685", precision: year, status: tradition, derived: true }
   end: { edtf: "1685", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [18.740277777778, 47.785555555556]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1685"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة غران", en: "Battle of Gran" }, at: [18.740277777778, 47.785555555556], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-iv-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/esztergom }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2236909

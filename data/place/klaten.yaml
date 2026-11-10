@@ -1,0 +1,20 @@
+id: place/klaten
+class: place
+kind: province
+label: { ar: "منطقة وصاية كلاتن", en: "Klaten" }
+summary:
+  ar: "مقاطعة في مقاطعة وسط جاوة في إندونيسيا."
+  en: "Regency in Central Java Province, Indonesia."
+wings: [place]
+coordinates: [-7.6833333333333, 110.61666666667]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q10619" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q10619 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

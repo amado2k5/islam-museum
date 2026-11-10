@@ -11,8 +11,19 @@ regions: [west-africa-sahel]
 date:
   start: { edtf: "1882", precision: year, status: tradition, derived: true }
   end: { edtf: "1886", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [3.0, 12.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1882"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب الماندينغو الأولى ⁦(١٨٨٢–١٨٨٦)⁩", en: "First Mandigo War (1882–86)" }, at: [3.0, 12.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/umaru-ibn-ali, sources: [source/wikidata] }
+- { type: occurred_at, target: place/west-africa }
 sides:
   - label: { en: "French Third Republic", ar: "الجمهورية الفرنسية الثالثة" }
     participants: [polity/french-third-republic]

@@ -1,0 +1,20 @@
+id: place/khotyn-fortress
+class: place
+kind: site
+label: { ar: "قلعة خوتين", en: "Khotyn Fortress" }
+summary:
+  ar: "موقع أثري."
+  en: "Fortress."
+wings: [place]
+coordinates: [48.521944444444, 26.498333333333]
+coordinate_precision: site
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q141012" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q141012 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

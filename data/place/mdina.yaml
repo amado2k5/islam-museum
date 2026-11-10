@@ -1,0 +1,20 @@
+id: place/mdina
+class: place
+kind: city
+label: { ar: "المدينة", en: "Mdina" }
+summary:
+  ar: "مدينة في المنطقة الغربية في مالطا."
+  en: "City and Local council in Western Region, Malta."
+wings: [place]
+coordinates: [35.885833333333, 14.403055555556]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q207277" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q207277 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

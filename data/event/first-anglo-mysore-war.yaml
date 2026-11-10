@@ -11,8 +11,19 @@ regions: [south-asia]
 date:
   start: { edtf: "1767", precision: year, status: tradition, derived: true }
   end: { edtf: "1769", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [76.65305555555555, 12.30861111111111]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1767"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب الأنغلو-ميسورية الأولى", en: "First Anglo-Mysore War" }, at: [76.65305555555555, 12.30861111111111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mustafa-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mysore }
 sides:
   - label: { ar: "شركة الهند الشرقية البريطانية", en: "The British East India Company" }
   - label: { ar: "مملكة مايسور بقيادة حيدر علي", en: "Mysore under Hyder Ali" }

@@ -10,6 +10,15 @@ periods: [period/pre-islamic-arabia]
 regions: [arabia]
 date:
   start: { edtf: "-0200~", calendar: julian, precision: century, status: tradition, derived: true, note: "زمن التبابعة؛ لا تاريخ محقق {cite:ansab-al-ashraf p. 8}." }
+map:
+  kind: campaign
+  precision: locality
+  center: [47.305, 24.1483]
+  extent_km: 80
+  basemap: terrain
+  features:
+    - { type: point, role: event_point, label: { ar: "فناء طسم وجديس باليمامة", en: "The Annihilation of Tasm and Jadis at al-Yamama" }, at: [47.305, 24.1483], precision: locality, source: source/ansab-al-ashraf }
+  sources: [source/ansab-al-ashraf]
 relations:
   - { type: occurred_at, target: place/al-yamama, sources: [source/ansab-al-ashraf] }
 provenance:

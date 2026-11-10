@@ -1,0 +1,20 @@
+id: place/strait-of-malacca
+class: place
+kind: region
+label: { ar: "مضيق ملقا", en: "Strait of Malacca" }
+summary:
+  ar: "إقليم."
+  en: "Strait between the Malay Peninsula and the Indonesian island of Sumatra."
+wings: [place]
+coordinates: [2.833, 101.037]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q48359" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q48359 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1188-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1188-07", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [36.057222, 35.595833]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1188"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قلعة صهيون ⁦(١١٨٨)⁩", en: "Siege of Sahyun Castle (1188)" }, at: [36.057222, 35.595833], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/citadel-of-salah-ed-din }
 sides:
   - label: { ar: "الجيش الأيوبي بقيادة صلاح الدين", en: "The Ayyubid army under Saladin" }
     participants: [person/salah-al-din-yusuf-ibn-ayyub]

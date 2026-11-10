@@ -1,0 +1,20 @@
+id: place/guardamar-del-segura
+class: place
+kind: province
+label: { ar: "بني مدور", en: "Guardamar del Segura" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of the province of Alicante, Spain."
+wings: [place]
+coordinates: [38.089722222222, -0.655]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q927965" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q927965 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

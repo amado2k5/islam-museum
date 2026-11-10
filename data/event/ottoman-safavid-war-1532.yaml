@@ -11,8 +11,19 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1532", precision: year, status: tradition, derived: true }
   end: { edtf: "1555", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [43.5, 33.7]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1532"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الصفوية ⁦(١٥٣٢–١٥٥٥)⁩", en: "Ottoman–Safavid War of 1532–1555" }, at: [43.5, 33.7], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/mesopotamia }
 sides:
   - label: { en: "Safavid Iran", ar: "الدولة الصفوية" }
     participants: [polity/safavid-iran]

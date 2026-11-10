@@ -1,0 +1,20 @@
+id: place/massawa
+class: place
+kind: city
+label: { ar: "مصوع", en: "Massawa" }
+summary:
+  ar: "مدينة."
+  en: "City on the Red Sea coast of Eritrea."
+wings: [place]
+coordinates: [15.6, 39.433333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q275635" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q275635 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

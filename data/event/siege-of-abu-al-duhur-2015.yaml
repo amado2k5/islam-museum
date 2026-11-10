@@ -12,6 +12,18 @@ date:
   start: { edtf: "2012-09-23", precision: year, status: tradition, derived: true }
   end: { edtf: "2015-09-09", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [37.046666666667, 35.740555555556]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "2012"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مطار أبو الظهور", en: "Siege of Abu al-Duhur Airbase" }, at: [37.046666666667, 35.740555555556], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/abu-al-duhur }
 external_ids:
   wikidata: Q20984686
 provenance:

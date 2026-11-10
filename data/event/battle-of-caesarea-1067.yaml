@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1067", precision: year, status: tradition, derived: true }
   end: { edtf: "1067", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [35.487500000000004, 38.722500000000004]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1067"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة قيصرية ⁦(١٠٦٧)⁩", en: "Battle of Caesarea" }, at: [35.487500000000004, 38.722500000000004], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
 - { type: during_reign, target: person/al-qaim-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/caesarea-of-cappadocia }
 sides:
   - label: { ar: "قوات القائم بأمر الله عبد الله بن القادر", en: "The forces of al-Qa'im bi-Amr Allah Abd Allah ibn al-Qadir" }
     participants: [person/al-qaim-billah]

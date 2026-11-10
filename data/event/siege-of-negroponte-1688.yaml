@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1688-07-13", precision: year, status: tradition, derived: true }
   end: { edtf: "1688-10-21", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [23.595, 38.4625]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1688"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نيغروبونتي ⁦(١٦٨٨)⁩", en: "Siege of Negroponte" }, at: [23.595, 38.4625], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/chalk-da }
 sides:
   - label: { ar: "قوات سليمان الثاني", en: "The forces of سليمان الثاني" }
     participants: [person/sulayman-ii-uthmani]

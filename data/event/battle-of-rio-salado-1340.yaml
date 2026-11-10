@@ -12,6 +12,16 @@ date:
   start: { edtf: "1340", precision: year, status: tradition, derived: true }
   end: { edtf: "1340", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-ibn-khaldun-ibar]
+map:
+  kind: battle
+  precision: locality
+  center: [-5.6044, 36.013]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1340"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة طريف", en: "Battle of Río Salado" }, at: [-5.6044, 36.013], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
 - { type: occurred_at, target: place/tarifa }
 external_ids:

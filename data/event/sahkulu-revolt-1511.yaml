@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1511", precision: year, status: tradition, derived: true }
   end: { edtf: "1511", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [32.4846, 37.8713]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1511"
+  features:
+    - { type: point, role: event_point, label: { ar: "عصيان شاه قلي", en: "Şahkulu Revolt" }, at: [32.4846, 37.8713], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: occurred_at, target: place/konya }
 - { type: occurred_at, target: place/manisa }

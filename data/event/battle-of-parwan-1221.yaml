@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1221", precision: year, status: tradition, derived: true }
   end: { edtf: "1221", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [69.0, 35.0]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1221"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بروان", en: "Battle of Parwan" }, at: [69.0, 35.0], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/parwan-province }
 sides:
   - label: { ar: "الخوارزمية بقيادة جلال الدين", en: "The Khwarizmians under Jalal al-Din" }
   - label: { ar: "الجيش المغولي", en: "The Mongol army" }

@@ -1,0 +1,20 @@
+id: place/mavana
+class: place
+kind: town
+label: { ar: "موانا", en: "Mavana" }
+summary:
+  ar: "بلدة."
+  en: "Village in Iran."
+wings: [place]
+coordinates: [37.57416667, 44.79611111]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5708514" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5708514 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

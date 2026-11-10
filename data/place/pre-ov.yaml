@@ -1,0 +1,20 @@
+id: place/pre-ov
+class: place
+kind: city
+label: { ar: "بريشوف", en: "Prešov" }
+summary:
+  ar: "مدينة في سلوفاكيا."
+  en: "City in Slovakia."
+wings: [place]
+coordinates: [49, 21.233333333333]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q26119" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q26119 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

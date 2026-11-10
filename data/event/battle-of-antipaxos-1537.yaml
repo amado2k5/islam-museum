@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1537-07-22", precision: year, status: tradition, derived: true }
   end: { edtf: "1537-07-23", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [20.231388888889, 39.148611111111]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1537"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة أنتيباكسوس ⁦(١٥٣٧)⁩", en: "Battle of Antipaxos" }, at: [20.231388888889, 39.148611111111], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+- { type: occurred_at, target: place/antipaxos }
 sides:
   - label: { ar: "قوات سليمان القانوني", en: "The forces of سليمان القانوني" }
     participants: [person/sulayman-al-qanuni]

@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1572", precision: year, status: tradition, derived: true }
   end: { edtf: "1572", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.69638888888889, 36.91388888888889]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1572"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار نافارينو ⁦(١٥٧٢)⁩", en: "Siege of Navarino" }, at: [21.69638888888889, 36.91388888888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/pylos }
 sides:
   - label: { ar: "قوات سليم الثاني", en: "The forces of Selim II" }
     participants: [person/selim-ii-uthmani]

@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1823", precision: year, status: tradition, derived: true }
   end: { edtf: "1823", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [21.42888888888889, 38.368611111111115]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1823"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار ميسولونغي الثاني", en: "Second Siege of Missolonghi" }, at: [21.42888888888889, 38.368611111111115], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/missolonghi }
 sides:
   - label: { ar: "قوات محمود الثاني", en: "The forces of محمود الثاني" }
     participants: [person/mahmud-ii-uthmani]

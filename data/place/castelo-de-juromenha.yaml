@@ -1,0 +1,20 @@
+id: place/castelo-de-juromenha
+class: place
+kind: province
+label: { ar: "قلعة جلمانية", en: "Castelo de Juromenha" }
+summary:
+  ar: "مقاطعة."
+  en: "Building in Juromenha, Évora District, Portugal."
+wings: [place]
+coordinates: [38.738175, -7.239841]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5049780" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5049780 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

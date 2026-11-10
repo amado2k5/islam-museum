@@ -11,9 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1621", precision: year, status: tradition, derived: true }
   end: { edtf: "1621", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [26.485972222222223, 48.507777777777775]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1621"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة خوطين", en: "Battle of Khotyn" }, at: [26.485972222222223, 48.507777777777775], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/uthman-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/khotyn }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q860981

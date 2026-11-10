@@ -11,6 +11,18 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1228", precision: year, status: tradition, derived: true }
   end: { edtf: "1228", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [44.54194444444445, 41.449444444444445]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1228"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة بولنيسي", en: "Battle of Bolnisi" }, at: [44.54194444444445, 41.449444444444445], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
+relations:
+- { type: occurred_at, target: place/bolnisi }
 sides:
   - label: { en: "Khwarazmian Empire", ar: "الدولة الخوارزمية" }
     participants: [polity/khwarazmian-empire]

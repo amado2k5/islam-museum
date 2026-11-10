@@ -13,6 +13,16 @@ date:
 sides:
   - label: { ar: "فليتة بن القرى وأعوانه من بني خفاجة" }
   - label: { ar: "ركب الحج" }
+map:
+  kind: campaign
+  precision: locality
+  center: [43.0, 33.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1012"
+  features:
+    - { type: point, role: event_point, label: { ar: "مذبحة فليتة بن القرى لركب الحج", en: "The Massacre of the Hajj Caravan by Fulayta ibn al-Qarri" }, at: [43.0, 33.0], precision: locality, source: source/shadharat-dhahab }
+  sources: [source/shadharat-dhahab]
 relations:
   - { type: occurred_at, target: place/iraq, sources: [source/shadharat-dhahab] }
   - { type: during_reign, target: person/al-qadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

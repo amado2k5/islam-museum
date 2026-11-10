@@ -1,0 +1,20 @@
+id: place/escalona
+class: place
+kind: province
+label: { ar: "إسكالونا", en: "Escalona" }
+summary:
+  ar: "مقاطعة."
+  en: "Municipality of Spain, province of Toledo."
+wings: [place]
+coordinates: [40.170833333333, -4.4052777777778]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q616621" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q616621 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

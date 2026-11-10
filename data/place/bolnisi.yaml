@@ -1,0 +1,20 @@
+id: place/bolnisi
+class: place
+kind: city
+label: { ar: "بولنيسي", en: "Bolnisi" }
+summary:
+  ar: "مدينة في جورجيا."
+  en: "City in Georgia."
+wings: [place]
+coordinates: [41.449444444444445, 44.54194444444445]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q653420" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q653420 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

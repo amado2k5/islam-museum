@@ -1,0 +1,20 @@
+id: place/caesarea-maritima
+class: place
+kind: city
+label: { ar: "قيسارية ماريتيما", en: "Caesarea Maritima" }
+summary:
+  ar: "مدينة."
+  en: "Ancient Levantine city."
+wings: [place]
+coordinates: [32.5011, 34.8923]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q319242" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q319242 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

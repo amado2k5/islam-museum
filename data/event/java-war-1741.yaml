@@ -11,6 +11,16 @@ regions: [southeast-asia]
 date:
   start: { edtf: "1741", precision: year, status: tradition, derived: true }
   end: { edtf: "1743", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [110.0044, -7.4917]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1741"
+  features:
+    - { type: point, role: event_point, label: { ar: "حرب جاوة ⁦(١٧٤١-١٧٤٣)⁩", en: "Java War of 1741–1743" }, at: [110.0044, -7.4917], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mahmud-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: occurred_at, target: place/java }

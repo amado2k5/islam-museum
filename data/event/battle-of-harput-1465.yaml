@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1465", precision: year, status: tradition, derived: true }
   end: { edtf: "1465", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [39.25, 38.703888888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1465"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة خربوت", en: "Battle of Harput" }, at: [39.25, 38.703888888889], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/al-mustanjid-billah-egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/kharpoot }
 sides:
   - label: { ar: "الدولة الآق قويونلو", en: "The Aq Qoyunlu" }
   - label: { ar: "مملكة طرابزون", en: "The Empire of Trebizond" }

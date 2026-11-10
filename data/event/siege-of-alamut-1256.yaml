@@ -11,6 +11,8 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1256-12", precision: year, status: tradition, derived: true }
   end: { edtf: "1256-12", precision: year, status: tradition, derived: true }
+relations:
+- { type: occurred_at, target: building/alamut-castle }
 sides:
   - label: { ar: "الجيش المغولي بقيادة هولاكو", en: "The Mongol army under Hulagu" }
     participants: [person/hulagu]

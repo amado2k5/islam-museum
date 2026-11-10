@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1490", precision: year, status: tradition, derived: true }
   end: { edtf: "1490", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [18.410811, 47.1910169]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1490"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار سيكشفهيرفار ⁦(١٤٩٠)⁩", en: "Siege of Székesfehérvár (1490)" }, at: [18.410811, 47.1910169], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/sz-kesfeh-rv-r }
 sides:
   - label: { ar: "قوات المتوكل على الله الثاني عبد العزيز بن يعقوب", en: "The forces of al-Mutawakkil ala Allah II, Abd al-Aziz ibn Ya'qub" }
     participants: [person/al-mutawakkil-ala-llah-ii]

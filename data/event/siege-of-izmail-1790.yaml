@@ -11,8 +11,19 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1790", precision: year, status: tradition, derived: true }
   end: { edtf: "1790", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [28.834556, 45.341778]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1790"
+  features:
+    - { type: point, role: event_point, label: { ar: "هجوم إسماعيل", en: "Siege of Izmail" }, at: [28.834556, 45.341778], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/izmail }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q2372093

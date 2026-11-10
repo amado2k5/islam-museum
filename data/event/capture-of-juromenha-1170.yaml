@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1170", precision: year, status: tradition, derived: true }
   end: { edtf: "1170", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-7.239841, 38.738175]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1170"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح جرومنها ⁦(١١٧٠)⁩", en: "Capture of Juromenha (1170)" }, at: [-7.239841, 38.738175], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
+- { type: occurred_at, target: place/castelo-de-juromenha }
 sides:
   - label: { ar: "قوات أبو يعقوب يوسف بن عبد المؤمن", en: "The forces of Abu Ya'qub Yusuf ibn Abd al-Mu'min" }
     participants: [person/abu-yaqub-yusuf-almohad]

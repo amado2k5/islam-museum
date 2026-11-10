@@ -12,6 +12,18 @@ date:
   start: { edtf: "1730", precision: year, status: tradition, derived: true }
   end: { edtf: "1735", precision: year, status: tradition, derived: true }
 sources: [source/dawlat-uthmaniyya-salabi]
+map:
+  kind: campaign
+  precision: locality
+  center: [44.5, 42.75]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1730"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية الفارسية ⁦(١٧٣٠–١٧٣٥)⁩", en: "Ottoman–Persian War of 1730–1735" }, at: [44.5, 42.75], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
+relations:
+- { type: occurred_at, target: place/caucasus }
 external_ids:
   wikidata: Q2913821
 provenance:

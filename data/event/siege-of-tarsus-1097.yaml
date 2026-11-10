@@ -12,6 +12,16 @@ date:
   start: { edtf: "1097", precision: year, status: tradition, derived: true }
   end: { edtf: "1097", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [34.8833, 36.9167]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1097"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار طرسوس ⁦(١٠٩٧)⁩", en: "Siege of Tarsus (1097)" }, at: [34.8833, 36.9167], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/tarsus }
 external_ids:

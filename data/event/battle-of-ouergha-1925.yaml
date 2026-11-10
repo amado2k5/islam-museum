@@ -12,6 +12,18 @@ date:
   start: { edtf: "1925", precision: year, status: tradition, derived: true }
   end: { edtf: "1925", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [-5.766, 34.422166666667]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1925"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الورغة", en: "Battle of Ouergha" }, at: [-5.766, 34.422166666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/ouergha-river }
 external_ids:
   wikidata: Q2888031
 provenance:

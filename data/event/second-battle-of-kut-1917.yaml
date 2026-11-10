@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1917", precision: year, status: tradition, derived: true }
   end: { edtf: "1917", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [45.818888888889, 32.514722222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1917"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة كوت الثانية", en: "Second Battle of Kut" }, at: [45.818888888889, 32.514722222222], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/kut }
 sides:
   - label: { ar: "الجيش البريطاني", en: "The British army" }
   - label: { ar: "الجيش العثماني", en: "The Ottoman army" }

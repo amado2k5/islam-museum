@@ -11,6 +11,16 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1450", precision: year, status: tradition, derived: true }
   end: { edtf: "1500", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [38.791666666667, 37.158333333333]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1450"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب المملوكية مع آق قويونلو", en: "Aq Qoyunlu–Mamluk War" }, at: [38.791666666667, 37.158333333333], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/anl-urfa }
 sides:

@@ -1,0 +1,20 @@
+id: place/suakin
+class: place
+kind: sea
+label: { ar: "سواكن", en: "Suakin" }
+summary:
+  ar: "بحر."
+  en: "Port in north-eastern Sudan on the west coast of the Red Sea."
+wings: [place]
+coordinates: [19.1025, 37.33]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q571215" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q571215 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

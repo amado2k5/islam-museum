@@ -11,6 +11,16 @@ regions: [arabia]
 date:
   start: { edtf: "0747", precision: year, status: tradition, derived: true }
   end: { edtf: "0748", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [49.5, 16.666666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0747"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة الإباضية ⁦(١٢٩هـ)⁩", en: "Ibadi Revolt of 747" }, at: [49.5, 16.666666666667], precision: locality, source: source/tarikh-al-tabari }
+  sources: [source/tarikh-al-tabari]
 relations:
 - { type: during_reign, target: person/marwan-ibn-muhammad, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/hadramawt }

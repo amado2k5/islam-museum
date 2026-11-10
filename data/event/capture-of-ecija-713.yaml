@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0713", precision: year, status: tradition, derived: true }
   end: { edtf: "0713", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-5.079444444444444, 37.541111111111114]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0713"
+  features:
+    - { type: point, role: event_point, label: { ar: "فتح أستجة ⁦(٧١٣)⁩", en: "Capture of Ecija (713)" }, at: [-5.079444444444444, 37.541111111111114], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/cija }
 sides:
   - label: { ar: "قوات الوليد بن عبد الملك", en: "The forces of al-Walid ibn Abd al-Malik" }
     participants: [person/al-walid-ibn-abd-al-malik]

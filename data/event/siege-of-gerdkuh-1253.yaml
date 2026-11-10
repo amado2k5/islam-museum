@@ -12,6 +12,8 @@ date:
   start: { edtf: "1253", precision: year, status: tradition, derived: true }
   end: { edtf: "1253", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: building/gerdkuh-fortress }
 external_ids:
   wikidata: Q89195518
 provenance:

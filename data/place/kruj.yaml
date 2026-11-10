@@ -1,0 +1,20 @@
+id: place/kruj
+class: place
+kind: town
+label: { ar: "كرويه", en: "Krujë" }
+summary:
+  ar: "بلدة."
+  en: "Town in north central Albania."
+wings: [place]
+coordinates: [41.51083333333333, 19.7925]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q194164" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q194164 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

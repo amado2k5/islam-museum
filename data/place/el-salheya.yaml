@@ -1,0 +1,20 @@
+id: place/el-salheya
+class: place
+kind: city
+label: { ar: "الصالحية القديمة", en: "El Salheya" }
+summary:
+  ar: "مدينة."
+  en: "City in the Sharqia Governorate, Egypt."
+wings: [place]
+coordinates: [30.746557, 32.00449]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q5352067" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q5352067 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

@@ -12,6 +12,18 @@ date:
   start: { edtf: "2013-02-12", precision: year, status: tradition, derived: true }
   end: { edtf: "2013-02-14", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: battle
+  precision: locality
+  center: [40.73027778, 36.05611111]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "2013"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة الشدادي", en: "Battle of Shadadeh" }, at: [40.73027778, 36.05611111], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
+relations:
+- { type: occurred_at, target: place/al-shaddadeh }
 external_ids:
   wikidata: Q4872359
 provenance:

@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1594", precision: year, status: tradition, derived: true }
   end: { edtf: "1594", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [17.634444444444, 47.684166666667]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1594"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار جيور", en: "Siege of Gyor (1594)" }, at: [17.634444444444, 47.684166666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/gy-r }
 sides:
   - label: { ar: "قوات مراد الثالث", en: "The forces of مراد الثالث" }
     participants: [person/murad-iii-uthmani]

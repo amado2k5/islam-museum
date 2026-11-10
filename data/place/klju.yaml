@@ -1,0 +1,20 @@
+id: place/klju
+class: place
+kind: town
+label: { ar: "كليوتش", en: "Ključ" }
+summary:
+  ar: "بلدة."
+  en: "Town in Una-Sana Canton, Bosnia and Herzegovina."
+wings: [place]
+coordinates: [44.533333333333, 16.766666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q279995" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q279995 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

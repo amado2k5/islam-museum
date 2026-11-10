@@ -12,6 +12,16 @@ date:
   start: { edtf: "1142", precision: year, status: tradition, derived: true }
   end: { edtf: "1142", precision: year, status: tradition, derived: true }
 sources: [source/tarikh-islam-hasan-ibrahim]
+map:
+  kind: siege
+  precision: locality
+  center: [11.03, 35.8]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1142"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قورية", en: "Siege of Coria" }, at: [11.03, 35.8], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/qurya }
 external_ids:

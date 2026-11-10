@@ -1,0 +1,20 @@
+id: place/skardu
+class: place
+kind: city
+label: { ar: "سكردو", en: "Skardu" }
+summary:
+  ar: "مدينة."
+  en: "City in Gilgit-Baltistan, Pakistan."
+wings: [place]
+coordinates: [35.3, 75.616666666667]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q976955" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q976955 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

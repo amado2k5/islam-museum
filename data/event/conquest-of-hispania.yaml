@@ -12,6 +12,20 @@ date:
   start: { edtf: "0711", precision: year, status: tradition, derived: true }
   end: { edtf: "0720", precision: year, status: tradition, derived: true }
 sources: [source/futuh-buldan-maarif-1407]
+map:
+  kind: campaign
+  precision: locality
+  center: [-4.35, 40.21]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0711"
+  features:
+    - { type: point, role: event_point, label: { ar: "الفتح الإسلامي للأندلس", en: "Umayyad conquest of Hispania" }, at: [-4.35, 40.21], precision: locality, source: source/futuh-buldan-maarif-1407 }
+  sources: [source/futuh-buldan-maarif-1407]
+relations:
+- { type: occurred_at, target: place/hispania }
+- { type: occurred_at, target: place/iberian-peninsula }
+- { type: occurred_at, target: place/gaul }
 external_ids:
   wikidata: Q1455917
 provenance:

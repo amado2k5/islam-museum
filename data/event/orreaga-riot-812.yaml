@@ -11,8 +11,19 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0812", precision: year, status: tradition, derived: true }
   end: { edtf: "0812", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [-1.32416667, 43.01972222]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0812"
+  features:
+    - { type: point, role: event_point, label: { ar: "غارة أورياغا ⁦(٨١٢)⁩", en: "Orreaga Riot (812)" }, at: [-1.32416667, 43.01972222], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-amin, sources: [source/tarikh-khulafa-minhaj-1434] }
+- { type: occurred_at, target: place/roncevaux-pass }
 sides:
   - label: { en: "Franks", ar: "فرنجة" }
   - label: { en: "Vascones", ar: "الفاسكون" }

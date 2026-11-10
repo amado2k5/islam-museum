@@ -11,8 +11,19 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1980-12-22", precision: year, status: tradition, derived: true }
   end: { edtf: "1981-06-30", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [35.907222222222, 33.843888888889]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1980"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة زحلة", en: "Battle of Zahleh" }, at: [35.907222222222, 33.843888888889], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+- { type: occurred_at, target: place/zahl }
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4872802

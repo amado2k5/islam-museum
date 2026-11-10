@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "1452-03-17", precision: year, status: tradition, derived: true }
   end: { edtf: "1452-03-17", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-1.7017, 37.6712]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1452"
+  features:
+    - { type: point, role: event_point, label: { ar: "معركة البورشونيس ⁦(١٤٥٢)⁩", en: "Battle of Los Alporchones" }, at: [-1.7017, 37.6712], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-qaim-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/lorca }

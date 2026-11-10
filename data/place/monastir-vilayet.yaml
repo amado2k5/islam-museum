@@ -1,0 +1,20 @@
+id: place/monastir-vilayet
+class: place
+kind: province
+label: { ar: "ولاية مناستر", en: "Monastir vilayet" }
+summary:
+  ar: "مقاطعة."
+  en: "Ottoman province (1864-1912)."
+wings: [place]
+coordinates: [41.031944444444, 21.334722222222]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q2121602" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q2121602 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

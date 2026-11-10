@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "0750", precision: year, status: tradition, derived: true }
   end: { edtf: "0750", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [66.9644, 39.6546]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "0750"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة شريك بن شيخ ⁦(٧٥٠)⁩", en: "Sharik ibn Shaikh’s Rebellion (750)" }, at: [66.9644, 39.6546], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: occurred_at, target: place/samarqand }
 - { type: occurred_at, target: place/bukhara }

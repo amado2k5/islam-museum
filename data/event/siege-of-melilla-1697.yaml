@@ -11,8 +11,19 @@ regions: [maghreb]
 date:
   start: { edtf: "1697", precision: year, status: tradition, derived: true }
   end: { edtf: "1697", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-2.9475, 35.2825]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1697"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مليلية ⁦(١٦٩٧)⁩", en: "Siege of Melilla (1697)" }, at: [-2.9475, 35.2825], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/mustafa-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/melilla }
 sides:
   - label: { ar: "قوات مصطفى الثاني", en: "The forces of مصطفى الثاني" }
     participants: [person/mustafa-ii-uthmani]

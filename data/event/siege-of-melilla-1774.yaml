@@ -11,6 +11,18 @@ regions: [maghreb]
 date:
   start: { edtf: "1774", precision: year, status: tradition, derived: true }
   end: { edtf: "1775", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [-2.9475, 35.2825]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "1774"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار مليلية", en: "Siege of Melilla" }, at: [-2.9475, 35.2825], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
+relations:
+- { type: occurred_at, target: place/melilla }
 sides:
   - label: { en: "Kingdom of Spain", ar: "مملكة إسبانيا" }
   - label: { en: "Sharifian Empire", ar: "السلطنة الشريفة" }

@@ -1,0 +1,20 @@
+id: place/volga
+class: place
+kind: river
+label: { ar: "فولغا", en: "Volga" }
+summary:
+  ar: "نهر."
+  en: "River in Russia; the longest river in Europe."
+wings: [place]
+coordinates: [57.251331194444, 32.467965694444]
+coordinate_precision: approx
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q626" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q626 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

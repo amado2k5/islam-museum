@@ -11,8 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1896-07", precision: year, status: tradition, derived: true }
   end: { edtf: "1897-05-20", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [21.334722222222, 41.031944444444]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1896"
+  features:
+    - { type: point, role: event_point, label: { ar: "التمرد المقدوني ⁦(١٨٩٦)⁩", en: "1896–1897 Macedonian Rebellion" }, at: [21.334722222222, 41.031944444444], precision: locality, source: source/dawlat-uthmaniyya-salabi }
+  sources: [source/dawlat-uthmaniyya-salabi]
 relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/monastir-vilayet }
+- { type: occurred_at, target: place/salonica-vilayet }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات عبد الحميد الثاني", en: "The authorities of Abd al-Hamid II" }

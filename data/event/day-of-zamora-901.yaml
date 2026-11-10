@@ -11,6 +11,16 @@ regions: [andalus-europe]
 date:
   start: { edtf: "0901", precision: year, status: tradition, derived: true }
   end: { edtf: "0901", precision: year, status: tradition, derived: true }
+map:
+  kind: battle
+  precision: locality
+  center: [-5.7468, 41.5035]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "0901"
+  features:
+    - { type: point, role: event_point, label: { ar: "يوم زامرة", en: "Day of Zamora" }, at: [-5.7468, 41.5035], precision: locality, source: source/tarikh-ibn-khaldun-ibar }
+  sources: [source/tarikh-ibn-khaldun-ibar]
 relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/samura }

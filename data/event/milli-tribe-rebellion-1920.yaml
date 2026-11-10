@@ -11,8 +11,20 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1920", precision: year, status: tradition, derived: true }
   end: { edtf: "1920", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [39.31777777777778, 37.75416666666667]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1920"
+  features:
+    - { type: point, role: event_point, label: { ar: "ثورة قبيلة ميللي ⁦(١٩٢٠)⁩", en: "Milli Tribe Rebellion (1920)" }, at: [39.31777777777778, 37.75416666666667], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/muhammad-vi-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/siverek }
+- { type: occurred_at, target: place/viran-ehir }
 sides:
   - label: { ar: "الثوار", en: "The rebels" }
   - label: { ar: "سلطات السلطان وحيد الدين ⁦(محمد السادس)⁩", en: "The authorities of السلطان وحيد الدين ⁦(محمد السادس)⁩" }

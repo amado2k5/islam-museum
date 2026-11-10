@@ -11,8 +11,20 @@ regions: [persia-central-asia]
 date:
   start: { edtf: "1569", precision: year, status: tradition, derived: true }
   end: { edtf: "1569", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [34.0, 45.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1569"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب القرمية الشركسية ⁦(١٥٦٩)⁩", en: "Crimean–Circassian War (1569)" }, at: [34.0, 45.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/selim-ii-uthmani, sources: [source/sicill-i-osmani] }
+- { type: occurred_at, target: place/crimea }
+- { type: occurred_at, target: place/circassia }
 sides:
   - label: { en: "Crimean Khanate", ar: "خانية القرم" }
     participants: [polity/crimean-khanate]

@@ -11,6 +11,16 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1423", precision: year, status: tradition, derived: true }
   end: { edtf: "1430", precision: year, status: tradition, derived: true }
+map:
+  kind: campaign
+  precision: locality
+  center: [20.0, 41.0]
+  extent_km: 80
+  basemap: terrain
+  date_for_borders: "1423"
+  features:
+    - { type: point, role: event_point, label: { ar: "الحرب العثمانية البندقية ⁦(١٤٢٣–١٤٣٠)⁩", en: "Ottoman–Venetian War of 1423–1430" }, at: [20.0, 41.0], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/al-mutadid-billah-ii-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/albania }

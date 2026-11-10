@@ -11,12 +11,23 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 date:
   start: { edtf: "1187-07-04~", hijri: "0583-04-25", calendar: julian, precision: day, status: tradition, derived: true, note: "السبت 25 ربيع الآخر 583؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 146}." }
+map:
+  kind: battle
+  precision: locality
+  center: [35.459722222222, 32.799722222222]
+  extent_km: 12
+  basemap: terrain
+  date_for_borders: "1187"
+  features:
+    - { type: point, role: event_point, label: { ar: "وقعة حطين", en: "Battle of Hattin" }, at: [35.459722222222, 32.799722222222], precision: locality, source: source/kamil-ibn-al-athir }
+  sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائد الظافر", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/al-malik-al-afdal-ali, role: "شاهد الوقعة بجانب أبيه", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/taqi-al-din-umar, role: "مقدم ناحية من الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/raynald-de-chatillon, role: "الأسير الذي قُتل بعد الوقعة", sources: [source/kamil-ibn-al-athir] }
   - { type: during_reign, target: person/al-nasir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/horns-of-hattin }
 provenance:
   layer: own-research
   source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 583، ص 146–149"

@@ -1,0 +1,20 @@
+id: place/ilorin
+class: place
+kind: city
+label: { ar: "إلورين", en: "Ilorin" }
+summary:
+  ar: "مدينة في نيجيريا."
+  en: "City in Nigeria."
+wings: [place]
+coordinates: [8.5, 4.55]
+coordinate_precision: locality
+coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
+external_ids: { wikidata: "Q587085" }
+sources: [source/wikidata]
+provenance:
+  layer: own-research
+  source: "Wikidata item Q587085 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
+  generated_by: "Devin"
+  model: "Devin (Cognition)"
+  run: battles-geo-places-1
+status: { review: draft, completeness: 1, generated_by: "Devin" }

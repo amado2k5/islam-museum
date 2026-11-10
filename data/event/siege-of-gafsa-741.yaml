@@ -11,6 +11,16 @@ regions: [maghreb]
 date:
   start: { edtf: "0741", precision: year, status: tradition, derived: true }
   end: { edtf: "0741", precision: year, status: tradition, derived: true }
+map:
+  kind: siege
+  precision: locality
+  center: [10.0982, 33.88146]
+  extent_km: 15
+  basemap: terrain
+  date_for_borders: "0741"
+  features:
+    - { type: point, role: event_point, label: { ar: "حصار قفصة ⁦(٧٤١)⁩", en: "Siege of Gafsa (741)" }, at: [10.0982, 33.88146], precision: locality, source: source/tarikh-islam-hasan-ibrahim }
+  sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
 - { type: during_reign, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: occurred_at, target: place/gabes }
