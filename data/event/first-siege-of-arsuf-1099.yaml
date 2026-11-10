@@ -13,6 +13,9 @@ date:
   end: { edtf: "1099", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustazhir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الصليبيون بقيادة غودفري", en: "The Crusaders under Godfrey" }
+  - label: { ar: "الحامية الفاطمية في أرسوف", en: "The Fatimid garrison of Arsuf" }
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q29075428

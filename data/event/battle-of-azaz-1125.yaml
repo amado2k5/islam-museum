@@ -13,6 +13,10 @@ date:
   end: { edtf: "1125", precision: year, status: tradition, derived: true }
 relations:
 - { type: during_reign, target: person/al-mustarshid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الصليبيون بقيادة بلدوين الثاني", en: "The Crusaders under Baldwin II" }
+  - label: { ar: "الجيش السلجوقي بقيادة برسقي", en: "The Seljuk army under Bursuqi" }
+    participants: [person/al-mustarshid-billah]
 sources: [source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q55504

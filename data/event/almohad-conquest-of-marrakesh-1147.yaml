@@ -15,6 +15,10 @@ regions: [maghreb]
 date:
   start: { edtf: "1146-06", precision: year, status: tradition, derived: true }
   end: { edtf: "1147-03-24", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "الموحدون بقيادة عبد المؤمن", en: "The Almohads under Abd al-Mu'min" }
+    commanders: [person/abd-al-mumin-ibn-ali]
+  - label: { ar: "حامية مراكش المرابطية", en: "The Almoravid garrison of Marrakesh" }
 sources: [source/tarikh-ibn-khaldun-ibar]
 external_ids:
   wikidata: Q109256124
