@@ -15,6 +15,7 @@ date:
 relations:
   - { type: occurred_at, target: building/bayt-al-hikma, sources: [source/fihrist-ibn-al-nadim] }
   - { type: had_participant, target: person/hunayn-ibn-ishaq, role: "شيخ المترجمين", sources: [source/fihrist-ibn-al-nadim] }
+  - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
 sources: [source/fihrist-ibn-al-nadim]
 provenance:
   layer: own-research
