@@ -14,12 +14,17 @@ periods: [period/prophetic-era, period/rashidun]
 regions: [arabia]
 story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
-died: { edtf: "639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba; al-Isti'ab" }
+died: { edtf: "0636~", hijri: "0015~", calendar: julian, precision: year, status: debated, derived: true, note: "Died in the Prophet's lifetime per one report; others place his death in Umar's caliphate at Medina, aged sixty-five or sixty-six (al-Isti'ab p. 591); CE year approximated from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/saqifa, role: "أحد الرجلين اللذين لقيا المهاجرين في الطريق إلى السقيفة", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
   - { type: member_of, target: group/ansar, sources: [source/ibn-hisham-saqqa]}
+  - { type: participated_in, target: event/second-pledge-of-aqaba, note: "both pledges per al-Waqidi; the second with the seventy per others (al-Isti'ab p. 591)", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-badr, note: "al-Isti'ab p. 591", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-uhud, note: "al-Isti'ab p. 591", sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: participated_in, target: event/battle-of-the-trench, note: "al-Isti'ab p. 591", sources: [source/isti-ab-ibn-abd-al-barr] }
+
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 307-310", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-20" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/isti-ab-ibn-abd-al-barr]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 307-310" }
