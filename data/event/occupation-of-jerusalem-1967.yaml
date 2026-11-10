@@ -12,6 +12,9 @@ date:
 relations:
   - { type: occurred_at, target: place/jerusalem }
   - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
+sides:
+  - label: { ar: "القوات الإسرائيلية", en: "The Israeli forces" }
+  - label: { ar: "القوات الأردنية والفلسطينية", en: "The Jordanian and Palestinian forces" }
 sources: [source/bayt-al-maqdis-fi-al-islam-azhar]
 provenance:
   layer: own-research

@@ -17,6 +17,9 @@ relations:
   - { type: related_to, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "والي المغرب المتحالف", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/charlemagne-malik-al-ifranj, role: "ملك الفرنجة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: during_reign, target: person/al-mahdi, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "الفرنج بقيادة شارلمان", en: "The Franks under Charlemagne" }
+  - label: { ar: "أهل سرقسطة الأندلسية", en: "The people of Andalusian Zaragoza" }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research

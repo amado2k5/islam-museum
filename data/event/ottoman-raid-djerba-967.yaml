@@ -14,6 +14,9 @@ relations:
   - { type: had_participant, target: person/piyale-pasha, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/turgut-reis, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/sulayman-al-qanuni, sources: [source/shadharat-dhahab, source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الأسطول العثماني بقيادة بيري باشا", en: "The Ottoman fleet under Piyale Pasha" }
+  - label: { ar: "الإسبان والفرنسيون", en: "The Spanish and French" }
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids: { wikidata: "Q1745598" }
 provenance:
