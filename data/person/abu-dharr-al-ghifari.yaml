@@ -5,7 +5,7 @@ names:
   - { kind: full, lang: ar, value: "جندب بن جنادة الغفاري" }
 gender: male
 born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, note: "Exact birth year unknown; he was among the very first converts.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0652", calendar: julian, precision: year, status: tradition, note: "Died in exile at al-Rabadha, about 32 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0652", hijri: "0032", calendar: julian, precision: year, status: debated, derived: true, note: "Died at al-Rabadha, 31 AH by one report while the majority give 32; Abdullah ibn Mas'ud is said to have prayed over him (al-Isaba pp. 1666-1668); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -34,7 +34,7 @@ relations:
 external_ids:
   wikidata: Q1029610
 sensitivity: polemical
-sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/sahih-al-bukhari, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan]
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/sahih-al-bukhari, source/encyclopaedia-of-islam-2, source/assabile-omar-abdelkafy, source/assabile-tareq-al-suwaidan, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; run omar-abdelkafy-sharh-ketab-1" }
 provenance:
   layer: own-research
