@@ -18,13 +18,15 @@ story_roles:
   - { role: companion, start: { edtf: "0627" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0627" }, note: "صحابي من سادات غطفان." }
-died: { edtf: "662~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nu'aym b. Mas'ud); al-Isaba" }
+died: { edtf: "0656", hijri: "0036", calendar: julian, precision: year, status: debated, derived: true, note: "Killed early in Ali's caliphate before Basra at the Camel; another report places his death in Uthman's (al-Isaba p. 1520); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ghatafan }
   - { type: participated_in, target: event/battle-of-the-trench, role: "الذي خذل بين الأحزاب وبني قريظة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/suwar-min-hayat-al-sahaba-nafais-1992]
+  - { type: participated_in, target: event/battle-of-the-trench, note: "al-Isaba p. 1520", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/suwar-min-hayat-al-sahaba-nafais-1992, source/ibn-hajar-isaba]
 provenance:
   layer: own-research
   source: "al-Mubarakpuri, al-Rahiq al-Makhtum, and Ibn Hisham, already cited on this record"

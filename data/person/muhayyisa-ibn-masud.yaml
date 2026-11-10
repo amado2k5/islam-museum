@@ -22,6 +22,10 @@ relations:
   - { type: participated_in, target: event/sulh-of-fadak, sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/sahaba, sources: [source/futuh-buldan-maarif-1407]}
   - { type: member_of, target: group/ansar, sources: [source/futuh-buldan-maarif-1407]}
+  - { type: member_of, target: group/ansar, note: "Awsi (al-Isaba p. 1375)", sources: [source/ibn-hajar-isaba] }
+  - { type: member_of, target: group/al-aws, note: "al-Isaba p. 1375", sources: [source/ibn-hajar-isaba] }
+  - { type: participated_in, target: event/killing-of-kab-ibn-al-ashraf, note: "with his brother Huwayyisa (al-Isaba p. 1375)", sources: [source/ibn-hajar-isaba] }
+
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 41–42"
@@ -29,6 +33,7 @@ provenance:
   run: lib-futuh-buldan-batch-2
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hajar-isaba
 status:
   review: draft
   completeness: 1

@@ -11,11 +11,13 @@ wings: [people]
 summary:
   ar: "معاذ بن أنس الجهني الأنصاري، صحابي غزا مع النبي، ونزل مصر. روى عن النبي وعن أبي الدرداء وكعب الأحبار، وعنه ابنه سهل بن معاذ ولم يرو عنه غيره، وهو لين الحديث. ذكر العسكري ما يدل على أنه بقي إلى خلافة عبد الملك بن مروان. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3494} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3495}"
   en: "Muadh ibn Anas al-Juhani al-Ansari, a Companion who fought with the Prophet and settled in Egypt. He narrated from the Prophet, Abu al-Darda' and Ka'b al-Ahbar; only his son Sahl narrated from him, and his hadith is weak. Al-Askari indicates that he lived into the caliphate of Abd al-Malik ibn Marwan. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3494} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3495}"
-died: { edtf: "680~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+died: { edtf: "0690~", hijri: "0070~", calendar: julian, precision: year, status: debated, derived: true, note: "Abu Ahmad al-Askari has him live into Abd al-Malik ibn Marwan's reign, campaigning under the caliph's son (al-Isaba p. 1424); CE year approximated to 70 AH", sources: [source/ibn-hajar-isaba] }
 relations:
  - { type: lived_in, target: place/misr, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
  - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+ - { type: member_of, target: group/ansar, note: "an ally of the Ansar (al-Isaba p. 1424)", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
 provenance:
   layer: own-research
   source: "Mawsu'a al-fiqhiyya al-Kuwaitiyya (Noor copy), appendix of jurist biographies, pp.3494-3495"
