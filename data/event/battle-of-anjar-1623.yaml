@@ -14,6 +14,10 @@ date:
 relations:
 - { type: during_reign, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }
 - { type: during_reign, target: person/murad-iv-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "الدروز بقيادة فخر الدين الثاني", en: "The Druze under Fakhr al-Din II" }
+  - label: { ar: "جيش ولاية دمشق العثماني", en: "The Damascus eyalet's army" }
+    participants: [person/mustafa-i-uthmani, person/murad-iv-uthmani]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q4870306
