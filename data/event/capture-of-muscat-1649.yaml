@@ -14,6 +14,11 @@ regions: [arabia]
 date:
   start: { edtf: "1649", precision: year, status: tradition, derived: true }
   end: { edtf: "1649", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات محمد الرابع", en: "The forces of None" }
+    participants: [person/mehmed-iv-uthmani]
+  - label: { ar: "حامية مسقط", en: "The defenders of Muscat" }
+    participants: [place/muscat]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q121308118

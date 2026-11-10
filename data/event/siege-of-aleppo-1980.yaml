@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1980-04-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1981-02", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات صديق أبو بكر الثالث", en: "The forces of Siddiq Abubakar III" }
+    participants: [person/siddiq-abubakar-iii]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q7509799

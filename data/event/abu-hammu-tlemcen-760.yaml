@@ -19,6 +19,11 @@ relations:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 - { type: during_reign, target: person/al-mutadid-billah-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المعتضد بالله أبو الفتح أبو بكر بن المستكفي", en: "The forces of al-Mu'tadid bi'llah Abu'l-Fath Abu Bakr ibn al-Mustakfi" }
+    participants: [person/al-mutadid-billah-cairo]
+  - label: { ar: "حامية تلمسان", en: "The defenders of Tlemcen" }
+    participants: [place/tlemcen]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:

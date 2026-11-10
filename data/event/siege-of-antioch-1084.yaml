@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1084", precision: year, status: tradition, derived: true }
   end: { edtf: "1085", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات المقتدي بأمر الله عبد الله بن محمد بن القائم", en: "The forces of al-Muqtadi bi-Amr Allah Abdullah ibn Muhammad ibn al-Qa'im" }
+    participants: [person/al-muqtadi-billah]
+  - label: { ar: "حامية أنطاكية", en: "The defenders of Antioch" }
+    participants: [place/antioch]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q128619743

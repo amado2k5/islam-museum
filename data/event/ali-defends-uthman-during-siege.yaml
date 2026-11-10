@@ -19,6 +19,11 @@ relations:
   - { type: caused, target: event/murder-of-uthman, sources: [source/sallabi-ali-vol1] }
   - { type: during_reign, target: person/uthman-ibn-affan, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
   - { type: during_reign, target: person/ali-ibn-abi-talib, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
+sides:
+  - label: { ar: "قوات عثمان بن عفان", en: "The forces of Uthman ibn Affan" }
+    participants: [person/uthman-ibn-affan]
+  - label: { ar: "حامية المدينة المنورة", en: "The defenders of Medina" }
+    participants: [place/medina]
 sources: [source/sallabi-ali-vol1]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 165-167" }
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 165-167", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp151-200" }

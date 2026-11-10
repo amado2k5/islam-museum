@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1775", precision: year, status: tradition, derived: true }
   end: { edtf: "1776", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عبد الحميد الأول", en: "The forces of Abd al-Hamid I" }
+    participants: [person/abd-al-hamid-i-uthmani]
+  - label: { ar: "حامية البصرة", en: "The defenders of Basra" }
+    participants: [place/basra]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q141376638

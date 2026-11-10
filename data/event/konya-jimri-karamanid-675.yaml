@@ -17,6 +17,11 @@ relations:
   - { type: occurred_at, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
   - { type: had_participant, target: polity/qaramanid-beylik, role: "المحتل المنصِّب لجمري", sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الحاكم بأمر الله أحمد القبي", en: "The forces of al-Hakim bi-Amr Allah Ahmad al-Qabi" }
+    participants: [person/al-hakim-bi-amr-illah]
+  - label: { ar: "حامية قونية", en: "The defenders of Konya" }
+    participants: [place/konya]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: own-research

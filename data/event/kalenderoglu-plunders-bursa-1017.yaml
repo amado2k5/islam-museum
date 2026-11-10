@@ -14,6 +14,11 @@ date:
 relations:
   - { type: occurred_at, target: place/bursa, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات أحمد الأول", en: "The forces of Ahmed I" }
+    participants: [person/ahmad-i-uthmani]
+  - label: { ar: "حامية بورصة", en: "The defenders of Bursa" }
+    participants: [place/bursa]
 sources: [source/encyclopaedia-of-islam-2]
 provenance:
   layer: "own-research"

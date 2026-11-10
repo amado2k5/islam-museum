@@ -26,5 +26,10 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR; enriched by Claude Code (OCR-harvest worker J)"
   model: claude-opus-5-5
   run: "lib-muntazam-batch-13; ocr-harvest-2026-11-04"
+sides:
+  - label: { ar: "قوات المستكفي بالله سليمان بن الحاكم", en: "The forces of al-Mustakfi bi'llah Sulayman ibn al-Hakim" }
+    participants: [person/al-mustakfi-billah]
+  - label: { ar: "حامية بغداد", en: "The defenders of Baghdad" }
+    participants: [place/baghdad]
 sources: [source/muntazam-ibn-al-jawzi, source/tajarib-al-umam-surush-v6]
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)" }

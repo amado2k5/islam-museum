@@ -15,6 +15,11 @@ date:
 relations:
   - { type: occurred_at, target: place/edirne, sources: [source/encyclopaedia-of-islam-2] }
   - { type: during_reign, target: person/mehmed-v-uthmani, sources: [source/sicill-i-osmani] }
+sides:
+  - label: { ar: "قوات محمد الخامس رشاد", en: "The forces of Mehmed V Resad" }
+    participants: [person/mehmed-v-uthmani]
+  - label: { ar: "حامية أدرنة", en: "The defenders of Edirne" }
+    participants: [place/edirne]
 sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q2887868

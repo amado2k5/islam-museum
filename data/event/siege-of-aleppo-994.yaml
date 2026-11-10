@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0994", precision: year, status: tradition, derived: true }
   end: { edtf: "0995-04-01", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات القادر بالله أحمد بن إسحاق بن المقتدر", en: "The forces of al-Qadir bi-llah Ahmad ibn Ishaq ibn al-Muqtadir" }
+    participants: [person/al-qadir-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q60791295

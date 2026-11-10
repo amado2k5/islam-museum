@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1843-01", precision: year, status: tradition, derived: true }
   end: { edtf: "1843-01", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات عبد المجيد الأول", en: "The forces of Abd al-Majid I" }
+    participants: [person/abd-al-majid-i-uthmani]
+  - label: { ar: "حامية كربلاء", en: "The defenders of Karbala" }
+    participants: [place/karbala]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q136400265

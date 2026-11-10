@@ -14,6 +14,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1078", precision: year, status: tradition, derived: true }
   end: { edtf: "1078", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات المقتدي بأمر الله عبد الله بن محمد بن القائم", en: "The forces of al-Muqtadi bi-Amr Allah Abdullah ibn Muhammad ibn al-Qa'im" }
+    participants: [person/al-muqtadi-billah]
+  - label: { ar: "حامية حلب", en: "The defenders of Aleppo" }
+    participants: [place/aleppo]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q54496305

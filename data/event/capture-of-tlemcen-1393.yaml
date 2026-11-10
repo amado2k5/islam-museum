@@ -14,6 +14,11 @@ regions: [maghreb]
 date:
   start: { edtf: "1393", precision: year, status: tradition, derived: true }
   end: { edtf: "1393", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية تلمسان", en: "The defenders of Tlemcen" }
+    participants: [place/tlemcen]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q111211182

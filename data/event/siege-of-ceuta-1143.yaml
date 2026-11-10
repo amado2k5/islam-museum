@@ -14,6 +14,11 @@ regions: [maghreb]
 date:
   start: { edtf: "1143", precision: year, status: tradition, derived: true }
   end: { edtf: "1143", precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "قوات الحافظ لدين الله عبد المجيد بن محمد بن المستنصر", en: "The forces of al-Hafiz li-Din Allah Abd al-Majid ibn Muhammad ibn al-Mustansir" }
+    participants: [person/al-hafiz-fatimid]
+  - label: { ar: "حامية سبتة", en: "The defenders of Ceuta" }
+    participants: [place/ceuta]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q109312807

@@ -15,6 +15,11 @@ relations:
   - { type: occurred_at, target: place/constantinople, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/manuel-ii-palaiologos, role: "الإمبراطور المحاصَر", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/al-mutawakkil-ala-llah, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات المتوكل على الله محمد بن المعتضد", en: "The forces of al-Mutawakkil ala Allah Muhammad ibn al-Mu'tadid" }
+    participants: [person/al-mutawakkil-ala-llah]
+  - label: { ar: "حامية القسطنطينية", en: "The defenders of Constantinople" }
+    participants: [place/constantinople]
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q3485863

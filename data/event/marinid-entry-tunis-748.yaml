@@ -22,6 +22,11 @@ relations:
   sources:
   - source/tarikh-ibn-khaldun-ibar
 - { type: during_reign, target: person/al-hakim-bi-amr-illah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
+sides:
+  - label: { ar: "قوات الحاكم بأمر الله الثاني أحمد بن المستكفي", en: "The forces of al-Hakim bi-Amr Allah II Ahmad ibn al-Mustakfi" }
+    participants: [person/al-hakim-bi-amr-illah-ii]
+  - label: { ar: "حامية تونس", en: "The defenders of Tunis" }
+    participants: [place/tunis]
 sources:
 - source/tarikh-ibn-khaldun-ibar
 provenance:
