@@ -44,3 +44,8 @@ Lane file: [`docs/agents/lanes/battles.md`](../agents/lanes/battles.md). Plan: [
 - Held back under the content-safety hard block: `ansariya-ambush-1997` (Hezbollah), `battle-of-ramadi-2014` (the designated group named by its Wikidata participants), `israeli-incursions-in-tulkarm-2023` (the Tulkarm Brigade) and `batroun-raid-2024` — consistent with the earlier modern-conflict skips.
 - Skipped: 161 records with one participant, ~430 with three or more (flat claim list cannot split sides), 2 with unlabeled participants, and the previously skipped ambiguous/terrorist-adjacent records.
 - Coverage: ~1,716 of 3,250 military records carry `sides`. The remaining ~1,534 have no usable participant data — genuine source mining required.
+
+## 2026-11-11 — Wikidata-participant graph links (PR #5956)
+
+- 520 of the 668 Wikidata-sided records gained `participants:` links on their sides where the participant's Wikidata QID matches an existing graph entity (polity/place/group/person with `external_ids.wikidata`) — 653 links, mostly `polity/` records (Ottoman Empire, Safavid Iran, Mamluk Sultanate…). Labels-only sides remain where no graph entity carries the QID.
+- Noted for a future reconciliation lane: `place/byzantine-empire` and `polity/byzantine-empire` are duplicate entities; the QID currently sits on the place record.

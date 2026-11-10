@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/abd-al-hamid-ii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
   - label: { en: "United Principalities of Moldavia and Wallachia", ar: "الممالك المتحدة" }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:

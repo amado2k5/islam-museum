@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Mali Empire", ar: "مملكة مالي" }
+    participants: [polity/mali-empire]
   - label: { en: "Pashalik of Timbuktu", ar: "باشوية تمبكتو" }
 sources: [source/tarikh-ibn-khaldun-ibar, source/wikidata]
 external_ids:

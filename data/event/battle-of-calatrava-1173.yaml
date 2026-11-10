@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/abu-yaqub-yusuf-almohad, sources: [source/bayan-mughrib-idhari, source/encyclopaedia-of-islam-2] }
 sides:
   - label: { en: "Almohad Caliphate", ar: "الدولة الموحدية" }
+    participants: [polity/almohad-caliphate]
   - label: { en: "Kingdom of Castile", ar: "مملكة قشتالة" }
+    participants: [polity/castile]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q130251286

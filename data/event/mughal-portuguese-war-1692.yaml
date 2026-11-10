@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/ahmad-ii-uthmani, sources: [source/sicill-i-osmani] }
 sides:
   - label: { en: "Mughal Empire", ar: "سلطنة مغول الهند" }
+    participants: [polity/mughal-empire]
   - label: { en: "Portuguese Empire", ar: "الإمبراطورية البرتغالية" }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:

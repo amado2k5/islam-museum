@@ -15,6 +15,7 @@ relations:
 - { type: during_reign, target: person/al-mutadid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Aghlabids", ar: "الدولة الأغلبية" }
+    participants: [polity/aghlabid-emirate]
   - label: { en: "Nafusa", ar: "نفوسة" }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:

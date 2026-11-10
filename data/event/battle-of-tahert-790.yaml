@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/harun-al-rashid, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Idrisid dynasty", ar: "الأدارسة" }
+    participants: [polity/idrisid-dynasty]
   - label: { en: "Rustamid dynasty", ar: "رستميون" }
+    participants: [polity/rustamid-imamate]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138025986

@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
 sides:
   - label: { en: "First Saudi State", ar: "الدولة السعودية الأولى" }
+    participants: [polity/first-saudi-state]
   - label: { en: "Ottoman Empire", ar: "الدولة العثمانية" }
+    participants: [polity/ottoman-empire]
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q124296290

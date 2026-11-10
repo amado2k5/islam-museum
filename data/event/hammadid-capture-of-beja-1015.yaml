@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-hakim-bi-amr-allah, sources: [source/khitat-maqrizi-1998, source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Hammadid dynasty", ar: "بنو حماد" }
+    participants: [polity/hammadid-dynasty]
   - label: { en: "Zirid Dynasty", ar: "زيريون" }
+    participants: [polity/zirid-dynasty]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q125552181

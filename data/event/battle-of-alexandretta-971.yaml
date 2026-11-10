@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Fatimid Caliphate", ar: "الدولة الفاطمية" }
+    participants: [polity/fatimid-caliphate]
   - label: { en: "Byzantine Empire", ar: "الإمبراطورية البيزنطية" }
+    participants: [place/byzantine-empire]
 sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q20638753

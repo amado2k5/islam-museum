@@ -15,7 +15,9 @@ relations:
 - { type: during_reign, target: person/al-muqtadi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
 sides:
   - label: { en: "Sultanate of Rum", ar: "دولة سلاجقة الروم" }
+    participants: [polity/rum-seljuk-sultanate]
   - label: { en: "Uqaylid dynasty", ar: "الدولة العقيلية" }
+    participants: [polity/uqaylid-dynasty]
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q25476160
