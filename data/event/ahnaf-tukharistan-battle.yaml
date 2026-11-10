@@ -10,6 +10,10 @@ relations:
   - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "الأمير الظافر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/marw-al-rudh }
 wings: [time]
+sides:
+  - label: { ar: "جيش الأحنف بن قيس", en: "al-Ahnaf ibn Qays's army" }
+    commanders: [person/al-ahnaf-ibn-qays]
+  - label: { ar: "مرو الروذ", en: "Marw al-Rudh" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

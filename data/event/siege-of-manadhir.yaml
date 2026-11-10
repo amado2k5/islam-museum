@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/abu-musa-al-ashari, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/manadhir }
 wings: [time]
+sides:
+  - label: { ar: "جيش الربيع بن زياد الحارثي", en: "al-Rabi' ibn Ziyad al-Harithi's army" }
+    commanders: [person/al-rabi-ibn-ziyad-al-harithi, person/abu-musa-al-ashari]
+  - label: { ar: "مناذر", en: "Manadhir" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

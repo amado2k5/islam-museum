@@ -14,6 +14,10 @@ relations:
   - { type: had_participant, target: person/al-kawki, role: "زعيم الديلم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/daylam }
 wings: [time]
+sides:
+  - label: { ar: "جيش المعتز بالله", en: "al-Mu'tazz bi-llah's army" }
+    commanders: [person/al-mutazz, person/musa-ibn-bugha]
+  - label: { ar: "ديلم", en: "Daylam" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

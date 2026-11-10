@@ -10,6 +10,10 @@ relations:
   - { type: had_participant, target: person/abbad-ibn-ziyad, role: "الأمير الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qandahar }
 wings: [time]
+sides:
+  - label: { ar: "جيش عباد بن زياد", en: "Abbad ibn Ziyad's army" }
+    commanders: [person/abbad-ibn-ziyad]
+  - label: { ar: "القندهار", en: "al-Qandahar" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

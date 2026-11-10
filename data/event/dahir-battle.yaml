@@ -11,6 +11,11 @@ relations:
   - { type: had_participant, target: person/dahir, role: "الملك المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/mihran }
 wings: [time]
+sides:
+  - label: { ar: "جيش محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi's army" }
+    commanders: [person/muhammad-ibn-al-qasim]
+  - label: { ar: "داهر ملك السند", en: "Dahir, King of Sind" }
+    participants: [person/dahir]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

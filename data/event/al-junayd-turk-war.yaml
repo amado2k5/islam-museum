@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/asim-ibn-abdallah-al-hilali, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/marw }
 wings: [time]
+sides:
+  - label: { ar: "جيش الجنيد بن عبد الرحمن المري", en: "al-Junayd ibn Abd al-Rahman al-Murri's army" }
+    commanders: [person/al-junayd-ibn-abd-al-rahman, person/hisham-ibn-abd-al-malik, person/asim-ibn-abdallah-al-hilali]
+  - label: { ar: "مرو", en: "Marw" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -13,6 +13,10 @@ relations:
   - { type: had_participant, target: person/mawand, role: "خليفة رتبيل الموفد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/zabulistan }
 wings: [time]
+sides:
+  - label: { ar: "جيش معن بن زائدة الشيباني", en: "Ma'n ibn Za'ida al-Shaybani's army" }
+    commanders: [person/man-ibn-zaida, person/yazid-ibn-mazyad]
+  - label: { ar: "زابلستان", en: "Zabulistan" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

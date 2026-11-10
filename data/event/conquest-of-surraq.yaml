@@ -12,6 +12,10 @@ relations:
   - { type: had_participant, target: person/abu-al-aswad-al-duali, role: "الشاعر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/surraq }
 wings: [time]
+sides:
+  - label: { ar: "جيش حارثة بن بدر الغداني", en: "Haritha ibn Badr al-Ghudani's army" }
+    commanders: [person/haritha-ibn-badr, person/abd-allah-ibn-amir]
+  - label: { ar: "سرق", en: "Surraq" }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
