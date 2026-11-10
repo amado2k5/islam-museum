@@ -16,7 +16,9 @@ died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion named in the fiqh encyclopaedia's sahaba lists (regions: arabia).", sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3] }
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]
+  - { type: participated_in, target: event/farewell-pilgrimage, note: "went out with the Prophet on the Farewell Pilgrimage (al-Isaba p. 43)", sources: [source/ibn-hajar-isaba] }
+
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
 status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; appendix entry of volume 11 on scan p.5144. Dates are not given in the source and are not supplied. The hadith is paraphrased, not quoted." }
 provenance:
   layer: own-research
