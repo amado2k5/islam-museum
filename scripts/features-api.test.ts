@@ -3,6 +3,7 @@ import type { Compiled, Node } from "./build-graph.js";
 import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
+import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 
 const makeNode = (id: string, cls: string, data: Record<string, any> = {}, prose: Record<string, any> = {}): Node => ({
   id, class: cls, slug: id.split("/")[1], label: { ar: id, en: id, ur: id }, summary: { ar: "", en: "", ur: "" }, stub: false,
@@ -55,7 +56,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
+    expect(Object.keys(data).sort()).toEqual(["angels.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "nature.json", "poetry.json", "qudsi.json", "sayyiat.json", "screens.json", "tafsir.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -155,6 +156,48 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(sayyiatSignalsOf(braceletFp as any)).toEqual([]);
     expect(sayyiatSignalsOf(kabiraOnly as any)).toEqual([]);
     expect(sayyiatSignalsOf(pairGated as any)).toEqual(expect.arrayContaining(["kabira", "saghiira", "ijrim"]));
+  });
+
+  it("exports hasanats: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {
+    const hasanatAyah = makeNode("passage/quran-11-114x", "passage", { unit: "ayah", work: "work/quran", sura: 11, aya: 114, text: "إن الحسنات يذهبن السيئات" });
+    const hasanaHadith = makeNode("passage/muslim-9996", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9996", text: "كل عمل ابن آدم يضاعف الحسنة بعشر أمثالها" });
+    const husnaAyah = makeNode("passage/quran-18-88x", "passage", { unit: "ayah", work: "work/quran", sura: 18, aya: 88, text: "فله جزاء الحسنى" });
+    const qardHadith = makeNode("passage/muwatta-9996", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9996", text: "أقرضوا الله قرضا حسنا يضاعف لكم" });
+    const badalAyah = makeNode("passage/quran-27-11x", "passage", { unit: "ayah", work: "work/quran", sura: 27, aya: 11, text: "إلا من ظلم ثم بدل حسنا بعد سوء" });
+    const adjFp = makeNode("passage/quran-33-21x", "passage", { unit: "ayah", work: "work/quran", sura: 33, aya: 21, text: "لقد كان لكم في رسول الله أسوة حسنة" });
+    const namesFp = makeNode("passage/quran-7-180x", "passage", { unit: "ayah", work: "work/quran", sura: 7, aya: 180, text: "ولله الأسماء الحسنى فادعوه بها" });
+    const nameFp = makeNode("passage/muslim-9995", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9995", text: "روى الحسن بن علي عن النبي" });
+    const gradeFp = makeNode("passage/muwatta-9995", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "9995", text: "وهذا الحديث حسن صحيح" });
+    const adverbFp = makeNode("passage/muslim-9994", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "9994", text: "ففعل الرجل حسنا حين تصدق" });
+    const futureBook = makeNode("passage/futurefiqh-1", "passage", { unit: "chapter", work: "work/future-fiqh", ref: "1", text: "قال المصنف: من همّ بحسنة لم يعملها كتبت له حسنة" });
+    const futureWork = makeNode("work/future-fiqh", "work", { genre: ["fiqh"] });
+    const hasanatConcept = { ...makeNode("concept/al-hasanat", "concept", { kind: "ethical" }), tags: ["hasanat-browser", "hasanat-concepts"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, hasanatAyah, hasanaHadith, husnaAyah, qardHadith, badalAyah, adjFp, namesFp, nameFp, gradeFp, adverbFp, futureBook, futureWork, hasanatConcept] });
+    const items = data["hasanats.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-11-114x");
+    expect(ids).toContain("passage/muslim-9996");
+    expect(ids).toContain("passage/quran-18-88x");
+    expect(ids).toContain("passage/muwatta-9996");
+    expect(ids).toContain("passage/quran-27-11x");
+    expect(ids).toContain("passage/futurefiqh-1"); // a book harvested later lands automatically
+    expect(ids).toContain("concept/al-hasanat");
+    expect(ids).not.toContain("passage/quran-33-21x"); // «أسوة حسنة» is the adjective, not a deed
+    expect(ids).not.toContain("passage/quran-7-180x"); // «الأسماء الحسنى» is the divine names
+    expect(ids).not.toContain("passage/muslim-9995"); // «الحسن بن علي» is a person's name
+    expect(ids).not.toContain("passage/muwatta-9995"); // «حديث حسن» is the hadith grade
+    expect(ids).not.toContain("passage/muslim-9994"); // «حسنا» the adverb is out of scope
+    expect(items.find((i) => i.id === "passage/quran-11-114x")).toMatchObject({ section: "quran", hasanat_kind: "hasanat" });
+    expect(items.find((i) => i.id === "passage/muslim-9996")).toMatchObject({ section: "sunnah", hasanat_kind: "hasana" });
+    expect(items.find((i) => i.id === "passage/quran-18-88x")).toMatchObject({ section: "quran", hasanat_kind: "husna" });
+    expect(items.find((i) => i.id === "passage/futurefiqh-1")).toMatchObject({ section: "books", hasanat_kind: "hasana" });
+    expect(items.find((i) => i.id === "concept/al-hasanat")).toMatchObject({ section: "curated", hasanat_kind: null });
+    expect(featureApiData(compiled)["hasanats.json"].feature).toBe("hasanat-browser");
+    expect(hasanatKindOf(hasanatAyah as any)).toBe("hasanat");
+    expect(hasanatSignalsOf(hasanaHadith as any)).toContain("hasana");
+    expect(hasanatSignalsOf(qardHadith as any)).toContain("qard-hasan");
+    expect(hasanatSignalsOf(adjFp as any)).toEqual([]);
+    expect(hasanatSignalsOf(namesFp as any)).toEqual([]);
   });
 
   it("exports madhahib: tagged records by mh- sections, mentions edges by school and dhikr", () => {
