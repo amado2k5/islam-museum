@@ -25,7 +25,11 @@ let base = baseArg, srv = null;
 if (dist) {
   const DIST = resolve(dist);
   const MIME = { ".html": "text/html; charset=utf-8", ".css": "text/css", ".js": "text/javascript", ".mjs": "text/javascript", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp", ".woff2": "font/woff2", ".woff": "font/woff" };
-  srv = createServer(async (req, res) => { try { const p = decodeURIComponent(new URL(req.url ?? "/", "http://x").pathname); const f = join(DIST, p.endsWith("/") ? p + "index.html" : p); if (!f.startsWith(DIST)) throw 0; const body = await readFile(f); res.writeHead(200, { "content-type": MIME[extname(f)] ?? "application/octet-stream" }); res.end(body); } catch { if (!res.headersSent) res.writeHead(404); res.end(); } });
+  // The scoped build copies only the small static folders. Pictures (site/public/media) are served straight from the
+  // repository's public folder when the build does not hold them, so that image frames are not empty in the screenshots.
+  const PUBLIC = resolve("site/public");
+  MIME[".jpg"] = MIME[".jpeg"] = "image/jpeg"; MIME[".avif"] = "image/avif"; MIME[".gif"] = "image/gif";
+  srv = createServer(async (req, res) => { try { const p = decodeURIComponent(new URL(req.url ?? "/", "http://x").pathname); const f = join(DIST, p.endsWith("/") ? p + "index.html" : p); if (!f.startsWith(DIST)) throw 0; let body; try { body = await readFile(f); } catch { const g = join(PUBLIC, p); if (!g.startsWith(PUBLIC)) throw 0; body = await readFile(g); } res.writeHead(200, { "content-type": MIME[extname(f).toLowerCase()] ?? "application/octet-stream" }); res.end(body); } catch { if (!res.headersSent) res.writeHead(404); res.end(); } });
   await new Promise((r) => srv.listen(48233, r));
   base = "http://127.0.0.1:48233";
 }
@@ -43,8 +47,12 @@ for (const lang of ["ar", "en"]) for (const [name, path] of pages) for (const [s
   const ctx = await browser.newContext({ viewport: { width: w, height: h }, colorScheme: "light", reducedMotion: "reduce" });
   const page = await ctx.newPage();
   const res = await page.goto(`${base.replace(/\/$/, "")}/${lang}/${path}`, { waitUntil: "load", timeout: 180000 });
-  await page.addStyleTag({ content: "astro-dev-toolbar{display:none!important}" }).catch(() => {}); // a dev server's own overlay is not part of the page
-  await page.waitForTimeout(900);
+  // The site paints its footer and card lists lazily (content-visibility: auto). A full-page screenshot never scrolls, so those
+  // regions would come out blank in the image though they are there in a browser: painting is forced for the capture.
+  await page.addStyleTag({ content: "astro-dev-toolbar{display:none!important} *{content-visibility:visible!important}" }).catch(() => {});
+  // lazy images load only when scrolled to: ask for them all, then give them a moment
+  await page.evaluate(() => document.querySelectorAll('img[loading="lazy"]').forEach((i) => { i.loading = "eager"; })).catch(() => {});
+  await page.waitForTimeout(1500);
   const m = await page.evaluate(() => ({ h: document.documentElement.scrollHeight, w: document.documentElement.scrollWidth, cw: document.documentElement.clientWidth }));
   const file = `${lang}-${name}-${size}.jpg`;
   await page.screenshot({ path: join(out, file), type: "jpeg", quality: 50, clip: { x: 0, y: 0, width: w, height: Math.min(m.h, CAP) }, fullPage: true });

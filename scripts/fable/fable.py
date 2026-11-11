@@ -85,7 +85,7 @@ def importance(n):
 # ---- The anchor rule: where a record stands in time (used by the canon floor check and the Tour coverage oracle) ----
 # 1. the record's own date: a person's death (else floruit, else birth); an event's date.start; a building's `built`; an
 #    object's `made`; a work's `composed`; a period's or polity's `start`; a place's or group's `founded`.
-# 2. a work with no date of its own: the latest death among the persons the graph says authored it.
+# 2. a work with no date of its own: the latest death among its authors (an `authored` relation, or its own `authors` field).
 # 3. otherwise the record floats: inside the span of the periods it lists, or anywhere if it lists none.
 # The Hijri year is the one the record states for that date; where it states none it is floor((CE year - 622) * 33 / 32) + 1,
 # the arithmetic rule (33 lunar years to 32 solar), exact to within one year. Century 0 is "before the Hijra".
@@ -151,10 +151,17 @@ def anchor(n, by_id, authors_of):
 
 
 def authors_index(graph):
+    """A work's authors: the persons the graph says authored it, and the persons the work's own `authors` field names."""
     out = collections.defaultdict(list)
     for e in graph["edges"]:
         if e["type"] == "authored" and not e.get("inverse"):
             out[e["to"]].append(e["from"])
+    ids = {n["id"] for n in graph["nodes"]}
+    for n in graph["nodes"]:
+        if n["class"] == "work":
+            for a in n["data"].get("authors") or []:
+                if isinstance(a, str) and a in ids and a not in out[n["id"]]:
+                    out[n["id"]].append(a)
     return out
 
 
@@ -169,12 +176,17 @@ def manifest_ids(path="tour/grand-tour.yaml"):
 CITE = re.compile(r"\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}")
 
 
-def lead_section(record_id, lang):
-    """(heading, markdown) of the first `## ` section of content/<lang>/<id>.md, or None."""
-    path = os.path.join(ROOT, "content", lang, record_id + ".md")
-    if not os.path.exists(path):
-        return None
-    body = open(path, encoding="utf-8").read()
+def lead_section(record_id, lang, commit=None):
+    """(heading, markdown) of the first `## ` section of content/<lang>/<id>.md, or None. With `commit`, as it stood then."""
+    if commit:
+        body = sh(f"git show {commit}:content/{lang}/{record_id}.md")
+        if not body:
+            return None
+    else:
+        path = os.path.join(ROOT, "content", lang, record_id + ".md")
+        if not os.path.exists(path):
+            return None
+        body = open(path, encoding="utf-8").read()
     m = re.search(r"^## (.+)\n([\s\S]*?)(?=^## |\Z)", body, re.M)
     return (m.group(1).strip(), m.group(2).strip()) if m else None
 

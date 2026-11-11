@@ -14,17 +14,24 @@ be shown, never papered over.
 
 ## 2. Cornerstones that are still dead ends
 
-Each was read against its own cited text. A relation was added only where that text states it. These seven could not be given two neighbours. The numbers are the oracle's (`scripts/fable/o04_reachability.py`).
+Twenty-nine cornerstones were dead ends at the baseline. Each was read against its own cited text and a relation was added only where that text states it. A fresh-context verifier then re-read every added relation and 17 were taken out again because the record did not say as much as the relation did. Twelve cornerstones remain dead ends. The counts are the oracle's (`scripts/fable/o04_reachability.py`).
 
 | Record | Neighbours now | Why it could not be opened |
 |---|---|---|
 | `object/ardabil-carpet` | 0 | Its prose is two sentences cited to a database entry. It says the carpet is "from Ardabil", not where it was woven, so `made_in` would say more than the record does. Its maker and the two museums that hold the pair have no records under any spelling tried. |
+| `concept/al-hadith-al-nabawi` | 0 | The two relations first added rested on sentences with no citation of their own; one was cited to the two Sahihs for a term (the Six Books) that is later than both. Removed after verification. Two older `related_to` links exist and are not counted. |
+| `period/abbasid-fragmentation` | 0 | Its text names two events, but only as the edges of the period, in an uncited date note. "Marks the boundary of" is not "is part of". |
+| `period/buyid-seljuk-fatimid-era` | 0 | The same: boundary events and ruling houses named in an uncited summary. |
 | `period/contemporary-era` | 0 | One sentence; it names no record. |
 | `period/gunpowder-empires` | 0 | It names three polities and three buildings, and no registered predicate links a period to either (proposal P-8). |
-| `period/modern-era` | 1 | Its text names two boundary events; one has a record (the abolition of the caliphate), the other does not. |
+| `period/modern-era` | 0 | Its text names the abolition of the caliphate as its starting boundary, in an uncited note. |
+| `concept/sharia` | 1 | About fourteen words of prose, cited to a database entry. One relation stands (worship as part of it); "schools differ within it" does not make the schools part of it. |
+| `practice/eid-al-fitr` | 1 | The link to the fast of Ramadan rested on an uncited summary, and the verse it was tied to is one school's evidence for a ruling on the Eid prayer, not a basis of the festival. No predicate links one practice to another (proposal P-8). |
 | `polity/delhi-sultanate` | 1 | Its text is two dates and the capital. |
 | `polity/seljuk-empire` | 1 | Its text is two dates and a capital; the sentence about its Kirman branch is uncited and no predicate says "branch of". |
 | `polity/timurid-empire` | 1 | Its text is two dates and names no record. |
+
+What these twelve have in common is not the graph but the records: each is a cornerstone whose own text is a few lines. They cannot be connected honestly until they are written.
 
 ## 3. Published records beyond three hops of a cornerstone
 

@@ -5,7 +5,9 @@
 
 Reads docs/fable-run/oracle-output/*.out and writes docs/fable-run/NUMBERS.md: the before/after table, each row with the
 output file it was read from and the commit that output names. A number that cannot be found in an output is printed
-as "not measured", never guessed. SHOWCASE.md, PUBLISH.md and the closing summary quote this file.
+as "not measured", never guessed. Three cells are words, not numbers, because there was nothing to measure: no Tour
+before the run, no sweep before the run, and no build of this branch to search. SHOWCASE.md, PUBLISH.md and the closing
+summary quote this file.
 """
 import os, re
 
@@ -29,6 +31,17 @@ def commit(name):
     return m.group(1) if m else "?"
 
 
+def leads_in_range(name):
+    """'n of m' leads inside the length range, from an o03 output: m is two per stop row; n is m less the leads it lists as outside."""
+    t = text(name)
+    if not t:
+        return "not measured"
+    stops = len(re.findall(r"^\s*\d+ \| \S+/\S+", t, re.M))
+    line = re.search(r"\[(PASS|FAIL)\] every lead is 150 to 250 words[^\n]*", t)
+    outside = len(re.findall(r"\[(?:ar|en)\] \d+", line.group(0))) if line and line.group(1) == "FAIL" else 0
+    return f"{2 * stops - outside} of {2 * stops}"
+
+
 B, A = "00-baseline-before.out", "o00-baseline.out"
 count = lambda f, label: grab(f, r"^\s*([\d,]+)\s+" + re.escape(label))
 rows = [
@@ -40,13 +53,14 @@ rows = [
     ("Canon records", count(B, "canon records"), count(A, "canon records"), B, A),
     ("Cornerstones", count(B, "cornerstones (importance 1)"), count(A, "cornerstones (importance 1)"), B, A),
     ("Cornerstones that sit in no wing", count(B, "cornerstones with no wing"), count(A, "cornerstones with no wing"), B, A),
-    ("Hijri centuries (1st to 14th) with no cornerstone", "1 (the 12th)", grab("o01-canon.out", r"every Hijri century from the 1st to the 14th holds at least one cornerstone: (.*)$"), "o01 run at the baseline, quoted in PROGRESS.md finding 5 and re-derivable with o01 at e1d7212", "o01-canon.out"),
+    ("Hijri centuries (1st to 14th) with no cornerstone", grab("o01-canon-before.out", r"every Hijri century from the 1st to the 14th holds at least one cornerstone: (.*)$"), grab("o01-canon.out", r"every Hijri century from the 1st to the 14th holds at least one cornerstone: (.*)$"), "o01-canon-before.out", "o01-canon.out"),
+    ("Wings with no cornerstone", grab("o01-canon-before.out", r"every one of the nine wings holds at least one cornerstone: empty: (.*)$"), grab("o01-canon.out", r"every one of the nine wings holds at least one cornerstone: empty: (.*)$"), "o01-canon-before.out", "o01-canon.out"),
     ("Dead-end cornerstones (no neighbour, or one)", grab("o04-reachability-before.out", r"(\d+ dead ends \(\d+ isolated, \d+ leaves\))"), grab("o04-reachability.out", r"(\d+ dead ends \(\d+ isolated, \d+ leaves\))") if "dead ends (" in text("o04-reachability.out") else "0 dead ends", "o04-reachability-before.out", "o04-reachability.out"),
     ("Published records within three hops of a cornerstone", grab("o04-reachability-before.out", r"within three hops: ([\d,]+ of [\d,]+ \([\d.]+%\))"), grab("o04-reachability.out", r"within three hops: ([\d,]+ of [\d,]+ \([\d.]+%\))"), "o04-reachability-before.out", "o04-reachability.out"),
     ("The same, leaving out source, media and dataset records", grab("o04-reachability-before.out", r"published subject records: ([\d,]+; within three hops: [\d,]+ \([\d.]+%\))"), grab("o04-reachability.out", r"published subject records: ([\d,]+; within three hops: [\d,]+ \([\d.]+%\))"), "o04-reachability-before.out", "o04-reachability.out"),
     ("Tour stops", "0 (no Tour)", grab("o02-tour_coverage.out", r"(\d+) stops in tour/grand-tour.yaml"), "-", "o02-tour_coverage.out"),
     ("Records that hang directly off the Tour's path", "-", grab("o02-tour_coverage.out", r"hang directly off this path[^:]*: (\d+)"), "-", "o02-tour_coverage.out"),
-    ("Tour leads of 150 to 250 words (Arabic and English counted separately)", "1 of 84", "not measured" if not text("o03-tour_prose.out") else (lambda t: f"{2 * int(re.search(r'cite-check: (\d+) pass', t).group(1)) - len(re.findall(r'\[(?:ar|en)\] \d+', (re.search(r'every lead is 150 to 250 words[^\n]*', t) or [''])[0] if isinstance(re.search(r'every lead is 150 to 250 words[^\n]*', t), type(None)) else re.search(r'every lead is 150 to 250 words[^\n]*', t).group(0)))} of {2 * int(re.search(r'cite-check: (\d+) pass', t).group(1))}")(text("o03-tour_prose.out")), "o03-tour_prose-before.out (83 of 84 outside the range)", "o03-tour_prose.out"),
+    ("Tour leads of 150 to 250 words (Arabic and English counted separately)", leads_in_range("o03-tour_prose-before.out"), leads_in_range("o03-tour_prose.out"), "o03-tour_prose-before.out", "o03-tour_prose.out"),
     ("Tour leads with a sentence that carries no citation", grab("o03-tour_prose-before.out", r"(\d+) leads with an uncited sentence"), "0" if "[PASS] every sentence of a lead carries a citation" in text("o03-tour_prose.out") else grab("o03-tour_prose.out", r"(\d+) leads with an uncited sentence"), "o03-tour_prose-before.out", "o03-tour_prose.out"),
     ("Cross-record contradictions found", "not swept", grab("o05-contradictions.out", r"register: (\d+) entries"), "-", "o05-contradictions.out"),
     ("... fixed from already-cited sources", "-", grab("o05-contradictions.out", r"fixed from already-cited sources:\s+(\d+)"), "-", "o05-contradictions.out"),

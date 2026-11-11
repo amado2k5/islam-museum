@@ -34,7 +34,7 @@ o.check("the only existing files modified are the homepage component and the thr
 land = sh(f"git diff {BASELINE} HEAD -- site/src/components/Landing.astro")
 plus = [l[1:] for l in land.splitlines() if l.startswith("+") and not l.startswith("+++")]
 minus = [l for l in land.splitlines() if l.startswith("-") and not l.startswith("---")]
-o.check("the homepage component gains one import and one link, on the line that already held the day cards, and nothing else changes", len(plus) == 2 and len(minus) == 1 and "grand-tour" in plus[0] and plus[1].strip().startswith(minus[0][1:].strip()) and "tourPath(lang)" in plus[1] and "TOUR_LANGS.includes(lang)" in plus[1], f"{len(plus)} lines added, {len(minus)} replaced")
+o.check("the homepage component gains one import and one link, on the line that already held the headline, and nothing else changes", len(plus) == 2 and len(minus) == 1 and "grand-tour" in plus[0] and plus[1].strip().startswith(minus[0][1:].strip()) and "tourPath(lang)" in plus[1] and "TOUR_LANGS.includes(lang)" in plus[1], f"{len(plus)} lines added, {len(minus)} replaced")
 for lang in ("ar", "en", "ur"):
     d = sh(f"git diff -U0 {BASELINE} HEAD -- i18n/{lang}.yaml")
     removed = [l for l in d.splitlines() if l.startswith("-") and not l.startswith("---")]
@@ -84,7 +84,7 @@ if os.path.isdir(out_old) and os.path.isdir(out_new):
     o.check("the bundled script files are the same files, with the same hashed names, in both builds", js(out_old) == js(out_new), f"{len(js(out_old))} in the baseline build, {len(js(out_new))} in the branch build")
     ur = [p for p in old_pages if p.startswith("ur/")]
     o.check("every /ur/ page is byte-identical, and no /ur/ page is added", all(p in same for p in ur) and not any(p.startswith("ur/") for p in new_only), f"{len(ur)} /ur/ pages compared")
-    link = re.compile(r'<p class="ui" style="margin:1\.6rem 0 0"><a class="btn btn-lapis" href="/(ar|en)/grand-tour/">[^<]*<span class="flip" aria-hidden="true">→</span></a></p>')
+    link = re.compile(r'<p class="ui" style="margin:1\.1rem 0 0"><a class="btn btn-lapis" style="[^"]*" href="/(ar|en)/grand-tour/">[^<]*<span class="flip" aria-hidden="true">→</span></a></p>')
     for rel in differ:
         a = open(os.path.join(out_old, rel), encoding="utf-8").read()
         b = open(os.path.join(out_new, rel), encoding="utf-8").read()

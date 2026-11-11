@@ -1,5 +1,5 @@
 ---
-// The progress ribbon that rides the Grand Tour: the centuries, filled up to where the visitor stands.
+// The progress ribbon that rides the Grand Tour: the centuries, filled up to where the visitor's walk has reached.
 // Static markup: every segment is a link to the first stop the walk reaches in that century.
 import { ui, fmt, type Lang } from "../lib/i18n";
 import { stops, stopHref } from "../lib/grand-tour";
@@ -10,7 +10,7 @@ const last = Math.max(...stops.map((s) => s.walk));
 const segs = Array.from({ length: last + 1 }, (_, c) => ({ c, first: stops.find((s) => s.walk === c) }));
 ---
 <nav class="gt-ribbon ui" aria-label={G.ribbon_label}>
-  <p class="gt-ribbon-now">{done ? G.ribbon_label : fmt(G.ribbon_now, { c: G.centuries[walk] })}</p>
+  <p class="gt-ribbon-now">{done ? G.ribbon_done : fmt(G.ribbon_now, { c: G.centuries[walk] })}</p>
   <ol>
     {segs.map(({ c, first }) => (
       <li class:list={[{ on: c <= walk, pre: c === 0 }]} aria-current={!done && c === walk ? "step" : undefined}>
@@ -24,8 +24,8 @@ const segs = Array.from({ length: last + 1 }, (_, c) => ({ c, first: stops.find(
   .gt-ribbon-now { margin: 0 0 6px; font-size: .86rem; color: var(--muted); }
   .gt-ribbon ol { display: flex; gap: 3px; list-style: none; margin: 0; padding: 0; }
   .gt-ribbon li { flex: 1 1 0; min-width: 0; }
-  .gt-ribbon li.pre { flex: 0.8 1 0; }
-  .gt-ribbon li > * { display: flex; align-items: center; justify-content: center; height: 30px; border-radius: 6px; background: var(--panel); color: var(--fg); font-size: .74rem; text-decoration: none; border: 1px solid var(--line); overflow: hidden; }
+  .gt-ribbon li.pre { flex: 1.4 1 0; }
+  .gt-ribbon li > * { display: flex; align-items: center; justify-content: center; height: 30px; border-radius: 6px; background: var(--panel); color: var(--fg); font-size: .78rem; text-decoration: none; border: 1px solid var(--line); overflow: hidden; white-space: nowrap; }
   .gt-ribbon li.on > * { background: var(--lapis); color: #f9f8f6; border-color: var(--lapis); }
   .gt-ribbon li[aria-current] > * { background: var(--gold); color: #0a2533; border-color: var(--gold); font-weight: 700; }
   :root[data-theme="dark"] .gt-ribbon li.on > * { background: #e6d5b8; color: #0a2533; border-color: #e6d5b8; }
@@ -33,5 +33,6 @@ const segs = Array.from({ length: last + 1 }, (_, c) => ({ c, first: stops.find(
   :root[data-theme="dark"] .gt-ribbon li[aria-current] > * { background: var(--gold); border-color: var(--gold); }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .gt-ribbon li[aria-current] > * { background: var(--gold); border-color: var(--gold); } }
   .gt-ribbon a:hover { outline: 1px solid var(--gold); }
-  @media (max-width: 520px) { .gt-ribbon ol { gap: 2px; } .gt-ribbon li > * { font-size: .62rem; height: 26px; border-radius: 4px; } }
+  /* On a phone fifteen cells in one row are too small to read or to press: two rows of eight and seven. */
+  @media (max-width: 560px) { .gt-ribbon ol { flex-wrap: wrap; gap: 4px; } .gt-ribbon li, .gt-ribbon li.pre { flex: 1 0 calc(12.5% - 4px); } .gt-ribbon li > * { font-size: .8rem; height: 34px; } }
 </style>

@@ -12,13 +12,17 @@ its reason, in docs/fable-run/GAP-REGISTER.md section 1.
 
   python3 scripts/fable/o03_tour_prose.py                 # all stops
   python3 scripts/fable/o03_tour_prose.py person/aisha    # named records only (working check, not a ledger run)
+  python3 scripts/fable/o03_tour_prose.py --at <commit>   # today's stops, with their leads as they stood at that commit
 """
 import os, re, subprocess, sys
-from fable import Oracle, BASELINE, ROOT, CITE, lead_section, word_count, uncited_sentences, sources_at, manifest_ids
+from fable import Oracle, BASELINE, ROOT, CITE, lead_section, word_count, uncited_sentences, sources_at, manifest_ids, arg
 
+AT = arg("--at")
 only = [a for a in sys.argv[1:] if "/" in a and not a.startswith("-")]
 o = Oracle("03", "Tour prose meets the published standard, deepened only from already-cited sources (statement 3)", needs_graph=False)
 ids = only or manifest_ids()
+if AT:
+    o.note(f"The leads below are read from commit {AT} (`git show`), for the stops of today's manifest. The publication-bar check is skipped: it reads the working tree.")
 HONORIFIC = re.compile("ﷺ|صلى الله عليه|عليه السلام|عليها السلام|رضي الله عن|رحمه الله|﴿|﴾|\\(pbuh\\)|peace be upon him", re.I)
 
 bad = {"length": [], "uncited": [], "new-source": [], "missing": [], "typed": []}
@@ -27,7 +31,7 @@ for k, rid in enumerate(ids, 1):
     allowed = set(sources_at(BASELINE, rid))
     cells, problems = [], []
     for lang in ("ar", "en"):
-        lead = lead_section(rid, lang)
+        lead = lead_section(rid, lang, AT)
         if not lead:
             bad["missing"].append(f"{rid} [{lang}]")
             cells.append("none")
@@ -54,10 +58,11 @@ o.check("every lead is 150 to 250 words in both languages", not bad["length"], f
 o.check("every sentence of a lead carries a citation", not bad["uncited"], f"{len(bad['uncited'])} leads with an uncited sentence: " + "; ".join(bad["uncited"]) if bad["uncited"] else "")
 o.check("no lead cites a source the record did not already list at the baseline", not bad["new-source"], "; ".join(bad["new-source"]))
 o.check("no typed honorific or Qur'an bracket in a lead", not bad["typed"], "; ".join(bad["typed"]))
-r = subprocess.run(["npx", "tsx", "scripts/cite-check.ts", *ids], cwd=ROOT, capture_output=True, text=True)
-line = [l for l in r.stdout.splitlines() if l.startswith("cite-check:")]
-o.note("  " + (line[0] if line else r.stdout[-300:] + r.stderr[-300:]))
-o.check("the publication bar holds for every stop (cite-check)", bool(line) and re.search(r"\b0 fail\b", line[0]) is not None, line[0].split(" — ")[0] if line else "no result")
+if not AT:
+    r = subprocess.run(["npx", "tsx", "scripts/cite-check.ts", *ids], cwd=ROOT, capture_output=True, text=True)
+    line = [l for l in r.stdout.splitlines() if l.startswith("cite-check:")]
+    o.note("  " + (line[0] if line else r.stdout[-300:] + r.stderr[-300:]))
+    o.check("the publication bar holds for every stop (cite-check)", bool(line) and re.search(r"\b0 fail\b", line[0]) is not None, line[0].split(" — ")[0] if line else "no result")
 if only:
     o.note("  (named records only: a working check, not a ledger run)")
 o.finish()

@@ -30,6 +30,8 @@ o.check("every stop has Arabic and English prose", not no_prose, ", ".join(no_pr
 
 inbound, neigh = collections.Counter(), collections.defaultdict(set)
 for e in g["edges"]:
+    if e["type"] == "related_to":  # the schema's fallback predicate: never counted, here or in the reachability oracle
+        continue
     inbound[e["to"]] += 1
     neigh[e["from"]].add(e["to"])
 real = lambda i: i in by_id and not by_id[i]["stub"]
@@ -94,8 +96,8 @@ o.note(f"  stops that float (counted for wings, never for centuries): {len(float
 
 stopset = set(ids)
 hanging = {t for i in ids for t in neigh[i] if real(t) and t not in stopset}
-pairs = {tuple(sorted((e["from"], e["to"]))) for e in g["edges"] if e["from"] in stopset and e["to"] in stopset and e["from"] != e["to"]}
+pairs = {tuple(sorted((e["from"], e["to"]))) for e in g["edges"] if e["type"] != "related_to" and e["from"] in stopset and e["to"] in stopset and e["from"] != e["to"]}
 o.note()
-o.note(f"Completion room: records that hang directly off this path (related to at least one stop; stops and stubs excluded): {len(hanging)}")
+o.note(f"Completion room: records that hang directly off this path (a relation other than related_to with at least one stop; stops and stubs excluded): {len(hanging)}")
 o.note(f"Completion room: pairs of stops with a relation between them in the graph: {len(pairs)}")
 o.finish()

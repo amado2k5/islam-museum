@@ -52,11 +52,19 @@ if (river) {
     reaches.forEach((el, i) => { const r = el.getBoundingClientRect(); if (rtl ? r.right >= edge.right - 4 : r.left <= edge.left + 4) best = i; });
     return best;
   };
-  const paint = () => { const i = current(); if (scrub) scrub.value = String(i); if (now) now.textContent = reaches[i]?.querySelector(".gt-century")?.textContent ?? ""; };
+  const earlier = document.querySelector("[data-gt-earlier]"), later = document.querySelector("[data-gt-later]");
+  const paint = () => {
+    const i = current();
+    if (scrub) scrub.value = String(i);
+    if (now) now.textContent = reaches[i]?.querySelector(".gt-century")?.textContent ?? "";
+    if (earlier) earlier.disabled = i === 0;
+    // "later" has nowhere to go once the band is scrolled to its end, even if the last stretch is not at the leading edge
+    if (later) later.disabled = i === reaches.length - 1 || Math.abs(river.scrollLeft) + river.clientWidth >= river.scrollWidth - 4;
+  };
   if (ctl) ctl.hidden = false;
   scrub?.addEventListener("input", () => go(Number(scrub.value)));
-  document.querySelector("[data-gt-earlier]")?.addEventListener("click", () => go(current() - 1));
-  document.querySelector("[data-gt-later]")?.addEventListener("click", () => go(current() + 1));
+  earlier?.addEventListener("click", () => go(current() - 1));
+  later?.addEventListener("click", () => go(current() + 1));
   let tick = 0;
   river.addEventListener("scroll", () => { cancelAnimationFrame(tick); tick = requestAnimationFrame(paint); }, { passive: true });
   paint();
