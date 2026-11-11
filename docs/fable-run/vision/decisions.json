@@ -144,9 +144,9 @@
    "note": "The stream was redrawn (it now runs behind the cards and its width range is wider), so the change of width between two centuries reads as the river narrowing or widening."
   },
   "T27": {
-   "status": "fixed",
+   "status": "registered",
    "where": "tour",
-   "note": "After the second round still saw cards cut hard at the band's far edge: the fade was being drawn underneath the stop cards. It now sits above them and is wider, and the last stretch has more room after its last card."
+   "note": "Partly fixed. A fade now covers the band's far edge and the third look found nothing cut hard. What is left: on an English phone the first stretch's count line is wider than the part of the band in view, so its number is off-screen until the band is scrolled; and the fade dims text that lies under it (X1, X2)."
   },
   "T28": {
    "status": "registered",
@@ -204,9 +204,9 @@
    "note": "The count of relations between stops is on its own line."
   },
   "T39": {
-   "status": "fixed",
+   "status": "registered",
    "where": "tour",
-   "note": "On desktop the nine wing doors are three to a row and each heading carries an arrow. After the second round the arrows also mirror in Arabic (R1)."
+   "note": "Partly fixed. The nine wing doors are three to a row in three full rows, and each heading carries an arrow that points forward in its language (the third look confirmed the direction). The cards still show no count of records: the completion room counts the path just walked, and each wing page counts itself."
   },
   "T40": {
    "status": "registered",
@@ -291,17 +291,17 @@
   "R1": {
    "status": "fixed",
    "where": "tour",
-   "note": "The arrows on the homepage button and after the nine wing names sat in an inline box, where the site's mirroring rule (a transform) has no effect. Each now has a box of its own, so in Arabic it points left, the reading direction."
+   "note": "The arrows on the homepage button and after the nine wing names sat in an inline box, where the site's mirroring rule (a transform) has no effect. Each now has a box of its own, so in Arabic it points left, the reading direction. The third look found every one of them pointing left in Arabic and right in English."
   },
   "R2": {
    "status": "fixed",
    "where": "tour",
-   "note": "On a phone the ribbon's cells no longer stretch: both rows use the same eight-column grid, so the second row's seven cells stand under the first row's first seven."
+   "note": "On a phone the ribbon's cells no longer stretch: both rows use the same eight-column grid, so the second row's seven cells stand under the first row's first seven. The third look measured the second row's cells starting within 2 px of the cells above them."
   },
   "R9": {
-   "status": "fixed",
+   "status": "registered",
    "where": "tour",
-   "note": "The button has more room under the headline (the gap was raised by about a third)."
+   "note": "Partly fixed. The gap under the headline was raised to 15 to 19 px (it was 9 to 13) and the third look no longer finds the button pressed against the title. The Arabic gap is still a few pixels tighter than the English, because the Arabic headline's letters descend lower. Cosmetic; stands."
   },
   "R3": {
    "status": "registered",
@@ -347,6 +347,16 @@
    "status": "registered",
    "where": "tour",
    "note": "The key is the browser's own disclosure control, styled as text with a plus sign. Cosmetic; stands. A border would make it read as a control."
+  },
+  "X1": {
+   "status": "registered",
+   "where": "tour",
+   "note": "Introduced by this run's own fix for T27. The fade over the band's far edge dims whatever lies under its last 72 px; on the English desktop page that is the number at the end of a count line, at about 3:1 until the band is scrolled. It stands as the cost of a fade wide enough to read as one; restricting the fade to the row of cards would remove it and is the next step."
+  },
+  "X2": {
+   "status": "registered",
+   "where": "tour",
+   "note": "The same cause as X1: the fade reaches further in than what crosses the edge, so a card's edge or the last word of a heading is partly dimmed at rest. Cosmetic; stands with X1."
   }
  }
 }

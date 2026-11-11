@@ -111,3 +111,15 @@ is a reader's observation, with the page they read; it has not been re-verified 
 - `event/loss-of-merida-626`, `event/siege-of-alaro-1229`: generated `sides` name a wrong party; one side is labelled "The defenders of Loss".
 - `person/mohamed-abdullahi-mohamed`: `born_in -> place/mogadishu` is written twice.
 - The canon carries `person/ibn-al-athir-al-jazri`, who is Majd al-Din the hadith scholar; the historian, author of al-Kamil, is `person/ibn-al-athir-izz-al-din` and is not in the canon.
+
+## Seen on the site itself (not in the records)
+
+Found while building and checking the Tour; none of it was changed, because the brief bars reworking existing pages.
+
+- **Forward arrows do not mirror in Arabic.** `site/src/styles/global.css` mirrors arrows with `[dir="rtl"] .flip { transform: scaleX(-1) }`. A browser does not apply a transform to an inline box, so an arrow written as `<span class="flip">→</span>` in running text points right on Arabic pages, back at its own label. It works only where the span is a flex item (inside a `.btn`). `display: inline-block` on that rule fixes every one of them; it is a whole-site rewrite (proposal P-11).
+- **With JavaScript off, every page scrolls sideways on a phone.** The header menu is wider than the screen until the script folds it: 196 px of overflow on the Arabic homepage and 290 px on the English at 390 px wide (`oracle-output/o09-nojs.out`).
+- **The wing pages on the live site do not list cornerstones that have no wing.** Of twelve looked for, the live pages list three (`oracle-output/o13-production-wings.out`): the Living hall does not list the prayer, the pilgrimage, the fast or zakat; the Words hall does not list the Qur'an's record, the Muwatta or Sahih al-Bukhari. The wings this run added close that on this branch (`o13-branch-wings.out`).
+- **Search on the live site does not rank the canon first.** A search for Mecca returns an event of 571 AH first (`oracle-output/o06-search-production.out`; proposal P-5).
+- **The Arabic footer** has one link in English ("Engineering") and one pair of brackets facing the same way around "JSON". The other visible defects the reviewers listed on the homepage and the wing landings are in `vision/defects.json`.
+- **Main's newest release-notes block is dated 12 November 2026**, a day ahead of the calendar on the day it was written (11 November).
+

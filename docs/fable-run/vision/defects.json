@@ -10,7 +10,12 @@
    "description": "In Arabic these arrows point right, back toward their own label; forward in Arabic is left. On the completion page the arrows are new in this round and point the opposite way from the dark button 60 px under the cards and from every \"next\" and \"begin\" button of the tour, all of which point left. On the homepage the pill's arrow pointed left in round one and now points right, so it disagrees with «ابدأ الجولة ←» on the page it opens. Checked by pixel shape.",
    "status": "fixed",
    "where": "tour",
-   "note": "The arrows on the homepage button and after the nine wing names sat in an inline box, where the site's mirroring rule (a transform) has no effect. Each now has a box of its own, so in Arabic it points left, the reading direction."
+   "note": "The arrows on the homepage button and after the nine wing names sat in an inline box, where the site's mirroring rule (a transform) has no effect. Each now has a box of its own, so in Arabic it points left, the reading direction. The third look found every one of them pointing left in Arabic and right in English.",
+   "second_round": {
+    "verdict": "GONE",
+    "seen": "Every forward arrow named in the row now has its head on the left in Arabic (pixel shape: the tall columns of the glyph are at its left end, the thin shaft runs right from them). Homepage pill: `ar-home-desktop.jpg` y≈339, head at x≈488–492, shaft to x≈503; `ar-home-tablet.jpg` y≈333, head at x≈259–262; `ar-home-phone.jpg` y≈368, head at x≈43–46. Last page: all nine heading arrows on `ar-complete-desktop.jpg` (y≈1316, 1466, 1616), on `ar-complete-tablet.jpg` (y≈1270, 1452, 1602) and on `ar-complete-phone.jpg` (nine headings, y≈1301 to 2316), and the dark button under them (y≈1800, 1820, 2465). English twins still point right: the pill on the three `en-home-*` shots (desktop y≈403, head at x≈833–838), nine card arrows and the dark button on `en-complete-desktop.jpg` and `en-complete-tablet.jpg`, eight card arrows on `en-complete-phone.jpg` (the ninth card and the buttons lie below the 2600 px capture cap, so they could not be seen).",
+    "review": "review-X.md"
+   }
   },
   {
    "id": "R2",
@@ -21,7 +26,12 @@
    "description": "The rows hold eight cells and seven cells, and the seven are stretched to the same total width, so the columns do not line up: 8 stands under BH, 9 under the gap between 1 and 2, and so on. It reads as two unrelated strips, not as one ribbon folded in two.",
    "status": "fixed",
    "where": "tour",
-   "note": "On a phone the ribbon's cells no longer stretch: both rows use the same eight-column grid, so the second row's seven cells stand under the first row's first seven."
+   "note": "On a phone the ribbon's cells no longer stretch: both rows use the same eight-column grid, so the second row's seven cells stand under the first row's first seven. The third look measured the second row's cells starting within 2 px of the cells above them.",
+   "second_round": {
+    "verdict": "GONE",
+    "seen": "On all eight phone shots the ribbon is eight cells over seven, every cell 41 to 42 px wide with 4 px between, and each cell of the second row starts at the same x as the cell above it (within 0 to 2 px; the cell of the current century is drawn 3 px larger). Arabic: second row at x=61, 107, 152, 197, 242, 288, 333, the same as the first row's seven inner cells, leaving the slot at the far left empty. English: x=16, 61, 107, 152, 197, 242, 288, leaving the far right slot empty. 8 stands squarely under BH, 9 under 1, and so on to 14 under 6. Ribbon positions: `ar-room-first-phone.jpg` and `ar-room-last-phone.jpg` y≈518–589, `ar-room-badr-phone.jpg` y≈483–554, `ar-complete-phone.jpg` y≈503–574, `en-room-first-phone.jpg` and `en-room-badr-phone.jpg` y≈505–576, `en-room-last-phone.jpg` y≈551–622, `en-complete-phone.jpg` y≈636–707.",
+    "review": "review-X.md"
+   }
   },
   {
    "id": "R3",
@@ -96,9 +106,14 @@
    "screenshots": "ar-home-phone.jpg, ar-home-tablet.jpg, ar-home-desktop.jpg",
    "place": "the pill and the headline above it",
    "description": "The pill sits 10 to 15 px under the lowest stroke of the Arabic headline, the tail of the last letter of «الإسلام», and 44 px above the date pill (measured). It looks pushed up against the title. In English the gap above is 20 px.",
-   "status": "fixed",
+   "status": "registered",
    "where": "tour",
-   "note": "The button has more room under the headline (the gap was raised by about a third)."
+   "note": "Partly fixed. The gap under the headline was raised to 15 to 19 px (it was 9 to 13) and the third look no longer finds the button pressed against the title. The Arabic gap is still a few pixels tighter than the English, because the Arabic headline's letters descend lower. Cosmetic; stands.",
+   "second_round": {
+    "verdict": "CHANGED",
+    "seen": "The pill sits 6 px lower than before. Gap from the lowest ink of the headline to the pill's top edge: 15 px on `ar-home-desktop.jpg` (y=298 to 314), 17 px on `ar-home-tablet.jpg` (y=290 to 308), 19 px on `ar-home-phone.jpg` (y=323 to 343). The same count on the previous round's shots gives 9, 11 and 13 px. The gap under the pill, to the date pill, is unchanged at 44, 43 and 44 px, so the pill is still about three times nearer the headline than the date. The English pill moved by the same amount (now 26, 24 and 25 px; was 19, 18 and 19), so the Arabic gap is still 6 to 11 px tighter than its twin. It no longer looks pressed against the title; it is still the tightest gap in the block.",
+    "review": "review-X.md"
+   }
   },
   {
    "id": "R10",
@@ -224,9 +239,9 @@
    "where": "site",
    "note": "The Tour's own arrow now mirrors in Arabic and points forward, to the left (R1). The older arrows on the Arabic homepage still point right, so the two kinds still disagree. The cause is in the site's shared stylesheet: its mirroring rule is a transform, which a browser does not apply to an inline box, so those arrows have never mirrored. One line in a shared stylesheet would fix every one of them; it is proposed (P-11), not done, because the brief bars reworking existing pages.",
    "second_round": {
-    "verdict": "CHANGED",
-    "seen": "The two kinds of arrow now agree, but the change went the other way from what the row asked: the pill's arrow has been turned to point right, like the older arrows, on all three Arabic homepage shots (measured by pixel shape). Every forward arrow on the Arabic homepage now points right, back toward its own text. See R1.",
-    "review": "review-R.md"
+    "verdict": "STILL THERE",
+    "seen": "The two kinds of arrow disagree again, as in round one. The pill's arrow now points left on all three Arabic homepage shots (see R1). Every older arrow still points right, back toward its own text, measured by pixel shape: «اقرأ القصة» in both day cards (`ar-home-desktop.jpg` y≈694, `ar-home-tablet.jpg` y≈688 and 878, `ar-home-phone.jpg` y≈750 and 970); «كل المسارات» and «متصفح المنهج» (desktop y≈1800, tablet y≈2204); the wing card headings (desktop y≈2008 and 2324, tablet y≈2411; on the phone they lie below the capture cap). The disagreement now also runs between pages: the same nine wing names carry a right arrow on the homepage and a left arrow on the tour's last page.",
+    "review": "review-X.md"
    }
   },
   {
@@ -1092,13 +1107,13 @@
    "screenshots": "all six river shots",
    "place": "the inner edge of the river band on the \"later\" side (left in Arabic, right in English)",
    "description": "cards and the count line are cut hard at the band's edge in mid-word (\"Cornerstones of the m\", a card sliced through its title, on desktop a sliver of a circle) with no fade or other cue that the band continues",
-   "status": "fixed",
+   "status": "registered",
    "where": "tour",
-   "note": "After the second round still saw cards cut hard at the band's far edge: the fade was being drawn underneath the stop cards. It now sits above them and is wider, and the last stretch has more room after its last card.",
+   "note": "Partly fixed. A fade now covers the band's far edge and the third look found nothing cut hard. What is left: on an English phone the first stretch's count line is wider than the part of the band in view, so its number is off-screen until the band is scrolled; and the fade dims text that lies under it (X1, X2).",
    "second_round": {
-    "verdict": "STILL THERE",
-    "seen": "The far edge is a clean rounded rectangle, but what crosses it is still cut hard. Desktop: a sliver of card 6 about 20 px wide with broken letters and a slice of its circle. Tablet: \"Cornerstones of the m\", «أركان المتحف المؤرّخة في هذ» and card 4 cut through its date. Phone: card 2 cut through its title and date; on `en-river-phone.jpg` (y≈715) the first stretch's own count line is cut at \"…this stretch of th\", so its number is off-screen. A darkening of a few levels over the last 35 px is there (measured) but is too faint to read as a fade.",
-    "review": "review-R.md"
+    "verdict": "CHANGED",
+    "seen": "The hard cut is gone on all six river shots; a fade now lies over the far edge. Measured against the previous round's shots: the brightest pixel in each column falls steadily over the last 72 px and reaches the band's own background level (36 to 50 of 255) at the edge; beyond 72 px the two rounds are identical. Desktop: the 20 px sliver of card 6 with its broken letters is dissolved to a ghost (peak 40 to 58, was 154 to 232). Tablet: «أركان المتحف المؤرّخة في هذ» and \"Cornerstones of the m\" and card 4 now fade out instead of ending at a line. Phone: card 2 fades out through its title and date. No card or line of text is cut hard. What is left: on `en-river-phone.jpg` (y≈715) the first stretch's own count line still runs out of the band, so its number is still not shown; it is now dimmed from the word \"of\" onward. On the two desktop shots the fade lies almost wholly over empty band, so it is seen only in the river stripe and in the edge of card 5; with the sliver gone, little there says the band continues.",
+    "review": "review-X.md"
    }
   },
   {
@@ -1284,13 +1299,13 @@
    "screenshots": "en-complete-desktop.jpg, ar-complete-desktop.jpg (grid); all six complete shots (card content)",
    "place": "the nine wing cards",
    "description": "on desktop the cards sit four to a row, leaving the ninth, \"Made\" / \"صُنع\", alone on a third row with three empty slots; the homepage shows the same nine wings three to a row. The cards here also lack the arrow and the record count that the homepage's wing cards carry, so they look like plain text boxes more than doors",
-   "status": "fixed",
+   "status": "registered",
    "where": "tour",
-   "note": "On desktop the nine wing doors are three to a row and each heading carries an arrow. After the second round the arrows also mirror in Arabic (R1).",
+   "note": "Partly fixed. The nine wing doors are three to a row in three full rows, and each heading carries an arrow that points forward in its language (the third look confirmed the direction). The cards still show no count of records: the completion room counts the path just walked, and each wing page counts itself.",
    "second_round": {
     "verdict": "CHANGED",
-    "seen": "The nine cards are three to a row on desktop and tablet, three full rows, and each heading now carries an arrow. No record count. In Arabic the new arrows point the wrong way: R1.",
-    "review": "review-R.md"
+    "seen": "The three things the brief lists are gone. Three cards to a row in three full rows on desktop and tablet (`ar-complete-desktop.jpg` rows y≈1285–1418, 1434–1568, 1583–1750; `en-complete-desktop.jpg` y≈1296–1442, 1458–1577, 1592–1738), one column on the phone; cards within a row are equal in height, and a row is as tall as its longest text (Arabic desktop 134, 135, 168 px; English desktop 147, 120, 147 px). Every heading carries an arrow, pointing left in Arabic and right in English (see R1). What is left of the first-round row: the cards still show no record count, which the homepage's wing cards do.",
+    "review": "review-X.md"
    }
   },
   {
@@ -1713,6 +1728,28 @@
    "status": "registered",
    "where": "site",
    "note": "On an existing wing page of the site, as it was before this run. The brief bars reworking existing pages, so it is listed for the founder and not changed."
+  },
+  {
+   "id": "X1",
+   "review": "review-X.md",
+   "severity": "minor",
+   "screenshots": "en-river-desktop.jpg",
+   "place": "the count line of the second stretch, \"Cornerstones of the museum dated to this stretch of the river: 67\", y≈691, the number at x≈1136–1152",
+   "description": "The new fade covers the number. The line is whole, not cut, and ended 14 px inside the band's edge at full brightness in the previous round; now \"67\" is drawn at about 3.1:1 against the band (was about 11:1), below the 4.5:1 a small text needs, and \"river:\" before it at about 6.2:1 (was 9.4:1). The one figure of that line is the part that is hard to read.",
+   "status": "registered",
+   "where": "tour",
+   "note": "Introduced by this run's own fix for T27. The fade over the band's far edge dims whatever lies under its last 72 px; on the English desktop page that is the number at the end of a count line, at about 3:1 until the band is scrolled. It stands as the cost of a fade wide enough to read as one; restricting the fade to the row of cards would remove it and is the next step."
+  },
+  {
+   "id": "X2",
+   "review": "review-X.md",
+   "severity": "cosmetic",
+   "screenshots": "ar-river-desktop.jpg, ar-river-tablet.jpg, en-river-tablet.jpg",
+   "place": "whole elements standing within 72 px of the band's far edge",
+   "description": "The fade reaches 72 px in, further than what crosses the edge, so things that are not cut are half dimmed. `ar-river-desktop.jpg`: card 5, the last whole card (x≈149–333), has its gold top rule (y≈722) fading out from x≈186 to its corner, its far border dimmed, and the last glyph of its date (y≈878) down from 8.9:1 to 6.2:1; the card looks unevenly lit. `en-river-tablet.jpg`: in the heading \"1st century AH\" (y≈716) the \"AH\" drops from 13:1 to 5.8:1. `ar-river-tablet.jpg`: the last word of the heading «القرن الأول الهجري» (y≈665) drops from 11.7:1 to 7.8:1. All still readable; the headings look as if they were trailing off though they are complete.",
+   "status": "registered",
+   "where": "tour",
+   "note": "The same cause as X1: the fade reaches further in than what crosses the edge, so a card's edge or the last word of a heading is partly dimmed at rest. Cosmetic; stands with X1."
   }
  ]
 }

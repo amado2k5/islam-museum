@@ -1,9 +1,10 @@
 ORACLE 03: Tour prose meets the published standard, deepened only from already-cited sources (statement 3)
 file: scripts/fable/o03_tour_prose.py
-HEAD: f07d617b7301f799232cb151557dc6618ae9513a
+HEAD: ca0886cd1d3c5330c87270ed50bc21118241b598
 baseline (main at branch start): e1d721298ab4b2494a4c8f04d3defcde1808b939; ancestor of HEAD: yes
-uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 2  (the numbers below describe the working tree, not HEAD)
+uncommitted paths under data/ content/ tour/ schema/ scripts/ site/ i18n/: 0
 ------------------------------------------------------------------------------
+The leads below are read from commit e1d721298ab4b2494a4c8f04d3defcde1808b939 (`git show`), for the stops of today's manifest. The publication-bar check is skipped: it reads the working tree.
 stop | record | Arabic words | English words | sentences without a citation (ar/en) | citations outside the baseline source list
  1 | building/kaaba                         |   17 |   29 | 1/2 | -
  2 | event/first-revelation                 |   49 |   74 | 0/1 | -
@@ -15,45 +16,41 @@ stop | record | Arabic words | English words | sentences without a citation (ar/
  8 | event/conquest-of-mecca                |   76 |   26 | 1/2 | -
  9 | practice/hajj                          |   34 |   48 | 0/0 | -
 10 | person/muhammad                        |   22 |   32 | 0/1 | -
-11 | work/quran                             |   40 |   65 | 2/3 | -
-12 | person/abu-bakr                        |   35 |   47 | 1/2 | -
-13 | person/umar-ibn-al-khattab             |   26 |   46 | 2/3 | -
-14 | person/ali-ibn-abi-talib               |   45 |   64 | 1/1 | -
-15 | person/aisha                           |   23 |   38 | 2/2 | -
-16 | building/dome-of-the-rock              |   21 |   30 | 1/1 | -
-17 | person/umar-ibn-abd-al-aziz            |   25 |   38 | 0/0 | -
-18 | place/baghdad                          |   11 |   20 | 1/1 | -
-19 | person/malik-ibn-anas                  |   27 |   46 | 1/2 | -
-20 | person/al-khwarizmi                    |   61 |   87 | 1/2 | -
-21 | person/al-bukhari                      |   26 |   33 | 0/0 | -
-22 | person/al-tabari                       |   27 |   38 | 1/1 | -
-23 | place/cairo                            |   11 |   20 | 1/2 | -
-24 | building/al-azhar                      |   22 |   35 | 1/1 | -
-25 | person/ibn-sina                        |   27 |   38 | 2/2 | -
-26 | person/al-ghazali-abu-hamid            |   28 |   45 | 0/0 | -
-27 | work/ihya-ulum-al-din                  |   51 |   86 | 0/0 | -
-28 | person/ibn-rushd                       |   42 |   62 | 0/0 | -
-29 | event/sack-of-baghdad-656              |   24 |   36 | 1/1 | -
-30 | person/baybars                         |  119 |  192 | 4/4 | -
-31 | person/ibn-taymiyya                    |   19 |   25 | 1/1 | -
-32 | person/ibn-battuta-muhammad            |   38 |   52 | 1/1 | -
-33 | person/ibn-khaldun                     |   23 |   38 | 1/1 | -
-34 | event/conquest-constantinople-857      |   32 |   24 | 0/0 | -
-35 | event/fall-of-granada-897              |   26 |   31 | 0/0 | -
-36 | person/sulayman-al-qanuni              |   22 |   34 | 1/1 | -
-37 | building/taj-mahal                     |   33 |   48 | 0/0 | -
-38 | person/ahmed-iii-uthmani               |   90 |  142 | 4/4 | -
-39 | person/mahmud-ii-uthmani               |   11 |   15 | 0/0 | -
-40 | person/malcolm-x                       |   20 |   34 | 0/1 | -
-41 | period/contemporary-era                |   28 |   40 | 3/3 | -
-42 | object/kiswa                           |   16 |   30 | 0/0 | -
+11 | person/abu-bakr                        |   35 |   47 | 1/2 | -
+12 | person/umar-ibn-al-khattab             |   26 |   46 | 2/3 | -
+13 | person/ali-ibn-abi-talib               |   45 |   64 | 1/1 | -
+14 | person/aisha                           |   23 |   38 | 2/2 | -
+15 | building/dome-of-the-rock              |   21 |   30 | 1/1 | -
+16 | person/umar-ibn-abd-al-aziz            |   25 |   38 | 0/0 | -
+17 | place/baghdad                          |   11 |   20 | 1/1 | -
+18 | person/malik-ibn-anas                  |   27 |   46 | 1/2 | -
+19 | person/al-khwarizmi                    |   61 |   87 | 1/2 | -
+20 | person/al-bukhari                      |   26 |   33 | 0/0 | -
+21 | person/al-tabari                       |   27 |   38 | 1/1 | -
+22 | place/cairo                            |   11 |   20 | 1/2 | -
+23 | building/al-azhar                      |   22 |   35 | 1/1 | -
+24 | person/ibn-sina                        |   27 |   38 | 2/2 | -
+25 | person/al-ghazali-abu-hamid            |   28 |   45 | 0/0 | -
+26 | work/ihya-ulum-al-din                  |   51 |   86 | 0/0 | -
+27 | person/ibn-rushd                       |   42 |   62 | 0/0 | -
+28 | event/sack-of-baghdad-656              |   24 |   36 | 1/1 | -
+29 | person/baybars                         |  119 |  192 | 4/4 | -
+30 | person/ibn-taymiyya                    |   19 |   25 | 1/1 | -
+31 | person/ibn-battuta-muhammad            |   38 |   52 | 1/1 | -
+32 | person/ibn-khaldun                     |   23 |   38 | 1/1 | -
+33 | event/conquest-constantinople-857      |   32 |   24 | 0/0 | -
+34 | event/fall-of-granada-897              |   26 |   31 | 0/0 | -
+35 | person/sulayman-al-qanuni              |   22 |   34 | 1/1 | -
+36 | building/taj-mahal                     |   33 |   48 | 0/0 | -
+37 | person/ahmed-iii-uthmani               |   90 |  142 | 4/4 | -
+38 | person/mahmud-ii-uthmani               |   11 |   15 | 0/0 | -
+39 | person/malcolm-x                       |   20 |   34 | 0/1 | -
+40 | object/kiswa                           |   16 |   30 | 0/0 | -
 
 [PASS] every stop has an Arabic and an English lead
-[FAIL] every lead is 150 to 250 words in both languages: 83 outside the range: building/kaaba [ar] 17; building/kaaba [en] 29; event/first-revelation [ar] 49; event/first-revelation [en] 74; person/khadija [ar] 22; person/khadija [en] 32; event/hijra [ar] 20; event/hijra [en] 29; event/battle-of-badr [ar] 37; event/battle-of-badr [en] 68; concept/five-pillars [ar] 34; concept/five-pillars [en] 51; practice/salah [ar] 28; practice/salah [en] 38; event/conquest-of-mecca [ar] 76; event/conquest-of-mecca [en] 26; practice/hajj [ar] 34; practice/hajj [en] 48; person/muhammad [ar] 22; person/muhammad [en] 32; work/quran [ar] 40; work/quran [en] 65; person/abu-bakr [ar] 35; person/abu-bakr [en] 47; person/umar-ibn-al-khattab [ar] 26; person/umar-ibn-al-khattab [en] 46; person/ali-ibn-abi-talib [ar] 45; person/ali-ibn-abi-talib [en] 64; person/aisha [ar] 23; person/aisha [en] 38; building/dome-of-the-rock [ar] 21; building/dome-of-the-rock [en] 30; person/umar-ibn-abd-al-aziz [ar] 25; person/umar-ibn-abd-al-aziz [en] 38; place/baghdad [ar] 11; place/baghdad [en] 20; person/malik-ibn-anas [ar] 27; person/malik-ibn-anas [en] 46; person/al-khwarizmi [ar] 61; person/al-khwarizmi [en] 87; person/al-bukhari [ar] 26; person/al-bukhari [en] 33; person/al-tabari [ar] 27; person/al-tabari [en] 38; place/cairo [ar] 11; place/cairo [en] 20; building/al-azhar [ar] 22; building/al-azhar [en] 35; person/ibn-sina [ar] 27; person/ibn-sina [en] 38; person/al-ghazali-abu-hamid [ar] 28; person/al-ghazali-abu-hamid [en] 45; work/ihya-ulum-al-din [ar] 51; work/ihya-ulum-al-din [en] 86; person/ibn-rushd [ar] 42; person/ibn-rushd [en] 62; event/sack-of-baghdad-656 [ar] 24; event/sack-of-baghdad-656 [en] 36; person/baybars [ar] 119; person/ibn-taymiyya [ar] 19; person/ibn-taymiyya [en] 25; person/ibn-battuta-muhammad [ar] 38; person/ibn-battuta-muhammad [en] 52; person/ibn-khaldun [ar] 23; person/ibn-khaldun [en] 38; event/conquest-constantinople-857 [ar] 32; event/conquest-constantinople-857 [en] 24; event/fall-of-granada-897 [ar] 26; event/fall-of-granada-897 [en] 31; person/sulayman-al-qanuni [ar] 22; person/sulayman-al-qanuni [en] 34; building/taj-mahal [ar] 33; building/taj-mahal [en] 48; person/ahmed-iii-uthmani [ar] 90; person/ahmed-iii-uthmani [en] 142; person/mahmud-ii-uthmani [ar] 11; person/mahmud-ii-uthmani [en] 15; person/malcolm-x [ar] 20; person/malcolm-x [en] 34; period/contemporary-era [ar] 28; period/contemporary-era [en] 40; object/kiswa [ar] 16; object/kiswa [en] 30
-[FAIL] every sentence of a lead carries a citation: 54 leads with an uncited sentence: building/kaaba [ar] 1; building/kaaba [en] 2; event/first-revelation [en] 1; person/khadija [ar] 2; person/khadija [en] 2; event/hijra [ar] 2; event/hijra [en] 2; event/battle-of-badr [en] 2; event/conquest-of-mecca [ar] 1; event/conquest-of-mecca [en] 2; person/muhammad [en] 1; work/quran [ar] 2; work/quran [en] 3; person/abu-bakr [ar] 1; person/abu-bakr [en] 2; person/umar-ibn-al-khattab [ar] 2; person/umar-ibn-al-khattab [en] 3; person/ali-ibn-abi-talib [ar] 1; person/ali-ibn-abi-talib [en] 1; person/aisha [ar] 2; person/aisha [en] 2; building/dome-of-the-rock [ar] 1; building/dome-of-the-rock [en] 1; place/baghdad [ar] 1; place/baghdad [en] 1; person/malik-ibn-anas [ar] 1; person/malik-ibn-anas [en] 2; person/al-khwarizmi [ar] 1; person/al-khwarizmi [en] 2; person/al-tabari [ar] 1; person/al-tabari [en] 1; place/cairo [ar] 1; place/cairo [en] 2; building/al-azhar [ar] 1; building/al-azhar [en] 1; person/ibn-sina [ar] 2; person/ibn-sina [en] 2; event/sack-of-baghdad-656 [ar] 1; event/sack-of-baghdad-656 [en] 1; person/baybars [ar] 4; person/baybars [en] 4; person/ibn-taymiyya [ar] 1; person/ibn-taymiyya [en] 1; person/ibn-battuta-muhammad [ar] 1; person/ibn-battuta-muhammad [en] 1; person/ibn-khaldun [ar] 1; person/ibn-khaldun [en] 1; person/sulayman-al-qanuni [ar] 1; person/sulayman-al-qanuni [en] 1; person/ahmed-iii-uthmani [ar] 4; person/ahmed-iii-uthmani [en] 4; person/malcolm-x [en] 1; period/contemporary-era [ar] 3; period/contemporary-era [en] 3
+[FAIL] every lead is 150 to 250 words in both languages: 79 outside the range: building/kaaba [ar] 17; building/kaaba [en] 29; event/first-revelation [ar] 49; event/first-revelation [en] 74; person/khadija [ar] 22; person/khadija [en] 32; event/hijra [ar] 20; event/hijra [en] 29; event/battle-of-badr [ar] 37; event/battle-of-badr [en] 68; concept/five-pillars [ar] 34; concept/five-pillars [en] 51; practice/salah [ar] 28; practice/salah [en] 38; event/conquest-of-mecca [ar] 76; event/conquest-of-mecca [en] 26; practice/hajj [ar] 34; practice/hajj [en] 48; person/muhammad [ar] 22; person/muhammad [en] 32; person/abu-bakr [ar] 35; person/abu-bakr [en] 47; person/umar-ibn-al-khattab [ar] 26; person/umar-ibn-al-khattab [en] 46; person/ali-ibn-abi-talib [ar] 45; person/ali-ibn-abi-talib [en] 64; person/aisha [ar] 23; person/aisha [en] 38; building/dome-of-the-rock [ar] 21; building/dome-of-the-rock [en] 30; person/umar-ibn-abd-al-aziz [ar] 25; person/umar-ibn-abd-al-aziz [en] 38; place/baghdad [ar] 11; place/baghdad [en] 20; person/malik-ibn-anas [ar] 27; person/malik-ibn-anas [en] 46; person/al-khwarizmi [ar] 61; person/al-khwarizmi [en] 87; person/al-bukhari [ar] 26; person/al-bukhari [en] 33; person/al-tabari [ar] 27; person/al-tabari [en] 38; place/cairo [ar] 11; place/cairo [en] 20; building/al-azhar [ar] 22; building/al-azhar [en] 35; person/ibn-sina [ar] 27; person/ibn-sina [en] 38; person/al-ghazali-abu-hamid [ar] 28; person/al-ghazali-abu-hamid [en] 45; work/ihya-ulum-al-din [ar] 51; work/ihya-ulum-al-din [en] 86; person/ibn-rushd [ar] 42; person/ibn-rushd [en] 62; event/sack-of-baghdad-656 [ar] 24; event/sack-of-baghdad-656 [en] 36; person/baybars [ar] 119; person/ibn-taymiyya [ar] 19; person/ibn-taymiyya [en] 25; person/ibn-battuta-muhammad [ar] 38; person/ibn-battuta-muhammad [en] 52; person/ibn-khaldun [ar] 23; person/ibn-khaldun [en] 38; event/conquest-constantinople-857 [ar] 32; event/conquest-constantinople-857 [en] 24; event/fall-of-granada-897 [ar] 26; event/fall-of-granada-897 [en] 31; person/sulayman-al-qanuni [ar] 22; person/sulayman-al-qanuni [en] 34; building/taj-mahal [ar] 33; building/taj-mahal [en] 48; person/ahmed-iii-uthmani [ar] 90; person/ahmed-iii-uthmani [en] 142; person/mahmud-ii-uthmani [ar] 11; person/mahmud-ii-uthmani [en] 15; person/malcolm-x [ar] 20; person/malcolm-x [en] 34; object/kiswa [ar] 16; object/kiswa [en] 30
+[FAIL] every sentence of a lead carries a citation: 50 leads with an uncited sentence: building/kaaba [ar] 1; building/kaaba [en] 2; event/first-revelation [en] 1; person/khadija [ar] 2; person/khadija [en] 2; event/hijra [ar] 2; event/hijra [en] 2; event/battle-of-badr [en] 2; event/conquest-of-mecca [ar] 1; event/conquest-of-mecca [en] 2; person/muhammad [en] 1; person/abu-bakr [ar] 1; person/abu-bakr [en] 2; person/umar-ibn-al-khattab [ar] 2; person/umar-ibn-al-khattab [en] 3; person/ali-ibn-abi-talib [ar] 1; person/ali-ibn-abi-talib [en] 1; person/aisha [ar] 2; person/aisha [en] 2; building/dome-of-the-rock [ar] 1; building/dome-of-the-rock [en] 1; place/baghdad [ar] 1; place/baghdad [en] 1; person/malik-ibn-anas [ar] 1; person/malik-ibn-anas [en] 2; person/al-khwarizmi [ar] 1; person/al-khwarizmi [en] 2; person/al-tabari [ar] 1; person/al-tabari [en] 1; place/cairo [ar] 1; place/cairo [en] 2; building/al-azhar [ar] 1; building/al-azhar [en] 1; person/ibn-sina [ar] 2; person/ibn-sina [en] 2; event/sack-of-baghdad-656 [ar] 1; event/sack-of-baghdad-656 [en] 1; person/baybars [ar] 4; person/baybars [en] 4; person/ibn-taymiyya [ar] 1; person/ibn-taymiyya [en] 1; person/ibn-battuta-muhammad [ar] 1; person/ibn-battuta-muhammad [en] 1; person/ibn-khaldun [ar] 1; person/ibn-khaldun [en] 1; person/sulayman-al-qanuni [ar] 1; person/sulayman-al-qanuni [en] 1; person/ahmed-iii-uthmani [ar] 4; person/ahmed-iii-uthmani [en] 4; person/malcolm-x [en] 1
 [PASS] no lead cites a source the record did not already list at the baseline
 [PASS] no typed honorific or Qur'an bracket in a lead
-  cite-check: 42 pass, 0 fail of 42 record(s) — the bar is citations to defined sources plus recorded provenance (docs/agents/publication-standard.md)
-[PASS] the publication bar holds for every stop (cite-check): cite-check: 42 pass, 0 fail of 42 record(s)
 ------------------------------------------------------------------------------
-RESULT: NOT-GREEN (2 of 6 checks failed: every lead is 150 to 250 words in both languages; every sentence of a lead carries a citation)
+RESULT: NOT-GREEN (2 failed: every lead is 150 to 250 words in both languages; every sentence of a lead carries a citation)

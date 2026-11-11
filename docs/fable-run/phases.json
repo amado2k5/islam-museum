@@ -87,6 +87,23 @@
     "docs/canon.md (absence section corrected)",
     "PROPOSALS P-4 to P-9, NOTICED.md"
    ]
+  },
+  {
+   "n": 7,
+   "title": "What the verifiers caught, the vision pass, the no-JavaScript run, the integration re-run, the ledger",
+   "branch": "fable-run/phase-7-verification",
+   "base": "fable-run/phase-6-search-absences",
+   "final_commit": "ca0886cd1d3c5330c87270ed50bc21118241b598",
+   "final_commit_note": "The last commit that changes anything an oracle measures. The commit after it holds only the captured outputs of the final board run and the written ledger, and cannot name itself.",
+   "pr": 6033,
+   "deliverables": [
+    "5 contradiction fixes reverted, 17 relations removed, 57 narrative findings fixed, the Qur'an stop withdrawn (40 stops)",
+    "docs/fable-run/verifier/ (the fresh-context reports)",
+    "docs/fable-run/vision/ (90 screenshots, the reviewers' lists, the defect register)",
+    "oracles o08 (vision, unchanged pages), o09 (no JavaScript), o10 (the ledger's self-check), o11, the wing probe",
+    "scripts/fable/integrate.sh and the integration outputs",
+    "docs/fable-run/VERIFICATION.md, NUMBERS.md, SHOWCASE.md, PUBLISH.md"
+   ]
   }
  ]
 }

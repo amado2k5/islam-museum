@@ -46,10 +46,10 @@ Closing it honestly means reading each record for relations its own sources supp
 
 | Gap | The boundary that caused it |
 |---|---|
-| The Urdu leads of the 41 Tour records lag the Arabic and English | "Never touch /ur/" (proposal P-9) |
+| The Urdu leads of the 40 Tour records lag the Arabic and English | "Never touch /ur/" (proposal P-9) |
 | Canon-first search is not implemented | "Existing pages are not reworked" (proposal P-5) |
 | The Tour is not listed in the API catalogue, `llms.txt` or the Explore menu | "One new section plus its single entry link" (proposal P-6) |
-| No removal was made, though 70 contradictions point at one | Removals are the founder's decision (proposal P-7) |
+| No removal was made, though for most of the 84 contradictions that stand a removal is the only honest fix | Removals are the founder's decision (proposal P-7) |
 
 ## 5. Things this machine could not do
 
